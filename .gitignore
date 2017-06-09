@@ -1,0 +1,4 @@
+node_modules/
+public/
+.gatsby-context.js
+.DS_Store

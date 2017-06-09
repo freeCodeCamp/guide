@@ -1,0 +1,33 @@
+{
+  "name": "docs-site",
+  "description": "Gatsby example site",
+  "version": "1.0.0",
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "dependencies": {
+    "chroma-js": "^0.7.2",
+    "color-pairs-picker": "^1.3.5",
+    "gatsby": "^0.12.45",
+    "lodash": "^4.17.2",
+    "react-document-title": "^2.0.3",
+    "react-motion": "^0.1.0",
+    "react-responsive-grid": "^0.3.3",
+    "react-typography": "^0.15.0",
+    "typography": "^0.15.8",
+    "typography-plugin-code": "^0.15.9",
+    "underscore.string": "^3.2.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^0.12.0"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "deploy": "gatsby build --prefix-links && gh-pages -d public"
+  }
+}
