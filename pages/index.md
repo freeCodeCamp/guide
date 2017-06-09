@@ -2,7 +2,7 @@
 title: "Security Guides"
 ---
 
-## How to encrypt your entire life in less than an hour
+### [Explore the guide](./docs/)
 
 Lorem markdownum *formasque* terram, fatum adnuit memores, stipulis
 virgine,

@@ -1,12 +1,8 @@
 siteTitle="FreeCodeCamp"
-siteLogo="freecodecamp_logo.svg"
+siteLogo="https://s3.amazonaws.com/freecodecamp/freecodecamp_logo.svg"
 baseColor = "darkgreen"
 linkPrefix = "/gatsby-starter-documentation"
 docPages = [
   "/docs/",
-  "/docs/getting-started/",
-  "/docs/how-to-run/",
-  "/docs/some-react-code/",
-  "/docs/the-next-step/",
-  "/docs/conclusion/",
+  "/docs/security/",
 ]

@@ -59,7 +59,7 @@ module.exports = React.createClass({
                     color: colors.fg,
                   }}
                 >
-                  <img src={"assets/img/" + config.siteLogo} alt={config.siteTitle}/>
+                  <img src={config.siteLogo} alt={config.siteTitle}/>
                 </Link>
               </Span>
               <Span columns={8} last>
@@ -70,44 +70,10 @@ module.exports = React.createClass({
                     textDecoration: 'none',
                     marginLeft: rhythm(1/2),
                   }}
-                  href="https://github.com/gatsbyjs/gatsby"
+                  href="https://freecodecamp.com/"
                 >
-                  Github
+                  Learn to code for free
                 </a>
-                <Link
-                  to={prefixLink('/examples/')}
-                  style={{
-                    background: examplesActive ? activeColors.bg : colors.bg,
-                    color: examplesActive ? activeColors.fg : colors.fg,
-                    float: 'right',
-                    textDecoration: 'none',
-                    paddingLeft: rhythm(1/2),
-                    paddingRight: rhythm(1/2),
-                    paddingBottom: rhythm(1/2),
-                    marginBottom: rhythm(-1),
-                    paddingTop: rhythm(1),
-                    marginTop: rhythm(-1),
-                  }}
-                >
-                  Examples
-                </Link>
-                <Link
-                  to={prefixLink('/docs/')}
-                  style={{
-                    background: docsActive ? activeColors.bg : colors.bg,
-                    color: docsActive ? activeColors.fg : colors.fg,
-                    float: 'right',
-                    textDecoration: 'none',
-                    paddingLeft: rhythm(1/2),
-                    paddingRight: rhythm(1/2),
-                    paddingBottom: rhythm(1/2),
-                    marginBottom: rhythm(-1),
-                    paddingTop: rhythm(1),
-                    marginTop: rhythm(-1),
-                  }}
-                >
-                  Documentation
-                </Link>
               </Span>
             </Grid>
           </Container>
