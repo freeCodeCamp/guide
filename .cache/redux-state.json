@@ -1,0 +1,210 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "component": "/Users/kuriakinzeng/Developer/fcc/guides/.cache/dev-404-page.js",
+      "path": "/dev-404-page/",
+      "componentChunkName": "page-component---cache-dev-404-page-js",
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
+      "context": {},
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "mediaType": "application/json",
+        "type": "SitePage",
+        "content": "{\"component\":\"/Users/kuriakinzeng/Developer/fcc/guides/.cache/dev-404-page.js\",\"path\":\"/dev-404-page/\",\"componentChunkName\":\"page-component---cache-dev-404-page-js\",\"jsonName\":\"dev-404-page.json\",\"internalComponentName\":\"ComponentDev404Page\",\"context\":{}}",
+        "contentDigest": "347511957e9a9280b66462e5fb7a8005",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-page-creator": {
+      "resolve": "/Users/kuriakinzeng/Developer/fcc/guides/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "name": "component-page-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "packageJson": {
+        "name": "component-page-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/pages",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT"
+      },
+      "id": "Plugin component-page-creator",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a6fdaa78962dc0e96cfa2667385fd1a2",
+        "mediaType": "application/json",
+        "content": "{\"resolve\":\"/Users/kuriakinzeng/Developer/fcc/guides/node_modules/gatsby/dist/internal-plugins/component-page-creator\",\"name\":\"component-page-creator\",\"version\":\"1.0.0\",\"pluginOptions\":{\"plugins\":[]}}",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin internal-data-bridge": {
+      "resolve": "/Users/kuriakinzeng/Developer/fcc/guides/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT"
+      },
+      "id": "Plugin internal-data-bridge",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "418159f1f0167c32f117c4a2f4e2c1c2",
+        "mediaType": "application/json",
+        "content": "{\"resolve\":\"/Users/kuriakinzeng/Developer/fcc/guides/node_modules/gatsby/dist/internal-plugins/internal-data-bridge\",\"name\":\"internal-data-bridge\",\"version\":\"1.0.0\",\"pluginOptions\":{\"plugins\":[]}}",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin dev-404-page": {
+      "resolve": "/Users/kuriakinzeng/Developer/fcc/guides/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT"
+      },
+      "id": "Plugin dev-404-page",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a918f9149561739c5558823ef09389ee",
+        "mediaType": "application/json",
+        "content": "{\"resolve\":\"/Users/kuriakinzeng/Developer/fcc/guides/node_modules/gatsby/dist/internal-plugins/dev-404-page\",\"name\":\"dev-404-page\",\"version\":\"1.0.0\",\"pluginOptions\":{\"plugins\":[]}}",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin query-runner": {
+      "resolve": "/Users/kuriakinzeng/Developer/fcc/guides/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT"
+      },
+      "id": "Plugin query-runner",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "d1c963355e33db54574267238c52990e",
+        "mediaType": "application/json",
+        "content": "{\"resolve\":\"/Users/kuriakinzeng/Developer/fcc/guides/node_modules/gatsby/dist/internal-plugins/query-runner\",\"name\":\"query-runner\",\"version\":\"1.0.0\",\"pluginOptions\":{\"plugins\":[]}}",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin default-site-plugin": {
+      "resolve": "/Users/kuriakinzeng/Developer/fcc/guides",
+      "name": "default-site-plugin",
+      "version": "n/a",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "packageJson": {
+        "name": "fcc-guides",
+        "description": "FreeCodeCamp Guides",
+        "version": "1.0.0",
+        "main": "n/a",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Multiple Authors <quincy@freecodecamp.com>",
+        "license": "MIT",
+        "dependencies": {
+          "chroma-js": "^0.7.2",
+          "color-pairs-picker": "^1.3.5",
+          "eslint": "^2.0.0",
+          "gatsby": "1.0.0-alpha19",
+          "gatsby-link": "^1.0.0-alpha11-alpha.68e8f9a1",
+          "graphql": "^0.6.0",
+          "lodash": "^4.17.2",
+          "react-document-title": "^2.0.3",
+          "react-motion": "^0.1.0",
+          "react-responsive-grid": "^0.3.3",
+          "react-typography": "^0.15.0",
+          "typography": "^0.15.8",
+          "typography-plugin-code": "^0.15.9",
+          "underscore.string": "^3.2.2"
+        },
+        "devDependencies": {
+          "gh-pages": "^0.12.0"
+        }
+      },
+      "id": "Plugin default-site-plugin",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "d1e16b4a94d4b9a301c6fbe52e74cda2",
+        "mediaType": "application/json",
+        "content": "{\"resolve\":\"/Users/kuriakinzeng/Developer/fcc/guides\",\"name\":\"default-site-plugin\",\"version\":\"n/a\",\"pluginOptions\":{\"plugins\":[]}}",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "FreeCodeCamp",
+        "logo": "https://s3.amazonaws.com/freecodecamp/freecodecamp_logo.svg",
+        "baseColor": "darkgreen",
+        "docPages": [
+          "/docs/",
+          "/docs/security/"
+        ]
+      },
+      "port": "8000",
+      "host": "localhost",
+      "buildTime": "2017-06-10T01:56:36.932Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "79d16bccb328d8b1501a223eea7abed6",
+        "content": "{\"siteMetadata\":{\"title\":\"FreeCodeCamp\",\"logo\":\"https://s3.amazonaws.com/freecodecamp/freecodecamp_logo.svg\",\"baseColor\":\"darkgreen\",\"docPages\":[\"/docs/\",\"/docs/security/\"]},\"port\":\"8000\",\"host\":\"localhost\",\"buildTime\":\"2017-06-10T01:56:36.932Z\"}",
+        "mediaType": "application/json",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "cdbe06a0cf8ddc76451bca7e190efbce"
+  },
+  "pageDataDependencies": {
+    "nodes": {},
+    "connections": {}
+  }
+}

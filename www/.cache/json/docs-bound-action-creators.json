@@ -1,0 +1,671 @@
+{
+    "data": {
+        "allDocumentationJs": {
+            "edges": [
+                {
+                    "node": {
+                        "name": "createJob",
+                        "description": {
+                            "childMarkdownRemark": {
+                                "html": "<p>Create a “job”. This is a long-running process that are generally\nstarted as side-effects to GraphQL queries.\n<a href=\"/docs/packages/gatsby-plugin-sharp/\"><code>gatsby-plugin-sharp</code></a> uses this for\nexample.</p>\n<p>Gatsby doesn’t finish its bootstrap until all jobs are ended.</p>"
+                            }
+                        },
+                        "returns": [],
+                        "examples": [
+                            {
+                                "highlighted": "<span class=\"token function\">createJob</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">{</span> id<span class=\"token punctuation\">:</span> <span class=\"token template-string\"><span class=\"token string\">`write file id: 123`</span></span><span class=\"token punctuation\">,</span> fileName<span class=\"token punctuation\">:</span> <span class=\"token template-string\"><span class=\"token string\">`something.jpeg`</span></span> <span class=\"token punctuation\">}</span><span class=\"token punctuation\">)</span>"
+                            }
+                        ],
+                        "params": [
+                            {
+                                "name": "job",
+                                "type": {
+                                    "name": "Object"
+                                },
+                                "description": {
+                                    "childMarkdownRemark": {
+                                        "html": "<p>A job object with at least an id set</p>"
+                                    }
+                                },
+                                "properties": [
+                                    {
+                                        "name": "id",
+                                        "type": {
+                                            "name": "id"
+                                        },
+                                        "description": {
+                                            "childMarkdownRemark": {
+                                                "html": "<p>The id of the job</p>"
+                                            }
+                                        },
+                                        "properties": null
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "plugin",
+                                "type": null,
+                                "description": null,
+                                "properties": null
+                            }
+                        ]
+                    }
+                },
+                {
+                    "node": {
+                        "name": "createNode",
+                        "description": {
+                            "childMarkdownRemark": {
+                                "html": "<p>Create a new node</p>"
+                            }
+                        },
+                        "returns": [],
+                        "examples": [
+                            {
+                                "highlighted": "<span class=\"token function\">createNode</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">{</span>\n  <span class=\"token comment\" spellcheck=\"true\">// Data for the node.</span>\n  <span class=\"token operator\">...</span>fieldData<span class=\"token punctuation\">,</span>\n  id<span class=\"token punctuation\">:</span> <span class=\"token template-string\"><span class=\"token string\">`a-node-id`</span></span><span class=\"token punctuation\">,</span>\n  parent<span class=\"token punctuation\">:</span> <span class=\"token template-string\"><span class=\"token string\">`the-id-of-the-parent-node`</span></span><span class=\"token punctuation\">,</span>\n  children<span class=\"token punctuation\">:</span> <span class=\"token punctuation\">[</span><span class=\"token punctuation\">]</span><span class=\"token punctuation\">,</span>\n  internal<span class=\"token punctuation\">:</span> <span class=\"token punctuation\">{</span>\n    mediaType<span class=\"token punctuation\">:</span> <span class=\"token template-string\"><span class=\"token string\">`text/x-markdown`</span></span><span class=\"token punctuation\">,</span>\n    type<span class=\"token punctuation\">:</span> <span class=\"token template-string\"><span class=\"token string\">`CoolServiceMarkdownField`</span></span><span class=\"token punctuation\">,</span>\n    content<span class=\"token punctuation\">:</span> JSON<span class=\"token punctuation\">.</span><span class=\"token function\">stringify</span><span class=\"token punctuation\">(</span>fieldData<span class=\"token punctuation\">)</span><span class=\"token punctuation\">,</span>\n    contentDigest<span class=\"token punctuation\">:</span> crypto\n      <span class=\"token punctuation\">.</span><span class=\"token function\">createHash</span><span class=\"token punctuation\">(</span><span class=\"token template-string\"><span class=\"token string\">`md5`</span></span><span class=\"token punctuation\">)</span>\n      <span class=\"token punctuation\">.</span><span class=\"token function\">update</span><span class=\"token punctuation\">(</span>JSON<span class=\"token punctuation\">.</span><span class=\"token function\">stringify</span><span class=\"token punctuation\">(</span>fieldData<span class=\"token punctuation\">)</span><span class=\"token punctuation\">)</span>\n      <span class=\"token punctuation\">.</span><span class=\"token function\">digest</span><span class=\"token punctuation\">(</span><span class=\"token template-string\"><span class=\"token string\">`hex`</span></span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">,</span>\n  <span class=\"token punctuation\">}</span>\n<span class=\"token punctuation\">}</span><span class=\"token punctuation\">)</span>"
+                            }
+                        ],
+                        "params": [
+                            {
+                                "name": "node",
+                                "type": {
+                                    "name": "Object"
+                                },
+                                "description": {
+                                    "childMarkdownRemark": {
+                                        "html": "<p>a node object</p>"
+                                    }
+                                },
+                                "properties": [
+                                    {
+                                        "name": "id",
+                                        "type": {
+                                            "name": "string"
+                                        },
+                                        "description": {
+                                            "childMarkdownRemark": {
+                                                "html": "<p>The node’s ID. Must be globally unique.</p>"
+                                            }
+                                        },
+                                        "properties": null
+                                    },
+                                    {
+                                        "name": "parent",
+                                        "type": {
+                                            "name": "string"
+                                        },
+                                        "description": {
+                                            "childMarkdownRemark": {
+                                                "html": "<p>The ID of the parent’s node. If the node is\nderived from another node, set that node as the parent. Otherwise it can\njust be an empty string.</p>"
+                                            }
+                                        },
+                                        "properties": null
+                                    },
+                                    {
+                                        "name": "children",
+                                        "type": {
+                                            "name": "Array"
+                                        },
+                                        "description": {
+                                            "childMarkdownRemark": {
+                                                "html": "<p>An array of children node IDs. If you’re\ncreating the children nodes while creating the parent node, add the\nchildren node IDs here directly. If you’re adding a child node to a\nparent node created by a plugin, you can’t mutate this value directly\nto add your node id, instead use the action creator <code>createParentChildLink</code>.</p>"
+                                            }
+                                        },
+                                        "properties": null
+                                    },
+                                    {
+                                        "name": "internal",
+                                        "type": {
+                                            "name": "Object"
+                                        },
+                                        "description": {
+                                            "childMarkdownRemark": {
+                                                "html": "<p>node fields that aren’t generally\ninteresting to consumers of node data but are very useful for plugin writers\nand Gatsby core.</p>"
+                                            }
+                                        },
+                                        "properties": [
+                                            {
+                                                "name": "mediaType",
+                                                "type": {
+                                                    "name": "string"
+                                                },
+                                                "description": {
+                                                    "childMarkdownRemark": {
+                                                        "html": "<p>Either an official media type (we use\nmime-db as our source (<a href=\"https://www.npmjs.com/package/mime-db\">https://www.npmjs.com/package/mime-db</a>) or a made-up\none if your data doesn’t fit in any existing bucket. Transformer plugins\nfrequently use node media types for deciding if they should transform a\nnode into a new one. E.g. markdown transformers look for media types of\ntext/x-markdown.</p>"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "name": "type",
+                                                "type": {
+                                                    "name": "string"
+                                                },
+                                                "description": {
+                                                    "childMarkdownRemark": {
+                                                        "html": "<p>An arbitrary globally unique type\nchoosen by the plugin creating the node. Should be descriptive of the\nnode as the type is used in forming GraphQL types so users will query\nfor nodes based on the type choosen here. Nodes of a given type can\nonly be created by one plugin.</p>"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "name": "content",
+                                                "type": {
+                                                    "name": "string"
+                                                },
+                                                "description": {
+                                                    "childMarkdownRemark": {
+                                                        "html": "<p>raw content of the node. Can be\nexcluded if it’d be memory intensive to load in which case you must\ndefine a <code>loadNodeContent</code> function for this node.</p>"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "name": "contentDigest",
+                                                "type": {
+                                                    "name": "string"
+                                                },
+                                                "description": {
+                                                    "childMarkdownRemark": {
+                                                        "html": "<p>the digest for the content\nof this node. Helps Gatsby avoid doing extra work on data that hasn’t\nchanged.</p>"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "plugin",
+                                "type": null,
+                                "description": null,
+                                "properties": null
+                            },
+                            {
+                                "name": "traceId",
+                                "type": null,
+                                "description": null,
+                                "properties": null
+                            }
+                        ]
+                    }
+                },
+                {
+                    "node": {
+                        "name": "createNodeField",
+                        "description": {
+                            "childMarkdownRemark": {
+                                "html": "<p>Extend another node. The new node field is placed under the <code>fields</code>\nkey on the extended node object.</p>\n<p>Once a plugin has claimed a field name the field name can’t be used by\nother plugins.  Also since node’s are immutable, you can’t mutate the node\ndirectly.  So to extend</p>"
+                            }
+                        },
+                        "returns": [],
+                        "examples": [
+                            {
+                                "highlighted": "<span class=\"token function\">createNodeField</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">{</span>\n  node<span class=\"token punctuation\">,</span>\n  fieldName<span class=\"token punctuation\">:</span> <span class=\"token template-string\"><span class=\"token string\">`happiness`</span></span><span class=\"token punctuation\">,</span>\n  fieldValue<span class=\"token punctuation\">:</span> <span class=\"token template-string\"><span class=\"token string\">`is sweet graphql queries`</span></span>\n<span class=\"token punctuation\">}</span><span class=\"token punctuation\">)</span>"
+                            }
+                        ],
+                        "params": [
+                            {
+                                "name": "$0",
+                                "type": {
+                                    "name": "Object"
+                                },
+                                "description": null,
+                                "properties": [
+                                    {
+                                        "name": "node",
+                                        "type": {
+                                            "name": "Object"
+                                        },
+                                        "description": {
+                                            "childMarkdownRemark": {
+                                                "html": "<p>the target node object</p>"
+                                            }
+                                        },
+                                        "properties": null
+                                    },
+                                    {
+                                        "name": "fieldName",
+                                        "type": {
+                                            "name": "string"
+                                        },
+                                        "description": {
+                                            "childMarkdownRemark": {
+                                                "html": "<p>the name for the field</p>"
+                                            }
+                                        },
+                                        "properties": null
+                                    },
+                                    {
+                                        "name": "fieldValue",
+                                        "type": {
+                                            "name": "string"
+                                        },
+                                        "description": {
+                                            "childMarkdownRemark": {
+                                                "html": "<p>the value for the field</p>"
+                                            }
+                                        },
+                                        "properties": null
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "plugin",
+                                "type": null,
+                                "description": null,
+                                "properties": null
+                            },
+                            {
+                                "name": "traceId",
+                                "type": null,
+                                "description": null,
+                                "properties": null
+                            }
+                        ]
+                    }
+                },
+                {
+                    "node": {
+                        "name": "createParentChildLink",
+                        "description": {
+                            "childMarkdownRemark": {
+                                "html": "<p>Creates a link between a parent and child node</p>"
+                            }
+                        },
+                        "returns": [],
+                        "examples": [
+                            {
+                                "highlighted": "<span class=\"token function\">createParentChildLink</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">{</span> parent<span class=\"token punctuation\">:</span> parentNode<span class=\"token punctuation\">,</span> child<span class=\"token punctuation\">:</span> childNode <span class=\"token punctuation\">}</span><span class=\"token punctuation\">)</span>"
+                            }
+                        ],
+                        "params": [
+                            {
+                                "name": "$0",
+                                "type": {
+                                    "name": "Object"
+                                },
+                                "description": null,
+                                "properties": [
+                                    {
+                                        "name": "parent",
+                                        "type": {
+                                            "name": "Object"
+                                        },
+                                        "description": {
+                                            "childMarkdownRemark": {
+                                                "html": "<p>the parent node object</p>"
+                                            }
+                                        },
+                                        "properties": null
+                                    },
+                                    {
+                                        "name": "child",
+                                        "type": {
+                                            "name": "Object"
+                                        },
+                                        "description": {
+                                            "childMarkdownRemark": {
+                                                "html": "<p>the child node object</p>"
+                                            }
+                                        },
+                                        "properties": null
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "plugin",
+                                "type": null,
+                                "description": null,
+                                "properties": null
+                            }
+                        ]
+                    }
+                },
+                {
+                    "node": {
+                        "name": "deleteNode",
+                        "description": {
+                            "childMarkdownRemark": {
+                                "html": "<p>Delete a node</p>"
+                            }
+                        },
+                        "returns": [],
+                        "examples": [
+                            {
+                                "highlighted": "<span class=\"token function\">deleteNode</span><span class=\"token punctuation\">(</span>node<span class=\"token punctuation\">.</span>id<span class=\"token punctuation\">)</span>"
+                            }
+                        ],
+                        "params": [
+                            {
+                                "name": "nodeId",
+                                "type": {
+                                    "name": "string"
+                                },
+                                "description": {
+                                    "childMarkdownRemark": {
+                                        "html": "<p>a node id</p>"
+                                    }
+                                },
+                                "properties": null
+                            },
+                            {
+                                "name": "plugin",
+                                "type": null,
+                                "description": null,
+                                "properties": null
+                            }
+                        ]
+                    }
+                },
+                {
+                    "node": {
+                        "name": "deleteNodes",
+                        "description": {
+                            "childMarkdownRemark": {
+                                "html": "<p>Batch delete nodes</p>"
+                            }
+                        },
+                        "returns": [],
+                        "examples": [
+                            {
+                                "highlighted": "<span class=\"token function\">deleteNodes</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">[</span><span class=\"token template-string\"><span class=\"token string\">`node1`</span></span><span class=\"token punctuation\">,</span> <span class=\"token template-string\"><span class=\"token string\">`node2`</span></span><span class=\"token punctuation\">]</span><span class=\"token punctuation\">)</span>"
+                            }
+                        ],
+                        "params": [
+                            {
+                                "name": "nodes",
+                                "type": {
+                                    "name": "Array"
+                                },
+                                "description": {
+                                    "childMarkdownRemark": {
+                                        "html": "<p>an array of node ids</p>"
+                                    }
+                                },
+                                "properties": null
+                            },
+                            {
+                                "name": "plugin",
+                                "type": null,
+                                "description": null,
+                                "properties": null
+                            }
+                        ]
+                    }
+                },
+                {
+                    "node": {
+                        "name": "deletePage",
+                        "description": {
+                            "childMarkdownRemark": {
+                                "html": "<p>Delete a page</p>"
+                            }
+                        },
+                        "returns": [],
+                        "examples": [
+                            {
+                                "highlighted": "<span class=\"token function\">deletePage</span><span class=\"token punctuation\">(</span>page<span class=\"token punctuation\">)</span>"
+                            }
+                        ],
+                        "params": [
+                            {
+                                "name": "page",
+                                "type": {
+                                    "name": "string"
+                                },
+                                "description": {
+                                    "childMarkdownRemark": {
+                                        "html": "<p>a page object with at least the path set</p>"
+                                    }
+                                },
+                                "properties": null
+                            },
+                            {
+                                "name": "plugin",
+                                "type": null,
+                                "description": null,
+                                "properties": null
+                            }
+                        ]
+                    }
+                },
+                {
+                    "node": {
+                        "name": "endJob",
+                        "description": {
+                            "childMarkdownRemark": {
+                                "html": "<p>End a “job”.</p>\n<p>Gatsby doesn’t finish its bootstrap until all jobs are ended.</p>"
+                            }
+                        },
+                        "returns": [],
+                        "examples": [
+                            {
+                                "highlighted": "<span class=\"token function\">endJob</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">{</span> id<span class=\"token punctuation\">:</span> <span class=\"token template-string\"><span class=\"token string\">`write file id: 123`</span></span> <span class=\"token punctuation\">}</span><span class=\"token punctuation\">)</span>"
+                            }
+                        ],
+                        "params": [
+                            {
+                                "name": "job",
+                                "type": {
+                                    "name": "Object"
+                                },
+                                "description": {
+                                    "childMarkdownRemark": {
+                                        "html": "<p>A job object with at least an id set</p>"
+                                    }
+                                },
+                                "properties": [
+                                    {
+                                        "name": "id",
+                                        "type": {
+                                            "name": "id"
+                                        },
+                                        "description": {
+                                            "childMarkdownRemark": {
+                                                "html": "<p>The id of the job</p>"
+                                            }
+                                        },
+                                        "properties": null
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "plugin",
+                                "type": null,
+                                "description": null,
+                                "properties": null
+                            }
+                        ]
+                    }
+                },
+                {
+                    "node": {
+                        "name": "setJob",
+                        "description": {
+                            "childMarkdownRemark": {
+                                "html": "<p>Set (update) a “job”. Sometimes on really long running jobs you want\nto update the job as it continues.</p>"
+                            }
+                        },
+                        "returns": [],
+                        "examples": [
+                            {
+                                "highlighted": "<span class=\"token function\">setJob</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">{</span> id<span class=\"token punctuation\">:</span> <span class=\"token template-string\"><span class=\"token string\">`write file id: 123`</span></span><span class=\"token punctuation\">,</span> progress<span class=\"token punctuation\">:</span> <span class=\"token number\">50</span> <span class=\"token punctuation\">}</span><span class=\"token punctuation\">)</span>"
+                            }
+                        ],
+                        "params": [
+                            {
+                                "name": "job",
+                                "type": {
+                                    "name": "Object"
+                                },
+                                "description": {
+                                    "childMarkdownRemark": {
+                                        "html": "<p>A job object with at least an id set</p>"
+                                    }
+                                },
+                                "properties": [
+                                    {
+                                        "name": "id",
+                                        "type": {
+                                            "name": "id"
+                                        },
+                                        "description": {
+                                            "childMarkdownRemark": {
+                                                "html": "<p>The id of the job</p>"
+                                            }
+                                        },
+                                        "properties": null
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "plugin",
+                                "type": null,
+                                "description": null,
+                                "properties": null
+                            }
+                        ]
+                    }
+                },
+                {
+                    "node": {
+                        "name": "setPluginStatus",
+                        "description": {
+                            "childMarkdownRemark": {
+                                "html": "<p>Set plugin status. A plugin can use this to save status keys e.g. the last\nit fetched something. These values are persisted between runs of Gatsby.</p>"
+                            }
+                        },
+                        "returns": [],
+                        "examples": [
+                            {
+                                "highlighted": "<span class=\"token function\">setPluginStatus</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">{</span> lastFetched<span class=\"token punctuation\">:</span> Date<span class=\"token punctuation\">.</span><span class=\"token function\">now</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span> <span class=\"token punctuation\">}</span><span class=\"token punctuation\">)</span>"
+                            }
+                        ],
+                        "params": [
+                            {
+                                "name": "status",
+                                "type": {
+                                    "name": "Object"
+                                },
+                                "description": {
+                                    "childMarkdownRemark": {
+                                        "html": "<p>An object with arbitrary values set</p>"
+                                    }
+                                },
+                                "properties": null
+                            },
+                            {
+                                "name": "plugin",
+                                "type": null,
+                                "description": null,
+                                "properties": null
+                            }
+                        ]
+                    }
+                },
+                {
+                    "node": {
+                        "name": "touchNode",
+                        "description": {
+                            "childMarkdownRemark": {
+                                "html": "<p>“Touch” a node. Tells Gatsby a node still exists and shouldn’t\nbe garbage collected. Primarily useful for source plugins fetching\nnodes from a remote system that can return only nodes that have\nupdated. The source plugin then touches all the nodes that haven’t\nupdated but still exist so Gatsby knows to keep them.</p>"
+                            }
+                        },
+                        "returns": [],
+                        "examples": [
+                            {
+                                "highlighted": "<span class=\"token function\">touchNode</span><span class=\"token punctuation\">(</span><span class=\"token template-string\"><span class=\"token string\">`a-node-id`</span></span><span class=\"token punctuation\">)</span>"
+                            }
+                        ],
+                        "params": [
+                            {
+                                "name": "nodeId",
+                                "type": {
+                                    "name": "string"
+                                },
+                                "description": {
+                                    "childMarkdownRemark": {
+                                        "html": "<p>The id of a node.</p>"
+                                    }
+                                },
+                                "properties": null
+                            },
+                            {
+                                "name": "plugin",
+                                "type": null,
+                                "description": null,
+                                "properties": null
+                            }
+                        ]
+                    }
+                },
+                {
+                    "node": {
+                        "name": null,
+                        "description": {
+                            "childMarkdownRemark": {
+                                "html": "<p>Create a page. See <a href=\"https://www.gatsbyjs.org/docs/creating-and-modifying-pages/\">https://www.gatsbyjs.org/docs/creating-and-modifying-pages/</a>\nfor detailed documenation about creating pages.</p>"
+                            }
+                        },
+                        "returns": [],
+                        "examples": [
+                            {
+                                "highlighted": "<span class=\"token function\">createPage</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">{</span>\n  path<span class=\"token punctuation\">:</span> <span class=\"token template-string\"><span class=\"token string\">`/my-sweet-new-page/`</span></span><span class=\"token punctuation\">,</span>\n  component<span class=\"token punctuation\">:</span> path<span class=\"token punctuation\">.</span><span class=\"token function\">resolve</span><span class=\"token punctuation\">(</span>'<span class=\"token punctuation\">.</span><span class=\"token operator\">/</span>src<span class=\"token operator\">/</span>templates<span class=\"token operator\">/</span>my<span class=\"token operator\">-</span>sweet<span class=\"token operator\">-</span><span class=\"token keyword\">new</span><span class=\"token operator\">-</span>page<span class=\"token punctuation\">.</span>js<span class=\"token template-string\"><span class=\"token string\">`),\n  // context gets passed in as props to the page as well\n  // as into the page/template's GraphQL query.\n  context: {\n    id: `</span></span><span class=\"token number\">123456</span>`<span class=\"token punctuation\">,</span>\n  <span class=\"token punctuation\">}</span><span class=\"token punctuation\">,</span>\n<span class=\"token punctuation\">}</span><span class=\"token punctuation\">)</span>"
+                            }
+                        ],
+                        "params": [
+                            {
+                                "name": "page",
+                                "type": {
+                                    "name": "Object"
+                                },
+                                "description": {
+                                    "childMarkdownRemark": {
+                                        "html": "<p>a page object</p>"
+                                    }
+                                },
+                                "properties": [
+                                    {
+                                        "name": "path",
+                                        "type": {
+                                            "name": "string"
+                                        },
+                                        "description": {
+                                            "childMarkdownRemark": {
+                                                "html": "<p>Any valid URL. Must start with a forward slash</p>"
+                                            }
+                                        },
+                                        "properties": null
+                                    },
+                                    {
+                                        "name": "component",
+                                        "type": {
+                                            "name": "string"
+                                        },
+                                        "description": {
+                                            "childMarkdownRemark": {
+                                                "html": "<p>The absolute path to the component for this page</p>"
+                                            }
+                                        },
+                                        "properties": null
+                                    },
+                                    {
+                                        "name": "context",
+                                        "type": {
+                                            "name": "Object"
+                                        },
+                                        "description": {
+                                            "childMarkdownRemark": {
+                                                "html": "<p>Context data for this page. Passed as props\nto the component <code>this.props.pathContext</code> as well as to the graphql query\nas graphql arguments.</p>"
+                                            }
+                                        },
+                                        "properties": null
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "pathContext": {}
+}
