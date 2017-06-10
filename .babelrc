@@ -1,0 +1,29 @@
+{
+  "sourceMaps": true,
+  // "env": {
+  //   "development": {
+  //     "sourceMaps": "inline"
+  //   },
+  //   "production": {
+  //     "sourceMaps": false
+  //   }
+  // },
+  "presets": [
+    [
+      "env",
+      {
+        "targets": {
+          "node": 4.0
+        }
+      }
+    ],
+    "react",
+    "flow"
+  ],
+  "plugins": [
+    "transform-runtime",
+    "transform-object-rest-spread",
+    "transform-async-to-generator",
+    "transform-flow-strip-types"
+  ]
+}
