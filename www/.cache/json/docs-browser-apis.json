@@ -1,0 +1,194 @@
+{
+    "data": {
+        "allDocumentationJs": {
+            "edges": [
+                {
+                    "node": {
+                        "name": "onClientEntry",
+                        "description": {
+                            "childMarkdownRemark": {
+                                "html": "<p>Called when the Gatsby browser runtime first starts.</p>"
+                            }
+                        },
+                        "returns": [],
+                        "examples": [
+                            {
+                                "highlighted": "exports<span class=\"token punctuation\">.</span>onClientEntry <span class=\"token operator\">=</span> <span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span> <span class=\"token operator\">=</span><span class=\"token operator\">></span> <span class=\"token punctuation\">{</span>\n  console<span class=\"token punctuation\">.</span><span class=\"token function\">log</span><span class=\"token punctuation\">(</span><span class=\"token string\">\"We've started!\"</span><span class=\"token punctuation\">)</span>\n  <span class=\"token function\">callAnalyticsAPI</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span>\n<span class=\"token punctuation\">}</span>"
+                            }
+                        ],
+                        "params": []
+                    }
+                },
+                {
+                    "node": {
+                        "name": "onRouteUpdate",
+                        "description": {
+                            "childMarkdownRemark": {
+                                "html": "<p>Called when the user changes routes</p>"
+                            }
+                        },
+                        "returns": [],
+                        "examples": [
+                            {
+                                "highlighted": "exports<span class=\"token punctuation\">.</span>onRouteUpdate <span class=\"token operator\">=</span> <span class=\"token punctuation\">(</span><span class=\"token punctuation\">{</span> location <span class=\"token punctuation\">}</span><span class=\"token punctuation\">)</span> <span class=\"token operator\">=</span><span class=\"token operator\">></span> <span class=\"token punctuation\">{</span>\n  console<span class=\"token punctuation\">.</span><span class=\"token function\">log</span><span class=\"token punctuation\">(</span><span class=\"token string\">'new pathname'</span><span class=\"token punctuation\">,</span> location<span class=\"token punctuation\">.</span>pathname<span class=\"token punctuation\">)</span>\n<span class=\"token punctuation\">}</span>"
+                            }
+                        ],
+                        "params": [
+                            {
+                                "name": "$0",
+                                "type": {
+                                    "name": "object"
+                                },
+                                "description": null,
+                                "properties": [
+                                    {
+                                        "name": "location",
+                                        "type": {
+                                            "name": "object"
+                                        },
+                                        "description": {
+                                            "childMarkdownRemark": {
+                                                "html": "<p>A location object</p>"
+                                            }
+                                        },
+                                        "properties": null
+                                    },
+                                    {
+                                        "name": "action",
+                                        "type": {
+                                            "name": "object"
+                                        },
+                                        "description": {
+                                            "childMarkdownRemark": {
+                                                "html": "<p>The “action” that caused the route change</p>"
+                                            }
+                                        },
+                                        "properties": null
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "node": {
+                        "name": "replaceRouterComponent",
+                        "description": {
+                            "childMarkdownRemark": {
+                                "html": "<p>Allow a plugin to replace the router component e.g. to use a custom history version.</p>"
+                            }
+                        },
+                        "returns": [],
+                        "examples": [],
+                        "params": [
+                            {
+                                "name": "$0",
+                                "type": {
+                                    "name": "object"
+                                },
+                                "description": null,
+                                "properties": [
+                                    {
+                                        "name": "history",
+                                        "type": {
+                                            "name": "object"
+                                        },
+                                        "description": {
+                                            "childMarkdownRemark": {
+                                                "html": "<p>The history instance to use in the replacement router instance</p>"
+                                            }
+                                        },
+                                        "properties": null
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "node": {
+                        "name": "shouldUpdateScroll",
+                        "description": {
+                            "childMarkdownRemark": {
+                                "html": "<p>Allow a plugin to decide if the “scroll” should update or\nnot on a route change.</p>"
+                            }
+                        },
+                        "returns": [],
+                        "examples": [],
+                        "params": [
+                            {
+                                "name": "$0",
+                                "type": {
+                                    "name": "object"
+                                },
+                                "description": null,
+                                "properties": [
+                                    {
+                                        "name": "prevRouterProps",
+                                        "type": {
+                                            "name": "object"
+                                        },
+                                        "description": {
+                                            "childMarkdownRemark": {
+                                                "html": "<p>The previous state of the router before the route change.</p>"
+                                            }
+                                        },
+                                        "properties": null
+                                    },
+                                    {
+                                        "name": "pathname",
+                                        "type": {
+                                            "name": "object"
+                                        },
+                                        "description": {
+                                            "childMarkdownRemark": {
+                                                "html": "<p>The new pathname</p>"
+                                            }
+                                        },
+                                        "properties": null
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "node": {
+                        "name": "wrapRootComponent",
+                        "description": {
+                            "childMarkdownRemark": {
+                                "html": "<p>Allow a plugin to wrap the root component.</p>"
+                            }
+                        },
+                        "returns": [],
+                        "examples": [],
+                        "params": [
+                            {
+                                "name": "$0",
+                                "type": {
+                                    "name": "object"
+                                },
+                                "description": null,
+                                "properties": [
+                                    {
+                                        "name": "Root",
+                                        "type": {
+                                            "name": "object"
+                                        },
+                                        "description": {
+                                            "childMarkdownRemark": {
+                                                "html": "<p>The “Root” component built by Gatsby.</p>"
+                                            }
+                                        },
+                                        "properties": null
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "pathContext": {}
+}

@@ -1,0 +1,13 @@
+{
+    "data": {
+        "markdownRemark": {
+            "html": "<p>People often serve the front-end React app from the same host and port as their backend implementation.</p>\n<p>To tell the development server to proxy any unknown requests to your API server in development, add a <code>proxy</code> field to your <code>gatsby-config.js</code>, for example:</p>\n<pre><code class=\"language-js\">module<span class=\"token punctuation\">.</span>exports <span class=\"token operator\">=</span> <span class=\"token punctuation\">{</span>\n  proxy<span class=\"token punctuation\">:</span> <span class=\"token punctuation\">{</span>\n    prefix<span class=\"token punctuation\">:</span> <span class=\"token string\">'/api'</span><span class=\"token punctuation\">,</span>\n    url<span class=\"token punctuation\">:</span> <span class=\"token string\">'http://dev-mysite.com/api/'</span>\n  <span class=\"token punctuation\">}</span>\n<span class=\"token punctuation\">}</span></code></pre>\n<p>This way, when you <code>fetch('/api/todos')</code> in development, the development server will recognize that it’s not a static asset, and will proxy your request to <code>http://dev-mysite.com/api/todos</code> as a fallback.</p>\n<p>Keep in mind that <code>proxy</code> only has effect in development (with <code>gatsby develop</code>), and it is up to you to ensure that URLs like <code>/api/todos</code> point to the right thing in production.</p>",
+            "frontmatter": {
+                "title": "Proxying API Requests in Development"
+            }
+        }
+    },
+    "pathContext": {
+        "slug": "/docs/api-proxy/"
+    }
+}

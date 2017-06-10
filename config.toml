@@ -1,8 +1,0 @@
-siteTitle="FreeCodeCamp"
-siteLogo="https://s3.amazonaws.com/freecodecamp/freecodecamp_logo.svg"
-baseColor = "darkgreen"
-linkPrefix = "/gatsby-starter-documentation"
-docPages = [
-  "/docs/",
-  "/docs/security/",
-]
