@@ -1,0 +1,13 @@
+{
+    "data": {
+        "markdownRemark": {
+            "html": "<p>Coming soon.</p>",
+            "frontmatter": {
+                "title": "Design Principles"
+            }
+        }
+    },
+    "pathContext": {
+        "slug": "/docs/design-principles/"
+    }
+}

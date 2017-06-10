@@ -1,0 +1,10 @@
+{
+    "data": {
+        "site": {
+            "siteMetadata": {
+                "title": "Gatsby"
+            }
+        }
+    },
+    "pathContext": {}
+}

@@ -1,0 +1,13 @@
+{
+    "data": {
+        "markdownRemark": {
+            "html": "<p>Rough outline</p>\n<ul>\n<li>Docs expect basic familiarity with React</li>\n<li>All Gatsby site UI build with React components.</li>\n<li>Concise description of why components amazing model for building sites.</li>\n<li>Perhaps link to other good articles on “Why components are amazing”.</li>\n</ul>",
+            "frontmatter": {
+                "title": "Building with Components"
+            }
+        }
+    },
+    "pathContext": {
+        "slug": "/docs/building-with-components/"
+    }
+}
