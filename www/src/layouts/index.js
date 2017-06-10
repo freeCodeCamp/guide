@@ -58,7 +58,6 @@ module.exports = React.createClass({
         >
           <div
             css={{
-              maxWidth: rhythm(36),
               margin: `0 auto`,
               padding: `${rhythm(1 / 3)} ${rhythm(3 / 4)}`,
               fontFamily: typography.options.headerFontFamily.join(`,`),
@@ -213,7 +212,6 @@ module.exports = React.createClass({
         <div
           className={`main-body`}
           css={{
-            maxWidth: rhythm(36),
             margin: `${rhythm(-1 / 2)} auto ${rhythm(1.75)} auto`,
             padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
             paddingTop: 0,

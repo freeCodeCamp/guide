@@ -1005,13 +1005,13 @@
       "mapping": {
         "MarkdownRemark.frontmatter.author": "AuthorYaml"
       },
-      "buildTime": "2017-06-10T04:39:54.328Z",
+      "buildTime": "2017-06-10T05:11:10.895Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "a62bdb07dfca45b029030cef25fc20f6",
-        "content": "{\"siteMetadata\":{\"title\":\"Gatsby\"},\"port\":\"8000\",\"host\":\"localhost\",\"mapping\":{\"MarkdownRemark.frontmatter.author\":\"AuthorYaml\"},\"buildTime\":\"2017-06-10T04:39:54.328Z\"}",
+        "contentDigest": "acee2ee9a82189131be3ddf54d1167bc",
+        "content": "{\"siteMetadata\":{\"title\":\"Gatsby\"},\"port\":\"8000\",\"host\":\"localhost\",\"mapping\":{\"MarkdownRemark.frontmatter.author\":\"AuthorYaml\"},\"buildTime\":\"2017-06-10T05:11:10.895Z\"}",
         "mediaType": "application/json",
         "type": "Site",
         "owner": "internal-data-bridge"
