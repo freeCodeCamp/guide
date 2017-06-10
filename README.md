@@ -13,6 +13,10 @@ npm install
 gatsby develop
 ```
 
+## Troubleshooting
+If you encounter `UNHANDLED REJECTION TypeError: Cannot read property 'internal' of undefined`
+Delete the `.cache` folder within `www`
+
 ## Contributing
 1. Create your feature branch: `git checkout -b my-new-feature`
 2. Commit your changes: `git commit -am 'Add some feature'`
