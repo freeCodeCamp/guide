@@ -375,6 +375,11 @@
         "path": "/tutorial/"
     },
     {
+        "componentChunkName": "page-component---src-pages-blog-index-js",
+        "jsonName": "blog.json",
+        "path": "/blog/"
+    },
+    {
         "componentChunkName": "page-component---src-pages-docs-bound-action-creators-js",
         "jsonName": "docs-bound-action-creators.json",
         "path": "/docs/bound-action-creators/"
@@ -398,11 +403,6 @@
         "componentChunkName": "page-component---src-pages-docs-ssr-apis-js",
         "jsonName": "docs-ssr-apis.json",
         "path": "/docs/ssr-apis/"
-    },
-    {
-        "componentChunkName": "page-component---src-pages-blog-index-js",
-        "jsonName": "blog.json",
-        "path": "/blog/"
     },
     {
         "componentChunkName": "page-component---src-pages-404-js",

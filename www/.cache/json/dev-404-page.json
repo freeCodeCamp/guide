@@ -375,6 +375,11 @@
                 },
                 {
                     "node": {
+                        "path": "/blog/"
+                    }
+                },
+                {
+                    "node": {
                         "path": "/docs/bound-action-creators/"
                     }
                 },
@@ -396,11 +401,6 @@
                 {
                     "node": {
                         "path": "/docs/ssr-apis/"
-                    }
-                },
-                {
-                    "node": {
-                        "path": "/blog/"
                     }
                 },
                 {

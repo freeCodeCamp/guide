@@ -76,11 +76,10 @@ module.exports = React.createClass({
                 src={`https://s3.amazonaws.com/freecodecamp/freecodecamp_logo.svg`}
                 css={{
                   display: `inline-block`,
-                  height: rhythm(1.4),
-                  width: rhythm(8),
-                  marginBottom: 0,
+                  height: rhythm(1.6),
+                  marginTop: rhythm(-0.15),
+                  marginBottom: rhythm(-0.3),
                   marginRight: rhythm(1 / 4),
-                  verticalAlign: `middle`,
                 }}
               />
               <h1
@@ -200,7 +199,7 @@ module.exports = React.createClass({
                 lineHeight: rhythm(1.5),
                 marginRight: rhythm(1 / 2),
                 textDecoration: `none`,
-                verticalAlign: `bottom`,
+                verticalAlign: `middle`,
                 textTransform: `uppercase`,
                 letterSpacing: `0.03em`,
                 position: `relative`,

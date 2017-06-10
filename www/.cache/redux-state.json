@@ -1005,13 +1005,13 @@
       "mapping": {
         "MarkdownRemark.frontmatter.author": "AuthorYaml"
       },
-      "buildTime": "2017-06-10T03:46:24.721Z",
+      "buildTime": "2017-06-10T04:39:54.328Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "c42ac6679ab867a63bbeae4f915b3193",
-        "content": "{\"siteMetadata\":{\"title\":\"Gatsby\"},\"port\":\"8000\",\"host\":\"localhost\",\"mapping\":{\"MarkdownRemark.frontmatter.author\":\"AuthorYaml\"},\"buildTime\":\"2017-06-10T03:46:24.721Z\"}",
+        "contentDigest": "a62bdb07dfca45b029030cef25fc20f6",
+        "content": "{\"siteMetadata\":{\"title\":\"Gatsby\"},\"port\":\"8000\",\"host\":\"localhost\",\"mapping\":{\"MarkdownRemark.frontmatter.author\":\"AuthorYaml\"},\"buildTime\":\"2017-06-10T04:39:54.328Z\"}",
         "mediaType": "application/json",
         "type": "Site",
         "owner": "internal-data-bridge"
@@ -25850,6 +25850,24 @@
         "owner": "internal-data-bridge"
       }
     },
+    "SitePage /blog/": {
+      "path": "/blog/",
+      "component": "/Users/kuriakinzeng/Developer/fcc/guides/www/src/pages/blog/index.js",
+      "componentChunkName": "page-component---src-pages-blog-index-js",
+      "jsonName": "blog.json",
+      "internalComponentName": "ComponentBlog",
+      "context": {},
+      "id": "SitePage /blog/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "mediaType": "application/json",
+        "type": "SitePage",
+        "content": "{\"path\":\"/blog/\",\"component\":\"/Users/kuriakinzeng/Developer/fcc/guides/www/src/pages/blog/index.js\",\"componentChunkName\":\"page-component---src-pages-blog-index-js\",\"jsonName\":\"blog.json\",\"internalComponentName\":\"ComponentBlog\",\"context\":{}}",
+        "contentDigest": "b2c118d859b70aff8fabecdf9d654022",
+        "owner": "internal-data-bridge"
+      }
+    },
     "SitePage /docs/bound-action-creators/": {
       "path": "/docs/bound-action-creators/",
       "component": "/Users/kuriakinzeng/Developer/fcc/guides/www/src/pages/docs/bound-action-creators.js",
@@ -25937,24 +25955,6 @@
         "type": "SitePage",
         "content": "{\"path\":\"/docs/ssr-apis/\",\"component\":\"/Users/kuriakinzeng/Developer/fcc/guides/www/src/pages/docs/ssr-apis.js\",\"componentChunkName\":\"page-component---src-pages-docs-ssr-apis-js\",\"jsonName\":\"docs-ssr-apis.json\",\"internalComponentName\":\"ComponentDocsSsrApis\",\"context\":{}}",
         "contentDigest": "e1531f5320ad9d0cf80c9072f91233ef",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /blog/": {
-      "path": "/blog/",
-      "component": "/Users/kuriakinzeng/Developer/fcc/guides/www/src/pages/blog/index.js",
-      "componentChunkName": "page-component---src-pages-blog-index-js",
-      "jsonName": "blog.json",
-      "internalComponentName": "ComponentBlog",
-      "context": {},
-      "id": "SitePage /blog/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "mediaType": "application/json",
-        "type": "SitePage",
-        "content": "{\"path\":\"/blog/\",\"component\":\"/Users/kuriakinzeng/Developer/fcc/guides/www/src/pages/blog/index.js\",\"componentChunkName\":\"page-component---src-pages-blog-index-js\",\"jsonName\":\"blog.json\",\"internalComponentName\":\"ComponentBlog\",\"context\":{}}",
-        "contentDigest": "b2c118d859b70aff8fabecdf9d654022",
         "owner": "internal-data-bridge"
       }
     },

@@ -10,12 +10,12 @@ exports.components = {
   "page-component---src-pages-404-js": preferDefault(require("/Users/kuriakinzeng/Developer/fcc/guides/www/src/pages/404.js")),
   "page-component---src-pages-index-js": preferDefault(require("/Users/kuriakinzeng/Developer/fcc/guides/www/src/pages/index.js")),
   "page-component---src-pages-tutorial-js": preferDefault(require("/Users/kuriakinzeng/Developer/fcc/guides/www/src/pages/tutorial.js")),
+  "page-component---src-pages-blog-index-js": preferDefault(require("/Users/kuriakinzeng/Developer/fcc/guides/www/src/pages/blog/index.js")),
   "page-component---src-pages-docs-bound-action-creators-js": preferDefault(require("/Users/kuriakinzeng/Developer/fcc/guides/www/src/pages/docs/bound-action-creators.js")),
   "page-component---src-pages-docs-browser-apis-js": preferDefault(require("/Users/kuriakinzeng/Developer/fcc/guides/www/src/pages/docs/browser-apis.js")),
   "page-component---src-pages-docs-index-js": preferDefault(require("/Users/kuriakinzeng/Developer/fcc/guides/www/src/pages/docs/index.js")),
   "page-component---src-pages-docs-node-apis-js": preferDefault(require("/Users/kuriakinzeng/Developer/fcc/guides/www/src/pages/docs/node-apis.js")),
-  "page-component---src-pages-docs-ssr-apis-js": preferDefault(require("/Users/kuriakinzeng/Developer/fcc/guides/www/src/pages/docs/ssr-apis.js")),
-  "page-component---src-pages-blog-index-js": preferDefault(require("/Users/kuriakinzeng/Developer/fcc/guides/www/src/pages/blog/index.js"))
+  "page-component---src-pages-docs-ssr-apis-js": preferDefault(require("/Users/kuriakinzeng/Developer/fcc/guides/www/src/pages/docs/ssr-apis.js"))
 }
 
 exports.json = {
@@ -94,12 +94,12 @@ exports.json = {
   "404.json": require("/Users/kuriakinzeng/Developer/fcc/guides/www/.cache/json/404.json"),
   "index.json": require("/Users/kuriakinzeng/Developer/fcc/guides/www/.cache/json/index.json"),
   "tutorial.json": require("/Users/kuriakinzeng/Developer/fcc/guides/www/.cache/json/tutorial.json"),
+  "blog.json": require("/Users/kuriakinzeng/Developer/fcc/guides/www/.cache/json/blog.json"),
   "docs-bound-action-creators.json": require("/Users/kuriakinzeng/Developer/fcc/guides/www/.cache/json/docs-bound-action-creators.json"),
   "docs-browser-apis.json": require("/Users/kuriakinzeng/Developer/fcc/guides/www/.cache/json/docs-browser-apis.json"),
   "docs.json": require("/Users/kuriakinzeng/Developer/fcc/guides/www/.cache/json/docs.json"),
   "docs-node-apis.json": require("/Users/kuriakinzeng/Developer/fcc/guides/www/.cache/json/docs-node-apis.json"),
   "docs-ssr-apis.json": require("/Users/kuriakinzeng/Developer/fcc/guides/www/.cache/json/docs-ssr-apis.json"),
-  "blog.json": require("/Users/kuriakinzeng/Developer/fcc/guides/www/.cache/json/blog.json"),
   "404-html.json": require("/Users/kuriakinzeng/Developer/fcc/guides/www/.cache/json/404-html.json")
 }
 

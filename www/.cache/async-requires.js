@@ -9,12 +9,12 @@ exports.components = {
   "page-component---src-pages-404-js": require("bundle-loader?lazy&name=page-component---src-pages-404-js!/Users/kuriakinzeng/Developer/fcc/guides/www/src/pages/404.js"),
   "page-component---src-pages-index-js": require("bundle-loader?lazy&name=page-component---src-pages-index-js!/Users/kuriakinzeng/Developer/fcc/guides/www/src/pages/index.js"),
   "page-component---src-pages-tutorial-js": require("bundle-loader?lazy&name=page-component---src-pages-tutorial-js!/Users/kuriakinzeng/Developer/fcc/guides/www/src/pages/tutorial.js"),
+  "page-component---src-pages-blog-index-js": require("bundle-loader?lazy&name=page-component---src-pages-blog-index-js!/Users/kuriakinzeng/Developer/fcc/guides/www/src/pages/blog/index.js"),
   "page-component---src-pages-docs-bound-action-creators-js": require("bundle-loader?lazy&name=page-component---src-pages-docs-bound-action-creators-js!/Users/kuriakinzeng/Developer/fcc/guides/www/src/pages/docs/bound-action-creators.js"),
   "page-component---src-pages-docs-browser-apis-js": require("bundle-loader?lazy&name=page-component---src-pages-docs-browser-apis-js!/Users/kuriakinzeng/Developer/fcc/guides/www/src/pages/docs/browser-apis.js"),
   "page-component---src-pages-docs-index-js": require("bundle-loader?lazy&name=page-component---src-pages-docs-index-js!/Users/kuriakinzeng/Developer/fcc/guides/www/src/pages/docs/index.js"),
   "page-component---src-pages-docs-node-apis-js": require("bundle-loader?lazy&name=page-component---src-pages-docs-node-apis-js!/Users/kuriakinzeng/Developer/fcc/guides/www/src/pages/docs/node-apis.js"),
-  "page-component---src-pages-docs-ssr-apis-js": require("bundle-loader?lazy&name=page-component---src-pages-docs-ssr-apis-js!/Users/kuriakinzeng/Developer/fcc/guides/www/src/pages/docs/ssr-apis.js"),
-  "page-component---src-pages-blog-index-js": require("bundle-loader?lazy&name=page-component---src-pages-blog-index-js!/Users/kuriakinzeng/Developer/fcc/guides/www/src/pages/blog/index.js")
+  "page-component---src-pages-docs-ssr-apis-js": require("bundle-loader?lazy&name=page-component---src-pages-docs-ssr-apis-js!/Users/kuriakinzeng/Developer/fcc/guides/www/src/pages/docs/ssr-apis.js")
 }
 
 exports.json = {
@@ -93,12 +93,12 @@ exports.json = {
   "404.json": require("bundle-loader?lazy&name=path---404!/Users/kuriakinzeng/Developer/fcc/guides/www/.cache/json/404.json"),
   "index.json": require("bundle-loader?lazy&name=path---index!/Users/kuriakinzeng/Developer/fcc/guides/www/.cache/json/index.json"),
   "tutorial.json": require("bundle-loader?lazy&name=path---tutorial!/Users/kuriakinzeng/Developer/fcc/guides/www/.cache/json/tutorial.json"),
+  "blog.json": require("bundle-loader?lazy&name=path---blog!/Users/kuriakinzeng/Developer/fcc/guides/www/.cache/json/blog.json"),
   "docs-bound-action-creators.json": require("bundle-loader?lazy&name=path---docs-bound-action-creators!/Users/kuriakinzeng/Developer/fcc/guides/www/.cache/json/docs-bound-action-creators.json"),
   "docs-browser-apis.json": require("bundle-loader?lazy&name=path---docs-browser-apis!/Users/kuriakinzeng/Developer/fcc/guides/www/.cache/json/docs-browser-apis.json"),
   "docs.json": require("bundle-loader?lazy&name=path---docs!/Users/kuriakinzeng/Developer/fcc/guides/www/.cache/json/docs.json"),
   "docs-node-apis.json": require("bundle-loader?lazy&name=path---docs-node-apis!/Users/kuriakinzeng/Developer/fcc/guides/www/.cache/json/docs-node-apis.json"),
   "docs-ssr-apis.json": require("bundle-loader?lazy&name=path---docs-ssr-apis!/Users/kuriakinzeng/Developer/fcc/guides/www/.cache/json/docs-ssr-apis.json"),
-  "blog.json": require("bundle-loader?lazy&name=path---blog!/Users/kuriakinzeng/Developer/fcc/guides/www/.cache/json/blog.json"),
   "404-html.json": require("bundle-loader?lazy&name=path---404-html!/Users/kuriakinzeng/Developer/fcc/guides/www/.cache/json/404-html.json")
 }
 
