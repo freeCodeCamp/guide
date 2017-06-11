@@ -1,6 +1,6 @@
 /*
 *  Runnging this script will build a file (pagesArray.txt)
-*  which contains an array that should be copy/pasted into 
+*  which contains an array that should be copy/pasted into
 *  config.toml, assigned to docPages
 */
 
