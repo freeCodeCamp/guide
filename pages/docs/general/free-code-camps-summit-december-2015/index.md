@@ -1,5 +1,6 @@
 ---
 title: "Free Code Camp's Summit December 2015"
+parent: "general"
 ---
 
 [Free Code Camp's December Summit](https://youtu.be/TsIzthxhTHc)

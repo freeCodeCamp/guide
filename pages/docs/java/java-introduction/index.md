@@ -1,5 +1,6 @@
 ---
 title: "Java Introduction"
+parent: "java"
 ---
 
 # Java Introduction

@@ -1,5 +1,6 @@
 ---
 title: "Python Decorators"
+parent: "python"
 ---
 
 Decorators essentially work as wrappers. They modify the behaviour of the code before and after a target function execution, without the need to modify the function itself, augmenting the original functionality, thus decorating it.

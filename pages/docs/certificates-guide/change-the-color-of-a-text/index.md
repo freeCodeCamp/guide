@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Change the color of a Text"
+title: "Change the color of a Text"
+parent: "certificates-guide"
 ---
 
 CSS allows us to change many styles. To change the color of an element we use `color`.

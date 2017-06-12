@@ -1,5 +1,6 @@
 ---
 title: "Java Docs: Access Modifiers"
+parent: "java"
 ---
 
 # Java Access Modifiers

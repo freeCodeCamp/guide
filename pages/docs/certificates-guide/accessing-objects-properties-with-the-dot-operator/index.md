@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Accessing Objects Properties with the Dot Operator"
+title: "Accessing Objects Properties with the Dot Operator"
+parent: "certificates-guide"
 ---
 
 There are two ways to access the properties of an object: the dot operator (`.`) and bracket notation (`[]`), similar to an array.

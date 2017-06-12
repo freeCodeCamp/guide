@@ -1,5 +1,6 @@
 ---
 title: "Clojure Collections"
+parent: "clojure"
 ---
 
 One of Clojure's main positives is that it has quite a few different kinds of sequence: vectors, lists, hashmaps, _oh my!_ And each different type of collections has its own upsides, downsides, and a whole host of useful functions that operate on them.

@@ -1,5 +1,6 @@
 ---
 title: "Free Code Camp logo"
+parent: "general"
 ---
 
 <div class="lightbox-wrapper">[![Free Code Camp's logo](//discourse-user-assets.s3.amazonaws.com/optimized/2X/c/cf6e8e0a75acb7aa900eb304270a6407ae1d9e2c_1_690x388.jpg)

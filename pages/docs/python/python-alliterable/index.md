@@ -1,5 +1,6 @@
 ---
 title: "Python all(iterable)"
+parent: "python"
 ---
 
 `all()` is a built-in function in Python 3, to check if all items of an [_iterable_](https://docs.python.org/3/glossary.html#term-iterable) is `True`. It takes one argument, `iterable`.

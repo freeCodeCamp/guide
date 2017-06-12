@@ -1,5 +1,6 @@
 ---
 title: "JavaScript parseInt()"
+parent: "javascript"
 ---
 
 The `parseInt()` function parses a string argument and returns an integer of the specified `radix` (the base in mathematical numeral systems).

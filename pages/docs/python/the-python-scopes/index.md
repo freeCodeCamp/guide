@@ -1,5 +1,6 @@
 ---
 title: "The Python Scopes"
+parent: "python"
 ---
 
 **TODO: NOTE**

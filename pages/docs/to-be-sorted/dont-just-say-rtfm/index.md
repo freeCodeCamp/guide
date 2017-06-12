@@ -1,5 +1,6 @@
 ---
 title: "Don't just say RTFM"
+parent: "to-be-sorted"
 ---
 
 RTFM comments generally useless

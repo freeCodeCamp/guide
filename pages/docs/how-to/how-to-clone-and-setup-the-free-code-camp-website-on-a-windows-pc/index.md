@@ -1,5 +1,6 @@
 ---
 title: "How to clone and setup the Free Code Camp website on a Windows pc"
+parent: "how-to"
 ---
 
 This list works with the freeCodeCamp site and has been tested on this [Angular tutorial](https://docs.angularjs.org/tutorial) as well. Setting up the development environment on a Windows PC is easy, although it will likely give a lot of errors first in the process. The important part is to correct these errors.

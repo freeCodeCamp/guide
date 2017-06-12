@@ -1,5 +1,6 @@
 ---
 title: "freeCodeCamp Algorithm Bubble Sort Guide"
+parent: "to-be-sorted"
 ---
 
 Bubble sort is a simple sorting algorithm. This sorting algorithm is comparison based algorithm in which each pair of adjacent elements is  

@@ -1,5 +1,6 @@
 ---
 title: "JavaScript Tutorials and other Resources"
+parent: "javascript"
 ---
 
 *   [JavaScript for Cats](http://jsforcats.com/)

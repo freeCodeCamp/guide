@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Link to External Pages with Anchor Elements"
+title: "Link to External Pages with Anchor Elements"
+parent: "certificates-guide"
 ---
 
 `a` elements, also known as anchor elements, are used to link to content outside of the current page.

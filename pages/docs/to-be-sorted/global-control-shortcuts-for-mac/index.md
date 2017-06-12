@@ -1,5 +1,6 @@
 ---
 title: "Global Control Shortcuts for Mac"
+parent: "to-be-sorted"
 ---
 
 These Global Control Shortcuts for Mac will save you hours by speeding up your typing.

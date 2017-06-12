@@ -1,5 +1,6 @@
 ---
 title: "Java Virtual Machine"
+parent: "java"
 ---
 
 # The Java Virtual Machine (JVM)

@@ -1,5 +1,6 @@
 ---
 title: "Free Code Camp Cost"
+parent: "general"
 ---
 
 We will always be completely free for both students and for nonprofits.

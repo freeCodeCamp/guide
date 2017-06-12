@@ -1,5 +1,6 @@
 ---
 title: "Free Code Camp Twitch Account"
+parent: "general"
 ---
 
 Twitch is a popular live streaming service that Free Code Camp moved away from

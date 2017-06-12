@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Target a Specific Child of an Element Using jQuery"
+title: "Target a Specific Child of an Element Using jQuery"
+parent: "certificates-guide"
 ---
 
 jQuery uses CSS Selectors to target elements. `target:nth-child(n)` css selector allows you to select all the nth element with the target class or element type.

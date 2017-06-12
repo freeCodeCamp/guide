@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Save Your Code Revision Forever with Git"
+title: "Save Your Code Revision Forever with Git"
+parent: "certificates-guide"
 ---
 
 For the Git Challenges you just have to follow the instructions closely. From how to create your [c9](http://c9.io/) account to completing the tutorial.

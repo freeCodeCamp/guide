@@ -1,5 +1,6 @@
 ---
 title: "Clojure Conditionals"
+parent: "clojure"
 ---
 
 You're not going to get anywhere in a language if all you can do is define functions that print things and do simple arithmetic. Conditionals and logic are a fundamental part of making code that does interesting, useful things. Try and imagine a world without logic in programs: you wouldn't even be able to simple things, like checking if two numbers are equal!

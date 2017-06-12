@@ -1,5 +1,6 @@
 ---
 title: "Known Issues With Codepen"
+parent: "to-be-sorted"
 ---
 
 Free Code Camp learners are encouraged to use [Codepen.io](http://www.codepen.io/) to put together projects, and Codepen is a fantastic resource for quickly putting together useable code. However, Codepen does introduce an additional level of abstraction into the process of debugging code. Here are some known issues that can trip you up in Codepen, if you're not aware of them:

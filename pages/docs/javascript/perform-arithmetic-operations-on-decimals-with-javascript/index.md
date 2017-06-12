@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Perform Arithmetic Operations on Decimals with JavaScript"
+title: "Perform Arithmetic Operations on Decimals with JavaScript"
+parent: "javascript"
 ---
 
 In JavaScript, you can perform calculations with decimal numbers, just like whole numbers.

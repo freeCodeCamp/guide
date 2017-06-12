@@ -1,5 +1,6 @@
 ---
 title: "Python Nested functions"
+parent: "python"
 ---
 
     >>> def outside_fn():

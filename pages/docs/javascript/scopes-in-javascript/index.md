@@ -1,5 +1,6 @@
 ---
 title: "Scopes in JavaScript"
+parent: "javascript"
 ---
 
 If you've been programming in JavaScript for a while, you've undoubtedly run into a concept known as `scope`. What is `scope`? Why should you take the time to learn it?

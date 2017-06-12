@@ -1,5 +1,6 @@
 ---
 title: "Java Docs: Strings"
+parent: "java"
 ---
 
 # Java Strings

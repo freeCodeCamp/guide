@@ -1,5 +1,6 @@
 ---
 title: "Write and Run ES6 Code in the Browser"
+parent: "to-be-sorted"
 ---
 
 > Include the following code in the page.

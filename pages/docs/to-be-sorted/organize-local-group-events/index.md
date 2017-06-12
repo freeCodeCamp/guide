@@ -1,5 +1,6 @@
 ---
 title: "Organize Local group events"
+parent: "to-be-sorted"
 ---
 
 In-person group programming sessions and events are fun!

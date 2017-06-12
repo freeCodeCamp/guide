@@ -1,5 +1,6 @@
 ---
 title: "Ruby Introduction"
+parent: "ruby"
 ---
 
 ## What is Ruby?

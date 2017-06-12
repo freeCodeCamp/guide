@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Subtract One Number from Another with JavaScript"
+title: "Subtract One Number from Another with JavaScript"
+parent: "javascript"
 ---
 
 We can also subtract one number from another.

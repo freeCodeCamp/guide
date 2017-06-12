@@ -1,5 +1,6 @@
 ---
 title: "freeCodeCamp Moderator Guidelines"
+parent: "to-be-sorted"
 ---
 
 # The Pillars of Moderation

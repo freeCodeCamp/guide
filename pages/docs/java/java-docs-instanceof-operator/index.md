@@ -1,5 +1,6 @@
 ---
 title: "Java Docs: instanceof operator"
+parent: "java"
 ---
 
 # The Java instanceof operator

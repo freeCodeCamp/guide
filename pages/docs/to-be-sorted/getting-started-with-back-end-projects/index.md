@@ -1,5 +1,6 @@
 ---
 title: "Getting Started with Back End Projects"
+parent: "to-be-sorted"
 ---
 
 The curriculum lead-up to the first Back End Project is not very comprehensive. Here are a number of common resources which other campers have found helpful.

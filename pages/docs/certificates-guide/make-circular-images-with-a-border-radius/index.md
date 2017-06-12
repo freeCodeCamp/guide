@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Make Circular Images with a Border Radius"
+title: "Make Circular Images with a Border Radius"
+parent: "certificates-guide"
 ---
 
 You can also use percentage to `border-radius` to make things round.

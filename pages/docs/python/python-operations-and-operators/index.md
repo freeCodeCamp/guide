@@ -1,5 +1,6 @@
 ---
 title: "Python Operations and Operators"
+parent: "python"
 ---
 
 **Operators** are the constructs which can manipulate the value of operands.

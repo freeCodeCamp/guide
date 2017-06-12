@@ -1,5 +1,6 @@
 ---
 title: "Using Python for Web Development"
+parent: "python"
 ---
 
 Python is known for its beautiful syntax and ease of readability. This scripting language can be used for some quick-and-dirty prototyping of your idea of a web-app. It can also be used to build scalable and maintainable large web applications.

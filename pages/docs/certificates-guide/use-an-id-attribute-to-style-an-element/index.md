@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Use an ID Attribute to Style an Element"
+title: "Use an ID Attribute to Style an Element"
+parent: "certificates-guide"
 ---
 
 One cool thing about `id` attributes is that, like classes, you can style them using CSS.

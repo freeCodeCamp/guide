@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Add a Submit Button to a Form"
+title: "Add a Submit Button to a Form"
+parent: "certificates-guide"
 ---
 
 You will need to create a `button` element. Here's an example submit button:

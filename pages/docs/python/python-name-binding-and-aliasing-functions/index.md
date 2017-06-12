@@ -1,5 +1,6 @@
 ---
 title: "Python Name binding and Aliasing Functions"
+parent: "python"
 ---
 
 A function definition introduces the function name in the current symbol table. The value of the function name has a type that is recognized by the interpreter as a user-defined function.

@@ -1,5 +1,6 @@
 ---
 title: "JavaScript Truthy Value"
+parent: "javascript"
 ---
 
 A **truthy** value is a value that translates to **true** when evaluated in a _Boolean_ context.

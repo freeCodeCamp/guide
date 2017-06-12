@@ -1,5 +1,6 @@
 ---
 title: "Create and Upload and Link Animated GIF Image"
+parent: "to-be-sorted"
 ---
 
 1.  Download [LICEcap](http://www.cockos.com/licecap/) and install.

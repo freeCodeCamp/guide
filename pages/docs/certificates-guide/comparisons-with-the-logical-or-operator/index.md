@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Comparisons with the Logical Or Operator"
+title: "Comparisons with the Logical Or Operator"
+parent: "certificates-guide"
 ---
 
 The `logical or` operator (`||`) returns `true` if either of the `operands` is `true`. Otherwise, it returns `false`.

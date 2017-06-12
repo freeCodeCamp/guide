@@ -1,5 +1,6 @@
 ---
 title: "Java Docs: Inheritance Basics"
+parent: "java"
 ---
 
 # Java Inheritance Basics

@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Sift through Text with Regular Expressions"
+title: "Sift through Text with Regular Expressions"
+parent: "certificates-guide"
 ---
 
 `Regular expressions` are used to find certain words or patterns inside of strings.

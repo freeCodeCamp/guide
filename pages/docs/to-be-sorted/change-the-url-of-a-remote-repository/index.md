@@ -1,5 +1,6 @@
 ---
 title: "Change the URL of a remote repository"
+parent: "to-be-sorted"
 ---
 
 The `git remote set-url` command changes an existing remote repository URL.

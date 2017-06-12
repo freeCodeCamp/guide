@@ -1,5 +1,6 @@
 ---
 title: "Pseudoclassical Class Definition"
+parent: "to-be-sorted"
 ---
 
 Pseudoclassical class definition happens in 2 code blocks instead of one, which happens in other languages like Python and PHP.

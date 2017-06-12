@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Decrement a Number with JavaScript"
+title: "Decrement a Number with JavaScript"
+parent: "javascript"
 ---
 
 You can easily decrement or decrease a variable by `1` with the `--` operator.

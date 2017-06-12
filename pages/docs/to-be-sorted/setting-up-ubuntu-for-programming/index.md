@@ -1,5 +1,6 @@
 ---
 title: "Setting up Ubuntu for Programming"
+parent: "to-be-sorted"
 ---
 
 > Note: We will be referring to Ubuntu 16.04 LTS (Xenial Xerus) in these articles.

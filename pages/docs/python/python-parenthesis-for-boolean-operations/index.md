@@ -1,5 +1,6 @@
 ---
 title: "Python Parenthesis for Boolean Operations"
+parent: "python"
 ---
 
 Just as in math, parenthesis can be used to override order of operations:

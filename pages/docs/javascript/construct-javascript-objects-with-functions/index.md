@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Construct JavaScript Objects with Functions"
+title: "Construct JavaScript Objects with Functions"
+parent: "javascript"
 ---
 
 Using constructors it is easy to create new objects using a blueprint or constructor. The declaration syntax is a little different but still easy to remember.

@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Find the Length of a String"
+title: "Find the Length of a String"
+parent: "certificates-guide"
 ---
 
 You can find the _length_ of a String value by writing `.length` after the string variable or string literal.

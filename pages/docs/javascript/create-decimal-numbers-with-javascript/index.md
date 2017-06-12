@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Create Decimal Numbers with JavaScript"
+title: "Create Decimal Numbers with JavaScript"
+parent: "javascript"
 ---
 
 JavaScript number variables can have decimals.

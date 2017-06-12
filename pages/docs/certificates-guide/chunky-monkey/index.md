@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Algorithm Challenge Guide: Chunky Monkey"
+title: "Chunky Monkey"
+parent: "certificates-guide"
 ---
 
 ![](//discourse-user-assets.s3.amazonaws.com/original/2X/a/aadd6bead83ab7d79a795c326f005a89e6ad81f5.png)

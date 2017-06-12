@@ -1,5 +1,6 @@
 ---
 title: "Challenge Informer avec l Element de Paragraphe"
+parent: "to-be-sorted"
 ---
 
 L'élément `p` est l'élément préféré pour le texte de paragraphe de taille normale sur les sites Web. `p` est l'abréviation de «paragraphe».

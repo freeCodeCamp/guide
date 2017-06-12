@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Reverse Arrays with Reverse"
+title: "Reverse Arrays with Reverse"
+parent: "certificates-guide"
 ---
 
 You can use the .reverse() function to reverse the contents of an array.

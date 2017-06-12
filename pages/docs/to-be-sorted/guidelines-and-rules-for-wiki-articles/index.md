@@ -1,5 +1,6 @@
 ---
 title: "Guidelines and Rules for Wiki Articles"
+parent: "to-be-sorted"
 ---
 
 Welcome to the wiki section of the forum.

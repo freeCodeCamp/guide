@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Add Images to your Website"
+title: "Add Images to your Website"
+parent: "certificates-guide"
 ---
 
 You can add images to your website by using the `img` element, and point to an specific image's URL using the `src` attribute.

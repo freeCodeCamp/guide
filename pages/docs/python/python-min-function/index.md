@@ -1,5 +1,6 @@
 ---
 title: "Python min() function"
+parent: "python"
 ---
 
 `min()` is a built-in function in Python 3\. It returns the smallest item in an iterable or the smallest of two or more arguments.

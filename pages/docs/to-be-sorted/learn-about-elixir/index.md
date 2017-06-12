@@ -1,5 +1,6 @@
 ---
 title: "Learn about Elixir"
+parent: "to-be-sorted"
 ---
 
 ![Elixir Logo](//discourse-user-assets.s3.amazonaws.com/original/2X/f/ffb29c7c694656265e093920b571731fb25b6029.png)

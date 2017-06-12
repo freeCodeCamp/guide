@@ -1,5 +1,6 @@
 ---
 title: "Change Text with Click Events"
+parent: "to-be-sorted"
 ---
 
 When a click event happens, we can use Ajax to update an HTML element with the following code:

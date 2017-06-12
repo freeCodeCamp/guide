@@ -1,5 +1,6 @@
 ---
 title: "Setting Up Python Web-framework Django and Flask"
+parent: "python"
 ---
 
 In this article, we shall be discussing how to install [Django](https://www.djangoproject.com/) and [Flask](http://flask.pocoo.org/) - two popular web frameworks written in Python.

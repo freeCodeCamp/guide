@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Generate Random Whole Numbers within a Range"
+title: "Generate Random Whole Numbers within a Range"
+parent: "certificates-guide"
 ---
 
 > We can use a certain mathematical expression to get a random number between two numbers.

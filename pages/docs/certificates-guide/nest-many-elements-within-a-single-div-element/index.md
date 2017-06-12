@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Nest Many Elements within a Single Div Element"
+title: "Nest Many Elements within a Single Div Element"
+parent: "certificates-guide"
 ---
 
 The `div` element, also known as a division element, is a general purpose container for other elements.

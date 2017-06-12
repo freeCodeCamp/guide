@@ -1,5 +1,6 @@
 ---
 title: "How to reach Free Code Camp team for interviews"
+parent: "how-to"
 ---
 
 We're happy to do a quick interview for your publication or show. Here's whom you should contact about what, and how to best reach them:

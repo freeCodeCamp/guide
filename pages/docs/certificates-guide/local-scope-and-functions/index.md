@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Local Scope and Functions"
+title: "Local Scope and Functions"
+parent: "certificates-guide"
 ---
 
 Variables which are declared within a function, as well as the function parameters have local scope. That means, they are only visible within that function.

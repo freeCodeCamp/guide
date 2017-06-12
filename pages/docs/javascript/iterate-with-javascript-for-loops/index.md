@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Iterate with JavaScript For Loops"
+title: "Iterate with JavaScript For Loops"
+parent: "javascript"
 ---
 
 The most common type of JavaScript loop is called a `for loop` because it runs `for` a specific number of times.

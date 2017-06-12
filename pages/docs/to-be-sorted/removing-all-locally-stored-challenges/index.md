@@ -1,5 +1,6 @@
 ---
 title: "Removing All Locally Stored Challenges"
+parent: "to-be-sorted"
 ---
 
 Removing all your locally stored challenges will solve many problems related to the browser crashing on FreeCodeCamp

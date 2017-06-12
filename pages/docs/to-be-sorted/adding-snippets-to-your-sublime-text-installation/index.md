@@ -1,5 +1,6 @@
 ---
 title: "Adding Snippets To Your Sublime Text Installation"
+parent: "to-be-sorted"
 ---
 
 If you are a user of sublime text (I hope you are, it kicks ass. You can get it [here](https://www.sublimetext.com/)), then you may have already noticed some of the tab completion capabilities. For example, when you are opening an html tag such as `<p>`, it automatically closes the tag as soon as you type `/`. You can get similar functionality for pieces of code you end up re-writing over and over, and it's surprisingly easy!

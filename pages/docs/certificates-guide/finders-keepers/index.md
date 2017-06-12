@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Algorithm Challenge Guide: Finders Keepers"
+title: "Finders Keepers"
+parent: "certificates-guide"
 ---
 
 ### ![:checkered_flag:](https://forum.freecodecamp.com/images/emoji/emoji_one/checkered_flag.png?v=3 ":checkered_flag:") Problem Explanation:

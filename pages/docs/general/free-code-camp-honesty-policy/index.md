@@ -1,5 +1,6 @@
 ---
 title: "Free Code Camp Honesty Policy"
+parent: "general"
 ---
 
 Before we issue our verified certificate to a camper, he or she must accept our Academic Honesty Pledge, which reads:

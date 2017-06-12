@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Concatenating Strings with the Plus Equals Operator"
+title: "Concatenating Strings with the Plus Equals Operator"
+parent: "certificates-guide"
 ---
 
 We can use the `+=` operator to concatenate a string onto the end of an existing string variable. This can be very helpful to break a long string over several lines.

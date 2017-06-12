@@ -1,5 +1,6 @@
 ---
 title: "Java Docs: Arrays"
+parent: "java"
 ---
 
 # Java Array

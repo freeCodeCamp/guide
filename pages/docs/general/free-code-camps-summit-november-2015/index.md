@@ -1,5 +1,6 @@
 ---
 title: "Free Code Camp's Summit November 2015"
+parent: "general"
 ---
 
 Our November 7, 2015 Summit began at noon EDT on [our twitch.tv channel](http://twitch.tv/freecodecamp) and was available afterward on our [youtube channel](https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ?sub_confirmation=1).

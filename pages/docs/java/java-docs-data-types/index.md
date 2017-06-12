@@ -1,5 +1,6 @@
 ---
 title: "Java Docs: Data Types"
+parent: "java"
 ---
 
 # Java Data-Types

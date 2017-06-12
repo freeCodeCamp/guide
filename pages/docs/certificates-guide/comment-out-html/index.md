@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Comment out HTML"
+title: "Comment out HTML"
+parent: "certificates-guide"
 ---
 
 Commenting is a way that you can leave comments within your code without affecting the code itself.

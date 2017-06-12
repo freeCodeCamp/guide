@@ -1,5 +1,6 @@
 ---
 title: "JavaScript Break Statement"
+parent: "javascript"
 ---
 
 ## Introduction

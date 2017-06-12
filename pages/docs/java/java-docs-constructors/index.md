@@ -1,5 +1,6 @@
 ---
 title: "Java Docs: Constructors"
+parent: "java"
 ---
 
 # Java Constructors

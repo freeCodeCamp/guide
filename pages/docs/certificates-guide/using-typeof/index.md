@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: using typeof"
+title: "using typeof"
+parent: "certificates-guide"
 ---
 
 You can use `typeof` to check the `data structure`, or type, of a variable.

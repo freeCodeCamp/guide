@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Access Array Data with Indexes"
+title: "Access Array Data with Indexes"
+parent: "certificates-guide"
 ---
 
 We can access the data inside arrays using indexes.

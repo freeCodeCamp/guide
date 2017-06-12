@@ -1,5 +1,6 @@
 ---
 title: "How JSONP is different from JSON"
+parent: "to-be-sorted"
 ---
 
 JSONP is just JSON wrapped in a callback function.

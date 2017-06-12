@@ -1,5 +1,6 @@
 ---
 title: "Accessing the database from your Front End"
+parent: "to-be-sorted"
 ---
 
 You must have noticed in **main.controller.js** how _things_ were retrieved from the database and displayed:

@@ -1,5 +1,6 @@
 ---
 title: "How to make a Pull Request on Free Code Camp"
+parent: "how-to"
 ---
 
 # Free Code Camp Pull Request

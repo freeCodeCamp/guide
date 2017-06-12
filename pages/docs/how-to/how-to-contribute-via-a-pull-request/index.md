@@ -1,5 +1,6 @@
 ---
 title: "How to contribute via a Pull Request"
+parent: "how-to"
 ---
 
 > A pull request (PR) is a method of submitting contributions to an open source project. It is often the preferred way of submitting contributions to a project using a Distributed Version Control System (DVCS) such as Git.

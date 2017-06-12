@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Split Strings with Split"
+title: "Split Strings with Split"
+parent: "certificates-guide"
 ---
 
 You can use the `.split()` method to split a string into an array.

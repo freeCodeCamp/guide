@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Target HTML Elements with Selectors Using jQuery"
+title: "Target HTML Elements with Selectors Using jQuery"
+parent: "certificates-guide"
 ---
 
 After we have created our `document ready function` we can now have code that will run after the page loads. This will assure that your code does not run before the HTML is rendered to avoid bugs.

@@ -1,5 +1,6 @@
 ---
 title: "Java Loops: while"
+parent: "java"
 ---
 
 # Java while Loop

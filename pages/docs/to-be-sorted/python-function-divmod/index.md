@@ -1,5 +1,6 @@
 ---
 title: "Python-Function-DIVMOD"
+parent: "to-be-sorted"
 ---
 
 # Python `divmod(a,b)`

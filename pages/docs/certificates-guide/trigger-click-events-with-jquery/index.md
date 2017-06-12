@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Trigger Click Events with jQuery"
+title: "Trigger Click Events with jQuery"
+parent: "certificates-guide"
 ---
 
 APIs - or Application Programming Interfaces - are tools that computers use to communicate with one another.

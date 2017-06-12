@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Ditch Custom CSS for Bootstrap"
+title: "Ditch Custom CSS for Bootstrap"
+parent: "certificates-guide"
 ---
 
 We can clean up our code and make our Cat Photo App look more conventional by using Bootstrap's built-in styles instead of the custom styles we created earlier.

@@ -1,5 +1,6 @@
 ---
 title: "Setting up a React, ES6 and Webpack project"
+parent: "to-be-sorted"
 ---
 
 This wiki will instruct you how to set up a bare-bones project that uses React, Webpack and ES6\. We'll go over getting everything set up in depth.

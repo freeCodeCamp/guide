@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Store Multiple Values in one Variable using JavaScript Arrays"
+title: "Store Multiple Values in one Variable using JavaScript Arrays"
+parent: "javascript"
 ---
 
 With JavaScript array variables, we can store several pieces of data in one place.

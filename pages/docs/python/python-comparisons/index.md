@@ -1,5 +1,6 @@
 ---
 title: "Python Comparisons"
+parent: "python"
 ---
 
 [Python Docs - Comparisions](https://docs.python.org/3/library/stdtypes.html#comparisons)

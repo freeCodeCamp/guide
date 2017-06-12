@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Target Even Numbered Elements Using jQuery"
+title: "Target Even Numbered Elements Using jQuery"
+parent: "certificates-guide"
 ---
 
 You can also target all the even-numbered elements.

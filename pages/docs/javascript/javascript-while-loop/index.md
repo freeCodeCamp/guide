@@ -1,5 +1,6 @@
 ---
 title: "JavaScript While Loop"
+parent: "javascript"
 ---
 
 The while loop starts by evaluating the condition. If the condition is true, the statement(s) is/are executed. If the condition is false, the statement(s) is/are not executed. After that, while loop ends.

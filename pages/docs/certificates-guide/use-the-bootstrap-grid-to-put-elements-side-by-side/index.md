@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Use the Bootstrap Grid to Put Elements Side By Side"
+title: "Use the Bootstrap Grid to Put Elements Side By Side"
+parent: "certificates-guide"
 ---
 
 Bootstrap uses a responsive grid system that makes it easier to put elements into rows and tell each element's relative width.

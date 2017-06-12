@@ -1,5 +1,6 @@
 ---
 title: "Angular SocketIO"
+parent: "to-be-sorted"
 ---
 
 If you've gotten to the Stock Charting Back End Project you may have noticed that the bonus criteria is to have your stock list live update across clients. This can be accomplished with SocketIO, but that's not all SocketIO can do. Remember earlier, I mentioned that when using _$http.post_ you had to update your local array with the database's version of the item you were posting? SocketIO keeps a user's browser environment synced with your database in realtime. This has two practical upshots:

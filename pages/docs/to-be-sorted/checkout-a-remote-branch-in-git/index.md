@@ -1,5 +1,6 @@
 ---
 title: "Checkout A Remote Branch in Git"
+parent: "to-be-sorted"
 ---
 
 # Checkout a remote branch workflow

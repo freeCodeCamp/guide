@@ -1,5 +1,6 @@
 ---
 title: "Python Numeric Operations"
+parent: "python"
 ---
 
 [Python Docs - Numeric Operations](https://docs.python.org/3/library/stdtypes.html#numeric-types-int-float-complex)

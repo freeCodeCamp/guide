@@ -1,5 +1,6 @@
 ---
 title: "JavaScript Get Timestamp"
+parent: "javascript"
 ---
 
 You can use `Date.now()` to get the current timestamp in milliseconds.

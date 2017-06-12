@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Modify Array Data With Indexes"
+title: "Modify Array Data With Indexes"
+parent: "certificates-guide"
 ---
 
 We can also modify the data stored in arrays by using indexes.

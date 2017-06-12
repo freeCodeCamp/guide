@@ -1,5 +1,6 @@
 ---
 title: "Python Floating Point Numbers"
+parent: "python"
 ---
 
 Some general information about floating point numbers and how they work in Python, can be found [here](https://docs.python.org/3/tutorial/floatingpoint.html).

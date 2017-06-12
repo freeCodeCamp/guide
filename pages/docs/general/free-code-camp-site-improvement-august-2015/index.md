@@ -1,5 +1,6 @@
 ---
 title: "Free Code Camp Site Improvement August 2015"
+parent: "general"
 ---
 
 ## Sunday's Improvements

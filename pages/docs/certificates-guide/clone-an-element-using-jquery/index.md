@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Clone an Element Using jQuery"
+title: "Clone an Element Using jQuery"
+parent: "certificates-guide"
 ---
 
 jQuery has a function called`clone()` that makes a copy of an element.

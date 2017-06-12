@@ -1,5 +1,6 @@
 ---
 title: "Jazzing up the Terminal"
+parent: "to-be-sorted"
 ---
 
 Out of the box, the terminal shipped with Ubuntu is a bit bland. This section will let you become a power-user ![:muscle:](//forum.freecodecamp.com/images/emoji/emoji_one/muscle.png?v=2 ":muscle:").

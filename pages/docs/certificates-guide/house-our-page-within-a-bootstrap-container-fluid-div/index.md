@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: House our page within a Bootstrap Container Fluid Div"
+title: "House our page within a Bootstrap Container Fluid Div"
+parent: "certificates-guide"
 ---
 
 To make the content responsive, we use the `container-fluid` class.

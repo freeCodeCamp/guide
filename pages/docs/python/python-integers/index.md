@@ -1,5 +1,6 @@
 ---
 title: "Python Integers"
+parent: "python"
 ---
 
 The theoretical domain for integers in python is negative infinity to infinity. In practice, integer values are limited by the amount of available memory.

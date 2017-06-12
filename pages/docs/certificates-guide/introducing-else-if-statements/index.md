@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Introducing Else If Statements"
+title: "Introducing Else If Statements"
+parent: "certificates-guide"
 ---
 
 If you have multiple conditions that need to be addressed, you can chain `if` statements together with `else if` statements.

@@ -1,5 +1,6 @@
 ---
 title: "Python More Built-in Types"
+parent: "python"
 ---
 
 The following sections describe the standard types that are built into the interpreter.

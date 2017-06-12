@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Algorithm Challenge Guide: Everything Be True"
+title: "Everything Be True"
+parent: "certificates-guide"
 ---
 
 ![](//discourse-user-assets.s3.amazonaws.com/original/2X/d/d69c7f2d86b8902a9bc83653d95932115de47e6a.jpg)

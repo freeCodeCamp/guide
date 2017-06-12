@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Use Hex Code to Color Elements Blue"
+title: "Use Hex Code to Color Elements Blue"
+parent: "certificates-guide"
 ---
 
 Just as with <a>red</a> and the others.

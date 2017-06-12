@@ -1,5 +1,6 @@
 ---
 title: "Getting started with Android Development"
+parent: "to-be-sorted"
 ---
 
 Today [Android](https://www.android.com/) has become the leading Operating System being used in various devices, like mobile phone, tablets, watches, TV, cars and many more. It powers more than a billion devices all over the globe. It is based on the Linux kernel. Android has been the best selling OS on tablets since 2013, and on smartphones it is dominant by any metric.

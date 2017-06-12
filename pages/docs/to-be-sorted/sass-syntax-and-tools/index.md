@@ -1,5 +1,6 @@
 ---
 title: "SASS Syntax and Tools"
+parent: "to-be-sorted"
 ---
 
 _"An artist is only as good as his tools."_

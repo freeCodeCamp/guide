@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Finding a Remainder in JavaScript"
+title: "Finding a Remainder in JavaScript"
+parent: "javascript"
 ---
 
 The _remainder operator_ `%` gives the remainder of the division of two numbers.

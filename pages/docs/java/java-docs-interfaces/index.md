@@ -1,5 +1,6 @@
 ---
 title: "Java Docs: Interfaces"
+parent: "java"
 ---
 
 # Java Interfaces

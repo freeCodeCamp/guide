@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Storing Values with the Equal Operator"
+title: "Storing Values with the Equal Operator"
+parent: "certificates-guide"
 ---
 
 In Javascript, you can store a value in a variable with the assignment or equal (=) operator.

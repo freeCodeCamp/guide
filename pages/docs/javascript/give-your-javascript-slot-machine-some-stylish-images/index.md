@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Give your JavaScript Slot Machine some stylish images"
+title: "Give your JavaScript Slot Machine some stylish images"
+parent: "javascript"
 ---
 
 We've already set up the images for you in an array called images. We can use different indexes to grab each of these.

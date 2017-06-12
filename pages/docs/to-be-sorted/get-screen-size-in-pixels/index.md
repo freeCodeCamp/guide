@@ -1,5 +1,6 @@
 ---
 title: "Get Screen Size In Pixels"
+parent: "to-be-sorted"
 ---
 
 There may be times where your JS application needs to know what the size of the screen is to be able to do certain actions.

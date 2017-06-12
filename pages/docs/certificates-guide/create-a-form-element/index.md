@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Create a Form Element"
+title: "Create a Form Element"
+parent: "certificates-guide"
 ---
 
 You can build web forms that actually submit data to a server using nothing more than pure HTML. You can do this by specifying an action on your `form` element.

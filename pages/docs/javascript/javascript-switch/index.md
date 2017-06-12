@@ -1,5 +1,6 @@
 ---
 title: "JavaScript Switch"
+parent: "javascript"
 ---
 
 ## Introduction

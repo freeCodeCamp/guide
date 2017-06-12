@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Updating Object Properties"
+title: "Updating Object Properties"
+parent: "certificates-guide"
 ---
 
 After you've created a JavaScript object, you can update its properties at any time just like you would update any other variable. You can use either dot or bracket notation to update.

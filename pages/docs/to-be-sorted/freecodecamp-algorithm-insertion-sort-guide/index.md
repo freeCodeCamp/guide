@@ -1,5 +1,6 @@
 ---
 title: "freeCodeCamp Algorithm Insertion Sort Guide"
+parent: "to-be-sorted"
 ---
 
 Insertion sort is a [_comparison_ based sorting](https://en.wikipedia.org/wiki/Comparison_sort). A sorting algorithm is comparison based, if it uses comparison operators (such as `less than` and `greated than`) to find the order between two numbers.

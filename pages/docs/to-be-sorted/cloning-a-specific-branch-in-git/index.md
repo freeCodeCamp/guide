@@ -1,5 +1,6 @@
 ---
 title: "Cloning a specific branch in Git"
+parent: "to-be-sorted"
 ---
 
 To clone a branch, enter the following into the terminal:  

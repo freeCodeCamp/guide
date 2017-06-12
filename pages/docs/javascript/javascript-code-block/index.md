@@ -1,5 +1,6 @@
 ---
 title: "JavaScript Code Block"
+parent: "javascript"
 ---
 
 ## Introduction

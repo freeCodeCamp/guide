@@ -1,5 +1,6 @@
 ---
 title: "Java Docs: Resources"
+parent: "java"
 ---
 
 # Java Resources

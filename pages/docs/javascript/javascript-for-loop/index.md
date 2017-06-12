@@ -1,5 +1,6 @@
 ---
 title: "JavaScript For Loop"
+parent: "javascript"
 ---
 
 ### Syntax

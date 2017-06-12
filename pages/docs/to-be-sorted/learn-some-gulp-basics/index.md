@@ -1,5 +1,6 @@
 ---
 title: "Learn some Gulp Basics"
+parent: "to-be-sorted"
 ---
 
 Gulp can do **a lot**. This is just an overview of the basics. Once you understand this, then you can add more to Gulp on your own. The documentation for different packages I have used has been great and we also have a great community on FreeCodeCamp ready to help with any project.

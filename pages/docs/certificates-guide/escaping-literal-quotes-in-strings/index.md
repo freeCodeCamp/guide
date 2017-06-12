@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Escaping Literal Quotes in Strings"
+title: "Escaping Literal Quotes in Strings"
+parent: "certificates-guide"
 ---
 
 In JavaScript, you can escape a quote from considering it as an end of string quote by placing a backslash `\` in front of the quote.

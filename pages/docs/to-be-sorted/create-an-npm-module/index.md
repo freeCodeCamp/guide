@@ -1,5 +1,6 @@
 ---
 title: "Create an NPM Module"
+parent: "to-be-sorted"
 ---
 
 An NPM module is a set of Javascript functionality bundled into a distributable package. [NPM](http://www.npmjs.com) maintains the registry of all available packages, and is also the tool used to install packages from its registry.

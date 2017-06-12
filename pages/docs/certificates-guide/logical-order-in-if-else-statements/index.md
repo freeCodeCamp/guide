@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Logical Order in If Else Statements"
+title: "Logical Order in If Else Statements"
+parent: "certificates-guide"
 ---
 
 Order is important in `if`, `else if` and `else` statements.

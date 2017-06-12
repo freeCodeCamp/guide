@@ -1,5 +1,6 @@
 ---
 title: "Refresh Your Browser Cache"
+parent: "to-be-sorted"
 ---
 
 You may have to do a "hard refresh" of a page in your browser if you have an out of date, cached version of that website.

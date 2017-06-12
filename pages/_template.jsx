@@ -2,8 +2,7 @@ import React from 'react';
 import { Link } from 'react-router';
 import { Container, Grid, Span } from 'react-responsive-grid';
 import { prefixLink } from 'gatsby-helpers';
-import includes from 'underscore.string/include';
-import { colors, activeColors } from 'utils/colors';
+import { colors } from 'utils/colors';
 
 import typography from 'utils/typography';
 import { config } from 'config';
@@ -21,9 +20,6 @@ module.exports = React.createClass({
     };
   },
   render() {
-    const docsActive = includes(this.props.location.pathname, '/docs/');
-    const examplesActive = includes(this.props.location.pathname, '/examples/');
-
     return (
       <div>
         <div
@@ -65,7 +61,7 @@ module.exports = React.createClass({
               </Span>
               <Span columns={ 8 } last={ true } >
                 <a
-                  href='https://github.com/gatsbyjs/gatsby'
+                  href='https://github.com/freeCodeCamp/guides'
                   style={{
                     float: 'right',
                     color: colors.fg,
@@ -75,40 +71,7 @@ module.exports = React.createClass({
                   >
                   Github
                 </a>
-                <Link
-                  style={{
-                    background: examplesActive ? activeColors.bg : colors.bg,
-                    color: examplesActive ? activeColors.fg : colors.fg,
-                    float: 'right',
-                    textDecoration: 'none',
-                    paddingLeft: rhythm( 1 / 2),
-                    paddingRight: rhythm( 1 / 2),
-                    paddingBottom: rhythm(3 / 4),
-                    marginBottom: rhythm(-1),
-                    paddingTop: rhythm(1),
-                    marginTop: rhythm(-1)
-                  }}
-                  to={prefixLink('/examples/')}
-                  >
-                  Examples
-                </Link>
-                <Link
-                  style={{
-                    background: docsActive ? activeColors.bg : colors.bg,
-                    color: docsActive ? activeColors.fg : colors.fg,
-                    float: 'right',
-                    textDecoration: 'none',
-                    paddingLeft: rhythm(1 / 2),
-                    paddingRight: rhythm(1 / 2),
-                    paddingBottom: rhythm( 3 / 4),
-                    marginBottom: rhythm(-1),
-                    paddingTop: rhythm(1),
-                    marginTop: rhythm(-1)
-                  }}
-                  to={prefixLink('/docs/')}
-                  >
-                  Documentation
-                </Link>
+                <p>In here is where the Search Bar will go</p>
               </Span>
             </Grid>
           </Container>

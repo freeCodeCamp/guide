@@ -1,5 +1,6 @@
 ---
 title: "Free Code Camp Unofficial Local Groups"
+parent: "general"
 ---
 
 <div class="lightbox-wrapper">[![Photograph from a Coffee-and-Code Session in Toronto](//discourse-user-assets.s3.amazonaws.com/optimized/2X/f/ff5fe6693f4d56b6b6b768d91f10bd4cdd9f3eb2_1_690x388.jpg)

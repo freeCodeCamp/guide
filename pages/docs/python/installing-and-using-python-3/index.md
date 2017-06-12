@@ -1,5 +1,6 @@
 ---
 title: "Installing and Using Python 3"
+parent: "python"
 ---
 
 You can download Python from this official [link](https://www.python.org/downloads/). Based on your OS (Windows or Linux or OSX), you might want to install Python 3 following [these instructions](http://docs.python-guide.org/en/latest/starting/installation/).

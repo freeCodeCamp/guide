@@ -1,5 +1,6 @@
 ---
 title: "Clear Specific values from your browser local storage"
+parent: "to-be-sorted"
 ---
 
 Removing specific values from your browser's local storage will solve many problems related to the browser crashing or freezing on FreeCodeCamp.

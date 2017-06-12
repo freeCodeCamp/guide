@@ -1,5 +1,6 @@
 ---
 title: "Heroku Deployment Guide"
+parent: "to-be-sorted"
 ---
 
 1.  Create a Heroku account.

@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Check Radio Buttons and Checkboxes by Default"
+title: "Check Radio Buttons and Checkboxes by Default"
+parent: "certificates-guide"
 ---
 
 You can set a checkbox or radio button to be checked by default using the checked attribute.

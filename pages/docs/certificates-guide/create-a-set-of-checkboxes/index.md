@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Create a Set of Checkboxes"
+title: "Create a Set of Checkboxes"
+parent: "certificates-guide"
 ---
 
 Checkboxes are a type of input.

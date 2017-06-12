@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Add your JavaScript Slot Machine Slots"
+title: "Add your JavaScript Slot Machine Slots"
+parent: "javascript"
 ---
 
 For this part we should notify if they same number is returned three times or return `null` otherwise.

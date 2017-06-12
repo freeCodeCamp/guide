@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Line up Form Elements Responsively with Bootstrap"
+title: "Line up Form Elements Responsively with Bootstrap"
+parent: "certificates-guide"
 ---
 
 We line up the form elements the same way we do with others, using divs.

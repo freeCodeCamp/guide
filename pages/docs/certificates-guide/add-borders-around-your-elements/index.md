@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Add Borders Around your Elements"
+title: "Add Borders Around your Elements"
+parent: "certificates-guide"
 ---
 
 CSS borders have attributes like `style`, `color` and `width`.

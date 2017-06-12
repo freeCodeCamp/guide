@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Add Rounded Corners a Border Radius"
+title: "Add Rounded Corners a Border Radius"
+parent: "certificates-guide"
 ---
 
 To make round corners it is all about `border-radius` and pixels.

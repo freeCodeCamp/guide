@@ -1,5 +1,6 @@
 ---
 title: "Python Iterators"
+parent: "python"
 ---
 
 Python supports a concept of iteration over containers. This is implemented using two distinct methods; these are used to allow user-defined classes to support iteration.

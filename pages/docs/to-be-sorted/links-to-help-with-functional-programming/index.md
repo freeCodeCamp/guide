@@ -1,5 +1,6 @@
 ---
 title: "Links to help with functional programming!"
+parent: "to-be-sorted"
 ---
 
 Here you will fine links to learn more about functional programming.

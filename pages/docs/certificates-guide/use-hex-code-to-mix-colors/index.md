@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Use Hex Code to Mix Colors"
+title: "Use Hex Code to Mix Colors"
+parent: "certificates-guide"
 ---
 
 Orange is pure red, mixed with some green, and no blue.

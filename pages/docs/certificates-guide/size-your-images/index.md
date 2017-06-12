@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Size your Images"
+title: "Size your Images"
+parent: "certificates-guide"
 ---
 
 CSS has an attribute called `width` that controls an element's width. Just like with fonts, we'll use `px` (pixels) to specify the image's width.

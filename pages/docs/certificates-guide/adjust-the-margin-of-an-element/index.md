@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Adjust the Margin of an Element"
+title: "Adjust the Margin of an Element"
+parent: "certificates-guide"
 ---
 
 An element's `margin` controls the amount of space between an element's `border` and surrounding elements.

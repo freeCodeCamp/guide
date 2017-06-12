@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Set the ID of an Element"
+title: "Set the ID of an Element"
+parent: "certificates-guide"
 ---
 
 In addition to classes, each HTML element can also have an `id` attribute.

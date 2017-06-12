@@ -1,5 +1,6 @@
 ---
 title: "CSS Framework Foundation"
+parent: "css"
 ---
 
 # CSS Framework Foundation

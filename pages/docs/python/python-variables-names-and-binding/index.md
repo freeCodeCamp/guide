@@ -1,5 +1,6 @@
 ---
 title: "Python Variables, Names, and Binding"
+parent: "python"
 ---
 
 Having _objects_ isn't useful unless there is a way to use them. In order to use an _object_, there must be a way to reference them. In Python this is done by **binding** objects to **names**. A detailed overview of can be found [here](https://docs.python.org/3/reference/executionmodel.html)

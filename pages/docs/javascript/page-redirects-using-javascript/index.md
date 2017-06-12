@@ -1,5 +1,6 @@
 ---
 title: "Page Redirects Using JavaScript"
+parent: "javascript"
 ---
 
 If you're trying to redirect a user to another page, you can easily use JavaScript to accomplish this task. It is important to note the following:

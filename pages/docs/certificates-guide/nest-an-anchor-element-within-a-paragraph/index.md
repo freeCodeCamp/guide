@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Nest an Anchor Element within a Paragraph"
+title: "Nest an Anchor Element within a Paragraph"
+parent: "certificates-guide"
 ---
 
 Nesting is simple, just add one element inside another:

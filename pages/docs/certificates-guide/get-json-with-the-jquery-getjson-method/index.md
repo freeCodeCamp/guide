@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Get JSON with the jQuery getJSON Method"
+title: "Get JSON with the jQuery getJSON Method"
+parent: "certificates-guide"
 ---
 
 Application Programming Interfaces - are tools that computers use to communicate with one another.

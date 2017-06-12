@@ -1,5 +1,6 @@
 ---
 title: "Angular 2 Starter Project"
+parent: "to-be-sorted"
 ---
 
 This tutorial will build an extremely simple seed project with Angular2\. We will begin with the most basic application possible and then add on a bit more functionality.

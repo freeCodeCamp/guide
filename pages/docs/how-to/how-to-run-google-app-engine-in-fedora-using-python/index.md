@@ -1,5 +1,6 @@
 ---
 title: "How to Run Google App Engine in Fedora using python"
+parent: "how-to"
 ---
 
 This article covers step by step guide to install Google App Engine on your Fedora Operating System using python.

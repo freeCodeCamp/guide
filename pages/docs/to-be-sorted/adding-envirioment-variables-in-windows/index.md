@@ -1,5 +1,6 @@
 ---
 title: "Adding Envirioment Variables in Windows"
+parent: "to-be-sorted"
 ---
 
 ### Via GUI

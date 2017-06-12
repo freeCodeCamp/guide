@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Algorithm Challenge Guide: Convert HTML Entities"
+title: "Convert HTML Entities"
+parent: "certificates-guide"
 ---
 
 <div class="lightbox-wrapper">[![](//discourse-user-assets.s3.amazonaws.com/optimized/2X/f/fc44d1dfbd3910e574cdedb0f05162f65b4cb7c4_1_690x198.jpg)

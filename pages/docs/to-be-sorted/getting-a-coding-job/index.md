@@ -1,5 +1,6 @@
 ---
 title: "Getting a Coding Job"
+parent: "to-be-sorted"
 ---
 
 Free Code Camp will help you prepare for a coding job.

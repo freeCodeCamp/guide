@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Responsively Style Check-boxes"
+title: "Responsively Style Check-boxes"
+parent: "certificates-guide"
 ---
 
 You can use Bootstrap's `col-xs-*` classes on form elements, too! This way, our checkboxes will be evenly spread out across the page, regardless of how wide the screen resolution is.

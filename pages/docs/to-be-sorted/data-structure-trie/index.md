@@ -1,5 +1,6 @@
 ---
 title: "Data Structure Trie"
+parent: "to-be-sorted"
 ---
 
 ## Introduction to Trie

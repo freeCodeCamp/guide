@@ -1,5 +1,6 @@
 ---
 title: "How to stimulate your Facebook campsite"
+parent: "how-to"
 ---
 
 A great way to stimulate your Local Group is by asking questions.

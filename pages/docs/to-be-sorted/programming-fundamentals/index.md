@@ -1,5 +1,6 @@
 ---
 title: "Programming Fundamentals"
+parent: "to-be-sorted"
 ---
 
 > First do it, then do it right, then do it better. This is one fundamental I always keep in mind when developing anything.  

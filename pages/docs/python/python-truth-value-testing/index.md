@@ -1,5 +1,6 @@
 ---
 title: "Python Truth Value Testing"
+parent: "python"
 ---
 
 [Python Docs - Truth Value Testing](https://docs.python.org/3/library/stdtypes.html#truth-value-testing)

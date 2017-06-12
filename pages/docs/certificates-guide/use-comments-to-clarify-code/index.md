@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Use Comments to Clarify Code"
+title: "Use Comments to Clarify Code"
+parent: "certificates-guide"
 ---
 
 When we start using jQuery, we will modify HTML elements without needing to actually change them in HTML.

@@ -1,5 +1,6 @@
 ---
 title: "JavaScript Loops"
+parent: "javascript"
 ---
 
 Javascript has a few different ways to control flow, otherwise known as loops

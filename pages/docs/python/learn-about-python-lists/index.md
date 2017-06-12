@@ -1,5 +1,6 @@
 ---
 title: "Learn about Python Lists"
+parent: "python"
 ---
 
 **TODO: `list` basic info**

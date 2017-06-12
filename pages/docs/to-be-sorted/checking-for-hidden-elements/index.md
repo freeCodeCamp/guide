@@ -1,5 +1,6 @@
 ---
 title: "Checking for Hidden Elements"
+parent: "to-be-sorted"
 ---
 
 There are times where you might need to check if an element is visible or hidden on the screen so that you can perform some action on it given its state. I was looking around at some solutions on Stack Overflow for trying to ascertain whether an element was visible, and I wasn't satisfied by the answers I received.

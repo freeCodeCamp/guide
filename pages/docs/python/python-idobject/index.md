@@ -1,5 +1,6 @@
 ---
 title: "Python id(object)"
+parent: "python"
 ---
 
 `id()` is a built-in function in Python 3, which returns the _identity_ of an object. The _identity_ is a unique integer for that object during its lifetime. This is also the address of the object in memory.

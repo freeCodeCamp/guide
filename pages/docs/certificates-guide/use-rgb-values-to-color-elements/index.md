@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Use RGB values to Color Elements"
+title: "Use RGB values to Color Elements"
+parent: "certificates-guide"
 ---
 
 Another way you can represent colors in CSS is by using `rgb` values.

@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Comparison with the Equality Operator"
+title: "Comparison with the Equality Operator"
+parent: "certificates-guide"
 ---
 
 There are many `Comparison Operators` in JavaScript. All of these operators return a boolean `true` or `false` value.

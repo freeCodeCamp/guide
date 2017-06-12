@@ -1,5 +1,6 @@
 ---
 title: "Python Boolean Operations"
+parent: "python"
 ---
 
 [`and`](https://docs.python.org/3/reference/expressions.html#and), [`or`](https://docs.python.org/3/reference/expressions.html#or), [`not`](https://docs.python.org/3/reference/expressions.html#not)

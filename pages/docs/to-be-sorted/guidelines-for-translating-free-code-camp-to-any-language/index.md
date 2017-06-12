@@ -1,5 +1,6 @@
 ---
 title: "Guidelines for translating Free Code Camp to any language"
+parent: "to-be-sorted"
 ---
 
 Thank you so much for your interest in translating FreeCodeCamp. Reading this document is recommended for participating in a collective effort to bring FreeCodeCamp to more and more people all around the world.

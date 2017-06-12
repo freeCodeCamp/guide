@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Comparison with the Strict Inequality Operator"
+title: "Comparison with the Strict Inequality Operator"
+parent: "certificates-guide"
 ---
 
 The strict inequality operator (`!==`) is the opposite of the strict equality operator. It means "Strictly Not Equal" and returns `false` where strict equality would return `true` and vice versa. Strict inequality will not convert data types.

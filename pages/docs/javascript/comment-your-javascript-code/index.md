@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Comment your JavaScript Code"
+title: "Comment your JavaScript Code"
+parent: "javascript"
 ---
 
 Comments are a great way to leave notes to yourself and to other people who will later need to figure out what it does. Any code in it will be ignored.

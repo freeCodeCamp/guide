@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Remove an Element Using jQuery"
+title: "Remove an Element Using jQuery"
+parent: "certificates-guide"
 ---
 
 jQuery has a function called `.remove()` that will remove an HTML element entirely.

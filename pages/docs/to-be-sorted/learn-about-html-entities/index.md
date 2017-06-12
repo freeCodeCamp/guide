@@ -1,5 +1,6 @@
 ---
 title: "Learn about HTML Entities"
+parent: "to-be-sorted"
 ---
 
 There are certain characters in HTML that are reserved by the language, for example `<` and `>`. Using them in an HTML file for something other than tags may result in errors because your browser may interpret them as tags. One way to get around this issue is using HTML Entities:

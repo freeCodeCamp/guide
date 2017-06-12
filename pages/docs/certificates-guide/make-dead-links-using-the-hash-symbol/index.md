@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Make Dead Links using the Hash Symbol"
+title: "Make Dead Links using the Hash Symbol"
+parent: "certificates-guide"
 ---
 
 Replace your a element's `href` attribute with a `#`, also known as a hash symbol, to turn it into a dead link. Sometimes you want to add a elements to your website before you know where they will link.

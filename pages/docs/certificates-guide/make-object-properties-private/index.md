@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Make Object Properties Private"
+title: "Make Object Properties Private"
+parent: "certificates-guide"
 ---
 
 Objects have their own attributes, called _properties_, and their own functions, called _methods_.

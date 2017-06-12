@@ -1,5 +1,6 @@
 ---
 title: "How to Report a Bug"
+parent: "how-to"
 ---
 
 Thank you for taking the effort to report an issue with freeCodeCamp.

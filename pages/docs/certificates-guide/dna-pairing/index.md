@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Algorithm Challenge Guide: DNA Pairing"
+title: "DNA Pairing"
+parent: "certificates-guide"
 ---
 
 <div class="lightbox-wrapper">[![](//discourse-user-assets.s3.amazonaws.com/optimized/2X/2/2798a83aaaa34ec2b18f4b8ec122b76c264a9d67_1_368x500.jpg)

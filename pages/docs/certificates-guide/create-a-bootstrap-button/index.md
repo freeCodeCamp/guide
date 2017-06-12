@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Create a Bootstrap Button"
+title: "Create a Bootstrap Button"
+parent: "certificates-guide"
 ---
 
 Bootstrap has its own styles for button elements, which look much better than the plain HTML ones.

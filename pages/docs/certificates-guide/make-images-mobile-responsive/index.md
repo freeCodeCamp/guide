@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Make Images Mobile Responsive"
+title: "Make Images Mobile Responsive"
+parent: "certificates-guide"
 ---
 
 When using Bootstrap, if you want an image to be responsive, all you have to do is add the class `img-responsive` to it.

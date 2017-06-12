@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Prioritize One Style Over Another"
+title: "Prioritize One Style Over Another"
+parent: "certificates-guide"
 ---
 
 Classes to individual elements take priority over general styles.

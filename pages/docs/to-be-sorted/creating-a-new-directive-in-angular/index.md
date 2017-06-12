@@ -1,5 +1,6 @@
 ---
 title: "Creating a new Directive in Angular"
+parent: "to-be-sorted"
 ---
 
 Do you remember custom directives from the shaping up with angular course? You can also make a custom directive!

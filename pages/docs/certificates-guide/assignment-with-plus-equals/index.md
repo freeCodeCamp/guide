@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Assignment with Plus Equals"
+title: "Assignment with Plus Equals"
+parent: "certificates-guide"
 ---
 
 Everything to the right of the equals sign is evaluated first, so we can say `myVar = myVar + 5;` to add `5` to `myVar`. Since this is such a common pattern, there are operators which do both a mathematical operation and assignment in one step.

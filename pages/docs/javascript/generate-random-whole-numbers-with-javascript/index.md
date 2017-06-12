@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Generate Random Whole Numbers with JavaScript"
+title: "Generate Random Whole Numbers with JavaScript"
+parent: "javascript"
 ---
 
 It's great that we can create random decimal numbers, but it's even more useful if we lot more useful to generate a random whole number.

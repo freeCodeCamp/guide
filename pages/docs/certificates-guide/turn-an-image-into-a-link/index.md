@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Turn an Image into a Link"
+title: "Turn an Image into a Link"
+parent: "certificates-guide"
 ---
 
 Creating images that link to things is essential and one of the most used things in Web Dev. Nest your image within an `a` element. Here's an example:

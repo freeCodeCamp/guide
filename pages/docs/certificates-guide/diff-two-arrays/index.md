@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Algorithm Challenge Guide: Diff Two Arrays"
+title: "Diff Two Arrays"
+parent: "certificates-guide"
 ---
 
 <div class="lightbox-wrapper">[![](//discourse-user-assets.s3.amazonaws.com/optimized/2X/2/24043ff6eaf64c58ca15936ec29bd7c22809c9de_1_690x379.gif)

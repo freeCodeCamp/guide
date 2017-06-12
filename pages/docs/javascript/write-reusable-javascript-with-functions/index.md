@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Write Reusable JavaScript with Functions"
+title: "Write Reusable JavaScript with Functions"
+parent: "javascript"
 ---
 
 In JavaScript, we can divide up our code into reusable parts called functions.

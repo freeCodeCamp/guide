@@ -1,5 +1,6 @@
 ---
 title: "How to Create a Twitch Account"
+parent: "how-to"
 ---
 
 # What is Twitch?

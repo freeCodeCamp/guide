@@ -1,5 +1,6 @@
 ---
 title: "Get Current URL in Javascript"
+parent: "javascript"
 ---
 
 To get the **current URL**:

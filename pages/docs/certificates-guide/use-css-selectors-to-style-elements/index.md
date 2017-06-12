@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Use CSS Selectors to Style Elements"
+title: "Use CSS Selectors to Style Elements"
+parent: "certificates-guide"
 ---
 
 Instead of giving style attributes one by one, we can do this to multiple elements at the same time.

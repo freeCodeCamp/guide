@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Create a Text Field"
+title: "Create a Text Field"
+parent: "certificates-guide"
 ---
 
 Text inputs are a convenient way to get input from your user.

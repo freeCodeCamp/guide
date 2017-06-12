@@ -1,5 +1,6 @@
 ---
 title: "Bar Graph Project"
+parent: "to-be-sorted"
 ---
 
 ## Our goal is to learn the basics of data

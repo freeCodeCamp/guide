@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Change the Font Size of an Element"
+title: "Change the Font Size of an Element"
+parent: "certificates-guide"
 ---
 
 Font size is controlled by the `font-size` CSS attribute, like this: `h1 { font-size: 30px; }`.

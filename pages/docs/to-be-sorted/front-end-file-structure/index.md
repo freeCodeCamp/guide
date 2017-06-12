@@ -1,5 +1,6 @@
 ---
 title: "Front End File Structure"
+parent: "to-be-sorted"
 ---
 
 First things first: All your user-facing files and angular files are in **/client/app/**

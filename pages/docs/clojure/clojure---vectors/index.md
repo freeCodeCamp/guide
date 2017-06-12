@@ -1,5 +1,6 @@
 ---
 title: "Clojure - Vectors"
+parent: "clojure"
 ---
 
 A vector is perhaps the most simple type of collection in Clojure. You can think of it like an array in Javascript. Let's define a simple vector:

@@ -1,5 +1,6 @@
 ---
 title: "Searching for Existing Issues in Github"
+parent: "to-be-sorted"
 ---
 
 If you still see problems after <a>Getting Help on Gitter</a>, you will want to try to see if anyone else has posted about a similar problem.

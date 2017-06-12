@@ -1,5 +1,6 @@
 ---
 title: "Writing Code for your ES6 React with Webpack Project"
+parent: "to-be-sorted"
 ---
 
 ## dist/index.html

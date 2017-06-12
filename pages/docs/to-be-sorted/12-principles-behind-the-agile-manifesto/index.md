@@ -1,5 +1,6 @@
 ---
 title: "12 Principles Behind The Agile Manifesto"
+parent: "to-be-sorted"
 ---
 
 ### We follow these principles:

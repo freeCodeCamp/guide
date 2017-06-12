@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Disable an Element Using jQuery"
+title: "Disable an Element Using jQuery"
+parent: "certificates-guide"
 ---
 
 You can also change the non-CSS properties of HTML elements with jQuery. For example, you can disable buttons.

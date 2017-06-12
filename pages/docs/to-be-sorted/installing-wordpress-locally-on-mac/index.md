@@ -1,5 +1,6 @@
 ---
 title: "Installing WordPress locally on Mac"
+parent: "to-be-sorted"
 ---
 
 Installing WordPress locally will allow you to build themes safely and will allow you to try out WordPress for free without paying for hosting.

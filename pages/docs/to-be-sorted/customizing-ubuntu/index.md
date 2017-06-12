@@ -1,5 +1,6 @@
 ---
 title: "Customizing Ubuntu"
+parent: "to-be-sorted"
 ---
 
 This tutorial shows you how to add aliases to the terminal, tweaking unity and removing pre-installed bloatware.

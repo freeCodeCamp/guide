@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Use jQuery to Modify the Entire Page"
+title: "Use jQuery to Modify the Entire Page"
+parent: "certificates-guide"
 ---
 
 jQuery can target the body element as well.

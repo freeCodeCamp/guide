@@ -1,5 +1,6 @@
 ---
 title: "Arranging operations alphabetically in Swashbuckle Swagger"
+parent: "to-be-sorted"
 ---
 
 [Swashbuckle](https://github.com/domaindrivendev/Swashbuckle) seamlessly adds a [Swagger](http://swagger.io/) to WebAPI projects. However, the operations on the page do not appear in alphabetical order.

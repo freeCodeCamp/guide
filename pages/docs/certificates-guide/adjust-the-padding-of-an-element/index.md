@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Adjust the Padding of an Element"
+title: "Adjust the Padding of an Element"
+parent: "certificates-guide"
 ---
 
 HTML elements are essentially little rectangles. Three important attributes control the space that surrounds each HTML element: `padding`, `margin`, and `border`. An element's padding controls the amount of space between the element and its border.

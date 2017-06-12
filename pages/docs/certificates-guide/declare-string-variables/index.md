@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Declare String Variables"
+title: "Declare String Variables"
+parent: "certificates-guide"
 ---
 
 A String variable. It is nothing more than a "string" of characters. JavaScript strings are always wrapped in quotes.

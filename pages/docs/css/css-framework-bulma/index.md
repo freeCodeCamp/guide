@@ -1,5 +1,6 @@
 ---
 title: "CSS Framework Bulma"
+parent: "css"
 ---
 
 # CSS Framework Bulma

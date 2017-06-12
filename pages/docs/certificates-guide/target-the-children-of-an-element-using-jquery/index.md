@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Target the Children of an Element Using jQuery"
+title: "Target the Children of an Element Using jQuery"
+parent: "certificates-guide"
 ---
 
 Many HTML elements have children elements from which they inherit properties.

@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Create a Class to Target with jQuery Selectors"
+title: "Create a Class to Target with jQuery Selectors"
+parent: "certificates-guide"
 ---
 
 Not every class needs to have corresponding CSS. Sometimes we create classes just for the purpose of selecting these elements more easily using jQuery.

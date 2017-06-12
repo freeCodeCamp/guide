@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Chaining If Else Statements"
+title: "Chaining If Else Statements"
+parent: "certificates-guide"
 ---
 
 `if/else` statements can be chained together for complex logic. Here is `pseudocode` of multiple chained `if` / `else if` statements:

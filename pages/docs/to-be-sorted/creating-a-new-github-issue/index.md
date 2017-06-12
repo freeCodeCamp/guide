@@ -1,5 +1,6 @@
 ---
 title: "Creating a New Github Issue"
+parent: "to-be-sorted"
 ---
 
 Before submitting an issue try [Searching for Your Issue on Github](http://forum.freecodecamp.com/t/searching-for-existing-issues-in-github/18390)

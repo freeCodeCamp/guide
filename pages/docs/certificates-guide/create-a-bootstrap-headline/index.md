@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Create a Bootstrap Headline"
+title: "Create a Bootstrap Headline"
+parent: "certificates-guide"
 ---
 
 To create a headline in boostrap you will need to add the class `.text-primary`.

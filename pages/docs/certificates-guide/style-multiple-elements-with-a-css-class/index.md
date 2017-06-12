@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Style Multiple Elements with a CSS Class"
+title: "Style Multiple Elements with a CSS Class"
+parent: "certificates-guide"
 ---
 
 You can attach classes to HTML elements by using `class="your-class-here"` within the relevant element's opening tag.

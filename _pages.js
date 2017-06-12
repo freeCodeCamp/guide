@@ -1,21 +1,45 @@
-/*
-*  Runnging this script will build a file (pagesArray.txt)
-*  which contains an array that should be copy/pasted into
-*  config.toml, assigned to docPages
-*/
-
 const fse = require('fs-extra');
+const Rx = require('rx');
 
-const nonPageRegEx = /(index.md|\_template.jsx)/;
+const { Observable } = Rx;
 
-let pages = fse.readdirSync(`${process.cwd()}/pages/docs/`)
-  .filter(page => !nonPageRegEx.test(page))
-  .map(page => `/docs/${page}/`);
+const isAFileRegEx = /(\.md|\.jsx?)$/;
+const shouldBeIgnoredRegEx = /^\_/;
 
-fse.writeFile(`${process.cwd()}/pagesArray.txt`, JSON.stringify(pages, null, 2))
-  .then(() => {
-    console.log(`Pages array wirtten, it has ${pages.length} entries`);
+function readDir(dir) {
+  return fse.readdirSync(`${process.cwd()}/${dir}/`)
+  .filter(item => !isAFileRegEx.test(item))
+  .filter(file => !shouldBeIgnoredRegEx.test(file))
+  .map(folder => `${dir}/${folder}`);
+}
+
+let superBlocks = readDir('pages/docs');
+
+Observable.from(superBlocks)
+  .flatMap(dir => {
+    const subDirs = readDir(dir);
+    const allDirs = [ dir, ...subDirs ]
+      .map(dir => `${dir.replace(/^pages/, '')}/`);
+
+    return Observable.from(allDirs);
   })
-  .catch(err => {
-    console.error(err);
+  .toArray()
+  .reduce((acc, current) => [ ...acc, ...current ], [])
+  .subscribe(allPages => {
+    const newConfig = fse.readFileSync(
+      `${process.cwd()}/_template.config`,
+      'utf8'
+      )
+      .replace(/{{}}/, JSON.stringify(allPages.sort(), null, 2));
+    fse.writeFile(`${process.cwd()}/config.toml`, newConfig)
+      .then(() => {
+        console.log(
+        `config.toml written, it has ${allPages.length} entries for docPages\n`
+          );
+      })
+      .catch(err => {
+        console.error(err);
+      });
+
   });
+

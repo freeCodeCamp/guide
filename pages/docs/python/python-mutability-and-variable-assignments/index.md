@@ -1,5 +1,6 @@
 ---
 title: "Python Mutability and Variable Assignments"
+parent: "python"
 ---
 
 > Every object has an identity, a type and a value. An object's identity never changes once it has been created; you may think of it as the object's address in memory. [source](https://docs.python.org/3/reference/datamodel.html#data-model)

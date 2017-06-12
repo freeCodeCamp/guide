@@ -1,5 +1,6 @@
 ---
 title: "Clojure Resources"
+parent: "clojure"
 ---
 
 ![Clojure Logo](//discourse-user-assets.s3.amazonaws.com/original/2X/3/3f3afa51f5d2c790faed68bfdd695d9f280e4480.png)

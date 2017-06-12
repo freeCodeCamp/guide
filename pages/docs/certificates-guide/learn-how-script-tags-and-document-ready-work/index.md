@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Learn how Script Tags and Document Ready Work"
+title: "Learn how Script Tags and Document Ready Work"
+parent: "certificates-guide"
 ---
 
 For some reason FCC likes to introduce `jQuery` before JavaScript itself.

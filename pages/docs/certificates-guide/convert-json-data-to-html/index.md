@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Convert JSON Data to HTML"
+title: "Convert JSON Data to HTML"
+parent: "certificates-guide"
 ---
 
 Once you know how to get data from the JSON call then is time to learn how to iterate through it. We can use the .map() method to loop through our data and modify our HTML elements.

@@ -1,5 +1,6 @@
 ---
 title: "Java Docs: Methods"
+parent: "java"
 ---
 
 # Java Methods

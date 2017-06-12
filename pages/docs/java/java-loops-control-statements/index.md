@@ -1,5 +1,6 @@
 ---
 title: "Java Loops: Control Statements"
+parent: "java"
 ---
 
 # Java Loop Control Statements

@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Bring your JavaScript Slot Machine to Life"
+title: "Bring your JavaScript Slot Machine to Life"
+parent: "javascript"
 ---
 
 Let's use the jQuery selector `$(".slot")` to select all of the slots.

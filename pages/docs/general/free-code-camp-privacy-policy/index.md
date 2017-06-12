@@ -1,5 +1,6 @@
 ---
 title: "Free Code Camp Privacy Policy"
+parent: "general"
 ---
 
 Free Code Camp is committed to respecting the privacy of visitors to our web sites and web applications. The guidelines below explain how we protect the privacy of visitors to FreeCodeCamp.com and its features.

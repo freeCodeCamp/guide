@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Uncomment HTML"
+title: "Uncomment HTML"
+parent: "certificates-guide"
 ---
 
 Comments allow code to be ignored. In the HTML language, comments are done by wrapping the code you wish to ignore with `<!-- and -->`

@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Filter Arrays with Filter"
+title: "Filter Arrays with Filter"
+parent: "certificates-guide"
 ---
 
 Filter is a useful method that can filter out values that don't match a certain criteria.

@@ -1,5 +1,6 @@
 ---
 title: "Integrated Development Environment"
+parent: "to-be-sorted"
 ---
 
 **Integrated development environments** are designed to maximize programmer productivity by providing tight-knit components with similar user interfaces. IDEs present a single program in which all development is done. This program typically provides many features for authoring, modifying, compiling, deploying and debugging software. This contrasts with software development using unrelated tools, such as vi, GCC or make.

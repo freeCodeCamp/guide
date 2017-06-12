@@ -1,5 +1,6 @@
 ---
 title: "Amending the most recent commit message"
+parent: "to-be-sorted"
 ---
 
 Often, the occasion will arise where the last commit was submitted prematurely (missing a file, missing a change in a file, etc.) or the commit message may have been mistyped or incomplete. For just such an occasion Git offers the `--amend` commit flag. To amend a commit, start by typing:

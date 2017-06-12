@@ -1,5 +1,6 @@
 ---
 title: "Installing CLI Tools Developers Should Not Live Without (Linux and Mac)"
+parent: "linux"
 ---
 
 This article is a short description on how to install key command line utilities that developers use everyday on Macintosh and Linux environments. The main CLI tools that will be shown are: Homebrew (Mac), Node and NPM, Bower, Gulp and Grunt.

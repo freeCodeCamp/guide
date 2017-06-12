@@ -1,5 +1,6 @@
 ---
 title: "Learn About Ruby Hashes"
+parent: "to-be-sorted"
 ---
 
 ### Basics:

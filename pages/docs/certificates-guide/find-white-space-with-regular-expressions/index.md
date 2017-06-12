@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Find White Space with Regular Expressions"
+title: "Find White Space with Regular Expressions"
+parent: "certificates-guide"
 ---
 
 We can also use selectors like`\s` to find spaces in a string.

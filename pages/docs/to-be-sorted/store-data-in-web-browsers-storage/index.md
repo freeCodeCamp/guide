@@ -1,5 +1,6 @@
 ---
 title: "Store data in web browser's storage"
+parent: "to-be-sorted"
 ---
 
 In order to manage data handled by your web application, you do not necessarily need a database. The respective Browser Storage features are supported by Chrome (version 4 and higher), Mozilla Firefox (version 3.5 and higher) and Internet Explorer (version 8 and higher), and a range of other browsers including those of iOS and Android.

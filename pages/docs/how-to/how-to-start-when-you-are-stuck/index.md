@@ -1,5 +1,6 @@
 ---
 title: "How to Start When you are Stuck"
+parent: "how-to"
 ---
 
 You are a camper just like me, you get to an exercise and you get stuck ... just like anyone else. You have no idea how to start, you stare at your editor and you think you must have a problem, surely you are not developer material ... well you're wrong! Perhaps you are just like me? I'm a visual person, I like a drawing better than a text. Everytime the same problem put down in a schema makes more sense to me than if you gave me a text. So ... what do I do when I have problems solving/understanding an exercise? I start to draw. After I have my drawing in place if I need more to translate it to code I can also write it in pseudocode. After that transposing it to code should not be very hard.

@@ -1,5 +1,6 @@
 ---
 title: "Edit or Delete Gitter Messages"
+parent: "to-be-sorted"
 ---
 
 > Editing or Deleting a previous message within 10 mins. of posting

@@ -1,5 +1,6 @@
 ---
 title: "JavaScript Comparison Operators"
+parent: "javascript"
 ---
 
 JavaScript has both **strict** and **type–converting** comparisons.

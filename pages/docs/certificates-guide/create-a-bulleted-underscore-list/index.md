@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Create a Bulleted Underscore List"
+title: "Create a Bulleted Underscore List"
+parent: "certificates-guide"
 ---
 
 HTML has a special element for creating unordered lists, or bullet point-style lists.

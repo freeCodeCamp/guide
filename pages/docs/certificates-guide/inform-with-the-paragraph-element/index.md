@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Inform with the Paragraph Element"
+title: "Inform with the Paragraph Element"
+parent: "certificates-guide"
 ---
 
 `p` elements are the preferred element for normal-sized paragraph text on websites. P is short for "paragraph".

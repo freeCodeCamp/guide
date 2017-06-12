@@ -1,5 +1,6 @@
 ---
 title: "Linux Brief History"
+parent: "linux"
 ---
 
 ![Linux mascot - Tux](//discourse-user-assets.s3.amazonaws.com/original/2X/7/715a2229f15586e8349ade5a6f83568d8b812511.png)

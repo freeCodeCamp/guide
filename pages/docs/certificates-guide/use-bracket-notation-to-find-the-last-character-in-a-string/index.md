@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Use Bracket Notation to Find the Last Character in a String"
+title: "Use Bracket Notation to Find the Last Character in a String"
+parent: "certificates-guide"
 ---
 
 In order to get the last letter of a string, you can subtract one from the string's length.

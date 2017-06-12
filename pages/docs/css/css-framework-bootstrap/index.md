@@ -1,5 +1,6 @@
 ---
 title: "CSS Framework Bootstrap"
+parent: "css"
 ---
 
 # CSS Framework Bootstrap

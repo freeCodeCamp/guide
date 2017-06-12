@@ -1,5 +1,6 @@
 ---
 title: "Algoritmo Mensaje Secreto"
+parent: "to-be-sorted"
 ---
 
 ![](//discourse-user-assets.s3.amazonaws.com/original/2X/7/70cf3cc5462f69c2f770ad42d0f24f240a8d8f13.jpg)

@@ -1,5 +1,6 @@
 ---
 title: "Registering your Nonprofit to Raise Donations through Free Code Camp Commit"
+parent: "to-be-sorted"
 ---
 
 Our commit program will feature a single nonprofit by default, and give campers the option of browsing through a list of other nonprofits they can pledge toward if they want.

@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Initializing Variables with the Equal Operator"
+title: "Initializing Variables with the Equal Operator"
+parent: "certificates-guide"
 ---
 
 In most cases you will see a variable being declared and given an initial value all at the same time. This allows you to use it right away with a proper value.

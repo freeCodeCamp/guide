@@ -1,5 +1,6 @@
 ---
 title: "Using Anonymous Functions for Private Namespacing in your JavaScript Apps"
+parent: "javascript"
 ---
 
 Let's take a look at what a namespace is when it comes to building JavaScript applications and some of the benefits from using a private namespace when building your apps.

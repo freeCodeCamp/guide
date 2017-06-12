@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Manipulate JavaScript Objects"
+title: "Manipulate JavaScript Objects"
+parent: "javascript"
 ---
 
 We can add properties to objects like this:

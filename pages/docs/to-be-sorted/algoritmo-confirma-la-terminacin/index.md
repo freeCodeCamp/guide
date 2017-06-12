@@ -1,5 +1,6 @@
 ---
 title: "Algoritmo Confirma la Terminación"
+parent: "to-be-sorted"
 ---
 
 ![](//discourse-user-assets.s3.amazonaws.com/original/2X/a/a081f3fa5316b7d400a5e518bb0620eef64caa08.jpg)

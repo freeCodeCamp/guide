@@ -1,5 +1,6 @@
 ---
 title: "Tips for your coding"
+parent: "to-be-sorted"
 ---
 
 This list was created by compiling common issue and questions when working on the algorithm challenges, they should be helpful in general.

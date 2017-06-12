@@ -1,5 +1,6 @@
 ---
 title: "Create a new API endpoint in Angular"
+parent: "to-be-sorted"
 ---
 
     >> yo angular-fullstack:endpoint whatsit

@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Comparison with the Greater Than Equal To Operator"
+title: "Comparison with the Greater Than Equal To Operator"
+parent: "certificates-guide"
 ---
 
 The greater than equal to operator (`>=`) compares the values of two numbers. If the number to the left is greater than or equal to the number to the right, it returns `true`. Otherwise, it returns `false`.

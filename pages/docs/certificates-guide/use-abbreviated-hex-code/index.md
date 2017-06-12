@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Use Abbreviated Hex Code"
+title: "Use Abbreviated Hex Code"
+parent: "certificates-guide"
 ---
 
 Red, which is `#FF0000` in hex code, can be shortened to `#F00`. That is, one digit for red, one digit for green, one digit for blue.

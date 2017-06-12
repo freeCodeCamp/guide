@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Use Conditional Logic with If Statements"
+title: "Use Conditional Logic with If Statements"
+parent: "certificates-guide"
 ---
 
 We can use `if` statements in JavaScript to execute code only if the specified condition is met.

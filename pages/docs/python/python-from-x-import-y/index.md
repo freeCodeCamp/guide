@@ -1,5 +1,6 @@
 ---
 title: "Python From X Import Y"
+parent: "python"
 ---
 
 If you have read the <a>`import statements`</a> wiki then you'd have seen me use this statement in one of the examples. Today, we'll try to understand what it does

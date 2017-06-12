@@ -1,5 +1,6 @@
 ---
 title: "freeCodeCamp City Based Local Groups"
+parent: "to-be-sorted"
 ---
 
 ### Step 1) Join our [Earth-wide freeCodeCamp Facebook group](https://www.facebook.com/groups/freeCodeCampEarth/).

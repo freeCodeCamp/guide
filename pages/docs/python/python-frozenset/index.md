@@ -1,5 +1,6 @@
 ---
 title: "Python FrozenSet"
+parent: "python"
 ---
 
 **TODO: `frozenset` basic info**

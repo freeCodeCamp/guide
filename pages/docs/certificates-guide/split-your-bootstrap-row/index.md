@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Split your Bootstrap Row"
+title: "Split your Bootstrap Row"
+parent: "certificates-guide"
 ---
 
 Create two `div` elements within your row, both with the class `col-xs-6`.

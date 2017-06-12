@@ -1,5 +1,6 @@
 ---
 title: "Free Code Camp Style guide for Algorithms"
+parent: "general"
 ---
 
 Writing Algorithm challenges is a great way to exercise your own problem solving and testing abilities. Follow this process closely to maximize the chances of us accepting your Algorithm.

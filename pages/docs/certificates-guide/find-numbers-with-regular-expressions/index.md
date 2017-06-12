@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Find Numbers with Regular Expressions"
+title: "Find Numbers with Regular Expressions"
+parent: "certificates-guide"
 ---
 
 We can use special selectors in Regular Expressions to select a particular type of value.

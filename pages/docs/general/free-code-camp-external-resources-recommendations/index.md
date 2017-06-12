@@ -1,5 +1,6 @@
 ---
 title: "Free Code Camp External Resources Recommendations"
+parent: "general"
 ---
 
 Please note that Free Code Camp is not partnered with, nor do we receive a referral fee from, any of the following providers. We simply want to help guide you toward a solution for your organization.

@@ -1,5 +1,6 @@
 ---
 title: "Seed Data in Angular"
+parent: "to-be-sorted"
 ---
 
 The _things_ that show up on your app's main view are part of some seed data that is added to your database (including your test and admin users) every time you restart your app (by running `grunt serve` in the command line). This data is defined in **/server/config/seed.js**.

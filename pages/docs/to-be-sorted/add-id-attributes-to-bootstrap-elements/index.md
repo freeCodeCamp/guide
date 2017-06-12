@@ -1,5 +1,6 @@
 ---
 title: "Add ID Attributes to Bootstrap Elements"
+parent: "to-be-sorted"
 ---
 
 Recall that in addition to class attributes, you can give each of your elements an id attribute.

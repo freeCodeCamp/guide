@@ -1,5 +1,6 @@
 ---
 title: "Java Docs: Basic Operations"
+parent: "java"
 ---
 
 # Java Basic Operations

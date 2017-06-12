@@ -1,5 +1,6 @@
 ---
 title: "Python Complex Numbers"
+parent: "python"
 ---
 
 Complex numbers have a real and an imaginary part, each represented by a floating point number.

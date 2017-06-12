@@ -1,5 +1,6 @@
 ---
 title: "Java Docs: Control Flow"
+parent: "java"
 ---
 
 # Java Control Flow

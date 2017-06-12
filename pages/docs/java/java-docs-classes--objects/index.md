@@ -1,5 +1,6 @@
 ---
 title: "Java Docs: Classes & Objects"
+parent: "java"
 ---
 
 # Java Classes & Objects

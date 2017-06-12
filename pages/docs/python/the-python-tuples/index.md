@@ -1,5 +1,6 @@
 ---
 title: "The Python Tuples"
+parent: "python"
 ---
 
 **TODO: `Tuple` basic info**

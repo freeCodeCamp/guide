@@ -1,5 +1,6 @@
 ---
 title: "Introduction to Go"
+parent: "to-be-sorted"
 ---
 
 ![Go Logo](//discourse-user-assets.s3.amazonaws.com/original/2X/5/5ed7b667bc504460ee0cc50628c1fc4274c373e9.png)

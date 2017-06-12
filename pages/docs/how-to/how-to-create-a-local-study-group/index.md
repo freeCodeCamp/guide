@@ -1,5 +1,6 @@
 ---
 title: "How to Create A Local Study Group"
+parent: "how-to"
 ---
 
 If you didn't see your city on [our list of study groups](https://www.freecodecamp.com/study-group-directory/), and you are willing to lead a study group for your city, follow the directions below.

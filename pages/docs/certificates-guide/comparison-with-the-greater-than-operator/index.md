@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Comparison with the Greater Than Operator"
+title: "Comparison with the Greater Than Operator"
+parent: "certificates-guide"
 ---
 
 The greater than operator (`>`) compares the values of two numbers. If the number to the left is greater than the number to the right, it returns `true`. Otherwise, it returns `false`.

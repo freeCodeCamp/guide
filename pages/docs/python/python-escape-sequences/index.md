@@ -1,5 +1,6 @@
 ---
 title: "Python Escape Sequences"
+parent: "python"
 ---
 
 A list of escape sequences can be found [here](https://docs.python.org/3/reference/lexical_analysis.html#strings)

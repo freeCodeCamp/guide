@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Create a Set of Radio Buttons"
+title: "Create a Set of Radio Buttons"
+parent: "certificates-guide"
 ---
 
 You can use radio buttons for questions where you want the user to only give you one answer.

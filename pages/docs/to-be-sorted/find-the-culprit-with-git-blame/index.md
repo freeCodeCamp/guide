@@ -1,5 +1,6 @@
 ---
 title: "Find the culprit with Git Blame"
+parent: "to-be-sorted"
 ---
 
 Shows what revision and author last modified each line of a file and blame them.

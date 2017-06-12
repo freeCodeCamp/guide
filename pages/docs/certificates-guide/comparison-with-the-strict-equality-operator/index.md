@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Comparison with the Strict Equality Operator"
+title: "Comparison with the Strict Equality Operator"
+parent: "certificates-guide"
 ---
 
 Strict equality (`===`) is the counterpart to the equality operator (`==`). Unlike the equality operator, strict equality tests both the `type` and `value` of the compared elements.

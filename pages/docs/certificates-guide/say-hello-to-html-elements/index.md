@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Say Hello to HTML Elements"
+title: "Say Hello to HTML Elements"
+parent: "certificates-guide"
 ---
 
 HTML elements are written with a starting tag, an ending tag, and the content in between:

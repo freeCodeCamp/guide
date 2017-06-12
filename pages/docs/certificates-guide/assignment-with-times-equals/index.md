@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Assignment with Times Equals"
+title: "Assignment with Times Equals"
+parent: "certificates-guide"
 ---
 
 The `*= operator` multiplies a variable by a number.

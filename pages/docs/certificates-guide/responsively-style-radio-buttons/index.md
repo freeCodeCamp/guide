@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Responsively Style Radio Buttons"
+title: "Responsively Style Radio Buttons"
+parent: "certificates-guide"
 ---
 
 You can use Bootstrap's `col-xs-*` classes on `form` elements. That will make radio buttons evenly spread out across the page regardless of how wide the screen might be.

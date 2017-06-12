@@ -1,5 +1,6 @@
 ---
 title: "Advantages of Linux"
+parent: "linux"
 ---
 
 ## Constant and efficient improvements.

@@ -1,5 +1,6 @@
 ---
 title: "Ruby String Operations"
+parent: "ruby"
 ---
 
 Both concatenation and multiplication can be performed on strings.

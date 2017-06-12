@@ -1,5 +1,6 @@
 ---
 title: "Free Code Camp Streaks"
+parent: "general"
 ---
 
 Your user profile displays your recent activity. If you get [Brownie Points](http://forum.freecodecamp.com/t/free-code-camp-brownie-points/18380) on several consecutive days, you will start a streak.

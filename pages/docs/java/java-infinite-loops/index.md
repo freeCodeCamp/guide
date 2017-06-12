@@ -1,5 +1,6 @@
 ---
 title: "Java Infinite Loops"
+parent: "java"
 ---
 
 # Java Infinite Loops

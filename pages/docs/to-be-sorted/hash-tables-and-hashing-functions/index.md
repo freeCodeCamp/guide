@@ -1,5 +1,6 @@
 ---
 title: "Hash Tables and Hashing Functions"
+parent: "to-be-sorted"
 ---
 
 ### Introduction to hashing

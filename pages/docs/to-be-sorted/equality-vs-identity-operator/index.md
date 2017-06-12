@@ -1,5 +1,6 @@
 ---
 title: "Equality vs Identity operator"
+parent: "to-be-sorted"
 ---
 
 In JavaScript there are 2 operators that could be used to compare two values: _==_ and _===_. They seem to be exactly the same but they work differently and in some cases they will give different results.

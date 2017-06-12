@@ -1,5 +1,6 @@
 ---
 title: "Override local files with Git Pull"
+parent: "to-be-sorted"
 ---
 
 # When do you need to overwrite local files?

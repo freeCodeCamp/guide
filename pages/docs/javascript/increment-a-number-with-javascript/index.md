@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Increment a Number with JavaScript"
+title: "Increment a Number with JavaScript"
+parent: "javascript"
 ---
 
 You can easily increment or add `1` to a variable with the `++` operator.

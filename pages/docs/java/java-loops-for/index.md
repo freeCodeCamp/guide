@@ -1,5 +1,6 @@
 ---
 title: "Java Loops: for"
+parent: "java"
 ---
 
 # Java for Loop

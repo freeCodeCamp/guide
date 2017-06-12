@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Delete Properties from a JavaScript Object"
+title: "Delete Properties from a JavaScript Object"
+parent: "javascript"
 ---
 
 We can also delete properties from objects like this:

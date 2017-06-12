@@ -1,5 +1,6 @@
 ---
 title: "CSS Framework Skeleton"
+parent: "css"
 ---
 
 # CSS Framework Skeleton

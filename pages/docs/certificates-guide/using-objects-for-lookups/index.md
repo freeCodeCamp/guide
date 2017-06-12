@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Using Objects for Lookups"
+title: "Using Objects for Lookups"
+parent: "certificates-guide"
 ---
 
 Objects can be thought of as a key/value storage, like a dictionary. If you have tabular data, you can use an object to "lookup" values rather than a `switch` statement or an `if/else` chain. This is most useful when you know that your input data is limited to a certain range.

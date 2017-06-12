@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Specify How Fonts Should Degrade"
+title: "Specify How Fonts Should Degrade"
+parent: "certificates-guide"
 ---
 
 There are several default fonts that are available in all browsers. These include `Monospace`, `Serif` and `Sans-Serif`.

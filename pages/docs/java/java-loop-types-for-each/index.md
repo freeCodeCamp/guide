@@ -1,5 +1,6 @@
 ---
 title: "Java Loop Types: For Each"
+parent: "java"
 ---
 
 # The Java For Each Loop

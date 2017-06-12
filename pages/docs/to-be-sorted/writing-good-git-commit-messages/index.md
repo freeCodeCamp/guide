@@ -1,5 +1,6 @@
 ---
 title: "Writing Good Git Commit Messages"
+parent: "to-be-sorted"
 ---
 
 1.  Separate subject from body with a blank line

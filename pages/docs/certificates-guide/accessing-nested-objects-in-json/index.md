@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Accessing Nested Objects in JSON"
+title: "Accessing Nested Objects in JSON"
+parent: "certificates-guide"
 ---
 
 The properties and sub-properties of JSON objects can be accessed by chaining together the dot or bracket notation.

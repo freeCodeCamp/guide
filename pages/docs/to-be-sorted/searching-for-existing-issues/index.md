@@ -1,5 +1,6 @@
 ---
 title: "Searching for Existing Issues"
+parent: "to-be-sorted"
 ---
 
 If you still see problems after [Getting Help on Gitter](http://forum.freecodecamp.com/t/how-to-get-help-on-gitter/19130), you will want to try to see if anyone else has posted about a similar problem.

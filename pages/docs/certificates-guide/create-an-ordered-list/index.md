@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Create an Ordered list"
+title: "Create an Ordered list"
+parent: "certificates-guide"
 ---
 
 HTML has a special element for creating ordered lists, or numbered-style lists.

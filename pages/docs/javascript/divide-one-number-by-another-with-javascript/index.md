@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Divide One Number by Another with JavaScript"
+title: "Divide One Number by Another with JavaScript"
+parent: "javascript"
 ---
 
 JavaScript uses use the `/` symbol for division.

@@ -1,5 +1,6 @@
 ---
 title: "Installing Dependencies for React with Webpack Projects"
+parent: "to-be-sorted"
 ---
 
 Now that we have an empty Webpack Configuration file (`webpack.config.js`) and a freshly made Package file (`package.json`), we need to install some dependencies. Installing dependencies automatically adds some data to our `package.json`.

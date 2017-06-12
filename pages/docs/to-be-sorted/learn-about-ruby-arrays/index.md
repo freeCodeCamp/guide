@@ -1,5 +1,6 @@
 ---
 title: "Learn About Ruby Arrays"
+parent: "to-be-sorted"
 ---
 
 ### Basics:

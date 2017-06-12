@@ -1,5 +1,6 @@
 ---
 title: "Naming Convention for JavaScript"
+parent: "javascript"
 ---
 
 Here you will get an overview of the different code case that are used widely used.

@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Get Geo Location Data"
+title: "Get Geo Location Data"
+parent: "certificates-guide"
 ---
 
 Every browser has a built in navigator that can give us this information.

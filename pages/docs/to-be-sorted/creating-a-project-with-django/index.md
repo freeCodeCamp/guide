@@ -1,5 +1,6 @@
 ---
 title: "Creating a Project with Django"
+parent: "to-be-sorted"
 ---
 
 Now that we know how to create virtual environments and use pip, we can begin building our project. In this article, we will create our first Django project, write tests, and start our development server.

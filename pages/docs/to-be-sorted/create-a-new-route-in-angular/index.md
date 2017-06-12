@@ -1,5 +1,6 @@
 ---
 title: "Create a new Route in Angular"
+parent: "to-be-sorted"
 ---
 
     >> yo angular-fullstack:route newpage

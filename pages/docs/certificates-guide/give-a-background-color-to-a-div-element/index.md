@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Give a Background Color to a Div Element"
+title: "Give a Background Color to a Div Element"
+parent: "certificates-guide"
 ---
 
 You can set an element's background color with the `background-color` attribute.

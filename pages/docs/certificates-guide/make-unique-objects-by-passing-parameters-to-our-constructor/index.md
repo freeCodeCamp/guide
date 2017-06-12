@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Make Unique Objects by Passing Parameters to our Constructor"
+title: "Make Unique Objects by Passing Parameters to our Constructor"
+parent: "certificates-guide"
 ---
 
 When you have a constructor but don't want to keep creating the same object, all you have to do is add parameters to the constructor the following way:

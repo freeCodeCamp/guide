@@ -1,5 +1,6 @@
 ---
 title: "The Python Dict"
+parent: "python"
 ---
 
 **TODO: `dict` basic info**

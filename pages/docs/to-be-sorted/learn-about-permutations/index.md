@@ -1,5 +1,6 @@
 ---
 title: "Learn about Permutations"
+parent: "to-be-sorted"
 ---
 
 _Permutation_ is a mathematical term for the number of ways a group of objects can be assembled into a set. It's similar to another mathematical term, _combination_, except for one key difference: with permutations, the order of the itmes in the set makes a difference.

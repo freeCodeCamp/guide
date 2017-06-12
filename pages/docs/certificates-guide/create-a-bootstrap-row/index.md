@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Create a Bootstrap Row"
+title: "Create a Bootstrap Row"
+parent: "certificates-guide"
 ---
 
 Create a div element with the class row.

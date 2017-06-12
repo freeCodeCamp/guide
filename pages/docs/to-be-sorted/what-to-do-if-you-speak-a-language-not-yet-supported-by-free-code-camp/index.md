@@ -1,5 +1,6 @@
 ---
 title: "What to do if you speak a language not yet supported by Free Code Camp"
+parent: "to-be-sorted"
 ---
 
 Translation is an all-or-nothing proposal.

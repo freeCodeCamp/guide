@@ -1,5 +1,6 @@
 ---
 title: "Interview questions for Junior Front-End Web Developers"
+parent: "to-be-sorted"
 ---
 
 The purpose of this article is to familiarize fresh Front-End Web Developers with text book questions. If you are just getting into the developer world there is a good chance you will feel nervous when interviewing for a developer's positon. Because of this, some relatively basic questions could feel more difficult than how they actually are. A good counter for this scenario is to be properly prepared.

@@ -1,5 +1,6 @@
 ---
 title: "Free Code Camp Deployment Workflow"
+parent: "general"
 ---
 
 1.  All code is written and pushed to a branch on the developers' own fork of Free Code Camp.

@@ -1,5 +1,6 @@
 ---
 title: "Git Pull vs Git Fetch"
+parent: "to-be-sorted"
 ---
 
 These two commands are regularly used by git users. Let's see the difference between both commands.

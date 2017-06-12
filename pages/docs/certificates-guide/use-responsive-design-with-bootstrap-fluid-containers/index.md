@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Use Responsive Design with Bootstrap Fluid Containers"
+title: "Use Responsive Design with Bootstrap Fluid Containers"
+parent: "certificates-guide"
 ---
 
 Bootstrap will figure out how wide your screen is and respond by resizing your HTML elements - hence the name Responsive Design.

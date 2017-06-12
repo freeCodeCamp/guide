@@ -1,5 +1,6 @@
 ---
 title: "How to Log in To your local instance of Free Code Camp"
+parent: "how-to"
 ---
 
 This guide will help you log in to your local FCC site using your GitHub account. This process should be similar for logging in with other social media accounts. This guide assumes you already have a local copy of FCC up and running.

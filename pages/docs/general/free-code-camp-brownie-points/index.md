@@ -1,5 +1,6 @@
 ---
 title: "Free Code Camp Brownie Points"
+parent: "general"
 ---
 
 The number beside your picture on Free Code Camp tells you how many Brownie Points you have.

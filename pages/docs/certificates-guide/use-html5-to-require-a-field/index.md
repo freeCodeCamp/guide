@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Use HTML5 to Require a Field"
+title: "Use HTML5 to Require a Field"
+parent: "certificates-guide"
 ---
 
 You can require specific form fields so that your user will not be able to submit your form until he or she has filled them out.

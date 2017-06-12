@@ -1,5 +1,6 @@
 ---
 title: "Rename local branches in Git"
+parent: "to-be-sorted"
 ---
 
 To rename a local branch, enter the following into the terminal:

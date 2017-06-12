@@ -1,5 +1,6 @@
 ---
 title: "Push a new local branch to a remote Git repository and track it too"
+parent: "to-be-sorted"
 ---
 
 1.  Create a new branch:  

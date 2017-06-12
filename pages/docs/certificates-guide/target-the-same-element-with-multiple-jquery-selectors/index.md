@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Target the same element with multiple jQuery Selectors"
+title: "Target the same element with multiple jQuery Selectors"
+parent: "certificates-guide"
 ---
 
 The multiple jQuery selectors are:

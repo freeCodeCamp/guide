@@ -1,5 +1,6 @@
 ---
 title: "Free Code Camp Official Chat Rooms"
+parent: "general"
 ---
 
 ### Note: if you came here because you saw a message that one of the chat rooms you're a member of is closing, please [go here](//forum.freecodecamp.com/t/simplifying-fccs-gitter-chatrooms/37621).

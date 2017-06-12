@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Set Front Family of an Element"
+title: "Set Front Family of an Element"
+parent: "certificates-guide"
 ---
 
 Font family is controlled by the `font-family` CSS attribute, like this `h1 {font-family: Sans-serif;}`

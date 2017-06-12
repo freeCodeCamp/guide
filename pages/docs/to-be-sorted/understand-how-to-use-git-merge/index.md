@@ -1,5 +1,6 @@
 ---
 title: "Understand how to use Git Merge"
+parent: "to-be-sorted"
 ---
 
 Let us say that you are working on an application that is similar to Reddit, but specifically for code snippets. In such an application, you would likely have a `master` branch which contains all the released features, a `dev` branch which might contain features that have been coded, but not implemented yet. Every developer in the team will create his own branches off the `dev` branch for individual features. The repository structure would look something like this:

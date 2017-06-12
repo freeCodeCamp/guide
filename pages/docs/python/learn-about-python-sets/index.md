@@ -1,5 +1,6 @@
 ---
 title: "Learn about python sets"
+parent: "python"
 ---
 
 **TODO: `set` basic info**

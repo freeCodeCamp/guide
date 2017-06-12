@@ -1,5 +1,6 @@
 ---
 title: "Learn about Ruby Numbers"
+parent: "to-be-sorted"
 ---
 
 ### Basics:

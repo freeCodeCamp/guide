@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Apply the Default Bootstrap Button Style"
+title: "Apply the Default Bootstrap Button Style"
+parent: "certificates-guide"
 ---
 
 Bootstrap has a button class called `btn-default`

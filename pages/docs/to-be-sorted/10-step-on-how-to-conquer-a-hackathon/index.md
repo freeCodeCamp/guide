@@ -1,5 +1,6 @@
 ---
 title: "10 Step on how to Conquer a hackathon"
+parent: "to-be-sorted"
 ---
 
 1.  **Apply early.** Sometimes, some of the hackathons send out acceptances in batches. If you apply just a few days before the hackathon, you may be left out.

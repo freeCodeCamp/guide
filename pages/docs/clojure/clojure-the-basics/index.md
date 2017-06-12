@@ -1,5 +1,6 @@
 ---
 title: "Clojure The Basics"
+parent: "clojure"
 ---
 
 ### Getting Started

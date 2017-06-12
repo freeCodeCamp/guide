@@ -1,5 +1,6 @@
 ---
 title: "Python return Statement"
+parent: "python"
 ---
 
 [Python Docs](https://docs.python.org/3/reference/simple_stmts.html#the-return-statement)

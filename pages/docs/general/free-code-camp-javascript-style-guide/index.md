@@ -1,5 +1,6 @@
 ---
 title: "Free Code Camp Javascript Style Guide"
+parent: "general"
 ---
 
 <small>or How Cool People Write JavaScript.</small>

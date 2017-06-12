@@ -1,5 +1,6 @@
 ---
 title: "CSS Flexbox Tips and Tricks"
+parent: "css"
 ---
 
 # CSS Flexbox

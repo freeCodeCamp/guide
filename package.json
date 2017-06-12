@@ -37,6 +37,7 @@
     "react-motion": "^0.1.0",
     "react-responsive-grid": "^0.3.3",
     "react-typography": "^0.15.0",
+    "rx": "^4.1.0",
     "typography": "^0.15.8",
     "typography-plugin-code": "^0.15.9",
     "underscore.string": "^3.2.2"
@@ -52,8 +53,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint --ext .js,.jsx --ignore-path .gitignore .",
-    "develop": "gatsby develop",
-    "build": "gatsby build",
+    "dev": "node _pages.js && gatsby develop",
+    "build": "node _pages.js && gatsby build",
     "deploy": "gatsby build --prefix-links && gh-pages -d public"
   }
 }

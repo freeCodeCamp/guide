@@ -1,5 +1,6 @@
 ---
 title: "When to UNDO/REDO"
+parent: "to-be-sorted"
 ---
 
 You would typically want to UNDO/REDO when you commit some changes to git, and realize that the changes need to be removed/reverted. This very common in scenarios for example, when you did a temporary change to some files, and forgot to revert them, then proceeded to adding them to commit accidentally.

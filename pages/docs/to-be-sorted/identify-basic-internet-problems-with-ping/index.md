@@ -1,5 +1,6 @@
 ---
 title: "Identify Basic Internet Problems with ping"
+parent: "to-be-sorted"
 ---
 
 ![Sonar screen](//discourse-user-assets.s3.amazonaws.com/original/2X/b/b1bfc671722851eed4adfe2d4ec24eb9ab8a875b.png)

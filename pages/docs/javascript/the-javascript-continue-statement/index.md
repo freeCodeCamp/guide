@@ -1,5 +1,6 @@
 ---
 title: "The JavaScript Continue Statement"
+parent: "javascript"
 ---
 
 ## Introduction

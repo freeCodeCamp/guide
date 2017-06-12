@@ -1,5 +1,6 @@
 ---
 title: "Use GitHub Static pages to host your Front End Projects"
+parent: "to-be-sorted"
 ---
 
 **Benefits**

@@ -1,5 +1,6 @@
 ---
 title: "The Agile Manifesto"
+parent: "to-be-sorted"
 ---
 
 ### For Agile Software Development

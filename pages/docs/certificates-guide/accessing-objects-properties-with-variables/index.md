@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Accessing Objects Properties with Variables"
+title: "Accessing Objects Properties with Variables"
+parent: "certificates-guide"
 ---
 
 Another use of bracket notation on objects is to use a variable to access a property. This can be very useful for iterating through lists of the object properties or for doing the lookup.

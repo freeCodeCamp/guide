@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Returning Boolean Values from Functions"
+title: "Returning Boolean Values from Functions"
+parent: "certificates-guide"
 ---
 
 You may recall from Comparison with the Equality Operator that all comparison operators return a boolean `true` or `false` value.

@@ -1,5 +1,6 @@
 ---
 title: "Online vs Offline IDEs"
+parent: "to-be-sorted"
 ---
 
 ## Offline IDEs

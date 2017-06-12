@@ -1,5 +1,6 @@
 ---
 title: "Free Code Camp Agenda for October Summit 2015"
+parent: "general"
 ---
 
 Our October 3, 2015 Summit will begin at noon EST on Saturday on [twitch.tv channel](http://twitch.tv/freecodecamp) and be available afterward on our [youtube channel](https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ?sub_confirmation=1).

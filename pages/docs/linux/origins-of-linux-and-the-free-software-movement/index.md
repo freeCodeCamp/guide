@@ -1,5 +1,6 @@
 ---
 title: "Origins of Linux and the Free Software Movement"
+parent: "linux"
 ---
 
 In the 1980s a famous MIT hacker working for the Artificial Intelligence lab named [Richard Stallman](https://en.wikipedia.org/wiki/Richard_Stallman) promoted the sharing of knowledge and ideas freely, specifically within the area of software. [UNIX](https://en.wikipedia.org/wiki/Unix) was the [operating system](https://en.wikipedia.org/wiki/Operating_system) (OS) of choice by many in the engineering and scientific community, but the problem was UNIX was [proprietary software](https://en.wikipedia.org/wiki/Proprietary_software). This meant only the vendors of the OS had access to the [source code](https://en.wikipedia.org/wiki/Source_code). That went against Stallman's philosophy. Not only did this mean the end users were not allowed to see how the software worked, they could not make any improvements or fixes to it if they could.

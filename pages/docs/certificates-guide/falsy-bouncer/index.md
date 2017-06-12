@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Algorithm Challenge Guide: Falsy Bouncer"
+title: "Falsy Bouncer"
+parent: "certificates-guide"
 ---
 
 <div class="lightbox-wrapper">[![](//discourse-user-assets.s3.amazonaws.com/optimized/2X/5/55dedad40d9f3f662c70d1eac4effc00c7d26bd9_1_485x500.jpg)

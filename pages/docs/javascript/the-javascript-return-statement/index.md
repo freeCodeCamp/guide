@@ -1,5 +1,6 @@
 ---
 title: "The JavaScript Return Statement"
+parent: "javascript"
 ---
 
 ## Introduction

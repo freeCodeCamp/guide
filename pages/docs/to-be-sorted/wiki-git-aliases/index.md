@@ -1,5 +1,6 @@
 ---
 title: "Wiki Git Aliases"
+parent: "to-be-sorted"
 ---
 
 For most developers, a lot of our time is spent in Terminal and a majority of it is spent typing Git commands. We've created a set of keyboard shortcuts with Bash aliases and functions to speed up your workflow and save hundreds of keystrokes every day.

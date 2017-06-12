@@ -1,5 +1,6 @@
 ---
 title: "Change the CSS of an Element Using jQuery"
+parent: "to-be-sorted"
 ---
 
 We can also change the CSS of an HTML element directly with jQuery.

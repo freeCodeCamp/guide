@@ -1,5 +1,6 @@
 ---
 title: "Wiki Git Resources"
+parent: "to-be-sorted"
 ---
 
 # Git Resources

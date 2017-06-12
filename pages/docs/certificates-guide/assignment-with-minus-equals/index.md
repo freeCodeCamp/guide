@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Assignment with Minus Equals"
+title: "Assignment with Minus Equals"
+parent: "certificates-guide"
 ---
 
 Like the `+= operator`, `-=` subtracts a number from a variable.

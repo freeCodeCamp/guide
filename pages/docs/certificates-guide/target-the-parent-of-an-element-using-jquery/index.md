@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Target the Parent of an Element Using jQuery"
+title: "Target the Parent of an Element Using jQuery"
+parent: "certificates-guide"
 ---
 
 Every HTML elements has a parent element from which it inherits properties.

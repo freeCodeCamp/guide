@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Use the JavaScript Console"
+title: "Use the JavaScript Console"
+parent: "javascript"
 ---
 
 Both Chrome and Firefox have excellent JavaScript consoles, also known as DevTools, for debugging your JavaScript.

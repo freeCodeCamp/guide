@@ -1,5 +1,6 @@
 ---
 title: "Cloning all remote branches in Git"
+parent: "to-be-sorted"
 ---
 
 To clone a remote git repository, enter the following into the terminal:

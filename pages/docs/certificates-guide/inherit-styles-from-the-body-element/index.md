@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Inherit Styles from the Body Element"
+title: "Inherit Styles from the Body Element"
+parent: "certificates-guide"
 ---
 
 The `body` element can be styled just like any other.

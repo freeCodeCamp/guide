@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Make Instance of Objects with a Constructor Function"
+title: "Make Instance of Objects with a Constructor Function"
+parent: "certificates-guide"
 ---
 
 A function that creates objects is called a _constructor_, my favorite way of creating objects when you have to create more than one of the same object. You can also edit the second object to add more properties if needed. This is called creating _instances_ of an object.

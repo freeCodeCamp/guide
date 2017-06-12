@@ -1,5 +1,6 @@
 ---
 title: "The Python Strings"
+parent: "python"
 ---
 
 Python allows `str` objects, or _strings_, to be expressed in a few different ways:

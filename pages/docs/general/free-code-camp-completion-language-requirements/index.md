@@ -1,5 +1,6 @@
 ---
 title: "Free Code Camp Completion Language Requirements"
+parent: "general"
 ---
 
 The last 800 hours of free code camp involve building projects for nonprofits. These nonprofit projects will involve lots of meetings, correspondence, and pair programming, all of which will be conducted in English.

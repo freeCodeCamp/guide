@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Nesting For Loops"
+title: "Nesting For Loops"
+parent: "certificates-guide"
 ---
 
 If you have a multi-dimensional array, you can use the same logic as the prior Challenge to loop through both the array and any sub-arrays. Here is an example:

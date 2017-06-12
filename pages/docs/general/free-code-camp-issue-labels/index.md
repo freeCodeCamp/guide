@@ -1,5 +1,6 @@
 ---
 title: "Free Code Camp Issue labels"
+parent: "general"
 ---
 
 In this article you can find labels (see the table below) used to categorize the variety of issues submitted to FCC, along with descriptions (work in progress). The labels range from **bugs** to **questions** to **curriculum requests**.

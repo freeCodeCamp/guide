@@ -1,5 +1,6 @@
 ---
 title: "Python Defining Functions"
+parent: "python"
 ---
 
 [Python Docs](https://docs.python.org/3/tutorial/controlflow.html#defining-functions)

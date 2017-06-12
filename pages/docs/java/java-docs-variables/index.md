@@ -1,5 +1,6 @@
 ---
 title: "Java Docs: Variables"
+parent: "java"
 ---
 
 # Java Variables

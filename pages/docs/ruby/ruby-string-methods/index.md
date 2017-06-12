@@ -1,5 +1,6 @@
 ---
 title: "Ruby String Methods"
+parent: "ruby"
 ---
 
 Ruby has many built in methods to work with strings. Strings in Ruby by default are mutable and can be changed in place or a new string can be returned from a method.

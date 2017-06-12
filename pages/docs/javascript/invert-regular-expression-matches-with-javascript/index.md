@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Invert Regular Expression Matches with JavaScript"
+title: "Invert Regular Expression Matches with JavaScript"
+parent: "javascript"
 ---
 
 Use`/\S/gi`; to match everything that isn't a space in the string.

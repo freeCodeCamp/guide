@@ -1,5 +1,6 @@
 ---
 title: "Translate Free Code Camp to your Language"
+parent: "to-be-sorted"
 ---
 
 Our translation effort is driven by bilingual campers like you.

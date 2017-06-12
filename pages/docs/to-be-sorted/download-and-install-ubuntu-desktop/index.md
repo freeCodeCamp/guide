@@ -1,5 +1,6 @@
 ---
 title: "Download and Install Ubuntu Desktop"
+parent: "to-be-sorted"
 ---
 
 A quick tutorial showcasing how to install Ubuntu.

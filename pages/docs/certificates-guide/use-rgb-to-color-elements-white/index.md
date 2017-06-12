@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Use RGB to Color Elements White"
+title: "Use RGB to Color Elements White"
+parent: "certificates-guide"
 ---
 
     background-color: rgb(255,255,255)

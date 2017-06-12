@@ -1,5 +1,6 @@
 ---
 title: "Java Docs: Loops"
+parent: "java"
 ---
 
 # Java Loops

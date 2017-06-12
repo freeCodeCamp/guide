@@ -1,5 +1,6 @@
 ---
 title: "Python max() function"
+parent: "python"
 ---
 
 `max()` is a built-in function in Python 3\. It returns the largest item in an iterable or the largest of two or more arguments.

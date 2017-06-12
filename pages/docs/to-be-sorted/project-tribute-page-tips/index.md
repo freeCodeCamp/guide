@@ -1,5 +1,6 @@
 ---
 title: "Project Tribute Page Tips"
+parent: "to-be-sorted"
 ---
 
 This might be the first full webpage you have ever created. Here are some tips to help get you started with this:

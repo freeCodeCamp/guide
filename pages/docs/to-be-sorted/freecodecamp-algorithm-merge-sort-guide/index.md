@@ -1,5 +1,6 @@
 ---
 title: "freeCodeCamp Algorithm Merge Sort Guide"
+parent: "to-be-sorted"
 ---
 
 Most modern languages have an inbuilt sort() function which automatically sorts an input array or list. Did you ever wonder how the sort function actually works on the inside?. Knowing common sorting algorithms and their implementations is the most important part of a coding interview. In this series of articles, we will look at several important sorting algorithms. How they are implemented, the time and space complexity etc. Our very first post is on Merge Sort.

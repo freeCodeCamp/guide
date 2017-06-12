@@ -1,5 +1,6 @@
 ---
 title: "How to undo a git add"
+parent: "how-to"
 ---
 
 # Undo git add

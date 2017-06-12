@@ -1,5 +1,6 @@
 ---
 title: "Add Free Code Camp in LinkedIn"
+parent: "to-be-sorted"
 ---
 
 LinkedIn recognizes Free Code Camp as a university.

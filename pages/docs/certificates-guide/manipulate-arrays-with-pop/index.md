@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Manipulate Arrays With pop"
+title: "Manipulate Arrays With pop"
+parent: "certificates-guide"
 ---
 
 Another way to change the data in an array is with the `.pop()` function.

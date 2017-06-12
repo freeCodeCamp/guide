@@ -1,5 +1,6 @@
 ---
 title: "Add Font Awesome Icons to all of our Buttons"
+parent: "to-be-sorted"
 ---
 
     <i class="fa fa-trash"></i>

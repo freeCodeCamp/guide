@@ -1,5 +1,6 @@
 ---
 title: "Learn about Ruby Strings"
+parent: "to-be-sorted"
 ---
 
 ### Basics:

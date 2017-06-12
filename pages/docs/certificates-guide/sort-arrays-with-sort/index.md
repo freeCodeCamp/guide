@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Sort Arrays with Sort"
+title: "Sort Arrays with Sort"
+parent: "certificates-guide"
 ---
 
 You can use the method sort to easily sort the values in the array alphabetically or numerically

@@ -1,5 +1,6 @@
 ---
 title: "Learn how to plan your future project!"
+parent: "to-be-sorted"
 ---
 
 An ounce of preparation is worth a pound of cure. That's true in medicine, and that's definitely true in software development.

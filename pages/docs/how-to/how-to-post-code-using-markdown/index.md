@@ -1,5 +1,6 @@
 ---
 title: "How to post code using markdown"
+parent: "how-to"
 ---
 
 use backticks `

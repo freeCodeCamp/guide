@@ -1,5 +1,6 @@
 ---
 title: "Java Loop Types: for"
+parent: "java"
 ---
 
 # The Java For Loop

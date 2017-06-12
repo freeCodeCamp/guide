@@ -1,5 +1,6 @@
 ---
 title: "Free Code Camp Completion Timeframe"
+parent: "general"
 ---
 
 It takes about 2,080 hours to complete Free Code Camp.

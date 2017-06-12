@@ -1,5 +1,6 @@
 ---
 title: "Python Import Statements"
+parent: "python"
 ---
 
 While learning programming and reading some resources you'd have come across this word 'abstraction' which simply means to reduce and reuse the code as much as possible.

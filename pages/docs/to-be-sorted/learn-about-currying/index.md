@@ -1,5 +1,6 @@
 ---
 title: "Learn about Currying"
+parent: "to-be-sorted"
 ---
 
 It is the act of taking a function with more than one argument and converting it into an equivalent function that takes a single argument. This is based on returning partially applied functions.

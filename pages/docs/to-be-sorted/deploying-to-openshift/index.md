@@ -1,5 +1,6 @@
 ---
 title: "Deploying to OpenShift"
+parent: "to-be-sorted"
 ---
 
 If you deploy your applications to Heroku you can only upload 5 applications, if you want to deploy a new one, you need to verify you account with your credit card.

@@ -1,5 +1,6 @@
 ---
 title: "Here's how to earn our verified Data Visualization Certification"
+parent: "to-be-sorted"
 ---
 
 ![An image of a sample Front End Development Certificate](//discourse-user-assets.s3.amazonaws.com/original/2X/e/e8807cae251ec214589ef35de95f956433d14280.png)

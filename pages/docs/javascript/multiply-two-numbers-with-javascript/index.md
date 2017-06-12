@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Multiply Two Numbers with JavaScript"
+title: "Multiply Two Numbers with JavaScript"
+parent: "javascript"
 ---
 
 JavaScript uses use the `*` symbol for multiplication.

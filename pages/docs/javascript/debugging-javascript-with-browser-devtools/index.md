@@ -1,5 +1,6 @@
 ---
 title: "Debugging JavaScript with Browser DevTools"
+parent: "javascript"
 ---
 
 As a developer you will often want to debug code. You might have already used `console.log` in some of the challenges, which is the simplest way to debug.

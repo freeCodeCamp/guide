@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Declare JavaScript Objects as Variables"
+title: "Declare JavaScript Objects as Variables"
+parent: "javascript"
 ---
 
 This has a simple format. You declare your variable and have it equal to an object in the form `{ key: value}`

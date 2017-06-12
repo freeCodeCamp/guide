@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Use CLockwise Notation to Specify the Padding of an Element"
+title: "Use CLockwise Notation to Specify the Padding of an Element"
+parent: "certificates-guide"
 ---
 
 Instead of specifying an element's `padding-top`, `padding-right`, `padding-bottom`, and `padding-lef`t attributes, you can specify them all in one line, like this: `padding: 10px 20px 10px 20px;`.

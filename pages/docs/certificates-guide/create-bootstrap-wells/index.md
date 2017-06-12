@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Create Bootstrap Wells"
+title: "Create Bootstrap Wells"
+parent: "certificates-guide"
 ---
 
 Bootstrap has a class called `well` that can create a visual sense of depth for your columns.

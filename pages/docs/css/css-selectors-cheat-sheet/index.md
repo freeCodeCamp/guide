@@ -1,5 +1,6 @@
 ---
 title: "CSS Selectors Cheat Sheet"
+parent: "css"
 ---
 
 # CSS Selectors

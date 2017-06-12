@@ -1,5 +1,6 @@
 ---
 title: "Python Resources"
+parent: "python"
 ---
 
 ## Tutorials

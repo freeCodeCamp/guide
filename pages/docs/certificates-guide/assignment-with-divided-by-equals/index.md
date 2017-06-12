@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Assignment with Divided by Equals"
+title: "Assignment with Divided by Equals"
+parent: "certificates-guide"
 ---
 
 The `/= operator` divides a variable by another number.

@@ -1,5 +1,6 @@
 ---
 title: "Python Introduction"
+parent: "python"
 ---
 
 ## What is Python?

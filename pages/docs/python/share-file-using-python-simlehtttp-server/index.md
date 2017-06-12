@@ -1,5 +1,6 @@
 ---
 title: "Share file using python simleHTTTP server"
+parent: "python"
 ---
 
 ## The steps need to follow for sending the file.

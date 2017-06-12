@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Use Hex Code to Color Elements Green"
+title: "Use Hex Code to Color Elements Green"
+parent: "certificates-guide"
 ---
 
 Just as with <a>red</a> and the others.

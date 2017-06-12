@@ -1,5 +1,6 @@
 ---
 title: "Installing Django in Virtual Environment"
+parent: "to-be-sorted"
 ---
 
 [Django](https://www.djangoproject.com) is an opinionated framework that helps you become productive. For instance, the file structure when you create a Django project. But, if you wish to explore the field of web development in Python in detail; perhaps [Flask](http://flask.pocoo.org/) is more up your alley. Feel free to skip this part of the article, and jump directly to the [Flask Installation help](#installing-flask-in-virtual-environment)

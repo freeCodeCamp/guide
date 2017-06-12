@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Algorithm Big-O Notation Guide: Algorithm Performance"
+title: "Algorithm Performance"
+parent: "certificates-guide"
 ---
 
 In mathematics, big-O notation is a symbolism used to describe and compare the _limiting behavior_ of a function.  

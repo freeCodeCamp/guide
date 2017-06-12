@@ -1,5 +1,6 @@
 ---
 title: "The Python Objects"
+parent: "python"
 ---
 
 > In Python, everything is an _object_.

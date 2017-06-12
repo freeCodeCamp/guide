@@ -1,5 +1,6 @@
 ---
 title: "Python slice(start:stop[:step])"
+parent: "python"
 ---
 
 `slice(start:stop[:step])` is an object usually containing a portion of a sequence. A slice is created using the subscript notation, [] with colons between numbers when several are given, such as in variable_name[1:3:5].

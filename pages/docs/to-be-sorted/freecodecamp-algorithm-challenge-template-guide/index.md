@@ -1,5 +1,6 @@
 ---
 title: "freeCodeCamp Algorithm Challenge Template Guide"
+parent: "to-be-sorted"
 ---
 
 > This is the template that you should follow when writing new algorithm solutions or adding content, always make sure the latest version of this template is implemented on your <a>pull request</a>

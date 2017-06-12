@@ -1,5 +1,6 @@
 ---
 title: "Advantages and Disadvantages of JavaScript"
+parent: "javascript"
 ---
 
 Like all computer languages, JavaScript has certain advantages and disadvantages. Many of the pros and cons are related to being a client-side language.

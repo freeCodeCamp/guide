@@ -1,5 +1,6 @@
 ---
 title: "freeCodeCamp Algorithm Binary Search Guide"
+parent: "to-be-sorted"
 ---
 
 Binary search is a search algorithm that finds the position of a target value within a sorted array.

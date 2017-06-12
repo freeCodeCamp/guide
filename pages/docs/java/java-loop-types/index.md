@@ -1,5 +1,6 @@
 ---
 title: "Java Loop Types"
+parent: "java"
 ---
 
 # Types of Java Loops

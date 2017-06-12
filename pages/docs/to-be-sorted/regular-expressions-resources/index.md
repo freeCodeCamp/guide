@@ -1,5 +1,6 @@
 ---
 title: "Regular Expressions Resources"
+parent: "to-be-sorted"
 ---
 
 > Links to useful RegEx resources.

@@ -1,5 +1,6 @@
 ---
 title: "Ruby Numbers Methods"
+parent: "ruby"
 ---
 
 In Ruby there are a variety of build in methods you can perform on numbers.

@@ -1,5 +1,6 @@
 ---
-title: "freeCodeCamp Challenge Guide: Count Backwards With a For Loop"
+title: "Count Backwards With a For Loop"
+parent: "certificates-guide"
 ---
 
 A for loop can also count backwards, so long as we can define the right conditions.
