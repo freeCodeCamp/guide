@@ -34,6 +34,7 @@
     "gatsby": "^0.12.45",
     "lodash": "^4.17.2",
     "react-document-title": "^2.0.3",
+    "react-freecodecamp-search": "^0.2.3",
     "react-motion": "^0.1.0",
     "react-responsive-grid": "^0.3.3",
     "react-typography": "^0.15.0",
