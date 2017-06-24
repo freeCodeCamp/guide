@@ -1,16 +1,9 @@
-.demo1-ball {
-  border-radius: 99px;
-  background-color: white;
-  width: 50px;
-  height: 50px;
-  border: 3px solid white;
-  position: absolute;
-  background-size: 50px;
-}
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 
 body {
   /* disable horizontal scrolling for when content makes way for menu */
   overflow-x: hidden;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 .svg-logo {
   height: 2em;
@@ -76,6 +69,9 @@ body {
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
   }
+  #navbar-side-container {
+    position: inherit;
+  }
   #navbar-side-container .slide-in {
     -moz-animation: slidein 300ms forwards;
     -o-animation: slidein 300ms forwards;
@@ -85,7 +81,7 @@ body {
     transform-style: preserve-3d;
   }
   #content {
-    position: absolute;    
+    position: absolute;
     /* Why adding 100% width and height make element with absolute position responsive again. Hmm.. */
     width: 100%; 
     height: 100%;
@@ -97,6 +93,9 @@ body {
     animation: content-slidein 300ms forwards;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
+  }
+  #content-container {
+    position: inherit;
   }
   #content-container .slide-out {
     -moz-animation: content-slideout 300ms forwards;
@@ -177,53 +176,3 @@ body {
   font-weight: bold;
   background-color: transparent;
 }
-
-
-/* .navbar-side #dropdown {
-  border: 0;
-  margin-bottom: 0;
-  border-radius: 0;
-  background-color: #f8f8f8;
-  box-shadow: none;
-}
-.navbar-side #dropdown .caret {
-  float: right;
-  margin: 9px 5px 0;
-}
-.navbar-side #dropdown .indicator {
-  float: right;
-}
-.navbar-side #dropdown > a {
-  border-bottom: 1px solid #e0e0e0;
-}
-.navbar-side #dropdown .panel-body {
-  padding: 0;
-  background-color: #f8f8f8;
-}
-.navbar-side #dropdown .panel-body a:hover
-  background-color: #e0e0e0;
-  font-weight: bold;
-}
-.navbar-side #dropdown .panel-body .navbar-nav {
-  width: 100%;
-}
-.navbar-side #dropdown .panel-body .navbar-nav li {
-  padding-left: 15px;
-  border-bottom: 1px solid #e0e0e0;
-}
-.navbar-side #dropdown .panel-body .navbar-nav li:last-child {
-  border-bottom: none;
-}
-.navbar-side #dropdown .panel-body .panel > a {
-  margin-left: -20px;
-  padding-left: 35px;
-}
-.navbar-side #dropdown .panel-body .panel-body {
-  margin-left: -15px;
-}
-.navbar-side #dropdown .panel-body .panel-body li {
-  padding-left: 30px;
-}
-.navbar-side #dropdown .panel-body .panel-body li:last-child {
-  border-bottom: 1px solid #e0e0e0;
-} */

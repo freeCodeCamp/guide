@@ -51,40 +51,12 @@ class DrillDownMenu extends PureComponent {
       .slice(0)
       .replace(/^intro.*?:\s/i, '');
     return (
-      <ul
-        style={{
-          listStyle: 'none',
-          marginLeft: 0,
-          marginTop: rhythm(1 / 2)
-        }}
-        >
-        <li
-          key={ parent.path }
-          style={{
-            marginBottom: rhythm(1 / 2),
-            listStyle: 'none',
-            border: '1px solid #006400',
-            display: 'flex',
-            flexDirection: 'row',
-            alignItems: 'center',
-            justifyContent: 'space-between'
-          }}
-          >
-          <Link
-            style={{
-              textDecoration: 'none'
-            }}
-            to={ prefixLink(parent.path) }
-            >
+      <ul className="nav">
+        <li key={ parent.path } >
+          <Link to={ prefixLink(parent.path) } >
             { isActive ? <strong>{formattedTitle}</strong> : formattedTitle }
           </Link>
-          <span
-            onClick={ this.handleCaretClick }
-            style={{
-              height: '18px',
-              width: '18px'
-            }}
-            >
+          <span onClick={ this.handleCaretClick } >
             <Caret />
           </span>
         </li>

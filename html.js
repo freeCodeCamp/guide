@@ -34,10 +34,8 @@ module.exports = React.createClass({
             content='IE=edge'
             httpEquiv='X-UA-Compatible'
           />
-          <meta
-            content='width=device-width, initial-scale=1.0'
-            name='viewport'
-          />
+          <meta name="viewport" 
+            content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
           <title>{title}</title>
           <TypographyStyle typography={typography} />
           <GoogleFont typography={typography} />
