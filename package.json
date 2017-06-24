@@ -36,7 +36,6 @@
     "lodash": "^4.17.2",
     "react-document-title": "^2.0.3",
     "react-motion": "^0.1.0",
-    "react-responsive-grid": "^0.3.3",
     "react-typography": "^0.15.0",
     "rx": "^4.1.0",
     "typography": "^0.15.8",

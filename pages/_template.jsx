@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router';
-import { Container, Grid, Span } from 'react-responsive-grid';
 import { prefixLink } from 'gatsby-helpers';
 import { colors } from 'utils/colors';
 import find from 'lodash/find';

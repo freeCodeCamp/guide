@@ -53,7 +53,6 @@ class DrillDownMenu extends PureComponent {
     return (
       <ul className="nav">
         <li key={ parent.path } className="dropdown">
-          {/*<Link to={ prefixLink(parent.path) } >*/}
           <a onClick={ this.handleCaretClick }>
             {formattedTitle} <span className="caret" />
           </a>
