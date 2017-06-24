@@ -7,3 +7,223 @@
   position: absolute;
   background-size: 50px;
 }
+
+body {
+  /* disable horizontal scrolling for when content makes way for menu */
+  overflow-x: hidden;
+}
+.svg-logo {
+  height: 2em;
+  margin-top: -0.3em;
+}
+.no-padding-left {
+  padding-left: 0;
+}
+.no-padding-right {
+  padding-right: 0;
+}
+
+/* Navbar */
+.navbar {
+  margin-bottom: 0;
+}
+
+/* Top Navbar */
+.navbar-top {
+  background-color: darkgreen;
+  border: none;
+  border-radius: 0;
+}
+.navbar-toggle {
+  float: left;
+}
+.navbar-top .navbar-toggle {
+  padding-left: 0;
+  padding-right: 0;
+  margin-right: 0;
+}
+.navbar-top .navbar-toggle .icon-bar {
+  border: 1px solid white;
+}
+.navbar-form {
+  border: none;
+  box-shadow: none;
+}
+.navbar-form .full-width {
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .svg-logo {
+    height: 1.8em;
+    margin-top: -0.25em;
+  }
+  .navbar-form {
+    padding-top: 0;
+    padding-bottom: 2%;
+    margin: 0;
+  }
+  #navbar-side {
+    position: absolute;
+    margin: 0;
+    left: -300px;
+    width: 300px;
+    z-index: 999;
+    border-right: 1px solid #e0e0e0;
+    -moz-animation: slideout 300ms forwards;
+    -o-animation: slideout 300ms forwards;
+    -webkit-animation: slideout 300ms forwards;
+    animation: slideout 300ms forwards;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+  }
+  #navbar-side-container .slide-in {
+    -moz-animation: slidein 300ms forwards;
+    -o-animation: slidein 300ms forwards;
+    -webkit-animation: slidein 300ms forwards;
+    animation: slidein 300ms forwards;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+  }
+  #content {
+    position: absolute;    
+    /* Why adding 100% width and height make element with absolute position responsive again. Hmm.. */
+    width: 100%; 
+    height: 100%;
+    left: 0px;
+    padding: 20px;
+    -moz-animation: content-slidein 300ms forwards;
+    -o-animation: content-slidein 300ms forwards;
+    -webkit-animation: content-slidein 300ms forwards;
+    animation: content-slidein 300ms forwards;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+  }
+  #content-container .slide-out {
+    -moz-animation: content-slideout 300ms forwards;
+    -o-animation: content-slideout 300ms forwards;
+    -webkit-animation: content-slideout 300ms forwards;
+    animation: content-slideout 300ms forwards;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+  }
+  
+  @-moz-keyframes slidein {
+    0% { left: -300px; }
+    100% { left: 0px; }
+  }
+  @-webkit-keyframes slidein {
+    0% { left: -300px; }
+    100% { left: 0px; }
+  }
+  @keyframes slidein {
+    0% { left: -300px; }
+    100% { left: 0px; }
+  }
+  @-moz-keyframes slideout {
+    0% { left: 0; }
+    100% { left: -300px; }
+  }
+  @-webkit-keyframes slideout {
+    0% { left: 0; }
+    100% { left: -300px; }
+  }
+  @keyframes slideout {
+    0% { left: 0; }
+    100% { left: -300px; }
+  }
+  @-moz-keyframes content-slidein {
+    0% { left: 300px; }
+    100% { left: 0px; }
+  }
+  @-webkit-keyframes content-slidein {
+    0% { left: 300px; }
+    100% { left: 0px; }
+  }
+  @keyframes content-slidein {
+    0% { left: 300px; }
+    100% { left: 0px; }
+  }
+  @-moz-keyframes content-slideout {
+    0% { left: 0; }
+    100% { left: 300px; }
+  }
+  @-webkit-keyframes content-slideout {
+    0% { left: 0; }
+    100% { left: 300px; }
+  }
+  @keyframes content-slideout {
+    0% { left: 0; }
+    100% { left: 300px; }
+  }
+}
+
+/* Navbar Side */
+.navbar-side {
+  background-color: #f8f8f8;
+}
+
+.navbar-side li {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.navbar-side li a {
+  color:darkgreen;
+}
+
+.navbar-side li a:hover {
+  font-weight: bold;
+  background-color: transparent;
+}
+
+
+/* .navbar-side #dropdown {
+  border: 0;
+  margin-bottom: 0;
+  border-radius: 0;
+  background-color: #f8f8f8;
+  box-shadow: none;
+}
+.navbar-side #dropdown .caret {
+  float: right;
+  margin: 9px 5px 0;
+}
+.navbar-side #dropdown .indicator {
+  float: right;
+}
+.navbar-side #dropdown > a {
+  border-bottom: 1px solid #e0e0e0;
+}
+.navbar-side #dropdown .panel-body {
+  padding: 0;
+  background-color: #f8f8f8;
+}
+.navbar-side #dropdown .panel-body a:hover
+  background-color: #e0e0e0;
+  font-weight: bold;
+}
+.navbar-side #dropdown .panel-body .navbar-nav {
+  width: 100%;
+}
+.navbar-side #dropdown .panel-body .navbar-nav li {
+  padding-left: 15px;
+  border-bottom: 1px solid #e0e0e0;
+}
+.navbar-side #dropdown .panel-body .navbar-nav li:last-child {
+  border-bottom: none;
+}
+.navbar-side #dropdown .panel-body .panel > a {
+  margin-left: -20px;
+  padding-left: 35px;
+}
+.navbar-side #dropdown .panel-body .panel-body {
+  margin-left: -15px;
+}
+.navbar-side #dropdown .panel-body .panel-body li {
+  padding-left: 30px;
+}
+.navbar-side #dropdown .panel-body .panel-body li:last-child {
+  border-bottom: 1px solid #e0e0e0;
+} */
