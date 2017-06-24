@@ -16,9 +16,9 @@ function DrillDownItem(props) {
   const isActive = prefixLink(item.path) === location;
 
   return (
-    <li key={ item.path } >
+    <li key={ item.path } className={ 'child' + (isActive ? ' selected' : '') }>
       <Link to={ prefixLink(item.path) } >
-        { isActive ? <strong>{item.title}</strong> : item.title }
+        { item.title }
       </Link>
     </li>
   );

@@ -52,13 +52,11 @@ class DrillDownMenu extends PureComponent {
       .replace(/^intro.*?:\s/i, '');
     return (
       <ul className="nav">
-        <li key={ parent.path } >
-          <Link to={ prefixLink(parent.path) } >
-            { isActive ? <strong>{formattedTitle}</strong> : formattedTitle }
-          </Link>
-          <span onClick={ this.handleCaretClick } >
-            <Caret />
-          </span>
+        <li key={ parent.path } className="dropdown">
+          {/*<Link to={ prefixLink(parent.path) } >*/}
+          <a onClick={ this.handleCaretClick }>
+            {formattedTitle} <span className="caret" />
+          </a>
         </li>
         { isOpen ? this.renderChildren(children) : null }
       </ul>
