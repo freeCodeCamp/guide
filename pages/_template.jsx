@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router';
+import FCCSearchBar from 'react-freecodecamp-search';
 import { Container, Grid, Span } from 'react-responsive-grid';
 import { prefixLink } from 'gatsby-helpers';
 import { colors } from 'utils/colors';
@@ -59,7 +60,10 @@ module.exports = React.createClass({
                   {config.siteTitle}
                 </Link>
               </Span>
-              <Span columns={ 8 } last={ true } >
+              <Span columns={ 6 }>
+                <FCCSearchBar />
+              </Span>
+              <Span columns={ 2 } last={ true } >
                 <a
                   href='https://github.com/freeCodeCamp/guides'
                   style={{
@@ -71,7 +75,6 @@ module.exports = React.createClass({
                   >
                   Github
                 </a>
-                <p>In here is where the Search Bar will go</p>
               </Span>
             </Grid>
           </Container>
