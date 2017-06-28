@@ -16,28 +16,13 @@ function DrillDownItem(props) {
   const isActive = prefixLink(item.path) === location;
 
   return (
-    <li
-      key={ item.path }
-      style={{
-        marginBottom: rhythm(1 / 2),
-            listStyle: 'none',
-            display: 'flex',
-            flexDirection: 'row',
-            alignItems: 'center'
-      }}
-      >
-      <Link
-        style={{
-          textDecoration: 'none'
-        }}
-        to={ prefixLink(item.path) }
-        >
-        { isActive ? <strong>{item.title}</strong> : item.title }
+    <li key={ item.path } className={ 'child' + (isActive ? ' selected' : '') }>
+      <Link to={ prefixLink(item.path) } >
+        { item.title }
       </Link>
     </li>
   );
 }
-
 
 DrillDownItem.propTypes = propTypes;
 DrillDownItem.displayName = 'DrillDownItem';
