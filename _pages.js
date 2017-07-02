@@ -5,7 +5,7 @@ const { Observable } = Rx;
 const isAFileRegEx = /(\.md|\.jsx?|.html?)$/;
 const shouldBeIgnoredRegEx = /^(\_|\.)/;
 
-let bigArrayOfPages = [];
+let bigArrayOfPages = ['/docs/'];
 const topLevel = 'pages/docs';
 
 function readDir(dir) {
@@ -49,11 +49,12 @@ listAllDirs(topLevel, [])
       throw new Error(err);
     },
     () => {
+      const dynamicContent = JSON.stringify(bigArrayOfPages.sort(), null, 2);
       const newConfig = fse.readFileSync(
         `${process.cwd()}/_template.config`,
         'utf8'
         )
-        .replace(/{{}}/, JSON.stringify(bigArrayOfPages.sort(), null, 2));
+        .replace(/{{}}/, dynamicContent);
       fse.writeFile(`${process.cwd()}/config.toml`, newConfig)
         .then(() => {
           console.log(

@@ -38,6 +38,12 @@ module.exports = React.createClass({
             content='width=device-width, initial-scale=1.0'
             name='viewport'
           />
+          <link
+            crossOrigin='anonymous'
+            href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'
+            integrity='sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u'
+            rel='stylesheet'
+          />
           <title>{title}</title>
           <TypographyStyle typography={typography} />
           <GoogleFont typography={typography} />
