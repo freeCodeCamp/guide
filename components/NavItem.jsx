@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { withRouter } from 'react-router';
 
 const propTypes = {
   path: PropTypes.string,
@@ -8,24 +9,23 @@ const propTypes = {
 };
 
 class NavItem extends React.PureComponent {
-  constructor() {
-    super();
+  constructor(...props) {
+    super(...props);
 
     this.handleClick = this.handleClick.bind(this);
   }
 
 
-  handleClick(e) {
-    e.preventDefault();
+  handleClick() {
     const { path } = this.props;
-    this.context.router.push(path);
+    this.props.router.push(path);
   }
 
   render() {
-    const { path, title } = this.props;
+    const { title } = this.props;
     return (
       <li onClick={ this.handleClick }role='presentation'>
-        <a href={ path }>
+        <a role='presentation'>
           <span>{ title }</span>
         </a>
       </li>
@@ -35,8 +35,5 @@ class NavItem extends React.PureComponent {
 
 NavItem.displayName = 'NavItem';
 NavItem.propTypes = propTypes;
-NavItem.contextTypes = {
-  router: React.PropTypes.object.isRequired
-};
 
-export default NavItem;
+export default withRouter(NavItem);
