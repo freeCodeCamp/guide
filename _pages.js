@@ -5,7 +5,10 @@ const { Observable } = Rx;
 const isAFileRegEx = /(\.md|\.jsx?|.html?)$/;
 const shouldBeIgnoredRegEx = /^(\_|\.)/;
 
-let bigArrayOfPages = ['/docs/'];
+let bigArrayOfPages = [
+  `/${fse.readdirSync(`${process.cwd()}/pages`)
+  .filter((item) => !isAFileRegEx.test(item))[0]}/`
+  ];
 const topLevel = 'pages/docs';
 
 function readDir(dir) {
