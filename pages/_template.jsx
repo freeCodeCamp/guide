@@ -1,94 +1,92 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Link } from 'react-router';
 import FCCSearchBar from 'react-freecodecamp-search';
-import { Container, Grid, Span } from 'react-responsive-grid';
+import { Grid, Row, Col, Image, Navbar } from 'react-bootstrap';
+// gatsby
 import { prefixLink } from 'gatsby-helpers';
 import { colors } from 'utils/colors';
-
 import typography from 'utils/typography';
 import { config } from 'config';
+
+import SideNav from '../components/SideNav.jsx';
 
 // Import styles.
 import 'css/main.css';
 import 'css/github.css';
 
+const propTypes = {
+      'location.pathname': PropTypes.string,
+      children: PropTypes.object,
+      location: PropTypes.object
+    };
+
 const { rhythm, adjustFontSizeTo } = typography;
 
-module.exports = React.createClass({
-  propTypes() {
-    return {
-      children: React.PropTypes.object
-    };
-  },
+class Layout extends React.PureComponent {
+  constructor() {
+    super();
+  }
+
+  componentWillMount() {
+    if (this.props.location.pathname === '/') {
+      this.context.router.push('/docs/');
+    }
+  }
+
   render() {
     return (
       <div>
-        <div
-          style={{
-            background: colors.bg,
-            color: colors.fg,
-            marginBottom: rhythm(1.5)
-          }}
-          >
-          <Container
-            style={{
-              maxWidth: 960,
-              paddingLeft: rhythm(3 / 4)
-            }}
-            >
-            <Grid
-              columns={12}
-              style={{
-                padding: `${rhythm(3 / 4)} 0`
-              }}
-              >
-              <Span
-                columns={4}
-                style={{
-                  // Ugly hack. How better to constrain height of div?
-                  height: 24
-                }}
-                >
-                <Link
-                  style={{
-                    textDecoration: 'none',
-                    color: colors.fg,
-                    fontSize: adjustFontSizeTo('25.5px').fontSize
-                  }}
-                  to={prefixLink('/')}
-                  >
-                  {config.siteTitle}
-                </Link>
-              </Span>
-              <Span columns={ 6 }>
+        <Grid fluid={true}>
+          <Row>
+            <Navbar style={{ background: colors.bg }}>
+              <Col md={3} xs={12}>
+                <Navbar.Header>
+                  <Navbar.Brand>
+                    <Link
+                      style={{
+                        textDecoration: 'none',
+                        color: '#fff',
+                        fontSize: adjustFontSizeTo('25.5px').fontSize
+                      }}
+                      to={prefixLink('/')}
+                      >
+                      <Image
+                        alt={config.siteTitle}
+                        responsive={ true }
+                        src={
+                          'https://raw.githubusercontent.com/' +
+                          'freeCodeCamp/assets/master/assets/logos/FCC-logo-white.png'
+                          }
+                      />
+                    </Link>
+                  </Navbar.Brand>
+                </Navbar.Header>
+              </Col>
+              <Col md={ 9 } xs={ 12 }>
                 <FCCSearchBar />
-              </Span>
-              <Span columns={ 2 } last={ true } >
-                <a
-                  href='https://github.com/freeCodeCamp/guides'
-                  style={{
-                    float: 'right',
-                    color: colors.fg,
-                    textDecoration: 'none',
-                    marginLeft: rhythm(1 / 2)
-                  }}
-                  >
-                  Github
-                </a>
-              </Span>
-            </Grid>
-          </Container>
-        </div>
-        <Container
-          style={{
-            maxWidth: 960,
-            padding: `${rhythm(1)} ${rhythm(3 / 4)}`,
-            paddingTop: 0
-          }}
-          >
-          {this.props.children}
-        </Container>
+              </Col>
+            </Navbar>
+          </Row>
+        </Grid>
+        <Grid>
+          <Row>
+            <Col md={ 3 }>
+              <SideNav { ...this.props }/>
+            </Col>
+            <Col md={ 9 }>
+              {this.props.children}
+            </Col>
+          </Row>
+        </Grid>
       </div>
     );
   }
-});
+}
+Layout.contextTypes = {
+    router: React.PropTypes.object.isRequired
+};
+Layout.displayName = 'Layout';
+Layout.propTypes = propTypes;
+
+module.exports = Layout;

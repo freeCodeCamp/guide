@@ -2,6 +2,7 @@ siteTitle="freeCodeCamp Guide"
 baseColor = "#006400"
 linkPrefix = "/guide"
 docPages = [
+  "/docs/",
   "/docs/certificates-guide/",
   "/docs/certificates-guide/access-array-data-with-indexes/",
   "/docs/certificates-guide/access-multi-dimensional-arrays-with-indexes/",
