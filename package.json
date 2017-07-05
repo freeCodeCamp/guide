@@ -58,6 +58,6 @@
     "lint": "eslint --ext .js,.jsx --ignore-path .gitignore .",
     "dev": "node _pages.js && gatsby develop",
     "build": "node _pages.js && gatsby build",
-    "deploy": "gatsby build --prefix-links && gh-pages -d public"
+    "deploy": "node _pages.js && gatsby build --prefix-links && gh-pages -d public"
   }
 }
