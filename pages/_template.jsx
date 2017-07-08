@@ -6,7 +6,6 @@ import { Grid, Row, Col, Image, Navbar } from 'react-bootstrap';
 // gatsby
 import { prefixLink } from 'gatsby-helpers';
 import { colors } from 'utils/colors';
-import typography from 'utils/typography';
 import { config } from 'config';
 
 import SideNav from '../components/SideNav.jsx';
@@ -20,8 +19,6 @@ const propTypes = {
       children: PropTypes.object,
       location: PropTypes.object
     };
-
-const { rhythm, adjustFontSizeTo } = typography;
 
 class Layout extends React.PureComponent {
   constructor() {
@@ -46,8 +43,7 @@ class Layout extends React.PureComponent {
                     <Link
                       style={{
                         textDecoration: 'none',
-                        color: '#fff',
-                        fontSize: adjustFontSizeTo('25.5px').fontSize
+                        color: '#fff'
                       }}
                       to={prefixLink('/')}
                       >
@@ -56,7 +52,8 @@ class Layout extends React.PureComponent {
                         responsive={ true }
                         src={
                           'https://raw.githubusercontent.com/' +
-                          'freeCodeCamp/assets/master/assets/logos/FCC-logo-white.png'
+                          'freeCodeCamp/assets/master/assets/logos/' +
+                          'FCC-logo-white.png'
                           }
                       />
                     </Link>
