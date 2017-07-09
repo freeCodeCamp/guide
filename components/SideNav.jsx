@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import find from 'lodash/find';
 import { Accordion } from 'react-bootstrap';
 
@@ -6,6 +7,10 @@ import { config } from 'config';
 
 import NavPanel from './NavPanel.jsx';
 import NavItem from './NavItem.jsx';
+
+const propTypes = {
+  route: PropTypes.object
+};
 
 function buildMenuTree(pages) {
   return pages
@@ -84,3 +89,5 @@ export default function SideNav(props) {
 SideNav.contextTypes = {
     router: React.PropTypes.object.isRequired
 };
+SideNav.displayName = 'SideNav';
+SideNav.propTypes = propTypes;
