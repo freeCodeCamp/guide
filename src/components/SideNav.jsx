@@ -1,24 +1,18 @@
 import React from 'react';
-import find from 'lodash/find';
 import { Accordion } from 'react-bootstrap';
-
-import { config } from 'config';
 
 import NavPanel from './NavPanel.jsx';
 import NavItem from './NavItem.jsx';
 
+import navData from '../navData.json';
+
 function buildMenuTree(pages) {
-  return pages
+  return Object.keys(pages)
+    .map(key => pages[key])
     .reduce((acc, current) => {
-      const { path, parent } = current;
+      const { parent, hasChildren } = current;
 
-      const isAParent = path
-        .replace(/^\//, '')
-        .replace(/\/$/, '')
-        .split('/')
-        .length === 2;
-
-      if (isAParent) {
+      if (hasChildren) {
           const existingParents = acc.parents ? acc.parents : [];
           acc.parents = [ ...existingParents, current ];
           return acc;
@@ -47,7 +41,11 @@ function renderPanels(tree) {
         .filter(page => new RegExp(parent.path).test(page.path))
         .map(page => {
           return (
-            <NavItem key={ page.path } path={ page.path } title={ page.title }/>
+            <NavItem
+              key={ page.path }
+              path={ page.path }
+              title={ page.title }
+            />
             );
         });
       return (
@@ -60,19 +58,8 @@ function renderPanels(tree) {
   });
 }
 
-export default function SideNav(props) {
-  const { docPages } = config;
-  const childPages = docPages
-    .map((p) => {
-      const page = find(props.route.pages, (_p) => _p.path === p);
-      return {
-        title: page.data.title,
-        path: page.path
-      };
-    })
-    .filter(page => !(/^\/docs\/$/).test(page.path));
-
-  const tree = buildMenuTree(childPages);
+function SideNav() {
+  const tree = buildMenuTree(navData);
   const panels = renderPanels(tree);
   return (
     <Accordion>
@@ -84,3 +71,4 @@ export default function SideNav(props) {
 SideNav.contextTypes = {
     router: React.PropTypes.object.isRequired
 };
+export default SideNav;

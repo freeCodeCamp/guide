@@ -1,34 +1,35 @@
 import React from 'react';
-import DocumentTitle from 'react-document-title';
+import PropTypes from 'prop-types';
+import Helmet from 'react-helmet';
 
-import { prefixLink } from 'gatsby-helpers';
-import { TypographyStyle, GoogleFont } from 'react-typography';
+import { TypographyStyle } from 'react-typography';
 import typography from './utils/typography';
 
-const BUILD_TIME = new Date().getTime();
+export default class HTML extends React.Component {
+  static propTypes = {
+    body: PropTypes.string,
+    headComponents: PropTypes.array,
+    postBodyComponents: PropTypes.array
+  }
 
-module.exports = React.createClass({
-  displayName: 'HTML',
-  propTypes: {
-    body: React.PropTypes.string
-  },
   render() {
-    const title = DocumentTitle.rewind();
+    const head = Helmet.rewind();
 
     let css;
     if (process.env.NODE_ENV === 'production') {
       css = (
-      <style
-        dangerouslySetInnerHTML={
-            { __html: require('!raw!./public/styles.css') }
-          }
-      />
+        <style
+          dangerouslySetInnerHTML={{
+            __html: require('!raw!../public/styles.css')
+          }}
+        />
       );
     }
 
     return (
       <html lang='en'>
         <head>
+          { this.props.headComponents }
           <meta charSet='utf-8' />
           <meta
             content='IE=edge'
@@ -41,28 +42,27 @@ module.exports = React.createClass({
           <link
             crossOrigin='anonymous'
             href={
-              'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/' +
-              'css/bootstrap.min.css'
+              'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/' +
+              'bootstrap.min.css'
             }
             integrity={
-              'sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/' +
-              'K68vbdEjh4u'
+              'sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+' +
+              'PmSTsz/K68vbdEjh4u'
             }
             rel='stylesheet'
           />
-          <title>{title}</title>
+          <title>freeCodeCamp Guide</title>
           <TypographyStyle typography={typography} />
-          <GoogleFont typography={typography} />
           {css}
         </head>
         <body>
           <div
             dangerouslySetInnerHTML={{ __html: this.props.body }}
-            id='react-mount'
+            id='___gatsby'
           />
-          <script src={prefixLink(`/bundle.js?t=${BUILD_TIME}`)} />
+          { this.props.postBodyComponents }
         </body>
       </html>
     );
   }
-});
+}
