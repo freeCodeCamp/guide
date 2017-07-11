@@ -8,5 +8,3 @@ cd guides
 npm i
 npm run dev
 ```
-
-Many thanks

@@ -27,6 +27,7 @@
     "react-bootstrap": "^0.31.0",
     "react-freecodecamp-search": "^0.2.5",
     "react-typography": "^0.15.0",
+    "rx": "^4.1.0",
     "typography": "^0.15.8",
     "typography-breakpoint-constants": "^0.14.0",
     "typography-plugin-code": "^0.15.9"
