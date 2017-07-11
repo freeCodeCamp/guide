@@ -40,9 +40,9 @@
   "license": "MIT",
   "main": "n/a",
   "scripts": {
-    "build": "gatsby build",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
-    "dev": "gatsby develop",
+    "build": "node _createNavData.js && gatsby build",
+    "deploy": "node _createNavData.js && gatsby build --prefix-paths && gh-pages -d public",
+    "dev": "node _createNavData.js && gatsby develop",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"pages/*.js\" \"utils/*.js\" \"wrappers/*.js\" \"html.js\"",
     "lint": "eslint --ext .js,.jsx --ignore-path .gitignore .",
     "test": "echo \"Error: no test specified\" && exit 1"
