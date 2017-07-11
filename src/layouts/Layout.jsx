@@ -1,27 +1,19 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Link } from 'react-router';
 import FCCSearchBar from 'react-freecodecamp-search';
 import { Grid, Row, Col, Image, Navbar } from 'react-bootstrap';
 // gatsby
-import { prefixLink } from 'gatsby-helpers';
-import { colors } from 'utils/colors';
-import typography from 'utils/typography';
-import { config } from 'config';
+import Link from 'gatsby-link';
 
 import SideNav from '../components/SideNav.jsx';
 
-// Import styles.
-import 'css/main.css';
-import 'css/github.css';
+// Import styles
 
 const propTypes = {
       'location.pathname': PropTypes.string,
-      children: PropTypes.object,
+      children: PropTypes.func,
       location: PropTypes.object
     };
-
-const { rhythm, adjustFontSizeTo } = typography;
 
 class Layout extends React.PureComponent {
   constructor() {
@@ -30,33 +22,34 @@ class Layout extends React.PureComponent {
 
   componentWillMount() {
     if (this.props.location.pathname === '/') {
-      this.context.router.push('/docs/');
+      this.context.router.history.replace('/docs');
     }
   }
 
   render() {
+
     return (
       <div>
         <Grid fluid={true}>
           <Row>
-            <Navbar style={{ background: colors.bg }}>
+            <Navbar style={{ background: '#006400' }}>
               <Col md={3} xs={12}>
                 <Navbar.Header>
                   <Navbar.Brand>
                     <Link
                       style={{
                         textDecoration: 'none',
-                        color: '#fff',
-                        fontSize: adjustFontSizeTo('25.5px').fontSize
+                        color: '#fff'
                       }}
-                      to={prefixLink('/')}
+                      to={'/'}
                       >
                       <Image
-                        alt={config.siteTitle}
+                        alt='freeCodeCamp logo'
                         responsive={ true }
                         src={
                           'https://raw.githubusercontent.com/' +
-                          'freeCodeCamp/assets/master/assets/logos/FCC-logo-white.png'
+                          'freeCodeCamp/assets/master/assets/' +
+                          'logos/FCC-logo-white.png'
                           }
                       />
                     </Link>
@@ -72,10 +65,10 @@ class Layout extends React.PureComponent {
         <Grid>
           <Row>
             <Col md={ 3 }>
-              <SideNav { ...this.props }/>
+              <SideNav />
             </Col>
             <Col md={ 9 }>
-              {this.props.children}
+              { this.props.children() }
             </Col>
           </Row>
         </Grid>
@@ -89,4 +82,4 @@ Layout.contextTypes = {
 Layout.displayName = 'Layout';
 Layout.propTypes = propTypes;
 
-module.exports = Layout;
+export default Layout;
