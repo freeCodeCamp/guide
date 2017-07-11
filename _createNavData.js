@@ -76,7 +76,10 @@ listAllDirs(topLevel, [])
       throw new Error(err);
     },
     () => {
-      fse.writeFile(`${process.cwd()}/src/navData.json`, JSON.stringify(navData, null, 2))
+      fse.writeFile(
+        `${process.cwd()}/src/navData.json`,
+        JSON.stringify(navData, null, 2)
+        )
         .then(() => {
           console.log('\nnavData.json created\n');
         })
