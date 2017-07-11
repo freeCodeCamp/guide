@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
-  "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "name": "freecodecamp-guide",
+  "description": "A collection of guides to various tools",
+  "version": "0.1.0",
+  "author": "freeCodeCamp",
   "dependencies": {
     "babel-eslint": "^7.2.3",
     "eslint": "^3.19.0",
