@@ -40,9 +40,6 @@ class NavPanel extends React.PureComponent {
   }
 }
 
-NavPanel.contextTypes = {
-    router: React.PropTypes.object.isRequired
-};
 NavPanel.displayName = 'NavPanel';
 NavPanel.propTypes = propTypes;
 

@@ -5,12 +5,13 @@ import Helmet from 'react-helmet';
 import { TypographyStyle } from 'react-typography';
 import typography from './utils/typography';
 
-export default class HTML extends React.Component {
-  static propTypes = {
+const propTypes = {
     body: PropTypes.string,
     headComponents: PropTypes.array,
     postBodyComponents: PropTypes.array
-  }
+};
+
+class HTML extends React.Component {
 
   render() {
     const head = Helmet.rewind();
@@ -66,3 +67,8 @@ export default class HTML extends React.Component {
     );
   }
 }
+
+HTML.displayName = 'HTML';
+HTML.propTypes = propTypes;
+
+export default HTML;

@@ -77,7 +77,7 @@ class Layout extends React.PureComponent {
   }
 }
 Layout.contextTypes = {
-    router: React.PropTypes.object.isRequired
+    router: PropTypes.object.isRequired
 };
 Layout.displayName = 'Layout';
 Layout.propTypes = propTypes;
