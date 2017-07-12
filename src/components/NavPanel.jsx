@@ -15,10 +15,14 @@ class NavPanel extends React.PureComponent {
     this.state = {
       expanded: false
     };
-
+    this.handleClick = this.handleClick.bind(this);
     this.handleSelect = this.handleSelect.bind(this);
   }
 
+  handleClick() {
+    const { path } = this.props;
+    this.context.router.history.push(path);
+  }
 
   handleSelect() {
     this.setState({ expanded: !this.state.expanded });
@@ -32,6 +36,7 @@ class NavPanel extends React.PureComponent {
         collapsible={ true }
         expanded={ expanded }
         header={ title }
+        onClick={ this.handleClick }
         onSelect={ this.handleSelect }
         >
         { expanded ? this.props.children : null }

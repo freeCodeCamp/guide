@@ -5683,6 +5683,10 @@ node-status-codes@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/node-status-codes/-/node-status-codes-1.0.0.tgz#5ae5541d024645d32a58fcddc9ceecea7ae3ac2f"
 
+node.svn@^0.1.8:
+  version "0.1.8"
+  resolved "https://registry.yarnpkg.com/node.svn/-/node.svn-0.1.8.tgz#476131425f827ecb018ec8315ddf0c1b901a135e"
+
 noms@0.0.0:
   version "0.0.0"
   resolved "https://registry.yarnpkg.com/noms/-/noms-0.0.0.tgz#da8ebd9f3af9d6760919b27d9cdc8092a7332859"
