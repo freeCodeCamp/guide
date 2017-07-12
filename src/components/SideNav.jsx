@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Accordion } from 'react-bootstrap';
 
 import NavPanel from './NavPanel.jsx';
@@ -69,6 +70,6 @@ function SideNav() {
 }
 
 SideNav.contextTypes = {
-    router: React.PropTypes.object.isRequired
+    router: PropTypes.object.isRequired
 };
 export default SideNav;
