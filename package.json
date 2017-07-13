@@ -24,7 +24,6 @@
     "gatsby-remark-smartypants": "^1.0.0-beta.6",
     "gatsby-source-filesystem": "^1.0.0-beta.6",
     "gatsby-transformer-remark": "^1.0.0-beta.6",
-    "node.svn": "^0.1.8",
     "react": "^15.6.1",
     "react-bootstrap": "^0.31.0",
     "react-dom": "^15.6.1",
