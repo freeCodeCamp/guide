@@ -1,6 +1,6 @@
 ---
 title: "Singleton"
-parent: "to-be-sorted"
+parent: "software-engineering"
 date: 2017-07-14 00:18:00
 tags: 
 - android
