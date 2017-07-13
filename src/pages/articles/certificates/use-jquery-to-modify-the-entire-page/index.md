@@ -1,5 +1,5 @@
 ---
-title: Use Jquery To Modify the Entire Page
+title: Use jQuery To Modify the Entire Page
 ---
 jQuery can target the body element as well.
 

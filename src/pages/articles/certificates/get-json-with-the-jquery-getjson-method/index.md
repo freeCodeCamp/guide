@@ -1,5 +1,5 @@
 ---
-title: Get Json with the Jquery Getjson Method
+title: Get Json with the jQuery Getjson Method
 ---
 Application Programming Interfaces - are tools that computers use to communicate with one another.
 

@@ -1,5 +1,5 @@
 ---
-title: Target the Parent of An Element Using Jquery
+title: Target the Parent of An Element Using jQuery
 ---
 Every HTML elements has a parent element from which it inherits properties.
 

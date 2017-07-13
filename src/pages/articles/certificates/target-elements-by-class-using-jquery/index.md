@@ -1,5 +1,5 @@
 ---
-title: Target Elements By Class Using Jquery
+title: Target Elements By Class Using jQuery
 ---
 Just as we did before, we can also target elements by classes.
 
