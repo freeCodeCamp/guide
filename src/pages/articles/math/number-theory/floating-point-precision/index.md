@@ -1,12 +1,11 @@
 ---
 title: Floating Point Precision
 ---
-
 ## Floating Point Precision
 
-This is a stub. [Help our community expand it](https://github.com/freeCodeCamp/guide-articles/tree/master/articles/Math/Number-Theory/Floating-Point-Precision/index.md).
+This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/number-theory/floating-point-precision/index.md).
 
-[This quick style guide will help ensure your pull request gets accepted](https://github.com/freeCodeCamp/guide-articles/blob/master/README.md).
+[This quick style guide will help ensure your pull request gets accepted](https://github.com/freecodecamp/guides/blob/master/README.md).
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
