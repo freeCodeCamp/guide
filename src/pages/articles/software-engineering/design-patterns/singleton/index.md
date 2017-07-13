@@ -1,13 +1,6 @@
 ---
 title: "Singleton"
-parent: "software-engineering"
-date: 2017-07-14 00:18:00
-tags: 
-- android
-- design patterns
-- software engineering
-categories:
-- design patterns
+parent: "design-patterns"
 ---
 
 The singleton is a design pattern that restricts the instantiation of a class to one object. It is useful when you want to give only one object the ability to coordinate actions across your application.
