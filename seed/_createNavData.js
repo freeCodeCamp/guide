@@ -4,8 +4,9 @@ const Rx = require('rx');
 const { Observable } = Rx;
 const isAFileRegEx = /(\.md|\.jsx?|\.html?)$/;
 const shouldBeIgnoredRegEx = /^(\_|\.)/;
-const topLevel = 'src/pages/docs';
+const topLevel = 'src/pages/articles';
 const navData = {};
+
 const preFormatted = {
   css: 'CSS',
   css3: 'CSS3',
@@ -13,6 +14,7 @@ const preFormatted = {
   html5: 'HTML5',
   javascript: 'javaScript'
 };
+
 const stopWords = [
   'and',
   'for',
@@ -52,12 +54,16 @@ function listAllDirs(level, prevPages = []) {
     .flatMap(parentDir => {
       const thisDir = `${level}/${parentDir}`;
       const subDirs = readDir(thisDir);
+      const parent = level.split('/')[ level.split('/').length - 1 ];
 
       navData[parentDir] = {
-        // remove 'src/pages' from the path
+        children: subDirs.map(title => title.toLowerCase()),
+        dashedName: parentDir.toLowerCase(),
         hasChildren: !!subDirs.length,
+        // remove 'src/pages' from the path
         path: thisDir.slice(9),
-        parent: level.split('/')[ level.split('/').length - 1 ],
+        parent,
+        parentPath: level.slice(9).replace(new RegExp(parent + '/'), ''),
         title: titleify(parentDir)
       };
       if (!subDirs.length) {
@@ -67,25 +73,26 @@ function listAllDirs(level, prevPages = []) {
       return listAllDirs(thisDir, accuPages);
     });
 }
-
-listAllDirs(topLevel, [])
-  .toArray()
-  .subscribe(
-    () => {},
-    err => {
-      throw new Error(err);
-    },
-    () => {
-      fse.writeFile(
-        `${process.cwd()}/src/navData.json`,
-        JSON.stringify(navData, null, 2)
-        )
-        .then(() => {
-          console.log('\nnavData.json created\n');
-        })
-        .catch(err => {
-          console.error(err);
-          throw new Error(err);
-        });
-    }
-  );
+module.exports = function createNavData() {
+  listAllDirs(topLevel, [])
+    .toArray()
+    .subscribe(
+      () => {},
+      err => {
+        throw new Error(err);
+      },
+      () => {
+        fse.writeFile(
+          `${process.cwd()}/src/navData.json`,
+          JSON.stringify(navData, null, 2)
+          )
+          .then(() => {
+            console.log('\nnavData.json created\n');
+          })
+          .catch(err => {
+            console.error(err);
+            throw new Error(err);
+          });
+      }
+    );
+};

@@ -6,61 +6,50 @@ import NavItem from './NavItem.jsx';
 
 import navData from '../navData.json';
 
-function buildMenuTree(pages) {
-  return Object.keys(pages)
-    .map(key => pages[key])
-    .reduce((acc, current) => {
-      const { parent, hasChildren } = current;
+const pages = Object.keys(navData).map(key => navData[key]);
 
-      if (hasChildren) {
-          const existingParents = acc.parents ? acc.parents : [];
-          acc.parents = [ ...existingParents, current ];
-          return acc;
-        }
+function renderChildren(children) {
+  return children
+    .map(child => {
+      if (child.hasChildren) {
+        return renderParent(child, pages);
+      }
+      return (
+        <NavItem
+          key={ child.path }
+          path={ child.path }
+          title={ child.title }
+        />
+      );
+  });
+}
 
-        const existingPages = acc[parent] ? acc[parent] : [];
-        acc[parent] = [ ...existingPages, current ];
-        return acc;
-    }, {});
+function renderParent(parent, children) {
+  const childrenForThis = children
+    .filter(x => x.parent.toLowerCase() === parent.title.toLowerCase());
+
+  return (
+    <NavPanel
+      key={ parent.path }
+      path={ parent.path }
+      title={ parent.title }
+      >
+      { renderChildren(childrenForThis) }
+    </NavPanel>
+  );
 }
 
 function renderPanels(tree) {
   if (!tree) {
     return null;
   }
-  const { parents } = tree;
-  return parents
-    .map((parent, i)=> {
-      const title = parent.title.replace(/^intro.*?:\s*?/i, '');
-      const children = Object.keys(tree)
-        .filter(key => key !== 'parents')
-        .map(key => {
-          return tree[key];
-        })
-        .reduce((acc, current) => acc.concat(current), [])
-        .filter(page => new RegExp(parent.path).test(page.path))
-        .map(page => {
-          return (
-            <NavItem
-              key={ page.path }
-              path={ page.path }
-              title={ page.title }
-            />
-            );
-        });
-      return (
-        <NavPanel key={i} path={ parent.path } title={ title }>
-          <ul className='nav nav-pills nav-stacked' role='presentation'>
-            { children }
-          </ul>
-        </NavPanel>
-      );
-  });
+  return pages
+    .filter(x => x.parent === 'articles')
+    .map(parent => renderParent(parent, pages));
 }
 
 function SideNav() {
-  const tree = buildMenuTree(navData);
-  const panels = renderPanels(tree);
+  const panels = renderPanels(navData);
   return (
     <Accordion>
       { panels }
