@@ -1,5 +1,5 @@
 ---
-title: Change the CSS of An Element Using Jquery
+title: Change the CSS of An Element Using jQuery
 ---
 We can also change the CSS of an HTML element directly with jQuery.
 

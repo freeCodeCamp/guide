@@ -1,5 +1,5 @@
 ---
-title: Trigger Click Events with Jquery
+title: Trigger Click Events with jQuery
 ---
 APIs - or Application Programming Interfaces - are tools that computers use to communicate with one another.
 

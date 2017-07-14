@@ -35,7 +35,9 @@
     "gh-pages": "^0.12.0"
   },
   "keywords": [
-    "gatsby"
+    "freeCodeCamp",
+    "guides",
+    "javascript"
   ],
   "license": "MIT",
   "main": "n/a",

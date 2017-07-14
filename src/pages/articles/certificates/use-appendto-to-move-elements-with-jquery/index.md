@@ -1,5 +1,5 @@
 ---
-title: Use Appendto To Move Elements with Jquery
+title: Use Appendto To Move Elements with jQuery
 ---
 jQuery has a function called `appendTo()` that allows you to select HTML elements and append them to another element.
 

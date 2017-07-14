@@ -1,5 +1,5 @@
 ---
-title: Target the Same Element with Multiple Jquery Selectors
+title: Target the Same Element with Multiple jQuery Selectors
 ---
 The multiple jQuery selectors are:
 

@@ -1,5 +1,5 @@
 ---
-title: Disable An Element Using Jquery
+title: Disable An Element Using jQuery
 ---
 You can also change the non-CSS properties of HTML elements with jQuery. For example, you can disable buttons.
 

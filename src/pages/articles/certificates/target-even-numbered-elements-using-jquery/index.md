@@ -1,5 +1,5 @@
 ---
-title: Target Even Numbered Elements Using Jquery
+title: Target Even Numbered Elements Using jQuery
 ---
 You can also target all the even-numbered elements.
 
