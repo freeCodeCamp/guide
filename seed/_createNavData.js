@@ -7,40 +7,7 @@ const shouldBeIgnoredRegEx = /^(\_|\.)/;
 const topLevel = 'src/pages/articles';
 const navData = {};
 
-const preFormatted = {
-  css: 'CSS',
-  css3: 'CSS3',
-  html: 'HTML',
-  html5: 'HTML5',
-  javascript: 'javaScript'
-};
-
-const stopWords = [
-  'and',
-  'for',
-  'of',
-  'the',
-  'up',
-  'with'
-];
-
-function titleify(str) {
-  return str
-    .toLowerCase()
-    .split('-')
-    .map(word => {
-      if (!word) {
-        return '';
-      }
-      if (stopWords.indexOf(word) !== -1) {
-        return word;
-      }
-      return preFormatted[word] ?
-        preFormatted[word] :
-        word[0].toUpperCase() + word.slice(1);
-    })
-    .join(' ');
-}
+const { titleify } = require('./utils');
 
 function readDir(dir) {
   return fse.readdirSync(`${process.cwd()}/${dir}/`)

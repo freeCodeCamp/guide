@@ -1,6 +1,8 @@
 const Rx = require('rx');
 const fse = require('fs-extra');
 
+const { titleify } = require('./seed/utils');
+
 const { Observable } = Rx;
 
 const metaRE = /---[\W\w]*?---\n*?/;
@@ -39,42 +41,6 @@ This is a stub. [Help our community expand it](https://github.com/freecodecamp/g
 `;
 }
 /* eslint-enable max-len */
-
-const preFormatted = {
-  css: 'CSS',
-  css3: 'CSS3',
-  html: 'HTML',
-  html5: 'HTML5',
-  javascript: 'javaScript',
-  jquery: 'jQuery'
-};
-
-const stopWords = [
-  'and',
-  'for',
-  'of',
-  'the',
-  'up',
-  'with'
-];
-
-function titleify(str) {
-  return str
-    .toLowerCase()
-    .split('-')
-    .map(word => {
-      if (!word) {
-        return '';
-      }
-      if (stopWords.indexOf(word) !== -1) {
-        return word;
-      }
-      return preFormatted[word] ?
-        preFormatted[word] :
-        word[0].toUpperCase() + word.slice(1);
-    })
-    .join(' ');
-}
 
 function normaliseMeta(dirLevel) {
   const filePath = `${dirLevel}/index.md`;
