@@ -21,6 +21,11 @@ class NavPanel extends React.PureComponent {
 
   handleClick() {
     const { path } = this.props;
+    const { pathname } = this.context.router.history.location;
+    const pathRE = new RegExp(path);
+    if (pathname.match(pathRE)) {
+      return;
+    }
     this.context.router.history.push(path);
   }
 

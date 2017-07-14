@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withRouter } from 'react-router';
+import Link from 'gatsby-link';
 
 const propTypes = {
   path: PropTypes.string,
@@ -8,29 +9,15 @@ const propTypes = {
   title: PropTypes.string
 };
 
-class NavItem extends React.PureComponent {
-  constructor(...props) {
-    super(...props);
-
-    this.handleClick = this.handleClick.bind(this);
-  }
-
-
-  handleClick() {
-    const { path } = this.props;
-    this.props.router.push(path);
-  }
-
-  render() {
-    const { title } = this.props;
-    return (
-      <li onClick={ this.handleClick }role='presentation'>
-        <a role='presentation'>
-          <span>{ title }</span>
-        </a>
-      </li>
-    );
-  }
+function NavItem(props) {
+  const { path, title } = props;
+  return (
+    <li role='presentation'>
+      <Link role='presentation' to={ path }>
+        <span>{ title }</span>
+      </Link>
+    </li>
+  );
 }
 
 NavItem.displayName = 'NavItem';
