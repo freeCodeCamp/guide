@@ -1,7 +1,7 @@
 ---
-title: Array Prototype Sort
+title: Array.prototype.sort
 ---
-## Array Prototype Sort
+## Array.prototype.sort
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/array-prototype-sort/index.md).
 

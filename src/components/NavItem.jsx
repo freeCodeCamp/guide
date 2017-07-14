@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withRouter } from 'react-router';
 import Link from 'gatsby-link';
 
 const propTypes = {
@@ -23,4 +22,4 @@ function NavItem(props) {
 NavItem.displayName = 'NavItem';
 NavItem.propTypes = propTypes;
 
-export default withRouter(NavItem);
+export default NavItem;

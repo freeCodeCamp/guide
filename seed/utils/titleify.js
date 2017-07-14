@@ -1,68 +1,13 @@
-const preFormatted = {
-  css: 'CSS',
-  css3: 'CSS3',
-  html: 'HTML',
-  html5: 'HTML5',
-  javascript: 'javaScript',
-  foreach: 'forEach',
-  indexof: 'indexOf',
-  copywithin: 'copyWithin',
-  findindex: 'findIndex',
-  lastindexof: 'lastIndexOf',
-  reduceright: 'reduceRight',
-  tolocalstring: 'toLocalString',
-  tolowercase: 'toLowersCase',
-  touppercase: 'toUpperCase',
-  tosource: 'toSource',
-  tosrting: 'toString',
-  fromcharcode: 'fromCharCode',
-  frompointcode: 'fromPointCode',
-  charat: 'charAt',
-  charcodeat: 'charCodeAt',
-  codepointat: 'codePointAt',
-  endswith: 'endsWith',
-  localcompare: 'localCompare',
-  padend: 'padEnd',
-  padstart: 'padStart',
-  startswith: 'startsWith',
-  tolocalelowercase: 'toLocaleLowerCase',
-  tolocaleuppercase: 'toLocaleUpperCase',
-  trimleft: 'trimLeft',
-  trimRight: 'trimRight',
-  valueof: 'valueOf',
-  getownpropertydescriptor: 'getOwnPropertyDescriptor',
-  getownpropertydescriptors: 'getOwnPropertyDescriptors',
-  getownpropertynames: 'getOwnPropertyNames',
-  getownpropertysymbols: 'getOwnPropertySymbols',
-  preventextentions: 'preventExtensions',
-  defineproperties: 'defineProperties',
-  defineproperty: 'defineProperty',
-  getprototypeof: 'getPrototypeOf',
-  setprototypeof: 'setPrototypeOf',
-  isextensible: 'isExtensible',
-  isfrozen: 'isFrozen',
-  isealed: 'isSealed',
-  __definegetter__: '__defineGetter__',
-  __definesetter__: '__defineSetter__',
-  hasownproperty: 'hasOwnProperty',
-  __lookupgetter__: '__lookupGetter__',
-  __lookupsetter__: '__lookupSetter__',
-  propertyisenumerable: 'propertyIsEnumerable'
-};
-
-const stopWords = [
-  'and',
-  'for',
-  'of',
-  'the',
-  'up',
-  'with'
-];
+const { preFormatted, stopWords } = require('./formatting');
 
 const prototypeRE = /prototype/i;
 const prototypesRE = /prototypes/i;
 
 const removeProto = x => x !== 'prototype';
+
+function titleCase(word) {
+  return word[0].toUpperCase() + word.slice(1);
+}
 
 function prototyper(str) {
   const formatted = str
@@ -110,16 +55,16 @@ function titleify(str, triedPrototyper) {
   return str
     .toLowerCase()
     .split('-')
-    .map(word => {
+    .map((word, i) => {
       if (!word) {
         return '';
       }
-      if (stopWords.indexOf(word) !== -1) {
+      if (stopWords.includes(word) && i !== 0) {
         return word;
       }
       return preFormatted[word] ?
         preFormatted[word] :
-        word[0].toUpperCase() + word.slice(1);
+        titleCase(word);
     })
     .join(' ');
 }

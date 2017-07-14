@@ -1,7 +1,7 @@
 ---
-title: javaScript String Tolowercase Method
+title: javaScript String toLowerCase Method
 ---
-## javaScript String Tolowercase Method
+## javaScript String toLowerCase Method
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/javascript-string-tolowercase-method/index.md).
 

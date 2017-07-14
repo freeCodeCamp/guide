@@ -1,7 +1,7 @@
 ---
-title: String Prototype Match
+title: String.prototype.match
 ---
-## String Prototype Match
+## String.prototype.match
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/string-prototype-match/index.md).
 

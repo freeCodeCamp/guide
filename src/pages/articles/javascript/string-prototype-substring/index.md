@@ -1,7 +1,7 @@
 ---
-title: String Prototype Substring
+title: String.prototype.substring
 ---
-## String Prototype Substring
+## String.prototype.substring
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/string-prototype-substring/index.md).
 

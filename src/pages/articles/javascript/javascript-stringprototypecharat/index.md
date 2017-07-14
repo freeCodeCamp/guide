@@ -1,5 +1,5 @@
 ---
-title: javaScript Stringprototypecharat
+title: String.prototype.charAt
 ---
 The `charAt()` method returns the specified character from a string.
 

@@ -1,7 +1,7 @@
 ---
-title: Array Prototype Foreach
+title: Array.prototype.forEach
 ---
-## Array Prototype Foreach
+## Array.prototype.forEach
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/array-prototype-foreach/index.md).
 

@@ -1,7 +1,7 @@
 ---
-title: Sql Select Distinct Statement
+title: SQL Select Distinct Statement
 ---
-## Sql Select Distinct Statement
+## SQL Select Distinct Statement
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/sql/sql-select-distinct-statement/index.md).
 

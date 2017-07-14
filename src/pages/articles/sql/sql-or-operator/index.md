@@ -1,7 +1,7 @@
 ---
-title: Sql Or Operator
+title: SQL Or Operator
 ---
-## Sql Or Operator
+## SQL Or Operator
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/sql/sql-or-operator/index.md).
 

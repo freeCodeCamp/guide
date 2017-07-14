@@ -1,7 +1,7 @@
 ---
-title: Sql Between Operator
+title: SQL Between Operator
 ---
-## Sql Between Operator
+## SQL Between Operator
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/sql/sql-between-operator/index.md).
 

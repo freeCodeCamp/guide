@@ -1,7 +1,7 @@
 ---
-title: Sql Data Types
+title: SQL Data Types
 ---
-## Sql Data Types
+## SQL Data Types
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/sql/sql-data-types/index.md).
 

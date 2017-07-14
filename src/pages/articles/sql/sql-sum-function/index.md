@@ -1,7 +1,7 @@
 ---
-title: Sql Sum Function
+title: SQL Sum Function
 ---
-## Sql Sum Function
+## SQL Sum Function
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/sql/sql-sum-function/index.md).
 

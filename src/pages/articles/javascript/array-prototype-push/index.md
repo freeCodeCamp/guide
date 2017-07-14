@@ -1,7 +1,7 @@
 ---
-title: Array Prototype Push
+title: Array.prototype.push
 ---
-## Array Prototype Push
+## Array.prototype.push
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/array-prototype-push/index.md).
 

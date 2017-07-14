@@ -1,7 +1,7 @@
 ---
-title: Array Prototype Concat
+title: Array.prototype.concat
 ---
-## Array Prototype Concat
+## Array.prototype.concat
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/array-prototype-concat/index.md).
 

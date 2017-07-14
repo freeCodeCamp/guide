@@ -1,5 +1,5 @@
 ---
-title: javaScript Arrayprototypeforeach
+title: Array.prototype.forEach
 ---
 The `forEach()` method executes a provided function once per array element.
 

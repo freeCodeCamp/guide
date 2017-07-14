@@ -1,7 +1,7 @@
 ---
-title: Sql Update Query
+title: SQL Update Query
 ---
-## Sql Update Query
+## SQL Update Query
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/sql/sql-update-query/index.md).
 

@@ -1,7 +1,7 @@
 ---
-title: String Prototype Replace
+title: String.prototype.replace
 ---
-## String Prototype Replace
+## String.prototype.replace
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/string-prototype-replace/index.md).
 

@@ -1,5 +1,5 @@
 ---
-title: javaScript Stringprototypecharcodeat
+title: String.prototype.charCodeAt
 ---
 The `charCodeAt()` method returns the numeric Unicode value of the character at the given index (except for unicode codepoints > 0x10000).
 

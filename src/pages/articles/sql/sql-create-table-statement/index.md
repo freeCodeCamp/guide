@@ -1,7 +1,7 @@
 ---
-title: Sql Create Table Statement
+title: SQL Create Table Statement
 ---
-## Sql Create Table Statement
+## SQL Create Table Statement
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/sql/sql-create-table-statement/index.md).
 

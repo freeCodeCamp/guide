@@ -1,7 +1,7 @@
 ---
-title: javaScript Array Indexof Method
+title: javaScript Array indexOf Method
 ---
-## javaScript Array Indexof Method
+## javaScript Array indexOf Method
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/javascript-array-indexof-method/index.md).
 

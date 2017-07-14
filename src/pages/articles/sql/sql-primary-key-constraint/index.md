@@ -1,7 +1,7 @@
 ---
-title: Sql Primary Key Constraint
+title: SQL Primary Key Constraint
 ---
-## Sql Primary Key Constraint
+## SQL Primary Key Constraint
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/sql/sql-primary-key-constraint/index.md).
 

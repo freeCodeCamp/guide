@@ -1,7 +1,7 @@
 ---
-title: Array Prototype Slice
+title: Array.prototype.slice
 ---
-## Array Prototype Slice
+## Array.prototype.slice
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/array-prototype-slice/index.md).
 

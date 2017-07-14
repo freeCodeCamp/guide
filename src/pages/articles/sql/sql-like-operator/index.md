@@ -1,7 +1,7 @@
 ---
-title: Sql Like Operator
+title: SQL Like Operator
 ---
-## Sql Like Operator
+## SQL Like Operator
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/sql/sql-like-operator/index.md).
 

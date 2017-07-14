@@ -1,7 +1,7 @@
 ---
-title: Sql Avg Function
+title: SQL Avg Function
 ---
-## Sql Avg Function
+## SQL Avg Function
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/sql/sql-avg-function/index.md).
 

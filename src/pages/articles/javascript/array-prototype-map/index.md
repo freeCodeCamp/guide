@@ -1,7 +1,7 @@
 ---
-title: Array Prototype Map
+title: Array.prototype.map
 ---
-## Array Prototype Map
+## Array.prototype.map
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/array-prototype-map/index.md).
 

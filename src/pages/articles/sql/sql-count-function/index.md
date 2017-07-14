@@ -1,7 +1,7 @@
 ---
-title: Sql Count Function
+title: SQL Count Function
 ---
-## Sql Count Function
+## SQL Count Function
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/sql/sql-count-function/index.md).
 

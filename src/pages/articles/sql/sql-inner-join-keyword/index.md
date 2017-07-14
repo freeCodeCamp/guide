@@ -1,7 +1,7 @@
 ---
-title: Sql Inner Join Keyword
+title: SQL Inner Join Keyword
 ---
-## Sql Inner Join Keyword
+## SQL Inner Join Keyword
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/sql/sql-inner-join-keyword/index.md).
 

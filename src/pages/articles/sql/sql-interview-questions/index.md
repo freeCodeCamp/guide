@@ -1,7 +1,7 @@
 ---
-title: Sql Interview Questions
+title: SQL Interview Questions
 ---
-## Sql Interview Questions
+## SQL Interview Questions
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/sql/sql-interview-questions/index.md).
 
