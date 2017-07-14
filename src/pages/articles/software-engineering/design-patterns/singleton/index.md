@@ -1,6 +1,5 @@
 ---
-title: "Singleton"
-parent: "design-patterns"
+title: Singleton
 ---
 
 The singleton is a design pattern that restricts the instantiation of a class to one object. It is useful when you want to give only one object the ability to coordinate actions across your application.

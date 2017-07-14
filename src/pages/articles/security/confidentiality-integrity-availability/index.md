@@ -1,6 +1,5 @@
 ---
-title: "Confidentiality, Integrity, Availability (CIA)"
-parent: "security"
+title: Confidentiality Integrity Availability
 ---
 ## Confidentiality, Integrity, Availability (CIA)
 Confidentiality, Integrity, and Availability or the CIA triad is the most fundamental concept in cyber security. It serves as guiding principles or goals for information security for organizations and individuals to keep information safe from prying eyes.
