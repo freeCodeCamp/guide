@@ -22,7 +22,7 @@ class Layout extends React.PureComponent {
 
   componentWillMount() {
     if (this.props.location.pathname === '/') {
-      this.context.router.history.replace('/docs');
+      this.context.router.history.replace('/articles');
     }
   }
 
