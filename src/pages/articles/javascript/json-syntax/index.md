@@ -1,7 +1,7 @@
 ---
-title: Json Syntax
+title: JSON Syntax
 ---
-## Json Syntax
+## JSON Syntax
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/json-syntax/index.md).
 

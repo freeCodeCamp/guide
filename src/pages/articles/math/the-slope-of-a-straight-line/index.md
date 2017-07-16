@@ -1,7 +1,7 @@
 ---
-title: the Slope of A Straight Line
+title: The Slope of a Straight Line
 ---
-## the Slope of A Straight Line
+## The Slope of a Straight Line
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/the-slope-of-a-straight-line/index.md).
 

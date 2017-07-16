@@ -1,7 +1,7 @@
 ---
-title: How To Determine A P Value When Testing A Null Hypothesis
+title: How To Determine a P Value When Testing a Null Hypothesis
 ---
-## How To Determine A P Value When Testing A Null Hypothesis
+## How To Determine a P Value When Testing a Null Hypothesis
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/how-to-determine-a-p-value-when-testing-a-null-hypothesis/index.md).
 

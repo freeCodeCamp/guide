@@ -1,5 +1,5 @@
 ---
-title: Add A Submit Button To A Form
+title: Add a Submit Button To a Form
 ---
 You will need to create a `button` element. Here's an example submit button:
 

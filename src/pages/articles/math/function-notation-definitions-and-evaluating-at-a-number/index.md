@@ -1,7 +1,7 @@
 ---
-title: Function Notation Definitions and Evaluating At A Number
+title: Function Notation Definitions and Evaluating At a Number
 ---
-## Function Notation Definitions and Evaluating At A Number
+## Function Notation Definitions and Evaluating At a Number
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/function-notation-definitions-and-evaluating-at-a-number/index.md).
 

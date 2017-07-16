@@ -1,7 +1,7 @@
 ---
-title: Area Between A Curve and the X Axis
+title: Area Between a Curve and the X Axis
 ---
-## Area Between A Curve and the X Axis
+## Area Between a Curve and the X Axis
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/area-between-a-curve-and-the-x-axis/index.md).
 

@@ -1,7 +1,7 @@
 ---
-title: Example All the Ways You Can Flip A Coin
+title: Example All the Ways You Can Flip a Coin
 ---
-## Example All the Ways You Can Flip A Coin
+## Example All the Ways You Can Flip a Coin
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/example-all-the-ways-you-can-flip-a-coin/index.md).
 

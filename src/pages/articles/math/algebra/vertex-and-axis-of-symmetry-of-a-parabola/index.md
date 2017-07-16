@@ -1,7 +1,7 @@
 ---
-title: Vertex and Axis of Symmetry of A Parabola
+title: Vertex and Axis of Symmetry of a Parabola
 ---
-## Vertex and Axis of Symmetry of A Parabola
+## Vertex and Axis of Symmetry of a Parabola
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/algebra/vertex-and-axis-of-symmetry-of-a-parabola/index.md).
 

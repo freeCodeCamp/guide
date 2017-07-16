@@ -1,7 +1,7 @@
 ---
-title: Sum of the First N Terms of A Series
+title: Sum of the First N Terms of a Series
 ---
-## Sum of the First N Terms of A Series
+## Sum of the First N Terms of a Series
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/sum-of-the-first-n-terms-of-a-series/index.md).
 

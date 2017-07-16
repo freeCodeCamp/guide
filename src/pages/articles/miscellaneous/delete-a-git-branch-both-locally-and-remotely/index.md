@@ -1,5 +1,5 @@
 ---
-title: Delete A Git Branch Both Locally and Remotely
+title: Delete a Git Branch Both Locally and Remotely
 ---
 // locally ((if you know what you are doing!)
     git branch -d localBranchName

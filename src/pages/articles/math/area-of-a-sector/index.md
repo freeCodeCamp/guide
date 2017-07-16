@@ -1,7 +1,7 @@
 ---
-title: Area of A Sector
+title: Area of a Sector
 ---
-## Area of A Sector
+## Area of a Sector
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/area-of-a-sector/index.md).
 

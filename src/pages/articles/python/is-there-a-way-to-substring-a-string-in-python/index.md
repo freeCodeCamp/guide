@@ -1,7 +1,7 @@
 ---
-title: Is There A Way To Substring A String In Python
+title: Is There a Way To Substring a String In Python
 ---
-## Is There A Way To Substring A String In Python
+## Is There a Way To Substring a String In Python
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/python/is-there-a-way-to-substring-a-string-in-python/index.md).
 

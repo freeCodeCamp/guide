@@ -1,7 +1,7 @@
 ---
-title: Area of A Ellipse
+title: Area of a Ellipse
 ---
-## Area of A Ellipse
+## Area of a Ellipse
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/area-of-a-ellipse/index.md).
 

@@ -1,7 +1,7 @@
 ---
-title: Json Stringify
+title: JSON Stringify
 ---
-## Json Stringify
+## JSON Stringify
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/json-stringify/index.md).
 

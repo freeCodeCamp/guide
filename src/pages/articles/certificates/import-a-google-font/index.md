@@ -1,5 +1,5 @@
 ---
-title: Import A Google Font
+title: Import a Google Font
 ---
 To import a font from Google or any other site, this is the format that you should follow:
 

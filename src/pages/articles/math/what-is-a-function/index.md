@@ -1,7 +1,7 @@
 ---
-title: What Is A Function
+title: What Is a Function
 ---
-## What Is A Function
+## What Is a Function
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/what-is-a-function/index.md).
 

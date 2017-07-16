@@ -1,7 +1,7 @@
 ---
-title: Surface Area of A Pyramid
+title: Surface Area of a Pyramid
 ---
-## Surface Area of A Pyramid
+## Surface Area of a Pyramid
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/surface-area-of-a-pyramid/index.md).
 

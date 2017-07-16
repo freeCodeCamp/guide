@@ -1,7 +1,7 @@
 ---
-title: Norm of A Vector
+title: Norm of a Vector
 ---
-## Norm of A Vector
+## Norm of a Vector
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/vectors/norm-of-a-vector/index.md).
 

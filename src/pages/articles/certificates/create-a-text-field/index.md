@@ -1,5 +1,5 @@
 ---
-title: Create A Text Field
+title: Create a Text Field
 ---
 Text inputs are a convenient way to get input from your user.
 

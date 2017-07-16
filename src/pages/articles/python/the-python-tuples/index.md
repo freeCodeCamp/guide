@@ -1,5 +1,5 @@
 ---
-title: the Python Tuples
+title: The Python Tuples
 ---
 **TODO: `Tuple` basic info**
 

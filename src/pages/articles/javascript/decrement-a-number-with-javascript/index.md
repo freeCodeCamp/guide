@@ -1,5 +1,5 @@
 ---
-title: Decrement A Number with javaScript
+title: Decrement a Number with javaScript
 ---
 You can easily decrement or decrease a variable by `1` with the `--` operator.
 

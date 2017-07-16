@@ -1,7 +1,7 @@
 ---
-title: Finding A Percent
+title: Finding a Percent
 ---
-## Finding A Percent
+## Finding a Percent
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/finding-a-percent/index.md).
 

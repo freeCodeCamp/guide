@@ -1,7 +1,7 @@
 ---
-title: the Common and Natural Logarithms
+title: The Common and Natural Logarithms
 ---
-## the Common and Natural Logarithms
+## The Common and Natural Logarithms
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/the-common-and-natural-logarithms/index.md).
 

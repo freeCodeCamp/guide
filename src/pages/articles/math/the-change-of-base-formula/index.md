@@ -1,7 +1,7 @@
 ---
-title: the Change of Base Formula
+title: The Change of Base Formula
 ---
-## the Change of Base Formula
+## The Change of Base Formula
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/the-change-of-base-formula/index.md).
 

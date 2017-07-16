@@ -1,7 +1,7 @@
 ---
-title: Solving for A Side with the Law of Sines
+title: Solving for a Side with the Law of Sines
 ---
-## Solving for A Side with the Law of Sines
+## Solving for a Side with the Law of Sines
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/solving-for-a-side-with-the-law-of-sines/index.md).
 

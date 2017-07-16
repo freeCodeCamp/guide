@@ -1,7 +1,7 @@
 ---
-title: Point Slope Equation of A Line
+title: Point Slope Equation of a Line
 ---
-## Point Slope Equation of A Line
+## Point Slope Equation of a Line
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/point-slope-equation-of-a-line/index.md).
 

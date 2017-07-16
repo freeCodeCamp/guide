@@ -1,5 +1,5 @@
 ---
-title: Use Bracket Notation To Find the First Character In A String
+title: Use Bracket Notation To Find the First Character In a String
 ---
 Bracket notation is a way to get a character at a specific index within a string.
 

@@ -1,5 +1,5 @@
 ---
-title: Change the Url of A Remote Repository
+title: Change the Url of a Remote Repository
 ---
 The `git remote set-url` command changes an existing remote repository URL.
 

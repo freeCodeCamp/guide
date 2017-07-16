@@ -1,7 +1,7 @@
 ---
-title: Graphing A Linear Equation
+title: Graphing a Linear Equation
 ---
-## Graphing A Linear Equation
+## Graphing a Linear Equation
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/graphing-a-linear-equation/index.md).
 

@@ -1,5 +1,5 @@
 ---
-title: Create A Set of Radio Buttons
+title: Create a Set of Radio Buttons
 ---
 You can use radio buttons for questions where you want the user to only give you one answer.
 

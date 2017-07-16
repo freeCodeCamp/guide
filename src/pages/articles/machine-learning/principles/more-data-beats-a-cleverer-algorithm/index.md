@@ -1,7 +1,7 @@
 ---
-title: More Data Beats A Cleverer Algorithm
+title: More Data Beats a Cleverer Algorithm
 ---
-## More Data Beats A Cleverer Algorithm
+## More Data Beats a Cleverer Algorithm
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/machine-learning/principles/more-data-beats-a-cleverer-algorithm/index.md).
 

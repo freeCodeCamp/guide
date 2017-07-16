@@ -1,7 +1,7 @@
 ---
-title: the Position Property
+title: The Position Property
 ---
-## the Position Property
+## The Position Property
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/css/layout/the-position-property/index.md).
 

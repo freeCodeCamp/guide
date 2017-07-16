@@ -1,5 +1,5 @@
 ---
-title: the C Programming Language
+title: The C Programming Language
 ---
 ## Basics
 

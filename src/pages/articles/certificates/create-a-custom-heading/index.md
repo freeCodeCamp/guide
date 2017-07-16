@@ -1,5 +1,5 @@
 ---
-title: Create A Custom Heading
+title: Create a Custom Heading
 ---
 Using `div` and the custom grid layout we can create our own heading.
 

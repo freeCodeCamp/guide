@@ -1,5 +1,5 @@
 ---
-title: the Agile Manifesto
+title: The Agile Manifesto
 ---
 ### For Agile Software Development
 

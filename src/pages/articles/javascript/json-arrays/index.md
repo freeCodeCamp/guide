@@ -1,7 +1,7 @@
 ---
-title: Json Arrays
+title: JSON Arrays
 ---
-## Json Arrays
+## JSON Arrays
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/json-arrays/index.md).
 

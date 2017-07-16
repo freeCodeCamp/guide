@@ -1,5 +1,5 @@
 ---
-title: the Python Range
+title: The Python Range
 ---
 [Python Docs - Ranges](https://docs.python.org/3/library/stdtypes.html#ranges)
 

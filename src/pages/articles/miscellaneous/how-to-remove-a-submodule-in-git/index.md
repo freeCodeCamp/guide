@@ -1,5 +1,5 @@
 ---
-title: How To Remove A Submodule In Git
+title: How To Remove a Submodule In Git
 ---
 Removing a submodule is useful when it is no longer required. The steps below outline the removal of a submodule.
 

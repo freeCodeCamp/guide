@@ -1,5 +1,5 @@
 ---
-title: Create A New Route In Angular
+title: Create a New Route In Angular
 ---
 >> yo angular-fullstack:route newpage
 

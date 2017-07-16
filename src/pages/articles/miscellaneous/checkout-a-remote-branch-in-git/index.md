@@ -1,5 +1,5 @@
 ---
-title: Checkout A Remote Branch In Git
+title: Checkout a Remote Branch In Git
 ---
 # Checkout a remote branch workflow
 

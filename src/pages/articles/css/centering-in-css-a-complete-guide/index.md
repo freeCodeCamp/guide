@@ -1,7 +1,7 @@
 ---
-title: Centering In CSS A Complete Guide
+title: Centering In CSS a Complete Guide
 ---
-## Centering In CSS A Complete Guide
+## Centering In CSS a Complete Guide
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/css/centering-in-css-a-complete-guide/index.md).
 

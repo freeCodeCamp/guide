@@ -1,7 +1,7 @@
 ---
-title: Surface Area of A Cone
+title: Surface Area of a Cone
 ---
-## Surface Area of A Cone
+## Surface Area of a Cone
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/surface-area-of-a-cone/index.md).
 

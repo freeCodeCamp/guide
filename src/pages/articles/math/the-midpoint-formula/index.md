@@ -1,7 +1,7 @@
 ---
-title: the Midpoint Formula
+title: The Midpoint Formula
 ---
-## the Midpoint Formula
+## The Midpoint Formula
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/the-midpoint-formula/index.md).
 

@@ -1,5 +1,5 @@
 ---
-title: the History of Ruby
+title: The History of Ruby
 ---
 [Ruby](https://www.ruby-lang.org/en/) is a dynamic, object-oriented, [reflective](https://en.wikipedia.org/wiki/Reflection_(computer_programming)) programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write. It also has a dynamic type system and automatic memory management.
 

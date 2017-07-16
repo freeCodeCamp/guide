@@ -1,5 +1,5 @@
 ---
-title: Nest An Anchor Element Within A Paragraph
+title: Nest An Anchor Element Within a Paragraph
 ---
 Nesting is simple, just add one element inside another:
 

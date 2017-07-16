@@ -1,5 +1,5 @@
 ---
-title: the Return Early Pattern
+title: The Return Early Pattern
 ---
 The return early pattern in JavaScript is a simple way to reduce the number of `else` statements within a function body to zero. There are many reasons to prefer this pattern over using `else` statements.
 

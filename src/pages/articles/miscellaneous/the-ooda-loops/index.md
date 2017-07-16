@@ -1,5 +1,5 @@
 ---
-title: the Ooda Loops
+title: The Ooda Loops
 ---
 The OODA Loop is about how fast you can iterate. Often referenced in Lean Startup circles.
 

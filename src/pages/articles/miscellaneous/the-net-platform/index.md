@@ -1,5 +1,5 @@
 ---
-title: the Net Platform
+title: The Net Platform
 ---
 **.NET platform** is a big and comprehensive collection of frameworks and libraries managed by [Microsoft](https://www.microsoft.com/net). C# is the most popular language used to develop a range of .NET applications, such as [web apps](http://www.asp.net/), [windows aps](https://dev.windows.com/en-us/), [Mac and iPhone apps](https://www.xamarin.com/platform).
 

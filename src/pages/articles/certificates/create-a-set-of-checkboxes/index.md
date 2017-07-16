@@ -1,5 +1,5 @@
 ---
-title: Create A Set of Checkboxes
+title: Create a Set of Checkboxes
 ---
 Checkboxes are a type of input.
 

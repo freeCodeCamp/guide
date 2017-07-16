@@ -1,5 +1,5 @@
 ---
-title: Style Multiple Elements with A CSS Class
+title: Style Multiple Elements with a CSS Class
 ---
 You can attach classes to HTML elements by using `class="your-class-here"` within the relevant element's opening tag.
 

@@ -1,7 +1,7 @@
 ---
-title: the Law of Cosines
+title: The Law of Cosines
 ---
-## the Law of Cosines
+## The Law of Cosines
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/the-law-of-cosines/index.md).
 

@@ -1,5 +1,5 @@
 ---
-title: the Python Dict
+title: The Python Dict
 ---
 **TODO: `dict` basic info**
 

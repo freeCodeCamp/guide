@@ -1,7 +1,7 @@
 ---
-title: Inverse of A Matrix Using Minors Cofactors and Adjugate
+title: Inverse of a Matrix Using Minors Cofactors and Adjugate
 ---
-## Inverse of A Matrix Using Minors Cofactors and Adjugate
+## Inverse of a Matrix Using Minors Cofactors and Adjugate
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/inverse-of-a-matrix-using-minors-cofactors-and-adjugate/index.md).
 

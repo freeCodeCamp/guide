@@ -1,5 +1,5 @@
 ---
-title: Git Behind A Proxy Server
+title: Git Behind a Proxy Server
 ---
 **Use-cases**
 

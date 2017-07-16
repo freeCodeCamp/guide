@@ -1,7 +1,7 @@
 ---
-title: Equation of A Line
+title: Equation of a Line
 ---
-## Equation of A Line
+## Equation of a Line
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/equation-of-a-line/index.md).
 

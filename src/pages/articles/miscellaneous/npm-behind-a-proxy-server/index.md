@@ -1,5 +1,5 @@
 ---
-title: Npm Behind A Proxy Server
+title: Npm Behind a Proxy Server
 ---
 ## Use-cases
 

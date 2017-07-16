@@ -1,5 +1,5 @@
 ---
-title: Add New Properties To A javaScript Object
+title: Add New Properties To a javaScript Object
 ---
 You can add new properties to existing JavaScript objects the same way you would modify them. Here is how:
 

@@ -1,5 +1,5 @@
 ---
-title: Use HTML5 To Require A Field
+title: Use HTML5 To Require a Field
 ---
 You can require specific form fields so that your user will not be able to submit your form until he or she has filled them out.
 

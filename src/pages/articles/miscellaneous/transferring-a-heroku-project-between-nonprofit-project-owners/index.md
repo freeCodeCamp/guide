@@ -1,5 +1,5 @@
 ---
-title: Transferring A Heroku Project Between Nonprofit Project Owners
+title: Transferring a Heroku Project Between Nonprofit Project Owners
 ---
 ## Heroku:
 

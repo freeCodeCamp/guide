@@ -1,7 +1,7 @@
 ---
-title: the Unit Circle Definition of Sine Cosine and Tangent
+title: The Unit Circle Definition of Sine Cosine and Tangent
 ---
-## the Unit Circle Definition of Sine Cosine and Tangent
+## The Unit Circle Definition of Sine Cosine and Tangent
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/the-unit-circle-definition-of-sine-cosine-and-tangent/index.md).
 
