@@ -1,9 +1,9 @@
 ---
-title: javaScript Array Methods
+title: Array Prototype Includes
 ---
-## javaScript Array Methods
+## Array Prototype Includes
 
-This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/javascript-array-methods/index.md).
+This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/array/array-prototype-includes/index.md).
 
 [This quick style guide will help ensure your pull request gets accepted](https://github.com/freecodecamp/guides/blob/master/README.md).
 

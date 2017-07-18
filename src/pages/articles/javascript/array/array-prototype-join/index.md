@@ -1,5 +1,5 @@
 ---
-title: javaScript Arrayprototypejoin
+title: Array Prototype Join
 ---
 The JavaScript array method `.join()` will combine all elements of an array into a single string.
 

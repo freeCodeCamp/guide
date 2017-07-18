@@ -1,5 +1,5 @@
 ---
-title: javaScript Arrayprototypesome
+title: Array Prototype Some
 ---
 The JavaScript array method `.some()` will take a callback function to test each element in the array; once the callback returns `true` then `.some()` will return true immediately.
 

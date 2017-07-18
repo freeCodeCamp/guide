@@ -1,9 +1,9 @@
 ---
-title: javaScript Array forEach Method
+title: Array Prototype Findindex
 ---
-## javaScript Array forEach Method
+## Array Prototype Findindex
 
-This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/javascript-array-foreach-method/index.md).
+This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/array/array-prototype-findindex/index.md).
 
 [This quick style guide will help ensure your pull request gets accepted](https://github.com/freecodecamp/guides/blob/master/README.md).
 

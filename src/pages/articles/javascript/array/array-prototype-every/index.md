@@ -1,5 +1,5 @@
 ---
-title: javaScript Arrayprototypeevery
+title: Array Prototype Every
 ---
 The `every()` method tests whether all elements in the array pass the test implemented by the provided function.
 

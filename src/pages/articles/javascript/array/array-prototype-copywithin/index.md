@@ -1,9 +1,9 @@
 ---
-title: javaScript Array Reference
+title: Array Prototype Copywithin
 ---
-## javaScript Array Reference
+## Array Prototype Copywithin
 
-This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/javascript-array-reference/index.md).
+This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/array/array-prototype-copywithin/index.md).
 
 [This quick style guide will help ensure your pull request gets accepted](https://github.com/freecodecamp/guides/blob/master/README.md).
 
