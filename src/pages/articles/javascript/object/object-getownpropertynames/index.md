@@ -1,5 +1,5 @@
 ---
-title: javaScript Objectgetownpropertynames
+title: Object Getownpropertynames
 ---
 The `Object.getOwnPropertyNames()` method returns an array of all properties (enumerable or not) found directly upon a given object.
 
