@@ -1,5 +1,5 @@
 ---
-title: javaScript Stringfromcharcode
+title: String Fromcharcode
 ---
 The static `String.fromCharCode()` method returns a string created by using the specified sequence of Unicode values.
 

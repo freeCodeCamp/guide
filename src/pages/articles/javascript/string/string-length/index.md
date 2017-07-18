@@ -1,5 +1,5 @@
 ---
-title: javaScript Stringlength
+title: String Length
 ---
 The `length` property represents the length of a string.
 

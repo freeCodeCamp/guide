@@ -1,5 +1,5 @@
 ---
-title: javaScript Stringprototypeslice
+title: String Prototype Slice
 ---
 The JavaScript string method `.slice()` extracts a portion of a string and returns a new string.
 

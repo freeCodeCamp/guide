@@ -1,9 +1,9 @@
 ---
-title: javaScript String Trim Method
+title: String Prototype Trim
 ---
-## javaScript String Trim Method
+## String Prototype Trim
 
-This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/javascript-string-trim-method/index.md).
+This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/string/string-prototype-trim/index.md).
 
 [This quick style guide will help ensure your pull request gets accepted](https://github.com/freecodecamp/guides/blob/master/README.md).
 
