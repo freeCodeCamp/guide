@@ -18,20 +18,20 @@ Guide articles can be an explanation of a syntax, design pattern, what aria labe
 ## What can I write an article about?
 We welcome your help writing these articles. You don't have to be an expert in a topic to write about it - this entire guide is open source, so even if you make a mistake, another contributor will eventually correct it.
 
-To help, find a `stub article` on our [guides website](guide.netlify.com), write the article, then open a pull request to replace the stub with your article.
+To help, find a `stub article` on our [guides website](guide.netlify.com), write the article, then open a pull request (PR) to replace the stub with your article.
 
 If you can't find a stub about the topic you'd like to write about, you can open a PR that creates the stub and includes your draft article. Feel free to ask us questions if you're not sure where to put a new article in the directory structure.
 
 Before you begin writing, make sure to read the [article style guide](#article-style-guide) below.
 
 ## How to contribute
-You can create a pull request (PR) with your draft article (or edits on an existing article) in two ways:
+You can create a PR with your draft article (or edits on an existing article) in two ways:
 
 1) The easiest method is to use the GitHub interface. Watch the video demonstration or follow the steps below it:
 
 ![Gif showing the GitHub interface steps](https://files.gitter.im/FreeCodeCamp/building-guides/WPK4/guide-article-contribution.gif)
 
-- Go into the "articles" folder and find the article stub you'd like to write or edit. All stubs will be in an index.md file
+- Go into the "articles" folder (located in `guides/src/pages`) and find the article stub you'd like to write or edit. All stubs will be in an index.md file
 - Click the "Edit this file" pencil icon and make your changes to the file in GitHub-flavored Markdown
 - Scroll to the bottom of the screen and add a commit message explaining your changes. Then select the radio button option for "Create a new branch for this commit and start a pull request" and click "Propose file changes"
 - On the next screen, you can add any other details about your PR, then click "Create pull request"
