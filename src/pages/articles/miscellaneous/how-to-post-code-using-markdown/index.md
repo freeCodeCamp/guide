@@ -1,5 +1,5 @@
 ---
-title: How To Post Code Using Markdown
+title: How to Post Code Using Markdown
 ---
 use backticks `
 

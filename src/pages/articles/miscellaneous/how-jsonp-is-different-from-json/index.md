@@ -1,5 +1,5 @@
 ---
-title: How Jsonp Is Different From JSON
+title: How Jsonp Is Different from JSON
 ---
 JSONP is just JSON wrapped in a callback function.
 

@@ -1,5 +1,5 @@
 ---
-title: Links To Help with Functional Programming
+title: Links to Help with Functional Programming
 ---
 Here you will fine links to learn more about functional programming.
 

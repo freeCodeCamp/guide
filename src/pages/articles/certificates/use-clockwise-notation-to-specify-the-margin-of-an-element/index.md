@@ -1,5 +1,5 @@
 ---
-title: Use Clockwise Notation To Specify the Margin of An Element
+title: Use Clockwise Notation to Specify the Margin of an Element
 ---
 Instead of specifying an element's`margin-top`, `margin-right`, `margin-bottom`, and `margin-left` attributes, you can specify them all in one line, like this: `margin: 10px 20px 10px 20px;`.
 

@@ -1,5 +1,5 @@
 ---
-title: Create An Ordered List
+title: Create an Ordered List
 ---
 HTML has a special element for creating ordered lists, or numbered-style lists.
 

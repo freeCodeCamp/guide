@@ -1,5 +1,5 @@
 ---
-title: Return a Value From a Function with Return
+title: Return a Value from a Function with Return
 ---
 We can pass values into a function with `arguments`. You can use a `return` statement to send a value back out of a function.
 

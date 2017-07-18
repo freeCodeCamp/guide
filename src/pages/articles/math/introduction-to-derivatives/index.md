@@ -1,7 +1,7 @@
 ---
-title: Introduction To Derivatives
+title: Introduction to Derivatives
 ---
-## Introduction To Derivatives
+## Introduction to Derivatives
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/introduction-to-derivatives/index.md).
 

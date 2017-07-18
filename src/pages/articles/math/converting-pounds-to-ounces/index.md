@@ -1,7 +1,7 @@
 ---
-title: Converting Pounds To Ounces
+title: Converting Pounds to Ounces
 ---
-## Converting Pounds To Ounces
+## Converting Pounds to Ounces
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/converting-pounds-to-ounces/index.md).
 

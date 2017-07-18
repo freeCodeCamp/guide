@@ -1,5 +1,5 @@
 ---
-title: Override Class Declaration By Styling Id Attributes
+title: Override Class Declaration by Styling Id Attributes
 ---
 We can use `id` to override styling too. `id` should have a higher priority than `class`, so its rules apply if a conflict occurs.
 

@@ -1,7 +1,7 @@
 ---
-title: Solving Systems of Equations By Elimination
+title: Solving Systems of Equations by Elimination
 ---
-## Solving Systems of Equations By Elimination
+## Solving Systems of Equations by Elimination
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/solving-systems-of-equations-by-elimination/index.md).
 

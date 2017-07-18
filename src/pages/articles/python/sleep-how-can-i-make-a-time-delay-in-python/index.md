@@ -1,7 +1,7 @@
 ---
-title: Sleep How Can I Make a Time Delay In Python
+title: Sleep How Can I Make a Time Delay in Python
 ---
-## Sleep How Can I Make a Time Delay In Python
+## Sleep How Can I Make a Time Delay in Python
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/python/sleep-how-can-i-make-a-time-delay-in-python/index.md).
 

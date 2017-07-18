@@ -1,7 +1,7 @@
 ---
-title: How To Factor a Polynomial Expression
+title: How to Factor a Polynomial Expression
 ---
-## How To Factor a Polynomial Expression
+## How to Factor a Polynomial Expression
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/how-to-factor-a-polynomial-expression/index.md).
 

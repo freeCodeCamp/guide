@@ -1,5 +1,5 @@
 ---
-title: Embed Youtube Videos On Gitter
+title: Embed Youtube Videos on Gitter
 ---
 You can add inline video to the wiki with just a google link. Inside the chatwiki this will show up as an embedded video.
 

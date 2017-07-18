@@ -1,7 +1,7 @@
 ---
-title: What Is An Sdk
+title: What Is an Sdk
 ---
-## What Is An Sdk
+## What Is an Sdk
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/computer-science/what-is-an-sdk/index.md).
 

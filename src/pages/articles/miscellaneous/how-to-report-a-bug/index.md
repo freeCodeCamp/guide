@@ -1,5 +1,5 @@
 ---
-title: How To Report a Bug
+title: How to Report a Bug
 ---
 Thank you for taking the effort to report an issue with freeCodeCamp.
 

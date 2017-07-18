@@ -1,7 +1,7 @@
 ---
-title: How To Create a Contact Form with CSS
+title: How to Create a Contact Form with CSS
 ---
-## How To Create a Contact Form with CSS
+## How to Create a Contact Form with CSS
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/miscellaneous/how-to-create-a-contact-form-with-css/index.md).
 

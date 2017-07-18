@@ -1,5 +1,5 @@
 ---
-title: Use Comments To Clarify Code
+title: Use Comments to Clarify Code
 ---
 When we start using jQuery, we will modify HTML elements without needing to actually change them in HTML.
 

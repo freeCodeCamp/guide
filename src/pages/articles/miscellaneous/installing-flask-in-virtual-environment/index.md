@@ -1,5 +1,5 @@
 ---
-title: Installing Flask In Virtual Environment
+title: Installing Flask in Virtual Environment
 ---
 If you wish to use Flask, you are in the right place! But install Flask, only because you want to explore web development in Flask. We would always recommend Django over Flask, because it gets difficult to build large web-applications in Flask; if you are new to web development in Python.
 

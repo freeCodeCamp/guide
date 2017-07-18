@@ -1,7 +1,7 @@
 ---
-title: Intro To Matrix Multiplication
+title: Intro to Matrix Multiplication
 ---
-## Intro To Matrix Multiplication
+## Intro to Matrix Multiplication
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/intro-to-matrix-multiplication/index.md).
 

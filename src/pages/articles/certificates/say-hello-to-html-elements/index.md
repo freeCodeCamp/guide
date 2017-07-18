@@ -1,5 +1,5 @@
 ---
-title: Say Hello To HTML Elements
+title: Say Hello to HTML Elements
 ---
 HTML elements are written with a starting tag, an ending tag, and the content in between:
 

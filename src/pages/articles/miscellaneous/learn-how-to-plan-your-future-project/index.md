@@ -1,5 +1,5 @@
 ---
-title: Learn How To Plan Your Future Project
+title: Learn How to Plan Your Future Project
 ---
 An ounce of preparation is worth a pound of cure. That's true in medicine, and that's definitely true in software development.
 

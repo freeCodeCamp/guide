@@ -1,5 +1,5 @@
 ---
-title: Guide To Build a Sliding Image Gallery
+title: Guide to Build a Sliding Image Gallery
 ---
 This tutorial will walk you through building an image slider using the [jQuery](https://jquery.com/) library.
 

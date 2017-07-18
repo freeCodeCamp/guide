@@ -1,7 +1,7 @@
 ---
-title: Finding Slope From Graph
+title: Finding Slope from Graph
 ---
-## Finding Slope From Graph
+## Finding Slope from Graph
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/finding-slope-from-graph/index.md).
 

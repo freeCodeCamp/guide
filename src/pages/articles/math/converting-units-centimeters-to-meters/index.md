@@ -1,7 +1,7 @@
 ---
-title: Converting Units Centimeters To Meters
+title: Converting Units Centimeters to Meters
 ---
-## Converting Units Centimeters To Meters
+## Converting Units Centimeters to Meters
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/converting-units-centimeters-to-meters/index.md).
 

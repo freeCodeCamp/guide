@@ -1,7 +1,7 @@
 ---
-title: Intercepts From An Equation
+title: Intercepts from an Equation
 ---
-## Intercepts From An Equation
+## Intercepts from an Equation
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/intercepts-from-an-equation/index.md).
 

@@ -1,5 +1,5 @@
 ---
-title: Edit Or Delete Gitter Messages
+title: Edit or Delete Gitter Messages
 ---
 > Editing or Deleting a previous message within 10 mins. of posting
 

@@ -1,7 +1,7 @@
 ---
-title: Redirect From An HTML Page
+title: Redirect from an HTML Page
 ---
-## Redirect From An HTML Page
+## Redirect from an HTML Page
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/html/redirect-from-an-html-page/index.md).
 

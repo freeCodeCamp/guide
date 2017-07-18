@@ -1,7 +1,7 @@
 ---
-title: Intro To Polynomial Synthetic Division
+title: Intro to Polynomial Synthetic Division
 ---
-## Intro To Polynomial Synthetic Division
+## Intro to Polynomial Synthetic Division
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/intro-to-polynomial-synthetic-division/index.md).
 

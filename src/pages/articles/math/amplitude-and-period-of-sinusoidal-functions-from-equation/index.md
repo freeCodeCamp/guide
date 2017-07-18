@@ -1,7 +1,7 @@
 ---
-title: Amplitude and Period of Sinusoidal Functions From Equation
+title: Amplitude and Period of Sinusoidal Functions from Equation
 ---
-## Amplitude and Period of Sinusoidal Functions From Equation
+## Amplitude and Period of Sinusoidal Functions from Equation
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/amplitude-and-period-of-sinusoidal-functions-from-equation/index.md).
 

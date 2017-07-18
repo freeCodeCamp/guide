@@ -1,7 +1,7 @@
 ---
-title: How To Create Popups
+title: How to Create Popups
 ---
-## How To Create Popups
+## How to Create Popups
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/how-to-create-popups/index.md).
 

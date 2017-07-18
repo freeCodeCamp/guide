@@ -1,5 +1,5 @@
 ---
-title: Add Font Awesome Icons To All of Our Buttons
+title: Add Font Awesome Icons to All of Our Buttons
 ---
 <i class="fa fa-trash"></i>
 

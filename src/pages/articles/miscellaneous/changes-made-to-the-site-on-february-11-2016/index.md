@@ -1,5 +1,5 @@
 ---
-title: Changes Made To the Site On February 11 2016
+title: Changes Made to the Site on February 11 2016
 ---
 ## Fixing the bottlenecks that made FreeCodeCamp.com so slow
 

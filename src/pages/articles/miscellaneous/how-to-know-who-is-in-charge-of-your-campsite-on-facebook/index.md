@@ -1,5 +1,5 @@
 ---
-title: How To Know Who Is In Charge of Your Campsite On Facebook
+title: How to Know Who Is in Charge of Your Campsite on Facebook
 ---
 Local communities are ever-changing, and there can be more than one Volunteer Community Manager for your city. To become an Admin in the Facebook group, follow the steps below.
 

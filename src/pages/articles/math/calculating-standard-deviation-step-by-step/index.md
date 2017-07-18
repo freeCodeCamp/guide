@@ -1,7 +1,7 @@
 ---
-title: Calculating Standard Deviation Step By Step
+title: Calculating Standard Deviation Step by Step
 ---
-## Calculating Standard Deviation Step By Step
+## Calculating Standard Deviation Step by Step
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/calculating-standard-deviation-step-by-step/index.md).
 

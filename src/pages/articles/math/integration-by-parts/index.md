@@ -1,7 +1,7 @@
 ---
-title: Integration By Parts
+title: Integration by Parts
 ---
-## Integration By Parts
+## Integration by Parts
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/integration-by-parts/index.md).
 

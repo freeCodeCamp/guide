@@ -1,7 +1,7 @@
 ---
-title: Determinant of a 3 By 3 Matrix Standard Method
+title: Determinant of a 3 by 3 Matrix Standard Method
 ---
-## Determinant of a 3 By 3 Matrix Standard Method
+## Determinant of a 3 by 3 Matrix Standard Method
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/determinant-of-a-3-by-3-matrix-standard-method/index.md).
 

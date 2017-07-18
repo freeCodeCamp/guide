@@ -1,7 +1,7 @@
 ---
-title: Center An Image Using Text Align Center
+title: Center an Image Using Text Align Center
 ---
-## Center An Image Using Text Align Center
+## Center an Image Using Text Align Center
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/html/center-an-image-using-text-align-center/index.md).
 

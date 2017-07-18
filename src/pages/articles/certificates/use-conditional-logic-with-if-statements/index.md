@@ -1,5 +1,5 @@
 ---
-title: Use Conditional Logic with If Statements
+title: Use Conditional Logic with if Statements
 ---
 We can use `if` statements in JavaScript to execute code only if the specified condition is met.
 

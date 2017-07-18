@@ -1,5 +1,5 @@
 ---
-title: How To Squash Multiple Commits Into One with Git
+title: How to Squash Multiple Commits into One with Git
 ---
 This is an awesome feature of `rebase` that can be used in the `interactive` mode. To squash the last _n_ commits into one, run the following command:
 

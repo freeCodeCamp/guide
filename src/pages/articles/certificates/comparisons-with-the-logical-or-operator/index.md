@@ -1,5 +1,5 @@
 ---
-title: Comparisons with the Logical Or Operator
+title: Comparisons with the Logical or Operator
 ---
 The `logical or` operator (`||`) returns `true` if either of the `operands` is `true`. Otherwise, it returns `false`.
 

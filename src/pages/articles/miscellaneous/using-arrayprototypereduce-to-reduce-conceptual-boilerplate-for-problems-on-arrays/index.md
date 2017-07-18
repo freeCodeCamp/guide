@@ -1,5 +1,5 @@
 ---
-title: Using Arrayprototypereduce To Reduce Conceptual Boilerplate for Problems On Arrays
+title: Using Arrayprototypereduce to Reduce Conceptual Boilerplate for Problems on Arrays
 ---
 That's quite a mouthful! It could have just been titled as **Use <a>`Array.prototype.reduce()`</a> to Solve Array Problems Easily** or **`Array.prototype.reduce()` FTW!**. That would have been so much easier to read and parse.
 

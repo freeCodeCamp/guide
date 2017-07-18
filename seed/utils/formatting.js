@@ -59,11 +59,30 @@ const preFormatted = {
 
 const stopWords = [
   'a',
+  'am',
+  'an',
   'and',
+  'as',
+  'at',
+  'but',
+  'by',
   'for',
+  'from',
+  'if',
+  'in',
+  'into',
+  'it',
+  'it\'s',
+  'its',
+  'no',
+  'nor',
+  'not',
   'of',
+  'off',
+  'on',
+  'or',
   'the',
-  'up',
+  'to',
   'with'
 ];
 

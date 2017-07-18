@@ -1,7 +1,7 @@
 ---
-title: Converting Am Pm To 24 Hour Clock
+title: Converting am Pm to 24 Hour Clock
 ---
-## Converting Am Pm To 24 Hour Clock
+## Converting am Pm to 24 Hour Clock
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/converting-am-pm-to-24-hour-clock/index.md).
 

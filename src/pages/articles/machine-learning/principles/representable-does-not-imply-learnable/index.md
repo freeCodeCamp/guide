@@ -1,7 +1,7 @@
 ---
-title: Representable Does Not Imply Learnable
+title: Representable Does not Imply Learnable
 ---
-## Representable Does Not Imply Learnable
+## Representable Does not Imply Learnable
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/machine-learning/principles/representable-does-not-imply-learnable/index.md).
 

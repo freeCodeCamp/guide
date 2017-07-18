@@ -1,7 +1,7 @@
 ---
-title: How To Create An Accordion
+title: How to Create an Accordion
 ---
-## How To Create An Accordion
+## How to Create an Accordion
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/how-to-create-an-accordion/index.md).
 

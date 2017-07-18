@@ -1,7 +1,7 @@
 ---
-title: Intro To Rationalizing the Denominator
+title: Intro to Rationalizing the Denominator
 ---
-## Intro To Rationalizing the Denominator
+## Intro to Rationalizing the Denominator
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/algebra/intro-to-rationalizing-the-denominator/index.md).
 

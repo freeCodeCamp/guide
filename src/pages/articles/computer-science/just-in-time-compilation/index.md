@@ -1,7 +1,7 @@
 ---
-title: Just In Time Compilation
+title: Just in Time Compilation
 ---
-## Just In Time Compilation
+## Just in Time Compilation
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/computer-science/just-in-time-compilation/index.md).
 

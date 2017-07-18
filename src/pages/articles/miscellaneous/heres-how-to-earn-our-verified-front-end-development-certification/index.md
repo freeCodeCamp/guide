@@ -1,5 +1,5 @@
 ---
-title: Heres How To Earn Our Verified Front End Development Certification
+title: Heres How to Earn Our Verified Front End Development Certification
 ---
 ![An image of a sample Front End Development Certificate](//discourse-user-assets.s3.amazonaws.com/original/2X/9/9579e6ad7bc3022fc5a6574be16791b5484f4867.png)
 

@@ -1,7 +1,7 @@
 ---
-title: How To Redirect a Web Page
+title: How to Redirect a Web Page
 ---
-## How To Redirect a Web Page
+## How to Redirect a Web Page
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/miscellaneous/how-to-redirect-a-web-page/index.md).
 

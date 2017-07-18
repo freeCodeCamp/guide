@@ -1,5 +1,5 @@
 ---
-title: Create a New Api Endpoint In Angular
+title: Create a New Api Endpoint in Angular
 ---
 >> yo angular-fullstack:endpoint whatsit
 

@@ -1,5 +1,5 @@
 ---
-title: How To Reach Free Code Camp Team for Interviews
+title: How to Reach Free Code Camp Team for Interviews
 ---
 We're happy to do a quick interview for your publication or show. Here's whom you should contact about what, and how to best reach them:
 

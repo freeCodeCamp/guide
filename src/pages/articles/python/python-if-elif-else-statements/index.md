@@ -1,7 +1,7 @@
 ---
-title: Python If Elif Else Statements
+title: Python if Elif Else Statements
 ---
-## Python If Elif Else Statements
+## Python if Elif Else Statements
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/python/python-if-elif-else-statements/index.md).
 

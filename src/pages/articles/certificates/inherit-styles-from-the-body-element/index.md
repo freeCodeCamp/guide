@@ -1,5 +1,5 @@
 ---
-title: Inherit Styles From the Body Element
+title: Inherit Styles from the Body Element
 ---
 The `body` element can be styled just like any other.
 

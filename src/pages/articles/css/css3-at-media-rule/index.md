@@ -1,7 +1,7 @@
 ---
-title: CSS3 At Media Rule
+title: CSS3 at Media Rule
 ---
-## CSS3 At Media Rule
+## CSS3 at Media Rule
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/css/css3-at-media-rule/index.md).
 

@@ -1,7 +1,7 @@
 ---
-title: Logarithms Introduction To the Relationship
+title: Logarithms Introduction to the Relationship
 ---
-## Logarithms Introduction To the Relationship
+## Logarithms Introduction to the Relationship
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/logarithms-introduction-to-the-relationship/index.md).
 

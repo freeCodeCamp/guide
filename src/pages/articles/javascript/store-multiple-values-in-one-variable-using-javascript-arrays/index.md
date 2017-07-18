@@ -1,5 +1,5 @@
 ---
-title: Store Multiple Values In One Variable Using javaScript Arrays
+title: Store Multiple Values in One Variable Using javaScript Arrays
 ---
 With JavaScript array variables, we can store several pieces of data in one place.
 

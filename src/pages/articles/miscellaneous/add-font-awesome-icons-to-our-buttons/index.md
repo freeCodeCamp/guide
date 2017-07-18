@@ -1,5 +1,5 @@
 ---
-title: Add Font Awesome Icons To Our Buttons
+title: Add Font Awesome Icons to Our Buttons
 ---
 Font Awesome is a convenient library of icons. These icons are vector graphics, stored in the .svg file format. These icons are treated just like fonts. You can specify their size using pixels, and they will assume the font size of their parent HTML elements.
 

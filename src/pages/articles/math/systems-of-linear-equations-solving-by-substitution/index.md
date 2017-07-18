@@ -1,7 +1,7 @@
 ---
-title: Systems of Linear Equations Solving By Substitution
+title: Systems of Linear Equations Solving by Substitution
 ---
-## Systems of Linear Equations Solving By Substitution
+## Systems of Linear Equations Solving by Substitution
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/systems-of-linear-equations-solving-by-substitution/index.md).
 

@@ -1,7 +1,7 @@
 ---
-title: Factoring In Algebra
+title: Factoring in Algebra
 ---
-## Factoring In Algebra
+## Factoring in Algebra
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/factoring-in-algebra/index.md).
 

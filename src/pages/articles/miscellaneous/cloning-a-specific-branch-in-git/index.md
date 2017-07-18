@@ -1,5 +1,5 @@
 ---
-title: Cloning a Specific Branch In Git
+title: Cloning a Specific Branch in Git
 ---
 To clone a branch, enter the following into the terminal:  
 

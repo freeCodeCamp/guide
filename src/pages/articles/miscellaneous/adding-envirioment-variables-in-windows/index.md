@@ -1,5 +1,5 @@
 ---
-title: Adding Envirioment Variables In Windows
+title: Adding Envirioment Variables in Windows
 ---
 ### Via GUI
 

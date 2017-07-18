@@ -1,5 +1,5 @@
 ---
-title: Replacing If Else Chains with Switch
+title: Replacing if Else Chains with Switch
 ---
 If you have many options to choose from, a `switch` statement can be easier to write than many chained `if/if` else statements. The following:
 

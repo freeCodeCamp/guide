@@ -1,7 +1,7 @@
 ---
-title: Solving Exponential Equations From the Definition
+title: Solving Exponential Equations from the Definition
 ---
-## Solving Exponential Equations From the Definition
+## Solving Exponential Equations from the Definition
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/solving-exponential-equations-from-the-definition/index.md).
 

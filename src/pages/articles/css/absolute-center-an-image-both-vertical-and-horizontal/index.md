@@ -1,7 +1,7 @@
 ---
-title: Absolute Center An Image Both Vertical and Horizontal
+title: Absolute Center an Image Both Vertical and Horizontal
 ---
-## Absolute Center An Image Both Vertical and Horizontal
+## Absolute Center an Image Both Vertical and Horizontal
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/css/absolute-center-an-image-both-vertical-and-horizontal/index.md).
 

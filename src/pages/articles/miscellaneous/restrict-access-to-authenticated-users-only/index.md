@@ -1,5 +1,5 @@
 ---
-title: Restrict Access To Authenticated Users Only
+title: Restrict Access to Authenticated Users Only
 ---
 Let's say you have a route that you want to restrict to logged-in users; maybe you have a `/profile` page that lets your users fill in some information about themselves, but it wouldn't work if they weren't logged in. Open **/client/app/profile/profile.js**, and add `authenticate: true` to the options passed to _$routeProvider.when_ like so:
 

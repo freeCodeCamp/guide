@@ -1,7 +1,7 @@
 ---
-title: Rewriting Tricky Fractions To Decimals
+title: Rewriting Tricky Fractions to Decimals
 ---
-## Rewriting Tricky Fractions To Decimals
+## Rewriting Tricky Fractions to Decimals
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/rewriting-tricky-fractions-to-decimals/index.md).
 

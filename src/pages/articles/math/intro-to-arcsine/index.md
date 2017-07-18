@@ -1,7 +1,7 @@
 ---
-title: Intro To Arcsine
+title: Intro to Arcsine
 ---
-## Intro To Arcsine
+## Intro to Arcsine
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/intro-to-arcsine/index.md).
 

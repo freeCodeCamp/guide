@@ -1,7 +1,7 @@
 ---
-title: 2 By 2 Determinants
+title: 2 by 2 Determinants
 ---
-## 2 By 2 Determinants
+## 2 by 2 Determinants
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/2-by-2-determinants/index.md).
 

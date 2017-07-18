@@ -1,7 +1,7 @@
 ---
-title: Conversion of Temperature Celsius To Fahrenheit
+title: Conversion of Temperature Celsius to Fahrenheit
 ---
-## Conversion of Temperature Celsius To Fahrenheit
+## Conversion of Temperature Celsius to Fahrenheit
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/conversion-of-temperature-celsius-to-fahrenheit/index.md).
 

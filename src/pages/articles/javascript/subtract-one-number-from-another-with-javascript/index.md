@@ -1,5 +1,5 @@
 ---
-title: Subtract One Number From Another with javaScript
+title: Subtract One Number from Another with javaScript
 ---
 We can also subtract one number from another.
 

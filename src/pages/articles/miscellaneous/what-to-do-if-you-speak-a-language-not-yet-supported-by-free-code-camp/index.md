@@ -1,5 +1,5 @@
 ---
-title: What To Do If You Speak a Language Not Yet Supported By Free Code Camp
+title: What to Do if You Speak a Language not Yet Supported by Free Code Camp
 ---
 Translation is an all-or-nothing proposal.
 

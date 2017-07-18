@@ -1,5 +1,5 @@
 ---
-title: Add Alt Text To An Image for Accessibility
+title: Add Alt Text to an Image for Accessibility
 ---
 `alt` attributes, also known as alt text, are what browsers will display if they fail to load the image. alt attributes are also important for blind or visually impaired users to understand what an image portrays. And search engines also look at alt attributes.
 

@@ -1,7 +1,7 @@
 ---
-title: Dividing Fractions By Whole Numbers
+title: Dividing Fractions by Whole Numbers
 ---
-## Dividing Fractions By Whole Numbers
+## Dividing Fractions by Whole Numbers
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/dividing-fractions-by-whole-numbers/index.md).
 

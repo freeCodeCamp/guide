@@ -1,7 +1,7 @@
 ---
-title: How To Install Node Js and Npm On Windows
+title: How to Install Node Js and Npm on Windows
 ---
-## How To Install Node Js and Npm On Windows
+## How to Install Node Js and Npm on Windows
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/how-to-install-node-js-and-npm-on-windows/index.md).
 

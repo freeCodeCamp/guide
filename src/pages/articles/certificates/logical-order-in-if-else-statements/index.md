@@ -1,5 +1,5 @@
 ---
-title: Logical Order In If Else Statements
+title: Logical Order in if Else Statements
 ---
 Order is important in `if`, `else if` and `else` statements.
 

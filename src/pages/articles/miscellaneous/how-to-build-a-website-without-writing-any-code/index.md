@@ -1,5 +1,5 @@
 ---
-title: How To Build a Website Without Writing Any Code
+title: How to Build a Website Without Writing Any Code
 ---
 It's possible to build dynamic, mobile-responsive websites without writing any code at all, in just a few minutes.
 

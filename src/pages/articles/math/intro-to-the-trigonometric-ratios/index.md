@@ -1,7 +1,7 @@
 ---
-title: Intro To the Trigonometric Ratios
+title: Intro to the Trigonometric Ratios
 ---
-## Intro To the Trigonometric Ratios
+## Intro to the Trigonometric Ratios
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/intro-to-the-trigonometric-ratios/index.md).
 

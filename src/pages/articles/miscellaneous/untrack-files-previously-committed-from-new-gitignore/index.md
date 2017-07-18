@@ -1,5 +1,5 @@
 ---
-title: Untrack Files Previously Committed From New Gitignore
+title: Untrack Files Previously Committed from New Gitignore
 ---
 To untrack a _single_ file, ie stop tracking the file but not delete it from the system use:
 

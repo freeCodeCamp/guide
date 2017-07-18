@@ -1,7 +1,7 @@
 ---
-title: Images In HTML
+title: Images in HTML
 ---
-## Images In HTML
+## Images in HTML
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/html/images-in-html/index.md).
 

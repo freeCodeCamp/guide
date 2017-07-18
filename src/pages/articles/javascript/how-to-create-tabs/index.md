@@ -1,7 +1,7 @@
 ---
-title: How To Create Tabs
+title: How to Create Tabs
 ---
-## How To Create Tabs
+## How to Create Tabs
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/how-to-create-tabs/index.md).
 

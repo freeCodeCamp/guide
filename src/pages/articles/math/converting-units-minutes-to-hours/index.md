@@ -1,7 +1,7 @@
 ---
-title: Converting Units Minutes To Hours
+title: Converting Units Minutes to Hours
 ---
-## Converting Units Minutes To Hours
+## Converting Units Minutes to Hours
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/converting-units-minutes-to-hours/index.md).
 

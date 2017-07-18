@@ -1,5 +1,5 @@
 ---
-title: Cloning All Remote Branches In Git
+title: Cloning All Remote Branches in Git
 ---
 To clone a remote git repository, enter the following into the terminal:
 

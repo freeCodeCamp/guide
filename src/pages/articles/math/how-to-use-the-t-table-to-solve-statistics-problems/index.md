@@ -1,7 +1,7 @@
 ---
-title: How To Use the T Table To Solve Statistics Problems
+title: How to Use the T Table to Solve Statistics Problems
 ---
-## How To Use the T Table To Solve Statistics Problems
+## How to Use the T Table to Solve Statistics Problems
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/how-to-use-the-t-table-to-solve-statistics-problems/index.md).
 

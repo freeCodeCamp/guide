@@ -1,7 +1,7 @@
 ---
-title: How To Divide Exponents
+title: How to Divide Exponents
 ---
-## How To Divide Exponents
+## How to Divide Exponents
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/how-to-divide-exponents/index.md).
 

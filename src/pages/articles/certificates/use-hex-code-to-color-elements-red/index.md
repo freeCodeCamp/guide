@@ -1,5 +1,5 @@
 ---
-title: Use Hex Code To Color Elements Red
+title: Use Hex Code to Color Elements Red
 ---
 Hex code follows the red-green-blue, or rgb format. The first two digits of hex code represent the amount of red in the color. The third and fourth digit represent the amount of green. The fifth and sixth represent the amount of blue.
 

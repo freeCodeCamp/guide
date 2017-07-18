@@ -1,7 +1,7 @@
 ---
-title: Worked Example Domain and Range From Graph
+title: Worked Example Domain and Range from Graph
 ---
-## Worked Example Domain and Range From Graph
+## Worked Example Domain and Range from Graph
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/worked-example-domain-and-range-from-graph/index.md).
 

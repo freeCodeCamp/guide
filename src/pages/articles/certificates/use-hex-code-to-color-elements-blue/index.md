@@ -1,5 +1,5 @@
 ---
-title: Use Hex Code To Color Elements Blue
+title: Use Hex Code to Color Elements Blue
 ---
 Just as with <a>red</a> and the others.
 

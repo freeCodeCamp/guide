@@ -1,7 +1,7 @@
 ---
-title: Intro To Rational and Irrational Numbers
+title: Intro to Rational and Irrational Numbers
 ---
-## Intro To Rational and Irrational Numbers
+## Intro to Rational and Irrational Numbers
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/intro-to-rational-and-irrational-numbers/index.md).
 

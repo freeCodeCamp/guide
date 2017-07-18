@@ -1,5 +1,5 @@
 ---
-title: Guidelines for Translating Free Code Camp To Any Language
+title: Guidelines for Translating Free Code Camp to Any Language
 ---
 Thank you so much for your interest in translating FreeCodeCamp. Reading this document is recommended for participating in a collective effort to bring FreeCodeCamp to more and more people all around the world.
 

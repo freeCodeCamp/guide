@@ -1,5 +1,5 @@
 ---
-title: Clone An Element Using jQuery
+title: Clone an Element Using jQuery
 ---
 jQuery has a function called`clone()` that makes a copy of an element.
 

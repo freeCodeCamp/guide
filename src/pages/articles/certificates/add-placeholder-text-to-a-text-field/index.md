@@ -1,5 +1,5 @@
 ---
-title: Add Placeholder Text To a Text Field
+title: Add Placeholder Text to a Text Field
 ---
 Your placeholder text is what appears in your text input before your user has inputed anything.
 

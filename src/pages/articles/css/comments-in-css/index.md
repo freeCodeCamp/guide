@@ -1,7 +1,7 @@
 ---
-title: Comments In CSS
+title: Comments in CSS
 ---
-## Comments In CSS
+## Comments in CSS
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/css/comments-in-css/index.md).
 

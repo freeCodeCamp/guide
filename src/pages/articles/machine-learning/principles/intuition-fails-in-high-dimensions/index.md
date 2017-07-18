@@ -1,7 +1,7 @@
 ---
-title: Intuition Fails In High Dimensions
+title: Intuition Fails in High Dimensions
 ---
-## Intuition Fails In High Dimensions
+## Intuition Fails in High Dimensions
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/machine-learning/principles/intuition-fails-in-high-dimensions/index.md).
 

@@ -1,7 +1,7 @@
 ---
-title: Adding Stroke To Web Text
+title: Adding Stroke to Web Text
 ---
-## Adding Stroke To Web Text
+## Adding Stroke to Web Text
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/css/adding-stroke-to-web-text/index.md).
 

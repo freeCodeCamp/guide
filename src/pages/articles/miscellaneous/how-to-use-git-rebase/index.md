@@ -1,5 +1,5 @@
 ---
-title: How To Use Git Rebase
+title: How to Use Git Rebase
 ---
 **Were you referred to this page to get your PR accepted? Scroll right to Git Rebase at FCC then!**
 

@@ -1,7 +1,7 @@
 ---
-title: Intro To Absolute Value Equations and Graphs
+title: Intro to Absolute Value Equations and Graphs
 ---
-## Intro To Absolute Value Equations and Graphs
+## Intro to Absolute Value Equations and Graphs
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/intro-to-absolute-value-equations-and-graphs/index.md).
 

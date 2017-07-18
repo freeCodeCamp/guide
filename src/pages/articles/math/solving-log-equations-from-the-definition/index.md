@@ -1,7 +1,7 @@
 ---
-title: Solving Log Equations From the Definition
+title: Solving Log Equations from the Definition
 ---
-## Solving Log Equations From the Definition
+## Solving Log Equations from the Definition
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/solving-log-equations-from-the-definition/index.md).
 

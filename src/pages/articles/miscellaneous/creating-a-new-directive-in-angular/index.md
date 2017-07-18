@@ -1,5 +1,5 @@
 ---
-title: Creating a New Directive In Angular
+title: Creating a New Directive in Angular
 ---
 Do you remember custom directives from the shaping up with angular course? You can also make a custom directive!
 

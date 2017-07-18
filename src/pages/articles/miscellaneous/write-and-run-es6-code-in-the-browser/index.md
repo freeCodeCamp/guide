@@ -1,5 +1,5 @@
 ---
-title: Write and Run Es6 Code In the Browser
+title: Write and Run Es6 Code in the Browser
 ---
 > Include the following code in the page.
 

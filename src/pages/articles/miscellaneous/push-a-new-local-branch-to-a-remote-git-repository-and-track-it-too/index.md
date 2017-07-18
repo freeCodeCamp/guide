@@ -1,5 +1,5 @@
 ---
-title: Push a New Local Branch To a Remote Git Repository and Track It Too
+title: Push a New Local Branch to a Remote Git Repository and Track it Too
 ---
 1.  Create a new branch:  
     `git checkout -b feature_branch_name`

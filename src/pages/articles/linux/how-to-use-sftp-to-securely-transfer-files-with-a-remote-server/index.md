@@ -1,7 +1,7 @@
 ---
-title: How To Use Sftp To Securely Transfer Files with a Remote Server
+title: How to Use Sftp to Securely Transfer Files with a Remote Server
 ---
-## How To Use Sftp To Securely Transfer Files with a Remote Server
+## How to Use Sftp to Securely Transfer Files with a Remote Server
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/linux/how-to-use-sftp-to-securely-transfer-files-with-a-remote-server/index.md).
 

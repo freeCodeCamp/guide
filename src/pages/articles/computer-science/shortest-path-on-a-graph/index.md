@@ -1,7 +1,7 @@
 ---
-title: Shortest Path On a Graph
+title: Shortest Path on a Graph
 ---
-## Shortest Path On a Graph
+## Shortest Path on a Graph
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/computer-science/shortest-path-on-a-graph/index.md).
 

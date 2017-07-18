@@ -1,7 +1,7 @@
 ---
-title: Deriving Integration By Parts Formula
+title: Deriving Integration by Parts Formula
 ---
-## Deriving Integration By Parts Formula
+## Deriving Integration by Parts Formula
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/deriving-integration-by-parts-formula/index.md).
 

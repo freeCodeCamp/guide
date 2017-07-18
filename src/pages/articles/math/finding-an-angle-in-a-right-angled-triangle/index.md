@@ -1,7 +1,7 @@
 ---
-title: Finding An Angle In a Right Angled Triangle
+title: Finding an Angle in a Right Angled Triangle
 ---
-## Finding An Angle In a Right Angled Triangle
+## Finding an Angle in a Right Angled Triangle
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/finding-an-angle-in-a-right-angled-triangle/index.md).
 

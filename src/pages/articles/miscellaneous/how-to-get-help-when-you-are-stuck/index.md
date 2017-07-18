@@ -1,5 +1,5 @@
 ---
-title: How To Get Help When You Are Stuck
+title: How to Get Help When You Are Stuck
 ---
 When you get stuck, remember: Read-Search-Ask.
 
