@@ -1,7 +1,7 @@
 ---
-title: Worked Example Slope From Two Points
+title: Worked Example Slope from Two Points
 ---
-## Worked Example Slope From Two Points
+## Worked Example Slope from Two Points
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/worked-example-slope-from-two-points/index.md).
 

@@ -1,5 +1,5 @@
 ---
-title: How To Get Help On Gitter
+title: How to Get Help on Gitter
 ---
 Sorry that you are stuck. Luckily there are many campers who hang out on Gitter and can help you resolve most issues! Follow these simple steps to get help fast:
 

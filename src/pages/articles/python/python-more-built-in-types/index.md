@@ -1,5 +1,5 @@
 ---
-title: Python More Built In Types
+title: Python More Built in Types
 ---
 The following sections describe the standard types that are built into the interpreter.
 

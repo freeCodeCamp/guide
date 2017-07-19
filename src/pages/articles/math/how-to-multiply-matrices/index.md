@@ -1,7 +1,7 @@
 ---
-title: How To Multiply Matrices
+title: How to Multiply Matrices
 ---
-## How To Multiply Matrices
+## How to Multiply Matrices
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/how-to-multiply-matrices/index.md).
 

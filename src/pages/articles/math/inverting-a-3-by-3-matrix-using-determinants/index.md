@@ -1,7 +1,7 @@
 ---
-title: Inverting A 3 By 3 Matrix Using Determinants
+title: Inverting a 3 by 3 Matrix Using Determinants
 ---
-## Inverting A 3 By 3 Matrix Using Determinants
+## Inverting a 3 by 3 Matrix Using Determinants
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/inverting-a-3-by-3-matrix-using-determinants/index.md).
 

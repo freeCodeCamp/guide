@@ -1,5 +1,5 @@
 ---
-title: javaScript Arrayprototypemap
+title: Array.prototype.map
 ---
 The method `map` of the Array prototype allows you to grab a hold of each element inside an array and apply a function to them. After **map** finishes iterating through the array, it will return a **new array** with the results of applying the function to the aforementioned elements.
 

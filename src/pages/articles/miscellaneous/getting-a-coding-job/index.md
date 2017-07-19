@@ -1,5 +1,5 @@
 ---
-title: Getting A Coding Job
+title: Getting a Coding Job
 ---
 Free Code Camp will help you prepare for a coding job.
 

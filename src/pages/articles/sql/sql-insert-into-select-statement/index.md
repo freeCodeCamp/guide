@@ -1,7 +1,7 @@
 ---
-title: Sql Insert Into Select Statement
+title: SQL Insert into Select Statement
 ---
-## Sql Insert Into Select Statement
+## SQL Insert into Select Statement
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/sql/sql-insert-into-select-statement/index.md).
 

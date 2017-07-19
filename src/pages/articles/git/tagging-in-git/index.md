@@ -1,7 +1,7 @@
 ---
-title: Tagging In Git
+title: Tagging in Git
 ---
-## Tagging In Git
+## Tagging in Git
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/git/tagging-in-git/index.md).
 

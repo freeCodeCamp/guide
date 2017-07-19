@@ -1,7 +1,7 @@
 ---
-title: Area of A Triangle
+title: Area of a Triangle
 ---
-## Area of A Triangle
+## Area of a Triangle
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/area-of-a-triangle/index.md).
 

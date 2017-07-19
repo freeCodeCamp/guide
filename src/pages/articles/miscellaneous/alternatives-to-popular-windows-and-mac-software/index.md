@@ -1,5 +1,5 @@
 ---
-title: Alternatives To Popular Windows and Mac Software
+title: Alternatives to Popular Windows and Mac Software
 ---
 This article is full of alternatives to popular software on Windows and Mac, which is not available on Linux.
 

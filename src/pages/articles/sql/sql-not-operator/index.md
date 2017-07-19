@@ -1,7 +1,7 @@
 ---
-title: Sql Not Operator
+title: SQL not Operator
 ---
-## Sql Not Operator
+## SQL not Operator
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/sql/sql-not-operator/index.md).
 

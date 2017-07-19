@@ -1,5 +1,5 @@
 ---
-title: Use Rgb Values To Color Elements
+title: Use Rgb Values to Color Elements
 ---
 Another way you can represent colors in CSS is by using `rgb` values.
 

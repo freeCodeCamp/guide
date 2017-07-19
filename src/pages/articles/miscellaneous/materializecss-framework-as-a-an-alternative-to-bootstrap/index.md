@@ -1,5 +1,5 @@
 ---
-title: Materializecss Framework As A An Alternative To Bootstrap
+title: Materializecss Framework as a an Alternative to Bootstrap
 ---
 [MaterializeCSS](http://materializecss.com/) is a modern responsive front-end framework based on google's [Material Design principles](https://www.google.com/design/spec/material-design/introduction.html).
 

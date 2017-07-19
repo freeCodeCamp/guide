@@ -1,7 +1,7 @@
 ---
-title: How To Find the Limit of A Function Algebraically
+title: How to Find the Limit of a Function Algebraically
 ---
-## How To Find the Limit of A Function Algebraically
+## How to Find the Limit of a Function Algebraically
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/how-to-find-the-limit-of-a-function-algebraically/index.md).
 

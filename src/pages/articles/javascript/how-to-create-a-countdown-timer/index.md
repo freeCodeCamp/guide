@@ -1,7 +1,7 @@
 ---
-title: How To Create A Countdown Timer
+title: How to Create a Countdown Timer
 ---
-## How To Create A Countdown Timer
+## How to Create a Countdown Timer
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/how-to-create-a-countdown-timer/index.md).
 

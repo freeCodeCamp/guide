@@ -1,5 +1,5 @@
 ---
-title: Creating A New Github Issue
+title: Creating a New Github Issue
 ---
 Before submitting an issue try [Searching for Your Issue on Github](http://forum.freecodecamp.com/t/searching-for-existing-issues-in-github/18390)
 

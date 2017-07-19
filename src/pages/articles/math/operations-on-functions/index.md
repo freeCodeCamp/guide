@@ -1,7 +1,7 @@
 ---
-title: Operations On Functions
+title: Operations on Functions
 ---
-## Operations On Functions
+## Operations on Functions
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/operations-on-functions/index.md).
 

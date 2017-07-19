@@ -1,7 +1,7 @@
 ---
-title: Horizontally Center A Div Tag In Another Div Tag
+title: Horizontally Center a Div Tag in Another Div Tag
 ---
-## Horizontally Center A Div Tag In Another Div Tag
+## Horizontally Center a Div Tag in Another Div Tag
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/html/horizontally-center-a-div-tag-in-another-div-tag/index.md).
 

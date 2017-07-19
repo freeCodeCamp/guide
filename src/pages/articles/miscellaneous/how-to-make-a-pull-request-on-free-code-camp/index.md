@@ -1,5 +1,5 @@
 ---
-title: How To Make A Pull Request On Free Code Camp
+title: How to Make a Pull Request on Free Code Camp
 ---
 # Free Code Camp Pull Request
 

@@ -1,5 +1,5 @@
 ---
-title: Give A Background Color To A Div Element
+title: Give a Background Color to a Div Element
 ---
 You can set an element's background color with the `background-color` attribute.
 

@@ -1,7 +1,7 @@
 ---
-title: the Binomial Theorem Formulas
+title: The Binomial Theorem Formulas
 ---
-## the Binomial Theorem Formulas
+## The Binomial Theorem Formulas
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/the-binomial-theorem-formulas/index.md).
 

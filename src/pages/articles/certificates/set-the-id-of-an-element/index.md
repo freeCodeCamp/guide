@@ -1,5 +1,5 @@
 ---
-title: Set the Id of An Element
+title: Set the Id of an Element
 ---
 In addition to classes, each HTML element can also have an `id` attribute.
 

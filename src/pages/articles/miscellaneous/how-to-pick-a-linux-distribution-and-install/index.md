@@ -1,5 +1,5 @@
 ---
-title: How To Pick A Linux Distribution and Install
+title: How to Pick a Linux Distribution and Install
 ---
 While most vendors provide one OS that gets incremental updates and new versions over time (e.g. Windows, Mac OSX, Solaris), Linux has hundreds of different versions to choose from created by different vendors. This is in part because Linux is freely-distributed code which can be tailored to specific user's needs. While the [Linux kernel](https://en.wikipedia.org/wiki/Linux_kernel) typically stays the same (core functionality of the OS handling tasks like network management, disk usage, memory utilization, I/O etc.), the many different versions of Linux differ in parts such as which GUI it uses (i.e. [Gnome](https://www.gnome.org/), [KDE](https://www.kde.org/), [XFCE](http://www.xfce.org/), or none at all), system tools, environments, package managers, and applications provided. This unique collection of software along with the kernel define what we call a [Linux Distribution](https://en.wikipedia.org/wiki/Linux_distribution) (distro for short).
 

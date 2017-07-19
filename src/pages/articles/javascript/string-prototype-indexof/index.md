@@ -1,7 +1,7 @@
 ---
-title: String Prototype Indexof
+title: String.prototype.indexOf
 ---
-## String Prototype Indexof
+## String.prototype.indexOf
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/string-prototype-indexof/index.md).
 

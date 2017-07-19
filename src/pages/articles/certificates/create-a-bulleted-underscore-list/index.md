@@ -1,5 +1,5 @@
 ---
-title: Create A Bulleted Underscore List
+title: Create a Bulleted Underscore List
 ---
 HTML has a special element for creating unordered lists, or bullet point-style lists.
 

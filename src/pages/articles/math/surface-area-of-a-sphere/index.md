@@ -1,7 +1,7 @@
 ---
-title: Surface Area of A Sphere
+title: Surface Area of a Sphere
 ---
-## Surface Area of A Sphere
+## Surface Area of a Sphere
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/surface-area-of-a-sphere/index.md).
 

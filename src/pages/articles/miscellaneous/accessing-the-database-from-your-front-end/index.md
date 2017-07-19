@@ -1,5 +1,5 @@
 ---
-title: Accessing the Database From Your Front End
+title: Accessing the Database from Your Front End
 ---
 You must have noticed in **main.controller.js** how _things_ were retrieved from the database and displayed:
 

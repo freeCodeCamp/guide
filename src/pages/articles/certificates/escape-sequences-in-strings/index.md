@@ -1,5 +1,5 @@
 ---
-title: Escape Sequences In Strings
+title: Escape Sequences in Strings
 ---
 Quotes are not the only characters that can be escaped inside a string. Here is a table of common escape sequences:
 

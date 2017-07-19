@@ -1,7 +1,7 @@
 ---
-title: Theoretical Guarantees Are Not What They Seem
+title: Theoretical Guarantees Are not What They Seem
 ---
-## Theoretical Guarantees Are Not What They Seem
+## Theoretical Guarantees Are not What They Seem
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/machine-learning/principles/theoretical-guarantees-are-not-what-they-seem/index.md).
 

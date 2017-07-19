@@ -1,5 +1,5 @@
 ---
-title: Remove An Element Using jQuery
+title: Remove an Element Using jQuery
 ---
 jQuery has a function called `.remove()` that will remove an HTML element entirely.
 

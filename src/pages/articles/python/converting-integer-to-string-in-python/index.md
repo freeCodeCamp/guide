@@ -1,7 +1,7 @@
 ---
-title: Converting Integer To String In Python
+title: Converting Integer to String in Python
 ---
-## Converting Integer To String In Python
+## Converting Integer to String in Python
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/python/converting-integer-to-string-in-python/index.md).
 

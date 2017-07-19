@@ -1,7 +1,7 @@
 ---
-title: Area of A Trapezium
+title: Area of a Trapezium
 ---
-## Area of A Trapezium
+## Area of a Trapezium
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/area-of-a-trapezium/index.md).
 

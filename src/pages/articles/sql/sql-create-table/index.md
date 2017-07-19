@@ -1,7 +1,7 @@
 ---
-title: Sql Create Table
+title: SQL Create Table
 ---
-## Sql Create Table
+## SQL Create Table
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/sql/sql-create-table/index.md).
 

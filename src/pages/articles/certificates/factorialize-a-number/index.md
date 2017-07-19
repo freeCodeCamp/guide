@@ -1,5 +1,5 @@
 ---
-title: Factorialize A Number
+title: Factorialize a Number
 ---
 ![Recursion](//discourse-user-assets.s3.amazonaws.com/original/2X/d/dcf927a2e8c3beb7a9c28770153821982398bd99.jpg)
 

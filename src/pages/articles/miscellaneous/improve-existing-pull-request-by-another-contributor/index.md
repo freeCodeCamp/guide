@@ -1,5 +1,5 @@
 ---
-title: Improve Existing Pull Request By Another Contributor
+title: Improve Existing Pull Request by Another Contributor
 ---
 How to take someone's PR and make your own based off it while keeping their commit:
 

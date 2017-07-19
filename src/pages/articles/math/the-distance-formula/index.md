@@ -1,7 +1,7 @@
 ---
-title: the Distance Formula
+title: The Distance Formula
 ---
-## the Distance Formula
+## The Distance Formula
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/the-distance-formula/index.md).
 

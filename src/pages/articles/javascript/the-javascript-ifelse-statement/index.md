@@ -1,5 +1,5 @@
 ---
-title: the javaScript Ifelse Statement
+title: The javaScript Ifelse Statement
 ---
 ## Introduction
 

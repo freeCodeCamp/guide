@@ -1,5 +1,5 @@
 ---
-title: Add Id Attributes To Bootstrap Elements
+title: Add Id Attributes to Bootstrap Elements
 ---
 Recall that in addition to class attributes, you can give each of your elements an id attribute.
 

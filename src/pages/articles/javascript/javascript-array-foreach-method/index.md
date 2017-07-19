@@ -1,7 +1,7 @@
 ---
-title: javaScript Array Foreach Method
+title: javaScript Array forEach Method
 ---
-## javaScript Array Foreach Method
+## javaScript Array forEach Method
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/javascript-array-foreach-method/index.md).
 

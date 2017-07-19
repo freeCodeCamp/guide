@@ -1,5 +1,5 @@
 ---
-title: Capitalize the First Letter of A String
+title: Capitalize the First Letter of a String
 ---
 To capitalize the first letter of a random string, you should follow these steps:
 

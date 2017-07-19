@@ -1,7 +1,7 @@
 ---
-title: the Law of Sines
+title: The Law of Sines
 ---
-## the Law of Sines
+## The Law of Sines
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/the-law-of-sines/index.md).
 

@@ -1,7 +1,7 @@
 ---
-title: javaScript for In
+title: javaScript for in
 ---
-## javaScript for In
+## javaScript for in
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/javascript-for-in/index.md).
 

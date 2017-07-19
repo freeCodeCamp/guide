@@ -1,7 +1,7 @@
 ---
-title: Proof of Finite Arithmetic Series Formula By Induction
+title: Proof of Finite Arithmetic Series Formula by Induction
 ---
-## Proof of Finite Arithmetic Series Formula By Induction
+## Proof of Finite Arithmetic Series Formula by Induction
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/proof-of-finite-arithmetic-series-formula-by-induction/index.md).
 

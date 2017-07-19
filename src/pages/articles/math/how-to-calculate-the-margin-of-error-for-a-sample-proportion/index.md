@@ -1,7 +1,7 @@
 ---
-title: How To Calculate the Margin of Error for A Sample Proportion
+title: How to Calculate the Margin of Error for a Sample Proportion
 ---
-## How To Calculate the Margin of Error for A Sample Proportion
+## How to Calculate the Margin of Error for a Sample Proportion
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/how-to-calculate-the-margin-of-error-for-a-sample-proportion/index.md).
 

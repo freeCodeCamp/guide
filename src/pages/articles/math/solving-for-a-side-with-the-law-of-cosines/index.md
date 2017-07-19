@@ -1,7 +1,7 @@
 ---
-title: Solving for A Side with the Law of Cosines
+title: Solving for a Side with the Law of Cosines
 ---
-## Solving for A Side with the Law of Cosines
+## Solving for a Side with the Law of Cosines
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/solving-for-a-side-with-the-law-of-cosines/index.md).
 

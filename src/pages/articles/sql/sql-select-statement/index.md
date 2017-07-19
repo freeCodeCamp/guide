@@ -1,7 +1,7 @@
 ---
-title: Sql Select Statement
+title: SQL Select Statement
 ---
-## Sql Select Statement
+## SQL Select Statement
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/sql/sql-select-statement/index.md).
 

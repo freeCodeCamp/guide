@@ -1,5 +1,5 @@
 ---
-title: Iterate Through An Array with A for Loop
+title: Iterate Through an Array with a for Loop
 ---
 A common task in JavaScript is to iterate through the contents of an array. One way to do that is with a `for` loop. This code will output each element of the array `arr` to the console:
 

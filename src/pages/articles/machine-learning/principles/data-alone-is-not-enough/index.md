@@ -1,7 +1,7 @@
 ---
-title: Data Alone Is Not Enough
+title: Data Alone Is not Enough
 ---
-## Data Alone Is Not Enough
+## Data Alone Is not Enough
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/machine-learning/principles/data-alone-is-not-enough/index.md).
 

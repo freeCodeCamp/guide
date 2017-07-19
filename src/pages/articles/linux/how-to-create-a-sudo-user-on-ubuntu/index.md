@@ -1,7 +1,7 @@
 ---
-title: How To Create A Sudo User On Ubuntu
+title: How to Create a Sudo User on Ubuntu
 ---
-## How To Create A Sudo User On Ubuntu
+## How to Create a Sudo User on Ubuntu
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/linux/how-to-create-a-sudo-user-on-ubuntu/index.md).
 

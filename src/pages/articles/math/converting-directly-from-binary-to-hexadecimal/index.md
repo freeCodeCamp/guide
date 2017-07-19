@@ -1,7 +1,7 @@
 ---
-title: Converting Directly From Binary To Hexadecimal
+title: Converting Directly from Binary to Hexadecimal
 ---
-## Converting Directly From Binary To Hexadecimal
+## Converting Directly from Binary to Hexadecimal
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/converting-directly-from-binary-to-hexadecimal/index.md).
 

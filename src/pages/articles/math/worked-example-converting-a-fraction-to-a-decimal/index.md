@@ -1,7 +1,7 @@
 ---
-title: Worked Example Converting A Fraction To A Decimal
+title: Worked Example Converting a Fraction to a Decimal
 ---
-## Worked Example Converting A Fraction To A Decimal
+## Worked Example Converting a Fraction to a Decimal
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/worked-example-converting-a-fraction-to-a-decimal/index.md).
 

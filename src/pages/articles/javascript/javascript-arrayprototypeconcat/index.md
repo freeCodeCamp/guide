@@ -1,5 +1,5 @@
 ---
-title: javaScript Arrayprototypeconcat
+title: Array.prototype.concat
 ---
 The `concat()` method returns a new array comprised of the array on which it is called joined with the array(s) and/or value(s) provided as arguments.
 

@@ -1,7 +1,7 @@
 ---
-title: How To Calculate the Mean Value
+title: How to Calculate the Mean Value
 ---
-## How To Calculate the Mean Value
+## How to Calculate the Mean Value
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/how-to-calculate-the-mean-value/index.md).
 

@@ -1,7 +1,7 @@
 ---
-title: Sql Delete Statement
+title: SQL Delete Statement
 ---
-## Sql Delete Statement
+## SQL Delete Statement
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/sql/sql-delete-statement/index.md).
 

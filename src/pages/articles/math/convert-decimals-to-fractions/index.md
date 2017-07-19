@@ -1,7 +1,7 @@
 ---
-title: Convert Decimals To Fractions
+title: Convert Decimals to Fractions
 ---
-## Convert Decimals To Fractions
+## Convert Decimals to Fractions
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/convert-decimals-to-fractions/index.md).
 

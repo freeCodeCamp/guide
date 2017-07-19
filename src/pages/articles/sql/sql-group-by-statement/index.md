@@ -1,7 +1,7 @@
 ---
-title: Sql Group By Statement
+title: SQL Group by Statement
 ---
-## Sql Group By Statement
+## SQL Group by Statement
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/sql/sql-group-by-statement/index.md).
 

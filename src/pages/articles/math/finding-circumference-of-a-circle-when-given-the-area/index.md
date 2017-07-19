@@ -1,7 +1,7 @@
 ---
-title: Finding Circumference of A Circle When Given the Area
+title: Finding Circumference of a Circle When Given the Area
 ---
-## Finding Circumference of A Circle When Given the Area
+## Finding Circumference of a Circle When Given the Area
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/finding-circumference-of-a-circle-when-given-the-area/index.md).
 

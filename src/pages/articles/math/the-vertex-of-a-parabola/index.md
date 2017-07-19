@@ -1,7 +1,7 @@
 ---
-title: the Vertex of A Parabola
+title: The Vertex of a Parabola
 ---
-## the Vertex of A Parabola
+## The Vertex of a Parabola
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/the-vertex-of-a-parabola/index.md).
 

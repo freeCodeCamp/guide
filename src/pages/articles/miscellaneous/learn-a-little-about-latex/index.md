@@ -1,5 +1,5 @@
 ---
-title: Learn A Little About Latex
+title: Learn a Little About Latex
 ---
 LaTeX is designed for the production of technical and scientific documentation. You can create matrix, arrays or several other mathmatical functions.
 

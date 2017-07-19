@@ -1,7 +1,7 @@
 ---
-title: Intro To the Binomial Theorem
+title: Intro to the Binomial Theorem
 ---
-## Intro To the Binomial Theorem
+## Intro to the Binomial Theorem
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/intro-to-the-binomial-theorem/index.md).
 

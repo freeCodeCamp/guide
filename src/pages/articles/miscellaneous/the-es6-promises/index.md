@@ -1,5 +1,5 @@
 ---
-title: the Es6 Promises
+title: The Es6 Promises
 ---
 A new feature of ES6 to help with async programming.
 

@@ -1,7 +1,7 @@
 ---
-title: Intro To Slope Intercept Form
+title: Intro to Slope Intercept Form
 ---
-## Intro To Slope Intercept Form
+## Intro to Slope Intercept Form
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/intro-to-slope-intercept-form/index.md).
 

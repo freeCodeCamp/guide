@@ -1,5 +1,5 @@
 ---
-title: Clojure More On Functions
+title: Clojure More on Functions
 ---
 Functions! They're pretty important. It's very difficult to do anything without a function. They're integral to any language, but especially Clojure, since it's a functional programming language that rejects object-oriented design. Let's learn some more about them!
 

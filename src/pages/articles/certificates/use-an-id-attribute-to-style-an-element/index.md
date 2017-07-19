@@ -1,5 +1,5 @@
 ---
-title: Use An Id Attribute To Style An Element
+title: Use an Id Attribute to Style an Element
 ---
 One cool thing about `id` attributes is that, like classes, you can style them using CSS.
 

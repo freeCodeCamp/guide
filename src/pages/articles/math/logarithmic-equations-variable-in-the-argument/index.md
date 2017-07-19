@@ -1,7 +1,7 @@
 ---
-title: Logarithmic Equations Variable In the Argument
+title: Logarithmic Equations Variable in the Argument
 ---
-## Logarithmic Equations Variable In the Argument
+## Logarithmic Equations Variable in the Argument
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/logarithmic-equations-variable-in-the-argument/index.md).
 

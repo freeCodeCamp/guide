@@ -1,7 +1,7 @@
 ---
-title: Intro To Composing Functions
+title: Intro to Composing Functions
 ---
-## Intro To Composing Functions
+## Intro to Composing Functions
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/intro-to-composing-functions/index.md).
 

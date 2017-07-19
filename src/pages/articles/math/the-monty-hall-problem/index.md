@@ -1,7 +1,7 @@
 ---
-title: the Monty Hall Problem
+title: The Monty Hall Problem
 ---
-## the Monty Hall Problem
+## The Monty Hall Problem
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/the-monty-hall-problem/index.md).
 

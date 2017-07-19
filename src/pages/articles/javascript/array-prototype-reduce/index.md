@@ -1,7 +1,7 @@
 ---
-title: Array Prototype Reduce
+title: Array.prototype.reduce
 ---
-## Array Prototype Reduce
+## Array.prototype.reduce
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/array-prototype-reduce/index.md).
 

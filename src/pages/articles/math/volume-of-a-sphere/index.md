@@ -1,7 +1,7 @@
 ---
-title: Volume of A Sphere
+title: Volume of a Sphere
 ---
-## Volume of A Sphere
+## Volume of a Sphere
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/volume-of-a-sphere/index.md).
 

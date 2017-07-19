@@ -1,7 +1,7 @@
 ---
-title: Intro To Point Slope Form
+title: Intro to Point Slope Form
 ---
-## Intro To Point Slope Form
+## Intro to Point Slope Form
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/intro-to-point-slope-form/index.md).
 

@@ -1,7 +1,7 @@
 ---
-title: Sql Insert Into Statement
+title: SQL Insert into Statement
 ---
-## Sql Insert Into Statement
+## SQL Insert into Statement
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/sql/sql-insert-into-statement/index.md).
 

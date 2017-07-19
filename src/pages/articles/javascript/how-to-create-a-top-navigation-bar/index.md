@@ -1,7 +1,7 @@
 ---
-title: How To Create A Top Navigation Bar
+title: How to Create a Top Navigation Bar
 ---
-## How To Create A Top Navigation Bar
+## How to Create a Top Navigation Bar
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/how-to-create-a-top-navigation-bar/index.md).
 

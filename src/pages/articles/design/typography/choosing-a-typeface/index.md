@@ -1,7 +1,7 @@
 ---
-title: Choosing A Typeface
+title: Choosing a Typeface
 ---
-## Choosing A Typeface
+## Choosing a Typeface
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/design/typography/choosing-a-typeface/index.md).
 

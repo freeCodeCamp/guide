@@ -1,7 +1,7 @@
 ---
-title: Sql Create Index Statement
+title: SQL Create Index Statement
 ---
-## Sql Create Index Statement
+## SQL Create Index Statement
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/sql/sql-create-index-statement/index.md).
 

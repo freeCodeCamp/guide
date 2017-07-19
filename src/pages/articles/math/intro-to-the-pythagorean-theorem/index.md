@@ -1,7 +1,7 @@
 ---
-title: Intro To the Pythagorean Theorem
+title: Intro to the Pythagorean Theorem
 ---
-## Intro To the Pythagorean Theorem
+## Intro to the Pythagorean Theorem
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/intro-to-the-pythagorean-theorem/index.md).
 

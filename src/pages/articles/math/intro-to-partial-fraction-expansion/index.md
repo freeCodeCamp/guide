@@ -1,7 +1,7 @@
 ---
-title: Intro To Partial Fraction Expansion
+title: Intro to Partial Fraction Expansion
 ---
-## Intro To Partial Fraction Expansion
+## Intro to Partial Fraction Expansion
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/intro-to-partial-fraction-expansion/index.md).
 

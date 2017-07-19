@@ -1,5 +1,5 @@
 ---
-title: How To Use the Twitchtv Api
+title: How to Use the Twitchtv Api
 ---
 Update September 29, 2016: Twitch has changed their API and now requires an API key in order to run queries. If you are using CodePen or GitHub pages to build these, we do not recommend adding an API key to your project for security reasons.
 

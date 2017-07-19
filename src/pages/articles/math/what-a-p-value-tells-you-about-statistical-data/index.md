@@ -1,7 +1,7 @@
 ---
-title: What A P Value Tells You About Statistical Data
+title: What a P Value Tells You About Statistical Data
 ---
-## What A P Value Tells You About Statistical Data
+## What a P Value Tells You About Statistical Data
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/what-a-p-value-tells-you-about-statistical-data/index.md).
 

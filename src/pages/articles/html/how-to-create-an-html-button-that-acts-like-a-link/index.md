@@ -1,7 +1,7 @@
 ---
-title: How To Create An HTML Button That Acts Like A Link
+title: How to Create an HTML Button That Acts Like a Link
 ---
-## How To Create An HTML Button That Acts Like A Link
+## How to Create an HTML Button That Acts Like a Link
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/html/how-to-create-an-html-button-that-acts-like-a-link/index.md).
 

@@ -1,5 +1,5 @@
 ---
-title: Iterate Odd Numbers with A for Loop
+title: Iterate Odd Numbers with a for Loop
 ---
 For loops don't have to iterate one at a time. By changing our `final-expression`, we can count by even numbers.
 

@@ -1,5 +1,5 @@
 ---
-title: Create A Class To Target with jQuery Selectors
+title: Create a Class to Target with jQuery Selectors
 ---
 Not every class needs to have corresponding CSS. Sometimes we create classes just for the purpose of selecting these elements more easily using jQuery.
 

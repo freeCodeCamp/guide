@@ -1,7 +1,7 @@
 ---
-title: How To Find the Median Value
+title: How to Find the Median Value
 ---
-## How To Find the Median Value
+## How to Find the Median Value
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/how-to-find-the-median-value/index.md).
 

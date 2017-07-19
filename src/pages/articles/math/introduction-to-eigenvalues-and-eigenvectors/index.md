@@ -1,7 +1,7 @@
 ---
-title: Introduction To Eigenvalues and Eigenvectors
+title: Introduction to Eigenvalues and Eigenvectors
 ---
-## Introduction To Eigenvalues and Eigenvectors
+## Introduction to Eigenvalues and Eigenvectors
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/introduction-to-eigenvalues-and-eigenvectors/index.md).
 

@@ -1,7 +1,7 @@
 ---
-title: Intro To Graphing Two Variable Inequalities
+title: Intro to Graphing Two Variable Inequalities
 ---
-## Intro To Graphing Two Variable Inequalities
+## Intro to Graphing Two Variable Inequalities
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/intro-to-graphing-two-variable-inequalities/index.md).
 

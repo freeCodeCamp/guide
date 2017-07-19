@@ -1,7 +1,7 @@
 ---
-title: Matrix Inversion Finding the Inverse of A Matrix
+title: Matrix Inversion Finding the Inverse of a Matrix
 ---
-## Matrix Inversion Finding the Inverse of A Matrix
+## Matrix Inversion Finding the Inverse of a Matrix
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/matrix-inversion-finding-the-inverse-of-a-matrix/index.md).
 

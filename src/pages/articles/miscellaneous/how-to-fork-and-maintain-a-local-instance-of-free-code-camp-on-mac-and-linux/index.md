@@ -1,5 +1,5 @@
 ---
-title: How To Fork and Maintain A Local Instance of Free Code Camp On Mac and Linux
+title: How to Fork and Maintain a Local Instance of Free Code Camp on Mac and Linux
 ---
 If you plan to write a <a>Pull Request for Free Code Camp</a>, you will almost certainly need a local copy of the site. Having a local copy of the site will give you additional capability with Git that are not available via the GitHub browser interface, including updating your fork and rebasing/squashing commits.
 

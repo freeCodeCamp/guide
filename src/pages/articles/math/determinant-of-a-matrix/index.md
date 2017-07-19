@@ -1,7 +1,7 @@
 ---
-title: Determinant of A Matrix
+title: Determinant of a Matrix
 ---
-## Determinant of A Matrix
+## Determinant of a Matrix
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/determinant-of-a-matrix/index.md).
 

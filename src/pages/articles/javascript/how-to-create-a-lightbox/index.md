@@ -1,7 +1,7 @@
 ---
-title: How To Create A Lightbox
+title: How to Create a Lightbox
 ---
-## How To Create A Lightbox
+## How to Create a Lightbox
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/how-to-create-a-lightbox/index.md).
 

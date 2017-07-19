@@ -1,5 +1,5 @@
 ---
-title: the Python Scopes
+title: The Python Scopes
 ---
 **TODO: NOTE**
 

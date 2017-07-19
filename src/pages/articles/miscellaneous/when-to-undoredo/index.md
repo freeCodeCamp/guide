@@ -1,5 +1,5 @@
 ---
-title: When To Undoredo
+title: When to Undoredo
 ---
 You would typically want to UNDO/REDO when you commit some changes to git, and realize that the changes need to be removed/reverted. This very common in scenarios for example, when you did a temporary change to some files, and forgot to revert them, then proceeded to adding them to commit accidentally.
 

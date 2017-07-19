@@ -1,7 +1,7 @@
 ---
-title: Finding the Inverse of A Function
+title: Finding the Inverse of a Function
 ---
-## Finding the Inverse of A Function
+## Finding the Inverse of a Function
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/finding-the-inverse-of-a-function/index.md).
 

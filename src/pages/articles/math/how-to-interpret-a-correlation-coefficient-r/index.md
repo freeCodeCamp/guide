@@ -1,7 +1,7 @@
 ---
-title: How To Interpret A Correlation Coefficient R
+title: How to Interpret a Correlation Coefficient R
 ---
-## How To Interpret A Correlation Coefficient R
+## How to Interpret a Correlation Coefficient R
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/how-to-interpret-a-correlation-coefficient-r/index.md).
 

@@ -1,7 +1,7 @@
 ---
-title: Area of A Rectangle
+title: Area of a Rectangle
 ---
-## Area of A Rectangle
+## Area of a Rectangle
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/area-of-a-rectangle/index.md).
 

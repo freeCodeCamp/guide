@@ -1,7 +1,7 @@
 ---
-title: Sql Replace View Statement
+title: SQL Replace View Statement
 ---
-## Sql Replace View Statement
+## SQL Replace View Statement
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/sql/sql-replace-view-statement/index.md).
 

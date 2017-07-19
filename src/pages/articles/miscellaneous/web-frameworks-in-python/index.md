@@ -1,5 +1,5 @@
 ---
-title: Web Frameworks In Python
+title: Web Frameworks in Python
 ---
 Like most domains in Python development, the Python community treats web-development with great affection, and have given us matured, well-maintained frameworks; of varying complexity.
 

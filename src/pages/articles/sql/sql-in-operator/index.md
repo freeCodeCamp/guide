@@ -1,7 +1,7 @@
 ---
-title: Sql In Operator
+title: SQL in Operator
 ---
-## Sql In Operator
+## SQL in Operator
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/sql/sql-in-operator/index.md).
 

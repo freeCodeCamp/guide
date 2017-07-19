@@ -1,7 +1,7 @@
 ---
-title: Area of A Square
+title: Area of a Square
 ---
-## Area of A Square
+## Area of a Square
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/area-of-a-square/index.md).
 

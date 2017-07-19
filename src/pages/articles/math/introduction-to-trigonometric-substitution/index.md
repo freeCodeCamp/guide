@@ -1,7 +1,7 @@
 ---
-title: Introduction To Trigonometric Substitution
+title: Introduction to Trigonometric Substitution
 ---
-## Introduction To Trigonometric Substitution
+## Introduction to Trigonometric Substitution
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/introduction-to-trigonometric-substitution/index.md).
 

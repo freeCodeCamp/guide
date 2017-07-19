@@ -1,5 +1,5 @@
 ---
-title: the javaScript Return Statement
+title: The javaScript Return Statement
 ---
 ## Introduction
 

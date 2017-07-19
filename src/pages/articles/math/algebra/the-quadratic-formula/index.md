@@ -1,7 +1,7 @@
 ---
-title: the Quadratic Formula
+title: The Quadratic Formula
 ---
-## the Quadratic Formula
+## The Quadratic Formula
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/algebra/the-quadratic-formula/index.md).
 

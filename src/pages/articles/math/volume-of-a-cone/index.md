@@ -1,7 +1,7 @@
 ---
-title: Volume of A Cone
+title: Volume of a Cone
 ---
-## Volume of A Cone
+## Volume of a Cone
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/volume-of-a-cone/index.md).
 

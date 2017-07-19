@@ -1,5 +1,5 @@
 ---
-title: Make Unique Objects By Passing Parameters To Our function Object() { [native code] }
+title: Make Unique Objects by Passing Parameters to Our function Object() { [native code] }
 ---
 When you have a constructor but don't want to keep creating the same object, all you have to do is add parameters to the constructor the following way:
 

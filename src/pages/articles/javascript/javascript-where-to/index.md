@@ -1,7 +1,7 @@
 ---
-title: javaScript Where To
+title: javaScript Where to
 ---
-## javaScript Where To
+## javaScript Where to
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/javascript-where-to/index.md).
 

@@ -1,5 +1,5 @@
 ---
-title: Using Browsec for Securing Your Connection To Freecodecampcom
+title: Using Browsec for Securing Your Connection to Freecodecampcom
 ---
 ### Why do I need an plugin or add-on?
 

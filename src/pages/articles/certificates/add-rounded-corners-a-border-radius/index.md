@@ -1,5 +1,5 @@
 ---
-title: Add Rounded Corners A Border Radius
+title: Add Rounded Corners a Border Radius
 ---
 To make round corners it is all about `border-radius` and pixels.
 

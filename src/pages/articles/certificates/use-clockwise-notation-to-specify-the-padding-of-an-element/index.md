@@ -1,5 +1,5 @@
 ---
-title: Use Clockwise Notation To Specify the Padding of An Element
+title: Use Clockwise Notation to Specify the Padding of an Element
 ---
 Instead of specifying an element's `padding-top`, `padding-right`, `padding-bottom`, and `padding-lef`t attributes, you can specify them all in one line, like this: `padding: 10px 20px 10px 20px;`.
 

@@ -1,5 +1,5 @@
 ---
-title: Get Information About the Current User In Angularjs
+title: Get Information About the Current User in Angularjs
 ---
 You may have noticed if you opened up **/client/app/admin/admin.controller.js** that it calls the _Auth_ module like so:
 

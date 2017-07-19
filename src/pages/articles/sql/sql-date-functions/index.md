@@ -1,7 +1,7 @@
 ---
-title: Sql Date Functions
+title: SQL Date Functions
 ---
-## Sql Date Functions
+## SQL Date Functions
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/sql/sql-date-functions/index.md).
 

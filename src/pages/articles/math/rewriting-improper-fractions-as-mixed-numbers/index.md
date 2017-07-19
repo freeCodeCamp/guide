@@ -1,7 +1,7 @@
 ---
-title: Rewriting Improper Fractions As Mixed Numbers
+title: Rewriting Improper Fractions as Mixed Numbers
 ---
-## Rewriting Improper Fractions As Mixed Numbers
+## Rewriting Improper Fractions as Mixed Numbers
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/rewriting-improper-fractions-as-mixed-numbers/index.md).
 

@@ -1,7 +1,7 @@
 ---
-title: Sql Create View Statement
+title: SQL Create View Statement
 ---
-## Sql Create View Statement
+## SQL Create View Statement
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/sql/sql-create-view-statement/index.md).
 

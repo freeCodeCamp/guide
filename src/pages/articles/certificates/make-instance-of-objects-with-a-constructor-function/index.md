@@ -1,5 +1,5 @@
 ---
-title: Make Instance of Objects with A function Object() { [native code] } Function
+title: Make Instance of Objects with a function Object() { [native code] } Function
 ---
 A function that creates objects is called a _constructor_, my favorite way of creating objects when you have to create more than one of the same object. You can also edit the second object to add more properties if needed. This is called creating _instances_ of an object.
 

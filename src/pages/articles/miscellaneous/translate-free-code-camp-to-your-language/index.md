@@ -1,5 +1,5 @@
 ---
-title: Translate Free Code Camp To Your Language
+title: Translate Free Code Camp to Your Language
 ---
 Our translation effort is driven by bilingual campers like you.
 

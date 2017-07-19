@@ -1,7 +1,7 @@
 ---
-title: All Factors of A Number
+title: All Factors of a Number
 ---
-## All Factors of A Number
+## All Factors of a Number
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/all-factors-of-a-number/index.md).
 

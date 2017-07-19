@@ -1,7 +1,7 @@
 ---
-title: Axis of Symmetry of A Parabola
+title: Axis of Symmetry of a Parabola
 ---
-## Axis of Symmetry of A Parabola
+## Axis of Symmetry of a Parabola
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/axis-of-symmetry-of-a-parabola/index.md).
 

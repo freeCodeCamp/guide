@@ -1,5 +1,5 @@
 ---
-title: javaScript Stringprototypematch
+title: String.prototype.match
 ---
 The `match()` method retrieves the matches when matching a string against a regular expression.
 

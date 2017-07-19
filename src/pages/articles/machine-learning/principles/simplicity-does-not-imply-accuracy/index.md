@@ -1,7 +1,7 @@
 ---
-title: Simplicity Does Not Imply Accuracy
+title: Simplicity Does not Imply Accuracy
 ---
-## Simplicity Does Not Imply Accuracy
+## Simplicity Does not Imply Accuracy
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/machine-learning/principles/simplicity-does-not-imply-accuracy/index.md).
 

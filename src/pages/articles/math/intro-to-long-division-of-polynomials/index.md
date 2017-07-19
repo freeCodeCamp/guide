@@ -1,7 +1,7 @@
 ---
-title: Intro To Long Division of Polynomials
+title: Intro to Long Division of Polynomials
 ---
-## Intro To Long Division of Polynomials
+## Intro to Long Division of Polynomials
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/intro-to-long-division-of-polynomials/index.md).
 

@@ -1,5 +1,5 @@
 ---
-title: Count Backwards with A for Loop
+title: Count Backwards with a for Loop
 ---
 A for loop can also count backwards, so long as we can define the right conditions.
 

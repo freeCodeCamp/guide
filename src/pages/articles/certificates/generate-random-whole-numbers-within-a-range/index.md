@@ -1,5 +1,5 @@
 ---
-title: Generate Random Whole Numbers Within A Range
+title: Generate Random Whole Numbers Within a Range
 ---
 > We can use a certain mathematical expression to get a random number between two numbers.
 

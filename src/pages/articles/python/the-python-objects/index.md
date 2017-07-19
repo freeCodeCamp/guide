@@ -1,5 +1,5 @@
 ---
-title: the Python Objects
+title: The Python Objects
 ---
 > In Python, everything is an _object_.
 

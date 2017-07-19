@@ -1,5 +1,5 @@
 ---
-title: House Our Page Within A Bootstrap Container Fluid Div
+title: House Our Page Within a Bootstrap Container Fluid Div
 ---
 To make the content responsive, we use the `container-fluid` class.
 

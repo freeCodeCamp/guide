@@ -1,7 +1,7 @@
 ---
-title: End Behavior of A Function
+title: End Behavior of a Function
 ---
-## End Behavior of A Function
+## End Behavior of a Function
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/end-behavior-of-a-function/index.md).
 

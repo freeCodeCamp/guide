@@ -1,7 +1,7 @@
 ---
-title: Where To Get Fonts
+title: Where to Get Fonts
 ---
-## Where To Get Fonts
+## Where to Get Fonts
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/design/typography/where-to-get-fonts/index.md).
 

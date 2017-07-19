@@ -1,7 +1,7 @@
 ---
-title: Sql Foreign Key Constraint
+title: SQL Foreign Key Constraint
 ---
-## Sql Foreign Key Constraint
+## SQL Foreign Key Constraint
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/sql/sql-foreign-key-constraint/index.md).
 

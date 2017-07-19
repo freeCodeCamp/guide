@@ -1,5 +1,5 @@
 ---
-title: How To Undo A Git Add
+title: How to Undo a Git Add
 ---
 # Undo git add
 

@@ -1,7 +1,7 @@
 ---
-title: Text Formatting In HTML
+title: Text Formatting in HTML
 ---
-## Text Formatting In HTML
+## Text Formatting in HTML
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/html/text-formatting-in-html/index.md).
 

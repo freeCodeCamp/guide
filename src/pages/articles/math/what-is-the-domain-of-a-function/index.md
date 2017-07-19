@@ -1,7 +1,7 @@
 ---
-title: What Is the Domain of A Function
+title: What Is the Domain of a Function
 ---
-## What Is the Domain of A Function
+## What Is the Domain of a Function
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/what-is-the-domain-of-a-function/index.md).
 

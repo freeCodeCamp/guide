@@ -1,7 +1,7 @@
 ---
-title: Intro To Absolute Value Inequalities
+title: Intro to Absolute Value Inequalities
 ---
-## Intro To Absolute Value Inequalities
+## Intro to Absolute Value Inequalities
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/intro-to-absolute-value-inequalities/index.md).
 

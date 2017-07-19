@@ -1,7 +1,7 @@
 ---
-title: String Prototype Split
+title: String.prototype.split
 ---
-## String Prototype Split
+## String.prototype.split
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/string-prototype-split/index.md).
 

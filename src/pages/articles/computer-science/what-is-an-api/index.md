@@ -1,7 +1,7 @@
 ---
-title: What Is An Api
+title: What Is an Api
 ---
-## What Is An Api
+## What Is an Api
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/computer-science/what-is-an-api/index.md).
 

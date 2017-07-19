@@ -1,7 +1,7 @@
 ---
-title: Sql Server Convert Function
+title: SQL Server Convert Function
 ---
-## Sql Server Convert Function
+## SQL Server Convert Function
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/sql/sql-server-convert-function/index.md).
 

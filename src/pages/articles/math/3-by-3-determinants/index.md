@@ -1,7 +1,7 @@
 ---
-title: 3 By 3 Determinants
+title: 3 by 3 Determinants
 ---
-## 3 By 3 Determinants
+## 3 by 3 Determinants
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/3-by-3-determinants/index.md).
 

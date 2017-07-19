@@ -1,5 +1,5 @@
 ---
-title: Use Github Static Pages To Host Your Front End Projects
+title: Use Github Static Pages to Host Your Front End Projects
 ---
 **Benefits**
 

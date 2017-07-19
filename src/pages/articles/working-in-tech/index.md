@@ -1,7 +1,7 @@
 ---
-title: Working In Tech
+title: Working in Tech
 ---
-## Working In Tech
+## Working in Tech
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/working-in-tech/index.md).
 

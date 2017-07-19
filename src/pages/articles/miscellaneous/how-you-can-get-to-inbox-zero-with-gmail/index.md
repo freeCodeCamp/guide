@@ -1,5 +1,5 @@
 ---
-title: How You Can Get To Inbox Zero with Gmail
+title: How You Can Get to Inbox Zero with Gmail
 ---
 > These Gmail Shortcuts will save you hours and help you get to Inbox Zero.
 

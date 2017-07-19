@@ -1,7 +1,7 @@
 ---
-title: Sql Update Statement
+title: SQL Update Statement
 ---
-## Sql Update Statement
+## SQL Update Statement
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/sql/sql-update-statement/index.md).
 

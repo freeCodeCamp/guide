@@ -1,5 +1,5 @@
 ---
-title: javaScript Arrayprototypepush
+title: Array.prototype.push
 ---
 The JavaScript array method `.push()` adds one or more new elements to the end of an array and returns the length of the newly expanded array.
 

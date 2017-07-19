@@ -1,7 +1,7 @@
 ---
-title: javaScript String Indexof Method
+title: javaScript String indexOf Method
 ---
-## javaScript String Indexof Method
+## javaScript String indexOf Method
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/javascript-string-indexof-method/index.md).
 

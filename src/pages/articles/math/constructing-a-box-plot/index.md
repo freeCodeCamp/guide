@@ -1,7 +1,7 @@
 ---
-title: Constructing A Box Plot
+title: Constructing a Box Plot
 ---
-## Constructing A Box Plot
+## Constructing a Box Plot
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/constructing-a-box-plot/index.md).
 

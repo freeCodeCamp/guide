@@ -1,7 +1,7 @@
 ---
-title: the Unit Circle
+title: The Unit Circle
 ---
-## the Unit Circle
+## The Unit Circle
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/the-unit-circle/index.md).
 

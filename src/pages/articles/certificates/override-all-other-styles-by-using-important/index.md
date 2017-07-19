@@ -1,5 +1,5 @@
 ---
-title: Override All Other Styles By Using Important
+title: Override All Other Styles by Using Important
 ---
 In many situations, you will use CSS libraries. These may accidentally override your own CSS. So when you absolutely need to be sure that an element has specific CSS, you can use !important.
 

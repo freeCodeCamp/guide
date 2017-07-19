@@ -1,5 +1,5 @@
 ---
-title: Fill In the Blank with Placeholder Text
+title: Fill in the Blank with Placeholder Text
 ---
 Web developers traditionally use **lorem ipsum** text as placeholder text. It's called lorem ipsum text because those are the first two words of a famous passage by Cicero of Ancient Rome.
 

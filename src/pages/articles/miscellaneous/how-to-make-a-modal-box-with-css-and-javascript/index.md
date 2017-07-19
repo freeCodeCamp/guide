@@ -1,7 +1,7 @@
 ---
-title: How To Make A Modal Box with CSS and javaScript
+title: How to Make a Modal Box with CSS and javaScript
 ---
-## How To Make A Modal Box with CSS and javaScript
+## How to Make a Modal Box with CSS and javaScript
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/miscellaneous/how-to-make-a-modal-box-with-css-and-javascript/index.md).
 

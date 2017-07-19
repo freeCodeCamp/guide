@@ -1,5 +1,5 @@
 ---
-title: Guides To Back End Projects
+title: Guides to Back End Projects
 ---
 Here you will find articles that will help you learn more and complete your back end projects.
 

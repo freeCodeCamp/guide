@@ -1,7 +1,7 @@
 ---
-title: Sql Alter Table Statement
+title: SQL Alter Table Statement
 ---
-## Sql Alter Table Statement
+## SQL Alter Table Statement
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/sql/sql-alter-table-statement/index.md).
 

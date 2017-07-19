@@ -1,7 +1,7 @@
 ---
-title: Sql Order By Keyword
+title: SQL Order by Keyword
 ---
-## Sql Order By Keyword
+## SQL Order by Keyword
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/sql/sql-order-by-keyword/index.md).
 

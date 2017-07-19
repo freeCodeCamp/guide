@@ -1,5 +1,5 @@
 ---
-title: Check Radio Buttons and Checkboxes By Default
+title: Check Radio Buttons and Checkboxes by Default
 ---
 You can set a checkbox or radio button to be checked by default using the checked attribute.
 

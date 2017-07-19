@@ -1,5 +1,5 @@
 ---
-title: Nest Many Elements Within A Single Div Element
+title: Nest Many Elements Within a Single Div Element
 ---
 The `div` element, also known as a division element, is a general purpose container for other elements.
 

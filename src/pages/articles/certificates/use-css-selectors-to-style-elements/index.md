@@ -1,5 +1,5 @@
 ---
-title: Use CSS Selectors To Style Elements
+title: Use CSS Selectors to Style Elements
 ---
 Instead of giving style attributes one by one, we can do this to multiple elements at the same time.
 

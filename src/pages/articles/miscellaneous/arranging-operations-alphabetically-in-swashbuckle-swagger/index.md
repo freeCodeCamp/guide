@@ -1,5 +1,5 @@
 ---
-title: Arranging Operations Alphabetically In Swashbuckle Swagger
+title: Arranging Operations Alphabetically in Swashbuckle Swagger
 ---
 [Swashbuckle](https://github.com/domaindrivendev/Swashbuckle) seamlessly adds a [Swagger](http://swagger.io/) to WebAPI projects. However, the operations on the page do not appear in alphabetical order.
 

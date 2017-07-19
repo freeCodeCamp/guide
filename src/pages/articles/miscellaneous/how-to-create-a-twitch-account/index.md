@@ -1,5 +1,5 @@
 ---
-title: How To Create A Twitch Account
+title: How to Create a Twitch Account
 ---
 # What is Twitch?
 

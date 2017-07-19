@@ -1,7 +1,7 @@
 ---
-title: Radians To Degrees
+title: Radians to Degrees
 ---
-## Radians To Degrees
+## Radians to Degrees
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/radians-to-degrees/index.md).
 

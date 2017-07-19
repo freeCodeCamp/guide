@@ -1,5 +1,5 @@
 ---
-title: Change the Color of A Text
+title: Change the Color of a Text
 ---
 CSS allows us to change many styles. To change the color of an element we use `color`.
 

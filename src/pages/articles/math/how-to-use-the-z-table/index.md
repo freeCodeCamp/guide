@@ -1,7 +1,7 @@
 ---
-title: How To Use the Z Table
+title: How to Use the Z Table
 ---
-## How To Use the Z Table
+## How to Use the Z Table
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/how-to-use-the-z-table/index.md).
 

@@ -1,7 +1,7 @@
 ---
-title: Sql Drop View Statement
+title: SQL Drop View Statement
 ---
-## Sql Drop View Statement
+## SQL Drop View Statement
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/sql/sql-drop-view-statement/index.md).
 

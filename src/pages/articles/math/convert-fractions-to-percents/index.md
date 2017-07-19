@@ -1,7 +1,7 @@
 ---
-title: Convert Fractions To Percents
+title: Convert Fractions to Percents
 ---
-## Convert Fractions To Percents
+## Convert Fractions to Percents
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/convert-fractions-to-percents/index.md).
 

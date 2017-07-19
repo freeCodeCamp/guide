@@ -1,7 +1,7 @@
 ---
-title: Solving Quadratics By Factoring
+title: Solving Quadratics by Factoring
 ---
-## Solving Quadratics By Factoring
+## Solving Quadratics by Factoring
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/solving-quadratics-by-factoring/index.md).
 

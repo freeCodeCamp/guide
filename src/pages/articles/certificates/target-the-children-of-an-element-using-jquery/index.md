@@ -1,5 +1,5 @@
 ---
-title: Target the Children of An Element Using jQuery
+title: Target the Children of an Element Using jQuery
 ---
 Many HTML elements have children elements from which they inherit properties.
 

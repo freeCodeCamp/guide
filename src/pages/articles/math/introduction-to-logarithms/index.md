@@ -1,7 +1,7 @@
 ---
-title: Introduction To Logarithms
+title: Introduction to Logarithms
 ---
-## Introduction To Logarithms
+## Introduction to Logarithms
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/introduction-to-logarithms/index.md).
 

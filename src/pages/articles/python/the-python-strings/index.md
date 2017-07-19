@@ -1,5 +1,5 @@
 ---
-title: the Python Strings
+title: The Python Strings
 ---
 Python allows `str` objects, or _strings_, to be expressed in a few different ways:
 

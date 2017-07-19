@@ -1,7 +1,7 @@
 ---
-title: How To Find Probabilities for Z with the Z Table
+title: How to Find Probabilities for Z with the Z Table
 ---
-## How To Find Probabilities for Z with the Z Table
+## How to Find Probabilities for Z with the Z Table
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/how-to-find-probabilities-for-z-with-the-z-table/index.md).
 

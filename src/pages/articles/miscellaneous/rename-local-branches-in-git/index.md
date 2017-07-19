@@ -1,5 +1,5 @@
 ---
-title: Rename Local Branches In Git
+title: Rename Local Branches in Git
 ---
 To rename a local branch, enter the following into the terminal:
 

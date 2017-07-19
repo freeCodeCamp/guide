@@ -1,5 +1,5 @@
 ---
-title: Change Text Inside An Element Using jQuery
+title: Change Text Inside an Element Using jQuery
 ---
 Using jQuery, you can change the text between the start and end tags of an element. You can even change HTML markup.
 

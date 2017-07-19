@@ -1,7 +1,7 @@
 ---
-title: Introduction To Partial Derivatives
+title: Introduction to Partial Derivatives
 ---
-## Introduction To Partial Derivatives
+## Introduction to Partial Derivatives
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/introduction-to-partial-derivatives/index.md).
 

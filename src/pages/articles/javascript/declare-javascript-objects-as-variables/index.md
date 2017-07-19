@@ -1,5 +1,5 @@
 ---
-title: Declare javaScript Objects As Variables
+title: Declare javaScript Objects as Variables
 ---
 This has a simple format. You declare your variable and have it equal to an object in the form `{ key: value}`
 

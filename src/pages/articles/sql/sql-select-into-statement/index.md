@@ -1,7 +1,7 @@
 ---
-title: Sql Select Into Statement
+title: SQL Select into Statement
 ---
-## Sql Select Into Statement
+## SQL Select into Statement
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/sql/sql-select-into-statement/index.md).
 
