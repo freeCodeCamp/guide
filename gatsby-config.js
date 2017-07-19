@@ -1,5 +1,6 @@
 module.exports = {
   siteMetadata: {
+    siteUrl: 'http://guide.netlify.com',
     title: 'freeCodeCamp Guides'
   },
   plugins: [
@@ -11,6 +12,9 @@ module.exports = {
         name: 'pages',
         path: `${__dirname}/src/pages/`
       }
+    },
+    {
+      resolve: 'gatsby-plugin-sitemap'
     },
     'gatsby-plugin-sharp'
   ]

@@ -17,6 +17,7 @@
     "gatsby-link": "^1.0.1",
     "gatsby-plugin-react-helmet": "^1.0.1",
     "gatsby-plugin-sharp": "^1.0.0-beta.7",
+    "gatsby-plugin-sitemap": "^1.2.0",
     "gatsby-remark-copy-linked-files": "^1.0.0-beta.6",
     "gatsby-remark-images": "^1.0.0-beta.6",
     "gatsby-remark-prismjs": "^1.0.0-beta.6",
