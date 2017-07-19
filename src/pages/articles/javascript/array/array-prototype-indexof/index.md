@@ -1,7 +1,7 @@
 ---
-title: Array Prototype Indexof
+title: Array.prototype.indexOf
 ---
-## Array Prototype Indexof
+## Array.prototype.indexOf
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/array/array-prototype-indexof/index.md).
 

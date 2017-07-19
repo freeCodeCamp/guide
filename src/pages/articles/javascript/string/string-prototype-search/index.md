@@ -1,7 +1,7 @@
 ---
-title: String Prototype Search
+title: String.prototype.search
 ---
-## String Prototype Search
+## String.prototype.search
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/string/string-prototype-search/index.md).
 

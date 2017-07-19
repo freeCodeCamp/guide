@@ -1,7 +1,7 @@
 ---
-title: Array Prototype Tosource
+title: Array.prototype.toSource
 ---
-## Array Prototype Tosource
+## Array.prototype.toSource
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/array/array-prototype-tosource/index.md).
 

@@ -1,7 +1,7 @@
 ---
-title: String Prototype Trim
+title: String.prototype.trim
 ---
-## String Prototype Trim
+## String.prototype.trim
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/string/string-prototype-trim/index.md).
 

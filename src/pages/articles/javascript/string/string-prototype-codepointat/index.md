@@ -1,7 +1,7 @@
 ---
-title: String Prototype Codepointat
+title: String.prototype.codePointAt
 ---
-## String Prototype Codepointat
+## String.prototype.codePointAt
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/string/string-prototype-codepointat/index.md).
 

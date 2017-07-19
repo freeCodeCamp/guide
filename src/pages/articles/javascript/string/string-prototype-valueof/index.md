@@ -1,7 +1,7 @@
 ---
-title: String Prototype Valueof
+title: String.prototype.valueOf
 ---
-## String Prototype Valueof
+## String.prototype.valueOf
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/string/string-prototype-valueof/index.md).
 

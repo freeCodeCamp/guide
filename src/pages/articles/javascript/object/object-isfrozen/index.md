@@ -1,7 +1,7 @@
 ---
-title: Object Isfrozen
+title: Object isFrozen
 ---
-## Object Isfrozen
+## Object isFrozen
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/object/object-isfrozen/index.md).
 

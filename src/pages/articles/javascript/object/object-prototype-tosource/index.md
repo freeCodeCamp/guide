@@ -1,7 +1,7 @@
 ---
-title: Object Prototype Tosource
+title: Object.prototype.toSource
 ---
-## Object Prototype Tosource
+## Object.prototype.toSource
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/object/object-prototype-tosource/index.md).
 

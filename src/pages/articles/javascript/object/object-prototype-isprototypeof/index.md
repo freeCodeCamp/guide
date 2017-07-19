@@ -1,7 +1,7 @@
 ---
-title: Object Prototype Isprototypeof
+title: Object.prototype.is.prototype.of
 ---
-## Object Prototype Isprototypeof
+## Object.prototype.is.prototype.of
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/object/object-prototype-isprototypeof/index.md).
 

@@ -1,7 +1,7 @@
 ---
-title: Array Prototype Includes
+title: Array.prototype.includes
 ---
-## Array Prototype Includes
+## Array.prototype.includes
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/array/array-prototype-includes/index.md).
 

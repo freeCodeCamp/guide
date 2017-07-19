@@ -1,7 +1,7 @@
 ---
-title: javaScript Number Tostring Method
+title: javaScript Number toString Method
 ---
-## javaScript Number Tostring Method
+## javaScript Number toString Method
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/javascript-number-tostring-method/index.md).
 

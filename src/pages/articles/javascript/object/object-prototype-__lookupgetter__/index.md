@@ -1,7 +1,7 @@
 ---
-title: Object Prototype __lookupgetter__
+title: Object.prototype.__lookupGetter__
 ---
-## Object Prototype __lookupgetter__
+## Object.prototype.__lookupGetter__
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/object/object-prototype-__lookupgetter__/index.md).
 

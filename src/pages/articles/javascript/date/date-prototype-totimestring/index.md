@@ -1,9 +1,9 @@
 ---
-title: javaScript Date Formats
+title: Date.prototype.toTimeString
 ---
-## javaScript Date Formats
+## Date.prototype.toTimeString
 
-This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/javascript-date-formats/index.md).
+This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/date/date-prototype-totimestring/index.md).
 
 [This quick style guide will help ensure your pull request gets accepted](https://github.com/freecodecamp/guides/blob/master/README.md).
 

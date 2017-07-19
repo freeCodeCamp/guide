@@ -1,7 +1,7 @@
 ---
-title: Object Prototype Unwatch
+title: Object.prototype.unwatch
 ---
-## Object Prototype Unwatch
+## Object.prototype.unwatch
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/object/object-prototype-unwatch/index.md).
 

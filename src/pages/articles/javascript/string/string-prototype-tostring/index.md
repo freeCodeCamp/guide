@@ -1,7 +1,7 @@
 ---
-title: String Prototype Tostring
+title: String.prototype.toString
 ---
-## String Prototype Tostring
+## String.prototype.toString
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/string/string-prototype-tostring/index.md).
 

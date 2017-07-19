@@ -1,7 +1,7 @@
 ---
-title: String Prototype Trimright
+title: String.prototype.trimright
 ---
-## String Prototype Trimright
+## String.prototype.trimright
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/string/string-prototype-trimright/index.md).
 

@@ -1,7 +1,7 @@
 ---
-title: Object Prototype Tostring
+title: Object.prototype.toString
 ---
-## Object Prototype Tostring
+## Object.prototype.toString
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/object/object-prototype-tostring/index.md).
 

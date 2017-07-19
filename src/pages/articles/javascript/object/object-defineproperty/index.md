@@ -1,7 +1,7 @@
 ---
-title: Object Defineproperty
+title: Object defineProperty
 ---
-## Object Defineproperty
+## Object defineProperty
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/object/object-defineproperty/index.md).
 

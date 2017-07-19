@@ -1,7 +1,7 @@
 ---
-title: Object Isextensible
+title: Object isExtensible
 ---
-## Object Isextensible
+## Object isExtensible
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/object/object-isextensible/index.md).
 

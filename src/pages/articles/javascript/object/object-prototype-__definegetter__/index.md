@@ -1,7 +1,7 @@
 ---
-title: Object Prototype __definegetter__
+title: Object.prototype.__defineGetter__
 ---
-## Object Prototype __definegetter__
+## Object.prototype.__defineGetter__
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/object/object-prototype-__definegetter__/index.md).
 

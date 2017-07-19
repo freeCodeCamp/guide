@@ -1,5 +1,5 @@
 ---
-title: Array Isarray
+title: Array isArray
 ---
 The `Array.isArray()` method returns `true` if an object is an array, `false` if it is not.
 

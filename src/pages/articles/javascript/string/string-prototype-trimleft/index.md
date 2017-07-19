@@ -1,7 +1,7 @@
 ---
-title: String Prototype Trimleft
+title: String.prototype.trimLeft
 ---
-## String Prototype Trimleft
+## String.prototype.trimLeft
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/string/string-prototype-trimleft/index.md).
 

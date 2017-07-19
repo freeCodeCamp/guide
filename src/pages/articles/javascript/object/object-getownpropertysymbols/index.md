@@ -1,7 +1,7 @@
 ---
-title: Object Getownpropertysymbols
+title: Object getOwnPropertySymbols
 ---
-## Object Getownpropertysymbols
+## Object getOwnPropertySymbols
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/object/object-getownpropertysymbols/index.md).
 

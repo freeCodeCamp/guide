@@ -1,7 +1,7 @@
 ---
-title: Object Prototype __definesetter__
+title: Object.prototype.__defineSetter__
 ---
-## Object Prototype __definesetter__
+## Object.prototype.__defineSetter__
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/object/object-prototype-__definesetter__/index.md).
 

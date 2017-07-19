@@ -1,5 +1,5 @@
 ---
-title: Array Prototype Tostring
+title: Array.prototype.toString
 ---
 The JavaScript array method `.toString()` is used to convert an array into a single string, with each element joined by a comma. There are no parameters for the method.
 

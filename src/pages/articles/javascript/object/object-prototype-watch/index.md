@@ -1,7 +1,7 @@
 ---
-title: Object Prototype Watch
+title: Object.prototype.watch
 ---
-## Object Prototype Watch
+## Object.prototype.watch
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/object/object-prototype-watch/index.md).
 

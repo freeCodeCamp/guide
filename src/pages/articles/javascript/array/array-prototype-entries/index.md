@@ -1,7 +1,7 @@
 ---
-title: Array Prototype Entries
+title: Array.prototype.entries
 ---
-## Array Prototype Entries
+## Array.prototype.entries
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/array/array-prototype-entries/index.md).
 

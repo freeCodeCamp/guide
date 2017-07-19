@@ -1,7 +1,7 @@
 ---
-title: String Prototype Tolowercase
+title: String.prototype.toLowerCase
 ---
-## String Prototype Tolowercase
+## String.prototype.toLowerCase
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/string/string-prototype-tolowercase/index.md).
 

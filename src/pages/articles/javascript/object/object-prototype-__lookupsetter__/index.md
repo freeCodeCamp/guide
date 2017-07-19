@@ -1,7 +1,7 @@
 ---
-title: Object Prototype __lookupsetter__
+title: Object.prototype.__lookupSetter__
 ---
-## Object Prototype __lookupsetter__
+## Object.prototype.__lookupSetter__
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/object/object-prototype-__lookupsetter__/index.md).
 

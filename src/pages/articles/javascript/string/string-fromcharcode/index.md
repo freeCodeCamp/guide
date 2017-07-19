@@ -1,5 +1,5 @@
 ---
-title: String Fromcharcode
+title: String fromCharCode
 ---
 The static `String.fromCharCode()` method returns a string created by using the specified sequence of Unicode values.
 

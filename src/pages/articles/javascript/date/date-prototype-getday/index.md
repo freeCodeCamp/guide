@@ -1,9 +1,9 @@
 ---
-title: javaScript Date Reference
+title: Date.prototype.getDay
 ---
-## javaScript Date Reference
+## Date.prototype.getDay
 
-This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/javascript-date-reference/index.md).
+This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/date/date-prototype-getday/index.md).
 
 [This quick style guide will help ensure your pull request gets accepted](https://github.com/freecodecamp/guides/blob/master/README.md).
 

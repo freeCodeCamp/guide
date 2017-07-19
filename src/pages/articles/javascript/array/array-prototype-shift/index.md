@@ -1,5 +1,5 @@
 ---
-title: Array Prototype Shift
+title: Array.prototype.shift
 ---
 The JavaScript array method `.shift()` will remove the first element from an array and return that value. This will also change the length of the array
 

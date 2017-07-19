@@ -1,7 +1,7 @@
 ---
-title: Array Prototype Find
+title: Array.prototype.find
 ---
-## Array Prototype Find
+## Array.prototype.find
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/array/array-prototype-find/index.md).
 

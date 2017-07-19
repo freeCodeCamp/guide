@@ -1,5 +1,5 @@
 ---
-title: Array Prototype Reverse
+title: Array.prototype.reverse
 ---
 The JavaScript array method `.reverse()` will reverse the order of the elements within the array.
 

@@ -1,7 +1,7 @@
 ---
-title: Array Prototype Fill
+title: Array.prototype.fill
 ---
-## Array Prototype Fill
+## Array.prototype.fill
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/array/array-prototype-fill/index.md).
 

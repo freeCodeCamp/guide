@@ -1,7 +1,7 @@
 ---
-title: String Prototype Startswith
+title: String.prototype.startsWith
 ---
-## String Prototype Startswith
+## String.prototype.startsWith
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/string/string-prototype-startswith/index.md).
 

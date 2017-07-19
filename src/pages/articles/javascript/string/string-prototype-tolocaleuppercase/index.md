@@ -1,7 +1,7 @@
 ---
-title: String Prototype Tolocaleuppercase
+title: String.prototype.toLocaleUpperCase
 ---
-## String Prototype Tolocaleuppercase
+## String.prototype.toLocaleUpperCase
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/string/string-prototype-tolocaleuppercase/index.md).
 

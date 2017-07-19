@@ -1,7 +1,7 @@
 ---
-title: String Prototype Repeat
+title: String.prototype.repeat
 ---
-## String Prototype Repeat
+## String.prototype.repeat
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/string/string-prototype-repeat/index.md).
 

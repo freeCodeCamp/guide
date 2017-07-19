@@ -1,7 +1,7 @@
 ---
-title: String Prototype Includes
+title: String.prototype.includes
 ---
-## String Prototype Includes
+## String.prototype.includes
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/string/string-prototype-includes/index.md).
 

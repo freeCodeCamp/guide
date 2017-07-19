@@ -1,7 +1,7 @@
 ---
-title: String Prototype Endswith
+title: String.prototype.endsWith
 ---
-## String Prototype Endswith
+## String.prototype.endsWith
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/string/string-prototype-endswith/index.md).
 

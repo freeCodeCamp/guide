@@ -1,7 +1,7 @@
 ---
-title: String Prototype Localecompare
+title: String.prototype.localecompare
 ---
-## String Prototype Localecompare
+## String.prototype.localecompare
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/string/string-prototype-localecompare/index.md).
 

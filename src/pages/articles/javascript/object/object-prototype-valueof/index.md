@@ -1,7 +1,7 @@
 ---
-title: Object Prototype Valueof
+title: Object.prototype.valueOf
 ---
-## Object Prototype Valueof
+## Object.prototype.valueOf
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/object/object-prototype-valueof/index.md).
 

@@ -1,9 +1,9 @@
 ---
-title: javaScript Dates
+title: Date.prototype.getMilliseconds
 ---
-## javaScript Dates
+## Date.prototype.getMilliseconds
 
-This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/javascript-dates/index.md).
+This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/date/date-prototype-getmilliseconds/index.md).
 
 [This quick style guide will help ensure your pull request gets accepted](https://github.com/freecodecamp/guides/blob/master/README.md).
 

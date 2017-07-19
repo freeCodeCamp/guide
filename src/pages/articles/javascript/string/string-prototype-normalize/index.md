@@ -1,7 +1,7 @@
 ---
-title: String Prototype Normalize
+title: String.prototype.normalize
 ---
-## String Prototype Normalize
+## String.prototype.normalize
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/string/string-prototype-normalize/index.md).
 

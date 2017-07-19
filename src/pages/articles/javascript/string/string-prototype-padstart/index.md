@@ -1,7 +1,7 @@
 ---
-title: String Prototype Padstart
+title: String.prototype.padStart
 ---
-## String Prototype Padstart
+## String.prototype.padStart
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/string/string-prototype-padstart/index.md).
 

@@ -1,5 +1,5 @@
 ---
-title: Object Getownpropertynames
+title: Object getOwnPropertyNames
 ---
 The `Object.getOwnPropertyNames()` method returns an array of all properties (enumerable or not) found directly upon a given object.
 

@@ -1,7 +1,7 @@
 ---
-title: Array Prototype Reduceright
+title: Array.prototype.reduceRight
 ---
-## Array Prototype Reduceright
+## Array.prototype.reduceRight
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/array/array-prototype-reduceright/index.md).
 
