@@ -1,9 +1,9 @@
 ---
-title: javaScript Number toString Method
+title: Error.prototype.columnNumber
 ---
-## javaScript Number toString Method
+## Error.prototype.columnNumber
 
-This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/javascript-number-tostring-method/index.md).
+This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/error/error-prototype-columnnumber/index.md).
 
 [This quick style guide will help ensure your pull request gets accepted](https://github.com/freecodecamp/guides/blob/master/README.md).
 

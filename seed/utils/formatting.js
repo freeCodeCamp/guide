@@ -1,3 +1,4 @@
+/* eslint-disable camelcase */
 const preFormatted = {
   css: 'CSS',
   css3: 'CSS3',
@@ -97,7 +98,29 @@ const preFormatted = {
   setyear: 'setYear',
   tojson: 'toJSON',
   tolocaledatestring: 'toLocaleDateString',
-  tolocaletimestring: 'toLocaleTimeString'
+  tolocaletimestring: 'toLocaleTimeString',
+  displayname: 'displayName',
+  isgenerator: 'isGenerator',
+  columnnumber: 'columnNumber',
+  linenumber: 'lineNumber',
+  filename: 'fileName',
+  epsilon: 'EPSILON',
+  max_safe_integer: 'MAX_SAFE_INTEGER',
+  max_value: 'MAX_VALUE',
+  min_safe_integer: 'MIN_SAFE_INTEGER',
+  min_value: 'MIN_VALUE',
+  nan: 'NaN',
+  negative_infinity: 'NEGATIVE_INFINITY',
+  positive_infinity: 'POSITIVE_INFINITY',
+  isnan: 'isNaN',
+  isfinite: 'isFinite',
+  isinteger: 'isInteger',
+  issafeinteger: 'isSafeInteger',
+  parsefloat: 'parseFloat',
+  parseint: 'parseInt',
+  toexponential: 'toExponential',
+  tofixed: 'toFixed',
+  toprecision: 'toPrecision'
 };
 
 const stopWords = [
