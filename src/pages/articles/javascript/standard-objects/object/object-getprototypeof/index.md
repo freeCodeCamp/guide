@@ -3,7 +3,7 @@ title: Object.prototype.get.prototype.of
 ---
 ## Object.prototype.get.prototype.of
 
-This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/object/object-getprototypeof/index.md).
+This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/standard-objects/object/object-getprototypeof/index.md).
 
 [This quick style guide will help ensure your pull request gets accepted](https://github.com/freecodecamp/guides/blob/master/README.md).
 

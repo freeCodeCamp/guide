@@ -3,7 +3,7 @@ title: String.prototype.valueOf
 ---
 ## String.prototype.valueOf
 
-This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/string/string-prototype-valueof/index.md).
+This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/standard-objects/string/string-prototype-valueof/index.md).
 
 [This quick style guide will help ensure your pull request gets accepted](https://github.com/freecodecamp/guides/blob/master/README.md).
 

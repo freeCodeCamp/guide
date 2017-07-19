@@ -1,7 +1,7 @@
 ---
-title: Angles Pi Over 4
+title: Angles PI Over 4
 ---
-## Angles Pi Over 4
+## Angles PI Over 4
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/trigonometry/angles-pi-over-4/index.md).
 

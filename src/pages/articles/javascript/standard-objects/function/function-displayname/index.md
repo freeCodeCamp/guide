@@ -3,7 +3,7 @@ title: Function displayName
 ---
 ## Function displayName
 
-This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/function/function-displayname/index.md).
+This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/standard-objects/function/function-displayname/index.md).
 
 [This quick style guide will help ensure your pull request gets accepted](https://github.com/freecodecamp/guides/blob/master/README.md).
 

@@ -120,7 +120,20 @@ const preFormatted = {
   parseint: 'parseInt',
   toexponential: 'toExponential',
   tofixed: 'toFixed',
-  toprecision: 'toPrecision'
+  toprecision: 'toPrecision',
+  e: 'E',
+  ln2: 'LN2',
+  ln10: 'LN10',
+  log2e: 'LOG2E',
+  log10e: 'LOG10E',
+  pi: 'PI',
+  sqrt1_2: 'SQRT1_2',
+  sqrt2: 'SQRT2',
+  arraybuffer: 'ArrayBuffer',
+  bytelength: 'byteLength',
+  isview: 'isView',
+  compareexchange: 'compareExchange',
+  islockfree: 'isLockFree'
 };
 
 const stopWords = [

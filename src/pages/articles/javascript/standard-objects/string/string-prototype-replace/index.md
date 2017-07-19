@@ -3,7 +3,7 @@ title: String.prototype.replace
 ---
 ## String.prototype.replace
 
-This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/string/string-prototype-replace/index.md).
+This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/standard-objects/string/string-prototype-replace/index.md).
 
 [This quick style guide will help ensure your pull request gets accepted](https://github.com/freecodecamp/guides/blob/master/README.md).
 
