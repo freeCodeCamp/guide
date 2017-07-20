@@ -39,7 +39,7 @@ You can create a PR with your draft article (or edits on an existing article) in
 
 2) If you prefer to write locally before submitting a PR, then follow these steps:
 - Fork this repository
-- Copy it to your local machine by running the command `git clone https://github.com/<your-username>/guides.git`
+- Copy it to your local machine by running the command `git clone https://github.com/<YOUR GITHUB USERNAME>/guides.git`
 - Add a remote upstream so git knows where the official freeCodeCamp guides repository is located by running the command `git remote add upstream https://github.com/freeCodeCamp/guides.git`
 - Create a new branch for your work with the command `git checkout -b <new-branch-name>`. Try to name your branch in a way that describes your article topic, like `fix/ArticleHTMLElements`
 - Write your article, run `npm run meta`, commit your changes locally, and push your new branch to GitHub with the command `git push origin <new-branch-name>`
@@ -49,14 +49,20 @@ Make sure to maintain your local fork going forward so it stays up-to-date with 
 
 We're happy to help answer any questions you may have and give you feedback on your articles in the [contributors chat room](https://gitter.im/freecodecamp/contributors).
 
-Finally, if you want to run a version of the Guide repository locally, follow these commands:
+Finally, if you want to run a version of the Guide repository locally, follow these steps:
 
+1. Ensure you have the `yarn` package manager installed `npm install -g yarn`
+2. Fork this repository
+3. :point_down: 
 ```sh
-git clone https://github.com/freeCodeCamp/guides.git
+git clone https://github.com/<YOUR GITHUB USERNAME>/guides.git
 cd guides
-npm i
-npm run dev
+yarn install
+yarn run dev
 ```
+
+In this project we are using `yarn` because `netlify` builds our site with `yarn`.
+
 ## Article style guide
 
 We've written this guide to writing guide articles to help you get started contributing.
