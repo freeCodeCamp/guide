@@ -1,7 +1,7 @@
 ---
-title: Date.prototype.tolocalestring
+title: Date.prototype.toLocaleString
 ---
-## Date.prototype.tolocalestring
+## Date.prototype.toLocaleString
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/standard-objects/date/date-prototype-tolocalestring/index.md).
 

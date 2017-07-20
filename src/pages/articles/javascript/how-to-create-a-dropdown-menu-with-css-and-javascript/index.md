@@ -1,7 +1,7 @@
 ---
-title: How to Create a Dropdown Menu with CSS and javaScript
+title: How to Create a Dropdown Menu with CSS and JavaScript
 ---
-## How to Create a Dropdown Menu with CSS and javaScript
+## How to Create a Dropdown Menu with CSS and JavaScript
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/how-to-create-a-dropdown-menu-with-css-and-javascript/index.md).
 

@@ -1,5 +1,5 @@
 ---
-title: Bring Your javaScript Slot Machine to Life
+title: Bring Your JavaScript Slot Machine to Life
 ---
 Let's use the jQuery selector `$(".slot")` to select all of the slots.
 

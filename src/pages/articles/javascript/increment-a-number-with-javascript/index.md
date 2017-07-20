@@ -1,5 +1,5 @@
 ---
-title: Increment a Number with javaScript
+title: Increment a Number with JavaScript
 ---
 You can easily increment or add `1` to a variable with the `++` operator.
 

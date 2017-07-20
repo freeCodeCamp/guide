@@ -1,5 +1,5 @@
 ---
-title: javaScript Version of Jquerygetjson
+title: JavaScript Version of Jquerygetjson
 ---
 If you want to work with json files with just vanilla JavaScript.
 

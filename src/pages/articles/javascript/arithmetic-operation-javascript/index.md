@@ -1,5 +1,5 @@
 ---
-title: Arithmetic Operation javaScript
+title: Arithmetic Operation JavaScript
 ---
 JavaScript provides the user with five arithmetic operators: `+`, `-`, `*`, `/` and `%`. The operators are for addition, subtraction, multiplication, division and remainder respectively.
 

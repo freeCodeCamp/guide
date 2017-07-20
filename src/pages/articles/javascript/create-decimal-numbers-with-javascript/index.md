@@ -1,5 +1,5 @@
 ---
-title: Create Decimal Numbers with javaScript
+title: Create Decimal Numbers with JavaScript
 ---
 JavaScript number variables can have decimals.
 

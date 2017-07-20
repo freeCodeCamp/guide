@@ -1,5 +1,5 @@
 ---
-title: javaScript Global Variables
+title: JavaScript Global Variables
 ---
 You should ALWAYS use **var** to declare your variables (to make locally) else it will install GLOBALLY
 

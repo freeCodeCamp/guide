@@ -1,5 +1,5 @@
 ---
-title: Add Your javaScript Slot Machine Slots
+title: Add Your JavaScript Slot Machine Slots
 ---
 For this part we should notify if they same number is returned three times or return `null` otherwise.
 

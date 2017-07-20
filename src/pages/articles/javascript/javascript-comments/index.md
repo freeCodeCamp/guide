@@ -1,7 +1,7 @@
 ---
-title: javaScript Comments
+title: JavaScript Comments
 ---
-## javaScript Comments
+## JavaScript Comments
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/javascript-comments/index.md).
 

@@ -1,7 +1,7 @@
 ---
-title: javaScript RegExp Reference
+title: JavaScript RegExp Reference
 ---
-## javaScript RegExp Reference
+## JavaScript RegExp Reference
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/javascript-regexp-reference/index.md).
 

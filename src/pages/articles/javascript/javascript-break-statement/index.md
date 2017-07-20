@@ -1,5 +1,5 @@
 ---
-title: javaScript Break Statement
+title: JavaScript Break Statement
 ---
 ## Introduction
 

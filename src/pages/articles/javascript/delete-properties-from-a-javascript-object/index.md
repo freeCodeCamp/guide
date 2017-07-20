@@ -1,5 +1,5 @@
 ---
-title: Delete Properties from a javaScript Object
+title: Delete Properties from a JavaScript Object
 ---
 We can also delete properties from objects like this:
 

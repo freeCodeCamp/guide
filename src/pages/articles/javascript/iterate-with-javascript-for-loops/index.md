@@ -1,5 +1,5 @@
 ---
-title: Iterate with javaScript for Loops
+title: Iterate with JavaScript for Loops
 ---
 The most common type of JavaScript loop is called a `for loop` because it runs `for` a specific number of times.
 

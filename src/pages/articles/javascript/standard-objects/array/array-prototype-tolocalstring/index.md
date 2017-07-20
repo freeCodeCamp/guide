@@ -1,7 +1,7 @@
 ---
-title: Array.prototype.toLocalString
+title: Array.prototype.tolocalstring
 ---
-## Array.prototype.toLocalString
+## Array.prototype.tolocalstring
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/standard-objects/array/array-prototype-tolocalstring/index.md).
 

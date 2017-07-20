@@ -1,7 +1,7 @@
 ---
-title: javaScript HTML Dom
+title: JavaScript HTML Dom
 ---
-## javaScript HTML Dom
+## JavaScript HTML Dom
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/javascript-html-dom/index.md).
 

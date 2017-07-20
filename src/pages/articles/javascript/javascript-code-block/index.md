@@ -1,5 +1,5 @@
 ---
-title: javaScript Code Block
+title: JavaScript Code Block
 ---
 ## Introduction
 

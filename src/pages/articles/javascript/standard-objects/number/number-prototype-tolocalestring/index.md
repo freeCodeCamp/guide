@@ -1,7 +1,7 @@
 ---
-title: Number.prototype.tolocalestring
+title: Number.prototype.toLocaleString
 ---
-## Number.prototype.tolocalestring
+## Number.prototype.toLocaleString
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/standard-objects/number/number-prototype-tolocalestring/index.md).
 

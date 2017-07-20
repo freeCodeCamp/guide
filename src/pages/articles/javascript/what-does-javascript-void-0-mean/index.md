@@ -1,7 +1,7 @@
 ---
-title: What Does javaScript Void 0 Mean
+title: What Does JavaScript Void 0 Mean
 ---
-## What Does javaScript Void 0 Mean
+## What Does JavaScript Void 0 Mean
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/what-does-javascript-void-0-mean/index.md).
 

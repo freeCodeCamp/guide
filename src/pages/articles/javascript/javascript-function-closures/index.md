@@ -1,7 +1,7 @@
 ---
-title: javaScript Function Closures
+title: JavaScript Function Closures
 ---
-## javaScript Function Closures
+## JavaScript Function Closures
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/javascript-function-closures/index.md).
 

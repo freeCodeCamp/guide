@@ -1,5 +1,5 @@
 ---
-title: Manipulate javaScript Objects
+title: Manipulate JavaScript Objects
 ---
 We can add properties to objects like this:
 

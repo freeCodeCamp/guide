@@ -1,7 +1,7 @@
 ---
-title: javaScript Comparison and Logical Operators
+title: JavaScript Comparison and Logical Operators
 ---
-## javaScript Comparison and Logical Operators
+## JavaScript Comparison and Logical Operators
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/javascript-comparison-and-logical-operators/index.md).
 

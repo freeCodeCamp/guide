@@ -1,5 +1,5 @@
 ---
-title: Perform Arithmetic Operations on Decimals with javaScript
+title: Perform Arithmetic Operations on Decimals with JavaScript
 ---
 In JavaScript, you can perform calculations with decimal numbers, just like whole numbers.
 

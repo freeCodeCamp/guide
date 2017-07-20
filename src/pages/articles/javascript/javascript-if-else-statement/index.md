@@ -1,7 +1,7 @@
 ---
-title: javaScript if Else Statement
+title: JavaScript if Else Statement
 ---
-## javaScript if Else Statement
+## JavaScript if Else Statement
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/javascript-if-else-statement/index.md).
 

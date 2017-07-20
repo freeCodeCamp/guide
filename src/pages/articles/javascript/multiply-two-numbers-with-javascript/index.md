@@ -1,5 +1,5 @@
 ---
-title: Multiply Two Numbers with javaScript
+title: Multiply Two Numbers with JavaScript
 ---
 JavaScript uses use the `*` symbol for multiplication.
 

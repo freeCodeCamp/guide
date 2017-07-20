@@ -1,5 +1,5 @@
 ---
-title: Divide One Number by Another with javaScript
+title: Divide One Number by Another with JavaScript
 ---
 JavaScript uses use the `/` symbol for division.
 

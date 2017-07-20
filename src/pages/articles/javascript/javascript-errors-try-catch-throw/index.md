@@ -1,7 +1,7 @@
 ---
-title: javaScript Errors Try Catch Throw
+title: JavaScript Errors Try Catch Throw
 ---
-## javaScript Errors Try Catch Throw
+## JavaScript Errors Try Catch Throw
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/javascript-errors-try-catch-throw/index.md).
 

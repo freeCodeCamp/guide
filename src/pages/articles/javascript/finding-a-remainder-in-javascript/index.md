@@ -1,5 +1,5 @@
 ---
-title: Finding a Remainder in javaScript
+title: Finding a Remainder in JavaScript
 ---
 The _remainder operator_ `%` gives the remainder of the division of two numbers.
 

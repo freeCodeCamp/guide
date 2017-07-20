@@ -1,5 +1,5 @@
 ---
-title: javaScript Dowhile Loop
+title: JavaScript Dowhile Loop
 ---
 The `do...while` loop is closely related to [`while`](http://forum.freecodecamp.com/t/javascript-while-loop/14668) loop. In the do while loop, the condition is checked at the end of the loop.
 

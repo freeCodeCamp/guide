@@ -1,7 +1,7 @@
 ---
-title: Object.prototype.toLocalString
+title: Object.prototype.tolocalstring
 ---
-## Object.prototype.toLocalString
+## Object.prototype.tolocalstring
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/standard-objects/object/object-prototype-tolocalstring/index.md).
 

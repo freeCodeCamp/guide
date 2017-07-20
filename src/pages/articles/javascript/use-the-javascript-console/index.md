@@ -1,5 +1,5 @@
 ---
-title: Use the javaScript Console
+title: Use the JavaScript Console
 ---
 Both Chrome and Firefox have excellent JavaScript consoles, also known as DevTools, for debugging your JavaScript.
 

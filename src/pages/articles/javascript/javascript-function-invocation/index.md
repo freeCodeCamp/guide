@@ -1,7 +1,7 @@
 ---
-title: javaScript Function Invocation
+title: JavaScript Function Invocation
 ---
-## javaScript Function Invocation
+## JavaScript Function Invocation
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/javascript-function-invocation/index.md).
 
