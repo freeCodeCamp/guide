@@ -2,6 +2,7 @@
 const preFormatted = {
   css: 'CSS',
   css3: 'CSS3',
+  deleteproperty: 'deleteProperty',
   html: 'HTML',
   html5: 'HTML5',
   javascript: 'javaScript',
@@ -133,7 +134,9 @@ const preFormatted = {
   bytelength: 'byteLength',
   isview: 'isView',
   compareexchange: 'compareExchange',
-  islockfree: 'isLockFree'
+  islockfree: 'isLockFree',
+  regexp: 'RegExp',
+  ignorecase: 'ignoreCase'
 };
 
 const stopWords = [

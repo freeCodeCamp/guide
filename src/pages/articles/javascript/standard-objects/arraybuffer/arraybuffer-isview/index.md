@@ -3,7 +3,7 @@ title: ArrayBuffer isView
 ---
 ## ArrayBuffer isView
 
-This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/arraybuffer/arraybuffer-isview/index.md).
+This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/standard-objects/arraybuffer/arraybuffer-isview/index.md).
 
 [This quick style guide will help ensure your pull request gets accepted](https://github.com/freecodecamp/guides/blob/master/README.md).
 
