@@ -41,6 +41,7 @@ function listAllDirs(level, prevPages = []) {
     });
 }
 module.exports = function createNavData() {
+  const startTime = Date.now();
   listAllDirs(topLevel, [])
     .toArray()
     .subscribe(
@@ -54,7 +55,14 @@ module.exports = function createNavData() {
           JSON.stringify(navData, null, 2)
           )
           .then(() => {
-            console.log('\nnavData.json created\n');
+            const endTime = Date.now();
+            const pages = Object.keys(navData).length;
+            console.log(`
+navData created
+
+It took ${endTime - startTime}ms to create the nav data for ${pages} pages
+`
+            );
           })
           .catch(err => {
             console.error(err);
