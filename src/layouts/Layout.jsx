@@ -32,7 +32,7 @@ class Layout extends React.PureComponent {
       <div>
         <Grid fluid={true}>
           <Row>
-            <Navbar style={{ background: '#006400' }}>
+            <Navbar style={{ background: '#006400',height:'40px' }}>
               <Col md={3} xs={12}>
                 <Navbar.Header>
                   <Navbar.Brand>
