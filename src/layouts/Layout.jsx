@@ -32,7 +32,7 @@ class Layout extends React.PureComponent {
       <div>
         <Grid fluid={true}>
           <Row>
-            <Navbar style={{ background: '#006400',height:'40px' }}>
+            <Navbar style={{ background: '#006400',height:'40px'}}>
               <Col md={3} xs={12}>
                 <Navbar.Header>
                   <Navbar.Brand>
@@ -51,13 +51,15 @@ class Layout extends React.PureComponent {
                           'freeCodeCamp/assets/master/assets/' +
                           'logos/FCC-logo-white.png'
                           }
+			style={{margin:'auto',position:'absolute',top:'0',left:'0',bottom:'0',right:'0'}}
+		
                       />
                     </Link>
                   </Navbar.Brand>
                 </Navbar.Header>
               </Col>
               <Col md={ 9 } xs={ 12 }>
-                <FCCSearchBar />
+                <FCCSearchBar style={{margin:'auto',position:'absolute',top:'0',left:'0',bottom:'0',right:'0'}} />
               </Col>
             </Navbar>
           </Row>
