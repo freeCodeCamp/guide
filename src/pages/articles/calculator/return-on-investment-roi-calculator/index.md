@@ -1,7 +1,7 @@
 ---
-title: Return On Investment Roi Calculator
+title: Return on Investment Roi Calculator
 ---
-## Return On Investment Roi Calculator
+## Return on Investment Roi Calculator
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/calculator/return-on-investment-roi-calculator/index.md).
 
