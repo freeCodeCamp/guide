@@ -1,7 +1,8 @@
+# Custom Ignores
 package-lock.json
-
 navData.json
 .svn
+*.DS_Store
 
 # Logs
 logs
