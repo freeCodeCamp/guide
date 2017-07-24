@@ -25,6 +25,7 @@ Takeaway points:
 - What are some example models? 
 -->
 What is Supervised Learning ?
+
 Supervised learning is a type of machine learning algorithm that uses a known data-set (called the training data-set) to make predictions.
 
 Category of supervised learning:
