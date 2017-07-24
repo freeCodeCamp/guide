@@ -5,7 +5,7 @@ In supervised learning, we know what the correct output should be. Supervised le
 
 ### Regression
 
-Given data about the mileage of used car, you can predict their prices. Since price is a continuous variable, this is a regression problem. In another example, Microsoft released a web app that predicts age based on picture. Again, as age is continuous rather than discrete or categorical, this is a regression problem.  
+Given data about used cars such as their mileage, you can predict their market prices. Since price is a continuous variable, this is a regression problem. In another example, Microsoft released a web app that predicts age based on picture. Again, as age is continuous rather than discrete or categorical, this is a regression problem.  
 
 ### Classification
 
