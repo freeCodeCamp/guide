@@ -1,5 +1,5 @@
 ---
-title: javaScript Comparison Operators
+title: JavaScript Comparison Operators
 ---
 JavaScript has both **strict** and **type–converting** comparisons.
 

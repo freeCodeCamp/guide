@@ -1,7 +1,7 @@
 ---
-title: javaScript Typeof
+title: JavaScript Typeof
 ---
-## javaScript Typeof
+## JavaScript Typeof
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/javascript-typeof/index.md).
 

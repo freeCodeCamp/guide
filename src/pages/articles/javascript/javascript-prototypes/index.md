@@ -1,7 +1,7 @@
 ---
-title: javaScript Prototypes
+title: JavaScript Prototypes
 ---
-## javaScript Prototypes
+## JavaScript Prototypes
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/javascript-prototypes/index.md).
 

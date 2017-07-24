@@ -1,5 +1,5 @@
 ---
-title: Give Your javaScript Slot Machine Some Stylish Images
+title: Give Your JavaScript Slot Machine Some Stylish Images
 ---
 We've already set up the images for you in an array called images. We can use different indexes to grab each of these.
 

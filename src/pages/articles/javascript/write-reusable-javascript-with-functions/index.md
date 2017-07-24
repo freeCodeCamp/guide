@@ -1,5 +1,5 @@
 ---
-title: Write Reusable javaScript with Functions
+title: Write Reusable JavaScript with Functions
 ---
 In JavaScript, we can divide up our code into reusable parts called functions.
 

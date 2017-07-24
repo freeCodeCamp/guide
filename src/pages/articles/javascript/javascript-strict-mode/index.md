@@ -1,5 +1,5 @@
 ---
-title: javaScript Strict Mode
+title: JavaScript Strict Mode
 ---
 Strict Mode was introduced in ECMAScript 5 that allows you to place a program, or a function, in a "strict" operating context. This strict context prevents certain actions from being taken and throws more exceptions.
 

@@ -1,5 +1,5 @@
 ---
-title: Invert Regular Expression Matches with javaScript
+title: Invert Regular Expression Matches with JavaScript
 ---
 Use`/\S/gi`; to match everything that isn't a space in the string.
 

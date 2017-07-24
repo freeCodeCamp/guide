@@ -1,7 +1,7 @@
 ---
-title: javaScript Cookies
+title: JavaScript Cookies
 ---
-## javaScript Cookies
+## JavaScript Cookies
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/javascript-cookies/index.md).
 

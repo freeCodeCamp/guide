@@ -1,5 +1,5 @@
 ---
-title: javaScript Tutorials and Other Resources
+title: JavaScript Tutorials and Other Resources
 ---
 *   [JavaScript for Cats](http://jsforcats.com/)
 *   [Professor Frisby's Mostly Adequate Guide to Functional Programming](https://github.com/DrBoolean/mostly-adequate-guide)

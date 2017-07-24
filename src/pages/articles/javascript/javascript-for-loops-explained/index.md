@@ -1,5 +1,5 @@
 ---
-title: javaScript for Loops Explained
+title: JavaScript for Loops Explained
 ---
 The for statement creates a loop that consists of three optional expressions, enclosed in parentheses and separated by semicolons, followed by a statement or a set of statements executed in the loop.
 

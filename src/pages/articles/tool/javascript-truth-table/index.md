@@ -1,7 +1,7 @@
 ---
-title: javaScript Truth Table
+title: JavaScript Truth Table
 ---
-## javaScript Truth Table
+## JavaScript Truth Table
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/tool/javascript-truth-table/index.md).
 

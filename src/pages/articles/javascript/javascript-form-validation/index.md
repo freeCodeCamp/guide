@@ -1,7 +1,7 @@
 ---
-title: javaScript Form Validation
+title: JavaScript Form Validation
 ---
-## javaScript Form Validation
+## JavaScript Form Validation
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/javascript-form-validation/index.md).
 

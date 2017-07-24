@@ -1,7 +1,7 @@
 ---
-title: javaScript Output
+title: JavaScript Output
 ---
-## javaScript Output
+## JavaScript Output
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/javascript-output/index.md).
 

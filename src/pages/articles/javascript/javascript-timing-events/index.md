@@ -1,7 +1,7 @@
 ---
-title: javaScript Timing Events
+title: JavaScript Timing Events
 ---
-## javaScript Timing Events
+## JavaScript Timing Events
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/javascript-timing-events/index.md).
 

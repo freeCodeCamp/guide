@@ -1,5 +1,5 @@
 ---
-title: javaScript Isloggedinasync
+title: JavaScript Isloggedinasync
 ---
 Let's say you have a public page, but if the user is logged in you want to show special information to them. You'll need to detect if a user is logged in before you make an _$http_ call, right? It's not guaranteed that this will work, because _isLoggedIn()_ is actually an async call. If you want to force something to wait until after _isLoggedIn()_ is successful before it gets called, you should include _Auth.isLoggedInAsync_:
 

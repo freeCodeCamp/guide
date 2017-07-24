@@ -1,5 +1,5 @@
 ---
-title: javaScript Article Template
+title: JavaScript Article Template
 ---
 > This Template helps you build JavaScript topic wiki's.
 

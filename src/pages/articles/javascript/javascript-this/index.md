@@ -1,7 +1,7 @@
 ---
-title: javaScript This
+title: JavaScript This
 ---
-## javaScript This
+## JavaScript This
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/javascript-this/index.md).
 

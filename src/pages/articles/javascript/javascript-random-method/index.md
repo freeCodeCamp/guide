@@ -1,7 +1,7 @@
 ---
-title: javaScript Random Method
+title: JavaScript Random Method
 ---
-## javaScript Random Method
+## JavaScript Random Method
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/javascript-random-method/index.md).
 

@@ -1,5 +1,5 @@
 ---
-title: javaScript for Loop
+title: JavaScript for Loop
 ---
 ### Syntax
 

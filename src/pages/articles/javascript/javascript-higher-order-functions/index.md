@@ -1,7 +1,7 @@
 ---
-title: javaScript Higher Order Functions
+title: JavaScript Higher Order Functions
 ---
-## javaScript Higher Order Functions
+## JavaScript Higher Order Functions
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/javascript-higher-order-functions/index.md).
 

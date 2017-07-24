@@ -1,5 +1,5 @@
 ---
-title: Free Code Camp javaScript Style Guide
+title: Free Code Camp JavaScript Style Guide
 ---
 <small>or How Cool People Write JavaScript.</small>
 

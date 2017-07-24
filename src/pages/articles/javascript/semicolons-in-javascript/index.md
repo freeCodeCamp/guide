@@ -1,5 +1,5 @@
 ---
-title: Semicolons in javaScript
+title: Semicolons in JavaScript
 ---
 Semicolons are not required in Javascript. This is because Javascript has a feature called "Automatic Semicolon Insertion," or ASI for short. ASI puts semicolons in your Javascript for you. It is active by default and always active, it's a part of the language and can not be disabled.
 

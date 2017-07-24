@@ -1,7 +1,7 @@
 ---
-title: javaScript Promises
+title: JavaScript Promises
 ---
-## javaScript Promises
+## JavaScript Promises
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/javascript-promises/index.md).
 

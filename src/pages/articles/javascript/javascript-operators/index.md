@@ -1,7 +1,7 @@
 ---
-title: javaScript Operators
+title: JavaScript Operators
 ---
-## javaScript Operators
+## JavaScript Operators
 
 This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/javascript-operators/index.md).
 
