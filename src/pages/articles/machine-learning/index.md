@@ -15,3 +15,7 @@ In general, machine learning problems can be classified into supervised learning
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 1. [Machine Learning on Wikipedia](https://en.wikipedia.org/wiki/Machine_learning)
 
+In general, any machine learning problem can be assigned to one of two broad classifications:
+
+1.Supervised learning.
+2.Unsupervised learning.
