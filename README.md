@@ -47,7 +47,7 @@ You can create a PR with your draft article (or edits on an existing article) in
 
 Make sure to maintain your local fork going forward so it stays up-to-date with the freeCodeCamp guides repository. The next time you want to contribute, checkout your local `master` branch and run the command `git pull --rebase upstream master` before creating a new branch. This will grab all the changes on the official `master` branch without making an additional commit in your local repository.
 
-We're happy to help answer any questions you may have and give you feedback on your articles in the [contributors chat room](https://gitter.im/freecodecamp/contributors).
+## Running the guide locally on your own computer
 
 Finally, if you want to run a version of the Guide repository locally, follow these steps:
 
@@ -65,7 +65,7 @@ In this project we are using `yarn` because `netlify` builds our site with `yarn
 
 ## Article style guide
 
-We've written this guide to writing guide articles to help you get started contributing.
+We've written the following guide to writing guide articles to help you get started contributing.
 
 **Table of Contents**
 
@@ -73,8 +73,10 @@ We've written this guide to writing guide articles to help you get started contr
 - [Modularity](#modularity)
 - [General writing tips](#general-writing-tips)
 - [Formatting example code](#formatting-example-code)
+- [Adding images to articles](#adding-images-to-articles)
 - [Proper nouns](#proper-nouns)
 - [Where to get help](#where-to-get-help)
+
 
 ### Article title
 
@@ -137,6 +139,16 @@ Here are specific formatting guidelines for any code:
 - Comments made should have a space between the comment characters and the comment themselves
 
     `// Fix this line`
+
+### Adding images to articles
+
+For including images, if the images aren't already hosted somewhere else on the web, you'll need to put them online yourself. A good way to do this is to commit them to a GitHub repository of your own, then push them to GitHub. Then you can right click the image and copy its image source.
+
+Then you'd just need to reference them in your markdown file with this syntax:
+
+`![your alt text](your url)`
+
+Then the images should show up when you click the "preview table" tab.
 
 ### Proper nouns
 
