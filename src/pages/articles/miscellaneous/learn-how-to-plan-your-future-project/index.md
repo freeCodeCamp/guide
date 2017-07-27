@@ -9,11 +9,11 @@ Together, we'll plan out a simple "To-do" single-page web app. We'll also plan f
 
 ## 1) Create our Trello board
 
-[Trello](https://trello.com/) is a fun, free way to break your planning and development process into small tasks that can be tracked.
+<a href='https://trello.com/' target='_blank' rel='nofollow'>Trello</a> is a fun, free way to break your planning and development process into small tasks that can be tracked.
 
 ![Image of Trello board](https://lh3.googleusercontent.com/EI4AQ4NINm3B2DHR_YIS29JyKVa5dTPiT3RtITylmndFlpshTHepsKuO8_1KQNfdPDSBjslDReHCuPFeH1GNrDtgOwTyq6ZtGf3DFBmq1AsAhPHKt_0pLXQLf0o4ZbDuKVj4-Bo)
 
-[Here's what our Trello board will eventually look like](https://trello.com/b/O9MZcYyY/todo-app). I prefer to split my tasks into 3 columns (depending on the complexity of the project):
+<a href='https://trello.com/b/O9MZcYyY/todo-app' target='_blank' rel='nofollow'>Here's what our Trello board will eventually look like</a>. I prefer to split my tasks into 3 columns (depending on the complexity of the project):
 
 *   To Do - what is left to do
 *   In progress - tasks that people are currently working on
@@ -21,7 +21,7 @@ Together, we'll plan out a simple "To-do" single-page web app. We'll also plan f
 
 ## 2) Write user stories
 
-Here are some example user stories. These will guide how we think about our app's features and functionality. Note that they all follow a similar structure: as a [person] I can [do something].
+Here are some example user stories. These will guide how we think about our app's features and functionality. Note that they all follow a similar structure: as a <a href='https://lh5.googleusercontent.com/2v6iIMbCrLSKVfqttEToum7OA3YGQCBKWUHcSCB1KEbEcijXxQtKJKY6fhLXeecJiO27P4icOuPlkVc9_uNXolzlzNXOo_TPh09GZsAqRH-JISqPrpx0PZdtbHOr0RIuQUbTbaw' target='_blank' rel='nofollow'>person] I can [do something].
 
 *   as a logged-in user I can see the list of my to-do's.
 *   as a logged-in user I can add a new to-do.
@@ -33,7 +33,7 @@ Here are some example user stories. These will guide how we think about our app'
 
 Our use case model will help us visualize our user stories so we can better understand how to implement them.
 
-![Anonymous user case diagram](https://lh5.googleusercontent.com/2v6iIMbCrLSKVfqttEToum7OA3YGQCBKWUHcSCB1KEbEcijXxQtKJKY6fhLXeecJiO27P4icOuPlkVc9_uNXolzlzNXOo_TPh09GZsAqRH-JISqPrpx0PZdtbHOr0RIuQUbTbaw)
+![Anonymous user case diagram</a>
 
 ![Authenticated user case diagram](https://lh6.googleusercontent.com/3V6dVvAcyjqFkaOukimucYOX0CfwBBYNN9SvjmnVy40Pdhs4Wtrr34i3E-9pbV7tFsp4jHm77IFQvFupjq6OWyxqEgCzcQ995Ayh52Msczu6TfwKeNhL9PYHyxSgmPYA1TR6l6Q)
 
@@ -70,14 +70,14 @@ Our mockups show what our app should look like. It's much faster to iterate on a
 
 Because this is a single page app, we'll rely heavily - or in this case exclusively - on JavaScript. Let's use one of the most popular JavaScript stacks: the MEAN stack. One big benefit of the MEAN stack is that all of its components are free and open-source. There are also tons of resources available for learning the MEAN stack, and for debugging it when you inevitably encounter errors.
 
-You can have a [MEAN stack development environment](http://www.freecodecamp.com/challenges/get-set-for-our-back-end-development-projects) up and running in the cloud in less than an hour, for free.
+You can have a <a href='http://www.freecodecamp.com/challenges/get-set-for-our-back-end-development-projects' target='_blank' rel='nofollow'>MEAN stack development environment</a> up and running in the cloud in less than an hour, for free.
 
 Here are the components we'll use:
 
-1.  [MongoDB](http://mongodb.org/) for our database
-2.  [Node.js](http://nodejs.org/) and [Express.js](http://expressjs.com/) for implementing our API
-3.  [AngularJS](http://angularjs.org/), along with HTML and CSS (and Bootstrap) for our client-side application
-4.  [Mongoose](http://mongoosejs.com/) to connect our application to MongoDB
+1.  <a href='http://mongodb.org/' target='_blank' rel='nofollow'>MongoDB</a> for our database
+2.  <a href='http://nodejs.org/' target='_blank' rel='nofollow'>Node.js</a> and <a href='http://expressjs.com/' target='_blank' rel='nofollow'>Express.js</a> for implementing our API
+3.  <a href='http://angularjs.org/' target='_blank' rel='nofollow'>AngularJS</a>, along with HTML and CSS (and Bootstrap) for our client-side application
+4.  <a href='http://mongoosejs.com/' target='_blank' rel='nofollow'>Mongoose</a> to connect our application to MongoDB
 
 ## 7) Design our database schema
 
@@ -102,13 +102,13 @@ Things to keep in mind:
 
 ## 9) Design and test our API
 
-I used a free product called Apiary [to document our API](http://docs.fcctodoapp.apiary.io/).
+I used a free product called Apiary <a href='http://docs.fcctodoapp.apiary.io/' target='_blank' rel='nofollow'>to document our API</a>.
 
-Here's the syntax I used to [create this simple BluePrint](https://jsapi.apiary.io/apis/fcctodoapp.apib).
+Here's the syntax I used to <a href='https://jsapi.apiary.io/apis/fcctodoapp.apib' target='_blank' rel='nofollow'>create this simple BluePrint</a>.
 
-I recommend you create an account and start playing with it. If you link your [GitHub](http://github.com/) account with Apiary, you can ensure your documentation always stays up to date. You'll also be able to test your data visually without the need for actually hitting your API endpoints. If you prefer to test your API from the command line, [here's an example of how to do this](http://docs.agendor.apiary.io/).
+I recommend you create an account and start playing with it. If you link your <a href='http://github.com/' target='_blank' rel='nofollow'>GitHub</a> account with Apiary, you can ensure your documentation always stays up to date. You'll also be able to test your data visually without the need for actually hitting your API endpoints. If you prefer to test your API from the command line, <a href='http://docs.agendor.apiary.io/' target='_blank' rel='nofollow'>here's an example of how to do this</a>.
 
-Later, once you've implemented your API with Node.js and Express.js, you'll just need to set your URL in Apiary. Then you can start testing your calls. Our current host url ([http://fcctodoapp.apiblueprint.org/](http://fcctodoapp.apiblueprint.org/)) will be replaced by your API's URL.
+Later, once you've implemented your API with Node.js and Express.js, you'll just need to set your URL in Apiary. Then you can start testing your calls. Our current host url (<a href='http://fcctodoapp.apiblueprint.org/' target='_blank' rel='nofollow'>http://fcctodoapp.apiblueprint.org/</a>) will be replaced by your API's URL.
 
 ![App demo picture](https://lh6.googleusercontent.com/hU3ilG_y9FqtL_zajQ_KOjWy8Qx590Go8nkNvA1j0oR50YJTpjJhL1lAPgjyeLTAS06tq6V62EcJrLQyT_TR2BK49DYiX6kksU6s9cqJDvvaS6jvepIM6uiO4JMbXuu-oXhdsas)
 

@@ -29,10 +29,10 @@ Always return the entire collection object.
 
 #### Relevant Links
 
-*   [Challenge: Accessing Objects Properties with Bracket Notation](http://www.freecodecamp.com/challenges/accessing-objects-properties-with-bracket-notation)
-*   [Challenge: Add New Properties to a JavaScript Object](http://www.freecodecamp.com/challenges/add-new-properties-to-a-javascript-object)
-*   [Challenge: Delete Properties from a JavaScript Object](http://www.freecodecamp.com/challenges/delete-properties-from-a-javascript-object)
-*   [Challenge: Accessing Nested Objects in JSON](http://www.freecodecamp.com/challenges/accessing-nested-objects-in-json)
+*   <a href='http://www.freecodecamp.com/challenges/accessing-objects-properties-with-bracket-notation' target='_blank' rel='nofollow'>Challenge: Accessing Objects Properties with Bracket Notation</a>
+*   <a href='http://www.freecodecamp.com/challenges/add-new-properties-to-a-javascript-object' target='_blank' rel='nofollow'>Challenge: Add New Properties to a JavaScript Object</a>
+*   <a href='http://www.freecodecamp.com/challenges/delete-properties-from-a-javascript-object' target='_blank' rel='nofollow'>Challenge: Delete Properties from a JavaScript Object</a>
+*   <a href='http://www.freecodecamp.com/challenges/accessing-nested-objects-in-json' target='_blank' rel='nofollow'>Challenge: Accessing Nested Objects in JSON</a>
 
 ## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 1
 
@@ -62,7 +62,7 @@ To access the value of a key in this object, you will use `collection[id][prop]`
 
     function updateRecords(id, prop, value) {
       if (prop === "tracks" && value !== "") {
-       if(collection[id][prop]) {
+       if(collection<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>id][prop]) {
         collection[id][prop].push(value);
        }
        else {
@@ -77,7 +77,7 @@ To access the value of a key in this object, you will use `collection[id][prop]`
       return collection;
     }
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/C2AZ/0)
+![:rocket:</a> <a href='https://repl.it/C2AZ/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -99,4 +99,4 @@ To access the value of a key in this object, you will use `collection[id][prop]`
 *   Categorize the solution in one of the following categories — **Basic**, **Intermediate** and **Advanced**. ![:traffic_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/traffic_light.png?v=3 ":traffic_light:")
 *   Please add your username only if you have added any **relevant main contents**. (![:warning:](https://forum.freecodecamp.com/images/emoji/emoji_one/warning.png?v=3 ":warning:") **_DO NOT_** _remove any existing usernames_)
 
-> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") [**`Wiki Challenge Solution Template`**](http://forum.freecodecamp.com/t/algorithm-article-template/14272) for reference.
+> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") <a href='http://forum.freecodecamp.com/t/algorithm-article-template/14272' target='_blank' rel='nofollow'>**`Wiki Challenge Solution Template`**</a> for reference.

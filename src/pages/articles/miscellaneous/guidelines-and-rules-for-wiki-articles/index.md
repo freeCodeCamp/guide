@@ -9,7 +9,7 @@ We welcome anything relevant to software development, from tutorials to conceptu
 
 Anyone with **Trust Level 1** (which you'll get automatically after hanging out reading articles for about an hour) can edit and create wiki post.
 
-Our moderators will edit, delete, or re-categorize anything that violates our [Code of Conduct.](https://www.freecodecamp.com/code-of-conduct) or doesn't belong in the wiki section (such as questions or challenges solutions).
+Our moderators will edit, delete, or re-categorize anything that violates our <a href='https://www.freecodecamp.com/code-of-conduct' target='_blank' rel='nofollow'>Code of Conduct.</a> or doesn't belong in the wiki section (such as questions or challenges solutions).
 
 ## How to create a wiki article
 

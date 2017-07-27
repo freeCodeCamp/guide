@@ -23,4 +23,4 @@ The `git remote set-url` command changes an existing remote repository URL.
 
 `git remote -v`
 
-_For more information check out [this github article.](https://help.github.com/articles/changing-a-remote-s-url/)_
+_For more information check out <a href='https://help.github.com/articles/changing-a-remote-s-url/' target='_blank' rel='nofollow'>this github article.</a>_

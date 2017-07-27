@@ -5,7 +5,7 @@ The for statement creates a loop that consists of three optional expressions, en
 
 The for loop has the following syntax:
 
-    for ([initialization]; [condition]; [final-expression]) {  
+    for (<a href='http://forum.freecodecamp.com/t/javascript-while-loop/14668' target='_blank' rel='nofollow'>initialization]; [condition]; [final-expression]) {  
         code block to be executed                  
     }
 
@@ -36,5 +36,5 @@ For loops are used to loop through a block of code a known number of times. Some
 
 Checkout some of our other articles on loops:
 
-*   [While Loop](http://forum.freecodecamp.com/t/javascript-while-loop/14668)
-*   [For In Loop](http://forum.freecodecamp.com/t/javascript-for-in-loop/14665)
+*   [While Loop</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-for-in-loop/14665' target='_blank' rel='nofollow'>For In Loop</a>

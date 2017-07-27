@@ -1,7 +1,7 @@
 ---
 title: Python Mutability and Variable Assignments
 ---
-> Every object has an identity, a type and a value. An object's identity never changes once it has been created; you may think of it as the object's address in memory. [source](https://docs.python.org/3/reference/datamodel.html#data-model)
+> Every object has an identity, a type and a value. An object's identity never changes once it has been created; you may think of it as the object's address in memory. <a href='https://docs.python.org/3/reference/datamodel.html#data-model' target='_blank' rel='nofollow'>source</a>
 
 Once an `object` is created, the type and identity can't be changed. Whether or not the object's value(s) can change after creation determines if the object is mutable (can change) or immutable (can't change).
 
@@ -9,7 +9,7 @@ So far we have learned about a few types of objects and their subclasses: `strin
 
 This concept might be confusing at first because what good is an object if you can't modify it. What makes these objects usable is the ability to assign and reassign variables. Functions and operators can return new objects that can be assigned to variables.
 
-Using the built-in [id function](https://docs.python.org/3/library/functions.html#id), which returns the identity of an object, we can see how this works.
+Using the built-in <a href='https://docs.python.org/3/library/functions.html#id' target='_blank' rel='nofollow'>id function</a>, which returns the identity of an object, we can see how this works.
 
 Here are a few things to keep in mind:
 

@@ -1,13 +1,13 @@
 ---
 title: Arranging Operations Alphabetically in Swashbuckle Swagger
 ---
-[Swashbuckle](https://github.com/domaindrivendev/Swashbuckle) seamlessly adds a [Swagger](http://swagger.io/) to WebAPI projects. However, the operations on the page do not appear in alphabetical order.
+<a href='https://github.com/domaindrivendev/Swashbuckle' target='_blank' rel='nofollow'>Swashbuckle</a> seamlessly adds a <a href='http://swagger.io/' target='_blank' rel='nofollow'>Swagger</a> to WebAPI projects. However, the operations on the page do not appear in alphabetical order.
 
 Although the operations will not appear in alphabetical order, Swashbuckle allows custom filters and with a little coding, the order can be shown in alphabetical order.
 
 ## Code Example
 
-The code below creates a [DocumentFilter](https://github.com/domaindrivendev/Swashbuckle#documentfilter) which is then applied to the final document as outlined [here](https://github.com/domaindrivendev/Swashbuckle#modifying-generated-operations).
+The code below creates a <a href='https://github.com/domaindrivendev/Swashbuckle#documentfilter' target='_blank' rel='nofollow'>DocumentFilter</a> which is then applied to the final document as outlined <a href='https://github.com/domaindrivendev/Swashbuckle#modifying-generated-operations' target='_blank' rel='nofollow'>here</a>.
 
     using Swashbuckle.Swagger;
     using System;
@@ -69,7 +69,7 @@ Now you can simply add it to the config file like this
 
 ## References:
 
-*   [Swashbuckle](https://github.com/domaindrivendev/Swashbuckle)
-*   [Swagger](http://swagger.io/)
-*   [DocumentFilter](https://github.com/domaindrivendev/Swashbuckle#documentfilter)
-*   [Gist for code above](https://gist.github.com/pallu/0f28e98fa89d2855a321)
+*   <a href='https://github.com/domaindrivendev/Swashbuckle' target='_blank' rel='nofollow'>Swashbuckle</a>
+*   <a href='http://swagger.io/' target='_blank' rel='nofollow'>Swagger</a>
+*   <a href='https://github.com/domaindrivendev/Swashbuckle#documentfilter' target='_blank' rel='nofollow'>DocumentFilter</a>
+*   <a href='https://gist.github.com/pallu/0f28e98fa89d2855a321' target='_blank' rel='nofollow'>Gist for code above</a>

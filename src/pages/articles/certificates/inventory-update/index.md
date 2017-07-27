@@ -7,19 +7,19 @@ title: Inventory Update
 
 In this problem, you've to compare and update the inventory stored in a 2D array against a second 2D array of a fresh delivery. Update the current existing inventory item quantities (in `arr1`). If an item cannot be found, add the new item and quantity into the inventory array. The returned inventory array should be in alphabetical order by item.
 
-The current as well as new inventory will be in this format: `var newInv = [[2, "Item1 Name"], [3, "Item2 Name"], [67, "Item3 Name"], [7, "Item4 Name"]];`.
+The current as well as new inventory will be in this format: `var newInv = <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array' target='_blank' rel='nofollow'>[2, "Item1 Name"], [3, "Item2 Name"], [67, "Item3 Name"], [7, "Item4 Name"]];`.
 
 #### Relevant Links
 
-*   [Global Array object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+*   [Global Array object</a>
 
 ## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 1
 
-You need to work through each item of the new inventory to see if it exists in the current inventory or not. Remember that the product name is stored as the second element of each sub-array: `arr2[0][1] = "Bowling Ball"`.
+You need to work through each item of the new inventory to see if it exists in the current inventory or not. Remember that the product name is stored as the second element of each sub-array: `arr2<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:"' target='_blank' rel='nofollow'>0][1] = "Bowling Ball"`.
 
 > _try to solve the problem now_
 
-## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 2
+## ![:speech_balloon:</a> Hint: 2
 
 If the item exists, you need to add the quantity from the new inventory. If the item doesn't exist, you need to add the entire item.
 
@@ -47,7 +47,7 @@ Return the completed inventory in alphabetical order.
         // A helper method to return the index of a specified product (undefined if not found)
         var getProductIndex = function (name) {
             for (var i = 0; i < this.length; i++) {
-                if (this[i][1] === name) {
+                if (this<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>i][1] === name) {
                     return i;
                 }
             }
@@ -103,7 +103,7 @@ Return the completed inventory in alphabetical order.
 
     updateInventory(curInv, newInv);
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLok/0)
+![:rocket:</a> <a href='https://repl.it/CLok/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -113,16 +113,16 @@ Return the completed inventory in alphabetical order.
     *   **index** is set to the result of invoking the helper function i.e., search the new inventory for that product name and return it's index.
     *   If the item is found, quantity of the product is added to the quantity of the same product in current inventory.
     *   If the item is not found, the entire product (name and quantity) is added to the current inventory.
-*   The updated inventory, **arr1**, is then sorted by product name (held in `arr1[x][1]`).
+*   The updated inventory, **arr1**, is then sorted by product name (held in `arr1<a href='http://forum.freecodecamp.com/t/javascript-for-loop/14666s-Explained' target='_blank' rel='nofollow'>x][1]`).
 *   The final - updated as well as sorted array is then returned.
 
 #### Relevant Links
 
-*   [JS For Loops Explained](http://forum.freecodecamp.com/t/javascript-for-loop/14666s-Explained)
-*   [this keyword](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/this)
-*   [array.length](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/length)
-*   [JS Array Prototype Push](http://forum.freecodecamp.com/t/javascript-array-prototype-push/14298)
-*   [JS Array Prototype Sort](http://forum.freecodecamp.com/t/javascript-array-prototype-sort/14306)
+*   [JS For Loops Explained</a>
+*   <a href='https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/this' target='_blank' rel='nofollow'>this keyword</a>
+*   <a href='https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/length' target='_blank' rel='nofollow'>array.length</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-array-prototype-push/14298' target='_blank' rel='nofollow'>JS Array Prototype Push</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-array-prototype-sort/14306' target='_blank' rel='nofollow'>JS Array Prototype Sort</a>
 
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution:
 
@@ -130,7 +130,7 @@ Return the completed inventory in alphabetical order.
       // All inventory must be accounted for or you're fired!
 
       var index;
-      var arrCurInvName = []; // Names of arr1's items
+      var arrCurInvName = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>]; // Names of arr1's items
       var arrNeInvName = []; // Names of arr2's items
 
       // Same as using two for loops, this takes care of increasing the number of stock quantity.
@@ -188,7 +188,7 @@ Return the completed inventory in alphabetical order.
 
     updateInventory(curInv, newInv);
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLol/0)
+![:rocket:</a> <a href='https://repl.it/CLol/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -198,13 +198,13 @@ Return the completed inventory in alphabetical order.
 *   `arr1.map(function(item1))` takes care of items already existing in inventory i.e., it increases the quantity in the inventory.
 *   Next, `arr2.map(function(item))` and `arr1.map(function(item))` get the names of items for the new and current inventory respectively.
 *   `arrNeInvName.map(function(item))` handles items which don't already exist in inventory i.e., it adds new items to the inventory.
-*   The updated array **arr1** is then sorted alphabetically by product name (held in `arr1[x][1]`) and returned.
+*   The updated array **arr1** is then sorted alphabetically by product name (held in `arr1<a href='http://forum.freecodecamp.com/t/javascript-array-prototype-map/14294' target='_blank' rel='nofollow'>x][1]`) and returned.
 
 #### Relevant Links
 
-*   [JS Array Prototype Map](http://forum.freecodecamp.com/t/javascript-array-prototype-map/14294)
-*   [JS Array Prototype IndexOf](http://forum.freecodecamp.com/t/javascript-array-prototype-indexof/14291)
-*   [JS Ternary](http://forum.freecodecamp.com/t/javascript-ternary-operator/15973)
+*   [JS Array Prototype Map</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-array-prototype-indexof/14291' target='_blank' rel='nofollow'>JS Array Prototype IndexOf</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-ternary-operator/15973' target='_blank' rel='nofollow'>JS Ternary</a>
 
 ## ![:rotating_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:") Advanced Code Solution:
 
@@ -214,7 +214,7 @@ Return the completed inventory in alphabetical order.
         flag = 0;
         arr1.forEach(function(list) {
           // If the product is already present, increase the quantity
-          if(item[1] === list[1]) {
+          if(item<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>1] === list[1]) {
             list[0] += item[0];
             flag = 1;
           }
@@ -248,7 +248,7 @@ Return the completed inventory in alphabetical order.
 
     updateInventory(curInv, newInv);
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLom/0)
+![:rocket:</a> <a href='https://repl.it/CLom/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -260,7 +260,7 @@ Return the completed inventory in alphabetical order.
 
 #### Relevant Links
 
-*   [JS Array Prototype ForEach](http://forum.freecodecamp.com/t/javascript-array-prototype-foreach/14290)
+*   <a href='http://forum.freecodecamp.com/t/javascript-array-prototype-foreach/14290' target='_blank' rel='nofollow'>JS Array Prototype ForEach</a>
 
 ## ![:clipboard:](https://forum.freecodecamp.com/images/emoji/emoji_one/clipboard.png?v=3 ":clipboard:") NOTES FOR CONTRIBUTIONS:
 
@@ -269,4 +269,4 @@ Return the completed inventory in alphabetical order.
 *   Categorize the solution in one of the following categories — **Basic**, **Intermediate** and **Advanced**. ![:traffic_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/traffic_light.png?v=3 ":traffic_light:")
 *   Please add your username only if you have added any **relevant main contents**. (![:warning:](https://forum.freecodecamp.com/images/emoji/emoji_one/warning.png?v=3 ":warning:") **_DO NOT_** _remove any existing usernames_)
 
-> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") [**`Wiki Challenge Solution Template`**](http://forum.freecodecamp.com/t/algorithm-article-template/14272) for reference.
+> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") <a href='http://forum.freecodecamp.com/t/algorithm-article-template/14272' target='_blank' rel='nofollow'>**`Wiki Challenge Solution Template`**</a> for reference.

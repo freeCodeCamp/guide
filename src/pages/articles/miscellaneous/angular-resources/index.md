@@ -5,16 +5,16 @@ A collection of helpful Angular resources
 
 ## General Pages
 
-*   [Angular JS](https://angularjs.org/) - The Angular JS Homepage
-*   [Angular Style Guide](https://github.com/johnpapa/angular-styleguide) - Detailed best practices for Angular Development
+*   <a href='https://angularjs.org/' target='_blank' rel='nofollow'>Angular JS</a> - The Angular JS Homepage
+*   <a href='https://github.com/johnpapa/angular-styleguide' target='_blank' rel='nofollow'>Angular Style Guide</a> - Detailed best practices for Angular Development
 
 ## Specific-topic Pages
 
-*   [Directives](http://www.sitepoint.com/practical-guide-angularjs-directives/) - Excellent guide going into detail on Angular Directives (Part 1)
-*   [Directives](http://www.sitepoint.com/practical-guide-angularjs-directives-part-two/) - Excellent guide going into detail on Angular Directives (Part 2)
+*   <a href='http://www.sitepoint.com/practical-guide-angularjs-directives/' target='_blank' rel='nofollow'>Directives</a> - Excellent guide going into detail on Angular Directives (Part 1)
+*   <a href='http://www.sitepoint.com/practical-guide-angularjs-directives-part-two/' target='_blank' rel='nofollow'>Directives</a> - Excellent guide going into detail on Angular Directives (Part 2)
 
 ## Videos
 
-*   [Routing in Angular JS](https://www.youtube.com/watch?v=5uhZCc0j9RY) - Client Side Routing in 15 minutes
-*   [Angular ToDo App](https://www.youtube.com/watch?v=WuiHuZq_cg4) - An Angular ToDo app in 12 minutes
-*   [Shaping Up with Angular.JS](https://www.codeschool.com/courses/shaping-up-with-angular-js) - A free Angular.JS tutorial
+*   <a href='https://www.youtube.com/watch?v=5uhZCc0j9RY' target='_blank' rel='nofollow'>Routing in Angular JS</a> - Client Side Routing in 15 minutes
+*   <a href='https://www.youtube.com/watch?v=WuiHuZq_cg4' target='_blank' rel='nofollow'>Angular ToDo App</a> - An Angular ToDo app in 12 minutes
+*   <a href='https://www.codeschool.com/courses/shaping-up-with-angular-js' target='_blank' rel='nofollow'>Shaping Up with Angular.JS</a> - A free Angular.JS tutorial

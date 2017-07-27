@@ -1,11 +1,11 @@
 ---
 title: Python Floating Point Numbers
 ---
-Some general information about floating point numbers and how they work in Python, can be found [here](https://docs.python.org/3/tutorial/floatingpoint.html).
+Some general information about floating point numbers and how they work in Python, can be found <a href='https://docs.python.org/3/tutorial/floatingpoint.html' target='_blank' rel='nofollow'>here</a>.
 
-Nearly all implementations of Python follow the IEEE 754 specification: Standard for Binary Floating-Point Arithmetic. More information found on the [IEEE site](http://grouper.ieee.org/groups/754/).
+Nearly all implementations of Python follow the IEEE 754 specification: Standard for Binary Floating-Point Arithmetic. More information found on the <a href='http://grouper.ieee.org/groups/754/' target='_blank' rel='nofollow'>IEEE site</a>.
 
-Float objects can be created using using [floating point literals](https://docs.python.org/3/reference/lexical_analysis.html#floating-point-literals):
+Float objects can be created using using <a href='https://docs.python.org/3/reference/lexical_analysis.html#floating-point-literals' target='_blank' rel='nofollow'>floating point literals</a>:
 
     >>> 3.14
     3.14
@@ -47,7 +47,7 @@ Note that leading and trailing zero(s) are valid for floating point literals
     >>> 001e0010      # Same as 1e10
     10000000000.0
 
-The [`float` constructor](https://docs.python.org/3/library/functions.html#float) is another way to create `float` objects.
+The <a href='https://docs.python.org/3/library/functions.html#float' target='_blank' rel='nofollow'>`float` constructor</a> is another way to create `float` objects.
 
 Creating `float` objects with floating point literals is preferred when possible:
 

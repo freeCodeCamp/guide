@@ -9,10 +9,10 @@ You will create a program that converts an integer to a Roman Numeral.
 
 #### Relevant Links
 
-*   [Roman Numerals](http://www.mathsisfun.com/roman-numerals.html)
-*   [Array.splice()](http://forum.freecodecamp.com/t/javascript-array-prototype-splice/14307)
-*   [Array.indexOf()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf)
-*   [Array.join()](http://forum.freecodecamp.com/t/javascript-array-prototype-join/14292)
+*   <a href='http://www.mathsisfun.com/roman-numerals.html' target='_blank' rel='nofollow'>Roman Numerals</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-array-prototype-splice/14307' target='_blank' rel='nofollow'>Array.splice()</a>
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf' target='_blank' rel='nofollow'>Array.indexOf()</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-array-prototype-join/14292' target='_blank' rel='nofollow'>Array.join()</a>
 
 ## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 1
 
@@ -42,7 +42,7 @@ You can't have more than three consecutive Roman numerals together.
 
     var convertToRoman = function(num) {
 
-      var decimalValue = [ 1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1 ];
+      var decimalValue = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'> 1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1 ];
       var romanNumeral = [ 'M', 'CM', 'D', 'CD', 'C', 'XC', 'L', 'XL', 'X', 'IX', 'V', 'IV', 'I' ];
 
       var romanized = '';
@@ -60,7 +60,7 @@ You can't have more than three consecutive Roman numerals together.
     // test here
     convertToRoman(36);
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLmf/0)
+![:rocket:</a> <a href='https://repl.it/CLmf/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -71,13 +71,13 @@ You can't have more than three consecutive Roman numerals together.
 
 #### Relevant Links
 
-*   [For Loops](http://forum.freecodecamp.com/t/javascript-for-loop/14666)
+*   <a href='http://forum.freecodecamp.com/t/javascript-for-loop/14666' target='_blank' rel='nofollow'>For Loops</a>
 *   <a>While Loops</a>
 
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution:
 
     function convertToRoman(num) {
-     var romans = ["I", "V", "X", "L", "C", "D", "M"],
+     var romans = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>"I", "V", "X", "L", "C", "D", "M"],
          ints = [],
          romanNumber = [],
          numeral = "";
@@ -125,26 +125,26 @@ You can't have more than three consecutive Roman numerals together.
     // test here
     convertToRoman(97);
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/C1YV)
+![:rocket:</a> <a href='https://repl.it/C1YV' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
 *   Create an array of Roman Numerals (`romans`).
 *   Use a for loop to create an array of the digits (`ints`) in the number.
-*   Loop through the array of digits (base 10) and as you do, increment the Roman Numeral (base 5) index by 2 (`numeral = romans[i*2]`).
+*   Loop through the array of digits (base 10) and as you do, increment the Roman Numeral (base 5) index by 2 (`numeral = romans<a href='http://forum.freecodecamp.com/t/javascript-for-loop/14666' target='_blank' rel='nofollow'>i*2]`).
 *   Within the loop, use Switch Case to push the proper Roman Numerals (backwards) onto that array.
 *   Reverse the Roman Numerals array and turn it into a string.
 
 #### Relevant Links
 
-*   [For Loops](http://forum.freecodecamp.com/t/javascript-for-loop/14666)
+*   [For Loops</a>
 *   <a>While Loops</a>
-*   [Math](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math' target='_blank' rel='nofollow'>Math</a>
 
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution:
 
     function convertToRoman(num) {
-      var romans = [
+      var romans = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>
       // 10^i 10^i*5
         ["I", "V"], // 10^0
         ["X", "L"], // 10^1
@@ -181,7 +181,7 @@ You can't have more than three consecutive Roman numerals together.
     // test here
     convertToRoman(36);
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/C1YV)
+![:rocket:</a> <a href='https://repl.it/C1YV' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -193,14 +193,14 @@ You can't have more than three consecutive Roman numerals together.
 
 #### Relevant Links
 
-*   [For Loops](http://forum.freecodecamp.com/t/javascript-for-loop/14666)
-*   [.split()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)
-*   [.reverse()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse)
-*   [.map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
-*   [.toString()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/toString)
-*   [parseInt()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt)
-*   [.replace()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace)
-*   [.repeat()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/repeat)
+*   <a href='http://forum.freecodecamp.com/t/javascript-for-loop/14666' target='_blank' rel='nofollow'>For Loops</a>
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split' target='_blank' rel='nofollow'>.split()</a>
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse' target='_blank' rel='nofollow'>.reverse()</a>
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map' target='_blank' rel='nofollow'>.map()</a>
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/toString' target='_blank' rel='nofollow'>.toString()</a>
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt' target='_blank' rel='nofollow'>parseInt()</a>
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace' target='_blank' rel='nofollow'>.replace()</a>
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/repeat' target='_blank' rel='nofollow'>.repeat()</a>
 
 ## ![:clipboard:](https://forum.freecodecamp.com/images/emoji/emoji_one/clipboard.png?v=3 ":clipboard:") NOTES FOR CONTRIBUTIONS:
 
@@ -209,4 +209,4 @@ You can't have more than three consecutive Roman numerals together.
 *   Categorize the solution in one of the following categories — **Basic**, **Intermediate** and **Advanced**. ![:traffic_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/traffic_light.png?v=3 ":traffic_light:")
 *   Please add your username only if you have added any **relevant main contents**. (![:warning:](https://forum.freecodecamp.com/images/emoji/emoji_one/warning.png?v=3 ":warning:") **_DO NOT_** _remove any existing usernames_)
 
-> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") [**`Wiki Challenge Solution Template`**](http://forum.freecodecamp.com/t/algorithm-article-template/14272) for reference.
+> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") <a href='http://forum.freecodecamp.com/t/algorithm-article-template/14272' target='_blank' rel='nofollow'>**`Wiki Challenge Solution Template`**</a> for reference.

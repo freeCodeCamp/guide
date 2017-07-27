@@ -9,7 +9,7 @@ Firstly, let's create a new file called `.gitignore`:
 
 This file will contain a list of all the files and folders that are **not** to be included when we push our project to GitHub. There is a website that serves boilerplate code for `.gitignore` files, which is very useful, because often, a `.gitignore` file can be rather long and verbose, and we may forget some files or folders that we want Git to ignore.
 
-Go to [https://www.gitignore.io/](https://www.gitignore.io/) and type `Node` into the search bar, then click `Generate`. This will generate a file that looks like this:
+Go to <a href='https://www.gitignore.io/' target='_blank' rel='nofollow'>https://www.gitignore.io/</a> and type `Node` into the search bar, then click `Generate`. This will generate a file that looks like this:
 
     # Created by https://www.gitignore.io/api/node
 
@@ -63,7 +63,7 @@ Then, we need to make a folder that will contain files that we use for **product
 
     mkdir dist
 
-*   [Help: More about `src` and `dist` folders](http://stackoverflow.com/questions/23730882/what-is-the-role-of-src-and-dist-folders/23731040#23731040)
+*   <a href='http://stackoverflow.com/questions/23730882/what-is-the-role-of-src-and-dist-folders/23731040#23731040' target='_blank' rel='nofollow'>Help: More about `src` and `dist` folders</a>
 
 Now that we have installed our packages and created empty `src` and `dist` folders, our tree will look like this (not including `.gitignore`, which is a hidden file):
 

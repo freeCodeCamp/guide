@@ -44,7 +44,7 @@ Asegúrate luego de transcodificar un carácter de binario a decimal de restable
     // realizamos el test
     binaryAgent("01000001 01110010 01100101 01101110 00100111 01110100 00100000 01100010 01101111 01101110 01100110 01101001 01110010 01100101 01110011 00100000 01100110 01110101 01101110 00100001 00111111");
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [¡En REPL!](https://repl.it/CLnm/0)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CLnm/0' target='_blank' rel='nofollow'>¡En REPL!</a>
 
 # Explicación del código:
 
@@ -90,7 +90,7 @@ Asegúrate luego de transcodificar un carácter de binario a decimal de restable
     // realizamos el test
     binaryAgent("01000001 01110010 01100101 01101110 00100111 01110100 00100000 01100010 01101111 01101110 01100110 01101001 01110010 01100101 01110011 00100000 01100110 01110101 01101110 00100001 00111111");
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [¡En REPL!](https://repl.it/CLno/0)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CLno/0' target='_blank' rel='nofollow'>¡En REPL!</a>
 
 # Explicación del código:
 
@@ -109,14 +109,14 @@ Asegúrate luego de transcodificar un carácter de binario a decimal de restable
     // realizamos el test
     binaryAgent("01000001 01110010 01100101 01101110 00100111 01110100 00100000 01100010 01101111 01101110 01100110 01101001 01110010 01100101 01110011 00100000 01100110 01110101 01101110 00100001 00111111");
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [¡En REPL!](https://repl.it/CLnp/0)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CLnp/0' target='_blank' rel='nofollow'>¡En REPL!</a>
 
 # Explicación del código:
 
 *   Primero utilizamos `split()` para poder trabajar cada carácter como un elemento de matriz.
 *   Luego utilizamos `map()` para procesar cada elemento binario a decimal utilizando `pareseInt()`
 *   Finalmente podemos utilizar `String.fromCharCode()` para convertir cada número ASCII a su correspondiente carácter.
-*   Sin embargo `fromCharCode()` espera una serie de números en lugar de una matriz. Podemos utilizar ES6 Spread Operator para pasar una matriz de números como números individuales. Más información: [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator)
+*   Sin embargo `fromCharCode()` espera una serie de números en lugar de una matriz. Podemos utilizar ES6 Spread Operator para pasar una matriz de números como números individuales. Más información: <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator' target='_blank' rel='nofollow'>https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator</a>
 
 ## Cuarta solución:
 
@@ -131,7 +131,7 @@ Asegúrate luego de transcodificar un carácter de binario a decimal de restable
     // realizamos el test
     binaryAgent("01000001 01110010 01100101 01101110 00100111 01110100 00100000 01100010 01101111 01101110 01100110 01101001 01110010 01100101 01110011 00100000 01100110 01110101 01101110 00100001 00111111");
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [¡En REPL!](https://repl.it/CLnr/0)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CLnr/0' target='_blank' rel='nofollow'>¡En REPL!</a>
 
 # Explicación del código:
 

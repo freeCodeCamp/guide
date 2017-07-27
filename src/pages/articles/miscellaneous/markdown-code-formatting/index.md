@@ -1,7 +1,7 @@
 ---
 title: Markdown Code Formatting
 ---
-**```js** ⇦ Type 3 backticks and then press `[shift + enter ⏎]` (type js or html or css)
+**```js** ⇦ Type 3 backticks and then press `<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/yin_yang.png?v=3 ":yin_yang:"' target='_blank' rel='nofollow'>shift + enter ⏎]` (type js or html or css)
 
     <paste your code here>,
     then press [shift + enter ⏎]
@@ -12,9 +12,9 @@ title: Markdown Code Formatting
 
 This an inline **`**`<paste code here>`**`** code formatting with a single backtick (`) at _start_ and _end_ around the `code`.
 
-See also: ![:yin_yang:](https://forum.freecodecamp.com/images/emoji/emoji_one/yin_yang.png?v=3 ":yin_yang:") [Compose Mode](https://gitter.zendesk.com/hc/en-us/articles/201302311-Compose-mode) | ![:snowflake:](https://forum.freecodecamp.com/images/emoji/emoji_one/snowflake.png?v=3 ":snowflake:") [Gitter Formatting Basics](https://gitter.zendesk.com/hc/en-us/articles/200176682-Markdown-basics)
+See also: ![:yin_yang:</a> <a href='https://gitter.zendesk.com/hc/en-us/articles/201302311-Compose-mode' target='_blank' rel='nofollow'>Compose Mode</a> | ![:snowflake:](https://forum.freecodecamp.com/images/emoji/emoji_one/snowflake.png?v=3 ":snowflake:") <a href='https://gitter.zendesk.com/hc/en-us/articles/200176682-Markdown-basics' target='_blank' rel='nofollow'>Gitter Formatting Basics</a>
 
-## Typing Backticks[![:arrow_heading_up:](https://forum.freecodecamp.com/images/emoji/emoji_one/arrow_heading_up.png?v=3 ":arrow_heading_up:")](http://superuser.com/a/254077/122424)
+## Typing Backticks<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/arrow_heading_up.png?v=3 ":arrow_heading_up:"' target='_blank' rel='nofollow'>![:arrow_heading_up:</a>](http://superuser.com/a/254077/122424)
 
 ### QWERTY and QWERTZ (Key that's been marked with red border)
 

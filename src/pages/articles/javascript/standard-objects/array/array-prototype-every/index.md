@@ -5,7 +5,7 @@ The `every()` method tests whether all elements in the array pass the test imple
 
 **Syntax**
 
-    arr.every(callback[, thisArg])
+    arr.every(callback<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every' target='_blank' rel='nofollow'>, thisArg])
 
 ## Parameters
 
@@ -26,7 +26,7 @@ The `every()` method tests whether all elements in the array pass the test imple
 
     *   **thisArg** Optional. Value to use as this when executing callback.
 
-[MDN link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every) | [MSDN link](https://msdn.microsoft.com/en-us/LIBRary/ff679981%28v=vs.94%29.aspx)
+[MDN link</a> | <a href='https://msdn.microsoft.com/en-us/LIBRary/ff679981%28v=vs.94%29.aspx' target='_blank' rel='nofollow'>MSDN link</a>
 
 ## Description
 

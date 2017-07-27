@@ -5,12 +5,12 @@ title: Slasher Flick
 
 ### ![:checkered_flag:](https://forum.freecodecamp.com/images/emoji/emoji_one/checkered_flag.png?v=3 ":checkered_flag:") Problem Explanation:
 
-For example: `slasher([1, 2, 3], 2);` must return [3].
+For example: `slasher(<a href='http://forum.freecodecamp.com/t/javascript-array-prototype-splice/14307' target='_blank' rel='nofollow'>1, 2, 3], 2);` must return [3].
 
 #### Relevant Links
 
-*   [JS Array Prototype Splice](http://forum.freecodecamp.com/t/javascript-array-prototype-splice/14307)
-*   [JS Array Prototype Slice](http://forum.freecodecamp.com/t/javascript-array-prototype-slice/14302)
+*   [JS Array Prototype Splice</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-array-prototype-slice/14302' target='_blank' rel='nofollow'>JS Array Prototype Slice</a>
 
 ## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 1
 
@@ -44,18 +44,18 @@ For example: `slasher([1, 2, 3], 2);` must return [3].
       // return the remaining or the tail
       return arr;
     }
-    slasher([1, 2, 3], 2);
+    slasher(<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>1, 2, 3], 2);
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLjU/28)
+![:rocket:</a> <a href='https://repl.it/CLjU/28' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
 *   This solution uses the `splice()` function.
 *   First argument, **arr** is the array to be modified.
-*   Second argument, **howMany** is the number of elements to be removed starting with **arr[0]**.
+*   Second argument, **howMany** is the number of elements to be removed starting with **arr<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:"' target='_blank' rel='nofollow'>0]**.
 *   Modify the array with `splice()` and return it.
 
-## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution:
+## ![:sunflower:</a> Intermediate Code Solution:
 
     function slasher(arr, howMany) {
 
@@ -64,19 +64,19 @@ For example: `slasher([1, 2, 3], 2);` must return [3].
 
     }
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLjU/29)
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLjU/29' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
 *   This solution uses the `slice()` function.
-*   The argument **howMany** is the number of elements to be removed starting with **arr[0]**.
+*   The argument **howMany** is the number of elements to be removed starting with **arr<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/clipboard.png?v=3 ":clipboard:"' target='_blank' rel='nofollow'>0]**.
 *   Modify the array with `slice()` and return it.
 
-## ![:clipboard:](https://forum.freecodecamp.com/images/emoji/emoji_one/clipboard.png?v=3 ":clipboard:") NOTES FOR CONTRIBUTIONS:
+## ![:clipboard:</a> NOTES FOR CONTRIBUTIONS:
 
 *   ![:warning:](https://forum.freecodecamp.com/images/emoji/emoji_one/warning.png?v=3 ":warning:") **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
 *   Add an explanation of your solution.
 *   Categorize the solution in one of the following categories — **Basic**, **Intermediate** and **Advanced**. ![:traffic_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/traffic_light.png?v=3 ":traffic_light:")
 *   Please add your username only if you have added any **relevant main contents**. (![:warning:](https://forum.freecodecamp.com/images/emoji/emoji_one/warning.png?v=3 ":warning:") **_DO NOT_** _remove any existing usernames_)
 
-> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") [**`Wiki Challenge Solution Template`**](http://forum.freecodecamp.com/t/algorithm-article-template/14272) for reference.
+> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") <a href='http://forum.freecodecamp.com/t/algorithm-article-template/14272' target='_blank' rel='nofollow'>**`Wiki Challenge Solution Template`**</a> for reference.

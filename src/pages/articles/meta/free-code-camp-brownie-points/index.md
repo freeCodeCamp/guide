@@ -12,4 +12,4 @@ There are two ways you can get Brownie Points:
 
 > Brownie Points help you look like the kind of person who codes a lot, shares relevant links, and helps people.
 
-_They also add to your [Streak](http://forum.freecodecamp.com/t/free-code-camp-streaks/18379)._
+_They also add to your <a href='http://forum.freecodecamp.com/t/free-code-camp-streaks/18379' target='_blank' rel='nofollow'>Streak</a>._

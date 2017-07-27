@@ -1,7 +1,7 @@
 ---
 title: Freecodecamp Algorithm Insertion Sort Guide
 ---
-Insertion sort is a [_comparison_ based sorting](https://en.wikipedia.org/wiki/Comparison_sort). A sorting algorithm is comparison based, if it uses comparison operators (such as `less than` and `greated than`) to find the order between two numbers.
+Insertion sort is a <a href='https://en.wikipedia.org/wiki/Comparison_sort' target='_blank' rel='nofollow'>_comparison_ based sorting</a>. A sorting algorithm is comparison based, if it uses comparison operators (such as `less than` and `greated than`) to find the order between two numbers.
 
 In this sorting technique, we always maintain a sorted sublist in lower position of list and then we take one element from the rest of list and insert it at it's correct place. We does so untill all of the elements are inserted into sublist. For example, while playing cards we sort cards in our hand. Starting from left and moving to right, we keep on inserting the card at it's right place till end.
 
@@ -16,7 +16,7 @@ Hence, we have sorted the complete list in this way.
 ## Algorithm
 
     Loop for i=0 to N-1:
-    * Pick element array[i] and insert it into sorted sublist array[0...i-1]
+    * Pick element array<a href='https://repl.it/CWZq' target='_blank' rel='nofollow'>i] and insert it into sorted sublist array[0...i-1]
 
 ## Complexity
 
@@ -60,13 +60,13 @@ Hence, we have sorted the complete list in this way.
     return 0;
     }
 
-:rocket: [Run Code](https://repl.it/CWZq) ## Python Implementation  
+:rocket: [Run Code</a> ## Python Implementation  
 
     # Function to perform insertion sort
     def insertionSort(arr):
         # Traverse through array
         for i in range(1, len(arr)):
-            key = arr[i]
+            key = arr<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>i]
             # Move elements of arr[0..i-1], that are greater than key,
             # to one position ahead of their current position
             j = i-1
@@ -83,7 +83,7 @@ Hence, we have sorted the complete list in this way.
     for i in range(len(arr)):
         print(arr[i],end = ' ')
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CWZi)
+![:rocket:</a> <a href='https://repl.it/CWZi' target='_blank' rel='nofollow'>Run Code</a>
 
 ## Advantages
 

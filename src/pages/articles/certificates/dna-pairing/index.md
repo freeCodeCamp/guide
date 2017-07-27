@@ -13,8 +13,8 @@ title: Dna Pairing
 
 #### Relevant Links
 
-*   [Array.push()](http://forum.freecodecamp.com/t/javascript-array-prototype-push/14298)
-*   [String.split()](http://forum.freecodecamp.com/t/javascript-string-prototype-split/15944)
+*   <a href='http://forum.freecodecamp.com/t/javascript-array-prototype-push/14298' target='_blank' rel='nofollow'>Array.push()</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-string-prototype-split/15944' target='_blank' rel='nofollow'>String.split()</a>
 
 ## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 1
 
@@ -44,7 +44,7 @@ title: Dna Pairing
 
     function pairElement(str) {
       // Return each strand as an array of two elements, the original and the pair.
-      var paired = [];
+      var paired = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>];
 
       // Function to check with strand to pair.
       var search = function(char) {
@@ -75,7 +75,7 @@ title: Dna Pairing
     // test here
     pairElement("GCG");
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLmz/0)
+![:rocket:</a> <a href='https://repl.it/CLmz/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -96,7 +96,7 @@ title: Dna Pairing
       strArr = str.split('');
       //replace each Array item with a 2d Array using map
       for (var i=0;i<strArr.length;i++){
-        strArr[i]=[strArr[i], map[strArr[i]]];
+        strArr<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>i]=[strArr[i], map[strArr[i]]];
       }
      return strArr;
     }
@@ -104,7 +104,7 @@ title: Dna Pairing
     // test here
     pairElement("GCG");
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLnA/0)
+![:rocket:</a> <a href='https://repl.it/CLnA/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ## Code Explanation:
 
@@ -123,4 +123,4 @@ title: Dna Pairing
 *   Categorize the solution in one of the following categories — **Basic**, **Intermediate** and **Advanced**. ![:traffic_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/traffic_light.png?v=3 ":traffic_light:")
 *   Please add your username only if you have added any **relevant main contents**. (![:warning:](https://forum.freecodecamp.com/images/emoji/emoji_one/warning.png?v=3 ":warning:") **_DO NOT_** _remove any existing usernames_)
 
-> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") [**`Wiki Challenge Solution Template`**](http://forum.freecodecamp.com/t/algorithm-article-template/14272) for reference.
+> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") <a href='http://forum.freecodecamp.com/t/algorithm-article-template/14272' target='_blank' rel='nofollow'>**`Wiki Challenge Solution Template`**</a> for reference.

@@ -9,4 +9,4 @@ We are translating our challenges into native languages so that you can focus on
 
 Many non-native English speakers have succeeded in our nonprofit project program. With some effort, you can, too.
 
-If you need to practice or polish your English skills, try using [Duolingo](https://www.duolingo.com/), it's free and allows you practice and track your progress.
+If you need to practice or polish your English skills, try using <a href='https://www.duolingo.com/' target='_blank' rel='nofollow'>Duolingo</a>, it's free and allows you practice and track your progress.

@@ -34,4 +34,4 @@ title: Learn About Ruby Strings
 
 ## References:
 
-*   [The official Ruby documentation for strings](http://ruby-doc.org/core-2.2.0/String.html).
+*   <a href='http://ruby-doc.org/core-2.2.0/String.html' target='_blank' rel='nofollow'>The official Ruby documentation for strings</a>.

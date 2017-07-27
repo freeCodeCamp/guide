@@ -10,17 +10,17 @@ To capitalize the first letter of a random string, you should follow these steps
 
 ## 1\. Get the First Letter of the String
 
-You should use [charAt()](http://forum.freecodecamp.com/t/javascript-string-prototype-charat/15932) method, at _index 0_, to select the first character of the string.
+You should use <a href='http://forum.freecodecamp.com/t/javascript-string-prototype-charat/15932' target='_blank' rel='nofollow'>charAt()</a> method, at _index 0_, to select the first character of the string.
 
     var string = "freeCodecamp";
 
     string.charAt(0); // Returns "f"
 
-> NOTE: `charAt` is preferable than using `[ ]` (bracket notation) as `str.charAt(0)` returns an empty string (_`''`_) for `str = ''` instead of `undefined` in case of `''[0]`.
+> NOTE: `charAt` is preferable than using `<a href='http://forum.freecodecamp.com/t/javascript-string-prototype-touppercase/15950' target='_blank' rel='nofollow'> ]` (bracket notation) as `str.charAt(0)` returns an empty string (_`''`_) for `str = ''` instead of `undefined` in case of `''[0]`.
 
 ## 2\. Convert the First Letter to uppercase
 
-You may use [toUpperCase()](http://forum.freecodecamp.com/t/javascript-string-prototype-touppercase/15950) method and convert the calling string to upper case.
+You may use [toUpperCase()</a> method and convert the calling string to upper case.
 
     var string = "freeCodecamp";
 
@@ -28,7 +28,7 @@ You may use [toUpperCase()](http://forum.freecodecamp.com/t/javascript-string-pr
 
 ## 3\. Get the Remainder of the String
 
-You may use [slice()](https://github.com/freecodecamp/freecodecamp/wiki/js-array-prototype-slice) method and get the remainder of the string (from the second character, _index 1_, to the end of the string).
+You may use <a href='https://github.com/freecodecamp/freecodecamp/wiki/js-array-prototype-slice' target='_blank' rel='nofollow'>slice()</a> method and get the remainder of the string (from the second character, _index 1_, to the end of the string).
 
     var string = "freeCodecamp";
 
@@ -63,4 +63,4 @@ Or you may add that function to the `String.prototype` for using it directly on 
 
 ### Source
 
-[stackoverflow - Capitalize the first letter of string in JavaScript](http://stackoverflow.com/questions/1026069/capitalize-the-first-letter-of-string-in-javascript/1026087#1026087)
+<a href='http://stackoverflow.com/questions/1026069/capitalize-the-first-letter-of-string-in-javascript/1026087#1026087' target='_blank' rel='nofollow'>stackoverflow - Capitalize the first letter of string in JavaScript</a>

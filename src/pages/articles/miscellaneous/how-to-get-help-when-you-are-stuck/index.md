@@ -11,4 +11,4 @@ This is the most time-efficient way to handle being stuck, and it's the most res
 
 Most of the time, you'll solve your problem after just one or two steps of this algorithm.
 
-We have a special chat room just for getting help: [https://gitter.im/freecodecamp/help/](https://gitter.im/freecodecamp/help/)
+We have a special chat room just for getting help: <a href='https://gitter.im/freecodecamp/help/' target='_blank' rel='nofollow'>https://gitter.im/freecodecamp/help/</a>

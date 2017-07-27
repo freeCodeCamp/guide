@@ -1,7 +1,7 @@
 ---
 title: Python Keywords
 ---
-Python has a list of [keywords](https://docs.python.org/3/reference/lexical_analysis.html#keywords) that cannot be used as identifiers (variable names):
+Python has a list of <a href='https://docs.python.org/3/reference/lexical_analysis.html#keywords' target='_blank' rel='nofollow'>keywords</a> that cannot be used as identifiers (variable names):
 
     >>> False = "Hello campers!"
     File "<stdin>"

@@ -53,10 +53,10 @@ We can use pseudo-elements to define a special state of an element of the DOM bu
 
 ## Games
 
-[CSS Diner](http://flukeout.github.io) is a web game that teaches almost everything there is to know about combining selectors.
+<a href='http://flukeout.github.io' target='_blank' rel='nofollow'>CSS Diner</a> is a web game that teaches almost everything there is to know about combining selectors.
 
 ## Additional reference
 
-There are many more CSS selectors! Learn about them at [CodeTuts](http://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048), [CSS-tricks.com](https://css-tricks.com/almanac/selectors/), [w3schools.com](http://www.w3schools.com/cssref/css_selectors.asp) or at [Mozilla Developer Network](https://developer.mozilla.org/en/docs/Web/Guide/CSS/Getting_started/Selectors).
+There are many more CSS selectors! Learn about them at <a href='http://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048' target='_blank' rel='nofollow'>CodeTuts</a>, <a href='https://css-tricks.com/almanac/selectors/' target='_blank' rel='nofollow'>CSS-tricks.com</a>, <a href='http://www.w3schools.com/cssref/css_selectors.asp' target='_blank' rel='nofollow'>w3schools.com</a> or at <a href='https://developer.mozilla.org/en/docs/Web/Guide/CSS/Getting_started/Selectors' target='_blank' rel='nofollow'>Mozilla Developer Network</a>.
 
 Feel free to add to this document! Just look cheat sheets up and edit/complete this document!

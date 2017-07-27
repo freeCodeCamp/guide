@@ -5,8 +5,8 @@ Installing WordPress locally will allow you to build themes safely and will allo
 
 ## Required Downloads:
 
-*   [MAMP](https://www.mamp.info/en/)
-*   [WordPress](https://wordpress.org/about/)
+*   <a href='https://www.mamp.info/en/' target='_blank' rel='nofollow'>MAMP</a>
+*   <a href='https://wordpress.org/about/' target='_blank' rel='nofollow'>WordPress</a>
 
 The first step to installing WordPress locally is to download MAMP. MAMP stands for Macintosh, Apache, MySQL, and PHP. This is the local server that will run the new install of WordPress. Installing MAMP should be easy because it is like installing any other app.
 

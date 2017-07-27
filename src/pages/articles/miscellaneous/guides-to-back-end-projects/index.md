@@ -39,4 +39,4 @@ Here you will find articles that will help you learn more and complete your back
 <a>highlighted.items/are/hypothetical</a> URLs that allow access to different pages in your app  
 _italicizedItems_ are function and object names within your code
 
-<a>PREVIOUS</a> [NEXT](http://forum.freecodecamp.com/t/front-end-file-structure/14266)
+<a>PREVIOUS</a> <a href='http://forum.freecodecamp.com/t/front-end-file-structure/14266' target='_blank' rel='nofollow'>NEXT</a>

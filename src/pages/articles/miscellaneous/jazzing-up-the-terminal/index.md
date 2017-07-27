@@ -7,7 +7,7 @@ Out of the box, the terminal shipped with Ubuntu is a bit bland. This section wi
 
 #### Terminator
 
-[Terminator](https://launchpad.net/terminator) lets you arrange multiple terminals in a grid-like interface.  
+<a href='https://launchpad.net/terminator' target='_blank' rel='nofollow'>Terminator</a> lets you arrange multiple terminals in a grid-like interface.  
 To install Terminator enter `sudo apt-get install terminator` into the terminal.
 
 Screenshot of Terminator:
@@ -31,13 +31,13 @@ To install `ZSH` and `Oh My ZSH!` use the following commands:
 
 Once you restart your terminal, `Oh My ZSH!` should be installed.
 
-Checkout the [Official Documentation](https://github.com/robbyrussell/oh-my-zsh/wiki) to learn how to install plugins and themes.
+Checkout the <a href='https://github.com/robbyrussell/oh-my-zsh/wiki' target='_blank' rel='nofollow'>Official Documentation</a> to learn how to install plugins and themes.
 
 #### Advanced Tutorials
 
-*   [The Command Line Crash Course](http://cli.learncodethehardway.org/book/)
-*   [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line)
-*   [Learn Enough Command Line to Be Dangerous](https://www.learnenough.com/command-line-tutorial)
+*   <a href='http://cli.learncodethehardway.org/book/' target='_blank' rel='nofollow'>The Command Line Crash Course</a>
+*   <a href='https://github.com/jlevy/the-art-of-command-line' target='_blank' rel='nofollow'>The Art of Command Line</a>
+*   <a href='https://www.learnenough.com/command-line-tutorial' target='_blank' rel='nofollow'>Learn Enough Command Line to Be Dangerous</a>
 
 ![:point_left:](//forum.freecodecamp.com/images/emoji/emoji_one/point_left.png?v=2 ":point_left:") Previous | ![:book:](//forum.freecodecamp.com/images/emoji/emoji_one/book.png?v=2 ":book:") Home ![:book:](//forum.freecodecamp.com/images/emoji/emoji_one/book.png?v=2 ":book:") | Next ![:point_right:](//forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=2 ":point_right:")  
 [**Customising Ubuntu**](//forum.freecodecamp.com/t/customizing-ubuntu/18382) | [**Table of Contents**](//forum.freecodecamp.com/t/setting-up-ubuntu-for-programming/18388) | [**Installing DevTools and modern web browsers**](//forum.freecodecamp.com/t/installing-devtools-and-modern-web-browsers/18385)

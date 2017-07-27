@@ -7,7 +7,7 @@ Shows what revision and author last modified each line of a file and blame them.
 
 ![](//discourse-user-assets.s3.amazonaws.com/original/2X/d/d8cb932324ede4b8c534c150056b81759fac5804.png)
 
-**Reference:** [https://git-scm.com/docs/git-blame](https://git-scm.com/docs/git-blame)
+**Reference:** <a href='https://git-scm.com/docs/git-blame' target='_blank' rel='nofollow'>https://git-scm.com/docs/git-blame</a>
 
 ## 
 

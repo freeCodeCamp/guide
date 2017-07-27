@@ -9,8 +9,8 @@ You need to create a program that will translate from English to Pig Latin. Pig 
 
 #### Relevant Links
 
-*   [Pig Latin](http://en.wikipedia.org/wiki/Pig_Latin)
-*   [JS String Prototype Match](http://forum.freecodecamp.com/t/javascript-string-prototype-match/15941)
+*   <a href='http://en.wikipedia.org/wiki/Pig_Latin' target='_blank' rel='nofollow'>Pig Latin</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-string-prototype-match/15941' target='_blank' rel='nofollow'>JS String Prototype Match</a>
 
 ## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 1
 
@@ -41,7 +41,7 @@ You will need to use everything you know about string manipulation to get the la
     function translatePigLatin(str) {
       // Create variables to be used
       var pigLatin = '';
-      var regex = /[aeiou]/gi;
+      var regex = /<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>aeiou]/gi;
 
       // Check if the first character is a vowel
       if (str[0].match(regex)) {
@@ -63,7 +63,7 @@ You will need to use everything you know about string manipulation to get the la
     // test here
     translatePigLatin("consonant");
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLmt/0)
+![:rocket:</a> <a href='https://repl.it/CLmt/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -80,14 +80,14 @@ You will need to use everything you know about string manipulation to get the la
 #### Relevant Links
 
 *   <a>JS Regex Resources</a>
-*   [JS String Prototype IndexOf](http://forum.freecodecamp.com/t/javascript-string-prototype-indexof/15936)
-*   [JS String Prototype Substr](http://forum.freecodecamp.com/t/javascript-string-prototype-substr/15945)
+*   <a href='http://forum.freecodecamp.com/t/javascript-string-prototype-indexof/15936' target='_blank' rel='nofollow'>JS String Prototype IndexOf</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-string-prototype-substr/15945' target='_blank' rel='nofollow'>JS String Prototype Substr</a>
 
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution:
 
     function translatePigLatin(str) {
       function check(obj) {
-          return ['a','i','u','e','o'].indexOf(str.charAt(obj)) == -1 ? check(obj + 1) : obj;
+          return <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>'a','i','u','e','o'].indexOf(str.charAt(obj)) == -1 ? check(obj + 1) : obj;
       }
 
       return str.substr(check(0)).concat((check(0) === 0 ? 'w' : str.substr(0, check(0))) + 'ay');
@@ -96,25 +96,25 @@ You will need to use everything you know about string manipulation to get the la
     // test here
     translatePigLatin("consonant");
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLmw/0)
+![:rocket:</a> <a href='https://repl.it/CLmw/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
 *   This is a declarative as well as recursive approach to this problem.
-*   `check()` is a function which checks for first letter of string to be in the array of vowels, `['a','i','u','e','o']`.
+*   `check()` is a function which checks for first letter of string to be in the array of vowels, `<a href='http://forum.freecodecamp.com/t/javascript-string-prototype-charat/15932' target='_blank' rel='nofollow'>'a','i','u','e','o']`.
 *   In case of consonants, `check()` calls itself on the next characters until finding the first vowel.
 *   It'll return the index of whatever it finds to be the last initial consonant i.e., Schmidtsville's would be 3.
 *   Then, letters up until that index are removed from the string and concatenated with either that same chunk of removed string or **w** accordingly, and then **ay** regardless.
 
 #### Relevant Links
 
-*   [JS String Prototype CharAt](http://forum.freecodecamp.com/t/javascript-string-prototype-charat/15932)
-*   [JS String Prototype Concat](http://forum.freecodecamp.com/t/javascript-string-prototype-concat/15935)
+*   [JS String Prototype CharAt</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-string-prototype-concat/15935' target='_blank' rel='nofollow'>JS String Prototype Concat</a>
 
 ## ![:rotating_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:") Advanced Code Solution:
 
     function translatePigLatin(str) {
-        var strArr = [];
+        var strArr = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>];
         var tmpChar;
 
         // check if the char is consonant using RegEx
@@ -141,7 +141,7 @@ You will need to use everything you know about string manipulation to get the la
     // test here
     translatePigLatin("consonant");
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLmv/0)
+![:rocket:</a> <a href='https://repl.it/CLmv/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -154,10 +154,10 @@ You will need to use everything you know about string manipulation to get the la
 
 #### Relevant Links
 
-*   [JS String Prototype Split](http://forum.freecodecamp.com/t/javascript-string-prototype-split/15944)
-*   [JS Array Prototype Shift](http://forum.freecodecamp.com/t/javascript-array-prototype-shift/14301)
-*   [JS Array Prototype Push](http://forum.freecodecamp.com/t/javascript-array-prototype-push/14298)
-*   [JS Array Prototype Join](http://forum.freecodecamp.com/t/javascript-array-prototype-join/14292)
+*   <a href='http://forum.freecodecamp.com/t/javascript-string-prototype-split/15944' target='_blank' rel='nofollow'>JS String Prototype Split</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-array-prototype-shift/14301' target='_blank' rel='nofollow'>JS Array Prototype Shift</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-array-prototype-push/14298' target='_blank' rel='nofollow'>JS Array Prototype Push</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-array-prototype-join/14292' target='_blank' rel='nofollow'>JS Array Prototype Join</a>
 
 ### ![:trophy:](https://forum.freecodecamp.com/images/emoji/emoji_one/trophy.png?v=3 ":trophy:") Credits:
 
@@ -172,4 +172,4 @@ If you found this page useful, you may say thanks to the contributors by copying
 *   Categorize the solution in one of the following categories — **Basic**, **Intermediate** and **Advanced**. ![:traffic_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/traffic_light.png?v=3 ":traffic_light:")
 *   Please add your username only if you have added any **relevant main contents**. (![:warning:](https://forum.freecodecamp.com/images/emoji/emoji_one/warning.png?v=3 ":warning:") **_DO NOT_** _remove any existing usernames_)
 
-> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") [**`Wiki Challenge Solution Template`**](http://forum.freecodecamp.com/t/algorithm-article-template/14272) for reference.
+> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") <a href='http://forum.freecodecamp.com/t/algorithm-article-template/14272' target='_blank' rel='nofollow'>**`Wiki Challenge Solution Template`**</a> for reference.

@@ -9,10 +9,10 @@ Convert the given string to a lowercase sentence with words joined by dashes.
 
 #### Relevant Links
 
-*   [String global object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String' target='_blank' rel='nofollow'>String global object</a>
 *   <a>JS Regex Resources</a>
-*   [JS String Prototype Replace](http://forum.freecodecamp.com/t/javascript-string-prototype-replace/15942)
-*   [JS String Prototype ToLowerCase](http://forum.freecodecamp.com/t/javascript-string-prototype-tolowercase/15948)
+*   <a href='http://forum.freecodecamp.com/t/javascript-string-prototype-replace/15942' target='_blank' rel='nofollow'>JS String Prototype Replace</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-string-prototype-tolowercase/15948' target='_blank' rel='nofollow'>JS String Prototype ToLowerCase</a>
 
 ## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 1
 
@@ -45,7 +45,7 @@ The tricky part is getting the regular expression part to work, once you do that
       var regex = /\s+|_+/g;
 
       // Replace low-upper case to low-space-uppercase
-      str = str.replace(/([a-z])([A-Z])/g, '$1 $2');
+      str = str.replace(/(<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>a-z])([A-Z])/g, '$1 $2');
 
       // Replace space and underscore with -
       return str.replace(regex, '-').toLowerCase();
@@ -54,7 +54,7 @@ The tricky part is getting the regular expression part to work, once you do that
     // test here
     spinalCase('This Is Spinal Tap');
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLnS/0)
+![:rocket:</a> <a href='https://repl.it/CLnS/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -66,7 +66,7 @@ The tricky part is getting the regular expression part to work, once you do that
 
     function spinalCase(str) {
       // Replace low-upper case to low-space-uppercase
-      str = str.replace(/([a-z])([A-Z])/g, '$1 $2');
+      str = str.replace(/(<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>a-z])([A-Z])/g, '$1 $2');
       // Split on whitespace and underscores and join with dash
       return str.toLowerCase().split(/(?:_| )+/) .join('-');
     }
@@ -74,7 +74,7 @@ The tricky part is getting the regular expression part to work, once you do that
     // test here
     spinalCase('This Is Spinal Tap');
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLnT/0)
+![:rocket:</a> <a href='https://repl.it/CLnT/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -83,8 +83,8 @@ The tricky part is getting the regular expression part to work, once you do that
 
 #### Relevant Links
 
-*   [JS String Prototype Split](http://forum.freecodecamp.com/t/javascript-string-prototype-split/15944)
-*   [JS Array Prototype Join](http://forum.freecodecamp.com/t/javascript-array-prototype-join/14292)
+*   <a href='http://forum.freecodecamp.com/t/javascript-string-prototype-split/15944' target='_blank' rel='nofollow'>JS String Prototype Split</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-array-prototype-join/14292' target='_blank' rel='nofollow'>JS Array Prototype Join</a>
 
 ## ![:rotating_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:") Advanced Code Solution:
 
@@ -92,15 +92,15 @@ The tricky part is getting the regular expression part to work, once you do that
       // "It's such a fine line between stupid, and clever."
       // --David St. Hubbins
 
-      return str.split(/\s|_|(?=[A-Z])/).join('-').toLowerCase()
+      return str.split(/\s|_|(?=<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>A-Z])/).join('-').toLowerCase()
     }
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/EUZV)
+![:rocket:</a> <a href='https://repl.it/EUZV' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
 *   Split the string at one of the following conditions (_converted to an array_)
-    *   a whitespace character [`\s`] is encountered
+    *   a whitespace character <a href='http://devdocs.io/javascript/global_objects/string/split' target='_blank' rel='nofollow'>`\s`] is encountered
     *   underscore character [`_`] is encountered
     *   or is followed by an uppercase letter [`(?=[A-Z])`]
 *   Join the array using a hyphen (`-`)
@@ -108,10 +108,10 @@ The tricky part is getting the regular expression part to work, once you do that
 
 #### Relevant Links
 
-*   [String#split](http://devdocs.io/javascript/global_objects/string/split)
-*   [RegExp](http://devdocs.io/javascript/global_objects/regexp)
-*   [Arrray#join](http://devdocs.io/javascript/global_objects/array/join)
-*   [String#toLowerCase](http://devdocs.io/javascript/global_objects/string/tolowercase)
+*   [String#split</a>
+*   <a href='http://devdocs.io/javascript/global_objects/regexp' target='_blank' rel='nofollow'>RegExp</a>
+*   <a href='http://devdocs.io/javascript/global_objects/array/join' target='_blank' rel='nofollow'>Arrray#join</a>
+*   <a href='http://devdocs.io/javascript/global_objects/string/tolowercase' target='_blank' rel='nofollow'>String#toLowerCase</a>
 
 ## ![:clipboard:](https://forum.freecodecamp.com/images/emoji/emoji_one/clipboard.png?v=3 ":clipboard:") NOTES FOR CONTRIBUTIONS:
 
@@ -120,4 +120,4 @@ The tricky part is getting the regular expression part to work, once you do that
 *   Categorize the solution in one of the following categories — **Basic**, **Intermediate** and **Advanced**. ![:traffic_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/traffic_light.png?v=3 ":traffic_light:")
 *   Please add your username only if you have added any **relevant main contents**. (![:warning:](https://forum.freecodecamp.com/images/emoji/emoji_one/warning.png?v=3 ":warning:") **_DO NOT_** _remove any existing usernames_)
 
-> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") [**`Wiki Challenge Solution Template`**](http://forum.freecodecamp.com/t/algorithm-article-template/14272) for reference.
+> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") <a href='http://forum.freecodecamp.com/t/algorithm-article-template/14272' target='_blank' rel='nofollow'>**`Wiki Challenge Solution Template`**</a> for reference.

@@ -30,7 +30,7 @@ Clojure has some special syntax that allows you to let your function do differen
     ; => Dental plan!
     ;    nil
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [IDEOne it!](https://ideone.com/sXGplb)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://ideone.com/sXGplb' target='_blank' rel='nofollow'>IDEOne it!</a>
 
 ## Anonymous functions
 
@@ -65,7 +65,7 @@ There's a shorter way to write anonymous functions, intended for very short, sim
     (#(str %1 %2 %3) "foo" "bar" "baz")
     ; => "foobarbaz"
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [IDEOne it!](https://ideone.com/roYRgS)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://ideone.com/roYRgS' target='_blank' rel='nofollow'>IDEOne it!</a>
 
 | [![:point_left:](//forum.freecodecamp.com/images/emoji/emoji_one/point_left.png?v=2 ":point_left:") Previous](//forum.freecodecamp.com/t/clojure-loop-recur/18418) | [![:book:](//forum.freecodecamp.com/images/emoji/emoji_one/book.png?v=2 ":book:") Home ![:book:](//forum.freecodecamp.com/images/emoji/emoji_one/book.png?v=2 ":book:")](//forum.freecodecamp.com/t/clojure-resources/18422) | [Next ![:point_right:](//forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=2 ":point_right:")](//forum.freecodecamp.com/t/clojure-collections/18411)|  
-| [Loop and Recur](//forum.freecodecamp.com/t/clojure-loop-recur/18418) | [Table of Contents](//forum.freecodecamp.com/t/clojure-resources/18422) | [Collections](/http://forum.freecodecamp.com/t/clojure-collections/18411)|
+| [Loop and Recur](//forum.freecodecamp.com/t/clojure-loop-recur/18418) | [Table of Contents](//forum.freecodecamp.com/t/clojure-resources/18422) | <a href='/http://forum.freecodecamp.com/t/clojure-collections/18411' target='_blank' rel='nofollow'>Collections</a>|

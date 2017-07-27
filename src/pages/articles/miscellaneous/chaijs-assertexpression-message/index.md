@@ -7,6 +7,6 @@ title: Chaijs Assertexpression Message
 Write your own test expressions.
 
     assert('foo' !== 'bar', 'foo is not bar');
-    assert(Array.isArray([]), 'empty arrays are arrays');
+    assert(Array.isArray(<a href='http://chaijs.com/api/assert/' target='_blank' rel='nofollow'>]), 'empty arrays are arrays');
 
-details: [http://chaijs.com/api/assert/](http://chaijs.com/api/assert/)
+details: [http://chaijs.com/api/assert/</a>

@@ -24,9 +24,9 @@ title: Learn About Ruby Numbers
     x.class
     # returns
     Bignum # basically, Bignum is a very large number
-    # [read this article for more info](http://ruby-doc.org/core-2.0.0/Bignum.html)
+    # <a href='http://ruby-doc.org/core-2.0.0/Bignum.html' target='_blank' rel='nofollow'>read this article for more info</a>
 
 ## References:
 
-*   [The official Ruby documentation for integers](http://ruby-doc.org/core-2.2.0/Integer.html).
-*   [The official Ruby documentation for floats](http://ruby-doc.org/core-2.2.0/Float.html).
+*   <a href='http://ruby-doc.org/core-2.2.0/Integer.html' target='_blank' rel='nofollow'>The official Ruby documentation for integers</a>.
+*   <a href='http://ruby-doc.org/core-2.2.0/Float.html' target='_blank' rel='nofollow'>The official Ruby documentation for floats</a>.

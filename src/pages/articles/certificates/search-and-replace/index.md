@@ -9,8 +9,8 @@ You will create a program that takes a sentence, then search for a word in it an
 
 #### Relevant Links
 
-*   [String global object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
-*   [JS String Prototype Replace](http://forum.freecodecamp.com/t/javascript-string-prototype-replace/15942)
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String' target='_blank' rel='nofollow'>String global object</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-string-prototype-replace/15942' target='_blank' rel='nofollow'>JS String Prototype Replace</a>
 
 ## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 1
 
@@ -42,7 +42,7 @@ You will create a program that takes a sentence, then search for a word in it an
       // Find index where before is on string
       var index = str.indexOf(before);
       // Check to see if the first letter is uppercase or not
-      if (str[index] === str[index].toUpperCase()) {
+      if (str<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>index] === str[index].toUpperCase()) {
         // Change the after word to be capitalized before we use it.
         after = after.charAt(0).toUpperCase() + after.slice(1);
       }
@@ -55,7 +55,7 @@ You will create a program that takes a sentence, then search for a word in it an
     // test here
     myReplace("A quick brown fox jumped over the lazy dog", "jumped", "leaped");
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLmo/0)
+![:rocket:</a> <a href='https://repl.it/CLmo/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -66,10 +66,10 @@ You will create a program that takes a sentence, then search for a word in it an
 
 #### Relevant Links
 
-*   [JS String Prototype IndexOf](http://forum.freecodecamp.com/t/javascript-string-prototype-indexof/15936)
-*   [JS String Prototype ToUpperCase](http://forum.freecodecamp.com/t/javascript-string-prototype-touppercase/15950)
-*   [JS String Prototype CharAt](http://forum.freecodecamp.com/t/javascript-string-prototype-charat/15932)
-*   [JS String Prototype Slice](http://forum.freecodecamp.com/t/javascript-string-prototype-slice/15943)
+*   <a href='http://forum.freecodecamp.com/t/javascript-string-prototype-indexof/15936' target='_blank' rel='nofollow'>JS String Prototype IndexOf</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-string-prototype-touppercase/15950' target='_blank' rel='nofollow'>JS String Prototype ToUpperCase</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-string-prototype-charat/15932' target='_blank' rel='nofollow'>JS String Prototype CharAt</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-string-prototype-slice/15943' target='_blank' rel='nofollow'>JS String Prototype Slice</a>
 
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution:
 
@@ -77,7 +77,7 @@ You will create a program that takes a sentence, then search for a word in it an
     //Create a regular expression object
       var re = new RegExp(before,"gi");
     //Check whether the first letter is uppercase or not
-      if(/[A-Z]/.test(before[0])){
+      if(/<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>A-Z]/.test(before[0])){
       //Change the word to be capitalized
         after = after.charAt(0).toUpperCase()+after.slice(1);
          }
@@ -90,11 +90,11 @@ You will create a program that takes a sentence, then search for a word in it an
     // test here
     myReplace("A quick brown fox jumped over the lazy dog", "jumped", "leaped");
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLmp/0)
+![:rocket:</a> <a href='https://repl.it/CLmp/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
-*   In this solution, regular expression `[A-Z]` is used to check if character is uppercase.
+*   In this solution, regular expression `<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:"' target='_blank' rel='nofollow'>A-Z]` is used to check if character is uppercase.
 *   Create a new regular expression object, **re**.
 *   If first letter of **before** is capitalized, change the first letter of **after** to uppercase.
 *   Replace **before** with **after** in the string.
@@ -104,7 +104,7 @@ You will create a program that takes a sentence, then search for a word in it an
 
 *   <a>JS Regex Resources</a>
 
-## ![:rotating_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:") Advanced Code Solution:
+## ![:rotating_light:</a> Advanced Code Solution:
 
     function myReplace(str, before, after) {
 
@@ -117,7 +117,7 @@ You will create a program that takes a sentence, then search for a word in it an
             // iterate through all the items of sourceArr and targetArr arrays till loop hits the end of shortest array
             for (var i = 0; i < Math.min(targetArr.length, sourceArr.length); i++){
                 // find out the casing of every letter from sourceArr using regular expression
-                // if sourceArr[i] is upper case then convert targetArr[i] to upper case
+                // if sourceArr<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>i] is upper case then convert targetArr[i] to upper case
                 if (/[A-Z]/.test(sourceArr[i])) {
                     targetArr[i] = targetArr[i].toUpperCase();
                 }
@@ -135,7 +135,7 @@ You will create a program that takes a sentence, then search for a word in it an
     // test here
     myReplace("A quick brown fox jumped over the lazy dog", "jumped", "leaped");
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLmq/0)
+![:rocket:</a> <a href='https://repl.it/CLmq/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -145,12 +145,12 @@ You will create a program that takes a sentence, then search for a word in it an
 
 #### Relevant Links
 
-*   [JS String Prototype Split](http://forum.freecodecamp.com/t/javascript-string-prototype-split/15944)
-*   [JS For Loops Explained](http://forum.freecodecamp.com/t/javascript-for-loop/14666s-Explained)
-*   [JS Math Min](http://forum.freecodecamp.com/t/javascript-math-min/14684)
+*   <a href='http://forum.freecodecamp.com/t/javascript-string-prototype-split/15944' target='_blank' rel='nofollow'>JS String Prototype Split</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-for-loop/14666s-Explained' target='_blank' rel='nofollow'>JS For Loops Explained</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-math-min/14684' target='_blank' rel='nofollow'>JS Math Min</a>
 *   <a>String.length</a>
-*   [JS String Prototype ToLowerCase](http://forum.freecodecamp.com/t/javascript-string-prototype-tolowercase/15948)
-*   [JS Array Prototype Join](http://forum.freecodecamp.com/t/javascript-array-prototype-join/14292)
+*   <a href='http://forum.freecodecamp.com/t/javascript-string-prototype-tolowercase/15948' target='_blank' rel='nofollow'>JS String Prototype ToLowerCase</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-array-prototype-join/14292' target='_blank' rel='nofollow'>JS Array Prototype Join</a>
 
 ## ![:clipboard:](https://forum.freecodecamp.com/images/emoji/emoji_one/clipboard.png?v=3 ":clipboard:") NOTES FOR CONTRIBUTIONS:
 
@@ -159,4 +159,4 @@ You will create a program that takes a sentence, then search for a word in it an
 *   Categorize the solution in one of the following categories — **Basic**, **Intermediate** and **Advanced**. ![:traffic_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/traffic_light.png?v=3 ":traffic_light:")
 *   Please add your username only if you have added any **relevant main contents**. (![:warning:](https://forum.freecodecamp.com/images/emoji/emoji_one/warning.png?v=3 ":warning:") **_DO NOT_** _remove any existing usernames_)
 
-> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") [**`Wiki Challenge Solution Template`**](http://forum.freecodecamp.com/t/algorithm-article-template/14272) for reference.
+> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") <a href='http://forum.freecodecamp.com/t/algorithm-article-template/14272' target='_blank' rel='nofollow'>**`Wiki Challenge Solution Template`**</a> for reference.

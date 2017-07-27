@@ -5,23 +5,23 @@ If you plan to write a <a>Pull Request for Free Code Camp</a>, you will almost c
 
 This guide will cover how to fork the FCC project, clone a local copy, and how to maintain your fork. All Git commands will be given for the command line, which we strongly recommend that you use, but most commands can be executed in a graphical Git environment as well.
 
-If you're using Windows, [use this guide instead](https://forum.freecodecamp.com/t/how-to-clone-and-setup-the-free-code-camp-website-on-a-windows-pc/19366).
+If you're using Windows, <a href='https://forum.freecodecamp.com/t/how-to-clone-and-setup-the-free-code-camp-website-on-a-windows-pc/19366' target='_blank' rel='nofollow'>use this guide instead</a>.
 
 ## Need Help?
 
-Free Code Camp Issue Mods and staff are on hand to assist with Pull Request related issues on our [Help Contributors Chat Room](https://gitter.im/FreeCodeCamp/HelpContributors)
+Free Code Camp Issue Mods and staff are on hand to assist with Pull Request related issues on our <a href='https://gitter.im/FreeCodeCamp/HelpContributors' target='_blank' rel='nofollow'>Help Contributors Chat Room</a>
 
 ## Setting Up your System
 
-1.  Install [Git](https://git-scm.com/) or your favorite Git client
-2.  (Optional) [Setup an SSH Key](https://help.github.com/articles/generating-ssh-keys/) for Github.  
+1.  Install <a href='https://git-scm.com/' target='_blank' rel='nofollow'>Git</a> or your favorite Git client
+2.  (Optional) <a href='https://help.github.com/articles/generating-ssh-keys/' target='_blank' rel='nofollow'>Setup an SSH Key</a> for Github.  
     Using SSH can greatly speed up your interactions with GitHub, since you will not be prompted for your password.
 3.  Create a parent projects directory on your system. For the purposes of this document we will assume it is `/mean/`
 
 ## Forking Free Code Camp
 
 1.  Navigate to the top level Free Code Camp repository: `https://github.com/FreeCodeCamp/freecodecamp`
-2.  Click the "Fork" Button in the upper right hand corner of the interface. [More Details Here](https://help.github.com/articles/fork-a-repo/).
+2.  Click the "Fork" Button in the upper right hand corner of the interface. <a href='https://help.github.com/articles/fork-a-repo/' target='_blank' rel='nofollow'>More Details Here</a>.
 3.  After the project is forked, you will be taken to your copy of the FCC repo at `username/freecodecamp`
 
 ## Cloning Your Fork

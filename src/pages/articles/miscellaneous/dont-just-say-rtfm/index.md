@@ -5,7 +5,7 @@ RTFM comments generally useless
 
 > If everybody read the fine manual, most of the questions asked on the internet would go away!
 
-[RTFM](http://meta.stackexchange.com/a/167765)
+<a href='http://meta.stackexchange.com/a/167765' target='_blank' rel='nofollow'>RTFM</a>
 
 **"RTFM"** is **rude**, no doubt about it. However, **links to the manual in comments are perfectly acceptable**, and sometimes the only appropriate response to a question.
 
