@@ -53,7 +53,7 @@ export default class HTML extends React.Component {
           />
           <title>freeCodeCamp Guide</title>
           <TypographyStyle typography={typography} />
-           <GoogleFont typography={typography} />
+          <GoogleFont typography={typography} />
           {css}
         </head>
         <body>
