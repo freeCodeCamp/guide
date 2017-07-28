@@ -26,9 +26,9 @@ We want to draw a US Map and visualize this data such that, when we hover mouse 
 ### Step by Step instructions:
 
 *   First , we will need to create a US map.
-    1.  You can either create a map from scratch using sources like - [Stately.](https://intridea.github.io/stately/)
+    1.  You can either create a map from scratch using sources like - <a href='https://intridea.github.io/stately/' target='_blank' rel='nofollow'>Stately.</a>
 
-    2.  Get a already created map from [freehtml5maps](http://freehtml5maps.com) or use this [Javascript](http://bl.ocks.org/NPashaP/raw/a74faf20b492ad377312/3513ad985b2fa93ea35f2fc864cb30540c298171/uStates.js)
+    2.  Get a already created map from <a href='http://freehtml5maps.com' target='_blank' rel='nofollow'>freehtml5maps</a> or use this <a href='http://bl.ocks.org/NPashaP/raw/a74faf20b492ad377312/3513ad985b2fa93ea35f2fc864cb30540c298171/uStates.js' target='_blank' rel='nofollow'>Javascript</a>
 *   Add your map to the main javascript used for visualization
 
 For Example, `(script src="uStates.js")(/script) (!-- creates uStates. --)`
@@ -57,7 +57,7 @@ For example, `uStates.draw("#statesvg", sampleData, tooltipFunc);`
 
 ## References:
 
-1.  [**D3.js**](https://d3js.org) Examples and Documentations.
-2.  [**NPashaP GitHub**](https://github.com/NPashaP)
-3.  [**Stately**](https://intridea.github.io/stately/)
-4.  [**FreeHTML5Maps**](http://freehtml5maps.com)
+1.  <a href='https://d3js.org' target='_blank' rel='nofollow'>**D3.js**</a> Examples and Documentations.
+2.  <a href='https://github.com/NPashaP' target='_blank' rel='nofollow'>**NPashaP GitHub**</a>
+3.  <a href='https://intridea.github.io/stately/' target='_blank' rel='nofollow'>**Stately**</a>
+4.  <a href='http://freehtml5maps.com' target='_blank' rel='nofollow'>**FreeHTML5Maps**</a>

@@ -63,11 +63,11 @@ This solution keeps your code clean of the secure credentials you do not want to
 
 <aside class="onebox whitelistedgeneric">
 
-<header class="source">[osxdaily.com](http://osxdaily.com/2015/07/28/set-enviornment-variables-mac-os-x/)</header>
+<header class="source"><a href='http://osxdaily.com/2015/07/28/set-enviornment-variables-mac-os-x/' target='_blank' rel='nofollow'>osxdaily.com</a></header>
 
 <article class="onebox-body">![](http://cdn.osxdaily.com/wp-content/uploads/2014/08/terminal-icon-osx.png)
 
-### [Where to Set Environment Variables in Mac OS X](http://osxdaily.com/2015/07/28/set-enviornment-variables-mac-os-x/)
+### <a href='http://osxdaily.com/2015/07/28/set-enviornment-variables-mac-os-x/' target='_blank' rel='nofollow'>Where to Set Environment Variables in Mac OS X</a>
 
 At the command line, environmental variables are defined for the current shell and become inherited by any running command or process. They can determine anything from the default shell, the PATH, …
 
@@ -77,15 +77,15 @@ At the command line, environmental variables are defined for the current shell a
 
 <aside class="onebox stackexchange">
 
-<header class="source">[stackoverflow.com](http://stackoverflow.com/questions/35356692/best-practice-when-using-an-api-key-in-node-js)</header>
+<header class="source"><a href='http://stackoverflow.com/questions/35356692/best-practice-when-using-an-api-key-in-node-js' target='_blank' rel='nofollow'>stackoverflow.com</a></header>
 
-<article class="onebox-body">[![Drake Main](https://i.stack.imgur.com/jRaTj.jpg?s=128&g=1)](http://stackoverflow.com/users/4956243/drake-main) 
+<article class="onebox-body"><a href='https://i.stack.imgur.com/jRaTj.jpg?s=128&g=1' target='_blank' rel='nofollow'>![Drake Main</a>](http://stackoverflow.com/users/4956243/drake-main) 
 
-#### [Best practice when using an API key in Node.js](http://stackoverflow.com/questions/35356692/best-practice-when-using-an-api-key-in-node-js)
+#### <a href='http://stackoverflow.com/questions/35356692/best-practice-when-using-an-api-key-in-node-js' target='_blank' rel='nofollow'>Best practice when using an API key in Node.js</a>
 
 <div class="tags">**node.js, api-key**</div>
 
-<div class="date">asked by [Drake Main](http://stackoverflow.com/users/4956243/drake-main) on [07:05AM - 12 Feb 16](http://stackoverflow.com/questions/35356692/best-practice-when-using-an-api-key-in-node-js)</div>
+<div class="date">asked by <a href='http://stackoverflow.com/users/4956243/drake-main' target='_blank' rel='nofollow'>Drake Main</a> on <a href='http://stackoverflow.com/questions/35356692/best-practice-when-using-an-api-key-in-node-js' target='_blank' rel='nofollow'>07:05AM - 12 Feb 16</a></div>
 
 </article>
 
@@ -93,15 +93,15 @@ At the command line, environmental variables are defined for the current shell a
 
 <aside class="onebox stackexchange">
 
-<header class="source">[stackoverflow.com](http://stackoverflow.com/questions/1213430/how-to-fully-delete-a-git-repository-created-with-init)</header>
+<header class="source"><a href='http://stackoverflow.com/questions/1213430/how-to-fully-delete-a-git-repository-created-with-init' target='_blank' rel='nofollow'>stackoverflow.com</a></header>
 
-<article class="onebox-body">[![Peiniau](https://www.gravatar.com/avatar/9db1745a666cface1731c12d54e189e6?s=128&d=identicon&r=PG)](http://stackoverflow.com/users/105813/peiniau) 
+<article class="onebox-body"><a href='https://www.gravatar.com/avatar/9db1745a666cface1731c12d54e189e6?s=128&d=identicon&r=PG' target='_blank' rel='nofollow'>![Peiniau</a>](http://stackoverflow.com/users/105813/peiniau) 
 
-#### [How to fully delete a git repository created with init?](http://stackoverflow.com/questions/1213430/how-to-fully-delete-a-git-repository-created-with-init)
+#### <a href='http://stackoverflow.com/questions/1213430/how-to-fully-delete-a-git-repository-created-with-init' target='_blank' rel='nofollow'>How to fully delete a git repository created with init?</a>
 
 <div class="tags">**git, git-init**</div>
 
-<div class="date">asked by [Peiniau](http://stackoverflow.com/users/105813/peiniau) on [04:06PM - 31 Jul 09](http://stackoverflow.com/questions/1213430/how-to-fully-delete-a-git-repository-created-with-init)</div>
+<div class="date">asked by <a href='http://stackoverflow.com/users/105813/peiniau' target='_blank' rel='nofollow'>Peiniau</a> on <a href='http://stackoverflow.com/questions/1213430/how-to-fully-delete-a-git-repository-created-with-init' target='_blank' rel='nofollow'>04:06PM - 31 Jul 09</a></div>
 
 </article>
 

@@ -166,6 +166,6 @@ If you've made it to the end of this article, you deserve some recognition. I wr
 
 This article is meant as a "crash course" of sorts to get your feet wet in the world of Sass. There is still a significant amount of tools and features that make Sass shine, as well as best practices when it comes to **structuring your stylesheets and breaking them up into partials**.
 
-My advice is to start sandboxing in your own text editor and on [Sassmeister](http://www.sassmeister.com/) to get more comfortable with the concepts this article has covered. Also be on the lookout for the Free Code Camp Sass course coming soon.
+My advice is to start sandboxing in your own text editor and on <a href='http://www.sassmeister.com/' target='_blank' rel='nofollow'>Sassmeister</a> to get more comfortable with the concepts this article has covered. Also be on the lookout for the Free Code Camp Sass course coming soon.
 
 Get out there and level up your Sass game.

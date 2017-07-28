@@ -5,7 +5,7 @@ title: Getting Started with Sass
 
 Sass stands for "Syntactically Awesome Stylesheets" and is a CSS Pre-Processor. A Pre-Processor compiles code written in a specific language down to "product" code that is machine-readable (browser-readable). Basically, Sass compiles code down to regular CSS that our browsers can interpret! _Why write code in Sass when CSS already exists?_ The short answer is Sass comes with more powerful features built into its syntax that allow developers to write DRY-er, scalable, and more maintainable front-end code.
 
-If you're familiar with CSS, then learning Sass will come a little easier to you. If not, it might be ideal to start learning some CSS basics on Free Code Camp's HTML5 & CSS section in their Front End Development Certification course, as well as taking a look at [MDN's CSS Article](https://developer.mozilla.org/en-US/docs/Web/CSS).
+If you're familiar with CSS, then learning Sass will come a little easier to you. If not, it might be ideal to start learning some CSS basics on Free Code Camp's HTML5 & CSS section in their Front End Development Certification course, as well as taking a look at <a href='https://developer.mozilla.org/en-US/docs/Web/CSS' target='_blank' rel='nofollow'>MDN's CSS Article</a>.
 
 In Part 1 of this article, I will explain how to get Sass installed on your computer and how to compile your Sass-written code into CSS.
 
@@ -35,7 +35,7 @@ If so, congrats, you've just installed Sass! Now onto using Sass.
 
 Let's begin with a very simple example to illustrate how Sass actually works. You can follow along with the steps or simply read along.
 
-_An import sidenote: Sass can be written in two slightly different styles, each of which has its own benefits. One style will use the file extension_ `.sass` _and the other will use_ `.scss`. _Brief explanations will be given on the differences of the two styles later on. For an in-depth explanation, check out John W. Long's_ [Sass vs. SCSS article](http://thesassway.com/editorial/sass-vs-scss-which-syntax-is-better).
+_An import sidenote: Sass can be written in two slightly different styles, each of which has its own benefits. One style will use the file extension_ `.sass` _and the other will use_ `.scss`. _Brief explanations will be given on the differences of the two styles later on. For an in-depth explanation, check out John W. Long's_ <a href='http://thesassway.com/editorial/sass-vs-scss-which-syntax-is-better' target='_blank' rel='nofollow'>Sass vs. SCSS article</a>.
 
 _For the sake of consistency, this article will provide code examples in `.scss` format, however both styles are equally popular._
 
@@ -94,4 +94,4 @@ _Great! Now I know how to compile Sass on my computer. Is that it?_
 
 Not by a long shot. This was a bare-bones example of how Sass works, therefore the benefits of writing in Sass over vanilla CSS may not be apparent. We wrote 12 lines of "Sass" and got 7 lines of CSS as a result. Not exactly a major difference by any standards. In Part 2 we will explain the **magic** behind Sass syntax such as variables and mixins, and how the use of such tools can lend us superpowers when styling.
 
-If you're still stuck on how Sass is magically compiling down into CSS or maybe you would like to mess with sample code some more, [Sassmeister](http://www.sassmeister.com/) is a great online interface which lets you write in Sass syntax and instantly see your code compiled into CSS without having to install anything or do any setup on your computer. It's a very useful resource for sandboxing and trying out your Sass code.
+If you're still stuck on how Sass is magically compiling down into CSS or maybe you would like to mess with sample code some more, <a href='http://www.sassmeister.com/' target='_blank' rel='nofollow'>Sassmeister</a> is a great online interface which lets you write in Sass syntax and instantly see your code compiled into CSS without having to install anything or do any setup on your computer. It's a very useful resource for sandboxing and trying out your Sass code.

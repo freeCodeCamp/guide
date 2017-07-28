@@ -13,4 +13,4 @@ So, if the element is currently visible on the page the **`console.log(status)`*
 *   if element has `display:none;`
 *   if element has `visibility: hidden`
 
-and for more advanced checking like this: **is the element visible on the viewport now** I would recomend to use [jQuery onScreen plugin](http://benpickles.github.io/onScreen/)
+and for more advanced checking like this: **is the element visible on the viewport now** I would recomend to use <a href='http://benpickles.github.io/onScreen/' target='_blank' rel='nofollow'>jQuery onScreen plugin</a>

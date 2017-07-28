@@ -1,7 +1,7 @@
 ---
 title: Free Code Camp Infinite Loop Protection
 ---
-The Free Code Camp code runner has a built in Infinite Loop Protect feature, leveraged from [JSBin's Loop Protect](https://github.com/jsbin/loop-protect). The loop protect injects some code into user created loops to allow a safe exit if more than ~500ms has passed without exiting the loop. Loop protect will catch many, but not all infinite loop issues. If you see this message:
+The Free Code Camp code runner has a built in Infinite Loop Protect feature, leveraged from <a href='https://github.com/jsbin/loop-protect' target='_blank' rel='nofollow'>JSBin's Loop Protect</a>. The loop protect injects some code into user created loops to allow a safe exit if more than ~500ms has passed without exiting the loop. Loop protect will catch many, but not all infinite loop issues. If you see this message:
 
 `Error: Potential infinite loop at line X`
 

@@ -25,7 +25,7 @@ Our open source community has been hard at work throughout September on some maj
 
 *   [@berkeleytrue](/users/berkeleytrue) figured out a way to make all challenge solutions 100% sharable. You can copy a URL directly from your browser and share it with others, and they will be able to run your code against the challenge's tests. URLs update automatically when you run a challenge's tests.
 *   We completely rewrote all Algorithm tests to be as transparent as possible. By popular request, we no longer show the Chai tests themselves - just a message clearly explaining what each test is testing.
-*   By popular request, we added gif-style challenges, and are replacing our video-style challenges with these. All of our old videos will remain available on our [YouTube channel](https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ?sub_confirmation=1).
+*   By popular request, we added gif-style challenges, and are replacing our video-style challenges with these. All of our old videos will remain available on our <a href='https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ?sub_confirmation=1' target='_blank' rel='nofollow'>YouTube channel</a>.
 
 ## Wiki improvements
 
@@ -35,15 +35,15 @@ Our open source community has been hard at work throughout September on some maj
 ## Resolved experiments
 
 *   Plug.dj shut down, and our plug.dj room with it. Some of our campers are working on building an open source music app to replace it.
-*   We delisted several low-traffic casual Gitter rooms from our wiki and created a catch-all [Casual chat room](https://gitter.im/freecodecamp/casual) for non-coding-related chat.
-*   We now recommend campers use their Local Group's Facebook group for chatting instead of their campsite's Gitter chatroom. Only a few of our Local Group Gitter chatroooms had active synchronous discussions, and about 1/3rd of all conversations consisted of someone saying "hello" and not getting a response. We've delisted all our Local Group Gitter rooms from our Local Group directory. Still, we will keep them open for archival purposes, and you can keep using it if you'd like. Here's a short [blog post](http://blog.freecodecamp.com/2015/09/jump-start-your-local-campsite-with-coffee-and-code.html) about how our Local Groups are evolving and growing.
+*   We delisted several low-traffic casual Gitter rooms from our wiki and created a catch-all <a href='https://gitter.im/freecodecamp/casual' target='_blank' rel='nofollow'>Casual chat room</a> for non-coding-related chat.
+*   We now recommend campers use their Local Group's Facebook group for chatting instead of their campsite's Gitter chatroom. Only a few of our Local Group Gitter chatroooms had active synchronous discussions, and about 1/3rd of all conversations consisted of someone saying "hello" and not getting a response. We've delisted all our Local Group Gitter rooms from our Local Group directory. Still, we will keep them open for archival purposes, and you can keep using it if you'd like. Here's a short <a href='http://blog.freecodecamp.com/2015/09/jump-start-your-local-campsite-with-coffee-and-code.html' target='_blank' rel='nofollow'>blog post</a> about how our Local Groups are evolving and growing.
 
 ## Other exciting developments
 
-*   We just launched our first-ever [t-shirt campaign](https://teespring.com/get-free-code-camp-t-shirt) and added a second campaign for [EU fulfillment](https://teespring.com/free-code-camp-shirt-eu).
-*   We just launched Commit. Rather than going into detail on it here, read [@codenonprofit's blog post](http://blog.freecodecamp.com/2015/10/commit-to-yourself-commit-to-nonprofit.html).
-*   We launched [Free Code Camp Labs](http://freecodecamp.com/labs) to showcase some unique projects our campers are building.
-*   We started gathering [Stories from campers](http://freecodecamp.com/stories) and putting them all in one place. These are just a fraction of the campers who've advanced their careers and gotten coding jobs after learning with Free Code Camp, but it's a pretty representative sample.
+*   We just launched our first-ever <a href='https://teespring.com/get-free-code-camp-t-shirt' target='_blank' rel='nofollow'>t-shirt campaign</a> and added a second campaign for <a href='https://teespring.com/free-code-camp-shirt-eu' target='_blank' rel='nofollow'>EU fulfillment</a>.
+*   We just launched Commit. Rather than going into detail on it here, read <a href='http://blog.freecodecamp.com/2015/10/commit-to-yourself-commit-to-nonprofit.html' target='_blank' rel='nofollow'>@codenonprofit's blog post</a>.
+*   We launched <a href='http://freecodecamp.com/labs' target='_blank' rel='nofollow'>Free Code Camp Labs</a> to showcase some unique projects our campers are building.
+*   We started gathering <a href='http://freecodecamp.com/stories' target='_blank' rel='nofollow'>Stories from campers</a> and putting them all in one place. These are just a fraction of the campers who've advanced their careers and gotten coding jobs after learning with Free Code Camp, but it's a pretty representative sample.
 
 ## Improvements coming in the next few weeks:
 
@@ -57,12 +57,12 @@ Our open source community has been hard at work throughout September on some maj
 *   We'll launch our job board.
 *   We'll publish several new JSON API and AJAX-related challenges
 *   We'll finish a leaderboard creation mechanic designed for teachers to track students and campers to track their friends.
-*   We'll finish the Hikes interface (Hikes are Briana Swift's [computer science theory challenges](https://www.youtube.com/watch?v=q7tlgZg4Q1o&list=PLWKjhJtqVAbmfoj2Th9fvxhHIeqFO7wOy))
+*   We'll finish the Hikes interface (Hikes are Briana Swift's <a href='https://www.youtube.com/watch?v=q7tlgZg4Q1o&list=PLWKjhJtqVAbmfoj2Th9fvxhHIeqFO7wOy' target='_blank' rel='nofollow'>computer science theory challenges</a>)
 *   We'll close the ~30 pull requests that have piled up (thanks, contributors!)
 
 ## And longer term goals we still haven't forgotten:
 
-*   Support for major world languages ([translation is still underway](https://trello.com/b/m7zhwXka/fcc-translation))
+*   Support for major world languages (<a href='https://trello.com/b/m7zhwXka/fcc-translation' target='_blank' rel='nofollow'>translation is still underway</a>)
 *   Turning Free Code Camp into a single-page isomorphic app
 *   Creating a browser-based replacement for Screen Hero / Team Viewer that is well suited to pairing on Free Code Camp.
 *   React.js curriculum

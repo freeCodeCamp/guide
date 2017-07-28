@@ -32,7 +32,7 @@ Interestingly, you can also quote function calls. This is how macros work. They'
     '(str "foo" "bar" "baz")
     ; => (str "foo" "bar" "baz")
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [IDEOne it!](https://ideone.com/6c7UxY)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://ideone.com/6c7UxY' target='_blank' rel='nofollow'>IDEOne it!</a>
 
 ## Adding to a list
 
@@ -81,7 +81,7 @@ You can use lazy sequences to do really cool things, like generating a lazy sequ
 
 This example is a bit advanced, and you shouldn't be expected to understand it if you're a beginner. It's just an example of something cool you can do with lazy sequences. Perhaps you can figure it out anyway!
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [IDEOne it!](https://ideone.com/jwpvt8)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://ideone.com/jwpvt8' target='_blank' rel='nofollow'>IDEOne it!</a>
 
 ## When to use a list?
 

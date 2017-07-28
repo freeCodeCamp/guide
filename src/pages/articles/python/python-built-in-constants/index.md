@@ -1,7 +1,7 @@
 ---
 title: Python Built in Constants
 ---
-[Constants](https://docs.python.org/3/library/constants.html)
+<a href='https://docs.python.org/3/library/constants.html' target='_blank' rel='nofollow'>Constants</a>
 
 Three commonly used built-in constants:
 

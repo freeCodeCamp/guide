@@ -31,7 +31,7 @@ Comprueba que tienes la sintaxis de forma apropiada y que estés utilizando `===
       return str.substr(-target.length) === target;
     }
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [Ejecutar código](https://repl.it/CLjU/18)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CLjU/18' target='_blank' rel='nofollow'>Ejecutar código</a>
 
 ## Explicación del código:
 

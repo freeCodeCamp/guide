@@ -14,7 +14,7 @@ Before going in detail about decorators, there are some concepts that should be 
 
 > Output: Hello John
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [Run code](https://repl.it/CXGk)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CXGk' target='_blank' rel='nofollow'>Run code</a>
 
 > ### Defining functions inside other functions:
 
@@ -27,7 +27,7 @@ Before going in detail about decorators, there are some concepts that should be 
 
 > Output: Hello John
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [Run code](https://repl.it/CXGu)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CXGu' target='_blank' rel='nofollow'>Run code</a>
 
 > ### Functions can also be passed as parameters to other functions:
 
@@ -40,7 +40,7 @@ Before going in detail about decorators, there are some concepts that should be 
 
 > Output: Hello John
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [Run code](https://repl.it/CXHC)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CXHC' target='_blank' rel='nofollow'>Run code</a>
 
 > ### Functions can return other functions:
 > 
@@ -55,11 +55,11 @@ Before going in detail about decorators, there are some concepts that should be 
 
 Output: Hello there!
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [Run code](https://repl.it/CXHG)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CXHG' target='_blank' rel='nofollow'>Run code</a>
 
 > ### Inner functions have access to the enclosing scope
 > 
-> More commonly known as a [closure](http://www.shutupandship.com/2012/01/python-closures-explained.html). A very powerful pattern that we will come across while building decorators. Another thing to note, Python only allows [read access to the outer scope](http://www.tech-thoughts-blog.com/2013/07/writing-closure-in-python.html) and not assignment. Notice how we modified the example above to read a "name" argument from the enclosing scope of the inner function and return the new function.
+> More commonly known as a <a href='http://www.shutupandship.com/2012/01/python-closures-explained.html' target='_blank' rel='nofollow'>closure</a>. A very powerful pattern that we will come across while building decorators. Another thing to note, Python only allows <a href='http://www.tech-thoughts-blog.com/2013/07/writing-closure-in-python.html' target='_blank' rel='nofollow'>read access to the outer scope</a> and not assignment. Notice how we modified the example above to read a "name" argument from the enclosing scope of the inner function and return the new function.
 
     def compose_greet_func(name):
       def get_message():
@@ -70,7 +70,7 @@ Output: Hello there!
 
 > Output: Hello there John!
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [Run code](https://repl.it/CXHI)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CXHI' target='_blank' rel='nofollow'>Run code</a>
 
 ## Composition of Decorators
 
@@ -89,7 +89,7 @@ Function decorators are simply wrappers to existing functions. Putting the ideas
 
 > Output: `<p>`lorem ipsum, John dolor sit amet`</p>`
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [Run code](https://repl.it/CXHL)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CXHL' target='_blank' rel='nofollow'>Run code</a>
 
 That was our first decorator. A function that takes another function as an argument, generates a new function, augmenting the work of the original function, and returning the generated function so we can use it anywhere. To have `get_text` itself be decorated by `p_decorate`, we just have to assign get_text to the result of p_decorate.  
 
@@ -102,7 +102,7 @@ Another thing to notice is that our decorated function takes a name argument. Al
 
 > ### Python's Decorator Syntax
 
-Python makes creating and using decorators a bit cleaner and nicer for the programmer through some [syntactic sugar](http://en.wikipedia.org/wiki/Syntactic_sugar) To decorate get_text we don't have to get_text = p_decorator(get_text) There is a neat shortcut for that, which is to mention the name of the decorating function before the function to be decorated. The name of the decorator should be perpended with an @ symbol.
+Python makes creating and using decorators a bit cleaner and nicer for the programmer through some <a href='http://en.wikipedia.org/wiki/Syntactic_sugar' target='_blank' rel='nofollow'>syntactic sugar</a> To decorate get_text we don't have to get_text = p_decorator(get_text) There is a neat shortcut for that, which is to mention the name of the decorating function before the function to be decorated. The name of the decorator should be perpended with an @ symbol.
 
     def p_decorate(func):
        def func_wrapper(name):
@@ -117,7 +117,7 @@ Python makes creating and using decorators a bit cleaner and nicer for the progr
 
 > Output: `<p>`lorem ipsum, John dolor sit amet`</p>`
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [Run code](https://repl.it/CXHN)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CXHN' target='_blank' rel='nofollow'>Run code</a>
 
 Now let's consider we wanted to decorate our get_text function by 2 other functions to wrap a div and strong tag around the string output.
 
@@ -150,7 +150,7 @@ With Python's decorator syntax, same thing can be achieved with much more expres
 
     print (get_text("John"))
 
-> Output: `<div><p><strong>`lorem ipsum, John dolor sit amet`</strong></p></div>` :rocket: [Run code](https://repl.it/CXHQ) One important thing to notice here is that the order of setting our decorators matters. If the order was different in the example above, the output would have been different. ## Decorating Methods In Python, methods are functions that expect their first parameter to be a reference to the current object. We can build decorators for methods the same way, while taking self into consideration in the wrapper function.  
+> Output: `<div><p><strong>`lorem ipsum, John dolor sit amet`</strong></p></div>` :rocket: <a href='https://repl.it/CXHQ' target='_blank' rel='nofollow'>Run code</a> One important thing to notice here is that the order of setting our decorators matters. If the order was different in the example above, the output would have been different. ## Decorating Methods In Python, methods are functions that expect their first parameter to be a reference to the current object. We can build decorators for methods the same way, while taking self into consideration in the wrapper function.  
 
     def p_decorate(func):
       def func_wrapper(self):
@@ -168,7 +168,7 @@ With Python's decorator syntax, same thing can be achieved with much more expres
     my_person = Person()
     print (my_person.get_fullname())
 
-> Output: `<p>`John Doe`</p>` :rocket: [Run code](https://repl.it/CXH2) A much better approach would be to make our decorator useful for functions and methods alike. This can be done by putting [*args and **kwargs](http://docs.python.org/2/tutorial/controlflow.html#arbitrary-argument-lists) as parameters for the wrapper, then it can accept any arbitrary number of arguments and keyword arguments.  
+> Output: `<p>`John Doe`</p>` :rocket: <a href='https://repl.it/CXH2' target='_blank' rel='nofollow'>Run code</a> A much better approach would be to make our decorator useful for functions and methods alike. This can be done by putting <a href='http://docs.python.org/2/tutorial/controlflow.html#arbitrary-argument-lists' target='_blank' rel='nofollow'>*args and **kwargs</a> as parameters for the wrapper, then it can accept any arbitrary number of arguments and keyword arguments.  
 
     def p_decorate(func):
        def func_wrapper(*args, **kwargs):
@@ -186,7 +186,7 @@ With Python's decorator syntax, same thing can be achieved with much more expres
     my_person = Person()
     print (my_person.get_fullname())
 
-> Output : `<p>`John Doe`</p>` :rocket: [Run code](https://repl.it/CXH5) ### Passing arguments to decorators Looking back at the example before the one above, you can notice how redundant the decorators in the example are. 3 decorators(div_decorate, p_decorate, strong_decorate) each with the same functionality but wrapping the string with different tags. We can definitely do much better than that. Why not have a more general implementation for one that takes the tag to wrap with as a string? Yes please!  
+> Output : `<p>`John Doe`</p>` :rocket: <a href='https://repl.it/CXH5' target='_blank' rel='nofollow'>Run code</a> ### Passing arguments to decorators Looking back at the example before the one above, you can notice how redundant the decorators in the example are. 3 decorators(div_decorate, p_decorate, strong_decorate) each with the same functionality but wrapping the string with different tags. We can definitely do much better than that. Why not have a more general implementation for one that takes the tag to wrap with as a string? Yes please!  
 
     def tags(tag_name):
         def tags_decorator(func):
@@ -201,7 +201,7 @@ With Python's decorator syntax, same thing can be achieved with much more expres
 
     print (get_text("John"))
 
-> Output: `<p>`Hello John`</p>` :rocket: [Run code](https://repl.it/CXH6) It took a bit more work in this case. Decorators expect to receive a function as an argument, that is why we will have to build a function that takes those extra arguments and generate our decorator on the fly. In the example above tags, is our decorator generator. Debugging decorated functions At the end of the day decorators are just wrapping our functions, in case of debugging that can be problematic since the wrapper function does not carry the name, module and docstring of the original function. Based on the example above if we do:  
+> Output: `<p>`Hello John`</p>` :rocket: <a href='https://repl.it/CXH6' target='_blank' rel='nofollow'>Run code</a> It took a bit more work in this case. Decorators expect to receive a function as an argument, that is why we will have to build a function that takes those extra arguments and generate our decorator on the fly. In the example above tags, is our decorator generator. Debugging decorated functions At the end of the day decorators are just wrapping our functions, in case of debugging that can be problematic since the wrapper function does not carry the name, module and docstring of the original function. Based on the example above if we do:  
 
     print (get_text.__name__)
 
@@ -225,6 +225,6 @@ With Python's decorator syntax, same thing can be achieved with much more expres
     print (get_text.__doc__) # returns some text
     print (get_text.__module__) # __main__
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [Run code](https://repl.it/CXHb)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CXHb' target='_blank' rel='nofollow'>Run code</a>
 
 You can notice from the output that the attributes of get_text are the correct ones now.

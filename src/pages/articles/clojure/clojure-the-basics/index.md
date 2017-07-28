@@ -3,7 +3,7 @@ title: Clojure the Basics
 ---
 ### Getting Started
 
-Before we begin, you may want to [install Clojure](http://clojure.org/guides/getting_started) and [Leiningen](http://leiningen.org/#install) (which is a tool for managing projects in Clojure). This will let you run Clojure in the command line using a REPL (Read-Evaluate-Print-Loop).
+Before we begin, you may want to <a href='http://clojure.org/guides/getting_started' target='_blank' rel='nofollow'>install Clojure</a> and <a href='http://leiningen.org/#install' target='_blank' rel='nofollow'>Leiningen</a> (which is a tool for managing projects in Clojure). This will let you run Clojure in the command line using a REPL (Read-Evaluate-Print-Loop).
 
 ## Defining Variables
 
@@ -53,7 +53,7 @@ A great feature about arguments in Clojure is destructuring. It allows you to 'p
     (add [1 2] 3)
     ; => 6
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [IDEOne it!](https://ideone.com/SWlvKn)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://ideone.com/SWlvKn' target='_blank' rel='nofollow'>IDEOne it!</a>
 
 The arguments to that function are a collection (`[x y]`) and a number (`z`). We can use destructuring to pull the first and second elements out of the list, and call them `x` and `y`.
 
@@ -69,7 +69,7 @@ You can also define a function with an arbitrary number of arguments using `&`.
     ;    ("foo" ["bar" 22])
     ;    nil
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [IDEOne it!](https://ideone.com/VftymP)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://ideone.com/VftymP' target='_blank' rel='nofollow'>IDEOne it!</a>
 
 As you can see, using `&` separated our function's arguments into one variable called `first` and a list of variables called `rest`. This means that our function could have any number of arguments!
 

@@ -11,9 +11,9 @@ Basically while the second argument is not true, you will have to remove the fir
 
 #### Relevant Links
 
-*   [Arguments object](http://forum.freecodecamp.com/t/javascript-arguments/14283)
-*   [Array.shift()](http://forum.freecodecamp.com/t/javascript-array-prototype-shift/14301)
-*   [Array.slice()](http://forum.freecodecamp.com/t/javascript-array-prototype-slice/14302)
+*   <a href='http://forum.freecodecamp.com/t/javascript-arguments/14283' target='_blank' rel='nofollow'>Arguments object</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-array-prototype-shift/14301' target='_blank' rel='nofollow'>Array.shift()</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-array-prototype-slice/14302' target='_blank' rel='nofollow'>Array.slice()</a>
 
 ## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 1
 
@@ -45,7 +45,7 @@ If you still can't figure out how to solve it with shift, then try solving it wi
       // drop them elements.
       var times = arr.length;
       for (var i = 0; i < times; i++) {
-        if (func(arr[0])) {
+        if (func(arr<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>0])) {
           break;
         } else {
           arr.shift();
@@ -57,7 +57,7 @@ If you still can't figure out how to solve it with shift, then try solving it wi
     // test here
     dropElements([1, 2, 3, 4], function(n) {return n >= 3;})
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLna/0)
+![:rocket:</a> <a href='https://repl.it/CLna/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -67,8 +67,8 @@ If you still can't figure out how to solve it with shift, then try solving it wi
 
 #### Relevant Links
 
-*   [For Loops](http://forum.freecodecamp.com/t/javascript-for-loop/14666)
-*   [More about for loops](http://forum.freecodecamp.com/t/javascript-for-loop/14666s-Explained)
+*   <a href='http://forum.freecodecamp.com/t/javascript-for-loop/14666' target='_blank' rel='nofollow'>For Loops</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-for-loop/14666s-Explained' target='_blank' rel='nofollow'>More about for loops</a>
 
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution:
 
@@ -77,9 +77,9 @@ If you still can't figure out how to solve it with shift, then try solving it wi
     }
 
     // test here
-    dropElements([1, 2, 3, 4], function(n) {return n >= 3;});
+    dropElements(<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>1, 2, 3, 4], function(n) {return n >= 3;});
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLnc/0)
+![:rocket:</a> <a href='https://repl.it/CLnc/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -89,13 +89,13 @@ If you still can't figure out how to solve it with shift, then try solving it wi
 
 #### Relevant Links
 
-*   [findIndex()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex)
-*   [Conditional Operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex' target='_blank' rel='nofollow'>findIndex()</a>
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator' target='_blank' rel='nofollow'>Conditional Operator</a>
 
 ## ![:rotating_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:") Advanced Code Solution:
 
     function dropElements(arr, func) {
-      while(arr.length > 0 && !func(arr[0])) {
+      while(arr.length > 0 && !func(arr<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>0])) {
         arr.shift();
       }
       return arr;
@@ -104,7 +104,7 @@ If you still can't figure out how to solve it with shift, then try solving it wi
     // test here
     dropElements([1, 2, 3, 4], function(n) {return n >= 3;});
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLnf/0)
+![:rocket:</a> <a href='https://repl.it/CLnf/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation
 
@@ -122,4 +122,4 @@ If you still can't figure out how to solve it with shift, then try solving it wi
 *   Categorize the solution in one of the following categories — **Basic**, **Intermediate** and **Advanced**. ![:traffic_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/traffic_light.png?v=3 ":traffic_light:")
 *   Please add your username only if you have added any **relevant main contents**. (![:warning:](https://forum.freecodecamp.com/images/emoji/emoji_one/warning.png?v=3 ":warning:") **_DO NOT_** _remove any existing usernames_)
 
-> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") [**`Wiki Challenge Solution Template`**](http://forum.freecodecamp.com/t/algorithm-article-template/14272) for reference.
+> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") <a href='http://forum.freecodecamp.com/t/algorithm-article-template/14272' target='_blank' rel='nofollow'>**`Wiki Challenge Solution Template`**</a> for reference.

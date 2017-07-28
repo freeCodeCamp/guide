@@ -43,6 +43,6 @@ is returned. If the iterable is empty and default is not provided, a `ValueError
     list4 = []
     print(max(list4)) # Gives ValueError as the argument is empty
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [Run Code](https://repl.it/CVok)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CVok' target='_blank' rel='nofollow'>Run Code</a>
 
-[Official Docs](https://docs.python.org/3/library/functions.html#max)
+<a href='https://docs.python.org/3/library/functions.html#max' target='_blank' rel='nofollow'>Official Docs</a>

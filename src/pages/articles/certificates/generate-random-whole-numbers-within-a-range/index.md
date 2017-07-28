@@ -5,7 +5,7 @@ title: Generate Random Whole Numbers Within a Range
 
 `Math.floor(Math.random() * (max - min + 1)) + min`
 
-**See Also:** ![:scroll:](https://forum.freecodecamp.com/images/emoji/emoji_one/scroll.png?v=3 ":scroll:") <a>**Explanation**</a> | [Explanation in SO](https://stackoverflow.com/questions/1527803/generating-random-numbers-in-javascript-in-a-specific-range/1527820#1527820)
+**See Also:** ![:scroll:](https://forum.freecodecamp.com/images/emoji/emoji_one/scroll.png?v=3 ":scroll:") <a>**Explanation**</a> | <a href='https://stackoverflow.com/questions/1527803/generating-random-numbers-in-javascript-in-a-specific-range/1527820#1527820' target='_blank' rel='nofollow'>Explanation in SO</a>
 
 ## Explanation
 

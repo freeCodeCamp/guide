@@ -9,7 +9,7 @@ One answer was to use the jQuery library, and then check to see if the element h
 
 I came up with a pure JavaScript function which solves this problem that has no dependancies and is a cross browser compliant solution. This function will analyze the element first to see if either its `display` or `visibility` properties are being shown as `none` or `hidden` respectively. Then, if those come back normal, it checks all parent elements up to the body of the document. If a parent element of the element being tested is hidden, that means that the element being tested is not visible in the document.
 
-[Here is a sample CodePen that demonstrates this behavior and even shows the comparison being use the jQuery solution and my pure JavaScript solution](http://codepen.io/marcusparsons/pen/bpNqgY). Notice in the CodePen that even though the element is cleary hidden from view, using jQuery's `.is(':visible')` is not a viable option for truly checking any element for visibility.
+<a href='http://codepen.io/marcusparsons/pen/bpNqgY' target='_blank' rel='nofollow'>Here is a sample CodePen that demonstrates this behavior and even shows the comparison being use the jQuery solution and my pure JavaScript solution</a>. Notice in the CodePen that even though the element is cleary hidden from view, using jQuery's `.is(':visible')` is not a viable option for truly checking any element for visibility.
 
 And here is the function I created:
 

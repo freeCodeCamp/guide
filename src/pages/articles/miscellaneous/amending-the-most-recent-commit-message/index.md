@@ -29,6 +29,6 @@ Force-pushing will overwrite the remote branch with the state of your local one.
 
 ## See Also
 
-*   [git-commit(1) Manual Page](https://www.kernel.org/pub/software/scm/git/docs/git-commit.html)
-*   [Pro Git](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History)
-*   [StackOverflow](http://stackoverflow.com/questions/179123/edit-an-incorrect-commit-message-in-git/179147#179147)
+*   <a href='https://www.kernel.org/pub/software/scm/git/docs/git-commit.html' target='_blank' rel='nofollow'>git-commit(1) Manual Page</a>
+*   <a href='https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History' target='_blank' rel='nofollow'>Pro Git</a>
+*   <a href='http://stackoverflow.com/questions/179123/edit-an-incorrect-commit-message-in-git/179147#179147' target='_blank' rel='nofollow'>StackOverflow</a>

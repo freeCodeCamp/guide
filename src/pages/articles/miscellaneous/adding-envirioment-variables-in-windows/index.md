@@ -3,7 +3,7 @@ title: Adding Envirioment Variables in Windows
 ---
 ### Via GUI
 
-1.  Download [Varpanel](http://implbits.com/products/varpanel/).
+1.  Download <a href='http://implbits.com/products/varpanel/' target='_blank' rel='nofollow'>Varpanel</a>.
 2.  Open Varpanel.
 3.  In PATH variable, add the relevant path (for example).
 
@@ -11,4 +11,4 @@ title: Adding Envirioment Variables in Windows
 
 ### Via Command Line
 
-Refer to [this answer](http://superuser.com/a/284351/275797) on Super User.
+Refer to <a href='http://superuser.com/a/284351/275797' target='_blank' rel='nofollow'>this answer</a> on Super User.

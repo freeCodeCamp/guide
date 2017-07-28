@@ -64,7 +64,7 @@ This is how you would convert a vector to a hashmap:
     (hash-map :a 1 :b 2 :c 3)
     ; => {:c 3, :b 2, :a 1}
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [IDEOne it!](https://ideone.com/k9cOjo)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://ideone.com/k9cOjo' target='_blank' rel='nofollow'>IDEOne it!</a>
 
 ## Update a hashmap
 

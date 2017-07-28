@@ -23,4 +23,4 @@ A "Sprint" is a short (1-3 weeks) development cycle during which a number of sto
 
 At a basic level, SCRUM helps us stay focused and informed about what the status is on each assigned task as well as break down communication barriers. In many professional settings the work day begins with a "Daily Scrum". We will be following a weekly scrum to align with our sprints. A common scrum failure is to attempt to problem solve during a scrum. Troubleshooting and brainstorming should always be done as a separate task from SCRUM.
 
-Read more [here](http://scrummethodology.com/).
+Read more <a href='http://scrummethodology.com/' target='_blank' rel='nofollow'>here</a>.

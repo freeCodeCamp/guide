@@ -5,50 +5,50 @@ Please note that Free Code Camp is not partnered with, nor do we receive a refer
 
 ## Skills-based Volunteer Organizations:
 
-*   [http://givecamp.org/](http://givecamp.org/)
-*   [http://www.volunteermatch.com](http://www.volunteermatch.com)
-*   [http://www.catchafire.org](http://www.catchafire.org)
-*   [http://anyonecanhaveawebsite.com](http://anyonecanhaveawebsite.com)
+*   <a href='http://givecamp.org/' target='_blank' rel='nofollow'>http://givecamp.org/</a>
+*   <a href='http://www.volunteermatch.com' target='_blank' rel='nofollow'>http://www.volunteermatch.com</a>
+*   <a href='http://www.catchafire.org' target='_blank' rel='nofollow'>http://www.catchafire.org</a>
+*   <a href='http://anyonecanhaveawebsite.com' target='_blank' rel='nofollow'>http://anyonecanhaveawebsite.com</a>
 
 ## Building a website:
 
-*   [http://www.wix.com/](http://www.wix.com/)
-*   [https://www.squarespace.com/](https://www.squarespace.com/)
-*   [https://wordpress.com/](https://wordpress.com/)
-*   [https://xprs.imcreator.com](https://xprs.imcreator.com)
-*   [or build it for free without writing any code](http://forum.freecodecamp.com/t/how-to-build-a-website-without-writing-any-code/19503)
+*   <a href='http://www.wix.com/' target='_blank' rel='nofollow'>http://www.wix.com/</a>
+*   <a href='https://www.squarespace.com/' target='_blank' rel='nofollow'>https://www.squarespace.com/</a>
+*   <a href='https://wordpress.com/' target='_blank' rel='nofollow'>https://wordpress.com/</a>
+*   <a href='https://xprs.imcreator.com' target='_blank' rel='nofollow'>https://xprs.imcreator.com</a>
+*   <a href='http://forum.freecodecamp.com/t/how-to-build-a-website-without-writing-any-code/19503' target='_blank' rel='nofollow'>or build it for free without writing any code</a>
 
 ## Donor and Volunteer Management Systems
 
-*   [http://causesignal.com](http://causesignal.com)
-*   [https://www.thedatabank.com/](https://www.thedatabank.com/)
-*   [http://www.donorsnap.com/](http://www.donorsnap.com/)
-*   [http://www.donorperfect.com/](http://www.donorperfect.com/)
-*   [https://www.blackbaud.com/fundraising-crm/etapestry-donor-management](https://www.blackbaud.com/fundraising-crm/etapestry-donor-management)
-*   [http://www.z2systems.com](http://www.z2systems.com/)
-*   [http://www.regpacks.com/volunteer-management](http://www.regpacks.com/volunteer-management/)
-*   [http://sumac.com](http://sumac.com/)
-*   [http://www.volgistics.com](http://www.volgistics.com)
+*   <a href='http://causesignal.com' target='_blank' rel='nofollow'>http://causesignal.com</a>
+*   <a href='https://www.thedatabank.com/' target='_blank' rel='nofollow'>https://www.thedatabank.com/</a>
+*   <a href='http://www.donorsnap.com/' target='_blank' rel='nofollow'>http://www.donorsnap.com/</a>
+*   <a href='http://www.donorperfect.com/' target='_blank' rel='nofollow'>http://www.donorperfect.com/</a>
+*   <a href='https://www.blackbaud.com/fundraising-crm/etapestry-donor-management' target='_blank' rel='nofollow'>https://www.blackbaud.com/fundraising-crm/etapestry-donor-management</a>
+*   <a href='http://www.z2systems.com/' target='_blank' rel='nofollow'>http://www.z2systems.com</a>
+*   <a href='http://www.regpacks.com/volunteer-management/' target='_blank' rel='nofollow'>http://www.regpacks.com/volunteer-management</a>
+*   <a href='http://sumac.com/' target='_blank' rel='nofollow'>http://sumac.com</a>
+*   <a href='http://www.volgistics.com' target='_blank' rel='nofollow'>http://www.volgistics.com</a>
 
 ## Inventory Management Systems
 
-*   [https://www.ezofficeinventory.com/industries/non-profits](https://www.ezofficeinventory.com/industries/non-profits)
-*   [https://www.ordoro.com](https://www.ordoro.com)
-*   [http://www.unleashedsoftware.com](http://www.unleashedsoftware.com)
+*   <a href='https://www.ezofficeinventory.com/industries/non-profits' target='_blank' rel='nofollow'>https://www.ezofficeinventory.com/industries/non-profits</a>
+*   <a href='https://www.ordoro.com' target='_blank' rel='nofollow'>https://www.ordoro.com</a>
+*   <a href='http://www.unleashedsoftware.com' target='_blank' rel='nofollow'>http://www.unleashedsoftware.com</a>
 
 ## E-Learning platforms
 
-*   [http://www.dokeos.com](http://www.dokeos.com/)
-*   [http://www.efrontlearning.net/](http://www.efrontlearning.net/)
-*   [https://moodle.org/](https://moodle.org/)
-*   [https://sakaiproject.org/](https://sakaiproject.org/)
+*   <a href='http://www.dokeos.com/' target='_blank' rel='nofollow'>http://www.dokeos.com</a>
+*   <a href='http://www.efrontlearning.net/' target='_blank' rel='nofollow'>http://www.efrontlearning.net/</a>
+*   <a href='https://moodle.org/' target='_blank' rel='nofollow'>https://moodle.org/</a>
+*   <a href='https://sakaiproject.org/' target='_blank' rel='nofollow'>https://sakaiproject.org/</a>
 
 ## Community Management
 
-*   [https://civicrm.org/](https://civicrm.org/)
-*   [http://tcmgr.com/](http://tcmgr.com/)
+*   <a href='https://civicrm.org/' target='_blank' rel='nofollow'>https://civicrm.org/</a>
+*   <a href='http://tcmgr.com/' target='_blank' rel='nofollow'>http://tcmgr.com/</a>
 
 ## Electronic Forms
 
-*   [http://www.google.com/forms](http://www.google.com/forms)
-*   [http://www.typeform.com](http://www.typeform.com)
+*   <a href='http://www.google.com/forms' target='_blank' rel='nofollow'>http://www.google.com/forms</a>
+*   <a href='http://www.typeform.com' target='_blank' rel='nofollow'>http://www.typeform.com</a>

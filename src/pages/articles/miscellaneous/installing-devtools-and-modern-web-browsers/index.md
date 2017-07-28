@@ -25,7 +25,7 @@ We show you how to install various programming langauges, devtools and web brows
 
 ### Modern Web Browsers
 
-The most popular web browsers used by developers are [Chrome](https://www.google.com/chrome/)/[Chromium](https://www.chromium.org/) and [Firefox Developer Edition](https://www.mozilla.org/firefox/developer/).
+The most popular web browsers used by developers are <a href='https://www.google.com/chrome/' target='_blank' rel='nofollow'>Chrome</a>/<a href='https://www.chromium.org/' target='_blank' rel='nofollow'>Chromium</a> and <a href='https://www.mozilla.org/firefox/developer/' target='_blank' rel='nofollow'>Firefox Developer Edition</a>.
 
 **Installing Chromium:**
 

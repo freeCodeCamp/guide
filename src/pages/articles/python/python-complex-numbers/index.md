@@ -27,7 +27,7 @@ No literal exists for creating a complex number with non-zero real and imaginary
     >>> a.imag
     3.5
 
-Or use the [complex constructor](https://docs.python.org/3/library/functions.html#complex).
+Or use the <a href='https://docs.python.org/3/library/functions.html#complex' target='_blank' rel='nofollow'>complex constructor</a>.
 
     class complex([real[, imag]])
 

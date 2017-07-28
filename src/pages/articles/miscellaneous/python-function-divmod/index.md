@@ -23,6 +23,6 @@ For **Decimal number arguments**, return value will be same as `(q, a % b)`, whe
     print(q) # prints 5.0 because math.floor(13.5/2.5) = 5.0
     print(r) # prints 1.0 because (13.5 % 2.5) = 1.0
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [REPL It!](https://repl.it/FGLK/0)
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/FGLK/0' target='_blank' rel='nofollow'>REPL It!</a>
 
-[Official Docs](https://docs.python.org/3/library/functions.html#divmod)
+<a href='https://docs.python.org/3/library/functions.html#divmod' target='_blank' rel='nofollow'>Official Docs</a>

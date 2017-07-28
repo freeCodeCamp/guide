@@ -3,9 +3,9 @@ title: Area of a Circle
 ---
 ## Area of a Circle
 
-This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/area-of-a-circle/index.md).
+This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/area-of-a-circle/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
-[This quick style guide will help ensure your pull request gets accepted](https://github.com/freecodecamp/guides/blob/master/README.md).
+<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 

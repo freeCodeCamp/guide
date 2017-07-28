@@ -1,7 +1,7 @@
 ---
 title: Python Code Blocks and Indentation
 ---
-[Indentation](https://docs.python.org/3/reference/lexical_analysis.html#indentation)
+<a href='https://docs.python.org/3/reference/lexical_analysis.html#indentation' target='_blank' rel='nofollow'>Indentation</a>
 
 **TODO: NOTE**
 

@@ -5,7 +5,7 @@ The JavaScript array method `.join()` will combine all elements of an array into
 
 **Syntax**
 
-    var array = ["Lorem", "Ipsum", "Dolor", "Sit"];
+    var array = <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join' target='_blank' rel='nofollow'>"Lorem", "Ipsum", "Dolor", "Sit"];
     var str = array.join([separator]);
 
 ## Parameters
@@ -31,4 +31,4 @@ Optional. Specifies the string to use to separate each element of the original a
     var join3 = array.join(" + ");      // assigns "Lorem + Ipsum + Dolor + Sit" to join3 variable
     var join4 = array.join("");         // assigns "LoremIpsumDolorSit" to join4 variable
 
-Source [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join)
+Source [MDN</a>

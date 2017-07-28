@@ -11,7 +11,7 @@ title: Caesars Cipher
 
 #### Relevant Links
 
-*   [String.prototype.charCodeAt](http://forum.freecodecamp.com/t/javascript-string-prototype-charcodeat/15933)
+*   <a href='http://forum.freecodecamp.com/t/javascript-string-prototype-charcodeat/15933' target='_blank' rel='nofollow'>String.prototype.charCodeAt</a>
 *   <a>String.fromCharCode</a>
 
 ## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 1
@@ -60,27 +60,27 @@ Leave anything that doesn't come between A-Z as it is.
         }).join('');  // Rejoin the array into a string
     }
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLjU/38)
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLjU/38' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
 *   A string variable `nstr` is declared and initialized to store the decoded string.
 *   The for loop is used to loop through each character of the input string.
-*   If the character is not uppercase English alphabets(i.e. its ascii doesn't lie between 65 and 91 ), we'll leave it as it is and [continue](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/continue) with next iteration.
+*   If the character is not uppercase English alphabets(i.e. its ascii doesn't lie between 65 and 91 ), we'll leave it as it is and <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/continue' target='_blank' rel='nofollow'>continue</a> with next iteration.
 *   If it's the uppercase English alphabet, we'll subtract 13 from it's ascii code.
 *   If the ascii code is less than 78, it'll get out of range when subtracted by 13 so we'll add 26 (number of letters in English alphabets) to it so that after A it'll go back to Z. e.g. M(77) ![:left_right_arrow:](https://forum.freecodecamp.com/images/emoji/emoji_one/left_right_arrow.png?v=3 ":left_right_arrow:") 77-13 = 64(Not an English alphabet) +26 = 90 ![:left_right_arrow:](https://forum.freecodecamp.com/images/emoji/emoji_one/left_right_arrow.png?v=3 ":left_right_arrow:") Z(90).
 
 #### Relevant Links
 
-*   [Array.prototype.map](http://forum.freecodecamp.com/t/javascript-array-prototype-map/14294)
-*   [String.prototype.split](http://forum.freecodecamp.com/t/javascript-string-prototype-split/15944)
-*   [Array.prototype.join](http://forum.freecodecamp.com/t/javascript-array-prototype-join/14292)
+*   <a href='http://forum.freecodecamp.com/t/javascript-array-prototype-map/14294' target='_blank' rel='nofollow'>Array.prototype.map</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-string-prototype-split/15944' target='_blank' rel='nofollow'>String.prototype.split</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-array-prototype-join/14292' target='_blank' rel='nofollow'>Array.prototype.join</a>
 
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution:
 
     // Solution with Regular expression and Array of ASCII character codes
     function rot13(str) {
-      var rotCharArray = [];
+      var rotCharArray = <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply' target='_blank' rel='nofollow'>];
       var regEx = /[A-Z]/ ;
       str = str.split("");
       for (var x in str) {
@@ -142,16 +142,16 @@ Leave anything that doesn't come between A-Z as it is.
 
 #### Relevant Links
 
-*   [Function.apply](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply)
-*   [Regex](https://forum.freecodecamp.com/t/regular-expressions-resources/15931)
-*   [Regex.test](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/test)
+*   [Function.apply</a>
+*   <a href='https://forum.freecodecamp.com/t/regular-expressions-resources/15931' target='_blank' rel='nofollow'>Regex</a>
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/test' target='_blank' rel='nofollow'>Regex.test</a>
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLjU/39)
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLjU/39' target='_blank' rel='nofollow'>Run Code</a>
 
 ## ![:rotating_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:") Advanced Code Solution:
 
     function rot13(str) { // LBH QVQ VG!
-      return str.replace(/[A-Z]/g, L => String.fromCharCode((L.charCodeAt(0) % 26) + 65));
+      return str.replace(/<a href='http://unicode-table.com/en/alphabets/english/' target='_blank' rel='nofollow'>A-Z]/g, L => String.fromCharCode((L.charCodeAt(0) % 26) + 65));
     }
 
 ### Algorithm Explanation:
@@ -196,7 +196,7 @@ Hence, we conclude that using modulo operator, one can map a range of values to 
 
 Did you understand till this?
 
-Now let us consider mapping a range of `26` numbers i.e. between [`65 - 90`] (_which represents uppercase [**English alphabets**](http://unicode-table.com/en/alphabets/english/) in [Unicode character set](http://unicode-table.com/en/alphabets/)_) to a range of numbers between [`0 - 25`].
+Now let us consider mapping a range of `26` numbers i.e. between [`65 - 90`] (_which represents uppercase [**English alphabets**</a> in <a href='http://unicode-table.com/en/alphabets/' target='_blank' rel='nofollow'>Unicode character set</a>_) to a range of numbers between <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace' target='_blank' rel='nofollow'>`0 - 25`].
 
     [A]  65 % 26 ⇔ 13
     [B]  66 % 26 ⇔ 14
@@ -259,14 +259,14 @@ E.g. `65` maps to `13` which can be taken as an offset value and added to `65` t
 
 ### Code Explanation:
 
-*   `String.prototype.replace` [function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace) lets you transform a `String` based on some pattern match (defined by a regular expression), and the [transformation function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace#Specifying_a_function_as_a_parameter) (which is applied to each of the pattern matches).
-*   [Arrow function](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Functions/Arrow_functions) syntax is used to write the function parameter to `replace()`.
-*   `L` represents a single unit, from every pattern match with `/[A-Z]/g` - which is every uppercase letter in the alphabet, from `A` to `Z`, present in the string.
+*   `String.prototype.replace` [function</a> lets you transform a `String` based on some pattern match (defined by a regular expression), and the <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace#Specifying_a_function_as_a_parameter' target='_blank' rel='nofollow'>transformation function</a> (which is applied to each of the pattern matches).
+*   <a href='https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Functions/Arrow_functions' target='_blank' rel='nofollow'>Arrow function</a> syntax is used to write the function parameter to `replace()`.
+*   `L` represents a single unit, from every pattern match with `/<a href='http://forum.freecodecamp.com/t/javascript-string-prototype-replace/15942' target='_blank' rel='nofollow'>A-Z]/g` - which is every uppercase letter in the alphabet, from `A` to `Z`, present in the string.
 *   The arrow function applies the `rot13` transform on every uppercase letter from English alphabet present in the given string.
 
 #### Relevant Links
 
-*   [String.prototype.replace](http://forum.freecodecamp.com/t/javascript-string-prototype-replace/15942)
+*   [String.prototype.replace</a>
 
 ## ![:clipboard:](https://forum.freecodecamp.com/images/emoji/emoji_one/clipboard.png?v=3 ":clipboard:") NOTE TO CONTRIBUTORS:
 
@@ -275,4 +275,4 @@ E.g. `65` maps to `13` which can be taken as an offset value and added to `65` t
 *   Categorize the solution in one of the following categories -- **Basic**, **Intermediate** and **Advanced**. ![:traffic_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/traffic_light.png?v=3 ":traffic_light:")
 *   Please add your username only if you have added any **relevant main contents**. (![:warning:](https://forum.freecodecamp.com/images/emoji/emoji_one/warning.png?v=3 ":warning:") **_DO NOT_** _remove any existing usernames_)
 
-> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") [**`Wiki Challenge Solution Template`**](http://forum.freecodecamp.com/t/algorithm-article-template/14272) for reference.
+> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") <a href='http://forum.freecodecamp.com/t/algorithm-article-template/14272' target='_blank' rel='nofollow'>**`Wiki Challenge Solution Template`**</a> for reference.

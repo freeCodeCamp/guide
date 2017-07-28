@@ -15,7 +15,7 @@ You may have to change your Python path if it looks different than the one above
 
 The command line shell should now look like below, indicating you are in a virtual environment.
 
-    (taskplanner)[munsterberg@Lenovo ~/workspace] $
+    (taskplanner)<a href='https://sites.google.com/a/chromium.org/chromedriver/downloads' target='_blank' rel='nofollow'>munsterberg@Lenovo ~/workspace] $
 
 If it doesn't look like that, just type:
 
@@ -72,13 +72,13 @@ So let's go ahead and install Django first into our testing environment (taskpla
 
 To create our functional tests we are going to need a few things. First, we need to have the Firefox web browser installed in our machine. If you don't have Firefox, install that now.
 
-**Sidenote**: You can use Chrome for integration testing, but you have to download the driver [here](https://sites.google.com/a/chromium.org/chromedriver/downloads) and follow [this stack overflow question](http://stackoverflow.com/questions/13724778/how-to-run-selenium-webdriver-test-cases-in-chrome). Firefox has had historically better performance than chrome when running integration tests, which is a very important consideration since compared to unit tests, integration tests are extremely slow.
+**Sidenote**: You can use Chrome for integration testing, but you have to download the driver [here</a> and follow <a href='http://stackoverflow.com/questions/13724778/how-to-run-selenium-webdriver-test-cases-in-chrome' target='_blank' rel='nofollow'>this stack overflow question</a>. Firefox has had historically better performance than chrome when running integration tests, which is a very important consideration since compared to unit tests, integration tests are extremely slow.
 
 This is because integration tests are testing the **entire** system, rather than 'units' (small components). In the real world, sometimes it's best to avoid integration tests because of the long development time to create them, slow run time, ambiguous errors, and other reasons you would discover in time.
 
 However, they are still worth our consideration when developing a real world app, and can be very useful in terms of reliability despite the performance downsides.
 
-Next, we need to install a package called [Selenium](http://selenium.googlecode.com/svn/trunk/docs/api/py/index.html). This package will provide us with a WebDriver so we can control a browser with our tests. Selenium is usually used to automate your browser.
+Next, we need to install a package called <a href='http://selenium.googlecode.com/svn/trunk/docs/api/py/index.html' target='_blank' rel='nofollow'>Selenium</a>. This package will provide us with a WebDriver so we can control a browser with our tests. Selenium is usually used to automate your browser.
 
     pip install selenium
 
@@ -101,7 +101,7 @@ Let's do that now:
     touch functional_tests/__init__.py
     touch functional_tests/test_all_users.py
 
-**Sidenote**: `__init__.py` is almost always an empty file. For more info on what it's used for, see [this stackoverflow answer.](http://stackoverflow.com/questions/448271/what-is-init-py-for)
+**Sidenote**: `__init__.py` is almost always an empty file. For more info on what it's used for, see <a href='http://stackoverflow.com/questions/448271/what-is-init-py-for' target='_blank' rel='nofollow'>this stackoverflow answer.</a>
 
 We can finally start writing our first functional test! Functional tests are for testing chunks of functionality in our web application. TDD with Python describes functional tests as "how the application functions from the user's point of view".
 

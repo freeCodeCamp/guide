@@ -1,7 +1,7 @@
 ---
 title: React Router Cheatsheet
 ---
-Based on [http://ricostacruz.com/cheatsheets/react-router.html](http://ricostacruz.com/cheatsheets/react-router.html) but updated for v2.0.0 of React Router.
+Based on <a href='http://ricostacruz.com/cheatsheets/react-router.html' target='_blank' rel='nofollow'>http://ricostacruz.com/cheatsheets/react-router.html</a> but updated for v2.0.0 of React Router.
 
 ## Basic
 

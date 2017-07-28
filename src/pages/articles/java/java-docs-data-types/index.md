@@ -18,7 +18,7 @@ The details of each of the data types is given below :
 
 ## Integers:
 
-These are of four types: `byte`, `short`, `int`, `long`. It is important to note that these are signed positive and negative values. Signed integers are stored in a computer using [2's complement](http://www.ele.uri.edu/courses/ele447/proj_pages/divid/twos.html). It consist both negative and positive values but in different formats like `(-1 to -128)` or `(0 to +127)`. An unsigned integer can hold a larger positive value, and no negative value like `(0 to 255)`. Unlike C++ there is no unsigned integer in Java.
+These are of four types: `byte`, `short`, `int`, `long`. It is important to note that these are signed positive and negative values. Signed integers are stored in a computer using <a href='http://www.ele.uri.edu/courses/ele447/proj_pages/divid/twos.html' target='_blank' rel='nofollow'>2's complement</a>. It consist both negative and positive values but in different formats like `(-1 to -128)` or `(0 to +127)`. An unsigned integer can hold a larger positive value, and no negative value like `(0 to 255)`. Unlike C++ there is no unsigned integer in Java.
 
 ### byte:
 
@@ -85,7 +85,7 @@ These are also called real numbers and are used for expressions involving fracti
 
 ### float:
 
-float data type is a single-precision 32-bit [IEEE 754 floating point](http://steve.hollasch.net/cgindex/coding/ieeefloat.html).
+float data type is a single-precision 32-bit <a href='http://steve.hollasch.net/cgindex/coding/ieeefloat.html' target='_blank' rel='nofollow'>IEEE 754 floating point</a>.
 
     Wrapper Class: Float
 

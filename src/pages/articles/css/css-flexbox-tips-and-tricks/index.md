@@ -3,7 +3,7 @@ title: CSS Flexbox Tips and Tricks
 ---
 # CSS Flexbox
 
-[CSS Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes) allows us to easily format our HTML like you never knew was possible. With flexbox it is possible to align vertically and horizontally, easily. Like the sound of it? Yeah me too.
+<a href='https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes' target='_blank' rel='nofollow'>CSS Flexbox</a> allows us to easily format our HTML like you never knew was possible. With flexbox it is possible to align vertically and horizontally, easily. Like the sound of it? Yeah me too.
 
 It is also fantastic for general layout of your website or app, it is easy to learn, supported well (in all modern browsers) and is great to work with, not to mention it doesn't take long to get to grips with at all!
 
@@ -102,26 +102,26 @@ This is for aligning items with multiple lines, it is for aligning on the cross-
 
 ## Games and Apps
 
-[Flexbox Defense](http://www.flexboxdefense.com/) is a web game that teaches flexbox the fun way.
+<a href='http://www.flexboxdefense.com/' target='_blank' rel='nofollow'>Flexbox Defense</a> is a web game that teaches flexbox the fun way.
 
-[Flexbox Froggy](http://flexboxfroggy.com/) is also a web game that teaches flexbox the fun way.
+<a href='http://flexboxfroggy.com/' target='_blank' rel='nofollow'>Flexbox Froggy</a> is also a web game that teaches flexbox the fun way.
 
-[Flexbox in 5](http://flexboxin5.com/) is a web app that allows you to be able to see how flexbox works with a few simple controls.
+<a href='http://flexboxin5.com/' target='_blank' rel='nofollow'>Flexbox in 5</a> is a web app that allows you to be able to see how flexbox works with a few simple controls.
 
-[Flexyboxes](http://the-echoplex.net/flexyboxes/) is an app that allows you too see code samples and change parameters to see how flexbox works visually.
+<a href='http://the-echoplex.net/flexyboxes/' target='_blank' rel='nofollow'>Flexyboxes</a> is an app that allows you too see code samples and change parameters to see how flexbox works visually.
 
-[Flexbox Patters](http://www.flexboxpatterns.com) is a website that shows off loads of flexbox examples
+<a href='http://www.flexboxpatterns.com' target='_blank' rel='nofollow'>Flexbox Patters</a> is a website that shows off loads of flexbox examples
 
 ## Documentation
 
-[Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes)
+<a href='https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes' target='_blank' rel='nofollow'>Mozilla Developer Network</a>
 
-[CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+<a href='https://css-tricks.com/snippets/css/a-guide-to-flexbox/' target='_blank' rel='nofollow'>CSS Tricks</a>
 
 ## Videos
 
-[Flexbox Essentials](https://www.youtube.com/watch?v=G7EIAgfkhmg)
+<a href='https://www.youtube.com/watch?v=G7EIAgfkhmg' target='_blank' rel='nofollow'>Flexbox Essentials</a>
 
-[Flexbox Practical Examples](https://www.youtube.com/watch?v=H1lREysgdgc)
+<a href='https://www.youtube.com/watch?v=H1lREysgdgc' target='_blank' rel='nofollow'>Flexbox Practical Examples</a>
 
-[What The Flexbox?!](https://www.youtube.com/watch?v=Vj7NZ6FiQvo&list=PLu8EoSxDXHP7xj_y6NIAhy0wuCd4uVdid)
+<a href='https://www.youtube.com/watch?v=Vj7NZ6FiQvo&list=PLu8EoSxDXHP7xj_y6NIAhy0wuCd4uVdid' target='_blank' rel='nofollow'>What The Flexbox?!</a>

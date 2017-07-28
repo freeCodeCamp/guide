@@ -48,15 +48,15 @@ Now it's time to write some React code. Just like in the `dist/index.html` file,
 
 The code that looks like HTML elements is actually JSX, which is a part of React.
 
-*   [Help: More about JSX](http://buildwithreact.com/tutorial/jsx)
+*   <a href='http://buildwithreact.com/tutorial/jsx' target='_blank' rel='nofollow'>Help: More about JSX</a>
 
 To explain what is going on in this file, we'll break it down:  
 - First, we are importing `React` and `ReactDOM`. These are required for any React file that is used to inject code into the DOM. The `ReactDOM` is a virtual DOM, and it's not the same thing as the standard Document Object Model.
 
-*   [Help: More about the React DOM](https://facebook.github.io/react/docs/glossary.html)
-    *   Next, we are creating a React class. Classes were added to JavaScript in ES6\. Therefore, this is the ES6 method of writing a React class, but of course [we can write one in ES5 too](https://toddmotto.com/react-create-class-versus-component/).
+*   <a href='https://facebook.github.io/react/docs/glossary.html' target='_blank' rel='nofollow'>Help: More about the React DOM</a>
+    *   Next, we are creating a React class. Classes were added to JavaScript in ES6\. Therefore, this is the ES6 method of writing a React class, but of course <a href='https://toddmotto.com/react-create-class-versus-component/' target='_blank' rel='nofollow'>we can write one in ES5 too</a>.
 
-*   [Help: More about ES6 classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes' target='_blank' rel='nofollow'>Help: More about ES6 classes</a>
 
 Every React class has a `render` method. In this case, the `render` method is `return`ing a JSX `div` element. This is what we'll see all over any React file. The class can contain other methods which must appear before the `render` method, which always goes at the bottom of a class.
 
@@ -88,7 +88,7 @@ Here is what the `webpack.config.js` file looks like:
           filename: "bundle.js"
       },
       module: {
-          loaders: [
+          loaders: <a href='https://en.wikipedia.org/wiki/Don%27t_repeat_yourself' target='_blank' rel='nofollow'>
               {
                 test: /\.jsx?$/,
                 exclude: /(node_modules|bower_components)/,
@@ -105,15 +105,15 @@ Again, let's break it down so that it's clear what this file is doing:
 
 *   Firstly, we are requiring NodeJS's `path` module so that we can handle file paths, which is required for setting the object's `context`. It's very important to use this module rather than try and concatenate directories with strings, because some operating systems, like Windows, require this.
 
-*   Then, we specify a `srcPath` and a `buildPath` using the `path` module that we just required. Doing this will ensure we have [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself), readable code.
+*   Then, we specify a `srcPath` and a `buildPath` using the `path` module that we just required. Doing this will ensure we have [DRY</a>, readable code.
 
 *   Now comes the time to write the object. The properties we are going to use are all relevant to Webpack.
 
     *   We first provide a context, which simply specifies where our app is. It refers to the `context` variable that we just created.
     *   We then specify the entry point, which is of course the React app we wrote earlier (`src/js/client.js`).
     *   Next we specify the name of the bundled file that Webpack creates when it runs. In this case it's `dist/bundle.js`. Sound familiar? It should do, because this is the file we are linking to from our `dist/index.html`!
-    *   Finally comes the `module` property, which contains an array, `loaders`, which currently contains a single object. This object's properties tell Webpack what JavaScript files are being written with ES6 and React, so that its loader, `babel` can run accordingly when `webpack.config.js` is run. This is largely boilerplate code that we can see at [the readme page on Babel Loader](https://github.com/babel/babel-loader).
+    *   Finally comes the `module` property, which contains an array, `loaders`, which currently contains a single object. This object's properties tell Webpack what JavaScript files are being written with ES6 and React, so that its loader, `babel` can run accordingly when `webpack.config.js` is run. This is largely boilerplate code that we can see at <a href='https://github.com/babel/babel-loader' target='_blank' rel='nofollow'>the readme page on Babel Loader</a>.
 
 If `webpack.config.js` is confusing now, don't worry, as long as you understand what it is there to do.
 
-*   [Help: More about writing a Webpack configuration file](https://webpack.github.io/docs/tutorials/getting-started/#config-file)
+*   <a href='https://webpack.github.io/docs/tutorials/getting-started/#config-file' target='_blank' rel='nofollow'>Help: More about writing a Webpack configuration file</a>

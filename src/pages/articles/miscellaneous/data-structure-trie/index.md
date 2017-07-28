@@ -111,9 +111,9 @@ By deleting data, you just need to change the variable `ends_here` to `False`. D
     		else:
     			return self.edges[index].delete_word(word[1:])
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [Run Code](https://repl.it/CWbr)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CWbr' target='_blank' rel='nofollow'>Run Code</a>
 
 ## Resources
 
-*   For further reading, you can try this [topcoder](https://www.topcoder.com/community/data-science/data-science-tutorials/using-tries/) tutorial.
-*   Also, a tutorial from [geeksforgeeks](http://www.geeksforgeeks.org/trie-insert-and-search/)
+*   For further reading, you can try this <a href='https://www.topcoder.com/community/data-science/data-science-tutorials/using-tries/' target='_blank' rel='nofollow'>topcoder</a> tutorial.
+*   Also, a tutorial from <a href='http://www.geeksforgeeks.org/trie-insert-and-search/' target='_blank' rel='nofollow'>geeksforgeeks</a>

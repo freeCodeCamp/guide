@@ -36,6 +36,6 @@ The `object` argument can typically be a `int`,`float`,`str`,`list`,`dict`,`tupl
     tup2 = (1,1)
     print(id(tup1) == id(tup2)) #=> False
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [Run Code](https://repl.it/CQw7/1)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CQw7/1' target='_blank' rel='nofollow'>Run Code</a>
 
-[Official Docs](https://docs.python.org/3/library/functions.html#id)
+<a href='https://docs.python.org/3/library/functions.html#id' target='_blank' rel='nofollow'>Official Docs</a>

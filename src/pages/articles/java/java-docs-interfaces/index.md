@@ -22,7 +22,7 @@ The interface above contains one field and two methods. Alone, it is not of much
     	}
     }
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [Run Code](https://repl.it/CItd/0)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CItd/0' target='_blank' rel='nofollow'>Run Code</a>
 
 Now, there is a **ground rule** : The Class must implement **all** of the methods in the Interface. The methods must have _the exact same_ signature (name, parameters and exceptions) as described in the interface. The class _does not_ need to declare the fields though, only the methods.
 
@@ -62,7 +62,7 @@ What can you do with this feature? Polymorphism! You can use only interfaces to 
     Starter.startEngine(tesla); // starting engine ...
     Starter.startEngine(tata); // starting truck engine ...
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [Run Code](https://repl.it/CItm/0)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CItm/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ## But how about multiple interfaces?
 
@@ -89,14 +89,14 @@ Yes, you can implement multiple Interfaces in a single class. While in [Inherita
     	}
     }
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [Run Code](https://repl.it/CIto/0)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CIto/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ## Some features of Interfaces
 
 *   You can place variables within an Interface, although it won't be a sensible decision as Classes are not bound to have the same variable. In short, avoid placing variables!
 *   All variables and methods in an Interface are public, even if you leave out the `public` keyword.
 *   An Interface cannot specify the implementation of a particular method. Its upto the Classes to do it. Although there has been a recent exception (see below).
-*   If a Class implements multiple Interfaces, then there is a remote chance of method signature overlap. Since Java does not allow multiple methods of the exact same signature, this can lead to problems. See [this question](http://stackoverflow.com/questions/2598009/method-name-collision-in-interface-implementation-java) for more info.
+*   If a Class implements multiple Interfaces, then there is a remote chance of method signature overlap. Since Java does not allow multiple methods of the exact same signature, this can lead to problems. See <a href='http://stackoverflow.com/questions/2598009/method-name-collision-in-interface-implementation-java' target='_blank' rel='nofollow'>this question</a> for more info.
 
 ## Interface Default Methods
 
@@ -137,7 +137,7 @@ Thankfully, Java 8 now provides us `default` methods of Interfaces. A `default` 
     Smartphone motoG = new Smartphone();
     motog.getRoughCoordinates(); // Fetching rough coordinates...
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [Run Code](https://repl.it/CItp/0)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CItp/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### But, what happens if two interfaces have the same method signature?
 
@@ -172,7 +172,7 @@ Awesome question. In that case, if you do not provide the implementation in the 
     Smartphone motoG = new Smartphone();
     motoG.next(); // Next from MusicPlayer
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [Run Code](https://repl.it/CIts/0)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CIts/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ## Inheriting an Interface
 
@@ -204,7 +204,7 @@ That means, the Class implementing `MusicPlayer` Interface has to implement _all
     	}
     }
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [Run Code](https://repl.it/CIty/0)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CIty/0' target='_blank' rel='nofollow'>Run Code</a>
 
 Whoops, did I forget `next()` ? See, since it was a `default` method, I didn't had to provide an implementation at all. (Wont work for JDK < 8)
 

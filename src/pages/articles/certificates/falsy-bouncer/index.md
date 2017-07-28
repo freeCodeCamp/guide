@@ -45,17 +45,17 @@ Then we need to add a `filter()` with the falsy values function...
       return arr.filter(Boolean);
     }
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLjU/32)
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLjU/32' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
-The `Array.prototype.filter` method expects a function that returns a `Boolean` value which takes a single argument and returns `true` for [truthy](http://forum.freecodecamp.com/t/javascript-truthy-value/15975) value or `false` for <a>falsy</a> value. Hence we pass the built-in `Boolean` function.
+The `Array.prototype.filter` method expects a function that returns a `Boolean` value which takes a single argument and returns `true` for <a href='http://forum.freecodecamp.com/t/javascript-truthy-value/15975' target='_blank' rel='nofollow'>truthy</a> value or `false` for <a>falsy</a> value. Hence we pass the built-in `Boolean` function.
 
 #### Relevant Links
 
-*   [Boolean](http://forum.freecodecamp.com/t/javascript-boolean/14311)
-*   [Truthy](http://forum.freecodecamp.com/t/javascript-truthy-value/15975)
-*   [Array.prototype.filter()](http://forum.freecodecamp.com/t/javascript-array-prototype-filter/14289)
+*   <a href='http://forum.freecodecamp.com/t/javascript-boolean/14311' target='_blank' rel='nofollow'>Boolean</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-truthy-value/15975' target='_blank' rel='nofollow'>Truthy</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-array-prototype-filter/14289' target='_blank' rel='nofollow'>Array.prototype.filter()</a>
 
 ## ![:trophy:](https://forum.freecodecamp.com/images/emoji/emoji_one/trophy.png?v=3 ":trophy:") Credits:
 
@@ -70,4 +70,4 @@ If you found this page useful, you can give thanks by copying and pasting this o
 *   Categorize the solution in one of the following categories — **Basic**, **Intermediate** and **Advanced**. ![:traffic_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/traffic_light.png?v=3 ":traffic_light:")
 *   Please add your username only if you have added any **relevant main contents**. (![:warning:](https://forum.freecodecamp.com/images/emoji/emoji_one/warning.png?v=3 ":warning:") **_DO NOT_** _remove any existing usernames_)
 
-> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") [**`Wiki Challenge Solution Template`**](http://forum.freecodecamp.com/t/algorithm-article-template/14272) for reference.
+> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") <a href='http://forum.freecodecamp.com/t/algorithm-article-template/14272' target='_blank' rel='nofollow'>**`Wiki Challenge Solution Template`**</a> for reference.
