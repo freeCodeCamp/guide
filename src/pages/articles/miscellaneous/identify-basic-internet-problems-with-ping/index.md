@@ -11,7 +11,7 @@ You can use the `ping` command built into your Mac OS X, Windows, or Linux compu
 
 ## The `ping` command:
 
-The `ping` command is a simple way to verify that another computer can receive information from you. The original author, [Mike Muuss](https://en.wikipedia.org/wiki/Mike_Muuss), actually [named the program after the "ping" sound](https://en.wikipedia.org/wiki/Ping_%28networking_utility%29#History) that a submarine sends to detect objects in the water. If an echo of the ping comes back, it means that there is something out there. In fact, `ping` uses the "[Internet Control Message Protocol Echo Request](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol)" as part of its underlying software design.
+The `ping` command is a simple way to verify that another computer can receive information from you. The original author, <a href='https://en.wikipedia.org/wiki/Mike_Muuss' target='_blank' rel='nofollow'>Mike Muuss</a>, actually <a href='https://en.wikipedia.org/wiki/Ping_%28networking_utility%29#History' target='_blank' rel='nofollow'>named the program after the "ping" sound</a> that a submarine sends to detect objects in the water. If an echo of the ping comes back, it means that there is something out there. In fact, `ping` uses the "<a href='https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol' target='_blank' rel='nofollow'>Internet Control Message Protocol Echo Request</a>" as part of its underlying software design.
 
 In its simplest form, the `ping` command provides two valuable pieces of information, whether the message was echoed back (`64 bytes from…`) and how long it takes to receive the message back (e.g., `time=6.396 ms`). Depending on what type of computer you are using, you may even get a summary containing minimum, maximum, average, and more. The response time is shown in "ms", or millisecond, which is 1/1000th of a second. A response time of 10ms or less is pretty fast, however values are often in the 100ms range. At much above 200ms you'll probably notice that you have a sluggish connection.
 
@@ -105,7 +105,7 @@ key. That will interrupt the test with a Control-C (`^C`) and give back command 
 
 ## Windows Users: How to run the `ping` command:
 
-Opening the Command Prompt differs between Windows versions 10, 8.1, 8, and 7; here's a great guide at [How To Open Command Prompt](http://pcsupport.about.com/od/commandlinereference/f/open-command-prompt.htm). On a Windows 7 machine, for example, click on the lower left Windows "Start" icon, and select "Command Prompt" and double-click (or hit
+Opening the Command Prompt differs between Windows versions 10, 8.1, 8, and 7; here's a great guide at <a href='http://pcsupport.about.com/od/commandlinereference/f/open-command-prompt.htm' target='_blank' rel='nofollow'>How To Open Command Prompt</a>. On a Windows 7 machine, for example, click on the lower left Windows "Start" icon, and select "Command Prompt" and double-click (or hit
 
 `enter`
 

@@ -9,7 +9,7 @@ This can be a tricky problem to understand. You need to find where in the array 
 
 #### Relevant Links
 
-*   [JS Array Sort](http://forum.freecodecamp.com/t/javascript-array-prototype-sort/14306)
+*   <a href='http://forum.freecodecamp.com/t/javascript-array-prototype-sort/14306' target='_blank' rel='nofollow'>JS Array Sort</a>
 
 ## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 1
 
@@ -43,14 +43,14 @@ If there is no index for that number then you will have to deal with that case t
       });
 
       for (var a = 0; a < arr.length; a++) {
-        if (arr[a] >= num)
+        if (arr<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>a] >= num)
           return a;
       }
 
       return arr.length;
     }
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLjU/36)
+![:rocket:</a> <a href='https://repl.it/CLjU/36' target='_blank' rel='nofollow'>Run Code</a>
 
 ## Code Explanation:
 
@@ -59,7 +59,7 @@ If there is no index for that number then you will have to deal with that case t
 
 #### Relevant Links
 
-*   [parseInt()](http://forum.freecodecamp.com/t/javascript-parseint/14686)
+*   <a href='http://forum.freecodecamp.com/t/javascript-parseint/14686' target='_blank' rel='nofollow'>parseInt()</a>
 
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
 
@@ -68,13 +68,13 @@ If there is no index for that number then you will have to deal with that case t
       var times = arr.length; // runs the for loop once for each thing in the array
       var count = 0; 
       for (i=0;i<times;i++){
-        if(num>arr[i]){count++;} } // counts how many array numbers are smaller than num
+        if(num>arr<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>i]){count++;} } // counts how many array numbers are smaller than num
         return count; // the above equals num's position in a sorted array
     }
 
     getIndexToIns([40, 60], 50);
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLjU/2547)
+![:rocket:</a> <a href='https://repl.it/CLjU/2547' target='_blank' rel='nofollow'>Run Code</a>
 
 ## Code Explanation:
 
@@ -93,7 +93,7 @@ by [@HarinaPana](/u/harinapana)
       });
 
       var i = 0;
-      while (num > arr[i]) {
+      while (num > arr<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>i]) {
       i++;
       }
 
@@ -102,7 +102,7 @@ by [@HarinaPana](/u/harinapana)
 
     getIndexToIns([40, 60], 50);
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLjU/4135)
+![:rocket:</a> <a href='https://repl.it/CLjU/4135' target='_blank' rel='nofollow'>Run Code</a>
 
 ## Code Explanation:
 
@@ -120,7 +120,7 @@ by [@faustodc](/u/faustodc)
       return arr.indexOf(num);
     }
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/EB10/1)
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/EB10/1' target='_blank' rel='nofollow'>Run Code</a>
 
 ## Code Explanation:
 
@@ -130,9 +130,9 @@ by [@faustodc](/u/faustodc)
 
 #### Relevant Links
 
-*   [push()](http://forum.freecodecamp.com/t/javascript-array-prototype-push/14298)
-*   [sort()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
-*   [indexOf()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf)
+*   <a href='http://forum.freecodecamp.com/t/javascript-array-prototype-push/14298' target='_blank' rel='nofollow'>push()</a>
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort' target='_blank' rel='nofollow'>sort()</a>
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf' target='_blank' rel='nofollow'>indexOf()</a>
 
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution:
 
@@ -146,9 +146,9 @@ by [@faustodc](/u/faustodc)
       return index === -1 ? arr.length : index;
     }
 
-    getIndexToIns([40, 60], 500);
+    getIndexToIns(<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>40, 60], 500);
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLjU/63)
+![:rocket:</a> <a href='https://repl.it/CLjU/63' target='_blank' rel='nofollow'>Run Code</a>
 
 ## Code Explanation:
 
@@ -158,9 +158,9 @@ by [@faustodc](/u/faustodc)
 
 #### Relevant Links
 
-*   [Array.findIndex()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex)
-*   [Arrow Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
-*   [Ternary Operator](http://forum.freecodecamp.com/t/javascript-ternary-operator/15973)
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex' target='_blank' rel='nofollow'>Array.findIndex()</a>
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions' target='_blank' rel='nofollow'>Arrow Functions</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-ternary-operator/15973' target='_blank' rel='nofollow'>Ternary Operator</a>
 
 ## ![:rotating_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:") Advanced Code Solution:
 
@@ -172,9 +172,9 @@ by [@nivrith](/u/nivrith)
 
     }
 
-    getIndexToIns([1,3,4],2);
+    getIndexToIns(<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>1,3,4],2);
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/IUJE/0)
+![:rocket:</a> <a href='https://repl.it/IUJE/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ## Code Explanation:
 
@@ -184,9 +184,9 @@ by [@nivrith](/u/nivrith)
 
 #### Relevant Links
 
-*   [Method chaining in JavaScript](https://schier.co/blog/2013/11/14/method-chaining-in-javascript.html)
-*   [concat()](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/concat?v=example)
-*   [Arrow functions](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+*   <a href='https://schier.co/blog/2013/11/14/method-chaining-in-javascript.html' target='_blank' rel='nofollow'>Method chaining in JavaScript</a>
+*   <a href='https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/concat?v=example' target='_blank' rel='nofollow'>concat()</a>
+*   <a href='https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Functions/Arrow_functions' target='_blank' rel='nofollow'>Arrow functions</a>
 
 ## ![:clipboard:](https://forum.freecodecamp.com/images/emoji/emoji_one/clipboard.png?v=3 ":clipboard:") NOTES FOR CONTRIBUTIONS:
 
@@ -195,4 +195,4 @@ by [@nivrith](/u/nivrith)
 *   Categorize the solution in one of the following categories — **Basic**, **Intermediate** and **Advanced**. ![:traffic_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/traffic_light.png?v=3 ":traffic_light:")
 *   Please add your username only if you have added any **relevant main contents**. (![:warning:](https://forum.freecodecamp.com/images/emoji/emoji_one/warning.png?v=3 ":warning:") **_DO NOT_** _remove any existing usernames_)
 
-> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") [**`Wiki Challenge Solution Template`**](http://forum.freecodecamp.com/t/algorithm-article-template/14272) for reference.
+> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") <a href='http://forum.freecodecamp.com/t/algorithm-article-template/14272' target='_blank' rel='nofollow'>**`Wiki Challenge Solution Template`**</a> for reference.

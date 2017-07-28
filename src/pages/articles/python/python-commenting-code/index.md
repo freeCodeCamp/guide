@@ -1,7 +1,7 @@
 ---
 title: Python Commenting Code
 ---
-Comments are used to annotate, describe, or explain code that is complex or difficult to understand. Python will intentionally ignore comments when it compiles to bytecode by the interpreter. [`PEP 8`](https://www.python.org/dev/peps/pep-0008/#comments) has a section dealing with comments.
+Comments are used to annotate, describe, or explain code that is complex or difficult to understand. Python will intentionally ignore comments when it compiles to bytecode by the interpreter. <a href='https://www.python.org/dev/peps/pep-0008/#comments' target='_blank' rel='nofollow'>`PEP 8`</a> has a section dealing with comments.
 
 **Block** and **inline** comments start with a `#`, followed by a space before the comment:
 
@@ -13,7 +13,7 @@ Python does not include a formal way to write multiline comments. Each line of a
     # This is the first line of a multiline comment.
     # This is the second line.
 
-Another type of comment is the **docstring**, documented in [`PEP 257`](https://www.python.org/dev/peps/pep-0257/). Docstrings are a specific type of comment that becomes the `__doc__` attribute.
+Another type of comment is the **docstring**, documented in <a href='https://www.python.org/dev/peps/pep-0257/' target='_blank' rel='nofollow'>`PEP 257`</a>. Docstrings are a specific type of comment that becomes the `__doc__` attribute.
 
 For a string literal to be a docstring, it must start and end with `\"\"\"` and be the first statement of the module, function, class, or method definition it is documenting:
 
@@ -28,4 +28,4 @@ For a string literal to be a docstring, it must start and end with `\"\"\"` and 
             """Single line summary of method_a."""
             pass
 
-String literals that start and end with `"""` that are not docstrings (not the first statement), can be used for multiline strings. They will not become `__doc__` attributes. If they are not assigned to a variable, they will not generate bytecode. There is some discussion about using them as multiline comments found [here](http://stackoverflow.com/questions/7696924/multiline-comments-in-python).
+String literals that start and end with `"""` that are not docstrings (not the first statement), can be used for multiline strings. They will not become `__doc__` attributes. If they are not assigned to a variable, they will not generate bytecode. There is some discussion about using them as multiline comments found <a href='http://stackoverflow.com/questions/7696924/multiline-comments-in-python' target='_blank' rel='nofollow'>here</a>.

@@ -39,7 +39,7 @@ The first **returned** value can be visualized better if you think about those p
 
 ### During the first execution of the function:
 
-[**num** = 5]
+<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/wink.png?v=3 ":wink:"' target='_blank' rel='nofollow'>**num** = 5]
 
 Is 5 _equal_ to 1 or 0? **No** ---> Oki doki, let's continue...
 
@@ -67,14 +67,14 @@ What it returns can be viewed as `(5*(4*(3*(2*1))))` or just `5 * 4 * 3 * 2 * 1`
 
 --> return **1**. And this is where the recursion stops because there are no more executions.
 
-Got it? ![:wink:](https://forum.freecodecamp.com/images/emoji/emoji_one/wink.png?v=3 ":wink:")
+Got it? ![:wink:</a>
 
 > _try to solve the problem now_
 
 #### Relevant Links
 
 *   <a>JS Functions</a>
-*   [Recursion in JS](https://www.youtube.com/watch?v=k7-N8R0-KY4)
+*   <a href='https://www.youtube.com/watch?v=k7-N8R0-KY4' target='_blank' rel='nofollow'>Recursion in JS</a>
 
 ## Spoiler Alert!
 
@@ -91,17 +91,17 @@ Got it? ![:wink:](https://forum.freecodecamp.com/images/emoji/emoji_one/wink.png
 
     factorialize(5);
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLjU/1)
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLjU/1' target='_blank' rel='nofollow'>Run Code</a>
 
 ## Code Explanation:
 
-Notice at the first line we have the terminal condition, i.e a condition to check the end of the recursion. If `num == 0`, then we return 1, i.e. effectively ending the recursion and informing the stack to propagate this value to the upper levels. If we do not have this condition, the recursion would go on until the stack space gets consumed, thereby resulting in a [Stack Overflow](https://en.wikipedia.org/wiki/Stack_overflow).
+Notice at the first line we have the terminal condition, i.e a condition to check the end of the recursion. If `num == 0`, then we return 1, i.e. effectively ending the recursion and informing the stack to propagate this value to the upper levels. If we do not have this condition, the recursion would go on until the stack space gets consumed, thereby resulting in a <a href='https://en.wikipedia.org/wiki/Stack_overflow' target='_blank' rel='nofollow'>Stack Overflow</a>.
 
 ### Relevant Links
 
-*   [Recursion](https://www.codecademy.com/en/courses/javascript-lesson-205/0/1)
-*   [Factorialization](https://en.wikipedia.org/wiki/Factorial)
-*   [Arithmetic Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators)
+*   <a href='https://www.codecademy.com/en/courses/javascript-lesson-205/0/1' target='_blank' rel='nofollow'>Recursion</a>
+*   <a href='https://en.wikipedia.org/wiki/Factorial' target='_blank' rel='nofollow'>Factorialization</a>
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators' target='_blank' rel='nofollow'>Arithmetic Operators</a>
 
 ## ![:clipboard:](https://forum.freecodecamp.com/images/emoji/emoji_one/clipboard.png?v=3 ":clipboard:") NOTES FOR CONTRIBUTIONS:
 
@@ -110,4 +110,4 @@ Notice at the first line we have the terminal condition, i.e a condition to chec
 *   Categorize the solution in one of the following categories — **Basic**, **Intermediate** and **Advanced**. ![:traffic_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/traffic_light.png?v=3 ":traffic_light:")
 *   Please add your username only if you have added any **relevant main contents**. (![:warning:](https://forum.freecodecamp.com/images/emoji/emoji_one/warning.png?v=3 ":warning:") **_DO NOT_** _remove any existing usernames_)
 
-> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") [**`Wiki Challenge Solution Template`**](http://forum.freecodecamp.com/t/algorithm-article-template/14272) for reference.
+> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") <a href='http://forum.freecodecamp.com/t/algorithm-article-template/14272' target='_blank' rel='nofollow'>**`Wiki Challenge Solution Template`**</a> for reference.

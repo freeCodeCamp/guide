@@ -1,7 +1,8 @@
 ---
 title: SQL Data Types
 ---
-## SQL Data Types
+
+# SQL Data Types
 
 Each column in a table must have a data type. It indicates the type of value that the column stores.
 
@@ -42,9 +43,3 @@ Data type | Description
 `ARRAY` | A set-length and ordered collection of elements
 `MULTISET` | A variable-length and unordered collection of elements
 `XML` | Stores XML data
-
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-

@@ -1,9 +1,9 @@
 ---
 title: The Python Range
 ---
-[Python Docs - Ranges](https://docs.python.org/3/library/stdtypes.html#ranges)
+<a href='https://docs.python.org/3/library/stdtypes.html#ranges' target='_blank' rel='nofollow'>Python Docs - Ranges</a>
 
-Rather than being a function, a range is actually an [immutable sequence type](https://docs.python.org/3/library/stdtypes.html#immutable-sequence-types) and is commonly used for looping a specific number of times in for loops.
+Rather than being a function, a range is actually an <a href='https://docs.python.org/3/library/stdtypes.html#immutable-sequence-types' target='_blank' rel='nofollow'>immutable sequence type</a> and is commonly used for looping a specific number of times in for loops.
 
 **Creation:**
 
@@ -26,7 +26,7 @@ Rather than being a function, a range is actually an [immutable sequence type](h
 Since `ranges` are iterables they can be passed into the `list` and `tuple` constructors to create those types of sequences. Using this fact, we can visualize some examples:
 
     >>> list(range(10))     # range as argument for list constructor.
-    [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+    <a href='https://docs.python.org/3/library/sys.html#sys.getsizeof' target='_blank' rel='nofollow'>0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
     >>> tuple(range(10))    # range as argument for tuple constructor.
     (0, 1, 2, 3, 4, 5, 6, 7, 8, 9)
 
@@ -58,7 +58,7 @@ Zero length `ranges`:
 
 The benefit of using `range` is that regardless of how large of a range specified, only a small amount of memory is needed to store the `range`, the values for start, stop, and step. The individual values of the `ranges` are calculated upon iteration.
 
-[Python Docs - sys.getsizeof](https://docs.python.org/3/library/sys.html#sys.getsizeof)
+[Python Docs - sys.getsizeof</a>
 
     >>> import sys
     >>> a_range = range(1000000)

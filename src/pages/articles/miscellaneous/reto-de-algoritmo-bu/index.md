@@ -34,7 +34,7 @@ title: Reto De Algoritmo Bu
     // realizamos el test
     booWho(null);
 
-![:rocket:](/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [¡En REPL!](https://repl.it/CLnK/0)
+![:rocket:](/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CLnK/0' target='_blank' rel='nofollow'>¡En REPL!</a>
 
 # Explicación del código:
 

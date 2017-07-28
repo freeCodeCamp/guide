@@ -11,7 +11,7 @@ This will run our `webpack.config.js` file. It should run successfully, and we s
     Version: webpack 1.12.14
     Time: 1721ms
         Asset    Size  Chunks             Chunk Names
-    bundle.js  679 kB       0  [emitted]  main
+    bundle.js  679 kB       0  <a href='https://webpack.github.io/docs/webpack-dev-server.html' target='_blank' rel='nofollow'>emitted]  main
         + 159 hidden modules
 
 Notice that it refers to an `Asset` called `bundle.js`. Webpack is telling us that this file has been created when we ran the `webpack` command. Check out your `dist` folder, and you should see your `bundle.js` alongside your `index.html`.
@@ -52,7 +52,7 @@ This is what Babel has done; it has converted the code to ES5 and bundled it amo
 
 Finally, it's time to check out the app in a browser. For this, we are going to use Webpack Dev Server, which is a feature-rich tool to use for setting up a `localhost` server for developing purposes when using Webpack.
 
-*   [Help: More about Webpack Dev Server](https://webpack.github.io/docs/webpack-dev-server.html)
+*   [Help: More about Webpack Dev Server</a>
 
 Go ahead and run:
 

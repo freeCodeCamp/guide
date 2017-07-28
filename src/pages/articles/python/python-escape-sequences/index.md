@@ -1,7 +1,7 @@
 ---
 title: Python Escape Sequences
 ---
-A list of escape sequences can be found [here](https://docs.python.org/3/reference/lexical_analysis.html#strings)
+A list of escape sequences can be found <a href='https://docs.python.org/3/reference/lexical_analysis.html#strings' target='_blank' rel='nofollow'>here</a>
 
 Escape sequences allow for including special characters into strings.
 

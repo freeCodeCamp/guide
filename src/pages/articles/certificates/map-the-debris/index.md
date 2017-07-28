@@ -9,12 +9,12 @@ The first thing to do is to get familiar with what the program is for by knowing
 
 #### Relevant Links
 
-*   [Orbital period](https://en.wikipedia.org/wiki/Orbital_period)
-*   [JS Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
-*   [Math.PI](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/PI)
-*   [JS Math Pow](http://forum.freecodecamp.com/t/javascript-math-pow/14685)
-*   [Math.sqrt()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/sqrt)
-*   [Math.round()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/round)
+*   <a href='https://en.wikipedia.org/wiki/Orbital_period' target='_blank' rel='nofollow'>Orbital period</a>
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object' target='_blank' rel='nofollow'>JS Objects</a>
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/PI' target='_blank' rel='nofollow'>Math.PI</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-math-pow/14685' target='_blank' rel='nofollow'>JS Math Pow</a>
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/sqrt' target='_blank' rel='nofollow'>Math.sqrt()</a>
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/round' target='_blank' rel='nofollow'>Math.round()</a>
 
 ## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 1
 
@@ -48,7 +48,7 @@ Find out how to remove and add key to a JavaScript object.
       var GM = 398600.4418;
       var earthRadius = 6367.4447;
       var a = 2 * Math.PI;
-      var newArr = [];
+      var newArr = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>];
       var getOrbPeriod = function(obj) {
         var c = Math.pow(earthRadius + obj.avgAlt, 3);
         var b = Math.sqrt(c / GM);
@@ -68,7 +68,7 @@ Find out how to remove and add key to a JavaScript object.
     // test here
     orbitalPeriod([{name : "sputnik", avgAlt : 35873.5553}]);
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLow/0)
+![:rocket:</a> <a href='https://repl.it/CLow/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -84,8 +84,8 @@ Find out how to remove and add key to a JavaScript object.
 
 #### Relevant Links
 
-*   [JS For In Loop](http://forum.freecodecamp.com/t/javascript-for-in-loop/14665)
-*   [JS Array Prototype Push](http://forum.freecodecamp.com/t/javascript-array-prototype-push/14298)
+*   <a href='http://forum.freecodecamp.com/t/javascript-for-in-loop/14665' target='_blank' rel='nofollow'>JS For In Loop</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-array-prototype-push/14298' target='_blank' rel='nofollow'>JS Array Prototype Push</a>
 
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution:
 
@@ -96,7 +96,7 @@ Find out how to remove and add key to a JavaScript object.
       //Looping through each key in arr object
       for(var prop in arr) {
         //Rounding off the orbital period value
-        var orbitalPer = Math.round(2 * Math.PI * Math.sqrt(Math.pow(arr[prop].avgAlt + earthRadius, 3) / GM));
+        var orbitalPer = Math.round(2 * Math.PI * Math.sqrt(Math.pow(arr<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>prop].avgAlt + earthRadius, 3) / GM));
         //deleting the avgAlt property
         delete arr[prop].avgAlt;
         //adding orbitalPeriod property
@@ -109,7 +109,7 @@ Find out how to remove and add key to a JavaScript object.
     // test here
     orbitalPeriod([{name : "sputnik", avgAlt : 35873.5553}]);
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLoy/0)
+![:rocket:</a> <a href='https://repl.it/CLoy/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -137,9 +137,9 @@ Find out how to remove and add key to a JavaScript object.
     }
 
     // test here
-    orbitalPeriod([{name : "sputnik", avgAlt : 35873.5553}]);
+    orbitalPeriod(<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>{name : "sputnik", avgAlt : 35873.5553}]);
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLoz/0)
+![:rocket:</a> <a href='https://repl.it/CLoz/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -150,7 +150,7 @@ Find out how to remove and add key to a JavaScript object.
 
 #### Relevant Links
 
-*   [JS Array Prototype ForEach](http://forum.freecodecamp.com/t/javascript-array-prototype-foreach/14290)
+*   <a href='http://forum.freecodecamp.com/t/javascript-array-prototype-foreach/14290' target='_blank' rel='nofollow'>JS Array Prototype ForEach</a>
 
 ## ![:clipboard:](https://forum.freecodecamp.com/images/emoji/emoji_one/clipboard.png?v=3 ":clipboard:") NOTES FOR CONTRIBUTIONS:
 
@@ -159,4 +159,4 @@ Find out how to remove and add key to a JavaScript object.
 *   Categorize the solution in one of the following categories — **Basic**, **Intermediate** and **Advanced**. ![:traffic_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/traffic_light.png?v=3 ":traffic_light:")
 *   Please add your username only if you have added any **relevant main contents**. (![:warning:](https://forum.freecodecamp.com/images/emoji/emoji_one/warning.png?v=3 ":warning:") **_DO NOT_** _remove any existing usernames_)
 
-> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") [**`Wiki Challenge Solution Template`**](http://forum.freecodecamp.com/t/algorithm-article-template/14272) for reference.
+> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") <a href='http://forum.freecodecamp.com/t/algorithm-article-template/14272' target='_blank' rel='nofollow'>**`Wiki Challenge Solution Template`**</a> for reference.

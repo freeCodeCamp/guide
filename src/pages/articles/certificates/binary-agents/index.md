@@ -11,7 +11,7 @@ This problem is very straight forward, you will get a string that will represent
 
 ### Relevant Links
 
-*   [String.prototype.charCodeAt](http://forum.freecodecamp.com/t/javascript-string-prototype-charcodeat/15933)
+*   <a href='http://forum.freecodecamp.com/t/javascript-string-prototype-charcodeat/15933' target='_blank' rel='nofollow'>String.prototype.charCodeAt</a>
 *   <a>String.fromCharCode</a>
 
 ## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 1
@@ -42,7 +42,7 @@ Make sure that each time you transcode a character from binary to decimal, you r
 
     function binaryAgent(str) {
       biString = str.split(' ');
-      uniString = [];
+      uniString = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>];
 
     /*using the radix (or base) parameter in parseInt, we can convert the binary
       number to a decimal number while simultaneously converting to a char*/
@@ -58,7 +58,7 @@ Make sure that each time you transcode a character from binary to decimal, you r
     // test here
     binaryAgent("01000001 01110010 01100101 01101110 00100111 01110100 00100000 01100010 01101111 01101110 01100110 01101001 01110010 01100101 01110011 00100000 01100110 01110101 01101110 00100001 00111111");
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLnm/0)
+![:rocket:</a> <a href='https://repl.it/CLnm/0' target='_blank' rel='nofollow'>Run Code</a>
 
 # Code Explanation:
 
@@ -70,8 +70,8 @@ Make sure that each time you transcode a character from binary to decimal, you r
 
 ## Relevant Links
 
-*   [String.prototype.split](http://forum.freecodecamp.com/t/javascript-string-prototype-split/15944)
-*   [parseInt](http://forum.freecodecamp.com/t/javascript-parseint/14686)
+*   <a href='http://forum.freecodecamp.com/t/javascript-string-prototype-split/15944' target='_blank' rel='nofollow'>String.prototype.split</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-parseint/14686' target='_blank' rel='nofollow'>parseInt</a>
 
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution:
 
@@ -85,7 +85,7 @@ Make sure that each time you transcode a character from binary to decimal, you r
       // Check each binary number from the array.
       for (var s = 0; s < str.length; s++) {
         // Check each bit from binary number
-        for (var t = 0; t < str[s].length; t++) {
+        for (var t = 0; t < str<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>s].length; t++) {
           // This only takes into consideration the active ones.
           if (str[s][t] == 1) {
             // This is quivalent to 2 ** position
@@ -109,7 +109,7 @@ Make sure that each time you transcode a character from binary to decimal, you r
     // test here
     binaryAgent("01000001 01110010 01100101 01101110 00100111 01110100 00100000 01100010 01101111 01101110 01100110 01101001 01110010 01100101 01110011 00100000 01100110 01110101 01101110 00100001 00111111");
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLno/0)
+![:rocket:</a> <a href='https://repl.it/CLno/0' target='_blank' rel='nofollow'>Run Code</a>
 
 # Code Explanation
 
@@ -121,9 +121,9 @@ Make sure that each time you transcode a character from binary to decimal, you r
 
 ## Relevant Links
 
-*   [Math.pow](http://forum.freecodecamp.com/t/javascript-math-pow/14685)
+*   <a href='http://forum.freecodecamp.com/t/javascript-math-pow/14685' target='_blank' rel='nofollow'>Math.pow</a>
 *   <a>String.length</a>
-*   [Link Title 3](http://example.com)
+*   <a href='http://example.com' target='_blank' rel='nofollow'>Link Title 3</a>
 
 ## ![:rotating_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:") Advanced Code Solution:
 
@@ -134,18 +134,18 @@ Make sure that each time you transcode a character from binary to decimal, you r
     // test here
     binaryAgent("01000001 01110010 01100101 01101110 00100111 01110100 00100000 01100010 01101111 01101110 01100110 01101001 01110010 01100101 01110011 00100000 01100110 01110101 01101110 00100001 00111111");
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLnp/0)
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLnp/0' target='_blank' rel='nofollow'>Run Code</a>
 
 # Code Explanation
 
 *   First we use `split()` to be able to work on each character as an Array element
 *   Then use `map()` to process each element from binary to decimal using `pareseInt()`
 *   Last we can use `String.fromCharCode()` to convert each ASCII number into the corresponding character
-*   However `fromCharCode()` expects a series of numbers rather than an Array! We can use ES6 Spread Operator to pass in an Array of numbers as individual numbers. See here for more info; [Spread Operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator)
+*   However `fromCharCode()` expects a series of numbers rather than an Array! We can use ES6 Spread Operator to pass in an Array of numbers as individual numbers. See here for more info; <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator' target='_blank' rel='nofollow'>Spread Operator</a>
 
 ## Relevant Links
 
-*   [Array.prototype.map](http://forum.freecodecamp.com/t/javascript-array-prototype-map/14294)
+*   <a href='http://forum.freecodecamp.com/t/javascript-array-prototype-map/14294' target='_blank' rel='nofollow'>Array.prototype.map</a>
 
 ## ![:clipboard:](https://forum.freecodecamp.com/images/emoji/emoji_one/clipboard.png?v=3 ":clipboard:") NOTES FOR CONTRIBUTIONS:
 
@@ -154,4 +154,4 @@ Make sure that each time you transcode a character from binary to decimal, you r
 *   Categorize the solution in one of the following categories — **Basic**, **Intermediate** and **Advanced**. ![:traffic_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/traffic_light.png?v=3 ":traffic_light:")
 *   Please add your username only if you have added any **relevant main contents**. (![:warning:](https://forum.freecodecamp.com/images/emoji/emoji_one/warning.png?v=3 ":warning:") **_DO NOT_** _remove any existing usernames_)
 
-> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") [**`Wiki Challenge Solution Template`**](http://forum.freecodecamp.com/t/algorithm-article-template/14272) for reference.
+> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") <a href='http://forum.freecodecamp.com/t/algorithm-article-template/14272' target='_blank' rel='nofollow'>**`Wiki Challenge Solution Template`**</a> for reference.

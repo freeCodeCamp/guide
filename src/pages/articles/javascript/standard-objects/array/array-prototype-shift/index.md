@@ -5,7 +5,7 @@ The JavaScript array method `.shift()` will remove the first element from an arr
 
 **Syntax**
 
-    var array = [1, 2, 3, 4];
+    var array = <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift' target='_blank' rel='nofollow'>1, 2, 3, 4];
     array.shift();
 
 ## Description
@@ -30,4 +30,4 @@ The JavaScript array method `.shift()` will remove the first element from an arr
     the variable array now contains the set [2, 3, 4, 5] where 
     each element has been moved down 1 index value. */
 
-Source [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift)
+Source [MDN</a>

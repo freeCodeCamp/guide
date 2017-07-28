@@ -15,8 +15,8 @@ Once we have determined whether it is a palindrome or not we want to return eith
 
 #### Relevant Links
 
-*   [String.prototype.replace](http://forum.freecodecamp.com/t/javascript-string-prototype-replace/15942)
-*   [String.prototype.toLowerCase](http://forum.freecodecamp.com/t/javascript-string-prototype-tolowercase/15948)
+*   <a href='http://forum.freecodecamp.com/t/javascript-string-prototype-replace/15942' target='_blank' rel='nofollow'>String.prototype.replace</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-string-prototype-tolowercase/15948' target='_blank' rel='nofollow'>String.prototype.toLowerCase</a>
 
 ## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 1
 
@@ -45,11 +45,11 @@ The `Array.prototype.split` and `Array.prototype.join` methods can be of use her
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
 
     function palindrome(str) {
-      return str.replace(/[\W_]/g, '').toLowerCase() ===
+      return str.replace(/<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>\W_]/g, '').toLowerCase() ===
              str.replace(/[\W_]/g, '').toLowerCase().split('').reverse().join('');
     }
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLjU/2)
+![:rocket:</a> <a href='https://repl.it/CLjU/2' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -63,14 +63,14 @@ The `Array.prototype.split` and `Array.prototype.join` methods can be of use her
 
 #### Relevant Links
 
-*   [String.prototype.split](http://forum.freecodecamp.com/t/javascript-string-prototype-split/15944)
-*   [Array.prototype.reverse](http://forum.freecodecamp.com/t/javascript-array-prototype-reverse/14300)
-*   [Array.prototype.join](http://forum.freecodecamp.com/t/javascript-array-prototype-join/14292)
+*   <a href='http://forum.freecodecamp.com/t/javascript-string-prototype-split/15944' target='_blank' rel='nofollow'>String.prototype.split</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-array-prototype-reverse/14300' target='_blank' rel='nofollow'>Array.prototype.reverse</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-array-prototype-join/14292' target='_blank' rel='nofollow'>Array.prototype.join</a>
 
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution:
 
     function palindrome(str) {
-      str = str.toLowerCase().replace(/[\W_]/g, '');
+      str = str.toLowerCase().replace(/<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>\W_]/g, '');
       for(var i = 0, len = str.length - 1; i < len/2; i++) {
         if(str[i] !== str[len-i]) {
           return false;
@@ -79,7 +79,7 @@ The `Array.prototype.split` and `Array.prototype.join` methods can be of use her
       return true;
     }
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLjU/3)
+![:rocket:</a> <a href='https://repl.it/CLjU/3' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -87,13 +87,13 @@ The `Array.prototype.split` and `Array.prototype.join` methods can be of use her
 
 *   Next we set up our `for` loop and declare an index `i` to keep track of the loop. We set our escape sequence to when `i` is greater than the length of the string divided by two, which tells the loop to stop after the halfway point of the string. And finally we set `i` to increment after every loop.
 
-*   Inside of each loop we want to check that the letter in element `[i]` is equal to the letter in the length of the string minus i, `[str.length - i]`. Each loop, the element that is checked on both sides of the string moves closer to the center until we have checked all of the letters. If at any point the letters do not match, we return `false`. If the loop completes successfully, it means we have a palindrome and therefore we return `true`!
+*   Inside of each loop we want to check that the letter in element `<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:"' target='_blank' rel='nofollow'>i]` is equal to the letter in the length of the string minus i, `[str.length - i]`. Each loop, the element that is checked on both sides of the string moves closer to the center until we have checked all of the letters. If at any point the letters do not match, we return `false`. If the loop completes successfully, it means we have a palindrome and therefore we return `true`!
 
 #### Relevant Links
 
 *   <a>Regex</a>
 
-## ![:rotating_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:") Advanced Code Solution (most performant):
+## ![:rotating_light:</a> Advanced Code Solution (most performant):
 
     //this solution performs at minimum 7x better, at maximum infinitely better.
     //read the explanation for the reason why. I just failed this in an interview.
@@ -105,7 +105,7 @@ The `Array.prototype.split` and `Array.prototype.join` methods can be of use her
       //back and front pointers won't always meet in the middle, so use (back > front)
       while (back > front) {
         //increments front pointer if current character doesn't meet criteria
-        if ( str[front].match(/[\W_]/) ) {
+        if ( str<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>front].match(/[\W_]/) ) {
           front++
           continue
         }
@@ -125,7 +125,7 @@ The `Array.prototype.split` and `Array.prototype.join` methods can be of use her
 
     }
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLjU/4)
+![:rocket:</a> <a href='https://repl.it/CLjU/4' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -139,7 +139,7 @@ The `Array.prototype.split` and `Array.prototype.join` methods can be of use her
 
 #### Relevant Links
 
-*   [Cyclomatic Complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity)
+*   <a href='https://en.wikipedia.org/wiki/Cyclomatic_complexity' target='_blank' rel='nofollow'>Cyclomatic Complexity</a>
 
 ## ![:clipboard:](https://forum.freecodecamp.com/images/emoji/emoji_one/clipboard.png?v=3 ":clipboard:") NOTES FOR CONTRIBUTIONS:
 
@@ -148,4 +148,4 @@ The `Array.prototype.split` and `Array.prototype.join` methods can be of use her
 *   Categorize the solution in one of the following categories — **Basic**, **Intermediate** and **Advanced**. ![:traffic_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/traffic_light.png?v=3 ":traffic_light:")
 *   Please add your username only if you have added any **relevant main contents**. (![:warning:](https://forum.freecodecamp.com/images/emoji/emoji_one/warning.png?v=3 ":warning:") **_DO NOT_** _remove any existing usernames_)
 
-> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") [**`Wiki Challenge Solution Template`**](http://forum.freecodecamp.com/t/algorithm-article-template/14272) for reference.
+> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") <a href='http://forum.freecodecamp.com/t/algorithm-article-template/14272' target='_blank' rel='nofollow'>**`Wiki Challenge Solution Template`**</a> for reference.

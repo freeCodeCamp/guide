@@ -33,7 +33,7 @@ Thankfully, Clojure does have one loops of some kind. These loops use recursion 
           prod
           (recur (dec n) (* prod n)))))
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [IDEOne it!](https://ideone.com/3iP3tI)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://ideone.com/3iP3tI' target='_blank' rel='nofollow'>IDEOne it!</a>
 
 You'll notice that `(loop [n x prod 1] ...)` looks quite similar to a `let` binding. It actually works in just the same way -- here, we bind `n` to `x`, and `prod` to 1.
 
@@ -77,7 +77,7 @@ If you use `loop/recur`, then the compiler (the software that turns Clojure code
     ; => "Elapsed time: 0.064937 msecs"
     ;    2432902008176640000
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [IDEOne it!](https://ideone.com/tpC0Xo)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://ideone.com/tpC0Xo' target='_blank' rel='nofollow'>IDEOne it!</a>
 
 At this scale, the difference is negligible. In fact, `fact-no-loop` is occasionally faster than `fact` due to the unpredictable nature of computer memory. However, on a larger scale, this kind of optimisation can make your code much, much quicker.
 

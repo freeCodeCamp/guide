@@ -5,7 +5,7 @@ The `lastIndexOf()` method returns the index within the calling String object of
 
 ## Syntax
 
-    str.lastIndexOf(searchValue[, fromIndex])
+    str.lastIndexOf(searchValue<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/lastIndexOf' target='_blank' rel='nofollow'>, fromIndex])
 
 ## Parameters
 
@@ -17,7 +17,7 @@ A string representing the value to search for.
 
 Optional. The location within the calling string to start the search at, indexed from left to right. It can be any integer. The default value is `str.length`. If it is negative, it is treated as 0\. If `fromIndex > str.length`, `fromIndex` is treated as `str.length`.
 
-[MDN link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/lastIndexOf) | [MSDN link](https://msdn.microsoft.com/en-us/LIBRary/6d20k718%28v=vs.94%29.aspx)
+[MDN link</a> | <a href='https://msdn.microsoft.com/en-us/LIBRary/6d20k718%28v=vs.94%29.aspx' target='_blank' rel='nofollow'>MSDN link</a>
 
 ## Returns
 

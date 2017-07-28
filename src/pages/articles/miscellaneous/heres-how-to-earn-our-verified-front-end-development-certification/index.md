@@ -9,4 +9,4 @@ title: Heres How to Earn Our Verified Front End Development Certification
 4.  Complete all of our current Intermediate Front End Projects
 5.  Complete all of our current Advanced Front End Projects
 
-Once you've completed all of the above, you can complete our ["Claim your Front End Development Certification"](http://www.freecodecamp.com/challenges/claim-your-front-end-development-certificate) challenge, which will require you to sign our Academic Honesty Pledge. Then we will instantly issue your verified certification, which will become accessible from your portfolio page.
+Once you've completed all of the above, you can complete our <a href='http://www.freecodecamp.com/challenges/claim-your-front-end-development-certificate' target='_blank' rel='nofollow'>"Claim your Front End Development Certification"</a> challenge, which will require you to sign our Academic Honesty Pledge. Then we will instantly issue your verified certification, which will become accessible from your portfolio page.

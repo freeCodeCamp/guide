@@ -42,4 +42,4 @@ You can go back any number of commits by using `git reset --soft HEAD~n` where y
 
 ## Attribution:
 
-This article is based on a Stack Overflow question [here](http://stackoverflow.com/questions/927358/how-do-you-undo-the-last-commit/927386#927386) and [here](http://stackoverflow.com/questions/348170/undo-git-add-before-commit/348234#348234).
+This article is based on a Stack Overflow question <a href='http://stackoverflow.com/questions/927358/how-do-you-undo-the-last-commit/927386#927386' target='_blank' rel='nofollow'>here</a> and <a href='http://stackoverflow.com/questions/348170/undo-git-add-before-commit/348234#348234' target='_blank' rel='nofollow'>here</a>.

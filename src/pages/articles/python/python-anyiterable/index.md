@@ -1,7 +1,7 @@
 ---
 title: Python Anyiterable
 ---
-`any()` is a built-in function in Python 3, to check if any of the items of an [_iterable_](https://docs.python.org/3/glossary.html#term-iterable) is `True`. It takes one argument, `iterable`.
+`any()` is a built-in function in Python 3, to check if any of the items of an <a href='https://docs.python.org/3/glossary.html#term-iterable' target='_blank' rel='nofollow'>_iterable_</a> is `True`. It takes one argument, `iterable`.
 
 ## Argument
 
@@ -32,6 +32,6 @@ The `any()` operation is equivalent to (internally, may not be implemented exact
     print(any([0, 6, 7])) #=> True
     print(any([9, 8, [1, 2]])) #=> True
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [Run Code](https://repl.it/CL9c/0)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CL9c/0' target='_blank' rel='nofollow'>Run Code</a>
 
-[Official Docs](https://docs.python.org/3/library/functions.html#any)
+<a href='https://docs.python.org/3/library/functions.html#any' target='_blank' rel='nofollow'>Official Docs</a>

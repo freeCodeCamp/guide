@@ -42,7 +42,7 @@ Remember how to get the length of elements on the array? `Array[index].length`.
       var maxLength = 0;
 
       for (var i = 0; i < words.length; i++) {
-        if (words[i].length > maxLength) {
+        if (words<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>i].length > maxLength) {
           maxLength = words[i].length;
         }
       }
@@ -50,7 +50,7 @@ Remember how to get the length of elements on the array? `Array[index].length`.
       return maxLength;
     }
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLjU/5)
+![:rocket:</a> <a href='https://repl.it/CLjU/5' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -61,7 +61,7 @@ Then check for the longest word by comparing the current word to the previous on
 #### Relevant Links
 
 *   <a>JS String Length</a>
-*   [JS Array.length](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/length)
+*   <a href='https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/length' target='_blank' rel='nofollow'>JS Array.length</a>
 
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution:
 
@@ -74,19 +74,19 @@ Then check for the longest word by comparing the current word to the previous on
         }, 0);
     }
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLjU/6)
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLjU/6' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
-For more information on `reduce` [click here.](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)  
+For more information on `reduce` <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce' target='_blank' rel='nofollow'>click here.</a>  
 
 In case you're wondering about that `0` after the callback function, it is used to give an initial value to the `x`, so that `Math.max` will know where to start.
 
 #### Relevant Links
 
-*   [JS Reduce](http://forum.freecodecamp.com/t/javascript-array-prototype-reduce/14299)
-*   [JS Reduce Made Easy](http://forum.freecodecamp.com/t/using-array-prototype-reduce-to-reduce-conceptual-boilerplate-for-problems-on-arrays/14687)
-*   [JS Math Max](http://forum.freecodecamp.com/t/javascript-math-max/14682.md)
+*   <a href='http://forum.freecodecamp.com/t/javascript-array-prototype-reduce/14299' target='_blank' rel='nofollow'>JS Reduce</a>
+*   <a href='http://forum.freecodecamp.com/t/using-array-prototype-reduce-to-reduce-conceptual-boilerplate-for-problems-on-arrays/14687' target='_blank' rel='nofollow'>JS Reduce Made Easy</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-math-max/14682.md' target='_blank' rel='nofollow'>JS Math Max</a>
 
 ## ![:rotating_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:") Advanced Code Solution:
 
@@ -101,7 +101,7 @@ In case you're wondering about that `0` after the callback function, it is used 
       //str only has 1 element left that is the longest element, 
       //return the length of that element
       if(str.length == 1){
-        return str[0].length;
+        return str<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>0].length;
       }
 
       //if the first element's length is greater than the second element's (or equal) 
@@ -119,7 +119,7 @@ In case you're wondering about that `0` after the callback function, it is used 
       }
     }
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLjU/7)
+![:rocket:</a> <a href='https://repl.it/CLjU/7' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -128,7 +128,7 @@ The first line splits the string into individual words. Then we check if `str` o
 #### Relevant Links
 
 *   <a>JS Functions</a>
-*   [Recursion Basics](https://www.youtube.com/watch?v=k7-N8R0-KY4)
+*   <a href='https://www.youtube.com/watch?v=k7-N8R0-KY4' target='_blank' rel='nofollow'>Recursion Basics</a>
 
 ## ![:clipboard:](https://forum.freecodecamp.com/images/emoji/emoji_one/clipboard.png?v=3 ":clipboard:") NOTES FOR CONTRIBUTIONS:
 
@@ -137,4 +137,4 @@ The first line splits the string into individual words. Then we check if `str` o
 *   Categorize the solution in one of the following categories — **Basic**, **Intermediate** and **Advanced**. ![:traffic_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/traffic_light.png?v=3 ":traffic_light:")
 *   Please add your username only if you have added any **relevant main contents**. (![:warning:](https://forum.freecodecamp.com/images/emoji/emoji_one/warning.png?v=3 ":warning:") **_DO NOT_** _remove any existing usernames_)
 
-> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") [**`Wiki Challenge Solution Template`**](http://forum.freecodecamp.com/t/algorithm-article-template/14272) for reference.
+> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") <a href='http://forum.freecodecamp.com/t/algorithm-article-template/14272' target='_blank' rel='nofollow'>**`Wiki Challenge Solution Template`**</a> for reference.

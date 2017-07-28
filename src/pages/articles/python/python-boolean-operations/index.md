@@ -1,9 +1,9 @@
 ---
 title: Python Boolean Operations
 ---
-[`and`](https://docs.python.org/3/reference/expressions.html#and), [`or`](https://docs.python.org/3/reference/expressions.html#or), [`not`](https://docs.python.org/3/reference/expressions.html#not)
+<a href='https://docs.python.org/3/reference/expressions.html#and' target='_blank' rel='nofollow'>`and`</a>, <a href='https://docs.python.org/3/reference/expressions.html#or' target='_blank' rel='nofollow'>`or`</a>, <a href='https://docs.python.org/3/reference/expressions.html#not' target='_blank' rel='nofollow'>`not`</a>
 
-[Python Docs - Boolean Operations](https://docs.python.org/3/library/stdtypes.html#boolean-operations-and-or-not)
+<a href='https://docs.python.org/3/library/stdtypes.html#boolean-operations-and-or-not' target='_blank' rel='nofollow'>Python Docs - Boolean Operations</a>
 
 These are the Boolean operations, ordered by ascending priority:
 

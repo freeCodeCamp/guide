@@ -1,7 +1,7 @@
 ---
 title: Free Code Camps Summit October 2015
 ---
-Our October 3, 2015 Summit began at noon EST on Saturday on [twitch.tv channel](http://twitch.tv/freecodecamp) and be available afterward on our [youtube channel](https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ?sub_confirmation=1).
+Our October 3, 2015 Summit began at noon EST on Saturday on <a href='http://twitch.tv/freecodecamp' target='_blank' rel='nofollow'>twitch.tv channel</a> and be available afterward on our <a href='https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ?sub_confirmation=1' target='_blank' rel='nofollow'>youtube channel</a>.
 
 During this 1 hour live stream, we'll:
 

@@ -7,7 +7,7 @@ To install MongoDB, you should have Mac OS X 10.6 (Snow Leopard) or above. To fi
 
 ## Step 1: installing MongoDB
 
-The easiest way to install MongoDB on OS X is using [HomeBrew](http://brew.sh/). If you haven't used HomeBrew before, simply execute the following command in a Terminal window:
+The easiest way to install MongoDB on OS X is using <a href='http://brew.sh/' target='_blank' rel='nofollow'>HomeBrew</a>. If you haven't used HomeBrew before, simply execute the following command in a Terminal window:
 
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
@@ -51,9 +51,9 @@ Now that all the preparations are in place, it's time for the main event:
 
     yo angular-fullstack
 
-Answer the questions according to checklist items <span class="hashtag">#13-23</span> of [Challenge: Get Set for Back End Projects](http://www.freecodecamp.com/challenges/get-set-for-our-back-end-development-projects). Consult <span class="hashtag">#24-27</span> if you run into errors. This will download ~350MB worth of files into your current directory.
+Answer the questions according to checklist items <span class="hashtag">#13-23</span> of <a href='http://www.freecodecamp.com/challenges/get-set-for-our-back-end-development-projects' target='_blank' rel='nofollow'>Challenge: Get Set for Back End Projects</a>. Consult <span class="hashtag">#24-27</span> if you run into errors. This will download ~350MB worth of files into your current directory.
 
-Before going any further, we need to fix a [known issue](https://github.com/clnhll/guidetobasejumps#fixing-exportsupdate) in some generated files:
+Before going any further, we need to fix a <a href='https://github.com/clnhll/guidetobasejumps#fixing-exportsupdate' target='_blank' rel='nofollow'>known issue</a> in some generated files:
 
     echo "sed -i '' -e 's/_.merge/_.extend/' server/api/*/*.controller.js" > \
     fix-exports-update.sh && chmod +x fix-exports-update.sh && \

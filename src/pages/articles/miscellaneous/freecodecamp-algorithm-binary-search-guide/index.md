@@ -15,7 +15,7 @@ Binary search works on sorted arrays. A binary search begins by comparing the mi
 
 The pseudocode for binary search algorithm is as follows:
 
-    BinarySearch(A[0..N-1], value) {
+    BinarySearch(A<a href='https://repl.it/CWZq/158' target='_blank' rel='nofollow'>0..N-1], value) {
       low = 0
       high = N - 1
       while (low <= high) {
@@ -55,16 +55,16 @@ The pseudocode for binary search algorithm is as follows:
       return -1;
     }
 
-:rocket: [Run Code](https://repl.it/CWZq/158) ## Python Implementation  
+:rocket: [Run Code</a> ## Python Implementation  
 
     def binary_search(l, value):
         low = 0
         high = len(l)-1
         while low <= high:
             mid = (low+high)//2
-            if l[mid] > value: high = mid-1
+            if l<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>mid] > value: high = mid-1
             elif l[mid] < value: low = mid+1
             else: return mid
         return -1
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CWZi/2)
+![:rocket:</a> <a href='https://repl.it/CWZi/2' target='_blank' rel='nofollow'>Run Code</a>

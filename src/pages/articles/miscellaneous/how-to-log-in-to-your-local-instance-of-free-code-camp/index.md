@@ -5,13 +5,13 @@ This guide will help you log in to your local FCC site using your GitHub account
 
 ## TL;DR
 
-1.  [Register a new OAuth application](https://github.com/settings/developers)
+1.  <a href='https://github.com/settings/developers' target='_blank' rel='nofollow'>Register a new OAuth application</a>
 2.  Homepage field: `http://localhost:3000/`
 3.  Callback field: `http://localhost:3000/auth/github/callback`
 4.  Copy/paste the Client ID and Client Secret into your `.env` file
 5.  Use port 3000 when viewing your local FCC site
 
-Free Code Camp Issue Mods and staff are on hand to assist with Pull Request related issues on our [Help Contributors Chat Room](https://gitter.im/FreeCodeCamp/HelpContributors)
+Free Code Camp Issue Mods and staff are on hand to assist with Pull Request related issues on our <a href='https://gitter.im/FreeCodeCamp/HelpContributors' target='_blank' rel='nofollow'>Help Contributors Chat Room</a>
 
 ## Disclaimer
 
@@ -19,7 +19,7 @@ The output from running `$ gulp` mentions the **Access Port** is 3001\. I have o
 
 ## Log In Using Your GitHub Account
 
-1.  [Register a new OAuth application](https://github.com/settings/developers) and click **Register new application**
+1.  <a href='https://github.com/settings/developers' target='_blank' rel='nofollow'>Register a new OAuth application</a> and click **Register new application**
 
 _Alternatively_, click your **Profile Picture** => **Settings** => **Applications** => **Developer applications** => **Register new application**
 
@@ -43,7 +43,7 @@ _Note: your Client ID and Client Secret will be long alphanumeric values._
 
 ## Tips
 
-1.  Remove / unset with comment block the unwanted provider in [passport-provider](https://github.com/FreeCodeCamp/FreeCodeCamp/blob/staging/server/passport-providers.js).
+1.  Remove / unset with comment block the unwanted provider in <a href='https://github.com/FreeCodeCamp/FreeCodeCamp/blob/staging/server/passport-providers.js' target='_blank' rel='nofollow'>passport-provider</a>.
 
 2.  Add SESSION_SECRET and COOKIE_SECRET in `.env` if you get error on express-session and cookieParser.
 

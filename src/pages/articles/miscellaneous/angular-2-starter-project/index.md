@@ -29,7 +29,7 @@ Create a file called _`app.component.ts`_ as shown:
         @Component({
           selector: 'my-app',
           template: '<h1>Free Code Camp Rocks!</h1>',
-          styles: [`
+          styles: <a href='http://plnkr.co/edit/BdvNONEmO3Jwg0EavX22' target='_blank' rel='nofollow'>`
             h1 { color: darkgreen; font-family: Arial, Helvetica, sans-serif;}
           `]
         })
@@ -227,5 +227,5 @@ Finally, we just add the tag that our component connects to in the template. So 
 `js  
 template: ` <h1>Free Code Camp Rocks!</h1> <increment-clicker></increment-clicker> `,`   
 Our component is now included in our app!  
-[Updated Code](http://plnkr.co/edit/BdvNONEmO3Jwg0EavX22)  
-[VIEW COMPLETE APPLICATION](http://run.plnkr.co/plunks/BdvNONEmO3Jwg0EavX22/)
+[Updated Code</a>  
+<a href='http://run.plnkr.co/plunks/BdvNONEmO3Jwg0EavX22/' target='_blank' rel='nofollow'>VIEW COMPLETE APPLICATION</a>

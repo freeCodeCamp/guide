@@ -41,4 +41,4 @@ After this, all of the old commits will be kept in `new-branch-to-save-current-c
 
 ## Attribution:
 
-_This article is based on a Stack Overflow question [here](http://stackoverflow.com/questions/1125968/force-git-to-overwrite-local-files-on-pull/8888015#8888015)_
+_This article is based on a Stack Overflow question <a href='http://stackoverflow.com/questions/1125968/force-git-to-overwrite-local-files-on-pull/8888015#8888015' target='_blank' rel='nofollow'>here</a>_

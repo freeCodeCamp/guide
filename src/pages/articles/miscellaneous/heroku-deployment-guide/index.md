@@ -3,7 +3,7 @@ title: Heroku Deployment Guide
 ---
 1.  Create a Heroku account.
 
-2.  After making an account, you can go to your [dashboard](https://dashboard.heroku.com/apps)
+2.  After making an account, you can go to your <a href='https://dashboard.heroku.com/apps' target='_blank' rel='nofollow'>dashboard</a>
 
 3.  Click the + sign in the top right hand corner and click Create New App (just like you're making a new repo on github). Give it a name, and click Create.
 
@@ -47,7 +47,7 @@ It'll ask you a series of questions and create a package.json file in your root 
 
       }
 
-If you name it anything else, though, like 'index.js', that line won't get added and you'll have to manually add that. That's the default behavior as mentioned [here](https://docs.npmjs.com/files/package.json#default-values). You can install node modules before or after this step and they will get added to package.json automatically.
+If you name it anything else, though, like 'index.js', that line won't get added and you'll have to manually add that. That's the default behavior as mentioned <a href='https://docs.npmjs.com/files/package.json#default-values' target='_blank' rel='nofollow'>here</a>. You can install node modules before or after this step and they will get added to package.json automatically.
 
 1.  When you're ready, create a new repository on github, copy the remote URL, and initialize the project locally by doing:
 

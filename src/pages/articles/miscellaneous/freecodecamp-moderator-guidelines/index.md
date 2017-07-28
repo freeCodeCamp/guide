@@ -11,7 +11,7 @@ Above all else, remember that your purpose as a moderator is to serve our commun
 
 # Moderating Gitter
 
-Here's how moderators deal with violations of our [Code of Conduct](https://www.freecodecamp.com/code-of-conduct) on Gitter:
+Here's how moderators deal with violations of our <a href='https://www.freecodecamp.com/code-of-conduct' target='_blank' rel='nofollow'>Code of Conduct</a> on Gitter:
 
 1.  Moderators will ban the offending person immediately.
 
@@ -21,13 +21,13 @@ Here's how moderators deal with violations of our [Code of Conduct](https://www.
     > 
     > I am a moderator acting on behalf of our open source community. I can consider unbanning you, but I need you to do something first.
     > 
-    > 1\. Read our [**`Code of Conduct`**]([https://www.freecodecamp.com/code-of-conduct](https://www.freecodecamp.com/code-of-conduct)).  
+    > 1\. Read our <a href='[https://www.freecodecamp.com/code-of-conduct' target='_blank' rel='nofollow'>**`Code of Conduct`**</a>).  
     > 2\. Please confirm that you've read it.  
     > 3\. Explain to me why you think I banned you.
 
 3.  Based on their reply, moderators will decide whether to unban the offending camper. If the offending camper hasn't been banned by that moderator before, and if they seem respectful and apologetic, the moderator can unban them. As a matter of policy, moderators will be polite during this process, no matter how poorly the offending camper has behaved.
 
-4.  Moderators will type a short summary of the event and how they responded to it in the [admin room](https://gitter.im/freeCodeCamp/admin). Here's an example of what such summaries might look like:
+4.  Moderators will type a short summary of the event and how they responded to it in the <a href='https://gitter.im/freeCodeCamp/admin' target='_blank' rel='nofollow'>admin room</a>. Here's an example of what such summaries might look like:
 
     > I banned ` `@username` ` for spamming and sent them the Code of Conduct. They said they were sorry and that they honestly didn't realize what they were doing was considered spamming. I unbanned them.
     > 
@@ -45,7 +45,7 @@ If they cooperate, you can later unban them with:
 
 This only works for that single room, so you may need to ban them more than one place.
 
-If a camper continues to jump from room to room causing problems, moderators can request a global ban in the [admin room](https://gitter.im/freecodecamp/admin).
+If a camper continues to jump from room to room causing problems, moderators can request a global ban in the <a href='https://gitter.im/freecodecamp/admin' target='_blank' rel='nofollow'>admin room</a>.
 
 ### Deleting Gitter messages
 
@@ -99,7 +99,7 @@ There are several general classes of Issues:
 
     > Thank you for reporting this issue.
     > 
-    > This is a standard message notifying you that this issue seems to be a request for help. Instead of asking for help here, please click the **"Help"** button on the challenge on freeCodeCamp, which will take you to the help chatroom for that specific challenge. You can also view our [**full list of official chatrooms**]([http://forum.freecodecamp.com/t/free-code-camp-official-chat-rooms/19390](http://forum.freecodecamp.com/t/free-code-camp-official-chat-rooms/19390)).
+    > This is a standard message notifying you that this issue seems to be a request for help. Instead of asking for help here, please click the **"Help"** button on the challenge on freeCodeCamp, which will take you to the help chatroom for that specific challenge. You can also view our <a href='[http://forum.freecodecamp.com/t/free-code-camp-official-chat-rooms/19390' target='_blank' rel='nofollow'>**full list of official chatrooms**</a>).
     > 
     > If you think I'm wrong in closing this issue, please reopen it and add further clarification. Thank you, and happy coding.
 
@@ -107,7 +107,7 @@ There are several general classes of Issues:
 
     *   If it's a simple change to an existing challenge, flag as `help wanted` and, optionally, as `first-timers-only`. Use other tags as appropriate.
     *   If the issue is more significant, flag as `bug`.
-    *   [Label Usage Guide](http://forum.freecodecamp.com/t/free-code-camp-issue-labels/19556)  
+    *   <a href='http://forum.freecodecamp.com/t/free-code-camp-issue-labels/19556' target='_blank' rel='nofollow'>Label Usage Guide</a>  
 
         If there is any ambiguity as to the proper course of action on an issue, feel free to tag **`@freeCodeCamp/moderators`** to get opinions from other moderators. Flag as `Discussing`.
 3.  **Duplicate Issues** If an issue is the same as another reported issue, the prior reported issue should take precedence. Flag as `Duplicate`, paste the following message replacing `#XXXXX` with the issue number, then close the issue.
@@ -126,11 +126,11 @@ There are several general classes of Issues:
     > 
     > If you think I'm wrong in closing this issue, please reopen it and add further clarification. Thank you, and happy coding.
 
-5.  **Bike Shedding** Bike Shedding is an example of [Parkinson's law of triviality](https://en.wikipedia.org/wiki/Parkinson%27s_law_of_triviality). Some issues are simply not worth fixing. If you believe an issue isn't worth the effort, flag as `bikeshedding`, paste and fill out the following message, then close the issue:
+5.  **Bike Shedding** Bike Shedding is an example of <a href='https://en.wikipedia.org/wiki/Parkinson%27s_law_of_triviality' target='_blank' rel='nofollow'>Parkinson's law of triviality</a>. Some issues are simply not worth fixing. If you believe an issue isn't worth the effort, flag as `bikeshedding`, paste and fill out the following message, then close the issue:
 
     > Thank you for reporting this issue.
     > 
-    > _Give a short explanation of why this is bikeshedding, a form of [Parkinson's law of triviality](https://en.wikipedia.org/wiki/Parkinson%27s_law_of_triviality), so I'm closing it._
+    > _Give a short explanation of why this is bikeshedding, a form of <a href='https://en.wikipedia.org/wiki/Parkinson%27s_law_of_triviality' target='_blank' rel='nofollow'>Parkinson's law of triviality</a>, so I'm closing it._
     > 
     > If you think I'm wrong in closing this issue, please reopen it and add further clarification. Thank you, and happy coding.
 
@@ -151,7 +151,7 @@ All PRs must meet the following requirements before they should be accepted:
 7.  _Related_ changes should be squashed to single commit. But _relevant or notable_ changes may have separate commits.
 8.  Code must pass all tests and linting
 
-If the PR does not meet one or more of these requirements, open a GitHub review specifying which of the 8 requirements is not yet met. New Contributors may be referred to the [Contributors](https://gitter.im/freeCodeCamp/Contributors) Chat room. At a moderator's discretion the issue may be closed.
+If the PR does not meet one or more of these requirements, open a GitHub review specifying which of the 8 requirements is not yet met. New Contributors may be referred to the <a href='https://gitter.im/freeCodeCamp/Contributors' target='_blank' rel='nofollow'>Contributors</a> Chat room. At a moderator's discretion the issue may be closed.
 
 ### Quality Assurance (QA)
 
@@ -167,7 +167,7 @@ If there is any doubt about the functionality, you may mention **`@freeCodeCamp/
 
 ### Special Requirements
 
-PRs which change the underlying function of the site or make non-trivial changes to the UI or UX of the site should be approved by [@BerkeleyTrue](https://gitter.im/berkeleytrue) or [@QuincyLarson](https://gitter.im/quincylarson). If you have any doubt, tag them in a comment and/or draw their attention to the PR via Gitter Chat.
+PRs which change the underlying function of the site or make non-trivial changes to the UI or UX of the site should be approved by <a href='https://gitter.im/berkeleytrue' target='_blank' rel='nofollow'>@BerkeleyTrue</a> or <a href='https://gitter.im/quincylarson' target='_blank' rel='nofollow'>@QuincyLarson</a>. If you have any doubt, tag them in a comment and/or draw their attention to the PR via Gitter Chat.
 
 ### Other Rules Governing Moderators
 
@@ -194,7 +194,7 @@ Forum moderators have the ability to delete user's posts. You should only do thi
 
 For the first spam post of a user, send them a message explaining the problem, and remove the link or post as appropriate. Leave a note on the user's profile explaining the action you have taken. If the problem persists, then follow the process above. Quietly block user from posting, then send warning with Code of Conduct. Check the box in the private message indicating that your message is a "formal warning."
 
-It is not necessary to use the Gitter admin room to report incidents on the forum. If you have questions, please ask in the [staff](https://forum.freecodecamp.com/c/staff) forum section.
+It is not necessary to use the Gitter admin room to report incidents on the forum. If you have questions, please ask in the <a href='https://forum.freecodecamp.com/c/staff' target='_blank' rel='nofollow'>staff</a> forum section.
 
 ### Dealing with off-topic conversations
 
@@ -210,9 +210,9 @@ Have you been contributing to our community, and desire the additional power/res
 
 Gather evidence that shows your helpfulness on GitHub issues, and/or helping campers on Gitter and our forums, and PM it in Gitter to:
 
-*   [@BerkeleyTrue](https://gitter.im/berkeleytrue)
-*   [@CodeNonprofit](https://gitter.im/codenonprofit)
-*   [@QuincyLarson](https://gitter.im/quincylarson)
+*   <a href='https://gitter.im/berkeleytrue' target='_blank' rel='nofollow'>@BerkeleyTrue</a>
+*   <a href='https://gitter.im/codenonprofit' target='_blank' rel='nofollow'>@CodeNonprofit</a>
+*   <a href='https://gitter.im/quincylarson' target='_blank' rel='nofollow'>@QuincyLarson</a>
 
 Additional requirements:
 
@@ -220,7 +220,7 @@ Additional requirements:
 *   Your GitHub profile should at least have your first name.
 *   Your GitHub photo should feature your face.
 
-If you are approved, we will add you to our [Moderator Team](https://github.com/orgs/freeCodeCamp/teams/moderators).
+If you are approved, we will add you to our <a href='https://github.com/orgs/freeCodeCamp/teams/moderators' target='_blank' rel='nofollow'>Moderator Team</a>.
 
 # How we retire inactive moderators
 
@@ -232,7 +232,7 @@ Please note that we will frequently remove issue mods whom we think are inactive
 
 # How our Contributors room works
 
-Anyone is welcome in the [Contributors room](https://gitter.im/freecodecamp/contributors). It is the designated chat room for moderators and other campers who are contributing to our community in any number of ways, including through study groups.
+Anyone is welcome in the <a href='https://gitter.im/freecodecamp/contributors' target='_blank' rel='nofollow'>Contributors room</a>. It is the designated chat room for moderators and other campers who are contributing to our community in any number of ways, including through study groups.
 
 Our assumption is that contributors will read anything in this room that directly mentions them with an `@username`, or is directed to `@/all`. Everything else is optional. But feel free to read anything anyone posts in there and interact.
 
@@ -246,4 +246,4 @@ You may be approached by organizations who want to partner or co-brand with free
 
 # Definitions
 
-> The key words "MUST", "MUST NOT", "REQUIRED", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in [**RFC 2119**](https://www.ietf.org/rfc/rfc2119.txt).
+> The key words "MUST", "MUST NOT", "REQUIRED", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in <a href='https://www.ietf.org/rfc/rfc2119.txt' target='_blank' rel='nofollow'>**RFC 2119**</a>.

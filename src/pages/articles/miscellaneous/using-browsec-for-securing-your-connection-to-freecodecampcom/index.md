@@ -3,17 +3,17 @@ title: Using Browsec for Securing Your Connection to Freecodecampcom
 ---
 ### Why do I need an plugin or add-on?
 
-Lately some of the campers started facing strange problems, namely "Content Modification" by some Internet Service Providers (ISP), leading to the [FreeCodeCamp.com](http://freecodecamp.com) (FCC) website being broken sometimes.
+Lately some of the campers started facing strange problems, namely "Content Modification" by some Internet Service Providers (ISP), leading to the <a href='http://freecodecamp.com' target='_blank' rel='nofollow'>FreeCodeCamp.com</a> (FCC) website being broken sometimes.
 
 This came to light with some of the issues logged by campers :
 
-*   [#5999 : Indian ISP's injecting Ads breaks site](https://github.com/FreeCodeCamp/FreeCodeCamp/issues/5999)
-*   [#6122 : Serious Problem using the FCC IDE, console showing error...](https://github.com/FreeCodeCamp/FreeCodeCamp/issues/6122)
-*   [#6381 : Unable to view the Code editor in the browser](https://github.com/FreeCodeCamp/FreeCodeCamp/issues/6381)
+*   <a href='https://github.com/FreeCodeCamp/FreeCodeCamp/issues/5999' target='_blank' rel='nofollow'>#5999 : Indian ISP's injecting Ads breaks site</a>
+*   <a href='https://github.com/FreeCodeCamp/FreeCodeCamp/issues/6122' target='_blank' rel='nofollow'>#6122 : Serious Problem using the FCC IDE, console showing error...</a>
+*   <a href='https://github.com/FreeCodeCamp/FreeCodeCamp/issues/6381' target='_blank' rel='nofollow'>#6381 : Unable to view the Code editor in the browser</a>
 
 ## TL;DR : What's Wrong, again?
 
-Well, for some campers, this is a classic case of [man in the middle attack](https://en.wikipedia.org/wiki/Man-in-the-middle_attack).
+Well, for some campers, this is a classic case of <a href='https://en.wikipedia.org/wiki/Man-in-the-middle_attack' target='_blank' rel='nofollow'>man in the middle attack</a>.
 
 For instance, as seen in the issue <span class="hashtag">#5999</span>, the ISP of some campers from India is deliberately injecting Ads into the user's visited websites that's causing problems.
 
@@ -25,7 +25,7 @@ But when this is not done correctly (or is done malaciously as in the first case
 
 Simple, we need to encrypt our connection to the FCC website. By encrypting our traffic we bypass the ISP's ability to modify or cache our content as it passes through their infrastructure.
 
-This can be done with a useful browser add-on called [Browsec](https://browsec.com/en/).
+This can be done with a useful browser add-on called <a href='https://browsec.com/en/' target='_blank' rel='nofollow'>Browsec</a>.
 
 ### How does the add-on work?
 
@@ -41,7 +41,7 @@ There you go!
 
 #### Step 1 : Install the browsec extension.
 
-You can [download and install the browsec plugin](https://chrome.google.com/webstore/detail/browsec/omghfjlpggmjjaagoclmmobgdodcjboh) for Chrome from the offical WebStore.
+You can <a href='https://chrome.google.com/webstore/detail/browsec/omghfjlpggmjjaagoclmmobgdodcjboh' target='_blank' rel='nofollow'>download and install the browsec plugin</a> for Chrome from the offical WebStore.
 
 ![Image for 'Browsec on Google Chrome WebStore'](//discourse-user-assets.s3.amazonaws.com/original/2X/6/61bd52ed78c56369e62ca376b6dd9e56abcb6363.png)
 
@@ -49,17 +49,17 @@ You can [download and install the browsec plugin](https://chrome.google.com/webs
 
 It's a good thing if you clear your browser cache for the first time you are going to use browsec, so that your browser loads all the files from scratch.
 
-#### Step 3 : Restart your browser, and visit [FreeCodeCamp.com](http://freecodecamp.com)
+#### Step 3 : Restart your browser, and visit <a href='http://freecodecamp.com' target='_blank' rel='nofollow'>FreeCodeCamp.com</a>
 
 Just close your browser, and restart it. Check the browsec extention, for your desired endpoint location.
 
 ### For Mozilla Firefox :
 
-Download a portable Firefox version, with bundled add-on, from the [Browsec website](https://browsec.com/en/dashboard/main).
+Download a portable Firefox version, with bundled add-on, from the <a href='https://browsec.com/en/dashboard/main' target='_blank' rel='nofollow'>Browsec website</a>.
 
 ![Image for 'Browsec on Google Chrome WebStore'](//discourse-user-assets.s3.amazonaws.com/original/2X/b/b30fbf3bade330044e18b3c37409f2437a3810c1.png)
 
-That's it! Happy Coding! If this works then do let us know in the [Help Chat](https://gitter.im/FreeCodeCamp/Help)
+That's it! Happy Coding! If this works then do let us know in the <a href='https://gitter.im/FreeCodeCamp/Help' target='_blank' rel='nofollow'>Help Chat</a>
 
 ## FAQs
 
@@ -81,7 +81,7 @@ Yes, why not, you can use any available VPN clients in the market, but keep in m
 
 ### Hey what about other browsers, Internet Explorer, Safari, e.t.c.?
 
-Hmm, go for any VPN add-on that you can find for these browsers, [Tor](https://www.torproject.org/), is one such client, but they come with paid subscriptions, you can basically use any anonymizer that you want, however Chrome and Browsec are tried and tested and have worked for most campers in the past.
+Hmm, go for any VPN add-on that you can find for these browsers, <a href='https://www.torproject.org/' target='_blank' rel='nofollow'>Tor</a>, is one such client, but they come with paid subscriptions, you can basically use any anonymizer that you want, however Chrome and Browsec are tried and tested and have worked for most campers in the past.
 
 ### Can I use the anonymizer for using websites other than FCC?
 
@@ -89,7 +89,7 @@ Of course yes. Why not? However remember that this does not make you invisible t
 
 ### What if this doesn't work for me?
 
-Please let us know in the [Help Chat](https://gitter.im/FreeCodeCamp/Help), we will try our best to find a workaround.
+Please let us know in the <a href='https://gitter.im/FreeCodeCamp/Help' target='_blank' rel='nofollow'>Help Chat</a>, we will try our best to find a workaround.
 
 #### _Disclaimer_
 

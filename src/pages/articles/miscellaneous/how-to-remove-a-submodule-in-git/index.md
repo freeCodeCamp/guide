@@ -15,5 +15,5 @@ Removing a submodule is useful when it is no longer required. The steps below ou
 
 ## Sources
 
-*   [Stackoverflow — How do I remove a submodule](http://stackoverflow.com/questions/1260748/how-do-i-remove-a-submodule)
-*   [git.wiki.kernel.org — Git submodule removal](https://git.wiki.kernel.org/index.php/GitSubmoduleTutorial#Removal)
+*   <a href='http://stackoverflow.com/questions/1260748/how-do-i-remove-a-submodule' target='_blank' rel='nofollow'>Stackoverflow — How do I remove a submodule</a>
+*   <a href='https://git.wiki.kernel.org/index.php/GitSubmoduleTutorial#Removal' target='_blank' rel='nofollow'>git.wiki.kernel.org — Git submodule removal</a>

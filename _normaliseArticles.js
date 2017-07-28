@@ -9,6 +9,8 @@ const metaRE = /---[\W\w]*?---\n*?/;
 const isAFileRE = /(\.md|\.jsx?|\.html?)$/;
 const shouldBeIgnoredRE = /^(\_|\.)/;
 const isAStubRE = /This\sis\sa\sstub\.\s\[Help\sour\scommunity\sexpand\sit\]/;
+const markdownLinkRE = /\!?\[[\w\W]*?\]\([\w\W]+?\)/g;
+const httpsRE = /https?\:\/\//;
 
 const articlesDir = `${process.cwd()}/src/pages/articles`;
 
@@ -42,6 +44,29 @@ This is a stub. [Help our community expand it](https://github.com/freecodecamp/g
 }
 /* eslint-enable max-len */
 
+function normaliseLinks(content) {
+  let anchored = content.slice(0);
+  const links = content.match(markdownLinkRE);
+
+  if (links) {
+  links
+    .filter(x => !x.startsWith('!'))
+    .filter(x => x.match(httpsRE))
+    .map(str => {
+      // raw will look like [ '[guides website', 'http://guide.netlify.com)' ]
+      const raw = str.slice(0).split('](');
+      const formatted = [ raw[0].replace('[', ''), raw[1].replace(')', '') ];
+      const [ childText, url ] = formatted;
+      const anchor = (
+        `<a href='${url}' target='_blank' rel='nofollow'>${childText}</a>`
+      );
+      anchored = anchored.replace(str, anchor);
+    });
+  }
+
+  return anchored;
+}
+
 function normaliseMeta(dirLevel) {
   const filePath = `${dirLevel}/index.md`;
   fse.open(filePath, 'r', (err) => {
@@ -73,15 +98,17 @@ function normaliseMeta(dirLevel) {
 `---
 title: ${pageTitle}
 ---`);
-        let normailised = content
+        let normalised = content
           .replace(metaRE, '');
         if (
-          normailised.length < 30 ||
+          normalised.length < 30 ||
           isAStubRE.test(content)
         ) {
-          normailised = appendStub(pageTitle, dirLevel);
+          normalised = appendStub(pageTitle, dirLevel);
         }
-        fse.writeFile(filePath, newMeta.concat(normailised));
+        const finalNormalised = normaliseLinks(normalised);
+
+        fse.writeFile(filePath, newMeta.concat(finalNormalised));
       })
       .catch(err => {
         console.error('something went wrong', err);

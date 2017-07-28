@@ -3,11 +3,11 @@ title: Npm Behind a Proxy Server
 ---
 ## Use-cases
 
-You might need to modify `npm install` commands that access remote repositories ([npmjs](https://www.npmjs.com/), for example) for installing Node JS modules; if your internet access is through a [proxy server](https://en.wikipedia.org/wiki/Proxy_server).
+You might need to modify `npm install` commands that access remote repositories (<a href='https://www.npmjs.com/' target='_blank' rel='nofollow'>npmjs</a>, for example) for installing Node JS modules; if your internet access is through a <a href='https://en.wikipedia.org/wiki/Proxy_server' target='_blank' rel='nofollow'>proxy server</a>.
 
 Proxy servers are common in college and business type environments.
 
-You can [locate your proxy settings](http://www.wikihow.com/Change-Proxy-Settings) from your browser's settings panel.
+You can <a href='http://www.wikihow.com/Change-Proxy-Settings' target='_blank' rel='nofollow'>locate your proxy settings</a> from your browser's settings panel.
 
 ## Using Proxy with NPM
 
@@ -31,11 +31,11 @@ You should not have to use `npm` commands with proxy settings, if either of the 
 
 ## Unset Proxy Settings
 
-Use [this](http://luxiyalu.com/how-to-remove-all-npm-proxy-settings/) blog post to unset your proxy settings. You can also manually remove the lines specifying your proxy settings from your `.npmrc` [file](https://docs.npmjs.com/files/npmrc).
+Use <a href='http://luxiyalu.com/how-to-remove-all-npm-proxy-settings/' target='_blank' rel='nofollow'>this</a> blog post to unset your proxy settings. You can also manually remove the lines specifying your proxy settings from your `.npmrc` <a href='https://docs.npmjs.com/files/npmrc' target='_blank' rel='nofollow'>file</a>.
 
 ## Resources
 
 You may use the following resources for further reading on this:-
 
-> *   [Can I Log In Behind A Proxy Server](https://github.com/npm/npm/issues/9401#issuecomment-134569585)
-> *   [NPM Behind A Corporate Proxy](http://intenseagile.com/2015/09/04/npm-behind-proxy.html)
+> *   <a href='https://github.com/npm/npm/issues/9401#issuecomment-134569585' target='_blank' rel='nofollow'>Can I Log In Behind A Proxy Server</a>
+> *   <a href='http://intenseagile.com/2015/09/04/npm-behind-proxy.html' target='_blank' rel='nofollow'>NPM Behind A Corporate Proxy</a>

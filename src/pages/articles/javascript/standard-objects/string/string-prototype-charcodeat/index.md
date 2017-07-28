@@ -13,7 +13,7 @@ The `charCodeAt()` method returns the numeric Unicode value of the character at 
 
 An integer greater than or equal to 0 and less than the length of the string; if it is not a number, it defaults to 0.
 
-[MDN link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt) | [MSDN link](https://msdn.microsoft.com/en-us/LIBRary/hza4d04f%28v=vs.94%29.aspx)
+<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt' target='_blank' rel='nofollow'>MDN link</a> | <a href='https://msdn.microsoft.com/en-us/LIBRary/hza4d04f%28v=vs.94%29.aspx' target='_blank' rel='nofollow'>MSDN link</a>
 
 ## Description
 

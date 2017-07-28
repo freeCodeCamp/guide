@@ -10,7 +10,7 @@ So picking up the same example:
     >>> sqrt(36)
     <<< 6
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [Run Code](https://repl.it/CS5t/1)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CS5t/1' target='_blank' rel='nofollow'>Run Code</a>
 
 Or we could use this:
 
@@ -19,7 +19,7 @@ Or we could use this:
     >>> math.sqrt(36)
     <<< 6
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [Run Code](https://repl.it/CS5u)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CS5u' target='_blank' rel='nofollow'>Run Code</a>
 
 Then our code would look like`math.sqrt(x)` instead of `sqrt(x)`. This happens because when we use `import x`, a namespace `x` is itself created to avoid name conflicts. You have to access every single object of the module as `x.<name>`. But when we use `from x import y` we agree to add `y` to the main global namespace. So while using this we have to make sure that we don't have an object with same name in our program.
 
