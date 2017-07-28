@@ -1,25 +1,25 @@
 ---
 title: Materializecss Framework as a an Alternative to Bootstrap
 ---
-[MaterializeCSS](http://materializecss.com/) is a modern responsive front-end framework based on google's [Material Design principles](https://www.google.com/design/spec/material-design/introduction.html).
+<a href='http://materializecss.com/' target='_blank' rel='nofollow'>MaterializeCSS</a> is a modern responsive front-end framework based on google's <a href='https://www.google.com/design/spec/material-design/introduction.html' target='_blank' rel='nofollow'>Material Design principles</a>.
 
 ## What is Material Design?
 
 Material Design (codenamed Quantum Paper) is a design language developed by Google. Expanding upon the "card" motifs that debuted in Google Now, Material Design makes more liberal use of grid-based layouts, responsive animations and transitions, padding, and depth effects such as lighting and shadows.
 
-This [video](https://www.youtube.com/watch?v=Q8TXgCzxEnw) gives you an idea about material design:
+This <a href='https://www.youtube.com/watch?v=Q8TXgCzxEnw' target='_blank' rel='nofollow'>video</a> gives you an idea about material design:
 
 ## Check out this websites that are using Materialize, See the difference to what you're used to!
 
 Test them on your phone too for a better feel.
 
-*   [The 100](https://www.100xp.io/)
+*   <a href='https://www.100xp.io/' target='_blank' rel='nofollow'>The 100</a>
 
-*   [Admin Themes](http://demo.geekslabs.com/materialize/v2.1/)
+*   <a href='http://demo.geekslabs.com/materialize/v2.1/' target='_blank' rel='nofollow'>Admin Themes</a>
 
-*   [StrapHq](http://www.straphq.com/)
+*   <a href='http://www.straphq.com/' target='_blank' rel='nofollow'>StrapHq</a>
 
-More examples [here](http://materializecss.com/showcase.html)
+More examples <a href='http://materializecss.com/showcase.html' target='_blank' rel='nofollow'>here</a>
 
 ## A bootstrap alternative, really?
 
@@ -48,11 +48,11 @@ There is another lighter version of material Design Framework but its not as ele
 *   It's simple! -- Just emphasizing
 *   It's open-source, you can git it here
 *   A community is also growing around it
-*   [Someone](http://fezvrasta.github.io/bootstrap-material-design/) is looking to produce a blend of Bootstrap + Materialize. Sweeet!
+*   <a href='http://fezvrasta.github.io/bootstrap-material-design/' target='_blank' rel='nofollow'>Someone</a> is looking to produce a blend of Bootstrap + Materialize. Sweeet!
 
 ## Anything else?
 
-Try it out and maybe you will love it. In fact since thats where even android UI is already headed, this might a good way to get yourself better at Material design for mobile-focused web-apps like [progressive web apps](https://developers.google.com/web/fundamentals/getting-started/your-first-progressive-web-app/#what-will-you-learn)
+Try it out and maybe you will love it. In fact since thats where even android UI is already headed, this might a good way to get yourself better at Material design for mobile-focused web-apps like <a href='https://developers.google.com/web/fundamentals/getting-started/your-first-progressive-web-app/#what-will-you-learn' target='_blank' rel='nofollow'>progressive web apps</a>
 
 ### Maybe you shouldn't use it ...yet
 

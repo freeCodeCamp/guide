@@ -11,8 +11,8 @@ You are given a variable **celsius** representing a temperature in Celsius. Use 
 
 #### Relevant Links
 
-*   [The Order of Operations: PEMDAS](http://www.purplemath.com/modules/orderops.htm)
-*   [Order of Operation: Video](https://www.khanacademy.org/math/pre-algebra/order-of-operations/order_of_operations/v/order-of-operations)
+*   <a href='http://www.purplemath.com/modules/orderops.htm' target='_blank' rel='nofollow'>The Order of Operations: PEMDAS</a>
+*   <a href='https://www.khanacademy.org/math/pre-algebra/order-of-operations/order_of_operations/v/order-of-operations' target='_blank' rel='nofollow'>Order of Operation: Video</a>
 
 ## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 1
 
@@ -61,4 +61,4 @@ Keep in mind the **order of operation** check the link in the _links_ section fo
 *   Categorize the solution in one of the following categories — **Basic**, **Intermediate** and **Advanced**. ![:traffic_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/traffic_light.png?v=3 ":traffic_light:")
 *   Please add your username only if you have added any **relevant main contents**. (![:warning:](https://forum.freecodecamp.com/images/emoji/emoji_one/warning.png?v=3 ":warning:") **_DO NOT_** _remove any existing usernames_)
 
-> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") [**`Wiki Challenge Solution Template`**](http://forum.freecodecamp.com/t/algorithm-article-template/14272) for reference.
+> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") <a href='http://forum.freecodecamp.com/t/algorithm-article-template/14272' target='_blank' rel='nofollow'>**`Wiki Challenge Solution Template`**</a> for reference.

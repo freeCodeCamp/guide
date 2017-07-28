@@ -21,11 +21,11 @@ Installing it would be as simple as `pip install requests` . You can even pass v
 
 For example, to upgrade the requests module to its latest version would be as simple as `pip install requests --upgrade`.
 
-Before using `pip`, you will need to install it (it's quite simple). You can install it from [here](https://bootstrap.pypa.io/get-pip.py)
+Before using `pip`, you will need to install it (it's quite simple). You can install it from <a href='https://bootstrap.pypa.io/get-pip.py' target='_blank' rel='nofollow'>here</a>
 
 Just click on the link. And save the file as`get-pip.py` _Please don't forget the `.py` extension._ And run it.
 
-An alternative to using pip would be to try [`easy_install`](https://bootstrap.pypa.io/ez_setup.py).
+An alternative to using pip would be to try <a href='https://bootstrap.pypa.io/ez_setup.py' target='_blank' rel='nofollow'>`easy_install`</a>.
 
 Using `easy_install` is also simple. The syntax is:
 

@@ -78,7 +78,7 @@ En el caso de que se reciba sólo un argumento no te preocupes sobre como solici
     // realizamos el test
     addTogether(2,3);
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [¡En REPL!](https://repl.it/CLnz/0)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CLnz/0' target='_blank' rel='nofollow'>¡En REPL!</a>
 
 ### Explicación del código:
 
@@ -130,7 +130,7 @@ En el caso de que se reciba sólo un argumento no te preocupes sobre como solici
     // realizamos el test
     addTogether(2,3);
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [¡En REPL!](https://repl.it/CLoA/0)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CLoA/0' target='_blank' rel='nofollow'>¡En REPL!</a>
 
 ## Tercer solución:
 
@@ -149,7 +149,7 @@ En el caso de que se reciba sólo un argumento no te preocupes sobre como solici
     // realizamos el test
     addTogether(2,3);
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [¡En REPL!](https://repl.it/CLoB/0)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CLoB/0' target='_blank' rel='nofollow'>¡En REPL!</a>
 
 ### Explicación del código:
 

@@ -9,17 +9,17 @@ During the Free Code Camp volunteer projects we use an Agile Project Management 
 *   **Stakeholder** - Someone outside the development team who has an interest in the project and its development.
 *   **User Story** - A requirement or feature that the product must meet/include.
 
-For additional information on Agile you can check out the [agile management](https://en.wikipedia.org/wiki/Agile_management) page on Wikipedia or take a look at the [Agile Project Management for Dummies Cheat Sheet](http://www.dummies.com/how-to/content/agile-project-management-for-dummies-cheat-sheet.html).
+For additional information on Agile you can check out the <a href='https://en.wikipedia.org/wiki/Agile_management' target='_blank' rel='nofollow'>agile management</a> page on Wikipedia or take a look at the <a href='http://www.dummies.com/how-to/content/agile-project-management-for-dummies-cheat-sheet.html' target='_blank' rel='nofollow'>Agile Project Management for Dummies Cheat Sheet</a>.
 
 ## Tools we use
 
-[GoToMeeting](http://www.gotomeeting.com) - We use GoToMeeting to hold our online project management conferences.
+<a href='http://www.gotomeeting.com' target='_blank' rel='nofollow'>GoToMeeting</a> - We use GoToMeeting to hold our online project management conferences.
 
-[When2Meet](http://www.when2meet.com) - We use When2Meet to share our availability with the team.
+<a href='http://www.when2meet.com' target='_blank' rel='nofollow'>When2Meet</a> - We use When2Meet to share our availability with the team.
 
-[Trello](http://www.trello.com) - We use Trello to track our volunteer web development projects.
+<a href='http://www.trello.com' target='_blank' rel='nofollow'>Trello</a> - We use Trello to track our volunteer web development projects.
 
-[Google Calendar](https://www.google.com/calendar) - We use Google Calendar to track our project conferences.
+<a href='https://www.google.com/calendar' target='_blank' rel='nofollow'>Google Calendar</a> - We use Google Calendar to track our project conferences.
 
 ## Trello Board Standard Layout
 

@@ -15,4 +15,4 @@ Python allows `str` objects, or _strings_, to be expressed in a few different wa
 
 ## Reference:
 
-[Text Sequence Type _str_](https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str)
+<a href='https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str' target='_blank' rel='nofollow'>Text Sequence Type _str_</a>

@@ -9,6 +9,6 @@ While on the problematic site use the key combination below to trigger a hard re
 *   Mac/Apple: `Apple + Shift + R or Command + Shift + R`
 *   Linux: `F5`
 
-To learn more about this read: [http://refreshyourcache.com/en/cache/](http://refreshyourcache.com/en/cache/)
+To learn more about this read: <a href='http://refreshyourcache.com/en/cache/' target='_blank' rel='nofollow'>http://refreshyourcache.com/en/cache/</a>
 
 If a hard refresh doesn't work, try opening the problematic page in your browser's private browsing mode.

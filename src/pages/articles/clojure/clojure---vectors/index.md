@@ -24,7 +24,7 @@ You can append items to a vector using `conj`. You can also prepend to a list us
     ; => "Elapsed time: 0.078499 msecs"
     ;    [1 2 3]
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [IDEOne it!](https://ideone.com/wBSUEd)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://ideone.com/wBSUEd' target='_blank' rel='nofollow'>IDEOne it!</a>
 
 ## Retrieving items from a vector
 

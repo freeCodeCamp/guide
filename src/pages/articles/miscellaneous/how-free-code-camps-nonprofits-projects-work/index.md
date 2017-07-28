@@ -82,6 +82,6 @@ While you will no longer need to help with feature development, we encourage you
 
 Your nonprofit stakeholder, your pair partner, and our volunteer team are all counting on you to finish your nonprofit project. If you walk away from an unfinished nonprofit project, you'll become ineligible to ever be assigned another one.
 
-To confirm that you understand the seriousness of this commitment, we require that all campers [sign this pledge](http://goo.gl/forms/ZMn96z2QqY) before starting on their nonprofit projects.
+To confirm that you understand the seriousness of this commitment, we require that all campers <a href='http://goo.gl/forms/ZMn96z2QqY' target='_blank' rel='nofollow'>sign this pledge</a> before starting on their nonprofit projects.
 
 There will likely be times of confusion or frustration. This is normal in software development. The most important thing is that you do not give up and instead persevere through these setbacks. As Steve Jobs famously said, "Real artists ship." And you are going to ship one successful nonprofit project after another until you feel ready to take the next step in your promising career.

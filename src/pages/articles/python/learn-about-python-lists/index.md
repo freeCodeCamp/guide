@@ -3,11 +3,11 @@ title: Learn About Python Lists
 ---
 **TODO: `list` basic info**
 
-[Python Docs - Lists](https://docs.python.org/3/library/stdtypes.html#lists)
+<a href='https://docs.python.org/3/library/stdtypes.html#lists' target='_blank' rel='nofollow'>Python Docs - Lists</a>
 
 **Creation:**
 
-An empty `list` is created using a pair of square brackets, `[]`:
+An empty `list` is created using a pair of square brackets, `<a href='https://docs.python.org/3/tutorial/datastructures.html#more-on-lists' target='_blank' rel='nofollow'>]`:
 
     >>> empty_list = []
     >>> type(empty_list)
@@ -68,7 +68,7 @@ _Wrap around indexing_
 
 **TODO: Which of these should be discussed here:**
 
-[Python Docs - More on Lists](https://docs.python.org/3/tutorial/datastructures.html#more-on-lists)
+[Python Docs - More on Lists</a>
 
 *   `list.append(x)` Add an item to the end of the list. Equivalent to a[len(a):] = [x].
 

@@ -11,11 +11,11 @@ We can first start with just finding the smallest common multiple between two nu
 
 An example would be the numbers `3` and `4`. The multiples of `3` are `3, 6, 9, 12, 15, 18, ...` and the multiples of `4` are `4, 8, 12, 16, 20, ...`. The first smallest number we run into in both lists is `12` so this is the smallest common multiple between `3` and `4`.
 
-This problem can be confusing because most people look for the smallest common multiple of just the two numbers but forget the keyword **range**. However, this means that if you are given `[1,5]`, then you have to check for the smallest common multiple for all the numbers `[1,2,3,4,5]` that is evenly divisible by all of them.
+This problem can be confusing because most people look for the smallest common multiple of just the two numbers but forget the keyword **range**. However, this means that if you are given `<a href='https://en.wikipedia.org/wiki/Least_common_multiple' target='_blank' rel='nofollow'>1,5]`, then you have to check for the smallest common multiple for all the numbers `[1,2,3,4,5]` that is evenly divisible by all of them.
 
 #### Relevant Links
 
-*   [Least (Smallest) Common Multiple](https://en.wikipedia.org/wiki/Least_common_multiple)
+*   [Least (Smallest) Common Multiple</a>
 
 ## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 1
 
@@ -52,7 +52,7 @@ If you sort the array from greatest to smallest, then you can use the first two 
 
       // Create new array and add all values from greater to smaller from the
       // original array.
-      var newArr = [];
+      var newArr = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>];
       for (var i = arr[0]; i >= arr[1]; i--) {
         newArr.push(i);
       }
@@ -80,13 +80,13 @@ If you sort the array from greatest to smallest, then you can use the first two 
     // test here
     smallestCommons([1,5]);
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLn2/0)
+![:rocket:</a> <a href='https://repl.it/CLn2/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
 *   Because of the possibility of the smallest common denominator being among the two biggest numbers, it makes sense to check those first, so sort the array.
 *   Create a new array to sort all the numbers, `newArr`.
-*   Use a descending `for` loop (`var i = arr[0]; i >= arr[1]; i--`) to add the numbers from the biggest to the smallest in the new array.
+*   Use a descending `for` loop (`var i = arr<a href='http://forum.freecodecamp.com/t/javascript-array-prototype-sort/14306' target='_blank' rel='nofollow'>0]; i >= arr[1]; i--`) to add the numbers from the biggest to the smallest in the new array.
 *   Declare the variables for the quotient so we can access them outside the loop:
     *   the quotient that'll be our smallest common multiple (`quot`)
     *   the loop number we're checking (`loop`)
@@ -103,16 +103,16 @@ Note: If the array only has two elements, then the `for` loop never gets used an
 
 #### Relevant Links
 
-*   [JS Array Prototype Sort](http://forum.freecodecamp.com/t/javascript-array-prototype-sort/14306)
-*   [JS For Loops Explained](http://forum.freecodecamp.com/t/javascript-for-loop/14666s-Explained)
-*   [JS Array Prototype Push](http://forum.freecodecamp.com/t/javascript-array-prototype-push/14298)
-*   [JS Do While Loop](http://forum.freecodecamp.com/t/javascript-do-while-loop/14662)
+*   [JS Array Prototype Sort</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-for-loop/14666s-Explained' target='_blank' rel='nofollow'>JS For Loops Explained</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-array-prototype-push/14298' target='_blank' rel='nofollow'>JS Array Prototype Push</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-do-while-loop/14662' target='_blank' rel='nofollow'>JS Do While Loop</a>
 *   <a>String.length</a>
 
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution:
 
     function smallestCommons(arr) {
-        var range = [];
+        var range = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>];
         for (var i = Math.max(arr[0], arr[1]); i >= Math.min(arr[0], arr[1]); i--) {
         range.push(i);
         }
@@ -136,20 +136,20 @@ Note: If the array only has two elements, then the `for` loop never gets used an
     // test here
     smallestCommons([1,5]);
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLn4/0)
+![:rocket:</a> <a href='https://repl.it/CLn4/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
-*   The first, basic solution requires over 2,000 loops to calculate the test case `smallestCommons([1,13])`, and over 4 million loops to calculate `smallestCommons([1,25])`. This solution evaluates `smallestCommons([1,13])` in around 20 loops and `smallestCommons([1,25])` in 40, by using a more efficient algorithm.
+*   The first, basic solution requires over 2,000 loops to calculate the test case `smallestCommons(<a href='https://en.wikipedia.org/wiki/Euclidean_algorithm' target='_blank' rel='nofollow'>1,13])`, and over 4 million loops to calculate `smallestCommons([1,25])`. This solution evaluates `smallestCommons([1,13])` in around 20 loops and `smallestCommons([1,25])` in 40, by using a more efficient algorithm.
 *   Make an empty array **range**.
 *   All numbers between the given range are pushed to **range** using a `for` loop.
 *   The next block of code implements the Euclidean algorithm, which is used for finding smallest common multiples.
 
 #### Relevant Links
 
-*   [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm)
-*   [JS Math Max](http://forum.freecodecamp.com/t/javascript-math-max/14682)
-*   [JS Math Min](http://forum.freecodecamp.com/t/javascript-math-min/14684)
+*   [Euclidean algorithm</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-math-max/14682' target='_blank' rel='nofollow'>JS Math Max</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-math-min/14684' target='_blank' rel='nofollow'>JS Math Min</a>
 
 ## ![:rotating_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:") Advanced Code Solution:
 
@@ -177,7 +177,7 @@ Note: If the array only has two elements, then the `for` loop never gets used an
     }
 
     // test here
-    smallestCommons([1,5]);
+    smallestCommons(<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>1,5]);
 
 ### Code Explanation:
 
@@ -188,21 +188,21 @@ Note: If the array only has two elements, then the `for` loop never gets used an
 
 ### Comparism to code at:
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLn3/0)
+![:rocket:</a> <a href='https://repl.it/CLn3/0' target='_blank' rel='nofollow'>Run Code</a>
 
 *   Unlike the solution at the link (Run Code) above, only a single for loop is used for range iteration and computation.
 *   The double loop (for and .reduce()) are replaced with just one `for loop`. That is the only difference.
 
 ### Worthy of note:
 
-*   The gcd function uses recursion. [Recursion explained](https://en.wikipedia.org/wiki/Recursion).
+*   The gcd function uses recursion. <a href='https://en.wikipedia.org/wiki/Recursion' target='_blank' rel='nofollow'>Recursion explained</a>.
 *   Same result can be achieved with a regular loop, e.g a `for loop`.
 *   Here, in each function call in the recursion, a new execution context is created with its own variables `x` and `y`. Hence, this recursion approach is more expensive than using a regular loop.
 
 #### Relevant Links
 
-*   [JS Array Prototype Reduce](http://forum.freecodecamp.com/t/javascript-array-prototype-reduce/14299)
-*   [JS Reduce Made Easy](http://forum.freecodecamp.com/t/using-array-prototype-reduce-to-reduce-conceptual-boilerplate-for-problems-on-arrays/14687)
+*   <a href='http://forum.freecodecamp.com/t/javascript-array-prototype-reduce/14299' target='_blank' rel='nofollow'>JS Array Prototype Reduce</a>
+*   <a href='http://forum.freecodecamp.com/t/using-array-prototype-reduce-to-reduce-conceptual-boilerplate-for-problems-on-arrays/14687' target='_blank' rel='nofollow'>JS Reduce Made Easy</a>
 
 ## ![:clipboard:](https://forum.freecodecamp.com/images/emoji/emoji_one/clipboard.png?v=3 ":clipboard:") NOTES FOR CONTRIBUTIONS:
 
@@ -211,4 +211,4 @@ Note: If the array only has two elements, then the `for` loop never gets used an
 *   Categorize the solution in one of the following categories — **Basic**, **Intermediate** and **Advanced**. ![:traffic_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/traffic_light.png?v=3 ":traffic_light:")
 *   Please add your username only if you have added any **relevant main contents**. (![:warning:](https://forum.freecodecamp.com/images/emoji/emoji_one/warning.png?v=3 ":warning:") **_DO NOT_** _remove any existing usernames_)
 
-> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") [**`Wiki Challenge Solution Template`**](http://forum.freecodecamp.com/t/algorithm-article-template/14272) for reference.
+> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") <a href='http://forum.freecodecamp.com/t/algorithm-article-template/14272' target='_blank' rel='nofollow'>**`Wiki Challenge Solution Template`**</a> for reference.

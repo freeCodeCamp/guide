@@ -7,7 +7,7 @@ Bootstrap is the most popular CSS framework for developing responsive, mobile fi
 
 ## Getting Started
 
-Here is a simple HTML template which includes the latest compiled and minified CSS and Javascript for the Bootstrap library. We have used a CDN in this example, but you can checkout other ways of installing Bootstrap [here](http://getbootstrap.com/getting-started/#download).
+Here is a simple HTML template which includes the latest compiled and minified CSS and Javascript for the Bootstrap library. We have used a CDN in this example, but you can checkout other ways of installing Bootstrap <a href='http://getbootstrap.com/getting-started/#download' target='_blank' rel='nofollow'>here</a>.
 
     <!DOCTYPE html>
     <html lang="en">
@@ -27,6 +27,6 @@ Here is a simple HTML template which includes the latest compiled and minified C
 
 ## Learning Resources
 
-*   The official documentation for Bootstrap is available [here](http://getbootstrap.com/components/).
-*   Checkout Bootstrap's open source GitHub repository [here](https://github.com/twbs/bootstrap).
-*   At [FreeCodeCamp](https://www.freecodecamp.com/), we teach Bootstrap as part of our curriculum.
+*   The official documentation for Bootstrap is available <a href='http://getbootstrap.com/components/' target='_blank' rel='nofollow'>here</a>.
+*   Checkout Bootstrap's open source GitHub repository <a href='https://github.com/twbs/bootstrap' target='_blank' rel='nofollow'>here</a>.
+*   At <a href='https://www.freecodecamp.com/' target='_blank' rel='nofollow'>FreeCodeCamp</a>, we teach Bootstrap as part of our curriculum.

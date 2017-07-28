@@ -26,6 +26,6 @@ The new `length` of the array upon which the method was called.
     array.unshift([-1]);
     // array is now [[-1], 0, 1, 2, 3, 4, 5];
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [Run code](https://repl.it/C2V3)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/C2V3' target='_blank' rel='nofollow'>Run code</a>
 
-Source [MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift)
+Source <a href='https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift' target='_blank' rel='nofollow'>MDN</a>

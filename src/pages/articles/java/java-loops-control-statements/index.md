@@ -7,5 +7,5 @@ Loop control statements change execution from its normal sequence. When executio
 
 Java supports the following control statements:
 
-*   [break](http://forum.freecodecamp.com/t/java-loops-break-control-statement)
-*   [continue](http://forum.freecodecamp.com/t/java-loops-continue-control-statement)
+*   <a href='http://forum.freecodecamp.com/t/java-loops-break-control-statement' target='_blank' rel='nofollow'>break</a>
+*   <a href='http://forum.freecodecamp.com/t/java-loops-continue-control-statement' target='_blank' rel='nofollow'>continue</a>

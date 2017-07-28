@@ -1,7 +1,7 @@
 ---
 title: Free Code Camps Camperbot
 ---
-Hi, I'm **[CamperBot](https://github.com/FreeCodeCamp/freecodecamp/wiki/camperbot)**! I can help you in this chatroom ![:smile:](//forum.freecodecamp.com/images/emoji/emoji_one/smile.png?v=2 ":smile:")
+Hi, I'm **<a href='https://github.com/FreeCodeCamp/freecodecamp/wiki/camperbot' target='_blank' rel='nofollow'>CamperBot</a>**! I can help you in this chatroom ![:smile:](//forum.freecodecamp.com/images/emoji/emoji_one/smile.png?v=2 ":smile:")
 
 ### Basic Commands:
 
@@ -11,7 +11,7 @@ Hi, I'm **[CamperBot](https://github.com/FreeCodeCamp/freecodecamp/wiki/camperbo
 *   `about @username` shows info on that user
 *   `Algorithm BONFIRENAME` info on a Algorithm
 
-meet CamperBot in [![FreeCodeCamp/camperbotPlayground](https://img.shields.io/badge/Gitter_Chat_Room:-FreeCodeCamp/camperbotPlayground_%E2%86%91-006400.svg?style=flat-square&maxAge=2592000%29.svg)](https://gitter.im/FreeCodeCamp/camperbotPlayground)
+meet CamperBot in <a href='https://img.shields.io/badge/Gitter_Chat_Room:-FreeCodeCamp/camperbotPlayground_%E2%86%91-006400.svg?style=flat-square&maxAge=2592000%29.svg' target='_blank' rel='nofollow'>![FreeCodeCamp/camperbotPlayground</a>](https://gitter.im/FreeCodeCamp/camperbotPlayground)
 
 ## Example Commands
 
@@ -22,11 +22,11 @@ meet CamperBot in [![FreeCodeCamp/camperbotPlayground](https://img.shields.io/ba
     rollem    # secret sauce
     Algorithm roman   # any Algorithm with roman in name
 
-For playing with CamperBot please use the testing channel: [https://gitter.im/FreeCodeCamp/camperbotPlayground](https://gitter.im/FreeCodeCamp/camperbotPlayground)
+For playing with CamperBot please use the testing channel: <a href='https://gitter.im/FreeCodeCamp/camperbotPlayground' target='_blank' rel='nofollow'>https://gitter.im/FreeCodeCamp/camperbotPlayground</a>
 
 ## Help on Algorithms
 
-Live currently on the HelpBonFires channel on Gitter [https://gitter.im/FreeCodeCamp/HelpBonfires](https://gitter.im/FreeCodeCamp/HelpBonfires)
+Live currently on the HelpBonFires channel on Gitter <a href='https://gitter.im/FreeCodeCamp/HelpBonfires' target='_blank' rel='nofollow'>https://gitter.im/FreeCodeCamp/HelpBonfires</a>
 
 We've added some Algorithm specific commands. If you type `Algorithm $BONFIRENAME` (where $BONFIRENAME is part of a Algorithm name) it will set the chat to be about that Algorithm. Then you can use some other Algorithm specific commands:
 
@@ -44,7 +44,7 @@ We've added some Algorithm specific commands. If you type `Algorithm $BONFIRENAM
 
 ## Content for the wiki
 
-Feel free to make new pages, an example entry is here: [https://github.com/FreeCodeCamp/freecodecamp/wiki/example](https://github.com/FreeCodeCamp/freecodecamp/wiki/example)
+Feel free to make new pages, an example entry is here: <a href='https://github.com/FreeCodeCamp/freecodecamp/wiki/example' target='_blank' rel='nofollow'>https://github.com/FreeCodeCamp/freecodecamp/wiki/example</a>
 
 ## Source Repository
 
@@ -54,7 +54,7 @@ Fork it and have fun!
 
 ## Roadmap
 
-We're looking for ideas for new features to add, and some people to help working on the bot. Have a look at Tickets with [help wanted](https://github.com/FreeCodeCamp/camperbot/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) on the repo and maybe you can contribute?
+We're looking for ideas for new features to add, and some people to help working on the bot. Have a look at Tickets with <a href='https://github.com/FreeCodeCamp/camperbot/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22' target='_blank' rel='nofollow'>help wanted</a> on the repo and maybe you can contribute?
 
 In future, we're planning:
 
@@ -64,7 +64,7 @@ In future, we're planning:
 
 ## Developer Chatroom
 
-*   [Join us on our repository chat room](https://gitter.im/FreeCodeCamp/camperbot) to discuss new features. Perhaps we can pair up to work on the bot 2.0!
-*   [Join this chat room](https://gitter.im/FreeCodeCamp/camperbotPlayground) to mess around with the CamperBot and try out commands, proofread your edits to wiki content etc.
+*   <a href='https://gitter.im/FreeCodeCamp/camperbot' target='_blank' rel='nofollow'>Join us on our repository chat room</a> to discuss new features. Perhaps we can pair up to work on the bot 2.0!
+*   <a href='https://gitter.im/FreeCodeCamp/camperbotPlayground' target='_blank' rel='nofollow'>Join this chat room</a> to mess around with the CamperBot and try out commands, proofread your edits to wiki content etc.
 
 ![enjoy](https://avatars1.githubusercontent.com/camperbot?&s=100)Happy Coding!

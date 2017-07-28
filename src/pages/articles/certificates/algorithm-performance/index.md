@@ -5,7 +5,7 @@ In mathematics, big-O notation is a symbolism used to describe and compare the _
 A function's limiting behavior is how the function acts as it trends towards a particular value and in big-O notation it is usually as it trends towards infinity.  
 In short, big-O notation is used to describe the growth or decline of a function, usually with respect to another function.
 
-[NOTE: x^2 is equivalent to x * x or 'x-squared']
+<a href='https://github.com/FreeCodeCamp/wiki/blob/master/Algorithms-Bubble-Sort.md#algorithm-bubble-sort' target='_blank' rel='nofollow'>NOTE: x^2 is equivalent to x * x or 'x-squared']
 
 For example we say that x = O(x^2) for all x > 1 or in other words, x^2 is an upper bound on x and therefore it grows faster.  
 The symbol of a claim like x = O(x^2) for all x > _n_ can be substituted with x <= x^2 for all x > _n_ where _n_ is the minimum number that satisfies the claim, in this case 1.  
@@ -18,12 +18,12 @@ Through the comparison and analysis of algorithms we are able to create more eff
 
 ## Examples
 
-As an example, we can examine the time complexity of the [bubble sort](https://github.com/FreeCodeCamp/wiki/blob/master/Algorithms-Bubble-Sort.md#algorithm-bubble-sort) algorithm and express it using big-O notation.
+As an example, we can examine the time complexity of the [bubble sort</a> algorithm and express it using big-O notation.
 
 #### Bubble Sort:
 
     // Function to implement bubble sort
-    void bubble_sort(int array[], int n)
+    void bubble_sort(int array<a href='http://bigocheatsheet.com/' target='_blank' rel='nofollow'>], int n)
     {
         // Here n is the number of elements in array
         int temp;
@@ -49,9 +49,9 @@ Therefore we can say that the best case time complexity of bubble sort is O(_n_)
 Examining the worst case scenario where the array is in reverse order, the first iteration will make _n_ comparisons while the next will have to make _n_ - 1 comparisons and so on until only 1 comparison must be made.  
 The big-O notation for this case is therefore _n_ * [(_n_ - 1) / 2] which = 0.5*n*^2 - 0.5*n* = O(_n_^2) as the _n_^2 term dominates the function which allows us to ignore the other term in the function.
 
-We can confirm this analysis using [this handy big-O cheat sheet](http://bigocheatsheet.com/) that features the big-O time complexity of many commonly used data structures and algorithms
+We can confirm this analysis using [this handy big-O cheat sheet</a> that features the big-O time complexity of many commonly used data structures and algorithms
 
 It is very apparent that while for small use cases this time complexity might be alright, at a large scale bubble sort is simply not a good solution for sorting.  
 This is the power of big-O notation: it allows developers to easily see the potential bottlenecks of their application, and take steps to make these more scalable.
 
-For more information on why big-O notation and algorithm analysis is important visit this [video challenge](https://www.freecodecamp.com/videos/big-o-notation-what-it-is-and-why-you-should-care)!
+For more information on why big-O notation and algorithm analysis is important visit this <a href='https://www.freecodecamp.com/videos/big-o-notation-what-it-is-and-why-you-should-care' target='_blank' rel='nofollow'>video challenge</a>!

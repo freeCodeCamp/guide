@@ -43,7 +43,7 @@ _Example of code:_
         System.out.println(a[i]); //prints the array
     }
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [Run Code](https://repl.it/CONn)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CONn' target='_blank' rel='nofollow'>Run Code</a>
 
 Output:
 
@@ -53,4 +53,4 @@ Output:
     7
     8
 
-Source: [Java Arrays](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+Source: <a href='https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html' target='_blank' rel='nofollow'>Java Arrays</a>

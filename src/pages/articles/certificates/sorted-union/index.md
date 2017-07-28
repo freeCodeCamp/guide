@@ -9,7 +9,7 @@ The program has to return a new array of unique values from two original arrays 
 
 #### Relevant Links
 
-*   [JS Arguments](http://forum.freecodecamp.com/t/javascript-arguments/14283)
+*   <a href='http://forum.freecodecamp.com/t/javascript-arguments/14283' target='_blank' rel='nofollow'>JS Arguments</a>
 
 ## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 1
 
@@ -39,7 +39,7 @@ You will have to check if the current value is already on the array to be return
 
     function uniteUnique(arr1, arr2, arr3) {
       // Creates an empty array to store our final result.
-      var finalArray = [];
+      var finalArray = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>];
 
       // Loop through the arguments object to truly made the program work with two or more arrays
       // instead of 3.
@@ -63,7 +63,7 @@ You will have to check if the current value is already on the array to be return
     // test here
     uniteUnique([1, 3, 2], [5, 2, 1, 4], [2, 1]);
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLnM/0)
+![:rocket:</a> <a href='https://repl.it/CLnM/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -75,10 +75,10 @@ You will have to check if the current value is already on the array to be return
 
 #### Relevant Links
 
-*   [JS For Loops Explained](http://forum.freecodecamp.com/t/javascript-for-loop/14666s-Explained)
-*   [array.length](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/length)
-*   [JS String Prototype IndexOf](http://forum.freecodecamp.com/t/javascript-string-prototype-indexof/15936)
-*   [JS Array Prototype Push](http://forum.freecodecamp.com/t/javascript-array-prototype-push/14298)
+*   <a href='http://forum.freecodecamp.com/t/javascript-for-loop/14666s-Explained' target='_blank' rel='nofollow'>JS For Loops Explained</a>
+*   <a href='https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/length' target='_blank' rel='nofollow'>array.length</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-string-prototype-indexof/15936' target='_blank' rel='nofollow'>JS String Prototype IndexOf</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-array-prototype-push/14298' target='_blank' rel='nofollow'>JS Array Prototype Push</a>
 
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution:
 
@@ -98,9 +98,9 @@ You will have to check if the current value is already on the array to be return
     }
 
     // test here
-    uniteUnique([1, 3, 2], [5, 2, 1, 4], [2, 1]);
+    uniteUnique(<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>1, 3, 2], [5, 2, 1, 4], [2, 1]);
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLnO/0)
+![:rocket:</a> <a href='https://repl.it/CLnO/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -110,15 +110,15 @@ You will have to check if the current value is already on the array to be return
 
 #### Relevant Links
 
-*   [JS Array Prototype Slice](http://forum.freecodecamp.com/t/javascript-array-prototype-slice/14302)
-*   [JS Array Prototype Reduce](http://forum.freecodecamp.com/t/javascript-array-prototype-reduce/14299)
-*   [JS Array Prototype Concat](http://forum.freecodecamp.com/t/javascript-array-prototype-concat/14286)
-*   [JS Array Prototype Filter](http://forum.freecodecamp.com/t/javascript-array-prototype-filter/14289)
+*   <a href='http://forum.freecodecamp.com/t/javascript-array-prototype-slice/14302' target='_blank' rel='nofollow'>JS Array Prototype Slice</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-array-prototype-reduce/14299' target='_blank' rel='nofollow'>JS Array Prototype Reduce</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-array-prototype-concat/14286' target='_blank' rel='nofollow'>JS Array Prototype Concat</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-array-prototype-filter/14289' target='_blank' rel='nofollow'>JS Array Prototype Filter</a>
 
 ## ![:rotating_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:") Advanced Code Solution:
 
     function uniteUnique() {
-      var concatArr = [];
+      var concatArr = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>];
       var i = 0;
       while (arguments[i]){
         concatArr = concatArr.concat(arguments[i]); i++;
@@ -132,7 +132,7 @@ You will have to check if the current value is already on the array to be return
     // test here
     uniteUnique([1, 3, 2], [5, 2, 1, 4], [2, 1]);
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLnN/0)
+![:rocket:</a> <a href='https://repl.it/CLnN/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -152,7 +152,7 @@ You will have to check if the current value is already on the array to be return
     function uniteUnique(arr) {
 
       //make an array out of arguments and flatten it (using the spread operator)
-      const args = [].concat(...arguments);
+      const args = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>].concat(...arguments);
 
       // create a Set
       return [...new Set(args)];
@@ -161,19 +161,19 @@ You will have to check if the current value is already on the array to be return
     // test here
     uniteUnique([1, 3, 2], [5, 2, 1, 4], [2, 1]);
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CcWk/0)
+![:rocket:</a> <a href='https://repl.it/CcWk/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
-*   We first use `concat()` with an empty array `[]` as a starting point and the spread operator `...` to create an array out of the Arguments object and to flatten it at the same time
+*   We first use `concat()` with an empty array `<a href='http://exploringjs.com/es6/ch_maps-sets.html#_set' target='_blank' rel='nofollow'>]` as a starting point and the spread operator `...` to create an array out of the Arguments object and to flatten it at the same time
 *   then we use the new ES2015 **Set** object to store only unique values
-*   (to learn more about Sets, read [here](http://exploringjs.com/es6/ch_maps-sets.html#_set))
+*   (to learn more about Sets, read [here</a>)
 
 #### Relevant Links
 
-*   [Array.prototype.concat](http://forum.freecodecamp.com/t/javascript-array-prototype-concat/14286)
-*   [Arguments](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments)
-*   [Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)
+*   <a href='http://forum.freecodecamp.com/t/javascript-array-prototype-concat/14286' target='_blank' rel='nofollow'>Array.prototype.concat</a>
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments' target='_blank' rel='nofollow'>Arguments</a>
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set' target='_blank' rel='nofollow'>Set</a>
 
 ## ![:clipboard:](https://forum.freecodecamp.com/images/emoji/emoji_one/clipboard.png?v=3 ":clipboard:") NOTES FOR CONTRIBUTIONS:
 
@@ -182,4 +182,4 @@ You will have to check if the current value is already on the array to be return
 *   Categorize the solution in one of the following categories — **Basic**, **Intermediate** and **Advanced**. ![:traffic_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/traffic_light.png?v=3 ":traffic_light:")
 *   Please add your username only if you have added any **relevant main contents**. (![:warning:](https://forum.freecodecamp.com/images/emoji/emoji_one/warning.png?v=3 ":warning:") **_DO NOT_** _remove any existing usernames_)
 
-> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") [**`Wiki Challenge Solution Template`**](http://forum.freecodecamp.com/t/algorithm-article-template/14272) for reference.
+> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") <a href='http://forum.freecodecamp.com/t/algorithm-article-template/14272' target='_blank' rel='nofollow'>**`Wiki Challenge Solution Template`**</a> for reference.

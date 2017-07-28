@@ -5,7 +5,7 @@ The concat() method combines the text of two or more strings and returns a new s
 
 **Syntax**
 
-    str.concat(string2[,..., stringN]);
+    str.concat(string2<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/concat' target='_blank' rel='nofollow'>,..., stringN]);
 
 ## Parameters
 
@@ -28,4 +28,4 @@ The concat() method combines the text of two or more strings and returns the con
     console.log(str2.concat(" Welcome ", "to FCC."));
     // Console will output: Hello, Welcome to FCC.
 
-Source [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/concat)
+Source [MDN</a>

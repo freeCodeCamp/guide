@@ -1,7 +1,7 @@
 ---
 title: Free Code Camps Summit December 2015
 ---
-[Free Code Camp's December Summit](https://youtu.be/TsIzthxhTHc)
+<a href='https://youtu.be/TsIzthxhTHc' target='_blank' rel='nofollow'>Free Code Camp's December Summit</a>
 
 Here is a summary for those who don't have time to watch the full 90 minutes:
 
@@ -35,19 +35,19 @@ Here is a summary for those who don't have time to watch the full 90 minutes:
 
 **--Community Analysis--**
 
--There is a [FCC Data Science Chat](https://gitter.im/FreeCodeCamp/DataScience) on Gitter where some cool analysis about FCC is being posted.
+-There is a <a href='https://gitter.im/FreeCodeCamp/DataScience' target='_blank' rel='nofollow'>FCC Data Science Chat</a> on Gitter where some cool analysis about FCC is being posted.
 
--[FCC Labs](http://www.freecodecamp.com/labs) has some cool apps that you can use to look at some of the data visualization that has been built so far.
+-<a href='http://www.freecodecamp.com/labs' target='_blank' rel='nofollow'>FCC Labs</a> has some cool apps that you can use to look at some of the data visualization that has been built so far.
 
 **--New FCC Wiki--**
 
--Wiki was moved to a new repo due to spam. Campers who want to contribute can make a pull request on [The Repo](http://www.github.com/freecodecamp/wiki).
+-Wiki was moved to a new repo due to spam. Campers who want to contribute can make a pull request on <a href='http://www.github.com/freecodecamp/wiki' target='_blank' rel='nofollow'>The Repo</a>.
 
--The new wiki itself is available on the [Beta Site](http://beta.freecodecamp.com/wiki).
+-The new wiki itself is available on the <a href='http://beta.freecodecamp.com/wiki' target='_blank' rel='nofollow'>Beta Site</a>.
 
 **--Q&A--**
 
--There are small tasks that campers can contribute to. Issues marked as 'help-wanted' in the [Main FCC Repo/Issues](https://github.com/FreeCodeCamp/FreeCodeCamp/issues) are minor issues like typos that anyone can fix. Just do a pull request and make the fixes. Instructions for how to contribute are in the [Main FCC Repo](https://github.com/FreeCodeCamp/FreeCodeCamp)
+-There are small tasks that campers can contribute to. Issues marked as 'help-wanted' in the <a href='https://github.com/FreeCodeCamp/FreeCodeCamp/issues' target='_blank' rel='nofollow'>Main FCC Repo/Issues</a> are minor issues like typos that anyone can fix. Just do a pull request and make the fixes. Instructions for how to contribute are in the <a href='https://github.com/FreeCodeCamp/FreeCodeCamp' target='_blank' rel='nofollow'>Main FCC Repo</a>
 
 **-Why React.js over Angular.js?** It's simpler to learn and to teach, and 'more fun' to write in. Another reason is that FCC feels that there is a 'critical mass' behind React.js, based on lots of big names moving their codebases into React.js. Wordpress, for example, is changing and represents 25% of the internet. Wide adoption of React.js translates to more employment opportunities. Angular.js is much more popular right now, but [@QuincyLarson](/users/quincylarson) thinks that React.js will overtake Angular.js. Angular 2 will be coming out soon, and is a complete overhaul from Angular 1; the only thing the same is the name. [@SaintPeter](/users/saintpeter) added that the new <a>Wiki Site</a> is written in React.js and very responsive.
 
@@ -63,12 +63,12 @@ Here is a summary for those who don't have time to watch the full 90 minutes:
 
 **-How do you see Reddit being used by campers?** [@QuincyLarson](/users/quincylarson) - Reddit is a place for our community to share ideas and ask questions. The FCC community is spread over many different platforms (e.g. Gitter chat, Facebook, meetups, etc). Reddit is a great way for people to share stories, ask questions, etc., to the ENTIRE community at once.
 
-As an aside, [@QuincyLarson](/users/quincylarson) pulled up [A stackoverflow page](http://stackoverflow.com/research/developer-survey-2015) and discussed the trend of more and more software developers being self taught and/or coming from non CS fields.
+As an aside, [@QuincyLarson](/users/quincylarson) pulled up <a href='http://stackoverflow.com/research/developer-survey-2015' target='_blank' rel='nofollow'>A stackoverflow page</a> and discussed the trend of more and more software developers being self taught and/or coming from non CS fields.
 
 **-Last month, you said that about 200 people had finished the Front End Developer Certificate. Has this changed and at what rate are people earning this certificate?** [@BerkeleyTrue](/users/berkeleytrue) - 311\. [@QuincyLarson](/users/quincylarson) - The pace has picked up. If you have completed that certificate, internet high-five. 913 people have pledged donations to nonprofit organizations.
 
 As an aside, /u/quicnylarson discussed future plans to expand the number of nonprofit organizations that campers can pledge to for their nonprofit pledge. No specific numbers, just that it will be expanding in the future.
 
-**-How can people hire FCC graduates?** [@QuincyLarson](/users/quincylarson) - Employers can use the [Free Code Camp Job Board](http://www.freecodecamp.com/jobs) to post positions. FCC wants only high quality jobs from high quality employers, so they are currently charging $1000 to post a job on the job board. FCC is still trying to figure out how to market to employers and help them understand what they will get when they hire an FCC graduate. Only about 5% of people in the U.S. learn to code compared to 100% in China. Already, software developer is the most common job in some U.S. states. Providing coding education to everyone for free is a big and ambitious goal. The job board (and its cost) is just another manifestation of that.
+**-How can people hire FCC graduates?** [@QuincyLarson](/users/quincylarson) - Employers can use the <a href='http://www.freecodecamp.com/jobs' target='_blank' rel='nofollow'>Free Code Camp Job Board</a> to post positions. FCC wants only high quality jobs from high quality employers, so they are currently charging $1000 to post a job on the job board. FCC is still trying to figure out how to market to employers and help them understand what they will get when they hire an FCC graduate. Only about 5% of people in the U.S. learn to code compared to 100% in China. Already, software developer is the most common job in some U.S. states. Providing coding education to everyone for free is a big and ambitious goal. The job board (and its cost) is just another manifestation of that.
 
 **-If I'm an established developer, can I start work on nonprofit projects immediately?** [@QuincyLarson](/users/quincylarson) - No. Everyone who works on our nonprofit projects has to earn the Full Stack Development Certification first. Completing the program isn't just about demonstrating ability, it's also about demonstrating commitment to the program. It's important that people who work on the nonprofits are dedicated and have put in the time and effort to get to that point; FCC doesn't want people quitting half way through a project. [@QuincyLarson](/users/quincylarson) pointed out that FCC is intentionally difficult and is probably among the most difficult coding resources around. Even people who have experience coding can take hours to complete a Front End Project or Back End Project. This is by design. [@SaintPeter](/users/saintpeter) - As a reminder, all of the Challenges are optional (for everyone). If you have a coding background, you only have to complete the Algorithms, Front End Projects, and Back End Projects in order to get the certificates.

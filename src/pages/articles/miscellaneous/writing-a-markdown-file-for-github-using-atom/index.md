@@ -3,7 +3,7 @@ title: Writing a Markdown File for Github Using Atom
 ---
 Markdown is a way to style text on the web, and GitHub users make use of markdown to provide documentation for their repositories.
 
-From [GitHub guides](https://guides.github.com/features/mastering-markdown/):
+From <a href='https://guides.github.com/features/mastering-markdown/' target='_blank' rel='nofollow'>GitHub guides</a>:
 
 > You control the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters thrown in, like # or *.
 > 
@@ -16,7 +16,7 @@ From [GitHub guides](https://guides.github.com/features/mastering-markdown/):
 
 A great example is that if you want to write a Wiki file for this repository, it'll need to be a `.md` file. What you're reading right now is a markdown file called `writing-a-markdown-file-using-atom.md`.
 
-Markdown files are easy to write, and you can find a markdown cheat sheet [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+Markdown files are easy to write, and you can find a markdown cheat sheet <a href='https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet' target='_blank' rel='nofollow'>here</a>.
 
 ## Creating a readme file on GitHub
 
@@ -36,10 +36,10 @@ But what if your `.md` file is not a readme, and you want the luxury of working 
 
 If you're writing a long or detailed markdown file, it helps to get a live preview of exactly what your markdown looks like, in the same way that you might use live reload capabilities to update your browser if you're working on a project that uses HTML and CSS, for example.
 
-A good way to go about creating a markdown file uses the [Atom text editor](https://atom.io/). You can install and use Atom for free.
+A good way to go about creating a markdown file uses the <a href='https://atom.io/' target='_blank' rel='nofollow'>Atom text editor</a>. You can install and use Atom for free.
 
 Atom, like other text editors, makes use of packages, which are pieces of code that allow you to customize your workflow.  
-1\. Firstly, you'll want to install the Atom text editor from [here](https://atom.io/).  
+1\. Firstly, you'll want to install the Atom text editor from <a href='https://atom.io/' target='_blank' rel='nofollow'>here</a>.  
 2\. When Atom is installed, open it, and open a new file with a `.md` extension.  
 3\. To see your live preview, right click your `.md` file from the explorer on the left, and then select the top option, 'Markdown Preview':
 
@@ -55,8 +55,8 @@ Notice that Atom also recognizes what you are working with to be a specific form
 
 1.  When your markdown file is ready to commit to your GitHub repository, you can go ahead and commit it!
 
-For contributing to the FreeCodeCamp wiki, go to [this page](https://github.com/FreeCodeCamp/freecodecamp/wiki) and check out the 'Guides on how to Contribute' section.
+For contributing to the FreeCodeCamp wiki, go to <a href='https://github.com/FreeCodeCamp/freecodecamp/wiki' target='_blank' rel='nofollow'>this page</a> and check out the 'Guides on how to Contribute' section.
 
-For adding a project or files to GitHub, go to [this page](https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/).
+For adding a project or files to GitHub, go to <a href='https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/' target='_blank' rel='nofollow'>this page</a>.
 
 **Bonus step:** Atom has a package named 'Markdown Preview Plus'. It does the same as the normal markdown previewer, but the preview file is styled more accurately to the GitHub style. Go ahead and install this package and see what you get.

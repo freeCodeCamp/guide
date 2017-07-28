@@ -13,7 +13,7 @@ The `charAt()` method returns the specified character from a string.
 
 An integer between 0 and 1-less-than the length of the string.
 
-[MDN link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charAt) | [MSDN link](https://msdn.microsoft.com/en-us/LIBRary/65zt5h10%28v=vs.94%29.aspx)
+<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charAt' target='_blank' rel='nofollow'>MDN link</a> | <a href='https://msdn.microsoft.com/en-us/LIBRary/65zt5h10%28v=vs.94%29.aspx' target='_blank' rel='nofollow'>MSDN link</a>
 
 ## Description
 

@@ -10,4 +10,4 @@ First things first: All your user-facing files and angular files are in **/clien
 
 Great! Now you know how to interact with the user! But what if you want your app to have another page that does something else? Maybe **main.html** shows the home page, but you want a page that shows a form to add a poll? maybe <a>http://yourapp.wherever.itis/newpage</a>? This is where the yeoman generator comes in handy.
 
-[PREVIOUS](http://forum.freecodecamp.com/t/guides-to-back-end-projects/14265) <a>NEXT</a>
+<a href='http://forum.freecodecamp.com/t/guides-to-back-end-projects/14265' target='_blank' rel='nofollow'>PREVIOUS</a> <a>NEXT</a>

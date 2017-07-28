@@ -38,7 +38,7 @@ Here we can see the `Car` class inheriting the properties of the `Vehicle` class
 
     tesla.stop();
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [Run Code](https://repl.it/CJXz/0)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CJXz/0' target='_blank' rel='nofollow'>Run Code</a>
 
 But, does the parent Class has the methods of the child? No, it doesn't.
 
@@ -65,7 +65,7 @@ Although, the opposite is not possible :
 
     Car car = new Vehicle(); // ERROR
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [Run Code](https://repl.it/CJYB/0)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CJYB/0' target='_blank' rel='nofollow'>Run Code</a>
 
 Since you can reference a Java subclass as a superclass instance, you can cast a subclass object easily to a superclass instance. It may be possible to cast a superclass object into a subclass type, but _only if the object is really an instance of subclass_. So keep this in mind :
 
@@ -77,7 +77,7 @@ Since you can reference a Java subclass as a superclass instance, you can cast a
     Vehicle v = bike; // upcasting, no problem here.
     Car car3 = (Car)bike; // Compilation Error : as bike is NOT a instance of Car
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [Run Code](https://repl.it/CJYM/0)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CJYM/0' target='_blank' rel='nofollow'>Run Code</a>
 
 Now you know how to share code through parent-child relationship. But, what if, you do not like the implementation of a particular method in the child class and want to write a new one for it? What to do then?
 
@@ -100,7 +100,7 @@ Java lets you _override_ or redefine the methods defined in the superclass. For 
     Car car = new Car();
     car.start(); // "Car start code"
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [Run Code](https://repl.it/CJYZ/1)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CJYZ/1' target='_blank' rel='nofollow'>Run Code</a>
 
 So, it's pretty simple to override methods in the subclass. Although, there is a _catch_. Only that superclass method will be overriden which has the _exact same method signature_ as the subclass method. That means the subclass method definition must have the exact same name, same number and type of parameters, and in the exact same sequence. Thus, `public void start(String key)` would not override `public void start()`.
 
@@ -130,7 +130,7 @@ Funny you ask about it! Just use the keyword `super` :
     Car car = new Car();
     car.run(); // "Vehicle start code"
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [Run Code](https://repl.it/CJY4/0)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CJY4/0' target='_blank' rel='nofollow'>Run Code</a>
 
 **N.B.** : Although you can call the parent method by `super` call, you cannot go up the inheritance with chained `super` calls.
 
@@ -144,7 +144,7 @@ Using the `instanceof` keyword. Having lots of classes and subclasses it would b
 
 ## Constructors & Inheritance
 
-As mentioned earlier, constructors cannot be directly inherited by a subclass. Although, a subclass is _required_ to call its parent's constructor as the [first thing](http://stackoverflow.com/questions/1168345/why-does-this-and-super-have-to-be-the-first-statement-in-a-constructor) in its own constructor. How? You guessed it, using `super` :
+As mentioned earlier, constructors cannot be directly inherited by a subclass. Although, a subclass is _required_ to call its parent's constructor as the <a href='http://stackoverflow.com/questions/1168345/why-does-this-and-super-have-to-be-the-first-statement-in-a-constructor' target='_blank' rel='nofollow'>first thing</a> in its own constructor. How? You guessed it, using `super` :
 
     public class Vehicle {
         public Vehicle() {
@@ -164,7 +164,7 @@ As mentioned earlier, constructors cannot be directly inherited by a subclass. A
       }
     }
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [Run Code](https://repl.it/CJY8/0)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CJY8/0' target='_blank' rel='nofollow'>Run Code</a>
 
 Remember, if the superclass does not have any constructors defined, you dont have to call it explicitely in the subclass. Java handles that internally for you! Invocation to `super` constructor is done in the case when the super class is to be called with any other constructor other than the _default constructor_.
 

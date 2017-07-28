@@ -16,7 +16,7 @@ Read the instructions carefully, it is always a good hint in itself to run the c
 #### Relevant Links
 
 *   <a>Closures</a>
-*   [Details of the Object Model](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Details_of_the_Object_Model)
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Details_of_the_Object_Model' target='_blank' rel='nofollow'>Details of the Object Model</a>
 
 ## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 1
 
@@ -48,7 +48,7 @@ Often the code would not work the way you expect it due to wrong variable names,
       var fullName = firstAndLast;
 
       this.getFirstName = function() {
-        return fullName.split(" ")[0];
+        return fullName.split(" ")<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>0];
       };
 
       this.getLastName = function() {
@@ -75,7 +75,7 @@ Often the code would not work the way you expect it due to wrong variable names,
     var bob = new Person('Bob Ross');
     bob.getFullName();
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLov/0)
+![:rocket:</a> <a href='https://repl.it/CLov/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -96,4 +96,4 @@ Often the code would not work the way you expect it due to wrong variable names,
 *   Categorize the solution in one of the following categories — **Basic**, **Intermediate** and **Advanced**. ![:traffic_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/traffic_light.png?v=3 ":traffic_light:")
 *   Please add your username only if you have added any **relevant main contents**. (![:warning:](https://forum.freecodecamp.com/images/emoji/emoji_one/warning.png?v=3 ":warning:") **_DO NOT_** _remove any existing usernames_)
 
-> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") [**`Wiki Challenge Solution Template`**](http://forum.freecodecamp.com/t/algorithm-article-template/14272) for reference.
+> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") <a href='http://forum.freecodecamp.com/t/algorithm-article-template/14272' target='_blank' rel='nofollow'>**`Wiki Challenge Solution Template`**</a> for reference.

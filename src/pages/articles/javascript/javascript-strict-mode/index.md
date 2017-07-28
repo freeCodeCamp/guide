@@ -46,4 +46,4 @@ Strict mode applies to _entire scripts_ or to _individual functions_.
 
 **Basically it helps you make fewer errors, by detecting things that could lead to breakage which are not detected normally (non-strict mode).**
 
-_For more information check out this [MDN page](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Strict_mode)._
+_For more information check out this <a href='https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Strict_mode' target='_blank' rel='nofollow'>MDN page</a>._

@@ -3,7 +3,7 @@ title: The Python Tuples
 ---
 **TODO: `Tuple` basic info**
 
-[Python Docs - Tuples](https://docs.python.org/3/library/stdtypes.html#tuples)
+<a href='https://docs.python.org/3/library/stdtypes.html#tuples' target='_blank' rel='nofollow'>Python Docs - Tuples</a>
 
 **Creation:**
 
@@ -71,12 +71,12 @@ Round brackets are required in cases of ambiguity (if the tuple is part of a lar
 
 A `tuple` can also be created with the `tuple` constructor:
 
-[Python Docs - Tuple](https://docs.python.org/3/library/stdtypes.html#tuple)
+<a href='https://docs.python.org/3/library/stdtypes.html#tuple' target='_blank' rel='nofollow'>Python Docs - Tuple</a>
 
     >>> empty_tuple = tuple()
     >>> print(empty_tuple)
     ()
-    >>> tuple_from_list = tuple([1,2,3,4])
+    >>> tuple_from_list = tuple(<a href='https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences' target='_blank' rel='nofollow'>1,2,3,4])
     >>> print(tuple_from_list)
     (1, 2, 3, 4)
     >>> tuple_from_string = tuple("Hello campers!")
@@ -168,4 +168,4 @@ Functions can only return a single value, however, a heterogenuous `tuple` can b
     >>> enumerator.__next__()
     (1, 'campers!')
 
-[Python Docs - Tuples and Sequences](https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences)
+[Python Docs - Tuples and Sequences</a>

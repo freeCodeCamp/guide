@@ -1,7 +1,7 @@
 ---
 title: Guide to Build a Sliding Image Gallery
 ---
-This tutorial will walk you through building an image slider using the [jQuery](https://jquery.com/) library.
+This tutorial will walk you through building an image slider using the <a href='https://jquery.com/' target='_blank' rel='nofollow'>jQuery</a> library.
 
 [![GIF showing Slider in action](//discourse-user-assets.s3.amazonaws.com/original/2X/0/08d83a22c28da836a06853b1f1ea669b398326b9.gif)](https://codepen.io/atjonathan/pen/BKMxxq)
 
@@ -13,7 +13,7 @@ This tutorial will have four parts:
 
 ## HTML
 
-We will be using [Bootstrap](http://getbootstrap.com/) for this tutorial to keep things looking good, without spending a lot of time.
+We will be using <a href='http://getbootstrap.com/' target='_blank' rel='nofollow'>Bootstrap</a> for this tutorial to keep things looking good, without spending a lot of time.
 
 Our structure will be as follows:
 
@@ -74,7 +74,7 @@ Here is an example of what your `html` should look like:
 
 ## SCSS
 
-We are using [Sass](http://sass-lang.com/) and the SCSS syntax so we can nest and use variables ![:heart_decoration:](//forum.freecodecamp.com/images/emoji/emoji_one/heart_decoration.png?v=2 ":heart_decoration:")
+We are using <a href='http://sass-lang.com/' target='_blank' rel='nofollow'>Sass</a> and the SCSS syntax so we can nest and use variables ![:heart_decoration:](//forum.freecodecamp.com/images/emoji/emoji_one/heart_decoration.png?v=2 ":heart_decoration:")
 
 We can use the following SCSS to define our styling:
 
@@ -188,4 +188,4 @@ We will now create our pause button (automatically shown on page load):
 
 ## References
 
-*   Checkout the source code and example on [CodePen](https://codepen.io/atjonathan/pen/BKMxxq) for this tutorial.
+*   Checkout the source code and example on <a href='https://codepen.io/atjonathan/pen/BKMxxq' target='_blank' rel='nofollow'>CodePen</a> for this tutorial.

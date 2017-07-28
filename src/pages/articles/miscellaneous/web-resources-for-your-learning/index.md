@@ -5,15 +5,15 @@ Useful links to help you with your learning and projects.
 
 ## Links
 
-*   [Web Field Manual](http://webfieldmanual.com)
+*   <a href='http://webfieldmanual.com' target='_blank' rel='nofollow'>Web Field Manual</a>
 
 ## Debugging
 
-*   [node-inspector](https://www.npmjs.com/package/node-inspector)
-*   [Brackets Live Preview](http://brackets.io)
-*   [browser-sync](http://www.browsersync.io)
+*   <a href='https://www.npmjs.com/package/node-inspector' target='_blank' rel='nofollow'>node-inspector</a>
+*   <a href='http://brackets.io' target='_blank' rel='nofollow'>Brackets Live Preview</a>
+*   <a href='http://www.browsersync.io' target='_blank' rel='nofollow'>browser-sync</a>
 
 ## Tools and Resources
 
-*   [Color Contrast Analyser](http://wave.webaim.org/report#/google.com)
-*   [Color Patterns](http://colorlovers.com)
+*   <a href='http://wave.webaim.org/report#/google.com' target='_blank' rel='nofollow'>Color Contrast Analyser</a>
+*   <a href='http://colorlovers.com' target='_blank' rel='nofollow'>Color Patterns</a>

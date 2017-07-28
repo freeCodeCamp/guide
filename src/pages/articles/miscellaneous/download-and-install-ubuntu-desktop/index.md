@@ -5,8 +5,8 @@ A quick tutorial showcasing how to install Ubuntu.
 
 ## Steps:
 
-You can download the latest version of Ubuntu Desktop [here](http://www.ubuntu.com/download/desktop).  
-If you need any help with installing the operating system [this](http://www.ubuntu.com/download/desktop/install-ubuntu-desktop) tutorial by Ubuntu will help you out. If you want to dual boot your computer with Windows and Ubuntu checkout [this](https://help.ubuntu.com/community/WindowsDualBoot) helpful article.
+You can download the latest version of Ubuntu Desktop <a href='http://www.ubuntu.com/download/desktop' target='_blank' rel='nofollow'>here</a>.  
+If you need any help with installing the operating system <a href='http://www.ubuntu.com/download/desktop/install-ubuntu-desktop' target='_blank' rel='nofollow'>this</a> tutorial by Ubuntu will help you out. If you want to dual boot your computer with Windows and Ubuntu checkout <a href='https://help.ubuntu.com/community/WindowsDualBoot' target='_blank' rel='nofollow'>this</a> helpful article.
 
 Once Ubuntu is installed, open the terminal and type `sudo apt update && sudo apt upgrade` to update your packages.
 
