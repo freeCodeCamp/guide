@@ -14,7 +14,7 @@ Example:
 $var = 5;  
 ?>` 
 
-*   The variable name can contain characters such as A-Z, a-z, 0-9, _ and [ASCII](http://www.asciitable.com/ "ASCII Table") characters from 127-255.
+*   The variable name can contain characters such as A-Z, a-z, 0-9, _ and <a href='http://www.asciitable.com/ "ASCII Table"' target='_blank' rel='nofollow'>ASCII</a> characters from 127-255.
 
 Example:
 

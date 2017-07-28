@@ -31,6 +31,6 @@ The interpreter will actually _first_ fail to find the called method in the obje
 
 ### Further reading:
 
-[Natac's Blog](https://natacseanc.wordpress.com/2015/08/04/javascript-object-create-and-classes/)
+<a href='https://natacseanc.wordpress.com/2015/08/04/javascript-object-create-and-classes/' target='_blank' rel='nofollow'>Natac's Blog</a>
 
-[MDN Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript)
+<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript' target='_blank' rel='nofollow'>MDN Classes</a>

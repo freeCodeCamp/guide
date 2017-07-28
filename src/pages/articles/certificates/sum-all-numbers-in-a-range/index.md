@@ -5,9 +5,9 @@ title: Sum All Numbers in a Range
 
 ### ![:checkered_flag:](https://forum.freecodecamp.com/images/emoji/emoji_one/checkered_flag.png?v=3 ":checkered_flag:") Problem Explanation:
 
-You need to create a program that will take an array of two numbers who are not necessarily in order, and then add not just those numbers but any numbers in between. For example, [3,1] will be the same as `1+2+3` and not just `3+1`
+You need to create a program that will take an array of two numbers who are not necessarily in order, and then add not just those numbers but any numbers in between. For example, <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:"' target='_blank' rel='nofollow'>3,1] will be the same as `1+2+3` and not just `3+1`
 
-## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 1
+## ![:speech_balloon:</a> Hint: 1
 
 Use `Math.max()` to find the maximum value of two numbers.
 
@@ -34,7 +34,7 @@ Remember to that you must add all the numbers in between so this would require a
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
 
     function sumAll(arr) {
-        var max = Math.max(arr[0], arr[1]);
+        var max = Math.max(arr<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>0], arr[1]);
         var min = Math.min(arr[0], arr[1]);
         var temp = 0;
         for (var i=min; i <= max; i++){
@@ -45,7 +45,7 @@ Remember to that you must add all the numbers in between so this would require a
 
     sumAll([1, 4]);
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLm6/0)
+![:rocket:</a> <a href='https://repl.it/CLm6/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -57,9 +57,9 @@ Since the numbers might not be always in order, using `max()` and `min()` will h
 
 #### Relevant Links
 
-*   [Math.max()](http://forum.freecodecamp.com/t/javascript-math-max/14682)
-*   [Math.min()](http://forum.freecodecamp.com/t/javascript-math-min/14684)
-*   [For Loops](http://forum.freecodecamp.com/t/javascript-for-loop/14666)
+*   <a href='http://forum.freecodecamp.com/t/javascript-math-max/14682' target='_blank' rel='nofollow'>Math.max()</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-math-min/14684' target='_blank' rel='nofollow'>Math.min()</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-for-loop/14666' target='_blank' rel='nofollow'>For Loops</a>
 
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution:
 
@@ -68,7 +68,7 @@ Since the numbers might not be always in order, using `max()` and `min()` will h
 
       // Using ES6 arrow function (one-liner)
       var sortedArr = arr.sort((a,b) => a-b);
-      var firstNum = arr[0];
+      var firstNum = arr<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>0];
       var lastNum = arr[1];
       // Using Arithmetic Progression summing formula
 
@@ -76,7 +76,7 @@ Since the numbers might not be always in order, using `max()` and `min()` will h
       return sum;
     }
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLm7/0)
+![:rocket:</a> <a href='https://repl.it/CLm7/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -89,9 +89,9 @@ The line `var sortedArr = arr.sort((a,b) => a-b);` is probably what will have yo
 
 #### Relevant Links
 
-*   [Array.sort()](http://forum.freecodecamp.com/t/javascript-array-prototype-sort/14306)
-*   [Arithmetic Progression summing formula](https://en.wikipedia.org/wiki/Arithmetic_progression#Sum)
-*   [ES6 arrow function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+*   <a href='http://forum.freecodecamp.com/t/javascript-array-prototype-sort/14306' target='_blank' rel='nofollow'>Array.sort()</a>
+*   <a href='https://en.wikipedia.org/wiki/Arithmetic_progression#Sum' target='_blank' rel='nofollow'>Arithmetic Progression summing formula</a>
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions' target='_blank' rel='nofollow'>ES6 arrow function</a>
 
 ## ![:rotating_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:") Advanced Code Solution:
 
@@ -103,9 +103,9 @@ The line `var sortedArr = arr.sort((a,b) => a-b);` is probably what will have yo
       return sum;
     }
 
-    sumAll([1, 4]);
+    sumAll(<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>1, 4]);
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLm8/0)
+![:rocket:</a> <a href='https://repl.it/CLm8/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -115,8 +115,8 @@ The line `var sortedArr = arr.sort((a,b) => a-b);` is probably what will have yo
 
 #### Relevant Links
 
-*   [Spread Operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator)
-*   [Using Spread Operator in Math.max()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/max)
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator' target='_blank' rel='nofollow'>Spread Operator</a>
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/max' target='_blank' rel='nofollow'>Using Spread Operator in Math.max()</a>
 
 ## ![:clipboard:](https://forum.freecodecamp.com/images/emoji/emoji_one/clipboard.png?v=3 ":clipboard:") NOTES FOR CONTRIBUTIONS:
 
@@ -125,4 +125,4 @@ The line `var sortedArr = arr.sort((a,b) => a-b);` is probably what will have yo
 *   Categorize the solution in one of the following categories — **Basic**, **Intermediate** and **Advanced**. ![:traffic_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/traffic_light.png?v=3 ":traffic_light:")
 *   Please add your username only if you have added any **relevant main contents**. (![:warning:](https://forum.freecodecamp.com/images/emoji/emoji_one/warning.png?v=3 ":warning:") **_DO NOT_** _remove any existing usernames_)
 
-> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") [**`Wiki Challenge Solution Template`**](http://forum.freecodecamp.com/t/algorithm-article-template/14272) for reference.
+> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") <a href='http://forum.freecodecamp.com/t/algorithm-article-template/14272' target='_blank' rel='nofollow'>**`Wiki Challenge Solution Template`**</a> for reference.

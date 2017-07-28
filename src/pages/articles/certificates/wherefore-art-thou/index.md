@@ -11,7 +11,7 @@ Write an algorithm that will take an `array` for the first argument and return a
 
 *   <a>For Loops</a>
 *   <a>Array.prototype.filter()</a>
-*   [Object.hasOwnProperty()](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty)
+*   <a href='https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty' target='_blank' rel='nofollow'>Object.hasOwnProperty()</a>
 
 ## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 1
 
@@ -48,7 +48,7 @@ Check equivalence of `Object` in `collection` with `Object` passed as second par
       // filter the collection
       return collection.filter(function (obj) {
         for(var i = 0; i < srcKeys.length; i++) {
-          if(!obj.hasOwnProperty(srcKeys[i]) || obj[srcKeys[i]] !== source[srcKeys[i]]) {
+          if(!obj.hasOwnProperty(srcKeys<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>i]) || obj[srcKeys[i]] !== source[srcKeys[i]]) {
             return false;
           }
         }
@@ -59,7 +59,7 @@ Check equivalence of `Object` in `collection` with `Object` passed as second par
     // test here
     whatIsInAName([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }], { last: "Capulet" });
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLmh/0)
+![:rocket:</a> <a href='https://repl.it/CLmh/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -72,7 +72,7 @@ Check equivalence of `Object` in `collection` with `Object` passed as second par
 
 *   <a>For Loops</a>
 *   <a>Array.prototype.filter()</a>
-*   [Object.hasOwnProperty()](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty)
+*   <a href='https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty' target='_blank' rel='nofollow'>Object.hasOwnProperty()</a>
 
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution:
 
@@ -84,7 +84,7 @@ Check equivalence of `Object` in `collection` with `Object` passed as second par
 
       return collection.filter(function (obj) {
         return srcKeys.every(function (key) {
-          return obj.hasOwnProperty(key) && obj[key] === source[key];
+          return obj.hasOwnProperty(key) && obj<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>key] === source[key];
         });
       });
     }
@@ -92,7 +92,7 @@ Check equivalence of `Object` in `collection` with `Object` passed as second par
     // test here
     whatIsInAName([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }], { last: "Capulet" });
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLmi/0)
+![:rocket:</a> <a href='https://repl.it/CLmi/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -104,7 +104,7 @@ Check equivalence of `Object` in `collection` with `Object` passed as second par
 
 *   <a>Array.prototype.filter()</a>
 *   <a>Array.prototype.every()</a>
-*   [Object.hasOwnProperty()](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty)
+*   <a href='https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty' target='_blank' rel='nofollow'>Object.hasOwnProperty()</a>
 
 ## ![:rotating_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:") Advanced Code Solution:
 
@@ -118,7 +118,7 @@ Check equivalence of `Object` in `collection` with `Object` passed as second par
       return collection.filter(function (obj) {
         return srcKeys
           .map(function(key) {
-            return obj.hasOwnProperty(key) && obj[key] === source[key];
+            return obj.hasOwnProperty(key) && obj<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>key] === source[key];
           })
           .reduce(function(a, b) {
             return a && b;
@@ -129,7 +129,7 @@ Check equivalence of `Object` in `collection` with `Object` passed as second par
     // test here
     whatIsInAName([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }], { last: "Capulet" });
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLmj/0)
+![:rocket:</a> <a href='https://repl.it/CLmj/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -142,7 +142,7 @@ Check equivalence of `Object` in `collection` with `Object` passed as second par
 
 *   <a>Array.prototype.filter()</a>
 *   <a>Array.prototype.reduce()</a>
-*   [Object.hasOwnProperty()](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty)
+*   <a href='https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty' target='_blank' rel='nofollow'>Object.hasOwnProperty()</a>
 
 ## ![:clipboard:](https://forum.freecodecamp.com/images/emoji/emoji_one/clipboard.png?v=3 ":clipboard:") NOTES FOR CONTRIBUTIONS:
 
@@ -151,4 +151,4 @@ Check equivalence of `Object` in `collection` with `Object` passed as second par
 *   Categorize the solution in one of the following categories — **Basic**, **Intermediate** and **Advanced**. ![:traffic_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/traffic_light.png?v=3 ":traffic_light:")
 *   Please add your username only if you have added any **relevant main contents**. (![:warning:](https://forum.freecodecamp.com/images/emoji/emoji_one/warning.png?v=3 ":warning:") **_DO NOT_** _remove any existing usernames_)
 
-> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") [**`Wiki Challenge Solution Template`**](http://forum.freecodecamp.com/t/algorithm-article-template/14272) for reference.
+> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") <a href='http://forum.freecodecamp.com/t/algorithm-article-template/14272' target='_blank' rel='nofollow'>**`Wiki Challenge Solution Template`**</a> for reference.

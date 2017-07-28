@@ -7,9 +7,9 @@ carrying out the sorting process.
 
 #### Example
 
-[Animation of BubbleSort](http://www.sorting-algorithms.com/bubble-sort)
+<a href='http://www.sorting-algorithms.com/bubble-sort' target='_blank' rel='nofollow'>Animation of BubbleSort</a>
 
-    array = [5, 1, 4, 2, 8]
+    array = <a href='https://repl.it/CXif' target='_blank' rel='nofollow'>5, 1, 4, 2, 8]
 
     First Pass:
     ( 5 1 4 2 8 ) –> ( 1 5 4 2 8 ), Here, algorithm compares the first two elements, and swaps since 5 > 1.
@@ -55,7 +55,7 @@ carrying out the sorting process.
     }
     }
 
-:rocket: [Run Code](https://repl.it/CXif) #### Python Implementation  
+:rocket: [Run Code</a> #### Python Implementation  
 
     def bubble_sort(arr):
         exchanges = True # A check to see if the array is already sorted so that no further steps gets executed
@@ -63,7 +63,7 @@ carrying out the sorting process.
         while i > 0 and exchanges:
            exchanges = False
            for j in range(i):
-               if arr[j]>arr[j+1]:
+               if arr<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>j]>arr[j+1]:
                    exchanges = True
                    arr[j], arr[j+1] = arr[j+1], arr[j]
            i -= 1
@@ -72,9 +72,9 @@ carrying out the sorting process.
     bubble_sort(arr)
     print(arr) # Prints [1, 2, 3, 5, 23, 43, 54]
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CW0M/1)
+![:rocket:</a> <a href='https://repl.it/CW0M/1' target='_blank' rel='nofollow'>Run Code</a>
 
-#### [Complexity of Algorithm](https://www.freecodecamp.com/videos/big-o-notation-what-it-is-and-why-you-should-care)
+#### <a href='https://www.freecodecamp.com/videos/big-o-notation-what-it-is-and-why-you-should-care' target='_blank' rel='nofollow'>Complexity of Algorithm</a>
 
 **Worst and Average Case Time Complexity:** O(n*n). Worst case occurs when array is reverse sorted i.e. the elements are in decreasing order
 

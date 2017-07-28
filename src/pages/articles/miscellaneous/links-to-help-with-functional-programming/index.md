@@ -5,10 +5,10 @@ Here you will fine links to learn more about functional programming.
 
 ## Workshops
 
-[https://github.com/timoxley/functional-javascript-workshop](https://github.com/timoxley/functional-javascript-workshop)
+<a href='https://github.com/timoxley/functional-javascript-workshop' target='_blank' rel='nofollow'>https://github.com/timoxley/functional-javascript-workshop</a>
 
-A node package workshop. More can be found at [nodeschool](http://nodeschool.io/)
+A node package workshop. More can be found at <a href='http://nodeschool.io/' target='_blank' rel='nofollow'>nodeschool</a>
 
 ## Reading and videos
 
-[https://github.com/timoxley/functional-javascript-workshop](https://github.com/timoxley/functional-javascript-workshop)
+<a href='https://github.com/timoxley/functional-javascript-workshop' target='_blank' rel='nofollow'>https://github.com/timoxley/functional-javascript-workshop</a>

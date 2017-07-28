@@ -17,9 +17,9 @@ Write a function `nextInLine` which takes an array (**arr**) and a number (**ite
 
 #### Relevant Links
 
-*   [Challenge: Manipulate Arrays With push()](http://www.freecodecamp.com/challenges/manipulate-arrays-with-push)
-*   [Challenge: Manipulate Arrays With shift()](http://www.freecodecamp.com/challenges/manipulate-arrays-with-shift)
-*   [Challenge: Passing Values to Functions with Arguments](http://www.freecodecamp.com/challenges/passing-values-to-functions-with-arguments)
+*   <a href='http://www.freecodecamp.com/challenges/manipulate-arrays-with-push' target='_blank' rel='nofollow'>Challenge: Manipulate Arrays With push()</a>
+*   <a href='http://www.freecodecamp.com/challenges/manipulate-arrays-with-shift' target='_blank' rel='nofollow'>Challenge: Manipulate Arrays With shift()</a>
+*   <a href='http://www.freecodecamp.com/challenges/passing-values-to-functions-with-arguments' target='_blank' rel='nofollow'>Challenge: Passing Values to Functions with Arguments</a>
 
 ## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 1
 
@@ -62,7 +62,7 @@ The function `nextInLine` uses **arr** and **item**. Those are what the tests wi
 
 **Example Run**
 
-*   Test `nextInLine([2], 1);` runs.
+*   Test `nextInLine(<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/clipboard.png?v=3 ":clipboard:"' target='_blank' rel='nofollow'>2], 1);` runs.
 *   The `nextInLine` function is called. **arr** becomes [2]. **item** becomes 1.
 *   `arr.push(item);` Pushes 1 to [2]. So **arr** is now [2,1].
 *   `var removed = arr.shift();` removes the first element. So **arr** is now [1]. 2 has been removed and is stored in **removed**.
@@ -70,7 +70,7 @@ The function `nextInLine` uses **arr** and **item**. Those are what the tests wi
 
 **_Note_**: You don't actually need the variable **removed**. The element removed can be returned directly using `return arr.shift();`.
 
-## ![:clipboard:](https://forum.freecodecamp.com/images/emoji/emoji_one/clipboard.png?v=3 ":clipboard:") NOTES FOR CONTRIBUTIONS:
+## ![:clipboard:</a> NOTES FOR CONTRIBUTIONS:
 
 *   ![:warning:](https://forum.freecodecamp.com/images/emoji/emoji_one/warning.png?v=3 ":warning:") **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
 *   Add an explanation of your solution.

@@ -1,17 +1,17 @@
 ---
 title: Python Numeric Types
 ---
-The [numeric types](https://docs.python.org/3/library/stdtypes.html#numeric-types-int-float-complex) for Python are:
+The <a href='https://docs.python.org/3/library/stdtypes.html#numeric-types-int-float-complex' target='_blank' rel='nofollow'>numeric types</a> for Python are:
 
 *   integers (`int`)
 *   floating point numbers (`float`)
-    *   [constructor](https://docs.python.org/3/library/functions.html#float)
+    *   <a href='https://docs.python.org/3/library/functions.html#float' target='_blank' rel='nofollow'>constructor</a>
 *   complex numbers
-    *   [constructor](https://docs.python.org/3/library/functions.html#complex)
+    *   <a href='https://docs.python.org/3/library/functions.html#complex' target='_blank' rel='nofollow'>constructor</a>
 
 The standard library adds numeric types for
 
-*   [fractions](https://docs.python.org/3/library/fractions.html#module-fractions)
-*   [decimals](https://docs.python.org/3/library/decimal.html#module-decimal)
+*   <a href='https://docs.python.org/3/library/fractions.html#module-fractions' target='_blank' rel='nofollow'>fractions</a>
+*   <a href='https://docs.python.org/3/library/decimal.html#module-decimal' target='_blank' rel='nofollow'>decimals</a>
 
-Numeric objects are created from literals or as the result of functions and operators. The syntax for numeric literals is well [documented](https://docs.python.org/3/reference/lexical_analysis.html#numeric-literals).
+Numeric objects are created from literals or as the result of functions and operators. The syntax for numeric literals is well <a href='https://docs.python.org/3/reference/lexical_analysis.html#numeric-literals' target='_blank' rel='nofollow'>documented</a>.

@@ -28,4 +28,4 @@ title: 12 Principles Behind the Agile Manifesto
 
 12.  At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly.
 
-Read the original at [http://agilemanifesto.org/principles.html](http://agilemanifesto.org/principles.html)
+Read the original at <a href='http://agilemanifesto.org/principles.html' target='_blank' rel='nofollow'>http://agilemanifesto.org/principles.html</a>

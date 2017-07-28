@@ -3,7 +3,7 @@ title: Global Control Shortcuts for Mac
 ---
 These Global Control Shortcuts for Mac will save you hours by speeding up your typing.
 
-[https://player.vimeo.com/video/107073108](https://player.vimeo.com/video/107073108)
+<a href='https://player.vimeo.com/video/107073108' target='_blank' rel='nofollow'>https://player.vimeo.com/video/107073108</a>
 
 These global shortcuts work everywhere on a Mac:
 

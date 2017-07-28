@@ -13,7 +13,7 @@ The `Object.getOwnPropertyNames()` method returns an array of all properties (en
 
 The object whose enumerable _and non-enumerable_ own properties are to be returned.
 
-[MDN link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyNames) | [MSDN link](https://msdn.microsoft.com/en-us/LIBRary/ff688126%28v=vs.94%29.aspx)
+<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyNames' target='_blank' rel='nofollow'>MDN link</a> | <a href='https://msdn.microsoft.com/en-us/LIBRary/ff688126%28v=vs.94%29.aspx' target='_blank' rel='nofollow'>MSDN link</a>
 
 ## Description
 

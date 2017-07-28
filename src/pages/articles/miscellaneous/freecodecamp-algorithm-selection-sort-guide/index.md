@@ -9,9 +9,9 @@ In every iteration of selection sort, the minimum element (considering ascending
 
 ## Example
 
-[Animation of SelectionSort](http://www.sorting-algorithms.com/selection-sort)
+<a href='http://www.sorting-algorithms.com/selection-sort' target='_blank' rel='nofollow'>Animation of SelectionSort</a>
 
-    arr[] = 64 25 12 22 11
+    arr<a href='https://repl.it/CZa0' target='_blank' rel='nofollow'>] = 64 25 12 22 11
 
     # Placing the minimum element in arr[0...4] in the beginning
     11 25 12 22 64
@@ -55,13 +55,13 @@ In every iteration of selection sort, the minimum element (considering ascending
     }
     }
 
-:rocket: [Run Code](https://repl.it/CZa0) #### Python Implementation  
+:rocket: [Run Code</a> #### Python Implementation  
 
     def selection_sort(arr):
         for i in range(len(arr)):
             min_x = i
             for j in range(i+1,len(arr)):
-                if arr[j] < arr[min_x]:
+                if arr<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>j] < arr[min_x]:
                     min_x = j
             arr[min_x], arr[i] = arr[i], arr[min_x]
 
@@ -69,8 +69,8 @@ In every iteration of selection sort, the minimum element (considering ascending
     selection_sort(arr)
     print(arr) # Prints [11, 12, 22, 25, 64]
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CXwQ)
+![:rocket:</a> <a href='https://repl.it/CXwQ' target='_blank' rel='nofollow'>Run Code</a>
 
-#### [Complexity of Algorithm](https://www.freecodecamp.com/videos/big-o-notation-what-it-is-and-why-you-should-care)
+#### <a href='https://www.freecodecamp.com/videos/big-o-notation-what-it-is-and-why-you-should-care' target='_blank' rel='nofollow'>Complexity of Algorithm</a>
 
 **Time Complexity:** O(n*n) Due to the two nested loops.

@@ -29,4 +29,4 @@ Follow the instructions at the end of the video for what to add into your hyperl
 
 ## Adding images to your page
 
-Beware to not just copy any image you find. This could violate copyright for someone. Either find an image on a [free image page](http://www.freeimages.com) and then upload it to somewhere such as [photobucket](http://www.photobucket.com) to get a link you can then use to insert the image on the page or link the image directly from the original source.
+Beware to not just copy any image you find. This could violate copyright for someone. Either find an image on a <a href='http://www.freeimages.com' target='_blank' rel='nofollow'>free image page</a> and then upload it to somewhere such as <a href='http://www.photobucket.com' target='_blank' rel='nofollow'>photobucket</a> to get a link you can then use to insert the image on the page or link the image directly from the original source.

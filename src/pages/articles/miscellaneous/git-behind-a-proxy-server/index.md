@@ -3,11 +3,11 @@ title: Git Behind a Proxy Server
 ---
 **Use-cases**
 
-You might need to modify `git` commands that access (to update and read from) remote repositories if your internet access is through a [proxy server](https://en.wikipedia.org/wiki/Proxy_server).
+You might need to modify `git` commands that access (to update and read from) remote repositories if your internet access is through a <a href='https://en.wikipedia.org/wiki/Proxy_server' target='_blank' rel='nofollow'>proxy server</a>.
 
 Proxy servers are common in college and business type environments.
 
-You can [locate your proxy settings](http://www.wikihow.com/Change-Proxy-Settings) from your browser's settings panel.
+You can <a href='http://www.wikihow.com/Change-Proxy-Settings' target='_blank' rel='nofollow'>locate your proxy settings</a> from your browser's settings panel.
 
 ## Using Proxy with Git
 
@@ -28,11 +28,11 @@ You should not have to use `git` commands with proxy settings, if either of the 
 
 ## Unset Proxy Settings
 
-Use [this](http://stackoverflow.com/questions/11499805/git-http-proxy-setting) Stack Overflow discussion to unset your proxy settings.
+Use <a href='http://stackoverflow.com/questions/11499805/git-http-proxy-setting' target='_blank' rel='nofollow'>this</a> Stack Overflow discussion to unset your proxy settings.
 
 ## Resources
 
 You may use the following for further reading on this:
 
-*   [Can I Log In Behind A Proxy Server](https://help.github.com/desktop/faq/articles/can-i-log-in-behind-a-proxy-server/#platform-windows)
-*   [Git Config](https://git-scm.com/docs/git-config)
+*   <a href='https://help.github.com/desktop/faq/articles/can-i-log-in-behind-a-proxy-server/#platform-windows' target='_blank' rel='nofollow'>Can I Log In Behind A Proxy Server</a>
+*   <a href='https://git-scm.com/docs/git-config' target='_blank' rel='nofollow'>Git Config</a>

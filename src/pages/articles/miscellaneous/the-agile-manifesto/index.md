@@ -34,4 +34,4 @@ Original Signators:
 *   Jeff Sutherland
 *   Dave Thomas
 
-Read the original at [http://agilemanifesto.org/](http://agilemanifesto.org/)
+Read the original at <a href='http://agilemanifesto.org/' target='_blank' rel='nofollow'>http://agilemanifesto.org/</a>

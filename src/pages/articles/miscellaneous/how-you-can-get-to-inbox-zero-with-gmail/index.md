@@ -3,7 +3,7 @@ title: How You Can Get to Inbox Zero with Gmail
 ---
 > These Gmail Shortcuts will save you hours and help you get to Inbox Zero.
 
-See [https://player.vimeo.com/video/115194016](https://player.vimeo.com/video/115194016)
+See <a href='https://player.vimeo.com/video/115194016' target='_blank' rel='nofollow'>https://player.vimeo.com/video/115194016</a>
 
 ## Gmail Shortcuts
 
@@ -23,4 +23,4 @@ z | undo
 
 # | *delete
 
-*   This may not work on some EU Mac keyboards where # is accessed with, `ALT + 3`. Workaround [here](http://toodlepip.co.uk/2010/blog-2010-09-gmail-delete-key-shortcut-uk-apple-users/).
+*   This may not work on some EU Mac keyboards where # is accessed with, `ALT + 3`. Workaround <a href='http://toodlepip.co.uk/2010/blog-2010-09-gmail-delete-key-shortcut-uk-apple-users/' target='_blank' rel='nofollow'>here</a>.

@@ -13,7 +13,7 @@ function storeNames() { return arguments; }`
 `javascript  
 // If we execute the following line in the console:  
 storeNames("Mulder", "Scully", "Alex Kryceck");  
-// The output will be: ["Mulder", "Scully", "Alex Kryceck"]` 
+// The output will be: <a href='https://github.com/petkaantonov/bluebird/wiki/Optimization-killers#3-managing-arguments' target='_blank' rel='nofollow'>"Mulder", "Scully", "Alex Kryceck"]` 
 
 If you want to know more about this, such as converting it to an array or the optimization problem that comes with using the _slice(_) method and how to solve it, click on **read more** (Gitter Chat Only).
 
@@ -56,4 +56,4 @@ So, what other method is available to convert _arguments_ to an array? I recomme
     } // Now 'args' is an array that holds your arguments.
 
 For more information on the optimization issues:  
-[Optimization Killers: Managing Arguments](https://github.com/petkaantonov/bluebird/wiki/Optimization-killers#3-managing-arguments)
+[Optimization Killers: Managing Arguments</a>

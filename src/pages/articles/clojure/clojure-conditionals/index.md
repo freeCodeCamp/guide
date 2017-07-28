@@ -20,7 +20,7 @@ Clojure, like most languages, has 3 logical operators: `and`, `or` and `not`. Th
     (not false)
     ; => true
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [IDEOne it!](https://ideone.com/XfXn8T)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://ideone.com/XfXn8T' target='_blank' rel='nofollow'>IDEOne it!</a>
 
 ## If
 
@@ -64,7 +64,7 @@ Now that you look at it, doesn't that look so weird? This is much easier to read
     ; => Maths works!
     ;    nil
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [IDEOne it!](https://ideone.com/5XhcAa)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://ideone.com/5XhcAa' target='_blank' rel='nofollow'>IDEOne it!</a>
 
 ## Alternatives to If
 
@@ -82,11 +82,11 @@ The first expression gets evaluated if it's false, and the second gets evaluated
     (if (= (+ 2 2) 4) (do (println "Maths works!") (println "Hooray!")))
     (when (= (+ 2 2) 4) (println "Maths works!") (println "Hooray!"))
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [IDEOne it!](https://ideone.com/tUVAw3)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://ideone.com/tUVAw3' target='_blank' rel='nofollow'>IDEOne it!</a>
 
 **Note:** There is no `when/else`. `when` _only_ executes if the condition is true.
 
-Clojure has plenty of useful macros like these for all kinds of tasks. Try having a look at [the Clojure documentation](https://clojuredocs.org/) and see if you can find any more!
+Clojure has plenty of useful macros like these for all kinds of tasks. Try having a look at <a href='https://clojuredocs.org/' target='_blank' rel='nofollow'>the Clojure documentation</a> and see if you can find any more!
 
 | [![:point_left:](//forum.freecodecamp.com/images/emoji/emoji_one/point_left.png?v=2 ":point_left:") Previous](//forum.freecodecamp.com/t/clojure-the-basics/18410) | [![:book:](//forum.freecodecamp.com/images/emoji/emoji_one/book.png?v=2 ":book:") Home ![:book:](//forum.freecodecamp.com/images/emoji/emoji_one/book.png?v=2 ":book:")](//forum.freecodecamp.com/t/clojure-resources/18422) | [Next ![:point_right:](//forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=2 ":point_right:")](//forum.freecodecamp.com/t/clojure-create-local-variables-with-let/18415)|  
 | [Summary](//forum.freecodecamp.com/t/clojure-the-basics/18410) | [Table of Contents](//forum.freecodecamp.com/t/clojure-resources/18422) | [Conditionals](//forum.freecodecamp.com/t/clojure-create-local-variables-with-let/18415)|

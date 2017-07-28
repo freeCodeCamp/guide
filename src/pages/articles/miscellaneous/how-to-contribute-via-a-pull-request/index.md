@@ -5,11 +5,11 @@ title: How to Contribute Via a Pull Request
 
 FreeCodeCamp is an Open Source project and all of the contents are freely editable.
 
-*   [Fork](https://help.github.com/articles/fork-a-repo/) the project on GitHub.
-*   [Clone](https://help.github.com/articles/cloning-a-repository/) it to a local machine. Do not edit online in github.com, as the editor may cause issues with JSON formatted data.
-*   [Create a branch](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/) with the form `fix/some-bug` or `feature/add-cool-thing` and make your changes in that branch and commit them.
-*   [Push](https://help.github.com/articles/pushing-to-a-remote/) the branch online (if editing locally).
-*   [Create a pull request](https://help.github.com/articles/creating-a-pull-request/) against the **"staging"** branch.
+*   <a href='https://help.github.com/articles/fork-a-repo/' target='_blank' rel='nofollow'>Fork</a> the project on GitHub.
+*   <a href='https://help.github.com/articles/cloning-a-repository/' target='_blank' rel='nofollow'>Clone</a> it to a local machine. Do not edit online in github.com, as the editor may cause issues with JSON formatted data.
+*   <a href='https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/' target='_blank' rel='nofollow'>Create a branch</a> with the form `fix/some-bug` or `feature/add-cool-thing` and make your changes in that branch and commit them.
+*   <a href='https://help.github.com/articles/pushing-to-a-remote/' target='_blank' rel='nofollow'>Push</a> the branch online (if editing locally).
+*   <a href='https://help.github.com/articles/creating-a-pull-request/' target='_blank' rel='nofollow'>Create a pull request</a> against the **"staging"** branch.
 *   The title (also called the subject) of your PR should be descriptive of your changes. i.e. `fix typo in basic-javascript challenge`
 *   If the PR is meant to fix a specific issue, append to the end of your PR's commit message `closes #1337`. This tells GitHub to close that issue if the PR is merged.
 *   Do NOT add issue numbers to the PR's title. i.e. `minor improvements in basic-javascript challenge`
@@ -20,7 +20,7 @@ _Note: Not all pull requests are accepted. FCC project maintainers will explain 
 
 ## Further Reading
 
-*   [GitHub & Git Foundations Training](https://www.youtube.com/playlist?list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-) - How to use Git and GitHub
-*   [FreeCodeCamp Contribution Guidelines](https://github.com/FreeCodeCamp/FreeCodeCamp#contributing)
-*   [How to write Git commit messages](http://chris.beams.io/posts/git-commit/)
-*   [How to Clone FCC to a Windows PC](http://forum.freecodecamp.com/t/how-to-clone-and-setup-the-free-code-camp-website-on-a-windows-pc/19366)
+*   <a href='https://www.youtube.com/playlist?list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-' target='_blank' rel='nofollow'>GitHub & Git Foundations Training</a> - How to use Git and GitHub
+*   <a href='https://github.com/FreeCodeCamp/FreeCodeCamp#contributing' target='_blank' rel='nofollow'>FreeCodeCamp Contribution Guidelines</a>
+*   <a href='http://chris.beams.io/posts/git-commit/' target='_blank' rel='nofollow'>How to write Git commit messages</a>
+*   <a href='http://forum.freecodecamp.com/t/how-to-clone-and-setup-the-free-code-camp-website-on-a-windows-pc/19366' target='_blank' rel='nofollow'>How to Clone FCC to a Windows PC</a>

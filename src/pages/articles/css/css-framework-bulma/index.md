@@ -3,7 +3,7 @@ title: CSS Framework Bulma
 ---
 # CSS Framework Bulma
 
-Bulma is a modern CSS framework based on [Flexbox](http://forum.freecodecamp.com/t/css-flexbox-tips-and-tricks) and highly customizable using [Sass](http://sass-lang.com/) (SCSS).
+Bulma is a modern CSS framework based on <a href='http://forum.freecodecamp.com/t/css-flexbox-tips-and-tricks' target='_blank' rel='nofollow'>Flexbox</a> and highly customizable using <a href='http://sass-lang.com/' target='_blank' rel='nofollow'>Sass</a> (SCSS).
 
 ## Getting Started
 
@@ -24,9 +24,9 @@ Here is a simple HTML template which includes the latest compiled and minified C
       </body>
     </html>
 
-We have used a CDN in this example, but you can checkout other ways of installing Bulma [here](http://bulma.io/documentation/overview/start/).
+We have used a CDN in this example, but you can checkout other ways of installing Bulma <a href='http://bulma.io/documentation/overview/start/' target='_blank' rel='nofollow'>here</a>.
 
 ## Learning Resources
 
-*   The official documentation for Bulma is available [here](http://bulma.io/documentation/overview/start/).
-*   Checkout Bulma's open source GitHub repository [here](https://github.com/jgthms/bulma).
+*   The official documentation for Bulma is available <a href='http://bulma.io/documentation/overview/start/' target='_blank' rel='nofollow'>here</a>.
+*   Checkout Bulma's open source GitHub repository <a href='https://github.com/jgthms/bulma' target='_blank' rel='nofollow'>here</a>.

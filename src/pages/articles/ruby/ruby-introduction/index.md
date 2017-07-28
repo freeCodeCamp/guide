@@ -33,7 +33,7 @@ Mac OS X and many Linux distributions come pre-installed with Ruby. To check if 
 *   Managers help you to switch between multiple Ruby installations on your system.
 *   And finally, you can also build Ruby from source.
 
-To know about how to install Ruby through package managers, installers and source, click [here](https://www.ruby-lang.org/en/documentation/installation/). RVM (Ruby Version Manager) and rbenv are the most popular Ruby managers to manage multiple Rubies. If you get stuck anywhere, don't worry, just head over to our [Gitter chat room](https://gitter.im/FreeCodeCamp/ruby) and ask us anything.
+To know about how to install Ruby through package managers, installers and source, click <a href='https://www.ruby-lang.org/en/documentation/installation/' target='_blank' rel='nofollow'>here</a>. RVM (Ruby Version Manager) and rbenv are the most popular Ruby managers to manage multiple Rubies. If you get stuck anywhere, don't worry, just head over to our <a href='https://gitter.im/FreeCodeCamp/ruby' target='_blank' rel='nofollow'>Gitter chat room</a> and ask us anything.
 
 ## IRB
 
@@ -60,8 +60,8 @@ From command-line:
 
 ## Documentation
 
-Ruby is well [documented](https://www.ruby-lang.org/en/documentation/). These docs include tutorials, guides, references and meta information for language.  
-Another important resouce for documentation is [Ruby Doc](http://ruby-doc.org/core-2.3.0/). You should visit this [link](https://github.com/airbnb/ruby) to know more about Ruby style guide, written by developers of AirBnB.
+Ruby is well <a href='https://www.ruby-lang.org/en/documentation/' target='_blank' rel='nofollow'>documented</a>. These docs include tutorials, guides, references and meta information for language.  
+Another important resouce for documentation is <a href='http://ruby-doc.org/core-2.3.0/' target='_blank' rel='nofollow'>Ruby Doc</a>. You should visit this <a href='https://github.com/airbnb/ruby' target='_blank' rel='nofollow'>link</a> to know more about Ruby style guide, written by developers of AirBnB.
 
 ## Debugging
 
@@ -72,11 +72,11 @@ Inline `print` statements can be used for simple debugging:
 > **... often the quickest way to debug a program is to add a few print statements to the source: the fast edit-test-debug cycle makes this simple approach very effective.**
 
 Ruby also includes more powerful tools for debugging, such as:  
-* [_pry-debugger_](https://github.com/nixme/pry-debugger)
+* <a href='https://github.com/nixme/pry-debugger' target='_blank' rel='nofollow'>_pry-debugger_</a>
 
 ## Hello World!
 
-Going back to the docs, we can read about the [`print`](http://ruby-doc.org/core-2.3.0/Kernel.html#method-i-print) method, one of the built-in methods of the [the Kernel module](http://ruby-doc.org/core-2.3.0/Kernel.html).  
+Going back to the docs, we can read about the <a href='http://ruby-doc.org/core-2.3.0/Kernel.html#method-i-print' target='_blank' rel='nofollow'>`print`</a> method, one of the built-in methods of the <a href='http://ruby-doc.org/core-2.3.0/Kernel.html' target='_blank' rel='nofollow'>the Kernel module</a>.  
 
     print(obj, ...) → nil
 
@@ -88,4 +88,4 @@ Prints each object to $stdout. Objects that aren’t strings will be converted b
 
 ## Frameworks
 
-Ruby has several frameworks for quickly scaffolding applications. The most popular by far is [Rails](http://rubyonrails.org/) which was initially released in 2004\. Other frameworks for Ruby include [Sinatra](http://www.sinatrarb.com/), [Lotus](http://lotusrb.org/), and [Volt](http://voltframework.com/). Each of these options has their pros and cons for development and cater to a variety needs.
+Ruby has several frameworks for quickly scaffolding applications. The most popular by far is <a href='http://rubyonrails.org/' target='_blank' rel='nofollow'>Rails</a> which was initially released in 2004\. Other frameworks for Ruby include <a href='http://www.sinatrarb.com/' target='_blank' rel='nofollow'>Sinatra</a>, <a href='http://lotusrb.org/' target='_blank' rel='nofollow'>Lotus</a>, and <a href='http://voltframework.com/' target='_blank' rel='nofollow'>Volt</a>. Each of these options has their pros and cons for development and cater to a variety needs.

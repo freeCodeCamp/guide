@@ -9,7 +9,7 @@ title: Mutations
 
 #### Relevant Links
 
-*   [String.indexOf()](http://forum.freecodecamp.com/t/javascript-string-prototype-indexof/15936)
+*   <a href='http://forum.freecodecamp.com/t/javascript-string-prototype-indexof/15936' target='_blank' rel='nofollow'>String.indexOf()</a>
 
 ## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 1
 
@@ -40,7 +40,7 @@ title: Mutations
 **Procedural**
 
     function mutation(arr) {
-      var test = arr[1].toLowerCase();
+      var test = arr<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>1].toLowerCase();
       var target = arr[0].toLowerCase();
       for (i=0;i<test.length;i++) {
         if (target.indexOf(test[i]) < 0)
@@ -49,7 +49,7 @@ title: Mutations
       return true;
      }
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLjU/30)
+![:rocket:</a> <a href='https://repl.it/CLjU/30' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -60,15 +60,15 @@ If they are _all_ found, the loop will finish without returning anything and we 
 
 #### Relevant Links
 
-*   [String.toLowerCase()](http://forum.freecodecamp.com/t/javascript-string-prototype-tolowercase/15948)
-*   [For loops](http://forum.freecodecamp.com/t/javascript-for-loop/14666s-Explained)
+*   <a href='http://forum.freecodecamp.com/t/javascript-string-prototype-tolowercase/15948' target='_blank' rel='nofollow'>String.toLowerCase()</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-for-loop/14666s-Explained' target='_blank' rel='nofollow'>For loops</a>
 
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution:
 
 **Declarative**
 
     function mutation(arr) {
-      return arr[1].toLowerCase()
+      return arr<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>1].toLowerCase()
         .split('')
         .every(function(letter) {
           return arr[0].toLowerCase()
@@ -76,7 +76,7 @@ If they are _all_ found, the loop will finish without returning anything and we 
         });
     }
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLjU/31)
+![:rocket:</a> <a href='https://repl.it/CLjU/31' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -86,8 +86,8 @@ Grab the second string, lowercase and turn it into an array; then make sure _eve
 
 #### Relevant Links
 
-*   [Array.split()](http://forum.freecodecamp.com/t/javascript-string-prototype-split/15944)
-*   [Array.every()](http://forum.freecodecamp.com/t/javascript-array-prototype-every/14287)
+*   <a href='http://forum.freecodecamp.com/t/javascript-string-prototype-split/15944' target='_blank' rel='nofollow'>Array.split()</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-array-prototype-every/14287' target='_blank' rel='nofollow'>Array.every()</a>
 
 ## ![:clipboard:](https://forum.freecodecamp.com/images/emoji/emoji_one/clipboard.png?v=3 ":clipboard:") NOTES FOR CONTRIBUTIONS:
 
@@ -96,4 +96,4 @@ Grab the second string, lowercase and turn it into an array; then make sure _eve
 *   Categorize the solution in one of the following categories — **Basic**, **Intermediate** and **Advanced**. ![:traffic_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/traffic_light.png?v=3 ":traffic_light:")
 *   Please add your username only if you have added any **relevant main contents**. (![:warning:](https://forum.freecodecamp.com/images/emoji/emoji_one/warning.png?v=3 ":warning:") **_DO NOT_** _remove any existing usernames_)
 
-> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") [**`Wiki Challenge Solution Template`**](http://forum.freecodecamp.com/t/algorithm-article-template/14272) for reference.
+> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") <a href='http://forum.freecodecamp.com/t/algorithm-article-template/14272' target='_blank' rel='nofollow'>**`Wiki Challenge Solution Template`**</a> for reference.

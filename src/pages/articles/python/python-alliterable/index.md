@@ -1,7 +1,7 @@
 ---
 title: Python Alliterable
 ---
-`all()` is a built-in function in Python 3, to check if all items of an [_iterable_](https://docs.python.org/3/glossary.html#term-iterable) is `True`. It takes one argument, `iterable`.
+`all()` is a built-in function in Python 3, to check if all items of an <a href='https://docs.python.org/3/glossary.html#term-iterable' target='_blank' rel='nofollow'>_iterable_</a> is `True`. It takes one argument, `iterable`.
 
 ## Argument
 
@@ -34,6 +34,6 @@ The `all()` operation is equivalent to (not internally implemented exactly like 
     print(all([9, 8, {}])) #=> False Because it has {}
     print(all([9, 8, {'engine': 'Gcloud'}])) #=> True
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [Run Code](https://repl.it/CL9U/0)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CL9U/0' target='_blank' rel='nofollow'>Run Code</a>
 
-[Official Docs](https://docs.python.org/3/library/functions.html#all)
+<a href='https://docs.python.org/3/library/functions.html#all' target='_blank' rel='nofollow'>Official Docs</a>

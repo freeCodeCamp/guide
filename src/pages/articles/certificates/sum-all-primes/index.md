@@ -9,7 +9,7 @@ The explanation for this problem is very simple. You will generate a list of pri
 
 #### Relevant Links
 
-*   [Prime Numbers](https://en.wikipedia.org/wiki/Prime_number)
+*   <a href='https://en.wikipedia.org/wiki/Prime_number' target='_blank' rel='nofollow'>Prime Numbers</a>
 
 ## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 1
 
@@ -19,7 +19,7 @@ Generate a list of all the numbers up to and including the one you got as a para
 
 ## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 2
 
-Check this [link](http://stackoverflow.com/questions/11966520/how-to-find-prime-numbers-between-0-100) if you prefer to find a solution for finding primes, or try learning and implementing your own [Sieve of Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes)
+Check this <a href='http://stackoverflow.com/questions/11966520/how-to-find-prime-numbers-between-0-100' target='_blank' rel='nofollow'>link</a> if you prefer to find a solution for finding primes, or try learning and implementing your own <a href='https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes' target='_blank' rel='nofollow'>Sieve of Eratosthenes</a>
 
 > _try to solve the problem now_
 
@@ -42,7 +42,7 @@ This problem is hard if you have to create your own code to check for primes, so
 
       // Function to get the primes up to max in an array
       function getPrimes(max) {
-        var sieve = [];
+        var sieve = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>];
         var i;
         var j;
         var primes = [];
@@ -71,7 +71,7 @@ This problem is hard if you have to create your own code to check for primes, so
     // test here
     sumPrimes(10);
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLnZ/0)
+![:rocket:</a> <a href='https://repl.it/CLnZ/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -84,7 +84,7 @@ This problem is hard if you have to create your own code to check for primes, so
 
 #### Relevant Links
 
-*   [JS For Loops Explained](http://forum.freecodecamp.com/t/javascript-for-loop/14666s-Explained)
+*   <a href='http://forum.freecodecamp.com/t/javascript-for-loop/14666s-Explained' target='_blank' rel='nofollow'>JS For Loops Explained</a>
 
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution:
 
@@ -119,7 +119,7 @@ This problem is hard if you have to create your own code to check for primes, so
     // test here
     sumPrimes(10);
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLn0/0)
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLn0/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -130,7 +130,7 @@ This problem is hard if you have to create your own code to check for primes, so
 
 #### Relevant Links
 
-*   [Functions - Recursion](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#Recursion)
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#Recursion' target='_blank' rel='nofollow'>Functions - Recursion</a>
 
 ## ![:rotating_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:") Advanced Code Solution:
 
@@ -153,19 +153,19 @@ This problem is hard if you have to create your own code to check for primes, so
     // test here
     sumPrimes(977);
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/DoOo/3)
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/DoOo/3' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
-*   **Step 1:** Use `Array.from()` to generate a sequence of numbers up to and including `num`. Combine with `.slice()` to slice off first two indices `[0, 1]` since all prime numbers must be greater than 1.
+*   **Step 1:** Use `Array.from()` to generate a sequence of numbers up to and including `num`. Combine with `.slice()` to slice off first two indices `<a href='https://en.wikipedia.org/wiki/Prime_number#Trial_division' target='_blank' rel='nofollow'>0, 1]` since all prime numbers must be greater than 1.
 *   **Step 2:** Filter all numbers off of `arr` that are not prime by subjecting each element to the _"trial division test"_ which _"consists of dividing n by each integer m that is greater than 1 and less than or equal to the square root of n"_. This test returns `false` if any number less than the element being operated on (m) produces no remainder when said element (n) is divided by it. See link below for more on this.
 *   **Step 3:** Return the sum of all remaining elements of arr using `.reduce()`.
 
 ### Relevant Links
 
-*   [Trial Division Test](https://en.wikipedia.org/wiki/Prime_number#Trial_division)
-*   [Array.from()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from#Examples)
-*   [Array.filter()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+*   [Trial Division Test</a>
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from#Examples' target='_blank' rel='nofollow'>Array.from()</a>
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter' target='_blank' rel='nofollow'>Array.filter()</a>
 
 ## ![:clipboard:](https://forum.freecodecamp.com/images/emoji/emoji_one/clipboard.png?v=3 ":clipboard:") NOTES FOR CONTRIBUTIONS:
 
@@ -173,4 +173,4 @@ This problem is hard if you have to create your own code to check for primes, so
 *   Add an explanation of your solution.
 *   Categorize the solution in one of the following categories — **Basic**, **Intermediate** and **Advanced**. ![:traffic_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/traffic_light.png?v=3 ":traffic_light:")
 
-> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") [**`Wiki Challenge Solution Template`**](http://forum.freecodecamp.com/t/algorithm-article-template/14272) for reference.
+> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") <a href='http://forum.freecodecamp.com/t/algorithm-article-template/14272' target='_blank' rel='nofollow'>**`Wiki Challenge Solution Template`**</a> for reference.

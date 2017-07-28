@@ -26,7 +26,7 @@ title: Chaijs Cheatsheet
 
     assert.typeOf(/tea/, 'regexp') // Object.prototype.toString()
     assert.instanceOf(chai, Tea)
-    assert.include([ a,b,c ], a)
+    assert.include(<a href='https://github.com/rstacruz/cheatsheets' target='_blank' rel='nofollow'> a,b,c ], a)
     assert.match(val, /regexp/)
     assert.property(obj, 'tea') // 'tea' in object
     assert.deepProperty(obj, 'tea.green')
@@ -119,6 +119,6 @@ title: Chaijs Cheatsheet
           .to.contain('text')
           .to.have('.selector')
 
-> [ricostacruz CheatSheets](https://github.com/rstacruz/cheatsheets)
+> [ricostacruz CheatSheets</a>
 > 
-> [Discuss on gitter](https://gitter.im/bothelp/testing)
+> <a href='https://gitter.im/bothelp/testing' target='_blank' rel='nofollow'>Discuss on gitter</a>

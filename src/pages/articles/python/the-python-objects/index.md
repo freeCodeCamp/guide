@@ -11,10 +11,10 @@ In Python, there are no primitives. `None`, _booleans_, _strings_, _numbers_, an
 
 We can demonstrate this using some built-in functions:
 
-*   [`id`](https://docs.python.org/3/library/functions.html#id)
-*   [`type`](https://docs.python.org/3/library/functions.html#type)
-*   [`dir`](https://docs.python.org/3/library/functions.html#dir)
-*   [`issubclass`](https://docs.python.org/3/library/functions.html#issubclass)
+*   <a href='https://docs.python.org/3/library/functions.html#id' target='_blank' rel='nofollow'>`id`</a>
+*   <a href='https://docs.python.org/3/library/functions.html#type' target='_blank' rel='nofollow'>`type`</a>
+*   <a href='https://docs.python.org/3/library/functions.html#dir' target='_blank' rel='nofollow'>`dir`</a>
+*   <a href='https://docs.python.org/3/library/functions.html#issubclass' target='_blank' rel='nofollow'>`issubclass`</a>
 
 Built-in constants `None`, `True`, and `False` are _objects_:
 
@@ -25,7 +25,7 @@ We test the `None` object here.
     >>> type(None)
     <class 'NoneType'>
     >>> dir(None)
-    ['__bool__', '__class__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__']
+    <a href='https://www.jeffknupp.com/blog/2014/06/18/improve-your-python-python-classes-and-object-oriented-programming/' target='_blank' rel='nofollow'>'__bool__', '__class__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__']
     >>> issubclass(type(None), object)
     True
 
@@ -98,4 +98,4 @@ It is also possible to bind functions to a name and called the bound function us
 
 Resources:
 
-*   [https://www.jeffknupp.com/blog/2014/06/18/improve-your-python-python-classes-and-object-oriented-programming/](https://www.jeffknupp.com/blog/2014/06/18/improve-your-python-python-classes-and-object-oriented-programming/)
+*   [https://www.jeffknupp.com/blog/2014/06/18/improve-your-python-python-classes-and-object-oriented-programming/</a>

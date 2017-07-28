@@ -13,7 +13,7 @@ The `Object.keys()` method returns an array of a given object's own enumerable p
 
 The object whose enumerable own properties are to be returned.
 
-[MDN link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys) | [MSDN link](https://msdn.microsoft.com/en-us/LIBRary/ff688127%28v=vs.94%29.aspx)
+<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys' target='_blank' rel='nofollow'>MDN link</a> | <a href='https://msdn.microsoft.com/en-us/LIBRary/ff688127%28v=vs.94%29.aspx' target='_blank' rel='nofollow'>MSDN link</a>
 
 ## Description
 

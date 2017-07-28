@@ -1,7 +1,7 @@
 ---
 title: Testing with Chaijs
 ---
-[Chai](http://chaijs.com) is a testing framework. More info:
+<a href='http://chaijs.com' target='_blank' rel='nofollow'>Chai</a> is a testing framework. More info:
 
 *   `help chai assert`
 *   `help chai expectations`

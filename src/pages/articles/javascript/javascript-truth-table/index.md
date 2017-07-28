@@ -5,4 +5,4 @@ title: JavaScript Truth Table
 
 This is why you should always use `===` and `!==`.
 
-Source: [https://dorey.github.io/JavaScript-Equality-Table/](https://dorey.github.io/JavaScript-Equality-Table/)
+Source: <a href='https://dorey.github.io/JavaScript-Equality-Table/' target='_blank' rel='nofollow'>https://dorey.github.io/JavaScript-Equality-Table/</a>

@@ -3,7 +3,7 @@ title: CSS Framework Foundation
 ---
 # CSS Framework Foundation
 
-[Foundation](http://foundation.zurb.com/) is the one of the most advanced responsive front-end frameworks.
+<a href='http://foundation.zurb.com/' target='_blank' rel='nofollow'>Foundation</a> is the one of the most advanced responsive front-end frameworks.
 
 ## Getting Started
 
@@ -27,11 +27,11 @@ Here is a simple HTML template which includes the latest compiled and minified C
 
  <kbd>[![](//discourse-user-assets.s3.amazonaws.com/original/2X/f/f9c81b35877c3e0551ca461c75b78aac80c6f48a.png) **JSBin Demo**](http://jsbin.com/gebolikiru/edit?html,output)</kbd> 
 
-We have used a CDN in this example, but you can checkout other ways of installing Foundation [here](http://foundation.zurb.com/sites/download/).
+We have used a CDN in this example, but you can checkout other ways of installing Foundation <a href='http://foundation.zurb.com/sites/download/' target='_blank' rel='nofollow'>here</a>.
 
 ## Learning Resources
 
-*   The official documentation for Foundation is available [here](http://foundation.zurb.com/sites/docs/).
-*   Checkout Foundation's open source GitHub repository [here](https://github.com/zurb/foundation-sites).
-*   ![:point_right:](//forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=2 ":point_right:") List of [**`Foundation Framework tutorials`**](http://foundation.zurb.com/learn/tutorials.html).
-*   Checkout a series by DevTips on the Foundation Grid [here](https://www.youtube.com/playlist?list=PLqGj3iMvMa4LJo_lBMTJwAlQRElulSeL8).
+*   The official documentation for Foundation is available <a href='http://foundation.zurb.com/sites/docs/' target='_blank' rel='nofollow'>here</a>.
+*   Checkout Foundation's open source GitHub repository <a href='https://github.com/zurb/foundation-sites' target='_blank' rel='nofollow'>here</a>.
+*   ![:point_right:](//forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=2 ":point_right:") List of <a href='http://foundation.zurb.com/learn/tutorials.html' target='_blank' rel='nofollow'>**`Foundation Framework tutorials`**</a>.
+*   Checkout a series by DevTips on the Foundation Grid <a href='https://www.youtube.com/playlist?list=PLqGj3iMvMa4LJo_lBMTJwAlQRElulSeL8' target='_blank' rel='nofollow'>here</a>.
