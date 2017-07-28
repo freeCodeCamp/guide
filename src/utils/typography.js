@@ -6,7 +6,7 @@ const options = {
   baseFontSize: '14px',
   baseLineHeight: 1.45,
   scaleRatio: 2.25,
-  googleFonts: [{ name: 'Lato',styles: ['400', '400i', '900', ], }, ], 
+  googleFonts: [ name: 'Lato' ], 
   headerFontFamily: ['Lato', 'serif'],
   bodyFontFamily: ['Lato', 'serif'],
   plugins: [new CodePlugin()],
