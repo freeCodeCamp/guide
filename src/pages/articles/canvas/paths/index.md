@@ -60,13 +60,13 @@ This fact leads to a common mistake in making `canvas` animations.
 var x = 0;
 var y = 0;
 function draw() {
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-    ctx.rect(x, y, 50, 50);
-    ctx.fill();
-    x+=1;
+  ctx.rect(x, y, 50, 50);
+  ctx.fill();
+  x+=1;
 
-    window.requestAnimationFrame(draw);
+  window.requestAnimationFrame(draw);
 }
 
 window.requestAnimationFrame(draw);

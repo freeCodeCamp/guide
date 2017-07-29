@@ -7,8 +7,8 @@ To animate things in `canvas`, use `window.requestAnimationFrame` to set up a dr
 
 ```
 function draw() {
-
-    window.requestAnimationFrame(draw);
+  /* code goes here */
+  window.requestAnimationFrame(draw);
 }
 window.requestAnimationFrame(draw);
 ```
@@ -21,17 +21,17 @@ The below code will cause the `draw` function to be run every frame.
 var x=0;
 var y=50;
 function draw() {
-    //reset canvas
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
-    //update state
-    x=+1;
+  // reset canvas
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  //update state
+  x=+1;
 
-    //render state
-    ctx.beginPath();
-    ctx.rect(x, y, 50, 50);
-    ctx.fill();
+  // render state
+  ctx.beginPath();
+  ctx.rect(x, y, 50, 50);
+  ctx.fill();
 
-    window.requestAnimationFrame(draw);
+  window.requestAnimationFrame(draw);
 }
 window.requestAnimationFrame(draw);
 ```

@@ -15,13 +15,13 @@ This can cause problems when you want to make a dynamically sized canvas. For in
 In order to make the size of the drawing context match the rendered size of the `canvas` element, we have to force this in realtime. One common practice is to put the following handler in the `onResize` listener.
 
 ```
-//somewhere early in the script
+// somewhere early in the script
 let canvas = document.getElementById("canvas");
 ...
 
 $("#canvas").resize(function() {
-    $(this).attr('width', $(this).width());
-    $(this).attr('height', $(this).height());
+  $(this).attr('width', $(this).width());
+  $(this).attr('height', $(this).height());
 });
 
 ```

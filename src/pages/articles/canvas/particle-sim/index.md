@@ -10,16 +10,16 @@ We will want to set up an array of particles with accelerations and velocities. 
 ```
 var particles = [];
 for(var i=0; i<100; i++) {
-    particles.push(
-        {
-            x:Math.random()*canvas.width,
-            y:Math.random()*canvas.height,
-            vx:0,
-            vy:0,
-            ax:0,
-            ay:0
-        }
-    );
+  particles.push(
+    {
+      x:Math.random()*canvas.width,
+      y:Math.random()*canvas.height,
+      vx:0,
+      vy:0,
+      ax:0,
+      ay:0
+    }
+  );
 }
 ```
 
@@ -27,17 +27,17 @@ In our draw loop, we render these particles.
 
 ```
 function draw() {
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
-    for(var i=0; i<particles.length; i++) {
-        //update state
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  for(var i=0; i<particles.length; i++) {
+    // update state
 
-        //render state
-        ctx.beginPath();
-        ctx.arc(particles[i].x, particles[i].y, 5, 0, 2*Math.PI);
-        ctx.fill();
-    }
+    // render state
+    ctx.beginPath();
+    ctx.arc(particles[i].x, particles[i].y, 5, 0, 2*Math.PI);
+    ctx.fill();
+  }
 
-    window.requestAnimationFrame(draw);
+  window.requestAnimationFrame(draw);
 }
 window.requestAnimationFrame(draw);
 ```
@@ -46,17 +46,17 @@ Now, all we need to do is update velocity and acceleration each frame. We will a
 
 ```
 function draw() {
-    for(var i=0; i<particles.length; i++) {
-        //update state
-        particles[i].x+=particles[i].vx;
-        particles[i].y+=particles[i].vy;
-        particles[i].vx+=particles[i].ax;
-        particles[i].vy+=particles[i].ay;
-    
-        /* render code */
-    }
+  for(var i=0; i<particles.length; i++) {
+    // update state
+    particles[i].x+=particles[i].vx;
+    particles[i].y+=particles[i].vy;
+    particles[i].vx+=particles[i].ax;
+    particles[i].vy+=particles[i].ay;
+  
+    /* render code */
+  }
 
-    window.requestAnimationFrame(draw);
+  window.requestAnimationFrame(draw);
 }
 window.requestAnimationFrame(draw);
 ```
@@ -65,16 +65,16 @@ That's it! All we need to do to is create a force somewhere. Let's do it with a 
 
 ```
 $('#canvas').click(function(e) {
-    var clickX = e.pageX-$(this).offset().left;
-    var clickY = e.pageY-$(this).offset().top;
-    for(var i=0; i<particles.length; i++) {
-        var delx = particles[i].x-clickX;
-        var dely = particles[i].y-clickY;
-        var magnitudeSquared = Math.pow(delx, 2)+Math.pow(dely, 2);
+  var clickX = e.pageX-$(this).offset().left;
+  var clickY = e.pageY-$(this).offset().top;
+  for(var i=0; i<particles.length; i++) {
+    var delx = particles[i].x-clickX;
+    var dely = particles[i].y-clickY;
+    var magnitudeSquared = Math.pow(delx, 2)+Math.pow(dely, 2);
 
-        particles[i].ax = 0.1*delx/magnitudeSquared;
-        particles[i].ay = 0.1*dely/magnitudeSquared;
-    }
+    particles[i].ax = 0.1*delx/magnitudeSquared;
+    particles[i].ay = 0.1*dely/magnitudeSquared;
+  }
 });
 ```
 
