@@ -46,9 +46,9 @@
   "license": "MIT",
   "main": "n/a",
   "scripts": {
-    "build": "node seed && gatsby build",
-    "deploy": "node seed && gatsby build --prefix-paths && gh-pages -d public",
-    "dev": "node seed && gatsby develop",
+    "build": "node seed && node --max_old_space_size=4096 ./node_modules/.bin/gatsby build",
+    "deploy": "node seed && node --max_old_space_size=4096 ./node_modules/.bin/gatsby build --prefix-paths && gh-pages -d public",
+    "dev": "node seed && node --max_old_space_size=4096 ./node_modules/.bin/gatsby develop",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"pages/*.js\" \"utils/*.js\" \"wrappers/*.js\" \"html.js\"",
     "lint": "eslint --ext .js,.jsx --ignore-path .gitignore .",
     "test": "echo \"Error: no test specified\" && exit 1"
