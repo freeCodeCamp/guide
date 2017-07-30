@@ -16,7 +16,7 @@ In order to make the size of the drawing context match the rendered size of the 
 
 ```
 // somewhere early in the script
-let canvas = document.getElementById("canvas");
+var canvas = document.getElementById("canvas");
 ...
 
 $("#canvas").resize(function() {
