@@ -36,7 +36,9 @@
     "typography-plugin-code": "^0.15.9"
   },
   "devDependencies": {
-    "gh-pages": "^0.12.0"
+    "chalk": "^2.0.1",
+    "gh-pages": "^0.12.0",
+    "pre-commit": "^1.2.2"
   },
   "keywords": [
     "freeCodeCamp",
@@ -51,6 +53,11 @@
     "dev": "node seed && gatsby develop",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"pages/*.js\" \"utils/*.js\" \"wrappers/*.js\" \"html.js\"",
     "lint": "eslint --ext .js,.jsx --ignore-path .gitignore .",
+    "normalise": "node _normaliseArticles.js",
     "test": "echo \"Error: no test specified\" && exit 1"
-  }
+  },
+  "pre-commit": [
+    "lint",
+    "normalise"
+  ]
 }

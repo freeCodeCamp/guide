@@ -1,15 +1,20 @@
 const Rx = require('rx');
 const fse = require('fs-extra');
+const chalk = require('chalk');
 
 const { titleify } = require('./seed/utils');
 
 const { Observable } = Rx;
 
+function info(str, colour = 'red') {
+  console.log(chalk[colour](str));
+}
+
 const metaRE = /---[\W\w]*?---\n*?/;
 const isAFileRE = /(\.md|\.jsx?|\.html?)$/;
 const shouldBeIgnoredRE = /^(\_|\.)/;
 const isAStubRE = /This\sis\sa\sstub\.\s\[Help\sour\scommunity\sexpand\sit\]/;
-const markdownLinkRE = /\!?\[[\w\W]*?\]\([\w\W]+?\)/g;
+const markdownLinkRE = /\!?\[.*?\]\(.+?\)/g;
 const httpsRE = /https?\:\/\//;
 
 const articlesDir = `${process.cwd()}/src/pages/articles`;
@@ -142,5 +147,6 @@ applyNormaliser(articlesDir)
     },
     () => {
       normaliseMeta(articlesDir);
-      console.info('\n\nNormalisation Completed\n\n');
+      info('\n\nNormalisation Completed\n\n', 'greenBright');
+      info('Please check for uncommited changes before pushing\n', 'yellow');
     });
