@@ -3,13 +3,10 @@ title: Comment Tag
 ---
 ## Comment Tag
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/articles/html/comment-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Comments are tags used to leave notes in the document. Only the developer have access to the comments, the final user don't see unless they check with the browser's Inspector Element.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+When you're working in some code, it's helpful to leave tips to others developers in order to understand what the work is about.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### Example
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+<!-- This is a comment -->
