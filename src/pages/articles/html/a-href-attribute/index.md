@@ -3,13 +3,8 @@ title: A Href Attribute
 ---
 ## A Href Attribute
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/articles/html/a-href-attribute/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `<a href>` atrribute refers to a destination provided by a link. The `a` tag is dead without `<href>`. It's useful to work without a link because which is not neccesary at the moment, so what we do is to put instead a link, the `#` to kill the hyperlink.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+### Example
+<a href="#">Link dead</a>
+`<a href="https://www.freecodecamp.com">FreecodeCamp</a>`
