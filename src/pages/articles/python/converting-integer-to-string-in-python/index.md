@@ -28,7 +28,7 @@ print(result) # 1 2 3 4 5 6 7 8 9 10
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
-[Official Python documentation for `str()`](https://docs.python.org/2/library/functions.html#str)
+<a href='https://docs.python.org/2/library/functions.html#str' target='_blank' rel='nofollow'>Official Python documentation for `str()`</a>
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
 
