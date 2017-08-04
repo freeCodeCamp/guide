@@ -1,7 +1,7 @@
 ---
 title: How to Create a Local Study Group
 ---
-If you didn't see your city on [our list of study groups](https://www.freecodecamp.com/study-group-directory/), and you are willing to lead a study group for your city, follow the directions below.
+If you didn't see your city on <a href='https://www.freecodecamp.com/study-group-directory/' target='_blank' rel='nofollow'>our list of study groups</a>, and you are willing to lead a study group for your city, follow the directions below.
 
 This also applies to creating smaller, more cohesive groups for neighbourhoods and districts inside of the same city. Thus, groups should ideally represent areas where its members don't have to commute longer than 15-20 minutes to meet each other.  
 However, be aware people may want to join from other places, as they may intend on moving there, or see your group as a nice source of resources and feedback, etc.
@@ -9,7 +9,7 @@ However, be aware people may want to join from other places, as they may intend 
 **Please, do not create groups for a whole State/province/department/county/etc. as they will not be added to the list.**
 
 Assuming you've already signed into Facebook:  
-0 . (optional) While creating the group you'll need to add at least one person. You could add [Justin](https://www.facebook.com/FCC.GroupChancellor) as a friend, who's in charge of freeCodeCamp's local groups and can **assist you in managing your members, events, and any issues that may come up (such as spammers, etc.)**.  
+0 . (optional) While creating the group you'll need to add at least one person. You could add <a href='https://www.facebook.com/FCC.GroupChancellor' target='_blank' rel='nofollow'>Justin</a> as a friend, who's in charge of freeCodeCamp's local groups and can **assist you in managing your members, events, and any issues that may come up (such as spammers, etc.)**.  
 Also, he will probably not see be able to see any messages you may send until you "friend" him.
 
 Now, to the fun part! It's easy, just follow these steps:
@@ -63,7 +63,7 @@ Also, bear in mind whether your locals may not speak english fluently, and thus 
 
 <div class="meta"><span class="filename">Untitled.png</span><span class="informations">805x621 78.3 KB</span><span class="expand"></span></div>](//discourse-user-assets.s3.amazonaws.com/original/3X/8/c/8c68d711a85d5089b28d927665db3a6d6cf7ca40.png "Untitled.png") </div>
 
-11 . Click the "Upload a photo button. To start out, you'll probably just want to use freeCodeCamp's banner (download it [here](https://github.com/FreeCodeCamp/wiki/blob/master/deprecated%20wiki/images/FCC-FBbanner.png)), or a scenic shot of your city. Later you can update this with a picture from one of your city's freeCodeCamp events.
+11 . Click the "Upload a photo button. To start out, you'll probably just want to use freeCodeCamp's banner (download it <a href='https://github.com/FreeCodeCamp/wiki/blob/master/deprecated%20wiki/images/FCC-FBbanner.png' target='_blank' rel='nofollow'>here</a>), or a scenic shot of your city. Later you can update this with a picture from one of your city's freeCodeCamp events.
 
 Alternatively, Justin being your assistant admin, you can ask him to add the logo from his photo album for you.
 
@@ -71,15 +71,15 @@ Alternatively, Justin being your assistant admin, you can ask him to add the log
 
 <div class="meta"><span class="filename">Free-Code-Camp-Testland.png</span><span class="informations">821x294 42.2 KB</span><span class="expand"></span></div>](//discourse-user-assets.s3.amazonaws.com/original/2X/2/26006223f5f5b1c154496452037049be1a795d68.png "Free-Code-Camp-Testland.png") </div>
 
-12 . If you haven't already, **make sure to add [Justin](https://www.facebook.com/FCC.GroupChancellor) to your group and then make him an additional admin** so he can add you to the official list —you'll be able to do this after adding him, in the members section, clicking on the gear icon next to his name.  
+12 . If you haven't already, **make sure to add <a href='https://www.facebook.com/FCC.GroupChancellor' target='_blank' rel='nofollow'>Justin</a> to your group and then make him an additional admin** so he can add you to the official list —you'll be able to do this after adding him, in the members section, clicking on the gear icon next to his name.  
 No need to "friend him" if you didn't do it on step 0\. Just send him a private message with the link to your group and he'll join by himself.  
 _Don't worry, the group is still a 100% yours, as he'll just be quietly helping you in the background._
 
 As explained earlier, Justin is in charge of freeCodeCamp's local groups and you can always private-message him if you have further questions or need help with something group-related.
 
-13 . And finally, join our [Local Leaders Facebook group](https://www.facebook.com/groups/freecodecampers/), where we share ideas about involving campers in your city.  
+13 . And finally, join our <a href='https://www.facebook.com/groups/freecodecampers/' target='_blank' rel='nofollow'>Local Leaders Facebook group</a>, where we share ideas about involving campers in your city.  
 
 **Additional tips:**
 
-*   Read [this article](https://medium.freecodecamp.com/jump-start-your-local-campsite-with-coffee-and-code-a8d1a57d30e#) and see if you can set up your groups's first Coffee and Code session.
-*   Some [ideas on getting more people](https://medium.freecodecamp.com/growth-hacking-your-free-code-camp-group-8cf76300a5d1#) involved with your group.
+*   Read <a href='https://medium.freecodecamp.com/jump-start-your-local-campsite-with-coffee-and-code-a8d1a57d30e#' target='_blank' rel='nofollow'>this article</a> and see if you can set up your groups's first Coffee and Code session.
+*   Some <a href='https://medium.freecodecamp.com/growth-hacking-your-free-code-camp-group-8cf76300a5d1#' target='_blank' rel='nofollow'>ideas on getting more people</a> involved with your group.

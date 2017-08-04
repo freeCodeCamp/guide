@@ -30,4 +30,4 @@ title: Writing Good Git Commit Messages
 
 **Remember:** _Use of the imperative is important only in the subject line. You can relax this restriction when you're writing the body._
 
-**Reference:** [http://chris.beams.io/posts/git-commit](http://chris.beams.io/posts/git-commit)
+**Reference:** <a href='http://chris.beams.io/posts/git-commit' target='_blank' rel='nofollow'>http://chris.beams.io/posts/git-commit</a>

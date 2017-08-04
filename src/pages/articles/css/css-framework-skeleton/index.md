@@ -28,10 +28,10 @@ Here is a simple HTML template which includes the latest compiled and minified C
 
  <kbd>[![](//discourse-user-assets.s3.amazonaws.com/original/2X/3/31bd555700f1ee85bb4ddcacf595f0dfd8a16254.png) **JSBin Demo**](http://jsbin.com/sekojaxali/edit?html,output)</kbd> 
 
-We have used a CDN in this example, but you can checkout other ways of installing Skeleton [here](https://github.com/dhg/Skeleton#getting-started).
+We have used a CDN in this example, but you can checkout other ways of installing Skeleton <a href='https://github.com/dhg/Skeleton#getting-started' target='_blank' rel='nofollow'>here</a>.
 
 ## Learning Resources
 
-*   ![:point_right:](//forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=2 ":point_right:") [**`Official Documentation`**](http://getskeleton.com/#grid) of Skeleton.
-*   Checkout Skeleton's open source GitHub repository [here](https://github.com/dhg/Skeleton).
-*   [Here](http://getskeleton.com/#examples) are some examples of how Skeleton was used on different websites.
+*   ![:point_right:](//forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=2 ":point_right:") <a href='http://getskeleton.com/#grid' target='_blank' rel='nofollow'>**`Official Documentation`**</a> of Skeleton.
+*   Checkout Skeleton's open source GitHub repository <a href='https://github.com/dhg/Skeleton' target='_blank' rel='nofollow'>here</a>.
+*   <a href='http://getskeleton.com/#examples' target='_blank' rel='nofollow'>Here</a> are some examples of how Skeleton was used on different websites.

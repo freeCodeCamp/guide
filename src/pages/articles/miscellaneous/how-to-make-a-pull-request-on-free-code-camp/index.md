@@ -9,7 +9,7 @@ A pull request (PR) is a method of submitting proposed changes to the Free Code 
 
 ## Need Help?
 
-Free Code Camp Issue Mods and staff are on hand to assist with Pull Request related issues on our [Help Contributors Chat Room](https://gitter.im/FreeCodeCamp/HelpContributors)
+Free Code Camp Issue Mods and staff are on hand to assist with Pull Request related issues on our <a href='https://gitter.im/FreeCodeCamp/HelpContributors' target='_blank' rel='nofollow'>Help Contributors Chat Room</a>
 
 ## Methods
 
@@ -24,7 +24,7 @@ Take away only one thing from this document, it should be this: Never, EVER make
 
 ## Editing via your Local Fork (Recommended)
 
-This is the recommended method. Read about [How to Setup and Maintain a Local Instance of Free Code Camp](http://forum.freecodecamp.com/t/how-to-fork-and-maintain-a-local-instance-of-free-code-camp/19116).
+This is the recommended method. Read about <a href='http://forum.freecodecamp.com/t/how-to-fork-and-maintain-a-local-instance-of-free-code-camp/19116' target='_blank' rel='nofollow'>How to Setup and Maintain a Local Instance of Free Code Camp</a>.
 
 1.  Perform the maintenance step of rebasing `staging`
 2.  Ensure you are on the `staging` branch using `git status`:
@@ -38,12 +38,12 @@ nothing to commit, working directory clean
 `
 
 1.  If you are not on staging or your working directory is not clean, resolve any outstanding files/commits and checkout staging `git checkout staging`
-2.  Create a branch off of `staging` with git: `git checkout -B branch/name-here` Note: Branch naming is important. Use a name like `fix/short-fix-description` or `feature/short-feature-description` Review the [Contribution Guidelines](https://github.com/FreeCodeCamp/FreeCodeCamp/blob/staging/CONTRIBUTING.md) for more detail.
+2.  Create a branch off of `staging` with git: `git checkout -B branch/name-here` Note: Branch naming is important. Use a name like `fix/short-fix-description` or `feature/short-feature-description` Review the <a href='https://github.com/FreeCodeCamp/FreeCodeCamp/blob/staging/CONTRIBUTING.md' target='_blank' rel='nofollow'>Contribution Guidelines</a> for more detail.
 3.  Edit your file(s) locally with the editor of your choice
 4.  Check your `git status` to see unstaged files.
 5.  Add your edited files: `git add path/to/filename.ext` You can also do: `git add .` to add all unstaged files. Take care, though, because you can accidentially add files you don't want added. Review your `git status` first.
 6.  Commit your edits: `git commit -m "Brief Description of Commit"`
-7.  [Squash your commits](http://forum.freecodecamp.com/t/how-to-squash-multiple-commits-into-one-with-git/13231), if there are more than one.
+7.  <a href='http://forum.freecodecamp.com/t/how-to-squash-multiple-commits-into-one-with-git/13231' target='_blank' rel='nofollow'>Squash your commits</a>, if there are more than one.
 8.  Push your commits to your GitHub Fork: `git push -u origin branch/name-here`
 9.  Go to <a>Common Steps</a>
 
@@ -52,7 +52,7 @@ nothing to commit, working directory clean
 **Note:** Editing via the GitHub Interface is not recommended, since it is not possible to update your fork via GitHub's interface without deleting and recreating your fork.
 
 1.  Create a Fork of the FCC Repo
-2.  [Create a branch](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/) within your fork. Note: Branch naming is important. Use a name like `fix/short-fix-description` or `feature/short-feature-description` Review the [Contribution Guidelines](https://github.com/FreeCodeCamp/FreeCodeCamp/blob/staging/CONTRIBUTING.md) for more detail.
+2.  <a href='https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/' target='_blank' rel='nofollow'>Create a branch</a> within your fork. Note: Branch naming is important. Use a name like `fix/short-fix-description` or `feature/short-feature-description` Review the <a href='https://github.com/FreeCodeCamp/FreeCodeCamp/blob/staging/CONTRIBUTING.md' target='_blank' rel='nofollow'>Contribution Guidelines</a> for more detail.
 3.  Edit the file and commit the changes.
 4.  Continue to Common Steps.
 
@@ -63,7 +63,7 @@ nothing to commit, working directory clean
 3.  Make a clear title for your PR which succinctly indicates what is being fixed. Do not add the issue number in the title. Examples: `Add Test Cases to Algorithm Drop It` `Correct typo in Challenge Size Your Images`
 4.  In the body of your PR include a more detailed summary of the changes you made and why.
 5.  Indicate if you have tested on a local copy of the site or not.
-6.  If your PR is due to an issue, you can [reference and close that issue](https://help.github.com/articles/closing-issues-via-commit-messages/) automatically by adding a keyword like `Closes #xxxx`, where `xxxx` is the issue number.
+6.  If your PR is due to an issue, you can <a href='https://help.github.com/articles/closing-issues-via-commit-messages/' target='_blank' rel='nofollow'>reference and close that issue</a> automatically by adding a keyword like `Closes #xxxx`, where `xxxx` is the issue number.
 
 ## Next Steps
 

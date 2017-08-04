@@ -1,5 +1,5 @@
 ---
-title: Free Code Camp javaScript Style Guide
+title: Free Code Camp JavaScript Style Guide
 ---
 <small>or How Cool People Write JavaScript.</small>
 
@@ -70,7 +70,7 @@ Bad:
 
 ## Else
 
-Avoid else and "end early". In JavaScript there is often a lot of indenting (usually when dealing with async code and named "callback hell"). Anything you can do reduce the number of indents should be done. One thing is to [avoid the else](http://blog.timoxley.com/post/47041269194/avoid-else-return-early) keyword.
+Avoid else and "end early". In JavaScript there is often a lot of indenting (usually when dealing with async code and named "callback hell"). Anything you can do reduce the number of indents should be done. One thing is to <a href='http://blog.timoxley.com/post/47041269194/avoid-else-return-early' target='_blank' rel='nofollow'>avoid the else</a> keyword.
 
 This also has the side effect of making code cleaner and easier to read.
 

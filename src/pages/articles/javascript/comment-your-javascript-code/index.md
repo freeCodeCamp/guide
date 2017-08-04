@@ -1,5 +1,5 @@
 ---
-title: Comment Your javaScript Code
+title: Comment Your JavaScript Code
 ---
 Comments are a great way to leave notes to yourself and to other people who will later need to figure out what it does. Any code in it will be ignored.
 

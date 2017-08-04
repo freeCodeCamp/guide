@@ -1,9 +1,9 @@
 ---
 title: Python Sequence Types
 ---
-These represent finite ordered sets indexed by non-negative numbers. The built-in function `len()` returns the number of items of a sequence. When the length of a sequence is `n`, the index set contains the numbers `0, 1, ..., n-1`. Item `i` of sequence a is selected by `a[i]`.
+These represent finite ordered sets indexed by non-negative numbers. The built-in function `len()` returns the number of items of a sequence. When the length of a sequence is `n`, the index set contains the numbers `0, 1, ..., n-1`. Item `i` of sequence a is selected by `a<a href='https://docs.python.org/3/reference/datamodel.html#the-standard-type-hierarchy' target='_blank' rel='nofollow'>i]`.
 
-[Python Docs - Standard Type Hierarchy](https://docs.python.org/3/reference/datamodel.html#the-standard-type-hierarchy)
+[Python Docs - Standard Type Hierarchy</a>
 
 ## More
 
@@ -16,7 +16,7 @@ These represent finite ordered sets indexed by non-negative numbers. The built-i
 
 *   Operations:
 
-    *   [Common Sequence Operations](https://docs.python.org/3/library/stdtypes.html#common-sequence-operations)
+    *   <a href='https://docs.python.org/3/library/stdtypes.html#common-sequence-operations' target='_blank' rel='nofollow'>Common Sequence Operations</a>
 
-    *   [Mutable Sequence Types](https://docs.python.org/3/library/stdtypes.html#mutable-sequence-types)
-    *   [Immutable Sequence Types](https://docs.python.org/3/library/stdtypes.html#immutable-sequence-types)
+    *   <a href='https://docs.python.org/3/library/stdtypes.html#mutable-sequence-types' target='_blank' rel='nofollow'>Mutable Sequence Types</a>
+    *   <a href='https://docs.python.org/3/library/stdtypes.html#immutable-sequence-types' target='_blank' rel='nofollow'>Immutable Sequence Types</a>

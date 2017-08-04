@@ -28,8 +28,8 @@ If **prop** does not correspond to any valid properties then return `No such pro
 
 #### Relevant Links
 
-*   [Challenge: Accessing Objects Properties with Bracket Notation](http://www.freecodecamp.com/challenges/accessing-objects-properties-with-bracket-notation)
-*   [Challenge: Iterate with JavaScript For Loops](http://www.freecodecamp.com/challenges/iterate-with-javascript-for-loops)
+*   <a href='http://www.freecodecamp.com/challenges/accessing-objects-properties-with-bracket-notation' target='_blank' rel='nofollow'>Challenge: Accessing Objects Properties with Bracket Notation</a>
+*   <a href='http://www.freecodecamp.com/challenges/iterate-with-javascript-for-loops' target='_blank' rel='nofollow'>Challenge: Iterate with JavaScript For Loops</a>
 
 ## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 1
 
@@ -58,7 +58,7 @@ Leave your `return "No such contact"` out of the `for` loop as a final catch-all
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
 
     for (var x = 0; x < contacts.length; x++){
-        if (contacts[x].firstName === firstName) {
+        if (contacts<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/clipboard.png?v=3 ":clipboard:"' target='_blank' rel='nofollow'>x].firstName === firstName) {
             if (contacts[x].hasOwnProperty(prop)) {
                 return contacts[x][prop];
             } else {
@@ -84,7 +84,7 @@ Leave your `return "No such contact"` out of the `for` loop as a final catch-all
 *   `"likes"` is found within the first object, so the second `if` statement returns true.
 *   The value of `"likes"` is returned - `"Pizza", "Coding", "Brownie Points"`.
 
-## ![:clipboard:](https://forum.freecodecamp.com/images/emoji/emoji_one/clipboard.png?v=3 ":clipboard:") NOTES FOR CONTRIBUTIONS:
+## ![:clipboard:</a> NOTES FOR CONTRIBUTIONS:
 
 *   ![:warning:](https://forum.freecodecamp.com/images/emoji/emoji_one/warning.png?v=3 ":warning:") **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
 *   Add an explanation of your solution.

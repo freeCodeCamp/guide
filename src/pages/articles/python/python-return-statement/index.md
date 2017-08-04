@@ -1,7 +1,7 @@
 ---
 title: Python Return Statement
 ---
-[Python Docs](https://docs.python.org/3/reference/simple_stmts.html#the-return-statement)
+<a href='https://docs.python.org/3/reference/simple_stmts.html#the-return-statement' target='_blank' rel='nofollow'>Python Docs</a>
 
 All functions return a value when called.
 

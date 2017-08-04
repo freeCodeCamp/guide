@@ -1,9 +1,9 @@
 ---
-title: javaScript for Loop
+title: JavaScript for Loop
 ---
 ### Syntax
 
-> for ([initialization]; [condition]; [final-expression]) statement
+> for (<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for' target='_blank' rel='nofollow'>initialization]; [condition]; [final-expression]) statement
 
 The javascript `for` statement consists of three expressions and a statement:
 
@@ -55,4 +55,4 @@ There are to ways to fix this code. Set the condition to either `i < arr.length`
     7
     8
 
-links: [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
+links: [MDN</a>

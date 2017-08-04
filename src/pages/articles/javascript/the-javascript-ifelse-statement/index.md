@@ -1,5 +1,5 @@
 ---
-title: The javaScript Ifelse Statement
+title: The JavaScript Ifelse Statement
 ---
 ## Introduction
 
@@ -26,7 +26,7 @@ Multiple `if...else` statements can be nested to create an `else if` clause.
 
 _**Note:**_ If you want to execute more than one statement in the `if`, `else` or `else if` part, braces are required around the statements.
 
-[MDN link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else) | [MSDN link](https://msdn.microsoft.com/en-us/library/85yyde5c.aspx)
+<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else' target='_blank' rel='nofollow'>MDN link</a> | <a href='https://msdn.microsoft.com/en-us/library/85yyde5c.aspx' target='_blank' rel='nofollow'>MSDN link</a>
 
 ## Examples
 

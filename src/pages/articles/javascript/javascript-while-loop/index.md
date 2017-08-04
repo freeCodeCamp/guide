@@ -1,5 +1,5 @@
 ---
-title: javaScript While Loop
+title: JavaScript While Loop
 ---
 The while loop starts by evaluating the condition. If the condition is true, the statement(s) is/are executed. If the condition is false, the statement(s) is/are not executed. After that, while loop ends.
 
@@ -39,4 +39,4 @@ _condition:_ Here, condition is a Boolean expression which is evaluated before e
         8
         9
 
-source:[While Loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while)
+source:<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while' target='_blank' rel='nofollow'>While Loop</a>

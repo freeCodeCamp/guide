@@ -13,10 +13,10 @@ Check two arrays and return a new array that contains only the items that are no
 
 #### Relevant Links
 
-*   [for Loop (Devdocs)](https://devdocs.io/javascript/statements/for)
-*   [Array.prototype.includes (Devdocs)](https://devdocs.io/javascript/global_objects/array/includes)
-*   [Array.prototype.filter (Devdocs)](https://devdocs.io/javascript/global_objects/array/filter)
-*   [Array.prototype.concat (Devdocs)](https://devdocs.io/javascript/global_objects/array/concat)
+*   <a href='https://devdocs.io/javascript/statements/for' target='_blank' rel='nofollow'>for Loop (Devdocs)</a>
+*   <a href='https://devdocs.io/javascript/global_objects/array/includes' target='_blank' rel='nofollow'>Array.prototype.includes (Devdocs)</a>
+*   <a href='https://devdocs.io/javascript/global_objects/array/filter' target='_blank' rel='nofollow'>Array.prototype.filter (Devdocs)</a>
+*   <a href='https://devdocs.io/javascript/global_objects/array/concat' target='_blank' rel='nofollow'>Array.prototype.concat (Devdocs)</a>
 
 ## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 1
 
@@ -73,7 +73,7 @@ Read the comments in the code.
 
 #### Relevant Links
 
-*   [for Loop (Devdocs)](https://devdocs.io/javascript/statements/for)
+*   <a href='https://devdocs.io/javascript/statements/for' target='_blank' rel='nofollow'>for Loop (Devdocs)</a>
 
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution (Declarative Solution):
 
@@ -95,9 +95,9 @@ Explain solution here and add any relevant links
 
 #### Relevant Links
 
-*   [Array.prototype.concat (Devdocs)](https://devdocs.io/javascript/global_objects/array/concat)
-*   [Array.prototype.filter (Devdocs)](https://devdocs.io/javascript/global_objects/array/filter)
-*   [Array.prototype.includes (Devdocs)](https://devdocs.io/javascript/global_objects/array/includes)
+*   <a href='https://devdocs.io/javascript/global_objects/array/concat' target='_blank' rel='nofollow'>Array.prototype.concat (Devdocs)</a>
+*   <a href='https://devdocs.io/javascript/global_objects/array/filter' target='_blank' rel='nofollow'>Array.prototype.filter (Devdocs)</a>
+*   <a href='https://devdocs.io/javascript/global_objects/array/includes' target='_blank' rel='nofollow'>Array.prototype.includes (Devdocs)</a>
 
 ## ![:rotating_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:") Advanced Code Solution (Declarative Solution):
 
@@ -119,9 +119,9 @@ Explain solution here and add any relevant links
 
 #### Relevant Links
 
-*   [Array.prototype.includes (Devdocs)](https://devdocs.io/javascript/global_objects/array/includes)
-*   [Array.prototype.filter (Devdocs)](https://devdocs.io/javascript/global_objects/array/filter)
-*   [Array.prototype.concat (Devdocs)](https://devdocs.io/javascript/global_objects/array/concat)
+*   <a href='https://devdocs.io/javascript/global_objects/array/includes' target='_blank' rel='nofollow'>Array.prototype.includes (Devdocs)</a>
+*   <a href='https://devdocs.io/javascript/global_objects/array/filter' target='_blank' rel='nofollow'>Array.prototype.filter (Devdocs)</a>
+*   <a href='https://devdocs.io/javascript/global_objects/array/concat' target='_blank' rel='nofollow'>Array.prototype.concat (Devdocs)</a>
 
 ## ![:clipboard:](https://forum.freecodecamp.com/images/emoji/emoji_one/clipboard.png?v=3 ":clipboard:") NOTES FOR CONTRIBUTIONS:
 
@@ -130,4 +130,4 @@ Explain solution here and add any relevant links
 *   Categorize the solution in one of the following categories -- **Basic**, **Intermediate** and **Advanced**. ![:traffic_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/traffic_light.png?v=3 ":traffic_light:")
 *   Please add your username only if you have added any **relevant main contents**. (![:warning:](https://forum.freecodecamp.com/images/emoji/emoji_one/warning.png?v=3 ":warning:") **_DO NOT_** _remove any existing usernames_)
 
-> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") [**`Wiki Challenge Solution Template`**](http://forum.freecodecamp.com/t/algorithm-article-template/14272) for reference.
+> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") <a href='http://forum.freecodecamp.com/t/algorithm-article-template/14272' target='_blank' rel='nofollow'>**`Wiki Challenge Solution Template`**</a> for reference.

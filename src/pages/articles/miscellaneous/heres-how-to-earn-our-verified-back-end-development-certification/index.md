@@ -6,4 +6,4 @@ title: Heres How to Earn Our Verified Back End Development Certification
 1.  API Projects
 2.  Dynamic Web Application Projects
 
-Once you've completed all of the above, you can complete our ["Claim your Back End Development Certification"](http://www.freecodecamp.com/challenges/claim-your-back-end-development-certificate) challenge, which will require you to sign our Academic Honesty Pledge. Then we will instantly issue your verified certification, which will become accessible from your portfolio page.
+Once you've completed all of the above, you can complete our <a href='http://www.freecodecamp.com/challenges/claim-your-back-end-development-certificate' target='_blank' rel='nofollow'>"Claim your Back End Development Certification"</a> challenge, which will require you to sign our Academic Honesty Pledge. Then we will instantly issue your verified certification, which will become accessible from your portfolio page.

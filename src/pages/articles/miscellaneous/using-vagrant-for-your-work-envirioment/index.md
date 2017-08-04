@@ -9,9 +9,9 @@ This will create a working environment so you can test your web site on your loc
 
 Check out the following links and install each program. Be sure that it matches your OS (Operating System).
 
-*   [Virtual Box](https://www.virtualbox.org/)
-*   [Vagrant](https://www.vagrantup.com/downloads.html)
-*   [Git Bash, Gui, and Command](https://git-scm.com/downloads)
+*   <a href='https://www.virtualbox.org/' target='_blank' rel='nofollow'>Virtual Box</a>
+*   <a href='https://www.vagrantup.com/downloads.html' target='_blank' rel='nofollow'>Vagrant</a>
+*   <a href='https://git-scm.com/downloads' target='_blank' rel='nofollow'>Git Bash, Gui, and Command</a>
 
 Now that we have the necessary programs installed, let's get down to business.
 

@@ -53,9 +53,9 @@ title: The C Programming Language
 
 ## Setup
 
-[LinqPad](http://www.linqpad.net/) is an .NET scratchpad to quickly test your C# code snippets.The standard edition is free and a perfect tool for beginners to execute language statements, expressions and programs.
+<a href='http://www.linqpad.net/' target='_blank' rel='nofollow'>LinqPad</a> is an .NET scratchpad to quickly test your C# code snippets.The standard edition is free and a perfect tool for beginners to execute language statements, expressions and programs.
 
-Alternatively, you could also download [Visual Studio Community 2015](https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx) which is an extensible [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) used by most professionals for creating enterprise applications.
+Alternatively, you could also download <a href='https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx' target='_blank' rel='nofollow'>Visual Studio Community 2015</a> which is an extensible <a href='https://en.wikipedia.org/wiki/Integrated_development_environment' target='_blank' rel='nofollow'>IDE</a> used by most professionals for creating enterprise applications.
 
 ## Your First C# Program
 
@@ -84,11 +84,11 @@ Alternatively, you could also download [Visual Studio Community 2015](https://ww
       }
     }
 
-Every C# console application must have a [Main method](https://msdn.microsoft.com/en-gb/library/acy3edy3.aspx) which is the entry point of the program.
+Every C# console application must have a <a href='https://msdn.microsoft.com/en-gb/library/acy3edy3.aspx' target='_blank' rel='nofollow'>Main method</a> which is the entry point of the program.
 
-Edit [HelloWorld](https://dotnetfiddle.net/kY7QRm) in .NET Fiddle, a tool inspired by [JSFiddle](http://jsfiddle.net) where you can alter the code snippets and check the output for yourself. Note, this is just to share and test the code snippets, not to be used for developing applications.
+Edit <a href='https://dotnetfiddle.net/kY7QRm' target='_blank' rel='nofollow'>HelloWorld</a> in .NET Fiddle, a tool inspired by <a href='http://jsfiddle.net' target='_blank' rel='nofollow'>JSFiddle</a> where you can alter the code snippets and check the output for yourself. Note, this is just to share and test the code snippets, not to be used for developing applications.
 
-If you are using visual Studio, follow this [tutorial](https://msdn.microsoft.com/en-us/library/k1sx6ed2.aspx) to create console application and understand your first C# program.
+If you are using visual Studio, follow this <a href='https://msdn.microsoft.com/en-us/library/k1sx6ed2.aspx' target='_blank' rel='nofollow'>tutorial</a> to create console application and understand your first C# program.
 
 ## Types and Variables
 
@@ -99,7 +99,7 @@ C# is a strongly typed language. Every variable has a type. Every expression or 
 
 **Value Types** : Variables that are value types directly contain values. Assigning one value type variable to another copies the contained value.
 
-[Edit in .NET Fiddle](https://dotnetfiddle.net/JCkTxb)
+<a href='https://dotnetfiddle.net/JCkTxb' target='_blank' rel='nofollow'>Edit in .NET Fiddle</a>
 
     int a = 10;
     int b = 20;
@@ -107,7 +107,7 @@ C# is a strongly typed language. Every variable has a type. Every expression or 
     Console.WriteLine(a); //prints 20
     Console.WriteLine(b); //prints 20
 
-Note that in other dynamic languages this could be different, but in C# this is always a value copy. When value type is created, a single space most likely in [stack](http://gribblelab.org/CBootcamp/7_Memory_Stack_vs_Heap.html#orgheadline2) is created, which is a "LIFO" (last in, first out) data structure. The stack has size limits and memory operations are efficient. Few examples of built-in data types are `int, float, double, decimal, char and string`.
+Note that in other dynamic languages this could be different, but in C# this is always a value copy. When value type is created, a single space most likely in <a href='http://gribblelab.org/CBootcamp/7_Memory_Stack_vs_Heap.html#orgheadline2' target='_blank' rel='nofollow'>stack</a> is created, which is a "LIFO" (last in, first out) data structure. The stack has size limits and memory operations are efficient. Few examples of built-in data types are `int, float, double, decimal, char and string`.
 
 Type | Example | Description  
 --------- | ----------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------  
@@ -120,19 +120,19 @@ _Char_ | `char fooChar = 'Z';` | A single **16-bit Unicode character**
 _Boolean_ | `bool fooBoolean = false;` | Boolean - **true & false**  
 _String_ | `string fooString = "\"escape\" quotes and add \n (new lines) and \t (tabs);` | **A string of Unicode characters.**
 
-For complete list of all built-in data types see [here](https://msdn.microsoft.com/en-us/library/ms228360)
+For complete list of all built-in data types see <a href='https://msdn.microsoft.com/en-us/library/ms228360' target='_blank' rel='nofollow'>here</a>
 
-[**Reference types**](https://msdn.microsoft.com/en-us/library/490f96s2.aspx) : Variables of reference types store references to their objects, which means they store the address to the location of data on the [stack](http://gribblelab.org/CBootcamp/7_Memory_Stack_vs_Heap.html#orgheadline2), also known as pointers. Actual data is stored on the [heap](http://gribblelab.org/CBootcamp/7_Memory_Stack_vs_Heap.html#orgheadline3) memory. Assigning reference type to another doesn't copy the data, instead it creates the second copy of reference which points to the same location on the heap.
+<a href='https://msdn.microsoft.com/en-us/library/490f96s2.aspx' target='_blank' rel='nofollow'>**Reference types**</a> : Variables of reference types store references to their objects, which means they store the address to the location of data on the <a href='http://gribblelab.org/CBootcamp/7_Memory_Stack_vs_Heap.html#orgheadline2' target='_blank' rel='nofollow'>stack</a>, also known as pointers. Actual data is stored on the <a href='http://gribblelab.org/CBootcamp/7_Memory_Stack_vs_Heap.html#orgheadline3' target='_blank' rel='nofollow'>heap</a> memory. Assigning reference type to another doesn't copy the data, instead it creates the second copy of reference which points to the same location on the heap.
 
-In heap, objects are allocated and deallocated in random order that is why this requires the overhead of memory management and [garbage collection](https://msdn.microsoft.com/en-us/library/hh156531(v=vs.110).aspx).
+In heap, objects are allocated and deallocated in random order that is why this requires the overhead of memory management and <a href='https://msdn.microsoft.com/en-us/library/hh156531(v=vs.110' target='_blank' rel='nofollow'>garbage collection</a>.aspx).
 
-Unless you are writing [unsafe code](https://msdn.microsoft.com/en-us/library/t2yzs44b.aspx) or dealing with [unmanaged code](https://msdn.microsoft.com/en-us/library/sd10k43k(v=vs.100).aspx), you don't need to worry about the lifetime of your memory locations. .NET compiler and CLR will take care of this, but it's still good to keep this mind in order to optimize performance of your applications.
+Unless you are writing <a href='https://msdn.microsoft.com/en-us/library/t2yzs44b.aspx' target='_blank' rel='nofollow'>unsafe code</a> or dealing with <a href='https://msdn.microsoft.com/en-us/library/sd10k43k(v=vs.100' target='_blank' rel='nofollow'>unmanaged code</a>.aspx), you don't need to worry about the lifetime of your memory locations. .NET compiler and CLR will take care of this, but it's still good to keep this mind in order to optimize performance of your applications.
 
-More information [here](http://www.c-sharpcorner.com/UploadFile/rmcochran/csharp_memory01122006130034PM/csharp_memory.aspx?ArticleID=9adb0e3c-b3f6-40b5-98b5-413b6d348b91)
+More information <a href='http://www.c-sharpcorner.com/UploadFile/rmcochran/csharp_memory01122006130034PM/csharp_memory.aspx?ArticleID=9adb0e3c-b3f6-40b5-98b5-413b6d348b91' target='_blank' rel='nofollow'>here</a>
 
 ## Flow Control Statements
 
-*   [If else](https://msdn.microsoft.com/en-us/library/5011f09h.aspx) statement : [Edit in .NET Fiddle](https://dotnetfiddle.net/IFVB33)
+*   <a href='https://msdn.microsoft.com/en-us/library/5011f09h.aspx' target='_blank' rel='nofollow'>If else</a> statement : <a href='https://dotnetfiddle.net/IFVB33' target='_blank' rel='nofollow'>Edit in .NET Fiddle</a>
 
                 int myScore = 700;
                 if (myScore == 700)
@@ -154,7 +154,7 @@ More information [here](http://www.c-sharpcorner.com/UploadFile/rmcochran/csharp
                 int myNumber = 10;
                 string isTrue = myNumber == 10 ? "Yes" : "No";
 
-*   [Switch](https://msdn.microsoft.com/en-GB/library/06tc147t.aspx) statement : [Edit in .NET Fiddle](https://dotnetfiddle.net/lPZftO)
+*   <a href='https://msdn.microsoft.com/en-GB/library/06tc147t.aspx' target='_blank' rel='nofollow'>Switch</a> statement : <a href='https://dotnetfiddle.net/lPZftO' target='_blank' rel='nofollow'>Edit in .NET Fiddle</a>
 
     using System;
 
@@ -190,7 +190,7 @@ More information [here](http://www.c-sharpcorner.com/UploadFile/rmcochran/csharp
         }
     }
 
-*   [For](https://msdn.microsoft.com/en-us/library/ch45axte.aspx) & [Foreach](https://msdn.microsoft.com/en-gb/library/ttw7t8t6.aspx) : [Edit in .NET Fiddle](https://dotnetfiddle.net/edxtvq)
+*   <a href='https://msdn.microsoft.com/en-us/library/ch45axte.aspx' target='_blank' rel='nofollow'>For</a> & <a href='https://msdn.microsoft.com/en-gb/library/ttw7t8t6.aspx' target='_blank' rel='nofollow'>Foreach</a> : <a href='https://dotnetfiddle.net/edxtvq' target='_blank' rel='nofollow'>Edit in .NET Fiddle</a>
 
     for (int i = 0; i < 10; i++)
     {
@@ -217,7 +217,7 @@ More information [here](http://www.c-sharpcorner.com/UploadFile/rmcochran/csharp
     //        
     }
 
-*   [While](https://msdn.microsoft.com/en-us/library/2aeyhxcd.aspx) & [do-while](https://msdn.microsoft.com/en-us/library/370s1zax.aspx) : [Edit in .NET Fiddle](https://dotnetfiddle.net/O5hOF1)
+*   <a href='https://msdn.microsoft.com/en-us/library/2aeyhxcd.aspx' target='_blank' rel='nofollow'>While</a> & <a href='https://msdn.microsoft.com/en-us/library/370s1zax.aspx' target='_blank' rel='nofollow'>do-while</a> : <a href='https://dotnetfiddle.net/O5hOF1' target='_blank' rel='nofollow'>Edit in .NET Fiddle</a>
 
     // Continue the while-loop until index is equal to 10.
         int i = 0;

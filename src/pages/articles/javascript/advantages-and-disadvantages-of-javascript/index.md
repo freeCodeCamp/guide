@@ -1,5 +1,5 @@
 ---
-title: Advantages and Disadvantages of javaScript
+title: Advantages and Disadvantages of JavaScript
 ---
 Like all computer languages, JavaScript has certain advantages and disadvantages. Many of the pros and cons are related to being a client-side language.
 
@@ -7,7 +7,7 @@ Like all computer languages, JavaScript has certain advantages and disadvantages
 
 *   **Speed**. Being client-side, JavaScript is very fast because any code functions can be run immediately instead of having to contact the server and wait for an answer.
 *   **Simplicity**. JavaScript is relatively simple to learn and implement.
-*   **Versatility**. JavaScript plays nicely with other languages and can be used in a huge variety of applications. Unlike PHP or [SSI](https://en.wikipedia.org/wiki/Server_Side_Includes) scripts, JavaScript can be inserted into any web page regardless of the file extension. JavaScript can also be used inside scripts written in other languages such as Perl and PHP.
+*   **Versatility**. JavaScript plays nicely with other languages and can be used in a huge variety of applications. Unlike PHP or <a href='https://en.wikipedia.org/wiki/Server_Side_Includes' target='_blank' rel='nofollow'>SSI</a> scripts, JavaScript can be inserted into any web page regardless of the file extension. JavaScript can also be used inside scripts written in other languages such as Perl and PHP.
 *   **Server Load**. Being client-side reduces the demand on the website server.
 
 ## Disadvantages of JavaScript

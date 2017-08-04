@@ -34,4 +34,4 @@ When this happens, you must delete the value in `localStorage` storing that resp
     *   When located, mouse over it and click the `x` at right. ![Click the x for deleting the value entry.](//discourse-user-assets.s3.amazonaws.com/original/2X/a/a309e8ec8d92301f3507001ca3a796009d0a00d8.png)
     *   Once removed, check if the problem was solved. Refresh or close and open the browser if necessary.
 
-**Note:** This can also be done with the [Storage Inspector](https://developer.mozilla.org/en-US/docs/Tools/Storage_Inspector), but seems like Firefox hangs out when there are so many values.
+**Note:** This can also be done with the <a href='https://developer.mozilla.org/en-US/docs/Tools/Storage_Inspector' target='_blank' rel='nofollow'>Storage Inspector</a>, but seems like Firefox hangs out when there are so many values.

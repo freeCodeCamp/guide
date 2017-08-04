@@ -3,13 +3,13 @@ title: Freecodecamp Algorithm Merge Sort Guide
 ---
 Most modern languages have an inbuilt sort() function which automatically sorts an input array or list. Did you ever wonder how the sort function actually works on the inside?. Knowing common sorting algorithms and their implementations is the most important part of a coding interview. In this series of articles, we will look at several important sorting algorithms. How they are implemented, the time and space complexity etc. Our very first post is on Merge Sort.
 
-To learn about Merge Sort, a basic knowledge about [Recursion](http://programmers.stackexchange.com/questions/25052/in-plain-english-what-is-recursion) is a pre-requisite. Merge Sort is based on the principle of Divide and Conquer. The whole process of sorting an array of N integers can be summarized into three steps-
+To learn about Merge Sort, a basic knowledge about <a href='http://programmers.stackexchange.com/questions/25052/in-plain-english-what-is-recursion' target='_blank' rel='nofollow'>Recursion</a> is a pre-requisite. Merge Sort is based on the principle of Divide and Conquer. The whole process of sorting an array of N integers can be summarized into three steps-
 
 *   Divide the array into two halves.
 *   Sort the left half and the right half using the same recurring algorithm.
 *   Merge the sorted halves.
 
-The biggest advantage of using Merge sort is that the [time complexity](https://www.youtube.com/watch?v=V42FBiohc6c&list=PL2_aWCzGMAwI9HK8YPVBjElbLbI3ufctn) is only n*log(n) to sort an entire Array. It is a lot better than n^2 running time of bubble sort or insertion sort.  
+The biggest advantage of using Merge sort is that the <a href='https://www.youtube.com/watch?v=V42FBiohc6c&list=PL2_aWCzGMAwI9HK8YPVBjElbLbI3ufctn' target='_blank' rel='nofollow'>time complexity</a> is only n*log(n) to sort an entire Array. It is a lot better than n^2 running time of bubble sort or insertion sort.  
 Before we write code, let us understand how merge sort works with the help of a diagram.
 
 <div class="lightbox-wrapper">[![Merge Sort](//discourse-user-assets.s3.amazonaws.com/optimized/2X/4/4712ef1a5d856dbb4af393fcc08a820a38787395_1_487x499.png)
@@ -26,7 +26,7 @@ Before we write code, let us understand how merge sort works with the help of a 
 
 ### C++ Implementation
 
-    void merge(int array[], int left, int mid, int right)
+    void merge(int array<a href='https://repl.it/CYVc/1' target='_blank' rel='nofollow'>], int left, int mid, int right)
     {
         int i, j, k;
 
@@ -102,7 +102,7 @@ Before we write code, let us understand how merge sort works with the help of a 
     }
     }
 
-:rocket: [Run Code](https://repl.it/CYVc/1) ### Javascript Implementation Let's write MergeSort in JavaScript:  
+:rocket: [Run Code</a> ### Javascript Implementation Let's write MergeSort in JavaScript:  
 
     function mergeSort (arr) {
       if (arr.length < 2) return arr;
@@ -115,19 +115,19 @@ Before we write code, let us understand how merge sort works with the help of a 
 First we check the length of the array. If it is 1 then we simply return the array. This would be our base case. Else, we will find out the middle value and divide the array into two halves. We will now sort both of the halves with recursive calls to MergeSort function.  
 
     function merge (a,b) {
-        var result = [];
+        var result = <a href='https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/js-Array-prototype-shift' target='_blank' rel='nofollow'>];
         while (a.length >0 && b.length >0)
             result.push(a[0] < b[0]? a.shift() : b.shift());
         return result.concat(a.length? a : b);
     }
 
-When we merge the two halfs, we store the result in an auxilliary array. We will compare the starting element of left array to the starting element of right array. Whichever is lesser will be pushed into the results array and we will remove it from there respective arrays using [shift() operator](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/js-Array-prototype-shift). If we still end up with values in either of left or right array, we would simply concatenate it in the end of the result. Here is the sorted result:  
+When we merge the two halfs, we store the result in an auxilliary array. We will compare the starting element of left array to the starting element of right array. Whichever is lesser will be pushed into the results array and we will remove it from there respective arrays using [shift() operator</a>. If we still end up with values in either of left or right array, we would simply concatenate it in the end of the result. Here is the sorted result:  
 
-    var test = [5,6,7,3,1,3,15];
+    var test = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>5,6,7,3,1,3,15];
     console.log(mergeSort(test));
 
     >> [1, 3, 3, 5, 6, 7, 15]
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CYVd)
+![:rocket:</a> <a href='https://repl.it/CYVd' target='_blank' rel='nofollow'>Run Code</a>
 
-If you still have problem in understanding MergeSort, a [video explanation](https://www.youtube.com/watch?v=TzeBrDU-JaY) will make it even more clear.
+If you still have problem in understanding MergeSort, a <a href='https://www.youtube.com/watch?v=TzeBrDU-JaY' target='_blank' rel='nofollow'>video explanation</a> will make it even more clear.

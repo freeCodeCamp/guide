@@ -7,36 +7,36 @@ Java is trademarked and licensed by Oracle. Most of the following are un-officia
 
 ## Tutorials
 
-*   [Oracle Official Java Tutorials](http://docs.oracle.com/javase/tutorial/index.html)
-*   [Thinking in Java](http://www.mindview.net/Books/TIJ/)
-*   [Think Java](http://greenteapress.com/wp/think-java/)
-*   [Effective Java by Joshua Bloch](https://github.com/HackathonHackers/programming-ebooks/blob/master/Java/Effective%20Java%20(2nd%20Edition).pdf)
-*   [Jenkov's Java Tutorials](http://tutorials.jenkov.com/java/index.html)
-*   [Mkyong's Java & Spring Tutorials](http://www.mkyong.com/)
-*   [Vogella's Java Tutorials](http://www.vogella.com/tutorials/java.html)
-*   [Java 8 Tutorial](https://github.com/winterbe/java8-tutorial)
-*   [Better Java](https://github.com/cxxr/better-java)
-*   [Java Programming notes by NTU](http://www3.ntu.edu.sg/home/ehchua/programming/index.html#Java)
-*   [Princeton's Introduction to Programming in Java](http://introcs.cs.princeton.edu/java/home/)
-*   [Introduction to Programming Using Java](http://math.hws.edu/javanotes/)
-*   [Java Practices](http://javapractices.com/home/HomeAction.do)
-*   [Java Design Patterns](https://github.com/iluwatar/java-design-patterns/)
-*   [Algorithms in Java](https://github.com/pedrovgs/Algorithms)
-*   [Spring Official Guides](https://spring.io/guides)
+*   <a href='http://docs.oracle.com/javase/tutorial/index.html' target='_blank' rel='nofollow'>Oracle Official Java Tutorials</a>
+*   <a href='http://www.mindview.net/Books/TIJ/' target='_blank' rel='nofollow'>Thinking in Java</a>
+*   <a href='http://greenteapress.com/wp/think-java/' target='_blank' rel='nofollow'>Think Java</a>
+*   <a href='https://github.com/HackathonHackers/programming-ebooks/blob/master/Java/Effective%20Java%20(2nd%20Edition' target='_blank' rel='nofollow'>Effective Java by Joshua Bloch</a>.pdf)
+*   <a href='http://tutorials.jenkov.com/java/index.html' target='_blank' rel='nofollow'>Jenkov's Java Tutorials</a>
+*   <a href='http://www.mkyong.com/' target='_blank' rel='nofollow'>Mkyong's Java & Spring Tutorials</a>
+*   <a href='http://www.vogella.com/tutorials/java.html' target='_blank' rel='nofollow'>Vogella's Java Tutorials</a>
+*   <a href='https://github.com/winterbe/java8-tutorial' target='_blank' rel='nofollow'>Java 8 Tutorial</a>
+*   <a href='https://github.com/cxxr/better-java' target='_blank' rel='nofollow'>Better Java</a>
+*   <a href='http://www3.ntu.edu.sg/home/ehchua/programming/index.html#Java' target='_blank' rel='nofollow'>Java Programming notes by NTU</a>
+*   <a href='http://introcs.cs.princeton.edu/java/home/' target='_blank' rel='nofollow'>Princeton's Introduction to Programming in Java</a>
+*   <a href='http://math.hws.edu/javanotes/' target='_blank' rel='nofollow'>Introduction to Programming Using Java</a>
+*   <a href='http://javapractices.com/home/HomeAction.do' target='_blank' rel='nofollow'>Java Practices</a>
+*   <a href='https://github.com/iluwatar/java-design-patterns/' target='_blank' rel='nofollow'>Java Design Patterns</a>
+*   <a href='https://github.com/pedrovgs/Algorithms' target='_blank' rel='nofollow'>Algorithms in Java</a>
+*   <a href='https://spring.io/guides' target='_blank' rel='nofollow'>Spring Official Guides</a>
 
 ## Challenges
 
-*   [Java Koans](https://github.com/matyb/java-koans)
-*   [Coding Bat Java Challenges](http://codingbat.com/java)
-*   [Excercism Java Challenges](http://exercism.io/languages/java)
-*   [Project Euler](https://projecteuler.net/)
-*   [Practice It! - Java Challenges](http://practiceit.cs.washington.edu/)
+*   <a href='https://github.com/matyb/java-koans' target='_blank' rel='nofollow'>Java Koans</a>
+*   <a href='http://codingbat.com/java' target='_blank' rel='nofollow'>Coding Bat Java Challenges</a>
+*   <a href='http://exercism.io/languages/java' target='_blank' rel='nofollow'>Excercism Java Challenges</a>
+*   <a href='https://projecteuler.net/' target='_blank' rel='nofollow'>Project Euler</a>
+*   <a href='http://practiceit.cs.washington.edu/' target='_blank' rel='nofollow'>Practice It! - Java Challenges</a>
 
 ## Community
 
-*   [Oracle Java Community](http://www.oracle.com/technetwork/java/community/index.html)
-*   [Awesome Java](https://github.com/akullpp/awesome-java)
-*   [/r/Java](https://www.reddit.com/r/Java)
-*   [/r/LearnJava](https://www.reddit.com/r/learnjava)
-*   [Java Ranch](http://www.javaranch.com/)
-*   [Java Code Geeks](https://www.javacodegeeks.com/)
+*   <a href='http://www.oracle.com/technetwork/java/community/index.html' target='_blank' rel='nofollow'>Oracle Java Community</a>
+*   <a href='https://github.com/akullpp/awesome-java' target='_blank' rel='nofollow'>Awesome Java</a>
+*   <a href='https://www.reddit.com/r/Java' target='_blank' rel='nofollow'>/r/Java</a>
+*   <a href='https://www.reddit.com/r/learnjava' target='_blank' rel='nofollow'>/r/LearnJava</a>
+*   <a href='http://www.javaranch.com/' target='_blank' rel='nofollow'>Java Ranch</a>
+*   <a href='https://www.javacodegeeks.com/' target='_blank' rel='nofollow'>Java Code Geeks</a>

@@ -31,10 +31,10 @@ You will write a card counting function. It will receive a **card** parameter an
 
 #### Relevant Links
 
-*   [Card counting](https://en.wikipedia.org/wiki/Card_counting)
-*   [Challenge: Selecting from many options with Switch Statements](http://www.freecodecamp.com/challenges/selecting-from-many-options-with-switch-statements)
-*   [Challenge: Chaining If Else Statements](http://www.freecodecamp.com/challenges/chaining-if-else-statements)
-*   [Challenge: Increment a Number with Javascript](http://www.freecodecamp.com/challenges/increment-a-number-with-javascript)
+*   <a href='https://en.wikipedia.org/wiki/Card_counting' target='_blank' rel='nofollow'>Card counting</a>
+*   <a href='http://www.freecodecamp.com/challenges/selecting-from-many-options-with-switch-statements' target='_blank' rel='nofollow'>Challenge: Selecting from many options with Switch Statements</a>
+*   <a href='http://www.freecodecamp.com/challenges/chaining-if-else-statements' target='_blank' rel='nofollow'>Challenge: Chaining If Else Statements</a>
+*   <a href='http://www.freecodecamp.com/challenges/increment-a-number-with-javascript' target='_blank' rel='nofollow'>Challenge: Increment a Number with Javascript</a>
 
 ## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 1
 

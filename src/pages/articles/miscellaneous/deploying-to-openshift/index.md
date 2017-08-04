@@ -5,11 +5,11 @@ If you deploy your applications to Heroku you can only upload 5 applications, if
 
 ![Heroku Error](//discourse-user-assets.s3.amazonaws.com/original/2X/2/27219029fea50142009b1521d5268c06ded15b57.jpg)
 
-These are the steps you need to follow to deploy to [OpenShift](https://www.openshift.com/app/account/new).
+These are the steps you need to follow to deploy to <a href='https://www.openshift.com/app/account/new' target='_blank' rel='nofollow'>OpenShift</a>.
 
 ## Requirements
 
-*   An account in [OpenShift](https://www.openshift.com/app/account/new)
+*   An account in <a href='https://www.openshift.com/app/account/new' target='_blank' rel='nofollow'>OpenShift</a>
 *   Our app in a [Git](//forum.freecodecamp.com/t/wiki-git-resources/13136) Repository
 
 ## Changes in your code
@@ -19,7 +19,7 @@ These are the steps you need to follow to deploy to [OpenShift](https://www.open
 
 ## Deploying our app
 
-*   [Add a new application](https://openshift.redhat.com/app/console/application_types)
+*   <a href='https://openshift.redhat.com/app/console/application_types' target='_blank' rel='nofollow'>Add a new application</a>
 
 ![Choose a web programming cartridge](//discourse-user-assets.s3.amazonaws.com/original/2X/e/e07c056ab351ee6bd728b8d5f648b3fac9c6bf86.jpg)
 
@@ -57,15 +57,15 @@ These are the steps you need to follow to deploy to [OpenShift](https://www.open
 
 In my case I have my database in mLab, so I need to create some enviroment variables.
 
-*   [Install Ruby and rhc.](https://developers.openshift.com/getting-started/windows.html#client-tools)
+*   <a href='https://developers.openshift.com/getting-started/windows.html#client-tools' target='_blank' rel='nofollow'>Install Ruby and rhc.</a>
 
 **rhc** only works with versions 1.9.3 and 2.0.0 of Ruby.
 
-*   [Setting up Your Machine](https://developers.openshift.com/getting-started/windows.html#rhc-setup)
+*   <a href='https://developers.openshift.com/getting-started/windows.html#rhc-setup' target='_blank' rel='nofollow'>Setting up Your Machine</a>
 
-If you are having trouble with setting up `rhc`, try [this](http://stackoverflow.com/questions/28896733/rhc-setup-gives-error-no-such-file-dl-import) answer on StackOverflow.
+If you are having trouble with setting up `rhc`, try <a href='http://stackoverflow.com/questions/28896733/rhc-setup-gives-error-no-such-file-dl-import' target='_blank' rel='nofollow'>this</a> answer on StackOverflow.
 
-*   [Custom Environment Variables](https://developers.openshift.com/managing-your-applications/environment-variables.html#custom-variables)
+*   <a href='https://developers.openshift.com/managing-your-applications/environment-variables.html#custom-variables' target='_blank' rel='nofollow'>Custom Environment Variables</a>
 
 `rhc env set VARIABLE=value VARIABLE2=value2 -a App_Name`.
 
@@ -73,4 +73,4 @@ You need to restart your app to load the variables.
 
 If you find a better way to solve this limitation. Feel free to contribute to our <a>Wiki</a> and share it with us.
 
-You can check the app working at [http://voting-pitazo.rhcloud.com/#/polls](http://voting-pitazo.rhcloud.com/#/polls)
+You can check the app working at <a href='http://voting-pitazo.rhcloud.com/#/polls' target='_blank' rel='nofollow'>http://voting-pitazo.rhcloud.com/#/polls</a>

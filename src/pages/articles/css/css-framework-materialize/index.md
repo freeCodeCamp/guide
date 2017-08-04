@@ -3,7 +3,7 @@ title: CSS Framework Materialize
 ---
 # CSS Framework Materialize
 
-Materialize is a Responsive CSS framework based on Google's [Material Design](https://design.google.com/spec/) Language.
+Materialize is a Responsive CSS framework based on Google's <a href='https://design.google.com/spec/' target='_blank' rel='nofollow'>Material Design</a> Language.
 
 ## Getting Started
 
@@ -26,10 +26,10 @@ Here is a simple HTML template which includes the latest compiled and minified C
       </body>
     </html>
 
-We have used a CDN in this example, but you can checkout other ways of installing Materialize [here](http://materializecss.com/getting-started).
+We have used a CDN in this example, but you can checkout other ways of installing Materialize <a href='http://materializecss.com/getting-started' target='_blank' rel='nofollow'>here</a>.
 
 ## Learning Resources
 
-*   The official documentation for Materialize is available [here](https://materializecss.com/).
-*   Checkout Materialize's open source GitHub repository [here](https://github.com/Dogfalo/materialize).
-*   [Here](https://scotch.io/tutorials/make-material-design-websites-with-the-materialize-css-framework) is a handy tutorial on using Materialize.
+*   The official documentation for Materialize is available <a href='https://materializecss.com/' target='_blank' rel='nofollow'>here</a>.
+*   Checkout Materialize's open source GitHub repository <a href='https://github.com/Dogfalo/materialize' target='_blank' rel='nofollow'>here</a>.
+*   <a href='https://scotch.io/tutorials/make-material-design-websites-with-the-materialize-css-framework' target='_blank' rel='nofollow'>Here</a> is a handy tutorial on using Materialize.

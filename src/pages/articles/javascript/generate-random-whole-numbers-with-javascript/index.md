@@ -1,5 +1,5 @@
 ---
-title: Generate Random Whole Numbers with javaScript
+title: Generate Random Whole Numbers with JavaScript
 ---
 It's great that we can create random decimal numbers, but it's even more useful if we lot more useful to generate a random whole number.
 

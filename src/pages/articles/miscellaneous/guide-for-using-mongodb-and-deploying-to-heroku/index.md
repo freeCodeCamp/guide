@@ -1,11 +1,11 @@
 ---
 title: Guide for Using MongoDB and Deploying to Heroku
 ---
-In this guide let's see how to work with MongoDB locally and with `mLab` for deploying it to Heroku. Alternatively you can also use `mLab` add-on in Heroku , It is free but it may require your credit card details. So, if you are not intrested in providing your credit card details you can go with [mLab](https://mlab.com) website.
+In this guide let's see how to work with MongoDB locally and with `mLab` for deploying it to Heroku. Alternatively you can also use `mLab` add-on in Heroku , It is free but it may require your credit card details. So, if you are not intrested in providing your credit card details you can go with <a href='https://mlab.com' target='_blank' rel='nofollow'>mLab</a> website.
 
 ## Setting up a free account on Heroku and `mLab`:
 
-Sign up for [Heroku](https://signup.heroku.com/) and [mLab](https://mlab.com/signup/)
+Sign up for <a href='https://signup.heroku.com/' target='_blank' rel='nofollow'>Heroku</a> and <a href='https://mlab.com/signup/' target='_blank' rel='nofollow'>mLab</a>
 
 ## Starting your Mongodb(Locally):
 
@@ -18,7 +18,7 @@ Now your Db is running at-
 
 `mongodb://localhost:27017/my_database_name`
 
-If you are using c9 and If you are having trouble starting your DB in C9 refer to this [page](https://community.c9.io/t/setting-up-mongodb/1717)
+If you are using c9 and If you are having trouble starting your DB in C9 refer to this <a href='https://community.c9.io/t/setting-up-mongodb/1717' target='_blank' rel='nofollow'>page</a>
 
 ## Starting your Mongodb(`mLab`):
 
@@ -32,7 +32,7 @@ Now your DB is running at url something like this -
 
 where username and password are the details that you've given when you added a user.
 
-You can find your DB url at [https://mlab.com/databases/your_database_name](https://mlab.com/databases/your_database_name)
+You can find your DB url at <a href='https://mlab.com/databases/your_database_name' target='_blank' rel='nofollow'>https://mlab.com/databases/your_database_name</a>
 
 ## Making a Connection with MongoDB in Node.js (While DB is running on your Local System):
 
@@ -68,7 +68,7 @@ Basic Code for connecting to MongoDB
       }
     });
 
-For more examples to work with MongoDB you can refer this [blog](http://blog.modulus.io/mongodb-tutorial)
+For more examples to work with MongoDB you can refer this <a href='http://blog.modulus.io/mongodb-tutorial' target='_blank' rel='nofollow'>blog</a>
 
 We need to know where our mongodb server is running. The url represents the location where the mongodb server instance is running such that we can connect to it. The url contains the database name to which we intend to connect.
 
@@ -102,7 +102,7 @@ After setting the Environment variables you need to call the Environment Variabl
 
 Now your MongoDb url is inserted into your code safely. You can now commit it and deploy it to your heroku.
 
-If you need more help how to deploy into Heroku you can refer this [Wiki](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Heroku-Deployment-Guide)
+If you need more help how to deploy into Heroku you can refer this <a href='https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Heroku-Deployment-Guide' target='_blank' rel='nofollow'>Wiki</a>
 
 ## Final Steps:
 

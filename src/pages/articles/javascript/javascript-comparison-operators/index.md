@@ -1,5 +1,5 @@
 ---
-title: javaScript Comparison Operators
+title: JavaScript Comparison Operators
 ---
 JavaScript has both **strict** and **type–converting** comparisons.
 
@@ -139,4 +139,4 @@ The less than or equal operator returns true if the left operand is less than or
 
     3 <= 4 // true
 
-_You can find more information at [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators)._
+_You can find more information at <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators' target='_blank' rel='nofollow'>MDN</a>._

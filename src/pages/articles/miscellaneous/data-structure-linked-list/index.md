@@ -326,7 +326,7 @@ Traversal
     std::cout << "Deleted succesfully" << std::endl;
     }
 
-:rocket: [Run Code](https://repl.it/CXVt/1) ### Python Implementation of Singly Linked List  
+:rocket: <a href='https://repl.it/CXVt/1' target='_blank' rel='nofollow'>Run Code</a> ### Python Implementation of Singly Linked List  
 
     class Node(object):
         # Constructor
@@ -408,7 +408,7 @@ Traversal
             previous.set_next(current.get_next())
             print("Node with data " + str(data) + " is deleted successfully")
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [Run Code](https://repl.it/CVq3/2)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CVq3/2' target='_blank' rel='nofollow'>Run Code</a>
 
 **Advantages**
 

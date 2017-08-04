@@ -7,12 +7,12 @@ title: Everything Be True
 
 ### ![:checkered_flag:](https://forum.freecodecamp.com/images/emoji/emoji_one/checkered_flag.png?v=3 ":checkered_flag:") Problem Explanation:
 
-The program needs to check if the second argument is a [truthy](http://forum.freecodecamp.com/t/javascript-truthy-value/15975) element, and it must check this for each object in the first argument.
+The program needs to check if the second argument is a <a href='http://forum.freecodecamp.com/t/javascript-truthy-value/15975' target='_blank' rel='nofollow'>truthy</a> element, and it must check this for each object in the first argument.
 
 #### Relevant Links
 
-*   [JavaScript Truthy](http://forum.freecodecamp.com/t/javascript-truthy-value/15975)
-*   [JavaScript Arguments](http://forum.freecodecamp.com/t/javascript-arguments/14283.md)
+*   <a href='http://forum.freecodecamp.com/t/javascript-truthy-value/15975' target='_blank' rel='nofollow'>JavaScript Truthy</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-arguments/14283.md' target='_blank' rel='nofollow'>JavaScript Arguments</a>
 
 ## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 1
 
@@ -48,7 +48,7 @@ You could use loops or callbacks functions, there are multiple ways to solve thi
       // Check for each object
       for (var c in collection) {
         // If it is has property and value is truthy
-        if (collection[c].hasOwnProperty(pre) && Boolean(collection[c][pre])) {
+        if (collection<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>c].hasOwnProperty(pre) && Boolean(collection[c][pre])) {
           counter++;
         }
       }
@@ -59,7 +59,7 @@ You could use loops or callbacks functions, there are multiple ways to solve thi
     // test here
     truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "male"}, {"user": "Laa-Laa", "sex": "female"}, {"user": "Po", "sex": "female"}], "sex");
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLnw/0)
+![:rocket:</a> <a href='https://repl.it/CLnw/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -69,8 +69,8 @@ You could use loops or callbacks functions, there are multiple ways to solve thi
 
 #### Relevant Links
 
-*   [JS Loops](http://forum.freecodecamp.com/t/javascript-loops/14681)
-*   [Object.prototype.hasOwnProperty()](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty)
+*   <a href='http://forum.freecodecamp.com/t/javascript-loops/14681' target='_blank' rel='nofollow'>JS Loops</a>
+*   <a href='https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty' target='_blank' rel='nofollow'>Object.prototype.hasOwnProperty()</a>
 
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution:
 
@@ -78,35 +78,35 @@ You could use loops or callbacks functions, there are multiple ways to solve thi
 
     function truthCheck(collection, pre) {
       return collection.every(function (element) {
-        return element.hasOwnProperty(pre) && Boolean(element[pre]);
+        return element.hasOwnProperty(pre) && Boolean(element<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>pre]);
       });
     }
 
     // test here
     truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "male"}, {"user": "Laa-Laa", "sex": "female"}, {"user": "Po", "sex": "female"}], "sex");
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLny/0)
+![:rocket:</a> <a href='https://repl.it/CLny/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
 *   Uses the native "every" method to test whether all elements in the array pass the test.
-*   This link will help [Array.prototype.every()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every)
+*   This link will help <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every' target='_blank' rel='nofollow'>Array.prototype.every()</a>
 
 #### Relevant Links
 
-*   [JS Array.prototype.every()](http://forum.freecodecamp.com/t/javascript-array-prototype-every/14287)
-*   [MDN Array.prototype.every()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every)
+*   <a href='http://forum.freecodecamp.com/t/javascript-array-prototype-every/14287' target='_blank' rel='nofollow'>JS Array.prototype.every()</a>
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every' target='_blank' rel='nofollow'>MDN Array.prototype.every()</a>
 
 ## ![:rotating_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:") Advanced Code Solution:
 
     function truthCheck(collection, pre) {
       // Is everyone being true?
-      return collection.every(obj => obj[pre]);
+      return collection.every(obj => obj<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>pre]);
     }
 
     truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "male"}, {"user": "Laa-Laa", "sex": "female"}, {"user": "Po", "sex": "female"}], "sex");
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/E2u6/0)
+![:rocket:</a> <a href='https://repl.it/E2u6/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -116,7 +116,7 @@ You could use loops or callbacks functions, there are multiple ways to solve thi
 
 #### Relevant Links
 
-*   [`Array#every`](http://devdocs.io/javascript/global_objects/array/every)
+*   <a href='http://devdocs.io/javascript/global_objects/array/every' target='_blank' rel='nofollow'>`Array#every`</a>
 
 ## ![:clipboard:](https://forum.freecodecamp.com/images/emoji/emoji_one/clipboard.png?v=3 ":clipboard:") NOTES FOR CONTRIBUTIONS:
 
@@ -125,4 +125,4 @@ You could use loops or callbacks functions, there are multiple ways to solve thi
 *   Categorize the solution in one of the following categories — **Basic**, **Intermediate** and **Advanced**. ![:traffic_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/traffic_light.png?v=3 ":traffic_light:")
 *   Please add your username only if you have added any **relevant main contents**. (![:warning:](https://forum.freecodecamp.com/images/emoji/emoji_one/warning.png?v=3 ":warning:") **_DO NOT_** _remove any existing usernames_)
 
-> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") [**`Wiki Challenge Solution Template`**](http://forum.freecodecamp.com/t/algorithm-article-template/14272) for reference.
+> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") <a href='http://forum.freecodecamp.com/t/algorithm-article-template/14272' target='_blank' rel='nofollow'>**`Wiki Challenge Solution Template`**</a> for reference.

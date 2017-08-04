@@ -1,5 +1,5 @@
 ---
-title: Scopes in javaScript
+title: Scopes in JavaScript
 ---
 If you've been programming in JavaScript for a while, you've undoubtedly run into a concept known as `scope`. What is `scope`? Why should you take the time to learn it?
 
@@ -84,4 +84,4 @@ Any RHS references inside `bar`'s local scope can be fullfilled by LHS reference
 
 # References
 
-1.  [Scopes and Closures](https://github.com/getify/You-Dont-Know-JS/tree/master/scope%20%26%20closures) by Kyle Simpson. It goes into more details of how the scope mechanism works, and also has a superficial description of how the JavaScript compiler works, so if you're interested in that, definitely give it a read! It's free on GitHub and can be bought from O'Reilly.
+1.  <a href='https://github.com/getify/You-Dont-Know-JS/tree/master/scope%20%26%20closures' target='_blank' rel='nofollow'>Scopes and Closures</a> by Kyle Simpson. It goes into more details of how the scope mechanism works, and also has a superficial description of how the JavaScript compiler works, so if you're interested in that, definitely give it a read! It's free on GitHub and can be bought from O'Reilly.

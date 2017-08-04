@@ -9,7 +9,7 @@ This problem seems simple but you need to make sure to flatten any array, regard
 
 #### Relevant Links
 
-*   [Array.isArray()](http://forum.freecodecamp.com/t/javascript-array-isarray/14284)
+*   <a href='http://forum.freecodecamp.com/t/javascript-array-isarray/14284' target='_blank' rel='nofollow'>Array.isArray()</a>
 
 ## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 1
 
@@ -19,11 +19,11 @@ You need to check if an element is an array or not.
 
 ## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 2
 
-If you are dealing with an array, then you need flatten it by getting the value inside of the array. This means if you have [[4]] then instead of returning [4] you need to return 4\. If you get [[[4]]] then the same, you want the 4\. You can access it with arr[index1][index2] to go a level deeper.
+If you are dealing with an array, then you need flatten it by getting the value inside of the array. This means if you have <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:"' target='_blank' rel='nofollow'>[4]] then instead of returning [4] you need to return 4\. If you get [[[4]]] then the same, you want the 4\. You can access it with arr[index1][index2] to go a level deeper.
 
 > _try to solve the problem now_
 
-## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 3
+## ![:speech_balloon:</a> Hint: 3
 
 You will definitely need recursion or another way to go beyond two level arrays to make the code flexible and not hard-coded to the answers needed. Have fun!
 
@@ -38,7 +38,7 @@ You will definitely need recursion or another way to go beyond two level arrays 
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
 
     function steamrollArray(arr) {
-      var flattenedArray = [];
+      var flattenedArray = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>];
 
       // Create function that adds an element if it is not an array.
       // If it is an array, then loops through it and uses recursion on that array.
@@ -60,7 +60,7 @@ You will definitely need recursion or another way to go beyond two level arrays 
     // test here
     steamrollArray([1, [2], [3, [[4]]]]);
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLnh/0)
+![:rocket:</a> <a href='https://repl.it/CLnh/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -72,19 +72,19 @@ You will definitely need recursion or another way to go beyond two level arrays 
 
 #### Relevant Links
 
-*   [Array.push()](http://forum.freecodecamp.com/t/javascript-array-prototype-push/14298)
-*   [Array.forEach()](http://forum.freecodecamp.com/t/javascript-array-prototype-foreach/14290)
+*   <a href='http://forum.freecodecamp.com/t/javascript-array-prototype-push/14298' target='_blank' rel='nofollow'>Array.push()</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-array-prototype-foreach/14290' target='_blank' rel='nofollow'>Array.forEach()</a>
 
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution:
 
     function steamrollArray(arr) {
-      let flat = [].concat(...arr);
+      let flat = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>].concat(...arr);
       return flat.some(Array.isArray) ? steamrollArray(flat) : flat;
     }
 
     flattenArray([1, [2], [3, [[4]]]]);
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLni/0)
+![:rocket:</a> <a href='https://repl.it/CLni/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -95,17 +95,17 @@ You will definitely need recursion or another way to go beyond two level arrays 
 
 #### Relevant Links
 
-*   [Array.some](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some)
-*   [Array.concat](http://forum.freecodecamp.com/t/javascript-array-prototype-concat/14286)
-*   [Spread operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator)
-*   [Ternary Operator (`condition ? a : b`)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some' target='_blank' rel='nofollow'>Array.some</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-array-prototype-concat/14286' target='_blank' rel='nofollow'>Array.concat</a>
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator' target='_blank' rel='nofollow'>Spread operator</a>
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator' target='_blank' rel='nofollow'>Ternary Operator (`condition ? a : b`)</a>
 
 ## ![:rotating_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:") Advanced Code Solution:
 
     function steamrollArray(arr) {
       return arr.toString()
         .replace(',,', ',')       // "1,2,,3" => "1,2,3"
-        .split(',')               // ['1','2','3']
+        .split(',')               // <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>'1','2','3']
         .map(function(v) {
           if (v == '[object Object]') { // bring back empty objects
             return {};
@@ -117,7 +117,7 @@ You will definitely need recursion or another way to go beyond two level arrays 
         });
     }
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CpDy/4)
+![:rocket:</a> <a href='https://repl.it/CpDy/4' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -131,4 +131,4 @@ You will definitely need recursion or another way to go beyond two level arrays 
 *   Add an explanation of your solution.
 *   Categorize the solution in one of the following categories — **Basic**, **Intermediate** and **Advanced**. ![:traffic_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/traffic_light.png?v=3 ":traffic_light:")
 
-> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") [**`Wiki Challenge Solution Template`**](http://forum.freecodecamp.com/t/algorithm-article-template/14272) for reference.
+> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") <a href='http://forum.freecodecamp.com/t/algorithm-article-template/14272' target='_blank' rel='nofollow'>**`Wiki Challenge Solution Template`**</a> for reference.

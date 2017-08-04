@@ -1,5 +1,5 @@
 ---
-title: The javaScript Continue Statement
+title: The JavaScript Continue Statement
 ---
 ## Introduction
 
@@ -15,7 +15,7 @@ In contrast to the **break** statement, **continue** does not terminate the exec
 - In a `while` loop, it jumps back to the condition.  
 - In a `for` loop, it jumps to the update expression.
 
-[MDN link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/continue) | [MSDN link](https://msdn.microsoft.com/en-us/library/8de3fkc8.aspx)
+<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/continue' target='_blank' rel='nofollow'>MDN link</a> | <a href='https://msdn.microsoft.com/en-us/library/8de3fkc8.aspx' target='_blank' rel='nofollow'>MSDN link</a>
 
 ## Examples
 
@@ -35,7 +35,7 @@ The following example shows a `while` loop that has a **continue** statement tha
       console.log (n);
     }
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [Run Code](https://repl.it/C7hx/0)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/C7hx/0' target='_blank' rel='nofollow'>Run Code</a>
 
 In the following example, a loop iterates from 1 through 9\. The statements between **continue** and the end of the `for` body are skipped because of the use of the **continue** statement together with the expression `(i < 5)`.
 
@@ -46,4 +46,4 @@ In the following example, a loop iterates from 1 through 9\. The statements betw
         console.log (i);
     }
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [Run Code](https://repl.it/C7hs/0)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/C7hs/0' target='_blank' rel='nofollow'>Run Code</a>

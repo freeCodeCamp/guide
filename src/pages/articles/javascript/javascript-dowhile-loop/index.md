@@ -1,7 +1,7 @@
 ---
-title: javaScript Dowhile Loop
+title: JavaScript Dowhile Loop
 ---
-The `do...while` loop is closely related to [`while`](http://forum.freecodecamp.com/t/javascript-while-loop/14668) loop. In the do while loop, the condition is checked at the end of the loop.
+The `do...while` loop is closely related to <a href='http://forum.freecodecamp.com/t/javascript-while-loop/14668' target='_blank' rel='nofollow'>`while`</a> loop. In the do while loop, the condition is checked at the end of the loop.
 
 Here is the **syntax** for `do...while` loop:
 
@@ -32,4 +32,4 @@ Here is the **syntax** for `do...while` loop:
     4
     5
 
-source: [**do...while**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/do...while)
+source: <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/do...while' target='_blank' rel='nofollow'>**do...while**</a>

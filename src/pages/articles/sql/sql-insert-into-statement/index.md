@@ -3,13 +3,35 @@ title: SQL Insert into Statement
 ---
 ## SQL Insert into Statement
 
-This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/sql/sql-insert-into-statement/index.md).
+To insert a record in a table you use the `INSERT INTO` statement. 
 
-[This quick style guide will help ensure your pull request gets accepted](https://github.com/freecodecamp/guides/blob/master/README.md).
+You can do it in two ways, if you want to insert values only in some columns, you have to list their names including all mandatory columns.  The syntax is:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```sql
+INSERT INTO table_name (column1, column2, column3, ...)
+VALUES (value1, value2, value3, ...);
+```
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+The other way is inserting values to all columns in the table, it is not necessary to specify the columns names. The syntax is:
+ 
+```sql
+INSERT INTO table_name 
+VALUES (value1, value2, value3, ...);
+```
+
+Here’s an example inserting a record in the table Person in both ways:
+```sql
+INSERT INTO Person
+VALUES (1, ‘John Lennon’, ‘1940-10-09’, ‘M’);
+```
+
+And
+
+```sql
+INSERT INTO Person(Id, Name, DateOfBirth, Gender)
+VALUES (1, ‘John Lennon’, ‘1940-10-09’, ‘M’);
+```
+
+
 
 

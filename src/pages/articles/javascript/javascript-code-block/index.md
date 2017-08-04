@@ -1,5 +1,5 @@
 ---
-title: javaScript Code Block
+title: JavaScript Code Block
 ---
 ## Introduction
 
@@ -14,7 +14,7 @@ A **block** statement in JavaScript is used to group zero or more statements. Th
       statement_n;
     }
 
-[MDN link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/block)
+<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/block' target='_blank' rel='nofollow'>MDN link</a>
 
 ## Examples
 

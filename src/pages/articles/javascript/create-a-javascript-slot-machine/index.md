@@ -1,5 +1,5 @@
 ---
-title: Create a javaScript Slot Machine
+title: Create a JavaScript Slot Machine
 ---
 For this we have to generate three random numbers using the formula they give us and not the general one. `Math.floor(Math.random() * (3 - 1 + 1)) + 1;`
 

@@ -7,7 +7,7 @@ title: Pairwise
 
 The program should look for pairs of numbers in the array whose sum equal the second argument **arg**. Then instead of adding those numbers up, their indices are to be added.
 
-Remember that arrays start at index 0 and go from there so from [1,4,2,3,0,5] if we switch to their indices it would be [0,1,2,3,4,5]. Then, we add indices 1 + 2 + 3 + 5 and we get 11\. That is what we need to return.
+Remember that arrays start at index 0 and go from there so from <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:"' target='_blank' rel='nofollow'>1,4,2,3,0,5] if we switch to their indices it would be [0,1,2,3,4,5]. Then, we add indices 1 + 2 + 3 + 5 and we get 11\. That is what we need to return.
 
 #### Relevant Links
 
@@ -15,13 +15,13 @@ Remember that arrays start at index 0 and go from there so from [1,4,2,3,0,5] if
 *   <a>JS Array Prototype Reduce</a>
 *   <a>JS Reduce Made Easy</a>
 
-## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 1
+## ![:speech_balloon:</a> Hint: 1
 
-Remember to return the smaller sum if multiple are possible. This means `([1,1,1], 1)` should use `0 + 1` instead of `0 + 1` & `1 + 1`.
+Remember to return the smaller sum if multiple are possible. This means `(<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:"' target='_blank' rel='nofollow'>1,1,1], 1)` should use `0 + 1` instead of `0 + 1` & `1 + 1`.
 
 > _try to solve the problem now_
 
-## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 2
+## ![:speech_balloon:</a> Hint: 2
 
 Try using an array of indices to track whether an index has been used or not.
 
@@ -51,7 +51,7 @@ It is easy to confuse indices as being numbers, but since you will be interactin
        //Looping from second element by setting first element  constant
        for(j = i + 1; j < pairArr.length; j++) {
          // Check whether the sum is equal to arg
-         if(pairArr[i] + pairArr[j] == arg) {
+         if(pairArr<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>i] + pairArr[j] == arg) {
            //Add the indices
            sum += i + j;
            //Set the indices to NaN so that they can't be used in next iteration
@@ -65,7 +65,7 @@ It is easy to confuse indices as being numbers, but since you will be interactin
     // test here
     pairwise([1,4,2,3,0,5], 7);
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLpD/0)
+![:rocket:</a> <a href='https://repl.it/CLpD/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -80,13 +80,13 @@ It is easy to confuse indices as being numbers, but since you will be interactin
 #### Relevant Links
 
 *   <a>String.length</a>
-*   [Global NaN property](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/NaN)
+*   <a href='https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/NaN' target='_blank' rel='nofollow'>Global NaN property</a>
 
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution:
 
     function pairwise(arr, arg) {
       // Create empty array to keep the arrays we will add.
-      var index = [];
+      var index = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>];
 
       // Loop to check the first number.
       for (var a in arr) {
@@ -125,7 +125,7 @@ It is easy to confuse indices as being numbers, but since you will be interactin
     // test here
     pairwise([1,4,2,3,0,5], 7);
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLpC/0)
+![:rocket:</a> <a href='https://repl.it/CLpC/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -167,9 +167,9 @@ It is easy to confuse indices as being numbers, but since you will be interactin
       },0);
     }
     // test here
-    pairwise([1,4,2,3,0,5], 7);
+    pairwise(<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>1,4,2,3,0,5], 7);
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") [Run Code](https://repl.it/CLpC/2)
+![:rocket:</a> <a href='https://repl.it/CLpC/2' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -180,8 +180,8 @@ This code takes advantage of the fact that the native Array.prototype.indexOf() 
 
 *   <a>JS Array Prototype Reduce</a>
 *   <a>JS Array Prototype IndexOf</a>
-*   [JS Array Prototype Splice](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
-*   [Global NaN property](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/NaN)
+*   <a href='https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/splice' target='_blank' rel='nofollow'>JS Array Prototype Splice</a>
+*   <a href='https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/NaN' target='_blank' rel='nofollow'>Global NaN property</a>
 *   <a>JS Reduce Made Easy</a>
 
 ## ![:clipboard:](https://forum.freecodecamp.com/images/emoji/emoji_one/clipboard.png?v=3 ":clipboard:") NOTES FOR CONTRIBUTIONS:
@@ -191,4 +191,4 @@ This code takes advantage of the fact that the native Array.prototype.indexOf() 
 *   Categorize the solution in one of the following categories — **Basic**, **Intermediate** and **Advanced**. ![:traffic_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/traffic_light.png?v=3 ":traffic_light:")
 *   Please add your username only if you have added any **relevant main contents**. (![:warning:](https://forum.freecodecamp.com/images/emoji/emoji_one/warning.png?v=3 ":warning:") **_DO NOT_** _remove any existing usernames_)
 
-> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") [**`Wiki Challenge Solution Template`**](http://forum.freecodecamp.com/t/algorithm-article-template/14272) for reference.
+> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") <a href='http://forum.freecodecamp.com/t/algorithm-article-template/14272' target='_blank' rel='nofollow'>**`Wiki Challenge Solution Template`**</a> for reference.

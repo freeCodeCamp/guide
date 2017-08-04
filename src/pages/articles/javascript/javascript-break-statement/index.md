@@ -1,5 +1,5 @@
 ---
-title: javaScript Break Statement
+title: JavaScript Break Statement
 ---
 ## Introduction
 
@@ -11,7 +11,7 @@ If the **break** statement is used in a labeled statement, the syntax is as foll
 
     break labelName;
 
-[MDN link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/break) | [MSDN link](https://msdn.microsoft.com/en-us/library/3fhdxafb.aspx)
+<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/break' target='_blank' rel='nofollow'>MDN link</a> | <a href='https://msdn.microsoft.com/en-us/library/3fhdxafb.aspx' target='_blank' rel='nofollow'>MSDN link</a>
 
 ## Examples
 
@@ -30,7 +30,7 @@ The following function has a **break** statement that terminates the `while` loo
       return i * x;
     }
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [Run Code](https://repl.it/C7VM/0)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/C7VM/0' target='_blank' rel='nofollow'>Run Code</a>
 
 In the following example, the counter is set up to count from 1 to 99; however, the **break** statement terminates the loop after 14 counts.
 
@@ -40,4 +40,4 @@ In the following example, the counter is set up to count from 1 to 99; however, 
       }
     }
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [Run Code](https://repl.it/C7VO/0)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/C7VO/0' target='_blank' rel='nofollow'>Run Code</a>

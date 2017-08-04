@@ -1,5 +1,5 @@
 ---
-title: Get Current Url in javaScript
+title: Get Current Url in JavaScript
 ---
 To get the **current URL**:
 
@@ -9,4 +9,4 @@ To get the **current path**:
 
     var path = window.location.path;
 
-More information about the location object and its properties can be found [here](https://developer.mozilla.org/en-US/docs/Web/API/Window/location).
+More information about the location object and its properties can be found <a href='https://developer.mozilla.org/en-US/docs/Web/API/Window/location' target='_blank' rel='nofollow'>here</a>.

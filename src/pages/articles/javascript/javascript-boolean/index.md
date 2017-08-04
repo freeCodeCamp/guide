@@ -1,5 +1,5 @@
 ---
-title: javaScript Boolean
+title: JavaScript Boolean
 ---
 The value passed as the first parameter is converted to a boolean value, if necessary. If value is omitted or is 0, -0, null, false, NaN, undefined, or the empty string (""), the object has an initial value of false. All other values, including any object or the string "false", create an object with an initial value of true.
 
@@ -35,4 +35,4 @@ If you specify any object, including a Boolean object whose value is false, as t
 
 Do not use a Boolean object in place of a Boolean primitive.
 
-[Orininal](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)
+<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean' target='_blank' rel='nofollow'>Orininal</a>

@@ -7,6 +7,6 @@ title: Free Code Camp Logo
 
 It uses the typeface 'saxmono'.
 
-Like most of Free Code Camp's design assets, it was created by [@rybar](https://gitter.im/rybar) with help from [@iheartkode](https://gitter.im/iheartkode).
+Like most of Free Code Camp's design assets, it was created by <a href='https://gitter.im/rybar' target='_blank' rel='nofollow'>@rybar</a> with help from <a href='https://gitter.im/iheartkode' target='_blank' rel='nofollow'>@iheartkode</a>.
 
-You can download all of our assets, which are Creative Commons licensed, from our [Free Code Camp Assets repository](https://github.com/FreeCodeCamp/FCCAssets).
+You can download all of our assets, which are Creative Commons licensed, from our <a href='https://github.com/FreeCodeCamp/FCCAssets' target='_blank' rel='nofollow'>Free Code Camp Assets repository</a>.

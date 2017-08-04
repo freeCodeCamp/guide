@@ -1,11 +1,11 @@
 ---
-title: javaScript Loops
+title: JavaScript Loops
 ---
 Javascript has a few different ways to control flow, otherwise known as loops
 
-*   [for](http://forum.freecodecamp.com/t/javascript-for-loop/14666)
-*   [while](http://forum.freecodecamp.com/t/javascript-while-loop/14668)
+*   <a href='http://forum.freecodecamp.com/t/javascript-for-loop/14666' target='_blank' rel='nofollow'>for</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-while-loop/14668' target='_blank' rel='nofollow'>while</a>
 
 You can type `js for` or `js while` to get more info on any of these.
 
-> Links: [MDN **for loop**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
+> Links: <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for' target='_blank' rel='nofollow'>MDN **for loop**</a>

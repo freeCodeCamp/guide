@@ -3,7 +3,7 @@ title: Use Github Static Pages to Host Your Front End Projects
 ---
 **Benefits**
 
-I love Codepen.io, it's a wonderful, easy-to-use tool for simple front-end experimentation. But as the fcc projects got more complex, I realized coding locally was going to save me a bunch of headaches. My text-editor and [codekit](https://incident57.com/codekit/) combo are just waaay faster.
+I love Codepen.io, it's a wonderful, easy-to-use tool for simple front-end experimentation. But as the fcc projects got more complex, I realized coding locally was going to save me a bunch of headaches. My text-editor and <a href='https://incident57.com/codekit/' target='_blank' rel='nofollow'>codekit</a> combo are just waaay faster.
 
 *   Autocomplete
 *   Compile everything (codepen was really dragging trying to compile Jade)
@@ -14,13 +14,13 @@ I love Codepen.io, it's a wonderful, easy-to-use tool for simple front-end exper
 
 ## Git to Github
 
-Since I'm already saving locally, and using git for version control, I figured might as well upload to Github. Plus, Github has a fantastic, free service for front-end projects called [Github Pages](https://pages.github.com/). Just update your repo and your changes are live.
+Since I'm already saving locally, and using git for version control, I figured might as well upload to Github. Plus, Github has a fantastic, free service for front-end projects called <a href='https://pages.github.com/' target='_blank' rel='nofollow'>Github Pages</a>. Just update your repo and your changes are live.
 
 How it works is simple. Github checks if your repository has a branch called `gh-pages` and serves any code that's sitting in that branch. No back-end stuff here, but HTML, CSS and JS work like a charm.
 
 ## First things first
 
-Let's make a new folder for your project. I'll use the [Camper News](http://www.freecodecamp.com/challenges/stylize-stories-on-camper-news) project as my example.
+Let's make a new folder for your project. I'll use the <a href='http://www.freecodecamp.com/challenges/stylize-stories-on-camper-news' target='_blank' rel='nofollow'>Camper News</a> project as my example.
 
 Got to your work directory and make a new one. You can do this in the terminal (or not).
 
@@ -28,7 +28,7 @@ Got to your work directory and make a new one. You can do this in the terminal (
 
 <div class="meta"><span class="filename">Fullscreen_10_29_15__12_06_PM.png</span><span class="informations">1366x768 174 KB</span><span class="expand"></span></div>](//discourse-user-assets.s3.amazonaws.com/original/2X/2/2e3faaa2752657c592a9991ceed29a0200f332e6.png "Fullscreen_10_29_15__12_06_PM.png") </div>
 
-Now, go into the project directory, and (for sure in the terminal this time) use the command `git init`. Note, this tutorial assumes [you have git installed](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+Now, go into the project directory, and (for sure in the terminal this time) use the command `git init`. Note, this tutorial assumes <a href='https://git-scm.com/book/en/v2/Getting-Started-Installing-Git' target='_blank' rel='nofollow'>you have git installed</a>.
 
 Alright, awesome. Now we're ready to work.
 
@@ -83,7 +83,7 @@ Push you project to github. Again, simple:
 
 `git push origin gh-pages`
 
-That command will make sure your latest commits get uploaded to github. Once you've done this at least once, your project should be available <a>http://_username_.github.io/_repository_</a>, so for me it's [http://gkobilansky.github.io/campNews](http://gkobilansky.github.io/campNews).
+That command will make sure your latest commits get uploaded to github. Once you've done this at least once, your project should be available <a>http://_username_.github.io/_repository_</a>, so for me it's <a href='http://gkobilansky.github.io/campNews' target='_blank' rel='nofollow'>http://gkobilansky.github.io/campNews</a>.
 
 Once this is all done, the process just repeats itself:
 
@@ -95,4 +95,4 @@ Granted, steeper learning curve than codepen.io, but faster and more flexible on
 
 Happy coding!
 
-PS. Thanks to [this guide](http://rogerdudler.github.io/git-guide/) by Roger Dudler for keeping things simple.
+PS. Thanks to <a href='http://rogerdudler.github.io/git-guide/' target='_blank' rel='nofollow'>this guide</a> by Roger Dudler for keeping things simple.

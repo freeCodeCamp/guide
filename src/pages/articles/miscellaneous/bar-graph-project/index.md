@@ -39,11 +39,11 @@ With Interactive combination of bar chart and pie chart, where bar chart shows n
 
 ### Step by Step instructions:
 
-[**D3 Introduction:**](https://d3js.org) where you can learn about Selections , Dynamic properties and Transitions in D3.js.
+<a href='https://d3js.org' target='_blank' rel='nofollow'>**D3 Introduction:**</a> where you can learn about Selections , Dynamic properties and Transitions in D3.js.
 
 *   In the main javascript function, write a function to handle Histogram (Bar chart) - Histogram will show the total number of students who has taken the quiz (interacted with that topic) for 15 topics.
-    *   (Here"s the [**Tutorial**](https://bost.ocks.org/mike/bar/) where you can learn how to make a bar chart using the D3 JavaScript library. The first tutorial teaches how to make a bare-bones version in HTML, then a more complete chart in Scalable Vector Graphics (SVG), and lastly animated transitions between views.)
-*   [Create SVG for histogram](http://codepen.io/SundeepB/pen/CxveH)
+    *   (Here"s the <a href='https://bost.ocks.org/mike/bar/' target='_blank' rel='nofollow'>**Tutorial**</a> where you can learn how to make a bar chart using the D3 JavaScript library. The first tutorial teaches how to make a bare-bones version in HTML, then a more complete chart in Scalable Vector Graphics (SVG), and lastly animated transitions between views.)
+*   <a href='http://codepen.io/SundeepB/pen/CxveH' target='_blank' rel='nofollow'>Create SVG for histogram</a>
 
 *   Create function for x-axis mapping and add x-axis to histogram SVG
 
@@ -55,7 +55,7 @@ With Interactive combination of bar chart and pie chart, where bar chart shows n
 
 *   Write a function to handle pieChart. – pie chart will have three slices – Low , Mid and High to represent scores.
 
-    *   [**Tutorial**](http://zeroviscosity.com/d3-js-step-by-step/step-1-a-basic-pie-chart) where you can learn how to make a pie chart, then transitions between views and how to create a legend.
+    *   <a href='http://zeroviscosity.com/d3-js-step-by-step/step-1-a-basic-pie-chart' target='_blank' rel='nofollow'>**Tutorial**</a> where you can learn how to make a pie chart, then transitions between views and how to create a legend.
 *   Create svg for pie chart.
 
 *   Create function to draw the arcs of the pie slices - pie slices will be Low , Mid and high
@@ -88,4 +88,4 @@ With Interactive combination of bar chart and pie chart, where bar chart shows n
 
 ![screen shot 2016-05-17 at 5 13 26 pm](//discourse-user-assets.s3.amazonaws.com/original/2X/7/7bd7c613bdb882f2b7c1f76f9778a1bda3e886dd.png)
 
-References : [1] Examples from [https://d3js.org](https://d3js.org) [2] D3.js Introduction - [https://www.dashingd3js.com/why-build-with-d3js](https://www.dashingd3js.com/why-build-with-d3js)
+References : <a href='https://d3js.org' target='_blank' rel='nofollow'>1] Examples from [https://d3js.org</a> <a href='https://www.dashingd3js.com/why-build-with-d3js' target='_blank' rel='nofollow'>2] D3.js Introduction - [https://www.dashingd3js.com/why-build-with-d3js</a>

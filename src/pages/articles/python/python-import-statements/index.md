@@ -19,7 +19,7 @@ Example: You can read about the methods/functions of all the standard libraries 
         time.sleep(1)   # Waits for 1 second and then executes the next command
         print(str(i) + ' seconds have passed')  # prints the number of seconds passed after the program was started
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [Run Code](https://repl.it/CS6C)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CS6C' target='_blank' rel='nofollow'>Run Code</a>
 
     # To calculate the execution time of a part of program
     import time
@@ -28,24 +28,24 @@ Example: You can read about the methods/functions of all the standard libraries 
     end = time.time()
     print('Execution time:' , end-start)
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [Run Code](https://repl.it/CS6C/1)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CS6C/1' target='_blank' rel='nofollow'>Run Code</a>
 
     # Using math Module
     import math
     print(math.sqrt(100))   # prints 10
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [Run Code](https://repl.it/CS6C/2)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CS6C/2' target='_blank' rel='nofollow'>Run Code</a>
 
 ## Using third party Modules
 
-Third party modules don't come bundled with python , but we have to install it externally using package managers like [`pip`](https://bootstrap.pypa.io/get-pip.py) and [`easy install`](https://bootstrap.pypa.io/ez_setup.py)
+Third party modules don't come bundled with python , but we have to install it externally using package managers like <a href='https://bootstrap.pypa.io/get-pip.py' target='_blank' rel='nofollow'>`pip`</a> and <a href='https://bootstrap.pypa.io/ez_setup.py' target='_blank' rel='nofollow'>`easy install`</a>
 
     # To make http requests
     import requests
     rq = requests.get(target_url)
     print(rq.status_code)
 
-Find out more about python-requests module [here](http://docs.python-requests.org/en/master/)
+Find out more about python-requests module <a href='http://docs.python-requests.org/en/master/' target='_blank' rel='nofollow'>here</a>
 
 ## To structure programs
 

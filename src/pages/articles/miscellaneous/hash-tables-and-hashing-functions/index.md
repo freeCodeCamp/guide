@@ -80,7 +80,7 @@ Position | Linked List Heads |
 1 | |  
 2 | |  
 3 | |  
-4 | [Cuba-Havana] |  
+4 | <a href='https://en.wikipedia.org/wiki/Linear_probing' target='_blank' rel='nofollow'>Cuba-Havana] |  
 5 | [Spain-Madrid] -> [India-Delhi] |  
 6 | [France-Paris] |  
 7 | [England-London] |  
@@ -98,9 +98,9 @@ Open addressing does not introduce any new data structure. If a collision occurs
 
 Methods for Open Addressing
 
-*   [Linear Probing](https://en.wikipedia.org/wiki/Linear_probing)
-*   [Quadratic Probing](https://en.wikipedia.org/wiki/Quadratic_probing)
-*   [Double Hashing](https://en.wikipedia.org/wiki/Double_hashing)
+*   [Linear Probing</a>
+*   <a href='https://en.wikipedia.org/wiki/Quadratic_probing' target='_blank' rel='nofollow'>Quadratic Probing</a>
+*   <a href='https://en.wikipedia.org/wiki/Double_hashing' target='_blank' rel='nofollow'>Double Hashing</a>
 
 ## How to use hashing in your code.
 
@@ -125,7 +125,7 @@ Methods for Open Addressing
         keys = my_hash_table.keys()
         values = my_hash_table.values()
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [Run Code](https://repl.it/CVtK)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CVtK' target='_blank' rel='nofollow'>Run Code</a>
 
 #### Java
 
@@ -149,15 +149,15 @@ Methods for Open Addressing
         // Number of key, value pairs in the hash table
         myHashTable.size();
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [Run Code](https://repl.it/CVt1)
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CVt1' target='_blank' rel='nofollow'>Run Code</a>
 
 ## Resources
 
-*   For further reading, you many want to try this [link](http://geeksquiz.com/hashing-set-1-introduction/), which explains hashing using a different example.
-*   [Hashing in 60 seconds](https://www.youtube.com/watch?v=x05KubVlh_M).
-*   [Cuckoo Hashing](https://www.youtube.com/watch?v=HRzg0SzFLQQ)
-*   [Consisten Hashing](https://www.youtube.com/watch?v=jznJKL0CrxM)
-*   [Bloom Filters](https://www.youtube.com/watch?v=-SuTGoFYjZs)
-*   [Hashing Strategies](https://www.youtube.com/watch?v=D65JQ0qQwZk)
-*   [Password Hashing](https://crackstation.net/hashing-security.htm)
-*   [Difference between Hashing and encrypting](http://stackoverflow.com/questions/326699/difference-between-hashing-a-password-and-encrypting-it)
+*   For further reading, you many want to try this <a href='http://geeksquiz.com/hashing-set-1-introduction/' target='_blank' rel='nofollow'>link</a>, which explains hashing using a different example.
+*   <a href='https://www.youtube.com/watch?v=x05KubVlh_M' target='_blank' rel='nofollow'>Hashing in 60 seconds</a>.
+*   <a href='https://www.youtube.com/watch?v=HRzg0SzFLQQ' target='_blank' rel='nofollow'>Cuckoo Hashing</a>
+*   <a href='https://www.youtube.com/watch?v=jznJKL0CrxM' target='_blank' rel='nofollow'>Consisten Hashing</a>
+*   <a href='https://www.youtube.com/watch?v=-SuTGoFYjZs' target='_blank' rel='nofollow'>Bloom Filters</a>
+*   <a href='https://www.youtube.com/watch?v=D65JQ0qQwZk' target='_blank' rel='nofollow'>Hashing Strategies</a>
+*   <a href='https://crackstation.net/hashing-security.htm' target='_blank' rel='nofollow'>Password Hashing</a>
+*   <a href='http://stackoverflow.com/questions/326699/difference-between-hashing-a-password-and-encrypting-it' target='_blank' rel='nofollow'>Difference between Hashing and encrypting</a>

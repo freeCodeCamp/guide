@@ -19,10 +19,10 @@ We have provided a framework for testing your results with different words. The 
 
 #### Relevant Links
 
-*   [Mad Libs](https://en.wikipedia.org/wiki/Mad_Libs)
-*   [Challenge: Constructing Strings with Variables](http://www.freecodecamp.com/challenges/constructing-strings-with-variables)
-*   [Challenge: Concatenating Strings with Plus Operator](http://www.freecodecamp.com/challenges/concatenating-strings-with-plus-operator)
-*   [Challenge: Concatenating Strings with the Plus Equals Operator](http://www.freecodecamp.com/challenges/concatenating-strings-with-the-plus-equals-operator)
+*   <a href='https://en.wikipedia.org/wiki/Mad_Libs' target='_blank' rel='nofollow'>Mad Libs</a>
+*   <a href='http://www.freecodecamp.com/challenges/constructing-strings-with-variables' target='_blank' rel='nofollow'>Challenge: Constructing Strings with Variables</a>
+*   <a href='http://www.freecodecamp.com/challenges/concatenating-strings-with-plus-operator' target='_blank' rel='nofollow'>Challenge: Concatenating Strings with Plus Operator</a>
+*   <a href='http://www.freecodecamp.com/challenges/concatenating-strings-with-the-plus-equals-operator' target='_blank' rel='nofollow'>Challenge: Concatenating Strings with the Plus Equals Operator</a>
 
 ## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 1
 
@@ -81,4 +81,4 @@ Just as you can chain strings by concatenating, you can assign them to an existi
 *   Categorize the solution in one of the following categories — **Basic**, **Intermediate** and **Advanced**. ![:traffic_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/traffic_light.png?v=3 ":traffic_light:")
 *   Please add your username only if you have added any **relevant main contents**. (![:warning:](https://forum.freecodecamp.com/images/emoji/emoji_one/warning.png?v=3 ":warning:") **_DO NOT_** _remove any existing usernames_)
 
-> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") [**`Wiki Challenge Solution Template`**](http://forum.freecodecamp.com/t/algorithm-article-template/14272) for reference.
+> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") <a href='http://forum.freecodecamp.com/t/algorithm-article-template/14272' target='_blank' rel='nofollow'>**`Wiki Challenge Solution Template`**</a> for reference.

@@ -11,9 +11,9 @@ This list was created by compiling common issue and questions when working on th
 
 References
 
-*   [Chrome Console](https://developer.chrome.com/devtools/docs/console)
-*   [Sublime Text](http://www.sublimetext.com/)
-*   [Netbeans](https://netbeans.org/downloads/)
+*   <a href='https://developer.chrome.com/devtools/docs/console' target='_blank' rel='nofollow'>Chrome Console</a>
+*   <a href='http://www.sublimetext.com/' target='_blank' rel='nofollow'>Sublime Text</a>
+*   <a href='https://netbeans.org/downloads/' target='_blank' rel='nofollow'>Netbeans</a>
 
     1.  Posting your code in gitter is as simple as adding a line consisting of only 3 backtics **`** then your code in a new line and another line with 3 more backtics.`
 

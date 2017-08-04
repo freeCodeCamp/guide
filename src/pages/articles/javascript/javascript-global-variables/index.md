@@ -1,8 +1,8 @@
 ---
-title: javaScript Global Variables
+title: JavaScript Global Variables
 ---
 You should ALWAYS use **var** to declare your variables (to make locally) else it will install GLOBALLY
 
-[JavaScript Best Practices: Avoid Globals](http://www.w3.org/wiki/JavaScript_best_practices#Avoid_globals)
+<a href='http://www.w3.org/wiki/JavaScript_best_practices#Avoid_globals' target='_blank' rel='nofollow'>JavaScript Best Practices: Avoid Globals</a>
 
-[Global Variables are bad](http://c2.com/cgi/wiki?GlobalVariablesAreBad)
+<a href='http://c2.com/cgi/wiki?GlobalVariablesAreBad' target='_blank' rel='nofollow'>Global Variables are bad</a>

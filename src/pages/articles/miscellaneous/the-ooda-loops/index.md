@@ -7,4 +7,4 @@ The OODA Loop is about how fast you can iterate. Often referenced in Lean Startu
 
 ## see also
 
-[OODA Loop](https://en.wikipedia.org/wiki/OODA_loop)
+<a href='https://en.wikipedia.org/wiki/OODA_loop' target='_blank' rel='nofollow'>OODA Loop</a>

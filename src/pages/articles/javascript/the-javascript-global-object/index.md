@@ -1,7 +1,7 @@
 ---
-title: The javaScript Global Object
+title: The JavaScript Global Object
 ---
-The global object is an object that is initialized by the JavaScript interpreter before the code is executed. All variables that are declared on the global scope (see: [Scopes](http://forum.freecodecamp.com/t/scopes-in-javascript/14696)) are stored in the global object as properties.
+The global object is an object that is initialized by the JavaScript interpreter before the code is executed. All variables that are declared on the global scope (see: <a href='http://forum.freecodecamp.com/t/scopes-in-javascript/14696' target='_blank' rel='nofollow'>Scopes</a>) are stored in the global object as properties.
 
 In a Node.js environment, the global object can be accessed by the `global` keyword, while in a browser window it can be accessed by the `window` keyword. The `this` keyword also refers to the global object when used in the global scope. Please note that using `this` in the global scope will return `undefined` if `strict mode` is enabled.
 
@@ -37,4 +37,4 @@ The global object also contains the properties `NaN`, `undefined` and `Infinity`
 
 # References
 
-1.  MSDN: [Global Object (Javascript)](https://msdn.microsoft.com/en-us/library/52f50e9t(v=vs.94).aspx)
+1.  MSDN: <a href='https://msdn.microsoft.com/en-us/library/52f50e9t(v=vs.94' target='_blank' rel='nofollow'>Global Object (Javascript)</a>.aspx)

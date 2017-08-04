@@ -1,5 +1,5 @@
 ---
-title: javaScript Assignment Operators
+title: JavaScript Assignment Operators
 ---
 Assignment operators, as the name suggests, assign (or re-assign) values to a variable. While there are quite a few variations on the assignment operators, they all build off of the basic assignment operator.
 
@@ -14,8 +14,8 @@ x | Variable | Required
 = | Assignment operator | Required  
 y | Value to assign to variable | Required
 
-[MDN link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Assignment_Operators#Assignment)  
-[MSDN link](https://msdn.microsoft.com/en-us/library/1w2h1k9x(v=vs.94).aspx)
+<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Assignment_Operators#Assignment' target='_blank' rel='nofollow'>MDN link</a>  
+<a href='https://msdn.microsoft.com/en-us/library/1w2h1k9x(v=vs.94' target='_blank' rel='nofollow'>MSDN link</a>.aspx)
 
 ## Examples
 
