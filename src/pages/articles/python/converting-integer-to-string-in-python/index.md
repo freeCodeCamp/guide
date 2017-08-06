@@ -12,7 +12,7 @@ Programmers coming from other languages may attempt to do the following string c
 ```py
 age = 18
 
-string = "I am " + age + " years old"
+string = "Hello, I am " + age + " years old"
 ```
 The error that shows up is
 ```
@@ -28,10 +28,14 @@ TypeError: must be str, not int
 Simple concatenation example:
 
 ```py
-name = "Alice"
 age = 18
-print("Hello, my name is " + name + " and I am " + str(age) + " years old") # Hello, my name is Alice and I am 18 years old
+
+print("Hello, I am " + str(age) + " years old")
+
+# Output
+# Hello, I am 18 years old
 ```
+
 Print `1 2 3 4 5 6 7 8 9 10` using a single string
 ```py
 result = ""
@@ -39,7 +43,10 @@ result = ""
 for i in range(1, 11):
     result += str(i) + " "
 
-print(result) # 1 2 3 4 5 6 7 8 9 10
+print(result)
+
+# Output
+# 1 2 3 4 5 6 7 8 9 10
 ```
 
 
