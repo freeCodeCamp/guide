@@ -12,4 +12,21 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
+The Href attribute is used to attach links to certain webpages within an HTML file.
+
+For instance:
+
+```
+<html>
+  <head>
+    <title>Href Attribute Example</title>
+  </head>
+  <body>
+    <h1>
+      <p>
+      <a href = "https://www.freecodecamp.org/contribute/">The FreeCodeCamp Contribution Page</a>shows you how and where you can contribute to FreeCodeCamp's community and growth.
+      </p>
+  </body>
+</html>
+```
 
