@@ -3,13 +3,16 @@ title: Comments in HTML
 ---
 ## Comments in HTML
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/articles/html/comments-in-html/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The comment tag is a tool used to leave notes, mostly related to the project or the website. This tag is frequently used to explain something in the code or leave some recommendations about the project.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+### Example
+```
+<!DOCTYPE html>
+<html>
+	<body>
+		<h1>FreeCodeCamp web</h1>
+		<!-- Leave some space between the h1 and the p in order to understand what are we talking about-->
+		<p>FreeCodeCamp is an open-source project that needs your help</p>
+	</body>
+</html>
+```
