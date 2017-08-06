@@ -5,7 +5,28 @@ title: Converting Integer to String in Python
 
 Unlike many other languages out there, Python does not implicitly typecast integers (or floats) to strings when concatenating with strings. Fortunately, Python has a handy built-in function `str()` which will convert the argument passed in to a string format.
 
+#### The Wrong Way
+
+Programmers coming from other languages may attempt to do the following string concatenation which produces an error:
+
+```py
+age = 18
+
+string = "I am " + age + " years old"
+```
+The error that shows up is
+```
+Traceback (most recent call last):
+  File "python", line 3, in <module>
+TypeError: must be str, not int
+```
+
+`TypeError: must be str, not int` indicates that the integer must first be converted to a string to be concatenated.
+
+#### The Correct Way
+
 Simple concatenation example:
+
 ```py
 name = "Alice"
 age = 18
