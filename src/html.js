@@ -5,6 +5,10 @@ import Helmet from 'react-helmet';
 import { TypographyStyle } from 'react-typography';
 import typography from './utils/typography';
 
+import fccMetaTags from './meta.js';
+
+const meta = fccMetaTags();
+
 export default class HTML extends React.Component {
   static propTypes = {
     body: PropTypes.string,
@@ -51,6 +55,7 @@ export default class HTML extends React.Component {
             }
             rel='stylesheet'
           />
+          {meta}
           <title>freeCodeCamp Guide</title>
           <TypographyStyle typography={typography} />
           {css}
