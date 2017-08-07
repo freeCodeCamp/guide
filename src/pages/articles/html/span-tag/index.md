@@ -3,13 +3,22 @@ title: Span Tag
 ---
 ## Span Tag
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/articles/html/span-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `<span>` is very useful at the time to add some specific elements in the document. It doesn't offer any visual change and when it comes to styling, the manipulation could be done with HTML, CSS, Javascript or jQuery.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Example
+```
+<html>
+  <head>
+    <title>The Span Tag</title>
+  </head>
+  <body>
+    <div>
+      <p>This is a normal paragraph without any changes.</p>
+      <p>This paragraph has <span style="color:red">red span styling</span> inside it without affect the rest of the document</p>
+    </div>
+  </body>  
+</html>
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+#### Differences between <span> and <div>
+Using `<div>` and `<span>` could at first sight not make big differences but when it comes to tags and SEO issues, `<div>` is preferred to use between containers and paragraphs. Meanwhile, `<span>` is preferred to use inside the element.
