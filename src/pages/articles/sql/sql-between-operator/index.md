@@ -3,19 +3,21 @@ title: SQL Between Operator
 ---
 ## SQL Between Operator
 
-This operator is used in a WHERE clause or in a GROUP BY HAVING Clause.
+This operator is used in a WHERE clause or in a GROUP BY HAVING clause.
 
 Rows are selected that have a value greater than the minimum value and less than the maximum value.  
-NOTE; It's important to keep in mind that the values entered in the command are EXCLUDED from the result, we get just what is between them.
 
-Here is the syntax for using the function in a WHERE Clause. 
+It's important to keep in mind that the values entered in the command are **excluded** from the result. We get just what is between them.
+
+Here is the syntax for using the function in a WHERE Clause:
+
 ```sql
 select field1, testField
 from table1
 where testField between min and max
 ```
 
-Here is an example using the student table and the WHERE clause
+Here is an example using the student table and the WHERE clause:
  
 ```sql
 -- no WHERE clause
