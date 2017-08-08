@@ -3,13 +3,22 @@ title: SQL or Operator
 ---
 ## SQL or Operator
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/articles/sql/sql-or-operator/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+You can use the `OR` operator in the `WHERE` clause of `SELECT` statement. You use it when you want to select a record that satisfies at least one of the conditions.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Here is an example that selects all persons that are male or has the name “Mary”:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```sql
+SELECT Id, Name, DateOfBirth, Gender
+FROM Person
+WHERE Gender = “M” OR Name = “Mary”
+```
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+You can combine others operators in the `WHERE` clause (use parenthesis to indicate the order of operations) like in this example:
+
+```sql
+SELECT Id, Name, DateOfBirth, Gender
+FROM Person
+WHERE Gender = “M” AND (Name = “Peter” OR Name = “John”)
+```
 
 
