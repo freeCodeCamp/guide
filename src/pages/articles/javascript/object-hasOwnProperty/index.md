@@ -1,5 +1,5 @@
 ---
-title: Object.hasOwnProperty()
+title: Object hasOwnProperty
 ---
 ### Syntax
 
@@ -10,7 +10,7 @@ title: Object.hasOwnProperty()
 ### Description
 
 
-The **hasOwnProperty()** method returns a [boolean](https://developer.mozilla.org/en-US/docs/Glossary/Boolean) indicating if the object owns the specified property.
+The **hasOwnProperty()** method returns a <a href='https://developer.mozilla.org/en-US/docs/Glossary/Boolean' target='_blank' rel='nofollow'>boolean</a> indicating if the object owns the specified property.
 
 
 This is a convenient method to check if an object has the specified property or not; returning true/false accordingly.
@@ -19,7 +19,7 @@ This is a convenient method to check if an object has the specified property or 
 ### Parameters
 
 ##### prop
-A [string](https://developer.mozilla.org/en-US/docs/Glossary/String) or [symbol](https://developer.mozilla.org/en-US/docs/Glossary/Symbol) to test.
+A <a href='https://developer.mozilla.org/en-US/docs/Glossary/String' target='_blank' rel='nofollow'>string</a> or <a href='https://developer.mozilla.org/en-US/docs/Glossary/Symbol' target='_blank' rel='nofollow'>symbol</a> to test.
 
 
 ### Examples
@@ -45,4 +45,4 @@ student.hasOwnProperty('feature'); // returns false
 
 #### links
 
-[MDN hasOwnProperty](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty)
+<a href='https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty' target='_blank' rel='nofollow'>MDN hasOwnProperty</a>
