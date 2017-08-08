@@ -27,10 +27,6 @@ class NavPanel extends PureComponent {
     this.handleHeaderClick = this.handleHeaderClick.bind(this);
   }
 
-  shouldComponentUpdate(nextProps) {
-    return this.props.isExpanded !== nextProps.isExpanded;
-  }
-
   handleHeaderClick() {
     this.props.handleClick(this.props.path);
   }
