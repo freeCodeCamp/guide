@@ -5,7 +5,7 @@ import { Grid, Row, Col, Image, Navbar } from 'react-bootstrap';
 // gatsby
 import Link from 'gatsby-link';
 
-import SideNav from '../components/SideNav.jsx';
+import SideNav from '../components/nav/SideNav.jsx';
 
 // Import styles
 

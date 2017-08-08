@@ -13,7 +13,7 @@ function info(str, colour = 'red') {
 const metaRE = /---[\W\w]*?---\n*?/;
 const isAFileRE = /(\.md|\.jsx?|\.html?)$/;
 const shouldBeIgnoredRE = /^(\_|\.)/;
-const isAStubRE = /This\sis\sa\sstub\.\s\[Help\sour\scommunity\sexpand\sit\]/;
+const isAStubRE = /This\sis\sa\sstub.+?Help\sour\scommunity\sexpand\sit/;
 const markdownLinkRE = /\!?\[.*?\]\(.+?\)/g;
 const httpsRE = /https?\:\/\//;
 
