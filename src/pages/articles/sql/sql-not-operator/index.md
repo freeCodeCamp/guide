@@ -3,13 +3,15 @@ title: SQL not Operator
 ---
 ## SQL not Operator
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/articles/sql/sql-not-operator/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+You can use the `NOT` operator in the `WHERE` clause of `SELECT` statement. You use it when you want to select a condition that is not true.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Here is an example that selects all persons that are not male:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```sql
+SELECT Id, Name, DateOfBirth, Gender
+FROM Person
+WHERE NOT Gender = "M"
+```
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
 
