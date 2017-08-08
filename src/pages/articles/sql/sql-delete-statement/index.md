@@ -3,13 +3,21 @@ title: SQL Delete Statement
 ---
 ## SQL Delete Statement
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/articles/sql/sql-delete-statement/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+To delete a record in a table you use the `DELETE` statement. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Be careful. You can delete all records of the table or just a few. Use the `WHERE` condition to specify which records do you want to delete. The syntax is:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```sql
+DELETE FROM table_name
+WHERE condition;
+```
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+Here is an example deleting from the table Person the record with Id 3:
+
+```sql
+DELETE FROM Person
+WHERE Id = 3;
+```
+
 
 
