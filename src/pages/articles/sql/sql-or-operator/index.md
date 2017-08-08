@@ -5,7 +5,7 @@ title: SQL or Operator
 
 You can use the `OR` operator in the `WHERE` clause of `SELECT` statement. You use it when you want to select a record that satisfies at least one of the conditions.
 
-Here is an example that selects all persons that are male or has the name “Mary”:
+Here is an example that selects all records from the Person table who are either male or who have the name “Mary”:
 
 ```sql
 SELECT Id, Name, DateOfBirth, Gender
