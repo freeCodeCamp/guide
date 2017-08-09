@@ -7,6 +7,7 @@
   animation: 1s ease-in-out 0s;
   animation-name: grow;
   margin-left: 20px;
+  overflow: hidden;
 }
 
 .caret {
@@ -24,11 +25,19 @@
 }
 
 .navItemLi {
+  font-size: 16px;
   margin-bottom: 0px;
 }
 
 .navItemTitle {
   color: #006400;
+  cursor: pointer;
+}
+
+.navPanelUl {
+  font-size: 16px;
+  list-style: none;
+  margin-bottom: 0px;
 }
 
 .panel {
@@ -38,6 +47,7 @@
   box-shadow: none;
   color: #006400;
   font-family: Lato;
+  font-size: 16px;
   padding: 0;
 }
 
@@ -51,4 +61,6 @@
   border: none;
   border-color: white;
   border-radius: 0px;
+  cursor: pointer;
+  font-size: 16px;
 }

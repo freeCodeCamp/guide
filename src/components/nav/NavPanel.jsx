@@ -6,6 +6,7 @@ import {
   body,
   caret,
   expanded,
+  navPanelUl,
   panel,
   title as titleStyle
 } from './sideNav.module.css';
@@ -28,7 +29,10 @@ class NavPanel extends PureComponent {
   }
 
   handleHeaderClick() {
-    this.props.handleClick(this.props.path);
+    const { push } = this.context.router.history;
+    const { path } = this.props;
+    this.props.handleClick(path);
+    push(path);
   }
 
   renderHeader(isExpanded, title) {
@@ -61,12 +65,17 @@ class NavPanel extends PureComponent {
         header={ this.renderHeader(isExpanded, title) }
         >
         <div className={ isExpanded ? body : '' }>
-          { children }
+          <ul className={ navPanelUl }>
+            { children }
+          </ul>
         </div>
       </Panel>
     );
   }
 }
+NavPanel.contextTypes = {
+  router: PropTypes.object
+};
 NavPanel.displayName = 'NavPanel';
 NavPanel.propTypes = propTypes;
 
