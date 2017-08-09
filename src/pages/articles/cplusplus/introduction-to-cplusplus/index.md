@@ -67,10 +67,9 @@ cout<<"Hello World"<<endl;
 
 Programmers use a Hello World program (like this one) as a ritual on using a new programming language. It is a symbol of good luck.  
 _You have finished coding your first C++ program and have mostly understood the code you have written/typed. CONGRATULATIONS!_
-</br> **Good Luck to all of you** 
-</br> **Happy Coding ! :)**
-</br> **Feel free to ask any queries on FreeCodeCamp's GitHub page or DM me on Twitter**
-[@MrAsrani1312](https://twitter.com/MrAsrani1312) 
+ **Good Luck to all of you** 
+ **Happy Coding ! :)**
+ **Feel free to ask any queries on FreeCodeCamp's GitHub page or [FreeCodeCamp's Forum .](https://forum.freecodecamp.org/)**
 By : Jaithra Bhatia and Hitarth Asrani
 **You may require some software to write and execute C++ code. I recommend using CodeBlocks. There's a download link below :**
 Download Link : [Download Here](http://www.codeblocks.org/downloads/26)
