@@ -1,5 +1,5 @@
 ---
-title: SQL Average (AVG) Function
+title: SQL Avg Function
 ---
 ## SQL Average (AVG) Function
 
