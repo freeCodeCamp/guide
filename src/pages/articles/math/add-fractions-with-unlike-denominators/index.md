@@ -3,13 +3,12 @@ title: Add Fractions with Unlike Denominators
 ---
 ## Add Fractions with Unlike Denominators
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/add-fractions-with-unlike-denominators/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+In order to add fractions with unlike denominators, you need to rewrite the fractions so that they all have the same denominator. One way of doing this is to multiply all the unlike denominators together to create a common denominator.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Examples
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+<img src="https://github.com/codersc/freeCodeCamp-article-images/blob/master/guide-article-adding-fractions.png?raw=true">
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+
 
 
