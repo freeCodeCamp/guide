@@ -42,7 +42,7 @@ You can create a PR with your draft article (or edits on an existing article) in
 - Copy it to your local machine by running the command `git clone https://github.com/<YOUR GITHUB USERNAME>/guides.git`
 - Add a remote upstream so git knows where the official freeCodeCamp guides repository is located by running the command `git remote add upstream https://github.com/freeCodeCamp/guides.git`
 - Create a new branch for your work with the command `git checkout -b <new-branch-name>`. Try to name your branch in a way that describes your article topic, like `fix/ArticleHTMLElements`
-- Write your article, run `npm run meta`, commit your changes locally, and push your new branch to GitHub with the command `git push origin <new-branch-name>`
+- Write your article, commit your changes locally, and push your new branch to GitHub with the command `git push origin <new-branch-name>`
 - Go to your repository on GitHub and open a PR
 
 Make sure to maintain your local fork going forward so it stays up-to-date with the freeCodeCamp guides repository. The next time you want to contribute, checkout your local `master` branch and run the command `git pull --rebase upstream master` before creating a new branch. This will grab all the changes on the official `master` branch without making an additional commit in your local repository.
@@ -53,7 +53,7 @@ Finally, if you want to run a version of the Guide repository locally, follow th
 
 1. Ensure you have the `yarn` package manager installed `npm install -g yarn`
 2. Fork this repository
-3. :point_down: 
+3. :point_down:
 ```sh
 git clone https://github.com/<YOUR GITHUB USERNAME>/guides.git
 cd guides
@@ -174,4 +174,3 @@ The Hemingway App will assign a “grade level” for your writing. You should a
 Also, there's a community of support from a whole team of contributors, whom you can bounce ideas off of and ask for input on your writing. Stay active in the [contributors chat room](https://gitter.im/freecodecamp/contributors) and ask lots of questions.
 
 With your help, we can create a comprehensive reference tool that will help millions of people who are learning to code for years to come.
-
