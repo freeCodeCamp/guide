@@ -1,15 +1,36 @@
 ---
-title: SQL Create Index Statement
+title: SQL CREATE INDEX STATEMENT
 ---
-## SQL Create Index Statement
+## SQL COUNT Aggregate Function
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/articles/sql/sql-create-index-statement/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+This statement is used to create an "index" on a column in an existing table. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Key points on indexes;
+* They are used to improve the efficiency of searches for data, presenting the data in a specific order, when joining tables (see the "JOIN" Guides) and more.
+* An index is a "system" object, meaning that it is used by the database manager. 
+* Part of this usage is for the database manager to update the index when the data used by the index changes in the related table.  Keep this in mind because as the number of indexes increase in a database overall system performance can be impacted.
+* If you find that your SQLs are running slow on a given table or tables, creating an index is the first thing to consider to correct the issue.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Simple syntax of the Create Index Statement, note that the syntax allows for an index to be over more than one column.
+```sql
+CREATE INDEX index_name
+ON table_name (column1, column2, ...);
+```
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+Creating a new index on the student table's field, programOfStudy.
+For reference, here is the current definition of the student table.
+
+![image-1](https://github.com/SteveChevalier/guide-images/blob/master/create-index-statement01.JPG?raw=true)
+
+Statement to create the index and a screen shot of the updated table definition
+```sql
+create index pStudyIndex
+on student (programOfStudy);
+```
+![image-1](https://github.com/SteveChevalier/guide-images/blob/master/create-index-statement02.JPG?raw=true)
+
+In MySQL you use the alter table command to change and drop indexes.  The MySQL workbench also provide GUI tools to manage indexes.
+
+As with all of these things there is much more to it so please see the manual for your database manager and have fun trying different options yourself.
 
 
