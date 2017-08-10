@@ -3,13 +3,29 @@ title: Ul Tag
 ---
 ## Ul Tag
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/articles/html/ul-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The unordered list (`<ul>`) is a tag used to create bulleted lists. To create a list inside the `<ul>`, use the `<li>` tag. To style lists, go to the CSS style lists and make the changes.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The `<ul>` can be nested inside other lists and is compatible with others tag such as `<a>`,`<p>`,`<button>`, the html styling tags (`<strong>`,`<em>`, etc).
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+### Example
+```
+<html>
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <ul>
+      <li>This is the bulleted list #1</li>
+      <li>This is the bulleted list #2</li>
+      <li>This is the bulleted list #3</li>
+      <li>
+        <ul>
+          <li>This is the bulleted nested list #1</li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+```
+## Other Resources
+- The ordered list `<ol>`

@@ -120,5 +120,5 @@ Try [this download for Windows users[(https://dev.mysql.com/downloads/windows/)
 
 
 ### MySQL documentation
-* [manual page](https://dev.mysql.com/doc/refman/5.7/en/alter-table.html)
-* [examples from manual](https://dev.mysql.com/doc/refman/5.7/en/alter-table-examples.html)
+* <a href='https://dev.mysql.com/doc/refman/5.7/en/alter-table.html' target='_blank' rel='nofollow'>manual page</a>
+* <a href='https://dev.mysql.com/doc/refman/5.7/en/alter-table-examples.html' target='_blank' rel='nofollow'>examples from manual</a>

@@ -1,15 +1,29 @@
 /* global graphql */
 import React from 'react';
 import PropTypes from 'prop-types';
+import Helmet from 'react-helmet';
 
 const propTypes = {
-  data: PropTypes.object
+  data: PropTypes.object,
+  location: PropTypes.object
 };
 
 function Article(props) {
   const article = props.data.markdownRemark;
+  const { html, frontmatter: { title } } = article;
   return (
-    <div dangerouslySetInnerHTML={{ __html: article.html }} />
+    <div>
+      <Helmet>
+        <title>{ `${title} | freeCodeCamp Guide` }</title>
+        <link
+          href={ `https://freecodecamp.org/guide${props.location.pathname}` }
+          rel='canonical'
+        />
+      </Helmet>
+      <div
+        dangerouslySetInnerHTML={{ __html: html }}
+      />
+    </div>
   );
 }
 
@@ -24,7 +38,6 @@ query ArticleBySlug($slug: String!) {
     html
     frontmatter {
       title
-      parent
     }
   }
 }
