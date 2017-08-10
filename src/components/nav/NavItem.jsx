@@ -2,6 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Link from 'gatsby-link';
 
+import { navItemLi, navItemTitle } from './sideNav.module.css';
+
 const propTypes = {
   path: PropTypes.string,
   router: PropTypes.object,
@@ -11,9 +13,9 @@ const propTypes = {
 function NavItem(props) {
   const { path, title } = props;
   return (
-    <li role='presentation'>
+    <li className={ navItemLi } role='presentation'>
       <Link role='presentation' to={ path }>
-        <span>{ title }</span>
+        <span className={ navItemTitle }>{ title }</span>
       </Link>
     </li>
   );

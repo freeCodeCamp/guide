@@ -1,5 +1,5 @@
 ---
-title: SQL AND operator
+title: SQL and Operator
 ---
 ## SQL AND operator
 
