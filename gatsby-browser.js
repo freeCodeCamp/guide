@@ -3,11 +3,13 @@ import PropTypes from 'prop-types';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Provider } from 'react-redux';
 
-import store from './src/store';
+import createStore from './src/store';
 
 const propTypes = {
     children: PropTypes.node.isRequired
   };
+
+const store = createStore();
 
 exports.replaceRouterComponent = ({ history }) => {
 

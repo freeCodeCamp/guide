@@ -1,11 +1,17 @@
-import { createStore } from 'redux';
+import { createStore as reduxCreateStore } from 'redux';
 import { composeWithDevTools } from 'redux-devtools-extension';
 
 import rootReducer from './redux/reducers';
 
-const store = createStore(
-  rootReducer,
-  composeWithDevTools()
-);
+let createStore;
 
-export default store;
+if (process.NODE_ENV !== 'production') {
+  createStore = () => reduxCreateStore(
+    rootReducer,
+    composeWithDevTools()
+  );
+} else {
+  createStore = () => reduxCreateStore(rootReducer);
+}
+
+export default createStore;
