@@ -36,7 +36,7 @@ The **staging area** is a file (also called the "index", "stage", or "cache") th
 With three sections, there are three main states that a file can be in at any given time: committed, modified, or staged. You *modify* a file any time you make changes to it in your working directory. Next, it's *staged* when you move it to the staging area. Finally, it's *committed* after a commit.
 
 ### Install Git
-You can install Git by visiting the [Git Downloads page](https://git-scm.com/downloads) and finding the right version for your operating system.
+You can install Git by visiting the <a href='https://git-scm.com/downloads' target='_blank' rel='nofollow'>Git Downloads page</a> and finding the right version for your operating system.
 
 ### Configure the Git Environment
 Git has a `git config` tool that allows you to customize your Git environment. You can change the way Git looks and functions by setting certain configuration variables. Run these commands from a command line interface on your machine (Terminal in Mac, Command Prompt or Powershell in Windows).
@@ -89,7 +89,7 @@ This displays the manual page for the command in your shell window. To navigate,
 - `q` to quit
 
 ### Sources
-This article uses information from the [Pro Git](https://github.com/progit/progit2) book, written by Scott Chacon and Ben Straub and published by Apress. The book is displayed in full in the [Git documentation](https://git-scm.com/book/en/v2).
+This article uses information from the <a href='https://github.com/progit/progit2' target='_blank' rel='nofollow'>Pro Git</a> book, written by Scott Chacon and Ben Straub and published by Apress. The book is displayed in full in the <a href='https://git-scm.com/book/en/v2' target='_blank' rel='nofollow'>Git documentation</a>.
 
 ### Other Resources
-Visit the [Git official website](https://git-scm.com/) to find downloads, documentation, and a browser-based tutorial.
+Visit the <a href='https://git-scm.com/' target='_blank' rel='nofollow'>Git official website</a> to find downloads, documentation, and a browser-based tutorial.

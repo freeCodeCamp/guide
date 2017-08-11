@@ -3,13 +3,48 @@ title: Object.prototype.hasOwnProperty
 ---
 ## Object.prototype.hasOwnProperty
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/articles/javascript/standard-objects/object/object-prototype-hasownproperty/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+### Syntax
 
 
+`Object.hasOwnProperty(prop)`
+
+
+### Description
+
+
+The **hasOwnProperty()** method returns a <a href='https://developer.mozilla.org/en-US/docs/Glossary/Boolean' target='_blank' rel='nofollow'>boolean</a> indicating if the object owns the specified property.
+
+
+This is a convenient method to check if an object has the specified property or not; returning true/false accordingly.
+
+
+### Parameters
+
+##### prop
+A <a href='https://developer.mozilla.org/en-US/docs/Glossary/String' target='_blank' rel='nofollow'>string</a> or <a href='https://developer.mozilla.org/en-US/docs/Glossary/Symbol' target='_blank' rel='nofollow'>symbol</a> to test.
+
+
+### Examples
+
+using **hasOwnProperty()** to test if a property exist or not in a given object:
+
+```js
+var course = {
+  name: 'freeCodeCamp',
+  feature: 'is awesome',
+}
+
+var student = {
+  name: 'enthusiastic student',
+}
+
+course.hasOwnProperty('name');  // returns true
+course.hasOwnProperty('feature');   // returns true
+
+student.hasOwnProperty('name');  // returns true
+student.hasOwnProperty('feature'); // returns false
+```
+
+#### links
+
+<a href='https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty' target='_blank' rel='nofollow'>MDN hasOwnProperty</a>

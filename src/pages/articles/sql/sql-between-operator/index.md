@@ -3,13 +3,46 @@ title: SQL Between Operator
 ---
 ## SQL Between Operator
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/articles/sql/sql-between-operator/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+This operator is used in a WHERE clause or in a GROUP BY HAVING clause.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Rows are selected that have a value greater than the minimum value and less than the maximum value.  
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+It's important to keep in mind that the values entered in the command are **excluded** from the result. We get just what is between them.
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+Here is the syntax for using the function in a WHERE Clause:
 
+```sql
+select field1, testField
+from table1
+where testField between min and max
+```
 
+Here is an example using the student table and the WHERE clause:
+ 
+```sql
+-- no WHERE clause
+select studentID, FullName, studentID
+from student;
+    
+-- WHERE clause with between
+select studentID, FullName, studentID
+from student
+where studentID between 2 and 7;
+```
+
+![image-1](https://github.com/SteveChevalier/guide-images/blob/master/between01.JPG?raw=true)
+
+Here is an example using the campaign funds table and the having clause.
+This will return rows where the sum of the donations for a candidate are between $3 Million and $18 Million based on the HAVING clause in the GROUP BY part of the statement.  More on aggregation in that guide.
+
+ 
+```sql
+select Candidate, Office_Sought, Election_Year, format(sum(Total_$),2)
+from combined_party_data
+where Election_Year = 2016
+group by Candidate, Office_Sought, Election_Year
+having sum(Total_$) between 3000000 and 18000000
+order by sum(Total_$) desc; 
+```
+
+![image-1](https://github.com/SteveChevalier/guide-images/blob/master/between02.JPG?raw=true)
