@@ -11,7 +11,7 @@ const options = {
   plugins: [new CodePlugin()],
   overrideStyles: () => ({
     [MOBILE_MEDIA_QUERY]: {
-      // Make baseFontSize on mobile 16px.
+      // Make baseFontSize on mobile 14px.
       html: {
         fontSize: `${14 / 14 * 100}%`
       }
