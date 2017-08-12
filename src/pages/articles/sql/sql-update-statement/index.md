@@ -3,13 +3,24 @@ title: SQL Update Statement
 ---
 ## SQL Update Statement
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/articles/sql/sql-update-statement/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+To update a record in a table you use the `UPDATE` statement. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Be careful. You can update all records of the table or just a few. Use the `WHERE` condition to specify which records do you want to update. It is possible to update one or more columns at a time. The syntax is:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```sql
+UPDATE table_name
+SET column1 = value1, 
+    column2 = value2, ...
+WHERE condition;
+```
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+Here is an example updating the Name of the record with Id 4:
+
+```sql
+UPDATE Person
+SET Name = “Elton John”
+WHERE Id = 4;
+```
+
 
 

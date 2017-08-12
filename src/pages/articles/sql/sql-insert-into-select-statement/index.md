@@ -3,13 +3,25 @@ title: SQL Insert into Select Statement
 ---
 ## SQL Insert into Select Statement
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/articles/sql/sql-insert-into-select-statement/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+You can insert records in a table using data that are already stored in the database. This is only a copy of data and it doesn’t affect the origin table. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The `INSERT INTO SELECT` statement combines `INSERT INTO` and `SELECT` statements and you can use any conditions you want. The syntax is:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```sql
+INSERT INTO table2 (column1, column2, column3, ...)
+SELECT column1, column2, column3, ...
+FROM table1
+WHERE condition;
+```
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+Here is an example that inserts in the table Person all the male students from the table Students.
+
+```sql
+INSERT INTO Person(Id, Name, DateOfBirth, Gender)
+SELECT Id, Name, DateOfBirth, Gender
+FROM Students
+WHERE Gender = ‘M’
+```
+
 
 

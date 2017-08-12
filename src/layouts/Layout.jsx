@@ -5,7 +5,7 @@ import { Grid, Row, Col, Image, Navbar } from 'react-bootstrap';
 // gatsby
 import Link from 'gatsby-link';
 
-import SideNav from '../components/SideNav.jsx';
+import SideNav from '../components/nav/SideNav.jsx';
 
 // Import styles
 
@@ -30,10 +30,10 @@ class Layout extends React.PureComponent {
 
     return (
       <div>
-        <Grid fluid={true}>
+        <Grid fluid={ true }>
           <Row>
             <Navbar style={{ background: '#006400' }}>
-              <Col md={3} xs={12}>
+              <Col md={ 3 } xs={ 12 }>
                 <Navbar.Header>
                   <Navbar.Brand>
                     <Link
@@ -41,7 +41,7 @@ class Layout extends React.PureComponent {
                         textDecoration: 'none',
                         color: '#fff'
                       }}
-                      to={'/'}
+                      to={ '/' }
                       >
                       <Image
                         alt='freeCodeCamp logo'
@@ -64,10 +64,10 @@ class Layout extends React.PureComponent {
         </Grid>
         <Grid>
           <Row>
-            <Col md={ 3 }>
+            <Col md={ 4 }>
               <SideNav />
             </Col>
-            <Col md={ 9 }>
+            <Col md={ 8 }>
               { this.props.children() }
             </Col>
           </Row>

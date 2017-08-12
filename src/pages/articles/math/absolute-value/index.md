@@ -3,11 +3,33 @@ title: Absolute Value
 ---
 ## Absolute Value
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/absolute-value/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+You can think of a number's absolute value as its distance from zero.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Absolute_value.svg/2000px-Absolute_value.svg.png" width="300">  
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Here you can see that in the graph of y = |x|, if -2 is input in to the function, 2 is the result. This is because -2 has a distance of 2 from zero.
+
+### Examples
+
+* **Simplify |-5|**
+
+  |-5| = 5
+
+* **Simplify |0(5)|**
+
+  |0(5)| = |0| = 0
+
+* **Simplify -|-1|**
+
+  -|-1| = -|1| = -1
+
+* **Simplify |-5(-3) + 1|**
+
+  |-5(-3) + 1| = |15 + 1| = |16| = 16
+
+* **Simplify |8|**
+
+  |8| = 8
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->

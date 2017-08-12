@@ -3,13 +3,23 @@ title: Hr Tag
 ---
 ## Hr Tag
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/articles/html/hr-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The horizontal rule or `<hr>` is a tag that allows to insert a divisory line, defining the content of your document.
+It's very important to clarify that this tag is a thematic break; in previous versions of .html is a horizontal rule.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Example
+```
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>FreeCodeCamp</h2>
+    <p>FreeCodeCamp is a place where you can learn to code from scratch to professional</p>
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+    <hr>
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+    <h3>How to start</h3>
+    <p>Just go to <a href="www.freecodecamp.com">FreeCodeCamp website and start learning!</a></p>
 
-
+    <hr>
+  </body
+</html>
+```
