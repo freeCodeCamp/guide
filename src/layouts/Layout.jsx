@@ -14,7 +14,35 @@ const propTypes = {
       children: PropTypes.func,
       location: PropTypes.object
     };
-
+    const style = {
+       Navbar: {
+         background: '#006400',
+         height: '40px'
+       },
+       Link: {
+         textDecoration: 'none',
+         color: '#fff'
+       },
+       Image: {
+           margin: 'auto',
+           position: 'absolute',
+           top: '0',
+           right: '0',
+           bottom: '0',
+            left: '0'
+        //  position: 'relative',
+        // top: '50%',
+        // transform: 'translateY(-50%)'
+      },
+      FCCSearchBar: {
+        margin: 'auto',
+        position: 'absolute',
+        top: '0',
+        right: '0',
+        bottom: '0',
+         left: '0'
+       }
+     };
 class Layout extends React.PureComponent {
   constructor() {
     super();
@@ -32,15 +60,12 @@ class Layout extends React.PureComponent {
       <div>
         <Grid fluid={ true }>
           <Row>
-            <Navbar style={{ background: '#006400' }}>
-              <Col md={ 3 } xs={ 12 }>
+            <Navbar style={style.Navbar}>
+              <Col md={ 3 } xs={ 6 }>
                 <Navbar.Header>
                   <Navbar.Brand>
                     <Link
-                      style={{
-                        textDecoration: 'none',
-                        color: '#fff'
-                      }}
+                      style={style.Link}
                       to={ '/' }
                       >
                       <Image
@@ -51,13 +76,16 @@ class Layout extends React.PureComponent {
                           'freeCodeCamp/assets/master/assets/' +
                           'logos/FCC-logo-white.png'
                           }
+                          style={style.Image}
                       />
                     </Link>
                   </Navbar.Brand>
                 </Navbar.Header>
               </Col>
-              <Col md={ 9 } xs={ 12 }>
-                <FCCSearchBar />
+              <Col md={ 9 } xs={ 6 }>
+                <FCCSearchBar
+                style={style.FCCSearchBar}
+                />
               </Col>
             </Navbar>
           </Row>
