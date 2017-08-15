@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 
-import { TypographyStyle } from 'react-typography';
+import { TypographyStyle, GoogleFont } from 'react-typography';
 import typography from './utils/typography';
 
 export default class HTML extends React.Component {
@@ -53,6 +53,7 @@ export default class HTML extends React.Component {
           />
           <title>freeCodeCamp Guide</title>
           <TypographyStyle typography={typography} />
+          <GoogleFont typography={typography} />
           {css}
         </head>
         <body>
