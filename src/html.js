@@ -51,6 +51,28 @@ export default class HTML extends React.Component {
             }
             rel='stylesheet'
           />
+          <script
+            crossOrigin='anonymous'
+            integrity={
+              'sha384-xBuQ/xzmlsLoJpyjoggmTEz8OWUFM0/RC5BsqQBDX2v5cM' +
+              'vDHcMakNTNrHIW2I5f'
+            }
+            src={
+              'https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/' +
+              'jquery.min.js'
+            }
+          />
+          <script
+            crossOrigin='anonymous'
+            integrity={
+              'sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIp' +
+              'G9mGCD8wGNIcPD7Txa'
+            }
+            src={
+              'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/' +
+              'bootstrap.min.js'
+            }
+          />
           <title>freeCodeCamp Guide</title>
           <TypographyStyle typography={typography} />
           <GoogleFont typography={typography} />
