@@ -1,17 +1,23 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import Panel from 'react-bootstrap/lib/Panel';
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
+
+import { toggleExpandedState } from './redux';
 
 import {
   body,
   caret,
   expanded,
+  navItemLi,
   navPanelUl,
   panel,
   title as titleStyle
 } from './sideNav.module.css';
 
 const propTypes = {
+  categoryChildren: PropTypes.arrayOf(PropTypes.string),
   children: PropTypes.any,
   handleClick: PropTypes.func.isRequired,
   isExpanded: PropTypes.bool,
@@ -19,6 +25,47 @@ const propTypes = {
   title: PropTypes.string
 };
 
+function mapStateToProps(state, ownProps) {
+  const { path } = ownProps;
+  const isExpanded = state.nav.expandedState[path];
+  const category = state.nav.pages.filter(page => page.path === path)[0];
+  const { title, children: categoryChildren } = category;
+
+  return {
+    categoryChildren,
+    isExpanded,
+    title
+  };
+}
+
+function mapDispatchToProps(dispatch) {
+  const dispatchers = {
+    handleClick: bindActionCreators(toggleExpandedState, dispatch)
+  };
+  return dispatchers;
+}
+
+function NoArticles() {
+  return (
+    <li className={ navItemLi }>
+      <span>
+        No articles yet.
+        <br />
+        Could you&nbsp;
+        <a
+          href={
+            'https://github.com/freeCodeCamp/guides/blob/master/README.md' +
+            '#freecodecamp-guides'
+          }
+          rel='nofollow'
+          target='_blank'
+          >
+          write one?
+        </a>
+      </span>
+    </li>
+  );
+}
 
 class NavPanel extends PureComponent {
   constructor() {
@@ -26,12 +73,13 @@ class NavPanel extends PureComponent {
 
     this.renderHeader = this.renderHeader.bind(this);
     this.handleHeaderClick = this.handleHeaderClick.bind(this);
+    this.renderBody = this.renderBody.bind(this);
   }
 
   handleHeaderClick() {
     const { push } = this.context.router.history;
-    const { path } = this.props;
-    this.props.handleClick(path);
+    const { path, handleClick } = this.props;
+    handleClick(path);
     push(path);
   }
 
@@ -55,8 +103,19 @@ class NavPanel extends PureComponent {
     );
   }
 
+  renderBody() {
+    const { categoryChildren, children, isExpanded } = this.props;
+    return (
+        <div className={ isExpanded ? body : '' }>
+          <ul className={ navPanelUl }>
+            { categoryChildren.length ? children : <NoArticles /> }
+          </ul>
+        </div>
+      );
+  }
+
   render() {
-    const { children, isExpanded, title } = this.props;
+    const { isExpanded, title } = this.props;
     return (
       <Panel
         bsClass={ `${panel} panel` }
@@ -64,11 +123,9 @@ class NavPanel extends PureComponent {
         expanded={ isExpanded }
         header={ this.renderHeader(isExpanded, title) }
         >
-        <div className={ isExpanded ? body : '' }>
-          <ul className={ navPanelUl }>
-            { children }
-          </ul>
-        </div>
+        {
+          isExpanded ? this.renderBody() : null
+        }
       </Panel>
     );
   }
@@ -79,4 +136,4 @@ NavPanel.contextTypes = {
 NavPanel.displayName = 'NavPanel';
 NavPanel.propTypes = propTypes;
 
-export default NavPanel;
+export default connect(mapStateToProps, mapDispatchToProps)(NavPanel);
