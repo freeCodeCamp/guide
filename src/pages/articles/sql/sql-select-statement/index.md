@@ -3,13 +3,33 @@ title: SQL Select Statement
 ---
 ## SQL Select Statement
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/articles/sql/sql-select-statement/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+## Select and From clauses
+The Select part is normally to determine what columns of the data to show in the results.  There are also options to show data that is not a table column.  
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+This example shows two columns selected from the "student" table and two calculated columns. The first of the calculated columns is a meaningless math statement and the other is the system date. 
+```sql
+select studentID, FullName, 3+2 as five, now() as currentDate
+from student;
+```
+```text
++-----------+------------------------+------+---------------------+
+| studentID | FullName               | five | currentDate         |
++-----------+------------------------+------+---------------------+
+|         1 | Monique Davis          |    5 | 2017-08-18 13:42:38 |
+|         2 | Teri Gutierrez         |    5 | 2017-08-18 13:42:38 |
+|         3 | Spencer Pautier        |    5 | 2017-08-18 13:42:38 |
+|         4 | Louis Ramsey           |    5 | 2017-08-18 13:42:38 |
+|         5 | Alvin Greene           |    5 | 2017-08-18 13:42:38 |
+|         6 | Sophie Freeman         |    5 | 2017-08-18 13:42:38 |
+|         7 | Edgar Frank "Ted" Codd |    5 | 2017-08-18 13:42:38 |
+|         8 | Donald D. Chamberlin   |    5 | 2017-08-18 13:42:38 |
+|         9 | Raymond F. Boyce       |    5 | 2017-08-18 13:42:38 |
++-----------+------------------------+------+---------------------+
+9 rows in set (0.00 sec)
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+*As with all of these SQL things there is MUCH MORE to them than what's in this introductory guide.  
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+I hope this at least gives you enough to get started.  
 
-
+Please see the manual for your database manager and have fun trying different options yourself.
