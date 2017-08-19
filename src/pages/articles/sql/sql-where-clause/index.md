@@ -1,13 +1,16 @@
 ---
 title: SQL Where Clause
 ---
+
 ## SQL Where Clause
 
-## Where Clause (and / or, IN, Between and LIKE)
+### Where Clause (and / or, IN, BETWEEN and LIKE)
+
 The WHERE clause is used to limit the number of rows returned.  
+
 In this case all five of these will be used is a some what ridiculous Where clause. 
 
-Here is the current full student list to compare to the where clause result set below.
+Here is the current full student list to compare to the WHERE clause result set:
 
 ```sql
 select studentID, FullName, sat_score, rcd_updated from student;
@@ -31,9 +34,11 @@ select studentID, FullName, sat_score, rcd_updated from student;
 ```
 
 Rows will be presented that....
-Have Student IDs between 1 and 5 (inclusive) OR studentID = 8 or have "Maxmimo" in the name.
+* Have Student IDs between 1 and 5 (inclusive) 
+* OR studentID = 8 
+* or have "Maxmimo" in the name
 
-BUT!!! if any of these have a SAT score in THIS LIST (1000, 1400) they will NOT show.
+Here's an updated query, where any record that has an SAT score that's in this list (1000, 1400) will not be presented:
 
 ```sql
 select studentID, FullName, sat_score, recordUpdated
@@ -42,6 +47,7 @@ where ( studentID between 1 and 5 or studentID = 8 or FullName like '%Maximo%'
 ) and 
 sat_score NOT in (1000, 1400);
 ```
+
 ```text
 +-----------+----------------------+-----------+---------------------+
 | studentID | FullName             | sat_score | rcd_updated         |
@@ -54,6 +60,7 @@ sat_score NOT in (1000, 1400);
 +-----------+----------------------+-----------+---------------------+
 5 rows in set (0.00 sec)
 ```
+
 *As with all of these SQL things there is MUCH MORE to them than what's in this introductory guide.  
 
 I hope this at least gives you enough to get started.  
