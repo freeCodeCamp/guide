@@ -1,16 +1,20 @@
 ---
 title: SQL Select Statement
 ---
+
 ## SQL Select Statement
 
 ## Select and From clauses
-The Select part is normally to determine what columns of the data to show in the results.  There are also options to show data that is not a table column.  
 
-This example shows two columns selected from the "student" table and two calculated columns. The first of the calculated columns is a meaningless math statement and the other is the system date. 
+The Select part of a query is normally to determine which columns of the data to show in the results. There are also options you can apply to show data that is not a table column.
+
+This example shows two columns selected from the "student" table and two calculated columns. The first of the calculated columns is a meaningless number, and the other is the system date. 
+
 ```sql
 select studentID, FullName, 3+2 as five, now() as currentDate
 from student;
 ```
+
 ```text
 +-----------+------------------------+------+---------------------+
 | studentID | FullName               | five | currentDate         |
