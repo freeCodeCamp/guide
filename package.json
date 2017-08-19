@@ -44,7 +44,6 @@
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "chalk": "^2.0.1",
-    "gh-pages": "^0.12.0",
     "pre-commit": "^1.2.2",
     "redux-devtools-extension": "^2.13.2",
     "warning": "^3.0.0"
