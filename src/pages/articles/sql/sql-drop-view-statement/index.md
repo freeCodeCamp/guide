@@ -1,44 +1,51 @@
 ---
 title: SQL Drop View Statement
 ---
+
 ## SQL Drop View Statement
 
-## Introduction
-This guide covers the SQL statement for dropping (deleting) 1 or many VIEW object(s).  
+### Introduction
+
+This guide covers the SQL statement for dropping (deleting) one or more view objects. 
+
 A View is an object that presents data from one or more tables.
 
-NOTE: before deleting or changing data or objects remember to have a fresh backup!!!
+Note: before deleting or changing data or objects, remember to have a fresh backup.
 
-We will cover;
+We will cover:
 * Using SQL to drop a table
-* Using the workbench to drop a view01
+* Using the workbench to drop a view
 
-We'll be using MySQL for the demontration.  Check the manual for this function in other Database Managers.
+We'll be using MySQL for the demontration. Check the manual for this function in other Database Managers.
 
-We'll drop the View called `students_dropMe_v` created just for this purpose.
+We'll drop the view called `students_dropMe_v`, which was created just for this purpose.
 
-## Basic Syntax
+### Basic Syntax
+
 ```sql
 DROP VIEW [IF EXISTS]
     view_name [, view_name] ...
 ```
 
-## Drop View SQL
-The if exists portion will "trap" errors should the view not exist.
+### Drop View SQL
+
+The if exists portion will "trap" errors, should the view not exist.
+
 ```sql
 drop view if exists students_dropMe_v;
 ```
-The View after creation
+
+The view after creation:
 
 ![image-1](https://github.com/SteveChevalier/guide-images/blob/master/drop-view01.JPG)
 
-Above command executed and views shown
+Above command executed and views shown:
 
 ![image-2](https://github.com/SteveChevalier/guide-images/blob/master/drop-view02.JPG)
 
+### Using the Workbench
 
-## Using the Workbench
-From the workbench.
+From the workbench:
 1) Right click on the view to drop
 2) select drop view from the menu
 3) Select either either a) run SQL to review the SQL statement to be executed or b) drop new 
@@ -49,8 +56,10 @@ From the workbench.
 
 Please see the manual for your database manager and have fun trying different options yourself.*
 
-## extra
-Here's the SQL used to create the table that was dropped
+### Extra
+
+Here's the SQL I used to create the table that we just dropped:
+
 ```sql
 create view `students_dropMe_v` as
 select FullName, programOfStudy 
