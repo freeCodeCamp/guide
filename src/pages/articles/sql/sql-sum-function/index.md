@@ -1,15 +1,47 @@
 ---
 title: SQL Sum Function
 ---
+
 ## SQL Sum Function
+This is one of the aggregate functions (as is count, average, max, min etc...). They are used in a group by clause as it aggregates data presented by the SELECT FROM WHERE portion of the 
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/articles/sql/sql-sum-function/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+## Example of use
+"sum(Total_$)" in the SELECT statement is aggregated in the Group by clause. "Count(*)" provides the number of contrabutions.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+This data is from the campaign contributions data we've been using in some of these guides.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+This SQL statement is answering the question; "which candidates received the largest total contribution dollars in 2016 BUT only those that had more than $20 Million USD for all contrabutions combined? 
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+Ordering this data set in a descending (DESC) order places the candidates with the largest total contributions at the top of the list.
 
+```sql
+select Candidate, Election_year, sum(Total_$), count(*)
+from combined_party_data
+where Election_year = 2016
+group by Candidate, Election_year -- this tells the DBMS to summarize by these two columns
+having sum(Total_$) > 20000000  -- limits the rows presented from the summary of money ($20 Million USD)
+order by sum(Total_$) DESC; -- orders the presented rows with the largest ones first.
+```
+
+```text
++--------------------------------------------------+---------------+-------------------+----------+
+| Candidate                                        | Election_year | sum(Total_$)      | count(*) |
++--------------------------------------------------+---------------+-------------------+----------+
+| CLINTON, HILLARY RODHAM & KAINE, TIMOTHY M (TIM) |          2016 | 568135094.4400003 |      126 |
+| TRUMP, DONALD J & PENCE, MICHAEL R (MIKE)        |          2016 | 366853142.7899999 |      114 |
+| SANDERS, BERNARD (BERNIE)                        |          2016 |      258562022.17 |      122 |
+| CRUZ, RAFAEL EDWARD (TED)                        |          2016 | 93430700.29000005 |      104 |
+| CARSON, BENJAMIN S (BEN)                         |          2016 | 62202411.12999996 |       93 |
+| RUBIO, MARCO ANTONIO                             |          2016 |        44384313.9 |      106 |
+| BUSH, JOHN ELLIS (JEB)                           |          2016 |       34606731.78 |       97 |
++--------------------------------------------------+---------------+-------------------+----------+
+7 rows in set (0.01 sec)
+```
+
+
+*As with all of these SQL things there is MUCH MORE to them than what's in this introductory guide.  
+
+I hope this at least gives you enough to get started.  
+
+Please see the manual for your database manager and have fun trying different options yourself.
 
