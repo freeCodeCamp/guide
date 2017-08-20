@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Link from 'gatsby-link';
 
-import { navItemLi, navItemTitle } from './sideNav.module.css';
+import { navItemLi, navItemTitle } from '../../../css/sideNav.module.css';
 
 const propTypes = {
   path: PropTypes.string,

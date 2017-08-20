@@ -1,7 +1,7 @@
 import { createEpic } from 'redux-epic';
 import { createStore as reduxCreateStore, applyMiddleware } from 'redux';
 
-import searchEpic from './components/search/redux/searchEpic';
+import searchEpic from './layouts/components/search/redux/searchEpic';
 
 import rootReducer from './redux/reducers';
 

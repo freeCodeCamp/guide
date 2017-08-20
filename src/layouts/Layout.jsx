@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import SearchBar from '../components/search/SearchBar.jsx';
+import SearchBar from './components/search/SearchBar.jsx';
 import { Grid, Row, Col, Image, Navbar } from 'react-bootstrap';
 
 import Link from 'gatsby-link';
 
-import SideNav from '../components/nav/SideNav.jsx';
+import SideNav from './components/nav/SideNav.jsx';
 
 import {
   navBar,

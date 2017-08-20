@@ -14,7 +14,7 @@ import {
   navPanelUl,
   panel,
   title as titleStyle
-} from './sideNav.module.css';
+} from '../../../css/sideNav.module.css';
 
 const propTypes = {
   categoryChildren: PropTypes.arrayOf(PropTypes.string),

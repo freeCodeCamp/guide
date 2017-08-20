@@ -2,11 +2,8 @@ import { createTypes } from 'redux-create-types';
 import { createAction, handleActions } from 'redux-actions';
 
 const initialState = {
-  fetchingTypeAheads: false,
-  fetchingTypeAheadsFailed: false,
-  fetchingTypeAheadsSuccess: false,
-  typeAheads: [],
-
+  isSearching: false,
+  lastPage: '/articles',
   results: [],
   searchTerm: ''
 };
@@ -18,46 +15,39 @@ export const types = createTypes(
     'updateTypeAheads',
 
     'fetchSearchResults',
+    'resetSearch',
+    'updateLastPage',
     'updateSearchResults',
     'updateSearchTerm'
   ],
   'search'
 );
 
-export const fetchTypeAheads = createAction(types.fetchTypeAheads);
-export const fetchingTypeAheadsFailed = createAction(
-  types.fetchingTypeAheadsFailed
-);
-export const updateTypeAheads = createAction(types.updateTypeAheads);
-
 export const fetchSearchResults = createAction(types.fetchSearchResults);
+export const resetSearch = createAction(types.resetSearch);
+export const updateLastPage = createAction(types.updateLastPage);
 export const updateSearchResults = createAction(types.updateSearchResults);
 export const updateSearchTerm = createAction(types.updateSearchTerm);
 
 export const reducer = handleActions(
   {
-    [types.fetchTypeAheads]: state => ({
+    [types.fetchSearchResults]: state => ({
       ...state,
-      fetchingTypeAheads: true,
-      fetchingTypeAheadsFailed: false,
-      fetchingTypeAheadsSuccess: false
+      isSearching: true
     }),
-    [types.fetchingTypeAheadsFailed]: state => ({
+    [types.resetSearch]: state => ({
       ...state,
-      fetchingTypeAheads: false,
-      fetchingTypeAheadsFailed: true,
-      fetchingTypeAheadsSuccess: false
+      results: [],
+      searchTerm: ''
     }),
-    [types.updateTypeAheads]: (state, { payload }) => ({
+    [types.updateLastPage]: (state, { payload }) => ({
       ...state,
-      fetchingTypeAheads: false,
-      fetchingTypeAheadsFailed: false,
-      fetchingTypeAheadsSuccess: true,
-      typeAheads: payload
+      lastPage: payload
     }),
     [types.updateSearchResults]: (state, { payload = [] }) => ({
       ...state,
-      results: Array.isArray(payload) ? payload : []
+      isSearching: false,
+      results: payload
     }),
     [types.updateSearchTerm]: (state, { payload }) => ({
       ...state,

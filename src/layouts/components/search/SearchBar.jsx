@@ -2,34 +2,28 @@ import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import Button from 'react-bootstrap/lib/Button';
 import Navbar from 'react-bootstrap/lib/Navbar';
 import FormGroup from 'react-bootstrap/lib/FormGroup';
 import FormControl from 'react-bootstrap/lib/FormControl';
 
 import {
   fetchSearchResults,
-  fetchTypeAheads,
+  updateLastPage,
   updateSearchResults,
   updateSearchTerm
 } from './redux';
 
-import Results from './components/Results.jsx';
-import TypeAhead from './components/TypeAhead.jsx';
-
 import {
   form,
   formGroup,
-  input,
-  searchButton
-} from './SearchBar.module.css';
+  input
+} from '../../../css/SearchBar.module.css';
 
 const propTypes = {
   fetchSearchResults: PropTypes.func.isRequired,
-  fetchTypeAheads: PropTypes.func.isRequired,
   results: PropTypes.arrayOf(PropTypes.object),
   searchTerm: PropTypes.string,
-  typeAheads: PropTypes.arrayOf(PropTypes.string),
+  updateLastPage: PropTypes.func.isRequired,
   updateSearchResults: PropTypes.func.isRequired,
   updateSearchTerm: PropTypes.func.isRequired
 };
@@ -37,21 +31,20 @@ const propTypes = {
 function mapStateToProps(state) {
   return {
     results: state.search.results,
-    searchTerm: state.search.searchTerm,
-    typeAheads: state.search.typeAheads
+    searchTerm: state.search.searchTerm
   };
 }
 
 function mapDispatchToProps(dispatch) {
   return bindActionCreators({
     fetchSearchResults,
-    fetchTypeAheads,
+    updateLastPage,
     updateSearchResults,
     updateSearchTerm
   }, dispatch);
 }
 
-class FCCSearchBar extends PureComponent {
+class SearchBar extends PureComponent {
   constructor() {
     super();
 
@@ -59,25 +52,22 @@ class FCCSearchBar extends PureComponent {
     this.handleSubmit = this.handleSubmit.bind(this);
   }
 
-  componentDidMount() {
-    const {
-      fetchTypeAheads,
-      typeAheads
-    } = this.props;
-    if (!typeAheads.length) {
-      fetchTypeAheads();
-    }
-  }
-
   handleChange(e) {
     e.preventDefault();
     const {
-      results,
+      updateLastPage,
       updateSearchResults,
       updateSearchTerm
     } = this.props;
+    const { push } = this.context.router.history;
+    const { pathname } = this.context.router.history.location;
     const { value } = e.target;
-    if (results.length) {
+
+    if (pathname !== '/search' && value.length > 2) {
+      updateLastPage(pathname);
+      push('/search');
+    }
+    if (value.length <= 2) {
       updateSearchResults([]);
     }
     updateSearchTerm(value);
@@ -105,18 +95,18 @@ class FCCSearchBar extends PureComponent {
                 type='text'
                 value={ searchTerm }
               />
-              <Button className={ searchButton } type='submit'>Search</Button>
             </FormGroup>
           </Navbar.Form>
         </form>
-        <Results />
-        <TypeAhead />
       </div>
     );
   }
 }
 
-FCCSearchBar.displayName = 'FCCSearchBar';
-FCCSearchBar.propTypes = propTypes;
+SearchBar.contextTypes = {
+    router: React.PropTypes.object.isRequired
+};
+SearchBar.displayName = 'SearchBar';
+SearchBar.propTypes = propTypes;
 
-export default connect(mapStateToProps, mapDispatchToProps)(FCCSearchBar);
+export default connect(mapStateToProps, mapDispatchToProps)(SearchBar);
