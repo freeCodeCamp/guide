@@ -1,0 +1,42 @@
+.form {
+  margin-bottom: 0px;
+}
+
+.colourGreen {
+  color: #006400;
+}
+
+.formGroup {
+  display: flex !important;
+}
+
+.input {
+  width: 100% !important;
+}
+
+.pointer {
+  cursor: pointer;
+}
+.resultIcon {
+  color: rgba(0, 100, 0, 0.5);
+  margin-right: 6px;
+}
+
+.searchButton {
+  background: #fff;
+  color: #006400;
+  border-color: #006400;
+}
+
+.searchButton:hover {
+  background: #006400;
+  color: #fff;
+  border-color: #fff;
+}
+
+.searchResults {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  width: 100%;
+}

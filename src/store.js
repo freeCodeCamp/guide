@@ -1,17 +1,15 @@
-import { createStore as reduxCreateStore } from 'redux';
-import { composeWithDevTools } from 'redux-devtools-extension';
+import { createEpic } from 'redux-epic';
+import { createStore as reduxCreateStore, applyMiddleware } from 'redux';
+
+import searchEpic from './components/search/redux/searchEpic';
 
 import rootReducer from './redux/reducers';
 
-let createStore;
+const epicMiddleware = createEpic(searchEpic);
 
-if (process.NODE_ENV !== 'production') {
-  createStore = () => reduxCreateStore(
-    rootReducer,
-    composeWithDevTools()
-  );
-} else {
-  createStore = () => reduxCreateStore(rootReducer);
-}
+const createStore = () => reduxCreateStore(
+  rootReducer,
+  applyMiddleware(epicMiddleware)
+);
 
 export default createStore;

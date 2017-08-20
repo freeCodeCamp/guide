@@ -1,7 +1,6 @@
 import React from 'react';
 
-function fccMetaTags() {
-  return [
+const favicons = [
     <link
       href='https://s3.amazonaws.com/freecodecamp/favicons/favicon.ico'
       rel='icon'
@@ -228,6 +227,6 @@ function fccMetaTags() {
       content='/'
       name='msapplication-TileImage'
     />
-  ].map((Component, i) => ({ ...Component, key: i }));
-}
-export default fccMetaTags;
+  ];
+
+export default favicons;
