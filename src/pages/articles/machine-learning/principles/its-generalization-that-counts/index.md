@@ -3,13 +3,26 @@ title: Its Generalization That Counts
 ---
 ## Its Generalization That Counts
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/articles/machine-learning/principles/its-generalization-that-counts/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The power of machine learning comes from not having to hard code or explicitly
+define the parameters that describe your training data and unseen data. This is
+the essential goal of machine learning: to generalize a learner's findings.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+To test a learner's generalizability, you'll want to have a separate test data
+set that is not used in any way in training the learner. This can be created by
+either splitting your entire training data set into a training and test set, or
+to just collect more data. If the learner were to use data found in the test
+data set, this would create a sort of bias in your learner to do better than in
+reality.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+One method to get a sense on how your learner will do on a test data set is to
+perform what is called **cross-validation**. This randomly splits up your
+training data into a given number of subsets (for example ten subsets) and
+leaves one subset out while the learner trains on the rest. And then once the
+learner has been trained, the left out data set is used for testing. This
+training, leaving one subset out, and testing is repeated as you rotate through
+the subsets.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+- [A Few Useful Things to Know about Machine Learning](https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf)
+- ["How do you use test data set after Cross-validation"](https://stats.stackexchange.com/a/153058/132399)
