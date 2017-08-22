@@ -9,6 +9,7 @@ const preFormatted = {
   columnnumber: 'columnNumber',
   compareexchange: 'compareExchange',
   copywithin: 'copyWithin',
+  cplusplus: 'C++',
   css: 'CSS',
   css3: 'CSS3',
   defineproperties: 'defineProperties',

@@ -2,8 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 
-import { TypographyStyle } from 'react-typography';
+import { TypographyStyle, GoogleFont } from 'react-typography';
 import typography from './utils/typography';
+
+import metaAndStyleSheets from './head';
+
 
 export default class HTML extends React.Component {
   static propTypes = {
@@ -30,30 +33,11 @@ export default class HTML extends React.Component {
       <html lang='en'>
         <head>
           { this.props.headComponents }
-          <meta charSet='utf-8' />
-          <meta
-            content='IE=edge'
-            httpEquiv='X-UA-Compatible'
-          />
-          <meta
-            content='width=device-width, initial-scale=1.0'
-            name='viewport'
-          />
-          <link
-            crossOrigin='anonymous'
-            href={
-              'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/' +
-              'bootstrap.min.css'
-            }
-            integrity={
-              'sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+' +
-              'PmSTsz/K68vbdEjh4u'
-            }
-            rel='stylesheet'
-          />
-          <title>freeCodeCamp Guide</title>
+          { metaAndStyleSheets }
           <TypographyStyle typography={typography} />
+          <GoogleFont typography={typography} />
           {css}
+          <title>freeCodeCamp Guide</title>
         </head>
         <body>
           <div

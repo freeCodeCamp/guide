@@ -1,13 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import FCCSearchBar from 'react-freecodecamp-search';
+import SearchBar from './components/search/SearchBar.jsx';
 import { Grid, Row, Col, Image, Navbar } from 'react-bootstrap';
-// gatsby
+
 import Link from 'gatsby-link';
 
-import SideNav from '../components/nav/SideNav.jsx';
+import SideNav from './components/nav/SideNav.jsx';
 
-// Import styles
+import {
+  navBar,
+  link
+} from './Layout.module.css';
 
 const propTypes = {
       'location.pathname': PropTypes.string,
@@ -67,6 +70,13 @@ class Layout extends React.PureComponent {
                     <Link
                       style={style.Link}
                       to={ '/' }
+            <Navbar className={ navBar }>
+              <Col md={ 3 } xs={ 12 }>
+                <Navbar.Header>
+                  <Navbar.Brand>
+                    <Link
+                      className={ link }
+                      to={ '/articles' }
                       >
                       <Image
                         alt='freeCodeCamp logo'
@@ -86,6 +96,8 @@ class Layout extends React.PureComponent {
                 <FCCSearchBar
                 style={style.FCCSearchBar}
                 />
+              <Col md={ 9 } xs={ 12 }>
+                <SearchBar />
               </Col>
             </Navbar>
           </Row>

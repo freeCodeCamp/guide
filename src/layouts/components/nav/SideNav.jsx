@@ -8,7 +8,7 @@ import { toggleExpandedState } from './redux';
 import NavPanel from './NavPanel.jsx';
 import NavItem from './NavItem.jsx';
 
-import { sideNav } from './sideNav.module.css';
+import { sideNav } from '../../../css/sideNav.module.css';
 
 const propTypes = {
   expandedState: PropTypes.object,
@@ -33,11 +33,11 @@ function mapDispatchToProps(dispatch) {
   return dispatchers;
 }
 
-function renderChildren(children, navProps) {
+function renderChildren(children, pages) {
     return children
     .map(child => {
       if (child.hasChildren) {
-        return renderParent(child, navProps);
+        return renderParent(child, pages);
       }
       return (
         <NavItem
@@ -49,58 +49,28 @@ function renderChildren(children, navProps) {
   });
 }
 
-function renderParent(parent, navProps) {
-  const {
-    expandedState,
-    toggleExpandedState,
-    pages
-  } = navProps;
-
+function renderParent(parent, pages) {
   const childrenForParent = pages
     .filter(page => page.parent === parent.dashedName);
 
-    const children = renderChildren(childrenForParent, navProps);
+    const children = renderChildren(childrenForParent, pages);
 
   return (
     <NavPanel
-      handleClick={ toggleExpandedState }
-      isExpanded={ expandedState[parent.path] }
       key={ parent.path }
       path={ parent.path }
-      title={ parent.title }
       >
-      {
-        children.length ?
-        children :
-        <span>
-          No articles yet.
-          <br />
-          Could you&nbsp;
-          <a
-            href={
-              'https://github.com/freeCodeCamp/guides/blob/master/README.md' +
-              '#freecodecamp-guides'
-            }
-            rel='nofollow'
-            target='_blank'
-            >
-            write one?
-          </a>
-        </span>
-      }
+      { children }
     </NavPanel>
     );
 }
 
-function renderPanels(navProps) {
-  const {
-    parents
-  } = navProps;
+function renderPanels(parents, pages) {
   if (!parents) {
     return 'No Parents Here';
   }
   return parents
-    .map(parent => renderParent(parent, navProps));
+    .map(parent => renderParent(parent, pages));
 }
 
 class SideNav extends Component {
@@ -109,15 +79,8 @@ class SideNav extends Component {
   }
 
   render() {
-    const { expandedState, pages, parents, toggleExpandedState } = this.props;
-    const panels = renderPanels(
-      {
-        parents,
-        pages,
-        expandedState,
-        toggleExpandedState
-      }
-    );
+    const { expandedState, pages, parents } = this.props;
+    const panels = renderPanels(parents, pages);
     return (
       <div className={ sideNav } id='side-nav'>
         <PanelGroup>

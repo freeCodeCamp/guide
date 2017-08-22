@@ -1,15 +1,57 @@
 ---
-title: SQL in Operator
+title: SQL In Operator
 ---
-## SQL in Operator
+## SQL In Operator
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/articles/sql/sql-in-operator/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+## IN Operator defined
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The IN opertor is used in a WHERE or HAVING (as part of the GROUP BY) to limit the selected rows to the items "IN" a list.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Here is the current full student list to compare to the where clause result set:
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+```sql
+select studentID, FullName, sat_score, rcd_updated from student;
+```
 
+```text
++-----------+------------------------+-----------+---------------------+
+| studentID | FullName               | sat_score | rcd_updated         |
++-----------+------------------------+-----------+---------------------+
+|         1 | Monique Davis          |       400 | 2017-08-16 15:34:50 |
+|         2 | Teri Gutierrez         |       800 | 2017-08-16 15:34:50 |
+|         3 | Spencer Pautier        |      1000 | 2017-08-16 15:34:50 |
+|         4 | Louis Ramsey           |      1200 | 2017-08-16 15:34:50 |
+|         5 | Alvin Greene           |      1200 | 2017-08-16 15:34:50 |
+|         6 | Sophie Freeman         |      1200 | 2017-08-16 15:34:50 |
+|         7 | Edgar Frank "Ted" Codd |      2400 | 2017-08-16 15:35:33 |
+|         8 | Donald D. Chamberlin   |      2400 | 2017-08-16 15:35:33 |
+|         9 | Raymond F. Boyce       |      2400 | 2017-08-16 15:35:33 |
++-----------+------------------------+-----------+---------------------+
+9 rows in set (0.00 sec)
+```
 
+Rows will be presented that have an SAT score in this list (1000, 2400):
+
+```sql
+select studentID, FullName, sat_score, rcd_updated
+from student
+where sat_score IN (1000, 2400);
+```
+
+```text
++-----------+------------------------+-----------+---------------------+
+| studentID | FullName               | sat_score | rcd_updated         |
++-----------+------------------------+-----------+---------------------+
+|         3 | Spencer Pautier        |      1000 | 2017-08-16 15:34:50 |
+|         7 | Edgar Frank "Ted" Codd |      2400 | 2017-08-16 15:35:33 |
+|         8 | Donald D. Chamberlin   |      2400 | 2017-08-16 15:35:33 |
+|         9 | Raymond F. Boyce       |      2400 | 2017-08-16 15:35:33 |
++-----------+------------------------+-----------+---------------------+
+4 rows in set (0.00 sec)
+```
+
+*As with all of these SQL things there is MUCH MORE to them than what's in this introductory guide.*
+
+I hope this at least gives you enough to get started.  
+
+Please see the manual for your database manager and have fun trying different options yourself.
