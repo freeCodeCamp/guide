@@ -10,7 +10,7 @@ import {
 } from '../../../css/NoResults.module.css';
 
 function NoResults(props) {
-  const { page = '/articles', searchTerm } = props;
+  const { page = '/articles', searchTerm = '' } = props;
   const helperHeader = searchTerm.length ?
     'We couldn\'t find what you were looking for' :
     'It looks like you are not searching for anything';
