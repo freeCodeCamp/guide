@@ -2,9 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 
-import { TypographyStyle, GoogleFont } from 'react-typography';
-import typography from './utils/typography';
-
 import metaAndStyleSheets from './head';
 
 
@@ -34,9 +31,7 @@ export default class HTML extends React.Component {
         <head>
           { this.props.headComponents }
           { metaAndStyleSheets }
-          <TypographyStyle typography={typography} />
-          <GoogleFont typography={typography} />
-          {css}
+          { css }
           <title>freeCodeCamp Guide</title>
         </head>
         <body>
