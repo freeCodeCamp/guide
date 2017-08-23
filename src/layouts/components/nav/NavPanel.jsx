@@ -10,11 +10,10 @@ import {
   body,
   caret,
   expanded,
-  navItemLi,
   navPanelUl,
   panel,
   title as titleStyle
-} from '../../../css/sideNav.module.css';
+} from '../../../css/SideNav.module.css';
 
 const propTypes = {
   categoryChildren: PropTypes.arrayOf(PropTypes.string),
@@ -47,7 +46,7 @@ function mapDispatchToProps(dispatch) {
 
 function NoArticles() {
   return (
-    <li className={ navItemLi }>
+    <li>
       <span>
         No articles yet.
         <br />
