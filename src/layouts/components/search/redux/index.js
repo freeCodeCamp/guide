@@ -10,10 +10,6 @@ const initialState = {
 
 export const types = createTypes(
   [
-    'fetchTypeAheads',
-    'fetchingTypeAheadsFailed',
-    'updateTypeAheads',
-
     'fetchSearchResults',
     'resetSearch',
     'updateLastPage',
