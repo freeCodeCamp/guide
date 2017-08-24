@@ -50,11 +50,11 @@ const faNames = {
 
 function FAIcon({ name }) {
   return (
-  <FontAwesome
-    className={ resultIcon }
-    name={ faNames[name] ? faNames[name] : 'free-code-camp' }
-    size='3x'
-  />
+    <FontAwesome
+      className={ resultIcon }
+      name={ faNames[name] ? faNames[name] : 'free-code-camp' }
+      size='3x'
+    />
   );
 }
 
@@ -86,13 +86,7 @@ class Results extends PureComponent {
   constructor() {
     super();
 
-    this.handleClick = this.handleClick.bind(this);
     this.renderResultItems = this.renderResultItems.bind(this);
-  }
-
-  handleClick() {
-    const { resetSearch } = this.props;
-    resetSearch();
   }
 
   renderResultItems() {
@@ -117,6 +111,7 @@ class Results extends PureComponent {
       );
     });
   }
+
   render() {
     const { results = [] } = this.props;
     if (!results.length) {

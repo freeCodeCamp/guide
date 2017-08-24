@@ -76,6 +76,7 @@ class Layout extends React.PureComponent {
     );
   }
 }
+
 Layout.contextTypes = {
     router: React.PropTypes.object.isRequired
 };

@@ -16,22 +16,23 @@ function ResultsSkeleton() {
   // create an array of four indexes, 
   // the contructor method does not work for this
   const results = [1, 1, 1, 1, 1, 1, 1, 1].map((_, i) => {
-          return (
-            <Media key={ i }>
-              <Media.Left align='middle'>
-                <div className={ `${iconSkeleton} ${skeleton}` } />
-              </Media.Left>
-              <Media.Body>
-                <Media.Heading
-                  className={ `${textSkeleton} ${skeleton}` }
-                  >
-                  { title }
-                </Media.Heading>
-                <p className={ `${textSkeleton} ${skeleton}` }>{ text }</p>
-              </Media.Body>
-            </Media>
-          );
-        });
+    return (
+      <Media key={ i }>
+        <Media.Left align='middle'>
+          <div className={ `${iconSkeleton} ${skeleton}` } />
+        </Media.Left>
+        <Media.Body>
+          <Media.Heading
+            className={ `${textSkeleton} ${skeleton}` }
+            >
+            { title }
+          </Media.Heading>
+          <p className={ `${textSkeleton} ${skeleton}` }>{ text }</p>
+        </Media.Body>
+      </Media>
+    );
+  });
+
   return (
     <div className={ searchResults }>
       { results }
