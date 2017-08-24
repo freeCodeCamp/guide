@@ -3,13 +3,31 @@ title: Data Alone Is not Enough
 ---
 ## Data Alone Is not Enough
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/articles/machine-learning/principles/data-alone-is-not-enough/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Without accounting for changing machine learning algorithms or other aspects of
+training the model, data alone is not enough to help your learner do better.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+> Every learner must embody some knowledge or assumptions beyond the data it's
+> given in order to generalize beyond it (Domingos, 2012).
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+What this statement is essentially saying is that if you blindly choose a
+learner just because you've heard it does well, collecting more data won't
+necessarily help you in your machine learning goals.
+
+For example, say you have data which depends on time (e.g. time series data)
+and you want to use a binary classifier (e.g. logistic regression). Collecting
+more time series data might not be the best to help your learner. This is
+because a binary classifier isn't designed for time series.
+
+This is not to say that once you've chosen the best machine learning algorithm
+based on your problem that adding more data does you no good. In this case, it
+will help you.
+
+> Machine learning is not magic; it can't get something from nothing. What it
+> does is get more from less...Learners combine knowledge with data to grow
+> programs (Domingos, 2012).
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+- [A Few Useful Things to Know about Machine Learning](https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf)
+- [In Machine Learning, What is Better: More Data or better Algorithms?](http://www.kdnuggets.com/2015/06/machine-learning-more-data-better-algorithms.html)
+- [In machine learning, is more data always better than better algorithms?](https://www.quora.com/In-machine-learning-is-more-data-always-better-than-better-algorithms/answer/Xavier-Amatriain?srid=Tds3)
