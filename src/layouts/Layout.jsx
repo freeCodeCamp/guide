@@ -12,6 +12,8 @@ import {
   link
 } from './Layout.module.css';
 
+require('prismjs/themes/prism.css');
+
 const propTypes = {
       'location.pathname': PropTypes.string,
       children: PropTypes.func,
