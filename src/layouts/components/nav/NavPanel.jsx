@@ -130,6 +130,7 @@ class NavPanel extends PureComponent {
     );
   }
 }
+
 NavPanel.contextTypes = {
   router: PropTypes.object
 };
