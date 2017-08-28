@@ -17,7 +17,7 @@ const isAStubRE = /This\sis\sa\sstub.+?Help\sour\scommunity\sexpand\sit/;
 const markdownLinkRE = /\!?\[.*?\]\(.+?\)/g;
 const httpsRE = /https?\:\/\//;
 
-const articlesDir = `${process.cwd()}/src/pages/articles`;
+const articlesDir = `${process.cwd()}/src/pages`;
 
 function readDir(dir) {
   return fse.readdirSync(dir)
@@ -28,14 +28,14 @@ function readDir(dir) {
 function appendStub(title, path) {
   const pathArr = path.split('/');
   const filePath = pathArr
-    .slice(pathArr.indexOf('articles') + 1)
+    .slice(pathArr.indexOf('pages') + 1)
     .join('/')
     .toLowerCase();
 /* eslint-disable max-len */
   return `
 ## ${title}
 
-This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/${filePath}/index.md).
+This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/${filePath}/index.md).
 
 [This quick style guide will help ensure your pull request gets accepted](https://github.com/freecodecamp/guides/blob/master/README.md).
 
