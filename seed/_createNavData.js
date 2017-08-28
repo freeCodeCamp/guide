@@ -4,7 +4,7 @@ const Rx = require('rx');
 const { Observable } = Rx;
 const isAFileRegEx = /(\.md|\.jsx?|\.html?)$/;
 const shouldBeIgnoredRegEx = /^(\_|\.)/;
-const topLevel = 'src/pages/articles';
+const topLevel = 'src/pages';
 const navData = {};
 
 const { titleify } = require('./utils');
