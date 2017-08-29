@@ -16,7 +16,7 @@ reality.
 
 One method to get a sense on how your learner will do on a test data set is to
 perform what is called **cross-validation**. This randomly splits up your
-training data into a given number of subsets (for example ten subsets) and
+training data into a given number of subsets (for example, ten subsets) and
 leaves one subset out while the learner trains on the rest. And then once the
 learner has been trained, the left out data set is used for testing. This
 training, leaving one subset out, and testing is repeated as you rotate through
