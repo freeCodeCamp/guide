@@ -3,23 +3,23 @@ title: SQL LIKE Operator
 ---
 ## SQL LIKE Operator
 
-## LIKE Operator defined
+### LIKE Operator defined
 The LIKE opertor is used in a WHERE or HAVING (as part of the GROUP BY) to limit the selected rows to the items when a column has a certain pattern of characters contained in it. 
 
-## This guide will demonstrate;
+### This guide will demonstrate:
 * a column starts with or ends with a given string pattern
 * a string pattern is in the middle of the column
 * a string is NOT in the column
 
-## A column starts or ends with a given string pattern
+### A column starts or ends with a given string pattern
 This SQL will select students that have FullName column starting with Monique or ending with Greene.
 
 ```sql
-select studentID, FullName, sat_score, rcd_updated
-from student 
-where 
-FullName like 'Monique%' or -- note the % at the end but not the beginnig
-FullName like '%Greene'; -- note the % at the beginning but not the end
+SELECT studentID, FullName, sat_score, rcd_updated
+FROM student 
+WHERE 
+FullName LIKE 'Monique%' OR -- note the % at the end but not the beginnig
+FullName LIKE '%Greene'; -- note the % at the beginning but not the end
 ```
 ```text
 +-----------+---------------+-----------+---------------------+
@@ -31,12 +31,12 @@ FullName like '%Greene'; -- note the % at the beginning but not the end
 2 rows in set (0.00 sec)
 ```
 
-## A string pattern is in the middle of the column
-This SQL will select students that have "ree" anywhere in the name
+### A string pattern is in the middle of the column
+This SQL will select students that have "ree" anywhere in the name.
 ```sql
-select studentID, FullName, sat_score, rcd_updated
-from student 
-where FullName like '%ree%'; -- note the % at the beginning AND at the end
+SELECT studentID, FullName, sat_score, rcd_updated
+FROM student 
+WHERE FullName LIKE '%ree%'; -- note the % at the beginning AND at the end
 ```
 ```text
 +-----------+----------------+-----------+---------------------+
@@ -48,14 +48,14 @@ where FullName like '%ree%'; -- note the % at the beginning AND at the end
 2 rows in set (0.00 sec)
 ```
 
-## A string is NOT in the column
-You can place "NOT" before like to get exclude the rows with the string pattern instead of selecting.
+### A string is NOT in the column
+You can place "NOT" before LIKE to exclude the rows with the string pattern instead of selecting them.
 This SQL excludes records that contain "cer Pau" and "Ted" in the FullName column.
 
 ```sql
-select studentID, FullName, sat_score, rcd_updated
-from student 
-where FullName NOT LIKE '%cer Pau%' and FullName NOT LIKE '%"Ted"%';
+SELECT studentID, FullName, sat_score, rcd_updated
+FROM student 
+WHERE FullName NOT LIKE '%cer Pau%' AND FullName NOT LIKE '%"Ted"%';
 ```
 ```text
 +-----------+----------------------+-----------+---------------------+
@@ -75,7 +75,7 @@ where FullName NOT LIKE '%cer Pau%' and FullName NOT LIKE '%"Ted"%';
 *Here is the current full student list to compare to the where clause result sets above.*
 
 ```sql
-select studentID, FullName, sat_score, rcd_updated from student;
+SELECT studentID, FullName, sat_score, rcd_updated FROM student;
 ```
 
 ```text
@@ -94,7 +94,7 @@ select studentID, FullName, sat_score, rcd_updated from student;
 +-----------+------------------------+-----------+---------------------+
 9 rows in set (0.00 sec)
 
-*As with all of these SQL things there is MUCH MORE to them than what's in this introductory guide.  
+As with all of these SQL things there is MUCH MORE to them than what's in this introductory guide.  
 
 I hope this at least gives you enough to get started.  
 
