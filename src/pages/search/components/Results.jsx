@@ -7,14 +7,6 @@ import { bindActionCreators } from 'redux';
 import Media from 'react-bootstrap/lib/Media';
 
 import {
-  colourDarkGrey
-} from '../../../css/Global.module.css';
-import {
-  resultIcon,
-  searchResults
-} from '../../../css/SearchPage.module.css';
-
-import {
   resetSearch,
   updateSearchResults,
   updateSearchTerm
@@ -51,7 +43,7 @@ const faNames = {
 function FAIcon({ name }) {
   return (
     <FontAwesome
-      className={ resultIcon }
+      className='resultIcon'
       name={ faNames[name] ? faNames[name] : 'free-code-camp' }
       size='3x'
     />
@@ -67,13 +59,13 @@ function MediaWrapper(props) {
   const { url } = props;
   return httpRE.test(url) ?
     <a
-      className={ colourDarkGrey }
+      className='colourDarkGrey'
       href={ url }
       target='_blank'
       >
       { props.children }
     </a> :
-    <Link className={ colourDarkGrey } to={ url }>{ props.children }</Link>;
+    <Link className='colourDarkGrey' to={ url }>{ props.children }</Link>;
 }
 
 MediaWrapper.displayName = 'MediaWrapper';
@@ -118,7 +110,7 @@ class Results extends PureComponent {
       return null;
     }
     return (
-      <div className={ searchResults }>
+      <div className='searchResults'>
         { this.renderResultItems() }
       </div>
     );

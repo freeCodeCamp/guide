@@ -8,8 +8,6 @@ import { toggleExpandedState } from './redux';
 import NavPanel from './NavPanel.jsx';
 import NavItem from './NavItem.jsx';
 
-import { sideNav } from '../../../css/sideNav.module.css';
-
 const propTypes = {
   expandedState: PropTypes.object,
   pages: PropTypes.arrayOf(PropTypes.object),
@@ -82,7 +80,7 @@ class SideNav extends Component {
     const { expandedState, pages, parents } = this.props;
     const panels = renderPanels(parents, pages);
     return (
-      <div className={ sideNav } id='side-nav'>
+      <div className='sideNav' id='side-nav'>
         <PanelGroup>
           {
             (!parents || !expandedState) ?
