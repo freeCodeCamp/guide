@@ -1,15 +1,101 @@
 ---
-title: SQL Like Operator
+title: SQL LIKE Operator
 ---
-## SQL Like Operator
+## SQL LIKE Operator
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/articles/sql/sql-like-operator/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+### LIKE Operator defined
+The LIKE opertor is used in a WHERE or HAVING (as part of the GROUP BY) to limit the selected rows to the items when a column has a certain pattern of characters contained in it. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### This guide will demonstrate:
+* a column starts with or ends with a given string pattern
+* a string pattern is in the middle of the column
+* a string is NOT in the column
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### A column starts or ends with a given string pattern
+This SQL will select students that have FullName column starting with Monique or ending with Greene.
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+```sql
+SELECT studentID, FullName, sat_score, rcd_updated
+FROM student 
+WHERE 
+FullName LIKE 'Monique%' OR -- note the % at the end but not the beginnig
+FullName LIKE '%Greene'; -- note the % at the beginning but not the end
+```
+```text
++-----------+---------------+-----------+---------------------+
+| studentID | FullName      | sat_score | rcd_updated         |
++-----------+---------------+-----------+---------------------+
+|         1 | Monique Davis |       400 | 2017-08-16 15:34:50 |
+|         5 | Alvin Greene  |      1200 | 2017-08-16 15:34:50 |
++-----------+---------------+-----------+---------------------+
+2 rows in set (0.00 sec)
+```
 
+### A string pattern is in the middle of the column
+This SQL will select students that have "ree" anywhere in the name.
+```sql
+SELECT studentID, FullName, sat_score, rcd_updated
+FROM student 
+WHERE FullName LIKE '%ree%'; -- note the % at the beginning AND at the end
+```
+```text
++-----------+----------------+-----------+---------------------+
+| studentID | FullName       | sat_score | rcd_updated         |
++-----------+----------------+-----------+---------------------+
+|         5 | Alvin Greene   |      1200 | 2017-08-16 15:34:50 |
+|         6 | Sophie Freeman |      1200 | 2017-08-16 15:34:50 |
++-----------+----------------+-----------+---------------------+
+2 rows in set (0.00 sec)
+```
 
+### A string is NOT in the column
+You can place "NOT" before LIKE to exclude the rows with the string pattern instead of selecting them.
+This SQL excludes records that contain "cer Pau" and "Ted" in the FullName column.
+
+```sql
+SELECT studentID, FullName, sat_score, rcd_updated
+FROM student 
+WHERE FullName NOT LIKE '%cer Pau%' AND FullName NOT LIKE '%"Ted"%';
+```
+```text
++-----------+----------------------+-----------+---------------------+
+| studentID | FullName             | sat_score | rcd_updated         |
++-----------+----------------------+-----------+---------------------+
+|         1 | Monique Davis        |       400 | 2017-08-16 15:34:50 |
+|         2 | Teri Gutierrez       |       800 | 2017-08-16 15:34:50 |
+|         4 | Louis Ramsey         |      1200 | 2017-08-16 15:34:50 |
+|         5 | Alvin Greene         |      1200 | 2017-08-16 15:34:50 |
+|         6 | Sophie Freeman       |      1200 | 2017-08-16 15:34:50 |
+|         8 | Donald D. Chamberlin |      2400 | 2017-08-16 15:35:33 |
+|         9 | Raymond F. Boyce     |      2400 | 2017-08-16 15:35:33 |
++-----------+----------------------+-----------+---------------------+
+7 rows in set (0.00 sec)
+```
+
+*Here is the current full student list to compare to the where clause result sets above.*
+
+```sql
+SELECT studentID, FullName, sat_score, rcd_updated FROM student;
+```
+
+```text
++-----------+------------------------+-----------+---------------------+
+| studentID | FullName               | sat_score | rcd_updated         |
++-----------+------------------------+-----------+---------------------+
+|         1 | Monique Davis          |       400 | 2017-08-16 15:34:50 |
+|         2 | Teri Gutierrez         |       800 | 2017-08-16 15:34:50 |
+|         3 | Spencer Pautier        |      1000 | 2017-08-16 15:34:50 |
+|         4 | Louis Ramsey           |      1200 | 2017-08-16 15:34:50 |
+|         5 | Alvin Greene           |      1200 | 2017-08-16 15:34:50 |
+|         6 | Sophie Freeman         |      1200 | 2017-08-16 15:34:50 |
+|         7 | Edgar Frank "Ted" Codd |      2400 | 2017-08-16 15:35:33 |
+|         8 | Donald D. Chamberlin   |      2400 | 2017-08-16 15:35:33 |
+|         9 | Raymond F. Boyce       |      2400 | 2017-08-16 15:35:33 |
++-----------+------------------------+-----------+---------------------+
+9 rows in set (0.00 sec)
+
+As with all of these SQL things there is MUCH MORE to them than what's in this introductory guide.  
+
+I hope this at least gives you enough to get started.  
+
+Please see the manual for your database manager and have fun trying different options yourself.
