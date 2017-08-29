@@ -3,26 +3,20 @@ import PropTypes from 'prop-types';
 import Button from 'react-bootstrap/lib/Button';
 import Link from 'gatsby-link';
 
-import {
-  button,
-  flexWrapper,
-  verticalAlign
-} from '../../../css/NoResults.module.css';
-
 function NoResults(props) {
   const { page = '/articles', searchTerm = '' } = props;
   const helperHeader = searchTerm.length ?
     'We couldn\'t find what you were looking for' :
     'It looks like you are not searching for anything';
   return (
-    <div className={ flexWrapper }>
-      <div className={ verticalAlign }>
+    <div className='flexWrapper'>
+      <div className='verticalAlign'>
         <h3>{ helperHeader }</h3>
         <p>Trying searching for something, or</p>
         <Link to={ page }>
           <Button
             bsSize='large'
-            className={ button }
+            className='button'
             >
             Return to the previous page
           </Button>

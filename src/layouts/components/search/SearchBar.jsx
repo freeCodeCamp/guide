@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import Navbar from 'react-bootstrap/lib/Navbar';
-import FormGroup from 'react-bootstrap/lib/FormGroup';
 import FormControl from 'react-bootstrap/lib/FormControl';
 
 import {
@@ -12,12 +11,6 @@ import {
   updateSearchResults,
   updateSearchTerm
 } from './redux';
-
-import {
-  form,
-  formGroup,
-  input
-} from '../../../css/SearchBar.module.css';
 
 const propTypes = {
   fetchSearchResults: PropTypes.func.isRequired,
@@ -85,17 +78,15 @@ class SearchBar extends PureComponent {
     } = this.props;
     return (
       <div>
-        <form className={ form } onSubmit={ this.handleSubmit }>
-          <Navbar.Form>
-            <FormGroup className={ formGroup }>
-              <FormControl
-                className={ input }
-                onChange={ this.handleChange }
-                placeholder='What would you like to know?'
-                type='text'
-                value={ searchTerm }
-              />
-            </FormGroup>
+        <form onSubmit={ this.handleSubmit }>
+          <Navbar.Form className='formContainer'>
+            <FormControl
+              className='input'
+              onChange={ this.handleChange }
+              placeholder='&#xf002; What would you like to know?'
+              type='text'
+              value={ searchTerm }
+            />
           </Navbar.Form>
         </form>
       </div>
