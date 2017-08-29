@@ -1,11 +1,8 @@
-.form {
-  margin-bottom: 0px;
-}
-
-.formGroup {
-  display: flex !important;
+.formContainer {
+  margin: 0;
 }
 
 .input {
-  width: 100% !important;
+  min-width: 100%;
+  width: 100%;
 }

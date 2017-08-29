@@ -8,7 +8,7 @@ import { toggleExpandedState } from './redux';
 import NavPanel from './NavPanel.jsx';
 import NavItem from './NavItem.jsx';
 
-import { sideNav } from '../../../css/sideNav.module.css';
+import { sideNav } from '../../../css/SideNav.module.css';
 
 const propTypes = {
   expandedState: PropTypes.object,

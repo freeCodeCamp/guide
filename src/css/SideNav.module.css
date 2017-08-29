@@ -1,12 +1,4 @@
-@keyframes grow {
-  0% { max-height: 0px; }
-  100% { max-height: 1000px; }
-}
-
 .body {
-  animation: 1s ease-in-out 0s;
-  animation-name: grow;
-  margin-left: 20px;
   overflow: hidden;
 }
 
@@ -15,18 +7,13 @@
   border-right: 6px solid transparent;
   border-left: 6px solid transparent;
   color: darkgray;
-  margin-right: 4px;
+  margin-right: 5px;
   transform: rotate(-90deg);
-  transition: all 250ms ease-in-out;
+  transition: transform 150ms ease;
 }
 
 .caret.expanded {
-  transform: none;
-}
-
-.navItemLi {
-  font-size: 16px;
-  margin-bottom: 0px;
+  transform: rotate(0deg);
 }
 
 .navItemTitle {
@@ -35,19 +22,15 @@
 }
 
 .navPanelUl {
-  font-size: 16px;
   list-style: none;
   margin-bottom: 0px;
 }
 
 .panel {
   border: none !important;
-  border-color: white;
   border-radius: 0px;
   box-shadow: none;
   color: #006400;
-  font-family: Lato;
-  font-size: 16px;
   padding: 0;
 }
 
@@ -59,8 +42,6 @@
 .title {
   background-color: white;
   border: none;
-  border-color: white;
   border-radius: 0px;
   cursor: pointer;
-  font-size: 16px;
 }

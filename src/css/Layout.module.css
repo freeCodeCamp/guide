@@ -1,0 +1,17 @@
+.link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navBar {
+  background: #006400;
+  display: flex;
+  align-items: center;
+  /* height: 40px; */
+  border: none;
+  border-radius: 0;
+}
+
+.content {
+  margin-bottom: 50px;
+}

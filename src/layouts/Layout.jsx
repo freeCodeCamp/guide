@@ -9,8 +9,9 @@ import SideNav from './components/nav/SideNav.jsx';
 
 import {
   navBar,
-  link
-} from './Layout.module.css';
+  link,
+  content
+} from '../css/Layout.module.css';
 
 const propTypes = {
       'location.pathname': PropTypes.string,
@@ -37,24 +38,20 @@ class Layout extends React.PureComponent {
           <Row>
             <Navbar className={ navBar }>
               <Col md={ 3 } xs={ 12 }>
-                <Navbar.Header>
-                  <Navbar.Brand>
-                    <Link
-                      className={ link }
-                      to={ '/articles' }
-                      >
-                      <Image
-                        alt='freeCodeCamp logo'
-                        responsive={ true }
-                        src={
-                          'https://raw.githubusercontent.com/' +
-                          'freeCodeCamp/assets/master/assets/' +
-                          'logos/FCC-logo-white.png'
-                          }
-                      />
-                    </Link>
-                  </Navbar.Brand>
-                </Navbar.Header>
+                <Link
+                  className={ link }
+                  to={ '/articles' }
+                  >
+                  <Image
+                    alt='freeCodeCamp logo'
+                    responsive={ true }
+                    src={
+                      'https://raw.githubusercontent.com/' +
+                      'freeCodeCamp/assets/master/assets/' +
+                      'logos/FCC-logo-white.png'
+                      }
+                  />
+                </Link>
               </Col>
               <Col md={ 9 } xs={ 12 }>
                 <SearchBar />
@@ -67,7 +64,7 @@ class Layout extends React.PureComponent {
             <Col md={ 4 }>
               <SideNav />
             </Col>
-            <Col md={ 8 }>
+            <Col className={ content } md={ 8 }>
               { this.props.children() }
             </Col>
           </Row>
