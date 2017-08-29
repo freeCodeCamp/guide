@@ -3,13 +3,13 @@ title: SQL Select Distinct Statement
 ---
 ## SQL Select Distinct Statement
 
-## Introduction
-This keyword allows us to get lists unique values in a column. This guide will demonstrate that.
+### Introduction
+This keyword allows us to get lists of unique values in a column. This guide will demonstrate that.
 
-## Full dispaly of the data in the student table 
+### Full dispaly of the data in the student table 
 ```sql
-use fcc_sql_guides_database;
-select studentID, FullName, sat_score, programOfStudy, rcd_Created, rcd_Updated from student;
+USE fcc_sql_guides_database;
+SELECT studentID, FullName, sat_score, programOfStudy, rcd_Created, rcd_Updated FROM student;
 ```
 ```text
 +-----------+------------------------+-----------+------------------+---------------------+---------------------+
@@ -28,9 +28,9 @@ select studentID, FullName, sat_score, programOfStudy, rcd_Created, rcd_Updated 
 9 rows in set (0.00 sec)
 ```
 
-## Get list of fields of study
+### Get list of fields of study
 ```sql
-select distinct programOfStudy from student;
+SELECT DISTINCT programOfStudy FROM student;
 ```
 ```text
 +------------------+
@@ -43,7 +43,7 @@ select distinct programOfStudy from student;
 3 rows in set (0.00 sec)
 ```
 
-*As with all of these SQL things there is MUCH MORE to them than what's in this introductory guide.  
+As with all of these SQL things there is MUCH MORE to them than what's in this introductory guide.  
 
 I hope this at least gives you enough to get started.  
 
