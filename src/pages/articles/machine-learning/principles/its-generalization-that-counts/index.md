@@ -24,5 +24,5 @@ the subsets.
 
 #### More Information:
 
-- [A Few Useful Things to Know about Machine Learning](https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf)
-- ["How do you use test data set after Cross-validation"](https://stats.stackexchange.com/a/153058/132399)
+- <a href='https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf' target='_blank' rel='nofollow'>A Few Useful Things to Know about Machine Learning</a>
+- <a href='https://stats.stackexchange.com/a/153058/132399' target='_blank' rel='nofollow'>"How do you use test data set after Cross-validation"</a>

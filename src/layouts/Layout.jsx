@@ -10,10 +10,10 @@ import '../css/main.css';
 import 'prismjs/themes/prism.css';
 
 const propTypes = {
-      'location.pathname': PropTypes.string,
-      children: PropTypes.func,
-      location: PropTypes.object
-    };
+  'location.pathname': PropTypes.string,
+  children: PropTypes.func,
+  location: PropTypes.object
+};
 
 class Layout extends React.PureComponent {
   constructor() {
