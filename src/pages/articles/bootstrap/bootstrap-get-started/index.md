@@ -3,13 +3,11 @@ title: Bootstrap Get Started
 ---
 ## Bootstrap Get Started
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/articles/bootstrap/bootstrap-get-started/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Bootstrap is a responsive web design framework originally created by designers at Twitter.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Among other things, it offers a set of [icons](http://guide.freecodecamp.org/articles/bootstrap/bootstrap-icons).
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+[The official Bootstrap website](http://getbootstrap.com/)
