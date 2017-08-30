@@ -4,38 +4,38 @@ title: SQL Joins
 
 ## SQL Joins
 
-## Example of use
-For this guide we'll discuss the Join section of the SQL statement
+### Example of use
+For this guide we'll discuss the JOIN section of the SQL statement.
 
-## SQL syntax with focus on Join
+### SQL syntax with focus on Join
 
 ```sql
-Select col1, col2, col3, etc....
-FROM  tableNameOne as a
-Join tableNameTwo as b on a.primeKey = b.primeKey 
+SELECT col1, col2, col3, etc....
+FROM  tableNameOne AS a
+JOIN tableNameTwo AS b ON a.primeKey = b.primeKey 
 etc...
 ```
-The Join statement could be just Join or Inner Join which are the same or Left Join (described below). 
-Here are a description and examples of each.  Compare to the complete tables below.
+The JOIN statement could be just JOIN or INNER JOIN, which are the same, or LEFT JOIN (described below). 
+Here are descriptions and examples of each.  Compare to the complete tables below.
 
-## Join
+### Join
 The student table will be in the FROM clause so it will be a starting or LEFT table.
 
 We'll JOIN this to the student contact table or RIGHT table.
 
-You'll see that all of the students appear that ALSO are in the contact table.  
+You'll see that all of the students appear that are also in the contact table.
 
 As shown in the tables below, studentID 9 is in the student table but NOT in the contact table so won't appear in a join.
 
 SQL Statement
 ```sql
-select a.studentID, a.FullName, a.programOfStudy,
+SELECT a.studentID, a.FullName, a.programOfStudy,
 b.`student-phone-cell`, b.`student-US-zipcode`
-from student as a
-join `student-contact-info` as b on a.studentID = b.studentID;
+FROM student AS a
+JOIN `student-contact-info` AS b ON a.studentID = b.studentID;
 ```
 
-"Joined" data
+"Joined" data:
 ``` text
 +-----------+------------------------+------------------+--------------------+--------------------+
 | studentID | FullName               | programOfStudy   | student-phone-cell | student-US-zipcode |
@@ -51,16 +51,16 @@ join `student-contact-info` as b on a.studentID = b.studentID;
 +-----------+------------------------+------------------+--------------------+--------------------+
 ```
 
-## Left Join
-Using the keyword LEFT before join causes the system to start with the student (LEFT) table but will return NULL from the RIGHT table if there are no rows for the LEFT table student. 
+### Left Join
+Using the keyword LEFT before JOIN causes the system to start with the student (LEFT) table but will return NULL from the RIGHT table if there are no rows for the LEFT table student.
 
 Note that studentID 9 appears here but the data from the contact table is just shown as NULL.
 
 ```sql
-select a.studentID, a.FullName, a.programOfStudy,
+SELECT a.studentID, a.FullName, a.programOfStudy,
 b.`student-phone-cell`, b.`student-US-zipcode`
-from student as a
-left join `student-contact-info` as b on a.studentID = b.studentID;
+FROM student AS a
+LEFT JOIN `student-contact-info` AS b ON a.studentID = b.studentID;
 ```
 ``` text
 +-----------+------------------------+------------------+--------------------+--------------------+
@@ -79,12 +79,12 @@ left join `student-contact-info` as b on a.studentID = b.studentID;
 9 rows in set (0.00 sec)
 ```
 
-## Complete table listings for reference
+### Complete table listings for reference
 Student table listings
 
 ```sql
-select a.studentID, a.FullName, sat_score, a.programOfStudy, schoolEmailAdr 
-from student as a;
+SELECT a.studentID, a.FullName, sat_score, a.programOfStudy, schoolEmailAdr 
+FROM student AS a;
 ```
 
 student or LEFT table
@@ -104,7 +104,7 @@ student or LEFT table
 +-----------+------------------------+-----------+------------------+------------------------+
 9 rows in set (0.00 sec)
 ```sql
-select * from `student-contact-info` as b;
+SELECT * from `student-contact-info` AS b;
 ```
 
 student contact or RIGHT table
@@ -125,11 +125,7 @@ student contact or RIGHT table
 ```
 
 
-
-## Conclusion
-
-
-*As with all of these SQL things there is MUCH MORE to them than what's in this introductory guide.  
+As with all of these SQL things there is MUCH MORE to them than what's in this introductory guide.  
 
 I hope this at least gives you enough to get started.  
 
