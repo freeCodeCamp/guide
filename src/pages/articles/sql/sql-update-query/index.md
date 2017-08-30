@@ -3,19 +3,19 @@ title: SQL Update Query
 ---
 ## SQL Update Query
 
-## What an Update query can do
-An update query gives the DBA or SQL using programmer to update many records with one command. 
+### What an Update query can do
+An update query gives the DBA or SQL-using programmer the ability to update many records with one command. 
 
-Important Safety Tip!! Always have a backup copy of what you are about to change BEFORE you change it!!!!
+Important Safety Tip! Always have a backup copy of what you are about to change BEFORE you change it!
 
-This guide will 
+This guide will:  
 * add a new field to the student table
 * test the logic to update that field with a school assigned email address
 * update the new field.
 
 Here is the student table as we start this process
 ```sql
-select * from student;
+SELECT * FROM student;
 ```
 
 ```text
@@ -35,7 +35,7 @@ select * from student;
 9 rows in set (0.00 sec)
 ```
 
-## Alter the table and add a new field
+### Alter the table and add a new field
 
 ```sql
     ALTER TABLE `fcc_sql_guides_database`.`student` 
@@ -44,7 +44,7 @@ select * from student;
 
 The student table after the alter is executed.
 ```text
-mysql> select FullName, sat_score, programOfStudy, schoolEmailAdr from student;
+mysql> SELECT FullName, sat_score, programOfStudy, schoolEmailAdr FROM student;
 +------------------------+-----------+------------------+----------------+
 | FullName               | sat_score | programOfStudy   | schoolEmailAdr |
 +------------------------+-----------+------------------+----------------+
@@ -61,12 +61,12 @@ mysql> select FullName, sat_score, programOfStudy, schoolEmailAdr from student;
 9 rows in set (0.00 sec)
 ```
 
-## TESTING the logic (VERY important step!!)
+### TESTING the logic (VERY important step!)
 
 ```sql
-select FullName, instr(FullName," ") as firstSpacePosition, 
-concat(substring(FullName,1,instr(FullName," ")-1),"@someSchool.edu") as schoolEmail
-from student;
+SELECT FullName, instr(FullName," ") AS firstSpacePosition, 
+concat(substring(FullName,1,instr(FullName," ")-1),"@someSchool.edu") AS schoolEmail
+FROM student;
 ```
 
 ```text
@@ -85,19 +85,19 @@ from student;
 +------------------------+--------------------+------------------------+
 9 rows in set (0.00 sec)
 ```
-*A note about concat(); in MySQL this command is used to combined strings, not so in other SQL versions (check your manual).  In this usage it works like this; The substring of the FullName field up to but not including the first space is combined with "@someSchool.edu".  In the real world this would HAVE TO be much more complex and would need to ensure that the email address is unique.*
+*A note about concat(): in MySQL this command is used to combined strings, not so in other SQL versions (check your manual).  In this usage it works like this: The substring of the FullName field up to but not including the first space is combined with "@someSchool.edu".  In the real world this would HAVE TO be much more complex and you would need to ensure that the email address is unique.*
 
-## Doing the update
-We'll pretend that this is what we want and update the table with this information
+### Doing the update
+We'll pretend that this is what we want and update the table with this information:
 
 ```sql
 UPDATE student SET schoolEmailAdr = concat(substring(FullName,1,instr(FullName," ")-1),"@someSchool.edu")
-where schoolEmailAdr is NULL;
+WHERE schoolEmailAdr is NULL;
 ```
 
 Success!
 ```text
-mysql> select FullName, sat_score, programOfStudy, schoolEmailAdr from student;
+mysql> SELECT FullName, sat_score, programOfStudy, schoolEmailAdr FROM student;
 +------------------------+-----------+------------------+------------------------+
 | FullName               | sat_score | programOfStudy   | schoolEmailAdr         |
 +------------------------+-----------+------------------+------------------------+
@@ -114,7 +114,7 @@ mysql> select FullName, sat_score, programOfStudy, schoolEmailAdr from student;
 9 rows in set (0.00 sec)
 ```
 
-*As with all of these SQL things there is MUCH MORE to them than what's in this introductory guide.  
+As with all of these SQL things there is MUCH MORE to them than what's in this introductory guide.  
 
 I hope this at least gives you enough to get started.  
 
