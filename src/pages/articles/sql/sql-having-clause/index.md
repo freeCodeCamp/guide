@@ -3,24 +3,24 @@ title: SQL Having Clause
 ---
 
 ## SQL Having Clause
-Having gives the DBA or SQL using programmer a way to filter the data aggregated by the Group By Clause so that user gets a limited set of records to view. 
+HAVING gives the DBA or SQL-using programmer a way to filter the data aggregated by the GROUP BY clause so that the user gets a limited set of records to view. 
 
-## Example of use
-The HAVING clause is like the Where clause exept it acts on the grouped data. In this case, the user will only see the largest amounts.
+### Example of use
+The HAVING clause is like the WHERE clause, exept it acts on the grouped data. In this case, the user will only see the largest amounts.
 
 This data is from the campaign contributions data we've been using in some of these guides.
 
-This SQL statement is answering the question; "which candidates received the largest total contributions in 2016 BUT only those that had more than 8$20 Million USD? 
+This SQL statement is answering the question: "which candidates received the largest total contributions in 2016 BUT only those that had more than 8$20 Million USD?"
 
 Ordering this data set in a descending (DESC) order places the candidates with the largest total contributions at the top of the list.
 
 ```sql
-select Candidate, Election_year, sum(Total_$), count(*)
-from combined_party_data
-where Election_year = 2016
-group by Candidate, Election_year -- this tells the DBMS to summarize by these two columns
-having sum(Total_$) > 20000000  -- limits the rows presented from the summary of money ($20 Million USD)
-order by sum(Total_$) DESC; -- orders the presented rows with the largest ones first.
+SELECT Candidate, Election_year, sum(Total_$), count(*)
+FROM combined_party_data
+WHERE Election_year = 2016
+GROUP BY Candidate, Election_year -- this tells the DBMS to summarize by these two columns
+HAVING sum(Total_$) > 20000000  -- limits the rows presented from the summary of money ($20 Million USD)
+ORDER BY sum(Total_$) DESC; -- orders the presented rows with the largest ones first.
 ```
 
 ```text
@@ -39,7 +39,7 @@ order by sum(Total_$) DESC; -- orders the presented rows with the largest ones f
 ```
 
 
-*As with all of these SQL things there is MUCH MORE to them than what's in this introductory guide.  
+As with all of these SQL things there is MUCH MORE to them than what's in this introductory guide.  
 
 I hope this at least gives you enough to get started.  
 
