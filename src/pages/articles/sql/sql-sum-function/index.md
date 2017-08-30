@@ -3,24 +3,24 @@ title: SQL Sum Function
 ---
 
 ## SQL Sum Function
-This is one of the aggregate functions (as is count, average, max, min etc...). They are used in a group by clause as it aggregates data presented by the SELECT FROM WHERE portion of the 
+This is one of the aggregate functions (as is count, average, max, min, etc.). They are used in a GROUP BY clause as it aggregates data presented by the SELECT FROM WHERE portion of the statement.
 
-## Example of use
-"sum(Total_$)" in the SELECT statement is aggregated in the Group by clause. "Count(*)" provides the number of contrabutions.
+### Example of use
+"sum(Total_$)" in the SELECT statement is aggregated in the GROUP BY clause. "Count(\*)" provides the number of contributions.
 
 This data is from the campaign contributions data we've been using in some of these guides.
 
-This SQL statement is answering the question; "which candidates received the largest total contribution dollars in 2016 BUT only those that had more than $20 Million USD for all contrabutions combined? 
+This SQL statement is answering the question: "which candidates received the largest total contribution dollars in 2016 BUT only those that had more than $20 Million USD for all contrabutions combined?"
 
 Ordering this data set in a descending (DESC) order places the candidates with the largest total contributions at the top of the list.
 
 ```sql
-select Candidate, Election_year, sum(Total_$), count(*)
-from combined_party_data
-where Election_year = 2016
-group by Candidate, Election_year -- this tells the DBMS to summarize by these two columns
-having sum(Total_$) > 20000000  -- limits the rows presented from the summary of money ($20 Million USD)
-order by sum(Total_$) DESC; -- orders the presented rows with the largest ones first.
+SELECT Candidate, Election_year, sum(Total_$), count(*)
+FROM combined_party_data
+WHERE Election_year = 2016
+GROUP BY Candidate, Election_year -- this tells the DBMS to summarize by these two columns
+HAVING sum(Total_$) > 20000000  -- limits the rows presented from the summary of money ($20 Million USD)
+ORDER BY sum(Total_$) DESC; -- orders the presented rows with the largest ones first.
 ```
 
 ```text
@@ -39,7 +39,7 @@ order by sum(Total_$) DESC; -- orders the presented rows with the largest ones f
 ```
 
 
-*As with all of these SQL things there is MUCH MORE to them than what's in this introductory guide.  
+As with all of these SQL things there is MUCH MORE to them than what's in this introductory guide.  
 
 I hope this at least gives you enough to get started.  
 
