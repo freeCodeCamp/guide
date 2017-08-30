@@ -28,4 +28,4 @@ optimization technique. Examples are a greedy search and gradient descent.
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
-- [A Few Useful Things to Know about Machine Learning](https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf)
+- <a href='https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf' target='_blank' rel='nofollow'>A Few Useful Things to Know about Machine Learning</a>
