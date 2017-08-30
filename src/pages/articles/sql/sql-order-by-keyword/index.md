@@ -3,13 +3,13 @@ title: SQL Order By Keyword
 ---
 ## SQL Order By Keyword
 
-## Order By (ASC, DESC)
-Order By gives us a way to SORT the result set by one or more of the items in the SELECT section. Here is an SQL  sorting the students by Full Name in decending order. The default sort order is ascending (ASC) but to sort in the opposite order (decending) you use DESC.
+### Order By (ASC, DESC)
+ORDER BY gives us a way to SORT the result set by one or more of the items in the SELECT section. Here is an SQL sorting the students by FullName in decending order. The default sort order is ascending (ASC) but to sort in the opposite order (decending) you use DESC.
 
 ```sql
-select studentID, FullName, sat_score
-from student
-order by FullName DESC;
+SELECT studentID, FullName, sat_score
+FROM student
+ORDER BY FullName DESC;
 ```
 
 ```text
@@ -32,7 +32,7 @@ order by FullName DESC;
 *Here is the UN-ORDERED, current, full student list to compare to the above.*
 
 ```sql
-select studentID, FullName, sat_score, rcd_updated from student;
+SELECT studentID, FullName, sat_score, rcd_updated FROM student;
 ```
 
 ```text
@@ -52,7 +52,7 @@ select studentID, FullName, sat_score, rcd_updated from student;
 9 rows in set (0.00 sec)
 ```
 
-*As with all of these SQL things there is MUCH MORE to them than what's in this introductory guide.  
+As with all of these SQL things there is MUCH MORE to them than what's in this introductory guide.  
 
 I hope this at least gives you enough to get started.  
 
