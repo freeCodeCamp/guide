@@ -8,8 +8,6 @@ import SideNav from './components/nav/SideNav.jsx';
 
 import '../css/main.css';
 
-require('prismjs/themes/prism.css');
-
 const propTypes = {
       'location.pathname': PropTypes.string,
       children: PropTypes.func,

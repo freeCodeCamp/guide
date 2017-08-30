@@ -5,6 +5,7 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-react-helmet',
+    'gatsby-transformer-remark',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -13,12 +14,8 @@ module.exports = {
       }
     },
     {
-      resolve: 'gatsby-transformer-remark',
-      options: {
-        plugins: ['gatsby-remark-smartypants', 'gatsby-remark-prismjs']
-      }
+      resolve: 'gatsby-plugin-sitemap'
     },
-    'gatsby-plugin-sitemap',
     'gatsby-plugin-sharp'
   ]
 };
