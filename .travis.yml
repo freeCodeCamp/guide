@@ -21,6 +21,7 @@ before_install:
     fi
   - gcc --version
   - g++ --version
+  - npm install -g yarn
 # node 4 depends on gcc 4.8
 addons:
   apt:
@@ -31,5 +32,6 @@ addons:
     - gcc-4.8
 # script needed to test, because defaults don't work on osx
 script:
-  - npm install
-  - npm run lint
+  - yarn install
+  - yarn run lint
+  - yarn run build
