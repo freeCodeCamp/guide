@@ -1,7 +1,7 @@
 ---
-title: SQL Insert Query
+title: SQL INSERT Query
 ---
-## SQL Insert Query
+## SQL INSERT Query
 
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/articles/sql/sql-insert-query/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 

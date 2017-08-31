@@ -1,5 +1,5 @@
 ---
-title: SQL Select Distinct Statement
+title: SQL SELECT DISTINCT Statement
 ---
 ## SQL Select Distinct Statement
 

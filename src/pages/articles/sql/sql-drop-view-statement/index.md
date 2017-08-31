@@ -1,5 +1,5 @@
 ---
-title: SQL Drop View Statement
+title: SQL DROP VIEW Statement
 ---
 
 ## SQL Drop View Statement

@@ -1,7 +1,9 @@
 const { preFormatted, stopWords } = require('./formatting');
+const sqlPreFormatted = require('./sql-formatting');
 
 const prototypeRE = /prototype/i;
 const prototypesRE = /prototypes/i;
+const sqlRE = /sql/i;
 
 const removeProto = x => x !== 'prototype';
 
@@ -48,9 +50,30 @@ function prototyper(str) {
   return titleify(str, true);
 }
 
+function sqler(str) {
+  return str
+    .toLowerCase()
+    .split('-')
+    .map((word) => {
+      if (!word) {
+        return '';
+      }
+      if (word === 'sql') {
+        return 'SQL';
+      }
+      return sqlPreFormatted[word] ?
+        sqlPreFormatted[word] :
+        titleCase(word);
+    })
+    .join(' ');
+}
+
 function titleify(str, triedPrototyper) {
   if (str.match(prototypeRE) && !triedPrototyper && !prototypesRE.test(str)) {
     return prototyper(str);
+  }
+  if (str.match(sqlRE)) {
+    return sqler(str);
   }
   return str
     .toLowerCase()

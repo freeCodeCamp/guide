@@ -1,5 +1,5 @@
 ---
-title: SQL Primary Key Constraint
+title: SQL PRIMARY KEY CONSTRAINT
 ---
 ## Primary Key Constraint
 

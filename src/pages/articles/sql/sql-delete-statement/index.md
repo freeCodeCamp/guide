@@ -1,5 +1,5 @@
 ---
-title: SQL Delete Statement
+title: SQL DELETE Statement
 ---
 ## SQL Delete Statement
 

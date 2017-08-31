@@ -1,5 +1,5 @@
 ---
-title: SQL Having Clause
+title: SQL HAVING Clause
 ---
 
 ## SQL Having Clause

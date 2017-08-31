@@ -1,5 +1,5 @@
 ---
-title: SQL COUNT Aggregate Function
+title: SQL Count Function
 ---
 
 ## SQL COUNT Aggregate Function

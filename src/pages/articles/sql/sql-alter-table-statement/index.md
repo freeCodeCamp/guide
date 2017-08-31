@@ -1,5 +1,5 @@
 ---
-title: SQL Alter Table Statement
+title: SQL ALTER TABLE Statement
 ---
 ## SQL Guide - ALTER TABLE
 

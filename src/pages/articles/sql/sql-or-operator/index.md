@@ -1,5 +1,5 @@
 ---
-title: SQL or Operator
+title: SQL OR Operator
 ---
 ## SQL or Operator
 

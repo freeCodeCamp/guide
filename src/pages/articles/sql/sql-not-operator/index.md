@@ -1,5 +1,5 @@
 ---
-title: SQL not Operator
+title: SQL NOT Operator
 ---
 ## SQL not Operator
 

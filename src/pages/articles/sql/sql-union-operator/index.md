@@ -1,7 +1,7 @@
 ---
-title: SQL Union Operator
+title: SQL UNION Operator
 ---
-## SQL Union Operator
+## SQL UNION Operator
 
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/articles/sql/sql-union-operator/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 

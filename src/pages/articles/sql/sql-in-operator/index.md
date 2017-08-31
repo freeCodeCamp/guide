@@ -1,5 +1,5 @@
 ---
-title: SQL In Operator
+title: SQL IN Operator
 ---
 ## SQL In Operator
 
