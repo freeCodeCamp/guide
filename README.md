@@ -3,7 +3,7 @@
 # freeCodeCamp Guides
 The freeCodeCamp community is building a massive, searchable "Guide." This reference tool will eventually include thousands of articles that cover all areas of development, design, and data science - all written to be easily understood by people new to coding.
 
-This repo is where we plan and maintain these guide articles, which we then host on our community's wiki-like [guides website](http://guide.netlify.com).
+This repo is where we plan and maintain these guide articles, which we then host on our community's wiki-like [guides website](http://guide.freecodecamp.org).
 
 **Table of Contents**
 
@@ -18,7 +18,7 @@ Guide articles can be an explanation of a syntax, design pattern, what aria labe
 ## What can I write an article about?
 We welcome your help writing these articles. You don't have to be an expert in a topic to write about it - this entire guide is open source, so even if you make a mistake, another contributor will eventually correct it.
 
-To help, find a `stub article` on our [guides website](http://guide.netlify.com/), write the article, then open a pull request (PR) to replace the stub with your article.
+To help, find a `stub article` on our [guides website](http://guide.freecodecamp.org/), write the article, then open a pull request (PR) to replace the stub with your article.
 
 If you can't find a stub about the topic you'd like to write about, you can open a PR that creates the stub and includes your draft article. Feel free to ask us questions if you're not sure where to put a new article in the directory structure.
 
