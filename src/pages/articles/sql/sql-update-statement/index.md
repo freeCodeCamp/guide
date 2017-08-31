@@ -1,5 +1,5 @@
 ---
-title: SQL Update Statement
+title: SQL UPDATE Statement
 ---
 ## SQL Update Statement
 

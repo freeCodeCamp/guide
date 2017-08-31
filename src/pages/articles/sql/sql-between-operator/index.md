@@ -1,5 +1,5 @@
 ---
-title: SQL Between Operator
+title: SQL BETWEEN Operator
 ---
 ## SQL Between Operator
 

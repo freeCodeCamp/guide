@@ -1,5 +1,5 @@
 ---
-title: SQL Insert into Select Statement
+title: SQL INSERT INTO SELECT Statement
 ---
 ## SQL Insert into Select Statement
 

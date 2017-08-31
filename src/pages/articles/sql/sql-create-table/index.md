@@ -1,5 +1,5 @@
 ---
-title: SQL Create Table
+title: SQL CREATE TABLE
 ---
 # SQL CREATE TABLE
 

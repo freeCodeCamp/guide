@@ -1,5 +1,5 @@
 ---
-title: SQL Create View Statement
+title: SQL CREATE VIEW Statement
 ---
 ## SQL Create View Statement
 

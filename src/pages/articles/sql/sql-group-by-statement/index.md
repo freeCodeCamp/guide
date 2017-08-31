@@ -1,5 +1,5 @@
 ---
-title: SQL Group By Statement
+title: SQL GROUP BY Statement
 ---
 
 ## SQL Group By Statemet

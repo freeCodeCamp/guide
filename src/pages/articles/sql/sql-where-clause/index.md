@@ -1,5 +1,5 @@
 ---
-title: SQL Where Clause
+title: SQL WHERE Clause
 ---
 
 ## SQL Where Clause

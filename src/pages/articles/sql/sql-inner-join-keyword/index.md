@@ -1,5 +1,5 @@
 ---
-title: SQL Inner Join Keyword
+title: SQL INNER JOIN Keyword
 ---
 
 ## SQL Inner Join Keyword

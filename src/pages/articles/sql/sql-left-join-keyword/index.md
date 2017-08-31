@@ -1,7 +1,7 @@
 ---
-title: SQL Left Join Keyword
+title: SQL LEFT JOIN Keyword
 ---
-## SQL Left Join Keyword
+## SQL LEFT JOIN Keyword
 
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/articles/sql/sql-left-join-keyword/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 

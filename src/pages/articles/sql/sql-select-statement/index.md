@@ -1,5 +1,5 @@
 ---
-title: SQL Select Statement
+title: SQL SELECT Statement
 ---
 
 ## SQL Select Statement

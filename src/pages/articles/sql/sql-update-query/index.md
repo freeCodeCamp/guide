@@ -1,5 +1,5 @@
 ---
-title: SQL Update Query
+title: SQL UPDATE Query
 ---
 ## SQL Update Query
 
