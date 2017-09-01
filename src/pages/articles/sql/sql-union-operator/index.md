@@ -4,19 +4,20 @@ title: SQL Union Operator
 
 ## SQL Union Operator
 
-## Description
-For this guide we'll discuss the Union Operator section of the SQL statement. 
-The Union Operator is used to combine the results of multiple select statements into one result set.
+### Description
+For this guide we'll discuss the UNION Operator section of the SQL statement.
+
+The UNION Operator is used to combine the results of multiple select statements into one result set.
 
 The SQL statements must have the same number of columns in their Select Statement.
 
-## Basic Example
+### Basic Example
 
 SQL Statement
 ```sql
-select 'aaaaa'
-union
-select 'bbbbbbbbb';
+SELECT 'aaaaa'
+UNION
+SELECT 'bbbbbbbbb';
 ```
 
 Output
@@ -30,13 +31,13 @@ Output
 2 rows in set (0.00 sec)
 ```
 
-## Example using the student tables
+### Example using the student tables
 
 SQL Statement
 ```sql
-select StudentID, FullName From student where studentID between 1 and 5
-union
-select studentID, studentEmailAddr from `student-contact-info` where studentID between 7 and 8;
+SELECT StudentID, FullName FROM student WHERE studentID BETWEEN 1 AND 5
+UNION
+SELECT studentID, studentEmailAddr FROM `student-contact-info` WHERE studentID BETWEEN 7 AND 8;
 ```
 
 Output
@@ -55,11 +56,7 @@ Output
 7 rows in set (0.00 sec)
 ```
 
-
-## Conclusion
-
-
-*As with all of these SQL things there is MUCH MORE to them than what's in this introductory guide.  
+As with all of these SQL things there is MUCH MORE to them than what's in this introductory guide.  
 
 I hope this at least gives you enough to get started.  
 
