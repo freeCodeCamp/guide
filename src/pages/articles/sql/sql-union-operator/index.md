@@ -1,15 +1,66 @@
 ---
 title: SQL Union Operator
 ---
+
 ## SQL Union Operator
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/articles/sql/sql-union-operator/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+### Description
+For this guide we'll discuss the UNION Operator section of the SQL statement.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The UNION Operator is used to combine the results of multiple select statements into one result set.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+The SQL statements must have the same number of columns in their Select Statement.
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+### Basic Example
+
+SQL Statement
+```sql
+SELECT 'aaaaa'
+UNION
+SELECT 'bbbbbbbbb';
+```
+
+Output
+```text
++-----------+
+| aaaaa     |
++-----------+
+| aaaaa     |
+| bbbbbbbbb |
++-----------+
+2 rows in set (0.00 sec)
+```
+
+### Example using the student tables
+
+SQL Statement
+```sql
+SELECT StudentID, FullName FROM student WHERE studentID BETWEEN 1 AND 5
+UNION
+SELECT studentID, studentEmailAddr FROM `student-contact-info` WHERE studentID BETWEEN 7 AND 8;
+```
+
+Output
+``` text
++-----------+--------------------------------+
+| StudentID | FullName                       |
++-----------+--------------------------------+
+|         1 | Monique Davis                  |
+|         2 | Teri Gutierrez                 |
+|         3 | Spencer Pautier                |
+|         4 | Louis Ramsey                   |
+|         5 | Alvin Greene                   |
+|         7 | Maximo.Smith@freeCodeCamp.org  |
+|         8 | Michael.Roach@freeCodeCamp.ort |
++-----------+--------------------------------+
+7 rows in set (0.00 sec)
+```
+
+As with all of these SQL things there is MUCH MORE to them than what's in this introductory guide.  
+
+I hope this at least gives you enough to get started.  
+
+Please see the manual for your database manager and have fun trying different options yourself.
+
 
 
