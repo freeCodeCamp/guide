@@ -3,21 +3,20 @@ title: SQL Foreign Key Constraint
 ---
 
 ## SQL Foreign Key Constraint
-A Foreign Key is key used to link two tables.  The table with the Foreign Key Constraint (aka "child table") is connected to another table's (aka, "Parent Table"). The connections is between the child tables Foreign Key Constraint and the parent tables Primary Key. 
+A Foreign Key is a key used to link two tables. The table with the Foreign Key Constraint (aka "child table") is connected to another table (aka, the "parent table"). The connection is between the child table's Foreign Key Constraint and the parent table's Primary Key.
 
-Foreign Key Constraints are used help maintain consistency between the tables.  For example, if a parent table record is deleted and the child tables has records the system could also delete the child records.  
+Foreign Key Constraints are used to help maintain consistency between the tables.  For example, if a parent table record is deleted and the child table has records, the system could also delete the child records.
 
 They also help prevent entering inaccurate data in the child table by requiring that a parent table record exists for every record that is entered in the child table.
 
-## Example of use
+### Example of use
 For this guide we'll take a closer look at the student (parent) and student contact (child) tables.
 
-
-## The parent table's primary key
-Note that the student table has a one column primary key of studentID. 
+### The parent table's primary key
+Note that the student table has a one column primary key of studentID.
 
 ```sql
-show index from student;
+SHOW index FROM student;
 ```
 ```text
 +---------+------------+----------+--------------+-------------+
@@ -28,11 +27,13 @@ show index from student;
 1 row in set (0.00 sec) (some columns removed on the right for clarity)
 ```
 
-## the child table's primary and foreign keys
-the student contact info table has one primary key that is also the studentID.  This is because there is a one to one relationship between the two tables. In other words, we expect only one student and on student contact record per student.
+### The child table's primary and foreign keys
+The student contact info table has one primary key that is also the studentID.  This is because there is a one-to-one relationship between the two tables. In other words, we expect only one student and one student contact record per student.
+
 ```sql
-show index from `student-contact-info`;
+SHOW index FROM `student-contact-info`;
 ```
+
 ```text
 +----------------------+------------+----------+--------------+-------------+
 | Table                | Non_unique | Key_name | Seq_in_index | Column_name |
@@ -43,12 +44,12 @@ show index from `student-contact-info`;
 ```
 
 ```sql
-select concat(table_name, '.', column_name) as 'foreign key',  
-concat(referenced_table_name, '.', referenced_column_name) as 'references'
-from information_schema.key_column_usage
-where referenced_table_name is not null
-and table_schema = 'fcc_sql_guides_database' 
-and table_name = 'student-contact-info';
+SELECT concat(table_name, '.', column_name) AS 'foreign key',
+concat(referenced_table_name, '.', referenced_column_name) AS 'references'
+FROM information_schema.key_column_usage
+WHERE referenced_table_name IS NOT NULL
+AND table_schema = 'fcc_sql_guides_database' 
+AND table_name = 'student-contact-info';
 ```
 
 ```text
@@ -60,14 +61,13 @@ and table_name = 'student-contact-info';
 1 row in set (0.00 sec)
 ```
 
-## example report using the student parent table and the contact child table
-
+### Example report using the student parent table and the contact child table
 
 ```sql
-select a.studentID, a.FullName, a.programOfStudy,
+SELECT a.studentID, a.FullName, a.programOfStudy,
 b.`student-phone-cell`, b.`student-US-zipcode`
-from student as a
-join `student-contact-info` as b on a.studentID = b.studentID;
+FROM student AS a
+JOIN `student-contact-info` AS b ON a.studentID = b.studentID;
 ```
 
 ```text
@@ -85,12 +85,11 @@ join `student-contact-info` as b on a.studentID = b.studentID;
 +-----------+------------------------+------------------+--------------------+--------------------+
 ```
 
-## Conclusion
+### Conclusion
 
-Foreign Key Constraint are a great data integrity tool.  Take the time to learn them well.
+Foreign Key Constraints are a great data integrity tool.  Take the time to learn them well.
 
-
-*As with all of these SQL things there is MUCH MORE to them than what's in this introductory guide.  
+As with all of these SQL things there is MUCH MORE to them than what's in this introductory guide.  
 
 I hope this at least gives you enough to get started.  
 
