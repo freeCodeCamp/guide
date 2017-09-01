@@ -2,7 +2,6 @@ import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import Navbar from 'react-bootstrap/lib/Navbar';
 import FormControl from 'react-bootstrap/lib/FormControl';
 
 import {
@@ -77,17 +76,15 @@ class SearchBar extends PureComponent {
       searchTerm
     } = this.props;
     return (
-      <div>
+      <div className='searchBar'>
         <form onSubmit={ this.handleSubmit }>
-          <Navbar.Form className='formContainer'>
-            <FormControl
-              className='input'
-              onChange={ this.handleChange }
-              placeholder='&#xf002; What would you like to know?'
-              type='text'
-              value={ searchTerm }
-            />
-          </Navbar.Form>
+          <FormControl
+            className='input'
+            onChange={ this.handleChange }
+            placeholder='&#xf002; What would you like to know?'
+            type='text'
+            value={ searchTerm }
+          />
         </form>
       </div>
     );
