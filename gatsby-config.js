@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: 'http://guide.netlify.com',
+    siteUrl: 'http://guide.freecodecamp.org',
     title: 'freeCodeCamp Guides'
   },
   plugins: [
