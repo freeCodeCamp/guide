@@ -8,11 +8,13 @@ function NoResults(props) {
   const helperHeader = searchTerm.length ?
     'We couldn\'t find what you were looking for' :
     'It looks like you are not searching for anything';
+  const helperContent = searchTerm.length ? ' else' : '';
+
   return (
     <div className='flexWrapper'>
       <div className='verticalAlign'>
         <h3>{ helperHeader }</h3>
-        <p>Trying searching for something, or</p>
+        <p>You can try searching for something{ helperContent }, or</p>
         <Link to={ page }>
           <Button
             bsSize='large'

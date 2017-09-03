@@ -56,7 +56,7 @@
   margin-bottom: 50px;
 }
 
-/* NoResults */
+/* NoResults/404 */
 
 .flexWrapper {
   align-items: center;
@@ -75,15 +75,15 @@
 }
 
 .button {
-color: #006400;
-background: #fff;
-border-color: #006400;
+  color: #006400;
+  background: #fff;
+  border-color: #006400;
 }
 
 .button:hover {
-color: #fff;
-background: #006400;
-border-color: #fff;
+  color: #fff;
+  background: #006400;
+  border-color: #fff;
 }
 
 /* ResultsSkeleton */
