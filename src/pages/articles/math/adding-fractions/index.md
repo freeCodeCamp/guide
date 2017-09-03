@@ -1,15 +1,17 @@
 ---
 title: Adding Fractions
 ---
-## Adding Fractions
+## Adding Fractions                                                           
+When adding fractions, the denominators must be the same.                    
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/adding-fractions/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+<img src="https://github.com/codersc/freeCodeCamp-article-images/blob/master/art2img1.png?raw=true">
+ 
+Simply add up the numbers above the denominators (numerators) while keeping    the denomator the same. Notice that the two-sixths should be simplified to     one-third.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+<img src="https://github.com/codersc/freeCodeCamp-article-images/blob/master/art2img2.png?raw=true">
+ 
+### More Examples 
+ 
+<img src="https://github.com/codersc/freeCodeCamp-article-images/blob/master/art2img3.png?raw=true">
+ 
+<img src="https://github.com/codersc/freeCodeCamp-article-images/blob/master/art2img4.png?raw=true">     
