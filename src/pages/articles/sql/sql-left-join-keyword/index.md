@@ -4,20 +4,21 @@ title: SQL Left Join
 
 ## SQL Left Join
 
-## Example of use
-For this guide we'll discuss the SQL LEFT Join 
+### Example of use
+For this guide we'll discuss the SQL LEFT JOIN.
 
-## Left Join
-Using the keyword LEFT before join causes the system to start with the student (LEFT) table but will return NULL from the RIGHT table if there are no rows for the LEFT table student. 
+### Left Join
+Using the keyword LEFT before JOIN causes the system to start with the student (LEFT) table but will return NULL from the RIGHT table if there are no rows for the LEFT table student. 
 
 Note that studentID 9 appears here but the data from the contact table is just shown as NULL.
 
 ```sql
-select a.studentID, a.FullName, a.programOfStudy,
+SELECT a.studentID, a.FullName, a.programOfStudy,
 b.`student-phone-cell`, b.`student-US-zipcode`
-from student as a
-left join `student-contact-info` as b on a.studentID = b.studentID;
+FROM student AS a
+LEFT JOIN `student-contact-info` AS b ON a.studentID = b.studentID;
 ```
+
 ``` text
 +-----------+------------------------+------------------+--------------------+--------------------+
 | studentID | FullName               | programOfStudy   | student-phone-cell | student-US-zipcode |
@@ -35,12 +36,12 @@ left join `student-contact-info` as b on a.studentID = b.studentID;
 9 rows in set (0.00 sec)
 ```
 
-## Complete table listings for reference
+### Complete table listings for reference
 student or LEFT table SQL
 
 ```sql
-select a.studentID, a.FullName, sat_score, a.programOfStudy, schoolEmailAdr 
-from student as a;
+SELECT a.studentID, a.FullName, sat_score, a.programOfStudy, schoolEmailAdr 
+FROM student AS a;
 ```
 
 student or LEFT table data
@@ -82,12 +83,7 @@ student contact or RIGHT table data
 8 rows in set (0.00 sec)
 ```
 
-
-
-## Conclusion
-
-
-*As with all of these SQL things there is MUCH MORE to them than what's in this introductory guide.  
+As with all of these SQL things there is MUCH MORE to them than what's in this introductory guide.  
 
 I hope this at least gives you enough to get started.  
 
