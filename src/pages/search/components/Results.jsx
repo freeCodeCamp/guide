@@ -1,10 +1,10 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
-import FontAwesome from 'react-fontawesome';
 import Link from 'gatsby-link';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import Media from 'react-bootstrap/lib/Media';
+import FontAwesome from 'react-fontawesome';
 
 import {
   resetSearch,
@@ -14,6 +14,12 @@ import {
 
 const httpRE = /^https?/i;
 const articleMetaRE = /^\-\-\-[\w\W]+?\-\-\-/;
+
+const faNames = {
+  challenge: 'free-code-camp',
+  guides: 'file-text',
+  youtube: 'youtube-play'
+};
 
 const propTypes = {
   resetSearch: PropTypes.func.isRequired,
@@ -33,27 +39,6 @@ function mapDispatchToProps(dispatch) {
     updateSearchTerm
   }, dispatch);
 }
-
-const faNames = {
-  challenge: 'free-code-camp',
-  guides: 'file-text',
-  youtube: 'youtube-play'
-};
-
-function FAIcon({ name }) {
-  return (
-    <FontAwesome
-      className='resultIcon'
-      name={ faNames[name] ? faNames[name] : 'free-code-camp' }
-      size='3x'
-    />
-  );
-}
-
-FAIcon.displayName = 'FontAwesomeIcon';
-FAIcon.propTypes = {
-  name: PropTypes.string.isRequired
-};
 
 function MediaWrapper(props) {
   const { url } = props;
@@ -92,7 +77,11 @@ class Results extends PureComponent {
         <MediaWrapper key={ i } url={ url }>
           <Media>
             <Media.Left align='middle'>
-              <FAIcon name={ _index } />
+              <FontAwesome
+                className='resultIcon'
+                name={ faNames[_index] ? faNames[_index] : '' }
+                size='3x'
+              />
             </Media.Left>
             <Media.Body>
               <Media.Heading>{ title }</Media.Heading>
