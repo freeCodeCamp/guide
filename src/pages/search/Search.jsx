@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
+import Helmet from 'react-helmet';
 
 import NoResults from './components/NoResults.jsx';
 import Results from './components/Results.jsx';
@@ -44,6 +45,9 @@ function SearchPage(props) {
   const { isSearching, lastPage, results, searchTerm } = props;
   return (
     <div>
+      <Helmet>
+        <title>Search | freeCodeCamp Guide</title>
+      </Helmet>
       <h2 className='colourDarkGrey'>Search Results</h2>
       {
         isSearching ?
