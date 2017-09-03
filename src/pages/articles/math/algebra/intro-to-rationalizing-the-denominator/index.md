@@ -3,13 +3,19 @@ title: Intro to Rationalizing the Denominator
 ---
 ## Intro to Rationalizing the Denominator
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/articles/math/algebra/intro-to-rationalizing-the-denominator/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+If you can't express the denominator of a fraction in the form of a/b, where a and b are integers, then the denominator is irrational. To simplify the fraction we should rationalize the denominator. Rationalizing the denominator can aid you in solving certain equations. There are a couple ways to do this.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Multiplying by a Root
+We can multiply the top and bottom by a root. Notice that we are multiplying the fraction by root 2 divided by itself which is just another way or writing 1.  
+ 
+<img src="https://github.com/codersc/freeCodeCamp-article-images/blob/master/art4img1.png?raw=true">
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### Multiplying by a Conjugate
+We can also multiply the top and bottom by the conjugate.
+ 
+<img src="https://github.com/codersc/freeCodeCamp-article-images/blob/master/art4img2.png?raw=true">
+ 
+<img src="https://github.com/codersc/freeCodeCamp-article-images/blob/master/art4img3.png?raw=true">
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
 
