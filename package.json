@@ -6,6 +6,8 @@
   "dependencies": {
     "axios": "^0.16.2",
     "babel-eslint": "^7.2.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
     "caniuse-db": "^1.0.30000700",
     "eslint": "^4.3.0",
     "eslint-plugin-import": "^2.3.0",
@@ -33,8 +35,6 @@
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-react": "^6.24.1",
     "chalk": "^2.0.1",
     "pre-commit": "^1.2.2"
   },
