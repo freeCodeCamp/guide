@@ -2,17 +2,18 @@ const fse = require('fs-extra');
 const Rx = require('rx');
 
 const { Observable } = Rx;
-const isAFileRegEx = /(\.md|\.jsx?|\.html?)$/;
-const shouldBeIgnoredRegEx = /^(\_|\.)/;
-const topLevel = 'src/pages/articles';
+const topLevel = 'src/pages';
 const navData = {};
 
-const { titleify } = require('./utils');
+const { commonREs, excludedDirs, titleify } = require('./utils');
+
+const { isAFileRE, shouldBeIgnoredRE } = commonREs;
 
 function readDir(dir) {
   return fse.readdirSync(`${process.cwd()}/${dir}/`)
-  .filter(item => !isAFileRegEx.test(item))
-  .filter(file => !shouldBeIgnoredRegEx.test(file));
+  .filter(item => !isAFileRE.test(item))
+  .filter(dir => !excludedDirs.includes(dir))
+  .filter(file => !shouldBeIgnoredRE.test(file));
 }
 
 function listAllDirs(level, prevPages = []) {
