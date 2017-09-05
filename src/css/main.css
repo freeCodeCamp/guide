@@ -36,6 +36,26 @@
   padding: 10px;
 }
 
+/* Footer */
+
+footer > div {
+  align-items: center;
+}
+
+.footerContainer {
+  background: #006400;
+  color: #eee;
+}
+
+.flexSpaceAround {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footerIcon {
+  color: #fff;
+}
+
 /* Layout */
 
 .link {
@@ -177,7 +197,6 @@
 
 .sideNav {
   overflow-y: scroll;
-  max-height: 90vh;
 }
 
 .title {
