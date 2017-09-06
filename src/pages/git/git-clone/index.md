@@ -10,13 +10,13 @@ First, find the remote repository for the project you're working on or intereste
 In the command line on your local machine, navigate to where you want to save the project in your working directory. Finally, run the `git clone` command:
 
 ```shell
-git clone <url of repository>
+git clone URL-OF-REPOSITORY
 ```
 
 The default name of the new directory on your computer is the name of the repository, but you can change this by including the last (optional) parameter:
 
 ```shell
-git clone <url of repository> <name of directory on computer>
+git clone URL-OF-REPOSITORY NAME-OF-DIRECTORY-ON-COMPUTER
 ```
 
 Git gives the remote the alias "origin". This is a useful way to refer to the remote when you want to push your changes to the remote server, or pull changes from it. See [Git push](../git-push/index.md) and [Git pull](../git-pull/index.md) for more details.

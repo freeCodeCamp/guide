@@ -30,7 +30,7 @@ You can use the `-a` (or `--all`) option to show the local branches as well as a
 ### Checkout a Branch
 To checkout an existing branch, run the command:
 ```shell
-git checkout <branchName>
+git checkout BRANCH-NAME
 ```
 
 Generally, Git won't let you checkout another branch unless your working directory is clean, because you would lose any working directory changes that aren't committed. You have three options to handle your changes: 1) trash them (see [Git checkout for details](../git-checkout/index.md)), 2) commit them (see [Git commit for details](../git-commit/index.md)), or 3) stash them (see [Git stash for details](../git-stash/index.md)).
@@ -38,7 +38,7 @@ Generally, Git won't let you checkout another branch unless your working directo
 ### Create a New Branch
 To create a new branch, run the command:
 ```shell
-git branch <newBranchName>
+git branch NEW-BRANCH-NAME
 ```
 
 Note that this command only creates the new branch. You'll need to run `git checkout <newBranchName>` to switch to it.
@@ -46,11 +46,11 @@ Note that this command only creates the new branch. You'll need to run `git chec
 There's a shortcut to create and checkout a new branch at once. You can pass the `-b` option (for branch) with `git checkout`. The following commands do the same thing:
 ```shell
 # Two-step method
-git branch <newBranchName>
-git checkout <newBranchName>
+git branch NEW-BRANCH-NAME
+git checkout NEW-BRANCH-NAME
 
 # Shortcut
-git checkout -b <newBranchName>
+git checkout -b NEW-BRANCH-NAME
 ```
 
 New branches will include all commits from the parent branch, which is the branch you're on when you create the new branch.
@@ -58,34 +58,34 @@ New branches will include all commits from the parent branch, which is the branc
 ### Rename a Branch
 To rename a branch, run the command:
 ```shell
-git branch -m <oldBranchName> <newBranchName>
+git branch -m OLD-BRANCH-NAME NEW-BRANCH-NAME
 
 # Alternative
-git branch --move <oldBranchName> <newBranchName>
+git branch --move OLD-BRANCH-NAME NEW-BRANCH-NAME
 ```
 
 ### Delete a Branch
 Git won't let you delete a branch that you're currently on. You first need to checkout a different branch, then run the command:
 ```shell
-git branch -d <branchToDelete>
+git branch -d BRANCH-TO-DELETE
 
 # Alternative:
-git branch --delete <branchToDelete>
+git branch --delete BRANCH-TO-DELETE
 ```
 
 The branch that you switch to makes a difference. Git will throw an error if the changes in the branch you're trying to delete are not fully merged into the current branch. You can override this and force Git to delete the branch with the `-D` option (note the capital letter) or using the `--force` option with `-d` or `--delete`:
 ```shell
-git branch -D <branchToDelete>
+git branch -D BRANCH-TO-DELETE
 
 # Alternatives
-git branch -d --force <branchToDelete>
-git branch --delete --force <branchToDelete>
+git branch -d --force BRANCH-TO-DELETE
+git branch --delete --force BRANCH-TO-DELETE
 ```
 
 ### Compare Branches
 You can compare branches with the `git diff` command:
 ```shell
-git diff <firstBranch>..<secondBranch>
+git diff FIRST-BRANCH..SECOND-BRANCH
 ```
 
 You'll see colored output for the changes between branches. For all lines that have changed, the `<secondBranch>` version will be a green line starting with a "+", and the `<firstBranch>` version will be a red line starting with a "-". If you don't want Git to display two lines for each change, you can use the `--color-words` option. Instead, Git will show one line with deleted text in red, and added text in green.

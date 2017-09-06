@@ -52,7 +52,7 @@ There may be conflicts when you apply changes. You can resolve the conflicts sim
 ### Delete Stashed Changes
 If you want to remove stashed changes without applying them, run the command:
 ```shell
-git stash drop <stash name>
+git stash drop STASH-NAME
 ```
 
 To clear the entire stash, run the command:
