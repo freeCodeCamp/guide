@@ -1,9 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import SearchBar from './components/search/SearchBar.jsx';
 import { Grid, Row, Col, Image, Navbar } from 'react-bootstrap';
 import Link from 'gatsby-link';
 
+import Footer from './components/footer/Footer.jsx';
+import SearchBar from './components/search/SearchBar.jsx';
 import SideNav from './components/nav/SideNav.jsx';
 
 import '../css/main.css';
@@ -63,6 +64,11 @@ class Layout extends React.PureComponent {
             <Col className='content' md={ 8 }>
               { this.props.children() }
             </Col>
+          </Row>
+        </Grid>
+        <Grid className='footerContainer' fluid={ true }>
+          <Row>
+            <Footer />
           </Row>
         </Grid>
       </div>
