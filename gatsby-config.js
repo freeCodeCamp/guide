@@ -18,6 +18,12 @@ module.exports = {
         plugins: ['gatsby-remark-smartypants', 'gatsby-remark-prismjs']
       }
     },
+    {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        trackingId: 'UA-55446531-6'
+      }
+    },
     'gatsby-plugin-sitemap',
     'gatsby-plugin-sharp'
   ]
