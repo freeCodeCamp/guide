@@ -3,7 +3,7 @@ title: Proof of Finite Arithmetic Series Formula by Induction
 ---
 ## Proof of Finite Arithmetic Series Formula by Induction
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/articles/mathematics/proof-of-finite-arithmetic-series-formula-by-induction/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/proof-of-finite-arithmetic-series-formula-by-induction/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
 <a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
 

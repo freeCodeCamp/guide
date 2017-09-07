@@ -3,7 +3,7 @@ title: Introduction to Logarithms
 ---
 ## Introduction to Logarithms
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/articles/mathematics/introduction-to-logarithms/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/introduction-to-logarithms/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
 <a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
 

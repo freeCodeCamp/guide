@@ -3,7 +3,7 @@ title: Worked Example Order of Operations Pemdas
 ---
 ## Worked Example Order of Operations Pemdas
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/articles/mathematics/worked-example-order-of-operations-pemdas/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/worked-example-order-of-operations-pemdas/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
 <a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
 

@@ -3,7 +3,7 @@ title: How to Work with 30 60 90 Degree Triangles
 ---
 ## How to Work with 30 60 90 Degree Triangles
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/articles/mathematics/how-to-work-with-30-60-90-degree-triangles/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/how-to-work-with-30-60-90-degree-triangles/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
 <a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
 

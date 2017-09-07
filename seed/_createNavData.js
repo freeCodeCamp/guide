@@ -5,15 +5,23 @@ const { Observable } = Rx;
 const topLevel = 'src/pages';
 const navData = {};
 
-const { commonREs, excludedDirs, titleify } = require('./utils');
+const { commonREs, excludedDirs } = require('./utils');
 
-const { isAFileRE, shouldBeIgnoredRE } = commonREs;
+const { isAFileRE, metaRE, shouldBeIgnoredRE } = commonREs;
 
 function readDir(dir) {
   return fse.readdirSync(`${process.cwd()}/${dir}/`)
   .filter(item => !isAFileRE.test(item))
   .filter(dir => !excludedDirs.includes(dir))
   .filter(file => !shouldBeIgnoredRE.test(file));
+}
+
+function getPageTitle(fileDir) {
+  const content = fse.readFileSync(`${fileDir}/index.md`, 'utf8');
+  // meta = '---\ntitle: Frontmatter Title\n---'
+  const meta = content.match(metaRE)[0];
+  return meta.split('\n')[1]
+    .replace('title: ', '');
 }
 
 function listAllDirs(level, prevPages = []) {
@@ -23,6 +31,7 @@ function listAllDirs(level, prevPages = []) {
       const thisDir = `${level}/${parentDir}`;
       const subDirs = readDir(thisDir);
       const parent = level.split('/')[ level.split('/').length - 1 ];
+      const title = getPageTitle(thisDir);
 
       navData[parentDir] = {
         children: subDirs.map(title => title.toLowerCase()),
@@ -32,7 +41,7 @@ function listAllDirs(level, prevPages = []) {
         path: thisDir.slice(9),
         parent,
         parentPath: level.slice(9).replace(new RegExp(parent + '/'), ''),
-        title: titleify(parentDir)
+        title
       };
       if (!subDirs.length) {
         // no child directories

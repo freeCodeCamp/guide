@@ -3,7 +3,7 @@ title: Worked Example Slope from Two Points
 ---
 ## Worked Example Slope from Two Points
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/articles/mathematics/worked-example-slope-from-two-points/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/worked-example-slope-from-two-points/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
 <a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
 

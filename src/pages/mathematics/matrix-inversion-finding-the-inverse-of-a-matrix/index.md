@@ -3,7 +3,7 @@ title: Matrix Inversion Finding the Inverse of a Matrix
 ---
 ## Matrix Inversion Finding the Inverse of a Matrix
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/articles/mathematics/matrix-inversion-finding-the-inverse-of-a-matrix/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/matrix-inversion-finding-the-inverse-of-a-matrix/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
 <a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
 

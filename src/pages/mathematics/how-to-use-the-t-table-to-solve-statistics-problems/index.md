@@ -3,7 +3,7 @@ title: How to Use the T Table to Solve Statistics Problems
 ---
 ## How to Use the T Table to Solve Statistics Problems
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/articles/mathematics/how-to-use-the-t-table-to-solve-statistics-problems/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/how-to-use-the-t-table-to-solve-statistics-problems/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
 <a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
 
