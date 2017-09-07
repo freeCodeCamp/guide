@@ -28,6 +28,7 @@ module.exports = {
       }
     },
     'gatsby-plugin-sitemap',
-    'gatsby-plugin-sharp'
+    'gatsby-plugin-sharp',
+    'gatsby-plugin-offline'
   ]
 };
