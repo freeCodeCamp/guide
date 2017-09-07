@@ -32,10 +32,10 @@ function startCountdown(seconds){
 ```
 
 ### Execution
-> Now to start the timer we provide `startCountdown()` with a number value as an argument which represents the seconds to countdown.
+Now to start the timer we provide `startCountdown()` with a number value as an argument which represents the seconds to countdown.
 
 ```javascript
-  startCountdown(10)l
+  startCountdown(10);
   // Console Output // 
   // 10
   // 9
@@ -52,4 +52,4 @@ function startCountdown(seconds){
 ```
 
 ### Live Example
-[Codepen - Countdown Timer](https://codepen.io/rdev-rocks/pen/jLogxY?editors=1111)
+[Codepen - Countdown Timer](https://codepen.io/rdev-rocks/pen/jLogxY?editors=0012)
