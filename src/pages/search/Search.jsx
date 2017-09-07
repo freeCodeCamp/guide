@@ -5,6 +5,7 @@ import { bindActionCreators } from 'redux';
 import Helmet from 'react-helmet';
 
 import NoResults from './components/NoResults.jsx';
+import NoSupport from './components/NoSupport.jsx';
 import Results from './components/Results.jsx';
 import ResultsSkeleton from './components/ResultsSkeleton.jsx';
 
@@ -42,6 +43,12 @@ function shouldShowResults(conditions) {
 }
 
 function SearchPage(props) {
+  if (
+    typeof window !== 'undefined' &&
+    !('Promise' in window)
+  ) {
+    return <NoSupport />;
+  }
   const { isSearching, lastPage, results, searchTerm } = props;
   return (
     <div>
