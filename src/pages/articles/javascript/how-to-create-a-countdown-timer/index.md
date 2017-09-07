@@ -8,7 +8,7 @@ Methods used:
 * [clearInterval()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/clearInterval)
 
 ### Creation
-> Start by building the countdownTimer function.
+Start by building the countdownTimer function.
 
 ```javascript
 function startCountdown(seconds){
@@ -16,11 +16,17 @@ function startCountdown(seconds){
 
   var interval = setInterval(() => {
     console.log(counter);
-		counter--;
-		if(counter < 0 ){
-		  clearInterval(interval);
-			console.log('Ding!');
-		};	
+    counter--;
+    
+
+    if(counter < 0 ){
+      
+      // The code here will run when
+      // the timer has reached zero.
+      
+      clearInterval(interval);
+      console.log('Ding!');
+    };	
   }, 1000);
 };
 ```
