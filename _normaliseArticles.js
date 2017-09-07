@@ -2,7 +2,15 @@ const Rx = require('rx');
 const fse = require('fs-extra');
 const chalk = require('chalk');
 
-const { titleify } = require('./seed/utils');
+const { commonREs, excludedDirs, titleify } = require('./seed/utils');
+
+const {
+  httpsRE,
+  isAFileRE,
+  isAStubRE,
+  markdownLinkRE,
+  shouldBeIgnoredRE
+} = commonREs;
 
 const { Observable } = Rx;
 
@@ -10,14 +18,8 @@ function info(str, colour = 'red') {
   console.log(chalk[colour](str));
 }
 
-const metaRE = /---[\W\w]*?---\n*?/;
-const isAFileRE = /(\.md|\.jsx?|\.html?)$/;
-const shouldBeIgnoredRE = /^(\_|\.)/;
-const isAStubRE = /This\sis\sa\sstub.+?Help\sour\scommunity\sexpand\sit/;
-const markdownLinkRE = /\!?\[.*?\]\(.+?\)/g;
-const httpsRE = /https?\:\/\//;
+const pagesDir = `${process.cwd()}/src/pages`;
 
-const articlesDir = `${process.cwd()}/src/pages/articles`;
 
 function readDir(dir) {
   return fse.readdirSync(dir)
@@ -25,17 +27,26 @@ function readDir(dir) {
   .filter(file => !shouldBeIgnoredRE.test(file));
 }
 
-function appendStub(title, path) {
+function appendStub(path) {
   const pathArr = path.split('/');
   const filePath = pathArr
-    .slice(pathArr.indexOf('articles') + 1)
+    .slice(pathArr.indexOf('pages') + 1)
     .join('/')
     .toLowerCase();
+    const title = path
+      .split('/')
+      .slice(-1)
+      .join('');
+    const pageTitle = titleify(title);
+    const newMeta = (
+`---
+title: ${pageTitle}
+---`);
 /* eslint-disable max-len */
-  return `
-## ${title}
+  return `${newMeta}
+## ${pageTitle}
 
-This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/articles/${filePath}/index.md).
+This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/${filePath}/index.md).
 
 [This quick style guide will help ensure your pull request gets accepted](https://github.com/freecodecamp/guides/blob/master/README.md).
 
@@ -73,7 +84,7 @@ function normaliseLinks(content) {
   return anchored;
 }
 
-function normaliseMeta(dirLevel) {
+function normalise(dirLevel) {
   const filePath = `${dirLevel}/index.md`;
   fse.open(filePath, 'r', (err) => {
     if (err) {
@@ -85,7 +96,8 @@ function normaliseMeta(dirLevel) {
         return fse.ensureFile(filePath)
           .then(() => {
             console.log('%s created', filePath);
-            return normaliseMeta(dirLevel);
+
+            return normalise(dirLevel);
           })
           .catch(err => {
             console.error(err);
@@ -95,26 +107,16 @@ function normaliseMeta(dirLevel) {
     }
     fse.readFile(filePath, 'utf-8')
       .then(content => {
-        const title = dirLevel
-          .split('/')
-          .slice(-1)
-          .join('');
-        const pageTitle = titleify(title);
-        const newMeta = (
-`---
-title: ${pageTitle}
----`);
-        let normalised = content
-          .replace(metaRE, '');
+        let normalised = content;
         if (
           normalised.length < 30 ||
           isAStubRE.test(content)
         ) {
-          normalised = appendStub(pageTitle, dirLevel);
+          normalised = appendStub(dirLevel);
         }
         const finalNormalised = normaliseLinks(normalised);
 
-        fse.writeFile(filePath, newMeta.concat(finalNormalised));
+        fse.writeFile(filePath, finalNormalised);
       })
       .catch(err => {
         console.error('something went wrong', err);
@@ -125,19 +127,20 @@ title: ${pageTitle}
 
 function applyNormaliser(dirLevel) {
   return Observable.from(readDir(dirLevel))
+    .filter(dir => !excludedDirs.includes(dir))
     .flatMap(dir => {
       const dirPath = `${dirLevel}/${dir}`;
       const subDirs = readDir(dirPath);
       if (!subDirs) {
-        normaliseMeta(dirPath);
+        normalise(dirPath);
         return Observable.of(null);
       }
-      normaliseMeta(dirPath);
+      normalise(dirPath);
       return applyNormaliser(dirPath);
     });
 }
 
-applyNormaliser(articlesDir)
+applyNormaliser(pagesDir)
   .subscribe((dir)=> {
     if (dir) {
       applyNormaliser(dir);
@@ -147,7 +150,6 @@ applyNormaliser(articlesDir)
       throw err;
     },
     () => {
-      normaliseMeta(articlesDir);
       info('\n\nNormalisation Completed\n\n', 'greenBright');
       info('Please check for uncommited changes before pushing\n', 'yellow');
     });

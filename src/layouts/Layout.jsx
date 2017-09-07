@@ -15,59 +15,47 @@ const propTypes = {
   location: PropTypes.object
 };
 
-class Layout extends React.PureComponent {
-  constructor() {
-    super();
-  }
+function Layout(props) {
 
-  componentWillMount() {
-    if (this.props.location.pathname === '/') {
-      this.context.router.history.replace('/articles');
-    }
-  }
-
-  render() {
-
-    return (
-      <div>
-        <Grid fluid={ true }>
-          <Row>
-            <Navbar className='navBar'>
-              <Col md={ 3 } xs={ 12 }>
-                <Link
-                  className='link'
-                  to={ '/articles' }
-                  >
-                  <Image
-                    alt='freeCodeCamp logo'
-                    responsive={ true }
-                    src={
-                      'https://raw.githubusercontent.com/' +
-                      'freeCodeCamp/assets/master/assets/' +
-                      'logos/FCC-logo-white.png'
-                      }
-                  />
-                </Link>
-              </Col>
-              <Col md={ 9 } xs={ 12 }>
-                <SearchBar />
-              </Col>
-            </Navbar>
-          </Row>
-        </Grid>
-        <Grid>
-          <Row>
-            <Col md={ 4 }>
-              <SideNav />
+  return (
+    <div>
+      <Grid fluid={ true }>
+        <Row>
+          <Navbar className='navBar'>
+            <Col md={ 3 } xs={ 12 }>
+              <Link
+                className='link'
+                to={ '/' }
+                >
+                <Image
+                  alt='freeCodeCamp logo'
+                  responsive={ true }
+                  src={
+                    'https://raw.githubusercontent.com/' +
+                    'freeCodeCamp/assets/master/assets/' +
+                    'logos/FCC-logo-white.png'
+                    }
+                />
+              </Link>
             </Col>
-            <Col className='content' md={ 8 }>
-              { this.props.children() }
+            <Col md={ 9 } xs={ 12 }>
+              <SearchBar />
             </Col>
-          </Row>
-        </Grid>
-      </div>
-    );
-  }
+          </Navbar>
+        </Row>
+      </Grid>
+      <Grid>
+        <Row>
+          <Col md={ 4 }>
+            <SideNav />
+          </Col>
+          <Col className='content' md={ 8 }>
+            { props.children() }
+          </Col>
+        </Row>
+      </Grid>
+    </div>
+  );
 }
 
 Layout.contextTypes = {
