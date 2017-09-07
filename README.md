@@ -10,10 +10,11 @@ This repo is where we plan and maintain these guide articles, which we then host
 - [What are Guide articles?](#what-are-guide-articles)
 - [What can I write an article about?](#what-can-i-write-an-article-about)
 - [How to contribute](#how-to-contribute)
+- [Folder style guide](#folder-style-guide)
 - [Article style guide](#article-style-guide)
 
 ## What are Guide articles?
-Guide articles can be an explanation of a syntax, design pattern, what aria labels are for, or something like what the numbers mean in the top right hand corner of your screen when at freecodecamp.org. You can find an [example article about HTML Elements here](./src/pages/articles/html/elements/index.md).
+Guide articles can be an explanation of a syntax, design pattern, what aria labels are for, or something like what the numbers mean in the top right hand corner of your screen when at freecodecamp.org. You can find an [example article about HTML Elements here](./src/pages/html/elements/index.md).
 
 ## What can I write an article about?
 We welcome your help writing these articles. You don't have to be an expert in a topic to write about it - this entire guide is open source, so even if you make a mistake, another contributor will eventually correct it.
@@ -31,7 +32,7 @@ You can create a PR with your draft article (or edits on an existing article) in
 
 ![Gif showing the GitHub interface steps](https://files.gitter.im/FreeCodeCamp/building-guides/WPK4/guide-article-contribution.gif)
 
-- Go into the "articles" folder (located in `guides/src/pages`) and find the article stub you'd like to write or edit. All stubs will be in an index.md file
+- Go into the "pages" folder (located in `guides/src`) and find the article stub you'd like to write or edit. All stubs will be in an index.md file
 - Click the "Edit this file" pencil icon and make your changes to the file in GitHub-flavored Markdown
 - Scroll to the bottom of the screen and add a commit message explaining your changes. Then select the radio button option for "Create a new branch for this commit and start a pull request" and click "Propose file changes"
 - On the next screen, you can add any other details about your PR, then click "Create pull request"
@@ -62,6 +63,30 @@ yarn run dev
 ```
 
 In this project we are using `yarn` because `netlify` builds our site with `yarn`.
+
+### Folder style guide
+
+W> For new tech topics, you will need to create a new folder.
+W> The URL of an article is created from the folder title.
+W> Folder names should not contain the following characters:
+W>  
+W> < (less than) 
+W> > (greater than)
+W> : (colon)
+W> " (double quote)
+W> / (forward slash)
+W> \ (backslash)
+W> | (vertical bar or pipe)
+W> ? (question mark)
+W> * (asterisk)
+W>   (whitespace)
+
+>[What characters are forbidden in Windows and Linux folder names?](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names#1976050)
+><cite>Christopher Oezbek</cite>
+
+T> The dash character `-` is the ONLY accepted character in folder names other than letters and numbers.
+T> All letters should be lowercase.
+T> However, you can include special characters in the [Article title](#article-title).
 
 ## Article style guide
 
