@@ -81,6 +81,7 @@ We've written the following guide to writing guide articles to help you get star
 ### Article title
 
 Article titles should be as short, concise, and to-the-point as possible. We want campers to quickly find the information they're looking for, and the title should reflect the main theme of the article.
+Also since article titles are used for generating their corresponding URLs, keep in mind that you never use any special characters(except dashes) in a title name.
 
 Here are some title examples:
 
