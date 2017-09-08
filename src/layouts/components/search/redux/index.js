@@ -3,7 +3,7 @@ import { createAction, handleActions } from 'redux-actions';
 
 const initialState = {
   isSearching: false,
-  lastPage: '/articles',
+  lastPage: '/',
   results: [],
   searchTerm: ''
 };

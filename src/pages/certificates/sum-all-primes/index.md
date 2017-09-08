@@ -19,7 +19,7 @@ Generate a list of all the numbers up to and including the one you got as a para
 
 ## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 2
 
-Check this <a href='http://stackoverflow.com/questions/11966520/how-to-find-prime-numbers-between-0-100' target='_blank' rel='nofollow'>link</a> if you prefer to find a solution for finding primes, or try learning and implementing your own <a href='https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes' target='_blank' rel='nofollow'>Sieve of Eratosthenes</a>
+Check this <a href='https://stackoverflow.com/questions/11966520/how-to-find-prime-numbers-between-0-100' target='_blank' rel='nofollow'>link</a> if you prefer to find a solution for finding primes, or try learning and implementing your own <a href='https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes' target='_blank' rel='nofollow'>Sieve of Eratosthenes</a>
 
 > _try to solve the problem now_
 
@@ -84,7 +84,7 @@ This problem is hard if you have to create your own code to check for primes, so
 
 #### Relevant Links
 
-*   <a href='http://forum.freecodecamp.com/t/javascript-for-loop/14666s-Explained' target='_blank' rel='nofollow'>JS For Loops Explained</a>
+*   <a href='https://forum.freecodecamp.com/t/javascript-for-loop/14666s-Explained' target='_blank' rel='nofollow'>JS For Loops Explained</a>
 
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution:
 
@@ -173,4 +173,4 @@ This problem is hard if you have to create your own code to check for primes, so
 *   Add an explanation of your solution.
 *   Categorize the solution in one of the following categories — **Basic**, **Intermediate** and **Advanced**. ![:traffic_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/traffic_light.png?v=3 ":traffic_light:")
 
-> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") <a href='http://forum.freecodecamp.com/t/algorithm-article-template/14272' target='_blank' rel='nofollow'>**`Wiki Challenge Solution Template`**</a> for reference.
+> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") <a href='https://forum.freecodecamp.com/t/algorithm-article-template/14272' target='_blank' rel='nofollow'>**`Wiki Challenge Solution Template`**</a> for reference.

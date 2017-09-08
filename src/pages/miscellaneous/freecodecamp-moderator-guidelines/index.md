@@ -99,7 +99,7 @@ There are several general classes of Issues:
 
     > Thank you for reporting this issue.
     > 
-    > This is a standard message notifying you that this issue seems to be a request for help. Instead of asking for help here, please click the **"Help"** button on the challenge on freeCodeCamp, which will take you to the help chatroom for that specific challenge. You can also view our <a href='[http://forum.freecodecamp.com/t/free-code-camp-official-chat-rooms/19390' target='_blank' rel='nofollow'>**full list of official chatrooms**</a>).
+    > This is a standard message notifying you that this issue seems to be a request for help. Instead of asking for help here, please click the **"Help"** button on the challenge on freeCodeCamp, which will take you to the help chatroom for that specific challenge. You can also view our <a href='https://forum.freecodecamp.com/t/free-code-camp-official-chat-rooms/19390' target='_blank' rel='nofollow'>**full list of official chatrooms**</a>).
     > 
     > If you think I'm wrong in closing this issue, please reopen it and add further clarification. Thank you, and happy coding.
 
@@ -107,7 +107,7 @@ There are several general classes of Issues:
 
     *   If it's a simple change to an existing challenge, flag as `help wanted` and, optionally, as `first-timers-only`. Use other tags as appropriate.
     *   If the issue is more significant, flag as `bug`.
-    *   <a href='http://forum.freecodecamp.com/t/free-code-camp-issue-labels/19556' target='_blank' rel='nofollow'>Label Usage Guide</a>  
+    *   <a href='https://forum.freecodecamp.com/t/free-code-camp-issue-labels/19556' target='_blank' rel='nofollow'>Label Usage Guide</a>  
 
         If there is any ambiguity as to the proper course of action on an issue, feel free to tag **`@freeCodeCamp/moderators`** to get opinions from other moderators. Flag as `Discussing`.
 3.  **Duplicate Issues** If an issue is the same as another reported issue, the prior reported issue should take precedence. Flag as `Duplicate`, paste the following message replacing `#XXXXX` with the issue number, then close the issue.

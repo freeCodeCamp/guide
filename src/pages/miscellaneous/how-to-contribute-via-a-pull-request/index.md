@@ -23,4 +23,4 @@ _Note: Not all pull requests are accepted. FCC project maintainers will explain 
 *   <a href='https://www.youtube.com/playlist?list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-' target='_blank' rel='nofollow'>GitHub & Git Foundations Training</a> - How to use Git and GitHub
 *   <a href='https://github.com/FreeCodeCamp/FreeCodeCamp#contributing' target='_blank' rel='nofollow'>FreeCodeCamp Contribution Guidelines</a>
 *   <a href='http://chris.beams.io/posts/git-commit/' target='_blank' rel='nofollow'>How to write Git commit messages</a>
-*   <a href='http://forum.freecodecamp.com/t/how-to-clone-and-setup-the-free-code-camp-website-on-a-windows-pc/19366' target='_blank' rel='nofollow'>How to Clone FCC to a Windows PC</a>
+*   <a href='https://forum.freecodecamp.com/t/how-to-clone-and-setup-the-free-code-camp-website-on-a-windows-pc/19366' target='_blank' rel='nofollow'>How to Clone FCC to a Windows PC</a>

@@ -16,7 +16,7 @@ Please note that Free Code Camp is not partnered with, nor do we receive a refer
 *   <a href='https://www.squarespace.com/' target='_blank' rel='nofollow'>https://www.squarespace.com/</a>
 *   <a href='https://wordpress.com/' target='_blank' rel='nofollow'>https://wordpress.com/</a>
 *   <a href='https://xprs.imcreator.com' target='_blank' rel='nofollow'>https://xprs.imcreator.com</a>
-*   <a href='http://forum.freecodecamp.com/t/how-to-build-a-website-without-writing-any-code/19503' target='_blank' rel='nofollow'>or build it for free without writing any code</a>
+*   <a href='https://forum.freecodecamp.com/t/how-to-build-a-website-without-writing-any-code/19503' target='_blank' rel='nofollow'>or build it for free without writing any code</a>
 
 ## Donor and Volunteer Management Systems
 

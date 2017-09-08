@@ -9,10 +9,10 @@ There are various ways in which you can contribute collaboratively to the transl
 
 > _Pro tip: You can contribute to any or all of below phases in the work flow as per your interest._
 
-*   <a href='http://forum.freecodecamp.com/t/guidelines-for-translating-free-code-camp-to-any-language/19111/3' target='_blank' rel='nofollow'>Review the work of another translator</a>.
-*   <a href='http://forum.freecodecamp.com/t/guidelines-for-translating-free-code-camp-to-any-language/19111/4' target='_blank' rel='nofollow'>Create `Translation` issues to track the progress</a>.
-*   <a href='http://forum.freecodecamp.com/t/guidelines-for-translating-free-code-camp-to-any-language/19111/5' target='_blank' rel='nofollow'>Implement Translations</a>.
-*   <a href='http://forum.freecodecamp.com/t/guidelines-for-translating-free-code-camp-to-any-language/19111/6' target='_blank' rel='nofollow'>Create Pull requests to add the Translations to code base</a>
+*   <a href='https://forum.freecodecamp.com/t/guidelines-for-translating-free-code-camp-to-any-language/19111/3' target='_blank' rel='nofollow'>Review the work of another translator</a>.
+*   <a href='https://forum.freecodecamp.com/t/guidelines-for-translating-free-code-camp-to-any-language/19111/4' target='_blank' rel='nofollow'>Create `Translation` issues to track the progress</a>.
+*   <a href='https://forum.freecodecamp.com/t/guidelines-for-translating-free-code-camp-to-any-language/19111/5' target='_blank' rel='nofollow'>Implement Translations</a>.
+*   <a href='https://forum.freecodecamp.com/t/guidelines-for-translating-free-code-camp-to-any-language/19111/6' target='_blank' rel='nofollow'>Create Pull requests to add the Translations to code base</a>
 
 ## Guidelines and Resources
 
