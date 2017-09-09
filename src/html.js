@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 
+import preloads from './head/preloads';
 import metaAndStyleSheets from './head';
 
 
@@ -29,6 +30,7 @@ export default class HTML extends React.Component {
     return (
       <html lang='en'>
         <head>
+          { preloads }
           { this.props.headComponents }
           { metaAndStyleSheets }
           { css }

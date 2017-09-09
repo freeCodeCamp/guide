@@ -1,8 +1,12 @@
 import React from 'react';
+import Helmet from 'react-helmet';
 
 function Index() {
   return (
     <div>
+      <Helmet>
+        <title>freeCodeCamp Guides</title>
+      </Helmet>
       <h2>freeCodeCamp Guides</h2>
       <p>
         {
