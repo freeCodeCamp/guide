@@ -22,7 +22,7 @@ In this age where software can be used maliciously to steal information or do
 harm if software is implemented incorrectly, software engineers (or
 practitioners) must be aware of their duties to ethically develop software.
 
-#### More Information:
+### More Information:
 
 - [Software Engineering 10th Ed. by Sommerville](http://iansommerville.com/software-engineering-book/) - website companion to the book with slide decks for each chapter
 - [The Guide to the Software Engineering Body of Knowledge](https://www.computer.org/web/swebok)
