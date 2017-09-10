@@ -2,14 +2,6 @@
 title: Fcm Integration for Cordova Hybrid Apps
 ---
 ## Fcm Integration for Cordova Hybrid Apps
-
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/articles/hybrid-application-development/fcm-integration-for-cordova-hybrid-apps/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+This is a basic straight forward walk through regarding how to implement push notification in Android as well as iOS using the <a href='https://github.com/fechanique/cordova-plugin-fcm' target='_blank' rel='nofollow'> cordova plugin for fcm </a> and Google Firebase FCM from scratch. I will be using Ubuntu 16.04 LTS for this, but OS used for development should not matter much.
 
 
