@@ -74,9 +74,12 @@ Note the tag
 Here the attribute id is the package **id** which will by default be **io.cordova.hellocordova** change it to the app id you have specified in the firebase console. I will be using com.pushSample.hello
 
 Next field to be filled in the firebase console popup is :
+
 **App nickname (optional) :** This can be the same app name which is displayed in the menu for the app, this can also be changed in the config.xml, by default it will be HelloCordova, i will update it to **PushSample**
+
 **Debug signing certificate SHA-1 (optional) :** This is optional please leave it blank.
 
 Next click on **Register App**
 
 Next step is to download the **google services json** file.
+
