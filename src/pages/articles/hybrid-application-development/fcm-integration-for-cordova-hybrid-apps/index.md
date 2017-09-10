@@ -18,7 +18,9 @@ cordova plugin add cordova-plugin-fcm
 ```
 While adding the cordova fcm plugin will show an error :
 ```
-Error: cordova-plugin-fcm: You have installed platform android but file 'google-services.json' was not found in your Cordova project root folder.```
+Error: cordova-plugin-fcm: You have installed platform android but file 'google-services.json' was not found in your Cordova project root folder.
+```
+
 Note : This is because we have not added the google-services.json file which has to be created in the next following steps.
 
 Next open the <a href='https://console.firebase.google.com/' target='_blank' rel='nofollow'> google firebase console </a> and Add Project ( basically means create a new project )
