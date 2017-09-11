@@ -10,7 +10,6 @@ This repo is where we plan and maintain these guide articles, which we then host
 - [What are Guide articles?](#what-are-guide-articles)
 - [What can I write an article about?](#what-can-i-write-an-article-about)
 - [How to contribute](#how-to-contribute)
-- [Folder style guide](#folder-style-guide)
 - [Article style guide](#article-style-guide)
 
 ## What are Guide articles?
@@ -64,30 +63,6 @@ yarn run dev
 
 In this project we are using `yarn` because `netlify` builds our site with `yarn`.
 
-### Folder style guide
-
-W> For new tech topics, you will need to create a new folder.
-W> The URL of an article is created from the folder title.
-W> Folder names should not contain the following characters:
-W>  
-W> < (less than) 
-W> > (greater than)
-W> : (colon)
-W> " (double quote)
-W> / (forward slash)
-W> \ (backslash)
-W> | (vertical bar or pipe)
-W> ? (question mark)
-W> * (asterisk)
-W>   (whitespace)
-
->[What characters are forbidden in Windows and Linux folder names?](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names#1976050)
-><cite>Christopher Oezbek</cite>
-
-T> The dash character `-` is the ONLY accepted character in folder names other than letters and numbers.
-T> All letters should be lowercase.
-T> However, you can include special characters in the [Article title](#article-title).
-
 ## Article style guide
 
 We've written the following guide to writing guide articles to help you get started contributing.
@@ -112,6 +87,16 @@ Here are some title examples:
 - "HTML Lists"
 - "CSS Borders"
 - "JavaScript For Loop"
+
+The folder name is used in the URL, so only use dashes `-`, numbers `0-9`, and lowercase letters `a-z` for it.
+
+Here are some folder name examples:
+
+- html-lists
+- css-borders
+- javascript-for-loop
+
+> However, you can include special characters in the [Article title](#article-title).
 
 ### Modularity
 
