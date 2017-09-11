@@ -2,7 +2,11 @@ import { createTypes } from 'redux-create-types';
 import { createAction, handleActions } from 'redux-actions';
 
 const initialState = {
-  isOnline: true
+  isOnline: (
+    typeof window !== 'undefined' &&
+    navigator &&
+    'onLine' in navigator
+  ) ? navigator.onLine : true
 };
 
 export const types = createTypes(

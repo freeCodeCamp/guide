@@ -1,7 +1,7 @@
 import { createTypes } from 'redux-create-types';
 import { createAction, handleActions } from 'redux-actions';
 
-import { types as appTypes } from '../../../redux';
+import { types as appTypes } from '../../redux';
 
 const initialState = {
   isSearching: false,
