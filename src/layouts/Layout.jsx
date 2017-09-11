@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
@@ -13,6 +13,7 @@ import Link from 'gatsby-link';
 import SearchBar from '../LayoutComponents/search/SearchBar.jsx';
 import SideNav from '../LayoutComponents/nav/SideNav.jsx';
 
+import logo from '../../static/assets/FCC-logo-white.png';
 import 'prismjs/themes/prism.css';
 import '../css/main.css';
 
@@ -37,7 +38,7 @@ function mapDispatchToProps(dispatch) {
   }, dispatch);
 }
 
-class Layout extends React.PureComponent {
+class Layout extends PureComponent {
   constructor() {
     super();
 
@@ -72,11 +73,7 @@ class Layout extends React.PureComponent {
                   <Image
                     alt='freeCodeCamp logo'
                     responsive={ true }
-                    src={
-                      'https://raw.githubusercontent.com/' +
-                      'freeCodeCamp/assets/master/assets/' +
-                      'logos/FCC-logo-white.png'
-                      }
+                    src={ logo }
                   />
                 </Link>
               </Col>

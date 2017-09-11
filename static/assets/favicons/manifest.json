@@ -1,0 +1,20 @@
+{
+    "background_color": "#006400",
+    "display": "standalone",
+    "icons": [
+        {
+            "sizes": "192x192",
+            "src": "/assets/favicons/android-chrome-192x192.png",
+            "type": "image/png"
+        },
+        {
+            "sizes": "512x512",
+            "src": "/assets/favicons/android-chrome-512x512.png",
+            "type": "image/png"
+        }
+    ],
+    "name": "freeCodeCamp Guides",
+    "short_name": "fCC Guides",
+    "start_url": "/",
+    "theme_color": "#006400"
+}
