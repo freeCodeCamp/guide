@@ -83,6 +83,52 @@ Next click on **Register App**
 
 Next step is to download the **google services json** file.
 
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+![download google services json](https://github.com/T1TAN1UM/guides/blob/master/src/pages/articles/hybrid-application-development/fcm-integration-for-cordova-hybrid-apps/1-Wje-TClf8o9zDxw3W-wkpw.png)
 
-[download google services json]: https://github.com/T1TAN1UM/guides/blob/master/src/pages/articles/hybrid-application-development/fcm-integration-for-cordova-hybrid-apps/1-Wje-TClf8o9zDxw3W-wkpw.png
+Click on the **Download google-services.json** button, which should download the file to your PC.
+
+Once you get the file paste it in the root folder of your cordova project, in my case :
+
+```
+/opt/lampp/htdocs/pushSample/pushSample
+```
+
+Next build the project
+
+```
+cordova build android
+```
+
+After adding the google-services.json file it should build successfully.
+
+Next we have to write the client side code for handling push notifications :
+
+```
+FCMPlugin.getToken(function(token) {
+    //this is the fcm token which can be used
+    //to send notification to specific device 
+    console.log(token);
+    //FCMPlugin.onNotification( onNotificationCallback(data), successCallback(msg), errorCallback(err) )
+    //Here you define your application behaviour based on the notification data.
+    FCMPlugin.onNotification(function(data) {
+        console.log(data);
+        //data.wasTapped == true means in Background :  Notification was received on device tray and tapped by the user.
+        //data.wasTapped == false means in foreground :  Notification was received in foreground. Maybe the user needs to be notified.
+        // if (data.wasTapped) {
+        //     //Notification was received on device tray and tapped by the user.
+        //     alert(JSON.stringify(data));
+        // } else {
+        //     //Notification was received in foreground. Maybe the user needs to be notified.
+        //     alert(JSON.stringify(data));
+        // }
+    });
+});
+```
+The code basically first calls the **getToken** function to get an FCM token from firebase, then in the callback registers another callback **onNotification** to handle what happens when a push notification is received.
+
+the **onNotification** function has a data value which contains the notification data. data.wasTapped indicates whether the notification is sent when the app is in foreground or background, so that we can define separate logic for each case.
+Now to trigger a sample push notification click on the Notification section in the left side panel, this should now show you the firebase notification composer, showing the list of past notifications sent.
+
+In case you have not sent any push notifications yet. You should see a **send your first notification** button.
+
+**Note:** The Notification Composer will look like this :
