@@ -83,3 +83,4 @@ Next click on **Register App**
 
 Next step is to download the **google services json** file.
 
+[download google services json]:(https://github.com/T1TAN1UM/guides/blob/master/src/pages/articles/hybrid-application-development/fcm-integration-for-cordova-hybrid-apps/1-Wje-TClf8o9zDxw3W-wkpw.png)
