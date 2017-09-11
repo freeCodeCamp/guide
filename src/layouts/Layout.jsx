@@ -6,8 +6,8 @@ import Link from 'gatsby-link';
 
 import SideNav from './components/nav/SideNav.jsx';
 
-import '../css/main.css';
 import 'prismjs/themes/prism.css';
+import '../css/main.css';
 
 const propTypes = {
   'location.pathname': PropTypes.string,
