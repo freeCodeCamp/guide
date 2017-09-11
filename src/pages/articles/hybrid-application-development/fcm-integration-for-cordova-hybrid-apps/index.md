@@ -6,6 +6,9 @@ This is a basic straight forward walk through regarding how to implement push no
 I will be using Ubuntu 16.04 LTS for this, but OS used for development should not matter much.
 
 ## Fcm Integration for Cordova Hybrid Apps
+
+### Android Implementation
+
 Create an empty folder pushSample
 ```
 cd '/opt/lampp/htdocs'
@@ -132,3 +135,56 @@ Now to trigger a sample push notification click on the Notification section in t
 In case you have not sent any push notifications yet. You should see a **send your first notification** button.
 
 **Note:** The Notification Composer will look like this :
+
+![send your first notification](https://github.com/T1TAN1UM/guides/blob/master/src/pages/articles/hybrid-application-development/fcm-integration-for-cordova-hybrid-apps/1-sW2AdQJzJEFjto6rz1_8rA.png)
+
+Note While sending push notification using firebase console you need to select app name **com.pushSample.hello** in my case.
+
+To send the custom application specific data select advance options -> Key value pairs.
+
+![advanced options](https://github.com/T1TAN1UM/guides/blob/master/src/pages/articles/hybrid-application-development/fcm-integration-for-cordova-hybrid-apps/1-qp9MzXBZvnPYawyo0TQBRA.png)
+
+The data object in the onNotification callback will look as follows
+
+```
+{myKey2: "valuefor2", myKey: "valuefor1", wasTapped: false}
+```
+
+Also note while sending push notifications using REST APIs from your app server instead of the firebase notification composer, you have to use the following syntax :
+
+```
+//POST: https://fcm.googleapis.com/fcm/send
+//HEADER: Content-Type: application/json
+//HEADER: Authorization: key=AIzaSy*******************
+{
+  "notification":{
+    "title":"Notification title",
+    "body":"Notification body",
+    "sound":"default",
+    "click_action":"FCM_PLUGIN_ACTIVITY",
+    "icon":"fcm_push_icon"
+  },
+  "data":{
+    "param1":"value1",
+    "param2":"value2"
+  },
+    "to":"/topics/topicExample",
+    "priority":"high",
+    "restricted_package_name":""
+}
+//sound: optional field if you want sound with the notification
+//click_action: must be present with the specified value for Android
+//icon: white icon resource name for Android >5.0
+//data: put any "param":"value" and retreive them in the JavaScript notification callback
+//to: device token or /topic/topicExample
+//priority: must be set to "high" for delivering notifications on closed iOS apps
+//restricted_package_name: optional field if you want to send only to a restricted app package (i.e: com.myapp.test)
+```
+**Note : “click_action”:”FCM_PLUGIN_ACTIVITY”** field is very important as not mentioning it will not execute the onNotification callback in foreground mode.
+
+![done with android implementation](https://github.com/T1TAN1UM/guides/blob/master/src/pages/articles/hybrid-application-development/fcm-integration-for-cordova-hybrid-apps/0-QIzcJZH9Nqzpjygg.jpg)
+
+### iOS Implementation
+
+
+
