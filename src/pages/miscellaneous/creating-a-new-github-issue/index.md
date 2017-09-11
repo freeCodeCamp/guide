@@ -1,7 +1,7 @@
 ---
 title: Creating a New Github Issue
 ---
-Before submitting an issue try <a href='http://forum.freecodecamp.com/t/searching-for-existing-issues-in-github/18390' target='_blank' rel='nofollow'>Searching for Your Issue on Github</a>
+Before submitting an issue try <a href='https://forum.freecodecamp.com/t/searching-for-existing-issues-in-github/18390' target='_blank' rel='nofollow'>Searching for Your Issue on Github</a>
 
 Crafting a good issue will make it much easier for the dev team to replicate and resolve your problem. Follow these steps to do it right:
 
@@ -16,7 +16,7 @@ Crafting a good issue will make it much easier for the dev team to replicate and
 
     *   When referencing other issues or pull requests, simply write <span class="hashtag">#issue</span>/pr-number.
 
-5.  Paste in any relevant code using proper <a href='http://forum.freecodecamp.com/t/markdown-code-formatting/18391' target='_blank' rel='nofollow'>Code Formatting</a>
+5.  Paste in any relevant code using proper <a href='https://forum.freecodecamp.com/t/markdown-code-formatting/18391' target='_blank' rel='nofollow'>Code Formatting</a>
 
 6.  **Take a screenshot** of the issue and include it in the post.
 

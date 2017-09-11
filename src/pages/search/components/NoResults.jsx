@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/lib/Button';
 import Link from 'gatsby-link';
 
 function NoResults(props) {
-  const { page = '/articles', searchTerm = '' } = props;
+  const { page = '/', searchTerm = '' } = props;
   const helperHeader = searchTerm.length ?
     'We couldn\'t find what you were looking for' :
     'It looks like you are not searching for anything';

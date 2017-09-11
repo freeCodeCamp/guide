@@ -66,7 +66,7 @@ As you might have guessed by now is that our code is actually a script that does
 
 We must leverage `Source Maps` to assign a name to the JavaScript from our editor. Its pretty simple:
 
-Lets say we are on the <a href='http://www.freecodecamp.com/challenges/factorialize-a-number' target='_blank' rel='nofollow'>Factorialize</a> challenge, and our code looks like this:
+Lets say we are on the <a href='https://www.freecodecamp.com/challenges/factorialize-a-number' target='_blank' rel='nofollow'>Factorialize</a> challenge, and our code looks like this:
 
     function factorialize(num) {
       if(num <= 1){

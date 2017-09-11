@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: 'http://guide.freecodecamp.org',
+    siteUrl: 'https://guide.freecodecamp.org',
     title: 'freeCodeCamp Guides'
   },
   plugins: [
@@ -15,7 +15,10 @@ module.exports = {
     {
       resolve: 'gatsby-transformer-remark',
       options: {
-        plugins: ['gatsby-remark-smartypants', 'gatsby-remark-prismjs']
+        plugins: [
+          'gatsby-remark-smartypants',
+          'gatsby-remark-prismjs'
+        ]
       }
     },
     'gatsby-plugin-sitemap',

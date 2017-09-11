@@ -37,13 +37,13 @@ Here is a summary for those who don't have time to watch the full 90 minutes:
 
 -There is a <a href='https://gitter.im/FreeCodeCamp/DataScience' target='_blank' rel='nofollow'>FCC Data Science Chat</a> on Gitter where some cool analysis about FCC is being posted.
 
--<a href='http://www.freecodecamp.com/labs' target='_blank' rel='nofollow'>FCC Labs</a> has some cool apps that you can use to look at some of the data visualization that has been built so far.
+-<a href='https://www.freecodecamp.com/labs' target='_blank' rel='nofollow'>FCC Labs</a> has some cool apps that you can use to look at some of the data visualization that has been built so far.
 
 **--New FCC Wiki--**
 
--Wiki was moved to a new repo due to spam. Campers who want to contribute can make a pull request on <a href='http://www.github.com/freecodecamp/wiki' target='_blank' rel='nofollow'>The Repo</a>.
+-Wiki was moved to a new repo due to spam. Campers who want to contribute can make a pull request on <a href='https://www.github.com/freecodecamp/wiki' target='_blank' rel='nofollow'>The Repo</a>.
 
--The new wiki itself is available on the <a href='http://beta.freecodecamp.com/wiki' target='_blank' rel='nofollow'>Beta Site</a>.
+-The new wiki itself is available on the <a href='https://beta.freecodecamp.com/wiki' target='_blank' rel='nofollow'>Beta Site</a>.
 
 **--Q&A--**
 
@@ -63,12 +63,12 @@ Here is a summary for those who don't have time to watch the full 90 minutes:
 
 **-How do you see Reddit being used by campers?** [@QuincyLarson](/users/quincylarson) - Reddit is a place for our community to share ideas and ask questions. The FCC community is spread over many different platforms (e.g. Gitter chat, Facebook, meetups, etc). Reddit is a great way for people to share stories, ask questions, etc., to the ENTIRE community at once.
 
-As an aside, [@QuincyLarson](/users/quincylarson) pulled up <a href='http://stackoverflow.com/research/developer-survey-2015' target='_blank' rel='nofollow'>A stackoverflow page</a> and discussed the trend of more and more software developers being self taught and/or coming from non CS fields.
+As an aside, [@QuincyLarson](/users/quincylarson) pulled up <a href='https://stackoverflow.com/research/developer-survey-2015' target='_blank' rel='nofollow'>A stackoverflow page</a> and discussed the trend of more and more software developers being self taught and/or coming from non CS fields.
 
 **-Last month, you said that about 200 people had finished the Front End Developer Certificate. Has this changed and at what rate are people earning this certificate?** [@BerkeleyTrue](/users/berkeleytrue) - 311\. [@QuincyLarson](/users/quincylarson) - The pace has picked up. If you have completed that certificate, internet high-five. 913 people have pledged donations to nonprofit organizations.
 
 As an aside, /u/quicnylarson discussed future plans to expand the number of nonprofit organizations that campers can pledge to for their nonprofit pledge. No specific numbers, just that it will be expanding in the future.
 
-**-How can people hire FCC graduates?** [@QuincyLarson](/users/quincylarson) - Employers can use the <a href='http://www.freecodecamp.com/jobs' target='_blank' rel='nofollow'>Free Code Camp Job Board</a> to post positions. FCC wants only high quality jobs from high quality employers, so they are currently charging $1000 to post a job on the job board. FCC is still trying to figure out how to market to employers and help them understand what they will get when they hire an FCC graduate. Only about 5% of people in the U.S. learn to code compared to 100% in China. Already, software developer is the most common job in some U.S. states. Providing coding education to everyone for free is a big and ambitious goal. The job board (and its cost) is just another manifestation of that.
+**-How can people hire FCC graduates?** [@QuincyLarson](/users/quincylarson) - Employers can use the <a href='https://www.freecodecamp.com/jobs' target='_blank' rel='nofollow'>Free Code Camp Job Board</a> to post positions. FCC wants only high quality jobs from high quality employers, so they are currently charging $1000 to post a job on the job board. FCC is still trying to figure out how to market to employers and help them understand what they will get when they hire an FCC graduate. Only about 5% of people in the U.S. learn to code compared to 100% in China. Already, software developer is the most common job in some U.S. states. Providing coding education to everyone for free is a big and ambitious goal. The job board (and its cost) is just another manifestation of that.
 
 **-If I'm an established developer, can I start work on nonprofit projects immediately?** [@QuincyLarson](/users/quincylarson) - No. Everyone who works on our nonprofit projects has to earn the Full Stack Development Certification first. Completing the program isn't just about demonstrating ability, it's also about demonstrating commitment to the program. It's important that people who work on the nonprofits are dedicated and have put in the time and effort to get to that point; FCC doesn't want people quitting half way through a project. [@QuincyLarson](/users/quincylarson) pointed out that FCC is intentionally difficult and is probably among the most difficult coding resources around. Even people who have experience coding can take hours to complete a Front End Project or Back End Project. This is by design. [@SaintPeter](/users/saintpeter) - As a reminder, all of the Challenges are optional (for everyone). If you have a coding background, you only have to complete the Algorithms, Front End Projects, and Back End Projects in order to get the certificates.
