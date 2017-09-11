@@ -299,6 +299,9 @@ Next enable Push Notifications in the Capabilities Tab of the project.
 Connect an actual device and run the app.
 
 Now trigger the push notification from the firebase notification composer and everything should work…
+![happy steve](https://github.com/T1TAN1UM/guides/blob/master/src/pages/articles/hybrid-application-development/fcm-integration-for-cordova-hybrid-apps/1vnhjv.jpg)
+
+<a href='https://medium.com/@t1tan1um/fcm-integration-for-cordova-hybrid-apps-c679f5fc1988' target='_blank' rel='nofollow'> Original post on medium </a>
 
 Have a nice day !!!
 
