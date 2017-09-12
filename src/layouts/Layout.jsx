@@ -1,10 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import SearchBar from './components/search/SearchBar.jsx';
-import { Grid, Row, Col, Image, Navbar } from 'react-bootstrap';
+import Col from 'react-bootstrap/lib/Col';
+import Grid from 'react-bootstrap/lib/Grid';
+import Image from 'react-bootstrap/lib/Image';
+import Navbar from 'react-bootstrap/lib/Navbar';
+import Row from 'react-bootstrap/lib/Row';
 import Link from 'gatsby-link';
 
-import SideNav from './components/nav/SideNav.jsx';
+import SearchBar from '../LayoutComponents/search/SearchBar.jsx';
+import SideNav from '../LayoutComponents/nav/SideNav.jsx';
 
 import 'prismjs/themes/prism.css';
 import '../css/main.css';

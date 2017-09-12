@@ -1,4 +1,4 @@
-import navData from '../../../../navData.json';
+import navData from '../../../navData.json';
 
 export const pages = Object.keys(navData)
   .map(key => navData[key]);

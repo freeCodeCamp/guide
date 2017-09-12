@@ -11,7 +11,7 @@ import ResultsSkeleton from './components/ResultsSkeleton.jsx';
 
 import {
   resetSearch
-} from '../../layouts/components/search/redux';
+} from '../../LayoutComponents/search/redux';
 
 const propTypes = {
   isSearching: PropTypes.bool,
