@@ -3,7 +3,7 @@ title: Hybrid Application Development
 ---
 ## Hybrid Application Development
 
-![Hybrid App Development](https://github.com/T1TAN1UM/guides/blob/master/src/pages/articles/hybrid-application-development/WhatsApp%20Image%202017-09-11%20at%2012.48.41%20PM.jpeg)
+<a href="https://ibb.co/gKS4Gv"><img src="https://preview.ibb.co/chfPGv/Whats_App_Image_2017_09_11_at_12_48_41_PM.jpg" alt="Whats_App_Image_2017_09_11_at_12_48_41_PM" border="0"></a>
 
 Contains articles related to Mobile Hybrid Applications Development using frameworks such as Apache Cordova / Ionic Framework / PhoneGap etc.
 
