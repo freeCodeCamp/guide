@@ -22,4 +22,4 @@ arr[3] = 'World!' // OK, 'string' can be assigned to 'string | number'
 arr[5] = false;   // Error, 'boolean' is not a 'string | number'
 ``` 
 
-Union types are an advanced topic, see the [Union Types](http://#) article.
+Union types are an advanced topic, see the <a href='http://#' target='_blank' rel='nofollow'>Union Types</a> article.
