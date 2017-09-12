@@ -8,7 +8,7 @@ import {
   updateSearchResults
 } from './';
 
-const requestUrl = 'http://freecodecamp.duckdns.org';
+const requestUrl = 'https://freecodecamp.duckdns.org';
 const nullAction = { type: 'null' };
 
 function searchTermEpic(actions$, { getState }) {
