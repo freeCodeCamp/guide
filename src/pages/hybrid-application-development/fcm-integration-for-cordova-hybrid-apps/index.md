@@ -142,7 +142,7 @@ Note While sending push notification using firebase console you need to select a
 
 To send the custom application specific data select advance options -> Key value pairs.
 
-![advanced options]<a href="https://ibb.co/f7pn3a"><img src="https://preview.ibb.co/hePLOa/1_Xe_Kh4_VXU_o_BQ05_UGRa_B6_A.png" alt="advanced options" border="0"></a>
+<a href="https://ibb.co/gy2zia"><img src="https://preview.ibb.co/ensbUF/1_qp9_Mz_XBZvn_PYawyo0_TQBRA.png" alt="advanced options" border="0"></a>
 
 The data object in the onNotification callback will look as follows
 
