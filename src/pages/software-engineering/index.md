@@ -24,9 +24,9 @@ practitioners) must be aware of their duties to ethically develop software.
 
 ### More Information:
 
-- [Software Engineering 10th Ed. by Sommerville](http://iansommerville.com/software-engineering-book/) - website companion to the book with slide decks for each chapter
-- [The Guide to the Software Engineering Body of Knowledge](https://www.computer.org/web/swebok)
-- [Software Engineering Radio](http://www.se-radio.net/) - podcast for professional software developers
-- [Software Engineering Daily](https://softwareengineeringdaily.com/)
-- [Curated List of Engineering Blogs](https://github.com/kilimchoi/engineering-blogs)
-- [Software Engineering Code of Ethics and Professional Practice](http://www.acm.org/about/se-code)
+- <a href='http://iansommerville.com/software-engineering-book/' target='_blank' rel='nofollow'>Software Engineering 10th Ed. by Sommerville</a> - website companion to the book with slide decks for each chapter
+- <a href='https://www.computer.org/web/swebok' target='_blank' rel='nofollow'>The Guide to the Software Engineering Body of Knowledge</a>
+- <a href='http://www.se-radio.net/' target='_blank' rel='nofollow'>Software Engineering Radio</a> - podcast for professional software developers
+- <a href='https://softwareengineeringdaily.com/' target='_blank' rel='nofollow'>Software Engineering Daily</a>
+- <a href='https://github.com/kilimchoi/engineering-blogs' target='_blank' rel='nofollow'>Curated List of Engineering Blogs</a>
+- <a href='http://www.acm.org/about/se-code' target='_blank' rel='nofollow'>Software Engineering Code of Ethics and Professional Practice</a>
