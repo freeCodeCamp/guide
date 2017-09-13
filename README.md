@@ -13,7 +13,7 @@ This repo is where we plan and maintain these guide articles, which we then host
 - [Article style guide](#article-style-guide)
 
 ## What are Guide articles?
-Guide articles can be an explanation of a syntax, design pattern, what aria labels are for, or something like what the numbers mean in the top right hand corner of your screen when at freecodecamp.org. You can find an [example article about HTML Elements here](./src/pages/articles/html/elements/index.md).
+Guide articles can be an explanation of a syntax, design pattern, what aria labels are for, or something like what the numbers mean in the top right hand corner of your screen when at freecodecamp.org. You can find an [example article about HTML Elements here](./src/pages/html/elements/index.md).
 
 ## What can I write an article about?
 We welcome your help writing these articles. You don't have to be an expert in a topic to write about it - this entire guide is open source, so even if you make a mistake, another contributor will eventually correct it.
@@ -31,7 +31,7 @@ You can create a PR with your draft article (or edits on an existing article) in
 
 ![Gif showing the GitHub interface steps](https://files.gitter.im/FreeCodeCamp/building-guides/WPK4/guide-article-contribution.gif)
 
-- Go into the "articles" folder (located in `guides/src/pages`) and find the article stub you'd like to write or edit. All stubs will be in an index.md file
+- Go into the "pages" folder (located in `guides/src`) and find the article stub you'd like to write or edit. All stubs will be in an index.md file
 - Click the "Edit this file" pencil icon and make your changes to the file in GitHub-flavored Markdown
 - Scroll to the bottom of the screen and add a commit message explaining your changes. Then select the radio button option for "Create a new branch for this commit and start a pull request" and click "Propose file changes"
 - On the next screen, you can add any other details about your PR, then click "Create pull request"
@@ -87,6 +87,16 @@ Here are some title examples:
 - "HTML Lists"
 - "CSS Borders"
 - "JavaScript For Loop"
+
+The folder name is used in the URL, so only use dashes `-`, numbers `0-9`, and lowercase letters `a-z` for it.
+
+Here are some folder name examples:
+
+- html-lists
+- css-borders
+- javascript-for-loop
+
+> However, you can include special characters in the [Article title](#article-title).
 
 ### Modularity
 
