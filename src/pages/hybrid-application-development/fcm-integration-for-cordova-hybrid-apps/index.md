@@ -182,7 +182,7 @@ Also note while sending push notifications using REST APIs from your app server 
 ```
 **Note : “click_action”:”FCM_PLUGIN_ACTIVITY”** field is very important as not mentioning it will not execute the onNotification callback in foreground mode.
 
-<a href="https://imgbb.com/"><img src="https://image.ibb.co/gRS1UF/0_QIzc_JZH9_Nqzpjygg.jpg" alt="done with android implementation" border="0"></a>
+<img src="https://image.ibb.co/gRS1UF/0_QIzc_JZH9_Nqzpjygg.jpg" alt="done with android implementation" border="0">
 
 ### iOS Implementation
 
@@ -299,7 +299,7 @@ Next enable Push Notifications in the Capabilities Tab of the project.
 Connect an actual device and run the app.
 
 Now trigger the push notification from the firebase notification composer and everything should work…
-<a href="https://imgbb.com/"><img src="https://image.ibb.co/jz8VOa/1vnhjv.jpg" alt="happy steve" border="0"></a>
+<img src="https://image.ibb.co/jz8VOa/1vnhjv.jpg" alt="happy steve" border="0">
 
 <a href='https://medium.com/@t1tan1um/fcm-integration-for-cordova-hybrid-apps-c679f5fc1988' target='_blank' rel='nofollow'> Original post on medium </a>
 
