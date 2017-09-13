@@ -46,8 +46,8 @@ Output:
 
 But you should keep in mind some special cases:
 
-1. A floating point(an integer with fractional part) as an argument will return the smallest nearest integer.
-   For example : `print(7.9)` will print `7`.
+1. A floating point(an integer with fractional part) as an argument will return the float rounded down to the nearest whole integer.
+   For example : `print(int(7.9))` will print `7`.
    Also `print("7.9")` will result an error since the string is an invalid argument to convert to an integer.
 
    ```py
