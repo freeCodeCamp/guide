@@ -3,13 +3,69 @@ title: How to Convert Strings into Integers in Python
 ---
 ## How to Convert Strings into Integers in Python
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/python/how-to-convert-strings-into-integers-in-python/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Just like the `str()` built-in, Python also offers a handy built-in which takes a string object as an argument and returns the corresponding integer object.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+#### Example Usage:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```py
+# Here age is a string object
+age = "18"
+print(age)
+# Converting string to integer
+int_age = int(age)
+print(int_age)
+```
+Output
+```py
+18
+18
+```
+Here although the output is visually similar but you should keep in mind that the first line prints a string object while the line next to it prints a integer object which is further illustrated in the next example:
+
+```py
+age = "18"
+print(age+2)
+```
+Output:
+```py
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: cannot concatenate 'str' and 'int' objects
+````
+The error should make it clear to you that you need to convert the `age` object to an integer before adding something to it.
+
+```py
+age = "18"
+age_int = int(age)
+print(age_int+2)
+```
+Output:
+```py
+20
+```
+
+But you should keep in mind some special cases:
+
+1. A floating point(an integer with fractional part) as an argument will return the smallest nearest integer.
+   For example : `print(7.9)` will print `7`.
+   Also `print("7.9")` will result an error since the string is an invalid argument to convert to an integer.
+
+   ```py
+   Traceback (most recent call last):
+      File "<stdin>", line 1, in <module>
+    ValueError: invalid literal for int() with base 10: '7.9'
+   ```
+
+2. Also any integer in words if given as an argument will return the same error as above:
+   `print("one")` will give an error as follows:
+   
+    ```py
+    Traceback (most recent call last):
+      File "<stdin>", line 1, in <module>
+    ValueError: invalid literal for int() with base 10: 'one'
+    ```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+Official documentation for `int()` built-in can be found [here](https://docs.python.org/3.6/library/functions.html#int)
 
 
