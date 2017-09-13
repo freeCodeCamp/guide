@@ -1,11 +1,11 @@
 ---
-title: Fcm Integration for Cordova Hybrid Apps
+title: Firebase Cloud Messaging Integration for Cordova Hybrid Apps
 ---
-# Fcm Integration for Cordova Hybrid Apps
+# FCM Integration for Cordova Hybrid Apps
 This is a basic straight forward walk through regarding how to implement push notification in Android as well as iOS using the <a href='https://github.com/fechanique/cordova-plugin-fcm' target='_blank' rel='nofollow'> cordova plugin for fcm </a> and Google Firebase FCM from scratch. 
 I will be using Ubuntu 16.04 LTS for this, but OS used for development should not matter much.
 
-## Fcm Integration for Cordova Hybrid Apps
+## FCM Integration for Cordova Hybrid Apps
 
 ### Android Implementation
 
@@ -17,9 +17,9 @@ cd pushSample
 cordova create pushSample
 cd pushSample
 cordova platform add android
-cordova plugin add cordova-plugin-fcm
+cordova plugin add cordova-plugin-FCM
 ```
-While adding the cordova fcm plugin will show an error :
+While adding the cordova FCM plugin will show an error :
 ```
 Error: cordova-plugin-fcm: You have installed platform android but file 'google-services.json' was not found in your Cordova project root folder.
 ```
@@ -38,10 +38,10 @@ Note that it is a very important value which cannot be changed for an app once i
 It will be in reverse domain name syntax : eg hello.pushSample.com will have app id : com.pushSample.hello.
 Also in the **config.xml** file in your cordova project set the same app id.
 For our sample project it will be in :
-```
 pushSample/pushSample/config.xml
 eg for me the contents of this file are :
 
+```xml
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="io.cordova.hellocordova" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>HelloCordova</name>
@@ -70,7 +70,7 @@ eg for me the contents of this file are :
 </widget>
 ```
 Note the tag
-```
+```xml
 <widget id="io.cordova.hellocordova" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
 ```
 
@@ -86,7 +86,7 @@ Next click on **Register App**
 
 Next step is to download the **google services json** file.
 
-<a href="https://ibb.co/irOrUF"><img src="https://preview.ibb.co/nEjbwv/1_Wje_TClf8o9z_Dxw3_W_wkpw.png" alt="download google services json" border="0"></a>
+<img src="https://preview.ibb.co/nEjbwv/1_Wje_TClf8o9z_Dxw3_W_wkpw.png" alt="download google services json" border="0">
 
 Click on the **Download google-services.json** button, which should download the file to your PC.
 
@@ -106,9 +106,9 @@ After adding the google-services.json file it should build successfully.
 
 Next we have to write the client side code for handling push notifications :
 
-```
+```js
 FCMPlugin.getToken(function(token) {
-    //this is the fcm token which can be used
+    //this is the FCM token which can be used
     //to send notification to specific device 
     console.log(token);
     //FCMPlugin.onNotification( onNotificationCallback(data), successCallback(msg), errorCallback(err) )
@@ -136,23 +136,23 @@ In case you have not sent any push notifications yet. You should see a **send yo
 
 **Note:** The Notification Composer will look like this :
 
-<a href="https://ibb.co/c5YKGv"><img src="https://preview.ibb.co/b4qc3a/1_s_W2_Ad_QJz_JEFjto6rz1_8r_A.png" alt="send your first notification" border="0"></a>
+<img src="https://preview.ibb.co/b4qc3a/1_s_W2_Ad_QJz_JEFjto6rz1_8r_A.png" alt="send your first notification" border="0">
 
 Note While sending push notification using firebase console you need to select app name **com.pushSample.hello** in my case.
 
 To send the custom application specific data select advance options -> Key value pairs.
 
-<a href="https://ibb.co/gy2zia"><img src="https://preview.ibb.co/ensbUF/1_qp9_Mz_XBZvn_PYawyo0_TQBRA.png" alt="advanced options" border="0"></a>
+<img src="https://preview.ibb.co/ensbUF/1_qp9_Mz_XBZvn_PYawyo0_TQBRA.png" alt="advanced options" border="0">
 
 The data object in the onNotification callback will look as follows
 
-```
+```js
 {myKey2: "valuefor2", myKey: "valuefor1", wasTapped: false}
 ```
 
 Also note while sending push notifications using REST APIs from your app server instead of the firebase notification composer, you have to use the following syntax :
 
-```
+```js
 //POST: https://fcm.googleapis.com/fcm/send
 //HEADER: Content-Type: application/json
 //HEADER: Authorization: key=AIzaSy*******************
@@ -214,18 +214,18 @@ Once you click on register app the iOS app step 2 appears.
 * Step 2
 Here click on the download **Googleservice-info.plist** button to download the file which we will use in the later steps.
 
-**Step3 and Step 4** we can skip as these will be handled internally by the cordova fcm plugin.
+**Step3 and Step 4** we can skip as these will be handled internally by the cordova FCM plugin.
 
 Once the iOS app is added to your project Click on the gear icon besides the overview label in the left side panel and select project settings. ( Refer below image. ) . This should by default open the General Tab of your project settings.
 
-<a href="https://ibb.co/kDskpF"><img src="https://preview.ibb.co/ddcwwv/1_c_Pee_Xdmf76l_W0_YRr_I83_Log.png" alt="Project Settings" border="0"></a>
+<img src="https://preview.ibb.co/ddcwwv/1_c_Pee_Xdmf76l_W0_YRr_I83_Log.png" alt="Project Settings" border="0">
 
 Next click on your iOS app in Your Apps -> iOS Apps.
 In the iOS app details update the **App ID Prefix**, the value for which you will get in the Apple Member Center under the membership tab.
 
 Now switch to the **Cloud Messaging** tab -> iOS app configuration section.
 
-<a href="https://ibb.co/btko9F"><img src="https://preview.ibb.co/m2Ktbv/1_0p_Vvf_JGYb_TEUIhwr_DIek_Q.png" alt="cloud messaging" border="0"></a>
+<img src="https://preview.ibb.co/m2Ktbv/1_0p_Vvf_JGYb_TEUIhwr_DIek_Q.png" alt="cloud messaging" border="0">
 
 Here as discussed earlier upload the APNs Auth Key you generated in the Apple member center.
 Next we do the client side app setup.
@@ -267,7 +267,7 @@ cordova plugin add cordova-plugin-fcm
 
 Update the default app id and app name with the bundle id we decided earlier while configuring firebase console and the app name.
 
-```
+```xml
 <widget id="com.pushSample.hello" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>PushSample</name>
 ```
@@ -292,7 +292,7 @@ for me it is
 /Volumes/Development/pushSample/pushSample/platforms/ios/PushSample.xcodeproj
 ```
 
-<a href="https://ibb.co/f7pn3a"><img src="https://preview.ibb.co/hePLOa/1_Xe_Kh4_VXU_o_BQ05_UGRa_B6_A.png" alt="Xcode Project" border="0"></a>
+<img src="https://preview.ibb.co/hePLOa/1_Xe_Kh4_VXU_o_BQ05_UGRa_B6_A.png" alt="Xcode Project" border="0">
 
 Next enable Push Notifications in the Capabilities Tab of the project.
 
