@@ -1,5 +1,5 @@
 ---
-title: Python Hexx Function
+title: Python Hex Function
 ---
 `hex(x)` is a built-in function in Python 3 to convert an integer number to a lowercase <a href='https://www.mathsisfun.com/hexadecimals.html' target='_blank' rel='nofollow'>hexadecimal</a> string prefixed with “0x”.
 
