@@ -14,7 +14,7 @@ age = 18
 
 string = "Hello, I am " + age + " years old"
 ```
-<a href='https://repl.it/JyYH/0' target='_blank' rel='nofollow'>Run code on repl.it</a>
+[Run code on repl.it](https://repl.it/JyYH/0)
 
 The error that shows up is
 ```
@@ -37,7 +37,7 @@ print("Hello, I am " + str(age) + " years old")
 # Output
 # Hello, I am 18 years old
 ```
-<a href='https://repl.it/Jz8Q/0' target='_blank' rel='nofollow'>Run code on repl.it</a>
+[Run code on repl.it](https://repl.it/Jz8Q/0)
 
 Print `1 2 3 4 5 6 7 8 9 10` using a single string
 ```py
@@ -51,11 +51,11 @@ print(result)
 # Output
 # 1 2 3 4 5 6 7 8 9 10
 ```
-<a href='https://repl.it/KBLB/0' target='_blank' rel='nofollow'>Run code on repl.it</a>
+[Run code on repl.it](https://repl.it/KBLB/0)
 
 
 #### More Information:
-<a href='https://docs.python.org/2/library/functions.html#str' target='_blank' rel='nofollow'>Official Python documentation for `str()`</a>
+Official Python documentation for `str()` can be found [here](https://docs.python.org/3/library/stdtypes.html#str)
 
 
 
