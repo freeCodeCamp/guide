@@ -8,11 +8,12 @@ import {
   updateSearchResults
 } from './';
 
+let previousSearchTerm = '';
 const requestUrl = 'https://freecodecamp.duckdns.org';
 const nullAction = { type: 'null' };
 
 function searchTermEpic(actions$, { getState }) {
-  const Xms = 400;
+  let Xms = 500;
   const source$ = actions$
     .filter(({ type }) => type === types.updateSearchTerm);
 
@@ -22,9 +23,23 @@ function searchTermEpic(actions$, { getState }) {
     )
     .flatMap(() => {
       const { searchTerm } = getState().search;
-      if (searchTerm.length > 2) {
+      // if user is pressing backspace
+      // increase debounce/throttle time
+      if (searchTerm.length < previousSearchTerm.length) {
+        Xms = 1000;
+      } else {
+        Xms = 500;
+      }
+      // if the search term is over 2 chars and
+      // this is not a throttle/debounce echo
+      if (
+        searchTerm.length > 2 &&
+        searchTerm.length !== previousSearchTerm.length
+      ) {
+        previousSearchTerm = searchTerm.slice(0);
         return Observable.of(fetchSearchResults());
-    }
+      }
+      previousSearchTerm = searchTerm.slice(0);
       return Observable.of(nullAction);
     });
 }

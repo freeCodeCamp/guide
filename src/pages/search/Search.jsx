@@ -57,7 +57,7 @@ function SearchPage(props) {
       </Helmet>
       <h2 className='colourDarkGrey'>Search Results</h2>
       {
-        isSearching ?
+        (isSearching && !results.length) ?
           <ResultsSkeleton /> :
           shouldShowResults({ results, lastPage, searchTerm })
       }
