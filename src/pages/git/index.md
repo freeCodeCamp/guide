@@ -79,9 +79,9 @@ It's important that the Git directory is installed in the project root folder. G
 ### Get Help in Git
 If you forget how any command works in Git, you can access Git help from the command line several ways:
 ```shell
-git help <command>
-git <command> --help
-man git-<command>
+git help COMMAND
+git COMMAND --help
+man git-COMMAND
 ```
 This displays the manual page for the command in your shell window. To navigate, scroll with the up and down arrow keys or use the following keyboard shortcuts: <!-- Need to confirm these work in Windows -->
 - `f` or `spacebar` to page forward
