@@ -1,5 +1,5 @@
 ---
-title: Python Boolx Function
+title: Python Bool Function
 ---
 `bool()` is a built-in function in Python 3\. This function returns a Boolean value, i.e. True or False. It takes one argument, `x`.
 
