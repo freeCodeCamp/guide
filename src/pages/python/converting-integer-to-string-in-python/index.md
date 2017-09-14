@@ -55,10 +55,7 @@ print(result)
 
 
 #### More Information:
-
 <a href='https://docs.python.org/3/library/stdtypes.html#str' target='_blank' rel='nofollow'>Official Python documentation for `str()`</a>
-
-
 
 
 
