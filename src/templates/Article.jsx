@@ -10,13 +10,21 @@ const propTypes = {
 
 function Article(props) {
   const article = props.data.markdownRemark;
-  const { html, frontmatter: { title } } = article;
+  const {
+    html,
+    fields: {
+      slug
+    },
+    frontmatter: {
+      title
+    }
+  } = article;
   return (
     <div>
       <Helmet>
         <title>{ `${title} | freeCodeCamp Guide` }</title>
         <link
-          href={ `https://freecodecamp.org/guide${props.location.pathname}` }
+          href={ `https://guide.freecodecamp.org${slug}` }
           rel='canonical'
         />
       </Helmet>
@@ -36,6 +44,9 @@ export const pageQuery = graphql`
 query ArticleBySlug($slug: String!) {
   markdownRemark(fields: { slug: { eq: $slug }}) {
     html
+    fields {
+      slug
+    }
     frontmatter {
       title
     }

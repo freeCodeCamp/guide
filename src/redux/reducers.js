@@ -1,7 +1,7 @@
 import { combineReducers } from 'redux';
 
-import { reducer as nav } from '../layouts/components/nav/redux';
-import { reducer as search } from '../layouts/components/search/redux';
+import { reducer as nav } from '../LayoutComponents/nav/redux';
+import { reducer as search } from '../LayoutComponents/search/redux';
 
 const rootReducer = combineReducers({
   nav,

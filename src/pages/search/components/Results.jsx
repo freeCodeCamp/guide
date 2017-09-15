@@ -10,7 +10,7 @@ import {
   resetSearch,
   updateSearchResults,
   updateSearchTerm
-} from '../../../layouts/components/search/redux';
+} from '../../../LayoutComponents/search/redux';
 
 const httpRE = /^https?/i;
 const articleMetaRE = /^\-\-\-[\w\W]+?\-\-\-/;
