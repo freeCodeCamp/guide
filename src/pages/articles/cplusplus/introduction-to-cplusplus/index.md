@@ -10,7 +10,7 @@ Introduction to C++
 ### Here is your 1st program in C++:
 
 ```C++
-#include <iostream>
+#include &lt;iostream &gt;
 using namespace std ;
 int main()
 {
@@ -26,7 +26,7 @@ Now , let's break down the code :
 #### Line 1 and 2
 
 ```C++
-# include<iostream>
+# include &lt; iostream &gt;
 using namespace std;
 ```
 
@@ -67,11 +67,11 @@ cout<<"Hello World"<<endl;
 
 Programmers use a Hello World program (like this one) as a ritual on using a new programming language. It is a symbol of good luck.  
 _You have finished coding your first C++ program and have mostly understood the code you have written/typed. CONGRATULATIONS!_
- 
+
  **Good Luck to all of you** 
- 
+
  **Happy Coding ! :)**
- 
+
  **Feel free to ask any queries on FreeCodeCamp's GitHub page or [FreeCodeCamp's Forum .](https://forum.freecodecamp.org/)**
 
 By : Jaithra Bhatia and Hitarth Asrani
