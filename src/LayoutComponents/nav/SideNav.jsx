@@ -39,6 +39,7 @@ function renderChildren(children, pages) {
       }
       return (
         <NavItem
+          isStubbed={ child.isStubbed }
           key={ child.path }
           path={ child.path }
           title={ child.title }
