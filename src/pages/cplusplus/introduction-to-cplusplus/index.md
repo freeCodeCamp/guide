@@ -23,7 +23,7 @@ int main()
 
 ### The Output of this program will simply be :
 
-![Image of output](https://github.com/MrAsrani1312/Images/blob/master/snip1out.PNG)
+![Image of output](https://github.com/MrAsrani1312/Images/blob/master/snip1out.cut.PNG)
 
 Now , let's break down the code :
 
