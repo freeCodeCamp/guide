@@ -10,7 +10,7 @@ Introduction to C++
 ### Here is your 1st program in C++:
 
 ```C++
-#include &lt;iostream &gt;
+ \#include &lt;iostream&gt;
 using namespace std ;
 int main()
 {
@@ -26,7 +26,7 @@ Now , let's break down the code :
 #### Line 1 and 2
 
 ```C++
-# include &lt; iostream &gt;
+ \#include &lt;iostream&gt;
 using namespace std;
 ```
 
