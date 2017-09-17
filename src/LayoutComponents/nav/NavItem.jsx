@@ -17,7 +17,7 @@ function NavItem(props) {
         <span
           className={
             'navItemTitle' +
-            (isStubbed ? ' stubbed' : '')
+            ( isStubbed ? ' stubbed' : '' )
           }
           >
           { title }
