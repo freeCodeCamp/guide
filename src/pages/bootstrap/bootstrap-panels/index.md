@@ -9,12 +9,12 @@ The Bootstrap framework provides you with a feature called panels. A panel is a 
 To use Bootstrap Panels you add a `<div>` with a class for your type of panel (class `panel panel-default` or something similar, see the panel examples for more information.) and then two nested `<div>` tags, one for the heading (class `panel panel-heading`) and one for the body (class `panel panel-body`). You may find that the Code Example is easier to understand than a written explanation.
 
 **Code Example**
-````
+```html
 <div class="panel panel-primary">
   <div class="panel panel-heading">Panel Primary</div>
   <div class="panel panel-body"> This is a panel with the primary panel style.</div>
 </div>
-````
+```
 
 #### Panel Examples:
 This is a set of examples that shows each type of panel. The CSS Class is displayed above each example.
