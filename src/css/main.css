@@ -200,6 +200,9 @@
   overflow-y: scroll;
   max-height: 90vh;
 }
+.stubbed {
+  color: #999;
+}
 
 .title {
   background-color: white;

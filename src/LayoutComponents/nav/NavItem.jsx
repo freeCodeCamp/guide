@@ -3,17 +3,25 @@ import PropTypes from 'prop-types';
 import Link from 'gatsby-link';
 
 const propTypes = {
+  isStubbed: PropTypes.bool,
   path: PropTypes.string,
   router: PropTypes.object,
   title: PropTypes.string
 };
 
 function NavItem(props) {
-  const { path, title } = props;
+  const { isStubbed, path, title } = props;
   return (
     <li role='presentation'>
       <Link role='presentation' to={ path }>
-        <span className='navItemTitle'>{ title }</span>
+        <span
+          className={
+            'navItemTitle' +
+            ( isStubbed ? ' stubbed' : '' )
+          }
+          >
+          { title }
+        </span>
       </Link>
     </li>
   );

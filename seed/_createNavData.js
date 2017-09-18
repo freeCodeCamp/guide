@@ -7,7 +7,7 @@ const navData = {};
 
 const { commonREs, excludedDirs } = require('./utils');
 
-const { isAFileRE, metaRE, shouldBeIgnoredRE } = commonREs;
+const { isAFileRE, isAStubRE, metaRE, shouldBeIgnoredRE } = commonREs;
 
 function readDir(dir) {
   return fse.readdirSync(`${process.cwd()}/${dir}/`)
@@ -16,8 +16,7 @@ function readDir(dir) {
   .filter(file => !shouldBeIgnoredRE.test(file));
 }
 
-function getPageTitle(fileDir) {
-  const content = fse.readFileSync(`${fileDir}/index.md`, 'utf8');
+function getPageTitle(content) {
   // meta = '---\ntitle: Frontmatter Title\n---'
   const meta = content.match(metaRE)[0];
   return meta.split('\n')[1]
@@ -29,14 +28,17 @@ function listAllDirs(level, prevPages = []) {
   return Observable.from(readDir(level))
     .flatMap(parentDir => {
       const thisDir = `${level}/${parentDir}`;
+      const content = fse.readFileSync(`${thisDir}/index.md`, 'utf8');
       const subDirs = readDir(thisDir);
       const parent = level.split('/')[ level.split('/').length - 1 ];
-      const title = getPageTitle(thisDir);
+      const title = getPageTitle(content);
+      const isStubbed = isAStubRE.test(content);
 
       navData[parentDir] = {
         children: subDirs.map(title => title.toLowerCase()),
         dashedName: parentDir.toLowerCase(),
         hasChildren: !!subDirs.length,
+        isStubbed,
         // remove 'src/pages' from the path
         path: thisDir.slice(9),
         parent,

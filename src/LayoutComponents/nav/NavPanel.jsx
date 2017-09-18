@@ -73,17 +73,14 @@ class NavPanel extends PureComponent {
     push(path);
   }
 
-  renderHeader(isExpanded, title) {
+  renderHeader() {
+    const { isExpanded, title } = this.props;
     return (
       <div className='title' onClick={ this.handleHeaderClick }>
         <span
           className={
             'caret ' +
-            (
-              isExpanded ?
-              'caretStyle expanded' :
-              'caretStyle'
-            )
+            ( isExpanded ? 'caretStyle expanded' : 'caretStyle' )
           }
         />
         <span>
@@ -105,16 +102,16 @@ class NavPanel extends PureComponent {
   }
 
   render() {
-    const { isExpanded, title } = this.props;
+    const { isExpanded } = this.props;
     return (
       <Panel
         bsClass='panelStyle panel'
         collapsible={ true }
         expanded={ isExpanded }
-        header={ this.renderHeader(isExpanded, title) }
+        header={ this.renderHeader() }
         >
         {
-          isExpanded ? this.renderBody() : null
+          ( isExpanded ? this.renderBody() : null )
         }
       </Panel>
     );
