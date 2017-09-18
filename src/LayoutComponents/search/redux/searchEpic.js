@@ -9,11 +9,11 @@ import {
 } from './';
 
 let previousSearchTerm = '';
+let Xms = 500;
 const requestUrl = 'https://freecodecamp.duckdns.org';
 const nullAction = { type: 'null' };
 
 function searchTermEpic(actions$, { getState }) {
-  let Xms = 500;
   const source$ = actions$
     .filter(({ type }) => type === types.updateSearchTerm);
 
