@@ -135,6 +135,8 @@ Now that we have all that we need we can continue generating the actual ipa usin
 
 ---
 
+efore moving forward double tap on both Certificates to add them to keychain
+
 ## Continuing in Xcode
 Next, double tap the .xcodeproj file which should open it in Xcode.
 ( Please use the latest version of Xcode, i have used Xcode 8.3.2 )
@@ -145,4 +147,48 @@ The Xcode screen should look something like this.
 Click on the App Name on the top left corner fo the window, this will open the detailed view on the right side.
 <img src="https://image.ibb.co/fqb3ZQ/Screen_Shot_2017_09_18_at_5_07_53_PM.png" alt="Project settings" width="100%">
 
-Then click on 
+Then click on Targets-> App Name 
+<img src="https://image.ibb.co/i0znTk/Screen_Shot_2017_09_18_at_5_11_28_PM.png" alt="targets" width="50%">
+
+This will display the following details tab :
+<img src="https://image.ibb.co/ksBj8k/Screen_Shot_2017_09_18_at_5_15_29_PM.png" alt="target details" width="100%">
+
+Clik on general, which should display :
+<img src="https://image.ibb.co/k8KFEQ/Screen_Shot_2017_09_18_at_5_18_29_PM.png" alt="general details" width="100%">
+
+Uncheck the Automatically Manage Signing Checkbox
+
+This should display the following error, stating AppNAme requires provisioning profile
+<img src="https://image.ibb.co/mDq5EQ/Screen_Shot_2017_09_18_at_5_20_35_PM.png" alt="profile error" width="100%">
+
+Next, under Signing (Debug) Click the Provisioning Profile Dropdown and select the *impot profile* option.
+In the file selection dialog that pops, navigate to the path where the development provisoning profile is downloaded, and select it. It will have an extension of *.mobileprovision*
+
+After selection the error should be gone, and it should show Team as the Team Name in Apple eveloper account and Signing Certificate Name.
+
+Do the same thing for Signing (Release) section, however in the file selection dialog slect the Ad Hoc distribution Profile.
+
+Now that the Code signing steps are done we either 
+* run the app directly on device
+* run the app on a simulator
+* generate an ipa file for distribution
+* upload app to appstore
+
+## Running the app directly on device
+
+To run the app on device connect the device to the Mac via USB,
+then in the top left corner in the list of devices select the cnnected device, and click the run or play button (black triangular button)
+<img src="https://image.ibb.co/k4xo15/Screen_Shot_2017_09_18_at_5_34_14_PM.png" alt="run device" width="100%">
+<img src="https://image.ibb.co/hjzhuQ/Screen_Shot_2017_09_18_at_5_36_55_PM.png" alt="run device" width="100%">
+
+The build status will be displayed in the status bar on the top of the window.
+If all goes fine, the app should be installed on the device, and automatically load in a while.
+
+## Running the app on a simulator
+
+The steps are same as running on device, but instead of an actual device we use the available iPhone and iPad simulators from the device list.
+
+## Generate an ipa file for distribution
+
+This approach can be done in case you require to distribute the app to the testing team, etc. However the device used by them must have a UDID present in the provisioning profile.
+
