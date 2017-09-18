@@ -31,5 +31,5 @@ The generated Xcode Project file will be in :
 Next, double tap the .xcodeproj file which should open it in Xcode.
 ( Please use the latest version of Xcode, i have used Xcode 8.3.2 )
 
-<img src="https://preview.ibb.co/dApdYk/Screen_Shot_2017_09_18_at_11_06_55_AM.png" alt="Project opening in Xcode" border="0">
+<img src="https://preview.ibb.co/dApdYk/Screen_Shot_2017_09_18_at_11_06_55_AM.png" alt="Project opening in Xcode" width="100%">
 The Xcode screen shoul look something like this.
