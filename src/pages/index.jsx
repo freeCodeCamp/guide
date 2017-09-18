@@ -19,8 +19,8 @@ function Index() {
       <p>There are articles on:</p>
         <ul>
           <li>SQL</li>
-          <li>Math</li>
-          <li>javaScript</li>
+          <li>Mathematics</li>
+          <li>JavaScript</li>
           <li>Bootstrap</li>
           <li>Git</li>
           <li>and a whole lot more</li>
