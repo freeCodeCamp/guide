@@ -12,7 +12,7 @@ title: Introduction to C++
 ### Here is your 1st program in C++:
 
 ```C++
-#include < iostream >
+#include <iostream>
 using namespace std ;
 int main()
 {
@@ -23,14 +23,14 @@ int main()
 
 ### The Output of this program will simply be :
 
-![Image of output](https://github.com/MrAsrani1312/Images/blob/master/snip1out.cut.PNG)
+![Imgur](https://i.imgur.com/w84lDnT.png)
 
 Now , let's break down the code :
 
 #### Line 1 and 2
 
 ```C++
-# include< iostream >
+# include<iostream>
 using namespace std;
 ```
 
@@ -83,9 +83,8 @@ cout<<"Hello World"<<endl;
 
 ### The code should look something like this (with some descreption):
 
-![Image of snippet ](https://github.com/MrAsrani1312/Images/blob/master/snip1.PNG)
+![Imgur](https://i.imgur.com/d1liGwI.png)
 
-**IMPORTANT NOTE : The command to include iostream should be typed as shown in the above image (without the spaces between the less than and greater than sign)**
 
 Programmers use a Hello World program (like this one) as a ritual on using a new programming language. It is a symbol of good luck.  
 
