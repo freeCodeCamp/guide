@@ -66,6 +66,6 @@ But you should keep in mind some special cases:
     ```
 
 #### More Information:
-Official documentation for `int()` built-in can be found [here](https://docs.python.org/3.6/library/functions.html#int)
+Official documentation for `int()` built-in can be found <a href='https://docs.python.org/3.6/library/functions.html#int' target='_blank' rel='nofollow'>here</a>
 
 
