@@ -75,6 +75,11 @@ However here we select ```App Store and Ad Hoc``` from ```Production``` section 
 
 ## Creating the App ID
 
+Select ```App IDs``` from ```Identifiers``` section, this will open the list of existing app IDs,
+Next click on the Plus button on the top right (+), This will open the *Register iOS App IDs* page.
+
+<img src="https://image.ibb.co/iXTuOk/6.png" alt="Register iOS App IDs" width="100%">
+
 ## Creating Development Provisioning Profile
 To create a development Provisioning Profile click on Provisioning Profiles -> All
 This should show all the profiles, development as well as distribution.
@@ -82,4 +87,5 @@ Next click on the Plus button on the top right (+)
 This should show the following page :
 <img src="https://image.ibb.co/dk3KOk/7.png" alt="Creating a development provisioning profile" width="100%">
 
+Here select ```iOS App Development``` and click continue.
 
