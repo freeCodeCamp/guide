@@ -80,6 +80,37 @@ Next click on the Plus button on the top right (+), This will open the *Register
 
 <img src="https://image.ibb.co/iXTuOk/6.png" alt="Register iOS App IDs" width="100%">
 
+Select Explicit App ID
+
+App Description can be any related name this will be displayed in the app id list against the particular app id.
+
+An app id is a string in the format *AB11A1ABCD.com.mycompany.myapp* where *AB11A1ABCD* is the app id prefix which is by default the team ID and *com.mycompany.myapp* is the bundle ID which is unique to each app.
+Its recommended that the bundle id must be in a reverse-domain name style string for example, the company MYCOMPANY may have two apps (App1 and App2), therefore the http url for each app is usually app1.mycompany.com and app2.mycompany.com,
+Hence the bundle IDs for each app will be com.mycompany.app1 and com.mycompany.app2
+
+Next select any services from the chceklist that you need to use in your app, such as Push Notifications, Wallet etc.
+Next click on continue and confirm the details and finally register the app id.
+
+## Adding devices to developer account
+
+Select ```All``` from ```Devices``` section, this will open the list of already added devices to your apple developer account,
+Only these devices are allowed to run the app during development.
+To add a new device Next click on the Plus button on the top right (+)
+The following screen will be displayed:
+<img src="https://image.ibb.co/gTmW3k/8.png" alt="add device screen" width="100%">
+
+Here name can be any easily undertandable name example, iPhone 5s ABC Pvt Ltd.
+The device UDID is the unique ID associated with each Apple device.
+
+To find the UDID of a device follow the below mentioned steps:
+1) Connect the device to your Mac.
+2) Open the System Information app located in the /Applications/Utilities folder.
+3) Select USB under Hardware in the left column.
+4_ On the right, select the connected device under USB Device Tree.
+The device ID, or “Serial Number”, appears below.
+
+Once you have entered the device UDID and name click continue, then confirm the details and register.
+
 ## Creating Development Provisioning Profile
 To create a development Provisioning Profile click on Provisioning Profiles -> All
 This should show all the profiles, development as well as distribution.
@@ -88,4 +119,20 @@ This should show the following page :
 <img src="https://image.ibb.co/dk3KOk/7.png" alt="Creating a development provisioning profile" width="100%">
 
 Here select ```iOS App Development``` and click continue.
+In the dropdown that is displayed select the App ID we created previously and continue.
+
+Next A checklist list of certificates is displayed from which we can select one or multiple.
+These are development certificates and not distribution ones.
+The generated provisioning profile will be linked to these certificates.
+
+On click of continue a checklist of devices is displayed, select one, multiples or all.
+Only selected devices will be allowed to run the app using this provisioning profile.
+
+Next on clicking continue, enter the name for the provisioning profile, and download the generated .mobileprovision file.
+
+## Creating Adhoc Distribution Provisioning Profile
+This process is same as Development Profile Creation
+
+## Creating AppStore Distribution Provisioning Profile
+This process is same as Development Profile Creation, except here we dont select devices, as the app will be available publicly through AppStore.
 
