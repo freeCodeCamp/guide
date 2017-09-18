@@ -32,4 +32,12 @@ Next, double tap the .xcodeproj file which should open it in Xcode.
 ( Please use the latest version of Xcode, i have used Xcode 8.3.2 )
 
 <img src="https://preview.ibb.co/dApdYk/Screen_Shot_2017_09_18_at_11_06_55_AM.png" alt="Project opening in Xcode" width="100%">
-The Xcode screen shoul look something like this.
+The Xcode screen should look something like this.
+
+Now incase of Android the code signing is done using the Keystore file which is in .jks format.
+However incase of iOS for distributing iOS apps it is required that you have a Apple developer account,
+This is so that we can generate the *Certificates* and *Provisioning Profiles* required for distributing the app.
+
+For pricing of Developer account refer <a href='https://developer.apple.com/support/purchase-activation/' alt='apple developer account pricing' target='_blank'>this page</a>
+
+Once you have the account ready we can proceed further and login to <a href='https://developer.apple.com/account/' alt='apple developer dashboard' target='_blank'>Apple developer account</a>
