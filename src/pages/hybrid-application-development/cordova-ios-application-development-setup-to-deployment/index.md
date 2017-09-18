@@ -41,3 +41,25 @@ This is so that we can generate the *Certificates* and *Provisioning Profiles* r
 For pricing of Developer account refer <a href='https://developer.apple.com/support/purchase-activation/' alt='apple developer account pricing' target='_blank'>this page</a>
 
 Once you have the account ready we can proceed further and login to <a href='https://developer.apple.com/account/' alt='apple developer dashboard' target='_blank'>Apple developer account</a>
+
+The dashboard screen should look something like this :
+<img src="https://image.ibb.co/j0d8zQ/Clipboard_image_2017_09_18_11_35_58.png" alt="Project opening in Xcode" width="100%">
+
+Click on ```Certificates, Identifiers & Profiles``` 
+This should take you to the following screen, which by default displays Certificates issued from your account :
+<img src="https://image.ibb.co/fk8mm5/1.png" alt="Certificates, Identifiers & Profiles" width="100%">
+
+iOS Certficates are of mainly two types : Development or Distribution, click on the Plus (+) button on the top right corner of the list which will open the following page :
+<img src="https://image.ibb.co/dksXtk/2.png" alt="Add iOS Certificate" width="100%">
+
+First lets create a development profile :
+Select *iOS App Development* and click continue.
+
+This should bring you to the following screen, where you are asked to create and upload a Certificate Signing Request or CSR file.
+<img src="https://image.ibb.co/iwBE65/3.png" alt="Upload CSR file" width="100%">
+
+ Follow the on-screen instructions to generate it, and continue.
+ Once the certificate is ready, download it to your Mac, and double click it.
+ This will add it to Keychain Access in the Mac. 
+<img src="https://image.ibb.co/dJg6m5/4.png" alt="Download development certificate" width="100%">
+
