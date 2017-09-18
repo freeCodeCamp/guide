@@ -129,9 +129,11 @@ This process is same as Development Profile Creation
 ## Creating AppStore Distribution Provisioning Profile
 This process is same as Development Profile Creation, except here we dont select devices, as the app will be available publicly through AppStore.
 
-Now that we have all that we need we can continue generating the actual file using Xcode.
+Now that we have all that we need we can continue generating the actual ipa using Xcode.
 
 *Note: cordova build command converts our app code to xcode project, using Xcode we create an .ipa file which is the actual app to be installed.*
+
+---
 
 ## Continuing in Xcode
 Next, double tap the .xcodeproj file which should open it in Xcode.
@@ -140,3 +142,7 @@ Next, double tap the .xcodeproj file which should open it in Xcode.
 <img src="https://image.ibb.co/mPdGKQ/Screen_Shot_2017_09_18_at_11_06_55_AM.png" alt="Project opening in Xcode" width="100%">
 The Xcode screen should look something like this.
 
+Click on the App Name on the top left corner fo the window, this will open the detailed view on the right side.
+<img src="https://image.ibb.co/fqb3ZQ/Screen_Shot_2017_09_18_at_5_07_53_PM.png" alt="Project settings" width="100%">
+
+Then click on 
