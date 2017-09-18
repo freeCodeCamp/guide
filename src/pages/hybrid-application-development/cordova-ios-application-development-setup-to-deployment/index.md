@@ -31,7 +31,7 @@ The generated Xcode Project file will be in :
 Next, double tap the .xcodeproj file which should open it in Xcode.
 ( Please use the latest version of Xcode, i have used Xcode 8.3.2 )
 
-<img src="https://preview.ibb.co/dApdYk/Screen_Shot_2017_09_18_at_11_06_55_AM.png" alt="Project opening in Xcode" width="100%">
+<img src="https://image.ibb.co/mPdGKQ/Screen_Shot_2017_09_18_at_11_06_55_AM.png" alt="Project opening in Xcode" width="100%">
 The Xcode screen should look something like this.
 
 Now incase of Android the code signing is done using the Keystore file which is in .jks format.
