@@ -8,6 +8,8 @@ Hybrid Application development for android is a breeze, be it for development or
 
 Most of the Hybrid Application Developers who are in learning stage are not able to explore hybrid iOS app development process due to the simple reason that they dont own a mac, since developing iOS apps requires the iOS SDK and XCode unlike Android SDK which runs on any Desktop OS. Therefore the aim of this guide is to show the basic workflow of hybrid iOS app development on a mac, so that a develoer even if he/she cannot develop iOS apps, is atleast familiar with how its done.
 
+
+## Creating cordova project 
 Begin by opening the terminal and creating a new cordova project ( use sudo only if you have permission issues, ie. EACCESS errors ) :
 ```
 sudo cordova create iosdemo
@@ -28,6 +30,7 @@ The generated Xcode Project file will be in :
 [Your App Folder]/platforms/ios/[Your App Name].xcodeproj
 ```
 
+## Continuing in Xcode
 Next, double tap the .xcodeproj file which should open it in Xcode.
 ( Please use the latest version of Xcode, i have used Xcode 8.3.2 )
 
@@ -40,6 +43,7 @@ This is so that we can generate the *Certificates* and *Provisioning Profiles* r
 
 For pricing of Developer account refer <a href='https://developer.apple.com/support/purchase-activation/' alt='apple developer account pricing' target='_blank'>this page</a>
 
+## Creating Development Certificates
 Once you have the account ready we can proceed further and login to <a href='https://developer.apple.com/account/' alt='apple developer dashboard' target='_blank'>Apple developer account</a>
 
 The dashboard screen should look something like this :
@@ -62,4 +66,20 @@ This should bring you to the following screen, where you are asked to create and
  Once the certificate is ready, download it to your Mac, and double click it.
  This will add it to Keychain Access in the Mac. 
 <img src="https://image.ibb.co/dJg6m5/4.png" alt="Download development certificate" width="100%">
+
+## Creating Distribution Certificates
+Creating distribution certificates is similar to the process for creating development certificates,
+However here we select ```App Store and Ad Hoc``` from ```Production``` section in the ```Add iOS Certifcate Page``` 
+
+<img src="https://image.ibb.co/bEKFeQ/5.png" alt="Add iOS Certificate" width="100%">
+
+## Creating the App ID
+
+## Creating Development Provisioning Profile
+To create a development Provisioning Profile click on Provisioning Profiles -> All
+This should show all the profiles, development as well as distribution.
+Next click on the Plus button on the top right (+)
+This should show the following page :
+<img src="https://image.ibb.co/dk3KOk/7.png" alt="Creating a development provisioning profile" width="100%">
+
 
