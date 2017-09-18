@@ -148,6 +148,7 @@ Click on the App Name on the top left corner fo the window, this will open the d
 <img src="https://image.ibb.co/fqb3ZQ/Screen_Shot_2017_09_18_at_5_07_53_PM.png" alt="Project settings" width="100%">
 
 Then click on Targets-> App Name 
+
 <img src="https://image.ibb.co/i0znTk/Screen_Shot_2017_09_18_at_5_11_28_PM.png" alt="targets" width="50%">
 
 This will display the following details tab :
