@@ -193,3 +193,4 @@ The steps are same as running on device, but instead of an actual device we use 
 
 This approach can be done in case you require to distribute the app to the testing team, etc. However the device used by them must have a UDID present in the provisioning profile.
 
+From the Xcode menu 
