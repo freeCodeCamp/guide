@@ -200,8 +200,19 @@
   overflow-y: scroll;
   max-height: 90vh;
 }
+
 .stubbed {
-  color: #999;
+  color: #777;
+}
+
+.stubbed::after {
+  content: 'stub';
+  background-color: #aaa;
+  color: #fff;
+  border-radius: 3px;
+  padding: 0 4px;
+  margin-left: 5px;
+  line-height: 1;
 }
 
 .title {
