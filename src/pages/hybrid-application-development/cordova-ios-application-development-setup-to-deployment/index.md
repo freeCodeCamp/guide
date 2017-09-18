@@ -2,7 +2,7 @@
 title: Cordova iOS Application Development Setup to Deployment
 ---
 # Cordova iOS Application Development Setup to Deployment
-<img src="https://preview.ibb.co/iRkkR5/iphone_1737513_1920.jpg" alt="iphone_1737513_1920" width="100%">
+<img src="https://image.ibb.co/iKCSuQ/Xz_J197k8_QI32.jpg" alt="iphone_1737513_1920" width="100%">
 
 Hybrid Application development for android is a breeze, be it for development or production configuration, however i personally find cordova iOS setup, development and deployment a bit complicated.
 
