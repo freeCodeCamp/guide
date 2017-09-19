@@ -22,5 +22,5 @@ more details.
 
 ### More Information:
 
-- [Glossary of Terms](http://robotics.stanford.edu/~ronnyk/glossary.html)
-- [Glossary of common Machine Learning, Statistics and Data Science terms](https://www.analyticsvidhya.com/glossary-of-common-statistics-and-machine-learning-terms/)
+- <a href='http://robotics.stanford.edu/~ronnyk/glossary.html' target='_blank' rel='nofollow'>Glossary of Terms</a>
+- <a href='https://www.analyticsvidhya.com/glossary-of-common-statistics-and-machine-learning-terms/' target='_blank' rel='nofollow'>Glossary of common Machine Learning, Statistics and Data Science terms</a>

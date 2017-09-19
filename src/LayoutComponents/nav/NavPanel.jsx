@@ -45,7 +45,7 @@ function NoArticles() {
         <a
           href={
             'https://github.com/freeCodeCamp/guides/blob/master/README.md' +
-            '#freecodecamp-guides'
+            '#freecodecamp-guide'
           }
           rel='nofollow'
           target='_blank'
