@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     siteUrl: 'https://guide.freecodecamp.org',
-    title: 'freeCodeCamp Guides'
+    title: 'freeCodeCamp Guide'
   },
   plugins: [
     'gatsby-plugin-react-helmet',

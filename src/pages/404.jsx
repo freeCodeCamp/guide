@@ -7,7 +7,7 @@ function FourOhFour() {
   return (
     <div className='flexWrapper'>
       <Helmet>
-        <title>404 - Page Not Found | freeCodeCamp Guides</title>
+        <title>404 - Page Not Found | freeCodeCamp Guide</title>
       </Helmet>
       <div className='verticalAlign'>
         <h3>404 - Page not found</h3>
