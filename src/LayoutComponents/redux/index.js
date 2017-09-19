@@ -4,7 +4,7 @@ import { createAction, handleActions } from 'redux-actions';
 const initialState = {
   isOnline: (
     typeof window !== 'undefined' &&
-    navigator &&
+    'navigator' in window &&
     'onLine' in navigator
   ) ? navigator.onLine : true
 };

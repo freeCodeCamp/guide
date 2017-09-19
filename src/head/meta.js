@@ -13,6 +13,10 @@ const meta = [
   <meta
     content='#006400'
     name='theme-color'
+  />,
+  <meta
+    content='/assets/favicons/browserconfig.xml'
+    name='msapplication-config'
   />
 ];
 

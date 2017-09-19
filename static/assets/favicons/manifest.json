@@ -13,8 +13,8 @@
             "type": "image/png"
         }
     ],
-    "name": "freeCodeCamp Guides",
-    "short_name": "fCC Guides",
+    "name": "freeCodeCamp Guide",
+    "short_name": "fCC Guide",
     "start_url": "/",
     "theme_color": "#006400"
 }
