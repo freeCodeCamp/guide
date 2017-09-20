@@ -3,13 +3,10 @@ title: Computer Science
 ---
 ## Computer Science
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/computer-science/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Computer Science is the study of computers and the concepts that make computers possible.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Much of computer science was pioneered in the latter half of the 20th century.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Today, if you attend an undergraduate computer science course, you will learn about both hardware and software. You'll learn how computers work at a low level of abstraction (machine language) and at a high level of abstraction (modern scripting langauges like JavaScript).
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+In this section, we cover a lot of fundamentals of how contemporary computers work.
