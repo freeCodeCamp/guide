@@ -3,7 +3,7 @@ title: How to Insert Spaces or Tabs in Text Using HTML and CSS
 ---
 ## How to Insert Spaces or Tabs in Text Using HTML and CSS
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/how-to-insert-spaces-or-tabs-in-text-using-html-and-css/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/tutorials/how-to-insert-spaces-or-tabs-in-text-using-html-and-css/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
 <a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
 

@@ -3,7 +3,7 @@ title: Use Tab Space Instead of Multiple Non Breaking Spaces Nbsp
 ---
 ## Use Tab Space Instead of Multiple Non Breaking Spaces Nbsp
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/use-tab-space-instead-of-multiple-non-breaking-spaces-nbsp/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/tutorials/use-tab-space-instead-of-multiple-non-breaking-spaces-nbsp/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
 <a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
 

@@ -3,7 +3,7 @@ title: Evaluating Polynomials Synthetic Division
 ---
 ## Evaluating Polynomials Synthetic Division
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/computer-science/algorithms/evaluating-polynomials-synthetic-division/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/algorithms/evaluating-polynomials-synthetic-division/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
 <a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
 
