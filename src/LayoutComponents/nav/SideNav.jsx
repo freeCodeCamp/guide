@@ -77,6 +77,27 @@ class SideNav extends Component {
     super();
   }
 
+  componentDidMount() {
+    const { pathname } = this.context.router.route.location;
+    const pathMap = pathname.slice(1).split('/').slice(0, -1)
+      .reduce((accu, current, i, pathArray) => {
+        const path = i !== 0 ?
+          accu[pathArray[ i - 1 ]] + `/${current}` :
+          `/${current}`;
+        return {
+          ...accu,
+          [current]: path
+        };
+      }, {});
+
+    Object.keys(pathMap)
+      .map(key => pathMap[key])
+      .map(path => {
+        this.props.toggleExpandedState(path);
+        return null;
+      });
+  }
+
   render() {
     const { expandedState, pages, parents } = this.props;
     const panels = renderPanels(parents, pages);
@@ -94,6 +115,9 @@ class SideNav extends Component {
   }
 }
 
+SideNav.contextTypes = {
+  router: React.PropTypes.object.isRequired
+};
 SideNav.displayName = 'SideNav';
 SideNav.propTypes = propTypes;
 
