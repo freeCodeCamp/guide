@@ -3,13 +3,10 @@ title: Typescript
 ---
 ## Typescript
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/typescript/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Also, it adds static typing functionality to JavaScript.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+T> If you want to try out TypeScript without installation, visit the <a href='http://www.typescriptlang.org/play/index.html' target='_blank' rel='nofollow'>TypeScript Playground</a>.
+T>
+T> To learn more about installation, see the [Installation Appendix](./src/articles/typescript/appendix-installation/index.md).

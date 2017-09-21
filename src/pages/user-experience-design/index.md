@@ -3,13 +3,6 @@ title: User Experience Design
 ---
 ## User Experience Design
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/user-experience-design/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+User Experience Design is a field that focuses on how the end users of a product interact with it, and how they feel about the product.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+In this section, we'll have guides to a wide variety of user experience design concepts.

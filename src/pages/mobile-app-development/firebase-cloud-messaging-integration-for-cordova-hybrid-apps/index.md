@@ -1,7 +1,7 @@
 ---
 title: Firebase Cloud Messaging Integration for Cordova Hybrid Apps
 ---
-# FCM Integration for Cordova Hybrid Apps
+## Firebase Cloud Messaging Integration for Cordova Hybrid Apps
 This is a basic straight forward walk through regarding how to implement push notification in Android as well as iOS using the <a href='https://github.com/fechanique/cordova-plugin-fcm' target='_blank' rel='nofollow'> cordova plugin for fcm </a> and Google Firebase FCM from scratch. 
 I will be using Ubuntu 16.04 LTS for this, but OS used for development should not matter much.
 
@@ -301,10 +301,5 @@ Connect an actual device and run the app.
 Now trigger the push notification from the firebase notification composer and everything should work…
 <img src="https://image.ibb.co/jz8VOa/1vnhjv.jpg" alt="happy steve" border="0">
 
-<a href='https://medium.com/@t1tan1um/fcm-integration-for-cordova-hybrid-apps-c679f5fc1988' target='_blank' rel='nofollow'> Original post on medium </a>
-
-Have a nice day !!!
-
-;)
-
+<a href='https://medium.com/@t1tan1um/fcm-integration-for-cordova-hybrid-apps-c679f5fc1988' target='_blank' rel='nofollow'>The original post on Medium</a>.
 

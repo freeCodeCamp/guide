@@ -3,13 +3,6 @@ title: Visual Design
 ---
 ## Visual Design
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/visual-design/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Visual Design deals with how applications look. It can be seen as the digital equivalent of graphic design.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+In this section, we'll have guides to a wide variety of visual design concepts.

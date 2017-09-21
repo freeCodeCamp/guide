@@ -3,13 +3,10 @@ title: Developer Ethics
 ---
 ## Developer Ethics
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/developer-ethics/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+In this section, we'll have guides to a wide variety of concepts related to developer ethics. These include ethical frameworks like Uncle Bob Martin's "The Programmer's Oath."
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/36NgPu9OyRM" frameborder="0" allowfullscreen></iframe>
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+We will expand this section to include philosophical arguments, such as those addressed in Bill Sourour's [The code I’m still ashamed of](https://medium.freecodecamp.org/the-code-im-still-ashamed-of-e4c021dff55e).
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+We will also include case studies of famous lapses in developer ethics, such as those discussed in Quincy Larson's article [What do Uber, Volkswagen and Zenefits have in common? They all used hidden code to break the law](https://medium.freecodecamp.org/dark-genius-how-programmers-at-uber-volkswagen-and-zenefits-helped-their-employers-break-the-law-b7a7939c6591).
