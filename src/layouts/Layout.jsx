@@ -14,7 +14,6 @@ import 'prismjs/themes/prism.css';
 import '../css/main.css';
 
 const propTypes = {
-  'location.pathname': PropTypes.string,
   children: PropTypes.func,
   location: PropTypes.object
 };
@@ -62,9 +61,6 @@ function Layout(props) {
   );
 }
 
-Layout.contextTypes = {
-    router: React.PropTypes.object.isRequired
-};
 Layout.displayName = 'Layout';
 Layout.propTypes = propTypes;
 

@@ -8,7 +8,7 @@ Skeleton is a dead simple boilerplate to kickstart any responsive project.
 ## Getting Started
 
 Here is a simple HTML template which includes the latest compiled and minified CSS for the Skeleton library.
-
+```html
     <!DOCTYPE html>
     <html lang="en">
       <head>
@@ -25,8 +25,8 @@ Here is a simple HTML template which includes the latest compiled and minified C
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
       </body>
     </html>
-
- <kbd>[![](//discourse-user-assets.s3.amazonaws.com/original/2X/3/31bd555700f1ee85bb4ddcacf595f0dfd8a16254.png) **JSBin Demo**](http://jsbin.com/sekojaxali/edit?html,output)</kbd> 
+```
+ <kbd>[![](//discourse-user-assets.s3.amazonaws.com/original/2X/3/31bd555700f1ee85bb4ddcacf595f0dfd8a16254.png) **JSBin Demo**](http://jsbin.com/sekojaxali/edit?html,output)</kbd>
 
 We have used a CDN in this example, but you can checkout other ways of installing Skeleton <a href='https://github.com/dhg/Skeleton#getting-started' target='_blank' rel='nofollow'>here</a>.
 
