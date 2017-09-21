@@ -3,7 +3,7 @@ title: How to Create a Dropdown Menu with CSS and JavaScript
 ---
 ## How to Create a Dropdown Menu with CSS and JavaScript
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/how-to-create-a-dropdown-menu-with-css-and-javascript/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/tutorials/how-to-create-a-dropdown-menu-with-css-and-javascript/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
 <a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
 
