@@ -3,13 +3,8 @@ title: Linux
 ---
 ## Linux
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/linux/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Linux is the most popular operating system in the world. It powers 90% of the world's servers, and is the basis of Google's popular Android operating system.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+There are also versions of Linux designed to be run on personal computers, such as Ubuntu.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+For more facts about Ubuntu, read Quincy Larson's <a href='https://medium.freecodecamp.org/linux-is-25-yay-lets-celebrate-with-25-rad-facts-about-linux-c8d8ac30076d' target='_blank' rel='nofollow'>"Linux is 25. Yay! Let’s celebrate with 25 stunning facts about Linux"</a>

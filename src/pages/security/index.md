@@ -3,13 +3,16 @@ title: Security
 ---
 ## Security
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/security/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Information Security (also called "infosec" or just "security") deals with guarding and breaking into systems.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+This is a particularly important space right now, following major breaches such as the <a href='https://medium.freecodecamp.org/the-equifax-hack-and-how-to-protect-your-family-all-explained-in-5-minutes-a2b5187cb6c0' target='_blank' rel='nofollow'>2017 Equifax breach</a>.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Information security practitions are often called "security researchers", though they are also often referred to as "hackers" for hacking into systems.
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+![Hackerman Mr. Robot meme](http://i0.kym-cdn.com/entries/icons/original/000/021/807/4d7.png)
 
+There are "white hat hackers" who try to discover new vulnerabilities and bring them to the attention of the people maintaining those systems. They often do this for prestige in the field, or for "bug bounties" that companies have set aside to compensate people for helping them discover vulnerabilities.
 
+There are also "black hat hackers" who do not disclose the vulnerabilities they discover, and instead use them to create exploits to attack people's systems. They often do this to steal data that they can ransom off, or just release into the open to cause chaos.
+
+Security researchers use a wide variety of methods and tools, which are discussed in this section.

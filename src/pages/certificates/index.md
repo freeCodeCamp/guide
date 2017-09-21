@@ -3,13 +3,7 @@ title: Certificates
 ---
 ## Certificates
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certificates/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+freeCodeCamp offers verified web development certificates for free to anyone who can complete each certificate's required projects.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
+In this folder, you'll find guides to hundreds of freeCodeCamp coding challenges and projects.
 

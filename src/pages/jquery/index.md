@@ -3,13 +3,6 @@ title: jQuery
 ---
 ## jQuery
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/jquery/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+jQuery is the most widely-used JavaScript library, and is used in more than half of all major websites. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+jQuery makes web development easier easier to use by providing a number of helper functions. These help developers quickly write DOM interactions without needing to manually writing as much JavaScript themselves.

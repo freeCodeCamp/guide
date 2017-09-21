@@ -3,13 +3,4 @@ title: Ruby
 ---
 ## Ruby
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/ruby/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+Ruby is a programming language created to maximize developer happiness and readability. It is the high level scripting language that powers Ruby on Rails, which remains one of the more popular web development frameworks.
