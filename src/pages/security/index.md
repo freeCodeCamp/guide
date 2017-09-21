@@ -5,7 +5,7 @@ title: Security
 
 Information Security (also called "infosec" or just "security") deals with guarding and breaking into systems.
 
-This is a particularly important space right now, following major breaches such as the [2017 Equifax breach](https://medium.freecodecamp.org/the-equifax-hack-and-how-to-protect-your-family-all-explained-in-5-minutes-a2b5187cb6c0).
+This is a particularly important space right now, following major breaches such as the <a href='https://medium.freecodecamp.org/the-equifax-hack-and-how-to-protect-your-family-all-explained-in-5-minutes-a2b5187cb6c0' target='_blank' rel='nofollow'>2017 Equifax breach</a>.
 
 Information security practitions are often called "security researchers", though they are also often referred to as "hackers" for hacking into systems.
 
