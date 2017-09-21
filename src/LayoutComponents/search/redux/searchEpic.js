@@ -9,7 +9,7 @@ import {
 } from './';
 
 let previousSearchTerm = '';
-const requestUrl = 'https://freecodecamp.duckdns.org';
+const requestUrl = 'https://search.freecodecamp.org';
 const nullAction = { type: 'null' };
 
 function searchTermEpic(actions$, { getState }) {
