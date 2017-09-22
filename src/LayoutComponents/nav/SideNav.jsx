@@ -116,7 +116,7 @@ class SideNav extends Component {
 }
 
 SideNav.contextTypes = {
-  router: React.PropTypes.object.isRequired
+  router: PropTypes.object.isRequired
 };
 SideNav.displayName = 'SideNav';
 SideNav.propTypes = propTypes;
