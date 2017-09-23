@@ -10,6 +10,7 @@ The `remove()` method removes the argument given to it from the list.
 ```py
 words = ["I", "love", "Python"]
 words.remove("I")
+print(words)
 ```
 #### Output
 
@@ -22,6 +23,7 @@ Note that it returns an error if the element to be removed is not found in the l
 ```py
 kiss = ["keep", "it", "simple", "stupid"]
 kiss.remove("complex")
+print(kiss)
 ```
 
 #### Output
