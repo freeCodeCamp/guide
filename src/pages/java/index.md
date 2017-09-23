@@ -87,7 +87,7 @@ Let's write a sample Hello World application. Open any editor / IDE of choice an
 
     public class HelloWorld {
 
-        public static void main(String<a href='https://docs.oracle.com/javase/tutorial/getStarted/application/' target='_blank' rel='nofollow'>] args) {
+        public static void main(String[] args) {
             // Prints "Hello, World" to the terminal window.
             System.out.println("Hello, World");
         }
@@ -96,7 +96,7 @@ Let's write a sample Hello World application. Open any editor / IDE of choice an
 
 **N.B.** Keep in mind in Java file name should be the **exact same name of the public class** in order to compile!
 
-Now open the terminal / Command Prompt, and compile the file :
+Now open the terminal / Command Prompt. Change your current directory in the terminal / Command Prompt to the directory where your file is located. And compile the file :
 
     $ javac HelloWorld.java
 
@@ -105,7 +105,7 @@ Now run the file using `java` command!
     $ java HelloWorld
     Hello, World
 
-Congrats! Your first Java program has run successfully. Here we are just printing a string passing it to the API `System.out.println`. We will cover all the concepts in the code, but you are welcome to take a [closer look</a>! If you have any doubt or need additional help, feel free to contact us anytime in our <a href='https://gitter.im/FreeCodeCamp/java' target='_blank' rel='nofollow'>Gitter Chatroom</a>!
+Congrats! Your first Java program has run successfully. Here we are just printing a string passing it to the API `System.out.println`. We will cover all the concepts in the code, but you are welcome to take a <a href='https://docs.oracle.com/javase/tutorial/getStarted/application/' target='_blank' rel='nofollow'>closer look</a>! If you have any doubt or need additional help, feel free to contact us anytime in our <a href='https://gitter.im/FreeCodeCamp/java' target='_blank' rel='nofollow'>Gitter Chatroom</a>!
 
 ## Documentation
 
