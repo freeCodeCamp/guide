@@ -1,5 +1,5 @@
 ---
-title: Cpu
+title: CPU
 ---
 ## CPU
 
@@ -15,6 +15,6 @@ Almost all CPUs use a 64-bit architecture, which means they store information as
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
-https://en.wikipedia.org/wiki/Central_processing_unit
+[Wikipedia](https://en.wikipedia.org/wiki/Central_processing_unit)
 
 
