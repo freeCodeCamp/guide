@@ -48,10 +48,10 @@ Now to start the timer we provide `startCountdown()` with a number value as an a
 ```
 
 ### Live Example
-[Codepen - Countdown Timer](https://codepen.io/rdev-rocks/pen/jLogxY?editors=0012)
+<a href='https://codepen.io/rdev-rocks/pen/jLogxY?editors=0012' target='_blank' rel='nofollow'>Codepen - Countdown Timer</a>
 
 ### More Resources
 Methods used:
-* [setInterval()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval)
-* [clearInterval()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/clearInterval)
+* <a href='https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval' target='_blank' rel='nofollow'>setInterval()</a>
+* <a href='https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/clearInterval' target='_blank' rel='nofollow'>clearInterval()</a>
 

@@ -10,7 +10,7 @@ The `git commit` command will save all staged changes, along with a brief descri
 In addition, a new version of the project will be created in the current repository. This will allow the user to recall those changes at a later date or, if needed, revert to that version. 
 
 ### Options
-There are a number of options that can be included with `git commit`. However, this guide will only cover the two most common options. For an extensive list of options, please consult the [Git documentation](https://git-scm.com/docs/git-commit). 
+There are a number of options that can be included with `git commit`. However, this guide will only cover the two most common options. For an extensive list of options, please consult the <a href='https://git-scm.com/docs/git-commit' target='_blank' rel='nofollow'>Git documentation</a>. 
 
 #### The -m Option
 The most common option used with `git commit` is the `-m` option. The `-m` stands for message. When calling `git commit`, it is required to include a message. The message should be a short description of the changes being committed. The message should be at the end of the command and it must be wrapped in quotations `" "`. 
