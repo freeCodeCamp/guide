@@ -75,6 +75,6 @@ console.log(queue.remove()); // exception
 
 #### More Information:
 
-* [More Info on Queues - GeeksForGeeks](http://www.geeksforgeeks.org/queue-data-structure/)  
-* [Solve Challenges using Queues - Hackerrank](https://www.hackerrank.com/domains/data-structures/queues)
+* <a href='http://www.geeksforgeeks.org/queue-data-structure/' target='_blank' rel='nofollow'>More Info on Queues - GeeksForGeeks</a>  
+* <a href='https://www.hackerrank.com/domains/data-structures/queues' target='_blank' rel='nofollow'>Solve Challenges using Queues - Hackerrank</a>
 

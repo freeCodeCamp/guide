@@ -18,8 +18,8 @@ text-align: end;
 text-align: match-parent;
 
 #### More Information:
-- [CSS1 Spec](https://www.w3.org/TR/REC-CSS1/#text-align)
-- [CSS2 Spec](https://www.w3.org/TR/CSS21/text.html#alignment-prop)
-- [CSS3 Spec](https://www.w3.org/TR/css-text-3/#justification)
-- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/text-align)
-- [CSS Tricks](https://css-tricks.com/almanac/properties/t/text-align/)
+- <a href='https://www.w3.org/TR/REC-CSS1/#text-align' target='_blank' rel='nofollow'>CSS1 Spec</a>
+- <a href='https://www.w3.org/TR/CSS21/text.html#alignment-prop' target='_blank' rel='nofollow'>CSS2 Spec</a>
+- <a href='https://www.w3.org/TR/css-text-3/#justification' target='_blank' rel='nofollow'>CSS3 Spec</a>
+- <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/text-align' target='_blank' rel='nofollow'>MDN Web Docs</a>
+- <a href='https://css-tricks.com/almanac/properties/t/text-align/' target='_blank' rel='nofollow'>CSS Tricks</a>
