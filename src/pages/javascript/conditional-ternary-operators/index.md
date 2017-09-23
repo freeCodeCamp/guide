@@ -1,15 +1,26 @@
 ---
 title: Conditional Ternary Operators
 ---
-## Conditional Ternary Operators
-
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/conditional-ternary-operators/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+## Basic usage
+The ternary operator is a compact way to write an if-else inside an expression.
+```js
+condition ? <value to take if true> : <value to take if false>
+```
+E.g.
+```js
+const cappedInput = input > 50 ? 50 : input // this will cap the input at 50
+```
+## Else if
+You can also chain ternary operators, this way you will have an if-else if-else behaviour
+```js
+<first condition> ? <value if first true>
+: <second condition> ? <value if second is true>
+: <fallback value>
+```
+> **Pro tip**: As you see you can split the ternary operator on multiple lines
+E.g.
+```
+const wealth = housesOwned > 3 ? "rich" 
+             : housesOwned > 1 ? "nothing to complain"
+             : "poor"
+```
