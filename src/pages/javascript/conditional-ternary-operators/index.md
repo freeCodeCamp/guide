@@ -1,16 +1,17 @@
 ---
 title: Conditional Ternary Operators
 ---
-## Basic usage
+## Conditional Ternary Operators
+### Basic usage
 The ternary operator is a compact way to write an if-else inside an expression.
 ```js
-condition ? <value to take if true> : <value to take if false>
+const thing = (condition) ? <if true> : <if false>;
 ```
 E.g.
 ```js
 const cappedInput = input > 50 ? 50 : input // this will cap the input at 50
 ```
-## Else if
+### Else if
 You can also chain ternary operators, this way you will have an if-else if-else behaviour
 ```js
 <first condition> ? <value if first true>
