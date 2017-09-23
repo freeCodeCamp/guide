@@ -1,15 +1,21 @@
 ---
 title: Gpu
 ---
-## Gpu
+## GPU
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/computer-hardware/gpu/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+GPU stands for Graphics Processing Unit. The majority of computers use these to render videos or play video games.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+A GPU is like a CPU but has different strengths and weaknesses. CPUs are very good at running a couple of tasks very quickly. GPUs are much better at running many tasks at the same time, but slower. A typical GPU can have more than 10,000 tasks running, but to run so many tasks at the same time they must share memory and other resources. GPUs usually run very repetitive tasks over and over to save the CPU from wasting time. Some CPUs have built-in GPUs, but having a separate GPU is almost always more powerful.
+
+GPUs can be used for computation as well as video rendering. Common ways to do this include OpenACC, CUDA, OpenCL, and OpenGL. Some applications include GPU implementations to reduce the amount of time the application takes to run.
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+https://en.wikipedia.org/wiki/Graphics_processing_unit
+https://www.openacc.org/
+https://developer.nvidia.com/cuda-zone
+https://www.khronos.org/opencl/
+https://www.opengl.org/
