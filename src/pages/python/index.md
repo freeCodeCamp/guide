@@ -12,7 +12,7 @@ To know more about Python, you might want to check <a href='https://www.python.o
 
 *   The two versions are similar, with knowledge of one switching to writing code for the other is easy.
 *   <a href='https://wiki.python.org/moin/Python2orPython3' target='_blank' rel='nofollow'>Python 2 or Python 3</a>
-    *   The 2.x branch will see no new major releases after that. 3.x is under active development...<a href='https://docs.python.org/3/using/index.html' target='_blank' rel='nofollow'> This means that all recent standard library improvements, for example, are only available by default in Python 3.x.</a>
+    *   The 2.x branch will see no new major releases after that. 3.x is under active development. This means that all recent standard library improvements, for example, are only available by default in Python 3.x.
     *   Python ecosystem has amassed a significant amount of quality software over the years. The downside of breaking backwards compatibility in 3.x is that some of that software (especially in-house software in companies) still doesn't work on 3.x yet.
 
 ## Installation
