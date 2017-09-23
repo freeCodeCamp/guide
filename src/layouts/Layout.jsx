@@ -24,7 +24,7 @@ function Layout(props) {
     <div>
       <Grid fluid={ true }>
         <Row>
-          <Navbar className='navBar'>
+          <Navbar className='navBar' fixedTop={true}>
             <Col md={ 3 } xs={ 12 }>
               <Link
                 className='link'
@@ -47,7 +47,7 @@ function Layout(props) {
           </Navbar>
         </Row>
       </Grid>
-      <Grid>
+      <Grid className='bodyContainer'>
         <Row>
           <Col md={ 4 }>
             <SideNav />

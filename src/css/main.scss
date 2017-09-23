@@ -31,7 +31,8 @@
   margin-top: 0;
 }
 
-:global td, :global th {
+:global td,
+:global th {
   border-bottom: 1px solid rgba(0, 0, 0, 0.12);
   padding: 10px;
 }
@@ -137,9 +138,15 @@
 /* ResultsSkeleton */
 
 @keyframes fadeInOut {
-  0% { opacity: 0.6; }
-  50% { opacity: 1; }
-  100% { opacity: 0.6; }
+  0% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.6;
+  }
 }
 
 .skeleton {
@@ -226,6 +233,7 @@
 .sideNav {
   overflow-y: scroll;
   max-height: 90vh;
+  position: fixed;
 }
 
 .stubbed {
@@ -247,4 +255,8 @@
   border: none;
   border-radius: 0px;
   cursor: pointer;
+}
+
+.bodyContainer {
+  margin-top: 55px;
 }
