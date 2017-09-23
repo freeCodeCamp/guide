@@ -22,7 +22,7 @@ If you are unfamiliar with some of the concepts above, read on, and don't worry.
 
 ## Version
 
-The current stable version is 2.3.0\. It has various performance improvements and syntactic additions from its predecessor, ruby v2.2.4.
+The current stable version is 2.4.2\. It contains security improvements from its predecessor, ruby v2.3.5.
 
 ## Installation
 
@@ -86,6 +86,6 @@ Prints each object to $stdout. Objects that aren’t strings will be converted b
     Hello World!
      => nil
 
-## Frameworks
+## Frameworks(gems)
 
-Ruby has several frameworks for quickly scaffolding applications. The most popular by far is <a href='http://rubyonrails.org/' target='_blank' rel='nofollow'>Rails</a> which was initially released in 2004\. Other frameworks for Ruby include <a href='http://www.sinatrarb.com/' target='_blank' rel='nofollow'>Sinatra</a>, <a href='http://lotusrb.org/' target='_blank' rel='nofollow'>Lotus</a>, and <a href='http://voltframework.com/' target='_blank' rel='nofollow'>Volt</a>. Each of these options has their pros and cons for development and cater to a variety needs.
+Ruby has several frameworks(gems) for quickly scaffolding applications. The most popular by far is <a href='http://rubyonrails.org/' target='_blank' rel='nofollow'>Rails</a> which was initially released in 2004\. Other frameworks(gems) for Ruby include <a href='http://www.sinatrarb.com/' target='_blank' rel='nofollow'>Sinatra</a>, <a href='http://lotusrb.org/' target='_blank' rel='nofollow'>Lotus</a>, and <a href='http://voltframework.com/' target='_blank' rel='nofollow'>Volt</a>. Each of these options has their pros and cons for development and cater to a variety needs.
