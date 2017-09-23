@@ -17,6 +17,6 @@ A binary search tree adds these two characteristics:
 Binary search trees allow fast lookup, addition and removal of items. The way that they are set up means that, on average, each comparison allows the operations to skip about half of the tree, so that each lookup, insertion or deletion takes time proportional to the logarithm of the number of items stored in the tree.
 
 ### Relavant videos on freeCodeCamp YouTube channel
-* [Binary Search Tree](https://youtu.be/5cU1ILGy6dM)
-* [Binary Search Tree: Traversal and Height](https://youtu.be/Aagf3RyK3Lw)
+* <a href='https://youtu.be/5cU1ILGy6dM' target='_blank' rel='nofollow'>Binary Search Tree</a>
+* <a href='https://youtu.be/Aagf3RyK3Lw' target='_blank' rel='nofollow'>Binary Search Tree: Traversal and Height</a>
 
