@@ -36,7 +36,7 @@ Built-in objects in JavaScript is constructed similar as above. For example:
 
 - Prototype of objects created with `new Object()` or `{}` syntax is `Object.prototype`.
 - Prototype of arrays created with `new Array()` or `[]` syntax is `Array.prototype`.
-- And so on with other built-in objects such as `Date` and `Regexp`.
+- And so on with other built-in objects such as `Date` and `RegExp`.
 
 `Object.prototype` is inherited by all objects and it has no prototype (its prototype is `null`).
 
