@@ -3,13 +3,26 @@ title: Array Length
 ---
 ## Array Length
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/standard-objects/array/array-length/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+`length` is a property of arrays in JavaScript that returns or sets the number of elements in a given array.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The `length` property of an array can be returned like so.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```
+let desserts = ["Cake", "Pie", "Brownies"]
+desserts.length
+// returns 3
+```
+The assignment operator, in conjunction with the `length` property, can be used to set then number of elements in an array like so.
+
+```
+let cars = ["Saab", "BMW", "Volvo"]
+cars.length = 2
+// returns 2
+```
+
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length
 
 
