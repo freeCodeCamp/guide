@@ -1,5 +1,5 @@
 ---
-title: This in JavaScript
+title: This reference in JavaScript
 ---
 ## `This` reference in JavaScript
 
@@ -53,3 +53,8 @@ console.log(p2.y); // 2
 ```
 
 The thing you must notice that is the `Point2D` function called with `new` keyword, and `this` reference is bound to `p1` object. So when a function is called with `new` keyword, it will create a new object and `this` reference will be bound to this object.
+
+### Other resources
+
+- [javascriptissexy.com](http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/)
+- [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20prototypes/ch2.md)
