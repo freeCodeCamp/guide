@@ -3,23 +3,35 @@ title: Ruby Introduction
 ---
 ## What is Ruby?
 
-<a>Ruby</a> is an interpreted scripting language for quick and easy object-oriented programming. Which means:
+<a>Ruby</a> is an open source, dynamic and interpreted scripting language for quick and easy object-oriented programming. Which means:
 
 *   Ability to make operating system calls directly
-*   Powerful string operations and regular expressions
 *   Immediate feedback during development
 *   Variable declarations are unnecessary
-*   Variables are not typed
-*   Syntax is simple and consistent
 *   Memory management is automatic
 *   Everything is an object
-*   Classes, methods, inheritance, etc.
-*   Singleton methods
 *   Has "mixin" functionality by module
 *   Iterators and closures
 
-If you are unfamiliar with some of the concepts above, read on, and don't worry. The mantra of the ruby language is quick and easy.
+If you are unfamiliar with some of the concepts above, read on, and don't worry. Ruby focus on simplicity and productivity with an elegant syntax that is natural to read and easy to write, like:
+```ruby
+# Quick example of Ruby with Object Oriented Programming
+class Greeter
+  def initialize(name)
+    @name = name.capitalize
+  end
 
+  def salute
+    puts "Hello #{@name}!"
+  end
+end
+
+# Create a new object
+g = Greeter.new("world")
+
+# Output "Hello World!"
+g.salute
+```
 ## Version
 
 The current stable version is 2.4.2\. It contains security improvements from its predecessor, ruby v2.3.5.
