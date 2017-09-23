@@ -3,13 +3,34 @@ title: List Remove Method
 ---
 ## List Remove Method
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/python/list-remove-method/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `remove()` method removes the argument given to it from the list.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+#### Example Usage
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```py
+words = ["I", "love", "Python"]
+words.remove("I")
+```
+#### Output
 
+```py
+["love","Python"]
+```
+
+Note that it returns an error if the element to be removed is not found in the list as illustrated in the example below.
+
+```py
+kiss = ["keep", "it", "simple", "stupid"]
+kiss.remove("complex")
+```
+
+#### Output
+```
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: list.remove(x): x not in list
+```
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+More information about `remove()` can be found [here](https://docs.python.org/3.6/tutorial/datastructures.html)
 
 
