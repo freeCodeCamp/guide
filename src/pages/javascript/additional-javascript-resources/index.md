@@ -57,13 +57,10 @@ Find javascript libraries at <a href='http://jster.net' target='_blank' rel='nof
 *   <a href='https://github.com/airbnb/javascript' target='_blank' rel='nofollow'>Airbnb JavaScript Style Guide</a>
 *   <a href='http://usejsdoc.org/' target='_blank' rel='nofollow'>JSDoc</a>
 *   <a href='https://leanpub.com/javascriptallongesix/read' target='_blank' rel='nofollow'>Javascript Allonge Six</a>
-
-## CoderPad Demo Access Forever
-
-<div class="lightbox-wrapper">[![](//discourse-user-assets.s3.amazonaws.com/optimized/2X/4/47bb0afc06b0be4262ffc465853e97b5eea8e093_1_690x351.gif)
-
-<div class="meta"><span class="filename">PQQjg9k.gif</span><span class="informations">1586x808 805 KB</span><span class="expand"></span></div>](//discourse-user-assets.s3.amazonaws.com/original/2X/4/47bb0afc06b0be4262ffc465853e97b5eea8e093.gif "PQQjg9k.gif") </div>
-
+*   <a href='https://github.com/getify/You-Dont-Know-JS' target='_blank' rel='nofollow'>You Don't Know JS</a>
+    
+    6 books on JavaScript by Kyle Simpson. From beginner to advanced. 
+    
 *   <a href='http://www.eloquentjavascript.net' target='_blank' rel='nofollow'>Eloquent Javascript</a>  
 
     Fantastic, thorough introduction to the basics and features of Javascript, complete with in-browser interactive code
