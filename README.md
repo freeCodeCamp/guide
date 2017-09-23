@@ -165,7 +165,7 @@ Here are specific formatting guidelines for any code:
 
     ```css
        .awesome {
-          background-color: #BADA55;
+          background-color: #FCCFCC;
         }
     ``` 
 ```
