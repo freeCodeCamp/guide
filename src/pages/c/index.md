@@ -58,7 +58,8 @@ You may require some software to write and execute C/C++ code. I recommend using
 
 * For Mac: [Download for Mac Here](https://developer.apple.com/xcode/)
 
-* For Linux install the build-essentials and codeblocks packages with the package manager of your distribution. In Ubuntu, Debian and Linux Mint:
+* For Linux install the build-essentials and codeblocks packages with the package manager of your distribution. 
+In Ubuntu, Debian and Linux Mint:
 ```bash
 sudo apt-get install codeblocks build-essentials
 ```
