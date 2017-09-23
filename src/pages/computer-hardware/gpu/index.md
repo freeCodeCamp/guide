@@ -1,5 +1,5 @@
 ---
-title: Gpu
+title: GPU
 ---
 ## GPU
 
@@ -14,8 +14,8 @@ GPUs can be used for computation as well as video rendering. Common ways to do t
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
-https://en.wikipedia.org/wiki/Graphics_processing_unit
-https://www.openacc.org/
-https://developer.nvidia.com/cuda-zone
-https://www.khronos.org/opencl/
-https://www.opengl.org/
+[Wikipedia](https://en.wikipedia.org/wiki/Graphics_processing_unit)
+[OpenACC](https://www.openacc.org/)
+[CUDA](https://developer.nvidia.com/cuda-zone)
+[OpenCL](https://www.khronos.org/opencl/)
+[OpenGL](https://www.opengl.org/)
