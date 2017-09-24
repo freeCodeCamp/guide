@@ -3,7 +3,7 @@ title: Algorithms
 ---
 ## Algorithms
 
-An alogrithm is like a recipe. It's a series of steps you take in order to achieve a specific outcome.
+An algorithm is like a recipe. It's a series of steps you take in order to achieve a specific outcome.
 
 Some common types of algorithms include sorting algorithms, search algorithms, and compression algorithms.
 
