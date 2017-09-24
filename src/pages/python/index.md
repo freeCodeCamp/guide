@@ -12,12 +12,12 @@ To know more about Python, you might want to check <a href='https://www.python.o
 
 *   The two versions are similar, with knowledge of one switching to writing code for the other is easy.
 *   <a href='https://wiki.python.org/moin/Python2orPython3' target='_blank' rel='nofollow'>Python 2 or Python 3</a>
-    *   The 2.x branch will see no new major releases after that. 3.x is under active development <a href='https://docs.python.org/3/using/index.html' target='_blank' rel='nofollow'>...] This means that all recent standard library improvements, for example, are only available by default in Python 3.x.
+    *   The 2.x branch will see no new major releases after that. 3.x is under active development. This means that all recent standard library improvements, for example, are only available by default in Python 3.x.
     *   Python ecosystem has amassed a significant amount of quality software over the years. The downside of breaking backwards compatibility in 3.x is that some of that software (especially in-house software in companies) still doesn't work on 3.x yet.
 
 ## Installation
 
-Most *nix based operating systems come with Python installed (usually Python 2). Replacing the system Python is not recommended and may cause problems. However, different versions of Python can be safely installed along side the system Python. See [Python Setup and Usage</a>
+Most *nix based operating systems come with Python installed (usually Python 2). Replacing the system Python is not recommended and may cause problems. However, different versions of Python can be safely installed along side the system Python. See <a href='https://docs.python.org/3/using/index.html' target='_blank' rel='nofollow'>Python Setup and Usage</a>
 
 Windows doesn't come with Python, the installer and instructions can be found <a href='https://docs.python.org/3/using/windows.html' target='_blank' rel='nofollow'>here</a>
 
@@ -54,7 +54,7 @@ Interactive mode has a prompt where Python commands can be entered and run:
 
     $ python3.5
     Python 3.5.1 (default, Dec 18 2015, 00:00:00)
-    <a href='https://docs.python.org/3/' target='_blank' rel='nofollow'>GCC 4.8.4] on linux
+    GCC 4.8.4 on linux
     Type "help", "copyright", "credits" or "license" for more information.
     >>> print("Hello campers!")
     Hello campers!
@@ -92,7 +92,7 @@ Some of the principles that influenced the design of Python are included as an e
 
 ## Documentation
 
-Python is well [documented</a>. These docs include tutorials, guides, references and meta information for language.
+<a href='https://docs.python.org/3/' target='_blank' rel='nofollow'>Python is well documented</a>. These docs include tutorials, guides, references and meta information for language.
 
 Another important reference is the Python Enhancement Proposals (<a href='https://www.python.org/dev/peps/' target='_blank' rel='nofollow'>PEPs</a>). Included in the PEPs is a style guide for writing Python code, <a href='https://www.python.org/dev/peps/pep-0008/' target='_blank' rel='nofollow'>`PEP 8`</a>.
 

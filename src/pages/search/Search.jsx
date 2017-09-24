@@ -4,10 +4,10 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import Helmet from 'react-helmet';
 
-import NoResults from './components/NoResults.jsx';
-import NoSupport from './components/NoSupport.jsx';
-import Results from './components/Results.jsx';
-import ResultsSkeleton from './components/ResultsSkeleton.jsx';
+import NoResults from '../../pageComponents/search/NoResults.jsx';
+import NoSupport from '../../pageComponents/search/NoSupport.jsx';
+import Results from '../../pageComponents/search/Results.jsx';
+import ResultsSkeleton from '../../pageComponents/search/ResultsSkeleton.jsx';
 
 import {
   resetSearch

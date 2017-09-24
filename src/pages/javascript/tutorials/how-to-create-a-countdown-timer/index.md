@@ -3,13 +3,55 @@ title: How to Create a Countdown Timer
 ---
 ## How to Create a Countdown Timer
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/tutorials/how-to-create-a-countdown-timer/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+### Creation
+Start by building the countdownTimer function.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+```javascript
+function startCountdown(seconds){
+  var counter = seconds;
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+  var interval = setInterval(() => {
+    console.log(counter);
+    counter--;
+    
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+    if(counter < 0 ){
+      
+      // The code here will run when
+      // the timer has reached zero.
+      
+      clearInterval(interval);
+      console.log('Ding!');
+    };
+  }, 1000);
+};
+```
 
+### Execution
+Now to start the timer we provide `startCountdown()` with a number value as an argument which represents the seconds to countdown.
+
+```javascript
+  startCountdown(10);
+  // Console Output // 
+  // 10
+  // 9
+  // 8
+  // 7
+  // 6
+  // 5
+  // 4
+  // 3
+  // 2
+  // 1
+  // 0 
+  // Ding!
+```
+
+### Live Example
+<a href='https://codepen.io/rdev-rocks/pen/jLogxY?editors=0012' target='_blank' rel='nofollow'>Codepen - Countdown Timer</a>
+
+### More Resources
+Methods used:
+* <a href='https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval' target='_blank' rel='nofollow'>setInterval()</a>
+* <a href='https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/clearInterval' target='_blank' rel='nofollow'>clearInterval()</a>
 
