@@ -1,15 +1,16 @@
 ---
-title: HTML Dom Getelementbyid Method
+title: HTML Dom getElementById Method
 ---
-## HTML Dom Getelementbyid Method
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/html-dom-getelementbyid-method/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The getElementById() method returns the element that has the ID attribute with the specified value.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+This method is one of the most common methods in the HTML DOM, and is used almost every time you want to manipulate, or get info from, an element on your document.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```javascript
+   
+   <div id="demo"></div>
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+   document.getElementById("demo"); //return the element with id "demo"
+```
 
-
+See <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures' target='_blank' rel='nofollow'>MDN</a>
