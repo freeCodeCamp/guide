@@ -7,7 +7,7 @@ When a **return** statement is called in a function, the execution of this funct
 
     return <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/return' target='_blank' rel='nofollow'>[[expression]];
 
-[MDN link</a> | <a href='https://msdn.microsoft.com/en-us/library/22a685h9.aspx' target='_blank' rel='nofollow'>MSDN link</a>
+[MDN link</a> | <a href='https://msdn.microsoft.com/en-us/library/22a685h9.aspx' target='_blank' rel='nofollow'>MSDN link]</a>
 
 ## Examples
 
