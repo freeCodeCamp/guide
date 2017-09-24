@@ -3,11 +3,11 @@ title: Git Commit
 ---
 
 ## Git Commit
-
 ### Description
-The `git commit` command will save all staged changes, along with a brief description from the user, to the local repository. 
-
-In addition, a new version of the project will be created in the current repository. This will allow the user to recall those changes at a later date or, if needed, revert to that version. 
+The `git commit` command will save all staged changes, along with a brief description from the user, in a "commit".  
+Commits are at the heart of Git usage, you can think of a commit as a snapshot of the project, these are the main features of commits you need to know:  
+- you will always be able to revert the project state to a specific commit. [See more](https://guide.freecodecamp.org/git/git-checkout) 
+- if multiple commits edit different parts of the project they will not overwrite each other even if the authors of the commit were unaware of each other. This is one of the benefits of using Git over Dropbox, Google Drive, ...
 
 ### Options
 There are a number of options that can be included with `git commit`. However, this guide will only cover the two most common options. For an extensive list of options, please consult the <a href='https://git-scm.com/docs/git-commit' target='_blank' rel='nofollow'>Git documentation</a>. 
