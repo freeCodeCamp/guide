@@ -8,16 +8,15 @@ title: Array Length
 The `length` property of an array can be returned like so.
 
 ```
-let desserts = ["Cake", "Pie", "Brownies"]
-desserts.length
-// returns 3
+let desserts = ["Cake", "Pie", "Brownies"];
+console.log(desserts.length); // 3
 ```
 The assignment operator, in conjunction with the `length` property, can be used to set then number of elements in an array like so.
 
 ```
-let cars = ["Saab", "BMW", "Volvo"]
-cars.length = 2
-// returns 2
+let cars = ["Saab", "BMW", "Volvo"];
+cars.length = 2;
+console.log(cars.length); // 2
 ```
 
 
