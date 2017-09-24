@@ -3,13 +3,8 @@ title: CSS Cursors
 ---
 ## CSS Cursors
 
-<!--This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/css-cursors/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.-->
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 The cursor property specifies the type of cursor to be displayed when you hover over an element. It has 36 possible values: 
-
+```css
     .auto            { cursor: auto; }
     .default         { cursor: default; }
     .none            { cursor: none; }
@@ -42,13 +37,9 @@ The cursor property specifies the type of cursor to be displayed when you hover 
     .sw-resize       { cursor: sw-resize; }
     .nesw-resize     { cursor: nesw-resize; }
     .nwse-resize     { cursor: nwse-resize; }
+```
 
 #### More Information:
 Check the above cursor values in action: [codepen](https://codepen.io/chriscoyier/pen/uCwfB)
-
 Mozilla Developer Network: [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/cursor)
-
 Browser Support: [caniuse](http://caniuse.com/#search=cursor)
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
