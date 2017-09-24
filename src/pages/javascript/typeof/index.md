@@ -7,7 +7,7 @@ title: Typeof
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 #### More Details
-The `typeof` operator is important in JavaScript as it allows programmers to easily check the type of a variable in their code. This is important as JavaScript is a language that does not require variables to have types assigned when they are created (it is a [dynamically typed language](https://stackoverflow.com/questions/2690544/what-is-the-difference-between-a-strongly-typed-language-and-a-statically-typed)). What this means is that any JavaScript variable is not resticted to have a specific type, and the type of a variable can change duting the runtime of a program. 
+The `typeof` operator is important in JavaScript as it allows programmers to easily check the type of a variable in their code. This is important as JavaScript is a language that does not require variables to have types assigned when they are created (it is a <a href='https://stackoverflow.com/questions/2690544/what-is-the-difference-between-a-strongly-typed-language-and-a-statically-typed' target='_blank' rel='nofollow'>dynamically typed language</a>). What this means is that any JavaScript variable is not resticted to have a specific type, and the type of a variable can change duting the runtime of a program. 
 
 IE: 
 ```
@@ -60,6 +60,4 @@ function(x){
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-[MDN Documentation Page for typeof](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof)
-
-
+<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof' target='_blank' rel='nofollow'>MDN Documentation for typeof</a> 
