@@ -13,4 +13,4 @@ This method is one of the most common methods in the HTML DOM, and is used almos
    document.getElementById("demo"); //return the element with id "demo"
 ```
 
-See <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures' target='_blank' rel='nofollow'>MDN</a>
+See <a href='https://www.w3schools.com/jsref/met_document_getelementbyid.asp' target='_blank' rel='nofollow'>W3C</a>
