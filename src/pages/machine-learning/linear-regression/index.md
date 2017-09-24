@@ -3,13 +3,16 @@ title: Linear Regression
 ---
 ## Linear Regression
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/machine-learning/linear-regression/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+![Linear Regression](http://www.cs.toronto.edu/~frossard/post/tensorflow/tf_linreg.gif)
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Linear Regression is a linear approach for modeling data. Here, we model the relationship between a scalar variable `y` and one or more explanatory variables denoted by `X`.  
+We model the relationship using functions with unknown parameters. 
+We estimate the unknown model parameters from the data. 
+We fit the model by minimising the squared error between the prediction and the output.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
+- [Wikipedia](https://en.wikipedia.org/wiki/Linear_regression)
+- [Stanford University](http://ufldl.stanford.edu/tutorial/supervised/LinearRegression/)
 
