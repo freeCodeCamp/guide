@@ -59,7 +59,7 @@ function titleify(str, triedPrototyper) {
       if (!word) {
         return '';
       }
-      if (stopWords.includes(word) && i !== 0) {
+      if (stopWords.some(x => x === word) && i !== 0) {
         return word;
       }
       return preFormatted[word] ?

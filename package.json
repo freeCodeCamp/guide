@@ -23,6 +23,7 @@
     "gatsby-remark-smartypants": "^1.4.1",
     "gatsby-source-filesystem": "^1.4.1",
     "gatsby-transformer-remark": "^1.6.3",
+    "prop-types": "^15.5.10",
     "react": "^15.6.1",
     "react-bootstrap": "^0.31.0",
     "react-dom": "^15.6.1",
