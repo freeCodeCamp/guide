@@ -169,7 +169,7 @@ body {
 
 /* You want the previews a little transparent to show that they are "inactive". 
    You then add an .active or :hover class to animate the selections for your user when
-   they interact with our controls and clickable content.
+   they interact with your controls and clickable content.
  */
 
 img.preview, img.modal-preview {
