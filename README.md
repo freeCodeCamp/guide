@@ -135,7 +135,7 @@ Use double quotes where applicable.
 
 Format language keywords as code - this is done with the backtick key (located to the left of the "1" key on a US keyboard) in GitHub-flavored markdown. For example, put backticks around HTML tag names or CSS property names.
 
-Use the Oxford Comma when possible. It makes things easier, clearer, and prettier to read.
+Use the Oxford Comma when possible (it is a comma used after the penultimate item in a list of three or more items, before ‘and’ or ‘or’ e.g. an Italian painter, sculptor, and architect). It makes things easier, clearer, and prettier to read.
 
 ### Formatting example code
 
