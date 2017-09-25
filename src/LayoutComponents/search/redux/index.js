@@ -1,6 +1,8 @@
 import { createTypes } from 'redux-create-types';
 import { createAction, handleActions } from 'redux-actions';
 
+import { types as appTypes } from '../../redux';
+
 const initialState = {
   isSearching: false,
   lastPage: '/',
@@ -48,6 +50,11 @@ export const reducer = handleActions(
     [types.updateSearchTerm]: (state, { payload }) => ({
       ...state,
       searchTerm: payload
+    }),
+    [appTypes.updateOnlineStatus]: state => ({
+      ...state,
+      searchTerm: '',
+      results: []
     })
   },
   initialState

@@ -2,8 +2,8 @@ import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import Navbar from 'react-bootstrap/lib/Navbar';
 import FormControl from 'react-bootstrap/lib/FormControl';
+import Navbar from 'react-bootstrap/lib/Navbar';
 
 import {
   fetchSearchResults,
@@ -14,6 +14,7 @@ import {
 
 const propTypes = {
   fetchSearchResults: PropTypes.func.isRequired,
+  isOnline: PropTypes.bool,
   results: PropTypes.arrayOf(PropTypes.object),
   searchTerm: PropTypes.string,
   updateLastPage: PropTypes.func.isRequired,
@@ -23,6 +24,7 @@ const propTypes = {
 
 function mapStateToProps(state) {
   return {
+    isOnline: state.app.isOnline,
     results: state.search.results,
     searchTerm: state.search.searchTerm
   };
@@ -43,6 +45,7 @@ class SearchBar extends PureComponent {
 
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
+    this.renderSearchBar = this.renderSearchBar.bind(this);
   }
 
   handleChange(e) {
@@ -72,21 +75,33 @@ class SearchBar extends PureComponent {
     fetchSearchResults();
   }
 
+  renderSearchBar() {
+    const { isOnline, searchTerm } = this.props;
+    return isOnline ?
+      <FormControl
+        className='input'
+        disabled={ false }
+        onChange={ this.handleChange }
+        placeholder='&#xf002; What would you like to know?'
+        type='text'
+        value={ searchTerm }
+      /> :
+      <FormControl
+        className='input'
+        disabled={ true }
+        onChange={ this.handleChange }
+        placeholder='&#xf002; It looks like you are currently offline'
+        type='text'
+        value={ searchTerm }
+      />;
+  }
+
   render() {
-    const {
-      searchTerm
-    } = this.props;
     return (
       <div>
         <form onSubmit={ this.handleSubmit }>
           <Navbar.Form className='formContainer'>
-            <FormControl
-              className='input'
-              onChange={ this.handleChange }
-              placeholder='&#xf002; What would you like to know?'
-              type='text'
-              value={ searchTerm }
-            />
+            { this.renderSearchBar() }
           </Navbar.Form>
         </form>
       </div>
