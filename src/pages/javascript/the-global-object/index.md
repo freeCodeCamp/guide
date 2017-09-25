@@ -7,12 +7,14 @@ In a Node.js environment, the global object can be accessed by the `global` keyw
 
 For example:
 
-    // global scope
-    var foo = "bar";
+```javascript
+// global scope
+var foo = "bar";
 
-    console.log(global.foo); // bar (in a Node environment)
-    console.log(window.foo); // bar (in a browser window)
-    console.log(this.foo); // bar (if strict mode is disabled)
+console.log(global.foo); // bar (in a Node environment)
+console.log(window.foo); // bar (in a browser window)
+console.log(this.foo); // bar (if strict mode is disabled)
+```
 
 The distinction between scopes local to functions and the global scope is important here: the global object only contains the variables that were declared on the global scope, not the local scopes of functions.
 
