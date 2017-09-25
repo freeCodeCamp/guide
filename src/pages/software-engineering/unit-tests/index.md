@@ -16,3 +16,10 @@ Depending on the type of programming language (or paradigm) these can be against
 - Quality - As it forces you to think about and use your own API, it enforces good/extendable interfaces and patterns. Points out any tight coupling or over-complexity which should be addressed. Bad code is usually much harder to test. 
 - Industry Standard -  It is a common discipline these days. A requirement for a large portion of companies.
 - Less bugs - Substantial research suggesting that applying testing to an application can improve production bug density by 40% — 80%.
+
+#### More Information
+
+- <a href='https://www.martinfowler.com/bliki/UnitTest.html' target='_blank' rel='nofollow'>Martin Fowler on Unit Testing</a>
+- <a href='http://www.butunclebob.com/ArticleS.UncleBob.TheThreeRulesOfTdd' target='_blank' rel='nofollow'>Robert Martin aka "Dr Bob" on TDD</a>
+- <a href='https://medium.com/javascript-scene/5-common-misconceptions-about-tdd-unit-tests-863d5beb3ce9' target='_blank' rel='nofollow'>Eric Elliot on Unit tests and TDD</a>
+
