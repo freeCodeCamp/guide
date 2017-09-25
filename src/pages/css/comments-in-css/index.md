@@ -3,13 +3,26 @@ title: Comments in CSS
 ---
 ## Comments in CSS
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/comments-in-css/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Comments are used in CSS to explain a block of code or to make temporary changes during development. The commented code doesn't execute. A comment in CSS can be both single line or multi-line.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+``` css
+    /*
+        This is
+        a multi-line
+        comment
+    */
+    /* This is a single line comment*/
+    .group:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+We can add as many comments to our stylesheet as we like, and it’s good practice to use CSS comments to help identify parts of any stylesheet that might be difficult to understand from a cursory glance. By using CSS comments to make our stylesheets more readable, the CSS will be easier to maintain in the future.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
+Docs: [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Comments)
 
+CSS Comments by Adam Roberts: [Sitepoint](https://www.sitepoint.com/css-comments/)
