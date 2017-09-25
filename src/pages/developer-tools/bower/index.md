@@ -3,21 +3,21 @@ title: Bower
 ---
 ## Bower
 
-Bower is a package manager for the web. Bower can manage components that contain HTML, CSS, JavaScript, fonts or even image files. Bower is optimized for the front-end. If multiple packages depend on a package - jQuery for example - Bower will download jQuery just once. This is known as a flat dependency graph and it helps reduce page load.
+Bower is a package manager for the web. Bower can manage components that contain HTML, CSS, JavaScript, fonts or even image files. Bower is optimized for the front end. If multiple packages depend on a package - jQuery for example - Bower will download jQuery just once. This is known as a flat dependency graph and it helps reduce page load.
 
-#### Install Bower
+### Install Bower
 
 Bower is a command line utility. Install it with npm.
-
+```shell
     npm install -g bower
-
-#### Install Packages
+```
+### Install Packages
 
 Install packages with bower install. Bower installs packages to bower_components/.
-
+```shell
     bower install <package>
-
-#### More Information:
+```
+### More Information:
 The Bower website: [bower.io](https://bower.io)
 
 Manage Front End Resources with Bower: [scotch.io](https://scotch.io/tutorials/manage-front-end-resources-with-bower)
