@@ -9,7 +9,7 @@ The first thing we need to know is that in Javascript, functions are first-class
 
 ## Callback Functions
 
-A **callback function** is a function that is passed _as an argument_ to another function, to be "called back" at a later time. A function that accepts other functions as arguments is called a **higher-order function**, which contains the logic for _when_ the callback function gets executed. It's the combination of these two that allow us to extend our functionality.
+A **callback function** is a function that is passed _as an argument_ to another function, to be "called back" at a later time.  A function that accepts other functions as arguments is called a **higher-order function**, which contains the logic for _when_ the callback function gets executed. It's the combination of these two that allow us to extend our functionality.
 
 To illustrate callbacks, let's start with a simple example:
 
