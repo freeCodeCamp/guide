@@ -127,7 +127,7 @@ Text should use the second person ("you") to help to give it a conversational to
 
 If there are other Guide resources you think campers would benefit from, add them at the bottom in an "Other Resources" section.
 
-You can add diagrams, graphics, or visualizations as necessary. You can also embed relevant YouTube videos and interactive REPL.it code editors.
+You can add diagrams, graphics, or visualizations as necessary. You can also embed relevant YouTube videos and interactive [REPL.it](https://repl.it/) code editors.
 
 Don't use emojis or emoticons in the Guide. freeCodeCamp has a global community, and the cultural meaning of an emoji or emoticon may be different around the world. Also, emojis can render differently on different systems.
 
@@ -135,7 +135,7 @@ Use double quotes where applicable.
 
 Format language keywords as code - this is done with the backtick key (located to the left of the "1" key on a US keyboard) in GitHub-flavored markdown. For example, put backticks around HTML tag names or CSS property names.
 
-Use the Oxford Comma when possible. It’s makes things easier, clearer, and prettier to read.
+Use the Oxford Comma when possible (it is a comma used after the penultimate item in a list of three or more items, before ‘and’ or ‘or’ e.g. an Italian painter, sculptor, and architect). It makes things easier, clearer, and prettier to read.
 
 ### Formatting example code
 
