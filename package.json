@@ -17,7 +17,6 @@
     "gatsby-link": "^1.6.5",
     "gatsby-plugin-google-analytics": "^1.0.7",
     "gatsby-plugin-react-helmet": "^1.0.1",
-    "gatsby-plugin-sharp": "^1.6.0",
     "gatsby-plugin-sitemap": "^1.2.0",
     "gatsby-remark-prismjs": "^1.2.0",
     "gatsby-remark-smartypants": "^1.4.1",
