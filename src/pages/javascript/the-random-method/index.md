@@ -3,13 +3,24 @@ title: The Random Method
 ---
 ## The Random Method
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/the-random-method/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+JavaScript has an excellent built in method for producing random numbers. It is Math.random(). When Math.random is executed it produces
+a random number that can be anywhere between 0 and 1. The 0 is included and 1 is excluded. To get a random number between a larger range multiply the result of Math.random by a number.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+```javascript
+Math.random() * 10; // This expression produces a number between 0 and 10 ( excluding the 10 )
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Other methods can be used to produce a more specific number like an integer. Math.floor() can be used to do this.
+
+```javascript
+Math.floor( Math.random() * 10 ) + 1;
+```
+
+In the example above, Math.floor is used to round down the result of Math.random() * 10. 1 is added to the end of the result to show how a
+minimum integer can be achieved as well.
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
+[Mozilla Developer Network article on Math.random](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
 
 
