@@ -24,4 +24,4 @@ Docs and full list of keyword values: [MDN](https://developer.mozilla.org/en-US/
 
 Browser Support: [caniuse](http://caniuse.com/#search=display)
 
-A Complete Guide to Facebook: [css-tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+A Complete Guide to Flexbox: [css-tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
