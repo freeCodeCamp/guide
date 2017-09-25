@@ -11,7 +11,7 @@ You will build styles which will provide state with `CSS` and behavior with `Jav
 
 ##### Our Images
 The images we will be using are being supplied by [Pexels](https://www.pexels.com/), 
-a free stock photo gallery that allows you to provide high quality images to their projects fast, freely and (ussually) with no attributions needed.
+a free stock photo gallery that allows you to provide high quality images to their projects fast, free and usually with no attributions needed.
 
 ##### Just Show Me The Code!
 A live example can be found [here - CodePen/Lightbox](https://codepen.io/rdev-rocks/pen/KXNzvo) and a full draft of the code is near the bottom.
