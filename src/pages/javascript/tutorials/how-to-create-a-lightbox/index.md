@@ -6,7 +6,7 @@ title: How to Create a Lightbox
 ### Introduction
 The lightbox is a combination of two components, a [modal](https://en.wikipedia.org/wiki/Modal_window) and a slide show.
 Here you will construct a simple lightbox using `HTML`, `CSS` and `JavaScript`. 
-The lightbox will be contained in the modal, which will be triggered by some `JavaScript`, from `Event Handlers` in the `HTML` markup.
+The lightbox will be contained in the modal, which will be triggered by some `JavaScript`, from [event handlers](https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Event_handlers) in the `HTML` markup.
 You will build styles which will provide state with `CSS` and behavior with `JavaScript`. You will also find a reference list of the methods you use and other useful tid-bits that are related to this tutorial, at the bottom.
 
 ##### Our Images
