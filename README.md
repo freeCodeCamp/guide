@@ -127,7 +127,7 @@ Text should use the second person ("you") to help to give it a conversational to
 
 If there are other Guide resources you think campers would benefit from, add them at the bottom in an "Other Resources" section.
 
-You can add diagrams, graphics, or visualizations as necessary. You can also embed relevant YouTube videos and interactive REPL.it code editors.
+You can add diagrams, graphics, or visualizations as necessary. You can also embed relevant YouTube videos and interactive [REPL.it](https://repl.it/) code editors.
 
 Don't use emojis or emoticons in the Guide. freeCodeCamp has a global community, and the cultural meaning of an emoji or emoticon may be different around the world. Also, emojis can render differently on different systems.
 
