@@ -7,7 +7,7 @@ The `<a href>` atrribute refers to a destination provided by a link. The `a` tag
 
 For instance:
 
-```
+```html
 <html>
   <head>
     <title>Href Attribute Example</title>
@@ -15,13 +15,15 @@ For instance:
   <body>
     <h1>
       <p>
-      <a href = "https://www.freecodecamp.org/contribute/">The FreeCodeCamp Contribution Page</a>shows you how and where you can contribute to FreeCodeCamp's community and growth.
+        <a href="https://www.freecodecamp.org/contribute/">The freeCodeCamp Contribution Page</a>shows you how and where you can contribute to freeCodeCamp's community and growth.
       </p>
   </body>
 </html>
 ```
 The `<a href>` attributes is supported by all browsers.
 
-### Example
+### Examples
+```html
 <a href="#">Link dead</a>
-`<a href="https://www.freecodecamp.com">FreecodeCamp</a>`
+<a href="https://www.freecodecamp.org">freeCodeCamp</a>
+```
