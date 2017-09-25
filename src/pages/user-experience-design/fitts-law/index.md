@@ -1,15 +1,11 @@
 ---
 title: Fitts Law
 ---
+
 ## Fitts Law
+Fitts's Law provides a model of human movement which can accurately predict the amount of time taken to move to and select a target. In human-computer interaction Fitts's Law is typically applied to movement through the graphical user interface using a cursor or other type of pointer
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/user-experience-design/fitts-law/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+<img src="http://cdn.sixrevisions.com/0128-05_chart.jpg" class="layzr-loaded">
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+A very robust article about Fitts law: https://www.interaction-design.org/literature/article/fitts-s-law-the-importance-of-size-and-distance-in-ui-design
