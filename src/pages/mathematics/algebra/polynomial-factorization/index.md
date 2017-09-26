@@ -8,7 +8,7 @@ an expression like so:
 
 <img src="https://github.com/codersc/freeCodeCamp-article-images/blob/master/art6img1.png?raw=true">
 
-You can think of factoring as doing the opposite, like in this example where we first find the GCF of the terms (9x) and then rewrite the polyynomial:
+You can think of factoring as doing the opposite, like in this example where we first find the GCF of the terms (9) and then rewrite the polyynomial:
 
 <img src="https://github.com/codersc/freeCodeCamp-article-images/blob/master/art6img2.png?raw=true">
 
