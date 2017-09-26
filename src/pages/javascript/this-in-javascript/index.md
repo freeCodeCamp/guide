@@ -1,5 +1,5 @@
 ---
-title: `this` reference in JavaScript
+title: this reference in JavaScript
 ---
 ## `this` reference in JavaScript
 
@@ -7,7 +7,7 @@ In JavaScript, every function has a `this` reference automatically created when 
 
 ### Rule 1
 
-When a function is called in global scope, the `this` reference is by default bound to **global object** (`window` in browser and Node.js itself is `global`). For example:
+When a function is called in the global scope, the `this` reference is by default bound to the **global object** (`window` in the browser, or `global` in Node.js). For example:
 
 ```javascript
 function foo() {
