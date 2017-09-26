@@ -35,7 +35,7 @@ With a viewport in place you can add basic graphics, text, and path elements.
 </svg>  
 ```
 
-You can see the output and play with the code in [this codepen](https://codepen.io/SgiobairOg/pen/OxbNpW). 
+You can see the output and play with the code in <a href='https://codepen.io/SgiobairOg/pen/OxbNpW' target='_blank' rel='nofollow'>this codepen</a>. 
 
 In the opening `svg` tag we add a width attribute to set the width of the viewport to 100% of the container width, you can use percentages or pixel widths. The opening svg tag also has `viewbox` attribute which defines a window through which elements of your svg are visible, in this case, the viewbox spans from (0,0) to (600,300). In SVG space the X-axis starts with zero on the left and increases to the right; the Y-axis starts with zero at the top and increases towards the bottom.
 
@@ -51,9 +51,9 @@ The `<path />` element defines a vector path in the viewport. The path is define
 
 ## Browser Support
 
-[Browser support for SVG](https://caniuse.com/#feat=svg) is available in all modern browsers. There are some issues with scaling in IE 9 through IE 11 however they can be overcome with the use of the `width`, `height`, `viewbox`, and CSS. 
+<a href='https://caniuse.com/#feat=svg' target='_blank' rel='nofollow'>Browser support for SVG</a> is available in all modern browsers. There are some issues with scaling in IE 9 through IE 11 however they can be overcome with the use of the `width`, `height`, `viewbox`, and CSS. 
 
 ## Resources
 
-- [W3C, Scalable Vector Graphics (SVG) 1.1 (Second Edition)](https://www.w3.org/TR/SVG/)
-- [Mozilla Developer Network, SVG](https://developer.mozilla.org/en-US/docs/Web/SVG)
+- <a href='https://www.w3.org/TR/SVG/' target='_blank' rel='nofollow'>W3C, Scalable Vector Graphics (SVG) 1.1 (Second Edition)</a>
+- <a href='https://developer.mozilla.org/en-US/docs/Web/SVG' target='_blank' rel='nofollow'>Mozilla Developer Network, SVG</a>
