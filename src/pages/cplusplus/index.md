@@ -4,7 +4,7 @@ title: C++
 ## Hello World! - Your first C++ Program 
 
 ### What is C++ ?
-* C++ is a general purpose programming language which has been used since the 1990's
+* C++ is a general-purpose programming language which has been used since the 1990's.
 * It is widely based on the programming language C and thus got it's name.
 
 ### Here is your 1st program in C++:
@@ -26,11 +26,11 @@ Now , let's break down the code :
 #### Line 1 and 2
 
 ```C++
-# include<iostream>
+#include<iostream>
 using namespace std;
 ```
 
-* The 1st line tells the computer to use the "iostream" header file for this specific program . There are many other header files which are requireed for a specific program to run properly. Some of them are : math , vector and string. Header files are generally represented by a ".h" extension     
+* The 1st line tells the compiler to use the "iostream" header file for this specific program. There are many other header files which are required for a specific program to run properly. Some of them are math, vector and string. Header files are generally represented by a ".h" extension. You don't need to ".h" with the standard header files.     
   - "iostream" stands for input-output stream . The "iostream" file contains code for allowing the computer to take input and generate an output, using the C++ language.     
 * The second line tells the computer to use the standard namespace which includes features of standard C++ . 
 
@@ -51,7 +51,7 @@ cout<<"Hello World"<<endl;
 ```
 * The word "cout" in C++ is used for any output. 
 * It always has to be followed by "<<" , the - insertion operator - . 
-* Whatever is in the double quotes "" is printed . Certain special characters have a different syntax for print statements   
+* Whatever is in the double quotes "" is printed . Certain special characters have a different syntax for print statements.   
 * Now to print any other kind of data , you have to  add "<<" .
 ***Q. Try to change Hello World to any other sentence or word(s). What will be the output ?***
 * **"endl"** is a reserved word for the computer when using the C++ language to **end this line and go to the next line during output** .   - cout stands for "console output"
@@ -68,10 +68,16 @@ cout<<"Hello World"<<endl;
 Programmers use a Hello World program (like this one) as a ritual on using a new programming language. It is a symbol of good luck.  
 _You have finished coding your first C++ program and have mostly understood the code you have written/typed. CONGRATULATIONS!_
  **Good Luck to all of you** 
+ 
  **Happy Coding ! :)**
+ 
  **Feel free to ask any queries on FreeCodeCamp's GitHub page or <a href='https://forum.freecodecamp.org/' target='_blank' rel='nofollow'>FreeCodeCamp's Forum .</a>**
+
 By : Jaithra Bhatia and Hitarth Asrani
-**You may require some software to write and execute C++ code. I recommend using CodeBlocks. There's a download link below :**
+
+**You may require some software to write and execute C++ code. One software to make coding easier is using an IDE called CodeBlocks. There's a download link below:**
+
 Download Link : <a href='http://www.codeblocks.org/downloads/26' target='_blank' rel='nofollow'>Download Here</a>
-* Click the link with the GNU/GCC compiler for windows. This will not require an additional installation
+* Click the link with the GNU/GCC compiler for windows. This will not require an additional installation.
+
 Link #2 for Mac : <a href='https://developer.apple.com/xcode/' target='_blank' rel='nofollow'>Download for Mac #2 here</a>
