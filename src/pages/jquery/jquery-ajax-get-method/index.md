@@ -3,13 +3,38 @@ title: jQuery Ajax Get Method
 ---
 ## jQuery Ajax Get Method
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/jquery/jquery-ajax-get-method/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Load data from server usign HTTP GET method.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+`$.get( url [, data ] [, callback ] [, dataType ] )`
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```
+Params
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+url
+Type: string
+URL to which the request is sent.
 
+data
+Type: object or string
+A object or string that is sent to the server with the request.
 
+callback
+Type: Function(data, status, xhr)
+A callback function that is executed if the request succeeds.
+
+dataType
+Type: string
+The type of data expected from the server. Default: intelligent guess (xml, json, script, text, html).
+```
+
+#### Simple ajax function ####
+
+```
+$.ajax({
+  url: url,
+  data: data,
+  dataType: dataType,
+  function(data){
+  }
+});
+```
