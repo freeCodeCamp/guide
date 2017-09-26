@@ -14,7 +14,7 @@ function storeNames() { return arguments; }
 ```javascript
 // If we execute the following line in the console:
 storeNames("Mulder", "Scully", "Alex Kryceck");
-// The output will be: <a href='https://github.com/petkaantonov/bluebird/wiki/Optimization-killers#3-managing-arguments' target='_blank' rel='nofollow'>"Mulder", "Scully", "Alex Kryceck"]
+// The output will be ["Mulder", "Scully", "Alex Kryceck"]
 ```
 
 If you want to know more about this, such as converting it to an array or the optimization problem that comes with using the _slice(_) method and how to solve it, click on **read more** (Gitter Chat Only).
@@ -64,4 +64,4 @@ for (var i = 0; i < arguments.length; i++) {
 ```
 
 For more information on the optimization issues:  
-[Optimization Killers: Managing Arguments</a>
+Optimization Killers: <a href='https://github.com/petkaantonov/bluebird/wiki/Optimization-killers#3-managing-arguments' target='_blank' rel='nofollow'>Managing Arguments</a>
