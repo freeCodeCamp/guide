@@ -44,3 +44,5 @@ This will create the file `~/.gitignore_global`. Now you can edit that file the 
 [Git docs - gitignore](https://git-scm.com/docs/gitignore)
 
 [GitHub - Ignoring Files](https://help.github.com/articles/ignoring-files/)
+
+[GitHub - Useful .gitignore templates](https://github.com/github/gitignore)
