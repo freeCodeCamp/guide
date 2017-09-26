@@ -1,7 +1,7 @@
 ---
-title: For of Loop
+title: For...Of Loop
 ---
-The `for..of` statement creates a loop iterating over iterable objects (including Array, Map, Set, Arguments object and so on), invoking a custom iteration hook with statements to be executed for the value of each distinct property.
+The `for...of` statement creates a loop iterating over iterable objects (including Array, Map, Set, Arguments object and so on), invoking a custom iteration hook with statements to be executed for the value of each distinct property.
 
     for (variable of object) {
       statement
