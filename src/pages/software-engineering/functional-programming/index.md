@@ -21,7 +21,7 @@ Functional programming has long been popular in academia, but with few industria
 
 ### More Information:
 
-Function Programming: [Wikipedia](https://en.wikipedia.org/wiki/Functional_programming#Use_in_industry)
+Functional Programming: [Wikipedia](https://en.wikipedia.org/wiki/Functional_programming#Use_in_industry)
 
 Functional Programming – What Is It and Why Does It Matter? : [KeyCDN](https://www.keycdn.com/blog/functional-programming/)
 
