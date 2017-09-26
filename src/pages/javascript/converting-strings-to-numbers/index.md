@@ -75,5 +75,5 @@ The following example returns `224`:
     parseInt('0e0', 16);
 
 #### More Information:
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators"> Original</a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators">parseInt on MDN</a>
 
