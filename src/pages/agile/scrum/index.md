@@ -11,4 +11,5 @@ The practice revolves around a set of roles (delivery team, product owner, and s
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 <a href='https://www.scrumalliance.org/why-scrum'> Why Scrum </a> from The Scrum Alliance.
+<a href='http://agilitrix.com/2016/04/doing-agile-vs-being-agile/'>Doing vs Being Agile</a>
 
