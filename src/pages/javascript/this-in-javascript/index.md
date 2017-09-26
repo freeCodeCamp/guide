@@ -20,7 +20,7 @@ console.log(a); // 2
 
 Note: If you declare the `foo()` function above in strict mode, then you call this function in global scope, `this` will be `undefined` and assignment `this.a = 2` will throw `Uncaught TypeError` exception.
 
-#### Rule 2
+### Rule 2
 
 Let's examine example below:
 
