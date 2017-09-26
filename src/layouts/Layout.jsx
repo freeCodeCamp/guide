@@ -11,7 +11,7 @@ import SearchBar from '../LayoutComponents/search/SearchBar.jsx';
 import SideNav from '../LayoutComponents/nav/SideNav.jsx';
 
 import 'prismjs/themes/prism.css';
-import '../css/main.css';
+import '../css/main.scss';
 
 const propTypes = {
   children: PropTypes.func,
