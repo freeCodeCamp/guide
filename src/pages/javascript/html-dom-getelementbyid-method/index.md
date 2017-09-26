@@ -1,16 +1,19 @@
 ---
-title: HTML Dom getElementById Method
+title: HTML DOM getElementById Method
 ---
 
-The getElementById() method returns the element that has the ID attribute with the specified value.
+The `getElementById()` method returns the element that has the id attribute with the specified value. It takes one argument, which is a case-sensitive string of the id for the element you want.
 
-This method is one of the most common methods in the HTML DOM, and is used almost every time you want to manipulate, or get info from, an element on your document.
+This method is one of the most common methods in the HTML DOM, and is used almost every time you want to manipulate, or get info from, an element in your document. Here's a simple example of the syntax:
 
-```javascript
-   
-   <div id="demo"></div>
+**HTML content:**
 
-   document.getElementById("demo"); //return the element with id "demo"
+```html
+<div id="demo"></div>
 ```
 
-See <a href='https://www.w3schools.com/jsref/met_document_getelementbyid.asp' target='_blank' rel='nofollow'>W3C</a>
+**JavaScript content:**
+
+```javascript
+document.getElementById("demo"); // Returns the element with id "demo"
+```
