@@ -1,24 +1,25 @@
 ---
 title: How to Create a Lightbox
 ---
+
 ## How to Create a Lightbox
 
 ### Introduction
-The lightbox is a combination of two components, a [modal](https://en.wikipedia.org/wiki/Modal_window) and a slide show.
-Here you will construct a simple lightbox using `HTML`, `CSS` and `JavaScript`. 
+A lightbox is a combination of two components, a [modal](https://en.wikipedia.org/wiki/Modal_window) and a slide show. Here you will construct a simple lightbox using `HTML`, `CSS` and `JavaScript`. 
+
 The lightbox will be contained in the modal, which will be triggered by some `JavaScript`, from [event handlers](https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Event_handlers) in the `HTML` markup.
 You will build styles which will provide state with `CSS` and behavior with `JavaScript`. You will also find a reference list of the methods you use and other useful tid-bits that are related to this tutorial, at the bottom.
 
-##### Our Images
+#### Our Images
 The images we will be using are being supplied by [Pexels](https://www.pexels.com/), 
 a free stock photo gallery that allows you to provide high quality images to their projects fast, free and usually with no attributions needed.
 
-##### Just Show Me The Code!
+#### Just Show Me The Code!
 A live example can be found [here - CodePen/Lightbox](https://codepen.io/rdev-rocks/pen/KXNzvo) and a full draft of the code is near the bottom.
 
 ### Step 1. The Markup
 
-The markup, or `HTML` will provide the structure for our lightbox.
+The markup, or `HTML`, provides the structure for the lightbox.
 
 ```html
 
@@ -39,7 +40,7 @@ The markup, or `HTML` will provide the structure for our lightbox.
 </div>
 
 <!-- This is your lightbox, it is contained in a modal. Here you provide all the images,
-     controls and another set of preview images as our dots. Dots show your user which
+     controls, and another set of preview images as the dots. Dots show your user which
      image is currently active. Note that you use entities (e.g. &times;), more info on
      them at the bottom. -->
      
@@ -76,9 +77,9 @@ The markup, or `HTML` will provide the structure for our lightbox.
 ```
 ### Step 2. Style with CSS
 
-The css will provide you with different states for your lightbox. Things like visibility, positioning and hover effects.
+The `CSS` provides you with different states for your lightbox. Things like visibility, positioning, and hover effects.
 
-Your style sheet should look like this... 
+Your style sheet should look like this: 
 
 ```css
 
@@ -237,7 +238,7 @@ img.hover-shadow {
 
 ### Step 3. JavaScript
 
-Now to business! Your JavaScript should look like this ...
+Now to business! Your JavaScript should look like this:
 
 ```javascript
 
@@ -526,7 +527,7 @@ And thats it! Now put all the code together. You should now have a functional li
 </body>
 ```
 
-More Information:
+### More Information:
 ---
 
 #### HTML
