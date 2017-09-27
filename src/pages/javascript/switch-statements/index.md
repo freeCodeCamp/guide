@@ -26,7 +26,7 @@ The above snippet shows the syntax for a basic `switch` statement. In this examp
 
 The `default` condition is a condition that will be executed if none of the other cases are true.
 
-#### Break
+### Break
 The `break` keyword is required in each case to make sure that only the code in that case gets executed. Without the break, multiple cases could be executed. When JavaScript reaches a `break` keyword, it breaks out of the switch block. If the `break` was left out of the above example, this is what would happen:
 
 ```javascript
@@ -51,7 +51,7 @@ Eg:
 switch (day) {
     case 4:
     case 5:
-        console.log('it is nearly the weekend);
+        console.log('it is nearly the weekend');
         break; 
     case 0:
     case 6:
