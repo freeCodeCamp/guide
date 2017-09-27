@@ -32,44 +32,40 @@ function mapDispatchToProps(dispatch) {
 }
 
 function renderChildren(children, pages) {
-    return children
-    .map(child => {
-      if (child.hasChildren) {
-        return renderParent(child, pages);
-      }
-      return (
-        <NavItem
-          isStubbed={ child.isStubbed }
-          key={ child.path }
-          path={ child.path }
-          title={ child.title }
-        />
-      );
+  return children.map(child => {
+    if (child.hasChildren) {
+      return renderParent(child, pages);
+    }
+    return (
+      <NavItem
+        isStubbed={child.isStubbed}
+        key={child.path}
+        path={child.path}
+        title={child.title}
+      />
+    );
   });
 }
 
 function renderParent(parent, pages) {
-  const childrenForParent = pages
-    .filter(page => page.parent === parent.dashedName);
+  const childrenForParent = pages.filter(
+    page => page.parentPath === parent.path
+  );
 
-    const children = renderChildren(childrenForParent, pages);
+  const children = renderChildren(childrenForParent, pages);
 
   return (
-    <NavPanel
-      key={ parent.path }
-      path={ parent.path }
-      >
-      { children }
+    <NavPanel key={parent.path} path={parent.path}>
+      {children}
     </NavPanel>
-    );
+  );
 }
 
 function renderPanels(parents, pages) {
   if (!parents) {
     return 'No Parents Here';
   }
-  return parents
-    .map(parent => renderParent(parent, pages));
+  return parents.map(parent => renderParent(parent, pages));
 }
 
 class SideNav extends Component {
@@ -79,11 +75,13 @@ class SideNav extends Component {
 
   componentDidMount() {
     const { pathname } = this.context.router.route.location;
-    const pathMap = pathname.slice(1).split('/').slice(0, -1)
+    const pathMap = pathname
+      .slice(1)
+      .split('/')
+      .slice(0, -1)
       .reduce((accu, current, i, pathArray) => {
-        const path = i !== 0 ?
-          accu[pathArray[ i - 1 ]] + `/${current}` :
-          `/${current}`;
+        const path =
+          i !== 0 ? accu[pathArray[i - 1]] + `/${current}` : `/${current}`;
         return {
           ...accu,
           [current]: path
@@ -104,11 +102,11 @@ class SideNav extends Component {
     return (
       <div className='sideNav' id='side-nav'>
         <PanelGroup>
-          {
-            (!parents || !expandedState) ?
-            <NavPanel title={'No Parents Here'}/> :
+          {!parents || !expandedState ? (
+            <NavPanel title={'No Parents Here'} />
+          ) : (
             panels
-          }
+          )}
         </PanelGroup>
       </div>
     );
