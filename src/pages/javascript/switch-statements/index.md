@@ -3,10 +3,10 @@ title: Switch Statements
 ---
 ## Switch Statements
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-A `switch` statement in programming is similar to an `if-else` statement, but has the benefit of sometimes being easier to read when there are a lot of conditions, and it allows a `default` block, that will be executed if none of the other conditions are true.
+A `switch` statement in programming is similar to an `if-else` statement, but has the benefit of sometimes being easier to read when there are a lot of conditions. Also it allows a `default` block to be added that will be executed if none of the other conditions are true.
 
-#### Syntax:
-```
+### Syntax:
+```javascript
 switch(expression) {
     case 1:
         console.log('1');
@@ -26,10 +26,10 @@ The above snippet shows the syntax for a basic `switch` statement. In this examp
 
 The `default` condition is a condition that will be executed if none of the other cases are true.
 
-##### Break
-The `break` keyword is required in each case to make sure that only the code in that case gets executed. Without the break, multiple cases could be executed. When JavaScript reaches a break keyword, it breaks out of the switch block. If the `break` was left out of the above example, this is what would happen:
+#### Break
+The `break` keyword is required in each case to make sure that only the code in that case gets executed. Without the break, multiple cases could be executed. When JavaScript reaches a `break` keyword, it breaks out of the switch block. If the `break` was left out of the above example, this is what would happen:
 
-```
+```javascript
 var expression = 1;
 switch(expression) {
     case 1:
@@ -43,11 +43,11 @@ switch(expression) {
 ```
 
 
-#### Execute multiple cases:
+### Execute multiple cases:
 `switch` statements also allow for the same code block to be executed by multiple cases. This can be done by adding 1 or more `case :` keywords before a code block.
 
 Eg:
-```
+```javascript
 switch (day) {
     case 4:
     case 5:
@@ -67,6 +67,6 @@ In the above snippet:
 - If `day is 0 or 6`, (Saturday or Sunday),`it is the weekend` will be printed to the console as the second case gets executed.
 - If `day` is anything else, `Looking forward to the Weekend` will be printed to the console, as the default case gets executed.
 
-#### More Information:
+### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch' target='_blank' rel='nofollow'>MDN Documentation for switch</a> 
