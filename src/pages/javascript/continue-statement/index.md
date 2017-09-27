@@ -1,5 +1,5 @@
 ---
-title: The JavaScript Continue Statement
+title: Continue Statement
 ---
 ## Introduction
 
