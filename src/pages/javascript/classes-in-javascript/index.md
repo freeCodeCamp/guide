@@ -1,5 +1,5 @@
 ---
-title: Classes in JavaScript
+title: Classes
 ---
 ## Classes in JavaScript
 
