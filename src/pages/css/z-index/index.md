@@ -1,15 +1,28 @@
 ---
-title: Z Index
+title: Z-Index
 ---
 ## Z Index
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/z-index/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The z-index property specifies the stack order of an element. An element with greater stack order is always in front of an element with a lower stack order.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+You can specify any integer as a value or use a keyword such as ```auto```, ```initial``` or ```inherit```.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```css
+    .parent {
+        z-index: 2;
+    }
+
+    .children {
+        z-index: inherit;
+    }
+```
+
+**Note**: z-index only works on positioned elements (position:absolute, position:relative, or position:fixed).
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
+Docs: [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/z-index)
 
+Browser Support: It's effectively supported in all browsers (since IE6+, Firefox 2+, Chrome 1+ etc)
+
+What No One Told You About Z-Index: [Philip Walton](https://philipwalton.com/articles/what-no-one-told-you-about-z-index/)
