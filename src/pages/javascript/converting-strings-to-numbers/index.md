@@ -1,15 +1,17 @@
 ---
 title: Converting Strings to Numbers
 ---
+
 ## Converting Strings to Numbers
+There are a number of ways to convert a string to a number. This is because JavaScript is a loosely-typed language, meaning you don't declare the type of variables. The result is JavaScript tries to make the variable into whichever type it is most suited to.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/converting-strings-to-numbers/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+This means you can convert a string to a number by 'tricking' the JavaScript engine. Say you have a string `var x = "100";`. You can convert this string into a number in several ways:
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+* Using unary plus `var x = +"100";`
+* Multiplying by 1 `var x = "100" * 1; // JavaScript knows multiplication is a math operation and must involve numbers`
+* Dividing by 1 `var x = "100" / 1; // Same reason as for multiplication`
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+There are also built-in functions that you can use:
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+* [parseInt()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt) and [parseFloat()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseFloat) attempt to convert the string to a number if possible. For example, `var x = parseInt("100"); // x = 100`
+* [Number()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number) will convert to a number the value can be represented by. This includes dates into the number of milliseconds since midnight January 1, 1970 UTC, boolean values to 1 or 0, and values that can't be converted to a recognisable number will become NaN. That stands for Not a Number and is also technically a number!
