@@ -1,5 +1,5 @@
 ---
-title: JavaScript Loops
+title: Loops
 ---
 Javascript has a few different ways to control flow, otherwise known as loops
 
