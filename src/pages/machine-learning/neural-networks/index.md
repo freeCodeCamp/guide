@@ -2,20 +2,17 @@
 title: Neural Networks
 ---
 ## Neural Networks
-
 ![Feed-forward neural network](http://ufldl.stanford.edu/tutorial/images/SingleNeuron.png)
 
 A neural network is a computing system. They are like biological neural networks that constitute animal brains. 
 To train  a neural network, we need an input vector and a corresponding output vector.
-The training works by minimising an error term. This error can be the squared difference between the predicted output and the original output.
+The training works by minimizing an error term. This error can be the squared difference between the predicted output and the original output.
 
-The most basic element of a neural network is a neuron. It's input is a vector, say `x`, and its output is a real valued variable, say `y`. 
-Thus, we can conclude that the neuron acts as a mapping between the vector `x` and a real number `y`.
+The most basic element of a neural network is a neuron. It's input is a vector, say `x`, and its output is a real valued variable, say `y`. Thus, we can conclude that the neuron acts as a mapping between the vector `x` and a real number `y`.
 
-Neural networks are used on a variety of tasks. These include computer vision, speech recognition, translation, social network filtering, playing  video games, medical diagnosis etc. 
+Neural networks are used on a variety of tasks. These include computer vision, speech recognition, translation, social network filtering, playing video games, and medical diagnosis among other things.
 
-
-#### Problems solved using Neural Networks
+### Problems solved using Neural Networks
 - Classification
 - Clustering
 - Regression
@@ -28,9 +25,7 @@ Neural networks are used on a variety of tasks. These include computer vision, s
 - Learning to rank
 - Grammar induction
 
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+### More Information:
 - [Wikipedia]( https://en.wikipedia.org/wiki/Artificial_neural_network#Components_of_an_artificial_neural_network )
 - [Daniel Shiffman's Nature of Code](http://natureofcode.com/book/chapter-10-neural-networks/)
 - [Stanford University](http://ufldl.stanford.edu/tutorial/supervised/MultiLayerNeuralNetworks/)
