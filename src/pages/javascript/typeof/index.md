@@ -9,34 +9,40 @@ This article gives a brief introduction to the concept and usage of the `typeof`
 The `typeof` operator allows you to find the data type of a variable or value. The type is returned as a *string*.
 
 This example shows how it can be used to find the type of various variables:
+
 ```javascript
 var name = "Carla";
+
 var age = 37;
+
 var dinner = {
   appetizer: "shrimp cocktail",
   entree: "ribeye steak, medium rare",
   dessert: "baked Alaska"
 };
+
 var hobbies = ['Sailing', 'Mountain Climbing', 'Coding'];
 
-function pickHobby(hobbyIndex) {
-  if (hobbyIndex<0 || hobbyIndex>hobbies.length)
-    return "I don't recognize that hobby.";
-  else
-    return "Let's do " + hobbies[x] + "!";
+function firstHobby() {
+    return hobbies[0];
 }
 
-console.log("typeof name: " + typeof name);
-// typeof name: string
-console.log("typeof age: " + typeof age);
-// typeof age: number
-console.log("typeof dinner: " + typeof dinner);
-// typeof dinner: object
-console.log("typeof hobbies: " + typeof hobbies);
-// typeof hobbies: object
-console.log("typeof pickhobby: " + typeof pickHobby);
-// typeof pickhobby: function
+console.log(typeof name);
+// string
+
+console.log(typeof age);
+// number
+
+console.log(typeof dinner);
+// object
+
+console.log(typeof hobbies);
+// object
+
+console.log(typeof firstHobby);
+// function
 ```
+
 Note that the `array` *hobbies* has a type of "object" - remember that arrays are objects in JavaSript. Functions are also objects in JavaScript, but `typeof` makes the distinction.
 
 You can also use `typeof` on explicit values:
@@ -44,11 +50,13 @@ You can also use `typeof` on explicit values:
 ```javascript
 console.log(typeof 127);
 // number
+
 console.log(typeof 'Blotto');
 // string
 ```
 
 The operator `typeof` can be very useful in debugging, to make sure the data being returned is the type that you think it is. It can also be useful (for example) in a function where you are not sure what the data type will be. In the following function (for whatever reason), we don't know if we will receive a string or an array of strings. We will use `typeof` to find out and act accordingly.
+
 ```javascript
 function showLibrary(inventory) {
   if ((typeof inventory)==='string')
