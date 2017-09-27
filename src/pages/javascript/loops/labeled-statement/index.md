@@ -1,5 +1,5 @@
 --
-title: JavaScript Labeled Statement
+title: Labeled Statement
 ---
 ## JavaScript Labeled Statement
 
