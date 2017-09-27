@@ -7,7 +7,7 @@ UIKit is A lightweight and modular front-end framework for developing fast and p
 ## Getting Started
 
 Here is a simple HTML template which includes the latest compiled and minified CSS for the UIKit library.
-
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -20,7 +20,7 @@ Here is a simple HTML template which includes the latest compiled and minified C
     <body>
     </body>
 </html>
-
+```
 We have used a CDN in this example, but you can checkout other ways of installing Bulma <a href='https://getuikit.com/docs/introduction' target='_blank' rel='nofollow'>here</a>.
 
 ## Learning Resources
