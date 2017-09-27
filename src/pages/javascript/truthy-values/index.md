@@ -1,5 +1,5 @@
 ---
-title: JavaScript Truthy Value
+title: Truthy Value
 ---
 A **truthy** value is a value that translates to **true** when evaluated in a _Boolean_ context.
 
