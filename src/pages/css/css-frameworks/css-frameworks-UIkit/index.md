@@ -21,7 +21,7 @@ Here is a simple HTML template which includes the latest compiled and minified C
     </body>
 </html>
 ```
-We have used a CDN in this example, but you can checkout other ways of installing Bulma <a href='https://getuikit.com/docs/introduction' target='_blank' rel='nofollow'>here</a>.
+We have used a CDN in this example, but you can checkout other ways of installing UIKit <a href='https://getuikit.com/docs/introduction' target='_blank' rel='nofollow'>here</a>.
 
 ## Learning Resources
 
