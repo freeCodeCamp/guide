@@ -1,5 +1,5 @@
 ---
-title: The HTML Dom
+title: HTML Dom
 ---
 ## The HTML Dom
 
