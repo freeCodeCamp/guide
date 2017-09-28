@@ -9,7 +9,7 @@ A <b>function closure</b> is a combination of a function and a [lexical enviornm
 ```javascript
 function func() {
 
-  var name = 'Bender';      // Here we declare a local variable for foo().
+  var name = 'Bender';      // Here we declare a local variable for func().
  
   function displayName() {  // displayName() is our inner function, a closure. 
      alert(name);           // displayName() has access to the var declared in it's parent function.
@@ -21,7 +21,7 @@ function func() {
 func();
 ```
 
-In JavaScript, functions always have access to variables declared above them. Let's look at a <b>global variable</b>.
+In JavaScript, functions always have access to variables declared in the scope above their's. Let's look at a <b>global variable</b>.
 
 ```javascript
 var spaceship = 'Nimbus 1729' // A global variable
@@ -63,7 +63,7 @@ myFunc();
 ```
 This code produces the same result as the first example. It might seem like `name` should not be available to `myFunc()` but the reason it is available is because JavaScript forms a <b>closures</b>.
 
->"A closure is the combination of a function and the lexical environment within which that function was declared. This environment consists of any local variables that were in-scope at the time the closure was created." ([1](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures#Closure)]
+>"A closure is the combination of a function and the lexical environment within which that function was declared. This environment consists of any local variables that were in-scope at the time the closure was created." ([1](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures#Closure))
 
 Let's look at another example, a counter. We want to build a <b>closure</b> that accesses a protected or "out of scope" variable we will name `count`.
 
