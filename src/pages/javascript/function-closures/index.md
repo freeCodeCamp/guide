@@ -65,7 +65,7 @@ This code produces the same result as the first example. It might seem like `nam
 
 >"A closure is the combination of a function and the lexical environment within which that function was declared. This environment consists of any local variables that were in-scope at the time the closure was created." ([1](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures#Closure))
 
-Let's look at another example, a counter. We want to build a <b>closure</b> that accesses a protected or "out of scope" variable we will name `count`.
+Let's look at another example, a counter. We want to build a <b>closure</b> that accesses a protected or "out of scope" variable.  We will name this variable `count`.
 
 ```javascript
 function counter(){
@@ -94,7 +94,7 @@ countFunc.displayCount();  // will display 2
 ```
 >[live example](https://codepen.io/rdev-rocks/pen/xXdOBb?editors=0011)
 
-Here we have provided three functions `increase()`, `decrease()` and `displayCount()` inside of the function `counter()`. Each one of the nested functions has access to it's parents variable `count`. Each one of the three has a <b>closure</b>. Once we instantiate the function and assign it to our variable `countFunc` we can access it's child functions and the children functions can access their parents data. If we were to instantiate `counter()` again to another variable, e.g. `var anotherCountFunc = counter();` we would then have another counter that would keep track of it's `count` variable apart from `countFunc`'s `count` variable.
+Here we have provided three functions `increase()`, `decrease()` and `displayCount()` inside of the function `counter()`. Each one of the nested functions has access to it's parents variable `count`. Each one of the three functions is a <b>closure</b>. Once we instantiate the function and assign it to our variable `countFunc` we can access it's child functions and the children functions can access their parents data. If we were to instantiate `counter()` again to another variable, e.g. `var anotherCountFunc = counter();` we would then have another counter that would keep track of it's `count` variable apart from `countFunc`'s `count` variable.
 
 example:
 ```javascript
