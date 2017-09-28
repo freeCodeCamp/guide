@@ -8,14 +8,14 @@ A `switch` statement in programming is similar to an `if-else` statement, but ha
 ### Syntax:
 ```javascript
 switch(expression) {
-    case 1:
-        console.log('1');
-        break;
-    case 2:
-        console.log('2');
-        break;
-    default:
-        console.log('No true condition, default');
+  case 1:
+    console.log('1');
+    break;
+   case 2:
+     console.log('2');
+     break;
+   default:
+     console.log('No true condition, default');
 }
 ```
 
@@ -32,13 +32,13 @@ The `break` keyword is required in each case to make sure that only the code in 
 ```javascript
 var expression = 1;
 switch(expression) {
-    case 1:
-        console.log('1');  // 1 would be printed to console
-    case 2: // As there is no break after case 1, this case is also executed.
-        console.log('2'); // 2 would be printed to the console.
-        break; // break -> Switch statement is exited
-    default:
-        console.log('No true condition, default');
+  case 1:
+    console.log('1');  // 1 would be printed to console
+  case 2: // As there is no break after case 1, this case is also executed.
+    console.log('2'); // 2 would be printed to the console.
+    break; // break -> Switch statement is exited
+  default:
+    console.log('No true condition, default');
 }
 ```
 
@@ -49,23 +49,23 @@ switch(expression) {
 Eg:
 ```javascript
 switch (day) {
-    case 4:
-    case 5:
-        console.log('it is nearly the weekend');
-        break; 
-    case 0:
-    case 6:
-        console.log('it is the weekend');
-        break;
-    default: 
-       console.log('Looking forward to the Weekend');
+  case 4:
+  case 5:
+    console.log('it is nearly the weekend');
+    break; 
+  case 0:
+  case 6:
+    console.log('it is the weekend');
+    break;
+  default: 
+    console.log('Looking forward to the Weekend');
 }
 ```
 
 In the above snippet:
-- If `day is 4 or 5` (Thursday or Friday), `it is nearly the weekend` will be printed to the console as the first case gets executed.
-- If `day is 0 or 6`, (Saturday or Sunday),`it is the weekend` will be printed to the console as the second case gets executed.
-- If `day` is anything else, `Looking forward to the Weekend` will be printed to the console, as the default case gets executed.
+- If `day` is `4` or `5` (Thursday or Friday), `it is nearly the weekend` will be printed to the console as the first case gets executed.
+- If `day` is `0` or `6`, (Saturday or Sunday),`it is the weekend` will be printed to the console as the second case gets executed.
+- If `day` is has any other value, `Looking forward to the Weekend` will be printed to the console, as the default case gets executed.
 
 ### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
