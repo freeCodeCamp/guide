@@ -65,7 +65,7 @@ switch (day) {
 In the above snippet:
 - If `day` is `4` or `5` (Thursday or Friday), `it is nearly the weekend` will be printed to the console as the first case gets executed.
 - If `day` is `0` or `6`, (Saturday or Sunday),`it is the weekend` will be printed to the console as the second case gets executed.
-- If `day` is has any other value, `Looking forward to the Weekend` will be printed to the console, as the default case gets executed.
+- If `day` is any other value, `Looking forward to the Weekend` will be printed to the console, as the default case gets executed.
 
 ### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
