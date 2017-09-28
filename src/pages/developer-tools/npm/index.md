@@ -1,15 +1,31 @@
 ---
-title: Npm
+title: NPM
 ---
-## Npm
+## NPM
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/developer-tools/npm/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+NPM is a package manager for the Web. When it was built, it was meant to assist in the downloading of Node.js packages for Javascript development so it was called Node Package Manager. However, NPM doesn't have a fullform as it's used not only for Javascript packages but for lots of purposes too. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+NPM is inbuilt in Node.js so you'll have to install Node.js before using NPM.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+We can install a package by: 
+
+```shell
+    npm install <packagename>
+```
+
+For example:
+```shell
+    npm install jquery
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
+Node.js website: [nodejs](https://nodejs.org/en/)
 
+NPM website: [npmjs](https://www.npmjs.com)
+
+A Beginner's Guide to NPM: [sitepoint](https://www.sitepoint.com/beginners-guide-node-package-manager/)
+
+If you want a comprehensive video series, check this out: [youtube](https://youtu.be/6fj0cpmMiVg)
+
+And here's the official series from NPM: [youtube](https://youtu.be/pa4dc480Apo)
