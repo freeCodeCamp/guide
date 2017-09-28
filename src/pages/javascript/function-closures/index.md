@@ -116,4 +116,4 @@ Simply said, a <b>closure</b> is a function with access to it's parent's data.
 ### More Information
 1. [MDN -Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
 2. [W3Schools - Closures](https://www.w3schools.com/js/js_function_closures.asp)
-3. [Wikipedia - Closures](https://en.wikipedia.org/wiki/Closure_(computer_programming)
+3. [Wikipedia - Closures](https://en.wikipedia.org/wiki/Closure_(computer_programming))
