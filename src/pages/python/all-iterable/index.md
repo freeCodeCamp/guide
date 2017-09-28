@@ -1,5 +1,5 @@
 ---
-title: Python Alliterable
+title: Python All Iterable
 ---
 `all()` is a built-in function in Python 3, to check if all items of an <a href='https://docs.python.org/3/glossary.html#term-iterable' target='_blank' rel='nofollow'>_iterable_</a> is `True`. It takes one argument, `iterable`.
 
