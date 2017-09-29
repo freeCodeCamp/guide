@@ -23,9 +23,9 @@ Here is a simple HTML template which includes the latest compiled and minified C
 </html>
 ```
 
-We have used a CDN in this example, but you can checkout other ways of installing MDL [https://getmdl.io/started/index.html](here).
+We have used a CDN in this example, but you can checkout other ways of installing MDL [here](https://getmdl.io/started/index.html).
 
 ### Learning Resources
 
-* The official documentation for MDL is available [https://getmdl.io/started/index.html](here).
-* Checkout MDL's open source GitHub repository [https://github.com/google/material-design-lite](here).
+* The official documentation for MDL is available [here](https://getmdl.io/started/index.html).
+* Checkout MDL's open source GitHub repository [here](https://github.com/google/material-design-lite).
