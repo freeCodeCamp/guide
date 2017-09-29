@@ -106,11 +106,11 @@ class SideNav extends Component {
     return (
       <div className='sideNav' id='side-nav'>
         <PanelGroup>
-          {!parents || !expandedState ? (
-            <NavPanel title={ 'No Parents Here' } />
-          ) : (
-            panels
-          )}
+          {
+            (!parents || !expandedState) ?
+              <NavPanel title={ 'No Parents Here' } /> :
+              panels
+          }
         </PanelGroup>
       </div>
     );
