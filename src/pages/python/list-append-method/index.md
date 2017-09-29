@@ -21,6 +21,6 @@ print(words)
 
 #### More Information:
 
-The official documentation for `append()` can be found [here](https://docs.python.org/3.6/tutorial/datastructures.html)
+The official documentation for `append()` can be found <a href='https://docs.python.org/3.6/tutorial/datastructures.html' target='_blank' rel='nofollow'>here</a>
 
 
