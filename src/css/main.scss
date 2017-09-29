@@ -36,6 +36,21 @@
   padding: 10px;
 }
 
+/* Breadcrumbs */
+
+.breadcrumb {
+  background-color: transparent;
+}
+
+.breadcrumb > li a {
+  color: #006400;
+  opacity: 0.6;
+}
+
+.breadcrumb>li+li:before {
+  content: '\f054';
+}
+
 /* Layout */
 
 .link {

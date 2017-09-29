@@ -8,7 +8,7 @@ Materialize is a Responsive CSS framework based on Google's <a href='https://des
 ## Getting Started
 
 Here is a simple HTML template which includes the latest compiled and minified CSS and Javascript for the Materialize library.
-
+```html
     <!DOCTYPE html>
     <html lang="en">
       <head>
@@ -25,7 +25,7 @@ Here is a simple HTML template which includes the latest compiled and minified C
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
       </body>
     </html>
-
+```
 We have used a CDN in this example, but you can checkout other ways of installing Materialize <a href='http://materializecss.com/getting-started' target='_blank' rel='nofollow'>here</a>.
 
 ## Learning Resources

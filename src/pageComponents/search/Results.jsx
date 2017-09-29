@@ -13,7 +13,6 @@ import {
 } from '../../LayoutComponents/search/redux';
 
 const httpRE = /^https?/i;
-const articleMetaRE = /^\-\-\-[\w\W]+?\-\-\-/;
 
 const faNames = {
   challenge: 'free-code-camp',
@@ -69,10 +68,7 @@ class Results extends PureComponent {
   renderResultItems() {
     const { results } = this.props;
     return results.map((result, i) => {
-      const { _index, _source: { body, description, title, url } } = result;
-      const text = body ?
-        body.replace(articleMetaRE, '').slice(0, 141) + '...' :
-        description.slice(0, 141) + '...';
+      const { _index, _source: { title, url }, formattedDescription } = result;
       return (
         <MediaWrapper key={ i } url={ url }>
           <Media>
@@ -85,7 +81,7 @@ class Results extends PureComponent {
             </Media.Left>
             <Media.Body>
               <Media.Heading>{ title }</Media.Heading>
-              <p>{ text }</p>
+              <p>{ formattedDescription }</p>
             </Media.Body>
           </Media>
         </MediaWrapper>

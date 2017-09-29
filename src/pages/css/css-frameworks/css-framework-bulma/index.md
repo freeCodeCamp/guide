@@ -8,7 +8,7 @@ Bulma is a modern CSS framework based on <a href='http://forum.freecodecamp.com/
 ## Getting Started
 
 Here is a simple HTML template which includes the latest compiled and minified CSS for the Bulma library.
-
+```html
     <!DOCTYPE html>
     <html lang="en">
       <head>
@@ -23,7 +23,7 @@ Here is a simple HTML template which includes the latest compiled and minified C
         <!-- Add all HTML Code here -->
       </body>
     </html>
-
+```
 We have used a CDN in this example, but you can checkout other ways of installing Bulma <a href='http://bulma.io/documentation/overview/start/' target='_blank' rel='nofollow'>here</a>.
 
 ## Learning Resources
