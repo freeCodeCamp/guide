@@ -12,4 +12,4 @@ Vim is rock stable and boasts many features including:
 - powerful search and replace
 - integrates with many tools
 
-T> For more information head to [Vim's homepage](https://vim.sourceforge.io)
+For more information head to [Vim's homepage](https://vim.sourceforge.io)
