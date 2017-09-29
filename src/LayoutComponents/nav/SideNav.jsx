@@ -92,9 +92,8 @@ class SideNav extends Component {
 
     Object.keys(pathMap)
       .map(key => pathMap[key])
-      .map(path => {
+      .forEach(path => {
         this.props.toggleExpandedState(path);
-        return null;
       });
   }
 
