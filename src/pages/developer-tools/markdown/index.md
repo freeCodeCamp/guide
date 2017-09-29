@@ -6,8 +6,8 @@ Markdown is a lightweight markup language with plain text formatting syntax. It 
 
 
 ## More Information:
-A cheatsheet is one of the easiest way to learn Markdown. Check out [this popular cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+A cheatsheet is one of the easiest way to learn Markdown. Check out <a href='https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet' target='_blank' rel='nofollow'>this popular cheatsheet</a>.
 
-You can also check out this online tutorial: [Markdown Tutorial](https://www.markdowntutorial.com)
+You can also check out this online tutorial: <a href='https://www.markdowntutorial.com' target='_blank' rel='nofollow'>Markdown Tutorial</a>
 
-Love learning by videos? Check out [this Youtube video](https://www.youtube.com/watch?v=HndN6P9ke6U)
+Love learning by videos? Check out <a href='https://www.youtube.com/watch?v=HndN6P9ke6U' target='_blank' rel='nofollow'>this Youtube video</a>
