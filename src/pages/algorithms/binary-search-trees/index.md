@@ -3,7 +3,7 @@ title: Binary Search Trees
 ---
 ## Binary Search Trees
 
-![Binary Search Tree](https://cdn-images-1.medium.com/max/1320/0*x5o1G1UpM1RfLpyx.png)
+<img src="https://cdn-images-1.medium.com/max/1320/0*x5o1G1UpM1RfLpyx.png" width="50%" height="50%" alt="Binary Search Trees">
 
 A tree is a data structure composed of nodes It has the following characteristics:
 1. Each tree has a root node (at the top).
