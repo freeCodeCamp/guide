@@ -94,9 +94,8 @@ class SideNav extends Component {
 
     Object.keys(pathMap)
       .map(key => pathMap[key])
-      .map(path => {
+      .forEach(path => {
         this.props.toggleExpandedState(path);
-        return null;
       });
   }
 
@@ -118,7 +117,7 @@ class SideNav extends Component {
 }
 
 SideNav.contextTypes = {
-  router: React.PropTypes.object.isRequired
+  router: PropTypes.object.isRequired
 };
 SideNav.displayName = 'SideNav';
 SideNav.propTypes = propTypes;

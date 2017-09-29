@@ -1,13 +1,13 @@
 ---
-title: This reference in JavaScript
+title: this reference in JavaScript
 ---
-## `This` reference in JavaScript
+## `this` reference in JavaScript
 
 In JavaScript, every function has a `this` reference automatically created when you declare it. This reference is quite similar to `this` reference in other class-based languages such as Java or C# (JavaScript is a prototype-based language and no "class" concept): *It points to the which object is calling to the function* (this object sometimes called as *context*). In JavaScript, however, *the `this` reference inside functions can be bound to different objects depend on where the function is being called*. Here is three basic rules for `this` binding in JavaScript:
 
 ### Rule 1
 
-When a function is called in global scope, the `this` reference default bound to **global object** (in browser is `window` and Node.js is `global`). For example:
+When a function is called in the global scope, the `this` reference is by default bound to the **global object** (`window` in the browser, or `global` in Node.js). For example:
 
 ```javascript
 function foo() {
@@ -20,7 +20,7 @@ console.log(a); // 2
 
 Note: If you declare the `foo()` function above in strict mode, then you call this function in global scope, `this` will be `undefined` and assignment `this.a = 2` will throw `Uncaught TypeError` exception.
 
-#### Rule 2
+### Rule 2
 
 Let's examine example below:
 

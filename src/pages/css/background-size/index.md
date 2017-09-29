@@ -3,13 +3,18 @@ title: Background Size
 ---
 ## Background Size
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/background-size/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The background-size property specifies the size of the background images. You can set a length or a percentage, with the first value being the width and the second one being the height. You can also use one of the 5 keyword values:
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```css
+.auto {background-size: auto}
+.cover {background-size: cover}
+.contain {background-size: contain}
+.initial {background-size: initial}
+.inherit {background-size: inherit}
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
+Documentation: [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/background-size)
 
+Browser Support: [caniuse](http://caniuse.com/#search=background-size)

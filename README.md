@@ -127,7 +127,7 @@ Text should use the second person ("you") to help to give it a conversational to
 
 If there are other Guide resources you think campers would benefit from, add them at the bottom in an "Other Resources" section.
 
-You can add diagrams, graphics, or visualizations as necessary. You can also embed relevant YouTube videos and interactive REPL.it code editors.
+You can add diagrams, graphics, or visualizations as necessary. You can also embed relevant YouTube videos and interactive [REPL.it](https://repl.it/) code editors.
 
 Don't use emojis or emoticons in the Guide. freeCodeCamp has a global community, and the cultural meaning of an emoji or emoticon may be different around the world. Also, emojis can render differently on different systems.
 
@@ -135,7 +135,7 @@ Use double quotes where applicable.
 
 Format language keywords as code - this is done with the backtick key (located to the left of the "1" key on a US keyboard) in GitHub-flavored markdown. For example, put backticks around HTML tag names or CSS property names.
 
-Use the Oxford Comma when possible. It’s makes things easier, clearer, and prettier to read.
+Use the Oxford Comma when possible (it is a comma used after the penultimate item in a list of three or more items, before ‘and’ or ‘or’ e.g. an Italian painter, sculptor, and architect). It makes things easier, clearer, and prettier to read.
 
 ### Formatting example code
 
@@ -143,13 +143,32 @@ Campers will likely use Guide articles as a quick reference to look up syntax. A
 
 Here are specific formatting guidelines for any code:
 
-- Use two spaces to indent
 - JavaScript statements end with a semicolon
 - Use double quotes where applicable
 - Show generally-accepted best practices, particularly for accessibility
 - Comments made should have a space between the comment characters and the comment themselves
 
     `// Fix this line`
+- GitHub-flavored markdown supports [syntax highlighting in code blocks](https://help.github.com/articles/creating-and-highlighting-code-blocks/#syntax-highlighting) for many programming languages. To use it, indicate the language after starting ```
+```
+    ```html
+        <div class='awesome' id='more-awesome'>
+          <p>This is text in html</p>
+        </div>
+    ```
+
+    ```javascript
+        function logTheThings(stuff) {
+         console.log(stuff);
+        }
+    ```
+
+    ```css
+       .awesome {
+          background-color: #FCCFCC;
+        }
+    ```
+```
 
 ### Adding images to articles
 
@@ -180,7 +199,7 @@ Use the [Hemingway App](http://www.hemingwayapp.com/). There’s nothing magical
 - unnecessary adverbs
 - words that have more common equivalents
 
-The Hemingway App will assign a “grade level” for your writing. You should aim for a grade level of 6.
+The Hemingway App will assign a “grade level” for your writing. You should aim for a grade level of 6. Another tool available is the [De-Jargonizer](http://scienceandpublic.com/), originally designed for scientific communication but may be helpful in using less specialized words too soon.
 
 Also, there's a community of support from a whole team of contributors, whom you can bounce ideas off of and ask for input on your writing. Stay active in the [contributors chat room](https://gitter.im/freecodecamp/contributors) and ask lots of questions.
 

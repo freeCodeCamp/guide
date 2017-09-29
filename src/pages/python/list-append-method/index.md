@@ -3,13 +3,24 @@ title: List Append Method
 ---
 ## List Append Method
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/python/list-append-method/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+There are many methods for lists, you can explore all of them by typing `help(list)` in your python console.
+One of them is the append function which, as the name says appends the argument given list.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+#### Example Usage
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```py
+words = ["I", "love", "Python"]
+words.append("very much")
+print(words)
+```
+#### Output
+```
+["I", "love", "Python", "very much"]
+```
+ As you might have noticed the element `"very much"` is appended to the list.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+
+The official documentation for `append()` can be found <a href='https://docs.python.org/3.6/tutorial/datastructures.html' target='_blank' rel='nofollow'>here</a>
 
 

@@ -1,7 +1,7 @@
 ---
-title: Acid
+title: ACID
 ---
-## Acid
+## ACID
 
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/computer-science/databases/acid/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 

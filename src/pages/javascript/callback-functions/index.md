@@ -13,19 +13,21 @@ A **callback function** is a function that is passed _as an argument_ to another
 
 To illustrate callbacks, let's start with a simple example:
 
-    function createQuote(quote, callback){ 
-      var myQuote = "Like I always say, " + quote;
-      callback(myQuote); // 2
-    }
+```javascript
+function createQuote(quote, callback){ 
+  var myQuote = "Like I always say, " + quote;
+  callback(myQuote); // 2
+}
 
-    function logQuote(quote){
-      console.log(quote);
-    }
+function logQuote(quote){
+  console.log(quote);
+}
 
-    createQuote("eat your vegetables!", logQuote); // 1
+createQuote("eat your vegetables!", logQuote); // 1
 
-    // Result in console: 
-    // Like I always say, eat your vegetables!
+// Result in console: 
+// Like I always say, eat your vegetables!
+```
 
 In the above example, `createQuote` is the higher-order function, which accepts two arguments, the second one being the callback. The `logQuote` function is being used to pass in as our callback function. When we execute the `createQuote` function _(1)_, notice that we are _not appending_ parentheses to `logQuote` when we pass it in as an argument. This is because we do not want to execute our callback function right away, we simply want to pass the function definition along to the higher-order function so that it can be executed later.
 
@@ -33,16 +35,20 @@ Also, we need to ensure that if the callback function we pass in expects argumen
 
 Additionally, we can pass in anonymous functions as callbacks. The below call to `createQuote` would have the same result as the above example:
 
-    createQuote("eat your vegetables!", function(quote){ 
-      console.log(quote); 
-    });
+```javascript
+createQuote("eat your vegetables!", function(quote){ 
+  console.log(quote); 
+});
+```
 
 Incidentally, you don't _have_ to use the word "callback" as the name of your argument, Javascript just needs to know that it's the correct argument name. Based on the above example, the below function will behave in exactly the same manner.
 
-    function createQuote(quote, functionToCall){ 
-      var myQuote = "Like I always say, " + quote;
-      functionToCall(myQuote);
-    }
+```javascript
+function createQuote(quote, functionToCall) { 
+  var myQuote = "Like I always say, " + quote;
+  functionToCall(myQuote);
+}
+```
 
 ## Why use Callbacks?
 
@@ -50,21 +56,23 @@ Most of the time we are creating programs and applications that operate in a **s
 
 Let's take a look at an example that simulates a request to a server:
 
-    function serverRequest(query, callback){
-      setTimeout(function(){
-        var response = query + "full!";
-        callback(response);
-      },5000);
-    }
+```javascript
+function serverRequest(query, callback){
+  setTimeout(function(){
+    var response = query + "full!";
+    callback(response);
+  },5000);
+}
 
-    function getResults(results){
-      console.log("Response from the server: " + results);
-    }
+function getResults(results){
+  console.log("Response from the server: " + results);
+}
 
-    serverRequest("The glass is half ", getResults);
+serverRequest("The glass is half ", getResults);
 
-    // Result in console after 5 second delay:
-    // Response from the server: The glass is half full!
+// Result in console after 5 second delay:
+// Response from the server: The glass is half full!
+```
 
 In the above example, we make a mock request to a server. After 5 seconds elapse the response is modified and then our callback function `getResults` gets executed. To see this in action, you can copy/paste the above code into your browser's developer tool and execute it.
 

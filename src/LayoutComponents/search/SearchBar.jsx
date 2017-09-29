@@ -95,7 +95,7 @@ class SearchBar extends PureComponent {
 }
 
 SearchBar.contextTypes = {
-    router: React.PropTypes.object.isRequired
+    router: PropTypes.object.isRequired
 };
 SearchBar.displayName = 'SearchBar';
 SearchBar.propTypes = propTypes;

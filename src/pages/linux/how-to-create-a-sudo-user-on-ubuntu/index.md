@@ -1,15 +1,15 @@
 ---
-title: How to Create a Sudo User on Ubuntu
+title: How to Create or Delete a User or Sudo User on Ubuntu
 ---
-## How to Create a Sudo User on Ubuntu
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/linux/how-to-create-a-sudo-user-on-ubuntu/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+## How to Create a User
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+To create a new user, type the following command `sudo useradd exampleUser`, where `exampleUser` is the user you want to create. To add a password to this user, run the `sudo passwd exampleUser` command, where `exampleUser` is the user that you want to add a password to.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+## How to Create a Sudo User
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+To create a `sudo` user, you need to create a regular user first using the command above. Then, add this user to the group called "sudoers" using the `sudo add exampleUser sudo` command, where `exampleUser` is the user that should be the new `sudo` user.
 
+## How to Delete a User
 
+To delete a user, type in `sudo userdel exampleUser`, where `exampleUser` is the user you want to delete.
