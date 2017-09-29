@@ -55,7 +55,10 @@ function renderParent(parent, pages) {
   const children = renderChildren(childrenForParent, pages);
 
   return (
-    <NavPanel key={parent.path} path={parent.path}>
+    <NavPanel
+      key={parent.path}
+      path={parent.path}
+    >
       {children}
     </NavPanel>
   );
@@ -80,8 +83,9 @@ class SideNav extends Component {
       .split('/')
       .slice(0, -1)
       .reduce((accu, current, i, pathArray) => {
-        const path =
-          i !== 0 ? accu[pathArray[i - 1]] + `/${current}` : `/${current}`;
+        const path = i !== 0 ?
+          accu[pathArray[i - 1]] + `/${current}` :
+          `/${current}`;
         return {
           ...accu,
           [current]: path
@@ -100,10 +104,10 @@ class SideNav extends Component {
     const { expandedState, pages, parents } = this.props;
     const panels = renderPanels(parents, pages);
     return (
-      <div className='sideNav' id='side-nav'>
+      <div className="sideNav" id="side-nav">
         <PanelGroup>
           {!parents || !expandedState ? (
-            <NavPanel title={'No Parents Here'} />
+            <NavPanel title= {'No Parents Here'} />
           ) : (
             panels
           )}

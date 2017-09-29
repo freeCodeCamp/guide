@@ -26,20 +26,21 @@ function getPageTitle(content) {
 function listAllDirs(level, prevPages = []) {
   let accuPages = [...prevPages];
   return Observable.from(readDir(level)).flatMap(parentDir => {
-    const thisDir = `${level}/${parentDir}`;
-    const content = fse.readFileSync(`${thisDir}/index.md`, 'utf8');
-    const subDirs = readDir(thisDir);
+    const dirPath = `${level}/${parentDir}`;
+    const content = fse.readFileSync(`${dirPath}/index.md`, 'utf8');
+    const subDirs = readDir(dirPath);
     const parent = level.split('/')[level.split('/').length - 1];
     const title = getPageTitle(content);
     const isStubbed = isAStubRE.test(content);
+    // remove 'src/pages' from the path
+    const articlePath = dirPath.slice(9);
 
-    navData[thisDir.slice(9)] = {
+    navData[articlePath] = {
       children: subDirs.map(title => title.toLowerCase()),
       dashedName: parentDir.toLowerCase(),
       hasChildren: !!subDirs.length,
       isStubbed,
-      // remove 'src/pages' from the path
-      path: thisDir.slice(9),
+      path: articlePath,
       parent,
       parentPath: level.slice(9).replace(new RegExp(parent + '/'), ''),
       title
@@ -48,7 +49,7 @@ function listAllDirs(level, prevPages = []) {
       // no child directories
       return Observable.of(null);
     }
-    return listAllDirs(thisDir, accuPages);
+    return listAllDirs(dirPath, accuPages);
   });
 }
 module.exports = function createNavData() {
