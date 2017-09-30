@@ -1,5 +1,5 @@
 ---
-title: The JavaScript Ifelse Statement
+title: If-else Statement
 ---
 ## Introduction
 
