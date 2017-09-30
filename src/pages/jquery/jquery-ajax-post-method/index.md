@@ -95,7 +95,6 @@ $.ajax({
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-For more information, please visit the [official website](https://api.jquery.com/jquery.post/) 
-
+For more information, please visit the [official website](https://api.jquery.com/jquery.post/)
 
 
