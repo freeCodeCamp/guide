@@ -69,6 +69,11 @@
 
 .content {
   margin-bottom: 50px;
+
+  img {
+    max-width: 100%;
+    display: block;
+  }
 }
 
 /* NoResults/404 */
