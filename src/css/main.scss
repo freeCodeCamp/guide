@@ -81,7 +81,8 @@
 }
 
 .content {
-  margin-bottom: 50px;
+  overflow-y: scroll;
+  height: 92vh;
 }
 
 /* NoResults/404 */
@@ -233,7 +234,7 @@
 .sideNav {
   overflow-y: scroll;
   max-height: 90vh;
-  position: fixed;
+  position: relative;
 }
 
 .stubbed {
@@ -259,4 +260,14 @@
 
 .bodyContainer {
   margin-top: 55px;
+}
+
+@media (max-width: 992px){
+  .content {
+    overflow-y: hidden;
+    height: 100%;
+  }
+  .sideNav {
+    margin-top: 60px;
+  }
 }
