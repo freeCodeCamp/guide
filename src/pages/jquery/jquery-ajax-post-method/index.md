@@ -26,9 +26,9 @@ $("#mypar").html(response.amount);
 
 });
 ~~~~
-requests `form.json` from the server, sending additional data and handling the returned response (json format). This example can be written in this format:
+requests `form.php` from the server, sending additional data and handling the returned response (json format). This example can be written in this format:
 ~~~~
-$.post('http://example.com/form.json', {category:'client', type:'premium'}).done(function(response){
+$.post('http://example.com/form.php', {category:'client', type:'premium'}).done(function(response){
 
 alert("success");
 
