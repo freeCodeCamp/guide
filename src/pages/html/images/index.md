@@ -3,14 +3,10 @@ title: Images
 ---
 ## Images
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/images/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 A simple HTML Image element can be included in an HTML document like this:
 
-```
+```html
 <img src="path/to/image/file" alt="this is a cool picture">
 ```
 
@@ -21,7 +17,7 @@ Note that the path to the image file can be either relative or absolute. Also, r
 Example:
 
 ```html
-<img src="https://example.com/image.png"alt="my picture">
+<img src="https://example.com/image.png" alt="my picture">
 ```
 
 (This is assuming that the html file is at https://example.com/index.html, so it's in the same folder as the image file)
@@ -29,7 +25,7 @@ Example:
 is the same as:
 
 ```html
-<img src="image.png"alt="my picture">
+<img src="image.png" alt="my picture">
 ```
 
 
