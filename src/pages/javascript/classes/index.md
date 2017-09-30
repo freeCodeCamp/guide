@@ -1,7 +1,7 @@
 ---
 title: Classes
 ---
-## Classes in JavaScript
+## Classes
 
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/classes-in-javascript/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
