@@ -1,9 +1,9 @@
 ---
-title: CSS3 Borders Rounded Corners
+title: CSS3 Border Radius Property
 ---
-## CSS3 Borders Rounded Corners
+## CSS3 Border Radius Property
 
-With CSS3, you can give any element "rounded corners", by using the border-radius property. The value can be in any valid CSS unit.
+With CSS3, you can give any element "rounded corners", by using the ```border-radius``` property. The value can be in any valid CSS unit.
 
 ```css
     .rounded-corners {
@@ -15,7 +15,7 @@ With CSS3, you can give any element "rounded corners", by using the border-radiu
     }
 ```
 
-**Note:** The border-radius property is actually a shorthand property for the border-top-left-radius, border-top-right-radius, border-bottom-right-radius and border-bottom-left-radius properties. 
+**Note:** The border-radius property is actually a shorthand property for the ```border-top-left-radius```, ```border-top-right-radius```, ```border-bottom-right-radius``` and ```border-bottom-left-radius``` properties. 
 
 #### More Information:
 
