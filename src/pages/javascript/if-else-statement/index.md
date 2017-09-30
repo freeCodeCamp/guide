@@ -1,5 +1,5 @@
 ---
-title: Ifelse Statement
+title: If-else Statement
 ---
 ## Introduction
 
