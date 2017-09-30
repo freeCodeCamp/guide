@@ -23,7 +23,7 @@ console.log(element.innerHTML) //logs <p>Demo</p>
 
 ```javascript
 var element = document.getElementById("demo");
-element.innerHTML = "<div>Demo</div>
+element.innerHTML = "<div>Demo</div>";
 ```
 The HTML now will be like 
 
