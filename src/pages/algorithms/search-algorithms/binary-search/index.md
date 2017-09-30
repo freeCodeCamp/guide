@@ -11,6 +11,7 @@ title: Binary Search
 
 <p>The search process repeats until the item is found or the search interval is empty.</p>
 
-<iframe width="560" height="315" src="https://youtu.be/P3YID7liBug" frameborder="0" allowfullscreen></iframe>
+### More Information
+<a href="https://youtu.be/P3YID7liBug">Binary search (YouTube video)</a>
 
 
