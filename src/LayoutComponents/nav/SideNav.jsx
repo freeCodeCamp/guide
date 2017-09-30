@@ -84,8 +84,8 @@ class SideNav extends Component {
       .slice(0, -1)
       .reduce((accu, current, i, pathArray) => {
         const path = i !== 0 ?
-          accu[pathArray[i - 1]] + `/${ current }` :
-          `/${ current }`;
+          accu[pathArray[i - 1]] + `/${current}` :
+          `/${current}`;
         return {
           ...accu,
           [current]: path
@@ -107,7 +107,7 @@ class SideNav extends Component {
         <PanelGroup>
           {
             (!parents || !expandedState) ?
-              <NavPanel title={ 'No Parents Here' } /> :
+              <NavPanel title='No Parents Here' /> :
               panels
           }
         </PanelGroup>
