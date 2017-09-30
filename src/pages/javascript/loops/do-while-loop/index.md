@@ -1,5 +1,5 @@
 ---
-title: Dowhile Loop
+title: Do...While Loop
 ---
 The `do...while` loop is closely related to <a href='http://forum.freecodecamp.com/t/javascript-while-loop/14668' target='_blank' rel='nofollow'>`while`</a> loop. In the do while loop, the condition is checked at the end of the loop.
 
