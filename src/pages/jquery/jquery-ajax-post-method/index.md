@@ -3,9 +3,9 @@ title: jQuery Ajax Post Method
 ---
 ## jQuery Ajax Post Method
 Sends an asynchronous http POST request to load data from the server. Its general form is :
-~~~~
+```javascript
 jQuery.post( url [, data ] [, success ] [, dataType ] )
-~~~~
+```
 
 * url : is the only mandatory parameter. This string contains the adress to which to send the request. The returned data will be ignored if no other parameter is specified
 * data : A plain object or string that is sent to the server with the request. 
@@ -13,31 +13,26 @@ jQuery.post( url [, data ] [, success ] [, dataType ] )
 * dataType : The type of data expected from the server. The default is Intelligent Guess (xml, json, script, text, html). if this parameter is provided, then the success callback must be provided as well.
 
 #### Examples
-~~~~
-$.post('http://example.com/form.php', {category:'client', type:'premium'})
-~~~~
+```javascript
+$.post('http://example.com/form.php', {category:'client', type:'premium'});
+```
 
 requests `form.php` from the server, sending additional data and ignoring the returned result
-~~~~
+```javascript
 $.post('http://example.com/form.php', {category:'client', type:'premium'}, function(response){ 
-alert("success");
-
-$("#mypar").html(response.amount);
-
+      alert("success");
+      $("#mypar").html(response.amount);
 });
-~~~~
+```
 requests `form.php` from the server, sending additional data and handling the returned response (json format). This example can be written in this format:
-~~~~
+```javascript
 $.post('http://example.com/form.php', {category:'client', type:'premium'}).done(function(response){
-
-alert("success");
-
-$("#mypar").html(response.amount);
-
+      alert("success");
+      $("#mypar").html(response.amount);
 });
-~~~~
+```
 The following example posts a form using Ajax and put results in a div
-~~~~
+``` html
 <!doctype html>
 <html lang="en">
 <head>
@@ -55,6 +50,8 @@ The following example posts a form using Ajax and put results in a div
 <div id="result"></div>
  
 <script>
+```
+```javascript
 // Attach a submit handler to the form
 $( "#searchForm" ).submit(function( event ) {
  
@@ -75,15 +72,17 @@ $( "#searchForm" ).submit(function( event ) {
     $( "#result" ).empty().append( content );
   });
 });
+```
+```html
 </script>
  
 </body>
 </html>
-~~~~
+```
 
 ### jQuery.ajax()
-$.post( url [, data ] [, success ] [, dataType ] ) is a shorthand Ajax function, equivalent to :
-~~~~
+`$.post( url [, data ] [, success ] [, dataType ] )` is a shorthand Ajax function, equivalent to :
+```javascript
 $.ajax({
   type: "POST",
   url: url,
@@ -91,7 +90,7 @@ $.ajax({
   success: success,
   dataType: dataType
 });
-~~~~
+```
 `$.ajax()` provides way more options that can be found [here](http://api.jquery.com/jquery.ajax/) 
 
 #### More Information:
