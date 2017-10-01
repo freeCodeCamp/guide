@@ -1,9 +1,6 @@
 const fse = require('fs-extra');
 
-const {
-  isAFileRE,
-  shouldBeIgnoredRE
-} = require('./regEx.js');
+const { isAFileRE, shouldBeIgnoredRE } = require('./regEx.js');
 
 const excludedDirs = [
   'search'
