@@ -14,7 +14,7 @@ You can use percentage, length value or use the `inherit` keyword.
 ```css
     .element {
         padding: 20px 30% 20em 20%;
-        /*top, right, bottom, left*/
+        /* top, right, bottom, left */
     }
 ```
 
