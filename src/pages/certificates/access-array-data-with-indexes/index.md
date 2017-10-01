@@ -7,6 +7,6 @@ Array indexes are written in the same bracket notation that strings use, but ins
 
 For example:
 
-    var array = [1,2,3];
-    array[0]; //equals 1
-    var data = array[1];
+    var array = [1, 2, 3];
+    array[0]; // equals 1
+    var data = array[1]; // sets the data variable to 2
