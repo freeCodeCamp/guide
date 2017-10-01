@@ -4,9 +4,9 @@ title: jQuery Effects Show Method
 ## jQuery Effects Show Method
 
 In its simplest form, **.show()** displays the matched element immediately, with no animation. For example:
-
-`$(".myclass").show()`
-
+```javascript
+$(".myclass").show()
+```
 will show all the elements whose class is *myclass*. Any jQuery selector can be used.
 
 However this method does not override `!important` in the css style, such as `display: none !important`. 
@@ -16,14 +16,16 @@ However this method does not override `!important` in the css style, such as `di
 Thanks to its options, **.show()** can animate the width, height, and opacity of the matched elements simultaneously. 
 
 * Duration can be provided in milliseconds, or using the literals slow (600 ms) and fast(200ms). for example:
-
-`$("#myobject").show("slow")`
+```javascript
+$("#myobject").show("slow")
+```
 
 * A function can be specified to be called once the animation is complete, once per every matched element. for example
-
-`$("#title").show( "slow", function() {
-  $("p").show("fast");
-  });`
+```javascript
+$("#title").show( "slow", function() {
+    $("p").show("fast");
+});
+  ```
 * More options exist, please refer to the official website for further details. 
 
 #### More Information:
