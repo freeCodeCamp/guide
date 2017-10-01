@@ -61,7 +61,7 @@ body {
 You can repeat the image horizontally by setting the background repeat property to “repeat-x”.
 ```CSS
 body {
-  background-image: url (“barn.jpg”);
+  background-image: url(“barn.jpg”);
   background-repeat: repeat-x;
 }
 ```
