@@ -1,27 +1,16 @@
 const Rx = require('rx');
 const fse = require('fs-extra');
 
-const { commonREs, excludedDirs } = require('../utils');
+const { commonREs, readDir, pagesDir: topLevel } = require('../utils');
 
 const {
-  isAFileRE,
   isAStubRE,
-  metaRE,
-  shouldBeIgnoredRE
+  metaRE
 } = commonREs;
 
 const { Observable } = Rx;
 
-const topLevel = 'src/pages';
 const navData = {};
-
-function readDir(dir) {
-  return fse
-    .readdirSync(`${process.cwd()}/${dir}/`)
-    .filter(item => !isAFileRE.test(item))
-    .filter(dir => !excludedDirs.includes(dir))
-    .filter(file => !shouldBeIgnoredRE.test(file));
-}
 
 function getPageTitle(content) {
   // meta = '---\ntitle: Frontmatter Title\n---'
