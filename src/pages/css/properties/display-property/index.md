@@ -6,16 +6,16 @@ title: Display Property
 The display property specifies the type of box used for an HTML element. It has 20 possible keyword values. The commonly used ones are:
 
 ```css
-    .none             {display: none}
-    .block            {display: block}
-    .inline-block     {display: inline-block}
-    .inline           {display: inline}
-    .flex             {display: flex}
-    .inline-flex      {display: inline-flex}
-    .inline-table     {display: inline-table}
-    .table            {display: table}
-    .inherit          {display: inherit}
-    .initial          {display: initial}
+    .none             {display: none;}
+    .block            {display: block;}
+    .inline-block     {display: inline-block;}
+    .inline           {display: inline;}
+    .flex             {display: flex;}
+    .inline-flex      {display: inline-flex;}
+    .inline-table     {display: inline-table;}
+    .table            {display: table;}
+    .inherit          {display: inherit;}
+    .initial          {display: initial;}
 ```
 
 #### More Information: 
