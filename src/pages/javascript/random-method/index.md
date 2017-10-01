@@ -1,7 +1,7 @@
 ---
-title: The Random Method
+title: Random Method
 ---
-## The Random Method
+## Random Method
 
 JavaScript has an excellent built in method for producing random numbers. It is Math.random(). When Math.random is executed it produces
 a random number that can be anywhere between 0 and 1. The 0 is included and 1 is excluded. To get a random number between a larger range multiply the result of Math.random by a number.
