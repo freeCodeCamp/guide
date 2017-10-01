@@ -1,7 +1,7 @@
 const fse = require('fs-extra');
 const { Observable } = require('rx');
 
-const { commonREs, readDir, pagesDir: topLevel } = require('../utils');
+const { commonREs, readDir, pagesDir } = require('../utils');
 
 const { isAStubRE, metaRE } = commonREs;
 
@@ -45,7 +45,7 @@ function listAllDirs(level, prevPages = []) {
 
 function createNavData() {
   const startTime = Date.now();
-  listAllDirs(topLevel, [])
+  listAllDirs(pagesDir, [])
     .toArray()
     .subscribe(
       () => {},
