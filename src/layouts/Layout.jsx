@@ -8,7 +8,7 @@ import Row from 'react-bootstrap/lib/Row';
 import Link from 'gatsby-link';
 
 import SearchBar from '../LayoutComponents/search/SearchBar.jsx';
-import SideNav from '../LayoutComponents/nav/SideNav.jsx';
+import Nav from '../LayoutComponents/nav/Nav.jsx';
 
 import 'prismjs/themes/prism.css';
 import '../css/main.scss';
@@ -50,7 +50,7 @@ function Layout(props) {
       <Grid>
         <Row>
           <Col md={ 4 }>
-            <SideNav />
+            <Nav />
           </Col>
           <Col className='content' md={ 8 }>
             { props.children() }

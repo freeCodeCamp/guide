@@ -1,0 +1,52 @@
+@mixin menu-transition {
+  transition: transform 250ms ease-in-out, height 250ms ease-in-out, opacity 250ms ease-in-out ;
+}
+
+@mixin open {
+  height: 100%;
+  opacity: 1;
+  transform: translate(0px, 0%) scaleY(1);
+}
+
+@mixin closed {
+  height: 0px;
+  opacity: 0;
+  transform: translate(0px, -45%) scaleY(0.1);
+}
+
+.collapse-button {
+  background-color: transparent;
+  border: none;
+  color: #006400;
+  font-size: 45px;
+}
+
+.collapse-menu {
+  @include menu-transition;
+
+  &.entering {
+    @include closed;
+  }
+  &.entered {
+    @include open;
+  }
+  &.exiting {
+    @include open;
+  }
+  &.exited {
+    @include closed;
+  }
+}
+
+.hidden-menu-bar {
+  opacity: 0.25;
+  position: fixed;
+  right: 10px;
+  top: 125px;
+  transition: opacity 250ms ease-in-out;
+  z-index: 10;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
