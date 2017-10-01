@@ -40,7 +40,7 @@ public class DataStore {
 > A private constructor is used to prevent the direct creation of objects from the class.
 > The only way to create an instance from the class is by using a static method that creates the object only if it wasn't already created.
 
-```
+```php
 Class Singleton {
 
   // Hold the class instance
