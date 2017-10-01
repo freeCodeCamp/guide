@@ -1,7 +1,7 @@
 const Rx = require('rx');
 const fse = require('fs-extra');
 
-const { commonREs, excludedDirs } = require('./utils');
+const { commonREs, excludedDirs } = require('../utils');
 
 const {
   isAFileRE,

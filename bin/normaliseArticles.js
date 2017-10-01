@@ -1,7 +1,7 @@
 const Rx = require('rx');
 const fse = require('fs-extra');
 
-const { commonREs, excludedDirs, titleify, info } = require('./utils');
+const { commonREs, excludedDirs, titleify, info } = require('../utils');
 
 const {
   httpsRE,
