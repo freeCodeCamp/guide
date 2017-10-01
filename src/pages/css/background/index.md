@@ -22,10 +22,10 @@ to purple and the rest of the page to blue.
 
 ```CSS
   h1 {
-    background – color: purple;
+    background–color: purple;
 }
 body {
-    background-color: green;
+    background-color: blue;
 }
 ```
 ![twobackground](https://user-images.githubusercontent.com/26467304/31036152-0607936a-a539-11e7-9e9f-a5e60ade042d.png)
@@ -40,19 +40,19 @@ You can use the background image property to set an image as a background for an
 The image is repeated by default so that it covers the entire element.
 ```CSS
 body {
-  background-image: url (“barn.jpg”);
+  background-image: url(“barn.jpg”);
 }
 ```
 ![image](https://user-images.githubusercontent.com/26467304/31036366-eb1fc260-a539-11e7-835d-e3f935a22c86.png)
 
 ### Background Image - The Repeat Property
-The back-ground image is repeated both vertically (up and down) and horizontally (across the web page) by default.
+The background image is repeated both vertically (up and down) and horizontally (across the web page) by default.
 You can use the background- repeat property to repeat the image vertically or horizontally.
 
 Here is an example that repeats the image vertically.
 ```CSS
 body {
-  background-image: url (“barn.jpg”);
+  background-image: url(“barn.jpg”);
   background-repeat: repeat-y;
 }
 ```
@@ -69,8 +69,8 @@ body {
 You can also use the background repeat property to set an image to not repeat.
 ```CSS
 body {
-  background-image: url (“barn.jpg”);
-  background - repeat: no-repeat;
+  background-image: url(“barn.jpg”);
+  background-repeat: no-repeat;
 }
 ```
 ![norepeat](https://user-images.githubusercontent.com/26467304/31039801-c8761efc-a54e-11e7-8bb9-ec5b88885a50.PNG)
@@ -79,7 +79,7 @@ body {
 You can use the position property to specify where your image will be located on a web page.
 ```CSS
 body {
-  background-image: url (“barn.jpg”);
+  background-image: url(“barn.jpg”);
   background-repeat: no-repeat;
   background-position: right top;
 }
@@ -91,7 +91,7 @@ You can use the background attachment property to set an image to a fixed positi
 A fixed position makes it so an image does not scroll with the rest of the page.
 ```CSS
 body {
-  background-image: url (“barn.jpg”);
+  background-image: url(“barn.jpg”);
   background - repeat: no-repeat;
   background-position: right top;
   background-attachment: fixed;
