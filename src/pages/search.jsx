@@ -4,14 +4,14 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import Helmet from 'react-helmet';
 
-import NoResults from '../../pageComponents/search/NoResults.jsx';
-import NoSupport from '../../pageComponents/search/NoSupport.jsx';
-import Results from '../../pageComponents/search/Results.jsx';
-import ResultsSkeleton from '../../pageComponents/search/ResultsSkeleton.jsx';
+import NoResults from '../pageComponents/search/NoResults.jsx';
+import NoSupport from '../pageComponents/search/NoSupport.jsx';
+import Results from '../pageComponents/search/Results.jsx';
+import ResultsSkeleton from '../pageComponents/search/ResultsSkeleton.jsx';
 
 import {
   resetSearch
-} from '../../LayoutComponents/search/redux';
+} from '../LayoutComponents/search/redux';
 
 const propTypes = {
   isSearching: PropTypes.bool,
