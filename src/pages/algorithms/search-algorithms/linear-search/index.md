@@ -3,13 +3,14 @@ title: Linear Search
 ---
 ## Linear Search
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/algorithms/search-algorithms/linear-search/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+<p>Linear search is a very simple search algorithm.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+<p>In this type of search, a sequential search is made over all items one by one.</p>
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+<p>Every item is checked and if a match is found, then that particular item is returned, otherwise the search continues until the end of the data collection.</p>
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
+<a href="https://youtu.be/iwo5WAldDks">Linear Search (YouTube video)</a>
 
 

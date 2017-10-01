@@ -1,5 +1,5 @@
 ---
-title: The JavaScript Return Statement
+title: Return Statement
 ---
 ## Introduction
 
