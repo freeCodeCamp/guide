@@ -7,9 +7,9 @@ The CSS padding properties are used to generate space around content. The paddin
 
 With CSS, you have full control over the padding. There are CSS properties for setting the padding for each side of an element (top, right, bottom, and left).
 
-**Note:** Padding is the shorthand property for ```padding-top```, ```padding-right```, ```padding-bottom```, ```padding-left```.
+**Note:** Padding is the shorthand property for `padding-top`, `padding-right`, `padding-bottom`, `padding-left`.
 
-You can use percentage, length value or use the ```inherit``` keyword. 
+You can use percentage, length value or use the `inherit` keyword. 
 
 ```css
     .element {
@@ -18,7 +18,7 @@ You can use percentage, length value or use the ```inherit``` keyword.
     }
 ```
 
-**Note:** You cannot use ```inherit``` with a length value with the ```padding``` property. 
+**Note:** You cannot use `inherit` with a length value with the `padding` property. 
 
 #### More Information:
 
