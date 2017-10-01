@@ -12,20 +12,18 @@ The `every()` method tests whether all elements in the array pass the test imple
 
 *   **callback** Function to test for each element, taking three arguments:
     *   **currentValue** (required)
+    
+        The current element being processed in the array.
+        
+    *   **index** (optional)
 
-    ```
-    The current element being processed in the array.
-    ```
+        The index of the current element being processed in the array.
 
-*   **index** (optional)
-    ```
-    The index of the current element being processed in the array.
-    ```
-*   **array** (optional)
-    ```
-    The array every was called upon.
-    ```
-    *   **thisArg** Optional. Value to use as this when executing callback.
+    *   **array** (optional)
+
+        The array every was called upon.
+
+*   **thisArg** Optional. Value to use as this when executing callback.
 
 [MDN link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every) | [MSDN Link](https://msdn.microsoft.com/en-us/LIBRary/ff679981%28v=vs.94%29.aspx)
 
