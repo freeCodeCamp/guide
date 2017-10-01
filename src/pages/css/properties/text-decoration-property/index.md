@@ -1,7 +1,7 @@
 ---
-title: Text Decoration
+title: Text Decoration Property
 ---
-## Text Decoration
+## Text Decoration Property
 
 The text-decoration property specifies the decoration added to text. It has 6 possible values: 
 ```css

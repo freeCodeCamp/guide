@@ -1,5 +1,5 @@
 ---
-title: Background Image
+title: Background Image Property
 ---
 #### Suggested Reading:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
