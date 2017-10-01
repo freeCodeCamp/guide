@@ -50,8 +50,6 @@ The following example posts a form using Ajax and put results in a div
 <div id="result"></div>
  
 <script>
-```
-```javascript
 // Attach a submit handler to the form
 $( "#searchForm" ).submit(function( event ) {
  
@@ -72,8 +70,6 @@ $( "#searchForm" ).submit(function( event ) {
     $( "#result" ).empty().append( content );
   });
 });
-```
-```html
 </script>
  
 </body>
