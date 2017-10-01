@@ -21,6 +21,6 @@ minimum integer can be achieved as well.
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-[Mozilla Developer Network article on Math.random](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
+[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
 
 
