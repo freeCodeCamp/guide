@@ -5,12 +5,11 @@ title: Background
 The background property lets you use images and colors to create backgrounds for your web pages.
 
 ### Background Color
-The background color property lets you choose the color of your element. This can be the background 
-for the entire page or the background of one section of your page.
+The background color property lets you choose the color of your element. This can be the background for the entire page or the background of one section of your page.
 * An element is a piece of HTML such as a header or paragraph on a web page.
 
 Here is an example of setting the background color for a web page to green.
-```CSS
+```css
   body {
     background-color: green;
   }
@@ -20,25 +19,25 @@ Here is an example of setting the background color for a web page to green.
 Here is an example of setting the colors for two elements. This will set the background of the header 
 to purple and the rest of the page to blue.
 
-```CSS
+```css
+  body {
+    background-color: blue;
+  }
   h1 {
     background–color: purple;
-}
-body {
-    background-color: blue;
-}
+  }
 ```
 ![twobackground](https://user-images.githubusercontent.com/26467304/31036152-0607936a-a539-11e7-9e9f-a5e60ade042d.png)
 
 In CSS color can be defined in three ways:
-* A valid color name such as “blue”
-* A HEX value such as “#FFFFF” (This is the hex value for white.)
-* A RGB value such as “rgb(76,175,80)” (This is the RGB value for light green.)
+* A valid color name such as `blue`
+* A HEX value such as `#FFFFF` (This is the hex value for white.)
+* An RGB value such as `rgb(76,175,80)` (This is the RGB value for light green.)
 
 ### Background Images
 You can use the background image property to set an image as a background for an element. 
 The image is repeated by default so that it covers the entire element.
-```CSS
+```css
 body {
   background-image: url(“barn.jpg”);
 }
@@ -47,10 +46,10 @@ body {
 
 ### Background Image - The Repeat Property
 The background image is repeated both vertically (up and down) and horizontally (across the web page) by default.
-You can use the background- repeat property to repeat the image vertically or horizontally.
+You can use the background-repeat property to repeat the image vertically or horizontally.
 
 Here is an example that repeats the image vertically.
-```CSS
+```css
 body {
   background-image: url(“barn.jpg”);
   background-repeat: repeat-y;
@@ -58,16 +57,16 @@ body {
 ```
 ![vertical](https://user-images.githubusercontent.com/26467304/31039770-8962c7a6-a54e-11e7-9d25-4fb09760d219.PNG)
 
-You can repeat the image horizontally by setting the background repeat property to “repeat-x”.
-```CSS
+You can repeat the image horizontally by setting the background-repeat property to “repeat-x”.
+```css
 body {
   background-image: url(“barn.jpg”);
   background-repeat: repeat-x;
 }
 ```
 
-You can also use the background repeat property to set an image to not repeat.
-```CSS
+You can also use the background-repeat property to set an image to not repeat.
+```css
 body {
   background-image: url(“barn.jpg”);
   background-repeat: no-repeat;
@@ -77,7 +76,7 @@ body {
 
 ### Background Image – The Position Property
 You can use the position property to specify where your image will be located on a web page.
-```CSS
+```css
 body {
   background-image: url(“barn.jpg”);
   background-repeat: no-repeat;
@@ -87,9 +86,9 @@ body {
 ![position](https://user-images.githubusercontent.com/26467304/31039828-077d1038-a54f-11e7-8aa6-092253ca92b8.PNG)
 
 ### Background Image – The Fixed Position
-You can use the background attachment property to set an image to a fixed position.
+You can use the background-attachment property to set an image to a fixed position.
 A fixed position makes it so an image does not scroll with the rest of the page.
-```CSS
+```css
 body {
   background-image: url(“barn.jpg”);
   background-repeat: no-repeat;
@@ -102,7 +101,7 @@ body {
 
 ### Background – The Shorthand Property
 You can write the background properties on a single line. This is called the shorthand property.
-```CSS
+```css
 body {
   background: url(“barn.jpg”) no-repeat right top;
 }
@@ -118,15 +117,4 @@ must be used in a certain order. The order is:
 ### Other Resources
 * [List of color values](http://cloford.com/resources/colours/500col.htm)
 * [Color Picker Tool](http://colrd.com/create/palette/)
-
-
-
-
-
-
-
-
-
-
-
 
