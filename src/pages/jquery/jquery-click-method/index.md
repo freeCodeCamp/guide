@@ -29,7 +29,7 @@ $("#myLink").click(function(event){
 		event.preventDefault();
 });
 ```
-_here we are using the preventDefault method, he do exactly what he says, we stop the default event of an element, in this case we prevent our anchor tag to make a redirection at click_
+_here we are using the preventDefault method, it do exactly what it says, we stop the default event of an element, in this case we prevent our anchor tag to make a redirection when clicked_
 
 [jsFiddle](https://jsfiddle.net/dy457gbh/)
 
