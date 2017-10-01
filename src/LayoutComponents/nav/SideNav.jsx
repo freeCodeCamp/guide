@@ -32,27 +32,27 @@ function mapDispatchToProps(dispatch) {
 }
 
 function renderChildren(children, pages) {
-    return children
-    .map(child => {
-      if (child.hasChildren) {
-        return renderParent(child, pages);
-      }
-      return (
-        <NavItem
-          isStubbed={ child.isStubbed }
-          key={ child.path }
-          path={ child.path }
-          title={ child.title }
-        />
-      );
+  return children.map(child => {
+    if (child.hasChildren) {
+      return renderParent(child, pages);
+    }
+    return (
+      <NavItem
+        isStubbed={ child.isStubbed }
+        key={ child.path }
+        path={ child.path }
+        title={ child.title }
+      />
+    );
   });
 }
 
 function renderParent(parent, pages) {
-  const childrenForParent = pages
-    .filter(page => page.parent === parent.dashedName);
+  const childrenForParent = pages.filter(
+    page => page.parentPath === parent.path
+  );
 
-    const children = renderChildren(childrenForParent, pages);
+  const children = renderChildren(childrenForParent, pages);
 
   return (
     <NavPanel
@@ -61,15 +61,14 @@ function renderParent(parent, pages) {
       >
       { children }
     </NavPanel>
-    );
+  );
 }
 
 function renderPanels(parents, pages) {
   if (!parents) {
     return 'No Parents Here';
   }
-  return parents
-    .map(parent => renderParent(parent, pages));
+  return parents.map(parent => renderParent(parent, pages));
 }
 
 class SideNav extends Component {
@@ -79,10 +78,13 @@ class SideNav extends Component {
 
   componentDidMount() {
     const { pathname } = this.context.router.route.location;
-    const pathMap = pathname.slice(1).split('/').slice(0, -1)
+    const pathMap = pathname
+      .slice(1)
+      .split('/')
+      .slice(0, -1)
       .reduce((accu, current, i, pathArray) => {
         const path = i !== 0 ?
-          accu[pathArray[ i - 1 ]] + `/${current}` :
+          accu[pathArray[i - 1]] + `/${current}` :
           `/${current}`;
         return {
           ...accu,
@@ -92,9 +94,8 @@ class SideNav extends Component {
 
     Object.keys(pathMap)
       .map(key => pathMap[key])
-      .map(path => {
+      .forEach(path => {
         this.props.toggleExpandedState(path);
-        return null;
       });
   }
 
@@ -106,8 +107,8 @@ class SideNav extends Component {
         <PanelGroup>
           {
             (!parents || !expandedState) ?
-            <NavPanel title={'No Parents Here'}/> :
-            panels
+              <NavPanel title='No Parents Here' /> :
+              panels
           }
         </PanelGroup>
       </div>

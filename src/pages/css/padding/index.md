@@ -3,13 +3,25 @@ title: Padding
 ---
 ## Padding
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/padding/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The CSS padding properties are used to generate space around content. The padding clears an area around the content (inside the border) of an element.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+With CSS, you have full control over the padding. There are CSS properties for setting the padding for each side of an element (top, right, bottom, and left).
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+**Note:** Padding is the shorthand property for `padding-top`, `padding-right`, `padding-bottom`, `padding-left`.
+
+You can use percentage, length value or use the `inherit` keyword. 
+
+```css
+    .element {
+        padding: 20px 30% 20em 20%;
+        /* top, right, bottom, left */
+    }
+```
+
+**Note:** You cannot use `inherit` with a length value with the `padding` property. 
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
+Docs: [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/padding)
 
+Browser Support: It's effectively supported in all browsers (since IE6+, Firefox 2+, Chrome 1+ etc)

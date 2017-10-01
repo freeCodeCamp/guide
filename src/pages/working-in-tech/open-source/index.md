@@ -3,13 +3,6 @@ title: Open Source
 ---
 ## Open Source
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/working-in-tech/open-source/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Open source software is any type of software that is available to the public to see or to be downloaded for free. Anyone is capable of creating a open source project.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+Open source projects are legally made open through a creative license. They are changed, maintained or abandoned by their creators at any time. Many open source projects have contributors that volunteer to add and edit code.

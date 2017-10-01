@@ -40,6 +40,6 @@ The cursor property specifies the type of cursor to be displayed when you hover 
 ```
 
 #### More Information:
-Check the above cursor values in action: [codepen](https://codepen.io/chriscoyier/pen/uCwfB)
-Mozilla Developer Network: [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/cursor)
-Browser Support: [caniuse](http://caniuse.com/#search=cursor)
+Check the above cursor values in action: <a href='https://codepen.io/chriscoyier/pen/uCwfB' target='_blank' rel='nofollow'>codepen</a>
+Mozilla Developer Network: <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/cursor' target='_blank' rel='nofollow'>MDN</a>
+Browser Support: <a href='http://caniuse.com/#search=cursor' target='_blank' rel='nofollow'>caniuse</a>
