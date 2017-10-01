@@ -5,7 +5,9 @@ title: jQuery Effects Hide Method
 
 In its simplest form, **.hide()** hides the matched element immediately, with no animation. For example:
 
-`$(".myclass").hide()`
+```javascript
+$(".myclass").hide()
+```
 
 will hide all the elements whose class is *myclass*. Any jQuery selector can be used.
 
@@ -15,14 +17,17 @@ Thanks to its options, **.hide()** can animate the width, height, and opacity of
 
 * Duration can be provided in milliseconds, or using the literals slow (600 ms) and fast(200ms). for example:
 
-`$("#myobject").hide(800)`
+```javascript
+$("#myobject").hide(800)
+```
 
 * A function can be specified to be called once the animation is complete, once per every matched element. This callback is mainly useful for chaining together different animations. For example
-
-`$("p").hide( "slow", function() {
-  $(".titles").hide("fast");
-  alert("No more text!");
-  });`
+```javascript
+$("p").hide( "slow", function() {
+      $(".titles").hide("fast");
+      alert("No more text!");
+});
+  ```
 * More options exist, please refer to the official website for further details. 
 
 #### More Information:
