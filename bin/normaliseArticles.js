@@ -1,15 +1,9 @@
-const Rx = require('rx');
 const fse = require('fs-extra');
+const { Observable } = require('rx');
 
 const { commonREs, titleify, info, readDir, pagesDir } = require('../utils');
 
-const {
-  httpsRE,
-  isAStubRE,
-  markdownLinkRE
-} = commonREs;
-
-const { Observable } = Rx;
+const { httpsRE, isAStubRE, markdownLinkRE } = commonREs;
 
 function appendStub(path) {
   const pathArr = path.split('/');

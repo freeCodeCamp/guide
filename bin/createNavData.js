@@ -1,14 +1,9 @@
-const Rx = require('rx');
 const fse = require('fs-extra');
+const { Observable } = require('rx');
 
 const { commonREs, readDir, pagesDir: topLevel } = require('../utils');
 
-const {
-  isAStubRE,
-  metaRE
-} = commonREs;
-
-const { Observable } = Rx;
+const { isAStubRE, metaRE } = commonREs;
 
 const navData = {};
 
