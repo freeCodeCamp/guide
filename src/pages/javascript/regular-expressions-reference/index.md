@@ -3,7 +3,7 @@ title: Regular Expressions Reference
 ---
 ## Regular Expressions Reference
 
-In JavaScript, regular expressions are a shorthand used to match a desired part of a string. These are beneficial when trying to manipulate or validate strings used in your code.
+In JavaScript, regular expressions are a shorthand used to match the desired part of a string. These are beneficial when trying to manipulate or validate strings used in your code.
 
 ### Syntax
 
@@ -13,7 +13,7 @@ Regular expressions are made up of two parts - the `pattern` and the `flags` (op
 
 The use of alphanumeric (A-Z, a-z, 0-9) characters makes for a straightforward match. However, the real power of regular expressions comes with character classes. 
 
-Say, for example, you want to all the places a string that have a number from 0-9. Rather than explicitly calling out `/[0-9]/`, you can use the special character class of `/\d/`. The backslash escapes the `d` character (so don't match the letter `d`), but instead uses the special matching abilities of `\d`.
+Say, for example, you want to all the places a string that has a number from 0-9. Rather than explicitly calling out `/[0-9]/`, you can use the special character class of `/\d/`. The backslash escapes the `d` character (so don't match the letter `d`), but instead uses the special matching abilities of `\d`.
 
 This same principle applies to non-numeric characters, white space, and other broad matching groups. Regular expressions can become even more sophisticated with the use of certain modifiers, such as the `+` character.
 
@@ -31,7 +31,7 @@ There are 5 flags you can use to apply specific rules to the whole regular expre
 
 `m` - the multi-line match; this applies your pattern to each line as new; if you are searching for a line that starts with a particular pattern, this does so for all lines, rather than just the first one
 
-`u` - the unicode match; this signals to read your pattern as unicode rather than plaintext
+`u` - the Unicode match; this signals to read your pattern as Unicode rather than plain text
 
 `y` - the sticky match; this matches your pattern only starting at the index found in the `RegExp.lastIndex` property
 
@@ -49,6 +49,6 @@ For example, `RegExp.test()` will return a Boolean for whether there exists a ma
 
 ![Here you can read](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp) about all the pattern match characters, object properties, see some examples and more.
 
-![Here is a great site](https://regex101.com/) that let's you test out regular expression patterns in real-time, save your favorites, and explore patterns made by others.
+![Here is a great site](https://regex101.com/) that lets you test out regular expression patterns in real-time, save your favorites and explore patterns made by others.
 
 
