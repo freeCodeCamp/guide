@@ -21,25 +21,25 @@ For example, a given block-level element (`<div>`) set to 300px wide, that conta
 ## Examples
 
 ### Visible: 
-``` CSS
+```css
 .box-element { overflow: visible; }
 ```
 [![1-vissible.png](https://s26.postimg.org/gweu6g5yh/1-vissible.png)](https://postimg.org/image/6z3tddycl/)
 
 ### Hidden:
-``` CSS
+```css
 .box-element { overflow: hidden; }
 ```
 [![2-hidden.png](https://s26.postimg.org/l49mf77e1/2-hidden.png)](https://postimg.org/image/9rx0xeyp1/)
 
 ### Scroll:
-``` CSS
+```css
 .box-element { overflow: scroll; }
 ```
 [![3-scroll.png](https://s26.postimg.org/d8z30dxrd/3-scroll.png)](https://postimg.org/image/mtipn9n39/)
 
 ### Auto:
-``` CSS
+```css
 .box-element { overflow: auto; }
 ```
 [![4-auto.png](https://s26.postimg.org/z5q7ei0bt/4-auto.png)](https://postimg.org/image/uju365esl/)
