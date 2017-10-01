@@ -1,7 +1,7 @@
 ---
 title: Ruby Number Methods
 ---
-Ruby provides a variety of built in methods you may use on numbers. The following is an incomplete list of [integer](https://ruby-doc.org/core-2.2.0/Integer.html) and [float](https://ruby-doc.org/core-2.2.0/Float.html#method-i-ceil) methods.
+Ruby provides a variety of built-in methods you may use on numbers. The following is an incomplete list of [integer](https://ruby-doc.org/core-2.2.0/Integer.html) and [float](https://ruby-doc.org/core-2.2.0/Float.html#method-i-ceil) methods.
 
 ## [Even](https://ruby-doc.org/core-2.2.0/Integer.html#method-i-even-3F):
 
@@ -26,7 +26,7 @@ The `.ceil` method rounds [**floats**](https://ruby-doc.org/core-2.2.0/Float.htm
     6.7.ceil #=> 7
 ```
 
-## [Floor]((https://ruby-doc.org/core-2.2.0/Float.html#method-i-floor):
+## [Floor](https://ruby-doc.org/core-2.2.0/Float.html#method-i-floor):
 
 The `.floor` method rounds [**floats**](https://ruby-doc.org/core-2.2.0/Float.html#method-i-ceil) **down** to the nearest number. Returns an [**integer**](https://ruby-doc.org/core-2.2.0/Integer.html).
 ```Ruby
