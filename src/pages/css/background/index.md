@@ -92,7 +92,7 @@ A fixed position makes it so an image does not scroll with the rest of the page.
 ```CSS
 body {
   background-image: url(“barn.jpg”);
-  background - repeat: no-repeat;
+  background-repeat: no-repeat;
   background-position: right top;
   background-attachment: fixed;
 }
