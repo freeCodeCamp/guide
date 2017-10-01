@@ -6,7 +6,7 @@ title: Test Driven Development
 Test Driven Development is one of Agile Software Development approaches. It is based on the concept that
 > you must write a test case for your code even before you write it
 
-It's basically composed by 4 steps
+It's basically composed of 4 steps
 
  - Write a test case
  - Execute
