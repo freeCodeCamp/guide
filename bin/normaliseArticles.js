@@ -1,8 +1,7 @@
 const Rx = require('rx');
 const fse = require('fs-extra');
-const chalk = require('chalk');
 
-const { commonREs, excludedDirs, titleify } = require('./seed/utils');
+const { commonREs, excludedDirs, titleify, info } = require('./utils');
 
 const {
   httpsRE,
@@ -13,10 +12,6 @@ const {
 } = commonREs;
 
 const { Observable } = Rx;
-
-function info(str, colour = 'red') {
-  console.log(chalk[colour](str));
-}
 
 const pagesDir = `${process.cwd()}/src/pages`;
 

@@ -1,13 +1,19 @@
-const fse = require('fs-extra');
 const Rx = require('rx');
-
-const { Observable } = Rx;
-const topLevel = 'src/pages';
-const navData = {};
+const fse = require('fs-extra');
 
 const { commonREs, excludedDirs } = require('./utils');
 
-const { isAFileRE, isAStubRE, metaRE, shouldBeIgnoredRE } = commonREs;
+const {
+  isAFileRE,
+  isAStubRE,
+  metaRE,
+  shouldBeIgnoredRE
+} = commonREs;
+
+const { Observable } = Rx;
+
+const topLevel = 'src/pages';
+const navData = {};
 
 function readDir(dir) {
   return fse
@@ -52,7 +58,8 @@ function listAllDirs(level, prevPages = []) {
     return listAllDirs(dirPath, accuPages);
   });
 }
-module.exports = function createNavData() {
+
+function createNavData() {
   const startTime = Date.now();
   listAllDirs(topLevel, [])
     .toArray()
@@ -82,4 +89,6 @@ It took ${endTime - startTime}ms to create the nav data for ${pages} pages
           });
       }
     );
-};
+}
+
+createNavData();

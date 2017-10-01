@@ -1,5 +1,6 @@
 const titleify = require('./titleify');
 const commonREs = require('./regEx');
+const info = require('./infoLog');
 
 const excludedDirs = [
   'search'
@@ -7,6 +8,7 @@ const excludedDirs = [
 
 module.exports = {
   commonREs,
-  excludedDirs,
-  titleify
+  titleify,
+  info,
+  excludedDirs
 };
