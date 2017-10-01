@@ -1,5 +1,5 @@
 ---
-title: JavaScript Callback Functions
+title: Callback Functions
 ---
 This article gives a brief introduction to the concept and usage of callback functions in the Javascript programming language.
 

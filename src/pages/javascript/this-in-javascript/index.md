@@ -1,5 +1,5 @@
 ---
-title: this reference in JavaScript
+title: this reference
 ---
 ## `this` reference in JavaScript
 
