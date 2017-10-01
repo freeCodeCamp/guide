@@ -1,3 +1,6 @@
+---
+title: Compilers
+---
 ## Compilers
 
 Compilers are a kind of translator. We write the source code in JavaScript, Python, and other languages. Then the compiler takes the code and converts it to code the computer understands.
@@ -7,4 +10,4 @@ This converted code is binary code, which is nothing but 1s and 0s. When you run
 If there are errors in your source code, the compiler detects them. This stops the compilation process. Even after the compiler converts the code, the converted code can still fail when it's running.
 
 #### More Information:
-<a href="https://medium.freecodecamp.org/a-gentler-introduction-to-programming-707453a79ee8" target="_blank">Matt Adesanya's "A Gentler Introduction to Programming"</a> covers compilers vs. interpreters, along with other basic programming concepts.
+[Matt Adesanya's "A Gentler Introduction to Programming"](https://medium.freecodecamp.org/a-gentler-introduction-to-programming-707453a79ee8) covers compilers vs. interpreters, along with other basic programming concepts.
