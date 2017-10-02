@@ -76,6 +76,7 @@ We've written the following guide to writing Guide articles to help you get star
 - [General writing tips](#general-writing-tips)
 - [Formatting example code](#formatting-example-code)
 - [Adding images to articles](#adding-images-to-articles)
+- [Adding links to articles](#adding-links-to-articles)
 - [Proper nouns](#proper-nouns)
 - [Where to get help](#where-to-get-help)
 
@@ -186,26 +187,28 @@ Here are specific formatting guidelines for any code:
 - Comments made should have a space between the comment characters and the comment themselves
 
     `// Fix this line`
+
 - GitHub-flavored markdown supports [syntax highlighting in code blocks](https://help.github.com/articles/creating-and-highlighting-code-blocks/#syntax-highlighting) for many programming languages. To use it, indicate the language after starting ```
-```
-    ```html
-    <div class='awesome' id='more-awesome'>
+
+    ```
+      ```html
+      <div class='awesome' id='more-awesome'>
       <p>This is text in html</p>
-    </div>
-    ```
+      </div>
+      ```
 
-    ```javascript
-    function logTheThings(stuff) {
-     console.log(stuff);
-    }
-    ```
+      ```javascript
+      function logTheThings(stuff) {
+          console.log(stuff);
+      }
+      ```
 
-    ```css
-   .awesome {
-      background-color: #FCCFCC;
-    }
+      ```css
+      .awesome {
+          background-color: #FCCFCC;
+      }
+      ```
     ```
-```
 
 ### Adding images to articles
 
@@ -216,6 +219,22 @@ Then you'd just need to reference them in your markdown file with this syntax:
 `![your alt text](your url)`
 
 Then the images should show up when you click the "preview changes" tab.
+
+### Adding links to articles
+
+You may use Markdown style or HTML links in your articles.
+
+**Markdown**
+
+```
+[freeCodeCamp](https://www.freecodecamp.org/)
+```
+
+**HTML**
+
+```
+<a href="https://www.freecodecamp.org">freeCodeCamp</a>
+```
 
 ### Proper nouns
 
