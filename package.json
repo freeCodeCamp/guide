@@ -21,7 +21,7 @@
     "gatsby-plugin-sitemap": "^1.2.0",
     "gatsby-remark-prismjs": "^1.2.0",
     "gatsby-remark-smartypants": "^1.4.1",
-    "gatsby-source-filesystem": "^1.4.1",
+    "gatsby-source-filesystem": "1.4.10",
     "gatsby-transformer-remark": "^1.6.3",
     "prop-types": "^15.5.10",
     "react": "^15.6.1",
