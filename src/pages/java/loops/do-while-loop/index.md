@@ -1,7 +1,7 @@
 ---
-title: Dowhile
+title: Do...While Loop
 ---
-# do..while Loop
+# Do...While Loop
 
 The `do..while` loop is a special case of the `while` loop wherein the group of statements is guranteed to run atleast once before checking for a given condition. Confused? Ok, the follwing example should clear things up.
 

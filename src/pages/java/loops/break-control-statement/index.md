@@ -1,7 +1,7 @@
 ---
 title: Break Control Statement
 ---
-# `break` Control Statement
+# Break Control Statement
 
 Terminates the loop and starts the execution of the code that immediately follows the loop. If you have nested loops, the `break` statement will only end the loop in which it is placed.
 

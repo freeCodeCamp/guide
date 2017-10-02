@@ -1,7 +1,7 @@
 ---
-title: for
+title: For Loop
 ---
-# for Loop
+# For Loop
 
 There are 2 of these:
 
