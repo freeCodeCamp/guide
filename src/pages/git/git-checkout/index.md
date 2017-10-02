@@ -21,7 +21,7 @@ git checkout -b NEW-BRANCH-NAME
 This will automatically switch you to the new branch
 
 ### Checkout New Branch or Reset to Start Point
-Creates the branch ```NEW-BRANCH``` and start it at START-POINT; if it already exists, then reset it to <start_point>. This is equivalent to running ```git branch``` with ```-f```
+Creates the branch ```NEW-BRANCH``` and start it at START-POINT; if it already exists, then reset it to START-POINT. This is equivalent to running ```git branch``` with ```-f```
 ```shell
 git checkout -B NEW-BRANCH-NAME
 ```
