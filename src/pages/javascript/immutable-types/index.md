@@ -1,5 +1,5 @@
 ---
-title: JavaScript Immutable Types
+title: Immutable Types
 ---
 > Immutable means unchangeable i.e. you can't change.
 

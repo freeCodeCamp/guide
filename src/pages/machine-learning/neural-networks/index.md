@@ -26,7 +26,7 @@ Neural networks are used on a variety of tasks. These include computer vision, s
 - Grammar induction
 
 ### More Information:
-- [Wikipedia]( https://en.wikipedia.org/wiki/Artificial_neural_network#Components_of_an_artificial_neural_network )
-- [Daniel Shiffman's Nature of Code](http://natureofcode.com/book/chapter-10-neural-networks/)
-- [Stanford University](http://ufldl.stanford.edu/tutorial/supervised/MultiLayerNeuralNetworks/)
+- <a href=' https://en.wikipedia.org/wiki/Artificial_neural_network#Components_of_an_artificial_neural_network ' target='_blank' rel='nofollow'>Wikipedia</a>
+- <a href='http://natureofcode.com/book/chapter-10-neural-networks/' target='_blank' rel='nofollow'>Daniel Shiffman's Nature of Code</a>
+- <a href='http://ufldl.stanford.edu/tutorial/supervised/MultiLayerNeuralNetworks/' target='_blank' rel='nofollow'>Stanford University</a>
 

@@ -83,6 +83,12 @@
 .content {
   overflow-y: scroll;
   height: 92vh;
+  margin-bottom: 50px;
+
+  img {
+    max-width: 100%;
+    display: block;
+  }
 }
 
 /* NoResults/404 */
