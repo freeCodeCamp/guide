@@ -3,9 +3,9 @@ title: SAFe
 ---
 ## SAFe
 
-SAFe stands for "Scaled Agile Framework" and is an agile software development framework and it is designed for large-scale agile development involving many teams.
+SAFe stands for "Scaled Agile Framework" and is an agile software development framework that is designed for large-scale agile development involving many teams.
 
-The main website <a href="http://www.scaledagileframework.com/">http://www.scaledagileframework.com/</a>) is an freely available online knowledge base on implementing SAFe.
+The main website (<a target='_blank' rel='nofollow' href="http://www.scaledagileframework.com/">http://www.scaledagileframework.com/</a>) is an freely available online knowledge base on implementing SAFe.
 
 ## Principles
 
