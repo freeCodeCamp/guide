@@ -1,21 +1,11 @@
 const fse = require('fs-extra');
-const Rx = require('rx');
+const { Observable } = require('rx');
 
-const { Observable } = Rx;
-const topLevel = 'src/pages';
+const { commonREs, readDir, pagesDir } = require('../utils');
+
+const { isAStubRE, metaRE } = commonREs;
+
 const navData = {};
-
-const { commonREs, excludedDirs } = require('./utils');
-
-const { isAFileRE, isAStubRE, metaRE, shouldBeIgnoredRE } = commonREs;
-
-function readDir(dir) {
-  return fse
-    .readdirSync(`${process.cwd()}/${dir}/`)
-    .filter(item => !isAFileRE.test(item))
-    .filter(dir => !excludedDirs.includes(dir))
-    .filter(file => !shouldBeIgnoredRE.test(file));
-}
 
 function getPageTitle(content) {
   // meta = '---\ntitle: Frontmatter Title\n---'
@@ -52,9 +42,10 @@ function listAllDirs(level, prevPages = []) {
     return listAllDirs(dirPath, accuPages);
   });
 }
-module.exports = function createNavData() {
+
+function createNavData() {
   const startTime = Date.now();
-  listAllDirs(topLevel, [])
+  listAllDirs(pagesDir, [])
     .toArray()
     .subscribe(
       () => {},
@@ -82,4 +73,6 @@ It took ${endTime - startTime}ms to create the nav data for ${pages} pages
           });
       }
     );
-};
+}
+
+createNavData();
