@@ -40,6 +40,9 @@ Find javascript libraries at <a href='http://jster.net' target='_blank' rel='nof
 
 ## Editors
 
+*   <a href='https://code.visualstudio.com/' target='_blank' rel='nofollow'>Visual Studio Code</a>
+
+    Visual Studio Code includes built-in support for IntelliSense code completion, rich semantic code understanding and navigation, and code refactoring. It comes with a built-in debugger and git support and has a plethora of extensions.
 *   <a href='http://brackets.io' target='_blank' rel='nofollow'>Brackets</a>
 *   <a href='http://atom.io' target='_blank' rel='nofollow'>Atom</a>
 
