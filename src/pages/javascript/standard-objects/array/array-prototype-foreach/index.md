@@ -6,7 +6,7 @@ title: Array.prototype.forEach
 The 'forEach' array method is used to iterate through each item in an array.  The method is called on the array Object and is passed a function that is called on each item in the array.
 
 ```
-arr = [1, 2, 3, 4, 5];
+var arr = [1, 2, 3, 4, 5];
 
 arr.forEach(number => console.log(number * 2));
 
