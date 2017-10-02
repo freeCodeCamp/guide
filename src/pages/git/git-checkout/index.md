@@ -3,7 +3,7 @@ title: Git Checkout
 ---
 ## Git Checkout
 
-Git Checkout switches between branches or restores working tree files.  There are a number of different options for this command that won't be covered here, but you can take a look at all of them in the [Git documentation](https://git-scm.com/docs/git-checkout).
+The `git checkout` command switches between branches or restores working tree files.  There are a number of different options for this command that won't be covered here, but you can take a look at all of them in the [Git documentation](https://git-scm.com/docs/git-checkout).
 
 ### Checkout an Existing Branch
 To checkout an existing branch, run the command:
