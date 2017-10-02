@@ -14,15 +14,16 @@ Among these 4 modifiers, only 2 which are public and default can be applied to a
 private Access Modifier
 Allows a variable or method to only be accessed in the class in which it was created. No other class beyond the class that created the variable or method can access it. This is closely similar to your underwear. They are only accessible to the owner. To make a variable or method private, you simply append the private keyword before the variable or method type. For example;
 
-        ```private String name;```
+`private String name;`
        
  The above example creates a variable named name and only ensures that is accessible only within the class from where it was created.
  
  Another example for a method is
- 
-        ```private void setAge(){
-            System.out.println("Set Age");
-        }```
+ ```java
+ private void setAge(){
+ System.out.println("Set Age");
+ }
+ ```
  The above example ensures that the method setAge is accessible only within the class from which it was created and nowhere else.
  
  public Access Modifier
@@ -31,16 +32,18 @@ Allows a variable or method to only be accessed in the class in which it was cre
  A public class, method or variable can be accessed from any other class at any time.
  
  For example, to declare a class as public, All you need is:
+ ```java
+ public class Animal{
  
-    ```public class Animal{
-    
-    }```
+ }
+ ```
     
  As such, the Animal class can be accessed by any other class.
- 
-    ```public int age;
-    public int getAge(){
-    }```
+```java
+public int age;
+public int getAge(){
+}
+```
     
 Above are ways of specifying a variable and a method as public.
 
@@ -49,16 +52,19 @@ The default access modifier is different from all the other access modifiers in 
 
 For example, to use the default access modifier for a class, you use
 
-    ```class Bird{
-    }```
+```java
+class Bird{
+}
+```
     
 This basically means you are using the default access modifier. The default access modifier allows a variable, method or a class to be accessed by other classes within the same package. A package is a collection of related classes in a file directory. For more information about packages, check out the section on packages.
 
 Any variable, method, or class declared to use the default access modifier cannot be accessed by any other class outside of the package from which it was declared.
-
-    ```int age;
-    void setNewAge(){
-    }```
+```java
+int age;
+void setNewAge(){
+}
+```
     
 Above are some ways of using the default access modifier for a variable or method.
 Don't forget, the default access modifier does not have a key word, the absence of the 3 other access modifiers means you are using the default access modifier.
@@ -73,9 +79,10 @@ The Class in another package that can see protected variables or methods must ha
 Note without the advantage of Inheritance, a default access modifier has exactly the same access as a protected access modifier.
 
 Examples of using the protected access modifier is shown below:
-
-    ```protected int age;
-    protected String getName(){
-        return "My Name is You";
-    }```
+```java
+protected int age;
+protected String getName(){
+  return "My Name is You";
+}
+```
     
