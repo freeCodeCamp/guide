@@ -3,32 +3,33 @@ title: For Loop
 ---
 # For Loop
 
-There are 2 of these:
-
-1.  Normal `for` loop
+The `for` loop give you a compact way to iterate over a range of values.
 
 ```java
-for(initialize variable; condition; modify variable){  
+for(initialize variable; condition; modify variable)
+{  
     //perform action  
 }
 ```
 
-For e.g.
-
-```java  
-for(int i = 0; i < 10; i++){  
-    System.out.println("The value of is : " + i);  
-}
-```
-
-1.  Enhanced `for` loop / forEach loop
-
-Well, this came into existence in Java 5\. It helps when you are required to iterate over a list of items and perform some action like so:
+* `initialization` - Initializes the loop and is executed just once, at the beginning.
+* `expression` - Evaluated at the beginning of each iteration. If the `expression` evaluates to `true`, `Statements` will get executed.
+* `increment` - Invoked after each iteration through the loop. You can increase/decrease the value of variables here.
 
 ```java
-// assuming nameList is a List of names that are actually Strings
-Iterable<String> nameList = ...
-for(String name : nameList ){  
-    System.out.println(name);  
+int iter_For;
+for (iter_For = 0; iter_For < 10; iter_For++)
+{
+    System.out.print (iter_For + " ");
+    // Iterated 10 times, iter_For 0,1,2...9
 }
+System.out.println("iter_For Value: " + fooFor);
 ```
+
+Output:
+```
+    0 1 2 3 4 5 6 7 8 9
+    iter_For Value: 10
+```
+
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CJYr/0' target='_blank' rel='nofollow'>Run Code</a>
