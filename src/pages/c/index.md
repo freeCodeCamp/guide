@@ -21,7 +21,7 @@ If you would prefer to use the command line, consider `gcc`. It can be found by 
 Now that you have that background, let's start with our 'Hello, World' program. 'Hello, World' is a traditional way of getting started with a language: it shows that we can write code and make it run, so it's a good place to start!
 
 ## Hello world in C
-This is what a hello world program looks like in C:
+
 ```C
 #include <stdio.h>
 

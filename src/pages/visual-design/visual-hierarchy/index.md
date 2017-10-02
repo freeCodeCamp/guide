@@ -12,4 +12,4 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+<a href='https://www.interaction-design.org/literature/article/visual-hierarchy-organizing-content-to-follow-natural-eye-movement-patterns' target='_blank' rel='nofollow'>www.interaction-design.org: Visual Hierarchy: Organizing content to follow natural eye movement patterns</a>
