@@ -1,5 +1,5 @@
 ---
-title: Java Loop Types
+title: Loop Types
 ---
 # Types of Java Loops
 

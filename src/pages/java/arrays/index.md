@@ -1,7 +1,7 @@
 ---
-title: Java Docs Arrays
+title: Arrays
 ---
-# Java Array
+# Array
 
 An Array is used to store a collection of data of similar datatype. Arrays always start with the index of 0.
 

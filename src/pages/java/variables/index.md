@@ -1,7 +1,7 @@
 ---
-title: Java Docs Variables
+title: Variables
 ---
-# Java Variables
+# Variables
 
 Variables store values.
 

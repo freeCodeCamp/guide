@@ -1,7 +1,7 @@
 ---
-title: Java Docs Constructors
+title: Constructors
 ---
-# Java Constructors
+# Constructors
 
 What's the point then? I should be able to store data in it right?
 

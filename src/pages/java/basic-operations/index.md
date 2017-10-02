@@ -1,7 +1,7 @@
 ---
-title: Java Docs Basic Operations
+title: Basic Operations
 ---
-# Java Basic Operations
+# Basic Operations
 
 Java supports the following operations on variables:
 

@@ -1,7 +1,7 @@
 ---
-title: Java Loops for
+title: for
 ---
-# Java for Loop
+# for Loop
 
 There are 2 of these:
 

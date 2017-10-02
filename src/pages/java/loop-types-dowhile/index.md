@@ -1,7 +1,7 @@
 ---
-title: Java Loop Types Dowhile
+title: Loop Types Dowhile
 ---
-# The Java Do While loop
+# Do While loop
 
 The `do while` is very similar to the `while` loop in the way it works, but is _exit controlled_ (unlike the `for` and `while` loops which are _entry controlled_), that is, the truth value of its `expression` is evaluated after the execution of `Statements`.
 

@@ -1,7 +1,7 @@
 ---
-title: Java Loop Types for
+title: Loop Types for
 ---
-# The Java For Loop
+# For Loop
 
 The `for` loop give you a compact way to iterate over a range of values.
 
