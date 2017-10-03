@@ -39,16 +39,28 @@
 /* Breadcrumbs */
 
 .breadcrumb {
-  background-color: transparent;
+  display: inline-block;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  opacity: 0.8;
+  transition: opacity 0.1s ease-out;
+}
+
+.breadcrumb:hover {
+  opacity: 1;
 }
 
 .breadcrumb > li a {
   color: #006400;
-  opacity: 0.6;
 }
 
-.breadcrumb>li+li:before {
-  content: '\f054';
+.breadcrumb > li + li:before {
+  content: '\f105';
+  color: #555;
+}
+
+.breadcrumb > .active {
+  color: #555
 }
 
 /* Layout */
@@ -69,6 +81,11 @@
 
 .content {
   margin-bottom: 50px;
+
+  img {
+    max-width: 100%;
+    display: block;
+  }
 }
 
 /* NoResults/404 */

@@ -3,13 +3,18 @@ title: CSS Position
 ---
 ## CSS Position
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/css-position/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The position property specifies the type of positioning method used for an element. It has 5 keyword values:
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+```css
+    .static         { position: static; }
+    .relative       { position: relative; }
+    .sticky         { position: sticky; }
+    .fixed          { position: fixed; }
+    .absolute       { position: absolute; }
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### More Information:
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+MDN Documentation: <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/position' target='_blank' rel='nofollow'>MDN</a>
 
-
+Browser Support: <a href='http://caniuse.com/#search=position' target='_blank' rel='nofollow'>caniuse</a>

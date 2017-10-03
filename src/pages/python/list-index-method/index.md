@@ -51,6 +51,6 @@ Here although the element is searched between the indices 2(inclusive) and 5(not
 
 #### More Information:
 
-The official documentation for `index()` can be found [here](https://docs.python.org/3.6/tutorial/datastructures.html)
+The official documentation for `index()` can be found <a href='https://docs.python.org/3.6/tutorial/datastructures.html' target='_blank' rel='nofollow'>here</a>
 
 

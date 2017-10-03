@@ -1,5 +1,5 @@
 ---
-title: JavaScript Strict Mode
+title: Strict Mode
 ---
 Strict Mode was introduced in ECMAScript 5 that allows you to place a program, or a function, in a "strict" operating context. This strict context prevents certain actions from being taken and throws more exceptions.
 
@@ -11,15 +11,17 @@ Strict mode makes several changes to normal JavaScript semantics.
 
 Strict mode code and non-strict mode code can coexist in a same script.
 
-    // Non-strict code...
+```javascript
+// Non-strict code...
 
-    (function(){
-      "use strict";
+(function(){
+    "use strict";
 
-      // Define your library strictly...
-    })();
+    // Define your library strictly...
+})();
 
-    // Non-strict code...
+// Non-strict code...
+```
 
 ## Invoking strict mode
 
@@ -27,22 +29,26 @@ Strict mode applies to _entire scripts_ or to _individual functions_.
 
 **Strict mode for scripts**
 
-    // Whole-script strict mode syntax
+```javascript
+// Whole-script strict mode syntax
 
-    "use strict";
-    var v = "Hi!  I'm a strict mode script!";
+"use strict";
+var v = "Hi!  I'm a strict mode script!";
+```
 
 **Strict mode for functions**
 
-    function strict(){
-      // Function-level strict mode syntax
+```javascript
+function strict(){
+    // Function-level strict mode syntax
 
-      'use strict';
-      function nested() { return "And so am I!"; }
-      return "Hi!  I'm a strict mode function!  " + nested();
-    }
+    'use strict';
+    function nested() { return "And so am I!"; }
+    return "Hi!  I'm a strict mode function!  " + nested();
+}
 
-    function notStrict() { return "I'm not strict."; }
+function notStrict() { return "I'm not strict."; }
+```
 
 **Basically it helps you make fewer errors, by detecting things that could lead to breakage which are not detected normally (non-strict mode).**
 

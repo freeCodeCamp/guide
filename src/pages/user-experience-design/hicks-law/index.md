@@ -22,8 +22,8 @@ Reducing the number of perceived options on the screen makes the interface more 
 
 ### More Information:
 
-Hicks' Law - [Wikipedia](https://en.wikipedia.org/wiki/Hick%27s_law)
+Hicks' Law - <a href='https://en.wikipedia.org/wiki/Hick%27s_law' target='_blank' rel='nofollow'>Wikipedia</a>
 
-Design Principles: Hick's Law - [uxplanet](https://uxplanet.org/design-principles-hicks-law-quick-decision-making-3dcc1b1a0632)
+Design Principles: Hick's Law - <a href='https://uxplanet.org/design-principles-hicks-law-quick-decision-making-3dcc1b1a0632' target='_blank' rel='nofollow'>uxplanet</a>
 
-Understanding Hick's Law - [Youtube](https://www.youtube.com/watch?v=OU7ekX05UEU)
+Understanding Hick's Law - <a href='https://www.youtube.com/watch?v=OU7ekX05UEU' target='_blank' rel='nofollow'>Youtube</a>
