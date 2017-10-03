@@ -3,13 +3,13 @@ title: Merge Sort
 ---
 ## Merge Sort
 
-Merge Sort is a <a href='https://github.com/naveenbanda/guides/tree/master/src/pages/algorithms/divide-and-conquer-algorithms' target='_blank' rel='nofollow'>Divide and Conquer</a> algorithm. It divides input array in two halves, calls itself for the two halves and then merges the two sorted halves.
+Merge Sort is a <a href='https://guide.freecodecamp.org/algorithms/divide-and-conquer-algorithms' target='_blank' rel='nofollow'>Divide and Conquer</a> algorithm. It divides input array in two halves, calls itself for the two halves and then merges the two sorted halves.
 
 ```Algorithm
 MergeSort(arr[], left,  right):
 If right > l:
      1. Find the middle point to divide the array into two halves: 
-             mid = (left+r)/2 
+             mid = (left+right)/2 
      2. Call mergeSort for first half: 
              Call mergeSort(arr, left, mid) 
      3. Call mergeSort for second half:
@@ -27,6 +27,6 @@ If right > l:
 * Stable: Yes
 
 ### Relavant videos on freeCodeCamp YouTube channel
-* <a href='http://www.mycodeschool.com/videos/merge-sort-algorithm' target='_blank' rel='nofollow'>Merge Sort algorithm - MyCodeSchool</a>
+* <a href='https://youtu.be/TzeBrDU-JaY'>Merge Sort algorithm - MyCodeSchool</a>
 
 
