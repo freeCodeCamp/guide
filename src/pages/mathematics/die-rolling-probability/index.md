@@ -28,7 +28,7 @@ For example, suppose we want to know the probability of getting a total sum of 7
 We know that 7 = 1 + 6 **or** 6 + 1 **or** 2 + 5 **or** 5 + 2 **or** 3 + 4 **or** 4 + 3 (6 combinations) so that
 P(sum = 7) is 1/36 + 1/36 + 1/36 + 1/36 + 1/36 + 1/36 = 6 * 1/36 = 6/36 or 1/6.
 
-Exercise: What is the probability of getting a total sum of 5 when rolling two fair die? How about a sum of 2? 
+Exercise: What is the probability of getting a total sum of 5 when rolling two fair dice? How about a sum of 2? 
  
 
 #### More Information:
