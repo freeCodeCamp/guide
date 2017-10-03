@@ -1,15 +1,15 @@
 ---
 title: Null Type
 ---
-## Null Type
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/typescript/null-type/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+# Null Type
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+`null` is a subtype of all other types. This means you can assign `null` to something like `number`.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+If you are using the `--strictNullChecks` flag then `null` is only assignable to `void`.
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+```typescript
+let foo: null = null;
+```
 
 
