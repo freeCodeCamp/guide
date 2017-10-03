@@ -6,7 +6,7 @@ title: Span Tag
 The `span` tag is a general purpose element similar to `div`. Browsers do not make any visual changes to `span`s by default, but you can style them with CSS or manipulate them with JavaScript.
 
 ### Example
-```
+```html
 <html>
   <head>
     <title>The Span Tag</title>
