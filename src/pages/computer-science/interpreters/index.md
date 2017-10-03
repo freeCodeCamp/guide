@@ -1,3 +1,7 @@
+---
+title: Interpreters
+---
+
 ## Interpreters
 
 Interpreters are a kind of translator. Interpreters take source code - code written in JavaScript, Python, and other languages. Then they translate it into code the computer understands.

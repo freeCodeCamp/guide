@@ -1,5 +1,5 @@
 ---
-title : Euler's Method
+title: Euler's Method
 ---
 
 # Euler's Method
