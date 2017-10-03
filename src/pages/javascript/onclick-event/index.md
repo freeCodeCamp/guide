@@ -1,15 +1,28 @@
 ---
-title: Onclick Event
+title: OnClick Event
 ---
-## Onclick Event
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/onclick-event/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The click event is fired when the user clicks on an element. The click event will occur after the `mousedown` and `mouseup` events. Here is a simple example:
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+```html
+<button id="demo" onclick="doSomething()">Click</button>
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```javascript
+  function doSomething(){
+    alert("Something");
+  }
+```
+When click at the button it will appear a dialog window with "Something" message. You can see below another way to do the same:
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
+```html
+<button id="demo">Click</button>
+```
 
+```javascript
+  var ele = document.getElementById('demo');
+  ele.addEventListener('click', function(){
+    alert("Something");
+  })
+```
