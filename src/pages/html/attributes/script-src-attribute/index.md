@@ -7,7 +7,7 @@ The 'src' attribute in a <script></script> tag is the path to an external file o
 
 For example, if you had your own custom JavaScript file named 'script.js' and wanted to add its functionality to your HTML page, you would add it like this:
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -22,7 +22,7 @@ For example, if you had your own custom JavaScript file named 'script.js' and wa
 
 This would point to a file named 'script.js' that is in the same directory as the .html file. You can also link to other directories by using '..' in the file path.
 
-```
+```html
 <script src="../public/js/script.js"></script>
 ```
 
@@ -32,7 +32,7 @@ You can also use the 'src' attribute to link to external .js files hosted by a t
 
 This example links to a jQuery file.
 
-```
+```html
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 ```
 
