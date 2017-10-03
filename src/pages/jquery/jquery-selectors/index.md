@@ -1,3 +1,7 @@
+---
+title: jQuery Selectors
+---
+
 ## jQuery Selectors
 
 jQuery uses CSS-style selectors to select parts, or elements, of an HTML page. It then lets you do something with the elements using jQuery methods, or functions.
