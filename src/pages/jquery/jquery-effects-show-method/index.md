@@ -9,7 +9,7 @@ $(".myclass").show()
 ```
 will show all the elements whose class is *myclass*. Any jQuery selector can be used.
 
-However this method does not override `!important` in the css style, such as `display: none !important`. 
+However, this method does not override `!important` in the CSS style, such as `display: none !important`. 
 
 ### .show() as an animation method
 
