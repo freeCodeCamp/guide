@@ -7,7 +7,7 @@ When the 'filter' method is run against an array it returns another array contai
 
 In this example, the students array is filtered and the return value is another array containing any student object where the grade value is greater than or equal to 90.
 
-```
+```javascript
 var students = [
   { name: 'Quincy', grade: 96 },
   { name: 'Jason', grade: 84 },
