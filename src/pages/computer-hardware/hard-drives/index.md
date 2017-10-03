@@ -16,6 +16,6 @@ You can think of a hard drive as a pantry: a place to store things that we aren'
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
-[Wikipedia](https://en.wikipedia.org/wiki/Hard_disk_drive)
+<a href='https://en.wikipedia.org/wiki/Hard_disk_drive' target='_blank' rel='nofollow'>Wikipedia</a>
 
-[Hard drives vs SSDs](https://www.pcmag.com/article2/0,2817,2404258,00.asp)
+<a href='https://www.pcmag.com/article2/0,2817,2404258,00.asp' target='_blank' rel='nofollow'>Hard drives vs SSDs</a>

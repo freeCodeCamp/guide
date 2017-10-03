@@ -18,8 +18,8 @@ Install packages with bower install. Bower installs packages to bower_components
     bower install <package>
 ```
 ### More Information:
-The Bower website: [bower.io](https://bower.io)
+The Bower website: <a href='https://bower.io' target='_blank' rel='nofollow'>bower.io</a>
 
-Manage Front End Resources with Bower: [scotch.io](https://scotch.io/tutorials/manage-front-end-resources-with-bower)
+Manage Front End Resources with Bower: <a href='https://scotch.io/tutorials/manage-front-end-resources-with-bower' target='_blank' rel='nofollow'>scotch.io</a>
 
-Streamline Web workflow with Bower: [youtube](https://www.youtube.com/watch?v=Vs2wduoN9Ws)
+Streamline Web workflow with Bower: <a href='https://www.youtube.com/watch?v=Vs2wduoN9Ws' target='_blank' rel='nofollow'>youtube</a>
