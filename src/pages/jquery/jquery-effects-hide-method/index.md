@@ -3,13 +3,34 @@ title: jQuery Effects Hide Method
 ---
 ## jQuery Effects Hide Method
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/jquery/jquery-effects-hide-method/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+In its simplest form, **.hide()** hides the matched element immediately, with no animation. For example:
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+```javascript
+$(".myclass").hide()
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+will hide all the elements whose class is *myclass*. Any jQuery selector can be used.
+
+### .hide() as an animation method
+
+Thanks to its options, **.hide()** can animate the width, height, and opacity of the matched elements simultaneously. 
+
+* Duration can be provided in milliseconds, or using the literals slow (600 ms) and fast(200ms). for example:
+
+```javascript
+$("#myobject").hide(800)
+```
+
+* A function can be specified to be called once the animation is complete, once per every matched element. This callback is mainly useful for chaining together different animations. For example
+```javascript
+$("p").hide( "slow", function() {
+      $(".titles").hide("fast");
+      alert("No more text!");
+});
+  ```
+* More options exist, please refer to the official website for further details. 
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+JQuery hide() method on the <a href='http://api.jquery.com/hide/' target='_blank' rel='nofollow'>Official website</a>
 
 

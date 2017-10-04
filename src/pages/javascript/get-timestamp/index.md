@@ -1,5 +1,5 @@
 ---
-title: JavaScript Get Timestamp
+title: Get Timestamp
 ---
 You can use `Date.now()` to get the current timestamp in milliseconds.
 

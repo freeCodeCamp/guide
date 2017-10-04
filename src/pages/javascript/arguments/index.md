@@ -1,5 +1,5 @@
 ---
-title: JavaScript Arguments
+title: Arguments
 ---
 The arguments object is an **array-like object** _(meaning that it looks like an array but it's not)_ that stores all of the arguments that you passed to a function and is proprietary to that function in particular. If you were to pass 3 arguments to a function, say `storeNames()`, those 3 arguments would be stored inside an object called **arguments** and it would look like this when we pass the arguments `storeNames("Mulder", "Scully", "Alex Krycek")` to our function:
 

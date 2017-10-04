@@ -9,7 +9,7 @@ title: C++
 
 ### Here is your 1st program in C++:
 
-```C++
+```cpp
 #include <iostream>
 using namespace std ;
 int main()
@@ -25,7 +25,7 @@ int main()
 Now , let's break down the code :
 #### Line 1 and 2
 
-```C++
+```cpp
 #include<iostream>
 using namespace std;
 ```
@@ -35,7 +35,7 @@ using namespace std;
 * The second line tells the computer to use the standard namespace which includes features of standard C++ . 
 
 #### Line 3 and 4
-```C++
+```cpp
 int main()
 {
 ```
@@ -44,7 +44,7 @@ int main()
 * Line 4 indicates the start of the main() function. 
 
 #### Lines 4,5 & 6
-```C++
+```cpp
 cout<<"Hello World"<<endl;
     return 0;
 }
