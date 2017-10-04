@@ -4,7 +4,7 @@ title: Color Picker
 
 ## Color Picker
 
-A color picker is a tool to experiment with colors for the web. You can use it to choose between how various colors and tones go together, and find the differences between them. Color pickers often show colors and their information in various formats, including Hexadecimal and RGB.
+A color picker is a tool to experiment with colors for the web. You can use it to choose between how various colors and tones go together and find the differences between them. Color pickers often show colors and their information in various formats, including Hexadecimal and RGB.
 
 ### Online Websites
 
@@ -16,7 +16,7 @@ Installing a color picker browser extension allows you to get information about 
 
 ### Code Editor Packages/Extensions
 
-Another practical way to have a color picker is to install it as a package or extension on your favorite editor. It gives you the possibility to visualise and change colors by simply clicking on them, without having to leave your editor. In addition to commonly used CSS styles, they also often support SASS and LESS variables and colors in various formats.
+Another practical way to have a color picker is to install it as a package or extension on your favorite editor. It gives you the possibility to visualize and change colors by simply clicking on them, without having to leave your editor. In addition to commonly used CSS styles, they also often support SASS and LESS variables and colors in various formats.
 
 ### More Information:
 
