@@ -1,7 +1,7 @@
 ---
 title: this reference
 ---
-## `this` reference in JavaScript
+## `this` reference
 
 In JavaScript, every function has a `this` reference automatically created when you declare it. This reference is quite similar to `this` reference in other class-based languages such as Java or C# (JavaScript is a prototype-based language and no "class" concept): *It points to the which object is calling to the function* (this object sometimes called as *context*). In JavaScript, however, *the `this` reference inside functions can be bound to different objects depend on where the function is being called*. Here is three basic rules for `this` binding in JavaScript:
 

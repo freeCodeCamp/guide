@@ -16,8 +16,8 @@ These thoughts are fairly common if you suffer from imposter syndrome:
 
 Some resources to help you know more about Imposter Syndrome and some tips to tackle it:
 
-* [Feel Like a Fraud? | American Psychological Association](http://www.apa.org/gradpsych/2013/11/fraud.aspx)
-* [Fighting Imposter Syndrome | TED Talks](https://www.ted.com/playlists/503/fighting_impostor_syndrome)
-* [Is imposter syndrome a sign of greatness? | Quartz](https://qz.com/606727/is-imposter-syndrome-a-sign-of-greatness/)
+* <a href='http://www.apa.org/gradpsych/2013/11/fraud.aspx' target='_blank' rel='nofollow'>Feel Like a Fraud? | American Psychological Association</a>
+* <a href='https://www.ted.com/playlists/503/fighting_impostor_syndrome' target='_blank' rel='nofollow'>Fighting Imposter Syndrome | TED Talks</a>
+* <a href='https://qz.com/606727/is-imposter-syndrome-a-sign-of-greatness/' target='_blank' rel='nofollow'>Is imposter syndrome a sign of greatness? | Quartz</a>
 
 

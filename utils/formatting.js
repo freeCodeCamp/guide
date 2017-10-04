@@ -1,5 +1,6 @@
 /* eslint-disable camelcase */
 const preFormatted = {
+  acid: 'ACID',
   arraybuffer: 'ArrayBuffer',
   aws: 'AWS',
   bytelength: 'byteLength',
@@ -52,8 +53,10 @@ const preFormatted = {
   hasownproperty: 'hasOwnProperty',
   html: 'HTML',
   html5: 'HTML5',
+  ide: 'IDE',
   indexof: 'indexOf',
   ignorecase: 'ignoreCase',
+  io: 'IO',
   isarray: 'isArray',
   isealed: 'isSealed',
   isextensible: 'isExtensible',
