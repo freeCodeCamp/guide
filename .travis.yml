@@ -33,3 +33,4 @@ addons:
 script:
   - npm install
   - npm run lint
+  - node bin/createNavData
