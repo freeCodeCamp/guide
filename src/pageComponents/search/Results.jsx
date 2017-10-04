@@ -5,6 +5,7 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import Media from 'react-bootstrap/lib/Media';
 import FontAwesome from 'react-fontawesome';
+import Breadcrumbs from '../../templateComponents/Breadcrumbs.jsx';
 
 import {
   resetSearch,
@@ -18,6 +19,11 @@ const faNames = {
   challenge: 'free-code-camp',
   guides: 'file-text',
   youtube: 'youtube-play'
+};
+
+const BreadcrumbTexts = {
+  challenge: 'Free Code Camp',
+  youtube: 'YouTube'
 };
 
 const propTypes = {
@@ -69,8 +75,13 @@ class Results extends PureComponent {
     const { results } = this.props;
     return results.map((result, i) => {
       const { _index, _source: { title, url }, formattedDescription } = result;
+      const pathname = result._source.url;
       return (
-        <MediaWrapper key={ i } url={ url }>
+        <div key={ i }>
+        <Breadcrumbs path={ _index === 'guides' ?
+                           pathname : BreadcrumbTexts[_index]}
+        />
+        <MediaWrapper url={ url }>
           <Media>
             <Media.Left align='middle'>
               <FontAwesome
@@ -85,6 +96,7 @@ class Results extends PureComponent {
             </Media.Body>
           </Media>
         </MediaWrapper>
+        </div>
       );
     });
   }
