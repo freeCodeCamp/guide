@@ -1,7 +1,7 @@
 ---
-title: Game Development with Unity
+title: Unity
 ---
-## Unity
+## Game Development with Unity
 
 Unity is a cross-platform game engine developed by Unity Technologies, which is primarily used to develop video games and simulations for computers, consoles and mobile devices.
 First announced only for OS X, at Apple's Worldwide Developers Conference in 2005, it has since been extended to target 27 platforms.
