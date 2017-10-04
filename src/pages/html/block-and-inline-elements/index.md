@@ -20,9 +20,9 @@ Some of the **block-level elements** are `<div>`,`<p>`,`<article>`,`<section>`,`
 
 
 #### Inline Element : 
-Inline as the name says "included as a part of main text and not as a separate section". Inline elements occupy the space as needed within the space defined by the main element.
+Inline as the name says "included as a part of the main text and not as a separate section". Inline elements occupy the space as needed within the space defined by the main element.
 
-Yes,you are right again.They don't start from a new line as seen in the example below.
+Yes, you are right again. They don't start from a new line as seen in the example below.
 
 Some of the **inline elements** are `<a>`,`<span>`,`<img>`,`<code>`,`<cite>`,`<button>`,`<input>` etc.
 
@@ -33,5 +33,4 @@ Some of the **inline elements** are `<a>`,`<span>`,`<img>`,`<code>`,`<cite>`,`<b
 
 #### More Information:
 Please refer [Mozilla Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements#Block-level_vs._inline)
-
 
