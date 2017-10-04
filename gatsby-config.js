@@ -6,6 +6,12 @@ module.exports = {
   plugins: [
     'gatsby-plugin-react-helmet',
     {
+      resolve: 'gatsby-plugin-sass',
+      options: {
+        precision: 8
+      }
+    },
+    {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'pages',
@@ -27,7 +33,6 @@ module.exports = {
         trackingId: 'UA-55446531-6'
       }
     },
-    'gatsby-plugin-sitemap',
-    'gatsby-plugin-sharp'
+    'gatsby-plugin-sitemap'
   ]
 };

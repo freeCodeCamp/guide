@@ -3,13 +3,23 @@ title: Bower
 ---
 ## Bower
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/developer-tools/bower/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Bower is a package manager for the web. Bower can manage components that contain HTML, CSS, JavaScript, fonts or even image files. Bower is optimized for the front end. If multiple packages depend on a package - jQuery for example - Bower will download jQuery just once. This is known as a flat dependency graph and it helps reduce page load.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Install Bower
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Bower is a command line utility. Install it with npm.
+```shell
+    npm install -g bower
+```
+### Install Packages
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+Install packages with bower install. Bower installs packages to bower_components/.
+```shell
+    bower install <package>
+```
+### More Information:
+The Bower website: <a href='https://bower.io' target='_blank' rel='nofollow'>bower.io</a>
 
+Manage Front End Resources with Bower: <a href='https://scotch.io/tutorials/manage-front-end-resources-with-bower' target='_blank' rel='nofollow'>scotch.io</a>
 
+Streamline Web workflow with Bower: <a href='https://www.youtube.com/watch?v=Vs2wduoN9Ws' target='_blank' rel='nofollow'>youtube</a>

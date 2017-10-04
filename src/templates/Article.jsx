@@ -3,6 +3,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 
+import Breadcrumbs from '../templateComponents/Breadcrumbs.jsx';
+
 const propTypes = {
   data: PropTypes.object,
   location: PropTypes.object
@@ -10,6 +12,7 @@ const propTypes = {
 
 function Article(props) {
   const article = props.data.markdownRemark;
+  const { pathname } = props.location;
   const {
     html,
     fields: {
@@ -28,6 +31,7 @@ function Article(props) {
           rel='canonical'
         />
       </Helmet>
+      <Breadcrumbs path={ pathname } />
       <div
         dangerouslySetInnerHTML={{ __html: html }}
       />

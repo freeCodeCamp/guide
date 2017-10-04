@@ -8,7 +8,7 @@ title: CSS Framework Foundation
 ## Getting Started
 
 Here is a simple HTML template which includes the latest compiled and minified CSS and Javascript for the Foundation library.
-
+```html
     <!DOCTYPE html>
     <html lang="en">
       <head>
@@ -24,8 +24,8 @@ Here is a simple HTML template which includes the latest compiled and minified C
         <script src="https://cdn.jsdelivr.net/foundation/6.2.1/foundation.min.js"></script>
       </body>
     </html>
-
- <kbd>[![](//discourse-user-assets.s3.amazonaws.com/original/2X/f/f9c81b35877c3e0551ca461c75b78aac80c6f48a.png) **JSBin Demo**](http://jsbin.com/gebolikiru/edit?html,output)</kbd> 
+```
+ <kbd>[![](//discourse-user-assets.s3.amazonaws.com/original/2X/f/f9c81b35877c3e0551ca461c75b78aac80c6f48a.png) **JSBin Demo**](http://jsbin.com/gebolikiru/edit?html,output)</kbd>
 
 We have used a CDN in this example, but you can checkout other ways of installing Foundation <a href='http://foundation.zurb.com/sites/download/' target='_blank' rel='nofollow'>here</a>.
 
