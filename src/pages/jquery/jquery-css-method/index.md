@@ -1,9 +1,9 @@
 ---
-title: jQuery CSS Method
+title: CSS Method
 ---
-## jQuery CSS Method
+## CSS Method
 
-The jQuery ```.css()``` method gets the value of a computed style property for the first element in the set of matched elements or set one or more CSS properties for every matched element.
+The jQuery `.css()` method gets the value of a computed style property for the first element in the set of matched elements or set one or more CSS properties for every matched element.
 
 ### Getting
 
