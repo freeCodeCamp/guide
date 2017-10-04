@@ -3,7 +3,7 @@ title: Chain Rule Introduction
 ---
 # Chain Rule Introduction
 
-`Chain Rule is used to compute derivative of a composition of functions.`
+Chain Rule is used to compute the derivative of a composition of functions.
 
 Let _F_ be a real valued function which is a composite of two functions _f_ and _g_  i.e. `F(x) = f(g(x))`and both f(x) and g(x) are differentiable.
 Let the derivative D{F(x)} is denoted as F'(x).
