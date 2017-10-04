@@ -6,10 +6,4 @@ export const pages = Object.keys(navData)
 export const parents = pages
   .filter(x => x.parent === 'pages');
 
-export let expandedState = pages
-  .reduce((accu, current) => {
-    return {
-      ...accu,
-      [current.path]: false
-    };
-  }, {});
+export const expandedState = {};

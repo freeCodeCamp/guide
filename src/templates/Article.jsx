@@ -2,8 +2,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
-import Col from 'react-bootstrap/lib/Col';
-import Row from 'react-bootstrap/lib/Row';
 
 import Breadcrumbs from '../templateComponents/Breadcrumbs.jsx';
 
@@ -33,18 +31,10 @@ function Article(props) {
           rel='canonical'
         />
       </Helmet>
-      <Row>
-        <Col xs={ 12 }>
-          <Breadcrumbs path={ pathname } />
-        </Col>
-      </Row>
-      <Row>
-        <Col xs={ 12 }>
-          <div
-            dangerouslySetInnerHTML={{ __html: html }}
-          />
-        </Col>
-      </Row>
+      <Breadcrumbs path={ pathname } />
+      <div
+        dangerouslySetInnerHTML={{ __html: html }}
+      />
     </div>
   );
 }

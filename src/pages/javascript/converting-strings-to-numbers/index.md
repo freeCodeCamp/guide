@@ -4,6 +4,7 @@ title: Converting Strings to Numbers
 ## Converting Strings to Numbers
 The `parseInt()` function parses a string argument and returns an integer of the specified radix (the base in mathematical numeral systems).
 
+
     parseInt(string, radix);
 ### Parameters
     string
@@ -77,3 +78,6 @@ The following example returns `224`:
 #### More Information:
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators">parseInt on MDN</a>
 
+
+* <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt' target='_blank' rel='nofollow'>parseInt()</a> and <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseFloat' target='_blank' rel='nofollow'>parseFloat()</a> attempt to convert the string to a number if possible. For example, `var x = parseInt("100"); // x = 100`
+* <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number' target='_blank' rel='nofollow'>Number()</a> will convert to a number the value can be represented by. This includes dates into the number of milliseconds since midnight January 1, 1970 UTC, boolean values to 1 or 0, and values that can't be converted to a recognisable number will become NaN. That stands for Not a Number and is also technically a number!

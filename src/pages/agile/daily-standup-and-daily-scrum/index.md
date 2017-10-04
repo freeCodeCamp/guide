@@ -1,15 +1,22 @@
 ---
-title: Daily Standup and Daily Scrum
+title: Daily Stand-Up and Daily Scrum
 ---
-## Daily Standup and Daily Scrum
+## Daily Stand-Up and Daily Scrum
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/daily-standup-and-daily-scrum/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The Daily Stand-Up (DSU) or Daily Scrum meeting is one of the key ceremonies of the scrum methodology.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+As the name suggests, you hold the meeting daily, at the same time and, for a co-located team, in the same location. The meeting should be brief, finished in less than 15 minutes.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+The standard agenda for each person is:
+* What have you done since the last DSU
+* What are you doing after this DSU
+* What are the major obstacles that are stopping your progress, and where do you need help
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+Team members are to listen carefully to each other's contributions and attempt to identify areas where they can assist each other's progress. The standup meeting will also surface more lengthy topics of discussion that need to take place between different members of the team. These lengthier discussions that arise should then be halted and taken outside of the standup, involving only the relevant participants, and not the entire team. 
+
+### Example of Stand-up Meeting
+https://www.youtube.com/watch?v=_3VIC8u1UV8
 
 
+### More Information:
+Stand-up meeting: <a href="https://en.wikipedia.org/wiki/Stand-up_meeting" target='_blank' rel='nofollow'>Wikipedia</a>

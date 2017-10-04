@@ -33,6 +33,6 @@ Traceback (most recent call last):
 ValueError: list.remove(x): x not in list
 ```
 #### More Information:
-More information about `remove()` can be found [here](https://docs.python.org/3.6/tutorial/datastructures.html)
+More information about `remove()` can be found <a href='https://docs.python.org/3.6/tutorial/datastructures.html' target='_blank' rel='nofollow'>here</a>
 
 

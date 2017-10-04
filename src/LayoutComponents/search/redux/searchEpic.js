@@ -37,6 +37,33 @@ function searchTermEpic(actions$, { getState }) {
     });
 }
 
+
+function truncate(text) {
+  return text.slice(0, 141) + '...';
+}
+
+const articleMetaRE = /^\-\-\-[\w\W]+?\-\-\-/;
+const titleRE = /^#[^\n]*$/gm;
+
+function formatGuide(description) {
+  const filteredText = description
+    .replace(articleMetaRE, '')
+    .replace(titleRE, '');
+  return truncate(filteredText);
+}
+
+function formatData(data) {
+  return data.map((result) => {
+    const { _source: { body, description } } = result;
+
+    result.formattedDescription = body ?
+      formatGuide(body) :
+      truncate(description);
+
+    return result;
+  });
+}
+
 function searchEpic(actions$, { getState }) {
   return actions$
     .filter(({ type }) => type === types.fetchSearchResults)
@@ -44,7 +71,10 @@ function searchEpic(actions$, { getState }) {
       const { searchTerm } = getState().search;
       return axios.get(`${requestUrl}/search?q=${searchTerm}`)
         .then(response => {
-          return updateSearchResults(response.data);
+          return formatData(response.data);
+        })
+        .then(data => {
+          return updateSearchResults(data);
         })
         .catch(err => {
           console.error(err);

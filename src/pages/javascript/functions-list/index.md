@@ -1,5 +1,5 @@
 ---
-title: JavaScript Functions List
+title: Functions List
 ---
 ![Unofficial JS Logo](//discourse-user-assets.s3.amazonaws.com/original/2X/0/0584980f425bfbbe1e14001557ff4f5bab8f61ec.jpg)
 
