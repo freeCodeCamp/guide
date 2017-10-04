@@ -44,7 +44,7 @@ Now, move to the left half.
 
 The middle element is the item we were looking for!
 
-The binary search algorithm takes a divide-and-conquer approach where the array is continously divided until the item is found or until there are no more elements left for checking.
+The binary search algorithm takes a divide-and-conquer approach where the array is continuously divided until the item is found or until there are no more elements left for checking.
 Hence, this algorithm can be defined recursively to generate an elegant solution.
 The two base cases for recursion would be:
 * No more elements left in the array.
@@ -79,5 +79,6 @@ print(binarySearch(numbers, 5, 0, numbers.length-1));
 
 ### More Information
 <a href="https://youtu.be/P3YID7liBug">Binary search (YouTube video)</a>
+
 <a href='https://www.youtube.com/watch?v=5xlIPT1FRcA' target='_blank' rel='nofollow'>Binary Search - CS50</a>
 
