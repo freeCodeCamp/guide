@@ -3,14 +3,14 @@ title: Git Pull
 ---
 ## Git Pull
 
-The [`git pull`](https://git-scm.com/docs/git-pull) command allows you to get new commits from a remote repository. To do this, `git pull` fetches (`git fetch`) the new commits and merges [(`git merge`)](https://guide.freecodecamp.org/git/git-merge) these into your local branch.
+The <a href='https://git-scm.com/docs/git-pull' target='_blank' rel='nofollow'>`git pull`</a> command allows you to get new commits from a remote repository. To do this, `git pull` fetches (`git fetch`) the new commits and merges <a href='https://guide.freecodecamp.org/git/git-merge' target='_blank' rel='nofollow'>(`git merge`)</a> these into your local branch.
 
 This command's syntax is as follows:
 ```
 git pull OPTIONS REPOSITORY REFSPEC
 ```
 in which:
-- **OPTIONS** are the command options, such as `--quiet` or `--verbose`. You can read more about the different options in the [Git documentation](https://git-scm.com/docs/git-pull)
+- **OPTIONS** are the command options, such as `--quiet` or `--verbose`. You can read more about the different options in the <a href='https://git-scm.com/docs/git-pull' target='_blank' rel='nofollow'>Git documentation</a>
 - **REPOSITORY** is the URL to your repo. Example:  https://github.com/freeCodeCamp/freeCodeCamp.git
 - **REFSPEC** specifies which refs to fetch and which local refs to update
 

@@ -9,9 +9,7 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
-The term "API" stands for Application Programming Interface.
-
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
-[https://medium.freecodecamp.org/what-is-an-api-in-english-please-b880a3214a82](https://medium.freecodecamp.org/what-is-an-api-in-english-please-b880a3214a82)
+

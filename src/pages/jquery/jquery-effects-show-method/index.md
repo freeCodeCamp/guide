@@ -30,5 +30,5 @@ $("#title").show( "slow", function() {
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-JQuery Show() method on the [Official website](http://api.jquery.com/show/) 
+JQuery Show() method on the <a href='http://api.jquery.com/show/' target='_blank' rel='nofollow'>Official website</a> 
 
