@@ -2,6 +2,7 @@
 title: Binary Search
 ---
 ## Binary Search
+<p>A binary search locates an item in a sorted array by repeatedly dividing the search interval in half.</p>
 
 How do you search a name in a telephone directory?
 
@@ -76,7 +77,7 @@ var numbers = [1,2,3,4,5,6,7];
 print(binarySearch(numbers, 5, 0, numbers.length-1));
 ```
 
-#### Relevant Video:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+### More Information
+<a href="https://youtu.be/P3YID7liBug">Binary search (YouTube video)</a>
 <a href='https://www.youtube.com/watch?v=5xlIPT1FRcA' target='_blank' rel='nofollow'>Binary Search - CS50</a>
 

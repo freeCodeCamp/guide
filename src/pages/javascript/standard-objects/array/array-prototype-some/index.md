@@ -5,22 +5,25 @@ The JavaScript array method `.some()` will take a callback function to test each
 
 **Syntax**
 
-    var arr = <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some' target='_blank' rel='nofollow'>1, 2, 3, 4];
-    arr.some(callback[, thisArg]);
+```javascript
+  var arr = [1, 2, 3, 4];
+  arr.some(callback[, thisArg]);
+```
 
 ## Callback Function
 
 **Syntax**
 
-    var isEven = function isEven(currentElement, index, array) {
-        if(currentElement % 2 === 0) {
-            return true;
-        } else {
-            return false;
-        }
-    }
-
-_see wiki_ on <a>Arithmetic Operators</a> to see the remainder operator `%`
+```javascript
+  var isEven = function isEven(currentElement, index, array) {
+      if(currentElement % 2 === 0) {
+          return true;
+      } else {
+          return false;
+      }
+  }
+```
+See wiki on <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators' target='_blank' rel='nofollow'>Arithmetic Operators</a> to see the remainder operator `%`
 
 **Has 3 arguments**
 
@@ -51,34 +54,37 @@ Is an optional parameter and more info can be found at the [MDN</a>
 
 **Passing a function to `.some()`**
 
-    var isEven = function isEven(currentElement, index, array) {
-        if(currentElement % 2 === 0) {
-            return true;
-        } else {
-            return false;
-        }
-    }
+```javascript
+  var isEven = function isEven(currentElement, index, array) {
+      if(currentElement % 2 === 0) {
+          return true;
+      } else {
+          return false;
+      }
+  }
 
-    var arr1 = <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some' target='_blank' rel='nofollow'>1, 2, 3, 4, 5, 6];
-    arr1.some(isEven);  // returns true
-    var arr2 = [1, 3, 5, 7];
-    arr2.some(isEven);  // returns false
+  var arr1 = [1, 2, 3, 4, 5, 6];
+  arr1.some(isEven);  // returns true
+  var arr2 = [1, 3, 5, 7];
+  arr2.some(isEven);  // returns false
+```
 
 **Anonymous function**
 
-    var arr3 = ['Free', 'Code', 'Camp', 'The Amazing'];
-    arr3.some(function(curr, index, arr) {
-        if (curr === 'The Amazing') {
-            return true;
-        } 
-        }); // returns true
+```javascript
+  var arr3 = ['Free', 'Code', 'Camp', 'The Amazing'];
+  arr3.some(function(curr, index, arr) {
+      if (curr === 'The Amazing') {
+          return true;
+      } 
+      }); // returns true
 
-    var arr4 = [1, 2, 14, 5, 17, 9];
-    arr4.some(function(curr, index, arr) {
-        return curr > 20;
-        });  // returns false
+  var arr4 = [1, 2, 14, 5, 17, 9];
+  arr4.some(function(curr, index, arr) {
+      return curr > 20;
+      });  // returns false
 
-    // ES6 arrows functions
-    arr4.some((curr) => curr >= 14)  // returns true
-
-Source [MDN</a>
+  // ES6 arrows functions
+  arr4.some((curr) => curr >= 14)  // returns true
+```
+Source : <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some' target='_blank' rel='nofollow'>MDN</a>

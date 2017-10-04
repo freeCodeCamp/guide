@@ -3,7 +3,7 @@ title: Functional Programming
 ---
 ## Functional Programming
 
-Functional programming is the process of building software by composing **pure functions**, avoiding **shared state**, **mutable data**, and **side-effects**. Functional programming is **declarative** rather than **imperative**, and application state flows through pure functions. Contrast it with object-oriented programming, where application state is usually shared and colocated with methods in objects.
+Functional programming is the process of building software by composing **pure functions**, avoiding **shared state**, **mutable data**, and **side-effects**. Functional programming is **declarative** (telling the computer what you want to do) rather than **imperative** (telling the computer exactly how to do that), and application state flows through pure functions. Contrast it with object-oriented programming, where application state is usually shared and colocated with methods in objects.
 
 ### Why Functional Programming?
 
@@ -21,8 +21,8 @@ Functional programming has long been popular in academia, but with few industria
 
 ### More Information:
 
-Functional Programming: [Wikipedia](https://en.wikipedia.org/wiki/Functional_programming#Use_in_industry)
+Functional Programming: <a href='https://en.wikipedia.org/wiki/Functional_programming#Use_in_industry' target='_blank' rel='nofollow'>Wikipedia</a>
 
-Functional Programming – What Is It and Why Does It Matter? : [KeyCDN](https://www.keycdn.com/blog/functional-programming/)
+Functional Programming – What Is It and Why Does It Matter? : <a href='https://www.keycdn.com/blog/functional-programming/' target='_blank' rel='nofollow'>KeyCDN</a>
 
-What is Functional Programming? : [Medium](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0)
+What is Functional Programming? : <a href='https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0' target='_blank' rel='nofollow'>Medium</a>

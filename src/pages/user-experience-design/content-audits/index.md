@@ -3,13 +3,14 @@ title: Content Audits
 ---
 ## Content Audits
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/user-experience-design/content-audits/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Content audits its a task from the Information Architecture stage within a UX project. A content audit is an activity of checking all of the content on a website(Copy, Images, video, and any other type of content) and compiling it into a big list or file. There are three main types of audits you can perform:
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+-Full content inventory: A complete compilation of every content on the site. This may include all urls as well as all assets (such as downloadable files and videos).</br>
+-Partial content inventory: A listing of a subset of the site’s content. A partial inventory may include, for example, the top few levels of a hierarchical site or the past six months of articles. All sections of the site will be covered.</br>
+-Content sample: A less detailed collection of example content from the site.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+The content audit type will depend on the nature of the request, mostly for website redesing its required to do a full content inventory, for project maintenance its a partial one!
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+Ux mastery has a great guide on content audits https://uxmastery.com/how-to-conduct-a-content-audit/
