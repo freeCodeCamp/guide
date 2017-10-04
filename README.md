@@ -64,6 +64,15 @@ yarn run dev
 
 In this project we are using `yarn` because `netlify` builds our site with `yarn`.
 
+## For adding service workers
+
+The first step to making the app work offline is to register a service worker, a script that allows background functionality without the need for an open web page or user interaction.
+
+This takes two simple steps:
+
+1. Tell the browser to register the JavaScript file as the service worker.
+2. Create a JavaScript file containing the service worker.
+
 ## Article style guide
 
 We've written the following guide to writing Guide articles to help you get started contributing.
