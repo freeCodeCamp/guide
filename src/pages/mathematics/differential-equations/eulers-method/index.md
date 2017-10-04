@@ -18,11 +18,11 @@ Euler's method uses the simple formula,
 
 to construct the tangent at the point `x` and obtain the value of `y(x+h)`, whose slope is, 
 
-![](https://raw.githubusercontent.com/pranabendra/articles/master/Euler-method/images/eqn008.png).
+![](https://raw.githubusercontent.com/pranabendra/articles/master/Euler-method/images/eqn008.png)
 
 In Euler's method, you can approximate the curve of the solution by the tangent in each interval (that is, by a sequence of short line segments), at steps of `h`.
 
-In <i>general</i>, if you use small step size, the accuracy of approximation increases.
+<i>In general</i>, if you use small step size, the accuracy of approximation increases.
 
 ## General Formula
 
@@ -62,7 +62,7 @@ Find `y(1)`, given
 &nbsp;&nbsp;&nbsp;&nbsp; ![](https://raw.githubusercontent.com/pranabendra/articles/master/Euler-method/images/eqn007.png)
 
 
-Solving analytically, the solution is <b>y = e<sup>x</sup></b> and `y(1)`= `2.71828`. (Note: This analytic solution is just for comparing the accuracy.)
+Solving analytically, the solution is <i><b>y = e<sup>x</sup></b></i> and `y(1)`= `2.71828`. (Note: This analytic solution is just for comparing the accuracy.)
 
 Using Euler's method, considering `h` = `0.2`, `0.1`, `0.01`, you can see the results in the diagram below.
 
