@@ -1,15 +1,19 @@
 ---
 title: jQuery CSS Method
 ---
-## jQuery CSS Method
+We can also change the CSS of an HTML element directly with jQuery.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/jquery/jquery-css-method/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+jQuery has a function called `.css()` that allows you to change the CSS of an element.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+    <script>
+      $(document).ready(function() {
+        $("#target1").css("color", "red");
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+      });
+    </script>
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+
+1) Official documentation: <a href="https://api.jquery.com/css/"> jQuery & CSS</a>
 
 

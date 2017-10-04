@@ -3,8 +3,8 @@ title: npm
 ---
 ## npm
 
-npm is a package manager and is used to install and manage dependencies.
-npm is central to the vibrant JavaScript(and specifically the Node.js) community, by making module and code reusability across projects very simple.
+npm is a package manager, used to install and manage dependencies.
+npm is central to the vibrant JavaScript (and specifically the Node.js) community, by making module and code reusability across projects very simple.
 Currently npm has upwards of 500,000 available packages.
 npm is useful not only for server side projects. Most popular front-end libraries like Bootstrap and Font Awesome are available too.
 
