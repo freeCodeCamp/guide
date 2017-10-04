@@ -1,15 +1,27 @@
 ---
-title: Borders
+title: Border Property
 ---
-## Borders
+## Border Property
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/borders/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `border` shorthand property sets all the border properties in one declaration. 
+```css 
+  border: 1px solid #000;
+```
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The properties that can be set, are (in order): 
+1. `border-width`
+2. `border-style`
+3. `border-color`
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+It does not matter if one of the values above are missing, for example:
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+```css 
+  border: solid red;
+```
+The above code is also valid CSS.
 
+### More Information:
 
+MDN Documentation: <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/border' target='_blank' rel='nofollow'>MDN</a>
+
+Browser Support: IE6+

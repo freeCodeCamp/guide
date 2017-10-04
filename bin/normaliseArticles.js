@@ -1,31 +1,9 @@
-const Rx = require('rx');
 const fse = require('fs-extra');
-const chalk = require('chalk');
+const { Observable } = require('rx');
 
-const { commonREs, excludedDirs, titleify } = require('./seed/utils');
+const { commonREs, titleify, info, readDir, pagesDir } = require('../utils');
 
-const {
-  httpsRE,
-  isAFileRE,
-  isAStubRE,
-  markdownLinkRE,
-  shouldBeIgnoredRE
-} = commonREs;
-
-const { Observable } = Rx;
-
-function info(str, colour = 'red') {
-  console.log(chalk[colour](str));
-}
-
-const pagesDir = `${process.cwd()}/src/pages`;
-
-
-function readDir(dir) {
-  return fse.readdirSync(dir)
-  .filter(item => !isAFileRE.test(item))
-  .filter(file => !shouldBeIgnoredRE.test(file));
-}
+const { httpsRE, isAStubRE, markdownLinkRE } = commonREs;
 
 function appendStub(path) {
   const pathArr = path.split('/');
@@ -127,7 +105,6 @@ function normalise(dirLevel) {
 
 function applyNormaliser(dirLevel) {
   return Observable.from(readDir(dirLevel))
-    .filter(dir => !excludedDirs.includes(dir))
     .flatMap(dir => {
       const dirPath = `${dirLevel}/${dir}`;
       const subDirs = readDir(dirPath);

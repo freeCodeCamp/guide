@@ -18,6 +18,6 @@ The text-decoration property specifies the decoration added to text. It has 6 po
 
 #### More Information:
 
-Docs: [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration)
+Docs: <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration' target='_blank' rel='nofollow'>Mozilla Developer Network</a>
 
-Browser Support: [Caniuse](http://caniuse.com/#search=text-decoration)
+Browser Support: <a href='http://caniuse.com/#search=text-decoration' target='_blank' rel='nofollow'>Caniuse</a>

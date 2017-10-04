@@ -1,26 +1,18 @@
 const fse = require('fs-extra');
-const Rx = require('rx');
+const { Observable } = require('rx');
 
-const { Observable } = Rx;
-const topLevel = 'src/pages';
+const { commonREs, info, readDir, pagesDir } = require('../utils');
+
+const { isAStubRE, metaTitleRE } = commonREs;
+
 const navData = {};
 
-const { commonREs, excludedDirs } = require('./utils');
-
-const { isAFileRE, isAStubRE, metaRE, shouldBeIgnoredRE } = commonREs;
-
-function readDir(dir) {
-  return fse
-    .readdirSync(`${process.cwd()}/${dir}/`)
-    .filter(item => !isAFileRE.test(item))
-    .filter(dir => !excludedDirs.includes(dir))
-    .filter(file => !shouldBeIgnoredRE.test(file));
-}
-
-function getPageTitle(content) {
-  // meta = '---\ntitle: Frontmatter Title\n---'
-  const meta = content.match(metaRE)[0];
-  return meta.split('\n')[1].replace('title: ', '');
+function getPageTitle(content, path) {
+  try {
+    return content.match(metaTitleRE)[1].trim();
+  } catch (err) {
+    throw `Error reading the frontmatter from "${path}/index.md"`;
+  }
 }
 
 function listAllDirs(level, prevPages = []) {
@@ -30,7 +22,7 @@ function listAllDirs(level, prevPages = []) {
     const content = fse.readFileSync(`${dirPath}/index.md`, 'utf8');
     const subDirs = readDir(dirPath);
     const parent = level.split('/')[level.split('/').length - 1];
-    const title = getPageTitle(content);
+    const title = getPageTitle(content, dirPath);
     const isStubbed = isAStubRE.test(content);
     // remove 'src/pages' from the path
     const articlePath = dirPath.slice(9);
@@ -52,9 +44,11 @@ function listAllDirs(level, prevPages = []) {
     return listAllDirs(dirPath, accuPages);
   });
 }
-module.exports = function createNavData() {
+
+function createNavData() {
+  info('Creating navData...', 'yellow');
   const startTime = Date.now();
-  listAllDirs(topLevel, [])
+  listAllDirs(pagesDir, [])
     .toArray()
     .subscribe(
       () => {},
@@ -68,18 +62,19 @@ module.exports = function createNavData() {
             JSON.stringify(navData, null, 2)
           )
           .then(() => {
-            const endTime = Date.now();
+            const msTaken = Date.now() - startTime;
             const pages = Object.keys(navData).length;
-            console.log(`
-navData created
-
-It took ${endTime - startTime}ms to create the nav data for ${pages} pages
-`);
+            info('navData created', 'greenBright');
+            info(
+              `It took ${msTaken}ms to create the navData for ${pages} pages`,
+              'yellow'
+            );
           })
           .catch(err => {
-            console.error(err);
             throw new Error(err);
           });
       }
     );
-};
+}
+
+createNavData();
