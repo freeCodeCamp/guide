@@ -1,5 +1,5 @@
 ---
-title: Declare JavaScript Variables
+title: Declare Variables
 ---
 When we store data in a data structure, we call it a variable. JavaScript variables are written in `camel case`. An example of camel case is: `camelCase`.
 

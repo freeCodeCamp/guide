@@ -22,6 +22,6 @@ You can use percentage, length value or use the `inherit` keyword.
 
 #### More Information:
 
-Docs: [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/padding)
+Docs: <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/padding' target='_blank' rel='nofollow'>MDN</a>
 
 Browser Support: It's effectively supported in all browsers (since IE6+, Firefox 2+, Chrome 1+ etc)
