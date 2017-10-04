@@ -20,6 +20,10 @@ to construct the tangent at the point `x` and obtain the value of `y(x+h)`, whos
 
 ![](https://raw.githubusercontent.com/pranabendra/articles/master/Euler-method/images/eqn008.png)
 
+
+<img src="https://raw.githubusercontent.com/pranabendra/articles/master/Euler-method/images/Euler.png" width="600">
+
+
 In Euler's method, you can approximate the curve of the solution by the tangent in each interval (that is, by a sequence of short line segments), at steps of `h`.
 
 <i>In general</i>, if you use small step size, the accuracy of approximation increases.
@@ -28,11 +32,7 @@ In Euler's method, you can approximate the curve of the solution by the tangent 
 
 ![](https://raw.githubusercontent.com/pranabendra/articles/master/Euler-method/images/eqn7.png)
 
-where,
-* ![](https://raw.githubusercontent.com/pranabendra/articles/master/Euler-method/images/eqn9.png) is the next estimated solution value;
-* ![](https://raw.githubusercontent.com/pranabendra/articles/master/Euler-method/images/eqn10.png) is the current value;
-* `h` is the interval between steps;
-* ![](https://raw.githubusercontent.com/pranabendra/articles/master/Euler-method/images/eqn005.png)
+![](https://raw.githubusercontent.com/pranabendra/articles/master/Euler-method/images/eqn_new_2.png)
 
 ## Functional value at any point `b`, given by `y(b)`
 
@@ -44,16 +44,7 @@ where,
 
 ### Pseudocode
 
-1. define `f(x,y)`
-2. input ![](https://raw.githubusercontent.com/pranabendra/articles/master/Euler-method/images/eqn17.png)
-3. input `h`, `n`
-4. for `j` from `0` to `(n-1)` do
-
-* ![](https://raw.githubusercontent.com/pranabendra/articles/master/Euler-method/images/eqn13.png)
-* ![](https://raw.githubusercontent.com/pranabendra/articles/master/Euler-method/images/eqn14.png)
-* ![](https://raw.githubusercontent.com/pranabendra/articles/master/Euler-method/images/eqn003.png)
-
-5. end
+![](https://raw.githubusercontent.com/pranabendra/articles/master/Euler-method/images/eqn_new_1.png)
 
 ## Example
 
