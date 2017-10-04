@@ -32,4 +32,4 @@ is the same as:
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
-[MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img)
+<a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img' target='_blank' rel='nofollow'>MDN</a>

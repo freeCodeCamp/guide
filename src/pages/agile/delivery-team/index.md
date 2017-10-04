@@ -3,9 +3,9 @@ title: Delivery Team
 ---
 ## Delivery Team
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/delivery-team/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+A scrum team is made up of the Product Owner (PO), the Scrum Master (SM), and the Delivery Team.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The delivery team is everyone but the PO and SM; the developers, testers, system analysts, database analysists, UI / UX analysts, and so on.
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
