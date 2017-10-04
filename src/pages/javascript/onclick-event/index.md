@@ -21,7 +21,7 @@ In the simple example above, when a user clicks on the button they will see an a
 The `onclick` event can also be programmatically added to any element using the following code in the following example:
 
 ```javascript
-<p>click on this element.</p>
+<p id="foo">click on this element.</p>
 
 <script>
   var p = document.getElementById("foo"); // Find the paragraph element in the page
