@@ -7,41 +7,43 @@ So great you have successfully created a Car class. But, wait, aren't Tesla cars
 
 Solution : **Inheritance**. Java provides a neat way to "inherit" parent properties :
 
-    public class Car {
+```java
+public class Car {
 
-        private String name;
-        private String manufacturerName;
+	private String name;
+	private String manufacturerName;
 
-        public Car(String name, String man) {
-            this.name = name;
-            this.manufacturerName = man;
-        }
-        // Getter method
-        public String getName() {
-            return name;
-        }
-        // Getter method
-        public String getManufacturerName() {
-            return manufacturerName;
-        }
-    }
+	public Car(String name, String man) {
+		this.name = name;
+		this.manufacturerName = man;
+	}
+	// Getter method
+	public String getName() {
+		return name;
+	}
+	// Getter method
+	public String getManufacturerName() {
+		return manufacturerName;
+	}
+}
 
-    public class ElectricCar extends Car {
+public class ElectricCar extends Car {
 
-        public ElectricCar(String name, String man) {
-            super(name, man);
-        }
+	public ElectricCar(String name, String man) {
+		super(name, man);
+	}
 
-        public void charge() {
-         System.out.println("Charging ...");
-        }
-    }
+	public void charge() {
+	 System.out.println("Charging ...");
+	}
+}
 
-    ElectricCar modelS = new ElectricCar("Model S","Tesla");
-    // prints Tesla
-    System.out.println(modelS.getManufacturerName());
-    // prints Charging ...
-    modelS.charge();
+ElectricCar modelS = new ElectricCar("Model S","Tesla");
+// prints Tesla
+System.out.println(modelS.getManufacturerName());
+// prints Charging ...
+modelS.charge();
+```
 
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CJZY/0' target='_blank' rel='nofollow'>Run Code</a>
 

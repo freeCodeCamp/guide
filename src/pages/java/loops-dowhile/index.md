@@ -7,11 +7,13 @@ The `do..while` loop is a special case of the `while` loop wherein the group of 
 
 Can you guess the output of the following code snippet?
 
-    int i=10;
-    do{
-        System.out.println("The value of i is " + i);
-        i--;
-    }while( i >= 10 );
+```java
+int i = 10;
+do{
+	System.out.println("The value of i is " + i);
+	i--;
+} while(i >= 10);
+```
 
 `Remember` : The condition of a `do-while` loop is checked After the code body is executed once.
 

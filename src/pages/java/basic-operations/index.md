@@ -18,6 +18,7 @@ While most of the operations are self explanatory, the Conditional (Ternary) Ope
 `expression that results in boolean output ? return this value if true : return this value if false`
 
 For e.g:
-
-    int x = 10;
-    int y = (x == 10) ? 5 : 9; <-- y will equal 5 since the expression x == 10 evaluates to true
+```java
+int x = 10;
+int y = (x == 10) ? 5 : 9; <-- y will equal 5 since the expression x == 10 evaluates to true
+```
