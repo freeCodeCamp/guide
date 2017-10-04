@@ -1,15 +1,102 @@
 ---
-title: Is There a Way to Substring a String in Python
+Is There a Way to Substring a String in Python
 ---
-## Is There a Way to Substring a String in Python
+Python offers many ways to substring a string. It is often called 'slicing'.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/python/is-there-a-way-to-substring-a-string-in-python/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+It follows this template:
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+```python
+string[start: end: step]
+```
+Where,
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```start```: The starting index of the substring. The character at this index is included in the substring. If _start_ is not included, it is assumed to equal to 0.
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+```end```: The terminating index of the substring. The character at this index is _NOT_ included in the substring. If _end_ is not included, the substring goes from _start_ till the end of the the string.
+
+```step```: Every 'step' character after the current character to be included. The default value is 1. If the _step_ value is omitted, it is assumed to equal to 1.
+
+#### Template
+
+```string[start:end]```: Get all characters from index _start_ to _end-1_
+
+```string[:end]```: Get all characters from the beginning of the string to _end-1_
+
+```string[start:]```: Get all characters from index _start_ to the end of the string
+
+```string[start:end:step]```: Get all characters from _start_ to _end-1_ discounting every _step_ character
+
+
+#### Examples
+
+* **Get the first 5 characters of a string**
+
+```python
+string = "freeCodeCamp"
+print(string[0:5])
+```
+Output:
+```python
+> freeC
+```
+
+Note: ```print(string[:5])``` returns the same result as ```print(string[0:5])```
+
+* **Get a substring of length 4 from the 3rd character of the string**
+
+```python
+string = "freeCodeCamp"
+print(string[2:6])
+```
+Output:
+```python
+> eeCo
+```
+
+* **Get the last character of the string**
+
+```python
+string = "freeCodeCamp"
+print(string[-1])
+```
+Output:
+```python
+> p
+```
+
+Note: Python can handle negative indices. Index -1 represents the last character of the string, -2 represents the second to last character and so on...
+
+* **Get the last 5 characters of a string**
+
+```python
+string = "freeCodeCamp"
+print(string[-5:])
+```
+Output:
+```python
+> eCamp
+```
+
+* **Get a substring which contains all characters except the last 4 characters and the 1st character**
+
+```python
+string = "freeCodeCamp"
+print(string[1:-4])
+```
+Output:
+```python
+> reeCode
+```
+
+* **Get every other character from a string**
+
+```python
+string = "freeCodeCamp"
+print(string[::2])
+```
+Output:
+```python
+> feCdCm
+```
 
 
