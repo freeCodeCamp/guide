@@ -1,5 +1,5 @@
 ---
-  title: Adobe Experience Design
+title: Adobe Experience Design
 ---
 
 ## Adobe Experience Design
