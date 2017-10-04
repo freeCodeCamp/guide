@@ -1,5 +1,5 @@
 ---
-title: Ram
+title: RAM
 ---
 ## RAM
 
