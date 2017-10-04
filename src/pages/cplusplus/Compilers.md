@@ -1,11 +1,11 @@
 # Intro to C++ Compilers
 
-In order to get started with C++, you will need to learn alittle about compilers and how C++ runs on your computer.
+In order to get started with C++, you will need to learn a little about compilers and how C++ runs on your computer.
 
 When all is said and done, computers only understand one language, machine language. Machine language is entirely made up of
 binary bits, or 0s and 1s. While it would be possible to program in binary, it would be incredibly tedious and time consuming. 
 So, we humans developed programming languages to make it easier to develop software. Assembly language is a direct 1 to 1 with machine
-language. Languages like C, C++, and COBOL are alittle higher and need to be compiled down. It goes even higher. Languages
+language. Languages like C, C++, and COBOL are a little higher and need to be compiled down. It goes even higher. Languages
 like JavaScript and Python have components that get translated into C++ or other low level languages before they get compiled, 
 effectively making them "higher" languages than C or C++.
 Because computer architecture is made up of electronic switches and cables that can only work with binary 1s and 0s,
@@ -14,7 +14,7 @@ you need a compiler to translate your code from high level C++ to machine langua
 Compilers are utility programs that take your code and transform it into executable machine code files. When you run a compiler
 on your code, first, the preprocessor reads the source code (the C++ file you just wrote). The preprocessor searches for any
 preprocessor directives (lines of code starting with a #). Preprocessor directives cause the
-preprocessor to change your code in some way (by usually adding some library or other C++ file). 
+preprocessor to change your code in some way (by usually adding some library or another C++ file). 
 Next, the compiler works through the preprocessed code line by line translating
 each line into the appropriate machine language instruction. This will also uncover any syntax errors that are present in your
 source code and will throw an error to the command line. Finally, if no errors are present, the compiler creates an object 
@@ -23,26 +23,26 @@ is likely enough to do something on your computer, it still isn't a working exec
 important step to reach an executable program.
 
 C++ contains a vast library to aid in performing difficult tasks like I/O and hardware manipulation. You can include these 
-libraries with preprocessor directives, but the preprocessor dosen't automatically add them to your code. In order for you to have 
+libraries with preprocessor directives, but the preprocessor doesn't automatically add them to your code. In order for you to have 
 a final executable program, another utility known as the linker must combine your object files with the library functions
-necessary to run the code. Think of it as havign all the necessary blocks
+necessary to run the code. Think of it as having all the necessary blocks
 to build a house. The compiler made all the blocks but the linker is the one that sticks them all together to finally create a house.
 Once this is done, you now have a functioning executable file!
 
 
 ## How to Compile a file
-Lets say you have a C++ file called `helloWorld.cpp` ...
+Let's say you have a C++ file called `helloWorld.cpp` ...
 
 ### If you are on Windows -- 
 1. Open a Developer Command Prompt - For this step, you will need to have Microsoft Visual Studio or some other IDE that 
 enables you to compile your program from the command line. You can also search online for C++ compilers.
 
-2. Navigate to the source code directy
+2. Navigate to the source code directly
 
 3. Run the Compiler on your source code (assuming you are using the Microsoft Visual Studio compiler)
 `cl /EHsc helloWorld.cpp`
 
-This will now create a object file and automatically link it for you. If you look in that same folder, you will see a 
+This will now create an object file and automatically link it to you. If you look in that same folder, you will see a 
 hellWorld.exe executable file (note the exe extension) is now present.
 
 4. Type `helloWorld` into the prompt to run the executable
@@ -55,7 +55,7 @@ windows may not come pre packaged with a compiler utility.
 2. Run the Compiler on your source code
 `g++ helloWorld.cpp -o helloWorld`
 
-This will create an object file and automatically link it for you. Look in the folder and you will see a helloWorld.exe 
+This will create an object file and automatically link it to you. Look in the folder and you will see a helloWorld.exe 
 executable file (note the exe extension). 
 
 3. Type `./helloWorld` in the terminal window to run the executable file
