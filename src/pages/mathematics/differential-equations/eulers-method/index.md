@@ -72,5 +72,5 @@ When `h` = `0.01`, `y(1)` = `2.70481`  (error = 0.50 %)
 You can notice, how accuracy improves when steps are small.
 
 ## More Information:
-1. [Numerical Methods for Solving Differential Equations](http://calculuslab.deltacollege.edu/ODE/7-C-1/7-C-1-h-c.html)
-2. [Euler's method](https://en.wikipedia.org/wiki/Euler_method)
+1. <a href='http://calculuslab.deltacollege.edu/ODE/7-C-1/7-C-1-h-c.html' target='_blank' rel='nofollow'>Numerical Methods for Solving Differential Equations</a>
+2. <a href='https://en.wikipedia.org/wiki/Euler_method' target='_blank' rel='nofollow'>Euler's method</a>

@@ -122,6 +122,6 @@ g) `carousel-caption` :- This class let you add captions to each slide.
 Note: Add `class="carousel-caption"` for each item.
 
 
-#### Additional Details : [Bootstrap Carousel](https://getbootstrap.com/docs/4.0/components/carousel/)
+#### Additional Details : <a href='https://getbootstrap.com/docs/4.0/components/carousel/' target='_blank' rel='nofollow'>Bootstrap Carousel</a>
 
 
