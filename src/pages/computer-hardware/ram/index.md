@@ -1,7 +1,7 @@
 ---
-title: Ram
+title: RAM
 ---
-## Ram
+## RAM
 
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/computer-hardware/ram/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
