@@ -8,6 +8,6 @@ The `instanceof` operator allows you to check the validity of a `IS A` relations
 ```java
 //assuming vehicle is an instance of Class `Car` the expression inside the 'if' will  return true
 if(vehicle instanceof Car){
-	//do something if vehicle is a Car
+    //do something if vehicle is a Car
 }
 ```

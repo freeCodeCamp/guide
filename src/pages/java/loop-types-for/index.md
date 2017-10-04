@@ -7,7 +7,7 @@ The `for` loop give you a compact way to iterate over a range of values.
 
 ```java
 for (initialization; expression; increment){
-	// Statements
+    // Statements
 }
 ```
 
@@ -18,8 +18,8 @@ for (initialization; expression; increment){
 ```java
 int iter_For;
 for (iter_For = 0; iter_For < 10; iter_For++){
-	System.out.print(iter_For + " ");
-	// Iterated 10 times, iter_For 0,1,2...9
+    System.out.print(iter_For + " ");
+    // Iterated 10 times, iter_For 0,1,2...9
 }
 System.out.println("iter_For Value: " + fooFor);
 ```

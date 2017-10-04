@@ -12,32 +12,32 @@ Objects are _instances_ of a class. All objects are instances of a certain class
 ```java
 // Car class
 public class Car {
-	// car name
-	private String name;
-	
-	// car mannufacturer name
-	private String manufacturerName;
-	
-	// constructor
-	public Car(String name, String man) {
-		this.name = name;
-		this.manufacturerName = man;
-	}
-	
-	// getter method
-	public String getName() {
-		return name;
-	}
-	
-	// getter method
-	public String getManufacturerName() {
-		return manufacturerName;
-	}
+    // car name
+    private String name;
+    
+    // car mannufacturer name
+    private String manufacturerName;
+    
+    // constructor
+    public Car(String name, String man) {
+        this.name = name;
+        this.manufacturerName = man;
+    }
+    
+    // getter method
+    public String getName() {
+        return name;
+    }
+    
+    // getter method
+    public String getManufacturerName() {
+        return manufacturerName;
+    }
 
-	//setter method
-	public void setName(String name){
-		this.name = name;
-	}
+    //setter method
+    public void setName(String name){
+        this.name = name;
+    }
 }
 
 Car modelS = new Car("Model S","Tesla");

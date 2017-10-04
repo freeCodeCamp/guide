@@ -7,7 +7,7 @@ The `do while` is very similar to the `while` loop in the way it works, but is _
 
 ```java
 do {
-	// Statements
+    // Statements
 } while (expression);
 ```
 
@@ -16,10 +16,10 @@ This kind of loop is particularly useful if you want your `Statements` to be exe
 ```java
 int iter_DoWhile = 20;
 do{
-	System.out.print(iter_DoWhile + " ");
+    System.out.print(iter_DoWhile + " ");
 
-	// Increment the counter
-	iter_DoWhile++;
+    // Increment the counter
+    iter_DoWhile++;
 } while(iter_DoWhile < 10);
 System.out.println("iter_DoWhile Value: " + iter_DoWhile);
 ```

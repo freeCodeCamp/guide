@@ -16,10 +16,10 @@ In the following example, the `expression` is given by `iter_While < 10`. As we 
 ```java
 int iter_While = 0;
 while (iter_While < 10){
-	System.out.print (iter_While + " ");
-	// Increment the counter
-	// Iterated 10 times, iter_While 0,1,2...9
-	iter_While++;
+    System.out.print (iter_While + " ");
+    // Increment the counter
+    // Iterated 10 times, iter_While 0,1,2...9
+    iter_While++;
 }
 System.out.println ("iter_While Value: " + iter_While);
 ```

@@ -14,21 +14,21 @@ Let's describe it with the classic example of a `Vehicle` class and a `Car` clas
 
 ```java
 public class Vehicle {
-	public void start() {
-		// starting the engine
-	}
+    public void start() {
+        // starting the engine
+    }
 
-	public void stop() {
-		// stopping the engine
-	}
+    public void stop() {
+        // stopping the engine
+    }
 }
 
 public class Car extends Vehicle {
-	int numberOfSeats = 4;
+    int numberOfSeats = 4;
 
-	public int getNumberOfSeats() {
-		return numberOfSeats;
-	}
+    public int getNumberOfSeats() {
+        return numberOfSeats;
+    }
 }
 ```
 
@@ -97,14 +97,14 @@ Java lets you _override_ or redefine the methods defined in the superclass. For 
 
 ```java
 public class Vehicle {
-	public void start() {
-	  System.out.println("Vehicle start code");
-	}
+    public void start() {
+      System.out.println("Vehicle start code");
+    }
 }
 
 public class Car extends Vehicle {
-	public void start() {
-	  System.out.println("Car start code");
+    public void start() {
+      System.out.println("Car start code");
   }
 }
 
@@ -129,14 +129,14 @@ Funny you ask about it! Just use the keyword `super` :
 
 ```java
 public class Vehicle() {
-	public void start() {
-	  System.out.println("Vehicle start code");
-	}
+    public void start() {
+      System.out.println("Vehicle start code");
+    }
 }
 
 public class Car extends Vehicle {
-	public void run() {
-	  super.start();
+    public void run() {
+      super.start();
   }
 }
 
@@ -164,20 +164,20 @@ As mentioned earlier, constructors cannot be directly inherited by a subclass. A
 
 ```java
 public class Vehicle {
-	public Vehicle() {
-		// constructor
-	}
-	public void start() {
-	  System.out.println("Vehicle start code");
-	}
+    public Vehicle() {
+        // constructor
+    }
+    public void start() {
+      System.out.println("Vehicle start code");
+    }
 }
 
 public class Car extends Vehicle {
-	public Car() {
-	  super();
-	}
-	public void run() {
-	  super.start();
+    public Car() {
+      super();
+    }
+    public void run() {
+      super.start();
   }
 }
 ```

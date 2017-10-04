@@ -7,9 +7,9 @@ Interface in Java is a bit like the Class, but with a significant difference : a
 
 ```java
 public interface Vehicle {
-	public String licensePlate = "";
-	public void start();
-	public void stop();
+    public String licensePlate = "";
+    public void start();
+    public void stop();
 }
 ```
 
@@ -17,12 +17,12 @@ The interface above contains one field and two methods. Alone, it is not of much
 
 ```java
 public class Car implements Vehicle {
-	public void start() {
-		System.out.println("starting engine...");
-	}
-	public void stop() {
-		System.out.println("stopping engine...");
-	}
+    public void start() {
+        System.out.println("starting engine...");
+    }
+    public void stop() {
+        System.out.println("stopping engine...");
+    }
 }
 ```
 
@@ -48,19 +48,19 @@ What can you do with this feature? Polymorphism! You can use only interfaces to 
 
 ```java
 class Truck implements Vehicle {
-	public void start() {
-		System.out.println("starting truck engine...");
-	}
-	public void stop() {
-		System.out.println("stopping truck engine...");
-	}
+    public void start() {
+        System.out.println("starting truck engine...");
+    }
+    public void stop() {
+        System.out.println("stopping truck engine...");
+    }
 }
 
 class Starter {
-	// static method, can be called without instantiating the class
-	public static void startEngine(Vehicle vehicle) {
-		vehicle.start();
-	}
+    // static method, can be called without instantiating the class
+    public static void startEngine(Vehicle vehicle) {
+        vehicle.start();
+    }
 }
 
 Vehicle tesla = new Car();
@@ -78,24 +78,24 @@ Yes, you can implement multiple Interfaces in a single class. While in [Inherita
 
 ```java
 public interface GPS {
-	public void getCoordinates();
+    public void getCoordinates();
 }
 
 public interface Radio {
-	public void startRadio();
-	public void stopRadio();
+    public void startRadio();
+    public void stopRadio();
 }
 
 public class Smartphone implements GPS,Radio {
-	public void getCoordinates() {
-		// return some coordinates
-	}
-	public void startRadio() {
-	  // start Radio
-	}
-	public void stopRadio() {
-		// stop Radio
-	}
+    public void getCoordinates() {
+        // return some coordinates
+    }
+    public void startRadio() {
+      // start Radio
+    }
+    public void stopRadio() {
+        // stop Radio
+    }
 }
 ```
 
@@ -118,31 +118,31 @@ Thankfully, Java 8 now provides us `default` methods of Interfaces. A `default` 
 
 ```java
 public interface GPS {
-	public void getCoordinates();
-	default public void getRoughCoordinates() {
-		// implementation to return coordinates from rough sources
-		// such as wifi & mobile
-		System.out.println("Fetching rough coordinates...");
-	}
+    public void getCoordinates();
+    default public void getRoughCoordinates() {
+        // implementation to return coordinates from rough sources
+        // such as wifi & mobile
+        System.out.println("Fetching rough coordinates...");
+    }
 }
 
 public interface Radio {
-	public void startRadio();
-	public void stopRadio();
+    public void startRadio();
+    public void stopRadio();
 }
 
 public class Smartphone implements GPS,Radio {
-	public void getCoordinates() {
-		// return some coordinates
-	}
-	public void startRadio() {
-	  // start Radio
-	}
-	public void stopRadio() {
-		// stop Radio
-	}
+    public void getCoordinates() {
+        // return some coordinates
+    }
+    public void startRadio() {
+      // start Radio
+    }
+    public void stopRadio() {
+        // stop Radio
+    }
 
-	// no implementation of getRoughCoordinates()
+    // no implementation of getRoughCoordinates()
 }
 
 Smartphone motoG = new Smartphone();
@@ -157,29 +157,29 @@ Awesome question. In that case, if you do not provide the implementation in the 
 
 ```java
 public interface Radio {
-	// public void startRadio();
-	// public void stopRadio();
+    // public void startRadio();
+    // public void stopRadio();
 
-	default public void next() {
-		System.out.println("Next from Radio");
-	}
+    default public void next() {
+        System.out.println("Next from Radio");
+    }
 }
 
 public interface MusicPlayer {
-	// public void start();
-	// public void pause();
-	// public void stop();
+    // public void start();
+    // public void pause();
+    // public void stop();
 
-	default public void next() {
-		System.out.println("Next from MusicPlayer");
-	}
+    default public void next() {
+        System.out.println("Next from MusicPlayer");
+    }
 }
 
 public class Smartphone implements Radio, MusicPlayer {
-	public void next() {
-		// Suppose you want to call MusicPlayer next
-		MusicPlayer.super.next();
-	}
+    public void next() {
+        // Suppose you want to call MusicPlayer next
+        MusicPlayer.super.next();
+    }
 }
 
 Smartphone motoG = new Smartphone();
@@ -194,15 +194,15 @@ It is also possible in Java for an Interface to _inherit_ another Interface, by 
 
 ```java
 public interface Player {
-	public void start();
-	public void pause();
-	public void stop();
+    public void start();
+    public void pause();
+    public void stop();
 }
 
 public interface MusicPlayer extends Player {
-	default public void next() {
-		System.out.println("Next from MusicPlayer");
-	}
+    default public void next() {
+        System.out.println("Next from MusicPlayer");
+    }
 }
 ```
 
@@ -210,15 +210,15 @@ That means, the Class implementing `MusicPlayer` Interface has to implement _all
 
 ```java
 public class SmartPhone implements MusicPlayer {
-	public void start() {
-		System.out.println("start");
-	}
-	public void stop() {
-		System.out.println("stop");
-	}
-	public void pause() {
-		System.out.println("pause");
-	}
+    public void start() {
+        System.out.println("start");
+    }
+    public void stop() {
+        System.out.println("stop");
+    }
+    public void pause() {
+        System.out.println("pause");
+    }
 }
 ```
 

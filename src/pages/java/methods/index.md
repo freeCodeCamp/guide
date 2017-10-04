@@ -7,11 +7,11 @@ title: Java Docs Methods
 
 ```java
 public class Car {
-	private String name;
+    private String name;
 
-	public void changeName() {
-		name = "Tesla";
-	}
+    public void changeName() {
+        name = "Tesla";
+    }
 }
 ```
 

@@ -10,32 +10,32 @@ Solution : **Inheritance**. Java provides a neat way to "inherit" parent propert
 ```java
 public class Car {
 
-	private String name;
-	private String manufacturerName;
+    private String name;
+    private String manufacturerName;
 
-	public Car(String name, String man) {
-		this.name = name;
-		this.manufacturerName = man;
-	}
-	// Getter method
-	public String getName() {
-		return name;
-	}
-	// Getter method
-	public String getManufacturerName() {
-		return manufacturerName;
-	}
+    public Car(String name, String man) {
+        this.name = name;
+        this.manufacturerName = man;
+    }
+    // Getter method
+    public String getName() {
+        return name;
+    }
+    // Getter method
+    public String getManufacturerName() {
+        return manufacturerName;
+    }
 }
 
 public class ElectricCar extends Car {
 
-	public ElectricCar(String name, String man) {
-		super(name, man);
-	}
+    public ElectricCar(String name, String man) {
+        super(name, man);
+    }
 
-	public void charge() {
-	 System.out.println("Charging ...");
-	}
+    public void charge() {
+     System.out.println("Charging ...");
+    }
 }
 
 ElectricCar modelS = new ElectricCar("Model S","Tesla");

@@ -145,20 +145,20 @@ Example :
 ```java
 class Box{
 
-	int length, breadth, height;
+    int length, breadth, height;
 
-	public Box(){
-		length=5;
-		breadth=3;
-		height=2;
-	}
+    public Box(){
+        length=5;
+        breadth=3;
+        height=2;
+    }
 }
 
 class demo{
 
-	public static void main(String args[]) {
-		Box box1 = new Box();                //box1 is the reference variable  
-		char[] arr = new char[10];           //arr is the reference variable
-	}
+    public static void main(String args[]) {
+        Box box1 = new Box();                //box1 is the reference variable  
+        char[] arr = new char[10];           //arr is the reference variable
+    }
 }
 ```

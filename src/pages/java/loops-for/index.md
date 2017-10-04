@@ -9,7 +9,7 @@ There are 2 of these:
 
 ```java
 for(initialize variable; condition; modify variable){  
-	//perform action  
+    //perform action  
 }
 ```
 
@@ -17,7 +17,7 @@ For e.g.
 
 ```java  
 for(int i = 0; i < 10; i++){  
-	System.out.println("The value of is : " + i);  
+    System.out.println("The value of is : " + i);  
 }
 ```
 
@@ -29,6 +29,6 @@ Well, this came into existence in Java 5\. It helps when you are required to ite
 // assuming nameList is a List of names that are actually Strings
 Iterable<String> nameList = ...
 for(String name : nameList ){  
-	System.out.println(name);  
+    System.out.println(name);  
 }
 ```

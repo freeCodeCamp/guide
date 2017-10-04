@@ -7,10 +7,10 @@ The `continue` statement makes a loop skip all the following lines after the con
 
 ```java
 for (int j = 0; j < 10; j++){
-	if (j == 5){
-		continue;
-	}
-	System.out.print (j + " ");
+    if (j == 5){
+        continue;
+    }
+    System.out.print (j + " ");
 }
 ```
 
@@ -28,13 +28,13 @@ int max = searchWord.length();
 int numPs = 0;
 
 for(int i = 0; i < max; i++){
-	// We only want to count i's - skip other letters
-	if (searchWord.charAt(i) != 'i'){
-		continue;
-	}
+    // We only want to count i's - skip other letters
+    if (searchWord.charAt(i) != 'i'){
+        continue;
+    }
 
-	// Increase count_i for each i encountered
-	numPs++;
+    // Increase count_i for each i encountered
+    numPs++;
 }
 
 System.out.println("numPs = " + numPs);

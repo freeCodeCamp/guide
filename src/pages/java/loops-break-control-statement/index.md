@@ -7,12 +7,12 @@ Terminates the loop and starts the execution of the code that immediately follow
 
 ```java
 for (int i = 0; i < 10; i++){ // Loop 1
-	for (int j = 0; j < 10; j++){ // Loop 2
-		if (i == 5 && j == 5){
-			break;
-			// Will terminate Loop 2, but Loop 1 will keep going
-		}
-	}
+    for (int j = 0; j < 10; j++){ // Loop 2
+        if (i == 5 && j == 5){
+            break;
+            // Will terminate Loop 2, but Loop 1 will keep going
+        }
+    }
 }
 ```
 
@@ -21,12 +21,12 @@ But if you do want to break out of the outer loop too, you can use a label to ex
 ```java
 loop1: // This is a label
 for (int i = 0; i < 10; i++){ // Loop 1
-	for (int j = 0; j < 10; j++){ // Loop 2
-		if (i == 5 && j == 5){
-			break loop1;
-			// Will break out of Loop 1, instead of just breaking out of Loop 2
-		}
-	}
+    for (int j = 0; j < 10; j++){ // Loop 2
+        if (i == 5 && j == 5){
+            break loop1;
+            // Will break out of Loop 1, instead of just breaking out of Loop 2
+        }
+    }
 }
 ```
 
@@ -40,10 +40,10 @@ int[] arrayOfInts = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
 int searchFor = 5;
 
 for(int i : arrayOfInts){
-	if (arrayOfInts[j] == searchFor){
-		break;
-	}
-	j++;
+    if (arrayOfInts[j] == searchFor){
+        break;
+    }
+    j++;
 }
 
 System.out.println("j = " + j);

@@ -7,7 +7,7 @@ Also called the enhanced for loop, it is an extremely useful and simple way to i
 
 ```java
 for (object : iterable){
-	// Statements
+    // Statements
 }
 ```
 
@@ -17,8 +17,8 @@ The loop is read as - for each element in the `iterable` (could be an array, col
 int[] number_list = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
 
 for (int numbers : number_list){
-	System.out.print (numbers + " ");
-	//Iterated 10 times, numbers 0,1,2...9
+    System.out.print (numbers + " ");
+    //Iterated 10 times, numbers 0,1,2...9
 }
 ```
 

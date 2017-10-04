@@ -11,7 +11,7 @@ When you write a class without any constructor, then Java assumes it has a defau
 
 ```java
 public class Car {
-	private String name;
+    private String name;
 }
 
 Car modelS = new Car();
@@ -21,11 +21,11 @@ This initializing with no parameters is a way of calling the default constructor
 
 ```java
 public class Car {
-	private String name;
+    private String name;
 
-	public Car() {
-		name = "Tesla";
-	}
+    public Car() {
+        name = "Tesla";
+    }
 }
 ```
 
@@ -48,21 +48,21 @@ Let's look at another example. Say, Honda (the car manufacturer), wants all its 
 ```java
 public class Car {
 
-	private String name;
+    private String name;
 
-	//Constructor.
-	public Car(String model){
-		this.name = "Honda " + model;
-	}
+    //Constructor.
+    public Car(String model){
+        this.name = "Honda " + model;
+    }
 
-	public String getName(){
-		return this.name;
-	}
+    public String getName(){
+        return this.name;
+    }
 
-	public static void main(String args[]){
-		Car car = new Car("Civic");
-		System.out.println( car.getName() );
-	}
+    public static void main(String args[]){
+        Car car = new Car("Civic");
+        System.out.println( car.getName() );
+    }
 }
 ```
 
@@ -77,17 +77,17 @@ Assume you need a class to represent a Bank. You wouldn't want people to create 
 ```java
 public class Bank {
 
-	private static Bank instance;
-	
-	private Bank(){
-	}
+    private static Bank instance;
+    
+    private Bank(){
+    }
 
-	public static Bank getInstance(){
-		if(null == instance){
-			instance = new Bank();
-		}
-		return instance;
-	}
+    public static Bank getInstance(){
+        if(null == instance){
+            instance = new Bank();
+        }
+        return instance;
+    }
 }
 ```
 

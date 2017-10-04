@@ -8,16 +8,16 @@ If you want your loop to go on infinitely, you can use the `while`, `do while` a
 ```java
 // Infinite For Loop
 for ( ; ; ){
-	// your code here
+    // your code here
 }
 
 // Infinite While Loop
 while (true){
-	// your code here
+    // your code here
 }
 
 // Infinite Do While Loop
 do{
-	// your code here
+    // your code here
 } while (true);
 ```

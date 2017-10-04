@@ -10,8 +10,8 @@ Can you guess the output of the following code snippet?
 ```java
 int i = 10;
 do{
-	System.out.println("The value of i is " + i);
-	i--;
+    System.out.println("The value of i is " + i);
+    i--;
 } while(i >= 10);
 ```
 

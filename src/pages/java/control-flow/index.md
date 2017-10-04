@@ -8,49 +8,49 @@ Control flow statements are exactly what the term means. They are statements tha
 Primarily, Java has the following constructs for flow control:
 
 *   `if`
-	```java
-	if( <expression that results in a boolean>){
-		//code enters this block if the above expression is 'true'
-	}
-	```
+    ```java
+    if( <expression that results in a boolean>){
+        //code enters this block if the above expression is 'true'
+    }
+    ```
 
 *   `if...else`
-	```java
-	if( <expression that results in a boolean> ){
-		//execute this block if the expression is 'true'
-	} else{
-		//execute this block if the expression is 'false'
-	}
-	```
+    ```java
+    if( <expression that results in a boolean> ){
+        //execute this block if the expression is 'true'
+    } else{
+        //execute this block if the expression is 'false'
+    }
+    ```
 
 *   `switch`
 
 Switch is an alternative for the `if...else` construct when there are multiple values and cases to check against.
 ```java
 switch( <integer / String / Enum > ){
-	case <int/String/Enum>: 
-		<statements>
-		break;
-	case <int/String/Enum>:
-		<statements>
-	default:
-		<statements>
+    case <int/String/Enum>: 
+        <statements>
+        break;
+    case <int/String/Enum>:
+        <statements>
+    default:
+        <statements>
 }
 ```
 
 Note: The program flow `falls through` the next `case` if the `break` statement is missing. For e.g. Let's say you say the standard 'Hello' to everyone at office, but you are extra nice to the girl who sits next to you and sound grumpy to your boss. The way to represent would be something like:
 ```java
 switch(person){
-	case 'boss': 
-		soundGrumpy();
-		break;
-	case 'neighbour': 
-		soundExtraNice();
-	case 'colleague':
-		soundNormal();
-		break;
-	default:
-		soundNormal();
+    case 'boss': 
+        soundGrumpy();
+        break;
+    case 'neighbour': 
+        soundExtraNice();
+    case 'colleague':
+        soundNormal();
+        break;
+    default:
+        soundNormal();
 }
 ```
 
@@ -71,21 +71,21 @@ int cash = 50;
 String company = "friends";
 
 if(cash<25){
-	getCoffee();
+    getCoffee();
 } else if(cash < 60){
-	getDecentMeal();
+    getDecentMeal();
 } else if(cash < 100){
-	getDecentMeal();
-	getGlassOfWine();
+    getDecentMeal();
+    getGlassOfWine();
 } else {
-	switch(company){
-		case "wife":
-			candleLitDinner();
-			break;
-		case "friends": 
-			meetFriendsAtSportsBar();
-			break;
-	}
+    switch(company){
+        case "wife":
+            candleLitDinner();
+            break;
+        case "friends": 
+            meetFriendsAtSportsBar();
+            break;
+    }
 }
 ```
 
