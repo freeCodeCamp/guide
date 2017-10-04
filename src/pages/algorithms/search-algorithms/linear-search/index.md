@@ -5,7 +5,7 @@ title: Linear Search
 
 Suppose you are given a list or an array of items. You are searching for a particular item. How do you do that?
 
-Find the the number 13 in the given list.
+Find the number 13 in the given list.
 
 ![Linear Search 1](https://i.imgur.com/ThkzYEV.jpg)
 
@@ -15,7 +15,7 @@ You just look at the list and there it is!
 
 Now, how do you tell a computer to find it.
 
-A computer cannot look at more than value at a given instant of time. So it takes one item from the array and checks if it is the same as what you are looking for.
+A computer cannot look at more than the value at a given instant of time. So it takes one item from the array and checks if it is the same as what you are looking for.
 
 ![Linear Search 3](https://i.imgur.com/ZOSxeZD.jpg)
 
@@ -29,7 +29,7 @@ This is done till a match is found or until all the items have been checked.
 
 ![Linear Search 5](https://i.imgur.com/3AaViff.jpg)
 
-In this algorithm you can stop when the item is found and then there is no need to look further.
+In this algorithm, you can stop when the item is found and then there is no need to look further.
 
 So how long would it take to do the linear search operation?
 In the best case, you could get lucky and the item you are looking at maybe at the first position in the array!
