@@ -2,14 +2,16 @@
 title: Binary Search
 ---
 ## Binary Search
+<p>A binary search locates an item in a sorted array by repeatedly dividing the search interval in half.</p>
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/algorithms/search-algorithms/binary-search/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+<p>The initial interval includes the entire array.</p>
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+<p>If the value of the search key is less than the item in the middle of the interval, then the next interval will be the lower half of the current interval.</p>
+<p>If the value of the search key is greater than the middle item, then the next interval will be the upper half.</p>
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+<p>The search process repeats until the item is found or the search interval is empty.</p>
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+### More Information
+<a href="https://youtu.be/P3YID7liBug">Binary search (YouTube video)</a>
 
 

@@ -21,7 +21,7 @@
     "gatsby-plugin-sitemap": "^1.2.0",
     "gatsby-remark-prismjs": "^1.2.0",
     "gatsby-remark-smartypants": "^1.4.1",
-    "gatsby-source-filesystem": "^1.4.1",
+    "gatsby-source-filesystem": "1.4.10",
     "gatsby-transformer-remark": "^1.6.3",
     "prop-types": "^15.5.10",
     "react": "^15.6.1",
@@ -49,11 +49,11 @@
   "main": "n/a",
   "scripts": {
     "_comment": "ONLY RUN BUILD IF YOUR SYSTEM HAS 8GB OR MORE OF RAM",
-    "build": "node seed && node --max_old_space_size=7168 ./node_modules/.bin/gatsby build",
-    "dev": "node seed && gatsby develop",
+    "build": "node bin/createNavData && node --max_old_space_size=7168 ./node_modules/gatsby/dist/gatsby-cli.js build",
+    "dev": "node bin/createNavData && gatsby develop",
     "lint": "eslint --ext .js,.jsx --ignore-path .gitignore .",
     "pre-commit-message": "echo \"Running pre-commit script. This can take a while.\"",
-    "normalise": "node _normaliseArticles.js",
+    "normalise": "node bin/normaliseArticles",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "pre-commit": [
