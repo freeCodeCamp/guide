@@ -1,5 +1,5 @@
 ---
-String Join Method
+title: String Join Method
 ---
 ## String Join Method
 
