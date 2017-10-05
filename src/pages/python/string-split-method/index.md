@@ -16,7 +16,7 @@ This method returns a list of substrings delimited by the ```separator```
 
 #### Examples
 
-1) Split string on space: ```" "```
+1) Split string on space: " "
 ```python
 string = "freeCodeCamp is fun."
 print(string.split(" "))
@@ -26,7 +26,7 @@ Output:
 ['freeCodeCamp', 'is', 'fun.']
 ```
 
-2) Split string on comma: ```","```
+2) Split string on comma: ","
 ```python
 string = "freeCodeCamp,is fun, and informative"
 print(string.split(","))
@@ -56,7 +56,7 @@ Output:
 ['freeCodeCamp', 'is', 'fun', 'and', 'informative']
 ```
 
-3) Split string using ```maxsplit```. Here we split the string on ```" "``` twice:
+3) Split string using ```maxsplit```. Here we split the string on " " twice:
 ```python
 string = "freeCodeCamp is fun and informative"
 print(string.split(" ", 2))
