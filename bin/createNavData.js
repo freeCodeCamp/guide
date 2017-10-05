@@ -7,11 +7,20 @@ const { isAStubRE, metaTitleRE } = commonREs;
 
 const navData = {};
 
+function readIndex(path) {
+  try {
+    return fse.readFileSync(path, 'utf8');
+  } catch (err) {
+    throw `Could not read file at "${path}".`
+    + ' Make sure there is a valid article at "index.md" in the directory.';
+  }
+}
+
 function getPageTitle(content, path) {
   try {
     return content.match(metaTitleRE)[1].trim();
   } catch (err) {
-    throw `Error reading the frontmatter from "${path}/index.md"`;
+    throw `Error reading the frontmatter from "${path}"`;
   }
 }
 
@@ -19,10 +28,11 @@ function listAllDirs(level, prevPages = []) {
   let accuPages = [...prevPages];
   return Observable.from(readDir(level)).flatMap(parentDir => {
     const dirPath = `${level}/${parentDir}`;
-    const content = fse.readFileSync(`${dirPath}/index.md`, 'utf8');
+    const filePath = `${dirPath}/index.md`;
+    const content = readIndex(filePath);
     const subDirs = readDir(dirPath);
     const parent = level.split('/')[level.split('/').length - 1];
-    const title = getPageTitle(content, dirPath);
+    const title = getPageTitle(content, filePath);
     const isStubbed = isAStubRE.test(content);
     // remove 'src/pages' from the path
     const articlePath = dirPath.slice(9);
@@ -53,7 +63,7 @@ function createNavData() {
     .subscribe(
       () => {},
       err => {
-        throw new Error(err);
+        throw err;
       },
       () => {
         fse
@@ -71,7 +81,7 @@ function createNavData() {
             );
           })
           .catch(err => {
-            throw new Error(err);
+            throw err;
           });
       }
     );
