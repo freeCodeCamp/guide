@@ -3,13 +3,29 @@ title: Git Pull
 ---
 ## Git Pull
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/git/git-pull/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The <a href='https://git-scm.com/docs/git-pull' target='_blank' rel='nofollow'>`git pull`</a> command allows you to get new commits from a remote repository. To do this, `git pull` fetches (`git fetch`) the new commits and merges <a href='https://guide.freecodecamp.org/git/git-merge' target='_blank' rel='nofollow'>(`git merge`)</a> these into your local branch.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+This command's syntax is as follows:
+```
+git pull OPTIONS REPOSITORY REFSPEC
+```
+in which:
+- **OPTIONS** are the command options, such as `--quiet` or `--verbose`. You can read more about the different options in the <a href='https://git-scm.com/docs/git-pull' target='_blank' rel='nofollow'>Git documentation</a>
+- **REPOSITORY** is the URL to your repo. Example:  https://github.com/freeCodeCamp/freeCodeCamp.git
+- **REFSPEC** specifies which refs to fetch and which local refs to update
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+If you already have cloned a repository and want to **pull the latest commits**, all you'll have to do is:
+```
+git pull
+```
+If you want to **pull a specific branch**, you can use:
+```
+git fetch REMOTE-NAME BRANCH-NAME
+``` 
+in which:
+- **REMOTE-NAME** is the name of your remote repository. For example: *origin*.
+- **BRANCH-NAME** is the name of your branch. For example: *develop*.
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+If you have uncommited changes, the merge part of the `git pull` command will fail and your local branch will be untouched. 
 
-
+Thus, you should *always commit your changes in a branch before pulling* new commits from a remote repository.

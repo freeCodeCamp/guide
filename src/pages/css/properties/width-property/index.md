@@ -3,13 +3,22 @@ title: Width Property
 ---
 ## Width Property
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/properties/width-property/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The width property sets the width of an element. It can be a keyword value, a length value (any value followed by a CSS unit like px or em), percentage, or it can be inherited by it's parent. By default, it's value is auto.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+**Note**: The width property does not include padding, borders, or margins; it sets the width of the area inside the padding, border, and margin of the element!
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```css
+    .length-value {width: 100px;}
+    .percentage {width: 50%;}
+    .auto {width: auto;}
+    .inherit {width: inherit;}
+    .initial {width: initial;}
+```
+
+**Note**: The min-width and max-width properties override width.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
+Docs: <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/width' target='_blank' rel='nofollow'>MDN</a>
 
+Browser Support: It's categorised under the 'well supported sub-set', so need not worry for browser support
