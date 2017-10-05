@@ -3,13 +3,19 @@ title: CSS3 Borders Rounded Corners
 ---
 ## CSS3 Borders Rounded Corners
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/css3-borders-rounded-corners/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+With the CSS3 *border-radius* property, you can give any element "rounded corners".
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+## Example
+```css
+.button {
+  border: 1px solid black;
+  border-radius: 4px;
+}
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+The border-radius property is a shorthand property for the *border-top-left-radius*, *border-top-right-radius*, *border-bottom-right-radius* and *border-bottom-left-radius* properties.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+[Mozilla Developer Network article on border-radius property](https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius)
 
 
