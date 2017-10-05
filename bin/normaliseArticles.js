@@ -2,7 +2,7 @@ const fse = require('fs-extra');
 
 const { commonREs, titleify, info, loopPages } = require('../utils');
 
-const { httpsRE, isAStubRE, markdownLinkRE } = commonREs;
+const { isAStubRE, markdownLinkRE } = commonREs;
 
 function appendStub(path) {
   const pathArr = path.split('/');
@@ -38,27 +38,11 @@ This is a stub. [Help our community expand it](https://github.com/freecodecamp/g
 /* eslint-enable max-len */
 
 function normaliseLinks(content) {
-  let anchored = content.slice(0);
-  const links = content.match(markdownLinkRE);
-
-  if (links) {
-    links
-      .filter(x => !x.startsWith('!'))
-      .filter(x => x.match(httpsRE))
-      .map(str => {
-        // raw will look like: 
-        // [ '[guides website', 'https://guide.freecodecamp.org)' ]
-        const raw = str.slice(0).split('](');
-        const formatted = [ raw[0].replace('[', ''), raw[1].replace(')', '') ];
-        const [ childText, url ] = formatted;
-        const anchor = (
-          `<a href='${url}' target='_blank' rel='nofollow'>${childText}</a>`
-        );
-        anchored = anchored.replace(str, anchor);
-      });
-  }
-
-  return anchored;
+  return content.replace(markdownLinkRE, (match, before, text, url) => {
+    return markdownLinkRE.test(text) ? match : (
+      `${before}<a href='${url}' target='_blank' rel='nofollow'>${text}</a>`
+    );
+  });
 }
 
 function normalise(dirLevel) {
