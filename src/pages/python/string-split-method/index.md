@@ -1,5 +1,5 @@
 ---
-String Split Method
+title: String Split Method
 ---
 
 The ```split()``` function is commonly used for string splitting in Python. 
