@@ -16,7 +16,7 @@ Use glyphicons in text, navigation, buttons, forms, or toolbars.
 ```
 
 ## Note
-Bootstrap 4 dropped Glyphicons. You can use [Font Awesome Icons](http://fontawesome.io/icons/) instead
+Bootstrap 4 dropped Glyphicons. You can use [Font Awesome Icons](http://fontawesome.io/icons/) instead.
 
 #### More Information:
 [Official Bootstrap 3 docs on Glyphicons](https://getbootstrap.com/docs/3.3/components/#glyphicons)
