@@ -1,7 +1,6 @@
 const fse = require('fs-extra');
-const { Observable } = require('rx');
 
-const { commonREs, titleify, info, readDir, pagesDir } = require('../utils');
+const { commonREs, titleify, info, loopPages } = require('../utils');
 
 const { httpsRE, isAStubRE, markdownLinkRE } = commonREs;
 
@@ -43,20 +42,20 @@ function normaliseLinks(content) {
   const links = content.match(markdownLinkRE);
 
   if (links) {
-  links
-    .filter(x => !x.startsWith('!'))
-    .filter(x => x.match(httpsRE))
-    .map(str => {
-      // raw will look like: 
-      // [ '[guides website', 'https://guide.freecodecamp.org)' ]
-      const raw = str.slice(0).split('](');
-      const formatted = [ raw[0].replace('[', ''), raw[1].replace(')', '') ];
-      const [ childText, url ] = formatted;
-      const anchor = (
-        `<a href='${url}' target='_blank' rel='nofollow'>${childText}</a>`
-      );
-      anchored = anchored.replace(str, anchor);
-    });
+    links
+      .filter(x => !x.startsWith('!'))
+      .filter(x => x.match(httpsRE))
+      .map(str => {
+        // raw will look like: 
+        // [ '[guides website', 'https://guide.freecodecamp.org)' ]
+        const raw = str.slice(0).split('](');
+        const formatted = [ raw[0].replace('[', ''), raw[1].replace(')', '') ];
+        const [ childText, url ] = formatted;
+        const anchor = (
+          `<a href='${url}' target='_blank' rel='nofollow'>${childText}</a>`
+        );
+        anchored = anchored.replace(str, anchor);
+      });
   }
 
   return anchored;
@@ -103,30 +102,13 @@ function normalise(dirLevel) {
   });
 }
 
-function applyNormaliser(dirLevel) {
-  return Observable.from(readDir(dirLevel))
-    .flatMap(dir => {
-      const dirPath = `${dirLevel}/${dir}`;
-      const subDirs = readDir(dirPath);
-      if (!subDirs) {
-        normalise(dirPath);
-        return Observable.of(null);
-      }
-      normalise(dirPath);
-      return applyNormaliser(dirPath);
-    });
-}
-
-applyNormaliser(pagesDir)
-  .subscribe((dir)=> {
-    if (dir) {
-      applyNormaliser(dir);
-    }
-  },
-  err => {
+loopPages(normalise)
+  .subscribe(
+    () => {},
+    err => {
       throw err;
     },
     () => {
-      info('\n\nNormalisation Completed\n\n', 'greenBright');
+      info('\nNormalisation Completed', 'greenBright');
       info('Please check for uncommited changes before pushing\n', 'yellow');
     });
