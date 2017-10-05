@@ -42,7 +42,7 @@ enables you to compile your program from the command line. You can also search o
 3. Run the Compiler on your source code (assuming you are using the Microsoft Visual Studio compiler)
 `cl /EHsc helloWorld.cpp`
 
-This will now create an object file and automatically link it to you. If you look in that same folder, you will see a 
+This will now create an object file and automatically link it for you. If you look in that same folder, you will see a 
 hellWorld.exe executable file (note the exe extension) is now present.
 
 4. Type `helloWorld` into the prompt to run the executable
@@ -55,7 +55,7 @@ windows may not come pre packaged with a compiler utility.
 2. Run the Compiler on your source code
 `g++ helloWorld.cpp -o helloWorld`
 
-This will create an object file and automatically link it to you. Look in the folder and you will see a helloWorld.exe 
+This will create an object file and automatically link it for you. Look in the folder and you will see a helloWorld.exe 
 executable file (note the exe extension). 
 
 3. Type `./helloWorld` in the terminal window to run the executable file
