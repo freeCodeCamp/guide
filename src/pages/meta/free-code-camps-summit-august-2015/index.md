@@ -18,4 +18,4 @@ Free Code Camp's <a>August Live Stream</a> was the largest yet.
 *   Closing from Quincy <a href='https://youtu.be/UhoxoYrJ6Qs?t=1h4m15s' target='_blank' rel='nofollow'>1:04:15</a>
 *   <a href='https://youtu.be/r0lCJ_TFYlI' target='_blank' rel='nofollow'>Pull Request After Party with Quincy</a>
 
-[![Screen shot from our twitch feed on August 1 2015](//discourse-user-assets.s3.amazonaws.com/original/2X/a/ae495957ffa462d9cb26a59b9a4e79e8407a700c.png)](http://www.youtube.com/watch?feature=player_embedded&v=UhoxoYrJ6Qs)
+<a href='http://www.youtube.com/watch?feature=player_embedded&v=UhoxoYrJ6Qs' target='_blank' rel='nofollow'>![Screen shot from our twitch feed on August 1 2015](//discourse-user-assets.s3.amazonaws.com/original/2X/a/ae495957ffa462d9cb26a59b9a4e79e8407a700c.png)</a>

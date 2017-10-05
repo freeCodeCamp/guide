@@ -26,7 +26,7 @@ Here is a simple HTML template which includes the latest compiled and minified C
       </body>
     </html>
 ```
- <kbd>[![](//discourse-user-assets.s3.amazonaws.com/original/2X/3/31bd555700f1ee85bb4ddcacf595f0dfd8a16254.png) **JSBin Demo**](http://jsbin.com/sekojaxali/edit?html,output)</kbd>
+ <kbd><a href='http://jsbin.com/sekojaxali/edit?html,output' target='_blank' rel='nofollow'>![](//discourse-user-assets.s3.amazonaws.com/original/2X/3/31bd555700f1ee85bb4ddcacf595f0dfd8a16254.png) **JSBin Demo**</a></kbd>
 
 We have used a CDN in this example, but you can checkout other ways of installing Skeleton <a href='https://github.com/dhg/Skeleton#getting-started' target='_blank' rel='nofollow'>here</a>.
 
