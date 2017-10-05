@@ -10,7 +10,7 @@ Padding values are set using lengths or percentages or `inherit` keyword, and ca
 ## Syntax
 ```
 .element {
-    padding: <padding-top> || <padding-right> || <padding-bottom> || <padding-left>
+    padding: [padding-top] || [padding-right] || [padding-bottom] || [padding-left];
 }
 ```
 
