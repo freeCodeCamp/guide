@@ -3,9 +3,9 @@ title: Bootstrap
 ---
 ## Bootstrap
 
-Bootstrap is a popular front-end framework for web development.  It contains pre-built components and design elements that can be easily added to a web project to style typography, forms, buttons, etc. It is widely supported and useable on modern browsers like Chrome, Firefox, Opera, Safari, and Internet Explorer (back to IE 8).
+Bootstrap is a popular front-end framework for web development. It contains pre-built components and design elements that can easily be added to a web project to style typography, forms, buttons, etc. It is widely supported and useble on modern browsers like Chrome, Firefox, Opera, Safari, and Internet Explorer (supported from IE8 on).
 
-Bootstrap includes a responsive grid system for responsive layouts, and is great starting point for building a mobile-friendly website.  It also includes optional JavaScript functionality like collapsible content, carousels, and modals.
+Bootstrap includes a responsive grid system for responsive layouts, and is great starting point for building a mobile-friendly website. It also includes optional JavaScript functionality like collapsible content, carousels, and modals.
 
 
 #### Version History
@@ -21,7 +21,7 @@ Bootstrap 4 is available in beta as of August 2017, and now includes Sass and fl
 
 #### Installation
 
-There are two main ways to add Bootstrap to your web project.  Most simply, you can add Bootstrap CSS with a `<link>` element inside the `<head>` of your webpage via (CDN):
+There are two main ways to add Bootstrap to your web project. You can add Bootstrap CSS with a `<link>` element inside the `<head>` of your webpage via (CDN):
 
 `<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">`
 
@@ -34,11 +34,11 @@ Adding the JavaScript elements of Bootstrap is similar, with `<script>` elements
 ```
 
 
-Additionally, you can download all of Bootstraps source files including Sass, JavaScript, and build system with Bower, Composer, Meteor, or npm.  This allows greater control and the option to include or exclude modules as needed.
+Or, alternatively, you can download all of Bootstraps source files including Sass, JavaScript, and the build system with Bower, Composer, Meteor, or npm. This allows greater control and the option to include or exclude modules as needed.
 
 `npm install bootstrap@4.0.0-beta`
 
-`gem install bootstrap -v 4.0.0.alpha6`
+`gem install bootstrap -v 4.0.0.beta`
 
 `bower install bootstrap#v4.0.0-beta`
 
@@ -49,4 +49,4 @@ Additionally, you can download all of Bootstraps source files including Sass, Ja
 Bootstrap has thorough documentation with many [examples](https://getbootstrap.com/docs/4.0/examples/) and an [HTML template for getting started](https://getbootstrap.com/docs/4.0/getting-started/introduction/). 
 
 In addition, you can find both [free](https://bootswatch.com/) and [paid](https://themes.getbootstrap.com/)
-themes that build on the Bootstrap framework and present a more customized and stylish look.
+themes that build on the Bootstrap framework to provide a more customized and stylish look.
