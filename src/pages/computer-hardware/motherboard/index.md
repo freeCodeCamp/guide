@@ -9,5 +9,6 @@ A motherboard provides power and connectivity to the computer's components, and 
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
+* [Motherboard](https://www.computerhope.com/jargon/m/mothboar.htm)
 
 
