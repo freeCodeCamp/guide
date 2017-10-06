@@ -11,6 +11,7 @@ import {
   updateSearchResults,
   updateSearchTerm
 } from '../../LayoutComponents/search/redux';
+import Breadcrumbs from '../../templateComponents/Breadcrumbs.jsx';
 
 const httpRE = /^https?/i;
 
@@ -18,6 +19,11 @@ const faNames = {
   challenge: 'free-code-camp',
   guides: 'file-text',
   youtube: 'youtube-play'
+};
+
+const breadcrumbTexts = {
+  challenge: 'freeCodeCamp',
+  youtube: 'YouTube'
 };
 
 const propTypes = {
@@ -69,8 +75,13 @@ class Results extends PureComponent {
     const { results } = this.props;
     return results.map((result, i) => {
       const { _index, _source: { title, url }, formattedDescription } = result;
+      const pathname = result._source.url;
       return (
-        <MediaWrapper key={ i } url={ url }>
+        <div key={ i }>
+        <Breadcrumbs path={ _index === 'guides' ?
+                            pathname : breadcrumbTexts[_index]}
+        />
+        <MediaWrapper url={ url }>
           <Media>
             <Media.Left align='middle'>
               <FontAwesome
@@ -85,6 +96,7 @@ class Results extends PureComponent {
             </Media.Body>
           </Media>
         </MediaWrapper>
+        </div>
       );
     });
   }
