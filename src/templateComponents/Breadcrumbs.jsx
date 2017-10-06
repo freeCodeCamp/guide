@@ -1,52 +1,120 @@
-import React from 'react';
+import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import Link from 'gatsby-link';
-import titleify from '../../utils/titleify';
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
+import Media from 'react-bootstrap/lib/Media';
+import FontAwesome from 'react-fontawesome';
+import Breadcrumbs from '../../templateComponents/Breadcrumbs.jsx';
 
-const propTypes = {
-  path: PropTypes.string.isRequired
+import {
+  resetSearch,
+  updateSearchResults,
+  updateSearchTerm
+} from '../../LayoutComponents/search/redux';
+
+const httpRE = /^https?/i;
+
+const faNames = {
+  challenge: 'free-code-camp',
+  guides: 'file-text',
+  youtube: 'youtube-play'
 };
 
-function Breadcrumbs(props) {
-  const { path } = props;
-  if (path === '/') {
-    return null;
-  }
+const BreadcrumbTexts = {
+  challenge: 'Free Code Camp',
+  youtube: 'YouTube'
+};
 
-  const pathMap = path
-    // remove leading and trailing slash
-    .replace(/^\/([a-z0-9/-]+[^/])\/?$/i, '$1')
-    .split('/')
-    .reduce((accu, current, i, pathArray) => {
-      const path = i !== 0 ?
-        accu[pathArray[ i - 1 ]].path + `/${current}` :
-        `/${current}`;
-      return {
-        ...accu,
-        [current]: {
-          path,
-          title: titleify(current)
-        }
-      };
-    }, {});
+const propTypes = {
+  resetSearch: PropTypes.func.isRequired,
+  results: PropTypes.arrayOf(PropTypes.object)
+};
 
-  const crumbs = Object.keys(pathMap)
-    .map(key => pathMap[key])
-    .map((page, i, thisArray) => {
-      if (i === thisArray.length - 1) {
-        return <li className='active' key={ i }>{ page.title }</li>;
-      }
-      return <li key={ i }><Link to={ page.path }>{ page.title }</Link></li>;
-    });
-
-  return (
-    <ol className='breadcrumb'>
-      { crumbs }
-    </ol>
-  );
+function mapStateToProps(state) {
+  return {
+    results: state.search.results
+  };
 }
 
-Breadcrumbs.displayName = 'Breadcrumbs';
-Breadcrumbs.propTypes = propTypes;
+function mapDispatchToProps(dispatch) {
+  return bindActionCreators({
+    resetSearch,
+    updateSearchResults,
+    updateSearchTerm
+  }, dispatch);
+}
 
-export default Breadcrumbs;
+function MediaWrapper(props) {
+  const { url } = props;
+  return httpRE.test(url) ?
+    <a
+      className='colourDarkGrey'
+      href={ url }
+      target='_blank'
+      >
+      { props.children }
+    </a> :
+    <Link className='colourDarkGrey' to={ url }>{ props.children }</Link>;
+}
+
+MediaWrapper.displayName = 'MediaWrapper';
+MediaWrapper.propTypes = {
+  children: PropTypes.any,
+  url: PropTypes.string.isRequired
+};
+
+class Results extends PureComponent {
+  constructor() {
+    super();
+
+    this.renderResultItems = this.renderResultItems.bind(this);
+  }
+
+  renderResultItems() {
+    const { results } = this.props;
+    return results.map((result, i) => {
+      const { _index, _source: { title, url }, formattedDescription } = result;
+      const pathname = result._source.url;
+      return (
+        <div key={ i }>
+        <Breadcrumbs path={ _index === 'guides' ?
+                           pathname : BreadcrumbTexts[_index]}
+        />
+        <MediaWrapper url={ url }>
+          <Media>
+            <Media.Left align='middle'>
+              <FontAwesome
+                className='resultIcon'
+                name={ faNames[_index] ? faNames[_index] : '' }
+                size='3x'
+              />
+            </Media.Left>
+            <Media.Body>
+              <Media.Heading>{ title }</Media.Heading>
+              <p>{ formattedDescription }</p>
+            </Media.Body>
+          </Media>
+        </MediaWrapper>
+        </div>
+      );
+    });
+  }
+
+  render() {
+    const { results = [] } = this.props;
+    if (!results.length) {
+      return null;
+    }
+    return (
+      <div className='searchResults'>
+        { this.renderResultItems() }
+      </div>
+    );
+  }
+}
+
+Results.displayName = 'Results';
+Results.propTypes = propTypes;
+
+export default connect(mapStateToProps, mapDispatchToProps)(Results);
