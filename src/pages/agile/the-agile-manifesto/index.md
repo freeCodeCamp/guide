@@ -1,7 +1,7 @@
 ---
-title: The Agile Manifesto
+title: The Manifesto
 ---
-## The Agile Manifesto
+## The Manifesto
 
 Manifesto for agile software development: 
   - Individuals and interactions over process and tools.
