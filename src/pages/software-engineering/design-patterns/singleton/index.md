@@ -12,7 +12,7 @@ Singleton is a design pattern often used in Android. It is easily misused and so
 - Singletons are destroyed when Android removes your app from memory
 - Singletons can make it difficult to unit test your app
 
-```
+```java
 public class DataStore {
   private static DataStore sDataStore;
   private List<Data> mData;
