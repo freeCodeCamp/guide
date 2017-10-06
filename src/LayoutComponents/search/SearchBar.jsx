@@ -42,6 +42,7 @@ class SearchBar extends PureComponent {
     super();
 
     this.handleChange = this.handleChange.bind(this);
+    this.handleBlur = this.handleBlur.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
   }
 
@@ -66,6 +67,11 @@ class SearchBar extends PureComponent {
     updateSearchTerm(value);
   }
 
+  handleBlur(e) {
+    e.preventDefault();
+    updateSearchTerm('');
+  }
+  
   handleSubmit(e) {
     e.preventDefault();
     const { fetchSearchResults } = this.props;
@@ -83,6 +89,7 @@ class SearchBar extends PureComponent {
             <FormControl
               className='input'
               onChange={ this.handleChange }
+              onBlur={ this.handleBlur }
               placeholder='&#xf002; What would you like to know?'
               type='text'
               value={ searchTerm }
