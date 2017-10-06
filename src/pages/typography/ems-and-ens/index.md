@@ -27,6 +27,7 @@ For example - The first world war lasted from 1914 &ndash; 1918.
 #### More Information:
 
 Dash - [Wikipedia](https://en.wikipedia.org/wiki/Dash#Em_dash)
+
 Thinking With Type by Ellen Lupton - [Thinking With Type](http://thinkingwithtype.com)
 
 
