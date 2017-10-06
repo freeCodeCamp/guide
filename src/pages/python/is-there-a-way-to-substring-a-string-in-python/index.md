@@ -3,13 +3,24 @@ title: Is There a Way to Substring a String in Python
 ---
 ## Is There a Way to Substring a String in Python
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/python/is-there-a-way-to-substring-a-string-in-python/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+**Slicing** is a python concept which can be used to substring a string. The syntax is quite simple
+```python
+str2 = str1[start:end]
+```
+here, **start** is *inclusice* and **end** is *exclusive*
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+## Example
+Let us consider a string **The Pythonic Way**
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```python
+>>> str1[4:10]      #Slices string between index 4 and 9, since start is inclusive and end is exclusive
+'Python'
+>>>str1[12:15]      #Slices string between index 12 and 14
+' Wa'
+>>>str1[:10]        #Slices string between index 0 and 9
+'The Python'
+>>>str1[10:]        #Slices string between index 10 and the length of the string (here it is 16)
+'ic Way'
+```
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+### Note: Slicing a string does not change the original string
