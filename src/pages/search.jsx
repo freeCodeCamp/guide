@@ -16,7 +16,7 @@ import {
 const propTypes = {
   isSearching: PropTypes.bool,
   lastPage: PropTypes.string,
-  resetSearch: PropTypes.string,
+  resetSearch: PropTypes.func,
   results: PropTypes.arrayOf(PropTypes.object),
   searchTerm: PropTypes.string
 };
