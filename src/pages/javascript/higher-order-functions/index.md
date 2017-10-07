@@ -23,4 +23,4 @@ function callback(cat) {
 //catAges = [21, 35, 42, 7, 14]
 ```
 
-In the example above, the _map_ function is a built-in Javascript higher-order function, and it expects a _callback_ function as it's argument. You can also make your own higher order function using a callback. That is all there is to higher order functions. 
+In the example above, the _map_ function is a built-in Javascript higher-order function, and it expects a _callback_ function as its argument. You can also make your own higher order function using a callback. That is all there is to higher order functions. 
