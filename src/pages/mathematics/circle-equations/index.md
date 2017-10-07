@@ -1,15 +1,41 @@
 ---
 title: Circle Equations
 ---
-## Circle Equations
+# Circle Equations
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/circle-equations/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+![](https://raw.githubusercontent.com/pranabendra/articles/master/geometry/circle/circle_2.gif)
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+## 1. Centre-radius form :
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Circle having centre <i><b>(x<sub>0</sub>, y<sub>0</sub>)</b></i> and radius <b><i>r</i></b>.
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+The equation of the circle can be represented as,
+
+![](https://raw.githubusercontent.com/pranabendra/articles/master/geometry/circle/circle_3.png)
+
+### General Equation of a Circle :
+
+![](https://raw.githubusercontent.com/pranabendra/articles/master/geometry/circle/circle_6.png)
+
+where, `g`, `f`, and `c` are constants.
+
+Therefore,
+
+![](https://raw.githubusercontent.com/pranabendra/articles/master/geometry/circle/circle_9.png) 
+
+## 2. Parametric form :
+
+Circle having centre <i><b>(x<sub>0</sub>, y<sub>0</sub>)</b></i> and radius makes an angle <b><i>t</i></b> with the positive direction of <i>x-axis</i>, then <b><i>t</i></b> is called the `parameter`.
+
+The equation of the circle can be represented as,
+
+![](https://raw.githubusercontent.com/pranabendra/articles/master/geometry/circle/circle_4.png)
+
+for, 
+
+![](https://raw.githubusercontent.com/pranabendra/articles/master/geometry/circle/circle_5.png)
+
+### More Information:
+<a href = "http://mypages.valdosta.edu/alazari/math1111/Circle.html">Equation of a Circle</a>
 
 
