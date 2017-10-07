@@ -20,7 +20,7 @@ function callback(cat) {
   return cat.age * 7;
 };
 
-//catAges = [21, 35, 42, 7, 14]
+// catAges = [21, 35, 42, 7, 14]
 ```
 
-In the example above, the _map_ function is a built-in Javascript higher-order function, and it expects a _callback_ function as its argument. You can also make your own higher order function using a callback.
+In the example above, the _map_ function is a built-in JavaScript higher-order function, and it expects a _callback_ function as its argument. You can also make your own higher order function using a callback.
