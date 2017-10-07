@@ -44,8 +44,8 @@ The padding property in CSS defines the innermost portion of the box model, crea
 It is effectively supported in all browsers (since IE6+, Firefox 2+, Chrome 1+ etc)
 
 ### More Information
-- [W3C Working Draft](https://www.w3.org/TR/css3-box/#the-padding)
-- [W3C CSS Level 2](https://www.w3.org/TR/CSS2/box.html#propdef-padding)
-- [W3C CSS Level 1](https://www.w3.org/TR/CSS1/#padding)
-- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/padding)
-- [CSS Tricks](https://css-tricks.com/almanac/properties/p/padding/)
+- <a href='https://www.w3.org/TR/css3-box/#the-padding' target='_blank' rel='nofollow'>W3C Working Draft</a>
+- <a href='https://www.w3.org/TR/CSS2/box.html#propdef-padding' target='_blank' rel='nofollow'>W3C CSS Level 2</a>
+- <a href='https://www.w3.org/TR/CSS1/#padding' target='_blank' rel='nofollow'>W3C CSS Level 1</a>
+- <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/padding' target='_blank' rel='nofollow'>MDN Web Docs</a>
+- <a href='https://css-tricks.com/almanac/properties/p/padding/' target='_blank' rel='nofollow'>CSS Tricks</a>

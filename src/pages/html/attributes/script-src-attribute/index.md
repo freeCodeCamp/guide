@@ -38,5 +38,5 @@ This example links to a jQuery file.
 
 #### More Information:
 
-[MDN Article on the HTML <script> tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script#attr-src)
+<a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script#attr-src' target='_blank' rel='nofollow'>MDN Article on the HTML <script> tag</a>
 
