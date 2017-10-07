@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
@@ -16,6 +16,7 @@ import {
 const propTypes = {
   isSearching: PropTypes.bool,
   lastPage: PropTypes.string,
+  resetSearch: PropTypes.string,
   results: PropTypes.arrayOf(PropTypes.object),
   searchTerm: PropTypes.string
 };
@@ -42,27 +43,38 @@ function shouldShowResults(conditions) {
     <NoResults page={ lastPage } searchTerm={ searchTerm } />;
 }
 
-function SearchPage(props) {
-  if (
-    typeof window !== 'undefined' &&
-    !('Promise' in window)
-  ) {
-    return <NoSupport />;
+class SearchPage extends PureComponent {
+  constructor() {
+    super();
   }
-  const { isSearching, lastPage, results, searchTerm } = props;
-  return (
-    <div>
-      <Helmet>
-        <title>Search | freeCodeCamp Guide</title>
-      </Helmet>
-      <h2 className='colourDarkGrey'>Search Results</h2>
-      {
-        (isSearching && !results.length) ?
-          <ResultsSkeleton /> :
-          shouldShowResults({ results, lastPage, searchTerm })
-      }
-    </div>
-  );
+
+  componentWillUnmount() {
+    const { resetSearch } = this.props;
+    resetSearch('');
+  }
+
+  render() {
+    if (
+      typeof window !== 'undefined' &&
+      !('Promise' in window)
+    ) {
+      return <NoSupport />;
+    }
+    const { isSearching, lastPage, results, searchTerm } = this.props;
+    return (
+      <div>
+        <Helmet>
+          <title>Search | freeCodeCamp Guide</title>
+        </Helmet>
+        <h2 className='colourDarkGrey'>Search Results</h2>
+        {
+          (isSearching && !results.length) ?
+            <ResultsSkeleton /> :
+            shouldShowResults({ results, lastPage, searchTerm })
+        }
+      </div>
+    );
+  }
 }
 
 SearchPage.displayName = 'SearchPage';
