@@ -3,7 +3,7 @@ title: Higher Order Functions
 ---
 ## Higher Order Functions
 
-Higher order function is just a function that takes another function as an argument. The function that is being passed is called a _callback_. One of the higher order functions that you might be familiar with is _map_ :
+A higher order function is just a function that takes another function as an argument. The function that is being passed is called a _callback_. One of the higher order functions that you might be familiar with is _map_ :
 
 ```javascript
 var cats = [
@@ -23,4 +23,4 @@ function callback(cat) {
 //catAges = [21, 35, 42, 7, 14]
 ```
 
-In the example above, the _map_ function is a built-in Javascript higher-order function, and it expects a _callback_ function as its argument. You can also make your own higher order function using a callback. That is all there is to higher order functions. 
+In the example above, the _map_ function is a built-in Javascript higher-order function, and it expects a _callback_ function as its argument. You can also make your own higher order function using a callback.
