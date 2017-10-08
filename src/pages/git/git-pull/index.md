@@ -3,7 +3,7 @@ title: Git Pull
 ---
 ## Git Pull
 
-The <a href='https://git-scm.com/docs/git-pull' target='_blank' rel='nofollow'>`git pull`</a> command allows you to get new commits from a remote repository. To do this, `git pull` fetches (`git fetch`) the new commits and merges <a href='https://guide.freecodecamp.org/git/git-merge' target='_blank' rel='nofollow'>(`git merge`)</a> these into your local branch.
+The <a href='https://git-scm.com/docs/git-pull' target='_blank' rel='nofollow'>`git pull`</a> command allows you to get new commits from a remote repository. To do this, `git pull` fetches (`git fetch`) the new commits and merges <a href='/git/git-merge' target='_blank' rel='nofollow'>(`git merge`)</a> these into your local branch.
 
 This command's syntax is as follows:
 ```

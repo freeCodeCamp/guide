@@ -2,7 +2,7 @@
 title: 10 Steps on How to Conquer a Hackathon
 ---
 1.  **Apply early.** Sometimes, some of the hackathons send out acceptances in batches. If you apply just a few days before the hackathon, you may be left out.
-2.  **Don't be afraid.** I recently competed in my first hackathon, and I was completely scared with a major case of <a href='https://guide.freecodecamp.org/working-in-tech/imposter-syndrome/' target='_blank' rel='nofollow'>imposter syndrome</a>. The key for hackathons is to just got for it without any fear, you are indeed a great asset to a team.
+2.  **Don't be afraid.** I recently competed in my first hackathon, and I was completely scared with a major case of <a href='/working-in-tech/imposter-syndrome/' target='_blank' rel='nofollow'>imposter syndrome</a>. The key for hackathons is to just got for it without any fear, you are indeed a great asset to a team.
 3.  **Just keep pushing.** If you are at a hackathon and your project comes to a halt, just keep pushing, part of a project is better than no project.
 4.  **Enjoy the freebies.** As stressful as hacking away at something you're creating can be, there is a lot of cool stuff that some of the sponsors of hackathons give away, such as shirts, stickers, and occasionally, cool gadgets. Stock up!
 5.  **Enjoy the free food.** Another awesome aspect of hackathons is free food, since you're there for minimum of 12 hours up to 4 or 5 days (extreme cases), they provide free meals for the participants, YUM!

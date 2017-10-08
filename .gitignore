@@ -36,3 +36,6 @@ node_modules
 .sass-cache/
 public/
 .cache/
+
+#IDE folders
+.vscode/*
