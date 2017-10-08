@@ -1,15 +1,56 @@
 ---
-title: How to Create or Delete a User or Sudo User on Ubuntu
+title: How to Create or Delete a User or Sudo User on Linux (Debian/Ubuntu/ElementryOS/LinuxMint and RHEL/Fedora/CentOS)
 ---
+#### Note: To run a command as `sudo` you must have sudo user account (Administrator)
 
 ## How to Create a User
 
-To create a new user, type the following command `sudo useradd exampleUser`, where `exampleUser` is the user you want to create. To add a password to this user, run the `sudo passwd exampleUser` command, where `exampleUser` is the user that you want to add a password to.
+#### Use the `adduser` or `useradd` command to add a new user to your system.
+```
+$ sudo adduser username
+```
+ Be sure to replace `username` with the user that you want to create.
+
+
+#### Use the `passwd` command to update the new user's password.
+```
+$ sudo passwd username
+```
+A strong password is highly recommended!
+
 
 ## How to Create a Sudo User
 
-To create a `sudo` user, you need to create a regular user first using the command above. Then, add this user to the group called "sudoers" using the `sudo add exampleUser sudo` command, where `exampleUser` is the user that should be the new `sudo` user.
+To create a `sudo` user, you need to create a regular user first using the command above, then add this user to the group of `sudoers` using the `usermod` command.
+##### On Debian systems (Ubuntu/LinuxMint/ElementryOS), members of the `sudo` group have sudo privileges. 
+```
+$ sudo usermod -aG sudo username
+```
+
+##### On RHEL based syatems (Fedora/CentOs), members of the `wheel` group have sudo privilages.
+```
+$ sudo usermod -aG wheel username
+```
+
 
 ## How to Delete a User
+##### For Debian (Ubuntu)
+```
+$ sudo deluser username
+```
 
-To delete a user, type in `sudo userdel exampleUser`, where `exampleUser` is the user you want to delete.
+##### For RHEL (Fedora/CentOS)
+```
+$ sudo userdel username
+```
+
+
+#### Note: All above commands can be executed without sudo in `root` mode
+
+To switch to root on ubuntu, run `su -i` command followed by the password of the user logged in. Prompt changes to `#` insted of `$`
+
+
+#### References
+  [Debian(Ubuntu)](https://www.digitalocean.com/community/tutorials/how-to-add-and-delete-users-on-ubuntu-16-04)
+
+  [RHEL (CentOS/Fedora](https://www.digitalocean.com/community/tutorials/how-to-add-and-delete-users-on-a-centos-7-server)
