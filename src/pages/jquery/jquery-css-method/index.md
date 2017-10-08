@@ -3,9 +3,19 @@ title: jQuery CSS Method
 ---
 ## jQuery CSS Method
 
-We can change the CSS of an HTML element directly with jQuery.
+The jQuery .css() method gets the value of a computed style property for the first element in the set of matched elements or set one or more CSS properties for every matched element.
 
-jQuery has a function called `.css()` that allows you to change the CSS of an element.
+### Getting value of the properties:
+
+To return the value of a specified CSS property, use the following syntax:
+
+    $(selector).css(propertyName);
+For eg:
+
+    $('#element').css('background');
+
+### Changing/setting properties:
+For one element:
 
     <script>
       $(document).ready(function() {
@@ -14,9 +24,14 @@ jQuery has a function called `.css()` that allows you to change the CSS of an el
       });
     </script>
 
+For two or more elements/properties:
+    $('#element').css({
+        'background': 'gray',
+        'color': 'white'
+    });
+
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+Documentation: [api.jquery](https://api.jquery.com/css/)

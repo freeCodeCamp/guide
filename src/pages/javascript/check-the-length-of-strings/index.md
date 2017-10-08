@@ -1,5 +1,5 @@
 ---
-title: Check the Length 
+title: Check the Length of Strings
 ---
 Data structures have properties. For example, strings have a property called `.length` that will tell you how many characters are in the string.
 
