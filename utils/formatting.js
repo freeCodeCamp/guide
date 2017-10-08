@@ -1,6 +1,7 @@
 /* eslint-disable camelcase */
 const preFormatted = {
   acid: 'ACID',
+  api: 'API',
   arraybuffer: 'ArrayBuffer',
   aws: 'AWS',
   bytelength: 'byteLength',
