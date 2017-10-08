@@ -1,5 +1,5 @@
 ---
-title: Delete Properties from a Object
+title: Delete Properties from an Object
 ---
 We can also delete properties from objects like this:
 
