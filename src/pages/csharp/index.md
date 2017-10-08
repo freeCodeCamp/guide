@@ -7,3 +7,4 @@ CSharp, more commonly referred to as "C#", is a general-purpose, object-oriented
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
+[Official C# Documentation](https://docs.microsoft.com/en-us/dotnet/csharp/)
