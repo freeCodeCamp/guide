@@ -3,13 +3,29 @@ title: HTML5 Web Storage
 ---
 ## HTML5 Web Storage
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/html5-web-storage/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Web storage allows web applications to store up to 5MB of information in browser storage per origin (per domain and protocol).
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Types of Web Storage
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+There are two objects for storing data on the client:
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+`window.localStorage`: stores data with no expiration date and lives until removed.
 
+```javascript
+// Store Item
+localStorage.setItem("foo", "bar");
+
+// Get Item
+localStorage.getItem("foo"); //returns "bar"
+```
+
+`window.sessionStorage`: stores data for one session; data is lost when the browser tab is closed.
+
+```javascript
+// Store Item
+sessionStorage.setItem("foo", "bar");
+
+// Get Item
+sessionStorage.getItem("foo"); //returns "bar"
+```
 
