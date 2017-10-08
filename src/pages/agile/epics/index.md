@@ -2,14 +2,9 @@
 title: Epics
 ---
 ## Epics
+A large story or scenario that guides the creation of the software product. Epics usually cover a particular persona and give an overall idea of what is important to the user. An epic can be further broken down into various user stories that show individual tasks that a persona/user would like to perform.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/epics/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+### Epic Example
+In an application what helps freelance painters track their projects, a possible epic could be.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+Paul the Painter would like an easier way to manage his projects and provide his client with accurate changes and also bill them.
