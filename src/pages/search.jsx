@@ -16,7 +16,7 @@ import {
 const propTypes = {
   isSearching: PropTypes.bool,
   lastPage: PropTypes.string,
-  resetSearch: PropTypes.func,
+  resetSearch: PropTypes.func.isRequired,
   results: PropTypes.arrayOf(PropTypes.object),
   searchTerm: PropTypes.string
 };
@@ -36,13 +36,6 @@ function mapDispatchToProps(dispatch) {
   }, dispatch);
 }
 
-function shouldShowResults(conditions) {
-  const { lastPage, results, searchTerm } = conditions;
-  return results.length ?
-    <Results /> :
-    <NoResults page={ lastPage } searchTerm={ searchTerm } />;
-}
-
 class SearchPage extends PureComponent {
   constructor() {
     super();
@@ -50,7 +43,14 @@ class SearchPage extends PureComponent {
 
   componentWillUnmount() {
     const { resetSearch } = this.props;
-    resetSearch('');
+    resetSearch();
+  }
+
+  shouldShowResults() {
+    const { lastPage, results, searchTerm } = this.props;
+    return results.length ?
+      <Results /> :
+      <NoResults page={ lastPage } searchTerm={ searchTerm } />;
   }
 
   render() {
@@ -60,7 +60,7 @@ class SearchPage extends PureComponent {
     ) {
       return <NoSupport />;
     }
-    const { isSearching, lastPage, results, searchTerm } = this.props;
+    const { isSearching, results } = this.props;
     return (
       <div>
         <Helmet>
@@ -70,7 +70,7 @@ class SearchPage extends PureComponent {
         {
           (isSearching && !results.length) ?
             <ResultsSkeleton /> :
-            shouldShowResults({ results, lastPage, searchTerm })
+            this.shouldShowResults()
         }
       </div>
     );
