@@ -1,5 +1,5 @@
 ---
-title: Naming Convention for JavaScript
+title: Naming Conventions
 ---
 Here you will get an overview of the different code cases that are widely used.
 

@@ -1,5 +1,5 @@
 ---
-title: JavaScript Tutorials and Other Resources
+title: Tutorials and Other Resources
 ---
 *   <a href='http://jsforcats.com/' target='_blank' rel='nofollow'>JavaScript for Cats</a>
 *   <a href='https://github.com/DrBoolean/mostly-adequate-guide' target='_blank' rel='nofollow'>Professor Frisby's Mostly Adequate Guide to Functional Programming</a>
