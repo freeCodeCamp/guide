@@ -209,26 +209,40 @@ Return the completed inventory in alphabetical order.
 ## ![:rotating_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:") Advanced Code Solution:
 
     function updateInventory(arr1, arr2) {
-      var flag = 0;
-      arr2.forEach(function(item) {
-        flag = 0;
-        arr1.forEach(function(list) {
-          // If the product is already present, increase the quantity
-          if(item<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>1] === list[1]) {
-            list[0] += item[0];
-            flag = 1;
-          }
-        });
-        //If not already present, add the product
-        if(flag === 0)
-          arr1.push(item);
-      });
+      // All inventory must be accounted for or you're fired!
 
-      //Return the sorted inventory in alphabetical order by product name
-      return arr1.sort(function(a, b) {
-        return a[1] > b[1] ? 1 : -1;
-      });
+      // convert current inventory (arr1) to an one-dimensional array
+      const inventory = Array.prototype.concat.apply([], arr1);
+
+      // loop through new delivery (arr2)
+      for (let i = 0; i < arr2.length; i++) {
+
+        // extract item properties for easy reference
+        const item = arr2[i][1];
+        const quantity = arr2[i][0];
+
+        // check if item already exists in inventory
+        const position = inventory.indexOf(item);
+
+        // exsisting item: update quantity
+        if (position !== -1) {
+          const row = Math.floor(position / 2);
+          arr1[row][0] += quantity;
+          continue;
+        }
+
+        // alien item: add to inventory
+        arr1.push([quantity, item]);
+
+      }
+
+      // sort inventory in alphabetical order
+      arr1.sort((previous, next) => (previous[1] > [next[1]]) ? 1 : -1);
+
+      return arr1;
+
     }
+
 
     // test here
     // Example inventory lists
@@ -248,19 +262,22 @@ Return the completed inventory in alphabetical order.
 
     updateInventory(curInv, newInv);
 
-![:rocket:</a> <a href='https://repl.it/CLom/0' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/MQvv/latest' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
-*   The variable **flag** is a flag variable which checks whether a product exists in the inventory. A flag variable, in its simplest form, is a variable you define to have one value until some condition is true, in which case you change the variable's value.
-*   `arr2.forEach(function(item))` iterates through each item in the new delivery:
-    *   If the product is already present, it's quantity is simply updated and **flag** is made 1.
-    *   If the product is new i.e., **flag** is 0, it is added to the inventory using the `push()` method.
-*   The updated array **arr1** is then sorted alphabetically by product name.
+* Convert current inventory array **arr1** to an one-dimensional array in order that `indexOf()` method could be used to check existance of new delivery items in current inventory.
+* Check if item already exists in current inventory using `indexOf()`.
+* If item exists update quantity and continue loop execution.
+* Else append item to inventory.
+* Finally, sort the array alphabetically and return the updated inventory.
 
 #### Relevant Links
 
-*   <a href='http://forum.freecodecamp.com/t/javascript-array-prototype-foreach/14290' target='_blank' rel='nofollow'>JS Array Prototype ForEach</a>
+* <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply'>JS Function.prototype.apply()</a>
+* <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/continue' target='_blank' rel='nofollow'>JS continue</a>
+* <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort' target='_blank' rel='nofollow'>JS Array.prototype.sort()</a>
+
 
 ## ![:clipboard:](https://forum.freecodecamp.com/images/emoji/emoji_one/clipboard.png?v=3 ":clipboard:") NOTES FOR CONTRIBUTIONS:
 
