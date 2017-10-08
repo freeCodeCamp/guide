@@ -1,3 +1,7 @@
+---
+title: Modes in Vim
+---
+
 # Vim Modes
 
 Because vim is focused on changing existing code just as much as writing new code, it is split into several modes that each have different purposes.
