@@ -3,9 +3,11 @@ title: Searching Linked Lists Versus Arrays
 ---
 ## Searching Linked Lists Versus Arrays
 
-Suppose you are given an unsorted linked list & an unsorted array and you have to find a particular element in them. In that case, we need to do a linear search (since they are unsorted). Doing a linear search for an element in both will be an O(n) operation. Same goes for the case when both are sorted, you can still search in both the data structures in O(nlogn) Binary Search. Although, it will be a bit tedious to code while using Linked Lists.
+Suppose you have to search for an element in an unsorted linked list & array. In that case, we need to do a linear search (remember, unsorted). Doing a linear search for an element in both will be an O(n) operation.
 
-Linked Lists are usually preferred over arrays where insertion is a frequent operation. It's easier to insert in linked lists as only a pointer is changed where as in arrays, the elements after the one inserted need to be moved. Another place where linked lists are used is where size is uncertain. You don't know the size when you are starting out, because in arrays size is fixed.
+Now if we have sorted linked list & array, you can still search in both the data structures in O(nlogn) Binary Search. Although, it will be a bit tedious to code while using Linked Lists.
+
+Linked Lists are usually preferred over arrays where insertion is a frequent operation. It's easier to insert in linked lists as only a pointer changes. But to insert in an array (the middle or beginning), you need to move all the elements after the one that you insert. Another place where you should use linked lists is where size is uncertain. You don't know the size when you are starting out, because arrays have fixed size.
 
 Arrays do provide a few advantages over LL:
 1. Random Access
