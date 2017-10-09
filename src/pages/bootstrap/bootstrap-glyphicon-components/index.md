@@ -16,11 +16,11 @@ Use glyphicons in text, navigation, buttons, forms, or toolbars.
 ```
 
 ## Note
-Bootstrap 4 dropped Glyphicons. You can use [Font Awesome Icons](http://fontawesome.io/icons/) instead.
+Bootstrap 4 dropped Glyphicons. You can use <a href='http://fontawesome.io/icons/' target='_blank' rel='nofollow'>Font Awesome Icons</a> instead.
 
 #### More Information:
-[Official Bootstrap 3 docs on Glyphicons](https://getbootstrap.com/docs/3.3/components/#glyphicons)
-[Glyphicons official website](https://glyphicons.com/)
+<a href='https://getbootstrap.com/docs/3.3/components/#glyphicons' target='_blank' rel='nofollow'>Official Bootstrap 3 docs on Glyphicons</a>
+<a href='https://glyphicons.com/' target='_blank' rel='nofollow'>Glyphicons official website</a>
 
 
 

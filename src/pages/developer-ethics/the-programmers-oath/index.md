@@ -17,7 +17,7 @@ The Programmers Oath is a an oath created by Robert C. Martin, that are the guid
 >8. I will produce estimates that are honest both in magnitude and precision. I will not make promises without certainty.
 >9. I will never stop learning and improving my craft.
 
-[A web series on the freeCodeCamp channel](https://www.youtube.com/watch?v=36NgPu9OyRM) breaks down what the oath means, and how to follow the oath.
+<a href='https://www.youtube.com/watch?v=36NgPu9OyRM' target='_blank' rel='nofollow'>A web series on the freeCodeCamp channel</a> breaks down what the oath means, and how to follow the oath.
 
 ### Promise 1
 >1. I will not produce harmful code.

@@ -13,4 +13,4 @@ Manifesto for agile software development:
 
 #### More Information:
 
-[Agile Manifesto](http://agilemanifesto.org/)
+<a href='http://agilemanifesto.org/' target='_blank' rel='nofollow'>Agile Manifesto</a>

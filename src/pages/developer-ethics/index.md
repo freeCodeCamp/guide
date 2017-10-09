@@ -5,7 +5,7 @@ title: Developer Ethics
 
 Developer Ethics describes the field of ethics as it is applied to the behavior of software developers.
 
-According to [The Internet Encyclopedia of Philosophy](http://www.iep.utm.edu/ethics/), the field of ethics (or moral philosophy) involves "systematizing, defending, and recommending concepts of right and wrong." 
+According to <a href='http://www.iep.utm.edu/ethics/' target='_blank' rel='nofollow'>The Internet Encyclopedia of Philosophy</a>, the field of ethics (or moral philosophy) involves "systematizing, defending, and recommending concepts of right and wrong." 
 
 Over the years a number of organizations and individuals have attempted to codify developer ethics into a variety of oaths, pledges, and codes of conduct. 
 

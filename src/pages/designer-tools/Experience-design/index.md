@@ -22,12 +22,12 @@ Adobe Experience Design, also known as Adobe XD, is a prototyping tool for UX de
 
 #### More Information: 
 
-Official Website: [Adobe](https://www.adobe.com/in/products/experience-design.html)
+Official Website: <a href='https://www.adobe.com/in/products/experience-design.html' target='_blank' rel='nofollow'>Adobe</a>
 
-XD Guru: [xdguru.com](https://www.xdguru.com/)
+XD Guru: <a href='https://www.xdguru.com/' target='_blank' rel='nofollow'>xdguru.com</a>
 
-Adobe XD vs Sketch: [Sitepoint](https://www.sitepoint.com/adobe-xd-sketch-will-result-best-ux/)
+Adobe XD vs Sketch: <a href='https://www.sitepoint.com/adobe-xd-sketch-will-result-best-ux/' target='_blank' rel='nofollow'>Sitepoint</a>
 
-Why Prototyping with Adobe XD is the Most-Complete Design Solution: [Sitepoint](https://www.sitepoint.com/prototyping-with-adobe-xd/)
+Why Prototyping with Adobe XD is the Most-Complete Design Solution: <a href='https://www.sitepoint.com/prototyping-with-adobe-xd/' target='_blank' rel='nofollow'>Sitepoint</a>
 
-And here's a playlist of 36 videos to help you get started in Adobe XD: [Youtube](https://youtu.be/HqQtYIMnWhM)
+And here's a playlist of 36 videos to help you get started in Adobe XD: <a href='https://youtu.be/HqQtYIMnWhM' target='_blank' rel='nofollow'>Youtube</a>
