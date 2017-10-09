@@ -3,13 +3,24 @@ title: Higher Order Functions
 ---
 ## Higher Order Functions
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/higher-order-functions/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+A higher order function is just a function that takes another function as an argument. The function that is being passed is called a _callback_. One of the higher order functions that you might be familiar with is _map_ :
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+```javascript
+var cats = [
+  { name: "Fluffy", age = 3 },
+  { name: "Leo", age = 5 },
+  { name: "Simon", age = 6 },
+  { name: "Simba", age = 1 },
+  { name: "Max", age = 2 }
+];
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+var catAges = cats.map(callback);
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+function callback(cat) {
+  return cat.age * 7;
+};
 
+// catAges = [21, 35, 42, 7, 14]
+```
 
+In the example above, the _map_ function is a built-in JavaScript higher-order function, and it expects a _callback_ function as its argument. You can also make your own higher order function using a callback.
