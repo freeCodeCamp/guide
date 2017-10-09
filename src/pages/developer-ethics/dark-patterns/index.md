@@ -29,7 +29,4 @@ Examples include:
 
 * [**Trick Questions**] (https://darkpatterns.org/types-of-dark-pattern/trick-questions) – Users are made to respond to a question, which, when glanced upon quickly appears to ask one thing, but if read carefully, asks another thing entirely.
 
---
-
-#### More Information
 A catalog of Dark Patterns along with a continuously updated list of real-world examples is mainatained at [darkpatterns.org] (https://darkpatterns.org).
