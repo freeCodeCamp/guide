@@ -1,5 +1,5 @@
 ---
-title: How to Create or Delete a User or Sudo User on Linux (Debian/Ubuntu/ElementryOS/LinuxMint and RHEL/Fedora/CentOS)
+title: How to Create/Delete a User or Sudo User on Linux
 ---
 #### Note: To run a command as `sudo` you must have sudo user account (Administrator)
 
