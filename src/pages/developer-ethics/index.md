@@ -3,7 +3,7 @@ title: Developer Ethics
 ---
 ## Developer Ethics
 
-Developer Ethics is the field of ethics as it is applied to the behavior of software developers.
+Developer Ethics describes the field of ethics as it is applied to the behavior of software developers.
 
 According to [The Internet Encyclopedia of Philosophy](http://www.iep.utm.edu/ethics/), the field of ethics (or moral philosophy) involves "systematizing, defending, and recommending concepts of right and wrong." 
 
