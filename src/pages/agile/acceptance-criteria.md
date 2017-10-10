@@ -12,10 +12,9 @@ The Acceptance Criteria will be the beginnnings of the test plan for the QA team
 
 Most importantly, if the story does not meet each of the Acceptance Criteria, then the Product Owner should not be accepting the story at the end of the iteration.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+
 Nomad8 provides an [FAQ on Acceptance Criteria](https://nomad8.com/acceptance_criteria/)
 
 Leading Agile on [Acceptance Criteria](https://www.leadingagile.com/2014/09/acceptance-criteria/)
