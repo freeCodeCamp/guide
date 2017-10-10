@@ -2,12 +2,10 @@
 title: Random Method
 ---
 ## Random Method
-
-JavaScript has an excellent built in method for producing random numbers. It is *Math.random()*. When *Math.random()* is executed it returns a random number that can be anywhere between 0 and 1. The 0 is included and 1 is excluded. In other words *0 <= x < 1*.
+The JavaScript `Math.random()` method is an excellent built-in method for producing random numbers. When `Math.random()` is executed, it returns a random number that can be anywhere between 0 and 1. The 0 is included and 1 is excluded.
 
 ### Generating a random floating point number between 0 and 1
-
-The *Math.random()* method will return a floating point (decimal) number greater than or equal to 0 and less than (but never equal to) 1. In other words *0 <= x < 1*. For example:
+The `Math.random()` method will return a floating point (decimal) number greater than or equal to 0 and less than (but never equal to) 1. In other words `0 <= x < 1`. For example:
 
 ```JavaScript
 console.log(Math.random());
@@ -22,13 +20,12 @@ console.log(Math.random());
 
 (Of course, the numbers returned will be different every time. This will be assumed for all following examples - different results will happen on each pass.)
 
-To get a random number between a larger range multiply the result of *Math.random()* by a number.
+To get a random number between a larger range multiply the result of `Math.random()` by a number.
 
 ### Generating a random floating point number between 0 and a specified max
+Usually you do not need random numbers between 0 and 1 - you need larger numbers or even integers.
 
-Usually we do not need random numbers between 0 and 1 - we need larger numbers or even integers.
-
-For example, if we wanted a random floating point number between 0 and 10, we could use:
+For example, if you want a random floating point number between 0 and 10, you could use:
 
 ```JavaScript
 var x = Math.random()*10;
@@ -38,8 +35,7 @@ console.log(x);
 ```
 
 ### Generating a random floating point number within a range
-
-If we needed a random floating point number that ranges between two specific numbers, we could do something like this:
+If you need a random floating point number that ranges between two specific numbers, you could do something like this:
 
 ```JavaScript
 var min = 83.1;
@@ -52,10 +48,9 @@ console.log(x);
 ```
 
 ### Generating a random integer between 0 and a max
+Often you need integers. To do this you will have to use some other methods from the `Math` object, `Math.floor()` (rounds down to the nearest integer) and `Math.ceil()` (rounds up to the nearest integer).
 
-Often we need integers. To do this we will have to use some other methods from the *Math* object, *Math.floor()* (rounds down to the nearest integer) and *Math.ceil()* (rounds up to the nearest integer).
-
-For example, if we needed to select randomly from an array of 10 elements, we would need a random number between 0 and 9 inclusive (remember that arrays are zero indexed).
+For example, if you need to select randomly from an array of 10 elements, you would need a random number between 0 and 9 inclusive (remember that arrays are zero indexed).
 
 ```JavaScript
 var x = Math.floor(Math.random()*10);
@@ -64,11 +59,10 @@ console.log(x);
 // 7
 ```
 
-(Remember that *Math.random()* will never return exactly 1, so _Math.random()*10_ will never return exactly 10. This means that after rounding down, the result will always be 9 or less.)
+(Remember that `Math.random()` will never return exactly 1, so `Math.random()*10` will never return exactly 10. This means that after rounding down, the result will always be 9 or less.)
 
 ### Generating a random integer between 1 and a max
-
-If we need a random number with the minimum number being 1 (for example picking a random day in January) you could use the *Math.ceil()* method.
+If you need a random number with the minimum number being 1 (for example picking a random day in January) you could use the `Math.ceil()` method.
 
 ```JavaScript
 var x = Math.ceil(Math.random()*31);
@@ -77,7 +71,7 @@ console.log(x);
 // 23
 ```
 
-Another way would have been to use our previous function (using *Math.floor()*) and add 1 to it:
+Another way would have been to use the previous function (using `Math.floor()`) and add 1 to it:
 
 ```JavaScript
 var x = Math.floor(Math.random()*31)+1;
@@ -87,8 +81,7 @@ console.log(x);
 ```
 
 ### Generating a random integer within a range
-
-Lastly, occasionally we need random integer between two specific integers. For example, if we are trying to pick raffle tickets and we know the numbers of the lowest and largest number:
+Lastly, occasionally you need a random integer between two specific integers. For example, if you are trying to pick raffle tickets and you know the numbers of the lowest and largest number:
 
 ```JavaScript
 var min = 1718;
@@ -101,9 +94,7 @@ console.log(x);
 ```
 
 ### How random is Math.random()?
+It may be pointed out that the number returned by `Math.random()` is a pseudo-random number as no computer can generate a truly random number, that exhibits randomness over all scales and over all sizes of data sets. However, the pseudo-random number generated by `Math.random()` is usually sufficient for the needs of nearly any program you may write. The not-truly-randomness only becomes apparent in astronomically large number sets or when uncommonly precise decimals are needed.
 
-It may be pointed out that the number returned by *Math.random()* is a pseudo-random number as no computer can generate a truly random number, that exhibits randomness over all scales and over all sizes of data sets. However, the pseudo-random number generated by *Math.random()* is more than sufficient for the needs of nearly any program we may write. The not-truly-randomness only becoming apparent in astronomically large number sets or when uncommonly precise decimals are needed.
-
-#### More Information:
-
-[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
+### More Information:
+- Documentation: <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random' target='_blank' rel='nofollow'>MDN</a>

@@ -41,8 +41,8 @@ git config --global core.excludesfile ~/.gitignore_global
 This will create the file `~/.gitignore_global`. Now you can edit that file the same way as a local .gitignore file. All of your Git repositories will ignore the files and folders listed in the global .gitignore file.
 
 #### More Information:
-[Git docs - gitignore](https://git-scm.com/docs/gitignore)
+<a href='https://git-scm.com/docs/gitignore' target='_blank' rel='nofollow'>Git docs - gitignore</a>
 
-[GitHub - Ignoring Files](https://help.github.com/articles/ignoring-files/)
+<a href='https://help.github.com/articles/ignoring-files/' target='_blank' rel='nofollow'>GitHub - Ignoring Files</a>
 
-[GitHub - Useful .gitignore templates](https://github.com/github/gitignore)
+<a href='https://github.com/github/gitignore' target='_blank' rel='nofollow'>GitHub - Useful .gitignore templates</a>

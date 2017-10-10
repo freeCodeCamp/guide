@@ -3,13 +3,16 @@ title: Null Type
 ---
 ## Null Type
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/typescript/null-type/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+In TypeScript, null type has the values null. Null is valid values of every type. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+```ts
+let u: null = null;
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+When using --strictNullChecks flag, null is only assignable to void and their type.
+```ts
+let s = "foo";
+s = null; // error, 'null' is not assignable to 'string'
+let sn: string | null = "bar";
+sn = null; // ok
+```

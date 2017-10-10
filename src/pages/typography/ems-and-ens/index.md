@@ -2,14 +2,33 @@
 title: Ems and Ens
 ---
 ## Ems and Ens
+Ems and Ens are a form of the punctuation mark called 'dash'. Although similar in appearance to a hyphen, they serve different purposes.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/typography/ems-and-ens/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+### Em Dash
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Use an Em dash to denote a break in the sentence. Substitute it for a comma or to denote a pause in a sentence. They are also used to attribute a quote to a speaker.
+An Em dash is one em wide - the width of a point size of a typeface.
+For example - The noise from the neighbor's house$mdash;it's killing me.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+* Command for an Em dash on a mac : Shift-Option-Hyphen
+* Command for an Em dash on Microsoft Word  :  Alt + Ctrl + (minus)
+* Em dash in HTML : **&mdash;** or **&#8212;**
+
+### En Dash
+
+Use an En dash as a replacement for the word 'to' or to denote a range of numbers. An En dash is half the width of an Em dash.
+For example - The first world war lasted from 1914 &ndash; 1918.
+
+* Command for an En dash on a mac : Option-Hyphen
+* Command for an En dash on Microsoft Word  :  Ctrl + (minus)
+* En dash in HTML : **&ndash;** or **&#8211;**
+
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+
+Dash - <a href='https://en.wikipedia.org/wiki/Dash#Em_dash' target='_blank' rel='nofollow'>Wikipedia</a>
+
+Thinking With Type by Ellen Lupton - <a href='http://thinkingwithtype.com' target='_blank' rel='nofollow'>Thinking With Type</a>
+
 
 
