@@ -20,6 +20,5 @@ In the above example, as soon as the web page has loaded, the `myFunction` funct
 the `onload` event is most often used within the `<body>` element to execute the script. If it is attached to the `<body>`, the script will run once the web page has completely loaded all content (images, script files, CSS files, etc.).
 
 #### More Information:
-<a href="https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onload" target='_blank'>MDN Documentation for onload</a>
 
-
+[MDN](https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onload)
