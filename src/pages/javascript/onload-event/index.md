@@ -2,14 +2,23 @@
 title: Onload Event
 ---
 ## Onload Event
+The `onload` event is used to execute a JavaScript function immediately after a page has been loaded.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/onload-event/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+### Example:
+```javascript
+<body onload="myFunction()">
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+<script>
+  function myFunction() {
+    alert('Page finished loading');
+  }
+</script>
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+In the above example, as soon as the web page has loaded, the `myFunction` function will be called, showing the `Page finished loading` alert to the user.
+
+the `onload` event is most often used within the `<body>` element to execute the script. If it is attached to the `<body>`, the script will run once the web page has completely loaded all content (images, script files, CSS files, etc.).
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+[MDN](https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onload)
