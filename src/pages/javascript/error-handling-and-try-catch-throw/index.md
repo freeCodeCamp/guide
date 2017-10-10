@@ -93,5 +93,5 @@ catch (e) {
 ```
 
 #### More Information:
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch
 
+[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch)
