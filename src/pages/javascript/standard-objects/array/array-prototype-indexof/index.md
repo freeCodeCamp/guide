@@ -1,6 +1,9 @@
 ---
-title: Array.prototype. indexOf
+title: Array.prototype.indexOf
 ---
+
+## Array.prototype.indexOf
+
 The `indexOf()` method returns the first index at which a given element can be found in the array. If the element is not present, it returns -1.
 
 **Syntax**
@@ -14,7 +17,6 @@ The `indexOf()` method returns the first index at which a given element can be f
 
 *   **fromIndex** Optional. The index at which you want to start the search at. Ifthe fromIndex is greater than or equal to the array's length, the array is not searched and the method returns -1. If the fromIndex is a negative number, it considered an offset from the end of the array (the array is still searched forwards from there). The default value is 0, which means the entire array is searched.
 
-[MDN link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf) | [MSDN Link](https://docs.microsoft.com/en-us/scripting/javascript/reference/indexof-method-array-javascript)
 
 ## Description
 
@@ -31,3 +33,9 @@ array.indexOf('hello'); // -1
 array.indexOf(1, 2); // 3
 array.indexOf(1, -3); // 3
 ```
+
+### More Information: 
+
+[MDN link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf)
+
+[MSDN Link](https://docs.microsoft.com/en-us/scripting/javascript/reference/indexof-method-array-javascript)
