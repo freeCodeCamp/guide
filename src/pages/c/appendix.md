@@ -5,7 +5,7 @@ title: Appendix
 Because C is such a low-level language, there are a lot of terms that come up that aren't found in a lot of other languages. Here's an appendix to making understanding them easier.
 
 ## Compilation
-Compilation is the process of taking human-readable code and turning it into machine-readable code. This process is performed by a compiler.
+The compilation is the process of taking the human-readable code and turning it into machine-readable code. This process is performed by a compiler.
 
 ## Compiler
 A compiler is a program that compiles code, meaning it changes it from something machine-readable into something human-readable.
@@ -23,10 +23,10 @@ Graphical User Interface. A GUI will allow you to interact with a program by poi
 Header files are libraries that exist in the top (header) of your C program.
 
 ## IDE
-Integrated Development Environment. It's an editor for code, and will have useful tools for making writing code easier, like a debugger.
+Integrated Development Environment. It's an editor for code and will have useful tools for making writing code easier, like a debugger.
 
 ## Human-readable
-Human-readable code is code that can be read by a person- it's not in binary or machine code.
+The human-readable code is code that can be read by a person- it's not in binary or machine code.
 
 ## Libraries
 Libraries are useful sets of code that give more functions and features in the language.
@@ -38,4 +38,4 @@ Machine code is the code that the machine can understand. Remember that computer
 A newline is what gets printed when you hit Enter, and is an example of a whitespace character.
 
 ## Whitespace
-Whitespace is the characters that you don't see when you type but are there anyway. For example, you can't see spaces, but there are a lot here. Newlines are also whitespace characters, as are tabs.
+Whitespace is the characters that you don't see when you type but are there anyway. For example, you can't see spaces, but there is a lot here. Newlines are also whitespace characters, as are tabs.
