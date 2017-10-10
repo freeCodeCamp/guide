@@ -35,7 +35,4 @@ The `onclick` event can also be programmatically added to any element using the 
 
 In the above example, when a user clicks on the `paragraph` element in the `html`, they will see an alert showing `onclick Event triggered`. 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-<a href="https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onclick" target="_blank">MDN Documentation for onclick</a>
-
-
+[MDN](https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onclick)
