@@ -1,7 +1,9 @@
 ---
-title: jQuery Click Method
+title: Click Method
 ---
-## jQuery Click Method
+
+## Click Method
+
 Binds the click event to an element or triggers the event on an element. It's most used form is :
 ```javascript
 jQueryElement.click(handler)
@@ -26,7 +28,7 @@ Usage of ones of the [eventObject](http://api.jquery.com/Types/#Event) method:
 ```
 ```javascript
 $("#myLink").click(function(event){
-		event.preventDefault();
+	event.preventDefault();
 });
 ```
 _here we are using the preventDefault method, it do exactly what it says, we stop the default event of an element, in this case we prevent our anchor tag to make a redirection when clicked_
@@ -51,7 +53,7 @@ And you can also trigger click event:
 ```javascript
 $( "element" ).click();
 ```
-Using the above example and adding ```.click()```
+Using the above example and adding `.click()`
 ```javascript
 $("#alert").click(function(){
   alert("Hi! I'm an alert");
@@ -62,7 +64,8 @@ $("#alert").click();
 Now even without click the button the click event will be triggered always when we enter or reload the page
 
 [jsFiddle](https://jsfiddle.net/gspk6gxt/)
+
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+
 For more information, please visit the [official website](https://api.jquery.com/click/#click) 
 
