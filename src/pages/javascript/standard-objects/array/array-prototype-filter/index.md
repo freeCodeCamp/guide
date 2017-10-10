@@ -22,4 +22,4 @@ students.filter(student => student.grade >= 90)
 ```
 
 #### More Information:
-[MDN article on Array.prototype.filter()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
