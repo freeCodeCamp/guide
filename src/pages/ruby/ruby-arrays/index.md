@@ -31,4 +31,4 @@ mixed_array.length # 3
 ```
 
 #### More Information:
-[Ruby array documentation](https://ruby-doc.org/core-2.4.2/Array.html)
+<a href='https://ruby-doc.org/core-2.4.2/Array.html' target='_blank' rel='nofollow'>Ruby array documentation</a>
