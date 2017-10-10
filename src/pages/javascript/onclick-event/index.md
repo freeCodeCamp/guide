@@ -2,14 +2,37 @@
 title: Onclick Event
 ---
 ## Onclick Event
+The `onclick` event in JavaScript lets you as a programmer execute a function when an element is clicked. 
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/onclick-event/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+### Example
+```javascript
+<button onclick="myFunction()">Click me</button>
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+<script>
+  function myFunction() {
+    alert('Button was clicked!');
+  }
+</script>
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+In the simple example above, when a user clicks on the button they will see an alert in their browser showing `Button was clicked!`. 
 
+### Adding `onclick` dynamically
+The `onclick` event can also be programmatically added to any element using the following code in the following example:
+
+```javascript
+<p id="foo">click on this element.</p>
+
+<script>
+  var p = document.getElementById("foo"); // Find the paragraph element in the page
+  p.onclick = showAlert; // Add onclick function to element
+    
+  function showAlert(event) {
+    alert("onclick Event triggered!");
+  }
+</script>
+```
+
+In the above example, when a user clicks on the `paragraph` element in the `html`, they will see an alert showing `onclick Event triggered`. 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+[MDN](https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onclick)
