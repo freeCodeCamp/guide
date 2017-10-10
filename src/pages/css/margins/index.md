@@ -8,7 +8,7 @@ The `margin` CSS property sets the margin area on all four sides of an element. 
 Margin values are set using lengths or percentages or `auto` or `inherit` keyword, and may accept zero or negative values. The initial, or default, value for all margin properties is 0. While you can use `inherit` keyword but it can not be used along with a length value.
 
 ## Syntax
-```
+```css
 .element {
     margin: [margin-top] || [margin-right] || margin-bottom] || [margin-left];
 }
@@ -20,7 +20,7 @@ This property may be specified using one, two, three, or four values.
 - When three values are specified, the first margin applies to the top, the second to the left and right, the third to the bottom.
 - When four values are specified, the margins apply to the top, right, bottom, and left in that order (clockwise).
 
-```
+```css
 /* Apply to all four sides */
 margin: 1em;
   
