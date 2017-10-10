@@ -8,7 +8,7 @@ title: C
 Make sure that you're comfortable with all of the concepts in this part of the guide before moving on. Getting your first program running is important because it will allow you to follow along with the examples, which is another good thing to do- practice makes perfect! Concepts that might be confusing will have an annotation that links to an appendix. If you don't understand a concept, make sure that you consult the appendix for more information.
 
 ## Course Goal
-The goals of this course is to teach the C language to beginners. Ideally, someone who has never touched a computer language before will be able to know C by following these guides. However, they will still be useful to more experienced programmers by including a summary at the end of each article. Although the content taught here is transferable to microcontrollers like the Arduino, it is not the focus of this guide.
+The goals of this course are to teach the C language to beginners. Ideally, someone who has never touched a computer language before will be able to know C by following these guides. However, they will still be useful to more experienced programmers by including a summary at the end of each article. Although the content taught here is transferable to microcontrollers like the Arduino, it is not the focus of this guide.
 
 ## What is C?
 
@@ -61,7 +61,7 @@ Now let's look at the meat of the program:
     printf("Hello, World!\n");
 ```
 
-`printf` is a function that takes text and prints it to the screen. The parenthesis indicate what information we want the `printf` function to take and print to the screen. We show that this is a string we want printed by surrounding it in quotes "like this".
+`printf` is a function that takes text and prints it to the screen. The parenthesis indicates what information we want the `printf` function to take and print to the screen. We show that this is a string we want printed by surrounding it in quotes "like this".
 
 Notice the \n found within the quotes- this tells the `printf` function to print a newline. A newline is what gets printed when you hit enter on your keyboard. Without explicitly telling C to print a newline, everything will be printed on the same line.
 
@@ -78,13 +78,13 @@ As before, this line ends with a semicolon to indicate that the line has complet
 ## Compilation and Running
 You can save your hello world file as whatever you want, but it needs to end with the .c file extension. In this example, the file has been named "helloworld.c", because that is a clear name with a .c file extension.
 
-There are many ways to compile and get C code running on your computer. Here's a few:
+There are many ways to compile and get C code running on your computer. Here are a few:
 
 #### Compilation and running from the command line with GCC
 If you're running Mac or GNU+Linux, you've already got GCC installed.
 
 In order to run your C program, it needs to be compiled. In order to compile from the command line using gcc, run the following command from your terminal:
-```
+```shell
 gcc -o helloworld ./helloworld.c
 ```
 `gcc` is the Gnu C Compiler, and it will compile the C file we give it into a program that can be run by your computer.
@@ -92,7 +92,7 @@ gcc -o helloworld ./helloworld.c
 `-o helloworld` tells GCC that you want the compiled file (the output of gcc) to be a file called "helloworld". The final part of the command tells GCC where the C file to be compiled can be found. If you aren't comfortable with navigating from the command line, this step will be hard, but that's okay- it's easy to learn and come back, or you can try from an IDE.
 
 Once you've got it compiled, run the following command:
-```
+```shell
 ./helloworld
 ```
 
@@ -114,6 +114,6 @@ To run the code, click `Product` -> `Run`.
 * C is useful because it's small, fast, and has access to low-level operations. Because of this, it gets used a lot in robotics, operating systems, and consumer electronics, but not in things like webpages.
 * A C program has a few critical parts:
  * The include statement, which tells the C compiler where to find additional code that will be used in the program
- * A main function, which is where the code will first be executed and is required in order to compile
+ * The main function, which is where the code will first be executed and is required in order to compile
  * Stuff within that main function which will get executed, including a return statement that closes the program and gives a value to the program that called it
 * C needs to be compiled in order to run.
