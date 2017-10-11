@@ -3,13 +3,49 @@ title: A Target Attribute
 ---
 ## A Target Attribute
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/attributes/a-target-attribute/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+<p>The `<a target>` attribute specifies where to open the linked document in an `a` (anchor) tag.</p>
+<br>
+#### Examples:
+<br>
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+<p>A target attribute with the value of “_blank” opens the linked document in a new window or tab.</p>
+
+
+```html
+	<a href="https://www.freecodecamp.org" target="_blank">freeCodeCamp</a>
+```
+
+<p>A target attribute with the value of “_self” opens the linked document in the same frame as it was clicked (this is the default and usually does not need to be specified).</p>
+
+```html
+	<a href="https://www.freecodecamp.org" target="_self">freeCodeCamp</a>
+```
+<p>Or</p>
+
+```html
+	<a href="https://www.freecodecamp.org">freeCodeCamp</a>
+```
+
+<p>A target attribute with the value of “_parent” opens the linked document in the parent frame.</p>
+
+```html
+	<a href="https://www.freecodecamp.org" target="_parent">freeCodeCamp</a>
+```
+
+<p>A target attribute with the value of “_top” opens the linked document in the full body of the window.</p>
+
+```html
+	<a href="https://www.freecodecamp.org" target="_top">freeCodeCamp</a>
+```
+
+<p>A target attribute with the value of "framename" Opens the linked document in a specified named frame.</p>
+
+```html
+	<a href="https://www.freecodecamp.org" target="framename">freeCodeCamp</a>
+```
+
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+<p>Target Attribute: <a href="https://www.w3schools.com/tags/att_a_target.asp" target="_blank">w3schools</a></p>   
