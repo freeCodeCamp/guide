@@ -22,6 +22,7 @@ A target attribute with the value of “_self” opens the linked document in th
 	<a href="https://www.freecodecamp.org" target="_self">freeCodeCamp</a>
 ```
 
+
 ```html
 	<a href="https://www.freecodecamp.org">freeCodeCamp</a>
 ```
