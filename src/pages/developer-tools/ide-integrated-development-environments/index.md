@@ -18,4 +18,4 @@ Here are some examples of **IDE** programs which are free and most of which are 
 #### More Information:
 Many developer will also use a text editor such as [Visual Studio Code](https://code.visualstudio.com/), [Atom Editor](https://www.atom.io), or [Sublime Text Editor](https://www.sublimetext.com/) and use 3rd party extensions to add the features which they would get from a traditional **IDE**. **IDEs** generally use more of a computers resources than a text editor.
 
-
+Written by [PeterCr](https://www.github.com/petercr)
