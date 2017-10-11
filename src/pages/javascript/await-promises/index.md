@@ -5,7 +5,7 @@ title: Await Promises
 
 The `async` / `await` [operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators) make it easier to implement many async Promises. They also allow engineers to write clearer, more succinct, testable code.
 
-To understand this subject, you should have a solid understand of how [Promises](https://guide.freecodecamp.org/javascript/promises) work.
+To understand this subject, you should have a solid understanding of how [Promises](https://guide.freecodecamp.org/javascript/promises) work.
 
 ---
 
