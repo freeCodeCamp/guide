@@ -2,17 +2,17 @@
 title: String Split Method
 ---
 
-The ```split()``` function is commonly used for string splitting in Python. 
+The `split()` function is commonly used for string splitting in Python. 
 
-#### The ```split()``` method
+#### The `split()` method
 
-Template: ```string.split(separator, maxsplit)```
+Template: `string.split(separator, maxsplit)`
 
-```separator```: The delimiter string. You split the string based on this character. For eg. it could be " ", ":", ";" etc
+`separator`: The delimiter string. You split the string based on this character. For eg. it could be " ", ":", ";" etc
 
-```maxsplit```: The number of times to split the string based on the ```separator```. If not specified or -1, the string is split based on all occurences of the ```separator```
+`maxsplit`: The number of times to split the string based on the `separator`. If not specified or -1, the string is split based on all occurrences of the `separator`
 
-This method returns a list of substrings delimited by the ```separator```
+This method returns a list of substrings delimited by the `separator`
 
 #### Examples
 
@@ -36,7 +36,7 @@ Output:
 ['freeCodeCamp', 'is fun', ' and informative']
 ```
 
-3) No ```separator``` specified
+3) No `separator` specified
 ```python
 string = "freeCodeCamp is fun and informative"
 print(string.split())
@@ -45,7 +45,7 @@ Output:
 ```python
 ['freeCodeCamp', 'is', 'fun', 'and', 'informative']
 ```
-Note: If no ```separator``` is specified, then the string is stripped of __all__ whitespace
+Note: If no `separator` is specified, then the string is stripped of __all__ whitespace
 
 ```python
 string = "freeCodeCamp        is     fun and    informative"
@@ -56,7 +56,7 @@ Output:
 ['freeCodeCamp', 'is', 'fun', 'and', 'informative']
 ```
 
-3) Split string using ```maxsplit```. Here we split the string on " " twice:
+3) Split string using `maxsplit`. Here we split the string on " " twice:
 ```python
 string = "freeCodeCamp is fun and informative"
 print(string.split(" ", 2))
@@ -69,5 +69,3 @@ Output:
 #### More Information
 
 Check out the [Python docs on string splitting](https://docs.python.org/2/library/stdtypes.html#str.split)
-
-
