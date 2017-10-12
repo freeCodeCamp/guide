@@ -5,6 +5,7 @@ title: Z Index
 
 Z Index (`z-index`) is a CSS property that let's us define the order of overlapping HTML elements. Elements with a higher index will be placed on top of elements with a lower index.
 
+**Note**: Z index only works on positioned elements (`position:absolute`, `position:relative`, or `position:fixed`).
 
 #### Possible Values
 ```css
@@ -91,4 +92,6 @@ Z Index is commonly used to put a background element below a container. We can e
 <a href="https://css-tricks.com/almanac/properties/z/z-index/" target="_blank">https://css-tricks.com/almanac/properties/z/z-index/</a>
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index" target="_blank">https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index</a>
+
+<a href="https://philipwalton.com/articles/what-no-one-told-you-about-z-index/" target="_blank">https://philipwalton.com/articles/what-no-one-told-you-about-z-index/</a>
 
