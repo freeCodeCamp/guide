@@ -1,6 +1,9 @@
 ---
-Is There a Way to Substring a String in Python
+title: Is There a Way to Substring a String in Python
 ---
+
+## Is There a Way to Substring a String in Python
+
 Python offers many ways to substring a string. It is often called 'slicing'.
 
 It follows this template:
@@ -10,21 +13,21 @@ string[start: end: step]
 ```
 Where,
 
-```start```: The starting index of the substring. The character at this index is included in the substring. If _start_ is not included, it is assumed to equal to 0.
+`start`: The starting index of the substring. The character at this index is included in the substring. If _start_ is not included, it is assumed to equal to 0.
 
-```end```: The terminating index of the substring. The character at this index is _NOT_ included in the substring. If _end_ is not included, the substring goes from _start_ till the end of the the string.
+`end`: The terminating index of the substring. The character at this index is _NOT_ included in the substring. If _end_ is not included, the substring goes from _start_ till the end of the string.
 
-```step```: Every 'step' character after the current character to be included. The default value is 1. If the _step_ value is omitted, it is assumed to equal to 1.
+`step`: Every 'step' character after the current character to be included. The default value is 1. If the _step_ value is omitted, it is assumed to equal to 1.
 
 #### Template
 
-```string[start:end]```: Get all characters from index _start_ to _end-1_
+`string[start:end]`: Get all characters from index _start_ to _end-1_
 
-```string[:end]```: Get all characters from the beginning of the string to _end-1_
+`string[:end]`: Get all characters from the beginning of the string to _end-1_
 
-```string[start:]```: Get all characters from index _start_ to the end of the string
+`string[start:]`: Get all characters from index _start_ to the end of the string
 
-```string[start:end:step]```: Get all characters from _start_ to _end-1_ discounting every _step_ character
+`string[start:end:step]`: Get all characters from _start_ to _end-1_ discounting every _step_ character
 
 
 #### Examples
@@ -36,11 +39,11 @@ string = "freeCodeCamp"
 print(string[0:5])
 ```
 Output:
-```python
+```shell
 > freeC
 ```
 
-Note: ```print(string[:5])``` returns the same result as ```print(string[0:5])```
+Note: `print(string[:5])` returns the same result as `print(string[0:5])`
 
 * **Get a substring of length 4 from the 3rd character of the string**
 
@@ -49,7 +52,7 @@ string = "freeCodeCamp"
 print(string[2:6])
 ```
 Output:
-```python
+```shell
 > eeCo
 ```
 
@@ -60,7 +63,7 @@ string = "freeCodeCamp"
 print(string[-1])
 ```
 Output:
-```python
+```shell
 > p
 ```
 
@@ -73,7 +76,7 @@ string = "freeCodeCamp"
 print(string[-5:])
 ```
 Output:
-```python
+```shell
 > eCamp
 ```
 
@@ -84,7 +87,7 @@ string = "freeCodeCamp"
 print(string[1:-4])
 ```
 Output:
-```python
+```shell
 > reeCode
 ```
 
@@ -95,8 +98,6 @@ string = "freeCodeCamp"
 print(string[::2])
 ```
 Output:
-```python
+```shell
 > feCdCm
 ```
-
-
