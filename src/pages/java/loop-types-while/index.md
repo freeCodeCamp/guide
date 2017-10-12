@@ -25,8 +25,9 @@ System.out.println ("iter_While Value: " + iter_While);
 ```
 
 Output:
-
+```
     0 1 2 3 4 5 6 7 8 9
     iter_While Value: 10
+```
 
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CJYj/0' target='_blank' rel='nofollow'>Run Code</a>

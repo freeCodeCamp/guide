@@ -25,8 +25,9 @@ System.out.println("iter_DoWhile Value: " + iter_DoWhile);
 ```
 
 Output:
-
+```
     20
     iter_DoWhile Value: 21
+```
 
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CJYl/0' target='_blank' rel='nofollow'>Run Code</a>

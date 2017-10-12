@@ -28,7 +28,7 @@ String str3 = new String("This is a string");
 
 System.out.println(str == str2); // This prints true
 System.out.println(str == str3); // This prints false
-```java
+```
 
 The answer is: 2 String objects are created.
 

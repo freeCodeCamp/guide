@@ -26,6 +26,7 @@ Primarily, Java has the following constructs for flow control:
 *   `switch`
 
 Switch is an alternative for the `if...else` construct when there are multiple values and cases to check against.
+
 ```java
 switch( <integer / String / Enum > ){
     case <int/String/Enum>: 
