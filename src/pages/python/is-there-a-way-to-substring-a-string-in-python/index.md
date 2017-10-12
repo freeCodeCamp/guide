@@ -15,7 +15,7 @@ Where,
 
 `start`: The starting index of the substring. The character at this index is included in the substring. If _start_ is not included, it is assumed to equal to 0.
 
-`end`: The terminating index of the substring. The character at this index is _NOT_ included in the substring. If _end_ is not included, the substring goes from _start_ till the end of the string.
+`end`: The terminating index of the substring. The character at this index is _NOT_ included in the substring. If _end_ is not included, or if the specified value exceeds the string length, it is assumed to be equal to the length of the string by default.
 
 `step`: Every 'step' character after the current character to be included. The default value is 1. If the _step_ value is omitted, it is assumed to equal to 1.
 
@@ -56,6 +56,8 @@ Output:
 > eeCo
 ```
 
+Please note that the start or end index may be a negative number. A negative index means that you start counting from the end of the string instead of the beginning (i.e from the right to left). Index -1 represents the last character of the string, -2 represents the second to last character and so on...
+
 * **Get the last character of the string**
 
 ```python
@@ -66,8 +68,6 @@ Output:
 ```shell
 > p
 ```
-
-Note: Python can handle negative indices. Index -1 represents the last character of the string, -2 represents the second to last character and so on...
 
 * **Get the last 5 characters of a string**
 
@@ -89,6 +89,14 @@ print(string[1:-4])
 Output:
 ```shell
 > reeCode
+```
+
+#### More examples
+```py
+str = “freeCodeCamp”
+
+print str[-5:-2] # prints ‘eCa’
+print str[-1:-2] # prints ‘’ (empty string)
 ```
 
 * **Get every other character from a string**
