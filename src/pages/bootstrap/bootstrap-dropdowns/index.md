@@ -4,7 +4,7 @@ title: Bootstrap Dropdowns
 ## Bootstrap Dropdowns
 
 Bootstrap provides Dropdowns as a plugin for displaying lists of links.
-Dropdown is a button which toggle displaying list of links.
+The dropdown is a button which toggles displaying a list of links.
 
 Bootstrap’s dropdowns are designed to be generic and applicable to a variety of situations. For instance, it is possible to create dropdowns that contain search fields or login forms.
 
@@ -24,7 +24,7 @@ Bootstrap’s dropdowns are designed to be generic and applicable to a variety o
 ```
 
 
-## Example Examplained
+## Example Explained
 The *.dropdown* class indicates a dropdown menu.
 
 To open the dropdown menu, use a button or a link with a class of *.dropdown-toggle* and the *data-toggle="dropdown* attribute.
@@ -35,5 +35,4 @@ Add the *.dropdown-menu* class to a unordered list element to actually build the
 
 #### More Information:
 https://getbootstrap.com/docs/4.0/components/dropdowns/
-
 
