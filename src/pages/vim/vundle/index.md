@@ -6,7 +6,7 @@ title: Vundle
 Vundle is short for Vim bundle and is a Vim plugin manager.
 
 It allows you to...
-- keep track of and configure your plugins right in the .vimrc
+- keep track of and configure your plugins right in the `~/.vimrc` (a [file](https://stackoverflow.com/questions/164847/what-is-in-your-vimrc) to customise vim)
 - install configured plugins (a.k.a. scripts/bundle)
 - update configured plugins
 - search by name all available Vim scripts
