@@ -3,13 +3,28 @@ title: String Join Method
 ---
 ## String Join Method
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/python/string-join-method/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `string.join()` method joins items from an iterable, using the string as a separator between each item. The items in the iterable must themselves be strings.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+It is quite common to call `join()` on an empty string, which results in the items being joined with no separator.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Example
+
+```
+>>> list_of_fruit = ['apples', 'pears', 'oranges', 'bananas']
+>>> shopping_list = ', '.join(list_of_fruit)
+>>> print(shopping_list)
+'apples, pears, oranges, bananas'
+>>> ''.join(list_of_fruit)
+'applespearsorangesbananas'
+```
+
+Alternatively, it is possible to simply join strings using the plus operator:
+
+```
+>>> 'Hello, ' + 'World!'
+'Hello, World!'
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+String methods [documentation](https://docs.python.org/3/library/stdtypes.html#string-methods)
