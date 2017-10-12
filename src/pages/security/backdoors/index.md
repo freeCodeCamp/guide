@@ -3,11 +3,7 @@ title: Backdoors
 ---
 ## Backdoors
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/security/backdoors/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+A backdoor is a way of accessing a system without the user of the system knowing that you have access. Backdoors are nearly undetectable and are extremely hard to remove. Most of the time backdoors have unrestricted access to the systam and need no approval of the system that is backdoored to do things. Backdoors are also mostly accessed remotely in a way to steal information from a user. 
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
