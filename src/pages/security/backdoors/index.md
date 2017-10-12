@@ -2,7 +2,6 @@
 title: Backdoors
 ---
 ## Backdoors
-
 A backdoor in software or a computer system is generally an undocumented portal that allows an administrator to enter the system to troubleshoot or do upkeep. But it also refers to a secret portal that hackers and intelligence agencies use to gain illicit access.
 
 A backdoor has multiple meanings. It can refer to a legitimate point of access embedded in a system or software program for remote administration.
@@ -15,9 +14,8 @@ Backdoors of another sort gained notoriety in 2013 when NSA documents leaked to 
 
 One of the most controversial backdoor cases involved the NSA's reported efforts to intentionally weaken an encryption algorithm known as the NIST SP800-90 Dual Ec Prng so that any data encrypted with the algorithm would be susceptible to cracking by the NSA.
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-* [Backdoor](https://www.incapsula.com/web-application-security/backdoor-shell-attack.html)
-* [Wikipedia(Backdoor)](https://en.wikipedia.org/wiki/Backdoor_(computing))
+### More Information:
+* What is a backdoor: [Incapsula](https://www.incapsula.com/web-application-security/backdoor-shell-attack.html)
+* Backdoor article: [Wikipedia](https://en.wikipedia.org/wiki/Backdoor_(computing))
 
 
