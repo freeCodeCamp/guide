@@ -1,12 +1,11 @@
 ---
-title: How to Use Sftp to Securely Transfer Files with a Remote Server
+title: How to Use SFTP to Securely Transfer Files with a Remote Server
 ---
-## How to Use Sftp to Securely Transfer Files with a Remote Server
-
-This article is a quick tutorial on how to use Secure File Transfer Protocol to exhange files with a server. This is useful for programming, as it allows you to code and test locally, and then send your work to the server when you are done.
+## How to Use SFTP to Securely Transfer Files with a Remote Server
+This article is a quick tutorial on how to use Secure File Transfer Protocol (SFTP) to exhange files with a server. This is useful for programming, as it allows you to code and test locally, and then send your work to the server when you are done.
 
 ### Testing SSH
-If you haven't already, test that you are able to SSH into the server. SFTP uses the SSH protocol, so if you are unable to SSH you probably won't be able to SFTP either.
+If you haven't already, test that you are able to SSH into the server. SFTP uses the Secure Shell (SSH) protocol, so if you are unable to SSH you probably won't be able to SFTP either.
 
 ```unix
 ssh your_username@hostname_or_ip_address
@@ -34,7 +33,3 @@ To upload a file:
 ```unix
 put <filename>
 ```
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
