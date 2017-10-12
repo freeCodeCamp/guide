@@ -195,3 +195,41 @@ This approach can be done in case you require to distribute the app to the testi
 
 From the Xcode menu select ```Product``` -> ```Clean```,
 Then ```Product``` -> ```Archive```,
+The Archives organizer appears and displays the new archive.
+<img src="https://image.ibb.co/iunfMG/6_ios_archive_organizer_2x.png" alt="ios archive organizer" width="100%">
+In the righthand side panel select Export option, al ist of optios will appear.
+
+To distribute your app to users with designated devices, select “Save for Ad Hoc Deployment.” The app will be code signed with the distribution certificate.
+
+To distribute your app for internal testing, select “Save for Development Deployment.” The app will be code signed with your development certificate.
+<img src="https://image.ibb.co/jQJLMG/6_ios_createappstorepackage_1_2x.png" alt="ios archive organizer export as ad hoc" width="100%">
+
+In the dialog that appears, choose a team from the pop-up menu and click Choose.
+<img src="https://image.ibb.co/gH2VMG/6_ios_export_choose_team_2x.png" alt="ios export select team"  width="100%">
+
+Next the device selection dialog popus up
+Select either *All devices* or *specific devices* click next.
+
+Next the review dialog is displayed,
+Here it will show the signing certificate and provisioning profile used for generating the build.
+Review and click next.
+Finally the file  save as popup is displayed to select the locationin the filesystem to store the exported app file.
+
+The app is exported as ``.ipa``` file .
+
+To run this file on device simply double tap it which will open it in itunes.
+
+Then connect your device (This should show a small device icon on the top left corner of the itunes window )
+tapping on it will show the device summary such as apps, music etc on the device.
+Select the apps tab,
+in the left pane, select the app to be installed and click install.
+Wait for the process to complete and click apply,
+This should install the ipa file on your device.
+
+To debug the app : 
+1) Open safari, 
+2) open the app on device
+3) In the Safari menu bar select ``` Develop --> Your Device Name --> Your App ```.
+
+## Thats all Folks !!!
+
