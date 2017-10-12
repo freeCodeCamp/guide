@@ -2,12 +2,13 @@
 title: Social Engineering
 ---
 ## Social Engineering
+Social Engineering is the use of conversation or means of communication in order to gain access to whoever you are talking to, personal information or information that they would not like shared. A social enginnering attack normally consists of an email asking you to reply to send them personal information including but not limited to Address, Names, Phone number, Pasport information, Passwords, and usernames.
+A prime example would be a "Nigerian Prince" messaging you saying he has 10 million USD to give you and all you need to do is send him $300 and all your personal info. 
+Here is an example
+![Nigerian Prince Email](https://imgur.com/a/5510y)
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/security/social-engineering/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+NEVER reply to those kinds of emails as there is a 100% chance you WILL HAVE YOUR INFO STOLEN
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
