@@ -46,7 +46,7 @@ type your command which should appear at the bottom of the window.
 For example, to do a global find and replace type `:%s/foo/bar/g` to replace
 all 'foo' with 'bar'
 - `:` Enters command mode
-- `%` Means accross all lines
+- `%` Means across all lines
 - `s` Means substitute
 - `/foo` is regex to find things to replace
 - `/bar/` is regex to replace things with
