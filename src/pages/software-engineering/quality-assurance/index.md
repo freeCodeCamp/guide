@@ -1,3 +1,6 @@
+---
+title: Quality Assurance
+---
 ## Quality Assurance
 
 Quality Assurance (commonly known as QA) is the means by which a product in development is checked to make sure it works as it's supposed to.  The actual methods used in QA processes vary hugely depending on the size and nature of the product. 
