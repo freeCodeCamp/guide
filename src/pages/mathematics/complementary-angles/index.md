@@ -5,7 +5,7 @@ title: Complementary Angles
 
 ## Definition
 
-Two angles which sum up to 90&deg;, are called complementary angles.
+Two angles which (when added together) have a sum of 90&deg;, are called complementary angles.
 
 
 ![](https://raw.githubusercontent.com/pranabendra/articles/master/Complementary-angles/comp1.png)
