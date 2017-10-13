@@ -1,5 +1,5 @@
 ---
-title: JavaScript Closures
+title: Closures
 ---
 Closures are functions that refer to independent (free) variables (`name`), that have been returned by an enclosing function (`makeFunc`), and can still refer to those variables when they are called (`myFunc()`). As such, the closure (`makeFunc()`) 'remembers' the environment in which it was created.
 

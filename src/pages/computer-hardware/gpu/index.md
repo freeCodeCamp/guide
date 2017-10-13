@@ -14,8 +14,8 @@ GPUs can be used for computation as well as video rendering. Common ways to do t
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
-<a href='https://en.wikipedia.org/wiki/Graphics_processing_unit' target='_blank' rel='nofollow'>Wikipedia</a>
-<a href='https://www.openacc.org/' target='_blank' rel='nofollow'>OpenACC</a>
-<a href='https://developer.nvidia.com/cuda-zone' target='_blank' rel='nofollow'>CUDA</a>
-<a href='https://www.khronos.org/opencl/' target='_blank' rel='nofollow'>OpenCL</a>
-<a href='https://www.opengl.org/' target='_blank' rel='nofollow'>OpenGL</a>
+- <a href='https://en.wikipedia.org/wiki/Graphics_processing_unit' target='_blank' rel='nofollow'>Wikipedia</a>
+- <a href='https://www.openacc.org/' target='_blank' rel='nofollow'>OpenACC</a>
+- <a href='https://developer.nvidia.com/cuda-zone' target='_blank' rel='nofollow'>CUDA</a>
+- <a href='https://www.khronos.org/opencl/' target='_blank' rel='nofollow'>OpenCL</a>
+- <a href='https://www.opengl.org/' target='_blank' rel='nofollow'>OpenGL</a>

@@ -1,15 +1,16 @@
 ---
-title: The Agile Manifesto
+title: The Manifesto
 ---
-## The Agile Manifesto
+## The Manifesto
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/the-agile-manifesto/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Manifesto for agile software development: 
+  - Individuals and interactions over process and tools.
+  - Working software over comprehensive documentation.
+  - Customer collaboration over contract negotiation.
+  - Responding change over following a plan.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+"We are uncovering better ways of developing software by doing it and helping others do it. Through this work, we have come to value."
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+<a href='http://agilemanifesto.org/' target='_blank' rel='nofollow'>Agile Manifesto</a>
