@@ -1,12 +1,14 @@
 ---
 title: Finite State Machine
 ---
-The finite state machine (FSM) is a software design pattern where a given model transitions to other behavioural states through external input.
+The finite state machine (FSM) is a software design pattern where a given model transitions to other behavioral states through external input.
 
 ## Finite State Machine
 A FSM is defined by it's **states**, it's **initial state** and the **transitions**.
-The power of FSM comes from the ability to clearly define different *behaviours* in different conditions. Usually FSM is used with looping behavioural scripts which constantly evaluate the current situation in a loop or with events.
-To help form an image of how this might be applied a coffee machine will be used as an example of a finite state machine. We will also cover a state diagram to visualise the FSM and provice coding examples. 
+
+The power of FSM comes from the ability to clearly define different *behaviors* in different conditions. Usually FSM is used with looping behavioral scripts which constantly evaluate the current situation in a loop or with events.
+
+To help form an image of how this might be applied, a coffee machine will be used as an example of a finite state machine. We will also cover a state diagram to visualise the FSM and provide coding examples. 
 
 ### State Diagram
 ![Coffee machine finite state machine diagram](https://raw.githubusercontent.com/arunma/blogimages/master/AkkaFSM/CoffeeMachineFSM.png)
@@ -36,7 +38,7 @@ If the user opts to cancel, the machine will go from ReadyToBuy to Open.
 The machine will go to PoweredOff state
 
 ### States
-In every state there is defined behaviour which will only be executed when the object is in that state. For instance, during PoweredOff the coffee machine won't brew coffee before it's powered on, during the Open state it will wait either until there's enough cash inserted, until the power down command is given or until it runs out of coffee. During this Open state it can do routines such as cleaning which won't happen in other states.
+In every state there is defined behavior which will only be executed when the object is in that state. For instance, during PoweredOff the coffee machine won't brew coffee before it's powered on, during the Open state it will wait either until there's enough cash inserted, until the power down command is given, or until it runs out of coffee. During this Open state it can do routines such as cleaning which won't happen in other states.
 
 ### Initial State
 Every FSM has an initial state, this means which state it starts in when it is created and has to be defined when constructed or instantiated. Of course it's possible to directly change state if conditions are met.
