@@ -3,13 +3,23 @@ title: Array.prototype.filter
 ---
 ## Array.prototype.filter
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/standard-objects/array/array-prototype-filter/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+When the 'filter' method is run against an array it returns another array containing items that pass a Boolean test.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+In this example, the students array is filtered and the return value is another array containing any student object where the grade value is greater than or equal to 90.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```javascript
+var students = [
+  { name: 'Quincy', grade: 96 },
+  { name: 'Jason', grade: 84 },
+  { name: 'Alexis', grade: 100 },
+  { name: 'Sam', grade: 65 },
+  { name: 'Katie', grade: 90 }
+];
+
+students.filter(student => student.grade >= 90)
+
+// [ { name: 'Quincy', grade: 96 }, { name: 'Alexis', grade: 100 }, { name: 'Katie', grade: 90 } ]
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)

@@ -1,21 +1,18 @@
 ---
-title: JavaScript Assignment Operators
+title: Assignment Operators
 ---
+
+# Assignment Operators
+
 Assignment operators, as the name suggests, assign (or re-assign) values to a variable. While there are quite a few variations on the assignment operators, they all build off of the basic assignment operator.
 
 ## Syntax
 
-    x = y;
-
-          | Description                                   | Necessity
-
---------- | --------------------------------------------- | ---------  
-x | Variable | Required  
-= | Assignment operator | Required  
-y | Value to assign to variable | Required
-
-<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Assignment_Operators#Assignment' target='_blank' rel='nofollow'>MDN link</a>  
-<a href='https://msdn.microsoft.com/en-us/library/1w2h1k9x(v=vs.94' target='_blank' rel='nofollow'>MSDN link</a>.aspx)
+`x = y;` | Description  | Necessity
+:---------:|:---------------------:|:---------:  
+`x` | Variable | Required  
+`=` | Assignment operator | Required  
+`y` | Value to assign to variable | Required
 
 ## Examples
 
@@ -58,3 +55,9 @@ Unsigned right shift assignment | x >>>= y | x = x >>> y
 Bitwise AND assignment | x &= y | x = x & y  
 Bitwise XOR assignment | x ^= y | x = x ^ y  
 Bitwise OR assignment | x |= y | x = x | y
+
+### More Information:
+
+<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Assignment_Operators#Assignment' target='_blank' rel='nofollow'>MDN link</a>
+
+<a href='https://docs.microsoft.com/en-us/scripting/javascript/reference/assignment-operator-decrement-equal-javascript' target='_blank' rel='nofollow'>MSDN link</a>

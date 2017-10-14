@@ -3,26 +3,38 @@ title: Ruby Introduction
 ---
 ## What is Ruby?
 
-<a>Ruby</a> is an interpreted scripting language for quick and easy object-oriented programming. Which means:
+<a>Ruby</a> is an open source, dynamic and interpreted scripting language for quick and easy object-oriented programming. Which means:
 
 *   Ability to make operating system calls directly
-*   Powerful string operations and regular expressions
 *   Immediate feedback during development
 *   Variable declarations are unnecessary
-*   Variables are not typed
-*   Syntax is simple and consistent
 *   Memory management is automatic
 *   Everything is an object
-*   Classes, methods, inheritance, etc.
-*   Singleton methods
 *   Has "mixin" functionality by module
 *   Iterators and closures
 
-If you are unfamiliar with some of the concepts above, read on, and don't worry. The mantra of the ruby language is quick and easy.
+If you are unfamiliar with some of the concepts above, read on, and don't worry. Ruby focus on simplicity and productivity with an elegant syntax that is natural to read and easy to write, like:
+```ruby
+# Quick example of Ruby with Object Oriented Programming
+class Greeter
+  def initialize(name)
+    @name = name.capitalize
+  end
 
+  def salute
+    puts "Hello #{@name}!"
+  end
+end
+
+# Create a new object
+g = Greeter.new("world")
+
+# Output "Hello World!"
+g.salute
+```
 ## Version
 
-The current stable version is 2.3.0\. It has various performance improvements and syntactic additions from its predecessor, ruby v2.2.4.
+The current stable version is 2.4.2\. It contains security improvements from its predecessor, ruby v2.3.5.
 
 ## Installation
 
@@ -39,9 +51,11 @@ To know about how to install Ruby through package managers, installers and sourc
 
 IRB stands for Interactive Ruby Shell. The abbreviation irb comes from the fact that the filename extension for Ruby is ".rb", although interactive Ruby files do not have an extension of ".irb". The program is launched from a command line and allows the execution of Ruby commands with an immediate response, experimenting in real-time. It features command history, line editing capabilities, and job control, and is able to communicate directly as a shell script over the Internet and interact with a live server. It was developed by Keiju Ishitsuka.
 
+```shell
     irb
     2.3.0 :001 > print "Hello World"
     Hello World! => nil
+```
 
 ## Ruby Interpreter
 
@@ -49,15 +63,16 @@ The Ruby interpreter is what is used to run Ruby scripts. If it is available and
 
 `hello_campers.rb`
 
+```ruby
     if 'welcome' == 'welcome'
         print('Hello campers!')
     end
-
+```
 From command-line:
-
+```shell
     $ ruby hello_campers.rb
     Hello campers!
-
+```
 ## Documentation
 
 Ruby is well <a href='https://www.ruby-lang.org/en/documentation/' target='_blank' rel='nofollow'>documented</a>. These docs include tutorials, guides, references and meta information for language.  
@@ -66,9 +81,9 @@ Another important resouce for documentation is <a href='http://ruby-doc.org/core
 ## Debugging
 
 Inline `print` statements can be used for simple debugging:
-
+```ruby
     print some_variable # prints to console
-
+```
 > **... often the quickest way to debug a program is to add a few print statements to the source: the fast edit-test-debug cycle makes this simple approach very effective.**
 
 Ruby also includes more powerful tools for debugging, such as:  
@@ -77,15 +92,15 @@ Ruby also includes more powerful tools for debugging, such as:
 ## Hello World!
 
 Going back to the docs, we can read about the <a href='http://ruby-doc.org/core-2.3.0/Kernel.html#method-i-print' target='_blank' rel='nofollow'>`print`</a> method, one of the built-in methods of the <a href='http://ruby-doc.org/core-2.3.0/Kernel.html' target='_blank' rel='nofollow'>the Kernel module</a>.  
-
+```ruby
     print(obj, ...) → nil
-
+```
 Prints each object to $stdout. Objects that aren’t strings will be converted by calling their `to_s` method. The return value of print is `nil`. So when you run `print "Hello World!` in your IRB. The output is:
-
+```shell
     2.3.0 :001 > print "Hello World!"
     Hello World!
      => nil
+```
+## Frameworks(gems)
 
-## Frameworks
-
-Ruby has several frameworks for quickly scaffolding applications. The most popular by far is <a href='http://rubyonrails.org/' target='_blank' rel='nofollow'>Rails</a> which was initially released in 2004\. Other frameworks for Ruby include <a href='http://www.sinatrarb.com/' target='_blank' rel='nofollow'>Sinatra</a>, <a href='http://lotusrb.org/' target='_blank' rel='nofollow'>Lotus</a>, and <a href='http://voltframework.com/' target='_blank' rel='nofollow'>Volt</a>. Each of these options has their pros and cons for development and cater to a variety needs.
+Ruby has several frameworks(gems) for quickly scaffolding applications. The most popular by far is <a href='http://rubyonrails.org/' target='_blank' rel='nofollow'>Rails</a> which was initially released in 2004\. Other frameworks(gems) for Ruby include <a href='http://www.sinatrarb.com/' target='_blank' rel='nofollow'>Sinatra</a>, <a href='http://lotusrb.org/' target='_blank' rel='nofollow'>Lotus</a>, and <a href='http://voltframework.com/' target='_blank' rel='nofollow'>Volt</a>. Each of these options has their pros and cons for development and cater to a variety needs.

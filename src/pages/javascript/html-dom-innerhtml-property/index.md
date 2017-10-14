@@ -2,14 +2,35 @@
 title: HTML Dom Innerhtml Property
 ---
 ## HTML Dom Innerhtml Property
+The `innerHTML` prop return the HTML content inside a selected element and also let you define a new HTML content.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/html-dom-innerhtml-property/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+***GET ELEMENT CONTENT***
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+```html
+<div id="demo">
+  <p>Demo</p>
+</div>
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```javascript
+var element = document.getElementById("demo");
+console.log(element.innerHTML) //logs <p>Demo</p>
+```
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+***SET ELEMENT CONTENT***
 
+```html
+<div id="demo"></div>
+```
 
+```javascript
+var element = document.getElementById("demo");
+element.innerHTML = "<div>Demo</div>";
+```
+The HTML now will be like 
+
+```html
+<div id="demo">
+  <div>Demo</div>
+</div>
+```

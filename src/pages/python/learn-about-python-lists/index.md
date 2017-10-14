@@ -20,7 +20,7 @@ A `list` can be created with elements by enclosing a comma separated list of ele
     >>> homogeneous_list = [1, 1, 2, 3, 5, 8]
     >>> type(homogeneous_list)
     <class 'list'>
-    >>> print(heterogeneous_list)
+    >>> print(homogeneous_list)
     [1, 1, 2, 3, 5, 8]
     >>> len(homogeneous_list)
     6
