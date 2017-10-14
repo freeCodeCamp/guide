@@ -4,7 +4,7 @@ title: If-else Statement
 ## Introduction
 
 The `if` statement executes a statement if a specified condition is **true**. If the condition is **false**, another statement can be executed using the `else` statement..
-
+  
 > **Note:** The `else` statement is optional.
 
     if (condition)
@@ -25,6 +25,8 @@ Multiple `if...else` statements can be nested to create an `else if` clause.
        statementN
 
 _**Note:**_ If you want to execute more than one statement in the `if`, `else` or `else if` part, braces are required around the statements.
+
+Generally, it is good practice to put the condition that is most likely to occur in the `if` part of the statement for code optimization.
 
 <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else' target='_blank' rel='nofollow'>MDN link</a> | <a href='https://msdn.microsoft.com/en-us/library/85yyde5c.aspx' target='_blank' rel='nofollow'>MSDN link</a>
 
