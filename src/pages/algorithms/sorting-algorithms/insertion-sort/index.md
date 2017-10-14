@@ -95,6 +95,25 @@ The below algorithm is slightly optimized version to avoid swapping `key` elemen
             i = i - 1
          arr[i+1] = key
 ```
+A quick implementation in Swift is as shown below :
+
+```
+  var array = [8, 3, 5, 1, 4, 2]
+
+  func insertionSort(array:inout Array<Int>) -> Array<Int>{
+      for j in 0..<array.count {
+          let key = array[j]
+          var i = j-1
+
+          while (i > 0 && array[i] > key){
+              array[i+1] = array[i]
+              i = i-1
+          }
+          array[i+1] = key
+      }
+      return array
+  }
+```
 
 ### Properties:
 * Space Complexity: O(1)
