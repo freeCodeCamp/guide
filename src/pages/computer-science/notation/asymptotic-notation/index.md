@@ -10,18 +10,9 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 How do we measure the performance value of algorithms?
 
-Consider how time is one of our most valuable resources. In terms of computing,
-performance can be measured with the amount of time a process takes to
-complete. If the data processed by two algorithms is the same, we can
-objectively decide on the best implementation for solving a problem.
+Consider how time is one of our most valuable resources. In computing, we can measure performance with the amount of time a process takes to complete. If the data processed by two algorithms is the same, we can decide on the best implementation to solve a problem.
 
-We do this by defining the mathematical limits of an algorithm. These are
-termed big-O, big-omega, and big-theta. Most easily understood is that on a
-graph the big-O would be the longest an algorithm could take for any given data
-set, or the "upper bound". Big-omega is like the opposite of big-O, the "lower
-bound", where the algorithm reaches its top-speed for any data set. Big theta
-is either the exact performance value of the algorithm or a relatively narrow,
-useful range between the upper and the lower bounds.
+We do this by defining the mathematical limits of an algorithm. These are the big-O, big-omega, and big-theta, or the asymptotic notations of an algorithm. On a graph the big-O would be the longest an algorithm could take for any given data set, or the "upper bound". Big-omega is like the opposite of big-O, the "lower bound". That's where the algorithm reaches its top-speed for any data set. Big theta is either the exact performance value of the algorithm, or a useful range between narrow upper and lower bounds.
 
 Some examples:
 - "The delivery will be there within your lifetime." (big-O, upper-bound)
