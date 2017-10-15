@@ -42,11 +42,11 @@ Or, alternatively, you can download all of Bootstraps source files including Sas
 
 `bower install bootstrap#v4.0.0-beta`
 
-(These are examples. You may want to check the [Bootstrap website](https://getbootstrap.com/) for the most up-to-date links)
+(These are examples. You may want to check the <a href='https://getbootstrap.com/' target='_blank' rel='nofollow'>Bootstrap website</a> for the most up-to-date links)
 
 #### More Information:
 
-Bootstrap has thorough documentation with many [examples](https://getbootstrap.com/docs/4.0/examples/) and an [HTML template for getting started](https://getbootstrap.com/docs/4.0/getting-started/introduction/). 
+Bootstrap has thorough documentation with many <a href='https://getbootstrap.com/docs/4.0/examples/' target='_blank' rel='nofollow'>examples</a> and an <a href='https://getbootstrap.com/docs/4.0/getting-started/introduction/' target='_blank' rel='nofollow'>HTML template for getting started</a>. 
 
-In addition, you can find both [free](https://bootswatch.com/) and [paid](https://themes.getbootstrap.com/)
+In addition, you can find both <a href='https://bootswatch.com/' target='_blank' rel='nofollow'>free</a> and <a href='https://themes.getbootstrap.com/' target='_blank' rel='nofollow'>paid</a>
 themes that build on the Bootstrap framework to provide a more customized and stylish look.

@@ -3,13 +3,30 @@ title: Merge Sort
 ---
 ## Merge Sort
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/algorithms/sorting-algorithms/merge-sort/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Merge Sort is a <a href='https://guide.freecodecamp.org/algorithms/divide-and-conquer-algorithms' target='_blank' rel='nofollow'>Divide and Conquer</a> algorithm. It divides input array in two halves, calls itself for the two halves and then merges the two sorted halves.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+```Algorithm
+MergeSort(arr[], left,  right):
+If right > l:
+     1. Find the middle point to divide the array into two halves: 
+             mid = (left+right)/2 
+     2. Call mergeSort for first half: 
+             Call mergeSort(arr, left, mid) 
+     3. Call mergeSort for second half:
+             Call mergeSort(arr, mid+1, right)
+     4. Merge the two halves sorted in step 2 and 3:
+             Call merge(arr, left, mid, right)
+ ```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+![Merge Sort algo](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Merge_sort_algorithm_diagram.svg/300px-Merge_sort_algorithm_diagram.svg.png)
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+### Properties:
+* Space Complexity: O(n)
+* Time Complexity: O(n*log(n))
+* Sorting In Place: No in a typical implementation
+* Stable: Yes
+
+### Relavant videos on freeCodeCamp YouTube channel
+* <a href='https://youtu.be/TzeBrDU-JaY'>Merge Sort algorithm - MyCodeSchool</a>
 
 

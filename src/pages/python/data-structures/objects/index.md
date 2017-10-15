@@ -112,4 +112,4 @@ It is also possible to bind functions to a name and called the bound function us
 
 Resources:
 
-* [Click Here](https://www.jeffknupp.com/blog/2014/06/18/improve-your-python-python-classes-and-object-oriented-programming/) to learn more.
+* <a href='https://www.jeffknupp.com/blog/2014/06/18/improve-your-python-python-classes-and-object-oriented-programming/' target='_blank' rel='nofollow'>Click Here</a> to learn more.

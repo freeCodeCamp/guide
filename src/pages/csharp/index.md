@@ -16,9 +16,9 @@ C# is an object-oriented language while also providing support for component-ori
 4) Versioning
 5) Delegates
 6) Properties
-7) LINQ(Language-Integrated Query) and Lambda Expressions
+7) LINQ (Language-Integrated Query) and Lambda Expressions
 8) Generics
-9) Indexers and many more.
+9) Indexers
 
 You can use C# to create Windows client applications, XML Web services, distributed components, client-server applications, database applications, and much more.
 
@@ -26,3 +26,4 @@ You can use C# to create Windows client applications, XML Web services, distribu
 #### More Information:
 [Introduction to C#](https://docs.microsoft.com/en-us/dotnet/csharp/getting-started/introduction-to-the-csharp-language-and-the-net-framework)
 [C# Tutorials](https://www.microsoft.com/net/tutorials/csharp/getting-started)
+[Official C# Documentation](https://docs.microsoft.com/en-us/dotnet/csharp/)
