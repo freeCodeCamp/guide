@@ -21,11 +21,6 @@ const faNames = {
   youtube: 'youtube-play'
 };
 
-const breadcrumbTexts = {
-  challenge: 'freeCodeCamp',
-  youtube: 'YouTube'
-};
-
 const propTypes = {
   resetSearch: PropTypes.func.isRequired,
   results: PropTypes.arrayOf(PropTypes.object)
@@ -75,27 +70,24 @@ class Results extends PureComponent {
     const { results } = this.props;
     return results.map((result, i) => {
       const { _index, _source: { title, url }, formattedDescription } = result;
-      const pathname = result._source.url;
       return (
-        <div key={ i }>
-        <Breadcrumbs path={ _index === 'guides' ?
-                            pathname : breadcrumbTexts[_index]}
-        />
-        <MediaWrapper url={ url }>
-          <Media>
-            <Media.Left align='middle'>
-              <FontAwesome
-                className='resultIcon'
-                name={ faNames[_index] ? faNames[_index] : '' }
-                size='3x'
-              />
-            </Media.Left>
-            <Media.Body>
-              <Media.Heading>{ title }</Media.Heading>
-              <p>{ formattedDescription }</p>
-            </Media.Body>
-          </Media>
-        </MediaWrapper>
+        <div key={ i }>        
+          <MediaWrapper url={ url }>
+            <Media>
+              <Media.Left align='middle'>
+                <FontAwesome
+                  className='resultIcon'
+                  name={ faNames[_index] ? faNames[_index] : '' }
+                  size='3x'
+                />
+              </Media.Left>
+              <Media.Body>
+                <Media.Heading>{ title }</Media.Heading>
+                {_index === 'guides' && <Breadcrumbs path={url}/>}
+                <p>{ formattedDescription }</p>
+              </Media.Body>
+            </Media>
+          </MediaWrapper>
         </div>
       );
     });
