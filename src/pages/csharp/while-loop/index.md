@@ -17,9 +17,10 @@ while (i < 5)
 ```
 
 ## Output:
+```
 > Number 0
 > Number 1
 > Number 2
 > Number 3
 > Number 4
-
+```
