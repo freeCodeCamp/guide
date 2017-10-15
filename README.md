@@ -187,6 +187,8 @@ Proper nouns should use correct capitalization when possible. Below is a list of
 
 - JavaScript (capital letters in "J" and "S" and no abbreviations)
 - Node.js
+- jQuery
+- SQL
 
 Front-end development (adjective form with a dash) is when you working on the front end (noun form with no dash). The same goes with the back end, full stack, and many other compound terms.
 
