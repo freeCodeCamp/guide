@@ -18,25 +18,45 @@ with (expression)
 ### Example Usage
 In JavaScript, you can individually modify an object's properties like below:
 ```javascript
-earth.land.tree.kind = 'apple';
-earth.land.tree.height = 4;
+let earth = {};
+earth.moons = 1;
+earth.continents = 7;
 ```
 `with` gives you a shorthand to modify the properties on an object:
 ```javascript
-with (earth.land.tree) {
-  kind = 'apple';
-  height = 4;
+with (earth) {
+  moons = 1;
+  continents = 7;
 }
 ```
 
+While this example is contrived, you can understand use cases of `with` more if you have larger objects like below:
+```javascript
+earth.continents.australia.geography.ocean = "Pacific";
+earth.continents.australia.geography.river = "Murray";
+earth.continents.australia.geography.mountain = "Kosciuszko";
+```
 
 ### Alternatives
-Instead of using `with`, a much better approach is to assign the object to a variable, and then modify the variable's properties.
+You should not use `with` as it has subtle bugs and compatibility issues. A highly recommended approach is to assign the object to a variable, and then modify the variable's properties. Here is an example using a larger object:
 ```javascript
-let tree = earth.land.tree;
-tree.kind = true;
-tree.height = true;
+let earth = {
+  continents: {
+    australia: {
+      geography: {}
+    }
+  }
+};
+
+let geo = earth.continents.australia.geography;
+
+geo.ocean = "Pacific";
+geo.river = "Murray";
+geo.mountain = "Kosciuszko";
 ```
+
+### Try It Out
+https://repl.it/Mixg/5
 
 
 #### More Information:
