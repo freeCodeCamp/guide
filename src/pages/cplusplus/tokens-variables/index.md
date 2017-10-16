@@ -1,5 +1,5 @@
 ---
-title : Tokens - I
+title: Tokens - I
 ---
 
 ### What are tokens ?
@@ -21,8 +21,8 @@ Tokens are the smallest unit of a program which are importanat to the compiler. 
     ![Img](https://i.imgur.com/YdbgWHL.png)
 
 So, for example :
-   I'm shifting to a new place and I need to arrange my stuff in boxes . Thus there come 2 things to my mind  **What kind of stuff will be stored in the box, so that the sizze off the box is known (the data type)** and **How do I identify the box ?(Naming the variable)**  
-   Hence , we know that a variable in C++ needs a *name* and a *data type*.
+   I'm shifting to a new place and I need to arrange my stuff in boxes . Thus there come 2 things to my mind  **What kind of stuff will be stored in the box, so that the size off the box is known (the data type)** and **How do I identify the box ?(Naming the variable)**  
+   Hence , we know that a variable in C++ needs a *name* and a *data type* and that the value stored in them can be changed.
    
 #### Data Types in C++ : 
 Data Type       Size allocated in memory        Example

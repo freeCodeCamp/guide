@@ -1,5 +1,5 @@
 ---
-title : Introduction to C++
+title: Introduction to C++
 ---
 # Hello World! - Your first C++ Program
 

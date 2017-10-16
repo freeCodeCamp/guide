@@ -1,5 +1,5 @@
 ---
-title : IDE and Printing different text 
+title: IDE and Printing different text 
 ---
 # Introduction to an IDE and printing different text : 
 

@@ -1,5 +1,5 @@
 ---
-title : C++ If Statement
+title: C++ If Statement
 ---
 
 # The IF statement.
