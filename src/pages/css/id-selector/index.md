@@ -22,8 +22,8 @@ Remember, the ID selector must match an HTML element's ID attribute.
 ```
 
 #### More Information:
-<a href="https://www.freecodecamp.org/challenges/set-the-id-of-an-element">https://www.freecodecamp.org/challenges/set-the-id-of-an-element</a>
+<a href="https://www.freecodecamp.org/challenges/set-the-id-of-an-element" target="_blank">https://www.freecodecamp.org/challenges/set-the-id-of-an-element</a>
 
-<a href="https://www.freecodecamp.org/challenges/use-an-id-attribute-to-style-an-element">https://www.freecodecamp.org/challenges/use-an-id-attribute-to-style-an-element</a>
+<a href="https://www.freecodecamp.org/challenges/use-an-id-attribute-to-style-an-element"  target="_blank">https://www.freecodecamp.org/challenges/use-an-id-attribute-to-style-an-element</a>
 
-<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors">https://developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors</a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors" target="_blank">https://developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors</a>
