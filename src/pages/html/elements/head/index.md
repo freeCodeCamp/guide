@@ -3,9 +3,9 @@ title: Head
 ---
 ## Head
 
-<p>The &lt;head&gt; tag contains information about a webpage. Along with &lt;body&gt;, it is one of the two required elements of an HTML document. &lt;head&gt; must be the first child of an &lt;html&gt; element. There can only be one &lt;head&gt; element on a page. 
+The `<head>`; tag contains information about a webpage. Along with `<body>`, it is one of the two required elements of an HTML document. &lt;head&gt; must be the first child of an `<html>`; element. There can only be one `<head>`; element on a page. 
 
-The &lt;head&gt; element contains information about how a webpage should be displayed, also known as metadata. The document title, links to stylesheets, and &lt;script&gt; tags linking to JavaScript files should all be placed in the &lt;head&gt;.  The &lt;head&gt; should not contain any page content.
+The `<head>`; element contains information about how a webpage should be displayed, also known as metadata. The document title, links to stylesheets, and `<script>`; tags linking to JavaScript files should all be placed in the `<head>`;.  The `<head>` should not contain any page content.
 
   ```html
   <html>
