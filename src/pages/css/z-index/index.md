@@ -26,7 +26,7 @@ z-index: unset;
 
 
 #### Example Usage
-For our example, we will display three boxes on top of each other in different orders using `z-indez`.
+For our example, we will display three boxes on top of each other in different orders using `z-index`.
 
 <em>HTML</em>
 ```html
