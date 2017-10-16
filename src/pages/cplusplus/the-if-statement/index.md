@@ -87,7 +87,7 @@ This step is always printed
 ```
   This is the output when the number entered is negative.
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/Mg9X' target='_blank' rel='nofollow'>Try the code yourself ! :) </a>
+<a href='https://repl.it/Mg9X' target='_blank' rel='nofollow'>Try the code yourself ! :) </a>
 
 
 _CONGRATULATIONS . This is the end of the article on the IF statement_ 

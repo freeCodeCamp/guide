@@ -124,7 +124,7 @@ This is because we did not add the inverted commas for the second print statemen
 
  As you may notice, the comments are ignored during program execution and do not show up on checking the output of the program.
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/L4ox' target='_blank' rel='nofollow'>A summation of all the print statements used in this article. Feel free to tweak around woth the code ! :) </a>
+<a href='https://repl.it/L4ox' target='_blank' rel='nofollow'>A summation of all the print statements used in this article. Feel free to tweak around woth the code ! :) </a>
 
 _CONGRATULATIONS! You have reached the end of the second article_
 

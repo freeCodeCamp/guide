@@ -90,7 +90,7 @@ _You have finished coding your first C++ program and have mostly understood the 
 
 By : Jaithra Bhatia and Hitarth Asrani
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/L4k3' target='_blank' rel='nofollow'>Try the code yourself ! :) </a>
+ <a href='https://repl.it/L4k3' target='_blank' rel='nofollow'>Try the code yourself ! :) </a>
 
 **You may require some software to write and execute C++ code. I recommend using CodeBlocks. There's a download link below :**
 

@@ -108,7 +108,7 @@ New value in a :  5
 
 As you can see,, there is already a value stored in 'a' before we give it a value(here , it is 0 ). This should remain in the mind of every programmer so that when the variables aree used they do not create a logical error and print garbage values.
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/Mg7j' target='_blank' rel='nofollow'>Try the code yourself ! :) </a>
+<a href='https://repl.it/Mg7j' target='_blank' rel='nofollow'>Try the code yourself ! :) </a>
 
 
 #### Keywords : 
