@@ -1,6 +1,91 @@
 language: node_js
 node_js:
-  - "6"
+  - "iojs"
+  - "7"
+"scripts": {
+  "test": "vows --spec"
+},
+before_script:
+  - npm install -g gulp-cli
+script: gulp
+npm install
+before_install:
+  - npm i -g npm@version-number
+  cache:
+  directories:
+    - "node_modules"
+    yarn
+    before_install:
+  - curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version version-number
+  - export PATH="$HOME/.yarn/bin:$PATH"
+  cache: yarn
+  cache:
+  yarn: true
+  sudo: required
+dist: trusty
+addons:
+  apt:
+    sources:
+      - google-chrome
+    packages:
+      - google-chrome-stable
+language: node_js
+node_js:
+  - "7"
+env:
+    - EMBER_VERSION=default
+    - EMBER_VERSION=release
+    - EMBER_VERSION=beta
+    - EMBER_VERSION=canary
+matrix:
+  fast_finish: true
+  allow_failures:
+    - env: EMBER_VERSION=release
+    - env: EMBER_VERSION=beta
+    - env: EMBER_VERSION=canary
+
+before_install:
+    # setting the path for phantom.js 2.0.0
+    - export PATH=/usr/local/phantomjs-2.0.0/bin:$PATH
+    # starting a GUI to run tests, per https://docs.travis-ci.com/user/gui-and-headless-browsers/#Using-xvfb-to-Run-Tests-That-Require-a-GUI
+    - export DISPLAY=:99.0
+    - sh -e /etc/init.d/xvfb start
+    - "npm config set spin false"
+    - "npm install -g npm@^2"
+install:
+    - mkdir travis-phantomjs
+    - wget https://s3.amazonaws.com/travis-phantomjs/phantomjs-2.0.0-ubuntu-12.04.tar.bz2 -O $PWD/travis-phantomjs/phantomjs-2.0.0-ubuntu-12.04.tar.bz2
+    - tar -xvf $PWD/travis-phantomjs/phantomjs-2.0.0-ubuntu-12.04.tar.bz2 -C $PWD/travis-phantomjs
+    - export PATH=$PWD/travis-phantomjs:$PATH
+    - npm install -g bower
+    - npm install
+    - bower install
 script:
-  - yarn run lint
-  - node bin/createNavData
+    - ember test --server
+    language: node_js
+node_js:
+  - "7"
+before_install:
+  - "curl -L https://raw.githubusercontent.com/arunoda/travis-ci-laika/master/configure.sh | /bin/sh"
+services:
+  - mongodb
+env:
+  - LAIKA_OPTIONS="-t 5000"
+  language: node_js
+node_js:
+  - "7"
+before_install:
+  - "curl -L https://raw.githubusercontent.com/arunoda/travis-ci-meteor-packages/master/configure.sh | /bin/sh"
+before_script:
+  - "export PATH=$HOME/.meteor:$PATH"
+  language: node_js
+node_js:
+  - "4"
+env:
+  - CXX=g++-4.8
+addons:
+  apt:
+    sources:
+      - ubuntu-toolchain-r-test
+    packages:
+      - g++-4.8
