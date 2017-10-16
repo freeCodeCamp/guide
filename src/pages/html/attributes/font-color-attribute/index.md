@@ -3,13 +3,14 @@ title: Font Color Attribute
 ---
 ## Font Color Attribute
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/attributes/font-color-attribute/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The font color attribute assigns a color to HTML text. The font color attribute may use a color name, HEX value or RGB shade.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+ ```html
+       
+          <font color="blue">This text will be blue.</font>
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
+```
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
+<a href='https://www.w3schools.com/colors/colors_names.asp' target='_blank' rel='nofollow'>W3 Schools' List of Color Names</a>
 
