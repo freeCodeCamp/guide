@@ -9,7 +9,7 @@ You can use remainders to convert decimal numbers to binary numbers.
 
 1) Divide the original decimal number by 2 and record the quotient and the remainder.
 2) Repeat the first step replacing the original decimal number with the last quotient you found until you get a quotient which is equal to 0.
-3) Take the last remainder you recorded to be your MSB (most significant bit) and the first remainder you recorded to be your LSB (least significant bit). Write down the remainders in the reverse of the order you generated them.
+3) Take the last remainder you recorded to be your MSB (most significant bit) and the first remainder you recorded to be your LSB (least significant bit). Write down the remainders in the reverse of the order from how you generated them.
 
 ### Examples
 
@@ -22,15 +22,15 @@ Converting the decimal number 30 to binary.
 3 / 2 = 1 r 1
 1 / 2 = 0 r 1
 
-Writing out the remainders bottom to top gives us the bit pattern:
+Writing out the remainders bottom to top gives you the bit pattern:
 
 11110
 
-Checking our answer by converting the binary number back to decimal:
+Checking your answer by converting the binary number back to decimal:
 
 (1*2^4)+(1*2^3)+(1*2^2)+(1*2^1)+(0*2^0) = 30
 
-so our answer is correct.
+So your answer is correct.
 ```
 
 Converting the decimal number 116 to binary.
@@ -44,15 +44,15 @@ Converting the decimal number 116 to binary.
 3 / 2 = 1 r 1
 1 / 2 = 0 r 1
 
-Writing out the remainders bottom to top gives us the bit pattern:
+Writing out the remainders bottom to top gives you the bit pattern:
 
 1110100
 
-Checking our answer by converting the binary number back to decimal:
+Checking your answer by converting the binary number back to decimal:
 
 (1*2^6)+(1*2^5)+(1*2^4)+(0*2^3)+(1*2^2)+(0*2^1)+(0*2^0) = 116
 
-so our answer is correct.
+So your answer is correct.
 ```
 
 
