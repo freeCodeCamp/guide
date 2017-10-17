@@ -1,24 +1,26 @@
 ![](https://s3.amazonaws.com/freecodecamp/wide-social-banner.png)
 
-# freeCodeCamp Guides
+# freeCodeCamp Guide
 The freeCodeCamp community is building a massive, searchable "Guide." This reference tool will eventually include thousands of articles that cover all areas of development, design, and data science - all written to be easily understood by people new to coding.
 
-This repo is where we plan and maintain these guide articles, which we then host on our community's wiki-like [guides website](http://guide.netlify.com).
+This repo is where we plan and maintain these Guide articles, which we then host on our community's wiki-like [Guide website](https://guide.freecodecamp.org).
 
 **Table of Contents**
 
 - [What are Guide articles?](#what-are-guide-articles)
 - [What can I write an article about?](#what-can-i-write-an-article-about)
 - [How to contribute](#how-to-contribute)
+- [Running the Guide locally on your own computer](#running-the-guide-locally-on-your-own-computer)
 - [Article style guide](#article-style-guide)
+- [License](#license)
 
 ## What are Guide articles?
-Guide articles can be an explanation of a syntax, design pattern, what aria labels are for, or something like what the numbers mean in the top right hand corner of your screen when at freecodecamp.org. You can find an [example article about HTML Elements here](./src/pages/articles/html/elements/index.md).
+Guide articles can be an explanation of a syntax, design pattern, what aria labels are for, or something like what the numbers mean in the top right-hand corner of your screen when at freecodecamp.org. You can find an [example article about HTML Elements here](./src/pages/html/elements/index.md).
 
 ## What can I write an article about?
-We welcome your help writing these articles. You don't have to be an expert in a topic to write about it - this entire guide is open source, so even if you make a mistake, another contributor will eventually correct it.
+We welcome your help writing these articles. You don't have to be an expert in a topic to write about it - this entire Guide is open source, so even if you make a mistake, another contributor will eventually correct it.
 
-To help, find a `stub article` on our [guides website](http://guide.netlify.com/), write the article, then open a pull request (PR) to replace the stub with your article.
+To help, find a `stub article` on our [Guide website](https://guide.freecodecamp.org/), write the article, then open a pull request (PR) to replace the stub with your article.
 
 If you can't find a stub about the topic you'd like to write about, you can open a PR that creates the stub and includes your draft article. Feel free to ask us questions if you're not sure where to put a new article in the directory structure.
 
@@ -29,9 +31,9 @@ You can create a PR with your draft article (or edits on an existing article) in
 
 1) The easiest method is to use the GitHub interface. Watch the video demonstration or follow the steps below it:
 
-![Gif showing the GitHub interface steps](https://files.gitter.im/FreeCodeCamp/building-guides/WPK4/guide-article-contribution.gif)
+![Gif showing the GitHub interface steps](https://i.imgur.com/0cmxJwN.gif)
 
-- Go into the "articles" folder (located in `guides/src/pages`) and find the article stub you'd like to write or edit. All stubs will be in an index.md file
+- Go into the "pages" folder (located in `guides/src`) and find the article stub you'd like to write or edit. All stubs will be in an index.md file
 - Click the "Edit this file" pencil icon and make your changes to the file in GitHub-flavored Markdown
 - Scroll to the bottom of the screen and add a commit message explaining your changes. Then select the radio button option for "Create a new branch for this commit and start a pull request" and click "Propose file changes"
 - On the next screen, you can add any other details about your PR, then click "Create pull request"
@@ -39,23 +41,23 @@ You can create a PR with your draft article (or edits on an existing article) in
 
 2) If you prefer to write locally before submitting a PR, then follow these steps:
 - Fork this repository
-- Copy it to your local machine by running the command `git clone https://github.com/<YOUR GITHUB USERNAME>/guides.git`
+- Copy it to your local machine by running the command `git clone https://github.com/YOUR-GITHUB-USERNAME/guides.git`
 - Add a remote upstream so git knows where the official freeCodeCamp guides repository is located by running the command `git remote add upstream https://github.com/freeCodeCamp/guides.git`
-- Create a new branch for your work with the command `git checkout -b <new-branch-name>`. Try to name your branch in a way that describes your article topic, like `fix/ArticleHTMLElements`
-- Write your article, run `npm run meta`, commit your changes locally, and push your new branch to GitHub with the command `git push origin <new-branch-name>`
+- Create a new branch for your work with the command `git checkout -b NEW-BRANCH-NAME`. Try to name your branch in a way that describes your article topic, like `fix/ArticleHTMLElements`
+- Write your article, commit your changes locally, and push your new branch to GitHub with the command `git push origin NEW-BRANCH-NAME`
 - Go to your repository on GitHub and open a PR
 
 Make sure to maintain your local fork going forward so it stays up-to-date with the freeCodeCamp guides repository. The next time you want to contribute, checkout your local `master` branch and run the command `git pull --rebase upstream master` before creating a new branch. This will grab all the changes on the official `master` branch without making an additional commit in your local repository.
 
-## Running the guide locally on your own computer
+## Running the Guide locally on your own computer
 
-Finally, if you want to run a version of the Guide repository locally, follow these steps:
+Finally, if you want to run a version of the guides repository locally, follow these steps:
 
 1. Ensure you have the `yarn` package manager installed `npm install -g yarn`
 2. Fork this repository
-3. :point_down: 
+3. :point_down:
 ```sh
-git clone https://github.com/<YOUR GITHUB USERNAME>/guides.git
+git clone https://github.com/YOUR-GITHUB-USERNAME/guides.git
 cd guides
 yarn install
 yarn run dev
@@ -65,7 +67,7 @@ In this project we are using `yarn` because `netlify` builds our site with `yarn
 
 ## Article style guide
 
-We've written the following guide to writing guide articles to help you get started contributing.
+We've written the following guide to writing Guide articles to help you get started contributing.
 
 **Table of Contents**
 
@@ -88,6 +90,16 @@ Here are some title examples:
 - "CSS Borders"
 - "JavaScript For Loop"
 
+The folder name is used in the URL, so only use dashes `-`, numbers `0-9`, and lowercase letters `a-z` for it.
+
+Here are some folder name examples:
+
+- html-lists
+- css-borders
+- javascript-for-loop
+
+However, you can include special characters in the article title.
+
 ### Modularity
 
 Each article should explain exactly one concept, and that concept should be apparent from the article's title.
@@ -102,7 +114,7 @@ Before you begin writing, create an outline of the topic and think about any cod
 
 Articles should be written with short, clear sentences, and use as little jargon as necessary. All jargon should be defined immediately in plain English.
 
-The introduction paragraph should only be 1-2 sentences long and be a simple explanation of the main topic. It should limit the use of any links to other guide articles, as they can be distracting.
+The introduction paragraph should only be 1-2 sentences long and be a simple explanation of the main topic. It should limit the use of any links to other Guide articles, as they can be distracting.
 
 Keep paragraphs short (around 1-4 sentences). People are more likely to read several short paragraphs over a wall of text.
 
@@ -114,35 +126,54 @@ If you want to abbreviate a term in your article, write it out fully first, then
 
 Text should use the second person ("you") to help to give it a conversational tone. This way, the text and instructions seem to speak directly to the camper reading it. Try to avoid using the first person ("I", "we", "let's", and "us").
 
-If there are other guide resources you think campers would benefit from, add them at the bottom in an "Other Resources" section.
+If there are other Guide resources you think campers would benefit from, add them at the bottom in an "Other Resources" section.
 
-You can add diagrams, graphics, or visualizations as necessary. You can also embed relevant YouTube videos and interactive REPL.it code editors.
+You can add diagrams, graphics, or visualizations as necessary. You can also embed relevant YouTube videos and interactive [REPL.it](https://repl.it/) code editors.
 
-Don't use emojis or emoticons in the guides. freeCodeCamp has a global community, and the cultural meaning of an emoji or emoticon may be different around the world. Also, emojis can render differently on different systems.
+Don't use emojis or emoticons in the Guide. freeCodeCamp has a global community, and the cultural meaning of an emoji or emoticon may be different around the world. Also, emojis can render differently on different systems.
 
 Use double quotes where applicable.
 
 Format language keywords as code - this is done with the backtick key (located to the left of the "1" key on a US keyboard) in GitHub-flavored markdown. For example, put backticks around HTML tag names or CSS property names.
 
-Use the Oxford Comma when possible. It’s makes things easier, clearer, and prettier to read.
+Use the Oxford Comma when possible (it is a comma used after the penultimate item in a list of three or more items, before ‘and’ or ‘or’ e.g. an Italian painter, sculptor, and architect). It makes things easier, clearer, and prettier to read.
 
 ### Formatting example code
 
-Campers will likely use the guides as a quick reference to look up syntax. Articles should have simple real-world examples that show common-use cases of that syntax.
+Campers will likely use Guide articles as a quick reference to look up syntax. Articles should have simple real-world examples that show common-use cases of that syntax.
 
 Here are specific formatting guidelines for any code:
 
-- Use two spaces to indent
 - JavaScript statements end with a semicolon
 - Use double quotes where applicable
 - Show generally-accepted best practices, particularly for accessibility
 - Comments made should have a space between the comment characters and the comment themselves
 
     `// Fix this line`
+- GitHub-flavored markdown supports [syntax highlighting in code blocks](https://help.github.com/articles/creating-and-highlighting-code-blocks/#syntax-highlighting) for many programming languages. To use it, indicate the language after starting ```
+```
+    ```html
+        <div class='awesome' id='more-awesome'>
+          <p>This is text in html</p>
+        </div>
+    ```
+
+    ```javascript
+        function logTheThings(stuff) {
+         console.log(stuff);
+        }
+    ```
+
+    ```css
+       .awesome {
+          background-color: #FCCFCC;
+        }
+    ```
+```
 
 ### Adding images to articles
 
-For including images, if the images aren't already hosted somewhere else on the web, you'll need to put them online yourself. A good way to do this is to commit them to a GitHub repository of your own, then push them to GitHub. Then you can right click the image and copy its image source.
+For including images, if the images aren't already hosted somewhere else on the web, you'll need to put them online yourself. A good way to do this is to commit them to a GitHub repository of your own, then push them to GitHub. Then you can right-click the image and copy its image source.
 
 Then you'd just need to reference them in your markdown file with this syntax:
 
@@ -152,7 +183,7 @@ Then the images should show up when you click the "preview table" tab.
 
 ### Proper nouns
 
-Proper nouns should use correct capitalization when possible. Below is a list of words as they should appear in guide articles.
+Proper nouns should use correct capitalization when possible. Below is a list of words as they should appear in Guide articles.
 
 - JavaScript (capital letters in "J" and "S" and no abbreviations)
 - Node.js
@@ -169,9 +200,16 @@ Use the [Hemingway App](http://www.hemingwayapp.com/). There’s nothing magical
 - unnecessary adverbs
 - words that have more common equivalents
 
-The Hemingway App will assign a “grade level” for your writing. You should aim for a grade level of 6.
+The Hemingway App will assign a “grade level” for your writing. You should aim for a grade level of 6. Another tool available is the [De-Jargonizer](http://scienceandpublic.com/), originally designed for scientific communication but might help avoid overspecialized wording.
 
 Also, there's a community of support from a whole team of contributors, whom you can bounce ideas off of and ask for input on your writing. Stay active in the [contributors chat room](https://gitter.im/freecodecamp/contributors) and ask lots of questions.
 
 With your help, we can create a comprehensive reference tool that will help millions of people who are learning to code for years to come.
 
+## License
+
+Copyright (c) 2017 freeCodeCamp.
+
+The content of this repository is bound by the following licenses:
+- The computer software is licensed under the [BSD-3-Clause](./LICENSE.md).
+- The reference content as in ./src/pages and subdirectories is licensed under the [CC-BY-SA-4.0](./LICENSE-freeCodeCamp-Guide-Articles.md).
