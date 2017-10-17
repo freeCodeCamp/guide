@@ -11,8 +11,6 @@ The font family of a text is simply set by using the `font-family` property.
 
 It works with a *fallback* system, if your browser does not support the first font, it tries with the next one and so on.
 
-Example:
-
 ```css
 p {
     font-family: "Times New Roman", Times, serif;   
@@ -47,10 +45,12 @@ p.oblique {
 
 The `font-size` property sets the size of the text.
 
-There are differents types of font size values:
+There are different types of font size values:
 
 * `px` (pixels) - The default size of text being `16px`
 * `em` - `1em` = the current font size, so `1em` = `16px` (recommended by the W3C)
+* `small`, `medium`, `large` - known as absolute size values
+* `%` - percentages
 
 ```css
 with-pixels {
@@ -59,6 +59,14 @@ with-pixels {
 
 with-ems {
     font-size: 0.875em;
+}
+
+with-absolute {
+    font-size: large;
+}
+
+with-percentage {
+    font-size: 80%;
 }
 ```
 
@@ -83,7 +91,6 @@ p.small {
 ```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
 - https://www.w3schools.com/css/css_font.asp
 - https://developer.mozilla.org/en-US/docs/Web/CSS/font
