@@ -1,3 +1,7 @@
+----
+-title: Margins
+----
+
 ## Margins
 
 In CSS, margins are the amount of space around the outside of elements. Remember that all elements sit inside boxes, per the box model.
