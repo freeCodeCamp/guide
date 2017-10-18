@@ -3,13 +3,26 @@ title: Img Src Attribute
 ---
 ## Img Src Attribute
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/attributes/img-src-attribute/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+This attribute specifies the URL of the image. It is mandatory for `<img>` element. There are 2 possible values for `src` attribute: *an absolute URL* and *a relative URL*. You can use *an absolute URL* if the image is on another website (like `src="https://unsplash.com/photos/jMd3WS9LBcc"`) or you can use *a relative URL* if the image is within same website (like `src="assets/image.png"`).
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Syntax:
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+`<img src="URL">`
+
+
+Attribute:
+
+`src - URL for the image`
+
+
+Example:
+```html
+<html>
+  <body>
+    <img src="https://github.com/freeCodeCamp/assets/blob/master/assets/logos/600x72%20Free%20Code%20Camp%20logo%20for%20Medium%20publication.png"> // This is a little bit long absolute URL :P
+  </body>
+</html>
+```
 
 
