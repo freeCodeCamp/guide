@@ -32,7 +32,7 @@ To solve this using Tail Call Optimization, the statement where the function cal
 In the previous example, the multiplication operation is executed last in the `return x * fact(x-1)` statement, so it was not the final operation of the function. Therefore, it is not tail call optimized. In order for it to be tail call optimized, you need to make the call to itself the last operation of the function.
 
 #### Example
-Here is an example of a JavaScript (ECMAScript 2015) factorial function using recursion **with** TCO:
+Here is an example of a JavaScript (ES5) factorial function using recursion **with** TCO:
 
 ```javascript
   function fact(n) {
