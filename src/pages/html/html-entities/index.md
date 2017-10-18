@@ -11,5 +11,12 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
+Character entities are used to display reserved characters in HTML.
 
+If you use the less than (<) or greater than (>) signs in your text, the browser might mix them with tags.
+A character entity looks like this:
+- &entity_name;
+- &#entity_number;
 
+![alt text](https://i.gyazo.com/d92c2ad7026797c4d9eec42e52903d40.png "Entities")
+![alt text](https://i.gyazo.com/1bae1a6afd103bcec11e07de511493a2.png "Entities 2")
