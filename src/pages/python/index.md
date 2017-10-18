@@ -129,4 +129,48 @@ A function is called when the name of the function is followed by `()`. For the 
 
 The argument that we called the `print` function with is a `str` object or _string_, one of Python's <a href='https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str' target='_blank' rel='nofollow'>_built-in types_</a>.
 
-The `objects` parameter is prefixed with a `*` which indicates that the function will take an arbitrary number of arguments for that parameter.
+The `objects` parameter is prefixed with a `*` which indicates that the function will take an arbitrary number of arguments for that parameter
+
+My changes ---------------------------
+Add a new folder for Generators in Python
+
+# A generator function that yields 1 for first time,
+# 2 second time and 3 third time
+>>>   def simpleGeneratorFun():
+          yield 1           
+          yield 2           
+          yield 3           
+  
+# Driver code to check above generator function
+>>> for value in simpleGeneratorFun(): 
+        print(value)
+    1
+    2
+    3
+Generator-Object : Generator functions return a generator object. Generator objects are used either by calling the next method on the generator object or using the generator object in a “for in” loop (as shown in the above program).
+# A Python program to demonstrate use of 
+# generator object with next() 
+ 
+# A generator function
+>>> def simpleGeneratorFun():
+        yield 1
+        yield 2
+        yield 3
+  
+# x is a generator object
+>>> x = simpleGeneratorFun()
+ 
+# Iterating over the generator object using next
+>>> print(x.next()); # In Python 3, __next__()
+>>> print(x.next());
+>>> print(x.next());
+
+1
+2
+3
+
+Applications : Suppose we to create a stream of Fibonacci numbers, adopting the generator approach makes it trivial; we just have to call next(x) to get the next Fibonacci number without bothering about where or when the stream of numbers ends.
+A more practical type of stream processing is handling large data files such as log files. Generators provide a space efficient method for such data processing as only parts of the file are handled at one given point in time. We can also use Iterators for these purposes, but Generator provides a quick way (We don’t need to write __next__ and __iter__ methods here).
+
+End my changes --------------
+    
