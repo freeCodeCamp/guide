@@ -1,6 +1,11 @@
 ---
 title: Useful Commands
 ---
+## Saving
+1. Press `Escape` to make sure you're in `normal mode`;
+2. Type in `:w` ("w" stands for "write");
+3. Press `Enter`.
+
 ## Exiting Vi, Vim, Nvim, Gvim
 1. Press escape to get you into "normal" mode
 2. Type `:q`, press enter. If you receive an error try `:q!`
