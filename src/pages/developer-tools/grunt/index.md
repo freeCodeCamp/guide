@@ -3,13 +3,14 @@ title: Grunt
 ---
 ## Grunt
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/developer-tools/grunt/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+**Grunt is a JavaScript Task Runner.**
+Grunt preforms repetitive tasks like minification, compilation, unit testing, linting, etc. After you've configured it through a Gruntfile, a task runner can do most of that mundane work for you—and your team—with basically zero effort.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+It is run from the command line and can be downloaded by using **NPM** by entering the command `npm install -g grunt-cli`_(this will install it globaly)_ 
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Grunt uses a `package.json` file for configuration
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
+[Grunt JS Website ](https://gruntjs.com/)
 
