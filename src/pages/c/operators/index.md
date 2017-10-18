@@ -128,32 +128,32 @@ RESULT = 00110
 ```
 
 ## 4. Assignment Operators
-`=`
+`=` the value on the right (here, 7) is assigned into the variable (here, a) on the left
 ```C
 int a = 7; // 'a' is going to be equal to 7
 ```
-`+=`
+`+=` short-form of the expression a = a + 5 
 ```C
 int a = 7;
-a += 5; // a = a + 5 = 7 + 5 = 12
+a += 5; // evaluates to a = a + 5 = 7 + 5 = 12
 ```
-`-=`
+`-=` short-form of the expression a = a - 2  
 ```C
 int a = 7;
-a -= 2; // a = a - 2 = 7 - 2 = 5
+a -= 2; // evaluates to a = a - 2 = 7 - 2 = 5
 ```
-`*=`
+`*=` short-form of the expression a = a * 3 
 ```C
 int a = 7;
-a *= 3; // a = a * 3 = 7 * 3 = 21
+a *= 3; // evaluates to a = a * 3 = 7 * 3 = 21
 ```
-`/=`
+`/=` short-form of the expression a = a / 3 
 ```C
 int a = 21;
-a /= 3; // a = a / 3 = 21 / 3 = 7
+a /= 3; // evaluates to a = a / 3 = 21 / 3 = 7
 ```
-`%=`
+`%=` short-form of the expression a = a % 5 
 ```C
 int a = 21;
-a %= 5; // a = a % 5 = 21 % 5 = 1
+a %= 5; // evaluates to a = a % 5 = 21 % 5 = 1
 ```
