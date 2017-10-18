@@ -24,11 +24,11 @@ The for loop has the following syntax:
 
 From the example above, you can read:
 
-[initialization] sets a variable before the loop starts (var i = 0).
+[initialization clause] sets a variable before the loop starts (var i = 0).
 
-[condition] defines the condition for the loop to run (i must be less than 5).
+[condition clause] defines the condition for the loop to run (i must be less than 5).
 
-[final-expression] increases a value (i++) each time the code block in the loop has been executed.
+[update clause] increases a value (i++) each time the code block in the loop has been executed.
 
 ## Why we need "for loops"?
 
