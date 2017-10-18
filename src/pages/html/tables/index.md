@@ -3,13 +3,31 @@ title: Tables
 ---
 ## Tables
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/tables/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The ```<table>    ``` attribute defines a table in HTML, using a series of rows and cells. Instead, each table row is defined with the ```<tr>    ``` tag. Nested within each row are table cells, defines by ```<td> ```. There is no column definition; the number of columns is simply defined by the number of rows within the table.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+For instance:
+  ```html
+  <html>
+  <table style="width:100%">
+  <tr>
+    <th>Name</th>
+    <th>Favorite Food</th> 
+    <th>Favorite Color</th>
+  </tr>
+  <tr>
+    <td>Janet Honeysuckle</td>
+    <td>Ice Cream</td> 
+    <td>Mint Green</td>
+  </tr>
+  <tr>
+    <td>George DeSalvos</td>
+    <td>Tacos</td> 
+    <td>Electric Orange</td>
+  </tr>
+</table>
+</html>
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+    
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
 
