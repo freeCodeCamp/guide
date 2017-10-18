@@ -1,12 +1,13 @@
 ---
-title: Java Loop Types for Each
+title: For Each Loop
 ---
-# The Java For Each Loop
+# For Each Loop
 
 Also called the enhanced for loop, it is an extremely useful and simple way to iterate over each item in a collection, arrays as well as objects that implement the Iterable interface.
 
 ```java
-for (object : iterable){
+for (object : iterable)
+{
     // Statements
 }
 ```
@@ -16,7 +17,8 @@ The loop is read as - for each element in the `iterable` (could be an array, col
 ```java
 int[] number_list = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
 
-for (int numbers : number_list){
+for (int numbers : number_list)
+{
     System.out.print (numbers + " ");
     //Iterated 10 times, numbers 0,1,2...9
 }
