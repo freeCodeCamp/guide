@@ -130,3 +130,65 @@ A function is called when the name of the function is followed by `()`. For the 
 The argument that we called the `print` function with is a `str` object or _string_, one of Python's <a href='https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str' target='_blank' rel='nofollow'>_built-in types_</a>.
 
 The `objects` parameter is prefixed with a `*` which indicates that the function will take an arbitrary number of arguments for that parameter.
+
+My Changes  - Add new folder -----------
+
+Packing and Unpacking of Arguments in Python
+Consider a situation where we have a function that receives four arguments. We want to make call to this function and we have a list of size 4 with us that has all arguments for the function. If we simply pass list to the function, the call doesn’t work.
+# A Python program to demonstrate need 
+# of packing and unpacking
+ 
+# A sample function that takes 4 arguments
+# and prints them.
+>>> def fun(a, b, c, d):
+        print(a, b, c, d)
+ 
+# Driver Code
+>>> my_list = [1, 2, 3, 4]
+ 
+# This doesn't work
+>>> fun(my_list)
+
+Unpacking of argument
+
+We can us * to unpack the list so that all elements of it can be passed as different parameters.
+# A sample function that takes 4 arguments
+# and prints the,
+>>> def fun(a, b, c, d):
+        print(a, b, c, d)
+ 
+# Driver Code
+>>> my_list = [1, 2, 3, 4]
+ 
+# Unpacking list into four arguments
+>>> fun(*my_list)
+(1, 2, 3, 4)
+
+Another example - 
+>>>
+>>> range(3, 6)  # normal call with separate arguments
+[3, 4, 5]
+>>> args = [3, 6]
+>>> range(*args)  # call with arguments unpacked from a list
+[3, 4, 5]
+
+# A Python program to demonstrate use
+# of packing
+ 
+# This function uses packing to sum
+# unknown number of arguments
+>>> def mySum(*args):
+      sum = 0
+      for i in range(0, len(args)):
+         sum = sum + args[i]
+      return sum
+ 
+# Driver code
+>>>print(mySum(1, 2, 3, 4, 5))
+15
+>>>print(mySum(10, 20))
+30
+
+The above function mySum() does ‘packing’ to pack all the arguments that this method call receives into one single variable. Once we have this ‘packed’ variable, we can do things with it that we would with a normal tuple. args[0] and args[1] would give you the first and second argument, respectively. Since our tuples are immutable so if you convert the args tuple to a list you can also modify, delete and re-arrange items in i just like a normal list.
+
+My Changes end -----
