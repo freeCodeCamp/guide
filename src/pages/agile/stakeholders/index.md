@@ -3,13 +3,21 @@ title: Stakeholders
 ---
 ## Stakeholders
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/stakeholders/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The Stakeholders are the people that will benefit from your project. It is up to the Product Owner to understand the outcome required by the Stakeholders, and to communicate that need to the Delivery Team.
+Stakeholders may be made up from any of the following
+- Users
+- Customers
+- Managers
+- Funders / investors
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Their participation in the project is essential for success.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+For example, when your team is performing the Sprint Review meetings, the demonstration of the project is for the stakeholders, and their feedback is captured and added to the backlog.
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
+- Scrum Study [Stakeholders in Scrum](https://www.scrumstudy.com/blog/stakeholders-in-scrum/)
+- Scrum.org [Key Stakeholders](https://www.scrum.org/resources/blog/scrum-who-are-key-stakeholders-should-be-attending-every-sprint-review)
+- Agile Modelling [Active Stakeholder Participation](http://agilemodeling.com/essays/activeStakeholderParticipation.htm)
 
 

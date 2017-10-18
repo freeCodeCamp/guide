@@ -80,6 +80,6 @@ The benefit of using `range` is that regardless of how large of a range specifie
 ```
 
 ### More Inforamtion:
-[Python Doc - Ranges](https://docs.python.org/3/library/stdtypes.html#ranges)
+<a href='https://docs.python.org/3/library/stdtypes.html#ranges' target='_blank' rel='nofollow'>Python Doc - Ranges</a>
 
 **TODO: Methods `ranges` do and do not implement**
