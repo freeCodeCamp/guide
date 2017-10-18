@@ -10,7 +10,11 @@ First announced only for OS X, at Apple's Worldwide Developers Conference in 200
 
 Unity is an all purpose game engine that supports 2D and 3D graphics, drag and drop functionality and scripting through C#.
 
-Two other programming languages were supported: Boo, which was deprecated with the release of Unity 5 and UnityScript which was deprecated in August 2017 after the release of Unity 2017.1.
+Unity is particularly popular for mobile game development and much of their focus is on mobile platforms. Unity is focused on its 3D pipeline. Because of that focus, it is considered a second choice for 2D development, particularly compared to 2D focused engines like Godot.
+
+Unity is a good choice for VR development, although VR is a very small market at the moment. The mobile and PSVR markets are the largest in VR, and Unity is already well positioned to port games to many platforms such as PS4 and PC, or many different mobile markets. 
+
+Unity does suffer in some areas for it's generalist design. Unity is a difficult engine to implement networking in compared to competitors like Unreal Engine. You can achieve high quality results through Unity's own networking system unet, but most developers prefer to use a third party solution.  Unet requires extensive customization to function, is poorly documented, and poorly supported. Furthermore the fact that Unity is not open source makes debugging many issues challenging for inexperienced networking engineers.
 
 The engine targets the following graphics APIs: Direct3D on Windows and Xbox One; OpenGL on Linux, macOS, and Windows; OpenGL ES on Android and iOS; WebGL on the web; and proprietary APIs on the video game consoles.
 
@@ -22,10 +26,14 @@ Unity also offers services to developers, these are: Unity Ads, Unity Analytics,
 
 Unity is notable for its ability to target games for multiple platforms. The currently supported platforms are Android, Android TV, Facebook Gameroom, Fire OS, Gear VR, Google Cardboard, Google Daydream, HTC Vive, iOS, Linux, macOS, Microsoft HoloLens, Nintendo 3DS family, Nintendo Switch, Oculus Rift, PlayStation 4, PlayStation Vita, PlayStation VR, Samsung Smart TV, Tizen, tvOS, WebGL, Wii U, Windows, Windows Phone, Windows Store, and Xbox One.
 
-Unity formerly supported 7 other platforms including its own Unity Web Player.
-Unity Web Player was a browser plugin that was supported in Windows and OS X only,[16] which has been deprecated in favor of WebGL.
-
 Unity is the default software development kit (SDK) for Nintendo's Wii U video game console platform, with a free copy included by Nintendo with each Wii U developer license.
 Unity Technologies calls this bundling of a third-party SDK an "industry first".
+
+## History
+
+Two other programming languages were supported: Boo, which was deprecated with the release of Unity 5 and UnityScript which was deprecated in August 2017 after the release of Unity 2017.1.
+
+Unity formerly supported 7 other platforms including its own Unity Web Player.
+Unity Web Player was a browser plugin that was supported in Windows and OS X only,[16] which has been deprecated in favor of WebGL.
 
 Souce: <a href='https://en.wikipedia.org/wiki/Unity_(game_engine' target='_blank' rel='nofollow'>Wikipedia</a>)
