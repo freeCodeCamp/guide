@@ -12,4 +12,15 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
+Style the element with id="variableNameGoesHere". For Example:
 
+<div id="varibleName" >
+  
+ Then in your CSS you would enter it with a , # ,and add the css selectors, like this.
+ 
+ #variableName {
+    height: 20px;
+    color: green;
+ }
+ 
+ 
