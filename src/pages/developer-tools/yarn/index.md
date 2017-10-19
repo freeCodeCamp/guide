@@ -14,11 +14,7 @@ Yarn uses the packages listed in the npm registry. Essentially, yarn is "just" a
 
 If you've already been using npm, [this guide](https://yarnpkg.com/lang/en/docs/migrating-from-npm/) will help you migrate to yarn.
 
-The most prominent benefits of yarn over npm is that yarn is much faster and can be used offline, as well as the deterministic install algorithm. Having a deterministic install ensures that dependencies are installed exactly the same on any machine. Gone are the "but it works on my machine" issues.
-
-Some other benefits are:
-* [Lincense checks](https://yarnpkg.com/en/docs/cli/licenses)
-* 
+The most prominent benefits of yarn over npm are that yarn is much faster and can be used offline, as well as the deterministic install algorithm. Having a deterministic install ensures that dependencies are installed exactly the same on any machine. Gone are the "but it works on my machine" issues.
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
