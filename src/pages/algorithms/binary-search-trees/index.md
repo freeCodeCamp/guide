@@ -5,7 +5,7 @@ title: Binary Search Trees
 
 ![Binary Search Tree](https://cdn-images-1.medium.com/max/1320/0*x5o1G1UpM1RfLpyx.png)
 
-A tree is a data structure composed of nodes It has the following characteristics:
+A tree is a data structure composed of nodes. It has the following characteristics:
 1. Each tree has a root node (at the top).
 2. The root node has zero or more child nodes.
 3.  Each child node has zero or more child nodes, and so on.
