@@ -11,5 +11,5 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
+Python is one of a versatile programming language that can be used for Web Development, Data Science, or just a classic programming. Python gain a lot of love from programming because of its simplicity and clarity.
 
