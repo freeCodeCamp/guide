@@ -1,15 +1,18 @@
----
-title: Deep Learning
----
-## Deep Learning
+# DeepLearing
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/machine-learning/deep-learning/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Suggested Resources:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+  - [Awesome DeepLearning]
+  - [What is DeepLearning]
+  - [How it works]
+  - [DeepLearning Book]
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+
+
+   [Awesome DeepLearning]: <https://github.com/terryum/awesome-deep-learning-papers>
+   [What is DeepLearning]: <https://www.youtube.com/watch?v=3cSjsTKtN9M>
+   [How it works]: <https://www.youtube.com/watch?v=He4t7Zekob0&t=9s>
+   [DeepLearning Book]: <http://www.deeplearningbook.org/>
 
 
