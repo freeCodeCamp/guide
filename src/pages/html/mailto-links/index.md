@@ -3,13 +3,17 @@ title: Mailto Links
 ---
 ## Mailto Links
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/mailto-links/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+A Mailto Link is a type of HTML link that launches the default mail client on the user's computer.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+A Mailto Link is written like a regular link, using the <a> tag and the href attribute along with extra parameters.  
+  
+An example of a Mailto Link:
+<a href=”mailto:jon@example.org”> Email Jon </a>
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
+Some Mailto Parameters:
+mailto:name@email.com
+cc=name@email.com 
+bcc=name@email.com
+subject=subject text
+body=body text
 
