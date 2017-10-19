@@ -3,13 +3,19 @@ title: 2 by 2 Determinants
 ---
 ## 2 by 2 Determinants
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/2-by-2-determinants/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+You can represent a 2 by 2 matrix as,
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+![](https://raw.githubusercontent.com/pranabendra/articles/master/Algebra/Determinant/det1.png)
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+You can find the determinant of a 2 by 2 matrix as, 
+
+![](https://raw.githubusercontent.com/pranabendra/articles/master/Algebra/Determinant/det2.png)
+
+### Example :
+
+![](https://raw.githubusercontent.com/pranabendra/articles/master/Algebra/Determinant/det4.png)
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+<a href = "http://www.purplemath.com/modules/determs.htm">2-by-2 Determinants</a>
 
 
