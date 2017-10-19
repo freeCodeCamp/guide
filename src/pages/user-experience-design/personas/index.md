@@ -12,4 +12,5 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+Smashing Magazine- A Closer Look At Personas: What They Are And How They Work | 1
+https://www.smashingmagazine.com/2014/08/a-closer-look-at-personas-part-1/
