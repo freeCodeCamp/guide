@@ -16,3 +16,5 @@ There are "white hat hackers" who try to discover new vulnerabilities and bring 
 There are also "black hat hackers" who do not disclose the vulnerabilities they discover, and instead use them to create exploits to attack people's systems. They often do this to steal data that they can ransom off, or just release into the open to cause chaos.
 
 Security researchers use a wide variety of methods and tools, which are discussed in this section.
+
+Although hacking is a key threat to secure applications, it is not the only one.  Application developers need to balance user experience with security features.  Some cyber breches are self-infliced due to complex or hard to understadn security configurations.  What security features should be set by default?  What features should be seemless and which should require explict user consent? 
