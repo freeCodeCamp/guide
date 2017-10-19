@@ -3,9 +3,11 @@ title: Area of a Circle
 ---
 ## Area of a Circle
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/area-of-a-circle/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The area of a circle is:
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+π (Pi) times the Radius squared:	A = π r^2
+or, when you know the Diameter:	A = (π/4) × D^2
+or, when you know the Circumference:	A = C^2 / 4π
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
