@@ -15,24 +15,24 @@ Here's an example of a jQuery method that selects a paragraph element, and adds 
 
 In jQuery, the class and ID selectors are like those in CSS. If you want to select elements with a certain class, use a dot (.) and the class name. If you want to select elements with a certain ID value, use the hash symbol (#) and the ID name.
 
-Selecting by class:
+### Selecting by class:###
 
 `<p class="pWithClass">Paragraph with a class.</p>`<br>
 `$(".pWithClass").css("color", "blue"); // colors the text blue`
 
-Selecting by ID:
+### Selecting by ID:###
 
 `<li id="liWithID">List item with an ID.</li>`<br>
 `$("#liWithID").replaceWith("<p>Socks</p>");`
 
 You can also select certain elements along with their classes and IDs:
 
-Selecting with classes:
+### Selecting with classes:###
 
 `<ul class="wishList">My Wish List</ul>`<br>
 `$("ul.wishList").append("<li>New blender</li>");`
 
-Selecting with IDs:
+### Selecting with IDs:###
 
 `<h1 id="headline">News Headline</h1>`<br>
 `$("h1#headline").css("font-size", "2em");`
