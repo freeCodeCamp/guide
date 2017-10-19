@@ -31,4 +31,6 @@ ON Customers.CustomerID=Orders.CustomerID
 ORDER BY Customers.CustomerName
 ```
 
-
+# Changes
+### Which is the only constraint that enforces rules at column level?
+NOT NULL is the only contstraint that works at the column level.
