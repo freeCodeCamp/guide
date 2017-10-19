@@ -67,10 +67,7 @@ Find javascript libraries at <a href='http://jster.net' target='_blank' rel='nof
 *   <a href='http://www.eloquentjavascript.net' target='_blank' rel='nofollow'>Eloquent Javascript</a>  
 
     Fantastic, thorough introduction to the basics and features of Javascript, complete with in-browser interactive code
-
-*   <a href='https://watchandcode.com/courses/eloquent-javascript-the-annotated-version' target='_blank' rel='nofollow'>Eloquent Javascript - The Annotated Version</a>  
-
-    An annotated version of the above Eloquent Javascript with additional helpful comments and discussions to help clarify some sections that might be confusing to newcomers to programming
+    
 
 *   <a href='https://github.com/DrBoolean/mostly-adequate-guide' target='_blank' rel='nofollow'>Professor Frisby's Mostly Adequate Guide to Functional Programming</a>  
 
