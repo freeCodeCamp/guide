@@ -183,3 +183,6 @@ The class names can range from:
       <div class="col-4">.col-4<br>Since 9 + 4 = 13 &gt; 12, this 4-column-wide div gets wrapped onto a new line as one contiguous unit.</div>
       <div class="col-6">.col-6<br>Subsequent columns continue along the new line.</div>
     </div>
+    
+    
+ More examples/information can be found [here]!(https://getbootstrap.com/docs/4.0/layout/grid/)
