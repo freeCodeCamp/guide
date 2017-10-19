@@ -1,4 +1,4 @@
-# What Exactly happens when you press the power button on PC ?
+# Linux Booting Process - 6 Step Descriptive Process
 
 
 Operating system is defined as the low-level software that supports a computer’s basic functions,such as scheduling tasks and controlling peripherals. OS holds down these 6 high level stages of a typical Linux boot process.
