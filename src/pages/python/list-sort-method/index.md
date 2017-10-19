@@ -3,7 +3,7 @@ title: List Sort Method
 ---
 ## List Sort Method
 
-Python lists have a built-in ```python sort()``` method that modifies the list in-place and a ```pythonsorted()``` built-in function that builds a new sorted list from an iterable.
+Python lists have a built-in ```sort()``` method that modifies the list in-place and a ```sorted()``` built-in function that builds a new sorted list from an iterable.
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
@@ -35,5 +35,5 @@ By default, sort() doesn't require any extra parameters. However, it has two opt
 ⋅⋅*key - function that serves as a key for the sort comparison
 
 #### More Information:
-More information about ```python sort()``` can be found [here](https://docs.python.org/3/library/functions.html#sorted)
+More information about ```sort()``` can be found [here](https://docs.python.org/3/library/functions.html#sorted)
 
