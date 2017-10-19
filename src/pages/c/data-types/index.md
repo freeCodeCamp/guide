@@ -1,3 +1,8 @@
+---
+title: C - Data types
+---
+
+
 ## C – Data types:
 
 * C data types are defined as the data storage format that a variable can store a data to perform a specific operation.
