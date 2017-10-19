@@ -11,5 +11,6 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
+Apache Spark wiki page: https://en.wikipedia.org/wiki/Apache_Spark
+Apache Spark tutorial: https://www.edureka.co/blog/spark-tutorial/
 
