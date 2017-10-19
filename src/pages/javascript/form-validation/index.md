@@ -15,7 +15,8 @@ JavaScript provides a way to validate form's data on the client's computer befor
 
 We will take an example to understand the process of validation. Here is a simple form in html format.
 
-```<html>
+<b>
+<html>
    
    <head>
       <title>Form Validation</title>
@@ -68,7 +69,8 @@ We will take an example to understand the process of validation. Here is a simpl
       </form>
       
    </body>
-</html>```
+</html>
+</b>
 
 ### Output : [Run on Liveweave](https://liveweave.com/LP9eOP)
 
@@ -76,6 +78,7 @@ We will take an example to understand the process of validation. Here is a simpl
 
 First let us see how to do a basic form validation. In the above form, we are calling **validate()** to validate data when **onsubmit** event is occurring. The following code shows the implementation of this **validate()** function.
 
+<b>
 <script type="text/javascript">
    <!--
       // Form validation code will come here.
@@ -114,6 +117,7 @@ First let us see how to do a basic form validation. In the above form, we are ca
       }
    //-->
 </script>
+</b>
 
 ### Output : [Run on liveweave](https://liveweave.com/pCPTnP)
 
@@ -125,6 +129,7 @@ The following example shows how to validate an entered email address. An email a
 
 ### Example
 
+<b>
 <script type="text/javascript">
    <!--
       function validateEmail()
@@ -143,6 +148,7 @@ The following example shows how to validate an entered email address. An email a
       }
    //-->
 </script>
+</b>
 
 ### Output : [Run on liveweve](https://liveweave.com/nznVs6)
 
