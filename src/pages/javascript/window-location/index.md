@@ -3,13 +3,17 @@ title: Window Location
 ---
 ## Window Location
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/window-location/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Window Location object provide us with information and operation such as:
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+1. window.location.href returns the href (URL) of the current page . eg. https://guide.freecodecamp.org/javascript/window-location
+2. window.location.hostname returns the domain name of the web host . eg. guide.freecodecamp.org
+3. window.location.pathname returns the path and filename of the current page eg. /javascript/window-location
+4. window.location.protocol returns the web protocol used (http: or https:)
+5. window.location.assign loads a new document
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
+https://www.w3schools.com/js/js_window_location.asp
 
+https://msdn.microsoft.com/en-us/library/ms952653.aspx
