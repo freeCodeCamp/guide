@@ -15,7 +15,8 @@ Adobe Photoshop is not a free product and does require a monthly membership with
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
-For a full list of tools and the history of the product you can visit https://en.wikipedia.org/wiki/Adobe_Photoshop
+For a full list of tools and the history of the product you can visit 
+[Wikipedia](https://en.wikipedia.org/wiki/Adobe_Photoshop)
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
 
