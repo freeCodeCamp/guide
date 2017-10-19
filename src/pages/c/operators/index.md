@@ -157,3 +157,25 @@ a /= 3; // a = a / 3 = 21 / 3 = 7
 int a = 21;
 a %= 5; // a = a % 5 = 21 % 5 = 1
 ```
+# Operator Precedence Chart
+
+Operator precedence describes the order in which C reads expressions. For example, the expression x=8-y*2 contains two operations, a subtraction and a multiplication. Does the C compiler evaluate 8-y first, then multiply the result by 2, or does it evaluate y*2 first, then subtract 8 to the result? The operator precedence chart contains the answers. Operators higher in the chart have a higher precedence, meaning that the C compiler evaluates them first. Operators on the same line in the chart have the same precedence, and the "Associativity" column on the right gives their evaluation order.
+
+
+| Operator Type | Operator | Associativity |
+| --- | --- | --- |
+| Primary Expression | Operators	() [] . -> expr++ expr-- | left-to-right |
+| Unary Operators | * & + - ! ~ ++expr --expr (typecast) sizeof | right-to-left |
+| Binary Operators | * / % | left-to-right |
+|                         |  + -
+|                          |  >> <<
+|                          |  < > <= >=
+|                         |   == !=
+|                          |  &
+|                          |  ^
+|                          |  \|
+|                          |  &&
+|                          |  \|\|
+| Ternary Operator | ?: | right-to-left
+| Assignment Operators | = += -= *= /= %= >>= <<= &= ^= \|= | right-to-left |
+| Comma | , | left-to-right |
