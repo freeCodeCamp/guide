@@ -1,6 +1,5 @@
 # DeepLearing
 
-
 Suggested Resources:
 
   - [Awesome DeepLearning]
