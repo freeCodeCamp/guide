@@ -1,0 +1,14 @@
+# Why you should choose java as your programming language
+
+#### 1. Practicality
+James Gosling has described Java as a “blue collar” programming language. It was designed to allow developers to get their job done with the minimum of fuss, whilst still enabling developers to pick up someone else’s (or even their own) code at a later date and understand what it’s supposed to do. Sure, you can write unreadable code in Java, just as you can in any language, but with good coding conventions it is more readable than many other languages.
+
+#### 2. Backwards compatibility
+Sun and subsequently Oracle have made huge efforts to ensure that code written for one version of Java will continue to run unchanged on newer versions. Although this hasn’t always been the case (assertions in Java SE 1.4, enumerations in Java SE 5) and it has sometimes led to implementations that could have been better without compatibility (generics) it is a very compelling feature for developers. There’s nothing worse than taking code that works and having to change it to make it work on a newer version of the platform. That’s just wasted time.
+
+#### 3. Scalability/Performance/Reliability
+With over twenty years and thousands of man-years of development, Java is a rock-solid platform that performs on a level that can match or even exceed that of native code (thanks to some of the optimisations made by the JVM using dynamic rather than static code analysis). When it comes to scalability, just look at some of the large enterprises using Java: Twitter (who moved off Ruby-on-Rails to the JVM because RoR wouldn’t scale), Spotify, Facebook, Salesforce, eBay and, of course, Oracle. Hadoop, Cassandra and Spark, the basis of most big data projects, are either written in Java or Scala and run on the JVM. If you want scalability and performance, Java and the JVM is an obvious choice.
+
+#### 4. Freshness
+To me this is the big one. Looking at the TIOBE graph there is a significant upswing in Java popularity since October 2014, which is shortly after the launch of JDK 8. JDK 8 was a big change for developers using Java because of the introduction of Lambda expressions and the streams API. Suddenly Java developers could do things in a more functional way without having to learn a whole new language like Scala. These features also make it potentially much simpler to take advantage of multi-core/multi-processor machines without having to write lots of complex and potentially error prone multi-threaded code. With project Jigsaw scheduled for delivery in JDK 9 we’ll see modularity make big enterprise applications much easier to build, deploy and maintain. There are already plans for new language features, like value types, in JDK 10.
+
