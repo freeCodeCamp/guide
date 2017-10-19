@@ -12,4 +12,12 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
+The B tag is used to make the text placed between the tags as Bold.
+Here is an example on how to use them.
 
+`<b>I am a Bold text </t>`
+
+##### Note:
+The text inside a B tag does not convey any importance it is just to make the text bold.
+To make text bold and convey some importance <strong> tag is used.
+You should not use B tag to make Heading bold rather use the Heading tags from <h1> till <h6>.
