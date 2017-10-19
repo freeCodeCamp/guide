@@ -29,11 +29,17 @@ for j=2 to A.length
 ### Example:
 
 ( 6 9 5 0 8 2 7 1 ) –> ( 6 9 5 0 8 2 7 1 ), Here, as 9 is not less than 6 so no movement.
+
 ( 6 9 5 0 8 2 7 1 ) –> ( 5 6 9 0 8 2 7 1 ), Here, as 5 is less than 6,9 so put 5 before 6 .
+
 ( 5 6 9 0 8 2 7 1 ) –> ( 0 5 6 9 8 2 7 1 ), Here, as 0 is less than 9,6,5 so put 0 before 5.
+
 ( 5 6 9 0 8 2 7 1 ) –> ( 0 5 6 8 9 2 7 1 ), Here, as 8 is less than 9 but greater than 0,5,6 so put 8 between 6 and 9.
+
 ( 5 6 9 0 8 2 7 1 ) –> ( 0 2 5 6 8 9 7 1 ), Here, as 2 is less than 9,8,6,5 but greater than 0 so put 2 between 0 and 5.
+
 ( 5 6 9 0 8 2 7 1 ) –> ( 0 2 5 6 7 8 9 1 ), Here, as 7 is less than 9,8 but greater than 0,2,5,6 so put 7 between 6 and 8.
+
 ( 5 6 9 0 8 2 7 1 ) –> ( 0 1 2 5 6 7 8 9 ), Here, as 1 is less than 9,8,7,6,5,2 but greater than 0 so put 1 between 0 and 2.
 
 ### Time and space Complexity
