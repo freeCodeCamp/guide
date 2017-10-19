@@ -3,13 +3,16 @@ title: 2 by 2 Determinants
 ---
 ## 2 by 2 Determinants
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/2-by-2-determinants/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The determinant of a square matrix is a scalar value linked to many fundamental properties of the matrix itself, such as invertibility. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Given a 2 by 2 square matrix:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+![2x2Matrix](https://github.com/viso-gio/HostedImages/blob/master/2x2Matrix.png?raw=true)
+
+its determinant is computed as:
+
+![2x2det](https://github.com/viso-gio/HostedImages/blob/master/det2x2Matrix.png?raw=true)
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+For more informations:
+* [Wikipedia: 2x2 determinants](https://en.wikipedia.org/wiki/Determinant#2_.C3.97_2_matrices)
