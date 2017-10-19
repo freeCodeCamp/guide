@@ -10,7 +10,7 @@ Margin values are set using lengths or percentages or `auto` or `inherit` keywor
 ## Syntax
 ```css
 .element {
-    margin: [margin-top] || [margin-right] || margin-bottom] || [margin-left];
+    margin: margin-top || margin-right || margin-bottom || margin-left;
 }
 ```
 
