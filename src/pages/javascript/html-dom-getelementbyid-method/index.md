@@ -17,3 +17,6 @@ This method is one of the most common methods in the HTML DOM, and is used almos
 ```javascript
 document.getElementById("demo"); // Returns the element with id "demo"
 ```
+---
+For more information on this function: <a href='https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById' target='_blank' rel='nofollow'>document.getElementById()</a>
+---
