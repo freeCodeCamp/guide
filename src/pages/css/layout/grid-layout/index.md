@@ -12,4 +12,6 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
+Use the display: grid property in the parent element of the grid you want to create to make grid easily. Here is a simple tutorial on CSS-tricks that give excellent examples.
 
+https://css-tricks.com/snippets/css/complete-guide-grid/
