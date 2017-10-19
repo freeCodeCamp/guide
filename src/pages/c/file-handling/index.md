@@ -3,13 +3,63 @@ title: File Handling
 ---
 ## File Handling
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/acceptance-testing/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+File Handling is most important part of a programmer . In C language we use a structure pointer of a file type to declare a file
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+```c
+FILE *fp;
+```
+C provides a number of build-in function to perform basic file operation
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+**fopen()**   **-**   **create a new file or open a existing file**
+**fclose()**   **-**   **close a file**
+**getc()**   **-**   **reads a character from a file**
+**putc()**   **-**   **writes a character to a file**
+**fscanf()**   **-**   **reads a set of data from a file**
+**fprintf()**   **-**   **writes a set of data to a file**
+**getw()**   **-**   **reads a integer from a file**
+**putw()**   **-**   **writes a integer to a file**
+**fseek()**   **-**   **set the position to desire point**
+**ftell()**   **-**   **gives current position in the file**
+**rewind()**   **-**   **set the position to the begining point**
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+### Opening a file
+  The **fopen()** function is used to create a file or open a existing file
+  
+  ```c
+  fp = fopen(const char filename,const char mode);
+  ```
+  
+  In C there are many mode for opening a file 
+  **r**  **-**   **open a file in reading mode**
+  **w**  **-**   **opens or create a text file in writing mode**
+  **a**  **-**   **opens a file in append mode**
+  **r+**  **-**   **opens a file in both reading and writing mode**
+  **a+**  **-**   **opens a file in both reading and writing mode**
+  **w+**  **-**   **opens a file in both reading and writing mode**
+  
+  Here's an  example of reading and writing data to a file
+  
+  ```c
+  #include<stdio.h>
+#include<conio.h>
+main()
+{
+ FILE *fp;
+ char ch;
+ fp = fopen("hello.txt", "w");
+ printf("Enter data");
+ while( (ch = getchar()) != EOF) {
+    putc(ch,fp);
+ }
+ fclose(fp);
+ fp = fopen("hello.txt", "r");
+ 
+ while( (ch = getc(fp)! = EOF)
+    printf("%c",ch);
+    
+ fclose(fp);
+}
+```
+
 
 
