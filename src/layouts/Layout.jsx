@@ -22,7 +22,7 @@ function Layout(props) {
 
   return (
     <div>
-      <Grid fluid={ true }>
+      <Grid fluid={ true } className='navBarContainer'>
         <Row>
           <Navbar className='navBar'>
             <Col md={ 3 } xs={ 12 }>
