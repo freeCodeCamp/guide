@@ -11,5 +11,5 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
+Claudia Driemeyer's Medium article about colour theory is well worth a read - https://medium.com/gravitdesigner/an-easy-approach-to-color-theory-and-graphic-design-8b9287c95e42
 
