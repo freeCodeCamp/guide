@@ -11,5 +11,10 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
+<h2>The &lt;!DOCTYPE&gt; Declaration</h2>
+<p>The &lt;!DOCTYPE&gt; declaration represents the document type, and helps browsers to display web pages correctly.</p>
+<p>It must only appear once, at the top of the page (before any HTML tags). </p>
+<p>The &lt;!DOCTYPE&gt; declaration is not case sensitive.</p>
+<p>The &lt;!DOCTYPE&gt; declaration is for HTML5</p>
 
 
