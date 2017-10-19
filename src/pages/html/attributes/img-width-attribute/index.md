@@ -21,4 +21,4 @@ For example, if you already have a link to an image set up via the `src` attribu
 In the code snippet above there is an image tag and the image is set to a width of 100 pixels. `width="100"`
 
 #### More Information:
-<a src="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img" target="_blank">MDN article on the img tag<a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img" target="_blank">MDN article on the img tag<a>
