@@ -3,7 +3,7 @@ title: Strings
 ---
 # Strings
 
-Strings, as you might be already aware, are a sequence of characters. In Java, a `String` is an `Object`.
+Strings are sequences of characters. In Java, a `String` is an `Object`.
 
 ```java
 String course = "FCC";
@@ -17,9 +17,9 @@ You can create a String in the following ways:
 
 You might be thinking: What's the difference between the two?
 
-Well, using the `new` keyword gurantees that a new `String` object will be created and a new memory location will be allocated in the `Heap` memory (Click here to learn more)<a href='https://docs.oracle.com/cd/E13150_01/jrockit_jvm/jrockit/geninfo/diagnos/garbage_collect.html' target='_blank' rel='nofollow'>[https://docs.oracle.com/cd/E13150_01/jrockit_jvm/jrockit/geninfo/diagnos/garbage_collect.html</a>]. You see, Java takes care of memory allocation and collecting unused memory in the background - among other things. However, in this case, it's good to be aware about the difference so that you can write code that can help the JVM make appropriate optimizations.
+Well, using the `new` keyword gurantees that a new `String` object will be created and a new memory location will be allocated in the `Heap` memory (Click here to learn more)<a href='https://docs.oracle.com/cd/E13150_01/jrockit_jvm/jrockit/geninfo/diagnos/garbage_collect.html' target='_blank' rel='nofollow'>[https://docs.oracle.com/cd/E13150_01/jrockit_jvm/jrockit/geninfo/diagnos/garbage_collect.html</a>]. You see, Java takes care of memory allocation and collecting unused memory in the background - among other things. However, in this case, it's good to be aware about the difference so that you can write code that can help the JVM make appropriate optimizations. To make things clear, consider the example below. 
 
-The following snippet will make things more clearer. The objective is to understand: How many String objects are created?
+In the this code snippet, how many String objects are created?
 
 ```java
 String str = "This is a string";
