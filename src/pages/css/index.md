@@ -1,7 +1,3 @@
----
-title: CSS
----
-
 ### CSS
 
 CSS stands for Cascading Style Sheets. It was first invented in 1996, and is now a standard feature of all major web browsers.
