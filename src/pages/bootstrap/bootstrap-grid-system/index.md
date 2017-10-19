@@ -3,13 +3,19 @@ title: Bootstrap Grid System
 ---
 ## Bootstrap Grid System
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/bootstrap/bootstrap-grid-system/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+In a nutshell Bootstrap grid system helps you create responsive layouts, it comprises of a system of rows and columns that helps you structure your content. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Rows are horizontal groups of columns, with a maximum of 12 columns per row. Within each row, the content is placed inside the columns and it can span anywhere between 1 to 12 columns.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Bootstrap has five different types of grid tiers namely Extra small, Small, Medium, Large and Extra large, there is a breakpoint defined for each of these grid tiers.
+
+Bootstrap uses pixels to define the grid tier breakpoints, the different viewport widths that act as breakpoints for the grid tiers are:
+
+* Extra large: **Viewport width >= 1200px**
+* Large: **Viewport width >= 992px**
+* Medium: **Viewport width >= 768px**
+* Small: **Viewport width >= 576px**
+* Extra small: **Viewport widths below 576px**      
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+https://getbootstrap.com/docs/4.0/layout/grid/
