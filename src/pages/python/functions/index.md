@@ -67,8 +67,9 @@ After defining a function you probabily want to test it! In your Python prompt y
 
 ```shell
 >>> add_function(2, 2)
-4
+... 4
 ```
+More information on [calling functions](https://guide.freecodecamp.org/python/calling-functions)
 
 #### More Functions Examples
 The greetings function:
@@ -84,7 +85,7 @@ def greetings(name):
 
 ```shell
 >>> greetings('John Doe')
-Greetings, John Doe! Have a nice day!
+... 'Greetings, John Doe! Have a nice day!'
 ```
 
 The mean function:
@@ -102,10 +103,11 @@ def sequence_mean(sequence):
 >>> my_sequence = [2, 3, 6]
 
 >>> my_sequence
-[2, 3, 6]
+... [2, 3, 6]
 
 >>> sequence_mean(my_sequence)
-3.67
+... 3.67
+```
 
 ### Further Reading
 For more on Python functions, refer to the official [Python documentation](https://docs.python.org/3/tutorial/controlflow.html).
