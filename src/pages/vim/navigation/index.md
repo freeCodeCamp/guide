@@ -6,7 +6,7 @@ title: Navigation
 
 ### Basic movement
 
-There are many ways to move the cursor, but these basic movements will allow
+There are many ways to move the cursor in Vim, but these basic movements will allow
 new users to get comfortable using normal mode for file navigation. 
 
 * In normal mode, the keys `h`, `j`, `k` , `l` correspond to moving the cursor
