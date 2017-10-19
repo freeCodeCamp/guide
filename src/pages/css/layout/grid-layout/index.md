@@ -13,3 +13,6 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
 
+One of the best [article](https://css-tricks.com/snippets/css/complete-guide-grid/) to get you started with CSS Grid.
+
+For more usage example check [this](https://gridbyexample.com/examples/) out.
