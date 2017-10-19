@@ -11,5 +11,7 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
+Hadoop wiki page: https://en.wikipedia.org/wiki/Apache_Hadoop
+A beginners guide to Hadoop: https://blog.matthewrathbone.com/2013/04/17/what-is-hadoop.html
 
 
