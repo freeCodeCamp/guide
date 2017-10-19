@@ -3,13 +3,22 @@ title: Open Data
 ---
 ## Open Data
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/working-in-tech/open-data/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Open data is data that is freely available and anyone can _access, reuse, and share_ it.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Following points are important for Open Data:
+
+* Data becomes usable by being available in a common understandable format.
+* The open data must be available under open license. This allows anyone to use, redistribute and modify data.
+
+You can extract useful information from open data. _For example_, you can learn any connection between rainfall and doctors appointments.
+
+Open data can help governments, businesses and individuals. It can transform various services, bring socio economic changes, and protect our planet.
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
-#### More Information:
+#### Some resources to know more about Open Data:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
+* <a href='https://en.wikipedia.org/wiki/Open_data' target='_blank' rel='nofollow'>Open Data Wikipedia</a>
+
 
 
