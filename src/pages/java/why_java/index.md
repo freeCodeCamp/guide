@@ -1,3 +1,6 @@
+---
+title: Why you should choose java as your programming language
+---
 # Why you should choose java as your programming language
 
 #### 1. Practicality
