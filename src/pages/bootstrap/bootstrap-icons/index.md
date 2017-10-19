@@ -12,4 +12,4 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+Better known as "Glyphicons" in the Bootstrap community, are icons used in buttons, button groups for a toolbar, navigation or prepended form inputs.
