@@ -1,15 +1,27 @@
 ---
 title: Angularjs Interview Questions
 ---
-## Angularjs Interview Questions
+# Angularjs Interview Questions
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/angularjs-interview-questions/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Here's a list of the concepts that are frequently asked about in Angularjs interviews.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+* What is AngularJS?
+* What is the Model View Controller (MVC)?
+* Two way data binding
+* What is dependency injection and how does it work?
+* What is $scope in AngularJS?
+* What is $rootScope in AngularJS?
+* How to implement routing in Angular?
+* Explain directives
+* How can we create a custom directive in Angular?
+* Explain difference bewteen service and factory
+* Explain $q service, deferred and promises
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
+Her you can find other questions and answers:
 
+* [AngularJS Interview Questions](https://www.tutorialspoint.com/angularjs/angularjs_interview_questions.htm)
+* [10 AngularJS interview questions and answers](https://www.upwork.com/i/interview-questions/angularjs/)
+* [50 Most Important AngularJS Interview Questions For 100% Success](http://www.techbeamers.com/latest-angularjs-interview-questions-answers/)
