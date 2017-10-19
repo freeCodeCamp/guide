@@ -103,10 +103,10 @@ A design compliant with the 3rd normal form would be :
 
 
 #### More Information:
-* database normalisation on [wikipedia](https://en.wikipedia.org/wiki/Database_normalization)
-* first normal form on [wikipedia](https://en.wikipedia.org/wiki/First_normal_form) 
-* second normal form on [wikipedia](https://en.wikipedia.org/wiki/Second_normal_form) 
-* third normal form on [wikipedia](https://en.wikipedia.org/wiki/Third_normal_form)
+* database normalisation on <a href='https://en.wikipedia.org/wiki/Database_normalization' target='_blank' rel='nofollow'>wikipedia</a>
+* first normal form on <a href='https://en.wikipedia.org/wiki/First_normal_form' target='_blank' rel='nofollow'>wikipedia</a> 
+* second normal form on <a href='https://en.wikipedia.org/wiki/Second_normal_form' target='_blank' rel='nofollow'>wikipedia</a> 
+* third normal form on <a href='https://en.wikipedia.org/wiki/Third_normal_form' target='_blank' rel='nofollow'>wikipedia</a>
 
 
 

@@ -94,4 +94,4 @@ catch (e) {
 
 #### More Information:
 
-[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch)
+<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch' target='_blank' rel='nofollow'>MDN</a>

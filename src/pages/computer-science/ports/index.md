@@ -3,7 +3,7 @@ title: Ports
 ---
 ## Ports
 
-###Ports, IP addresses and the basics of requests
+### Ports, IP addresses and the basics of requests
 
 You can think of an IP address kind of like the return address you write on an envelope when you want to send it through the mail: it specifies where you would like a response (or returned letter) to go. When someone receives a letter, they can look at the return address on the envelope to know where they should address the letter they will send back. When your computer sends a request for information to a server, it tags the request with its IP address so that the server will know where to send the response.
 
@@ -36,8 +36,12 @@ Port numbers also have other uses: for example, a network administrator may perm
 #### More Information:
 
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-[Wikipedia: Port (computer networking)](https://en.wikipedia.org/wiki/Port_(computer_networking))
-[Lifewire: What are Port Numbers?](https://www.lifewire.com/port-numbers-on-computer-networks-817939)
-[Lifewire: Computer Ports and Their Role in Computer Networking](https://www.lifewire.com/computer-port-usage-817366)
-[About IP addresses - Google Search Help](https://support.google.com/websearch/answer/1696588)
-[What is static IP address/dynamic IP address? - Definition from WhatIs.com](http://searchwindevelopment.techtarget.com/definition/static-IP-address-dynamic-IP-address)
+<a href='https://en.wikipedia.org/wiki/Port_(computer_networking' target='_blank' rel='nofollow'>Wikipedia: Port (computer networking)</a>)
+
+<a href='https://www.lifewire.com/port-numbers-on-computer-networks-817939' target='_blank' rel='nofollow'>Lifewire: What are Port Numbers?</a>
+
+<a href='https://www.lifewire.com/computer-port-usage-817366' target='_blank' rel='nofollow'>Lifewire: Computer Ports and Their Role in Computer Networking</a>
+
+<a href='https://support.google.com/websearch/answer/1696588' target='_blank' rel='nofollow'>About IP addresses - Google Search Help</a>
+
+<a href='http://searchwindevelopment.techtarget.com/definition/static-IP-address-dynamic-IP-address' target='_blank' rel='nofollow'>What is static IP address/dynamic IP address? - Definition from WhatIs.com</a>

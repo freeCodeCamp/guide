@@ -16,8 +16,8 @@ For example, when your team is performing the Sprint Review meetings, the demons
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-- Scrum Study [Stakeholders in Scrum](https://www.scrumstudy.com/blog/stakeholders-in-scrum/)
-- Scrum.org [Key Stakeholders](https://www.scrum.org/resources/blog/scrum-who-are-key-stakeholders-should-be-attending-every-sprint-review)
-- Agile Modelling [Active Stakeholder Participation](http://agilemodeling.com/essays/activeStakeholderParticipation.htm)
+- Scrum Study <a href='https://www.scrumstudy.com/blog/stakeholders-in-scrum/' target='_blank' rel='nofollow'>Stakeholders in Scrum</a>
+- Scrum.org <a href='https://www.scrum.org/resources/blog/scrum-who-are-key-stakeholders-should-be-attending-every-sprint-review' target='_blank' rel='nofollow'>Key Stakeholders</a>
+- Agile Modelling <a href='http://agilemodeling.com/essays/activeStakeholderParticipation.htm' target='_blank' rel='nofollow'>Active Stakeholder Participation</a>
 
 

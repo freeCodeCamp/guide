@@ -24,6 +24,6 @@ Truth tables are a powerful tool. They can be used to express & evaluate simple 
 
 #### More Information:
 
-- [Hyperphysics - Georgia State University](http://hyperphysics.phy-astr.gsu.edu/hbase/Electronic/truth.html)
-- [Wikipedia](https://en.wikipedia.org/wiki/Truth_table)
+- <a href='http://hyperphysics.phy-astr.gsu.edu/hbase/Electronic/truth.html' target='_blank' rel='nofollow'>Hyperphysics - Georgia State University</a>
+- <a href='https://en.wikipedia.org/wiki/Truth_table' target='_blank' rel='nofollow'>Wikipedia</a>
 
