@@ -3,13 +3,14 @@ title: Img Width Attribute
 ---
 ## Img Width Attribute
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/attributes/img-width-attribute/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `width` attribute specifies the width of an image, in pixels.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Syntax:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+`<img width="pixels">`
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+Attribute Values:
+
+`pixels - The width in pixels (e.g. width="100")`
 
 
