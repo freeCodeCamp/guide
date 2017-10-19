@@ -3,13 +3,12 @@ title: Code Smells
 ---
 ## Code Smells
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/code-smells/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
+Code smell is a term used to refers any symptom in the source code of a program that possibly indicates a deeper problem.
+Code smells are usually not bugs—they are not technically incorrect and do not currently prevent the program from functioning. But they indicate weaknesses in design that may be slowing down development. 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
+these online articles will help you to understand better and solve code smells related problems:
+- <a href='https://blog.jetbrains.com/idea/2017/09/code-smells-too-many-problems/'>Code Smells: Too Many Problems 
+- <a href='https://martinfowler.com/bliki/CodeSmell.html'>CodeSmell
+- <a href='https://blog.codinghorror.com/code-smells/'>Code Smells Within Classes</a>
 
