@@ -31,4 +31,5 @@ namespace HelloWorld
 ## Output:
 ```
 > Hello World!
+> Press any key to exit.
 ```
