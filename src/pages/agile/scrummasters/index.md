@@ -3,13 +3,6 @@ title: Scrummasters
 ---
 ## Scrummasters
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/scrummasters/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Scrum masters are part of an Agile team. They can be developers or other functional members (wearing multiple hats) or functioning individually as a sole role in a team. Their main objective is to enhance the development using the Scrum framework.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+Often their role is to: guide the sprint planning, monitor daily standup, conduct retrospectives, ensure velocity is present, help Scoping of Sprints.
