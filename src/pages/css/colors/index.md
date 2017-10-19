@@ -11,5 +11,6 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
+Color Value: <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/color_value' target='_blank' rel='nofollow'>MDN</a>
+CSS Colors: <a href='https://www.w3schools.com/cssref/css_colors.asp' target='_blank' rel='nofollow'>w3schools</a>
 
