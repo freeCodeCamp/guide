@@ -17,6 +17,7 @@ This method is one of the most common methods in the HTML DOM, and is used almos
 ```javascript
 document.getElementById("demo"); // Returns the element with id "demo"
 ```
+
 If you have more than one element with the same value of `id` (bad practice!), `getElementById` will return the first element found:
 ```html
 <div id="demo">First</div>
@@ -25,3 +26,7 @@ If you have more than one element with the same value of `id` (bad practice!), `
 ```javascript
 document.getElementById("demo"); // Returns the element with id "demo" containing 'First'
 ```
+
+#### More Information:
+
+<a href='https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById' target='_blank' rel='nofollow'>document.getElementById()</a>
