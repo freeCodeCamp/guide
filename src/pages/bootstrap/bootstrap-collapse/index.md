@@ -3,13 +3,30 @@ title: Bootstrap Collapse
 ---
 ## Bootstrap Collapse
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/bootstrap/bootstrap-collapse/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+We can use Bootstrap Collapse to toggle the visibility of, or hide and show content. The class `.collapse` hides the content, and the class `.collapse.show` shows the content.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Examples
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Using the `href` attribute:
 
+    <p>
+      <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+    Link with href
+      </a>
+      <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+    Button with data-target
+      </button>
+    </p>
+
+Using the `data-target` attribute:
+
+    <div class="collapse" id="collapseExample">
+      <div class="card card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+      </div>
+    </div>
+ 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+http://getbootstrap.com/docs/4.0/components/collapse/
 
 
