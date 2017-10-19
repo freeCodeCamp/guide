@@ -56,33 +56,6 @@ Another filtering selector, `:contains(text)`, selects elements that have a cert
 ```
 `$("p:contains('World')").css("color", "yellow");`
 
-There are also other ways to select elements using jQuery's built-in methods, such as .children(), .parent(), .each(), etc.
-
-Selecting with .children():
-
-`<div class="container">
-	<p class="paragraph">Hello World!</p>
- </div>`<br>
-`$(".container").children().remove();`
-
-Selecting with .parent():
-
-`<div class="container">
-	<p class="paragraph">Hello World!</p>
- </div>`<br>
-`$(".paragraph").parent().css("opacity", 0);`
-
-Selecting with .each():
-
-`<ul>
-	<li>Hello World!</li>
-	<li>Hello Again!</li>
-	<li>Hello for reals!</li>
- </ul>`<br>
-`$(".paragraph").each(function(index, element)) {
-	console.log($(element).html());
-});`
-
 
 **Note:** In the jQuery selector, `World` is in single-quotes because it is already inside a pair of double-quotes. Always use single-quotes inside double-quotes to avoid unintentionally ending a string.
 
