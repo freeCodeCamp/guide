@@ -59,9 +59,9 @@ function showInfo(element, index, array) {
 console.log('return = ' + [4, 6, 8, 12].find(showInfo));
 
 // Output
-element = 4, index = 0, array = 4,6,8,12
-element = 6, index = 1, array = 4,6,8,12
-element = 8, index = 2, array = 4,6,8,12
-element = 12, index = 3, array = 4,6,8,12
-return = undefined
+//  element = 4, index = 0, array = 4,6,8,12
+//  element = 6, index = 1, array = 4,6,8,12
+//  element = 8, index = 2, array = 4,6,8,12
+//  element = 12, index = 3, array = 4,6,8,12
+//  return = undefined
 ```
