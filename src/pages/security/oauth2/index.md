@@ -3,7 +3,7 @@ title: OAuth2 Protocol
 ---
 ## OAuth 2.0
 
-[OAuth 2.0](https://tools.ietf.org/html/rfc6749) is a industry standard authorization protocol, which enables third party application a limited access to resources on behalf of resource owner (users of the system)
+<a href='https://tools.ietf.org/html/rfc6749' target='_blank' rel='nofollow'>OAuth 2.0</a> is a industry standard authorization protocol, which enables third party application a limited access to resources on behalf of resource owner (users of the system)
 
 OAuth is widely being used in many major internet companies like Google, Facebook, Slack etc
 
@@ -15,7 +15,7 @@ OAuth is widely being used in many major internet companies like Google, Faceboo
 
 ###Basic Knowledge
 
-####[Roles](https://tools.ietf.org/html/rfc6749#section-1.1)
+####<a href='https://tools.ietf.org/html/rfc6749#section-1.1' target='_blank' rel='nofollow'>Roles</a>
 - **Resource Owner**:
   Person who is using the product or service (eg: you are Resource Owner in your Google Account)
 - **Resource Server**:
@@ -29,19 +29,19 @@ OAuth is widely being used in many major internet companies like Google, Faceboo
 
 There are two types of tokens defined in OAuth 2.0
 
-- **[Access Token](https://tools.ietf.org/html/rfc6749#section-1.4)**:
+- **<a href='https://tools.ietf.org/html/rfc6749#section-1.4' target='_blank' rel='nofollow'>Access Token</a>**:
   Access Tokens are the critical part of OAuth since it enables access to user data from any application which holds this token. This token has a limited lifetime defined by the authorization server.
-- **[Refresh Token](https://tools.ietf.org/html/rfc6749#section-1.5)**:
+- **<a href='https://tools.ietf.org/html/rfc6749#section-1.5' target='_blank' rel='nofollow'>Refresh Token</a>**:
   This token is issued as part of the access token, since the access token has limited lifetime, sometimes client application need to access user data for longer time (Eg: integration services), in this case client application can request refresh token, which allow them to renew the access token to get newer one which needing to reauthorize the user.
 
 
 
-#### [Access Token Scope](https://tools.ietf.org/html/rfc6749#section-3.3)
+#### <a href='https://tools.ietf.org/html/rfc6749#section-3.3' target='_blank' rel='nofollow'>Access Token Scope</a>
 
 The scope parameter in authorization request by client, lets client application to specify what type of resources or data they wanted to access, the available scopes are determined by the authorization server and once authorized, the requested scopes are attached to the access token, the give the access token limited access to user data instead of full access.
 
 
-### [Protocol Flow](https://tools.ietf.org/html/rfc6749#section-1.2)
+### <a href='https://tools.ietf.org/html/rfc6749#section-1.2' target='_blank' rel='nofollow'>Protocol Flow</a>
 
 ![OAuth2 Protocol Flow](https://assets.digitalocean.com/articles/oauth/abstract_flow.png)
 
@@ -193,6 +193,6 @@ grant_type=client_credentials
 
 For more reading, refer
 
-- [OAuth2 Draft](https://tools.ietf.org/html/rfc6749)
+- <a href='https://tools.ietf.org/html/rfc6749' target='_blank' rel='nofollow'>OAuth2 Draft</a>
 - http://www.bubblecode.net/en/2016/01/22/understanding-oauth2/
 - http://kevinchalet.com/2016/07/13/creating-your-own-openid-connect-server-with-asos-choosing-the-right-flows/
