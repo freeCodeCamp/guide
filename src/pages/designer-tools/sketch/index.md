@@ -12,4 +12,5 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+Sketch is a vector graphics editor created by Bohemian Coding (NL) in 2010.
+It is used by many designers worldwide.
