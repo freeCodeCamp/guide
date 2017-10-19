@@ -3,13 +3,29 @@ title: Tables
 ---
 ## Tables
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/tables/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Basically, a table is how we represent our data using rows and columns.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Table Element using `<table></table>` tag. Inside `<table></table>` tag, first you must create a row using `<tr></tr>` tag and `<td></td>` tag for each column inside it.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+Code example:
+```html
+<table>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Aria</td>
+    <td>Seta</td> 
+    <td>Indonesia</td>
+  </tr>
+  <tr>
+    <td>Jimmy</td>
+    <td>Tan</td> 
+    <td>Singapore</td>
+  </tr>
+</table>
+```
 
 
