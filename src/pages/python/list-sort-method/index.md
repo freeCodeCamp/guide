@@ -31,8 +31,8 @@ Another difference is that the list.sort() method is only defined for lists. In 
 ```
 #### sort() Parameters
 By default, sort() doesn't require any extra parameters. However, it has two optional parameters:
-⋅⋅*reverse - If true, the sorted list is reversed (or sorted in Descending order)
-⋅⋅*key - function that serves as a key for the sort comparison
+ * reverse - If true, the sorted list is reversed (or sorted in Descending order)
+ * key - function that serves as a key for the sort comparison
 
 #### More Information:
 More information about ```sort()``` can be found [here](https://docs.python.org/3/library/functions.html#sorted)
