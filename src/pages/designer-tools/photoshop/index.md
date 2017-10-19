@@ -9,8 +9,8 @@ A common thing a developer could do in photoshop, is modify the pixel size and r
 
 ### Summary
 * Raster based image editing software
-* A Photoshop file is .psd, can export to most image filetypes.
-* Photoshop is uses pixels. Make sure to create assets large enough, as scaling larger isn't possible without degradation.
+* A Photoshop file is a .psd, can export to most image filetypes.
+* Photoshop uses pixels. Make sure to create assets large enough, as scaling larger isn't possible without degradation.
 * Downloads available for Windows and Mac through Adobe subscriptions.
 * Becoming less commonly used for website/ User Interface mockups.
 * Many advanced tools and features for photo editing that might not be needed for developers.  
