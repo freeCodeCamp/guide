@@ -1,15 +1,6 @@
 ---
 title: What Is an Sdk
----
-## What Is an Sdk
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/computer-science/what-is-an-sdk/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+SDK stands for software development kit. SDK is a set of tools which will help in creating new softwares easily. For example Android SDK is a toolkit for developing android apps. It will contain development tools,an emulator and required libraries for devolping android apps.
 
 
