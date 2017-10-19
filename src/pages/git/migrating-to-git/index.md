@@ -1,7 +1,7 @@
 ---
 title: Migrating to Git
 ---
-## Git Migrating to Git
+## Migrating to Git
 
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/git/migrating-to-git/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
