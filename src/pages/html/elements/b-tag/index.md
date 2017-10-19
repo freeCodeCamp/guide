@@ -3,13 +3,21 @@ title: B Tag
 ---
 ## B Tag
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/b-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `<b>` tag is used to specify bold text. To follow standards defined by [HTML5](https://www.w3.org/TR/html5/text-level-semantics.html#the-b-element), prefer using other type of tags such as header tags, like `<h1>` and `<h2>` over the `<b>` tag unless nothing else is more appropriate.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+#### Example
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```html
+<html>
+    <head>
+        <title>Document Titles Belong in the Head</title>
+    </head>
+    <body>
+      <p>This <b>word</b> is in bold.</p>
+    </body>
+</html>
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+- [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body)
+- [HTML5 Specification](https://www.w3.org/TR/html5/)
