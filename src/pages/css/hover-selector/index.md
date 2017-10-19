@@ -1,15 +1,23 @@
 ---
 title: Hover Selector
 ---
-## Hover Selector
+# Hover Selector
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/hover-selector/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The :hover selector it is generally triggered when the user hovers over an element with the cursor (mouse pointer).
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+For Example:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Select and color yellow the background of any `<p>`, `<h1>` and `<a>` element when when you cursor over it:
+
+`p:hover, h1:hover, a:hover {`
+
+`    background-color: yellow;`
+
+`}`
+
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+
+[MDN web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/:hover)
 
 
