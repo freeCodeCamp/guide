@@ -5,7 +5,7 @@ title: Bootstrap Buttons
 The Bootstrap framework provides you with various styling options for buttons. These styles help you provide a visual representation to the user of what the button may do.
 
 #### How To Use:
-To use bootstrap buttons you follow the same steps that you would to create a button in HTML except you also apply the applicable CSS class to the button. A code example has been provided below.
+To use bootstrap buttons you follow the same steps that you would to create a button in HTML except you also apply the applicable CSS class to the button. A code example has been provided below. Add Bootstrap CSS and JavaScript link on your HTML
 
 **Code Example:**
 
