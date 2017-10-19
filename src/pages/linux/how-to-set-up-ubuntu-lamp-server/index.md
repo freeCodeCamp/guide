@@ -3,7 +3,7 @@ title: how-to-set-up-ubuntu-lamp-server
 ---
 # Setting up a local LAMP server on Ubuntu
 
-The purpose of this brief guide is to take you through the process of setting up a LAMP (Linux, Apache, MySQL, PHP) server on a local Ubuntu Linux machine or virtual machine.  This will allow a developer to develop using PHP and MySQL (whit phpMyAdmin). This is a common stack that is necessary for Wordpress development.
+The purpose of this brief guide is to take you through the process of setting up a LAMP (Linux, Apache, MySQL, PHP) server on a local Ubuntu Linux machine or virtual machine.  This will allow a developer to develop using PHP and MySQL (with phpMyAdmin). This is a common stack that is necessary for Wordpress development.
 
 ## Install the necessary packages
 
