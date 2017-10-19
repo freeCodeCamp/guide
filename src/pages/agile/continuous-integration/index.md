@@ -2,14 +2,16 @@
 title: Continuous Integration
 ---
 ## Continuous Integration
+Continuous Integration is a software development technique in which developers will integrate their code into a shared repository frequently. After every check in a quality check will be executed on the code. This helps in determining any problems early.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/continuous-integration/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Continuous Integration should be followed by automated builds which also execute integrations tests. In case any integrations tests fail, the new changes can be rolled back.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Some of the important points about Continuous Integration
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+   - Integrate frquently
+   
+   - Automate the build
+   
+   - Build should be fast
+   
+   - Monitor the builds
