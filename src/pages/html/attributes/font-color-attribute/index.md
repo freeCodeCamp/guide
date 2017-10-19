@@ -23,6 +23,6 @@ Or ***rgb numbers***
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-Simply google **hex color picker** and you'll be able to play with the color picker palette.
-
+* Simply google **hex color picker** and you'll be able to play with the color picker palette.
+* We can also change font colors in CSS
 
