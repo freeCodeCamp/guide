@@ -1,0 +1,24 @@
+---
+title: Python Timedelta
+---
+`timedelta()` is a built-in function in Python 3, to compute time duration (the difference between two dates or times) between two Python dates, time, or datetime objects.
+
+## Argument
+
+It takes two arguments in Python datetime format.  
+
+## Return Value
+
+class datetime.timedelta([days[, seconds[, microseconds[, milliseconds[, minutes[, hours[, weeks]]]]]]])
+  All arguments are optional and default to 0. Arguments may be ints, longs, or floats, and may be positive or negative.
+
+## Code Sample
+
+  import datetime # imports datetime library
+  
+  start_date = datetime.datetime(2017, 10, 1, 0, 0)
+  end_date = datetime.datetime(2017, 10, 31, 0, 0)
+  
+  timedelta = end_date - start_date
+  
+  out: datetime.timedelta(30)
