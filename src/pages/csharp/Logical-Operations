@@ -1,1 +1,3 @@
-
+This file is to provide knowledge about logical operations when using the C# language.  Logical Operations uses Boolean Algebra, which
+means that the value of variables can only be **true** or **false**.  The main operations of Boolean Algebra are **conjunction**,
+**disjunction**, and **negation**.
