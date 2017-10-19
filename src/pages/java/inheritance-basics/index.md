@@ -50,3 +50,8 @@ modelS.charge();
 See here that the class `ElecticCar` inherits or `extends` the public methods from `Car` class, as well as has its own methods and properties. Cool way to pass on information!
 
 Also notice the usage of <a href='https://docs.oracle.com/javase/tutorial/java/IandI/super.html' target='_blank' rel='nofollow'>super</a> keyword here. Since our `Car` class had a constructor, so we have to initialize that constructor from the child class as well. We do that using the `super` keyword. Read more about <a>Inheritance here</a>.
+
+Extras
+1.Inheritance allows a class to be a subclass of a superclass, and thereby inherit public and protected variables and methods of the superclass.
+2.All classes (except class Object), are subclasses of type Object, and therefore they inherit Object's methods.
+3.Inheritance is a key concept that underlies IS-A, polymorphism, overriding, overloading, and casting. 
