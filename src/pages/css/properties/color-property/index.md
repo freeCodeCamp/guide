@@ -3,26 +3,13 @@ title: Color Property
 ---
 ## Color Property
 
-The color property is used to set the color value of an element's text content and text decorations. You can use all formats of color values (color name, hexadecimal value, RGB/RGBA value, HSL/HSLA value).
+This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/properties/color-property/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+
+<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-**Example:**
-```css
-p {
-    color: #000;
-}
-.mySpan {
-    color: DarkRed;
-}
-div {
-    color: #3786E1;
-}
-```
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-Documentation: [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/color)
 
-Named Color List: [W3Schools](https://www.w3schools.com/cssref/css_colors.asp)
 
-Color Picker Tool: [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool)
