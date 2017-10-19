@@ -26,7 +26,7 @@ You can also use the list.sort() method of a list. It modifies the list in-place
 Another difference is that the list.sort() method is only defined for lists. In contrast, the sorted() function accepts any iterable.
 
 ```python
-sorted({1: 'D', 2: 'B', 3: 'B', 4: 'E', 5: 'A'})
+>>> sorted({1: 'D', 2: 'B', 3: 'B', 4: 'E', 5: 'A'})
 [1, 2, 3, 4, 5]
 ```
 #### sort() Parameters
