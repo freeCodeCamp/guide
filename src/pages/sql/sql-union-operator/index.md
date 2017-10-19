@@ -9,6 +9,8 @@ For this guide we'll discuss the UNION Operator section of the SQL statement.
 
 The UNION Operator is used to combine the results of multiple select statements into one result set.
 
+The UNION ALL Operator is used to combine the results of multiple Select statements including duplicate rows.
+
 The SQL statements must have the same number of columns in their Select Statement.
 
 ### Basic Example
