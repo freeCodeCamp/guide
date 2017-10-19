@@ -19,6 +19,5 @@ Some examples:
 #### More Information:
 
 [W3C - Window Location](https://www.w3schools.com/js/js_window_location.asp)
+
 [MDN - Window Location](https://developer.mozilla.org/pt-BR/docs/Web/API/Window/location)
-
-
