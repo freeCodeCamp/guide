@@ -1,15 +1,19 @@
 ---
 title: Box Shadow
 ---
-## Box Shadow
+# Box Shadow
+The box-shadow CSS property allows to add shadow effects to a block-level element.
+It takes 5 parameters:
+* The horizontal offset
+* The vertical offset
+* The blur radius (optional)
+* The spread radius (optional)
+* Color
+<br />
+You can also set the optional "inset" keyword that changes the shadow from an outer shadow (outset) to an inner shadow.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/box-shadow/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+#### For more informations and examples:
+* [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow?v=b)
+* [CSS Tricks - CSS Box Shadow](https://css-tricks.com/snippets/css/css-box-shadow/)
 
 
