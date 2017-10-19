@@ -2,14 +2,13 @@
 title: Sprint Review
 ---
 ## Sprint Review
+Sprint reviews are generally practiced in Scrum, where the goal of each sprint is to deliver a shippable product increment. This means that at the end of each sprint, the team has produced a coded, tested and usable piece of software.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/sprint-review/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Participants in the sprint review typically include the product owner, the Scrum team, the ScrumMaster, management, customers and developers from other projects.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+During the sprint review, the project is assessed against the sprint goal determined during the sprint planning meeting. Ideally, the team has completed each product backlog item brought into the sprint, but it's more important that they achieve the overall goal of the sprint.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+#### Source
+https://www.mountaingoatsoftware.com/agile/scrum/meetings/sprint-review-meeting
 
 
