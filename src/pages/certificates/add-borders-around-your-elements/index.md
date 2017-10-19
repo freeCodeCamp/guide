@@ -7,10 +7,10 @@ For example, if we wanted to create a red, 5 pixel border around an HTML element
 
 ```css
 .thin-red-border { 
-	border-color: red;
-	border-width: 5px;
-	border-style: solid;
-	}
+    border-color: red;
+    border-width: 5px;
+    border-style: solid;
+}
 ```
 
 To apply the class simply include it as an attribute in your html code, for example:
