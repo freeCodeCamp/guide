@@ -67,5 +67,3 @@ In the above example we use the bootstrap collapse to create an accordion. The a
 The panel's head contains an anchor tag which is used to control the body's collapse state. So we attach the *data-toggle* to specify that this element is used for collapsing and *href* to specify the element it hides or reveals. We can also have a group of panels to make a panel collapsible panel group.
 
 > You can see a demo of panel collapse here https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_collapsible_accordion&stacked=h
-
-
