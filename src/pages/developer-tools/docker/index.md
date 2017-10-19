@@ -3,13 +3,13 @@ title: Docker
 ---
 ## Docker
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/developer-tools/docker/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Developers utilize Docker as a type of virtual machine for the following
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+1. application deployment
+1. running other applications using containters
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Docker is lightweight, and does not create a whole virtual machine.
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+Docker will use the same Linux kernel as the system that it is on.
 
-
+this allows applications be shipped with things not already running on the host computer
