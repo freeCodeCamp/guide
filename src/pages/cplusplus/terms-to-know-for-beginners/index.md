@@ -20,7 +20,7 @@ Now, install the IDE and try changing the text from the program in the last arti
 
 ### Changing text on C++
 
-* To change text ,change what's typed in the `""` after `cout<<`
+* To change text, change what's typed in the `""` after `cout<<`
 
 A sample program :
 
