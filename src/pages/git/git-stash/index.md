@@ -61,4 +61,4 @@ git stash clear
 ```
 
 ### Other Resources
-- [Git merge](../git-merge/index.md)
+- [Git merge](../git-merge)
