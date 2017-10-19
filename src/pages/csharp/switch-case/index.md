@@ -14,15 +14,15 @@ int number = 1;
 
 switch(number)
 {
-	// Here the switch check if a case, match the number variable
+    // Here the switch check if a case, match the number variable
     case 0:
         Console.WriteLine("The number is zero!");
         break;
     case 1:
-		// Here I match the condition
+        // Here I match the condition
         Console.WriteLine("The number is one!");
         break;
-	default:
+    default:
 	    Console.WriteLine("I don't know this number!");
         break;
 }
@@ -40,7 +40,7 @@ int number = 1;
 
 if(number == 0)
 {
-       Console.WriteLine("The number is zero!");
+    Console.WriteLine("The number is zero!");
 }
 else if(number == 1)
 {
