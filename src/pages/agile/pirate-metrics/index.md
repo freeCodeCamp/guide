@@ -13,3 +13,5 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
 
+<a href = "https://www.pierrelechelle.com/aarrr-pirate-metrics"</a>
+
