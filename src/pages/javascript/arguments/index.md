@@ -25,6 +25,9 @@ You can invoke arguments by using `arguments[n]` (where _n_ is the index of the 
 
 ```javascript
 var args = Array.prototype.slice.call(arguments);
+
+// or the es6 way:
+var args = Array.from(arguments)
 ```
 
 Since **slice()** has two (the parameter **end** is optional) parameters, you can grab a certain portion of the arguments by specifying (using the _slice.call()_ method renders these two parameters optional, not just _end_) the beginning and the ending of your portion; check out the following code:
