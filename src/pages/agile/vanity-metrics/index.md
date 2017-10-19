@@ -3,7 +3,7 @@ title: Vanity Metrics
 ---
 ## Vanity Metrics
 
-Where Vanity is the value of appearance over quality, Vanity Metrics are measurements that, without context or explanation, are used to make someone or something look good. Eric Ries, posting at [Harvard Business Review](https://hbr.org/2010/02/entrepreneurs-beware-of-vanity-metrics), suggests metrics should be **actionable**, **accessible**, and **auditable** to have meaning.
+Where Vanity is the value of appearance over quality, Vanity Metrics are measurements that, without context or explanation, are used to make someone or something look good. Eric Ries, posting at <a href='https://hbr.org/2010/02/entrepreneurs-beware-of-vanity-metrics' target='_blank' rel='nofollow'>Harvard Business Review</a>, suggests metrics should be **actionable**, **accessible**, and **auditable** to have meaning.
 
 ![Vanity Metrics](https://i.pinimg.com/originals/d4/ea/9a/d4ea9ade0de05a5707e11b325a37d5fb.jpg)
 
@@ -20,10 +20,10 @@ _image via kissmetrics_
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
-Fizzle on [Actionable vs Vanity Metrics](https://fizzle.co/sparkline/vanity-vs-actionable-metrics)
+Fizzle on <a href='https://fizzle.co/sparkline/vanity-vs-actionable-metrics' target='_blank' rel='nofollow'>Actionable vs Vanity Metrics</a>
 
-Harvard Business Review on [Vanity Metrics](https://hbr.org/2010/02/entrepreneurs-beware-of-vanity-metrics)
+Harvard Business Review on <a href='https://hbr.org/2010/02/entrepreneurs-beware-of-vanity-metrics' target='_blank' rel='nofollow'>Vanity Metrics</a>
 
-Forbes [Ignore Vanity Metrics and Focus on Engagement](https://www.forbes.com/sites/sujanpatel/2015/05/13/why-you-should-ignore-vanity-metrics-focus-on-engagement-metrics-instead/#1342fdeb12a9)
+Forbes <a href='https://www.forbes.com/sites/sujanpatel/2015/05/13/why-you-should-ignore-vanity-metrics-focus-on-engagement-metrics-instead/#1342fdeb12a9' target='_blank' rel='nofollow'>Ignore Vanity Metrics and Focus on Engagement</a>
 
-kissmetrics [Throw Away Vanity Metrics](https://blog.kissmetrics.com/throw-away-vanity-metrics/)
+kissmetrics <a href='https://blog.kissmetrics.com/throw-away-vanity-metrics/' target='_blank' rel='nofollow'>Throw Away Vanity Metrics</a>

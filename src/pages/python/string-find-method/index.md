@@ -28,4 +28,4 @@ If the substring is not found, -1 is returned.
 
 More Information:
 
-String methods [documentation](https://docs.python.org/3/library/stdtypes.html#string-methods).
+String methods <a href='https://docs.python.org/3/library/stdtypes.html#string-methods' target='_blank' rel='nofollow'>documentation</a>.
