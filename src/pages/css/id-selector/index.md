@@ -11,6 +11,7 @@ In CSS, the id selector styles a HTML element with the specified id. In CSS, the
 #unique-element {
 	border-bottom: 1px solid grey;
 }
+```
 
 The id selector of an HTML element should be unique within a page, and match the exact value given in the CSS selector. 
 
@@ -24,4 +25,4 @@ The id selector of an HTML element should be unique within a page, and match the
 
 MDN Documentation: <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors' target='_blank' rel='nofollow'>MDN</a>
 
-The Difference Between ID and Class <a href='https://css-tricks.com/the-difference-between-id-and-class/' target='_blank' rel='nofollow'">CSS-Tricks</a> 
+The Difference Between ID and Class <a href='https://css-tricks.com/the-difference-between-id-and-class/' target='_blank' rel='nofollow'>CSS-Tricks</a> 
