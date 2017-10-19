@@ -1,3 +1,7 @@
+---
+title: Format Specifiers
+---
+
 ## Format Specifiers
 
 The % specifiers that you can use in ANSI C are:
