@@ -13,3 +13,4 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
 
+Mailto links are so that you can email someone. You can even include to, subject, body and so forth. 
