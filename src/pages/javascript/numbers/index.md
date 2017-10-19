@@ -2,14 +2,15 @@
 title: Numbers
 ---
 ## Numbers
-
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/numbers/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+In Javascript there is no specific type of integers. It means you can use numbers with or without decimals in the same way.
+```javascript
+ var a = 12.5;    // A number with decimals
+ var b = 3;       // A number without decimals 
+ var c = -5       // A negative number
+```
+Javascript also allows use of scientific notations to write extra large or small numbers.
+```javascript
+ var x = 123e5;    // 12300000
+ var y = 123e-5;   // 0.00123 
+```
+All numbers are implemented in [double-precision 64-bit binary format IEEE 754](https://en.wikipedia.org/wiki/Double-precision_floating-point_format) which inlcudes a number between **-(253 -1) and 253 -1**.
