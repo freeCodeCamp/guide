@@ -40,5 +40,28 @@ Now, the array is already sorted, but our algorithm does not know if it is compl
 ( 1 2 4 5 8 ) –> ( 1 2 4 5 8 )
 
 
+### Implementation of Bubble Sort
+const list = [8,7,9,2,4,10]
+
+let bubbleSort = (list) =>{
+  var doItAgain = false;
+  const limit = list.length
+  const defaultNextValue = Number.POSITIVE_INFINITY;
+  
+  for(var i =0; i < limit; i++){
+    let thisValue = list[i];
+    let nextValue = i+1 < limit ? list[i+1] : defaultNextValue;
+    
+    if(nextValue < thisValue){
+      list[i] = nextValue;
+      list[i+1] = thisValue;
+      doItAgain = true;
+    }
+  }
+  if(doItAgain) bubbleSort(list)
+}
+
+bubbleSort(list)
+console.log(list)
 
 
