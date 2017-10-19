@@ -3,7 +3,7 @@ title: CSS Framework Foundation
 ---
 # CSS Framework Foundation
 
-<a href="http://foundation.zurb.com/" title="Foundation" target="_blank">Foundation</a> is an open-source, mobile first CSS framework created by <a href="https://zurb.com/" title="Zurb">Zurb</>.
+<a href="http://foundation.zurb.com/" title="Foundation" target="_blank">Foundation</a> is an open-source, mobile first CSS framework created by <a href="https://zurb.com/" title="Zurb">Zurb</a>.
 
 ## Getting Started
 
