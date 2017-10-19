@@ -19,6 +19,10 @@ localStorage.setItem("foo", "bar");
 localStorage.getItem("foo"); //returns "bar"
 ```
 
+---
+For more information on this can be found at: <a href='https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage' target='_blank' rel='nofollow'>Window.localStorage</a>
+---
+
 `window.sessionStorage`: stores data for one session; data is lost when the browser tab is closed.
 
 ```javascript
