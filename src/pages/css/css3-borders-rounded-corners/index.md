@@ -1,15 +1,23 @@
 ---
-title: CSS3 Borders Rounded Corners
+title: CSS3 Border Radius Property
 ---
-## CSS3 Borders Rounded Corners
+## CSS3 Border Radius Property
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/css3-borders-rounded-corners/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+With CSS3, you can give any element "rounded corners", by using the `border-radius` property. The value can be in any valid CSS length unit.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+```css
+  .rounded-corners {
+    border-radius: 20px;
+  }
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+  .circle {
+    border-radius: 50%;
+  }
+```
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+**Note:** The `border-radius` property is actually a shorthand property for the `border-top-left-radius`, `border-top-right-radius`, `border-bottom-right-radius` and `border-bottom-left-radius` properties. 
 
+### More Information:
 
+- MDN Documentation: <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius' target='_blank' rel='nofollow'>MDN</a>
+- Browser Support: <a href='http://caniuse.com/#search=border-radius' target='_blank' rel='nofollow'>caniuse</a>

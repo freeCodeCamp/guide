@@ -3,13 +3,36 @@ title: Higher Order Functions
 ---
 ## Higher Order Functions
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/higher-order-functions/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+A Higher Order Function is any function that returns a function when executed, takes a function as one or more of its arguments, or both. If you have used any of the `Array` methods like `map` or `filter`, or passed a callback function to jQuery's `$.get`, you have already worked with Higher Order Functions.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+When you use `Array.map`, you provide a function as its only argument, which it applies to every element contained in the array.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```javascript
+var arr = [ 1, 2, 3 ];
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+var arrDoubled = arr.map(function(num) {
+  return num * 2;
+});
 
+console.log(arrDoubled); // [ 2, 4, 6 ]
+```
 
+Higher order functions can also return a function. For example, you can make a function called `multiplyBy` that takes a number and returns a function that multiplies another number you provide by the first number provided. You can use this approach to create a `multiplyByTwo` function to pass to `Array.map`. This will give you the same result you saw above.
+
+```javascript
+function multiplyBy(num1) {
+  return function(num2) {
+    return num1 * num2;
+  }
+}
+
+var multiplyByTwo = multiplyBy(2);
+
+var arr = [ 1, 2, 3 ];
+
+var arrDoubled = arr.map(multiplyByTwo);
+
+console.log(arrDoubled); // [ 2, 4, 6 ]
+```
+
+See the guide on [Closures](https://guide.freecodecamp.org/javascript/closures) for more information on how `multiplyByTwo` keeps a reference to `num1` in the example above.

@@ -1,7 +1,7 @@
 ---
-title: Java Docs Data Types
+title: Data Types
 ---
-# Java Data-Types
+# Data Types
 
 Java is a strongly typed language. This means that, in Java, each data type has its own strict definition. There are no implicit data type conversions when any conflicts occur between the data types. Any change in data types should be explicitly declared by the programmer.
 
@@ -142,23 +142,23 @@ Apart from primitive data types there are reference variables created using cons
 
 Example :
 
-    class Box{
+```java
+class Box{
 
-    int length,breadth,height;
+    int length, breadth, height;
 
-    Box()
-    {
-         length=5;
-         breadth=3;
-         height=2;
+    public Box(){
+        length=5;
+        breadth=3;
+        height=2;
     }
-    }
+}
 
-    class demo{
+class demo{
 
-        public static void main(String args[])
-    {
-           Box b0x1 = new Box();                  //box1 is the reference variable  
-           char[] arr = new char[10];           //arr is the reference variable
+    public static void main(String args[]) {
+        Box box1 = new Box();                //box1 is the reference variable  
+        char[] arr = new char[10];           //arr is the reference variable
     }
-    }
+}
+```
