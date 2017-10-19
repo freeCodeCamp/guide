@@ -65,3 +65,5 @@ for (var i = 0; i < arguments.length; i++) {
 
 For more information on the optimization issues:  
 Optimization Killers: <a href='https://github.com/petkaantonov/bluebird/wiki/Optimization-killers#3-managing-arguments' target='_blank' rel='nofollow'>Managing Arguments</a>
+
+My changes.
