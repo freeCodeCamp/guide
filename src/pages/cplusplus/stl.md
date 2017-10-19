@@ -7,7 +7,7 @@ STL provides a range of containers to allow the storage of other objects. Now th
 
 Containers in STL are *templated*, i.e. they can be used with any data type/ object. Therefore it is possible to have a container of integers, floats, strings etc. It is even possible to have a container of objects of a user-defined class.
 
-### vector
+* ### std::vector
 
 The ```std::vector``` is a sequence container that supports random access of data like an array. However, vectors can dynamically resize themselves when more data needs to be inserted. Thus they allow very efficient data access and relatively efficient adding or removing of elements from the end.
 
