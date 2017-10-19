@@ -3,13 +3,14 @@ title: What Does JavaScript Void 0 Mean
 ---
 ## What Does JavaScript Void 0 Mean
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/tutorials/what-does-javascript-void-0-mean/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+```html
+<a href="javascipt:void(0)">
+  Link
+</a>
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+It's used when the developer wants to use anchor tag as a button or to perform a different action on it's click rather than redirection to another html page. Also, it won't modify the hash of the page on it's click.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+- [Comprehensive explanation](https://stackoverflow.com/questions/1291942/what-does-javascriptvoid0-mean)
