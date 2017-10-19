@@ -3,13 +3,13 @@ title: Tautologies
 ---
 ## Tautologies
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/logic/tautologies/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+A tautology is a formula which is "always true" --- that is, it is true for every assignment of truth values to its simple components. You can think of a tautology as a rule of logic.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The opposite of a tautology is a contradiction, a formula which is "always false". In other words, a contradiction is false for every assignment of truth values to its simple components.
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
+* https://en.wikipedia.org/wiki/Tautology_(logic)
 
