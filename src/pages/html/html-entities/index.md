@@ -3,7 +3,17 @@ title: HTML Entities
 ---
 ## HTML Entities
 
+<table>
+<tr>Character entity look like:</tr>
+  <ul>
+   <li>&entity_name;</li>
+   <li> OR </li>
+   <li>&entity_number;</li>
+   </ul>
+</table>
+
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/html-entities/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+
 
 <a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
 
