@@ -1,8 +1,8 @@
 ---
-title: Indeterminate paramters
+title: Indeterminate parameters
 ---
 
-# Indeterminate paramters
+# Indeterminate parameters
 
 Let's imagine we need to write a method where the number of parameters are variable. How can we do that? Well, C# (and other languages) has an easy way to do so; by using the `params` keyword on a method's parameter we can call that method with a variable number of parameters. 
 
@@ -18,7 +18,7 @@ public static void Main (string[] args) {
 
 public static void PrintParams(params int[] values)
 {
-	// Iterate through paramters
+	// Iterate through parameters
 	for (int i = 0; i < values.Length; i++)
 	{
 		Console.WriteLine("Parameter {0} is {1}", i, values[i]);
