@@ -56,7 +56,6 @@ Another filtering selector, `:contains(text)`, selects elements that have a cert
 ```
 `$("p:contains('World')").css("color", "yellow");`
 
-
 **Note:** In the jQuery selector, `World` is in single-quotes because it is already inside a pair of double-quotes. Always use single-quotes inside double-quotes to avoid unintentionally ending a string.
 
 These are just a few of the selectors available for use in jQuery. See the More Information section for a link to the complete list on the jQuery website.
