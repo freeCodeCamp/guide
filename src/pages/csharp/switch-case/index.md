@@ -23,7 +23,7 @@ switch(number)
         Console.WriteLine("The number is one!");
         break;
     default:
-	    Console.WriteLine("I don't know this number!");
+        Console.WriteLine("I don't know this number!");
         break;
 }
 ```
