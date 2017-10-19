@@ -39,7 +39,7 @@ Note that the `else` and `else if` sections are not required, while `if` is mand
 
 ## Example
 ```
-Console.WriteLine("Who are you? ");
+	Console.WriteLine("Who are you? ");
 	string name = Console.ReadLine();
 	
 	if (name == "John")
