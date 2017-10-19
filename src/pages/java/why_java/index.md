@@ -11,3 +11,4 @@ With over twenty years and thousands of man-years of development, Java is a rock
 
 #### 4. Freshness
 To me this is the big one. Looking at the TIOBE graph there is a significant upswing in Java popularity since October 2014, which is shortly after the launch of JDK 8. JDK 8 was a big change for developers using Java because of the introduction of Lambda expressions and the streams API. Suddenly Java developers could do things in a more functional way without having to learn a whole new language like Scala. These features also make it potentially much simpler to take advantage of multi-core/multi-processor machines without having to write lots of complex and potentially error prone multi-threaded code. With project Jigsaw scheduled for delivery in JDK 9 we’ll see modularity make big enterprise applications much easier to build, deploy and maintain. There are already plans for new language features, like value types, in JDK 10.
+
