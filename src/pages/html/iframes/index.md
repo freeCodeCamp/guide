@@ -2,6 +2,9 @@
 title: Iframes
 ---
 ## Iframes
+The `<iframe>` element is used to embed an HTML page within another HTML page.
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-A frame is frequently used to embed document inside the HTML. It works in case of put some widgets like weather or a document.
+MDN `<iframe>` info:
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe
+Embed YouTube videos with `<iframe>`
+http://www.simplehtmlguide.com/youtube.php
