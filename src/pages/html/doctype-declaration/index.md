@@ -3,13 +3,23 @@ title: Doctype Declaration
 ---
 ## Doctype Declaration
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/doctype-declaration/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `<!DOCTYPE>` declaration must be the very first thing in your HTML document, on line 1 before anything else.
+This declaration is not an HTML tag nor entity. Rather, this is telling the browser / compiler what version of HTML your code has been written in. One thing to note is that `<!DOCTYPE html>`,`<!DOCTYPE HTML>`, and `<!doctype html>` all behave the same way. This declaration is not case sensitive.
+In modern web applications, using HTML5 is the standard.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+#### Doctype in HTML5
+Doctype in HTML5 is declared by adding `<!DOCTYPE html>` as the first line in your file. In HTML5 there is only this one, singular way to declare the doctype.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+#### Doctype in HTML 4
+There are three different types of declaration in HTML 4.01; Strict, Transitional, and Frameset. In HTML 4.01, the <!DOCTYPE> declaration refers to a DTD, because HTML 4.01 was based on SGML. DTD states the rules for the markup language, so each browser knows how to render the content appropriately.
+##### HTML 4.01 Strict
+This DTD contains all HTML elements and attributes, but does NOT INCLUDE presentational or deprecated elements (like font). Framesets are not allowed.
+`<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">`
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+##### HTML 4.01 Transitional
+This DTD contains all HTML elements and attributes, INCLUDING presentational and deprecated elements (like font). Framesets are not allowed.
+`<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">`
 
-
+##### HTML 4.01 Frameset
+This DTD is equal to HTML 4.01 Transitional, but allows the use of frameset content.
+`<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">`
