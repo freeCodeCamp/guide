@@ -12,4 +12,14 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
+## What is Hadoop?
+Hadoop is an open source, Java-based programming framework that supports the processing and storage of extremely large data sets in a distributed computing environment. It is part of the Apache project sponsored by the Apache Software Foundation.
+<a href=https://github.com/apache/hadoop> Visit the Hadoop Git Hub page</a>
 
+## Core Features:
+ * MapReduce
+ * Hadoop Distributed File System (aka HDFS)
+ * Unique language (Pig) and data warehousing (Hive)
+
+## How is it used for Data Science?
+Hadoop is THE central technology of big data and data science. HDFS is the most common place that data scientists store large data sets, and MapReduce is how they execute most of their analysis. Hadoop is to Data Science as Michael Jordan was to the NBA- there are other good players and the roster of talent is always changing, but he will always be the best.
