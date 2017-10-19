@@ -108,6 +108,9 @@ Make a new program with `File` -> `New` -> `Project` -> `OS X`. Then, select "Ne
 
 To run the code, click `Product` -> `Run`.
 
+#### More practice
+* http://exercism.io/languages/c/exercises 
+
 # Before you go on...
 
 ## A review
