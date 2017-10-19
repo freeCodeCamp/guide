@@ -17,3 +17,11 @@ This method is one of the most common methods in the HTML DOM, and is used almos
 ```javascript
 document.getElementById("demo"); // Returns the element with id "demo"
 ```
+If you have more than one element with the same value of `id` (bad practice!), `getElementById` will return the first element found:
+```html
+<div id="demo">First</div>
+<div id="demo">Second</div>
+```
+```javascript
+document.getElementById("demo"); // Returns the element with id "demo" containing 'First'
+```
