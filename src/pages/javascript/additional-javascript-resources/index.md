@@ -7,6 +7,7 @@ title: JavaScript Tutorials and Other Resources
 *   <a href='http://speakingjs.com/es5/' target='_blank' rel='nofollow'>Speaking Javascript</a>
 *   <a href='http://exploringjs.com/es6/' target='_blank' rel='nofollow'>Exploring ES6</a>
 *   <a href='https://www.youtube.com/watch?v=Bv_5Zv5c-Ts' target='_blank' rel='nofollow'>Udemy - Javascript Understanding the Weird Parts (_first 3.5 hrs_)</a>
+*   <a href="https://www.youtube.com/playlist?list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84">Functional programming in JavaScript</a>
 
 ## References
 
