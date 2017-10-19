@@ -1,6 +1,8 @@
 ![](https://s3.amazonaws.com/freecodecamp/wide-social-banner.png)
 
 # freeCodeCamp Guide
+----------------------
+
 The freeCodeCamp community is building a massive, searchable "Guide." This reference tool will eventually include thousands of articles that cover all areas of development, design, and data science - all written to be easily understood by people new to coding.
 
 This repo is where we plan and maintain these Guide articles, which we then host on our community's wiki-like [Guide website](https://guide.freecodecamp.org).
@@ -26,7 +28,7 @@ If you can't find a stub about the topic you'd like to write about, you can open
 
 Before you begin writing, make sure to read the [article style guide](#article-style-guide) below.
 
-## How to contribute
+## How to contribute?
 You can create a PR with your draft article (or edits on an existing article) in two ways:
 
 1) The easiest method is to use the GitHub interface. Watch the video demonstration or follow the steps below it:
@@ -207,6 +209,7 @@ Also, there's a community of support from a whole team of contributors, whom you
 With your help, we can create a comprehensive reference tool that will help millions of people who are learning to code for years to come.
 
 ## License
+-----------
 
 Copyright (c) 2017 freeCodeCamp.
 
