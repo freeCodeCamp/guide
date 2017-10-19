@@ -31,4 +31,9 @@ ON Customers.CustomerID=Orders.CustomerID
 ORDER BY Customers.CustomerName
 ```
 
+# Changes
+### What is the result of the following command?
+``` DROP VIEW view_name
+```
 
+Here it'll be an error because we can't perform a DML operation on a view.
