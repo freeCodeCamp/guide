@@ -3,13 +3,13 @@ title: Font Weight and Style
 ---
 ## Font Weight and Style
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/typography/font-weight-and-style/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+font weight and font styling are css properties for text, headings etc. for making them diffrent than other text. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+### MDN Definitions:
 
 
+The **font-weight** CSS property specifies the weight (or boldness) of the font. The font weights available to you will depend on the font-family you are using. Some fonts are only available in normal and bold.
+
+The **font-style** CSS property specifies whether a font should be styled with a normal, italic, or oblique face from its font-family.
+
+Basically font-weight is like making font bold or normal like we do in normal text editors, or font style is like making them italic, strikethrough etc. in basic text editors like microsoft word.
