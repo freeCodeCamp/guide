@@ -1,15 +1,20 @@
 ---
 title: Head
 ---
+
 ## Head
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/head/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `<head>` element contains the metadata of the  HTML document and, with the exception of the `<title>` tag, is not displayed on the browser.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+This metadata specifies the document styles sheets, links, scripts, and other meta information.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+```html
+<html>
+    <head>
+        <title>This title tag is going to show up on the browser tab.</title>
+    </head>
+    <body>
+        <p>Inside the body is where all the content goes</p>
+    </body>
+</html>
+```
