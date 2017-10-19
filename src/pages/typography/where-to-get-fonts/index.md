@@ -12,4 +12,6 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+Public Domain, Freeware, Shareware, and Demo Fonts - [dafont](https://www.dafont.com)<br />
+Paid Fonts - [FontShop](https://www.fontshop.com)<br />
+Paid Fonts - [Typography.com](https://www.typography.com)<br />
