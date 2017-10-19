@@ -1,7 +1,3 @@
----
-title: Python: List Comprehensions
----
-
 # List Comprehensions
 Python supports a concept called "list comprehensions". It can be used to construct lists in a very natural, easy way, like a mathematician is used to do.
 
