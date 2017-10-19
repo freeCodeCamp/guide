@@ -1,5 +1,5 @@
 ---
-title: Delete a Git Branch Both Locally and Remotely
+title: Delete a Git Branch 
 ---
 // locally ((if you know what you are doing!)
     git branch -d localBranchName
@@ -8,11 +8,11 @@ title: Delete a Git Branch Both Locally and Remotely
     // on remote
     git push origin :remoteBranchName
 
-## When to Delete branches?
+## When to delete branches?
 
 Normally in a contribution flow `Branches` are a great way to work on different features, fixes, etc. while isolating them from the main codebase. So a repo may have a `master` branch, and separate branches to work on different features.
 
-Typically once the work is completed on a feature and it is recommended to delete the branch.
+Cnce the work is completed on a feature and it is recommended to delete the branch.
 
 ## The Delete workflow:
 

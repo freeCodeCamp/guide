@@ -1,7 +1,7 @@
 ---
-title: Data Structure Trie
+title: Tries
 ---
-## Introduction to Trie
+## Introduction to Tries
 
 The word trie is an inflix of the word "re**trie**val", because the trie can find a single word in a dictionary with only a prefix of the word.  
 Trie is an efficient data retrieval data structure, using trie, search complexities can be brought to an optimal limit, i.e. length of the string.  

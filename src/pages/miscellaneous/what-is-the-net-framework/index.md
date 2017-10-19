@@ -1,5 +1,5 @@
 ---
-title: What Is the Net Framework
+title: What Is the .NET Framework
 ---
 ![.NET Logo](//discourse-user-assets.s3.amazonaws.com/original/2X/7/7068b1111104197f2692a98aec00f388e09e9ab5.png)
 
