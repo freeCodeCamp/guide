@@ -1,13 +1,18 @@
----
-title: Backpropagation
----
-## Backpropagation
+# Backpropagation
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/machine-learning/backpropagation/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Suggested Resources:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+  - [Backpropagation Algorithm]
+  - [Backpropagation in 5 minutes]
+  - [How it works]
+  - [Helpful articles] (Must Read !)
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+
+
+   [Backpropagation Algorithm]: <https://www.youtube.com/watch?v=xfPz92B0rv8>
+   [Backpropagation in 5 minutes]: <https://www.youtube.com/watch?v=q555kfIFUCM>
+   [How it works]: <https://www.youtube.com/watch?v=GlcnxUlrtek>
+   [Helpful articles]: <https://medium.com/search?q=backpropagation>
+
+
