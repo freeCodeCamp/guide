@@ -25,6 +25,8 @@ const arr_sorted = arr_.sort(by('height')); // [ { name: 'nicholas', height: 66 
 
 The closure 'remembers' the environment in which it was created.
 
+Closures are useful for capturing new instances of private variables contained in the 'remembered' environment, and those variables can only be accessed through the returned function or methods.
+
 ### More Information:
 
 <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures' target='_blank' rel='nofollow'>MDN</a>
