@@ -1,2 +1,4 @@
-This article will explain logical operators when developing with the C# language.
+# Introduction
+
+Logical Operations are a part of Boolean Algebra.  In Boolean Algebra, the value of variables can only be true or false.  Unlike regular algebra, where the main operations are addition, subtraction, etc.. the main operations of Boolean Algebra are conjunction, disjunction and negation.
 
