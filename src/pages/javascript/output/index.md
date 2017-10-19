@@ -3,13 +3,36 @@ title: Output
 ---
 ## Output
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/output/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Javascript can be used to display output in the following scenarios-
+ 1. Write an alert box, using window.alert()
+ ```html
+ <!DOCTYPE html>
+<html>
+    <body>
+      <h1>Javascript tutorial</h1>
+      <script>
+      window.alert('Hello World');
+      </script>
+    </body>
+</html> 
+```
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+ 2. Write the HTML output using document.write()
+ ```html
+<html>
+    <body>
+        <h1>Javascript tutorial</h1>
+        <script>
+        document.write('Hello World');
+        </script>
+    </body>
+</html>
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+ 3. Write into the browser console, using console.log()
+ ```javascript
+console.log('Hello World');
+```
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
 
