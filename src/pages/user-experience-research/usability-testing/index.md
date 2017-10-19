@@ -12,4 +12,5 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+Google for Entrepreneurs and General Assembly have partnered up to create "Tools for Entrepreneurs," video classes for entrepreneurs to grow their skills and grow their businesses.
+https://youtu.be/r2t-sqP-J4U
