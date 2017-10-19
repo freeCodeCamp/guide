@@ -2,21 +2,21 @@
 title: Navigation
 ---
 
-##Vim Navigation
+## Vim Navigation
 
-###Basic movement
+### Basic movement
 
 There are many ways to move the cursor, but these basic movements will allow
 new users to get comfortable using normal mode for file navigation. 
 
-*In normal mode, the keys `h`, `j`, `k` , `l` correspond to moving the cursor
+* In normal mode, the keys `h`, `j`, `k` , `l` correspond to moving the cursor
 one character left, down, up, and right, respectively. 
 
-*To navigate one word at a time, the keys `w`, and `b` will move the cursor to
+* To navigate one word at a time, the keys `w`, and `b` will move the cursor to
 the beginning of the next word, or the beginning of the previous word. The `e`
 key will move the cursor to the end of the current word.
 
-*To move to the beginning of the current line, type `0`, and to move to the end
+* To move to the beginning of the current line, type `0`, and to move to the end
 of the current line, type `$`.
 
 *Finally, to move to the first line in the file, type `gg`, and to move to the
