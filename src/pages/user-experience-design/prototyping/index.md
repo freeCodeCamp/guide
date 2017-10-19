@@ -10,4 +10,7 @@ title: Prototyping
 
 
 
+## More Information
 
+UX Magazine | What A Prototype Is and Is Not
+https://uxmag.com/articles/what-a-prototype-is-and-is-not
