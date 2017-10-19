@@ -3,11 +3,11 @@ title: Area of a Square
 ---
 ## Area of a Square
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/area-of-a-square/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+A square is a quadrilateral with identical sides.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+To calculate the area the square you need to know the length of its sides and square it.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Five_Squared.svg/600px-Five_Squared.svg.png" width="300">
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
