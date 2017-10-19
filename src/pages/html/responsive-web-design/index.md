@@ -12,4 +12,4 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+You can use front end libraries or frameworks such as Bootstrap for building responsive web design. Get bootstrap [here](http://getbootstrap.com/).
