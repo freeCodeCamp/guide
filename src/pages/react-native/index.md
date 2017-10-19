@@ -3,7 +3,10 @@ title: React Native
 ---
 ## React Native
 
-React Native (RN) is a cross-platform tool for building applications that can run outside of the browser — most commonly iOS and Android apps.
+React was created by Jordan Walke, a software engineer at Facebook. He was influenced by Angular and XHP, an HTML component framework for PHP.
+It was first deployed on Facebook's newsfeed in 2011 and later on Instagram.com in 2012.[8] It was open-sourced at JSConf US in May 2013.
+
+React Native, which enables native Android, iOS, and UWP development with React, was announced at Facebook's React.js Conf in February 2015 and open-sourced in March 2015.
 
 ** React Native can be used to build applications on Windows devices, desktop OS’s, and Apple TV apps as well but this guide will only be covering it’s most common purpose — Android and iOS applications.
 
