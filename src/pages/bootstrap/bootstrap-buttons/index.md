@@ -52,3 +52,5 @@ _Note: Do not include the dot in the HTML Class Attribute, referring to the clas
 
 #### More Information:
 * [Bootstrap Get Started](/articles/bootstrap/bootstrap-get-started)
+
+My changes.
