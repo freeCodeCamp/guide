@@ -13,7 +13,7 @@ Want a quick <a href='https://tour.golang.org/welcome/1' target='_blank' rel='no
 
 Read input from stdin:
 
-func openStdinOrFile() io.Reader {
+	func openStdinOrFile() io.Reader {
     var err error
     r := os.Stdin
     if len(os.Args) > 1 {
@@ -25,7 +25,7 @@ func openStdinOrFile() io.Reader {
     return r
 }
 
-func main() {
+	func main() {
     r := openStdinOrFile()
     readSomething(r)
 }
