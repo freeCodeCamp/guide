@@ -3,12 +3,12 @@ title: Useful Commands
 ---
 ## Exiting Vi, Vim, Nvim, Gvim
 1. Press escape to get you into "normal" mode
-2. Type `:q`, press enter. If you receive an error try `:q!`
+2. For exit type `:q` but if you made any changes in file Vim gives error code `E37` in this case:
+- For save and exit, type `:wq`
+- For ignore changes and exit, type `:q!`
 
 **OR**
 - Type ZZ (save and quit)
-- Close your terminal
-- Shut down your computer
 
 ## Bare minimum functionality
 Most likely you'll find yourself in "normal" mode, it allows you to enter commands by pressing the colon `:` key.
