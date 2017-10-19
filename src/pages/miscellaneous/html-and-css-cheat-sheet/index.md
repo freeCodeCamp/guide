@@ -29,6 +29,18 @@ Try different values to see the how it affects the div and over in the html
 
 `<div id="divName" class="container-fluid">`
 
+## Vertical alignment (for one line of text)
+
+This can be of use in a CSS navigation menu. The key is to make the height of the menu and the line-height of the text the same.
+
+.nav li{
+     line-height:50px;
+     height:50px;
+     }
+     
+     More neat tricks <a href = "https://www.webdesignerdepot.com/2016/10/20-essential-css-tricks-every-designer-should-know/" 
+     target = '_blank'>can be found here</a>
+
 ## Center a horizontal list
 
 <a href='http://csswizardry.com/2011/01/create-a-centred-horizontal-navigation/' target='_blank' rel='nofollow'>http://csswizardry.com/2011/01/create-a-centred-horizontal-navigation/</a>
