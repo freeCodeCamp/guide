@@ -19,7 +19,7 @@ key will move the cursor to the end of the current word.
 * To move to the beginning of the current line, type `0`, and to move to the end
 of the current line, type `$`.
 
-*Finally, to move to the first line in the file, type `gg`, and to move to the
+* Finally, to move to the first line in the file, type `gg`, and to move to the
 last line in the file, type `G`.
 
 In summary: 
