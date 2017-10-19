@@ -28,3 +28,5 @@ Martin Fowler <a href='https://martinfowler.com/articles/is-tdd-dead/' target='_
  (A series of recorded conversations on the subject)
  
  Kent Beck's book <a href='https://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530' target='_blank' rel='nofollow'>Test Driven Development by Example</a>
+
+My changes  KentKentKent Beck's book <a href='https://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530' target='_blank' rel='nofollow'>Test Driven Development by Example</a>
