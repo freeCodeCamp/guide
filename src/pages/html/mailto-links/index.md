@@ -5,7 +5,7 @@ title: Mailto Links
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
-A mailto link is a special type of HTML link that allows a user to send an email to a specific email address. Clicking on a mailto link activiates the default email client on the user's computer.
+A mailto link is a special type of HTML link that allows a user to send an email to a specific email address. Clicking on a mailto link activates the default email client on the user's computer.
 
 In its most simplest form, a mailto link is as follows:
 
