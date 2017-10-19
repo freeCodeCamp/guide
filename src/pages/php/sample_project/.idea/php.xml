@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="C:\wamp64\bin" />
+      <path value="C:\Program Files\nodejs\node_modules\npm" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7" />
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings load_method="PHPUNIT_PHAR" configuration_file_path="$USER_HOME$/Downloads/php_xdebug-2.5.5-7.0-vc14-x86_64.dll" custom_loader_path="$USER_HOME$/Downloads/phpunit-6.4.3.phar" phpunit_phar_path="$USER_HOME$/Downloads/phpunit-6.4.3.phar" use_configuration_file="true" />
+    </phpunit_settings>
+  </component>
+</project>
