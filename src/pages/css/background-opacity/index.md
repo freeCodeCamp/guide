@@ -9,6 +9,18 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
+Background Opacity helps make whatever your background is (ie. a photo, a block of text, etc) be transparent.
+When placing opacity over an item, you choose the degree of transparency by selecting a value between 0.0 and 1.0:
+
+*Light Opacity*
+opacity: 0.2;
+
+*Medium Opacity*
+opacity: 0.5;
+
+*Heavy Opacity*
+opacity: 0.9;
+
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
