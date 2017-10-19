@@ -12,4 +12,4 @@ Here's a sample object:
      "enemies": ["Water", "Dogs"]
     };
 
-Objects are useful for storing data in a structured way, and can represents real world objects, like a cats.
+Objects are useful for storing data in a structured way, and can represents real world objects, like a cat.
