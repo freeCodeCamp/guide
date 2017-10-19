@@ -4,7 +4,7 @@ title: Closures
 
 # Closures
 
-A closure is the combination of a function and the lexical environment within which that function was declared.
+A closure is the combination of a function and the lexical environment within which that function was declared. Using closures, a function declared inside another function retains access to the outer function's variables even after the outer function is removed from the execution stack. 
 
 ```js
 function by(propName) {
@@ -24,6 +24,20 @@ const arr_sorted = arr_.sort(by('height')); // [ { name: 'nicholas', height: 66 
 ```
 
 The closure 'remembers' the environment in which it was created.
+
+```js
+function greet(name){
+	return function(language){
+    	if(language=='esp'){console.log('Holla '+name)}
+		else{console.log('Hello '+name)}
+	}
+}
+
+var languageFunc=greet('James');
+var greeting=languageFunc('eng');
+console.log(greeting); // prints Hello James
+```
+In the above example, languageFunc gets assigned a function that is returned from the greet function. greet function is removed from the execution stack but the variable(name) is still holding the memory space. When languageFunc is called, it searched for the variable 'name' in its scope but does not find it, so it chains back to its lexical environment i.e. greet function and finds it in memory.
 
 ### More Information:
 
