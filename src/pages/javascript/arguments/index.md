@@ -1,5 +1,5 @@
 ---
-title: JavaScript Arguments
+title: Arguments
 ---
 The arguments object is an **array-like object** _(meaning that it looks like an array but it's not)_ that stores all of the arguments that you passed to a function and is proprietary to that function in particular. If you were to pass 3 arguments to a function, say `storeNames()`, those 3 arguments would be stored inside an object called **arguments** and it would look like this when we pass the arguments `storeNames("Mulder", "Scully", "Alex Krycek")` to our function:
 
@@ -25,6 +25,9 @@ You can invoke arguments by using `arguments[n]` (where _n_ is the index of the 
 
 ```javascript
 var args = Array.prototype.slice.call(arguments);
+
+// or the es6 way:
+var args = Array.from(arguments)
 ```
 
 Since **slice()** has two (the parameter **end** is optional) parameters, you can grab a certain portion of the arguments by specifying (using the _slice.call()_ method renders these two parameters optional, not just _end_) the beginning and the ending of your portion; check out the following code:

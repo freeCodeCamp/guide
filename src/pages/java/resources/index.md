@@ -1,7 +1,7 @@
 ---
-title: Java Docs Resources
+title: Resources
 ---
-# Java Resources
+# Resources
 
 Java is trademarked and licensed by Oracle. Most of the following are un-official resources, unless hosted by Oracle.
 
@@ -31,6 +31,7 @@ Java is trademarked and licensed by Oracle. Most of the following are un-officia
 *   <a href='http://exercism.io/languages/java' target='_blank' rel='nofollow'>Excercism Java Challenges</a>
 *   <a href='https://projecteuler.net/' target='_blank' rel='nofollow'>Project Euler</a>
 *   <a href='http://practiceit.cs.washington.edu/' target='_blank' rel='nofollow'>Practice It! - Java Challenges</a>
+*   <a href='https://www.codewars.com/?language=java' target='_blank' rel='nofollow'>Codewars - Java Katas</a>
 
 ## Community
 

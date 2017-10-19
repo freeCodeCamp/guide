@@ -5,10 +5,36 @@ title: Git Pull
 
 `git pull` is a Git command used to update the local version of a repository from a remote. 
 
-`git pull` one of the four commands that prompts network interaction by Git. By default, `git pull` does two things.
+It is one of the four commands that prompts network interaction by Git. By default, `git pull` does two things.
+
 1. Updates the current local working branch (currently checked out branch)
 1. Updates the remote tracking branches for all other branches.
 
+`git pull` fetches (`git fetch`) the new commits and merges <a href='https://guide.freecodecamp.org/git/git-merge' target='_blank' rel='nofollow'>(`git merge`)</a> these into your local branch.
+
+This command's syntax is as follows:
+
+```shell
+# General format
+git pull OPTIONS REPOSITORY REFSPEC
+
+# Pull from specific branch
+git pull REMOTE-NAME BRANCH-NAME
+```
+
+in which:
+
+- **OPTIONS** are the command options, such as `--quiet` or `--verbose`. You can read more about the different options in the <a href='https://git-scm.com/docs/git-pull' target='_blank' rel='nofollow'>Git documentation</a>
+- **REPOSITORY** is the URL to your repo. Example:  https://github.com/freeCodeCamp/freeCodeCamp.git
+- **REFSPEC** specifies which refs to fetch and which local refs to update
+- **REMOTE-NAME** is the name of your remote repository. For example: *origin*.
+- **BRANCH-NAME** is the name of your branch. For example: *develop*.
+
+**Note**
+
+If you have uncommited changes, the merge part of the `git pull` command will fail and your local branch will be untouched. 
+
+Thus, you should *always commit your changes in a branch before pulling* new commits from a remote repository.
 
 **Table of Contents**
 
@@ -18,6 +44,7 @@ title: Git Pull
 - [`git pull` in IDEs](#git-pull-in-IDEs)
 
 ### Using git pull
+
 Use `git pull` to update a local repository from the corresponding remote repository. Ex: While working locally on `master`, execute `git pull` to update the local copy of `master` and update the other remote tracking branches. (More information on remote tracking branches in the next section.) 
 
 But, there are a few things to keep in mind for that example to be true: 
@@ -26,7 +53,6 @@ But, there are a few things to keep in mind for that example to be true:
   - If there are multiple remotes, `git pull` might not be enough information. You might need to enter `git pull origin` or `git pull upstream`. 
 - The branch you are currently checked out to has a corresponding remote tracking branch
   - Check this by executing `git status`. If there is no remote tracking branch, Git doesn't know where to pull information _from_. 
-  
   
 ### Distributed Version Control
 Git is a **Distributed Version Control System** (DVCS). With DVCS, developers can be working on the same file at the same time in separate environments. After _pushing_ code up to the shared remote repository, other developers can _pull_ changed code.
@@ -40,7 +66,8 @@ The four network commands are:
 - `git pull`
 - `git push`
 
-#### Branches in DVCS 
+#### Branches in DVCS
+
 When working with Git, it can feel like there are lots of copies of the same code floating all over the place. There are different versions of the same file on each branch. And, different copies of the same branches on every developer's computer and on the remote. To keep track of this, Git uses something called **remote tracking branches**. 
 
 If you execute `git branch --all` within a Git repository, remote tracking branches appear in red. These are read only copies of the code as it appears on the remote. ( When was the last network interaction that would have brought information locally? Remember when this information was last updated. The information in the remote tracking branches reflects the information from that interaction.) 
@@ -68,7 +95,6 @@ Common language in other IDES may not include the word `pull`. If you look out f
 - [GitHub Help Docs](https://help.github.com/articles/fetching-a-remote/#pull)
 
 ### Other Resources on git in guide.freecodecamp.org
-### Other Resources
 - [Git merge](../git-merge/index.md)
 - [Git checkout](../git-checkout/index.md)
 - [Git commit](../git-commit/index.md)

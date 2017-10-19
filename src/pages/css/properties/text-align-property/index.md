@@ -3,13 +3,17 @@ title: Text Align Property
 ---
 ## Text Align Property
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/properties/text-align-property/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The text-align property specifies the horizontal alignment of text in an element.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```css
+    .text-align {
+        /* List of keyword values of text-align property*/
+        text-align: left|right|center|justify|initial|inherit;
+    }
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
+Docs: <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/text-align' target='_blank' rel='nofollow'>MDN</a>
 
+Browser Support: It's categorised under the 'well supported sub-set', so need not worry for browser support
