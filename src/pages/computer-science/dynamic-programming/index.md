@@ -3,13 +3,29 @@ title: Dynamic Programming
 ---
 ## Dynamic Programming
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/computer-science/dynamic-programming/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+### What is Dynamic Programming?
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Dynamic programming is like the Divide-and-conquer method, solves problem by combining the solution to subproblems.In contrast, a dynamic
+programming applies when the subproblems subsubproblems.A dynamic-programming algorithms solves each subsubproblems just once and then
+saves its answer in a table, thereby avoiding the work of recomputing the answer every time it solves each subsubproblems.
+We typically apply dynamic programming to the **Optimization Problems**
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### Step to devloping Dynamic Programming Algorithms
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+* Characterize the structure of an optimal solution
+* Recursively define the value of an optimal solution
+* Compute the value of an optiaml solution typically in bottom-up approach
+* Construct an optimal solution from computed information
 
+### Problems that can be solved in Dynamic Programming 
+
+* Matrix Chain Multiplication
+* Longest Common Subsequence
+* 0-1 Knapsack
+* Subset Sum
+* All pair Shortest Path 
+* Rod Cutting
+
+### Relavant videos on freeCodeCamp YouTube channel
+* <a href='https://www.youtube.com/watch?v=mmjDZGSr7EA&list=PLqM7alHXFySGbXhWx7sBJEwY2DnhDjmxm'>Dynamic Programming - GeeksforGeeks</a>
 
