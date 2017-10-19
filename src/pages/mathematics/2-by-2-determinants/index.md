@@ -3,13 +3,5 @@ title: 2 by 2 Determinants
 ---
 ## 2 by 2 Determinants
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/2-by-2-determinants/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
+To find the determinant of a 2 by 2 matrix, you would cross-multiply each cell with its diagonal and subtract the second product from the first product. <br />For instance, if you had this matrix *A* <br />![A 2 by 2 vector](https://github.com/ShawnToubeau/Images/blob/master/2%20by%202%20vector.PNG) <br /> The determinant would be det(*A*)=(a11*a22)-(a12*a21)
 
