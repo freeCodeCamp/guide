@@ -8,3 +8,24 @@ Go is a programming language created at Google in 2007 by Robert Griesemer, Rob 
 For more information head to <a href='https://golang.org/' target='_blank' rel='nofollow'>Go's Homepage</a>.
 
 Want a quick <a href='https://tour.golang.org/welcome/1' target='_blank' rel='nofollow'>Tour of Go?</a>
+
+### Examples
+
+Read input from stdin:
+
+func openStdinOrFile() io.Reader {
+    var err error
+    r := os.Stdin
+    if len(os.Args) > 1 {
+        r, err = os.Open(os.Args[1])
+        if err != nil {
+            panic(err)
+        }
+    }
+    return r
+}
+
+func main() {
+    r := openStdinOrFile()
+    readSomething(r)
+}
