@@ -23,12 +23,11 @@ The following function returns the square of its argument, **x**, where **x** is
 The following function returns the product of its arguments, **arg1** and **arg2**.
 
 ```js
-    function myfunction(arg1, arg2){
-       var r;
-       r = arg1 * arg2;
-       return(r);
+    function multiply(x, y){
+       return x * y;
     }
 ```
+
 
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/C7VU/0' target='_blank' rel='nofollow'>Run Code</a>
 
