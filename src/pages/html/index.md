@@ -16,3 +16,36 @@ HTML5 is the latest version, or specification, of HTML. The World Wide Web Conso
 - [HTML Elements](#)
 - [Semantic HTML](#)
 - [HTML Attributes](#)
+<h2>HTML Versions</h2>
+<p>Since the early days of the web, there have been many versions of HTML:</p>
+<table class="w3-table-all notranslate">
+  <tr>
+    <th>Version</th>
+    <th>Year</th>
+  </tr>
+  <tr>
+    <td>HTML</td>
+    <td>1991</td>
+  </tr>
+  <tr>
+    <td>HTML 2.0</td>
+    <td>1995</td>
+  </tr>
+  <tr>
+    <td>HTML 3.2</td>
+    <td>1997</td>
+  </tr>
+  <tr>
+    <td>HTML 4.01</td>
+    <td>1999</td>
+  </tr>
+  <tr>
+    <td>XHTML</td>
+    <td>2000</td>
+  </tr>
+  <tr>
+    <td>HTML5</td>
+    <td>2014</td>
+  </tr>
+</table>
+
