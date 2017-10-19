@@ -8,11 +8,11 @@ An Array is used to store a collection of data of similar datatype. Arrays alway
 **Syntax:**
 
 ```java
-dataType[] name_of_array;   // preferred way.
+dataType[] arrayName;   // preferred way.
 ```
 or
 ```java
-dataType name_of_array[];  //  works but not preferred way
+dataType arrayName[];  //  works but not preferred way
 ```
 
 ## Code snippets of above syntax:
@@ -30,7 +30,7 @@ Note: The style `double list[]` is not preferred as it comes from the C/C++ lang
 ## Creating Arrays:
 
 ```java
-dataType[] name_of_array = new dataType[arraySize];
+dataType[] arrayName = new dataType[arraySize];
 ```
 
 ## Code snippets of the above syntax:
@@ -42,7 +42,7 @@ double[] List = new double[10];
 ## Another way to create an Array:
 
 ```java
-dataType[] name_of_array = {value0, value1, ..., valuek};
+dataType[] arrayName = {value0, value1, ..., valuek};
 ```
 
 ## Code snippets of above syntax:
@@ -50,6 +50,33 @@ dataType[] name_of_array = {value0, value1, ..., valuek};
 ```java
 double[] list = {1, 2, 3, 4};
 ```
+
+## Accessing Arrays:
+```java
+arrayName[index]; //gives you the value at the specified index
+```
+
+## Code snippets of above syntax:
+```java
+System.out.println(list[1]);
+```
+Output:
+```
+2
+```
+
+## Modifying Arrays:
+```java
+arrayName[index] = value; 
+```
+Note: You can not change the size or type of an array after initialising it.
+
+
+## Code snippets of above syntax:
+```java
+list[1] = 3; //now, if you access the Array like above, it will output 3 rather than 2
+```
+
 
 _Example of code:_
 
