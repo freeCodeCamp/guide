@@ -8,3 +8,6 @@ Go is a programming language created at Google in 2007 by Robert Griesemer, Rob 
 For more information head to <a href='https://golang.org/' target='_blank' rel='nofollow'>Go's Homepage</a>.
 
 Want a quick <a href='https://tour.golang.org/welcome/1' target='_blank' rel='nofollow'>Tour of Go?</a>
+
+### Practice websites
+* http://exercism.io/languages/go/exercises
