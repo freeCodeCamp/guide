@@ -20,6 +20,7 @@ Find javascript libraries at <a href='http://jster.net' target='_blank' rel='nof
 
 *   <a href='https://repl.it/languages/Javascript' target='_blank' rel='nofollow'>REPL</a> (<a href='https://repl.it/languages/iojs/' target='_blank' rel='nofollow'>_node_</a>)
 *   <a href='http://jsbin.com' target='_blank' rel='nofollow'>JSBin</a>
+*   <a href='http://jsfiddle.net' target='_blank' rel='nofollow'>JSFiddle</a>
 *   <a href='http://codepen.io' target='_blank' rel='nofollow'>CodePen</a>
 *   <a href='http://coderpad.io' target='_blank' rel='nofollow'>CoderPad (_pair programming_)</a>
 *   <a href='http://c9.io' target='_blank' rel='nofollow'>C9 (_IDE_, _pair programming_)</a>
