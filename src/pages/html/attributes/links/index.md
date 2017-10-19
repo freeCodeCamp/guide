@@ -11,5 +11,15 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
+<h2>HTML Links - The target Attribute</h2>
+<p>The <strong>target</strong> attribute specifies where to open the linked document.</p>
+<p>The target attribute can have one of the following values:</p>
+<ul>
+  <li>_blank - Opens the linked document in a new window or tab</li>
+  <li>_self - Opens the linked document in the same window/tab as it was clicked (this is default)</li>
+  <li>_parent - Opens the linked document in the parent frame</li>
+  <li>_top - Opens the linked document in the full body of the window</li>
+  <li>framename - Opens the linked document in a named frame</li>
+</ul>
 
 
