@@ -24,7 +24,9 @@ The benefit of rebasing over merging are:-
 
 #### More Information:
 [Git documentation](https://git-scm.com/docs/git-rebase)
+
 [Git Rebase vs Git Merge](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
+
 [Git merge](../git-merge/index.md)
 
 
