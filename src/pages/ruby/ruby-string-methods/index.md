@@ -117,3 +117,17 @@ _Note that the first letter is only capitalized if it is at the beginning of the
     ```ruby
     "15".to_i #=> 15 # integer
     ```
+
+### Index:
+
+*   The `index` method returns the index position of the first occurrance of the substring or regular expression pattern match in a string. 
+*   If there is no match found, `nil` is returned.
+*   A second optional parameter indicates which index position in the string to begin searching for a match.
+
+    ```ruby
+    "information".index('o') #=> 3
+    "information".index('mat') #=> 5
+    "information".index(/[abc]/) #=> 6
+    "information".index('o', 5) #=> 9
+    "information".index('z') #=> nil
+    ```
