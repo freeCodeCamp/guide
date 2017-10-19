@@ -12,4 +12,5 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+Online Marketing Institute | 7 Awesome Tools for Landing Page Optimization
+https://www.onlinemarketinginstitute.org/blog/2013/09/7-awesome-landing-page-optimization-tools/
