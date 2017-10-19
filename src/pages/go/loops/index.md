@@ -1,3 +1,7 @@
+---
+title: Go
+---
+
 # For loop in Go
 Go has only `for` loop. The basic `for` loop has three components separated by `;` -
 
