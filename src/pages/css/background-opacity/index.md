@@ -41,4 +41,5 @@ OR
 ```
 #### More Information:
 For more information visit [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/opacity)
+Browser support: <a href= 'https://caniuse.com/#search=opacity' target= '_blank' rel= 'nofollow'>caniuse</a>
 
