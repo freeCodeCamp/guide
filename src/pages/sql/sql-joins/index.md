@@ -17,6 +17,12 @@ etc...
 ```
 The JOIN statement could be just JOIN or INNER JOIN, which are the same, or LEFT JOIN (described below). 
 Here are descriptions and examples of each.  Compare to the complete tables below.
+Here are the different types of the JOINs in SQL:
+
+(INNER) JOIN: Returns records that have matching values in both tables
+LEFT (OUTER) JOIN: Return all records from the left table, and the matched records from the right table
+RIGHT (OUTER) JOIN: Return all records from the right table, and the matched records from the left table
+FULL (OUTER) JOIN: Return all records when there is a match in either left or right table
 
 ### Join
 The student table will be in the FROM clause so it will be a starting or LEFT table.
@@ -130,4 +136,6 @@ As with all of these SQL things there is MUCH MORE to them than what's in this i
 I hope this at least gives you enough to get started.  
 
 Please see the manual for your database manager and have fun trying different options yourself.
+
+
 
