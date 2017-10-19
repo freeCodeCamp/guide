@@ -1,7 +1,7 @@
 ---
 title: jQuery Effects Show Method
 ---
-## jQuery Effects Show Method
+## jQuery Show Method
 
 In its simplest form, **.show()** displays the matched element immediately, with no animation. For example:
 ```javascript
@@ -27,6 +27,14 @@ $("#title").show( "slow", function() {
 });
   ```
 * More options exist, please refer to the official website for further details. 
+
+### .toggle() method
+
+To show / hide elements you can use ```toggle()``` method. If element is hidden ```toggle()``` will show it and vice versa.
+Usage:
+```javascript
+$(".myclass").toggle()
+```   
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
