@@ -5,7 +5,7 @@ title: Id Selector
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
-In CSS, the id selector styles a HTML element with the specified id. In CSS, the id selector is preceded by a hash character (“#”). 
+In CSS, the id selector styles a HTML element with the specified id. The id selector is preceded by a hash character (“#”). 
 
 ```css 
 #unique-element {
