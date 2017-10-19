@@ -1,3 +1,7 @@
+---
+title: Short-Circuit Evaluation
+---
+
 # Short-Circuit Evaluation
 
 The Short-Circuit evaluation consist in check or execute the second argument only if the first argument is not enough to determine the value of the expression. 
