@@ -72,6 +72,11 @@ True
 
 However, performing the `is` operator will now produce a `False` output. This is because myListA and myListC are two different variables, despite containing the same data. Even though they look the same, they are <b>different</b>.
 
+```python
+>>> myListA is myListC
+False
+```
+
 To sum up:
 * An `is` expression outputs `True` if both variables are pointing to the same thing
 * An `==` expression outputs `True` if both variables contain the same data
