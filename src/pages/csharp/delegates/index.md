@@ -26,30 +26,38 @@ strict type checks for the arguments and return value of the function.
 
 You declare a delegate similar to how you declare a function, but add the `delegate` keyword. For example:
 
+```csharp
     public delegate string StringOperation ( string s1, string s2 );
+```
 
 Any method that takes two `string` arguments and returns `string` can be assigned to a variable of this delegate type.
 
 After you have created the delegate type, you can use it just like any other type. You can declare a local variable, 
 other class members or pass them as parameters to other methods.
 
+```csharp
     StringOperation a;
-    
+```    
+
 Before invoking the delegate, you will need to assign a value to it. Let's assume we have a concatenation method 
 that has the following implementation:
 
+```csharp
     private string Concatenate ( string one, string two ) {
         return one + " " + two;
     }
-    
+```    
+
 You can then assign this to the delegate variable and invoke it like a function.
 
+```csharp
     StringOperation op = Concatenate;
     
     string result = op("Hello", "World");
     
     Console.WriteLine ( result ); // print "Hello World" to the console
-    
+```
+
 ## More information
 
 Read more about delegates [here](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/delegates/).
