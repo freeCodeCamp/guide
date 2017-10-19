@@ -12,4 +12,6 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+#### Web Safe Fonts - https://websitesetup.org/web-safe-fonts-html-css/
+#### Font Metrics - http://iamvdo.me/en/blog/css-font-metrics-line-height-and-vertical-align
+#### A list of posts dealing with web fonts, web font loading, or typography - https://www.zachleat.com/web/fonts/
