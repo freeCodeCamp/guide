@@ -65,7 +65,7 @@ Now let's look at the meat of the program:
 
 Notice the \n found within the quotes- this tells the `printf` function to print a newline. A newline is what gets printed when you hit enter on your keyboard. Without explicitly telling C to print a newline, everything will be printed on the same line.
 
-Finally, the printf() statement is concluded with a semicolon (`;`). This shows that this line of code is over. Without it, the compiler doesn't know where one line ends and another begins, so it's important to include.
+Finally, the printf() statement is concluded with a semicolon (`;`). This shows that this line of code is over. Without it, the compiler doesn't know where one line ends and another begins, so it's important to include. One common mistake most programmers make (both beginners and professionals alike) is to forget the semicolon, which is why it is so important to always debug your code!
 
 The program ends with a return statement:
 ```C
