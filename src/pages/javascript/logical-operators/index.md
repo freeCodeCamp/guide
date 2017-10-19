@@ -3,13 +3,37 @@ title: Logical Operators
 ---
 ## Logical Operators
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/logical-operators/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+<strong>Logical Operators</strong>
+<br>
+Commonly used in IF or WHILE statements. <br>
+<p><strong>Operator:</strong> && (if condition1 AND condition 2 are true, then do this)</p>
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+```
+if(gender === "Female" && age > 50) {                               //If you are a Female AND over 50 years old then..
+  console.log("You are invited to the Womens over 50's golf day");  //Log the following message
+ }
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+<strong>Operator:</strong> || (if condition1 OR condition 2 are true, then do this) 
+```
+if(nationality === "American" || nationality === "Canadian) {       //If you are a American OR Canadian..
+  console.log("You are invited to the North American Golf day");    //Log the following message
+ }
+```
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+<strong>Operator:</strong> ! (if not true a.k.a if false, commonly used to check the status of a switch/boolean) 
+```
+var lampLight = false;
+
+if(!lampLight){                           //If lampLight variable is set to false..
+  lampLight = true;                       //Set it to true
+  console.log("You turned on the lamp");  //Log the message that the light was turned on
+ } else {                                 //Otherwise, if the lampLight variable wasn't false..
+ lampLight = false;                       //Set it to false
+ console.log("You turned off the lamp");  //Log message that the light was turned off
+ }
+```
+
+
 
 
