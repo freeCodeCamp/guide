@@ -11,5 +11,5 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
+<p>Guide to paper prototyping<a href="https://blog.marvelapp.com/stop-talking-start-sketching-guide-paper-prototyping/" target="blank">here</a></p>
 
