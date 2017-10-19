@@ -3,13 +3,11 @@ title: Bootstrap Forms
 ---
 ## Bootstrap Forms
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/bootstrap/bootstrap-forms/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Create a bootstrap form by wrapping labels and form controls in ```<div class = 'form-group' ></div>```
+Add the class ```.form-control```` to all textual ```<input>```, ```<textarea>``` and ```<select>``` elements. By default, bootstrap forms have a width of 100%°
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
+Bootstrap has three layouts for forms. Vertical, Horizontal and Inline. 
+Vertical forms are the default form setting. 
+For horizontal and in-line forms the classes ```.form-horizontal``` and ```.form-inline``` have to be added to the form element respectively. 
 
