@@ -31,4 +31,6 @@ ON Customers.CustomerID=Orders.CustomerID
 ORDER BY Customers.CustomerName
 ```
 
-
+# Changes
+### Can we perform a rollback after using ALTER command?
+No, because ALTER is a DDL command and Oracle server performs an automatic COMMIT when the DDL statements are executed.
