@@ -2,14 +2,32 @@
 title: Bootstrap Collapse
 ---
 ## Bootstrap Collapse
+The Bootstrap collapse plugin allows you to toggle content on your pages.
+Collapsibles are useful when you want to hide and show large amount of content.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/bootstrap/bootstrap-collapse/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+## Example
+```html
+<p>
+  <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+    Link with href
+  </a>
+  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+    Button with data-target
+  </button>
+</p>
+<div class="collapse" id="collapseExample">
+  <div class="card card-block">
+    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+  </div>
+</div>
+```
+## Example explained
+*.collapse* hides content
+*.collapsing* is applied during transitions
+*.collapse.show* shows content
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+[The official Bootstrap 4 guide on Collapse](https://v4-alpha.getbootstrap.com/components/collapse/)
 
 
