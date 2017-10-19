@@ -8,7 +8,7 @@ The `<div>` tag defines a section in your HTML document. The `<div>` element is 
 ### Example
 Here is an example of how to display a section in same color:
 
-```
+```html
 <div style="color:#ff0000">
   <h3>my heading</h3>
   <p>my paragraph</p>
