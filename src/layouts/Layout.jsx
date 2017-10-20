@@ -2,15 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import SearchBar from './components/search/SearchBar.jsx';
 import { Grid, Row, Col, Image, Navbar } from 'react-bootstrap';
-
 import Link from 'gatsby-link';
 
 import SideNav from './components/nav/SideNav.jsx';
 
-import {
-  navBar,
-  link
-} from './Layout.module.css';
+import '../css/main.css';
 
 const propTypes = {
       'location.pathname': PropTypes.string,
@@ -35,26 +31,22 @@ class Layout extends React.PureComponent {
       <div>
         <Grid fluid={ true }>
           <Row>
-            <Navbar className={ navBar }>
+            <Navbar className='navBar'>
               <Col md={ 3 } xs={ 12 }>
-                <Navbar.Header>
-                  <Navbar.Brand>
-                    <Link
-                      className={ link }
-                      to={ '/articles' }
-                      >
-                      <Image
-                        alt='freeCodeCamp logo'
-                        responsive={ true }
-                        src={
-                          'https://raw.githubusercontent.com/' +
-                          'freeCodeCamp/assets/master/assets/' +
-                          'logos/FCC-logo-white.png'
-                          }
-                      />
-                    </Link>
-                  </Navbar.Brand>
-                </Navbar.Header>
+                <Link
+                  className='link'
+                  to={ '/articles' }
+                  >
+                  <Image
+                    alt='freeCodeCamp logo'
+                    responsive={ true }
+                    src={
+                      'https://raw.githubusercontent.com/' +
+                      'freeCodeCamp/assets/master/assets/' +
+                      'logos/FCC-logo-white.png'
+                      }
+                  />
+                </Link>
               </Col>
               <Col md={ 9 } xs={ 12 }>
                 <SearchBar />
@@ -67,7 +59,7 @@ class Layout extends React.PureComponent {
             <Col md={ 4 }>
               <SideNav />
             </Col>
-            <Col md={ 8 }>
+            <Col className='content' md={ 8 }>
               { this.props.children() }
             </Col>
           </Row>

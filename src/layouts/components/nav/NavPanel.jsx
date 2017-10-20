@@ -6,16 +6,6 @@ import { bindActionCreators } from 'redux';
 
 import { toggleExpandedState } from './redux';
 
-import {
-  body,
-  caret,
-  expanded,
-  navItemLi,
-  navPanelUl,
-  panel,
-  title as titleStyle
-} from '../../../css/sideNav.module.css';
-
 const propTypes = {
   categoryChildren: PropTypes.arrayOf(PropTypes.string),
   children: PropTypes.any,
@@ -47,7 +37,7 @@ function mapDispatchToProps(dispatch) {
 
 function NoArticles() {
   return (
-    <li className={ navItemLi }>
+    <li role='presentation'>
       <span>
         No articles yet.
         <br />
@@ -85,14 +75,14 @@ class NavPanel extends PureComponent {
 
   renderHeader(isExpanded, title) {
     return (
-      <div className={ titleStyle } onClick={ this.handleHeaderClick }>
+      <div className='title' onClick={ this.handleHeaderClick }>
         <span
           className={
             'caret ' +
             (
               isExpanded ?
-              `${caret} ${expanded}` :
-              caret
+              'caretStyle expanded' :
+              'caretStyle'
             )
           }
         />
@@ -106,8 +96,8 @@ class NavPanel extends PureComponent {
   renderBody() {
     const { categoryChildren, children, isExpanded } = this.props;
     return (
-        <div className={ isExpanded ? body : '' }>
-          <ul className={ navPanelUl }>
+        <div className={ isExpanded ? 'body' : '' }>
+          <ul className='navPanelUl'>
             { categoryChildren.length ? children : <NoArticles /> }
           </ul>
         </div>
@@ -118,7 +108,7 @@ class NavPanel extends PureComponent {
     const { isExpanded, title } = this.props;
     return (
       <Panel
-        bsClass={ `${panel} panel` }
+        bsClass='panelStyle panel'
         collapsible={ true }
         expanded={ isExpanded }
         header={ this.renderHeader(isExpanded, title) }
