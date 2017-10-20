@@ -3,13 +3,19 @@ title: Photoshop
 ---
 ## Photoshop
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/designer-tools/photoshop/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Photoshop is a graphic editing tool produced and distributed by Adobe Systems. Photoshop is one of Adobe's most popular tools, and as such it is well-supported and updated regularly. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Advantages
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+* Supports a mide variety of graphic file formats
+* Plugins offer support for advanced functionaity 
+* Classes, tutorials, and tools are widely available and often free
+* Works easily with other Adobe Systems tools
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+### Disadvantages
+
+* Photoshop is often prohibitively expensive
+* The primary function of Photoshop is photo editing, and its use for layout and design is secondary
+
 
 
