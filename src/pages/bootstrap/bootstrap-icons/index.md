@@ -2,19 +2,19 @@
 title: Bootstrap Icons
 ---
 ## Bootstrap Icons
- ### Getting Started
-Make sure you have Bootstrap installed. An easy way to do this is to link it to the Bootstrap CDN. For more info: https://guide.freecodecamp.org/bootstrap/bootstrap-get-started
+In v.4 Bootstrap removed the icon set from the framework to cut the size of Bootstrap down. Most people now use fontawesome for Icons
+ ## FontAwesome Icons
+ ### Getting Started 
+ Follow that steps outlined in FontAwesomes [Getting started](http://fontawesome.io/get-started/) page.
+ 
  ### Usage
-  Icons are a good way to give visual refrence to links or messages eg. (error symbol, menu icon, visual links, etc.)
-  To use create a span element w/ the class set to the icon you want eg. 
-  ```html
-<span class="glyphicon" aria-hidden="true"></span>
+ Icons are a good way to give visual refrence to links or messages eg. (error symbol, menu icon, visual links, etc.) To use create a i element w/ the class set to the icon you want eg.
+ ```
+ <i class="fa fa-bars" aria-hidden="true"></i>
 ```
-This will display 
-![icon](www.github.com/blakeathomas/open-source-mat/blob/master/Untitled%20picture.png?raw=true)
-
+This will display [Menu Pic](https://github.com/blakeathomas/open-source-mat/blob/master/pic-2.png?raw=true)
 
 #### More Information:
-Bootstrap Documentation: https://getbootstrap.com/docs/3.3/components/#glyphicons
+Bootstrap Documentation: http://fontawesome.io/icons/
 
 
