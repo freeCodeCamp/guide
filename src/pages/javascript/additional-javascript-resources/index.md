@@ -36,6 +36,7 @@ Find javascript libraries at <a href='http://jster.net' target='_blank' rel='nof
 *   <a href='https://hackerrank.com' target='_blank' rel='nofollow'>Hacker Rank</a>
 *   <a href='http://codingame.com' target='_blank' rel='nofollow'>Coding Game</a>
 *   <a href='https://codefights.com/home' target='_blank' rel='nofollow'>CodeFights</a>
+*   <a href='http://es6katas.org'  target='_blank' rel='nofollow'>ES6 Katas</a>
 
 ## Exercises
 
