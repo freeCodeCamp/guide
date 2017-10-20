@@ -12,4 +12,7 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
+Before getting started with Networking in C, we should have a basic understanding of the networking terminology so as to get a better picture. Hence <a href="https://www.digitalocean.com/community/tutorials/an-introduction-to-networking-terminology-interfaces-and-protocols" target='_blank' rel='nofollow'>this article  will give you a very good understanding of basic network concepts. Link Provided by Digital Ocean</a>
+
+
 
