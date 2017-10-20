@@ -3,11 +3,9 @@ title: Area of a Circle
 ---
 ## Area of a Circle
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/area-of-a-circle/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The area of a circle is the product of Pi and the square of the circle's radius.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+<img src="http://etc.usf.edu/clipart/42900/42943/circle-49_42943_sm.gif">
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
