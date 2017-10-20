@@ -1,7 +1,7 @@
 ---
-title: What Is an Sdk
+title: What Is an SDK
 ---
-## What Is an Sdk
+## What Is an SDK
 
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/computer-science/what-is-an-sdk/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
@@ -11,5 +11,5 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
+* [Wikipedia](https://en.wikipedia.org/wiki/Software_development_kit)
 
