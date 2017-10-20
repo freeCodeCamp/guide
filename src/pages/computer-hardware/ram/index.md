@@ -7,7 +7,7 @@ RAM stands for random-access memory, alternatively referred to as **main memory*
 Unlike hard drives RAM is a volatile memory and requires power to keep the data accessible. If the computer is turned off, all data contained in RAM is lost. New users often confuse RAM with disk drive space. See <a href='https://www.computerhope.com/jargon/m/memory.htm' target='_blank' rel='nofollow'>memory</a> definition for a comparison between memory and storage.<br/>
 
 #### Types of RAM:
-Over the evolution of the computer there have been different variations of RAM. Some of the more common examples are DIMM, RIMM, SIMM, SO-DIMM, and SOO-RIMM. Below is an example image of a 512 MB DIMM computer memory module, a typical piece of RAM found in desktop computers. This memory module would be installed into one of the memory slots on a motherboard.
+Over the evolution of the computer there have been different variations of RAM. Some of the more common examples are DIMM, RIMM, SIMM, SO-DIMM, and SOO-RIMM. Below is an example image of a 512 MB DIMM computer memory module, a typical piece of RAM found in desktop computers. This memory module would be installed into one of the memory slots on a motherboard.  Most motherboards only accept 1 type of RAM chip. But there are some that can take 2.  Although most of the time you have to choose one type or another.  It usually doesn't work when you mix and match different RAM modules. 
 
 ![RAM](https://images-na.ssl-images-amazon.com/images/I/41kVnWQebtL._SL256_.jpg)
 
