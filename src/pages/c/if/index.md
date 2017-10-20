@@ -55,9 +55,10 @@ int main () {
 
    return 0;
 }
+```
 
-	/* Run :
-        -> a is not less than 20!
-        -> Value of a is : 100
-	*/
+## Outuput
+```
+-> a is not less than 20!
+-> Value of a is : 100
 ```
