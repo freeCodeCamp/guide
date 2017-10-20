@@ -3,13 +3,15 @@ title: Open Data
 ---
 ## Open Data
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/working-in-tech/open-data/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Open data is data that is freely available to anyone to use and republish without the restriction of copyright, patent, or other mechanisms of control. There is significant overlap between the open data movement and the [open-source software movement](https://guide.freecodecamp.org/working-in-tech/open-source). 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Open data can be used to empower and educate, build tools, and serve small businesses. Some types of data, such as data on genomes and environmental data, arguably belong to the whole of humanity and therefore should be kept open. Proponents of the open data movement argue that scientific and cultural advancement are fastest when data is shared equally. 
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+* [Open Data Institute](https://theodi.org/)
+* [Data Republic](https://www.datarepublic.com/)
+* [Linked Science](http://linkedscience.org/)
 
 
