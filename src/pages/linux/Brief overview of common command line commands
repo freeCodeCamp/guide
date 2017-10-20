@@ -1,0 +1,14 @@
+You can view the man pages for any of these by running 'man <command>' in the command line. This is just an overview
+
+cd - change directory
+ls - lists files
+cat - displays contents of a file on screen
+grep - looks for lines matching what you specifiy in files you specify
+rm - removes a file
+mv - moves a file
+cp - copies a file
+pwd - prints your working directory (where you are at)
+touch - creates a file
+mkdir - makes a directory
+clear - clears the command line of previous info
+history - shows a history of the commands you've run
