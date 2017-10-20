@@ -13,3 +13,4 @@ Random Forests belong in the category of **ensemble learning** algorithms. This 
 #### More Information:
 - <a href='https://www.wikiwand.com/en/Random_forest' target='_blank' rel='nofollow'>Random Forests (Wikipedia)</a>
 - <a href='https://www.analyticsvidhya.com/blog/2014/06/introduction-random-forest-simplified/' target='_blank' rel='nofollow'>Introduction to Random Forests - Simplified</a>
+- <a href='https://github.com/dmlc/xgboost' target='_blank' rel='nofollow'>XGBoost, a popular scalable, portable and distributed gradient boosting trees library</a>
