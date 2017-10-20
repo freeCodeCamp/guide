@@ -52,7 +52,9 @@ vector<int> quick_sort(vector<int> arr) {
 	return res;
 }
 ```
-
+### Visualization
+* <a href='https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html'>USFCA</a>
+* <a href='https://www.hackerearth.com/practice/algorithms/sorting/quick-sort/visualize/'>HackerEarth</a>
 
 #### More Information:
 

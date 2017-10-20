@@ -1,7 +1,7 @@
 ---
-title: Java Docs Instanceof Operator
+title: instanceof Operator
 ---
-# The Java instanceof operator
+# `instanceof` operator
 
 The `instanceof` operator allows you to check the validity of a `IS A` relationship. If at any point of time, we are not sure about this and we want to validate this at runtime, we can do the following:
 
