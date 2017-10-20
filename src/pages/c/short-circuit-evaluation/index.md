@@ -11,13 +11,13 @@ You can do a short-circuit evaluation with && and || operators.
 
 ## Example with && operator:
 
-```
+```c
   canOpenFile(filename) && openFile(filename); // If you can open the file then open it.
 ```
 
 The example above is equivalent to:
 
-```
+```c
   if ( canOpenFile(filename) ) {
     openFile(filename);
   }
@@ -25,12 +25,12 @@ The example above is equivalent to:
 
 ## Example with || operator:
 
-```
+```c
   isServerOn || startServer(); // If the server is not on then start it.
  ```
  The example above is equivalent to:
  
- ```
+ ```c
   if ( !isServerOn ) {
     startServer();
   }
@@ -38,7 +38,7 @@ The example above is equivalent to:
  
  ## Keep it all together in real example
  
- ```
+ ```c
 #include <stdio.h>
 #include <stdlib.h>
 
