@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="PHP" type="php">
+        <CLASSES>
+          <root url="file://C:/Program Files/nodejs/node_modules/npm" />
+          <root url="file://$MODULE_DIR$/../../bin" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://C:/Program Files/nodejs/node_modules/npm" />
+          <root url="file://$MODULE_DIR$/../../bin" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="PHARS">
+        <CLASSES>
+          <root url="phar://$MODULE_DIR$/../../bin/php/php7.0.23/phing-latest.phar/" />
+          <root url="phar://$MODULE_DIR$/../../bin/php/php7.0.23/phpunit.phar/" />
+          <root url="phar://$MODULE_DIR$/../../bin/php/php7.0.23/phpunit_3.phar/" />
+          <root url="phar://$MODULE_DIR$/../../bin/php/php7.0.23/phpunit_2.phar/" />
+          <root url="phar://$MODULE_DIR$/../../bin/php/php7.1.9/pharcommand.phar/" />
+          <root url="phar://$MODULE_DIR$/../../bin/php/php5.6.31/pharcommand.phar/" />
+          <root url="phar://$MODULE_DIR$/../../bin/php/php7.0.23/pharcommand.phar/" />
+        </CLASSES>
+        <SOURCES>
+          <root url="phar://$MODULE_DIR$/../../bin/php/php7.0.23/phing-latest.phar/" />
+          <root url="phar://$MODULE_DIR$/../../bin/php/php7.0.23/phpunit.phar/" />
+          <root url="phar://$MODULE_DIR$/../../bin/php/php7.0.23/phpunit_3.phar/" />
+          <root url="phar://$MODULE_DIR$/../../bin/php/php7.0.23/phpunit_2.phar/" />
+          <root url="phar://$MODULE_DIR$/../../bin/php/php7.1.9/pharcommand.phar/" />
+          <root url="phar://$MODULE_DIR$/../../bin/php/php5.6.31/pharcommand.phar/" />
+          <root url="phar://$MODULE_DIR$/../../bin/php/php7.0.23/pharcommand.phar/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>
