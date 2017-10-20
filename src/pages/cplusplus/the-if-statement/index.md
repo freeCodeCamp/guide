@@ -41,7 +41,7 @@ if (a<0)
  }
 ```
 
-//program continues   //program continues
+//program continues to execute 
 
 Example In C++ :
   ```C++
@@ -55,13 +55,13 @@ Example In C++ :
   {
 
   int no ;
-  cout<<"Enter a number : ";
-  cin>>no ;
+  cout << "Enter a number : ";
+  cin >> no ;
 
   //If Statement to check if the number is positive
   if (no>0)
   {
-  cout<<"You have entered a positive number : "<<no<<endl ;
+  cout << "You have entered a positive number : "<< no << endl ;
   }
   //If number is not positive, then if statement is skipped a program continues
   cout<<"This step is always printed"<<endl ;
