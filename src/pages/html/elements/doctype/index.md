@@ -10,7 +10,7 @@ The doctype should be specified at the top of all HTML documents and its sole pu
 <!DOCTYPE html>
 ```
 
-Above you can see an example of an HTML5 doctype. Even though it appears to be a standard HTML tag it actually is not, its a direct instruction to the web browser specifying what version of HTML the page is written in.
+Above you can see an example of an HTML5 doctype. Even though it appears to be a standard HTML tag it actually is not, it's a direct instruction to the web browser specifying what version of HTML the page is written in.
 
 ### More information:
 
