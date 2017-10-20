@@ -3,13 +3,12 @@ title: Sprint Planning
 ---
 ## Sprint Planning
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/sprint-planning/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Sprint Planning opens each Sprint. During Sprint Planning the Scrum Team decides what it will be able to deliver at the end of the Sprint.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+As described in the <a href='http://www.scrumguides.org'>Scrum Guide</a>, Sprint Planning is time-boxed to a maximum of eight hours for a 
+one-month Sprint. For shorter Sprints, the event is usually shorter.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+The input to this meeting is the Product Backlog, the latest product Increment, projected capacity of the Development Teamduring the 
+Sprint, and past performance of the Development Team. 
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+Only the Development Team members can decide how many Backlog Items are taken into the Sprint.
