@@ -33,4 +33,4 @@ Other elements that form can contain:
 - ```textarea``` - is a multiline box which is most often used for adding some text eg. comment. Size of textarea is defined by number of rows and columns.
 - ```select``` - together with ```<option></option>``` tag creates drop-down select menu.
 
-
+<a href = "https://www.w3schools.com/html/html_forms.asp" target = '_blank'>More information on forms can be found here.</a>
