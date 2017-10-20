@@ -4,7 +4,7 @@ title: Comments in HTML
 ## Comments in HTML
 
 The comment tag is a tool used to leave notes, mostly related to the project or the website. This tag is frequently used to explain something in the code or leave some recommendations about the project.
-
+It is used by adding the text to be commented within the comment tag i.e. <!--    -->
 ### Example
 ```html
 <!DOCTYPE html>
