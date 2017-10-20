@@ -225,5 +225,56 @@ public class SmartPhone implements MusicPlayer {
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CIty/0' target='_blank' rel='nofollow'>Run Code</a>
 
 Whoops, did I forget `next()` ? See, since it was a `default` method, I didn't had to provide an implementation at all. (Wont work for JDK < 8)
+## Nested Interface
+An interface which is declared inside another interface or class is called **nested interface**. They are also known as inner interface. Since nested interface cannot be accessed directly, the main purpose of using them is to resolve the namespace by grouping related interfaces (or related interface and class) together.
+```Java
+import java.util.*;
+class Test 
+{
+  interface Yes
+  { 
+     void show();
+  }
+ }
+ class Testing implements Test.Yes
+ {
+    public void show()
+    {
+      System.out.println("show method of interface");
+    }
+ }
+ class A
+ {
+    public static void main(String[] args)
+    {
+      Test.Yes obj;
+      Testing t =new Testing();
+      obj = t;
+      obj.show();
+     }
+  }
+  ```
+  The access specifier in above is default. We can assign public,protected and private also. But in case of private we get a compiler error because a derived class tries to access it.
+  ## Interface in another interface
+  An interface can be declared inside another interface also. We mention the interface as i_name1.i_name2 where i_name1 is the name of    the interface in which it is nested and i_name2 is the name of the interface to be implemented.
+  ```Java
+  interface Test
+  {
+    interface Yes
+    {
+      void show();
+    }
+  }
+  class Testing implements Test.Yes
+  {
+    public void show()
+    {
+      System.out.println("show method of interface");
+    }
+  }
+  ```
+  [run code](https://ideone.com/KvFqMv)
+  **Note**: In the above example, access specifier is public even if we have not written public. If we try to change access specifier of interface to anything other than public, we get compiler error. Remember, interface members can only be public.
+
 
 So, now you have a good grasp of Interfaces! Go learn about Abstract Classes to know how Java gives you yet another way to define contracts.
