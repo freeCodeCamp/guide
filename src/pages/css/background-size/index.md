@@ -11,6 +11,7 @@ The background-size property specifies the size of the background images. You ca
 .contain {background-size: contain}
 .initial {background-size: initial}
 .inherit {background-size: inherit}
+.100% {background-size: 100%}
 ```
 
 #### More Information:
