@@ -1,15 +1,11 @@
 ---
 title: Acceptance Testing
 ---
-## Acceptance Testing
+An acceptance test is a formal description of the behavior of a software product, generally expressed as an example or a usage scenario. A number of different notations and approaches have been proposed for such examples or scenarios. In many cases the aim is that it should be possible to automate the execution of such tests by a software tool, either ad-hoc to the development team or off the shelf.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/acceptance-testing/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Similar to a unit test, an acceptance test generally has a binary result, pass or fail. A failure suggests, though does not prove, the presence of a defect in the product.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+Teams mature in their practice of agile  use acceptance tests as the main form of functional specification and the only formal expression of business requirements. Other teams use acceptance tests as a complement to specification documents containing uses cases or more narrative text.
+Source: agilealliance.org.
 
 
