@@ -11,9 +11,7 @@ This technique, it's usually applied in conjunction with memoization which is an
 
 An example with Fibonacci's series which is defined as:
 
-
-
-    F(N) = F(N-1) + F(N-2)
+```F(N) = F(N-1) + F(N-2)```
 
 This is the tree to find F(5):
 
