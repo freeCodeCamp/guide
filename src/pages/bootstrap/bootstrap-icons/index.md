@@ -3,13 +3,14 @@ title: Bootstrap Icons
 ---
 ## Bootstrap Icons
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/bootstrap/bootstrap-icons/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Special icons can be utilized with Bootstrap. All one needs to do is add the class of the particular icon.  
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```
+<i class="fa fa-edit" aria-hidden="true"></i>
+```
+A convenient icon glossary is linked below.
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
+* <a href='https://mdbootstrap.com/content/icons-list/' target='_blank' rel='nofollow'>Icon Glossary</a>
 
