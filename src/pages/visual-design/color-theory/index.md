@@ -14,7 +14,7 @@ Using color theory can help meet the requirements of projects while maximizing l
 ### Color Wheel or Color Picker
 
 A color wheel or picker is a tool used by designers to specify or locate color.
-Color wheels can include a color spectrum or they can be organized by a defined categories of light, such as brightness and hue.
+Color pickers may include a color spectrum or they may be organized by defined categories of light, such as brightness and hue.
 
 **Primary Colors:**
 
@@ -36,20 +36,19 @@ A black is sometimes used as a contrast medium to increase the range of contrast
 
 ### Web colors
 
-Web standards including html, css, and graphics file formats: jpg, png, gif, and svg use primary colors of Red, Green, and Blue.
-Each technology or device has a slightly different hue of primary color.
+Web standards including html, css, and graphics file formats: jpg, png, gif, and svg use primary colors of red, green, and blue.
+Each technology or device displays a slightly different hue of primary color.
 For example, a pure red on one monitor may look more pink or orange on another.
 These variances add to the complexity of attempting to portray accurate colors on a computer screen.
-This is a significant issue, for example, when a consumer seeks a product with a specific color hue.
+This is a significant issue, for example, when trying to:
+* represent a product with a specific color hue, or
+* represent a rainbow of color, or
+* alert a user with messages having various degrees of importance.
 
-In web design and human-computer interface heuristics, colors also carry with them cultural connotations and implications.
-##code
-These that need to be understood or else you could cause confusion. The color red in a non-digital space, such as a fast-food restaurant, carries the implication of energy or excitement. However, on the web the color red also carries with it the implication that the user has committed an error. This example of how color means certain things in certain settings should be a critical reminder to understand how the person viewing your page will interpret the color selection you’ve made.
+Web design, advertising, and human-computer interface heuristics also recognize that colors carry cultural connotations and implications. 
 
-The overall experience a person has when viewing your page is also determined by the color selection you’ve made. For example, using light-gray or yellow color text on a white background makes it very tough for most people to read. This is due to a lack of contrast between the colors. Black text on a white background or white text on a blue background conversely has high contrast and will be easier to read.
-
-Individuals who are affected by color-blindness might not be able to differentiate between similar colors as easily as you either. What you perceive as a wonderful palette of greens and blues might appear gray, beige, and dull to someone else. Importantly, if you choose a text color that views well for you, it might have much lower contrast than you realize to someone else, making it harder to understand the content you are trying to display. 
-
+More on [Color and Usability](usability.md)
+More on [Color and Culture](color-and-culture.md)
 
 <a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
 
