@@ -27,4 +27,7 @@ Some companies also have a physical office where you can go to work if you'd lik
 
 Quincy Larson on The Economics of Working Remotely: [Medium](https://medium.freecodecamp.org/the-economics-of-working-remotely-28d4173e16e2)
 
+Onsite vs. Remote Infographic: [Flexjobs] (https://s3.amazonaws.com/fj-employer-blog/employer-blog/wp-content/uploads/2016/08/19074931/dell-infographic-evolving-workforce2.jpg)
+
+
 
