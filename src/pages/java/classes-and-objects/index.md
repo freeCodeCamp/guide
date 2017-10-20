@@ -1,7 +1,7 @@
 ---
-title: Java Docs Classes  Objects
+title: Classes and Objects
 ---
-# Java Classes & Objects
+# Classes and Objects
 
 Classes are groups of variables and operations on them. A class can have variables, methods (or functions) and constructors (or methods which are used to initiate, more on that later!).
 
@@ -9,36 +9,42 @@ Think of a `Class` as a blueprint for creating something concrete. A `Class` tel
 
 Objects are _instances_ of a class. All objects are instances of a certain class. Imagine a class being a "template", which every Object copies to. When you create an Object, basically it creates a new object on the blueprint of a class. Now lets look at this from a little piece of code :
 
-    // Car class
-    public class Car {
-      // car name
-      private String name;
-        // car mannufacturer name
-        private String manufacturerName;
-      // constructor
-        public Car(String name, String man) {
-            this.name = name;
-            this.manufacturerName = man;
-        }
-      // getter method
-        public String getName() {
-            return name;
-        }
-      // getter method
-        public String getManufacturerName() {
-            return manufacturerName;
-        }
-
-      //setter method
-      public void setName(String name){
-         this.name = name;
-      }
+```java
+// Car class
+public class Car {
+    // car name
+    private String name;
+    
+    // car mannufacturer name
+    private String manufacturerName;
+    
+    // constructor
+    public Car(String name, String man) {
+        this.name = name;
+        this.manufacturerName = man;
+    }
+    
+    // getter method
+    public String getName() {
+        return name;
+    }
+    
+    // getter method
+    public String getManufacturerName() {
+        return manufacturerName;
     }
 
-    Car modelS = new Car("Model S","Tesla");
+    //setter method
+    public void setName(String name){
+        this.name = name;
+    }
+}
 
-    System.out.println("Full Car Name = " + modelS.getManufacturerName() + " " + modelS.getName());
-    // prints Tesla Model S
+Car modelS = new Car("Model S","Tesla");
+
+System.out.println("Full Car Name = " + modelS.getManufacturerName() + " " + modelS.getName());
+// prints Tesla Model S
+```
 
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CJZP/0' target='_blank' rel='nofollow'>Run Code</a>
 

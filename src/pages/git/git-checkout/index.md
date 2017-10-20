@@ -3,14 +3,14 @@ title: Git Checkout
 ---
 ## Git Checkout
 
-The `git checkout` command switches between branches or restores working tree files.  There are a number of different options for this command that won't be covered here, but you can take a look at all of them in the [Git documentation](https://git-scm.com/docs/git-checkout).
+The `git checkout` command switches between branches or restores working tree files.  There are a number of different options for this command that won't be covered here, but you can take a look at all of them in the <a href='https://git-scm.com/docs/git-checkout' target='_blank' rel='nofollow'>Git documentation</a>.
 
 ### Checkout an Existing Branch
 To checkout an existing branch, run the command:
 ```shell
 git checkout BRANCH-NAME
 ```
-Generally, Git won't let you checkout another branch unless your working directory is clean, because you would lose any working directory changes that aren't committed. You have three options to handle your changes: 1) trash them, 2) [commit them](https://guide.freecodecamp.org/git/git-commit/), or 3) [stash them](https://guide.freecodecamp.org/git/git-stash/).
+Generally, Git won't let you checkout another branch unless your working directory is clean, because you would lose any working directory changes that aren't committed. You have three options to handle your changes: 1) trash them, 2) <a href='https://guide.freecodecamp.org/git/git-commit/' target='_blank' rel='nofollow'>commit them</a>, or 3) <a href='https://guide.freecodecamp.org/git/git-stash/' target='_blank' rel='nofollow'>stash them</a>.
 
 ### Checkout a New Branch
 To create and checkout out a new branch with a single command, you can use:

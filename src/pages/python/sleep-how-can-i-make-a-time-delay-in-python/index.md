@@ -18,4 +18,4 @@ for letter in 'hello, world!':
 Floating point numbers can be given as the argument to `sleep()` for more precise sleep times.
 
 #### More Information:
-Time module [documentation](https://docs.python.org/3/library/time.html#time.sleep) on the sleep function.
+Time module <a href='https://docs.python.org/3/library/time.html#time.sleep' target='_blank' rel='nofollow'>documentation</a> on the sleep function.

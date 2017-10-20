@@ -137,4 +137,4 @@ for index, item in enumerate(shopping_basket):
 
 #### More Information:
 
-- [Python for loop documentation](https://docs.python.org/3/tutorial/controlflow.html#for-statements)
+- <a href='https://docs.python.org/3/tutorial/controlflow.html#for-statements' target='_blank' rel='nofollow'>Python for loop documentation</a>

@@ -33,7 +33,8 @@
     "redux-actions": "^2.2.1",
     "redux-create-types": "0.0.1",
     "redux-epic": "^0.3.0",
-    "rx": "^4.1.0"
+    "rx": "^4.1.0",
+    "unist-util-visit": "^1.1.3"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
