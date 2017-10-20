@@ -19,6 +19,10 @@ Here you can see that in the graph of y = |x|, if -2 is input in to the function
 
   |0(5)| = |0| = 0
 
+* **Simplify |-4(5)|**
+
+  |-4||(5)| = 20
+
 * **Simplify -|-1|**
 
   -|-1| = -|1| = -1
@@ -30,8 +34,33 @@ Here you can see that in the graph of y = |x|, if -2 is input in to the function
 * **Simplify |8|**
 
   |8| = 8
+  
+### Triangle inequality
+
+For any two real numbers, say x and y, the following is true:
+
+  |x + y| ‎≤ |x| + |y|
+
+### Examples
+
+* **|2 + 3|**
+  
+  |2| + |3| = 2 + 3 = 5 = |5|
+
+* **|-2 + 3|**
+  
+  |-2| + |3| = 2 + 3 = 5
+  
+  |-2 + 3| = |1| = 1 < 5
+  
+* **|2 - 3|**
+  
+  |2| + |-3| = 2 + 3 = 5
+  
+  |2 + 3| = |-1| = 1 < 5   
+
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
+* [Wiki article](https://en.wikipedia.org/wiki/Absolute_value)
 
