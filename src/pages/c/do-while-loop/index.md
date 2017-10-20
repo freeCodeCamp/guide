@@ -9,8 +9,8 @@ The `do while` loop executes a block of code once and until a condition is false
 ## Example
 ```
 #include <stdio.h>
-int main()
-{
+
+int main () {
     double number, sum = 0;
 
     // Loop body is executed at least once
@@ -18,11 +18,12 @@ int main()
         printf("Enter a number: ");
         scanf("%lf", &number);
         sum += number;
-    } while(number != 0.0);
+    } while (number != 0.0);
 
     printf("Sum = %.2lf",sum);
 
     return 0;
+}
 ```
 
 ## Output:
@@ -33,3 +34,4 @@ Enter a number: -3.4
 Enter a number: 4.2
 Enter a number: 0
 Sum = 4.70
+```
