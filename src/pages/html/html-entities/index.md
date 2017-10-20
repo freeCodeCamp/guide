@@ -2,14 +2,31 @@
 title: HTML Entities
 ---
 ## HTML Entities
+  You use the HTML entities when you want to display when you need to display a reserved character (which may be interpreted as HTML code by the browser), invisible characters (like to display space), characters that are difficult to type with standard keyboard.
+  
+**Syntax :**  
+```
+&Entity_Name;
+&#Entity_Number;
+```
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/html-entities/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
+**Examples :**
+For displaying &lt reserved character use one of the following-
+```
+&lt;
+&#60;
+```
+For displaying space you can use any of the following -
+```
+&nbsp;
+&#32;
+```
+For displaying non-standard keyboard character &pound; use one of the following -
+```
+&#163;
+&pound;
+```
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
+<a href='https://www.w3schools.com/html/html_entities.asp' target='_blank'>w3schools</a><br>
+Official <a href='https://dev.w3.org/html5/html-author/charref' target='_blank'>list</a> of character entity codes. 
 
