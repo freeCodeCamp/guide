@@ -1,0 +1,18 @@
+---
+title: if-then
+---
+## if-then
+The `if-then`statement is one of the most basic statements. It tells your program to execute a certain section of code `only if´a particular test evaluates to ´true´.
+For example,the `match`class would `only` allow the players to roll the dice `if` it is their turn. This could be like the following:
+
+```java
+void match() {
+    // the "if" clause: it must be the players turn
+    if (yourTurn) {
+      //the "then" clause: roll the dice
+      rollTheDice;
+    }
+}
+```
+
+If this test (is it the players turn) evaluates to `false`, control jumps to the end of the `if-then`statement.
