@@ -5,7 +5,7 @@ title: Bootstrap
 
 Bootstrap is a popular front-end framework for web development. It contains pre-built components and design elements that can easily be added to a web project to style typography, forms, buttons, etc. It is widely supported and usable on modern browsers like Chrome, Firefox, Opera, Safari, and Internet Explorer (supported from IE8 on).
 
-Bootstrap includes a responsive grid system for varying layouts, and is great starting point for building a mobile-friendly website. It also includes optional JavaScript functionality like collapsible content, carousels, and modals.
+Bootstrap includes a responsive grid system for varying layouts, and is a great starting point for building a mobile-friendly website. It also includes optional JavaScript functionality like collapsible content, carousels, and modals.
 
 
 #### Version History
@@ -21,7 +21,7 @@ Bootstrap 4 is available in beta as of August 2017, and now includes Sass and Fl
 
 #### Installation
 
-There are two main ways to add Bootstrap to your web project, (1) linking to online and publicly available sources and (2) downloading the framework directly and refering to the local copy. 
+There are two main ways to add Bootstrap to your web project, (1) linking to online and publicly available sources and (2) downloading the framework directly and refering to the local files. 
 
 ##### Linking To Another Source
 
@@ -40,7 +40,7 @@ _Note: These are only examples and may change without notice. Please refer to a 
 
 ##### Download/Install Locally
 
-You can download all of Bootstraps source files including Sass, JavaScript, and the build system with Bower, Composer, Meteor, or npm. This allows greater control and the option to include or exclude modules as needed.
+You can download all of the Bootstrap source files, including CSS, Sass, JavaScript, and the build system with Bower, Composer, Meteor, or npm. This allows greater control and the option to include or exclude modules as needed.
 
 `npm install bootstrap@4.0.0-beta`
 
