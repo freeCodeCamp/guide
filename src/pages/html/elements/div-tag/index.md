@@ -15,6 +15,7 @@ Here is an example of how to display a section in same color:
 </div>
 ```
 
+The advantage of div tag is you can apply stylistic changes with CSS styles to the entire element. For example, if you put div tag around a paragraph, you can change the paragraph font by applying a font style change to the div tag instead of coding it on every paragraph element. 
 #### More Information:
 [Tutorialspoint](https://www.tutorialspoint.com/html/html_div_tag.htm)
 
