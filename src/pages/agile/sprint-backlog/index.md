@@ -3,13 +3,11 @@ title: Sprint Backlog
 ---
 ## Sprint Backlog
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/sprint-backlog/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+As described in the <a href='http://www.scrumguides.org'>Scrum Guide</a>, the Sprint Backlog is the set of Product Backlog items selected 
+for the Sprint, plus a plan for delivering the product Increment and realizing the Sprint Goal. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+Only the Development Teamcan change its Sprint Backlog during a Sprint. The Sprint Backlog is a highly visible, real-time picture of the 
+work that the Development Teamplans to accomplish during the Sprint, and it belongs solely to the Development Team.
 
 
+![alt text](https://www.parorrey.com/wp-content/uploads/2015/09/Scrum-Sprint-Backlog.jpg "Sprint Backlog")
