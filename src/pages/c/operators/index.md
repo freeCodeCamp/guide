@@ -43,6 +43,13 @@ a++; // a = 9
 int a = 8;
 a--; // a = 7
 ```
+<b>Note:</b> <p>There is a difference between ++a and a++ :-
+              ++a first change its value then used in equation and a++ first used in equation and then change its value.</p>
+              For eg. <p>1) If a = 5 , Find x = ++a + 1
+                         // x = 7 because x = 6+1</p>
+                       <p>1) If a = 5 , Find x = a++ + 1
+                         // x = 6 because x = 5+1</p>
+                       
 ## 2. Logical Operators
 
 `==` True when the two operands are equal
