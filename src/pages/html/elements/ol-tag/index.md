@@ -3,13 +3,25 @@ title: Ol Tag
 ---
 ## Ol Tag
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/ol-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The unordered list (`<ol>`) is a HTML tag used to create numbered lists. To create a list item inside the `<ol>`, use the `<li>` tag. To style lists, go to the CSS style lists and make the changes. The list items will be labeled with numbers by default.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The `<ol>` can be nested inside other lists and is compatible with others tag such as `<a>`,`<p>`,`<button>`, the html styling tags (`<strong>`,`<em>`, etc).
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
+### Example
+```
+<html>
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <ol>
+      <li>This is a numbered list item #1</li>
+      <li>This is a numbered list item #2</li>
+      <li>This is a numbered list item #3</li>
+    </ol>
+  </body>
+</html>
+```
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+<a href='https://guide.freecodecamp.org/html/elements/ul-tag' target='_blank' rel='nofollow'>The unordered list `<ul>` </a>
+<a href='http://www.echoecho.com/htmllists02.htm' target='_blank' rel='nofollow'>Examples of different labels for ordered list items</a>
