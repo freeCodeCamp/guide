@@ -2,14 +2,6 @@
 title: What Is Python Used for
 ---
 ## What Is Python Used for
-
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/python/what-is-python-used-for/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
 Python is a general purpose programming language created in the late 1980s, and named after Monty Python, that’s used by thousands of people to do things from testing microchips at Intel, to powering Instagram, to building video games with the PyGame library. It’s small, very closely resembles the English language, and has hundreds of existing third-party libraries.
