@@ -3,13 +3,15 @@ title: Greedy Algorithms
 ---
 ## Greedy Algorithms
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/algorithms/greedy-algorithms/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Greedy algorithms refer to a problem-solving strategy of having your algorithm make the locally optimum choice at each step, in the hope that this will lead to the best possible solution.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+To illustrate the greedy algorithm paradigm, imagine we go to a candy store with a certain fixed amount of money, and we are faced with the dilemma of deciding which chocolates to buy. We want the maximum number of chocolates possible. Clearly, we would simply choose the least expensive chocolates until we run out of money.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Now, imagine going to the same chocolate store with the same amount of money, but now instead of getting the maximum amount of chocolates, we want to get the maximum weight of chocolate possible. We are, of course, given the weights and prices of each chocolate. In this case, we would choose the chocolates with the maximum weight to price ratio, until we run out of money.
+
+Greedy algorithms do not always guarantee the optimal solution.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+https://www.hackerearth.com/practice/algorithms/greedy/basics-of-greedy-algorithms/tutorial/
 
 
