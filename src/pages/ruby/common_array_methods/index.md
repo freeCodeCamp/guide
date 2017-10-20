@@ -86,6 +86,6 @@ array.reverse
 => [4, 3, 2, 1, 0]
 ```
 
-## More Information/ Official Documentation of Arrays on Ruby:
+## More Information/ Official Documentation:
 
 There are plenty more array methods, you can read more about them <a href='https://ruby-doc.org/core-2.4.2/Array.html' target='_blank' rel='nofollow'>here</a>
