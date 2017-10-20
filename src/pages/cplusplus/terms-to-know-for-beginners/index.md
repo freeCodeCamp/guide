@@ -133,5 +133,3 @@ _CONGRATULATIONS! You have reached the end of the second article_
 **Happy Coding ! :)**
 
  **Feel free to ask any queries on FreeCodeCamp's GitHub page or [FreeCodeCamp's Forum .](https://forum.freecodecamp.org/)**
-
-By Jaithra Bhatia and Hitarth Asrani.
