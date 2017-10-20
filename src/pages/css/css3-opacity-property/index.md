@@ -3,13 +3,16 @@ title: CSS3 Opacity Property
 ---
 ## CSS3 Opacity Property
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/css3-opacity-property/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The CSS `opacity` property controls the level of transparency of an element, on a scale of between `0` and `1`.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+By default, all elements have and `opacity` of `1` which makes them completely opaque (not see-through), but you can edit this by lowering the value, e.g: 
+```css
+div#slightly-transparent {
+    opacity:0.75;
+}
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+https://developer.mozilla.org/en-US/docs/Web/CSS/opacity
 
 
