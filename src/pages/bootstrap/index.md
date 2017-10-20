@@ -21,9 +21,9 @@ Bootstrap 4 is available in beta as of August 2017, and now includes Sass and Fl
 
 #### Installation
 
-There are two main ways to add Bootstrap to your web project, (1) linking to online and publicly available sources and (2) downloading the framework directly and refer to the local copy. 
+There are two main ways to add Bootstrap to your web project, (1) linking to online and publicly available sources and (2) downloading the framework directly and refering to the local copy. 
 
-##### Linking to another source
+##### Linking To Another Source
 
 You can add Bootstrap CSS with a `<link>` element inside the `<head>` of your webpage via Content Delivery Network (CDN), for example:
 
@@ -38,7 +38,7 @@ Adding the JavaScript elements of Bootstrap is similar, with `<script>` elements
 ```
 _Note: These are only examples and may change without notice. Please refer to a CDN for current links to include in your project._
 
-##### Linking to another source
+##### Download/Install Locally
 
 You can download all of Bootstraps source files including Sass, JavaScript, and the build system with Bower, Composer, Meteor, or npm. This allows greater control and the option to include or exclude modules as needed.
 
