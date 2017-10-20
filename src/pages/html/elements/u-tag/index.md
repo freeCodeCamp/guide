@@ -3,13 +3,19 @@ title: U Tag
 ---
 ## U Tag
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/u-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `<u>` tag denotes misspelled text or proper nouns in Chinese. Text that is wrapped in a `<u>` tag will be underlined in the browser. Because of this, be careful using the `<u>` tag where text could be confused as a hyperlink.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Today, the underline style can be achieved through the `text-decoration: underline` property in CSS.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### Example
+```
+<body>
+  <p>
+    Misspelled text that should be underlined goes <u>herre</u>.
+  </p>
+</body>
+```
+### More Information
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/u">MDN</a>
 
