@@ -3,13 +3,26 @@ title: Ol Tag
 ---
 ## Ol Tag
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/ol-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `<ol>` tag is used to represent an ordered set of items and it typically renders each item with either a letter or number associated with it.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+A simple example of an ordered list:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```html
+<ol>
+  <li>First</li>
+  <li>Second</li>
+  <li>Third</li>
+</ol>
+```
+
+The above example would render the following in the browser:
+
+1. First
+2. Second
+3. Third
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
+[MDN Ol Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol)
+[W3Schools Ol Tag](https://www.w3schools.com/tags/tag_ol.asp)
 
