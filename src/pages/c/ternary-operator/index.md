@@ -19,10 +19,11 @@ else {
 
 printf("%d", c);
 ```
+
 This example takes more than 10 lines, but that isn't necessary. You can write the above program in just 3 lines of code using the **ternary operator**.
 
 ### Syntax
-`condition ? statement_1 : statement_2`
+`condition ? value_if_true : value_if_false`
 
 Here's the above example re-written to use the ternary operator:
 
@@ -34,4 +35,4 @@ c = (a < b) ? a : b;
 printf("%d", c);
 ```
 
-This looks pretty simple, right?
+This looks pretty simple, right? Do note that `value_if_true` and `value_if_false` must have the same type, and they cannot be full statements but simply expressions.
