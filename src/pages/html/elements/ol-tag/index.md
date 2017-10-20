@@ -20,9 +20,3 @@ The above example would render the following in the browser:
 1. First
 2. Second
 3. Third
-
-#### More Information:
-
-[MDN Ol Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol)
-[W3Schools Ol Tag](https://www.w3schools.com/tags/tag_ol.asp)
-
