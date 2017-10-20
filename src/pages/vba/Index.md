@@ -12,6 +12,7 @@ To learn more about vba and its uses, <a href ='https://msdn.microsoft.com/en-us
 ##Hello Git!
 
 '''vba
+
    public sub msg()
 
    Dim msg as String 
@@ -21,6 +22,7 @@ To learn more about vba and its uses, <a href ='https://msdn.microsoft.com/en-us
    MsgBox msg
 
    end sub()
+   
 '''
 
 In vba there several ways to print a message,but before that you must give out function a name. In this case it's called "Public Sub msg()". Public Sub just means that this function is a public subroutine that can be called from others subroutines.Going back to the original funciton above, the varaible "msg" is set to the string dim.(Side Note; originally in BASIC dim stood for Dimension. It was used to help define the demensions of an array. However it no longer has that same meaning.)
