@@ -9,6 +9,8 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
+“Correlation does not imply causation” is a common phrase used in statistics to emphasize that correlation between two variables does not imply that one causes the other.
+
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
