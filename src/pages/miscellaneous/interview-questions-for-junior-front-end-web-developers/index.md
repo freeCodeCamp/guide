@@ -30,3 +30,11 @@ Without further ado, here are a few questions that you could encounter:
 21.  What software versioning system have you used? Could you describe how a workflow would look like in this system?
 22.  What was the hardest project you ever worked on? Why was it difficult? If it is an application/algorithm can you explain how it works?
 23.  How do you stay up to date with technology news?
+
+## Additional Resources
+
+* <a href='https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95' target='_blank' rel='nofollow'>10 Interview Questions Every JavaScript Developer Should Know</a>
+* <a href='https://github.com/h5bp/Front-end-Developer-Interview-Questions' target='_blank' rel='nofollow'>Front-end Interview Questions Repo</a>
+* <a href='http://thatjsdude.com/interview/index.html' target='_blank' rel='nofollow'>Interview Questions for Front-end Developers</a>
+* <a href='http://davidshariff.com/quiz/' target='_blank' rel='nofollow'>Front-end Developer Quiz</a>
+* <a href='https://www.codementor.io/blog/5-essential-reactjs-interview-questions-du1084ym1' target='_blank' rel='nofollow'>5 Essential React.js Interview Questions</a>
