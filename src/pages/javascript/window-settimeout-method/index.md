@@ -1,15 +1,29 @@
 ---
-title: Window Settimeout Method
+title: Window setTimeout Method
 ---
-## Window Settimeout Method
+## Window setTimeout Method
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/window-settimeout-method/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The setTimeout() method calls a function or evaluates an expression after a specified number of milliseconds.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Tips: 
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+* 1000 ms = 1 second.
+* The function is only executed once. If you need to repeat execution, use the setInterval() method.
+* Use the clearTimeout() method to prevent the function from running.
+
+The syntax of the setTimout Method is as follows: 
+
+```js
+    setTimeout(function, milliseconds, param1, param2, ...);
+```
+
+For example: 
+```js
+    setTimeout(function(){ alert("Hello"); }, 3000);
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
+Documentation: <a href='https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout' target='_blank' rel='nofollow'>MDN</a>
 
+More examples of setTimeout function: <a href='https://www.w3schools.com/jsref/met_win_settimeout.asp' target='_blank' rel='nofollow'>w3schools</a>

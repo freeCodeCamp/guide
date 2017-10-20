@@ -4,6 +4,8 @@ title: Bootstrap Collapse
 
 The Bootstrap collapse plugin allows you to toggle content on your pages with a few classes thanks to some helpful JavaScript.
 
+Collapsibles are useful when you want to hide and show large amount of content.
+
 ### How to use it
 
 To use collapse you can do it in two ways:
@@ -14,6 +16,27 @@ To use collapse you can do it in two ways:
 The value in `href` or `data-target` will be the selector of the element to collapse. Wether you decide to use the `<a>` or the `<button>` tag, the `data-toggle="collapse"` is required.
 
 The element to collapse must contain the class `.collapse`. 
+
+## Example
+```html
+<p>
+  <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+    Link with href
+  </a>
+  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+    Button with data-target
+  </button>
+</p>
+<div class="collapse" id="collapseExample">
+  <div class="card card-block">
+    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+  </div>
+</div>
+```
+## Example explained
+*.collapse* hides content
+*.collapsing* is applied during transitions
+*.collapse.show* shows content
 
 ### Example
 
@@ -76,3 +99,7 @@ $('.collapsible-element').on('show.bs.collapse', function() {
   // for example you want to make an AJAX call to get some data to put in the collapsible element.
 })
 ```
+
+#### More Information:
+
+[The official Bootstrap 4 guide on Collapse](https://v4-alpha.getbootstrap.com/components/collapse/)

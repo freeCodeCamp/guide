@@ -3,9 +3,7 @@ title: Getting a Coding Job
 ---
 Free Code Camp will help you prepare for a coding job.
 
-<div class="lightbox-wrapper"><a href='https://www.evernote.com/shard/s116/sh/55c128c7-5d99-41cc-b03d-b3de22611c8d/b43e467b3889f646fec34bb4c161e2a2/deep/0/What's-wrong-with-this-picture----Code.org.png' target='_blank' rel='nofollow'>![</a>
-
-<div class="meta"><span class="filename">What's-wrong-with-this-picture----Code.org.png</span><span class="informations">698x528</span><span class="expand"></span></div>](https://www.evernote.com/shard/s116/sh/55c128c7-5d99-41cc-b03d-b3de22611c8d/b43e467b3889f646fec34bb4c161e2a2/deep/0/What's-wrong-with-this-picture----Code.org.png "What's-wrong-with-this-picture----Code.org.png") </div>
+![Jobs chart](https://www.evernote.com/shard/s116/sh/55c128c7-5d99-41cc-b03d-b3de22611c8d/b43e467b3889f646fec34bb4c161e2a2/deep/0/What)
 
 ## Here are the facts:
 
