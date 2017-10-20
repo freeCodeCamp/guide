@@ -41,3 +41,4 @@ My Changes
 CSS has 147 different predefined colors with fancy names, like Peach Puff, Thistle, or Tomato. Now I assume you can figure out what a couple of those are but your probably are. But they probably wouldn't match the design you are looking for because you want it perfect and 147 colors is not enough when we have millions to choose from. In that case we use a color picker. I like the one from  [HTMLColorCodes](https://http://htmlcolorcodes.com/color-picker/)
 
 
+Colors can be in rgb, color name or hex. 
