@@ -3,9 +3,9 @@ title: Bootstrap
 ---
 ## Bootstrap
 
-Bootstrap is a popular front-end framework for web development. It contains pre-built components and design elements that can easily be added to a web project to style typography, forms, buttons, etc. It is widely supported and useble on modern browsers like Chrome, Firefox, Opera, Safari, and Internet Explorer (supported from IE8 on).
+Bootstrap is a popular front-end framework for web development. It contains pre-built components and design elements that can easily be added to a web project to style typography, forms, buttons, etc. It is widely supported and usable on modern browsers like Chrome, Firefox, Opera, Safari, and Internet Explorer (supported from IE8 on).
 
-Bootstrap includes a responsive grid system for responsive layouts, and is great starting point for building a mobile-friendly website. It also includes optional JavaScript functionality like collapsible content, carousels, and modals.
+Bootstrap includes a responsive grid system for varying layouts, and is great starting point for building a mobile-friendly website. It also includes optional JavaScript functionality like collapsible content, carousels, and modals.
 
 
 #### Version History
@@ -16,12 +16,16 @@ Bootstrap 2 was released in January 2012, and introducing the 12 column responsi
 
 Bootstrap 3 appeared in August 2013, switching to a flat design and a mobile-first approach.
 
-Bootstrap 4 is available in beta as of August 2017, and now includes Sass and flexbox.
+Bootstrap 4 is available in beta as of August 2017, and now includes Sass and Flexbox.
 
 
 #### Installation
 
-There are two main ways to add Bootstrap to your web project. You can add Bootstrap CSS with a `<link>` element inside the `<head>` of your webpage via (CDN):
+There are two main ways to add Bootstrap to your web project, (1) linking to online and publicly available sources and (2) downloading the framework directly and refer to the local copy. 
+
+##### Linking to another source
+
+You can add Bootstrap CSS with a `<link>` element inside the `<head>` of your webpage via Content Delivery Network (CDN), for example:
 
 `<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">`
 
@@ -32,9 +36,11 @@ Adding the JavaScript elements of Bootstrap is similar, with `<script>` elements
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 ```
+_Note: These are only examples and may change without notice. Please refer to a CDN for current links to include in your project._
 
+##### Linking to another source
 
-Or, alternatively, you can download all of Bootstraps source files including Sass, JavaScript, and the build system with Bower, Composer, Meteor, or npm. This allows greater control and the option to include or exclude modules as needed.
+You can download all of Bootstraps source files including Sass, JavaScript, and the build system with Bower, Composer, Meteor, or npm. This allows greater control and the option to include or exclude modules as needed.
 
 `npm install bootstrap@4.0.0-beta`
 
@@ -42,7 +48,7 @@ Or, alternatively, you can download all of Bootstraps source files including Sas
 
 `bower install bootstrap#v4.0.0-beta`
 
-(These are examples. You may want to check the <a href='https://getbootstrap.com/' target='_blank' rel='nofollow'>Bootstrap website</a> for the most up-to-date links)
+_Note: These are only examples and may change without notice. Please refer to the <a href='https://getbootstrap.com/' target='_blank' rel='nofollow'>Bootstrap website</a> for the most up-to-date links._
 
 #### More Information:
 
