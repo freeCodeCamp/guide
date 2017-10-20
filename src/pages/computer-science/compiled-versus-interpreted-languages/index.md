@@ -2,14 +2,12 @@
 title: Compiled Versus Interpreted Languages
 ---
 ## Compiled Versus Interpreted Languages
+A Compiled Language is one that is completely changed into machine code before exicution. Compilation usually takes longer than interpretation but once compliled it is ready to exicute.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/computer-science/compiled-versus-interpreted-languages/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+An interpreted language is translated line by line into one or more subrutines of already compiled machine code. An interpreter gives more flexibility but opens the program up to runtime errors and code injection attacks.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+In theory any programming language can be interpreted or compiled, what differs is the implementation.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
+[Subroutine](https://en.wikipedia.org/wiki/Subroutine)
 
