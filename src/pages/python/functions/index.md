@@ -88,5 +88,34 @@ Value of val1: 2
 Value of val2: 4
 Result: 8
 ```
+Functions can also have variable number of parameters. The passed parameters in this case can either be a tuple of arguments or a dictionary of key value pairs. 
+`*args` can be used to pass variable number of parameters which are sent as a tuple:
+```python
+def myfunc(*args):
+   print "the passed params are ",args
+# myfunc(abc=123, efh=456)
+myfunc(1,)
+myfunc(1,2,3)
+myfunc(1,2,3,4,"abcd")
+```
+Above code outputs
+```python
+the passed params are  (1,)
+the passed params are  (1, 2, 3)
+the passed params are  (1, 2, 3, 4, 'abcd')
+```
 
+`**kwargs` is used to pass arguments as key-value pairs:
+```python
+def myfunc(**kwargs):
+    # kwargs is a dictionary.
+    for k,v in kwargs.iteritems():
+         print "%s = %s" % (k, v)
 
+myfunc(val1=123, val2=456)
+```
+Above code gives:
+```
+val2 = 456
+val1 = 123
+```
