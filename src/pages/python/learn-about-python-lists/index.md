@@ -7,7 +7,7 @@ title: Learn About Python Lists
 
 **Creation:**
 
-An empty `list` is created using a pair of square brackets, `<a href='https://docs.python.org/3/tutorial/datastructures.html#more-on-lists' target='_blank' rel='nofollow'>]`:
+An empty `list` is created using a pair of square brackets:
 
     >>> empty_list = []
     >>> type(empty_list)
@@ -91,3 +91,5 @@ _Wrap around indexing_
 *   `list.reverse()` Reverse the elements of the list in place.
 
 *   `list.copy()` Return a shallow copy of the list. Equivalent to a[:].
+
+<a href='https://docs.python.org/3/tutorial/datastructures.html#more-on-lists' target='_blank' rel='nofollow'>Python Docs - More about Lists </a>
