@@ -13,6 +13,7 @@ Form contains control elements which are wrapped around ```<form></form>``` tags
 - ```checkbox```
 - ```radio```
 - ```submit```
+- ```color```
 
 Code example:
 ```html
@@ -25,6 +26,7 @@ Code example:
     <input type="radio" name="gender" value="female">Female<br>
     <input type="radio" name="gender" value="other">Other
     <input type="submit" value="Submit">
+    <input type="color">
 </form>
 ```
 
