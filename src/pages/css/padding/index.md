@@ -8,9 +8,9 @@ The `padding` CSS property sets the padding area on all four sides of an element
 Padding values are set using lengths or percentages or `inherit` keyword, and cannot accept negative values. The initial, or default, value for all padding properties is 0. While you can use `inherit` keyword but it can not be used along with a length value.
 
 ## Syntax
-```
+```css
 .element {
-    padding: <padding-top> || <padding-right> || <padding-bottom> || <padding-left>
+    padding: [padding-top] || [padding-right] || [padding-bottom] || [padding-left];
 }
 ```
 
@@ -20,7 +20,7 @@ This property may be specified using one, two, three, or four values.
 - When three values are specified, the first padding applies to the top, the second to the left and right, the third to the bottom.
 - When four values are specified, the paddings apply to the top, right, bottom, and left in that order (clockwise).
 
-```
+```css
 /* Apply to all four sides */
 padding: 1em;
   

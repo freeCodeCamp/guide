@@ -1,15 +1,11 @@
 ---
-title: IDE Integrated Development Environments
+title: Integrated Development Environments (IDEs)
 ---
-## IDE Integrated Development Environments
+## Integrated Development Environments (IDEs) 
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/developer-tools/ide-integrated-development-environments/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+An Integrated Development Environment (IDE) is a software that consolidates the basic tools developers need to write and test software in one application.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+IDEs offer a central graphic user interface (GUI) that incorporates the following: a code editor, a compiler or interpreter, a debugger, and build automation tools.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+#### More Information
+[AppSec Knowledge Base](https://www.veracode.com/security/integrated-development-environments)

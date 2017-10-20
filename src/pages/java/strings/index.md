@@ -1,12 +1,14 @@
 ---
-title: Java Docs Strings
+title: Strings
 ---
-# Java Strings
+# Strings
 
 Strings, as you might be already aware, are a sequence of characters. In Java, a `String` is an `Object`.
 
-    String course = "FCC";
-    System.out.println( course instanceof Object); //<- This prints 'true'
+```java
+String course = "FCC";
+System.out.println(course instanceof Object); // <- This prints 'true'
+```
 
 You can create a String in the following ways:
 
@@ -19,12 +21,14 @@ Well, using the `new` keyword gurantees that a new `String` object will be creat
 
 The following snippet will make things more clearer. The objective is to understand: How many String objects are created?
 
-     String str = "This is a string";
-     String str2 = "This is a string";
-     String str3 = new String("This is a string");
+```java
+String str = "This is a string";
+String str2 = "This is a string";
+String str3 = new String("This is a string");
 
-     System.out.println( str == str2 ); //This prints true
-     System.out.println( str == str3 ); //This prints false
+System.out.println(str == str2); // This prints true
+System.out.println(str == str3); // This prints false
+```
 
 The answer is: 2 String objects are created.
 
