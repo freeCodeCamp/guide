@@ -19,6 +19,10 @@ Typically you can declare variables using the following syntax :
 //Primitive Data Type
 int i = 10;
 
+//Variable for primitive data type can be declared in one statement and initialized later.
+int i;
+i = 10;
+
 // Object Data Type
 // initiates an Float object with value 1.0
 // variable myFloat now points to the object
