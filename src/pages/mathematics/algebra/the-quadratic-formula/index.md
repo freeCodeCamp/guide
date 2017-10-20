@@ -3,13 +3,9 @@ title: The Quadratic Formula
 ---
 ## The Quadratic Formula
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/algebra/the-quadratic-formula/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The Quadratic Formula is used to find the solution(s) of a quadratic equation.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Quadratic_formula.svg">
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+[The Quadratic Formula Explained](http://www.purplemath.com/modules/quadform.htm "The Quadratic Formula Explained")
