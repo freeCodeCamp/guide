@@ -2,14 +2,21 @@
 title: CSS3 Text Shadow Property
 ---
 ## CSS3 Text Shadow Property
+   The text shadow property adds shadow to the text.<br>
+Each shadow is the combination of X and Y offsets from the original element, blur radius and color.
+```
+Css Syntax
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/properties/css3-text-shadow-property/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
+text-shadow : X-offset Y-offset blur-radius color
+```
+**Example :**
+```
+p {
+text-shadow : 2px 2px 8px #FF0000;
+}
+```
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+<a href='https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow' target='_blank'>MDN Web Docs</a>
+<a href='https://www.w3schools.com/cssref/css3_pr_text-shadow.asp'>w3schools</a>
 
 
