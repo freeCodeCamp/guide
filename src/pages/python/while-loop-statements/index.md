@@ -3,7 +3,7 @@ title: While Loop Statements
 ---
 ## While Loop Statements
 
-`while` loops are similar to `for` loops in sense that they are used to run a section of code repeatedly. However, they difer from the `for` loop in terminating condition. Unlike `for` loops which are set to run for <i>n</i> number of times, `while` loops run till a <i>condition</i> is satisfied.
+`while` loops are similar to `for` loops in the sense that they are used to run a section of code repeatedly. However, they difer from the `for` loop in terminating condition. Unlike `for` loops which are set to run for <i>n</i> number of times, `while` loops run till a <i>condition</i> is satisfied.
 
 In python, while implement a while loop using :
 
