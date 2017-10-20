@@ -13,3 +13,5 @@ Reinforcement Learning refers to a field of Machine Learning that applies to age
 
 Example:
 A bot is given task to play Space Invaders, it tries to learn to play it by interacting with game and in return getting a reward for the points that it scored at end of game. Greater the reward, greater are its chances of doing the similar gameplay.
+
+<p> Changes <p>
