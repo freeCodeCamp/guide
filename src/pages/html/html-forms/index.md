@@ -13,6 +13,7 @@ Form contains control elements which are wrapped around ```<form></form>``` tags
 - ```checkbox```
 - ```radio```
 - ```submit```
+- ```datalist```
 
 Code example:
 ```html
@@ -24,6 +25,12 @@ Code example:
     <input type="radio" name="gender" value="male">Male<br>
     <input type="radio" name="gender" value="female">Female<br>
     <input type="radio" name="gender" value="other">Other
+    <input list="browsers">
+    <datalist id="Options">
+      <option value="Option1">
+      <option value="Option2">
+      <option value="Option3">
+    </datalist> 
     <input type="submit" value="Submit">
 </form>
 ```
@@ -32,5 +39,10 @@ Other elements that form can contain:
 
 - ```textarea``` - is a multiline box which is most often used for adding some text eg. comment. Size of textarea is defined by number of rows and columns.
 - ```select``` - together with ```<option></option>``` tag creates drop-down select menu.
+- ```button``` - The button element can be used to define a clickable button.
+
+
+
+
 
 
