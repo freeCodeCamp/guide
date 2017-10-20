@@ -33,4 +33,4 @@ Other elements that form can contain:
 - ```textarea``` - is a multiline box which is most often used for adding some text eg. comment. Size of textarea is defined by number of rows and columns.
 - ```select``` - together with ```<option></option>``` tag creates drop-down select menu.
 
-
+Form has an attribute called hidden. It wont display the form on web page but we can do some background process with it like sending data to backend(GET/POST) etc.
