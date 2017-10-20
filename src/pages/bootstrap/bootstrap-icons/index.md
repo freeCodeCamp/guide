@@ -2,14 +2,19 @@
 title: Bootstrap Icons
 ---
 ## Bootstrap Icons
+ ### Getting Started
+Make sure you have Bootstrap installed. An easy way to do this is to link it to the Bootstrap CDN. For more info: https://guide.freecodecamp.org/bootstrap/bootstrap-get-started
+ ### Usage
+  Icons are a good way to give visual refrence to links or messages eg. (error symbol, menu icon, visual links, etc.)
+  To use create a span element w/ the class set to the icon you want eg. 
+  ```html
+<span class="glyphicon" aria-hidden="true"></span>
+```
+This will display 
+![icon](www.github.com/blakeathomas/open-source-mat/blob/master/Untitled%20picture.png?raw=true)
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/bootstrap/bootstrap-icons/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+Bootstrap Documentation: https://getbootstrap.com/docs/3.3/components/#glyphicons
 
 
