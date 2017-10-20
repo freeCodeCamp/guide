@@ -3,9 +3,9 @@ title: Quick Sort
 ---
 ## Quick Sort
 
-Quick sort is an effiecient divide and conquer sorting alorithm. It works by recursively partitioning the list along a pivot element.
+Quick Sort is an efficient divide and conquer sorting algorithm. It works by recursively partitioning the list along with a pivot element.
 
-Average case time complecity of Quick Sort is O(nlog(n)) with worst case time complexity being O(n^2). The choice of the pivot plays an important role in determinng the efficiency fo the sort algorithm.
+Average case time complexity of Quick Sort is O(nlog(n)) with worst case time complexity being O(n^2). The choice of the pivot plays an important role in determining the efficiency of the sort algorithm.
 
 The steps involved in Quick Sort are :
 - Picking an element, the pivot element, from the array.
@@ -17,7 +17,7 @@ A quick implementation in C++ is as shown below :
 ```cpp
 vector<int> quick_sort(vector<int> arr) {
 	int n = arr.size();
-	
+
 	if (n <= 1) {
 		// arr of zero or one elements is sorted, by definition
 		return arr;
