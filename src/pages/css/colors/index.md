@@ -3,13 +3,37 @@ title: Colors
 ---
 ## Colors
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/colors/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Colors can be specificed with predefined color names, RGB, HEX, HSL, RGBA, and HSLA values.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Here are some examples of the red, blue, and green color values respectivily.<br />
+**Predefined Names**: <br />
+Red <br />
+Green <br />
+Blue <br />
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+**RGB**: <br />
+rgb(255, 0, 0) <br />
+rgb(0, 255, 0) <br />
+rgb(0, 0, 255) <br />
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+**HEX**: <br />
+#ff0000 or #f00 <br />
+#00ff00 or #0f0 <br />
+#0000ff or #00f <br />
+
+**HSL**: <br />
+hsla(0, 100%, 50%) <br />
+hsla(120, 100%, 50%) <br />
+hsla(240, 100%, 50%) <br />
+
+**RGBA**: <br />
+rgba(255, 0, 0, 1) <br />
+rgba(0, 255, 0, 1) <br />
+rgba(0, 0, 255, 1) <br />
+
+**HSLA**: <br />
+hsla(0, 100%, 50%, 1) <br />
+hsla(120, 100%, 50%, 1) <br />
+hsla(240, 100%, 50%, 1) <br />
 
 
