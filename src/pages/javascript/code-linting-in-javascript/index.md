@@ -10,3 +10,7 @@ Here are some popular Javascript Linters:
 * <a href='http://jshint.com/' target='_blank' rel='nofollow'>JSHint</a>  
 * <a href='http://jscs.info/' target='_blank' rel='nofollow'>JSCS</a>  
 * <a href='http://eslint.org/' target='_blank' rel='nofollow'>ESLint</a>
+
+
+#### Tools and Plugins
+* <a href='https://prettier.io/' target='_blank' rel='nofollow'>Prettier</a>
