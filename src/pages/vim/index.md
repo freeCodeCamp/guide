@@ -11,5 +11,6 @@ Vim is rock stable and boasts many features including:
 - support for hundreds of programming languages and file formats
 - powerful search and replace
 - integrates with many tools
+- built-in macro support for automation text manipulation
 
 For more information head to <a href='https://vim.sourceforge.io' target='_blank' rel='nofollow'>Vim's homepage</a>

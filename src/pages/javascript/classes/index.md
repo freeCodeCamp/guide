@@ -13,7 +13,7 @@ This article assumes that you have a basic understanding of <a href="/javascript
 For the sake of clarity let us assume that we want to create a class which can do the following
 
 ```javascript
-var p = new Person('James','Anderson'); // call a static method to create a new Person
+var p = new Person('James','Anderson'); // create a new instance of Person class
 	p.log() // Output: 'I am James Bond' // Accessing a function in the class
 	// Using setters and getters 
 	p.profession = 'spy'
