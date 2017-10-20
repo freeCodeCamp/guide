@@ -1,15 +1,23 @@
----
-title: Area of a Circle
----
+
 ## Area of a Circle
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/area-of-a-circle/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+## Formula
+Area of circle= A = π r<sup>2</sup>
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+## Definition
+
+In geometry, the area enclosed by a circle of radius r is π r<sup>2</sup>. Here the Greek letter π represents a constant, approximately equal to 3.14159, which is equal to the ratio of the circumference of any circle to its diameter.
+
+
+### Radius
+
+It is the distance between center of circle and any point on the circle.
+
+### Further reference
+
+https://en.wikipedia.org/wiki/Area_of_a_circle<br>
+https://www.khanacademy.org/math/basic-geo/basic-geo-area-and-perimeter/area-circumference-circle/v/area-of-a-circle
 
 
