@@ -51,3 +51,7 @@ _**Note:**_ If you want to execute more than one statement in the `if`, `else` o
       flag = 1;
       return "Invalid number";
     }
+
+ **Using** `Conditional (ternary) Operator`:
+ 
+    (x > 5) ? "X is larger than 5" : "X is smaller than 5";
