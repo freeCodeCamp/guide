@@ -2,7 +2,7 @@
 title: Intro to Matrices
 ---
 ## Intro to Matrices
-A matrices is composed by a 2D array, or better, a rectangular array. Above you can see how its organized.
+A matrices is composed by a 2D array, or better, a rectangular array. Below you can see how its organized.
 
 ![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Matrix.svg/494px-Matrix.svg.png)
 
