@@ -12,4 +12,13 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
+Semantics is the study of the meanings of words and phrases in a language.
 
+`Semantic elements = elements with a meaning.`
+
+<H2>What are Semantic Elements?</H2>
+A semantic element clearly describes its meaning to both the browser and the developer.
+
+Examples of non-semantic elements: `<div> and <span>` - Tells nothing about its content.
+
+Examples of semantic elements: `<form>, <table>, and <article>` - Clearly defines its content.
