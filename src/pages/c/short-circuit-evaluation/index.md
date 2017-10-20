@@ -40,16 +40,26 @@ The example above is equivalent to:
  
  ```
 #include <stdio.h>
+#include <stdlib.h>
 
-int main(int argc, char **argv) {
-  
-  // Get first argument passed via terminal.
+char *getName();
+
+int main(int argc, char *argv[]) { 
+  // Get first argument passed via terminal
   char *name = argv[1];
 
-  // If name is not passed via terminal then print message and then request the name
-  name || printf("Please, give me your name: ") && scanf("%s", &name); 
-  
-  printf("Hello %s\n", &name);
+	// If name is not passed via terminal then print message and then get the name
+	name || printf("Please give me your name:") && (name = getName()); 
+
+	printf("Hello %s\n", name);
+}
+
+char *getName() {
+	// Allocate memory 
+	char *name = malloc(30);
+	
+	scanf("%s", name);
+	return name;
 }
 ```
  
