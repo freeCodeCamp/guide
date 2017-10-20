@@ -3,9 +3,10 @@ title: Imposter Syndrome
 ---
 ## Imposter Syndrome
 
-A feeling of _being a fraud_ or _not good enough_ to get the job done. Common among software engineers, developers and designers working in tech companies. People suffering from imposter syndrome have a sense of inadequacy and insecurity concerning their ability to make a contribution at the workplace. In reality, they maybe perfectly capable of and do contribute successfully to their tasks.
+A feeling of _being a fraud_ or _not good enough_ to get the job done. Common among software engineers, developers and designers working in tech companies. People suffering from imposter syndrome have a sense of inadequacy and insecurity concerning their ability to make a contribution at the workplace. In reality, they may be perfectly capable of and do contribute successfully to their tasks.
 
 These thoughts are fairly common if you suffer from imposter syndrome:
+
 
 * "What am I doing here?" 
 * "I am not a developer. I am fooling myself and other people" (feels fake)
