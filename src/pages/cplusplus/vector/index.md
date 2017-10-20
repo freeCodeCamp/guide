@@ -17,6 +17,7 @@ Using an intializer list - where objects are listed inside a set of braces: `{ }
 ```cpp
 std::vector<int> a{1, 2, 3, 4, 5}; // a is a vector of 5 ints: 1, 2, 3, 4 and 5
 std::vector<std::string> b{"hello", "world"}; // b is a vector of 2 strings: "hello" and "world"
+std::vector<bool> v; // v is an empty vector 
 ```
 
 Constructing it from another vector (this is known as a copy construction)
@@ -43,4 +44,12 @@ std::string last_item = a.back(); // gets the last item in the vector ("access")
 std::string second_item = a.at(2); // gets "element"
 // OR
 std::string second_item = a[2]; // gets "element"
+```
+
+
+### Member Functions
+There are some functions which will change the size of vectors , these functions are known as <b>Modifiers</b>
+```
+push_back() //It will add the new element at the end of the vector.
+pop_back() //It will delete the new element from the end of the vector.
 ```
