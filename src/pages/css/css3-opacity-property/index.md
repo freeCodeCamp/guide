@@ -3,13 +3,20 @@ title: CSS3 Opacity Property
 ---
 ## CSS3 Opacity Property
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/css3-opacity-property/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Set the opacity level for a DOM element.  
+  
+The opacity-level describes the transparency-level, where 1 is not transparent at all, 0.5 is 50% see-through, and 0 is completely transparent. Transparency describes the amount of visibility of the element behind the targeted element.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Using opacity with a value other than 1 places the element in a new ![stacking context](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context).
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Example code for setting a ```<div>``` element opacity to 50%:
+
+```
+div {
+    opacity: 0.5;
+}
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+![MDN CSS3 Opacity](https://developer.mozilla.org/en-US/docs/Web/CSS/opacity)  
+![w3 CSS3 Opacity](https://www.w3schools.com/cssref/css3_pr_opacity.asp)  
