@@ -1,5 +1,5 @@
 ---
-title: 3- Logical Operators and If Statements
+title: Logical Operators and If Statements
 ---
 # If Statements in C
 Sometimes you only want code to run in a certain situation. That's where If statements come in- if something is true, the code will be executed; if it isn't true, the code will not be executed.
@@ -133,7 +133,7 @@ if(12452) {
 
 By design, 0 is false, and by convention, 1 is true. In fact, here's a look at the `stdbool.h` library described earlier:
 
-``` c
+```C
 #define false   0
 #define true    1
 ```
