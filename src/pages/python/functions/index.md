@@ -3,13 +3,39 @@ title: Functions
 ---
 ## Functions
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/python/functions/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+A function is a block of organized, reusable code that is used to perform a specific task. Functions help us with better modularity and code reusability.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+#### Syntax of function declaration
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```python
+def function_name(parameters):
+	"""docstring"""
+	statement(s)
+  
+```
+
+#### Example Function
+
+```python
+def sum(a, b):
+	"""This function add the two
+     numbers passed in as parameter
+     and prints them. """
+	print("Sum = " , a+b)
+
+```
+
+#### Calling a function
+
+```python
+>>> sum(4,5)
+Sum =  5
+
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+
+<a href='https://www.programiz.com/python-programming/function' target='_blank' rel='nofollow'> Nice Tutorial</a>
+
 
 
