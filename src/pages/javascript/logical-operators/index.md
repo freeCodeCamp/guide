@@ -1,15 +1,26 @@
 ---
 title: Logical Operators
 ---
-## Logical Operators
+Logical operators compare Boolean values and return a Boolean response.  There are two types of logical operators - Logical AND, and Logical OR. These operators are often written as && for AND, and || for OR.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/logical-operators/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+#### Logical AND ( && )
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The AND operator compares two expressions and returns true only if both are true.  If one or both expressions evaluate false, the entire statement will return false.  
+```js
+true && true //returns true
+true && false //returns false
+false && false //returns false
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+#### Logical OR ( || )
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+The OR operator compares two expressions and returns true only either expression is true.  Both expressions can be true, but only one is needed to get a 'true' result.  
+```js
+true && true //returns true
+true && false //returns true
+false && false //returns false
+```
 
+#### More information:
 
+[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators).

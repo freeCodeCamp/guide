@@ -24,7 +24,7 @@ Social Engineering is the art of gaining access to a secured system or resource 
 
 
 #### More Information:
-Read on more information on social engineering hacks and steps you can take to protct yourself from one:
+Read on more information on social engineering hacks and steps you can take to protect yourself from one:
 [What is Social Engineering?](https://www.webroot.com/us/en/home/resources/tips/online-shopping-banking/secure-what-is-social-engineering)
 
 [Protect Yourself from Social Engineering Attacks](http://www.makeuseof.com/tag/protect-8-social-engineering-attacks/)
