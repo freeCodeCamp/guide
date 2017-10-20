@@ -2,14 +2,24 @@
 title: Doctype Declaration
 ---
 ## Doctype Declaration
+The `<!DOCTYPE>` declaration identifies the language the webpage is written in. This declaration is not an HTML tag, but rather a notification to the browser that ensures the browser will display the page correctly.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/doctype-declaration/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The simplest doctype is `html`. This is the recommended doctype, indicating the webpage is written with HTML 5. Other valid doctypes include XHTML and older versions of HTML.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The doctype declaration must always appear first in your HTML documents, before anything else.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+#### Example
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document Title</title>
+  </head>
+  <body>
+    <!-- The content of the document goes here. -->
+  </body>
+</html>
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+Refer to the [MDN Web Docs glossary](https://developer.mozilla.org/en-US/docs/Glossary/Doctype) and the [w3schools article](https://www.w3schools.com/tags/tag_doctype.asp).
