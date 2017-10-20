@@ -11,10 +11,6 @@ import {
   resetSearch
 } from '../../layouts/components/search/redux';
 
-import {
-  colourDarkGrey
-} from '../../css/Global.module.css';
-
 const propTypes = {
   isSearching: PropTypes.bool,
   lastPage: PropTypes.string,
@@ -48,7 +44,7 @@ function SearchPage(props) {
   const { isSearching, lastPage, results, searchTerm } = props;
   return (
     <div>
-      <h2 className={ colourDarkGrey }>Search Results</h2>
+      <h2 className='colourDarkGrey'>Search Results</h2>
       {
         isSearching ?
           <ResultsSkeleton /> :
