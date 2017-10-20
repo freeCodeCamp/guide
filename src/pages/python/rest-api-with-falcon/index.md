@@ -1,6 +1,5 @@
 ---
 title: REST APIs with Falcon
-
 ---
 
 
