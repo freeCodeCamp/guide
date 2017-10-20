@@ -6,7 +6,7 @@ title: CSS Display
 The display property specifies the type of box used for an HTML element. It has 20 possible keyword values. The commonly used ones are:
 
 ```css
-    .none             {display: none}
+    .none             {display: none} //hidden
     .block            {display: block}
     .inline-block     {display: inline-block}
     .inline           {display: inline}
