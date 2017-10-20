@@ -1,6 +1,10 @@
+---
+title: Motions
+---
+
 # Vim Basic Motions
 
-## Cursors motions
+### Cursors motions
 
 First in VIM we can use the arrow keys if we like to move around the text file, but it is not the best way to do so,
 and we lost the advantage of combine commands that VIM provides.
@@ -24,7 +28,7 @@ The advantage in use this keys instead of the arrow keys, is you can combine mot
   - `10l` -> move 10 caracters right
   - `2h`  -> move 2 characters left
  
-## Words Motions
+### Words Motions
 
 A word consists of a sequence of letters, digits and underscores, or a
 sequence of other non-blank characters, separated with white space (spaces,
@@ -49,7 +53,7 @@ With this motions combined with other commands you can do things like:
 - `dw` -> delete the word
 - `5e` -> move to the end of the 5th word from here
 
-## Search motions
+### Search motions
 
 Another way to move throught the position you like, is using the search motions, the search motions consists in the 
 motion + a character to search
@@ -61,7 +65,7 @@ motion + a character to search
   - `Tx` -> move to first position after the previous `x`
   - `,` -> previous x
   
-  ## Begin and End of lines
+### Begin and End of lines
   
   You can also move to begin or end of line with VIM, with this commands:
   
@@ -69,7 +73,7 @@ motion + a character to search
    - `^` -> First non-black character of the line
    - `$` -> End of the line
    
-## File motions
+### File motions
 
 In VIM you can move throught the file using this commands:
 
