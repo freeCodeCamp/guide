@@ -17,6 +17,10 @@ Adding and subtracting positive numbers is fairly straighforward, but what does 
 
 20 + (-44) = -24
 
+2 - (-10) = 12
+
+(-4) - (-2) = -2
+
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
