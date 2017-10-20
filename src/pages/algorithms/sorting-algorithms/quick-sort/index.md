@@ -5,7 +5,7 @@ title: Quick Sort
 
 Quick sort is an effiecient divide and conquer sorting alorithm. It works by recursively partitioning the list along a pivot element.
 
-Average case time complecity of Quick Sort is O(nlog(n)) with worst case time complexity being O(n^2). The choice of the pivot plays an important role in determinng the efficiency fo the sort algorithm.
+Average case time complecity of Quick Sort is O(nlog(n)) with worst case time complexity being O(n^2). The choice of the pivot plays an important role in determinng the efficiency fo the sort algorithm. Although its worst case time complexity may make it seem less efficient than mergesort or heapsort, quicksort, if well implemented, runs faster than most other comparison based sorting algorithms in practice. 
 
 The steps involved in Quick Sort are :
 - Picking an element, the pivot element, from the array.
