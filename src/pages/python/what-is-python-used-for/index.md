@@ -3,13 +3,9 @@ title: What Is Python Used for
 ---
 ## What Is Python Used for
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/python/what-is-python-used-for/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Python can be used for any programming task, from GUI programming to web programming with everything else in between. It's quite efficient, as much of its activity is done at the C level. Python is just a layer on top of C. There are libraries for everything you can think of: game programming and openGL, GUI interfaces, web frameworks, semantic web, scientific computing...
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
+More information about Python applications can be foun [here](https://www.python.org/about/apps/)
 
