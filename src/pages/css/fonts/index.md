@@ -13,3 +13,4 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 [Useful link to learn fonts in CSS.](https://www.w3schools.com/css/css_font.asp)
 
+Font is how the fonts look. You can get fonts from google fonts and many other sources online. If you got to https://fonts.google.com/ they even explain how to add these to your projects.
