@@ -1,15 +1,32 @@
 ---
 title: File Handling
 ---
-## File Handling
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/acceptance-testing/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+In C programming language the programmer can use the `fopen()` function to create a new file or open an existing one. This call will initialize an object of the type FILE, which contains all the information necessary to control de stream. The prototype of this function is as follows:
+```C
+FILE *fopen(const char * filename, const char * mode);
+```
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Here, **filename** is a string literal, which you will use to name your file, and access **mode** can have one of the following values:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+| Mode        | Examples           | 
+| ------------- |-------------|
+| r     | Opens an existing text file for reading purpose. | 
+| w      | Opens a text file for writing. If it doesn't exist, then a new file is created. Here your program will start writing content from the beginning of the file.      |  
+| a | Opens a text file for writing in appending mode. If it doesn't exist, then a new file is created. Here your program will start appending content in the existing file content.       |
+| r+ | Opens a text file for both reading and writing.      |
+| w+ | Opens a text file for both reading and writing. It first truncates the file to zero length if it exists, otherwise creates a file if it doesn't exist.     |
+| a+ | Opens a text file for both reading and writing. It creates the file if it doesn't exist. The reading will start from the beginning but writing can only be appended.      |
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+
+## Example
+```C
+void openFile() {
+  FILE* f;
+  
+  f = fopen("fileName.txt", "r");
+}
+```
+
 
 
