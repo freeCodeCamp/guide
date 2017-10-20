@@ -1,4 +1,6 @@
-
+---
+title: Continuous Integration
+---
 ## Continuous Integration
 
 Continuous Integration is a modern software development process which is a major part of a 'DevOps' culture. Developers working within this environment commit their code multiple times per day on to a centralised platform to continuously ensure that the code passes its tests. 
