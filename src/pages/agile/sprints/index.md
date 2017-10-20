@@ -3,11 +3,10 @@ title: Sprints
 ---
 ## Sprints
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/sprints/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Sprints are the basic time measurement unit in an Agile Scrum. Sprints have a fixed duration, with most teams using a sprint duration between one week and one month, and two weeks being most common. The goal of a sprint is to pull specific objectives or tasks from a sprint backlog, work solely on that effort, and produce a working product at the conclusion of the sprint, often including documentation, testing, and integration
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The sprint itself is when the development occurs, but it is not a standalone event. Prior to a sprint there is typically a sprint planning event that defines the sprint backlog, identifies what work will be accomplished in the sprint, and creates an estimated forcast for the sprint goal. After the conclusion of the sprint there is typically a sprint review that shares progress with stakeholders and identifies lessons and ways to improve.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
