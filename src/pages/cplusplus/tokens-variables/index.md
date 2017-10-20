@@ -15,38 +15,25 @@ Tokens are the smallest unit of a program which are importanat to the compiler. 
 
 ### What are Variables ?
 
-* Textbook defination : Variables are named memory locations whoose data can be altered.
+* Textbook definition : Variables are named memory locations whose data can be altered.
 
 * But I would like you to think of a variable to be something like a box, something like this : 
     ![Img](https://i.imgur.com/YdbgWHL.png)
 
 So, for example :
-   I'm shifting to a new place and I need to arrange my stuff in boxes . Thus there come 2 things to my mind  **What kind of stuff will be stored in the box, so that the size off the box is known (the data type)** and **How do I identify the box ?(Naming the variable)**  
+   I'm shifting to a new place and I need to arrange my stuff in boxes . There are 2 things that come to my mind  **What kind of stuff will be stored in the box, so that the size off the box is known (the data type)** and **How do I identify the box ?(Naming the variable)**  
    Hence , we know that a variable in C++ needs a *name* and a *data type* and that the value stored in them can be changed.
    
 #### Data Types in C++ : 
-Data Type       Size allocated in memory        Example
-
-* char               1 byte                     char a; a='a';
-(character)
-
-* short             2 bytes                     short b; b = 1;
- (short integer)
-
-* int               4 bytes                     int c; c=450;
-  (holds integers)
-
-* long              8 bytes                     long l; l= 99000;
- (Long integer)
-
-* float             4 bytes                     float f; f=3.14159
- (floating integers, integers with decimals)
-
-* double            8 bytes                     double d; d=3.141592653579
-  (doubles or larger floats )
-
-* bool              1 byte                      bool bb; bb=0;
- (boolean values: 0 or 1)
+| Data Type      | Size allocated in memory  | Example |
+|---             |---                        |---      |
+| char      (character)     |    1 byte                 |```char a; a='a';```|
+| short   (short integer)|   2 bytes                 |``` short b; b = 1;```|
+| int       (holds integers)       |   4 bytes                 |```int c; c=450;```|
+| long   (Long integer)         |   8 bytes                 |```long l; l= 99000;```|
+| float  (floating integers, integers with decimals)         |  4 bytes                  |```float f; f=3.14159```|
+| double   (doubles or larger floats )       |  8 bytes                  |```double d; d=3.141592653579```|
+| bool   (boolean values: 0 or 1)          |  1 byte                   |```bool bb; bb=0;```|
 
 #### Identifiers.
 
@@ -61,7 +48,7 @@ Data Type       Size allocated in memory        Example
 #### Declaring a variabe :
 The syntax is as follows ~
 
-<Data-type> <Variable-name> ; 
+data_type variable_name ; 
 
 For example :
  ```C++
@@ -70,9 +57,16 @@ For example :
  ```
 
 **Examples  of declaring a variable:**
-   int a9; char A; double area_circle;      long l;
+   ```int a9; 
+   char A; 
+   double area_circle;      
+   long l;```
 
-**Wrong ways to declare variables**- int 9;  char -a; double area of circle ; long l!!;
+**Wrong ways to declare variables**- 
+```int 9;  
+char -a; 
+double area of circle ; 
+long l!!;```
 - There are use of numbers in the beginning of the name ; special characters are used ; spaces are not allowed; special characters are used.
  
 - Similarly you can imagine different boxes of different sizes and storing different things as different variabls.
