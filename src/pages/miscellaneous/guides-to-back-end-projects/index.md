@@ -29,7 +29,7 @@ Here you will find articles that will help you learn more and complete your back
     *   <a href="https://guide.freecodecamp.org/miscellaneous/get-information-about-the-current-user-in-angularjs">Get info about the current user</a>
     *   <a href="https://guide.freecodecamp.org/miscellaneous/restrict-access-to-authenticated-users-only">Restrict a page to authenticated users</a>
     *   <a>JS-IsLoggedInAsync</a>
-*   <a>Bonus: SocketIO</a>
+*   <a href="https://guide.freecodecamp.org/miscellaneous/angular-socketio">Bonus: SocketIO</a>
 
 *   <a>Epilogue</a>
 
