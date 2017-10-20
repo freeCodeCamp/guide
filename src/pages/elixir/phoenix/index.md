@@ -36,7 +36,7 @@ $ cd <application_name>
 $ mix ecto.create
 ```
 
-5. Finall, we'll start our server up:
+5. Finally, we'll start our server up:
 ```shell
 $ mix phx.server
 ```
