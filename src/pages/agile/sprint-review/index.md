@@ -3,13 +3,9 @@ title: Sprint Review
 ---
 ## Sprint Review
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/sprint-review/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+A Sprint Review is held at the end of the Sprint. The Scrum Team presents the results of of the past Sprint to the End User. The Sprint Review allows every participant to try out the new functionality.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The participants of the Sprint Review are the Development Team, the Scrum Master, the Product Owner, and the End User.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+This is a four-hour time-boxed meeting for one-month Sprints. For shorter Sprints, the event is
+usually shorter.
