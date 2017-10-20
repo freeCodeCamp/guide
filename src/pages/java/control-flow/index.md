@@ -9,7 +9,7 @@ Primarily, Java has the following constructs for flow control:
 
 *   `if`
     ```java
-    if( <expression that results in a boolean>){
+    if( <expression that results in a boolean> ){
         //code enters this block if the above expression is 'true'
     }
     ```

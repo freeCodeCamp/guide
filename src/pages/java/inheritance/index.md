@@ -80,7 +80,7 @@ Since you can reference a Java subclass as a superclass instance, you can cast a
 ```java
 Car car = new Car();
 Vehicle vehicle = car; // upcasting
-Car car2 = (Car)vechile; //downcasting
+Car car2 = (Car)vechile; // downcasting
 
 Bike bike = new Bike(); // say Bike is also a subclass of Vehicle
 Vehicle v = bike; // upcasting, no problem here.
@@ -137,7 +137,7 @@ public class Vehicle() {
 public class Car extends Vehicle {
     public void run() {
       super.start();
-  }
+    }
 }
 
 Car car = new Car();

@@ -21,7 +21,7 @@ Allows a variable or method to only be accessed in the class in which it was cre
  Another example for a method is
  ```java
  private void setAge(){
- System.out.println("Set Age");
+ 	System.out.println("Set Age");
  }
  ```
  The above example ensures that the method setAge is accessible only within the class from which it was created and nowhere else.
@@ -42,6 +42,7 @@ Allows a variable or method to only be accessed in the class in which it was cre
 ```java
 public int age;
 public int getAge(){
+
 }
 ```
     
@@ -54,6 +55,7 @@ For example, to use the default access modifier for a class, you use
 
 ```java
 class Bird{
+
 }
 ```
     
@@ -63,6 +65,7 @@ Any variable, method, or class declared to use the default access modifier canno
 ```java
 int age;
 void setNewAge(){
+
 }
 ```
     
