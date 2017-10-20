@@ -3,13 +3,10 @@ title: SQL General Data Types
 ---
 ## SQL General Data Types
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/sql/sql-general-data-types/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+SQL general data types consist of the following: 
+1. A text- and/or numeric-based value, often referred to as a STRING
+2. A numeric-only value, often referred to as an INTEGER
+3. A calendar- and/or clock-based value, often reffered to as DATE or TIME
+4. A database-specific value such as a boolean (two-option) flag, an array that stores multiple values within one data point
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+More information on the specific data types in SQL can be found in the [SQL Data Types] (https://guide.freecodecamp.org/sql/sql-data-types/) section of freeCodeCamp.
