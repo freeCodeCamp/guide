@@ -3,9 +3,20 @@ title: A Tag
 ---
 ## A Tag
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/a-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The a tag is used to define hyperlinks in your html, which can be used to navigate from one page to another.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+This includes links to internal routes with in your site as well as external links.
+
+External:
+```html
+<a href="https://github.com/">Visit Github</a>
+```
+
+Internal:
+```html
+<a href="/home">Home</a>
+```
+
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
