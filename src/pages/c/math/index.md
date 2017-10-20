@@ -1,5 +1,5 @@
 ---
-title: 4- Basic Math
+title: Basic Math
 ---
 # Math in C
 C provides a lot of options for doing math. We'll start with some of the more common ones first.
