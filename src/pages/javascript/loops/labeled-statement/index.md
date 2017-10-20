@@ -3,7 +3,7 @@ title: Labeled Statement
 ---
 ## Labeled Statement
 
-The **Labeled Statement** is used with the **break** and **continue** statements and serves to identify the statement to which the **break** and **continue** statements apply.
+The **Labeled Statement** is used with the `break` and `continue` statements and serves to identify the statement to which the `break` and `continue` statements apply.
 
 ### Syntax
 ``` javascript
@@ -11,20 +11,20 @@ labelname:
   statements
 ```
 ### Usage
-Without the use of a **labeled** statement the **break** statement can only break out of a loop or a **switch** statement. Using a **labeled** statement allows **break** to jump out of any code block.
+Without the use of a `labeled` statement the `break` statement can only break out of a loop or a `switch` statement. Using a `labeled` statement allows `break` to jump out of any code block.
 #### Example
 ``` javascript
 foo: {
-  console.log("This prints.");
+  console.log("This prints:");
   break foo;
   console.log("This will never print.");
 }
 console.log("Because execution jumps to here!")
 /* output
-This prints. 
+This prints: 
 Because execution jumps to here! */
 ```
-When used with a **continue** statement the **labeled** statement allows you to skip a loop iteration, the advantage comes from being able to jump out from an inner loop to an outer one when you have nested loop statements. Without the use of a **labeled** statement you could only jump out of the existing loop iteration to the **next iteration of the same loop.**
+When used with a `continue` statement the `labeled` statement allows you to skip a loop iteration, the advantage comes from being able to jump out from an inner loop to an outer one when you have nested loop statements. Without the use of a `labeled` statement you could only jump out of the existing loop iteration to the `next iteration of the same loop.`
 #### Example
 ``` javascript
 // without labeled statement, when j==i inner loop jumps to next iteration
@@ -75,5 +75,5 @@ j=1
 */
 ```
 
-#### More Information:
-[MDN] https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/label
+### More Information:
+[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/label)
