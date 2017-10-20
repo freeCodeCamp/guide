@@ -3,13 +3,14 @@ title: Minimum Viable Product
 ---
 ## Minimum Viable Product
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/minimum-viable-product/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+A Minimum Viable Product (MVP) is a product with just enough features to satisfy early customers and to start collecting feedback from real-life users for future product development. Some say an MVP needs to be complete enough to sell. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+> "It's not an MVP until you sell it. Viable means you can sell it."
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+The concept became popular thanks to a book by Eric Ries, called [The Lean Startup](http://theleanstartup.com/). 
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
+[What is a Minimum Viable Product](https://blog.leanstack.com/minimum-viable-product-mvp-7e280b0b9418)
+[The Lean Startup](http://theleanstartup.com/)
 
