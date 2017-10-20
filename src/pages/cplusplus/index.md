@@ -99,3 +99,7 @@ Download Link : [Download Here](http://www.codeblocks.org/downloads/26)
 * Click the link with the GNU/GCC compiler for windows. This will not require an additional installation
 
 Link #2 for Mac : [Download for Mac #2 here](https://developer.apple.com/xcode/)
+
+**Another software recommendation would be Atom. With Atom you can not only write C++ code, but almost any other language as well. The link to the site is below:**
+
+https://atom.io/
