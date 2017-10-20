@@ -2,6 +2,7 @@
 title: Open Source
 ---
 ## Open Source
+## Denoting Software for which the original source code is made freely available and may be redistributed and modified.
 
 Open source software is any type of software that is available to the public to see or to be downloaded for free. Anyone is capable of creating a open source project.
 
