@@ -38,7 +38,7 @@ padding: 5px 1em 0 1em;
 The padding property in CSS defines the innermost portion of the box model, creating space around an element's content, inside of any defined margins and/or borders.
 
 ![The CSS Box Model](https://www.w3.org/TR/css3-box/box.png)
-
+My changes if you look inpect an element using the inspector you can see the box model in use,  even on rounded  or curved objects there is still a box around each element. 
 
 ## Browser Support
 It is effectively supported in all browsers (since IE6+, Firefox 2+, Chrome 1+ etc)
