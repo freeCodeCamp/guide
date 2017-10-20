@@ -4,6 +4,7 @@ title: Promises
 ## Promises
 JavaScript is single threaded, meaning that two bits of script cannot run at the same time; they have to run one after another. A Promise is an object that represents the eventual completion (or failure) of an asynchronous operation, and its resulting value.
 
+### Here is how you create a promise:
 ```javascript  
 var promise = new Promise(function(resolve, reject) {
   // do thing, then…
@@ -15,6 +16,14 @@ var promise = new Promise(function(resolve, reject) {
     reject(Error("It broke"));
   }
 });
+```
+### Here is how you use the promise:
+```javascript
+promise.then(function(result) {
+  console.log(result); // "See, it worked!"
+}, function(err) {
+  console.log(err);  // "It broke"
+})
 ```
 
 ## A Promise exists in one of these states:
