@@ -13,8 +13,8 @@ You're done! You successfully have new fonts for your site.
 <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts">Web fonts overview from Mozilla Developer</a>
 
 ##### Additional Resources:
-..* <a href="http://fonts.google.com">Google Fonts</a>
-..* <a href="http://www.fontspace.com">FontSpace</a>
-..* <a href="http://fontsquirrel.com">Font Squirrel</a>
-..* <a href="http://www.dafont.com">DaFont</a>
-..* <a href="http://www.1001freefonts.com">1001 Free Fonts</a>
+* Google Fonts - [http://fonts.google.com](http://fonts.google.com)
+* FontSpace - [http://www.fontspace.com](http://www.fontspace.com)
+* Font Squirrel - [http://fontsquirrel.com](http://fontsquirrel.com)
+* DaFont - [http://www.dafont.com](http://www.dafont.com)
+* 1001 Free Fonts - [http://www.1001freefonts.com](http://www.1001freefonts.com)
