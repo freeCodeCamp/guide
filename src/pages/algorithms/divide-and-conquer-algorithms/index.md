@@ -3,9 +3,22 @@ title: Divide and Conquer Algorithms
 ---
 ## Divide and Conquer Algorithms
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/algorithms/divide-and-conquer-algorithms/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Divide and Conquer is a popular recursive algorithmic paradigm. This approach involves three steps:
+Step 1 - 
+  Dividing the bigger problem into many smaller, independent subproblems.
+Step 2 - 
+  Solving subproblems recursively.
+Step 3 -
+  Combining solution of subproblems to get the solution to the original problem.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+A subproblem must not be dependent on other subproblem for its solution. 
+
+Example of Divide And Conquer:
+
+<a href="https://guide.freecodecamp.org/algorithms/search-algorithms/binary-search">Binary Search</a>
+<a href="https://en.wikipedia.org/wiki/Quicksort">Quick Sort</a>
+<a href="https://en.wikipedia.org/wiki/Merge_sort">Merge Sort</a>
+<a href="https://en.wikipedia.org/wiki/Strassen_algorithm">Strassen’s Algorithm for matrix multiplication</a>
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
