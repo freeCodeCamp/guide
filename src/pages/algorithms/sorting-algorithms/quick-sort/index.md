@@ -59,3 +59,4 @@ vector<int> quick_sort(vector<int> arr) {
 #### More Information:
 
 - <a href='https://en.wikipedia.org/wiki/Quicksort' target='_blank' rel='nofollow'>Wikipedia</a>
+- <a href='http://www.geeksforgeeks.org/quick-sort' target='_blank' rel='nofollow'>GeeksForGeeks</a>
