@@ -1,15 +1,29 @@
 ---
-title: A Tag
+title: a-tag
 ---
-## A Tag
+## a-tag  
+The a-tag defines a hyperlink, which is used to link from one page to another.  
+The most important attribute of the <a> element is the href attribute, which indcates the link's destination.    
+The a-tag is a Paired tag because it requires a companion tag, <a> is the opening tag and </a> is companion closing tag.          
+##   
+```html
+  <a> is the opening tag and </a> is the companion closing tag
+```
+  
+## Example   
+```html
+<html>
+  <body>
+    <a href="Link's destination">LINK's TEXT</a>
+  </body>
+</html> 
+```
+## Note
+```html
+LINK's TEXT is the text which will be displayed on the browser which on clicking will direct the user      
+to Link's destination.  
+```
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/a-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
 
