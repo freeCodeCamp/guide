@@ -2,7 +2,7 @@
 Penetration Testing
 ---
 
-Penetration Testing is a method that many companies follow in order to minimize their security breaches. This is a controlled way of hiring a professional who will try to hack your system and show you the loopholes that you should fix.
+Penetration Testing is a method that many companies follow in order to minimize their security breaches. This is a controlled way of hiring a professional who will try to hack your system and show you the loopholes that how you should fix.
 
 Before doing a penetration test, it is mandatory to have an agreement that will explicitly mention the following parameters −
 * what will be the time of penetration test,
