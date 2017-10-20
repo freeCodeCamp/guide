@@ -32,6 +32,10 @@ If all three `start`, `stop` and `step` are provided, it generates portion of se
     print(a[2:])    # prints [3, 4, 5, 6, 7, 8]
     print(a[2:5])    # prints [3, 4, 5]
     print(a[2:7:2])    # prints [3, 5, 7]
+    
+## String Reversing
+
+An interesting thing you can do with string slicing is to reverse a string by taking advantage of `step`. A string `example` can be reversed using a step of -1, such as `example[::-1]`.
 
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CT5h' target='_blank' rel='nofollow'>Run Code</a>
 
