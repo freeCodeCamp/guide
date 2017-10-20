@@ -1,5 +1,5 @@
 ---
-title: 7- Functions
+title: Functions
 ---
 # Functions in C
 Sometimes you have a chunk of code that you need to use over and over, but at different times and places in your code. You could copy and paste it over and over, but that's not a great solution- your file size ends up being bigger, your code is harder to debug, and your code is harder to read. Instead, use a function: functions are like mini-programs that exist within your code. You can pass them variables to use, and they can give back data.
