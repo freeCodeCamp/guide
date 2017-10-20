@@ -135,3 +135,11 @@ _CONGRATULATIONS! You have reached the end of the second article_
  **Feel free to ask any queries on FreeCodeCamp's GitHub page or [FreeCodeCamp's Forum .](https://forum.freecodecamp.org/)**
 
 By Jaithra Bhatia and Hitarth Asrani.
+
+---
+title: Libraries
+---
+# Libraries
+Libraries are fundemental to succesful programming in c++. Libraries such as the iostream library make programming a breeze. 
+## Examples of usefuleness
+If we choose not to include the iostream libriary we would greatly reduce the productity of our code. For example, without the iostream we wouldn't be able to as easily overload the '<<' operators whitch means no cout. Sadness ensues.
