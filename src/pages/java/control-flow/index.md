@@ -28,11 +28,11 @@ Primarily, Java has the following constructs for flow control:
 Switch is an alternative for the `if...else` construct when there are multiple values and cases to check against.
 
 ```java
-switch( <integer / String / Enum > ){
-    case <int/String/Enum>: 
+switch( <integer / byte / short / char / String / Enum  > ){
+    case <int/byte/short/char/String/Enum>: 
         <statements>
         break;
-    case <int/String/Enum>:
+    case <int/byte/short/char/String/Enum>:
         <statements>
     default:
         <statements>
