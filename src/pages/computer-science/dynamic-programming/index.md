@@ -1,7 +1,5 @@
 ---
-
 title: Dynamic Programming
-
 ---
 
 ## Dynamic Programming
