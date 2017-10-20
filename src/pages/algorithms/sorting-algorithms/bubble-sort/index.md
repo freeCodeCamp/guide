@@ -39,6 +39,14 @@ Now, the array is already sorted, but our algorithm does not know if it is compl
 
 ( 1 2 4 5 8 ) –> ( 1 2 4 5 8 )
 
+#### Properties
+- Space complexity: O(1)
+- Best case performance: O(n)
+- Average case performance: O(n\*n)
+- Worst case performance: O(n\*n)
+- Stable: Yes
+#### Other Resources
 
-
+- [Wikipedia](https://en.wikipedia.org/wiki/Bubble_sort)
+- [Bubble Sort Algorithm - MyCodeSchool (video)](https://www.youtube.com/watch?v=Jdtq5uKz-w4)
 
