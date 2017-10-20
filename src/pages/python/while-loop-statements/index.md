@@ -7,58 +7,65 @@ title: While Loop Statements
 
 In python, while implement a while loop using :
 
-    while condition:
-        do something
-
+```python
+while condition:
+    do something
+```
 For example:
 
-    count = 5
-    while count>0 :
-        print count
-        count -= 1
+```python
+count = 5
+while count>0 :
+    print count
+    count -= 1
+```
 
 gives
 
-    5
-    4
-    3
-    2
-    1
-
+```python
+5
+4
+3
+2
+1
+```
 Another example:
 
+```python
+inp = raw_input("Type good")
+while inp != 'good':
     inp = raw_input("Type good")
-    while inp != 'good':
-        inp = raw_input("Type good")
-
+```
 This `while` executes untill we type in `good` on the standard input.
 
 `while` loops are used most frequently for executing a section of code, like receive an input and invoke a funcion, in infinite loops till an exception occurs or a break within `while` is executed. Handling those exceptions within `while` is another story:).
 <br>For example:
 
-    while True:
+```python
+while True:
     inp = raw_input("Type good")
     if inp == 'good':
         break
-
+```
 If the `while` loop contains only a single statment, it can be written on the same line.
-
-    while True: print "Hello World!"  #print 'hello world! in an infinite loop
-
+```python
+while True: print "Hello World!"  #print 'hello world! in an infinite loop
+```
 We can also combine `else` statment with `while`loop:
-
-    c = 5
-    while c>0:
-        print str(c)+" is greater than 0"
-        c -= 1
-    else:
-        print str(c)+" is not greater than 0"
-
+```python
+c = 5
+while c>0:
+    print str(c)+" is greater than 0"
+    c -= 1
+else:
+    print str(c)+" is not greater than 0"
+```
 gives
-
-    5 is greater than 0
-    4 is greater than 0
-    3 is greater than 0
-    2 is greater than 0
-    1 is greater than 0
-    0 is not greater than 0
+```python
+5 is greater than 0
+4 is greater than 0
+3 is greater than 0
+2 is greater than 0
+1 is greater than 0
+0 is not greater than 0
+```
