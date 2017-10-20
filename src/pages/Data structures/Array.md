@@ -15,7 +15,7 @@ int y=arr[2];                 //y=3
 int z=arr[6];                 //z=2  
 ```
 
-# What’s Special About Arrays?
+# Whatâ€™s Special About Arrays?
 
 The key point about array is we have random access that is we have constant time access to any particular element in an array
 * Constant time access to read   
