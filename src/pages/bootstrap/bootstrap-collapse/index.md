@@ -17,28 +17,37 @@ The value in `href` or `data-target` will be the selector of the element to coll
 
 The element to collapse must contain the class `.collapse`. 
 
+### Content element
+
+A paragraph!
+
+```html
+<p>Lorem ipsum dolar, Free Code Camp rocks... </p>
+```
+
+1. Add `.collapse` class to state that the paragraph is a collapsible element.
+2. Add `id` to make this collapsible element accesible for controller element.
+
+```html
+<p id="myParagraph" class="collapse">Lorem ipsum dolar, Free Code Camp rocks... </p>
+```
+
+### Controller element
+
+A button!
+
+```html
+<button>Click Me To See Some Magic!</button>
+```
+
+1. Add `data-toggle="collapse"` attribute to control collapsible element.
+2. Add `data-target="#id"` attribute to reference the collapsible element with its id.
+
+```html
+<button data-toggle="collapse" data-target="#myParagraph">Click Me To See Some Magic!</button>
+```
+
 ## Example
-```html
-<p>
-  <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-    Link with href
-  </a>
-  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-    Button with data-target
-  </button>
-</p>
-<div class="collapse" id="collapseExample">
-  <div class="card card-block">
-    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-  </div>
-</div>
-```
-## Example explained
-*.collapse* hides content
-*.collapsing* is applied during transitions
-*.collapse.show* shows content
-
-### Example
 
 ```html
 <p>
@@ -55,20 +64,6 @@ The element to collapse must contain the class `.collapse`.
   </div>
 </div>
 ```
-
-<p>
-  <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-    Link with href
-  </a>
-  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-    Button with data-target
-  </button>
-</p>
-<div class="collapse" id="collapseExample">
-  <div class="card card-block">
-    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-  </div>
-</div>
 
 ### Using it with JavaScript
 
@@ -99,6 +94,8 @@ $('.collapsible-element').on('show.bs.collapse', function() {
   // for example you want to make an AJAX call to get some data to put in the collapsible element.
 })
 ```
+### See it in Action
+![Alt Text](https://github.com/figengungor/Gif/blob/master/freeCodeCamp/bootstrap/collapse/collapse.gif)
 
 #### More Information:
 
