@@ -26,5 +26,10 @@ If right > l:
 * Sorting In Place: No in a typical implementation
 * Stable: Yes
 
+### Visualization:
+* <a href='https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html'>USFCA</a>
+* <a href='https://www.hackerearth.com/practice/algorithms/sorting/merge-sort/visualize/'>HackerEarth</a>
+
 ### Relevant videos on freeCodeCamp YouTube channel
+
 * <a href='https://youtu.be/TzeBrDU-JaY'>Merge Sort algorithm - MyCodeSchool</a>

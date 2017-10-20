@@ -24,4 +24,6 @@ Depending on the configuration, you may enter a file browser by typing and enter
 ## I Want to Learn Vim!
 Start by pressing `escape` to check if you're in normal mode, press colon `:`, type `Tutor`, and press `enter`.
 
+Vim Golf(https://vimgolf.com/) - A good way to learn from doing vim challenges to get the lowest amount of keystrokes. You can see solutions submitted by others if you can't figure the challenge out.
+
 Read the rest of our Vim Guides to get a better understanding of this powerful editor.
