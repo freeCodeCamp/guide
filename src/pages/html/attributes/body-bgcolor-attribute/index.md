@@ -3,13 +3,17 @@ title: Body Bgcolor Attribute
 ---
 ## Body Bgcolor Attribute
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/attributes/body-bgcolor-attribute/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `<body bgcolor>` attribute defines a background color for the document. This method is obsolete. Use the CSS `background-color` property instead.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+For instance:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+```html
+<html>
+  <head>
+    <title>Target Attribute Example</title>
+  </head>
+  <body bgcolor="#FFFFFF">
+  </body>
+</html>
+```
+The `<body bgcolor>` attribute is obsolete.
