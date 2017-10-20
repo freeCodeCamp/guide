@@ -85,4 +85,10 @@ protected String getName(){
   return "My Name is You";
 }
 ```
-    
+ Some rules
+ There are three Access-Modifiers(public, protected, and private) but four Access Level(public, protected, default, and private) 
+ and classes can acquire only PUBLIC or DEFAULT access.
+ Visibilty of class depends on whether code in one class can
+ -create an instance of another class
+ -extend another class
+ -access methods and variables of another class.
