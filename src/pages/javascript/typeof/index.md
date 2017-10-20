@@ -54,5 +54,16 @@ function(x){
 }
 ```
 
+Even thought this is a useful validation method, we have to be careful because javascript has some weird parts and one of them is the result of `typeof` over particular instructions. For example, in javascript many things are just `objects` so you'll find.
+
+```javascript
+var x = [1,2,3,4]; 
+console.log(typeof x)  // object
+
+console.log(typeof null)  // object
+
+```
+
+
 ### More Information:
 <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof' target='_blank' rel='nofollow'>MDN Documentation for typeof</a> 
