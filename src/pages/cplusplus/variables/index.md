@@ -2,11 +2,11 @@
 title: Variables
 ---
 
-Lets discuss something know as variables. Variables are like a bucket. You can put something in it and then change it 
+Let's discuss something known as variables. Variables are like a bucket. You can put something in it and then change it 
 afterwards when needed.
-In C++ there are many types of variables like Integers, Strings, Booleans and many other.
-Lets look at a simple program using integer variables.Integers can store simple positive and negative values like 0, 1, -1 
-and so on. Any positive or negative value without decimal is an integer. Lets look at a simple program which uses an integer 
+In C++ there are many types of variables like Integers, Strings, Booleans and others.
+Let's look at a simple program using integer variables. Integers can store simple positive and negative values like 0, 1, -1 
+and so on. Any positive or negative value without decimals is an integer. Let's look at a simple program which uses an integer 
 variable.
 
 ```C++
@@ -20,12 +20,12 @@ int main()
     return 0;
 }
 ```
-When you execute this program you will see 5 displayed on the screen
+When you execute this program you will see the number 5 displayed on the screen.
 
 * Note that in the above program // is placed after the lines. Symbol "//" is for commenting our code. Code after the symbol
-  "//" is not execueted in the line where its placed.
+  "//" is not executed in the line where it's placed.
 
-* On line 5 n simple integer variable is declared.
-* On line 6 the value 5 is assigned to the variable a. Now whenever we use the variable a in our program its value will be 5
+* On line 5 an integer variable is declared.
+* On line 6 the value 5 is assigned to variable a. Now whenever we use the variable a in our program, its value will be 5
   unless we change it.
 * On line 7 we display the value of variable a and 5 is printed on the screen.
