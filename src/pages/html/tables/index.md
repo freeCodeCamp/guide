@@ -60,6 +60,38 @@ A more complex HTML table may also include `<caption>`, `<col>`, `<colgroup>`, `
 	</body>
 </html>
 ```
+### Table Example when use row span
+```
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<table>
+<tr>
+<td>STT</td>
+<td colspan=2>NAME</td>
+<td>AGE</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Mr</td>
+<td>ABC</td>
+<td>12</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Ms</td>
+<td>XYZ</td>
+<td>12</td>
+</tr>
+</table>
+
+</body>
+</html>
+```
 
 #### More Information:
 
