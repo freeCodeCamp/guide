@@ -3,13 +3,22 @@ title: Colors
 ---
 ## Colors
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/colors/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+This CSS property allows users to set the text color for elements. Colors can initialized in different ways. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Color name: 
+h1 {
+color: red; 
+}
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+RBG values: 
+h1 {
+color: rgb(255, 0, 0);
+}
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+Or Hexadecimal values: 
+h1 {
+color: #FF0000;
+}
 
+Modern browsers recognize 140 different color names, while using rgb values and hexadecimals will get you access to a wider range of colors to complement your design. The RGB color value is determined by rgb(red, green, blue). Each parament will have a value from 0 to 255 that defines the intensity of the color. The hexadecimal system works off the same premise with FF being the highest value and intensity. Thus red’s value is #FF0000, because the highest value FF is in the red slot. 
 
