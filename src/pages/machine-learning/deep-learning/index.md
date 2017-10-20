@@ -43,6 +43,7 @@ These days there are a variety of deep learning frameworks that allow you specif
 * <a href="https://caffe2.ai/">Caffe2</a>
 
 ### More Information:
+* <a href="http://www.deeplearningbook.org">Deep Learning Textbook</a> 
 * <a href="https://en.wikipedia.org/wiki/Deep_learning">Deep Learning</a>
 * <a href="https://github.com/freeCodeCamp/guides/blob/master/src/pages/machine-learning/neural-networks/index.md">FreeCodeCamp Guide to Neural Networks</a>
 * <a href="http://image-net.org/">Imagenet</a>
