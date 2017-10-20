@@ -1,5 +1,5 @@
 ---
-title: 5- More math
+title: More math
 ---
 
 # More math in C
@@ -145,7 +145,7 @@ To turn a number into an `int`, use `(int)`, to turn it into a `double`, use `(d
 ## Math.h
 So that's all the built-in stuff, but just like how you can `#include` stdio and stdbool, you can include a library called `math.h`. This library has all kinds of helpful functions for all kinds of math. It's worth giving a read to [the Wikipedia page on it](https://en.wikipedia.org/wiki/C_mathematical_functions#Overview_of_functions) if you want the full list of functions. Here's an example on how to use `abs`, which is the first in their list:
 
-```
+```C
 a = abs(-1);
 ```
 `abs` computes the absolute value of the value passed to it. In this case, it's recieved -1, so it will turn that into 1, and `a` will be equal to 1. There are plenty more to give much more functionality, and this is how you'll be able to do exponents, trigonometry, and much more.
