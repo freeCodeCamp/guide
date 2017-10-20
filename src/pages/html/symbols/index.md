@@ -1,5 +1,5 @@
 ---
-title: Symbols
+Title: Symbols
 ---
 ## Symbols
 
