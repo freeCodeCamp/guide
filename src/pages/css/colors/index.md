@@ -7,33 +7,92 @@ Colors can be specificed with predefined color names, RGB, HEX, HSL, RGBA, and H
 
 Here are some examples of the red, blue, and green color values respectivily.<br />
 **Predefined Names**: <br />
-Red <br />
-Green <br />
-Blue <br />
+```css
+h1{
+    color:red;
+  }
+h2{
+    color:green;
+  }
+h3{
+    color:blue;
+  }
+  
+```
 
 **RGB**: <br />
-rgb(255, 0, 0) <br />
-rgb(0, 255, 0) <br />
-rgb(0, 0, 255) <br />
+
+```css
+h1{
+    color:rgb(255, 0, 0);
+  }
+h2{
+    color:rgb(0, 255, 0);
+  }
+h3{
+    color:rgb(0, 0, 255);
+  }
+  
+```
 
 **HEX**: <br />
-#ff0000 or #f00 <br />
-#00ff00 or #0f0 <br />
-#0000ff or #00f <br />
+
+```css
+h1{
+    color:#ff0000;
+  }
+h2{
+    color:#00ff00;
+  }
+h3{
+    color:#0000ff;
+  }
+  
+```
 
 **HSL**: <br />
-hsla(0, 100%, 50%) <br />
-hsla(120, 100%, 50%) <br />
-hsla(240, 100%, 50%) <br />
+
+```css
+h1{
+    color:hsla(0, 100%, 50%);
+  }
+h2{
+    color:hsla(120, 100%, 50%);
+  }
+h3{
+    color:hsla(240, 100%, 50%);
+  }
+  
+```
 
 **RGBA**: <br />
-rgba(255, 0, 0, 1) <br />
-rgba(0, 255, 0, 1) <br />
-rgba(0, 0, 255, 1) <br />
+
+```css
+h1{
+    color:rgba(255, 0, 0, 1);
+  }
+h2{
+    color:rgba(0, 255, 0, 1);
+  }
+h3{
+    color:rgba(0, 0, 255, 1);
+  }
+  
+```
 
 **HSLA**: <br />
-hsla(0, 100%, 50%, 1) <br />
-hsla(120, 100%, 50%, 1) <br />
-hsla(240, 100%, 50%, 1) <br />
+
+```css
+h1{
+    color:hsla(0, 100%, 50%, 1);
+  }
+h2{
+    color:hsla(120, 100%, 50%, 1);
+  }
+h3{
+    color:hsla(240, 100%, 50%, 1);
+  }
+  
+```
 
 
