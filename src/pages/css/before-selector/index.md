@@ -1,15 +1,27 @@
 ---
-title: Before Selector
+title: ::before selector
 ---
-## Before Selector
+## CSS ::before
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/before-selector/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The CSS `::before` creates a pseudo-element that allows you to add content before a selected element. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+For example if you wanted to add arrows to a button element you could use the CSS ::before to add it. 
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+::before pseudo elements are inline by nature. 
+ 
+ Example syntax:
+ 
+```css
+.button::before { 
+  content: "<<";
+  color: #ff47da;
+  padding-right:1em;
+}
+```
+Here you add the `::before` to the .button class to add << before the text. Check out the link in more information to see the full working example.
+### More Information:
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+Working example of ::before selector adding content here: <a href='https://codepen.io/cgorton/pen/BwMPOG/' target='_blank' rel='nofollow'>CodePen</a>
+
 
 
