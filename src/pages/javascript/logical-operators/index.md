@@ -21,4 +21,6 @@ true && false //returns true
 false && false //returns false
 ```
 
-For more information about Logical Operators: [Logical Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators).
+#### More information:
+
+[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators).
