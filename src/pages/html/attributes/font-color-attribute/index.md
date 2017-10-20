@@ -3,11 +3,23 @@ title: Font Color Attribute
 ---
 ## Font Color Attribute
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/attributes/font-color-attribute/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+This attribute specifies the font color using a color name, RGB attribute, or HEX value. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Syntax: 
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+`<font color=red>
+`
+
+Example:
+```html
+<html>
+  <body>
+    <font color=blue>This is some blue text using a color name!</font>
+    <font color=rgb(255, 99, 71)>This is some red text using an RGB value!</font>
+    <font color=#FFA500>This is some yellow text using a HEX value!</font>
+  </body>
+</html>
+```
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
