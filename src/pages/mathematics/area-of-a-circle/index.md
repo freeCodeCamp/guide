@@ -1,15 +1,15 @@
----
-title: Area of a Circle
----
 ## Area of a Circle
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/area-of-a-circle/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The area of a circle with radius (*r*) is given by the equation
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+![img](http://www.sciweavers.org/tex2img.php?eq=Area%20%3D%20%20%5Cpi%20r%5E2&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+**For Example**
+
+A circle with a radius of 3
+
+![img](http://www.sciweavers.org/tex2img.php?eq=Area%20%3D%20%20%5Cpi%20r%5E2%20%3D%20%283.14%29%283%29%5E2%20%3D%2028.26&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
+[Wikipedia: Area of a Cirlce](https://en.wikipedia.org/wiki/Area_of_a_circle)
 
