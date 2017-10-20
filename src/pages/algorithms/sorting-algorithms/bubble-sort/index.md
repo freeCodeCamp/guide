@@ -3,7 +3,7 @@ title: Bubble Sort
 ---
 ## Bubble Sort
 
-Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in wrong order.
+Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in wrong order. Bubble sort has a worst case runtime of O(n^2) since there are (n choose 2) = O(n^2) different ways of choosing a starting and ending element; this case only occurs if the input array is sorted in reverse order. The best case runtime is O(n) since it makes no swaps when the input list is already sorted.
 
 ### Example:
 
