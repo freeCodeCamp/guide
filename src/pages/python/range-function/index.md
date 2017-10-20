@@ -6,7 +6,7 @@ If you do need to iterate over a sequence of numbers, the built-in function rang
 
 #### Example Usage
  ```py
-for i in range(5):]
+for i in range(5):
  print(i)
  ```
  
