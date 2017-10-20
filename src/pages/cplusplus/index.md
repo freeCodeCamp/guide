@@ -25,7 +25,7 @@ int main()
 ### The Output of this program will simply be :
 
 ```
-Hello World !
+Hello World
 ```
 
 Now , let's break down the code :
@@ -37,7 +37,7 @@ Now , let's break down the code :
 using namespace std;
 ```
 
-* The 1st line tells the computer to use the "iostream" header file for this specific program . There are many other header files which are requireed for a specific program to run properly. Some of them are : math , vector and string. Header files are generally represented by a ".h" extension
+* The 1st line tells the computer to use the "iostream" header file for this specific program . There are many other header files which are required for a specific program to run properly. Some of them are : math , vector and string. Header files are generally represented by a ".h" extension
 * `iostream` stands for input-output stream . The "iostream" file contains code for allowing the computer to take input and generate an output, using the C++ language.
 * The second line tells the computer to use the standard namespace which includes features of standard C++ .
 
@@ -60,7 +60,7 @@ cout<<"Hello World"<<endl;
 }
 ```
 
-* The word `cout` in C++ is used for any output. 
+* The word `cout` in C++ is used for any console output. 
 * It always has to be followed by `<<` , the _insertion operator_ . 
 * Whatever is in the double quotes `""` is printed . Certain special characters have a different syntax for print statements   
 * Now to print any other kind of data , you have to  add `<<` .
