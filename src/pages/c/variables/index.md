@@ -1,5 +1,5 @@
 ---
-title: 2- Variables in C
+title: Variables in C
 ---
 # Using Variables in C
 Now you know what your options with data types are. Let's apply it with a simple example here:
