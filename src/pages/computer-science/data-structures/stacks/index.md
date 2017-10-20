@@ -1,15 +1,32 @@
----
-title: Stacks
----
-## Stacks
+Stack Data Structure
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/computer-science/data-structures/stacks/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Stack is a linear data structure which follows a particular order in which the operations are performed. The order may be LIFO(Last In First Out) or FILO(First In Last Out).
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Mainly the following three basic operations are performed in the stack:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Push: Adds an item in the stack. If the stack is full, then it is said to be an Overflow condition.
+Pop: Removes an item from the stack. The items are popped in the reversed order in which they are pushed. If the stack is empty, then it is said to be an Underflow condition.
+Peek or Top: Returns top element of stack.
+isEmpty: Returns true if stack is empty, else fals.
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+How to understand a stack practically?
+There are many real life examples of stack. Consider the simple example of plates stacked over one another in canteen. The plate which is at the top is the first one to be removed, i.e. the plate which has been placed at the bottommost position remains in the stack for the longest period of time. So, it can be simply seen to follow LIFO/FILO order.
 
+Time Complexities of operations on stack:
 
+push(), pop(), esEmpty() and peek() all take O(1) time. We do not run any loop in any of these operations.
+
+Applications of stack:
+
+>Balancing of symbols
+>Infix to Postfix /Prefix conversion
+>Redo-undo features at many places like editors, photoshop.
+>Forward and backward feature in web browsers
+>Used in many algorithms like Tower of Hanoi, tree traversals, stock span problem, histogram problem.
+>Other applications can be Backtracking, Knight tour problem, rat in a maze, N queen problem and sudoku solver
+Implementation:
+
+There are two ways to implement a stack:
+
+>Using array
+>Using linked list
