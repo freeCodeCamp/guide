@@ -5,6 +5,8 @@ title: Comments in HTML
 
 The comment tag is a tool used to leave notes, mostly related to the project or the website. This tag is frequently used to explain something in the code or leave some recommendations about the project.
 
+Comments are started with `<!--` and ended with `-->`, and can span multiple lines. They can contain code or text, and won't appear on the front-end of the website when a user visits a page. You can view comments through the Inspector Console, or by viewing Page Source.
+
 ### Example
 ```html
 <!DOCTYPE html>
