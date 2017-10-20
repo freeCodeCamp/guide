@@ -3,13 +3,46 @@ title: Background Repeat Property
 ---
 ## Background Repeat Property
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/properties/background-repeat-property/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The background-repeat CSS property defines how background images are repeated.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+A background image can be repeated along the horizontal axis, the vertical axis, both axes, or not repeated at all.
+By default, a background-image is repeated both vertically and horizontally.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Syntax:
+
+```css
+background-repeat: repeat|repeat-x|repeat-y|no-repeat|initial|inherit;
+
+```
+* repeat: The background image will be repeated both vertically and horizontally. This is default
+
+* repeat-x:	The background image will be repeated only horizontally
+
+* repeat-y:	The background image will be repeated only vertically.
+
+* no-repeat:	The background-image will not be repeated.
+
+* initial:	Sets this property to its default value.
+
+* inherit:	Inherits this property from its parent element.
+
+Examples:
+For repeating the image both horizontally and vertically
+```css
+body {
+    background-image:url(smiley.gif);
+    background-repeat:repeat;
+}
+```
+For repeat the image horizontally
+```css
+body {
+    background-image:url(smiley.gif);
+    background-repeat:repeat-x;
+}
+```
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+[For more information about background repeat property](https://developer.mozilla.org/en-US/docs/Web/CSS/background-repeat)
