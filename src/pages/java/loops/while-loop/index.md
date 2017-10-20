@@ -6,8 +6,7 @@ title: While Loop
 The `while` loop executes the a group of statements untill an expression evaluates to `true`. For instance:
 
 ```java
-while(some_condition_is_true)
-{
+while(some_condition_is_true){
     //do something
 }
 ```
@@ -19,8 +18,7 @@ In the following example, the `expression` is given by `iter_While < 10`. As we 
 
 ```java
 int iter_While = 0;
-while (iter_While < 10)
-{
+while (iter_While < 10){
     System.out.print (iter_While + " ");
     // Increment the counter
     // Iterated 10 times, iter_While 0,1,2...9

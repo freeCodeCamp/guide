@@ -61,7 +61,7 @@ public class Car {
 
     public static void main(String args[]){
         Car car = new Car("Civic");
-        System.out.println( car.getName() );
+        System.out.println(car.getName());
     }
 }
 ```
@@ -80,6 +80,7 @@ public class Bank {
     private static Bank instance;
     
     private Bank(){
+    
     }
 
     public static Bank getInstance(){

@@ -34,7 +34,7 @@ public class ElectricCar extends Car {
     }
 
     public void charge() {
-     System.out.println("Charging ...");
+        System.out.println("Charging ...");
     }
 }
 

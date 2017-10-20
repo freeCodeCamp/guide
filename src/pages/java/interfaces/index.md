@@ -91,7 +91,7 @@ public class Smartphone implements GPS,Radio {
         // return some coordinates
     }
     public void startRadio() {
-      // start Radio
+        // start Radio
     }
     public void stopRadio() {
         // stop Radio

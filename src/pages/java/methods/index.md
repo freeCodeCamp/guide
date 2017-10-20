@@ -15,4 +15,16 @@ public class Car {
 }
 ```
 
+To give your methods parameters to work with, you can specify them in the brackets after the name of the function.
+
+```java
+public class Car {
+    private String name;
+    
+    public void changeNameTo(String newName) {
+        name = newName;
+    }
+}
+```
+
 As with any other language, methods (or functions, if you are here from JS world) are used often for their modularity and reusability.
