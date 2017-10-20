@@ -27,7 +27,20 @@ Code example:
     <input type="submit" value="Submit">
 </form>
 ```
-
+Usually with form will have 2 method use: POST and GET and action is file you will get data from this from and execute
+Code example:
+```html
+<form action="abc" method="POST">
+    <label for="username">Username:</label>
+    <input type="text" name="username" id="username">
+    <label for="password">Password:</label>
+    <input type="password" name="password" id="password">
+    <input type="radio" name="gender" value="male">Male<br>
+    <input type="radio" name="gender" value="female">Female<br>
+    <input type="radio" name="gender" value="other">Other
+    <input type="submit" value="Submit">
+</form>
+```
 Other elements that form can contain:
 
 - ```textarea``` - is a multiline box which is most often used for adding some text eg. comment. Size of textarea is defined by number of rows and columns.
