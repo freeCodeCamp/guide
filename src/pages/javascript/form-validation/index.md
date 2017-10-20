@@ -3,13 +3,40 @@ title: Form Validation
 ---
 ## Form Validation
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/form-validation/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+You can validate a form directly with JavaScript.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Code Example to validate numbers
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```html
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Form Validation</h1>
+
+<p>Input a number between 1 and 10:</p>
+
+<input id="number">
+<button type="button" onclick="formValidation()">Submit</button>
+
+<script>
+function formValidation() {
+  
+    // Get the value of the input field with id="number"
+    var x = document.getElementById("numb").value;
+
+    // If x is Not a Number or less than 1 or greater than 10
+    if (isNaN(x) || x < 1 || x > 10) {
+        alert("Input NOT valid");
+    } else {
+        alert("Input OK");
+    }
+}
+</script>
+</body>
+</html> 
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
+[Form Validation — MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Form_validation)
 
