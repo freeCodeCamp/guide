@@ -3,9 +3,9 @@ title: Tables
 ---
 ## Tables
 
-The <table> tag defines an HTML table. It consists of the <table> element and one or more <tr>, <th>, and <td> elements.
-The <tr> element defines a table row, the <th> element defines a table header, and the <td> element defines a table cell.
-A more complex HTML table may also include <caption>, <col>, <colgroup>, <thead>, <tfoot>, and <tbody> elements.
+The &lt;table> tag defines an HTML table. It consists of the &lt;table> element and one or more &lt;tr>, &lt;th>, and &lt;td> elements.
+The &lt;tr> element defines a table row, the &lt;th> element defines a table header, and the &lt;td> element defines a table cell.
+A more complex HTML table may also include &lt;caption>, &lt;col>, &lt;colgroup>, &lt;thead>, &lt;tfoot>, and &lt;tbody> elements.
 
 ### Simple Table Example
 ```html
