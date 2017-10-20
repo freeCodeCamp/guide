@@ -3,13 +3,20 @@ title: Area of a Circle
 ---
 ## Area of a Circle
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/area-of-a-circle/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+![alt text](http://images.tutorvista.com/cms/images/102/area-of-triangle.png)
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The area of a triangle obeys the rule:
+```
+Area  = (base * hight) / 2 
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+The only thing needed, is pay attention where is the hight and where is the base. 
+To never change it, remember that every triangle area is half of a square area made by two triangles.
+
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+[For more properties of a Triangle](https://en.wikipedia.org/wiki/Triangle)
+
+
 
 
