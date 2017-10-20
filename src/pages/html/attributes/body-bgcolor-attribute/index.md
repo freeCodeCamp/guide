@@ -3,11 +3,36 @@ title: Body Bgcolor Attribute
 ---
 ## Body Bgcolor Attribute
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/attributes/body-bgcolor-attribute/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The Body Bgcolor attribute is not supported in HTML5. Use CSS instead.
+For older versions of HTML, you can add a background color in using the bgcolor attribute, selecting a color name, RGB value, or HEX value.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Syntax: 
+
+`<body bgcolor="#FF0066">`
+
+Example:
+```html
+<html>
+  <body bgcolor="red">
+  </body>
+</html>
+```
+
+The correct way to do this in HTML5, using CSS, looks like this:
+
+Syntax: 
+
+`<body style="background-color:red;">`
+
+Example:
+```html
+<html>
+  <body style="background-color:rgb(255,99,21);">
+  </body>
+</html>
+```
+
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
