@@ -1,7 +1,7 @@
 ---
-title: Java Docs Variables
+title: Variables
 ---
-# Java Variables
+# Variables
 
 Variables store values.
 
@@ -15,11 +15,12 @@ We made a distinction between **Wrapper Type** and general **Object Type** for a
 
 Typically you can declare variables using the following syntax :
 
-    //Primitive Data Type
+```java
+//Primitive Data Type
+int i = 10;
 
-    int i = 10;
-
-    // Object Data Type
-    //initiates an Float object with value 1.0
-    // variable myFloat now points to the object
-    Float myFloat = new Float(1.0);
+// Object Data Type
+// initiates an Float object with value 1.0
+// variable myFloat now points to the object
+Float myFloat = new Float(1.0);
+```
