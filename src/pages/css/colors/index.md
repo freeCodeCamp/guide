@@ -1,3 +1,7 @@
+---
+title: Colors
+---
+
 ## Colors
 
 In CSS, you can change the color of almost any element in your HTML page. Properties like `background-color`, `color`, and `border-color` set the color of those elements.
