@@ -8,11 +8,13 @@ In Python, operators are the constructs, which can manipulate the value of opera
 
 ### Types of Operator
 Python supports the following types of operators
+```python
+// Example Variables
+a = 15
+b = 30
+```
 
-#####1. Arithmetic Operators
-	
-	Example Variables: a = 15 b = 30
-	
+####1. Arithmetic Operators
 <table>
 	<tbody>
 		<tr>
@@ -54,8 +56,8 @@ Python supports the following types of operators
 		<tr>
 			<td>Exponent</td>
 			<td>**</td>
-			<td>Performs exponential calculation on operators</td>
-			<td><p>2**3 = 8 <br>(2**3 &#8793 2^3)</td>
+			<td>Performs exponential calculation on operators (2**3 &#8793 2^3)</td>
+			<td>2**3 = 8</td>
 		</tr>
 		<tr>
 			<td>Floor Division</td>
@@ -65,18 +67,70 @@ Python supports the following types of operators
 		</tr>
 	</tbody>
 </table>
+<p><br></p>
 
-#####2. Comparison (Relational) Operators
+####2. Comparison (Relational) Operators
+<table>
+<tbody>
+	<tr>
+		<td style="font-weight:bold">Operator</td>
+		<td></td>
+		<td style="font-weight:bold">Explication</td>
+		<td style="font-weight:bold">Code example</td>
+	</tr>
+	<tr>
+		<td>strictly greater</td>
+		<td>></td>
+		<td>Is true when the value to the left of the operator is larger than the value to the right</td>
+		<td>b > a</td>
+	</tr>
+	<tr>
+		<td>greater or equal</td>
+		<td>>=</td>
+		<td>Is true when the value to the left of the operator is greater than or equal to the value on the right</td>
+		<td><p>b < a<br>a >= a</p></td>
+	</tr>
+	<tr>
+		<td>strictly less</td>
+		<td><</td>
+		<td>Is true when the value to the left of the operator is less than the value to the right</td>
+		<td>a < b</td>
+	</tr>
+	<tr>
+		<td>less or equal</td>
+		<td><=</td>
+		<td>Is true when the value to the left of the operator is less than or equal to the value on the right</td>
+		<td><p>a < b<br>a <= a</p></td>
+	</tr>
+	<tr>
+		<td>equal</td>
+		<td>==</td>
+		<td>Is true when two values on either side of the operators are equal to each other</td>
+		<td><p>a == a<br>b == b</p></td>
+	</tr>
+	<tr>
+		<td>not equal</td>
+		<td>!=</td>
+		<td>Is true when two values on either side of the operators are not equal</td>
+		<td>a != b</td>
+	</tr>
+</tbody>
+</table>
+<p><br></p>
 
-#####3. Assignment Operators
+####3. Assignment Operators
+<p><br></p>
 
-#####4. Logical Operators
+####4. Logical Operators
+<p><br></p>
 
-#####5. Bitwise Operators
+####5. Bitwise Operators
+<p><br></p>
 
-#####6. Membership Operators
+####6. Membership Operators
+<p><br></p>
 
-#####7. Identity Operators
+####7. Identity Operators
 
 
 ### More Information:
