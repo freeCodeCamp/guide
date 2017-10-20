@@ -3,7 +3,7 @@ title: Body Background Attribute
 ---
 ## Body Background Attribute
 
-If you want to add the background image instead of a color, one solution is Background Attribute. It is specified a background image for an HTML document.
+If you want to add a background image instead of a color, one solution is the `<body background>` attribute. It specifies a background image for an HTML document.
 
 
 Syntax: 
@@ -13,7 +13,7 @@ Syntax:
 
 Attribute:
 
-`URL - URL for background image`
+`background - URL for background image`
 
 
 Example:

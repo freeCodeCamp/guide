@@ -32,4 +32,4 @@ arr.forEach((number, i) => console.log(`${number} is at index ${i}`));
 ```
 
 #### More Information:
-[MDN Article on Array.prototype.forEach()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
+<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach' target='_blank' rel='nofollow'>MDN Article on Array.prototype.forEach()</a>

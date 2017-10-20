@@ -30,5 +30,11 @@ mixed_array.length # 3
 [].length # 0
 ```
 
+#### Ruby Lambda
+A lambda is also commonly referred to as an anonymous function. To create a lambda in Ruby, you can use the following syntax:
+```ruby
+lambda = lambda {}
+```
+
 #### More Information:
-[Ruby array documentation](https://ruby-doc.org/core-2.4.2/Array.html)
+<a href='https://ruby-doc.org/core-2.4.2/Array.html' target='_blank' rel='nofollow'>Ruby array documentation</a>

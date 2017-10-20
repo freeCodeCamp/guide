@@ -8,7 +8,7 @@ Ems and Ens are a form of the punctuation mark called 'dash'. Although similar i
 
 Use an Em dash to denote a break in the sentence. Substitute it for a comma or to denote a pause in a sentence. They are also used to attribute a quote to a speaker.
 An Em dash is one em wide - the width of a point size of a typeface.
-For example - The noise from the neighbor's house$mdash;it's killing me.
+For example - The noise from the neighbor's house **&mdash;** it's killing me.
 
 * Command for an Em dash on a mac : Shift-Option-Hyphen
 * Command for an Em dash on Microsoft Word  :  Alt + Ctrl + (minus)
@@ -26,9 +26,9 @@ For example - The first world war lasted from 1914 &ndash; 1918.
 
 #### More Information:
 
-Dash - [Wikipedia](https://en.wikipedia.org/wiki/Dash#Em_dash)
+Dash - <a href='https://en.wikipedia.org/wiki/Dash#Em_dash' target='_blank' rel='nofollow'>Wikipedia</a>
 
-Thinking With Type by Ellen Lupton - [Thinking With Type](http://thinkingwithtype.com)
+Thinking With Type by Ellen Lupton - <a href='http://thinkingwithtype.com' target='_blank' rel='nofollow'>Thinking With Type</a>
 
 
 

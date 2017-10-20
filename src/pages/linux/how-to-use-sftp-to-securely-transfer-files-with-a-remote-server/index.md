@@ -1,15 +1,45 @@
 ---
-title: How to Use Sftp to Securely Transfer Files with a Remote Server
+title: How to Use SFTP to Securely Transfer Files with a Remote Server
 ---
-## How to Use Sftp to Securely Transfer Files with a Remote Server
+## How to Use SFTP to Securely Transfer Files with a Remote Server
+This article is a quick tutorial on how to use Secure File Transfer Protocol (SFTP) to exchange files with a server. This is useful for programming, as it allows you to code and test locally, and then send your work to the server when you are done.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/linux/how-to-use-sftp-to-securely-transfer-files-with-a-remote-server/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+### Testing SSH
+If you haven't already, test that you are able to SSH into the server. SFTP uses the Secure Shell (SSH) protocol, so if you are unable to SSH you probably won't be able to SFTP either.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+```unix
+ssh your_username@hostname_or_ip_address
+```
+### Start SFTP Session
+This uses the same syntax as SSH and opens a session in which you can transfer files.
+```unix
+sftp your_username@hostname_or_ip_address
+```
+To list helpful commands:
+```unix
+help
+```
+### Transfer files and folders
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+To download a file:
+```unix
+get <filename>
+```
+To download a folder and its contents, use the "-r" flag (also works for uploading):
+```unix
+get -r <foldername>
+```
+To upload a file:
+```unix
+put <filename>
+```
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+### Change folders
+To change the local folder:
+```unix
+lcd <path/to/folder>
+```
+To change the remote folder:
+```unix
+cd <path/to/folder>
+```
