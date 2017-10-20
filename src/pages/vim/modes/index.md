@@ -16,6 +16,7 @@ Instead they can:
 - Delete/Replace text
 - Copy/Paste text
 - Control several windows/buffers
+- Execute macros
 
 ### Insert Mode
 This is the second most used mode.  You can enter it by using an insert command
@@ -53,6 +54,8 @@ all 'foo' with 'bar'
 - `/foo` is regex to find things to replace
 - `/bar/` is regex to replace things with
 - `/g` means global, otherwise it would only execute once per line
+- `!` prefix for external commands
+`:%!sort` apply the sort command on all lines
 
 Vim has a number of other methods that you can read about in the help
 documentation, `:h` or `:help`.
