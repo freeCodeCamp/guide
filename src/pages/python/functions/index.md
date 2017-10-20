@@ -12,4 +12,7 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
+#### Function:
+Functions are named block of code designed to do one specific job. It allows you to write code once that can then be run whenever you need to accomplish the same task. Using functions effectively makes your program easier to write, read, test and fix. It also makes team collaboration easier. The 'def' keyword is used to define a function.
 
+<a href='https://docs.python.org/2.0/ref/function.html'>Python Docs</a>
