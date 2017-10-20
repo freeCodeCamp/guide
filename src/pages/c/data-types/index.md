@@ -1,5 +1,5 @@
 ---
-title: 1- Data Types in C
+title: Data Types in C
 ---
 # Data Types in C
 There are several different ways to store data in C, and they are all unique from each other. The types of data that information can be stored as are called data types. C is much less forgiving about data types than other languages. As a result, it's important to make sure that you understand the existing data types, their abilities, and their limitations.
