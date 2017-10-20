@@ -5,9 +5,9 @@ title: SQL In Operator
 
 ## IN Operator defined
 
-The IN opertor is used in a WHERE or HAVING (as part of the GROUP BY) to limit the selected rows to the items "IN" a list.
+The `IN` operator is used in a `WHERE` or `HAVING` (as part of the `GROUP BY`) to limit the selected rows to the items "IN" a list.
 
-Here is the current full student list to compare to the where clause result set:
+Here is the current full student list to compare to the `WHERE` clause result set:
 
 ```sql
 select studentID, FullName, sat_score, rcd_updated from student;
@@ -35,7 +35,7 @@ Rows will be presented that have an SAT score in this list (1000, 2400):
 ```sql
 select studentID, FullName, sat_score, rcd_updated
 from student
-where sat_score IN (1000, 2400);
+where sat_score in (1000, 2400);
 ```
 
 ```text
@@ -49,9 +49,3 @@ where sat_score IN (1000, 2400);
 +-----------+------------------------+-----------+---------------------+
 4 rows in set (0.00 sec)
 ```
-
-*As with all of these SQL things there is MUCH MORE to them than what's in this introductory guide.*
-
-I hope this at least gives you enough to get started.  
-
-Please see the manual for your database manager and have fun trying different options yourself.
