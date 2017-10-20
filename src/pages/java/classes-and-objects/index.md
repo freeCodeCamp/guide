@@ -1,7 +1,7 @@
 ---
-title: Java Docs Classes  Objects
+title: Classes and Objects
 ---
-# Java Classes & Objects
+# Classes and Objects
 
 Classes are groups of variables and operations on them. A class can have variables, methods (or functions) and constructors (or methods which are used to initiate, more on that later!).
 

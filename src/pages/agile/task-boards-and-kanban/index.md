@@ -13,7 +13,7 @@ Your Kanban tasks are displayed on the Task Board in a series of columns that sh
 
 ![Kanban Board Example](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Simple-kanban-board-.jpg/600px-Simple-kanban-board-.jpg)
 
-*Image courtesy of [wikipedia](https://en.wikipedia.org/wiki/Kanban_board)*
+*Image courtesy of [Wikipedia](https://en.wikipedia.org/wiki/Kanban_board)*
 
 But many other columns, or states, can be added. A software team may also include Waiting to Test, Complete, or Accepted, for example.
 
