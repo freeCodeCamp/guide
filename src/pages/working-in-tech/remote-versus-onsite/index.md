@@ -15,6 +15,8 @@ Remote work occurs when team members work in separate physical locations. You ca
 
 Because in-person communication occurs less frequently (if at all), remote teams often rely more on communication software like Slack and Skype.
 
+Remote work can be a great tool for a business as a contingency plan in the event of inclement weather or a natural disaster.
+
 Remote teams may host regular company retreats so team members can meet and hang out.
 
 ### The "In-Between"
