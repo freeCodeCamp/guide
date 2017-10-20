@@ -136,9 +136,6 @@ _CONGRATULATIONS! You have reached the end of the second article_
 
 By Jaithra Bhatia and Hitarth Asrani.
 
----
-title: Libraries
----
 # Libraries
 Libraries are fundemental to succesful programming in c++. Libraries such as the iostream library make programming a breeze. 
 ## Examples of usefuleness
