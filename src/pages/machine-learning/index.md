@@ -20,6 +20,11 @@ In sum, there are two broad categories of machine learning
 
 There are however other subcategories of machine learning you may encounter such as Semi-supervised and reinforced learning.
 
+#### Learning Resources:
+* <a href="http://ml-class.org">Andrew Ng's Machine learning course</a>
+* <a href="https://www.deeplearning.ai/">deeplearning.ai</a>
+* <a href="http://cs231n.stanford.edu/">CS231n</a>
+* <a href="http://course.fast.ai/">fast.ai</a>
 
 #### More Information:
 
