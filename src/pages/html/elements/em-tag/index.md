@@ -9,6 +9,8 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
+The em in em tag stands for emphasize. The use of this tag is to "bold" or empahsize certain word or phrases within the page. 
+
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
