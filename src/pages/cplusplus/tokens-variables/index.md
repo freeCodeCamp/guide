@@ -64,7 +64,7 @@ The syntax is as follows ~
 <Data-type> <Variable-name> ; 
 
 For example :
- ```C++
+ ```cpp
  int a ; //declaring a variable named 'a' of type integer.
  a=4;    //initializing a variable
  ```
@@ -86,7 +86,8 @@ For example :
  ![Img](https://i.imgur.com/YdbgWHL.png)
 
 ##### Garbage Values in a variable.
- ```C++
+
+ ```cpp
  #include<iostream>
  using namespace std;
 int main()

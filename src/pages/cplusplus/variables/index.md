@@ -9,7 +9,7 @@ Lets look at a simple program using integer variables.Integers can store simple 
 and so on. Any positive or negative value without decimal is an integer. Lets look at a simple program which uses an integer 
 variable.
 
-```C++
+```cpp
 #include <iostream>
 using namespace std ;
 int main()
