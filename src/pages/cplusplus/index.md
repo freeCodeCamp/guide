@@ -100,6 +100,6 @@ Download Link : [Download Here](http://www.codeblocks.org/downloads/26)
 
 Link #2 for Mac : [Download for Mac #2 here](https://developer.apple.com/xcode/)
 
-**Another software recommendation would be Atom. With Atom you can not only write C++ code, but almost any other language as well. The link to the site is below:**
+**Another software recommendation would be Atom. Atom is a text editor where you can not only write C++ code, but almost any other language as well. It is useful to those familiar with the command line, or those looking to have more practice with it. The link to the site is below:**
 
 https://atom.io/
