@@ -12,4 +12,4 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+Form validation is a set of “validation descriptors” associated with each element in a form. The “validation descriptor” is nothing but a string specifying the type of validation to be performed.
