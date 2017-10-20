@@ -29,3 +29,19 @@ When you execute this program you will see 5 displayed on the screen
 * On line 6 the value 5 is assigned to the variable a. Now whenever we use the variable a in our program its value will be 5
   unless we change it.
 * On line 7 we display the value of variable a and 5 is printed on the screen.
+
+Another type of variable that is very important is the Boolean. Booleans consist of True and False, and can also be represented as 1 and 0.
+In C++ Booleans play a big part in programming. While they seem very simple Boolean statements can quickly become very complex. Let's look at one of the simplest incarnations of a boolean.
+
+```C++
+#include <iostream>
+using namespace std ;
+int main()
+{
+    bool a;          // Declare an Boolean variable a
+    a = rrue;          // Assign value of True to variable a
+    cout << a;      // Display the value of variable a which contains 1 or "True"
+    return 0;
+}
+```
+When you execute this program you will see 1 displayed on the screen
