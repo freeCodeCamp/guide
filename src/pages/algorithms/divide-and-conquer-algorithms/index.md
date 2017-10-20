@@ -3,13 +3,22 @@ title: Divide and Conquer Algorithms
 ---
 ## Divide and Conquer Algorithms
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/algorithms/divide-and-conquer-algorithms/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Divide and Conquer is an algorithmic paradigm. A typical Divide and Conquer algorithm solves a problem using following three steps:
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+1. Divide: Break the given problem into subproblems of same type.
+2. Conquer: Recursively solve these subproblems
+3. Combine: Appropriately combine the answers
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Examples of Divide and Conquer Algorithms:
+
+* Binary Search
+* Quick Sort
+* Merge Sort
+* Strassen Algorithm
+
+and many more.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+<a href="https://en.wikipedia.org/wiki/Divide_and_conquer_algorithm" target="_blank">Wikipedia link</a>
 
 
