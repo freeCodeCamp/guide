@@ -3,13 +3,13 @@ title: Monty Hall Problem
 ---
 ## Monty Hall Problem
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/logic/monty-hall-problem/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The Monty Hall Problem describes a game situation in which the player chooses one of three hidden options. One of these options is a winner and the other two are losers. Once the player makes a selection, one of the other options is shown to be a loser.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Then the player has the option of changing their selection.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+So the problem is: should the player change their selection?
+
+In short, the answer is yes.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+- Monty Hall problem article: [Wikipedia](https://en.wikipedia.org/wiki/Monty_Hall_problem)
