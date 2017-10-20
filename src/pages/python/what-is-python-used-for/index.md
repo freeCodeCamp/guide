@@ -9,7 +9,15 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
+Python is an interpreted, object-oriented, high-level programming language.
+It is multipurpose and is use in many different ways such as 
+* Back-End Web Developement
+* Machine Learning 
+* Complex Data Analysis and
+* Visualization
+
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
+* [StackOverFlow Question](https://stackoverflow.com/questions/1909512/what-is-python-used-for)
+* [Quora Question](https://www.quora.com/What-is-Python-mainly-used-for-in-the-real-world-today-Is-it-beneficial-to-use-Python-for-desktop-apps)
 
