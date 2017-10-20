@@ -61,7 +61,9 @@ $("#alert").click(function(){
 
 $("#alert").click();
 ```
-Now even without click the button the click event will be triggered always when we enter or reload the page
+Now even without click the button the click event will be triggered always when we enter or reload the page.
+
+Also I would prefer to use .on('click',...) over .click(...) because the former can use less memory and work for dynamically added elements.
 
 [jsFiddle](https://jsfiddle.net/gspk6gxt/)
 
