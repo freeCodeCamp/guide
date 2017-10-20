@@ -15,6 +15,8 @@ Here is an example of how to display a section in same color:
 </div>
 ```
 
+Div tag is a placer holder for different elements on the page. Think of it as a container for all your little HTML code bricks. 
+
 #### More Information:
 [Tutorialspoint](https://www.tutorialspoint.com/html/html_div_tag.htm)
 
