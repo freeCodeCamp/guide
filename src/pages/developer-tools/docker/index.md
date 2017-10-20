@@ -12,4 +12,6 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+* Docker website: [Docker](https://www.docker.com/)
+* Read more about Docker: [Wikipedia](https://en.wikipedia.org/wiki/Docker_(software))
+* The official YouTube channel from Docker: [YouTube](https://www.youtube.com/user/dockerrun)
