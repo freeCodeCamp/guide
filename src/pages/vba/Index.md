@@ -10,6 +10,7 @@ However VBA is not a standalone language and cannot be used outside of a Microso
 To learn more about vba and its uses, <a href ='https://msdn.microsoft.com/en-us/library/office/ee814735(v=office.14).aspx' target='_blank' rel='nofollow'>check this out.</a>
 
 ##Hello Git!
+
 '''vba
    public sub msg()
 
@@ -21,5 +22,8 @@ To learn more about vba and its uses, <a href ='https://msdn.microsoft.com/en-us
 
    end sub()
 '''
-In vba there several ways to print a message,but before that you must give out function a name. In this case it's called "Public Sub msg()". Public Sub just means that this function is a public subroutine that can be called from others subroutines.Going back to the original funciton above, the varaible "msg" is set to the string dim.(Side Note; originally in BASIC dim stood for Dimension. It was used to help define the demensions of an array. However it no longer has that same meaning.) Dim is used to set a variable type; string, integer, variant, ect. The variable "msg" was set to equal the string; "Hello Git!". On line 18 you see that 'MsgBox' is used this is a built in application that will display the string in a pop up display.
+
+In vba there several ways to print a message,but before that you must give out function a name. In this case it's called "Public Sub msg()". Public Sub just means that this function is a public subroutine that can be called from others subroutines.Going back to the original funciton above, the varaible "msg" is set to the string dim.(Side Note; originally in BASIC dim stood for Dimension. It was used to help define the demensions of an array. However it no longer has that same meaning.)
+
+Dim is used to set a variable type; string, integer, variant, ect. The variable "msg" was set to equal the string; "Hello Git!". On line 18 you see that 'MsgBox' is used this is a built in application that will display the string in a pop up display.
 
