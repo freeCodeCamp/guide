@@ -18,7 +18,7 @@ If right > l:
              Call merge(arr, left, mid, right)
  ```
 
-![Merge Sort Algorithm] algo](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Merge_sort_algorithm_diagram.svg/300px-Merge_sort_algorithm_diagram.svg.png)
+![Merge Sort Algorithm](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Merge_sort_algorithm_diagram.svg/300px-Merge_sort_algorithm_diagram.svg.png)
 
 ### Properties:
 * Space Complexity: O(n)
