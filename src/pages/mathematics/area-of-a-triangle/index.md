@@ -3,13 +3,17 @@ title: Area of a Triangle
 ---
 ## Area of a Triangle
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/area-of-a-triangle/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The area of a triangle can be calculated by multiplying the height by <span class="fraction"><sup>1</sup>⁄<sub>2</sub></span> the base (width).
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+For example, if you have a triangle that is 4cm wide and 3cm high, then the area would be calculated like this:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+(<span class="fraction"><sup>1</sup>⁄<sub>2</sub></span> x 4cm) x 3cm = 6cm²
+
+or more concisely:
+
+<span class="fraction"><sup>4cm x 3cm</sup>⁄<sub>2</sub></span> = 6cm²
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+[Math Open Ref](http://www.mathopenref.com/triangle.html)
 
 
