@@ -3,13 +3,14 @@ title: Area of a Square
 ---
 ## Area of a Square
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/area-of-a-square/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The area of a rectangle can be calculated by multiplying the length of one side by itself.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+For example, if you have a square that is 50cm on each side, the formula for the area can be calculated like this:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+50cm x 50cm = 250cm²
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+
+[Math Open Reference](http://www.mathopenref.com/square.html)
 
 
