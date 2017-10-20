@@ -3,13 +3,10 @@ title: Hexcode
 ---
 ## Hexcode
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/computer-science/hexcode/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Hex code is also know as Hexadecimal code that writes numbers in more digits. Decimal is base 10 meaning that 0-9 is used
+to form a number. In hexadecimal the base is 16 meaning that we use 0-9 plus A,B,C,D,E,F . This allows us to write large numbers in fewer digits. Hexadecimal numerals are widely used by computer system designers and programmers. A great example front-end developers would be familiar with Hex code for colors for example black (#000000) or white (#ffffff).
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+* [Wikipedia](https://en.wikipedia.org/wiki/Hexadecimal)
+* [Color-Hex](http://www.color-hex.com/)
