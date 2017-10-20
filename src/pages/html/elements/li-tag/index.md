@@ -3,13 +3,20 @@ title: Li Tag
 ---
 ## Li Tag
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/li-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `<li>` element is used to represent an individual item within a list. In order to be valid it must be contained within one of the following elements: `<ol>` ordered list, `<ul>` unordered list or a `<menu>` tag.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+In both menus and unordered lists the items are displayed with a bullet point whereas in an ordered list each item either displays a number or letter to its left.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Below you can find an example of how a `<li>` would be used in an unordered list.
+
+```html
+<ul>
+  <li>Hello, world</li>
+</ul>
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
+[MDN Li Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
+[W3Schools Li Tag](https://www.w3schools.com/tags/tag_li.asp)
 
