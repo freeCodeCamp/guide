@@ -12,7 +12,7 @@ dataType[] arrayName;   // preferred way.
 ```
 or
 ```java
-dataType arrayName[];  //  works but not preferred way
+dataType arrayName[];  //  works but not preferred way.
 ```
 
 ## Code snippets of above syntax:
