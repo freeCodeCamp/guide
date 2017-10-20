@@ -91,7 +91,7 @@ bool c = !(8 == 7) // translate: NOT (false), therefore c = true
 
 ## 3. Bitwise Operators
 
-`&` If at a place there is a bit in both operands, then it is copied to the result
+`&` If at a place there is a bit common to both operands, then it is copied to the result
 ```C
      A = 11001
      B = 01000
