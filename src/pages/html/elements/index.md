@@ -56,7 +56,7 @@ Elements that help structure the page into sections, such as a navigation bar, h
 
 There's an `<html>` element that's used to contain the other markup for an HTML document. It's also known as the "root" element because it's the parent of the other HTML elements and the content of a page.
 
-Here's an example of a page with a [head element](#), a [body element](#), and one [paragraph](#):
+Here's an example of a page with a [head element](#), a [body element](#), one [header element](#) and one [paragraph](#):
 
 ```html
 <!DOCTYPE html>
@@ -64,6 +64,7 @@ Here's an example of a page with a [head element](#), a [body element](#), and o
   <head>
   </head>
   <body>
+    <h1>Heading 1 </h1>
     <p>I'm a paragraph</p>
   </body>
 </html>
