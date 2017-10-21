@@ -3,13 +3,8 @@ title: Relational Databases
 ---
 ## Relational Databases
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/computer-science/databases/relational-databases/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
+A relational database (RDB) is a collective set of multiple data sets organized by tables, records and columns. RDBs establish a well-defined relationship between database tables. Tables communicate and share information, which facilitates data searchability, organization and reporting.
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
+* <a href='https://www.techopedia.com/definition/1234/relational-database-rdb' target='_blank' rel='nofollow'>Relational Databases</a>
 
