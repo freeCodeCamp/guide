@@ -12,7 +12,7 @@ The `if` statement executes a statement if a specified condition is **true**. If
     else
        statement2
 
-Multiple `if...else` statements can be nested to create an `else if` clause.
+Multiple `if...else` statements can be nested to create an `else if` clause. This specifies a new condition to test and can be repeated to test multiple conditions, checking until a true statement is presented to execute.
 
     if (condition1)
        statement1
