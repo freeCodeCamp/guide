@@ -3,13 +3,15 @@ title: Linked Lists
 ---
 ## Linked Lists
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/computer-science/data-structures/linked-lists/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+In computer science, a linked list is a linear collection of data elements, in which linear order is not given by their physical placement in memory. Each pointing to the next node by means of a pointer. It is a data structure consisting of a group of nodes which together represent a sequence. Under the simplest form, each node is composed of data and a reference (in other words, a link) to the next node in the sequence. This structure allows for efficient insertion or removal of elements from any position in the sequence during iteration. More complex variants add additional links, allowing efficient insertion or removal from arbitrary element references.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Linked list example(https://en.wikipedia.org/wiki/File:Singly-linked-list.svg) 
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Different types of linked lists are:
+1) Single linked list
+2)Doubly linked list
+3)Multiply linked list
+4)Circular linked list
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
 
