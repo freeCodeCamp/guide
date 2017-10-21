@@ -3,6 +3,10 @@ title: Sohcahtoa
 ---
 ## Sohcahtoa
 
+Sohcahtoa is a mnemonic used for the trigonometric functions Sine, Cosine, and Tangent. Sohcahtoa stands for sine = opposite over hypotnuse, cosine = adjacent over hypotnuse, and tangent = opposite over adjacent. 
+
+<a href="https://en.wikipedia.org/wiki/Trigonometric_functions">Click here to learn more about trogonometric functions.</a>
+
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/sohcahtoa/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
 <a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
