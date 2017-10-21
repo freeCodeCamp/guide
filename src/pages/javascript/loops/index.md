@@ -1,7 +1,9 @@
 ---
 title: Loops
 ---
-Javascript has a few different ways to control flow, otherwise known as loops
+Loops are used in JavaScript to perform repeated tasks based on a condition. Conditions typically return `true` or `false` when analysed. A loop will continue running until the defined condition returns `false`.
+
+There are three common types of loops:
 
 *   <a href='http://forum.freecodecamp.com/t/javascript-for-loop/14666' target='_blank' rel='nofollow'>for</a>
 *   <a href='http://forum.freecodecamp.com/t/javascript-while-loop/14668' target='_blank' rel='nofollow'>while</a>
