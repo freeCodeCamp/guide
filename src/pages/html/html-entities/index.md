@@ -9,7 +9,7 @@ When a developer needs a character to be displayed on a web page that is not on 
   &*entity_name*;<br>
   &#*entity_number*;
 
-##Examples
+## Examples
 
 Character | HTML entity(name) | HTML entity(number)
 ----------|-------------------|--------------------
