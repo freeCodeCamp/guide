@@ -13,3 +13,68 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
 
+Body Bgcolor Attribute
+
+The body Bgcolor attibute is used to specify background color of the HTML document.
+
+
+Example :
+
+```<html>
+<body bgcolor="#E6E6FA">
+
+<h1>Hello world!</h1>
+<p><a href="https://www.freecodecamp.org/">Visit Freecodecamp</a></p>
+
+</body>
+</html>
+
+```
+
+There are 3 values which you can use for the attribute - color_name,hex_number,rgb_number
+
+Example - color_name
+
+```<html>
+<body bgcolor="red">
+
+<h1>Hello world!</h1>
+<p><a href="https://www.freecodecamp.org/">Visit Freecodecamp</a></p>
+
+</body>
+</html>
+
+```
+
+Example - hex_number
+
+
+```<html>
+<body bgcolor="#E6E6FA">
+
+<h1>Hello world!</h1>
+<p><a href="https://www.freecodecamp.org/">Visit Freecodecamp</a></p>
+
+</body>
+</html>
+
+```
+
+Example - rgb_number
+
+
+```<html>
+<body bgcolor="rgb(255,255,255)">
+
+<h1>Hello world!</h1>
+<p><a href="https://www.freecodecamp.org/">Visit Freecodecamp</a></p>
+
+</body>
+</html>
+
+```
+
+
+However, you must note that The <body> bgcolor attribute is not supported in HTML5. 
+
+You must use CSS instead.
