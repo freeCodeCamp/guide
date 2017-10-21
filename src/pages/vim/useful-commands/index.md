@@ -15,6 +15,14 @@ title: Useful Commands
 - Close your terminal
 - Shut down your computer
 
+## Setting line numbers
+1. Press escape to get you into "normal" mode
+2. Type `:set number`, press enter
+
+To set line numbers on by default:
+1. Open/create the vim configuration file with `vim ~/.vimrc`
+2. Add the line `set number`, press enter
+
 ## Bare minimum functionality
 Most likely you'll find yourself in "normal" mode, it allows you to enter commands by pressing the colon `:` key.
 To get here from other modes you can type `ctrl + c` or `escape`.
