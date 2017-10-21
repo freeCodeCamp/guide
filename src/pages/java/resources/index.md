@@ -41,3 +41,4 @@ Java is trademarked and licensed by Oracle. Most of the following are un-officia
 *   <a href='https://www.reddit.com/r/learnjava' target='_blank' rel='nofollow'>/r/LearnJava</a>
 *   <a href='http://www.javaranch.com/' target='_blank' rel='nofollow'>Java Ranch</a>
 *   <a href='https://www.javacodegeeks.com/' target='_blank' rel='nofollow'>Java Code Geeks</a>
+*   <a href='http://javasearch.org' target='_blank' rel=nofollow'>Java 8 API Search</a>
