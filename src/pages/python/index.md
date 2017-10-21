@@ -136,7 +136,9 @@ The `objects` parameter is prefixed with a `*` which indicates that the function
 Free Code Camp has some great resources. The web is a big place, there's plenty more to explore:
 * Python Practice Book: http://anandology.com/python-practice-book/index.html
 * Think Python: http://greenteapress.com/thinkpython/html/index.html
-* Pratical Business Python: http://pbpython.com/
+* Practical Business Python: http://pbpython.com/
 * Another course: https://realpython.com/?utm_source=fsp&utm_medium=promo&utm_campaign=bestresources
 * General: https://www.fullstackpython.com/
+* Learn the Basics: https://www.codecademy.com/learn/learn-python
 * Computer science using Python: https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-11?ref=hackernoon#!
+* Developer's Guide to Python: https://devguide.python.org/
