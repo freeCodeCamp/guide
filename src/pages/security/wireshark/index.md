@@ -11,5 +11,10 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
+Here's a useful tutorial for getting started on sniffing packets using WireShark:
+
+[How to sniff password using Wireshark](https://codingsec.net/2016/04/how-sniff-password-using-wireshark/)
+
+*this tutorial requires Kali Linux tools to decrypt the pass word hash*
 
 
