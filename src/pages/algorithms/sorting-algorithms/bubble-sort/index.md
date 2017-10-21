@@ -57,4 +57,10 @@ while(!sorted) {
 }
 ```
 
-
+### Properties:
+* Space Complexity: O(1)
+* Time Complexity:
+  * Worst-case: O(n^2)
+  * Average-case: O(n^2)
+  * Best-case: O(n)
+* Stable: Yes
