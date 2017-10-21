@@ -3,13 +3,23 @@ title: Moodboards
 ---
 ## Moodboards
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/user-experience-design/moodboards/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+A moodboard is a type of collage. It consists of images, text, and samples of objects in a composition. They help communicate creative ideas to other members of the design team.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+#### Elements of a Moodboard
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Moodboard for web design focus on these non-exclusive set of elements:
+
+1. color palette
+2. fonts
+3. photography/illustration style
+4. iconography
+5. navigation style
+6. spatial awareness
+7. contrast
+8. hierarchy
+9. structure
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+[Wikipedia](https://en.wikipedia.org/wiki/Mood_board)
 
-
+[How web design mood board impacts ux](https://www.protofuse.com/blog/details/how-web-design-mood-board-impacts-ux/)
