@@ -3,13 +3,14 @@ title: Output
 ---
 ## Output
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/output/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+We can output data in different ways:
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+* into an *HTML element* using `innerHTML`
+* into *the HTML output* using `document.write()`
+* into an *alert box*, using `window.alert()`
+* into the *browser console*, using `console.log()`
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+More <a href="https://www.w3schools.com/jS/js_output.asp" target="_blank" rell="nofollow">w3schos</a>
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
 
