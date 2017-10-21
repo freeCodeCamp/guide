@@ -25,6 +25,16 @@ var promise = new Promise(function(resolve, reject) {
 
 The Promise object works as proxy for a value not necessarily known when the promise is created. It allows you to associate handlers with an asynchronous action's eventual success value or failure reason. This lets asynchronous methods return values like synchronous methods: instead of immediately returning the final value, the asynchronous method returns a promise to supply the value at some point in the future.
 
+
+## Promise API
+
+There are 4 static methods in the Promise class:
+
+  - Promise.resolve
+  - Promise.reject
+  - Promise.all
+  - Promise.race
+
 ## Promises can be chained together
 
 When writing Promises to solve a particular problem, you can chain them together to form logic.
@@ -83,6 +93,7 @@ result. If at any point in the chain of functions a value is *rejected* the chai
 will skip to the nearest `catch()` handler.
 
 For more information on Functional Programming: <a href='https://en.wikipedia.org/wiki/Functional_programming' target='_blank' rel='nofollow'>Functional Programming</a>
+
 
 For more information on promises: <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise' target='_blank' rel='nofollow'>Promises</a>
 

@@ -1,5 +1,5 @@
 ---
-title: Falsy Values
+title: Falsey Values
 ---
 
 # Falsey Values
