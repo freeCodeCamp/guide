@@ -1,15 +1,31 @@
----
-title: Where to
----
-## Where to
+## Where To
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/where-to/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+**The <script> Tag**
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+In HTML, JavaScript code must be inserted between <script> and </script> tags.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+```
+<script>
+document.getElementById("demo").innerHTML = "My First JavaScript";
+</script>
+```
 
 
+**JavaScript Functions and Events**
+
+A JavaScript function is a block of JavaScript code, that can be executed when "called" for.
+
+For example, a function can be called when an event occurs, like when the user clicks a button.
+
+
+**JavaScript in head or body**
+
+You can place any number of scripts in an HTML document.
+
+Scripts can be placed in the body, or in the head section of an HTML page, or in both.
+
+
+**More Information:**
+
+
+<a href='https://www.w3schools.com/js/js_whereto.asp' target='_blank' rel='nofollow'>W3S</a>
