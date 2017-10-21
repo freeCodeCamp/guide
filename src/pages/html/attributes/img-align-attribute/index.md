@@ -3,13 +3,34 @@ title: Img Align Attribute
 ---
 ## Img Align Attribute
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/attributes/img-align-attribute/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The align attribute of an image specifies where the image should be aligned according to the surrounding element.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Attribute Values:          
+right - Align image to the right 
+left - Align image to the left    
+top  - Align image to the top    
+bottom - Align image to the bottom  
+middle - Align image to the middle
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+For example:
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <title>Img Align Attribute</title>
+ </head>
+<body>
+  <p>This is an example. <img src="image.png" alt="Image" align="middle"> More text right here
+  <img src="image.png" alt="Image" width="100"/>
+  </body>
+</html>
+```
+We can also align in right if we want:
+```html
+<p>This is another example<img src="image.png" alt="Image" align="right"></p>
+```
+**Please note the align attribute is not supported in HTML5, and you should use CSS instead. However, it is still supported by all the major browsers.**
+
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img" target="_blank">MDN article on the img tag and its attributes<a>

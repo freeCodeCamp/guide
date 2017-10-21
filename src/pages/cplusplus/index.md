@@ -1,5 +1,5 @@
 ---
-title: Introduction to C++
+title: C++
 ---
 # Hello World! - Your first C++ Program
 
@@ -12,8 +12,8 @@ title: Introduction to C++
 
 ### Here is your 1st program in C++ -
 
-```C++
-#include < iostream >
+```cpp
+#include <iostream>
 using namespace std ;
 int main()
 {
@@ -32,7 +32,7 @@ Now , let's break down the code :
 
 #### Line 1 and 2
 
-```C++
+```cpp
 # include<iostream>
 using namespace std;
 ```
@@ -43,7 +43,7 @@ using namespace std;
 
 #### Line 3 and 4
 
-```C++
+```cpp
 int main()
 {
 ```
@@ -54,7 +54,7 @@ int main()
 
 #### Lines 4,5 & 6
 
-```C++
+```cpp
 cout<<"Hello World"<<endl;
     return 0;
 }
@@ -87,8 +87,6 @@ _You have finished coding your first C++ program and have mostly understood the 
  **Happy Coding ! :)**
  
  **Feel free to ask any queries on FreeCodeCamp's GitHub page or [FreeCodeCamp's Forum .](https://forum.freecodecamp.org/)**
-
-By : Jaithra Bhatia and Hitarth Asrani
 
  <a href='https://repl.it/L4k3' target='_blank' rel='nofollow'>Try the code yourself ! :) </a>
 
