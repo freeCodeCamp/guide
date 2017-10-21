@@ -3,13 +3,7 @@ title: Cross Functional Teams
 ---
 ## Cross Functional Teams
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/cross-functional-teams/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+A Cross Functional Team includes people from various domains, eg. engineering, design, testing, etc. Each of which will be skilled in their specialist area but capable of having an input in other domains. This helps to form a strong team that is resilient to unforeseen circumstances where a team member may need to work on something that isn't their specialist skill.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
 
