@@ -19,7 +19,7 @@ Losses may include sensitivity to too much or too little contrast, distortions, 
 Computer screens are capable of displaying contrasts that are about double of contrasts available on paper. 
 
 
-A few guidelines help to meet the design challenges of accommodating these variances while not adversely affecting others' experience.
+Here are guidelines to help meet design challenges of accommodating these variances while not adversely affecting others' experience.
 These guidelines also help [adaptive technology (Wikipedia.org)](https://en.wikipedia.org/wiki/Assistive_technology#Visual_impairments) work more effectively.
 
 ### Definitions
