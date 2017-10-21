@@ -99,4 +99,4 @@ $('.collapsible-element').on('show.bs.collapse', function() {
 
 #### More Information:
 
-[The official Bootstrap 4 guide on Collapse](https://v4-alpha.getbootstrap.com/components/collapse/)
+<a href='https://v4-alpha.getbootstrap.com/components/collapse/' target='_blank' rel='nofollow'>The official Bootstrap 4 guide on Collapse</a>

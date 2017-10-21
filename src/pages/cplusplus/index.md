@@ -86,14 +86,14 @@ _You have finished coding your first C++ program and have mostly understood the 
  
  **Happy Coding ! :)**
  
- **Feel free to ask any queries on FreeCodeCamp's GitHub page or [FreeCodeCamp's Forum .](https://forum.freecodecamp.org/)**
+ **Feel free to ask any queries on FreeCodeCamp's GitHub page or <a href='https://forum.freecodecamp.org/' target='_blank' rel='nofollow'>FreeCodeCamp's Forum .</a>**
 
  <a href='https://repl.it/L4k3' target='_blank' rel='nofollow'>Try the code yourself ! :) </a>
 
 **You may require some software to write and execute C++ code. I recommend using CodeBlocks. There's a download link below :**
 
-Download Link : [Download Here](http://www.codeblocks.org/downloads/26)
+Download Link : <a href='http://www.codeblocks.org/downloads/26' target='_blank' rel='nofollow'>Download Here</a>
 
 * Click the link with the GNU/GCC compiler for windows. This will not require an additional installation
 
-Link #2 for Mac : [Download for Mac #2 here](https://developer.apple.com/xcode/)
+Link #2 for Mac : <a href='https://developer.apple.com/xcode/' target='_blank' rel='nofollow'>Download for Mac #2 here</a>

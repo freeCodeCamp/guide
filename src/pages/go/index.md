@@ -10,7 +10,7 @@ For more information head to <a href='https://golang.org/' target='_blank' rel='
 Want a quick <a href='https://tour.golang.org/welcome/1' target='_blank' rel='nofollow'>Tour of Go?</a>
 
 ### Quickstart
-For a quickstart and boilerplate Go project, try [Alloy](https://www.growthmetrics.io/open-source/alloy)
+For a quickstart and boilerplate Go project, try <a href='https://www.growthmetrics.io/open-source/alloy' target='_blank' rel='nofollow'>Alloy</a>
 
 1. Clone Alloy repository
 ```
