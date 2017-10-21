@@ -3,7 +3,7 @@ title: Br Tag
 ---
 ## Br Tag
 
-The <br> Tag produces a line break in a text. This is useful for poems and addresses.
+The `<br>` tag produces a line break in a text. This is useful for poems and addresses.
 
 ### Example
 ```html
