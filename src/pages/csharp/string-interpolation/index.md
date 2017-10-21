@@ -16,3 +16,5 @@ With interpolated string expressions, you have a string with contained expressio
 ```
 string message = $"Hello {firstName} {lastName}!";
 ```
+**small useful information**
+in string interpolation you have the ability to call functions, properties and ternary operators
