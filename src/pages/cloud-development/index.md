@@ -3,13 +3,6 @@ title: Cloud Development
 ---
 ## Cloud Development
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/cloud-development/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+A cloud applications are a software programs where cloud-based and local components work together. Remote servers provide processing that is accessed through a web browser with an internet connection. Typically, cloud servers are located in a remote data center run by a third-party.
 
 
