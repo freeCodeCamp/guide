@@ -85,3 +85,45 @@ will skip to the nearest `catch()` handler.
 For more information on Functional Programming: <a href='https://en.wikipedia.org/wiki/Functional_programming' target='_blank' rel='nofollow'>Functional Programming</a>
 
 For more information on promises: <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise' target='_blank' rel='nofollow'>Promises</a>
+
+## Function Generators
+
+In recent releases, JavaScript has introduced more ways to natively handle Promises. One such way is the function generator. Function generators are "pausable" functions. When used with Promises, generators can make using a lot easier to read and appear "synchronous".
+
+```javascript
+const myFirstGenerator = function* () {
+  const one = yield 1;
+  const two = yield 2;
+  const three = yield 3;
+
+  return 'Finished!';
+}
+
+const gen = myFirstGenerator();
+```
+
+Here's our first generator, which you can see by the `function*` syntax. The `gen` variable we declared will not run `myFirstGenerator`, but instead will "this generator is ready to use".
+
+```javascript
+console.log(gen.next());
+// Returns { value: 1, done: false }
+```
+
+When we run `gen.next()` it will unpause the generator and carry on. Since this is the first time we have called `gen.next()` it will run `yield 1` and pause until we call `gen.next()` again. When `yield 1` is called, it will return to us the `value` that was yielded and whether or not the generator is `done`.
+
+```javascript
+console.log(gen.next());
+// Returns { value: 2, done: false }
+
+console.log(gen.next());
+// Returns { value: 3, done: false }
+
+console.log(gen.next());
+// Returns { value: 'Finished!', done: true }
+
+console.log(gen.next());
+// Will throw an error
+```
+As we keep calling `gen.next()` it will keep going onto the next `yield` and pausing each time. Once there are no more `yield`'s left, it will proceed to run the rest of the generator, which in this case simply returns `'Finished!'`. If you call `gen.next()` again, it will throw an error as the generator is finished.
+
+Now, imagine if each `yield` in this example was a `Promise`, the code itself would appear extremely synchronous. Libraries such as [redux-saga](https://github.com/redux-saga/redux-saga) make use of this to implement easier-to-understand side-effects in your Redux applications.
