@@ -18,8 +18,8 @@ As shown above, another advantage over BSTs is that RBTs have a significantly be
 #### How Does It Work
 Essentially, all nodes inside the tree are either red or black. Newly inserted nodes will always be red. Depending on a set of rules, the nodes will be repainted or rotated. However, the tree will not be perfectly balanced, but as shown above, it has a worst case-in the most used-of O(log n).
 
-Here is how brilliant.org tells the constraints:
 ![alt text](https://i.imgur.com/raWMQJk.png "Brilliant.org Red Black Trees")
+-From Brilliant.org
 
 #### More Information:
 https://en.wikipedia.org/wiki/Red%E2%80%93black_tree
