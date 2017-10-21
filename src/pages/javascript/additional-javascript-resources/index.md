@@ -10,6 +10,7 @@ title: JavaScript Tutorials and Other Resources
 *   <a href='https://www.youtube.com/watch?v=v2ifWcnQs6M&index=1&list=PL62E185BB8577B63D' target='_blank' rel='nofollow'>Douglas Crockford's Videos</a>
 * <a href='https://mbeaudru.github.io/modern-js-cheatsheet/' target='_blank' rel='nofollow'>Modern JS Cheatsheet</a>
 * <a href='http://www.codeconquest.com/blog/top-50-websites-to-learn-javascript/' target='_blank' rel='nofollow'>The 50 Best Websites to Learn JavaScript</a> 
+* <a href=' http://youmightnotneedjquery.com/' target='_blank' rel='nofollow'>You Might Not Need jQuery</a>
 
 ## References
 
@@ -36,6 +37,7 @@ Find javascript libraries at <a href='http://jster.net' target='_blank' rel='nof
 *   <a href='https://hackerrank.com' target='_blank' rel='nofollow'>Hacker Rank</a>
 *   <a href='http://codingame.com' target='_blank' rel='nofollow'>Coding Game</a>
 *   <a href='https://codefights.com/home' target='_blank' rel='nofollow'>CodeFights</a>
+*   <a href='http://es6katas.org'  target='_blank' rel='nofollow'>ES6 Katas</a>
 
 ## Exercises
 

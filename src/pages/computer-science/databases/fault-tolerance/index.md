@@ -3,13 +3,17 @@ title: Fault Tolerance
 ---
 ## Fault Tolerance
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/computer-science/databases/fault-tolerance/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Fault tolerance is the property that enables a system to continue its intended operation, possibly at a reduced level, rather than failing completely, when some portion of the system fails.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+A **database** is fault-tolerant when it can access a secondary shard when the primary is unavailable. 
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+This is achieved through:
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+* Database Replication
+* Fault Detection & Failover
+
+A database that maintains multiple copies of all data in different physical nodes located across independent physical sub-systems, such as server racks and network routers, has a higher probability to continue operating when the primary copy of the data is unavailable due to its ability to read data from multiple replications.
+
+In large-scale distribution systems, it becomes increasingly important to have reliable failure detection systems that can identify failing storage drives and provide failover units in order to maximise service uptime.
 
 
