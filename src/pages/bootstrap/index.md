@@ -16,7 +16,8 @@ Bootstrap 2 was released in January 2012 and introduced the 12 column responsive
 
 Bootstrap 3 appeared in August 2013, switching to a flat design and a mobile-first approach.
 
-Bootstrap 4 is available in beta as of August 2017 and now includes Sass and flexbox.
+Bootstrap 4 was in development for two years before releasing their first beta in August 2017 and beta 2 in October 2017. Some notable changes include: Moved from less to sass. Moved to flexbox and improved grid system. Added cards (replacing wells, thumbnails, and panels) And much more! At the time of writing, Bootstrap is working on beta 3, if you would like to keep up with any news of announcements from bootstrap, follow them [here](http://blog.getbootstrap.com/).
+
 
 
 #### Installation
