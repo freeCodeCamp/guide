@@ -3,13 +3,12 @@ title: Divide and Conquer Algorithms
 ---
 ## Divide and Conquer Algorithms
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/algorithms/divide-and-conquer-algorithms/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+A divide and conquer algorithm is algorithm design paradigm that works by recursively breaking down a problem into two or more sub-problems of the same or related type, until these become simple enough to be solved directly. The solutions to the sub-problems are then combined to give a solution to the original problem.
+Example of a Divide and Conquer Algorithm method to manage big data:
+(http://bigdata.ices.utexas.edu/wp-content/uploads/2014/03/divide-and-conquer1.png)
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+- <a href ='http://www.radford.edu/~nokie/classes/360/divcon.html'> Examples 
+ 
