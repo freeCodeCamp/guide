@@ -9,7 +9,7 @@ Lets look at a simple program using integer variables.Integers can store simple 
 and so on. Any positive or negative value without decimal is an integer. Lets look at a simple program which uses an integer 
 variable.
 
-```C++
+```cpp
 #include <iostream>
 using namespace std ;
 int main()
@@ -20,6 +20,7 @@ int main()
     return 0;
 }
 ```
+
 When you execute this program you will see 5 displayed on the screen
 
 * Note that in the above program // is placed after the lines. Symbol "//" is for commenting our code. Code after the symbol
@@ -41,7 +42,8 @@ All the variables have their area of functioning, and out of that boundary they 
 Global variables are those, which ar once declared and can be used throughout the lifetime of the program by any class or any function. They must be declared outside the main() function. If only declared, they can be assigned different values at different time in program lifetime. But even if they are declared and initialized at the same time outside the main() function, then also they can be assigned any value at any point in the program.
 
 Example : Only declared, not initialized.
-```C++
+
+```cpp
 include <iostream>
 using namespace std;
 int x;                // Global variable declared
@@ -53,11 +55,13 @@ int main()
  cout <<"Initialized again with value = "<< x;
 }
 ```
+
 #### Local Variables
 Local variables are the variables which exist only between the curly braces, in which its declared. Outside that they are unavailable and leads to compile time error.
 
 Example :
-```C++
+
+```cpp
 include <iostream>
 using namespace std;
 int main()
