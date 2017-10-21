@@ -24,3 +24,5 @@ Thinking, Fast and Slow: amzn.to/2tnnlTN
 Learn You a Haskell for Great Good!: amzn.to/2veOjdv
 
 To see the full list, visit: https://talkpython.fm/episodes/show/130/10-books-python-developers-should-be-reading
+
+Also, [Simple Programmer](https://simpleprogrammer.com/) has lots of stuff on programming careers, as well as writing the book [The Complete Software Developer's Career Guide](https://simpleprogrammer.com/products/careerguide/)
