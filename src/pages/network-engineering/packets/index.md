@@ -3,13 +3,17 @@ title: Packets
 ---
 ## Packets
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/network-engineering/packets/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+A packet is the unit of data that is routed between an origin and a destination on the Internet or any other packet-switched network.
+In the OSI model, packets are created at the network layer. A packet consists of control information and user data, which is also known as the payload. 
+Control information provides data for delivering the payload, for example: source and destination network addresses, error detection codes, and sequencing information.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+![TCP/IP Packet example](https://www.computerhope.com/jargon/p/packet.jpg)
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+###Network packet basics
+* Another name for a packet is a datagram.
+* Data transferred over the Internet is sent as one or more packets. The most common packet sent is the TCP packet.
+* The size of a packet is limited, so most data sent over a network is broken up into multiple packets before being sent out and then put back together when received.
+* When a packet is transmitted over a network, network routers and switches examine the packet and its source to help direct it to the correct location.
+* During its transmission, network packets can be dropped. If a packet is not received or an error occurs, it is sent again.
 
 
