@@ -11,21 +11,21 @@ Ordered lists are another word for bulleted lists. You create an unordered list 
 Within the `<ol>` or `<ul>` tags, you need to put the items in the list. You add them using a `<li>` tag. Here is an example of an unordered list with items:
 ```HTML
 <ul>
-  <li>Item 1</li>
-  <li>Item 2</li>
-  <li>Item 3</li>
+  <li>Item A</li>
+  <li>Item B</li>
+  <li>Item C</li>
 </ul>
 ```
 
 This would display as:
-* Item 1
-* Item 2
-* Item 3
+* Item A
+* Item B
+* Item C
 
 An ordered list would display as:
-1. Item 1
-2. Item 2
-3. Item 3
+1. Item A
+2. Item B
+3. Item C
 
 #### Description lists
 A description list is a list of terms, with a description of each term. A description list is made using the `<dl>` tag.
@@ -51,3 +51,4 @@ Which would end up looking like so:
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 [HTML lists on w3schools](https://www.w3schools.com/html/html_lists.asp)
+[List Article on Mozilla Developer Network (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
