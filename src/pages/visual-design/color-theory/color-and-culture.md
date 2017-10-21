@@ -7,11 +7,11 @@ title: Color and Culture
 Color contributes to and affects context.
 Feng shui accepts this principle, whether a contemporary home decor strategy of the West, or as part of a traditional Chinese practice.
 From this, who could disagree with the premise that culture and psychology affect how colors are interpreted in context of information?
-Specific combinations of colors may also represent symbols, as in colors of a national flag or one's favorite sports team or school for example.
+Specific combinations of colors may also represent symbols, as in colors of a national flag, a favorite sports team, school or institution for example.
 
 
 Colors are one of the first impressions a viewer recognizes and interprets in communication --before letters are read, numbers analyzed, and graphs interpreted.
-This is why it is important to research about biases that viewers may have.
+This is why it is important to research about [biases that viewers](/working-in-tech/unconscious-bias/index.md) may have.
 A pallet of colors may change the context and meaning of content you publish.
 
 
