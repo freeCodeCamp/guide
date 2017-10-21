@@ -8,6 +8,21 @@ The unordered list (`<ul>`) is a tag used to create bulleted lists. To create a 
 The `<ul>` can be nested inside other lists and is compatible with others tag such as `<a>`,`<p>`,`<button>`, the html styling tags (`<strong>`,`<em>`, etc).
 
 ### Example
+
+```html
+ <ul>
+    <li>This is the bulleted list #1</li>
+    <li>This is the bulleted list #2</li>
+    <li>This is the bulleted list #3</li>
+      <li>
+        <ul>
+          <li>This is the bulleted nested list #1</li>
+        </ul>
+      </li>
+  </ul>
+```
+
+
 ```
 <html>
   <head>
