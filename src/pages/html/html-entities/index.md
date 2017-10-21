@@ -10,12 +10,10 @@ When a developer needs a character to be displayed on a web page that is not on 
   &#entity_number;
 ```
 #Examples
----
-&
-----
-----
-&amp;: &#38;
-----
+
+Character | HTML entity(name) | HTML entity(number)
+----------|-------------------|--------------------
+&|&amp;|&#43
 
 <a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
 
