@@ -3,13 +3,20 @@ title: HTML Entities
 ---
 ## HTML Entities
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/html-entities/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+When a developer needs a character to be displayed on a web page that is not on the keyboard or that is an HTML reserved character HTML entities can be used. An HTML entity is written where the symbol or character would normally be typed in the HTML, but encoded in a specific format.  This format consists of the ampersand(&) followed by either the entity name or number, and ended with a semicolon(;).  If the entity number is use it must also be preceded with a pound sign(#).
+
+```html
+  &entity_name;
+  &#entity_number;
+```
+#Examples
+---
+&
+----
+----
+&amp;: &#38;
+----
 
 <a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
