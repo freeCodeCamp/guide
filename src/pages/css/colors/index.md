@@ -6,14 +6,14 @@ title: Colors
 
 In CSS, you can change the color of almost any element in your HTML page. Properties like `background-color`, `color`, and `border-color` set the color of those elements.
 
-```
+```html
 <html>
   <body>
     <p>Hello Moto</p>
   </body>
 </html>
 ```
-```
+```css
 body {
   background-color: green;
   color: white;
@@ -24,7 +24,7 @@ In the above example, the `background-color: green` turns the `<body>` element g
 
 You can use named colors, like `green`, `blue`, `yellow`, `red`, `purple`, and many others. But for custom colors, you can use hex codes (`#147ACC`), RGB values (`rgb(20, 122, 204)`), and even HSL values (`hsl(145, 59%, 30%)`).
 
-```
+```css
 p {
   color: rgb(244, 145, 14); // bright orange
 }
@@ -36,7 +36,7 @@ body {
 
 You can also add an alpha value, or transparency to colors. Use `rgba()` or `hsla()` and fill in your color values. The alpha value goes last and is a percent converted to a decimal. (For example, 20% is 0.2, 75% is 0.75, etc.)
 
-```
+```css
 body {
   background-color: hsla(243, 65%, 57%, 0.6); // dark purple with 60% transparency
 }
