@@ -15,3 +15,5 @@ You can build some pretty amazing things in CSS alone, such as <a href='https://
 #### Suggested Reading:
 
 A good start is the current Beta <a href='https://github.com/freeCodeCamp/freeCodeCamp/blob/staging/seed/challenges/01-responsive-web-design/basic-css.json#L14' target='_blank' rel='nofollow'>introduction for the CSS challenges</a>
+
+The site <a href='http://www.csszengarden.com/' target='_blank' rel='nofollow'>CSS Zen Garden</a> is a great example how the same html can be styled to look totally unique.
