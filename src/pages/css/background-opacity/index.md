@@ -10,34 +10,34 @@ You have to add the following CSS property to achieve the transparency levels.
 
 **Fully Opaque**
 ```css
-.class-name{
+.class-name {
   opacity:1;
-  }
+}
 
 OR
 
-.class-name{
+.class-name {
   opacity:1.0;
-  }
+}
 ```
 **Translucent**
 ```css
-.class-name{
+.class-name {
   opacity:0.5;
-  }
+}
 Opacity value can be anything between 0 and 1;
 ```
 **Transparent**
 ```css
-.class-name{
+.class-name {
   opacity:0;
-  }
+}
   
 OR
 
-.class-name{
+.class-name {
   opacity:0.0;
-  }
+}
 ```
 #### More Information:
 For more information visit [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/opacity)
