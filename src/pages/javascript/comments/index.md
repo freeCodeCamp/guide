@@ -3,7 +3,7 @@ title: Comments
 ---
 ## Comments
 
-programmers use comments to add hints, notes, suggestions, or warnings to their source code, they have no effect on the actual output of the code. Comments can be very helpful in explaining the intent of what your code is or should be doing.
+Programmers use comments to add hints, notes, suggestions, or warnings to their source code. Although these comments have no effect on the actual output of the code, they can be very helpful in explaining the intent of a portion of code or what that code should be doing. Comments are very important and should never be ignored
 
 JavaScript has two ways of assigning comments in its code.
 
