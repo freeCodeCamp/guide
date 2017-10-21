@@ -1,12 +1,12 @@
 ---
 title: Python Iterators
 ---
+Iteration is the repetition of a set of operations. In a computer program, one form of iteration is a loop.
+Iteration can be used to do repetitive process until the defined conditions are being met.
+
 Python supports a concept of iteration over containers. This is implemented using two distinct methods; these are used to allow user-defined classes to support iteration.
 
 <a href='https://docs.python.org/3/library/stdtypes.html#iterator-types' target='_blank' rel='nofollow'>Python Docs - Iterator Types</a>
-
-**TODO: Clarify what iteration means and what iterators can be used for.**
-
 *   Objects can implement a `__iter__()` method that returns an iterator object to support iteration.
 *   Iterator objects must implement:
     *   `__iter__()`: returns the iterator object.
