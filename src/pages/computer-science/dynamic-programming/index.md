@@ -3,13 +3,48 @@ title: Dynamic Programming
 ---
 ## Dynamic Programming
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/computer-science/dynamic-programming/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Dynamic Programming is a method of programming where you divide a complex problem into multiple subproblems and store the solution of each of those subproblems. When the same subproblem occurs again, instead of recomputing it, we lookup its solution. Thereby saving on the computation time at the modest expense of storage. This  property of DP is called Overlapping Subproblems.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Here is an example.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```c++
+int fib(int n)
+{
+
+    if ( n <= 1 )
+
+    return n;
+
+    return fib(n-1) + fib(n-2);
+
+}
+```
+
+Above is a simple recursive solution where we are computing fib(2) many times.
+
+And below is the optimised solution (using DP
+
+
+```c++
+int lookup[n+1];
+
+for(int i =0; i<=n; i++)
+{    
+    lookup[i] = -1;
+}
+
+int fib(int n)
+{
+    if (lookup[n] == -1)
+    {
+        if (n <= 1)
+        lookup[n] = n;
+        else
+        lookup[n] = fib(n-1) + fib(n-2);
+    }
+    return lookup[n];
+}
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+<a href='http://www.geeksforgeeks.org/dynamic-programming-set-1/' target='_blank' rel='nofollow'>Geeks for Geeks Article</a>

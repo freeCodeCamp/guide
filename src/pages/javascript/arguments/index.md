@@ -25,6 +25,9 @@ You can invoke arguments by using `arguments[n]` (where _n_ is the index of the 
 
 ```javascript
 var args = Array.prototype.slice.call(arguments);
+
+// or the es6 way:
+var args = Array.from(arguments)
 ```
 
 Since **slice()** has two (the parameter **end** is optional) parameters, you can grab a certain portion of the arguments by specifying (using the _slice.call()_ method renders these two parameters optional, not just _end_) the beginning and the ending of your portion; check out the following code:
@@ -65,3 +68,22 @@ for (var i = 0; i < arguments.length; i++) {
 
 For more information on the optimization issues:  
 Optimization Killers: <a href='https://github.com/petkaantonov/bluebird/wiki/Optimization-killers#3-managing-arguments' target='_blank' rel='nofollow'>Managing Arguments</a>
+
+### ES6 spread operator as a way to circumvent the arguments object
+
+In ES2015/ES6 it is possible to use the spread operator (`...`) instead of the arguments object in most places. Say we have the following function (non-ES6): 
+
+    function getIntoAnArgument() {
+      var args = arguments.slice();
+      args.forEach(function(arg) {
+        console.log(arg);
+      }
+    }
+
+can in ES6 be replaced by: 
+
+    function getIntoAnArgument(...args) {
+        args.forEach(arg => console.log(arg));
+    }
+
+note that we also used an arrow function to shorten the forEach callback!

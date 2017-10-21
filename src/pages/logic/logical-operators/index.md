@@ -3,9 +3,9 @@ title: Logical Operators
 ---
 ## Logical Operators
 
-* **And**
-* **Or**
-* **Not**
+* **And** (&&)
+* **Or** (||)
+* **Not** (!)
 * **If**
 * **Iff** (if and only if)
 * **Xor** ("eXclusive or")
