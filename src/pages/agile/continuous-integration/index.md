@@ -54,4 +54,3 @@ Lots of services exists to handle the process of continuous integration for you,
 #### More Information:
 The Wikipedia entry on <a href='https://en.wikipedia.org/wiki/Continuous_integration' target='_blank' rel='nofollow'>Continuous Integration</a>.
 
-
