@@ -21,4 +21,4 @@ the `onload` event is most often used within the `<body>` element to execute the
 
 #### More Information:
 
-[MDN](https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onload)
+<a href='https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onload' target='_blank' rel='nofollow'>MDN</a>
