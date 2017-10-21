@@ -3,13 +3,21 @@ title: Display Property
 ---
 ## Display Property
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/layout/display-property/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+You use the display property to designate the desired box type rendering for elements. The initial default value is inline. The CSS syntax is `display: value;`   
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+**Example**
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```css
+p {
+    display: inline;
+}
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
+* Check out the Mozilla Developer Network (MDN) CSS reference on the display property <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/display' target='_blank' rel='nofollow'>here</a>.
+
+* The W3Schools CSS reference on the display property is available <a href='https://www.w3schools.com/cssref/pr_class_display.asp' target='_blank' rel='nofollow'>here</a>.
+
+* CSS-TRICKS has a great reference on the display property <a href='https://css-tricks.com/almanac/properties/d/display/' target='_blank' rel='nofollow'>here</a>
 
