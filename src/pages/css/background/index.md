@@ -39,7 +39,7 @@ You can use the background image property to set an image as a background for an
 The image is repeated by default so that it covers the entire element.
 ```css
 body {
-  background-image: url(“barn.jpg”);
+  background-image: url("barn.jpg");
 }
 ```
 ![image](https://user-images.githubusercontent.com/26467304/31036366-eb1fc260-a539-11e7-835d-e3f935a22c86.png)
@@ -59,7 +59,7 @@ You can use the background-repeat property to repeat the image vertically or hor
 Here is an example that repeats the image vertically.
 ```css
 body {
-  background-image: url(“barn.jpg”);
+  background-image: url("barn.jpg");
   background-repeat: repeat-y;
 }
 ```
@@ -68,7 +68,7 @@ body {
 You can repeat the image horizontally by setting the background-repeat property to “repeat-x”.
 ```css
 body {
-  background-image: url(“barn.jpg”);
+  background-image: url("barn.jpg");
   background-repeat: repeat-x;
 }
 ```
@@ -76,7 +76,7 @@ body {
 You can also use the background-repeat property to set an image to not repeat.
 ```css
 body {
-  background-image: url(“barn.jpg”);
+  background-image: url("barn.jpg");
   background-repeat: no-repeat;
 }
 ```
@@ -86,7 +86,7 @@ body {
 You can use the position property to specify where your image will be located on a web page.
 ```css
 body {
-  background-image: url(“barn.jpg”);
+  background-image: url("barn.jpg");
   background-repeat: no-repeat;
   background-position: right top;
 }
@@ -98,7 +98,7 @@ You can use the background-attachment property to set an image to a fixed positi
 A fixed position makes it so an image does not scroll with the rest of the page.
 ```css
 body {
-  background-image: url(“barn.jpg”);
+  background-image: url("barn.jpg");
   background-repeat: no-repeat;
   background-position: right top;
   background-attachment: fixed;
@@ -111,7 +111,7 @@ body {
 You can write the background properties on a single line. This is called the shorthand property.
 ```css
 body {
-  background: url(“barn.jpg”) no-repeat right top;
+  background: url("barn.jpg") no-repeat right top;
 }
 ```
 You can leave out properties you don’t need when using the shorthand property, but the properties 
