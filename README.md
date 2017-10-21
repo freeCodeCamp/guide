@@ -1,7 +1,7 @@
 ![](https://s3.amazonaws.com/freecodecamp/wide-social-banner.png)
 
 # freeCodeCamp Guide
-The freeCodeCamp community is building a massive, searchable "Guide." This reference tool will eventually include thousands of articles that cover all areas of development, design, and data science - all written to be easily understood by people new to coding.
+The freeCodeCamp community is building a massive, searchable "Guide." This reference tool will eventually include thousands of articles that cover all areas of development, design, and data science — all written to be easily understood by people new to coding.
 
 This repo is where we plan and maintain these Guide articles, which we then host on our community's wiki-like [Guide website](https://guide.freecodecamp.org).
 
@@ -18,7 +18,7 @@ This repo is where we plan and maintain these Guide articles, which we then host
 Guide articles can be an explanation of syntax, design pattern(s), what aria labels are for, or something like what the numbers mean in the top right-hand corner of your screen when at freecodecamp.org. You can find an [example article about HTML Elements here](./src/pages/html/elements/index.md).
 
 ## What can I write an article about?
-We welcome your help writing these articles. You don't have to be an expert in a topic to write about it - this entire Guide is open source, so even if you make a mistake, another contributor will eventually correct it.
+We welcome your help writing these articles. You don't have to be an expert in a topic to write about it — this entire Guide is open source, so even if you make a mistake, another contributor will eventually correct it.
 
 To help, find a `stub article` on our [Guide website](https://guide.freecodecamp.org/), write the article, then open a pull request (PR) to replace the stub with your article.
 
@@ -134,7 +134,7 @@ Don't use emojis or emoticons in the Guide. freeCodeCamp has a global community,
 
 Use double quotes where applicable.
 
-Format language keywords as code - this is done with the backtick key (located to the left of the "1" key on a US keyboard) in GitHub-flavored markdown. For example, put backticks around HTML tag names or CSS property names.
+Format language keywords as code — this is done with the backtick key (located to the left of the "1" key on a US keyboard) in GitHub-flavored markdown. For example, put backticks around HTML tag names or CSS property names.
 
 Use the Oxford Comma when possible (it is a comma used after the penultimate item in a list of three or more items, before ‘and’ or ‘or’ e.g. an Italian painter, sculptor, and architect). It makes things easier, clearer, and prettier to read.
 
