@@ -24,6 +24,6 @@ You can use C# to create Windows client applications, XML Web services, distribu
 
 
 #### More Information:
-[Introduction to C#](https://docs.microsoft.com/en-us/dotnet/csharp/getting-started/introduction-to-the-csharp-language-and-the-net-framework)
-[C# Tutorials](https://www.microsoft.com/net/tutorials/csharp/getting-started)
-[Official C# Documentation](https://docs.microsoft.com/en-us/dotnet/csharp/)
+* [Introduction to C#](https://docs.microsoft.com/en-us/dotnet/csharp/getting-started/introduction-to-the-csharp-language-and-the-net-framework)
+* [C# Tutorials](https://www.microsoft.com/net/tutorials/csharp/getting-started)
+* [Official C# Documentation](https://docs.microsoft.com/en-us/dotnet/csharp/)
