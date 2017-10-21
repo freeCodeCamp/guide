@@ -64,7 +64,7 @@ Here's an example of a page with a [head element](#), a [body element](#), and o
   <head>
   </head>
   <body>
-    <p>I'm a paragraph</p>
+    <p>This is a paragraph</p>
   </body>
 </html>
 ```
