@@ -34,5 +34,22 @@ The `onclick` event can also be programmatically added to any element using the 
 ```
 
 In the above example, when a user clicks on the `paragraph` element in the `html`, they will see an alert showing `onclick Event triggered`. 
+
+### Preventing default action
+However if we attach `onclick` to links (HTML's `a` tag) we might want prevent default action to occur:
+
+```javascript
+<a href="https://guide.freecodecamp.org" onclick="myAlert()">Guides</a>
+
+<script>
+  function myAlert(event) {
+    event.preventDefault();
+    alert("Link was clicked but page was not open");
+  }
+</script>
+```
+
+In the above example we prevented default behavior of `a` element (opening link) using `event.preventDefault()` inside our `onclick` callback function.
+
 #### More Information:
 [MDN](https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onclick)
