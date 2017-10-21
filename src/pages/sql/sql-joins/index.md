@@ -4,8 +4,16 @@ title: SQL Joins
 
 ## SQL Joins
 
-### Example of use
-For this guide we'll discuss the JOIN section of the SQL statement.
+A *relational database* contains tables which store data that is related in some way.
+SQL is the language that allows retrieval and manipulation of table data in a relational database.
+
+An *SQL join clause* combines columns from one or more tables in a relational database. It creates a set that can be saved as a table or used as it is.
+
+A few notes before we start:
+
+1. A SQL JOIN combines records from two tables.
+2. A query can contain zero, one, or multiple JOIN operations.
+3. INNER JOIN is the same as JOIN; the keyword INNER is optional.
 
 ### SQL syntax with focus on Join
 
@@ -15,8 +23,27 @@ FROM  tableNameOne AS a
 JOIN tableNameTwo AS b ON a.primeKey = b.primeKey 
 etc...
 ```
-The JOIN statement could be just JOIN or INNER JOIN, which are the same, or LEFT JOIN (described below). 
-Here are descriptions and examples of each.  Compare to the complete tables below.
+
+### Different types of Join
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/5860906/31816022-5745959c-b597-11e7-82e8-17513a07926a.png">
+</p>
+
+The JOIN statement could be:
+
+1. (INNER) JOIN
+   </br> Select records that have matching values in both tables.
+2. LEFT (OUTER) JOIN
+   </br> Select records from the first (left-most) table with matching right table records.
+3. RIGHT (OUTER) JOIN 
+   </br> Select records from the second (right-most) table with matching left table records.
+4. FULL (OUTER) JOIN 
+   </br> Selects all records that match either left or right table records.
+   
+*NB! All INNER and OUTER keywords are optional.*
+
+Here are descriptions and examples of each. Compare to the complete tables below.
 
 ### Join
 The student table will be in the FROM clause so it will be a starting or LEFT table.
@@ -79,7 +106,7 @@ LEFT JOIN `student-contact-info` AS b ON a.studentID = b.studentID;
 9 rows in set (0.00 sec)
 ```
 
-### Complete table listings for reference
+#### Complete table listings for reference
 Student table listings
 
 ```sql
@@ -123,7 +150,16 @@ student contact or RIGHT table
 +-----------+----------------------------------+--------------------+--------------------+
 8 rows in set (0.00 sec)
 ```
+### Right Join
 
+1. RIGHT JOIN performs a join starting with the second (right-most) table and then any matching first (left-most) table records.
+2. RIGHT JOIN and RIGHT OUTER JOIN are the same.
+
+### Full Join
+
+1. FULL JOIN returns all matching records from both tables whether the other table matches or not.
+2. FULL JOIN can potentially return very large datasets.
+3. FULL JOIN and FULL OUTER JOIN are the same
 
 As with all of these SQL things there is MUCH MORE to them than what's in this introductory guide.  
 
