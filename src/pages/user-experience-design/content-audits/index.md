@@ -9,7 +9,7 @@ Content audits its a task from the Information Architecture stage within a UX pr
 -Partial content inventory: A listing of a subset of the site’s content. A partial inventory may include, for example, the top few levels of a hierarchical site or the past six months of articles. All sections of the site will be covered.</br>
 -Content sample: A less detailed collection of example content from the site.
 
-The content audit type will depend on the nature of the request, mostly for website redesing its required to do a full content inventory, for project maintenance its a partial one!
+The content audit type will depend on the nature of the request, mostly for website redesign its required to do a full content inventory, for project maintenance, it's a partial one!
 
 #### More Information:
 

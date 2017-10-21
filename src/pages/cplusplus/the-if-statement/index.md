@@ -25,7 +25,7 @@ If the value of your test expression is ***false***, then the block of
 code inside the if statement is skipped and your code continues.
 
 Example of If Statement:
-```C++
+```cpp
 
   int a= 10;
   
@@ -44,7 +44,7 @@ if (a<0)
 //program continues   //program continues
 
 Example In C++ :
-  ```C++
+  ```cpp
  //Program to check if number entered by the user is positive
   //If negative, the block of code is skipped
 
@@ -97,5 +97,3 @@ _CONGRATULATIONS . This is the end of the article on the IF statement_
  **Happy Coding ! :)**
  
  **Feel free to ask any queries on FreeCodeCamp's GitHub page or [FreeCodeCamp's Forum .](https://forum.freecodecamp.org/)**
-
-By : Jaithra Bhatia and Hitarth Asrani
