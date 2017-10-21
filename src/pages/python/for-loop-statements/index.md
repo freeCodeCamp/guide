@@ -42,7 +42,8 @@ Some ways in which For loops are used:
 for i in range(10):
     print(i)
 ```
-
+Rather than being a function, range is actually an immutable sequence type.
+The output will contain results from lower bound i.e 0 to the upper bound i.e 10 but excluding 10.By default the lower bound or the starting index is set to zero.
 Output:
 
 ```
