@@ -18,7 +18,7 @@ result = sum(1, 2)
 #result = 3
 ```
 
-You can define default values for the parameters, that whay you can supress that parameter.
+You can define default values for the parameters, that way you can supress that default value.
 
 ```Python
 def sum(a, b=3):
@@ -28,14 +28,14 @@ result = sum(1)
 #result = 4
 ```
 
-You can pass the parameters in the order you whant, using the name of the parameter.
+You can pass the parameters in the order you want, using the name of the parameter.
 
 ```Python
 result = sum(b=2, a=2)
 #result = 4
 ```
 
-Functions are also Objects, that way you can assign then to another variable, and use that variable like a function.
+Functions are also Objects, so you can assign them to a variable, and use that variable like a function.
 
 ```Python
 s = sum
