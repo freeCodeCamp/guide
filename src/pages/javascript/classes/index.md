@@ -131,7 +131,7 @@ function Person(firstName, lastName) {
 
 Most often some properties and methods  have to be hidden to prevent access outside the function. With classes, to obtain this functionality, one way to do this is by using symbols. Symbol is a new built-in-type of JavaScript, which can be invoke to give a new symbol value. Every Symbol is Unique and can be used as a key on object. So one use case of symbols is that you can add something to an object you might not own, and you might not want to collide with any other keys of object so creating a new one and adding as property to that object using symbol is the safest.Also when symbol value is added to an object; no one else will know how to get it.
 
-
+```js
 class Person {
     constructor(firstName, lastName) {
         this._firstName = firstName;
@@ -173,7 +173,7 @@ class Person {
         console.log(this[s_firstName], this._lastName, 'is a', this._profession);
     }
 
-
+```
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
