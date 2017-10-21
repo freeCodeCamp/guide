@@ -3,7 +3,7 @@ title: Vim
 ---
 # Vim
 
-Vim is a highly configurable text editor built to make creating and changing any kind of text very efficient. It is included as "vi" with most UNIX systems and with Apple OS X.
+Vim is a highly configurable text editor built to make creating and changing any kind of text very efficient. It is included as "vi" with most UNIX systems, which also includes Apple's macOS.
 
 Vim is rock stable and boasts many features including:
 - persistent, multi-level undo tree
