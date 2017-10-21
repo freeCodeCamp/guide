@@ -1,7 +1,6 @@
 ---		
 title: Lambda Expressions		
 ---
-
 ## Lambda Expressions
 Anonymous function is a function that is defined without a name. Python supports the declaration of anonymous function by using `lambda` keyword, instead of `def` as in normal functions.
 
