@@ -126,10 +126,5 @@ This is because we did not add the inverted commas for the second print statemen
 
 <a href='https://repl.it/L4ox' target='_blank' rel='nofollow'>A summation of all the print statements used in this article. Feel free to tweak around woth the code ! :) </a>
 
-_CONGRATULATIONS! You have reached the end of the second article_
 
-**Good Luck to all of you** 
 
-**Happy Coding ! :)**
-
- **Feel free to ask any queries on FreeCodeCamp's GitHub page or [FreeCodeCamp's Forum .](https://forum.freecodecamp.org/)**
