@@ -8,7 +8,7 @@ Responsive Web Design is Desiging approach for the web for diffrent screen Sizes
 There are 2 ways to make Webpages responsive.
 
 #### 1. Media queries
-```javascript
+```css
 @media (query) {
   /* CSS Rules used when query matches */
 }
