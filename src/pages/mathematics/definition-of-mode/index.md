@@ -3,13 +3,20 @@ title: Definition of Mode
 ---
 ## Definition of Mode
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/definition-of-mode/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+The mode (also known as the modal value) is the number which appears most frequently within a set of numbers.
 
+![An example of a mode tally, here 20 is the mode as it occurs most frequently](https://github.com/tribalizzles/FreeCodeCamp-projects/blob/master/Mode1.png?raw=true "Mode")
+
+In the above example, 20 is the mode as it is observed more often than any of the other numbers.
+
+
+A data set can contain multiple modes if more than one value appears at the greatest frequency. 
+* If this occurs with two numbers the data set is bimodal.
+* If there are more than two modal values, the data set is multimodal.
+* If there is no value that occurs more frequently, then the data set has no mode. 
+
+#### More Information:
+[Modal Value](https://www.mathsisfun.com/mode.html)
 
