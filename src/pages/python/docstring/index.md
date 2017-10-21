@@ -12,7 +12,7 @@ Docstring is written as a multi-line comment just after the declaration header i
 1. Type of input, and type of output
     * Input/output can be ```obj, list, bool, int, str, float```
 2. Description of function
-    * Brief, but thorough description what your function does
+    * Brief, but thorough description of what your function does
 3. Requirements 
     * This is read by a human, so it does not have to be code
 4. Test cases (normally 2-3)
