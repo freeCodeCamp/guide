@@ -1,15 +1,17 @@
----
-title: Actual Time Estimation
----
 ## Actual Time Estimation
-
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/actual-time-estimation/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+Actual time estimation is a time-based method of estimating development work.  
 
+Its intent is to best approximate the amount of time required to complete a given development task. 
 
+Generally, these estimates are calculated using ideal engineering hours. 
+
+Examples: 
+##### This task will be complete in 10 days. 
+
+Or… 
+##### This task will be complete by January 10th. 
+
+Or… 
+##### This task will require 25 development hours for completion.
