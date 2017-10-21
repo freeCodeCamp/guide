@@ -3,13 +3,14 @@ title: Convert Decimals to Fractions
 ---
 ## Convert Decimals to Fractions
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/convert-decimals-to-fractions/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Using d = decimal.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Divide d by 1 so you have d/1 then multiply top and bottom by 100, creating 100d/100.
+Example: convert 0.2 into a fraction:
+0.2/1 ---> x100 = 20/100 = 2/10.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+![Examples](http://m.mathblaster.com/Mathblaster/CoolMath/Article-Images/decimals-to-fractions-&-fractions-to-decimals.jpg)
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+
 
 
