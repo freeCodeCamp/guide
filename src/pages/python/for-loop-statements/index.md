@@ -100,6 +100,26 @@ lemon #ffff00
 orange #ffa500
 >
 ```
+**Iterate over two lists of same size in a single loop with the zip() function**
+
+```python 
+A = ["a", "b", "c"]
+B = ["a", "d", "e"]
+
+for a, b in zip(A, B):
+  print a, b, a == b
+  
+```
+
+Output:
+```
+>
+a a True
+b d False
+c e False
+>
+```
+
 
 **Iterate over a list and get the corresponding index with the enumerate() function**
 
