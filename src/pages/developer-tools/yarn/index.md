@@ -3,7 +3,7 @@ title: Yarn
 ---
 ## Yarn
 
-Yarn is a package manager for your code. It allows you to use and share code with other developers from around the world. Yarn does this quickly, securely, and reliably so you don’t ever have to worry.
+Yarn is a package manager for your code. It allows you to use and share code with other developers from around the world. Yarn does this quickly, securely, and reliably so you don’t ever have to worry about the dependencies of a project.
 
 Yarn allows you to use other developers’ solutions to different problems, making it easier for you to develop your software. If you have problems, you can report issues or contribute back, and when the problem is fixed, you can use Yarn to keep it all up to date.
 
@@ -41,7 +41,7 @@ yarn install
 ```
 
 #### More Information:
-* Yarn website: <a href='https://yarnpkg.com' target='_blank' rel='nofollow'>yarn</a>
-* Yarn documentation: <a href='https://yarnpkg.com/en/docs' target='_blank' rel='nofollow'>yarndocs</a>
-* Yarn installation: <a href='https://yarnpkg.com/en/docs/install' target='_blank' rel='nofollow'>install yarn</a>)
-* Yarn vs NPM guide: <a href='https://www.pluralsight.com/guides/node-js/yarn-a-package-manager-for-node-js' target='_blank' rel='nofollow'>yarn vs npm</a>
+* <a href='https://yarnpkg.com' target='_blank' rel='nofollow'>Yarn website</a>
+* <a href='https://yarnpkg.com/en/docs' target='_blank' rel='nofollow'>Yarn documentation</a>
+* <a href='https://yarnpkg.com/en/docs/install' target='_blank' rel='nofollow'>Installing Yarn</a>)
+* <a href='https://www.pluralsight.com/guides/node-js/yarn-a-package-manager-for-node-js' target='_blank' rel='nofollow'>Yarn vs npm</a>
