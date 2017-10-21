@@ -7,6 +7,8 @@ title: SQL In Operator
 
 The IN opertor is used in a WHERE or HAVING (as part of the GROUP BY) to limit the selected rows to the items "IN" a list.
 
+It helps where to handle more than one row of data columns.
+
 Here is the current full student list to compare to the where clause result set:
 
 ```sql
