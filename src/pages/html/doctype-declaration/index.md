@@ -3,13 +3,12 @@ title: Doctype Declaration
 ---
 ## Doctype Declaration
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/doctype-declaration/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+A Doctype Declaration is a way to tell the browser how to render HTML page. Current HTML standard is HTML5 which should be declared at the top of your HTML document. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+**To indicate that your HTML document uses HTML5, use:**
+```html
+<!DOCTYPE html>
+```
+### Compatibility
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+Some of the new HTML5 features are still unsuported, but doctype declaration will ensure that browsers ignore the features that are unsupported and interpret document in a HTML5 compliant way. Doctype declaration should always be used in HTML documents.
