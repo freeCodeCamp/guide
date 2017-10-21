@@ -39,4 +39,4 @@ As Linux was originally made for developers by developers, they have spent much 
 
 ## It's Free.
 
-Hard to beat that!
+Can't really beat that!
