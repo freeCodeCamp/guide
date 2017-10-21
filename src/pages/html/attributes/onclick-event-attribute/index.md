@@ -1,15 +1,31 @@
----
-title: Onclick Event Attribute
----
 ## Onclick Event Attribute
+when the element is clicked fires a event, It works just like *onclick method* or  ```addEventListener('click')``` to the element
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/attributes/onclick-event-attribute/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+```html
+<element onclick="event"></element>
+```
+* event: it can be a javascript function or you can write raw javascript
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Examples
+Changing the color of a ```<p>``` element when clicked
+```html
+<p id="text" onclick="redify()">
+Change my color
+</p>
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+<script>
+function redify(){
+  let text = document.querySelector('#text');
+  text.style.color = "red";
+}
+</script>
+```
+
+Using raw javascript onclick attribute 
+```html
+<button onclick="alert('Hello')"> Hello World </button>
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
+[MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/GlobalEventHandlers/onclick)
 
