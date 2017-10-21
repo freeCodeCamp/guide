@@ -11,6 +11,9 @@ Java provides 4 levels of access modifiers. This means that you can modify acces
 
 Among these 4 modifiers, only 2 which are public and default can be applied to a class. However, the 4 modifiers can be applied to variables and methods
 
+#### Access Modifiers Table Reference: 
+![Access Modifiers Table](https://i.imgur.com/zoMspyn.png)
+
 private Access Modifier
 Allows a variable or method to only be accessed in the class in which it was created. No other class beyond the class that created the variable or method can access it. This is closely similar to your underwear. They are only accessible to the owner. To make a variable or method private, you simply append the private keyword before the variable or method type. For example;
 
