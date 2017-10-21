@@ -20,8 +20,8 @@ When you're writing HTML you can add a class to an element like so:
 Then  in our CSS file we should add the special attributes to the class.  
 ```css
 .superMan {
-color: red;
-background-color: blue;
+  color: red;
+  background-color: blue;
 }
 
 ```
