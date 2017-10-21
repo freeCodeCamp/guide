@@ -3,13 +3,8 @@ title: Personas
 ---
 ## Personas
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/user-experience-design/personas/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+A persona is a fictional character that represents a subset of users of a site, application, brand or product.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+A persona is created, or synthesized, from data collected from interviews with users . The persona should represent the typical behavior of a group, or the way in which that group interacts with the site, application, brand, or project.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+The description of the persona should include the end-goal that the character wishes to achieve - what problem are they trying to solve in using the site, application or product? What is their motivation? A persona will have identifying attributes; for example a name, job, etc, that allows the design team to identify with them.
