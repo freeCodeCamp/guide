@@ -5,7 +5,7 @@ title: jQuery Effects Show Method
 
 In its simplest form, **.show()** displays the matched element immediately, with no animation. For example:
 ```javascript
-$(".myclass").show()
+$(".myclass").show();
 ```
 will show all the elements whose class is *myclass*. Any jQuery selector can be used.
 
@@ -17,7 +17,7 @@ Thanks to its options, **.show()** can animate the width, height, and opacity of
 
 * Duration can be provided in milliseconds, or using the literals slow (600 ms) and fast(200ms). for example:
 ```javascript
-$("#myobject").show("slow")
+$("#myobject").show("slow");
 ```
 
 * A function can be specified to be called once the animation is complete, once per every matched element. for example

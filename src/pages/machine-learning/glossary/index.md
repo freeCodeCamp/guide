@@ -8,6 +8,7 @@ more details.
 
 - **Machine Learning** - Intersection of statistics and computer science in
   order to teach computers to perform tasks without explicitly being programmed.
+  - **Deep Learning** - An umbrella terms of machine learning methods based on learning data representations as opposed to algorithms based on fulfilling a given task. It include architectures such as deep neural networks, deep belief networks and recurrent neural networks.
 - **Statistical Learning** - the use of machine learning with the goal of
   statistical inference, whereby you make conclusions of the data rather than
   focus on prediction accuracy
