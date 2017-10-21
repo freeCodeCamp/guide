@@ -34,7 +34,7 @@ int main()
 }
 ```
 
-The above code returns an error because at line 2 , we have used a colon(:) instead of a semiccolon(;)
+The above code returns an error because at line 2 , we have used a colon(:) instead of a semicolon(;)
 So, let's debug the error :
 
 ```C++
