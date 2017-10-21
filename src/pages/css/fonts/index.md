@@ -90,7 +90,21 @@ p.small {
 }
 ```
 
+### Font Face
+
+The `@font-face` CSS at-rule allows authors to specify online fonts to display text on their web pages. By allowing authors to provide their own fonts, @font-face eliminates the need to depend on the limited number of fonts users have installed on their computers. The @font-face at-rule may be used not only at the top level of a CSS, but also inside any CSS conditional-group at-rule.
+
+```css
+@font-face {
+ font-family: "Open Sans";
+ src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
+        url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+}
+```
+
 #### More Information:
 
 - https://www.w3schools.com/css/css_font.asp
 - https://developer.mozilla.org/en-US/docs/Web/CSS/font
+- https://css-tricks.com/snippets/css/using-font-face/
+- https://fonts.google.com/
