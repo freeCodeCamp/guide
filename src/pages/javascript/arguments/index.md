@@ -43,7 +43,7 @@ console.log(getGrades(90, 100, 75, 40, 89, 95));
 
 // OUTPUT SHOULD BE: //
 // [100, 75] <- Why? Because it started from index 1 and stopped at index 3
-// so, index 3 (40) wasn't taken in consideration.
+// so, index 3 (40) wasn't taken into consideration.
 //
 // If we remove the '3' parameter, leaving just (arguments, 1) we'd get
 // every argument from index 1: [100, 75, 40, 89, 95].
@@ -69,21 +69,31 @@ for (var i = 0; i < arguments.length; i++) {
 For more information on the optimization issues:  
 Optimization Killers: <a href='https://github.com/petkaantonov/bluebird/wiki/Optimization-killers#3-managing-arguments' target='_blank' rel='nofollow'>Managing Arguments</a>
 
-### ES6 spread operator as a way to circumvent the arguments object
+### ES6 rest parameter as a way to circumvent the arguments object
 
-In ES2015/ES6 it is possible to use the spread operator (`...`) instead of the arguments object in most places. Say we have the following function (non-ES6): 
+In ES2015/ES6 it is possible to use the rest parameter (`...`) instead of the arguments object in most places. Say we have the following function (non-ES6): 
 
     function getIntoAnArgument() {
-      var args = arguments.slice();
-      args.forEach(function(arg) {
-        console.log(arg);
-      }
+        var args = arguments.slice();
+        args.forEach(function(arg) {
+            console.log(arg);
+        });
     }
 
-can in ES6 be replaced by: 
+That function can be replaced in ES6 by: 
 
     function getIntoAnArgument(...args) {
         args.forEach(arg => console.log(arg));
     }
 
-note that we also used an arrow function to shorten the forEach callback!
+note that we also used an arrow function to shorten the forEach callback!   
+
+The arguments object is not available inside the body of an arrow function.
+
+The rest parameter must always come as the last argument in your function definition.  
+    ```function getIntoAnArgument(arg1, arg2, arg3, ...restOfArgs  /*no more arguments allowed here*/) {
+        //function body
+    }```   
+
+
+
