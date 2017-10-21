@@ -63,7 +63,7 @@ yarn install
 yarn run dev
 ```
 
-In this project we are using `yarn` because `netlify` builds our site with `yarn`.
+In this project, we are using `yarn` because `netlify` builds our site with `yarn`.
 
 ## Article style guide
 
@@ -204,7 +204,7 @@ Use the [Hemingway App](http://www.hemingwayapp.com/). There’s nothing magical
 
 The Hemingway App will assign a “grade level” for your writing. You should aim for a grade level of 6. Another tool available is the [De-Jargonizer](http://scienceandpublic.com/), originally designed for scientific communication but might help avoid overspecialized wording.
 
-Also, there's a community of support from a whole team of contributors, whom you can bounce ideas off of and ask for input on your writing. Stay active in the [contributors chat room](https://gitter.im/freecodecamp/contributors) and ask lots of questions.
+Also, there's a community of support from a whole team of contributors, whom you can bounce ideas off of and ask for input on your writing. Stay active in the [contributor's chat room](https://gitter.im/freecodecamp/contributors) and ask lots of questions.
 
 With your help, we can create a comprehensive reference tool that will help millions of people who are learning to code for years to come.
 
