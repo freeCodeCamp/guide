@@ -86,5 +86,10 @@ Python also has a built-in function `sorted()` that builds a new sorted list fro
 a = [4, 2, 5, 3, 1]
 print sorted(a) # prints [1, 2, 3, 4, 5]
 ```
-
-More information about sort() and sorted() can be found <a href='https://docs.python.org/3.6/tutorial/datastructures.html' target='_blank' rel='nofollow'>here</a>
+More information about sort() and sorted() can be found <a href='https://docs.python.org/3.6/tutorial/datastructures.html' target='_blank' rel='nofollow'>here</a>.  
+If one wants to know details about the implementation of the sort function, the algorithm, and the time complexity, etc., refer <a href='http://svn.python.org/projects/python/trunk/Objects/listsort.txt' target='_blank' rel='nofollow'>here</a>. In brief, sort function uses TimSort algorithm, which according to Python Developers, is :-  
+>an adaptive, stable, natural mergesort, modestly called
+timsort (hey, I earned it <wink>).  It has supernatural performance on many
+kinds of partially ordered arrays (less than lg(N!) comparisons needed, and
+as few as N-1), yet as fast as Python's previous highly tuned samplesort
+hybrid on random arrays.
