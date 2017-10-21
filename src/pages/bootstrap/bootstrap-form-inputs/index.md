@@ -5,11 +5,11 @@ title: Bootstrap Form Inputs
 
 Bootstrap supports the following form controls:
 
-input
-textarea
-checkbox
-radio
-select
+* input
+* textarea
+* checkbox
+* radio
+* select
 
 Bootstrap supports all the HTML5 input types: text, password, datetime, datetime-local, date, month, time, week, number, email, url, search, tel, and color.
 
