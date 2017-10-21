@@ -1,7 +1,7 @@
 ---
-title: HTML Dom
+title: HTML DOM
 ---
-## HTML Dom
+## HTML DOM
 
 With the HTML DOM, JavaScript can access and change all the elements of an HTML document.
 
@@ -23,5 +23,5 @@ With the object model, JavaScript gets all the power it needs to create dynamic 
 
 #### More Information:
 
-[W3C - HTML DOM](https://www.w3schools.com/js/js_htmldom.asp)
+[DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
 
