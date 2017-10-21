@@ -5,7 +5,7 @@ title: Basic Networking
 
 Basic Networking in C Mainly Invloves opening a socket and communicating throught them. Hence then comes the question, what is a Socket?
 
-##What is Socket
+## What is Socket
 A socket is one endpoint of a two-way communication link between two programs running on the network. A socket is bound to a port number so that the TCP layer can identify the application that data is destined to be sent to. An endpoint is a combination of an IP address and a port number.
 
 Hence, when a program is running on a network, it is available to access from different locations other than the local location. By different locations i mean all the computers on the same network can access it. But, how will they?. Hence every program registers itself with a Port number. Think of port number as the Apartment Number in a huge apartment. So, if a post comes till the apartment, the apartment number tells it to go to a specific Apartment.
