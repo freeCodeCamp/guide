@@ -9,13 +9,14 @@ Input stream objects in C++ use 'cin'. This is used to save input data into the 
 Output stream objects use 'cout', as shown in the first introduction of C++, to print out statements to the console.
 
 ```C++
-# include<iostream>
+#include <iostream>
 using namespace std;
 
 int main(){
-int x;
-cin >> x;
-cout << "The output value of int x" << x << endl;
+  int x;
+  cin >> x;
+  cout << "The output value of int x" << x << endl;
+}
 
 ```
 
