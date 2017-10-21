@@ -115,4 +115,4 @@ module.exports = function(grunt) {
 
 #### More Information:
 
-Grunt documentation: [Getting Started](https://gruntjs.com/getting-started")
+Grunt documentation: [Getting Started](https://gruntjs.com/getting-started)
