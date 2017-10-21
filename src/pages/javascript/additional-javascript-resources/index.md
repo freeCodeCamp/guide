@@ -2,7 +2,6 @@
 title: JavaScript Tutorials and Other Resources
 ---
 *   <a href='http://jsforcats.com/' target='_blank' rel='nofollow'>JavaScript for Cats</a>
-*   <a href='https://javascript.info/' target='_blank' rel='nofollow'>The Modern JavaScript Tutorial</a>
 *   <a href='https://github.com/DrBoolean/mostly-adequate-guide' target='_blank' rel='nofollow'>Professor Frisby's Mostly Adequate Guide to Functional Programming</a>
 *   <a href='http://www.eloquentjavascript.net' target='_blank' rel='nofollow'>Eloquent Javascript</a> (<a href='https://watchandcode.com/courses/eloquent-javascript-the-annotated-version' target='_blank' rel='nofollow'>_annotated_</a>)
 *   <a href='http://speakingjs.com/es5/' target='_blank' rel='nofollow'>Speaking Javascript</a>
@@ -10,7 +9,8 @@ title: JavaScript Tutorials and Other Resources
 *   <a href='https://www.youtube.com/watch?v=Bv_5Zv5c-Ts' target='_blank' rel='nofollow'>Udemy - Javascript Understanding the Weird Parts (_first 3.5 hrs_)</a>
 *   <a href='https://www.youtube.com/watch?v=v2ifWcnQs6M&index=1&list=PL62E185BB8577B63D' target='_blank' rel='nofollow'>Douglas Crockford's Videos</a>
 *   <a href='https://mbeaudru.github.io/modern-js-cheatsheet/' target='_blank' rel='nofollow'>Modern JS Cheatsheet</a>
-*   <a href='http://www.codeconquest.com/blog/top-50-websites-to-learn-javascript/' target='_blank' rel='nofollow'>The 50 Best Websites to Learn JavaScript</a> 
+*   <a href='http://www.codeconquest.com/blog/top-50-websites-to-learn-javascript/' target='_blank' rel='nofollow'>The 50 Best Websites to Learn JavaScript</a>
+*   <a href='https://javascript.info/' target='_blank' rel='nofollow'>The Modern JavaScript Tutorial</a>
 *   <a href='http://youmightnotneedjquery.com/' target='_blank' rel='nofollow'>You Might Not Need jQuery</a>
 
 ## References
