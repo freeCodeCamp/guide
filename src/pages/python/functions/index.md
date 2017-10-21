@@ -43,5 +43,5 @@ result = s(1, 2)
 #result = 3
 ```
 #### More Information:
-[Python 3 Docs: Defining Functions](https://docs.python.org/3/tutorial/controlflow.html#defining-functions)
+<a href='https://docs.python.org/3/tutorial/controlflow.html#defining-functions' target='_blank' rel='nofollow'>Python 3 Docs: Defining Functions</a>
 
