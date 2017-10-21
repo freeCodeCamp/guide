@@ -3,13 +3,7 @@ title: Scrummasters
 ---
 ## Scrummasters
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/scrummasters/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+A Scrum team is made up of 3 different roles: Product Owner, Scrum Master, and team members.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
+The Scrum Master's role is wide and varied. Some of their responsibilities are to coach the team in scrum, run or facilitate the various ceremonies (eg. stand ups), protect the team from the Product Owner or the wider business, and to facilitate in removing blockers from the team.
 
