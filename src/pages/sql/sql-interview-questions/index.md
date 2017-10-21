@@ -33,6 +33,12 @@ ORDER BY Customers.CustomerName
 
 # Changes
 
+### What is the result of the following command?
+``` 
+  DROP VIEW view_name
+```
+Here it'll be an error because we can't perform a DML operation on a view.
+
 ### Can we perform a rollback after using ALTER command?
 No, because ALTER is a DDL command and Oracle server performs an automatic COMMIT when the DDL statements are executed.
 
@@ -46,5 +52,7 @@ A pseudocolumn is a function which returns a system generated value. The reason 
 ``` Some examples of it are:
     ROWNUM, ROWID, USER, CURRVAL, NEXTVAL etc.
 ```    
+
+
 
 
