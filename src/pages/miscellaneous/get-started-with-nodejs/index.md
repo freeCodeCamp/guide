@@ -1,6 +1,10 @@
 ---
 title: Get Started with Nodejs
 ---
+[Node.js](https://nodejs.org/) is a JavaScript runtime built on [Chrome's V8 JavaScript engine](https://developers.google.com/v8/ "Chrome's V8 Engine") enabling JavaScript to be used for server-side programming.
+
+Node.js has become a key part of 'JavaScript Everywhere', encouraging web application development to unify around a single programming language, rather than rely on a different language for writing server side scripts.
+
 ### Tutorials:
 
 *   <a href='http://nodeschool.io/' target='_blank' rel='nofollow'>NodeSchool.io interactive lessons</a>
