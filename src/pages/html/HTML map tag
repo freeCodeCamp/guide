@@ -1,0 +1,2 @@
+HTML map tag let you to do clickable areas on image. <map> element contains a number of <area> elements
+and it defines clickable links on image. It's associated with usemap atribute and creates a relationship between map ang image. You can use graphic program to do a map like that. 
