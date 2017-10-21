@@ -1,7 +1,7 @@
 ---
-title: What Is an API
+title: What is an API
 ---
-## What Is an API
+## What is an API
 
 API stands for Application Programming Interface. Don’t worry about the AP, just focus on the I. An API is an interface. You use interfaces all the time. A computer operating system is an interface. Buttons in an elevator are an interface. A gas pedal in a car is an interface.
 
