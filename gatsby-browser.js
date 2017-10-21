@@ -5,9 +5,7 @@ import { Provider } from 'react-redux';
 
 import createStore from './src/store';
 
-const propTypes = {
-    children: PropTypes.node.isRequired
-  };
+const propTypes = { children: PropTypes.node.isRequired };
 
 const store = createStore();
 
@@ -18,9 +16,9 @@ exports.replaceRouterComponent = ({ history }) => {
       <Router history={ history }>{ children }</Router>
     </Provider>
   );
+    
   ConnectedRouterWrapper.displayName = 'ConnectRouterWrapper';
   ConnectedRouterWrapper.propTypes = propTypes;
 
-  return ConnectedRouterWrapper;
+  return ConnectedRouterWrapper; 
 };
-
