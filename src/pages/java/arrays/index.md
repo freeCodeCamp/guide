@@ -62,7 +62,7 @@ System.out.println(list[1]);
 ```
 Output:
 ```
-2
+2.0
 ```
 
 ## Modifying Arrays:
