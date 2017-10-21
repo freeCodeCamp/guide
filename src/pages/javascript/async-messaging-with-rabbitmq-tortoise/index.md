@@ -89,6 +89,9 @@ Now, in `consumer.js`:
 ```javascript
 const Tortoise = require('tortoise')
 const superagent = require('superagent')
+
+const tortoise = new Tortoise(`amqp://rudimk:YouKnowWhat@$localhost:5672`)
+
 ```
 
 Next, let's write an async function that calls a URL and displays the result:
