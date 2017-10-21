@@ -36,7 +36,7 @@ You can create a PR with your draft article (or edits on an existing article) in
 - Go into the "pages" folder (located in `guides/src`) and find the article stub you'd like to write or edit. All stubs will be in an index.md file
 - Click the "Edit this file" pencil icon and make your changes to the file in GitHub-flavored Markdown
 - Scroll to the bottom of the screen and add a commit message explaining your changes. Then select the radio button option for "Create a new branch for this commit and start a pull request" and click "Propose file changes"
-- On the next screen, you can add any other details about your PR, then click "Create pull request"
+- On the next screen, you can add any other details about your PR, then click "Create pull request".
 
 
 2) If you prefer to write locally before submitting a PR, then follow these steps:
