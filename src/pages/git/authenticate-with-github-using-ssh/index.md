@@ -51,6 +51,8 @@ clip < ~/.ssh/id_rsa.pub # Windows
 cat ~/.ssh/id_rsa.pub # Linux
 ```
 
+Go to your GitHub [settings](https://github.com/settings/keys) page and click the 'New SSH key' button paste in your generated key.
+
 Then authenticate with:
 
 ```shell
