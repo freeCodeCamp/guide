@@ -67,7 +67,7 @@ function Point2D(x, y) {
 
 var p1 = new Point2D(1, 2);
 console.log(p1.x); // 1
-console.log(p2.y); // 2
+console.log(p1.y); // 2
 ```
 
 The thing you must notice that is the `Point2D` function called with `new` keyword, and `this` reference is bound to `p1` object. So when a function is called with `new` keyword, it will create a new object and `this` reference will be bound to this object.
