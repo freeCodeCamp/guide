@@ -2,6 +2,7 @@
 title: Logistic Regression
 ---
 ## Logistic Regression
+
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 <p>
 Logistic regression is the appropriate regression analysis to conduct when there is a need for binary( in 0 or 1)  categorization of data.<br>
@@ -25,8 +26,10 @@ Now if you watch closely linear regression line actually goes below 0 for some v
   
   #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-To explore Logistic regression and other data analysis tools on real world problems.<br>
-<a href="www.kaggle.com">Refer Kaggle.com</a><br>
-Do check out kernels built by users there , it will help provide further insight on this topic and its applications.
 
+=======
+For further reading to build logistic regression step by step :
 
+- Click <a href="https://medium.com/towards-data-science/building-a-logistic-regression-in-python-step-by-step-becd4d56c9c8"  target='_blank' rel='nofollow'>here</a> for an article about building a Logistic Regression in Python.
+
+- Click <a href="http://nbviewer.jupyter.org/gist/justmarkham/6d5c061ca5aee67c4316471f8c2ae976" target='_blank' rel='nofollow'>here</a> for another article on building a Logical Regression.
