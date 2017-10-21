@@ -39,6 +39,11 @@ Find javascript libraries at <a href='http://jster.net' target='_blank' rel='nof
 *   <a href='https://codefights.com/home' target='_blank' rel='nofollow'>CodeFights</a>
 *   <a href='http://es6katas.org'  target='_blank' rel='nofollow'>ES6 Katas</a>
 
+## Tutorials
+
+*   <a href='https://www.codecademy.com' target='_blank' rel='nofollow'>Codecademy</a>
+*   <a href='https://www.rithmschool.com' target='_blank' rel='nofollow'>RithmSchool</a> 
+
 ## Exercises
 
 *   <a href='https://codility.com/programmers/lessons/' target='_blank' rel='nofollow'>Codility</a>
