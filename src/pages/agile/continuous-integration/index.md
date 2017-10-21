@@ -3,13 +3,11 @@ title: Continuous Integration
 ---
 ## Continuous Integration
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/continuous-integration/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Continuous Integration is a modern software development process which is a major part of a 'DevOps' culture. Developers working within this environment commit their code multiple times per day on to a centralised platform to continuously ensure that the code passes its tests. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The major benefit of this process is that it ensures developers can identify any bugs early on in the lifecycle of an application. This enables developers to remedy these bugs quickly and efficiently which in turn saves time in the development lifecycle.
+ 
+Other benefits of Continuous Integration include collaboration. Continuous Integration requires developers to be constantly communicating, working together and working towards the same goals. This streamlines the development of an application and ensures development resources are used effectively with little waste.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
+Continuous integration software tools can be used to automate the testing and build a document trail. Common tools inclue Jenkins, TemaCity and Travis CI. 
 
