@@ -3,13 +3,14 @@ title: Definition of Mean
 ---
 ## Definition of Mean
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/definition-of-mean/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
+ In mathematics, mean is the average number of the total.
+ To find the mean, you add all the numbers and divide by how many there are.
+ 
+ For example: Find the mean of: 2, 4, 5, 7, 8.
+ 
+ Method:
+ 2+4+5+7+8 = 26.
+ 26 divided by 5 = 5.2
+ Mean = 5.2.
+ 
 
