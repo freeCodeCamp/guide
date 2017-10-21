@@ -1,0 +1,33 @@
+
+## PHP -INTRODUCTION
+PHP(HYPER TEXT PREPEROCESSOR) is a programming language that can do all sorts of things: evaluate form data sent from a browser, build custom web content to serve the browser, talk to a database, and even send and receive cookies.
+Lets dvelve into basic coding with PHP:
+
+1. Hello World Script in Php
+
+Code :
+
+<html>
+   
+   <head>
+      <title>Hello World</title>
+   </head>
+   
+   <body>
+      <?php echo "Hello, World!";?>
+   </body>
+
+</html>
+
+Result:
+
+Hello, World!
+
+There are three basic ways of writing php code such that it is recognisable by the php parser:
+
+1. <?php PHP code goes here ?>
+
+2. <?    PHP code goes here ?>
+
+3. <script language="php"> PHP code goes here </script>
+
