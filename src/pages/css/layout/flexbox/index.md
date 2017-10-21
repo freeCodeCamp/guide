@@ -11,5 +11,8 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+I recently took a course on flexbox and made a simple navbar and sidebar example. Check them out below. 
+navbar 
+https://codepen.io/borgatajunky/pen/yzpBqw
+sidebar 
+https://codepen.io/borgatajunky/pen/LzOwEJ
