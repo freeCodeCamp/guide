@@ -3,13 +3,37 @@ title: Array.prototype.concat
 ---
 ## Array.prototype.concat
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/standard-objects/array/array-prototype-concat/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `concat()` method is used to fusion two or more arrays.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Syntax
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```js
+const newArray = array.concat(value1, value2, value3...);
+```
+
+### Examples
+
+```js
+const odd = [1, 3, 5, 7, 9];
+const even = [0, 2, 4, 6, 8];
+
+const oddAndEven = odd.concat(even);
+
+// [1, 3, 5, 7, 9, 0, 2, 4, 6, 8]
+```
+
+#### Concatenating value to an array
+
+```js
+const odd = [1, 3, 5, 7, 9];
+const even = [0, 2, 4, 6, 8];
+
+const oddAndEvenAndTen = odd.concat(even, 10);
+
+// [1, 3, 5, 7, 9, 0, 2, 4, 6, 8, 10]
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat)
 
 
