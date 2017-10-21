@@ -45,6 +45,9 @@ Based on the property you choose, these styles can be mismatched.
 ```
 As shown, the border property allows you to select different sections of it. [top, bottom, left, right]
 
+Another important `border`property is the `border-radius` property. This can either be declared in pixels or in percentage. The `border-radius` property adds rounded corners to elements,
+
+
 ### More Information:
 
 MDN Documentation: <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/border' target='_blank' rel='nofollow'>MDN</a>
