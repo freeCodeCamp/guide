@@ -1,5 +1,5 @@
 ---
-title: How to Create/Delete a User or Sudo User on Linux
+title: User management on Linux
 ---
 #### Note: To run a command as `sudo` you must have sudo user account (Administrator)
 
