@@ -5,7 +5,7 @@ title: Pointers
 By now you're aware that C is a low-level language, and nothing shows that better than pointers. Pointers are variables that get you the variable value by "pointing" to a memory location rather than storing the value of the variable itself. This allows for some handy tricks, and is also what gives us access to arrays and file handling, among other things.
 
 ## Making and Using a Pointer
-```
+```C
 #include <stdio.h>
 int main(void){
     double my_double_variable = 10.1;
@@ -26,7 +26,7 @@ In this code, there are two declarations. The first is a typical variable initia
 The next line tells the compiler where that somewhere else actually is. By using `&` in this way, it becomes the 'dereferencing operator', and returns the memory location of the variable it's looking at.
 
 With that in mind, let's take another look at this chunk of code:
-```
+```C
 double *my_pointer;
 
 my_pointer = &my_double_variable;
@@ -34,7 +34,7 @@ my_pointer = &my_double_variable;
 `my_pointer` has been declared, and it's been declared as a pointer. The C compiler now knows that `my_pointer` is going to point to a memory location. The next line assigns `my_pointer` a memory location value using the `&`.
 
 Now let's take a look what referring to a memory location means for your code:
-```
+```C
 printf("%f\n", my_double_variable);
 ++my_double_variable;
 printf("%f\n", *my_pointer);
@@ -54,7 +54,7 @@ Whenever it can be avoided, it's a good idea to keep your code easy to read and 
 Because of that, you should be careful when using pointers. It's easy to make something confusing for you to debug or for someone else to read. However, it is possible to do some pretty neat things with them.
 
 Take a look at this code, which turns something from uppercase to lowercase:
-```
+```C
 #include <stdio.h>
 #include <ctype.h>
 
