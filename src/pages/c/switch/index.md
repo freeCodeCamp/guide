@@ -9,7 +9,7 @@ It's a list of possibilities, with an action for each possibility, and an option
 We exit from the switch by `break`.
 
 ## Example
-```
+```c
 # include <stdio.h>
 
 int main() {
