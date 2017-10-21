@@ -29,7 +29,7 @@ Git has two types of tags:
 
 Best practice is to create an annotated tag so that the developer has the full information. Lightweight tags are best used for temporary tags. 
 
-#### Annotated tags
+#### Annotated tags 
 `git tag -a v1.1.1 -m "version 1.1.1"`
 
 `-a` informs git that the tag will be an annotated tag. 
