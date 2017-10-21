@@ -15,7 +15,7 @@ This repo is where we plan and maintain these Guide articles, which we then host
 - [License](#license)
 
 ## What are Guide articles?
-Guide articles can be an explanation of a syntax, design pattern, what aria labels are for, or something like what the numbers mean in the top right-hand corner of your screen when at freecodecamp.org. You can find an [example article about HTML Elements here](./src/pages/html/elements/index.md).
+Guide articles can be an explanation of syntax, design pattern(s), what aria labels are for, or something like what the numbers mean in the top right-hand corner of your screen when at freecodecamp.org. You can find an [example article about HTML Elements here](./src/pages/html/elements/index.md).
 
 ## What can I write an article about?
 We welcome your help writing these articles. You don't have to be an expert in a topic to write about it - this entire Guide is open source, so even if you make a mistake, another contributor will eventually correct it.
@@ -27,7 +27,7 @@ If you can't find a stub about the topic you'd like to write about, you can open
 Before you begin writing, make sure to read the [article style guide](#article-style-guide) below.
 
 ## How to contribute
-You can create a PR with your draft article (or edits on an existing article) in two ways:
+You can create a PR (Pull Request) with your draft article (or edits on an existing article) in two ways:
 
 1) The easiest method is to use the GitHub interface. Watch the video demonstration or follow the steps below it:
 
@@ -63,7 +63,7 @@ yarn install
 yarn run dev
 ```
 
-In this project we are using `yarn` because `netlify` builds our site with `yarn`.
+In this project, we are using `yarn` because `netlify` builds our site with `yarn`.
 
 ## Article style guide
 
@@ -204,7 +204,7 @@ Use the [Hemingway App](http://www.hemingwayapp.com/). There’s nothing magical
 
 The Hemingway App will assign a “grade level” for your writing. You should aim for a grade level of 6. Another tool available is the [De-Jargonizer](http://scienceandpublic.com/), originally designed for scientific communication but might help avoid overspecialized wording.
 
-Also, there's a community of support from a whole team of contributors, whom you can bounce ideas off of and ask for input on your writing. Stay active in the [contributors chat room](https://gitter.im/freecodecamp/contributors) and ask lots of questions.
+Also, there's a community of support from a whole team of contributors, whom you can bounce ideas off of and ask for input on your writing. Stay active in the [contributor's chat room](https://gitter.im/freecodecamp/contributors) and ask lots of questions.
 
 With your help, we can create a comprehensive reference tool that will help millions of people who are learning to code for years to come.
 

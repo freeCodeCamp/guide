@@ -1,30 +1,34 @@
 ---
 title: Area of a Square
 ---
+
 ## Area of a Square
 
-Area of a square is defined as the space enclosed by four sides of a square. A square is a regular quadrilateral, which means it has four equal sides and four equal angles (90-degree angles, or right angles). It can also be defined as a rectangle in which two adjacent sides have equal length.
+A square is a quadrilateral with identical sides.
 
-#### Terminology
+The area of a square can be calculated either from the length of the side, or from the length of the diagonal.
+
+![Square](https://github.com/viso-gio/HostedImages/blob/master/square.jpg?raw=true)
+
+If the side *a* is known:
+
+![Formula1](https://github.com/viso-gio/HostedImages/blob/master/AreaSquare1.png?raw=true)
+
+If the diagonal *d* is known:
+
+![Formula2](https://github.com/viso-gio/HostedImages/blob/master/AreaSquare2.png?raw=true)
+
+The relationship between side *a* and diagonal *d* is:
+
+![Diagonal](https://github.com/viso-gio/HostedImages/blob/master/DiagonalSquare.png?raw=true)
+
+### Terminology
+
 Diagonal - the distance from opposite corners of a square. The corners are 90-degrees.
 
 Perimeter - the sum of the length of four sides in a square. The four sides are equal in a square.
 
-#### Formula
-###### Given length of sides of the square
-Area of square = length x length
-
-   <i>or simply</i>
-
-Area of square = length<sup>2</sup>
-
-###### Given diagonal of the square
-Area of square = (diagonal)<sup>2</sup> / 2
-
-###### Given perimeter of square
-Area of square = (perimeter/4)<sup>2</sup>
-
-#### Examples
+### Examples
 
 1. Given length of one side of square is 8 units:
 
@@ -41,9 +45,8 @@ Area of square = (perimeter/4)<sup>2</sup>
 4. Given perimeter of a square is 20 units:
 
    Area = (20 / 4)<sup>2</sup> = 25  units<sup>2</sup>
-  
 
 #### More Information:
-More information with illustrations can be found [here](https://www.wikihow.com/Find-the-Area-of-a-Square).
 
-
+- [Wikipedia: Square](https://en.wikipedia.org/wiki/Square#Perimeter_and_area)
+- [More Illustrations](https://www.wikihow.com/Find-the-Area-of-a-Square)
