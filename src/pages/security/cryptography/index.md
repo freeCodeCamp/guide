@@ -3,13 +3,21 @@ title: Cryptography
 ---
 ## Cryptography
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/security/cryptography/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Cryptography is the practice and study of techniques for secure communication in the presence of third parties. More generally, cryptography is about constructing and analyzing protocols that prevent third parties or the public from reading private messages. Various aspects in information security such as data confidentiality, data integrity, authentication, and non-repudiation are central to modern cryptography.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+There are 2 types of encryption:
+### 1)Symmetric or Private Key or Single Key :
+Single key is used for both encryption and decryption. Since both sender and receiver are equivalent, either can encrypt or decrypt messages using that common key.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Some popular Symetric encryption techniques are:
+Data Encryption Standard(DES), Advance Encryption Standard(AES), Blow Fish, Two Fish, RC4.
+
+### 2)Asymmetric or Public Key :
+Asymmetric algorithms provides each user with a pair of keys: one public and one private. Any message encrypted with one key from the pair can only be decrypted with the other key from the pair. 
+
+Some techniques are:
+RSA, Diffie-Hellman, DSS(Digital Signature Standard), ElGamal.
+
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+[Cryptography Guide](https://www.tutorialspoint.com/cryptography/index.htm)
