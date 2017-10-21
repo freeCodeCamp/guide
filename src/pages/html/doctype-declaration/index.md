@@ -1,15 +1,36 @@
----
-title: Doctype Declaration
----
 ## Doctype Declaration
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/doctype-declaration/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+DOCTYPEs are required for legacy reasons. When omitted, browsers tend to use a different rendering mode that is incompatible with some specifications. Including the DOCTYPE in a document ensures that the browser makes a best-effort attempt at following the relevant specifications.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+> Note:<br>
+> ```<!DOCTYPE html>``` is case-insensitively.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+## Common Doctype Declarations
+
+### HTML 5
+
+```HTML
+<!DOCTYPE html>
+```
+
+### HTML 4.01 Strict
+
+```HTML
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+```
+
+### HTML 4.01 Transitional
+
+```HTML
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+```
+
+### HTML 4.01 Frameset
+
+```HTML
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+* [w3schools](https://www.w3schools.com/tags/tag_doctype.asp): All Doctype declarations.
