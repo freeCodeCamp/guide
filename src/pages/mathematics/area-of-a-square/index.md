@@ -3,13 +3,17 @@ title: Area of a Square
 ---
 ## Area of a Square
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/area-of-a-square/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+![alt text](http://mathworld.wolfram.com/images/eps-gif/Square_1000.gif)
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The main property of a square is that all sides has the same size. In order to calculate his area you only need to know the lenght of one side.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+The picture above has the side lenght equals to 'a'.
+So to calculate the area:
+```
+Area of Square = a * a
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+[For more properties of a Square](https://en.wikipedia.org/wiki/Square)
 
 
