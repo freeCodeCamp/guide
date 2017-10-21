@@ -3,13 +3,21 @@ title: Area of a Square
 ---
 ## Area of a Square
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/area-of-a-square/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The area of a square can be calculated either from the length of the side, or from the length of the diagonal.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+![Square](https://github.com/viso-gio/HostedImages/blob/master/square.jpg?raw=true)
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+If the side *a* is known:
+
+![Formula1](https://github.com/viso-gio/HostedImages/blob/master/AreaSquare1.png?raw=true)
+
+If the diagonal *d* is known:
+
+![Formula2](https://github.com/viso-gio/HostedImages/blob/master/AreaSquare2.png?raw=true)
+
+The relationship between side *a* and diagonal *d* is:
+
+![Diagonal](https://github.com/viso-gio/HostedImages/blob/master/DiagonalSquare.png?raw=true)
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+* [Wikipedia: Square](https://en.wikipedia.org/wiki/Square#Perimeter_and_area)
