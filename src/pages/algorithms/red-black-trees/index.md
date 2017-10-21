@@ -2,14 +2,25 @@
 title: Red Black Trees
 ---
 ## Red Black Trees
+Red Black Trees (RBT) are a type of binary search tree (BST) which contains self-balancing algorithms. This can be highly useful as binary search trees are only useful if they are well balanced. This gives a decisive edge over the BST as we will delve deeper in.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/algorithms/red-black-trees/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+#### Asymptotic Complexity
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+| Algorithm        | Average           | Worst Case  |
+| ------------- |:-------------:| :-----:|
+| Space      | O(n) | O(n) |
+| Search      | O(log n)      |   O(log n) |
+| Insert | O(log n)      |    O(log n) |
+| Delete | O(log n)  | O(log n) |
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+As shown above, another advantage over BSTs is that RBTs have a significantly better worst-case in almost every algorithm.
+
+#### How Does It Work
+Essentially, all nodes inside the tree are either red or black. Newly inserted nodes will always be red. Depending on a set of rules, the nodes will be repainted or rotated. However, the tree will not be perfectly balanced, but as shown above, it has a worst case-in the most used-of O(log n).
+
+Here is how brilliant.org tells the constraints:
+![alt text](https://i.imgur.com/raWMQJk.png "Brilliant.org Red Black Trees")
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+https://en.wikipedia.org/wiki/Red%E2%80%93black_tree
+https://brilliant.org/practice/red-black-trees/
