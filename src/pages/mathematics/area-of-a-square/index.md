@@ -3,6 +3,8 @@ title: Area of a Square
 ---
 ## Area of a Square
 
+A square is a quadrilateral with identical sides.
+
 The area of a square can be calculated either from the length of the side, or from the length of the diagonal.
 
 ![Square](https://github.com/viso-gio/HostedImages/blob/master/square.jpg?raw=true)
