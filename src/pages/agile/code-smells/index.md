@@ -3,11 +3,7 @@ title: Code Smells
 ---
 ## Code Smells
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/code-smells/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Code smells is a special term meaning that a code was written badly, or illogically. In terms of software development, code smells can be introduced by too long methods or too many variables, making the code reading too difficult. Misleading comments, dead code, duplicate operations and high code complexity are amongst other examples of code smells. Basically any code writing practice, making it unreadable, hard too understand or too complex for other developers introduces a so-called code smell, which potentially might cause more issues in the further development.
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
