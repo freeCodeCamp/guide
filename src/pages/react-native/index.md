@@ -20,9 +20,10 @@ It follows the same pattern as React where the views (what you see on the screen
 ### Reasons to choose React Native
 
 1. Code reusability — It uses one code based that is shared between both platforms.
-1. Reuse web tools and skills — Reuse JavaScript knowledge and tools like Axios, Redux, and other libraries that don’t require the DOM from the web.
-1. Optimized for developer productivity — Comes with features like hot/live reloading and chrome developer tools out of the box!
-1. Performance — Performs better than hybrid application frameworks like Ionic and Cordova.
-1. Corporate backing — Lot’s of companies support and contribute to React Native including Walmart, Airbnb, Wix, and, of course, Facebook.
-1. Community — React Native has a large (and growing) community with over 1500 contributors to the core project and thousands more who contribute to various libraries.
-1. Better user expirience — Others frameworks like ionic or cordova are called hybrid because they renders using HTML, CSS. React Native renders its javascript code using native components from your phone's OS. This contribute to a better user experience closer to an app built in an specific phone language.
+2. Reuse web tools and skills — Reuse JavaScript knowledge and tools like Axios, Redux, and other libraries that don’t require the DOM from the web.
+3. Optimized for developer productivity — Comes with features like hot/live reloading and chrome developer tools out of the box!
+4. Performance — Performs better than hybrid application frameworks like Ionic and Cordova.
+5. Corporate backing — Lot’s of companies support and contribute to React Native including Walmart, Airbnb, Wix, and, of course, Facebook.
+6. Community — React Native has a large (and growing) community with over 1500 contributors to the core project and thousands more who contribute to various libraries.
+7. Better user expirience — Others frameworks like ionic or cordova are called hybrid because they renders using HTML, CSS. React Native renders its javascript code using native components from your phone's OS. This contribute to a better user experience closer to an app built in an specific phone language.
+8.It offers third party plugin compatibility so you won’t have to rely on a WebView for certain functions. For example, if you’re adding Google Maps functionality to your app, React Native lets you link the plugin with a native module, so you can link the map up with the device’s functions like zoom, rotate, and the compass, while using less memory and loading faster. If your app supports older operating systems (and older devices), this can help you keep the app running smoothly.
