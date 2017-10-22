@@ -15,7 +15,7 @@ font-weight: 400;  /* equal to 'normal' above */
 font-weight: 700; /* equal to 'bold' above */
 ```
 
-Numerical value and the common description
+Numerical value and their common description
 
 | Value	| Common Description           |
 | ----- | ---------------------------- |
@@ -33,7 +33,7 @@ Not all weights are available for all fonts. Some specialised fonts may only be 
 
 Font-weight can also be specified relative to an element's parent (if a font has more than one weight):
 ```
-font-weight: lighter 
-font-weight: bolder 
+font-weight: lighter; 
+font-weight: bolder; 
 ```
 
