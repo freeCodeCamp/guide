@@ -43,4 +43,19 @@ std::string last_item = a.back(); // gets the last item in the vector ("access")
 std::string second_item = a.at(2); // gets "element"
 // OR
 std::string second_item = a[2]; // gets "element"
+
+```
+
+### Some useful functions
+The standard template library (STL) also provide different *methods* for you:
+
+```cpp
+std::vector.size(); // returns the size of the vector (the number of positions in the vector)
+std::vector.begin(); // returns an iterator which is a pointer to the beginning of the vector
+std::vector.end(); // returns an iterator which is a pointer to the end of the vector
+std::vector.empty(); // returns true if the vector is empty, otherwise returns false.
+std::vector.front(); // returns the first element of the vector.
+std::vector.back(); // returns the last element of the vector.
+std::vector.push_back(n); // inserts the element "n" to the end of the vector.
+std::vector.pop_back(n); // removes the last element of the vector
 ```
