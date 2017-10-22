@@ -41,6 +41,12 @@ printf("%f\n", *my_pointer);
 ```
 Notice that in order to get the value of the data at `*my_pointer`, you'll need to tell C that you want to get the value the variable is pointing at. Try running this code without that asterisk, and you'll be able to print the memory location, because that's what the `my_variable` variable is actually holding.
 
+You can declare multiple pointer in a single statement as with standard variables, like so: 
+```
+int *x, *y;
+```
+Notice that the `*` is required before each variable. This is because being a pointer is considered as part of the variable and not part of the datatype.
+
 ## Practical Uses of Pointers
 ### Arrays
 The most common application of a pointer is in an array. Arrays, which you'll read about later, allow for a group of variables. You don't actually have to deal with `*` and `&` to use arrays, but that's what they're doing behind the scenes.
