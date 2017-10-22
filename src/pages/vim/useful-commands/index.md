@@ -6,6 +6,10 @@ title: Useful Commands
 2. Type in `:w` ("w" stands for "write");
 3. Press `Enter`.
 
+## Searching
+1. Press escape to get you into "normal" mode
+2. Type `:/`, type the keyword to search `:/<keyword>` and press enter.
+
 ## Exiting Vi, Vim, Nvim, Gvim
 1. Press escape to get you into "normal" mode
 2. Type `:q`, press enter. If you receive an error try `:q!`
