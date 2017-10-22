@@ -2,14 +2,18 @@
 title: Vagrant
 ---
 ## Vagrant
+Vagrant is a tool to **"Create and configure lightweight, reproducible, and portable development environments."**
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/developer-tools/vagrant/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+This means Vagrant takes all the headache out of setting up a local development environment. Vagrant replaces it with almost a single configuration file. This file is where you can pick and choose what features you want your server to have. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Developers have a huge selection of ways to build their web development environment. They can use "local" options, such as installing pre-built "all-in-one" server stacks. Install the components from the source. Or via package management systems like Homebrew, Apt, and Yum 
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+ Some developers are happy with configuring their own environments, only to fnd it does not work in production. Leading to the well worn phrase  "Well it works on my computer". This is to common and it happens when environments differ by even the most trivial detail. 
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+Vagrant avoids that and allows easy management and control of many virtual machines. It is built on top of VirtualBox and VMWare, and it provides many exciting capabilities. 
+
+Developers can create isolated development environments. They can experiment with new products and technologies. Or install new versions of existing packages by creating a private data center on their laptop. All this is available in an easy-to-manage and totally safe. Creating a silo that wont interfere with your main  system.
+
+
 
 
