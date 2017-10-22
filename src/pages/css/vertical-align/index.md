@@ -3,13 +3,33 @@ title: Vertical Align
 ---
 ## Vertical Align
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/vertical-align/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The vertical-align CSS property controls the vertical alignment of an inline or table-cell element.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+#### Example
+```css
+img {
+  vertical-align: 7em;
+}
+       
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+#### Possible values
+* baseline
+* sub
+* super
+* text-top
+* text-bottom
+* middle
+* top
+* bottom
+* *length* (e.g. px, %, em, etc.)
+* inherit
+* initial
+* unset
+
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+[MDN web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/vertical-align)  
+[CSS Tricks](https://css-tricks.com/almanac/properties/v/vertical-align/)
 
 
