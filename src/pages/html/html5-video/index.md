@@ -2,14 +2,20 @@
 title: HTML5 Video
 ---
 ## HTML5 Video
+The `<video>` tag is used to embed videos in HTML and is a new feature of HTML 5.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/html5-video/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+#### How it works
+```html
+<video width="320" height="240" controls autoplay>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video>
+```
+The video element accepts `width` and `height` attributes as well as optional attributes to display video `controls` and to `autoplay` on load. (Gotcha: The autoplay attribute does not work on mobile devices)
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+On load, the browser will look for the first compatible source file and load it. If no formats are compatible, then it will display any text located between the opening and closing `<video>` tags.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+- [w3schools article](https://www.w3schools.com/html/html5_video.asp)
