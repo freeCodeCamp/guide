@@ -141,6 +141,33 @@ There's actually a bit more to it, but this is the part that does all the work.
 
 These two lines of code tell the compiler that the word 'false' should be replaced with '0', and the word 'true' should be replaced by '1'. `stdbool.h` also has some documentation and compiler instructions that will be discussed later, but those two lines are all there really is to it.
 
+# Tips and Trics 
+Consider the code below:
+
+  ```C
+ #include <stdio.h>
+  int main()
+  {
+      int i=3;
+      if(i=4)
+      {
+       printf("This block is executed");
+     }
+    else
+    {
+    printf("NO! I am boss");
+    }
+}
+
+```
+what will be the the Output? "NO! I am boss"? if you are guessing this output then you are wrong.
+Why did this happen? because in the if statement you used "=" instead of "==" operator.
+"==" is comparator . It will compare between two variables but "=' is assignment operator 
+when we said i=4, we simply assigning value 4 to the integer i, and since in "C" every NON-ZERO value is true so
+if(i=4) is true statement and instructions under this will executed
+
+
+
 # Before you go on...
 ## A review
 * 'if' statements check if something is true, and if they are, they run the code within the curly brackets.
