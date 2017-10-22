@@ -157,7 +157,7 @@ You can check out the Purdue link above to see how to properly cite web sources 
 
 If you cannot find an author or published date, which is common, simply omit these.
 
-Use of proper citations will not only keep the guides on the up and up, but these citations and links will also provide valuable resources should the reader want to learn more about the topic.
+Use of proper citations will not only keep the guides on the up and up, but these citations and links will also provide valuable resources should the reader want to learn more about the topic. Also note that instances of blatant plagiarism will be either removed or have their pull requests declined, and the user will receive a warning. Please refer to and review the [Academic Honesty Policy](https://www.freecodecamp.org/academic-honesty) before contributing.
 
 ### Formatting example code
 
