@@ -87,7 +87,7 @@ for (int i = 0; i < a.length; i++){ // loop goes through each index
 }
 ```
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CONn' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/NC2Y/0' target='_blank' rel='nofollow'>Run Code</a>
 
 Output:
 ```
