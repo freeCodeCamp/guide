@@ -162,3 +162,35 @@ class demo{
     }
 }
 ```
+
+## String:
+
+String is not a primitive data type, but it lets you store multiple character data types in an array and has many methods that can be used. It is used quite commonly when the user types in data and you have to manipulate it. 
+
+In the example below, we try to remove all of the letters from the string and output it:
+
+```java
+
+String input = "My birthday is 10 January 1984 and my favorite number is 42";
+String output = "";
+
+for(int i=0;i<input.length();i++){
+
+//if the character at index i on the string is a letter or a space, move on to the next index
+if(Character.isLetter(input.charAt(i)) || input.charAt(i)==' '){ 
+    
+    continue;
+}
+
+output = output + input.charAt(i); //the number is added onto the output
+
+}
+
+System.out.println(output);
+```
+
+
+Output: 
+```
+10198442
+```
