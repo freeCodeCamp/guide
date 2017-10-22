@@ -79,5 +79,6 @@ Here's an example where we're specifying a style that should only be applied to 
 ```
 
 #### More Information:
+* [CSS Syntax](https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax) @ MDN
 * [CSS Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors) @ MDN
 
