@@ -80,5 +80,7 @@ int main() {
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 * <a href='http://www.geeksforgeeks.org/stack-data-structure/' target='_blank' rel='nofollow'>More Info on Stacks - GeeksForGeeks</a>
+* <a href='https://en.wikipedia.org/wiki/Tower_of_Hanoi' target='_blank' rel='nofollow'> Tower of Hanoi Problem and how the solution uses stacks and recursions </a>
+
 
 
