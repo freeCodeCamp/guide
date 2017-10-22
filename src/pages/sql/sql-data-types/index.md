@@ -34,6 +34,7 @@ Data type | Description
 `DATE` | Stores year, month, and day values
 `TIME` | Stores hour, minute, and second values
 `DATETIME` | Stores year, month, day, hour, minute, and second values
+`TIMESTAMP` | Stores the number of seconds since the Unix epoch 
 
 
 ### Other Data Types
