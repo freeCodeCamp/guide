@@ -1,0 +1,97 @@
+---
+title: C++ While Loop
+---
+
+# While Loop
+
+**What does a While Loop do?**
+
+* A while loop runs at least once. It is used when you don't know how many times it will take
+to run through a loop.
+* A while loop runs while a logical condition is true.
+* The while statement is evaluated at the end of the loop. It is inside the parenthesis.
+
+ -----------------------------------------------
+  The general form of if statement:
+
+ if (Test Condition is true )
+  {
+   // Block of statement
+  }
+  -----------------------------------------------
+  
+If the value of your test condition is ***true***, then the block of
+code inside the while loop is executed.
+
+If the value of your test condition is ***false***, then the block of
+code inside the while loop is skipped and your code continues.
+
+Example of a While loop:
+
+  ---------------------------- -----------------------------
+
+```cpp
+
+  int num = 3
+  while (num < 5 )
+{
+  // execute code of block
+  num = num+1
+}
+  // program continues
+
+```
+
+In this example, the program will run once, when num = 3.
+Then, num will increment to 4 and the condition will be tested again.
+It remains true, so the code is run again.
+num is then incremented to 5.
+The test condition is tested, and is false (since 5 == 5, not 5 < 5).
+The program skips the while loop and the rest of the program is run.
+
+  ---------------------------- -----------------------------
+
+Example in C++:
+
+```cpp
+
+// Program to show how a while loop works by incrementing numbers
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	// Declare and intialize programming variables
+	int num = 7;
+
+	// while loop to increment the number
+	while (num < 11) {
+		cout << "The current value of num is: " << num << endl;
+		// increment num by 1
+		num = num + 1;
+	}
+
+  //program continues
+  cout << "That is how a while loop works." << endl;
+
+  system("pause");
+  return 0;
+}
+```
+
+### Output
+
+The current value of num is: 7
+The current value of num is: 8
+The current value of num is: 9
+The current value of num is: 10
+That is how a while loop works.
+
+_CONGRATULATIONS . This is the end of the article on the IF statement_ 
+
+ **Good Luck to all of you** 
+
+ **Happy Coding ! :)**
+
+ **Feel free to ask any queries on FreeCodeCamp's GitHub page or [FreeCodeCamp's Forum .](https://forum.freecodecamp.org/)**
