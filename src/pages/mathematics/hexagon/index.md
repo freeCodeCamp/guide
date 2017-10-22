@@ -1,15 +1,11 @@
 ---
 title: Hexagon
 ---
-## Hexagon
-
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/hexagon/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+## Hexagon:
+Hexagon is the term used to describe a shape with six sides and six angles. The total internal angle of an hexagon is 720°, each with an angle of 120°.
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
+<a href='https://en.m.wikipedia.org/wiki/Hexagon'>Wikipedia</a>
 
 
