@@ -78,6 +78,9 @@ function binarySearch(arr, item, low, high) {
 var numbers = [1,2,3,4,5,6,7];
 print(binarySearch(numbers, 5, 0, numbers.length-1));
 ```
+The Power of Binary Search in Data Systems (B+ trees):
+Binary Search Trees are very powerful because of their O(log n) search times, second to the hashmap data structure which uses a hasing key to search for data in O(1). It is important to understand how the log n run time comes from the height of a binary search tree. If each node splits into two nodes, (binary), then the depth of the tree is log n (base 2).. In order to improve this speed in Data System, we use B+ trees because they have a larger branching factor, and therefore more height. I hope this short article helps expand your mind about how binary search is used in practical systems.
+
 
 ### More Information
 <a href="https://youtu.be/P3YID7liBug">Binary search (YouTube video)</a>
