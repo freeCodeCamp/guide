@@ -39,7 +39,7 @@ function draw() {
 window.requestAnimationFrame(draw);
 ```
 
-To see this concept in action, see the 'Particle Sim' page.
+To see this concept in action, see the '[Particle Sim](/articles/canvas/particle-sim)' page.
 
 #### More Information:
 

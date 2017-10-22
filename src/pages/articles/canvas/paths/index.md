@@ -7,7 +7,7 @@ Paths are the building block of drawing in Canvas. A path is just a shape. Then,
 
 We can create use paths with `beginPath`, `fill`, and `stroke`.
 
-```
+```js
 ctx.beginPath();
 ctx.rect(0, 0, 100, 100);
 ctx.fillStyle="black";
@@ -16,7 +16,7 @@ ctx.fill();
 
 This creates a black square in the upper-right corner of the canvas. We can change strokes and fills with `strokeStyle` and `fillStyle`, which both take CSS-like color strings. We can also use `lineWidth` to make strokes thicker.
 
-```
+```js
 ctx.beginPath();
 ctx.moveTo(0,0);
 ctx.lineTo(300,150);
@@ -37,7 +37,7 @@ There are four basic drawing functions: `rect`, `moveTo`, `lineTo`, and `arc`.
 
 Note that these functions add to the working path. They don't create new paths.
 
-```
+```js
 //example 1
 ctx.beginPath();
 ctx.rect(0, 0, 50, 50);
@@ -56,7 +56,7 @@ The first example will draw two squares, while the second will only draw one sin
 
 This fact leads to a common mistake in making `canvas` animations.
 
-```
+```js
 var x = 0;
 var y = 0;
 function draw() {
@@ -74,7 +74,7 @@ window.requestAnimationFrame(draw);
 
 The above animation, which is supposed to make a square move across the screen, instead creates a long black bar. The reason is that `beginPath` is not called inside the `draw` loop.
 
-To read more about animation, see the Animation page.
+To read more about animation, see the [Animation](/articles/canvas/animation-in-canvas/) page.
 
 #### More Information:
 
