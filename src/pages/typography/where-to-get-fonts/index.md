@@ -18,3 +18,5 @@ You're done! You successfully have new fonts for your site.
 ..* <a href="http://fontsquirrel.com">Font Squirrel</a>
 ..* <a href="http://www.dafont.com">DaFont</a>
 ..* <a href="http://www.1001freefonts.com">1001 Free Fonts</a>
+..* <a href="https://www.myfonts.com/WhatTheFont/">What The Font</a>
+
