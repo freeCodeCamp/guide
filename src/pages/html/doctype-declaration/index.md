@@ -3,13 +3,34 @@ title: Doctype Declaration
 ---
 ## Doctype Declaration
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/doctype-declaration/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The DOCTYPE defines which version of HTML or XHTML your document uses.  It must be the first thing in your HTML document.  The DOCTYPE declaration is not case sensitive
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+HTML5 only has one DOCTYPE declaration:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+<!DOCTYPE HTML>
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+HTML 4.01 has 3 DOCTYPE declarations:
 
+HTML 4.01 Strict
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+HTML 4.01 Transitional
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+HTML 4.01 Frameset
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+
+XHTML has 4 DOCTYPE declarations:
+
+XHTML 1.0 Strict
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+XHTML 1.0 Transitional
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+XHTML 1.0 Frameset
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+
+XHTML 1.1
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 
