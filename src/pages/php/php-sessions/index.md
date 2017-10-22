@@ -135,9 +135,14 @@ session_start();
 session_unset(); 
 
 // destroy the session 
-session_destroy(); 
+session_destroy();
+
+echo "All session variables are now removed, and the session is destroyed." 
 ?>
 
 </body>
 </html>
 ```
+
+Output:  
+All session variables are now removed, and the session is destroyed.
