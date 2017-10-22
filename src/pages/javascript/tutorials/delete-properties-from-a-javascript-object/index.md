@@ -12,7 +12,7 @@ The **delete operator** removes a property from an object.
 `delete expression` where expression should evaluate to a property reference, e.g.:
 
     delete object.property
-    delete object<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions_and_function_scope/Strict_mode' target='_blank' rel='nofollow'>'property']
+    delete object['property']
 
 ## Parameters
 
