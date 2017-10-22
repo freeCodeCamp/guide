@@ -60,6 +60,21 @@ Output:
 9
 >
 ```
+Additionally, one can specify the lower bound of the sequence and even the step of the sequence by adding a second and a third parameter. 
+
+```python
+for i in range(4,10,2): #From 4 to 9 using a step of two
+    print(i)
+```
+Output:
+
+```
+>
+4
+6
+8
+>
+```
 
 **Iterate over values in a list or tuple**
 
