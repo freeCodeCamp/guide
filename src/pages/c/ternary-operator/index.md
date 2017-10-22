@@ -34,4 +34,9 @@ c = (a < b) ? a : b;
 printf("%d", c);
 ```
 
+Output of the example should be:
+```
+10
+```
+
 This looks pretty simple, right?
