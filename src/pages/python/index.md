@@ -91,6 +91,17 @@ Some of the principles that influenced the design of Python are included as an e
     If the implementation is easy to explain, it may be a good idea.
     Namespaces are one honking great idea -- let's do more of those!
 
+
+## Pros and Cons of Python
+### Pros
+1. Interactive language with a module support for almost all functionality.
+2. Open Source: So, you can contribute to the community, the functions you have developed for future use and to help others
+3. A lot of good interpreters and notebooks available for better experience like jupyter notebook.
+
+#### Cons
+1. Being open source, many different ways have developed over the year for same function. This sometimes, creates chaos for others to read someone else code.
+2. It is a slow language. So, a very bad language to use for developing general algorithms.
+
 ## Documentation
 
 <a href='https://docs.python.org/3/' target='_blank' rel='nofollow'>Python is well documented</a>. These docs include tutorials, guides, references and meta information for language.
