@@ -44,6 +44,17 @@ $ sudo deluser username
 $ sudo userdel username
 ```
 
+The home directory of the user being delete can be removed with the `--remove-home`  or `-r` flag appended to the command.
+
+##### For Debian (Ubuntu)
+```
+$ sudo deluser --remove-user username
+```
+
+##### For RHEL (Fedora/CentOS)
+```
+$ sudo userdel -r username
+```
 
 #### Note: All above commands can be executed without sudo in `root` mode
 
