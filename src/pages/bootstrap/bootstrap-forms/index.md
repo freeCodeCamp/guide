@@ -3,11 +3,13 @@ title: Bootstrap Forms
 ---
 ## Bootstrap Forms
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-Bootstrap forms are pre written css classes which give Forms tags a better looking layout with very minimized effort and is already Cross Brosser compatible. 
+Bootstrap forms are pre-written css classes which give Forms tags a better-looking layout with very minimized effort and is already Cross Browser compatible.
 
-Bootstrap documentation recomends the correctly use of input types such as "email", "number", etc. This helps for a better control of the clients inputs information and comes as default within the browsers. 
+Bootstrap documentation recommends the correctly use of input types such as "email", "number", etc. This helps for a better control of the client inputs information and comes as default within 
+the browsers functionality.
 
-In this example we could see a basic structur using the forms classes which are, '.form-group' for the input or inputs wrapper and '.form-control' for the inputs itself.  
+In this example we can see a basic structure using the forms classes which are, '.form-group' for the input or inputs wrapper and '.form-control' for the inputs itself.
+
 ```html
 <form>
   <div class="form-group">
@@ -29,12 +31,10 @@ In this example we could see a basic structur using the forms classes which are,
 </form>
 ```
 ### Form Controls
-this class ('.form-control') can be added to <input>s, <select>s and <textarea>s; and give them a basic style. 
-
-For <input type="file"> there is an extra class '.form-control-file' which replace the '.form-control' one for this element.
+this class ('.form-control') can be added to <input>s, s and <textarea>s; and give them a basic style. For <input>s of type “file” there is an extra class '.form-control-file' which replace the '.form-control' one for this element.
 
 ### Sizing 
-'.form-control' comes with a default size (padding), but there are 2 more sizing options which are, '.form-control-lg' and '.form-control-lg'
+'.form-control' comes with a default size (padding), but there are 2 more sizing options, '.form-control-lg' and '.form-control-sm'
 
 ```html
 <input class="form-control form-control-lg" type="text" placeholder=".form-control-lg">
@@ -44,7 +44,7 @@ For <input type="file"> there is an extra class '.form-control-file' which repla
 these can be applied to every element that accepts this classes. 
 
 ### Readonly 
-This is a parameter that Bootstrap () use as an Atribute to disable the input function and to display it as an Info field. There is also an option to add no styles for 'readonly' fields by adding the class '.form-control-plaintext' to it. 
+This is a parameter that Bootstrap (V.4) use as an Attribute to disable the input function and to display it as an Info field. There is also an option to add no styles for 'readonly' fields by adding the class '.form-control-plaintext' to it. 
 
 ```html
 <form>
@@ -63,7 +63,7 @@ This is a parameter that Bootstrap () use as an Atribute to disable the input fu
 ```
 
 ### Checkboxes and radios 
-This are standard html elements. Bootstrap has extra classes for these, '.form-check', 'form-check-label' -> which wrapps the input field and the text that explain what for it is, and ','.form-check-input' for the input itself. 
+These are standard html elements. Bootstrap has extra classes for these, '.form-check', 'form-check-label' -> which wraps the input field and the text that explain what for, it is and ','.form-check-input' for the input itself.
 
 ```html
 <div class="form-check">
@@ -81,7 +81,7 @@ This are standard html elements. Bootstrap has extra classes for these, '.form-c
 ```
 
 ### Inline 
-There is an option to set the checkboxes or radio buttons in a line. This can get done by adding an extra class to the wrapper div ('.form-check') , '.form-check-inline'.
+There is an option to set checkboxes or radio buttons in a line. This can get done by adding an extra class to the wrapper div ('.form-check') , '.form-check-inline'.
 
 ```html
 <div class="form-check form-check-inline">
