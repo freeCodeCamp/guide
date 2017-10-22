@@ -35,7 +35,7 @@ If you already have installed Grunt and are now searching for some quick referen
 To get started, you'll want to install Grunt's command line interface (CLI) globally. You may need to use sudo
 (for OSX, *nix, BSD etc) or run your command shell as Administrator (for Windows) to do this.
 
-npm install -g grunt-cli
+`npm install -g grunt-cli`
 
 This will put the grunt command in your system path, allowing it to  run from any directory.
 
