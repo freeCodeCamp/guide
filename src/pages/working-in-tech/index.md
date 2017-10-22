@@ -7,20 +7,22 @@ A wide variety of technology-related fields such as web development, design, dat
 
 This section will focus on various aspects of working in tech. We will discuss the additional career challenges that under-represented minorities and people from non-traditional education backgrounds face.
 
+
 ## Books to read
 
-Talk Python is a great podcast for novices and experts.
+_The following four are relevant in all walks of life:_
 
-Recently Timo Koola provided 10 books every developer should read.
+About Face: The Essentials of Interaction Design: <https://amzn.to/2uwtugk>
 
-The following four are relevant in all walks of life:
+Thinking in Systems: A Primer:  <https://amzn.to/2u6FbJF>
 
-About Face: The Essentials of Interaction Design: amzn.to/2uwtugk
+Thinking, Fast and Slow: <https://amzn.to/2tnnlTN>
 
-Thinking in Systems: A Primer: amzn.to/2u6FbJF
+Learn You a Haskell for Great Good!: <https://amzn.to/2veOjdv>
 
-Thinking, Fast and Slow: amzn.to/2tnnlTN
+To see the full list, visit: <https://talkpython.fm/episodes/show/130/10-books-python-developers-should-be-reading>
 
-Learn You a Haskell for Great Good!: amzn.to/2veOjdv
+## Podcasts to listen 
+## Articles to read 
+## Videos to Watch
 
-To see the full list, visit: https://talkpython.fm/episodes/show/130/10-books-python-developers-should-be-reading
