@@ -22,36 +22,7 @@ Now, install the IDE and try changing the text from the program in the last arti
 
 * To change text ,change what's typed in the `""` after `cout<<`
 
-A sample program :
-
-```cpp
-
-#include <iostream>
-using namespace std :
-int main()
-{
-    cout<<"I Love freeCodeCamp ! ";
-}
-```
-
-The above code returns an error because at line 2 , we have used a colon(:) instead of a semicolon(;)
-So, let's debug the error :
-
-```C++
-#include <iostream>
-using namespace std ;
-int main()
-{
-    cout<<"I Love freeCodeCamp ! ";
-    return 0;
-}
-
-```
-
-Note that now the program runs perfectly.
-The output will be : `I Love freeCodeCamp !`
-
-### Now , let's change the text to something else like this :
+### Let's change the text to something else like this :
 
 ```cpp
     cout<<"Hello World!\t I love freeCodeCamp!";
