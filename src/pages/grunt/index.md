@@ -6,18 +6,11 @@ Grunt |
 # Grunt - The Javascript Task Runner   
 
 
-Grunt is a the ` javascript Task Runner ` a Task Runner is what in one word: automation.
-The less work you have to do when performing repetitive tasks like  *minification* ,  *compilation* ,  *unit testing* , *linting* , *etc* the easier your job becomes.  
-  
-    
-    
-After you've configured it through a `Gruntfile`, a task runner can do most of that mundane work for you and your 
-team with basically zero effort.  
-  
-    
-The Grunt ecosystem is huge and it's growing every day. With literally hundreds of plugins 
-to choose from, you can use Grunt to automate just about anything with a minimum of effort. If someone hasn't already built 
-what you need, authoring and publishing your own Grunt plugin to npm is a breeze.  
+Grunt is a the  javascript Task Runner a Task Runner is what in one word:  automation. 
+It makes repetitive tasks like  *minification* ,  *compilation* ,  *unit testing* , *linting* , *etc*  easy to handle and make your job easier.  
+
+
+The Grunt ecosystem is huge and it's growing every day. With hundreds of plugins to choose from, you can use Grunt to automate about anything with a least of effort.  
 
 ## Table of contents
 * [Getting started](#Getting-started)
@@ -25,31 +18,28 @@ what you need, authoring and publishing your own Grunt plugin to npm is a breeze
 * [Preparing a new grunt project](#Preparing-a-new-grunt-project)
 * [Projects and tasks configuration](#Projects-and-tasks-configuration)
 * [Grunt plugins](#Grunt-plugins)
-<a name="Getting-started"></a>
+<a name="Getting-started"></a>   
+
 ## Getting Started
-Grunt and Grunt plugins are installed and managed via [npm](https://www.npmjs.org/), the [Node.js](https://nodejs.org/) package manager. Grunt 0.4.x requires stable
-Node.js versions `>= 0.8.0.` Odd version numbers of Node.js are considered unstable development versions.
+Grunt and Grunt plugins  installed and managed via npm, the Node.js package manager. Grunt 0.4.x requires stable Node.js versions >= 0.8.0. Odd version numbers of Node.js considered unstable development versions.  
 
-Before setting up Grunt ensure that your npm is up-to-date by running npm update -g npm (this might 
-require sudo on certain systems).
+Before setting up Grunt ensure that your npm is up-to-date by running npm update -g npm (this might need sudo on certain systems).  
 
-If you already have installed Grunt and are now searching for some quick reference, please checkout our Gruntfile 
-example and how to configure a task.
+If you already have installed Grunt and are now searching for some quick reference, please checkout Gruntfile [example](https://gruntjs.com/sample-gruntfile)  
+
 <a name="Installation"></a>
 ## Installation
 #### Installing the CLI
 
 
-In order to get started, you'll want to install Grunt's command line interface (CLI) globally. You may need to use sudo  
-(for OSX, *nix, BSD etc) or run your command shell as Administrator (for Windows) to do this.  
+To get started, you'll want to install Grunt's command line interface (CLI) globally. You may need to use sudo
+(for OSX, *nix, BSD etc) or run your command shell as Administrator (for Windows) to do this.
 
-`npm install -g grunt-cli`  
+npm install -g grunt-cli
 
-This will put the grunt command in your system path, allowing it to be run from any directory.  
+This will put the grunt command in your system path, allowing it to  run from any directory.
 
-Note that installing grunt-cli does not install the Grunt task runner! The job of the Grunt CLI is simple: run the version 
-of Grunt which has been installed next to a Gruntfile. This allows multiple versions of Grunt to be installed on the same 
-machine simultaneously.
+Note that installing grunt-cli does not install the Grunt task runner! The job of the Grunt CLI is simple: run the version of Grunt which has installed next to a Gruntfile. This allows many versions of Grunt to  installed on the same machine simultaneously.
 [know more](https://gruntjs.com/getting-started#installing-the-cli)
 <a name="Preparing-a-new-grunt-project"></a>
 ## Preparing a new Grunt project
@@ -122,14 +112,19 @@ Note: the `grunt --help` command will list all available tasks.
 ## Grunt plugins  
 
 #### Installing Grunt and grunt plugins   
-The easiest way to add Grunt and gruntplugins to an existing package.json is with the command npm install <module> 
---save-dev. Not only will this install <module> locally, but it will automatically be added to the devDependencies section,
-using a tilde version range.  
+
+The easiest way to add Grunt and grunt plugins to an existing package.json file is with the command npm install --save-dev. 
+
 For example, this will install the latest version of Grunt in your project folder, adding it to your devDependencies:  
-`npm install grunt --save-dev`  
-The same can be done for gruntplugins and other node modules. As seen in the following example installing the JSHint task module:  
-`npm install grunt-contrib-jshint --save-dev`  
-Checkout the current available gruntplugins to be installed and used on your project at the [plugins](https://gruntjs.com/plugins) page.  
+
+`npm install grunt --save-dev`   
+
+The same can done for grunt plugins and other node modules. As seen in the following example installing the JSHint task module:  
+
+`npm install grunt-contrib-jshint --save-dev`   
+
+
+Checkout the current available grunt plugins to install and used on your project at the [plugins](https://gruntjs.com/plugins) page.  
 # Help Resources
  Visit  for more <a href="https://gruntjs.com/getting-started">Grunt Documentation</a>
 
