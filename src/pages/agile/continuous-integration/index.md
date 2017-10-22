@@ -5,7 +5,7 @@ title: Continuous Integration
 
 At it's most basic, continuous integration (CI) is an agile development methodology in which developers regularly merge their code directly to the main source, usually a remote `master` branch. In order to ensure that no breaking changes are introduced, a full test suite is run on every potentiual build to regression test the new code, i.e. test that the new code does not break existing, working features.
 
-This approach requires good test coverage of the code base, meaning that a majority, if not all, of the code has tests which ensure it's features are fully functional. Ideally continuous integration would be practiced together with full <a href='https://guide.freecodecamp.org/agile/test-driven-development' target='_blank' rel='nofollow'>Test-Driven Development</a>.
+This approach requires good test coverage of the code base, meaning that a majority, if not all, of the code has tests which ensure its features are fully functional. Ideally continuous integration would be practiced together with full <a href='https://guide.freecodecamp.org/agile/test-driven-development' target='_blank' rel='nofollow'>Test-Driven Development</a>.
 
 ### Main Steps
 
@@ -29,9 +29,9 @@ In order to check that nothing in the new code breaks existing functionality, th
 
 ### Best Practices
 
-There are further best practices that make best use of what CI has to offer and the challenges it presents, such as:
+There are further best practices that make the best use of what CI has to offer and the challenges it presents, such as:
 
-1. Keeping the build fast, so that lots of developer time isn't wasted waiting for a build.
+1. Keep the build fast, so that lots of developer time isn't wasted waiting for a build.
 
 2. Test the build in a full clone of the production environment.
 
@@ -45,7 +45,7 @@ Coders should pull regularly from the `master` branch to keep integrating their 
 
 5. Automate deployment.
 
-Keep your app fully up-to-date with ann new changes by automating deployment in the production environment as the final stage of the build process, once all tests have passed and the test deployment in the production environment clone has succeeded.
+Keep your app fully up-to-date with any new changes by automating deployment in the production environment as the final stage of the build process, once all tests have passed and the test deployment in the production environment clone has succeeded.
 
 ### CI Services
 
