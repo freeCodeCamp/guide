@@ -30,6 +30,6 @@ Read on more information on social engineering hacks and steps you can take to p
 [Protect Yourself from Social Engineering Attacks](http://www.makeuseof.com/tag/protect-8-social-engineering-attacks/)
 
 [7 Best Social Engineering Hacks Ever](https://www.darkreading.com/the-7-best-social-engineering-attacks-ever/d/d-id/1319411?)
-
+[How To Sound Smart Like A TED Talk](https://youtu.be/8S0FDjFBj8o)
 
 
