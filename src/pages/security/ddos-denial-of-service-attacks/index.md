@@ -1,15 +1,16 @@
 ---
-title: Ddos Denial of Service Attacks
+title: DDoS Distributed Denial of Service Attacks
 ---
-## Ddos Denial of Service Attacks
+## DDoS Distributed Denial of Service Attacks
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/security/ddos-denial-of-service-attacks/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Distributed denial of service attacks (DDoS) are a version of denial of service attacks (DoS) wherein the attacker sets up multiple machines to all attack one victim at once. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Traditionally, a DoS attack renders a device or service unusable by taking up all available resources and not allowing the victim to process new incoming requests, rendering it "unusable" by the outside world. The attacker can accomplish this using one machine as long as they have a way to keep the victim's system busy enough to shut it down. 
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+A DDoS, or distributed denial of service attack, takes this idea even further. The attacker will mount multiple (up to thousands) of machines in this attack on the victim to flood the victim with traffic and reach a point where the victim can no longer process incoming requests. The victim likely fails in that it is locked out of receiving requests from anyone else, or simply fails due to load on the machine. 
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+[Wikipedia DoS](https://en.wikipedia.org/wiki/Denial-of-service_attack)
+
 
 
