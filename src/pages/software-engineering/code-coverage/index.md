@@ -14,6 +14,9 @@ The ins and outs of how code coverage will not be of much interest until you are
 
 #### More information
 [Wikipedia - code coverage](https://en.wikipedia.org/wiki/Code_coverage)
+
 [freeCodeCamp Guide - Test Driven Development](https://guide.freecodecamp.org/agile/test-driven-development)
+
 [freeCodeCamp Guide - Unit Tests](https://guide.freecodecamp.org/software-engineering/unit-tests)
+
 [freeCodeCamp Guide - Continuous Integration](https://guide.freecodecamp.org/agile/continuous-integration)
