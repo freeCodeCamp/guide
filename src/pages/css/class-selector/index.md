@@ -41,6 +41,6 @@ h1.test, h2.test {
 ```
 **Tips: No space between multiple classes.**
 #### More Information:
-CSS Syntax and Selectors: <a href='https://www.w3schools.com/css/css_syntax.asp' target='_blank' rel='nofollow'>w3school</a>
+CSS Syntax and Selectors: <a href='https://www.w3schools.com/css/css_syntax.asp' target='_blank' rel='nofollow'>w3schools</a>
 
 
