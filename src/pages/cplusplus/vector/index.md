@@ -44,3 +44,22 @@ std::string second_item = a.at(2); // gets "element"
 // OR
 std::string second_item = a[2]; // gets "element"
 ```
+### Using Iterators 
+The standard library (STL) also provides for iterators. You can think of iterators as being a fancier way of saying pointers. They do that too, but then, they also provide for some extra features, like arbitrarily choosing an element with an iterator. 
+```cpp
+std::vector<std::int> a{1, 2, 3, 4, 5};
+for(std::vector<std::int>::iterator it = a.begin(); it != a.end(); it++) 
+/*i != a.end() is preferred as a stylistic choice, but also becuase a.end points to the element after the last element in the vector*/
+  {
+    cout<<*it; //using the derefence operator to pass through the array
+  }
+```
+You've already seen that iterators can be compared (as in `it != a.end()`) but then, iterators can also be compared to find the greater iterator (here, greater refers the iterator that is further down the vector, i.e., a[2]>a[1])
+Iterators can also be randomly accessed, i.e., _this_ makes sense:
+```cpp
+std::vector<std::int> a{5, 4, 3, 2, 1};
+std::vector<std::int>::iterator it = a.begin();
+cout<<*it; //outputs 5 in here
+it = it + 3;
+cout<<*it; //outputs 2 in here
+```
