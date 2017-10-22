@@ -2,14 +2,23 @@
 title: Header Tag
 ---
 ## Header Tag
+The purpose of the `<header>` tag is to provide a section for introductory content or navigation. The context of the header can be for:
+* The main header that appears at the top of the page
+* For an indvidual `<article>` or `<section>` within the page
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/header-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `<header>` typically contains the section's heading(s), or content placed inside `<h1>` - `<h6>` tags, but they can also contain elements like a logo, a search form, or authorship information. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### Example
+```html
+<article>
+  <header>
+    <h1>This Best Article Ever</h1>
+    <h3>By: The Best Author Ever</h3>
+    <p>Created: Not too long ago...</p>
+  </header>
+  <p>This is the the content to the best article ever</p>
+</article>
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+<a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header' target='_blank' rel='nofollow'>MDN</a>
