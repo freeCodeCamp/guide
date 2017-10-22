@@ -9,6 +9,8 @@ A GPU is like a CPU but has different strengths and weaknesses. CPUs are very go
 
 GPUs can be used for computation as well as video rendering. Common ways to do this include OpenACC, CUDA, OpenCL, and OpenGL. Some applications include GPU implementations to reduce the amount of time the application takes to run.
 
+There are two major brands producing GPUs: NVidia and AMD. They are often referred as the "green team" and "red team" which indicate the major color of their logo. 
+
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
@@ -19,3 +21,5 @@ GPUs can be used for computation as well as video rendering. Common ways to do t
 - <a href='https://developer.nvidia.com/cuda-zone' target='_blank' rel='nofollow'>CUDA</a>
 - <a href='https://www.khronos.org/opencl/' target='_blank' rel='nofollow'>OpenCL</a>
 - <a href='https://www.opengl.org/' target='_blank' rel='nofollow'>OpenGL</a>
+- <a href='https://www.nvidia.com/' target='_blank' rel='nofollow'>NVidia</a>
+- <a href='http://www.amd.com/en-us/products/graphics' target='_blank' rel='nofollow'>AMD</a>
