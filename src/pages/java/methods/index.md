@@ -8,10 +8,20 @@ title: Methods
 ```java
 public class Car {
     private String name;
+    private String manufacturersName;
 
     public void changeName() {
         name = "Tesla";
     }
+    
+    public String getName(){
+        return name;
+    }
+    
+    public String getManufacurername(){
+        return manufacturersName;
+    }
+    
 }
 ```
 
