@@ -17,6 +17,7 @@ Java is trademarked and licensed by Oracle. Most of the following are un-officia
 *   <a href='https://github.com/winterbe/java8-tutorial' target='_blank' rel='nofollow'>Java 8 Tutorial</a>
 *   <a href='https://github.com/cxxr/better-java' target='_blank' rel='nofollow'>Better Java</a>
 *   <a href='http://www3.ntu.edu.sg/home/ehchua/programming/index.html#Java' target='_blank' rel='nofollow'>Java Programming notes by NTU</a>
+*   <a href='https://www.hackerrank.com/domains/tutorials/30-days-of-code' target='_blank' rel='nofollow'>HackerRank's 30 days of Code Challenge with video tutorials in Java</a>
 *   <a href='http://introcs.cs.princeton.edu/java/home/' target='_blank' rel='nofollow'>Princeton's Introduction to Programming in Java</a>
 *   <a href='http://math.hws.edu/javanotes/' target='_blank' rel='nofollow'>Introduction to Programming Using Java</a>
 *   <a href='http://javapractices.com/home/HomeAction.do' target='_blank' rel='nofollow'>Java Practices</a>
