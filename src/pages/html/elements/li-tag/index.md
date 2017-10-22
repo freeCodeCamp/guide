@@ -1,15 +1,31 @@
 ---
 title: Li Tag
 ---
-## Li Tag
+## Li Tag 
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/li-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The li tag (`<li>`) produces a list item in an unordered list (`<ul>`), ordered list (`<ol>`), or menu list (`<menu>`). Each list item must be placed in between an opening tag (`<li>`) and closing tag (`</li>`). Each list item will be indented by default.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### List Item Symbol
+The symbol to the left of each list item will depend on the type of list it is in. A list item in an ordered list (`<ol>`) will display the item's numbered position in the list. A list item in an unordered list (`<ul>`) is displayed with a bullet point for all list items. The symbol can be changed via the "type" attribute, but as this is not supported in HTML5, it is better to change the symbol via the CSS "list-style-type" property.
+
+### Example HTML Code
+```html
+<ol>
+  <li>First Item</li>
+  <li>Second Item</li>
+</ol>
+```
+
+### Example Output
+```
+<ol>
+  <li>First Item</li>
+  <li>Second Item</li>
+</ol>
+```
+
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
+<a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li' target='_blank' rel='nofollow'>MDN</a>
 
