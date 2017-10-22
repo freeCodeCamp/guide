@@ -31,6 +31,6 @@ $("p").hide( "slow", function() {
 * More options exist, please refer to the official website for further details. 
 
 #### More Information:
-JQuery hide() method on the [Official website](http://api.jquery.com/hide/)
+JQuery hide() method on the <a href='http://api.jquery.com/hide/' target='_blank' rel='nofollow'>Official website</a>
 
 

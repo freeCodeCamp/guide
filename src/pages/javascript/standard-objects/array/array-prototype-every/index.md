@@ -25,7 +25,7 @@ The `every()` method tests whether all elements in the array pass the test imple
 
 *   **thisArg** Optional. Value to use as this when executing callback.
 
-[MDN link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every) | [MSDN Link](https://msdn.microsoft.com/en-us/LIBRary/ff679981%28v=vs.94%29.aspx)
+<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every' target='_blank' rel='nofollow'>MDN link</a> | <a href='https://msdn.microsoft.com/en-us/LIBRary/ff679981%28v=vs.94%29.aspx' target='_blank' rel='nofollow'>MSDN Link</a>
 
 ## Description
 

@@ -47,8 +47,8 @@ For example, `RegExp.test()` will return a Boolean for whether there exists a ma
 
 ### More Information:
 
-![Here you can read](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp) about all the pattern match characters, object properties, see some examples and more.
+* <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp" target='_blank' rel='nofollow'>Here you can read</a> about all the pattern match characters, object properties, see some examples and more.
 
-![Here is a great site](https://regex101.com/) that lets you test out regular expression patterns in real-time, save your favorites and explore patterns made by others.
+* <a href="https://regex101.com/" target='_blank' rel='nofollow'>Here is a great site</a> that lets you test out regular expression patterns in real-time, save your favorites and explore patterns made by others.
 
 

@@ -43,4 +43,4 @@ else:
 
 *Note only the first condition that evaluates as `true` will execute. Even though `z > 6` is `true`, the `if/elif/else` block terminates after the first true condition. This means that an `else` will only execute if none of the conditions were `true`.*
 
-While the examples above are simple, you can create complex conditions using [boolean comparisons](https://guide.freecodecamp.org/python/comparisons) and [boolean operators](https://guide.freecodecamp.org/python/boolean-operations).
+While the examples above are simple, you can create complex conditions using <a href='https://guide.freecodecamp.org/python/comparisons' target='_blank' rel='nofollow'>boolean comparisons</a> and <a href='https://guide.freecodecamp.org/python/boolean-operations' target='_blank' rel='nofollow'>boolean operators</a>.

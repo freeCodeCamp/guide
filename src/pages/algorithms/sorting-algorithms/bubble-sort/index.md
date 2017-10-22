@@ -3,13 +3,42 @@ title: Bubble Sort
 ---
 ## Bubble Sort
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/algorithms/sorting-algorithms/bubble-sort/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in wrong order.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Example:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+#### First Pass:
+( 5 1 4 2 8 ) –> ( 1 5 4 2 8 ), Here, algorithm compares the first two elements, and swaps since 5 > 1.
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+( 1 5 4 2 8 ) –> ( 1 4 5 2 8 ), Swap since 5 > 4
+
+( 1 4 5 2 8 ) –> ( 1 4 2 5 8 ), Swap since 5 > 2
+
+( 1 4 2 5 8 ) –> ( 1 4 2 5 8 ), Now, since these elements are already in order (8 > 5), algorithm does not swap them.
+
+
+#### Second Pass:
+
+( 1 4 2 5 8 ) –> ( 1 4 2 5 8 )
+
+( 1 4 2 5 8 ) –> ( 1 2 4 5 8 ), Swap since 4 > 2
+
+( 1 2 4 5 8 ) –> ( 1 2 4 5 8 )
+
+( 1 2 4 5 8 ) –> ( 1 2 4 5 8 )
+
+Now, the array is already sorted, but our algorithm does not know if it is completed. The algorithm needs one whole pass without any swap to know it is sorted.
+
+#### Third Pass:
+
+( 1 2 4 5 8 ) –> ( 1 2 4 5 8 )
+
+( 1 2 4 5 8 ) –> ( 1 2 4 5 8 )
+
+( 1 2 4 5 8 ) –> ( 1 2 4 5 8 )
+
+( 1 2 4 5 8 ) –> ( 1 2 4 5 8 )
+
+
 
 

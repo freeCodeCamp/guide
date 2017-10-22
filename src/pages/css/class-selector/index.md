@@ -2,14 +2,45 @@
 title: Class Selector
 ---
 ## Class Selector
+A Class Selector is used in a CSS file to apply style to the HTML elements with the corresponding class name. In HTML, we can set the class name for any element by adding a "class" attribute.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/class-selector/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Examples:
+```html
+<h1 class="test">This is a heading 1</h1>
+<p class="test">This is a paragraph 1</p>
+<h2 class="test">This is a heading 2</h2>
+<p class="test">This is a paragraph 2</p>
+<div class="test2 test3">This is a div 1</div>
+```
+Since class name is not unique, the HTML class attribute makes it possible to define equal styles for elements with the same class name. **Here is how you can select class in a CSS file to style elements (notice the . notation):**    
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
+**All elements of class `test` will be applied with this style:**    
+```css
+.test {
+  color: green;
+}
+```
+**All `<p>` elements of class `test` will be applied with this style:**  
+```css
+p.test {
+  border: 1px solid black;
+  color: red;
+}
+```
+**All `<h1>` and `<h2>` elements of class `test` will be applied with this style:**  
+```css
+h1.test, h2.test {
+  color: blue;
+}
+```
+**All elements which have both class `test2` and `test3` will be applied with this style:**
+```css
+.test2.test3 {
+  color: green;
+}
+```
+**Tips: No space between multiple classes.**
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+CSS Syntax and Selectors: <a href='https://www.w3schools.com/css/css_syntax.asp' target='_blank' rel='nofollow'>w3school</a>
 
 

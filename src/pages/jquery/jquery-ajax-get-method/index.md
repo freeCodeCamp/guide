@@ -42,10 +42,10 @@ $.ajax({
   dataType: dataType
 });
 ```
-`$.ajax()` provides way more options that can be found [here](http://api.jquery.com/jquery.ajax/) 
+`$.ajax()` provides way more options that can be found <a href='http://api.jquery.com/jquery.ajax/' target='_blank' rel='nofollow'>here</a> 
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-For more information, please visit the [official website](https://api.jquery.com/jquery.get/) 
+For more information, please visit the <a href='https://api.jquery.com/jquery.get/' target='_blank' rel='nofollow'>official website</a> 
 
 

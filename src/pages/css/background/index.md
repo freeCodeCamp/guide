@@ -115,6 +115,6 @@ must be used in a certain order. The order is:
 * position
 
 ### Other Resources
-* [List of color values](http://cloford.com/resources/colours/500col.htm)
-* [Color Picker Tool](http://colrd.com/create/palette/)
+* <a href='http://cloford.com/resources/colours/500col.htm' target='_blank' rel='nofollow'>List of color values</a>
+* <a href='http://colrd.com/create/palette/' target='_blank' rel='nofollow'>Color Picker Tool</a>
 
