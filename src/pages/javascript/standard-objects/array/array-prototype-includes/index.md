@@ -2,14 +2,22 @@
 title: Array.prototype.includes
 ---
 ## Array.prototype.includes
+The prototype function `.includes(element)` checks whether the element is included in the array.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/standard-objects/array/array-prototype-includes/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+For example
+```js
+[1,2,3].includes(2) // true
+[1,2,3].includes(4) // false
+```
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Advanced usage
+you can also specify from which index to start the search `.includes(elements, fromIndex)`
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+For example
+```js
+['a','b','c','d'].includes('b',2) // false
+['a','b','c','d'].includes('b',1) // true
+```
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+### Keep in mind
+This is a relatively new feature, so if you want to support older browser you will need a [polyfill](https://en.wikipedia.org/wiki/Polyfill)
