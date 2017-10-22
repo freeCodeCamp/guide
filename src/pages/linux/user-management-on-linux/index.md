@@ -53,4 +53,4 @@ To switch to root on ubuntu, run `su -i` command followed by the password of the
 #### References
   [Debian(Ubuntu)](https://www.digitalocean.com/community/tutorials/how-to-add-and-delete-users-on-ubuntu-16-04)
 
-  [RHEL (CentOS/Fedora](https://www.digitalocean.com/community/tutorials/how-to-add-and-delete-users-on-a-centos-7-server)
+  [RHEL (CentOS/Fedora)](https://www.digitalocean.com/community/tutorials/how-to-add-and-delete-users-on-a-centos-7-server)
