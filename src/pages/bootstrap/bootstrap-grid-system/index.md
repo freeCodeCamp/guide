@@ -79,7 +79,7 @@ Screen size values can be assigned as follows:
   - xs - < 768px Phones
   - sm - < 992px Tablets
   - md - < 1200px Laptops
-  - lg - > 1200 px Desktops
+  - lg - > 1200px Desktops
  
  Bootstrap is mobile first and responsive. 
  
@@ -149,7 +149,7 @@ The following code and image shows what is possible using different column width
 
 [Bootstrap Docs - Grid system](https://getbootstrap.com/docs/4.0/layout/grid/)
 
-*This guide is based on Bootstrap v4 (it will work with v3 accept extra small screens are defined as `xs` and there is no `xl` size)*
+*This guide is based on Bootstrap v4 (it will work with v3 except extra small screens are defined as `xs` and there is no `xl` size)*
 
 
 
