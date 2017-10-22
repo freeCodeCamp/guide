@@ -8,8 +8,17 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 <a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### Definition
+
+Code smell in computer programming code refers to any surface indication that usually corresponds to a deeer problem in the system.
+
+#### Examples
+
+1. Duplicated code - Blocks of code that have been replicated across the code base
+2. Large classes - Classes having too many lines of code
+
+Both these smells indicate that there is no modularity in the design.
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+https://martinfowler.com/bliki/CodeSmell.html
