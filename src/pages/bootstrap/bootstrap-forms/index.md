@@ -101,6 +101,207 @@ There is an option to set checkboxes or radio buttons in a line. This can get do
 </div>
 ```
 
+### Layout 
+
+As it ist set as default a 'with:100%' and 'display:block', Bootstrap created other classes to help vary this without breaking out the design. 
+
+As mentioned above, '.form-group' should be applied to the labels and inputs that belong together. This class control padding and margins on this elements. 
+
+```html
+<form>
+  <div class="form-group">
+    <label class="col-form-label" for="formGroupExampleInput">What do you think about FreeCodeCamp.org?</label>
+    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="write you thoughts here">
+  </div>
+  <div class="form-group">
+    <label class="col-form-label" for="formGroupExampleInput2">What did you lerned so far?</label>
+    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="write your skills here">
+  </div>
+</form>
+```
+
+### Form grid
+
+There is a way to apply the Bootstrap grid into forms, this help to better control the way the fields are aligned. To achieve this, it is need to set a '.form-row' wrapper into the <form> tag like this: 
+
+```html
+<form>
+  <div class="form-row">
+    <div class="col">
+      <input type="text" class="form-control" placeholder="First name">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Last name">
+    </div>
+  </div>
+</form>
+```
+
+To better understand the grid functionality please refer to <a href="https://guide.freecodecamp.org/bootstrap/bootstrap-grid-system">, or to the Bootstrap Documentation <a href="http://getbootstrap.com/docs/4.0/layout/grid/"> 
+
+It can also set the grids after breakpoints, this is a good example of a complex form using breakpoints grid classes:
+
+```html
+<form>
+  <div class="form-row">
+    <div class="form-group col-sm-6 col-md-6 col-lg-6">
+      <label for="inputEmail4">Email</label>
+      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+    </div>
+    <div class="form-group col-sm-6 col-md-6 col-lg-6">
+      <label for="inputPassword4">Password</label>
+      <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputAddress">Address</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+  </div>
+  <div class="form-group">
+    <label for="inputAddress2">Address 2</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+  </div>
+  <div class="form-row">
+    <div class="form-group col-sm-6 col-md-6 col-lg-6">
+      <label for="inputCity">City</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="form-group col-sm-6 col-md-4 col-lg-4">
+      <label for="inputState">State</label>
+      <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select>
+    </div>
+    <div class="form-group col-sm-6 col-md-2 col-lg-2">
+      <label for="inputZip">Zip</label>
+      <input type="text" class="form-control" id="inputZip">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox"> Check me out
+      </label>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary">Sign in</button>
+</form>
+```
+
+#Horizontal form 
+
+Adding the '.row' class to the '.form-group's give you the posibility to add grid breakpoints. The code must be structured as following: 
+
+```html
+<form>
+  <div class="form-group row">
+    <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+    </div>
+  </div>
+  </form>
+  ```
+
+###
+
+If there is a need to display a input field with a wished width in a specified breakpoint, you can add the columns you need that element to take and to the other elements just give a '.col' so they fill the space. 
+
+```html
+<form>
+  <div class="form-row">
+    <div class="col-7">
+      <input type="text" class="form-control" placeholder="City">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="State">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Zip">
+    </div>
+  </div>
+</form>
+```
+### Auto-sizing
+
+There is also the option to give every element a '.col-auto' class so they take as much space they need, or to mix this also with size-specific columns : 
+
+```html
+<form>
+  <div class="form-row align-items-center">
+    <div class="col-sm-3">
+      <label class="sr-only" for="inlineFormInput">Name</label>
+      <input type="text" class="form-control mb-2 mb-sm-0" id="inlineFormInput" placeholder="Jane Doe">
+    </div>
+    <div class="col-sm-3">
+      <label class="sr-only" for="inlineFormInputGroup">Username</label>
+      <div class="input-group mb-2 mb-sm-0">
+        <div class="input-group-addon">@</div>
+        <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+      </div>
+    </div>
+    <div class="col-auto">
+      <div class="form-check mb-2 mb-sm-0">
+        <label class="form-check-label">
+          <input class="form-check-input" type="checkbox"> Remember me
+        </label>
+      </div>
+    </div>
+    <div class="col-auto">
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+  </div>
+</form>
+```
+
+### Inline forms 
+
+Use the '.form-inline' class to display a series of labels, form controls, and buttons on a single horizontal row (Controls only appear inline in viewports that are at least 576px wide). Custom form controls and selects are also supported. The way to implement this is like shown below: 
+
+```html
+<form class="form-inline">
+  <label class="sr-only" for="inlineFormInputName2">Name</label>
+  <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="inlineFormInputName2" placeholder="Jane Doe">
+
+  <label class="sr-only" for="inlineFormInputGroupUsername2">Username</label>
+  <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+    <div class="input-group-addon">@</div>
+    <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Username">
+  </div>
+
+  <div class="form-check mb-2 mr-sm-2 mb-sm-0">
+    <label class="form-check-label">
+      <input class="form-check-input" type="checkbox"> Remember me
+    </label>
+  </div>
+
+   <label class="mr-sm-2" for="inlineFormCustomSelectPref">Preference</label>
+  <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelectPref">
+    <option selected>Choose...</option>
+    <option value="1">One</option>
+    <option value="2">Two</option>
+    <option value="3">Three</option>
+  </select>
+
+  <label class="custom-control custom-checkbox mb-2 mr-sm-2 mb-sm-0">
+    <input type="checkbox" class="custom-control-input">
+    <span class="custom-control-indicator"></span>
+    <span class="custom-control-description">Remember my preference</span>
+  </label>
+
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+```
+
+
+
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
