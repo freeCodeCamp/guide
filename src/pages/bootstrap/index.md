@@ -12,11 +12,11 @@ Bootstrap includes a responsive grid system for responsive layouts and is a grea
 
 Sometimes referred to as Twitter Bootstrap, the framework was originally developed by Twitter as an internal tool.  It was released as an open source project in August 2011.
 
-Bootstrap 2 was released in January 2012 and introduced the 12 column responsive grid system.
+* Bootstrap 2 was released in January 2012 and introduced the 12 column responsive grid system.
 
-Bootstrap 3 appeared in August 2013, switching to a flat design and a mobile-first approach.
+* Bootstrap 3 appeared in August 2013, switching to a flat design and a mobile-first approach.
 
-Bootstrap 4 is available in beta as of August 2017 and now includes Sass and flexbox.
+* Bootstrap 4 is available in beta as of August 2017 and now includes Sass and flexbox.
 
 
 #### Installation
