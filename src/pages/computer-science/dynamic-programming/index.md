@@ -3,7 +3,7 @@ title: Dynamic Programming
 ---
 ## Dynamic Programming
 
-Dynamic Programming is a method of programming where you divide a complex problem into multiple subproblems and store the solution of each of those subproblems. When the same subproblem occurs again, instead of recomputing it, we lookup its solution. Thereby saving on the computation time at the modest expense of storage. This  property of DP is called Overlapping Subproblems.
+Dynamic Programming is a method of programming where you divide a complex problem into multiple subproblems and store the solution of each of those subproblems. When the same subproblem occurs again, instead of recomputing it, we lookup its solution. Thereby saving on the computation time at the modest expense of storage. This  property of DP is called Overlapping Subproblems. To those who are familiar with mathematical induction, dynamic programing is like building a recurrent structure over the defined base values. We can compute the answer of a current state based on the acyclic relations to previous steps.
 
 Here is an example.
 
