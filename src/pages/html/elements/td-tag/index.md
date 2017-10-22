@@ -12,4 +12,32 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
+The HTML <td> tag is used for defining a cell or data in the table.
+  
+<html>
 
+   <head>
+      <title>HTML td Tag</title>
+   </head>
+
+   <body>
+      <table border = "1">
+         <tr>
+            <th>Month</th>
+            <th>Savings</th>
+         </tr>
+        
+         <tr>
+            <td>March</td>
+            <td>$50</td>
+         </tr>
+         
+         <tr>
+            <td>April</td>
+            <td>$100</td>
+         </tr>
+         
+      </table>
+   </body>
+
+</html>
