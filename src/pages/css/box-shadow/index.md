@@ -3,7 +3,7 @@ title: Box Shadow
 ---
 ## Box Shadow
 The box-shadow property attaches one or more shadows to an element. 
-It's  an option that give you the power to easily design wonderful shadow effects.
+This option gives you the power to easily design wonderful shadow effects.
 
 ### Syntax:
 ```css
@@ -25,7 +25,7 @@ This is a third <length> value. The larger this value, the bigger the blur, so t
 This is a fourth <length> value. Positive values will cause the shadow to expand and grow bigger, negative values will cause the shadow to shrink. If not specified, it will be 0 (the shadow will be the same size as the element).
  
 * #### color 
-This is fifth value used to set shadow color
+This is the fifth value used to set shadow color
 
 ### Examples
 
@@ -56,6 +56,6 @@ div {
     box-shadow: inset 10px 10px 5px #ccc;
 }
 ```
-It uses very similar code, but with inset value, which displays shadow inside div element
+It uses very similar code, but with inset value, which displays shadow inside the div element
 
 ![image](https://raw.githubusercontent.com/krzysiekh/images/master/box-shadow2.png)
