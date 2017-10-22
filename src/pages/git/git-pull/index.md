@@ -3,7 +3,7 @@ title: Git Pull
 ---
 ## Git Pull
 
-`git pull` is a Git command used to update the local version of a repository from a remote. 
+`git pull` command is used to update the local version of a repository from a remote. 
 
 It is one of the four commands that prompts network interaction by Git. By default, `git pull` does two things.
 
