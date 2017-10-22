@@ -43,3 +43,10 @@ The output in your terminal should look something like this:
 [master 22gc8v1] My new message
  1 file changed, 1 insertion(+)
 ```
+#### Changing the last commit
+Let's say you just committed and you made a mistake in your commit log message, we can conveniently modify the most recent commit using the command :
+```shell
+git commit --amend -m "an updated commit message"
+```
+Premature commits happen all the time in the course of your everyday development. It’s easy to forget to stage a file or to format your commit message the wrong way. The --amend flag is a convenient way to fix these minor mistakes.This command will replace the old commit message with the updated one specified in the command.
+Amended commits are actually entirely new commits and the previous commit will no longer be on your current branch.It has to be kept in mind that this should not be done if the last commit is already pushed into the repository.
