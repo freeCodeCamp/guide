@@ -15,3 +15,4 @@ Copyright &copy; 2005 <a href="http://www.w3.org" shape="rect">World Wide Web Co
 ### More Information:
 <a href='https://www.w3.org/WAI/intro/accessibility.php' target='_blank' rel='nofollow'>w3.org introduction to accessibility.</a>
 
+[I'm an inline-style link](https://www.google.com)
