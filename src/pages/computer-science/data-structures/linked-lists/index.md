@@ -26,3 +26,13 @@ Advantages over arrays
 Drawbacks:
 1) Random access is not allowed. We have to access elements sequentially starting from the first node. So we cannot do binary search with linked lists.
 2) Extra memory space for a pointer is required with each element of the list
+
+
+#### More Information: 	
+ <!-- Please add any articles you think might be helpful to read before writing the article -->		
+ <ul>
+  <li>
+    <a href="https://www.youtube.com/watch?v=njTh_OwMljA" target ="_blank" rel="nofollow">HackerRank Linked Lists Video</a>
+  </li>
+ </ul>
+ 
