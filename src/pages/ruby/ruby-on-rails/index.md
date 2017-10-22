@@ -11,12 +11,23 @@ Rails is downloaded in the same way as any other Ruby gem: with the `gem install
 ```shell
 $ gem install rails
 ```
+## Setting Up database
+Rails ships with sqlite3 as the default database, which is a simple file on disk. You need to install MySQL or PostgreSQL if you want to use something more robust.
+
 ## Creating a Rails application
 
 1. After you install Ruby on Rails, it's very simple to create a brand new application, we'll just need 3 more words:
 ```shell
 $ rails new <application_name>
 ```
+  * If you want to use MySQL
+  ```shell
+  $ rails new <application_name> -d mysql
+  ```
+  * If you want to use Postgres
+  ```shell
+  $ rails new <application_name> -d postgresql
+  ```
 
 2. This command will create a folder with the *application_name* you informed in the last command. Next step is to go to the new directory you've just created:
 ```shell
