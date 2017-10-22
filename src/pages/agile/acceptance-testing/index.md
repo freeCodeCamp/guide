@@ -7,3 +7,7 @@ Acceptance Testing focuses  on checking if the developed software meets all the 
 
 It is usually performed by the users or the Subject Matter Experts. it is also called as User Acceptance Testing (UAT). UAT involves most common real life scenarios. Unlike system testing, it does not focus on the errors or crashes, but on the functionality. UAT is done at the end of the testing life-cycle and will decide if the software is moved to the next environment or not.
 
+
+
+rt = "Robert_Tabamo"
+print rt
