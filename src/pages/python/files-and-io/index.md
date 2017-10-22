@@ -11,5 +11,6 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
+<a href='https://docs.python.org/3/tutorial/inputoutput.html' target='_blank' rel='nofollow'>Python 3 Docs: Input and Output</a>
 
 
