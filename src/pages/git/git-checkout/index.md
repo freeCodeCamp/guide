@@ -5,6 +5,16 @@ title: Git Checkout
 
 The `git checkout` command switches between branches or restores working tree files.  There are a number of different options for this command that won't be covered here, but you can take a look at all of them in the <a href='https://git-scm.com/docs/git-checkout' target='_blank' rel='nofollow'>Git documentation</a>.
 
+### Checkout a specific commit
+
+to checkout a specific commit, run the command :
+```shell
+git checkout specific-commit-id
+```
+we can get the specific commit id's by running: 
+```shell
+git log
+```
 ### Checkout an Existing Branch
 To checkout an existing branch, run the command:
 ```shell
