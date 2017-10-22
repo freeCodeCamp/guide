@@ -9,16 +9,13 @@ title: C++ If Statement
 * The ***if*** statement evaluates your test expression present inside the parenthesis.
 * The if statement uses relational and logical operators to make logical expressions.
 
-  -----------------------------------------------
+-----------------------------------------------
   
 The general form of an if statement:
 
  if (Test Expression / Condition )
- 
  {
- 
-    // Block of statement if test expression is True
- 
+    // code block if test expression is True
  }
   
 -----------------------------------------------
