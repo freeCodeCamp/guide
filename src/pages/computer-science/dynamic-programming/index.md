@@ -10,20 +10,16 @@ Here is an example.
 ```c++
 int fib(int n)
 {
-
-    if ( n <= 1 )
-
+    if (n <= 1)
     return n;
 
     return fib(n-1) + fib(n-2);
-
 }
 ```
 
 Above is a simple recursive solution where we are computing fib(2) many times.
 
-And below is the optimised solution (using DP
-
+And below is the optimised solution (using DP)
 
 ```c++
 int lookup[n+1];
@@ -45,6 +41,12 @@ int fib(int n)
     return lookup[n];
 }
 ```
+
+Computer Science instructors use a step-by-step approach to teach generic implementation of dynamic programming problems:
+
+1) Developing a recursive solution
+2) Indentifying how an array to memoize the solution would look, and how overlapping subproblems are related
+3) Writing the pseudocode for a bottom-up solution
 
 #### More Information:
 <a href='http://www.geeksforgeeks.org/dynamic-programming-set-1/' target='_blank' rel='nofollow'>Geeks for Geeks Article</a>
