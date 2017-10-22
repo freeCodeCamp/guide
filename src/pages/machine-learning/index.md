@@ -20,6 +20,19 @@ In sum, there are two broad categories of machine learning
 
 There are however other subcategories of machine learning you may encounter such as Semi-supervised and reinforced learning.
 
+### Supervised learning
+Supervised learning is the machine learning task of inferring a function from supervised training data. The training
+data consist of a set of training examples. In supervised learning, each example is a pair consisting of an input object
+(typically a vector) and a desired output value (also called the supervisory signal). Further, the supervised learning can be taken as 2 paradigm, classification and regression.
+
+#### Basic flowchart/steps for supervised learning
+1. Collect training set.
+2. Divide training set into input object (features) and output object (classes or value)
+3. Decide what you will be applying, regression or classifier
+4. Decide which algorithm will you be applying, SVM, deep net, etc
+5. Run the algorithm on training set and use the model for predictions.
+
+
 
 #### More Information:
 
