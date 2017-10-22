@@ -50,9 +50,9 @@ myListB = myListA
 If we use the '==' operator or the 'is' operator, both will result in a <b>True</b> output. 
 
 ```python
->>> myListA == myListB
+>>> myListA == myListB # both lists contains similar elements
 True
->>> myListB is myListA
+>>> myListB is myListA # myListB contains the same elements
 True
 ```
 This is because both myListA and myListB are pointing to the same list variable, which I defined at beginning of my Python program. Both lists are exactly the same, both in identity and in content.
@@ -74,11 +74,11 @@ However, performing the `is` operator will now produce a `False` output. This is
 
 ```python
 >>> myListA is myListC
-False
+False # both lists have different reference
 ```
 
 To sum up:
-* An `is` expression outputs `True` if both variables are pointing to the same thing
+* An `is` expression outputs `True` if both variables are pointing to the same reference 
 * An `==` expression outputs `True` if both variables contain the same data
 
 
