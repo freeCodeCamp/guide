@@ -1,7 +1,7 @@
 ---
-title: Will Change Property
+title: Will Change
 ---
-## Will Change Property
+## Will Change
 
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/using-css-transitions/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
