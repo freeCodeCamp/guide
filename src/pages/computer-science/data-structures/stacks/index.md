@@ -81,4 +81,6 @@ int main() {
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 * <a href='http://www.geeksforgeeks.org/stack-data-structure/' target='_blank' rel='nofollow'>More Info on Stacks - GeeksForGeeks</a>
 
+* <a href='https://www.youtube.com/watch?v=wjI1WNcIntg' target='_blank' rel='nofollow'>HackerRank Stacks and Queues Video</a>
+
 
