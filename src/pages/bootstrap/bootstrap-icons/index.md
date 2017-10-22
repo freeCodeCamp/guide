@@ -3,13 +3,11 @@ title: Bootstrap Icons
 ---
 ## Bootstrap Icons
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/bootstrap/bootstrap-icons/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Bootstrap doesn't have default icons. The previous versions of the framework included icons library called Glyphicons but it was dropped in the Boostrap 4.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+There are several options to use icons with Bootstrap. The preferred icon sets are: [Iconic](https://useiconic.com/open/), [Octicons](https://octicons.github.com/) and [Entypo](http://www.entypo.com/). The recommended file format is Scalable Vector Graphics (SVG).
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+[More icon sets options](https://getbootstrap.com/docs/4.0/extend/icons/#more-options)
 
 
