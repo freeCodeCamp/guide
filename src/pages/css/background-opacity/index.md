@@ -5,7 +5,7 @@ title: Background Opacity
 
 The opacity CSS property specifies the level of transparency of an element, that is, the degree to which the content behind the element is visible.
 
-You can choose upto what extent you want to make the element transparent.
+You can choose up to what extent you want to make the element transparent.
 You have to add the following CSS property to achieve the transparency levels.
 
 **Fully Opaque**
