@@ -121,7 +121,7 @@ Value of b is changed after using once : 9
 
 * These operators tell us the relation among 2 operands and return a boolean value(0 or 1). If the relation is `true` then it results into 1 . If the realtion is false then it results into 0.
 
-* The 6 relationall operators are :
+* The 6 relational operators are :
     1. Less than `<`
     2. Greater than '>'
     3. Less than or equal to `<=`
@@ -136,8 +136,30 @@ Value of b is changed after using once : 9
  1. Logical AND `&&` : Evaluates to true if both values are true .
  2. Logical OR `||`  : Evaluates to true if any value is true .
  3. Logical NOT `!`  : If *expression* is true then *!expression* is false. This operator reverses the truth value and is a unary operator.
+ 
+### Ternary Operators 
+Ternary operators are used instead of small `if` loops, or just to create panic in a programmer who has just begun. Ternary operators are just a simple way of expressing an `if-else` loop. 
 
-_Camper , You now know what are tokens. The next article will be about <need-to-put-topic> CONGRATULATIONS_ 
+The syntax goes like this:
+```cpp
+condition ? true_expression : false_expression ; 
+```
+So, instead of using an `if-else` loop for something like this:
+```cpp
+int x;
+cin>>x;
+if(x>0)
+cout<<"This number is positive";
+else cout<<"This number is non-positive"; //In case you didn't know, non-positive numbers are all the negative numbers and zero put together
+```
+We could use this:
+```cpp
+int x;
+cin>>x;
+(x > 0) ? cout<<"This number is positive" : cout<<"This number is non-positive" ;
+```
+
+_Camper , You now know what tokens are. The next article will be about <need-to-put-topic> CONGRATULATIONS_ 
  
  **Good Luck to all of you** 
  
