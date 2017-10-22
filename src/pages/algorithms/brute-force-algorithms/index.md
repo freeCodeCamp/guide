@@ -62,5 +62,6 @@ Some classic problems in NPC are listed below:
    * [N - Queens Problem](http://www.math.utah.edu/~alfeld/queens/queens.html "N queens problem")
 
 Further readings:
+
    * [Brute force search Wiki](https://en.wikipedia.org/wiki/Brute-force_search)
    * [A reading on Brute - Force attacks (Cryptography)](https://en.wikipedia.org/wiki/Brute-force_attack)
