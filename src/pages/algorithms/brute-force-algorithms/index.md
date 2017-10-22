@@ -3,13 +3,18 @@ title: Brute Force Algorithms
 ---
 ## Brute Force Algorithms
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/algorithms/brute-force-algorithms/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+From the name itself, Brute Force algorithms make use of straightforward approaches in order to solve a problem. Algorithms that make use of brute force are the easiest ones to apply.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The following are well-known Brute Force Algorithms:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Selection Sort
+- Selection Sort is an algorithm that sorts an array by repeatedly finding the minimum element (ascending order) or the maximum element (descending order) from the unsorted part and puts it in the beginning.
+ 
+Bubble Sort
+- Bubble Sort is the simplest sorting algorithm that works by swapping adjacent elements if they are in the wrong order.
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+Sequential Search
+- Sequential Search is a searching algorithm that compares a "search key" to every element of a list until it matches.
 
-
+String Matching
+- String Matching algorithms work by finding a substring from a larger string.
