@@ -23,4 +23,8 @@ int i = 10;
 // initiates an Float object with value 1.0
 // variable myFloat now points to the object
 Float myFloat = new Float(1.0);
+
+// Convert Primivite Type to Wrapper Type and vice versa
+Integer intObj = new Integer(i);
+int x = intjObj.intValue();
 ```
