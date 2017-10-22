@@ -158,4 +158,8 @@ for index, item in enumerate(shopping_basket):
 
 #### More Information:
 
-- <a href='https://docs.python.org/3/tutorial/controlflow.html#for-statements' target='_blank' rel='nofollow'>Python for loop documentation</a>
+- <a href='https://docs.python.org/2.7/tutorial/controlflow.html#for-statements' target='_blank' rel='nofollow'>Python2 for loop documentation</a>
+
+- <a href='https://docs.python.org/3/tutorial/controlflow.html#for-statements' target='_blank' rel='nofollow'>Python3 for loop documentation</a>
+
+
