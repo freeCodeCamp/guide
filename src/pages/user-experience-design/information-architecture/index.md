@@ -3,13 +3,22 @@ title: Information Architecture
 ---
 ## Information Architecture
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/user-experience-design/information-architecture/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Information Architecture (IA) is the practice of organizing a shared information environment, such as a website. Additionally, it is the starting point when creating a new product in which you must share information with others. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+IA encompasses the following:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+  - presenting
+  - searching
+  - browsing
+  - labeling
+  - categorizing
+  - sorting
+  - manipulating
+  - stratigically hiding information
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+## Other Resources
+
+- [Information architecture - Wikipedia](https://en.wikipedia.org/wiki/Information_architecture)
+- [Usabilty.gov](https://www.usability.gov/what-and-why/information-architecture.html)
 
 
