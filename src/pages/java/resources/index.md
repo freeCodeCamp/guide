@@ -1,7 +1,7 @@
 ---
-title: Java Docs Resources
+title: Resources
 ---
-# Java Resources
+# Resources
 
 Java is trademarked and licensed by Oracle. Most of the following are un-official resources, unless hosted by Oracle.
 

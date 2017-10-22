@@ -3,13 +3,19 @@ title: Dividing Fractions by Whole Numbers
 ---
 ## Dividing Fractions by Whole Numbers
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/dividing-fractions-by-whole-numbers/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Here are the steps to divide a fraction by a whole number
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+1. Multiply the denominator of the fraction by the whole number. 
+2. If possible, simplify the resultant fraction
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+#### Example 1
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+<pre>  <span class="fraction"><sup>4</sup>⁄<sub>5</sub></span> &divide; 3 = <span class="fraction"><sup>4</sup>⁄<sub>(3 * 5)</sub></span> = <span class="fraction"><sup>4</sup>⁄<sub>15</sub></span> </pre>
+
+#### Example 2
+
+<pre>  <span class="fraction"><sup>6</sup>⁄<sub>7</sub></span> &divide; 2 = <span class="fraction"><sup>6</sup>⁄<sub>(2 * 7)</sub></span> = <span class="fraction"><sup>6</sup>⁄<sub>14</sub></span> = <span class="fraction"><sup>3</sup>⁄<sub>7</sub></span> (Simplified) </pre>
+
+Please note that a whole number can also be considered as a fraction by considering its denominator as 1. It, then becomes similar to dividing two fractions
 
 

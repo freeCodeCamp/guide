@@ -1,7 +1,7 @@
 ---
-title: Java Docs Strings
+title: Strings
 ---
-# Java Strings
+# Strings
 
 Strings, as you might be already aware, are a sequence of characters. In Java, a `String` is an `Object`.
 
@@ -35,3 +35,8 @@ The answer is: 2 String objects are created.
 You see, the creators of the JVM are pretty smart. They figured that Strings differ mostly in terms of its `content`. When you create a String literal, the JVM internally checks, what is known as `the String pool`, to see if it can find a similar (content wise) String object. If it finds it, it returns the same reference. Otherwise, it just goes ahead and creates a new String object in the pool so that the same check can be performed in the future.
 
 However, whenever you use the `new` keyword, it no longer performs this check. So, there could be a 1000s of String objects with the same content and yet, it'll go ahead and create a new String - using up additional memory. This is precisely why it's a good practice to use `String literals` instead of using the `new` keyword as much as possible.
+Extras
+1.String methods use zero-based indexes, except for the second argument of substring().
+2.The String class is final- it's methods can't be overridden.
+3.When the String literal is found by JVM, it is addes to string literal pool.
+4.String class posses a method name length(),while arrays have an attribute naming length.
