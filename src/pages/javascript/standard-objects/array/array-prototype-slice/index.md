@@ -7,15 +7,15 @@ The JavaScript array method `.slice()` will return a new array object which will
 
 ```javascript
   array.slice()
-  arr.slice(start-index)
-  arr.slice(start-index, end-index) 
+  arr.slice(startIndex)
+  arr.slice(startIndex, endIndex) 
 ```
 
 ## Parameters
 
-* **start-index** The index of the original array to begin the segment. If the value is omitted, it will start at 0.
+* **startIndex** The zero-based index where the slice should begin. If the value is omitted, it will start at 0.
 
-* **end-index** The segment will end **before** this index. A negative index is used to offset from the end of the array. If the value is omitted, the segment will slice to the end of the array.
+* **endIndex** The slice will end **before** this zero-based index. A negative index is used to offset from the end of the array. If the value is omitted, the segment will slice to the end of the array.
 
 ## Examples
 
