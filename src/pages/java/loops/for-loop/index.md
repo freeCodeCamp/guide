@@ -34,6 +34,21 @@ Output:
 iter_For Value: 10
 ```
 
+Another example of a for loop that adds the first 50 numbers would be like this.
+i++ means i = i+1.
+
+```java
+
+int addUntil = 50;
+int sum 0;
+for (int i = 1; i <= addUntil; i++)
+{
+    sum+=i
+    
+}
+System.out.println("The sum of the first 50 numbers is: " + 50);
+```
+
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CJYr/0' target='_blank' rel='nofollow'>Run Code</a>
 Extras
 You cannot use a number (old C-style language construct) or anything that does not evaluate to a boolean value as a condition for an if statement or looping construct. You can't, for example, say if(x), unless x is a boolean variable.
