@@ -3,13 +3,11 @@ title: Converting Pounds to Ounces
 ---
 ## Converting Pounds to Ounces
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/converting-pounds-to-ounces/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+One pound (lb) is equal to 16 ounces (oz). To convert pounds to ounces, you multiply the number of pounds by `16`. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Examples
+Something that weighs `6 lbs` weighs `96 oz`, because `16 X 6` is `96`.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+`.5 lbs` converts to `8 oz` because `.5 X 16 = 8`.
 
 
