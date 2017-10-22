@@ -46,7 +46,7 @@ Data Type       Size allocated in memory        Example
   (doubles or larger floats )
 
 * bool              1 byte                      bool bb; bb=0;
- (boolean values: 0 or 1)
+ (boolean values: 0 or 1 also true or false)
 
 #### Identifiers.
 
@@ -61,12 +61,13 @@ Data Type       Size allocated in memory        Example
 #### Declaring a variabe :
 The syntax is as follows ~
 
-<Data-type> <Variable-name> ; 
+`<Data-type> <Variable-name> ;`
 
 For example :
  ```cpp
- int a ; //declaring a variable named 'a' of type integer.
- a=4;    //initializing a variable
+ int a ;    //declaring a variable named 'a' of type integer.
+ a=4;        //initializing a variable
+ int b = 5 ; //declaring and initializing a variable 'b' of type integer.
  ```
 
 **Examples  of declaring a variable:**
