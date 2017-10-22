@@ -117,3 +117,36 @@ _Note that the first letter is only capitalized if it is at the beginning of the
     ```ruby
     "15".to_i #=> 15 # integer
     ```
+
+
+
+   
+### Gsub:
+
+*  `gsub` replaces every reference of the first parameter for the second parameter on a string.
+```ruby
+"ruby is cool".gsub("cool", "very cool") #=> "ruby is very cool"
+```
+*  `gsub` also accepts patterns (like *regexp*) as first parameter, allowing things like:
+```ruby
+"ruby is cool".gsub(/[aeiou]/, "*") #=> "r*by *s c**l"
+```
+
+### Concatenation:
+
+*   Ruby implements some methods to concatenate two strings together:
+
+   *  The `+` method:
+  ```ruby
+  "15" + "15" #=> "1515" # string
+  ```
+
+   * The `<<` method:
+   ```ruby
+   "15" << "15" #=> "1515" # string
+   ```
+
+   * The `concat` method:
+   ```ruby
+   "15".concat "15" #=> "1515" # string
+   ```
