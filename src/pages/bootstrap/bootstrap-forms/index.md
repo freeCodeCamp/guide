@@ -103,9 +103,9 @@ There is an option to set checkboxes or radio buttons in a line. This can get do
 
 ### Layout 
 
-As it ist set as default a 'with:100%' and 'display:block', Bootstrap created other classes to help vary this without breaking out the design. 
+As it is set as default a 'with:100%' and 'display:block', Bootstrap created other classes to help vary this without breaking out the design. 
 
-As mentioned above, '.form-group' should be applied to the labels and inputs that belong together. This class control padding and margins on this elements. 
+As mentioned above, '.form-group' should be applied to the labels and inputs that belong together. This class control padding and margins on these elements. 
 
 ```html
 <form>
@@ -191,7 +191,7 @@ It can also set the grids after breakpoints, this is a good example of a complex
 
 #Horizontal form 
 
-Adding the '.row' class to the '.form-group's give you the posibility to add grid breakpoints. The code must be structured as following: 
+Adding the '.row' class to the '.form-group's give you the possibility to add grid breakpoints. The code must be structured as following: 
 
 ```html
 <form>
