@@ -3,13 +3,22 @@ title: Image Opacity and Transparency
 ---
 ## Image Opacity and Transparency
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/image-opacity-and-transparency/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The CSS `opacity` property specifies the degree of which an element is visible or transparent. Legal values of `opacity` range between `0` and `1` inclusive.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Examples
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+The following CSS example will set the visibility of all images to `0.5` (or 50%) allowing content behind the images to be partially visible:
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+```css
+img {
+  opacity: 0.5;
+}
+```
 
+In this example, we set the visibility of image elements having the `class`=`hide-image` to `0` (or 0%):
 
+```css
+img.hide-image {
+  opacity: 0;
+}
+```
