@@ -3,13 +3,30 @@ title: Tagging in Git
 ---
 ## Tagging in Git
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/git/tagging-in-git/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+`git tag` is a Git command used to tag specific points in time.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Viewing Tags
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+To view the tags in the current repository use the command:
+
+```
+git tags
+```
+
+A list of all tags will be displayed.
+
+### Creating Tags
+
+To create a new tag in the current repository use the command:
+
+```
+git tag TAG_NAME
+```
+
+This will create a new tag called `TAG_NAME`.
+
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+[Git Book - Tagging](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
