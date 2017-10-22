@@ -3,13 +3,14 @@ title: Ddos Denial of Service Attacks
 ---
 ## Ddos Denial of Service Attacks
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/security/ddos-denial-of-service-attacks/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Ddos, or Distributed Denial of Service attacks are cyber attacks that result in a target system being bombarded by artificially high traffic volume.  This differs from just a Dos attack in that many devices (usually a botnet) are performing the attack, instead of just one.  
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+This attack vector is becoming more common than ever due to the spike in the Internet of Things (Iot) devices.  Usually these Iot devices are infected with malware that leads them become part of the botnet that can perform a Ddos attack.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### Famous Ddos Attacks
+
+<a href='https://en.wikipedia.org/wiki/Project_Chanology' target='_blank' rel='nofollow'>Anonymous vs. Scientology</a><br>
+<a href='https://www.hackread.com/hackers-shut-down-donald-trump-election-campaign-website/' target='_blank' rel='nofollow'>Trump Website</a>
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+<a href='http://www.cyberdefensehub.com/famous-ddos-attacks/' target='_blank' rel='nofollow'>cyberdefensehub.com</a>
