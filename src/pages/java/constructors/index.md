@@ -51,15 +51,15 @@ public class Car {
     private String name;
 
     //Constructor.
-    public Car(String model){
+    public Car(String model) {
         this.name = "Honda " + model;
     }
 
-    public String getName(){
+    public String getName() {
         return this.name;
     }
 
-    public static void main(String args[]){
+    public static void main(String args[]) {
         Car car = new Car("Civic");
         System.out.println( car.getName() );
     }
@@ -79,11 +79,11 @@ public class Bank {
 
     private static Bank instance;
     
-    private Bank(){
+    private Bank() {
     }
 
-    public static Bank getInstance(){
-        if(null == instance){
+    public static Bank getInstance() {
+        if(null == instance) {
             instance = new Bank();
         }
         return instance;
