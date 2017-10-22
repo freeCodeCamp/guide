@@ -14,9 +14,12 @@ title: C++ If Statement
 The general form of an if statement:
 
  if (Test Expression / Condition )
-  {
-   // Block of statement if test expression is True
-  }
+ 
+ {
+ 
+    // Block of statement if test expression is True
+ 
+ }
   
 -----------------------------------------------
 
