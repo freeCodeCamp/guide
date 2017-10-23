@@ -3,7 +3,7 @@ title: Bubble Sort
 ---
 ## Bubble Sort
 
-Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in wrong order.
+Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in wrong order. Bubble Sort is also the slowest sorting algorithm when it comes to its worst case.
 
 ### Example:
 
@@ -39,7 +39,7 @@ Now, the array is already sorted, but our algorithm does not know if it is compl
 
 ( 1 2 4 5 8 ) –> ( 1 2 4 5 8 )
 
-This code will use bubble sort to sort the array.
+This code will use bubble sort to sort the array. (JavaScript)
 ```js
 let arr = [1, 4, 7, 45, 7,43, 44, 25, 6, 4, 6, 9];
 let sorted = false
@@ -49,6 +49,23 @@ while(!sorted) {
   for(var i=0; i < arr.length; i++) {
     if(arr[i] < arr[i-1]) {
       let temp = arr[i];
+      arr[i] = arr[i-1];
+      arr[i-1] = temp;
+      sorted = false;
+    }
+  }
+}
+```
+(Java)
+```
+int[] arr = new int[] {1, 4, 7, 45, 7,43, 44, 25, 6, 4, 6, 9};
+boolean sorted = false
+
+while(!sorted) {
+  sorted = true
+  for(int i=0; i < arr.length; i++) {
+    if(arr[i] < arr[i-1]) {
+      int temp = arr[i];
       arr[i] = arr[i-1];
       arr[i-1] = temp;
       sorted = false;
