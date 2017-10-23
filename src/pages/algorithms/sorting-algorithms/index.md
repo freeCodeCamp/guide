@@ -40,3 +40,7 @@ Sorting algorithms are said to be `stable` if the algorithm maintains the relati
 
 * `Insertion sort`, `Merge Sort`, and `Bubble Sort` are stable
 * `Heap Sort` and `Quick Sort` are not stable
+
+### Sorting Algorithms Visualizer 
+- <a href='https://visualgo.net/en/sorting' target='_blank' rel='nofollow'>visualgo</a>
+
