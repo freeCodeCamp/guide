@@ -13,6 +13,9 @@ Sketch is a design toolkit for macOS only. It quickly became very popular as an 
 * Export files in multiple formats
 * Vast community
 
+### Why Should I Switch To Sketch?
+
+Sketch is designed to build digital products rather than editing photos and print graphics. Sketch's clean interface helps keep you organized when mocking up or building out your UI/UX designs. The art boards that Sketch uses enforces a pixel grid for precise designs. Exporting designs is simple and supports different device resolutions.
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
