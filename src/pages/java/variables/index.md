@@ -24,3 +24,5 @@ int i = 10;
 // variable myFloat now points to the object
 Float myFloat = new Float(1.0);
 ```
+
+Strings are a special case in which both the primitive and object data types can be used to declare a String. See the String article for more details.
