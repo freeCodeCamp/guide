@@ -85,6 +85,15 @@ The .reverse methods reverses the array but does not mutate it (the original arr
 array.reverse
 => [4, 3, 2, 1, 0]
 ```
+#### .include?
+The include? method checks to see if the argument given is included in the array:
+
+```
+array = [1, 2, 3, 4, 5]
+=> [1, 2, 3, 4, 5]
+array.include?(3)
+=> true
+```
 
 ## More Information/ Official Documentation:
 
