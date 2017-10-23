@@ -3,13 +3,17 @@ title: Form Validation
 ---
 ## Form Validation
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/form-validation/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+HTML form validation can be done by JavaScript.
+If a form field (fname) is empty, this function alerts a message, and returns false, to prevent the form from being submitted:
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+```javascript
+function validateForm() {
+    var x = document.forms["myForm"]["fname"].value;
+    if (x == "") {
+        alert("Name must be filled out");
+        return false;
+    }
+}
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+<a href='https://www.w3schools.com/js/js_validation.asp'>Read more</a>
