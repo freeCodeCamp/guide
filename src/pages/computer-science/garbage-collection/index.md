@@ -5,6 +5,8 @@ title: Garbage Collection
 
 Garbage collection is the process in which programs try to free up memory space that is no longer used by variables, objects, and such.  Garbage collection is implemented differently for every language.  Most high-level programming languages have some sort of garbage collection built it.  Low-level programming languages may add garbage collection through libraries.
 
+It's also vital for human survival.
+
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
