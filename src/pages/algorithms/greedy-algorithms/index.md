@@ -3,19 +3,15 @@ title: Greedy Algorithms
 ---
 ## Greedy Algorithms
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/algorithms/greedy-algorithms/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-## What is a Greedy Algorithm
 You must have heard about a lot of algorithmic design techniques while sifting through some of the articles here. Some of them are :
 * Brute Force
 * Divide and Conquer
 * Greedy Programming 
 * Dynamic Programming 
 to name a few. In this article, you will learn about what a greedy algorithm is and how you can use this technique to solve a lot of programming problems that otherwise do not seem trivial. 
+
+## What is a Greedy Algorithm
 
 Imagine you are going for hiking and your goal is to reach the highest peak possible. You already have the map before you start, but there are thousands of possible paths shown on the map. You are too lazy and simply don’t have the time to evaluate each of them. Screw the map! You started hiking with a simple strategy – be greedy and short-sighted. Just take paths that slope upwards the most. This seems like a good strategy for hiking. But is it always the best ?
 
