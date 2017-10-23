@@ -25,7 +25,7 @@ OR
 .class-name{
   opacity:0.5;
   }
-Opacity value can be anything between 0 and 1;
+Opacity value can be anything between 0 and 1; Let's Try!
 ```
 **Transparent**
 ```css
