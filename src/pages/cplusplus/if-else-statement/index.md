@@ -2,15 +2,15 @@
 title: C++ If-Else Statement
 ---
 
-##What does an If-Else Statement do?
+## What does an If-Else Statement do?
 
 * The If-Else statement is an extension of the simple If statement.
-* In the simple If statement, if the value of the test expression is false, then we skip the code of block and continue with our next statement.
-* But many of the times we want to execute certain steps if the value of test expression is false.
-* In such cases, we use the if-else statement.
+* In the simple If statement, if the value of the test expression is false, then skip the code of block and continue with the next statement.
+* But many of the times you want to execute certain steps if the value of the test expression is false.
+* In such cases, use the if-else statement.
 
-  -----------------------------------
-  General Form of If-Else Statement
+-----------------------------------
+General Form of If-Else Statement
 
 ```cpp
 
@@ -31,11 +31,9 @@ title: C++ If-Else Statement
   }
 ```
 
-  -----------------------------------
+----------------------------------
 
 Example of If-Else Statement
-
-  ---------------------------- -----------------------------
 
   If test expression is true :
 
@@ -70,10 +68,9 @@ else
   //program continues
 
 ```
+---------------------------- -----------------------------
 
-  ---------------------------- -----------------------------
-
-Example in C++:
+Example program in C++:
 
 ```cpp
 
@@ -125,7 +122,7 @@ This step is always printed
 <a href='https://repl.it/MzBq' target='_blank' rel='nofollow'>Try the code yourself</a>
 _CONGRATULATIONS . This is the end of the article on the IF statement_ 
 
- **Good Luck to all of you** 
+ **Good Luck on your coding!** 
 
  **Happy Coding ! :)**
 
