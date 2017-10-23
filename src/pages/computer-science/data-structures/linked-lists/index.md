@@ -5,24 +5,22 @@ title: Linked Lists
 
 
 Linked List |  (Introduction)
-Like arrays, Linked List is a linear data structure. Unlike arrays, linked list elements are not stored at contiguous location; the elements are linked using pointers.
+
+Like arrays, *linked lists* are a linear data structure. Unlike arrays, linked list elements are not stored at contiguous location; the elements are linked using pointers.
 
 Why Linked List?
-Arrays can be used to store linear data of similar types, but arrays have following limitations.
-1) The size of the arrays is fixed: So we must know the upper limit on the number of elements in advance. Also, generally, the allocated memory is equal to the upper limit irrespective of the usage.
-2) Inserting a new element in an array of elements is expensive, because room has to be created for the new elements and to create room existing elements have to shifted.
 
-For example, in a system if we maintain a sorted list of IDs in an array id[].
+Arrays can be used to store linear data of similar types, but arrays have following limitations:
+* The size of the arrays is fixed, so we must know the number of elements in advance. Also, generally, the allocated memory is equal to the number of elements, irrespective of the usage.
+* Inserting a new element in an array of elements is expensive, because space must be created to insert the new element(s). Also, the existing elements need to be inventoried, so they can be successfully shifted around as necessary.
 
-id[] = [1000, 1010, 1050, 2000, 2040].
+For example, assume we have a sorted list as follows, called *id[]*:
 
-And if we want to insert a new ID 1005, then to maintain the sorted order, we have to move all the elements after 1000 (excluding 1000).
-Deletion is also expensive with arrays until unless some special techniques are used. For example, to delete 1010 in id[], everything after 1010 has to be moved.
+```
+id[] = [1000, 1010, 1050, 2000, 2040]
+```
 
-Advantages over arrays
-1) Dynamic size
-2) Ease of insertion/deletion
+If we want to insert a new ID 1005, which would rest between indexes 0 and 1, then we must create room at this space, as well as track all other elements, so their sorted order can be maintained correctly.
 
-Drawbacks:
-1) Random access is not allowed. We have to access elements sequentially starting from the first node. So we cannot do binary search with linked lists.
-2) Extra memory space for a pointer is required with each element of the list
+Deletion is also expensive with linked lists, for the same reasons insertion is expensive. For example, to delete 1010 in id[], everything after 1010 has to be inventoried and shifted to the left. While maintaining a list of five elements is simple, regardless of structure, lists that contain thousands or tens of thousands of elements would become too taxing on the system to maintain.
+
