@@ -3,13 +3,18 @@ title: Location Reload Method
 ---
 ## Location Reload Method
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/location-reload-method/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+`location.reload()` reloads the page from the current URL. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+It takes an optional boolean parameter. When set to `true`, the page will reload from the server. When unset, or set to `false`, the page may be reloaded from cache, depending on the browser. 
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+#### Example:
+
+```javascript
+location.reload(true);
+```
+This will reload the page at the current URL from the server.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+[MDN](https://developer.mozilla.org/docs/Web/API/Location/reload)
 
 
