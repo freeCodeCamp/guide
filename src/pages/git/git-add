@@ -1,0 +1,29 @@
+---
+title: Git Add
+---
+## Git Add
+
+The `git add` Add file contents to the index.  There are a number of different options for this command that won't be covered here, but you can take a look at all of them in the <a href='https://git-scm.com/docs/git-add' target='_blank' rel='nofollow'>Git documentation</a>.
+
+### Add an Existing File
+To add an existing file, run the command:
+```shell
+git add FILE-NAME
+```
+
+### Checking before adding
+To check files you'll want to add, run the commande:
+```shell
+git status
+```
+or:
+```shell
+g status
+```
+
+### Add all Existing Files
+To add all files in one command line, run the command:
+```shell
+git add -A
+```
+The `-A` stands for All and for no-ignore-removal
