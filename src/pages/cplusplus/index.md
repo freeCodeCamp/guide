@@ -97,4 +97,6 @@ Download Link : [Download Here](http://www.codeblocks.org/downloads/26)
 
 * Click the link with the GNU/GCC compiler for windows. This will not require an additional installation
 
-Link #2 for Mac : [Download for Mac #2 here](https://developer.apple.com/xcode/)
+Link #2 for Mac : [Download for Mac #2 here](https://developer.apple.com/xcode/)\\
+
+C++ was an incredible programming language designed by Bjourne Stroustrap.  It introduced a wide variety of materials to the programming world and programming languages.  As a result due to its highly sophisticatedness,  C++ set a precedent for future programming languages, and many were completely based upon C++.  Some of these languages include C#, Java, and Python.  Overall thanks to Bjourne Stroustrap the programming world was given an excellent gift with the edition of C++.
