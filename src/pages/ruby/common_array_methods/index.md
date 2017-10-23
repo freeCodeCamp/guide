@@ -85,6 +85,16 @@ The .reverse methods reverses the array but does not mutate it (the original arr
 array.reverse
 => [4, 3, 2, 1, 0]
 ```
+#### .select
+The .select method iterates over an array and returns a new array that includes any items that return true to the expression provided.
+
+```
+array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+array.select { |number| number > 4 }
+=> [5, 6, 7, 8, 9, 10]
+array
+=> [5, 6, 7, 8, 9, 10]
+```
 
 ## More Information/ Official Documentation:
 
