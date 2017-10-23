@@ -9,7 +9,7 @@ The HTML <audio> element is used to embed sound content in documents. It may con
 To embed audio file into web page, just add this code snippet and change the src of audio file.
 
 ```html
-<audio controls>
+<audio controls="controls">
   <source src="tutorial.ogg" type="audio/ogg">
   <source src="tutorial.mp3" type="audio/mpeg">
 Your browser does not support the audio element.
