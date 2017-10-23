@@ -152,7 +152,7 @@ If you need another format, select `File` > `Export` > `Export as...`. There, yo
 #### Footnotes
 
 1. While you can design logos in Photoshop, most designers chose to use Illustrator for logos, as Illustrator creates vector images that can make it easier to resize logos for multiple uses, such as small logos for business cards, or large logos for banner signs.
-
+:)
 #### More Information:
 * [Raster vs. Vector graphics](https://www.psprint.com/resources/difference-between-raster-vector/)
 
