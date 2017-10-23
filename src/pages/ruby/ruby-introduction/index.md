@@ -101,9 +101,14 @@ Prints each object to $stdout. Objects that aren’t strings will be converted b
     Hello World!
      => nil
 ```
-## Frameworks(gems)
 
-Ruby has several frameworks(gems) for quickly scaffolding applications. The most popular by far is <a href='http://rubyonrails.org/' target='_blank' rel='nofollow'>Rails</a> which was initially released in 2004\. Other frameworks(gems) for Ruby include <a href='http://www.sinatrarb.com/' target='_blank' rel='nofollow'>Sinatra</a>, <a href='http://lotusrb.org/' target='_blank' rel='nofollow'>Lotus</a>, and <a href='http://voltframework.com/' target='_blank' rel='nofollow'>Volt</a>. Each of these options has their pros and cons for development and cater to a variety needs.
+## Ruby Libraries(Gems)
+Ruby libraries are known as `Gems`. They are self-contained programs packaged together with details like version number, supporting platform, documentation and the code itself. 
+
+<a href='https://rubygems.org/' target='_blank' rel='nofollow'>RubyGems.org</a> is the official Ruby community's gem hosting service. We can create and publish our own gems here and share it to the whole world. We can also search for a specific gem in this repository.
+
+## Some Popular Ruby Frameworks
+Ruby has several frameworks for quickly scaffolding applications. The most popular by far is <a href='http://rubyonrails.org/' target='_blank' rel='nofollow'>Rails</a> which was initially released in 2004\. Other frameworks for Ruby include <a href='http://www.sinatrarb.com/' target='_blank' rel='nofollow'>Sinatra</a>, <a href='http://lotusrb.org/' target='_blank' rel='nofollow'>Lotus</a>, and <a href='http://voltframework.com/' target='_blank' rel='nofollow'>Volt</a>. Each of these options has their pros and cons for development and cater to a variety needs. All of these frameworks are also packaged as gems.
 
 
 ## Ruby Framework for mobile development
