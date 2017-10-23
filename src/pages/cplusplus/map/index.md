@@ -15,8 +15,7 @@ title: Map
 
 Here is an example:
 
-```
-#include <iostream>
+```#include <iostream>
 #include <map>
 
 using namespace std;
@@ -63,8 +62,7 @@ We can also insert data in std::map using operator [] i.e.
 ## Accessing map elements
 
 To access map elements, you have to create iterator for it. Here is an example as stated before.
-```
-map<char, int>::iterator it;
+```map<char, int>::iterator it;
    for(it=first.begin(); it!=first.end(); ++it){
       cout << it->first << " => " << it->second << '\n';
    }
