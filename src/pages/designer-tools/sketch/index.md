@@ -8,6 +8,7 @@ Sketch is a design toolkit for macOS only. It quickly became very popular as an 
 ### Why Sketch?
 
 * Easily reuse elements
+* Prototyping
 * Collaborate with others
 * Lots of plugins
 * Export files in multiple formats
