@@ -8,7 +8,7 @@ An Array is used to store a collection of data of similar datatype. Arrays alway
 **Syntax:**
 
 ```java
-dataType[] arrayName;   // preferred way.
+dataType[] arrayName;   // preferred way
 ```
 or
 ```java
@@ -18,11 +18,11 @@ dataType arrayName[];  //  works but not preferred way
 ## Code snippets of above syntax:
 
 ```java
-double[] list; // preferred way.
+double[] list; // preferred way
 ```
 or 
 ```java
-double list[]; // works but not preferred way.
+double list[]; // works but not preferred way
 ```
 
 Note: The style `double list[]` is not preferred as it comes from the C/C++ language and was adopted in Java to accommodate C/C++ programmers. Additionally it's more readable: you can read that it's a "dobule array named list" other than "a double called list that is an array"
