@@ -3,10 +3,15 @@ title: Body Bgcolor Attribute
 ---
 ## Body Bgcolor Attribute
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/attributes/body-bgcolor-attribute/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
+The `bgcolor` attribute refers to the background color of an element. 
+```
+<html>
+  <body bgcolor="#F44242">
+    <h1>Hello FreeCodeCamp!</h1>
+  </body>
+</html>
+```
+However, `bgcolor` attribute is not supported in HTML5. Instead, use CSS `background-color` style to reach the same result.
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
