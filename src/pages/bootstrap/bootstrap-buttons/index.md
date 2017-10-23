@@ -52,3 +52,9 @@ _Note: Do not include the dot in the HTML Class Attribute, referring to the clas
 
 #### More Information:
 
+Although the .btn class is used in conjuntion with the <button> tag it can also be used with <a> links and <input> elements.
+  for example:
+ 
+<a class="btn btn-danger" href="#">Go somewhere</a>
+
+<input class="btn btn-primary"  value="Input">
