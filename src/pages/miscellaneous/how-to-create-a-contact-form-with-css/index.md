@@ -7,10 +7,21 @@ title: How to Create a Contact Form with CSS
 > Later we apply CSS styles to make the form visually appealing.
 
 ### The HTML part
+
+The HTML section has a div with class `container` with the heading `h3` "__Contact Form__"
+
+The form with name __contact_form__ contains input fields for:
+- First Name
+- Last Name
+- Email
+- Message
+
+A div with class `center` to align the items center. An `input` type `submit` to submit the form.
+
 ```html
 <div class="container">
 	<h3>Contact Form</h3>
-	<form action="#">
+	<form action="#" name="contact_form">
 		<label for="first_name">First Name</label>
 		<input name="first_name" type="text" required placeholder="John"/>
 		<br>
@@ -29,17 +40,25 @@ title: How to Create a Contact Form with CSS
 </div>
 ```
 ### The CSS part
+
 ```css
-@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400");
 
 *:focus {
 	outline: 0;
 	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
 }
 
 body {
-	background: #263238;
+	background: #263238;  /* Set background color to #263238*/
 }
+
+h3 {
+	text-align: center;
+}
+
+/* Add styles to 'container' class */
 
 .container {
 	padding: 12px 24px 24px 24px;
@@ -48,14 +67,14 @@ body {
 	border-radius: 4px;
 }
 
-h3 {
-	text-align: center;
-}
+/* Add styles to 'label' selector */
 
 label {
 	font-size: 0.85em;
 	margin-left: 12px;
 }
+
+/* Add styles to 'input' and 'textarea' selectors */
 
 input[type=text],input[type=email], textarea {
     width: 100%;
@@ -68,9 +87,13 @@ input[type=text],input[type=email], textarea {
     resize: vertical;
 }
 
+/* Add styles to show 'focus' of selector */
+
 input[type=text]:focus,input[type=email]:focus, textarea:focus {
 	border: 1px solid green;
 }
+
+/* Add styles to the submit button */
 
 input[type=submit] {
 	background: #64B5F6;
@@ -86,14 +109,20 @@ input[type=submit] {
 	text-align: center;
 }
 
+/* Add styles for 'focus' property */
+
 input[type=submit]:focus {
 	background: #A5D6A7;
 	color: whitesmoke;
 }
 
+/* Style 'hover' property */
+
 input[type=submit]:hover {
 	background: #2196F3;
 }
+
+/* Align items to center of the 'div' with the class 'center' */
 .center {
 	text-align: center;
 }
