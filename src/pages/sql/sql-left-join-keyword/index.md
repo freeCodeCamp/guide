@@ -12,6 +12,7 @@ Using the keyword LEFT before JOIN causes the system to start with the student (
 
 Note that studentID 9 appears here but the data from the contact table is just shown as NULL.
 
+
 ```sql
 SELECT a.studentID, a.FullName, a.programOfStudy,
 b.`student-phone-cell`, b.`student-US-zipcode`
@@ -88,4 +89,6 @@ As with all of these SQL things there is MUCH MORE to them than what's in this i
 I hope this at least gives you enough to get started.  
 
 Please see the manual for your database manager and have fun trying different options yourself.
+
+Tip: In ETL/Datawarehousing world LeftJoin is always associated to the term lookup.
 
