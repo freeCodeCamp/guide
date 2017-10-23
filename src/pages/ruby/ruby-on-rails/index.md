@@ -31,7 +31,24 @@ It couldn't be anymore simple! Well, this isn't actually 100% true, we could mak
 ```shell
 $ rails s
 ```
-4. Now, with you preffered brower, go to `http://localhost:3000` and you'll see: "Yay! You’re on Rails!"
+4. Now, with you preffered brower, go to `http://localhost:3000` and you'll see: "Yay! You’re on Rails!"  
+
+5. Alternatively creating a new rails application can be done in the following steps:  
+
+i) Create a new directory:  
+```shell
+$ mkdir <application_name>
+```  
+
+ii) Go into the new directory:  
+```shell
+$ cd <application_name>
+```  
+
+iii) Create the Rails application using the Unix dot notation. This results in assigning the name of the directory to the new application.  
+```shell
+$ rails new .
+```  
 
 ## Convention over Configuration
 *Convention over Configuration* means a developer only needs to specify unconventional aspects of the application. For example, if there is a class Sale in the model, the corresponding table in the database is called sales by default. It is only if one deviates from this convention, such as calling the table "products sold", that the developer needs to write code regarding these names. Generally, Ruby on Rails conventions lead to less code and less repetition.
