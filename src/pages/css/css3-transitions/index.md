@@ -1,3 +1,7 @@
+---
+title: CSS3 Transitions
+---
+
 ## CSS3 Transitions
 
 CSS transitions allow you to animate a change in a property from A to B.
