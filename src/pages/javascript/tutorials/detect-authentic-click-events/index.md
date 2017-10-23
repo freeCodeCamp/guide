@@ -1,11 +1,13 @@
-
+---
+title: Detect authentic click events
+---
 ## Detect authentic click events
 
 There might be a situation where you want to do some specific things only if the click event was genuinely triggered by a user and not by some script to simulate a click event.
 
 There is a very simple solution to this problem, javascript event object provides us with a property **.istrusted** which can be used to tell the difference.
 
-#### Here is an example of using this method - 
+#### Here is an example of using this method
 
 
 ```javascript
