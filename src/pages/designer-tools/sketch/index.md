@@ -25,4 +25,6 @@ Sketch Documentation - <a href='https://www.sketchapp.com/docs/' target='_blank'
 
 A collection of Sketch tutorials - <a href='http://learnsketch.com/tutorials' target='_blank' rel='nofollow'>Learn Sketch</a>
 
+Sketch App Resources - <a href='https://www.sketchappsources.com/' target="_blank" rel="nofollow">https://www.sketchappsources.com/</a>
+
 
