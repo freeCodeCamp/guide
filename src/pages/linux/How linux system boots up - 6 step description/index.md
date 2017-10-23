@@ -1,3 +1,6 @@
+---
+title: Linux Booting Process
+---
 # Linux Booting Process - 6 Step Descriptive Process
 
 
