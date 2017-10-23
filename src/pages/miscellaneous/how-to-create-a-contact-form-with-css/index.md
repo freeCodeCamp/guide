@@ -42,12 +42,20 @@ A div with class `center` to align the items center. An `input` type `submit` to
 ### The CSS part
 
 ```css
+/* Importing the Roboto font from Google Fonts. */
+
 @import url("https://fonts.googleapis.com/css?family=Roboto:400");
+
+/* Set font of all elements to 'Roboto' */
+* {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+/* Remove outline of all elements on focus */
 
 *:focus {
 	outline: 0;
-	font-family: 'Roboto', sans-serif;
-	font-weight: 400;
 }
 
 body {
