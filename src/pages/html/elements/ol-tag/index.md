@@ -27,3 +27,6 @@ In HTML, ordered and unordered lists are similar in both usage and styling. Use 
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body)
 
+## Other Resources
+- [The unordered list `<ul>`](https://github.com/freeCodeCamp/guides/blob/master/src/pages/html/elements/ul-tag/index.md)
+
