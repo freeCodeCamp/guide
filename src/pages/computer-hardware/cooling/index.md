@@ -1,4 +1,6 @@
-# Cooling Systems #
+---
+title: Cooling Systems
+---
 Your computer contains many parts that generate heat. Heat can cause premature failure and erratic behaviors. The more you overclock the graphics or the CPU, the hotter the computer will run. Cooling systems assure that your computer is stable and you extend the life of your investment.
 
 ## Case Cooling ##
