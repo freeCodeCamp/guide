@@ -36,12 +36,17 @@ The various values are:
 - 'none' - Sets no border.
 - 'hidden' - Sets a hidden border.
 
-Based on the property you choose, these styles can be mismatched.
+Based on the property you choose, these styles can be mismatched. 
+You can style each side seperately:
 ```css
   border-top-style: solid;
   border-left-style: dotted;
   border-right-style: dashed;
   border-bottom-style: double;
+```
+Or you can style them all at once:
+```css
+  border-style: solid dashed double dotted;
 ```
 As shown, the border property allows you to select different sections of it. [top, bottom, left, right]
 
