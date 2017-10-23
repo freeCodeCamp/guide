@@ -9,6 +9,7 @@ title: Useful Commands
 ## Exiting Vi, Vim, Nvim, Gvim
 1. Press escape to get you into "normal" mode
 2. Type `:q`, press enter. If you receive an error try `:q!`
+3. To exit and save, type `:q`
 
 **OR**
 - Type ZZ (save and quit)
