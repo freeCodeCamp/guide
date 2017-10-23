@@ -1,6 +1,11 @@
 ---
 title: Useful Commands
 ---
+## Saving
+1. Press `Escape` to make sure you're in `normal mode`;
+2. Type in `:w` ("w" stands for "write");
+3. Press `Enter`.
+
 ## Exiting Vi, Vim, Nvim, Gvim
 1. Press escape to get you into "normal" mode
 2. Type `:q`, press enter. If you receive an error try `:q!`
@@ -35,4 +40,6 @@ To return to regular Vim without paste mode you can enter normal mode (`escape` 
 ## I Want to Learn Vim!
 Start by pressing `escape` to check if you're in normal mode, press colon `:`, type `Tutor`, and press `enter`.
 
-Read the rest of our Vim Guides to get a better understanding of this powerful editor.
+## Other Resources
+- [Vim Golf](https://vimgolf.com/) - A good way to learn from doing vim challenges to get the lowest amount of keystrokes. You can see solutions submitted by others if you can't figure the challenge out.
+- Read the rest of our Vim Guides to get a better understanding of this powerful editor.
