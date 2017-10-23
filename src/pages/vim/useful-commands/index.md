@@ -33,5 +33,13 @@ Start by pressing `escape` to check if you're in normal mode, press colon `:`, t
 ## Other Resources
 - [Vim Golf](https://vimgolf.com/) - A good way to learn from doing vim challenges to get the lowest amount of keystrokes. You can see solutions submitted by others if you can't figure the challenge out.
 
+## Find and Replace
+1. Press `Escape` to make sure your are in `normal mode`;
+2. Type in `:` (You will switch to `command mode`);
+3. Type `%s,word_to_be_replaced,new_word,g`;
+4. Press `ENTER`.
+
+Important: if you want to replace the first occurence of the word, remove the at the end.
+
 
 Read the rest of our Vim Guides to get a better understanding of this powerful editor.
