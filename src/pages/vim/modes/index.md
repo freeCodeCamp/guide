@@ -23,20 +23,26 @@ this is what makes vim different.
 Normal mode can be accessed from other modes by pressing `Esc` or `<C-[>`.
 
 ### Insert Mode
-This is the second most used mode.  You can enter it by using an insert command
-from normal mode.
 
-These include:
-- `i` for 'insert', switches to insert mode where the cursor is
-- `I` moves the cursor to the beginning of the line and inserts
-- `a` for 'append', switches to insert mode 1 character after the cursor
-- `A` moves the cursor to the end of the line and inserts
-- `o` moves the cursor to a next line and inserts
-- `O` creates a new line and inserts at the cursor's current position
+This is the second most used mode, and will be the most familiar behavior
+to most people. Once in insert mode, typing inserts characters just like a regular
+text editor. You can enter it by using an insert command from normal mode.
+
+Insert commands include:
+- `i` for '**i**nsert', this immediately switches vim to insert mode
+- `a` for '**a**ppend', this moves the cursor after the current character and enters insert mode
+- `o` inserts a new line below the current line and enters insert mode on the new line
+
+These commands have an uppercase variety too:
+- `I` moves the cursor to the beginning of the line and enters insert mode
+- `A` moves the cursor to the end of the line and enters insert mode
+- `O` inserts a new line above the current one and enters insert mode on the new line
 
 There are so many more ways of inserting text in vim that can't be listed here
-but these are the simplest.  Once in insert mode, typing inserts characters before the cursor.  To leave
-insert mode and return to normal mode, press `<esc>` or `ctrl-[`
+but these are the simplest. Also, beware of staying in insert mode for too long; vim is
+not designed to be used in insert mode all the time.
+
+To leave insert mode and return to normal mode, press `Esc` or `<C-[>`
 
 ### Visual Mode
 Visual mode it used to select text, similar to how clicking and dragging with a
