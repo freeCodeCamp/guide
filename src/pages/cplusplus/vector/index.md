@@ -8,6 +8,12 @@ title: vector
 
 `std::vector` is part of the C++ standard library (hence the prefix `std::`) and allows you to store contiguous data of the same data type. NOTE: **All objects within a vector must be of the same data type**
 
+`vector` is typically located within the standard library header file <vector>. To use a vector container in your code, you must first include the file. Example:
+
+```cpp
+#include <vector>
+```
+
 The data type you store within a vector goes within angle brackets next to the vector keyword. For example, if you would like to store a collection of strings the vector would be `std::vector<std::string> vector_name`
 
 ### Vector Construction
@@ -43,4 +49,30 @@ std::string last_item = a.back(); // gets the last item in the vector ("access")
 std::string second_item = a.at(2); // gets "element"
 // OR
 std::string second_item = a[2]; // gets "element"
+
+// To modify an element at a specific index
+a[0] = "tested";
+// The vector now contains: {"tested", "element", "access"}
+
+// To add a new element to the end of the vector, after its current last element
+a.push_back("together");
+// The vector now contains: {"tested", "element", "access", "together"}
+
+// To clear the vector of all elements
+a.clear()
+// The vector now contains no elements.
 ```
+
+### Size
+The standard library provides a member function that returns the size of the vector.
+```cpp
+std::vector<int> nums{1,2,3};
+
+std::cout << nums.size() << endl; //3
+
+nums.push_back(11);
+std::cout << nums.size() << endl; //4
+```
+
+### Advantages
+Vectors have many advantages over traditional arrays. They are dynamically allocated, and do not have a fixed size like arrays. Although they do consume more memory to provide these capabilities, vectors are very efficient at accessing specific elements and adding/removing elements from their ends. 
