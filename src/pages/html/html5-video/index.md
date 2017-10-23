@@ -2,10 +2,17 @@
 title: HTML5 Video
 ---
 ## HTML5 Video
+Out of the box, HTML5 supports basic multimedia playback with a new set of media elements that are supported cross-browser. These media elements allow you to specify video/audio source[s], along with some parameters to play video or audio directly on your HTML page.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/html5-video/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+You can specify multiple sources for your multimedia so that each browser can play the files that it natively supports. You can also style the media player using CSS to fit your design needs. You can even control which aspects of the media player are available using attributes such as controls.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+```html
+<video height="500" controls="controls" poster="tutorial.png">
+      <source src="tutorial.webm" type="audio/webm" />
+      <source src="tutorial.ogg" type="audio/ogg" />
+      <source src="tutorial.mp4" type="audio/mp4" />
+</video>
+```
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
