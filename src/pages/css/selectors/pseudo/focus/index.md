@@ -3,13 +3,34 @@ title: Focus
 ---
 ## Focus
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/selectors/pseudo/focus/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The :focus CSS pseudo-class is used to select the element that has focus (such as a form input).
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+It is generally triggered when the user clicks or taps on an element or selects it with the keyboard's "tab" key.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Syntax:
+
+```css
+:focus
+```
+
+## Example
+
+HTML:
+
+```html
+<form>
+  <input type="text" value="The background will turn yellow when you click on it.">
+</form>
+```
+
+CSS:
+
+```css
+input:focus {
+   background-color: yellow;
+}
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
+For more information visit [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/:focus)
 
