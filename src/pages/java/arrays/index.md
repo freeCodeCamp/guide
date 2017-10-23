@@ -70,6 +70,10 @@ Output:
 arrayName[index] = value; 
 ```
 Note: You can not change the size or type of an array after initialising it.
+Note: You can however reset the array like so
+```java
+arrayName = new dataType[] {value1, value2, value3};
+```
 
 
 ## Code snippets of above syntax:
