@@ -3,13 +3,29 @@ title: Li Tag
 ---
 ## Li Tag
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/li-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+You use the `<li>` tag when you want to define list items. You can use it either in ordered lists `<ol>` or unordered lists `<ul>`.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+#### How to use 
+`<li>something you wish to list</li>`
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+#### Examples
 
+Ordered list:
+```html
+
+<ol>
+  <li>Mix ingredients</li>
+  <li>Bake in oven for an hour</li>
+  <li>Allow to stand for ten minutes</li>
+</ol>
+```
+Unordered list:
+```html
+<ul>
+  <li>Apples</li>
+  <li>Oranges</li>
+  <li>Bananas</li>
+</ul>
+```
 
