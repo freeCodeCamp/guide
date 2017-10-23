@@ -24,4 +24,33 @@ CSS Images is a module of CSS that defines what types of images can be used (the
 
 
 
+Rounded Images
+Use the border-radius property to create rounded images
+img {
+    border-radius: 50%;
+}
+Try it Yourself »
+
+Thumbnail Images
+Use the border property to create thumbnail images.
+
+Example
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+<a href="paris.jpg">
+  <img src="paris.jpg" alt="Paris">
+</a>
+Try it Yourself »
+
+
+
 
