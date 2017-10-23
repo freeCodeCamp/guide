@@ -9,12 +9,11 @@ title: CSS Images
 
 ```<img src="picture.jpg" alt="Picture" width="100px" height="100px">```
 
-<ul>
-  <li><strong>src:</strong> It consists the value of the path to the required image</li>
-  <li><strong>alt:</strong> If the image is not displayed then an alternate text can be displayed using alt attribute.</li>
-  <li><strong>width:</strong> This specifies a width for the image</li>
-  <li><strong>height:</strong> This specifies a height for the image</li>
-<ul>
+* **src:** It consists the value of the path to the required image</li>
+* **alt:** If the image is not displayed then an alternate text can be displayed using alt attribute.</li>
+* **width:** This specifies a width for the image</li>
+* **height:** This specifies a height for the image</li>
+
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
@@ -34,4 +33,4 @@ title: CSS Images
 
 ##### Datatypes
 <a title="The <image> CSS data type represents a 2D image. There are two kinds of images: plain images, typically referenced using a URL, and dynamically-generated images, like those generated with <gradient> or element(). Images can be used with numerous CSS properties, such as background-image, border-image, content, list-style-image, and cursor." href="/en-US/docs/Web/CSS/image"><code>&lt;image&gt;</code></a>
-<a title="The documentation about this has not yet been written; please consider contributing!" href="/en-US/docs/Web/CSS/uri"><code>&lt;uri&gt;</code></a
+<a title="The documentation about this has not yet been written; please consider contributing!" href="/en-US/docs/Web/CSS/uri"><code>&lt;uri&gt;</code></a>
