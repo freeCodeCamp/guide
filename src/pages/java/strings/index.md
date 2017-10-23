@@ -41,4 +41,5 @@ Extras
 2. The String class is final- it's methods can't be overridden.
 3. When the String literal is found by JVM, it is addes to string literal pool.
 4. String class posses a method name length(),while arrays have an attribute naming length.
+5. Strings can be easily manipulated using a Scanner object to "cut" the String into meaningful pieces.
 
