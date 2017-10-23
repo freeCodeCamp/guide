@@ -69,6 +69,25 @@ int main(void){
 ```
 If this were a while loop, the code within the brackets would never get run because this condition isn't true when the evaluation is performed. However, because this is a do-while loop, the code will be performed once, and then the evaluation is done to see if it should be done again. Do-while loops are useful for when you know you want something to be done once, but you may need it to be run additional times after that.
 
+### ANOTHER EXAMPLE OF INFINITE WHILE LOOP
+```C
+#include <stdio.h>
+
+int main(void) {
+    int a = 11;
+
+   while(a>=0);
+   {
+     printf("i m going to run infinite time");
+     a--;
+   }
+
+    return 0;
+ }
+  ```
+why this is an infinite loop?you are initializing a with value 11 and and in block of while loop you are decreasing a, but still infinte loop? amazed? The reason behind this is THE SEMICOLON AFTER WHILE CONDITION. the semicolon in the C means that end of statement, so while loop is finished there and he does not know about decrement of integer a so for the while loop condition is always true and hence its run infinite time.
+Remember any pair of curly braces is allowed in c program anywhere.
+
 ## For loops
 For loops are for when we want something to run a set number of times. Here's an example of that:
 ```C
