@@ -13,7 +13,7 @@ The three basic operations in Boolean Algebra are `AND`, `OR`, and `NOT`. Consid
 
 - `x AND y` is true if and only if both `x` and `y` are true
 - `x OR y` is true if and only if either of `x`, `y` are true
-- `NOT x` is true if and only if `x` is false and vice versa
+- `NOT x` is true if and only if `x` is false
 
 ### More Information:
 - The Calculus of Logic: [George Boole](http://www.maths.tcd.ie/pub/HistMath/People/Boole/CalcLogic/CalcLogic.html)
