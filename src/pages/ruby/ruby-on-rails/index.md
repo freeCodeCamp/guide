@@ -15,12 +15,12 @@ $ gem install rails
 
 1. After you install Ruby on Rails, it's very simple to create a brand new application, we'll just need 3 more words:
 ```shell
-$ rails new <application_name>
+$ rails new your_application_name
 ```
 
-2. This command will create a folder with the *application_name* you informed in the last command. Next step is to go to the new directory you've just created:
+2. This command will create a folder with the *your_application_name* you informed in the last command. Next step is to go to the new directory you've just created:
 ```shell
-$ cd <application_name>
+$ cd your_application_name
 ```
 
 3. To run the rails server and see if everything went accordingly is also fast:
