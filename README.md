@@ -24,12 +24,12 @@ To help, find a `stub article` on our [Guide website](https://guide.freecodecamp
 
 If you can't find a stub about the topic you'd like to write about, you can open a PR that creates the stub and includes your draft article. Feel free to ask us questions if you're not sure where to put a new article in the directory structure.
 
-Before you begin writing, make sure to read the [article style guide](#article-style-guide) below.
+Before you begin writing, make sure to read the [article style guide](#article-style-guide).
 
 ## How to contribute
 You can create a PR (Pull Request) with your draft article (or edits on an existing article) in two ways:
 
-1) The easiest method is to use the GitHub interface. Watch the video demonstration or follow the steps below it:
+1) The easiest method is to use the GitHub interface. Watch the video demonstration :point_down: or follow the steps below it:
 
 ![Gif showing the GitHub interface steps](https://i.imgur.com/0cmxJwN.gif)
 
@@ -183,7 +183,7 @@ Then the images should show up when you click the "preview table" tab.
 
 ### Proper nouns
 
-Proper nouns should use correct capitalization when possible. Below is a list of words as they should appear in Guide articles.
+Proper nouns should use correct capitalization when possible. Below is a list of words as they should appear in Guide articles :point_down:.
 
 - JavaScript (capital letters in "J" and "S" and no abbreviations)
 - Node.js
