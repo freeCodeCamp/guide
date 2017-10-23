@@ -107,6 +107,13 @@ body {
 
 ![fixed](https://user-images.githubusercontent.com/26467304/31039859-39612c92-a54f-11e7-93ca-9d7bcb938225.PNG)
 
+### Background Gradients
+A gradient is a transition between two or more colors and can be used via CSS similar to a background image.  
+
+The syntax of a gradient background can be quite complex and is often still used with vendor prefixes due to inconsistencies between supported browsers.
+
+The <a href='http://www.colorzilla.com/gradient-editor/' target="_blank" rel='nofollow'>Colorzilla Gradient Editor</a> is a great online tool for generating custom gradients and the associated css markup.
+
 ### Background – The Shorthand Property
 You can write the background properties on a single line. This is called the shorthand property.
 ```css
