@@ -7,7 +7,7 @@ In javascript there is often implicit type coercion to boolean. If for example y
 
     var a = 'a string';
     if (a) {
-      console.log(a); // logs 'a string'
+      console.log(a); // logs 'a string' to the console
     }
 
 There are only a few values that will be coerced to false: 
