@@ -1,0 +1,27 @@
+1)Install Java:
+  Java Version JDK 7:
+  sudo apt-get install openjdk-7-jdk openjdk-7-jre icedtea-7-plugin
+  sudo update-alternatives --config java
+  Java Version JDK 8 (in some installations this is a requirement instead of 1.7):
+  sudo add-apt-repository ppa:webupd8team/java
+  sudo apt-get update
+  sudo apt-get install oracle-java8-installer
+  sudo update-alternatives --config java
+2)Download SQL Developer from Oracle website (I chose Other Platforms download).
+3) Extract file to /opt:
+  sudo unzip sqldeveloper-*-no-jre.zip -d /opt/
+  sudo chmod +x /opt/sqldeveloper/sqldeveloper.sh
+4)Linking over an in-path launcher for Oracle SQL Developer:
+  sudo ln -s /opt/sqldeveloper/sqldeveloper.sh /usr/local/bin/sqldeveloper
+5)Edit /opt/sqldeveloper/sqldeveloper.sh and replace it's content to:
+  #!/bin/bash
+  unset -v GNOME_DESKTOP_SESSION_ID
+  cd /opt/sqldeveloper/sqldeveloper/bin
+  ./sqldeveloper "$@"
+  or (to prevent error: ./sqldeveloper: Permission denied)
+  #!/bin/bash
+  unset -v GNOME_DESKTOP_SESSION_ID
+  cd /opt/sqldeveloper/sqldeveloper/bin && bash sqldeveloper $*
+6)Run SQL Developer:
+  sqldeveloper
+  Note: When you run Sql Developer at the first time, you need to specify the path of JDK's folder. In my computer, JDK stored at /usr/lib/jvm/java-1.7.0-openjdk-amd64 For Java 8 and Ubuntu 16+ /usr/lib/jvm/java-8-oracle
