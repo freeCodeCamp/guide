@@ -10,7 +10,7 @@ The `typeof` operator is useful in JavaScript as it allows programmers to easily
 For example:
 ```javascript
 var x = 12345;    // number
-x = "string"; // string[
+x = "string"; // string
 x = { key: "value" }; // object
 ```
 
@@ -20,11 +20,11 @@ The `typeof` operator returns a string that represents the current type of a var
 
 ```javascript
 var x = 12345; 
-console.log(typeof x)  // number
+console.log(typeof x)  // "number"
 x = "string"; 
-console.log(typeof x)  // string
+console.log(typeof x)  // "string"
 x = { key: "value" };
-console.log(typeof x) // object
+console.log(typeof x) // "object"
 ```
 
 This can be useful for checking the type of a variable in a function that can accept multiple types, and continuing accordingly.
@@ -52,7 +52,31 @@ function(x){
   }
   //continue with function here...
 }
+```   
+
+The output of the `typeof` operator might not always be what you expect when you check for a number.  
+Numbers can turn in to the value [NaN (Not A Number)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN) for multiple reasons.  
+```javascript
+console.log(typeof NaN); //"number"
+```
+  
+Maybe you tried to multiply a number with an object because you forgot to access the number inside the object.
+```javascript
+var x = 1;
+var y = { number: 2 };
+console.log(x * y); //NaN
+console.log(typeof (x * y)); // "number"
+```  
+
+When checking for a number, it is not sufficient to check the output of `typeof` for a number, since `NaN` also  
+passes this test.  
+This function check for numbers, and also doesn't allow the `NaN` value to pass.
+```javascript
+function isNumber(data) {
+  return (typeof data === "number" && !isNan(data));
+}
 ```
 
+
 ### More Information:
-<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof' target='_blank' rel='nofollow'>MDN Documentation for typeof</a> 
+<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof' target='_blank' rel='nofollow'>MDN Documentation for typeof</a>
