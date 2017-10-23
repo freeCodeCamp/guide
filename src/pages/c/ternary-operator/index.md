@@ -24,6 +24,8 @@ This example takes more than 10 lines, but that isn't necessary. You can write t
 ### Syntax
 `condition ? statement_1 : statement_2`
 
+The statement evalutes to statement\_1 if the condition is true, and statement\_2 otherwise.
+
 Here's the above example re-written to use the ternary operator:
 
 ```c
@@ -35,3 +37,6 @@ printf("%d", c);
 ```
 
 This looks pretty simple, right?
+
+
+`c` is set equal to `a`, because the condition `a<b` was true.
