@@ -74,3 +74,34 @@ $obj2 = Singleton::getInstance();
 
 ```
 
+## Singleton in Python3
+
+>>We can use metaclass to implement Singleton in Python3.
+
+```python
+class Singleton(type):
+    # Mapping from a class to its singleton instance
+    _instances = {}
+
+    def __call__(cls, *args, **kwargs):
+        if cls not in Singleton._instances:
+            Singleton._instances[cls] = super(Singleton, cls).__call__(*args, **kwargs)
+
+        return Singleton._instances[cls]
+
+
+class MyClass(metaclass=Singleton):
+    pass
+
+```
+Testing
+```
+obj_0 = MyClass()
+obj_1 = MyClass()
+
+In [2]: obj_0
+Out[2]: <__main__.MyClass at 0x111130da0>
+
+In [3]: obj_1
+Out[3]: <__main__.MyClass at 0x111130da0>
+```
