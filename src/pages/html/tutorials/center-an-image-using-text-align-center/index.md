@@ -3,13 +3,26 @@ title: Center an Image Using Text Align Center
 ---
 ## Center an Image Using Text Align Center
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/tutorials/center-an-image-using-text-align-center/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+To center image (inside block element like `div`) we will use CSS's `text-align` property.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+```html
+<div style="text-align:center;">
+  <img src="SOME_URL" alt="" />
+</div>
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+In above example image will be centered inside div. This is because div is [block-level element](https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements)
+
+We can't do that with [inline elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements).
+However we can apply `display: block` to any element making it block element.
+
+```html
+<span style="display: block; text-align: center;">
+  <img src="SOME_URL" alt="" />
+</span>
+```
+
+In above example we will see image centered exactly same way as in first example.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+[MDN: text-align](https://developer.mozilla.org/en-US/docs/Web/CSS/text-align)
