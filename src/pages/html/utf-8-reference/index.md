@@ -3,11 +3,7 @@ title: Utf 8 Reference
 ---
 ## Utf 8 Reference
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/utf-8-reference/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Specifying a character encoding like UTF8 will allow the browser to properly display advanced characters like accented letters and emoji.
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
