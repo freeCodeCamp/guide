@@ -1,15 +1,24 @@
 ---
-title: Date Now
----
 ## Date Now
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/standard-objects/date/date-now/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The Date.now() method returns the number of milliseconds elapsed since 1 January 1970 00:00:00 UTC..
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Syntax:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+'''
 
+    var timeInMs = Date.now();
+
+'''
+
+### Example:
+
+'''
+
+    Date.now(); 
+    // 1508783660969
+
+'''
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+[MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/now)
