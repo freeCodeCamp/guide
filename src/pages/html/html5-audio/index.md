@@ -3,13 +3,26 @@ title: HTML5 Audio
 ---
 ## HTML5 Audio
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/html5-audio/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The HTML ```<audio>``` element is used to embed sound content in documents. It may contain one or more audio sources, represented using the src attribute or the ```<source>``` element: the browser will choose the most suitable one. It can also be the destination for streamed media, using a MediaStream.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+```HTML
+<audio controls>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+  Your browser does not support the audio tag.
+</audio>
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### Attributes
+
+* ```autoplay``` - specifies that the audio will start playing as soon as it is ready, even if it's false.
+* ```controls``` - specifies that audio controls should be displayed.
+* ```loop``` - specifies that the audio will start over again, every time it is finished.
+* ```muted``` - specifies that the audio output should be muted.
+* ```preload``` - specifies if and how the author thinks the audio should be loaded when the page loads.
+* ```src``` - specifies the URL of the audio file.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+* [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio)
+* [w3schools](https://www.w3schools.com/TAGs/tag_audio.asp)
