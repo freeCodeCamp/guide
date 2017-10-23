@@ -1,5 +1,7 @@
 BSD 3-Clause License
 
+My changes.
+
 Copyright (c) 2017, freeCodeCamp.
 All rights reserved.
 
