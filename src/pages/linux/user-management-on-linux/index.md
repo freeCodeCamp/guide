@@ -43,8 +43,11 @@ $ sudo deluser username
 ```
 $ sudo userdel username
 ```
-
-
+##### Creating groups and adding users
+```
+$ sudo groupadd editorial
+$ sudo usermod -a -G editorial username
+```
 #### Note: All above commands can be executed without sudo in `root` mode
 
 To switch to root on ubuntu, run `su -i` command followed by the password of the user logged in. Prompt changes to `#` insted of `$`
