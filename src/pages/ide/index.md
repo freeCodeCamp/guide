@@ -1,5 +1,5 @@
 ---
-IDE
+title: IDE
 ---
 
 # Integrated Development Environments
