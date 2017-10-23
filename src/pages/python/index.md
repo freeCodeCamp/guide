@@ -30,8 +30,7 @@ If it is available and in Unix shell’s search path makes it possible to start 
 
 `hello_campers.py`
 
-    if __name__ == '__main__'
-        print('Hello campers!')
+    print('Hello campers!')
 
 From terminal:
 
