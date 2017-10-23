@@ -1,5 +1,5 @@
 ---
-title: Ifraames
+title: Iframes
 ---
 ## Iframes
 Iframe (inline frame) is an element of HTML that allows you to insert in your code HTMLs from other websites (for example: Wikipedia, YouTube). You can use it for widgets (weather, date). It also gives you a possibility to advertise something on your webpage.
