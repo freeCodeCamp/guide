@@ -35,6 +35,22 @@ array.last
 => 4
 ```
 
+#### .take
+The .take method returns the first n elements of the array:
+
+```
+array.take(3)
+=> [0, 1, 2]
+```
+
+#### .drop
+The .drop method returns the elements after n elements of the array:
+
+```
+array.drop(3)
+=> [3, 4]
+```
+
 #### array index
 You can access a specific element in an array by accessing its index. If the index does not exist in the array, nil will be returned:
 
