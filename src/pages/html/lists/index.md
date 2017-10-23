@@ -27,6 +27,21 @@ An ordered list would display as:
 2. Item 2
 3. Item 3
 
+Lists can also be easily nested within each other, for example:
+
+<ol>
+  <li>Blue</li>
+    <ul>
+      <li>Indigo</li>
+      <li>Aqua</li>
+    </ul>
+  <li>Red</li>
+    <ul>
+      <li>Burgundy</li>
+      <li>Maroon</li>
+    </ul>
+  </ol>
+
 #### Description lists
 A description list is a list of terms, with a description of each term. A description list is made using the `<dl>` tag.
 Each item in the list is made up of two tags: a term (`<dt>`), and a description of that term (`<dd>`).
