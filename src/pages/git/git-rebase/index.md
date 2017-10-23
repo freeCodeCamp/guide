@@ -28,6 +28,46 @@ After `git rebase master branch` or `git rebase master` when you have checked ou
     ----o--o-o-A----o---o--o-o-o--o--o- master
                                       \---o-o branch
 
+### Git rebase interactive in the console
+
+To use `git rebase` in the console with a list of commits you can choose, edit or drop in the rebase:
+
+- Enter `git rebase -i HEAD~5` with the last number being any number of commits from the most recent backwards you want to review. 
+- In vim, press `esc`, then `i` to start editing the test. 
+- On the left hand side you can overwrite the `pick` with one of the commands below. If you want to squash a commit into a previous one and discard the commit message, enter `f` in the place of the `pick` of the commit. 
+
+```
+pick 452b159 <message for this commit>
+pick 7fd4192 <message for this commit>
+pick c1af3e5 <message for this commit>
+pick 5f5e8d3 <message for this commit>
+pick 5186a9f <message for this commit>
+
+# Rebase 0617e63..5186a9f onto 0617e63 (30 commands)
+#
+# Commands:
+# p, pick = use commit
+# r, reword = use commit, but edit the commit message
+# e, edit = use commit, but stop for amending
+# s, squash = use commit, but meld into previous commit
+# f, fixup = like "squash", but discard this commit's log message
+# x, exec = run command (the rest of the line) using shell
+# d, drop = remove commit
+#
+# These lines can be re-ordered; they are executed from top to bottom.
+#
+# If you remove a line here THAT COMMIT WILL BE LOST.
+#
+# However, if you remove everything, the rebase will be aborted.
+#
+# Note that empty commits are commented out
+```
+
+- Enter `esc` followed by `:wq` to save and quit.
+- If it rebases successfully then you need to force push your changes with `git push -f` to add the rebased version to your github repo.
+- If there is a merge conflict, there are a number of ways to fix this, including following the suggestions in [this guide](https://help.github.com/enterprise/2.11/user/articles/resolving-a-merge-conflict-using-the-command-line/). One way is to open the files in Atom and delete the parts of the code you do not want. Then use `git add <file name>` followed by `git rebase --continue`. You can skip over the confliced commit by entering `git rebase --skip`, exit the git rebase by entering `git rebase --abort` in your console.
+
 ### More Information:
 - Git documentation: [rebase](https://git-scm.com/docs/git-rebase)
+- Thoughbot guide to [git rebase interactive](https://robots.thoughtbot.com/git-interactive-rebase-squash-amend-rewriting-history)
 
