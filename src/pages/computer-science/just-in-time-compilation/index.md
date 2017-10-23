@@ -3,13 +3,12 @@ title: Just in Time Compilation
 ---
 ## Just in Time Compilation
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/computer-science/just-in-time-compilation/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Also called as **JIT or dynamic compilation** - refers to when *compilation* takes place. The *time* in Just In Time refers to the *runtime*.
+i.e. a JIT compiler compiles the program as it is running.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+In comparison, the **AOT compiler** or **Ahead-of-Time compiler** compiles a program before it is run.
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
+[JIT Compilers](https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers/)
 
