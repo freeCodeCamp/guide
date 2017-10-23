@@ -40,6 +40,15 @@ The cursor property specifies the type of cursor to be displayed when you hover 
 ```
 ![alt text](http://www.javascripter.net/faq/24_cursor_styles.gif "CSS Cursors")
 
+
+You can also set an image as the cursor.
+
+```
+.custom-cursor {
+  cursor: url(cursor-image.png);
+}
+```
+
 #### More Information:
 Check the above cursor values in action: <a href='https://codepen.io/chriscoyier/pen/uCwfB' target='_blank' rel='nofollow'>codepen</a>
 Mozilla Developer Network: <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/cursor' target='_blank' rel='nofollow'>MDN</a>
