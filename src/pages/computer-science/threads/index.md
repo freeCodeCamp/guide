@@ -1,15 +1,3 @@
----
-title: Threads
----
-## Threads
-
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/computer-science/threads/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+<p>A thread can be seen as a kind of process within a process. Usually, every process has its own address space and one single control thread. But in some cases it is better to have multiple threads who control the same address space. Thus, they act almost parallel, a litte bit like separate processes. </p>
+<h2>Why threads can be useful</h2>
+Threads are more light-weight than full processes. They make the program easier and more flexible because they can be easily created and destroyed. If one of them blocks, the other ones can continue unimpaired. This also leads to a better performance. 
