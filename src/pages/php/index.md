@@ -21,3 +21,19 @@ It is typically used to generate web page content dynamically. For example, if y
 ## How does PHP work?
 
 All PHP code is executed on a web server only, not on your local computer. For example, if you complete a form on a website and submit it, or click a link to a web page written in PHP, no actual PHP code runs on your computer. Instead, the form data or request for the web page gets sent to a web server to be processed by the PHP scripts. The web server then sends the processed HTML back to you (which is where 'Hypertext Preprocessor' in the name comes from), and your web browser displays the results. For this reason, you cannot see the PHP code of a website, only the resulting HTML that the PHP scripts have produced.
+
+## PHP Frameworks
+
+Since writing the whole code for a website is not really practical/feasible for most projects, most developers tend to use frameworks for the web development. The advantage of using a framework is that 
+
+ * You don't have to reinvent the wheel everytime you create a project, a lot of the nuances are already taken care for you
+ * They are usually well-structured so that it helps in the seperation of concerns
+ * Most frameworks tend the follow the best practices of the language
+ * A lot of them follow the MVC (Model-View-Controller) pattern so that it seperates the presentation layer from logic
+ 
+ ##Popular frameworks
+ 
+ * Laravel
+ * Symfony
+ * Zend
+ * CakePHP
