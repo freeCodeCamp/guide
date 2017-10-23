@@ -28,6 +28,7 @@ Before you begin writing, make sure to read the [article style guide](#article-s
 
 ## How to contribute
 You can create a PR (Pull Request) with your draft article (or edits on an existing article) in two ways:
+(Pull requests let you tell others about changes you've pushed to a GitHub repository)
 
 1) The easiest method is to use the GitHub interface. Watch the video demonstration or follow the steps below it:
 
