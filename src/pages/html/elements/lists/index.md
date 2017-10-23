@@ -3,7 +3,7 @@ title: Lists
 ---
 ## Lists
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/lists/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Lists elements are a way to display items. There are three types of list elements; ordered, unordered, and HTML description lists.
 
 <a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
 
@@ -11,5 +11,5 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
+[HTML lists on w3schools](https://www.w3schools.com/html/html_lists.asp)
 
