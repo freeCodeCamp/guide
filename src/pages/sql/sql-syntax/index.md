@@ -8,7 +8,7 @@ title: SQL Syntax
 
 This guide provides a basic, high level description of the Syntax for SQL Statements. 
 
-SQL is an international standard (ISO), but you will find many difference between implementations. This guide uses MySQL as an example. If you use one of the many other Relational Database Managers (DBMS) you'll need to check the manual for that DBMS if needed.
+SQL is an international standard (ISO), but you will find many differences between implementations. This guide uses MySQL as an example. If you use one of the many other Relational Database Managers (DBMS) you'll need to check the manual for that DBMS if needed.
 
 ### What we will cover
 
