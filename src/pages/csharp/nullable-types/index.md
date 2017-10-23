@@ -1,3 +1,7 @@
+---
+title: Nullable Types
+---
+
 ## Nullable Types
 Nullable types are instances of the [System.Nullable\<T\>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable-1) struct. 
 A nullable type can represent the correct range of values for its underlying value type, plus an additional `null` value.
