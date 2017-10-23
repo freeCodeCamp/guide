@@ -53,4 +53,5 @@ To get custom colors to use in CSS, you will need some kind of color picker. Som
 #### More Information:
 <a href="https://color.adobe.com/" target="_blank">Adobe Color CC</a><br>
 <a href="https://chrome.google.com/webstore/detail/colorpick-eyedropper/ohcpnigalekghcmgcdcenkpelffpdolg?hl=en" target="_blank">ColorPick Eyedropper on Chrome Web Store</a><br>
-<a href="https://addons.mozilla.org/en-US/firefox/addon/colorzilla/" target="_blank">ColorZilla add-on for Firefox</a>
+<a href="https://addons.mozilla.org/en-US/firefox/addon/colorzilla/" target="_blank">ColorZilla add-on for Firefox</a></br>
+<a href="http://colrd.com/palette/" target="_blank">Colrd Discover Palettes</a>
