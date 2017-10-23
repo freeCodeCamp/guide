@@ -3,13 +3,33 @@ title: E Eulers Number
 ---
 ## E Eulers Number
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/e-eulers-number/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Accessing Euler's Number
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+Euler's number is useful in various ways, especially when considering rate of change. 
+It is also known as 2.718281828459045...
 
 
+Java
+Importing "java.lang.math" should give you access to the constant E, which will be a static double. Probably one of the easier ones out there.
+
+C++
+This code takes the function e^n, where we set n as 1.0. "Setprecicion" is used to show more or less digits.
+
+```c++
+#include <iostream>
+#include <iomanip>
+#include <math.h>
+
+double e = exp (1.0);
+cout << setprecicion(20) << e;
+```
+
+
+Python:
+An easy and accessible way to get e. It uses the e^n, where we here take n as 1, which returns e. 
+
+```Python
+import math
+math.exp( 1 )
+```
