@@ -28,4 +28,4 @@ The `<ul>` can be nested inside other lists and is compatible with others tag su
 </html>
 ```
 ## Other Resources
-- The ordered list `<ol>`
+- [The ordered list `<ol>`](https://github.com/freeCodeCamp/guides/blob/master/src/pages/html/elements/ol-tag/index.md)
