@@ -141,6 +141,31 @@ There's actually a bit more to it, but this is the part that does all the work.
 
 These two lines of code tell the compiler that the word 'false' should be replaced with '0', and the word 'true' should be replaced by '1'. `stdbool.h` also has some documentation and compiler instructions that will be discussed later, but those two lines are all there really is to it.
 
+## Nested if-else
+The if-else statement allows a choice to be made between two possible alternatives. Sometimes a choice must be made between more than two possibilities. For example the sign function in mathematics returns -1 if the argument is less than zero, returns +1 if the argument is greater than zero and returns zero if the argument is zero. The following C++ statement implements this function:
+
+```C
+if (x < 0)
+   sign = -1;
+else
+   if (x == 0)
+      sign = 0;
+   else
+      sign = 1;
+```
+This is an if-else statement in which the statement following the else is itself an if-else statement. If x is less than zero then sign is set to -1, however if it is not less than zero the statement following the else is executed. In that case if x is equal to zero then sign is set to zero and otherwise it is set to 1.
+Novice programmers often use a sequence of if statements rather than use a nested if-else statement. That is they write the above in the logically equivalent form:
+
+```C
+if (x < 0)
+   sign = -1;
+if (x == 0)
+   sign = 0;
+if (x > 0)
+   sign = 1;
+```
+This version is not recommended since it does not make it clear that only one of the assignment statements will be executed for a given value of x. Also it is inefficient since all three conditions are always tested.
+
 # Before you go on...
 ## A review
 * 'if' statements check if something is true, and if they are, they run the code within the curly brackets.
