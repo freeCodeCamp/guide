@@ -16,3 +16,5 @@ These are some of them:
 [Adobe Photoshop](http://adobe.com/Photoshop)
 
 [Sketch](https://www.sketchapp.com)
+
+[Coolors](http://coolors.co)
