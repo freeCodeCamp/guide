@@ -4,7 +4,13 @@ title: Colors
 
 ## Colors
 
+CSS Colors is a CSS module that deals with colors, color types, color blending, and opacity. Not all CSS properties that take a <color> as a value are part of this module, but they do depend upon it.
+Colors are specified using predefined color names, or RGB, HEX, HSL, RGBA, HSLA values.
+
+HTML supports 140 standard [color names](https://www.w3schools.com/colors/colors_names.asp).
+
 In CSS, you can change the color of almost any element in your HTML page. Properties like `background-color`, `color`, and `border-color` set the color of those elements.
+
 
 ```
 <html>

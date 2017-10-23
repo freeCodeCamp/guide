@@ -6,6 +6,7 @@ title: C++
 ## What is C++  ?
 
 * C++ is a general purpose programming language which has been used since the 1990's
+* It was designed by Bjarne Stroustrup under with the name "C with classes".
 * It is widely based on the programming language C and thus got it's name.
 * It is actually an Object Oriented version of C and adds more stuff for programmers.
 
@@ -72,15 +73,15 @@ cout<<"Hello World"<<endl;
 
 **NOTE : Every command except the main funcction command and the include command needs to be ended by the semicolon. Without a ";" , you may encounter an error**
 
-* `return 0;` safely terminates the program. 
-* Dont forget to tell the computer that this is the last line it needs to execute. To do this , you add the closing curly brace "}" . You may encounter an error before program execution if you do not finish your program with **}** .
+* `return 0;` safely terminates the current function i.e. 'main()' in this case and since no function follows after 'main()' the program is terminated. 
+* Don't forget to tell the computer that this is the last line it needs to execute. To do this , you add the closing curly brace "}" . You may encounter an error before program execution if you do not finish your program with **}** .
 
 ### The code should look something like this (additional pointers given ):
 
 ![Img](https://i.imgur.com/d1liGwI.png)
 
 Programmers use a Hello World program (like this one) as a ritual on using a new programming language. It is a symbol of good luck.  
-_You have finished coding your first C++ program and have mostly understood the code you have written/typed. CONGRATULATIONS!_
+_You have finished coding your first C++ program and have understood most of the code you have written/typed. CONGRATULATIONS!_
  
  **Good Luck to all of you** 
  

@@ -3,21 +3,19 @@ title: Em Tag
 ---
 ## Em Tag
 
-The `<em>` tag renders as emphasized text.
+The `<em>` tag is used to emphasize text in an HTML document. This can be done by wrapping the text you would like to be emphasized in an `<em>` tag. Most browsers will render text wrapped in an `<em>` tag as italicized.
 
-By default, most browsers will display the `<em>` tag in italic type.
-
-### Usage
-
-```html
-<p>
-  <em>em</em> tag is usefull to render <em>emphasized</em> element.
-</p>
-```
-
-**Return**: *em* tag is usefull to render *emphasized* element.
+Note: The `<em>` tag should not be used to stylistically italicize text. The `<em>` tag is used to stress emphasis on text.
 
 #### More Information:
-[MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em)
+- [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em)
 
+### Example:
+```
+<body>
+  <p>
+    Text that requires emphasis should go <em>here</em>.
+  </p>
+</body>
+```
 
