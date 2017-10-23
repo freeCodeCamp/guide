@@ -2,12 +2,40 @@
 title: Li Tag
 ---
 ## Li Tag
+The <li> tage defines a list item.  The tag can be used with ordered lists <ol>, unordered lists <ul>, and menu lists <menu>.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/li-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Ordered List Example:
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+<h1>My Cats</h1>
+<ol>
+  <li>Amy</li>
+  <li>Daisy</li>
+  <li>Jasmine</li>
+</ol>
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+<li> tags can be placed inside another <li> tag to create nested lists:
+ 
+ <h1>My Cats' Favorite Things:</h1>
+ <ul> 
+  <li>Amy
+    <ol>
+      <li>Eating</li>
+      <li>Sleeping</li>
+    </ol>
+  </li>
+  <li>Daisy
+     <ol>
+      <li>Playing</li>
+      <li>Playing More</li>
+    </ol>
+  </li>
+  <li>Jasmine
+    <ol>
+      <li>Playing</li>
+      <li>Eating</li>
+    </ol>
+</li>
+ </ul>
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
