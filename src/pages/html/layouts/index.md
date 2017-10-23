@@ -1,5 +1,5 @@
 ---
-title: Layouts
+HTML Layouts
 ---
 ## Layouts
 
