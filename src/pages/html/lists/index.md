@@ -6,7 +6,7 @@ Lists are used to display items. There are 3 types of lists.
 
 #### Unordered and ordered lists
 Ordered lists are another word for numbered lists. You create an ordered list using the `<ol>` tag.
-Ordered lists are another word for bulleted lists. You create an unordered list using the `<ul>` tag.
+Unordered lists are another word for bulleted lists. You create an unordered list using the `<ul>` tag.
 
 Within the `<ol>` or `<ul>` tags, you need to put the items in the list. You add them using a `<li>` tag. Here is an example of an unordered list with items:
 ```HTML
