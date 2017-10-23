@@ -1,3 +1,7 @@
+---
+title: Linear Gradient
+---
+
 ## Linear Gradient
 
 The CSS `linear-gradient()` function generates an image containing a gradient. It requires a direction and two or more color stops.
