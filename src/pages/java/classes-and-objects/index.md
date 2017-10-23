@@ -49,3 +49,10 @@ System.out.println("Full Car Name = " + modelS.getManufacturerName() + " " + mod
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CJZP/0' target='_blank' rel='nofollow'>Run Code</a>
 
 So, `Car` is a class, which has the fields or properties name and manufacturerName. `modelS` is an object of `Car` class. So `modelS` also has the same properties and methods.
+
+
+### More Information: 
+- <a href='https://www.youtube.com/watch?v=slY5Ag7IjM0&list=PLFE2CE09D83EE3E28&index=59' target='_blank' rel='nofollow'>thenewboston English</a>
+- <a href='https://www.youtube.com/watch?v=15XJx44z2cw&index=11&list=PLrW6ND2wzt4qcsqTEXcvuPP-hASzIoy7y' target='_blank' rel='nofollow'>Code Masry Arabic </a>
+
+
