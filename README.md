@@ -1,3 +1,4 @@
+Start of the document.
 ![](https://s3.amazonaws.com/freecodecamp/wide-social-banner.png)
 
 # freeCodeCamp Guide
