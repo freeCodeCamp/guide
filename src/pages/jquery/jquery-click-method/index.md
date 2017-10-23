@@ -4,7 +4,7 @@ title: Click Method
 
 ## Click Method
 
-Binds the click event to an element or triggers the event on an element. It's most used form is :
+Binds the click event to an element or triggers the event on an element. It's most used form is:
 ```javascript
 jQueryElement.click(handler)
 ```
