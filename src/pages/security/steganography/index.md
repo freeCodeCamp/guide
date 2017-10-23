@@ -12,6 +12,6 @@ Flipping a few bits​ doesn’t change​ the​ file to​ the​ human​ eye
 ![image with and without hidden message](http://blog.fastforwardlabs.com/images/2017/06/stego_images.jpg)
 
 #### More Information:
-[Fingerprinting documents with steganography](http://blog.fastforwardlabs.com/2017/06/23/fingerprinting-documents-with-steganography.html)
-[Steghide software website](http://steghide.sourceforge.net/)
+[Fingerprinting documents with steganography](http://blog.fastforwardlabs.com/2017/06/23/fingerprinting-documents-with-steganography.html)  
+[Steghide software website](http://steghide.sourceforge.net/)  
 [Crash course: Digital steganography](https://www.itworld.com/article/2826840/crash-course-digital-steganography.html)
