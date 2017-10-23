@@ -3,7 +3,7 @@ title: React
 ---
 ## React
 
-React is a JavaScript library for building user interfaces.
+React is a JavaScript library for building user interfaces and created by Facebook.
 
 It's declarative: React uses a declarative paradigm that makes it easier to reason about your application. It's efficient: React computes the minimal set of changes necessary to keep your DOM up-to-date. And it's flexible: React works with the libraries and frameworks that you already know.
 
