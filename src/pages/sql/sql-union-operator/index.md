@@ -56,6 +56,24 @@ Output
 7 rows in set (0.00 sec)
 ```
 
+##SQL UNION ALL Operator
+
+The UNION ALL operator is an extension to UNION operator where it should result you a A+B of rows in the ouptput assuming A and B is your input, in simple terms UNION ALL doesn't deduplicate.
+
+
+### Basic Syntax
+
+SQL Statement
+```sql
+SELECT expression1, expression2, ... expression_n
+FROM tables
+[WHERE conditions]
+UNION ALL
+SELECT expression1, expression2, ... expression_n
+FROM tables
+[WHERE conditions];
+```
+
 As with all of these SQL things there is MUCH MORE to them than what's in this introductory guide.  
 
 I hope this at least gives you enough to get started.  
