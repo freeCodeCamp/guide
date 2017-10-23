@@ -3,13 +3,19 @@ title: Clear Property
 ---
 ## Clear Property
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/properties/clear-property/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `clear` property specifies whether an element can be next to floating elements that precede it or must be moved down below them.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The property values for `clear` are none, left, right, both, initial, and inherit.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+This property is used after the `float` property is used to "clear" out the `float`.
+```css
+  clear: none;
+  clear: left;
+  clear: right;
+  clear: both;
+  clear: initial;
+  clear: inherit;
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+MDN Documentation: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/clear" target='_blank' rel='nofollow'>MDN</a>
