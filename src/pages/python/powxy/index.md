@@ -1,7 +1,7 @@
 ---
 title: Python Powxy
 ---
-`pow(x, y<a href='https://processing.org/reference/modulo.html' target='_blank' rel='nofollow'>, z])` is a built-in function in Python 3 to calculate `x` to the power `y` and if `z` is present , returns `x` to the power `y` [modulo</a> `z`
+`pow(x, y)` is a built-in function in Python 3 to calculate `x` to the power `y` and if `z` is present , returns `x` to the power `y` [modulo</a> `z`
 
 ## Arguments
 
