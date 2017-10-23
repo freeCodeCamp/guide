@@ -27,11 +27,14 @@ Code example:
     <input type="submit" value="Submit">
 </form>
 ```
+You can [click here](https://www.xul.fr/javascript/form-objects.php) for a more complete list of input types.
 
 Other elements that form can contain:
 
 - ```textarea``` - is a multiline box which is most often used for adding some text eg. comment. Size of textarea is defined by number of rows and columns.
 - ```select``` - together with ```<option></option>``` tag creates drop-down select menu.
+- ```button``` - makes a clickable button that submits the form.
+- ```fieldset``` - groups containing form elements.
 
 
 SOME MORE INFORMATION ON HTML FORMS.
