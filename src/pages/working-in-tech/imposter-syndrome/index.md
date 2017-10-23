@@ -15,6 +15,7 @@ These thoughts are fairly common if you suffer from imposter syndrome:
 * "I have no idea how I got through the interview process" (feels only luck dictates results)
 * "People are going to realise that I am not as smart as I potrayed in the interview and I will be ridiculed and fired for this" (fears failure)
 * "My IQ is not high enough to work here"
+* "I need more training to feel like I deserve to be here"
 
 Some resources to help you know more about Imposter Syndrome and some tips to tackle it:
 
