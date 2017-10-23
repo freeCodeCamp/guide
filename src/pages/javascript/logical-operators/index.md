@@ -16,11 +16,11 @@ false && false //returns false
 
 The OR operator compares two expressions and returns true only either expression is true.  Both expressions can be true, but only one is needed to get a 'true' result.  
 ```js
-true && true //returns true
-true && false //returns true
-false && false //returns false
+true || true //returns true
+true || false //returns true
+false || false //returns false
 ```
 
 #### More information:
 
-[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators).
+[MDN](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Logical_Operators).
