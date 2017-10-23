@@ -3,13 +3,28 @@ title: Clear Property
 ---
 ## Clear Property
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/properties/clear-property/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+You can use the `clear` property to push down an element, preventing it from appearing next to the precedent floated element.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The `clear` property can have the following values:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```
+clear: none;
+clear: left;
+clear: right;
+clear: both;
+clear: inline-start;
+clear: inline-end;
+```
+
+### Example:
+
+![Clear Property Image](https://image.ibb.co/defebR/clear.png "Clear Property")
+
+In the example above, the yellow `div` has the property `float:left`, and could fit under the coral `div`. However, as the yellow `div` has also the property `clear: both`, it moves down below the floated elements.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+* https://css-tricks.com/almanac/properties/c/clear/
+* https://www.w3schools.com/cssref/pr_class_clear.asp
+* https://developer.mozilla.org/en-US/docs/Web/CSS/clear
 
 
