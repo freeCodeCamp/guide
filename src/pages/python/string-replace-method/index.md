@@ -34,5 +34,5 @@ ThWAS WAS nice. This is good.
 ```
 
 #### More Information:
-Read more about string replacement in the [Python docs](https://docs.python.org/2/library/string.html#string.replace)
+Read more about string replacement in the <a href='https://docs.python.org/2/library/string.html#string.replace' target='_blank' rel='nofollow'>Python docs</a>
 
