@@ -19,9 +19,7 @@ A consistent coding style makes code more readable. Decide whether you will or w
 
 <aside class="onebox whitelistedgeneric">
 
-<header class="source">[blog.izs.me</a></header>
-
-<article class="onebox-body">![](http://assets.tumblr.com/images/og/fb_landscape_share.png)
+<article class="onebox-body">
 
 ### <a href='http://blog.izs.me/post/2353458699/an-open-letter-to-javascript-leaders-regarding' target='_blank' rel='nofollow'>An Open Letter to JavaScript Leaders Regarding Semicolons</a>
 
