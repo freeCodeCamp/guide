@@ -33,5 +33,7 @@ Start by pressing `escape` to check if you're in normal mode, press colon `:`, t
 ## Other Resources
 - [Vim Golf](https://vimgolf.com/) - A good way to learn from doing vim challenges to get the lowest amount of keystrokes. You can see solutions submitted by others if you can't figure the challenge out.
 
+-[Vim Adventures](https://vim-adventures.com/) - An online gamed crudely based off of "The Legend Of Zelda" meant to teach the very basics of Vim, by giving you one command at a time and not allowing you to continue until you have passed the "level". The further that you get into the game, the more commands that you learn.
+
 
 Read the rest of our Vim Guides to get a better understanding of this powerful editor.
