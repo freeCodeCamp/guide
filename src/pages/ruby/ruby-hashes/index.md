@@ -5,7 +5,7 @@ title: Ruby Hashes
 A hash is an object that contains a set of unique keys with their values.
 
 ### Creating a hash
-A Ruby hash is represented by curly braces
+Curly braces represent a Ruby hash
 ```ruby
 inside_the_fridge = {
   "Apples" =>  5,
@@ -16,13 +16,13 @@ inside_the_fridge = {
 In the example above, the fruits are the 'key' of the hash, and how many fruits are inside the fridge is the 'value' of the hash.
 
 ### Accessing a hash
-To get values from a hash, use square brackets with the key 
+To get values from a hash, use square selector brackets [ ] with the key 
 ```ruby
 whats_inside_my_fridge["Apples"] #  => 5
 ```
 
 ### Adding and changing keys to an existing hash
-Adding a key to the hash can be done as follows
+To add a key to a hash use the square selector brackets [ ] along with the assignment operator = as follows
 ```ruby
 my_hash = {}
 my_hash["my_key"] = "my_value"
