@@ -15,7 +15,7 @@ Java supports the following operations on variables:
 
 While most of the operations are self-explanatory, the Conditional (Ternary) Operator works as follows:
 
-`expression that results in boolean output ? return this value if true : return this value if false`
+`expression that results in boolean output ? return this value if true : return this value if false;`
 
 For e.g:
 ```java
