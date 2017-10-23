@@ -48,6 +48,48 @@ The most common application of a pointer is in an array. Arrays, which you'll re
 ### Functions
 Sometimes you want to adjust a variable in a function, but if you pass it to an array, it has its own copy to work with. If instead you pass that memory location, however, you can access it from outside of its normal scope. This is because you are touching the original memory location itself, allowing you to adjust something in a function and having it make changes elsewhere.
 
+### POINTERS AS PARAMETERS TO FUNCTION
+when we pass any parameter to function we are making a copy of the parameter. let see with the example
+```C
+#include <stdio.h>
+
+void func(int);
+
+int main(void) {
+    int a = 11;
+    func(a);
+    printf("%d",a);// print 11
+    
+
+    return 0;
+}
+void func(int a){
+ a=5
+ printf("%d",a);//print 5
+}
+```
+In the example above we are changinging the value of integer a in function func, but we still geting 11 in the main function. This happens because in the function copy of integer a has passed as parameter, so in this function we have not access to the 'a' which is in main function.
+
+So how could you change the value of integer defined in main , by using another function? Here POINTERS comes in to role.
+when we supply pointer as a parameter , we have access to address of that parameter and we could to any thig with this parameter and result will be shown everywhere.
+Below is an example which does exactly the same thing we want...
+
+```C
+#include <stdio.h>
+void func(int *);
+
+int main(void) {
+    int a = 11;
+    func(&a);// passing address of integer a
+    printf("%d",a);// prints 5
+    return 0;
+}
+void func(int *a){
+ *a=5;
+ printf("%d",*a);//prints 5
+}
+```
+
 ### Tricks with Memory Locations
 Whenever it can be avoided, it's a good idea to keep your code easy to read and understand. In the best case scenario, your code will tell a story- it will have easy to read variable names and make sense if you read it out loud, and you'll use the occasional comment to clarify what a line of code does.
 
