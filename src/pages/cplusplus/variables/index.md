@@ -39,7 +39,7 @@ All the variables have their area of functioning, and out of that boundary they 
 
 #### Global variables
 
-Global variables are those, which ar once declared and can be used throughout the lifetime of the program by any class or any function. They must be declared outside the main() function. If only declared, they can be assigned different values at different time in program lifetime. But even if they are declared and initialized at the same time outside the main() function, then also they can be assigned any value at any point in the program.
+Global variables are those, which are once declared and can be used throughout the lifetime of the program by any class or any function. They must be declared outside the main() function. If only declared, they can be assigned different values at different time in program lifetime. But even if they are declared and initialized at the same time outside the main() function, then also they can be assigned any value at any point in the program.
 
 Example : Only declared, not initialized.
 
@@ -74,3 +74,6 @@ int main()
  cout << n;      // Compile time error, n not available here
 }
 ```
+
+
+One coding advise is to always use local variables in a piece of code, because one should always want to make a that piece of code (eg. function..etc) independent and it should not depend on any global variables, as the lines of codes increases, debugging becomes more difficult if the functions are using global variables
