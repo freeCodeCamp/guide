@@ -40,3 +40,9 @@ tsc -init
 ```
 
 And a `tsconfig.json` file will be created. Now you can simply call `tsc` and it is going to build the entire folder.
+
+### Other Resources
+
+* <a href='http://www.typescriptlang.org/samples/index.html' target='_blank' rel='nofollow'>Quick Start</a>
+* <a href='http://www.typescriptlang.org/docs/home.html' target='_blank' rel='nofollow'>Documentation</a>
+* <a href='https://github.com/Microsoft/TypeScript' target='_blank' rel='nofollow'>Source Code</a>
