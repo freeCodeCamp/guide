@@ -86,6 +86,20 @@ array.reverse
 => [4, 3, 2, 1, 0]
 ```
 
+#### .each
+The .each method iterates over each element of the array, allowing you to perform actions on them.
+```
+array.each do |element|
+  puts element
+end
+=> 
+0
+1
+2
+3
+4
+```
+
 ## More Information/ Official Documentation:
 
 There are plenty more array methods, you can read more about them <a href='https://ruby-doc.org/core-2.4.2/Array.html' target='_blank' rel='nofollow'>here</a>
