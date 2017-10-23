@@ -36,6 +36,16 @@ You see, the creators of the JVM are pretty smart. They figured that Strings dif
 
 However, whenever you use the `new` keyword, it no longer performs this check. So, there could be a 1000s of String objects with the same content and yet, it'll go ahead and create a new String - using up additional memory. This is precisely why it's a good practice to use `String literals` instead of using the `new` keyword as much as possible.
 
+You can concatenate two Strings by using the `+` operator or by using the method concat():
+
+```java
+String str = null;
+String str2 = "This is a string";
+
+System.out.println(str + str2); // This prints "nullThis is a string" because a null reference is converted to string "null"
+System.out.println(str.concat(str2)); // This throws a NullPointerException of course because str is null
+``` 
+
 Extras
 1. String methods use zero-based indexes, except for the second argument of substring().
 2. The String class is final- it's methods can't be overridden.
