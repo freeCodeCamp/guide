@@ -26,5 +26,5 @@ Some companies also have a physical office where you can go to work if you'd lik
 ### More Information:
 
 Quincy Larson on The Economics of Working Remotely: [Medium](https://medium.freecodecamp.org/the-economics-of-working-remotely-28d4173e16e2)
-
+Are Remote Workers More Productive Than In-Office Workers? [Forbes](https://www.forbes.com/sites/larryalton/2017/03/07/are-remote-workers-more-productive-than-in-office-workers/#3fbf77c31f67)
 
