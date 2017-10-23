@@ -2,14 +2,9 @@
 title: Packets
 ---
 ## Packets
+A packet is a formatted piece of data carried by a network. When a device sends data to another device, it breaks the data into chunks (the payload) and adds some header information. The header assists with things like routing and error checking.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/network-engineering/packets/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+ Packet switched networks are generally more efficient compared to circuit switched networks. Circuit switched network needs to reserve resources for the duration of communication. Packet switched networks can send packets on demand.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
+  In the OSI model, packets correspond to layer 3, the Network Layer. 
 
