@@ -3,13 +3,18 @@ title: Array.prototype.findIndex
 ---
 ## Array.prototype.findIndex
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/standard-objects/array/array-prototype-findindex/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+findIndex() returns the index of the first element of an array that passes the provided testing function.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+#### Example
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```javascript
+    function isBigEnough(element) {
+      return element >= 15;
+    }
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+    [12, 5, 8, 130, 44].findIndex(isBigEnough); 
+    // index of 4th element in the Array is returned,
+    // so this will result in '3'
+```
 
-
+Source: [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex)
