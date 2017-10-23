@@ -16,6 +16,19 @@ Because we know that names in the phonebook are sorted alphabetically, we could 
 
 Time complexity: As we dispose off one part of the search case during every step of binary search, and perform the search operation on the other half, this results in a worst case time complexity of </b><i>O</i>(<i>log<sub>2</sub>N</i>)<b>.
 
+In detail, how many times can you divide N by 2 until you have 1? This is essentially saying, do a binary search (half the elements) until you found it. In a formula this would be this:
+
+1 = N / 2x
+multiply by 2x:
+
+2x = N
+now do the log2:
+
+log2(2x)    = log2 N
+x * log2(2) = log2 N
+x * 1         = log2 N
+this means you can divide log N times until you have everything divided. Which means you have to divide log N ("do the binary search step") until you found your element.
+
 This is the binary search algorithm. It is elegant and efficient but for it to work correctly, the array must be **sorted**.
 
 <hr>
