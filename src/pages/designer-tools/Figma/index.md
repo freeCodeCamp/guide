@@ -29,3 +29,5 @@ Figma vs Sketch: The Showdown - <a href='https://www.smashingmagazine.com/2017/0
 Another smackdown, Figma vs Sketch - <a href='https://medium.com/@mengto/figma-vs-sketch-c01e5e74eddd' target='_blank' rel='nofollow'>Medium</a>
 
 Need some tutorials? Check out the official video series by Figma: <a href='https://www.youtube.com/channel/UCQsVmhSa4X-G3lHlUtejzLA' target='_blank' rel='nofollow'>Youtube</a>
+
+Go check it out :)
