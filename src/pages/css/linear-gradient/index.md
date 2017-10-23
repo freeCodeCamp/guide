@@ -1,15 +1,55 @@
----
-title: Linear Gradient
----
 ## Linear Gradient
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/linear-gradient/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The CSS `linear-gradient()` function generates an image containing a gradient. It requires a direction and two or more color stops.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+```CSS
+background-image: linear-gradient(90deg, red 0%, blue 100%);
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+#### Direction:
+The first property you provide is the direction. This can be a set of keywords or a value in degrees.
+
+##### Across
+```CSS
+background-image: linear-gradient(to top, red, blue);
+```
+![0deg red to blue gradient](https://raw.githubusercontent.com/andrewehipp/freeCodeCampAssets/master/0deg-red-blue.jpg)
+
+##### Diagonal
+```CSS
+background-image: linear-gradient(to right top, red, blue);
+```
+
+![45deg red to blue gradient](https://raw.githubusercontent.com/andrewehipp/freeCodeCampAssets/master/45deg-red-blue.jpg)
+
+##### Degrees
+```CSS
+background-image: linear-gradient(90deg, red, blue);
+```
+
+![90deg red to blue gradient](https://raw.githubusercontent.com/andrewehipp/freeCodeCampAssets/master/90deg-red-blue.jpg)
+
+
+#### Color Stops:
+
+You provide a linear gradient as many color stops as needed. You can use `%` values to control the position of the colors on the gradient.
+
+```CSS
+background-image: linear-gradient(90deg, blue, red, yellow);
+// The same gradient written with percentages.
+background-image: linear-gradient(90deg, blue 0%, red 50%, yellow 100%);
+```
+
+![90deg blue 30% to red 80% to yellow 100%](https://raw.githubusercontent.com/andrewehipp/freeCodeCampAssets/master/90deg-blue-red-yellow.jpg)
+
+Using color stops you can place the colors along the gradient.
+
+```CSS
+background-image: linear-gradient(90deg, blue 30%, red 80%, yellow 100%);
+```
+
+![90deg blue 30% to red 80% to yellow 100%](https://raw.githubusercontent.com/andrewehipp/freeCodeCampAssets/master/90deg-blue30-red80-yellow100.jpg)
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+* [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Images/Using_CSS_gradients)
+* (CSS gradient generator)[http://www.colorzilla.com/gradient-editor/]
