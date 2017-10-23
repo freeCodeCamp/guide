@@ -86,6 +86,15 @@ array.reverse
 => [4, 3, 2, 1, 0]
 ```
 
+#### .flatten
+The flatten method can be used to take an array that contains nested arrays and create a one-dimensional array:
+
+```
+array = [1, 2, [3, 4, 5], [6, 7]]
+array.flatten
+=> [1, 2, 3, 4, 5, 6, 7]
+```
+
 ## More Information/ Official Documentation:
 
 There are plenty more array methods, you can read more about them <a href='https://ruby-doc.org/core-2.4.2/Array.html' target='_blank' rel='nofollow'>here</a>
