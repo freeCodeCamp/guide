@@ -3,13 +3,12 @@ title: Tautologies
 ---
 ## Tautologies
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/logic/tautologies/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+**Tautology** is a formula that is true in every possible interpretation. It is formula in propositional calculus which is always true.
+The opposite of a tautology is a **contradiction**, a formula which is "always false".
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
+[Tautology definition](https://en.wikipedia.org/wiki/Tautology_(logic))
 
+[Tautology example](http://sites.millersville.edu/bikenaga/math-proof/truth-tables/truth-tables.html)
