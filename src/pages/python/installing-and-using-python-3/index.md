@@ -1,12 +1,16 @@
 ---
 title: Installing and Using Python 3
 ---
+
+## Installing Python 3
 You can download Python from this official <a href='https://www.python.org/downloads/' target='_blank' rel='nofollow'>link</a>. Based on your OS (Windows or Linux or OSX), you might want to install Python 3 following <a href='http://docs.python-guide.org/en/latest/starting/installation/' target='_blank' rel='nofollow'>these instructions</a>.
 
+## Using Virtual Environments
 It is always a great idea to <a href='https://en.wikipedia.org/wiki/Sandbox_(computer_security)' target='_blank' rel='nofollow'>sandbox</a> your Python installation; and keeping it separate from your _System Python_. The _System Python_ is the path to Python interpreter, which is used by other modules installed along with your OS.
 
 It's **not safe** to install Python Web-frameworks or libraries directly using _System Python_. Instead, you can use <a href='https://virtualenv.readthedocs.org/en/latest/' target='_blank' rel='nofollow'>Virtualenv</a> to create and spawn a separate Python process when you are developing Python applications.
 
+### Virtualenvwrapper
 The <a href='https://virtualenvwrapper.readthedocs.org/en/latest/' target='_blank' rel='nofollow'>Virtualenvwrapper module</a> makes it easy for you to manage and sandbox multiple Python sandboxed environments in one machine; without corrupting any modules or services written in Python and used by your machine.
 
 Of course, most cloud hosted development environment such as <a href='https://www.nitrous.io/' target='_blank' rel='nofollow'>Nitrous</a> or <a href='https://c9.io/' target='_blank' rel='nofollow'>Cloud9</a> also comes with these pre-installed and ready for you to get coding! You can quickly pick a box from your dashboard, and start coding after activating a Python 3 environment.
@@ -54,3 +58,10 @@ To get out of a virtual environment; or to deactivate one - use the command
     $ deactivate
 
 Again, this works only with virtualenvwrapper module.
+
+### Pipenv
+
+An alternative to using virtualenvwrapper is [Pipenv](https://docs.pipenv.org/). It automatically creates virtual environments for your projects, and maintains a `Pipfile` which contains the dependencies. Using Pipenv means you no longer need to use pip and virtualenv separately, or manage your own `requirements.txt` file. For those familiar with JavaScript, Pipenv is similar to using a packaging tool like `npm`.
+
+To get started with Pipenv, you can follow this very detailed [guide](https://docs.pipenv.org/install.html#installing-pipenv). Pipenv makes it easy to [specify which version of Python](https://docs.pipenv.org/basics.html#specifying-versions-of-python) you wish to use for each project, [import](https://docs.pipenv.org/basics.html#importing-from-requirements-txt) from an existing `requirements.txt` file and [graph](https://docs.pipenv.org/#pipenv-graph) your dependencies.
+
