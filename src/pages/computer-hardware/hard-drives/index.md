@@ -6,7 +6,8 @@ title: Hard Drives
 
 Hard drives are spinning magnetic disks that serve as long-term storage for computer data.
 
-Hard drives come in various sizes, some up to even 10TB (10 trillion bytes). Typical computers come with between 256GB (256 million bytes) to 1TB. Laptops usually use Solid State Drives (SSDs) because they are faster, lighter, and contain no moving parts, making them less likely to fail due to impact. For the same amount of storage, SSDs are generally more expensive than hard drives. 
+
+Hard drives come in various sizes, some up to even 10TB (10 trillion bytes). Typical computers come with 256GB (256 million bytes) to 1TB of storage space. Laptops usually use Solid State Drives (SSDs) because they are faster, lighter, and contain no moving parts, making them less likely to fail due to impact. For the same amount of storage, SSDs are generally more expensive than hard drives. 
 
 Magnetic heads are responsible for reading and writing data, which is physically stored on a set of magnetically coated discs stacked above one another referred to as a platter.  The heads are located at the end of an armature.  Interior discs that of the platter have two heads on a single arm.  This allows data to be accessed from both the disc beneath and above the arm.  The top and bottom discs of the platter only have one head at the end of an arm. On the opposite end of the end on the arm is an actuator.  It provides the movement of the arm to travel from the center of the platter called the spindle to the outermost regions of the platter.  The amount of time it takes to place the head in the correct concentric location is referred to as the seek time.  Once the head is in the correct concentric spatial location more time is spent waiting for the disc to rotate such that the sector with the requested data is beneath the head.  This amount of time is referred to as latency.   
 
