@@ -18,7 +18,7 @@ Showing a alert on click of a button:
 ```javascript
 $("#alert").click(function(){
   alert("Hi! I'm an alert");
-})
+});
 ```
 [jsFiddle](https://jsfiddle.net/pL63cL6m/)
 
@@ -57,13 +57,33 @@ Using the above example and adding `.click()`
 ```javascript
 $("#alert").click(function(){
   alert("Hi! I'm an alert");
-})
+});
 
 $("#alert").click();
 ```
 Now even without click the button the click event will be triggered always when we enter or reload the page
 
 [jsFiddle](https://jsfiddle.net/gspk6gxt/)
+
+#### Common Mistakes
+
+The click event is only bound to elements currently on the DOM at the time of binding, so any elements added afterwards will not be bound. To bind all elements on the DOM, even if they will be created at a later time, use the `.on()` method.
+
+For example, this click method example:
+
+```javascript
+$( "element" ).click(function() {
+  alert("I've been clicked!");
+});
+```
+
+Can be changed to this on method example:
+
+```javascript
+$( document ).on("click", "element", function() {
+  alert("I've been clicked!");
+});
+```
 
 #### More Information:
 
