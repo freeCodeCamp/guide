@@ -103,7 +103,7 @@ private List<Employee> GetEmployees(string firstName)
 }
 ```
 
-Finally, here is the same code again, but writen in "method" syntax this time. Most of the time, you can execute the same query in either query or method syntax, but which one you'll end up using is often a matter of personal preference.
+Finally, here is the same code again, but written in "method" syntax this time. Most of the time, you can execute the same query in either query or method syntax, but which one you'll end up using is often a matter of personal preference.
 
 ```csharp
 private List<Employee> GetEmployees(string firstName)
@@ -111,6 +111,8 @@ private List<Employee> GetEmployees(string firstName)
     return db.Employees.Where(emp => emp.FirstName == firstName).ToList();
 }
 ```
+
+LINQ is available for the .NET Framework - not just the C# language - so you can find documentation online for other languages like VB.NET and F# too.
 
 #### More Information:
 * [Getting Started with LINQ in C#](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/getting-started-with-linq)
