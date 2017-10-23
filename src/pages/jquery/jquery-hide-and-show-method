@@ -1,0 +1,18 @@
+# jQuery Hide Method
+The jQuery ```.hide()``` method is pretty simple.
+To hide an element, use this syntax: 
+```$(selector).hide(speed, callback);```
+Both the speed and callback parameters are optional. 
+The speed parameter specifices the speed of the hiding. It can take the values "slow", "fast", or a number of miliseconds.
+The callback parameter is a function to be executed after the ```.hide()``` method completes.
+
+# jQuery Show Method
+The jQuery ```.show()``` method is also very simple.
+To show a hidden element you would just do this:
+```$(selector).show(speed, callback);```
+Again, the speed and callback methods are optional. They do the same thing they did for the hide method. 
+
+## More Information
+You can find more information [here].
+
+[here]: https://www.w3schools.com/jquery/jquery_hide_show.asp
