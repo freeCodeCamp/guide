@@ -3,36 +3,39 @@ title: For Loop
 ---
 # For Loop
 
-The `for` loop give you a compact way to iterate over a range of values.
-A basic for statement has three parts: declaration and/or initialization, boolean evaluation, and the iteration expression.
-
-```java
-for (initialize variable; condition; modify variable)
-{  
-    // perform action  
-}
-```
-
-* `initialization` - Initializes the loop and is executed just once, at the beginning.
-You can initialize more than one variable of the same type in the first part of the basic for loop declaration; each initialization must be separated by a comm
-* `expression` - Evaluated at the beginning of each iteration. If the `expression` evaluates to `true`, `Statements` will get executed.
-* `increment` - Invoked after each iteration through the loop. You can increase/decrease the value of variables here.
-
-```java
-int iter_For;
-for (iter_For = 0; iter_For < 10; iter_For++)
+for loop provides a concise way of writing the loop structure. Unlike a while loop, a for statement consumes the initialization, condition and increment/decrement in one line thereby providing a shorter, easy to debug structure of looping.
+Syntax:
+for (initialization condition; testing condition; 
+                              increment/decrement)
 {
-    System.out.print(iter_For + " ");
-    // Iterated 10 times, iter_For 0,1,2...9
+    statement(s)
 }
-System.out.println("iter_For Value: " + fooFor);
-```
+Flowchart:
+for-loop-in-java
 
+Initialization condition: Here, we initialize the variable in use. It marks the start of a for loop. An already declared variable can be used or a variable can be declared, local to loop only.
+Testing Condition: It is used for testing the exit condition for a loop. It must return a boolean value. It is also an Entry Control Loop as the condition is checked prior to the execution of the loop statements.
+Statement execution: Once the condition is evaluated to true, the statements in the loop body are executed.
+Increment/ Decrement: It is used for updating the variable for next iteration.
+Loop termination:When the condition becomes false, the loop terminates marking the end of its life cycle.
+// Java program to illustrate for loop.
+class forLoopDemo
+{
+    public static void main(String args[])
+    {
+        // for loop begins when x=2
+        // and runs till x <=4
+        for (int x = 2; x <= 4; x++)
+            System.out.println("Value of x:" + x);
+    }
+}
+Run on IDE
 Output:
-```
-0 1 2 3 4 5 6 7 8 9
-iter_For Value: 10
-```
+
+Value of x:2
+Value of x:3
+Value of x:4
+
 
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CJYr/0' target='_blank' rel='nofollow'>Run Code</a>
 Extras
