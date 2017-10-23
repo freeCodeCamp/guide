@@ -3,10 +3,9 @@ title: HTML5 Audio
 ---
 ## HTML5 Audio
 
-Before HTML5, audio files must be played in a browser with a plug-in (like flash). 
-The HTML <audio> element is used to embed sound content in documents. It may contain one or more audio sources, represented using the src attribute or the [source](<source>) element
+Before HTML5, audio files had to be played in a browser using a plug-in like Adobe Flash. With HTML5, the <audio> element can be used to embed sound content in documents instead. The tag may contain one or more audio sources, each of whic is represented using an `src` attribute or a [source](<source>) element.
   
-To embed audio file into web page, just add this code snippet and change the src of audio file.
+The following code snippet adds an audio file with the filename `tutorial.ogg` or `tutorial.mp3`. The <source> element indicates alternative audio files which the browser may choose from. The browser will utilize the first recognized format. 
 
 ```html
 <audio controls>
@@ -16,12 +15,9 @@ Your browser does not support the audio element.
 </audio>
 ```
 
-The controls attribute includes audio controls, similar to play, pause, and volume. 
+The `controls` attribute includes audio controls like play, pause, and volume. 
 
-The <source> element enables you to indicate alternative audio files which the browser may choose from. The browser will utilize the first recognize format. 
-The text between the <audio> and </audio> tags might be shown in browser that don't support the <audio> element.
-
-Since this is html5, some browser do not support it. You can check it at https://caniuse.com/#search=audio
+The text between the `<audio>` and `</audio>` tags may be shown in browser that does not support the HTML5 `<audio>` element. You can check browser compatibility at https://caniuse.com/#search=audio
 
 #### More Information:
 https://caniuse.com/#search=audio
