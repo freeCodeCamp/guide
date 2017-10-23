@@ -22,3 +22,5 @@ If no item satisfies the condition provided in the callback, the function will r
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
+
+[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find)
