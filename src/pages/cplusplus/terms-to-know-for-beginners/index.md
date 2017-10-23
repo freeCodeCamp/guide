@@ -123,6 +123,29 @@ This is because we did not add the inverted commas for the second print statemen
 `Hello Comment`
 
  As you may notice, the comments are ignored during program execution and do not show up on checking the output of the program.
+ 
+ 
+ #### Operators 
+ * Operators allow you to compare two or more expressions
+ * `==` equal to 
+* `!=`  not equal to 
+* `<` less than 
+* `>` greater than 
+* `<=` less than or equal to 
+* `>=` greater than or equal to 
+
+```cpp
+    (7==5); 
+```
+This evaluates to false 
+
+
+```cpp 
+    (7!=5); 
+```
+This evaluates to true
+
+ 
 
 <a href='https://repl.it/L4ox' target='_blank' rel='nofollow'>A summation of all the print statements used in this article. Feel free to tweak around woth the code ! :) </a>
 
