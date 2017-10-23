@@ -45,7 +45,7 @@ You can download and install the Bootstrap source files with Bower, Composer, Me
 
 `bower install bootstrap#v4.0.0-beta`
 
-_Note: These are only examples and may change without notice. Please refer to the <a href='https://getbootstrap.com/' target='_blank' rel='nofollow'>Bootstrap website</a> for the most up-to-date links._
+_Note: These are only examples and may change without notice. Please refer to the _<a href='https://getbootstrap.com/' target='_blank' rel='nofollow'>Bootstrap website</a>_ for the most up-to-date links._
 
 #### More Information:
 
