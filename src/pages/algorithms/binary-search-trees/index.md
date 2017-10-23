@@ -19,3 +19,23 @@ Binary search trees allow fast lookup, insert and removal of nodes. The way that
 ### Relevant videos on freeCodeCamp YouTube channel
 * <a href='https://youtu.be/5cU1ILGy6dM' target='_blank' rel='nofollow'>Binary Search Tree</a>
 * <a href='https://youtu.be/Aagf3RyK3Lw' target='_blank' rel='nofollow'>Binary Search Tree: Traversal and Height</a>
+
+Following are common types of Binary Trees:-
+Full Binary Tree/Strict Binary Tree: A Binary Tree is full or strict if every node has 0 or 2 children
+              18
+           /       \  
+         15         30  
+        /  \        /  \
+      40    50    100   40
+      
+ In Full Binary Tree, number of leaf nodes is equal to number of internal nodes plus one.
+ 
+ Complete Binary Tree: A Binary Tree is complete Binary Tree if all levels are completely filled except possibly the last level and the last level has all keys as left as possible
+ 
+               18
+           /       \  
+         15         30  
+        /  \        /  \
+      40    50    100   40
+     /  \   /
+    8   7  9 
