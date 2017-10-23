@@ -3,13 +3,25 @@ title: SQL Select into Statement
 ---
 ## SQL Select into Statement
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/sql/sql-select-into-statement/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+This statement is used to copy data from an existing table into a new table.
+for example, the following statement will create a new table (`newtable`) and fill it with data from an existing table (`oldtable`).
+```sql
+SELECT *
+INTO newtable
+FROM oldtable
+```
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+You can copy only certain rows by adding a `WHERE` clause:
+```sql
+SELECT * 
+INTO Managers
+FROM Employees
+WHERE Role = 'Manager'
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+Also, you can copy only certain columns by selecting them in the `SELECT` clause (instead of using `*`):
+```sql
+SELECT ProductName, ProductPrice
+INTO Prices
+FROM Catalog
+```
