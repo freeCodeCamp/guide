@@ -8,6 +8,8 @@ The basic objective of cryptography is to enable two people to communicate throu
 
 Cryptography started being used by the Romans in order to make messages in battle unreadable by the enemy if decyphered. 
 
+Cryptography prior to the modern age was effectively synonymous with encryption, the conversion of information from a readable state to apparent nonsense. 
+
 Modern cryptography is used in data so that only one party or only authorised partys have the ability to access the information. 
 
 Encryption over the years has become more advanced.
