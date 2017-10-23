@@ -1,0 +1,17 @@
+Hey Git Noobs. I wrote up some SUPER simple notes on how to get started on GitHub. Using the Mac terminal. 
+* the commands to put in to the terminal all start with git. 
+
+For a more full guide on GitHub: https://www.youtube.com/watch?v=0fKg7e37bQE
+
+If you want to make a new project: 
+
+Step 1) Create a new repository 
+Step 2) Attached a readme file along with the new project to be created automatically (which you can edit later).
+Step 3) Copy the repositroy link
+Step 4) git clone [repository link] (don't include the brackets) 
+Step 5) git add -A (this will add everything) 
+Step 6) git commit -m "message content" 
+Step 7) git push
+Step 8) git pull 
+
+Note: Escape is wg 
