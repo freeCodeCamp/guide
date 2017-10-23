@@ -86,6 +86,16 @@ array.reverse
 => [4, 3, 2, 1, 0]
 ```
 
+#### .join
+The .join method returns a string of all the elements of the array separated by a separator parameter. If the separator parameter is nil, the method uses an empty string as a separator between strings.
+
+```
+array.join
+=> "1234"
+array.join("*")
+=> "1*2*3*4"
+```
+
 ## More Information/ Official Documentation:
 
 There are plenty more array methods, you can read more about them <a href='https://ruby-doc.org/core-2.4.2/Array.html' target='_blank' rel='nofollow'>here</a>
