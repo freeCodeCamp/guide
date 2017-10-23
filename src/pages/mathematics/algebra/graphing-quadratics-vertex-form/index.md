@@ -19,7 +19,7 @@ When |a| < 1 the parabola is compressed vertically.
  
 <img src="https://github.com/codersc/freeCodeCamp-article-images/blob/master/art3img5.png?raw=true" alt="Wider version of a parabola (u-shaped graph)">
  
-When |a| > 1 the parabola becomes narrower.
+When |a| > 1 the parabola becomes compressed horizontally.
  
 <img src="https://github.com/codersc/freeCodeCamp-article-images/blob/master/art3img6.png?raw=true" alt="Narrower version of a parabola (u-shaped graph)">
 
