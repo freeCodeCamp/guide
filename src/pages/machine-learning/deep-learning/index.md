@@ -47,3 +47,4 @@ These days there are a variety of deep learning frameworks that allow you specif
 * <a href="https://github.com/freeCodeCamp/guides/blob/master/src/pages/machine-learning/neural-networks/index.md">FreeCodeCamp Guide to Neural Networks</a>
 * <a href="http://image-net.org/">Imagenet</a>
 * <a href="https://adeshpande3.github.io/adeshpande3.github.io/A-Beginner's-Guide-To-Understanding-Convolutional-Neural-Networks/">A Beginner's Guide To Understanding Convolutional Neural Networks</a>
+* [Deep Learning SIMPLIFIED - DeepLearning.TV](https://www.youtube.com/playlist?list=PLjJh1vlSEYgvGod9wWiydumYl8hOXixNu)
