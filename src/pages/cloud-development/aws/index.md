@@ -14,6 +14,7 @@ Some famous web services include
 * Codedeploy (Deployments)  
 etc..
 
+The services AWS offers aren't just limited to this. AWS is outnumbering all the services that could be provided on the Cloud ranging from Compute Capacities like EC2 to Hot topics like Artificial Intelligence.
 
 
 #### More Information:
