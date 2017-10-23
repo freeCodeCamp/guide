@@ -47,7 +47,20 @@ You can add text to the graphic with the `text` tag. The sample text is anchored
 
 When you want to apply the same attributes or CSS styles to multiple SVG elements you can group them with the `<g>` tag. Attributes assigned to the `<g>` tag, like the `stroke` attribute in the example, will be applied to all elements within the group. In this case three `<path />` elements.
 
-The `<path />` element defines a vector path in the viewport. The path is defined by the `d` attribute. In the first example the definition reads 'move to the absolute coordinate (10, 170) _and_ draw a line to the relative coodrinates 590 in the X direction and 0 in the Y direction.   
+The `<path />` element defines a vector path in the viewport. The path is defined by the `d` attribute. In the first example the definition reads 'move to the absolute coordinate (10, 170) _and_ draw a line to the relative coordinates 590 in the X direction and 0 in the Y direction.
+
+The following commands can be used to create your path:
+
+M = move to
+L = line to
+H = horizontal line to
+V = vertical line to
+Z = close path
+C = (cubic bezier) curve to
+S = smooth curve to
+Q = quadratic bezier curve to
+T = smooth quadratic bezier curve to
+A = arc
 
 ## Browser Support
 
