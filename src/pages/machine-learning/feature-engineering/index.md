@@ -5,7 +5,7 @@ title: Feature Engineering
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
-Machine Learning works best with well formed data. Feature engineering describes certain techniques to make sure we're working with the best possible representation of the data we collected. Following are two methods of feature engineering: scaling and selection.
+Machine Learning works best with well formed data. Feature engineering describes certain techniques to make sure we're working with the best possible representation of the data we collected. Following are two techniques of feature engineering: scaling and selection.
 
 ### Feature Scaling
 
