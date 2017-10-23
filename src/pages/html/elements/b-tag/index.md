@@ -3,13 +3,24 @@ title: B Tag
 ---
 ## B Tag
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/b-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The text inside `<b>` tag will be in **bold** style.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+#### Example:
+```HTML
+<!DOCTYPE html>
+<html>
+  ...
+  <b>I'm inside b tag</b>
+  I'm outside b tag
+  ...
+</html>
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+#### Result:
+<pre>
+<b>I'm inside b tag</b>
+I'm outside b tag
+</pre>
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+[W3Schools: HTML b Tag](https://www.w3schools.com/tags/tag_b.asp)
