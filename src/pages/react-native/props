@@ -1,0 +1,36 @@
+---
+title: React Native - Props 
+---
+
+## React Native - Props 
+
+When you create components, they can be customized with parameters. The creation of parameters are called props 
+
+```js 
+import React {Component} from 'react'; 
+import {AppRegistry, Image} from 'react-native'; 
+
+export default class CodeCamp extends Components { 
+  render () { 
+    let pic = { 
+    
+    }; 
+    return (
+        <Image source = {pic} style={{width: 193, height: 110}}/> 
+        ); 
+  }
+}
+
+AppRegistry.registerComponent('FreeCodeCampProject', () => CodeCamp); 
+```
+
+Props allows you to make a single component that can be used in various places in your app. To refer to them just use 
+
+```js 
+this.props
+```
+ in your 
+ ``js
+ render
+ ```
+ function. 
