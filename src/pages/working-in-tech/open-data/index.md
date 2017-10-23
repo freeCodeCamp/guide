@@ -15,6 +15,7 @@ Open data can help governments, businesses and individuals. It can improve servi
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 * <a href='https://en.wikipedia.org/wiki/Open_data' target='_blank' rel='nofollow'>Open Data Wikipedia page</a>
+* <a href='http://opendatahandbook.org/guide/en/what-is-open-data/' target='_blank' rel='nofollow'>Open Data Handbook page | Multi-language</a>
 
 
 
