@@ -160,6 +160,7 @@ On a small screen (such as a phone or tablet) the navbar is going to take up too
     <ul class="nav navbar-nav navbar-right">
       <li><a href="#navbar-inverse">Action Link #1</a></li>
       <li><a href="#navbar-inverse">Action Link #2</a></li>
+      <li><a href="#navbar-inverse">Action Link #3</a></li>
     </ul>
   </div>
 </nav>
