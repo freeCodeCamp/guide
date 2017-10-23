@@ -3,7 +3,7 @@ title: Arrays
 ---
 # Array
 
-An Array is used to store a collection of data of similar datatype. Arrays always start with the index of 0.
+An Array is used to store a collection of data of similar datatypes. Arrays always start with the index of 0 and are instantiated to a set number of indexes. All the variables in the array must be of the same type, declared at instantiation.
 
 **Syntax:**
 
@@ -69,7 +69,7 @@ Output:
 ```java
 arrayName[index] = value; 
 ```
-Note: You can not change the size or type of an array after initialising it.
+Note: You can not change the size or type of an array after initializing it.
 
 
 ## Code snippets of above syntax:
