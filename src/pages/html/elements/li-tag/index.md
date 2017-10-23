@@ -12,4 +12,5 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
+The '<li>' tag creates a "list item" nested within Ordered '<ol>' and Un-Ordered '<ul>' lists. The Li tag can be used to contain text, images, or other HTML elements.
 
