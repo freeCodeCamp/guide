@@ -86,6 +86,13 @@ Enter a number :  -1
 This step is always printed
 ```
   This is the output when the number entered is negative.
+  
+  
+If you want to create a short if statement with less no of codes then you can use the shorthand if
+```
+(condition statement) ? (code to execute if condition is true) : (code to execute if condition is false)
+```
+
 
 <a href='https://repl.it/Mg9X' target='_blank' rel='nofollow'>Try the code yourself ! :) </a>
 
