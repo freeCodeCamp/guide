@@ -1,9 +1,11 @@
 ---
+title: Date Now
+---
 ## Date Now
 
 The Date.now() method returns the number of milliseconds elapsed since 1 January 1970 00:00:00 UTC..
 
-### Syntax:
+### Syntax
 
 '''
 
@@ -11,7 +13,7 @@ The Date.now() method returns the number of milliseconds elapsed since 1 January
 
 '''
 
-### Example:
+### Example
 
 '''
 
