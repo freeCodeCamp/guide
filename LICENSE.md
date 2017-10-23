@@ -1,3 +1,4 @@
+This document is about the licensing information of the product.
 BSD 3-Clause License
 
 Copyright (c) 2017, freeCodeCamp.
