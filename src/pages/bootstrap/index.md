@@ -3,20 +3,20 @@ title: Bootstrap
 ---
 ## Bootstrap
 
-Bootstrap is a popular front-end framework for web development. It contains pre-built components and design elements that can easily be added to a web project to style typography, forms, buttons, etc. It is widely supported and useble on modern browsers like Chrome, Firefox, Opera, Safari, and Internet Explorer (supported from IE8 on).
+Bootstrap is a popular front-end framework for web development. It contains pre-built components and design elements that can easily be added to a web project to style typography, forms, buttons, etc. It is widely supported and usable on modern browsers like Chrome, Firefox, Opera, Safari, and Internet Explorer (supported from IE8 on).
 
-Bootstrap includes a responsive grid system for responsive layouts, and is great starting point for building a mobile-friendly website. It also includes optional JavaScript functionality like collapsible content, carousels, and modals.
+Bootstrap includes a responsive grid system for responsive layouts and is a great starting point for building a mobile-friendly website. It also includes optional JavaScript functionality like collapsible content, carousels, and modals.
 
 
 #### Version History
 
-Sometimes referred to as Twitter Bootstrap, the framework was originally developed by Twitter as an internal tool.  It was released as an open source project in August of 2011.
+Sometimes referred to as Twitter Bootstrap, the framework was originally developed by Twitter as an internal tool.  It was released as an open source project in August 2011.
 
-Bootstrap 2 was released in January 2012, and introducing the 12 column responsive grid system.
+Bootstrap 2 was released in January 2012 and introduced the 12 column responsive grid system.
 
 Bootstrap 3 appeared in August 2013, switching to a flat design and a mobile-first approach.
 
-Bootstrap 4 is available in beta as of August 2017, and now includes Sass and flexbox.
+Bootstrap 4 is available in beta as of August 2017 and now includes Sass and flexbox.
 
 
 #### Installation
@@ -25,7 +25,7 @@ There are two main ways to add Bootstrap to your web project. You can add Bootst
 
 `<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">`
 
-Adding the JavaScript elements of Bootstrap is similar, with `<script>` elements usually placed at the bottom of your ‘<body>’ tag.  You will need to include two dependencies first - jQuery and Popper - in this order:
+Adding the JavaScript elements of Bootstrap is similar, with `<script>` elements usually placed just before your closing `</body>` tag. You will need to include two dependencies first - jQuery and Popper - in this order:
 
 ```html
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -34,7 +34,7 @@ Adding the JavaScript elements of Bootstrap is similar, with `<script>` elements
 ```
 
 
-Or, alternatively, you can download all of Bootstraps source files including Sass, JavaScript, and the build system with Bower, Composer, Meteor, or npm. This allows greater control and the option to include or exclude modules as needed.
+Or, alternatively, you can download all of Bootstrap's source files including Sass, JavaScript, and the build system with Bower, Composer, Meteor, or npm. This allows greater control and the option to include or exclude modules as needed.
 
 `npm install bootstrap@4.0.0-beta`
 
