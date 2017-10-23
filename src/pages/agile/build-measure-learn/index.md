@@ -3,13 +3,19 @@ title: Build Measure Learn
 ---
 ## Build Measure Learn
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/build-measure-learn/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Agile methodology is about how to build things right. "Build Measure Learn" is about how to build the right thing.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The term comes from the [Lean Startup methodology](https://en.wikipedia.org/wiki/Lean_startup), popularised by [Eric Ries](https://en.wikipedia.org/wiki/Eric_Ries), the author of [The Lean Startup](https://www.amazon.co.uk/Lean-Startup-Innovation-Successful-Businesses/dp/0670921602).
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+**Build Measure Learn** is sometimes referred to as Hypothesis Driven Development. 
+
+### The Premise:
+The goal of Build Measure Learn is to *build* a Minimum Viable Product (MVP), *measure* the impact of the MVP and *learn* about whether the Product that is being built is viable, valuable and fulfils the assumed success criteria.
+
+
+
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+[Why Build, Measure, Learn – isn’t just throwing things against the wall to see if they work – the Minimal Viable Product](https://steveblank.com/2015/05/06/build-measure-learn-throw-things-against-the-wall-and-see-if-they-work/)
 
-
+[The Build-Measure-Learn Feedback Loop](https://www.mindtools.com/pages/article/build-measure-learn.htm)
