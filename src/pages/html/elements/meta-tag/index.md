@@ -3,13 +3,36 @@ title: Meta Tag
 ---
 ## Meta Tag
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/meta-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `<meta>` tag use for represent metadata which can not be represented by other html elements. `<meta>` tag is used in `<head>` element. Metadata will not be displayed on the page. This data can be parseable by machine. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Browsers use metadata for how to display content or reload page, search engines, or other web services.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+It can be useable for 
+- Define a description of your web page
+- Define keywords for search engines
+- Define the author of a page
+- Refresh document every 30 seconds
+- Setting the viewport to make your website look good on all devices
+
+### Example
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="FreeCodeCamp Meta Tag">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript,Github,FreeCodeCamp">
+    <meta name="author" content="Hadnazzar">
+    <meta http-equiv="refresh" content="30">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+</html>
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+[MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta)
+
+
+
 
 
