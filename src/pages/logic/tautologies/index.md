@@ -3,13 +3,17 @@ title: Tautologies
 ---
 ## Tautologies
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/logic/tautologies/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+A _Tautology_ is a logical statement that always evaluates to truth value. In formal terms the conclusion if equivalent to the premise. The truth table of a tautology contains only the true values 'T' for all its entries.
+ 
+ Some examples of tautologies are : 
+ 
+ - A ^ B = !(!A v !B)
+ - A v B = !A => B
+ - A ^ B = !(A=>!B)
+ 
+ Here '^' denotes 'AND' , '=' denotes 'equivalent to', '!' denotes 'NOT', 'v' denotes 'OR' and '=>' denotes 'implies'.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+- Tautology : [Wolfram Math] (http://mathworld.wolfram.com/Tautology.html)
+- Tautology(logic) : (https://en.wikipedia.org/wiki/Tautology_(logic))
