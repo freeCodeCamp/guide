@@ -34,9 +34,9 @@ C# is an object-oriented language while also providing support for component-ori
 
 You can use C# to create Windows client applications, XML Web services, distributed components, client-server applications, database applications, and much more.
 
-
 #### More Information:
-*[Introduction to C#](https://docs.microsoft.com/en-us/dotnet/csharp/getting-started/introduction-to-the-csharp-language-and-the-net-framework)
-*[C# Tutorials](https://www.microsoft.com/net/tutorials/csharp/getting-started)
-*[Official C# Documentation](https://docs.microsoft.com/en-us/dotnet/csharp/)
-*[New Features in C# 7.0](https://msdn.microsoft.com/en-us/magazine/mt790184.aspx)
+
+* [Introduction to C#](https://docs.microsoft.com/en-us/dotnet/csharp/getting-started/introduction-to-the-csharp-language-and-the-net-framework)
+* [C# Tutorials](https://www.microsoft.com/net/tutorials/csharp/getting-started)
+* [Official C# Documentation](https://docs.microsoft.com/en-us/dotnet/csharp/)
+* [New Features in C# 7.0](https://msdn.microsoft.com/en-us/magazine/mt790184.aspx)

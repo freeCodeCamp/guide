@@ -3,9 +3,9 @@ title: Git Clone
 ---
 ## Git Clone
 
-The Git clone command allows you to copy a remote repository onto your local machine.
+The `git clone` command allows you to copy a remote repository onto your local machine.
 
-First, find the remote repository for the project you're working on or interested in - this can also be your fork of a project. Next, copy the url for it. For example, if you've forked the freeCodeCamp guides repository, the url looks like `https://github.com/<YOUR GITHUB USERNAME>/guides.git`.
+First, find the remote repository for the project you're working on or interested in - this can also be your fork of a project. Next, copy the url for it. For example, if you've forked the freeCodeCamp guides repository, the url looks like `https://github.com/YOUR-GITHUB-USERNAME/guides.git`.
 
 In the command line on your local machine, navigate to where you want to save the project in your working directory. Finally, run the `git clone` command:
 
@@ -19,7 +19,7 @@ The default name of the new directory on your computer is the name of the reposi
 git clone URL-OF-REPOSITORY NAME-OF-DIRECTORY-ON-COMPUTER
 ```
 
-Git gives the remote the alias "origin". This is a useful way to refer to the remote when you want to push your changes to the remote server, or pull changes from it. See [Git push](../git-push/index.md) and [Git pull](../git-pull/index.md) for more details.
+Git gives the remote the alias "origin". This is a useful way to refer to the remote when you want to push your changes to the remote server, or pull changes from it. See [Git push](https://guide.freecodecamp.org/git/git-push/) and [Git pull](https://guide.freecodecamp.org/git/git-pull/) for more details.
 
 Git only pulls the remote's main branch onto your computer. This branch is usually named "master" by convention, but may be defined differently depending on the project.
 
