@@ -32,7 +32,7 @@ Wrapping search algorithms do take advantage of the learning bias, as they incor
 #### Relevance
 
 Another way of selecting features is using the [BOC (Bayes Optimal Classifier)](https://scholar.google.de/scholar?q=Bayes+Optimal+Classifier&hl=en&as_sdt=0&as_vis=1&oi=scholart&sa=X&ved=0ahUKEwiO16X0tIbXAhXiKsAKHbGrBzoQgQMIJjAA). The rule of thumbs here are:
-* a feature is strongly relevant if remaining it degrades the BOC
+* a feature is strongly relevant if removing it degrades the BOC
 * a feature is weakly relevant if it is not strongly relevant & adding it in combination with other features improves the BOC
 * otherwise a feature is irrelevant
 
