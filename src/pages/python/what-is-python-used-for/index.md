@@ -38,12 +38,15 @@ Here's a <a href='https://www.python.org/about/apps/' target='_blank' rel='nofol
 * Browser Automation
 * Data analysis
 
+
+
 #### Some article covering the usability of python
 
 * [10 MAJOR USES OF PYTHON](http://www.dummies.com/programming/python/10-major-uses-of-python/)
 * [Applications for Python](https://www.python.org/about/apps/)
 * [Where is python Language used](https://stackoverflow.com/questions/3043085/where-is-python-language-used)
 * [What is python used for](https://stackoverflow.com/questions/1909512/what-is-python-used-for)
+*https://www.google.co.in/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwjBncrtyITXAhVJTbwKHUg_Cv4QjRwIBw&url=https%3A%2F%2Fparbhatpuri.com%2FWhy-you-should-learn-python-in-2015.html&psig=AOvVaw0bcnYGw2NjWr62okmWIlQj&ust=1508773318069852
 
 
 
