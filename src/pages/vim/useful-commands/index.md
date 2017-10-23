@@ -26,6 +26,10 @@ Try to move around with the arrow keys in "insert" mode.
 
 Depending on the configuration, you may enter a file browser by typing and entering the command `:e .` in "normal" mode. The 'e' stands for edit, and the period for the file or directory.
 
+## Writing in a file
+1. Press `i`. You are now in insert mode and can edit your file.
+2. Press esc to get back to normal mode.
+
 ## Pasting blocks of code
 Very often you will find yourself looking for solutions to problems, and finding someone has written a block of code that does exactly what you want.
 If you try to copy and paste the code directly into Vim you might find that the code is weirdly formatted or hasnt't been pasted correctly.
