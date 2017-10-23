@@ -3,6 +3,8 @@ title: ID Selector
 ---
 ## ID Selector
 The CSS ID selector applies styles to a specific html element. The CSS ID selector must match the ID attribute of an HTML element.
+The id of an element should be unique within a page, so the id selector is used to select one unique element!
+To select an element with a specific id, write a hash (#) character, followed by the id of the element.
 
 ### Syntax
 ```css
