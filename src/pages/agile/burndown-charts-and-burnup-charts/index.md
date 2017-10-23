@@ -16,7 +16,6 @@ The chart itself is basic: in the x axis go the days and in the y axis go the po
 The idea it that, everyday, each team member states how many hours have been executed. This makes it possible to visually get an idea of how many hours has the team dedicated to the sprint tasks, as it is immediately put in the chart.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 * http://www.clariostechnology.com/productivity/blog/whatisaburnupchart
 * http://www.agilenutshell.com/burndown
 
