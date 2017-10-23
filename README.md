@@ -88,7 +88,7 @@ Here are some title examples:
 
 - "HTML Lists"
 - "CSS Borders"
-- "JavaScript For Loop"
+- "JavaScript for Loop"
 
 The folder name is used in the URL, so only use dashes `-`, numbers `0-9`, and lowercase letters `a-z` for it.
 
