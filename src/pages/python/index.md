@@ -30,8 +30,7 @@ If it is available and in Unix shell’s search path makes it possible to start 
 
 `hello_campers.py`
 
-    if __name__ == '__main__'
-        print('Hello campers!')
+    print('Hello campers!')
 
 From terminal:
 
@@ -46,6 +45,8 @@ From terminal:
     Python 3.4.3
     $ python3.5 --version
     Python 3.5.1
+    $ python3.6 --version
+    Python 3.6.2 
 
 ## Python Interpreter Interactive Mode
 
