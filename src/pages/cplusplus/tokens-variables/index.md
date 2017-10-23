@@ -127,5 +127,3 @@ _Tokens part 1 is over. See you campers at Part 2 of Tokens :)_
  **Happy Coding ! :)**
 
  **Feel free to ask any queries on FreeCodeCamp's GitHub page or [FreeCodeCamp's Forum .](https://forum.freecodecamp.org/)**
-
-By : Jaithra Bhatia and Hitarth Asrani.
