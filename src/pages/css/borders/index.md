@@ -45,6 +45,13 @@ Based on the property you choose, these styles can be mismatched.
 ```
 As shown, the border property allows you to select different sections of it. [top, bottom, left, right]
 
+### Border Width
+The `border-width` property specifies the width of the four borders.
+
+The width can be set as a specific size (in px, pt, cm, em, etc) or by using one of the three pre-defined values: thin, medium, or thick.
+
+The `border-width` property can have from one to four values (for the top border, right border, bottom border, and the left border).
+
 ### More Information:
 
 MDN Documentation: <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/border' target='_blank' rel='nofollow'>MDN</a>
