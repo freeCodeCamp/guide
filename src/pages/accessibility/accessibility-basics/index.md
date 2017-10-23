@@ -137,7 +137,7 @@ This will make for example a screen-reader say "username, text edit field", inst
 
 Let's take a small break. I want you to go look at a really well-designed web page. It can be any page. Go on, I'll wait.
 
-Back? Ok, great. Now, look at the page again but disable all CSS. Does it still look good? Is the content on the page still in a logical order? If so, great. You found a page with decent HTML structure. (One way to easily view a page without CSS is to load the site in WebAIM's <a href='http://wave.webaim.org' target='_blank' rel='nofollow'>WAVE Web Accessibility Evaluation Tool</a>. Then click on the "no style" tab to see it without styles.)
+Back? Ok, great. Now, look at the page again but disable all CSS. Does it still look good? Is the content on the page still in a logical order? If so, great. You found a page with decent HTML structure. (One way to easily view a page without CSS is to load the site in WebAIM's <a href='http://wave.webaim.org' target='_blank' rel='nofollow'>WAVE Web Accessibility Evaluation Tool</a>. Then click on the "No Styles" tab to see it without styles.)
 
 If not, great. Now you get an impression on what I have to deal with on a daily basis when I come across a badly structured website.
 
