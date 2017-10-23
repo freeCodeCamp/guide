@@ -3,7 +3,7 @@ title: Computer Hardware
 ---
 ## Computer Hardware
 
-In this section, we explore the various hardware components of modern computers. 
+In this section, we will explore the various hardware components of modern computers. 
 
 ## Parts of a Personal Computer
 
