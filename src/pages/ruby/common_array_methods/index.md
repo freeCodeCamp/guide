@@ -61,6 +61,14 @@ The .push method will allow you to add an element to the end of an array:
 array.push(99)
 => [0, 1, 2, 3, 4, 99]
 ```
+#### .unshift
+The .unshift method will allow you to add an element to the beginning of an array:
+
+```
+array = [2, 3]
+array.unshift(1)
+=> [1, 2, 3]
+```
 
 #### .delete
 The .delete method removes a specified element from an array permanently:
