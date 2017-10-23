@@ -3,13 +3,13 @@ title: Semantic HTML Elements
 ---
 ## Semantic HTML Elements
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/semantic-html-elements/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+A semantic element clearly describes its meaning to both the browser and the developer.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Examples of non-semantic elements: <div> and <span> - Tells nothing about its content.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Examples of semantic elements: <form>, <table>, and <article> - Clearly defines its content.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+For more information: https://codepen.io/mi-lee/post/an-overview-of-html5-semantics
 
 
