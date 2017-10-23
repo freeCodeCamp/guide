@@ -24,3 +24,19 @@ Thinking, Fast and Slow: amzn.to/2tnnlTN
 Learn You a Haskell for Great Good!: amzn.to/2veOjdv
 
 To see the full list, visit: https://talkpython.fm/episodes/show/130/10-books-python-developers-should-be-reading
+
+## What Does a Typical Day at the Office Look Like?
+
+### In the Life of a... 
+
+Web Developer
+
+App Developer
+
+Front End Developer
+
+Back End Developer
+
+Angular Developer
+
+Etc...
