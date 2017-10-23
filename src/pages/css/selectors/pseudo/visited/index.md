@@ -3,13 +3,27 @@ title: Visited
 ---
 ## Visited
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/selectors/pseudo/visited/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The :visited CSS pseudo-class is used to select an anchor link (<a>) that the user has already visited.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Due to security issues, there are only a few styles that can be applied using the :visited selector: color, background-color, border-color, border-bottom-color, border-left-color, border-right-color, border-top-color, column-rule-color, and outline-color.
+
+Syntax:
+
+```css
+:visited
+```
+
+## Example
+
+```css
+/* Selects any <a> that has been visited */
+a:visited { 
+    color: red;
+}
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+For more information visit [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/:visited)
 
 
