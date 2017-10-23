@@ -38,7 +38,7 @@ Now , let's break down the code :
 using namespace std;
 ```
 
-* The 1st line tells the computer to use the "iostream" header file for this specific program . There are many other header files which are requireed for a specific program to run properly. Some of them are : math , vector and string. Header files are generally represented by a ".h" extension
+* The 1st line tells the computer to use the "iostream" header file for this specific program . There are many other header files which are requireed for a specific program to run properly. Some of them are : math , vector and string. Header files are generally represented by a ".h" extension (you don't need to add .h when including C++ standard library files)
 * `iostream` stands for input-output stream . The "iostream" file contains code for allowing the computer to take input and generate an output, using the C++ language.
 * The second line tells the computer to use the standard namespace which includes features of standard C++ .
 
@@ -66,7 +66,7 @@ cout<<"Hello World"<<endl;
 * Whatever is in the double quotes `""` is printed . Certain special characters have a different syntax for print statements   
 * Now to print any other kind of data , you have to  add `<<` .
 
-***Q. Try to change Hello World to any other sentence or word(s). What will be the output ?***
+***Challenge: Try to change Hello World to any other sentence or word(s). What will be the output ?***
 
 * `endl` is a reserved word for the computer when using the C++ language to **end this line and go to the next line during output** .   - _cout stands for "console output"_
 * And , you have to finish the command with a semicolon `;`.
@@ -76,7 +76,7 @@ cout<<"Hello World"<<endl;
 * `return 0;` safely terminates the current function i.e. 'main()' in this case and since no function follows after 'main()' the program is terminated. 
 * Don't forget to tell the computer that this is the last line it needs to execute. To do this , you add the closing curly brace "}" . You may encounter an error before program execution if you do not finish your program with **}** .
 
-### The code should look something like this (additional pointers given ):
+### The code should look something like this:
 
 ![Img](https://i.imgur.com/d1liGwI.png)
 
@@ -87,11 +87,11 @@ _You have finished coding your first C++ program and have understood most of the
  
  **Happy Coding ! :)**
  
- **Feel free to ask any queries on FreeCodeCamp's GitHub page or [FreeCodeCamp's Forum .](https://forum.freecodecamp.org/)**
+ **Feel free to ask any questions on FreeCodeCamp's GitHub page or [FreeCodeCamp's Forum.](https://forum.freecodecamp.org/)**
 
- <a href='https://repl.it/L4k3' target='_blank' rel='nofollow'>Try the code yourself ! :) </a>
+ <a href='https://repl.it/L4k3' target='_blank' rel='nofollow'>Try it yourself ! :) </a>
 
-**You may require some software to write and execute C++ code. I recommend using CodeBlocks. There's a download link below :**
+**You may need some software to write and execute C++ code. I recommend using CodeBlocks. There's a download link below :**
 
 Download Link : [Download Here](http://www.codeblocks.org/downloads/26)
 
