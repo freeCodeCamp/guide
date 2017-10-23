@@ -9,23 +9,25 @@ Machine Learning works best with well formed data. Feature engineering describes
 
 ### Feature Scaling
 
-Let's assume your data contains the weight of people, as well as the height. The raw numbers of these two features have a high difference (e.g. 80 kg and 180 cm, or 175 lbs vs 5.9 ft), which could influence the outcome of a Machine Learning algorithm. This is especially the case for algorithms that use [distance functions](https://en.wikipedia.org/wiki/Euclidean_distance).
+Let's assume your data contains the weight and height of people. The raw numbers of these two features have a high difference (e.g. 80 kg and 180 cm, or 175 lbs vs 5.9 ft), which could influence the outcome of certain Machine Learning algorithm. This is especially the case for algorithms that use [distance functions](https://en.wikipedia.org/wiki/Euclidean_distance).
 
 To fix this isse, we represent the raw numbers in a 0 to 1 range. We can achieve this using the formula: `(x - xMin) / (xMax - xMin)`.
 
-Using this formula, we need to pay special attention to outliers, as these can affect the outcome drastically by pushing up xMax and pushing down xMin. That's why outliers are often eliminated prios to scaling. 
+Using this formula, we need to pay special attention to outliers, as these can affect the outcome drastically by pushing up xMax and pushing down xMin. That's why outliers are often eliminated prior to scaling. 
 
 ### Feature Selection
 
 It's all about identifying the subset of features that are responsible for the trends we observe in our data.
 
-Why should we care? [Curse of Dimensionality](https://en.wikipedia.org/wiki/Curse_of_dimensionality) is a big enemy in times of Big Data. We can't use all of our tens to hundreds of features. This would not only raise the dimensionality of our data through the roof, but also often don't make any sense in specific use cases. Imagine wanting to predict the weather of tomorrow: It will be more likely that the weather trend of last days is more important in this scenario than the babies born in the last days. So you could easily just eliminate this feature.
+Why should we care? [Curse of Dimensionality](https://en.wikipedia.org/wiki/Curse_of_dimensionality) is a big enemy in times of Big Data. We can't use all of our tens to hundreds of features. This would not only raise the dimensionality of our data through the roof (2^n, where n is the number of features), but also often don't make any sense in specific use cases. Imagine wanting to predict the weather of tomorrow: It will be more likely that the weather trend of last days is more important in this scenario than the babies born in the last days. So you could easily just eliminate the babies-feature.
+
+But forget babies for now, let's dive into more detail.
 
 #### Filtering & Wrapping
 
-Here we describe to general approaches. Filtering methods act independently from your chosen learning algorithm & wrapping methods incorporate your learner.
+Here we describe two general approaches. Filtering methods act independently from your chosen learning algorithm & wrapping methods incorporate your learner.
 
-Filter methods select the subset of features before injecting the data into your ML algorithm. They use e.g. the correleation with the to-be-predicted variable to identify which subset of feature to choose. These methods are relatively fast to compute, but don't take advantage of the [bias of the learner](https://en.wikipedia.org/wiki/Inductive_bias) because filtering is happening independent of your chosen ML model.
+Filter methods select the subset of features before injecting the data into your ML algorithm. They use e.g. the correleation with the to-be-predicted variable to identify which subset of features to choose. These methods are relatively fast to compute, but don't take advantage of the [bias of the learner](https://en.wikipedia.org/wiki/Inductive_bias) because filtering is happening independent of your chosen ML model.
 
 Wrapping search algorithms do take advantage of the learning bias, as they incorporate your chosen ML model. These methods function by removing the feature that has the lowest change in score when removed and repeating this process until the score changes significantly. This means running your learning algorithm over and over again, which can lead to significant computation times. These methods also have the danger of overfitting, as you're basically optimizing the feature set based on your chosen ML model.
 
