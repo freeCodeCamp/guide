@@ -2,14 +2,11 @@
 title: Utf 8 Reference
 ---
 ## Utf 8 Reference
+UTF-8 is a character encoding capable of encoding all 1,112,064 valid code points in Unicode using one to four 8-bit bytes. The encoding is defined by the Unicode standard, and was originally designed by Ken Thompson and Rob Pike. The name is derived from Unicode (or Universal Coded Character Set) Transformation Format – 8-bit.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/utf-8-reference/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+A character in UTF8 can be from 1 to 4 bytes long. UTF-8 can represent any character in the Unicode standard. UTF-8 is backwards compatible with ASCII. UTF-8 is the preferred encoding for e-mail and web pages
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+For more information:https://www.w3schools.com/charsets/ref_html_utf8.asp
 
 
