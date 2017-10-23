@@ -58,3 +58,10 @@ The `.gcd` method provides the greatest common divisor (always positive) of two 
     15.gcd(5) #=> 5
     3.gcd(-7) #=> 1
 ```
+
+## <a href='https://ruby-doc.org/core-2.2.0/Integer.html#method-i-next' target='_blank' rel='nofollow'>Next</a>:
+
+The `.next` method returns the number one greate than the integer <a href='https://ruby-doc.org/core-2.2.0/Integer.html' target='_blank' rel='nofollow'>**integer**</a>.
+```Ruby
+    15.next #=> 16
+```
