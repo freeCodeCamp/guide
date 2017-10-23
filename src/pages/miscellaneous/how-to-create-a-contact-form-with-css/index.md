@@ -17,6 +17,7 @@ The form with name __contact_form__ contains input fields for:
 - Message
 
 A div with class `center` to align the items center. An `input` type `submit` to submit the form.
+<br>The `required` attribute in the text fields are checked for value on submission.
 
 ```html
 <div class="container">
@@ -32,7 +33,7 @@ A div with class `center` to align the items center. An `input` type `submit` to
 		<input name="email" type="email" required placeholder="you@domain.com"/>
 		<br>
 		<label for="message">Message</label><br>
-		<textarea name="message" cols="30" rows="10" placeholder="Enter your message here ..."></textarea>
+		<textarea name="message" cols="30" rows="10" placeholder="Enter your message here ..." required> </textarea>
 		<div class="center">
 			<input type="submit" value="Submit">
 		</div>
@@ -43,7 +44,6 @@ A div with class `center` to align the items center. An `input` type `submit` to
 
 ```css
 /* Importing the Roboto font from Google Fonts. */
-
 @import url("https://fonts.googleapis.com/css?family=Roboto:400");
 
 /* Set font of all elements to 'Roboto' */
@@ -53,7 +53,6 @@ A div with class `center` to align the items center. An `input` type `submit` to
 }
 
 /* Remove outline of all elements on focus */
-
 *:focus {
 	outline: 0;
 }
@@ -67,7 +66,6 @@ h3 {
 }
 
 /* Add styles to 'container' class */
-
 .container {
 	padding: 12px 24px 24px 24px;
 	margin: 48px 12px;
@@ -76,14 +74,12 @@ h3 {
 }
 
 /* Add styles to 'label' selector */
-
 label {
 	font-size: 0.85em;
 	margin-left: 12px;
 }
 
 /* Add styles to 'input' and 'textarea' selectors */
-
 input[type=text],input[type=email], textarea {
     width: 100%;
     padding: 12px;
@@ -96,13 +92,11 @@ input[type=text],input[type=email], textarea {
 }
 
 /* Add styles to show 'focus' of selector */
-
 input[type=text]:focus,input[type=email]:focus, textarea:focus {
 	border: 1px solid green;
 }
 
 /* Add styles to the submit button */
-
 input[type=submit] {
 	background: #64B5F6;
 	margin: 0 auto;
@@ -118,14 +112,12 @@ input[type=submit] {
 }
 
 /* Add styles for 'focus' property */
-
 input[type=submit]:focus {
 	background: #A5D6A7;
 	color: whitesmoke;
 }
 
 /* Style 'hover' property */
-
 input[type=submit]:hover {
 	background: #2196F3;
 }
