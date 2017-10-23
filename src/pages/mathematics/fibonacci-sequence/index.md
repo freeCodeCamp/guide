@@ -3,13 +3,22 @@ title: Fibonacci Sequence
 ---
 ## Fibonacci Sequence
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/fibonacci-sequence/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The Fibonacci Sequence
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+This sequence is probably one of the most famous sequences out there. It starts with 1, followed by
+another 1, then a 2, then a 3, 5, 8, 13, and so on. Each new number is the sum of the previous two numbers.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+So let's take it from the start, and it starts with 1. The next number will be the sum of the 
+previous two numbers, which will be 1. Therefore the next number will also be 1. 
+Then comes the third number, which will be the sum of 1 and 1, which is 2. 
+Then comes 1 and 2, which is 3, 2 and 3, which is 5, 3 and 5, which is 8, and so on.
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+This sequence is seen in many places in nature, like the shell of a snail or the 
+spiral patterns of a sunflower.
 
+The initial values are
+1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233...
 
+If you desire to make a program which finds the fibonacci-number after x iterations, make sure you
+have a large enough boundary. The value grows exponentially quick, and will therefore take more
+space than expected. 
