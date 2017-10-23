@@ -3,13 +3,19 @@ title: U Tag
 ---
 ## U Tag
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/u-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The HTML `<u>` tag renders text with an underline.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The `<u>` element was deprecated in HTML 4.01. In HTML5, the `<u>` tag was redefined to represent text that should be stylistically different form normal text. This includes misspelled words or proper nouns in Chinese.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Instead, to underline text, it is recommended that the `<span>` tag is used in place of `<u>`. Style your `<span>` tags with the CSS `text-decoration` property with the value `underline`.
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+### Examples
+Underline text with the deprecated `<u>` tag:
+```
+<u>Everyone<u> has been talking about <u>freeCodeCamp</u> lately.
+```
 
-
+Underlining text with the `<span>` tag:
+```
+<span style="text-decoration: underline">Everyone</span> has been talking about <span style="text-decoration: underline">freeCodeCamp</span> lately.
+```

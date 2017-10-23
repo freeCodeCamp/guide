@@ -3,13 +3,42 @@ title: Background Opacity
 ---
 ## Background Opacity
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/background-opacity/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The opacity CSS property specifies the level of transparency of an element, that is, the degree to which the content behind the element is visible.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+You can choose upto what extent you want to make the element transparent.
+You have to add the following CSS property to achieve the transparency levels.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+**Fully Opaque**
+```css
+.class-name{
+  opacity:1;
+  }
 
+OR
+
+.class-name{
+  opacity:1.0;
+  }
+```
+**Translucent**
+```css
+.class-name{
+  opacity:0.5;
+  }
+Opacity value can be anything between 0 and 1;
+```
+**Transparent**
+```css
+.class-name{
+  opacity:0;
+  }
+  
+OR
+
+.class-name{
+  opacity:0.0;
+  }
+```
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
+For more information visit [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/opacity)
 
