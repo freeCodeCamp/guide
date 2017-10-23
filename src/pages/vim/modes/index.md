@@ -39,12 +39,22 @@ but these are the simplest.  Once in insert mode, typing inserts characters befo
 insert mode and return to normal mode, press `<esc>` or `ctrl-[`
 
 ### Visual Mode
-Visual mode it used to select text, similar to how clicking and dragging with a
-mouse behaves.  Press 'v' to enter visual mode, this begins the selection where
-the cursor is, then move the cursor to the end of what you want to select and
-now you can execute a command over the selecting text.
-For example, after selecting text, press 'd' to delete the selected text or 'y'
-to copy it.
+
+Visual mode is used to make selections of text, similar to how clicking and dragging with a
+mouse behaves. Selecting text allows commands to apply only to the selection, such as copying,
+deleting, replacing, and so on.
+
+To make a text selection:
+- Press `v` to enter visual mode, this will also mark a starting selection point
+- Move the cursor to the desired end selection point; vim will provide a visual
+  highlight of the text selection
+  
+Visual mode also has the following variants:
+- `V` to enter visual line mode, this will make text selections by line
+- `<C-V>` to enter visual block mode, this will make text selections by blocks; moving the
+  cursor will make rectangle selections of the text
+
+To leave visual mode and return to normal mode, press `Esc` or `<C-[>`.
 
 ### Command Mode
 Command mode has a wide variety of commands and can do things that normal mode
