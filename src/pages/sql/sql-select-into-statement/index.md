@@ -2,14 +2,30 @@
 title: SQL Select into Statement
 ---
 ## SQL Select into Statement
+You can create a new table using data that are already stored in the database.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/sql/sql-select-into-statement/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The `SELECT INTO` statement is like a `SELECT` statement, but with the output redirected to a table named after `INTO`. The syntax is:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+
+```sql
+SELECT column1, column2, column3, ...
+INTO table2 (column1, column2, column3, ...)
+FROM table1
+WHERE condition;
+```
+
+
+Here is an example that creates the table Students01 with all the students born in 2001
+
+```sql
+SELECT Id, Name, DateOfBirth, Gender
+INTO Students01(Id, Name, DateOfBirth, Gender)
+FROM Students
+WHERE YEAR(DateOfBirth) = 2001
+```
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
+https://docs.microsoft.com/en-us/sql/t-sql/queries/select-into-clause-transact-sql
 
