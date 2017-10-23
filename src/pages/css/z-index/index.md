@@ -52,7 +52,9 @@ For our example, we will display three boxes on top of each other in different o
 ```
 Since we did not define `z-index`, it will have a default value of `auto`. This is our result:
 
-![An image of three boxes](https://image.prntscr.com/image/Yc9oGkdKTnm_YIHzaKQmbQ.png)
+![An image of three boxes][three boxes wo/Z]
+
+[three boxes wo/Z]: https://image.prntscr.com/image/Yc9oGkdKTnm_YIHzaKQmbQ.png "Three boxes without Z index CSS property"
 
 Let's change the order to Green, Blue, Red in our CSS using `z-index`.
 
@@ -76,7 +78,9 @@ Let's change the order to Green, Blue, Red in our CSS using `z-index`.
 
 Our result will be:
 
-![An image of three boxes](https://image.prntscr.com/image/Am9XxPO4Q2mq-PcokJ47Wg.png)
+![An image of three boxes][three boxes w/Z]
+
+[three boxes w/Z]: https://image.prntscr.com/image/Am9XxPO4Q2mq-PcokJ47Wg.png "Three boxes with Z index CSS property"
 
 
 Z Index is commonly used to put a background element below a container. We can easily place the background under every element by giving it a negative Z Index like below:
