@@ -15,5 +15,5 @@ WPF uses XAML for constructing user interfaces (UI) in markup instead of in a pr
 ```
 
 ### More Information: <a name="more-information"></a>
-- You can find more information about XAML on microsoft's <a href='https://msdn.microsoft.com/en-us/library/cc295302.aspx' target='_blank' rel='nofollow'>MSDN site</a>
+- You can find more information about XAML on microsoft's <a href='https://msdn.microsoft.com/en-us/library/cc295302.aspx' target='_blank' rel='nofollow'>MSDN site</a>.
 - <a href='http://www.wpf-tutorial.com/xaml/what-is-xaml/' target='_blank' rel='nofollow'>This guide</a> will teach you all you need to know about XAML.
