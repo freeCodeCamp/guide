@@ -3,13 +3,15 @@ title: B Tag
 ---
 ## B Tag
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/b-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `<b>` tag represents a span of text. The meaning of `<b>` tag is bold. It is stylistically different from normal text. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### Example
+Here is an example of how to display a section in same color:
+
+```html
+<p>“Fear is the path to the dark side…fear leads to anger…anger leads to hate…hate leads to suffering.”<b>Yoda, The Phantom Menace</b></p>
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+[MDN](https://developer.mozilla.org/tr/docs/Web/HTML/Element/b)
