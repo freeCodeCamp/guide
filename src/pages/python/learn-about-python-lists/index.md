@@ -7,7 +7,7 @@ title: Learn About Python Lists
 
 **Creation:**
 
-An empty `list` is created using a pair of square brackets, `<a href='https://docs.python.org/3/tutorial/datastructures.html#more-on-lists' target='_blank' rel='nofollow'>]`:
+An empty `list` is created using a pair of square brackets:
 
     >>> empty_list = []
     >>> type(empty_list)
@@ -79,7 +79,7 @@ Elements from a `list` may be extracted and re-arranged using another `list` as 
 
 **TODO: Which of these should be discussed here:**
 
-[Python Docs - More on Lists</a>
+<a href='https://docs.python.org/3/tutorial/datastructures.html#more-on-lists' target='_blank' rel='nofollow'>Python Docs - More on Lists</a>:
 
 *   `list.append(x)` Add an item to the end of the list. Equivalent to a[len(a):] = [x].
 
