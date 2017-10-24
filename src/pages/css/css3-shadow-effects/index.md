@@ -72,5 +72,7 @@ The `box-shadow` property can take up to six values:
 * [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow?v=b)
 * [Check for browser support](https://caniuse.com/#search=box-shadow)
 * [CSS box-shadow generator](https://www.cssmatic.com/box-shadow) (feel free to experiment with box-shadows)
+* [Convert Photoshop Drop Shadows to CSS Box and Text Shadows] (http://www.melanieceraso.com/psd-to-css3/)
+
 
 
