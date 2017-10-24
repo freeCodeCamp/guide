@@ -3,13 +3,11 @@ title: Quantum Computing
 ---
 ## Quantum Computing
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/computer-science/quantum-computing/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Quantum Computing is the study of quantum computation systems that make use of quantum mechanical phenomena, such as entanglement and superposition. Classical binary digit electronic computers (like your own PC!) are based on transistors, which stores data in binary digits (bits), each of which can be in one of two states (0 or 1). Quantum computers on the other hand store data into quantum bits, which can be in superpositions of states.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Because a quantum computer is able to take advantage of these quantum mechanical properties, it is theorized that large scale quantum computers will be able to solve certain problems far quicker than a classical computer.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+<a href='http://www.research.ibm.com/ibm-q/learn/what-is-quantum-computing/' target='_blank' rel='nofollow'>IBM's website on quantum computing</a> provides an interactive way to learn more about this topic
 
 
