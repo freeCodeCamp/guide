@@ -1,3 +1,6 @@
+----
+ -title: Threads
+ ----
 ## Threads
 
 For faster execution of the program, you might consider using asynchronous programming. That way you can split the work between multiple threads. You can specify a custom ammount (there are limits tho) of thread for your program. 
