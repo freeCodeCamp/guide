@@ -24,3 +24,4 @@ Paid Editors need either a one-time payment or are subscription-based. But, tria
 * [Gimp](https://www.gimp.org/) - Free | Download | Open-Source
 * [Photoshop](https://www.adobe.com/products/photoshop.html) - Free Trial | Paid
 * [Photoshop Express](https://www.photoshop.com/products/photoshopexpress) - Free | Mobile
+* [Imageresizer](https://icecreamapps.com/it/Image-Resizer/) - Free | Windows PC
