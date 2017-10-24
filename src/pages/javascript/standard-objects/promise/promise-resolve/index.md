@@ -5,9 +5,9 @@ title: Promise Resolve
 
 ### Description
 
-A ```Promise.resolve``` function indicates the successful completion of a Promise.  This function allows you to return a Promise to the calling function.
+A ```Promise.resolve``` function indicates the successful completion of a Promise. This function allows you to return a Promise to the calling function.
 
-```Promise.resolve``` takes a single parameter. This parameter can either be a value, a thenable, or another Promise. 
+```Promise.resolve``` takes a single parameter to return to the calling function. This parameter can either be a value, a thenable, or another Promise. 
 
 A "value" for a resolve function can be basic JavaScript types, arrays, or objects. 
 
@@ -17,7 +17,7 @@ Promise.resolve([2, 3, 5]); // array
 Promise.resolve({name: 'John', age: '43'}); // object
 ```
 
-A "thenable" is a function that takes two callback functions as parameters. You can use the first parameter to trigger a successful completion, and the second to signal an error from the thenable function.
+A "thenable" is a function that takes two callback functions as parameters. You can use the first parameter to trigger a successful completion, and the second to return an error on the Promise.
 
 ```
 function thenableFunction(onSuccesss, onFailure) {
@@ -41,6 +41,3 @@ promiseCallingFunction(paramList)
      */
   });
 ```
-
-### Source
-1. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/resolve
