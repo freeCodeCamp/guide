@@ -2,7 +2,4 @@
 title: Meta
 ---
 ## Meta
-
-freeCodeCamp was started on October 15, 2014. Since then, it has grown from one lone developer in his closet to a worldwide community used by more than 1 million campers each month.
-
-This section is a collection of "meta" artifacts from freeCodeCamp's history.
+Freecodecamp is an American nonprofit organization started on October 15, 2014. It provides a high quality curriculum for self learners who want to learn about web development or polish their skills. Nowadays, a worldwide community used by more than 1 million campers each month.
