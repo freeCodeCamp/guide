@@ -25,7 +25,7 @@ or
 double list[]; // works but not preferred way.
 ```
 
-Note: The style `double list[]` is not preferred as it comes from the C/C++ language and was adopted in Java to accommodate C/C++ programmers. Additionally it's more readable: you can read that it's a "dobule array named list" other than "a double called list that is an array"
+Note: The style `double list[]` is not preferred as it comes from the C/C++ language and was adopted in Java to accommodate C/C++ programmers. Additionally it's more readable: you can read that it's a "double array named list" other than "a double called list that is an array"
 
 ## Creating Arrays:
 
