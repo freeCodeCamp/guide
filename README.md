@@ -84,19 +84,34 @@ We've written the following guide to writing Guide articles to help you get star
 
 Article titles should be as short, concise, and to-the-point as possible. We want campers to quickly find the information they're looking for, and the title should reflect the main theme of the article.
 
-Here are some title examples:
+Folder name is used in the URL, so only use dashes `-`, numbers `0-9`, and lowercase letters `a-z` for it.
 
-- "HTML Lists"
-- "CSS Borders"
-- "JavaScript For Loop"
+Here are some examples:
 
-The folder name is used in the URL, so only use dashes `-`, numbers `0-9`, and lowercase letters `a-z` for it.
 
-Here are some folder name examples:
+- `src/pages/html/tables/index.html` ([link](https://github.com/freeCodeCamp/guides/blob/master/src/pages/html/tables/index.md))
 
-- html-lists
-- css-borders
-- javascript-for-loop
+```markdown
+---
+title: Tables
+---
+```
+
+- `src/pages/css/borders/index.md` ([link](https://github.com/freeCodeCamp/guides/blob/master/src/pages/css/borders/index.md))
+
+```markdown
+---
+title: Borders
+---
+```
+
+- `src/pages/javascript/loops/for-loop/index.md` ([link](https://github.com/freeCodeCamp/guides/blob/master/src/pages/javascript/loops/for-loop/index.md))
+
+```markdown
+---
+title: For Loop
+---
+```
 
 However, you can include special characters in the article title.
 
@@ -174,21 +189,21 @@ Here are specific formatting guidelines for any code:
 - GitHub-flavored markdown supports [syntax highlighting in code blocks](https://help.github.com/articles/creating-and-highlighting-code-blocks/#syntax-highlighting) for many programming languages. To use it, indicate the language after starting ```
 ```
     ```html
-        <div class='awesome' id='more-awesome'>
-          <p>This is text in html</p>
-        </div>
+    <div class='awesome' id='more-awesome'>
+      <p>This is text in html</p>
+    </div>
     ```
 
     ```javascript
-        function logTheThings(stuff) {
-         console.log(stuff);
-        }
+    function logTheThings(stuff) {
+     console.log(stuff);
+    }
     ```
 
     ```css
-       .awesome {
-          background-color: #FCCFCC;
-        }
+   .awesome {
+      background-color: #FCCFCC;
+    }
     ```
 ```
 
