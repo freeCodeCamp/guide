@@ -4,12 +4,12 @@ title: Modes in Vim
 
 # Vim Modes
 
-Because vim is focused on changing existing code just as much as writing new
+Because Vim is focused on changing existing code just as much as writing new
 code, it is split into several modes that each have different purposes.
 
 ### Normal Mode
 
-By default, vim starts in "normal" mode. Here, key presses don't work as one
+By default, Vim starts in "normal" mode. Here, key presses don't work as one
 would expect. That is, they don't insert text into the document; instead,
 certain key presses can:
 
@@ -17,8 +17,8 @@ certain key presses can:
 - Manipulate text
 - Enter other modes
 
-Normal mode is where one should spend most of their time while using vim. Remember,
-this is what makes vim different.
+Normal mode is where one should spend most of their time while using Vim. Remember,
+this is what makes Vim different.
 
 Normal mode can be accessed from other modes by pressing `Esc` or `<C-[>`.
 
@@ -34,7 +34,7 @@ These include:
 - `o` moves the cursor to a next line and inserts
 - `O` creates a new line and inserts at the cursor's current position
 
-There are so many more ways of inserting text in vim that can't be listed here
+There are so many more ways of inserting text in Vim that can't be listed here
 but these are the simplest.  Once in insert mode, typing inserts characters before the cursor.  To leave
 insert mode and return to normal mode, press `<esc>` or `ctrl-[`
 
