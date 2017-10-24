@@ -13,7 +13,7 @@ These thoughts are fairly common if you suffer from imposter syndrome:
 * "My colleagues are much smarter than me and I don't think I could ever match up to them" (undermines own achievements)
 * "My coworkers have told me I've achieved a lot, but I feel like it's never enough" (discounts praise)
 * "I have no idea how I got through the interview process" (feels only luck dictates results)
-* "People are going to realise that I am not as smart as I potrayed in the interview and I will be ridiculed and fired for this" (fears failure)
+* "People are going to realise that I am not as smart as I portrayed in the interview and I will be ridiculed and fired for this" (fears failure)
 * "My IQ is not high enough to work here"
 
 Some resources to help you know more about Imposter Syndrome and some tips to tackle it:
