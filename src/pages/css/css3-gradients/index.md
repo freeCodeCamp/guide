@@ -18,7 +18,7 @@ To create a linear gradient you must define at least two color stops. Color stop
 
 #### Syntax
 '''
-background: linear-gradient(direction, color-stop1, color-stop2, ...);
+  background: linear-gradient(direction, color-stop1, color-stop2, ...);
 '''
 
 ##### Linear Gradient - Top to Bottom (this is default)
