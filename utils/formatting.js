@@ -168,7 +168,8 @@ const stopWords = [
   'or',
   'the',
   'to',
-  'with'
+  'with',
+  'because'
 ];
 
 module.exports = {
