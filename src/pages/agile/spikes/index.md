@@ -3,13 +3,10 @@ title: Spikes
 ---
 ## Spikes
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/spikes/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+"Spike" is a term used in agile to describe a task or story that is meant to answer questions through research and/or prototyping instead of creating a shippable code. A spike should have clear objectives or questions that need to be answered, and it will usually be time-boxed.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+[Scrum Alliance: Spikes](https://www.scrumalliance.org/community/articles/2013/march/spikes-and-the-effort-to-grief-ratio)
 
 
