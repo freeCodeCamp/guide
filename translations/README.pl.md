@@ -1,73 +1,73 @@
 ![](https://s3.amazonaws.com/freecodecamp/wide-social-banner.png)
 
 # Przewodnik freeCodeCamp (freeCodeCamp Guide)
-Społeczność freeCodeCamp tworzy złożony przewodnik z możliwością przeszukiwania zasobów - "freeCodeCamp Guide". To narzędzie referencyjne będzie zawierało tysiące artykułów które obejmują wszystkie dziedziny developementu, designu i data science. Wszystko napisane w formie łatwej do zrozumienia dla osób, które dopiero zaczynają programować.
+Społeczność freeCodeCamp tworzy złożony przewodnik z możliwością przeszukiwania zasobów, o nazwie "freeCodeCamp Guide". To narzędzie referencyjne będzie zawierało tysiące artykułów które obejmą wszystkie dziedziny developementu, projektowania i data science. Całość napisana w formie łatwej do zrozumienia dla osób, które dopiero zaczynają swoją przygodę z programowaniem.
 
-To repozytorium jest miejscem, gdzie planujemy i rozwijamy artykuły z freeCodeCamp Guide, które nNastępnie hostujemy na naszej własnej stronie w stylu wiki [freeCodeCamp Guide](https://guide.freecodecamp.org).
+To repozytorium jest miejscem, gdzie planujemy i rozwijamy artykuły z freeCodeCamp Guide, które następnie hostujemy na naszej własnej stronie w stylu wiki [freeCodeCamp Guide](https://guide.freecodecamp.org).
 
 **Spis treści**
 
-- [Czym są artykuły przewodnika freeCodeCamp?](#czym-są-artykuły-przewodnika-freeCodeCamp)
+- [Czym są artykuły przewodnika freeCodeCamp?](#czym-są-artykuły-przewodnika-freecodecamp)
 - [O czym mogę napisać artykuł?](#o-czym-mogę-napisać-artykuł)
 - [Jak wnieść wkład?](#jak-wnieść-wkład)
 - [Uruchomienie przewodnika lokalnie na swoim komputerze](#uruchomienie-przewodnika-lokalnie-na-swoim-komputerze)
-- [Przewodnik po stylowaniu artykułów](#przewodnik-po-stylowaniu-artykułów)
+- [Przewodnik stylowania artykułów](#przewodnik-stylowania-artykułów)
 - [Licencja](#licencja)
 
 ## Czym są artykuły przewodnika freeCodeCamp?
-Artykuły przewodnika mogą dotyczyć składni, wzorców projektowania, tego czym są aria labels lub informacją na temat znaczenia numerów w prawym górnym rogu ekranu na stronie freecodecamp.org. Tutaj znajdziesz [Przykład artykułu o tagach HTML](./src/pages/html/elements/index.md).
+Artykuły przewodnika mogą dotyczyć składni, wzorców projektowania, tego czym są aria labels, lub informacje na temat znaczenia numerów w prawym górnym rogu ekranu na stronie freecodecamp.org. Tutaj znajdziesz [przykład artykułu o tagach HTML](./src/pages/html/elements/index.md).
 
 ## O czym mogę napisać artykuł?
-Twoja pomoc w tworzeniu artykułów jest mile widziana. Nie musisz być ekspertem w danej dziedzinie aby o nim napisać - ten przewodnik (Guide) jest tworzony na zasadach open source, więc nawet jeśli zrobisz błąd, inna osoba prdzej czy później poprawi błąd.
+Twoja pomoc w tworzeniu artykułów jest mile widziana. Nie musisz być ekspertem w danej dziedzinie aby o niej napisać - ten przewodnik jest tworzony na zasadach open source, więc nawet jeśli zrobisz błąd, inna osoba prędzej czy później go poprawi.
 
-Aby pomóc, znajdź `stub article` (`trzon artykułu`) na [Stronie przewodnika](https://guide.freecodecamp.org/), napisz artykuł, nastpnie stwórz pull request (PR) aby zastąpić trzon twoimi zmianami.
+Aby pomóc, znajdź `stub article` (`trzon artykułu`) na [stronie przewodnika](https://guide.freecodecamp.org/), napisz artykuł, nastpnie stwórz pull request (PR) aby zastąpić trzon twoimi zmianami.
 
-Jeśli nie możesz znaleźć trzonu na temat który cię interesuje, możesz wykonać PR który go stworzy wraz ze szkicem artykułu. Zapraszamy do zadawania pytań jeśli nie jesteś pewien/pewna, gdzie w strukturze katalogów należy umieścić nowy wpis.
+Jeśli nie możesz znaleźć trzonu na temat który cię interesuje, możesz wykonać PR który go stworzy (wraz ze szkicem artykułu). Zapraszamy do zadawania pytań jeśli nie jesteś pewien/a, gdzie w strukturze katalogów należy umieścić nowy wpis.
 
-Zanim zaczniesz pisać, upewnij się, że przeczytałeś [Przewodnik po stylu artykułów](#article-style-guide) poniżej.
+Zanim zaczniesz pisać, upewnij się, że przeczytałeś/aś [Przewodnik stylowania artykułów](#przewodnik-stylowania-artykułów) poniżej.
 
 ## Jak wnieść wkład?
-Możesz stworzyć PR (Pull Request) ze szkicem artykułu (lub edytować istniejący artykuł) na dwa sposoby:
+Możesz stworzyć PR (Pull Request) ze szkicem artykułu, lub edytować istniejący artykuł na dwa sposoby:
 
 1) Najłatwiejsza metoda to użycie interfejsu GitHuba. Obejrzyj wideo demonstracyjne lub postępuj według instrukcji poniżej:
 
 ![Gif pokazujący kolejne kroki interfejsu GitHuba](https://i.imgur.com/0cmxJwN.gif)
 
 - Otwórz folder "pages" (zlokalizowany w `guides/src`)  i znajdź trzon artykułu który chciałbyś napisać lub edytować. Wszystkie trzony znajdują się w pliku index.md.
-- Kliknij w ikonę ołówka "Edit this file" i dokonaj zmian z uzwgldnieniem składni GitHuba
+- Kliknij w ikonę ołówka "Edit this file" i dokonaj zmian z uwzględnieniem składni GitHuba
 - Przewiń na dół ekranu i dodaj commit objaśniający wprowadzone zmiany. Następnie zaznacz przycisk radio "Create a new branch for this commit and start a pull request" i kliknij "Propose file changes"
 - Na następnym ekranie, dodaj dodatkowe szczegóły na temat swojego PR i kliknij przycisk "Create pull request"
 
 
-2) Jeśli preferujesz tworzyć zmiany lokalnie na swoim komputerze przed wysłaniem PR, postepuj zgodnie z instrukcją:
+2) Jeśli preferujesz tworzyć zmiany lokalnie na swoim komputerze przed wysłaniem PR, postępuj zgodnie z instrukcją:
 - Wykonaj Fork tego repozytorium
 - Skopiuj repozytorium na dysk lokalny uruchamiając komendę `git clone https://github.com/TWOJA-NAZWA-UZYTKOWNIKA-GITHUB/guides.git`
 - Dodaj remote upstream uruchamiając komendę `git remote add upstream https://github.com/freeCodeCamp/guides.git`, aby git wiedział gdzie znajduje się oficjalne repozytorium freeCodeCamp guides.
 - Stwórz nową gałąź dla swoich zmian za pomocą komendy `git checkout -b NAZWA-NOWEJ-GALEZI`. Spróbuj nazwać swoją gałąź w taki sposób, aby opisywała temat artykułu np. `fix/ArticleHTMLElements`
 - Stwórz artykuł, dodaj commit ze zmianami komendą `git commit -m "TRESC WIADOMOSCI"`, i wyślij (push) swoją gałąź na GitHub za pomocą komendy `git push origin NAZWA-NOWEJ-GALEZI`
-- Udaj się na stronę swojego forka repozytorium na GitHub i stwórz pull request.
+- Udaj się na stronę swojego forka repozytorium na GitHub i stwórz PR (Pull Request).
 
-Upewnij się, że lokalny fork pozostaje aktualny w stosunku do oficjalnego repozytorium freeCodeCamp guides. Następnym razem kiedy zechcesz wprowadzić zmiany, sprawdź czy lokalna gałąź `master` jest aktualna komendą `git pull --rebase upstream master`, nim zaczniesz tworzyć nowe rozgałęzienia. Powyższa komenda spowoduje pobranie wszystkich zmian wprowadzonych w oficjalnym repozytorium gałęzi `master` bez tworzenia dodatkowego commita w twoim lokalnym repozytorium.
+Upewnij się, że lokalny fork pozostaje aktualny w stosunku do oficjalnego repozytorium freeCodeCamp guides. Następnym razem kiedy zechcesz wprowadzić zmiany, nim zaczniesz tworzyć nowe rozgałęzienia, sprawdź czy lokalna gałąź `master` jest aktualna za pomocą komendy `git pull --rebase upstream master`. Powyższa komenda spowoduje pobranie wszystkich zmian wprowadzonych w oficjalnym repozytorium gałęzi `master` bez tworzenia dodatkowego commita w twoim lokalnym repozytorium.
 
 ## Uruchomienie przewodnika lokalnie na swoim komputerze
 
-Finally, if you want to run a version of the guides repository locally, follow these steps:
+Na koniec, jeśli chcesz uruchomić lokalną wersję repozytorium przewodnika, postępuj zgodnie z instrukcją:
 
-1. Ensure you have the `yarn` package manager installed `npm install -g yarn`
-2. Fork this repository
+1. Upewnij się, że masz zainstalowany menadżer pakietów `yarn` za pomocą komendy `npm install -g yarn`
+2. Wykonaj Fork tego repozytorium
 3. :point_down:
 ```sh
-git clone https://github.com/YOUR-GITHUB-USERNAME/guides.git
+git clone https://github.com/TWOJA-NAZWA-UZYTKOWNIKA-GITHUB/guides.git
 cd guides
 yarn install
 yarn run dev
 ```
 
-In this project, we are using `yarn` because `netlify` builds our site with `yarn`.
+W tym projekcie używamy `yarn` ponieważ `netlify` buduje naszą stronę przy pomocy `yarn`.
 
-## Przewodnik po stylowaniu artykułów
+## Przewodnik stylowania artykułów
 
-We've written the following guide to writing Guide articles to help you get started contributing.
+Napisaliśmy poniższy poradnik pisania artykułów, aby pomóc ci rozpocząć tworzenie treści.
 
 **Spis treści**
 
