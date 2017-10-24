@@ -52,7 +52,7 @@ int main()
  x=10;                 // Initialized once
  cout <<"first value of x = "<< x;
  x=20;                 // Initialized again
- cout <<"Initialized again with value = "<< x;
+ cout <<"Initialized again with value = "<< x;`
 }
 ```
 
@@ -74,3 +74,53 @@ int main()
  cout << n;      // Compile time error, n not available here
 }
 ```
+
+Now let's read about a new type of variable-
+#### Static variable
+
+Static variables : When a variable is declared as static, space for it gets allocated for the lifetime of the program. Even if the function is called multiple times, space for the static variable is allocated only once and the value of variable in the previous call gets carried through the next function call. This is useful for implementing coroutines in C/C++ or any other application where previous state of function needs to be stored.
+In layman terms , it means that a normal variable when goes out of scope looses it's identity (value) , but a static variable has a global scope and retain it's value till end of program , but unlike global variable it is not necessary to declare it at start of program.
+
+#### EXTRA-
+Static is a keyword in C++ used to give special characteristics to an element. Static elements are allocated storage only once in a program lifetime in static storage area. And they have a scope till the program lifetime.
+
+
+#### CODE-
+
+```
+#include <iostream>
+#include <string>
+using namespace std;
+ 
+void howstaticworks()
+{
+    static int count = 0;  // static variable
+    cout << count << " ";
+     
+    /* value is updated and
+     will be carried to next
+     function calls*/
+    count++;
+}
+ 
+int main()
+{
+    for (int i=0; i<5; i++)    
+        howstaticworks();
+    return 0;
+}
+```
+#### Try yourself
+just copy the code and paste it in link given.
+Run on IDE- https://ideone.com/
+
+
+Output:
+0 1 2 3 4 
+
+You can see in the above program that the variable count is declared as static. So, its value is carried through the function calls. The variable count is not getting initialized for every time the function is called.
+
+Let's give the same code a try by removing "static" keyword and guess the output and compare it with one on IDE.
+The static is now converted into normal variable
+
+
