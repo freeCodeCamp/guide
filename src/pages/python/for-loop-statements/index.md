@@ -142,6 +142,14 @@ Output:
 >
 ```
 
+
+Using for loop for making list of numbers
+
+```python
+l = [i for i in range(0,20)]
+
+ 
+
 A common use case is iterating over a dictionary:
 
 ```python
