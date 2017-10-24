@@ -15,7 +15,7 @@ FROM  tableNameOne AS a
 JOIN tableNameTwo AS b ON a.primeKey = b.primeKey 
 etc...
 ```
-The JOIN statement could be just JOIN or INNER JOIN, which are the same, or LEFT JOIN (described below). 
+The JOIN statement could be just JOIN or INNER JOIN, which are the same, or LEFT JOIN (described below). There is also RIGHT JOIN, a lesser used option, and the opposite of LEFT JOIN.
 Here are descriptions and examples of each.  Compare to the complete tables below.
 
 ### Join
@@ -122,9 +122,17 @@ student contact or RIGHT table
 |         8 | Michael.Roach@freeCodeCamp.ort   | 555-555-5558       |              97118 |
 +-----------+----------------------------------+--------------------+--------------------+
 8 rows in set (0.00 sec)
+
+### RIGHT JOIN
+RIGHT JOIN returns all of the values from the right table, and the matching ones from the left table. 
+
+Example syntax:
 ```
-
-
+SELECT a.studentID, a.FullName, a.programOfStudy,
+b.`student-phone-cell`, b.`student-US-zipcode`
+FROM student AS a
+RIGHT JOIN `student-contact-info` AS b ON a.studentID = b.studentID;
+```
 As with all of these SQL things there is MUCH MORE to them than what's in this introductory guide.  
 
 I hope this at least gives you enough to get started.  
