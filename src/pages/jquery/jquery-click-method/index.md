@@ -8,10 +8,10 @@ Binds the click event to an element or triggers the event on an element. It's mo
 ```javascript
 jQueryElement.click(handler)
 ```
-* handler: it's a function who is executed everytime when the event is triggered, this function also receive a param a [eventObject](http://api.jquery.com/Types/#Event)
+* handler: it's a function which is executed everytime when the event is triggered, this function also receive a param a [eventObject](http://api.jquery.com/Types/#Event)
 
 #### Examples
-Showing a alert on click of a button:
+Showing an alert on click of a button:
 ```html
 <button id="alert">Click Here</button>
 ```
