@@ -22,4 +22,4 @@ The `<body>` element should contain all of a page's content, including all displ
 
 
 #### More Information:
-[MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body)
+[MDN article on the body tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body)
