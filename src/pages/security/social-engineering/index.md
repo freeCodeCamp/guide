@@ -19,7 +19,7 @@ Social Engineering is the art of gaining access to a secured system or resource 
 
 * Pretexting: Telling lies to gain access to private information. An example would be impersonating a bank officer and asking people for personal information to 'confirm their account'.
 
-* Phishing: Sending an email which looks like it is from a trusted source to bait the user into clicking a link (to install malware) or replying with private information.
+* Phishing: Sending an email which looks like it is from a trusted source to bait the user into clicking a link (to install malware) or replying with private information. The most effective phising emails are those that elicit a strong emotional response within the receiver, such as anger, or fear, these emotions stop the victim from thinking clearly, and are more likely to fall for the attack.
 
 
 
