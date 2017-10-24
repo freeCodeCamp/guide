@@ -50,5 +50,26 @@ This is a list of the CSS classes that bootstrap provides for buttons.
 
 _Note: Do not include the dot in the HTML Class Attribute, referring to the classes with a dot is only used when adjusting the classes in CSS._
 
-#### More Information:
 
+#### Bootstrap Button Size List:
+This is a list of boostrap button sizes. 
+
+`.btn-lg` This is bootstrap's large button.
+
+<button type="button" class="btn btn-primary btn-lg">Large button</button>
+<button type="button" class="btn btn-secondary btn-lg">Large button</button>
+
+`.btn-sm` This is bootstrap's small button.
+
+<button type="button" class="btn btn-primary btn-sm">Small button</button>
+<button type="button" class="btn btn-secondary btn-sm">Small button</button>
+
+`.btn-block` This will make the button to the size of it's parent div.
+
+<button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
+<button type="button" class="btn btn-secondary btn-lg btn-block">Block level button</button>
+
+_Note: You can modify it to whichever predefined Boostrap style by changing the second class semantic._
+
+
+#### More Information:
