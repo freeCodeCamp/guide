@@ -10,6 +10,7 @@ React Native (RN) is a cross-platform tool for building applications that can ru
 **Table of Contents**
 - [What is React Native?](#what-is-react-native)
 - [Reasons to choose React Native](#reasons-to-choose-react-native)
+- [Getting Started](#getting-started)
 
 ### What is React Native
 
@@ -26,3 +27,11 @@ It follows the same pattern as React where the views (what you see on the screen
 1. Corporate backing — Lot’s of companies support and contribute to React Native including Walmart, Airbnb, Wix, and, of course, Facebook.
 1. Community — React Native has a large (and growing) community with over 1500 contributors to the core project and thousands more who contribute to various libraries.
 1. Better user experience — Others frameworks like ionic or cordova are called hybrid because they renders using HTML, CSS. React Native renders its javascript code using native components from your phone's OS. This contribute to a better user experience closer to an app built in an specific phone language.
+
+### Getting Started
+
+Installing dependencies: Node, Watchman, React Native command line interface, and Xcode.
+brew install node
+brew install watchman
+npm install -g react-native-cli
+Mac App Store: install Xcode will also install iOS Simulator. 
