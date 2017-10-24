@@ -58,3 +58,6 @@ while(!sorted) {
 ```
 
 
+### Other Resources
+
+<a href='https://youtu.be/Ui97-_n5xjo' target='_blank' rel='nofollow'>Bubble Sort - CS50</a>
