@@ -43,3 +43,9 @@ The output in your terminal should look something like this:
 [master 22gc8v1] My new message
  1 file changed, 1 insertion(+)
 ```
+
+### Using detailed commit message
+Although ```git commit -m "commit message"``` works fine it will be useful if we provide more and systmatic information. we do this using writing commit message in file.The process is similar you add your changes to staging area using ```git add``` command and while committing them instead of using ```-m``` option just use ```git commit```.This will open a file your default text editor (most probably vi), write down commit message in detail and save changes this will perform commit.
+
+Keep your commit message lines length less than 72 charcters as standard practise.Also it is perfectly ok to write multiline commit message.You can also refer to other issue or pull request in your commit message.For example you want to provide 788 pull request for reference then you can add it to your commit message using #. ```#788``` in your commit message will create link to that pull request.
+    
