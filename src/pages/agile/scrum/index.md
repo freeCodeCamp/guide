@@ -12,7 +12,7 @@ The practice revolves around
 
 
 #### More Information:
-There are several online tools that can be used to do scrum for your team. e.g. <a href='https://www.scrumdo.com/'>Scrum Do, <a href='http://www.asana.com'>Asana, or <a href='http://trello.com>Trello
+There are several online tools that can be used to do scrum for your team. e.g. <a href='https://www.scrumdo.com/'>Scrum Do, <a href='http://www.asana.com'>Asana, or <a href='http://trello.com'>Trello
 <a href='https://www.scrumalliance.org/why-scrum'> Why Scrum </a> from The Scrum Alliance.
 
 <a href='http://agilitrix.com/2016/04/doing-agile-vs-being-agile/'>Doing vs Being Agile</a>
