@@ -15,10 +15,10 @@ title: C++
 
 ```cpp
 #include <iostream>
-using namespace std ;
+using namespace std;
 int main()
 {
-    cout<<"Hello World"<<endl;
+    cout << "Hello World" << endl;
     return 0;
 }
 ```
@@ -34,7 +34,7 @@ Now , let's break down the code :
 #### Line 1 and 2
 
 ```cpp
-# include<iostream>
+#include <iostream>
 using namespace std;
 ```
 
@@ -56,7 +56,7 @@ int main()
 #### Lines 4,5 & 6
 
 ```cpp
-cout<<"Hello World"<<endl;
+    cout << "Hello World" << endl;
     return 0;
 }
 ```
