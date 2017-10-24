@@ -1,15 +1,40 @@
 ---
-title: Header Tag
+title: Header Tags
 ---
-## Header Tag
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/header-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+
+
+
+
+
+The ```<header>``` element opens a container for content or a set of links and is closed with a ```</header>``` tag.
+
+You can have several ```<header>``` elements in one document.
+  
+A ```<header>``` tag cannot be placed within a ```<footer>```, ```<address>``` or another ```<header>``` element.
+  
+A ```<header>``` element typically contains:<br>
+  -one or more heading elements (```<h1> - <h6>```)<br>
+  -logo or icon<br>
+  -authorship information
+
+---
+Default CSS styling:
+---
+```css
+header { 
+    display: block;
+}
+```
+
+---
+More Information: <a href="https://www.w3schools.com/tags/tag_header.asp">W3S</a>
+---
+
+
+
 
 
