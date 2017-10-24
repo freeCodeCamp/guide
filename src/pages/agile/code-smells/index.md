@@ -3,13 +3,10 @@ title: Code Smells
 ---
 ## Code Smells
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/code-smells/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Code smells are indicators that there are deeper problems in the code. They are usually pretty easy to spot, so they typically can be sensed by less experienced developers. It might be something as simple as a long method, but many times code smells can indicate a much bigger problem that will probably require some refactoring.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+A great explanation by renowned author and speaker, Martin Fowler:
 
+[Martin Fowler: Code Smell](https://martinfowler.com/bliki/CodeSmell.html)
 
