@@ -11,7 +11,7 @@ A more complex HTML table may also include `<caption>`, `<col>`, `<colgroup>`, `
 ```html
 <!DOCTYPE html>
 <html>
-	<body>
+  <body>
     <table>
       <tr>
         <td>
@@ -22,7 +22,7 @@ A more complex HTML table may also include `<caption>`, `<col>`, `<colgroup>`, `
         </td>
       </tr>
     </table>
-	</body>
+  </body>
 </html>
 ```
 
@@ -30,7 +30,7 @@ A more complex HTML table may also include `<caption>`, `<col>`, `<colgroup>`, `
 ```html
 <!DOCTYPE html>
 <html>
-	<body>
+  <body>
     <table>
       <thead>
         <th>
@@ -57,7 +57,7 @@ A more complex HTML table may also include `<caption>`, `<col>`, `<colgroup>`, `
         </tr>
       </tfoot>
     </table>
-	</body>
+  </body>
 </html>
 ```
 
