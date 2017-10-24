@@ -49,4 +49,9 @@ As shown, the border property allows you to select different sections of it. [to
 
 MDN Documentation: <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/border' target='_blank' rel='nofollow'>MDN</a>
 
+### Other Border Attributes
+- 'border-radius' - This can set radius of the border. 
+- 'border-spacing' - This can set spacing between the text and border. 
+- 'border-image' - This sets an image as border. 
+
 Browser Support: IE6+
