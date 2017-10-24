@@ -141,9 +141,9 @@ W miarę możliwości stosuj przecinek oxfordzki (Oxford Comma). Jest to przecin
 
 ### Atrybucja
 
-Aby zminimalizować ryzyko plagiatu i zachować integralność w artykułach przewodnika, ważne jest, aby w razie potrzeby podać autora lub źródło cytowanego materiału. Jesli materiał cytowany jest w postaci niezmienionej w stosunku domateriału źródłowego, powinien być umieszczony w cudzysłowie i zawierać odpowiedni przypis. Materiał, który nie jest bezpośrednim cytatem, ale wciąż parafrazuje inne zasoby, należy również oznaczyć. W tym celu mozna użyc cyfr górnego indeksu (superscript) przy użyciu tagów `<sup></sup>` w następujący sposób <sup>1</sup>
+Aby zminimalizować ryzyko plagiatu i zachować integralność w artykułach przewodnika ważne jest, aby w razie potrzeby podać autora lub źródło cytowanego materiału. Jeśli materiał cytowany jest w postaci niezmienionej w stosunku do materiału źródłowego, powinien być umieszczony w cudzysłowie i zawierać odpowiedni przypis. Materiał który nie jest bezpośrednim cytatem, ale wciąż parafrazuje inne zasoby, należy również oznaczyć. W tym celu można użyć cyfr górnego indeksu (superscript) przy użyciu tagów `<sup></sup>` w następujący sposób <sup>1</sup>
 
-Następnie na dole artykułu należy umieść nagłówek `### Sources` i dołączyć listę wszystkich cytatów, które powinny odpowiadać oznaczeniom powyżej:
+Następnie na dole artykułu należy umieścić nagłówek `### Sources` i dołączyć listę wszystkich cytatów, które powinny odpowiadać oznaczeniom powyżej:
 
 <blockquote>
 Tu jest treść, która powinna zostać oznaczona jako cytat.<sup>1</sup> A tu jest jeszcze więcej treści która powinna być oznaczona jako cytat z innego źródła.<sup>2</sup>
@@ -158,21 +158,21 @@ Możesz sprawdzić link "Purdue" powyżej, aby zobaczyć, jak prawidłowo cytowa
 
 Jeśli nie możesz znaleźć autora lub daty wydania, co jest dość powszechne, po prostu pomiń je.
 
-Korzystanie z odpowiednio sformatowanych cytatów nie tylko utrzymuje dobrą reputację przewodnika, ale także poprzez linki pozwala dostarczyć wartościowych zasobów, które pozwolą czytelnikowi dowiedzić się więcej na temat danego zagadnienia. Należy również zauważyć, że w przypadku plagiatu treści zostaną usunięte lub pull requesty zostaną odrzucone, a użytkownik otrzyma ostrzeżenie. Przed wniesieniem wkładu w treść przewodnika zapoznaj się z [Academic Honesty Policy](https://www.freecodecamp.org/academic-honesty).
+Korzystanie z odpowiednio sformatowanych cytatów nie tylko utrzymuje dobrą reputację przewodnika, ale także poprzez linki pozwala dostarczyć wartościowych zasobów, które pozwolą czytelnikowi dowiedzieć się więcej na temat danego zagadnienia. Należy również zauważyć, że w przypadku plagiatu treści zostaną usunięte lub pull requesty zostaną odrzucone, a użytkownik otrzyma ostrzeżenie. Przed wniesieniem wkładu w treść przewodnika zapoznaj się z [Academic Honesty Policy](https://www.freecodecamp.org/academic-honesty).
 
 ### Formatowanie przykładowego kodu
 
-Campers will likely use Guide articles as a quick reference to look up syntax. Articles should have simple real-world examples that show common-use cases of that syntax.
+Użytkownicy będą prawdopodobnie używać artykułów przewodnika jako łatwo dostępnego źródła poprawnej składni. Artykuły powinny zawierać proste przykłady z rzeczywistej praktyki programistycznej, które pokażą popularne sposoby stosowania składki w praktyce.
 
-Here are specific formatting guidelines for any code:
+Poniżej przedstawiono wskazówki dotyczące formatowania dla dowolnego kodu:
 
-- JavaScript statements end with a semicolon
-- Use double quotes where applicable
-- Show generally-accepted best practices, particularly for accessibility
-- Comments made should have a space between the comment characters and the comment themselves
+- Deklaracje w JavaScript kończą się średnikiem
+- W stosownych przypadkach należy używać cudzysłowów
+- Pokaż ogólnie przyjęte sprawdzone metody, szczególnie w związku z dostępnością
+- Komentarze powinny zawierać spację między znakami komentarza a samym komentarzem
 
     `// Fix this line`
-- GitHub-flavored markdown supports [syntax highlighting in code blocks](https://help.github.com/articles/creating-and-highlighting-code-blocks/#syntax-highlighting) for many programming languages. To use it, indicate the language after starting ```
+- GitHub markdown wspiera [kolorowanie składni w blokach kodu](https://help.github.com/articles/creating-and-highlighting-code-blocks/#syntax-highlighting) dla wielu języków programowania. Aby go użyć, wskaż odpowiedni język po rozpoczęciu ```
 ```
     ```html
         <div class='awesome' id='more-awesome'>
@@ -195,40 +195,40 @@ Here are specific formatting guidelines for any code:
 
 ### Dodawanie obrazów do artykułów
 
-For including images, if the images aren't already hosted somewhere else on the web, you'll need to put them online yourself. A good way to do this is to commit them to a GitHub repository of your own, then push them to GitHub. Then you can right-click the image and copy its image source.
+Aby dodać obrazy, jeśli nie są one przechowywane gdzieś indziej w sieci, musisz je samodzielnie umieścić online. Dobrym sposobem aby to zrobić, jest wgranie ich do własnego repozytorium GitHub (commit i push). Następnie można wskazać obraz za pomocą prawego przycisku myszy i skopiować skopiować jego źródło.
 
-Then you'd just need to reference them in your markdown file with this syntax:
+Następnie należy jedynie odwoływać się do nich w pliku markdown za pomocą składni:
 
-`![your alt text](your url)`
+`![twój alt tekst](twój url)`
 
-Then the images should show up when you click the "preview table" tab.
+Następnie obrazy powinny pojawić się po kliknięciu zakładki "preview table".
 
 ### Właściwe rzeczowniki
 
-Proper nouns should use correct capitalization when possible. Below is a list of words as they should appear in Guide articles.
+Właściwe rzeczowniki powinny w miarę możliwości używać poprawnej kapitalizacji. Poniżej znajduje się lista poprawnie sformatowanych słów, które powinny pojawić się w artykułach przewodnika.
 
-- JavaScript (capital letters in "J" and "S" and no abbreviations)
+- JavaScript (wielka litera "J" i "S" obraz brak skrótów)
 - Node.js
 - jQuery
 - SQL
 
-Front-end development (adjective form with a dash) is when you working on the front end (noun form with no dash). The same goes with the back end, full stack, and many other compound terms.
+Front-end development (przymiotnik z myślnikiem) jest wtedy gdy pracujesz nad front end (rzeczownik bez myślnika). Takie same zasady dotyczą sformułowań: back end, full stack, i wielu innych zwrotów złożonych.
 
 ### Gdzie otrzymać pomoc
 
-Technical writing, or the literature of science and technology, is hard. You'll need to take a technical (usually abstract) topic and explain it in a clear, accurate, and objective manner. You'll likely go through several rounds of proofreading and editing before you're happy with the result.
+Pisanie techniczne lub literatura dotycząca nauki i technologii jest trudna. Musisz podjąć techniczny (zazwyczaj abstrakcyjny) temat i wyjaśnić go w jasny, dokładny i obiektywny sposób. Prawdopodobnie przejdziesz kilka rund sprawdzania i edytowania, zanim będziesz zadowolony z rezultatu.
 
-Use the [Hemingway App](http://www.hemingwayapp.com/). There’s nothing magical about this simple tool, but it will automatically detect widely agreed-upon style issues:
+Użyj [Hemingway App](http://www.hemingwayapp.com/). Nie ma nic magicznego w tym prostym narzędziu, ale automatycznie wykryje ono powszechne problemy związane ze stylem pisania:
 
-- passive voice
-- unnecessary adverbs
-- words that have more common equivalents
+- tryb pasywny
+- niepotrzebne przysłówki
+- słowa, które mają więcej synonimów
 
-The Hemingway App will assign a “grade level” for your writing. You should aim for a grade level of 6. Another tool available is the [De-Jargonizer](http://scienceandpublic.com/), originally designed for scientific communication but might help avoid overspecialized wording.
+Aplikacja Hemingway przyzna ocenę twojemu tekstowi. Powinieneś dążyć do oceny "6". Innym dostępnym narzędziem jest [De-Jargonizer](http://scienceandpublic.com/), pierwotnie zaprojektowane do komunikacji naukowej. Może ono pomóc uniknąć stosowania nadmiernie specjalistycznej terminologii.
 
-Also, there's a community of support from a whole team of contributors, whom you can bounce ideas off of and ask for input on your writing. Stay active in the [contributor's chat room](https://gitter.im/freecodecamp/contributors) and ask lots of questions.
+Ponadto istnieje społeczność wsparcia ze strony całego zespołu współpracowników, którym można podrzucić pomysły i poprosić o informacje zwrotne na temat twoich tekstów. Bądź aktywnym w [contributor's chat room](https://gitter.im/freecodecamp/contributors) i zadawaj wiele pytań.
 
-Z twoją pomocą, możemy stworzyć kompleksowe narzędzie referencyjne, które pomoże milionom ludzi uczącym sie programowania. Zarówno tym, którzy uczą sie teraz, jak i tym którzy bedą to robić w kolejnych latach.
+Z twoją pomocą, możemy stworzyć kompleksowe narzędzie referencyjne, które pomoże milionom ludzi uczącym się programowania. Zarówno tym, którzy uczą się teraz, jak i tym którzy będą to robić w kolejnych latach.
 
 ## Licencja
 
@@ -240,10 +240,10 @@ Zawartość tego repozytorium podlega pod następujące licencje:
 
 ## Informacje od tłumacza
 
-Powyższe tłumaczenie ma za zadanie ułatwić pierwszy kontakt z przewodnikiem freeCodeCamp osobom, które na codzień komunikują się w języku polskim. Aktualnie artykuły przewodnika freeCodeCamp (freeCodeCamp Guide) tworzone są tylko i wyłącznie w języku angielskim i w tym języku należy dokonywać ewentualnych kontrybucji.
+Powyższe tłumaczenie ma za zadanie ułatwić pierwszy kontakt z przewodnikiem freeCodeCamp osobom, które na co dzień komunikują się w języku polskim. **Aktualnie artykuły przewodnika freeCodeCamp (freeCodeCamp Guide) tworzone są tylko i wyłącznie w języku angielskim i w tym języku należy dokonywać ewentualnych kontrybucji**.
 
 W powyższym pliku README:
-- Pojawiły się terminy związane z obszarem computer science. Zostały one przetłumaczone tylko w tym miejscu gdzie nei budziały wątpliwości
-- Pojawiły się terminy związane z interfejsem i termonologią GitHub. W większości przypadków nie zostały one przetłumaczone, z wyjątkiem terminu "branch", który w języku polskim powszechnie wystepuje jako "gałąź"
+- Pojawiły się terminy związane z obszarem computer science. Zostały one przetłumaczone tylko w tym miejscu gdzie nie budziły wątpliwości
+- Pojawiły się terminy związane z interfejsem i terminologią GitHub. W większości przypadków nie zostały one przetłumaczone, z wyjątkiem terminu "branch", który w języku polskim powszechnie występuje jako "gałąź"
 - Pojawił się termin "stub article", który tłumaczony dosłownie oznacza "kikut artykułu" co w języku polskim nie oddaje prawidłowo znaczenia sensu tej struktury. Z tego powodu zamiast wymienionego wyżej zwrotu zastosowany został termin "trzon"
-- W sekcji "General writing tips" zachowana została oryginalna forma pisowni osób i zwrotów w języku angielskim tam, gdzie zworty te wyjasniały w jaki sposób należy pisać artykuły
+- W sekcji "General writing tips" zachowana została oryginalna forma pisowni osób i zwrotów w języku angielskim tam, gdzie zwroty te wyjaśniały w jaki sposób należy pisać artykuły
