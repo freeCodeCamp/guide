@@ -17,9 +17,7 @@ CSS3 defines two types of gradients:
 To create a linear gradient you must define at least two color stops. Color stops are the colors you want to render smooth transitions among. You can also set a starting point and a direction (or an angle) along with the gradient effect.
 
 #### Syntax
-'''
-  background: linear-gradient(direction, color-stop1, color-stop2, ...);
-'''
+    background: linear-gradient(direction, color-stop1, color-stop2, ...);
 
 ##### Linear Gradient - Top to Bottom (this is default)
 The following example shows a linear gradient that starts at the top. It starts red, transitioning to yellow:
