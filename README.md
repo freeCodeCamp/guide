@@ -42,6 +42,7 @@ You can create a PR (Pull Request) with your draft article (or edits on an exist
 2) If you prefer to write locally before submitting a PR, then follow these steps:
 - Fork this repository
 - Copy it to your local machine by running the command `git clone https://github.com/YOUR-GITHUB-USERNAME/guides.git`
+- Change directory to your new directory created by git clone.
 - Add a remote upstream so git knows where the official freeCodeCamp guides repository is located by running the command `git remote add upstream https://github.com/freeCodeCamp/guides.git`
 - Create a new branch for your work with the command `git checkout -b NEW-BRANCH-NAME`. Try to name your branch in a way that describes your article topic, like `fix/ArticleHTMLElements`
 - Write your article, commit your changes locally with the command `git commit -m "SHORT MESSAGE"`, and push your new branch to GitHub with the command `git push origin NEW-BRANCH-NAME`
