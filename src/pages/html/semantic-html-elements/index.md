@@ -9,19 +9,19 @@ Semantic HTML is the use of HTML markup to reinforce the semantics, or meaning, 
 
 Some examples of semantic HTML markup are ase follows:
 
-* ```<article>```
-* ```<aside>```
-* ```<details>```
-* ```<figcaption>```
-* ```<figure>```
-* ```<footer>```
-* ```<header>```
-* ```<main>```
-* ```<mark>```
-* ```<nav>```
-* ```<section>```
-* ```<summary>```
-* ```<time>```
+* `<article>`
+* `<aside>`
+* `<details>`
+* `<figcaption>`
+* `<figure>`
+* `<footer>`
+* `<header>`
+* `<main>`
+* `<mark>`
+* `<nav>`
+* `<section>`
+* `<summary>`
+* `<time>`
 
 #### More Information:
 
