@@ -1,27 +1,10 @@
 ---
 title: Machine Learning
 ---
-## Machine Learning
+Machine learning is a field of computer science that gives computers the ability to learn without being explicitly programmed.
 
-As a pioneer in artificial intelligence Arthur Samuel defines it in 1959, Machine Learning is "the field of study that gives computers the ability to learn without being explicitly programmed."
+Arthur Samuel, an American pioneer in the field of computer gaming and artificial intelligence, coined the term "Machine Learning" in 1959 while at IBM. Evolved from the study of pattern recognition and computational learning theory in artificial intelligence, machine learning explores the study and construction of algorithms that can learn from and make predictions on data– such algorithms overcome following strictly static program instructions by making data-driven predictions or decisions through building a model from sample inputs. Machine learning is employed in a range of computing tasks where designing and programming explicit algorithms with good performance is difficult or infeasible; example applications include email filtering, detection of network intruders or malicious insiders working towards a data breach, optical character recognition (OCR), learning to rank, and computer vision.
 
-A more formal definition of Machine Learning is provided by Prof Tom Mitchell of CMU:
+Machine learning is closely related to (and often overlaps with) computational statistics, which also focuses on prediction-making through the use of computers. It has strong ties to mathematical optimization, which delivers methods, theory and application domains to the field. Machine learning is sometimes conflated with data mining, where the latter subfield focuses more on exploratory data analysis and is known as unsupervised learning. Machine learning can also be unsupervised and be used to learn and establish baseline behavioral profiles for various entities and then used to find meaningful anomalies.
 
-> "A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P if its performance at tasks in T, as measured by P, improves with experience E."
-
-Consider the example of a Machine Learning algorithm that plays chess. In this example, `E` refers to the experience of playing chess, `T` is the task of playing chess, and `P` denotes the probability that the program will win the next game of chess.
-
-In general, machine learning problems can be classified into supervised learning, and unsupervised learning. In supervised learning, you have the input and the labeled output, and you suspect that a relationship exists between the input and the labeled output. When you know neither what the labeled output is nor if a relationship exists, unsupervised learning will help you find structure in your data if there is one.
-
-In sum, there are two broad categories of machine learning
-
-1. Supervised learning
-2. Unsupervised learning
-
-There are however other subcategories of machine learning you may encounter such as Semi-supervised and reinforced learning.
-
-
-#### More Information:
-
-1. <a href='https://en.wikipedia.org/wiki/Machine_learning' target='_blank' rel='nofollow'>Machine Learning on Wikipedia</a>
-2. <a href='https://www.youtube.com/watch?v=83uAOzhzs-U' target='_blank' rel='nofollow'>Machine Learning Demystified:Youtube</a>
+Within the field of data analytics, machine learning is a method used to devise complex models and algorithms that lend themselves to prediction; in commercial use, this is known as predictive analytics. These analytical models allow researchers, data scientists, engineers, and analysts to "produce reliable, repeatable decisions and results" and uncover "hidden insights" through learning from historical relationships and trends in the data.
