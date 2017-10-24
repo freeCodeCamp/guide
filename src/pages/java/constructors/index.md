@@ -93,7 +93,7 @@ public class Bank {
 
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CTJz/0' target='_blank' rel='nofollow'>Run Code</a>
 
-Notice that the constructor is `private`. This enforces the fact that no one else is allowed to create an `instance` of the Bank.  
+Notice that the constructor is `private`. This enforces the fact that no one else is allowed to create an `instance` of the Bank. You are able to use the constructor within the class and use the methods and variables associated with it.  
 In fact, if in another class, you try:
 
 ```java
