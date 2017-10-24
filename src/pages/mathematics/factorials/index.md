@@ -3,13 +3,28 @@ title: Factorials
 ---
 ## Factorials
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/factorials/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Factorials are the product of a positive integer and all the positive integers below it. They're denoted by an exclamation point, like this: `n!`. Factorials can be represented iteratively as:
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+`n! = n * n-1 * n-2 * ... * 2 * 1`
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+and recursively as:
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+`n! = n * (n-1)!`
+
+###Examples
+`6!` is `6 * 5 * 4 * 3 * 2 * 1`, which totals `720`.
+
+`4!` is `4 * 3 * 2 * 1`, or `24`.
+
+###Dividing Factorials
+`4!/3!` is the same as writing `(4 * 3!)/3!`. You can simplify this fraction by canceling out the `3!`, leaving you with `4`.
+By the same logic, `5!/3!` is the same as `(5 * 4 * 3!)/3!` which leaves you with `5 * 4`, or `20`.
+
+In other words, `n!/(n-1)! = n`.
+
+###0!
+`0!` is equal to `1`.
+
+We know that `1! = 1`. Using the formula for dividing factorials, it's also true that `1!/0! = 1`. This simplifies to `0! = 1`.
 
 
