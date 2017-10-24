@@ -7,9 +7,9 @@ Converts from one data type to another data type.
 ### Syntax 
 `CONVERT (_New Data Type, Expression, Style_)`
 
-- **New Data Type:** New data type to be converted too. For example nvarchar, integer, decimal, date
-- **Expression:** Data to be converted
-- **Style:** format For example the style 110 is USA Date format  mm-dd-yyyy
+- **New Data Type:** New data type to be converted too. For example: nvarchar, integer, decimal, date
+- **Expression:** Data to be converted.
+- **Style:** Format. For example: The style 110 is USA Date format  mm-dd-yyyy
 
 ### Example: Convert a Decimal Number to An Integer 
 
@@ -17,7 +17,7 @@ Converts from one data type to another data type.
 
 ![convert a decimal number to integer number](https://user-images.githubusercontent.com/12566249/31314884-6c94db4a-ac57-11e7-842f-710fad511131.png)
 
-Note: the result is truncated. 
+Note: The result is truncated. 
 
 ### Example: Convert a String to a Date
 `SELECT CONVERT(DATE, '20161030') as Date`
