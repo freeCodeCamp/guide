@@ -18,6 +18,7 @@ You can initialize more than one variable of the same type in the first part of 
 * `expression` - Evaluated at the beginning of each iteration. If the `expression` evaluates to `true`, `Statements` will get executed.
 * `increment` - Invoked after each iteration through the loop. You can increase/decrease the value of variables here.
 
+Example
 ```java
 int iter_For;
 for (iter_For = 0; iter_For < 10; iter_For++)
