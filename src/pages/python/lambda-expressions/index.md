@@ -57,4 +57,4 @@ adds_three_nums = lambda x,y,z: x+y+z
 144
 ```
 #### More Information:
-https://docs.python.org/3/reference/expressions.html#lambda
+<a href='https://docs.python.org/3/reference/expressions.html#lambda' target='_blank' rel='nofollow'>Python Docs - lambda expression</a>
