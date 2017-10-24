@@ -25,8 +25,7 @@ The following example shows a linear gradient that starts at the top. It starts 
 
 #### Example
 
-'''
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html>
 <head>
 <style>
@@ -51,7 +50,6 @@ The following example shows a linear gradient that starts at the top. It starts 
 
 </body>
 </html>
-'''
 
 ![default-linear-gradient](https://i.imgur.com/LcLbkTI.jpg)
 
