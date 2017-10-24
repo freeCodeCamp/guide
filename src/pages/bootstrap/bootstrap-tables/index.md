@@ -65,12 +65,13 @@ In order to achieve the condensed table use `.table-condensed` in addition to `.
 
 In order to achieve the responsive table by wrapping any `.table` table in a `.table-responsive` element.
 
+```
 <div class="table-responsive">
   <table class="table">
     ...
   </table>
 </div>
-
+```
 ![Responsive Table](https://github.com/TroyB12/Pictures/blob/master/Table%20Responsive.PNG)
 
 ---
