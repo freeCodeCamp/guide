@@ -9,56 +9,33 @@ A more complex HTML table may also include `<caption>`, `<col>`, `<colgroup>`, `
 
 ### Simple Table Example
 ```html
-<!DOCTYPE html>
-<html>
-	<body>
-    <table>
-      <tr>
-        <td>
-          cell 1
-        </td>
-        <td>
-          cell 2
-        </td>
-      </tr>
-    </table>
-	</body>
-</html>
+<table>
+    <tr>
+	<td>cell 1</td>
+	<td>cell 2</td>
+    </tr>
+</table>
 ```
 
 ### Table Example with more semantic information
 ```html
-<!DOCTYPE html>
-<html>
-	<body>
-    <table>
-      <thead>
-        <th>
-          <td>
-            Table Header
-          </td>
-        </th>
-      </thead>
-      <tbody>
-        <tr>
-          <td>
-            Table
-          </td>
-          <td>
-            Body
-          </td>
-        </tr>
-      </tbody>
-      <tfoot>
-        <tr>
-          <td>
-            Table Footer
-          </td>
-        </tr>
-      </tfoot>
-    </table>
-	</body>
-</html>
+<table>
+<thead>
+    <th>Table Header1</th>
+    <th>Table Header2</th>
+</thead>
+<tbody>
+    <tr>
+  	<td>Table</td>
+  	<td>Body</td>
+    </tr>
+</tbody>
+<tfoot>
+    <tr>
+  	<td>Table Footer</td>
+    </tr>
+</tfoot>
+</table>
 ```
 
 #### More Information:
