@@ -3,13 +3,35 @@ title: Required
 ---
 ## Required
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/attributes/required/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+If you want to specify a element must be filled out before submitting the form, use this `< Required>` attribute.
+The `< Required>` attribute is applicable to `<input>` , `<select>` , `<textarea>`. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Input Example:
+```html
+<form action="/action.php">
+  Password: <input type="text" name="password" required>
+  <input type="submit">
+</form>
+```
+Select Example:
+```html
+<form action="/action.php">
+<select required>
+  <option value="">None</option>
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+</select>
+</form>
+```
+Text Area Example:
+```html
+<form action="/action.php">
+  <textarea name="comment" required></textarea>
+  <input type="submit">
+</form>
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
 
