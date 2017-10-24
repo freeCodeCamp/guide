@@ -1,3 +1,7 @@
+---
+title: PHP Cookies
+---
+
 # PHP COOKIES
 
 ## What is a Cookie?
