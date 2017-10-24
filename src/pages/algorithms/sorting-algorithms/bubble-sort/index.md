@@ -57,4 +57,7 @@ while(!sorted) {
 }
 ```
 
-
+#### More Information:
+<!-- Please add any articles you think might be helpful to read before writing the article -->
+<a href="https://www.youtube.com/watch?v=6Gv8vg0kcHc" target="_blank"><img src="http://img.youtube.com/vi/6Gv8vg0kcHc/0.jpg" 
+alt="Greedy Problems" width="240" height="180" border="10" /></a>
