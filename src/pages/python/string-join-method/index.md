@@ -37,5 +37,4 @@ f r e e C o d e C a m p
 ```
 
 #### More Information:
-
-<a href='https://docs.python.org/2/library/stdtypes.html#str.join' target='_blank' rel='nofollow'>python documentation on string join</a>
+[Python Documentation on String Join](https://docs.python.org/2/library/stdtypes.html#str.join)
