@@ -14,3 +14,5 @@ Vim is rock stable and boasts many features including:
 - built-in macro support for automation text manipulation
 
 For more information head to <a href='https://vim.sourceforge.io' target='_blank' rel='nofollow'>Vim's homepage</a>
+
+<a href='https://vim.sourceforge.io' target='_blank' rel='nofollow'>![logo](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Vimlogo.svg/75px-Vimlogo.svg.png "Vim logo")</a>
