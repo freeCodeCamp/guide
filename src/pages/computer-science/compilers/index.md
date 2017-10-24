@@ -3,13 +3,13 @@ title: Compilers
 ---
 ## Compilers
 
-Compilers are a kind of translator. We write the source code in JavaScript, Python, and other languages. Then the compiler takes the code and converts it to code the computer understands.
+Within the field of computer programming, compilers usually refer to applications that take source code written in a high level language such as C++ and translate it into a lower level representation such as a machine code so they can be run by the computer hardware. With a compiled language this step is required before any program you write can be run. By contrast, with interpreted languages programs are read and interpreted on the fly without a separate compilation step. Compiled languages tend to be faster than interpreted languages, as there is no overhead from the run time interpretation of the code, and additional optimisations can be applied during the compilation step, although modern interpreter design has reduced the gap between the two approaches.
 
-This converted code is binary code, which is nothing but 1s and 0s. When you run your source code, a compiler translates all the code first, then produces the binary code. Then the computer takes the binary code and runs it.
+The target output of a compiler is usually machine code for specific CPU. For example C++ could be compiled into x86 machine code for running on desktop PCs. Alternatively, some language compilers create machine code for a specification that doesn't represent real hardware, but is instead used as general machine code like language that can be quickly interpreted into real machine code on any CPU. This allows for compiled programs to be portable, without the larger overhead of a fully interpreted language. Java and Python fall into this category.
 
-If there are errors in your source code, the compiler detects them. This stops the compilation process. Even after the compiler converts the code, the converted code can still fail when it's running.
+As part of the compilation process, the code is checked for errors in syntax and semantics and the process is stopped if the compiler cannot correctly translate the entire source into machine code. This is in contrast to interpreted languages where errors are usually identified only at runtime.
 
-<b>Parts of a compiler</b>
+### Parts of a compiler
 
 Compilation of a program can usually be broken down into several steps:
 
@@ -20,6 +20,10 @@ Compilation of a program can usually be broken down into several steps:
 3. <b>Code generation</b> uses the AST to output code in the desired language.
 
 All compilers need to perform these steps. Most modern compilers also carry out other steps such as checking for type errors and optimizing the resulting compiled code.
+
+### Linking
+
+After compilation, most compiled languages also require a linking step. Most programs consist of multiple source files, which would get compiled into multipe separate machine code files. The job of a linker is to take the compiler output of multiple files and combine them into a single executable file. During this process any names that are referenced across the multiple source files are resolved to point to the same variable or function in the final executable.
 
 #### More Information:
 <a href='https://medium.freecodecamp.org/a-gentler-introduction-to-programming-707453a79ee8' target='_blank' rel='nofollow'>Matt Adesanya's "A Gentler Introduction to Programming"</a> covers compilers vs. interpreters, along with other basic programming concepts.
