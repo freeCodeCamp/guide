@@ -51,8 +51,15 @@ Find javascript libraries at <a href='http://jster.net' target='_blank' rel='nof
 *   <a href='https://code.visualstudio.com/' target='_blank' rel='nofollow'>Visual Studio Code</a>
 
     Visual Studio Code includes built-in support for IntelliSense code completion, rich semantic code understanding and navigation, and code refactoring. It comes with a built-in debugger and git support and has a plethora of extensions.
+    
+*   <a href='https://www.jetbrains.com/webstorm/' target='_blank' rel='nofollow'>Webstorm</a>
+
+    A full-feature IDE for Javascript, including code completion and support for live linting, version control, and testing. Made by Jet Brains and modelled after their IntelliJ Java IDE.
 *   <a href='http://brackets.io' target='_blank' rel='nofollow'>Brackets</a>
 *   <a href='http://atom.io' target='_blank' rel='nofollow'>Atom</a>
+
+    Open source text editor made by GitHub.
+    
 *   <a href='https://www.sublimetext.com/' target='_blank' rel='nofollow'>Sublime Text</a>
 
 ## Blogs
