@@ -3,11 +3,12 @@ title: Basic Log Rules and Expanding Log Expressions
 ---
 ## Basic Log Rules and Expanding Log Expressions
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/basic-log-rules-and-expanding-log-expressions/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Logarithms are just a convenient and faster way of doing complex calculations. They are the inverse function to exponentiation. The basic log rules are :
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+1. log(a ^ k) = k * log(a)
+2. log(a * b) = log(a) + log(b)
+3. log(a / b) = log(a) - log(b)
+4. log(1) = 0
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
