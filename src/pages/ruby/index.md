@@ -3,7 +3,9 @@ title: Ruby
 ---
 ## Ruby
 
-Ruby is a programming language created to maximize developer happiness and readability. It is the high level scripting language that powers Ruby on Rails, which remains one of the more popular web development frameworks.
+The [Ruby](https://www.ruby-lang.org/en/) programming language was created to maximize developer happiness and readability. Ruby's syntax was designed to be natural to read, and easy to write.
+
+Ruby is probably best known for [Ruby-on-Rails](http://rubyonrails.org), a popular web development framework.
 
 ## Behaviour Driven Development BDD (RSpec)
 
