@@ -156,6 +156,9 @@ So a final tip I want to give you all is to pay attention to the order of your H
 Oh ... it doesn't? In that case ..you might one day hear a muffled curse carried to you on a chilly breeze while walking outside. That will most likely be me, visiting your website. ![:slight_smile:](//forum.freecodecamp.com/images/emoji/emoji_one/slight_smile.png?v=2 ":slight_smile:")  
 In that case I really only have two words for you. Often have I heard those same two words directed at me when I wrote some bad code and it is with great pleasure that I tell you: "go fix!" ![:slight_smile:](//forum.freecodecamp.com/images/emoji/emoji_one/slight_smile.png?v=2 ":slight_smile:")
 
+### Color Contrast
+Color contrast should be a minimum of 4.5:1 for normal text and 3:1 for large text. “Large text” is defined as text that is at least 18 point (24px) or 14 point (18.66px) and bold. (//https://webaim.org/resources/contrastchecker/)
+
 ## Conclusion
 
 I have told you about accessibility, what it is, what it's not and why it's important.  
