@@ -46,6 +46,8 @@ From terminal:
     Python 3.4.3
     $ python3.5 --version
     Python 3.5.1
+    # python3.6 --version
+    Python 3.6.2
 
 ## Python Interpreter Interactive Mode
 
