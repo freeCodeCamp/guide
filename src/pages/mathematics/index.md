@@ -70,5 +70,8 @@ Documentation reference: [cplusplus reference](http://www.cplusplus.com/referenc
 ``` python
 >>> import math
 ```
+#### Java
+    Java
+    import java.lang.Math
 
 
