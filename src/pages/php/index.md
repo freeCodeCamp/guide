@@ -24,5 +24,5 @@ All PHP code is executed on a web server only, not on your local computer. For e
 
 ## Helpful links and resources
 
-[PHP.net website](https://secure.php.net/)
-[PHP Reference Documentation](https://secure.php.net/docs.php)
+* [PHP.net website](https://secure.php.net/)
+* [PHP Reference Documentation](https://secure.php.net/docs.php)
