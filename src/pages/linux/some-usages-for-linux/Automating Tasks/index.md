@@ -1,6 +1,10 @@
+---
+title: Automating Tasks
+---
+
 ### Automating Tasks or Task Scheduling
 
-There is a feature of Linux that is exclusively leveraged in a web server .
+There is a feature of Linux that is exclusively leveraged in a web server,known as CRON 
 As we  know that one of the most compelling features about any web server is that it's always
 powered on and always connected to the internet. This means that we can instruct
 our server to perform tasks automatically, without us needing to enter a command
