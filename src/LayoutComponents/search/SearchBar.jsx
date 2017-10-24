@@ -85,7 +85,7 @@ class SearchBar extends PureComponent {
               htmlFor='searchInput'
               srOnly={ true }
               >
-              Search, press enter to submit
+              Search
             </ControlLabel>
             <FormControl
               className='input'
