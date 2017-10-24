@@ -188,6 +188,37 @@ motoG.next(); // Next from MusicPlayer
 
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CIts/0' target='_blank' rel='nofollow'>Run Code</a>
 
+## Static Methods in Interfaces
+
+Also new to Java 8 is the ability to add static methods to interfaces. Static methods in interfaces are almost identical to static methods in concrete classes.  The only big difference is that `static` methods are not inherited in the classes that implement the interface. This means that the interface is referenced when calling the static method not the class that implements it. 
+
+```java
+interface MusicPlayer {
+  public static void commercial(String sponsor) {
+    System.out.println("Now for a message brought to you by " + sponsor);
+  }
+  
+  public void play();
+}
+
+
+class Smartphone implements MusicPlayer {
+	public void play() {
+		System.out.println("Playing from smartphone");
+	}
+}
+
+class Main {
+  public static void main(String[] args) {
+    Smartphone motoG = new Smartphone();
+    MusicPlayer.commercial("Motorola"); // Called on interface not on implementing class
+    // motoG.commercial("Motorola"); // This would cause a compilation error 
+  }
+}
+```
+
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CIts/9' target='_blank' rel='nofollow'>Run Code</a>
+
 ## Inheriting an Interface
 
 It is also possible in Java for an Interface to _inherit_ another Interface, by using, you guessed it, `extends` keyword :
