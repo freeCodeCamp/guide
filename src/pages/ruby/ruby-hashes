@@ -1,0 +1,36 @@
+---
+title: Ruby Hashes
+---
+## Ruby Hashes
+
+Hashes are a collection of unique keys and their values. They are similar to arrays, but can are not tied to using an index as a key.
+To make an hash in Ruby, use curly brackets, use a colon after each key, and separate key-value pairs with commas:
+
+```ruby
+my_hash = { name: "Free Code Camp", website: "https://www.freecodecamp.org/" }
+```
+
+Alternatively you can use create a hash with .new, with an option to provide a default value:
+
+```
+my_hash = Hash.new
+my_hash = Hash.new(0) # with default value set to 0
+```
+
+You can add to a hash in a similar way to an array, except you define the key.
+
+```ruby
+my_hash[:non_profit] = true 
+```
+
+You can access the elements of an array with square brackets and key:
+
+```ruby
+my_hash[:name] # "Free Code Camp"
+my_hash[:website] # "https://www.freecodecamp.org/"
+my_hash[:non_profit] # true
+```
+
+
+#### More Information:
+<a href='https://ruby-doc.org/core-2.2.0/Hash.html' target='_blank' rel='nofollow'>Ruby hash documentation</a>
