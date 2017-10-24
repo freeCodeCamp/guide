@@ -33,3 +33,4 @@ is the same as:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
 <a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img' target='_blank' rel='nofollow'>MDN</a>
+<a href="https://www.w3schools.com/TAGs/tag_img.asp">W3Schools</a>
