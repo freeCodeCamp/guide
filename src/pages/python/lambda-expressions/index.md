@@ -3,11 +3,33 @@ title: Lambda Expressions
 ---
 ## Lambda Expressions
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/python/lambda-expressions/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Lambda expressions are a quick and handy way to create simple, one-lined functions on-the-go.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+For example, the following user-defined function:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+    def my_func():
+        print(1 + 2)
+        
+Can be simplified into the lambda function below:
+
+    my_func = lambda: print(1 + 2)
+    
+## Incorporating parameters
+
+Lambda expressions also support parameter input, similar to how a conventionally-defined function would.
+
+Let's use a simple addition function as an example:
+
+    def add_two(a, b):
+        return a + b
+
+Within a lambda function, the value at the end of the method call would automatically get returned. Therefore, the function above's lambda equivalent would look like this:
+
+    add_two = lambda a, b: a + b
+    
+    >>> add_two(10, 11)
+    21
+
 
 #### More Information:
 https://docs.python.org/3/reference/expressions.html#lambda
