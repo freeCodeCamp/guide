@@ -15,7 +15,7 @@ For instance:
   <body>
     <h1>
       <p>
-        <a href="https://www.freecodecamp.org/contribute/">The freeCodeCamp Contribution Page</a> shows you how and where you can contribute to freeCodeCamp's community and growth.
+        <a href=https://www.freecodecamp.org/contribute/"> <img src="https://www.google.co.in/imgres?imgurl=https%3A%2F%2Fdesign-style-guide.freecodecamp.org%2Fdownloads%2FfreeCodeCamp.jpg&imgrefurl=https%3A%2F%2Fdesign-style-guide.freecodecamp.org%2F&docid=QNvANFgvOq3jbM&tbnid=bRqoQmWB3Jt9QM%3A&vet=10ahUKEwiCgJCzponXAhUFwI8KHRwSAVgQMwgoKAIwAg..i&w=1200&h=200&bih=678&biw=1301&q=freecodecamp&ved=0ahUKEwiCgJCzponXAhUFwI8KHRwSAVgQMwgoKAIwAg&iact=mrc&uact=8" alt="logo> </a> shows you how and where you can contribute to freeCodeCamp's community and growth.
       </p>
   </body>
 </html>
