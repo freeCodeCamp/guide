@@ -2,6 +2,8 @@
 title: Bootstrap Collapse
 ---
 
+## Bootstrap Collapse
+
 The Bootstrap collapse plugin allows you to toggle content on your pages with a few classes thanks to some helpful JavaScript.
 
 Collapsibles are useful when you want to hide and show large amount of content.
