@@ -1,15 +1,37 @@
 ---
 title: CSS3 Transitions
 ---
+
 ## CSS3 Transitions
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/css3-transitions/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+CSS transitions allow you to animate a change in a property from A to B.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Property | Description
+--- | ---
+`transition` | Shorthand property for all `transition-property`, `transition-duration`, `transition-delay`, `transition-timing-function`. The first timing value provided is the `transition-duration`.
+`transition-delay` | An initial delay for beginning the transition. Defaults to `0s`.
+`transition-duration` | The length of time the transition takes. Defaults to `0s`.
+`transition-property` | The properties to a a transition to. Defaults to `all`.
+`transition-timing-function` | A keyword or function that controls the intermediate values of the transition. Defaults to `ease`.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+#### Eamples:
+
+```CSS
+// Default
+transition: all 0s 0s ease;
+
+// Only background-color
+transition: background-color 3s;
+
+// Custom timing function
+transition-timing-function: cubic-bezier(0.1, 0.3, 0.6, 0.1);
+```
+
+#### CSS Animations
+
+Transitions are good for A to B changes in properties. Complex animations need [CSS Animations](https://guide.freecodecamp.org/css/using-css-animations).
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+* [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/transition)
+* [W3 Schools](https://www.w3schools.com/css/css3_transitions.asp)
+* [CSS-Tricks Almanac](https://css-tricks.com/almanac/properties/t/transition/)
