@@ -13,6 +13,7 @@ To repozytorium jest miejscem, gdzie planujemy i rozwijamy artykuły z freeCodeC
 - [Uruchomienie przewodnika lokalnie na swoim komputerze](#uruchomienie-przewodnika-lokalnie-na-swoim-komputerze)
 - [Przewodnik stylowania artykułów](#przewodnik-stylowania-artykułów)
 - [Licencja](#licencja)
+- [Informacje od tłumacza](#informacje-od-tłumacza)
 
 ## Czym są artykuły przewodnika freeCodeCamp?
 Artykuły przewodnika mogą dotyczyć składni, wzorców projektowania, tego czym są aria labels, lub informacje na temat znaczenia numerów w prawym górnym rogu ekranu na stronie freecodecamp.org. Tutaj znajdziesz [przykład artykułu o tagach HTML](./src/pages/html/elements/index.md).
@@ -20,7 +21,7 @@ Artykuły przewodnika mogą dotyczyć składni, wzorców projektowania, tego czy
 ## O czym mogę napisać artykuł?
 Twoja pomoc w tworzeniu artykułów jest mile widziana. Nie musisz być ekspertem w danej dziedzinie aby o niej napisać - ten przewodnik jest tworzony na zasadach open source, więc nawet jeśli zrobisz błąd, inna osoba prędzej czy później go poprawi.
 
-Aby pomóc, znajdź `stub article` (`trzon artykułu`) na [stronie przewodnika](https://guide.freecodecamp.org/), napisz artykuł, nastpnie stwórz pull request (PR) aby zastąpić trzon twoimi zmianami.
+Aby pomóc, znajdź `trzon artykułu` (`stub article`) na [stronie przewodnika](https://guide.freecodecamp.org/), napisz artykuł, nastpnie stwórz pull request (PR) aby zastąpić trzon twoimi zmianami.
 
 Jeśli nie możesz znaleźć trzonu na temat który cię interesuje, możesz wykonać PR który go stworzy (wraz ze szkicem artykułu). Zapraszamy do zadawania pytań jeśli nie jesteś pewien/a, gdzie w strukturze katalogów należy umieścić nowy wpis.
 
@@ -39,7 +40,7 @@ Możesz stworzyć PR (Pull Request) ze szkicem artykułu, lub edytować istniej�
 - Na następnym ekranie, dodaj dodatkowe szczegóły na temat swojego PR i kliknij przycisk "Create pull request"
 
 
-2) Jeśli preferujesz tworzyć zmiany lokalnie na swoim komputerze przed wysłaniem PR, postępuj zgodnie z instrukcją:
+2) Jeśli preferujesz tworzyć zmiany lokalnie na swoim komputerze, postępuj zgodnie z instrukcją:
 - Wykonaj Fork tego repozytorium
 - Skopiuj repozytorium na dysk lokalny uruchamiając komendę `git clone https://github.com/TWOJA-NAZWA-UZYTKOWNIKA-GITHUB/guides.git`
 - Dodaj remote upstream uruchamiając komendę `git remote add upstream https://github.com/freeCodeCamp/guides.git`, aby git wiedział gdzie znajduje się oficjalne repozytorium freeCodeCamp guides.
@@ -82,82 +83,82 @@ Napisaliśmy poniższy poradnik pisania artykułów, aby pomóc ci rozpocząć t
 
 ### Tytuł artykułu
 
-Article titles should be as short, concise, and to-the-point as possible. We want campers to quickly find the information they're looking for, and the title should reflect the main theme of the article.
+Tytuły artykułów powinny być tak krótkie, zwięzłe i dokładne jak to tylko możliwe. Chcemy, aby użytkownicy szybko znaleźli informacje, których szukają. Tytuł powinien odzwierciedlać główny temat artykułu.
 
-Here are some title examples:
+Kilka przykładowych tytułów artykułów:
 
 - "HTML Lists"
 - "CSS Borders"
 - "JavaScript For Loop"
 
-The folder name is used in the URL, so only use dashes `-`, numbers `0-9`, and lowercase letters `a-z` for it.
+Nazwa folderu jest wykorzystywana w URL, więc do jej tworzenia używaj tylko dashy (dashes) `-`, numerów `0-9`, oraz małych liter `a-z`.
 
-Here are some folder name examples:
+Kilka przykładowych nazw folderów:
 
 - html-lists
 - css-borders
 - javascript-for-loop
 
-However, you can include special characters in the article title.
+Możesz jednak wykorzystywać znaki specjalne w tytułach artykułów.
 
 ### Modułowość
 
-Each article should explain exactly one concept, and that concept should be apparent from the article's title.
+Każdy artykuł powinien wyjaśniać dokładnie jeden koncept i powinien on jasno wynikać z tytuły artykułu.
 
-We can reference other articles by linking to them inline, or in an "Other Resources" section at the end of the article.
+Można odnosić się do innych artykułów poprzez linkowanie do nich w treści, lub w sekcji "Other Resources" na końcu artykułu.
 
-Our goal is to have thousands of articles that cover a broad range of technical topics.
+Naszym celem jest stworzenie tysięcy artykułów, obejmujących szeroki zakres tematów technicznych.
 
 ### Pisanie artykułów
 
-Before you begin writing, create an outline of the topic and think about any coding examples you'll use (if applicable). This helps to organize your thoughts and make the writing process easier.
+Przed rozpoczęciem pisania, stwórz zarys tematu i zastanów się nad fragmentami kodu, które wykorzystasz jako przykłady (jeśli dotyczy). Ten proces pomaga uporządkować myśli i ułatwia pisanie.
 
-Articles should be written with short, clear sentences, and use as little jargon as necessary. All jargon should be defined immediately in plain English.
+Artykuły powinny być napisane krótkimi, jasnymi zdaniami i używać jak najmniej żargonu jak to możliwe. Wszystkie pojęcia będące żargonem powinny zostać wyjaśnione jak najszybciej prostym językiem.
 
-The introduction paragraph should only be 1-2 sentences long and be a simple explanation of the main topic. It should limit the use of any links to other Guide articles, as they can be distracting.
+Pierwszy akapit powinien mieć długość 1-2 zdań i być prostym wyjaśnieniem głównego tematu z pominięciem linków do innych artykułów, ponieważ mogą one rozpraszać.
 
-Keep paragraphs short (around 1-4 sentences). People are more likely to read several short paragraphs over a wall of text.
+Staraj się tworzyć krótkie akapity (około 1-4 zdań). Istnieje większe prawdopodobieństwo, że użytkownicy przeczytają kilka krótkich akapitów niż ścianę tekstu.
 
-Use active voice instead of passive voice. Generally, it's a stronger and more straightforward way to communicate a subject. For example:
-  - (Passive) The `for` loop in JavaScript is used by programmers to...
-  - (Active) Programmers use the `for` loop in JavaScript to...
+Stosuj tryb aktywny zamiast pasywnego. Ogólnie rzecz biorąc jest jest to silniejszy i bardziej bezpośredni sposób komunikowania się. Na przykład: 
+  - (Pasywny) Pętla `for` w JavaScript jest używana przez programistów do...
+  - (Aktywny) Programiści używają pętli `for` w JavaScript do...
 
-If you want to abbreviate a term in your article, write it out fully first, then put the abbreviation in parentheses. For example, "In computer science, an abstract syntax tree (AST) is ..."
+Jeśli chcesz zastosować skrót terminu w swoim artykule, najpierw napisz go w całości, a następnie skrót umieść w nawiasie. Na przykład: "In computer science, an abstract syntax tree (AST) is ..."
 
-Text should use the second person ("you") to help to give it a conversational tone. This way, the text and instructions seem to speak directly to the camper reading it. Try to avoid using the first person ("I", "we", "let's", and "us").
+Tekst powinien używać drugiej osoby liczby pojedynczej ("you"), aby nadać mu styl konwersacji. Dzięki temu tekst i instrukcje w nim zawarte wydają się mówić bezpośrednio do czytelnika. Staraj się unikać używania pierwszej osoby ("I", "we", "let's", and "us").
 
-If there are other Guide resources you think campers would benefit from, add them at the bottom in an "Other Resources" section.
+Jeśli uważasz, że są inne zasoby przewodnika, z których użytkownicy powinni skorzystać, dodaje je na dole w sekcji "Other Resources".
 
-You can add diagrams, graphics, or visualizations as necessary. You can also embed relevant YouTube videos and interactive [REPL.it](https://repl.it/) code editors.
+W razie potrzeby możesz dodać diagramy, grafiki lub wizualizacje., a także umieścić adekwatne filmy YouTube i interaktywne edytory kodu [REPL.it](https://repl.it/).
 
-Don't use emojis or emoticons in the Guide. freeCodeCamp has a global community, and the cultural meaning of an emoji or emoticon may be different around the world. Also, emojis can render differently on different systems.
+Nie używaj emoji ani emotikon w przewodniku. freeCodeCamp to globalna społeczność i kulturowe znaczenie emoji lub emotikony może się różnić na całym świecie. Ponadto, emoji mogą wyświetlać się inaczej na różnych systemach.
 
-Use double quotes where applicable.
+W stosownych przypadkach użyj cudzysłowów (double quotes).
 
-Format language keywords as code - this is done with the backtick key (located to the left of the "1" key on a US keyboard) in GitHub-flavored markdown. For example, put backticks around HTML tag names or CSS property names.
+Formatuj słowa kluczowe za pomocą języka markdown GitHub jako kod - odbywa się to za pomocą odwróconych apostrofów (klawisz backtick umieszczony po lewej stronie klawisza "1" na klawiaturze). Na przykład, umieść odwrócone apostrofy (backticki) wokół nazwy tagu HTML lub nazwy właściwości CSS.
 
-Use the Oxford Comma when possible (it is a comma used after the penultimate item in a list of three or more items, before ‘and’ or ‘or’ e.g. an Italian painter, sculptor, and architect). It makes things easier, clearer, and prettier to read.
+W miarę możliwości stosuj przecinek oxfordzki (Oxford Comma). Jest to przecinek stosowany po przedostatnim elemencie podczas listowania trzech lub więcej elementów, przed słowami ‘and’ lub ‘or’, na przykład: an Italian painter, sculptor, and architect. Powoduje to, że tekst jest łatwiejszy od czytania, bardziej czytelny i ładniejszy dla oka.
 
 ### Atrybucja
 
-To minimize the potential for plagiarism and maintain integrity in these guides, it is important to give credit where necessary. Any material quoted, or used directly and unchanged, from source material should be wrapped in quotation marks and be adequately cited. Material that is not a direct quote but is still paraphrased from a different resource should also be cited. You can create superscript numerals to mark content that is cited using `<sup></sup>` tags. Like so: <sup>1</sup>
+Aby zminimalizować ryzyko plagiatu i zachować integralność w artykułach przewodnika, ważne jest, aby w razie potrzeby podać autora lub źródło cytowanego materiału. Jesli materiał cytowany jest w postaci niezmienionej w stosunku domateriału źródłowego, powinien być umieszczony w cudzysłowie i zawierać odpowiedni przypis. Materiał, który nie jest bezpośrednim cytatem, ale wciąż parafrazuje inne zasoby, należy również oznaczyć. W tym celu mozna użyc cyfr górnego indeksu (superscript) przy użyciu tagów `<sup></sup>` w następujący sposób <sup>1</sup>
 
-Then, at the bottom of your article, place a `### Sources` heading and include all of your citations numbered to correspond with your marks above:
+Następnie na dole artykułu należy umieść nagłówek `### Sources` i dołączyć listę wszystkich cytatów, które powinny odpowiadać oznaczeniom powyżej:
 
 <blockquote>
-Here is some content that should be cited.<sup>1</sup> And here is even more that should be cited from another source.<sup>2</sup>
+Tu jest treść, która powinna zostać oznaczona jako cytat.<sup>1</sup> A tu jest jeszcze więcej treści która powinna być oznaczona jako cytat z innego źródła.<sup>2</sup>
 
 ### Źródła
 1. [Doe, John. "Authoring Words." *WikiCoder*. January 1, 1970. Accessed: October 20, 2017](#)
 2. [Purdue OWL Staff. "MLA Works Cited: Electronic Sources." *Purdue Online Writing Lab.* October 12, 2017. Accessed: Ocotber 20, 2017.](https://owl.english.purdue.edu/owl/resource/747/08/)
 </blockquote>
-You can check out the Purdue link above to see how to properly cite web sources (they even show how to cite tweets!). Typically, an attribution has a structure like the following:
+Możesz sprawdzić link "Purdue" powyżej, aby zobaczyć, jak prawidłowo cytować źródła internetowe (wyjaśniają nawet, jak cytować tweety!). Zazwyczaj przypis ma strukturę podobną do następującej:
 
->Author Last Name, Author First Name. "Article Title." *Publication.* Publisher. Date Published. Date Accessed.
+>Nazwisko autora, Imię autora. "Tytuł artykułu." *Publikacja.* Wydawca. Data wydania. Date dostępu.
 
-If you cannot find an author or published date, which is common, simply omit these.
+Jeśli nie możesz znaleźć autora lub daty wydania, co jest dość powszechne, po prostu pomiń je.
 
-Use of proper citations will not only keep the guides reputable, but these citations and links will also provide valuable resources should the reader want to learn more about the topic. Also note that instances of blatant plagiarism will be either removed or have their pull requests declined, and the user will receive a warning. Please refer to and review the [Academic Honesty Policy](https://www.freecodecamp.org/academic-honesty) before contributing.
+Korzystanie z odpowiednio sformatowanych cytatów nie tylko utrzymuje dobrą reputację przewodnika, ale także poprzez linki pozwala dostarczyć wartościowych zasobów, które pozwolą czytelnikowi dowiedzić się więcej na temat danego zagadnienia. Należy również zauważyć, że w przypadku plagiatu treści zostaną usunięte lub pull requesty zostaną odrzucone, a użytkownik otrzyma ostrzeżenie. Przed wniesieniem wkładu w treść przewodnika zapoznaj się z [Academic Honesty Policy](https://www.freecodecamp.org/academic-honesty).
 
 ### Formatowanie przykładowego kodu
 
@@ -233,6 +234,16 @@ Z twoją pomocą, możemy stworzyć kompleksowe narzędzie referencyjne, które 
 
 Copyright (c) 2017 freeCodeCamp.
 
-Zawartość tego repozytorium podlega pod nastepujące licencje:
-- The computer software is licensed under the [BSD-3-Clause](./LICENSE.md).
-- The reference content as in ./src/pages and subdirectories is licensed under the [CC-BY-SA-4.0](./LICENSE-freeCodeCamp-Guide-Articles.md).
+Zawartość tego repozytorium podlega pod następujące licencje:
+- Licencja oprogramowania komputerowego (software) to [BSD-3-Clause](./LICENSE.md).
+- Licencja zawartości przewodnika w ./src/pages i w podfolderach to [CC-BY-SA-4.0](./LICENSE-freeCodeCamp-Guide-Articles.md).
+
+## Informacje od tłumacza
+
+Powyższe tłumaczenie ma za zadanie ułatwić pierwszy kontakt z przewodnikiem freeCodeCamp osobom, które na codzień komunikują się w języku polskim. Aktualnie artykuły przewodnika freeCodeCamp (freeCodeCamp Guide) tworzone są tylko i wyłącznie w języku angielskim i w tym języku należy dokonywać ewentualnych kontrybucji.
+
+W powyższym pliku README:
+- Pojawiły się terminy związane z obszarem computer science. Zostały one przetłumaczone tylko w tym miejscu gdzie nei budziały wątpliwości
+- Pojawiły się terminy związane z interfejsem i termonologią GitHub. W większości przypadków nie zostały one przetłumaczone, z wyjątkiem terminu "branch", który w języku polskim powszechnie wystepuje jako "gałąź"
+- Pojawił się termin "stub article", który tłumaczony dosłownie oznacza "kikut artykułu" co w języku polskim nie oddaje prawidłowo znaczenia sensu tej struktury. Z tego powodu zamiast wymienionego wyżej zwrotu zastosowany został termin "trzon"
+- W sekcji "General writing tips" zachowana została oryginalna forma pisowni osób i zwrotów w języku angielskim tam, gdzie zworty te wyjasniały w jaki sposób należy pisać artykuły
