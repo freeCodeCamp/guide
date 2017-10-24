@@ -35,9 +35,14 @@ p {
   color: rgb(244, 145, 14); // bright orange
 }
 
+h2 {
+ color: #FA8072; //salmon 
+}
+
 body {
   background-color: hsl(184, 87%, 94%); // bright blue
 }
+
 ```
 
 You can also add an alpha value, or transparency to colors. Use `rgba()` or `hsla()` and fill in your color values. The alpha value goes last and is a percent converted to a decimal. (For example, 20% is 0.2, 75% is 0.75, etc.)
