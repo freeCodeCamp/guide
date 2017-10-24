@@ -1,13 +1,10 @@
 ---
 title: Godot Engine
 ---
-## Godot Engine
+## Game Development with Godot Engine
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/game-development/godot/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The Godot Engine is a cross-platform open source game engine developed by the community. The source code for this project is available on GitHub where the community is encouraged to help work towards completing the roadmap.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+## Platform Independent
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+The Godot Engine is written in C, and C++ providing portability to multiple platforms. The Engine itself runs on Windows, OS X, and Linux desktops. Deployment from the engine is possible on PC (Windows, OS X, Linux), mobile (Android, iOS) and HTML5.
