@@ -37,7 +37,7 @@ function mapDispatchToProps(dispatch) {
 
 function NoArticles() {
   return (
-    <li role='presentation'>
+    <li>
       <span>
         No articles yet.
         <br />
@@ -109,13 +109,16 @@ class NavPanel extends PureComponent {
   }
 
   render() {
-    const { isExpanded } = this.props;
+    const { isExpanded, title } = this.props;
+    const panelId = `${title.toLowerCase().replace(/\s/g, '-')}-panel`;
     return (
       <Panel
         bsClass='panelStyle panel'
         collapsible={ true }
         expanded={ isExpanded }
         header={ this.renderHeader() }
+        id={ panelId }
+        role='listitem'
         >
         {
           ( isExpanded ? this.renderBody() : null )
