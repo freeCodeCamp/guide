@@ -3,13 +3,12 @@ title: Bootstrap Icons
 ---
 ## Bootstrap Icons
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/bootstrap/bootstrap-icons/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Bootstrap uses Glyphicon for adding icons to our webpage components.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+You can use it just adding the class <em>.glyphicon</em> and the class of the icon you want to get ex.: <em>.glyphicon-search</em>
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+[Bootstrap.org](http://getbootstrap.com/) 
+[Glyphicons.com](http://glyphicons.com/)
 
 
