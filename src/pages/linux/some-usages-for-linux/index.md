@@ -6,6 +6,7 @@ title: Some Usages for Linux
 *   The <a href='https://en.wikipedia.org/wiki/New_York_Stock_Exchange' target='_blank' rel='nofollow'>New York Stock Exchange (NYSE)</a>, the largest stock exchange in the world which trades securities worth billions of dollars daily are executed by servers that run on Linux after moving away from UNIX.
 *   The White House powers their web servers using <a href='https://en.wikipedia.org/wiki/Red_Hat' target='_blank' rel='nofollow'>Red Hat Linux</a> and <a href='https://en.wikipedia.org/wiki/Apache_HTTP_Server' target='_blank' rel='nofollow'>Apache</a>.
 *   The US Department of Defense (DoD) uses Linux to run their nuclear submarine fleet.
+*   You can automate everything in your home with just a Raspberry PI.
 *   The US Navy uses Linux for ground control software.
 *  Pakistan is using Linux in many of its public schools and colleges and plans to ultimately run it on all of its government computer systems
 
