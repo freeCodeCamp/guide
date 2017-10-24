@@ -1,15 +1,15 @@
 ---
 title: Converting am Pm to 24 Hour Clock
 ---
-## Converting am Pm to 24 Hour Clock
+## Converting am Pm to 24 Hour Clock:
+Actually am/pm means 12-hour format in a clock.
+To convert am/pm to 24 hour clock means, we try to express the time in a 24-hour format. In the case of <b>am</b>, it is the same both in 24-hour format and am-format while in the case of <b>pm</b>, we add 12-hour to the given time.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/converting-am-pm-to-24-hour-clock/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+## For Example:
+1. Convert 9:45am to 24-hour clock format.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+In the above question, the answer will be 09:45. Since the time is given in 'am', we just remove the 'am' and present the time.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+2. Covert 2:15pm to 24-hour clock format.
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+In the above question, the answer will be 14:15 (2:15 + 12) because 12 will be added to the given time to get a 24-hour clock format.
