@@ -3,13 +3,23 @@ title: I Tag
 ---
 ## I Tag
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/i-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `<i>` tag is usually used to mark a word in a text, that is somehow different from the rest for some reason, such as if it represents technical phrase, slang word or foreign language word. By default, browser render text marked by `<i>` in _italics_. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Use this tag with care and only when you can not use more specific sematic tags such as:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+ - `<em>` (emphasized text)
+ - `<strong>` (important text)
+ - `<mark>` (marked/highlighted text)
+ - `<cite>` (the title of a work)
+ - `<dfn>` (a definition term)
+
+#### Example
+
+```html
+<p>The phrase <i>no work done, no pies to eat</i> is a traditional Czech saying...</p>
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+- [&lt;i&gt; element: MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/i)
+- [HTML &lt;i&gt; tag: W3Schools](https://www.w3schools.com/tags/tag_i.asp)
