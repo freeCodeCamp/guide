@@ -43,3 +43,6 @@ The output in your terminal should look something like this:
 [master 22gc8v1] My new message
  1 file changed, 1 insertion(+)
 ```
+
+### More Information:
+- Git documentation: [commit](https://git-scm.com/docs/git-commit)
