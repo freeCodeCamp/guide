@@ -4,7 +4,7 @@ title: CSS3 Nth Child Selector
 ## CSS3 Nth Child Selector
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-The :nth-child selector is a pseudo-selector, that is useful in selecting elements based their order of occurence in their parent container. 
+The :nth-child selector is a pseudo-selector, that is useful in selecting elements based on their order of occurrence in their parent container. 
 
 ## Syntax
 
@@ -13,9 +13,9 @@ selector:nth-child(expression) {
     // css declarations
 }
 ```
-The expression could be either a number, a keyword such as "odd" or "even" or a notation in the form "an+b". An important thing to note here is that the syntax doesn't specify the parent container explicitly. The selector specifies the kind of element you want to select and the expression determines the constraint on order of occurence of the element in its parent container.
+The expression could be either a number, a keyword such as "odd" or "even" or a notation in the form "an+b". An thing to note here is that the syntax does not specify the parent container. The selector specifies the element type to select and the expression determines the constraint on the order of occurrence of the element.
 
-For example, div:nth-child(3) would select all the 'div' elements that are the third element in their respective parent containers, among all its siblings. If no such 'div' element is found that is the third element in its container, nothing is affected. In the example given below, nothing is selected, since there is no div that is the third element in its container.
+For example, div:nth-child(3) would select all the third 'div' elements. If no such 'div' element exists that is the third element in its container, nothing gets affected. In the example given below, there is no such div that is the third element in its container.
 
 ```
 <div class='parent-container'>
@@ -47,8 +47,7 @@ div:nth-child(2) {
 }
 ```
 
-To assign the background-color blue any row whose index satisfies the given condition - 3n+1, that is the first row, the fourth row, the seventh row and so on.
-
+To assign styles to a row after every two rows such as the first row, the fourth row, the seventh row and so on - 
 ```
 tr:nth-child(3n+1) {
     background-color: blue
