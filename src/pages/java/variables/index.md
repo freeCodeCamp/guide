@@ -20,6 +20,7 @@ Typically you can declare variables using the following syntax :
 int i = 10;
 double amount = 10.0;
 boolean isOpen = false;
+char c = 'a'; //note the single quotes
 
 // Object Data Type
 String greeting = "Hello World"
