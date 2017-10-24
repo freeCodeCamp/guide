@@ -33,4 +33,6 @@ You can see the result of the above code [here](https://codepen.io/Tlandis/pen/R
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+[w3 schools](https://www.w3schools.com/cssref/sel_class.asp)
+[css-tricks](https://css-tricks.com/how-css-selectors-work/)
+How to Code in HTML5 and CSS3 chapter 7 [calss selectors](http://howtocodeinhtml.com/chapter7.html)
