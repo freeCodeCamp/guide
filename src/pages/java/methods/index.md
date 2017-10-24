@@ -14,5 +14,16 @@ public class Car {
     }
 }
 ```
+Parameters can be passed into methods. Parameters are declared just after the name of the method, inside brackets.
+Syntax for parameter declaration is [Data Type] [Name].
+```java
+public class Car {
+    private String name;
+
+    public void changeName(String newName) {
+        name = newName;
+    }
+}
+```
 
 As with any other language, methods (or functions, if you are here from JS world) are used often for their modularity and reusability.
