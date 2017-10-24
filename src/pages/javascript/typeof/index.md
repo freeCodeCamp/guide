@@ -50,7 +50,7 @@ function(x){
     console.log('variable x is not defined');
     return;
   }
-  //continue with function here...
+  // continue with function here...
 }
 ```
 
