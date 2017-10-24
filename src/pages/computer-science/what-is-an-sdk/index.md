@@ -13,3 +13,18 @@ It may be something as simple as the implementation of one or more application p
 
 Common tools include debugging facilities and other utilities, often presented in an integrated development environment (IDE). SDKs also frequently include sample code and supporting technical notes or other supporting documentation to help clarify points made by the primary reference material.
 
+<strong> Here are 10 Frameworks for Mobile Hybrid Apps </strong>
+These SDK's assist hybrid mobile developers by enabling them to build mobile applications once without having to re-write them for different platforms.
+
+<ol>
+  <li>Xamarin: https://www.xamarin.com</li>
+  <li>Phonegap: http://phonegap.com</li>
+  <li>Intel XDK: https://software.intel.com/en-us/intel-xdk</li>
+  <li>Ionic Framework: https://ionicframework.com</li>
+  <li>Framework7: https://framework7.io</li>
+  <li>Appcelerator Titanium: http://www.appcelerator.com</li>
+  <li>Mobile Angular UI: http://mobileangularui.com</li>
+  <li>Onsen UI: https://onsen.io</li>
+  <li>Sencha Touch: https://www.sencha.com/products/touch</li>
+  <li>Kendo UI: http://www.telerik.com/kendo-ui</li>
+</ol>
