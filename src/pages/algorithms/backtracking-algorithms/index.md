@@ -12,4 +12,4 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+<a href="https://www.hackerearth.com/practice/basic-programming/recursion/recursion-and-backtracking/tutorial/" target="_blank" rel="nofollow">A very interesting introduction to backtracking</a>.
