@@ -1,7 +1,7 @@
 ---
-title: IDE and Printing different text 
+title: IDE and Printing different text
 ---
-# Introduction to an IDE and printing different text : 
+# Introduction to an IDE and printing different text :
 
 * In the last article, some download links for software required for programming . Software like this is known as an IDE.
  **IDE stands for Integrated Development Environment**
@@ -84,7 +84,7 @@ Hello World!	 I love freeCodeCamp!
 
 The output changes to :
 ```
-40158 	 236708 ! 
+40158 	 236708 !
  \ @ ?
 ```
 
@@ -124,8 +124,4 @@ This is because we did not add the inverted commas for the second print statemen
 
  As you may notice, the comments are ignored during program execution and do not show up on checking the output of the program.
 
-<a href='https://repl.it/L4ox' target='_blank' rel='nofollow'>A summation of all the print statements used in this article. Feel free to tweak around woth the code!</a>
-
-**Happy Coding! :)**
-
-> Feel free to ask any queries on FreeCodeCamp's GitHub page or <a href='https://forum.freecodecamp.org/' target='_blank' rel='nofollow'>FreeCodeCamp's Forum.</a>
+<a href='https://repl.it/L4ox' target='_blank' rel='nofollow'>A summation of all the print statements used in this article. Feel free to tweak around woth the code ! :) </a>
