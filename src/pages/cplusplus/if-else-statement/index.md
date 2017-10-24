@@ -122,7 +122,7 @@ You entered a negative number : -200
 This step is always printed
 ```
 
-### use of else if with if, else
+### Use of if...else if...else ladder
 If we have to make decisions based on more than one conditions using if else. We use else if condition as follows -
 ```cpp
 #include<iostream>
@@ -143,8 +143,8 @@ int main()
 }
 ```
 
+### Output
 ```
-Output:
 Enter your score:
 85
 Good performance
