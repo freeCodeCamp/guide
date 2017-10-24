@@ -10,9 +10,9 @@ title: IDE and Printing different text
 
 **1 Editor :** A slightly modified text editor to make coding easy. An example of an editor for coding is Notepad++.
 
-**2 Debugger :** Software that helps you find errors in your program , and resolve them before execution. Imagine FaceBook crashing on loading an application or a game crashing all of a ssudden. To prevent faulty execution of a program, the debugger is a programmer's best friend.
+**2 Debugger :** Software that helps you find errors in your program , and resolve them before execution. Imagine FaceBook crashing on loading an application or a game crashing all of a sudden. To prevent faulty execution of a program, the debugger is a programmer's best friend.
 
-**3 Compiler :** A compiler is that part of the computer which converts your high level program code to simple machine code : 0s & 1s ; so that a computer understands the commands and executes them. From now on , we will be uding the word **compiler** frequently.
+**3 Compiler :** A compiler is that part of the computer which converts your high level program code to simple machine code : 0s & 1s ; so that a computer understands the commands and executes them. From now on, we will be uding the word **compiler** frequently.
 
 *Q : Try searching for an IDE on Google and run your first program on it . Check the output*
 
@@ -51,7 +51,7 @@ int main()
 Note that now the program runs perfectly.
 The output will be : `I Love freeCodeCamp !`
 
-### Now , let's change the text to something else like this :
+### Now, let's change the text to something else like this :
 
 ```cpp
     cout<<"Hello World!\t I love freeCodeCamp!";
@@ -106,7 +106,7 @@ This is because we did not add the inverted commas for the second print statemen
 
 * Comments are an important feature of many programming languages . They allow the programmer to take notes for self help, and won't affect the running of the program .
 
-**The differentt types of comments and Syntax of a comment** :
+**The different types of comments and Syntax of a comment** :
   1 `//`  ~ _Single Line Comments_  : The length of these comments is 1 line (the line it is typed on) .
   2 `/* */` ~ _Multi Line Comments_ : These comments can take up a space of more than one line.
 
@@ -124,7 +124,7 @@ This is because we did not add the inverted commas for the second print statemen
 
  As you may notice, the comments are ignored during program execution and do not show up on checking the output of the program.
 
-<a href='https://repl.it/L4ox' target='_blank' rel='nofollow'>A summation of all the print statements used in this article. Feel free to tweak around woth the code ! :) </a>
+<a href='https://repl.it/L4ox' target='_blank' rel='nofollow'>A summation of all the print statements used in this article. Feel free to tweak around with the code ! :) </a>
 
 
 
