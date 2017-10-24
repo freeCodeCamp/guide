@@ -52,3 +52,5 @@ _Note: Do not include the dot in the HTML Class Attribute, referring to the clas
 
 #### More Information:
 
+You can see more information about bootstra buttons in their documentation. Go to [http://getbootstrap.com/docs/4.0/components/buttons/](http://getbootstrap.com/docs/4.0/components/buttons/)
+
