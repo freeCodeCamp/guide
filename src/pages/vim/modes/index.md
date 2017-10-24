@@ -31,8 +31,8 @@ These include:
 - `I` moves the cursor to the beginning of the line and inserts
 - `a` for 'append', switches to insert mode 1 character after the cursor
 - `A` moves the cursor to the end of the line and inserts
-- `o` moves the cursor to a next line and inserts
-- `O` creates a new line and inserts at the cursor's current position
+- `o` creates a new line below the cursor and inserts to that line
+- `O` creates a new line above the cursor and inserts to that line
 
 There are so many more ways of inserting text in vim that can't be listed here
 but these are the simplest.  Once in insert mode, typing inserts characters before the cursor.  To leave
