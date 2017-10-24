@@ -3,13 +3,21 @@ title: Area of a Triangle
 ---
 ## Area of a Triangle
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/area-of-a-triangle/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The area of a triangle is given by 
+    A=(1/2) * b * h           
+where b= length of base and h= length of the height of the triangle.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+When, we have only sides of triangle(say a,b,c) only, we use the formula :
+
+S=(s(s-a)(s-b)(s-c))^1(1/2) 
+
+where s=(a+b+c)/2 .
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+You can refere to the following for more :
+*   https://www.mathopenref.com/coordtrianglearea.html
+*   https://www.khanacademy.org/math/basic-geo/basic-geo-area-and-perimeter/area-triangle/a/area-of-triangle
 
 
