@@ -27,3 +27,16 @@ The `<a href>` attribute is supported by all browsers.
 <a href="#">This is a dead link</a>
 <a href="https://www.freecodecamp.org">This is a live link to freeCodeCamp</a>
 ```
+
+---
+Image Links
+---
+The ```<a href="#">``` can also be aplied to images and other HTML elements.
+
+### Example
+```html
+<a href="#"><img itemprop="image" style="height: 90px;" src="http://www.chatbot.chat/assets/images/header-bg_y.jpg" alt="picture">  </a>
+
+```
+### Example
+<a href="#"><img itemprop="image" style="height: 90px;" src="http://www.chatbot.chat/assets/images/header-bg_y.jpg" alt="picture">  </a>
