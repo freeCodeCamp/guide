@@ -3,7 +3,7 @@ title: Comments
 ---
 ## Comments
 
-programmers use comments to add hints, notes, suggestions, or warnings to their source code, they have no effect on the actual output of the code. Comments can be very helpful in explaining the intent of what your code is or should be doing.
+Programmers use comments to add hints, notes, suggestions, or warnings to their source code, they have no effect on the actual output of the code. Comments can be very helpful in explaining the intent of what your code is or should be doing.
 
 JavaScript has two ways of assigning comments in its code.
 
@@ -32,7 +32,9 @@ function hello() {
 }
 hello();
 ```
-
+Although comments have no effect on the code output, and you can write perfectly valid code without using comments, it is recommended to make use of comments for the following reasons:
+  1. Help ohter programmers on your team understand your code better. 
+  2. Help you understand your code better when you refactor it in the future . (And you will have to refactor it at some          point.)
 #### More Information:
 <a href='https://www.digitalocean.com/community/tutorials/how-to-write-comments-in-javascript' target='_blank' rel='nofollow'>How To Write Comments in JavaScript</a>
 
