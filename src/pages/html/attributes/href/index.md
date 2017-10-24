@@ -3,10 +3,13 @@ title: Href
 ---
 ## Href
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/attributes/href/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The HTML href attributes lets you create embed links into your html elements (such as images or text) to access resources outside of the local file. Some examples of href would be linking to another website, accessing a different page in you project, moving around your current webpage, or linking to a file that is in your project folder. This is what sites use to open new links like you might see on Facebook, with your classic idea of a hyperlink.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+To use it, simple use the href attribute, specify your source (where the link is from - a local folder, the web?). The anchor tag is a simple use of href for a hyperlink.
 
+'''HTML
+<a href="http://www.github.com/"> Github </a>
+'''
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 Hypertext Reference (HREF) is an HTML attribute that you use to specify a link destination or Uniform Resource Locator (URL). Most commonly you will see the HREF attribute paired with an anchor tag <a>.  
