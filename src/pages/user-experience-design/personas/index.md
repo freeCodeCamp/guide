@@ -1,15 +1,19 @@
 ---
 title: Personas
 ---
-## Personas
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/user-experience-design/personas/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+# Personas
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+<p> A persona in is a fictional character created to represent a user type that might use a site, brand, or product in a similar way. </p>
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+<p> A persona is depicted as a specific person but is not a real individual; rather, it is synthesized from observations of many people. </p>
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+<p> While a persona is usually presented as a one-page document, it is a way to communicate and summarize research trends and patterns to others. This fundamental understanding of users is what’s important, not the document itself. </p>
+
+![A persona document should clearly communicate and summarize research data.](https://www.smashingmagazine.com/wp-content/uploads/2014/06/01-devise-opt.jpg)
+<p>an example persona document.   Image Credit: <a href='http://www.slideshare.net/ebacon/death-to-personas-long-live-personas-presentation' target='_blank' rel='nofollow'>Elizabeth Bacon</a></p>
 
 
+## More Information:
+
+[A Closer Look At Personas: What They Are And How They Work](https://www.smashingmagazine.com/2014/08/a-closer-look-at-personas-part-1/)
