@@ -3,13 +3,11 @@ title: Brand Identity
 ---
 ## Brand Identity
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/product-design/brand-identity/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+A company’s brand identity is how that business wants to be perceived by consumers. The components of the brand (name, logo, tone, tagline, typeface) are created by the business to reflect the value the company is trying to bring to the market and to appeal to its customers. Brand identity is separate from brand image – the term for how consumers actually perceive the brand.
+You can learn more about building a brand and it's identity on YouTube channels like thefutur
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+<a href="https://www.youtube.com/user/TheSkoolRocks">the futur</a>
 
 
