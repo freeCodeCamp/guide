@@ -3,11 +3,7 @@ title: Brute Force Algorithms
 ---
 ## Brute Force Algorithms
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/algorithms/brute-force-algorithms/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Brute force is an exhaustive search of all the possible solutions for a problem. It is often easy to implement and will almost definitely find a solution (If there is one). The trade off here is the time required. In terms of Algorithmic complexity, it will be very time consuming and 'smarter' ways of solving problems should be employed whenever possible.
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
