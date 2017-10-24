@@ -123,3 +123,5 @@ A quick implementation in Swift is as shown below :
 #### More Information:
 
 - <a href='https://en.wikipedia.org/wiki/Insertion_sort' target='_blank' rel='nofollow'>Wikipedia</a>
+- <a href="https://www.youtube.com/watch?v=wObxd4Kx8sE" target="_blank"><img src="http://img.youtube.com/vi/wObxd4Kx8sE/0.jpg" 
+alt="Greedy Problems" width="240" height="180" border="10" /></a>
