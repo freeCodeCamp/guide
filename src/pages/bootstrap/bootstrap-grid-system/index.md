@@ -149,7 +149,13 @@ The following code and image shows what is possible using different column width
 
 [Bootstrap Docs - Grid system](https://getbootstrap.com/docs/4.0/layout/grid/)
 
-*This guide is based on Bootstrap v4 (it will work with v3 accept extra small screens are defined as `xs` and there is no `xl` size)*
+*This guide is based on Bootstrap v4 (it will work with v3 accept extra small screens are defined as `xs` and there is no `xl` size)
+  - sm - < 576px Tablets
+  - md - < 992px Laptops
+  - lg - < 992px Desktops
+  - xl - > 1200px desktops
+*
+
 
 
 
