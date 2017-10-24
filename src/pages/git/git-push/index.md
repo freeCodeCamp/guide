@@ -32,3 +32,6 @@ git push --all REMOTE-NAME
 in which:
 - `--all` is the flag that signals that you want to push all branches to the remote repository
 - `REMOTE-NAME` is the name of the remote repository you want to push to
+
+### More Information:
+- Git documentation: [push](https://git-scm.com/docs/git-push)
