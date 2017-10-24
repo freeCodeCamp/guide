@@ -21,21 +21,21 @@ To create a linear gradient you must define at least two color stops. Color stop
 
 ##### Linear Gradient - Top to Bottom (this is default)
 The following example shows a linear gradient that starts at the top. It starts red, transitioning to yellow:
-![default-linear-gradient](https://i.imgur.com/AlyKYwJ.jpg)
+![default-linear-gradient](https://i.imgur.com/2uGfleD.jpg)
 
 #### Example
-
-    <!DOCTYPE html>
+```
+<!DOCTYPE html>
 <html>
 <head>
 <style>
 #grad1 {
     height: 200px;
     background: red; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(red, yellow); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(red, yellow); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(red, yellow); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(red, yellow); /* Standard syntax (must be last) */
+    background: -webkit-linear-gradient(red, green); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(red, green); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(red, green); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(red, green); /* Standard syntax (must be last) */
 }
 </style>
 </head>
@@ -50,16 +50,17 @@ The following example shows a linear gradient that starts at the top. It starts 
 
 </body>
 </html>
+```
 
-![default-linear-gradient](https://i.imgur.com/LcLbkTI.jpg)
+![default-linear-gradient](https://i.imgur.com/CvtXCMd.jpg)
 
 ##### Linear Gradient - Left to Right
 The following example shows a linear gradient that starts from the left. It starts red, transitioning to yellow:
-[left-to-right](https://i.imgur.com/bERh9nv.jpg)
+![left-to-right](https://i.imgur.com/e4dRvZR.jpg)
 
 #### Example
 
-'''
+```
 <!DOCTYPE html>
 <html>
 <head>
@@ -67,10 +68,10 @@ The following example shows a linear gradient that starts from the left. It star
 #grad1 {
     height: 200px;
     background: red; /* For browsers that do not support gradients */    
-    background: -webkit-linear-gradient(left, red , yellow); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(right, red, yellow); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(right, red, yellow); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to right, red , yellow); /* Standard syntax (must be last) */
+    background: -webkit-linear-gradient(left, red , green); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, red, green); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, red, green); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, red , green); /* Standard syntax (must be last) */
 }
 </style>
 </head>
@@ -85,9 +86,9 @@ The following example shows a linear gradient that starts from the left. It star
 
 </body>
 </html>
-'''
+```
 
-[left-to-right](https://i.imgur.com/KbNLc6a.jpg)
+![left-to-right](https://i.imgur.com/k4FSyXz.jpg)
 
 #### Linear Gradient - Diagonal
 
@@ -95,11 +96,11 @@ You can make a gradient diagonally by specifying both the horizontal and vertica
 
 The following example shows a linear gradient that starts at top left (and goes to bottom right). It starts red, transitioning to yellow:
 
-[diagonal](https://i.imgur.com/HnikAPY.jpg)
+![diagonal](https://i.imgur.com/YvtbUBH.jpg)
 
 #### Example
 
-'''
+```
 <!DOCTYPE html>
 <html>
 <head>
@@ -107,10 +108,10 @@ The following example shows a linear gradient that starts at top left (and goes 
 #grad1 {
     height: 200px;
     background: red; /* For browsers that do not support gradients */    
-    background: -webkit-linear-gradient(left top, red, yellow); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(bottom right, red, yellow); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(bottom right, red, yellow); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to bottom right, red, yellow); /* Standard syntax (must be last) */
+    background: -webkit-linear-gradient(left top, red, green); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, red, green); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, red, green); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, red, green); /* Standard syntax (must be last) */
 }
 </style>
 </head>
@@ -125,12 +126,12 @@ The following example shows a linear gradient that starts at top left (and goes 
 
 </body>
 </html>
-'''
+```
 
-[diagonal-exp](https://i.imgur.com/xbpf3yX.jpg)
+![diagonal-exp](https://i.imgur.com/8gKRhAp.jpg)
 
 
 
 #### More Information:
-[MDN Documentatiion](https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient)
+[MDN Documentatiion](https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient) || [w3schools](https://www.w3schools.com/css/css3_gradients.asp)
 
