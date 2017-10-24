@@ -37,6 +37,13 @@ You are now in *paste* mode.
 You can then enter insert mode with `i` and paste the block of text/code without any issues!
 To return to regular Vim without paste mode you can enter normal mode (`escape` or `crtl + c`) and type `:set nopaste`, and press ENTER
 
+# Other useful commands
+- Searching files:
+    - to search a file for a string, type ":/<your_search" while in normal mode.
+- Relative number: displays how many lines away each existing line is from your current location. To turn this mode on, type "set relativenumber" when in normal mode. Really useful for jumping around to a specific line.
+- Changing the case of a line:
+    - type "guu" to make a line lowercase, or "gUU" to make a line uppercase.
+
 
 ## I Want to Learn Vim!
 Start by pressing `escape` to check if you're in normal mode, press colon `:`, type `Tutor`, and press `enter`.
