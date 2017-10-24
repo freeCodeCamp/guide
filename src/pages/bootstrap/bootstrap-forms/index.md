@@ -3,11 +3,11 @@ title: Bootstrap Forms
 ---
 ## Bootstrap Forms
 
-Bootstrap offers several classes for quickly building responsive forms. By using an appropriate ```type``` you can also take advantage of input controls like email verification, number selection, and more.
+Bootstrap offers several classes for quickly building responsive forms. By using an appropriate `type` you can also take advantage of input controls like email verification, number selection, and more.
 
 Below is an example to demonstrate Bootstrap’s form styles.
 
-```
+```html
 <form>
   <div class="form-group">
     <label for="exampleInputEmail1">Email address</label>
@@ -27,4 +27,6 @@ Below is an example to demonstrate Bootstrap’s form styles.
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
 ```
+
+#### More Information:
 To learn more about all of Bootstrap's form options, visit <a href="http://getbootstrap.com/docs/4.0/components/forms/" target="_blank">http://getbootstrap.com/docs/4.0/components/forms/</a>
