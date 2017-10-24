@@ -12,6 +12,17 @@ title: Unconscious Bias
 
 <p>Implicit or unconscious bias happens by our brains making incredibly quick judgments and assessments of people and situations without us realising. Our biases are influenced by our background, cultural environment and personal experiences. We may not even be aware of these views and opinions, or be aware of their full impact and implications.</p>
 
+<p>There are many factors that can give you an unconcious bias, such as:</p>
+<ul>
+  <li>Our Perception – how we see people and perceive reality.</li>
+  <li>Our Attitude – how we react towards certain people.</li>
+  <li>Our Behaviours – how receptive/friendly we are towards certain people.</li>
+  <li>Our Attention – which aspects of a person we pay most attention to.</li>
+  <li>Our Listening Skills – how much we actively listen to what certain people say.</li>
+  <li>Our Micro-affirmations – how much or how little we comfort certain people in certain situations.</li>
+</ul>
+<p>It was also found in various studies that that even the order of questions in a test can lead to unconsious bias. There is a very good video on the topic <a href="https://www.youtube.com/watch?v=75g4d5sF3xI">here.</a> </p>
+
 <p>Unconscious bias is far more prevalent than conscious prejudice and often incompatible with one’s conscious values. Certain scenarios can activate unconscious attitudes and beliefs. For example, biases may be more prevalent when multi-tasking or working under time pressure.</p> 
 <p>Unconscious bias can influence decisions in recruitment, promotion and performance management. It could be discriminatory when the unconscious bias relates to a protected characteristic.</p>
 
