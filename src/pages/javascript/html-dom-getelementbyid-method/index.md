@@ -30,3 +30,7 @@ document.getElementById("demo"); // Returns the element with id "demo" containin
 #### More Information:
 
 <a href='https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById' target='_blank' rel='nofollow'>document.getElementById()</a>
+
+#### Alternative solutions:
+
+Most used alternative solution to document.getElementById is using a jQuery selector which you read about more <a href='https://github.com/freeCodeCamp/guides/tree/master/src/pages/jquery' target='_blank'>here</a>
