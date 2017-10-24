@@ -8,5 +8,7 @@ title: Some Usages for Linux
 *   The US Department of Defense (DoD) uses Linux to run their nuclear submarine fleet.
 *   The US Navy uses Linux for ground control software.
 *  Pakistan is using Linux in many of its public schools and colleges and plans to ultimately run it on all of its government computer systems
+*   Linux is used to host websites or apps. Linux-based web hosts like 'Dreamhost' is used to host your personal RSS reader with Tiny Tiny RSS, or personal Dropbox clone with OwnCloud.
+*   Home automation can be made possible with Linux along with a small computer like a Raspberry Pi. It can be used to control home with Siri, mount a Google Calendar tablet on wall, set up a home surveillance system, control blinds and air conditioner, stream music , build a digital photo frame, build a sunrise alarm clock amd many more.
 
 Other adoptions of Linux from around the world can be viewed <a href='https://en.wikipedia.org/wiki/List_of_Linux_adopters' target='_blank' rel='nofollow'>here</a> and <a href='http://www.comparebusinessproducts.com/fyi/50-places-linux-running-you-might-not-expect' target='_blank' rel='nofollow'>here</a>
