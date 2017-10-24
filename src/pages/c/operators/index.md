@@ -37,15 +37,15 @@ title: Operators
      ```C
      int a = 8;
      a++; // a = 9
-     int b = a++; // a = 10, b = 9
-     int c = ++a; // a = 11, c = 11
+     int b = a++; // postfix operator; a = 10, b = 9
+     int c = ++a; // prefix operator; a = 11, c = 11
      ```
 - `--` Decreases int value by one
      ```C
      int a = 8;
      a--; // a = 7
-     int b = a--; // a = 6, b = 7
-     int c = --a; // a = 5, c = 5
+     int b = a--; // postfix operator; a = 6, b = 7
+     int c = --a; // prefix operator; a = 5, c = 5
      ```
 
 ## 2. Logical Operators
@@ -160,3 +160,22 @@ title: Operators
      int a = 21;
      a %= 5; // a = a % 5 = 21 % 5 = 1
      ```
+     
+## 5. Operator precedence in C
+Operators with the highest precedence appear at the top of the list. Within an expression, operators
+with higher precedence will be evaluated first.
+- Postfix `() [] -> . ++ --`
+- Unary `+ - ! ~ ++ -- (type)* & sizeof`
+- Multiplicative `* / %`
+- Additive `+ -`
+- Shift `<< >>`
+- Relational `< <= > >=`
+- Equality `== !=`
+- Bitwise AND `&`
+- Bitwise XOR `^`
+- Bitwise OR `|`
+- Logical AND `&&`
+- Logical OR `||`
+- Conditional `?:`
+- Assignment `= += -= *= /= %= >>= <<= &= ^= |=`
+- Comma `,`
