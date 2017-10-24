@@ -14,3 +14,5 @@ You could also consult any of these articles:
 *   <a href='http://forum.freecodecamp.com/t/clojure-conditionals/18412' target='_blank' rel='nofollow'>Conditionals</a> - Using logic to add complex control flow to your programs.
 *   <a href='http://forum.freecodecamp.com/t/clojure-create-local-variables-with-let/18415' target='_blank' rel='nofollow'>Let Bindings</a> - Using local variables.
 *   <a href='http://forum.freecodecamp.com/t/clojure-loop-recur/18418' target='_blank' rel='nofollow'>Loop and Recur</a> - Using recursion to create loops in Clojure.
+
+For a brief and simple learning experience free online book <a href='https://www.braveclojure.com/foreword/' target='_blank' rel='nofollow'>Clojure for the Brave and True</a> can be used.
