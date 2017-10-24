@@ -20,11 +20,12 @@ Promise.resolve({name: 'John', age: '43'}); // object
 A "thenable" is a function that takes two callback functions as parameters. You can use the first parameter to trigger a successful completion, and the second to return an error on the Promise.
 
 ```
-function thenableFunction(onSuccesss, onFailure) {
-  if (condition === 'success') {
-    onSuccess(paramList); // success condition
-  } else {
-    onFailure(paramList); // error condition
+thenableFunction = {then: function(onSuccesss, onFailure) {
+    if (condition === 'success') {
+      onSuccess(paramList); // success condition
+    } else {
+      onFailure(paramList); // error condition
+    }
   }
 }
 
