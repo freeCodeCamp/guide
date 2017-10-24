@@ -3,13 +3,9 @@ title: B Tag
 ---
 ## B Tag
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/b-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
+The <b> tag is an HTML element that specifies bold text. 
+  
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b">HTML Element Reference</a>
 
 
