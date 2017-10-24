@@ -33,6 +33,8 @@ The *.caret* class creates a caret arrow icon (&#9660;), which indicates that th
 
 Add the *.dropdown-menu* class to a unordered list element to actually build the dropdown menu.
 
+Use *.dropdown-menu-right* instead of *.dropdown-menu* to right align the dropdown menu. 
+
 #### More Information:
 https://getbootstrap.com/docs/4.0/components/dropdowns/
 
