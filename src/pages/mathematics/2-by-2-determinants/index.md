@@ -3,7 +3,7 @@ title: 2 by 2 Determinants
 ---
 ## 2 by 2 Determinants
 
-For a 2×2 matrix, its determinant is found by subtracting the products of its diagonals, which is a fancy way of saying in words what the following says in pictures:
+For a 2×2 matrix, its determinant is found by subtracting the products of its diagonals, which is a fancy way of saying in words what is diplayed in the following gif:
 
 <img src="http://www.purplemath.com/modules/matrices/detanim2.gif">
 
