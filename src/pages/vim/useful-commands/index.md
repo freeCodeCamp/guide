@@ -9,7 +9,7 @@ title: Useful Commands
 ## Exiting Vi, Vim, Nvim, Gvim
 1. Press escape to get you into "normal" mode
 2. Type `:q`, press enter. If you receive an error try `:q!`
-(NOTE: The command `:q!` will force vim to exit without saving. Make sure you save first by typing the command `:w` if you do not want to lose any changes you've made.)
+(NOTE: The command `:q!` will force Vim to exit without saving. Make sure you save first by typing the command `:w` if you do not want to lose any changes you've made.)
 
 **OR**
 - Type ZZ (save and quit)
@@ -30,7 +30,7 @@ Depending on the configuration, you may enter a file browser by typing and enter
 ## Pasting blocks of code
 Very often you will find yourself looking for solutions to problems, and finding someone has written a block of code that does exactly what you want.
 If you try to copy and paste the code directly into Vim you might find that the code is weirdly formatted or hasnt't been pasted correctly.
-This is due to the fact that vim reads each character that you paste one after the other, meaning any key-combinations that activates a Vim shortcut will be executed and Vim will try (and fail) to automatically indent the pasted code.
+This is due to the fact that Vim reads each character that you paste one after the other, meaning any key-combinations that activates a Vim shortcut will be executed and Vim will try (and fail) to automatically indent the pasted code.
 
 To overcome this you can use Vim's **Paste mode** which you can activate by entering normal mode (press `escape` or `crtl + c`) and type `:set paste`, then press ENTER.
 You are now in *paste* mode.
