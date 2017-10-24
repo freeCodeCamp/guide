@@ -23,7 +23,7 @@ Accessibility in itself is a bit of a misleading term sometimes, especially if E
 
 If your site is on the Internet, reachable by anyone with a web browser, in one sense that website is accessible to everyone with a web browser.
 
-But, is all content on your website actually readable, usable and understandable for everyone? Are there no thresholds that bar certain people from ' accessing' all the information you are exposing?
+But, is all content on your website actually readable, usable and understandable for everyone? Are there no thresholds that bar certain people from 'accessing' all the information you are exposing?
 
 You could ask yourself questions like the following ones:
 
@@ -118,12 +118,11 @@ For images of text, the text can either be included in the alt-attribute or offe
 Even people who don't wear glasses and have no problem with their eyesight at all benefit from an easy to read font and proper contrast. I'm sure you would cringe if you had to fill in a form where light yellow, hopelessly loopy letters are placed on a white background. For people who's eyesight is not as good, like your grandma for example, this becomes hopelessly worse.
 
 The WCAG has contrast ratios for smaller and larger letters and there's plenty of tools out there to check if the contrast ratios are strong enough. The information and tooling is there, go use it ![:slight_smile:](//forum.freecodecamp.com/images/emoji/emoji_one/slight_smile.png?v=2 ":slight_smile:")
+A good place to start checking color contrast is by using the [WebAIM](https://webaim.org/resources/contrastchecker/) color contrast checker.
 
 ### What does this button do?
 
-While we are at the topic of forms, let's quickly glance at the
-
-tag. This little guy is kinda important.  
+While we are on the topic of forms, let's quickly glance at the <code>input</code> tag. This little guy is kinda important.  
 When you put some input fields on a web page, you can use labels to ...well ...label them. However, putting them next to each other is not quite enough. The attribute you want is the for-attribute, which takes the ID of a subsequent input field. This way, assistive technologies know what label to associate with what form field.  
 I guess the best way to illustrate this is by giving an example:
 
@@ -131,15 +130,15 @@ I guess the best way to illustrate this is by giving an example:
 
     <input type='text' id='username'>
 
-This will make for example a screen-reader say "username, text edit field", instead of just reporting' text edit field' and requiring the user to go look for a label. This also really helps people who use speech recognition.
+This will make for example a screen-reader say "username, text edit field", instead of just reporting' text edit field' and requiring the user to go look for a label. This also really helps people who use speech recognition software.
 
 ### That's a tall order
 
 Let's take a small break. I want you to go look at a really well-designed web page. It can be any page. Go on, I'll wait.
 
-Back? Ok, great. Now, look at the page again but disable all CSS. Does it still look good? Is the content on the page still in a logical order?If so, great. You found a page with decent HTML structure.
+Back? Ok, great. Now, look at the page again but disable all CSS. Does it still look good? Is the content on the page still in a logical order? If so, great. You found a page with decent HTML structure.
 
-If not, great. Now you get an impression on what I have to deal with on a daily basis when I come across a badly structured website.
+If not, great. Now you get an impression of what I have to deal with on a daily basis when I come across a badly structured website.
 
 Full disclosure: I tend to curse when this happens. Loudly. With vigor.
 
@@ -149,7 +148,7 @@ _spoiler alert!_ To those who have only covered the HTML/CSS curriculum so far, 
 
 Screen-readers and other assistive technologies render a top-to-bottom representation of a web page based on your website's DOM. All positional CSS is ignored in this version of the web page.
 
-DOM stands for Document Object Model and is a tree-like structure of your website's HTML elements. All your HTML elements are nodes that hierarchically interlink based on the HTML tags you use and JavaScript, as well as screen-readers, use this DOM tree to work with your HTML code.
+DOM stands for Document Object Model and is the tree-like structure of your website's HTML elements. All your HTML elements are nodes that hierarchically interlink based on the HTML tags you use and JavaScript. Screen-readers use this DOM tree to work with your HTML code.
 
 If you put your element at the top of your element, it will show up at the top of your DOM tree as well. therefore, the screen-reader will put it at the top as well, even if you move it to the bottom of the page using CSS.  
 So a final tip I want to give you all is to pay attention to the order of your HTML, not just your finished website with CSS added in. Does it still make sense without CSS? Great!  
@@ -163,6 +162,6 @@ I have also given you the basics, the very basics, of getting accessibility righ
 If we talk in FCC terms, you should keep these in mind while doing the HTML/CSS curriculum as well as the JavaScript curriculum.  
 In subsequent articles, I will touch on a number of more notch topics. A number of questions I will answer are:
 
-*   Adding structure headings sounds like a good idea, but they don't fit in my design. What do I do?
+*   Adding structured headings sounds like a good idea, but they don't fit in my design. What do I do?
 *   Is there a way for me to write content only screen-readers and other assistive technologies see?
 *   How do I make custom JavaScript components accessible?
