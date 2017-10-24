@@ -19,6 +19,23 @@ For example, to display a different message based on the value of the isMember v
     let message = isMember ? 'Welcome Back!' : 'You need to login';
 ```
 
+Another useful method to using a Terarny would be to envoke it to execute a function or method 
+
+```javascript
+    
+    function memeberOpen(){
+        console.log("open");
+    }
+    
+    function memeberClose(){
+        console.log("close");
+    }
+    
+    let isMember = true;
+    
+    (isMember) ? memeberOpen() : memeberClose();
+```
+
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/M8Ge/1' target='_blank' rel='nofollow'>Run Code</a>
 
 **Read more:** <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator' target='_blank' rel='nofollow'>MDN</a>
