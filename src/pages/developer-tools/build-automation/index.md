@@ -12,4 +12,4 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+* One of the tools which is widely used to do build automation is [Jenkins](https://jenkins.io/). Jenkins is open source with a very active community which provides a number of useful plugins. Jenkins is very famous for doing continuous integration/continous delivery (CI/CD).
