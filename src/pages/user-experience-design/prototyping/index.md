@@ -9,5 +9,16 @@ title: Prototyping
 <p>In some cases, prototyping might involve volunteers, while in other cases, special clients or others with special status may be involved in prototyping. Development teams and tech companies will typically elicit feedback on a product during prototyping in order to fix problems before final distribution.</p>
 
 
+## Tools
+
+Some popular prorotyping tools among UX designers include:
+
+- Sketch
+- InVision
+- Axure
+- Adobe XD CC
+- Figma
+- UXPin
+- Framer
 
 
