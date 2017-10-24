@@ -5,6 +5,9 @@ title: Docstring
 
 Docstring is a way for developers to communicate the purpose, parameters, requirements, and usage of a function in Python to other developers. It allows for ease of code maintenance and understanding.
 
+Unlike conventional source code comments the docstring should describe what the
+function does, not how.
+
 A similar example to Docstring is @Javadoc in Java.
 
 Docstring is written as a multi-line comment just after the declaration header in Python. There are 4 different parts to a docstring:
