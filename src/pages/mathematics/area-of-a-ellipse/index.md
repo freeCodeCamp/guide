@@ -1,14 +1,13 @@
 ---
-title: Area of a Ellipse
+title: Area of an Ellipse
 ---
-## Area of a Ellipse
+## Area of an Ellipse
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/area-of-a-ellipse/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+An ellipse is just a circle stretched along a particular diameter. If `a` is the length of the semi-major axis of an ellipse and `b` is the length of the semi-minor axis, then Area of ellipse is given by,
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Area = π * a * b
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
+![alt text](http://s3-ap-southeast-1.amazonaws.com/subscriber.images/maths/2016/06/06051212/ellipse.png)
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
