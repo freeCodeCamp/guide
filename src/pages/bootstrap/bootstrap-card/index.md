@@ -1,6 +1,6 @@
-Title | 
------------- |
-Cards |
+---
+title: Bootstrap Cards
+---
 
 # Bootstrap Cards
 A card is a flexible and extensible content container. It includes options for headers and footers, a wide variety of content,  
