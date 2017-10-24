@@ -8,7 +8,7 @@ title: SQL Avg Function
 Here is the syntax for using the function:
 
 ```sql
-seleted groupingField, avg(num_field)
+select groupingField, avg(num_field)
 from table1
 group by groupingField
 ```
