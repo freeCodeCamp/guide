@@ -3,11 +3,11 @@ title: Classes and Objects
 ---
 # Classes and Objects
 
-Classes are groups of variables and operations on them. A class can have variables, methods (or functions) and constructors (or methods which are used to initiate, more on that later!).
+Classes are groups of variables and operations on them. A class can have variables, methods (or functions), and constructors (or methods which are used to initiate, more on that later!).
 
-Think of a `Class` as a blueprint for creating something concrete. A `Class` tells you the 'what' and 'how' an `object` of that Class will look like once `instantiated`. In essence, it defines `properties` (say color, engine capacity) and `behavior` (stop, speed up, change gears, honk etc.) for a Car in this case.
+Think of a `Class` as a blueprint for creating something concrete. A `Class` tells you how the 'what' and 'how' an `object` of said Class will look once `instantiated`. In essence, it defines `properties` (say color, engine capacity) and `behavior` (stop, speed up, change gears, honk etc.) for a Car in the case below.
 
-Objects are _instances_ of a class. All objects are instances of a certain class. Imagine a class being a "template", which every Object copies to. When you create an Object, basically it creates a new object on the blueprint of a class. Now lets look at this from a little piece of code :
+Objects are _instances_ of a class. All objects are instances of a certain class. Imagine a class being a "template", from which every Object copies. When you create an Object, it basically creates a new object on the blueprint of a class. Now let's look at this in a little piece of code :
 
 ```java
 // Car class
