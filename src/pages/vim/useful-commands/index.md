@@ -16,6 +16,18 @@ title: Useful Commands
 - Close your terminal
 - Shut down your computer
 
+## Motion Commands
+- `^` - Move to the beginning of a line.
+- `$` - Move the the end of a line.
+- `h` - Move left.
+- `l` - Move right.
+- `k` - Move to the previous line.
+- `j` - Move to the next line.
+- `w` - Move Forward 1 word.
+- `b` - Move back 1 word.
+- `5w` - Move forward 5 words
+- `Shift-G` - Move to last line of a file
+
 ## Bare minimum functionality
 Most likely you'll find yourself in "normal" mode, it allows you to enter commands by pressing the colon `:` key.
 To get here from other modes you can type `ctrl + c` or `escape`.
