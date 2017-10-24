@@ -58,3 +58,11 @@ while(!sorted) {
 ```
 
 
+#### More Information:
+
+- <a href='https://en.wikipedia.org/wiki/Bubble_sort' target='_blank' rel='nofollow'>Wikipedia</a>
+
+- <a href='http://www.geeksforgeeks.org/bubble-sort' target='_blank' rel='nofollow'>GeeksForGeeks</a>
+
+- <a href='https://www.youtube.com/watch?v=nmhjrI-aW5o' target='_blank' rel='nofollow'>Youtube: A Visual Explanation of Bubblesort</a>
+
