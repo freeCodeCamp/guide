@@ -53,7 +53,7 @@ function linearSearch(arr, item) {
 }
 ```
 
-#### Relevant Video:
+#### Other Resources
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
 <a href='https://www.youtube.com/watch?v=vZWfKBdSgXI' target='_blank' rel='nofollow'>Linear Search - CS50</a>
