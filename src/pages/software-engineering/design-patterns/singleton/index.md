@@ -73,4 +73,27 @@ $obj1 = Singleton::getInstance();
 $obj2 = Singleton::getInstance();
 
 ```
+## Singleton in iOS
 
+The sole purpose of creating a singleton is to allow you to access it’s shared properties and methods, and making it globally accessible. This design pattern is useful when you want to only create one instance of an object.
+
+```Swift4
+
+class Singleton {
+  static let sharedInstance = Singleton()
+ 
+    init() {
+        print("Singleton has been initialized")
+    }
+    
+    //write your functions here
+    func sampleFunction() {
+    }
+}
+
+//Uses
+Singleton.sharedInstance.sampleFunction()
+```
+This simple code is all there to implement a singleton design pattern in iOS using Swift. We put <b><i>static</i></b> because it is a type property, and it’s functionality is to create only one instance of an object and prevents its methods from being overridden. Using <b><i>let</i></b> will guarantee that sharedInstance's value will not change.
+
+An important thing to note is that <b><i>static properties and methods are lazy initialize by default meaning that it will not be instantiated until it is being called</i></b>, therefore it provides some optimization.
