@@ -10,6 +10,8 @@ The steps involved in Quick Sort are:
 - Partitioning: Sort the array in such a manner that all elements less than the pivot are to the left, and all elements greater than the pivot are to the right.
 - Call Quicksort recursively, taking into account the previous pivot to properly subdivide the left and right arrays. (A more detailed explanation can be found in the comments below)
 
+Choosing the pivot is the most important decision in implementaing the Quicksort. Never choose the pivot as the first or last element in the array, because if the initial array is sorted, then all the elements will go to only one of the partition. Usually the best pivot is chosen as a median value of the first, last and middle elements of the array. However you can also choose the pivot randomly from elements of the array, this minimizes the chance of Quicksort's worst case, the O(n^2).
+
 A quick implementation in JavaScript:
 
 ```javascript
