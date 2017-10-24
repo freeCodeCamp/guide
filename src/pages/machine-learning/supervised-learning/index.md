@@ -1,6 +1,7 @@
 ---
 title: Supervised Learning
 ---
+## Supervised Learning
 
 In supervised learning, we know what the correct output should be. Supervised learning problems can be categorized into regression and classification. A regression problem is where you map input to a continuous output. A classification problem, in contrast, is where you map (group) inputs into discrete categories.
 
