@@ -3,13 +3,29 @@ title: Semantic HTML Elements
 ---
 ## Semantic HTML Elements
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/semantic-html-elements/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Semantic HTML is the use of HTML markup to reinforce the semantics, or meaning, of the information in webpages and web applications rather than merely to define its presentation or look. A semantic element clearly describes its meaning to both the browser and the developer.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Examples
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Some examples of semantic HTML markup are ase follows:
+
+* ```<article>```
+* ```<aside>```
+* ```<details>```
+* ```<figcaption>```
+* ```<figure>```
+* ```<footer>```
+* ```<header>```
+* ```<main>```
+* ```<mark>```
+* ```<nav>```
+* ```<section>```
+* ```<summary>```
+* ```<time>```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
+For more detailed information and examples, check out the following pages:
 
+* <a href="https://www.w3schools.com/html/html5_semantic_elements.asp" target="">w3schools Semantic HTML page.</a>
+* <a href="https://en.wikipedia.org/wiki/Semantic_HTML" target="">Semantic HTML Wikipedia article.</a>
