@@ -3,13 +3,13 @@ title: Error Handling
 ---
 ## Error Handling
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/computer-science/error-handling/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Every program should take into account errors that might occur. Even the best written program will almost always run into some errors whether it's bad input or null pointer. You should strive for keeping them at the minimum level. The less errors you have, the less you have to worry about special cases. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Example of error handling in Java: 
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+```
+try {
+  code that might throw an exception
+} catch (SomeException e) {
+  specify what should program do if exception occurs
+}
