@@ -22,4 +22,4 @@ students.filter(student => student.grade >= 90)
 ```
 
 #### More Information:
-<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter' target='_blank' rel='nofollow'>MDN</a>
+[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)

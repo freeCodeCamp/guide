@@ -167,4 +167,4 @@ Functions can only return a single value, however, a heterogenuous `tuple` can b
     (1, 'campers!')
 ```
 ### More Inforamtion:
-<a href='https://docs.python.org/3/library/stdtypes.html#tuples' target='_blank' rel='nofollow'>Python Docs - Tuples</a>
+[Python Docs - Tuples](https://docs.python.org/3/library/stdtypes.html#tuples)

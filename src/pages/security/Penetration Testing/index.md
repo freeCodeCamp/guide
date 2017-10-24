@@ -41,4 +41,4 @@ First understand your requirements and evaluate all the risks.
 * Always sign an agreement before doing a penetration test.
 
 ## Resources
-<a href='https://en.wikipedia.org/wiki/Penetration_test' target='_blank' rel='nofollow'>Penetration Testing</a>
+[Penetration Testing](https://en.wikipedia.org/wiki/Penetration_test)

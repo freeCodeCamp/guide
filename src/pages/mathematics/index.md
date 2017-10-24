@@ -33,7 +33,7 @@ public class Calculator {
 Calling the function with a power of 3 will give these results:
 [1, 8, 27, 64, 125]
 
-Documentation reference: <a href='https://msdn.microsoft.com/en-us/library/system.math(v=vs.110' target='_blank' rel='nofollow'>MSDN</a>.aspx)
+Documentation reference: [MSDN](https://msdn.microsoft.com/en-us/library/system.math(v=vs.110).aspx)
 
 #### JavaScript
 With Node.js
@@ -57,14 +57,14 @@ In the browser
 </html>
 ```
 
-Documentation reference: <a href='http://mathjs.org/docs/index.html' target='_blank' rel='nofollow'>Math.js documentation</a>
+Documentation reference: [Math.js documentation](http://mathjs.org/docs/index.html)
 
 #### C++
 ``` cpp
 #include <math.h>
 ```
 
-Documentation reference: <a href='http://www.cplusplus.com/reference/cmath/' target='_blank' rel='nofollow'>cplusplus reference</a>
+Documentation reference: [cplusplus reference](http://www.cplusplus.com/reference/cmath/)
 
 #### Python
 ``` python

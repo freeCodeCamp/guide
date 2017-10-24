@@ -16,8 +16,8 @@ Here is an example of how to display a section in same color:
 ```
 
 #### More Information:
-<a href='https://www.tutorialspoint.com/html/html_div_tag.htm' target='_blank' rel='nofollow'>Tutorialspoint</a>
+[Tutorialspoint](https://www.tutorialspoint.com/html/html_div_tag.htm)
 
-<a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div' target='_blank' rel='nofollow'>MDN</a>
+[MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div)
 
 

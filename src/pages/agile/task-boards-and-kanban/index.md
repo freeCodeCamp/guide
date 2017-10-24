@@ -13,18 +13,18 @@ Your Kanban tasks are displayed on the Task Board in a series of columns that sh
 
 ![Kanban Board Example](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Simple-kanban-board-.jpg/600px-Simple-kanban-board-.jpg)
 
-*Image courtesy of <a href='https://en.wikipedia.org/wiki/Kanban_board' target='_blank' rel='nofollow'>Wikipedia</a>*
+*Image courtesy of [Wikipedia](https://en.wikipedia.org/wiki/Kanban_board)*
 
 But many other columns, or states, can be added. A software team may also include Waiting to Test, Complete, or Accepted, for example.
 
 ![More Complicated Example](https://mktgcdn.leankit.com/uploads/images/general/_2048xAUTO_fit_center-center/1-SmalDevelopmentTeamKanbanBoard-eb79376d.png)
 
-*Image courtesy of <a href='https://leankit.com/learn/kanban/kanban-board-examples-for-development-and-operations/' target='_blank' rel='nofollow'>leankit</a>*
+*Image courtesy of [leankit](https://leankit.com/learn/kanban/kanban-board-examples-for-development-and-operations/)*
 
 ### More Information:
-- What is Kanban: <a href='https://leankit.com/learn/kanban/what-is-kanban/' target='_blank' rel='nofollow'>Leankit</a>
-- What is Kanban: <a href='https://www.atlassian.com/agile/kanban' target='_blank' rel='nofollow'>Atlassian</a>
+- What is Kanban: [Leankit](https://leankit.com/learn/kanban/what-is-kanban/)
+- What is Kanban: [Atlassian](https://www.atlassian.com/agile/kanban)
 
 Some online boards
-- <a href='https://trello.com/' target='_blank' rel='nofollow'>Trello</a>
-- <a href='https://kanbanflow.com' target='_blank' rel='nofollow'>KanbanFlow</a>
+- [Trello](https://trello.com/)
+- [KanbanFlow](https://kanbanflow.com)
