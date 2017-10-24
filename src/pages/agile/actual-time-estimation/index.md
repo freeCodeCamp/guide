@@ -3,11 +3,7 @@ title: Actual Time Estimation
 ---
 ## Actual Time Estimation
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/actual-time-estimation/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Actual Time Estimation w.r.t project planning means It is an estimation about how much time should a project take to reach in production stage. 
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
