@@ -39,6 +39,12 @@ To set multiple CSS properties, you'll have to use the object literal syntax lik
     });
 ```
 
+If you want to change a property labeled with more than one word, refer to this example:
+
+
+```js
+    $('#element').css('background-color': 'gray');
+```
 
 #### More Information:
 
