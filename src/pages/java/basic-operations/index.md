@@ -6,7 +6,7 @@ title: Basic Operations
 Java supports the following operations on variables:
 
 *   Arithmetic : `Addition(+)`, `Subtraction(-)`, `Multiplication(*)`, `Division(/)`, `Modulus(%)`,`Increment(++)`,`Decrement(--)`.
-*   String concatenation: `+` can be used for String concatenation but subtraction `-` on a String is not a valid operation.
+*   String concatenation: `+` can be used for String concatenation, but subtraction `-` on a String is not a valid operation.
 *   Relational: `Equal to(==)`, `Not Equal to (!=)`, `Greater than(>)`, `Less than(<)`, `Greater than or equal to(>=)`, `Less than or equal to(<=)`
 *   Bitwise: `Bitwise And(&)`, `Bitwise Or(|)`, `Bitwise XOR(^)`, `Bitwise Compliment(~)`, `Left shift(<<)`, `Right Shift (>>)`, `Zero fill right shift (>>>)`
 *   Logical: `Logical And (&&)`, `Logical Or(||)`, `Logical Not (!)`
