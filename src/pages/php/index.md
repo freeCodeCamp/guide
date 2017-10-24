@@ -2,6 +2,8 @@
 title: PHP
 ---
 
+![logo](https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/150px-PHP-logo.svg.png "PHP logo")
+
 ## What is PHP?
 
 PHP is a server-side scripting language created in 1995 by Rasmus Lerdorf.
