@@ -2,7 +2,7 @@
 title: Variables
 ---
 
-Lets discuss something know as variables. Variables are like a bucket. You can put something in it and then change it 
+Let's discuss something know as variables. Variables are like a bucket. You can put something in it and then change it 
 afterwards when needed.
 In C++ there are many types of variables like Integers, Strings, Booleans and many other.
 Lets look at a simple program using integer variables.Integers can store simple positive and negative values like 0, 1, -1 
