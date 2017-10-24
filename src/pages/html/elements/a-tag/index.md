@@ -22,6 +22,14 @@ An image can also be turned into a link by enclosing the `<img>` tag in an `<a>`
 ```html
   <a href= "https://guide.freecodecamp.org/"><img src="logo.svg"></a>
 ```
+Link to different page
+
+#### Example:
+
+```html
+  <a href= "https://www.google.co.in/?gfe_rd=cr&dcr=0&ei=LzrvWfeEIZCdX4KwgNgN">Link to a page</a>
+```
+
 
 
 
