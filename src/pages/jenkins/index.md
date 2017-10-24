@@ -1,4 +1,4 @@
-Jenkins
+title: Jenkins
 
 Jenkins is an open source automation server which allow developers to automate their development processes such as testing, merging pull requests, and deploying applications. 
 
