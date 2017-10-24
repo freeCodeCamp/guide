@@ -16,10 +16,11 @@ These thoughts are fairly common if you suffer from imposter syndrome:
 * "People are going to realise that I am not as smart as I potrayed in the interview and I will be ridiculed and fired for this" (fears failure)
 * "My IQ is not high enough to work here"
 
+Imposter Syndrom may prevent you from reaching out when you need help, thus slowing your progression. Please do reach out on the forum or the chatroom!
+
 Some resources to help you know more about Imposter Syndrome and some tips to tackle it:
 
 * <a href='http://www.apa.org/gradpsych/2013/11/fraud.aspx' target='_blank' rel='nofollow'>Feel Like a Fraud? | American Psychological Association</a>
 * <a href='https://www.ted.com/playlists/503/fighting_impostor_syndrome' target='_blank' rel='nofollow'>Fighting Imposter Syndrome | TED Talks</a>
 * <a href='https://qz.com/606727/is-imposter-syndrome-a-sign-of-greatness/' target='_blank' rel='nofollow'>Is imposter syndrome a sign of greatness? | Quartz</a>
-
-
+* <a href='https://adainitiative.org/2013/08/28/is-impostor-syndrome-keeping-women-out-of-open-technology-and-culture/' target='_blank' rel='nofollow'>Is Impostor Syndrome keeping women out of open technology and culture?|Ada Initiative</a>
