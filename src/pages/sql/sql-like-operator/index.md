@@ -4,7 +4,7 @@ title: SQL LIKE Operator
 ## SQL LIKE Operator
 
 ### LIKE Operator defined
-The LIKE opertor is used in a WHERE or HAVING (as part of the GROUP BY) to limit the selected rows to the items when a column has a certain pattern of characters contained in it. 
+The LIKE operator is used in a WHERE or HAVING (as part of the GROUP BY) to limit the selected rows to the items when a column has a certain pattern of characters contained in it. 
 
 ### This guide will demonstrate:
 * a column starts with or ends with a given string pattern
