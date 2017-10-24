@@ -224,6 +224,6 @@ public class SmartPhone implements MusicPlayer {
 
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CIty/0' target='_blank' rel='nofollow'>Run Code</a>
 
-Whoops, did I forget `next()` ? See, since it was a `default` method, I didn't had to provide an implementation at all. (Wont work for JDK < 8)
+Whoops, did I forget `next()` ? See, since it was a `default` method, I didn't had to provide an implementation at all. (Won't work for JDK < 8)
 
 So, now you have a good grasp of Interfaces! Go learn about Abstract Classes to know how Java gives you yet another way to define contracts.
