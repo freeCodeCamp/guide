@@ -18,9 +18,16 @@ Python is one of the flexible language when it come to automating boring or repe
 ##### Artificial Intelligence:
 The presence of computing is Artificial Intelligence. AI has come to stay and Python is serving as a major language to boast development in the field of AI. Tensorflow is designed with Python and it is under AI.
 
+##### Machine Learning, Deep Learning
+Python is one of the best languages suited for machine learning, deep learning and data analytics with stronghold in all of them.
+There are specialized languages best suited for various role such as R and MATLAB but when it comes to overlapping fields of applications python wins hands down due to its flexibility and rapid prototyping and availability of libraries.
+
+
+
 #### More Information:
 Here's a <a href='https://www.python.org/about/apps/' target='_blank' rel='nofollow'>link</a> to appications of Python on it's offical website.
 <!-- Please add any articles you think might be helpful to read before writing the article -->
+
 
 #### Python is generally used for 
 
