@@ -5,7 +5,7 @@ title: Unconscious Bias
 
 <p>Unconscious biases otherwise known as Implicit bias are social stereotypes about certain groups of people that individuals form outside their own conscious awareness. Everyone holds unconscious beliefs about various social and identity groups, and these biases stem from one’s tendency to organize social worlds by categorizing.</p>
 
-<blockquote> Bias is a prejudice in favor of or against one thing, person, or group compared with another usually in a way that’s considered to be unfair. Biases may be held by an individual, group, or institution and can have negative or positive consequences. 
+<blockquote> Bias is a prejudice in favor of or against one thing, person, or group compared with another usually in a way that’s considered to be unfair. Biases may be held by an individual, group, or institution and can have negative or positive consequences. For that reason the benefits of prejudism can only exist at the expense of others. Therefore to be "biased for" you must be "biased against".
 </blockquote>
 
 <p>Unconscious bias occurs when people favour others who look like them and/or share their values. For example a person may be drawn to someone with a similar educational background, from the same area, or who is the same colour or ethnicity as them.</p>
