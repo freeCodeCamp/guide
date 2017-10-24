@@ -12,8 +12,13 @@ In this section, we'll have guides to a wide variety of user experience design c
 #### Articles for Resources and Inspiration for User Experience Design
 
 [Boxes & Arrows](http://boxesandarrows.com)
-[Usabilla] (http://blog.usabilla.com)
+
+[Usabilla](http://blog.usabilla.com)
+
+[UXPin Blog](https://www.uxpin.com/studio/blog/)
+
+[uxdesign.cc](https://uxdesign.cc/)
 
 #### Textbook for User Experience Design 
 
-Interaction Design: beyond human computer interaction 4th edition -> (Amazon)[https://www.amazon.com/Interaction-Design-Beyond-Human-Computer/dp/1119020751]
+Interaction Design: beyond human computer interaction 4th edition -> [Amazon](https://www.amazon.com/Interaction-Design-Beyond-Human-Computer/dp/1119020751)
