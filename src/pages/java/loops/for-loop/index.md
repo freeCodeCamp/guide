@@ -19,8 +19,8 @@ You can initialize more than one variable of the same type in the first part of 
 * `increment` - Invoked after each iteration through the loop. You can increase/decrease the value of variables here.
 
 ```java
-int iter_For;
-for (iter_For = 0; iter_For < 10; iter_For++)
+
+for (int iter_For = 0; iter_For < 10; iter_For++)
 {
     System.out.print(iter_For + " ");
     // Iterated 10 times, iter_For 0,1,2...9
