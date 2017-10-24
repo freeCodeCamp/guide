@@ -1,4 +1,6 @@
+---
 title: PHP Data Types
+---
 
 # PHP Data Types
 
