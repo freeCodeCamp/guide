@@ -2,14 +2,19 @@
 title: HTML Entities
 ---
 ## HTML Entities
+HTML entities are special character in HTML that have a special meaning in a HTML document. When you want to use these entities such as greater than (>) or less than (<) in your text, you have to use character entities so that they will not be interpreted as tags.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/html-entities/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+## Character Entities
+Programmers use character entities in order to diplay these reserved HTML entities properly in their text. Special characters that are not present on your keyboard can also be replaced by entities.
+A character entity can be written like:
+```
+&entity_name;
+OR
+&#entity_number;
+```
+For example, to display the greater than sign (>) we can use the character entity: ```&gt;```	or ```&#62; ```
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+Advantage of using an entity name: An entity name is shorter and easier to remember.
+Disadvantage of using an entity name: Some browsers may not support all entity names, so entity numbers have to be used.
+#### List of All Character Entities
+https://www.freeformatter.com/html-entities.html
