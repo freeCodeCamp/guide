@@ -3,13 +3,25 @@ title: HTML Entities
 ---
 ## HTML Entities
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/html-entities/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Character entities are used to display reserved characters in HTML.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+```
+&entity_name; or &#entity_number;
+```
+For eaxample, To display a less than sign (<) we must write: `&lt;` or `&#60;`
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+## Common HTML Entities
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
+| Entity Name   | Entity Number | Out put       | 
+| ------------- | ------------- | ------------- | 
+| `&nbsp;`      | `&#160;`      |               | 
+| `&ldquo;`     | `&#8220;`     |       `“`     |
+| `&rdguo;`     | `&#8221;`     |       `”`     | 
+| `&lsquo;`     | `&#8216;`     |       `‘`     | 
+| `&rsquo;`     | `&#8217;`     |       `’`     | 
+| `&lt;`        | `&#60;`       |       `<`     | 
+| `&gt;`        | `&#62;`       |       `>`     | 
+
+For more common [HTML entities](https://andrew.hedges.name/experiments/entities/)
 
