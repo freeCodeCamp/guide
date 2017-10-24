@@ -122,6 +122,35 @@ You entered a negative number : -200
 This step is always printed
 ```
 
+### use of else if with if, else
+If we have to make decisions based on more than one conditions using if else. We use else if condition as follows -
+```cpp
+#include<iostream>
+int main()
+{
+    int score;
+    std::cout<<"Enter your score: \n";
+    std::cin>>score;
+    if(score>=90)
+        std::cout<<"Top performance.";
+    else if(score<90 && score>=70)
+        std::cout<<"Good performance";
+    else if(score<70 && score>=45)
+        std::cout<<"Average performance";
+    else if(score<45 && score>=30)
+        std::cout<<"You can improve it.";
+   return 0;
+}
+```
+
+```
+Output:
+Enter your score:
+85
+Good performance
+```
+
+
 <a href='https://repl.it/MzBq' target='_blank' rel='nofollow'>Try the code yourself</a>
 _CONGRATULATIONS . This is the end of the article on the IF statement_ 
 
