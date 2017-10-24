@@ -1,6 +1,7 @@
 ---
 title: jQuery
 ---
+![logo](https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/JQuery_logo.svg/250px-JQuery_logo.svg.png "jQuery logo")
 ## jQuery
 
 jQuery is the most widely-used JavaScript library, and is used in more than half of all major websites. 
