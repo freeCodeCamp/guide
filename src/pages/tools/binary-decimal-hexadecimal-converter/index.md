@@ -3,7 +3,7 @@ title: Binary Decimal Hexadecimal Converter
 ---
 ## Binary Decimal Hexadecimal Converter
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/tools/binary-decimal-hexadecimal-converter/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+This is used to convert numbers to different bases and the options which are available are Binary,Decimal and Hexadecimal <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/tools/binary-decimal-hexadecimal-converter/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
 <a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
 
