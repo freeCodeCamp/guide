@@ -37,3 +37,8 @@ iter_For Value: 10
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CJYr/0' target='_blank' rel='nofollow'>Run Code</a>
 Extras
 You cannot use a number (old C-style language construct) or anything that does not evaluate to a boolean value as a condition for an if statement or looping construct. You can't, for example, say if(x), unless x is a boolean variable.
+
+
+
+New
+You can initialise more than one variable of the same type in the first part of basic 'for' loop declaration;each initialzation must be separated by a comma.
