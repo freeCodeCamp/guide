@@ -43,3 +43,15 @@ The output in your terminal should look something like this:
 [master 22gc8v1] My new message
  1 file changed, 1 insertion(+)
 ```
+
+#### The --amend Option
+Another popular option for commits is the `--amend` option in case you messed up a commit message or added the wrong files to your commit
+
+For example:
+
+Let’s say that you messed up your commit message and said "Add subtraction feature" when in actuality you added the multiplication feature. You can use `--amend` command to change your git commit message
+
+An example of how to use the `--amend` option:
+```shell
+git commit --amend -m "Add multiplication feature"
+```
