@@ -1,0 +1,35 @@
+---
+title: Box Model
+---
+## CSS Checkbox
+
+The `:checked` pseudo-class in CSS selects elements when they are in the selected state. It is only associated with `<input>` elements of type radio and checkbox . The `:checked` pseudo-class selector matches radio and checkbox input types when checked or toggled to an on state. If they are not selected or checked, there is no match.
+
+### Example CSS code
+
+```
+input[type=checkbox] + label {
+  color: #ccc;
+  font-style: italic;
+} 
+input[type=checkbox]:checked + label {
+  color: #f00;
+  font-style: normal;
+} 
+```
+
+### Example HTML code
+
+```
+<input type="checkbox" id="ossm" name="ossm"> 
+<label for="ossm">freeCodeCamp is awesome!</label> 
+```
+
+You can checkout an example [here](https://jsfiddle.net/pL6u7ham/1/)
+
+### More information:
+
+The `:checked` pseudo-class can be used with hidden inputs and their visible labels to build interactive widgets, such as image galleries.
+
++ [Checkbox Hack](https://css-tricks.com/the-checkbox-hack/)
++ [W3 Docs on checked](https://www.w3.org/TR/selectors/#checked)
