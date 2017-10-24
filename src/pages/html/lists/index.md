@@ -29,7 +29,7 @@ An ordered list would display as:
 
 #### Description lists
 A description list is a list of terms, with a description of each term. A description list is made using the `<dl>` tag.
-Each item in the list is made up of two tags: a term (`<dt>`), and a description of that term (`<dd>`).
+Each item in the list is made up of two tags: a term `<dt>`, and a description of that term `<dd>`.
 
 Here is an example of a description list:
 ```HTML
