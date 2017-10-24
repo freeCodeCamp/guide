@@ -21,3 +21,5 @@ The `<br>` tag produces a line break in a text. This is useful for poems and add
 
 #### More Information:
 [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br)
+
+<a href="https://www.w3schools.com/TAGs/tag_br.asp">W3Schools</a>
