@@ -3,13 +3,13 @@ title: Dining Philosophers Problem
 ---
 ## Dining Philosophers Problem
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/logic/dining-philosophers-problem/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The dining philosophers problem is a classic example used to illustrate issues with concurrency.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Here is a basic description of the problem: 
+5 philosophers sit at a round table for dinner (in silence, the philosophers are deep in thought), with one fork placed between each pair (5 total). 
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+To eat, a philosopher requires both a left and a right fork. Each fork can only be held by one philosopher at a time. A philosopher can decide to take the fork on their left or the fork on their right first. This means that only some of the philosophers can eat at once, since there are not enough forks for all 5 to eat at the same time. 
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+Given that the philosophers can't coordinate, it's possible that each may decide to take the fork on their right (or left). In this case, all 5 would wait for a second fork. This situation is often referred to as "deadlock."
 
 
