@@ -16,3 +16,12 @@ Most of the BST operations (e.g., search, max, min, insert, delete.. etc) take O
 Comparison with AVL Tree
 The AVL trees are more balanced compared to Red Black Trees, but they may cause more rotations during insertion and deletion. So if your application involves many frequent insertions and deletions, then Red Black trees should be preferred. And if the insertions and deletions are less frequent and search is more frequent operation, then AVL tree should be preferred over Red Black Tree.
 
+Left-leaning red–black tree:-
+A left-leaning red–black (LLRB) tree is a type of self-balancing binary search tree. It is a variant of the red–black tree and guarantees the same asymptotic complexity for operations, but is designed to be easier to implement.
+
+Properties of Left Leaning RB:-
+All of the red-black tree algorithms that have been proposed are characterized by a worst-case search time bounded by a small constant multiple of log N in a tree of N keys, and the behavior observed in practice is typically that same multiple faster than the worst-case bound, close to the optimal log N nodes examined that would be observed in a perfectly balanced tree.
+
+Specifically, in a left-leaning red-black 2-3 tree built from N random keys:
+->A random successful search examines log2 N − 0.5 nodes.
+->The average tree height is about 2 log2 N
