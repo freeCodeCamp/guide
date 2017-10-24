@@ -3,13 +3,14 @@ title: S Tag
 ---
 ## S Tag
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/s-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+The "<s>" tag is an HTML element that when used, will create a line through the text it is applied to.  These lines, or <em>strikethroughs</em> specify that the text is no longer accurate.  Below is an example of the <s> tag:
+  
+  <p><s>This year is the year of the monkey.</s></p>
+  <p>This year is the year of the Rooster.</p>
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+<a href="https://www.w3schools.com/TAGs/tag_s.asp">W3Schools</a>
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/s">HTML Element Reference</a>
 
 
