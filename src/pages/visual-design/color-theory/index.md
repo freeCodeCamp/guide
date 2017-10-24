@@ -33,5 +33,9 @@ Individuals who are affected by color-blindness might not be able to differentia
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
+Some resources to help you choose and understand colors better:
+* [How to get a professional look with color](https://www.webdesignerdepot.com/2009/12/how-to-get-a-professional-look-with-color/)
+* [Its Only Color](https://robots.thoughtbot.com/Its-only-color)
+
 
 
