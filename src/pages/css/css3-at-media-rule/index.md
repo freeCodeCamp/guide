@@ -13,3 +13,11 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
 
+## Example:
+Change the background-color if the viewport is 480 pixels wide or wider:
+
+@media screen and (min-width: 480px) {
+    body {
+        background-color: lightgreen;
+    }
+}
