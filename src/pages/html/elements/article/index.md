@@ -3,7 +3,7 @@ title: Article
 ---
 ## Article
 
-The `<article>` tag is a new tag that came with HTML5. It is used to define self-contained content on website such as news article, blog post, recipe and others. Content defined in `<article>` should always contain [header tags](https://guide.freecodecamp.org/html/elements/header-tag/)(`<h1>` - `<h6>`). If you need to further divide article into smaller logical units use [section tags](https://guide.freecodecamp.org/html/elements/section)(`<section>`).
+The `<article>` tag is a new tag that came with HTML5. With its help you can better describe the sematics of you web page. It is used to define self-contained content on website such as news article, blog post, recipe or comment. Content defined as `<article>` should be able to stand on its own, when taken out of the context of the web page. Content defined in `<article>` should always contain [header tags](https://guide.freecodecamp.org/html/elements/header-tag/)(`<h1>` - `<h6>`) to create logical structure. If you need to further divide article into smaller logical units use [section tags](https://guide.freecodecamp.org/html/elements/section)(`<section>`).
 
 #### Example
 
