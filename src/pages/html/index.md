@@ -11,6 +11,31 @@ The HyperText part of HTML comes from the early days of the web. Pages usually c
 
 HTML5 is the latest version, or specification, of HTML. The World Wide Web Consortium (W3C) is the organization responsible for developing standards for the World Wide Web, including those for HTML. As web pages and web applications grow more complex, W3C runs the process to update HTML's standards.
 
+## A simple example of HTML Document
+
+<span><</span>!DOCTYPE html><br>
+<span><</span>html><br>
+<span><</span>head><br>
+<span><</span>title>Page Title</title><br>
+<span><</span>/head><br>
+<span><</span>body><br>
+
+<span><</span>h1>My First Heading<span><</span>/h1><br>
+<span><</span>p>My first paragraph.<span><</span>/p><br>
+
+<span><</span>/body><br>
+<span><</span>/html><br>
+
+<ul>
+<li><span><</span>!DOCTYPE html>: Defines this document to be HTML5</li>
+<li><span><</span>html>: The root element of an HTML page</li>
+<li><span><</span>head>: The element contains meta information about the document</li>
+<li><span><</span>title>: The element specifies a title for the document</li>
+<li><span><</span>body>: The element contains the visible page content</li>
+<li><span><</span>h1>: The element defines a large heading</li>
+<li><span><</span>p>: The element defines a paragraph</li>
+<ul>
+
 ## Other Resources
 
 - [HTML Elements](#)
