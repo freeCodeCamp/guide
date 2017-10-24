@@ -5,20 +5,25 @@ Logical operators compare Boolean values and return a Boolean response.  There a
 
 #### Logical AND ( && )
 
-The AND operator compares two expressions and returns true only if both are true.  If one or both expressions evaluate false, the entire statement will return false.  
+The AND operator compares two or more expressions and returns true only if all are true.  If one or all expressions evaluate false, the entire statement will return false.  
 ```js
-true && true //returns true
-true && false //returns false
-false && false //returns false
+true && true           // returns true
+true && false          // returns false
+false && false         // returns false
+true && true && false  // returns false
+true && true && true   // returns true
 ```
 
 #### Logical OR ( || )
 
-The OR operator compares two expressions and returns true only either expression is true.  Both expressions can be true, but only one is needed to get a 'true' result.  
+The OR operator compares two or more expressions and returns true when any expression is true.  All expressions can be true, but only one is needed to get a 'true' result.  
 ```js
-true && true //returns true
-true && false //returns true
-false && false //returns false
+true || true          // returns true
+true || false         // returns true
+false || false        // returns false
+true || true || false // returns true
+true || true || true  // returns true
+
 ```
 
 #### More information:
