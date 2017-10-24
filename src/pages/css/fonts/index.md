@@ -3,19 +3,22 @@ title: Fonts
 ---
 ## Fonts
 
-The CSS font properties define the font family, boldness, size, and the style of a text.
+The CSS font properties define the font family, weight, size, variant, line height and style of a text.
 
 ### Font family
 
 The font family of a text is simply set by using the `font-family` property.
 
-It works with a *fallback* system, if your browser does not support the first font, it tries with the next one and so on.
+It works with a *fallback* system, if your browser does not support the first font, it tries with the next one and so on. If the name of the font is more than one word it must be surrounded by quotes. 
 
 ```css
 p {
     font-family: "Times New Roman", Times, serif;   
 }
 ```
+
+Generic family names are serif, sans-serif, monospace, cursive, fantasy, system-ui. It is common to specify one at the end. In the case above the user's serif system font would be used. 
+
 
 ### Font style
 
@@ -28,15 +31,15 @@ This property has 3 values:
 * oblique - Text shown leaning
 
 ```css
-p.normal {
+.normal {
     font-style: normal;
 }
 
-p.italic {
+.italic {
     font-style: italic;
 }
 
-p.oblique {
+.oblique {
     font-style: oblique;
 }
 ```
@@ -53,26 +56,26 @@ There are different types of font size values:
 * `%` - percentages
 
 ```css
-with-pixels {
+.with-pixels {
     font-size: 14px;
 }
 
-with-ems {
+.with-ems {
     font-size: 0.875em;
 }
 
-with-absolute {
+.with-absolute {
     font-size: large;
 }
 
-with-percentage {
+.with-percentage {
     font-size: 80%;
 }
 ```
 
 ### Font weight
 
-The `font-weight` property specified if said font is `bold` or `normal`.
+The `font-weight`property specifies the weight (or boldness) of the font. Accepts keywords (`bold`, `normal`, `bolder`, `lighter`) or numeric keywords (`100`, `200`, `300`, `400` etc.) `400` is the same as `normal`.
 
 ```css
 p {
