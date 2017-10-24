@@ -44,3 +44,19 @@ std::string second_item = a.at(2); // gets "element"
 // OR
 std::string second_item = a[2]; // gets "element"
 ```
+
+### Vector Iterator
+The iterators provide another method for accessing elements in your vector.
+
+Iterator declaration.
+```cpp
+std::vector<int> v;
+//Iterator delcaration for the above vector will correspond to
+std::vector<int>::iterator it;
+```
+Using the iterator to print elements of the vector using for loop
+```cpp
+for(it=v.begin(); it!=v.end(); ++it) 
+//std::vector::begin and std::vector::end return iterator pointing to first and last element of the vector respectively.
+  cout<<*it;
+```
