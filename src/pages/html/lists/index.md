@@ -49,5 +49,7 @@ Which would end up looking like so:
 </dl>
 
 #### More Information:
+Lists are used to make tab bars or any other navigation links on websites.
 <!-- Please add any articles you think might be helpful to read before writing the article -->
+Vist these links below to learn more!
 [HTML lists on w3schools](https://www.w3schools.com/html/html_lists.asp)
