@@ -4,34 +4,40 @@ title: Click Method
 
 ## Click Method
 
-Binds the click event to an element or triggers the event on an element. It's most used form is:
+The jQuery Click method triggers an function when an element is clicked. The function is known as a "handler" becuase it handles the click event. Functions can impact the HTML element that is bound to the click using the jQuery Click method, or they can change something else entirely.
+
 ```javascript
-jQueryElement.click(handler)
+$("#clickMe").click(handler)
 ```
-* handler: it's a function who is executed everytime when the event is triggered, this function also receive a param a [eventObject](http://api.jquery.com/Types/#Event)
+
+The click method takes the handler function and executes it every time the element `#clickMe` is clicked. The handler function receives a parameter known as an [eventObject](http://api.jquery.com/Types/#Event) that can be useful for controlling the action. 
 
 #### Examples
-Showing a alert on click of a button:
+This code shows an alert when a user clicks a button:
+
 ```html
 <button id="alert">Click Here</button>
 ```
+
 ```javascript
 $("#alert").click(function(){
   alert("Hi! I'm an alert");
 })
 ```
+
 [jsFiddle](https://jsfiddle.net/pL63cL6m/)
 
-Usage of ones of the [eventObject](http://api.jquery.com/Types/#Event) method:
+The [eventObject](http://api.jquery.com/Types/#Event) has some built in methods, including `preventDefault()`, which does exactly what it says. Here we stop the default event of an element, preventing the anchor tag from acting as a link:
+
 ```html
 <a id="myLink" href="www.google.com">Link to Google</a>
 ```
+
 ```javascript
 $("#myLink").click(function(event){
 	event.preventDefault();
 });
 ```
-_here we are using the preventDefault method, it do exactly what it says, we stop the default event of an element, in this case we prevent our anchor tag to make a redirection when clicked_
 
 [jsFiddle](https://jsfiddle.net/dy457gbh/)
 
