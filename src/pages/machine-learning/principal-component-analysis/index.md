@@ -11,4 +11,6 @@ title: Principal Component Analysis
 
 Wikipedia Says, "Principal component analysis (PCA) is a statistical procedure that uses an orthogonal transformation to convert a set of observations of possibly correlated variables into a set of values of linearly uncorrelated variables called principal components (or sometimes, principal modes of variation)."
 
+Data compression is one of the most prominent issues in machine learning. PCA is way of compressing of the data to reduce its dimensionality.It is majorly used for unsupervised data compression.
+
 Principal component analysis(PCA) is a statistical technique used to examine the interrelations among a set of variables in order to identify the underlying structure of those variables.
