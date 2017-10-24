@@ -3,13 +3,10 @@ title: Converting Pounds to Ounces
 ---
 ## Converting Pounds to Ounces
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/converting-pounds-to-ounces/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+**One pound is equal to 16 ounces.** Pounds and ounces are both measurements of weight. Make sure that you are using the ratio correctly.
+```
+If you have 16 ounces, you would multiply by 1 pound per 16 ounces, not multiply by 16 ounces per 1 pound.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+A good rule of thumb is to make sure that when converting from pounds to ounces, the number should increase. 
+When converting from ounces to pounds, the number should be smaller.
+```
