@@ -11,5 +11,9 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+#### Function
+    A function f is a mapping from an set A(input/domain) to an set B(output/co-domain). It can be of different types on the basis of a number of classifications.
+#### Even Function:
+    A function f(x) is even if and only if f(x)=f(-x)
+#### Odd Function:
+    A function f(x) is even if and only if f(x)=-f(-x)
