@@ -2,14 +2,16 @@
 title: Convert Percents to Fractions
 ---
 ## Convert Percents to Fractions
+To convert percentage to fractions, use the formula below:
+#### `x % / 100`
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/convert-percents-to-fractions/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+#### Example 1
+<pre>25 % = <span class="fraction"><sup>25</sup>⁄<sub>100</sub></span> = <span class="fraction"><sup>1</sup>⁄<sub>4</sub></span></pre>
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+#### Example 2
+<pre>36 % = <span class="fraction"><sup>36</sup>⁄<sub>100</sub></span> = <span class="fraction"><sup>9</sup>⁄<sub>25</sub></span></pre>
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+#### Example 3
+<pre>100 % = <span class="fraction"><sup>100</sup>⁄<sub>100</sub></span> = 1</pre>
 
 
