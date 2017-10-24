@@ -3,13 +3,15 @@ title: Code Smells
 ---
 ## Code Smells
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/code-smells/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+A code smell resides in a part of source code that usually indicates a deeper problem.<sup>1</sup>
+A code smell does not represent a bug by itself; it means that the code smell does not affect the functionality of the product. It would be more accurately qualified as a weakness in the code that may slow down development or refactoring. It may also increase the bug possibilities.
+Some examples of code smells may be <em>duplicated code</em> or <em>excessive number of parameters</em>.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+As a result, it is important yet easy, even for beginners, to spot and reduce code smells. Thus, clean and bring robustness to the code.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+This kind of problems are referred as a <em>value system</em><sup>2</sup> for the software developer; Indeed, this kind of problems allows to evaluate the technical debt of a project.
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+### Sources:
 
-
+1. Fowler, Martin <a href="https://martinfowler.com/bliki/CodeSmell.html">Code smell</a>
+2. Martin, Robert C. (2009). "17: Smells and Heuristics". Clean Code: A Handbook of Agile Software Craftsmanship
