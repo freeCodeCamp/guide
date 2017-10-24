@@ -13,7 +13,7 @@ title: Tokens Part 2
 ### 1 The I/O operators -
 
 * These operators allow you to direct input and output.
- ## The Input oerator ">>" ## 
+ ## The Input operator ">>" ## 
  is used to read data from standard iinput (the "cin" statement) .  
 
  ##The Output operator "<<"##
