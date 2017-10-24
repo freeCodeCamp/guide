@@ -1,9 +1,12 @@
 ---
 title: Error Handling
 ---
+
+## Error Handling
+
 Error handling is very important thing every developer should care about while doing programming. Here I'll explain how to handle errors which occurs run-time using try-catch block with an example in C# programs. Try-catch block available in all the major programming languages and has similar syntax as well.
   
-##How try-catch block works.
+### How try-catch block works.
 
 whatever the code available in the try block executes as similar like the source code executes out of try block. Try block means that your trying to execute some code which may throw exceptions. When a code in try block throws any exception, the same can handle/catch by catch block. The advantages of having the try-catch block is, it make sure that unexpected termination of program will not happen at run time.
 
@@ -50,6 +53,7 @@ namespace ErrorHandling
     }
  }
  ```
- in the above program im passing 0 as second parameter which will throw DivideByZeroExceptions. This exception will handle by the catch block which has DivideByZeroException class. If any exceptions other than DivideByZeroExceptions occurs it will handle by Exception catch block.
+ * In the above program passing 0 as second parameter will throw DivideByZeroExceptions. 
+ * This exception will handle by the catch block which has DivideByZeroException class. If any exceptions other than DivideByZeroExceptions occurs it will handle by Exception catch block.
  
  Exception is the base class for all the exceptions class available in C# library. Even if you want to write your own exception you have to inherits Exception base class into your program.
