@@ -13,9 +13,9 @@ HTML5 is the latest version, or specification, of HTML. The World Wide Web Conso
 
 ## Other Resources
 
-- [HTML Elements](#)
-- [Semantic HTML](#)
-- [HTML Attributes](#)
+- [HTML Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+- [Semantic HTML](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML_sections_and_outlines)
+- [HTML Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes)
 <h2>HTML Versions</h2>
 <p>Since the early days of the web, there have been many versions of HTML:</p>
 <table class="w3-table-all notranslate">
