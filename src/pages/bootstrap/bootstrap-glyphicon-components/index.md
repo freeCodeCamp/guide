@@ -7,6 +7,10 @@ Bootstrap 3 includes 260 glyphicons. Glyphicons are normally not free of charge,
 
 Use glyphicons in text, navigation, buttons, forms, or toolbars.
 
+##How to use Bootstrap Glyphicon##
+
+All icons require the use of a base class (`glyphicon`) and individual icon class (ex: `glyphicon-eye-open`). Additionally, the icon classes should only be used on elements that contain no text content and have no child elements.
+
 ## Examples
 
 ```html
