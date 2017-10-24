@@ -42,3 +42,5 @@ OR
 #### More Information:
 For more information visit [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/opacity)
 
+[Opacity CSS property at CSS-Tricks](https://css-tricks.com/almanac/properties/o/opacity/)
+
