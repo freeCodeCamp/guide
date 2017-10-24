@@ -2,14 +2,19 @@
 title: Bootstrap Icons
 ---
 ## Bootstrap Icons
-
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/bootstrap/bootstrap-icons/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+In v.4 Bootstrap removed the icon set from the framework to cut the size of Bootstrap down. Most people now use fontawesome for Icons
+ ## FontAwesome Icons
+ ### Getting Started 
+ Follow that steps outlined in FontAwesomes [Getting started](http://fontawesome.io/get-started/) page.
+ 
+ ### Usage
+ Icons are a good way to give visual refrence to links or messages eg. (error symbol, menu icon, visual links, etc.) To use create a i element w/ the class set to the icon you want eg.
+ ```
+ <i class="fa fa-bars" aria-hidden="true"></i>
+```
+This will display [Menu Pic](https://github.com/blakeathomas/open-source-mat/blob/master/pic-2.png?raw=true)
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+Bootstrap Documentation: http://fontawesome.io/icons/
 
 
