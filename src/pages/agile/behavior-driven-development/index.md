@@ -12,4 +12,6 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
+* One of the famous Behavior Driven Development (BDD) frameworks is [Cucumber](https://cucumber.io/). Cucumber supports many programming languages and can be integrated with a number of frameworks; for example, [Ruby on Rails](http://rubyonrails.org/), [Spring Framework](http://spring.io/), [Selenium](http://www.seleniumhq.org/), and etc.
+* One of the main benefits to adopt BDD is that it can fill the gap among Business, QA, and Development teams
 
