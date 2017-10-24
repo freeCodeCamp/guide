@@ -36,3 +36,4 @@ node_modules
 .sass-cache/
 public/
 .cache/
+.idea/
