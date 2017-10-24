@@ -48,6 +48,18 @@ C makes pick the data type, and makes us be very specific and intentional about 
 
 In general, you should pick the minimum for your task. If you know you'll be counting from 1 to 10, you don't need a long and you don't need a double. If you know that you will never have negative values, look into using the `unsigned` variants of the data types. By providing this functionality rather than doing it automatically, C is able to produce very light and efficient code. However, it's up to you as the programmer to understand the abilities and limitations, and choose accordingly.
 
+## The void Type
+The void type specifies that no value is available. It is used in three kinds of situations:
+
+#### 1. Function returns as void
+There are various functions in C which do not return any value or you can say they return void. A function with no return value has the return type as void. For example, ```void exit (int status);```
+
+#### 2. Function arguments as void
+There are various functions in C which do not accept any parameter. A function with no parameter can accept a void. For example, ```int rand(void);```
+
+#### 3. Pointers to void
+A pointer of type void * represents the address of an object, but not its type. For example, a memory allocation function ```void *malloc( size_t size);``` returns a pointer to void which can be casted to any data type.
+
 # Before you go on...
 ## A review
 * The actual abilities of C data types depend on the hardware. As a result, minimum sizes are defined for the data types.
