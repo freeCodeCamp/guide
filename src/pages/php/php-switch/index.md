@@ -3,11 +3,22 @@ title: PHP Switch
 ---
 ## PHP Switch
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/php/php-switch/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+A switch statement is used to perform different actions based on different conditions.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+## Syntax
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+```php
+switch (n) {
+    case label1:
+        code to be executed if n=label1;
+        break;
+    case label2:
+        code to be executed if n=label2;
+        break;
+    case label3:
+        code to be executed if n=label3;
+        break;
+    default:
+        code to be executed if n is different from all labels;
+}
+```
