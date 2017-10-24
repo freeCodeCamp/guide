@@ -3,13 +3,26 @@ title: CSS3 Backgrounds
 ---
 ## CSS3 Backgrounds
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/css3-backgrounds/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The CSS background properties are:
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+* background-color
+* background-image
+* background-repeat
+* background-attachment
+* background-position
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+And the **CSS3** adds some **new background properties**, which are:
+
+* background-size
+* background-origin
+* background-clip
+
+Additionally, in the CSS3, the `background-image` property can be used to add **multiple background images**.
+
+_It's important to highlight that browser support varies accordingly to the property and the browser version._
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+* https://css-tricks.com/almanac/properties/b/background/
+* https://www.w3schools.com/css/css3_backgrounds.asp
 
 
