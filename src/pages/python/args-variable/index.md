@@ -1,5 +1,5 @@
 ---
-title: Relationships between __*__ and __args__
+title: Relationships between * and args
 ---
 ## Presence of * in function definition
 
