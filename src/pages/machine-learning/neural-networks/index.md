@@ -8,6 +8,8 @@ A neural network is a computing system. They are like biological neural networks
 To train  a neural network, we need an input vector and a corresponding output vector.
 The training works by minimizing an error term. This error can be the squared difference between the predicted output and the original output.
 
+The basic principle which underlies the remarkable success of neural networks is 'The Universal Approximation Theorem'. It has been mathematically proven thet the neural networks are universal approximation machines which are capable of approximating any mathematical function between the given input and output.
+
 The most basic element of a neural network is a neuron. It's input is a vector, say `x`, and its output is a real valued variable, say `y`. Thus, we can conclude that the neuron acts as a mapping between the vector `x` and a real number `y`.
 
 Neural networks are used on a variety of tasks. These include computer vision, speech recognition, translation, social network filtering, playing video games, and medical diagnosis among other things.
@@ -24,6 +26,7 @@ Neural networks are used on a variety of tasks. These include computer vision, s
 - Feature learning 
 - Learning to rank
 - Grammar induction
+- Generating images
 
 ### More Information:
 - <a href=' https://en.wikipedia.org/wiki/Artificial_neural_network#Components_of_an_artificial_neural_network ' target='_blank' rel='nofollow'>Wikipedia</a>
@@ -31,3 +34,4 @@ Neural networks are used on a variety of tasks. These include computer vision, s
 - <a href='http://ufldl.stanford.edu/tutorial/supervised/MultiLayerNeuralNetworks/' target='_blank' rel='nofollow'>Stanford University</a>
 - <a href='https://youtu.be/aircAruvnKk' target='_blank' rel='nofollow'>3Blue1Brown</a>
 - <a href='https://youtu.be/h3l4qz76JhQ' target='_blank' rel='nofollow'>Siraj Raval</a>
+- <a href='https://www.youtube.com/watch?v=ILsA4nyG7I0' target='_blank' rel='nofollow'>How deep neural networks work</a>
