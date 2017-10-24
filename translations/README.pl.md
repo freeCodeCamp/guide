@@ -7,12 +7,12 @@ To repozytorium jest miejscem, gdzie planujemy i rozwijamy artykuły z freeCodeC
 
 **Spis treści**
 
-- [Czym są artykuły przewodnika freeCodeCamp?](#what-are-guide-articles)
-- [O czym mogę napisać artykuł?](#what-can-i-write-an-article-about)
+- [Czym są artykuły przewodnika freeCodeCamp?](#czym-sa-artykuly-przewodnika-freeCodeCamp)
+- [O czym mogę napisać artykuł?](#o-czym-moge-napisac-artykul)
 - [Jak wnieść wkład?](#how-to-contribute)
 - [Uruchomienie  przewodnika lokalnie na swoim komputerze](#running-the-guide-locally-on-your-own-computer)
 - [Przewodnik po stylu artykułów](#article-style-guide)
-- [Licencja](#license)
+- [Licencja](#licencja)
 
 ## Czym są artykuły przewodnika freeCodeCamp?
 Artykuły przewodnika mogą dotyczyć składni, wzorców projektowania, tego czym są aria labels lub informacją na temat znaczenia numerów w prawym górnym rogu ekranu na stronie freecodecamp.org. Tutaj znajdziesz [Przykład artykułu o tagach HTML](./src/pages/html/elements/index.md).
@@ -227,12 +227,12 @@ The Hemingway App will assign a “grade level” for your writing. You should a
 
 Also, there's a community of support from a whole team of contributors, whom you can bounce ideas off of and ask for input on your writing. Stay active in the [contributor's chat room](https://gitter.im/freecodecamp/contributors) and ask lots of questions.
 
-With your help, we can create a comprehensive reference tool that will help millions of people who are learning to code for years to come.
+Z twoją pomocą, możemy stworzyć kompleksowe narzędzie referencyjne, które pomoże milionom ludzi uczącym sie programowania. Zarówno tym, którzy uczą sie teraz, jak i tym którzy bedą to robić w kolejnych latach.
 
 ## Licencja
 
 Copyright (c) 2017 freeCodeCamp.
 
-The content of this repository is bound by the following licenses:
+Zawartość tego repozytorium podlega pod nastepujące licencje:
 - The computer software is licensed under the [BSD-3-Clause](./LICENSE.md).
 - The reference content as in ./src/pages and subdirectories is licensed under the [CC-BY-SA-4.0](./LICENSE-freeCodeCamp-Guide-Articles.md).
