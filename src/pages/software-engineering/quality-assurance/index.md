@@ -25,7 +25,8 @@ Main categories are
 *  **Regression tests** (re-applying tests at later stages of development to ensure they still work)
 
 #### Black Box
-These test do not look inside the system under test, but treat it as 'closed' in the same way that the end user will experience it. 
+These test do not look inside the system under test, but treat it as 'closed' in the same way that the end user will experience it.
+This is also where the terms aplha and beta testing will sit. While alpha testing is done mainly by the QA testers, the beta vesion is commonly released to a wider range of people to try on a broader range of computers to try and catch any bugs that may have slipped through.
 
 ### Other Resources
 [Test Driven Development (freeCodeCamp Guide)](https://guide.freecodecamp.org/agile/test-driven-development)
