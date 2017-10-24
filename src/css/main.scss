@@ -81,6 +81,7 @@
 
 .content {
   margin-bottom: 50px;
+  outline: 0;
 
   img {
     max-width: 100%;
@@ -258,4 +259,16 @@
   border: none;
   border-radius: 0px;
   cursor: pointer;
+}
+
+.skip-link {
+    background-color: white;
+    left: 0;
+    padding: 5px 10px;
+    top: 0;
+    z-index: 9;
+}
+
+.skip-link:focus {
+    position: absolute;
 }

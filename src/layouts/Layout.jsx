@@ -22,10 +22,20 @@ function Layout(props) {
 
   return (
     <div>
-      <Grid fluid={ true }>
+      <Grid
+        fluid={ true }
+        id='header'
+        role='banner'
+        >
         <Row>
           <Navbar className='navBar'>
             <Col md={ 3 } xs={ 12 }>
+              <a
+                className='skip-link sr-only sr-only-focusable'
+                href='#main'
+                >
+                Skip to main content
+              </a>
               <Link
                 className='link'
                 to={ '/' }
@@ -52,7 +62,13 @@ function Layout(props) {
           <Col md={ 4 }>
             <SideNav />
           </Col>
-          <Col className='content' md={ 8 }>
+          <Col
+            className='content'
+            id='main'
+            md={ 8 }
+            role='main'
+            tabIndex='-1'
+            >
             { props.children() }
           </Col>
         </Row>
