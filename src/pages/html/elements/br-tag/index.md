@@ -20,4 +20,4 @@ The <br> Tag produces a line break in a text. This is useful for poems and addre
 ```
 
 #### More Information:
-[MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br)
+<a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br' target='_blank' rel='nofollow'>MDN</a>

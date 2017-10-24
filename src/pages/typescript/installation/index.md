@@ -7,42 +7,44 @@ title: Installation
 
 To get started yourself, the two things you will need are the TypeScript compiler and a editor that supports TypeScript.
 
-In the above screenshot, I'm installing both the compiler and [TSLint](https://github.com/palantir/tslint) (which is similar to [ESLint](https://eslint.org/)) using `npm` in [Visual Studio Code](https://code.visualstudio.com/)’s integrated terminal.
+In the above screenshot, I'm installing both the compiler and <a href='https://github.com/palantir/tslint' target='_blank' rel='nofollow'>TSLint</a> (which is similar to <a href='https://eslint.org/' target='_blank' rel='nofollow'>ESLint</a>) using `npm` in <a href='https://code.visualstudio.com/' target='_blank' rel='nofollow'>Visual Studio Code</a>’s integrated terminal.
 
-### Commands
+### Installing TypeScript
 
-> Installing TypeScript
-
-```bash
-npm i -g typescript
-```
-
-> *Optional* Installing TSLint
+This command will install the TypeScript package as a dependency in your project using <a href='https://www.npmjs.com/' target='_blank' rel='nofollow'>`npm`</a> which is a popular package manager.
 
 ```bash
-npm i -g tslint
+npm i typescript
 ```
 
-> Compiling a single file down to JavaScript
+*To Note* There are <a href='https://docs.npmjs.com/cli/install' target='_blank' rel='nofollow'>several options</a> that `npm` provides depending on where you want TypeScript installed.
+
+- `npm i -g typescript` to globally install the TypeScript package
+- `npm i -D typescript` to install the TypeScript package as a dev dependency
+
+### TSLint
+
+See how to setup linting options for TypeScript at [TypeScript](./typescript) > [Linter](./typescript/linter) within the **freeCodeCamp Guide**.
+
+### Compiling a single file down to JavaScript
 
 ```bash
 tsc multiplication.ts
 ```
 
-> Configuration Options
+*To Note* You can configure this TypeScript compilation process as a custom npm script in your `package.json`.
+
+### Configuration Options
 
 ```bash
 touch tsconfig.json
 ```
 
-### Configuration Options
+There’s also the option to create a <a href='https://www.typescriptlang.org/docs/handbook/tsconfig-json.html' target='_blank' rel='nofollow'>`tsconfig.json`</a> file that specifies the root files and compiler options.
 
-With larger projects, there’s also the option to create a [`tsconfig.json`](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) file that specifies the root files and compiler options.
+Within your <a href='https://www.typescriptlang.org/docs/handbook/tsconfig-json.html' target='_blank' rel='nofollow'>`tsconfig.json`</a> file, for example, you could specify that you want TypeScript to compile down to ES5 instead of ES6.
 
-Withing your [`tsconfig.json`](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) file, for example, you could specify that you want TypeScript to compile down to ES5 instead of ES6.
-
-
-### Example
+### Multiplication Example
 
 ![Multiplication](https://i.imgur.com/V5nP3xj.jpg)
 
@@ -81,3 +83,5 @@ showProduct(a, b);
 
 // Mathematical! The result is 20.
 ```
+
+Bam - I just successfully compiled TypeScript to JavaScript!

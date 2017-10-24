@@ -26,7 +26,7 @@ In essence, TypeScript is trying to help JavaScript reach new heights and become
 
 ### Installation
 
-To learn more about installation, see [Installation](https://guide.freecodecamp.org/typescript/installation).
+To learn more about installation, see [Installation](./installation).
 
 ### Playground
 
@@ -35,3 +35,9 @@ To learn more about installation, see [Installation](https://guide.freecodecamp.
 If you want to try out TypeScript without installing it, visit the <a href='http://www.typescriptlang.org/play/index.html' target='_blank' rel='nofollow'>TypeScript Playground</a>.
 
 The Playground has built-in auto completion and the ability to directly see the emitted JavaScript.
+
+### Other Resources
+
+- <a href='http://www.typescriptlang.org/samples/index.html' target='_blank' rel='nofollow'>Quick Start</a>
+- <a href='http://www.typescriptlang.org/docs/home.html' target='_blank' rel='nofollow'>Documentation</a>
+- <a href='https://github.com/Microsoft/TypeScript' target='_blank' rel='nofollow'>Source Code</a>

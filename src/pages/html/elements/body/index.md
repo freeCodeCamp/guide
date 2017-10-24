@@ -22,4 +22,4 @@ The `<body>` element should contain all of a page's content, including all displ
 
 
 #### More Information:
-[MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body)
+<a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body' target='_blank' rel='nofollow'>MDN</a>
