@@ -10,3 +10,8 @@ Here are some popular Javascript Linters:
 * <a href='http://jshint.com/' target='_blank' rel='nofollow'>JSHint</a>  
 * <a href='http://jscs.info/' target='_blank' rel='nofollow'>JSCS</a>  
 * <a href='http://eslint.org/' target='_blank' rel='nofollow'>ESLint</a>
+
+Tools for Editors :
+- Visual Code : 
+To Install the eslint extension, open command palette (View -> Command Palette.. or cmd+shift+p ) and execute command:
+ext install eslint
