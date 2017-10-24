@@ -22,7 +22,7 @@ To get here from other modes you can type `ctrl + c` or `escape`.
 
 
 To edit text and move around in a familiar way press `i`, for "insert" mode.
-Try to move around with the arrow keys in "insert" mode.
+Try to move around with the arrow keys in "insert" mode. You can also use j, k, h, and l to navigate down, up, left, and right respectively. 
 
 
 Depending on the configuration, you may enter a file browser by typing and entering the command `:e .` in "normal" mode. The 'e' stands for edit, and the period for the file or directory.
