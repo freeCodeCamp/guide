@@ -3,13 +3,9 @@ title: Nonfunctional Requirements
 ---
 ## Nonfunctional Requirements
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/nonfunctional-requirements/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Nonfunctional Requirements (NFR's) are parameters that specify the criteria of software behavior. Functional requirements specify what a system will do. Nonfunctional requirements will specify how it will do it.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Non functional requirements are  related to security, performance, usability and maintainability of the application. Nonfunctional requirements are usually dependent on the architecture of the application. It is important to identify the specific nonfunctional requirements at the start.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
 
