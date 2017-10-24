@@ -82,3 +82,4 @@ console.log(arr)
 
 - <a href='https://www.youtube.com/watch?v=MZaf_9IZCrc' target='_blank' rel='nofollow'>Youtube: A Visual Explanation of Quicksort</a>
 
+- <a href='https://www.youtube.com/watch?v=SLauY6PpjW4' target='_blank' rel='nofollow'>Youtube: Gayle Laakmann McDowell (author of Cracking The Coding Interview) explains the basics of quicksort and show some implementations</a>
