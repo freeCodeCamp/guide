@@ -3,13 +3,15 @@ title: Article
 ---
 ## Article
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/article/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `<article>` tag is a self contained tag. It is a HTML5 semantic element. This tag is self explanatory and is generally used for Blog/Forum posts.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+#### Example
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+    <article>
+      <h1>freeCodeCamp</h1>
+      <p>Learn to code for free. Visit our <a href="https://www.freecodecamp.org/">website</a> for details</p>
+    </article>
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+[MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article)
+[Article - w3school](https://www.w3schools.com/tags/tag_article.asp)
