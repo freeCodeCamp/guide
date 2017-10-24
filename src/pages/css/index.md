@@ -15,3 +15,5 @@ You can build some pretty amazing things in CSS alone, such as <a href='https://
 #### Suggested Reading:
 
 A good start is the current Beta <a href='https://github.com/freeCodeCamp/freeCodeCamp/blob/staging/seed/challenges/01-responsive-web-design/basic-css.json#L14' target='_blank' rel='nofollow'>introduction for the CSS challenges</a>
+
+--Testing 123 : Following freeCodeCamp Medium Article --
