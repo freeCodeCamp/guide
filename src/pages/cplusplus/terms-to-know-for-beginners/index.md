@@ -34,7 +34,7 @@ int main()
 }
 ```
 
-The above code returns an error because at line 2 , we have used a colon(:) instead of a semiccolon(;)
+The above code returns an error because at line 2 , we have used a colon(:) instead of a semicolon(;)
 So, let's debug the error :
 
 ```C++
@@ -124,12 +124,8 @@ This is because we did not add the inverted commas for the second print statemen
 
  As you may notice, the comments are ignored during program execution and do not show up on checking the output of the program.
 
-<a href='https://repl.it/L4ox' target='_blank' rel='nofollow'>A summation of all the print statements used in this article. Feel free to tweak around woth the code ! :) </a>
+<a href='https://repl.it/L4ox' target='_blank' rel='nofollow'>A summation of all the print statements used in this article. Feel free to tweak around woth the code!</a>
 
-_CONGRATULATIONS! You have reached the end of the second article_
+**Happy Coding! :)**
 
-**Good Luck to all of you** 
-
-**Happy Coding ! :)**
-
- **Feel free to ask any queries on FreeCodeCamp's GitHub page or <a href='https://forum.freecodecamp.org/' target='_blank' rel='nofollow'>FreeCodeCamp's Forum .</a>**
+> Feel free to ask any queries on FreeCodeCamp's GitHub page or <a href='https://forum.freecodecamp.org/' target='_blank' rel='nofollow'>FreeCodeCamp's Forum.</a>

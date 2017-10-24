@@ -18,8 +18,12 @@ Typically you can declare variables using the following syntax :
 ```java
 //Primitive Data Type
 int i = 10;
+double amount = 10.0;
+boolean isOpen = false;
 
 // Object Data Type
+String greeting = "Hello World"
+
 // initiates an Float object with value 1.0
 // variable myFloat now points to the object
 Float myFloat = new Float(1.0);
