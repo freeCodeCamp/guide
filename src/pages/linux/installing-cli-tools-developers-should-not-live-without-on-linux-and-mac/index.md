@@ -9,6 +9,10 @@ Homebrew is 'The missing package manager for OS X'. It is a great tool for downl
 
 *   `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
+In case you run into "Xcode Command Line Tools Missing" use the following to install it:
+
+* `xcode-select --install`
+
 ## Installing NPM
 
 `NPM`, or Node Package Manager, is another useful package manager for downloading mostly web tools. Downloading `NPM` will also install the Node.js framework.
