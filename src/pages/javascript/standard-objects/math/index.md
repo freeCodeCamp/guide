@@ -15,4 +15,4 @@ calculateCircleArea(1); // 3.141592653589793
 ```
 ### Other Ressources
 * [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
-* [W3schools](https://pages.github.com/)
+* [W3schools](https://www.w3schools.com/js/js_math.asp)
