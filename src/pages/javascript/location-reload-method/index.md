@@ -3,13 +3,23 @@ title: Location Reload Method
 ---
 ## Location Reload Method
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/location-reload-method/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+### Definition and Usage
+The `reload()` method is used to reload the current document.
+The `reload()` method does the same as the reload button in your browser.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+By default, the reload() method reloads the page from the cache, but you can force it to reload the page from the server by setting the forceGet parameter to true: location.reload(true).
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+### Syntax
+```
+location.reload(forceGet)
+```
+### Parameters
+```
+Parameter   Type      Description                                                 Return
+forceGet    Boolean   false - Default. Reloads the current page from the cache    No return value
+                      true - Reloads the current page from the server             No return value
+```
+### Example
+```
+location.reload();
+```
