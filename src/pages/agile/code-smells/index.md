@@ -3,13 +3,14 @@ title: Code Smells
 ---
 ## Code Smells
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/code-smells/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+A code smell is a surface indication that the code in question is problematic (bad quality, technical debt ...) and should be refactored.
+Although code smells are not bugs initially (they indicate weaknesses in design), they are a risk of future bugs and future bigger problems as the system evolves.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+There are tools, such as Checkstyle, PMD and FindBugs for Java, to automatically check for certain kinds of code smells.
+ 
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+* Wikipedia Article (https://en.wikipedia.org/wiki/Code_smell)
