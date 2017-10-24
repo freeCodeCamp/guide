@@ -12,7 +12,7 @@ When starting out with linux, there are some basic commands everyone should know
   - Type `ls` and the contents of the current directory will be displayed.
   
   3. **man** - manual command
-  - Shows you the manual for the following command. This is very helpful when trying to figure out how an unfamiliar command works. For example, type `man ls` for everything you need to know about the ls command.
+  - Shows you the manual for the following command. This is very helpful when trying to figure out how an unfamiliar command works. For example, type `man ls` for everything you need to know about the ls command. Type `q` to exit.
   
   4. **mkdir** - make directory
   - This command, followed by the name you wish to name your directory, creates a new directory. `mkdir folder1` will make a new directory called folder1.
