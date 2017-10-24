@@ -4,7 +4,7 @@ title: Closures
 
 # Closures
 
-A closure is the combination of a function and the lexical environment within which that function was declared.
+A closure is the combination of a function and the lexical environment within which that function was declared. Also, a closure has access to its parent's scope, it's own scope and global variables.
 
 ```js
 function by(propName) {
