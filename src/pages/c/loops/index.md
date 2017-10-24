@@ -98,6 +98,20 @@ The next section is a boolean condition that will be checked for true or false, 
 
 The final section is referred to as the 'afterthought'. Its job is to perform some operation every loop, after the code within the brackets has been run through. In this case, it's just adding one to the count. This is the most common way for the afterthought to be used, because it lets you keep count of how many times you've run through a for loop.
 
+# Loop Control Statements
+Loop control statements change execution form its normal sequence. When execution leaves a scope, all automatic objects that were created in that scope are destroyed.
+
+C supports the following control statements:
+
+#### 1. Break statement
+Terminates the <b>loop</b> or <b>switch</b> statement and transfers execution to the statement immediately following the loop or switch.
+
+#### 2. Continue statement
+Causes the loop to skip the remainder of its body and immediately retest its condition prior to reiterating.
+
+#### 3. Goto statement
+Transfers control to the labeled statement.
+
 # Some Fun and Useful Quirks
 
 ## Infinte looping with for loops
