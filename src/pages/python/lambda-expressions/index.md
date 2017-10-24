@@ -3,11 +3,17 @@ title: Lambda Expressions
 ---
 ## Lambda Expressions
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/python/lambda-expressions/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+In Python, lambda expressions are anonymous functions (functions with no names). Instead of using `def` to define a function, we can instead use `lambda`.
+<br><b>Ex:<b>
+```
+def add1(x,y):
+    return x + y 
+    
+add2 = lambda x, y: x + y
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+print(add1(3, 2)) # prints 5
+print(add2(3, 2)) # prints 5
+```
 
 #### More Information:
 https://docs.python.org/3/reference/expressions.html#lambda
