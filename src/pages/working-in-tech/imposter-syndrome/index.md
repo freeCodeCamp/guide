@@ -9,7 +9,7 @@ These thoughts are fairly common if you suffer from imposter syndrome:
 
 
 * "What am I doing here?" 
-* "I am not a developer. I am fooling myself and other people" (feels fake)
+* "I am not a developer. I am fooling myself and other people" (feel's fake)
 * "My colleagues are much smarter than me and I don't think I could ever match up to them" (undermines own achievements)
 * "My coworkers have told me I've achieved a lot, but I feel like it's never enough" (discounts praise)
 * "I have no idea how I got through the interview process" (feels only luck dictates results)
