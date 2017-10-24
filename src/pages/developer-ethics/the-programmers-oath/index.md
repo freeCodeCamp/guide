@@ -3,7 +3,7 @@ title: The Programmers Oath
 ---
 ## The Programmers Oath
 
-The Programmers Oath is a an oath created by Robert C. Martin, that are the guidelines for a better web. The oath goes as follows:
+The Programmers Oath is a an oath created by Robert C. Martin, highlighting the guidelines for a better web. The oath goes as follows:
 
 >In order to defend and preserve the honor of the profession of computer programmers,
 >I promise that, to the best of my ability and judgement:
