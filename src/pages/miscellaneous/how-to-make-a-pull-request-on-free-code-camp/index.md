@@ -9,7 +9,7 @@ A pull request (PR) is a method of submitting proposed changes to the Free Code 
 
 ## Need Help?
 
-Free Code Camp Issue Mods and staff are on hand to assist with Pull Request related issues on our <a href='https://gitter.im/FreeCodeCamp/HelpContributors' target='_blank' rel='nofollow'>Help Contributors Chat Room</a>
+Free Code Camp Issue Mods and staff are on hand to assist with Pull Request related issues on our <a href='https://gitter.im/FreeCodeCamp/Contributors' target='_blank' rel='nofollow'>Help Contributors Chat Room.</a>
 
 ## Methods
 
