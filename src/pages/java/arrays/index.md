@@ -87,6 +87,7 @@ for (int i = 0; i < a.length; i++){ // loop goes through each index
 }
 ```
 
+
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CONn' target='_blank' rel='nofollow'>Run Code</a>
 
 Output:
@@ -97,4 +98,31 @@ Output:
     7
     8
 ```
+
+
+
+## Using 'foreach'  for loop through Arrays:
+
+```java
+String[] heroes = new String[] { "Wolverine", "Superman", "Ghost Rider", "Aquaman" };
+
+for (String heroe : heroes) {
+    // hero is an element of the `heros` array. You won't have to specify the index of the element.
+}
+```
+
+Output:
+```
+    Wolverine
+    Superman
+    Ghost Rider
+    Aquaman
+    
+```
+
 Source: <a href='https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html' target='_blank' rel='nofollow'>Java Arrays</a>
+
+
+
+
+
