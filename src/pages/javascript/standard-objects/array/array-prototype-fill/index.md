@@ -3,13 +3,30 @@ title: Array.prototype.fill
 ---
 ## Array.prototype.fill
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/standard-objects/array/array-prototype-fill/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The fill() method fills all the elements in an array with a static value.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Syntax:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+``` javascript
+arr.fill(value)
+arr.fill(value, start)
+arr.fill(value, start, end)
+```
+
+The fill method takes up to three arguments value, start and end. The start and end arguments are optional with default values of 0 and the length of the this object.
+
+The fill method is a mutable method, it will change this object itself, and return it, not just return a copy of it.
+
+## Examples
+
+```javascript
+[1, 2, 3].fill(4);                 // [4, 4, 4]
+[1, 2, 3].fill(4, 1);              // [1, 4, 4]
+
+var fruits = ["Grape", "Pear", "Apple", "Strawberry"];
+fruits.fill("Watermelon", 2, 4);   // Banana, Pear, Watermelon, Watermelon
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
+For more information visit [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/fill)
 
