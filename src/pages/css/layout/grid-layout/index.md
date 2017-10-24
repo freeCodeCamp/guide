@@ -12,3 +12,4 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 #### More Information:
 * [Getting Started with CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
 * [Examples of CSS Grid](https://gridbyexample.com/examples/)
+* [Learn CSS Grid](http://jensimmons.com/post/feb-27-2017/learn-css-grid)
