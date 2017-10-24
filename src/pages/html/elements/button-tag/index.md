@@ -3,13 +3,11 @@ title: Button Tag
 ---
 ## Button Tag
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/button-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+A <button> tag is an HTML element that, when used, will create a clickable button.  
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+<a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button'>HTML Element Reference</a>
+
+<a href="https://www.w3schools.com/TAGs/tag_button.asp">W3Schools</a>
 
 
