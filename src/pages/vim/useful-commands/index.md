@@ -12,6 +12,7 @@ title: Useful Commands
 
 **OR**
 - Type ZZ (save and quit)
+- Type `:wq` (save and quit but using with the commonly used "w" and "q" commands)
 - Close your terminal
 - Shut down your computer
 
