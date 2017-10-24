@@ -42,3 +42,6 @@ Extras
 3. When the String literal is found by JVM, it is addes to string literal pool.
 4. String class posses a method name length(),while arrays have an attribute naming length.
 
+New
+1.String builder method should run faster than StringBuffer methods.
+2.String Builder equals() is not overridden;it doesn't compare values.
