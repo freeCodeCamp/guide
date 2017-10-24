@@ -9,7 +9,7 @@ Get started with Bootstrap, the world's most popular framework for building resp
 
 Be sure to have your pages set up with the latest design and development standards. That means using an HTML5 doctype and including a viewport meta tag for proper responsive behaviors. Put it all together and your pages should look like this:
 
-```
+```html
 <!doctype html>
 <html lang="en">
   <head>
