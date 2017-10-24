@@ -65,4 +65,4 @@ Most common operations available on List are,
 
 #### More Information:
 * <a href='http://www.geeksforgeeks.org/linked-list-set-1-introduction/' target='_blank' rel='nofollow'>Introduction to Linked Lists</a>
-
+* <a href='https://www.youtube.com/watch?v=njTh_OwMljA' target='_blank' rel='nofollow'>Linked Lists (YouTube video)</a>
