@@ -3,13 +3,6 @@ title: Wireframing
 ---
 ## Wireframing
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/visual-design/wireframing/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+<p>A wireframe is a two-dimensional illustration of a page’s interface that specifically focuses on space allocation and prioritization of content, functionalities available, and intended behaviors.</p>
+<p>Wireframing is a way to design an application at the structural level. A wireframe is commonly used to lay out content and functionality on a page which takes into account user needs and user journeys. Wireframes are used early in the development process to establish the basic structure of a page for these reasons, wireframes typically do not include any styling, color, or graphics. Wireframes also help establish relationships between a website’s various templates.</p>
+<p>Find additional resources on Wireframing <a  href="http://www.experienceux.co.uk/faqs/what-is-wireframing/" target="blank">here</a></p>

@@ -1,14 +1,14 @@
 ---
-title: The Python Tuples
+title: The Tuples
 ---
-**TODO: `Tuple` basic info**
+## The Tuples
 
-<a href='https://docs.python.org/3/library/stdtypes.html#tuples' target='_blank' rel='nofollow'>Python Docs - Tuples</a>
+A tuple is a sequence of Python objects. Tuples are immutable which means they cannot be modified after creation, unlike lists.
 
 **Creation:**
 
 An empty `tuple` is created using a pair of round brackets, `()`:
-
+```shell
     >>> empty_tuple = ()
     >>> print(empty_tuple)
     ()
@@ -16,9 +16,9 @@ An empty `tuple` is created using a pair of round brackets, `()`:
     <class 'tuple'>
     >>> len(empty_tuple)
     0
-
+```
 A `tuple` with elements is created by separating the elements with commas (surrounding round brackets, `()`, are optional with exceptions):
-
+```shell
     >>> tuple_1 = 1, 2, 3       # Create tuple without round brackets.
     >>> print(tuple_1)
     (1, 2, 3)
@@ -35,9 +35,9 @@ A `tuple` with elements is created by separating the elements with commas (surro
     >>> tuple_4 = (1, 2, 3,)    # Trailing comma in round brackets is also optional.
     >>> print(tuple_4)
     (1, 2, 3)
-
+```
 A `tuple` with a single element must have the trailing comma (with or without round brackets):
-
+```shell
     >>> not_tuple = (2)    # No trailing comma makes this not a tuple.
     >>> print(not_tuple)
     2
@@ -55,11 +55,11 @@ A `tuple` with a single element must have the trailing comma (with or without ro
     (2,)
     >>> type(also_tuple)
     <class 'tuple'>
-
+```
 Round brackets are required in cases of ambiguity (if the tuple is part of a larger expression):
 
 > Note that it is actually the comma which makes a tuple, not the parentheses. The parentheses are optional, except in the empty tuple case, or when they are needed to avoid syntactic ambiguity. For example, `f(a, b, c)` is a function call with three arguments, while `f((a, b, c))` is a function call with a 3-tuple as the sole argument.
-
+```shell
     >>> print(1,2,3,4,)          # Calls print with 4 arguments: 1, 2, 3, and 4
     1 2 3 4
     >>> print((1,2,3,4,))        # Calls print with 1 argument: (1, 2, 3, 4,)
@@ -68,15 +68,13 @@ Round brackets are required in cases of ambiguity (if the tuple is part of a lar
     (1, 2, False)
     >>> (1, 2, 3) == (1, 2, 3)   # Use surrounding round brackets when ambiguous.
     True
-
+```
 A `tuple` can also be created with the `tuple` constructor:
-
-<a href='https://docs.python.org/3/library/stdtypes.html#tuple' target='_blank' rel='nofollow'>Python Docs - Tuple</a>
-
+```shell
     >>> empty_tuple = tuple()
     >>> print(empty_tuple)
     ()
-    >>> tuple_from_list = tuple(<a href='https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences' target='_blank' rel='nofollow'>1,2,3,4])
+    >>> tuple_from_list = tuple([1,2,3,4])
     >>> print(tuple_from_list)
     (1, 2, 3, 4)
     >>> tuple_from_string = tuple("Hello campers!")
@@ -87,39 +85,39 @@ A `tuple` can also be created with the `tuple` constructor:
     the iterable,
     >>> a_tuple is b_tuple          # the tuple argument is returned.
     True
-
+```
 **Accessing elements of a `tuple`:**
 
 Elements of `tuples` are accessed and index the same way that `lists` are.
-
+```shell
     >>> my_tuple = 1, 2, 9, 16, 25
     >>> print(my_tuple)
     (1, 2, 9, 16, 25)
-
+```
 _Zero indexed_
-
+```shell
     >>> my_tuple[0]
     1
     >>> my_tuple[1]
     2
     >>> my_tuple[2]
     9
-
+```
 _Wrap around indexing_
-
+```shell
     >>> my_tuple[-1]
     25
     >>> my_tuple[-2]
     16
-
+```
 **Packing and Unpacking:**
 
 The statement `t = 12345, 54321, 'hello!'` is an example of tuple packing: the values `12345`, `54321` and `'hello!'` are packed together in a tuple. The reverse operation is also possible:
-
+```shell
     >>> x, y, z = t
-
+```
 This is called, appropriately enough, sequence unpacking and works for any sequence on the right-hand side. Sequence unpacking requires that there are as many variables on the left side of the equals sign as there are elements in the sequence. Note that multiple assignment is really just a combination of tuple packing and sequence unpacking.
-
+```shell
     >>> t = 1, 2, 3    # Tuple packing.
     >>> print(t)
     (1, 2, 3)
@@ -142,11 +140,11 @@ This is called, appropriately enough, sequence unpacking and works for any seque
     Traceback (most recent call last):
       File "<stdin>", line 1, in <module>
     ValueError: too many values to unpack (expected 2)
-
+```
 **Immutable:**
 
 `tuples` are immutable containers, guaranteeing **which** objects they contain will not change. It does **not** guarantee that the objects they contains will not change:
-
+```shell
     >>> a_list = []
     >>> a_tuple = (a_list,)    # A tuple (immutable) with a list (mutable) element.
     >>> print(a_tuple)
@@ -155,11 +153,11 @@ This is called, appropriately enough, sequence unpacking and works for any seque
     >>> a_list.append("Hello campers!")
     >>> print(a_tuple)         # Element of the immutable is mutated.
     (['Hello campers!'],)
-
+```
 **Uses:**
 
 Functions can only return a single value, however, a heterogenuous `tuple` can be used to return multiple values from a function. One example is the built-in `enumerate` function that returns an iterable of heterogenuous `tuples`:
-
+```shell
     >>> greeting = ["Hello", "campers!"]
     >>> enumerator = enumerate(greeting)
     >>> enumerator.next()
@@ -167,5 +165,6 @@ Functions can only return a single value, however, a heterogenuous `tuple` can b
     (0, 'Hello')
     >>> enumerator.__next__()
     (1, 'campers!')
-
-[Python Docs - Tuples and Sequences</a>
+```
+### More Inforamtion:
+[Python Docs - Tuples](https://docs.python.org/3/library/stdtypes.html#tuples)

@@ -18,4 +18,4 @@ The JavaScript array method `.toString()` is used to convert an array into a sin
   var str5 = ['August', 'September', 'October'].toString();  // str5 = 'August,September,October';
   var str6 = ['Words', 'and', 3, 4].toString();  // str6 = 'Words,and,3,4';
 ```
-Source : [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toString)
+Source : <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toString' target='_blank' rel='nofollow'>MDN</a>

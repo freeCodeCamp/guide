@@ -44,6 +44,14 @@ body {
 ```
 ![image](https://user-images.githubusercontent.com/26467304/31036366-eb1fc260-a539-11e7-835d-e3f935a22c86.png)
 
+
+You can also link pictures or gifs that you find online by using their link (ie. from Google Images a search).
+```css
+body {
+  background-image: url("https://mdn.mozillademos.org/files/11983/starsolid.gif");
+}
+```
+
 ### Background Image - The Repeat Property
 The background image is repeated both vertically (up and down) and horizontally (across the web page) by default.
 You can use the background-repeat property to repeat the image vertically or horizontally.
@@ -115,6 +123,6 @@ must be used in a certain order. The order is:
 * position
 
 ### Other Resources
-* [List of color values](http://cloford.com/resources/colours/500col.htm)
-* [Color Picker Tool](http://colrd.com/create/palette/)
+* <a href='http://cloford.com/resources/colours/500col.htm' target='_blank' rel='nofollow'>List of color values</a>
+* <a href='http://colrd.com/create/palette/' target='_blank' rel='nofollow'>Color Picker Tool</a>
 

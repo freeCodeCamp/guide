@@ -33,4 +33,4 @@ Optional. Specifies the string to use to separate each element of the original a
   var join4 = array.join("");         // assigns "LoremIpsumDolorSit" to join4 variable
 ```
 
-Source : [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join)
+Source : <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join' target='_blank' rel='nofollow'>MDN</a>

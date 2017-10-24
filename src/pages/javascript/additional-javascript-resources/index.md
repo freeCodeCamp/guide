@@ -7,6 +7,11 @@ title: JavaScript Tutorials and Other Resources
 *   <a href='http://speakingjs.com/es5/' target='_blank' rel='nofollow'>Speaking Javascript</a>
 *   <a href='http://exploringjs.com/es6/' target='_blank' rel='nofollow'>Exploring ES6</a>
 *   <a href='https://www.youtube.com/watch?v=Bv_5Zv5c-Ts' target='_blank' rel='nofollow'>Udemy - Javascript Understanding the Weird Parts (_first 3.5 hrs_)</a>
+*   <a href="https://www.youtube.com/playlist?list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84">Functional programming in JavaScript</a>
+*   <a href='https://www.youtube.com/watch?v=v2ifWcnQs6M&index=1&list=PL62E185BB8577B63D' target='_blank' rel='nofollow'>Douglas Crockford's Videos</a>
+*   <a href='https://mbeaudru.github.io/modern-js-cheatsheet/' target='_blank' rel='nofollow'>Modern JS Cheatsheet</a>
+*   <a href='http://www.codeconquest.com/blog/top-50-websites-to-learn-javascript/' target='_blank' rel='nofollow'>The 50 Best Websites to Learn JavaScript</a> 
+*   <a href=' http://youmightnotneedjquery.com/' target='_blank' rel='nofollow'>You Might Not Need jQuery</a>
 
 ## References
 
@@ -20,6 +25,7 @@ Find javascript libraries at <a href='http://jster.net' target='_blank' rel='nof
 
 *   <a href='https://repl.it/languages/Javascript' target='_blank' rel='nofollow'>REPL</a> (<a href='https://repl.it/languages/iojs/' target='_blank' rel='nofollow'>_node_</a>)
 *   <a href='http://jsbin.com' target='_blank' rel='nofollow'>JSBin</a>
+*   <a href='https://jsfiddle.net' target='_blank' rel='nofollow'>JSFiddle</a>
 *   <a href='http://codepen.io' target='_blank' rel='nofollow'>CodePen</a>
 *   <a href='http://coderpad.io' target='_blank' rel='nofollow'>CoderPad (_pair programming_)</a>
 *   <a href='http://c9.io' target='_blank' rel='nofollow'>C9 (_IDE_, _pair programming_)</a>
@@ -31,6 +37,8 @@ Find javascript libraries at <a href='http://jster.net' target='_blank' rel='nof
 *   <a href='http://codewars.com' target='_blank' rel='nofollow'>Code Wars</a>
 *   <a href='https://hackerrank.com' target='_blank' rel='nofollow'>Hacker Rank</a>
 *   <a href='http://codingame.com' target='_blank' rel='nofollow'>Coding Game</a>
+*   <a href='https://codefights.com/home' target='_blank' rel='nofollow'>CodeFights</a>
+*   <a href='http://es6katas.org'  target='_blank' rel='nofollow'>ES6 Katas</a>
 
 ## Exercises
 
@@ -40,8 +48,12 @@ Find javascript libraries at <a href='http://jster.net' target='_blank' rel='nof
 
 ## Editors
 
+*   <a href='https://code.visualstudio.com/' target='_blank' rel='nofollow'>Visual Studio Code</a>
+
+    Visual Studio Code includes built-in support for IntelliSense code completion, rich semantic code understanding and navigation, and code refactoring. It comes with a built-in debugger and git support and has a plethora of extensions.
 *   <a href='http://brackets.io' target='_blank' rel='nofollow'>Brackets</a>
 *   <a href='http://atom.io' target='_blank' rel='nofollow'>Atom</a>
+*   <a href='https://www.sublimetext.com/' target='_blank' rel='nofollow'>Sublime Text</a>
 
 ## Blogs
 
@@ -64,11 +76,12 @@ Find javascript libraries at <a href='http://jster.net' target='_blank' rel='nof
 *   <a href='http://www.eloquentjavascript.net' target='_blank' rel='nofollow'>Eloquent Javascript</a>  
 
     Fantastic, thorough introduction to the basics and features of Javascript, complete with in-browser interactive code
-
-*   <a href='https://watchandcode.com/courses/eloquent-javascript-the-annotated-version' target='_blank' rel='nofollow'>Eloquent Javascript - The Annotated Version</a>  
-
-    An annotated version of the above Eloquent Javascript with additional helpful comments and discussions to help clarify some sections that might be confusing to newcomers to programming
+    
 
 *   <a href='https://github.com/DrBoolean/mostly-adequate-guide' target='_blank' rel='nofollow'>Professor Frisby's Mostly Adequate Guide to Functional Programming</a>  
 
     Quite in-depth guide to Functional Programming in Javascript
+    
+*   <a href='https://github.com/bpesquet/thejsway' target='_blank' rel='nofollow'>The JavaScript Way</a>
+
+    This book aims to be a useful companion for anyone wishing to (re)discover the many facets of JavaScript. From the very basics of programming up to front-end and back-end web development, a lot of topics are covered in a simple and accessible way. No prior knowledge needed!

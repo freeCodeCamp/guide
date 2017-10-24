@@ -2,17 +2,9 @@
 title: Linear Regression
 ---
 ## Linear Regression
-
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/machine-learning/linear-regression/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
 Linear regression helps us predict score of a variable X from the scores on other variables Y. When the variables Y are plotted, linear regression finds the best-fitting straight line through the points. The best-fitting line is called a regression line.
 
-[Online linear regression simulator](https://www.mladdict.com/linear-regression-simulator)
+<a href='https://www.mladdict.com/linear-regression-simulator' target='_blank' rel='nofollow'>Online linear regression simulator</a>
 
 In Python:
 ```py
@@ -42,4 +34,4 @@ def gradient_descent_runner(points, starting_b, starting_m, learning_rate, num_i
 gradient_descent_runner(wheat_and_bread, 1, 1, 0.01, 100)
 ```
 
-Code taken from [this article](http://blog.floydhub.com/coding-the-history-of-deep-learning/). It also explains gradient descent and other essential concepts for deep learning.
+Code example is from <a href='http://blog.floydhub.com/coding-the-history-of-deep-learning/' target='_blank' rel='nofollow'>this article</a>. It also explains gradient descent and other essential concepts for deep learning.

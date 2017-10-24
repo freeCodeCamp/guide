@@ -41,14 +41,14 @@ There are 5 flags you can use to apply specific rules to the whole regular expre
 
 #### Methods
 
-You will most likely use regular expressions in `String` methods, such as `String.replace()`, but there are a handful of methods that can are for the `RegExp` object.
+You will most likely use regular expressions in `String` methods, such as `String.replace()`, but there are a handful of methods that belong to the `RegExp` object.
 
 For example, `RegExp.test()` will return a Boolean for whether there exists a match between the regular expression pattern and the string in question. `RegExp.toString()` will turn the expression object into a string, which can be handy when running tests on your code.
 
 ### More Information:
 
-![Here you can read](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp) about all the pattern match characters, object properties, see some examples and more.
+* <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp" target='_blank' rel='nofollow'>Here you can read</a> about all the pattern match characters, object properties, see some examples and more.
 
-![Here is a great site](https://regex101.com/) that lets you test out regular expression patterns in real-time, save your favorites and explore patterns made by others.
+* <a href="https://regex101.com/" target='_blank' rel='nofollow'>Here is a great site</a> that lets you test out regular expression patterns in real-time, save your favorites and explore patterns made by others.
 
 

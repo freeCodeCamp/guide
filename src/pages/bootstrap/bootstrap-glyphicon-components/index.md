@@ -3,13 +3,24 @@ title: Bootstrap Glyphicon Components
 ---
 ## Bootstrap Glyphicon Components
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/bootstrap/bootstrap-glyphicon-components/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Bootstrap 3 includes 260 glyphicons. Glyphicons are normally not free of charge, but their creator has made them available for Bootstrap free of cost. As a thank you, you should include a link back to Glyphicons whenever possible.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Use glyphicons in text, navigation, buttons, forms, or toolbars.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+## Examples
+
+```html
+<p>Star icon: <span class="glyphicon glyphicon-star"></span></p>
+<p>Refresh icon: <span class="glyphicon glyphicon-refresh"></span></p>
+<p>Envelope icon: <span class="glyphicon glyphicon-envelope"></span></p> 
+```
+
+## Note
+Bootstrap 4 dropped Glyphicons. You can use <a href='http://fontawesome.io/icons/' target='_blank' rel='nofollow'>Font Awesome Icons</a> instead.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+<a href='https://getbootstrap.com/docs/3.3/components/#glyphicons' target='_blank' rel='nofollow'>Official Bootstrap 3 docs on Glyphicons</a>
+<a href='https://glyphicons.com/' target='_blank' rel='nofollow'>Glyphicons official website</a>
+
 
 

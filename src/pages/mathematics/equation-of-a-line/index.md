@@ -3,13 +3,17 @@ title: Equation of a Line
 ---
 ## Equation of a Line
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/equation-of-a-line/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+### For a Given Slope and y-intercept (Standard Form):
+Let `m` be the slope of the line and `b` be the y-intercept. (Note that the y-intercept is the point at which the given line crosses the y-axis). Then the equation of a line is:
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+`y = mx+b`
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### For a Given Slope and One Point through which the Line Passes (Point-Slope Form):
+Let `m` be the slope of the line and `(x1, y1)` be the co-ordinate of the point through which the given line passes. Then the equation of a line is:
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+`(y - y1) = m(x - x1)`
 
+### For Two Points through which the Line Passes:
+Let `(x1, y1)` and `(x2, y2)` be the co-ordinates of two points through which the given line passes. Then the equation of a line is:
 
+`(y - y1)(x2 - x1) = (y2 - y1)(x - x1) `
