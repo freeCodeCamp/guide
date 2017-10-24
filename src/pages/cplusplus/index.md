@@ -14,11 +14,11 @@ title: C++
 ### Here is your 1st program in C++ -
 
 ```cpp
-#include <iostream>
+#include<iostream>
 using namespace std ;
 int main()
 {
-    cout<<"Hello World"<<endl;
+    cout<<"Hello World !"<<endl;
     return 0;
 }
 ```
