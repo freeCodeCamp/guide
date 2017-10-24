@@ -1,3 +1,6 @@
+---
+title: Factory
+---
 The factory is a design pattern which aims to reduce the dependencies between classes instantiating objects and the objects themselves, by creating a "factory" class which handles the creation of classes. By doing this, we allow can allow subclasses to redefine which class to instantiate, and group potentially complex creation logic into a single interface.
 
 Programmers use factory design patterns to because it allows them to create instances of objects which implement a common interface, without necessarily knowing beforehand the exact concrete class (implementation) being used. A common situation in which this is useful is when a parent class is relying on it's children classes to specify the type of object it should be instantiating. It is also useful when the creation of an object is complex, as it allows the programmer to group the code into a single class and reduce duplication. 
