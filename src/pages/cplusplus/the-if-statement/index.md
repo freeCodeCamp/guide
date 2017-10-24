@@ -7,7 +7,7 @@ title: C++ If Statement
 **What does an If Statement do?**
 
 * The ***if*** statement evaluates your test expression present inside the parenthesis.
-* The if statement uses relational and logical operators to make logical expressions.
+* The ***if*** statement uses relational and logical operators to make logical expressions.
 
   -----------------------------------------------
   The general form of if statement:
