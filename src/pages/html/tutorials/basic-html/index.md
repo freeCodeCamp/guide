@@ -12,4 +12,10 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
+## Basic HTML
 
+HTML or Hyper Text Markup Language - is a standardized language for markup of web pages. It is used to set basic structure of any web-document. Main element of HTML is tag - special angular bracketed key-word, which stands for certain element of web-page, for example:
+
+```html
+<h1>First level Heading</h1>
+```
