@@ -1,3 +1,5 @@
+title: PHP Data Types
+
 # PHP Data Types
 
 Variables can store data of different types such as:
