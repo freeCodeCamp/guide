@@ -1,15 +1,32 @@
 ---
-title: Symbols
+title: HTML Symbols
 ---
-## Symbols
+## HTML Symbols
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/symbols/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+HTML symbols are characters that are uncommonly found on normal keyboards.
+HTML symbols can be: units, mathematical operators, symbols, shapes, and arrows.
+Character entities are used to display these symbols on an HTML page.
+```
+&entity_name;
+OR
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+&#entity_number;
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+If the symbol does not have an entity name, you can use a decimal ```&#decimal_number;```or hexadecimal ```&#xhexadecimal_number;```  reference. 
+```
+<p>Symbol: &hearts;</p>
+<p>Symbol: &#9829;</p>
+<p>Symbol: &#x2665;</p>
+```
+Will display:
+```html
+Symbol: ♥
+Symbol: ♥
+Symbol: ♥
+```
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+#### List of Symbol Decimal/Hexadecimal references: 
+https://www.w3schools.com/charsets/ref_utf_symbols.asp
 
 
