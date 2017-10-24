@@ -34,7 +34,7 @@ switch(number)
 ```
 
 ## Example in if statements
-The previus switch case example, in `if statements` corresponds to:
+The previous switch case example, in `if statements` corresponds to:
 ```
 int number = 1;
 
