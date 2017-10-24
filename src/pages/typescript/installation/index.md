@@ -24,7 +24,7 @@ npm i typescript
 
 ### TSLint
 
-See how to setup linting options for TypeScript at [TypeScript](./typescript) > [Linter](./typescript/linter) within the **freeCodeCamp Guide**.
+See how to setup linting options for TypeScript at [TypeScript](./) > [Linter](./linter) within the **freeCodeCamp Guide**.
 
 ### Compiling a single file down to JavaScript
 
@@ -44,7 +44,7 @@ There’s also the option to create a <a href='https://www.typescriptlang.org/d
 
 Within your <a href='https://www.typescriptlang.org/docs/handbook/tsconfig-json.html' target='_blank' rel='nofollow'>`tsconfig.json`</a> file, for example, you could specify that you want TypeScript to compile down to ES5 instead of ES6.
 
-### Multiplication Example
+### Quick Example
 
 ![Multiplication](https://i.imgur.com/V5nP3xj.jpg)
 

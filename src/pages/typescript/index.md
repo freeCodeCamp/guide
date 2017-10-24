@@ -13,6 +13,8 @@ However, as more large-scale projects start to use JavaScript, the process of ma
 
 This is a problem Microsoft recognized early on and they came up with the solution of TypeScript and released the first version approximately on October 1st, 2012.
 
+You can learn more about the syntax differences at [`TypeScript`](./) > [`JavaScript vs TypeScript`](./javascript-vs-typescript).
+
 ![Key Features](https://i.imgur.com/pZij95O.jpg)
 
 In essence, TypeScript is trying to help JavaScript reach new heights and become very scalable and can be highlighting by the following features:
@@ -26,7 +28,11 @@ In essence, TypeScript is trying to help JavaScript reach new heights and become
 
 ### Installation
 
-To learn more about installation, see [Installation](./installation).
+To learn more about installation, see [`TypeScript`](./) > [`Installation`](./installation).
+
+### Linter
+
+To learn more about using a linter with TypeScript, check out [`TypeScript`](./) > [`Linter`](./linter).
 
 ### Playground
 
