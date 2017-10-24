@@ -12,4 +12,18 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
+JavaScript code is usually executed synchronously. We have some native functions called timers which allow us to delay instructions. These are the four timer types:
+
+* `setTimeout()`
+⋅⋅+ The most commonly used timer if you wish to delay and call a function once is the `setTimeout()`
+
+* `setInterval()`
+⋅⋅+ To set a delay for a function that should be repeated more than once, use the `setInterval()`. This is ideal for animations.
+
+* `setImmediate()`
+⋅⋅+ To setup a method to execute heavy operations, use the `setImmediate()`
+
+* `requestAnimationFrame()`
+⋅⋅+ To setup a metod that instructs the browser to perform an animation and also repaint the window for the next animation frame, use the `requestAnimationFrame()`.
+
 
