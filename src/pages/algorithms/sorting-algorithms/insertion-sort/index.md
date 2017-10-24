@@ -120,6 +120,8 @@ A quick implementation in Swift is as shown below :
 * Time Complexity: O(n*n)
 * Stable: Yes
 
-#### More Information:
+#### Other Resources:
 
 - <a href='https://en.wikipedia.org/wiki/Insertion_sort' target='_blank' rel='nofollow'>Wikipedia</a>
+
+- <a href='https://youtu.be/TwGb6ohsvUU' target='_blank' rel='nofollow'>Insertion Sort - CS50</a>
