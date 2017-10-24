@@ -7,11 +7,11 @@ To repozytorium jest miejscem, gdzie planujemy i rozwijamy artykuły z freeCodeC
 
 **Spis treści**
 
-- [Czym są artykuły przewodnika freeCodeCamp?](#czym-sa-artykuly-przewodnika-freeCodeCamp)
-- [O czym mogę napisać artykuł?](#o-czym-moge-napisac-artykul)
-- [Jak wnieść wkład?](#how-to-contribute)
-- [Uruchomienie  przewodnika lokalnie na swoim komputerze](#running-the-guide-locally-on-your-own-computer)
-- [Przewodnik po stylu artykułów](#article-style-guide)
+- [Czym są artykuły przewodnika freeCodeCamp?](#czym-są-artykuły-przewodnika-freeCodeCamp)
+- [O czym mogę napisać artykuł?](#o-czym-mogę-napisać-artykuł)
+- [Jak wnieść wkład?](#jak-wnieść-wkład)
+- [Uruchomienie przewodnika lokalnie na swoim komputerze](#uruchomienie-przewodnika-lokalnie-na-swoim-komputerze)
+- [Przewodnik po stylowaniu artykułów](#przewodnik-po-stylowaniu-artykułów)
 - [Licencja](#licencja)
 
 ## Czym są artykuły przewodnika freeCodeCamp?
@@ -49,7 +49,7 @@ Możesz stworzyć PR (Pull Request) ze szkicem artykułu (lub edytować istniej�
 
 Upewnij się, że lokalny fork pozostaje aktualny w stosunku do oficjalnego repozytorium freeCodeCamp guides. Następnym razem kiedy zechcesz wprowadzić zmiany, sprawdź czy lokalna gałąź `master` jest aktualna komendą `git pull --rebase upstream master`, nim zaczniesz tworzyć nowe rozgałęzienia. Powyższa komenda spowoduje pobranie wszystkich zmian wprowadzonych w oficjalnym repozytorium gałęzi `master` bez tworzenia dodatkowego commita w twoim lokalnym repozytorium.
 
-## Running the Guide locally on your own computer
+## Uruchomienie przewodnika lokalnie na swoim komputerze
 
 Finally, if you want to run a version of the guides repository locally, follow these steps:
 
@@ -65,19 +65,19 @@ yarn run dev
 
 In this project, we are using `yarn` because `netlify` builds our site with `yarn`.
 
-## Article style guide
+## Przewodnik po stylowaniu artykułów
 
 We've written the following guide to writing Guide articles to help you get started contributing.
 
-**Table of Contents**
+**Spis treści**
 
-- [Article title](#article-title)
-- [Modularity](#modularity)
-- [General writing tips](#general-writing-tips)
-- [Formatting example code](#formatting-example-code)
-- [Adding images to articles](#adding-images-to-articles)
-- [Proper nouns](#proper-nouns)
-- [Where to get help](#where-to-get-help)
+- [Tytuł artykułu](#tytuł-artykułu)
+- [Modułowość](#modułowość)
+- [Pisanie artykułów](#pisanie-artykułów)
+- [Formatowanie przykładowego kodu](#formatowanie-przykładowego-kodu)
+- [Dodawanie obrazów do artykułów](#dodawanie-obrazów-do-artykułów)
+- [Właściwe rzeczowniki](#właściwe-rzeczowniki)
+- [Gdzie otrzymać pomoc](#gdzie-otrzymać-pomoc)
 
 
 ### Tytuł artykułu
@@ -108,7 +108,7 @@ We can reference other articles by linking to them inline, or in an "Other Resou
 
 Our goal is to have thousands of articles that cover a broad range of technical topics.
 
-### General writing tips
+### Pisanie artykułów
 
 Before you begin writing, create an outline of the topic and think about any coding examples you'll use (if applicable). This helps to organize your thoughts and make the writing process easier.
 
@@ -213,7 +213,7 @@ Proper nouns should use correct capitalization when possible. Below is a list of
 
 Front-end development (adjective form with a dash) is when you working on the front end (noun form with no dash). The same goes with the back end, full stack, and many other compound terms.
 
-### Where to get help
+### Gdzie otrzymać pomoc
 
 Technical writing, or the literature of science and technology, is hard. You'll need to take a technical (usually abstract) topic and explain it in a clear, accurate, and objective manner. You'll likely go through several rounds of proofreading and editing before you're happy with the result.
 
