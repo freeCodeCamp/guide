@@ -1,0 +1,52 @@
+---
+title: List Slices
+---
+## List Slicing
+
+A Slice of a list is its sub-list.Slices are considered as constraint/boundaries, and the result will contain all the elements between these boundaries.
+For a list slice, we use [x:y] operator.It is inclusive for xth element but exclusive for yth element.So the resultant list will contain y-x elements in it. 
+
+#### Syntax
+
+List = L[start: stop: step]
+
+Where start, stop & step- all three are optional. If you omit first index, slice starts from
+“0” and omitting of stop will take it to end. Default value of step is 1.
+
+#### Example 
+
+```py
+
+L2=[“Gwalior”, “Bhopal”, “Indore”]
+print L2[0:2]
+# prints [“Gwalior”, “Bhopal”] 	
+
+```
+
+####Example2
+
+```py
+List = [1,2,3,4,5,6]
+
+print List [::2]                   # produce a list with every alternate element
+
+# prints [1, 3, 5]
+
+print List [4:]                  # will produce a list containing all the elements from 5th position till end           
+
+# prints [5, 6]
+
+print List [:3]                      #produce a list containing all the elements from 1st to 3rd index 
+
+# prints [1, 2, 3]
+
+print List [:]                             #produce a list contains all the elements  
+
+# prints [1, 2, 3, 4, 5, 6]
+
+print List [-1]                           # “-1”  refers to last elements of list
+
+# prints 6
+
+```
+
