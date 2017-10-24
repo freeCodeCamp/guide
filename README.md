@@ -138,6 +138,27 @@ Format language keywords as code - this is done with the backtick key (located t
 
 Use the Oxford Comma when possible (it is a comma used after the penultimate item in a list of three or more items, before ‘and’ or ‘or’ e.g. an Italian painter, sculptor, and architect). It makes things easier, clearer, and prettier to read.
 
+### Attribution
+
+To minimize the potential for plagiarism and maintain integrity in these guides, it is important to give credit where necessary. Any material quoted, or used directly and unchanged, from source material should be wrapped in quotation marks and be adequately cited. Material that is not a direct quote but is still paraphrased from a different resource should also be cited. You can create superscript numerals to mark content that is cited using `<sup></sup>` tags. Like so: <sup>1</sup>
+
+Then, at the bottom of your article, place a `### Sources` heading and include all of your citations numbered to correspond with your marks above:
+
+<blockquote>
+Here is some content that should be cited.<sup>1</sup> And here is even more that should be cited from another source.<sup>2</sup>
+
+### Sources
+1. [Doe, John. "Authoring Words." *WikiCoder*. January 1, 1970. Accessed: October 20, 2017](#)
+2. [Purdue OWL Staff. "MLA Works Cited: Electronic Sources." *Purdue Online Writing Lab.* October 12, 2017. Accessed: Ocotber 20, 2017.](https://owl.english.purdue.edu/owl/resource/747/08/)
+</blockquote>
+You can check out the Purdue link above to see how to properly cite web sources (they even show how to cite tweets!). Typically, an attribution has a structure like the following:
+
+>Author Last Name, Author First Name. "Article Title." *Publication.* Publisher. Date Published. Date Accessed.
+
+If you cannot find an author or published date, which is common, simply omit these.
+
+Use of proper citations will not only keep the guides reputable, but these citations and links will also provide valuable resources should the reader want to learn more about the topic. Also note that instances of blatant plagiarism will be either removed or have their pull requests declined, and the user will receive a warning. Please refer to and review the [Academic Honesty Policy](https://www.freecodecamp.org/academic-honesty) before contributing.
+
 ### Formatting example code
 
 Campers will likely use Guide articles as a quick reference to look up syntax. Articles should have simple real-world examples that show common-use cases of that syntax.
