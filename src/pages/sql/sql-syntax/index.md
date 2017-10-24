@@ -6,7 +6,7 @@ title: SQL Syntax
 
 ### Introduction
 
-This guide provides a basic, high level description of the Syntax for SQL Statements. 
+This guide provides a basic, high level description of the syntax for SQL statements. 
 
 SQL is an international standard (ISO), but you will find many differences between implementations. This guide uses MySQL as an example. If you use one of the many other Relational Database Managers (DBMS) you'll need to check the manual for that DBMS if needed.
 
@@ -14,7 +14,7 @@ SQL is an international standard (ISO), but you will find many differences betwe
 
 * Use (sets what database the statement will use)
 * Select and From clauses
-* Where Clause (and / or, IN, Between, LIKE
+* Where Clause (and / or, IN, Between, LIKE)
 * Order By (ASC, DESC)
 * Group by and Having
 
@@ -85,9 +85,9 @@ Order By gives us a way to sort the result set by one or more of the items in th
 ![image-1](https://github.com/SteveChevalier/guide-images/blob/master/syntax03.JPG)
 
 
-### Group by and Having
+### Group By and Having
 
-Group by gives us a way to combine rows and aggregate data. The having clause is like the above Where clause, exept that it acts on the grouped data.
+Group By gives us a way to combine rows and aggregate data. The Having clause is like the above Where clause, except that it acts on the grouped data.
 
 This data is from the campaign contributions data we've been using in some of these guides.
 
