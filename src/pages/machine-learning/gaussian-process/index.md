@@ -3,13 +3,9 @@ title: Gaussian Process
 ---
 ## Gaussian Process
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/machine-learning/gaussian-process/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+In probability theory and statistics, a Gaussian process is a particular kind of statistical model where observations occur in a continuous domain, e.g. time or space. In a Gaussian process, every point in some continuous input space is associated with a normally distributed random variable.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+Fr more information: http://www.gaussianprocess.org/
 
 
