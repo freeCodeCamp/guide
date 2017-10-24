@@ -10,3 +10,5 @@ Some common types of algorithms include sorting algorithms, search algorithms, a
 [youtube](https://www.youtube.com/watch?v=kPRA0W1kECg)
 
 freeCodeCamp's curriculum heavily emphasizes creating algorithms. This is because learning algorithms is a good way to practice programming skills. Interviewers most commonly test candidates on algorithms during developer job interviews.
+
+Have you thought about creating a section for "Genetic Algorithms" based on observed animal behaviors, they are sometimes greedy, and sometimes heurestic by nature, but completely by nature. 
