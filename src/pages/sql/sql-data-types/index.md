@@ -34,6 +34,8 @@ Data type | Description
 `DATE` | Stores year, month, and day values
 `TIME` | Stores hour, minute, and second values
 `DATETIME` | Stores year, month, day, hour, minute, and second values
+`TIME WITH TIME ZONE` | Stores time of day with time zone
+`TIMESTAMP WITH TIME ZONE` | Stores timestamp with time zone
 
 
 ### Other Data Types
