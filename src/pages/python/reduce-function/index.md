@@ -24,5 +24,15 @@ Let's checkout the diagram below to make this more clear:
 
 <img src="reduce.png" alt="Python reduce function"/>
 
+As you can see in the above example the `reduce()` function takes in two items at a time from the sequence and adds them up, then it adds the result with the third item and so on, until only one value is remaining. 
 
-<a href='https://docs.python.org/3/library/functions.html#max' target='_blank' rel='nofollow'>Official Docs</a>
+Let's see one final example that prints out the maximum value in a list:
+
+	```
+	>>> from functools import reduce
+	>>> my_list = [23,49,72,5]
+	>>> reduce(lambda x,y: x if x > y else y, my_list)
+	72
+	```
+
+<a href='https://docs.python.org/3/library/functools.html#functools.reduce' target='_blank' rel='nofollow'>Python Doc - Reduce</a>
