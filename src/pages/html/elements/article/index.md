@@ -3,13 +3,25 @@ title: Article
 ---
 ## Article
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/article/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `<article>` tag is a new tag that came with HTML5. It is used to define self-contained content on website such as news article, blog post, recipe and others. Content defined in `<article>` should always contain [header tags](https://guide.freecodecamp.org/html/elements/header-tag/)(`<h1>` - `<h6>`). If you need to further divide article into smaller logical units use [section tags](https://guide.freecodecamp.org/html/elements/section)(`<section>`).
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+#### Example
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```html
+  <article>
+    <h1>FCC Guide - new HTML5 elements</h1>
+    <section>
+      <h2>&lt;article&gt; tag</h2>
+      <p>Some info about &lt;article&gt; tag...</p>
+    </section>
+    <section>
+      <h2>&lt;section&gt; tag</h2>
+      <p>Some info about &lt;section&gt; tag...</p>
+    </section>
+  </article>
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+- [&lt;article&gt; element: MDN](https://developer.mozilla.org/cs/docs/Web/HTML/Element/article)
+- [HTML &lt;article&gt; tag: W3Schools](https://www.w3schools.com/tags/tag_article.asp)
