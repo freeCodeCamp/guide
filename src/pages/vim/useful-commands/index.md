@@ -16,6 +16,9 @@ title: Useful Commands
 - Close your terminal
 - Shut down your computer
 
+## Opening a file within VIM
+In VIM you can open a file within the same window by setting your cursor on a path and typing `gf`.  This will tell VIM that the current text that the cursor resides is a file that you want to open.  The file will open up within the VIM terminal so if you want to return to the previous window just type `ctrl+o`.  This will tell VIM to go to the previous screen.
+
 ## Bare minimum functionality
 Most likely you'll find yourself in "normal" mode, it allows you to enter commands by pressing the colon `:` key.
 To get here from other modes you can type `ctrl + c` or `escape`.
