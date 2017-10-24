@@ -9,7 +9,7 @@ Yarn allows you to use other developers’ solutions to different problems, maki
 
 Code is shared through something called a package (sometimes referred to as a module). A package contains all the code being shared as well as a package.json file which describes the package.
 
-To use yarn you must install it in your system first. There are links at the end of this article to help you do that in whatever your operating system is.
+To use yarn you must install it on your system first. There are links at the end of this article to help you do that in whatever your operating system is.
 
 When you have Yarn installed, you can start using it. Here are some of the most common commands you’ll need.
 
