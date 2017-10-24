@@ -12,4 +12,13 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
+Links are found in nearly all web pages. Links allow users to click their way from page to page.
 
+In HTML, links are defined with the <a> tag:
+
+<a href="url">link text</a>
+
+The href attribute specifies the destination address of the link.
+The link text is the visible part.
+
+Clicking on the link text will send you to the specified address. 
