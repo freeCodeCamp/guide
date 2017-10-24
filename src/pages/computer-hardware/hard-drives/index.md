@@ -4,8 +4,7 @@ title: Hard Drives
 ## Hard Drives
 
 
-Hard drives are spinning magnetic disks that serve as long-term storage for computer data.
-
+Hard drives are spinning magnetic disks that serve as long-term storage for computer data. Since most modern computers use <a href='https://en.wikipedia.org/wiki/Von_Neumann_architecture' target='_blank' rel='nofollow'>von Neumann's architecture</a> both applications and also their data are stored on those storages.
 
 Hard drives come in various sizes, some up to even 10TB (10 trillion bytes). Typical computers come with 256GB (256 million bytes) to 1TB of storage space. Laptops usually use Solid State Drives (SSDs) because they are faster, lighter, and contain no moving parts, making them less likely to fail due to impact. For the same amount of storage, SSDs are generally more expensive than hard drives. 
 
