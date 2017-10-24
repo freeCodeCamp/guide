@@ -14,6 +14,7 @@ This function takes in two arguments a function and a sequence.
 ## Code Sample
 
 Let's create a simple program that adds each number in a list using reduce() and lambda expression.
+
     ```
     >>> from functools import reduce
     >>> my_list = [1,2,3,4]
