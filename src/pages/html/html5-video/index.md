@@ -3,13 +3,15 @@ title: HTML5 Video
 ---
 ## HTML5 Video
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/html5-video/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+HTML5 Video element provides native support for embedding any video file without any third party plugin (like Adobe Flash Player).
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+#### Example:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+    <video width="320" height="240" autoplay>
+      <source src="video_file_or_link.mp4" type="video/mp4">
+      <source src="video_file_or_link.ogg" type="video/ogg">
+    Your browser does not support the video tag.
+    </video>
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+This element provides some special properties, methods and events for different user interactions using Javascript.
+[W3School](https://www.w3schools.com/tags/ref_av_dom.asp) has a good reference for this.
