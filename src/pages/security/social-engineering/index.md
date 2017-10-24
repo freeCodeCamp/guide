@@ -21,6 +21,18 @@ Social Engineering is the art of gaining access to a secured system or resource 
 
 * Phishing: Sending an email which looks like it is from a trusted source to bait the user into clicking a link (to install malware) or replying with private information.
 
+#### Prevenetion and Security
+
+Becasuse Social Engineering requires little computer experience, is a very available tool for idividuals who wish to access sensitive data. There are many ways that an idividual can protect themselves from these attacks.
+Ways to prevent a Social Engineering Attack:
+
+* Avoid sharing sensitive data at all, if possible.
+* If you must share, verify the source before giving them sensitive data.
+* Be aware of random emails or phone numbers claiming to be friends, family, coworkers, institutuions, etc.
+* Be aware of people in real life asking for information they shouldn't necessarily reqire.
+* Destroy important documents before throwing them away.
+
+In general, the more you know about these attacks, the better prepared you are. Be concious of who you share information with and why. 
 
 
 #### More Information:
