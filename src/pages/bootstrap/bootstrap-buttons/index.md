@@ -13,6 +13,19 @@ To use bootstrap buttons you follow the same steps that you would to create a bu
 
 <button type="button" class="btn btn-primary">Primary</button>
 
+
+You can also use bootstrap buttons with the `<a>` and `<input>` elements as shown in the example below.
+
+**Code Example:**
+
+`<a class="btn btn-primary" href="#" role="button">This button is a link</a>`
+
+<a class="btn btn-primary" href="#" role="button">This button is a link</a>
+
+`<input class="btn btn-primary" type="submit" value="Submit">`
+
+<input class="btn btn-primary" type="submit" value="Submit">
+
 #### Bootstrap Button Class List:
 This is a list of the CSS classes that bootstrap provides for buttons.
 
@@ -51,4 +64,5 @@ This is a list of the CSS classes that bootstrap provides for buttons.
 _Note: Do not include the dot in the HTML Class Attribute, referring to the classes with a dot is only used when adjusting the classes in CSS._
 
 #### More Information:
-
+****Bootstrap 4.0 Latest (Beta version)**** :
+[Bootstrap Modal v4.0](http://getbootstrap.com/docs/4.0/components/buttons/)
