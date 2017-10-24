@@ -34,3 +34,17 @@ myCommandPrompt (master) >>
 ```
 
 If your local `master` branch has three commits that you haven't pushed up to the remote server yet, the status would say "Your branch is ahead of 'origin/master' by 3 commits."
+
+### Git Clone Mirror
+
+If you want to host mirror of a repository you can use mirror parameter. 
+
+```shell
+git clone URL-OF-REPOSITORY --mirror
+```
+
+After mirroring repository you can clone your local mirror from your server.
+
+```shell
+git clone NAME-OF-DIRECTORY-ON-COMPUTER
+```
