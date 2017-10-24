@@ -43,5 +43,5 @@ yarn install
 #### More Information:
 * <a href='https://yarnpkg.com' target='_blank' rel='nofollow'>Yarn website</a>
 * <a href='https://yarnpkg.com/en/docs' target='_blank' rel='nofollow'>Yarn documentation</a>
-* <a href='https://yarnpkg.com/en/docs/install' target='_blank' rel='nofollow'>Installing Yarn</a>)
+* <a href='https://yarnpkg.com/en/docs/install' target='_blank' rel='nofollow'>Installing Yarn</a>
 * <a href='https://www.pluralsight.com/guides/node-js/yarn-a-package-manager-for-node-js' target='_blank' rel='nofollow'>Yarn vs npm</a>
