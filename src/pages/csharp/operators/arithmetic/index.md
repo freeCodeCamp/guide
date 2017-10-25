@@ -1,3 +1,7 @@
+---
+title: Arithmetic Operators
+---
+
 # Arithmetic Operators
 
 #### Attraction Operator (+)
