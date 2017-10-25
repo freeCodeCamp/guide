@@ -30,3 +30,9 @@ alloy dev
 4. Visit website at `http://localhost:1212`
 
 *Alloy uses Node, NPM, and Webpack*
+
+### Go Playground
+
+  https://play.golang.org/
+
+Learning how to install go on your local machine is important, but if want to start playing with go right in your browser, then Go Playground is the perfect sandbox to get started right away! To learn more about the Go Playground see their article titled "<a href='https://blog.golang.org/playground' target='_blank' rel='nofollow'>Inside the Go Playground</a>".
