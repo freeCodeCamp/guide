@@ -13,9 +13,10 @@ Here's the syntax:
 For example:
 ```
 $(#example).mousedown(function(){
-   alert("Mouse was clicked");
+   alert("Example was clicked");
 });
 ```
+That code will make the alert "Example was clicked" when #example is clicked.
 
 ### More Information
 More information can be found [here].
