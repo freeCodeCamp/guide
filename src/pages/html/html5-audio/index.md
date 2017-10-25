@@ -3,13 +3,31 @@ title: HTML5 Audio
 ---
 ## HTML5 Audio
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/html5-audio/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Before HTML5, audio files must be played in a browser with a plug-in (like flash). 
+The HTML <audio> element is used to embed sound content in documents. It may contain one or more audio sources, represented using the src attribute or the [source](<source>) element
+  
+To embed audio file into web page, just add this code snippet and change the src of audio file.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+```html
+<audio controls>
+  <source src="tutorial.ogg" type="audio/ogg">
+  <source src="tutorial.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+The controls attribute includes audio controls, similar to play, pause, and volume. 
+
+The <source> element enables you to indicate alternative audio files which the browser may choose from. The browser will utilize the first recognize format. 
+The text between the <audio> and </audio> tags might be shown in browser that don't support the <audio> element.
+
+Since this is html5, some browser do not support it. You can check it at https://caniuse.com/#search=audio
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+https://caniuse.com/#search=audio
+
+https://www.w3schools.com/html/html5_audio.asp
+
+https://msdn.microsoft.com/en-us/library/gg589529(v=vs.85).aspx
 
 
