@@ -10,13 +10,13 @@ Python can easily be used for small, large, online and offline projects. The bes
 You can use Python to create web applications on many levels of complexity. There are many excellent Python web frameworks, including: Pyramid, Django and Flask, to name a few.
 
 ##### Data Analysis:
-Python is the language of choice for many data scientists. Due to its excellent libraries - including; NumPy and Pandas and its superb libraries for data visualisation like Matplotlib and Seaborn - Python has popluarity has grown rapidly withing the field of data science.
+Python is the language of choice for many data scientists. Due to its excellent libraries - including; NumPy and Pandas and its superb libraries for data visualisation like Matplotlib and Seaborn - Python has popluarity has grown rapidly within the field of data science.
 
 ##### Automation:
-Python is one of the most flexible languages when it comes to automating boring or repetitive tasks. It helps system administrators in carrying out their tasks easily by writing script which can be executed from the terminal. It helps in creating bots which automate daily tasks.
+Python is one of the most flexible languages when it comes to automating boring or repetitive tasks. It helps system administrators in carrying out their tasks easily by writing scripts which can be executed from the terminal. It is used to create bots which automate daily tasks.
 
 ##### Artificial Intelligence:
-AI is at the forefront of cutting edge computing. AI is here to stay and Python is serving as a major language to boost development in the field of AI. Tensorflow is designed with Python and it is under AI.
+AI isn't the future of computing; it's the present. AI is here to stay and Python is serving as a major language to boost development in the field of AI. Tensorflow is designed with Python and it is under AI.
 
 #### More Information:
 Here's a <a href='https://www.python.org/about/apps/' target='_blank' rel='nofollow'>link</a> to appications of Python on it's offical website.
