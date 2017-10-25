@@ -26,8 +26,15 @@ background-color: blue;
 
 ```
  
-
 Notice that classes have the prefix of a period (.) in CSS.
+
+You can also add class name more than 1 class in between double quote ("")
+ 
+ ```html
+
+<h1 class="superMan theFlash ironMan">Here I come to save the day!</h1>
+
+```
 
 You can see the result of the above code [here](https://codepen.io/Tlandis/pen/RLvomV).
 #### More Information:
