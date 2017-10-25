@@ -3,6 +3,18 @@ title: Images in HTML
 ---
 ## Images in HTML
 
+## add image in html
+
+add image syntax in your document html
+<!DOCTYPE html>
+<html>
+<body>
+
+	<img src="download.jpg" alt="football" width="500" height="300">
+
+</body>
+</html>
+
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/tutorials/images-in-html/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
 <a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
