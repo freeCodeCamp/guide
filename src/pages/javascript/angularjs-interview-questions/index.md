@@ -19,3 +19,14 @@ Answer: Routing is a core feature in AngularJS. This feature is useful in buildi
 
 Question: Explain ng-repeat directive.
 Answer: The ng-repeat directive is the most used and very useful AngularJS Directive feature. It iterates over a collection of items and creates DOM elements. It constantly monitors the source of data to re-render a template in response to change.
+
+Question: How do you cancel a timeout with AngularJs?
+Answer: $timeout is AngularJs' wrapper for window.setTimeout, you cancel a timeout applying the function: 
+
+    $timeout.cancel(function (){
+      // write your code.
+    });
+
+Question: What is the Dependency Injection?
+Answer: Dependency Injection (DI) is a software design pattern that deals with how components get hold of their dependencies.
+The AngularJS injector subsystem is in charge of creating components, resolving their dependencies, and providing them to other components as requested.
