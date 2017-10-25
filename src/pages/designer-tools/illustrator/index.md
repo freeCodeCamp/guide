@@ -13,8 +13,7 @@ title: Illustrator in visual design
 </li>
 
 <li>
-<p>Creating flat icons using illustrator<a href="https://design.tutsplus.com/tutorials/create-a-set-of-flat-precious-gems-icons-in-adobe-illustrator--vector-26188" targer="blank"></a></p>
+<p>Creating flat icons using illustrator<a href="https://design.tutsplus.com/tutorials/create-a-set-of-flat-precious-gems-icons-in-adobe-illustrator--vector-26188" target="blank"></a></p>
 </li>
 
 </ul>
-
