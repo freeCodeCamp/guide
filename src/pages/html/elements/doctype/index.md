@@ -3,13 +3,18 @@ title: Doctype
 ---
 ## Doctype
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/doctype/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The doctype should be specified at the top of all HTML documents and its sole purpose is to prevent the browser from rendering the page incorrectly or in a way that wasn't intended. When the doctype is specified the browser makes a best-effort attempt at following the relevant specifications.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```html
+<!DOCTYPE html>
+```
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+Above you can see an example of an HTML5 doctype. Even though it appears to be a standard HTML tag it actually is not, it's a direct instruction to the web browser specifying what version of HTML the page is written in.
+
+### More information:
+
+[MDN Doctype](https://developer.mozilla.org/en-US/docs/Glossary/Doctype)
+[W3 Schools DOCTYPE](https://www.w3schools.com/tags/tag_doctype.asp)
 
 
