@@ -54,3 +54,7 @@ public class RandomNumbers{
     }  
 }  
 ```
+
+
+#### More Information:
+[Java Resources](http://guide.freecodecamp.org/java/resources/)
