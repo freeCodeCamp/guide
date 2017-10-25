@@ -7,8 +7,26 @@ title: Switch Case
 The switch statement is like a set of `if statements`.
 It's a list of possibilities, with an action for each possibility, and an optional default action, in case nothing else evaluates to true.
 We exit from the switch by `break`.
+## Syntax of switch...case
+```
+switch (n)
+​{
+    case constant1:
+        // code to be executed if n is equal to constant1;
+        break;
 
-## Example
+    case constant2:
+        // code to be executed if n is equal to constant2;
+        break;
+        .
+        .
+        .
+    default:
+        // code to be executed if n doesn't match any constant
+}
+```
+
+### Example
 ```
 # include <stdio.h>
 
