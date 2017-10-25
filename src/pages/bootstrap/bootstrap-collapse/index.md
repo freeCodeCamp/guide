@@ -8,24 +8,24 @@ Collapsibles are useful when you want to hide and show large amount of content.
 
 ### How to use it
 
-To use collapse you can do it in two ways:
+To use collapse you can do it in two different ways:
 
 * Using `href` on the `<a>` tag
 * Using `data-target` on `<button>` tag
 
 The value in `href` or `data-target` will be the selector of the element to collapse. Wether you decide to use the `<a>` or the `<button>` tag, the `data-toggle="collapse"` is required.
 
-The element to collapse must contain the class `.collapse`. 
+The element to collapse must contain the class `collapse`. 
 
 ### Content element
 
-A paragraph!
+You can even use it with a paragraph!
 
 ```html
 <p>Lorem ipsum dolar, Free Code Camp rocks... </p>
 ```
 
-1. Add `.collapse` class to state that the paragraph is a collapsible element.
+1. Add `collapse` class to state that the paragraph is a collapsible element.
 2. Add `id` to make this collapsible element accesible for controller element.
 
 ```html
@@ -34,7 +34,7 @@ A paragraph!
 
 ### Controller element
 
-A button!
+Or a button!
 
 ```html
 <button>Click Me To See Some Magic!</button>
