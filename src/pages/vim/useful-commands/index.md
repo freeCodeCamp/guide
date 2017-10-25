@@ -16,6 +16,9 @@ title: Useful Commands
 - Close your terminal
 - Shut down your computer
 
+## Opening a file in a specific line
+- vi filename +n, where n is the line number
+
 ## Bare minimum functionality
 Most likely you'll find yourself in "normal" mode, it allows you to enter commands by pressing the colon `:` key.
 To get here from other modes you can type `ctrl + c` or `escape`.
