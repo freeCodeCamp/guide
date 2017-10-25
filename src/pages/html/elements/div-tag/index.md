@@ -3,13 +3,21 @@ title: Div Tag
 ---
 ## Div Tag
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/div-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `<div>` tag defines a section in your HTML document. The `<div>` element is used to group large sections of HTML elements together and format them with CSS.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Example
+Here is an example of how to display a section in same color:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```html
+<div style="color:#ff0000">
+  <h3>my heading</h3>
+  <p>my paragraph</p>
+</div>
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+[Tutorialspoint](https://www.tutorialspoint.com/html/html_div_tag.htm)
+
+[MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div)
 
 

@@ -10,6 +10,8 @@ Adobe Experience Design, also known as Adobe XD, is a prototyping tool for UX de
 
 * in-built prototyping tools
 * available on both Windows and macOS
+* mobile device preview
+* free UI kits
 * very clean and neat interface, unlike Photoshop. 
 * easy for Sketch users to switch as interface is very similar
 * repeat-grid feature
@@ -31,3 +33,5 @@ Adobe XD vs Sketch: <a href='https://www.sitepoint.com/adobe-xd-sketch-will-resu
 Why Prototyping with Adobe XD is the Most-Complete Design Solution: <a href='https://www.sitepoint.com/prototyping-with-adobe-xd/' target='_blank' rel='nofollow'>Sitepoint</a>
 
 And here's a playlist of 36 videos to help you get started in Adobe XD: <a href='https://youtu.be/HqQtYIMnWhM' target='_blank' rel='nofollow'>Youtube</a>
+
+<a href='https://en.wikipedia.org/wiki/Adobe_Experience_Design target='_blank' rel='nofollow'>Adobe Experience Design wikipedia page</a>
