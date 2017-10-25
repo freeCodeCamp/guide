@@ -3,13 +3,16 @@ title: Accuracy and Precision
 ---
 ## Accuracy and Precision
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/accuracy-and-precision/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The difference between accuracy and precision.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Precision and accuracy are often used interchangably, however, they are not the same thing.
+There is a major difference between them that is commonly overlooked. I find it useful to look at
+this visual representation:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+![visual-representation](http://cdn.antarcticglaciers.org/wp-content/uploads/2013/11/precision_accuracy.png)
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+As you can see, precision is how gathered your shots are. If you manage to fire all your bullets in one spot,
+then your precision is high, even if you miss what you were aiming at by a long way. 
 
-
+Accuracy is, as you may see, how well you hit what you were aiming at. What you want is of course
+high precision and high accuracy. 
