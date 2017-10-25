@@ -14,7 +14,14 @@ Some famous web services include
 * Codedeploy (Deployments)  
 etc..
 
+AWS providess multiple locations for most of their platform areas so you are able to pick a location, for example, that is close to you for speedier access be it for file uploads, databases read / writes, etc.
 
+Locations include
+
+* East US
+* West US
+* Europe (Frankfurt, Ireland, London)
+* Asia
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
