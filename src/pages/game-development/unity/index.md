@@ -8,7 +8,7 @@ First announced only for OS X, at Apple's Worldwide Developers Conference in 200
 
 ## Overview
 
-Unity is an all purpose game engine that supports 2D and 3D graphics, drag and drop functionality and scripting through C#.
+Unity is an all-purpose game engine that supports 2D and 3D graphics, drag and drop functionality and scripting through C#.
 
 Two other programming languages were supported: Boo, which was deprecated with the release of Unity 5 and UnityScript which was deprecated in August 2017 after the release of Unity 2017.1.
 
