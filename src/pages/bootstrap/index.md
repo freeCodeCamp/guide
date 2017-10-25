@@ -50,3 +50,6 @@ Bootstrap has thorough documentation with many <a href='https://getbootstrap.com
 
 In addition, you can find both <a href='https://bootswatch.com/' target='_blank' rel='nofollow'>free</a> and <a href='https://themes.getbootstrap.com/' target='_blank' rel='nofollow'>paid</a>
 themes that build on the Bootstrap framework to provide a more customized and stylish look.
+
+##### Update:
+ +- Update on content
