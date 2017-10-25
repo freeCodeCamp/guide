@@ -10,12 +10,13 @@ The HTML <video> tag is used to embed video in web documents. It may contain one
   
  To embed audio file into web page, just add this code snippet and change the src of audio file.
  
- html
+ ```html
  <video controls>
     <source src="tutorial.ogg" type="video /ogg">
     <source src="tutorial.mp4" type="video /mpeg">
   Your browser does not support the video element. Kindly,update it to latest version.
   </video >
+```
 
 The controls attribute includes video controls, similar to play, pause, and volume.
 
