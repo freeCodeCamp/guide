@@ -3,7 +3,7 @@ title: CSS Classes
 ---
 ## CSS Classes
 
-Classes are an efficient way of grouping HTML elements so that they can share the same styles.
+Classes are an efficient way of grouping HTML elements so that they can share the same styles. CSS (Cascading Style Sheets) classes can be used to arrange and decorate web page elements.
 
 ---
 
@@ -13,7 +13,7 @@ When you're writing HTML you can add a class to an element like so:
 
 <h1 class="superMan">"Here I come to save the day!"</h1>
 
-<p> is a popular catchphrase that <span class="superMan">Super Man </span>often said.</p>
+<p> is a popular catchphrase that <span class="superMan">Super Man</span> often said.</p>
 
 ```
 
@@ -27,7 +27,7 @@ background-color: blue;
 ```
  
 
-Notice that classes have the prefix of a period (.) in CSS.
+Notice that classes have a period (.) before their names in CSS.
 
 You can see the result of the above code [here](https://codepen.io/Tlandis/pen/RLvomV).
 #### More Information:
