@@ -26,6 +26,7 @@ If you can't find a stub about the topic you'd like to write about, you can open
 
 Before you begin writing, make sure to read the [article style guide](#article-style-guide) below.
 
+
 ## How to contribute
 You can create a PR (Pull Request) with your draft article (or edits on an existing article) in two ways:
 
