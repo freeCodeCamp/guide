@@ -4,7 +4,7 @@ title: Closures
 
 # Closures
 
-A closure is the combination of a function and the lexical environment within which that function was declared.
+A closure is the combination of a function and the lexical environment within which that function was declared. Using closures, a function declared inside another function retains access to the outer function's variables even after the outer function is removed from the execution stack. 
 
 
 
@@ -137,6 +137,20 @@ Since the variable i does not have block-scope, it's value within all three func
 ```
 The late versions of javascript es6+ have a new keyword called let which can be used to give the variable a blockscope.
 There are also many functions (forEach) and entire libraries (lodash.js) that are dedicated to solve such problems as the ones explained above. They can certainly boost your productivity, however it remains extremely important to have knowledge of all these issues when attempting to create something big.
+
+```js
+function greet(name){
+	return function(language){
+    	if(language=='esp'){console.log('Holla '+name)}
+		else{console.log('Hello '+name)}
+	}
+}
+
+var languageFunc=greet('James');
+var greeting=languageFunc('eng');
+console.log(greeting); // prints Hello James
+```
+In the above example, languageFunc gets assigned a function that is returned from the greet function. greet function is removed from the execution stack but the variable(name) is still holding the memory space. When languageFunc is called, it searched for the variable 'name' in its scope but does not find it, so it chains back to its lexical environment i.e. greet function and finds it in memory.
 
 ### More Information:
 
