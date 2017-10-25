@@ -16,7 +16,7 @@ For eg:
 ```js
     $('#element').css('background');
 ```
-
+Note: Here we can use any css selector eg: element(HTML Tag selector), .element(Class Selector), #element(ID selector).
 ### Setting 
 
 To set a specified CSS property, use the following syntax:

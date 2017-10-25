@@ -3,7 +3,7 @@ title: Nav Tag
 ---
 ## Nav Tag
 
-The purpose of the <nav> element is to provide a section of a webpage that contains links to other sections in the same document or to other documents.
+The purpose of the `<nav>` element is to provide a section of a webpage that contains links to other sections in the same document or to other documents.
 
 ### Example
 
@@ -22,4 +22,4 @@ The purpose of the <nav> element is to provide a section of a webpage that conta
 ```
 
 #### More Information:
-[MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav)
+- [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav)

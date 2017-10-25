@@ -37,4 +37,4 @@ f r e e C o d e C a m p
 ```
 
 #### More Information:
-[python documentation on string join](https://docs.python.org/2/library/stdtypes.html#str.join)
+[Python Documentation on String Join](https://docs.python.org/2/library/stdtypes.html#str.join)
