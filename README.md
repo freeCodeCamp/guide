@@ -215,7 +215,7 @@ Then you'd just need to reference them in your markdown file with this syntax:
 
 `![your alt text](your url)`
 
-Then the images should show up when you click the "preview table" tab.
+Then the images should show up when you click the "preview changes" tab.
 
 ### Proper nouns
 
