@@ -7,7 +7,7 @@ title: Learn About Python Lists
 
 **Creation:**
 
-An empty `list` is created using a pair of square brackets, `<a href='https://docs.python.org/3/tutorial/datastructures.html#more-on-lists' target='_blank' rel='nofollow'>]`:
+An empty `list` is created using a pair of square brackets, <a href='https://docs.python.org/3/tutorial/datastructures.html#more-on-lists' target='_blank' rel='nofollow'>[ ] </a>:
 
     >>> empty_list = []
     >>> type(empty_list)
