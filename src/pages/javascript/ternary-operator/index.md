@@ -21,4 +21,13 @@ For example, to display a different message based on the value of the isMember v
 
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/M8Ge/1' target='_blank' rel='nofollow'>Run Code</a>
 
+## Running functions with ternary operator
+
+It's also possible to run functions using ternary operator, which sometimes can be useful and more readable. However, use it carefully, because then code is harder to debug.
+
+```javascript
+    const runFirst = true;
+    run ? first() : second();
+```
+
 **Read more:** <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator' target='_blank' rel='nofollow'>MDN</a>
