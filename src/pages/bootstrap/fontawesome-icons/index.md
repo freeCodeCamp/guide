@@ -27,7 +27,7 @@ Simply create `<i>` or `<span>` tag and apply the CSS Prefix `fa` and the icon's
 <span class="fa fa-freecodecamp" aria-hidden="true"></span>
 
 #### Fontawesome Icon List:
-Complete list of icons provided by fontawesome is available [here](https://fontawesome.io/cheatsheet/)
+Complete list of icons provided by fontawesome is available [here](http://fontawesome.io/cheatsheet/)
 
 `.fa fa-align-left` This is fontawesome align left icon.
 
@@ -40,5 +40,5 @@ Complete list of icons provided by fontawesome is available [here](https://fonta
 _Note: Do not include the dot in the HTML Class Attribute, referring to the classes with a dot is only used when adjusting the classes in CSS._
 
 #### More Information:
-[Fontawesome Cheatsheet](https://fontawesome.io/cheatsheet/)
+[Fontawesome Cheatsheet](http://fontawesome.io/cheatsheet/)
 
