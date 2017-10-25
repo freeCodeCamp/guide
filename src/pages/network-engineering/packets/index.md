@@ -2,14 +2,15 @@
 title: Packets
 ---
 ## Packets
+In Information technology (IT), a packet is collection of data that can be used by computers which need to communicate with each other,
+usually as part of a network. The type of networks that use packets to send/receive data are called [packet-switched] (https://en.wikipedia.org/wiki/Packet_switching) network. 
+Packets allow many computers on a network to communicate more quickly and easily.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/network-engineering/packets/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+### What information a packet contains?
+A packet contains a source, destination, data, size, and other useful information that helps packet make it to the appropriate location
+and get reassembled properly. Below is a breakdown of a TCP packet.
+![Breakdown of a TCP packet](https://www.computerhope.com/jargon/p/packet.jpg)
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
