@@ -40,3 +40,43 @@ If there is no return statement the function returns None when it reaches the en
     ...
     >>> print(no_return())
     None
+     
+ A single function can have multiple `return` statements.  Execution of the function ends when one of these `return` statements is reached:
+ 
+     >>> def multiple_returns(n):
+     ...    if(n):
+     ...        return "First Return Statement"
+     ...    else:
+     ...        return "Second Return Statement"
+     ...
+     >>> print(multiple_returns(True))
+     First Return Statement
+     >>> print(multiple_returns(False))
+     Second Return Statement
+     
+ A single function can return various types:
+ 
+     >>> def various_return_types(n):
+     ...     if(n==1):
+     ...         return "Hello World."   # Return a string
+     ...     elif(n==2):
+     ...         return 42               # Return a value
+     ...     else:
+     ...         return True             # Return a boolean
+     ... 
+     >>> print(various_return_types(1))
+     Hello World.
+     >>> print(various_return_types(2))
+     42
+     >>> print(various_return_types(3))
+     True
+ 
+ It is even possible to have a single function return multiple values with only a single return:
+ 
+     >>> def return_two_values():
+     ...     a = 40
+     ...     b = 2
+     ...     return a,b
+     ...
+     >>> print("First value = %d,  Second value = %d" %(return_two_values()))
+     First value = 40,  Second value = 2
