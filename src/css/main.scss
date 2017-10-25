@@ -77,6 +77,9 @@
   /* height: 40px; */
   border: none;
   border-radius: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 
 .content {
@@ -258,4 +261,31 @@
   border: none;
   border-radius: 0px;
   cursor: pointer;
+}
+
+.sideNav {
+  width: 100%;
+  position: fixed;
+  height: 100%;
+}
+
+.contentContainer {
+  padding-top: 65px;
+}
+
+@media (max-width: 992px){
+
+  .navBar {
+    position: relative;
+  }
+
+  .sideNav {
+    position: relative;
+    margin-bottom: 40px;
+  }
+
+  .contentContainer {
+    padding-top: 0;
+  }
+
 }
