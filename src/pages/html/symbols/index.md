@@ -3,13 +3,15 @@ title: Symbols
 ---
 ## Symbols
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/symbols/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Symbols are characters apart from letters, numbers, and punctuation marks. Some examples include mathematical, technical, currency, and other language symbols. These symbols may or may not be present on your native keyboard.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+To add these symbols to your code, use an entity reference name or number.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+![Common HTML5 Symbols](http://ways2web.weebly.com/uploads/5/4/4/8/54485903/8779038_orig.png)
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
+<ul>
+  <li><a href="https://www.w3schools.com/html/html_symbols.asp">W3 Schools Reference</a></li>
+  <li><a href="https://dev.w3.org/html5/html-author/charref">Symbols Reference Chart</a></li>
+</ul>
 
