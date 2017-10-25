@@ -9,4 +9,4 @@ DevOps is a the mix between Development and Operations. It aims to automate the 
 
 This section contains articles introducing technologies used in DevOps.
 
-<a href="https://en.wikipedia.org/wiki/DevOps">Read more about DevOps on Wikipedia.</a>
+<a href="https://en.wikipedia.org/wiki/DevOps">Read more about DevOps on Wikipedia...</a>
