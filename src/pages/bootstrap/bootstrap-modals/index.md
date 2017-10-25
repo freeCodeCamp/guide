@@ -58,6 +58,9 @@ To create such dialogs/pop-ups on the top of current page Bootstrap provides Mod
 
 ```
 
+Bootstrap Modal Example: 
+![alt text](https://d13dcw7qo4xgly.cloudfront.net/wp-content/uploads/2015/07/bootstrap-modal.jpg)
+
 #### Understanding the Attributes and classes used :
 
 a) `data-toggle = "modal"`  : It opens up the modal.
