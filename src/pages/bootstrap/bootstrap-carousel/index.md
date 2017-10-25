@@ -91,7 +91,9 @@ width :800 px;
 </body>
 </html>
 ```
-
+Example Image of a Carousel: 
+Carousel: 
+![alt text](https://d13dcw7qo4xgly.cloudfront.net/wp-content/uploads/2015/07/twitter-bootstrap-carousel.png)
 
 Understanding the Attributes and classes used in above example :-
 
