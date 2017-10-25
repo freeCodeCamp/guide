@@ -4,7 +4,7 @@ title: Closures
 
 # Closures
 
-A closure is the combination of a function and the lexical environment within which that function was declared.
+A closure is the combination of a function and the lexical environment within which that function was declared. In other words, closure gives inner function access to its outer function's variables and parameters.
 
 
 
