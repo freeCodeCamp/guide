@@ -1,7 +1,7 @@
 ---
-title: Stenography
+title: Steganography
 ---
-## Stenography
+## Steganography
 
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/security/stenography/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
@@ -12,7 +12,9 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
-Steganography differs from cryptography because it involves passing a message not by encrypting it, but by concealing it.
+Steganography is a method of transmitting a message without it's contents being known. Steganography differs from cryptography because it involves passing a message not by encrypting it, but by concealing it.
+Steganography involves the use of a covert communications channel that piggybacks on a normal communications channel. Steganography seeks to prevent interception of a message by hiding the fact that communication is even occurring.
+
 In the past, messages were hidden, for example, with lemon juice on a sheet of paper or with false letters containing more information than they seemed.
 It was even common to shave the hair, in order to write a message on the skull, and then to let the hair grow back and finally reappear when the recipient was present to read the information.
 Today, computer techniques have further improved these processes.
