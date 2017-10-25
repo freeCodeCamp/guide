@@ -1,15 +1,17 @@
 ---
 title: Np Completeness
 ---
-## Np Completeness
+## NP Completeness
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/computer-science/np-completeness/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+In computer science, NP stands for Non-Deterministic Polymonial time, which simple means there is no known algorithm that could solve that particular problem in polynomial time. The <a href = "https://en.wikipedia.org/wiki/P_versus_NP_problem">P vs NP</a> problem is a major unsolved problem in computer science and one of the seven <a herf = "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics">Millennium Prize Problem</a>. Few famous NP complete problems are <a href = "https://en.wikipedia.org/wiki/Boolean_satisfiability_problem">Boolean Satisfiability Problem</a>, <a href = "https://en.wikipedia.org/wiki/Knapsack_problem">Knapsack Problem</a>, <a href = "https://en.wikipedia.org/wiki/Travelling_salesman_problem">Travelling Salesman Problem</a> and <a href = "https://en.wikipedia.org/wiki/Vertex_cover">Vertex Cover Problem</a>.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+You can watch the video below for a better understanding of NP complete and NP hard problem classes.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/C_L9C_iRnM0" frameborder="0" allowfullscreen></iframe>
+
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+<a href = "https://en.wikipedia.org/wiki/NP-completeness">NP Completeness - Wikipedia</a>
 
+<a href = "https://xlinux.nist.gov/dads/HTML/npcomplete.html">NP Complete - NIST</a>
 
