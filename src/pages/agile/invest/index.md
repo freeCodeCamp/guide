@@ -30,5 +30,5 @@ When you are grooming and sizing the User Stories in the backlog, the INVEST mne
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-[Lots on Google](https://www.google.com/search?q=agile+invest+negotiable&ie=utf-8&oe=utf-8)
+<a href='https://www.google.com/search?q=agile+invest+negotiable&ie=utf-8&oe=utf-8' target='_blank' rel='nofollow'>Lots on Google</a>
 

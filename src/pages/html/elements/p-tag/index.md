@@ -3,13 +3,21 @@ title: P Tag
 ---
 ## P Tag
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/p-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `<p>` tag stands for paragraph, which is the most common tag used to create lines of words inside the `<html>` document. Using `<p>` will be very useful because add the margin automatically between elements. It's possible to work without `p` but is counter-intuitive because -also- will be difficult to with the css file.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### P tag with other tags
+The use of the `<p>` is complatible with other tags, allowing also to add hyperlinks (`<a>`), black (`<strong>`), italics(`<i>`) among others.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+### Example
+```html
+<html>
+<head>
+<title>Paragraph example</title>
+</head>
+<body>
+<p>
+  This <strong>sentence</strong> was created to show how the paragraph works in a <code>.html</code> document and to study code at <a href="http://www.freecodecamp.com">FreeCodeCamp</a>.
+</p>
+</body>
+</html>
+```

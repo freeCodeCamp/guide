@@ -3,11 +3,11 @@ title: Prototypes
 ---
 ## Prototypes
 
-JavaScript is a prototype-based language, so the prototype is one of the most important concepts which new JavaScript learners must know. This article will give you a short overview about this concept through examples. Before read the article, you need to have basic understanding [`this` reference in JavaScript](/javascript/this-in-javascript).
+JavaScript is a prototype-based language, therefore understanding the prototype object is one of the most important concepts which  JavaScript practitioners need to know. This article will give you a short overview of the Prototype object through various  examples. Before reading this article, you will need to have a basic understanding of  [`this` reference in JavaScript](/javascript/this-in-javascript).
 
 ### Prototype object
 
-For the sake of clarity, let's examine following example:
+For the sake of clarity, let's examine the following example:
 
 ```javascript
 function Point2D(x, y) {
@@ -16,7 +16,7 @@ function Point2D(x, y) {
 }
 ```
 
-As `Point2D` function is declared, a property named `prototype` will be created by default for it (note that, in JavaScript, a function is also a object). The `prototype` property is also a object which contains `constructor` property and its value is `Point2D` function: `Point2D.prototype.constructor = Point2D`. And when you call `Point2D` with `new` keyword, *newly created objects will inherit all properties from* `Point2D.prototype`. To check that, you can add a method named `move` into `Point2D.prototype` as follow:
+As `Point2D` function is declared, a property named `prototype` will be created by default for it (note that, in JavaScript, a function is also a object). The `prototype` property is also a object which contains a `constructor` property and its value is `Point2D` function: `Point2D.prototype.constructor = Point2D`. And when you call `Point2D` with `new` keyword, *newly created objects will inherit all properties from* `Point2D.prototype`. To check that, you can add a method named `move` into `Point2D.prototype` as follow:
 
 ```javascript
 Point2D.prototype.move = function(dx, dy) {
@@ -42,7 +42,8 @@ Built-in objects in JavaScript is constructed similar as above. For example:
 
 ### Prototype chain
 
-The prototype chain mechanism is simple: When you access a property `p` on object `obj`, the JavaScript engine will search this property inside `obj` object. If the engine fail to search, it continues searching in prototype of `obj` object and so on until reach `Object.prototype`. As the search finished, if not found, the result will be `undefined`. For example:
+The prototype chain mechanism is simple: When you access a property `p` on object `obj`, the JavaScript engine will search this property inside `obj` object. If the engine fails to search, it continues searching in the  prototype of `obj` object and so on until reaching `Object.prototype`. If after the search has finished, and nothing has been found the result will be `undefined`.
+For example:
 
 ```javascript
 var obj1 = {
@@ -58,4 +59,44 @@ console.log(obj2.b); // 2
 console.log(obj2.c); // undefined
 ```
 
-In above snippet, the statement `var obj2 = Object.create(obj1)` will create `obj2` object with prototype is `obj1` object. In other words, `obj1` becomes prototype of `obj2` instead of `Object.prototype` by default. As you see, though `b` is not a property of `obj2`, you can still access it by prototype chain. For `c` property, however, you get `undefined` value because it can't be found in `obj1` and `Object.prototype` as well.
+In above snippet, the statement `var obj2 = Object.create(obj1)` will create `obj2` object with prototype  `obj1` object. In other words, `obj1` becomes the prototype of `obj2` instead of `Object.prototype` by default. As you can see,  `b` is not a property of `obj2`, you can still access it via the  prototype chain. For `c` property, however, you get `undefined` value because it can't be found in `obj1` and `Object.prototype`.
+
+### Classes
+
+In ES2016, we now get to use the `Class` keyword as well as the methods mentioned above to manipulate `prototype`. The JavaScript `Class` appeals to developers from OOP backgrounds, but it's essentially doing the same thing as above.
+
+```javascript
+class Rectangle {
+  constructor(height, width) {
+    this.height = height
+    this.width = width
+  }
+
+  get area() {
+    return this.calcArea()
+  }
+
+  calcArea() {
+    return this.height * this.width
+  }
+}
+
+const square = new Rectangle(10, 10)
+
+console.log(square.area) // 100
+```
+
+This is basically the same as:
+
+```javascript
+function Rectangle(height, width) {
+  this.height = height
+  this.width = width
+}
+
+Rectangle.prototype.calcArea = function calcArea() {
+  return this.height * this.width
+}
+```
+
+The `getter` and `setter` methods in classes bind an Object property to a function that will be called when that property is looked up. It's just syntactic sugar to help make it easier to _look up_ or _set_ properties.

@@ -12,9 +12,10 @@ This repo is where we plan and maintain these Guide articles, which we then host
 - [How to contribute](#how-to-contribute)
 - [Running the Guide locally on your own computer](#running-the-guide-locally-on-your-own-computer)
 - [Article style guide](#article-style-guide)
+- [License](#license)
 
 ## What are Guide articles?
-Guide articles can be an explanation of a syntax, design pattern, what aria labels are for, or something like what the numbers mean in the top right hand corner of your screen when at freecodecamp.org. You can find an [example article about HTML Elements here](./src/pages/html/elements/index.md).
+Guide articles can be an explanation of syntax, design pattern(s), what aria labels are for, or something like what the numbers mean in the top right-hand corner of your screen when at freecodecamp.org. You can find an [example article about HTML Elements here](./src/pages/html/elements/index.md).
 
 ## What can I write an article about?
 We welcome your help writing these articles. You don't have to be an expert in a topic to write about it - this entire Guide is open source, so even if you make a mistake, another contributor will eventually correct it.
@@ -26,7 +27,7 @@ If you can't find a stub about the topic you'd like to write about, you can open
 Before you begin writing, make sure to read the [article style guide](#article-style-guide) below.
 
 ## How to contribute
-You can create a PR with your draft article (or edits on an existing article) in two ways:
+You can create a PR (Pull Request) with your draft article (or edits on an existing article) in two ways:
 
 1) The easiest method is to use the GitHub interface. Watch the video demonstration or follow the steps below it:
 
@@ -43,7 +44,7 @@ You can create a PR with your draft article (or edits on an existing article) in
 - Copy it to your local machine by running the command `git clone https://github.com/YOUR-GITHUB-USERNAME/guides.git`
 - Add a remote upstream so git knows where the official freeCodeCamp guides repository is located by running the command `git remote add upstream https://github.com/freeCodeCamp/guides.git`
 - Create a new branch for your work with the command `git checkout -b NEW-BRANCH-NAME`. Try to name your branch in a way that describes your article topic, like `fix/ArticleHTMLElements`
-- Write your article, commit your changes locally, and push your new branch to GitHub with the command `git push origin NEW-BRANCH-NAME`
+- Write your article, commit your changes locally with the command `git commit -m "SHORT MESSAGE"`, and push your new branch to GitHub with the command `git push origin NEW-BRANCH-NAME`
 - Go to your repository on GitHub and open a PR
 
 Make sure to maintain your local fork going forward so it stays up-to-date with the freeCodeCamp guides repository. The next time you want to contribute, checkout your local `master` branch and run the command `git pull --rebase upstream master` before creating a new branch. This will grab all the changes on the official `master` branch without making an additional commit in your local repository.
@@ -62,7 +63,7 @@ yarn install
 yarn run dev
 ```
 
-In this project we are using `yarn` because `netlify` builds our site with `yarn`.
+In this project, we are using `yarn` because `netlify` builds our site with `yarn`.
 
 ## Article style guide
 
@@ -83,19 +84,34 @@ We've written the following guide to writing Guide articles to help you get star
 
 Article titles should be as short, concise, and to-the-point as possible. We want campers to quickly find the information they're looking for, and the title should reflect the main theme of the article.
 
-Here are some title examples:
+Folder name is used in the URL, so only use dashes `-`, numbers `0-9`, and lowercase letters `a-z` for it.
 
-- "HTML Lists"
-- "CSS Borders"
-- "JavaScript For Loop"
+Here are some examples:
 
-The folder name is used in the URL, so only use dashes `-`, numbers `0-9`, and lowercase letters `a-z` for it.
 
-Here are some folder name examples:
+- `src/pages/html/tables/index.html` ([link](https://github.com/freeCodeCamp/guides/blob/master/src/pages/html/tables/index.md))
 
-- html-lists
-- css-borders
-- javascript-for-loop
+```markdown
+---
+title: Tables
+---
+```
+
+- `src/pages/css/borders/index.md` ([link](https://github.com/freeCodeCamp/guides/blob/master/src/pages/css/borders/index.md))
+
+```markdown
+---
+title: Borders
+---
+```
+
+- `src/pages/javascript/loops/for-loop/index.md` ([link](https://github.com/freeCodeCamp/guides/blob/master/src/pages/javascript/loops/for-loop/index.md))
+
+```markdown
+---
+title: For Loop
+---
+```
 
 However, you can include special characters in the article title.
 
@@ -137,6 +153,27 @@ Format language keywords as code - this is done with the backtick key (located t
 
 Use the Oxford Comma when possible (it is a comma used after the penultimate item in a list of three or more items, before ‘and’ or ‘or’ e.g. an Italian painter, sculptor, and architect). It makes things easier, clearer, and prettier to read.
 
+### Attribution
+
+To minimize the potential for plagiarism and maintain integrity in these guides, it is important to give credit where necessary. Any material quoted, or used directly and unchanged, from source material should be wrapped in quotation marks and be adequately cited. Material that is not a direct quote but is still paraphrased from a different resource should also be cited. You can create superscript numerals to mark content that is cited using `<sup></sup>` tags. Like so: <sup>1</sup>
+
+Then, at the bottom of your article, place a `### Sources` heading and include all of your citations numbered to correspond with your marks above:
+
+<blockquote>
+Here is some content that should be cited.<sup>1</sup> And here is even more that should be cited from another source.<sup>2</sup>
+
+### Sources
+1. [Doe, John. "Authoring Words." *WikiCoder*. January 1, 1970. Accessed: October 20, 2017](#)
+2. [Purdue OWL Staff. "MLA Works Cited: Electronic Sources." *Purdue Online Writing Lab.* October 12, 2017. Accessed: Ocotber 20, 2017.](https://owl.english.purdue.edu/owl/resource/747/08/)
+</blockquote>
+You can check out the Purdue link above to see how to properly cite web sources (they even show how to cite tweets!). Typically, an attribution has a structure like the following:
+
+>Author Last Name, Author First Name. "Article Title." *Publication.* Publisher. Date Published. Date Accessed.
+
+If you cannot find an author or published date, which is common, simply omit these.
+
+Use of proper citations will not only keep the guides reputable, but these citations and links will also provide valuable resources should the reader want to learn more about the topic. Also note that instances of blatant plagiarism will be either removed or have their pull requests declined, and the user will receive a warning. Please refer to and review the [Academic Honesty Policy](https://www.freecodecamp.org/academic-honesty) before contributing.
+
 ### Formatting example code
 
 Campers will likely use Guide articles as a quick reference to look up syntax. Articles should have simple real-world examples that show common-use cases of that syntax.
@@ -152,33 +189,33 @@ Here are specific formatting guidelines for any code:
 - GitHub-flavored markdown supports [syntax highlighting in code blocks](https://help.github.com/articles/creating-and-highlighting-code-blocks/#syntax-highlighting) for many programming languages. To use it, indicate the language after starting ```
 ```
     ```html
-        <div class='awesome' id='more-awesome'>
-          <p>This is text in html</p>
-        </div>
+    <div class='awesome' id='more-awesome'>
+      <p>This is text in html</p>
+    </div>
     ```
 
     ```javascript
-        function logTheThings(stuff) {
-         console.log(stuff);
-        }
+    function logTheThings(stuff) {
+     console.log(stuff);
+    }
     ```
 
     ```css
-       .awesome {
-          background-color: #FCCFCC;
-        }
+   .awesome {
+      background-color: #FCCFCC;
+    }
     ```
 ```
 
 ### Adding images to articles
 
-For including images, if the images aren't already hosted somewhere else on the web, you'll need to put them online yourself. A good way to do this is to commit them to a GitHub repository of your own, then push them to GitHub. Then you can right click the image and copy its image source.
+For including images, if the images aren't already hosted somewhere else on the web, you'll need to put them online yourself. A good way to do this is to commit them to a GitHub repository of your own, then push them to GitHub. Then you can right-click the image and copy its image source.
 
 Then you'd just need to reference them in your markdown file with this syntax:
 
 `![your alt text](your url)`
 
-Then the images should show up when you click the "preview table" tab.
+Then the images should show up when you click the "preview changes" tab.
 
 ### Proper nouns
 
@@ -186,8 +223,10 @@ Proper nouns should use correct capitalization when possible. Below is a list of
 
 - JavaScript (capital letters in "J" and "S" and no abbreviations)
 - Node.js
+- jQuery
+- SQL
 
-Front-end development (adjective form with a dash) is when you working on the front end (noun form with no dash). The same goes with the back end, full stack, and many other compound terms.
+Front-end development (adjective form with a dash) is when you're working on the front end (noun form with no dash). The same goes with the back end, full stack, and many other compound terms.
 
 ### Where to get help
 
@@ -199,8 +238,16 @@ Use the [Hemingway App](http://www.hemingwayapp.com/). There’s nothing magical
 - unnecessary adverbs
 - words that have more common equivalents
 
-The Hemingway App will assign a “grade level” for your writing. You should aim for a grade level of 6. Another tool available is the [De-Jargonizer](http://scienceandpublic.com/), originally designed for scientific communication but may be helpful in using less specialized words too soon.
+The Hemingway App will assign a “grade level” for your writing. You should aim for a grade level of 6. Another tool available is the [De-Jargonizer](http://scienceandpublic.com/), originally designed for scientific communication but might help avoid overspecialized wording.
 
-Also, there's a community of support from a whole team of contributors, whom you can bounce ideas off of and ask for input on your writing. Stay active in the [contributors chat room](https://gitter.im/freecodecamp/contributors) and ask lots of questions.
+Also, there's a community of support from a whole team of contributors, whom you can bounce ideas off of and ask for input on your writing. Stay active in the [contributor's chat room](https://gitter.im/freecodecamp/contributors) and ask lots of questions.
 
 With your help, we can create a comprehensive reference tool that will help millions of people who are learning to code for years to come.
+
+## License
+
+Copyright (c) 2017 freeCodeCamp.
+
+The content of this repository is bound by the following licenses:
+- The computer software is licensed under the [BSD-3-Clause](./LICENSE.md).
+- The reference content as in ./src/pages and subdirectories is licensed under the [CC-BY-SA-4.0](./LICENSE-freeCodeCamp-Guide-Articles.md).

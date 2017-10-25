@@ -8,9 +8,9 @@ You understand the needs, motivations and  desired outcomes of the customer as t
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-Scrum Alliance on the [Product Owner](https://www.scrumalliance.org/community/articles/2014/july/who-is-your-product-owner)
+Scrum Alliance on the <a href='https://www.scrumalliance.org/community/articles/2014/july/who-is-your-product-owner' target='_blank' rel='nofollow'>Product Owner</a>
 
-Agile Alliance on the [Product Owner](https://www.agilealliance.org/glossary/product-owner/)
+Agile Alliance on the <a href='https://www.agilealliance.org/glossary/product-owner/' target='_blank' rel='nofollow'>Product Owner</a>
 
 
 

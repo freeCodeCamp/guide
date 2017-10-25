@@ -11,6 +11,6 @@ One of the benefits of working iteratively is to frequently showcase your increm
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-- The Agile Alliance on [Technical Debt](https://www.agilealliance.org/introduction-to-the-technical-debt-concept/)
-- Scrum Alliance on [Managing Technical Debt](https://www.scrumalliance.org/community/articles/2013/july/managing-technical-debt)
+- The Agile Alliance on <a href='https://www.agilealliance.org/introduction-to-the-technical-debt-concept/' target='_blank' rel='nofollow'>Technical Debt</a>
+- Scrum Alliance on <a href='https://www.scrumalliance.org/community/articles/2013/july/managing-technical-debt' target='_blank' rel='nofollow'>Managing Technical Debt</a>
 

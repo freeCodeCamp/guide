@@ -9,4 +9,6 @@ When you're working in some code, it's helpful to leave tips to others developer
 
 ### Example
 
+```html
 <!-- This is a comment -->
+```
