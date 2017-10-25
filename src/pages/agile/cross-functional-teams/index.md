@@ -3,11 +3,11 @@ title: Cross Functional Teams
 ---
 ## Cross Functional Teams
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/cross-functional-teams/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Cross-functional teams are teams that are made up of members who have the ability to implement a feature from the lowest relevant layer (e.g. the database) to the highest relevant layer (e.g. web page). These teams will not rely upon another team in order to complete their work, and thereby will not have any dependencies impeding their progress.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The idea behind a cross-functional team is that the team becomes intimately familiar with what it takes to make a particular piece of functionality work, and any hand-offs are either eliminated or minimized because any existing dependencies are between the members and not between teams.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+The opposite of a cross-functional team is called a "component team"; a team who is only responsible for one level of the software stack.
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
