@@ -64,3 +64,4 @@ To fix the 3rd problem, concept called NameNode standby. There are 2 namenodes u
 #### More Information:
 1. [Udacity course on hadoop](https://www.udacity.com/course/intro-to-hadoop-and-mapreduce--ud617)
 1. [Apache Hadoop](http://hadoop.apache.org/)
+1. [Big Data Hadoop Tutorial Videos by edureka!](https://www.youtube.com/playlist?list=PL9ooVrP1hQOFrYxqxb0NJCdCABPZNo0pD)
