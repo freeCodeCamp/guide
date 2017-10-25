@@ -19,8 +19,8 @@ Tips:
 
 #### More Information:
 
-Documentation: [MDN](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval) 
+Documentation: <a href='https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval' target='_blank' rel='nofollow'>MDN</a> 
 
-JavaScript setInterval() Function Examples: [Sitepoint](https://www.sitepoint.com/setinterval-example/)
+JavaScript setInterval() Function Examples: <a href='https://www.sitepoint.com/setinterval-example/' target='_blank' rel='nofollow'>Sitepoint</a>
 
-and some more examples: [w3schools](https://www.w3schools.com/jsref/met_win_setinterval.asp)
+and some more examples: <a href='https://www.w3schools.com/jsref/met_win_setinterval.asp' target='_blank' rel='nofollow'>w3schools</a>

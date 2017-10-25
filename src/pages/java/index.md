@@ -110,3 +110,12 @@ Congrats! Your first Java program has run successfully. Here we are just printin
 ## Documentation
 
 Java is heavily <a href='https://docs.oracle.com/javase/8/docs/' target='_blank' rel='nofollow'>documented</a>, as it supports huge amounts of API's. If you are using any major IDE such as Eclipse or IntelliJ IDEA, you would find the Java Documentation included within.
+
+Also, here is a list a free IDE for Java coding:
+* [NetBeans](https://netbeans.org/)
+* [Eclipse](https://eclipse.org/)
+* [IntelliJ IDEA](https://www.jetbrains.com/idea/features/)
+* [Android Studio](https://developer.android.com/studio/index.html)
+* [BlueJ](https://www.bluej.org/)
+* [jEdit](http://www.jedit.org/)
+* [Oracle JDeveloper](http://www.oracle.com/technetwork/developer-tools/jdev/overview/index-094652.html)

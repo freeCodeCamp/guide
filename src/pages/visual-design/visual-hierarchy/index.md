@@ -3,12 +3,24 @@ title: Visual Hierarchy
 ---
 ## Visual Hierarchy
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/visual-design/visual-hierarchy/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Visual hierarchy is the organization and presentation of content. You can use visual hierarchy to focus users' attention and show where the most important information is.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+You can achieve visual hierarchy in many ways, including (but not limited to):
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+* Size
+* Color and contrast
+* Headings and subheadings
+* Fonts
+* White or blank space
+* Texture
+* Position
+* Orientation
+* Overall layout
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-- <a href='https://www.interaction-design.org/literature/article/visual-hierarchy-organizing-content-to-follow-natural-eye-movement-patterns' target='_blank' rel='nofollow'>www.interaction-design.org: Visual Hierarchy: Organizing content to follow natural eye movement patterns</a>
+
+Tools to Create a Visual Hierarchy: [Design School blog](https://designschool.canva.com/blog/visual-hierarchy/)
+
+6 Principles of Visual Hierarchy: [99 designs blog](https://99designs.com/blog/tips/6-principles-of-visual-hierarchy/)
+
+Case Study - Improving a Page with Visual Hierarchy: [blog](http://blog.formedfunction.com/post/3029763425/on-visual-hierarchy)

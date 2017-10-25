@@ -20,11 +20,11 @@ Each new feature of your system should follow the steps above.
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-Agile Data's [Introduction to TDD](http://agiledata.org/essays/tdd.html)
+Agile Data's <a href='http://agiledata.org/essays/tdd.html' target='_blank' rel='nofollow'>Introduction to TDD</a>
 
-Wiki on [TDD](https://en.wikipedia.org/wiki/Test-driven_development)
+Wiki on <a href='https://en.wikipedia.org/wiki/Test-driven_development' target='_blank' rel='nofollow'>TDD</a>
 
-Martin Fowler [Is TDD Dead?](https://martinfowler.com/articles/is-tdd-dead/)
+Martin Fowler <a href='https://martinfowler.com/articles/is-tdd-dead/' target='_blank' rel='nofollow'>Is TDD Dead?</a>
  (A series of recorded conversations on the subject)
  
- Kent Beck's book [Test Driven Development by Example](https://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530)
+ Kent Beck's book <a href='https://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530' target='_blank' rel='nofollow'>Test Driven Development by Example</a>

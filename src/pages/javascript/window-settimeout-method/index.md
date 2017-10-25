@@ -24,6 +24,6 @@ For example:
 
 #### More Information:
 
-Documentation: [MDN](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout)
+Documentation: <a href='https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout' target='_blank' rel='nofollow'>MDN</a>
 
-More examples of setTimeout function: [w3schools](https://www.w3schools.com/jsref/met_win_settimeout.asp)
+More examples of setTimeout function: <a href='https://www.w3schools.com/jsref/met_win_settimeout.asp' target='_blank' rel='nofollow'>w3schools</a>

@@ -19,5 +19,5 @@ With CSS3, you can give any element "rounded corners", by using the `border-radi
 
 ### More Information:
 
-- MDN Documentation: [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius)
-- Browser Support: [caniuse](http://caniuse.com/#search=border-radius)
+- MDN Documentation: <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius' target='_blank' rel='nofollow'>MDN</a>
+- Browser Support: <a href='http://caniuse.com/#search=border-radius' target='_blank' rel='nofollow'>caniuse</a>

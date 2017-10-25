@@ -32,5 +32,5 @@ Some of the **inline elements** are `<a>`,`<span>`,`<img>`,`<code>`,`<cite>`,`<b
 ***Note*** : Block-level elements can only contain inline elements, not the other way round.
 
 #### More Information:
-Please refer [Mozilla Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements#Block-level_vs._inline)
+Please refer <a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements#Block-level_vs._inline' target='_blank' rel='nofollow'>Mozilla Docs</a>
 

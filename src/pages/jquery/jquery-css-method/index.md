@@ -16,7 +16,7 @@ For eg:
 ```js
     $('#element').css('background');
 ```
-
+Note: Here we can use any css selector eg: element(HTML Tag selector), .element(Class Selector), #element(ID selector).
 ### Setting 
 
 To set a specified CSS property, use the following syntax:
@@ -42,4 +42,4 @@ To set multiple CSS properties, you'll have to use the object literal syntax lik
 
 #### More Information:
 
-Documentation: [api.jquery](http://api.jquery.com/css/)
+Documentation: <a href='http://api.jquery.com/css/' target='_blank' rel='nofollow'>api.jquery</a>

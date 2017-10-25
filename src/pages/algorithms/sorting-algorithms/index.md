@@ -30,7 +30,7 @@ Sorting algorithms can be categorized based on the following parameters:
 This is the number of times the algorithm swaps elements to sort the input. `Selection Sort` requires the minimum number of swaps.
 
 2. Based on Number of Comparisons
-This is the number of times the algorithm compares elements to sort the input. Using [Big-O notation](https://guide.freecodecamp.org/computer-science/notation/big-o-notation/), the sorting algorithm examples listed above require at least `O(nlogn)` comparisons in the best case and `O(n^2)` comparisons in the worst case for most of the outputs.
+This is the number of times the algorithm compares elements to sort the input. Using <a href='https://guide.freecodecamp.org/computer-science/notation/big-o-notation/' target='_blank' rel='nofollow'>Big-O notation</a>, the sorting algorithm examples listed above require at least `O(nlogn)` comparisons in the best case and `O(n^2)` comparisons in the worst case for most of the outputs.
 
 3. Based on Recursion or Non-Recursion
 Some sorting algorithms, such as `Quick Sort`, use recursive techniques to sort the input. Other sorting algorithms, such as `Selection Sort` or `Insertion Sort`, use non-recursive techniques. Finally, some sorting algorithm, such as `Merge Sort`, make use of both recursive as well as non-recursive techniques to sort the input.
