@@ -1,8 +1,8 @@
 ---
-title: Illustrator in visual design
+title: Illustrator
 ---
 
-<h2>Simple Guides using illustrator</h2>
+<h2>illustrator</h2>
 <p>Illustrator is an Adobe Software that is specialise in creating vector graphics. Vector graphics includes logos, flat icons, 2D illustration and so on. Besides vector graphics, it can do more than that it just depends on the user's imagination.<p>
 
 <h3>Links that can help you start with illustrator</h3>
