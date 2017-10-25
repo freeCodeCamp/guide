@@ -15,7 +15,14 @@ Most modern CPUs use a 64-bit architecture, which means they store information a
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
-#### More Information:
-<a href='https://en.wikipedia.org/wiki/Central_processing_unit' target='_blank' rel='nofollow'>Wikipedia</a>
+<b>Function</b>
 
+A microprocessor is a silicon chip containing millions of microscopic transistors. This chip functions as the computer's brain. It processes the instructions or operations contained within executable computer programs. Instead of taking instructions directly off of the hard drive, the processor takes its instructions from memory. This greatly increases the computer's speed.
+
+
+<b> Manufacturers of computer microprocessors </b>
+  
+There are two primary manufacturers of computer microprocessors. Intel and Advanced Micro Devices (AMD) lead the market in terms of speed and quality. Intel's desktop CPUs include Celeron, Pentium and Core. AMD's desktop processors include Sempron, Athlon and Phenom. Intel makes Celeron M, Pentium M and Core mobile processors for notebooks. AMD makes mobile versions of its Sempron and Athlon, as well as the Turion mobile processor which comes in Ultra and Dual-Core versions. Both companies make both single-core and multi-core processors.
+#### More Information:
+<a href='https://en.wikipedia.org/wiki/Central_processing_unit' target='_blank' rel='nofollow'>Wikipedia</a>M
 
