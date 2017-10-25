@@ -42,5 +42,5 @@ to find and install through the Extension Manager.
 Atom is an <a href='https://github.com/atom/atom' target='_blank' rel='nofollow'>open source</a> editor, developed  
 by <a href='https://github.com/' target='_blank' rel='nofollow'>GitHub</a>. Like Sublime Text, Atom is quite popular.  
 It is very configurable ("hackable", as they say) but advanced features may  
-be overwhelming to new users. There is also plenty of <a href='http://readwrite.com/2014/05/20/github-atom-5-tips-getting-started-tutorial-corey-johnson/' target='_blank' rel='nofollow'>helpful</a> <a href='http://flight-manual.atom.io/' target='_blank' rel='nofollow'>documentation</a>  
-<a href='http://stackoverflow.com/search?q=atom' target='_blank' rel='nofollow'>availble</a> online.
+be overwhelming to new users. There is also plenty of <a href='http://readwrite.com/2014/05/20/github-atom-5-tips-getting-started-tutorial-corey-johnson/' target='_blank' rel='nofollow'>helpful</a> <a href='http://flight-manual.atom.io/' target='_blank' rel='nofollow'>documentation</a> and cool <a href='https://www.shopify.com/partners/blog/best-atom-packages-2017'>packages</a>
+<a href='http://stackoverflow.com/search?q=atom' target='_blank' rel='nofollow'>available</a> online.
