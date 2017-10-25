@@ -8,11 +8,11 @@ An Array is used to store a collection of data of similar datatype. Arrays alway
 **Syntax:**
 
 ```java
-dataType[] arrayName;   // preferred way.
+ObjectType[] arrayName;   // preferred way.
 ```
 or
 ```java
-dataType arrayName[];  //  works but not preferred way
+ObjectType arrayName[];  //  works but not preferred way
 ```
 
 ## Code snippets of above syntax:
@@ -30,19 +30,19 @@ Note: The style `double list[]` is not preferred as it comes from the C/C++ lang
 ## Creating Arrays:
 
 ```java
-dataType[] arrayName = new dataType[arraySize];
+ObjectType[] arrayName = new ObjectType[arraySize];
 ```
 
 ## Code snippets of the above syntax:
 
 ```java
-double[] List = new double[10];
+double[] list = new double[10];
 ```
 
 ## Another way to create an Array:
 
 ```java
-dataType[] arrayName = {value0, value1, ..., valuek};
+ObjectType[] arrayName = {value0, value1, ..., valuek};
 ```
 
 ## Code snippets of above syntax:
