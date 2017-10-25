@@ -1,13 +1,40 @@
 ---
 title: Lambda Expressions
 ---
-## Lambda Expressions
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/python/lambda-expressions/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Python supports the creation of anonymous functions called lambda expressions.
+In short lambda is a python function without a name.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+## Syntax
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+`lambda var_1,var_2,...,var_n: return expression(var_1,var_2,...,var_n)`
 
-#### More Information:
-https://docs.python.org/3/reference/expressions.html#lambda
+## Arguments
+
+It takes any number of arguments.
+
+## Return Value
+
+An expression consisting of given arguments is evaluated and returned. 
+
+## Code Sample
+    >>> def f (x): return x*x
+    ... 
+    >>> print f(10)
+    100
+    >>> 
+    >>> g = lambda x,y: x*y
+    >>> 
+    >>> print g(10,10)
+    100
+In above example, f is a function where as `lambda x,y: x*y` is a lambda expression which is assigned to g.
+
+    >>> num=range(2,10)
+    >>> print filter(lambda x:x%2==0,num)
+    [2, 4, 6, 8]
+    >>> print map(lambda x:x*3+10,num)
+    [16, 19, 22, 25, 28, 31, 34, 37]
+In the above examples the lambda expression is used instead of a function.
+
+<a href='https://docs.python.org/3/reference/expressions.html#lambda' target='_blank' rel='nofollow'>Official Docs</a>
+
