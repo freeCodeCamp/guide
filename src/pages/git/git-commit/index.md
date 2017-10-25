@@ -43,3 +43,15 @@ The output in your terminal should look something like this:
 [master 22gc8v1] My new message
  1 file changed, 1 insertion(+)
 ```
+
+#### The understanding message saying 
+**"On branch master
+Your branch is up-to-date with 'origin/master'.**
+
+Changes not staged for commit"
+Let's say that you made changed in your repository and forgot to add the changes to the staging area , You try to create a commit, you would get this messge with list of files that are changed from the last commit you made.
+
+#### Discarding some changes before creating a commit
+
+You might find a reason to discard some changes before a commit, you can do it by :
+``` git checkout -- <file>..." to discard changes in working directory ```
