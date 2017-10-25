@@ -54,3 +54,16 @@ This is a set of examples that shows each type of panel. The CSS Class is displa
 <div class="panel panel-heading">Panel Danger</div>
 <div class="panel panel-body"> This is a panel with the danger panel style.</div>
 </div>
+
+#### Panel with heading
+Easily add a heading container to your panel with .panel-heading. You may also include any <h1>-<h6> with a .panel-title class to add a pre-styled heading. However, the font sizes of <h1>-<h6> are overridden by .panel-heading.
+
+For proper link coloring, be sure to place links in headings within .panel-title.
+
+<div class="panel panel-default">
+<div class="panel-heading">Panel heading without title</div>
+<div class="panel-body">
+    Panel content
+</div>
+</div>
+
