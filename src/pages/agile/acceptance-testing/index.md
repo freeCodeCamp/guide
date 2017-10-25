@@ -3,10 +3,83 @@ title: Acceptance Testing
 ---
 ## Acceptance Testing
 
-Acceptance Testing focuses  on checking if the developed software meets all the requirements. Its main purpose is to check if the solution developed meets the user expectations.
+Acceptance testing, a testing technique performed to determine whether or not the software system has met the requirement specifications. The main purpose of this test is to evaluate the system's compliance with the business requirements and verify if it is has met the required criteria for delivery to end users.
 
-It is usually performed by the users or the Subject Matter Experts. it is also called as User Acceptance Testing (UAT). UAT involves most common real life scenarios. Unlike system testing, it does not focus on the errors or crashes, but on the functionality. UAT is done at the end of the testing life-cycle and will decide if the software is moved to the next environment or not.
+There are various forms of acceptance testing:
 
-#### More Information:
- <!-- Please add any articles you think might be helpful to read before writing the article -->
-- International Software Testing Qualifications Board (http://www.istqb.org/)
+->User acceptance Testing
+
+->Business acceptance Testing
+
+->Alpha Testing
+
+->Beta Testing
+
+#Acceptance Criteria
+Acceptance criteria are defined on the basis of the following attributes
+
+->Functional Correctness and Completeness
+
+->Data Integrity
+
+->Data Conversion
+
+->Usability
+
+->Performance
+
+->Timeliness
+
+->Confidentiality and Availability
+
+->Installability and Upgradability
+
+->Scalability
+
+->Documentation
+
+#Acceptance Test Plan - Attributes
+The acceptance test activities are carried out in phases. Firstly, the basic tests are executed, and if the test results are satisfactory then the execution of more complex scenarios are carried out.
+
+The Acceptance test plan has the following attributes:
+
+->Introduction
+
+->Acceptance Test Category
+
+->operation Environment
+
+->Test case ID
+
+->Test Title
+
+->Test Objective
+
+->Test Procedure
+
+->Test Schedule
+
+->Resources
+
+=>The acceptance test activities are designed to reach at one of the conclusions:
+
+Accept the system as delivered
+
+Accept the system after the requested modifications have been made
+
+Do not accept the system
+
+#Acceptance Test Report - Attributes
+The Acceptance test Report has the following attributes:
+
+->Report Identifier
+
+->Summary of Results
+
+->Variations
+
+->Recommendations
+
+->Summary of To-DO List
+
+->Approval Decision
