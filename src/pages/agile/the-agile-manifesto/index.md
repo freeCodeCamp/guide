@@ -3,17 +3,21 @@ title: The Manifesto
 ---
 ## The Manifesto
 
-Manifesto for agile software development: 
-  - Individuals and interactions over process and tools.
-  - Working software over comprehensive documentation.
-  - Customer collaboration over contract negotiation.
-  - Responding change over following a plan.
+### Manifesto for agile software development
+We are uncovering better ways of developing software by doing it and helping others do it. Through this work we have come to value:
+
+  - **Individuals and interactions** over process and tools.
+  - **Working software** over comprehensive documentation.
+  - **Customer collaboration** over contract negotiation.
+  - **Responding to change** over following a plan.
+  
+That is, while there is value in the items on the right, we value the items on the left more.
 
 ## Twelve Principles of Agile Software
 
  1. Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.
  
- 2. Welcome changing requirements, even late in development. Agile processes harness change for the customer's competitive    advantage.
+ 2. Welcome changing requirements, even late in development. Agile processes harness change for the customer's competitive advantage.
  
  3. Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter timescale.
  
@@ -35,8 +39,6 @@ Manifesto for agile software development:
  
  12. At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly.
 
-
-"We are uncovering better ways of developing software by doing it and helping others do it. Through this work, we have come to value."
 
 #### More Information:
 
