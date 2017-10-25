@@ -11,9 +11,11 @@ Most of the time, however, the mousedown method is used with a function attached
 Here's the syntax:
 ```$(selector).mousedown(function);```
 For example:
-```$(#example).mousedown(function(){
+```
+$(#example).mousedown(function(){
    alert("Mouse was clicked");
-});```
+});
+```
 
 ### More Information
 More information can be found [here].
