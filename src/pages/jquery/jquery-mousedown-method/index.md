@@ -16,7 +16,7 @@ $(#example).mousedown(function(){
    alert("Example was clicked");
 });
 ```
-That code will make the alert "Example was clicked" when #example is clicked.
+That code will make the page alert "Example was clicked" when #example is clicked.
 
 ### More Information
 More information can be found [here].
