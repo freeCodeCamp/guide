@@ -22,6 +22,8 @@ Unity also offers services to developers, these are: Unity Ads, Unity Analytics,
 
 Unity is notable for its ability to target games for multiple platforms. The currently supported platforms are Android, Android TV, Facebook Gameroom, Fire OS, Gear VR, Google Cardboard, Google Daydream, HTC Vive, iOS, Linux, macOS, Microsoft HoloLens, Nintendo 3DS family, Nintendo Switch, Oculus Rift, PlayStation 4, PlayStation Vita, PlayStation VR, Samsung Smart TV, Tizen, tvOS, WebGL, Wii U, Windows, Windows Phone, Windows Store, and Xbox One.
 
+Unity provides three different plans. Unity Personal is free, meant for beginners who want to explore the platform. This version is not built for publishing monetized games. Unity Plus is priced at $35 per month, designed for developers planning to start publish their projects. Plus allows a customizable splash screen and enhanced engine features. Developers are eligible for Unity Plus until annual revenue exceeds $200,000. Unity Pro, at $125 per month, gives developers an unlimited ceiling for revenue. Unity Pro includes all features and customization. Professional game developers and larger organizations are directed towards this plan.
+
 Unity formerly supported 7 other platforms including its own Unity Web Player.
 Unity Web Player was a browser plugin that was supported in Windows and OS X only,[16] which has been deprecated in favor of WebGL.
 
