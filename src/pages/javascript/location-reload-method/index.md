@@ -1,15 +1,24 @@
 ---
 title: Location Reload Method
 ---
+
 ## Location Reload Method
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/location-reload-method/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `location.reload()` method is used to reload the current document.  
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+## Syntax
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+    location.reload(forcedReload);  
 
+## Parameters
+
+**forcedReload** `boolean` 
+
+Optional. When it is `true`, causes the page to always be reloaded from the server. If it is `false` or not specified, the browser may reload the page from its cache.
+
+Besides caching behaviour the `forcedReload` flag also impacts how some browsers handle the scroll position: ordinary reload tries to restore the scroll position after reloading the page, while in forced mode (when parameter is set to `true`) the new DOM gets loaded with `scrollTop == 0`.
+    
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+[W3C](https://www.w3schools.com/jsref/met_loc_reload.asp) - [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Location/reload)
 
 
