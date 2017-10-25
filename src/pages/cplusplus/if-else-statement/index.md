@@ -5,7 +5,7 @@ title: C++ If-Else Statement
 ##What does an If-Else Statement do?
 
 * The If-Else statement is an extension of the simple If statement.
-* In the simple If statement, if the value of the test expression is false, then we skip the code of block and continue with our next statement.
+* In the simple If statement, if the value of the test expression, ie. the condition , is false, then we skip the code of block and continue with our next statement.
 * But many of the times we want to execute certain steps if the value of test expression is false.
 * In such cases, we use the if-else statement.
 
