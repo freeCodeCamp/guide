@@ -39,7 +39,7 @@ The complexity therefore of the linear search is: O(n).
 
 The code for a linear search function in JavaScript is shown below. This function returns the position of the item we are looking for in the array. If the item is not present in the array, the function would return null.
 
-###Example in Javascript
+### Example in Javascript
 ```javascript
 function linearSearch(arr, item) {
   // Go through all the elements of arr to look for item.
@@ -54,7 +54,7 @@ function linearSearch(arr, item) {
 }
 ```
 
-###Example in Ruby
+### Example in Ruby
 ```ruby
 def linear_search(target, array)
   counter = 0
