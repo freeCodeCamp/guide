@@ -3,13 +3,26 @@ title: HTML Entities
 ---
 ## HTML Entities
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/html-entities/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+HTML Entities are codes that allow you to enter special characters that are either reserved or cannot be found on your keyboard. These characters include the copyright symbol, the non-breaking space, and many others.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Using an HTML Entity
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+There are two ways that you can use an HTML entity. By inserting the entity name, or  the entity number. For example, to use the "copyright", enter it as such:
+
+```
+<html>
+   <body>
+    <footer>
+    <!-- character name followed by character number -->
+      &copy; &#169;
+    </footer>
+   </body>
+</html>
+```
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
+You can find more information on HTML Entities <a href="https://www.w3schools.com/html/html_entities.asp">here.</a>
+<br>
+For a full list of HTML Entites please visit <a href="https://dev.w3.org/html5/html-author/charref">this page.</a>
 
