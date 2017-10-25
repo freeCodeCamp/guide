@@ -3,13 +3,19 @@ title: Customer Interviews
 ---
 ## Customer Interviews
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/user-experience-research/customer-interviews/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Building personas sometimes involve research. This research can be in the form of customer interviews. This is a one-on-one interaction with existing or potential users. It is used to gain qualitative information about users of your product. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+It is usually conducted by two persons: one does the questioning while the other person takes notes. Questions are usually centered around:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+* Background.
+* Demographics.
+* Identifiers.
+* Goals.
+* Challenges. 
+* Possible solutions.
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
+
+### Source
+"User Interviews – The Beginner’s Guide." theUXreview, 25 Oct. 2017, http://theuxreview.co.uk/user-interviews-the-beginners-guide/.
 
