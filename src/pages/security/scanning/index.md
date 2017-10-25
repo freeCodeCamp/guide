@@ -1,6 +1,9 @@
 ---
 title: Scanning
 ---
+
+Scanning is the process of methodically checking infrastructure, or a network for open ports, SSL/SSH ciphers, and various other potential vulnerabilities. The most popular tool for this is NMap.
+
 ## Scanning
 
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/security/scanning/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
