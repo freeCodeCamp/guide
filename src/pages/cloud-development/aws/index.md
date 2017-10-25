@@ -10,8 +10,9 @@ Some services include
 * S3 (Simple Storage Service)
 * SQS (Simple Queue Service)
 * DynamoDB (Amazon Dynamo Data Base)
-* Cloudwatch (Metrics and Alarms)
-* Codedeploy (Deployments)  
+* CloudWatch (Metrics and Alarms)
+* CodeDeploy (Deployments)  
+* Lambda (Serverless)
 etc..
 
 
