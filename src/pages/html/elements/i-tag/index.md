@@ -12,4 +12,11 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
+The B tag is used to make the text placed between the tags as italic.
+Here is an example on how to use them.
 
+`<i>I am being displayed in italic</i>`
+
+##### Note:
+The text inside a B tag does not convey any meaning it is just to present or display the text in italic.
+To indicate emphasis or stress use <em> tag instead of <i> tag.
