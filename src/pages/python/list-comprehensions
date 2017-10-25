@@ -1,0 +1,11 @@
+In Python, a list comprehension is a brief but comprehensive way to create a list of items from an iterator. 
+
+The syntax is a bracket, with an expression followed by a 'for statement' over an iterator.
+
+>>> num_list = [1, 2, 3, 4, 5]
+>>> list_comp1 = [x**2 for x in num_list]
+>>> list_comp1
+[1, 4, 9, 16, 25]
+
+Besides being more compact than a regular for loop, where you would push the value of an expression into a list, it is also
+faster than a normal for loop.
