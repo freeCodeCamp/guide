@@ -79,6 +79,8 @@ var numbers = [1,2,3,4,5,6,7];
 print(binarySearch(numbers, 5, 0, numbers.length-1));
 ```
 
+Note: To prevent overflow due to addition people now prefer using mid=low+(high-low)/2.
+
 ### More Information
 <a href="https://youtu.be/P3YID7liBug">Binary search (YouTube video)</a>
 
