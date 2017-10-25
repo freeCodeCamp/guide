@@ -1,4 +1,4 @@
-![](https://s3.amazonaws.com/freecodecamp/wide-social-banner.png)
+![](https://s3.amazonaws.com/freecodecamp/wide-social-banner.png "wide-social-banner.png")
 
 # freeCodeCamp Guide
 The freeCodeCamp community is building a massive, searchable "Guide." This reference tool will eventually include thousands of articles that cover all areas of development, design, and data science - all written to be easily understood by people new to coding.
