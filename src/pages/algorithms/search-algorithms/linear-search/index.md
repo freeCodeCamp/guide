@@ -70,7 +70,7 @@ def linear_search(target, array)
 end
 ```
 
-#### Global Linear Search
+## Global Linear Search
 
 What if you are searching the multiple occurrences of an element? For example you want to see how many 5’s are in an array.
 
