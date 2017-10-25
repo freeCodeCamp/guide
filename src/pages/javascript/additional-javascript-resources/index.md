@@ -45,6 +45,8 @@ Find javascript libraries at <a href='http://jster.net' target='_blank' rel='nof
 *   <a href='https://codility.com/programmers/lessons/' target='_blank' rel='nofollow'>Codility</a>
 *   <a href='http://coderbyte.com' target='_blank' rel='nofollow'>Coderbyte</a>
 *   <a href='http://exercism.io' target='_blank' rel='nofollow'>Exercism</a>
+*   <a href='https://www.javascript.com/' target='_blank' rel='nofollow'>Javascript</a>
+
 
 ## Editors
 
@@ -59,6 +61,8 @@ Find javascript libraries at <a href='http://jster.net' target='_blank' rel='nof
 
 *   <a href='http://perfectionkills.com' target='_blank' rel='nofollow'>Perfection Kills</a>
 *   <a href='http://www.2ality.com/' target='_blank' rel='nofollow'>2ality</a>
+*   <a href=https://davidwalsh.name/' target='_blank' rel='nofollow'>David Walsh</a>
+
 
 ## Books
 
