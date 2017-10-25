@@ -3,7 +3,9 @@ title: React
 ---
 ## React
 
-React is a JavaScript library for building user interfaces.
+React is a JavaScript library for building user interfaces. 
+
+React was created by Jordan Walke, a software engineer at Facebook. It was shown on Facebook's newsfeed in 2011, and eventually, it was open-sourced in 2013.
 
 It's declarative: React uses a declarative paradigm that makes it easier to reason about your application. It's efficient: React computes the minimal set of changes necessary to keep your DOM up-to-date. And it's flexible: React works with the libraries and frameworks that you already know.
 
