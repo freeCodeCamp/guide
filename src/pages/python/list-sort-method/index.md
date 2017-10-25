@@ -102,6 +102,6 @@ By default, sort() doesn't require any extra parameters. However, it has two opt
  * key - function that serves as a key for the sort comparison
 
 #### More Information:
-More information about ```sort()``` can be found [here](https://docs.python.org/3/library/functions.html#sorted)
+More information about ```sort()``` can be found <a href='https://docs.python.org/3/library/functions.html#sorted' target='_blank' rel='nofollow'>here</a>
 
 More information about sort() and sorted() can be found <a href='https://docs.python.org/3.6/tutorial/datastructures.html' target='_blank' rel='nofollow'>here</a>
