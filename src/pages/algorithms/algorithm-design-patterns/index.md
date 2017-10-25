@@ -3,6 +3,15 @@ title: Algorithm Design Patterns
 ---
 ## Algorithm Design Patterns
 
+<H1>Major Algorithm Design Paradigms are as follows:</h1>
+<OL>
+  <LI>Divide and Conquer
+   <li>Greedy
+     <li>Dynamic Programming
+       <li>Backtracking
+    </ol>
+
+
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/algorithms/algorithm-design-patterns/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
 <a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
