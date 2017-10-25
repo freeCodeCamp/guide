@@ -60,6 +60,10 @@ Find javascript libraries at <a href='http://jster.net' target='_blank' rel='nof
 *   <a href='http://perfectionkills.com' target='_blank' rel='nofollow'>Perfection Kills</a>
 *   <a href='http://www.2ality.com/' target='_blank' rel='nofollow'>2ality</a>
 
+## Podcasts
+*   <a href='https://devchat.tv/js-jabber' target='_blank' rel='nofollow'>JS Jabber</a>
+
+
 ## Books
 
 *   <a href='https://www.manning.com/books/secrets-of-the-javascript-ninja' target='_blank' rel='nofollow'>Secrets of the JavaScript Ninja</a>
