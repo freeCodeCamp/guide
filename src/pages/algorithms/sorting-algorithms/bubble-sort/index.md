@@ -57,4 +57,17 @@ while(!sorted) {
 }
 ```
 
+#### Visualization:
+* Space Complexity : O(1)
+* Time Complexity : O(n) for the Best Case and O(n^2) for Average and the Worst.
+* Sorting In Place : Yes
+* Stable: Yes
 
+
+### Visualization:
+* <a href='https://www.hackerearth.com/practice/algorithms/sorting/bubble-sort/visualize/'>HackerEarth</a>
+
+
+### More Readings:
+* <a href='https://en.wikipedia.org/wiki/Bubble_sort' target='_blank' rel='nofollow'>Wikipedia</a>
+* <a href='www.geeksforgeeks.org/bubble-sort' target='_blank' rel='nofollow'>GeeksForGeeks</a>
