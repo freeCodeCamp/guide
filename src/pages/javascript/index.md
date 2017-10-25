@@ -1,7 +1,7 @@
 ---
 title: JavaScript
 ---
-## JavaScript
+## JavaScript ![Image of JS](https://secure.meetupstatic.com/photos/event/5/7/d/3/global_436702483.jpeg)
 
 JavaScript is the most widely used scripting language on Earth. And it has the largest library ecosystem of any programming language.
 
