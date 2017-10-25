@@ -27,4 +27,4 @@ Some companies also have a physical office where you can go to work if you'd lik
 
 Quincy Larson on The Economics of Working Remotely: [Medium](https://medium.freecodecamp.org/the-economics-of-working-remotely-28d4173e16e2)
 
-
+Tips on work effectively from home: [Hubspot] (https://blog.hubspot.com/marketing/productivity-tips-working-from-home)
