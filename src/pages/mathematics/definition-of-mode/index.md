@@ -1,15 +1,10 @@
 ---
 title: Definition of Mode
 ---
-## Definition of Mode
+## Definition of Mode:
+Mode is the most frequent or most occurring number in a given set of numbers. It is also called the modal number.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/definition-of-mode/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
+For example: Given the following set of numbers, find the mode:
+<p align = centre>12, 12, 11, 10, 9, 11, 13, 14, 15, 12</p>
+From the above set of numbers: 12 is the mode because it appears most.
 
