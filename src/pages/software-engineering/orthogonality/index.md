@@ -3,13 +3,14 @@ title: Orthogonality
 ---
 ## Orthogonality
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/software-engineering/orthogonality/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Orthogonality is a term borrowed from mathematics.  For example, two lines are orthogonal if they are perpendicular.  In software design, two components are orthogonal if a change in one does not affect the other.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Applying this concept to classes or other sections of code results in less coupling.  To be orthogonal two classes cannot depend on each others implementation.  They also cannot share global data.  Changing the internals of one class does not affect the other class.  Components should be independent and have only a single responsibility. 
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Consider a method that reads a list of numbers from a file and returns them in sorted order.  Now the requirements change and the numbers are in a database.  Modifying this method to access the database would cause client code to change.  If this were two different methods, then a new source would not affect the sorting method.  Only the client code would have to know the source of the numbers.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+
+[Wikipedia article](https://en.wikipedia.org/wiki/Orthogonality_(programming))
 
 
