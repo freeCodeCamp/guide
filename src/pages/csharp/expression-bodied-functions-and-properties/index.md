@@ -19,3 +19,20 @@ The following gives the same result, but is written as an expression bodied meth
 ```cs
 public Point CreatePoint(int x, int y) => new Point(x, y);
 ```
+
+You can also declare properties with this syntax. The following code is how we declare a get-only property without a lambda expression:
+##
+```cs
+public Point Location
+{
+    get
+    {
+        return _location;
+    }
+}
+```
+Through an expression-bodied method, we can shrink this code down to only one line:
+##
+```cs
+public Point Location => _location
+```
