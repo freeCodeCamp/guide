@@ -50,4 +50,4 @@ Which would end up looking like so:
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-[HTML lists on w3schools](https://www.w3schools.com/html/html_lists.asp)
+<a href='https://www.w3schools.com/html/html_lists.asp' target='_blank' rel='nofollow'>HTML lists on w3schools</a>
