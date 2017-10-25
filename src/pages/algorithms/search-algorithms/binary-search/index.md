@@ -79,7 +79,7 @@ var numbers = [1,2,3,4,5,6,7];
 print(binarySearch(numbers, 5, 0, numbers.length-1));
 ```
 
-### More Information
+### Other Resources
 <a href="https://youtu.be/P3YID7liBug">Binary search (YouTube video)</a>
 
 <a href='https://www.youtube.com/watch?v=5xlIPT1FRcA' target='_blank' rel='nofollow'>Binary Search - CS50</a>
