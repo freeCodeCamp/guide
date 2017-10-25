@@ -11,3 +11,4 @@ if(vehicle instanceof Car){
     //do something if vehicle is a Car
 }
 ```
+ **Note**: If you apply the instanceof operator with any variable that has null value, it returns false.
