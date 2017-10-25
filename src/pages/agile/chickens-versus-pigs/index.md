@@ -17,6 +17,11 @@ have significantly less commitment to the project.
 You should strive to be a pig rather than a chicken. You can benefit from (but should not rely on) the chickens in order to minimize risk and
 guarantee the project is delivered as efficiently as possible.
 
+Sometimes, the story is presented as a riddle:
+
+* Question: In a bacon-and-egg breakfast, what's the difference between the Chicken and the Pig?
+* Answer: The Chicken is involved, but the Pig is committed!
+
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
