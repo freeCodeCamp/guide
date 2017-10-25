@@ -58,3 +58,6 @@ while(!sorted) {
 ```
 
 
+#### More Information:
+
+- <a href='https://www.youtube.com/watch?v=6Gv8vg0kcHc' target='_blank' rel='nofollow'>Youtube: The author of Cracking The Coding Interview explains the basics of bubble sort algorithm</a>
