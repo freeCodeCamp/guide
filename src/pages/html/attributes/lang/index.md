@@ -3,13 +3,13 @@ title: Lang
 ---
 ## Lang
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/attributes/lang/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The lang attribute specifies the language of the element's content.
+Common examples are "en" for English, "es" for Spanish, "fr" for France and so on. The lang attribute can be used on any HTML element.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+For example:
+```html
+<p lang="fr">Ceci est un paragraphe.</p>
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+<a href='https://www.w3schools.com/tags/att_lang.asp' target='_blank' rel='nofollow'>W3Schools</a>
