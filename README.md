@@ -44,7 +44,7 @@ You can create a PR (Pull Request) with your draft article (or edits on an exist
 - Copy it to your local machine by running the command `git clone https://github.com/YOUR-GITHUB-USERNAME/guides.git`
 - Add a remote upstream so git knows where the official freeCodeCamp guides repository is located by running the command `git remote add upstream https://github.com/freeCodeCamp/guides.git`
 - Create a new branch for your work with the command `git checkout -b NEW-BRANCH-NAME`. Try to name your branch in a way that describes your article topic, like `fix/ArticleHTMLElements`
-- Write your article, commit your changes locally, and push your new branch to GitHub with the command `git push origin NEW-BRANCH-NAME`
+- Write your article, commit your changes locally with the command `git commit -m "SHORT MESSAGE"`, and push your new branch to GitHub with the command `git push origin NEW-BRANCH-NAME`
 - Go to your repository on GitHub and open a PR
 
 Make sure to maintain your local fork going forward so it stays up-to-date with the freeCodeCamp guides repository. The next time you want to contribute, checkout your local `master` branch and run the command `git pull --rebase upstream master` before creating a new branch. This will grab all the changes on the official `master` branch without making an additional commit in your local repository.
@@ -84,19 +84,34 @@ We've written the following guide to writing Guide articles to help you get star
 
 Article titles should be as short, concise, and to-the-point as possible. We want campers to quickly find the information they're looking for, and the title should reflect the main theme of the article.
 
-Here are some title examples:
+Folder name is used in the URL, so only use dashes `-`, numbers `0-9`, and lowercase letters `a-z` for it.
 
-- "HTML Lists"
-- "CSS Borders"
-- "JavaScript For Loop"
+Here are some examples:
 
-The folder name is used in the URL, so only use dashes `-`, numbers `0-9`, and lowercase letters `a-z` for it.
 
-Here are some folder name examples:
+- `src/pages/html/tables/index.html` ([link](https://github.com/freeCodeCamp/guides/blob/master/src/pages/html/tables/index.md))
 
-- html-lists
-- css-borders
-- javascript-for-loop
+```markdown
+---
+title: Tables
+---
+```
+
+- `src/pages/css/borders/index.md` ([link](https://github.com/freeCodeCamp/guides/blob/master/src/pages/css/borders/index.md))
+
+```markdown
+---
+title: Borders
+---
+```
+
+- `src/pages/javascript/loops/for-loop/index.md` ([link](https://github.com/freeCodeCamp/guides/blob/master/src/pages/javascript/loops/for-loop/index.md))
+
+```markdown
+---
+title: For Loop
+---
+```
 
 However, you can include special characters in the article title.
 
@@ -138,6 +153,27 @@ Format language keywords as code - this is done with the backtick key (located t
 
 Use the Oxford Comma when possible (it is a comma used after the penultimate item in a list of three or more items, before ‘and’ or ‘or’ e.g. an Italian painter, sculptor, and architect). It makes things easier, clearer, and prettier to read.
 
+### Attribution
+
+To minimize the potential for plagiarism and maintain integrity in these guides, it is important to give credit where necessary. Any material quoted, or used directly and unchanged, from source material should be wrapped in quotation marks and be adequately cited. Material that is not a direct quote but is still paraphrased from a different resource should also be cited. You can create superscript numerals to mark content that is cited using `<sup></sup>` tags. Like so: <sup>1</sup>
+
+Then, at the bottom of your article, place a `### Sources` heading and include all of your citations numbered to correspond with your marks above:
+
+<blockquote>
+Here is some content that should be cited.<sup>1</sup> And here is even more that should be cited from another source.<sup>2</sup>
+
+### Sources
+1. [Doe, John. "Authoring Words." *WikiCoder*. January 1, 1970. Accessed: October 20, 2017](#)
+2. [Purdue OWL Staff. "MLA Works Cited: Electronic Sources." *Purdue Online Writing Lab.* October 12, 2017. Accessed: Ocotber 20, 2017.](https://owl.english.purdue.edu/owl/resource/747/08/)
+</blockquote>
+You can check out the Purdue link above to see how to properly cite web sources (they even show how to cite tweets!). Typically, an attribution has a structure like the following:
+
+>Author Last Name, Author First Name. "Article Title." *Publication.* Publisher. Date Published. Date Accessed.
+
+If you cannot find an author or published date, which is common, simply omit these.
+
+Use of proper citations will not only keep the guides reputable, but these citations and links will also provide valuable resources should the reader want to learn more about the topic. Also note that instances of blatant plagiarism will be either removed or have their pull requests declined, and the user will receive a warning. Please refer to and review the [Academic Honesty Policy](https://www.freecodecamp.org/academic-honesty) before contributing.
+
 ### Formatting example code
 
 Campers will likely use Guide articles as a quick reference to look up syntax. Articles should have simple real-world examples that show common-use cases of that syntax.
@@ -153,21 +189,21 @@ Here are specific formatting guidelines for any code:
 - GitHub-flavored markdown supports [syntax highlighting in code blocks](https://help.github.com/articles/creating-and-highlighting-code-blocks/#syntax-highlighting) for many programming languages. To use it, indicate the language after starting ```
 ```
     ```html
-        <div class='awesome' id='more-awesome'>
-          <p>This is text in html</p>
-        </div>
+    <div class='awesome' id='more-awesome'>
+      <p>This is text in html</p>
+    </div>
     ```
 
     ```javascript
-        function logTheThings(stuff) {
-         console.log(stuff);
-        }
+    function logTheThings(stuff) {
+     console.log(stuff);
+    }
     ```
 
     ```css
-       .awesome {
-          background-color: #FCCFCC;
-        }
+   .awesome {
+      background-color: #FCCFCC;
+    }
     ```
 ```
 
@@ -179,7 +215,7 @@ Then you'd just need to reference them in your markdown file with this syntax:
 
 `![your alt text](your url)`
 
-Then the images should show up when you click the "preview table" tab.
+Then the images should show up when you click the "preview changes" tab.
 
 ### Proper nouns
 
@@ -190,7 +226,7 @@ Proper nouns should use correct capitalization when possible. Below is a list of
 - jQuery
 - SQL
 
-Front-end development (adjective form with a dash) is when you working on the front end (noun form with no dash). The same goes with the back end, full stack, and many other compound terms.
+Front-end development (adjective form with a dash) is when you're working on the front end (noun form with no dash). The same goes with the back end, full stack, and many other compound terms.
 
 ### Where to get help
 

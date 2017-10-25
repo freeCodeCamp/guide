@@ -3,6 +3,18 @@ title: Photoshop
 ---
 ## Photoshop
 
+Adobe Photoshop is a raster(pixel) based image editing software that is used by a wide arrange of content creators for graphic/photograph creation and editing. Developers or designers typically use Photoshop to create or modify assets and photographs for websites.  Some developers also use photoshop for website designs and mockups, but other tools such as Adobe Experience Design and Sketch are becoming more commonly used.  Adobe Photoshop is available for both Windows and Mac, but currently not Linux.
+
+A common thing a developer could do in photoshop, is modify the pixel size and resolution (72dpi for web) of an image for proper web use and modify images to have transparent backgrounds (using filetypes .gif, and .png). It is a common practice to reduce the size of an image to be the largest that it will need to be used for on a website.  This reduces server space and loading times and Photoshop is a tool to achieve this.  
+
+### Summary
+* Raster based image editing software
+* A Photoshop file is a .psd, can export to most image filetypes.
+* Photoshop uses pixels. Make sure to create assets large enough, as scaling larger isn't possible without degradation.
+* Downloads available for Windows and Mac through Adobe subscriptions.
+* Becoming less commonly used for website/ User Interface mockups.
+* Many advanced tools and features for photo editing that might not be needed for developers.  
+
 Photoshop was created in 1988 and is the industry standard for various image manipulation tasks such as:
 
 * Photo manipulation such as cropping images, quickly changing colors
@@ -154,6 +166,10 @@ If you need another format, select `File` > `Export` > `Export as...`. There, yo
 1. While you can design logos in Photoshop, most designers chose to use Illustrator for logos, as Illustrator creates vector images that can make it easier to resize logos for multiple uses, such as small logos for business cards, or large logos for banner signs.
 
 #### More Information:
+<!-- Please add any articles you think might be helpful to read before writing the article -->
+* [Official Website](https://www.adobe.com/products/photoshop.html)
 * [Raster vs. Vector graphics](https://www.psprint.com/resources/difference-between-raster-vector/)
+* [Learn and Support](https://helpx.adobe.com/support/photoshop.html?promoid=5NHJ8FD2&mv=other)
 
+Alternatives: Gimp (available on Linux and free)
 
