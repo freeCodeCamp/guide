@@ -3,13 +3,28 @@ title: Area of a Parallelogram
 ---
 ## Area of a Parallelogram
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/area-of-a-parallelogram/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+A parallelogram is a [quadrilateral](https://en.wikipedia.org/wiki/Quadrilateral) with two pairs of [parallel](https://en.wikipedia.org/wiki/Parallel_(geometry) sides. A parallelogram's opposite sides and opposite angles are equal in measure.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+To calculate the area of a parallelogram, you multiply its base times its perpendicular height. Any side can be the base, and then the perpendicular height extends from the base at a 90° angle to the parallel side.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Area (A) = base (b) x height (h)
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+![alt text](http://www.teacherschoice.com.au/Maths_Library/Area%20and%20SA/area_58.gif)
+
+You may notice that the formula for calculating the area of a parallelogram is the same as for calculating the area of a rectangle. This is because a parallelogram can be divided into a [trapezoid](https://en.wikipedia.org/wiki/Trapezoid) and a [right triangle](https://en.wikipedia.org/wiki/Right_triangle) and rearranged into a rectangle.
+
+![alt text](https://upload.wikimedia.org/wikipedia/commons/2/27/Parallelogram_area_animated.gif)
+
+If you know the area of the parallelogram and either the base or height, you can find the missing element by dividing the area by the element you do know:
+
+b = A / h
+
+h = A / b
+
+#### Example
+![alt text](http://www.bbc.co.uk/staticarchive/fe9eccebf29603d72f111655d4952d458312d793.gif)
+
+The above parallelogram has a 7cm base and a perpendicular height of 3cm. Therefore, the area of this parallelogram is 21cm (because 7cm x 3cm = 21cm).
+
 
 
