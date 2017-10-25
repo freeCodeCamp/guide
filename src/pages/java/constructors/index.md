@@ -101,3 +101,47 @@ Bank account = new Bank(); //-> throws a compilation error: Bank() has private a
 ```
 
 So, the only way to gain access to the instance is by using `Bank.getInstance()`. Such instances are called `Singleton` since you get exactly one instance (per VM to be precise) throughout the life of your application.
+
+
+There can be many number of constructors in a class. But they should differ in the method parameters. This is Constructor Overloading. For example
+
+```java
+public class Car {
+
+    private String name;
+    private String carType;
+
+    //Constructor.
+    public Car(){
+        this.name = "No Name";
+        this.carType = "No Type";
+    }
+    public Car(String model){
+        this.name = "Honda " + model;
+    }
+    
+    public Car(String model, String carType){
+        this.name = model;
+        this.carType = carType;
+    }
+    
+    public String getName(){
+        return this.name;
+    }
+    
+    public String getCarType(){
+        return this.name;
+    }
+
+    public static void main(String args[]){
+        Car car = new Car("Civic");
+        System.out.println( car.getName() );
+        
+        //Other Way To Initialize
+        Car car = new Car("Civic","Sedan");
+        System.out.println( car.getName() + " "+ car.getCarType() );
+        
+    }
+}
+
+```

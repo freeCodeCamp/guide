@@ -4,6 +4,7 @@ title: Typescript
 ## Typescript
 
 TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
+If you have been in Java, Typescript is like Java version of Javascript. It is stricted and promote Object Oriented Programming
 
 Also, it adds static typing functionality to JavaScript.
 
