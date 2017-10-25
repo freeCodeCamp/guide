@@ -3,11 +3,9 @@ title: Spikes
 ---
 ## Spikes
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/spikes/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Spikes are used by individuals and teams to gain insight into an area where more information is needed. Spikes are typically time-boxed to a relatively short period with results often reported back to the rest of the team or other interested stakeholders.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Examples of spikes might be trying out a new user interface toolkit, reading up on some impending technology, or trying out a new automated test framework.
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
