@@ -48,6 +48,7 @@ function Layout(props) {
         </Row>
       </Grid>
       <Grid>
+      <Grid>
         <Row>
           <Col md={ 4 }>
             <SideNav />
