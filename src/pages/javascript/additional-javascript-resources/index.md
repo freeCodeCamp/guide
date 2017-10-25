@@ -59,6 +59,11 @@ Find javascript libraries at <a href='http://jster.net' target='_blank' rel='nof
 
 *   <a href='http://perfectionkills.com' target='_blank' rel='nofollow'>Perfection Kills</a>
 *   <a href='http://www.2ality.com/' target='_blank' rel='nofollow'>2ality</a>
+*   <a href='https://medium.com/the-javascript-collection' target='_blank' rel='nofollow'>JS collection on Medium</a>
+
+## Podcasts
+*   <a href='https://devchat.tv/js-jabber' target='_blank' rel='nofollow'>JS Jabber</a>
+
 
 ## Books
 
