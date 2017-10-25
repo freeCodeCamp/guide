@@ -33,5 +33,7 @@ Individuals who are affected by color-blindness might not be able to differentia
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
+<a href='http://www.tigercolor.com/color-lab/color-theory/color-theory-intro.htm' target='_blank' rel='nofollow'>Basic Color Theory</a>
 
+<a href='http://www.creativebloq.com/colour/colour-theory-11121290' target='_blank' rel='nofollow'>Mastering Color Theory</a>
 
