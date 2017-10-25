@@ -60,6 +60,7 @@ Output:
 9
 >
 ```
+In Python 2, the output of "range(i)" is a list with i objects in memory, whereas "xrange(i)" is a sequence object that evaluates the numbers on demand. In Python 3, "range()" has the same behavior as "xrange()" from Python 2. 
 
 **Iterate over values in a list or tuple**
 
