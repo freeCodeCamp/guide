@@ -1,5 +1,5 @@
 ---
-title:HTML Method
+title: HTML Method
 ---
 
 # HTML Method
