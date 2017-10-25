@@ -1,3 +1,6 @@
+---
+title:Class
+---
 ## Class
 
 Classes provide a means of bundling data and functionality together.
@@ -19,13 +22,12 @@ they are created at runtime, and can be modified further after creation.
 
 The simplest form of class definition looks like this:
 
-class ClassName:
-    <statement-1>
-    .
-    .
-    .
-    <statement-N>
-
+    >>>class ClassName:
+    ...    <statement-1>
+    ...   .
+    ...    .
+    ...    .
+    ...    <statement-N>
 #### Class Objects:
 
 class objects support two kinds of operations: attribute references and instantiation.
