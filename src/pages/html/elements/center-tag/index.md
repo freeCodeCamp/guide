@@ -3,13 +3,23 @@ title: Center Tag
 ---
 ## Center Tag
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/center-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `<center>` tag is an element that where all children elements are centered horizontally within the parent container.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Example
+```html
+<!DOCTYPE html>
+<html>
+	<body>
+        <center>This text is centered.
+        <p>This paragraph is also centered.</p></center>
+	</body>
+</html>
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### Note
+This tag deprecated in HTML 4 for the CSS property `text-align`, which can be applied to the `<div>` element or to an individual `<p>` for alignment needs.
+
+See: [text-align](https://developer.mozilla.org/en-US/docs/Web/CSS/text-align)
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+[MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/center)
