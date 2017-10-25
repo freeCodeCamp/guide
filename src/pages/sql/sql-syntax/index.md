@@ -70,7 +70,7 @@ The following example is similar, but it further specifies that if any of the st
 
 ### Order By (ASC, DESC)
 
-Order By gives us a way to sort the result set by one or more of the items in the SELECT section. Here is the same list as above, but sorted by the students Full Name. The default sort order is ascending (ASC), but to sort in the opposite order (decending) you use DESC, as in the example below:
+Order By gives us a way to sort the result set by one or more of the items in the SELECT section. Here is the same list as above, but sorted by the students Full Name. The default sort order is ascending (ASC), but to sort in the opposite order (descending) you use DESC, as in the example below:
 
 ```sql
     select studentID, FullName, sat_score
@@ -93,7 +93,7 @@ This data is from the campaign contributions data we've been using in some of th
 
 This SQL statement answers the question: "which candidates recieved the largest number of contributions (not $ amount, but count (\*)) in 2016, but only those who had more than 80 contributions?"
 
-Ordering this data set in a decending (DESC) order places the candidates with the largest number of contributions at the top of the list.
+Ordering this data set in a descending (DESC) order places the candidates with the largest number of contributions at the top of the list.
 
 ```sql
     select Candidate, Election_year, sum(Total_$), count(*)
