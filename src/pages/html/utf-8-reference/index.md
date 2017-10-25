@@ -1,15 +1,14 @@
 ---
-title: Utf 8 Reference
+title: UTF 8 Reference
 ---
-## Utf 8 Reference
+## UTF 8 Reference
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/utf-8-reference/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+UTF-8 (UCS Transformation Format 8) is the World Wide Web’s most common character encoding.<sup>1</sup> Character encoding provides an encoding system for specific characters in different languages.<sup>2</sup> It allow them all to exist and let a computer system or programming environment to handle them in a consistent way.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The default character encoding in HTML-5 is UTF-8.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
+### Sources
+1.<a href='https://developer.mozilla.org/en-US/docs/Glossary/UTF-8' target='_blank' rel='nofollow'>MDN Web Docs - Character encoding</a>.<br>
+2.<a href='https://developer.mozilla.org/en-US/docs/Glossary/Character_encoding' target='_blank' rel='nofollow'>MDN Web Docs - UTF-8</a>.<br>
+3.<a href='https://www.w3schools.com/charsets/ref_html_utf8.asp' target='_blank' rel='nofollow'>HTML Unicode (UTF-8) Reference</a>
 
