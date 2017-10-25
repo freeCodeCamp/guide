@@ -17,6 +17,11 @@ Because in-person communication occurs less frequently (if at all), remote teams
 
 Remote teams may host regular company retreats so team members can meet and hang out.
 
+Some examples of online platforms to do remote work are:
+[Upwork](www.upwork.com)
+[Feelancer](www.freelancer.com)
+
+
 ### The "In-Between"
 
 Some companies are 100% onsite, and some are 100% remote. But, it's not unusual to find companies or teams that allow you to work remotely a day or two out of the week. This allows you to experience some of the benefits of remote work, without being remote all the time.
