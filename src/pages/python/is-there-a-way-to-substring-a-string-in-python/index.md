@@ -1,8 +1,8 @@
 ---
-title: Is There a Way to Substring a String in Python
+title: string-slicing
 ---
 
-## Is There a Way to Substring a String in Python
+## Slicing Strings
 
 Python offers many ways to substring a string. It is often called 'slicing'.
 
@@ -36,11 +36,7 @@ Where,
 
 ```python
 string = "freeCodeCamp"
-print(string[0:5])
-```
-Output:
-```shell
-> freeC
+print(string[0:5])    # prints freeC
 ```
 
 Note: `print(string[:5])` returns the same result as `print(string[0:5])`
@@ -49,11 +45,7 @@ Note: `print(string[:5])` returns the same result as `print(string[0:5])`
 
 ```python
 string = "freeCodeCamp"
-print(string[2:6])
-```
-Output:
-```shell
-> eeCo
+print(string[2:6])    # prints eeCo
 ```
 
 Please note that the start or end index may be a negative number. A negative index means that you start counting from the end of the string instead of the beginning (i.e from the right to left). Index -1 represents the last character of the string, -2 represents the second to last character and so on...
@@ -62,50 +54,46 @@ Please note that the start or end index may be a negative number. A negative ind
 
 ```python
 string = "freeCodeCamp"
-print(string[-1])
-```
-Output:
-```shell
-> p
+print(string[-1])    # prints p
 ```
 
 * **Get the last 5 characters of a string**
 
 ```python
 string = "freeCodeCamp"
-print(string[-5:])
-```
-Output:
-```shell
-> eCamp
+print(string[-5:])    # prints eCamp
 ```
 
 * **Get a substring which contains all characters except the last 4 characters and the 1st character**
 
 ```python
 string = "freeCodeCamp"
-print(string[1:-4])
-```
-Output:
-```shell
-> reeCode
+print(string[1:-4])    # prints reeCode
 ```
 
 #### More examples
 ```py
 str = “freeCodeCamp”
 
-print str[-5:-2] # prints ‘eCa’
-print str[-1:-2] # prints ‘’ (empty string)
+print str[-5:-2]    # prints ‘eCa’
+print str[-1:-2]    # prints ‘’ (empty string)
 ```
 
 * **Get every other character from a string**
 
 ```python
 string = "freeCodeCamp"
-print(string[::2])
+print(string[::2])    # prints feCdCm
 ```
-Output:
-```shell
-> feCdCm
-```
+
+## Example
+
+    a = [ 1, 2, 3, 4, 5, 6, 7, 8]
+    print(a[:5])    # prints [1, 2, 3, 4, 5]
+    print(a[2:])    # prints [3, 4, 5, 6, 7, 8]
+    print(a[2:5])    # prints [3, 4, 5]
+    print(a[2:7:2])    # prints [3, 5, 7]
+
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CT5h' target='_blank' rel='nofollow'>Run Code</a>
+
+<a href='https://docs.python.org/3/library/functions.html#slice' target='_blank' rel='nofollow'>Official Documentation</a>
