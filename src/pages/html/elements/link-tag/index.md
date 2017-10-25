@@ -3,13 +3,29 @@ title: Link Tag
 ---
 ## Link Tag
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/link-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The **`<link>`** tag is used to define a connection between external ressources and your html-page.
+It is also used to embedd external css stylesheets.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Since it is an attribute only tag it does not have an closing tag.
+You need to use **`<link>`** in __`<head>`__ sections.
+## Example for linking CSS
+```html
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+## Example for linking a Google Font (Roboto)
+```html
+<head>
+  <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+</head>
+```
+
+The __`<link>`__ tag is supported by every major browser.
+
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+For more information and a list of of attributes visit [w3schools](https://www.w3schools.com/tags/tag_link.asp)
 
 
