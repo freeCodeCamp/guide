@@ -10,9 +10,9 @@ The simplest of the bunch are while loops. While loops will run while the condit
 #include <stdio.h>
 
 int main(void) {
-    int my_number = 0;
-
-    while(my_number != 10){
+    int my_number = 1;
+ 
+   while(my_number != 10){
         ++my_number;
     }
 
