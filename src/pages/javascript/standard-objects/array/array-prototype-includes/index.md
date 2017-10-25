@@ -28,4 +28,3 @@ myArray.includes(11);
 
 #### More Information:
 <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes' target='_blank' rel='nofollow'>Array.prototype.includes() - MDN</a>
-
