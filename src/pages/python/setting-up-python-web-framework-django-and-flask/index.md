@@ -9,6 +9,15 @@ In case these assumptions are untrue, you might want to take a look at this <a>w
 
 But it would be unfair if we completely ignore the <a href='http://docs.python-guide.org/en/latest/starting/which-python/#the-state-of-python-2-vs-3' target='_blank' rel='nofollow'>Python 2 vs Python 3</a> debate.
 
+## Python Web Frameworks || Django
+
+Django is a Python web framework. It is free and open source and has been around since 2005. It is very mature and comes with excellent documentation and awesome features included by default. Some excellent tools it provides are:
+
+1. Excellent lightweight server for development and testing.
+2. Good templating language.
+3. Security features like CSRF included right out of the box.
+4. There are a myriad of other useful things included in Django but you shall probably discover them as you go along.
+
 ## Wrapping Up
 
 We have successfully installed the web-framework of our need. However, it's not yet complete. Most web applications are content and data driven - so we need a data storage. Or, a Database, if you will.
