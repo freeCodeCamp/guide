@@ -16,7 +16,7 @@ To set the content of a HTML element, use this syntax:
 ```$(selector).html(content);```
 For example:
 ```$(p).html("Hello World!");```
-That will set the content of all of the <p> elements to Hello World!
+That will set the content of all of the < p > elements to Hello World!
 
 ### More Information
 More information can be found [here].
