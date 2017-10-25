@@ -33,6 +33,10 @@ The `onclick` event can also be programmatically added to any element using the 
 </script>
 ```
 
+### Note ###
+
+It's important that by onclick we can add just only one listener function. If you want to add more, just use addEventListener(), which is preferer way for adding events listener.
+
 In the above example, when a user clicks on the `paragraph` element in the `html`, they will see an alert showing `onclick Event triggered`. 
 #### More Information:
 [MDN](https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onclick)
