@@ -30,36 +30,38 @@ A more complex HTML table may also include `<caption>`, `<col>`, `<colgroup>`, `
 ```html
 <!DOCTYPE html>
 <html>
-	<body>
-    <table>
-      <thead>
-        <th>
-          <td>
-            Table Header
-          </td>
-        </th>
-      </thead>
-      <tbody>
-        <tr>
-          <td>
-            Table
-          </td>
-          <td>
-            Body
-          </td>
-        </tr>
-      </tbody>
-      <tfoot>
-        <tr>
-          <td>
-            Table Footer
-          </td>
-        </tr>
-      </tfoot>
-    </table>
-	</body>
-</html>
-```
+<body>
+
+	<table>
+	<caption>Table Header</caption>
+		<thead>
+			<tr>
+				<th>Day</th>
+				<th>Quantity</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			<tr>
+				<td>sunday</td>
+				<td>45 people</td>
+			</tr>
+			<tr>
+				<td>monday</td>
+				<td>55 people</td>
+			</tr>
+		</tbody>
+
+		<tfoot>
+			<tr>
+				<td>Sum</td>
+				<td>100 people</td>
+			</tr>
+		</tfoot>
+	</table>
+
+</body>
+</html>```
 
 #### More Information:
 
