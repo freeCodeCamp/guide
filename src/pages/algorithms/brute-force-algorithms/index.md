@@ -2,14 +2,11 @@
 title: Brute Force Algorithms
 ---
 ## Brute Force Algorithms
-
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/algorithms/brute-force-algorithms/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+The brute force approach is an optimal, but ineffective method to resolve problems. If you have to choose between various options, you simply select each and every option, so you can evaluate the cost of each one, and then simple select the best. This method always gives you the best answer (is optimal) but if the options to test are too much, it could be slow and/or expensive (ineffective)
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
+- Resolving the Traveling salesman problem with a brute force algorithm: https://www.youtube.com/embed/xRVpT-7c0Rw
+- Wikipedia :  https://en.wikipedia.org/wiki/Brute-force_search
 
