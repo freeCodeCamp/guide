@@ -68,3 +68,6 @@ _Note: Do not include the dot in the HTML Class Attribute, referring to the clas
 #### More Information: 
 * [Bootstrap Buttons documentation](https://getbootstrap.com/docs/4.0/components/buttons/)
 * [Bootstrap Get Started](/articles/bootstrap/bootstrap-get-started)
+
+well explained 
+
