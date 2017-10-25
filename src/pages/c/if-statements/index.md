@@ -1,8 +1,8 @@
 ---
-title: Logical Operators and If Statements
+Title: Logical Operators and If Statements
 ---
-# If Statements in C
-Sometimes you only want code to run in a certain situation. That's where If statements come in- if something is true, the code will be executed; if it isn't true, the code will not be executed.
+# if Statements in C
+Sometimes you only want code to run in a certain situation. That's where if statements come in to play. If something is true, the code will be executed; if it isn't true, the code will not be executed.
 
 ## A Simple Example
 Let's look at an example of this in action:
@@ -35,10 +35,13 @@ Of course, that example wasn't very useful, because true is always true. Here's 
 int main(void) {
     int n = 2;
 
-    if(n == 3) {
+    if(n == 3) // comparing n with 3
+    {
         printf("Statement is True!\n");
 
-    } else {
+    } 
+    else // if first condition is not true, then comes to this block of code.
+    {
         printf("Statement is False!\n");
 
     }
@@ -67,13 +70,17 @@ There's a lot we can do with all of those operators! Consider the following, whe
 ```C
 #include <stdio.h>
 
-int main(void) {
+int main(void) 
+{
     int n = 5;
 
-    if(n == 5) {
+    if(n == 5) 
+    {
         printf("n is equal to 5!\n");
 
-    } else if (n > 5) {
+    } 
+    else if (n > 5) 
+    {
         printf("n is greater than 5!\n");
 
     }
@@ -95,16 +102,21 @@ int main(void) {
     int n = 5;
     int m = 10;
 
-    if(n > m || n == 15) {
+    if(n > m || n == 15) 
+    {
         printf("Either n is greater than m, or n is equal to 15\n");
 
-    } else if( n == 5 && m == 10 ) {
+    } 
+    else if( n == 5 && m == 10 )
+    {
         printf("n is equal to 5 and m is equal to 10!\n");
 
-    } else if ( !(n == 6)) {
+    } 
+    else if ( !(n == 6)) {
         printf("It is not true that n is equal to 6!\n");
 
-    } else if (n > 5) {
+    }
+    else if (n > 5) {
         printf("n is greater than 5!\n");
     }
 
