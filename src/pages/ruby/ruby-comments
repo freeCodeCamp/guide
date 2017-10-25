@@ -1,3 +1,7 @@
+---
+title: Ruby Comments
+---
+
 <h1>Ruby Comments</h1>
 
 Comments are lines of annotation within code that are ignored at runtime (meaning they are visible within the source code but aren't printed out when you run the program).
