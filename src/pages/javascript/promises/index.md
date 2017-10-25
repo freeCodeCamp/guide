@@ -137,4 +137,4 @@ console.log(gen.next());
 ```
 As we keep calling `gen.next()` it will keep going onto the next `yield` and pausing each time. Once there are no more `yield`'s left, it will proceed to run the rest of the generator, which in this case simply returns `'Finished!'`. If you call `gen.next()` again, it will throw an error as the generator is finished.
 
-Now, imagine if each `yield` in this example was a `Promise`, the code itself would appear extremely synchronous. Libraries such as [redux-saga](https://github.com/redux-saga/redux-saga) make use of this to implement easier-to-understand side-effects in your Redux applications.
+Now, imagine if each `yield` in this example was a `Promise`, the code itself would appear extremely synchronous. Libraries such as <a href='https://github.com/redux-saga/redux-saga' target='_blank' rel='nofollow'>redux-saga</a> make use of this to implement easier-to-understand side-effects in your Redux applications.

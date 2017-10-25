@@ -14,8 +14,8 @@ Similar to Github, DockerHub offers a wide variety of images (Ubuntu and others)
 
 ### Links
 You can find plenty of informations in the following sites : 
-- [Docker website](https://www.docker.com/)
-- [Docker docs](https://docs.docker.com/)
-- [DockerHub](https://hub.docker.com/)
+- <a href='https://www.docker.com/' target='_blank' rel='nofollow'>Docker website</a>
+- <a href='https://docs.docker.com/' target='_blank' rel='nofollow'>Docker docs</a>
+- <a href='https://hub.docker.com/' target='_blank' rel='nofollow'>DockerHub</a>
 
 

@@ -32,6 +32,6 @@ myObject.fullName();         // Function invoked as a method, will return "John 
 ```
 
 ### More Information:
-- Function documentation: [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
+- Function documentation: <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions' target='_blank' rel='nofollow'>MDN</a>
 
 

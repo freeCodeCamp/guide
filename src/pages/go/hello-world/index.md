@@ -2,7 +2,7 @@
 title: Go
 ---
 
-To install Go in your computer, download its installer from [here](https://golang.org/dl/) and install it by following these [installation instructions](https://golang.org/doc/install).
+To install Go in your computer, download its installer from <a href='https://golang.org/dl/' target='_blank' rel='nofollow'>here</a> and install it by following these <a href='https://golang.org/doc/install' target='_blank' rel='nofollow'>installation instructions</a>.
 
 
 ## First Go program
