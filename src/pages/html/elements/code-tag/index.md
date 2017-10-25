@@ -3,13 +3,21 @@ title: Code Tag
 ---
 ## Code Tag
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/code-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The HTML `<code>` element displays computer code on a webpage. Most browsers display the contents of the `<code>` tag in their default monospace font.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The `<code>` element is not self-closing, and must have both opening and closing tags.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### Example
+
+```
+<p>This is how we style a link with CSS: <br>
+  <code>a { color: #000; }</code>
+</p>
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+[MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code)
+
+[W3 HTML5 Spec](https://www.w3.org/TR/html5/text-level-semantics.html#the-code-element)
 
 
