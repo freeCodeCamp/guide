@@ -3,13 +3,13 @@ title: Personas
 ---
 ## Personas
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/user-experience-design/personas/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Personas are fictitious representations of the ideal users of a product. They are usually used to simulate user experience scenarios. With these simulations, key software or product features can be identified and implemented.  
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+With personas, you can understand your users ( and potential users) better. They also make it easier for you to tailor content to the specific needs, behaviors, and concerns of different groups.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Personas can be developed through market research, surveys and one-on-one customer interviews.
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+### Source
 
+1.  "How to Create Detailed Buyer Personas for Your Business [Free Persona Template]" HubSpot, 25 Oct. 2017, https://blog.hubspot.com/marketing/buyer-persona-research.
 
