@@ -83,6 +83,37 @@ _Hint:_ There is a handy <a href='https://developer.mozilla.org/en-US/docs/Web/J
     false % 4      // interprets false as 0 and returns 0
     3 % "bar"      // returns NaN
 
+## Increment
+
+**Syntax**
+
+`a++ or ++a`
+
+**Usage**
+    
+    // Postfix
+    x = 3;  // declare a variable 
+    y = x++;        // y = 4, x = 3
+    
+    // Prefix
+    var a = 2;
+    b = ++a; // a = 3, b = 3
+
+## Decrement
+
+**Syntax**
+
+`a-- or --a`
+
+**Usage**
+    
+    // Postfix
+    x = 3;  // declare a variable 
+    y = x--;        // y = 3, x = 3
+    
+    // Prefix
+    var a = 2;
+    b = --a; // a = 1, b = 1
 _!Important!_ As you can see, you **cannot** perform any sort of operations on `Infinity`.
 
 Source: The amazing <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators' target='_blank' rel='nofollow'>MDN</a>.
