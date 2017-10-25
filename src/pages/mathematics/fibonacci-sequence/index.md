@@ -3,13 +3,23 @@ title: Fibonacci Sequence
 ---
 ## Fibonacci Sequence
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/fibonacci-sequence/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The Fibonacci sequence is an integer sequence (an ordered list of whole numbers) where, after the first two numbers, each number is the sum of the two preceding numbers in the series.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Starting with 0 and 1, the sequence begins 0, 1, 1, 2, 3, 5, 8, 13, 21, 34...and can continue on forever.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Written as a rule, the Fibonacci sequence looks like this:
+![alt text](https://cartesianproduct.files.wordpress.com/2011/03/fib.png)  
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+If you start with a rectangle divided into two squares (each representing 1 unit length) and then keep adding a square the length of the rectangle's longest side, you get the Fibonacci spiral (which  approximates the [golden spiral](https://en.wikipedia.org/wiki/Golden_spiral)).
+
+
+![alt text](http://data.whicdn.com/images/44594323/original.gif)
+
+Fibonacci was an Italian mathematician who was also known as Leonardo of Pisa, or Leonardo Pisano.
+
+#### Additional Resources
+* https://en.wikipedia.org/wiki/Fibonacci_number
+* https://www.mathsisfun.com/numbers/fibonacci-sequence.html
+
 
 
