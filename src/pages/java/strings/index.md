@@ -36,6 +36,17 @@ You see, the creators of the JVM are pretty smart. They figured that Strings dif
 
 However, whenever you use the `new` keyword, it no longer performs this check. So, there could be a 1000s of String objects with the same content and yet, it'll go ahead and create a new String - using up additional memory. This is precisely why it's a good practice to use `String literals` instead of using the `new` keyword as much as possible.
 
+The example shown above also demonstrates that you should not use `==` to compare String in Java. Instead, you should use the `equals` methods of the String class whenever you need to compare String objects. 
+
+```java
+String str = "This is a string";
+String str2 = "This is a string";
+String str3 = new String("This is a string");
+
+System.out.println(str.equals(str2)); // This prints true
+System.out.println(str.equals(str3)); // This also prints true
+```
+
 Extras
 1. String methods use zero-based indexes, except for the second argument of substring().
 2. The String class is final- it's methods can't be overridden.
