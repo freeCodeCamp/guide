@@ -13,6 +13,8 @@ title: CSS Images
 * **alt:** If the image is not displayed then an alternate text can be displayed using alt attribute.</li>
 * **width:** This specifies a width for the image</li>
 * **height:** This specifies a height for the image</li>
+* **margins:** This specifies the amount of space around an image</li>
+
 
 
 #### More Information:
