@@ -1,15 +1,14 @@
 ---
-title: SQL Select into Statement
+title: SQL Select Into Statement
 ---
-## SQL Select into Statement
+## SQL Select Into Statement
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/sql/sql-select-into-statement/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The Select Into statement will insert data from one or more Tables and/or Views into a new Table. You can use a Where clause or Join to specifiy conditions.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+This example would insert all columns from the Orders table into a new table named Archive that had been created 3 months prior to the query being run.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+```sql
+SELECT *
+INTO Archive
+FROM Orders
+WHERE Created < DATEADD(MONTH,-3,GETDATE())
