@@ -4,7 +4,7 @@ title: Greedy Algorithms
 ## Greedy Algorithms
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
-## What is a Greedy Algorithm
+### What is a Greedy Algorithm
 You must have heard about a lot of algorithmic design techniques while sifting through some of the articles here. Some of them are :
 * Brute Force
 * Divide and Conquer
@@ -16,18 +16,18 @@ Imagine you are going for hiking and your goal is to reach the highest peak poss
 
 After the trip ended and your whole body is sore and tired, you look at the hiking map for the first time. Oh my god! There’s a muddy river that I should’ve crossed, instead of keep walking upwards. This means that a greedy algorithm picks the best immediate choice and never reconsiders its choices. In terms of optimising a solution, this simply means that the greedy solution will try and find a local optimum solutions - which can be many - and might miss out on a global optimum solution.
 
-## Formal Definition
+### Formal Definition
 
 Assume that you have an objective function that needs to be optimized (either maximized or minimized) at a given point. A Greedy algorithm makes greedy choices at each step to ensure that the objective function is optimized. The Greedy algorithm has only one shot to compute the optimal solution so that it never goes back and reverses the decision.
 
-### Greedy algorithms have some advantages and disadvantages:
+#### Greedy algorithms have some advantages and disadvantages:
 
 * It is quite easy to come up with a greedy algorithm (or even multiple greedy algorithms) for a problem.
 Analyzing the run time for greedy algorithms will generally be much easier than for other techniques (like Divide and conquer). For the Divide and conquer technique, it is not clear whether the technique is fast or slow. This is because at each level of recursion the size of gets smaller and the number of sub-problems increases.
 
 * The difficult part is that for greedy algorithms you have to work much harder to understand correctness issues. Even with the correct algorithm, it is hard to prove why it is correct. Proving that a greedy algorithm is correct is more of an art than a science. It involves a lot of creativity. Usually, coming up with an algorithm might seem to be trivial, but proving that it is actually correct, is a whole different problem. 
 
-## Interval Scheduling Problem
+### Interval Scheduling Problem
 
 Let's dive into an interesting problem that you can encounter in almost any industry or any walk of life. Some instances of the problem are as follows :
 
@@ -43,7 +43,7 @@ Let's dive into an interesting problem that you can encounter in almost any indu
 
   * Let's say that the completion timeof a schedule is the earliest time at which all contestants will be finished with all three legs of the triathlon, assuming the time projections are accurate. What is the best order for sending people out, if one wants the whole competition to be over as soon as possible? More precisely, give an efficient algorithm that produces a schedule whose completion time is as small as possible
 
-### The Lecture Scheduling Problem
+#### The Lecture Scheduling Problem
 
 Let's look at the various approaches for solving this problem. 
 
@@ -77,7 +77,7 @@ function interval_scheduling_problem(requests)
 end
 ```
 
-## When do we use Greedy Algorithms
+### When do we use Greedy Algorithms
  Greedy Algorithms can help you find solutions to a lot of seemingly tough problems. The only problem with them is that you might come up with the correct solution but you might not be able to verify if its the correct one. All the greedy problems share a common property that a local optima can eventually lead to a global minima without reconsidering the set of choices already considered. 
  
  Greedy Algorithms help us solve a lot of different kinds of problems. Stay tuned for upcoming tutorials on each one of these. 
