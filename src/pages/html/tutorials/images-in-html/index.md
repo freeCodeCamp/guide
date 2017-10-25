@@ -3,13 +3,35 @@ title: Images in HTML
 ---
 ## Images in HTML
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/tutorials/images-in-html/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+You can define images by using the <img> tag.
+It does not have a closing tag since it can contain only attributes.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+To insert an image you define the source and an alternative text wich is displayed when
+the image can not be rendered.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```html
+<img src="URL of the Image" alt="Descriptive Title" />
+```
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+### To define height and width of an image you can use the height and width attribute:
+```html
+<img src="URL of the Image" alt="Descriptive Title" height="100" width="150"/>
+```
 
+### You can also define border thickness (0 means no border):
+```html
+<img src="URL of the Image" alt="Descriptive Title" border="2"/>
+```
 
+### Align an image:
+```html
+<img src="URL of the Image" alt="Descriptive Title" align="left"/>
+```
+
+### You are also able to use styles within a style attribute:
+```html
+<img src="URL of the Image" alt="Descriptive Title" style="width: 100px; height: 150px;"/>
+```
+
+#### More Information
+[More examples on w3schools](https://www.w3schools.com/html/html_images.asp)
