@@ -18,6 +18,14 @@ For example, to display a different message based on the value of the isMember v
 
     let message = isMember ? 'Welcome Back!' : 'You need to login';
 ```
+It is possible to have nested ternary operators also.
+
+```javascript 
+let availablity = 12;
+let result = availablity == 1 ? "Available, No Replacement":availablity < 10?"Limited items only available":"Available with Replacement";
+
+```
+**Output is:** Available with Replacement
 
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/M8Ge/1' target='_blank' rel='nofollow'>Run Code</a>
 
