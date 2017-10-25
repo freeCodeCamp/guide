@@ -1,7 +1,7 @@
 ---
 title: Linux
 ---
-## Linux
+### Linux
 
 Linux is an open source, unix based operating system created in 1991 by Linus Torvalds.  Linux was first started as a clone of the MINIX operating system.  Open source contributors added onto the kernel and expanded its hardware compatability.  Linux's hardware supoort and free licensing made linux a popular choice for desktop and server computing in the mid 90s.  Today, linux is the most popular operating system in the world. It powers 90% of the world's servers, and is the basis of Google's popular Android operating system.
 
