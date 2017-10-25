@@ -5,7 +5,7 @@ title: The Monty Hall Problem
 
 # The Monty Hall Problem
 
-The Monty Hall Problem is a counter-intuitive puzzle based on Probability.
+The Monty Hall Problem is a counter-intuitive puzzle based on Probability, based on the American television game show "Let's Make a Deal". The problem's name comes from the show's host, Monty Hall.
 
 ## The Puzzle:
 
