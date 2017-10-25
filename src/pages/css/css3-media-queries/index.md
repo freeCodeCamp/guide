@@ -3,9 +3,16 @@ title: CSS3 Media Queries
 ---
 ## CSS3 Media Queries
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/css3-media-queries/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+A media query is a CSS3 technique used to include a block of CSS properties when a condition is true.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+e.g.,
+```css
+@media (max-width: 992px) {
+  p {
+  	color: green;
+  }
+}
+```
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
