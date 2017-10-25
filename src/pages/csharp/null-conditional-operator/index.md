@@ -34,3 +34,5 @@ string city = student?.Address?.City;
 ```
 Null-conditional operators are short-circuiting, so as soon as one check of conditional member access
 returns null, the rest do not take place.
+
+It is likely that Null-conditional operators(turnery operator) and If-else both will compile down to the same IL anyway.
