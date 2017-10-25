@@ -24,7 +24,7 @@ Now, install the IDE and try changing the text from the program in the last arti
 
 A sample program :
 
-```C++ 
+```cpp
 
 #include <iostream>
 using namespace std :
@@ -34,7 +34,7 @@ int main()
 }
 ```
 
-The above code returns an error because at line 2 , we have used a colon(:) instead of a semiccolon(;)
+The above code returns an error because at line 2 , we have used a colon(:) instead of a semicolon(;)
 So, let's debug the error :
 
 ```C++
@@ -53,7 +53,7 @@ The output will be : `I Love freeCodeCamp !`
 
 ### Now , let's change the text to something else like this :
 
-```C++
+```cpp
     cout<<"Hello World!\t I love freeCodeCamp!";
 ```
 
@@ -78,7 +78,7 @@ Hello World!	 I love freeCodeCamp!
 
 ##### Now, let's try printing numbers and special characters with some escape sequences :
 
-```C++
+```cpp
     cout<<"40158 \t 236708 ! \n \\ @ \?"<<endl;
 ```
 
@@ -90,7 +90,7 @@ The output changes to :
 
 ##### Let's try some other ways of printing
 
-```C++
+```cpp
     cout<<"1+2"<<endl;
     cout<<1+2<<endl;
 ```
@@ -112,7 +112,7 @@ This is because we did not add the inverted commas for the second print statemen
 
 #### Example of using commentts -
 
- ```C++
+ ```cpp
 
      cout<<"Hello Comment"<<endl; //cout<<"Hello Comment"<<endl; , Single Line Comment.
     /* This is an example of a multi line comment. No output is generated for this .
@@ -126,12 +126,5 @@ This is because we did not add the inverted commas for the second print statemen
 
 <a href='https://repl.it/L4ox' target='_blank' rel='nofollow'>A summation of all the print statements used in this article. Feel free to tweak around woth the code ! :) </a>
 
-_CONGRATULATIONS! You have reached the end of the second article_
 
-**Good Luck to all of you** 
 
-**Happy Coding ! :)**
-
- **Feel free to ask any queries on FreeCodeCamp's GitHub page or [FreeCodeCamp's Forum .](https://forum.freecodecamp.org/)**
-
-By Jaithra Bhatia and Hitarth Asrani.
