@@ -9,6 +9,13 @@ Its lightweight structure enables you to run several containers on the same mach
 
 Similar to Github, DockerHub offers a wide variety of images (Ubuntu and others), on which containers are built.
 
+### Features
+Docker containers running on a single machine share that machine's operating system kernel; they start instantly and use less compute and RAM. Images are constructed from filesystem layers and share common files. This minimizes disk usage and image downloads are much faster.
+
+Docker containers are based on open standards and run on all major Linux distributions, Microsoft Windows, and on any infrastructure including VMs, bare-metal and in the cloud.
+
+Docker containers isolate applications from one another and from the underlying infrastructure. Docker provides the strongest default isolation to limit app issues to a single container instead of the entire machine.
+
 ### See also
 - Docker Compose : to create and manage several containers at the same time.
 
