@@ -3,13 +3,13 @@ title: Tautologies
 ---
 ## Tautologies
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/logic/tautologies/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+**Tautology** is a proposition that is always true, no matter what are the truth values of the propositional variables in it.
+For example, p ∨ ¬p is tautology:
+|  p |  ¬p  |  p ∨ ¬p  |
+|----|------|----------|
+| T  |   F  |      T   |
+| F  |   T  |      T   |
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
 
