@@ -31,6 +31,9 @@ C# is an object-oriented language while also providing support for component-ori
 8) Generalized Async Return Types
 9) More Expresion-Bodied Members
 10) Throw Expressions
+11) Record Type
+12) Minimizing OUT
+13) Non-'NULL' able reference type
 
 You can use C# to create Windows client applications, XML Web services, distributed components, client-server applications, database applications, and much more.
 
