@@ -17,6 +17,8 @@ e.g.,
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
+1. [W3Schools CSS3 Media Queries](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
+2. [CSS-Tricks Media Queries](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/)
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
 
