@@ -41,4 +41,10 @@ A lightweight tag is very much like a branch that doesn’t change – it’s ju
 git tag -a v1.2 9fceb02
 ```
 
+### For useful resources and information check following links:)
+1.https://git-scm.com/book/en/v2/Git-Basics-Tagging
+2.https://git-scm.com/docs/git-tag
+3.https://githowto.com/tagging_versions
+2.
+
  
