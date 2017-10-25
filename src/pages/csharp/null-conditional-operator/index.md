@@ -6,6 +6,7 @@ title: Null-conditional Operator
 
 Null-conditional operators allow for null checking with a minimal amount of code. For example, if you had
 an employee variable of type Employee with a property of type Address, you might do null checking as follows:
+##
 ```cs
 Address address = null;
 if (employee != null)
@@ -14,11 +15,13 @@ if (employee != null)
 }
 ```
 You could use a standard conditional operator to make that check more concise:
+##
 ```cs
 Address address = employee != null ? employee.Address : null;
 ```
 However, in C# 6.0 null-conditional operators were introduced, so now the above line can simply
 be represented as follows:
+##
 ```cs
 Address address = student?.Address;
 ```
@@ -26,6 +29,7 @@ If employee is null, address will simply be assigned null, and no NullReferenceE
 This becomes more useful with deeper object graphs, as you can handle a chain of conditional member access.
 
 For example:
+##
 ```cs
 string city = student?.Address?.City;
 ```
@@ -33,6 +37,7 @@ Null-conditional operators are short-circuiting, so as soon as one check of cond
 returns null, the rest do not take place.
 
 Also worth noting is the null-coalescing operator (`??`). Consider the following code:
+##
 ```cs
 Address address = null;
 if (employee.Address == null)
