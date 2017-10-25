@@ -1,15 +1,7 @@
----
-title: Behavior Driven Development
----
 ## Behavior Driven Development
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/behavior-driven-development/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The Behavior Driven Development (frequently abreviated as BDD) is one possible approach to take when developing. The main idea is to focus on making the code work from a user perspective. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+For example, if I were to develop a calculator, I would write the code and test it manually, inputing "1+1" and expecting the result to be "2". Afterwards, usually, you will write tests and include a case for the input "1+1" and expect "2".
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+This approach is controversial, as frequently people write the tests, then them fail and the developer refuses to accept that the code has a bug (because it was "working"). Because of this, TDD (Test Driven Developoment) has been taken into account by many teams, as it makes the developer write the tests and then write the code to make the tests succeed.
