@@ -12,4 +12,7 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
+Align an image in the middle of a text:
+
+<p>This is some text. <img src="me.gif" alt="Me" align="middle"> This is some text.</p>
 
