@@ -3,13 +3,7 @@ title: Algebra
 ---
 ## Algebra
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/algebra/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+Algebra is a broad section of mathematics focused on manipulating constants and variables in equations. The main branches of algebra are listed below.
+Elementary algebra: an introduction to these ideas. 
+Abstract algebra: the study of algebraic structures on themselves. 
+Linear algebra: the study of vector spaces and linear mappings.
