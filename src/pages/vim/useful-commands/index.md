@@ -9,6 +9,7 @@ title: Useful Commands
 ## Exiting Vi, Vim, Nvim, Gvim
 1. Press escape to get you into "normal" mode
 2. Type `:q`, press enter. If you receive an error try `:q!`
+(NOTE: The command `:q!` will force vim to exit without saving. Make sure you save first by typing the command `:w` if you do not want to lose any changes you've made.)
 
 **OR**
 - Type ZZ (save and quit)
@@ -41,5 +42,6 @@ To return to regular Vim without paste mode you can enter normal mode (`escape` 
 Start by pressing `escape` to check if you're in normal mode, press colon `:`, type `Tutor`, and press `enter`.
 
 ## Other Resources
-- <a href='https://vimgolf.com/' target='_blank' rel='nofollow'>Vim Golf</a> - A good way to learn from doing vim challenges to get the lowest amount of keystrokes. You can see solutions submitted by others if you can't figure the challenge out.
+
+- [Vim Golf](https://vimgolf.com/) - A good way to learn from doing vim challenges to get the lowest amount of keystrokes. You can see solutions submitted by others if you can't figure the challenge out.
 - Read the rest of our Vim Guides to get a better understanding of this powerful editor.
