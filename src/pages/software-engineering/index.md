@@ -5,7 +5,7 @@ title: Software Engineering
 
 The field of **software engineering** is the study of techniques and strategies in order to efficiently manage the entire life cycle of software development.
 
-If you are writing just scripts that might be used once or twice, implementing software engineering principles may be too involved. However, as software projects get larger and foresee future ongoing use, principles of software engineering become increasingly important.
+If you are writing just scripts that might be used once or twice, implementing software engineering principles may be too involved and hardly useful for the masses. However, as software projects get larger and foresee future ongoing use, principles of software engineering become increasingly important.
 
 The entire life cycle of software development ranges from the creation of ideas and design of the software to maintenance of the developed software over time.
 
