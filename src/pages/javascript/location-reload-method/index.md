@@ -3,13 +3,23 @@ title: Location Reload Method
 ---
 ## Location Reload Method
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/location-reload-method/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The ``Location.reload()`` method belongs within the [Location Object](./location-object). It's function is to reload the current page, exactly what the reload button does in your browser.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Yet, this method accepts an optional unique param. A ``Boolean`` that, when ``true``, forces the browser to reload the page's resources from the server. When the param is ``false`` or not specified, the browser may reload the page's resources from it's own cache.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+#### Examples
+
+```
+// Reload the current resources from the server
+window.location.reload(true);
+
+// Reload the current resources from the browser's cache
+window.location.reload();
+```
+
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
+<a href='https://developer.mozilla.org/en-US/docs/Web/API/Location/reload' target='_blank' rel='nofollow'>MDN - Location.reload()</a>
 
+<a href='https://www.w3schools.com/jsref/met_loc_reload.asp' target='_blank' rel='nofollow'>W3C - Location reload() Method</a>
