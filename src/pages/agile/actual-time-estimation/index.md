@@ -3,7 +3,7 @@ title: Actual Time Estimation
 ---
 ## Actual Time Estimation
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/actual-time-estimation/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Actual Time Estimation, is a quantified evaluation of the amount of time needed to complete a development task. 
 
 <a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
 
@@ -12,4 +12,9 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
+[agile estimation](https://www.atlassian.com/agile/estimation)
 
+[3 powerful estimation techniques for agile teams](https://www.sitepoint.com/3-powerful-estimation-techniques-for-agile-teams/)
+
+### Sources
+<sup>1.</sup>[https://www.agilealliance.org/glossary/estimation/ Accessed: 10 25,2017](https://www.agilealliance.org/glossary/estimation)
