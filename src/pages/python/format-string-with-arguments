@@ -1,0 +1,6 @@
+In Python3.5, you are able to format strings with position and keyword arguments using the 'format' method. The arguments
+are entered into the string as curly brackets, who values are interpolated by the arguments you set in the format method
+based on the order.
+
+>>> str1 = "My name is {}".format("Tim")
+My Name is Tim
