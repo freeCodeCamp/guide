@@ -1,0 +1,1 @@
+A Python generator is a function which returns a generator iterator by calling yield.
