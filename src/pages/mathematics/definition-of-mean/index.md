@@ -3,13 +3,10 @@ title: Definition of Mean
 ---
 ## Definition of Mean
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/definition-of-mean/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+In mathematics, the term "mean" has several different definitions depending on the context.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+## Arithmetric Mean
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+The arithmetric mean, or simply "mean", of a sample of n elements x<sub>1</sub>, x<sub>2</sub>, ... ,x<sub>n</sub> is:
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+mean = (x<sub>1</sub> + x<sub>2</sub> + ... + x<sub>n</sub>) / n
