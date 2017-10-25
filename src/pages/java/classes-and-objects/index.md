@@ -7,7 +7,7 @@ Classes are groups of variables and operations on them. A class can have variabl
 
 Think of a `Class` as a blueprint for creating something concrete. A `Class` tells you the 'what' and 'how' an `object` of that Class will look like once `instantiated`. In essence, it defines `properties` (say color, engine capacity) and `behavior` (stop, speed up, change gears, honk etc.) for a Car in this case.
 
-Objects are _instances_ of a class. All objects are instances of a certain class. Imagine a class being a "template", which every Object copies to. When you create an Object, basically it creates a new object on the blueprint of a class. Now lets look at this from a little piece of code :
+Objects are _instances_ of a class. All objects are instances of a certain class. Imagine a class being a "template", which every Object copies to. When you create an Object, it basically creates a new object on the blueprint of a class. Now let's look at this from a little piece of code :
 
 ```java
 // Car class
@@ -48,4 +48,4 @@ System.out.println("Full Car Name = " + modelS.getManufacturerName() + " " + mod
 
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CJZP/0' target='_blank' rel='nofollow'>Run Code</a>
 
-So, `Car` is a class, which has the fields or properties name and manufacturerName. `modelS` is an object of `Car` class. So `modelS` also has the same properties and methods.
+So, `Car` is a class, which has the fields or properties `name` and `manufacturerName`. `modelS` is an object of `Car` class. So `modelS` also has the same properties and methods.
