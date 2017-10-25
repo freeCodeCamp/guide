@@ -42,6 +42,9 @@ Asymmetric algorithms provides each user with a pair of keys: one public and one
 
 Some techniques are: RSA, Diffie-Hellman, DSS(Digital Signature Standard), ElGamal.
 
+### Hashing
+Information to be added.
+
 #### More Information:
 
 - [Cryptography: Theory and Practice by Douglas Stinson](https://www.crcpress.com/Cryptography-Theory-and-Practice-Third-Edition/Stinson/p/book/9781584885085)
