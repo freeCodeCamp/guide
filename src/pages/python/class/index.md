@@ -1,6 +1,3 @@
----
-title: Classes
----
 ## Class
 
 Classes provide a means of bundling data and functionality together.
