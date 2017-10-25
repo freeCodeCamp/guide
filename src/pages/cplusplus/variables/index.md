@@ -2,12 +2,11 @@
 title: Variables
 ---
 
-Lets discuss something know as variables. Variables are like a bucket. You can put something in it and then change it 
+Let's discuss something known as variables. Variables are like a bucket. You can put something in it and then change it 
 afterwards when needed.
-In C++ there are many types of variables like Integers, Strings, Booleans and many other.
-Lets look at a simple program using integer variables.Integers can store simple positive and negative values like 0, 1, -1 
-and so on. Any positive or negative value without decimal is an integer. Lets look at a simple program which uses an integer 
-variable.
+In C++ there are many types of variables like: Integers, Strings, Booleans and many others.
+Let's look at a simple program using integer variables. Integers can store simple positive and negative values like 0, 1, -1 
+and so on. Any positive or negative value without a decimal is an integer. Let's look at a simple program which uses an integer variable.
 
 ```cpp
 #include <iostream>
@@ -39,7 +38,7 @@ All the variables have their area of functioning, and out of that boundary they 
 
 #### Global variables
 
-Global variables are those, which ar once declared and can be used throughout the lifetime of the program by any class or any function. They must be declared outside the main() function. If only declared, they can be assigned different values at different time in program lifetime. But even if they are declared and initialized at the same time outside the main() function, then also they can be assigned any value at any point in the program.
+Global variables are those which, once declared, can be used throughout the lifetime of the program by any class or any function. They must be declared outside the main() function. If only declared, they can be assigned different values at different times during the life of the program. This is called runtime, which is different than compile time.  But even if they are declared and initialized at the same time outside the main() function, they can also be assigned a value at any point in the program.
 
 Example : Only declared, not initialized.
 
@@ -57,7 +56,7 @@ int main()
 ```
 
 #### Local Variables
-Local variables are the variables which exist only between the curly braces, in which its declared. Outside that they are unavailable and leads to compile time error.
+Local variables are variables which exist only between their closest curly braces where they were declared. This is the variable's scope mentioned earlier.  If a reference to a variable is made outside of its scope, a compile-time error will warn about an invalid or unknown reference.
 
 Example :
 
