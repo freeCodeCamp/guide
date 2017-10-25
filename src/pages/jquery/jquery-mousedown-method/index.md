@@ -2,7 +2,7 @@
 title: Mousedown Method
 ---
 
-#Mousedown Method
+# Mousedown Method
 The mousedown event occurs when the left mouse button is pressed. 
 To trigger the mousedown event for the selected element, use this syntax:
 ```$(selector).mousedown();```
