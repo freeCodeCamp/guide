@@ -18,7 +18,7 @@ To know more about Python, you might want to check <a href='https://www.python.o
 
 ## Installation
 
-Most *nix based operating systems come with Python installed (usually Python 2). Replacing the system Python is not recommended and may cause problems. However, different versions of Python can be safely installed along side the system Python. See <a href='https://docs.python.org/3/using/index.html' target='_blank' rel='nofollow'>Python Setup and Usage</a>
+Most *nix based operating systems come with Python installed (usually Python 2). Replacing the system Python is not recommended and may cause problems. However, different versions of Python can be safely installed alongside the system Python. See <a href='https://docs.python.org/3/using/index.html' target='_blank' rel='nofollow'>Python Setup and Usage</a>
 
 Windows doesn't come with Python, the installer and instructions can be found <a href='https://docs.python.org/3/using/windows.html' target='_blank' rel='nofollow'>here</a>
 
@@ -66,7 +66,7 @@ Interactive mode has a prompt where Python commands can be entered and run:
 
 ## The Zen of Python
 
-Some of the principles that influenced the design of Python are included as an easter egg and can be read by using the command inside Python interpreter interactive mode:
+Some of the principles that influenced the design of Python are included as an Easter egg and can be read by using the command inside Python interpreter interactive mode:
 
     >>> import this
     The Zen of Python, by Tim Peters
@@ -136,7 +136,7 @@ The `objects` parameter is prefixed with a `*` which indicates that the function
 Free Code Camp has some great resources. The web is a big place, there's plenty more to explore:
 * Python Practice Book: http://anandology.com/python-practice-book/index.html
 * Think Python: http://greenteapress.com/thinkpython/html/index.html
-* Pratical Business Python: http://pbpython.com/
+* Practical Business Python: http://pbpython.com/
 * Another course: https://realpython.com/?utm_source=fsp&utm_medium=promo&utm_campaign=bestresources
 * General: https://www.fullstackpython.com/
 * Computer science using Python: https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-11?ref=hackernoon#!
