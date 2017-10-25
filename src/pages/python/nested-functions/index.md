@@ -1,4 +1,6 @@
-# Nested Functions in Python
+---
+title: Nested Functions in Python
+---
 
 ### Namespaces
 
