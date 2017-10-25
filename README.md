@@ -62,6 +62,7 @@ cd guides
 yarn install
 yarn run dev
 ```
+The default port for this project will be 8000 (in windows). Site will run at http://localhost:8000.
 
 In this project, we are using `yarn` because `netlify` builds our site with `yarn`.
 

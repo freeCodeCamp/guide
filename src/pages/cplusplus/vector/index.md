@@ -44,3 +44,23 @@ std::string second_item = a.at(2); // gets "element"
 // OR
 std::string second_item = a[2]; // gets "element"
 ```
+
+### size and capacity
+The capacity of vector is decided at runtime. It increases by a factor of 2 if vector elements are filled upto its current capacity. Size of vector is different from its capacity. Following are some useful functions -
+1. size() : Returns total number of elements present in the vector.
+2. capacity() : Returns the maximum-capacity of that vector.
+3. max_size() : Returns overall maximum number of elements that can be stored within vector. It is different from capacity().
+4. empty() : Returns 1 if vector is empty and 0 if not.
+```cpp
+std::vector<int> v1;
+std::vector<int> v2;
+
+for(int i=1; i<=5; i++) {
+    v1.push_back(i*i);
+}
+
+std::cout<<"capacity: "<<v1.capacity();    // Output => capacity: 8
+std::cout<<"\nmax_size: "<<v1.max_size();  // Output => max_size: 1073741823
+std::cout<<"\nsize: "<<v1.size();          // Output => size: 5
+std::cout<<"\nis Empty: "<<v2.empty();     // Output => is Empty: 1
+```
