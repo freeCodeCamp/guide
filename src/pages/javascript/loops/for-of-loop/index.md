@@ -36,7 +36,7 @@ The `for...of` statement creates a loop iterating over iterable objects (includi
     m.set(2, "red");
 
     for (var n of m) {
-    console.log(n);
+        console.log(n);
     }
 
     // Output:
@@ -50,7 +50,7 @@ The `for...of` statement creates a loop iterating over iterable objects (includi
     s.add("red");
 
     for (var n of s) {
-    console.log(n);
+        console.log(n);
     }
 
     // Output:
@@ -62,14 +62,13 @@ The `for...of` statement creates a loop iterating over iterable objects (includi
     // your browser must support for..of loop
     // and let-scoped variables in for loops
 
-    function DisplayArgumentsObject()
-    {
+    function displayArgumentsObject() {
         for (let n of arguments) {
-        console.log(n);
+            console.log(n);
         }
     }
 
-    DisplayArgumentsObject(1,"red");
+    displayArgumentsObject(1, 'red');
 
     // Output:
     // 1
