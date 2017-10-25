@@ -3,13 +3,14 @@ title: User Acceptance Tests
 ---
 ## User Acceptance Tests
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/user-acceptance-tests/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+In engineering and its various subdisciplines, acceptance testing is a test conducted to determine if the requirements of a specification or contract are met. It may involve chemical tests, physical tests, or performance tests.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+In systems engineering it may involve black-box testing performed on a system (for example: a piece of software, lots of manufactured mechanical parts, or batches of chemical products) prior to its delivery.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+In software testing the ISTQB defines acceptance as: formal testing with respect to user needs, requirements, and business processes conducted to determine whether a system satisfies the acceptance criteria and to enable the user, customers or other authorized entity to determine whether or not to accept the system. Acceptance testing is also known as user acceptance testing (UAT), end-user testing, operational acceptance testing (OAT) or field (acceptance) testing.
+
+A smoke test may be used as an acceptance test prior to introducing a build of software to the main testing process.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
+https://en.wikipedia.org/wiki/Acceptance_testing
 
