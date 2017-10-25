@@ -29,9 +29,7 @@ Before you begin writing, make sure to read the [article style guide](#article-s
 ## How to contribute
 You can create a PR (Pull Request) with your draft article (or edits on an existing article) in two ways:
 
-1) The easiest method is to use the GitHub interface. Watch the video demonstration or follow the steps below it:
-
-![Gif showing the GitHub interface steps](https://i.imgur.com/0cmxJwN.gif)
+1) The easiest method is to use the GitHub interface.
 
 - Go into the "pages" folder (located in `guides/src`) and find the article stub you'd like to write or edit. All stubs will be in an index.md file
 - Click the "Edit this file" pencil icon and make your changes to the file in GitHub-flavored Markdown
