@@ -2,6 +2,11 @@
 title: Tor (The Onion Router)
 ---
 ## Tor
+
+<p align="center">
+    <img alt="Tor Logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Tor-logo-2011-flat.svg/2000px-Tor-logo-2011-flat.svg.png" width="300">
+</p>
+
 Tor stands for "The Onion Router", which is a free software that helps anonymize its users Internet usage, maintained by the Tor Project.
 In addition to the Onion Router, the Tor Project maintains a bundle of software, most notably a web browser, which is often also
 called Tor.
