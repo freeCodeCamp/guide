@@ -28,6 +28,10 @@ This is an example of the CSS classes that bootstrap provides for glyphicons. Mo
 
 _Note: Do not include the dot in the HTML Class Attribute, referring to the classes with a dot is only used when adjusting the classes in CSS._
 
+_Note: Only for use on empty elements
+Icon classes should only be used on elements that contain no text content and have no child elements.
+
+
 #### More Information:
 [Bootstrap Glyphicons](https://getbootstrap.com/docs/3.3/components/#glyphicons)
 
