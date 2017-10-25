@@ -13,9 +13,9 @@ OAuth is widely being used in many major internet companies like Google, Faceboo
 - Authorization Grant Types
 - References
 
-###Basic Knowledge
+### Basic Knowledge
 
-####<a href='https://tools.ietf.org/html/rfc6749#section-1.1' target='_blank' rel='nofollow'>Roles</a>
+#### <a href='https://tools.ietf.org/html/rfc6749#section-1.1' target='_blank' rel='nofollow'>Roles</a>
 - **Resource Owner**:
   Person who is using the product or service (eg: you are Resource Owner in your Google Account)
 - **Resource Server**:
@@ -194,5 +194,5 @@ grant_type=client_credentials
 For more reading, refer
 
 - <a href='https://tools.ietf.org/html/rfc6749' target='_blank' rel='nofollow'>OAuth2 Draft</a>
-- http://www.bubblecode.net/en/2016/01/22/understanding-oauth2/
-- http://kevinchalet.com/2016/07/13/creating-your-own-openid-connect-server-with-asos-choosing-the-right-flows/
+- <a href='http://www.bubblecode.net/en/2016/01/22/understanding-oauth2/' target='_blank' rel='nofollow'>Understanding OAuth2</a>
+- <a href='http://kevinchalet.com/2016/07/13/creating-your-own-openid-connect-server-with-asos-choosing-the-right-flows/' target='_blank' rel='nofollow'>Creating your own openId connect server</a>
