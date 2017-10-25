@@ -20,11 +20,11 @@ From the [golang download page](https://golang.org/dl/), you'll need to get the 
 
 If your system is 64bit, copy the link to the .tar.gz file for Linux systems with x86_64 architecture. For example, the latest stable version for 64bit systems as of this writing is ```go1.9.1.linux-amd64.tar.gz```
 
-![screenshot of golang download page for x64 tarball link](https://guide.freecodecamp.org/go/installing-go/ubuntu-tarball/ubuntux64.jpg "x64 tarball link")
+![screenshot of golang's download page as of this writting, highliting link](ubuntux64.jpg "x64 tarball link")
 
 If your system is 32bit, copy the link to the .tar.gz file for Linux systems with x86 architecture. As of this writing the latest file is  ```go1.9.1.linux-386.tar.gz```
 
-![screenshot of golang download page for x64 tarball link](https://guide.freecodecamp.org/go/installing-go/ubuntu-tarball/ubuntux86.jpg "x86 tarball link")
+![screenshot of golang's download page as of this writting, highliting link](ubuntux86.jpg "x86 tarball link")
 
 After copying the link, simply replace the link in the Installation process found below with the link you got from the download page.
 
