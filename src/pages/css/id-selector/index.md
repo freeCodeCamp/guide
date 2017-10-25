@@ -2,7 +2,7 @@
 title: ID Selector
 ---
 ## ID Selector
-The CSS ID selector applies styles to a specific html element. The CSS ID selector must match the ID attribute of an HTML element.
+The CSS ID selector applies styles to a specific html element. The CSS ID selector must match the ID attribute of an HTML element. Unlike classes, which can be applied to multiple elements throughout a site, a specific ID may only be applied to one single element on a site.
 
 ### Syntax
 ```css
