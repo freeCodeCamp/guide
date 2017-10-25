@@ -3,13 +3,25 @@ title: Footer Tag
 ---
 ## Footer Tag
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/footer-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `<footer>` tag is used to define the footer for a section or document. The footer element usually contains information such as copyright, contact, sitemap, and documents related to the section or page.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Example:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```html
+<html>
+  <body>
+    <!-- The main page contect would populate this area. This area has been left blank for the purpose of demonstrating the footer use. -->
+    <footer>
+      &copy; 2017 &mdash; ACME &mdash; All rights reserved.
+    </footer>
+  </body>
+</html>
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
+Check out the links below for more detailed information on the footer element and how to use it.
 
+<a href="https://www.w3schools.com/tags/tag_footer.asp" target="_blank">w3schools footer information</a>
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer" target="_blank">Mozilla Developer Network footer information</a>
