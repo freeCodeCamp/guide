@@ -9,11 +9,11 @@ title: Illustrator in visual design
 <ul>
 
 <li>
-  <p>Introduction to Flat Design<a href="https://design.tutsplus.com/tutorials/10-top-tips-on-creating-flat-design-graphics--cms-25888" target="blank"></a></p>
+  <p>Introduction to Flat Design <a href="https://design.tutsplus.com/tutorials/10-top-tips-on-creating-flat-design-graphics--cms-25888" target="blank">here</a></p>
 </li>
 
 <li>
-<p>Creating flat icons using illustrator<a href="https://design.tutsplus.com/tutorials/create-a-set-of-flat-precious-gems-icons-in-adobe-illustrator--vector-26188" target="blank"></a></p>
+<p>Creating flat icons using illustrator <a href="https://design.tutsplus.com/tutorials/create-a-set-of-flat-precious-gems-icons-in-adobe-illustrator--vector-26188" target="blank">here</a></p>
 </li>
 
 </ul>
