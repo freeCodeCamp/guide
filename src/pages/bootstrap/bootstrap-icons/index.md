@@ -14,6 +14,10 @@ We’ve tested and used these icon sets ourselves.
 * [Octicons](https://octicons.github.com/)
 * [Entypo](http://www.entypo.com/index.php)
 
+
+## Icons
+Guidance and suggestions for using external icon libraries with Bootstrap.
+
 ## More options
 While we haven’t tried these out, they do look promising and provide multiple formats—including SVG.
 
@@ -24,5 +28,8 @@ While we haven’t tried these out, they do look promising and provide multiple 
 * [Dripicons](http://demo.amitjakhu.com/dripicons/)
 * [Ikons](http://ikons.piotrkwiatkowski.co.uk/)
 * [Glyph](https://glyphicons.com/)
+
 * [Other Considerations that can be assessed](https://css-tricks.com/flat-icons-icon-fonts/)
+
+
 
