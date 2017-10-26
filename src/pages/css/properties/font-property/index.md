@@ -3,13 +3,8 @@ title: Font Property
 ---
 ## Font Property
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/properties/font-property/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+My Font Property Changes
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The font property define the font family, boldness, size, and the style of a text. It has two types of font family names:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+    .font family     { font-family: "Times New Roman", Times, serif; }
