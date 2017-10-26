@@ -3,7 +3,7 @@ title: Functional Programming
 ---
 ## Functional Programming
 
-Functional programming is the process of building software by composing **pure functions**, avoiding **shared state**, **mutable data**, and **side-effects**. Functional programming is **declarative** (telling the computer what you want to do) rather than **imperative** (telling the computer exactly how to do that), and application state flows through pure functions. Contrast it with object-oriented programming, where application state is usually shared and colocated with methods in objects.
+Functional programming is the process of building software by composing **pure functions**, avoiding **shared state**, **mutable data**, and **side-effects**. Functional programming is **declarative** (telling the computer what you want to do) rather than **imperative** (telling the computer exactly how to do that), and application state flows through pure functions. Contrast it with object-oriented programming, where application state is usually shared and collocated with methods in objects.
 
 ### Why Functional Programming?
 
