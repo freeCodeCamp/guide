@@ -3,6 +3,7 @@ title: List Pop Method
 ---
 # Pop Function
 The method pop() removes and returns last element from the list. There is an optional parameter, index of the element to be removed from the list.
+If no index is specified, a.pop() removes and returns the last item in the list.
 If the index passed to the pop() method is not in the range, it throws IndexError: pop index out of range exception.
 
 
