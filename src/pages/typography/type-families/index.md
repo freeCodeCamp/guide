@@ -12,4 +12,11 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+There are seven types of font families:
+Old Style
+Transitional
+Modern
+Slab Serif
+Sans Serif
+Decorative
+Script-Cursive
