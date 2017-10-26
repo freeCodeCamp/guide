@@ -14,5 +14,5 @@ In this section, we explore the various hardware components of modern computers.
 -Case
 -Power Supply
 -Motherboard
--Input and Output devices (eg. Keyboard and Mouse)
+-Input and Output devices (eg. Keyboard, Mouse, or Printer)
 -Monitor
