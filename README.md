@@ -224,18 +224,10 @@ Then the images should show up when you click the "preview changes" tab.
 
 ### Adding links to articles
 
-You may use Markdown style or HTML links in your articles.
-
-**Markdown**
+Use Markdown style links in your articles to link to other websites.
 
 ```
 [freeCodeCamp](https://www.freecodecamp.org/)
-```
-
-**HTML**
-
-```
-<a href="https://www.freecodecamp.org">freeCodeCamp</a>
 ```
 
 ### Proper nouns
