@@ -10,14 +10,14 @@ The three main category of colors, which you might already be familiar with, are
 
 **Primary Colors:**
 Red, yellow and blue
-In traditional color theory primary colors are the 3 pigment colors that cannot be mixed or formed by any combination of other colors. All other colors are derived from these 3 hues. 
+<br>In traditional color theory primary colors are the 3 pigment colors that cannot be mixed or formed by any combination of other colors. All other colors are derived from these 3 hues. 
 
 **Secondary Colors:**
-Green, orange and purple
+Green, orange and purple<br>
 These are the colors formed by mixing the primary colors.
 
 **Tertiary Colors:** 
-Yellow-orange, red-orange, red-purple, blue-purple, blue-green & yellow-green
+Yellow-orange, red-orange, red-purple, blue-purple, blue-green & yellow-green<br>
 These are the colors formed by mixing a primary and a secondary color. 
 
 In web design, colors also carry with them connotations and implications that need to be understood or else you could cause confusion. The color red in a non-digital space, such as a fast-food restaurant, carries the implication of energy or excitement. However, on the web the color red also carries with it the implication that the user has committed an error. This example of how color means certain things in certain settings should be a critical reminder to understand how the person viewing your page will interpret the color selection you’ve made.
