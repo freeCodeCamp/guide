@@ -15,4 +15,4 @@ Which results in:
 ##### Note:
 The text inside a `<b>` tag does not convey any importance it is just to make the text bold.
 To make text bold and convey some importance `<strong>` tag is used.
-You should not use `<b>` tag to make Heading bold rather use the Heading tags from `<h1>` till `<h6>`.
+You should not use `<b>` tag to make Heading bold rather use the Heading tags from `<h1>` to `<h6>`.
