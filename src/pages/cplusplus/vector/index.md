@@ -28,6 +28,7 @@ std::vector<double> b(a); // b is a vector of 3 doubles: 1.0, 2.0 and 3.0
 Initializing it with the same element:
 ```cpp
 std::vector<int> a(100, -1); // a is a vector of 100 elements all set to -1
+std::vector<string> names(100, "Unknown"); // names is a vector of string of 100 elements all set to 'unknown' initially
 ```
 
 ### Element Access
@@ -43,4 +44,11 @@ std::string last_item = a.back(); // gets the last item in the vector ("access")
 std::string second_item = a.at(2); // gets "element"
 // OR
 std::string second_item = a[2]; // gets "element"
+```
+
+### Creating a 2D Matrix using Vector
+Here we will see an example of a N*M matrix created using a vector and initially filled with -1
+A 2D matrix is represented using vector of vector
+```cpp
+std::vector< std::vector<int> > Matrix(N, std::vector<int>(M, -1));
 ```
