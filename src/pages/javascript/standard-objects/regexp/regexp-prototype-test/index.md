@@ -3,13 +3,33 @@ title: RegExp.prototype.test
 ---
 ## RegExp.prototype.test
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/standard-objects/regexp/regexp-prototype-test/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The ```test()``` method returns ```true``` if a string matches the regular expression, and ```false``` if it doesn't.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+## Examples
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```javascript
+let str = 'freeCodeCamp';
+let regEx = /Code/;
+let result = regEx.test(str);
+
+console.log(result); // prints true
+```
+**Note:** Regular expressions are case-sensitive. The above example will return ```false``` if the ```regEx``` is ```/code/``` instead of ```/Code/```. To make the regular expression case-insensitive, you have to add the ```i``` flag to the regular expression.
+
+```javascript
+let str = 'freeCodeCamp';
+let regEx = /code/;
+let result = regEx.test(str);
+
+console.log(result); // prints false
+
+// Include the 'i' flag.
+
+regEx = /code/i;
+result = regEx.test(str);
+console.log(result); // prints true
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+Check out the [official MDN ```RegExp.prototype.test()```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/test) page for more information.
