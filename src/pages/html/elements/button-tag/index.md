@@ -3,13 +3,30 @@ title: Button Tag
 ---
 ## Button Tag
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/button-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Button `<button>` tag defines a clickable button. Inside the button tag we can put content, like text or images. This is the difference between this element and buttons created with the `<input>` element.  
+  
+```
+<button type="button">Click Here!</button>
+```
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Button is a form element
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+`<button>` element in a `<form>`, by default, behaves identically to that submit input.
+  
+```
+<form action="/" method="post">
+  <button>Submit</button>
+</form>
+```
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+However Forms can have reset buttons as well. You can duplicate that behavior by changing the default submit type to reset.
+
+```
+<form action="/" method="post">
+  <button type="reset">Reset</button>
+</form>
+``` 
+  
+For [more info](https://developer.mozilla.org/en-US/docs/Web/API/HTMLButtonElement)  
 
 
