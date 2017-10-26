@@ -20,10 +20,16 @@ You will also need to add the following between the `body` tags in your code. Wi
     <p>Bootstrap is now working on this page</p>
 </div>
 ```
+To make use of much of Bootstrap's Javascript functionality, you will also need to add this to your body:
+```html
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+```
 <div class="alert alert-success" role="alert">
+    
     <strong>Congratulations!</strong>
     <p>Bootstrap is now working on this page</p>
 </div>
-
+```
 #### More Information
 * <a href='http://getbootstrap.com/getting-started/' target='_blank' rel='nofollow'>Bootstrap's official website</a>
