@@ -3,13 +3,10 @@ title: The Quadratic Formula
 ---
 ## The Quadratic Formula
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/algebra/the-quadratic-formula/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+### The proof 
+The derivation of the formula is just as important as the application. By understanding this you would be able to tell whether or not you even need to use the formula or can the equation be solved simply by completing the square. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The quadratic formula is nothing but the general case of solving a quadratic equation via completing the square as you will see below. 
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
+![quadratic formula proof](https://user-images.githubusercontent.com/25298340/32076205-0b472656-ba97-11e7-933c-420935814c59.PNG)
 
