@@ -7,7 +7,7 @@ const { isAStubRE, metaTitleRE } = commonREs;
 
 const navData = {};
 
-function getPageTitle(content, path) {
+function mendapatkanjudul(content, path) {
   try {
     return content.match(metaTitleRE)[1].trim();
   } catch (err) {
