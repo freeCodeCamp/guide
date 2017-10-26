@@ -79,6 +79,12 @@ p {
    font-weight: bold
 }
 ```
+For some fonts you can specify an exact font-weight using a number. This is only applicable for certain fonts however can be more powerful as it allows light, normal and bold variants. The lower the number, the thinner the text.
+
+```css
+p {
+    font-weight: 300;
+}
 
 ### Font variant
 
