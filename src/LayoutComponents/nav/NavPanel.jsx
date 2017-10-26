@@ -9,6 +9,7 @@ import { toggleExpandedState } from './redux';
 const propTypes = {
   categoryChildren: PropTypes.arrayOf(PropTypes.string),
   children: PropTypes.any,
+  dashedName: PropTypes.string,
   handleClick: PropTypes.func.isRequired,
   isExpanded: PropTypes.bool,
   path: PropTypes.string,
@@ -19,10 +20,11 @@ function mapStateToProps(state, ownProps) {
   const { path } = ownProps;
   const isExpanded = state.nav.expandedState[path];
   const category = state.nav.pages.filter(page => page.path === path)[0];
-  const { title, children: categoryChildren } = category;
+  const { title, children: categoryChildren, dashedName } = category;
 
   return {
     categoryChildren,
+    dashedName,
     isExpanded,
     title
   };
@@ -109,15 +111,14 @@ class NavPanel extends PureComponent {
   }
 
   render() {
-    const { isExpanded, title } = this.props;
-    const panelId = `${title.toLowerCase().replace(/\s/g, '-')}-panel`;
+    const { isExpanded, dashedName } = this.props;
     return (
       <Panel
         bsClass='panelStyle panel'
         collapsible={ true }
         expanded={ isExpanded }
         header={ this.renderHeader() }
-        id={ panelId }
+        id={ `${dashedName}-panel` }
         role='listitem'
         >
         {
