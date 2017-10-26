@@ -1,11 +1,20 @@
 ---
-title: Stenography
+title: Steganography
 ---
-## Stenography
+## Steganography
+
+Steganography is hiding messages in a way that no one apart from the sender and intended recipient suspects the existence of the message in a form of security through obscurity.
 
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/security/stenography/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
 <a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+
+## Different Types of Steganography:
+
+- [Physical Steganography:] Hidden messages in wax tablets, messenger's bodies, secret ink.
+- [Text Steganography:] Hidden messages added to digital metadata of PDFs, markup languages, shifting words.
+- [Image Steganography:] Hidden messages in intensity or frequency of pixels, inserstion and noise manipulation
+- [Audio Steganography:] Hidden messages embedded in WAV, AU, or mp3's.
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
