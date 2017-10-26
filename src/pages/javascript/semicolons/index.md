@@ -15,6 +15,24 @@ Note that this is only required if you don't use semicolons.
 
 A consistent coding style makes code more readable. Decide whether you will or won't use semicolons, and do so everywhere.
 
+
+## Errors you might run into
+
+When Javascript was first made it was meant to aid beginners to get into programming. Nobody wants to be searching for a dang semi-colon in their code when they first start programming. So the choice of semi-colons was implemented, as stated above they are technically there. 
+
+For example:
+    ```javasctipt 
+    function foox(x) {
+        return
+            function(y) {
+                return x + y;
+            }
+    } 
+let z = foo(10);
+z(10)//a TypeError is thrown becouse z is not a function, becouse of Automatic Semicolon Insertion, out inner function does not exist.
+    ```
+Javasctipt will implement semi-colons where they are expected. 
+
 ### Other resources
 
 <a href='http://blog.izs.me/post/2353458699/an-open-letter-to-javascript-leaders-regarding' target='_blank' rel='nofollow'>An Open Letter to JavaScript Leaders Regarding Semicolons</a>
