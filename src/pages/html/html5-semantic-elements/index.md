@@ -3,13 +3,46 @@ title: HTML5 Semantic Elements
 ---
 ## HTML5 Semantic Elements
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/html5-semantic-elements/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+HTML5 semantic elements are those elements that introduce meaning to the web page rather than just presentation. According to the definition of W3C, “a semantic element clearly describes its meaning to both the browser and the developer”.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Some examples of semantic HTML elements include elements such as blockquote, em, strong, code etc.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+The benefits of using semantic elements are more searchable content leading to better search engine ranking.
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+Below is an example of usage of HTML5 semantic elements.
 
+```html
 
+<body>
+ 
+  <header>
+    <h1>Welcome!</h1>
+    <p>Here goes your main text.</p>
+  </header>
+   
+  <nav>
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ul>
+  </nav>
+   
+  <article>
+     
+    <section>
+      <h3>This is a logical part</h3>
+      <p>Paragraph 1</p>
+      <p>Paragraph 2</p>
+    </section>
+   
+  </article>
+   
+  <footer>
+    <ul>
+      <li>Copyright</li>
+      <li>xxxxxxxxx</li>
+    </ul>
+  </footer>
+ 
+</body>
