@@ -1,15 +1,23 @@
 ---
 title: String.prototype.toLowerCase
 ---
-## String.prototype.toLowerCase
+The JavaScript string method `.toLowerCase()` converts and returns the string value to lower case.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/standard-objects/string/string-prototype-tolowercase/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+## Syntax
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+    str.toLowerCase();
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+[MDN Link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase)
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+## Description
 
+The toLowerCase() method returns the value of the string converted to lower case. toLowerCase() does not affect the value of the string itself.
+
+## Examples
+
+**Using`.toLowerCase()`**
+
+    console.log('HELLO CAMPERS'.toLowerCase()); // Returns 'hello campers'
+    
+    console.log('hELlo wOrLd'.toLowerCase()); // Returns 'hello world'
 
