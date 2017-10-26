@@ -1,96 +1,118 @@
 ---
 title: Fonts
 ---
-## Fonts
 
-The CSS font properties define the font family, boldness, size, and the style of a text.
+## Font Property
 
-### Font family
+The CSS font properties allows you to set various styles for fonts like: `font-family, font-style, font-variant, font-weight and font-size`
 
-The font family of a text is simply set by using the `font-family` property.
+The following section will describe you each one of these properties one by one.
 
-It works with a *fallback* system, if your browser does not support the first font, it tries with the next one and so on.
+### Font Family
 
-```css
-p {
-    font-family: "Times New Roman", Times, serif;   
-}
+The `font-family` CSS property allows you to set a prioritized list of font family name and/or generic family name for the text content of a selected element.
+
+You should end the list with a generic font family which are five — `serif, sans-serif, monospace, cursive and fantasy`. A font family declaration might look like this:
+
+```css 
+  p {
+    font-family: "Times New Roman", Times, serif;
+  }
 ```
 
-### Font style
+### Font Style
 
-The `font-style` property can be used to specify italic text.
+The `font-style` property sets the font style for the text content of an element.
 
-This property has 3 values:
+The possible values for this property are: `normal, italic or oblique`.
 
-* normal - Text shown normally
-* italic - Text shown in *italic*
-* oblique - Text shown leaning
-
-```css
-p.normal {
+```css 
+p.one {
     font-style: normal;
 }
-
-p.italic {
+p.two {
     font-style: italic;
 }
-
-p.oblique {
+p.three {
     font-style: oblique;
 }
 ```
 
-### Font size
+### Font Size
 
-The `font-size` property sets the size of the text.
+The `font-size` property sets the size of font for the text content of an element.
 
-There are different types of font size values:
+There are several ways to specify the font size values e.g. with keywords, pixels or ems.
 
-* `px` (pixels) - The default size of text being `16px`
-* `em` - `1em` = the current font size, so `1em` = `16px` (recommended by the W3C)
-* `small`, `medium`, `large` - known as absolute size values
-* `%` - percentages
+#### Setting Font Size with Keywords
 
-```css
-with-pixels {
-    font-size: 14px;
-}
+`xx-small, x-small, small, medium, large, x-large, xx-large`
 
-with-ems {
-    font-size: 0.875em;
-}
-
-with-absolute {
+```css 
+body {
     font-size: large;
 }
-
-with-percentage {
-    font-size: 80%;
+h1 {
+    font-size: larger;
 }
-```
-
-### Font weight
-
-The `font-weight` property specified if said font is `bold` or `normal`.
-
-```css
 p {
-   font-weight: bold
+    font-size: smaller;
 }
 ```
 
-### Font variant
+#### Setting Font Size with Pixels
 
-The `font-variant` property specifies if a text should be displayed in a small-caps font (where all lowercase letters are converted to uppercase letters while appearing in a smaller font-size than the original uppercase letters in the text).
-
-```css
-p.small {
-  font-variant: small-caps;
+```css 
+h1 {
+    font-size: 24px;
+}
+p {
+    font-size: 14px;
 }
 ```
 
-#### More Information:
+#### Setting Font Size with Em
 
-- https://www.w3schools.com/css/css_font.asp
-- https://developer.mozilla.org/en-US/docs/Web/CSS/font
+The `em` unit refers to the font size of the parent element.
+The size of an em value is dynamic. When defining the `font-size` property, an em is equal to the size of the font that applies to the parent of the element.
+If you set a `font-size` of `20px` on the body element, then `1em = 20px` and `2em = 40px`.
+If you haven't set the font size anywhere on the page, then it is the browser default, which is probably `16px`. So, by default `1em = 16px`, and `2em = 32px`.
+
+```css 
+h1 {
+    font-size: 2em;    /* 32px/16px=2em */
+}
+p {
+    font-size: 0.875em;    /* 14px/16px=0.875em */
+}
+```
+
+### Font Weight
+
+The font-weight property specifies the weight or boldness of the font.
+
+The possible values of `font-weight` property are: `normal`, `bold`, `bolder`, `lighter`, `100`, `200`, `300`, `400`, `500`, `600`, `700`, `800`, `900` and inherit.
+
+```css 
+p {
+    font-weight: bold;
+}
+```
+
+### Font Variant
+
+The `font-variant` property allows the text to be displayed in a special small-caps variation.
+
+The possible values for the `font-variant` property are `normal`, `small-caps` and `inherit`.
+
+```css 
+p {
+    font-variant: small-caps;
+}
+```
+
+
+### More Information:
+
+MDN Documentation: <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/font' target='_blank' rel='nofollow'>MDN</a>
+
