@@ -7,7 +7,7 @@ The opacity property specifies the opacity/transparency of an element, that is, 
 
 The opacity property can take a value from 0.0 - 1.0. The lower value, the more transparent:
 
-Find more details [here](https://www.w3schools.com/css/css_image_transparency.asp)
+Find more details <a href='https://www.w3schools.com/css/css_image_transparency.asp' target='_blank' rel='nofollow'>here</a>
 
 You can choose upto what extent you want to make the element transparent.
 You have to add the following CSS property to achieve the transparency levels.
@@ -44,5 +44,5 @@ OR
   }
 ```
 #### More Information:
-For more information visit [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/opacity)
+For more information visit <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/opacity' target='_blank' rel='nofollow'>MDN</a>
 
