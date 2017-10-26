@@ -259,6 +259,19 @@ Remember that a PR can always be reopened; merge can be reverted.
 I am closing this pull request for now. Please let me know if you have any questions.
 
 
+### Conflicting and duplicate PRs
+To find duplicates PRs: 
+
+1. Sort PR from the oldest
+1. Search for PRs with similar content
+1. Merge from the oldest to the newest
+
+There will be probably merge conflicts; if it is the case, notify the contributor with this template text:
+  
+#### Template text
+> We apologize for the inconvenience; however, while your PR was in the review queue someone else proposed the same file and their contribution was merged. As a result we need to resolve merge conflicts in order to merge your changes. If you're unsure about this process feel free to reach out in the contributor Gitter channel or comment below. We recommend you review the existing file and propose how you could incorporate your own ideas while maintaining the other contributors work. We will be closing this PR for now, but if you still want to see your changes added let us know and we can open it for additional commits.
+Thank you for contributing! Keep up the awesome work 
+
 ### Requesting changes
 
 If a pull request is not perfect we can:
