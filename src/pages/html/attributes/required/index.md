@@ -1,15 +1,15 @@
----
-title: Required
----
-## Required
+HTML 5 introduces the "required" attribute, making input validation easier. 
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/attributes/required/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+For example, this is the code for textbox validation using the required attribute. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+<!DOCTYPE html>
+<html>
+<body>
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+<form action="/action_page.php">
+  Username: <input type="text" name="usrname" required>   //Adding "required" to the input tag is all it takes. 
+  <input type="submit">
+</form>
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+</body>
+</html>
