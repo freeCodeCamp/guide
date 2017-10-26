@@ -11,7 +11,7 @@ Commits are at the heart of Git usage. You can think of a commit as a snapshot o
 - if multiple commits edit different parts of the project, they will not overwrite each other even if the authors of the commit were unaware of each other. This is one of the benefits of using Git over a tool like Dropbox or Google Drive.
 
 ### Options
-There are a number of options that you can include with `git commit`. However, this guide will only cover the two most common options. For an extensive list of options, please consult the <a href='https://git-scm.com/docs/git-commit' target='_blank' rel='nofollow'>Git documentation</a>.
+There are a number of options that you can include with `git commit`. However, this guide will only cover the most common options. For an extensive list of options, please consult the <a href='https://git-scm.com/docs/git-commit' target='_blank' rel='nofollow'>Git documentation</a>.
 
 #### The -m Option
 The most common option used with `git commit` is the `-m` option. The `-m` stands for message. When calling `git commit`, it is required to include a message. The message should be a short description of the changes being committed. The message should be at the end of the command and it must be wrapped in quotations `" "`.
@@ -43,10 +43,20 @@ The output in your terminal should look something like this:
 [master 22gc8v1] My new message
  1 file changed, 1 insertion(+)
 ```
-#### Changing the last commit
-Let's say you just committed and you made a mistake in your commit log message, we can conveniently modify the most recent commit using the command :
+#### The --amend Option
+The `--amend` option allows you to change your last commit. Let's say you just committed and you made a mistake in your commit log message. You can conveniently modify the most recent commit using the command:
 ```shell
 git commit --amend -m "an updated commit message"
 ```
-Premature commits happen all the time in the course of your everyday development. It’s easy to forget to stage a file or to format your commit message the wrong way. The --amend flag is a convenient way to fix these minor mistakes.This command will replace the old commit message with the updated one specified in the command.
-Amended commits are actually entirely new commits and the previous commit will no longer be on your current branch.It has to be kept in mind that this should not be done if the last commit is already pushed into the repository.
+If you forget to include a file in the commit:
+```shell
+git add FORGOTTEN-FILE-NAME
+git commit --amend -m "an updated commit message"
+
+# If you don't need to change the commit message, use the --no-edit option
+git add FORGOTTEN-FILE-NAME
+git commit --amend --no-edit
+```
+Premature commits happen all the time in the course of your day-to-day development. It’s easy to forget to stage a file or how to correctly format your commit message. The `--amend` flag is a convenient way to fix these minor mistakes. This command will replace the old commit message with the updated one specified in the command.
+
+Amended commits are actually entirely new commits and the previous commit will no longer be on your current branch. When you're working with others, you should try to avoid amending commits if the last commit is already pushed into the repository.
