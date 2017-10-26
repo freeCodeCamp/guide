@@ -30,5 +30,5 @@ _Note: Do not include the dot in the HTML Class Attribute, referring to the clas
 
 #### More Information:
 [Bootstrap Glyphicons](https://getbootstrap.com/docs/3.3/components/#glyphicons)
-
+<a href='https://glyphicons.com/' target='_blank' rel='nofollow'>Glyphicons official website</a>
 
