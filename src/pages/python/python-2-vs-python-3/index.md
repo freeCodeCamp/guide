@@ -16,6 +16,9 @@ In Python 3, this would throw an error somewhat like this:
         print "hello"
                     ^
     SyntaxError: Missing parentheses in call to 'print'
+    
+In Python 2, “print” is treated as a statement rather than a function. There is no need to wrap the text you want to print in parentheses, although you can if you want.
+Python 3 explicitly treats “print” as a function, which means you have to pass the items you need to print to the function in parentheses in the standard way, or you will get a syntax error
 
 We won't be diverted in our discussion any further trying to document all these differences - but <a href='http://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html' target='_blank' rel='nofollow'>this</a> might of interest to you, if you are into it.
 
