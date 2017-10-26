@@ -19,19 +19,19 @@ You can initialize more than one variable of the same type in the first part of 
 * `increment` - Invoked after each iteration through the loop. You can increase/decrease the value of variables here.
 
 ```java
-int iter_For;
-for (iter_For = 0; iter_For < 10; iter_For++)
+int index;
+for (index = 0; index < 10; index++)
 {
-    System.out.print(iter_For + " ");
-    // Iterated 10 times, iter_For 0,1,2...9
+    System.out.print(index + " ");
+    // Iterated 10 times, index 0,1,2...9
 }
-System.out.println("iter_For Value: " + fooFor);
+System.out.println("index value after loop: " + index);
 ```
 
 Output:
 ```
 0 1 2 3 4 5 6 7 8 9
-iter_For Value: 10
+index Value: 10
 ```
 
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CJYr/0' target='_blank' rel='nofollow'>Run Code</a>
