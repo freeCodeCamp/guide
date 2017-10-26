@@ -59,3 +59,14 @@ div {
 It uses very similar code, but with inset value, which displays shadow inside div element
 
 ![image](https://raw.githubusercontent.com/krzysiekh/images/master/box-shadow2.png)
+
+#### Multiple box shadows
+```css
+div {
+    width: 200px;
+    height: 50px;
+    background-color: #333;
+    box-shadow: inset 10px 10px 5px #ccc, 10px 10px 5px #ccc;
+}
+```
+You can combine the previous two pieces of box-shadows using a comma to get multiple box shadows on the same div
