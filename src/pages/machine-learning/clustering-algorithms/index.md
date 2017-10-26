@@ -2,7 +2,7 @@
 title: Clustering Algorithms
 --- 
 # Clustering Algorithms
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>
+
 Clustering helps in finding structure in a collection of unlabelled data.  It is a part of of unsupervised learning. 
 
 Points within the same cluster should be similar to each other and points in different clusters must be different from each other.
