@@ -3,13 +3,49 @@ title: Center an Image Using Text Align Center
 ---
 ## Center an Image Using Text Align Center
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/tutorials/center-an-image-using-text-align-center/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+```img``` is an inline element. It can be easily centered by adding the ```text-align: center;``` CSS property to the parent element that contains it.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Example
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Center an Image using text align center</title>
+    <style>
+      .img-container {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="img-container"> <!-- Block parent element -->
+      <img src="user.png" alt="John Doe">
+    </div>
+  </body>
+</html>
+```
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+**Note:** The parent element must be a block element. If it is not a block element, you should add ```display: block;``` CSS property along with the ```text-align``` property.
 
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Center an Image using text align center</title>
+    <style>
+      .img-container {
+        text-align: center;
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <span class="img-container"> <!-- Inline parent element -->
+      <img src="user.png" alt="">
+    </span>
+  </body>
+</html>
+```
 
+**Demo:** [Codepen](https://codepen.io/aravindio/pen/PJMXbp)
