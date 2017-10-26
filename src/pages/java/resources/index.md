@@ -23,6 +23,7 @@ Java is trademarked and licensed by Oracle. Most of the following are un-officia
 *   <a href='https://github.com/iluwatar/java-design-patterns/' target='_blank' rel='nofollow'>Java Design Patterns</a>
 *   <a href='https://github.com/pedrovgs/Algorithms' target='_blank' rel='nofollow'>Algorithms in Java</a>
 *   <a href='https://spring.io/guides' target='_blank' rel='nofollow'>Spring Official Guides</a>
+*   <a href='https://www.gitbook.com/book/ncrcoe/java-for-small-teams/details' target='_blank' rel='nofollow'>Java for small teams</a>
 
 ## Challenges
 
