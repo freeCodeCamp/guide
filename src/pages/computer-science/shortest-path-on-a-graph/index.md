@@ -4,11 +4,12 @@ title: Shortest Path on a Graph
 ## Shortest Path on a Graph
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-Finding the shortest path between two points on a graph is a common problem in data structures especially when dealing with optimization. A graph is a series of nodes connected by weighted edges.
+Finding the shortest path between two points on a graph is a common problem in data structures especially when dealing with optimization. A graph is a series of nodes connected by weighted edges. _Shortest path_ refers to the lowest-weight path, and not necessarily to the path with the lowest _number of edges_.
 
 Some applications of this are flight path optimization or [6 degrees of Kevin Bacon](https://en.wikipedia.org/wiki/Six_Degrees_of_Kevin_Bacon)
 
-The most commen solution for this problem is Dijkstra's algorithm which updates the shortest path between the current node and all of its neighbors. After updating the distance of all of the neighbors it moves to the node with the lowest distance and repeats the process with all unvisted neighbors. This process continues until the entire graph has been visited.
+The most common solution for this problem is Dijkstra's algorithm which updates the shortest path between the current node and all of its neighbors. After updating the distance of all of the neighbors it moves to the node with the lowest distance and repeats the process with all unvisted neighbors. This process continues until the entire graph has been visited. Usual implementations of this algorithm compute and store the minimum cost from the initial node to _all_ other nodes.
+
 
 ![Image of Levels of Code](https://upload.wikimedia.org/wikipedia/commons/5/57/Dijkstra_Animation.gif)
 
