@@ -15,11 +15,11 @@ Social Engineering is the art of gaining access to a secured system or resource 
 
 #### Some examples of Social Engineering hacks
 
-* Baiting: Leaving a malware infected USB at a coffee shop in the hope that someone is curious enough to plug it in and check it out. Once the person plugs the USB in, malware is installed on their computer.
+* Baiting: Leaving a malware infected USB at a coffee shop in the hope that someone is curious enough to plug it in and check it out. Once the person plugs the USB in, malware is installed on their computer. See "More Information" for a Black Hat talk about leaving infected USB drives behind for potential targets and the results of such attacks.
 
-* Pretexting: Telling lies to gain access to private information. An example would be impersonating a bank officer and asking people for personal information to 'confirm their account'.
+* Pretexting: Telling lies to gain access to private information. An example would be impersonating a bank officer and asking people for personal information to 'confirm their account'. See "More Inforamtion" for a Pre-texting example where a social engineer makes changes to a target's cell phone account with very little known information. 
 
-* Phishing: Sending an email which looks like it is from a trusted source to bait the user into clicking a link (to install malware) or replying with private information.
+* Phishing: Sending an email which looks like it is from a trusted source to bait the user into clicking a link (to install malware) or replying with private information. See "More Information" for a link to test your phishing knowledge and see if you can tell the differece between a real e-mail and a phishing e-mail.
 
 
 
@@ -31,5 +31,11 @@ Read on more information on social engineering hacks and steps you can take to p
 
 <a href='https://www.darkreading.com/the-7-best-social-engineering-attacks-ever/d/d-id/1319411?' target='_blank' rel='nofollow'>7 Best Social Engineering Hacks Ever</a>
 
+<a href='https://www.youtube.com/watch?v=YVqurfWzB-Q' target='blank' rel='nofollow'>Hacking Humans : Social Engineering Techniques and How to Protect Against Them</a>
 
+<a href='https://www.youtube.com/watch?v=XJCQBqTmGUU' target='blank' rel='nofollow'>Does Dropping USB Drives in Parking Lots and Other Places Really Work?</a> 
+
+<a href='https://www.youtube.com/watch?v=lc7scxvKQOo' target='blank' rel='nofollow'>Example of Pretexting</a>
+
+<a href='https://www.sonicwall.com/en-us/phishing-iq-test' target='blank' rel='nofollow'>Test your Phishing IQ</a>
 
