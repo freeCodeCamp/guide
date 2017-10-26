@@ -1,8 +1,7 @@
 ---
 title: Redux
 ---
-## Redux
-
+## Redux ![Image o Redux](https://raw.githubusercontent.com/reactjs/redux/master/logo/logo-title-dark.png)
 Redux is a predictable state container for JavaScript apps.
 
 It helps you write applications that behave consistently, run in different environments (client, server, and native), and are easy to test. On top of that, it provides a great developer experience, such as live code editing combined with a time traveling debugger.
