@@ -23,7 +23,6 @@ Code example:
     <input type="password" name="password" id="password">
     <input type="radio" name="gender" value="male">Male<br>
     <input type="radio" name="gender" value="female">Female<br>
-    <input type="radio" name="gender" value="other">Other
     <input type="submit" value="Submit">
 </form>
 ```
