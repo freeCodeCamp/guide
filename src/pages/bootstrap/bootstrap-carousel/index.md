@@ -121,7 +121,26 @@ g) `carousel-caption` :- This class let you add captions to each slide.
 
 Note: Add `class="carousel-caption"` for each item.
 
+#### 3) Events
 
+Bootstrap’s carousel class exposes two events for hooking into carousel functionality. Both events have the following additional properties:
+
+    direction: The direction in which the carousel is sliding (either "left" or "right").
+    relatedTarget: The DOM element that is being slid into place as the active item.
+    from: The index of the current item
+    to: The index of the next item
+
+All carousel events are fired at the carousel itself (i.e. at the <div class="carousel">).
+    Event Type 	                                  Description
+slide.bs.carousel 	This event fires immediately when the slide instance method is invoked.
+slid.bs.carousel 	This event is fired when the carousel has completed its slide transition.
+```html  
+$('#myCarousel').on('slide.bs.carousel', function () {
+  // do something…
+})
+  
+```
+  
 #### Additional Details : <a href='https://getbootstrap.com/docs/4.0/components/carousel/' target='_blank' rel='nofollow'>Bootstrap Carousel</a>
 
 
