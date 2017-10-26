@@ -7,8 +7,8 @@ CSS buttons are a way to make normal buttons look amazing using CSS. They are se
 ###### Note : This article assumes that you already know CSS basics.
 
 A basic example -
-[The css button looks much better than the default as it is bigger, has more padding ,has no border,has a nice green background color with white text.](https://drive.google.com/open?id=0B9-JQMNx6A1aWEp5c0dHVjBOeVk)
-
+<!-- ![](https://drive.google.com/open?id=0B9-JQMNx6A1aWEp5c0dHVjBOeVk) -->
+<img src="https://drive.google.com/open?id=0B9-JQMNx6A1aWEp5c0dHVjBOeVk" alt="The css button looks much better than the default as it is bigger, has more padding ,has no border,has a nice green background color with white text.">
  Many CSS properties can be changed to give the button a custom look.
  <ul>
 <li>background-color</li>
