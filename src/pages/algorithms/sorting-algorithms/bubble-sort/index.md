@@ -57,4 +57,17 @@ while(!sorted) {
 }
 ```
 
+### Properties:
+* Space Complexity: O(1)
+* Time Complexity: O(n), O(n* n), O(n* n) for Best, Average and Worst cases respectively.
+* In place: Yes
+* Stable: Yes
 
+
+#### Visualization:
+- <a href='https://www.hackerearth.com/practice/algorithms/sorting/bubble-sort/visualize/' target='_blank' rel='nofollow'>Hackerearth</a>
+
+
+#### More Information:
+
+- <a href='https://en.wikipedia.org/wiki/Insertion_sort' target='_blank' rel='nofollow'>Wikipedia</a>
