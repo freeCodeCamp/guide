@@ -2,7 +2,7 @@
 title: Git Commit
 ---
 
-## Git Commit
+### Git Commit
 The `git commit` command will save all staged changes, along with a brief description from the user, in a "commit" to the local repository.
 
 Commits are at the heart of Git usage. You can think of a commit as a snapshot of your project, where a new version of that project is created in the current repository. Two important features of commits are:
