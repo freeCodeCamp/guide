@@ -22,7 +22,8 @@ Bootstrap’s dropdowns are designed to be generic and applicable to a variety o
   </div>
 </div>
 ```
-
+Bootstrap Dropdown Example: 
+![alt text](http://www.wecodeyoursite.com/blog/wp-content/uploads/2014/02/bootstrap-dropdown.png)
 
 ## Example Explained
 The *.dropdown* class indicates a dropdown menu.
