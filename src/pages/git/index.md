@@ -93,3 +93,5 @@ This article uses information from the <a href='https://github.com/progit/progit
 
 ### More Information: <a name="more-information"></a>
 - For downloads, documentation, and a browser-based tutorial: <a href='https://git-scm.com/' target='_blank' rel='nofollow'>Git official website</a>
+
+- The publish only version of git code in GitHub: <a href='https://github.com/git/git' target='_blank' rel='nofollow'>Git Source Code Mirror</a>
