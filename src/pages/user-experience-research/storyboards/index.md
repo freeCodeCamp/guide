@@ -3,13 +3,12 @@ title: Storyboards
 ---
 ## Storyboards
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/user-experience-research/storyboards/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Storyboards are used to paint a visual picture of a user's journey with a product or software. 
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Storyboarding involves using visual images to create a story. This creates a more lasting impression than plain text. 
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+### More Information:
+To learn more about storyboarding, you visit this [link](https://uxplanet.org/storyboarding-in-ux-design-b9d2e18e5fab?gi=84d3b1dc4704) 
 
 
