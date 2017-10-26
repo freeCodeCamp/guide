@@ -5,6 +5,8 @@ import Helmet from 'react-helmet';
 
 import Breadcrumbs from '../templateComponents/Breadcrumbs.jsx';
 
+import titleify from '../../utils/titleify';
+
 const propTypes = {
   data: PropTypes.object,
   location: PropTypes.object
@@ -22,6 +24,21 @@ function Article(props) {
       title
     }
   } = article;
+
+  const pathMap = pathname
+    // remove leading and trailing slash
+    .replace(/^\/([a-z0-9/-]+[^/])\/?$/i, '$1')
+    .split('/');
+
+  var metaTitle = '';
+  pathMap.forEach((title, i) => {
+    if (i === pathMap.length - 1) {
+      metaTitle += titleify(title);
+    } else {
+      metaTitle += titleify(title + ' | ');
+    }
+  });
+
   return (
     <div>
       <Helmet>
@@ -29,6 +46,14 @@ function Article(props) {
         <link
           href={ `https://guide.freecodecamp.org${slug}` }
           rel='canonical'
+        />
+        <meta
+          content={ `https://guide.freecodecamp.org${slug}` }
+          property='og:url'
+        />
+        <meta
+          content={ `${metaTitle}` }
+          property='og:title'
         />
       </Helmet>
       <Breadcrumbs path={ pathname } />
