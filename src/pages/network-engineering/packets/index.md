@@ -3,13 +3,8 @@ title: Packets
 ---
 ## Packets
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/network-engineering/packets/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Everything you do on the Internet involves (data) packets. Web pages come as a series of packets, and every e-mail you send leaves as a series of packets. On the Internet, the network breaks an e-mail message into parts of a certain size in bytes. These are the packets. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Example of how an email is sent through the Internet
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+Each email is composed of packets that carry the information to its destination.  The process begins at the sender's IP address, travels to the intended receiver's IP address, the network determines how many packets this e-mail message has been broken into. The packets carry the data using Transmission Control Protocol/Internet Protocol (TCP/IP). Each packet contains part of the body of your message. A typical packet contains perhaps approximately 1,500 bytes.
