@@ -17,6 +17,8 @@ int x;
 cin >> x;
 cout << "The output value of int x" << x << endl;
 
+return 0;
+}
 ```
 
 * The header file <iostream> is required for stream objects.
