@@ -3,13 +3,43 @@ title: Array.prototype.reduce
 ---
 ## Array.prototype.reduce
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/standard-objects/array/array-prototype-reduce/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The reduce() method runs the provided callback function against all elements of the array (left to right), and an accumulator to reduce the array to a single value.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+>`arr.reduce(callback, initialValue);`
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+The `callback` is a function that is provided the following 4 arguments:  
+1. `accumulator` - The accumulator accumulates the callback's return values. It's value is the previously returned value from the last invocation of teh callback, or `initialValue` if it was supplied.  
+2. `currentValue` - The current element being processed from the array.  
+3. `currentIndex` - The index of the current element being processed in the array. Starts at index 0 if an `initialValue` is provided, and at index 1 otherwise.  
+4. `array` - The arry reduce was called upon.  
+
+The `**initialValue**` is an **optional** argument. It is applied on the first call of the callback. If no `initialValue` is supplied, the first element in the array will be used.
+
+### Examples
+
+**ES5**
+```
+[0, 1, 2, 3, 4].reduce(
+  function(
+    accumulator,
+    currentValue,
+    currentIndex,
+    array,
+  ) {
+    return accumulator + currentValue;
+  }
+);
+// Result = 10
+```
+
+**ES6**
+```
+[0, 1, 2, 3, 4].reduce(
+  (accumulator, currentValue) => accumulator + currentValue
+);
+// Result = 10
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
+[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce?v=a)
 
