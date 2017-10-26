@@ -1,3 +1,7 @@
+---
+title: PHP Sessions
+---
+
 # PHP Sessions
 
 A session is a way to store information (in variables) to be used across multiple pages.  
