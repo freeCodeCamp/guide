@@ -3,13 +3,15 @@ title: Body Bgcolor Attribute
 ---
 ## Body Bgcolor Attribute
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/attributes/body-bgcolor-attribute/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The <body> bgcolor attribute is used to change the background color of the HTML <body> tag.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+A good example is given [here](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_body_bgcolor).
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### Attribute Values
+<ol>
+<li>Color Names   :  Specifies the background color with a color name (like "red")</li>
+<li>Hex values  :  Specifies the background color with a hex code (like "#ff0000")</li>
+<li>RGB values :  Specifies the background color with an rgb code (like "rgb(255,0,0)")</li>
+</ol>
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+The <body> bgcolor attribute is deprecated in HTML5. Use CSS instead.
