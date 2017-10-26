@@ -3,13 +3,25 @@ title: HTML Entities
 ---
 ## HTML Entities
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/html-entities/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+In HTML characters like ```<```, ```>``` has special meaning. For example, if you use ```<``` character, browser will parse it as a beginning of an HTML element tag. Instead you need to use HTML entity&mdash;a string beginning with ```&``` and ending with ```;```. And for any special symbol there is an HTML entity.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+| Character | Entity        |
+|-----------|---------------|
+| <         | ```&lt;```    |
+| >         | ```&gt;```    |
+| &amp;     | ```&amp;```   |
+| &quot;    | ```&quot;```  |
+| &mdash;   | ```&mdash;``` |
+| &copy;    | ```&copy;```  |
+| &reg;     | ```&reg;```   |
+| &euro;    | ```&euro;```  |
+| &pound;   | ```&pound;``` |
+| &Theta;   | ```&Theta;``` |
+| &int;     | ```&int;```   |
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Alternatively you can copy/paste UTF-8 (uncode) charaters directly to you HTML.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+[Official list of character entities](https://dev.w3.org/html5/html-author/charref)
 
 
