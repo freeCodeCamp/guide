@@ -9,6 +9,8 @@ Like all computer languages, JavaScript has certain advantages and disadvantages
 *   **Simplicity**. JavaScript is relatively simple to learn and implement.
 *   **Versatility**. JavaScript plays nicely with other languages and can be used in a huge variety of applications. Unlike PHP or <a href='https://en.wikipedia.org/wiki/Server_Side_Includes' target='_blank' rel='nofollow'>SSI</a> scripts, JavaScript can be inserted into any web page regardless of the file extension. JavaScript can also be used inside scripts written in other languages such as Perl and PHP.
 *   **Server Load**. Being client-side reduces the demand on the website server.
+*   **Rich interfaces**. Drag and drop components or slider may give a rich interface to your website.
+
 
 ## Disadvantages of JavaScript
 
