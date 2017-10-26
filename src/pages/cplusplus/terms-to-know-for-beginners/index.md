@@ -106,7 +106,7 @@ This is because we did not add the inverted commas for the second print statemen
 
 * Comments are an important feature of many programming languages . They allow the programmer to take notes for self help, and won't affect the running of the program .
 
-**The differentt types of comments and Syntax of a comment** :
+**The different types of comments and Syntax of a comment** :
   1 `//`  ~ _Single Line Comments_  : The length of these comments is 1 line (the line it is typed on) .
   2 `/* */` ~ _Multi Line Comments_ : These comments can take up a space of more than one line.
 
