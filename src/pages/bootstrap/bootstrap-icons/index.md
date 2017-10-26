@@ -28,7 +28,9 @@ This is an example of the CSS classes that bootstrap provides for glyphicons. Mo
 
 _Note: Do not include the dot in the HTML Class Attribute, referring to the classes with a dot is only used when adjusting the classes in CSS._
 
+## Note
+Bootstrap 4 dropped Glyphicons. As an alternative, you can use <a href='http://fontawesome.io/icons/' target='_blank' rel='nofollow'>Font Awesome Icons</a>.
+
 #### More Information:
 <a href='https://getbootstrap.com/docs/3.3/components/#glyphicons' target='_blank' rel='nofollow'>Bootstrap Glyphicons</a>
-
 
