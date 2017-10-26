@@ -19,3 +19,16 @@ etc..
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 * <a href='https://aws.amazon.com/' target='_blank' rel='nofollow'>AWS</a>
+* <a href='https://aws.amazon.com/sdkforandroid/' target='_blank' ref='nofollow'>AWS SDK for Android</a>
+* <a href='https://aws.amazon.com/sdkforbrowser/' target='_blank' ref='nofollow'>AWS SDK for Browser</a>
+* <a href='https://aws.amazon.com/sdkforios/' target='_blank' ref='nofollow'>AWS SDK for iOS</a>
+* <a href='https://aws.amazon.com/sdkforjava/' target='_blank' ref='nofollow'>AWS SDK for Java</a>
+* <a href='https://aws.amazon.com/sdkfornet/' target='_blank' ref='nofollow'>AWS SDK for .NET</a>
+* <a href='https://aws.amazon.com/sdkfornodejs/' target='_blank' ref='nofollow'>AWS SDK for Node.js</a>
+* <a href='https://aws.amazon.com/sdk-for-php/' target='_blank' ref='nofollow'>AWS SDK for PHP</a>
+* <a href='https://aws.amazon.com/sdk-for-python/' target='_blank' ref='nofollow'>AWS SDK for Python</a>
+* <a href='https://aws.amazon.com/sdkforruby/' target='_blank' ref='nofollow'>AWS SDK for Ruby</a>
+* <a href='https://aws.amazon.com/sdk-for-go/' target='_blank' ref='nofollow'>AWS SDK for Go</a>
+* <a href='https://aws.amazon.com/sdk-for-cpp/' target='_blank' ref='nofollow'>AWS SDK for C++</a>
+* <a href='https://aws.amazon.com/mobile/sdk/' target='_blank' ref='nofollow'>AWS Mobile SDK</a>
+* <a href='https://aws.amazon.com/iot/sdk/' target='_blank' ref='nofollow'>AWS IoT Device SDK</a>
