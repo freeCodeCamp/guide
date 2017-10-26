@@ -2,14 +2,17 @@
 title: Active
 ---
 ## Active
+The active pseudo class selector is generally used on links (anchor tags), to add styling to the active state on the element. I.e. when a link is clicked.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/selectors/pseudo/active/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+**Styling for the active state:**
+```css
+.foo {
+  color: green;
+}
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+.foo:active {
+  color: red;
+}
+```
 
 
