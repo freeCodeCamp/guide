@@ -18,7 +18,7 @@ The BST is build up on the idea of a <a href='https://guide.freecodecamp.org/alg
 
 Worst case scenario example - this can happen when you keep adding nodes that are ALWAYS larger than the node before(it's parent), the same can happen when you always add nodes with values lower than their parents.
 
-### Operations of the BST
+### Basic operations of the BST
 create - create a empty tree
 insert - insert a node to the tree
 search - searches for a node in the tree
@@ -27,6 +27,24 @@ delete - deletes a node from the tree
 Search - we always start searching the tree at the root node and go down from there. We compare the data in each node with the one we are looking for. If the compared node isn't the one we are looking then we either proceed to the right child or the left child. This decision depends on the outcome of the comparison, if the node that we are searching for is lower than the one we were comparing it with, we proceed to to the left child, otherwise if it's larger then we go to the right child. Why? Because the BST is structured, that the right child is always larger than the parent and the left child is always lesser. Time complexity depends on the height of the tree h, so the worst case is O(h).
 
 Insert - is very similar to the serach function. We again start at the root of the tree and recurseively go down, searching for the right place for our new node the same way as explained in the search function. If a node with the same value is already in the tree, we can choose to insert the duplicate or not. Some trees allow duplicates, some don't, it depends on the certain implementation.
+
+Deletion - there are 3 cases that can happen, when the node we are trying to delete has:
+1. no subtree(no children) - this one is the easiest, we simply just delete him, without any needed additional actions
+2. one subtree(one child) - we have to make sure that after the node is deleted that it's child is then connected to the deleted childs parent
+3. two subtrees(two children) - now we have to find and replace the node we want to delete with its successor(the letfmost node in the right subtree) 
+Time complexity depends on the height of the tree h, so the worst case is O(h). 
+
+### Successor
+
+### Predecessor
+
+### Special types of BT
+Heap
+Red-black tree
+B tree
+Splay tree
+N-ary tree
+Trie(Radix tree)
 
 ### Relevant videos on freeCodeCamp YouTube channel
 * <a href='https://youtu.be/5cU1ILGy6dM' target='_blank' rel='nofollow'>Binary Search Tree</a>
