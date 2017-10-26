@@ -13,3 +13,16 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
 
+The font-weight determines how thick or thin the characters in the text will be. 
+You can use:
+bold
+bolder
+normal
+lighter
+or you can use numbers 100-900 (thin to thick)
+400 is normal 
+700 is bold
+
+Font-style determines the style of the text
+italic
+bold
