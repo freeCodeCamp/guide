@@ -54,10 +54,11 @@ sudo apt-get install oracle-java8-installer`
 *   Either download Mac OSX .dmg executable from Oracle Downloads
 *   Or use <a href='http://brew.sh/' target='_blank' rel='nofollow'>Homebrew</a> to <a href='http://stackoverflow.com/a/28635465/2861269' target='_blank' rel='nofollow'>install</a> :
 
-`bash  
+```bash  
 brew tap caskroom/cask  
 brew install brew-cask  
-brew cask install java` 
+brew cask install java
+```
 
 ### Verify Installation
 
