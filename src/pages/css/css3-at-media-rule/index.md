@@ -6,10 +6,10 @@ title: CSS3 at Media Rule
 
 Media queries,implemented as `@media` rules in CSS are used to define and apply different CSS styles for different media types/devices.
 
-Media queries may be used to query for and several different parameters such as:
+Media queries may be used to query for several different parameters such as:
 
-* height of viewport using `width` 
-* width of viewport  using `height`
+* width of viewport using `width` 
+* height of viewport  using `height`
 * color              using `color`
 * resolution         using `resolution`
 
@@ -59,7 +59,7 @@ Entire external stylesheets can be applied for different devices and conditions 
 <link rel='stylesheet' media='screen and (min-width: 360px) and (max-width: 480px)' href='css/small-font.css' />
 ```
 
-Check browser compatibilty for different media queries and rules[here](https://developer.mozilla.org/en-US/docs/Web/CSS/@media#Browser_compatibility) or [here](http://cssmediaqueries.com/overview.html).
+Check browser compatibilty for different media queries and rules [here](https://developer.mozilla.org/en-US/docs/Web/CSS/@media#Browser_compatibility) or [here](http://cssmediaqueries.com/overview.html).
 
 ### Sources
 * [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/CSS/@media)
