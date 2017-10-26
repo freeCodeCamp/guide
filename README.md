@@ -74,6 +74,7 @@ We've written the following guide to writing Guide articles to help you get star
 - [Article title](#article-title)
 - [Modularity](#modularity)
 - [General writing tips](#general-writing-tips)
+- [Attribution](#attribution)
 - [Formatting example code](#formatting-example-code)
 - [Adding images to articles](#adding-images-to-articles)
 - [Adding links to articles](#adding-links-to-articles)
