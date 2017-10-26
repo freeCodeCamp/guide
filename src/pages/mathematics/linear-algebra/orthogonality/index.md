@@ -1,15 +1,16 @@
 ---
 title: Orthogonality
 ---
-## Orthogonality
+# Orthogonality
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/linear-algebra/orthogonality/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+## Vectors
+A set of vectors is **orthogonal** or **perpendicular** if their dot product is 0.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+In the example below, the two vectors are not orthogonal because their dot product is not 0.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+<img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/cc5bdd19a0812e351fb5bd137bc5851a53a6e04d">
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+## Matrices
+Matrix A is **orthogonal** if AA<sup>T</sup> = I, where A<sup>T</sup> is the transpose of matrix A and I is the identity matrix. It follows that A<sup>-1</sup> = A<sup>t</sup>, where A<sup>-1</sup> is the inverse of matrix A.
 
-
+<img src="https://i.imgur.com/LOFIYOm.png">
