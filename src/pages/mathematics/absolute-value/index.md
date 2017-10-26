@@ -3,6 +3,7 @@ title: Absolute Value
 ---
 ## Absolute Value
 
+Absolute value is the positive value of a number.
 You can think of a number's absolute value as its distance from zero.
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Absolute_value.svg/2000px-Absolute_value.svg.png" width="300">  
