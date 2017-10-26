@@ -18,7 +18,7 @@ With that, we get to step into the next higher dimesion. Planes in dimensions hi
 
 > It is important to understand that the W-axis as depicted here is perpendicular to all of the other coordinate axes. We may be tempted to try to point in the direction of W, but this is impossible because we are confined to 3-dimensional space.
 
-Because we live in a world that is 3-dimensional, we cannot comprehend any world that has dimensions higher than 3. 
+Because we live in a world that is 3-dimensional, its difficult for us to comprehend the world that has dimensions higher than 3. This is the reason for our intuition and imagination to be of limited help in higher dimensions.
 
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
