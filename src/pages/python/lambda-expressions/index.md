@@ -9,4 +9,6 @@ Lambda Expressions are ideally used when we have something simple to be done an 
 <a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
 
 #### More Information:
-https://docs.python.org/3/reference/expressions.html#lambda
+<!-- Please add any articles you think might be helpful to read before writing the article -->
+
+

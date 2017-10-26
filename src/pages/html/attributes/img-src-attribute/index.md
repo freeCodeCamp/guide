@@ -28,4 +28,4 @@ That Piece of code displays this:
 ### More Information:
 - The `src` attribute is supported by all browsers
 - You can have a locally hosted file as your image as well. For example, `<img src="images/freeCodeCamp.jpeg>` would work if you had a folder called images with that image inside in the same file as your `index.html` file
-- Further reading: [HTML.com](https://html.com/attributes/img-src/)
+- Further reading: <a href='https://html.com/attributes/img-src/' target='_blank' rel='nofollow'>HTML.com</a>

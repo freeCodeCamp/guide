@@ -47,7 +47,7 @@ function Layout(props) {
           </Navbar>
         </Row>
       </Grid>
-      <Grid>
+      <Grid bsClass='container contentContainer'>
         <Row>
           <Col md={ 4 }>
             <SideNav />
