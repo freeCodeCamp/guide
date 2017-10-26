@@ -45,7 +45,7 @@ Mac OS X and many Linux distributions come pre-installed with Ruby. To check if 
 *   Managers help you to switch between multiple Ruby installations on your system.
 *   And finally, you can also build Ruby from source.
 
-To know about how to install Ruby through package managers, installers and source, click <a href='https://www.ruby-lang.org/en/documentation/installation/' target='_blank' rel='nofollow'>here</a>. RVM (Ruby Version Manager) and rbenv are the most popular Ruby managers to manage multiple Rubies. If you get stuck anywhere, don't worry, just head over to our <a href='https://gitter.im/FreeCodeCamp/ruby' target='_blank' rel='nofollow'>Gitter chat room</a> and ask us anything.
+To learn how to install Ruby through package managers, installers and source, click <a href='https://www.ruby-lang.org/en/documentation/installation/' target='_blank' rel='nofollow'>here</a>. RVM (Ruby Version Manager) and rbenv are the most popular Ruby managers to manage multiple Rubies. If you get stuck anywhere, don't worry, just head over to our <a href='https://gitter.im/FreeCodeCamp/ruby' target='_blank' rel='nofollow'>Gitter chat room</a> and ask us anything.
 
 ## IRB
 
@@ -76,7 +76,7 @@ From command-line:
 ## Documentation
 
 Ruby is well <a href='https://www.ruby-lang.org/en/documentation/' target='_blank' rel='nofollow'>documented</a>. These docs include tutorials, guides, references and meta information for language.  
-Another important resouce for documentation is <a href='http://ruby-doc.org/core-2.3.0/' target='_blank' rel='nofollow'>Ruby Doc</a>. You should visit this <a href='https://github.com/airbnb/ruby' target='_blank' rel='nofollow'>link</a> to know more about Ruby style guide, written by developers of AirBnB.
+Another important resouce for documentation is <a href='http://ruby-doc.org/core-2.3.0/' target='_blank' rel='nofollow'>Ruby Doc</a>. You should visit this <a href='https://github.com/airbnb/ruby' target='_blank' rel='nofollow'>link</a> to learn more about Ruby style guide, written by developers of AirBnB.
 
 ## Debugging
 
