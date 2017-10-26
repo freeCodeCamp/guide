@@ -10,7 +10,7 @@ The terms above can be simplified as follows:
  
 <img src="https://github.com/codersc/freeCodeCamp-article-images/blob/master/article1img2.png?raw=true" alt="Formula showing 2 times the square root of 3 plus 2 times the square root of 3 equals (2 + 2) times the square root of 3 which equals 4 times the square root of 3">
  
-Expressions with unlike radicals can be simplified in some cases. Notice that the principal roots of 100 and 9 are whole numbers. 
+Expressions with unlike radicals can be simplified in some cases. Notice that the principal roots of 100 and 9 are square numbers. 
 
 <img src="https://github.com/codersc/freeCodeCamp-article-images/blob/master/article1img3.png?raw=true" alt="Formula showing the square root of 100 plus the square root of 9 equals 10 plus 3 which equals 13">
 
