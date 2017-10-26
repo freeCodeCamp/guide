@@ -3,6 +3,8 @@ title: Bootstrap
 ---
 ## Bootstrap
 
+//mau belajar bikin pr
+
 Bootstrap is a popular front-end framework for web development. It contains pre-built components and design elements that can easily be added to a web project to style typography, forms, buttons, etc. It is widely supported and usable on modern browsers like Chrome, Firefox, Opera, Safari, and Internet Explorer (supported from IE8 on).
 
 Bootstrap includes a responsive grid system for responsive layouts and is a great starting point for building a mobile-friendly website. It also includes optional JavaScript functionality like collapsible content, carousels, and modals.
