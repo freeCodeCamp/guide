@@ -23,11 +23,10 @@ The 4 most used Clustering Algorithms are:
 * [Heirarchical](https://home.deib.polimi.it/matteucc/Clustering/tutorial_html/hierarchical.html) Heirarchical Clustering algorithm
 * [Mixture of Gaussians](https://home.deib.polimi.it/matteucc/Clustering/tutorial_html/mixture.html) Probablistic Clustering algorithm
 
-
 ### More Information:
 
- * [Clustering Algorithms-Stanford University Slides](https://web.stanford.edu/class/cs345a/slides/12-clustering.pdf)
- * [Cluster Analysis-Wikipedia](https://en.wikipedia.org/wiki/Cluster_analysis)
- * [Clustering Algorithms: From Start To State Of The Art](https://www.toptal.com/machine-learning/clustering-algorithms) 
- * [Cluster Analysis: Basic Concepts and Algorithms](https://www-users.cs.umn.edu/~kumar/dmbook/ch8.pdf) 
+ [Clustering Algorithms-Stanford University Slides](https://web.stanford.edu/class/cs345a/slides/12-clustering.pdf)
+ [Cluster Analysis-Wikipedia](https://en.wikipedia.org/wiki/Cluster_analysis)
+ [Clustering Algorithms: From Start To State Of The Art](https://www.toptal.com/machine-learning/clustering-algorithms) 
+ [Cluster Analysis: Basic Concepts and Algorithms](https://www-users.cs.umn.edu/~kumar/dmbook/ch8.pdf) 
  
