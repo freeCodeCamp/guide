@@ -65,6 +65,9 @@ This is a list of the CSS classes for different size of the buttons.
 
 _Note: Do not include the dot in the HTML Class Attribute, referring to the classes with a dot is only used when adjusting the classes in CSS._
 
+Bootstrap Button Examples: 
+![alt text](https://bridge.net/wp-content/uploads/bootstrap-buttons-img-01.png)
+
 #### More Information: 
 * [Bootstrap Buttons documentation](https://getbootstrap.com/docs/4.0/components/buttons/)
 * [Bootstrap Get Started](/articles/bootstrap/bootstrap-get-started)
