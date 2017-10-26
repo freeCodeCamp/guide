@@ -31,6 +31,29 @@ var myObject = {
 myObject.fullName();         // Function invoked as a method, will return "John Doe"
 ```
 
+
+### Arrow Functions
+In the newest version of Javascript, you can also shorten the syntax by using Arrow Functions.
+The following demonstrates two functions.  One is written in the standard form, one is written as an arrow function.  Keep in mind that arrow functions do not have their own this, arguments, super, or new.target.
+```javascript
+
+//regular function
+
+function addStuff(args) {
+   return args + 2;
+ }
+ 
+ addStuff(2);
+ //returns 4
+ 
+ //arrow function
+ 
+ var addStuff = (args) => args + 2;
+ addStuff(2);
+ //returns 4
+ 
+```
+
 ### More Information:
 - Function documentation: [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
 
