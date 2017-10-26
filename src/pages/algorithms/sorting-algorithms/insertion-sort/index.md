@@ -117,8 +117,13 @@ A quick implementation in Swift is as shown below :
 
 ### Properties:
 * Space Complexity: O(1)
-* Time Complexity: O(n*n)
+* Time Complexity: O(n), O(n* n), O(n* n) for Best, Average, Worst cases respectively
+* Sorting In Place: Yes
 * Stable: Yes
+
+
+#### Visualization:
+- <a href='https://www.hackerearth.com/practice/algorithms/sorting/insertion-sort/visualize/' target='_blank' rel='nofollow'>Hackerearth</a>
 
 #### More Information:
 
