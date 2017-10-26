@@ -42,8 +42,8 @@ Asymmetric algorithms provides each user with a pair of keys: one public and one
 
 Some techniques are: RSA, Diffie-Hellman, DSS(Digital Signature Standard), ElGamal.
 
-### Hashing
-Information to be added.
+### Cryptography Hashing
+A cryptographic hash function is a type of hash function that is designed to also be a one-way function (a function that takes too much time and resources to brute force). The main purpose of hashes deal with message intregrity, so the same message always results in the same hash.
 
 #### More Information:
 
