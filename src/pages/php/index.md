@@ -21,3 +21,7 @@ It is typically used to generate web page content dynamically. For example, if y
 ## How does PHP work?
 
 All PHP code is executed on a web server only, not on your local computer. For example, if you complete a form on a website and submit it, or click a link to a web page written in PHP, no actual PHP code runs on your computer. Instead, the form data or request for the web page gets sent to a web server to be processed by the PHP scripts. The web server then sends the processed HTML back to you (which is where 'Hypertext Preprocessor' in the name comes from), and your web browser displays the results. For this reason, you cannot see the PHP code of a website, only the resulting HTML that the PHP scripts have produced.
+
+## What is the latest version?
+
+The PHP development team announces the immediate availability of PHP 7.2.0 RC4. This release is the fourth Release Candidate for 7.2.0. All users of PHP are encouraged to test this version carefully, and report any bugs and incompatibilities in the bug tracking system.
