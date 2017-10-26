@@ -3,13 +3,17 @@ title: Hover
 ---
 ## Hover
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/selectors/pseudo/hover/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The hover pseudo class selector is generally used for styling elements which are being hovered, to add styling to the hover state on the element. I.e. when hovering over a button, you change the color.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+**Styling for the hover state:**
+```css
+.foo {
+  color: green;
+}
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+.foo:hover {
+  color: red;
+}
+```
 
 
