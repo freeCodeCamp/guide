@@ -29,10 +29,10 @@ A very important thing about `setTimeout()` is that it will be executed asynchro
     console.log("A");
     setTimeout(function(){ console.log("B"); }, 0);
     console.log("C");
-    //The order in the console will be 
-    //A
-    //C
-    //B
+    // The order in the console will be 
+    // A
+    // C
+    // B
 ```
 
 **Not as exepected! But we specify only 0 seconds!!!**
@@ -40,14 +40,14 @@ To solve this problem and make sure that our code will execute synchronously we 
 
 ```js
     console.log("A");
-    setTimeout(function(){ 
-    console.log("B"); 
-    console.log("C");
+    setTimeout(function() { 
+      console.log("B"); 
+      console.log("C");
     }, 0); 
-    //The order in the console will be 
-    //A
-    //B
-    //C
+    // The order in the console will be 
+    // A
+    // B
+    // C
 ```
 
 #### More Information:
