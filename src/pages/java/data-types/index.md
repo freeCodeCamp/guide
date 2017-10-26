@@ -1,7 +1,7 @@
 ---
-title: Java Docs Data Types
+title: Data Types
 ---
-# Java Data-Types
+# Data Types
 
 Java is a strongly typed language. This means that, in Java, each data type has its own strict definition. There are no implicit data type conversions when any conflicts occur between the data types. Any change in data types should be explicitly declared by the programmer.
 

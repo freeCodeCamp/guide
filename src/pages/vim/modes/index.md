@@ -8,14 +8,19 @@ Because vim is focused on changing existing code just as much as writing new
 code, it is split into several modes that each have different purposes.
 
 ### Normal Mode
-When you open vim, normal mode is where you will be and where you will spend
-most time when using vim.  In normal mode, keyboard keys don't type letters.
 
-Instead they can:
+By default, vim starts in "normal" mode. Here, key presses don't work as one
+would expect. That is, they don't insert text into the document; instead,
+certain key presses can:
+
 - Move the cursor
-- Delete/Replace text
-- Copy/Paste text
-- Control several windows/buffers
+- Manipulate text
+- Enter other modes
+
+Normal mode is where one should spend most of their time while using vim. Remember,
+this is what makes vim different.
+
+Normal mode can be accessed from other modes by pressing `Esc` or `<C-[>`.
 
 ### Insert Mode
 This is the second most used mode.  You can enter it by using an insert command
@@ -23,12 +28,14 @@ from normal mode.
 
 These include:
 - `i` for 'insert', switches to insert mode where the cursor is
-- `a` for 'append', switches to insert mode 1 character after the cursor
 - `I` moves the cursor to the beginning of the line and inserts
+- `a` for 'append', switches to insert mode 1 character after the cursor
 - `A` moves the cursor to the end of the line and inserts
+- `o` moves the cursor to a next line and inserts
+- `O` creates a new line and inserts at the cursor's current position
+
 There are so many more ways of inserting text in vim that can't be listed here
-but these are the simplest
-Once in insert mode, typing inserts characters before the cursor.  To leave
+but these are the simplest.  Once in insert mode, typing inserts characters before the cursor.  To leave
 insert mode and return to normal mode, press `<esc>` or `ctrl-[`
 
 ### Visual Mode
@@ -46,7 +53,7 @@ type your command which should appear at the bottom of the window.
 For example, to do a global find and replace type `:%s/foo/bar/g` to replace
 all 'foo' with 'bar'
 - `:` Enters command mode
-- `%` Means accross all lines
+- `%` Means across all lines
 - `s` Means substitute
 - `/foo` is regex to find things to replace
 - `/bar/` is regex to replace things with
