@@ -9,6 +9,10 @@ There are a few core responsibilities common to most product management roles in
 
 It is important to understand the differences between inbound and outbound product management because a great product manager has the diverse set of skills to do both well. 
 
+Difference between Product Management and Project Management is, the scale and life cycle. Project Managers ensure multiple products/services/projects are delivered to a customer, while Product Managers go beyond development and work towards longjevity and operation of a product/service.
+
+In Game development we can see the clear shift from Projects to Products due to games having more detailed post launch plans and monetization strategies.
+
 ### Inbound Product Management
 
 Inbound product management involves gathering customer research, competitive intelligence, and industry trends as well as setting strategy and managing the product roadmap.
@@ -41,5 +45,8 @@ Product Marketing and Go-to-Market (Outbound)
 Product management continues to expand as a profession. Demand for qualified product managers is growing at every level. There are a variety of roles and responsibilities depending on experience level. Opportunities range from an Associate Product Manager all the way to CPO.
 
 Most Product Managers have been in different roles earlier in their careers. Very often software engineers, sales engineers or professional services consultant grow into the role of Product Manager. But in some companies (e.g. Google, Facebook, ...), junior Product Managers are recruited straight out of school, supported by career programs to teach them on the job.   
+
+#### More Information:
+Wikipedia page: https://en.wikipedia.org/wiki/Product_management
 
 
