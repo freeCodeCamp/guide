@@ -132,6 +132,10 @@ A project is made up of multiple layers. Each element on the project is its own 
 
 In the example below, the "circle" layer is on top of the "A" layer on the layers palette. This means the circle is rendered on top of the letter "A" on the canvas.
 
+Every time you want to prevent a layer from casual adjustments you can lock it by selecting it from the layers window and pressing the lock button.
+
+You can also give a title to each layer. This is a good practice in particular when you work with complex compositions. Simply double-click on the layer title in the layers window to re-name it. Which is a good segway into using folders, which you should also do for good practices in big projects.
+
 ![Layers palette](https://raw.githubusercontent.com/cecyc/textures/master/layers.png)
 
 #### Importing fonts
