@@ -19,9 +19,11 @@ Homebrew is 'The missing package manager for OS X'. It is a great tool for downl
 
 ### Linux:
 
-*   Using `apt-get` first type: `curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash -`, then `sudo apt-get install nodejs`
+*   Using `apt-get` first type: `curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -`, then `sudo apt-get install nodejs`
 *   Using `pacman` type: `pacman -S nodejs npm`
 *   Using `yum` type: `sudo yum install nodejs npm`
+*   Using `dnf` type: `sudo dnf install nodejs`
+*   Using `zypper` type: `sudo zypper install nodejs6`
 
 ## Installing Bower
 

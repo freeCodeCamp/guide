@@ -5,7 +5,7 @@ The JavaScript string method `.slice()` extracts a portion of a string and retur
 
 ## Syntax
 
-    str.slice(beginSliceIndex<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice' target='_blank' rel='nofollow'>, endSliceIndex]);
+    str.slice(beginSliceIndex [, endSliceIndex]);
 
 ## Parameters
 
@@ -16,6 +16,8 @@ The zero-based index where the slice should begin. If beginSliceIndex is a negat
 **endSliceIndex**
 
 Optional. The zero-based index where the slice should end. If omitted, `.slice()` extracts to the end of the string.
+
+<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice' target='_blank' rel='nofollow'>MDN Link</a>
 
 ## Description
 
@@ -38,5 +40,3 @@ Optional. The zero-based index where the slice should end. If omitted, `.slice()
     str.slice(-3);                                  // Returns "ld!"
     str.slice(-3, -1);                              // Returns "ld"
     str.slice(0, -1);                               // Returns "Hello World"
-
-Source [MDN</a>

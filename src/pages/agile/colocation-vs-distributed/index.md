@@ -1,7 +1,7 @@
 ---
-title: Colocation Vs Distributed
+title: Collocation Vs Distributed
 ---
-## Colocation Vs Distributed
+## Collocation Vs Distributed
 - Co-located refers to a team that sits together; same office. Ideally, everyone sitting together in adjacent offices or an open workspace.
 - Distributed team members are scattered geographically; different buildings, cities, or even countries.
 #### More Information:
