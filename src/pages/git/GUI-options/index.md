@@ -9,3 +9,4 @@ Although mostly people prefer to use git as a clit tool but there are plenty of 
 
 * **GitKraken**-GitKraken is the most popular Git GUI for Windows, Mac AND Linux.You can look [here](https://www.gitkraken.com/) to download the latest stable release of Kraken.
 * **GitHub Desktop**-GitHub Desktop is the official git client application provided by GitHub.Github Desktop offers the most amazing GUI based experience to GitHub but it isn't available for Linux Users yet.Windows and Mac users can download the latest stable release [here](https://desktop.github.com/).
+* **SourceTree Desktop**-SourceTree is another great application for GUI usage of git. It's a great entry-level application and fairly easy to use. You can read more and get the application [here](https://www.sourcetreeapp.com/).
