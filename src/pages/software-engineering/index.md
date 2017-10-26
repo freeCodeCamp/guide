@@ -22,3 +22,7 @@ In this age where software can be used maliciously to steal information or do ha
 - <a href='https://github.com/kilimchoi/engineering-blogs' target='_blank' rel='nofollow'>Curated List of Engineering Blogs</a>
 - <a href='http://www.acm.org/about/se-code' target='_blank' rel='nofollow'>Software Engineering Code of Ethics and Professional Practice</a>
 - <a href='https://en.wikipedia.org/wiki/Software_engineering' rel='nofollow'>Wikipedia Article</a>
+
+## Important Point
+
+The most important point asked in Interviews are knowing the concepts of Agile Software Development. Understand it well!
