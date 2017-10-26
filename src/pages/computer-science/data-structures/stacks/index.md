@@ -80,5 +80,5 @@ int main() {
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 * <a href='http://www.geeksforgeeks.org/stack-data-structure/' target='_blank' rel='nofollow'>More Info on Stacks - GeeksForGeeks</a>
-
+* <a href='https://en.wikipedia.org/wiki/Stack_(abstract_data_type)' target='_blank' rel='nofollow'>Stack - Wikipedia</a>
 
