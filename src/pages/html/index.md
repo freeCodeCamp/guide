@@ -3,7 +3,7 @@ title: HTML
 ---
 # HTML
 
-HTML, or HyperText Markup Language, is a markup language to describe the structure of most websites. You could build a website using nothing but HTML if you wanted to.
+HTML, or HyperText Markup Language, is a markup language to describe the structure of most websites. You could build a website using nothing but HTML if you wanted to (but it wouldn't look most of the ones on the web!).
 
 [HTML elements](#) are the syntax to mark up a page. They help organize and give information about the page's content to a browser. Elements usually have opening and closing tags that surround and give meaning to content. For example, there are different tag options to place around text to show whether it's a heading, a paragraph, or a list.
 
