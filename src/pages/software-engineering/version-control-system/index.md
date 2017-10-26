@@ -3,13 +3,27 @@ title: Version Control System
 ---
 ## Version Control System
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/software-engineering/version-control-system/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+A version control system is a software tool that manages changes to a file or set of files over time.  The files could be source files, documents, or image files.  This software is also known as source control.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+When files are under source control, a person can revert back to a previous version if the change is not wanted.  To see how a file has evolved, a developer may compare different sets of changes.  Source control also allows you to see who has made the change.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Some of the standard actions that you may perform are:
+* Check out existing files.
+* Check in new files.
+* Show the history of the files.
+* Add new files
+* Update existing files
+* Revert files to a previous version.
+* Merge different versions.
+
+An example of source control software based on the client-server model is Subversion.  The server manages the files under its control and tracks all the changes.  You use a client on your computer to interact with the server.
+
+An example of a distributed version control system is Git.  With Git, each client maintains the full history of the file modifications.  This prevents one computer from failing and loosing all the file history.
+
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+[Subversion](http://svnbook.red-bean.com/)
+
+[Git](https://git-scm.com/book/en/v2)
 
 
