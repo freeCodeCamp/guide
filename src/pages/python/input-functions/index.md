@@ -1,7 +1,7 @@
 ---
 title: Python Input Function
 ---
-Many a time, in a program we need some input from the user. Taking inputs from the user makes the program feel interactive. In Python 3, to take input from the user we have a function `input()`. Let's see some examples:
+Many a time, in a program we need some input from the user. Taking inputs from the user makes the program feel interactive. In Python 3, to take input from the user we have a function `input()`. If the input function is called, the program flow will be stopped until the user has given an input and has ended the input with the return key. Let's see some examples:
 
 1.  When we just want to take the input:
 
