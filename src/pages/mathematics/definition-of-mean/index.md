@@ -3,13 +3,6 @@ title: Definition of Mean
 ---
 ## Definition of Mean
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/definition-of-mean/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
+Simple or arithmetic average of a range of values or quantities, computed by dividing the total of all values by the number of values. For example, the mean of 1, 2, 3, 4, and 5 is (15 ÷ 5) = 3. It is the most common and best general purpose measure of the mid-point (around which all other values cluster) of a set of values, but is prone to distortion by the presence of extreme values and may require use of a measure of distortion (such as mean deviation or standard deviation).
 
