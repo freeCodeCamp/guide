@@ -24,8 +24,7 @@ All PHP code is executed on a web server only, not on your local computer. For e
 
 ## Hello World ! in PHP
 <p>&lt;?php
-echo &quot;Hello World !&quot;;</p>
-<p>?&gt;</p>
+echo &quot;Hello World !&quot;;</p> <p>?&gt;</p>
 
 ## How To Execute this Script??
 * Install any local server like wamp
