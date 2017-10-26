@@ -10,16 +10,16 @@ Python can be easily used for small, large, online and offline projects. The bes
 You can use Python to create web applications on many levels of complexity. There are many excellent Python web frameworks including, Pyramid, Django and Flask, to name a few.
 
 ##### Data Analysis:
-Python is the leading language of choice for many data scientists. Python has grown in popularity, within this field, due to its excellent libraries including; NumPy and Pandas and its superb libraries for data visualisation like Matplotlib and Seaborn.
+Python is the leading language of choice for many data scientists. Python has grown in popularity within the field due to the availability of many excellent libraries focused on data science (of which NumPy and Pandas are two of the most well-known) and data visualisation (like Matplotlib and Seaborn).
 
 ##### Automation:
-Python is one of the flexible language when it come to automating boring or repetitive tasks. It help system administrator in carrying out their task easily by writing script which can be easily executed from the terminal. It helps in creating bot which automate some of our daily tasks.
+Python is a very flexible language that can be used to automate boring or repetitive tasks. System administrators often use it by writing scripts which can be easily executed from the terminal. Python can also be used to create bots which automate some of our daily tasks.
 
 ##### Artificial Intelligence:
-The presence of computing is Artificial Intelligence. AI has come to stay and Python is serving as a major language to boast development in the field of AI. Tensorflow is designed with Python and it is under AI.
+Python is also used extensively in the growing field of Artificial Intelligence (AI). Google selected Python to be one of the first well-supported programming languages for [training and interacting with models] using Tensorflow.
 
 #### More Information:
-Here's a <a href='https://www.python.org/about/apps/' target='_blank' rel='nofollow'>link</a> to appications of Python on it's offical website.
+Here's a <a href='https://www.python.org/about/apps/' target='_blank' rel='nofollow'>link</a> to a section of the official Python website describing its various applications.
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
 #### Python is generally used for 
@@ -38,14 +38,14 @@ Here's a <a href='https://www.python.org/about/apps/' target='_blank' rel='nofol
 * Browser Automation
 * Data analysis
 
-#### Some article covering the usability of python
+#### Some articles covering the usability of python
 
-* <a href='http://www.dummies.com/programming/python/10-major-uses-of-python/' target='_blank' rel='nofollow'>10 MAJOR USES OF PYTHON</a>
+* <a href='http://www.dummies.com/programming/python/10-major-uses-of-python/' target='_blank' rel='nofollow'>10 Major Uses of Python</a>
 * <a href='https://www.python.org/about/apps/' target='_blank' rel='nofollow'>Applications for Python</a>
-* <a href='https://stackoverflow.com/questions/3043085/where-is-python-language-used' target='_blank' rel='nofollow'>Where is python Language used</a>
-* <a href='https://stackoverflow.com/questions/1909512/what-is-python-used-for' target='_blank' rel='nofollow'>What is python used for</a>
+* <a href='https://stackoverflow.com/questions/3043085/where-is-python-language-used' target='_blank' rel='nofollow'>Where is the Python Language Used?</a>
+* <a href='https://stackoverflow.com/questions/1909512/what-is-python-used-for' target='_blank' rel='nofollow'>What is Python used for?</a>
 
 
+The official package index for python is <a href='https://pypi.python.org/pypi' target='_blank' rel='nofollow'>here</a>.
 
-The offcial package index for python is <a href='https://pypi.python.org/pypi' target='_blank' rel='nofollow'>here</a>
-
+[training and interacting with models]: https://stackoverflow.com/questions/35677724/tensorflow-why-was-python-the-chosen-language
