@@ -3,13 +3,15 @@ title: Accuracy and Precision
 ---
 ## Accuracy and Precision
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/accuracy-and-precision/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Accuracy_and_precision.svg/300px-Accuracy_and_precision.svg.png)
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Precision is a description of random errors, a measure of statistical variability.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Accuracy has two definitions:
+- It is a description of systematic errors, a measure of statistical bias; this is the cause of the difference between a result and a "true" value.
+- Alternatively, ISO defines accuracy as describing a combination of both types of observational error above (random and systematic), so high accuracy requires both high precision and high trueness.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+![Wikipedia](https://en.wikipedia.org/wiki/Accuracy_and_precision)
 
 
