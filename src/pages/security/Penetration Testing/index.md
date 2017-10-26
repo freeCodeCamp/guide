@@ -10,6 +10,20 @@ Before doing a penetration test, it is mandatory to have an agreement that will 
 * what will be the penetration fields of the system.
 
 Penetration testing is conducted by professional ethical hackers who mainly use commercial, open-source tools, automate tools and manual checks. There are no restrictions; the most important objective here is to uncover as many security flaws as possible.
+
+## Phases of Penetration Testing
+There are five main phases of penetration testing. They are:
+1. **Reconnaissance**
+   - This is where a penetration tester gathers as much information about your potential targets. Some methods used in this stage are Google/Bing searches, whois searches, Netcraft scans, and social engineering.
+2. **Scanning**
+   - Once the penetration tester has gathered all the information and decided on which target(s) they would like to attack, they need to ensure the target(s) is alive and scan for things such as open ports, active services, and any current vulnerabilities that the target system has open.  
+3. **Exploitation**
+   - After the scanning is complete and vulnerabilities have been assessed, the penetration tester can use that information to figure out their attack vector. In this phase, the penetration tester looks for an exploit that uses one of the vulnerabilities that were found in the previous stage to gain access to the target system.
+4. **Maintaing Access**
+   - This phase is where the penetration tester ensures that they will have enough time to test the target system. They may attempt to circumvent any intrusion detection/prevention countermeasures in order to finish their testing.
+5. **Covering Tracks**
+   - After the attack is complete, the pentration tester may take steps to conceal their intrusion and may possiblly leave behind means of persistent access to allow a proof of concept to their client. 
+
 ## Types of Penetration Testing
 We have five types of penetration testing −
 
