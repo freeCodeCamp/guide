@@ -76,6 +76,59 @@ $( "#searchForm" ).submit(function( event ) {
 </html>
 ```
 
+The following example use the github api to fetch the list of repositories  of a user  using jQuery.ajax() and put results in a div
+``` html
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>jQuery Get demo</title>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+ 
+<form id="userForm">
+  <input type="text" name="username" placeholder="Enter gitHub User name">
+  <input type="submit" value="Search">
+</form>
+<!-- the result of the search will be rendered inside this div -->
+<div id="result"></div>
+ 
+<script>
+// Attach a submit handler to the form
+$( "#userForm" ).submit(function( event ) {
+ 
+  // Stop form from submitting normally
+  event.preventDefault();
+ 
+  // Get some values from elements on the page:
+  var $form = $( this ),
+    username = $form.find( "input[name='username']" ).val(),
+    url = "https://api.github.com/users/"+username+"/repos";
+ 
+  // Send the data using post
+  var posting = $.post( url, { s: term } );
+ 
+  //Ajax Function to send a get request
+  $.ajax({
+    type: "GET",
+    url: url,
+    dataType:"jsonp"
+    success: function(response){
+        //if request if made successfully then the response represent the data
+
+        $( "#result" ).empty().append( response );
+    }
+  });
+  
+});
+</script>
+ 
+</body>
+</html>
+```
+
+
 ### jQuery.ajax()
 `$.post( url [, data ] [, success ] [, dataType ] )` is a shorthand Ajax function, equivalent to:
 ```javascript
@@ -87,6 +140,7 @@ $.ajax({
   dataType: dataType
 });
 ```
+
 `$.ajax()` provides way more options that can be found <a href='http://api.jquery.com/jquery.ajax/' target='_blank' rel='nofollow'>here</a> 
 
 #### More Information:
