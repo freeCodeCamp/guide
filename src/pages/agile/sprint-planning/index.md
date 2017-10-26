@@ -9,6 +9,9 @@ There are two defined artifacts that result from a sprint planning meeting:
 - A sprint goal
 - A sprint backlog
 
+Sprint Planning is time-boxed to a maximum of eight hours for a one-month Sprint. For shorter Sprints, the event is usually shorter. The Scrum Master ensures that the event takes place and that attendants understand its purpose. The Scrum Master teaches the Scrum Team to keep it within the time-box. 
+
 #### More Information:
 https://www.mountaingoatsoftware.com/agile/scrum/meetings/sprint-planning-meeting
+<a href = 'http://www.scrumguides.org/scrum-guide.html'>Scrum Guide</a> from Scrum.org
 
