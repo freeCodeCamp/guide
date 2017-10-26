@@ -77,6 +77,20 @@
   /* height: 40px; */
   border: none;
   border-radius: 0;
+  padding-bottom: 8px;
+}
+
+@media (min-width: 992px) {
+  .navBar {
+    padding-bottom: 0;
+  }
+}
+
+.navbar-form {
+  border: none;
+  box-shadow: none;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .content {
