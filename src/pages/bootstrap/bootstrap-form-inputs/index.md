@@ -3,6 +3,8 @@ title: Bootstrap Form Inputs
 ---
 ## Bootstrap Form Inputs
 
+It should be noted that form inputs vary depending on the version of Bootstrap being used. The most notable changes are in the way Bootstrap handles `<select>` and `<input type="checkbox">`.
+
 Bootstrap supports the following form controls:
 
 input
