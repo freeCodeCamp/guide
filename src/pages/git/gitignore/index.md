@@ -3,7 +3,7 @@ title: Gitignore
 ---
 ## Gitignore
 
-The `.gitignore` file is a text file that tells Git which files or folders to ignore in a project.
+The `.gitignore` file is a text file that tells Git which files or folders to ignore in a project. It will prevent changes to the files or folders from being commited to the repository.
 
 A local `.gitignore` file is usually placed in the root directory of a project. You can also create a global `.gitignore` file and any entries in that file will be ignored in all of your Git repositories.
 
