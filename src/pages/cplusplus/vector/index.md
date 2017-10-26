@@ -6,7 +6,7 @@ title: vector
 
 `vector` is one of the most used containers in C++. A container is a data structure that stores a collection of objects, some in order, some not. All containers have a different set of functions that allow you to access an object(s) in that collection.
 
-`std::vector` is part of the C++ standard library (hence the prefix `std::`) and allows you to store contiguous data of the same data type. NOTE: **All objects within a vector must be of the same data type**
+`std::vector` is part of the C++ standard library (hence the prefix `std::`) and allows you to store contiguous data of the same data type. To be able to use `vector`, you need to include its header via `#include <vector>`. NOTE: **All objects within a vector must be of the same data type**
 
 The data type you store within a vector goes within angle brackets next to the vector keyword. For example, if you would like to store a collection of strings the vector would be `std::vector<std::string> vector_name`
 
@@ -44,3 +44,7 @@ std::string second_item = a.at(2); // gets "element"
 // OR
 std::string second_item = a[2]; // gets "element"
 ```
+
+The difference between both access methods is in error handling. With `at()`, accessing at a position equal or greater
+than the size of the vector results in an out_of_range error being thrown, whereas accessing an invalid element using
+the `operator[]` is undefined behaviour.
