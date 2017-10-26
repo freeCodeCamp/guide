@@ -3,13 +3,19 @@ title: Definition of Mean
 ---
 ## Definition of Mean
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/definition-of-mean/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The mean of a set of numbers is the average. You calculate the mean by adding all the numbers together and then dividing by how many numbers are in the set. In other words, the mean is the sum divided by the count.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+```
+Example:  
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+5, 3.2, -7, 9.1, 8
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+sum = 5 + 3.2 + (-7) + 9.1 + 8 = 18.3
+
+count = 5
+
+mean = 18.3 / 5 = 3.66
+```
+
 
 
