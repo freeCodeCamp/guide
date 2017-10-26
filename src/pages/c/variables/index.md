@@ -8,7 +8,7 @@ Now you know what your options with data types are. Let's apply it with a simple
 #include <stdio.h>
 
 int main(void) {
-    int my_first_variable = 12;
+    int my_first_variable = 112;
     double my_second_variable = 983.9;
 
     printf("My int is %i\n", my_first_variable);
