@@ -7,11 +7,11 @@ Before trying to explain what arrays are, let's look at the code where we want t
 ```C
 #include <stdio.h>
 int main(void){
-int a, b, c, d, e, f, g, i, j, k;
+int a, b, c, d, e, f, g, i, j, l;
 scanf("%d", &a);
 scanf("%d", &b);
 ... 
-printf("%d", k);
+printf("%d", l);
 printf("%d", j);
 printf("%d", i);
 ... //and so on..
