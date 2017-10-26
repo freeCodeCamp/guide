@@ -73,7 +73,7 @@ int main() {
 * Sudoku solver
 * Depth First Search.
 * Tree traversals
-* Infix expression -> Prefix/Postfix expresstion
+* Infix expression -> Prefix/Postfix expression
 
 
 
