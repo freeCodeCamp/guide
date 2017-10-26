@@ -79,9 +79,12 @@
   border-radius: 0;
 }
 
+.main {
+    outline: 0;
+}
+
 .content {
   margin-bottom: 50px;
-  outline: 0;
 
   img {
     max-width: 100%;

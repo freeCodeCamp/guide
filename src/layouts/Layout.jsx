@@ -64,12 +64,15 @@ function Layout(props) {
           </Col>
           <Col
             className='content'
-            id='main'
             md={ 8 }
-            role='main'
-            tabIndex='-1'
             >
-            { props.children() }
+              <main
+                className='main'
+                id='main'
+                tabIndex='-1'
+                >
+                { props.children() }
+              </main>
           </Col>
         </Row>
       </Grid>
