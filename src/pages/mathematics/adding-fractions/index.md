@@ -50,3 +50,5 @@ Consider fractions <span class="fraction"><sup>5</sup>⁄<sub>6</sub></span> and
 7. The resultant fraction is <span class="fraction"><sup>21</sup>⁄<sub>18</sub></span>. This can be further simplified as <span class="fraction"><sup>7</sup>⁄<sub>6</sub></span>
 
 <pre>  <span class="fraction"><sup>5</sup>⁄<sub>6</sub></span> + <span class="fraction"><sup>5</sup>⁄<sub>15</sub></span> = <span class="fraction"><sup>7</sup>⁄<sub>6</sub></span> </pre>
+
+<span class="fraction"><sup>7</sup>⁄<sub>6</sub></span> is equivalent to 1 and <span class="fraction"><sup>1</sup>⁄<sub>6</sub></span>
