@@ -37,6 +37,7 @@ Here's a <a href='https://www.python.org/about/apps/' target='_blank' rel='nofol
 * Rapid Prototyping
 * Browser Automation
 * Data analysis
+* Scraping data from websites
 
 #### Some article covering the usability of python
 
