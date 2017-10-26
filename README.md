@@ -121,7 +121,8 @@ However, you can include special characters in the article title.
 
 Each article should explain exactly one concept, and that concept should be apparent from the article's title.
 
-We can reference other articles by linking to them inline, or in an "Other Resources" section at the end of the article.
+We can reference other articles by linking to them inline, or in an "More
+information:" section at the end of the article.
 
 Our goal is to have thousands of articles that cover a broad range of technical topics.
 
