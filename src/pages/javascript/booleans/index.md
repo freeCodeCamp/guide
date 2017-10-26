@@ -1,9 +1,9 @@
 ---
 title: Boolean
 ---
-Booleans are a primitive datatype found in most (all?) computer programming languages. A boolean can be either `true` or `false` in javascript (spelling or wording may vary in other languages). 
+Booleans are a primitive datatype commonly used in computer programming languages. A boolean can be either `true` or `false` in javascript (spelling or wording may vary in other languages). 
 
-In javascript there is often implicit type coercion to boolean. If for example you have an if statement which checks a certain expression, that expression will be coerced to a boolean: 
+In javascript, there is often implicit type coercion to boolean. If for example you have an if statement which checks a certain expression, that expression will be coerced to a boolean: 
 
     var a = 'a string';
     if (a) {
@@ -33,7 +33,7 @@ One way that type coercion is used is with the use of the or (`||`) and and (`&&
     console.log(a && c); // true
     console.log(c && a); // 'word'
 
-As you can see, the or operator checks the first operand. If this is true or truthy, it returns it immediately (which is why we get 'word' in the first case & true in the second case). If it is not true or truthy, it returns the second operand (which is why we get 'word' in the third case). 
+As you can see, the *or* operator checks the first operand. If this is true or truthy, it returns it immediately (which is why we get 'word' in the first case & true in the second case). If it is not true or truthy, it returns the second operand (which is why we get 'word' in the third case). 
 
 With the and operator it works in a similar way, but for 'and' to be true, both operands need to be truthy. So it will always return the second operand if both are true/truthy, otherwise it will return false. That is why in the fourth case we get true and in the last case we get 'word'. 
 
