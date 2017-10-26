@@ -3,7 +3,7 @@ title: Sketch
 ---
 ## Sketch
 
-Sketch is a design toolkit for macOS only. It quickly became very popular as an alternative to Photoshop for user interface design as it's much cheaper and has a low learning curve.
+Sketch is a design toolkit for macOS only. It quickly became very popular as an alternative to Photoshop for user interface design as it's much cheaper and has a low learning curve. 
 
 ### Why Sketch?
 
@@ -12,6 +12,15 @@ Sketch is a design toolkit for macOS only. It quickly became very popular as an 
 * Lots of plugins
 * Export files in multiple formats
 * Vast community
+* Easily copy CSS attributes from design elements
+
+### Useful Plugins for Sketch
+
+Zeplin (Generates and exports design assets and style guides) - <a href='https://zeplin.io/' target='_blank' rel='nofollow'>Zeplin</a>
+
+Sketch IconFont (Helps you easily insert and manage icons from icon fonts) - <a href='https://github.com/keremciu/sketch-iconfont' target='_blank' rel='nofollow'>Sketch IconFont</a>
+
+Mirr.io (Preview prototypes in any browser in any device from Sketch) - <a href='https://mirr.io/' target='_blank' rel='nofollow'>Mirr.io</a>
 
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
