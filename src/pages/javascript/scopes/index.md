@@ -123,4 +123,4 @@ Observe (each comment describes scope at the line that it's written on):
 # References
 
 1.  <a href='https://github.com/getify/You-Dont-Know-JS/tree/master/scope%20%26%20closures' target='_blank' rel='nofollow'>Scopes and Closures</a> by Kyle Simpson. It goes into more details of how the scope mechanism works, and also has a superficial description of how the JavaScript compiler works, so if you're interested in that, definitely give it a read! It's free on GitHub and can be bought from O'Reilly.
-2. Secrets of the JavaScript Ninja by John Resig and Bear Bibeault. A great guide for a more in-depth understanding of JavaScript.
+2. <a href="https://www.amazon.com/Secrets-JavaScript-Ninja-John-Resig/dp/1617292850/ref=pd_lpo_sbs_14_img_0?_encoding=UTF8&psc=1&refRID=YMC2TB2C0DFHTQ3V62CA" target='_blank'>Secrets of the JavaScript Ninja</a> by John Resig and Bear Bibeault. A great guide for a more in-depth understanding of JavaScript.
