@@ -2,14 +2,40 @@
 title: Universal
 ---
 ## Universal
+<p>Universal Selector(*) selects all elements . It also selects all elements inside an element. You can attach universal selector with any other selector. </p> 
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/selectors/general/universal/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+####Code Syntax</h4>
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+```css
+* { 
+	css declarations; 
+}
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```css
+element  * {
+     css declarations; 
+}
+```
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+####Code Example</h4>
+```css
+* { 
+    color: green;
+}
 
+```
+matches all elements and set font color as green.
+```css
+div * { 
+    color: green;
+}
 
+```
+selects all div elements and set font color as green.
+```css
+* [lang^=en] {
+  color: green;
+}
+```
+selects all elements whose language attribute value starts with en.
