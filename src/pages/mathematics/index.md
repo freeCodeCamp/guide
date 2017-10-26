@@ -5,7 +5,7 @@ title: Mathematics
 
 In this section, we'll have guides to a wide variety of mathematical concepts.
 
-### Maths in programming
+### Math in programming
 Although it is good practice to create mathematical functions yourself, there are math libraries availiable for use in many programming languages. These have predetermined functions you can utilize to execute calculations.
 
 ### Including math libraries
