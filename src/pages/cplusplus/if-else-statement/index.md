@@ -14,21 +14,14 @@ title: C++ If-Else Statement
 
 ```cpp
 
-  if (test expression)
-
-  {
-
-  //True-Block statements;
-
-  }
-
-  else
-
-  {
-
-  //False-Block statements;
-
-  }
+if (test expression)
+{
+  //statements that run if the test expression is true
+}
+else
+{
+  //statements that run if the test expression is false
+}
 ```
 
   -----------------------------------
@@ -37,20 +30,20 @@ Example of If-Else Statement
 
   ---------------------------- -----------------------------
 
-  If test expression is true :
+If test expression is true :
 
 ```cpp
 
-  int a=10;
-  if (a<20)
+int a=10;
+if (a < 20) // This expression is true, so...
 {
-  //execute code of block
+  //...the code in this block gets executed, and...
 }
 else
 {
- //skip code of block
+  //...the code in this block gets skipped.
 }
-  //program continues
+//program continues
 
 ```
 
@@ -58,16 +51,16 @@ else
 
 ```cpp
 
-  int a=10;
-  if (a>20)
+int a=10;
+if (a>20) // This expression is false, so this time...
 {
-  //skip code of block
+  //...this code gets skipped...
 }
 else
 {
- //execute code of block
+  //...and this code executes instead.
 }
-  //program continues
+//program continues
 
 ```
 
@@ -123,10 +116,5 @@ This step is always printed
 ```
 
 <a href='https://repl.it/MzBq' target='_blank' rel='nofollow'>Try the code yourself</a>
-_CONGRATULATIONS . This is the end of the article on the IF statement_ 
-
- **Good Luck to all of you** 
-
- **Happy Coding ! :)**
 
  **Feel free to ask any queries on FreeCodeCamp's GitHub page or [FreeCodeCamp's Forum .](https://forum.freecodecamp.org/)**
