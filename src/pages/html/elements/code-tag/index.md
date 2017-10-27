@@ -3,13 +3,17 @@ title: Code Tag
 ---
 ## Code Tag
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/code-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+When you write some text and would like to add some code and it to be rendered in a code-looking style, you can simply use code tag. Just like this:
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+```html
+<p>Here's some code:<br>
+  <code>const a = 1;</code>
+</p>
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+It uses Monospace font family and gives that desired looks. We need to remember that code tag that is just a phrase tag. Sometimes it is better to include embeded code or gist from places like JSBin etc.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
+MDN: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code
 
