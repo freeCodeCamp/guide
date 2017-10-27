@@ -34,9 +34,9 @@ Other elements that form can contain:
 - ```select``` - together with ```<option></option>``` tag creates drop-down select menu.
 
 
-SOME MORE INFORMATION ON HTML FORMS.
+MORE INFORMATION ON HTML FORMS.
 
-HTML Forms are required, when you want to collect some data from the site visitor. For example, during user registration you would like to collect information such as name, email address, credit card, etc.
+HTML Forms are required when you want to collect some data from the site visitor. For example, during user registration you would like to collect information such as name, email address, credit card, etc.
 
 A form will take input from the site visitor and then will post it to a back-end application such as CGI, ASP Script or PHP script etc. The back-end application will perform required processing on the passed data based on defined business logic inside the application.
 
