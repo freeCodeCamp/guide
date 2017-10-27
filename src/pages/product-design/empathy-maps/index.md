@@ -3,13 +3,11 @@ title: Empathy Maps
 ---
 ## Empathy Maps
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/product-design/empathy-maps/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Empathy maps are an important tool to use to introduce and humanize customers when presenting user research. They are used internally to create a deeper understanding of customers. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+A typical empathy map presents basic information about the interviewee and separates research visually into four quadrants-- what users think, do, say, and feel. Below is an example.
+![alt text](https://www.webtexttool.com/wp-content/uploads/2015/05/The-Empathy-Map.png)
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+[How to Use Persona Empathy Mapping](https://uxmag.com/articles/how-to-use-persona-empathy-mapping)
+[Design Thinking: Empathy Maps](https://uxdict.io/design-thinking-empathy-map-c69ab5d6b22)
