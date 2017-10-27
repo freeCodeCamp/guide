@@ -26,4 +26,4 @@ You will also need to add the following between the `body` tags in your code. Wi
 </div>
 
 #### More Information
-* [Bootstrap's official website](http://getbootstrap.com/getting-started/)
+* <a href='http://getbootstrap.com/getting-started/' target='_blank' rel='nofollow'>Bootstrap's official website</a>

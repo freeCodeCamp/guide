@@ -3,7 +3,7 @@ title: Operators
 ---
 # Operators in C
 
-## 1. Aritmetic Operators
+## 1. Arithmetic Operators
 - `+` Adds to operands (values) 
      ```C
      int a = 6;

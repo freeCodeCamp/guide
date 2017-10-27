@@ -9,7 +9,7 @@ Free Code Camp will help you prepare for a coding job.
 
 *   There are hundreds of thousands of unfilled coding jobs.
 *   Employers and the US government have joined together to promote nontraditional coding programs like Free Code Camp.
-*   Full stack JavaScript is one of the best paying skill sets, and has a ton of job openings.
+*   Full stack JavaScript and Swift are two of the best paying skill sets, and have a ton of job openings.
 *   The best proof that you're an employable developer is a portfolio filled with real apps that real people are using.
 
 You'll still need to develop basic interviewing skills and soft skills (if you've been working a knowledge-worker type job for a few years, you probably already have these).

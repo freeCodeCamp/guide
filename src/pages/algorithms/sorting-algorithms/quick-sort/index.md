@@ -77,4 +77,7 @@ The space complexity of quick sort is O(n). This is an improvement over other di
 #### More Information:
 
 - <a href='https://en.wikipedia.org/wiki/Quicksort' target='_blank' rel='nofollow'>Wikipedia</a>
+
+- <a href='http://www.geeksforgeeks.org/quick-sort' target='_blank' rel='nofollow'>GeeksForGeeks</a>
+
 - <a href='https://www.youtube.com/watch?v=MZaf_9IZCrc' target='_blank' rel='nofollow'>Youtube: A Visual Explanation of Quicksort</a>
