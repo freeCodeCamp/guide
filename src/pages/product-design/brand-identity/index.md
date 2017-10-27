@@ -11,5 +11,7 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
+https://99designs.com/blog/tips/brand-identity/
+https://www.uxmatters.com/mt/archives/2006/07/brand-experience-in-user-experience-design.php
+http://justcreative.com/2010/04/06/branding-identity-logo-design-explained/
 
