@@ -15,4 +15,4 @@ These are some of them:
 
 <a href='http://adobe.com/Photoshop' target='_blank' rel='nofollow'>Adobe Photoshop</a>
 
-<a href='https://www.sketchapp.com' target='_blank' rel='nofollow'>Sketch</a>
+<a href='https://www.sketchapp.com' target='_blank' rel='nofollow'>Sketch</a> (Only for apple-ecosystem)
