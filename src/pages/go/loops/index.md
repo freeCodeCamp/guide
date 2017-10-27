@@ -36,3 +36,32 @@ Running the above program produces an output similar to the following output -
 $ go run for.go
 The sum of first 10 natural numbers is 55
 ```
+
+This means that to use a `while` loop, a `for` loop has to be used but with only the **condition** expression
+
+An example of the `while` loop is given below - 
+
+**while.go**
+```go
+package main
+
+import "fmt"
+
+func main(){
+    sum := 1
+    for sum < 10 {
+        sum += sum
+        fmt.Println(sum)
+    }
+}
+
+```
+Running the above will yield an output as such - 
+
+```
+$ go run while.go
+2
+4
+8
+16
+```
