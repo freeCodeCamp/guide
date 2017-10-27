@@ -48,7 +48,7 @@ You'll notice that our vector has some stuff in it now: `[x y z]`! Whenever a fu
 
 ### Destructuring
 
-A great feature about arguments in Clojure is destructuring. It allows you to 'pull' elements out of a list.
+A great feature about arguments in Clojure is destructuring. It allows you to 'pull' elements out of a list:
 
     (defn add [[x y] z] (+ x y z))
     (add [1 2] 3)
