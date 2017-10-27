@@ -3,13 +3,24 @@ title: Jupyter Notebook
 ---
 ## Jupyter Notebook
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/data-science-tools/jupyter-notebook/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The notebook is a web application that allows you to combine explanatory text, math equations, code, and visualizations all in one easily sharable document. basically the output is a html file.
+You'll find them being used for data cleaning and exploration, visualization, machine learning, and big data analysis
+Notebooks are also rendered automatically on GitHub. It’s a great feature that lets you easily share your work.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### How notebooks work
+Jupyter notebooks grew out of the IPython project started by Fernando Perez. IPython is an interactive shell, similar to the normal Python shell but with great features like syntax highlighting and code completion. Originally, notebooks worked by sending messages from the web app (the notebook you see in the browser) to an IPython kernel (an IPython application running in the background). The kernel executed the code, then sent it back to the notebook.
+![Notebook architecture](https://jupyter.readthedocs.io/en/latest/_images/notebook_components.png)
+
+When you save the notebook, it is written to the server as a JSON file with a **.ipynb** file extension
+The new name Jupyter comes from the combination of **Ju**lia, **Py**thon, and **R**. there are a lot of kernels for different languages to use Jupyter. you could check the [list of available Jupyter kernels](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels).
+
+### Installing Jupyter Notebook
+Jupyter notebooks automatically come with the distribution. You'll be able to use notebooks from the default environment.
+To install Jupyter notebooks in a conda environment: **conda install jupyter notebook**
+To install Jupyter notebooks with pip: **pip install jupyter notebook**
+
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 <a href='http://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html' target='_blank' rel='nofollow'>Jupyter/IPython Notebook Quick Start Guide</a>
 
