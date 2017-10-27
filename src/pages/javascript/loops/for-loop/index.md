@@ -2,9 +2,11 @@
 title: For Loop
 ---
 ### Syntax
-
-for ((initialization); (condition); (final-expression)) statement
-
+```
+for ([initialization]); [condition]; [final-expression]) {
+   // statement
+}
+```
 The javascript `for` statement consists of three expressions and a statement:
 
 ## Description
