@@ -77,9 +77,9 @@ Example in C++:
 
 ```cpp
 
-//Program to check whether number entered by user is positive or negative
+//Program to check whether the number entered by the user is positive or negative
 #include <iostream>
-using namespace std ;
+using namespace std;
 int main()  
 {
   int no;
