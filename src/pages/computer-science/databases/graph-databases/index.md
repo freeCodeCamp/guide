@@ -1,3 +1,7 @@
+---
+title: Graph Databases
+---
+
 ## Graph Databases
 
 A graph database is an online database management system with Create, Read, Update and Delete (CRUD) operations working on a graph data model.
