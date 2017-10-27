@@ -12,4 +12,8 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
+#### Search Algorithms 01: The Basics + Linear Search</a>
 
+  <a href="https://www.youtube.com/watch?v=uN2qOxbUNg8
+        " target="_blank"><img src="https://i.ytimg.com/an_webp/uN2qOxbUNg8/mqdefault_6s.webp?du=3000&sqp=CKLGzc8F&rs=AOn4CLAH5TAHsTtJ_c3hNzhQ_U-PkFUHfg"
+        alt="IMAGE ALT TEXT HERE" width="440" height="280" border="10" /></a>
