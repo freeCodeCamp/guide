@@ -91,3 +91,4 @@ Ideally, you'll always pass into your functions as parameters, but you may not a
 * Functions take parameters to work with- if they're taking nothing, use `void`.
 * `return` ends the function and gives back a value. You can have several in one function, but as soon as you hit one the function ends there.
 * When you pass a variable to a function, it has its own copy to use- changing something in a function doesn't change it outside the function.
+*Variable declared inside a function are only visible inside function , unless they are declared static.
