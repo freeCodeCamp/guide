@@ -7,11 +7,11 @@ title: Correlation Does not Imply Causation
 
 In statistics, there is a lot of talk about **correlated variables**. A correlation is a relationship between two variables. **Causation** refers to a relationship where a change in one variable **is responsible for** the change of another variable. This is also known as a **causal relationship**.
 
-When there is a causal relationship between two variables, there is also a correlation between them. But, a correlation between two variables does not imply a causal relationship between them. This is a [logical fallacy](https://en.wikipedia.org/wiki/Formal_fallacy).
+When there is a causal relationship between two variables, there is also a correlation between them. But, a correlation between two variables does not imply a causal relationship between them. This is a <a href='https://en.wikipedia.org/wiki/Formal_fallacy' target='_blank' rel='nofollow'>logical fallacy</a>.
 
 For example, there is a correlation between the amount of time spent studying for a test and the grade received on the test. This is a causal relationship, because the time spent studying affects your grade. If you study less, you will receive a lower grade; if you study more, you will receive a higher grade.
 
-There is also a correlation between the [per capita consumption of margarine and the divorce rate in Maine](http://www.tylervigen.com/spurious-correlations). However, this is _not_ a causal relationship - it is foolish to think that a decrease in margarine consumption will lower the divorce rate in Maine.
+There is also a correlation between the <a href='http://www.tylervigen.com/spurious-correlations' target='_blank' rel='nofollow'>per capita consumption of margarine and the divorce rate in Maine</a>. However, this is _not_ a causal relationship - it is foolish to think that a decrease in margarine consumption will lower the divorce rate in Maine.
 
 
 This is because a correlation between two variables can be explained by many reasons:

@@ -15,7 +15,7 @@ Burnup charts are very similar, but they show the work that has been completed v
 
 
 #### More Information:
-[Burndown Charts- Wikipedia](https://en.wikipedia.org/wiki/Burn_down_chart)
-[Burn up vs burn down chart- LinkedIn](https://www.linkedin.com/pulse/burn-up-vs-down-chart-alaa-el-beheri-cisa-rmp-pmp-bcp-itil/)
+<a href='https://en.wikipedia.org/wiki/Burn_down_chart' target='_blank' rel='nofollow'>Burndown Charts- Wikipedia</a>
+<a href='https://www.linkedin.com/pulse/burn-up-vs-down-chart-alaa-el-beheri-cisa-rmp-pmp-bcp-itil/' target='_blank' rel='nofollow'>Burn up vs burn down chart- LinkedIn</a>
 
 

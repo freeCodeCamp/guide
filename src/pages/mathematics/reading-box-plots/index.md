@@ -26,5 +26,5 @@ Notice that the line that bisects the box represents the **Median** (50th percen
 
 #### More Information:
 For more informations:
-* [Wikipedia: Box Plot](https://en.wikipedia.org/wiki/Box_plot)
-* [Khan Academy: reading Box Plots(video)](https://www.khanacademy.org/math/probability/data-distributions-a1/box--whisker-plots-a1/v/interpreting-box-plots)
+* <a href='https://en.wikipedia.org/wiki/Box_plot' target='_blank' rel='nofollow'>Wikipedia: Box Plot</a>
+* <a href='https://www.khanacademy.org/math/probability/data-distributions-a1/box--whisker-plots-a1/v/interpreting-box-plots' target='_blank' rel='nofollow'>Khan Academy: reading Box Plots(video)</a>

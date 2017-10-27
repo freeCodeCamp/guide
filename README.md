@@ -62,6 +62,7 @@ cd guides
 yarn install
 yarn run dev
 ```
+When you run `yarn run dev`, build takes little time. So wait until you see something like `Compiled successfully`. Then you will be able to see something like `Your site is running at http://localhost:8000`. Now point your browser at `http://localhost:8000`
 
 In this project, we are using `yarn` because `netlify` builds our site with `yarn`.
 

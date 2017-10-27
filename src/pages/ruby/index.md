@@ -4,7 +4,7 @@ title: Ruby
 
 ## What is Ruby?
 
-<a>Ruby</a> is an open source, dynamic and interpreted scripting language for quick and easy object-oriented programming. Which means:
+Ruby was created by Yukihiro "Matz" Matsumoto and is an <a href='https://github.com/ruby/ruby' target='_blank' rel='nofollow'>open source</a>, dynamic and interpreted scripting language for quick and easy object-oriented programming. Which means:
 
 *   Ability to make operating system calls directly
 *   Immediate feedback during development
