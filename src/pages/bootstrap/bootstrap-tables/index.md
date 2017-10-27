@@ -13,7 +13,7 @@ In order to achieve the basic styling example add the base class `.table` to any
       ...
     </table>
     
-![Basic Table](https://github.com/TroyB12/Pictures/blob/master/Basic%20Table.PNG)
+![Basic Table](https://raw.githubusercontent.com/TroyB12/Pictures/master/Basic%20Table.PNG)
 
 ---
 #### Table Striped
@@ -24,7 +24,7 @@ In order to achieve the striped row effect (zebra-striping) in tables use `.tabl
       ...
     </table>
 
-![Striped Table](https://github.com/TroyB12/Pictures/blob/master/Table%20Striped.PNG)
+![Striped Table](https://raw.githubusercontent.com/TroyB12/Pictures/master/Table%20Striped.PNG)
 
 ---
 #### Table Bordered
@@ -35,7 +35,7 @@ In order to achieve the bordered table use `.table-bordered` in addition to `.ta
       ...
     </table>
 
-![Bordered Table](https://github.com/TroyB12/Pictures/blob/master/Table%20Bordered.PNG)
+![Bordered Table](https://raw.githubusercontent.com/TroyB12/Pictures/master/Table%20Bordered.PNG)
 
 ---
 #### Table Hover
@@ -46,7 +46,7 @@ In order to achieve the hover row effect on tables, use `.table-bordered` in add
       ...
     </table>
 
-![Hover Table](https://github.com/TroyB12/Pictures/blob/master/Table%20Hover.PNG)
+![Hover Table](https://raw.githubusercontent.com/TroyB12/Pictures/master/Table%20Hover.PNG)
 
 ---
 #### Table Condensed
@@ -57,7 +57,7 @@ In order to achieve the condensed table use `.table-condensed` in addition to `.
       ...
     </table>
 
-![Condensed Table](https://github.com/TroyB12/Pictures/blob/master/Table%20Condensed.PNG)
+![Condensed Table](https://raw.githubusercontent.com/TroyB12/Pictures/master/Table%20Condensed.PNG)
 
 ---
 
@@ -71,7 +71,7 @@ In order to achieve the responsive table by wrapping any `.table` table in a `.t
   </table>
 </div>
 
-![Responsive Table](https://github.com/TroyB12/Pictures/blob/master/Table%20Responsive.PNG)
+![Responsive Table](https://raw.githubusercontent.com/TroyB12/Pictures/master/Table%20Responsive.PNG)
 
 ---
 
@@ -99,6 +99,6 @@ Developers are able to change the style of each individual row and/or cell by us
       <td class="info">...</td>
     </tr>
     
-![Contextual Class Table](https://github.com/TroyB12/Pictures/blob/master/Table%20Contextual%20Classes.PNG)
+![Contextual Class Table](https://raw.githubusercontent.com/TroyB12/Pictures/master/Table%20Contextual%20Classes.PNG)
 
 ---
