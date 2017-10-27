@@ -3,7 +3,7 @@ title: Python Using Pip
 ---
 We have seen how to use `import` statements to `import` various modules and to use them in our programs. Python itself comes with several built-in modules, but the python community has more to offer.
 
-> Its the modules that makes python so powerful!
+> It's the modules that makes python so powerful!
 
 Third party modules add so much more functionality to Python. Now we would learn how to install these modules so that we can use those in our programs.
 
