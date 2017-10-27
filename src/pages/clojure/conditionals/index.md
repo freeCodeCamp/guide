@@ -5,7 +5,7 @@ You're not going to get anywhere in a language if all you can do is define funct
 
 ## Logical Operators
 
-Clojure, like most languages, has 3 logical operators: `and`, `or` and `not`. These functions take booleans (`true` or `false`) as arguments, and return booleans based on what those booleans are. Like everything in a Lisp, these operators use prefix notation, which means they might look weird to you.
+Clojure, like most languages, has 3 logical operators: `and`, `or` and `not`. These functions take booleans (`true` or `false`) as arguments, and return booleans based on what those booleans are. Like everything in a Lisp, these operators use prefix notation, which means they might look weird to you:
 
     (and true false)
     ; => false
@@ -24,7 +24,7 @@ Clojure, like most languages, has 3 logical operators: `and`, `or` and `not`. Th
 
 ## If
 
-`if` allows you to execute code based on whether a boolean is `true` or `false`. `if` in Clojure looks quite weird, not because it uses prefix notation, but because there is no else keyword. If the condition is true, it evaluates the first expression. If it's false, it executes the second.
+`if` allows you to execute code based on whether a boolean is `true` or `false`. `if` in Clojure looks quite weird, not because it uses prefix notation, but because there is no else keyword. If the condition is true, it evaluates the first expression. If it's false, it executes the second:
 
     (if (= (+ 2 2) 4)
       (println "Maths works!") ; this gets evaluated if 2 + 2 = 4
@@ -51,7 +51,7 @@ Thankfully, we have the `do` function to solve this problem. `do` evaluates mult
     ;    Maths still works!
     ;    nil
 
-**Note:** since `if` is, itself, an expression, there's no need for a ternary operator like in many C-like languages.
+**Note:** since `if` is, itself, an expression, there's no need for a ternary operator like in many C-like languages:
 
     var doesMathsWork = 2 + 2 === 4 ? "Maths works!" : "UH OH";
     console.log(doesMathsWork);
