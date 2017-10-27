@@ -5,7 +5,7 @@ Functions! They're pretty important. It's very difficult to do anything without 
 
 ## Arity
 
-**Arity** refers to the number of arguments that your function expects.
+**Arity** refers to the number of arguments that your function expects:
 
     ;; add expects 2 arguments. Its arity is 2.
     (defn add [x y] (+ x y))
@@ -16,7 +16,7 @@ Functions! They're pretty important. It's very difficult to do anything without 
     (+ 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16) ;; and so on...
     ; => 136
 
-Clojure has some special syntax that allows you to let your function do different stuff depending on the number of arguments it receives. This is called variable arity.
+Clojure has some special syntax that allows you to let your function do different stuff depending on the number of arguments it receives. This is called variable arity:
 
     (defn foo
       ([]                               ; if this function gets no arguments...
@@ -34,7 +34,7 @@ Clojure has some special syntax that allows you to let your function do differen
 
 ## Anonymous functions
 
-Let's look at a really simple function: a function that adds 1 to a number.
+Let's look at a really simple function: a function that adds 1 to a number:
 
     ;; I've called this function "my-inc" so you don't confuse it with inc.
     ;; inc is a built-in function that already does this for us.
@@ -42,7 +42,7 @@ Let's look at a really simple function: a function that adds 1 to a number.
     (inc' 5)
     ; => 6
 
-This looks pretty simple. It takes a single parameter - `n` - and returns `n + 1`. Let's pick it apart.
+This looks pretty simple. It takes a single parameter - `n` - and returns `n + 1`. Let's pick it apart:
 
     (def my-inc-2 (fn [n] (+ 1 n)))
     (inc' 5)
@@ -60,7 +60,7 @@ There's a shorter way to write anonymous functions, intended for very short, sim
     (#(+ 1 %) 5)
     ; => 6
 
-`#(...)` is a shorthand way to define an anonymous function. `%` refers to the first argument to the function. If your function expects several arguments, you can use `%1, %2, ... %n`.
+`#(...)` is a shorthand way to define an anonymous function. `%` refers to the first argument to the function. If your function expects several arguments, you can use `%1, %2, ... %n`:
 
     (#(str %1 %2 %3) "foo" "bar" "baz")
     ; => "foobarbaz"
