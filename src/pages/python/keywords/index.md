@@ -12,3 +12,5 @@ Python has a list of <a href='https://docs.python.org/3/reference/lexical_analys
         break = "Hello campers!"
                 ^
         SyntaxError: invalid syntax
+
+to find more on where keywords are used: https://www.programiz.com/python-programming/keyword-list
