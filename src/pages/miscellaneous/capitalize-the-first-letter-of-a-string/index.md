@@ -16,11 +16,11 @@ You should use <a href='http://forum.freecodecamp.com/t/javascript-string-protot
 
     string.charAt(0); // Returns "f"
 
-> NOTE: `charAt` is preferable than using `<a href='http://forum.freecodecamp.com/t/javascript-string-prototype-touppercase/15950' target='_blank' rel='nofollow'> ]` (bracket notation) as `str.charAt(0)` returns an empty string (_`''`_) for `str = ''` instead of `undefined` in case of `''[0]`.
+> NOTE: `charAt` is preferable than using `[ ]`(<a href='http://forum.freecodecamp.com/t/javascript-string-prototype-touppercase/15950' target='_blank' rel='nofollow'>bracket notation</a>) as `str.charAt(0)` returns an empty string (_`''`_) for `str = ''` instead of `undefined` in case of `''[0]`.
 
 ## 2\. Convert the First Letter to uppercase
 
-You may use [toUpperCase()</a> method and convert the calling string to upper case.
+You may use <a href='http://forum.freecodecamp.com/t/javascript-string-prototype-touppercase/15950' target='_blank' rel='nofollow'>toUpperCase()</a> method and convert the calling string to upper case.
 
     var string = "freeCodecamp";
 
