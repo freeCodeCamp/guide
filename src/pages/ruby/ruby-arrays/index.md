@@ -49,6 +49,12 @@ When a block is passed to the `count` method, the method returns the number of e
 some_array.count { |elem| elem % 2 == 0 } # 2
 ```
 
+#### A little about blocks:
+
+Blocks are declared using braces `{ ... }` if they are of single line or they are defined with `do ... end` with code spans to multiple lines. Blocks returns value of last evaluated line.
+
+Blocks may or may not accept argument. In above example block accepts one argument `elem`.
+
 #### Ruby Lambda
 A lambda is also commonly referred to as an anonymous function. To create a lambda in Ruby, you can use the following syntax:
 ```ruby
