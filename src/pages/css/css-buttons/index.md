@@ -14,6 +14,7 @@ Buttons are one of the most important elements on the page. They are used to dri
 Cascading Style Sheet (CSS) buttons are created by applying the required styles to make a button appealing and provide a nice user interface. It gives flesh to the Hypertext MarkupLanguage (HTML) stucture.
    
   `<button id="main">CSS Button</button> `
+  
   `<a class="button" href="#">A Pure Button</a>`
 
 Either of the codes above can be used to create a button
