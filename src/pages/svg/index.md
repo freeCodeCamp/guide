@@ -53,6 +53,11 @@ The `<path />` element defines a vector path in the viewport. The path is define
 
 <a href='https://caniuse.com/#feat=svg' target='_blank' rel='nofollow'>Browser support for SVG</a> is available in all modern browsers. There are some issues with scaling in IE 9 through IE 11 however they can be overcome with the use of the `width`, `height`, `viewbox`, and CSS. 
 
+## Why you should use SVGs
+
+As a vector image format, it allows you to resize an image without any loss of quality and a particularly light weight.
+As an XML format, it allows you to benefit from the full power of JavaScript and especially CSS.
+
 ## Resources
 
 - <a href='https://www.w3.org/TR/SVG/' target='_blank' rel='nofollow'>W3C, Scalable Vector Graphics (SVG) 1.1 (Second Edition)</a>
