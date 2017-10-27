@@ -5,6 +5,8 @@ title: Queues
  
 Queue is a First In First Out (FIFO) Data Structure. Many algorithms use Queues at their core for improving performance.
 
+Queues provide services in computer science, transport, and operations research where various entities such as data, objects, persons, or events are stored and held to be processed later. Queues may be implemented as a separate data type, or may be considered a special case of a double-ended queue (deque) and not implemented separately. 
+
 Queue is one of the fundamental Abstract Data Types (ADT). It is similar to queues we have in movies or supermarkets. The first person to arrive will be served first right? Similarly, the first element to be inserted will be removed first. There are several types of queues such as,
 
 1. Simple Queue (or Queue)  
