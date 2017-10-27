@@ -105,3 +105,4 @@ int a = test[-2];
 int b = test[89];
 ```
 The reason for C not checking the indexing bound is simple: C is an efficient language. It was made, so your program is the fastest: communicates nicely with hardware etc. A nicely written C code does not contain indexing errors, so why would C want to check while running? 
+Arrays are building blocks to all the data structures in C
