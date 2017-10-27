@@ -4,7 +4,7 @@ title: SQL Delete Statement
 ## SQL Delete Statement
 ### Introduction
 
-You use the `DELETE` statement to delete records from the table. 
+You use the `DELETE` statement to delete records from a table. 
 
 ### Basic Syntax
 ```sql
