@@ -10,6 +10,10 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
+In order to find the area of a rectangle multiply the base by the height and devide by two.
+
+area=base*height/2
+
+Link to video: https://goo.gl/1B7K4n
 
