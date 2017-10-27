@@ -15,3 +15,5 @@ You can build some pretty amazing things in CSS alone, such as <a href='https://
 #### Suggested Reading:
 
 A good start is the current Beta <a href='https://github.com/freeCodeCamp/freeCodeCamp/blob/staging/seed/challenges/01-responsive-web-design/basic-css.json#L14' target='_blank' rel='nofollow'>introduction for the CSS challenges</a>
+
+For beginners, W3C's <a href='https://www.w3.org/Style/Examples/011/firstcss' target='_blank' rel='nofollow'>Starting with HTML + CSS</a> teaches how to create a style sheet. 
