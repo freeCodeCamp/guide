@@ -46,6 +46,6 @@ Additional parameters must be preceded by `&`.
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-[Mailto links on MDN web docs](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks)
+<a href='https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks' target='_blank' rel='nofollow'>Mailto links on MDN web docs</a>
 
 

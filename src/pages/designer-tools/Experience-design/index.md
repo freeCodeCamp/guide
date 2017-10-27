@@ -10,6 +10,8 @@ Adobe Experience Design, also known as Adobe XD, is a prototyping tool for UX de
 
 * in-built prototyping tools
 * available on both Windows and macOS
+* mobile device preview
+* free UI kits
 * very clean and neat interface, unlike Photoshop. 
 * easy for Sketch users to switch as interface is very similar
 * repeat-grid feature

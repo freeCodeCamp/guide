@@ -9,4 +9,4 @@ It's declarative: React uses a declarative paradigm that makes it easier to reas
 
 To describe component's DOM representations, React uses an XML-like syntax called JSX. JSX is not required to use React, but it makes code more readable, and writing it feels like writing HTML. A simple transform is included with React that allows converting JSX into native JavaScript for browsers to digest.
 
-For more information head to [https://reactjs.org/](https://reactjs.org/)
+For more information head to <a href='https://reactjs.org/' target='_blank' rel='nofollow'>https://reactjs.org/</a>
