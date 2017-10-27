@@ -13,5 +13,6 @@ For example, if you have a rectangle that is 2cm by 4cm, then you can work out t
 
 <!-- #### More Information: -->
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
+More Information:
+http://virtualnerd.com/pre-algebra/perimeter-area-volume/perimeter-and-area/area-formulas-examples/rectangle-area-example
 
