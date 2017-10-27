@@ -7,6 +7,14 @@ Cross Site Scripting (XSS) is is a type of code injection. It is one of the most
 
 XSS usually involves entering code into an form, url parameter or anywhere else that accepts user input that is displayed back to users. For example imagine a website that showed your user profile, and you entered `<script>alert("HELLO!");</script>` as your username. If the site did not prevent XSS, then every person that visited your profile would get an alert pop-up.
 
+#### Different types of XSS
+
+There are 3 different types of XSS.
+
+* Stored XSS
+* Reflective XSS
+* DOM Based XSS
+
 #### Dangers of XSS
 
 Of course, the above example does not present any immediate danger to those viewing your profile. But, what if you had more sinister intentions? You could execute some javascript to show a fake log in page, and gather usernames and passwords for other users of the site, or simply read the session cookie if it is not secure. You could force them to visit other websites or perform an action. 
