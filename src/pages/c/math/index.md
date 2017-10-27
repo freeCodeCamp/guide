@@ -103,6 +103,12 @@ int main(void) {
 ```
 Give that a run to see what happens, and be sure to play with the operators and values to see what and how things change.
 
+# Math library
+C provides a math library (`math.h`) that provides multiple useful math functions. As an example, the power of a number can be calculated as:
+
+```#include<math.h>
+int result = pow(2,3) // will result in 2*2*2 or 8
+```
 # Before you go on...
 ## A review
 * There are several basic operators:
