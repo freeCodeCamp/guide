@@ -10,10 +10,10 @@ function Index() {
       <h2>freeCodeCamp Guide</h2>
       <p>
         {
-          'This website is full of articles about all things related to ' +
-          'programming. You can use the search bar above to find something ' +
-          'you would like to learn about, or use the navigation to explore ' +
-          'the content.'
+          'Website ini penuh dengan artikel tentang segala hal yang berhubungan dengan '+
+          'pemrograman Anda dapat menggunakan bilah penelusuran di atas untuk menemukan sesuatu '+
+          'Anda ingin belajar tentang, atau gunakan navigasi untuk mengeksplorasi' +
+          'isinya'
         }
       </p>
       <p>There are articles on:</p>
