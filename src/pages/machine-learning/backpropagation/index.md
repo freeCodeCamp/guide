@@ -1,3 +1,6 @@
+---
+title: Backpropagation
+---
 ## Backpropagation
 
 Backpropagation is a method that used for training neural networks. Every output from a layer is used as input for after layers. After calculating error we update error by backward operations. 
