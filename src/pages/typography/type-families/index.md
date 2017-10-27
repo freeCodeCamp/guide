@@ -3,13 +3,11 @@ title: Type Families
 ---
 ## Type Families
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/typography/type-families/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+  Type families is a modern creation in typeface that did not appear until the late 1700s. Type families are fonts of different types, such as roman or italic, but that match in style. <sup>1</sup> Type families share a lot of the same main qualities, but also have individual variations. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+  Type families later went on to expand thanks to Adrian Frutiger, a swiss designer. He thought some of the old naming systems were going out of style and wanted to create a more logical numbering scheme. In his system, each font was appended with a two digit number. The first digit corresponded to the weight, with 3 being the lightest and 9 being the heaviest. The second number corresponded to the proportion of the font, which is how close together or far apart the letters were. The lower the number, the more condensed the font was. A couple common type families are ITC Stone® Serif and Lucida®. 
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+1. Strizver, Ilene. “Type Families.” Fonts.com, Monotype, www.fonts.com/content/learning/fyti/typefaces/families.
 
 
