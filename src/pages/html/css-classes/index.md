@@ -27,7 +27,7 @@ background-color: blue;
 ```
  
 
-Notice that classes have the prefix of a period (.) in CSS.
+Notice that classes have the prefix of a period (.) in CSS:
 
 You can see the result of the above code <a href='https://codepen.io/Tlandis/pen/RLvomV' target='_blank' rel='nofollow'>here</a>.
 #### More Information:
