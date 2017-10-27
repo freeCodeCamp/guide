@@ -132,10 +132,10 @@ expect(weNeedAHero(2)).to.equal('Black Widow');
 So that’s Chai in a nutshell! But how do you take Chai from testing simple functions to testing an actual app?
 
 
-You combine it with a test runner (like [Mocha](https://mochajs.org/)), which takes your Chai assertions and organizes them into tests, which validate a whole function or feature. You can also use it with a browser automation tool (like [Nightmare](https://github.com/segmentio/nightmare)), which opens your app in a browser and does whatever you tell it to (click links, go to URLs, submit forms), and then run Chai assertions to make sure everything looks good.
+You combine it with a test runner (like <a href='https://mochajs.org/' target='_blank' rel='nofollow'>Mocha</a>), which takes your Chai assertions and organizes them into tests, which validate a whole function or feature. You can also use it with a browser automation tool (like <a href='https://github.com/segmentio/nightmare' target='_blank' rel='nofollow'>Nightmare</a>), which opens your app in a browser and does whatever you tell it to (click links, go to URLs, submit forms), and then run Chai assertions to make sure everything looks good.
 
 
 ### Other resources
 Check out these links to learn more about Chai and software testing:
-[Chai API](http://chaijs.com/api/): the keywords and functions you can use to write assertions
-[TDD and BDD](http://joshldavis.com/2013/05/27/difference-between-tdd-and-bdd/): two different testing styles that Chai caters to
+<a href='http://chaijs.com/api/' target='_blank' rel='nofollow'>Chai API</a>: the keywords and functions you can use to write assertions
+<a href='http://joshldavis.com/2013/05/27/difference-between-tdd-and-bdd/' target='_blank' rel='nofollow'>TDD and BDD</a>: two different testing styles that Chai caters to
