@@ -3,7 +3,13 @@ title: Color Theory
 ---
 ## Color Theory
 
-Color Theory is the practical application of mixing and using colors together to achieve a specific visual effect. This can be broken down further into segments describing where to find colors, how to use color, and how color can impact usability.  
+Color Theory is the practical application of mixing and using colors together to achieve a specific visual effect. This can be broken down further into segments describing where to find colors, how to use color, and how color can impact usability.
+
+## Color Psychology
+
+Color Psychology is a study of how color influences human mood and behavior. The colors chosen for the design will decide on how a product can be successful.
+
+## The Color Wheel
 
 A color wheel is the main tool used by designers to specify or locate color. Color wheels can include the entire color spectrum or they can be organized by a defined category of colors. 
 The three main category of colors, which you might already be familiar with, are Primary Colors, Secondary Colors, and Tertiary Colors.
