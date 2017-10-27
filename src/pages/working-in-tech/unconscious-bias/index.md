@@ -12,8 +12,10 @@ title: Unconscious Bias
 
 <p>Implicit or unconscious bias happens by our brains making incredibly quick judgments and assessments of people and situations without us realising. Our biases are influenced by our background, cultural environment and personal experiences. We may not even be aware of these views and opinions, or be aware of their full impact and implications.</p>
 
-<p>Unconscious bias is far more prevalent than conscious prejudice and often incompatible with one’s conscious values. Certain scenarios can activate unconscious attitudes and beliefs. For example, biases may be more prevalent when multi-tasking or working under time pressure.</p> 
+<p>Unconscious bias is far more prevalent than conscious prejudice and often incompatible with one’s conscious values. Certain scenarios can activate unconscious attitudes and beliefs. For example, biases may be more prevalent when multi-tasking or working under time pressure.</p>
+
 <p>Unconscious bias can influence decisions in recruitment, promotion and performance management. It could be discriminatory when the unconscious bias relates to a protected characteristic.</p>
 
-
-
+#### More Information:
+<!-- Please add any articles you think might be helpful to read before writing the article -->
+https://en.wikipedia.org/wiki/Bias
