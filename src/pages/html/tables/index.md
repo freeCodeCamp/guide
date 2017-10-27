@@ -1,30 +1,33 @@
 ---
 title: Tables
 ---
-## Tables
+### Defining an HTML Table
 
-The `<table>` tag defines an HTML table. It consists of the `<table>` element and one or more `<tr>`, `<th>`, and `<td>` elements.
-The `<tr>` element defines a table row, the `<th>` element defines a table header, and the `<td>` element defines a table cell.
-A more complex HTML table may also include `<caption>`, `<col>`, `<colgroup>`, `<thead>`, `<tfoot>`, and `<tbody>` elements.
+An HTML table is defined with the <table> tag.
+
+Each table row is defined with the <tr> tag. A table header is defined with the <th> tag. By default, table headings are bold and centered. A table data/cell is defined with the <td> tag.
 
 ### Simple Table Example
 ```html
-<!DOCTYPE html>
-<html>
-	<body>
-    <table>
-      <tr>
-        <td>
-          cell 1
-        </td>
-        <td>
-          cell 2
-        </td>
-      </tr>
-    </table>
-	</body>
-</html>
+<table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td> 
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td> 
+    <td>94</td>
+  </tr>
+</table>
 ```
+<a href='https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table'> DEMO </a>
 
 ### Table Example with more semantic information
 ```html
