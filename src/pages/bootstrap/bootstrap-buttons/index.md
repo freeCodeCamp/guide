@@ -16,7 +16,7 @@ To use bootstrap buttons you follow the same steps that you would to create a bu
 #### Bootstrap Button Class List:
 This is a list of the CSS classes that bootstrap provides for buttons.
 
-`.btn` This is bootstrap's basic button.
+`.btn` This is bootstrap's basic button,which only use to give a shape of button.
 
 <button type="button" class="btn">Basic</button>
 
@@ -24,23 +24,23 @@ This is a list of the CSS classes that bootstrap provides for buttons.
 
 <button type="button" class="btn btn-default">Default</button>
 
-`.btn-primary` This is bootstrap's primary button.
+`.btn-primary` This is bootstrap's primary button which is by default Blue.
 
 <button type="button" class="btn btn-primary">Primary</button>
 
-`.btn-success` This is bootstrap's success button.
+`.btn-success` This is bootstrap's success button, which is Green By default.
 
 <button type="button" class="btn btn-success">Success</button>
 
-`.btn-info` This is bootstrap's info button.
+`.btn-info` This is bootstrap's info button, which is blue by default.
 
 <button type="button" class="btn btn-info">Info</button>
 
-`.btn-warning` This is bootstrap's warning button.
+`.btn-warning` This is bootstrap's warning button which is OrangeYellow by default.
 
 <button type="button" class="btn btn-warning">Warning</button>
 
-`.btn-danger` This is bootstrap's danger button.
+`.btn-danger` This is bootstrap's danger button which is red by default.
 
 <button type="button" class="btn btn-danger">Danger</button>
 
@@ -55,11 +55,11 @@ This is a list of the CSS classes for different size of the buttons.
 
 <button type="button" class="btn btn-lg">Large</button>
 
-`.btn-sm` This is bootstrap's large button.
+`.btn-sm` This is bootstrap's small button.
 
 <button type="button" class="btn btn-sm">Small</button>
 
-`.btn-xs` This is bootstrap's large button.
+`.btn-xs` This is bootstrap's small button.
 
 <button type="button" class="btn btn-xs">Extra Small</button>
 
