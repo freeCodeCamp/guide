@@ -1,15 +1,11 @@
 ---
 title: Docker
 ---
-## Docker
+Docker image vs Container:
+An instance of an image is called a container. You have an image, which is a set of layers as you describe. If you start this image, you have a running container of this image. You can have many running containers of the same image. 
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/devops/docker/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+You can see all your images with docker imgaes whereas you can see your running containers with docker ps (and you can see all conatiners with docker pa -a).
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+So a running instance of an image is a container.
 
 
