@@ -26,3 +26,6 @@ cout << "The output value of int x" << x << endl;
 The operators '<<' and '>>' are used to point in the direction of the data.
 For 'cin', the '>>' operator is used.
 For 'cout', the '<<' operator is used.
+ to print hello use :-
+ cout<<"hello";
+ 
