@@ -23,3 +23,7 @@ for (int i = 0; i < array.Length; i++)
 > Item on index 3 is 4
 > Item on index 4 is 5
 ```
+#### More Information:
+
+* <a href='https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/for' target='_blank' rel='nofollow'>for (C# Reference)</a>
+* <a href='https://www.dotnetperls.com/for' target='_blank' rel='nofollow'>C# For Loop</a>
