@@ -16,4 +16,6 @@ title: Unconscious Bias
 <p>Unconscious bias can influence decisions in recruitment, promotion and performance management. It could be discriminatory when the unconscious bias relates to a protected characteristic.</p>
 
 
-
+## Resources
+- Harvard has a site for testing your own implicit biases: (https://implicit.harvard.edu/implicit/takeatest.html)
+  - there are multiple tests encompassing a lot: Gender, Asian American, Sexuality, Native American, Weapons, Race, Skin-tone, Presidents, Religion, Weight, Age, and Disability
