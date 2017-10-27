@@ -69,6 +69,25 @@ Documentation reference: <a href='http://www.cplusplus.com/reference/cmath/' tar
 #### Python
 ``` python
 >>> import math
+>>> math.sqrt(9)      //takes only positive roots into consideration
+3.0
+>>> math.pi           //you can also utilize mathematical consonants like pi and e
+3.141592653589793
+>>> math.radians(90)  //converts degrees to radians
+1.5707963267948966
 ```
+
+The `math` module can also be imported as follows, and the usage difference is illustrated: 
+
+```python
+>>> from math import *
+>>> sqrt(4)
+2.0
+>>> pi
+3.141592653589793
+
+```
+
+Documentation reference: <a href='https://docs.python.org/2/library/math.html' target='_blank' rel='nofollow'>Python 2</a> | <a href='https://docs.python.org/3/library/math.html' target='_blank' rel='nofollow'>Python 3</a>
 
 
