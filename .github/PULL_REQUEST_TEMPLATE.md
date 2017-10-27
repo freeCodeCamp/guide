@@ -1,17 +1,18 @@
 <!--
-Thanks for contributing to the freeCodeCamp Guide! Before you open your pull request (PR), please make sure to do the following:
+Terima kasih telah berkontribusi pada Panduan FreeCodeCamp! Sebelum Anda membuka permintaan tarik (PR) Anda, pastikan untuk melakukan hal berikut:
 
-- Avoid a duplicate PR: search through the open pull requests to check that there is not a PR already open that writes the same article or makes similar changes
-- Your changes pass the Travis CI build: any new folder you create in "src/pages" must have an index.md. All articles must have the following as the first three lines in the file:
+- Hindari PR duplikat: cari melalui permintaan tarik terbuka untuk memeriksa bahwa tidak ada PR yang sudah terbuka yang menulis artikel yang sama atau membuat perubahan serupa.
+- Perubahan Anda melewati Travis CI build: folder baru yang Anda buat di "src / pages" harus memiliki index.md. Semua artikel harus memiliki yang berikut sebagai tiga baris pertama dalam file:
 
 ---
-title: Title of the article that shows up in the site's menu
+
+Judul: Judul artikel yang muncul di menu situs
 ---
 
-- If you edit a stub article, your changes are substantial enough to justify removing the stub text ("This article is a stub..." part). We can't accept PRs that only add links to the "More Information" section - a repository script will automatically delete any changes (and revert it to the stub template) if the stub language is still in that file
-- Your PR has a descriptive name (NOT: Update index.md): for example, if you create a "Variables" article inside the "Python" directory, the pull request title should be "Python: add Variables article". Other examples are "Git: edit Git Commit article" or "PHP: create PHP section and add Data Structures article"
-- Add a short description below describing your changes
+- Jika Anda mengedit artikel rintisan, perubahan Anda cukup besar untuk membenarkan penghapusan teks rintisan ("Artikel ini adalah bagian rintisan ..."). Kami tidak dapat menerima PR yang hanya menambahkan tautan ke bagian "Informasi selengkapnya" - skrip repositori akan menghapus perubahan secara otomatis (dan mengembalikannya ke template rintisan) jika bahasa tulisan rintisan masih ada dalam file tersebut.
+- PR Anda memiliki nama deskriptif (TIDAK: Update index.md): misalnya, jika Anda membuat artikel "Variabel" di dalam direktori "Python", judul permintaan tarik harus "Python: tambahkan artikel Variabel". Contoh lainnya adalah "Git: edit artikel Git Commit" atau "PHP: buat bagian PHP dan tambahkan artikel Struktur Data"
+-Tambahkan deskripsi singkat di bawah ini untuk menjelaskan perubahan Anda
 
 -->
 
-**Description**
+**Indonesian Description**
