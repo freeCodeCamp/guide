@@ -1,20 +1,37 @@
 ---
 title: Markdown Code Formatting
 ---
-**```js** ⇦ Type 3 backticks and then press `<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/yin_yang.png?v=3 ":yin_yang:"' target='_blank' rel='nofollow'>shift + enter ⏎]` (type js or html or css)
 
+[Markdown](https://en.wikipedia.org/wiki/Markdown) is a syntax for composing documents that remain easily human-readable when viewed in plaintext but also can be converted into attractive documents containing the "standard" formatting (_italics_, **bold**, etc.) people expect from word processing software like MS Word, OpenOffice, LibreOffice, etc.
+
+Websites where new programmers often seek guidance from peers and experts (like [StackOverflow](https://stackoverflow.com), [StackExchange](www.stackexchange.com), [StataList](https://www.statalist.org), and [GitHub](www.github.com), etc.) often support Markdown in their question and answer fields, and the expectation of those communities is usually that the questioner will post _the actual code_ they are trying to run. As a result, people trying to learn programming are well-served by learning basic Markdown formatting.
+
+There are many helpful resources available online, including but not limited to:
+
++ _Markdown_ by John Gruber on [Daring Fireball](https://daringfireball.net/projects/markdown/)
++ _Markdown Here Cheatsheet_ by Adam Pritchard on [GitHub](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet)
++ _Mastering Markdown_, the [GitHub Guide](https://guides.github.com/features/mastering-markdown/)
+
+The remainder of this document provides guidance on formatting code in Markdown.
+
+# Blocks of code
+A _code block_ in Markdown can be initiated by typing three backticks (\`\`\`) and closed by typing three more backticks (\`\`\`). On U.S. QWERTY keyboards, the backtick is often located at the top left of the keyboard, adjacent to the numeral _1_, sharing a key with the tilde (~). (See section below for a visual representation.)
+
+**```js```** ⇦ Type 3 backticks and then press `shift + enter ⏎` (type js or html or css)
+
+```
     <paste your code here>,
     then press [shift + enter ⏎]
-
+```
 **```** ⇦ Type 3 backticks, then press `[enter ⏎]`
 
-# Single line Code
+# Single line code
 
-This an inline **`**`<paste code here>`**`** code formatting with a single backtick (`) at _start_ and _end_ around the `code`.
+You can add code snippets in-line without using a code block by surrounding the code with single back-ticks. `print("This is an example of inline code")`.
 
 See also: ![:yin_yang:</a> <a href='https://gitter.zendesk.com/hc/en-us/articles/201302311-Compose-mode' target='_blank' rel='nofollow'>Compose Mode</a> | ![:snowflake:](https://forum.freecodecamp.com/images/emoji/emoji_one/snowflake.png?v=3 ":snowflake:") <a href='https://gitter.zendesk.com/hc/en-us/articles/200176682-Markdown-basics' target='_blank' rel='nofollow'>Gitter Formatting Basics</a>
 
-## Typing Backticks<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/arrow_heading_up.png?v=3 ":arrow_heading_up:"' target='_blank' rel='nofollow'>![:arrow_heading_up:</a>](http://superuser.com/a/254077/122424)
+## Typing Backticks
 
 ### QWERTY and QWERTZ (Key that's been marked with red border)
 
