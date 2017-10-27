@@ -31,6 +31,10 @@ ON Customers.CustomerID=Orders.CustomerID
 ORDER BY Customers.CustomerName
 ```
 
+### What is null? 
+NULL is a special value representing "no value" in all data types. NULL can be used on in operations like other values. But most opertations has special rules when NULL is involved.
+
+
 # Changes
 
 ### What is the result of the following command?
