@@ -53,6 +53,17 @@ A full width grid that has four columns, that each take up a full row on xs scre
 </div>
 ```
 
+if You are designing mobile Responsive, few time you may have to use col-sm-*, col-md-*,col-lg-* along in element to make it more resoponsive, by doing this you make your website more responsive for every single screen so it secure your site from being tearing apart from design
+
+```
+<div class="col-12 col-sm-8 col-lg-6 ">Element</div>
+```
+
+in grid view there is offset feature which helps you to give space by using col-*-offset-^
+where * is xs, sm, md, lg, and ^ is value between 1-12
+
+this give extra space depend upon screen and size
+
 *Note that `col-md` and `col-xl` are not defined, where a size is not defined, it will default down to the next smaller size that has been specified.*
 
 Bootstrap provides a ready made 12 column grid system for use in layouts. Consider the following code.
