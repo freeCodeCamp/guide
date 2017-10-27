@@ -18,4 +18,4 @@ etc..
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-* <a href='https://aws.amazon.com/' target='_blank' rel='nofollow'>AWS</a>
+* <a href='https://aws.amazon.com/' target='_blank' rel='nofollow'>AWS Home Page</a>
