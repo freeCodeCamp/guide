@@ -9,7 +9,7 @@ Unreal Engine is a cross-platform game engine developed by Epic Games. The Unrea
 Since 2015 the Unreal Engine has been free to use, with Epic charging a 5% royalty on sales of titles produced using the engine. Epic make the majority of their codebase freely available via their Github, although source for closed platforms such as the Playstation 4 and Xbox One is only available for registered platform developers.
 
 ### Unreal Versions
-Unreal has gone through 4 major revisions. Although some code is common between releases, each major version is a separate engine and projects can not be moved between them. Within each major engine release, there are multiple minor versions.
+Unreal has gone through 4 major revisions. Although some code is common between releases, each major version is a separate engine and projects can not be moved between them. Within each major engine release, there are multiple minor versions:
 
   * Unreal Engine 1
   Released in 1998 and targeted Windows PC, Linux, Mac, Playstation 2 and Dreamcast. The engine was written in C++, and easily moddable using the Unreal Script language.
