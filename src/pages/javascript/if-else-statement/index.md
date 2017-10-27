@@ -51,3 +51,24 @@ _**Note:**_ If you want to execute more than one statement in the `if`, `else` o
       flag = 1;
       return "Invalid number";
     }
+    
+**using** `else if implementing variable usage`:    
+   
+    var testNumber = "fifteen";
+
+    if(testNumber<10){
+      console.log("That is a small number");
+    } else if (testNumber>=10) {
+      console.log("That is a large number");
+    } else {
+      console.log("That is not a number");
+    };
+
+
+
+
+
+
+
+
+        
