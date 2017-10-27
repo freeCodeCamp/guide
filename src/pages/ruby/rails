@@ -1,0 +1,16 @@
+What is Rails?
+
+Rails, is a web application framework written in Ruby and is a model–view–controller (MVC) framework. Rails combines the Ruby programming language with HTML, CSS, and JavaScript to create a web application that runs on a web server. 
+Because it runs on a web server, Rails is considered a server-side, or “back end,” web application development platform (the web browser is the “front end”).
+
+Rails is the most commonly use web framework used when working with Ruby. In a nutshell using Ruby on Rails allows developers to easily create and maintain applications with very little effort but huge functionality.
+
+Why use Rails?
+
+Rails is popular and widely used because its conventions are pervasive and astute. Any web application has complex requirements that include basic functions such as generating HTML, processing form submissions, or accessing a database. 
+Without a web application development framework, a programmer has a mammoth task to implement all the required infrastructure. Even with a web application development framework, a programmer can take the wrong approach, building something that no one else can easily take apart and understand. 
+The singular virtue of Rails is that there is one best way to implement much of the infrastructure required by a web application.
+
+
+For further info, check out this wiki - https://en.wikipedia.org/wiki/Ruby_on_Rails
+
