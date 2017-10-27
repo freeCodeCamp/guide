@@ -2,7 +2,7 @@
 title: Promises
 ---
 ## Promises
-JavaScript is single threaded, meaning that two bits of script cannot run at the same time; they have to run one after another. A Promise is an object that represents the eventual completion (or failure) of an asynchronous operation, and its resulting value.
+JavaScript is single threaded, meaning that two bits of script cannot run at the same time; they have to run one after another.<sup>1</sup> A Promise is an object that represents the eventual completion (or failure) of an asynchronous operation, and its resulting value.<sup>2</sup>
 
 ```javascript
 var promise = new Promise(function(resolve, reject) {
@@ -21,9 +21,9 @@ var promise = new Promise(function(resolve, reject) {
 
   - Pending: initial state, neither fulfilled nor rejected.
   - Fulfilled: operation completed successfully.
-  - Rejected: operation failed.
+  - Rejected: operation failed.<sup>2</sup>
 
-The Promise object works as proxy for a value not necessarily known when the promise is created. It allows you to associate handlers with an asynchronous action's eventual success value or failure reason. This lets asynchronous methods return values like synchronous methods: instead of immediately returning the final value, the asynchronous method returns a promise to supply the value at some point in the future.
+The Promise object works as proxy for a value not necessarily known when the promise is created. It allows you to associate handlers with an asynchronous action's eventual success value or failure reason. This lets asynchronous methods return values like synchronous methods: instead of immediately returning the final value, the asynchronous method returns a promise to supply the value at some point in the future.<sup>4</sup>
 
 
 ## Promise API
@@ -138,3 +138,8 @@ console.log(gen.next());
 As we keep calling `gen.next()` it will keep going onto the next `yield` and pausing each time. Once there are no more `yield`'s left, it will proceed to run the rest of the generator, which in this case simply returns `'Finished!'`. If you call `gen.next()` again, it will throw an error as the generator is finished.
 
 Now, imagine if each `yield` in this example was a `Promise`, the code itself would appear extremely synchronous. Libraries such as <a href='https://github.com/redux-saga/redux-saga' target='_blank' rel='nofollow'>redux-saga</a> make use of this to implement easier-to-understand side-effects in your Redux applications.
+
+
+### Sources
+1. [Archibald, Jake. Bynens, Mathias. "JavaScript Promises: an Introduction" "Google Developers: Web Fundamentals" Updated: October 10, 2017.](https://developers.google.com/web/fundamentals/primers/promises)
+2,3,4. [MDN contributors et al. MDN web docs. "Standard built-in objects: Promise" Last updated by: anpa, Oct 23, 2017](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
