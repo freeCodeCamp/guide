@@ -1,3 +1,7 @@
+---
+title: Getters & Setters
+---
+
 # Getters & Setters
 Getters and Setters are used to effectively protect your data, particularly when creating classes. For each variable, the get method returns its value, while the set method sets the method.
 
