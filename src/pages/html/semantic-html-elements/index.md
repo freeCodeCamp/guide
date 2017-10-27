@@ -2,14 +2,28 @@
 title: Semantic HTML Elements
 ---
 ## Semantic HTML Elements
+A semantic HTML element clearly describes its meaning to both the browser and the developer. Examples of semantic elements would be `<form>` or `<table>`.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/semantic-html-elements/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+On the other hand, non-semantic elements such as `<div>` or `<span>` tell nothing about the content.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The purpose of semantic elements is to increase code readibility and offers no performance benefits.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+#### New semantic elements in HTML5
+```html
+<article>
+<aside>
+<details>
+<figcaption>
+<figure>
+<footer>
+<header>
+<main>
+<mark>
+<nav>
+<section>
+<summary>
+<time>
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+- [Semantic elements on w3schools.com](https://www.w3schools.com/html/html5_semantic_elements.asp)
