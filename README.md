@@ -75,8 +75,10 @@ We've written the following guide to writing Guide articles to help you get star
 - [Article title](#article-title)
 - [Modularity](#modularity)
 - [General writing tips](#general-writing-tips)
+- [Attribution](#attribution)
 - [Formatting example code](#formatting-example-code)
 - [Adding images to articles](#adding-images-to-articles)
+- [Adding links to articles](#adding-links-to-articles)
 - [Proper nouns](#proper-nouns)
 - [Where to get help](#where-to-get-help)
 
@@ -120,7 +122,8 @@ However, you can include special characters in the article title.
 
 Each article should explain exactly one concept, and that concept should be apparent from the article's title.
 
-We can reference other articles by linking to them inline, or in an "Other Resources" section at the end of the article.
+We can reference other articles by linking to them inline, or in an "More
+information:" section at the end of the article.
 
 Our goal is to have thousands of articles that cover a broad range of technical topics.
 
@@ -165,7 +168,7 @@ Here is some content that should be cited.<sup>1</sup> And here is even more tha
 
 ### Sources
 1. [Doe, John. "Authoring Words." *WikiCoder*. January 1, 1970. Accessed: October 20, 2017](#)
-2. [Purdue OWL Staff. "MLA Works Cited: Electronic Sources." *Purdue Online Writing Lab.* October 12, 2017. Accessed: Ocotber 20, 2017.](https://owl.english.purdue.edu/owl/resource/747/08/)
+2. [Purdue OWL Staff. "MLA Works Cited: Electronic Sources." *Purdue Online Writing Lab.* October 12, 2017. Accessed: October 20, 2017.](https://owl.english.purdue.edu/owl/resource/747/08/)
 </blockquote>
 You can check out the Purdue link above to see how to properly cite web sources (they even show how to cite tweets!). Typically, an attribution has a structure like the following:
 
@@ -187,26 +190,28 @@ Here are specific formatting guidelines for any code:
 - Comments made should have a space between the comment characters and the comment themselves
 
     `// Fix this line`
+
 - GitHub-flavored markdown supports [syntax highlighting in code blocks](https://help.github.com/articles/creating-and-highlighting-code-blocks/#syntax-highlighting) for many programming languages. To use it, indicate the language after starting ```
-```
-    ```html
-    <div class='awesome' id='more-awesome'>
+
+    ```
+      ```html
+      <div class='awesome' id='more-awesome'>
       <p>This is text in html</p>
-    </div>
-    ```
+      </div>
+      ```
 
-    ```javascript
-    function logTheThings(stuff) {
-     console.log(stuff);
-    }
-    ```
+      ```javascript
+      function logTheThings(stuff) {
+        console.log(stuff);
+      }
+      ```
 
-    ```css
-   .awesome {
-      background-color: #FCCFCC;
-    }
+      ```css
+      .awesome {
+        background-color: #FCCFCC;
+      }
+      ```
     ```
-```
 
 ### Adding images to articles
 
@@ -217,6 +222,14 @@ Then you'd just need to reference them in your markdown file with this syntax:
 `![your alt text](your url)`
 
 Then the images should show up when you click the "preview changes" tab.
+
+### Adding links to articles
+
+Use Markdown style links in your articles to link to other websites.
+
+```
+[freeCodeCamp](https://www.freecodecamp.org/)
+```
 
 ### Proper nouns
 
