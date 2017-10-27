@@ -3,49 +3,35 @@ title: HTML Forms
 ---
 ## HTML Forms
 
-Basically, forms are used to collect data entered by a user, which are then sent to the server for further processing. They can be used for different kinds of user inputs, such as name, email etc. 
+HTML forms are a useful point of contact between a website and its users. When a user successfully fills out a form, the form data is generally submitted to a server for further processing.
 
-Form contains control elements which are wrapped around ```<form></form>``` tags, like ```input```, which type can be:
+The first element in every form is easy to remember: `<form>`.
+```
+<form action="/my-handling-form-page" method="post">
 
-- ```text```
-- ```email```
-- ```password```
-- ```checkbox```
-- ```radio```
-- ```submit```
+</form>
+```
+Source: [MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form)
 
-Code example:
-```html
-<form>
+The `action` attribute specifies where the data should go, while the `method` attribute specifies the type of HTTP request being made.
+
+It's common to find these elements nested within a form:
+* `label`: Labels describe what kind of user input is expected.
+* `input`: An input field provides space for a single line of text.
+* `textarea`: A textarea provides several lines of space for the user.
+
+```
+<form action="/" method="post">
     <label for="username">Username:</label>
     <input type="text" name="username" id="username">
     <label for="password">Password:</label>
     <input type="password" name="password" id="password">
-    <input type="radio" name="gender" value="male">Male<br>
-    <input type="radio" name="gender" value="female">Female<br>
-    <input type="radio" name="gender" value="other">Other
     <input type="submit" value="Submit">
 </form>
 ```
 
-Other elements that form can contain:
+In the example login form above, each label is linked to the appropriate input element using the `for` attribute. 
 
-- ```textarea``` - is a multiline box which is most often used for adding some text eg. comment. Size of textarea is defined by number of rows and columns.
-- ```select``` - together with ```<option></option>``` tag creates drop-down select menu.
+Each input field has a `type` attribute, which affects the field's behavior and sometimes its appearance. For example, an input type with a value of `password` will obscure each keystroke automatically.
 
-
-SOME MORE INFORMATION ON HTML FORMS.
-
-HTML Forms are required, when you want to collect some data from the site visitor. For example, during user registration you would like to collect information such as name, email address, credit card, etc.
-
-A form will take input from the site visitor and then will post it to a back-end application such as CGI, ASP Script or PHP script etc. The back-end application will perform required processing on the passed data based on defined business logic inside the application.
-
-There are various form elements available like text fields, textarea fields, drop-down menus, radio buttons, checkboxes, etc.
-
-The HTML <form> tag is used to create an HTML form and it has following syntax −
-    
-    <form action = "Script URL" method = "GET|POST">
-         form elements like input, textarea etc.
-    </form>
-
-
+The last input field has a `submit` type. It appears as a button to the user. Upon clicking this input field, the data is sent to the location specified by the form's `action`.
