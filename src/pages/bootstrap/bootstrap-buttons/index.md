@@ -67,4 +67,4 @@ _Note: Do not include the dot in the HTML Class Attribute, referring to the clas
 
 #### More Information: 
 * <a href='https://getbootstrap.com/docs/4.0/components/buttons/' target='_blank' rel='nofollow'>Bootstrap Buttons documentation</a>
-* [Bootstrap Get Started](/articles/bootstrap/bootstrap-get-started)
+* <a href='https://guide.freecodecamp.org/bootstrap/bootstrap-get-started' rel='nofollow'>Bootstrap Get Started</a>
