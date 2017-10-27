@@ -25,7 +25,7 @@ Area of circle =  <span class="texhtml"><span class="texhtml">π</span> * <i>r
 
 We know that `diameter = 2 * radius`, so you can derive the area of the circle as below,
 
-Area of circle =  <span class="texhtml"><span class="texhtml">π</span> * <i>(diameter/2)</i><sup>2</sup></span>
+Area of circle =  <span class="texhtml"><span class="texhtml">π</span> * <i>(diameter/2)</i><sup>2</sup></span> = <span class="texhtml"><span class="texhtml">π</span> * <i>(diameter)</i><sup>2</sup>/4</span>
 
 ###### Given circumference of the circle
 
