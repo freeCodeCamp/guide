@@ -187,7 +187,7 @@ Here are specific formatting guidelines for any code:
 - Comments made should have a space between the comment characters and the comment themselves
 
     `// Fix this line`
-- GitHub-flavored markdown supports [syntax highlighting in code blocks](https://help.github.com/articles/creating-and-highlighting-code-blocks/#syntax-highlighting) for many programming languages. To use it, indicate the language after starting ```
+- GitHub-flavored markdown supports [syntax highlighting in code blocks](https://help.github.com/articles/creating-and-highlighting-code-blocks/#syntax-highlighting) for many programming languages. To use it, indicate the language after starting
 ```
     ```html
     <div class='awesome' id='more-awesome'>
