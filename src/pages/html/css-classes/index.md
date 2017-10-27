@@ -30,6 +30,28 @@ background-color: blue;
 Notice that classes have the prefix of a period (.) in CSS.
 
 You can see the result of the above code <a href='https://codepen.io/Tlandis/pen/RLvomV' target='_blank' rel='nofollow'>here</a>.
+HTML elements can be given several css classes.
+
+```html
+
+<h1 class="superMan header center">"Here I come to save the day!"</h1>
+
+```
+
+Keeping several, smaller css classes allows you to better customize your HTML.
+
+```css
+.header {
+color: red;
+border: 3 px black;
+} 
+
+.center{
+text-align: center;
+}
+
+```
+
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
