@@ -63,6 +63,7 @@ Less Than or Equal To       | a <= b    | True if a is less than or equal to b, 
 
 That example also has a new word: `else`. The code within the `else` block runs only if the code within the `if` doesn't run.
 
+
 There's a lot we can do with all of those operators! Consider the following, where we'll use an if-else statement:
 ```C
 #include <stdio.h>
@@ -158,3 +159,16 @@ These two lines of code tell the compiler that the word 'false' should be replac
  * ! flips whether something is true or false
  * && joins two operations, making the overall operation true only if both halves are true
  * || joins two operations, making the overall operation true if one or both halves are true
+ ```C
+ #include<stdio.h>
+ void main(){
+int n=0;
+if(!n){
+printf("Hello");
+}
+ else{
+ printf("Bye");
+ }
+ }
+```
+If statement without any comparison...
