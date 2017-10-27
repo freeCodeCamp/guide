@@ -31,6 +31,10 @@ ON Customers.CustomerID=Orders.CustomerID
 ORDER BY Customers.CustomerName
 ```
 
+### What is a sequence? 
+A sequence allows you to create and increment a counter that can be used to generate numerical values to be used as primary key values for a table.
+
+
 # Changes
 
 ### What is the result of the following command?
@@ -52,7 +56,6 @@ A pseudocolumn is a function which returns a system generated value. The reason 
 ``` Some examples of it are:
     ROWNUM, ROWID, USER, CURRVAL, NEXTVAL etc.
 ```    
-
 
 
 
