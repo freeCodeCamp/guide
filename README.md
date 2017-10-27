@@ -120,10 +120,10 @@ However, you can include special characters in the article title.
 
 ### Modularity
 
-Each article should explain exactly one concept, and that concept should be apparent from the article's title.
+Each article should explain exactly one concept and that concept should be apparent from the article's title.
 
-We can reference other articles by linking to them inline, or in an "More
-information:" section at the end of the article.
+We can reference other articles by linking to them inline or in an "More information:" section at the end of the article.
+
 
 Our goal is to have thousands of articles that cover a broad range of technical topics.
 
@@ -180,7 +180,7 @@ Use of proper citations will not only keep the guides reputable, but these citat
 
 ### Formatting example code
 
-Campers will likely use Guide articles as a quick reference to look up syntax. Articles should have simple real-world examples that show common-use cases of that syntax.
+Campers will likely use Guide articles as a quick reference to look up the syntax. Articles should have simple real-world examples that show common-use cases of that syntax.
 
 Here are specific formatting guidelines for any code:
 
@@ -240,7 +240,7 @@ Proper nouns should use correct capitalization when possible. Below is a list of
 - jQuery
 - SQL
 
-Front-end development (adjective form with a dash) is when you're working on the front end (noun form with no dash). The same goes with the back end, full stack, and many other compound terms.
+Front-end development (adjective form with a dash) is when you are working on the front end (noun form with no dash). The same goes with the back end, full stack, and many other compound terms.
 
 ### Where to get help
 
