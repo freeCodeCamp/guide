@@ -3,7 +3,13 @@ title: HTML Forms
 ---
 ## HTML Forms
 
-Basically, forms are used to collect data entered by a user, which are then sent to the server for further processing. They can be used for different kinds of user inputs, such as name, email etc. 
+Basically, forms are used to collect data entered by a user, which are then sent to the server for further processing. They can be used for different kinds of user inputs, such as name, email etc,.
+
+How does an HTML form work?
+
+A web form has two parts: the HTML ‘front end’ and a back end form processor. 
+The HTML front end part handles the presentation while the back end handles the form submissions (like saving the form submissions, sending emails etc).
+The back end form processor script is usually written in languages like PHP, ASP or Perl.
 
 Form contains control elements which are wrapped around ```<form></form>``` tags, like ```input```, which type can be:
 
@@ -27,11 +33,16 @@ Code example:
     <input type="submit" value="Submit">
 </form>
 ```
+HTML form Elements.
+
+Form elements are one of the most important aspects of HTML that we come across while browsing the web. It allows communication between a client (i.e Web Browser) and a web server.
+
 
 Other elements that form can contain:
 
 - ```textarea``` - is a multiline box which is most often used for adding some text eg. comment. Size of textarea is defined by number of rows and columns.
 - ```select``` - together with ```<option></option>``` tag creates drop-down select menu.
+- ```button``` -  This Button element defines a clickable button.
 
 
 SOME MORE INFORMATION ON HTML FORMS.
