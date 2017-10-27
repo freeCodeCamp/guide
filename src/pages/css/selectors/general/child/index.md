@@ -3,13 +3,26 @@ title: Child
 ---
 ## Child
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/selectors/general/child/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+<p>Child selector represented by `>` & placed between two selectors. It matches second selector(children) that are children of first selector (parent). The second selector must be immediate children of first element.</p>
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+####Code Syntax</h4>
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```css
+first selector (parent) > second selector (child) { 
+	css declarations; 
+}
+```
+
+####Code Example</h4>
+```css
+div > span { 
+    background-color: red;
+}
+```
+matches all immediate span element of parent div
+
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+- <a href='https://www.w3.org/TR/CSS22/selector.html#child-selectors' target='_blank' rel='nofollow'>W3C Working Draft</a>
 
 
