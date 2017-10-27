@@ -1,7 +1,7 @@
 ![](https://s3.amazonaws.com/freecodecamp/wide-social-banner.png)
 
 # freeCodeCamp Guide
-The freeCodeCamp community is building a massive, searchable "Guide." This reference tool will eventually include thousands of articles that cover all areas of development, design, and data science - all written to be easily understood by people new to coding.
+The freeCodeCamp community is building a massive, searchable "Guide". This reference tool will eventually include thousands of articles that cover all areas of development, design, and data science - all written to be easily understood by people new to coding.
 
 This repo is where we plan and maintain these Guide articles, which we then host on our community's wiki-like [Guide website](https://guide.freecodecamp.org).
 
@@ -37,7 +37,6 @@ You can create a PR (Pull Request) with your draft article (or edits on an exist
 - Click the "Edit this file" pencil icon and make your changes to the file in GitHub-flavored Markdown
 - Scroll to the bottom of the screen and add a commit message explaining your changes. Then select the radio button option for "Create a new branch for this commit and start a pull request" and click "Propose file changes"
 - On the next screen, you can add any other details about your PR, then click "Create pull request"
-
 
 2) If you prefer to write locally before submitting a PR, then follow these steps:
 - Fork this repository
@@ -91,7 +90,6 @@ Folder name is used in the URL, so only use dashes `-`, numbers `0-9`, and lower
 
 Here are some examples:
 
-
 - `src/pages/html/tables/index.html` ([link](https://github.com/freeCodeCamp/guides/blob/master/src/pages/html/tables/index.md))
 
 ```markdown
@@ -131,7 +129,7 @@ Our goal is to have thousands of articles that cover a broad range of technical 
 
 Before you begin writing, create an outline of the topic and think about any coding examples you'll use (if applicable). This helps to organize your thoughts and make the writing process easier.
 
-Articles should be written with short, clear sentences, and use as little jargon as necessary. All jargon should be defined immediately in plain English.
+Articles should be written short, consise, in clear sentences, and must use as little jargon as necessary. All jargon should be defined immediately in plain English.
 
 The introduction paragraph should only be 1-2 sentences long and be a simple explanation of the main topic. It should limit the use of any links to other Guide articles, as they can be distracting.
 
@@ -149,7 +147,7 @@ If there are other Guide resources you think campers would benefit from, add the
 
 You can add diagrams, graphics, or visualizations as necessary. You can also embed relevant YouTube videos and interactive [REPL.it](https://repl.it/) code editors.
 
-Don't use emojis or emoticons in the Guide. freeCodeCamp has a global community, and the cultural meaning of an emoji or emoticon may be different around the world. Also, emojis can render differently on different systems.
+Do not use emojis or emoticons in the Guides. freeCodeCamp has a global community, and the cultural meaning of an emoji or emoticon may be different around the world. Also, emojis can render differently on different systems.
 
 Use double quotes where applicable.
 
