@@ -50,3 +50,6 @@ Perimeter - the sum of the length of four sides in a square. The four sides are 
 
 - <a href='https://en.wikipedia.org/wiki/Square#Perimeter_and_area' target='_blank' rel='nofollow'>Wikipedia: Square</a>
 - <a href='https://www.wikihow.com/Find-the-Area-of-a-Square' target='_blank' rel='nofollow'>More Illustrations</a>
+
+https://www.mathopenref.com/squarearea.html
+http://www.mathsisfun.com/area.html
