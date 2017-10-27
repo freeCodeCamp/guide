@@ -16,6 +16,19 @@ In Python 3, this would throw an error somewhat like this:
         print "hello"
                     ^
     SyntaxError: Missing parentheses in call to 'print'
+    
+In python 2 map() returns a list 
+>>> result = map(int,['10','20','30','40'])  
+>>> print result
+>>> [10,20,30,40]
+In python 3 map() returns a iterator
+>>> result = map(int,['10','20','30','40']) 
+>>> print (result)
+>>> <map object at 0x7f40896b4630>
+Instead we need to convert it into list this way :
+>>> result = list(map(int,['10','20','30','40'])) 
+>>> print (result)
+>>> [10,20,30,40]
 
 We won't be diverted in our discussion any further trying to document all these differences - but <a href='http://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html' target='_blank' rel='nofollow'>this</a> might of interest to you, if you are into it.
 
