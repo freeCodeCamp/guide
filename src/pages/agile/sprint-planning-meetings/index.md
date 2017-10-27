@@ -3,13 +3,9 @@ title: Sprint Planning Meetings
 ---
 ## Sprint Planning Meetings
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/sprint-planning-meetings/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Sprint planning meetings are used to pull items from the backlog into the next sprint. Planning involes choosing items based on a number of different factors determining priority of items, weighing the priorities of internal and external stakeholders, to fill the time available in the next sprint based on time estimation. 
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
+[Simple Cheat Sheet to Sprint Planning Meetings](https://www.leadingagile.com/2012/08/simple-cheat-sheet-to-sprint-planning-meeting/)
+[Four Steps for Better Sprint Planning](https://www.atlassian.com/blog/agile/sprint-planning-atlassian)
 
