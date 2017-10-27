@@ -32,3 +32,14 @@ git push --all REMOTE-NAME
 in which:
 - `--all` is the flag that signals that you want to push all branches to the remote repository
 - `REMOTE-NAME` is the name of the remote repository you want to push to
+
+### Push to a specific branch with force parameter
+If you want to ignore the local changes made to Git repository at Github(Which most of developers do for a hot fix to development server) then you can use --force command to push by ignoring those changs.
+
+```bash
+git push --force REMOTE-NAME BRANCH-NAME
+```
+in which:
+- `REMOTE-NAME` is the name of the remote repository to which you want to push the changes to
+- `BRANCH-NAME` is the name of the remote branch you want to push your changes to
+

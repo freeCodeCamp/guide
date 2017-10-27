@@ -3,13 +3,32 @@ title: Bootstrap Icons
 ---
 ## Bootstrap Icons
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/bootstrap/bootstrap-icons/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The Bootstrap framework provides you with over 250 icons called glyphs. They come in font format from the Glyphicon Halflings set.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+#### How To Use:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+To use bootstrap icons you simply create `<span>` tag and apply the applicable CSS class for the icon. A code example has been provided below.
+
+**Code Example:**
+
+`<span class="glyphicon glyphicon-search" aria-hidden="true"></span>`
+
+<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+
+#### Bootstrap Glyphicon Class List:
+This is an example of the CSS classes that bootstrap provides for glyphicons. More of them is avalible <a href='https://getbootstrap.com/docs/3.3/components/#glyphicons' target='_blank' rel='nofollow'>here</a>
+
+`.glyphicon glyphicon-plus` This is bootstrap's plus/add icon.
+
+<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+
+`.glyphicon glyphicon-trash` This is bootstrap's trash/delete icon.
+
+<span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+
+_Note: Do not include the dot in the HTML Class Attribute, referring to the classes with a dot is only used when adjusting the classes in CSS._
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+<a href='https://getbootstrap.com/docs/3.3/components/#glyphicons' target='_blank' rel='nofollow'>Bootstrap Glyphicons</a>
 
 
