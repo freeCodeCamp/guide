@@ -6,7 +6,7 @@ title: HTML5 Video
 HTML `<video>` element embed video content in a document.
   
 ```html
-  <video width="320" height="240" controls>
+  <video width="320" height="240" controls="on" autoplay="off">
       <source src="movie.mp4" type="video/mp4">
       <source src="movie.ogg" type="video/ogg">
       Your browser does not support the video tag.
