@@ -123,3 +123,4 @@ if(a == 100) {
 a is equal to 100
 b is equal to 200
 ```
+aBOVE MENTIONED IS enough
