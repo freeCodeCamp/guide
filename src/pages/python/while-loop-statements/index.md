@@ -4,7 +4,7 @@ title: While Loop Statements
 ## While Loop Statements
 
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-Python utilizes different the while loop similar to other popular languages.  The while loop continuously iterates through a block of code as long as the condition is true.  Once condition is proven to be false then it breaks out of the block of code.  
+While loops are loops that will run as long as its condition is true. Once the condition becomes false, the while loop will exit.  
 
 The basic syntax is:
 
@@ -36,3 +36,22 @@ Today is Saturday
 Today is Sunday
 ```
 
+You can enter any condition that is boolean in nature:
+```python
+stop = 3
+x = 0
+while True:
+   if ( x == stop ):
+      break
+   else:
+      x = x + 1
+      print(x)
+```
+
+Output:
+
+```
+1
+2
+3
+```
