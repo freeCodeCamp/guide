@@ -5,6 +5,15 @@ title: Arrays
 
 An Array is used to store a collection of data of similar datatype. Arrays always start with the index of 0.
 
+# Advantage of Java Array
+
+Code Optimization: It makes the code optimized, we can retrieve or sort the data easily.
+Random access: We can get any data located at any index position.
+
+# Disadvantage of Java Array
+
+Size Limit: We can store only fixed size of elements in the array. It doesn't grow its size at runtime. To solve this problem, collection framework is used in java.
+
 **Syntax:**
 
 ```java
