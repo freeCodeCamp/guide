@@ -11,5 +11,5 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
+Just-In-Time compilation (JIT), or dynamic translation, is compilation fine during execution of program, or at run time, rather than prior to execution. This translates the code to machine code, which is then executed. JIT Compiler typically analyses the code being executed and identifies parts of the code where speedup gained from compilation would outweigh the overhead of compiling that code.
 
