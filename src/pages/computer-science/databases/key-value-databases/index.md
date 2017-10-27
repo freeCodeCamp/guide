@@ -51,3 +51,4 @@ Here are some examples of databases that use the key-value approach:
 * Key-value databases on [Wikipedia](https://en.wikipedia.org/wiki/Key-value_database)
 
 
+Key-Value database is a simple database that uses a map or a dictionary as the fundamental data model where each key is associated with one and only one value in a collection and is the most flexible type of NoSQL database. 
