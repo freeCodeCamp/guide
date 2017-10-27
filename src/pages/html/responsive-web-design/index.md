@@ -32,4 +32,11 @@ Below I am giving popular frameworks links:
 1. <a href='https://medium.freecodecamp.org/css-flexbox-interactive-tutorial-in-8-minutes-including-cheat-sheet-6214e00de3d2' target='_blank' rel='nofollow'>CSS Flexbox Complete tutorial in 8 minutes</a>
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
+2. <a href="https://www.youtube.com/watch?v=zBjUEDzK-ow"/>CSS Flexbox tutorial by CodingTutorials360</a>
+<a href="https://www.youtube.com/watch?v=zBjUEDzK-ow
+        " target="_blank"><img src="https://i.ytimg.com/an_webp/zBjUEDzK-ow/mqdefault_6s.webp?du=3000&sqp=CLDAzc8F&rs=AOn4CLDXkieFdQZppUrQf6YfCoSzNxA0VQ"
+        alt="IMAGE ALT TEXT HERE" width="440" height="280" border="10" /></a>
+        
+        
+
 
