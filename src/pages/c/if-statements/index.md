@@ -89,7 +89,7 @@ The if-else statement has an 'else if' attached to it. This code runs if the con
 Of course, we might want something to happen if it is not true, or if it and something else are true. For that, we have logical operators: ! for not, && for and, and || for or. Let's take a look at this in action:
 
 ```C
-#include <stfio.h>
+#include <stdio.h>
 
 int main(void) {
     int n = 5;
