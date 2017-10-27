@@ -11,7 +11,7 @@ It takes one argument `x` - an integer, or decimal, or a complex number.
 
 The return value would be a positive number. Even if complex number is passed, it would return its magnitude, computed as per complex number algebra.
 
-## Code Sample
+## Code Sample:
 
     print(abs(3.4)) # prints 3.4
     print(abs(-6)) # prints 6
