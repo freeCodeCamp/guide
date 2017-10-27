@@ -31,7 +31,8 @@
   margin-top: 0;
 }
 
-:global td, :global th {
+:global td,
+:global th {
   border-bottom: 1px solid rgba(0, 0, 0, 0.12);
   padding: 10px;
 }
@@ -80,6 +81,8 @@
 }
 
 .content {
+  overflow-y: scroll;
+  height: 92vh;
   margin-bottom: 50px;
 
   img {
@@ -148,9 +151,15 @@
 /* ResultsSkeleton */
 
 @keyframes fadeInOut {
-  0% { opacity: 0.6; }
-  50% { opacity: 1; }
-  100% { opacity: 0.6; }
+  0% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.6;
+  }
 }
 
 .skeleton {
@@ -237,6 +246,7 @@
 .sideNav {
   overflow-y: scroll;
   max-height: 90vh;
+  position: relative;
 }
 
 .stubbed {
@@ -258,4 +268,18 @@
   border: none;
   border-radius: 0px;
   cursor: pointer;
+}
+
+.bodyContainer {
+  margin-top: 55px;
+}
+
+@media (max-width: 992px){
+  .content {
+    overflow-y: hidden;
+    height: 100%;
+  }
+  .sideNav {
+    margin-top: 60px;
+  }
 }
