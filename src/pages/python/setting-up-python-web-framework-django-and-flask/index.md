@@ -9,6 +9,12 @@ In case these assumptions are untrue, you might want to take a look at this <a>w
 
 But it would be unfair if we completely ignore the <a href='http://docs.python-guide.org/en/latest/starting/which-python/#the-state-of-python-2-vs-3' target='_blank' rel='nofollow'>Python 2 vs Python 3</a> debate.
 
+## Why do you need a framework?
+
+To understand what Django is actually for, we need to take a closer look at the servers. The first thing is that the server needs to know that you want it to serve you a web page.
+
+Imagine a mailbox (port) which is monitored for incoming letters (requests). This is done by a web server. The web server reads the letter and then sends a response with a webpage. But when you want to send something, you need to have some content. And Django is something that helps you create the content.
+
 ## Wrapping Up
 
 We have successfully installed the web-framework of our need. However, it's not yet complete. Most web applications are content and data driven - so we need a data storage. Or, a Database, if you will.
