@@ -3,13 +3,10 @@ title: Nav
 ---
 ## Nav
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/nav/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `<nav>` tag defines major blocks of nagivation links of an html document<sup>1</sup>. This block of navigation links can be in a varity of forms, for example menus, table of contents, or indexes, and can link to either interal pages or external pages. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Defining `<nav>` elements can indicate to user agents, such as screen readers used by visually impaired people, whether to initially render this content<sup>2</sup>. 
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+1 [W3 Schools: HTML `<nav>` Tag](https://www.w3schools.com/tags/tag_nav.asp)
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+2 [MDN - HTML Element Reference: `<nav>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav)
