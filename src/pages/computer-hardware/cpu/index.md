@@ -19,6 +19,9 @@ Most modern CPUs use a 64-bit architecture, which means they store information a
 
 A microprocessor is a silicon chip containing millions of microscopic transistors. This chip functions as the computer's brain. It processes the instructions or operations contained within executable computer programs. Instead of taking instructions directly off of the hard drive, the processor takes its instructions from memory. This greatly increases the computer's speed.
 
+<b>Operation</b>
+
+The fundamental operation of most CPUs, regardless of the physical form they take, is to execute a sequence of stored instructions that is called a program. The instructions to be executed are kept in some kind of computer memory. Nearly all CPUs follow the fetch, decode and execute steps in their operation, which are collectively known as the instruction cycle.
 
 <b> Manufacturers of computer microprocessors </b>
   
