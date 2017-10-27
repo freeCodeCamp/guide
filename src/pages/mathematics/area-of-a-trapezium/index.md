@@ -3,13 +3,12 @@ title: Area of a Trapezium
 ---
 ## Area of a Trapezium
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/area-of-a-trapezium/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+To find the area of a Trapezium, better known as a Trapazoid, you add the two parallel sides, devide by two, times the height.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
+A = ((a + b) / 2) * h
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
+http://www.mathsteacher.com.au/year8/ch12_area/04_trap/trap.htm
 
