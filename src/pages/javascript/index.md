@@ -1,10 +1,86 @@
 ---
-title: JavaScript
+title: Data Structure, Singly Linked List in ES6
 ---
-## JavaScript
+## What is a Singly Linked List?
+>A Singly Linked List is a linear collection of data elements, called nodes pointing to the next node by means of pointer. It is a data structure consisting of a group of nodes which together represent a sequence. Under the simplest form, each node is composed of data and a reference (in other words, a link) to the next node in the sequence. Source [Wikipedia](https://en.wikipedia.org/wiki/Linked_list).
 
-JavaScript is the most widely used scripting language on Earth. And it has the largest library ecosystem of any programming language.
+# Complexity of Singly Linked List
+| Access        | Search        | Insertion  | Deletion |
+| ------------- |:-------------:| :---------:|---------:|
+|  O(n)         |       O(n)    | O(1)       |  O(1)    |
 
-JavaScript is the core language of the web, and the only programming language that can run in all major web browsers.
 
-If you want to learn more about the JavaScript language, and why it's so widely used, read Quincy Larson's <a href='https://medium.freecodecamp.org/what-programming-language-should-i-learn-first-%CA%87d%C4%B1%C9%B9%C9%94s%C9%90%CA%8C%C9%90%C9%BE-%C9%B9%C7%9D%CA%8Dsu%C9%90-19a33b0a467d' target='_blank' rel='nofollow'>"Which programming language should I learn first?"</a>
+# The Code
+
+```javascript
+function Node(data) {
+  this.data = data;
+  this.next = null;
+}
+class SinglyLinkedList {
+  constructor() {
+    this.head = null;
+    this.tail = null;
+    this.numberOfValues = 0;
+  }
+  add(data) {
+    const node = new Node(data)
+    if (!this.head) {
+      this.head = null;
+      this.tail = null;
+    } else {
+      this.tail.next = node;
+      this.tail = node;
+    }
+    this.numberOfValues ++;
+  }
+  remove(data) {
+    let previous = this.head;
+    let current = this.head;
+    while (current) {
+      if(current.data === data){
+        if(current === this.head){
+          this.head = this.head.next;
+        }
+        if (current === this.tail) {
+          this.tail = previous;
+        }
+        previous.next = current.next;
+        this.numberOfValues --;
+      } else {
+        previous = current;
+      }
+      current = current.next;
+    }
+  }
+  insertAfter(data, toData) {
+    let current = this.head;
+    while(current) {
+      if(current.data === toData){
+        const node = new Node(data);
+        if(current === this.tail) {
+          this.tail.next = node;
+          this.tail = node;
+        } else {
+          node.next = current.next;
+          current.next= node;
+        }
+        this.numberOfValues ++;
+      }
+      current = current.next;
+    }
+  }
+  length() {
+    return this.numberOfValues;
+  }
+  print() {
+    let string = '';
+    let current = this.head;
+    while(current) {
+      string += `${current.data}`;
+      current = current.next;
+    }
+    console.log(string.trim());
+  }
+}
+```
