@@ -1,0 +1,4 @@
+If statements in Java is used to control the program flow based on some condition,
+it’s used to execute some statement code block if expression is evaluated to true,
+otherwise it will get skipped.
+This is an simplest way to modify the control flow of the program.
