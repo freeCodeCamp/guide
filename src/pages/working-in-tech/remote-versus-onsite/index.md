@@ -27,4 +27,4 @@ Some companies also have a physical office where you can go to work if you'd lik
 
 Quincy Larson on The Economics of Working Remotely: <a href='https://medium.freecodecamp.org/the-economics-of-working-remotely-28d4173e16e2' target='_blank' rel='nofollow'>Medium</a>
 
-
+* [How Remote Work Is Changing And What It Means For Your Future](https://www.forbes.com/sites/williamarruda/2017/02/16/how-remote-work-is-changing-and-what-it-means-for-your-future/)
