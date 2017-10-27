@@ -1,3 +1,4 @@
+--
 ## Tagging in Git
 
 Tagging in Git has the ability to tag specific points in history as being important. Typically people use this functionality to mark release points (v1.0, and so on).
@@ -21,7 +22,10 @@ Git has two flavours of tags; annotated and non-annotated. When using them, ther
 
 An annotated tag creates an additional tag object in the Git repository, which allows you to store information associated with the tag itself. This may include release notes, the meta-information about the release, and optionally a signature to verify the authenticity of the commit to which it points.
 
+<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+
 #### More Information:
+ <!-- Please add any articles you think might be helpful to read before writing the article -->
 [Git Basics-Tagging](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
 
 [Git tip: Tags](http://alblue.bandlem.com/2011/04/git-tip-of-week-tags.html)
