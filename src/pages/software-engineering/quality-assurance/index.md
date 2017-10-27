@@ -27,6 +27,10 @@ Main categories are
 #### Black Box
 These test do not look inside the system under test, but treat it as 'closed' in the same way that the end user will experience it. 
 
+#### Ad-hoc
+Refers to testing performed without planning and documentation. 
+The tester tries to "break" the system by randomly using the system features.
+
 ### Other Resources
 <a href='https://guide.freecodecamp.org/agile/test-driven-development' target='_blank' rel='nofollow'>Test Driven Development (freeCodeCamp Guide)</a>
 
