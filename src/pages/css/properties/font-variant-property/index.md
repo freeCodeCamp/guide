@@ -1,3 +1,6 @@
+---
+title: Font Variant
+---
 ## Font Variant Property
 
 The font-variant property is most commonly used to change targeted text to small caps. The default value is `normal`.
