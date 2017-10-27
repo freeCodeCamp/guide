@@ -10,7 +10,7 @@ There are many tools and online resources that can help you to ensure that your 
    This is a Google Chrome extension that will add a new Accessibility sidebar pane in the Elements tab to the Chrome Developer tools. This new pane will display any properties that are relevant to the accessibility aspect of the element that you are currently inspecting. This extension also adds an accessibility audit that can be used to check whether the current web page violates any accessibility rules. 
 
 
-4. **<a href='https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbdd?hl=en-US' target='_blank' rel='nofollow'>aXe</a>**
+2. **<a href='https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbdd?hl=en-US' target='_blank' rel='nofollow'>aXe</a>**
    
    This Google Chrome extension can find accessibility defects on your web page.
 
