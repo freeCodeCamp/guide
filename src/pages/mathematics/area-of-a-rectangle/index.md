@@ -15,3 +15,4 @@ For example, if you have a rectangle that is 2cm by 4cm, then you can work out t
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
 
+area = side1 * side2
