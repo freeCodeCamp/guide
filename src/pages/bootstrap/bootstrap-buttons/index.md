@@ -11,8 +11,6 @@ To use bootstrap buttons you follow the same steps that you would to create a bu
 
 `<button type="button" class="btn btn-primary">Primary</button>`
 
-<button type="button" class="btn btn-primary">Primary</button>
-
 #### Bootstrap Button Class List:
 This is a list of the CSS classes that bootstrap provides for buttons.
 
@@ -62,6 +60,13 @@ This is a list of the CSS classes for different size of the buttons.
 `.btn-xs` This is bootstrap's large button.
 
 <button type="button" class="btn btn-xs">Extra Small</button>
+
+#### Bootstrap Outlined Buttons:
+It is possible to also have outlined buttons rather than fully colored in ones. This is achieved by placing the mid fix `outline` between the button class you want. A sample usage would be as follows:
+
+`<button type="button" class="btn btn-outline-primary">Primary</button>`
+
+Outlined buttons are a part of Bootstrap since version 4, please be sure that you are using the right version if you are unable to get them work.
 
 _Note: Do not include the dot in the HTML Class Attribute, referring to the classes with a dot is only used when adjusting the classes in CSS._
 
