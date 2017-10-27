@@ -10,7 +10,7 @@ A hashmap can, like many collections, be constructed in two ways. There is the c
     a-hashmap
     ; => {:c 3, :b 2, :a 1}
 
-You can also define them using a hashmap literal. This is often more concise and clear. Using commas to separate key/value pairs in hashmaps is recommended, as it can make the boundaries more clear.
+You can also define them using a hashmap literal. This is often more concise and clear. Using commas to separate key/value pairs in hashmaps is recommended, as it can make the boundaries more clear:
 
     ;; This hashmap is actually in the right order, unlike the one above.
     (def another-hashmap {:a 1, :b 2, :c 3})
@@ -37,7 +37,7 @@ Why are they often used as keys? Well, unlike strings, keywords can be used as f
 
 ## Converting other collections to hashmaps
 
-Converting to a hashmap is tricky. To demonstrate, let's try using it like `vec` or `seq`.
+Converting to a hashmap is tricky. To demonstrate, let's try using it like `vec` or `seq`:
 
     (hash-map [:a 1 :b 2 :c 3])
     ; => IllegalArgumentException No value supplied for key: [:a 1 :b 2 :c 3]
@@ -47,7 +47,7 @@ The `hash-map` function thinks that we're trying to create a hashmap with `[:a 1
     (hash-map [:a 1 :b 2 :c 3] "foo")
     ; => {[:a 1 :b 2 :c 3] "foo"}
 
-To convert a sequence to a hashmap, you'll need to use and understand `apply`. Luckily, this is pretty simple: `apply` essentially destructures a collection before applying a function to it.
+To convert a sequence to a hashmap, you'll need to use and understand `apply`. Luckily, this is pretty simple: `apply` essentially destructures a collection before applying a function to it:
 
     ;; These two expressions are exactly the same.
     (+ 1 2 3)
@@ -68,7 +68,7 @@ This is how you would convert a vector to a hashmap:
 
 ## Update a hashmap
 
-You can update values inside a hashmap using `assoc`. This allows you to append new key/value pairs or change old ones.
+You can update values inside a hashmap using `assoc`. This allows you to append new key/value pairs or change old ones:
 
     (def outdated-hashmap {:a 1, :b 2, :c 3})
 
