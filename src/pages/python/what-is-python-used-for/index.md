@@ -18,6 +18,9 @@ Python is one of the flexible language when it come to automating boring or repe
 ##### Artificial Intelligence:
 The presence of computing is Artificial Intelligence. AI has come to stay and Python is serving as a major language to boast development in the field of AI. Tensorflow is designed with Python and it is under AI.
 
+##### Computer Vision:
+Python is one of the main languages used to interact with the OpenCV library. OpenCV is an open sourced library that offers computer vision, image analysis, and image acquisition toolkits. Work with images, videos, and intelligently analyze and manipulate pixel data. Integrate with robotics or write a post-processing app.
+
 #### More Information:
 Here's a <a href='https://www.python.org/about/apps/' target='_blank' rel='nofollow'>link</a> to appications of Python on it's offical website.
 <!-- Please add any articles you think might be helpful to read before writing the article -->
@@ -37,6 +40,7 @@ Here's a <a href='https://www.python.org/about/apps/' target='_blank' rel='nofol
 * Rapid Prototyping
 * Browser Automation
 * Data analysis
+* Computer vision
 
 #### Some article covering the usability of python
 
