@@ -18,6 +18,15 @@ The display property specifies the type of box used for an HTML element. It has 
     .initial          {display: initial}
 ```
 
+These keyword values are grouped into six categories:
+
+* ```<display-inside>```
+* ```<display-outside>```
+* ```<display-listitem>```
+* ```<display-box>```
+* ```<display-internal>```
+* ```<display-legacy>```
+
 ### More Information: 
 
 Docs and full list of keyword values: <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/display' target='_blank' rel='nofollow'>MDN</a>
