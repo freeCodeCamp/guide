@@ -1,7 +1,7 @@
 ---
 title: Color Theory
 ---
-## Color Theory
+# Color Theory
 
 Color Theory is the practical application of mixing and using colors together to achieve a specific visual effect. This can be broken down further into segments describing where to find colors, how to use color, and how color can impact usability.  
 
@@ -26,12 +26,19 @@ The overall experience a person has when viewing your page is also determined by
 
 Individuals who are affected by color-blindness might not be able to differentiate between similar colors as easily as you either. What you perceive as a wonderful palette of greens and blues might appear gray, beige, and dull to someone else. Importantly, if you choose a text color that views well for you, it might have much lower contrast than you realize to someone else, making it harder to understand the content you are trying to display. 
 
+## Color Models
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+**RGB**
+
+Screen media that transmit light, such as computers, use the additive color mixing of the primary colors **R**ed, **G**reen, and **B**lue to make up the RGB color space. Mixing of these primary colors cover the majority of what the human eye can perceive. If you are designing and exporting artwork for the screen, choose to design in the RGB color space.
+
+**CMYK**
+
+Most print media use the subtractive primary colors **C**yan, **M**agenta, **Y**ellow, and **B**lack on a white substrate to make up the CMYK color space. When designing for  work that is going to be printed, such as posters and flyers, it is best to design in the CMYK color space.
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
+[A Simple Web Developer's Color Guide](https://www.smashingmagazine.com/2016/04/web-developer-guide-color/)
 
