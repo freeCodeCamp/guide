@@ -5,7 +5,7 @@ title: Constructors
 
 What's the point then? I should be able to store data in it right?
 
-That's when we use either **getter** (e.g., getName()) / **setter** (e.g., setName()) methods or in this case constructors to initialize a class. Basically every Java Class has a constructor, which is the method which is called first when any object of the class is initialized. Think of it as a bit of starter code.
+That's when we use either **getter** (e.g., getName()) / **setter** (e.g., setName(<name>)) methods or in this case constructors to instantiate a class. Every Java Class has a default constructor if there is no specific or custom constructor specified. It is the method which is called first when any object of the class is initialized. Think of it as a bit of starter code.
 
 When you write a class without any constructor, then Java assumes it has a default constructor :
 
@@ -41,7 +41,7 @@ Hence, the purpose of using `constructors` is to provide:
 
 1.  A way to instantiate an object.
 2.  Provide initial values to a object properties.
-3.  Control how an object is created.
+3.  Control how and when an object is created.
 
 Let's look at another example. Say, Honda (the car manufacturer), wants all its cars to be named `Honda <something>`. In order to enforce this, we might represent this using a class as follows:
 
@@ -70,7 +70,7 @@ public class Car {
 
 Notice that when we write a constructor in this way i.e., providing a parameter, we are `controlling` (point no. 3) the way an instance of `Car` is created. In short, we are saying in this example that `you MUST provide a model name in order to get an instance of Car class`.
 
-Why is this important? There are times when you'd want `one and only one` instance of a class which you'd want to use in your entire application. One way of achieving this is by using a `private` constructor.
+Why is this important? There are times when you'd want `one and only one` instance of a class which you'd want to use in your entire application. One way of achieving this is by using the Singleton Pattern which advices to create a `private` constructor and a `public` method to access the single `instance`.
 
 Assume you need a class to represent a Bank. You wouldn't want people to create instance of `Bank` ever. So, you design your class:
 
