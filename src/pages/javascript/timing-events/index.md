@@ -3,11 +3,6 @@ title: Timing Events
 ---
 ## Timing Events
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/timing-events/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 ### Functions to get the date
 
 We have a global Date object which is used to get the time. Date.now() returns the number of milliseconds calculated since 1 January 1970 00:00:00 UTC.
@@ -46,6 +41,6 @@ function repeatThisMessage() {
 To remove this function we have clearInterval() function.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-https://www.w3schools.com/jsref/jsref_obj_date.asp
+
+W3Schools: https://www.w3schools.com/jsref/jsref_obj_date.asp
 
