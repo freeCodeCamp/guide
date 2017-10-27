@@ -29,10 +29,3 @@ DELETE FROM Person;
 DELETE * FROM Person;
 ```
 The `DELETE` statement does not delete the table itself. The structure of the table, attributes, and indexes remain.
-
-
-
-
-
-
-
