@@ -30,6 +30,25 @@ mixed_array.length # 3
 [].length # 0
 ```
 
+Alternatively, You can use `count` method to get count of elements in an array:
+
+```ruby
+some_array = [1, 2, 3, 4, 5, 5, 1, 1, 7]
+some_array = [1, 2, 3, 4, 5, 5, 1, 1, 7].count # 9
+```
+
+The `count` method accepts an object or block (similar to Lambda) function as an argument. When an object is passed as argument to `count` method, the method returns count of elements matching to given object.
+
+```ruby
+some_array.count(1) # 3
+```
+
+When a block is passed to the `count` method, the method returns the number of elements for which the block returns a true value.
+
+```ruby
+some_array.count { |elem| elem % 2 == 0 } # 2
+```
+
 #### Ruby Lambda
 A lambda is also commonly referred to as an anonymous function. To create a lambda in Ruby, you can use the following syntax:
 ```ruby
