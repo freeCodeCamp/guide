@@ -9,7 +9,7 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 
 ##The definition of mode is the most common integer in a set of data
 ##For instance, if I had a set of data with integers 1,2,5,5,6,9,9,9, than 9 would be my mode. 
-##As 9 occurs most often in the set of data it becomes the mode, which is often confused for the mean, which is the middle most point in ##the data.
+##As 9 occurs most often in the set of data it becomes the mode, which is often confused for the mean, which is the middle most point in the data.
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
