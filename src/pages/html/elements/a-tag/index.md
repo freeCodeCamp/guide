@@ -23,8 +23,13 @@ An image can also be turned into a link by enclosing the `<img>` tag in an `<a>`
   <a href= "https://guide.freecodecamp.org/"><img src="logo.svg"></a>
 ```
 
+Sometimes you want to add a element to your website before you know where they will link. You can then replace the value of your a element's href attribute with a #, also known as hash symbol, to turn it into a dead link. 
 
+#### Example:
 
+```html
+  <a href="#">freeCodeCamp</a>
+```
 
 #### More Information:
 
