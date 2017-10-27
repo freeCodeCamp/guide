@@ -3,13 +3,58 @@ title: Array.prototype.concat
 ---
 ## Array.prototype.concat
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/standard-objects/array/array-prototype-concat/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The ```concat()``` method merges two or more arrays and returns a new array. It doesn't mutate (change) the original arrays.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+## Example
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```js
+let arr1 = [1, 2, 3, 4];
+let arr2 = [5, 6, 7, 8];
+
+let result = arr1.concat(arr2);
+
+console.log(arr1); // prints [1, 2, 3, 4], doesn't change
+console.log(arr2); // prints [5, 6, 7, 8], doesn't change
+console.log(result); // prints [1, 2, 3, 4, 5, 6, 7, 8]
+
+```
+
+## Different ways of using ```concat()```
+
+### Method 1
+
+```javascript
+let arr1 = [1, 2, 3, 4];
+let arr2 = [5, 6, 7, 8];
+
+let result = arr1.concat(arr2);
+
+console.log(result); // prints [1, 2, 3, 4, 5, 6, 7, 8]
+```
+
+### Method 2
+
+```javascript
+let arr1 = [1, 2, 3, 4];
+let arr2 = [5, 6, 7, 8];
+
+let result = [].concat(arr1, arr2);
+
+console.log(result); // prints [1, 2, 3, 4, 5, 6, 7, 8]
+```
+
+### Method 3
+
+```javascript
+let arr1 = [1, 2, 3, 4];
+let arr2 = [5, 6, 7, 8];
+
+let result = Array.prototype.concat(arr1, arr2);
+
+console.log(result); // prints [1, 2, 3, 4, 5, 6, 7, 8]
+```
+
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+Check out the official MDN page on [```Array.prototype.concat()```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat) for more information.
