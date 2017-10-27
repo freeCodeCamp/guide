@@ -9,7 +9,10 @@ Ternary operator return one of the two expression based on the condition. It can
 ```
 // initialize - set true or false here to view different result
 bool hasFreeSweet = false;
+
 string str = hasFreeSweet ? "Free sweet!" : "No free sweet.";
+
+//output in console
 Console.WriteLine(str);
 ```
 
