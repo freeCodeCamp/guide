@@ -12,8 +12,8 @@ Macros use one of the VIM registers to be storage, each register is indentify by
 
 To start a Macro, in Normal Mode, press:
 
-```
-q<letter>
+```vim
+q<REGISTER LETTER>
 ```
 Example: `qq` starts a macro in the register `q`, `qs` starts the macro in the register `s`
 
