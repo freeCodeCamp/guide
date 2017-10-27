@@ -3,9 +3,6 @@ title: Setting Up Yum Repositories in RedHat/CentOS Linux
 ---
 <div class="para">YUM Repositories are warehouses of Linux software (RPM package files). 
 RPM package file is a Red Hat Package Manager file and enables quick and easy software installation on Red Hat/CentOS Linux.
-YUM Repositories hold a number of RPM package files and enable download and installation of new software on our VPS.
-YUM Repositories can hold RPM package files locally (local disk) or remotely (FTP, HTTP or HTTPS). 
-YUM Configuration files hold the information required to successfully find and install software (RPM packages files) on our VPS.
 </div>
 
 # Setting Up Yum Repositories in RedHat CentOS Linux
