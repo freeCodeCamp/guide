@@ -98,6 +98,17 @@ Once you've got it compiled, run the following command:
 
 If everything has gone well, you should see `Hello, World!` printed to the screen.
 
+#### Compilation and running from the command line using make
+Same with GCC, make is accessible when using a GNU+Linux system or Mac. Compilation using make is simple, let's say you have a C file named hello.c, you just have to run the following commad from your terminal:
+```shell
+make hello
+```
+Once hello.c is compiled, run the following command to run the program:
+```shell
+./hello.c
+```
+For beginners using Linux or Mac, make is the best compilation technique to start with since it sets the cryptic compilation parameters under the hood for you. However, make is also a powerful technique for program making and management. The power of make is unleashed through the use of a Makefile which is better to talk with next time.
+
 #### Compilation and running C with CodeBlocks
 <a href='http://www.codeblocks.org/downloads/26' target='_blank' rel='nofollow'>Codeblocks can be downloaded from here.</a>
 Make a new program with `file` -> `new` -> `file`, select C/C++ source, select C as your language, and then copy over the helloworld.c text that you read through earlier. Compile and run the code with `Build` -> `Build and Run`.
