@@ -25,10 +25,9 @@ Now that you have that background, let's start with our 'Hello, World' program. 
 ```C
 #include <stdio.h>
 
-int main(void)
+void main()
 {
     printf("hello, world\n");
-    return 0;
 }
 ```
 
@@ -41,15 +40,15 @@ First is the `#include`:
 This is an instruction to the compiler to find and include a set of header files. Header files contain additional code that we can use. In this case, the compiler has been instructed to include `<stdio.h>`, which contains all kinds of useful functions like `printf()`. We'll get into detail about what functions are later, but for now just remember that a function is a collection of code that we can use.
 
 ```C
-int main(void)
+void main()
 {
 }
 ```
 This code declares the main function. The main function is special- it will always get called and is always the 'main' part of your program. If this isn't in your program, your program can't run and won't compile.
 
-Starting the function declaration with `int` means that this function will give an `int` value when it's done running through its code- it's this function's output. `int` is the 'integer' data type, and integers are whole numbers like -3, 0, or 18. So we know that this code will run, and when it's done, it will give us back an integer. By convention, this integer is 0.
+Starting the function declaration with `void` means that this function will give an `void` value when it's done running through its code- it's this function's output. `void` is the null data type. So we know that this code will run, and when it's done, it will give us back void value which is null.
 
-Next is `main`. `main` is the name of this function, and as you learned earlier, it's important to have a `main` function because your program won't work without it. `main` is followed by `(void)`. This tells the compiler that this function doesn't take any parameters, meaning that it has no input.
+Next is `main`. `main` is the name of this function, and as you learned earlier, it's important to have a `main` function because your program won't work without it. `main` is followed by `()`. This tells the compiler that this function doesn't take any parameters, meaning that it has no input.
 
 This might not make a lot of sense right now, but you'll be learning more about this when you start reading about functions in C later. For now, just remember that `main` is required for your C program, it isn't taking any input, and it's giving a number as its output.
 
@@ -66,12 +65,6 @@ Now let's look at the meat of the program:
 Notice the \n found within the quotes- this tells the `printf` function to print a newline. A newline is what gets printed when you hit enter on your keyboard. Without explicitly telling C to print a newline, everything will be printed on the same line.
 
 Finally, the printf() statement is concluded with a semicolon (`;`). This shows that this line of code is over. Without it, the compiler doesn't know where one line ends and another begins, so it's important to include.
-
-The program ends with a return statement:
-```C
-return 0;
-```
-This shows that the function is over and that it should end by giving a value of 0 to whatever made it run. When you're running code on your computer, this is good to have because it allows other programs to interact with yours in a better way.
 
 As before, this line ends with a semicolon to indicate that the line has completed.
 
