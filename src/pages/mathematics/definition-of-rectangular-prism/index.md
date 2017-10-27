@@ -3,13 +3,15 @@ title: Definition of Rectangular Prism
 ---
 ## Definition of Rectangular Prism
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/definition-of-rectangular-prism/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+A prism with bases that are regular polygons. The bases are not necessarily aligned one directly above the other. Note: For some mathematicians regular prism means the same as right regular prism.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+![alt text](http://www.mathwords.com/r/r_assets/r71.gif "Logo Title Text 1")
+
+
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
+http://www.mathwords.com/r/regular_prism.htm
 
