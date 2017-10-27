@@ -22,6 +22,8 @@ The last column is the functional value – x AND y.
 
 Truth tables are a powerful tool. They can be used to express & evaluate simple boolean functions and operations as well complex combinational circuits and sequential logic circuits !
 
+There are 4 unary operations of truth tables which include Always true, Never true, Unary Identity, Unary negation.
+
 #### More Information:
 
 - <a href='http://hyperphysics.phy-astr.gsu.edu/hbase/Electronic/truth.html' target='_blank' rel='nofollow'>Hyperphysics - Georgia State University</a>
