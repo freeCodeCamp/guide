@@ -7,7 +7,7 @@ To install Go in your computer, download its installer from <a href='https://gol
 
 ## First Go program
 
-Create a file named `main.go` and add the following code in it :-
+Create a file named `main.go` and add the following code in it :
 
 ```go
 package main // Package declaration
@@ -21,7 +21,7 @@ func main() {
 
 ```
 Now, run the above program from Terminal/Command Line. To do this, open Terminal/Command Line and move to the directory in which `main.go` is present. Then run the command `go run main.go` in it.
-You should see the ouptut similar to the following output :-
+You should see the ouptut similar to the following output :
 
     $ go run main.go
     Hello, World!
