@@ -100,7 +100,7 @@ float data type is a single-precision 32-bit <a href='http://steve.hollasch.net/
 
 ### double:
 
-double data type is a double-precision 64-bit IEEE 754 floating point.
+double data type is a double-precision 64-bit <a href='http://steve.hollasch.net/cgindex/coding/ieeefloat.html' target='_blank' rel='nofollow'>IEEE 754 floating point</a>.
 
     Wrapper Class: Double
 
