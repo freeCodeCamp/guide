@@ -24,3 +24,7 @@ while (i < 5)
 > Number 3
 > Number 4
 ```
+#### More Information:
+
+* <a href='https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/while' target='_blank' rel='nofollow'>while (C# Reference)</a>
+* <a href='https://www.dotnetperls.com/while' target='_blank' rel='nofollow'>C# While Loop Examples</a>
