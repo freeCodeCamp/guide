@@ -23,4 +23,6 @@ Thinking, Fast and Slow: amzn.to/2tnnlTN
 
 Learn You a Haskell for Great Good!: amzn.to/2veOjdv
 
+Hooked: How to Build Habit-Forming Products: amzn.to/2bVG5AQ
+
 To see the full list, visit: https://talkpython.fm/episodes/show/130/10-books-python-developers-should-be-reading
