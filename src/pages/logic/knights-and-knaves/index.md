@@ -3,8 +3,8 @@ title: Knights and Knaves Puzzles
 ---
 ## Knights and Knaves
 
-One type of logic puzzles, these puzzles have to do with two types of people. Knights: people who only tell the truth and  Knaves: people who only tell lies. Raymond Smullyan collected dozens of puzzles like this in his book, What is the Name of This Book?. 
-The way the puzzles work is that a person visits an island where he meets an inhabitant or group of. The visitor must use his logic skills to figure out who is the knight and who is the knave. 
+One type of logic puzzle, these puzzles have to do with two types of people. Knights: people who only tell the truth and Knaves: people who only tell lies. Raymond Smullyan collected dozens of puzzles like this in his book, "What is the Name of This Book?". 
+The way the puzzles work is that a person visits an island where he meets an inhabitant or group. The visitor must use his logic skills to figure out who is the knight and who is the knave. 
 
 ## Sample Puzzles
 
