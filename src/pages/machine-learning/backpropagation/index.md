@@ -9,6 +9,8 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
+The backpropogation algorithm is used in neural networks where we try to reduce the the error and then backpropgating it to modify the weights of the nodes.
+
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
