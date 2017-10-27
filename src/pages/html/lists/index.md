@@ -16,11 +16,19 @@ Within the `<ol>` or `<ul>` tags, you need to put the items in the list. You add
   <li>Item 3</li>
 </ul>
 ```
-
-This would display as:
+An unordered list would display as:
 * Item 1
 * Item 2
 * Item 3
+
+Here is an example of an ordered list with items:
+```HTML
+
+<ol>
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ol>
 
 An ordered list would display as:
 1. Item 1
