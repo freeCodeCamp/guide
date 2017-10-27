@@ -167,7 +167,7 @@ Here is some content that should be cited.<sup>1</sup> And here is even more tha
 
 ### Sources
 1. [Doe, John. "Authoring Words." *WikiCoder*. January 1, 1970. Accessed: October 20, 2017](#)
-2. [Purdue OWL Staff. "MLA Works Cited: Electronic Sources." *Purdue Online Writing Lab.* October 12, 2017. Accessed: Ocotber 20, 2017.](https://owl.english.purdue.edu/owl/resource/747/08/)
+2. [Purdue OWL Staff. "MLA Works Cited: Electronic Sources." *Purdue Online Writing Lab.* October 12, 2017. Accessed: October 20, 2017.](https://owl.english.purdue.edu/owl/resource/747/08/)
 </blockquote>
 You can check out the Purdue link above to see how to properly cite web sources (they even show how to cite tweets!). Typically, an attribution has a structure like the following:
 
@@ -201,13 +201,13 @@ Here are specific formatting guidelines for any code:
 
       ```javascript
       function logTheThings(stuff) {
-          console.log(stuff);
+        console.log(stuff);
       }
       ```
 
       ```css
       .awesome {
-          background-color: #FCCFCC;
+        background-color: #FCCFCC;
       }
       ```
     ```
