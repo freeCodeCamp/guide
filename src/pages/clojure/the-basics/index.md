@@ -47,7 +47,7 @@ You'll notice that our vector has some stuff in it now: `[x y z]`! Whenever a fu
 
 ### Destructuring
 
-A great feature about arguments in Clojure is destructuring. It allows you to 'pull' elements out of a list.
+A great feature about arguments in Clojure is destructuring. It allows you to 'pull' elements out of a list:
 
     (defn add [[x y] z] (+ x y z))
     (add [1 2] 3)
@@ -59,7 +59,7 @@ The arguments to that function are a collection (`[x y]`) and a number (`z`). We
 
 ### Functions with any number of parameters
 
-You can also define a function with an arbitrary number of arguments using `&`.
+You can also define a function with an arbitrary number of arguments using `&`:
 
     (defn demonstrate-rest [first & rest]
       (println first)
