@@ -135,3 +135,22 @@ This has the effect of putting a pause in your code. In this case, the code reac
  * While loops, which allow us to run code while a condition is true
  * Do-while loops, which run code and then continue running it if a condition is true
  * For loops, which run code while a condition is true and allow us to perform an operation every loop.
+```C
+#include<stdio.h>
+#include<stdlib.h>
+void main(){
+int arr[10]={10,9,8,7,6,5,4,3,2,1};
+int temp;
+for(int i=0;i<10;++i)
+  for(int j=0;j<10;++j){
+  if(arr[i]>arr[j]){
+  temp=arr[i];
+  arr[i]=arr[j];
+  arr[j]=temp;
+  }
+ }
+}
+```
+Above code is a simple implementation of selection sort.Its a good example of nested loops.
+
+
