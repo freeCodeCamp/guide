@@ -1,3 +1,7 @@
+---
+title: Creating Singleton In JavaScript
+---
+
 ## Creating Singleton In Javascript Guide
 
 This Article is about creating the Singletons in Native(Pure) Javascript. This concept can be useful to maintain clean code.
