@@ -25,3 +25,4 @@ It follows the same pattern as React where the views (what you see on the screen
 1. Performance — Performs better than hybrid application frameworks like Ionic and Cordova.
 1. Corporate backing — Lot’s of companies support and contribute to React Native including Walmart, Airbnb, Wix, and, of course, Facebook.
 1. Community — React Native has a large (and growing) community with over 1500 contributors to the core project and thousands more who contribute to various libraries.
+1. Better user experience — React Native uses the JavaScript code to render native components from your phone's OS. In other words, the application's user interface (UI) is entirely native!

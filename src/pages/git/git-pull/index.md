@@ -91,8 +91,8 @@ Without any arguments, `git merge` will merge the corresponding remote tracking 
 Common language in other IDES may not include the word `pull`. If you look out for the words `git pull` but don't see them, look for the word `sync` instead. 
 
 ### Other Resources on git pull
-- [git-scm](https://git-scm.com/docs/git-pull)
-- [GitHub Help Docs](https://help.github.com/articles/fetching-a-remote/#pull)
+- <a href='https://git-scm.com/docs/git-pull' target='_blank' rel='nofollow'>git-scm</a>
+- <a href='https://help.github.com/articles/fetching-a-remote/#pull' target='_blank' rel='nofollow'>GitHub Help Docs</a>
 
 ### Other Resources on git in guide.freecodecamp.org
 - [Git merge](../git-merge/index.md)

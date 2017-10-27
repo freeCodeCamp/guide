@@ -13,4 +13,4 @@ Supplementary angles don't have to be next to each other, just so long as the to
 As `a` is parallel to `b`, <b>angles</b> "`3`" and "`6`" sum up to 180&deg;. Hence, they are supplementary angles.
 
 ### More Information:
-- Supplementary Angles article: [Varsity Tutors](https://www.varsitytutors.com/hotmath/hotmath_help/topics/supplementary-angles)
+- Supplementary Angles article: <a href='https://www.varsitytutors.com/hotmath/hotmath_help/topics/supplementary-angles' target='_blank' rel='nofollow'>Varsity Tutors</a>
