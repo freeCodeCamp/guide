@@ -3,7 +3,22 @@ title: Text Formatting in HTML
 ---
 ## Text Formatting in HTML
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/tutorials/text-formatting-in-html/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Html also defines a special elements for styling text giving them special meaning. It uses elements like <b> <i> for formatting bold and italic text.
+  
+  Following are list of elements for formatting text in html.
+  
+ <b> - Bold text
+<strong> - Important text
+<i> - Italic text
+<em> - Emphasized text
+<mark> - Marked text
+<small> - Small text
+<del> - Deleted text
+<ins> - Inserted text
+<sub> - Subscript text
+<sup> - Superscript text
+  
+  
 
 <a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
 
