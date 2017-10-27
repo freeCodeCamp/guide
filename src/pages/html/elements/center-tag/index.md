@@ -3,13 +3,15 @@ title: Center Tag
 ---
 ## Center Tag
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/center-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Center tag aligns the text in center. Usage is simple:
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+```html
+<center>I will be a center-aligned text</center>
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+But we shouldn't think that it would center all elements. Various situations require different approach. For example, HTML5 doesn't support center tag and therefore you would need to do it with CSS.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
+How To Center in CSS Trick: http://howtocenterincss.com
 
