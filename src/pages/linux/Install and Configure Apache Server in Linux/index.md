@@ -5,7 +5,7 @@ title: Install and Configure Apache Server in Linux
 <div class="para">Apache HTTP Server, colloquially called Apache, is free and open-source 
 cross-platform web server software.
 Apache is developed and maintained by an 
-open community of developers under the auspices of the Apache Software Foundation</div>
+open community of developers under the auspices of the Apache Software Foundation.</div>
 
 # Install and Configure Apache Server in Linux
 
