@@ -24,4 +24,4 @@ array // [1, 2, 3]
 ```
 #### More Information:
 
-[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
+<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop' target='_blank' rel='nofollow'>MDN</a>

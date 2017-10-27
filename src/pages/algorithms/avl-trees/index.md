@@ -1,7 +1,7 @@
 ---
-title: AVL Trees
+title: AVl Trees
 ---
-## AVL Trees
+## AVl Trees
 
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/algorithms/avl-trees/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
