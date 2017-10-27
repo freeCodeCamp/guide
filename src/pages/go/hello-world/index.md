@@ -1,5 +1,5 @@
 ---
-title: Go
+title: Hello World
 ---
 
 To install Go in your computer, download its installer from <a href='https://golang.org/dl/' target='_blank' rel='nofollow'>here</a> and install it by following these <a href='https://golang.org/doc/install' target='_blank' rel='nofollow'>installation instructions</a>.
