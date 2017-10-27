@@ -17,7 +17,7 @@ Adobe Experience Design, also known as Adobe XD, is a prototyping tool for UX de
 * repeat-grid feature
 * directly include Illustrator and Photoshop assets
 
-### Disadvantages
+### Disadvantages:
 
 * no plugins available, unlike Sketch which has a huge ecosystem already in place
 * limited prototyping options; lacks many features of dedicated prototyping tools like InVision or Framer
