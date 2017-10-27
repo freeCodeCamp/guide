@@ -3,13 +3,27 @@ title: Volume of a Sphere
 ---
 ## Volume of a Sphere
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/volume-of-a-sphere/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+A sphere is a perfectly round three-dimensional geometrical object. It can be defined as a set of points that are all at the same distance from a point in a three-dimensional space.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+It's radius can be defined as the distance between any point in it's surface and it's center.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```
+Being radius = r
+
+Volume = 4/3 * π * r
+```
+
+### Example
+
+If you have a sphere with radius = 10 cm
+
+```
+Volume = 4/3 * π * r
+       ≅ 4/3 * 3.14 * 10
+       ≅ 41.86 cm²
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+[Wikipedia Article](https://en.wikipedia.org/wiki/Sphere)
 
 
