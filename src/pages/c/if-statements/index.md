@@ -158,3 +158,14 @@ These two lines of code tell the compiler that the word 'false' should be replac
  * ! flips whether something is true or false
  * && joins two operations, making the overall operation true only if both halves are true
  * || joins two operations, making the overall operation true if one or both halves are true
+ 
+ Nested if:
+ if()
+ {
+     if()
+     {
+        if()
+        {}
+     }
+ }
+ 
