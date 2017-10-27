@@ -15,7 +15,7 @@ This repo is where we plan and maintain these Guide articles, which we then host
 - [License](#license)
 
 ## What are Guide articles?
-Guide articles can be an explanation of syntax, design pattern(s), what aria labels are for, or something like what the numbers mean in the top right-hand corner of your screen when at freecodecamp.org. You can find an [example article about HTML Elements here](./src/pages/html/elements/index.md).
+Guide articles can be an explanation of syntax, design pattern(s), what aria labels are for, or something like what the numbers mean in the top right-hand corner of your screen when at [freecodecamp.org](https://www.freecodecamp.org/). You can find an [example article about HTML Elements here](./src/pages/html/elements/index.md).
 
 ## What can I write an article about?
 We welcome your help writing these articles. You don't have to be an expert in a topic to write about it - this entire Guide is open source, so even if you make a mistake, another contributor will eventually correct it.
@@ -62,6 +62,7 @@ cd guides
 yarn install
 yarn run dev
 ```
+When you run `yarn run dev`, build takes little time. So wait until you see something like `Compiled successfully`. Then you will be able to see something like `Your site is running at http://localhost:8000`. Now point your browser at `http://localhost:8000`
 
 In this project, we are using `yarn` because `netlify` builds our site with `yarn`.
 
@@ -74,8 +75,10 @@ We've written the following guide to writing Guide articles to help you get star
 - [Article title](#article-title)
 - [Modularity](#modularity)
 - [General writing tips](#general-writing-tips)
+- [Attribution](#attribution)
 - [Formatting example code](#formatting-example-code)
 - [Adding images to articles](#adding-images-to-articles)
+- [Adding links to articles](#adding-links-to-articles)
 - [Proper nouns](#proper-nouns)
 - [Where to get help](#where-to-get-help)
 
@@ -117,9 +120,10 @@ However, you can include special characters in the article title.
 
 ### Modularity
 
-Each article should explain exactly one concept, and that concept should be apparent from the article's title.
+Each article should explain exactly one concept and that concept should be apparent from the article's title.
 
-We can reference other articles by linking to them inline, or in an "Other Resources" section at the end of the article.
+We can reference other articles by linking to them inline or in an "More information:" section at the end of the article.
+
 
 Our goal is to have thousands of articles that cover a broad range of technical topics.
 
@@ -164,7 +168,7 @@ Here is some content that should be cited.<sup>1</sup> And here is even more tha
 
 ### Sources
 1. [Doe, John. "Authoring Words." *WikiCoder*. January 1, 1970. Accessed: October 20, 2017](#)
-2. [Purdue OWL Staff. "MLA Works Cited: Electronic Sources." *Purdue Online Writing Lab.* October 12, 2017. Accessed: Ocotber 20, 2017.](https://owl.english.purdue.edu/owl/resource/747/08/)
+2. [Purdue OWL Staff. "MLA Works Cited: Electronic Sources." *Purdue Online Writing Lab.* October 12, 2017. Accessed: October 20, 2017.](https://owl.english.purdue.edu/owl/resource/747/08/)
 </blockquote>
 You can check out the Purdue link above to see how to properly cite web sources (they even show how to cite tweets!). Typically, an attribution has a structure like the following:
 
@@ -176,7 +180,7 @@ Use of proper citations will not only keep the guides reputable, but these citat
 
 ### Formatting example code
 
-Campers will likely use Guide articles as a quick reference to look up syntax. Articles should have simple real-world examples that show common-use cases of that syntax.
+Campers will likely use Guide articles as a quick reference to look up the syntax. Articles should have simple real-world examples that show common-use cases of that syntax.
 
 Here are specific formatting guidelines for any code:
 
@@ -186,26 +190,28 @@ Here are specific formatting guidelines for any code:
 - Comments made should have a space between the comment characters and the comment themselves
 
     `// Fix this line`
+
 - GitHub-flavored markdown supports [syntax highlighting in code blocks](https://help.github.com/articles/creating-and-highlighting-code-blocks/#syntax-highlighting) for many programming languages. To use it, indicate the language after starting ```
-```
-    ```html
-    <div class='awesome' id='more-awesome'>
+
+    ```
+      ```html
+      <div class='awesome' id='more-awesome'>
       <p>This is text in html</p>
-    </div>
-    ```
+      </div>
+      ```
 
-    ```javascript
-    function logTheThings(stuff) {
-     console.log(stuff);
-    }
-    ```
+      ```javascript
+      function logTheThings(stuff) {
+        console.log(stuff);
+      }
+      ```
 
-    ```css
-   .awesome {
-      background-color: #FCCFCC;
-    }
+      ```css
+      .awesome {
+        background-color: #FCCFCC;
+      }
+      ```
     ```
-```
 
 ### Adding images to articles
 
@@ -217,6 +223,14 @@ Then you'd just need to reference them in your markdown file with this syntax:
 
 Then the images should show up when you click the "preview changes" tab.
 
+### Adding links to articles
+
+Use Markdown style links in your articles to link to other websites.
+
+```
+[freeCodeCamp](https://www.freecodecamp.org/)
+```
+
 ### Proper nouns
 
 Proper nouns should use correct capitalization when possible. Below is a list of words as they should appear in Guide articles.
@@ -226,7 +240,7 @@ Proper nouns should use correct capitalization when possible. Below is a list of
 - jQuery
 - SQL
 
-Front-end development (adjective form with a dash) is when you're working on the front end (noun form with no dash). The same goes with the back end, full stack, and many other compound terms.
+Front-end development (adjective form with a dash) is when you are working on the front end (noun form with no dash). The same goes with the back end, full stack, and many other compound terms.
 
 ### Where to get help
 
