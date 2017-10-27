@@ -13,7 +13,7 @@ When you're writing HTML you can add a class to an element like so:
 
 <h1 class="superMan">"Here I come to save the day!"</h1>
 
-<p> is a popular catchphrase that <span class="superMan">Super Man </span>often said.</p>
+<p class="para"> is a popular catchphrase that <span class="superMan">Super Man </span>often said.</p>
 
 ```
 
@@ -24,8 +24,12 @@ color: red;
 background-color: blue;
 }
 
+.para{
+text-size:16px;
+}
+
 ```
- 
+ in above code there will be 16px size only under 16px
 
 Notice that classes have the prefix of a period (.) in CSS.
 
