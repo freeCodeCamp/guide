@@ -4,7 +4,7 @@ title: Switch Case
 
 # Switch Case
 
-The switch statement is like a set of `if statements`.
+The switch statement is like a set of `if/else if statements`.
 It's a list of possibilities, with an action for each possibility, and an optional default action, in case nothing else evaluates to true.
 We exit from the switch by `break`.
 
@@ -34,7 +34,7 @@ switch(number)
 ```
 
 ## Example in if statements
-The previous switch case example, in `if statements` corresponds to:
+The previous switch case example, in `if/else if statements` corresponds to:
 ```
 int number = 1;
 
