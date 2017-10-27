@@ -3,13 +3,14 @@ title: Center Tag
 ---
 ## Center Tag
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/center-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `<center>` tag is used to centrally align text on an HTML document<sup>1</sup>.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+For example: `<center>This Title of the Document</center>`
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+The `<center>` tag is not supported in hmtl 5, instead you can use the `text-align` CSS property<sup>2</sup>.
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+### Sources
 
+1 [W3 Schools - HTML `<center>` tag](https://www.w3schools.com/tags/tag_center.asp)
 
+2 [MDN - HTML Element Reference: `<center>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/center)
