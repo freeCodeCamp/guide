@@ -220,10 +220,10 @@ if it contains imperfect English or partial content
 
 
 ### PR Review Ordering
-Older pull requests are reviewed firsts.  
+Older pull requests are reviewed first.  
 You can use this filter to list relevant pull requests: [is:pr is:open sort:updated-asc -label:platform -label:enhancement -label:invalid -label:"changes requested"](https://github.com/freeCodeCamp/guides/pulls?utf8=%E2%9C%93&q=is%3Apr%20is%3Aopen%20sort%3Aupdated-asc%20-label%3Aplatform%20-label%3Aenhancement%20-label%3Ainvalid%20-label%3A%22changes%20requested%22)
 
-### Accepting PR
+### Accepting a PR
 
 #### Squash commits
 We use the __Squash and Merge__ option when merging the PR.
@@ -240,19 +240,17 @@ Currently under discussion, see [here](https://github.com/freeCodeCamp/guides/is
 In example: if you create a _Variables_ article inside the _Python_ directory,  
 the pull request title should be `Python: added "Variables" article`.  
 
-**Format**: `{Parent category}: added "{Article's title}" article`
+**Format**: `{Parent category}: add "{Article's title}" article`
 
 
-### Closing PR
+### Closing a PR
 
 We close a pull request:
 - if there is zero/little effort in it (e.g: copy pasting from another source like Wikipedia)
 - if there is copied text from a copyrighted source (see also https://github.com/freeCodeCamp/guides/issues/2503)
 - if it does not respect the [Article style guide](https://github.com/freeCodeCamp/guides#article-style-guide)
 - if it does not respect the [Academic Honesty policy](https://www.freecodecamp.org/academic-honesty)
-- if it is stale (if a change is requested and there weren't any activity for about 2 weeks)
-
-Remember that a PR can always be reopened; merge can be reverted.
+- if it is stale (if a change is requested and there wasn't any activity for about 2 weeks)
 
 #### Template text for closing PR
 > Thank you for your pull request. Please read this style guide: https://github.com/freeCodeCamp/guides#article-style-guide
@@ -266,22 +264,22 @@ To find duplicates PRs:
 1. Search for PRs with similar content
 1. Merge from the oldest to the newest
 
-There will be probably merge conflicts; if it is the case, notify the contributor with this template text:
+There will probably be merge conflicts; if it is the case, notify the contributor with this template text:
   
 #### Template text
-> We apologize for the inconvenience; however, while your PR was in the review queue someone else proposed the same file and their contribution was merged. As a result we need to resolve merge conflicts in order to merge your changes. If you're unsure about this process feel free to reach out in the contributor Gitter channel or comment below. We recommend you review the existing file and propose how you could incorporate your own ideas while maintaining the other contributors work. We will be closing this PR for now, but if you still want to see your changes added let us know and we can open it for additional commits.
+> We apologize for the inconvenience; however, while your PR was in the review queue someone else proposed the same file and their contribution was merged. As a result we need to resolve merge conflicts in order to merge your changes. If you're unsure about this process feel free to reach out in the [Contributor Gitter channel](https://gitter.im/FreeCodeCamp/Contributors) or comment below. We recommend you review the existing file and propose how you could incorporate your own ideas while maintaining the other contributor's work. We will be closing this PR for now, but if you still want to see your changes added let us know and we can open it for additional commits.
 Thank you for contributing! Keep up the awesome work 
 
 ### Requesting changes
 
 If a pull request is not perfect we can:
-- request changes to the contributor and adding the *change requested* label (see below)
+- request changes to the contributor and add the *changes requested* label (see below)
 - fix minor issues by ourselves
 
 #### Adding Labels
 - **content** is for pull requests that modify the content of articles on the guide (e.g.: new articles or updating articles)
-- **duplicate** is for pull requests that have the same content
-- **change requested** is for pull requests that need a change before getting merged.
+- **duplicate** is for pull requests that have the same content as another open PR
+- **changes requested** is for pull requests that need a change before getting merged.
 - **stale**: is for pull requests with _"change requested"_ label that doesn't get activity after about 2 weeks.  A _stale_ pull request should be closed (example: https://github.com/freeCodeCamp/guides/pull/235)
 
 ## License
