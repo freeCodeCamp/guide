@@ -29,7 +29,8 @@ Unity is the default software development kit (SDK) for Nintendo's Wii U video g
 Unity Technologies calls this bundling of a third-party SDK an "industry first".
 
 #### More Information: 
+[Unity's Official Website](https://unity3d.com/)
 
-<a href='https://en.wikipedia.org/wiki/Unity_(game_engine)' target='_blank' rel='nofollow'>Wikipedia</a>
+[Wikipedia](https://en.wikipedia.org/wiki/Unity_(game_engine))
 
-<a href='https://unity3d.com/learn' target='_blank' rel='nofollow'>Official Unity Tutorials</a>
+[Official Unity Tutorials](https://unity3d.com/learn)
