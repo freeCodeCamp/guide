@@ -4,7 +4,7 @@ title: Foreach Loop
 
 # Foreach loop
 
-The `foreach` loop evaluate each element in a collection.
+The `foreach` loop evaluates each element in a collection.
 
 ## Example
 ```
