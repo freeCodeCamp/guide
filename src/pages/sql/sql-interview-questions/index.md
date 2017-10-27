@@ -31,6 +31,10 @@ ON Customers.CustomerID=Orders.CustomerID
 ORDER BY Customers.CustomerName
 ```
 
+### What is an index? 
+An index is a database object that helps speed up retrieval of data by storing logical pointers to specific key values. By scanning the index, which is organized in either ascending or descending order according to the key value, you are able to retrieve a row quicker than by scanning all rows in a table.
+
+
 # Changes
 
 ### What is the result of the following command?
