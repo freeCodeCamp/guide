@@ -3,13 +3,23 @@ title: SQL Select into Statement
 ---
 ## SQL Select into Statement
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/sql/sql-select-into-statement/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+To copy one table's records into a new table, use the `SELECT INTO` statement.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Caution is needed as this statement creates a new table. If the destination table already exists, use the `INSERT INTO SELECT` statement instead.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+The basic syntax is the following.
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+```sql
+SELECT *
+INTO newtable
+FROM oldtable;
+```
 
+You can also specify specific columns, or also use a `WHERE` condition.
 
+```sql
+SELECT column1, column2, column3
+INTO newtable
+FROM oldtable
+WHERE condition;
+```
