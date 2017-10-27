@@ -86,6 +86,23 @@ array.reverse
 => [4, 3, 2, 1, 0]
 ```
 
+#### .include?
+The .include? methods check whether a particular item is included in the array:
+
+```
+array.include?(3)
+=> true
+array.include?(7)
+=> false
+```
+
+#### .empty?
+The .empty? methods check whether an array contains any elements at all:
+
+```
+array.empty?
+=> false
+```
 ## More Information/ Official Documentation:
 
 There are plenty more array methods, you can read more about them <a href='https://ruby-doc.org/core-2.4.2/Array.html' target='_blank' rel='nofollow'>here</a>
