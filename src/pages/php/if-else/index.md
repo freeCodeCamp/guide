@@ -21,7 +21,8 @@ else
 ### if
 Execute code if the condition is `true`
 
-```
+```php
+
 <?php
 
 //initialize
@@ -34,11 +35,13 @@ if ($fruit == "blueberry")
 }
 
 ?>
+
 ```
 
 ### if...else
 Execute code if the condition is `true` and another if condition is `false`
-```
+```php
+
 <?php
 //initialize
 $isLightOn = true;
@@ -55,11 +58,13 @@ else
 }
 
 ?>
+
 ```
 
 ### if...elseif...else
 Execute different codes for more than two condition
-```
+```php
+
 <?php
 
 //initialize
@@ -79,11 +84,12 @@ else
 }
 
 ?>
+
 ```
 
 ### Nested if
 Execute different codes with nested condition
-```
+```php
 
 <?php
 
@@ -121,4 +127,5 @@ else
 }
     
 ?>
+
 ```
