@@ -3,13 +3,20 @@ title: Tautologies
 ---
 ## Tautologies
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/logic/tautologies/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+A **tautology** is a formula (or boolean statement) which is always `true` regardless of the truth values that replace the variables in it. It is also called *universally valid formula* or a *logical truth*. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+There are infinitely many tautologies. Examples include:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+    x OR ¬x  (This stands for "x or not x")
+    
+This formula has only one propositional variable, x. If you assign x one of the truth values `true` or `false`, ¬x will be assigned the opposite truth value. Hence in both cases, the formula evaluates to true.  
+ 
+The opposite of a tautology is a **contradiction**, a formula which is always `false` regardless of the truth values that replace the variables in it.
+
+A formula that is neither a tautology nor a contradiction is called a **contingency**. 
+
+You can use truth tables to determine the truth or falsity of a complicated statement based on the truth or falsity of its simple components. 
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+[Truth tables] http://sites.millersville.edu/bikenaga/math-proof/truth-tables/truth-tables.html
+[Propositional logic] https://www.tutorialspoint.com/discrete_mathematics/discrete_mathematics_propositional_logic.htm
