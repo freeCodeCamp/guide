@@ -5,7 +5,7 @@ You may need to understand [`if`](//forum.freecodecamp.com/t/clojure-conditional
 
 ## `for` and `while`
 
-Clojure does not have for loops or while loops. This makes sense, if you think about it. A `for` loop changes a variable, and that's not allowed in Clojure.
+Clojure does not have for loops or while loops. This makes sense, if you think about it. A `for` loop changes a variable, and that's not allowed in Clojure:
 
     for (var i = 0; i < 10; i++) {
       console.log(i);
@@ -13,7 +13,7 @@ Clojure does not have for loops or while loops. This makes sense, if you think a
 
 `i++` means that we add one to the variable `i` every time the loop finishes -- a clear example of a variable being mutated.
 
-`while` loops are less obviously reliant on changing variables, but they are, just as much as for loops are.
+`while` loops are less obviously reliant on changing variables, but they are, just as much as for loops are:
 
     var i = 0;
     while (i < 10) {
@@ -25,7 +25,7 @@ Clojure does not have for loops or while loops. This makes sense, if you think a
 
 ## Recursion
 
-Thankfully, Clojure does have one loops of some kind. These loops use recursion -- a function that calls itself. The simplest recursive algorithm is one to find a positive number factorial (5 factorial, for example, equals `5 * 4 * 3 * 2`).
+Thankfully, Clojure does have one loops of some kind. These loops use recursion -- a function that calls itself. The simplest recursive algorithm is one to find a positive number factorial (5 factorial, for example, equals `5 * 4 * 3 * 2`):
 
     (defn fact [x]
       (loop [n x prod 1] ;; this works just like a 'let' binding.
