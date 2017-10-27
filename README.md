@@ -68,7 +68,7 @@ In this project, we are using `yarn` because `netlify` builds our site with `yar
 
 ## Article style guide
 
-We've written the following guide to writing Guide articles to help you get started contributing.
+The following guide has been written inorder to help you in getting started with contribution aspects.
 
 **Table of Contents**
 
@@ -85,7 +85,7 @@ We've written the following guide to writing Guide articles to help you get star
 
 ### Article title
 
-Article titles should be as short, concise, and to-the-point as possible. We want campers to quickly find the information they're looking for, and the title should reflect the main theme of the article.
+Article titles should be as short, concise and to-the-point as possible. Article title should depict the main theme behind it and enable campers to find relevant information they're looking for. 
 
 Folder name is used in the URL, so only use dashes `-`, numbers `0-9`, and lowercase letters `a-z` for it.
 
