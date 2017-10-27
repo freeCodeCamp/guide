@@ -22,6 +22,8 @@ Hence the rise of another type of database, optimized for connected data: the gr
 
 #### More Information:
 [Introduction to Graph Databases](https://www.compose.com/articles/introduction-to-graph-databases/)
+
 [What is a Graph Database?](https://neo4j.com/developer/graph-database/)
+
 [Why Graph Databases Outperform RDBMS on Connected Data](https://dzone.com/articles/why-are-native-graph-databases-more-efficient-than)
 
