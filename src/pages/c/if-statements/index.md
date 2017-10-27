@@ -120,6 +120,25 @@ Because the previous code was executed, it won't check the other else statements
 
 Finally, does `n > 5` evaluate to true? The answer is no, because n *is* 5, and so it is not greater than 5. As a result, this code will not evaluate to true. In order to make this evaluate to true, the `>=` operator should be used.
 
+## Bit wise operators
+We can use `&` and `|` to do bit manipulations.
+
+```C
+
+#include <stdio.h>
+
+int main(void) {
+    int a = 0;
+    int b = 1;
+    if (a | b) {
+        printf("Pass");
+    }
+    if (a & b) {
+        printf("Fail");
+    }
+}
+```
+
 ## A Detail about C Comparisons
 Earlier you read that the comparisons are checking if something is true or false, but that's really only half true. Remember that C is about being light and close to the hardware- in hardware, it's easy to check if something is 0, and anything else takes more work. Because of this, what the comparisons are really doing is checking if something is false, which is assigned the value of 0, or checking if it isn't false (any other value).
 
