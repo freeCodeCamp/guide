@@ -1,4 +1,7 @@
---
+---
+title: Tagging in Git
+---
+
 ## Tagging in Git
 
 Tagging in Git has the ability to tag specific points in history as being important. Typically people use this functionality to mark release points (v1.0, and so on).
