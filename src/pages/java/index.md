@@ -8,7 +8,7 @@ title: Java
 
 ## Version
 
-The latest version is <a href='http://www.oracle.com/technetwork/java/javase/overview/java8-2100321.html' target='_blank' rel='nofollow'>Java 1.8</a> or Java 8, which was released in 2014 with <a href='http://www.oracle.com/technetwork/java/javase/8-whats-new-2157071.html' target='_blank' rel='nofollow'>various improvements</a> over the previous version, Java 7\. This year, Oracle has a target to release Java 9\. But for all intents and purposes, we will use Java 8 in this wiki for all tutorials.
+The latest version is <a href='https://www.oracle.com/java/java9.html'>Java 9, which was released in September 2017. The most important change in this version is the introduction of the Java Platform Module System. Thehe most used version however remains <a href='http://www.oracle.com/technetwork/java/javase/overview/java8-2100321.html' target='_blank' rel='nofollow'>Java 1.8</a> or Java 8, which was released in 2014 with <a href='http://www.oracle.com/technetwork/java/javase/8-whats-new-2157071.html' target='_blank' rel='nofollow'>various improvements</a> over the previous version, Java 7\. For all intents and purposes, we will use Java 8 in this wiki for all tutorials.
 
 Java is also divided into several "Editions" :
 
