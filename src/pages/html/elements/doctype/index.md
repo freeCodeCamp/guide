@@ -3,13 +3,33 @@ title: Doctype
 ---
 ## Doctype
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/doctype/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Similar to when we read any piece of text we need to first determine the language before we can interpret it, so does HTML.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+When you write HTML you need to declare <!DOCTYPE> first to let the browser know what kind of html you are using.
+
+## Example
+```html
+ <!DOCTYPE html>
+<html>
+ 
+<head>
+ <title>Title of webpage</title>
+</head>
+
+<body>
+your body content
+
+</body>
+
+</html> 
+
+
+```
+
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+https://www.w3schools.com/tags/tag_doctype.asp
