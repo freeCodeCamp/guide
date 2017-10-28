@@ -40,4 +40,4 @@ The code snippet given below explains it:
 
 ### More information
 
-For more resources youj can visit: https://www.w3schools.com/php/php_syntax.asp
+For more resources you can visit: https://www.w3schools.com/php/php_syntax.asp
