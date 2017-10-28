@@ -3,13 +3,10 @@ title: Mean
 ---
 ## Mean
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/statistics/mean/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Mean is average of given numbers i,e sum of the numbers divided by count of numbers.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Mean x = (x1+x2+x3+.....+xn)/n
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+**Example:**
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+Mean of 11,34,56,23 is 31
