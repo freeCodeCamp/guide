@@ -3,13 +3,21 @@ title: Article
 ---
 ## Article
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/article/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+When writing in HTML, the `<article>` tag is a block element used to describe a section of content that is both self-contained and independent. More specifically, anything inside the `<article>` tag could be distributed separately from the rest of the site. Good examples are forum posts, blog posts and newspaper or magazine articles.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+## Example
+```html
+<article>
+  <h1>Google Chrome</h1>
+  <p>Google Chrome is a free, open-source web browser developed by Google, released in 2008.</p>
+</article>
+```
+
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
+MDN Documentation: <a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article' target='_blank' rel='nofollow'>MDN</a>
+
+W3schools: <a href='https://www.w3schools.com/tags/tag_article.asp' target='_blank' rel='nofollow'>link</a>
 
