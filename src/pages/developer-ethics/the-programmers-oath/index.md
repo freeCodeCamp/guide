@@ -30,7 +30,7 @@ Harm comes in many different forms. <b>You</b> as a professional programmer prom
 ### Promise 2
 >2. The code that I produce will always be my best work. I will not knowingly allow code that is defective either in behavior or structure to accumulate.
 
-As a programmer, you want to believe in doing your best work, and you never want to be in a situation where code you realease is knowingly not your best work.
+As a programmer, you want to believe in doing your best work, and you never want to be in a situation where code you release is knowingly not your best work.
 
 You don't want to allow code that is defective to accumulate in your system. You may not be able to prevent it from getting into your system (ex. a release emergency), but you won't allow it to commute to accumulate. 
 
