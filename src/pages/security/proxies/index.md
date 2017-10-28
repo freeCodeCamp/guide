@@ -3,13 +3,15 @@ title: Proxies
 ---
 ## Proxies
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/security/proxies/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+A proxy is a server that acts as a gateway in between a local network towards a larger-scale one (ie. the web). They provide better performance and security. They can also be used for monitoring. They intercept connections between the sender and the receiver. They act in the middle changing the number of the ports, making the data that enters from one port be forwarded and then transitioning to the rest of the network via a different port. Which can make it harder for hackers to get details of a private network, for example. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+There are some proxy servers that block some Web-services. For example, they block access through the HTTP port making it hard to access some websites or social networks that are not considered appropriate for the people using that connection. 
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+They can also be used for caching web pages, making a temporary copy of the most accessed websites, storing it locally better network performance. 
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+If you want to get your hands on a Proxy server, a very simple way to get started is by using the Linux's Squid Proxy Server.
 
 
+
+ #### More Information:
+[Wikipedia Page] https://en.wikipedia.org/wiki/Proxy_server
