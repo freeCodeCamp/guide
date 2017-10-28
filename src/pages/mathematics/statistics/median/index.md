@@ -3,13 +3,19 @@ title: Median
 ---
 ## Median
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/statistics/median/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Median is the middle number in given set of numbers sorted in ascending order. If two middle numbers are found. then is average of them.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+**Examples:**
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+1. Median for 10,2,8,5,9 
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+    Arranging them in ascending order: 2,5,8,9,10
 
+    Median is 8
+
+2. Median for 4,7,2,6,9,1
+
+    Arranging them in ascending order: 1,2,4,6,7,9
+
+    Median is (4+6)/2 = 5
 
