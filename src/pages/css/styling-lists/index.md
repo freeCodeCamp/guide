@@ -2,14 +2,8 @@
 title: Styling Lists
 ---
 ## Styling Lists
-
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/styling-lists/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
+List specific properties are list-style-type, list-style-position and list-style-image. List-style-type controlls type of bullets used for a list (square, circle, numbers, none...). List-style-position controlls whether bullets appear inside the list items, or outside them. List-style-image allows for use of a custom images in place of bullets. There is a shorthand property list-style, by which you can set all these properties at the same time.
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_lists
