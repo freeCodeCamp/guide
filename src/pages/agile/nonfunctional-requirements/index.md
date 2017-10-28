@@ -3,13 +3,13 @@ title: Nonfunctional Requirements
 ---
 ## Nonfunctional Requirements
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/nonfunctional-requirements/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Nonfunctional requirements are software characteristics.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Think of things like:
+* "it should run on Android and iPhone"
+* "it should work at least 95 percent of the time"
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Don't confuse this with functional requirements. They are things like "it should play MP3's".
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+* <a href='https://en.wikipedia.org/wiki/Non-functional_requirement' target='_blank' rel='nofollow'>Wikipedia</a>
