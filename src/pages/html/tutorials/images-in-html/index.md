@@ -3,13 +3,23 @@ title: Images in HTML
 ---
 ## Images in HTML
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/tutorials/images-in-html/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Images are used to make your webpage more applealing and easy to understand. Very often, images speak louder than words.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The `<img>` tag is used to insert image in your webpage.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Syntax:
+```html
+<img src="Image URL" ... attributes-list/>
+```
+Example:
+```html
+<img src="veronica.jpg" alt="Veronica (Speedwell) plant">
+```
+Preview:
+
+![Veronica (Speedwell) plant](https://bluestoneperennials.global.ssl.fastly.net/img/VEHO/650/VEHO_0_veronica_hocus_pocus1_wg.1491324064.jpg)
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+<a href='https://www.w3schools.com/html/html_images.asp' target='_blank' rel='nofollow'>w3schools</a>
 
 
