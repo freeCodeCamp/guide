@@ -148,7 +148,7 @@ ssh-add -K ~/.ssh/id_rsa_whatever
 ```
 
 Now you can see your SSH key in the keychain. On MacOS it looks something like this:
-![Keychain Access](https://raw.githubusercontent.com/fvoska/guides/managing-multiple-ssh-keys/static/images/pages/ssh/managing-multiple-ssh-keys/keychain-access.png "Keychain Access")
+![Keychain Access](https://raw.githubusercontent.com/fvoska/guides/master/static/images/pages/ssh/managing-multiple-ssh-keys/keychain-access.png "Keychain Access")
 
 If you remove the keys from `ssh-agent` via `ssh-add -D` (this will happen when you restart your computer, as mentioned before) and try SSH-ing, you will be prompted for password again. Why? We just added the the key to the keychain. If you check Keychain Access again, you will notice that the key you added using `ssh-add -K` is still in the keychain. Weird, huh?
 
