@@ -67,7 +67,7 @@ Rest assured, there are answers to all those questions.
 
 ## Enter, SSH `config`
 
-As it turns out, <a href='https://linux.die.net/man/5/ssh_config' target='_blank' rel='nofollow'>SSH configuration file</a> is a thing, thing which can help us out. It is a per-user configuration file for SSH communication. Create a new file: `~/.ssh/config` and open it for editing.
+As it turns out, <a href='https://linux.die.net/man/5/ssh_config' target='_blank' rel='nofollow'>SSH configuration file</a> is a thing, a thing which can help us out. It is a per-user configuration file for SSH communication. Create a new file: `~/.ssh/config` and open it for editing.
 
 ### Managing custom-named SSH keys
 
