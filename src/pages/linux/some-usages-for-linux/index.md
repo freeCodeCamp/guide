@@ -8,5 +8,6 @@ title: Some Usages for Linux
 *   The US Department of Defense (DoD) uses Linux to run their nuclear submarine fleet.
 *   The US Navy uses Linux for ground control software.
 *  Pakistan is using Linux in many of its public schools and colleges and plans to ultimately run it on all of its government computer systems
+*   linux distros like Kali andBacktrack are security  based distros .This can be used to learn more about internet security.These distros are also used to hack ,like,wifi passwords.
 
 Other adoptions of Linux from around the world can be viewed <a href='https://en.wikipedia.org/wiki/List_of_Linux_adopters' target='_blank' rel='nofollow'>here</a> and <a href='http://www.comparebusinessproducts.com/fyi/50-places-linux-running-you-might-not-expect' target='_blank' rel='nofollow'>here</a>
