@@ -3,13 +3,20 @@ title: Adding and Subtracting Vectors
 ---
 ## Adding and Subtracting Vectors
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/adding-and-subtracting-vectors/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Given two vectors `a=[x1, y1]` and `b=[x2, y2]`, we can perform the action of addition and subtraction the following way:
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+# Adding vectors
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+`a + b = [x1 + x2, y1 + y2]`
+
+# Subtracting vectors
+
+`a - b = [x1 - x2, y1 - y2]`
+
+#### NOTE: we can extend it to whatever many dimensions we want.
+
+
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
+https://en.wikipedia.org/wiki/Euclidean_vector#Addition_and_subtraction
 
