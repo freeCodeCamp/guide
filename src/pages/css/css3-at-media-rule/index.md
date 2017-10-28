@@ -3,13 +3,43 @@ title: CSS3 at Media Rule
 ---
 ## CSS3 at Media Rule
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/css3-at-media-rule/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+**CSS3 Media Rule** - _Getting your pages responsive_
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Media rules are important in organizing your page's content.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Viewing webpages in devices of different dimensions requires Content Priorization.
+
+Look at these three devices, say an iPhone 7, iPad Mini, and iMac. All these have different viewports.
+
+
+
+
+*Steps on varying CSS based on viewport sizes*
+
+The syntax for css is the same as how you would normally code CSS.
+
+`.selector { color: red }`,
+
+
+
+
+Now nest your css inside a css media query.
+
+**`@media screen and (min-width: 480px) {`**
+
+`.selector { color: blue }`
+
+**`}`**
+
+
+
+Now if you put both codes into your stylesheet,
+you should get a _blue-text_ when your viewport has a **minimum width of 480px** and a _red-text_ if it's **smaller than 480px**.
+
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
+[Bootstrap Viewport Sizes](https://v4-alpha.getbootstrap.com/layout/grid/)
 
+[w3schools media queries](https://www.w3schools.com/cssref/css3_pr_mediaquery.asp)
 
