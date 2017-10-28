@@ -5,7 +5,7 @@ title: Scalability Cube
 
 The book, The Art of Scalability<sup>1</sup>, describes a really useful, three dimension scalability model: the scale cube.
 
-![The Scale Cude](https://www.google.co.in/search?q=scale+cube&rlz=1C1GCEA_enIN758IN758&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiyisjUjZPXAhUiTo8KHbtUDDQQ_AUICigB&biw=1242&bih=602#imgrc=hSuDrzU4Ba83EM:)
+![The Scale Cude](http://microservices.io/i/DecomposingApplications.021.jpg)
 
 
 X-axis scaling
@@ -19,5 +19,6 @@ Z-axis scaling is commonly used to scale databases. Data is sharded or partition
 
 ### Sources
 [The Art of Scalability](http://theartofscalability.com/)
+
 [Microservices.io](http://microservices.io/articles/scalecube.html)
 
