@@ -12,6 +12,7 @@ title: JavaScript Tutorials and Other Resources
 *   <a href='https://mbeaudru.github.io/modern-js-cheatsheet/' target='_blank' rel='nofollow'>Modern JS Cheatsheet</a>
 *   <a href='http://www.codeconquest.com/blog/top-50-websites-to-learn-javascript/' target='_blank' rel='nofollow'>The 50 Best Websites to Learn JavaScript</a> 
 *   <a href=' http://youmightnotneedjquery.com/' target='_blank' rel='nofollow'>You Might Not Need jQuery</a>
+*   <a href='https://zellwk.com/learnjs/' target='_blank' rel='nofollow'>Free lessons to learn JavaScript (with Zell Liew)</a>
 
 ## References
 
@@ -45,6 +46,7 @@ Find javascript libraries at <a href='http://jster.net' target='_blank' rel='nof
 *   <a href='https://codility.com/programmers/lessons/' target='_blank' rel='nofollow'>Codility</a>
 *   <a href='http://coderbyte.com' target='_blank' rel='nofollow'>Coderbyte</a>
 *   <a href='http://exercism.io' target='_blank' rel='nofollow'>Exercism</a>
+*   <a href='https://javascript30.com/' target='_blank' rel='nofollow'>Javascript 30 (awesome exercices with Wes Bos)</a>
 
 ## Editors
 
