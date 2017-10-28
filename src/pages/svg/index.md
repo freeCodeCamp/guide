@@ -4,6 +4,7 @@ title: SVG
 ## SVG
 
 SVG or Scalable Vector Graphics is a web standard for defining vector based graphics in web pages. Based on XML the SVG standard provides markup to describe paths, shapes, and text within a viewport. The markup can be embedded directly into HTML for display or saved to a `.svg` file and inserted like any other image. You can write SVG by hand but more complicated graphics can be designed in vector graphics editors such as Illustrator or InkScape and exported to SVG files or code.
+The benefit of using SVG files is that pixelation does not occur no matter how much you zoom into the image.
 
 ## SVG Basics
 Developers start an SVG graphic with the `<svg>` tag and XML namespace like so:
@@ -49,6 +50,48 @@ When you want to apply the same attributes or CSS styles to multiple SVG element
 
 The `<path />` element defines a vector path in the viewport. The path is defined by the `d` attribute. In the first example the definition reads 'move to the absolute coordinate (10, 170) _and_ draw a line to the relative coodrinates 590 in the X direction and 0 in the Y direction.   
 
+## Line drawing animations using SVG
+You can use an online SVG editor to create graphics. After this, you can save the image with a .svg extension and copy paste the code inside the <svg> tag into your html file. Then, look for the id of the svg shape you want to animate. For example: 
+     
+'''
+<svg>
+     <ellipse stroke="#000000" ry="88.000002" rx="95" id="svg_1" cy="228.000002" cx="316" stroke-linecap="null" stroke-              linejoin="null" stroke-dasharray="null" stroke-width="3" fill="none"/> 
+</svg>
+'''
+  
+Add these lines of code inside your <style> tag. Now save the html file and run it in your browser. Alternately, you can also use a Jquery plugin to animate SVG images.
+
+'''
+<defs>
+  <style>
+    #svg_1    
+    {
+      stroke-dasharray:2000;
+      stroke-dashoffset:0;
+      animation: dash 10s linear forwards;
+    }
+'''
+'''
+    @keyframes dash
+    {
+      from
+      {
+        stroke-dashoffset:2000;
+      }
+'''
+'''
+      to
+      {
+        stroke-dashoffset: 0;
+      }
+    }
+  </style>
+ </defs>
+'''
+
+## Conversion of other file types to SVG
+Various image types such as .png or .jpeg can also be converted into a .svg file. This process is called rasterization. 
+
 ## Browser Support
 
 <a href='https://caniuse.com/#feat=svg' target='_blank' rel='nofollow'>Browser support for SVG</a> is available in all modern browsers. There are some issues with scaling in IE 9 through IE 11 however they can be overcome with the use of the `width`, `height`, `viewbox`, and CSS. 
@@ -57,3 +100,7 @@ The `<path />` element defines a vector path in the viewport. The path is define
 
 - <a href='https://www.w3.org/TR/SVG/' target='_blank' rel='nofollow'>W3C, Scalable Vector Graphics (SVG) 1.1 (Second Edition)</a>
 - <a href='https://developer.mozilla.org/en-US/docs/Web/SVG' target='_blank' rel='nofollow'>Mozilla Developer Network, SVG</a>
+- <a href='https://svg-edit.github.io/svgedit/releases/svg-edit-2.8.1/svg-editor.html'>Online SVG Editor</a>
+
+
+
