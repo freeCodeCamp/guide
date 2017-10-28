@@ -3,13 +3,34 @@ title: Image Galleries
 ---
 ## Image Galleries
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/image-galleries/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+CSS can be used to create an image gallery.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+<b> Example </b>
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+<b> CSS </b>
+```
+div.gallery {
+    margin: 5px;
+    float: left;
+    width: 180px;
+    border: 1px solid #ccc;
+}
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+div.gallery img {
+    height: auto;
+    width: 100%;
+}
 
+```
 
+<b> HTML </b>
+```
+<div class="gallery">
+    <img src="image_name.jpg">
+</div>
+
+<div class="gallery">
+    <img src="image_name.jpg">
+</div>
+
+```
