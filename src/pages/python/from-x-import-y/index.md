@@ -27,4 +27,4 @@ Then our code would look like`math.sqrt(x)` instead of `sqrt(x)`. This happens b
 
 For example, in `os` module there's a method `open`. But we even have a built-in function called `open`. So, here we should avoid using `from os import open`.
 
-We can even use `form x import *`, this would import all the methods, classes of that module to the global namespace of the program. This is a bad programming practice. Please avoid it.
+We can even use `from x import *`, this would import all the methods, classes of that module to the global namespace of the program. This is a bad programming practice. Please avoid it.
