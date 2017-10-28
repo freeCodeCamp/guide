@@ -3,7 +3,7 @@ title: Sketch
 ---
 ## Sketch
 
-Sketch is a design toolkit for macOS only. It quickly became very popular as an alternative to Photoshop for user interface design as it's much cheaper and has a low learning curve.
+Sketch is a vector graphics design toolkit for macOS only. Though it can handle raster images too for editing and has pre-built filter and blur effects. It quickly became very popular as an alternative to Photoshop for user interface design as it's much cheaper and has a low learning curve.
 
 ### Why Sketch?
 
@@ -25,4 +25,8 @@ Sketch Documentation - <a href='https://www.sketchapp.com/docs/' target='_blank'
 
 A collection of Sketch tutorials - <a href='http://learnsketch.com/tutorials' target='_blank' rel='nofollow'>Learn Sketch</a>
 
+### Useful Resources:
+* <a href='http://sketch.land/' target='_blank' rel='nofollow'>Sketch Land</a>
+* <a href='https://medium.muz.li/40-powerful-free-plugins-for-sketch-c1af03ea9d7e' target='_blank' rel='nofollow'>Essential Plugins</a>
+* <a href='https://www.sketchappsources.com/' target='_blank' rel='nofollow'>UI Kits</a>
 
