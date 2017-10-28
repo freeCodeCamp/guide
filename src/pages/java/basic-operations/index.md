@@ -17,6 +17,8 @@ While most of the operations are self-explanatory, the Conditional (Ternary) Ope
 
 `expression that results in boolean output ? return this value if true : return this value if false`
 
+Conditional Operator is also a alternative and more elegante use of if statment, for example that you have just one condition to check.
+
 For e.g:
 ```java
     int x = 10;
