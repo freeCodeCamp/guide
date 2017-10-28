@@ -19,7 +19,7 @@ title: Clojure Create Local Variables with Let
 
 `x` in this example never actually gets changed. `x` just refers to something different inside of our `let` binding. This can be a useful way to avoid repetition inside a function.
 
-This is incredibly useful. Having too many global variables can lead to nasty bugs and unintended behaviour.
+This is incredibly useful. Having too many global variables can lead to nasty bugs and unintended behaviour:
 
     (def x 5)
     (defn add-5 [y] (+ x y))
