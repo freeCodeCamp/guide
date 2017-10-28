@@ -1,11 +1,12 @@
 /* globals */
+$colour-green: #006400;
 
 .colourDarkGrey {
   color: #444;
 }
 
 .colourGreen {
-  color: #006400;
+  color: $colour-green;
 }
 
 .pointer {
@@ -48,7 +49,7 @@
   
   > li {
     a {
-      color: #006400;
+      color: $colour-green;
     }
     
     + li:before {
@@ -70,7 +71,7 @@
 }
 
 .navBar {
-  background: #006400;
+  background: $colour-green;
   display: flex;
   align-items: center;
   /* height: 40px; */
@@ -116,13 +117,13 @@
 }
 
 .button {
-  color: #006400;
+  color: $colour-green;
   background: #fff;
-  border-color: #006400;
+  border-color: $colour-green;
   
   &:hover {
     color: #fff;
-    background: #006400;
+    background: $colour-green;
     border-color: #fff;
   }
 }
@@ -220,7 +221,7 @@
 }
 
 .navItemTitle {
-  color: #006400;
+  color: $colour-green;
   cursor: pointer;
 }
 
