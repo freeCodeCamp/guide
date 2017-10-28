@@ -22,3 +22,20 @@ For e.g:
     int x = 10;
     int y = (x == 10) ? 5 : 9; // y will equal 5 since the expression x == 10 evaluates to true
 ```
+The Modulus(%) Operator works as follows:
+
+`The % operator returns the remainder of two numbers`
+
+For e.g:
+```java
+    int x = 10;
+    int y = 5;
+    int z = 3;
+    int result1 = (x % y); // result1 will be equal to 0
+    int result2 = (x % z); // result2 will be equal to 1
+    
+```
+
+
+
+
