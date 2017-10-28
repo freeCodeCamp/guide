@@ -2,7 +2,8 @@ title: Structs
 ---
 # Structs in C
 Structs, or structures, allow you to define your own data types. The idea is similar to classes in Object Oriented Languages like Java.
-###Syntax:
+
+Syntax:
 ```
 struct struct_name {
     type1 field1;
@@ -10,10 +11,11 @@ struct struct_name {
     .
     .
     .
-};```
-###Declaration:
+};
+```
+Declaration:
 `struct struct_name struct_instance;`
-###Accessing data members of a struct: To access the data members of a struct instance we use the member access operator `.`.
+Accessing data members of a struct: To access the data members of a struct instance we use the member access operator `.`.
 ```
     struct_instance.field1 = xyz; 
 ```
