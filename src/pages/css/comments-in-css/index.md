@@ -12,11 +12,12 @@ Comments are used in CSS to explain a block of code or to make temporary changes
         comment
     */
     /* This is a single line comment*/
-    .group:after {
+   
+   /* .group:after {
         content: "";
         display: table;
         clear: both;
-    }
+    }*/
 ```
 
 You can add as many comments to your stylesheet as you like. It’s good practice to use CSS comments to help identify parts of any stylesheet that might be difficult to understand from a cursory glance. By using CSS comments to make your stylesheets more readable, the CSS will be easier to maintain in the future.
