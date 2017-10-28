@@ -23,6 +23,17 @@ Primarily, Java has the following constructs for flow control:
     }
     ```
 
+*   `if...else...if`
+     ```java
+    if( <expression that results in a boolean> ) {
+        //execute this block if the expression is 'true'
+    } else if( <expression that results in a boolean> ) {
+        //execute this block if the expression is 'true'
+    } else {
+        //execute this block if all above expressions are 'false'
+    }
+    ```
+
 *   `switch`
 
 Switch is an alternative for the `if...else` construct when there are multiple values and cases to check against.
