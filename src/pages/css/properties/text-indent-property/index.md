@@ -3,13 +3,30 @@ title: Text Indent Property
 ---
 ## Text Indent Property
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/properties/text-indent-property/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+<p>Text indent property indents the first line in a text block that means it adds some margin to the first line of a text block.</p>
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+####Code Syntax</h4>
+```css
+text-indent: length | intial | inherit;
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+####Code Example</h4>
+```css
+h1{
+    text-indent: 10px;
+}
+```
+indents first line of all h1 elements with 10pixels
+
+####Property values</h4>
+
+|     Value    | Description |
+|-----------|----------------|
+|`length` | Defines a fixed indentation in px, pt, cm, em, etc. Default value is 0 & also defines indentation in percentage         |
+|`intial` | sets its property to its default value               |
+|`inherit` | Inherits this property value from its parent element              |
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+- <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/text-indent' target='_blank' rel='nofollow'>MDN docs</a>
 
 
