@@ -30,12 +30,12 @@ TypeError: must be str, not int
 Simple concatenation example:
 
 ```py
-age = 18
+age = 17
 
 print("Hello, I am " + str(age) + " years old")
 
 # Output
-# Hello, I am 18 years old
+# Hello, I am 17 years old
 ```
 <a href='https://repl.it/Jz8Q/0' target='_blank' rel='nofollow'>Run code on repl.it</a>
 
