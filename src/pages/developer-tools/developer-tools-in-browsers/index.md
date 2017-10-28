@@ -1,9 +1,9 @@
 ---
-title: Chrome Firefox Development Tools
+title: Developer Tools in Browsers
 ---
-## Chrome Firefox Development Tools
+## Developer Tools in Browsers
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/developer-tools/chrome-firefox-development-tools/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/developer-tools/browser-development-tools/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
 <a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
 
