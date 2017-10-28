@@ -3,13 +3,23 @@ title: Image Opacity and Transparency
 ---
 ## Image Opacity and Transparency
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/image-opacity-and-transparency/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The opacity property specifies the opacity/transparency of an html element.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The opacity property can take a value from 0.0 to 1.0. The lower its value, the more the transparent it is. 
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+<b>Example </b>
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+<b> CSS </b>
+```
+img {
+    opacity: 0.5;
+}
 
+```
 
+<b> HTML </b>
+```
+<img src="https://github.com/shirshandu/assets/blob/shirshandu-patch-1/image-shir.jpeg?raw=true">
+```
+
+here, the style img is applied to all <img> html tags
