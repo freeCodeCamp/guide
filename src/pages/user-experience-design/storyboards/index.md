@@ -1,15 +1,11 @@
----
-title: Storyboards
----
 ## Storyboards
+Storyboards are essentially a series of illustrations that visually map out a user's experience with a product. 
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/user-experience-design/storyboards/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+They help to present products in a similar fashion to how movies get visualized out before filming.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+In HCI, storyboarding is the key essential step before prototyping, as it sets the tone of the design and development of one's products.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+Smashing Magazine's guide to storyboarding <a href="https://www.smashingmagazine.com/2017/10/storyboarding-ux-design/">here</a>.
 
 
