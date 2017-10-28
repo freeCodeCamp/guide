@@ -1,5 +1,5 @@
 ![](https://s3.amazonaws.com/freecodecamp/wide-social-banner.png)
-
+Thanks for the PR RageUnleashed69 <3
 # freeCodeCamp Guide
 The freeCodeCamp community is building a massive, searchable "Guide." This reference tool will eventually include thousands of articles that cover all areas of development, design, and data science - all written to be easily understood by people new to coding.
 
