@@ -3,13 +3,7 @@ title: Threads
 ---
 ## Threads
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/computer-science/threads/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+A thread is a sequence of instructions within a process that allows the process to execute different tasks simultaneously. Threads are contained within the process and all threads inside of the process share the same resources. They use a lot less resources than processes do, therefore they are very useful and economical.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+<a href='https://simple.wikipedia.org/wiki/Thread_(computer_science)' target='_blank' rel='nofollow'>Wikipedia: Thread</a>
