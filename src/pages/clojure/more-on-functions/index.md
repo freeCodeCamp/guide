@@ -5,7 +5,7 @@ Functions! They're pretty important. It's very difficult to do anything without 
 
 ## Arity
 
-**Arity** refers to the number of arguments that your function expects.
+**Arity** refers to the number of arguments that your function expects:
 
     ;; add expects 2 arguments. Its arity is 2.
     (defn add [x y] (+ x y))
