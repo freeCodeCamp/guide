@@ -4,9 +4,9 @@ title: Classes
 ## Classes
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-JavaScript does not have the concept of classes inherently. 
+JavaScript does not have the concept of classes inherently, 
 
-But we could simulate the functionalities of a class by taking advantage of the prototypal nature of JavaScript.
+however we could simulate the functionalities of a class by taking advantage of the prototypal nature of JavaScript.
 
 This article assumes that you have a basic understanding of <a href="/javascript/prototypes/">prototypes</a>.
 
@@ -129,7 +129,7 @@ function Person(firstName, lastName) {
 
 ### Hidding dettails in classes with symbols
 
-Most often some properties and methods  have to be hidden to prevent access outside the function. With classes, to obtain this functionality, one way to do this is by using symbols. Symbol is a new built-in-type of JavaScript, which can be invoke to give a new symbol value. Every Symbol is Unique and can be used as a key on object. So one use case of symbols is that you can add something to an object you might not own, and you might not want to collide with any other keys of object so creating a new one and adding as property to that object using symbol is the safest.Also when symbol value is added to an object; no one else will know how to get it.
+Most often some properties and methods have to be hidden to prevent access outside the function. With classes, to obtain this functionality, one way to do this is by using symbols. Symbol is a new built-in-type of JavaScript, which can be invoke to give a new symbol value. Every Symbol is Unique and can be used as a key on object. So one use case of symbols is that you can add something to an object you might not own, and you might not want to collide with any other keys of object so creating a new one and adding as property to that object using symbol is the safest.Also when symbol value is added to an object; no one else will know how to get it.
 
 ```js
 class Person {
