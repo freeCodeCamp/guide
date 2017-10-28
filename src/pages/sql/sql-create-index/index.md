@@ -1,5 +1,5 @@
 ---
-Title: SQL CREATE INDEX Statement
+title: SQL CREATE INDEX Statement
 ---
 
 The CREATE INDEX statement is used to create indexes in tables.
