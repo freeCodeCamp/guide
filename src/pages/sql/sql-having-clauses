@@ -1,5 +1,5 @@
 ---
-title: The SQL HAVING Clause
+title: SQL HAVING Clause
 ---
 
 The HAVING clause was added to SQL because the WHERE keyword could not be used with aggregate functions.
