@@ -13,4 +13,7 @@ Vim is rock stable and boasts many features including:
 - integrates with many tools
 - built-in macro support for automation text manipulation
 
+
+Vim has been the mainstay editor for the developer community for many years, but lately there has been a drastic shift to visual editor with more functionalities like Atom and Sublime Text. But once you get used to it, it can be one of the most flexible editors you've used. Its supporters swear by it.
+
 For more information head to <a href='https://vim.sourceforge.io' target='_blank' rel='nofollow'>Vim's homepage</a>
