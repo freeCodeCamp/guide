@@ -3,7 +3,15 @@ title: Logical Operators and If Statements
 ---
 # If Statements in C
 Sometimes you only want code to run in a certain situation. That's where If statements come in- if something is true, the code will be executed; if it isn't true, the code will not be executed.
-
+## Syntax
+```
+if(boolean_expression) {
+   /* statement(s) will execute if the boolean expression is true */
+}
+else {
+   /* statement(s) will execute if the boolean expression is false */
+}
+```
 ## A Simple Example
 Let's look at an example of this in action:
 
