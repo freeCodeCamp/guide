@@ -4,10 +4,10 @@ Form validation is usually checking user input to ensure that it can be accepted
 This helps helps reduce the amount of <a href='https://en.wikipedia.org/wiki/Principle_of_least_astonishment' target='_blank' rel='nofollow'>surprise</a> a user experience when their data is not accepted by the server as well as reducing network traffic and server load with requests that will be rejected.
 
 Some common types of form validation are:
--Required field empty ( username cannot be blank )
--Number field had letters ( phone number )
--Minimum length not met ( password )
--Dependant field is in inconsistent ( postal code doesn't match city/state)
+- Required field empty ( username cannot be blank )
+- Number field had letters ( phone number )
+- Minimum length not met ( password )
+- Dependant field is in inconsistent ( postal code doesn't match city/state)
 
 Javascript is used on the client side to handle most validation tasks.  The html form element's "onsubmit" attribute used to call validation scripts before data is sent to the server and stop the submission (by returning false) if the form data does not pass the validation tests.
 But form validation need not wait until just before the form is submitted.  Form validation can happen with every mouse click on press of a key.  This often yeilds better user experience as it can be used to make it more obvious where the validation error is.
