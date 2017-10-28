@@ -17,14 +17,11 @@
   font-size: 16px;
 }
 
-:global h1,
-:global h2,
-:global h3,
-:global h4,
-:global h5,
-:global h6 {
+@each $heading in h1,h2,h3,h4,h5,h6 {
   /* Bootstrap sets weight to 500, we don't have that */
-  font-weight: 700;
+  :global #{$heading} {
+    font-weight: 700;
+  }
 }
 
 :global h2:first-child {
@@ -44,23 +41,25 @@
   margin-bottom: 5px;
   opacity: 0.8;
   transition: opacity 0.1s ease-out;
-}
-
-.breadcrumb:hover {
-  opacity: 1;
-}
-
-.breadcrumb > li a {
-  color: #006400;
-}
-
-.breadcrumb > li + li:before {
-  content: '\f105';
-  color: #555;
-}
-
-.breadcrumb > .active {
-  color: #555
+  
+  &:hover {
+    opacity: 1;
+  }
+  
+  > li {
+    a {
+      color: #006400;
+    }
+    
+    + li:before {
+      content: '\f105';
+      color: #555;
+    }
+  }
+  
+  > .active {
+    color: #555
+  }
 }
 
 /* Layout */
@@ -89,12 +88,12 @@
   img {
     max-width: 100%;
     display: block;
-  }
-
-  img.forum-image {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
+    
+    &.forum-image {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+    }
   }
 }
 
@@ -120,12 +119,12 @@
   color: #006400;
   background: #fff;
   border-color: #006400;
-}
-
-.button:hover {
-  color: #fff;
-  background: #006400;
-  border-color: #fff;
+  
+  &:hover {
+    color: #fff;
+    background: #006400;
+    border-color: #fff;
+  }
 }
 
 /* NoSupport */
@@ -214,10 +213,10 @@
   margin-right: 5px;
   transform: rotate(-90deg);
   transition: transform 150ms ease;
-}
-
-.caretStyle.expanded {
-  transform: rotate(0deg);
+  
+  &.expanded {
+    transform: rotate(0deg);
+  }
 }
 
 .navItemTitle {
@@ -265,13 +264,13 @@
 }
 
 .skip-link {
-    background-color: white;
-    left: 0;
-    padding: 5px 10px;
-    top: 0;
-    z-index: 9;
-}
-
-.skip-link:focus {
+  background-color: white;
+  left: 0;
+  padding: 5px 10px;
+  top: 0;
+  z-index: 9;
+  
+  &:focus {
     position: absolute;
+  }
 }
