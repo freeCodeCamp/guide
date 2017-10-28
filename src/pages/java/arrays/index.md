@@ -5,6 +5,12 @@ title: Arrays
 
 An Array is used to store a collection of data of similar datatype. Arrays always start with the index of 0.
 
+An array is a one of the data structure in Java, that can store a fixed size sequential collection of elements of same data type.
+ 
+For many large applications there may arise some situations that needs a single name to store multiple values. To process such large amount of data, programmers need powerful data types that would facilitate efficient contiguous bulk amount of storage facility, accessing and dealing with such data items. So, arrays are used in Java. In this tutorial you will learn about what arrays are and what the types are and how they are used within a Java program.
+
+
+
 **Syntax:**
 
 ```java
