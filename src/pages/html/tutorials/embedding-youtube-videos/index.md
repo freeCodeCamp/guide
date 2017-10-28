@@ -3,13 +3,22 @@ title: Embedding Youtube Videos
 ---
 ## Embedding Youtube Videos
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/tutorials/embedding-youtube-videos/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Embedding Youtube Videos in your html is done three ways. With an <iframe> , <object> , or <embed>. It is recommended to use only <iframe> to embed youtube videos, because the tags <object> and <embed> are considered (Deprecated) tags.
+  
+A deprecated tag that is one that can still be used technically, however it is most likely going to be obselete. When html6 or newer language takes html5 place. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+An Example of an embedded Youtube video is below.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/XGSy3_Czz8k">
+</iframe>
+
+There are differ properties you can use to embed a youtube video with <iframe>. A <iframe> embedded video can autoplay or it can have controls, an embedded youtube video using <iframe> can even loop infinitely.
+  
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
+A more in-depth guide on how you can embed youtube videos can be found at the w3schools.
 
+<a href="https://www.w3schools.com/html/html_youtube.asp"</a>
