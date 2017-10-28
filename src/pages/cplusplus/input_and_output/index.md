@@ -22,6 +22,9 @@ cout << "The output value of int x" << x << endl;
 * The header file <iostream> is required for stream objects.
 * After declaring a variable, using the 'cin' object, input data can be saved into the variable.
 * The 'cout' object prints the data saved into the variable to the console.
+* `using namespace std;` is optional. All it does is save you a `std::` before every `cin` or `cout`.  
+  Otherwise you'd have to write `std::cin >> x;`  
+* `endl` is the default endline character. It basically adds `\n` to the end of your data you're outputting, letting the compiler know that there is a linebreak.
 
 The operators '<<' and '>>' are used to point in the direction of the data.
 For 'cin', the '>>' operator is used.
