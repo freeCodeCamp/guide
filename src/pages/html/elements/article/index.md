@@ -3,13 +3,18 @@ title: Article
 ---
 ## Article
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/article/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The Article tag is a semantic element of HTML5. The article element represents a section of content that forms an independent part of a document or site; for example, a magazine or newspaper article, or a blog entry.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The functionality of an article tag is similar to a div element, and its display and styling work the same. However, using the article element instead of div provides more semantic information to screen readers, search engines, and third-party applications.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
+```html
+<article>
+    <h1>lorem Ipsum</h1>
+    <p>The quick brown fox jumps over the lazy dog ...</p>
+    ...
+</article>
+```
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article">MDN Web Docs</a>
 
 
