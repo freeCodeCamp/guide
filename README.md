@@ -12,7 +12,6 @@ This repo is where we plan and maintain these Guide articles, which we then host
 - [How to contribute](#how-to-contribute)
 - [Running the Guide locally on your own computer](#running-the-guide-locally-on-your-own-computer)
 - [Article style guide](#article-style-guide)
-- [How we review pull requests](#how-we-review-pull-requests)
 - [License](#license)
 
 
@@ -209,78 +208,6 @@ The Hemingway App will assign a “grade level” for your writing. You should a
 Also, there's a community of support from a whole team of contributors, whom you can bounce ideas off of and ask for input on your writing. Stay active in the [contributor's chat room](https://gitter.im/freecodecamp/contributors) and ask lots of questions.
 
 With your help, we can create a comprehensive reference tool that will help millions of people who are learning to code for years to come.
-
-## How we review pull requests
-
-### General guidelines
-- we check that a pull request respects the [Article style guide](#article-style-guide)
-- we follow general QA tips found in [Moderator guidelines](https://forum.freecodecamp.org/t/freecodecamp-moderator-guidelines/18295)
-- as long as a pull request improves or expands the guide, we accept it even
-if it contains imperfect English or partial content
-
-
-### PR Review Ordering
-Older pull requests are reviewed first.  
-You can use this filter to list relevant pull requests: [is:pr is:open sort:updated-asc -label:platform -label:enhancement -label:invalid -label:"changes requested"](https://github.com/freeCodeCamp/guides/pulls?utf8=%E2%9C%93&q=is%3Apr%20is%3Aopen%20sort%3Aupdated-asc%20-label%3Aplatform%20-label%3Aenhancement%20-label%3Ainvalid%20-label%3A%22changes%20requested%22)
-
-### Accepting a PR
-
-#### Squash commits
-We use the __Squash and Merge__ option when merging the PR.
-This will keep the commit history clean.
-
-![GIF showing Squash functionality](https://files.gitter.im/FreeCodeCamp/Contributors/56MQ/9cb8db153d7bb1b3576cd1ffc207e39d.gif)
-
-#### PR title
-Currently under discussion, see [here](https://github.com/freeCodeCamp/guides/issues/1853).
-
-- use meaningful titles
-- avoid `Updating index.md`
-
-In example: if you create a _Variables_ article inside the _Python_ directory,  
-the pull request title should be `Python: added "Variables" article`.  
-
-**Format**: `{Parent category}: add "{Article's title}" article`
-
-
-### Closing a PR
-
-We close a pull request:
-- if there is zero/little effort in it (e.g: copy pasting from another source like Wikipedia)
-- if there is copied text from a copyrighted source (see also https://github.com/freeCodeCamp/guides/issues/2503)
-- if it does not respect the [Article style guide](https://github.com/freeCodeCamp/guides#article-style-guide)
-- if it does not respect the [Academic Honesty policy](https://www.freecodecamp.org/academic-honesty)
-- if it is stale (if a change is requested and there wasn't any activity for about 2 weeks)
-
-#### Template text for closing PR
-> Thank you for your pull request. Please read this style guide: https://github.com/freeCodeCamp/guides#article-style-guide
-I am closing this pull request for now. Please let me know if you have any questions.
-
-
-### Conflicting and duplicate PRs
-To find duplicates PRs: 
-
-1. Sort PR from the oldest
-1. Search for PRs with similar content
-1. Merge from the oldest to the newest
-
-There will probably be merge conflicts; if it is the case, notify the contributor with this template text:
-  
-#### Template text
-> We apologize for the inconvenience; however, while your PR was in the review queue someone else proposed the same file and their contribution was merged. As a result we need to resolve merge conflicts in order to merge your changes. If you're unsure about this process feel free to reach out in the [Contributor Gitter channel](https://gitter.im/FreeCodeCamp/Contributors) or comment below. We recommend you review the existing file and propose how you could incorporate your own ideas while maintaining the other contributor's work. We will be closing this PR for now, but if you still want to see your changes added let us know and we can open it for additional commits.
-Thank you for contributing! Keep up the awesome work 
-
-### Requesting changes
-
-If a pull request is not perfect we can:
-- request changes to the contributor and add the *changes requested* label (see below)
-- fix minor issues by ourselves
-
-#### Adding Labels
-- **content** is for pull requests that modify the content of articles on the guide (e.g.: new articles or updating articles)
-- **duplicate** is for pull requests that have the same content as another open PR
-- **changes requested** is for pull requests that need a change before getting merged.
-- **stale**: is for pull requests with _"change requested"_ label that doesn't get activity after about 2 weeks.  A _stale_ pull request should be closed (example: https://github.com/freeCodeCamp/guides/pull/235)
 
 ## License
 
