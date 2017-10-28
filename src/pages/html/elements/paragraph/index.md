@@ -9,6 +9,14 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
+HTML paragraph tag defines paragraph element. The paragraph elements begin with <p> tag and end with </p> tag. Below is example of use of paragraph element.
+
+<p>
+  This is sample text. Any text goes here.
+ </p>
+ 
+
+
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
