@@ -35,3 +35,7 @@ printf("%d", c);
 ```
 
 This looks pretty simple, right?
+
+In case of Ternary Operator the conditional statement before the question mark in the syntax gets evaluated first and based on this 
+outcome, the operation is carried out. For example if the condition given before the question mark in the syntax is true, then the 
+value right after the question mark is taken into consideraton. If not the value after the colon in the syntax is used.
