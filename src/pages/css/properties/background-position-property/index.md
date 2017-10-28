@@ -20,7 +20,7 @@ div {
 
 ```css
 div {
-      background-position: 20% 40%; /* 20% to the left, 40% down */
+      background-position: 20% 40%; /* 20% to the right, 40% down */
 }
 ```
 
