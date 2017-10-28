@@ -117,3 +117,13 @@ _Note that the first letter is only capitalized if it is at the beginning of the
     ```ruby
     "15".to_i #=> 15 # integer
     ```
+### To Ordinal:
+
+*   The `.ord` method converts the first character of a string to its ordinal value, returning an integer.
+*   Ordinal values can be matched-up with human-readable characters using the <a href="http://www.asciitable.com/" target="_blank">ASCII chart</a>.
+    ```ruby
+    "H".ord #=> 72 # integer
+    "Hi".ord #=> 72 # integer
+    "L".ord #=> 76 # integer
+    "LOL".ord #=> 76 # integer
+    ```
