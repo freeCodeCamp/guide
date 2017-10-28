@@ -3,17 +3,18 @@ title: Infinite Loops
 ---
 # Infinite Loops
 
-If you want your loop to go on infinitely, you can use the `while`, `do while` and `for` statement.
+If you want your loop to go on for ever, you can use the `while`, `do while` and `for` statement.  
+The best loop is to use `while (true) {}` for readability reasons.
 
 ```java
-// Infinite For Loop
-for ( ; ; )
+// Infinite While Loop
+while (true)
 {
     // your code here
 }
 
-// Infinite While Loop
-while (true)
+// Infinite For Loop
+for ( ; ; )
 {
     // your code here
 }
@@ -24,3 +25,5 @@ do
     // your code here
 } while (true);
 ```
+
+Be aware these loops are a bit dangerous and often unnecessary. Your program could hang infinitely. You should not e.g. combine them with break to loop over collections or arrays. A valid use would be a service program you want to run for ever.
