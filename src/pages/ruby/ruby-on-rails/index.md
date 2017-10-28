@@ -43,4 +43,4 @@ $ rails s
 So not only is it free to use, you can also help make it better. More than 3,000 people already have contributed code to <a href='https://github.com/rails/rails' target='_blank' rel='nofollow'>Rails</a>. It’s easier than you think to become one of them.
 
 ## Rails Guides
-Full documentation and tutorials can be found on <a href='http://guides.rubyonrails.org/' target='_blank' rel='nofollow'>http://http://guides.rubyonrails.org/</a>. Check out their <a href='http://guides.rubyonrails.org/getting_started.html' target='_blank' rel='nofollow'>Getting Started with Rails</a> guide for step-by-step instructions to build a blog using Ruby on Rails.
+Full documentation and tutorials can be found on <a href='http://guides.rubyonrails.org/' target='_blank' rel='nofollow'http://guides.rubyonrails.org/</a>. Check out their <a href='http://guides.rubyonrails.org/getting_started.html' target='_blank' rel='nofollow'>Getting Started with Rails</a> guide for step-by-step instructions to build a blog using Ruby on Rails.
