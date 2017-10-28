@@ -3,13 +3,26 @@ title: Button Tag
 ---
 ## Button Tag
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/button-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Programmers use the `<button>` tag to create clickable buttons inside a `<form>` tag or wherever wanted in your html document.
+The `<button>`tag isn't self closing, so you need to be sure to write `</button>` when finishing your button declaration.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Example
+Here is a quick usage example of buttons.
+```html
+<!-- This is a Enabled Button -->
+<button name="btn-send">Send</button>
+
+<!-- This is a Disabled Button -->
+<button disabled="True "name="btn-send">Send</button>
+
+```
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
+### Button Attributes
+TODO: Add Attributes from Buttons 
 #### More Information:
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button"> Button - MDN </a>
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
 
