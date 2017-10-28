@@ -33,11 +33,11 @@ A more complex HTML table may also include `<caption>`, `<col>`, `<colgroup>`, `
 	<body>
     <table>
       <thead>
-        <th>
-          <td>
+        <tr>
+          <th>
             Table Header
-          </td>
-        </th>
+          </th>
+        </tr>
       </thead>
       <tbody>
         <tr>
