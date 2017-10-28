@@ -1,0 +1,11 @@
+The id selector can be used to override the class selector which is more general. id has a higher priority than class, therefore its rules apply if a conflict occurs.
+If for example you want to attribute the color "red" to a paragraph, you can use the following code to do so:
+
+<p id="name"> Paragraph </p> 
+and in the style section it the following code can be used:
+#name
+{
+ color:red;
+}
+
+Using the "id" selector is very simple and useful, therefore it is highly encouraged to use it.
