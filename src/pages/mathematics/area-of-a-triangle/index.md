@@ -3,13 +3,23 @@ title: Area of a Triangle
 ---
 ## Area of a Triangle
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/area-of-a-triangle/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+A triangle is half as big as the rectangle that surrounds it, which is why the area of a triangle is one-half base times height.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+therefore the area of triangle is defined by 1/2(base * height)
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+if the sides of the triangle is known:
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+consider the sides are a,b,c
+
+then to find the area of triangle there are 2 steps to be followed:
+
+step1:
+ find the half the perimeter of triangle ie. s = (a+b+c)/2
+ 
+ step2:
+ apply the heron's formula = sqrt(s((s-a) * (s-b) * (s-c))
+ 
+ note:
+ the sqrt() function is a function in mathematics for finding the squareroot of a number
 
 
