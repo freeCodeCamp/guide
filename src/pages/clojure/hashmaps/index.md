@@ -10,7 +10,7 @@ A hashmap can, like many collections, be constructed in two ways. There is the c
     a-hashmap
     ; => {:c 3, :b 2, :a 1}
 
-You can also define them using a hashmap literal. This is often more concise and clear. Using commas to separate key/value pairs in hashmaps is recommended, as it can make the boundaries more clear.
+You can also define them using a hashmap literal. This is often more concise and clear. Using commas to separate key/value pairs in hashmaps is recommended, as it can make the boundaries more clear:
 
     ;; This hashmap is actually in the right order, unlike the one above.
     (def another-hashmap {:a 1, :b 2, :c 3})
