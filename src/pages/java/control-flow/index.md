@@ -60,6 +60,7 @@ switch(person){
 *   `nested statements`
 
 Any of the previous control flows can be nested. Which means you can have nested `if`,`if..else`and`switch..case`statements. i.e., you can have any combination of these statements within the other and there is no limitation to the depth of`nesting`.
+if there are many cases to a single problem then it is advisable to use switch case typeof control statement
 
 For example, let's consider the following scenario:
 
