@@ -48,4 +48,45 @@ The HTML <form> tag is used to create an HTML form and it has following syntax â
          form elements like input, textarea etc.
     </form>
 
+#The Action Attribute
 
+The action attribute defines the action to be performed when the form is submitted.
+
+Normally, the form data is sent to a web page on the server when the user clicks on the submit button.
+
+In the example above, the form data is sent to a page on the server called "/action_page.php". This page contains a server-side script that handles the form data:
+
+    <form action="/action_page.php">
+    
+If the action attribute is omitted, the action is set to the current page.
+
+#The Target Attribute
+ The target attribute specifies if the submitted result will open in a new browser tab, a frame, or in the current window.
+
+The default value is "_self" which means the form will be submitted in the current window.
+
+To make the form result open in a new browser tab, use the value "_blank":
+
+    <form action="/action_page.php" target="_blank">    
+ 
+The method attribute specifies the HTTP method (GET or POST) to be used when submitting the form data.
+
+The default method when submitting form data is GET.
+However, when GET is used, the submitted form data will be visible in the page address field.
+Always use POST if the form data contains sensitive or personal information. The POST method does not display the submitted form data in the page address field.
+
+Notes on GET:
+
+Appends form-data into the URL in name/value pairs
+The length of a URL is limited (about 3000 characters)
+Never use GET to send sensitive data! (will be visible in the URL)
+Useful for form submissions where a user want to bookmark the result
+GET is better for non-secure data, like query strings in Google
+
+Notes on POST:
+
+POST has no size limitations, and can be used to send large amounts of data.
+Form submissions with POST cannot be bookmarked
+
+
+ 
