@@ -26,12 +26,29 @@ The overall experience a person has when viewing your page is also determined by
 
 Individuals who are affected by color-blindness might not be able to differentiate between similar colors as easily as you either. What you perceive as a wonderful palette of greens and blues might appear gray, beige, and dull to someone else. Importantly, if you choose a text color that views well for you, it might have much lower contrast than you realize to someone else, making it harder to understand the content you are trying to display. 
 
+### Colour Schemes
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Colour schemes are colour combinations. Some of the more common colour schemes are:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+**1. Monochromatic** 
+  Monochrome is a single hue with a variety of similar tints and shades. For example: red, pink, peach, and white.
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+**2. Analogous** 
+  Analogous colours are three hues that are next to each on the color wheel. For example: red, red-orange, and orange. 
 
+**3. Complementary** 
+  Complementary colours are two hues that are opposite each other on the color wheel. For example: red and green.
 
+**4. Triadic** 
+  Triadic colorurs are three colors that are equidistant from each other on the color wheel. For example: red, blue, and yellow.
+
+### Hue, Value & Saturation
+
+The [Munsell colour](https://en.wikipedia.org/wiki/Munsell_color_system#/media/File:Munsell-system.svg) system defines colours in three dimentions: hue, value and saturation. Hue is the colour (eg. red, blue, yellow), Value refers to the relative lightness of a colour and Saturation, also known as Chroma, refers to the intensity of the colour.
+
+#### Online Colour Resources
+
+1. [Adobe Color](https://color.adobe.com/create/color-wheel) 
+2. [Coolors](https://coolors.co/) 
+3. [0 to 255](http://www.0to255.com/) 
+4. [Color Lisa](http://colorlisa.com/)
