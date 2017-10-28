@@ -3,13 +3,12 @@ title: Scrummasters
 ---
 ## Scrummasters
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/scrummasters/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The scrum master role was created as part of the Scrum framework and spans from product discovery to product delivery in a hands-on practical manner. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+On one end of the spectrum, they address typical scrum functions such as sprint planning, sprint review, and retrospective. On the other end, the scrum master also takes into account the relationship with the product owner, handling agile metrics, as well as kicking-off agile transitioning.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+It is important to note that the role of a scrum master is <i>not</i> a management role, but that of leadership and coaching. While the role doesn't generally have any actual authority, a scrum master should recognize which approach would best fit the scrum team's development (coaching, teaching, and / or mentoring)
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+<a href='http://www.scrumguides.org/scrum-guide.html#team-sm' target='_blank' rel='nofollow'>Scrum Masters</a>
