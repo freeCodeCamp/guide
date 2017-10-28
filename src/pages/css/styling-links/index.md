@@ -3,13 +3,50 @@ title: Styling Links
 ---
 ## Styling Links
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/styling-links/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Links can be styled with any CSS property (e.g. color, font-family, font-size, background, etc.).
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Example:
+```css
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+```
+In addition, links can be styled differently depending on what state they are in.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+The **four** links **states** are:
+1. a:link - a normal, unvisited link;
+2. a:visited - a link the user has visited;
+3. a:hover - a link when the user mouses over it;
+4. a:active - a link the moment it is clicked.
+
+### Example:
+```css
+/* unvisited link */
+a:link {
+  color: orange;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
+}
+
+/* selected link */
+a:active {
+  color: black;
+}
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+- <a href='https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_links' target='_blank' rel='nofollow'>MDN</a>
+
+
 
 
