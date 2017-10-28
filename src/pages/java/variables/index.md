@@ -28,3 +28,32 @@ String greeting = "Hello World";
 // variable myFloat now points to the object
 Float myFloat = new Float(1.0);
 ```
+
+Rules of Declaring variables in Java
+----
+*   Variable name can consist of Capital letters A-Z, lowercase letters a-z, digits 0-9, and two special characters such as underscore and dollar Sign.
+*   The first character must be a letter.
+*   Blank spaces cannot be used in variable names.
+*   Java keywords can not be used as variable names.
+*   Variable names are case-sensitive.
+
+
+Types of Variables in Java
+----
+*   There are three types of variables in Java:
+*   Local variables
+*   Instance variables
+*   Class/Static variables
+
+
+Local variables
+----
+*   A variable that is declared within the method that is called local variables.
+
+Instance variables
+---
+*   A non static variable that is declared within the class but not in the method is called instance variable.
+
+Class/Static variables
+----
+*   A variable that is declared with static keyword in a class but not in the method is called static or class variable.
