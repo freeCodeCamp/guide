@@ -2,14 +2,17 @@
 title: Ajacent Sibling
 ---
 ## Ajacent Sibling
+Using the adjacent sibling selector (`+`) allows you to select an element only if it comes directly after the other (no other elements in between).
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/selectors/general/ajacent-sibling/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+For example, if you wanted to select a paragraph that comes directly after an `<h1>` and change it's font color to red:
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```css
+h1 + p {
+      color: red;
+}
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+[Adjacent sibling combinator](https://developer.mozilla.org/en-US/docs/Web/CSS/Adjacent_sibling_selectors) on MDN
 
 
