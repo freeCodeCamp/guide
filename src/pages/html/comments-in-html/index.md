@@ -21,6 +21,7 @@ Read more: https://html.com/tags/comment-tag/#ixzz4vtZHu5uR
 	<body>
 		<h1>FreeCodeCamp web</h1>
 		<!-- Leave some space between the h1 and the p in order to understand what are we talking about-->
+	        <!-- we can use <br> to insert a single line break-->
 		<p>FreeCodeCamp is an open-source project that needs your help</p>
 	</body>
 </html>
