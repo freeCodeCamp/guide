@@ -2,12 +2,12 @@
 title: Brute Force Algorithms
 ---
 ## Brute Force Algorithms
+Brute force algorithms are much like a trial and error process where you keep trying various possible figures till you find a solution.But unlike trial and error process, selection of figure happens in a specific order.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/algorithms/brute-force-algorithms/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+A very simple example of brute force algorithm is linear search, In which you sequentially checks each element for the given value till a match is found or till there is no elements left to be searched.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Brute force algorithm is very simple to implement and always works.
+Brute force algorithms are slow and can only be used for limited problem size.
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
