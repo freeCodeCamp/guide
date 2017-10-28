@@ -1,7 +1,8 @@
----
-title: Backdoors
----
+
 ## Backdoors
+
+![](https://regmedia.co.uk/2017/07/07/shutterstock_backdoor.jpg)
+
 A backdoor in software or a computer system is generally an undocumented portal that allows an administrator to enter the system to troubleshoot or do upkeep. But it also refers to a secret portal that hackers and intelligence agencies use to gain illicit access.
 
 A backdoor has multiple meanings. It can refer to a legitimate point of access embedded in a system or software program for remote administration.
