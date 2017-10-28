@@ -10,6 +10,22 @@ The training works by minimizing an error term. This error can be the squared di
 
 The most basic element of a neural network is a neuron. It's input is a vector, say `x`, and its output is a real valued variable, say `y`. Thus, we can conclude that the neuron acts as a mapping between the vector `x` and a real number `y`.
 
+
+
+There are several activation functions you may encounter in practice:
+
+###Sigmoid 
+Sigmoid takes a real-valued input and squashes it to range between 0 and 1
+σ(x) = 1 / (1 + exp(−x))
+
+###tanh 
+tanh takes a real-valued input and squashes it to the range [-1, 1]
+tanh(x) = 2σ(2x) − 1
+
+###ReLU 
+ReLU stands for Rectified Linear Unit. It takes a real-valued input and thresholds it at zero (replaces negative values with zero)
+f(x) = max(0, x)
+
 Neural networks are used on a variety of tasks. These include computer vision, speech recognition, translation, social network filtering, playing video games, and medical diagnosis among other things.
 
 ### Problems solved using Neural Networks
