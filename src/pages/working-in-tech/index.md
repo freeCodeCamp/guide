@@ -24,3 +24,10 @@ Thinking, Fast and Slow: amzn.to/2tnnlTN
 Learn You a Haskell for Great Good!: amzn.to/2veOjdv
 
 To see the full list, visit: https://talkpython.fm/episodes/show/130/10-books-python-developers-should-be-reading
+
+## Creative Coding
+
+Creative coding is a different discipline than programming systems in which the goal is to create something expressive instead of something functional. Interaction design, information visualization and generative art are all different types of creative coding – which has become a household term describing artworks articulated as code.
+
+## Resources
+- <a href='https://github.com/terkelg/awesome-creative-coding#courses' target='_blank' rel='nofollow'>Awesome Creative Coding</a>
