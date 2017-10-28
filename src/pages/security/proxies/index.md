@@ -9,4 +9,8 @@ There are some proxy servers that block some Web-services. For example, they blo
 
 They can also be used for caching web pages, making a temporary copy of the most accessed websites, storing it locally better network performance. 
 
-If you want to get your hands on a Proxy server, a very simple way to get started is by using the Linux's Squid Proxy Server. 
+If you want to get your hands on a Proxy server, a very simple way to get started is by using the Linux's Squid Proxy Server.
+
+
+#More
+https://en.wikipedia.org/wiki/Proxy_server
