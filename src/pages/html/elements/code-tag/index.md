@@ -3,13 +3,21 @@ title: Code Tag
 ---
 ## Code Tag
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/code-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+The `<code>` tag is used to define a piece of computer code. This is a phrase tag.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+- <a href='https://developer.mozilla.org/ru/docs/web/html/element/code' target='_blank' rel='nofollow'>MDN</a>
 
+### Example:
+Here is an example on how to use this tag.
 
+```html
+<code>var color_orange = orange;</code>
+```
+### Default CSS Settings:
+
+```css
+code {
+  font-family: monospace;
+}
+```
