@@ -3,13 +3,14 @@ title: CSS3 Media Queries
 ---
 ## CSS3 Media Queries
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/css3-media-queries/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Media Queries help you target specific sizes for devices. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+You can target a minimum or maximum size of a screen for the user and elements could be styled differently at these sizes. 
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+By using the following code all elements in this media query will be styled if they are 960px and below:
+```
+@media (max-width: 960px) { ... }
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+- [Using media queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
