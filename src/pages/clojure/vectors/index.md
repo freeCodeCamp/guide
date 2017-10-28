@@ -15,7 +15,7 @@ You'll see that it uses square brackets, just like an array in JS. Since Clojure
 
 ## Adding items to a vector
 
-You can append items to a vector using `conj`. You can also prepend to a list using `into`, but note that `into` is intended for merging two vectors, so both its arguments must be vectors, and using `into` is slower than using `conj`.
+You can append items to a vector using `conj`. You can also prepend to a list using `into`, but note that `into` is intended for merging two vectors, so both its arguments must be vectors, and using `into` is slower than using `conj`:
 
     (time (conj [1 2] 3))
     ; => "Elapsed time: 0.032206 msecs"
@@ -28,7 +28,7 @@ You can append items to a vector using `conj`. You can also prepend to a list us
 
 ## Retrieving items from a vector
 
-You can retrieve items from a vector using `get`. This is equivalent to using bracket notation to access items in an array in many imperative languages. Items in a vector are 0-indexed, counting from the left.
+You can retrieve items from a vector using `get`. This is equivalent to using bracket notation to access items in an array in many imperative languages. Items in a vector are 0-indexed, counting from the left:
 
     var arr = [1, 2, 3, 4, 5];
     arr[0];
@@ -48,7 +48,7 @@ You can also give `get` a default value, if you give it an index that isn't in t
 
 ## Converting other collections into vectors
 
-Non-vector data structures can be converted into vectors using the `vec` function. With hashmaps, this produces a 2D vector containing pairs of keys and values.
+Non-vector data structures can be converted into vectors using the `vec` function. With hashmaps, this produces a 2D vector containing pairs of keys and values:
 
     (vec '(1 2 3 4 5))
     ; => [1 2 3 4 5]
@@ -57,7 +57,7 @@ Non-vector data structures can be converted into vectors using the `vec` functio
 
 ## When to use a vector?
 
-A vector should be used in almost all cases if you need a collection, because they have the shortest random-access times, which makes it easy to retrieve items from a vector. Note that vectors are ordered. If order doesn't matter, it may be better to use a set. Also note that vectors are designed for appending items; if you need to prepend items, you might want to use a list.
+A vector should be used in almost all cases if you need a collection, because they have the shortest random-access times, which makes it easy to retrieve items from a vector. Note that vectors are ordered. If order doesn't matter, it may be better to use a set. Also note that vectors are designed for appending items; if you need to prepend items, you might want to use a list:
 
 | [![:point_left:](//forum.freecodecamp.com/images/emoji/emoji_one/point_left.png?v=2 ":point_left:") Previous](//forum.freecodecamp.com/t/clojure-lists-they-are-everything/18417) | [![:book:](//forum.freecodecamp.com/images/emoji/emoji_one/book.png?v=2 ":book:") Home ![:book:](//forum.freecodecamp.com/images/emoji/emoji_one/book.png?v=2 ":book:")](//forum.freecodecamp.com/t/clojure-resources/18422) | [Next ![:point_right:](//forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=2 ":point_right:")](//forum.freecodecamp.com/t/clojure-hashmaps/18414)|  
 | [Lists](//forum.freecodecamp.com/t/clojure-lists-they-are-everything/18417) | [Table of Contents](//forum.freecodecamp.com/t/clojure-resources/18422) | [Hashmaps](//forum.freecodecamp.com/t/clojure-hashmaps/18414)|
