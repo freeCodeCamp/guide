@@ -1,7 +1,7 @@
 ---
-title: Sleep How Can I Make a Time Delay in Python
+title: Creating a Time Delay
 ---
-## Sleep How Can I Make a Time Delay in Python
+## Creating a Time Delay
 
 The `time` module in the Python standard library contains the function `sleep()` which suspends a program for a given number of seconds.
 
