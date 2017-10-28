@@ -12,4 +12,5 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+the quadratic formula:
+ x = ((-b)+/-((b^2)-4ac)^(1/2))/2a
