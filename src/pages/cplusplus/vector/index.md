@@ -44,3 +44,15 @@ std::string second_item = a.at(2); // gets "element"
 // OR
 std::string second_item = a[2]; // gets "element"
 ```
+
+### Two Dimensional Vectors
+Declaring a two dimensional vector is similar to declaring an array. To start off, you declare your vector of whatever type you want. Use the following code to declare your vector:
+
+```cpp
+    // Create
+    vector< vector<int> > vec(4, vector<int>(4));
+    // Write
+    vec[2][3] = 10;
+    // Read
+    int a = vec[2][3];
+```	
