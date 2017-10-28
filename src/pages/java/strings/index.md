@@ -42,3 +42,34 @@ Extras
 3. When the String literal is found by JVM, it is addes to string literal pool.
 4. String class posses a method name length(),while arrays have an attribute naming length.
 
+Quick core method usage on strings:
+
+String string= "Hello world!";
+
+SubString method:    subString(int start, int end)
+                     subString(int start)
+                     
+substring method allows you to create another string based off the string that was called and usually is used to create truncated strings.
+
+using the first, the integers represent the characters in the string and their position where you want to start from and where you wish to end and this will cut the string into another string based off that
+
+KEY NOTE substring end position is not inclusive so the position at the end int will not be part of the new string. 
+
+. Positions for strings and most things start at position 0 so string at position 0 is "H" and position 1 is "e" 
+
+so string.subString(0,1);
+will equal a string of "H" since 1 end is not included
+
+but string.subString(0,2);
+equals "He" because now 1 "e" is before position 2 and 2 isnt included.
+
+USING just ONE START POS:
+
+substring(0)
+this usage means start at the position called and then create a string of characters from that position on.
+
+so string.substring(1) equals  "ello World!" since we put it to start at position 1 which is "e"
+
+KEY start IS INCLUSIVE
+
+
