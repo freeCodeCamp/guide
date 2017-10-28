@@ -23,6 +23,7 @@ This example takes more than 10 lines, but that isn't necessary. You can write t
 
 ### Syntax
 `condition ? statement_1 : statement_2`
+If the `condition` returns non-zero, `statement_1` will be used; otherwise `statement_2` will be used.
 
 Here's the above example re-written to use the ternary operator:
 
