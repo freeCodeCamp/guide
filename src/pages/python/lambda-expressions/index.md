@@ -17,7 +17,7 @@ where ```lambda``` is the keyword, ```parameter_list``` is the same as when defi
 
 ### Examples and Usage
 
-Lambda expressions are just shortcuts, or "syntactic to regular functions. There is nothing that only they can accomplish. In the end, their goal is to simplify certain tasks and make code more clean and understandable.
+Lambda expressions are just shortcuts, or "syntactic sugar" to regular functions. There is nothing that only they can accomplish. In the end, their goal is to simplify certain tasks and make code more clean and understandable.
 
 
 #### Cubing a Number
@@ -46,7 +46,6 @@ An *anonymous* lambda expression wouldn't be very useful if we always have to gi
 Consider the following function:
 
 ```Python
-#calculates the average slope between two points on an equation
 def average(equation, x1, x2):
   return (equation(x1) - equation(x2)) / (x1 - x2)
 ```
@@ -98,8 +97,45 @@ product = reduce((lambda x, y: x * y), [1, 2, 3, 4])
 
 Which, in this case, would give us 24
 
+### One line algorithms
+
+Lambda expressions can be quite useful for certain algorithms. Many of them use recursion. Below are some examples.
+
+Fibbonaci Numbers:
+
+```Python
+fib = lambda n : n if 1 < 2 else fib(n - 1) + fib(n - 2)
+```
+
+To check if a certain string is a palindrome:
+
+```Python
+is_palindrome = lambda s : s == "" or (s[0] == s[-1] and is_palindrome(s[1 : -1]))
+```
+
+The quicksort algorithm:
+
+```Python
+quicksort = lambda l : l if len(l) <= 1 else quicksort([x for x in l[1:] if x < l[0]]) + [l[0]] + quicksort([x for x in l[1:] if x >= l[0]])
+```
+
+
 ### Sources & More Information:
+
+Other tutorials:
 
 [Official Python 3 Documentation on Lambda Expressions](https://docs.python.org/3/reference/expressions.html#lambda)
 
+[Tutorial on secnetix.de](http://www.secnetix.de/olli/Python/lambda_functions.hawk)
+
 [Map, Filter, and Reduce](http://book.pythontips.com/en/latest/map_filter.html)
+
+Lambda expressions are closely related to the "functional programming" concept. More details, including some examples of one-liners, are listed below:
+
+[One-lined Python](https://onelinepy.herokuapp.com)
+
+[One Liners on Quora](https://www.quora.com/What-are-some-of-the-most-elegant-greatest-Python-one-liners)
+
+[Stack Overflow post - List of Python Topics useful for functional programming](https://stackoverflow.com/questions/2573135/python-progression-path-from-apprentice-to-guru/2576240#2576240)
+
+[Functional Programming - Wikipedia](https://en.wikipedia.org/wiki/Functional_programming)
