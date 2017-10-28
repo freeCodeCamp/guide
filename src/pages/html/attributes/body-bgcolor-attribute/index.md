@@ -17,7 +17,7 @@ bgcolor - use _color_name_, _hex_number_, or _rgb_number_
 | :-- | :-- |
 | _color_name_ | Specifies the background color with a name like "red" |
 | _hex_number_ | Specifies the background color with a hex code like "#ff0000" |
-| _rgb_number_ | Speficies the background color with an rgb code like "rgb(255,0,0)" |
+| _rgb_number_ | Specifies the background color with an rgb code like "rgb(255,0,0)" |
 
 ### Examples
 
@@ -45,7 +45,7 @@ Example 3 - rgb number:
 </html>
 ```
 
-### Compatability
+### Compatibility
 
 NOTE: `<body bgcolor>` attribute is not supported in HTML5. Use CSS `background-color` instead.
 
