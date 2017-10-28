@@ -3,13 +3,15 @@ title: Area of a Parallelogram
 ---
 ## Area of a Parallelogram
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/area-of-a-parallelogram/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+A parallelogram with base b and height h can be divided into a trapezoid and a right triangle, and rearranged into a rectangle. This means that the area of a parallelogram is the same as that of a rectangle with the same base and height:
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+`Area = b * h`
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Another approach would be to use analytic algebra and define a parallelogram as a cross product.
+With two adjacent walls `a` and `b` and an angle between them `x` we can apply formula:
+
+`Area = a * b * sin(x)`
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
+https://en.wikipedia.org/wiki/Cross_product
 
