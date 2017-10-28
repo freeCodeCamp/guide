@@ -10,7 +10,7 @@ Examples:
 <p class="test">This is a paragraph 1</p>
 <h2 class="test">This is a heading 2</h2>
 <p class="test">This is a paragraph 2</p>
-<div class="test2 test3">This is a div 1</div>
+<div class="test2">This is a div 1</div> <!-- reducing one class in the div property-->
 ```
 Since class name is not unique, the HTML class attribute makes it possible to define equal styles for elements with the same class name. **Here is how you can select class in a CSS file to style elements (notice the . notation):**    
 
@@ -35,7 +35,7 @@ h1.test, h2.test {
 ```
 **All elements which have both class `test2` and `test3` will be applied with this style:**
 ```css
-.test2.test3 {
+.test2 {
   color: green;
 }
 ```
