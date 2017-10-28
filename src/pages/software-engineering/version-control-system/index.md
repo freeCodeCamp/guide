@@ -3,13 +3,11 @@ title: Version Control System
 ---
 ## Version Control System
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/software-engineering/version-control-system/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Version Control Systems are tools that track changes in files.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Think about writing a paper in school. Say you write three paragraphs Monday. Tuesday, you reread those paragraphs, don't like them, and rewrite them. You don't touch the paper again until Friday. Now, after reading  your changes, you wish you had the original work from Monday.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+A Version Control System can help here. It would keep track of the changes each time you made them. On Friday, you read over your changes from Tuesday and don't like them. No problem! You can go back to your work from Monday, and pick up from there.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+* <a href='https://en.wikipedia.org/wiki/Version_control' target='_blank' rel='nofollow'>Wikipedia</a>
