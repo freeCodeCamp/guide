@@ -3,7 +3,7 @@ title: Developer Tools in Browsers
 ---
 ## Developer Tools in Browsers
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/developer-tools/browser-development-tools/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/developer-tools/developer-tools-in-browsers/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
 <a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
 
