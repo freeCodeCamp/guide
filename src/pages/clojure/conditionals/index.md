@@ -5,7 +5,7 @@ You're not going to get anywhere in a language if all you can do is define funct
 
 ## Logical Operators
 
-Clojure, like most languages, has 3 logical operators: `and`, `or` and `not`. These functions take booleans (`true` or `false`) as arguments, and return booleans based on what those booleans are. Like everything in a Lisp, these operators use prefix notation, which means they might look weird to you.
+Clojure, like most languages, has 3 logical operators: `and`, `or` and `not`. These functions take booleans (`true` or `false`) as arguments, and return booleans based on what those booleans are. Like everything in a Lisp, these operators use prefix notation, which means they might look weird to you:
 
     (and true false)
     ; => false
