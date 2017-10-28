@@ -1,7 +1,7 @@
 ---
 title: Typescript
 ---
-## Typescript
+## Typescript ![Image of TS](https://cdn-images-1.medium.com/max/305/1*FIL7OY2C71HPz9vNVeHsAw.png)
 
 TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
 If you have been in Java, Typescript is like Java version of Javascript. It is stricted and promote Object Oriented Programming
