@@ -1,13 +1,15 @@
-Multithreading
+## Multithreading
 
 Multithreading is a process of executing multiple processes simultaneously. Java starts the program with a main thread and further threads are added upon main thread whenever any user creates it. main thread is the first user thread in any Java program. Also, JVM makes sure that all the user threads are closed before the program ends.
 
-A thread has both advantages and disadvantages. Some advantages are:
+A thread has both advantages and disadvantages. 
+
+## Advantages:
 
 Running code independently of other threads.
 Creation of a modular design.
 
-Disadvantages:
+## Disadvantages:
 
 Race conditions and Deadlocks if threads are not syncrhronized properly.
 
