@@ -22,7 +22,8 @@ Checkboxes are used if you want the user to select any number of options from a 
 The following example contains three checkboxes. The last option is disabled:
 
 
-```<div class="checkbox">
+```
+<div class="checkbox">
   <label><input type="checkbox" value="">Option 1</label>
 </div>
 <div class="checkbox">
@@ -30,4 +31,5 @@ The following example contains three checkboxes. The last option is disabled:
 </div>
 <div class="checkbox disabled">
   <label><input type="checkbox" value="" disabled>Option 3</label>
-</div>```
+</div>
+```
