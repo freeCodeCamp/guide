@@ -79,6 +79,22 @@ h) `.modal-title` class styles the header of the modal with a proper height.
 i) `.modal-body` class styles the body of the modal(dialog/popup).It can have other markups like `<p>,<img>,<video>` etc.
 
 j) `.modal-footer` class styles the footer of the modal.
+
+#### Modal Size
+Change the size of the modal by adding the .modal-sm class for small modals or  .modal-lg class for large modals.
+
+Add the size class to the <div> element with class .modal-dialog:
+  #### Small Modal
+  
+  ``` html
+      <div class="modal-dialog modal-sm">
+  ```
+  
+  #### Large Modal
+  
+  ``` html
+      <div class="modal-dialog modal-lg">
+  ```
   
   
 #### More Information : 
