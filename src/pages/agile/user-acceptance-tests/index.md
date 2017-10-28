@@ -2,14 +2,17 @@
 title: User Acceptance Tests
 ---
 ## User Acceptance Tests
-
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/user-acceptance-tests/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+User Acceptance Testing or UAT is a process of verifying that the solutions works for the users, it is different from system testing which is focused on ensuring software does not crash.
+
+UAT is one of the final stages of a project and occurs before a user accepts the new system and the user acts as a final verification of the required business functionality and proper functioning of the system.
+
+The users should test real-life scenarios such as:
+ * The three most common tasks.
+ * The three most difficult tasks.
+ 
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
+<a href='https://www.youtube.com/watch?v=ws7KS39jMBU'>What is User acceptance testing or UAT?</a>.
 
