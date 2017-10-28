@@ -36,6 +36,11 @@ The various values are:
 - 'none' - Sets no border.
 - 'hidden' - Sets a hidden border.
 
+For example, to make an element without border:
+```css 
+  border: none;
+```
+
 Based on the property you choose, these styles can be mismatched.
 ```css
   border-top-style: solid;
