@@ -33,7 +33,7 @@ div {
 ```
 
 #### More Information:
-* [Background-position on MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/background-position)
-* [CSS Tricks: background-position](https://css-tricks.com/almanac/properties/b/background-position/)
+* [Background-position](https://developer.mozilla.org/en-US/docs/Web/CSS/background-position) on MDN
+* CSS Tricks: [background-position](https://css-tricks.com/almanac/properties/b/background-position/)
 
 
