@@ -219,6 +219,7 @@ For including images, if the images aren't already hosted somewhere else on the 
 
 Then you'd just need to reference them in your markdown file with this syntax:
 
+
 `![your alt text](your url)`
 
 Then the images should show up when you click the "preview changes" tab.
@@ -257,6 +258,8 @@ The Hemingway App will assign a “grade level” for your writing. You should a
 Also, there's a community of support from a whole team of contributors, whom you can bounce ideas off of and ask for input on your writing. Stay active in the [contributor's chat room](https://gitter.im/freecodecamp/contributors) and ask lots of questions.
 
 With your help, we can create a comprehensive reference tool that will help millions of people who are learning to code for years to come.
+
+You can also visit our blog at Medium.com and learn more from there (https://medium.freecodecamp.org/i-just-got-my-free-hacktoberfest-shirt-heres-a-quick-way-you-can-get-yours-fa78d6e24307).
 
 ## License
 
