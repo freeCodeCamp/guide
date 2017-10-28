@@ -13,7 +13,9 @@ title: Useful Commands
 - To ignore changes and exit, type `:q!`
 
 **OR**
-- Type ZZ (save and quit)
+- Type `ZZ` in command mode (save and quit)
+- Type `:x` in normal mode to quit and write, if there are any changes
+
 
 ## Bare minimum functionality
 Most likely you'll find yourself in "normal" mode, it allows you to enter commands by pressing the colon `:` key.
