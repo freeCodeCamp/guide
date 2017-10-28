@@ -14,14 +14,34 @@ Tips:
 The syntax of the `setTimout()` method is as follows: 
 
 ```js
-    setTimeout(function, milliseconds, param1, param2, ...);
+    var timerId = setTimeout(function, delay, param1, param2, ...);
+    var timerId = setTimeout(code, delay);
 ```
+
+Parameters:
+
+`function` - Function definition to be executed after the delay
+
+`delay` - Time specified in milliSeconds for which the timer should wait before the function/code is executed
+
+`params` - Parameters to be passed to the function
+
+`code` - Any expression/code to be executed after the delay
+
+Output:
+
+`timerId` - A positive integer is created that identifies a particular call to setTimeout method. Using this value, we can clear the timeout by passing it to the clearTimeout function as
+
+`clearTimeout(timerId);`
+
+If clearTimeout function is called before the delay, it clears the timer and the function/code specified in argument 1 will no longer be executed.
 
 For example:
 
 ```js
-    setTimeout(function(){ alert("Hello"); }, 3000);
+    var timer1 = setTimeout(function(){ alert("Hello"); }, 3000);
 ```
+An alert with Hello in the body will be displayed after 3000ms.
 
 A very important thing about `setTimeout()` is that it will be executed asynchronously. Let's take an example:
 
