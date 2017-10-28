@@ -66,6 +66,14 @@ foo.toFixed(0);  // "48"
 foo.toFixed(1);  // "47.7"
 foo.toFixed(2);  // "47.69"
 ```
+
+Numbers can be converted to string using toString() function
+For Example:
+```javascript
+var foo = 47.69;
+foo.toString();  // "47.69" (string output)
+```
+
 >Type `Number.prototype` in your browser and see other available methods yourself.
 
 #### More Information:
