@@ -26,7 +26,7 @@ Textarea Example
 <textarea placeholder="Describe yourself here..."></textarea>
 ```
 
-### Compatability
+### Compatibility
 
 This is an HTML5 Attribute.
 
