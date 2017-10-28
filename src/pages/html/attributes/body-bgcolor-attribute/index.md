@@ -3,13 +3,61 @@ title: Body Bgcolor Attribute
 ---
 ## Body Bgcolor Attribute
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/attributes/body-bgcolor-attribute/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `<body bgcolor>` attribute specifies the background color of a document. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Syntax
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+`<body bgcolor="color_name|hex_number|rgb_number">`
+
+### Attribute Values
+
+bgcolor - use _color_name_, _hex_number_, or _rgb_number_
+
+| Value | Description |
+| :-- | :-- |
+| _color_name_ | Specifies the background color with a name like "red" |
+| _hex_number_ | Specifies the background color with a hex code like "#ff0000" |
+| _rgb_number_ | Speficies the background color with an rgb code like "rgb(255,0,0)" |
+
+### Examples
+
+Example 1 - color name:
+```html
+<html>
+<body bgcolor="red">
+</body>
+</html>
+```
+
+Example 2 - hex number:
+```html
+<html>
+<body bgcolor="#FF0000">
+</body>
+</html>
+```
+
+Example 3 - rgb number:
+```html
+<html>
+<body bgcolor="rgb(255,0,0)">
+</body>
+</html>
+```
+
+### Compatability
+
+NOTE: `<body bgcolor>` attribute is not supported in HTML5. Use CSS `background-color` instead.
+
+CSS syntax: `<body style="background-color:#FF0000">`
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+
+[HTML <body bgcolor> Attribute](https://www.w3schools.com/tags/att_body_bgcolor.asp) on w3schools.com
+
+[HTML Color Names](https://www.w3schools.com/colors/colors_names.asp) on w3schools.com
+
+[CSS background-color Property](https://www.w3schools.com/cssref/pr_background-color.asp) on w3schools.com
+
 
 
