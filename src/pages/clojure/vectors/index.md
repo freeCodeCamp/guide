@@ -15,7 +15,7 @@ You'll see that it uses square brackets, just like an array in JS. Since Clojure
 
 ## Adding items to a vector
 
-You can append items to a vector using `conj`. You can also prepend to a list using `into`, but note that `into` is intended for merging two vectors, so both its arguments must be vectors, and using `into` is slower than using `conj`.
+You can append items to a vector using `conj`. You can also prepend to a list using `into`, but note that `into` is intended for merging two vectors, so both its arguments must be vectors, and using `into` is slower than using `conj`:
 
     (time (conj [1 2] 3))
     ; => "Elapsed time: 0.032206 msecs"
