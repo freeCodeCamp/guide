@@ -3,13 +3,34 @@ title: Required
 ---
 ## Required
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/attributes/required/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The required attribute is a boolean attribute.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The presence of a boolean attribute on an element represents the true value, and the absence of the attribute represents the false value. If the attribute is present, its value must either be the empty string or a value that is a case-insensitive match for the attribute’s canonical name, with no leading or trailing whitespace.
+i.e.
+```html
+/* "The presence of a boolean attribute on an element represents the true value, and the absence of the attribute represents the false value." */
+<input type="name" required>
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+/* "If the attribute is present, it's value must either be the empty string..." */
+<input type="name" required="">
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+/* "...or a value that is a case-insensitive match for the attribute's canonical name" */
+<input type="name" required="required">
+```
 
+#### Usage:
+The required attribute can be used on the following elements:
+* `<input>`
+* `<select>`
+* `<textarea>`
 
+#### Example:
+```html
+<select required>
+  <option value="">None</option>
+  <option value="apple">Apple</option>
+  <option value="mango">Mango</option>
+  <option value="orange">Orange</option>
+  <option value="grapes">Grapes</option>
+</select>
+```
