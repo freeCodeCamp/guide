@@ -98,3 +98,20 @@ Output:
     8
 ```
 Source: <a href='https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html' target='_blank' rel='nofollow'>Java Arrays</a>
+
+## Multidimensional Arrays:
+
+ Multidimensional arrays are arrays of arrays.
+ 
+ **Syntax:**
+
+```java
+dataType[][] arrayName;
+```
+
+## Code snippet of the above syntax:
+
+```java
+int[][] myarray = new int[10][10]; // This array now contains 10 rows and 10 columns
+```
+ 
