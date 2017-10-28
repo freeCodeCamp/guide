@@ -3,13 +3,19 @@ title: Font Tag
 ---
 ## Font Tag
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/font-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The font tag is used to add style, size, and color to the text on your website thus making it more user friendly and increasing it's content readability.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Syntax:
+```html
+<font attributes_list>Text</font>
+```
+Example:
+```html
+<font size="3" color="blue">Text in blue color</font>
+<font face="Comic sans MS" size="5">Comic Sans MS</font>
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+**Note:** HTML `<font>` Tag is not supported in HTML5. You can achieve similar results by using CSS instead.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+<a href='https://www.w3schools.com/tags/tag_font.asp' target='_blank' rel='nofollow'>w3schools</a>
