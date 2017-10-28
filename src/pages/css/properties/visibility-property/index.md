@@ -3,13 +3,28 @@ title: Visibility Property
 ---
 ## Visibility Property
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/properties/visibility-property/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+<p>Visibility property defines an element whether to visible or hidden the element. The default value is visible. Even hidden elements take space on the page.</p>
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+####Code Syntax</h4>
+```css
+visibility: visible|hidden|collapse|initial|inherit;
+```
+####Code Example</h4>
+```css
+div{
+    visibility: hidden;
+}
+```
+make div elements invisible
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+####Property values</h4>
+
+|     Value    | Description |
+|-----------|----------------|
+|`visible` | makes element visible. `default value`         |
+|`hidden` | makes element hidden. but it takes space          |
+|`intial` | sets its property to its default value               |
+|`inherit` | Inherits this property value from its parent element              |
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+- <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/visibility' target='_blank' rel='nofollow'>MDN docs</a>
