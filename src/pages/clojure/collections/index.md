@@ -5,7 +5,7 @@ One of Clojure's main positives is that it has quite a few different kinds of se
 
 To understand the differences between each type of collections, when to use each one, and how to convert between them all, it may be necessary to check out other types of collection and remind yourself what makes them special.
 
-As such, this page serves as an index so you can easily view any of the articles about data structures.
+As such, this page serves as an index so you can easily view any of the articles about data structures:
 
 *   <a href='http://forum.freecodecamp.com/t/clojure-lists-they-are-everything/18417' target='_blank' rel='nofollow'>Lists</a>
 *   <a href='http://forum.freecodecamp.com/t/clojure-vectors/18421' target='_blank' rel='nofollow'>Vectors</a>
