@@ -9,6 +9,7 @@ For example:
 ```html
 <a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>
 ```
+`target='_blank` Means =  Opens the linked document in a new window or tab.
 
 #### Here is where you can find more information on href attributes:
 <a href='https://www.w3schools.com/tags/att_href.asp' target='_blank' rel='nofollow'>W3Schools</a>
