@@ -8,7 +8,7 @@ Because C is such a low-level language, there are a lot of terms that come up th
 The compilation is the process of taking the human-readable code and turning it into machine-readable code. This process is performed by a compiler.
 
 ## Compiler
-A compiler is a program that compiles code, meaning it changes it from something machine-readable into something human-readable.
+A compiler is a program that compiles code, meaning it changes it from something human-readable into something machine-readable.
 
 ## Debugging/Debugger
 Debugging is the process of removing errors ("bugs") from your code. A debugger is a helpful tool that makes that easier.
