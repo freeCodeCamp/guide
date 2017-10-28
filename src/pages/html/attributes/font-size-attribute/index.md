@@ -14,7 +14,7 @@ Example:
 ```html
 <html>
   <body>
-    <font size="6">This is some text!</font>
+    <font size="25">This is some text!</font>
   </body>
 </html>
 ```
