@@ -3,13 +3,8 @@ title: 3 by 3 Determinants
 ---
 ## 3 by 3 Determinants
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/3-by-3-determinants/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+For a 3×3 matrix, its determinant is easily found by using the rule of Sarrus. It states that the determinant is the sum of products of three top-left to bottom-right diagonals minus three top-right to bottom-left diagonals. For the matrix
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+<img src="https://github.com/fyrdahl/freeCodeCamp-images/blob/master/A-3x3-matrix.gif" alt="A = (a b c; d e f; g h i)">
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+The determinant, denoted <img src="https://github.com/fyrdahl/freeCodeCamp-images/blob/master/A.gif" alt="|A|"> (or <img src="https://github.com/fyrdahl/freeCodeCamp-images/blob/master/detA.gif" alt="det(A)">) is given by <img src="https://github.com/fyrdahl/freeCodeCamp-images/blob/master/detA_aei%2Bbfg%2Bcdh-ceg-bdi-afh.gif" alt="|A| = aei + bfg + cdh - ceg - bdi - afh"> 
