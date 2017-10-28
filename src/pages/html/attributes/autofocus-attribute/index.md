@@ -27,7 +27,7 @@ Only one form element in a document can have the **autofocus** attribute. It can
 </form>
 ```
 
-### Compatability
+### Compatibility
 
 This is an HTML5 attribute.
 
