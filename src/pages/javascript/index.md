@@ -1,10 +1,36 @@
 ---
-title: JavaScript
+title: Sorting Algorithm, InsertionSort in ES6
 ---
-## JavaScript
+## What is a Insertion Sort Algorithm?
+>Insertion sort algorithm iterates, consuming one input element each repetition, and growing a sorted output list. Each iteration removes one element from the input data, finds the location it belongs within the sorted list, and inserts it there. It repeats until no input elements remain. Source [Wikipedia](https://en.wikipedia.org/wiki/Insertion_sort).
 
-JavaScript is the most widely used scripting language on Earth. And it has the largest library ecosystem of any programming language.
 
-JavaScript is the core language of the web, and the only programming language that can run in all major web browsers.
 
-If you want to learn more about the JavaScript language, and why it's so widely used, read Quincy Larson's <a href='https://medium.freecodecamp.org/what-programming-language-should-i-learn-first-%CA%87d%C4%B1%C9%B9%C9%94s%C9%90%CA%8C%C9%90%C9%BE-%C9%B9%C7%9D%CA%8Dsu%C9%90-19a33b0a467d' target='_blank' rel='nofollow'>"Which programming language should I learn first?"</a>
+# Complexity of Insertion Sort
+| Best          | Average       | Worst      |
+| ------------- |:-------------:| :---------:|
+|  O(n)         |   O(n^2)      | O(n^2)     | 
+
+
+# The Code
+
+```javascript
+// array to sort
+const array = [9, 2, 5, 6, 4, 3, 7, 10, 1, 8];
+
+function insertionSort(array) {
+  for(let i = 0; i < array.length; i++) {
+    let temp = array[i];
+    let j = i - 1;
+    while (j >= 0 && array[j] > temp) {
+      array[j + 1] = array[j];
+      j--;
+    }
+    array[j + 1] = temp;
+  }
+  return array;
+}
+
+console.log(insertionSort(array)); // => [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+```
+
