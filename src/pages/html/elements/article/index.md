@@ -3,13 +3,21 @@ title: Article
 ---
 ## Article
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/article/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `<article>` tag is used to specify independent and self contained content such as blog post or a news story.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Syntax:
+```html
+<article>
+	Body of the article.
+</article>
+```
+Example:
+```html
+<article>
+  <h1>HTML</h1>
+  <p>Hypertext Markup Language is the standard markup language for creating web pages and web applications.</p>
+</article>
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+<a href='https://www.w3schools.com/tags/tag_article.asp' target='_blank' rel='nofollow'>w3schools</a>
