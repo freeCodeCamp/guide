@@ -12,7 +12,7 @@ while (some_condition_is_true)
 }
 ```
 
-**Note**: For the `while` loop to start executing, you'd require the condition to be true. However, to exit the loop you must do something as given below (otherwise the loop will execute forever. Practically, it will run till the JVM runs out of memory).
+**Note**: For the `while` loop to start executing, you'd require the condition to be true. However, to exit the loop you must do something that changes the opening condition (otherwise the loop will execute forever. Practically, it will run till the JVM runs out of memory).
 
 ## Example
 In the following example, the `expression` is given by `iter_While < 10`. As we increment `iter_While` by `1` each time the loop is executed, the `while` loop will keep going until `iter_While` reaches `10`.
