@@ -3,13 +3,23 @@ title: Convert Fractions to Percents
 ---
 ## Convert Fractions to Percents
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/convert-fractions-to-percents/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Fraction represents part of a whole or more generally, any number of equal parts. For example, 3 / 4 represents 3 equal parts when 4 is the whole. In decimal, it would be 0.75 equal parts when 1 is the whole. To convert a fraction (or a decimal) into percent we just have to find it's equivalent number out of 100. It is as simple as multiplying the fraction (or decimal) by 100.
+Percent is denoted by suffixing the symbol "%" to the result.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+P = F * 100
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### Terminology
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+**F:** Fraction
 
+**P:** Percent
 
+### Examples
+
+1. **F** = 3 / 4, **P** = (3 / 4) * 100 = **75%**
+
+2. **F** = 1 / 2, **P** = **50%**
+
+### More Information:
+
+[Fraction](https://en.wikipedia.org/wiki/Fraction_(mathematics))
