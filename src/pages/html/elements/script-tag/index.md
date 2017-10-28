@@ -12,4 +12,17 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
+The <script> tag is used to define a client-side script (JavaScript).
+The <script> element either contains scripting statements, or it points to an external script file through the src attribute.
 
+### Example
+```html
+<!DOCTYPE html>
+<html>
+	<body>
+		<script>
+      document.getElementById("demo").innerHTML = "Hello JavaScript!";
+    </script>
+	</body>
+</html>
+```
