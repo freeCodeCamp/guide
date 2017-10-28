@@ -74,3 +74,20 @@ $obj2 = Singleton::getInstance();
 
 ```
 
+## Singleton in C#
+There are various different ways of implementing the singleton pattern in C#. Below is one of them and is an elegant solution.
+
+```C#
+public sealed class Singleton
+{
+    private static readonly Lazy<Singleton> lazy =
+        new Lazy<Singleton>(() => new Singleton());
+    
+    public static Singleton Instance { get { return lazy.Value; } }
+
+    private Singleton()
+    {
+    }
+}
+
+```
