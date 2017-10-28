@@ -125,4 +125,5 @@ must be used in a certain order. The order is:
 ### Other Resources
 * <a href='http://cloford.com/resources/colours/500col.htm' target='_blank' rel='nofollow'>List of color values</a>
 * <a href='http://colrd.com/create/palette/' target='_blank' rel='nofollow'>Color Picker Tool</a>
+* <a href='https://material.io/color' target='_blank' rel='nofollow'>Material IO Color</a>
 
