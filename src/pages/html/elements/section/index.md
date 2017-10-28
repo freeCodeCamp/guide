@@ -11,5 +11,17 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
+The <section> tag defines sections in a document, such as chapters, headers, footers, or any other sections of the document.
 
-
+### Example
+```html
+<!DOCTYPE html>
+<html>
+	<body>
+		<section>
+      <h1>WWF</h1>
+      <p>The World Wide Fund for Nature (WWF) is....</p>
+    </section>
+	</body>
+</html>
+```
