@@ -4,11 +4,13 @@ title: Union Type
 
 # Union Type
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/typescript/union-type/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+An union type represents a value that may contain one among a set of types. For example, a value that may contain either a string or a number can be represented as follows:
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+```typescript
+let foo: string | number;
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+foo = 2 // This is okay
+foo = 'bar' // This is okay as well
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+foo = true // This fails at compile time
+```
