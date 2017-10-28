@@ -26,6 +26,10 @@ This is an example of the CSS classes that bootstrap provides for glyphicons. Mo
 
 <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
 
+`.glyphicon glyphicon-phone` This is bootstrap's phone icon.
+
+<span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+
 _Note: Do not include the dot in the HTML Class Attribute, referring to the classes with a dot is only used when adjusting the classes in CSS._
 
 #### More Information:
