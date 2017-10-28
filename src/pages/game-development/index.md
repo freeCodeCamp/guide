@@ -3,13 +3,14 @@ title: Game Development
 ---
 ## Game Development
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/game-development/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Game Development involves the use of software to create and design video games that can be played on a PC, smartphone/tablet, or console. Games are usually designed and restricted based on the console it is designed for. Video games can be developed with several kinds of game-developing software.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Some of the more well-known game development software programs are: Unity, Unreal Engine, and GameMaker Studio. However, a lot of mainstream games are developed with a custom-made engine.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Popular languages used in game programming include: C++, C#, JavaScript, Python, and Java.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+<a href='https://guide.freecodecamp.org/game-development/unreal-engine' target='_blank' rel='nofollow'>freeCodeCamp Unreal Engine</a>
+<a href='https://guide.freecodecamp.org/game-development/unity' target='_blank' rel='nofollow'>freeCodeCamp Unity</a>
+<a href='https://www.yoyogames.com/gamemaker' target='_blank' rel='nofollow'>GameMaker Studio</a>
+<a href='https://en.wikipedia.org/wiki/Game_programming' target='_blank' rel='nofollow'>Wikipedia: Game Programing</a>
