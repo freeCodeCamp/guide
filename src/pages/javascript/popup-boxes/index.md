@@ -33,6 +33,7 @@ if (result === true) {
 
 ### Prompt
 The <a href='https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt' target='_blank' rel='nofollow'>prompt method</a> is typically used to get text input from the user. This function can take two arguments, both of which are optional: a message to display to the user and a default value to display in the text field. 
+Please take note that the output of the prompt function is always a string, if the output need to be converted to number variable, use Number() or ParseInt() functions to get an integer value.
 
 ### Example:
 `var age = prompt('How old are you?', '100');`
