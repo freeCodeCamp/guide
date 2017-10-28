@@ -1,5 +1,5 @@
 ---
-Title: SQL CHECK Constraint
+title: SQL CHECK Constraint
 ---
 
 The CHECK constraint is used to limit the value range that can be placed in a column.
