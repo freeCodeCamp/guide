@@ -37,7 +37,7 @@ Why are they often used as keys? Well, unlike strings, keywords can be used as f
 
 ## Converting other collections to hashmaps
 
-Converting to a hashmap is tricky. To demonstrate, let's try using it like `vec` or `seq`.
+Converting to a hashmap is tricky. To demonstrate, let's try using it like `vec` or `seq`:
 
     (hash-map [:a 1 :b 2 :c 3])
     ; => IllegalArgumentException No value supplied for key: [:a 1 :b 2 :c 3]
