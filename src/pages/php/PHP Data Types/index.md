@@ -27,3 +27,6 @@ PHP supports the the following data types:
  8.`Resources` − are special variables that hold references to resources external to PHP (such as database connections).
  
  The first five are simple types, and the next two (arrays and objects) are compound - the compound types can package up other arbitrary values of arbitrary type, whereas the simple types cannot.
+ 
+ ### More Informaton
+ For more resources visit: https://www.w3schools.com/php/php_datatypes.asp
