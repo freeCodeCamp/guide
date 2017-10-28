@@ -3,6 +3,8 @@ title: Do...While Loop
 ---
 The `do...while` loop is closely related to <a href='http://forum.freecodecamp.com/t/javascript-while-loop/14668' target='_blank' rel='nofollow'>`while`</a> loop. In the do while loop, the condition is checked at the end of the loop.
 
+* It is important to note that a `do...while` loop will execute at least once.
+
 Here is the **syntax** for `do...while` loop:
 
 ## Syntax:
@@ -31,5 +33,15 @@ Here is the **syntax** for `do...while` loop:
     3
     4
     5
+    
+    var j = 0
+    do { 
+      j = j + 1;
+      console.log(j);
+    } while (j < 0);
+    
+    Output:
+    1
+    
 
 source: <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/do...while' target='_blank' rel='nofollow'>**do...while**</a>
