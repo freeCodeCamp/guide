@@ -12,5 +12,6 @@ They can also be used for caching web pages, making a temporary copy of the most
 If you want to get your hands on a Proxy server, a very simple way to get started is by using the Linux's Squid Proxy Server.
 
 
-#More
+
+ #### More Information:
 [Wikipedia Page] https://en.wikipedia.org/wiki/Proxy_server
