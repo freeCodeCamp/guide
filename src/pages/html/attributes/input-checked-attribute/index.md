@@ -3,13 +3,27 @@ title: Input Checked Attribute
 ---
 ## Input Checked Attribute
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/attributes/input-checked-attribute/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `<input checked>` attribute is a boolean attribute.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+When present, it specifies that the `<input>` element should be pre-selected when the page loads. It can also be set after page load with JavaScript. 
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+The checked attribute can be used with `<input type="checkbox">` and `<input type="radio">`.
+
+### Example
+
+```javascript
+<form action="submit_page.php">
+  <input type="checkbox" value="adult" checked> I am over 18<br />
+  <input type="radio" name="gender" value="male"> Male
+  <input type="radio" name="gender" value="female" checked> Female
+</form>
+```
+[x] I am over 18
+
+[ ] Male [x] Female
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
+[HTML <input> checked attribute](https://www.w3schools.com/tags/att_input_checked.asp) on w3schools.com
 
+[HTML input tag](https://www.w3schools.com/tags/tag_input.asp) on w3schools.com
