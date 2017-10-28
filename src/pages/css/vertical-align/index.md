@@ -3,13 +3,16 @@ title: Vertical Align
 ---
 ## Vertical Align
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/vertical-align/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Aligns the element vertically within its parent, the surrounding text or table cells.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+## Syntax
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```css
+someElement {
+  vertical-align: baseline|bottom|middle|sub|super|text-bottom|text-top|top| <percentage> | <length>
+}
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
+- <a href='https://developer.mozilla.org/ru/docs/Web/CSS/vertical-align' target='_blank' rel='nofollow'>MDN</a>
 
