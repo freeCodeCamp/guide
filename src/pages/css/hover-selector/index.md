@@ -14,7 +14,8 @@ button {
   background-color: green;
 }
 
-button:hover {
+button:hover,
+button:active {
   background-color: white;
   border: 2px solid green;
   color: green;
