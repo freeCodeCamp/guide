@@ -28,6 +28,13 @@ This is an example of the CSS classes that bootstrap provides for glyphicons. Mo
 
 _Note: Do not include the dot in the HTML Class Attribute, referring to the classes with a dot is only used when adjusting the classes in CSS._
 
+#### Use Bootstrap Glyphicons in div:
+<div class="alert alert-danger" role="alert">
+  <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+  <span class="sr-only">Error:</span>
+  Enter a valid email address
+</div>
+
 #### More Information:
 <a href='https://getbootstrap.com/docs/3.3/components/#glyphicons' target='_blank' rel='nofollow'>Bootstrap Glyphicons</a>
 
