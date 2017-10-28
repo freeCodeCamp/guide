@@ -17,7 +17,7 @@ Debugging is the process of removing errors ("bugs") from your code. A debugger 
 GNU+Linux is the technically accurate term for what is commonly referred to as "Linux". Linux is a kernel- it's a set of programs that allow software to interact with hardware. When combined with GNU, it becomes an operating system, which allows a person to interact with it.
 
 ## GUI
-Graphical User Interface. A GUI will allow you to interact with a program by pointing and clicking rather than having to type in commands.
+Graphical User Interface. The GUI will allow you to interact with a program by pointing and clicking rather than having to type in commands.
 
 ## Header Files
 Header files are libraries that exist in the top (header) of your C program.
