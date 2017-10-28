@@ -5,6 +5,6 @@ You can add images to your website by using the `img` element, and point to an s
 
 An example of this would be
 
-    <img src="www.your-image-source.com/your-image.jpg">
-
-Note that in most cases, img elements are self-closing.
+```html
+<img src="http://www.your-image-source.com/your-image.jpg" />
+```
