@@ -10,10 +10,10 @@ The arguments provided to `bind` will precede any arguments that are passed to t
 
 ### Using `bind` to change `this` in a function
 
-The fist argument provided to `bind` is the `this` context the function will be bound to. 
+The first argument provided to `bind` is the `this` context the function will be bound to. 
 If you do not want to change the value of `this` pass `null` as the first argument.
 
-You are tasked with writing code to  update the number of attendees as they arrive at a conference.
+You are tasked with writing code to update the number of attendees as they arrive at a conference.
 You create a simple webpage that has a button that, when clicked, increments the `numOfAttendees`
 property on the confrence object. You use jQuery to add a click handler to your button, but after clicking the button the confrence object has not changed. Your code might look something like this.
 
