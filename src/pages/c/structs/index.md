@@ -14,7 +14,10 @@ struct struct_name {
 };
 ```
 Declaration:
-`struct struct_name struct_instance;`
+```
+struct struct_name struct_instance;
+```
+
 Accessing data members of a struct: To access the data members of a struct instance we use the member access operator `.`.
 ```
     struct_instance.field1 = xyz; 
