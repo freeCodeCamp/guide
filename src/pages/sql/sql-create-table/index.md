@@ -7,7 +7,9 @@ title: SQL Create Table
 
 This guide is an overview to the basics of the SQL `CREATE TABLE` functions. 
 
-We will be using MySQL for all examples throughout these freeCodeCamp SQL guides. MySQL is a used frequently on websites for the backend database, 2) it's free, and is fun and easy to use.
+We will be using MySQL for all examples throughout these freeCodeCamp SQL guides because
+1) MySQL is used frequently on websites for the backend database.
+2) It's free, and is fun and easy to use.
 
 ## Covered in this Guide
 
@@ -28,7 +30,7 @@ We do most of this work with SQL statements in the MySQL workbench scripting too
 
 ## Creating a MySQL schema
 
-The schema is a container for a the objects required to manage the data for a given subject or process.  We show examples as we progress in this guide.
+The schema is a container for the objects required to manage the data for a given subject or process.  We show examples as we progress in this guide.
 
 We’ll create the schema for our learning and testing using the SQL command;
 
@@ -112,7 +114,7 @@ You’ll see completion status, review and click FINISH
 
 ## Other Material
 
-There lots more detail to cover this topic so install MySQL and have fun!
+There are lot more details to cover this topic so install MySQL and have fun!
 
 ### Where to get MySQL
 
