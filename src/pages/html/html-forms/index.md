@@ -21,9 +21,9 @@ Code example:
     <input type="text" name="username" id="username">
     <label for="password">Password:</label>
     <input type="password" name="password" id="password">
-    <input type="radio" name="gender" value="male">Male<br>
-    <input type="radio" name="gender" value="female">Female<br>
-    <input type="radio" name="gender" value="other">Other
+    <input type="checkbox" name="gender" value="male">Male<br>
+    <input type="checkbox" name="gender" value="female">Female<br>
+    <input type="checkbox" name="gender" value="other">Other
     <input type="submit" value="Submit">
 </form>
 ```
