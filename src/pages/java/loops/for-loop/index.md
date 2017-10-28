@@ -3,6 +3,8 @@ title: For Loop
 ---
 # For Loop
 
+Java for loops is very similar to Java while loops in that it continues to process a block of code until a statement becomes false, and everything is defined in a single line.
+
 The `for` loop give you a compact way to iterate over a range of values.
 A basic for statement has three parts: declaration and/or initialization, boolean evaluation, and the iteration expression.
 
