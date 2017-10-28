@@ -145,7 +145,7 @@ If you want to abbreviate a term in your article, write it out fully first, then
 
 Text should use the second person ("you") to help to give it a conversational tone. This way, the text and instructions seem to speak directly to the camper reading it. Try to avoid using the first person ("I", "we", "let's", and "us").
 
-If there are other Guide resources you think campers would benefit from, add them at the bottom in an "Other Resources" section.
+If there are other guide resources you think campers would benefit from, add them at the bottom in an "Other Resources" section.
 
 You can add diagrams, graphics, or visualizations as necessary. You can also embed relevant YouTube videos and interactive [REPL.it](https://repl.it/) code editors.
 
@@ -155,7 +155,7 @@ Use double quotes where applicable.
 
 Format language keywords as code - this is done with the backtick key (located to the left of the "1" key on a US keyboard) in GitHub-flavored markdown. For example, put backticks around HTML tag names or CSS property names.
 
-Use the Oxford Comma when possible (it is a comma used after the penultimate item in a list of three or more items, before ‘and’ or ‘or’ e.g. an Italian painter, sculptor, and architect). It makes things easier, clearer, and prettier to read.
+Use an Oxford Comma when possible (it is a comma used after the penultimate item in a list of three or more items, before ‘and’ or ‘or’ e.g. an Italian painter, sculptor, and architect). It makes things easier, clearer, and prettier to read.
 
 ### Attribution
 
