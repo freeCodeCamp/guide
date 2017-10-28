@@ -3,13 +3,19 @@ title: Convert Decimals to Fractions
 ---
 ## Convert Decimals to Fractions
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/convert-decimals-to-fractions/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
 
+to convert a decimal into fraction follow the steps:
+
+
+for example 0.5
+step1: write the number/1
+eg: 0.5/1
+
+step2: multiply numerator and denominator by 10 till the decimal value gets shifted and we get a natural no
+
+eg: (0.5 * 10) / (1 * 10) = 5/10
+
+step3: simplyfy the above expression and we will get the final required output ie.  1/2
+
+answer = 1/2
