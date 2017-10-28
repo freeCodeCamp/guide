@@ -3,13 +3,42 @@ title: Input Tag
 ---
 ## Input Tag
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/input-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The HTML Input tag allows webdevelopers to require user input, that is then processed by the Webserver.  
+The structure of such a input tag is simple:   
+* type - defines the input type (mandatory)
+* name - name of the input field (mandatory)
+* id - the unique id of this specific tag
+* value - a pre-defined value
+  
+Requiring text input from the user via html is a simple matter.  
+Simply start off with a ```form``` tag and then proceed with an ```input``` tag.  
+Add the desired type, id and name.  
+Finally close the ```form``` tag.  
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
+### Text Input
+  
+```html
+<form>
+  <input type="text" id="name" name="name">
+</form>
+```
+  
+### Password Input
+  
+```html
+<form>
+  <input type="passwd" id="password" name="password">
+</form>
+```
+  
+### Mail Input
+  
+```html
+<form>
+  <input type="email" id="email" name="email">
+</form>
+```
+  
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+  
+[Mozilla's Official Documentation](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)  
