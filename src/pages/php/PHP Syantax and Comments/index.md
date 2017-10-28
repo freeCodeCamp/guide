@@ -36,3 +36,8 @@ The code snippet given below explains it:
      lines
    */
 ?>
+```
+
+### More information
+
+For more resources youj can visit: https://www.w3schools.com/php/php_syntax.asp
