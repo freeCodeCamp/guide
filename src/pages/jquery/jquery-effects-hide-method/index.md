@@ -1,7 +1,7 @@
 ---
 title: jQuery Effects Hide Method
 ---
-## jQuery Effects Hide Method
+## jQuery Hide Method
 
 In its simplest form, **.hide()** hides the matched element immediately, with no animation. For example:
 
@@ -28,7 +28,15 @@ $("p").hide( "slow", function() {
       alert("No more text!");
 });
   ```
-* More options exist, please refer to the official website for further details. 
+* More options exist, please refer to the official website for further details.   
+  
+### .toggle() method
+
+To show / hide elements you can use ```toggle()``` method. If element is hidden ```toggle()``` will show it and vice versa.
+Usage:
+```javascript
+$(".myclass").toggle()
+```   
 
 #### More Information:
 JQuery hide() method on the <a href='http://api.jquery.com/hide/' target='_blank' rel='nofollow'>Official website</a>

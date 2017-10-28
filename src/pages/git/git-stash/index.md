@@ -24,9 +24,9 @@ To see what is in your stash, run the command:
 ```shell
 git stash list
 ```
-This returns a list of your saved snapshots in the format `stash@{0}: <branch the stashed changes are for>: <message>`. The `stash@{0}` part is the name of the stash, and the number in the curly braces (`{ }`) is the index of that stash. If you have multiple change sets stashed, each one will have a different index.
+This returns a list of your saved snapshots in the format `stash@{0}: BRANCH-STASHED-CHANGES-ARE-FOR: MESSAGE`. The `stash@{0}` part is the name of the stash, and the number in the curly braces (`{ }`) is the index of that stash. If you have multiple change sets stashed, each one will have a different index.
 
-If you forgot what changes were made in the stash, you can see a summary of them with `git stash show <name of stash>`. If you want to see the typical diff-style patch layout (with the +'s and -'s for line-by-line changes), you can include the `-p` (for patch) option. Here's an example:
+If you forgot what changes were made in the stash, you can see a summary of them with `git stash show NAME-OF-STASH`. If you want to see the typical diff-style patch layout (with the +'s and -'s for line-by-line changes), you can include the `-p` (for patch) option. Here's an example:
 
 ```shell
 git stash show -p stash@{0}
@@ -44,10 +44,10 @@ index 2417dd9..b2c9092 100644
 ### Retrieve Stashed Changes
 To retrieve changes out of the stash and apply them to the current branch you're on, you have two options:
 
-1. `git stash apply <stash name>` applies the changes and leaves a copy in the stash
-2. `git stash pop <stash name>` applies the changes and removes the files from the stash
+1. `git stash apply STASH-NAME` applies the changes and leaves a copy in the stash
+2. `git stash pop STASH-NAME` applies the changes and removes the files from the stash
 
-There may be conflicts when you apply changes. You can resolve the conflicts similar to a merge ([see Git merge for details](../git-merge/index.md)).
+There may be conflicts when you apply changes. You can resolve the conflicts similar to a merge (<a href='https://guide.freecodecamp.org/git/git-merge/' target='_blank' rel='nofollow'>see Git merge for details</a>).
 
 ### Delete Stashed Changes
 If you want to remove stashed changes without applying them, run the command:
@@ -60,5 +60,6 @@ To clear the entire stash, run the command:
 git stash clear
 ```
 
-### Other Resources
-- [Git merge](../git-merge/index.md)
+### More Information:
+- The `git merge` command: <a href='https://guide.freecodecamp.org/git/git-merge/' target='_blank' rel='nofollow'>fCC Guide</a>
+- Git documentation: <a href='https://git-scm.com/docs/git-stash' target='_blank' rel='nofollow'>stash</a>

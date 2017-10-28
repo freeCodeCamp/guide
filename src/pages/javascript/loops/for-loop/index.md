@@ -11,7 +11,7 @@ The javascript `for` statement consists of three expressions and a statement:
 
 *   initialization - Run before the first execution on the loop. This expression is commonly used to create counters. Variables created here are scoped to the loop. Once the loop has finished it's execution they are destroyed.
 *   condition - Expression that is checked prior to the execution of every iteration. If omitted this expression evaluates to true;
-*   final-expression - Expression that is run after every iteration. Usually used to increment a counter.
+*   final-expression - Expression that is run after every iteration. Usually used to increment a counter. But it can be used to decrement a counter too.
 *   statement - Code to be repeated in the loop
 
 any of these three expressions or the statement can be omitted. For loops are commonly used to count a certain number of iterations to repeat a statement.

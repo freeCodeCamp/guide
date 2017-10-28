@@ -25,6 +25,6 @@ Some companies also have a physical office where you can go to work if you'd lik
 
 ### More Information:
 
-Quincy Larson on The Economics of Working Remotely: [Medium](https://medium.freecodecamp.org/the-economics-of-working-remotely-28d4173e16e2)
+Quincy Larson on The Economics of Working Remotely: <a href='https://medium.freecodecamp.org/the-economics-of-working-remotely-28d4173e16e2' target='_blank' rel='nofollow'>Medium</a>
 
 

@@ -1,15 +1,12 @@
 ---
-title: What Is an Api
+title: What Is an API
 ---
-## What Is an Api
+## What Is an API
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/computer-science/what-is-an-api/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+API stands for Application Programming Interface. Don’t worry about the AP, just focus on the I. An API is an interface. You use interfaces all the time. A computer operating system is an interface. Buttons in an elevator are an interface. A gas pedal in a car is an interface.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+An interface sits on top of a complicated system and simplifies certain tasks, a middleman that saves you from needing to know all the details of what’s happening under the hood. A web API is the same sort of thing. It sits on top of a web service, like Twitter or YouTube, and simplifies certain tasks for you. It translates your actions into the technical details for the computer system on the other end.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+* <a href='https://schoolofdata.org/2013/11/18/web-apis-for-non-programmers/' target='_blank' rel='nofollow'>API for non-programmers</a>
+* <a href='https://en.wikipedia.org/wiki/Application_programming_interface' target='_blank' rel='nofollow'>Wikipedia</a>
