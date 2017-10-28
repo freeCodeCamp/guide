@@ -15,6 +15,12 @@ Within the `<ol>` or `<ul>` tags, you need to put the items in the list. You add
   <li>Item 2</li>
   <li>Item 3</li>
 </ul>
+
+<ol>
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ol>
 ```
 
 This would display as:
