@@ -27,6 +27,8 @@ If you have more than one element with the same value of `id` (bad practice!), `
 document.getElementById("demo"); // Returns the element with id "demo" containing 'First'
 ```
 
+If the element with the specified id is not found in the document, it returns `null`.
+
 #### More Information:
 
 <a href='https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById' target='_blank' rel='nofollow'>document.getElementById()</a>
