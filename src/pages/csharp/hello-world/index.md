@@ -7,7 +7,7 @@ title: Hello World
 To write some text on console we use the `Console.WriteLine()`. This method as input takes a string.
 
 ## Example
-```
+```csharp
 using System;
 
 namespace HelloWorld
@@ -29,7 +29,7 @@ namespace HelloWorld
 ```
 
 ## Output:
-```
+```sh
 > Hello World!
 > Press any key to exit.
 ```
