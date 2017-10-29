@@ -145,3 +145,6 @@ public class Car {
 }
 
 ```
+Add
+1.Each superclass in an object's inheritance tree will have a constructor called.
+2.Every class,even an abstract class,has or atleast one constructor.
