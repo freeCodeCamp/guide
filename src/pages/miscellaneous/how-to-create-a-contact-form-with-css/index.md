@@ -3,8 +3,9 @@ title: How to Create a Contact Form with CSS
 ---
 ## How to Create a Contact Form with CSS
 
-> First we create the HTML elements - input fields for First Name, Last Name, Email and a Text Area for the message.
-> Later we apply CSS styles to make the form visually appealing.
+First we create the HTML elements - input fields for First Name, Last Name, Email and a Text Area for the message.
+
+Later we apply CSS styles to make the form visually appealing.
 
 ### The HTML part
 
