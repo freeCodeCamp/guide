@@ -15,8 +15,10 @@ There are many convinent ways to construct a vector.
 
 Using an intializer list - where objects are listed inside a set of braces: `{ }`
 ```cpp
-std::vector<int> a{1, 2, 3, 4, 5}; // a is a vector of 5 ints: 1, 2, 3, 4 and 5
-std::vector<std::string> b{"hello", "world"}; // b is a vector of 2 strings: "hello" and "world"
+inline return-type function-name(parameters)
+{
+    // function code
+}
 ```
 
 Constructing it from another vector (this is known as a copy construction)
