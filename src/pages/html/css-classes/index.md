@@ -13,17 +13,16 @@ When you're writing HTML you can add a class to an element like so:
 
 <h1 class="superMan">"Here I come to save the day!"</h1>
 
-<p> is a popular catchphrase that <span class="superMan">Super Man </span>often said.</p>
+<p>is a popular catchphrase that <span class="superMan">Super Man</span> often said.</p>
 
 ```
 
 Then  in our CSS file we should add the special attributes to the class.  
 ```css
 .superMan {
-color: red;
-background-color: blue;
+  color: red;
+  background-color: blue;
 }
-
 ```
  
 
