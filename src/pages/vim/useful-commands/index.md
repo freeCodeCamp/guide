@@ -9,11 +9,25 @@ title: Useful Commands
 ## Exiting Vi, Vim, Nvim, Gvim
 1. Press escape to get you into "normal" mode
 2. To exit, type `:q` but if you made any changes in file Vim gives error code `E37` in this case:
-- To save and exit, type `:wq`
-- To ignore changes and exit, type `:q!`
+3. To save and exit, type `:wq`
+4. To ignore changes and exit, type `:q!`
 
 **OR**
 - Type ZZ (save and quit)
+
+## Copy & paste shortcuts
+1. `yy` - yank (copy) a line
+1. `2yy` - yank (copy) 2 lines
+1. `yw` - yank (copy) the characters of the word from the cursor position to the start of the next word
+1. `y`$ - yank (copy) to end of line
+1. `p` - put (paste) the clipboard after cursor
+1. `P` - put (paste) before cursor
+1. `dd` - delete (cut) a line
+1. `2dd` - delete (cut) 2 lines
+1. `dw` - delete (cut) the characters of the word from the cursor position to the start of the next word
+1. `D` - delete (cut) to the end of the line
+1. `d`$ - delete (cut) to the end of the line
+1. `x` - delete (cut) character
 
 ## Bare minimum functionality
 Most likely you'll find yourself in "normal" mode, it allows you to enter commands by pressing the colon `:` key.
