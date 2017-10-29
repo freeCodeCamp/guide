@@ -16,7 +16,10 @@ _Description:_ Photoshop is Adobe's photo editing, image creation and graphic de
 _Alternatives:_
 
 *   <a href='https://www.gimp.org/' target='_blank' rel='nofollow'>GIMP</a>
+my changes
+_Description:_ GIMP is a cross-platform image editor available for GNU/Linux, OS X, Windows and more operating systems. It is free software, you can change its source code. Though it is not as polished as Photoshop, it is a image manipulation tool.
 *   <a href='https://inkscape.org' target='_blank' rel='nofollow'>Inkscape</a>
+_Description:_ nkscape is an open-source vector graphics editor. t can be used to create or edit vector graphics such as illustrations, diagrams, line arts, charts, logos and complex paintings.
 
 ![:point_left:](//forum.freecodecamp.com/images/emoji/emoji_one/point_left.png?v=2 ":point_left:") Previous | ![:book:](//forum.freecodecamp.com/images/emoji/emoji_one/book.png?v=2 ":book:") Home ![:book:](//forum.freecodecamp.com/images/emoji/emoji_one/book.png?v=2 ":book:") | Next ![:point_right:](//forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=2 ":point_right:")  
 [**Downloading Text Editors and IDEs**](//forum.freecodecamp.com/t/downloading-text-editors-and-ides/18384) | [**Table of Contents**](//forum.freecodecamp.com/t/setting-up-ubuntu-for-programming/18388) | [**Download and Install Ubuntu Desktop**](//forum.freecodecamp.com/t/download-and-install-ubuntu-desktop/18383)
