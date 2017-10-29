@@ -75,6 +75,7 @@
   display: flex;
   align-items: center;
   /* height: 40px; */
+  height: 40px;
   border: none;
   border-radius: 0;
 }
@@ -125,7 +126,7 @@
 .button:hover {
   color: #fff;
   background: #006400;
-  border-color: #fff;
+  border-color: #000;
 }
 
 /* NoSupport */
