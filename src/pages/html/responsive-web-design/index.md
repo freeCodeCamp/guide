@@ -18,7 +18,7 @@ There are 2 ways to make Webpages responsive.
 
 by using CSS Frameworks, we can use CSS Classes pre built by the popular frameworks like Bootstrap or Foundation to be used in the class attribute of our element like
 ```html
-<div class="col-md-9 col-sm-6"></div>
+<div class="col-12 col-md-6"></div>
 ```
 In the above div on medium screen size devices, this div will be shown 9 out of 12 columns, while in small size devices will show this in 6 out of 12 columns. that's the beuty of reposive designing. What basically CSS Frameworks do is they provide Grid based design as in below image you can see grids of Bootstrap framework.
 ![Grid Example](https://www.javatpoint.com/bootstrappages/images/bootstrapgrid.jpg "Basic Grid Example")
