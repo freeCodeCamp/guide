@@ -75,8 +75,8 @@ For loops are for when we want something to run a set number of times. Here's an
 #include <stdio.h>                                                          
 
 int main(void) {
-    int a = 4;
-    int b = 2;
+    int a = 75;
+    int b = 90;
     int result = 0;
 
     for(int count = 0; count != b; count++) {
