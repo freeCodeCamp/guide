@@ -1,7 +1,8 @@
 ---
 title: Static
 ---
-
+Add
+All static members belong to the class,not to any instance.
 # Static
 When you declare a variable or a method as static, it belongs to the class, rather than a specific instance.  This means that only one instance of a static member exists, even if you create multiple objects of the class, or if you don't create any. It will be shared by all objects.
 
@@ -27,3 +28,4 @@ public class MyClass {
 ```
 
 The outout is 2, because the `COUNT` variable is static and gets incremented by one each time a new object of the Counter class is created.  You can also access the static variable using any object of that class, such as `c1.COUNT`.
+
