@@ -24,6 +24,6 @@ Some requirements for using React:
       * We have provide a [simple guide](https://guide.freecodecamp.org/react/a-react-environment-using-a-remote-code-repository) for this.
 
 ### Get Started
-To get started using React, the most easy way is by using *[create-react-app](https://github.com/facebookincubator/create-react-app)*. All the configs such as webpack and webpack-dev-server have been configured.
+To get started using React, the most easy way is by using *[create-react-app](https://github.com/facebookincubator/create-react-app)*. All the configurations such as webpack and webpack-dev-server have been configured by it.
 
 For more information head to <a href='https://reactjs.org/' target='_blank' rel='nofollow'>https://reactjs.org/</a>
