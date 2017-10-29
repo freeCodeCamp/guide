@@ -17,6 +17,15 @@ text-align: start;
 text-align: end;  
 text-align: match-parent;
 
+/* Block alignment values (Non-standard syntax) */
+text-align: -moz-center;
+text-align: -webkit-center;
+
+/* Global values */
+text-align: inherit;
+text-align: initial;
+text-align: unset;
+
 #### More Information:
 - <a href='https://www.w3.org/TR/REC-CSS1/#text-align' target='_blank' rel='nofollow'>CSS1 Spec</a>
 - <a href='https://www.w3.org/TR/CSS21/text.html#alignment-prop' target='_blank' rel='nofollow'>CSS2 Spec</a>
