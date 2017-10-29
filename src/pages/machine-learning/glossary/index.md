@@ -16,6 +16,7 @@ more details.
 - **Unsupervised Learning** - Finding patterns in unlabelled data. Example: Grouping customers by purchasing behaviour. Clustering comes under unsupervised learning.
 - **Regression** - A machine learning technique used to predict continous values. Linear Regression is one of the most popular regression algorithm.  
 - **Classification** - A machine learning technique used to predict discrete values. Logistic Regression is one of the most popular classification algorithm.
+- **Association Rule learning** - A rule-based machine learning method for discovering interesting relations between variables in large databases. 
 ```
 f: x -> y  
 
