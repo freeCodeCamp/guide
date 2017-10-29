@@ -3,13 +3,18 @@ title: Brand Identity
 ---
 ## Brand Identity
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/product-design/brand-identity/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Brand Identity (BI) is how a brand defines itself. With a well-defined BI a company becomes recognizable to the general public. 
+Elements of BI: 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The company's:
+- name
+- logo
+- color(s)
+- typeface
+- slogan, motto or creed
+- unique selling proposition (USP)
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+On of the key elements of BI is the USP. BI is the way customers perceive a company, a brand. A company's BI is reflected in software development. 
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
 
