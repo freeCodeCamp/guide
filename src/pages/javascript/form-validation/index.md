@@ -1,7 +1,7 @@
 ## Form Validation
 
 Form validation is usually checking user input to ensure that it can be accepted by the application in need of data.  This validation can occur on the client side (in the browser with javascript) or on the server side (after the data has been submitted).  Generally validation should occur on the client side when possible.
-This helps helps reduce the amount of <a href='https://en.wikipedia.org/wiki/Principle_of_least_astonishment' target='_blank' rel='nofollow'>surprise</a> a user experience when their data is not accepted by the server as well as reducing network traffic and server load with requests that will be rejected.
+This helps helps reduce the amount of [surprise](https://en.wikipedia.org/wiki/Principle_of_least_astonishment) a user experiences when their data is not accepted by the server as well as reducing network traffic and server load with requests that will be rejected.
 
 Some common types of form validation are:
 - Required field empty ( username cannot be blank )
