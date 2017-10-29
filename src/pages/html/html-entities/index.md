@@ -3,13 +3,25 @@ title: HTML Entities
 ---
 ## HTML Entities
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/html-entities/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Some characters are reserved in HTML.
+If you use the less than (<) or greater than (>) signs in your text, the browser might mix them with tags.
+HTML (or Character) entities are used to display reserved characters in HTML.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+A character entity looks like this:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+&entity_name;
+
+OR
+
+&#entity_number;
+
+### Examples
+To display a less than sign (<) we must write: &lt; or &#60;
+To display a greater than sign (>) we must write: &gt; or &#62;
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
+https://www.w3schools.com/html/html_entities.asp
+https://developer.mozilla.org/en-US/docs/Glossary/Entity
+Official List of HTML Entities https://dev.w3.org/html5/html-author/charref
 
