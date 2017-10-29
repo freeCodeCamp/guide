@@ -21,7 +21,7 @@ echo 'Hello World!';
 
 ## Comments
 
-Comments are lines of coded that will be ignored by the PHP interpreter.
+Comments are lines of code that will be ignored by the PHP interpreter.
 Their main purpose is to help keeping code readable.
 
 Single-line comments can be in the double slash or hash format ```//single line comment``` ```#another single line comment```
@@ -36,13 +36,17 @@ Comments can also be splitted in multiple lines. All text between ```/*``` and `
  //this is a single line comment
  # this is another single line comment
  /*This 
- *is
- *a
- *multiple
- *line
- *comment
+   is
+   a
+   multi-line
+   comment
  */
 echo 'Hello World!';
 ?>
 ```
 
+---
+
+## Case Sensitivity in PHP
+
+Variable's names are case-sensitive in PHP. Names like ```$Variable```  ```$variable``` and ```$variAble``` will reference different variables.
