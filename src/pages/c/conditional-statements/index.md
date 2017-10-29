@@ -40,12 +40,12 @@ else {
 ```
 #### Example
 ```C
-int a = 300;
-if(a < 200) {
-    printf("a is less than 200\n" );
+int a = 500;
+if(a < 800) {
+    printf("a is less than 800\n" );
 }
 else {
-    printf("a is more than 200\n");
+    printf("a is more than 500\n");
 }
 ```
 #### Result
