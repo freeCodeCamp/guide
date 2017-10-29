@@ -80,7 +80,7 @@ print(binarySearch(numbers, 5, 0, numbers.length-1));
 ```
 
 ### More Information
-<a href="https://youtu.be/P3YID7liBug">Binary search (YouTube video)</a>
+* <a href="https://youtu.be/P3YID7liBug">Binary search (YouTube video)</a>
 
-<a href='https://www.youtube.com/watch?v=5xlIPT1FRcA' target='_blank' rel='nofollow'>Binary Search - CS50</a>
+* <a href='https://www.youtube.com/watch?v=5xlIPT1FRcA' target='_blank' rel='nofollow'>Binary Search - CS50</a>
 
