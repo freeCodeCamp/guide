@@ -3,28 +3,51 @@ title: Meta Tag
 ---
 ## Meta Tag
 
+The `<meta>` tag contains data relating to the HTML document (referred to as *metadata*). This may include the author, character encoding, description, keywords, and viewport scaling. The `<meta>` tag is self-closing, and must reside in the `<head>` section of the HTML document. The `<meta>` tag has no influence on the rendering of the HTML document, and is merely used by search engines and [user agents](https://guide.freecodecamp.org/user-agent/) for data collection tasks and directives.
 
-The `<meta>` tag provides the metadata about the HTML document. 
+### Examples:
 
-This metadata is used to specify a page's charset, description, keywords, the author, and the viewport of the page. 
+#### Character Encoding:
+Sets the character encoding of the HTML document, which must match the character encoding used during the save process to avoid character corruption. This is a recommended inclusion with the attribute typically being set to "utf-8".
+```html
+<meta charset="utf-8" />
+```
 
-This metadata will not appear on the website itself, but it will be used by the browers and search engines to determine how the page will display content and assess search engine optimization (SEO). 
+#### Author:
+Specifies the author of the HTML document.
+```html
+<meta name="author" content="Free Code Camp" />
+```
 
-The metadata is assigned to the <head></head> of the HTML document:
+#### Description:
+Provides a brief (but accurate) description of the contents of the HTML document. This may be used by search engines in query results, or by user agents in bookmarks.
+```html
+<meta name="description" content="Learn all about meta tags." />
+```
+
+#### Keywords:
+Provides a comma-delimited collection of words that relate to the contents of the HTML document. Although historically this was used by search engines for indexing, it has been phased out in favour of content scraping, and can be safely omitted.
+```html
+<meta name="keywords" content="Free, Code, Camp, Guide, Meta, Tags" />
+```
+
+#### Viewport:
+Required for predictable rendering and scaling on mobile devices, and is a key facet of [Responsive Web Design](https://guide.freecodecamp.org/html/responsive-web-design/).
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+```
+
+#### Template:
+Copy, paste, and fill in the blanks.
 ```html
 <head>
-  <meta charset="UTF-8">
-  <meta name="description" content="Short description of website content here">
-  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
-  <meta name="author" content="Jane Smith">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- HTML5 introduced a method to let web designers take control over the viewport, through the <meta> tag. The viewport is the user's visible area of a web page. A <meta> viewport element gives the browser instructions on how to control the page's dimensions and scaling. -->  
+  <meta charset="utf-8" />
+  <meta name="author" content="" />
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title></title>
 </head>
 ```
-#### More Information:
-For additional information on the <meta> tag, please visit the following:
-(https://www.w3schools.com/TAgs/tag_meta.asp "w3schools.com <meta> tag")
-(https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta "MDN <meta> tag")
 
-
-
+### More Information:
+- [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta)
