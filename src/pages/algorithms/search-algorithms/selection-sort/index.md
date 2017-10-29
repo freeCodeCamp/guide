@@ -1,4 +1,8 @@
-# Selection Sort
+---
+title: Selection Sort
+---
+
+## Selection Sort
 
 Selection Sort is one of the most simple sorting algorithms. It works in the following way,
 
@@ -16,7 +20,7 @@ But, how would you write the code for finding the index of the second smallest v
 An implementation in C/C++ is as shown below,
 
 
-```
+```C
 for(int i = 0; i < n; i++)
 {
 	int min_index = i;
