@@ -3,11 +3,21 @@ title: Area of a Triangle
 ---
 ## Area of a Triangle
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/area-of-a-triangle/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+<p> A triangle is a polygon with three sides. The area of a triangle can be calculated in several ways: </p>
+<img src="https://dj1hlxw0wr920.cloudfront.net/userfiles/wyzfiles/d72bfced-08a8-4d9e-bb9c-36c1f852e14f.gif">
+<p> 1.If the base and height are known:</p>
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+``` Area= 1/2*base*height```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+<p> 2. If the triangle is scalene(all sides are unequal) and all sides are known:</p>
+ Area= <span>
+&radic;<span style="text-decoration:overline;">&nbsp;p(p-a)(p-b)(p-c)&nbsp;</span>
+</span>
+<p> where 'p' is the semi-perimeter: </p> 
+
+``` p= a+b+c/2 ``` 
+
+
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
