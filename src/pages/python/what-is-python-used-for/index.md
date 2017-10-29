@@ -22,4 +22,30 @@ The presence of computing is Artificial Intelligence. AI has come to stay and Py
 Here's a <a href='https://www.python.org/about/apps/' target='_blank' rel='nofollow'>link</a> to appications of Python on it's offical website.
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
+#### Python is generally used for 
+
+* Web & Internet Development
+* Educational Advancment
+* Scientific Studies/Computing
+* Desktop development
+* Numeric Computing
+* Software development
+* Business Application development
+* Machine Learning
+* IOT
+* Game Development
+* Rapid Prototyping
+* Browser Automation
+* Data analysis
+
+#### Some article covering the usability of python
+
+* <a href='http://www.dummies.com/programming/python/10-major-uses-of-python/' target='_blank' rel='nofollow'>10 MAJOR USES OF PYTHON</a>
+* <a href='https://www.python.org/about/apps/' target='_blank' rel='nofollow'>Applications for Python</a>
+* <a href='https://stackoverflow.com/questions/3043085/where-is-python-language-used' target='_blank' rel='nofollow'>Where is python Language used</a>
+* <a href='https://stackoverflow.com/questions/1909512/what-is-python-used-for' target='_blank' rel='nofollow'>What is python used for</a>
+
+
+
+The offcial package index for python is <a href='https://pypi.python.org/pypi' target='_blank' rel='nofollow'>here</a>
 
