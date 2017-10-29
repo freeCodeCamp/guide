@@ -1,7 +1,7 @@
 ---
 title: What Is an Sdk
 ---
-## What Is an Sdk
+## What Is an SDK
 
 A Software Development Kit (SDK) is a set of tools and libraries that you can use to create applications for a specific software package. 
 
@@ -13,3 +13,6 @@ It may be something as simple as the implementation of one or more application p
 
 Common tools include debugging facilities and other utilities, often presented in an integrated development environment (IDE). SDKs also frequently include sample code and supporting technical notes or other supporting documentation to help clarify points made by the primary reference material.
 
+#### More Information: 
+
+For further reading regarding the SDK, you can read the wiki page <a href="https://en.wikipedia.org/wiki/Software_development_kit">here</a> and watch an infovideo on <a href="https://www.instabot.io/what-is-an-sdk"> Instabot</a>.
