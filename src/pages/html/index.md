@@ -11,6 +11,8 @@ The HyperText part of HTML comes from the early days of the web. Pages usually c
 
 HTML5 is the latest version, or specification, of HTML. The World Wide Web Consortium (W3C) is the organization responsible for developing standards for the World Wide Web, including those for HTML. As web pages and web applications grow more complex, W3C runs the process to update HTML's standards.
 
+Every webpage you look at is written in a language called HTML. You can think of HTML as the skeleton that gives every webpage structure. In this course, we'll use HTML to add paragraphs, headings, images and links to a webpage.
+
 ## Other Resources
 
 - [HTML Elements](#)
@@ -48,4 +50,5 @@ HTML5 is the latest version, or specification, of HTML. The World Wide Web Conso
     <td>2014</td>
   </tr>
 </table>
+
 
