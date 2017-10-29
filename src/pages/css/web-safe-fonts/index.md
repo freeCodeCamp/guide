@@ -3,13 +3,11 @@ title: Web Safe Fonts
 ---
 ## Web Safe Fonts
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/web-safe-fonts/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Web safe fonts are fonts that come pre-installed on most computer systems. You use web safe fonts when you want your content to look the same across a wide range of systems.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+If a website uses a font you don't already have installed, the browser will choose the font. The content will then not look the way it is intended to look.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+For a collection of web safe fonts, visit [CSS Font Stack](https://www.cssfontstack.com).
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+#### More information
+[Web Typography - Wikipedia](https://en.wikipedia.org/wiki/Web_typography#Web-safe_fonts)
