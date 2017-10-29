@@ -151,5 +151,5 @@ The following example shows how to validate an entered email address. An email a
 Lookout [here](https://liveweave.com/nznVs6)
 
 ## More Information About Form Validation
-[MDN Reference](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Form_validation)
+[MDN Reference](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Form_validation)<br />
 [Tutorialspoint](https://www.tutorialspoint.com/javascript/javascript_form_validations.htm)
