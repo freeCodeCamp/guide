@@ -3,13 +3,10 @@ title: Symbols
 ---
 ## Symbols
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/symbols/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+HTML character references are short bits of HTML, commonly referred to as character entities or entity codes, that are used to display characters that have special meaning in HTML as well as characters that don’t appear on your keyboard.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+HTML symbols like mathematical operators, arrows, technical symbols and shapes, are not present on a normal keyboard.
+Example:
+`<p>I will display &euro;</p>`  We will see ` I will display €`
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+A complete list of all HTML character references is maintained by the [World Wide Web Consortium](http://w3c.github.io/html/syntax.html#named-character-references) as part of the HTML specification.
