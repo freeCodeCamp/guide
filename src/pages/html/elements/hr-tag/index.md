@@ -23,3 +23,6 @@ It's very important to clarify that this tag is a thematic break; in previous ve
   </body
 </html>
 ```
+
+#### More Information:
+- <a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr' target='_blank' rel='nofollow'>MDN</a>
