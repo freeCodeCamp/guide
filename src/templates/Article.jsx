@@ -48,7 +48,9 @@ function getOgImage(html) {
   if (image) {
     return image.src;
   } else {
-    return 'https://raw.githubusercontent.com/freeCodeCamp/guides/master/assets/FCC-banner.png';
+    return 'https://raw.githubusercontent.com/' +
+      'freeCodeCamp/guides/master/assets/' +
+      'FCC-banner.png';
   }
 }
 
