@@ -6,7 +6,7 @@ RPM package file is a Red Hat Package Manager file and enables quick and easy so
 </div>
 
 # Setting Up Yum Repositories in RedHat CentOS Linux
-Step1: Check if there exixt repo or not<br>
+Step1: Check if there exist repo or not<br>
 ```#yum repolist```
 <br>You will find there is no repositories<br>
 Step2: Change Directory to-><br>
