@@ -3,13 +3,9 @@ title: Trojans
 ---
 ## Trojans
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/security/trojans/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+A Trojan Horse, or Trojan, is a malicious computer program that misleads a user as to its actual intent.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Many modern Trojans are spread through social engineering, such as innocuous-looking attachments which are actually executables. Many Trojans will set up backdoors on a victim's computer, allowing their controller access to users' personal information. They may also multiply and spread themselves via the victim's computer.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+<a href="https://en.wikipedia.org/wiki/Trojan_horse_(computing)">Wikipedia's article on Trojan Horse Viruses</a>
