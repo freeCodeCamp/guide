@@ -16,6 +16,8 @@ Because we know that names in the phonebook are sorted alphabetically, we could 
 
 Time complexity: As we dispose off one part of the search case during every step of binary search, and perform the search operation on the other half, this results in a worst case time complexity of </b><i>O</i>(<i>log<sub>2</sub>N</i>)<b>.
 
+/b><i>O</i>(<i>log<sub>2</sub>N</i>)<b> is such so because at every step half of the elements in the data set are gone which is justified by the base of the logarithmic function.
+
 This is the binary search algorithm. It is elegant and efficient but for it to work correctly, the array must be **sorted**.
 
 <hr>
