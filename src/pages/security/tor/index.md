@@ -14,6 +14,13 @@ Tor has many other usecases. Journalists reporting from areas where their lives 
 
 Edward Snowden, the NSA whistleblower, has mentioned Tor favorably as a very well put-together program. Famously, an internal NSA memo that was leaked referred to it as "the king of high-secure, low-latency internet anonymity There are no contenders to the throne in waiting".
 
+#### How it Work
+
+Tor works on the concept of ‘onion routing’ method in which the user data is first encrypted and then transferred through different relays present in the Tor network, thus creating a multi-layered encryption (layers like an onion), thereby keeping the identity of the user safe.
+
+One encryption layer is decrypted at each successive Tor relay, and the remaining data is forwarded to any random relay until it reaches its destination server. For the destination server, the last Tor node/exit relay appears as the origin of the data. It is thus tough to trace the identity of the user or the server by any surveillance system acting in the mid-way.
+
+Other than providing anonymity to standalone users, Tor can also provide anonymity to websites and servers in the form of Tor Hidden Services. Also, P2P applications like BitTorrent can be configured to use the Tor network and download torrent files.
 
 #### More Information:
 <a href='https://www.torproject.org' target='_blank' rel='nofollow'>The Tor Project</a>
