@@ -157,3 +157,14 @@ a /= 3; // a = a / 3 = 21 / 3 = 7
 int a = 21;
 a %= 5; // a = a % 5 = 21 % 5 = 1
 ```
+
+## Relational Operators
+
+The following table shows all the relational operators supported by C. Assume variable A holds 10 and variable B holds 20 then −
+
+```
+(A == B) is not true.
+```
+```
+(A != B) is true.
+```
