@@ -3,33 +3,24 @@ title: Responsive Web Design
 ---
 ## Responsive Web Design
 
-Responsive Web Design is Desiging approach for the web for diffrent screen Sizes, the Same codebase by using CSS Grids, Frameworks or more basically media queries.
+Responsive Web Design (RWD) is an approach that aims to maximise the compatibility of a website across a broad range of devices (such as computers, phones, tablets, etc.).
 
-There are 2 ways to make Webpages responsive.
+Previously, it was common practice to maintain a separate codebase for each device. However, this increased development time and reduced performance (due to the [user agent](https://guide.freecodecamp.org/user-agent/) having to perform detection and redirection tasks). These issues are resolved by RWD, which utilises a single codebase (with identical HTML output) for all devices.
 
-#### 1. Media queries
-```css
-@media (query) {
-  /* CSS Rules used when query matches */
-}
-```
+A [progressive enhancement](https://guide.freecodecamp.org/css/progressive-enhancement/) (as opposed to a [graceful degradation](https://guide.freecodecamp.org/css/graceful-degradation/)) strategy is encouraged, and can be achieved with the following implementations:
+1. [HTML viewport meta tag](https://guide.freecodecamp.org/html/elements/meta-tag/)
+2. [Breakpoints](https://guide.freecodecamp.org/css/breakpoints/)
+3. [CSS media queries](https://guide.freecodecamp.org/css/media-queries/)
+4. [CSS relative units](https://guide.freecodecamp.org/css/units/)
 
-##### 2. CSS Frameworks
+Popular CSS frameworks (such as [Bootstrap](http://getbootstrap.com/) and [Foundation](https://foundation.zurb.com/)) have been developed around RWD principles, and can be advantageous for efficient prototyping.
 
-by using CSS Frameworks, we can use CSS Classes pre built by the popular frameworks like Bootstrap or Foundation to be used in the class attribute of our element like
-```html
-<div class="col-md-9 col-sm-6"></div>
-```
-In the above div on medium screen size devices, this div will be shown 9 out of 12 columns, while in small size devices will show this in 6 out of 12 columns. that's the beuty of reposive designing. What basically CSS Frameworks do is they provide Grid based design as in below image you can see grids of Bootstrap framework.
-![Grid Example](https://www.javatpoint.com/bootstrappages/images/bootstrapgrid.jpg "Basic Grid Example")
+#### Example:
 
-Below I am giving popular frameworks links:
-1. <a href='https://www.getbootstrap.com' target='_blank' rel='nofollow'>Bootstrap</a>
-2. <a href='https://foundation.zurb.com/' target='_blank' rel='nofollow'>Foundation</a>
-3. <a href='https://getmdl.io/' target='_blank' rel='nofollow'>Material Design Lite</a>
+![Without RWD vs With RWD](https://i.imgur.com/RnShEST.png)
+
+*Image courtesy of [Google Developers](https://developers.google.com/).*
 
 #### More Information:
-1. <a href='https://medium.freecodecamp.org/css-flexbox-interactive-tutorial-in-8-minutes-including-cheat-sheet-6214e00de3d2' target='_blank' rel='nofollow'>CSS Flexbox Complete tutorial in 8 minutes</a>
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+- [Wikipedia](https://en.wikipedia.org/wiki/Responsive_web_design)
+- [Google Developers](https://developers.google.com/web/fundamentals/design-and-ux/responsive/)
