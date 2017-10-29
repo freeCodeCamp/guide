@@ -6,7 +6,7 @@ title: P Tag
 The `<p>` tag stands for paragraph, which is the most common tag used to create lines of words inside the `<html>` document. Using `<p>` will be very useful because add the margin automatically between elements. It's possible to work without `p` but is counter-intuitive because -also- will be difficult to with the css file.
 
 ### P tag with other tags
-The use of the `<p>` is complatible with other tags, allowing also to add hyperlinks (`<a>`), black (`<strong>`), italics(`<i>`) among others.
+The use of the `<p>` is compatible with other tags, allowing also to add hyperlinks (`<a>`), black (`<strong>`), italics(`<i>`) among others.
 
 ### Example
 ```html
