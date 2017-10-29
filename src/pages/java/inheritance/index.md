@@ -189,3 +189,6 @@ Remember, if the superclass does not have any constructors defined, you dont hav
 If no other constructors are defined, then Java invokes the default super class constructor (_even if not defined explicitly_).
 
 Congrats, now you know all about Inheritance! Read more about advanced ways to inherit things in Abstract Classes and [Interfaces](//forum.freecodecamp.com/t/java-docs-interfaces)!
+
+Extra
+Inheritance allows a class to be a subclass of a supreclass, and thereby inherit public and protected variables and methods of the superclass.
