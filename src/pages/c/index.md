@@ -112,7 +112,7 @@ Make a new program with `File` -> `New` -> `Project` -> `OS X`. Then, select "Ne
 
 To run the code, click `Product` -> `Run`.
 
-# Before you go on...
+# Before you go on....
 
 ## A review
 * C is useful because it's small, fast, and has access to low-level operations. Because of this, it gets used a lot in robotics, operating systems, and consumer electronics, but not in things like webpages.
@@ -121,3 +121,6 @@ To run the code, click `Product` -> `Run`.
  * The main function, which is where the code will first be executed and is required in order to compile
  * Stuff within that main function which will get executed, including a return statement that closes the program and gives a value to the program that called it
 * C needs to be compiled in order to run.
+
+
+
