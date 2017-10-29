@@ -11,9 +11,7 @@ A deprecated tag that is one that can still be used technically, however it is m
 
 An example of the tags necessary to embed a Youtube video is below.
 
-``<iframe width="420" height="315"
-src="https://www.youtube.com/embed/XGSy3_Czz8k">
-</iframe>``
+``<iframe width="420" height="315"src="https://www.youtube.com/embed/XGSy3_Czz8k"></iframe>``
 
 There are differ properties you can use to embed a youtube video with ``<iframe>``. A ``<iframe>`` embedded video can autoplay or it can have controls, an embedded youtube video using ``<iframe>`` can even ``loop`` infinitely.
   
