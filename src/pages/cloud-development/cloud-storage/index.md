@@ -7,7 +7,7 @@ When we use the storage of cloud, that is the StAAS. In this, cloud system has s
 Cloud system should have the capability of Storage Scaling.
 We can integrate all storage. For example, if we have multiple pen-drives then we can integrate all pen-drive storages in a single one. 
  
-There are mainly two types of storage – 
+There are mainly two types of storage :
 1. Object
 2. Block 
  
