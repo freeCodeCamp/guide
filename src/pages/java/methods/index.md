@@ -3,6 +3,16 @@ title: Methods
 ---
 # Methods
 
+In java, methods are generally used to access the private data members of a class and perform a task.
+
+Syntax of a method in java:
+```java
+Access-specifier Return-type Method-name(Arguments){
+
+}
+```
+
+***Example:***
 `getName()` and `getManufacturerName()` are two "Getter" methods we have used here. Notice, unlike JavaScript, we **have** to define the return type of any method we write, otherwise it will fail at compile time. If you do not want a method to return anything, use `void` return type.
 
 ```java
