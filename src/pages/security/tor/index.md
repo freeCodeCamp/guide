@@ -14,6 +14,8 @@ Tor has many other usecases. Journalists reporting from areas where their lives 
 
 Edward Snowden, the NSA whistleblower, has mentioned Tor favorably as a very well put-together program. Famously, an internal NSA memo that was leaked referred to it as "the king of high-secure, low-latency internet anonymity There are no contenders to the throne in waiting".
 
+#### Important Points
+There is nothing which can provide absolute anonymity but with the right set of tools and proper precautions, one can very well be untracable. TOR tries to do so by routing the traffic through multiple computers(or servers) distributed around the world. Since, the requests are encrypted and distributed, the likelyhood of user being traced back decreases.
 
 #### More Information:
 <a href='https://www.torproject.org' target='_blank' rel='nofollow'>The Tor Project</a>
