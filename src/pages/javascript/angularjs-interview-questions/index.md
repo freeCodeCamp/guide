@@ -19,3 +19,6 @@ Answer: Routing is a core feature in AngularJS. This feature is useful in buildi
 
 Question: Explain ng-repeat directive.
 Answer: The ng-repeat directive is the most used and very useful AngularJS Directive feature. It iterates over a collection of items and creates DOM elements. It constantly monitors the source of data to re-render a template in response to change.
+
+Question: What is $rootScope and how is it related to $scope ?
+Answer: $rootScope is the parent object of all $scope Angular objects created in a web page.
