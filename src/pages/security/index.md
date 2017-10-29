@@ -16,3 +16,17 @@ There are "white hat hackers" who try to discover new vulnerabilities and bring 
 There are also "black hat hackers" who do not disclose the vulnerabilities they discover, and instead use them to create exploits to attack people's systems. They often do this to steal data that they can ransom off, or just release into the open to cause chaos.
 
 Security researchers use a wide variety of methods and tools, which are discussed in this section.
+
+Ways to prevent your system from getting hacked:
+----
+ Have a strong passcode.
+ 
+ Use trusted devices(avoid using public devices).
+ 
+ Install encryption software so it's difficult for attackers to access your information.
+ 
+ 
+ 
+ 
+ 
+ 
