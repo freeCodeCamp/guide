@@ -3,12 +3,7 @@ title: Packets
 ---
 ## Packets
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/network-engineering/packets/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-  A packet is a basic unit of communication over a digital network. A packet is also called a **datagram, a segment, a block, a cell or a frame,** depending on the protocol used for the transmission of data. When data has to be transmitted, it is broken down into similar structures of data before transmission, called packets, which are reassembled to the original data chunk once they reach their destination.
+A packet is a basic unit of communication over a digital network. A packet is also called a **datagram, a segment, a block, a cell or a frame,** depending on the protocol used for the transmission of data. When data has to be transmitted, it is broken down into similar structures of data before transmission, called packets, which are reassembled to the original data chunk once they reach their destination.
   
 ## Structure of a Data Packet
   The structure of a packet depends on the type of packet it is and on the protocol. Read further below on packets and protocols. Normally, a packet has a header and a payload.
@@ -17,11 +12,11 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
   
   * The source IP address, which is the IP address of the machine sending the data.
   * The destination IP address, which is the machine or device to which the data is sent.
-  * The sequence number of the packets, a number that puts the packets in order such that they are reassembled in a way to get the⋅⋅      ⋅⋅⋅⋅⋅⋅⋅original data back exactly as it was prior to transmission.
+  * The sequence number of the packets, a number that puts the packets in order such that they are reassembled in a way to get the original data back exactly as it was prior to transmission.
   * The type of service.
   * Flags.
   * Some other technical data.
-  * The payload, which represents the bulk of the packet (all the above is considered as overhead), and is actually the data being⋅⋅  ⋅⋅⋅⋅⋅⋅⋅carried.
+  * The payload, which represents the bulk of the packet (all the above is considered as overhead), and is actually the data being carried.
   
 ## Packets and Protocols
   Packets vary in structure and functionality depending on the protocols implementing them. VoIP uses the IP protocol, and hence IP packets. On an Ethernet network, for example, data is transmitted in Ethernet frames.
