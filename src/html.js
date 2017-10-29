@@ -5,7 +5,6 @@ import Helmet from 'react-helmet';
 import preloads from './head/preloads';
 import metaAndStyleSheets from './head';
 
-
 export default class HTML extends React.Component {
   static propTypes = {
     body: PropTypes.string,
