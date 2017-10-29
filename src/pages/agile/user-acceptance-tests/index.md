@@ -3,13 +3,10 @@ title: User Acceptance Tests
 ---
 ## User Acceptance Tests
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/user-acceptance-tests/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+User Acceptance Tests (UAT) are part of the software development lifecycle. UAT is the fourth, last step in the 4 step testing process. The 4 steps: unit testing, integration testing, system testing and then acceptance testing. 
+In UAT clients confirm if the software under testing (SUT) meets  business needs. UAT decide if the developer team can release the SUT to the next step. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+#### More Information: Internation Software Testing Qualifications Board: http://www.istqb.org/
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
 
