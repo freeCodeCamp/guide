@@ -13,7 +13,7 @@ System.out.println(course instanceof Object); // <- This prints 'true'
 You can create a String in the following ways:
 
 1.  `String str = "I am a String";` //This is a String literal
-2.  `String str = new String("I am a String")`; //This is a String Object
+2.  `String str = new String("I am a String")`; //This is a String Object (refer to Objects in Java guide for more information on objects)
 
 You might be thinking: What's the difference between the two?
 
@@ -26,8 +26,8 @@ String str = "This is a string";
 String str2 = "This is a string";
 String str3 = new String("This is a string");
 
-System.out.println(str == str2); // This prints true
-System.out.println(str == str3); // This prints false
+System.out.println(str == str2); // This prints true in the Java console
+System.out.println(str == str3); // This prints false in the Java console
 ```
 
 The answer is: 2 String objects are created.
