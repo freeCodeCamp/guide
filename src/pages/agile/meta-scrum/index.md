@@ -3,13 +3,12 @@ title: Meta Scrum
 ---
 ## Meta Scrum
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/meta-scrum/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+<sup> Meta Scrum is a type of commmunication used to coordinate resources and dependencies. It is generally used for large projects that are worked on by multiple teams. </sup> This is also referred to as the scrum of scrums.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+AgileAlliance: [Scrum of Scrums](https://www.agilealliance.org/glossary/scrum-of-scrums/)
+
+### Sources
+1. “Meta-Scrum - SolutionsIQ.” SolutionsIQ. Accessed October 29, 2017.
 
 
