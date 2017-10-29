@@ -48,6 +48,42 @@ This is a list of the CSS classes that bootstrap provides for buttons.
 
 <button type="button" class="btn btn-link">Link</button>
 
+`.btn-dark` This is bootstrap's link button.
+
+<button type="button" class="btn btn-dark">Dark</button>
+
+`.btn-outline-primary` This is bootstrap's outline primary button.
+
+<button type="button" class="btn btn-outline-primary">Primary</button>
+
+`.btn-outline-secondary` This is bootstrap's outline secondary button.
+
+<button type="button" class="btn btn-outline-secondary">Secondary</button>
+
+`.btn-outline-success` This is bootstrap's outline success button.
+
+<button type="button" class="btn btn-outline-success">Success</button>
+
+`.btn-outline-danger` This is bootstrap's outline danger button.
+
+<button type="button" class="btn btn-outline-danger">Danger</button>
+
+`.btn-outline-warning` This is bootstrap's outline warning button.
+
+<button type="button" class="btn btn-outline-warning">Warning</button>
+
+`.btn-outline-info` This is bootstrap's outline info button.
+
+<button type="button" class="btn btn-outline-info">Info</button>
+
+`.btn-outline-light` This is bootstrap's outline light button.
+
+<button type="button" class="btn btn-outline-light">Light</button>
+
+`.btn-outline-dark` This is bootstrap's outline dark button.
+
+<button type="button" class="btn btn-outline-dark">Dark</button>
+
 #### Bootstrap Button Sizes:
 This is a list of the CSS classes for different size of the buttons.
 
@@ -55,11 +91,11 @@ This is a list of the CSS classes for different size of the buttons.
 
 <button type="button" class="btn btn-lg">Large</button>
 
-`.btn-sm` This is bootstrap's large button.
+`.btn-sm` This is bootstrap's small button.
 
 <button type="button" class="btn btn-sm">Small</button>
 
-`.btn-xs` This is bootstrap's large button.
+`.btn-xs` This is bootstrap's Extra Small button.
 
 <button type="button" class="btn btn-xs">Extra Small</button>
 
