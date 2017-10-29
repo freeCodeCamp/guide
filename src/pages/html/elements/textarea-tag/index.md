@@ -3,13 +3,16 @@ title: Textarea Tag
 ---
 ## Textarea Tag
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/textarea-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The HTML textarea tag allows you to enter a box that will contain text for user feedback or interaction. In most cases, it is common to see the textarea used as part of a form.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+```
+<textarea  rows="10" cols="50">
+  Example
+</textarea>
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
+For more information please visit this <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea">page</a>.
 
