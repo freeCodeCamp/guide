@@ -20,6 +20,6 @@ title: Area of a Triangle
 
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+<a href="https://www.khanacademy.org/math/basic-geo/basic-geo-area-and-perimeter/area-triangle/a/area-of-triangle"> Khan Academy </a>
 
 
