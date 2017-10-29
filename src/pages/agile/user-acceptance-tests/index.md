@@ -3,13 +3,8 @@ title: User Acceptance Tests
 ---
 ## User Acceptance Tests
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/user-acceptance-tests/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+When do all the parties, all the departments or all the users officially test the product and accept or refuse it? Before we try to answer that question, a quick reminder of what User Acceptance Testing actually is.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+According to the leading international testing organization ISTQB , User Acceptance Testing is:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+## “Formal testing with respect to user needs, requirements, and business processes conducted to determine whether or not a system satisfies the acceptance criteria and to enable the user, customers or other authorized entity to determine whether or not to accept the system” Source: www.istqb.org
