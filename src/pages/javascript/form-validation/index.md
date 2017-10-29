@@ -1,3 +1,6 @@
+---
+title: Form Validation
+---
 ## Form Validation
 
 Form validation is usually checking user input to ensure that it can be accepted by the application in need of data.  This validation can occur on the client side (in the browser with javascript) or on the server side (after the data has been submitted).  Generally validation should occur on the client side when possible.
