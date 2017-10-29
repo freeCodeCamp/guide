@@ -2,7 +2,7 @@
 title: Enums
 ---
 
-# Enums
+## Enums
 
 Developers can use `Enums` to define a set of named constants.
 
