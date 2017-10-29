@@ -80,6 +80,7 @@ We've written the following guide to writing Guide articles to help you get star
 - [Formatting example code](#formatting-example-code)
 - [Adding images to articles](#adding-images-to-articles)
 - [Adding links to articles](#adding-links-to-articles)
+- [Create Table](#create-table)
 - [Proper nouns](#proper-nouns)
 - [Where to get help](#where-to-get-help)
 
@@ -230,6 +231,25 @@ Use Markdown style links in your articles to link to other websites.
 
 ```
 [freeCodeCamp](https://www.freecodecamp.org/)
+```
+
+### Create table
+
+Markdown's style for creating table. Cell Alignment: `:---:` (center), `---:` (right).
+```
+| This is  | Markdown Table | Guide   |
+| -------- |:--------------:| -------:|
+| Col 1    |  center        |  right  |
+| Col 2    |  align         |  align  |
+|*italic*  | **bold**       | `code`  |
+```
+
+Actually we don't have to write it prettily as above.
+
+```
+Table | Less Pretty | Guide Here
+--- |:---:| ---:
+*italic* | **bold** | `code`
 ```
 
 ### Proper nouns
