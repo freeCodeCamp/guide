@@ -29,3 +29,6 @@ The `<ul>` can be nested inside other lists and is compatible with others tag su
 ```
 ## Other Resources
 - The ordered list `<ol>`
+
+#### More Information:
+<a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul' target='_blank' rel='nofollow'>MDN</a>

@@ -21,3 +21,6 @@ The use of the `<p>` is complatible with other tags, allowing also to add hyperl
 </body>
 </html>
 ```
+
+#### More Information:
+<a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p' target='_blank' rel='nofollow'>MDN</a>

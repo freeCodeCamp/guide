@@ -19,3 +19,6 @@ Underlining text with the `<span>` tag:
 ```
 <span style="text-decoration: underline">Everyone</span> has been talking about <span style="text-decoration: underline">freeCodeCamp</span> lately.
 ```
+
+#### More Information:
+<a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/u' target='_blank' rel='nofollow'>MDN</a>
