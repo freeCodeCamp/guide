@@ -3,13 +3,40 @@ title: Bootstrap Grid Examples
 ---
 ## Bootstrap Grid Examples
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/bootstrap/bootstrap-grid-examples/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Below we have collected some examples of basic Bootstrap grid layouts.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+## The following example shows how to get a three equal-width columns starting at tablets and scaling to large desktops. On mobile phones, the columns will automatically stack:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+<div class="row">
+  <div class="col-sm-4">.col-sm-4</div>
+  <div class="col-sm-4">.col-sm-4</div>
+  <div class="col-sm-4">.col-sm-4</div>
+</div>
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+## The following example shows how to get a three various-width columns starting at tablets and scaling to large desktops:
 
+<div class="row">
+  <div class="col-sm-3">.col-sm-3</div>
+  <div class="col-sm-6">.col-sm-6</div>
+  <div class="col-sm-3">.col-sm-3</div>
+</div>
 
+## The following example shows how to get two various-width columns starting at tablets and scaling to large desktops:
+
+<div class="row">
+  <div class="col-sm-4">.col-sm-4</div>
+  <div class="col-sm-8">.col-sm-8</div>
+</div>
+
+## The following example shows how to get two columns starting at tablets and scaling to large desktops, with another two columns (equal widths) within the larger column (at mobile phones, these columns and their nested columns will stack):
+
+<div class="row">
+  <div class="col-sm-8">
+    .col-sm-8
+    <div class="row">
+      <div class="col-sm-6">.col-sm-6</div>
+      <div class="col-sm-6">.col-sm-6</div>
+    </div>
+  </div>
+  <div class="col-sm-4">.col-sm-4</div>
+</div>
