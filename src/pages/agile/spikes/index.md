@@ -3,13 +3,14 @@ title: Spikes
 ---
 ## Spikes
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/spikes/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Agile Development often asks us to know what we're going to before we do it, and how we are going to do it, and how long we will think it will take. But, what if we don't know the answer to these questions, and cannot even make a reasonable estimate? That's where Spikes come in.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+A Spike is used when you have questions that you cannot answer until you have done some development. Maybe the team is dealing with some legacy code that no-one has any knowledge of. How long will it take to update this code? The honest answer might be, we don't know until we look at it. In this case you might introduce a time-boxed Spike - we might spend a day investigating it in this sprint, and then come back and estimate once we have an idea what we're looking at.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+So, a Spike is typically a development task that is more of an investigation or an experiment. Use Spikes to gather information or answer questions, and then use your new knowledge to help you as you progress in the project.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+
+[Scaled Agile Framework - Spikes](http://www.scaledagileframework.com/spikes/)
 
 
