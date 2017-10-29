@@ -18,8 +18,8 @@ if(boolean_expression) {
 #### Example
 ```C
 int a = 100;
-if(a < 200) {
-    printf("a is less than 200\n" );
+if(a < 800) {
+    printf("a is less than 800\n" );
 }
 ```
 #### Result
@@ -40,8 +40,8 @@ else {
 ```
 #### Example
 ```C
-int a = 300;
-if(a < 200) {
+int a = 500;
+if(a < 300) {
     printf("a is less than 200\n" );
 }
 else {
