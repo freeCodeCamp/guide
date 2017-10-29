@@ -275,3 +275,40 @@
 .skip-link:focus {
     position: absolute;
 }
+
+/* @jc night mode branch */
+
+body {
+  background-color: #656262;
+}
+
+h1, h2, h3, h4, h5, h6, p, li {
+  color: lightgray;
+}
+
+
+
+.title {
+  background-color: #656262;
+}
+
+.navPanelUl {
+  background-color: #656262;
+}
+
+.navBar {
+  background-color: black;
+}
+
+/* links */
+a {
+  color: white;
+}
+
+.panel-title>.small, .panel-title>.small>a, .panel-title>a, .panel-title>small, .panel-title>small>a {
+  color: white;
+}
+
+.navItemTitle {
+  color: white;
+}
