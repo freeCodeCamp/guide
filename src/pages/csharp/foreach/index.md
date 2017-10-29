@@ -2,12 +2,12 @@
 title: ForEach Loop
 ---
 
-# ForEach Loop
+## ForEach Loop
 
 The ForEach loop executes a block of code for each item in a collection.
 
-## Example
-```
+### Example
+```csharp
 List<string> Names = new List<string>{ "Jim", "Jane", "Jack" }
 
 foreach(string name in Names)
@@ -17,7 +17,7 @@ foreach(string name in Names)
 ```
 
 ## Output:
-```
+```sh
 > We have Jim
 > We have Jane
 > We have Jack
