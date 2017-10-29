@@ -6,7 +6,7 @@ title: Switch Case
 
 The switch statement is like a set of `if statements`.
 It's a list of possibilities, with an action for each possibility, and an optional default action, in case nothing else evaluates to true.
-We exit from the switch by `break`.
+We exit from the switch by `break`.  If the `break` is omitted at the end of an action, we will 'fall-though' to the next action as well.
 
 ## Example
 ```
