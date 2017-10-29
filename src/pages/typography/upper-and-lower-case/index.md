@@ -3,13 +3,16 @@ title: Upper and Lower Case
 ---
 ## Upper and Lower Case
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/typography/upper-and-lower-case/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Many languages have two different written representations of their letters, **upper case** and **lower case**, also known as majuscule and minuscule forms. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Upper case and lower case letters are often mixed in the same piece of text. The use of cases is decided by grammar, but a variety of [case styles](https://en.wikipedia.org/wiki/Letter_case#Case_styles) also exists. 
+Certain case styles are common in computer programming, referred to as [naming conventions](https://guide.freecodecamp.org/javascript/naming-convention-for-javascript), like CamelCase and snake_case.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+#### History
+Historically, the majuscule, upper case, letters came first. Alphabets were written entirely in upper case letters. Eventually, as writing speed by hand increased, the form of upper case letters would turn simpler and smaller forming the foundation of minuscule, lower case letters. Lower case letters also increased readability.  
+
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+Read about [Letter case](https://en.wikipedia.org/wiki/Letter_case#Case_styles) on Wikipedia
 
 
