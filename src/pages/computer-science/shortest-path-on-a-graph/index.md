@@ -8,7 +8,7 @@ Finding the shortest path between two points on a graph is a common problem in d
 
 Some applications of this are flight path optimization or <a href='https://en.wikipedia.org/wiki/Six_Degrees_of_Kevin_Bacon' target='_blank' rel='nofollow'>6 degrees of Kevin Bacon</a>
 
-The most commen solution for this problem is Dijkstra's algorithm which updates the shortest path between the current node and all of its neighbors. After updating the distance of all of the neighbors it moves to the node with the lowest distance and repeats the process with all unvisted neighbors. This process continues until the entire graph has been visited.
+The most commen solution for this problem is Dijkstra's algorithm which updates the shortest path between the current node and all of its neighbors. After updating the distance of all of the neighbors it moves to the node with the lowest distance and repeats the process with all unvisted neighbors. This process continues until the entire graph has been visited. This algorithm extends Breath-First-Search (BFS) algorithm, which is to search all children of the current node and update the shortest length of each child.
 
 ![Image of Levels of Code](https://upload.wikimedia.org/wikipedia/commons/5/57/Dijkstra_Animation.gif)
 
