@@ -1,3 +1,4 @@
+
 ---
 title: Font Size Attribute
 ---
@@ -12,6 +13,7 @@ Syntax:
 
 Example:
 ```html
+<!DOCTYPE HTML>
 <html>
   <body>
     <font size="6">This is some text!</font>
