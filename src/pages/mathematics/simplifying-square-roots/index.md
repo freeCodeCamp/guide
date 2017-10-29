@@ -35,8 +35,8 @@ SQRT(5)
 SQRT(5)
 Which is equal to one, and you get:
    2      SQRT(5)   2 x SQRT(5)
-------- x ------- = -----------  because a square root multiplied by itself is the number in the square, the denominator is now a whole
-SQRT(5)   SQRT(5)        5       number, instead of a radical. The radical still exists in the top, but this is fine in most cases.   
+------- x ------- = -----------  because a square root multiplied by itself is the number in the square, the denominator is now a
+SQRT(5)   SQRT(5)        5       whole number, not a radical. The radical still exists in the top, but this is fine in most cases.   
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
