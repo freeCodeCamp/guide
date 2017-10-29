@@ -11,6 +11,5 @@ Real-life applications of Antiderivatives and Indefinite Integrals are commonly 
 
 #### More Information:
 
-Helpful article regarding Antiderivatives and Indefinite Integrals: https://www.intmath.com/integration/2-indefinite-integral.php
-
-Wolfram|Alpha is a useful tool for visualizing integration: http://www.wolframalpha.com/calculators/integral-calculator/
+- [Helpful article regarding Antiderivatives and Indefinite Integrals](https://www.intmath.com/integration/2-indefinite-integral.php)
+- [Wolfram|Alpha is a useful tool for visualizing integration](http://www.wolframalpha.com/calculators/integral-calculator/)
