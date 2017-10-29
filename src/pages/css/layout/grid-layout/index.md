@@ -1,15 +1,15 @@
 ---
-title: Grid Layout
+title: CSS Grid Layout
 ---
-## Grid Layout
-
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/layout/grid-layout/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+## CSS Grid Layout
+CSS Grid Layout is the most powerful layout system available in CSS.
+It is a 2-dimensional system, meaning it can handle both columns and rows, unlike flexbox which is largely a 1-dimensional system.
+Though Grid Layout isn't fully supported by all browsers, it's the most advanced and conveniet way to make page layouts.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+For more information, read <a href="http://chris.house/blog/a-complete-guide-css-grid-layout/" target="_blank">
+A Complete Guide to CSS Grid Layout</a> by Chris House.
+
+More info about browser support can be read at <a href="https://caniuse.com/#feat=css-grid" target="_blank">https://caniuse.com</a>.
 
 
