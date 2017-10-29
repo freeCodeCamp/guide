@@ -12,6 +12,7 @@ title: JavaScript Tutorials and Other Resources
 *   <a href='https://mbeaudru.github.io/modern-js-cheatsheet/' target='_blank' rel='nofollow'>Modern JS Cheatsheet</a>
 *   <a href='http://www.codeconquest.com/blog/top-50-websites-to-learn-javascript/' target='_blank' rel='nofollow'>The 50 Best Websites to Learn JavaScript</a> 
 *   <a href=' http://youmightnotneedjquery.com/' target='_blank' rel='nofollow'>You Might Not Need jQuery</a>
+*   <a href='https://watchandcode.com/p/practical-javascript' target='_blank' rel='nofollow'>Watch and Code</a>
 
 ## References
 
