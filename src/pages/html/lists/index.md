@@ -10,6 +10,13 @@ Ordered lists are another word for bulleted lists. You create an unordered list 
 
 Within the `<ol>` or `<ul>` tags, you need to put the items in the list. You add them using a `<li>` tag. Here is an example of an unordered list with items:
 ```HTML
+<ol>
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ol>
+```
+```HTML
 <ul>
   <li>Item 1</li>
   <li>Item 2</li>
