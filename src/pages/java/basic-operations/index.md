@@ -22,3 +22,10 @@ For e.g:
     int x = 10;
     int y = (x == 10) ? 5 : 9; // y will equal 5 since the expression x == 10 evaluates to true
 ```
+Example for string concatenations
+```java
+        String firstName = "James";
+        String lastName = "Gosling";
+        String greeting = "Hello " + firstName + " " + lastName;
+        System.out.println(greeting);
+```
