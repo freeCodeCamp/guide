@@ -2,14 +2,37 @@
 title: Table Tag
 ---
 ## Table Tag
-
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/table-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+The `<table>` tag allows you to display a table on your webpage.
+
+### Example
+```html
+<table>
+  <tr>
+    <td>Row 1, Cell 1</td>
+    <td>Row 1, Cell 2</td>
+  </tr>
+  <tr>
+    <td>Row 2, Cell 1</td>
+    <td>Row 2, Cell 2</td>
+  </tr>
+</table>
+```
+This code block would produce the following output:
+
+<table>
+  <tr>
+    <td>Row 1, Cell 1</td>
+    <td>Row 1, Cell 2</td>
+  </tr>
+  <tr>
+    <td>Row 2, Cell 1</td>
+    <td>Row 2, Cell 2</td>
+  </tr>
+</table>
+
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
+[MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table)
 
