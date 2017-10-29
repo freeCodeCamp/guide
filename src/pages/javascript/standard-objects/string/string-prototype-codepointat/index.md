@@ -3,9 +3,20 @@ title: String.prototype.codePointAt
 ---
 ## String.prototype.codePointAt
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/standard-objects/string/string-prototype-codepointat/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+`codePointAt` is a string function that returns the Unicode value for a string at a given position. This function takes a single argument that indicates your position of interest.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+```javascript
+str.codePointAt(position)
+```
+
+### Examples
+```javascript
+let str = 'Hello World'
+
+str.codePointAt(2); // 108 --> l
+str.codePointAt(0); // 72 --> H
+str.codePointAt() // 72 --> H (position value defaults to zero)
+```
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
