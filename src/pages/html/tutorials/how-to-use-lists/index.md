@@ -45,6 +45,46 @@ An unordered list is used to group a set of related items, in no particular orde
     <li>Pineapple Cake</li>
 </ul>
 
+### Nested Lists (lists inside lists)
+
+#### Code
+```html
+<ul>
+    <li>Chocolate Cake</li>
+    <li>Black Forest Cake
+        <ul>
+            <li>Small</li>
+            <li>Medium</li>
+            <li>Large</li>
+        </ul>
+    </li>    
+    <li>Pineapple Cake
+        <ul>
+            <li>Regular</li>
+            <li>Large</li>
+        </ul>
+    </li>
+</ul>
+```
+
+
+#### Example
+<ul>
+    <li>Chocolate Cake</li>
+    <li>Black Forest Cake
+        <ul>
+            <li>Small</li>
+            <li>Medium</li>
+            <li>Large</li>
+        </ul>
+    </li>    
+    <li>Pineapple Cake
+        <ul>
+            <li>Regular</li>
+            <li>Large</li>
+        </ul>
+    </li>
+</ul>
 
 ### Description Lists
 A description list is used to specify a list of terms and their descriptions. This list is created with `<dl>` tag. Each list item is surrounded with `<dd>` tag.
