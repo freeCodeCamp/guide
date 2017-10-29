@@ -3,13 +3,43 @@ title: Form Validation
 ---
 ## Form Validation
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/form-validation/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Javascript provide way to validate form's data on client side. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Basic Validation
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+HTML Form
+```
+<form action="form" onsubmit="return validateForm()" method="post">
+  <input type="text" name="name" placeholder="name">
+  <input type="text" name="address" placeholder="adress">
+  <textarea name="description"></textarea>
+  <input type="submit" value="Submit">
+</form>
+```
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+Javascript 
+```
+function validateForm() 
+{
+  if(document.form.name.value == "") {
+    alert("Name is required");
+    return false;
+  }
+  
+  if(document.form.address.value == "") {
+    alert("Address is required");
+    return false;
+  }
+}
+```
+
+### Data Validation
+
+Is the process of ensuring that user input is correct form and value. Validation can be defined by many different methods. 
+
+For [more info](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Form_validation)
+
+
+
 
 
