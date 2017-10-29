@@ -13,8 +13,8 @@ int divides(int a, int b) {
 }
 
 int main(void) {
-    int first = 5;
-    int second = 10;
+    int first = 8;
+    int second = 20;
 
     int result = divides(first, second);
 
