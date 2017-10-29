@@ -12,4 +12,4 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+Video game development is the process of creating a video game. The effort is undertaken by a game developer, which may range from a single person to an international team strewn across the globe. Traditional commercial PC and console games are normally funded by a publisher, and can take several years to reach completion. Indie games can take less time and can be produced at a lower cost by individuals and smaller developers. The independent game industry has seen a substantial rise in recent years with the growth of new online distribution systems, such as Steam and Uplay, as well as the mobile game market, such as for Android and iOS devices.
