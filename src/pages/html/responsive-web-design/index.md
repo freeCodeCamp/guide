@@ -27,9 +27,12 @@ Below I am giving popular frameworks links:
 1. <a href='https://www.getbootstrap.com' target='_blank' rel='nofollow'>Bootstrap</a>
 2. <a href='https://foundation.zurb.com/' target='_blank' rel='nofollow'>Foundation</a>
 3. <a href='https://getmdl.io/' target='_blank' rel='nofollow'>Material Design Lite</a>
+4. <a href='https://semantic-ui.com/' target='_blank' rel='nofollow'>Semantic UI</a>
+5. <a href='http://materializecss.com/' target='_blank' rel='nofollow'>Materialize</a>
 
 #### More Information:
 1. <a href='https://medium.freecodecamp.org/css-flexbox-interactive-tutorial-in-8-minutes-including-cheat-sheet-6214e00de3d2' target='_blank' rel='nofollow'>CSS Flexbox Complete tutorial in 8 minutes</a>
+2. <a href='https://medium.com/@purplecones/playing-with-css-grid-layout-a75836098370' target='_blank' rel='nofollow'>Playing with CSS Grid Layout</a>
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
 
