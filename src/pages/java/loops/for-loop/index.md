@@ -37,3 +37,18 @@ iter_For Value: 10
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CJYr/0' target='_blank' rel='nofollow'>Run Code</a>
 Extras
 You cannot use a number (old C-style language construct) or anything that does not evaluate to a boolean value as a condition for an if statement or looping construct. You can't, for example, say if(x), unless x is a boolean variable.
+
+Example
+```
+for (int i=0; i<100; i++) {
+  System.out.println("i:" + i);
+}
+```
+This loop prints:
+i:0
+i:1
+i:2
+i:3
+i:4
+...
+i:99
