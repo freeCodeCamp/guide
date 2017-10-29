@@ -22,3 +22,22 @@ For e.g:
     int x = 10;
     int y = (x == 10) ? 5 : 9; // y will equal 5 since the expression x == 10 evaluates to true
 ```
+
+Example for concatenation:
+```java
+    String name = "Tom";
+    name = "Hello! " + name;
+    System.out.println(name);
+    // Output:
+    // Hello! Tom
+```
+
+Examples for Logical Operators and Relational operators:
+```java
+    int i = 1, j = 2, k = 1, l = 2;
+    System.out.println((i==k) && (j == l));//prints true since i==j evaluates to true and j==l evaluates to true.True && True gives true
+    System.out.println((i==j) && (j == k)); // prints false
+    System.out.println((i!=j) && (j!=k)); // prints true
+    System.out.println((i<j)); // prints true
+```
+
