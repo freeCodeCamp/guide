@@ -42,8 +42,13 @@ Asymmetric algorithms provides each user with a pair of keys: one public and one
 
 Some techniques are: RSA, Diffie-Hellman, DSS(Digital Signature Standard), ElGamal.
 
+### 3) Key exchange
+Although the Assymetric encription algorithms are more secure than the Symmetric types, they are far slower and it is not feasable to use them to secure large quantities of data, because the transmissions would be too excessive. Symmetric algorithims can process large amounts of plain text at speed.they do not offer the requisite level of security because the key is a shared secret that must be exchanged over the insecure medium prior to the transmission of the ciphertext. This paradox may be resolved as follows. A random secret, known as the Session Key, is generated and an asymmetric cipher secures this small piece of data for exchange over the Internet. A fast symmetric cipher then uses the Session Key, known only to the two security peers, to encrypt their exchanges of bulk data.
+
+RSA Key Exchange
 #### More Information:
 
 - <a href='https://www.crcpress.com/Cryptography-Theory-and-Practice-Third-Edition/Stinson/p/book/9781584885085' target='_blank' rel='nofollow'>Cryptography: Theory and Practice by Douglas Stinson</a>
 - <a href='http://searchsecurity.techtarget.com/definition/encryption' target='_blank' rel='nofollow'>TechTarget on Encryption</a>
 - <a href='https://www.tutorialspoint.com/cryptography/index.htm' target='_blank' rel='nofollow'>Cryptography Guide</a>
+- <a href= 'https://community.jisc.ac.uk/library/advisory-services/introduction-cryptographic-techniques'>Key exchange</a>
