@@ -1,3 +1,6 @@
+---
+title: Serialization
+---
 # Serialization
 
 Serialization is a mechanism which is used to store an object. A Java object can be interpreted by the JVM alone. Any other system is less likely to understand and know how to represent a Java object. 
