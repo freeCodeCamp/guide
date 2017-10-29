@@ -2,14 +2,54 @@
 title: Bootstrap Tabs and Pills
 ---
 ## Bootstrap Tabs and Pills
+Bootstrap Tabs and Pills are the two nav style for tabs. Both shared markup, starting with the base `.nav` class, as well as shared states. Swap modifier classes to switch between each style. Both can be used with `<ul>` or `<nav>` tags. Both support dropdown for menu
+It requires JavaScript tabs plugin and dropdowns plugin.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/bootstrap/bootstrap-tabs-and-pills/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+**Code Example:**
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+#### Bootstrap Tabs
+```html
+  <ul class="nav nav-tabs">
+    <li role="presentation" class="active"><a href="#">Home</a></li>
+    <li role="presentation"><a href="#">Profile</a></li>
+    <li role="presentation"><a href="#">Messages</a></li>
+    <li role="presentation" class="dropdown">
+      <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+        Dropdown <span class="caret"></span>
+      </a>
+      <ul class="dropdown-menu">
+        <li><a href="#" role="tab">Dropdown menu 1</a></li>
+        <li><a href="#" role="tab">Dropdown menu 1</a></li>
+      </ul>
+    </li>
+  </ul>
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+#### Bootstrap Pills
+```html
+  <ul class="nav nav-pills">
+    <li role="presentation" class="active"><a href="#">Home</a></li>
+    <li role="presentation"><a href="#">Profile</a></li>
+    <li role="presentation"><a href="#">Messages</a></li>
+    <li role="presentation" class="dropdown">
+      <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+        Dropdown <span class="caret"></span>
+      </a>
+      <ul class="dropdown-menu">
+        <li><a href="#" role="tab">Dropdown menu 1</a></li>
+        <li><a href="#" role="tab">Dropdown menu 1</a></li>
+      </ul>
+    </li>
+  </ul>
+```
+
+#### Add following class to navs for justified and vertical tabs
+`.nav-justified` for Justified Navs
+
+`.nav-stacked` for vertically stackable (only for Pills)
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+[Bootstrap Doc for Tabs](https://getbootstrap.com/docs/3.3/components/#nav-tabs)
 
+[Bootstrap JS Doc for Tabs](https://getbootstrap.com/docs/3.3/javascript/#tabs)
 
