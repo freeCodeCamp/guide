@@ -11,12 +11,12 @@ title: Split
 string myText = "I like pizza";
 
 // Split the string by ' '(space) character.
-string[] splitResoult = myText.Split(' ');
+string[] splitResult = myText.Split(' ');
 
-// The array splitResoult, now contains 3 substrings.
+// The array splitResult, now contains 3 substrings.
 
 // Now print the array of substrings
-foreach(string x in splitResoult)
+foreach(string x in splitResult)
 {
     // Write On Console
     Console.WriteLine(x);
