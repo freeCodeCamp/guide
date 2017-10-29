@@ -5,9 +5,7 @@ title: Feature Engineering
 
 Feature engineering, the process creating new input features for machine learning, is one of the most effective ways to improve predictive models.
 
-```
-Coming up with features is difficult, time-consuming, requires expert knowledge. “Applied machine learning” is basically feature engineering. ~ Andrew Ng
-```
+>Coming up with features is difficult, time-consuming, requires expert knowledge. “Applied machine learning” is basically feature engineering. ~ Andrew Ng
 
 In a nutshell, we define feature engineering as creating new features from your existing ones to improve model performance.
 
@@ -36,8 +34,3 @@ Specifically, look for opportunities to take the sum, difference, product, or qu
 * Difference between two features: You have the features house_built_date and house_purchase_date. You can take their difference to create the feature house_age_at_purchase.
 * Product of two features: You're running a pricing test, and you have the feature price and an indicator variable conversion. You can take their product to create the feature earnings.
 * Quotient of two features: You have a dataset of marketing campaigns with the features n_clicks and n_impressions. You can divide clicks by impressions to create  click_through_rate, allowing you to compare across campaigns of different volume.
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
