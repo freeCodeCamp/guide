@@ -3,13 +3,16 @@ title: Brute Force Algorithms
 ---
 ## Brute Force Algorithms
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/algorithms/brute-force-algorithms/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+<h2> Introduction </h2>
+<p> Brute Force algorithms are algorithms which use trail and error method of all possible valid combinations of input until they arrive at the expected/successfull output. These algorithms work without any tact and rely on the brute processing power.</p>
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+<p> For E.g: A 5 digit password, in the worst case scenario would take 10<sup>5</sup> tries to crack.  </p>
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+<p> The time complexity of brute force is <b> O(n*m) </b>. So, if we were to search for a string of 'n' characters in a string of 'm' characters using brute force, it would take us n * m tries.</p>
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+
+<a href="https://en.wikipedia.org/wiki/Brute-force_search"> Wikipedia </a>
+
 
 
