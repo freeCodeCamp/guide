@@ -33,4 +33,4 @@ You can see the result of the above code <a href='https://codepen.io/Tlandis/pen
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+Note: adding the attribute "target" and value "_blank" (target="_blank") to an anchor tag will open the hyperlink in a new tab.
