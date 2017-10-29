@@ -14,3 +14,25 @@ With Agile, the emphasis is on "agility" - being able to quickly respond to feed
 ![A comic from Commitstrip.com showing a product manager explaining to a developer that they are switching to agile, but then asking the developer to plan everything up front](https://www.commitstrip.com/wp-content/uploads/2017/01/Strip-Budegt-fixe-pour-projet-flexible-english650-final.jpg)
 
 There are many different flavors of agile, including Scrum and Extreme Programming.
+
+Pros :
+------------------------------
+There is more flexibity comapared 
+to the waterfall method.
+
+There is continuous improvement.
+
+You can change what you did before.
+
+ There is lots of team work which leads to the discovery
+of progress.
+
+Cons:
+------------------------------
+Planning can be a hassle because of the deadline.
+
+Since the teams are small the members have to be highly skilled.
+
+People have to put their time and effort into the project.
+
+
