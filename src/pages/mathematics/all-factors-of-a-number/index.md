@@ -49,5 +49,11 @@ Try 6.
 Since there are no whole numbers between 6 and 7, all of the positive factors have been found. All of the numbers above can have their sign flipped and will continue to be factors of 42. In conclusion, all the factors of 42 are below.
 
 1 | 2 | 3 | 6 | 7 | 14 | 21 | 42 | -1 | -2 | -3 | -6 | -7 | -14 | -21 | -42
+
+ --- | --- | --- | --- | --- | --- | --- | --- | ---| ---
+ 
+ my changes
+ Important Points related to factors:
+ All the factors of a number can be expressed by multiplying the prime factors of that number with one another.
  --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
 
