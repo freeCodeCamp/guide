@@ -5,50 +5,52 @@ title: Switch Case
 # Switch Case
 
 The switch statement is like a set of `if statements`.
-It's a list of possibilities, with an action for each possibility, and an optional default action, in case nothing else evaluates to true.
-We exit from the switch by `break`.
+
+It allows for a variable or expression to be tested against other values, or "cases". If the expression in the parentheses is of the same data type and is equal to a given case, it will execute the corresponding statement. If none of the cases match the given expression, it will simply execute the default statement, where given.
+
+Note that a `break` statement is used to exit the switch statement. If no break statement is given, the program will "fall through" to the subsequent cases and continue to execute all other following statements in the switch.
 
 ## Example
 ```
-# include <stdio.h>
+#include <stdio.h>
+ 
+int main () {
 
-int main() {
+   /* local variable definition */
+   char grade;
+   
+   printf("Please enter your grade: ");
+   scanf("%c", &grade);
 
-    char operator;
-    double firstNumber,secondNumber;
-
-    printf("Enter an operator (+, -, *, /): ");
-    scanf("%c", &operator);
-
-    printf("Enter two operands: ");
-    scanf("%lf %lf",&firstNumber, &secondNumber);
-
-    switch (operator) {
-        case '+':
-            printf("%.1lf + %.1lf = %.1lf",firstNumber, secondNumber, firstNumber+secondNumber);
-            break;
-        case '-':
-            printf("%.1lf - %.1lf = %.1lf",firstNumber, secondNumber, firstNumber-secondNumber);
-            break;
-        case '*':
-            printf("%.1lf * %.1lf = %.1lf",firstNumber, secondNumber, firstNumber*secondNumber);
-            break;
-        case '/':
-            printf("%.1lf / %.1lf = %.1lf",firstNumber, secondNumber, firstNumber/firstNumber);
-            break;
-        // Operator is doesn't match any case constant (+, -, *, /)
-        default:
-            printf("Error! operator is not correct");
-    }
-
-    return 0;
+   switch(grade) {
+      case 'A' :
+         printf("Excellent!\n");
+         break;
+      case 'B' :
+      case 'C' :
+         printf("Well done\n");
+         break;
+      case 'D' :
+         printf("You passed\n");
+         break;
+      case 'F' :
+         printf("Better try again\n");
+         break;
+      default :
+         printf("Invalid grade\n");
+   }
+   
+   printf("Your grade is  %c\n", grade );
+ 
+   return 0;
 }
 ```
 
 ## Output:
 ```
--> Enter an operator (+, -, *,): -
--> Enter two operands: 32.5
--> 12.4
--> 32.5 - 12.4 = 20.1
+-> Please enter your grade: B
+-> Well done
+-> Your grade is B
 ```
+
+
