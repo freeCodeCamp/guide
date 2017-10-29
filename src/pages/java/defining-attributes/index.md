@@ -1,4 +1,8 @@
-# Defining Attributes
+---
+title: Defining Attributes
+---
+
+## Defining Attributes
 A class has attributes and methods. The attributes are basically variables within a class.
 
 ***Example:***
@@ -13,9 +17,9 @@ public class Vehicle {
   }
 }
 ```
-maxSpeed, wheels, and color are all attributes of our Vehicle class and the horn() is the only method.
+`maxSpeed`, `wheels`, and `color` are all attributes of our Vehicle class and the `horn()` is the only method.
 
-## Creating Objects
+### Creating Objects
 We can create multiple objects of our Vehicle class, and use the dot syntax to access their attributes and methods.
 ```java
 class MyClass {
