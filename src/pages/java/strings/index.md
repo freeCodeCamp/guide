@@ -42,3 +42,13 @@ Extras
 3. When the String literal is found by JVM, it is addes to string literal pool.
 4. String class posses a method name length(),while arrays have an attribute naming length.
 
+
+
+String Length
+
+The "length" of a string is just the number of chars in it. So "hi" is length 2 and "Hello" is length 5. The length() method on a string returns its length, like this:
+
+```java
+String a = "Hello";
+int len = a.length();  // len is 5
+```
