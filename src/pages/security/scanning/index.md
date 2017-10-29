@@ -3,13 +3,17 @@ title: Scanning
 ---
 ## Scanning
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/security/scanning/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Description
+Network scanning refers to a set of intelligence gathering procedures hackers perform to identify hosts, ports, and other vulnerabilities in a network. By finding such vulnerabilities, a hacker can create an accurate profile of the target organization. An ethical hacker is a person who attacks an organization’s security on behalf of its owners in order to discover vulnerabilities. Instead of taking advantage of these vulnerabilities, the ethical hacker reports them to the organization who can then put in place the appropriate countermeasures to protect themselves against malicious hackers.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+## Tools
+- Nmap
+- Angry IP Scanner
+- NetScanTools
+- Unicornscan
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+<a href='https://en.wikipedia.org/wiki/Port_scanner' target='_blank' rel='nofollow'>Port Scaning</a>
+<a href='http://www.dummies.com/programming/networking/tools-to-scan-systems-as-part-of-an-ethical-hack' target='_blank' rel='nofollow'>scan guides</a>
 
 
