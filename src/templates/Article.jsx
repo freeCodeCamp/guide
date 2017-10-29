@@ -2,6 +2,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
+import cheerio from 'cheerio';
 
 import Breadcrumbs from '../templateComponents/Breadcrumbs.jsx';
 
@@ -31,27 +32,18 @@ function getOgTitle(pathname) {
 }
 
 function getOgDescription(html) {
-  const el = document.createElement('html');
-  el.innerHTML = html;
-  let description = '';
-  const paragraph = el.getElementsByTagName('p')[0];
-  if (paragraph) {
-    description += paragraph.innerText;
-  }
-  return description;
+  const $ = cheerio.load(html);
+  const description = $('p').first().text();
+  return description || '';
 }
 
 function getOgImage(html) {
-  const el = document.createElement('html');
-  el.innerHTML = html;
-  const image = el.getElementsByTagName('img')[0];
-  if (image) {
-    return image.src;
-  } else {
-    return 'https://raw.githubusercontent.com/' +
-      'freeCodeCamp/guides/master/assets/' +
-      'FCC-banner.png';
-  }
+  const $ = cheerio.load(html);
+  const image = $('img').first().attr('src');
+  return image ||
+    'https://raw.githubusercontent.com/' +
+    'freeCodeCamp/guides/master/assets/' +
+    'FCC-banner.png';
 }
 
 function Article(props) {
