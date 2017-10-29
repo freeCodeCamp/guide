@@ -8,4 +8,5 @@ Microsoft Azure (formerly Windows Azure) is a cloud computing service created by
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 * <a href='https://en.wikipedia.org/wiki/Microsoft_Azure' target='_blank' rel='nofollow'>Wikipedia</a>
+* <a href='https://azure.microsoft.com/en-us/' target='_blank' rel='nofollow'>Microsoft Azure</a>
 
