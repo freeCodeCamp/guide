@@ -43,6 +43,32 @@ OR
   opacity:0.0;
   }
 ```
+
+**IE Compatibility**
+
+If you want your opacity/transparency to be fully compatible with older IE browsers, the opacity declarations must be in the following order.<sup>1</sup>
+
+```css
+.class-name {
+  /* Theoretically for IE 8 & 9 (more valid) */
+  /* ...but not required as filter works too */
+  /* should come BEFORE filter */
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; // IE8
+
+  /* This works in IE 8 & 9 too */
+  /* ... but also 5, 6, 7 */
+  filter: alpha(opacity=50); // IE 5-7
+  
+  /* Modern Browsers */
+  opacity: 0.5;
+}
+```
+
+
 #### More Information:
 For more information visit <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/opacity' target='_blank' rel='nofollow'>MDN</a>
 
+<a href='https://codepen.io/grayghostvisuals/pen/lykCe' target='_blank' rel='nofollow'>Try it out on Codepen</a>
+
+### Sources:
+1. <a href="https://css-tricks.com/almanac/properties/o/opacity/" target="_blank" rel="nofollow">Cope, Sara. "Opacity" CSS-Tricks, Last updated February 23, 2016</a>
