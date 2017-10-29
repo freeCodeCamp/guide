@@ -48,5 +48,7 @@ Gulpfiles can have multiple tasks per file, and tasks can also be split up into 
 <a href="https://gulpjs.com/" target='blank' rel='nofollow'>Gulp website</a>
 
 <a href="https://github.com/gulpjs/gulp" target='blank' rel='nofollow'>Gulp github repository</a>
+
+<a href="https://css-tricks.com/gulp-for-beginners/" target='blank' rel='nofollow'>Gulp begginers guide</a>
   
 
