@@ -53,3 +53,6 @@ Area of circle =  <i>C</i><sup>2</sup></span> / 4 * <span class="texhtml"><span 
 
 #### More Information:
 More information with illustrations can be found <a href="https://www.wikihow.com/Calculate-the-Area-of-a-Circle">here</a>
+
+
+Area = π × r2
