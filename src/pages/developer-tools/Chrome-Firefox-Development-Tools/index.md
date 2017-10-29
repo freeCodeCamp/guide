@@ -3,13 +3,11 @@ title: Chrome Firefox Development Tools
 ---
 ## Chrome Firefox Development Tools
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/developer-tools/chrome-firefox-development-tools/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Development tools are tools for web designers to create, debug, and profile their websites. A developer can use them to view the source code of a page, make minor temporary client-side adjustments to a page, or monitor a page's performance to discover any issues.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Developer tools are typically built into a browser.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+<a href="https://developers.google.com/web/tools/chrome-devtools/">Chrome Developer Tools Main Page</a>
+<a href="https://developer.mozilla.org/en-US/docs/Tools">Firefox Developer Tools Main Page</a>
