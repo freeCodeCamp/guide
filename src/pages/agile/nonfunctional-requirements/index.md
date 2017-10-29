@@ -3,13 +3,20 @@ title: Nonfunctional Requirements
 ---
 ## Nonfunctional Requirements
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/nonfunctional-requirements/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Non-functional requirements are key factors in non-functional software testing. Software testers use these to test how well a system works.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Non-functional software testing types: 
+
+- reliability
+- usability
+- efficiency
+- maintainability
+- portability
+
+Resource: www.istqb.org
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+International Software Testers Qualifications Board: www.istqb.org
 
 
