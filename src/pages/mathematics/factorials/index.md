@@ -3,13 +3,14 @@ title: Factorials
 ---
 ## Factorials
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/factorials/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+A factorial is the product of values multipled from 1 to a particular value value, n.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+For example, 4! is equivalent to 1 * 2 * 3 * 4, where n = 4.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+0 is NOT included when calculating the factorial, for, multiplying any value by zero will result in the entire expression euating to zero.
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
+Factorial is implemented in the Wolfram Language as Factorial[n] or n!
 
-
+More info about factorials here: http://www.purplemath.com/modules/factorial.htm
