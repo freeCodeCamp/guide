@@ -33,7 +33,7 @@ Using `easy_install` is also simple. The syntax is:
 
 However, `pip` is more popular than using `easy_install`.
 
-# Adding a project to Pip
+### Adding a project to Pip
 Adding your project to Pip is easy:
 1. First register an account with PyPi [here](https://pythonhosted.org/an_example_pypi_project/setuptools.html).
 2. Then install Twine: `pip install Twine`. Twine is a program that helps you easily upload your project to the PyPi servers.
