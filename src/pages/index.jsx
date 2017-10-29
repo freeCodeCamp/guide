@@ -5,9 +5,9 @@ function Index() {
   return (
     <div>
       <Helmet>
-        <title>freeCodeCamp Guides</title>
+        <title>freeCodeCamp Guide</title>
       </Helmet>
-      <h2>freeCodeCamp Guides</h2>
+      <h2>freeCodeCamp Guide</h2>
       <p>
         {
           'This website is full of articles about all things related to ' +
@@ -19,8 +19,8 @@ function Index() {
       <p>There are articles on:</p>
         <ul>
           <li>SQL</li>
-          <li>Math</li>
-          <li>javaScript</li>
+          <li>Mathematics</li>
+          <li>JavaScript</li>
           <li>Bootstrap</li>
           <li>Git</li>
           <li>and a whole lot more</li>
@@ -43,7 +43,7 @@ function Index() {
             ' to code.'
           }
         </p>
-        <h3>Contribute to the guides</h3>
+        <h3>Contribute to the Guide</h3>
         <p>
           {
             'This site and the articles on it are '

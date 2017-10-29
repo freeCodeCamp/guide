@@ -2,14 +2,15 @@
 title: Supplementary Angles
 ---
 ## Supplementary Angles
+Two angles which sum up to 180&deg; are called supplementary angles.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/supplementary-angles/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+![Image showing two angles, one with 120 degrees and the other with 60 degrees](https://raw.githubusercontent.com/pranabendra/articles/master/Supplementary-angles/images/sup1.png)
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Supplementary angles don't have to be next to each other, just so long as the total is 180&deg;. Here's an example:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+![Parallel lines a and b with line t through them, creating 8 angles](https://raw.githubusercontent.com/pranabendra/articles/master/Supplementary-angles/images/sup2.png)
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+As `a` is parallel to `b`, <b>angles</b> "`3`" and "`6`" sum up to 180&deg;. Hence, they are supplementary angles.
 
-
+### More Information:
+- Supplementary Angles article: <a href='https://www.varsitytutors.com/hotmath/hotmath_help/topics/supplementary-angles' target='_blank' rel='nofollow'>Varsity Tutors</a>

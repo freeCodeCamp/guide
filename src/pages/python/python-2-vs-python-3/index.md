@@ -17,7 +17,7 @@ In Python 3, this would throw an error somewhat like this:
                     ^
     SyntaxError: Missing parentheses in call to 'print'
 
-We won't be diverted in our discussion any further trying to document all these differences - but <a href='http://spartanideas.msu.edu/2014/06/01/the-key-differences-between-python-2-7-x-and-python-3-x-with-examples/' target='_blank' rel='nofollow'>this</a> might of interest to you, if you are into it.
+We won't be diverted in our discussion any further trying to document all these differences - but <a href='http://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html' target='_blank' rel='nofollow'>this</a> might of interest to you, if you are into it.
 
 Both Python 2 and Python 3 are cool. Most Linux and OSX distributions come pre-installed with Python 2 as the default Python. And Python 3 was born out of the insatiable quest of more readable, more beautiful language construct.
 

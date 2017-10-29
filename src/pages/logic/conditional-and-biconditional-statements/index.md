@@ -3,13 +3,6 @@ title: Conditional and Biconditional Statements
 ---
 ## Conditional and Biconditional Statements
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/logic/conditional-and-biconditional-statements/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+**Conditional statement:** "if". If one thing is true, then something else is true or can happen. *Example:* if it rains right now, then the ground will be wet.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+___Bi___**conditional statement:** "if and only if". If one thing is true, then something else is true; and if that something else is true, then that the one thing is true. Another way to think about it is that two things are either both true, or both false (not one true and the other false). *Example:* A square has an area of 16 cubic meters if and only if its sides are both 4 meters long.

@@ -3,13 +3,7 @@ title: SQL
 ---
 ## SQL
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/sql/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+SQL stands for Structured Query Language. It is the most common tool used to manipulate data in a relational database (often referred to as a "SQL database"). It is a querying language, not a programming language. The main function of SQL is to insert, update, delete and query data. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
+SQL is commonly pronounced as "sequel." Its most popular variants are Oracle, Sybase, Microsoft Access, MySQL, PostgreSQL, and SQLite - a version of SQL which is commonly used for prototyping.
 

@@ -1,15 +1,16 @@
 ---
 title: Interpreters
 ---
+
 ## Interpreters
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/computer-science/interpreters/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Interpreters are a kind of translator. Interpreters take source code - code written in JavaScript, Python, and other languages. Then they translate it into code the computer understands.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+This translated code is binary code. It is nothing but 1s and 0s. Interpreters translate the source code line-by-line, while running the binary code. The program will run until the interpreter finds errors in the source code. Then it will stop translating/running the program and flag the errors.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+To compare, compilers convert all the source code at once to binary code, then run the binary code.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+<a href="https://medium.freecodecamp.org/a-gentler-introduction-to-programming-707453a79ee8" target="_blank">Matt Adesanya's "A Gentler Introduction to Programming"</a> compares compilers and interpreters, and introduces other basic programming concepts.
 
 

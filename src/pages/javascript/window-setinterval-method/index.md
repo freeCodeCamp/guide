@@ -3,13 +3,24 @@ title: Window Setinterval Method
 ---
 ## Window Setinterval Method
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/window-setinterval-method/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `setInterval()` method calls a function or evaluates an expression at specified intervals (in milliseconds). 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+```js
+    setInterval(function(){ alert("Hello"); }, 3000); 
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+The `setInterval()` method will continue calling the function until `clearInterval()` is called, or the window is closed.
+
+The ID value returned by `setInterval()` is used as the parameter for the `clearInterval()` method.
+
+Tips: 
+* 1000 ms = 1 second.
+* To execute a function only once, after a specified number of milliseconds, use the `setTimeout()` method.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
+Documentation: <a href='https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval' target='_blank' rel='nofollow'>MDN</a> 
 
+JavaScript setInterval() Function Examples: <a href='https://www.sitepoint.com/setinterval-example/' target='_blank' rel='nofollow'>Sitepoint</a>
+
+and some more examples: <a href='https://www.w3schools.com/jsref/met_win_setinterval.asp' target='_blank' rel='nofollow'>w3schools</a>

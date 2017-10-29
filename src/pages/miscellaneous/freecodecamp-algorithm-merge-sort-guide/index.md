@@ -10,6 +10,7 @@ To learn about Merge Sort, a basic knowledge about <a href='http://programmers.s
 *   Merge the sorted halves.
 
 The biggest advantage of using Merge sort is that the <a href='https://www.youtube.com/watch?v=V42FBiohc6c&list=PL2_aWCzGMAwI9HK8YPVBjElbLbI3ufctn' target='_blank' rel='nofollow'>time complexity</a> is only n*log(n) to sort an entire Array. It is a lot better than n^2 running time of bubble sort or insertion sort.  
+
 Before we write code, let us understand how merge sort works with the help of a diagram.
 
 <div class="lightbox-wrapper">[![Merge Sort](//discourse-user-assets.s3.amazonaws.com/optimized/2X/4/4712ef1a5d856dbb4af393fcc08a820a38787395_1_487x499.png)
@@ -26,7 +27,7 @@ Before we write code, let us understand how merge sort works with the help of a 
 
 ### C++ Implementation
 
-    void merge(int array<a href='https://repl.it/CYVc/1' target='_blank' rel='nofollow'>], int left, int mid, int right)
+    void merge(int array[], int left, int mid, int right)
     {
         int i, j, k;
 
@@ -102,7 +103,11 @@ Before we write code, let us understand how merge sort works with the help of a 
     }
     }
 
-:rocket: [Run Code</a> ### Javascript Implementation Let's write MergeSort in JavaScript:  
+:rocket: <a href='https://repl.it/CYVc/1' target='_blank' rel='nofollow'>Run Code</a> 
+
+### Javascript Implementation 
+
+Let's write MergeSort in JavaScript:  
 
     function mergeSort (arr) {
       if (arr.length < 2) return arr;
@@ -115,7 +120,7 @@ Before we write code, let us understand how merge sort works with the help of a 
 First we check the length of the array. If it is 1 then we simply return the array. This would be our base case. Else, we will find out the middle value and divide the array into two halves. We will now sort both of the halves with recursive calls to MergeSort function.  
 
     function merge (a,b) {
-        var result = <a href='https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/js-Array-prototype-shift' target='_blank' rel='nofollow'>];
+        var result = [];
         while (a.length >0 && b.length >0)
             result.push(a[0] < b[0]? a.shift() : b.shift());
         return result.concat(a.length? a : b);
@@ -123,11 +128,11 @@ First we check the length of the array. If it is 1 then we simply return the arr
 
 When we merge the two halfs, we store the result in an auxilliary array. We will compare the starting element of left array to the starting element of right array. Whichever is lesser will be pushed into the results array and we will remove it from there respective arrays using [shift() operator</a>. If we still end up with values in either of left or right array, we would simply concatenate it in the end of the result. Here is the sorted result:  
 
-    var test = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>5,6,7,3,1,3,15];
+    var test = [5,6,7,3,1,3,15];
     console.log(mergeSort(test));
 
     >> [1, 3, 3, 5, 6, 7, 15]
 
-![:rocket:</a> <a href='https://repl.it/CYVd' target='_blank' rel='nofollow'>Run Code</a>
+:rocket: <a href='https://repl.it/CYVd' target='_blank' rel='nofollow'>Run Code</a>
 
 If you still have problem in understanding MergeSort, a <a href='https://www.youtube.com/watch?v=TzeBrDU-JaY' target='_blank' rel='nofollow'>video explanation</a> will make it even more clear.

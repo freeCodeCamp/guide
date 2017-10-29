@@ -3,13 +3,19 @@ title: Sleep How Can I Make a Time Delay in Python
 ---
 ## Sleep How Can I Make a Time Delay in Python
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/python/sleep-how-can-i-make-a-time-delay-in-python/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `time` module in the Python standard library contains the function `sleep()` which suspends a program for a given number of seconds.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Example:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```
+import time
+
+for letter in 'hello, world!':
+    print(letter)
+    time.sleep(2)  # sleep 2 seconds between each print
+```
+
+Floating point numbers can be given as the argument to `sleep()` for more precise sleep times.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+Time module <a href='https://docs.python.org/3/library/time.html#time.sleep' target='_blank' rel='nofollow'>documentation</a> on the sleep function.

@@ -3,13 +3,6 @@ title: Meta
 ---
 ## Meta
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/meta/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+freeCodeCamp was started on October 15, 2014. Since then, it has grown from one lone developer in his closet to a worldwide community used by more than 1 million campers each month.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+This section is a collection of "meta" artifacts from freeCodeCamp's history.

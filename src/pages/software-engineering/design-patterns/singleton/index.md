@@ -12,7 +12,7 @@ Singleton is a design pattern often used in Android. It is easily misused and so
 - Singletons are destroyed when Android removes your app from memory
 - Singletons can make it difficult to unit test your app
 
-```
+```java
 public class DataStore {
   private static DataStore sDataStore;
   private List<Data> mData;
@@ -35,3 +35,42 @@ public class DataStore {
   }
 }
 ```
+## Singleton in PHP
+
+> A private constructor is used to prevent the direct creation of objects from the class.
+> The only way to create an instance from the class is by using a static method that creates the object only if it wasn't already created.
+
+```php
+Class Singleton {
+
+  // Hold the class instance
+  private static $instance = null;
+  
+  /**
+  * The constructor is private
+  * it is ensure the class can be initialized only from itself
+  */
+  private function __construct(){}
+ 
+  /**
+  * Return the singleton instance of this class
+  *
+  * @return Singleton
+  */
+  public static function getInstance()
+  {
+    if (self::$instance == null)
+    {
+      self::$instance = new Singleton();
+    }
+ 
+    return self::$instance;
+  }
+
+}
+
+$obj1 = Singleton::getInstance();
+$obj2 = Singleton::getInstance();
+
+```
+

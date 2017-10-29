@@ -3,13 +3,25 @@ title: Unit Tests
 ---
 ## Unit Tests
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/software-engineering/unit-tests/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Unit testing is a type of testing which is found at the bottom of the software testing pyramid.
+It involves breaking the codebase down into smaller parts (or units) and testing those in isolation.
+Depending on the type of programming language (or paradigm) these can be against anything you define as a unit, although the most common practice is against functions.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Why do it?
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+- **Protection** - Unit testing protects against introducing new or old bugs for defensive programming
+- **Confidence** - You can add changes, or reuse or refactor code (both very common) and be sure you haven't added a bug
+- **Documentation** - Unit testing documents the behavior and flow of code so its easy for someone new to the code to understand it
+- **Isolation** - It isolates a module from the entire feature. This approach forces you to think of a module by itself, and ask what is its job?
+- **Quality** - As unit testing forces you to think about and use your own API, it enforces good/extendable interfaces and patterns. It can point out any tight coupling or over-complexity which should be addressed. Bad code is usually much harder to test 
+- **Industry Standard** -  Unit testing is a common discipline these days, and is a requirement for a large portion of software companies
+- **Less bugs** - Substantial research suggests that applying testing to an application can improve production bug density by 40% — 80%.
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+### More Information
 
+Martin Fowler on Unit Testing: <a href='https://www.martinfowler.com/bliki/UnitTest.html' target='_blank' rel='nofollow'>martinfowler.com</a>
+
+Robert Martin aka "Dr. Bob" on TDD: <a href='http://www.butunclebob.com/ArticleS.UncleBob.TheThreeRulesOfTdd' target='_blank' rel='nofollow'>butunclebob.com</a>
+
+Eric Elliot on Unit tests and TDD: <a href='https://medium.com/javascript-scene/5-common-misconceptions-about-tdd-unit-tests-863d5beb3ce9' target='_blank' rel='nofollow'>Medium</a>
 

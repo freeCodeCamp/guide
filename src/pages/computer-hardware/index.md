@@ -3,13 +3,16 @@ title: Computer Hardware
 ---
 ## Computer Hardware
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/computer-hardware/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+In this section, we explore the various hardware components of modern computers. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+## Parts of a Personal Computer
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+-Central Processing Unit (CPU)
+-Expansion Cards (eg. GPU)
+-Storage (SSD or HDD)
+-Memory (RAM)
+-Case
+-Power Supply
+-Motherboard
+-Input and Output devices (eg. Keyboard and Mouse)
+-Monitor

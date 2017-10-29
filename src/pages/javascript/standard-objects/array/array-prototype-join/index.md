@@ -4,9 +4,10 @@ title: Array.prototype.join
 The JavaScript array method `.join()` will combine all elements of an array into a single string.
 
 **Syntax**
-
-    var array = <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join' target='_blank' rel='nofollow'>"Lorem", "Ipsum", "Dolor", "Sit"];
-    var str = array.join([separator]);
+```javascript
+  var array = ["Lorem", "Ipsum", "Dolor", "Sit"];
+  var str = array.join([separator]);
+```
 
 ## Parameters
 
@@ -21,14 +22,15 @@ Optional. Specifies the string to use to separate each element of the original a
 ## Examples
 
 **Using `.join()` four different ways**
+```javascript
+  var array = ["Lorem", "Ipsum", "Dolor" ,"Sit"];
 
-    var array = ["Lorem", "Ipsum", "Dolor" ,"Sit"];
+  var join1 = array.join();           /* assigns "Lorem,Ipsum,Dolor,Sit" to join1 variable
+                                         (because no separator was provided .join()
+                                         defaulted to using a comma) */
+  var join2 = array.join(", ");       // assigns "Lorem, Ipsum, Dolor, Sit" to join2 variable
+  var join3 = array.join(" + ");      // assigns "Lorem + Ipsum + Dolor + Sit" to join3 variable
+  var join4 = array.join("");         // assigns "LoremIpsumDolorSit" to join4 variable
+```
 
-    var join1 = array.join();           /* assigns "Lorem,Ipsum,Dolor,Sit" to join1 variable
-                                           (because no separator was provided .join()
-                                           defaulted to using a comma) */
-    var join2 = array.join(", ");       // assigns "Lorem, Ipsum, Dolor, Sit" to join2 variable
-    var join3 = array.join(" + ");      // assigns "Lorem + Ipsum + Dolor + Sit" to join3 variable
-    var join4 = array.join("");         // assigns "LoremIpsumDolorSit" to join4 variable
-
-Source [MDN</a>
+Source : <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join' target='_blank' rel='nofollow'>MDN</a>

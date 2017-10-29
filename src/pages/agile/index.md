@@ -3,13 +3,14 @@ title: Agile
 ---
 ## Agile
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Agile software development is a collection of methodologies used to manage teams of developers.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Agile emphasizes asking end users what they want, and frequently showing them demos of the product as it is developed.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+This stands in contrast to the "Waterfall" approach, specification-driven development, and what Agile practitioners call "Big Up-Front Design." In these approaches, the features are planned out and budgeted before development starts.
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+With Agile, the emphasis is on "agility" - being able to quickly respond to feedback from users and other changing circumstances.
 
+![A comic from Commitstrip.com showing a product manager explaining to a developer that they are switching to agile, but then asking the developer to plan everything up front](https://www.commitstrip.com/wp-content/uploads/2017/01/Strip-Budegt-fixe-pour-projet-flexible-english650-final.jpg)
 
+There are many different flavors of agile, including Scrum and Extreme Programming.
