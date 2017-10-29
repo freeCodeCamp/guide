@@ -2,7 +2,7 @@
 title: Logical Operators and If Statements
 ---
 # If Statements in C
-Sometimes you want your code to run according to certain conditions. In such situation we can use If statements. It is also known as decision making statement as it make the decision on basis of given boolean expression(or on given condition).If the Boolean expression evaluates to true, then the block of code inside the 'if' statement will be executed. If the Boolean expression evaluates to false, then the first set of code after the end of the 'if' statement (after the closing curly brace) will be executed.A boolean expression is an expression that has relational and/or logical operators operating on boolean variables. A boolean expression evaluates to either true or false.
+Sometimes you want your code to run according to certain conditions. In such situation we can use If statements. It is also known as decision making statement as it make the decision on basis of given expression(or on given condition).If the expression evaluates to true, then the block of code inside the 'if' statement will be executed. If the expression evaluates to false, then the first set of code after the end of the 'if' statement (after the closing curly brace) will be executed.A expression is an expression that has relational and/or logical operators operating on boolean variables. A expression evaluates to either true or false.
 
 ## A Simple Example
 Let's look at an example of this in action:
@@ -159,7 +159,7 @@ These two lines of code tell the compiler that the word 'false' should be replac
 
 # Before you go on...
 ## A review
-* 'if' statements check if boolean expression is true, then it run the code within the curly brackets.
+* 'if' statements check if expression is true, then it run the code within the curly brackets.
 * 'else' can be added to the end of an 'if', and will run only if the previous if(s) statement were false.
 * 'else if' can also be added to the end of an 'if', and will run only if the previous if(s) statement were false.
 * Everything in a computer is represented by numbers, so every comparison in C can be done by treating values like numbers- even true, false, and characters.
@@ -172,5 +172,5 @@ These two lines of code tell the compiler that the word 'false' should be replac
  * <= is less than or equal to
 * We also have some logical operators, which allow us to chain together logical operations:
  * ! is called NOT operator-It reverses the state of the operand
- * && is clled AND operator-It returns true when both conditions are true
+ * && is called AND operator-It returns true when both conditions are true
  * || is called OR operator-It returns true when at-least one of the condition is true
