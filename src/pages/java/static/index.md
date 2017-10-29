@@ -5,6 +5,8 @@ title: Static
 # Static
 When you declare a variable or a method as static, it belongs to the class, rather than a specific instance.  This means that only one instance of a static member exists, even if you create multiple objects of the class, or if you don't create any. It will be shared by all objects.
 
+overridden
+static methods can't be overridden,but they can be redefined.
 ***Example:***
 ```java
 public class Counter {
