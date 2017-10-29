@@ -51,6 +51,7 @@ body {
 To get custom colors to use in CSS, you will need some kind of color picker. Some text editors have built-in color pickers, like Visual Studio Code. If you search "color picker" on Google or DuckDuckGo, you will get a color picker that you can use. Google Chrome and Firefox also have color picker add-ons that you can install. Adobe Color CC not only helps you pick a color, but will also help you pick out a color scheme for your web page!
 
 #### More Information:
-<a href="https://color.adobe.com/" target="_blank">Adobe Color CC</a><br>
-<a href="https://chrome.google.com/webstore/detail/colorpick-eyedropper/ohcpnigalekghcmgcdcenkpelffpdolg?hl=en" target="_blank">ColorPick Eyedropper on Chrome Web Store</a><br>
-<a href="https://addons.mozilla.org/en-US/firefox/addon/colorzilla/" target="_blank">ColorZilla add-on for Firefox</a>
+<a href="https://color.adobe.com/" target="_blank">Adobe Color CC</a><br />
+<a href="https://chrome.google.com/webstore/detail/colorpick-eyedropper/ohcpnigalekghcmgcdcenkpelffpdolg?hl=en" target="_blank">ColorPick Eyedropper on Chrome Web Store</a><br />
+<a href="https://addons.mozilla.org/en-US/firefox/addon/colorzilla/" target="_blank">ColorZilla add-on for Firefox</a><br />
+<a href="http://www.0to255.com/" target="_blank">0to255</a> // is a color tool for finding lighter and darker colors based on any color.
