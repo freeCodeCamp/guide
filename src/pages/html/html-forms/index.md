@@ -47,5 +47,9 @@ The HTML <form> tag is used to create an HTML form and it has following syntax â
     <form action = "Script URL" method = "GET|POST">
          form elements like input, textarea etc.
     </form>
+    
+If form method is not defined then be default it will be "GET".
+
+form tag can also have attribute named "target" which specify where if the submitted result will open in a new browser tab, a frame, or in the current window.
 
 
