@@ -3,13 +3,28 @@ title: Article
 ---
 ## Article
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/article/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `<article>` tag specifies independent, self-contained content.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+An article should make sense on its own and it should be possible to distribute it independently from the rest of the site.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Potential sources for the `<article>` element:
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+* Forum post
+* Blog post
+* News story
+* Comment
+
+Example: 
+```html
+<body>
+  <article>
+    <h1>Google Chrome</h1>
+      <p>Google Chrome is a free, open-source web browser developed by Google, released in 2008.</p>
+</article>
+    <p><strong>Note:</strong> The article tag is not supported in Internet Explorer 8 and earlier versions.</p>
+</body>
+```
+Note: The `<article>` tag is new in HTML5.
+
 
 
