@@ -10,7 +10,6 @@ Java is trademarked and licensed by Oracle. Most of the following are un-officia
 *   <a href='http://docs.oracle.com/javase/tutorial/index.html' target='_blank' rel='nofollow'>Oracle Official Java Tutorials</a>
 *   <a href='http://www.mindview.net/Books/TIJ/' target='_blank' rel='nofollow'>Thinking in Java</a>
 *   <a href='http://greenteapress.com/wp/think-java/' target='_blank' rel='nofollow'>Think Java</a>
-*   <a href='https://github.com/HackathonHackers/programming-ebooks/blob/master/Java/Effective%20Java%20(2nd%20Edition' target='_blank' rel='nofollow'>Effective Java by Joshua Bloch</a>.pdf)
 *   <a href='http://tutorials.jenkov.com/java/index.html' target='_blank' rel='nofollow'>Jenkov's Java Tutorials</a>
 *   <a href='http://www.mkyong.com/' target='_blank' rel='nofollow'>Mkyong's Java & Spring Tutorials</a>
 *   <a href='http://www.vogella.com/tutorials/java.html' target='_blank' rel='nofollow'>Vogella's Java Tutorials</a>
