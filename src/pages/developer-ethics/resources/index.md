@@ -15,7 +15,7 @@ Reading up on ethical challenges in the world of development will help you devel
 Stay aware, and think through what you would do if faced with a similar situation. Practice your response in a challenging situation. One article that could help inform your opinion is [Should software developers have a code of ethics](https://www.cio.com/article/3156565/developer/should-software-developers-have-a-code-of-ethics.html) from cio.com.
 
 3. Start conversations with your peers now
-Ethics is highly influenced by office culture. As was seen in many ethical crises in other professions, for large breaches to occur a lax ethical culture from the top was often a contributing factor. Be that person in your organization who talks about ehtics openly, and advocates for a more ethical culture when possible. Pyschology Today has tips about [building an ethical culture](https://www.psychologytoday.com/blog/do-the-right-thing/201507/six-ways-create-culture-ethics-in-any-organization).
+Ethics is highly influenced by office culture. As was seen in many ethical crises in other professions, for large breaches to occur a lax ethical culture from the top was often a contributing factor. Be that person in your organization who talks about ethics openly, and advocates for a more ethical culture when possible. Pyschology Today has tips about [building an ethical culture](https://www.psychologytoday.com/blog/do-the-right-thing/201507/six-ways-create-culture-ethics-in-any-organization).
 
 4. Don't give up
 It can be easy to become dishartened when a new ethical breach happens - but don't. Creating an ethical future for developers will take all of us. 
