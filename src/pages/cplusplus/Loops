@@ -1,0 +1,38 @@
+title: Loops
+
+
+A loop statement allows a statement or statements to repeat.
+
+There are three types of loops: while loop, do-while loop, and for loop.
+
+Format for while loop:
+
+while (expression)
+  statement;
+ 
+ In a while loop:
+ 1. Expression is evaluated to be true or false
+ 2. If true, statement will execute
+ 3. Expression will be re-evaluated
+ 4. If false, the loop will terminate and content after statement will execute
+ 
+ 
+ Format for do-while loop:
+ 
+ do
+		 statement;  // or block in { }
+ while (expression);
+ 
+ In a do-while loop:
+ 1. Loop executes at least once
+ 2. Expression is evaluated; if true then loop repeats
+ 3. If expression is false, loop terminates
+ 
+ Format for for loop:
+ 
+ for(initialization; test; update)
+		   statement;
+       
+ 1. Perform initialization
+ 2. Evaluate test; if true then execute statement, if false terminate loop
+ 3. Perform update then re-evaluate test
