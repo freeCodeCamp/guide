@@ -12,7 +12,7 @@ module.exports = {
       }
     },
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: 'gatsby-source-filesystem',//this a plugin for creating file nodes from the file system......
       options: {
         name: 'pages',
         path: `${__dirname}/src/pages/`
