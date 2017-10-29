@@ -3,13 +3,26 @@ title: Font Color Attribute
 ---
 ## Font Color Attribute
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/attributes/font-color-attribute/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+This attribute specifies the color of the text inside a
+  `<font>
+  `
+element.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Syntax: 
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+`<font color="red">
+`
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+Example:
+```html
+<html>
+  <body>
+    <font color="red">This is awesome!</font>
+  </body>
+</html>
+```
+
+Note : `The color attribute of <font> is not supported in HTML5. Use CSS instead.`
+
 
 
