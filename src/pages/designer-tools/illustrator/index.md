@@ -18,3 +18,5 @@ title: Illustrator
 </li>
 
 </ul>
+
+• [Illustrator tutorials](https://helpx.adobe.com/illustrator/tutorials.html)
