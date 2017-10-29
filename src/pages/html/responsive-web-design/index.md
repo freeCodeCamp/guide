@@ -27,6 +27,7 @@ Below I am giving popular frameworks links:
 1. <a href='https://www.getbootstrap.com' target='_blank' rel='nofollow'>Bootstrap</a>
 2. <a href='https://foundation.zurb.com/' target='_blank' rel='nofollow'>Foundation</a>
 3. <a href='https://getmdl.io/' target='_blank' rel='nofollow'>Material Design Lite</a>
+4. <a href='https://semantic-ui.com/' target='_blank' rel='nofollow'>Semantic UI</a>
 
 #### More Information:
 1. <a href='https://medium.freecodecamp.org/css-flexbox-interactive-tutorial-in-8-minutes-including-cheat-sheet-6214e00de3d2' target='_blank' rel='nofollow'>CSS Flexbox Complete tutorial in 8 minutes</a>
