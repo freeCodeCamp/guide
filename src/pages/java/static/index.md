@@ -27,3 +27,5 @@ public class MyClass {
 ```
 
 The outout is 2, because the `COUNT` variable is static and gets incremented by one each time a new object of the Counter class is created.  You can also access the static variable using any object of that class, such as `c1.COUNT`.
+Extra
+Use static methods to implement behaviors that are not affected by the state of any instances
