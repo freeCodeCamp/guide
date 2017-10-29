@@ -5,7 +5,7 @@ title: Getters & Setters
 # Getters & Setters
 Getters and Setters are used to effectively protect your data, particularly when creating classes. For each variable, the get method returns its value, while the set method sets the method.
 
-Getters start with get, followed by the variable name, with the first letter of the variable name capitalized. Setters start with set, followed by the variable name, with the first letter of the variable name capitalized.
+By convention, getters start with get, followed by the variable name, with the first letter of the variable name capitalized. Setters start with set, followed by the variable name, with the first letter of the variable name capitalized.
 
 ***Example:***
 ```java
@@ -31,7 +31,7 @@ Once the getter and setter have been defined, we use it in our main:
 public stativ void main(String[] args) {
   Vehicle v1 = new Vehicle();
   v1.setColor("Red");
-  System.out.pringln(v1.getColor());
+  System.out.println(v1.getColor());
 }
 
 // Outputs "Red"
