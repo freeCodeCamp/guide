@@ -3,13 +3,12 @@ title: Ddos Denial of Service Attacks
 ---
 ## Ddos Denial of Service Attacks
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/security/ddos-denial-of-service-attacks/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+<p> A denial of service(DOS) attack is when the attacker attempts to disrupt the services of a server by bombarding it with multiple fake requests and preventing actual users from accessing the service. A Distributed DOS attack is when the attack happens from multiple locations at once, making it much more difficult for the cyber-security team to detect and handle the attack.</p>
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+<p> Ddos attacks are usually targeted at huge corporations where the denial of a service for a few minutes can translate to millions of dollars lost.</p>
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
+<p>There are several kinds of Ddos attacks and the best attack is determined by examining the vulnerabilites of the target. </p>
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+<a href="https://en.wikipedia.org/wiki/Denial-of-service_attack#Attack_techniques"> Wikipedia </a>
 
 
