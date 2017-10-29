@@ -7,20 +7,27 @@ Objects are similar to arrays, except that instead of using indexes to access an
 
 Using the Object Literal way, here's how we would create sample object:
 
+```
     var cat = {
         name: "Whiskers",
         legs: 4,
         tails: 1,
         enemies: ["Water", "Dogs"]
      };
+```
 
 Using the Constructor way, here's how we would create sample object:
 
+Objects are useful for storing data in a structured way, and can represents real world objects, like a cat.
+
+```
     var cat = new Object();
     cat.name = "Whiskers";
     cat.legs = 4;
     cat.tails = 1;
     cat.enemies = ["Water", "Dogs"];
-    
+```
+
 In the Constructor way, we use the `new` keyword together with `Object` (with capital 'O') to create a new object instance. Afterward, we use dot notation to assign the property names and values of the object.
     
+
