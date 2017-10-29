@@ -54,4 +54,20 @@ else:
 
 *Note only the first condition that evaluates as `true` will execute. Even though `z > 6` is `true`, the `if/elif/else` block terminates after the first true condition. This means that an `else` will only execute if none of the conditions were `true`.*
 
+Python also supports a ternary operator. This acts like a single line if condition
+
+```python
+[on_true] if [expression] else [on_false]
+
+x, y = 50, 25
+small = x if x < y else y
+```
+Here small is assigned x if the condition x < y is true. Else small is assigned y. The disadvantage of the inline if expression is also that it's an expression, which means you can't use any statements inside of it.
+
+*You cannot use*
+```python
+small = x if x < y else y = x
+```
+Here y = x is a statement and such usage is illegal.
+
 While the examples above are simple, you can create complex conditions using <a href='https://guide.freecodecamp.org/python/comparisons' target='_blank' rel='nofollow'>boolean comparisons</a> and <a href='https://guide.freecodecamp.org/python/boolean-operations' target='_blank' rel='nofollow'>boolean operators</a>.
