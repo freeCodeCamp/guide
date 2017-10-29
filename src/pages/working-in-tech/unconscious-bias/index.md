@@ -15,6 +15,8 @@ title: Unconscious Bias
 <p>Unconscious bias is far more prevalent than conscious prejudice and often incompatible with one’s conscious values. Certain scenarios can activate unconscious attitudes and beliefs. For example, biases may be more prevalent when multi-tasking or working under time pressure.</p> 
 <p>Unconscious bias can influence decisions in recruitment, promotion and performance management. It could be discriminatory when the unconscious bias relates to a protected characteristic.</p>
 
+If you are working in a [hybrid remote team](https://github.com/freeCodeCamp/guides/src/pages/working-in-tech/remote-versus-onsite/index.md) then there may be an unconscious bias at play depending on where someone sits. For example, people hang out with colleagues physically (the literal 'water cooler' moment) in a different way to how they do via Slack. Strong teams and leaders are aware of this and choose to [follow certain protocols](https://viewpoints.matrixpartners.com/how-to-support-remote-work-by-removing-unconscious-bias-7a974f953410) work to minimize its effects.
+
 #### Project Implicit:
 Project Implicit is a non-profit organization and international collaboration between researchers who are interested in implicit social cognition - thoughts and feelings outside of conscious awareness and control. The goal of the organization is to educate the public about hidden biases and to provide a “virtual laboratory” for collecting data on the Internet.
 
