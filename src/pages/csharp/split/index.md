@@ -4,7 +4,7 @@ title: Split
 
 # Split Method
 
-`String.Split` method can parse a string: As input, Split takes an characters that indicate which characters is the separator generating an array of the sub strings.
+The `String.Split` method parses a string. As input, it takes a character indicating the separator, and generates an array of sub strings.
 
 ## Example
 ```
