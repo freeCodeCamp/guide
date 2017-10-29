@@ -16,7 +16,7 @@ foreach(string name in Names)
 }
 ```
 
-## Output:
+### Output:
 ```sh
 > We have Jim
 > We have Jane
