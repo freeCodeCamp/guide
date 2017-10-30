@@ -19,6 +19,6 @@ One common challenge of composing Cross Functional Teams is the thought that eve
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-Cross Functional Doesn't Mean Everyone Can Do Everything (https://www.mountaingoatsoftware.com/blog/cross-functional-doesnt-mean-everyone-can-do-everything)
+Cross Functional Doesn't Mean Everyone Can Do Everything https://www.mountaingoatsoftware.com/blog/cross-functional-doesnt-mean-everyone-can-do-everything
 
 
