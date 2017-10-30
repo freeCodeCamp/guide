@@ -3,13 +3,20 @@ title: Symbols
 ---
 ## Symbols
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/symbols/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Complementing the html entities, there are also representations for mathematical, technical and monetary symbols. There are entities even for playing cards suits.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Mathematical
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+The sets theory symbols are very used, such as: `&isin;` (∈ - Element of) or `&notin;` (∉ - Not element of). Other common symbol is summation (∑): `&sum;`.
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+Mathematicians love Greek, and so there are also symbols for the Greek letters as Delta (Δ) - `&Delta;` and Gamma (Γ) - `&Gamma;`.
 
+### Miscellaneous
 
+Do you need arrows? Use the `&uarr;` - Upwards Arrow (↑). The black heart cards suit? There is the `&hearts;`. Playing chess? There is the white chess queen: `&#9813;` (♕).
+
+### References
+
+* [UTF-8 Currency Symbols](https://www.w3schools.com/charsets/ref_utf_currency.asp)
+* [UTF-8 Arrows](https://www.w3schools.com/charsets/ref_utf_arrows.asp)
+* [UTF-8 Miscellaneous Symbols](https://www.w3schools.com/charsets/ref_utf_symbols.asp)
