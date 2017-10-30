@@ -22,7 +22,7 @@ There are however other subcategories of machine learning you may encounter such
 
 
   The first steps involved in any Machine Learning process is to categorize data points. This is called classification.
-You need to select a key differentiator of the data. Say you are trying to identify if a certain image is of a male of female. you will need training data where you point to your code, specific nuances to look for which will help it identify if it is a female or a male.
+You need to select a key differentiator of the data. Say you are trying to identify if a certain image is of a male or a  female. you will need training data where you point to your code, specific nuances to look for which will help it identify if it is a female or a male.
   
   Say facial hair are a good method to differentiate a man. So you train your code to look for facial hair. This only increases the probability that the image it is looking it could be a male. Now based on how broad your training data is, your code may also find some female images which may have traces of facial hair. AFter going through multiple iterations of the smae data, your code would then need to learn more features such as shapes of chin, ears, cheekbones etc., All of these become decision trees, these are the features based on which your machine would could the probability of the image being of that of a male or a female.
   
