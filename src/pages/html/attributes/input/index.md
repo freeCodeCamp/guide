@@ -1,7 +1,8 @@
 
 ## Input
 
-![Input teg](https://www.youtube.com/watch?v=T4kvt7K_Qgg)
+<iframe src="https://www.youtube.com/watch?v=T4kvt7K_Qgg">
+</iframe>
 
 The input tag does not need an ending tag and can have numerous attributes:
 <ui>
