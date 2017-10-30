@@ -25,3 +25,6 @@ Console.WriteLine("Bye!");
 > Type A to continue: A
 > Bye!
 ```
+
+## Reference:
+https://msdn.microsoft.com/en-us/library/f0e10e56(v=vs.90).aspx
