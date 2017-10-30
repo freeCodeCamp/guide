@@ -1,5 +1,5 @@
 ---
-Title: Element.getElementsByTagName
+Title: Element getElementsByTagName
 ---
 
 When working with the HMTL DOM (Document Object Model), it is sometimes nessecary to transverse all the decendant elements of a specified element. Element.getElementsByTagName is a method which will return a collection of all elements beneath a specified element, **excluding the parent element** that you specify.
