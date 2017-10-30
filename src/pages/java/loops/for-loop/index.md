@@ -15,8 +15,8 @@ for (initialize variable; condition; modify variable)
 
 * `initialization` - Initializes the loop and is executed just once, at the beginning.
 You can initialize more than one variable of the same type in the first part of the basic for loop declaration; each initialization must be separated by a comm
-* `expression` - Evaluated at the beginning of each iteration. If the `expression` evaluates to `true`, `Statements` will get executed.
-* `increment` - Invoked after each iteration through the loop. You can increase/decrease the value of variables here.
+* `condition/expression` - Evaluated at the beginning of each iteration. If the `expression` evaluates to `true`, `Statements` will get executed otherwise loop will terminate and control is transferred to further statements.
+* `modification/update` - Invoked after each iteration through the loop. You can change the value of variables here by increment or decrement and increment/decrement can be pre or post.
 
 ```java
 int iter_For;
