@@ -3,7 +3,7 @@ title: GUI Options
 ---
 # GUI Options for GitHub
 
-Although mostly people prefer to use git as a clit tool but there are plenty of git gui based solutions available which are more user friendly.
+Although mostly people prefer to use git as a CLI(Command-line interface) tool but there are plenty of git gui based solutions available which are more user friendly.
 
 ## List of Git GUI Based Solutions
 
