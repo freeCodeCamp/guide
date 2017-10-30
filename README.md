@@ -2,10 +2,10 @@
 
 # freeCodeCamp Guide
 
-[![Build Status](https://img.shields.io/travis/freeCodeCamp/guides/master.svg?style=flat-square)](https://travis-ci.org/freeCodeCamp/guides) [![license](https://img.shields.io/github/license/freeCodeCamp/guides.svg?style=flat-square)](https://opensource.org/licenses/BSD-3-Clause) [![Pull Requests Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![first-timers-only Friendly](https://img.shields.io/badge/first--timers--only-friendly-blue.svg?style=flat-square)](http://www.firsttimersonly.com/) [![Join the chat at https://gitter.im/freeCodeCamp/freeCodeCamp](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/freeCodeCamp/guides?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Build Status](https://img.shields.io/travis/freeCodeCamp/guides/master.svg?style=flat-square)](https://travis-ci.org/freeCodeCamp/guides) [![license](https://img.shields.io/github/license/freeCodeCamp/guides.svg?style=flat-square)](https://opensource.org/licenses/BSD-3-Clause)  [![Gitter](https://img.shields.io/gitter/room/freeCodeCamp/freeCodeCamp.svg?style=flat-square)](https://gitter.im/freeCodeCamp/freeCodeCamp) [![Known Vulnerabilities](https://snyk.io/test/github/freeCodeCamp/guides/badge.svg?style=flat-square)](https://snyk.io/test/github/freeCodeCamp/guides)
 
-[![GitHub Issues](https://img.shields.io/github/issues/freeCodeCamp/guides.svg?style=flat-square)](https://github.com/freeCodeCamp/guides/issues) [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/freeCodeCamp/guides.svg?style=flat-square)](https://github.com/freeCodeCamp/guides/pulls) [![Known Vulnerabilities](https://snyk.io/test/github/freeCodeCamp/guides/badge.svg)](https://snyk.io/test/github/freeCodeCamp/guides)
+[![GitHub Issues](https://img.shields.io/github/issues/freeCodeCamp/guides.svg?style=flat-square)](https://github.com/freeCodeCamp/guides/issues) [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/freeCodeCamp/guides.svg?style=flat-square)](https://github.com/freeCodeCamp/guides/pulls) [![Pull Requests Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![first-timers-only Friendly](https://img.shields.io/badge/first--timers--only-friendly-blue.svg?style=flat-square)](http://www.firsttimersonly.com/)
 
 [![Throughput Graph](https://graphs.waffle.io/freeCodeCamp/guides/throughput.svg)](https://waffle.io/freeCodeCamp/guides/metrics)
 
