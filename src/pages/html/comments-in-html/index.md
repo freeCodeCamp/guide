@@ -14,8 +14,9 @@ It is good practice to add comments to your code, especially when working with a
 Author: xyz
 Date: xx/xx/xxxx
 Purpose: abc
--->
 Read more: https://html.com/tags/comment-tag/#ixzz4vtZHu5uR
+-->
+
 <!DOCTYPE html>
 <html>
 	<body>
