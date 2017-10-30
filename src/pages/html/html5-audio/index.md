@@ -8,6 +8,17 @@ The HTML <audio> element is used to embed sound content in documents. It may con
   
 To embed audio file into web page, just add this code snippet and change the src of audio file.
 
+
+### Basic Usage:
+```html
+<audio
+  src="sountrack.ogg"
+  autoplay>
+  Your browser does not support the <code>audio</code> element.
+</audio>
+```
+
+### Advanced Usage:
 ```html
 <audio controls>
   <source src="tutorial.ogg" type="audio/ogg">
