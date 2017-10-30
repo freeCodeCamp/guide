@@ -16,8 +16,8 @@ JOIN tableNameTwo AS b ON a.primeKey = b.primeKey
 etc...
 ```
 The JOIN statement could be just JOIN or INNER JOIN, which are the same, or LEFT JOIN (described below). 
-Here are descriptions and examples of each.  Compare to the complete tables below.
-Here are the different types of the JOINs in SQL:
+
+### Different Types of JOINs
 
 - (INNER) JOIN
   - Return records that have matching values in both tables
