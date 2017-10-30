@@ -2,14 +2,17 @@
 title: Header Tag
 ---
 ## Header Tag
+The `<header>` tag is for intro content, like a container for it or page navigation links. The `<header` tag can contain heading elements, icon, logo, and or author information. There can be many  `<header>` elements in a document.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/header-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+A `<header>` tag cannot be in another `<header>` element, or within `<footer>` and `<address>` elements.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```
+<header>
+  <h1>This is a header</h1>
+</header>
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+[MDN - Header Tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header)
 
 
