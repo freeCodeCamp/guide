@@ -2,6 +2,7 @@
 title: JavaScript Tutorials and Other Resources
 ---
 *   <a href='http://jsforcats.com/' target='_blank' rel='nofollow'>JavaScript for Cats</a>
+<a href='https://www.coursera.org/courses?languages=en&query=javascript' target='_blank' rel='nofollow'>Courses on Java Script</a>
 *   <a href='https://github.com/DrBoolean/mostly-adequate-guide' target='_blank' rel='nofollow'>Professor Frisby's Mostly Adequate Guide to Functional Programming</a>
 *   <a href='http://www.eloquentjavascript.net' target='_blank' rel='nofollow'>Eloquent Javascript</a> (<a href='https://watchandcode.com/courses/eloquent-javascript-the-annotated-version' target='_blank' rel='nofollow'>_annotated_</a>)
 *   <a href='http://speakingjs.com/es5/' target='_blank' rel='nofollow'>Speaking Javascript</a>
