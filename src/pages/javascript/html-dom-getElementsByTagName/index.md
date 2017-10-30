@@ -2,7 +2,8 @@
 Title: Element getElementsByTagName
 ---
 
-When working with the HMTL DOM (Document Object Model), it is sometimes nessecary to transverse all the decendant elements of a specified element. Element.getElementsByTagName is a method which will return a collection of all elements beneath a specified element, **excluding the parent element** that you specify.
+## Element.getElementsByTagName
+The getElementsByTagName method returns all elements below a specified element, excluding the element that is specified. This HTML collection that is returned is live, meaning that it is updated in real time as the DOM changes.
 
 Example syntax:
 
@@ -16,7 +17,7 @@ Example usage:
 let articleParagraphs = article.getElementsByTagName("p");
 ```
 
-You can also use "*" to get all elements below the specified one, regardless of the tag name.
+A star can also be used in order to select all descendants of the specified element, regardless of the tag name:
 
 ```javascript
 let allDescendants = main.getElementsByTagName("*");
