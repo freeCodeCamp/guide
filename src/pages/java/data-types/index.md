@@ -3,7 +3,7 @@ title: Data Types
 ---
 # Data Types
 
-Java is a strongly typed language. This means that, in Java, each data type has its own strict definition. There are no implicit data type conversions when any conflicts occur between the data types. Any change in data types should be explicitly declared by the programmer.
+Java is a strongly typed language. This means that, in Java, each data type has its own strict definition. There are no implicit data type conversions when any conflicts occur between the data types. Any change in data types should be explicitly declared by the programmer. 
 
 Java defines 8 simple data types : `byte`, `short`, `int`, `long`, `char`, `float`, `double` and `boolean`.
 
@@ -162,3 +162,11 @@ class demo{
     }
 }
 ```
+Primitive data types can be used as a reference data types by adding a new layer called wrappers. In Java there is a wrapper defined for every primitive type:
+ * Integer for int
+ * Float for float
+ * Double for double
+ * Character for char
+ * Byte for byte
+ * Short for short 
+ * Boolean for boolean
