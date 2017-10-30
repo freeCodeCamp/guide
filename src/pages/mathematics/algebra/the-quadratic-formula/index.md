@@ -3,13 +3,21 @@ title: The Quadratic Formula
 ---
 ## The Quadratic Formula
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/algebra/the-quadratic-formula/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The quadratic formula is a formula used to arrive at the solution of a quadratic equation.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Definition
+For a quadratic equation ax^2 + bx + c = 0, with a, b, c real numbers, we have
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+![equation](http://www.statisticslectures.com/images/quadeq1.gif)
+
+Each solution given by the quadratic formula is a root of the quadratic equation. Geometrically, these roots are the x-values where the parabola intersects the x-axis.
+
+### Example
+
+![example1](http://www.ultimatemaths.com/index_htm_files/98909.jpg)
+
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+[Wikipedia article](https://en.wikipedia.org/wiki/Quadratic_formula)
 
 
