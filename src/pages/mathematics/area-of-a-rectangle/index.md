@@ -3,7 +3,7 @@ title: Area of a Rectangle
 ---
 ## Area of a Rectangle
 
-The area of a rectangle can be calculated by multiplying the length of the two different sides together.
+The area of a rectangle can be calculated by multiplying the <b>length</b> and the <b>width</b> together.
 
 For example, if you have a rectangle that is 2cm by 4cm, then you can work out the area:
 
