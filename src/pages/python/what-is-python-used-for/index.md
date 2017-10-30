@@ -17,6 +17,7 @@ Python is one of the flexible language when it come to automating boring or repe
 
 ##### Artificial Intelligence:
 The presence of computing is Artificial Intelligence. AI has come to stay and Python is serving as a major language to boast development in the field of AI. Tensorflow is designed with Python and it is under AI.
+This is an amazing oppurtinity
 
 #### More Information:
 Here's a <a href='https://www.python.org/about/apps/' target='_blank' rel='nofollow'>link</a> to appications of Python on it's offical website.
