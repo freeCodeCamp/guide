@@ -3,12 +3,11 @@ title: E Constant
 ---
 ## E Constant
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/e-constant/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The E constant, named after Leonhard Euler, is equal to the value:
+2.718281828
+e is the base of the Natural Logarithms, and this kind of math is applicable in many areas of mathematics and physics, and any natural logarithm, if you are to encounter one, is solved similarly to any other logarithm.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
+http://www.mathsisfun.com/numbers/e-eulers-number.html
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
