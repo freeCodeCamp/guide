@@ -1,5 +1,5 @@
 ---
-title: Cross Functional Teams		
+title: Cross Functional Teams
 ---
 
 ## Cross Functional Teams
