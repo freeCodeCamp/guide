@@ -21,3 +21,12 @@ The use of the `<p>` is complatible with other tags, allowing also to add hyperl
 </body>
 </html>
 ```
+
+You can also nest an anchor element `<a>` within a paragraph. 
+
+### Example
+```html
+<p>Here's a 
+  <a href="http://freecodecamp.com">link to Free Code Camp.com</a>
+  for you to follow.</p>
+```
