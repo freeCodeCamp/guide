@@ -79,6 +79,10 @@ Greedy Algorithms help us solve a lot of different kinds of problems. Stay tuned
 2. Minimum Spanning Tree Problem in a Graph.
 3. Huffman Encoding Probelm.
 
+## Future and Current Uses of Greedy Algorithm
+
+Greedy algorithms are often used in ad hoc mobile networking to efficiently route packets with the fewest number of hops and the shortest delay possible. They are also used in machine learning, business intelligence (BI), artificial intelligence (AI) and programming.
+
 #### More Information:
 <a href="https://www.youtube.com/watch?v=HzeK7g8cD0Y" target="_blank">
   <img src="http://img.youtube.com/vi/HzeK7g8cD0Y/0.jpg" alt="Greedy Problems" width="240" height="180" border="10" />
