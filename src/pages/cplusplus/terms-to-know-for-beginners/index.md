@@ -100,7 +100,7 @@ Output :
 * The first output statement is `1+2`
 * The second output statement is `3`
 
-This is because we did not add the inverted commas for the second print statement and so, the compiler added the nuumbers before printing them.
+This is because we did not add the inverted commas for the second print statement and so, the compiler added the numbers before printing them.
 
 #### Comments  :
 
@@ -123,6 +123,7 @@ This is because we did not add the inverted commas for the second print statemen
 `Hello Comment`
 
  As you may notice, the comments are ignored during program execution and do not show up on checking the output of the program.
+ It should be noted that while comments do add an extra level of readability to one's code, it's a bad habit to rely too heavily on comments to describe the logic in your code. In general, your code should speak for itself and reflect the intention of the programmer.
 
 <a href='https://repl.it/L4ox' target='_blank' rel='nofollow'>A summation of all the print statements used in this article. Feel free to tweak around woth the code ! :) </a>
 
