@@ -1,12 +1,23 @@
 ---
 title: Decrement a Number with JavaScript
 ---
-You can easily decrement or decrease a variable by `1` with the `--` operator.
+The decrement operator (--) is an arithmetic operator. It decrements a value from a number and returns a value.
 
-    i--;
+```
+var x = 1;
+x-- // returns 0
+x = x-1 // returns -1 and is same as above statement
+```
 
-is the equivalent of
+We can perform postfix decrement (x--) which returns a value before decrementing or prefix decrement (--x) which returns a value after decrementing.
 
-    i = i - 1;
+```
+// Postfix 
+var x = 3;
+y = x--; // y = 3, x = 2
 
-**Note:** The entire line becomes `i--;`, eliminating the need for the equal sign.
+// Prefix
+var a = 2;
+b = --a; // a = 1, b = 1
+```
+
