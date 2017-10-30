@@ -44,3 +44,22 @@ std::string second_item = a.at(2); // gets "element"
 // OR
 std::string second_item = a[2]; // gets "element"
 ```
+### How Vector Internally stores values
+Initially once you declare a vector , it will be allocated some memory from the heap (Dynamic Memory).
+So suppose for example conside the below vector 
+```cpp
+std::vector<int> id;
+```
+This vector initially contains 5 integers and in future if we add more integers to it, vector needs 
+more memory to store this so in this case below things happens internally
+
+1. It will allocate a bigger chunk of memory on heap i.e. almost double the size of previously allocated.
+2. Then it copies all the elements from old memory location to new one. Yes it copies them, so in case our elements are user defined objects then their copy constructor will be called. Which makes this step quite heavy in terms of speed.
+3. Then after successful copying it deletes the old memory.
+
+To Check what is the current capacity of the vector you can use inbuilt function capacity().
+```cpp
+std::vector<int> id;
+id.capacity()
+```
+
