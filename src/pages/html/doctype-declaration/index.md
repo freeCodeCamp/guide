@@ -18,21 +18,21 @@ In contrast, the declaration of HTML5 `DOCTYPE` is much simpler: it no longer re
 ### Examples
 
 Doctype syntax for HTML5 and beyond:
-```
+```html
 <!DOCTYPE html>
 ```
 
 Doctype syntax for strict HTML 4.01:
-```
+```html
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 ```
 
 Doctype syntax for transitional HTML 4.01:
-```
+```html
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 ```
 
 Doctype syntax for frameset HTML 4.01:
-```
+```html
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
 ```
