@@ -3,11 +3,18 @@ title: Center Tag
 ---
 ## Center Tag
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/center-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+The center tag is used to center align the text using <center> tag.It has an opening and closing tag.
+  
+Example:
+<center> This gets displayed in the center of the page </center>
+  
+But <center> tag is no longer supported in HTML5.So use Center in CSS instead while styling.
+  
+Example:
+<style>
+h1 {text-align:center;}
+p {text-align:center;}
+</style>
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
