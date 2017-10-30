@@ -3,13 +3,20 @@ title: Array.prototype.includes
 ---
 ## Array.prototype.includes
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/standard-objects/array/array-prototype-includes/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+New array method in ES7.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Returns `true` if an element exists in an array, `false` otherwise.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```sh
+var life = ['mom', 'dad', 'brother']
+
+life.includes('mom')          // true
+life.includes('girlfriend')   // false
+```
+
+
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+[MDN Documentation] (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)
 
 
