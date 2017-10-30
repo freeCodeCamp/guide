@@ -11,8 +11,8 @@ Before diving in to learing about sets and how to use them to perfrom mathematic
   s1 = {}
   print(s1)    
   ```
-> Now we understand how to create set lets learn how we can use set's to perform computing mathematical operations such as intersection, union, difference, and symmetric difference which are basically types of set.
-> In following examples we will use common set for all the operations which are 
+
+> We will use common set for all the operations which are 
 ```
 setA = {1, 2, 3, 4, 5}
 setB = {5, 6, 7, 8, 9}
@@ -66,7 +66,7 @@ Output :
 **TODO: Explain hash/hashable**
 
 **hash**
-A hash is an fixed sized integer that identifies a particular value. Each value need to have it's own hash, so for the same value you will get the same hash even if it's not the same object.
+A hash is an fixed sized integer that identifies a particular value.
 
 Example :
 ```
@@ -79,7 +79,7 @@ Output :
 -603957490819180268
 -603957490819180268
 ```
-Hash values need to be created in such a way that the resulting values are evenly distributed to reduce the number of hash collisions you get. Hash collisions are when two different values have the same hash. Therefore, relatively small changes often result in very different hashes.
+Hash collisions are when two different values have the same hash.
 
 ```
 print(hash('Hello World!'))
