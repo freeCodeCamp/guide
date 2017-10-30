@@ -13,5 +13,11 @@ The input tag does not need an ending tag and can have numerous attributes:
   <li> reset </li>
   <li> submit </li>
 </ul>
-
+![Text](./inputtext.png)
+![Radio](./inputradio.png)
+![Submit](./inputsubmit.png)
 ![Checkbox](./inputcheckbox.png)
+![Reset](./inputreset.png)
+
+### Sources
+ <a href='https://tutorialehtml.com/en/html-tutorial-input-tag/' target='_blank' rel='nofollow'>tutorialehtml.com</a>
