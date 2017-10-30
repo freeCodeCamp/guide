@@ -1,6 +1,4 @@
----
-title: Input Type Attribute
----
+
 ## Input Type Attribute
 The input element is a multi-purpose form control. The type attribute specifies the type of form control to be created.
 
@@ -10,7 +8,7 @@ The input element is a multi-purpose form control. The type attribute specifies 
 
 #### Example type="checkbox":
 `checkbox`: A check box allowing single values to be selected/deselected.<br/>
-color: A control for specifying a color. A color picker's UI has no required features other than accepting simple colors as text (more info).
+color: A control for specifying a color. A color picker's UI has no required features other than accepting simple colors as text (more info). <br/>
 `  <input type="checkbox" name="option1" value="a1">option1<Br>
    <input type="checkbox" name="option2" value="a2">option2<Br>
    <input type="checkbox" name="option3" value="a3">option3<Br> 
