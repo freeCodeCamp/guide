@@ -16,3 +16,4 @@ These are some of them:
 [Adobe Photoshop](http://adobe.com/Photoshop) - [Guide](https://github.com/freeCodeCamp/guides/blob/master/src/pages/designer-tools/photoshop/index.md)
 
 [Sketch](https://www.sketchapp.com) - [Guide](https://github.com/freeCodeCamp/guides/blob/master/src/pages/designer-tools/sketch/index.md)
+
