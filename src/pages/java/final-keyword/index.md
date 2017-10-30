@@ -3,7 +3,7 @@ title: Final
 ---
 
 ## final
-You use the final keyword to mark a variable constant, so that it can be assigned only once.
+You use the final keyword to mark a variable constant so that it can be assigned only once.
 
 ***Example:***
 ```java
