@@ -3,11 +3,10 @@ title: Symbols
 ---
 ## Symbols
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/symbols/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+HTML allows the use of symbols within it's code. Each symbol has a unique entity name and/or entity number. You must have `&` at the beginning and `;` at the end in order for it to work. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+For example, if you were to write the copyright symbol &copy;, your HTML code would look like this: `&copy;`. 
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
