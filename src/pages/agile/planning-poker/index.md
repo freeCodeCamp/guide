@@ -8,3 +8,4 @@ Each estimator holds poker cards with various values. The value represents the n
 
 ### More Information:
 - Planning poker video: <a href='https://www.youtube.com/watch?v=MrIZMuvjTws' target='_blank' rel='nofollow'>YouTube</a>
+my changes
