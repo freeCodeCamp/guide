@@ -66,3 +66,11 @@ Most common operations available on List are,
 #### More Information:
 * <a href='http://www.geeksforgeeks.org/linked-list-set-1-introduction/' target='_blank' rel='nofollow'>Introduction to Linked Lists</a>
 
+Types of Linked Lists:
+
+->Singly Linked List : Singly linked lists contain nodes which have a data part as well as an address part i.e. next, which points to the next node in sequence of nodes. The operations we can perform on singly linked lists are insertion, deletion and traversal.
+
+->Doubly Linked List : In a doubly linked list, each node contains two links the first link points to the previous node and the next link points to the next node in the sequence.
+
+->Circular Linked List : In the circular linked list the last node of the list contains the address of the first node and forms a circular chain.
+
