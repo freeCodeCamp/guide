@@ -3,13 +3,11 @@ title: AVl Trees
 ---
 ## AVl Trees
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/algorithms/avl-trees/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+AVL tree is a self-balancing Binary Search Tree (BST) where  the height of the two child sub trees of any node differ by at most one .
+If at any time they differ by more than one, rebalancing is done to restore this property. Lookup, insertion, and deletion .
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Insertion, Deletion and search in AVL tree take O(logn) time where n = No. of node
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+http://practice.geeksforgeeks.org/ckeditor/images/uploads/1492242435_AVL%20Example.png
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+The above tree is AVL because differences between heights of left and right subtrees for every node is less than or equal to 1.
