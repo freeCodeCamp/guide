@@ -32,6 +32,6 @@ console.log(numbers);
 ```
 
 #### More Information:
-[MSD Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
+MDN Documentation https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
 
 
