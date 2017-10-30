@@ -13,6 +13,7 @@ The input tag does not need an ending tag and can have numerous attributes:
   <li> reset </li>
   <li> submit </li>
 </ul>
+
 ![Text](./inputtext.png)
 ![Radio](./inputradio.png)
 ![Submit](./inputsubmit.png)
