@@ -276,7 +276,7 @@
     position: absolute;
 }
 
-/* @jc night mode branch */
+/* Night mode styles */
 
 body {
   background-color: #656262;
@@ -286,7 +286,13 @@ h1, h2, h3, h4, h5, h6, p, li {
   color: lightgray;
 }
 
-
+/* links */
+a {
+  color: white;
+}
+a:focus, a:hover {
+  color: lightgray;
+}
 
 .title {
   background-color: #656262;
@@ -300,15 +306,14 @@ h1, h2, h3, h4, h5, h6, p, li {
   background-color: black;
 }
 
-/* links */
-a {
-  color: white;
-}
-
 .panel-title>.small, .panel-title>.small>a, .panel-title>a, .panel-title>small, .panel-title>small>a {
   color: white;
 }
 
 .navItemTitle {
+  color: white;
+}
+
+.resultIcon {
   color: white;
 }
