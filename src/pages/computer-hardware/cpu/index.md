@@ -9,7 +9,7 @@ CPUs are integrated circuits, which are complex circuits embedded on a single ch
 
 CPU speeds are measured in gigahertz (GHz). For every gigahertz of speed, a CPU can perform one billion instructions in a second. These instructions are very simple, such as "add two numbers" or "move this variable to this location." To see this in action, read about <a href='https://en.wikipedia.org/wiki/Assembly_language'>assembly language</a>.
 
-Gigahertz is not the only determining factor in the actual speed of a processor, as different processors with the same gigahertz speed (also known as clock speed) may perform real-world tasks at different speeds due to using different sets of instructions to perform these tasks. These instruction sets are called CPU architectures.
+Gigahertz is not the only determining factor in the actual speed of a processor, as different processors with the same gigahertz speed (also known as clock speed) may perform real-world tasks at different speeds due to using different sets of instructions to perform these tasks. These instruction sets are called CPU architectures. There are different types of CPU architectures. As of 2017, the majority of personal computers and laptops sold are based on the <a href='https://en.wikipedia.org/wiki/X86'>x86 architecture</a>.
 
 Most modern CPUs use a 64-bit architecture, which means they store information as 64 binary 'bits'. Older CPUs used 32-bit, 16-bit, and even 8-bit architectures. The largest number a 64-bit CPU can store is 18,446,744,073,709,552,000. 
 
@@ -24,5 +24,4 @@ A microprocessor is a silicon chip containing millions of microscopic transistor
   
 There are two primary manufacturers of computer microprocessors. Intel and Advanced Micro Devices (AMD) lead the market in terms of speed and quality. Intel's desktop CPUs include Celeron, Pentium and Core. AMD's desktop processors include Sempron, Athlon and Phenom. Intel makes Celeron M, Pentium M and Core mobile processors for notebooks. AMD makes mobile versions of its Sempron and Athlon, as well as the Turion mobile processor which comes in Ultra and Dual-Core versions. Both companies make both single-core and multi-core processors.
 #### More Information:
-<a href='https://en.wikipedia.org/wiki/Central_processing_unit' target='_blank' rel='nofollow'>Wikipedia</a>M
-
+<a href='https://en.wikipedia.org/wiki/Central_processing_unit' target='_blank' rel='nofollow'>Wikipedia</a>
