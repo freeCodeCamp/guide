@@ -47,6 +47,15 @@ Third party modules don't come bundled with python , but we have to install it e
 
 Find out more about python-requests module <a href='http://docs.python-requests.org/en/master/' target='_blank' rel='nofollow'>here</a>
 
+## Understanding what a module can offer
+
+You may know that a module has got what you need to achieve part of your goals, but you may not know what the module can offer in detail. To get help on a module you can use simply
+
+```python
+    help(module)
+```
+and you will be redirected to the documentation of the module. Alternatively, you can ask a list of the module properties, classes, methods, etc. by `dir(module)`. From this list, you can go further into the usage of a method, or class, via invocation of `help(module.name_of_class)`.
+
 ## To structure programs
 
 We want to make a program that has various functions regarding prime numbers. So lets start. We will define all the functions in `prime_functions.py`
