@@ -19,3 +19,14 @@ Binary search trees allow fast lookup, insert and removal of nodes. The way that
 ### Relevant videos on freeCodeCamp YouTube channel
 * <a href='https://youtu.be/5cU1ILGy6dM' target='_blank' rel='nofollow'>Binary Search Tree</a>
 * <a href='https://youtu.be/Aagf3RyK3Lw' target='_blank' rel='nofollow'>Binary Search Tree: Traversal and Height</a>
+
+
+#### Operations typically performed on a binary search tree:
+ Determine whether the BST is empty
+ Insert an item in the BST
+ Search the BST for a particular item
+ Delete an item from the BST
+ Find the height of the BST
+ Find the number of nodes in the BST
+ Find the number of leaves in the BST
+ Copy the BST
