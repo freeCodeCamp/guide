@@ -10,7 +10,7 @@ Bootstrap includes a responsive grid system for responsive layouts and is a grea
 
 #### Version History
 
-Sometimes referred to as Twitter Bootstrap, the framework was originally developed by Twitter as an internal tool.  It was released as an open source project in August 2011.
+Sometimes referred to as Twitter Bootstrap, the framework was originally developed by Twitter as an internal tool to improve consistency and efficiency. It was released as an open source project in August 2011.
 
 Bootstrap 2 was released in January 2012 and introduced the 12 column responsive grid system.
 
