@@ -53,13 +53,13 @@ In general, you should pick the minimum for your task. If you know you'll be cou
 * The actual abilities of C data types depend on the hardware. As a result, minimum sizes are defined for the data types.
 * Floating point numbers will allow you to have decimals, while integer numbers won't.
 * We have some options for our integer values:
- * char, which is designed for characters but stores numbers
- * int, which is the standard integer data type
- * short, which is a less commonly used but still available integer data type
- * long, which gives a wide range of integer values
+ * char, which is designed for characters but stores numbers;
+ * int, which is the standard integer data type;
+ * short, which is a less commonly used but still available integer data type;
+ * long, which gives a wide range of integer values;
  * long long, which gives an overkill range of integer values but is still sometimes useful.
 * We also have some options for our floating point values:
- * float is the basic floating point value, storing 6 decimal places
- * double takes double the memory and gives 15 decimal places
- * long double takes even more memory and gives 19 decimal places
+ * float is the basic floating point value, storing 6 decimal places;
+ * double takes double the memory and gives 15 decimal places;
+ * long double takes even more memory and gives 19 decimal places.
 * Picking the right data type is important and gives the programmer a lot of control over the program at a low level.
