@@ -16,3 +16,8 @@ Most of the BST operations (e.g., search, max, min, insert, delete.. etc) take O
 Comparison with AVL Tree
 The AVL trees are more balanced compared to Red Black Trees, but they may cause more rotations during insertion and deletion. So if your application involves many frequent insertions and deletions, then Red Black trees should be preferred. And if the insertions and deletions are less frequent and search is more frequent operation, then AVL tree should be preferred over Red Black Tree.
 
+
+### A RED-BLACK tree is complete if
+Each node at the lowestdepth is colored RED, and
+All other nodes are colored BLACK
+
