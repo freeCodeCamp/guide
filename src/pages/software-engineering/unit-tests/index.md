@@ -21,7 +21,7 @@ Depending on the type of programming language (or paradigm) these can be against
 Suppose there is a function written in file **add.js**
 ```javascript
 var add = function(number1, number2){
-  return number1 + number 2;
+  return number1 + number2;
 }
 ```
 Now, in order to write unit test of this particular function we can use testing tools like [mocha](http://mochajs.org/)
