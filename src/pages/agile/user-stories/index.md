@@ -10,6 +10,8 @@ User stories should be written in non-technical terms from the perspective of th
 
 One common mistake that is made when writing user stories is writing from the perspective of the developer or the solution. Be sure to state the goal and the need, and the functional requirements come later.
 
+To make sure that the user story will be realized as you expect, you can add acceptance criteria to it. In this acceptance criteria you can write down the conditions for the fulfillment of the story. This criteria can be checked before the deployment and verify that the user story is finished.
+
 #### Sizing a User Story: Epics and Smaller Stories
 An epic is a big, coarse-grained story. It is typically broken into several user stories over time—leveraging the user feedback on early prototypes and product increments. You can think of it as a headline and a placeholder for more detailed stories.
 
