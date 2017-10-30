@@ -15,12 +15,12 @@ Operations: Work required to run and manage the application,typically begins sho
 
 Tools can be used to manage ALM; some of the more popular options include:
 
-* JIRA (http://www.atlassian.com/software/jira)
-* Rally [CA Technologies] (http://www.ca.com/us.html)
-* Thoughtworks (http://www.thoughtworks.com/products)
+* Atlassian [JIRA](http://atlassian.com/software/jira)
+* CA Technologies [Rally](http://ca.com/us.html)
+* [Thoughtworks](http://thoughtworks.com/products)
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-InfoQ - Gartner and Software Advice examine Agile Lifecycle Management Tools (http://www.infoq.com/news/2015/02/agile-management-tools/)
+InfoQ - Gartner and Software Advice examine [Agile Lifecycle Management Tools](http://www.infoq.com/news/2015/02/agile-management-tools/)
 
 
