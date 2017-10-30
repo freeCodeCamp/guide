@@ -64,7 +64,7 @@ You can also add forms to the navbar. This could be uses for tasks such as a sea
 ```
 
 #### Aligning elements to the right on the navbar
-In some cases you might want to align elements in a navbar to the right (for example a login or sign-up button.). To do this you'll need to use the `navbar-right` class.
+In some cases you might want to align elements in a navbar to the right (for example a login or sign-up button). To do this you'll need to use the `navbar-right` class.
 ```html
 <nav class="navbar navbar-default">
   <div class="container-fluid">
