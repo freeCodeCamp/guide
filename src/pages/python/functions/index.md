@@ -30,7 +30,7 @@ result = sum(1)
 #result = 4
 ```
 
-You can pass the parameters in the order you whant, using the name of the parameter.
+You can pass the parameters in the order you want, using the name of the parameter.
 
 ```Python
 result = sum(b=2, a=2)
