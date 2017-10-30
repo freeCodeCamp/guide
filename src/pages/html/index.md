@@ -49,3 +49,18 @@ HTML5 is the latest version, or specification, of HTML. The World Wide Web Conso
   </tr>
 </table>
 
+##The HTML charset Attribute
+To display an HTML page correctly, a web browser must know the character set used in the page.
+
+####This is specified in the <meta> tag:
+
+##### For HTML4:
+
+```html
+<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1">
+```
+##### For HTML5:
+
+```html
+<meta charset="UTF-8">
+
