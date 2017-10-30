@@ -22,6 +22,20 @@ this is what makes vim different.
 
 Normal mode can be accessed from other modes by pressing `Esc` or `<C-[>`.
 
+In normal mode, there are multiple ways to move around an open file. In addition 
+to using the cursor keys to move around, you can use `h` (left), `j` (down), `k` 
+(up), and `l` (right) to move as well. This particularly helps touch typists who 
+don’t like leaving the home row when making changes.
+
+You can also make changes to single characters in normal mode. For example, to 
+replace a single character, move your cursor over it and press `r`, and then the 
+character you want to replace it with. Similarly, you can delete single characters 
+by moving your cursor over it and pressing `x`.
+
+To perform an undo, press `u` in normal mode. This undoes changes up to the last 
+time you were in normal mode. If you want to redo (*i.e.*, undo your undo) press 
+`Ctrl+r` in normal mode.
+
 ### Insert Mode
 This is the second most used mode.  You can enter it by using an insert command
 from normal mode.
