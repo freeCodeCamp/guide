@@ -32,7 +32,7 @@ public class Car extends Vehicle {
 }
 ```
 
-Here we can see the `Car` class inheriting the properties of the `Vehicle` class. So, we dont have to write the same code of `start()` and `stop()` for `Car` as well, as those properties come from its parent. Yes, objects created from the `Car` class _also_ have those properties!
+Here we can see the `Car` class inheriting the properties of the `Vehicle` class. So, we dont have to write the same code of `start()` and `stop()` for `Car` as well, as those properties come from its parent. Yes, objects created from the `Car` class _also_ have those properties!!
 
 ```java
 Car tesla = new Car();
