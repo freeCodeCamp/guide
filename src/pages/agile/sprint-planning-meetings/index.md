@@ -3,6 +3,8 @@ title: Sprint Planning Meetings
 ---
 ## Sprint Planning Meetings
 
+We hold a sprint planning meeting to plan what the team will build in the upcoming sprint and how the team will build it. 
+
 **Participants:** Delivery Team, Scrum Master, Product Owner, and Business Analyst (or Subject Matter Expert) 
 **When:** Before the Sprint
 **Duration:** Minumum 2 hours 
