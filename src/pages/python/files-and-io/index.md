@@ -63,3 +63,31 @@ Output:
 First 15 characters are:
 Python is a pow
 ```
+
+A file can also be a command line argument as such:
+
+example.txt: 
+ ``` 
+ hello world
+ ```
+ 
+```
+python helloworld.py < example.txt
+```
+
+And the values from the file can be easily extracted by using the <code>input()</code> function
+
+Example:
+
+
+
+ ```python
+ values = input()
+ print values 
+ ```
+ 
+ Output:
+ ```
+ hello world
+ ```
+ 
