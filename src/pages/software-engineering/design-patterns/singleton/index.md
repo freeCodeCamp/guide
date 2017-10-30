@@ -74,3 +74,16 @@ $obj2 = Singleton::getInstance();
 
 ```
 
+## Singleton in C++
+Singletons in C++ can be useful when a shared instance of a given class is to be used throughout an application. One such example is a log implementation. In many cases passing an instance of a log object around can prove to be tedious, a singleton can alleviate the associated code repetition.
+
+The below example is straightforward – it returns a reference to the DebugLogger class which is automatically constructed when the `instance()` function is first called. Additionally, the `singleton` is automatically destroyed upon program termination, thus alleviating the risk of managing the object's life.
+```cpp
+class DebugLogger {
+public:
+    static MyClass &instance() {
+        static MyClass singleton;
+        return singleton;
+    }
+};
+```
