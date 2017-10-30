@@ -3,9 +3,12 @@ title: Sprint Planning Meetings
 ---
 ## Sprint Planning Meetings
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/sprint-planning-meetings/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+We hold a sprint planning meeting to plan what the team will build in the upcoming sprint and how the team will build it. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+**Participants:** Delivery Team, Scrum Master, Product Owner, and Business Analyst (or Subject Matter Expert) 
+**When:** Before the Sprint
+**Duration:** Minumum 2 hours 
+**Purpose:** The Goal of a Sprint Planning session is to schedule a planned out delivery within scope of the highest priority features from the backlog. The team agrees on the prioritized Sprint Backlog. The Delivery Team will discuss the requirement (User Story) and the design to estimate how much work the team can complete. The team will then commit to getting those User Stories completed.
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
