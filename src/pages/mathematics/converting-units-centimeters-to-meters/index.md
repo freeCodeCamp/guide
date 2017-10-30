@@ -3,13 +3,15 @@ title: Converting Units Centimeters to Meters
 ---
 ## Converting Units Centimeters to Meters
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/converting-units-centimeters-to-meters/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Centi- (symbol c) is a unit prefix in the metric system denoting a factor of one hundredth
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Meaning a Centimenter is one hundredth of a meter.
+x cm = x m / 100
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Examples
+1 cm = 1 m     / 100 = 0.01  m
+10 cm = 10 m   / 100 = 0.1   m
+1.2 cm = 1.2 m / 100 = 0.012 m
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+https://en.wikipedia.org/wiki/Centi-
