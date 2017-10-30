@@ -124,3 +124,5 @@ Notice the `!`, which is needed because this function returns 0 if they are the 
 * Arrays have separate positions that can be declared with brackets, and accessed with square brackets.
 * Strings are arrays too, but we can treat them a little differently: they can be declared using double quotes, and printed using %s.
 * Strings have their own library, `string.h`, which has some handy functions to use.
+
+My changes.
