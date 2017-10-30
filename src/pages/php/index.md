@@ -17,6 +17,7 @@ It is typically used to generate web page content dynamically. For example, if y
 * Processing and saving user input from form data
 * Setting and working with website cookies
 * Restricting access to certain pages of your website
+* Creating actionable forms
 
 ## How does PHP work?
 
