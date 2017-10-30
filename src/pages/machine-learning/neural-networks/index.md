@@ -24,10 +24,18 @@ Neural networks are used on a variety of tasks. These include computer vision, s
 - Feature learning 
 - Learning to rank
 - Grammar induction
+- Weather prediction
+
+### Common Neural Network Systems
+
+The most common Neural Networks used today fall into the [deep learning](https://github.com/freeCodeCamp/guides/blob/master/src/pages/machine-learning/deep-learning/index.md) category. Deep learning is the process of chaining multiple layers of neurons to allow a network to create increasingly abstract mappings between input and output vectors. Deep neural networks will most commonly use [back propogation](https://github.com/freeCodeCamp/guides/blob/master/src/pages/machine-learning/backpropagation/index.md) in order to converge upon the most accurate mapping.
+
+The second most common form of neural networks is nueroevolution. In this system multiple neural networks are randomly generated as initial guesses. Then multiple generations of combining the accurate most networks and random permutations are used to converge upon a more accurate mapping. 
 
 ### More Information:
-- <a href=' https://en.wikipedia.org/wiki/Artificial_neural_network#Components_of_an_artificial_neural_network ' target='_blank' rel='nofollow'>Wikipedia</a>
-- <a href='http://natureofcode.com/book/chapter-10-neural-networks/' target='_blank' rel='nofollow'>Daniel Shiffman's Nature of Code</a>
-- <a href='http://ufldl.stanford.edu/tutorial/supervised/MultiLayerNeuralNetworks/' target='_blank' rel='nofollow'>Stanford University</a>
-- <a href='https://youtu.be/aircAruvnKk' target='_blank' rel='nofollow'>3Blue1Brown</a>
-- <a href='https://youtu.be/h3l4qz76JhQ' target='_blank' rel='nofollow'>Siraj Raval</a>
+- [Neural Networks - Wikipedia](https://en.wikipedia.org/wiki/Artificial_neural_network#Components_of_an_artificial_neural_network)
+- [Daniel Shiffman's Nature of Code](http://natureofcode.com/book/chapter-10-neural-networks/)
+- [Stanford University, Multilayer Neural Networks](http://ufldl.stanford.edu/tutorial/supervised/MultiLayerNeuralNetworks/)
+- [3Blue1Brown, Youtube Channel with Neural Network content](https://youtu.be/aircAruvnKk)
+- [Siraj Raval, Youtube CHannel with Neural Network content](https://youtu.be/h3l4qz76JhQ)
+- [Neuroevolution - Wikipedia](https://en.wikipedia.org/wiki/Neuroevolution)
