@@ -161,6 +161,4 @@ These two lines of code tell the compiler that the word 'false' should be replac
  
 #### More Information:
 [YouTube](https://www.youtube.com/watch?v=I2LRuehVLNA)
-[YouTube](https://www.youtube.com/watch?v=TNHkZKLXkyw)
-[YouTube](https://www.youtube.com/watch?v=q2LCT6gRZVY)
  
