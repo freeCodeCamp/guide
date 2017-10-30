@@ -3,13 +3,33 @@ title: Text Transform Property
 ---
 ## Text Transform Property
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/properties/text-transform-property/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `text-transform` property in CSS controls text case and capitalization and allows such control without being dependent of the original text that is written.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The most commonly used values for this property are `lowercase`, `uppercase` and `capitalize`. 
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```
+<style>
+.lowercased {
+  text-transform: lowercase;
+}
+
+.uppercased {
+  text-transform: uppercase;
+}
+
+.capitalized {
+  text-transform: capitalize;
+}
+</style>
+
+<p class="uppercased">this text was lowercase.</p> <!-- = THIS TEXT WAS LOWERCASE. -->
+<p class="lowercased">THIS TEXT WAS UPPERCASE.</p> <!-- = this text was uppercase. -->
+<p class="capitalized">this text wasn't capitalized.</p> <!-- = This Text Wasn't Capitalized. -->
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform)
+
+[CSS-tricks](https://css-tricks.com/almanac/properties/t/text-transform/)
 
 
