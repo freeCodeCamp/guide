@@ -13,3 +13,4 @@ It is important to understand that code smell is not a bug, the person on the bu
 
 Code smell can be caused by multiple reasons, but the two main ones are when the knowledge required to write decent code is not present and when the coding happens under pressure where output quantity is more important than quality. 
 
+my changes
