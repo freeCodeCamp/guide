@@ -16,6 +16,7 @@ In CSS, you can change the color of almost any element in your HTML page. Proper
 <html>
   <body>
     <p>Hello Moto</p>
+    <p class="color">Class Color</p>
   </body>
 </html>
 ```
@@ -33,6 +34,10 @@ You can use named colors, like `green`, `blue`, `yellow`, `red`, `purple`, and m
 ```
 p {
   color: rgb(244, 145, 14); // bright orange
+}
+
+.color {
+  color: rgb(128, 0, 0); // maroon
 }
 
 body {
