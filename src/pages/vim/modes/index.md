@@ -8,14 +8,19 @@ Because vim is focused on changing existing code just as much as writing new
 code, it is split into several modes that each have different purposes.
 
 ### Normal Mode
-When you open vim, normal mode is where you will be and where you will spend
-most time when using vim.  In normal mode, keyboard keys don't type letters.
 
-Instead they can:
+By default, vim starts in "normal" mode. Here, key presses don't work as one
+would expect. That is, they don't insert text into the document; instead,
+certain key presses can:
+
 - Move the cursor
-- Delete/Replace text
-- Copy/Paste text
-- Control several windows/buffers
+- Manipulate text
+- Enter other modes
+
+Normal mode is where one should spend most of their time while using vim. Remember,
+this is what makes vim different.
+
+Normal mode can be accessed from other modes by pressing `Esc` or `<C-[>`.
 
 ### Insert Mode
 This is the second most used mode.  You can enter it by using an insert command
