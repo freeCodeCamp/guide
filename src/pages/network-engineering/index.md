@@ -12,4 +12,5 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
+Be a Computer Network Engineer: Step-by-Step Career Guide<a href='http://study.com/articles/Be_a_Computer_Network_Engineer_Step-by-Step_Career_Guide.html' target='_blank' rel='nofollow'>click here</a>.
 
