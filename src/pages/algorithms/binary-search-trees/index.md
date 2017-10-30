@@ -16,6 +16,12 @@ A binary search tree adds these two characteristics:
 
 Binary search trees allow fast lookup, insert and removal of nodes. The way that they are set up means that, on average, each comparison allows the operations to skip about half of the tree, so that each lookup, insertion or deletion takes time proportional to the logarithm of the number of items stored in the tree.
 
+Binary search trees (BSTs) also give us quick access to predecessors and successors.
+  Predecessors can be described as the node that would come right before the node you are currently at.
+   - To find the predecessor of the current node, look at the rightmost/largest leaf node in the left subtree.
+  Successors can be described as the node that would come right after the node you are currently at.
+   - To find the successor of the current node, look at the leftmost/smallest leaf node in the right subtree.
+  
 ### Relevant videos on freeCodeCamp YouTube channel
 * <a href='https://youtu.be/5cU1ILGy6dM' target='_blank' rel='nofollow'>Binary Search Tree</a>
 * <a href='https://youtu.be/Aagf3RyK3Lw' target='_blank' rel='nofollow'>Binary Search Tree: Traversal and Height</a>
