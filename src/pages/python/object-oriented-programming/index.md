@@ -1,7 +1,7 @@
 ---
-title: Object Oriented Programming
+title: Python Object Oriented Programming
 ---
-## Object Oriented Programming
+## Python Object Oriented Programming
 
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/area-of-a-parallelogram/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
