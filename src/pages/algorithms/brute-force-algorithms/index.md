@@ -3,13 +3,21 @@ title: Brute Force Algorithms
 ---
 ## Brute Force Algorithms
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/algorithms/brute-force-algorithms/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Brute force algorithms try every possible candidates for the solution and check whether each candidate satisfies the problem's statement.
+The basic structure is pretty simple.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+1. List out all the possible candidates
+2. For each, check if it solves the problem
+3. If it does, then add to solutions
+4. Repeat till all candidates are exhausted
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Now an example:
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+You have been given a number N (say 15). Find out all the positive divisors of N.
+
+1. List out candidates     -  All natural numbers from 1 to N
+2. Check one by one        -  Divide N by a candidate and check the remainder
+3. If it satisfies         -  If remainder is 0, then add to list of divisors
+4. Repeat for all          -  Check all from 1 to N
 
 
