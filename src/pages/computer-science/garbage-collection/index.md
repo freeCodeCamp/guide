@@ -1,7 +1,7 @@
 ---
 title: Garbage Collection
 ---
-## Garbage Collection
+## Garbage Collection 
 
 Garbage collection is the process in which programs try to free up memory space that is no longer used by variables, objects, and such.  Garbage collection is implemented differently for every language.  Most high-level programming languages have some sort of garbage collection built it.  Low-level programming languages may add garbage collection through libraries.
 
