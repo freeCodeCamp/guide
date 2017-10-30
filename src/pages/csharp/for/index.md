@@ -23,3 +23,6 @@ for (int i = 0; i < array.Length; i++)
 > Item on index 3 is 4
 > Item on index 4 is 5
 ```
+
+## Reference:
+https://msdn.microsoft.com/en-us/library/f0e10e56(v=vs.90).aspx
