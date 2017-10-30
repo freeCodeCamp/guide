@@ -21,7 +21,7 @@ We won't be diverted in our discussion any further trying to document all these 
 
 Both Python 2 and Python 3 are cool. Most Linux and OSX distributions come pre-installed with Python 2 as the default Python. And Python 3 was born out of the insatiable quest of more readable, more beautiful language construct.
 
-So, the only question you need to concern yourself with right now; is which one you should pick. Yes, it takes time to even get familiar with most common aspects with either Python; and your time is important. So, invest your time and effort wisely!
+So, the only question you need to concern yourself with right now; is which one you should pick. Python 2 currently has its End Of Life date set to 2020. Meaning regular bugfixes are not guaranteed going forward and yes, it takes time to even get familiar with most common aspects with either Python; and your time is important. So, invest your time and effort wisely!
 
 If you are new to Python; you should pick Python 3\. While Python 2 is well-supported and popular; most common libraries and frameworks in Python prefer Python 3\. Django officially <a href='https://docs.djangoproject.com/en/1.9/faq/install/#faq-python-version-support' target='_blank' rel='nofollow'>recommends</a> Python 3\. Flask and all its dependencies are also <a href='http://flask.pocoo.org/docs/0.10/python3/#python3-support' target='_blank' rel='nofollow'>supported</a> on Python 3.
 
