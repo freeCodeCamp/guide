@@ -12,4 +12,4 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+Success with automation has been siloed and hard to replicate. It’s hard to discover what you have and there’s always tomorrow’s shiny new tool. With Puppet, the technology is finally here to enable you to automate across your entire enterprise. So you can scale your success and accelerate delivery.
