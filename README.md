@@ -63,7 +63,7 @@ cd guides
 yarn install
 yarn run dev
 ```
-When you run `yarn run dev`, build takes little time. So wait until you see something like `Compiled successfully`. Then you will be able to see something like `Your site is running at http://localhost:8000`. Now point your browser at `http://localhost:8000`
+When you run `yarn run dev`, the build takes a little time. Wait until you see something like `Compiled successfully`. Then the following should appear, `Your site is running at http://localhost:8000`. Now point your browser at `http://localhost:8000`
 
 In this project, we are using `yarn` because `netlify` builds our site with `yarn`.
 
@@ -134,7 +134,7 @@ Before you begin writing, create an outline of the topic and think about any cod
 
 Articles should be written with short, clear sentences, and use as little jargon as necessary. All jargon should be defined immediately in plain English.
 
-The introduction paragraph should only be 1-2 sentences long and be a simple explanation of the main topic. It should limit the use of any links to other Guide articles, as they can be distracting.
+The introduction paragraph should only be 1-2 sentences long and act as a simple explanation of the main topic. It should limit the use of any links to other Guide articles, as they can be distracting.
 
 Keep paragraphs short (around 1-4 sentences). People are more likely to read several short paragraphs over a wall of text.
 
@@ -247,15 +247,15 @@ Front-end development (adjective form with a dash) is when you are working on th
 
 Technical writing, or the literature of science and technology, is hard. You'll need to take a technical (usually abstract) topic and explain it in a clear, accurate, and objective manner. You'll likely go through several rounds of proofreading and editing before you're happy with the result.
 
-Use the [Hemingway App](http://www.hemingwayapp.com/). There’s nothing magical about this simple tool, but it will automatically detect widely agreed-upon style issues:
+Use the [Hemingway App](http://www.hemingwayapp.com/). There’s nothing magical about this simple tool. It'll automatically detect widely agreed-upon style issues:
 
 - passive voice
 - unnecessary adverbs
 - words that have more common equivalents
 
-The Hemingway App will assign a “grade level” for your writing. You should aim for a grade level of 6. Another tool available is the [De-Jargonizer](http://scienceandpublic.com/), originally designed for scientific communication but might help avoid overspecialized wording.
+The Hemingway App will assign a “grade level” for your writing. You should aim for a grade level of 6. Another tool available is the [De-Jargonizer](http://scienceandpublic.com/) which was originally designed for scientific communication but might help avoid overspecialized wording.
 
-Also, there's a community of support from a whole team of contributors, whom you can bounce ideas off of and ask for input on your writing. Stay active in the [contributor's chat room](https://gitter.im/freecodecamp/contributors) and ask lots of questions.
+Also, there's a community of support from a whole team of contributors, whom you can bounce ideas off of and ask for input on your writing. Stay active in the [contributor's chat room](https://gitter.im/freecodecamp/contributors) and ask lots of questions!
 
 With your help, we can create a comprehensive reference tool that will help millions of people who are learning to code for years to come.
 
