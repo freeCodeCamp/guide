@@ -15,12 +15,12 @@ Recently Timo Koola provided 10 books every developer should read.
 
 The following four are relevant in all walks of life:
 
-About Face: The Essentials of Interaction Design: amzn.to/2uwtugk
+About Face: The Essentials of Interaction Design: <a href="amzn.to/2uwtugk" target="_blank" rel="noopener">Amazon</a> 
 
-Thinking in Systems: A Primer: amzn.to/2u6FbJF
+Thinking in Systems: A Primer: <a href="amzn.to/2u6FbJF">Amazon</a>
 
-Thinking, Fast and Slow: amzn.to/2tnnlTN
+Thinking, Fast and Slow:  <a href="amzn.to/2tnnlTN" target="_blank" rel="noopener">Amazon</a>
 
-Learn You a Haskell for Great Good!: amzn.to/2veOjdv
+Learn You a Haskell for Great Good!: <a href="amzn.to/2veOjdv" target="_blank" rel="noopener">Amazon</a>
 
 To see the full list, visit: https://talkpython.fm/episodes/show/130/10-books-python-developers-should-be-reading
