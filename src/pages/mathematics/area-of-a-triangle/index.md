@@ -1,6 +1,8 @@
 ---
 title: Area of a Triangle
 ---
+http://www.onlinemath4all.com/images/triangle.png
+
 ## Area of a Triangle
 
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/area-of-a-triangle/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
