@@ -60,3 +60,6 @@ git commit --amend --no-edit
 Premature commits happen all the time in the course of your day-to-day development. It’s easy to forget to stage a file or how to correctly format your commit message. The `--amend` flag is a convenient way to fix these minor mistakes. This command will replace the old commit message with the updated one specified in the command.
 
 Amended commits are actually entirely new commits and the previous commit will no longer be on your current branch. When you're working with others, you should try to avoid amending commits if the last commit is already pushed into the repository.
+
+#### The -v Option
+The `-v` option is used without the `-m` option. The `-v` stands for verbose. T `-v` option can be useful when you wish to edit a Git commit message in your default editor. When `git commit` is invoked with the `-v` option, your default editor with a commit message template *and* a copy of the differences in the code you're submitting. This difference reecord will not be included in the commit message, but it's a nice way to review what you're writing about in your commit.
