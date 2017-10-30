@@ -159,8 +159,8 @@ These two lines of code tell the compiler that the word 'false' should be replac
  * && joins two operations, making the overall operation true only if both halves are true
  * || joins two operations, making the overall operation true if one or both halves are true
  
-#### Video Tutorials:
-[Youtube](https://www.youtube.com/watch?v=I2LRuehVLNA)
-[Youtube](https://www.youtube.com/watch?v=TNHkZKLXkyw)
-[Youtube](https://www.youtube.com/watch?v=q2LCT6gRZVY)
+#### More Information:
+[YouTube](https://www.youtube.com/watch?v=I2LRuehVLNA)
+[YouTube](https://www.youtube.com/watch?v=TNHkZKLXkyw)
+[YouTube](https://www.youtube.com/watch?v=q2LCT6gRZVY)
  
