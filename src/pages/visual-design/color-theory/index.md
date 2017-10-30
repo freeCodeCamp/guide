@@ -8,6 +8,10 @@ Color Theory is the practical application of mixing and using colors together to
 A color wheel is the main tool used by designers to specify or locate color. Color wheels can include the entire color spectrum or they can be organized by a defined category of colors. 
 The three main category of colors, which you might already be familiar with, are Primary Colors, Secondary Colors, and Tertiary Colors.
 
+
+![Color wheel example](http://study.com/cimages/multimages/16/ittencolorsphere.jpg "Color wheel example")
+
+
 **Primary Colors:**
 Red, yellow and blue
 In traditional color theory primary colors are the 3 pigment colors that cannot be mixed or formed by any combination of other colors. All other colors are derived from these 3 hues. 
@@ -19,6 +23,11 @@ These are the colors formed by mixing the primary colors.
 **Tertiary Colors:** 
 Yellow-orange, red-orange, red-purple, blue-purple, blue-green & yellow-green
 These are the colors formed by mixing a primary and a secondary color. 
+
+**Complementary Colors:**
+It is also important to think about how colors communicate with each other, colors that are on opposite sides of the color wheel are called *complementary colors*, the pairs formed are the ones wich creates the most powerfull contrast between colors, like black and white, being so, the pair pops out when used togheter. Examples can be seen in the image below:
+
+![Complementary colors examples](https://i1.wp.com/digital-photography-school.com/wp-content/uploads/flickr/14113625110_97cbcf0dfb_o.png?resize=600%2C300&ssl=1 "Complementary colors examples")
 
 In web design, colors also carry with them connotations and implications that need to be understood or else you could cause confusion. The color red in a non-digital space, such as a fast-food restaurant, carries the implication of energy or excitement. However, on the web the color red also carries with it the implication that the user has committed an error. This example of how color means certain things in certain settings should be a critical reminder to understand how the person viewing your page will interpret the color selection you’ve made.
 
