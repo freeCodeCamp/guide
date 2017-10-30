@@ -21,7 +21,7 @@ C# is an object-oriented language while also providing support for component-ori
 9) Indexers
 
 #### New Features Added on C# 7.0:
-1) Deconstructors
+1) Destructors
 2) New syntax to work with Tuples
 3) Pattern Matching with Is Expressions
 4) Local Functions
@@ -29,7 +29,7 @@ C# is an object-oriented language while also providing support for component-ori
 6) Out Variables
 7) Literal improvements
 8) Generalized Async Return Types
-9) More Expresion-Bodied Members
+9) More Expression-Bodied Members
 10) Throw Expressions
 
 You can use C# to create Windows client applications, XML Web services, distributed components, client-server applications, database applications, and much more.
