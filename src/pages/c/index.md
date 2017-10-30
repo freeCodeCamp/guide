@@ -22,7 +22,7 @@ Now that you have that background, let's start with our 'Hello, World' program. 
 
 ## Hello world in C
 
-```C
+```Cggg
 #include <stdio.h>
 
 int main(void)
