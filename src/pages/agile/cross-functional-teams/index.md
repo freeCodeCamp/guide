@@ -1,3 +1,6 @@
+---
+title: Cross Functional Teams		
+---
 
 ## Cross Functional Teams
 
