@@ -49,6 +49,58 @@ When you want to apply the same attributes or CSS styles to multiple SVG element
 
 The `<path />` element defines a vector path in the viewport. The path is defined by the `d` attribute. In the first example the definition reads 'move to the absolute coordinate (10, 170) _and_ draw a line to the relative coodrinates 590 in the X direction and 0 in the Y direction.   
 
+## Interactive SVG data visualization
+
+The markup definition of a svg drawing makes each elements accessible, as said, by CSS and js/jQuery for animated interaction implementation, tipically tooltips or groups highlighting. This allows the information designer to follow an integrated pipeline from the **vectorial drawing** (Illustrator, Inkscape, etc.) through **inline svg** to a responsive interactive **graphical visualization**. 
+
+A quick example of the setup for an hover opacity effect:
+
+#### Adding ids to groups and elements
+```svg
+<svg
+     version="1.1"
+     width="100%"
+     viewbox="0 0 600 300"
+     xmlns="http://www.w3.org/2000/svg">
+  <g id="rects" stroke="#b2c1f7"> <!-- g is for group -->
+    <rect id="rect1" x="10" y="10" width="100" height="100" fill="#f7b2c1" />
+  </g>  
+</svg>  
+```
+***
+
+#### jQuery hovr effect
+
+```javascript
+$(document).ready(function() {
+     
+     //Setting initial transparecy to 60%
+     $("#rects").fadeTo("fast", 0.6);
+     
+     //Hover effect on rect1
+      $("#rect1").hover(function() {
+          $(this).fadeToggle(20);
+     });
+     
+});
+```
+***
+
+### CSS Alternative technique 
+```css
+#rects {
+     opacity: 40%;
+}
+
+#rect1:hover {
+     opacity: 100%;
+     transformation: 0.3s ease;
+}
+```
+
+
+*(For legibility and easier manipulation svg groups and ids are usually assignable from the graphical editor, which is often more* *convenient than directly editing the code).*
+
 ## Browser Support
 
 <a href='https://caniuse.com/#feat=svg' target='_blank' rel='nofollow'>Browser support for SVG</a> is available in all modern browsers. There are some issues with scaling in IE 9 through IE 11 however they can be overcome with the use of the `width`, `height`, `viewbox`, and CSS. 
