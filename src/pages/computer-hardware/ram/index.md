@@ -19,5 +19,6 @@ The speed rating of your RAM module is an expression of its data transfer rate. 
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 * <a href='http://www.webopedia.com/TERM/R/RAM.html' target='_blank' rel='nofollow'>RAM</a>.
 * <a href='http://www.computermemoryupgrade.net/types-of-computer-memory-common-uses.html' target='_blank' rel='nofollow'>Types of RAM</a>.
+* <a href='https://en.wikipedia.org/wiki/Random-access_memory' target='_blank' rel='noffolow'>Wikipedia</a>.
 
 
