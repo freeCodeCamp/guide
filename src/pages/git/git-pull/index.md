@@ -93,6 +93,7 @@ Common language in other IDES may not include the word `pull`. If you look out f
 ### Other Resources on git pull
 - <a href='https://git-scm.com/docs/git-pull' target='_blank' rel='nofollow'>git-scm</a>
 - <a href='https://help.github.com/articles/fetching-a-remote/#pull' target='_blank' rel='nofollow'>GitHub Help Docs</a>
+- <a href='https://services.github.com/on-demand/intro-to-github/create-pull-request' target='_blank' rel='nofollow'>GitHub On Demand Training</a>
 
 ### Other Resources on git in guide.freecodecamp.org
 - [Git merge](../git-merge/index.md)
