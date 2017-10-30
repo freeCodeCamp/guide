@@ -11,7 +11,7 @@ title: vector
 The data type you store within a vector goes within angle brackets next to the vector keyword. For example, if you would like to store a collection of strings the vector would be `std::vector<std::string> vector_name`
 
 ### Vector Construction
-There are many convinent ways to construct a vector.
+There are many convenient ways to construct a vector.
 
 Using an intializer list - where objects are listed inside a set of braces: `{ }`
 ```cpp
@@ -43,4 +43,12 @@ std::string last_item = a.back(); // gets the last item in the vector ("access")
 std::string second_item = a.at(2); // gets "element"
 // OR
 std::string second_item = a[2]; // gets "element"
+```
+
+### Vector Size 
+The standard library provides size() function to get the size of the vector
+```cpp
+std::vector<std::string> a{"test", "element", "access"};
+
+std::unsigned int a_size = a.size(); // a.size() will return 3
 ```
