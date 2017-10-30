@@ -30,7 +30,7 @@ System.out.println(str == str2); // This prints true
 System.out.println(str == str3); // This prints false
 ```
 
-The answer is: 2 String objects are created.
+<B>The answer is: 2 </B>   String objects are created.
 
 You see, the creators of the JVM are pretty smart. They figured that Strings differ mostly in terms of its `content`. When you create a String literal, the JVM internally checks, what is known as `the String pool`, to see if it can find a similar (content wise) String object. If it finds it, it returns the same reference. Otherwise, it just goes ahead and creates a new String object in the pool so that the same check can be performed in the future.
 
