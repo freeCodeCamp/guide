@@ -2,14 +2,14 @@
 title: Bayes Theorem
 ---
 ## Bayes Theorem
+Bayes' theorem is a formula that describes the probability of an event, based on prior knowledge of conditions that are related to the event. It follows simply from the axioms of conditional probability.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/bayes-theorem/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+A famous application of Bayes Theorem involves the cases of false positive and false negative in medical tests.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+- https://brilliant.org/wiki/bayes-theorem/
 
 
