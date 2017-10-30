@@ -7,7 +7,7 @@ The motherboard is the connecting layer that allows a computer's components to i
 
 A motherboard provides power and connectivity to the computer's components, and acts as the switchboard for all inter-component communications. If the CPU needs to process information that is stored in RAM, for example, the motherboard provides a connection between the CPU and RAM, called the memory bus, to allow for data access. A motherboard includes buses for expansion cards (including the GPU), RAM, and hard drives.
 
-Parts of a Motherboard
+### Parts of a Motherboard
 
 If you were to open up your computer and take out the motherboard, you would probably get pretty confused about all the different parts. Depending on the make and model of your computer, it might look something like this.
 To understand how computers work, you don't need to know every single part of the motherboard. However, it is good to know some of the more important parts and how the motherboard connects the various parts of a computer system together. Here are some of the typical parts:
