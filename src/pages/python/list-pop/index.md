@@ -24,3 +24,16 @@ City at index 2 is  :  San Antonio
  #### More Information:
  The official documentation for `pop()` can be found <a href='https://docs.python.org/3.6/tutorial/datastructures.html' target='_blank' rel='nofollow'>here</a>
  
+## Syntax
+
+Following is the syntax for pop() method −
+
+list.pop(obj = list[-1])
+
+## Parameters
+
+    obj − This is an optional parameter, index of the object to be removed from the list.
+
+## Return Value
+
+This method returns the removed object from the list.
