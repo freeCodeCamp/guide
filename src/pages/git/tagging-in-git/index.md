@@ -3,13 +3,22 @@ title: Tagging in Git
 ---
 ## Tagging in Git
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/git/tagging-in-git/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Tags are a convenient way to highlight some milestone in you version history. Be it a new version, release or just a flag one could see where you made some decision. From the point of view of git, tag is just another branch name, for a branch that will never change.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
+In order to list existing tags, run
+```
+git tag -l
+```
+To add a tag you can simply run
+```
+git tag your_new_tag_name
+```
+This will create a so-called light-weight tag - juast store a name for a commit you've done recently. If you'd like to add more information to a tag, like who created it and when, add a longer description, use
+```
+git -tag -a you_new_tag_name -m 'your longer description'
+```
+If you omit the -m key and string, git will open up an editor - in the same way it does for other commits, so that you could enter your description.
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+https://git-scm.com/book/en/v2/Git-Basics-Tagging
 
 
