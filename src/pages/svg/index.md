@@ -67,9 +67,10 @@ A quick example of the setup for an hover opacity effect:
   </g>  
 </svg>  
 ```
-===
+***
 
-#### Adding hover highlight effect with jQuery
+#### jQuery hovr effect
+
 ```javascript
 $(document).ready(function() {
      
@@ -83,9 +84,9 @@ $(document).ready(function() {
      
 });
 ```
-===
+***
 
-### Alternative technique with pure CSS
+### CSS Alternative technique 
 ```css
 #rects {
      opacity: 40%;
