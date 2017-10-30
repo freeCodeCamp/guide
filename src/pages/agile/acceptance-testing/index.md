@@ -10,3 +10,4 @@ It is usually performed by the users or the Subject Matter Experts. it is also c
 #### More Information:
  <!-- Please add any articles you think might be helpful to read before writing the article -->
 - International Software Testing Qualifications Board (http://www.istqb.org/)
+My changes.
