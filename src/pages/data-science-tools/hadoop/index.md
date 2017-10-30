@@ -66,3 +66,5 @@ To fix the 3rd problem, concept called NameNode standby. There are 2 namenodes u
 2. <a href='http://hadoop.apache.org/' target='_blank' rel='nofollow'>Apache Hadoop</a>
 
 3. <a href='https://cognitiveclass.ai/courses/introduction-to-hadoop/' target='_blank' rel='nofollow'>Hadoop 101</a>
+
+4. <a href='https://insidebigdata.com/2015/02/25/free-book-hadoop-dummies/' target='_blank' rel='nofollow'>Free ebook - Hadoop for dummies</a>
