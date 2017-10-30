@@ -19,7 +19,7 @@ Remote teams may host regular company retreats so team members can meet and hang
 
 ### The "In-Between"
 
-Some companies are 100% onsite, and some are 100% remote. But, it's not unusual to find companies or teams that allow you to work remotely a day or two out of the week. This allows you to experience some of the benefits of remote work, without being remote all the time.
+Some companies are 100% onsite, some are 100% remote and some are the "In-Betweens". But, it's not unusual to find companies or teams that allow you to work remotely a day or two out of the week. This allows you to experience some of the benefits of remote work, without being remote all the time.
 
 Some companies also have a physical office where you can go to work if you'd like, but allow you to work wherever.
 
