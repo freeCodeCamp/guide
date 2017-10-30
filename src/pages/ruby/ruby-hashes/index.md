@@ -3,7 +3,7 @@ title: Ruby Hashes
 ---
 
 ## Ruby Hashes
-In Ruby, a hash is similar to an [array](https://raw.githubusercontent.com/freeCodeCamp/guides/master/src/pages/ruby/ruby-arrays/index.md), but rather than simply storing a value it stores a key, value pair.
+In Ruby, a hash is similar to an <a href='https://raw.githubusercontent.com/freeCodeCamp/guides/master/src/pages/ruby/ruby-arrays/index.md' target='_blank' rel='nofollow'>array</a>, but rather than simply storing a value it stores a key, value pair.
 ```ruby
 array = ["value"]
 hash = { "key" => "value" }

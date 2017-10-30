@@ -1,38 +1,31 @@
 ---
 title: Array.prototype.push
 ---
-## Array.prototype.push
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/standard-objects/array/array-prototype-push/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+## Information
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The `push()` method adds one or more elements to the end of an array and returns the new length of the array.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+**Syntax**
+```javascript
+arr.push([element1[, ...[, elementN]]])
+```
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+**Parameters**
+- `elementN`
+  - The elements to add to the end of the array.
 
-### Basic Information:
-This is a method on Array's to add elements on the end of the an array.
+**Return value**
+- The new length property of the object upon which the method was called.
 
-`var myStarkFamily = ['John', 'Sansa', 'Brian'];`
+[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
 
-### Explanation:
-Now I have an array which contains members of Stark family from Game of thrones. But you can see that one of the member is missing.
-That is **Arya** and I want to add it.
-At this moment I know the length of an Array which is 3.
-So I can add it as follows:
+## Examples
 
-`myStarkFamily[3] = 'Arya';`
+```javascript
+let array = [1, 2, 3, 4];
+array.push(5);
+console.log(array); // [1, 2, 3, 4, 5]
 
-Yes you can add it this way. But what if you donot know the length of and Array and want to add an element at the end.
-Then you do it as follows:
-
-`myStackFamily.push('Arya');`
-This returns you the new length of the array i.e. 4 and **Arya** is added to your Stark Family Array.
-Hence when you `console.log(myStarkFamily);` Your output is: `['John', 'Sansa', 'Brian', 'Arya'];`
-
-### In which case to use it:
-From above explanation it is clear that, you can use it in following case:
-1) When you want to add an element at the end of an Array.
-2) And you do not know how many elements are there in an array. So you can use push() on the array an pass the value you want to add.
+array.push(6, 7, 8);
+console.log(array); // [1, 2, 3, 4, 5, 6, 7, 8]
