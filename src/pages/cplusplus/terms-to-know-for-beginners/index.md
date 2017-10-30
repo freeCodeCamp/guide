@@ -18,31 +18,47 @@ title: IDE and Printing different text
 
 Now, install the IDE and try changing the text from the program in the last article.
 
+## Namespaces
+### Basics
+Namespaces in C++ allow for functions and even classes to possess the same names, yet exist within different contexts. Consider the standard namespace, denoted as `std`. Within this namespace classes such as `string` and `vector` exist, among many others.
+
+In order to access such classes the namespace must be specified, like so: `std::string`. This syntax may become tiresome, so it is possible to make use of the `using namespace` directive, like so: `using namespace std;`. This tells the compiler that we are implicitly using the `std` namespace, which allows us to declare strings via `string myString = "Hello!";` as opposed to `std::string myString = "Hello";`.
+
+### Aliasing
+Namespace aliases can prove to be useful when we have deep nesting of namespaces.
+
+Consider the `std::chrono::high_resolution_clock` namespace that must be prefixed to all `high_resolution_clock` classes/functions. Instead of having to type all of these characters ad nauseum, we can instead alias the namespace, like so: `using hrc = std::chrono::high_resolution_clock;` and in doing so, the namespace `hrc` is equivalent to typing `std::chrono::high_resolution_clock;`.
+
+Now, if we want to obtain the current time we can type: `hrc::now();` instead of `std::chrono::high_resolution_clock::now();`. Awesome!
+
+### Notes
+It is generally not considered good practice to make use of the using directive within header files. The reason being is that headers imported into other files will then make use of these aliases, which can result in clashes and unexpected complications. Limiting the use of aliases and the `using` directive to within function bodies is the best practice, but even that can be omitted unless needed.
+
 ### Changing text on C++
 
-* To change text ,change what's typed in the `""` after `cout<<`
+* To change text ,change what's typed in the `""` after `std::cout << `
 
 A sample program :
 
 ```cpp
 
 #include <iostream>
-using namespace std :
+
 int main()
 {
-    cout<<"I Love freeCodeCamp ! ";
+    std::cout << "I Love freeCodeCamp ! ";
 }
 ```
 
 The above code returns an error because at line 2 , we have used a colon(:) instead of a semicolon(;)
 So, let's debug the error :
 
-```C++
+```cpp
 #include <iostream>
-using namespace std ;
+
 int main()
 {
-    cout<<"I Love freeCodeCamp ! ";
+    std::cout << "I Love freeCodeCamp ! ";
     return 0;
 }
 
@@ -54,7 +70,7 @@ The output will be : `I Love freeCodeCamp !`
 ### Now , let's change the text to something else like this :
 
 ```cpp
-    cout<<"Hello World!\t I love freeCodeCamp!";
+    std::cout << "Hello World!\t I love freeCodeCamp!";
 ```
 
 The output will be something different this time :
@@ -79,7 +95,7 @@ Hello World!	 I love freeCodeCamp!
 ##### Now, let's try printing numbers and special characters with some escape sequences :
 
 ```cpp
-    cout<<"40158 \t 236708 ! \n \\ @ \?"<<endl;
+    std::cout << "40158 \t 236708 ! \n \\ @ \?" << std::endl;
 ```
 
 The output changes to :
@@ -91,8 +107,8 @@ The output changes to :
 ##### Let's try some other ways of printing
 
 ```cpp
-    cout<<"1+2"<<endl;
-    cout<<1+2<<endl;
+    std::cout << "1+2" << std::endl;
+    std::cout << 1+2 << std::endl;
 ```
 
 Output :
@@ -110,11 +126,11 @@ This is because we did not add the inverted commas for the second print statemen
   1 `//`  ~ _Single Line Comments_  : The length of these comments is 1 line (the line it is typed on) .
   2 `/* */` ~ _Multi Line Comments_ : These comments can take up a space of more than one line.
 
-#### Example of using commentts -
+#### Example of using comments -
 
  ```cpp
 
-     cout<<"Hello Comment"<<endl; //cout<<"Hello Comment"<<endl; , Single Line Comment.
+     std::cout << "Hello Comment" << std::endl; //std::cout << "Hello Comment"<<endl; , Single Line Comment.
     /* This is an example of a multi line comment. No output is generated for this .
     I now end the comment.  :) */
  ```
@@ -124,7 +140,7 @@ This is because we did not add the inverted commas for the second print statemen
 
  As you may notice, the comments are ignored during program execution and do not show up on checking the output of the program.
 
-<a href='https://repl.it/L4ox' target='_blank' rel='nofollow'>A summation of all the print statements used in this article. Feel free to tweak around woth the code ! :) </a>
+<a href='https://repl.it/L4ox' target='_blank' rel='nofollow'>A summation of all the print statements used in this article. Feel free to tweak around with the code ! :) </a>
 
 
 
