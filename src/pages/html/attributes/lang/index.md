@@ -9,5 +9,7 @@ In HTML, Lang tag is used to declare the language of the whole or a part of a we
 
 ```html
 <html lang="en">
+...............
+...............
 </html>
 ```
