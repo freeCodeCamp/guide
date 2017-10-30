@@ -9,12 +9,14 @@ With your help, we can create a comprehensive reference tool that will help mill
 - [Steps](#steps)
 - [Creating a PR](#creating-a-pr)
   - [Using GitHub.com](#using-githubcom)
-  - [By cloning locally](#by-cloning-locally)
+  - [Cloning Locally](#cloning-locally)
 - [Article Style Guide](#article-style-guide)
   - [Title](#title)
   - [Modularity](#modularity)
   - [Code Blocks](#code-blocks)
+  - [Links](#links)
   - [Images](#images)
+  - [Attributions](#attributions)
   - [Resources](#resources)
   - [Formatting](#formatting)
 - [Technical Writing](#technical-writing)
@@ -63,7 +65,7 @@ Watch the video demonstration or follow the steps below it:
 
 5. On the next screen, you can add any other details about your PR, then click <kbd>Create pull request</kbd>.
 
-### By cloning locally
+### Cloning Locally
 
 1. Fork this repository
 
@@ -103,21 +105,35 @@ Article titles should be as short, concise, and to-the-point as possible.
 
 We want campers to quickly find the information they're looking for, and the title should reflect the main theme of the article.
 
-Here are some title examples:
-
-- "HTML Lists"
-- "CSS Borders"
-- "JavaScript For Loop"
-
-The folder name is used in the URL, so only use dashes `-`, numbers `0-9`, and lowercase letters `a-z` for it.
-
-Here are some folder name examples:
-
-- html-lists
-- css-borders
-- javascript-for-loop
+Folder name is used in the URL, so only use dashes -, numbers 0-9, and lowercase letters a-z for it.
 
 However, you can include special characters in the article title.
+
+Here are some examples of properly named titles:
+
+> [`src/pages/html/tables/index.html`](https://github.com/freeCodeCamp/guides/blob/master/src/pages/html/tables/index.md)
+
+```markdown
+---
+title: Tables
+---
+```
+
+> [`src/pages/css/borders/index.md`](https://github.com/freeCodeCamp/guides/blob/master/src/pages/css/borders/index.md)
+
+```markdown
+---
+title: Borders
+---
+```
+
+> [`src/pages/javascript/loops/for-loop/index.md`](https://github.com/freeCodeCamp/guides/blob/master/src/pages/javascript/loops/for-loop/index.md)
+
+```markdown
+---
+title: For Loop
+---
+```
 
 ### Modularity
 
@@ -177,6 +193,14 @@ Here are some suggested formatting guidelines when writing code blocks:
     // Like this
     ```
 
+### Links
+
+Use Markdown style links in your articles to link to other websites.
+
+```markdown
+[freeCodeCamp](https://www.freecodecamp.org/)
+```
+
 ### Images
 
 For including images, if the images aren't already hosted somewhere else on the web, you'll need to put them online yourself using a platform like [Imgur](https://imgur.com/) or [Flickr](https://www.flickr.com).
@@ -197,12 +221,59 @@ You can even embed relevant YouTube videos and interactive [REPL.it](https://rep
 
 Don't use emojis or emoticons in the Guide. freeCodeCamp has a global community, and the cultural meaning of an emoji or emoticon may be different around the world. Also, emojis can render differently on different systems.
 
-### Resources
+### Attributions
 
-If there are other Guide resources you think campers would benefit from, add them at the bottom in a "More Resources" section with a bulleted list.
+To minimize the potential for plagiarism and maintain integrity in these guides, it is important to give credit where necessary.
+
+Any material quoted, or used directly and unchanged, from source material should be wrapped in quotation marks and be adequately cited. Material that is not a direct quote but is still paraphrased from a different resource should also be cited.
+
+You can create superscript numerals to mark content that is cited using `<sup></sup>` tags.
+
+Like so: <sup>1</sup>
+
+1. freeCodeCamp - Attributions
+
+Then, at the bottom of your article, place a
 
 ```markdown
-### More Resources
+### Sources
+```
+
+heading and include all of your citations numbered to correspond with your sources.
+
+An example is highlighted below.
+
+```markdown
+Here is some content that should be cited.<sup>1</sup>
+
+And here is even more that should be cited from another source.<sup>2</sup>
+
+### Sources
+
+1. [Doe, John. "Authoring Words." *WikiCoder*. January 1, 1970. Accessed: October 20, 2017](#)
+2. [Purdue OWL Staff. "MLA Works Cited: Electronic Sources." *Purdue Online Writing Lab.* October 12, 2017. Accessed: October 20, 2017.](https://owl.english.purdue.edu/owl/resource/747/08/)
+```
+
+You can check out the Purdue link above to see how to properly cite web sources (they even show how to cite tweets!).
+
+Typically, an attribution has a structure like the following:
+
+> Author Last Name, Author First Name. "Article Title." *Publication.* Publisher. Date Published. Date Accessed.
+
+If you cannot find an author or published date, which is common, simply omit these.
+
+Use of proper citations will not only keep the guides reputable, but these citations and links will also provide valuable resources should the reader want to learn more about the topic.
+
+Also note that instances of blatant plagiarism will be either removed or have their pull requests declined, and the user will receive a warning.
+
+Please refer to and review freeCodeCamp's [Academic Honesty Policy](https://www.freecodecamp.org/academic-honesty) before contributing.
+
+### Resources
+
+If there are other Guide resources you think campers would benefit from, add them at the bottom in a "Resources" section with a bulleted list.
+
+```markdown
+### Resources
 
 - [A New Resource](#link)
 ```
