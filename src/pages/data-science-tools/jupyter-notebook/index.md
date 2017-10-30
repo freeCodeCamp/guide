@@ -13,3 +13,20 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 <a href='http://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html' target='_blank' rel='nofollow'>Jupyter/IPython Notebook Quick Start Guide</a>
 
+##Jupyter Installation:
+
+
+1. Install Python:
+    ```
+    $ [sudo] apt-get install python
+    ```
+    or
+    ```
+    $ [sudo] apt-get install python3
+    ```
+    
+2. Install pip:
+    ```
+    $ sudo apt-get install python-pip
+    ```
+   
