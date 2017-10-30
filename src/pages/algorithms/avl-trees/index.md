@@ -13,3 +13,10 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
 
+AVL Trees
+Named after Adelson-Velskiiand Landis
+A balancedbinary search tree
+Satisfies the height-balance property: 
+For every internal node v of T, the heights of the children of v can differ by at most 1.
+
+
