@@ -4,9 +4,9 @@ title: Unsupervised Learning
 #### Suggested Reading:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
-- https://en.wikipedia.org/wiki/Unsupervised_learning
-- https://stackoverflow.com/a/1854449/6873133
-- http://mlg.eng.cam.ac.uk/zoubin/papers/ul.pdf
+- <a href='https://en.wikipedia.org/wiki/Unsupervised_learning' target='_blank' rel='nofollow'>Unsupervised learning - Wikipedia</a>
+- <a href='https://stackoverflow.com/a/1854449/6873133' target='_blank' rel='nofollow'>What is the difference between supervised learning and unsupervised learning? - StackOverFlow</a>
+- <a href='http://mlg.eng.cam.ac.uk/zoubin/papers/ul.pdf' target='_blank' rel='nofollow'>Unsupervised learning - Gatsby Computational Neuroscience Unit</a>
 
 #### Draft of Article:
 <!-- Please add your working draft below in GitHub-flavored Markdown -->
