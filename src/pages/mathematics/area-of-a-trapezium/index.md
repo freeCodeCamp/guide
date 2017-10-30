@@ -3,13 +3,26 @@ title: Area of a Trapezium
 ---
 ## Area of a Trapezium
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/area-of-a-trapezium/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+A trapezium is a quadrilateral that has only one pair of parallel sides.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+T = h((a+b)/2)
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+To calculate the area of a trapezium, divide it into a rectangle and two triangles as shown below.
+
+![Trapezium](http://theengineeringmindset.com/wp-content/uploads/2015/06/Trapezium.png)
+
+#### Terminology
+
+**a:** First Parallel side of trapezium
+
+**h:** Height of Trapezium
+
+**b:** Second Parallel Side of Trapezium
+                    
+#### Examples
+
+1. **a** = 20 units , **b** = 14 units, **h** = 12 units, A = 1/2(a+b)h = **204 square units**
+2. **a** = 8.8 units , **b** = 4.2 units, **h** = 6 units, A = 1/2(a+b)h = **39 square units**
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+[Wikipedia](https://en.wikipedia.org/wiki/Trapezium)
