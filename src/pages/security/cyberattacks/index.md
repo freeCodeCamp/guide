@@ -10,3 +10,10 @@ Cyberattacks can be targeted and untargeted, and the mechanisms employed by hack
 A cyberattack can also be untargeted. The classical example of such attacks is phishing, in which cybercriminals send out emails to a large group of people disguising as a legit organization to encourage users to share sensitive information or visit a phony website. Alternatively, the hacker could compromise a legit website and plant a malware (malicious software) by which visitors would get infected. In 2017, a Ukrainian government website was infected with malware that erases visitors' hard drives.
 
 Cyberattacks should be deconstructed to better understand a defense strategy.  Who are the bad actors?  What are their motivations? What tools, techniques and procedures (TTPs) are likely to be employed?  
+
+<a href="https://i.ytimg.com/an_webp/Qyk9yY-vEik/mqdefault_6s.webp?du=3000&sqp=COqO3c8F&rs=AOn4CLAmoh2Klkm9uNzvhFW592tlSwmwLw"/>Types of cyber attack
+</a>
+
+   <a href="https://www.youtube.com/watch?v=Qyk9yY-vEik" target="_blank"><img src="https://i.ytimg.com/an_webp/Qyk9yY-vEik/mqdefault_6s.webp?du=3000&sqp=COqO3c8F&rs=AOn4CLAmoh2Klkm9uNzvhFW592tlSwmwLw"
+        alt="IMAGE ALT TEXT HERE" width="440" height="280" border="10" /></a>
+
