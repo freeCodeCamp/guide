@@ -20,7 +20,7 @@ ____________
     \30/
      \/
 
-In this problem, everything is defined except for "b," thereforew, we can use the law of sines to find it. For this problem, I will 
+In this problem, everything is defined except for "b," therefore, we can use the law of sines to find it. For this problem, I will 
 refer to the corresponding angle and side as "A" and "a":
 
 Sin(A)   Sin(B)      Sin(75)   Sin(30)
