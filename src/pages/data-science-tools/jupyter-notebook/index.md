@@ -2,14 +2,28 @@
 title: Jupyter Notebook
 ---
 ## Jupyter Notebook
+Jupyter Notebook is an open-source web application. It allows you to create and share documents that contain live code, equations, visualizations and narrative text.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/data-science-tools/jupyter-notebook/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+<img src="https://github.com/indianmoody/images/blob/master/guide_fcc/guides_jupyter_snap.jpeg" width="400" height="300" />
+See your results as you go step by step. Just like in this image.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-<a href='http://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html' target='_blank' rel='nofollow'>Jupyter/IPython Notebook Quick Start Guide</a>
+### Features
+* No need to run your complete code file every time. Just run individual Notebook cell to evaluate specific piece of code.
+* The Notebook has support for over 40 programming languages, including Python, R, Julia, and Scala.
+* Notebooks can be shared with others using email, Dropbox, GitHub and the Jupyter Notebook Viewer.
+* Your code can produce rich, interactive output: HTML, images, videos, LaTeX, and custom MIME types.
+* Leverage big data tools, such as Apache Spark, from Python, R and Scala. Explore that same data with pandas, scikit-learn, ggplot2, TensorFlow.
 
+### Applications
+Jupyter Notebook is used for following purposes and much more:
+* Data cleaning and transformation.
+* Numerical simulation.
+* Statistical Modeling.
+* Data Visualization.
+* Machine Learning.
+
+
+#### Resources:
+[Jupyter Org Website](http://jupyter.org)
