@@ -1,15 +1,14 @@
----
-title: Input
----
+
 ## Input
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/attributes/input/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+![Input teg](https://www.youtube.com/watch?v=T4kvt7K_Qgg)
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+The input tag does not need an ending tag and can have numerous attributes:
+<ui>
+  <li> text </li>
+  <li> password </li>
+  <li> radio </li>
+  <li> checkbox </li>
+  <li> reset </li>
+  <li> submit </li>
+</ul>
