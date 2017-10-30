@@ -6,7 +6,7 @@ Replace this sentence with a brief description of the awesome changes your PR ha
 
 <!-- Before creating a PR, please make sure to verify the following. -->
 
-<!-- If none of the check boxes are marked, it is less likely that your PR will be successfully merged. -->
+<!-- If none of the checkboxes are marked, it is less likely that your PR will be successfully merged. -->
 
 ## ✅️ By submitting this PR, I have verified the following
 
