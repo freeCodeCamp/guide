@@ -3,13 +3,21 @@ title: Button Tag
 ---
 ## Button Tag
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/button-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `<button>` tag defines a clickable button.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Inside a `<button>` element you can put content, like text or images. This is the difference between this element and buttons created with the `<input>` element.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+<strong>Tip:</strong> Always specify the type attribute for a `<button>` element. Different browsers use different default types for the `<button>` element.
+
+#### Example:
+
+```html
+  <button type="button">Click Me!</button>
+```
+
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
+ - <a href="https://www.w3schools.com/css/css3_buttons.asp" target="_blank" rel="nofollow">How to style buttons with CSS</a>
+ - <a href="https://www.w3schools.com/tags/tag_button.asp" target="_blank" rel="nofollow">Button tag: w3schools</a>
 
