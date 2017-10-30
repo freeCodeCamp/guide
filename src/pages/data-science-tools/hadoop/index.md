@@ -33,8 +33,11 @@ Known as the 3Vs:
 - Volumes
 - Velocity
 - Variety
+- Variability
+- Value
 
 To deal with big data, we need a robust system, Hadoop.
+
 
 ### Core Hadoop
 
