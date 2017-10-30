@@ -3,9 +3,7 @@ title: Feature Based Planning
 ---
 ## Feature Based Planning
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/feature-based-planning/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Feature-based planning is an approach used in release planning. Features and scope take priority over date. Using this approach, release plans are created by estimating the amount of time that will be required to complete a certain defined amount of scope. Often this approach is utilized for new product launches where a minimal or critical amount of feature/function must be delivered in order for the completed product to be considered market worthy.
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
