@@ -110,7 +110,7 @@ This is because we did not add the inverted commas for the second print statemen
   1 `//`  ~ _Single Line Comments_  : The length of these comments is 1 line (the line it is typed on) .
   2 `/* */` ~ _Multi Line Comments_ : These comments can take up a space of more than one line.
 
-#### Example of using commentts -
+#### Example of using comments -
 
  ```cpp
 
