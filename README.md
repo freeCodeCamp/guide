@@ -195,7 +195,7 @@ Here are specific formatting guidelines for any code:
 - GitHub-flavored markdown supports [syntax highlighting in code blocks](https://help.github.com/articles/creating-and-highlighting-code-blocks/#syntax-highlighting) for many programming languages. To use it, indicate the language after starting ```
 
     ```
-      ```html
+      ``` html
       <div class='awesome' id='more-awesome'>
       <p>This is text in html</p>
       </div>
