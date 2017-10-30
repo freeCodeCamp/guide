@@ -1,0 +1,49 @@
+# What is this?
+For rookie at may be frustruating to bootstrap first react project. That's bocause React uses a lot of other tools, like transpilers, packge managers etc.
+But there is a fast way to start your first React project, and after you finish it, it would be easy to deploy.
+So create-react-app is a simple ready made enviroment for your react projects.
+
+# 1 Install Node.js
+[Node.js](https://nodejs.org) is a Java Script runtime. It goes with a very handy tool called NPM (node packet manager), with npm you dont need to download
+Java Script libraries and their depences manually, npm will do it for you. To install Node, just download installer from https://nodejs.org
+
+# 2 Install create-react-app on your computer
+Now open your OS terminal and install create-react-app, just execute this command
+```sh
+npm install -g create-react-app
+```
+Npm will do the rest.
+
+# 3 Set your project
+Now you can open your projects folder via terminal
+```sh
+cd [path-to-your-folder]
+```
+And create new react project here
+```sh
+create-react-app my-app
+```
+It will create a directory called `my-app` inside the current folder.
+
+# 4 Start your developement server
+create-react-app goes with build in server for fast development
+Just execute 
+```sh
+cd my-app
+npm start
+```
+It starts the server on your [http://localhost:3000](http://localhost:3000)
+
+You can start you worck with React
+
+# 5 Deploy your project
+After you finish, create-react-app will help you to deploy your project
+```sh
+npm run build
+```
+
+And your ptoject is ready for deployment.
+
+## After you get familiar with this handy tools, feel free to read more about create-react-app, how it works etc.
+## [create-react-app page](https://github.com/facebookincubator/create-react-app/blob/master/README.md)
+
