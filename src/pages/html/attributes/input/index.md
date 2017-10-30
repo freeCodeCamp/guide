@@ -14,4 +14,4 @@ The input tag does not need an ending tag and can have numerous attributes:
   <li> submit </li>
 </ul>
 
-![Checkbox]("input checkbox.png")
+![Checkbox](./inputcheckbox.png)
