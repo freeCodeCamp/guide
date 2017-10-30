@@ -1,0 +1,8 @@
+Golang is an open source, compiled and statically typed programming language created by Google. 
+Go is general purpose language hence can be used to develop mobile apps, desktop applications, 
+web apps and many more. 
+From my end, we used Golang to develop a web application.
+If you have not considered using Go, you have to use Go for the following reasons
+Built in Concurrency. https://vimeo.com/49718712  a talk from Rob Pike of the designers of go.
+Fast Compilation 
+Portable. You can port source code easily without worrying about dependencies.
