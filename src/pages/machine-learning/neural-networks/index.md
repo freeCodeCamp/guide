@@ -10,6 +10,8 @@ The training works by minimizing an error term. This error can be the squared di
 
 The most basic element of a neural network is a neuron. It's input is a vector, say `x`, and its output is a real valued variable, say `y`. Thus, we can conclude that the neuron acts as a mapping between the vector `x` and a real number `y`.
 
+Neural networks can be viewed as a weighted directed graphs in which artificial neurons are nodes and directed edges with weights are connections between neuron outputs and inputs. Each input is multiplied by its corresponding weights. Typically weight represents the strength of interconnection between neurons inside the neural network.
+
 Neural networks are used on a variety of tasks. These include computer vision, speech recognition, translation, social network filtering, playing video games, and medical diagnosis among other things.
 
 ### Problems solved using Neural Networks
