@@ -9,8 +9,7 @@ T = h((a+b)/2)
 
 To calculate the area of a trapezium, divide it into a rectangle and two triangles as shown below.
 
-![Trapezium]
-(https://bam.files.bbci.co.uk/bam/live/content/zxfthyc/small)
+![Trapezium](http://theengineeringmindset.com/wp-content/uploads/2015/06/Trapezium.png)
 
 #### Terminology
 
