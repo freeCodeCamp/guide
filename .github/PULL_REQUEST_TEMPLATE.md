@@ -22,7 +22,7 @@ Replace this sentence with a brief description of the awesome changes your PR ha
 - [] Reviewed necessary guidelines in [`CONTRIBUTING.md`](https://github.com/freeCodeCamp/guides/.github/CONTRIBUTING.md).
 - [] Followed the **Formatting** guidelines below which will allow the [Travis CI build](https://travis-ci.org/freeCodeCamp/guide) to pass.
 
-#### Content
+### Content
 
 > If adding new advice or content,
 
@@ -36,7 +36,7 @@ Replace this sentence with a brief description of the awesome changes your PR ha
 - [] Changes are substantial enough to justify removing the stub text `"This article is a stub..."`.
   - We can't accept PRs that only add links to the **More Information** or **More Resources** section - a repository script will automatically delete any changes and revert it to the stub template if the stub language is still in that file.
 
-#### Resources
+### Resources
 
 > If adding a new resource,
 
