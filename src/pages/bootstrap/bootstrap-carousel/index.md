@@ -121,6 +121,19 @@ g) `carousel-caption` :- This class let you add captions to each slide.
 
 Note: Add `class="carousel-caption"` for each item.
 
+#### Usage
+
+#### Via data-attributes
+
+Use data attributes to easily control the position of the carousel. data-slide accepts the keywords prev or next, which alters the slide position relative to its current position. Alternatively, use data-slide-to to pass a raw slide index to the carousel data-slide-to="2", which shifts the slide position to a particular index beginning with 0.
+
+The data-ride="carousel" attribute is used to mark a carousel as animating starting at page load. It cannot be used in combination with (redundant and unnecessary) explicit JavaScript initialization of the same carousel.
+
+
+#### Via Javascript
+
+`$('.carousel').carousel()`
+
 
 #### Additional Details : <a href='https://getbootstrap.com/docs/4.0/components/carousel/' target='_blank' rel='nofollow'>Bootstrap Carousel</a>
 
