@@ -1,6 +1,9 @@
 ---
 title: Area of a Square
 ---
+## Area of an object
+
+Area of an object is defined as the space it covers in 2-dimensions.
 
 ## Area of a Square
 
