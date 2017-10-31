@@ -1,3 +1,7 @@
+---
+title: A React Environment Using a Remote Code Repository
+---
+
 This is how to create a non production React environment utilizing a remote code repository.
 We will use the cdnjs.cloudflare.com 15.4.1 react.min.js, react-dom.min.js, and babel-core 5.8.34 browser.min.js
 to accomplish this.
