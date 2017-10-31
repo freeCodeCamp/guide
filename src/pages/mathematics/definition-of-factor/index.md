@@ -3,13 +3,13 @@ title: Definition of Factor
 ---
 ## Definition of Factor
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/definition-of-factor/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+my changes
+A factor of a number can be defined a s any number that divides it completely i.e leaves no remainder.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Example: 2 is the factor of 8 because it leaves no remainder.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+https://www.mathsisfun.com/definitions/factor.html
+
 
 
