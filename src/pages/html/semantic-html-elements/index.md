@@ -12,4 +12,4 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+Semantic HTML elements provide the search engine bots a better way to understand the content of the page and display it on his result pages
