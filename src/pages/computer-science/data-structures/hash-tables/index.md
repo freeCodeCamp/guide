@@ -1,15 +1,1 @@
----
-title: Hash Tables
----
-## Hash Tables
-
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/computer-science/data-structures/hash-tables/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+The ideal hashtable is merely an array of some constant size; the size depends on the application where it will be used. The hashtable contains key values with pointers to the corresponding records. Thee basic idea of a hashtable is that you have to place a key value into a location in the hash table; the location will be calculated from the key value itself. This one-to-one correspondence between a key value and an index in the hash table is known as address calculation indexing or more commonly hashing.
