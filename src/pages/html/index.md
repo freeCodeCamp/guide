@@ -47,5 +47,9 @@ HTML5 is the latest version, or specification, of HTML. The World Wide Web Conso
     <td>HTML5</td>
     <td>2014</td>
   </tr>
+    <tr>
+    <td>HTML5.1</td>
+    <td>2016</td>
+  </tr>
 </table>
 
