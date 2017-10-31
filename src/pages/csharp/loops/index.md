@@ -1,3 +1,7 @@
+---
+title: Loops
+---
+
 Loops are used in C# to perform repeated tasks based on a condition. Conditions typically return true or false when analysed. A loop will continue running until the defined condition returns false.
 
 Some common types of loops used in C# include:
