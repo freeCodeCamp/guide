@@ -11,7 +11,7 @@ and to take control what `this` variable points to when execution context is cre
 **call apply bind** comes in picture.
 
 Function is special type of object below image let you know what function actually looks in JavaScript.
-![Function image](your url)
+![Function image](https://github.com/vishwa9/guides/blob/call-aply-bind/src/pages/javascript/call-apply-bind/functionImage.png)
 
 To illustrate call,apply and bind let's start with a simple example:
 
