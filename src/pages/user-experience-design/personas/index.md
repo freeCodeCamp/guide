@@ -3,13 +3,10 @@ title: Personas
 ---
 ## Personas
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/user-experience-design/personas/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Persona is a fictional representative of user's group. Creating personas helps to better understand needs and attitudes of users of products and services that are being designed.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+It is commonly used technique for user experience, visual design, product development, marketing and branding.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+The more created personas character is data driven the better.
 
 
