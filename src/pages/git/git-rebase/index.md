@@ -28,6 +28,10 @@ After `git rebase master branch` or `git rebase master` when you have checked ou
     ----o--o-o-A----o---o--o-o-o--o--o- master
                                       \---o-o branch
 
-### More Information:
-- Git documentation: <a href='https://git-scm.com/docs/git-rebase' target='_blank' rel='nofollow'>rebase</a>
+#### More Information:
 
++[Git docs - git-rebase](https://git-scm.com/docs/git-rebase)
+  
++[GitHub - About Git Rebase](https://help.github.com/articles/about-git-rebase/)
+
++[GitHowTo - Rebase](https://githowto.com/rebasing)
