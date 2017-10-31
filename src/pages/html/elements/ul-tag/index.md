@@ -29,3 +29,6 @@ The `<ul>` can be nested inside other lists and is compatible with others tag su
 ```
 ## Other Resources
 - The ordered list `<ol>`
+
+## More Information
+[MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul)
