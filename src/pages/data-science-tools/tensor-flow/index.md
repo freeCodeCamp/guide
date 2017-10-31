@@ -1,3 +1,6 @@
+---
+title: Tensor Flow
+---
 ## Tensor Flow
 
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/data-science-tools/tensor-flow/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
