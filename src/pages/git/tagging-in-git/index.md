@@ -34,6 +34,6 @@ git checkout v1.0
  #### More Information:
   <!-- Please add any articles you think might be helpful to read before writing the article -->
   
- +[Git docs - gitag](https://git-scm.com/docs/git-tag)
+ +[Git docs - git-tag](https://git-scm.com/docs/git-tag)
   
- +[GitHub - Ignoring Files](https://help.github.com/articles/working-with-tags/)
+ +[GitHub - Working with Tags](https://help.github.com/articles/working-with-tags/)
