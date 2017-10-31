@@ -1,5 +1,5 @@
 ---
-title: Behaviour Driven Development
+title: Behavior Driven Development
 ---
 
 ## Behavior Driven Development
