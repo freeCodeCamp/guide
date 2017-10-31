@@ -46,13 +46,12 @@ Now, move to the left half.
 
 The middle element is the item we were looking for!
 
-The binary search algorithm takes a divide-and-conquer approach where the array is continuously divided until the item is found or until there are no more elements left for checking.
-Hence, this algorithm can be defined recursively to generate an elegant solution.
+The binary search algorithm takes a divide-and-conquer approach where the array is continuously divided until the item is found or until there are no more elements left for checking. Hence, this algorithm can be defined recursively to generate an elegant solution.
 The two base cases for recursion would be:
 * No more elements left in the array.
 * Item is found.
 
-The code for recursive binary search is shown below:
+The code for recursive binary search is as shown below:
 ```javascript
 function binarySearch(arr, item, low, high) {
     if (low > high) { // No more elements in the array.
