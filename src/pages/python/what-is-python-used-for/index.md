@@ -18,6 +18,9 @@ Python is one of the flexible language when it come to automating boring or repe
 ##### Artificial Intelligence:
 The presence of computing is Artificial Intelligence. AI has come to stay and Python is serving as a major language to boast development in the field of AI. Tensorflow is designed with Python and it is under AI.
 
+#### Telegram Bots Development
+You can use Python and some Python-libraries for developing your own <a href='https://core.telegram.org/bots' target="_blank" rel="nofollow">Telegram Bots</a>
+
 #### More Information:
 Here's a <a href='https://www.python.org/about/apps/' target='_blank' rel='nofollow'>link</a> to appications of Python on it's offical website.
 <!-- Please add any articles you think might be helpful to read before writing the article -->
