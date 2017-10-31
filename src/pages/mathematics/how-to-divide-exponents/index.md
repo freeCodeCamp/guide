@@ -3,9 +3,7 @@ title: How to Divide Exponents
 ---
 ## How to Divide Exponents
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/how-to-divide-exponents/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+To divide exponents, you simply subtract them. For example, x^6/x^5 = x. 6 - 5 = 1.
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
