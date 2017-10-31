@@ -3,7 +3,24 @@ title: Styling Links
 ---
 ## Styling Links
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/styling-links/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `<a href="">` property is responsible for creating URLs and can be modified using a number of CSS styling properties, although it has a few by default:
+1. Underline
+2. Blue color
+
+You can change these by adding changing the `color` and `text-decoration` properties.
+
+```css
+   color: black;
+   text-decoration: none;
+```
+
+You can also style the link based on interaction using these properties, also known as link states:
+
+- a:link - a normal, unvisited link
+- a:visited - a link the user has visited
+- a:hover - a link when the user mouses over it
+- a:active - a link the moment it is clicked
+
 
 <a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
 
@@ -11,5 +28,6 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
+https://www.w3schools.com/css/css_link.asp
 
 
