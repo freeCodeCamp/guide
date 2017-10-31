@@ -3,37 +3,34 @@ title: Progressive Web Apps
 ---
 ## What are progressive web apps?
 
+They appear to be not just a new fad, but a fudamentally different way of approaching what a website can and should be on whatever platform you are viewing it from.
 
 
 
-#### Features of C# include:
-1) Automatic Garbage Collection
-2) Exceptional Handling
-3) Type-safety
-4) Versioning
-5) Delegates
-6) Properties
-7) LINQ (Language-Integrated Query) and Lambda Expressions
-8) Generics
-9) Indexers
+Specifically Progressive web apps are:
 
-#### New Features Added on C# 7.0:
-1) Deconstructors
-2) New syntax to work with Tuples
-3) Pattern Matching with Is Expressions
-4) Local Functions
-5) Return by Reference
-6) Out Variables
-7) Literal improvements
-8) Generalized Async Return Types
-9) More Expresion-Bodied Members
-10) Throw Expressions
+Responsive: to fit any form factor
+Connectivity independent: Progressively-enhanced with Service Workers to let them work offline
+App-like-interactions: Adopt a Shell + Content application model to create appy navigations & interactions
+Fresh: Transparently always up-to-date thanks to the Service Worker update process
+Safe: Served via TLS (a Service Worker requirement) to prevent snooping
+Discoverable: Are identifiable as “applications” thanks to W3C Manifests and Service Worker registration scope allowing search engines to find them
+Re-engageable: Can access the re-engagement UIs of the OS; e.g. Push Notifications
+Installable: to the home screen through browser-provided prompts, allowing users to “keep” apps they find most useful without the hassle of an app store
+Linkable: meaning they’re zero-friction, zero-install, and easy to share. The social power of URLs matters.
 
-You can use C# to create Windows client applications, XML Web services, distributed components, client-server applications, database applications, and much more.
+These apps aren’t packaged and deployed through stores, they’re just websites that took all the right vitamins.
+    
+
+
+#### Features of PWAs include:
+
+
+
 
 #### More Information:
 
-* <a href='https://docs.microsoft.com/en-us/dotnet/csharp/getting-started/introduction-to-the-csharp-language-and-the-net-framework' target='_blank' rel='nofollow'>Introduction to C#</a>
-* <a href='https://www.microsoft.com/net/tutorials/csharp/getting-started' target='_blank' rel='nofollow'>C# Tutorials</a>
-* <a href='https://docs.microsoft.com/en-us/dotnet/csharp/' target='_blank' rel='nofollow'>Official C# Documentation</a>
-* <a href='https://msdn.microsoft.com/en-us/magazine/mt790184.aspx' target='_blank' rel='nofollow'>New Features in C# 7.0</a>
+
+### Sources
+
+Alex Russell https://infrequently.org/2015/06/progressive-apps-escaping-tabs-without-losing-our-soul/
