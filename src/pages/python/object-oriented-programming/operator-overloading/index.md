@@ -1,6 +1,6 @@
 ---
 title: Operator Overloading
-—
+---
 ## Operator Overloading
 
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/area-of-a-parallelogram/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
