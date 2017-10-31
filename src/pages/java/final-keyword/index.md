@@ -15,3 +15,8 @@ class MyClass {
 }
 ```
 PI is now a constant. Any attempt to assign it a value will cause an error.
+
+ Final can be:
+(1) variable : If we make any variable as final, we cannot change the value of final variable.
+(2) method : If we make any method as final, we cannot override it.
+(3) class : If we make any class as final, we cannot extend the class. 
