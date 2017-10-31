@@ -3,7 +3,7 @@ title: C#
 ---
 ## C#
 
-C Sharp, more commonly referred to as "C#", is a general-purpose, object-oriented programming language. C# was developed by Anders Hejlsberg and his development team at Microsoft and is currently on version 7.0.
+C Sharp,  referred to as "C#", is a general-purpose, object-oriented programming language. C# was developed by Anders Hejlsberg and his development team at Microsoft and is currently on version 7.0.
 
 C# has its roots in the family of C languages. It inherits most of its feature from C, C++, and Java. For this reason, programmers familiar with C/C++/Java may be able to get up to speed with C# in a shorter timespan.
 
