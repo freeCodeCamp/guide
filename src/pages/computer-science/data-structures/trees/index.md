@@ -39,4 +39,20 @@ Main applications of trees include:
 
 Binary Tree: A tree whose elements have at most 2 children is called a binary tree. Since each element in a binary tree can have only 2 children, we typically name them the left and right child.
 
+Tree Traversals
+Unlike linear data structures (Array, Linked List, Queues, Stacks, etc) which have only one logical way to traverse them, trees can be traversed in different ways. Following are the generally used ways for traversing trees.
+
+            ----
+             1    
+           /   \
+         2      3  
+      /   \      
+     4     5         
+     
+Depth First Traversals:
+(a) Inorder (Left, Root, Right) : 4 2 5 1 3
+(b) Preorder (Root, Left, Right) : 1 2 4 5 3
+(c) Postorder (Left, Right, Root) : 4 5 2 3 1
+
+Breadth First or Level Order Traversal : 1 2 3 4 5
 
