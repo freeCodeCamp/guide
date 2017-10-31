@@ -3,13 +3,59 @@ title: SQL General Data Types
 ---
 ## SQL General Data Types
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/sql/sql-general-data-types/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+<p> A data type defines what type of data a coloumn holds in a table (relation). Data types have to be defined when the table is created.</p>
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+<table style="width:100%">
+  <tr>
+    <th>Data type</th>
+    <th>description</th> 
+    
+  </tr>
+  <tr>
+    <td>CHARACTER(n)</td>
+    <td>A string of length n</td> 
+  </tr>
+  <tr>
+    <td>VARCHAR(n)</td>
+    <td>A string of variable length (maximum is n). Varchar is more efficient storage</td> 
+  </tr>
+  <tr>
+    <td>Binary</td>
+    <td>Binary String </td> 
+  </tr>
+  <tr>
+    <td>Boolean</td>
+    <td>Store either True or False values </td> 
+  </tr>
+  <tr>
+    <td>Integer</td>
+    <td>A numberical value with no decimals </td> 
+  </tr>
+   <tr>
+    <td>Float</td>
+    <td>A numberical value with decimals </td> 
+  </tr>
+  <tr>
+    <td>Date</td>
+    <td>Stores date in year, month, day values </td> 
+  </tr>
+  <tr>
+    <td>Time</td>
+    <td>Stores Time in hour, minutes, seconds values </td> 
+  </tr>
+  <tr>
+    <td>Timestamp</td>
+    <td>Stores year, month, day,hour,minutes,seconds values </td> 
+  </tr>
+   <tr>
+    <td>Array</td>
+    <td>Stores a collection of elements </td> 
+  </tr>
+  
+  
+</table>  
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+<a href="http://w3schools.bootcss.com/sql/sql_datatypes_general.html"> w3schools </a>
 
 
