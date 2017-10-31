@@ -12,7 +12,7 @@ To use Google Fonts on your site, follow this [page](https://www.fonts.google.co
 
 You're done! You have successfully added new fonts for your site.
 
-###
+### Fonstpsring
 
 [Fontspring](https://www.fontspring.com/) provides somewhat different kind of service than Google. Unlike Google Fonts that only provides you with a link, Fontspring offers each of their fonts in both desktop and web font version. The type of embedding available for Fontspring fonts is not simply with the help of one-line links, as on Google fonts, but rather with CSS `@font-face` rule. The service offerred by Fontspring is very user friendly, therefore, each web font comes with pre-made css code snippet you simply need to paste to your main CSS file.
 
