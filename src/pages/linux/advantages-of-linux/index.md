@@ -43,7 +43,7 @@ As Linux was originally made for developers by developers, they have spent much 
 
 ## Customizable.
 
-Linux allows user change desktop design and themes, add widgets and more. These changes can be done with desktop environments. Different environments have different set of options. Some popular ones are : KDE, GNOME, XFCE, Pantheon.
+Linux allows user to change desktop design and themes, add widgets and more. These changes can be done with desktop environments. Different environments have different set of options. Some popular ones are : KDE, GNOME, XFCE, Pantheon.
 
 ## It's Free.
 
