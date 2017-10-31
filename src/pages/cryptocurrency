@@ -1,0 +1,26 @@
+## Cryptocurrency
+
+Cryptocurrency is electronic money. There are two main things that make it different than just using your credit card or Paypal. 
+
+1. It used cryptography as a part of the protocols for use to provide security.
+2. It utilizes blockchain technology
+
+The most well known cryptocurrency is Bitcoin which was created in 2009 and like most cryptocurrencies is decentralized and used mining instead of a centralized authority, such as the federal reserve for the American dollar, to control the money supply. 
+
+### Cryptography
+
+Although you already use passwords for such things as online banking the cryptography used in cryptocurrencies goes further in that you have a public key and a private key. The private key is created by using a password. Your public key is published to the blockchain whenever you initiate a transaction, such as making an online purchase using bitcoin, that is posted to the blockchain. 
+
+### Blockchain
+
+ Per Wikipedia a blockchain "is a continuously growing list of records, called blocks, which are linked and secured using cryptography. Each block typically contains a hash pointer as a link to a previous block, a timestamp and transaction data"
+What is significant about this is that it adds security from fraud as anything that happens on the blockchain stays on the blockchain for anyone to see. It also adds pseudo anonymity which can help to increase privacy.
+
+### Why is this relavant to freeCodeCamp users?
+
+Although there are over 1,000 cryptocurrencies currently in existence with over 50 with a marketcap of over $100 million USD you are here to learn about coding and technology to possibly get a job. Many large companies and governments are embracing blockchain technology, and cryptography the backbones of cryptocurency. Bitcoin core and Ethereum used C++ as well as solidity. However, the languages used aren't as important as the protocol. Over time as companies embrace this newer technology they will need programmers that not only know how to program in Javascript or whatever language. They will want someone that knows how to implement blockchain and cryptography to upgrade their systems to accept cryptocurrencies, or just to add security on the back end. 
+
+### More Information  
+
+Here is an online course from  <a href="https://www.coursera.org/learn/cryptocurrency">Princeton</a> 
+A mainstream site to purchase cryptocurrency <a href="https://www.coinbase.com">Coinbase</a>
