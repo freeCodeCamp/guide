@@ -7,6 +7,16 @@ The comment tag is an element used to leave notes, mostly related to the project
 
 It is good practice to add comments to your code, especially when working with a team or at a company.  This helps future developers or fellow teammates know what is going on more easily when they look at your code.  
 
+### The comment tag
+
+```
+
+<!--
+
+-->
+
+```
+
 ### Example
 ```html
 
