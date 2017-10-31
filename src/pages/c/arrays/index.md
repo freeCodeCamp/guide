@@ -3,7 +3,7 @@ title: Arrays
 ---
 # Arrays in C
 ## Problems
-Before trying to explain what arrays are, let's look at the code where we want to print 10 numbers given by the user in reverse order.
+Before geting start to know what arrays are, let's look at the code where we want to print 10 numbers given by the user in reverse order.
 ```C
 #include <stdio.h>
 int main(void){
