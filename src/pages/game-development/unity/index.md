@@ -3,12 +3,14 @@ title: Unity
 ---
 ## Game Development with Unity
 
-Unity is a cross-platform game engine developed by Unity Technologies, which is primarily used to develop video games and simulations for computers, consoles and mobile devices.
-First announced only for OS X, at Apple's Worldwide Developers Conference in 2005, it has since been extended to target 27 platforms.
+Unity is a cross-platform game development engine developed by Unity Technologies, which is primarily used to develop video games and simulations for computers, consoles and mobile devices.
+First announced only for OS X, at Apple's Worldwide Developers Conference in 2005, it has since been extended to target 27 different platforms.
 
 ## Overview
 
 Unity is an all purpose game engine that supports 2D and 3D graphics, drag and drop functionality and scripting through C#.
+
+Six major versions of Unity have been released.  At the 2006 WWDC show, Apple named Unity as the runner up for its best use of Mac OS X Graphics Category.
 
 Two other programming languages were supported: Boo, which was deprecated with the release of Unity 5 and UnityScript which was deprecated in August 2017 after the release of Unity 2017.1.
 
