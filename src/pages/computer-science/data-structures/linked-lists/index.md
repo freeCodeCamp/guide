@@ -1,7 +1,7 @@
 ---
 title: Linked Lists
 ---
-## Linked Lists
+## Linked Lists ###
  
 #### A Linked List is a simple *linear-access* data structure. 
 A linked list is a simple data structure, but it can be used to implement more complicated Data Structures like Queues, Stacks, etc. There are three types of Linked Lists:
@@ -56,6 +56,7 @@ Most common operations available on List are,
 6. Access / Peek - Access an existing element from the List.
 7. Size / Count - Returns the number of elements currently present in the List.
 8. IsEmpty - Check whether the List is empty or not.
+9. Sort - sort the list
 
 
 #### Applications  
