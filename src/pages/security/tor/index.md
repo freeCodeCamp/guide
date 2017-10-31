@@ -12,7 +12,7 @@ Tor has gotten a lot of negative attention because of its criminal use case. Cri
 
 Tor has many other usecases. Journalists reporting from areas where their lives may be endangered by the nature of the stories they are breaking, whistleblowers, and people living in oppressive regimes all fit into Tor's more benign usecases, along with anyone more interested in online anonymity.
 
-Edward Snowden, the NSA whistleblower, has mentioned Tor favorably as a very well put-together program. Famously, an internal NSA memo that was leaked referred to it as "the king of high-secure, low-latency internet anonymity There are no contenders to the throne in waiting".
+Edward Snowden, AKA the NSA whistleblower, has mentioned Tor favorably as a very well put-together program. Famously, an internal NSA memo that was leaked referred to it as "the king of high-secure, low-latency internet anonymity There are no contenders to the throne in waiting".
 
 
 #### More Information:
