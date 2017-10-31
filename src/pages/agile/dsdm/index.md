@@ -3,13 +3,7 @@ title: Dsdm
 ---
 ## Dsdm
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/dsdm/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+DSDM is an acronym that stands for Dynamic Systems Development Method. It is an agile project delivery framework, initially used as a software development method. It was first released in 1994 and sought to provide some discipline to the rapid application development method. In 2007, it became a generic approach to project management and solution delivery
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
+Useful youtube link --- https://www.youtube.com/watch?v=uiPF9VL4V_I
 
