@@ -5,7 +5,7 @@ The freeCodeCamp community is building a massive, searchable "Guide." This refer
 
 This repo is where we plan and maintain these Guide articles, which we then host on our community's wiki-like [Guide website](https://guide.freecodecamp.org).
 
-**Table of Contents**
+**Table of Contentz**
 
 - [What are Guide articles?](#what-are-guide-articles)
 - [What can I write an article about?](#what-can-i-write-an-article-about)
@@ -266,3 +266,4 @@ Copyright (c) 2017 freeCodeCamp.
 The content of this repository is bound by the following licenses:
 - The computer software is licensed under the [BSD-3-Clause](./LICENSE.md).
 - The reference content as in ./src/pages and subdirectories is licensed under the [CC-BY-SA-4.0](./LICENSE-freeCodeCamp-Guide-Articles.md).
+h
