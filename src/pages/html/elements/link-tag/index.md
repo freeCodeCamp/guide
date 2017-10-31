@@ -2,12 +2,21 @@
 title: Link Tag
 ---
 ## Link Tag
+The link tag is represented by <link> tag.It is used to link to external style sheets i.e it defines a link between a document and an external resource.It goes in the <head> tag .
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/link-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Example:
+<head>
+<link rel="stylesheet" type="text/css" href="externaldocu.css">
+</head>
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Attributes:
+1.The rel describes the relationship between the current document and the linked document
+2.The type specifies the media type of the linked document.
+3.The href specifies the location of the linked document.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+The various other attributes are:
+1.hreflang -This specifies the language of the linked document.
+2.It also supports various Global and event attributes in HTML.
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
