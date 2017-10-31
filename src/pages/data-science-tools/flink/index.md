@@ -69,3 +69,4 @@ Minimal requirements for an IDE are:
 * Quick flink tutorial: <a href='https://www.linkedin.com/pulse/introduction-apache-flink-quickstart-tutorial-malini-shukla/' target='_blank' rel='nofollow'>quick start</a>
 * How to guide: <a href='https://data-artisans.com/blog/kafka-flink-a-practical-how-to' target='_blank' rel='nofollow'>howto</a>
 * Flink vs Spark: <a href='http://www.developintelligence.com/blog/2017/02/comparing-contrasting-apache-flink-vs-spark/' target='_blank' rel='nofollow'>comparison</a>
+changes
