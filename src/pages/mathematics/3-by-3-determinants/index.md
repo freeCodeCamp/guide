@@ -1,3 +1,6 @@
+---
+title: 3 by 3 Determinants
+---
 ## 3 by 3 Determinants
 
 You can calculate the determinant of a square three-by-three matrix using the [Laplace formula](https://en.wikipedia.org/wiki/Laplace_expansion)
