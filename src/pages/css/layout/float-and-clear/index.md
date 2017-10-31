@@ -1,15 +1,28 @@
 ---
 title: Float and Clear
 ---
-## Float and Clear
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/layout/float-and-clear/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+## Float
+Float is a property used for positioning and layout. It specifies whether a box should float in a particular horizontal, inherit, or don't float at all. Absolute positioning ignores any floats. Float is often used with clears where if an element flows around it, you can give that element a clear to remove this.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+#### Values:
+* left - Float Left
+* right - Float Right
+* none - No Floating
+* initial - Default Value
+* inherit - Use Float Value From Parent Element
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+## Clear
+Clear is a property used to specify which elements can float beside cleared elements, and it can be used to specify which side it can float on.
+
+#### Values:
+* left - No Floating On Left Side
+* right - No Floating On Right Side
+* none - Allows Floating On Both Sides
+* both - No Floating Elements On Either Side
+* inherit - Use Clear Value From Parent Element
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+<a href="https://www.w3schools.com/css/css_float.asp">https://www.w3schools.com/css/css_float.asp</a>
 
 
