@@ -3,9 +3,12 @@ title: Area of Triangles
 ---
 ## Area of Triangles
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/area-of-triangles/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The area of a triangle can be calculated by multiplying one half by the base * height
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+For example, if you have a triangle that is 3cm on the base and 4cm in height, then you can work out the area:
+
+Areaa= .5 * 3 * 4 = 6cm²
+
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
