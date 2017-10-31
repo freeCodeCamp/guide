@@ -46,6 +46,10 @@ Perimeter - the sum of the length of four sides in a square. The four sides are 
 
    Area = (20 / 4)<sup>2</sup> = 25  units<sup>2</sup>
 
+my changes
+##Note
+Since every square is a rectangle so area of a square is also length * breadth . But since its all sides are equal, hence side*side.
+
 #### More Information:
 
 - <a href='https://en.wikipedia.org/wiki/Square#Perimeter_and_area' target='_blank' rel='nofollow'>Wikipedia: Square</a>
