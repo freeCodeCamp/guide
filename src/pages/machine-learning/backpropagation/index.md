@@ -11,5 +11,5 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
+[](https://stackoverflow.com/questions/16419902/using-monte-carlo-method-to-find-a-specific-probability-of-a-certain-dice-output)
 
