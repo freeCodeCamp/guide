@@ -10,6 +10,11 @@ Decision trees by themselves are prone to **overfitting**. This means that the t
 ### Solution with Random Forests
 Random Forests belong in the category of **ensemble learning** algorithms. This class of algorithms use many estimators to yield better results. This makes Random Forests usually **more accurate** than plain decision trees. In Random Forests, a bunch of decision trees are created. Each tree is **trained on a random subset of the data and a random subset of the features of that data**. This way the possibility of the estimators getting used to the data (overfitting) is greatly reduced, because **each of them work on the different data and features** than the others. This method of creating a bunch of estimators and training them on random subsets of data is a technique in *ensemble learning* called **bagging** or *Bootstrap AGGregatING*. To get the prediction, the each of the decision trees vote on the correct prediction (classification) or they get the mean of their results (regression).
 
+
+## The algorithm of Random Forest
+
+Random forest is like bootstrapping algorithm with Decision tree (CART) model. Say, we have 1000 observation in the complete population with 10 variables. Random forest tries to build multiple CART model with different sample and different initial variables. For instance, it will take a random sample of 100 observation and 5 randomly chosen initial variables to build a CART model. It will repeat the process (say) 10 times and then make a final prediction on each observation. Final prediction is a function of each prediction. This final prediction can simply be the mean of each prediction.
+
 #### More Information:
 - <a href='https://www.wikiwand.com/en/Random_forest' target='_blank' rel='nofollow'>Random Forests (Wikipedia)</a>
 - <a href='https://www.analyticsvidhya.com/blog/2014/06/introduction-random-forest-simplified/' target='_blank' rel='nofollow'>Introduction to Random Forests - Simplified</a>
