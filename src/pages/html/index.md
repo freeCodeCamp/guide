@@ -49,3 +49,5 @@ HTML5 is the latest version, or specification, of HTML. The World Wide Web Conso
   </tr>
 </table>
 
+Tim Berners Lee was the creator of HTML or Hypertext Markup Language and he designed it in the 1980s in Switzerland.  Now a days HTML is used by developers to create webpages, and there is no website on the internet that has been made without having html in it.  You can add paragraphs, videos, headers, images, and more to spice up your website to allow for a better experience for your user.
+
