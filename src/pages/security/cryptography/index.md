@@ -42,6 +42,12 @@ Asymmetric algorithms provides each user with a pair of keys: one public and one
 
 Some techniques are: RSA, Diffie-Hellman, DSS(Digital Signature Standard), ElGamal.
 
+### Cryptographic Hashing
+
+Most cryptographic hash functions are designed to take a string of any length as input and produce a fixed-length hash value.
+
+A cryptographic hash function must be able to withstand all known types of cryptanalytic attack.
+
 #### More Information:
 
 - <a href='https://www.crcpress.com/Cryptography-Theory-and-Practice-Third-Edition/Stinson/p/book/9781584885085' target='_blank' rel='nofollow'>Cryptography: Theory and Practice by Douglas Stinson</a>
