@@ -1,11 +1,11 @@
 ---
 title: how-to-set-up-ubuntu-lamp-server
 ---
-# Setting up a local LAMP server on Ubuntu
+## How to Set Up a Local LAMP Server on Ubuntu
 
 The purpose of this brief guide is to take you through the process of setting up a LAMP (Linux, Apache, MySQL, PHP) server on a local Ubuntu Linux machine or virtual machine.  This will allow a developer to develop using PHP and MySQL (with phpMyAdmin). This is a common stack that is necessary for Wordpress development.
 
-## Install the necessary packages
+### Install the necessary packages
 
  You will need to install the following packages for the LAMP server.  You can install them all at once by separating each package by a space, or one at a time like shown.  I prefer to download one at a time because it is easier to see if there were any errors. Enter the terminal and type the following:
 
@@ -23,13 +23,13 @@ You should then be prompted to set a password for the MySQL root user. After set
 You should then be prompted which server to use select apache by pressing enter.
 Select no for advanced server setup.
 
-## Change permissions to the /var/www/html
+### Change permissions to the /var/www/html
 
 In order for php scripts and files to be run by the LAMP server they need to be saved in the /var/www/html directory.  You can think of this location as your local server.  In order to make changes to this directory we need to change the permissions on it.  In the terminal enter the command:
 
 * `sudo chown {your ubuntu username} /var/www/html`
 
-## Create a symbolic link to phpMyAdmin
+### Create a symbolic link to phpMyAdmin
 
 By default, phpMyAdmin is installed in the /usr/share/ directory.  We need to move it to our local server directory. We navigate to the server directory that we want the link in by:
 
@@ -39,7 +39,7 @@ Then create the link by entering the command:
 
 * `ln -s /usr/share/phpmyadmin phpmyadmin`
 
-## Restart Apache and test
+### Restart Apache and test
 
 Run the following command to restart Apache setting the changes that were made:
 
@@ -59,3 +59,7 @@ Then, open a browser and type in localhost/info.php
 You should see a page from the php file you just wrote that gives you information about php.
 
 Finally, to access phpMyAdmin go to localhost/phpmyadmin in your browser.  The defualt root username is 'root' and the password is the password you chose earlier for the MySQL database.  
+
+### More Information
+
+<!-- Insert helpful linsk here -->
