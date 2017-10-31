@@ -38,6 +38,7 @@ The cursor property specifies the type of cursor to be displayed when you hover 
     .nesw-resize     { cursor: nesw-resize; }
     .nwse-resize     { cursor: nwse-resize; }
 ```
+![alt text](http://www.javascripter.net/faq/24_cursor_styles.gif "CSS Cursors")
 
 #### More Information:
 Check the above cursor values in action: <a href='https://codepen.io/chriscoyier/pen/uCwfB' target='_blank' rel='nofollow'>codepen</a>

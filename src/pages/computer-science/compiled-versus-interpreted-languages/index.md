@@ -3,45 +3,35 @@ title: Compiled Versus Interpreted Languages
 ---
 ## Compiled Versus Interpreted Languages
 
-### Programming
-At its heart, a barebones computer (aka a stored program computer) is nothing but a machine which knows how to read steps written in a fixed instruction set and execute the same. The set of instructions a computer understands is very specific to it. This is also known as machine language (**opcodes**). Machine Language is often alos referred to as Bianry Code.
+Every program is a set of instructions, whether it's to add two numbers or send a request over the internet. Compilers and interpreters take human-readable code and convert it to computer-readable machine code. In a compiled language, the target machine directly translates the program. In an interpreted language, the source code is not directly translated by the target machine. Instead, a *different* program, aka the interpreter, reads and executes the code.
 
-Humans interact with computers using **Programs**. A program is simply a sequence of opcodes provided to the computer along with data that is necessary for executing the opcodes. 
+#### Okay... but what does that *actually* mean?
 
-For example,
-```
-ADD 10, 20  // ADD is the Opcode 
-            // and 10, 20 are the two operands(data) 
-            // needed for the ADD instruction to be executed successfully
-```
-Humans develop programs to solve complex problems. Looking at how simple opcodes are, if we try to develop programs using opcodes alone, it will be very cumbersome and difficult to debug. To solve this problem, high level languages like C/C++, Python, Java, Javascript, etc were developed. 
+So let's say you have an hummus recipe that you want to make, but it's in Ancient Greek. There are two ways you, as a non-Ancient-Greek speaker, could follow its directions.
 
-Now, high level languages aren't suitable for execution by computers. Hence, the need arose for a translator that can digest the high-level language programs and convert them to machine language instructions suitable for execution by a computer.
+The first is if someone had translated it into English for you already. You (and anyone else who could speak English) could get the English version and make hummus. This is the compiled version.
 
-#### [HUMANS] -> [Highlevel language programs] -> [Translator] -> [Machine Language] -> [Computer]
+The second is if you had a friend who knows Ancient Greek. Your friend can sit next to you and translate the Ancient Greek into English, line by line, as you go. In this case, your friend is the interpreter. This is the interpreted version.
 
-### Translators
-Translators are majorly of two kinds:-
-1. Compilers
-2. Interpreters
+#### Compiled Languages
 
-In a nutshell, a Compiler translates high-level programs to machine understandable binary code. This can then be directly executed by the computer. Here, the process of executing a program involves a discrete step called *compilation*. Only after the compilation is completed, can the program begin execution and calculate the results. 
+Compiled languages are converted directly into machine code that the processor can execute. As a result, they tend to be faster and more efficient to execute than interpreted languages. They also give the developer more control over hardware aspects, like memory management and CPU usage.
 
-On the other hand, an interpreted language depends on another program usually referred to as an **Interpreter**. The function of the interpreter is to take parts of the high-level program, convert it and execute it step by step. The result of execution of each step will usually be available as soon as the step is executed. It is possible to incrementally develop more high-level code while viewing the results of the past steps.
+Compiled languages need a "build" step - they need to be manually compiled first. You need to "rebuild" the program every time you need to make a change. In our hummus example, the entire translation is written before it gets to you. If the original author decided he wanted to use a different kind of olive oil, the entire recipe would need to be translated again and then sent to you.
 
-To Put it in plain english:-
-#### Compiler
-```
-This is akin to taking a document written in Japanese, and translating it into English. 
-An English reader, has to wait for the entire translation step to be completed before they can read the book. 
-```
-#### Interpreter
-```
-This is akin to a japanese speech being translated on the fly by an interpreter who knows both Japanese & English.
-An English speaker, can listen to the English version line by line.
-```
-* C/C++, Basic, Java, are classic examples of Compiled Languages.
-* Javascript, Python, Ruby are classic examples of Interpreted Languages.
+Examples of pure compiled languages are C, C++, Erlang, Haskell, Rust, and Go.
+
+#### Interpreted Languages
+
+Interpreters will run through a program line by line and execute each command. Now, if the author decided he wanted to use a different kind of olive oil, he could scratch the old one out and add the new one. Your translator friend can then convey that change to you as it happens.
+
+Interpreted languages were once known to be significantly slower than compiled languages. But, with the development of <a href='https://guide.freecodecamp.org/computer-science/just-in-time-compilation' target='_blank' rel='nofollow'>just-in-time compilation</a>, that gap is shrinking.
+
+Examples of common interpreted languages are PHP, Ruby, Python, and JavaScript.
+
+#### A Small Caveat
+
+Most programming languages can have both compiled and interpreted implementations. The language itself is not necessarily compiled or interpreted. However, for simplicity's sake, they're typically referred to as such.
 
 Strictly speaking, the terms interpreted language and compiled language are not well defined because, in theory, any programming language can be either interpreted or compiled. In modern programming language implementation it is increasingly popular for a platform to provide both options.
 e.g. Python can be executed either as a compiled program, or as an interpreted language in interactive mode.
@@ -63,4 +53,9 @@ An Interpreted language gives implementations some additional flexibility over c
 The most notable disadvantage is typical execution speed compared to compiled languages.
 
 #### More Information:
-(https://github.com/79man/guides/blob/4aa86872ae5fd25a2c88ef98f12df5d454fb2c48/src/pages/computer-science/compilers/index.md)
+
+<a href='https://en.wikipedia.org/wiki/Compiled_language' target='_blank' rel='nofollow'>Wikipedia - Compiled language</a>
+
+<a href='https://en.wikipedia.org/wiki/Interpreted_language' target='_blank' rel='nofollow'>Wikipedia - Interpreted language</a>
+
+<a href='http://www.programmerinterview.com/index.php/general-miscellaneous/whats-the-difference-between-a-compiled-and-an-interpreted-language/' target='_blank' rel='nofollow'>programmerinterview.com article - What’s the difference between a compiled and interpreted language?</a>

@@ -91,12 +91,21 @@ class Results extends PureComponent {
 
   render() {
     const { results = [] } = this.props;
-    if (!results.length) {
-      return null;
-    }
     return (
-      <div className='searchResults'>
-        { this.renderResultItems() }
+      <div>
+        {results.length &&
+          <div className='searchResults'>
+            { this.renderResultItems() }
+          </div>
+        }
+        <div
+          aria-atomic='true'
+          aria-live='polite'
+          className='sr-only'
+          role='status'
+          >
+            {`${results.length} result${results.length === 1 ? '' : 's'} found`}
+        </div>
       </div>
     );
   }

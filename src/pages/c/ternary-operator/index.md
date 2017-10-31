@@ -10,7 +10,7 @@ Here's a simple decision-making example using **if** and **else**:
 ```c
 int a = 10, b = 20, c;
 
-if(a < b) {
+if (a < b) {
     c = a;
 }
 else {
