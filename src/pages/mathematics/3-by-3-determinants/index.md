@@ -11,5 +11,4 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+Calculating 3 by 3 determinant is as same as calculating 2 by 2 determinant only at a bigger scale.
