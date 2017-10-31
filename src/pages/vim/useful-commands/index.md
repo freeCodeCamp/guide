@@ -41,5 +41,6 @@ Start by pressing `escape` to check if you're in normal mode, press colon `:`, t
 
 ## Other Resources
 - <a href='https://vimgolf.com/' target='_blank' rel='nofollow'>Vim Golf</a> - A good way to learn from doing vim challenges to get the lowest amount of keystrokes. You can see solutions submitted by others if you can't figure the challenge out.
+- <a href='https://vim-adventures.com/' target='_blank' rel='nofollow'>Vim Adventures</a> - A fun and gamified approach to learn Vim where you lern the different key strokes with every new level in the game.
 - Read the rest of our Vim Guides to get a better understanding of this powerful editor.
 
