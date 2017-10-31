@@ -21,6 +21,8 @@ Social Engineering is the art of gaining access to a secured system or resource 
 
 * Phishing: Sending an email which looks like it is from a trusted source to bait the user into clicking a link (to install malware) or replying with private information.
 
+* Infiltrating: impersonating someone legitimate in order to gain physical access to a building/office etc., e.g. the coffee machine repair person
+
 
 
 #### More Information:
