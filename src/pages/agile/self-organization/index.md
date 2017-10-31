@@ -3,13 +3,8 @@ title: Self Organization
 ---
 ## Self Organization
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/self-organization/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+In order to maintain high dynamics and agility of developed projects, all team members should mindfully share responsibility for product that is being developed.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+Vertically oriented organisational structures proved themself to be slow and inflexible with many levels of decision making. If team wants to act fast and react dynamically to constantly changing environment, the organisationa structure needs to be flat with members feeling strongly responsible for their input into the project.
 
 
