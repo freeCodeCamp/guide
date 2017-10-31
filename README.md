@@ -69,7 +69,7 @@ In this project, we are using `yarn` because `netlify` builds our site with `yar
 
 ## Article style guide
 
-We've written the following guide to writing Guide articles to help you get started contributing.
+We've written the following guide to writing Guide articles to help you get started contributing. Lets get started!
 
 **Table of Contents**
 
