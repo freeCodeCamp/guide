@@ -1,3 +1,6 @@
+----
+title: 2 by 2 Determinants
+----
 ## 2 by 2 Determinants
 
 
