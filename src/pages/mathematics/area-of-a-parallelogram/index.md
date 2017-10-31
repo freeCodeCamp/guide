@@ -2,6 +2,10 @@
 title: Area of a Parallelogram
 ---
 ## Area of a Parallelogram
+Area = bh
+area of a parallelogram is base times height ,which is similar to that of a rectangle.
+
+As every parallelogram can be made rectangle, so we use the same formula for rectangle and parallelogram.
 
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/area-of-a-parallelogram/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
