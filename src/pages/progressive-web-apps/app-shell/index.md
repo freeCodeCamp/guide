@@ -1,7 +1,7 @@
 ---
-title: Manipulating Cookies
+title: App Shell
 ---
-## Manipulating Cookies
+## App Shell
 
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/manipulating-cookies/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
