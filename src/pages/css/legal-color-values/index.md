@@ -3,13 +3,22 @@ title: Legal Color Values
 ---
 ## Legal Color Values
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/legal-color-values/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+<p>Colors in CSS can be specified by the following methods:</p>
+<ul><li>
+  Hexadecimal colors</li><li>
+RGB colors</li><li>
+RGBA colors</li><li>
+HSL colors</li><li>
+HSLA colors</li><li>
+Predefined/Cross-browser color names</li></ul>
+<h3>Hexadecimal Colors</h3>
+<p>
+  Hexadecimal color values are supported in all major browsers.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+A hexadecimal color is specified with: #RRGGBB, where the RR (red), GG (green) and BB (blue) hexadecimal integers specify the components of the color. All values must be between 00 and FF.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+For example, the #0000ff value is rendered as blue, because the blue component is set to its highest value (ff) and the others are set to 00.
+  </p>
+  
 
 
