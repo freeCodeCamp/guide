@@ -13,3 +13,6 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
 
+Some people still don't know what HTML really is, however, the question should be...If HTML is Hypertext Mark-up Language,
+why this fifth version is so important and everyone is so hyped? You could summarise all this hipe in one magic word...SEMANTIC
+
