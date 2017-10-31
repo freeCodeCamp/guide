@@ -35,6 +35,5 @@ opacity: 1.0;
 Opacity is often used to draw the user's attention to elements and  focus on important parts of a page. 
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
+Docs: [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/opacity)
 
