@@ -19,3 +19,11 @@ Answer: Routing is a core feature in AngularJS. This feature is useful in buildi
 
 Question: Explain ng-repeat directive.
 Answer: The ng-repeat directive is the most used and very useful AngularJS Directive feature. It iterates over a collection of items and creates DOM elements. It constantly monitors the source of data to re-render a template in response to change.
+
+Question: What are the advantages of using Angularjs ?
+Answer: 1.AngularJS provides facility to develop dynamic Single Page Application by writing code in a clean and maintainable manner
+2.AngularJS provides two way data binding facilities. DOM manipulation is easy because of this feature
+3.AngularJS supports dependency injection that helps developer to reuse component
+4.AngularJS provides reusable components 5. Developer can write minimum code and achieve more functionality.
+6.AngularJS applications can run on all major browsers and platforms like  Android and iOS based phones/tablets
+7.AngularJS is maintained by Google. So there is large development community.
