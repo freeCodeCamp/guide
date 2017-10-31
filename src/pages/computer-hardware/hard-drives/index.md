@@ -31,3 +31,5 @@ Data stored in RAM is said to be ephemeral whereas data written out to a hard dr
 <a href='https://en.wikipedia.org/wiki/Hard_disk_drive' target='_blank' rel='nofollow'>Wikipedia</a>
 
 <a href='https://www.pcmag.com/article2/0,2817,2404258,00.asp' target='_blank' rel='nofollow'>Hard drives vs SSDs</a>
+
+<a href='http://www.makeuseof.com/tag/5-things-consider-buying-ssd/' target='_blank' rel='nofollow'>5 Things You Should Consider When Buying An SSD</a>
