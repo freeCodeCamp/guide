@@ -25,6 +25,30 @@ background-color: blue;
 }
 
 ```
+
+You can also declare more than one class to your element, like:
+
+```html
+
+<div class="ironMan alfred">
+ We're going to save you.
+</div>
+
+```
+
+Then in your css file:
+
+```css
+
+.ironMan{
+color:red;
+}
+
+.alfred{
+background-color: black;
+}
+
+```
  
 
 Notice that classes have the prefix of a period (.) in CSS.
