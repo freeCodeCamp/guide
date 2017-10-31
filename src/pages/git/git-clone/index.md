@@ -35,6 +35,22 @@ myCommandPrompt (master) >>
 
 If your local `master` branch has three commits that you haven't pushed up to the remote server yet, the status would say "Your branch is ahead of 'origin/master' by 3 commits."
 
+### Git Fetch
+
+An easy way to see if changes have been made to the remote and bring the changes down to your local copy is with Git Fetch.
+This command will not merge changes from the remote into your local repository. It brings those changes onto what's called a remote branch. 
+Example output below: 
+```shell
+ git fetch
+
+remote: Counting objects: 5, done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 5 (delta 1), reused 0 (delta 0)
+Unpacking objects: 100% (5/5), done.
+From /home/ccuser/workspace/curriculum-a/science-quizzes
+ * [new branch]      master     -> origin/master
+```
+
 ### Git Clone Mirror
 
 If you want to host mirror of a repository you can use mirror parameter. 
