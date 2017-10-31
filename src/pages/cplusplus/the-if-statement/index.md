@@ -27,13 +27,13 @@ code inside the if statement is skipped and your code continues.
 Example of If Statement:
 ```cpp
 
-  int a= 10;
+int a= 10;
   
-  //TRUE STATEMENT
-  if (a<20)
-  {
+//TRUE STATEMENT
+if (a<20)
+{
   //execute block of code
-  }
+}
 //FALSE STATEMENT
 if (a<0)
  {
