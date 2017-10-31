@@ -175,7 +175,7 @@ You can check out the Purdue link above to see how to properly cite web sources 
 
 >Author Last Name, Author First Name. "Article Title." *Publication.* Publisher. Date Published. Date Accessed.
 
-If you cannot find an author or published date, which is common, simply omit these.
+If you cannot find an author or published date, which is common, simply omit them.
 
 Use of proper citations will not only keep the guides reputable, but these citations and links will also provide valuable resources should the reader want to learn more about the topic. Also note that instances of blatant plagiarism will be either removed or have their pull requests declined, and the user will receive a warning. Please refer to and review the [Academic Honesty Policy](https://www.freecodecamp.org/academic-honesty) before contributing.
 
@@ -183,7 +183,7 @@ Use of proper citations will not only keep the guides reputable, but these citat
 
 Campers will likely use Guide articles as a quick reference to look up the syntax. Articles should have simple real-world examples that show common-use cases of that syntax.
 
-Here are specific formatting guidelines for any code:
+Follow these specific formatting guides for any guide:
 
 - JavaScript statements end with a semicolon
 - Use double quotes where applicable
@@ -218,7 +218,7 @@ Here are specific formatting guidelines for any code:
 
 For including images, if the images aren't already hosted somewhere else on the web, you'll need to put them online yourself. A good way to do this is to commit them to a GitHub repository of your own, then push them to GitHub. Then you can right-click the image and copy its image source.
 
-Then you'd just need to reference them in your markdown file with this syntax:
+Then you just need to reference them in your markdown file with this syntax:
 
 `![your alt text](your url)`
 
