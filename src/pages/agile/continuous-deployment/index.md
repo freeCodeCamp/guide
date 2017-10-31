@@ -10,5 +10,5 @@ The goal of Continuous Deployment is to have code in a constant reliable state t
 
 Two main benefits of Continuous Deployment include an earlier return on investment for each feature after it is developed due to the lower release times as well as earlier feedback on new features. 
 
-Other benefits to Continuous Deployment include inproved code quality due to less bugs making it to production, more reliable code releases and a much higher time to market.
+Other benefits to Continuous Deployment include improved code quality due to less bugs making it to production, more reliable code releases and a much higher time to market.
 
