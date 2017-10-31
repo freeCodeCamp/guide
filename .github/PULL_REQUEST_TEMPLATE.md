@@ -11,7 +11,7 @@ title: Title of the article that shows up in the site's menu
 - If you edit a stub article, your changes are substantial enough to justify removing the stub text ("This article is a stub..." part). We can't accept PRs that only add links to the "More Information" section - a repository script will automatically delete any changes (and revert it to the stub template) if the stub language is still in that file
 - Your PR has a descriptive name (NOT: Update index.md): for example, if you create a "Variables" article inside the "Python" directory, the pull request title should be "Python: add Variables article". Other examples are "Git: edit Git Commit article" or "PHP: create PHP section and add Data Structures article"
 - Add a short description below describing your changes
-
+This is awesome!
 -->
 
 **Description**
