@@ -3,13 +3,13 @@ title: Area of a Triangle
 ---
 ## Area of a Triangle
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/area-of-a-triangle/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+my changes
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Area of a triangle = (1/2)*base*height
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+##Note
+Height is with respect to the side being considered as base.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
+https://www.khanacademy.org/math/basic-geo/basic-geo-area-and-perimeter/area-triangle/a/area-of-triangle
 
