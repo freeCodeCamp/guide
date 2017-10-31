@@ -97,4 +97,34 @@ Output:
     7
     8
 ```
+
+## Types of Arrays:
+1. One dimensional arrays
+2. Multidimensional arrays
+
+## One dimensional array
+A one-dimensional array is  a list of like-typed variables.
+**Syntax:**
+```java
+dataType[] arrayName;
+```
+**Example:**
+```java
+int primeNumbers[];
+```
+
+## Multidimensional array
+A multidimensional array can be considered as an array of arrays. A new dimension is specified by adding an extra set of square brackets.
+
+**Syntax:**
+```java
+dataType[][] arrayName[];
+```
+**Example:**
+```java
+int matrixA[3][3];
+```
+The above example defines a 3x3 two-dimensional array.
+
+
 Source: <a href='https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html' target='_blank' rel='nofollow'>Java Arrays</a>
