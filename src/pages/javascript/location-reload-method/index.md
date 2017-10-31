@@ -13,7 +13,7 @@ To simply reload the page, you can input `window.location` as object.
 
 Optional parameters `force reload` is a boolean value, which if set to:
 
-*True* reload the page from the server (e.g. does not store the data cached by the browser):
+*True* reloads the page from the server (e.g. does not store the data cached by the browser):
 ```
 window.location.reload(true);
 ```
@@ -21,7 +21,7 @@ window.location.reload(true);
 ```
 window.location.reload(false);
 ```
-*False* is the default parameter, so if left blank, `object.reload()` reloads the page using the broswer's cached data, i.e. is identical to using the method as `window.location.reload(false)`.
+*False* is the default parameter, so if left blank, `object.reload()` reloads the page using the broswer's cached data, i.e. is identical to using the method as `object.reload(false)`.
 
 To create the effect of browser-provided "Refresh"-option, you may want to create HTML-button and:
 
