@@ -21,5 +21,5 @@ Some resources to help you know more about Imposter Syndrome and some tips to ta
 * <a href='http://www.apa.org/gradpsych/2013/11/fraud.aspx' target='_blank' rel='nofollow'>Feel Like a Fraud? | American Psychological Association</a>
 * <a href='https://www.ted.com/playlists/503/fighting_impostor_syndrome' target='_blank' rel='nofollow'>Fighting Imposter Syndrome | TED Talks</a>
 * <a href='https://qz.com/606727/is-imposter-syndrome-a-sign-of-greatness/' target='_blank' rel='nofollow'>Is imposter syndrome a sign of greatness? | Quartz</a>
-
+* <a href='https://medium.com/desk-of-van-schneider/the-imposter-syndrome-ad397dfb72cb' target='_blank' rel='nofollow'>The Imposter Syndrome | Medium</a>
 
