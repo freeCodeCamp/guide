@@ -57,3 +57,7 @@ function linearSearch(arr, item) {
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
 <a href='https://www.youtube.com/watch?v=vZWfKBdSgXI' target='_blank' rel='nofollow'>Linear Search - CS50</a>
+
+#### Resources
+
+<a href='https://en.wikipedia.org/wiki/Linear_search' target='_blank' rel='nofollow'>Wikipedia.org: Linear Search</a>
