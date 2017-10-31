@@ -3,13 +3,46 @@ title: Doctype
 ---
 ## Doctype
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/doctype/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `<!DOCTYPE>` declaration is an instruction to the web browser about what particular flavor(or version) of HTML or XHTML you’re using. It’s a document type definition.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The doctype for the HTML 5 standard is a ver simple : `<!DOCTYPE html>`.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Examples :
+
+HTML 4.01 Strict :
+
+
+```html
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<title>Title of the document</title>
+	</head>
+	<body>
+		The content of the document......
+	</body>
+</html>
+```
+
+
+HTML 5 :
+
+
+```html
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Title of the document</title>
+	</head>
+	<body>
+		The content of the document......
+	</body>
+</html>
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+<a href='https://www.w3schools.com/tags/tag_doctype.asp' target='_blank' rel='nofollow'>w3schools</a>
 
 
+<a href='https://en.wikipedia.org/wiki/Document_type_declaration' target='_blank' rel='nofollow'>Wikipedia</a>
