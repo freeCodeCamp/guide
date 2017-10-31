@@ -6,7 +6,7 @@ Basic terminologies in Tree are:
 4) Link - This is a pointer to a node in a tree.
 5) Root - This is a specially designed node which has no parent.
 6) Leaf - The node which is at the end and doesnot have any child is called leaf node. A leaf node is also altrernatively termed terminal node.
-7) Height - The maximum number of nodes that is possible in the path that is starting from te root node to a leaf node is called the height of a tree.
+7) Height - The maximum number of nodes that is possible in the path that is starting from the root node to a leaf node is called the height of a tree.
 8) Degree - The maximum number of children that is possible for a node is known as the degree of a node.
-9) Sibling - THe nodes which have the same parent are called siblings.
+9) Sibling - The nodes which have the same parent are called siblings.
 
