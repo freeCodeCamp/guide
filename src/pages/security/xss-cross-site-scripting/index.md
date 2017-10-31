@@ -25,8 +25,8 @@ Of course, the above example does not present any immediate danger to those view
 
 Read on more information on XSS and the steps you can take to protect against is from:
 
-[Cross-site Scripting (XSS)](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS))
+<a href='https://www.owasp.org/index.php/Cross-site_Scripting_(XSS' target='_blank' rel='nofollow'>Cross-site Scripting (XSS)</a>)
 
-[XSS (Cross Site Scripting) Prevention Cheat Sheet](https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet)
+<a href='https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting' target='_blank' rel='nofollow'>XSS (Cross Site Scripting) Prevention Cheat Sheet</a>_Prevention_Cheat_Sheet)
 
-[Hacksplaining XSS Lesson](https://www.hacksplaining.com/exercises/xss-stored)
+<a href='https://www.hacksplaining.com/exercises/xss-stored' target='_blank' rel='nofollow'>Hacksplaining XSS Lesson</a>

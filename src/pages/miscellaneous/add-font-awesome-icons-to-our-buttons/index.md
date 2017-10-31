@@ -18,7 +18,7 @@ Here is how you would insert that icon on to a button:
 #### More Information:
 
 Get font awesome on your website:
-[Font awesome - Get started](http://fontawesome.io/get-started/)
+<a href='http://fontawesome.io/get-started/' target='_blank' rel='nofollow'>Font awesome - Get started</a>
 
 Check out all the available font awesome icons:
-[Icons](http://fontawesome.io/icons/)
+<a href='http://fontawesome.io/icons/' target='_blank' rel='nofollow'>Icons</a>
