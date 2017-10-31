@@ -1,7 +1,10 @@
+
 ---
 title: Simplify Square Roots
 ---
 ## Simplify Square Roots
+
+Start by seeing if you can find a perfect square in the square root such as 5x5 in 75=5×5×3=5
 
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/algebra/simplify-square-roots/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
