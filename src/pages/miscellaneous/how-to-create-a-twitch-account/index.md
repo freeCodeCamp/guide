@@ -3,7 +3,7 @@ title: How to Create a Twitch Account
 ---
 # What is Twitch?
 
-Twitch is a live streaming video platform that was founded in June 2011\. More than 1.7 million people broadcast on Twitch each month with 100 million unique visitors. Click <a href='https://www.twitch.tv/p/about' target='_blank' rel='nofollow'>here</a> to find out more about Twitch and it's statistics.
+Twitch is a live streaming video platform that was founded in June 2011\. More than 2.2 million people broadcast on Twitch each month with 110 million unique visitors. Click <a href='https://www.twitch.tv/p/about' target='_blank' rel='nofollow'>here</a> to find out more about Twitch and it's statistics.
 
 ## Setting up your Twitch Account
 
