@@ -38,3 +38,7 @@ lambda = lambda {}
 
 #### More Information:
 <a href='https://ruby-doc.org/core-2.4.2/Array.html' target='_blank' rel='nofollow'>Ruby array documentation</a>
+
+Accessing Elements: In Ruby, one can access elements from a given array using the #[] method. When an element is out of bounds, Ruby will return "#=> nil". Also, negative indices start from the last element of the array. One can also access an element from the array by perforing the following function: arr.at(0). This retrieves the element at the position/index 0.
+
+A link/reference that I found helpful can be found here: https://ruby-doc.org/core-2.2.0/Array.html 
