@@ -5,7 +5,7 @@ title: Algorithms
 
 An algorithm is like a recipe. It's a series of steps you take in order to achieve a specific outcome.
 
-Some common types of algorithms include sorting algorithms, search algorithms, and compression algorithms.
+Some common types of algorithms include sorting algorithms, search algorithms, and compression algorithms. Based on the type of input data, we can decide the best algorithm fitted to solve the problem.
 
 <a href='https://www.youtube.com/watch?v=kPRA0W1kECg' target='_blank' rel='nofollow'>youtube</a>
 
