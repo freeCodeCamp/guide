@@ -61,6 +61,9 @@ To fix this issue, hadoop keeps redundant data. 3 copies of each block is kept i
 
 To fix the 3rd problem, concept called NameNode standby. There are 2 namenodes used here. One is active, one is standby with the standby taking over when the active namenode undergoes failure.
 
+Hadoop Common
+The third module is Hadoop Common which will provide the tools that are required for the user's computer systems(Windows,Unix) to read data stored under the Hadoop File System.
+
 #### More Information:
 1. <a href='https://www.udacity.com/course/intro-to-hadoop-and-mapreduce--ud617' target='_blank' rel='nofollow'>Udacity course on hadoop</a>
 1. <a href='http://hadoop.apache.org/' target='_blank' rel='nofollow'>Apache Hadoop</a>
