@@ -19,3 +19,10 @@ Answer: Routing is a core feature in AngularJS. This feature is useful in buildi
 
 Question: Explain ng-repeat directive.
 Answer: The ng-repeat directive is the most used and very useful AngularJS Directive feature. It iterates over a collection of items and creates DOM elements. It constantly monitors the source of data to re-render a template in response to change.
+
+Question: How do you share data between controllers?
+Answer: Create an AngularJS service that will hold the data and inject it inside of the controllers.
+Using a service is the cleanest, fastest and easiest way to test. However, there are couple of other ways to implement data sharing between controllers, like:
+– Using events
+– Using $parent, nextSibling, controllerAs, etc. to directly access the controllers
+– Using the $rootScope to add the data on (not a good practice)
