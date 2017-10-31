@@ -16,9 +16,9 @@ Encryption over the years has become more advanced.
 
 The information that Person1 wants to send to Person2, which we call "plaintext", can be text, numerical data, or any type of data at all. Person1 encrypts the plaintext, using a predetermined key, and sends the resulting "ciphertext" over the channel. Person3, upon seeing the ciphertext in the channel, cannot determine what the plaintext was, but Person2, who knows the encryption key, can decrypt the ciphertext and reconstruct the plaintext.
 
-### Cesar Cypher
+### Caesar Cypher
 
-The first known cypher was the Cesar cypher. The Cesar cypher worked by shifting the letters of the word by a specific amount up or down in the alphabet. 
+The first known cypher was the Caesar cypher. The Cesar cypher worked by shifting the letters of the word by a specific amount up or down in the alphabet. 
 
 From a random person's perspective, the message was just random letters with random spaces in between.
 
