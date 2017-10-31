@@ -12,4 +12,12 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
+The mean is just another word for the average of the numbers. It is easy to calculate: add up all the numbers, then divide by how many numbers there are. In other words it is the sum divided by the count.
+
+Example 
+
+Add the numbers: 6 + 11 + 7 = 24
+Divide by how many numbers (there are 3 numbers): 24 / 3 = 8
+The Mean is 8
+
 
