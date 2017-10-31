@@ -16,7 +16,7 @@ This repo is where we plan and maintain these Guide articles, which we then host
 
 
 ## What are Guide articles?
-Guide articles can be an explanation of syntax, design pattern(s), what aria labels are for, or something like what the numbers mean in the top right-hand corner of your screen when at [freecodecamp.org](https://www.freecodecamp.org/). You can find an [example article about HTML Elements here](./src/pages/html/elements/index.md).
+Guide articles can be an explanation of syntax, design pattern(s), what area labels are for, or something like what the numbers mean in the top right-hand corner of your screen when at [freecodecamp.org](https://www.freecodecamp.org/). You can find an [example article about HTML Elements here](./src/pages/html/elements/index.md).
 
 ## What can I write an article about?
 We welcome your help writing these articles. You don't have to be an expert in a topic to write about it - this entire Guide is open source, so even if you make a mistake, another contributor will eventually correct it.
@@ -88,7 +88,7 @@ We've written the following guide to writing Guide articles to help you get star
 
 Article titles should be as short, concise, and to-the-point as possible. We want campers to quickly find the information they're looking for, and the title should reflect the main theme of the article.
 
-Folder name is used in the URL, so only use dashes `-`, numbers `0-9`, and lowercase letters `a-z` for it.
+The folder name is used in the URL, so only use dashes `-`, numbers `0-9`, and lowercase letters `a-z` for it.
 
 Here are some examples:
 
@@ -123,7 +123,7 @@ However, you can include special characters in the article title.
 
 Each article should explain exactly one concept and that concept should be apparent from the article's title.
 
-We can reference other articles by linking to them inline or in an "More information:" section at the end of the article.
+We can reference other articles by linking to them inline or in a "More information:" section at the end of the article.
 
 
 Our goal is to have thousands of articles that cover a broad range of technical topics.
@@ -144,7 +144,7 @@ Use active voice instead of passive voice. Generally, it's a stronger and more s
 
 If you want to abbreviate a term in your article, write it out fully first, then put the abbreviation in parentheses. For example, "In computer science, an abstract syntax tree (AST) is ..."
 
-Text should use the second person ("you") to help to give it a conversational tone. This way, the text and instructions seem to speak directly to the camper reading it. Try to avoid using the first person ("I", "we", "let's", and "us").
+Text should use the second person ("you") to help to give it a conversational tone. This way, the text, and instructions seem to speak directly to the camper reading it. Try to avoid using the first person ("I", "we", "let's", and "us").
 
 If there are other Guide resources you think campers would benefit from, add them at the bottom in an "Other Resources" section.
 
@@ -177,7 +177,7 @@ You can check out the Purdue link above to see how to properly cite web sources 
 
 If you cannot find an author or published date, which is common, simply omit these.
 
-Use of proper citations will not only keep the guides reputable, but these citations and links will also provide valuable resources should the reader want to learn more about the topic. Also note that instances of blatant plagiarism will be either removed or have their pull requests declined, and the user will receive a warning. Please refer to and review the [Academic Honesty Policy](https://www.freecodecamp.org/academic-honesty) before contributing.
+Use of proper citations will not only keep the guides reputable but these citations and links will also provide valuable resources should the reader want to learn more about the topic. Also note that instances of blatant plagiarism will be either removed or have their pull requests declined, and the user will receive a warning. Please refer to and review the [Academic Honesty Policy](https://www.freecodecamp.org/academic-honesty) before contributing.
 
 ### Formatting example code
 
