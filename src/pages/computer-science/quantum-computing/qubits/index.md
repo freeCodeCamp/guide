@@ -3,13 +3,15 @@ title: Qubits
 ---
 ## Qubits
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/computer-science/quantum-computing/qubits/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The qubit, a portmanteau of *quantum* and *bit*, is the basic unit of quantum computing. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+A qubit is similar to a classical bit (also a portmanteau, of *binary* and *digit*), in that, like a classical bit, it can have one of two states, typically represented as with 0 and 1.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+However, a qubit can also exist in a *superposition* of both states, which allows it to encode more information than a classical bit.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+[Ars Technica - Explanation of Quantum Computing and Qubits](https://arstechnica.com/science/2010/01/a-tale-of-two-qubits-how-quantum-computers-work)
 
+[Wikipedia - Qubits](https://en.wikipedia.org/wiki/Qubit)
 
+[Wikipedia - Quantum Superposition](https://en.wikipedia.org/wiki/Quantum_superposition)
