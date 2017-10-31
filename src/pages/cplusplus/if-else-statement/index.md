@@ -6,7 +6,7 @@ title: C++ If-Else Statement
 
 * The If-Else statement is an extension of the simple If statement.
 * In the simple If statement, if the value of the test expression is false, then we skip the code of block and continue with our next statement.
-* But many of the times we want to execute certain steps if the value of test expression is false.
+* But many times, we want to execute certain steps if the value of test expression is false.
 * In such cases, we use the if-else statement.
 
   -----------------------------------
@@ -125,7 +125,7 @@ This step is always printed
 <a href='https://repl.it/MzBq' target='_blank' rel='nofollow'>Try the code yourself</a>
 _CONGRATULATIONS . This is the end of the article on the IF statement_ 
 
- **Good Luck to all of you** 
+ **Good luck to all of you!** 
 
  **Happy Coding ! :)**
 
