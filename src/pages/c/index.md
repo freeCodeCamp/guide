@@ -99,15 +99,15 @@ Once you've got it compiled, run the following command:
 If everything has gone well, you should see `Hello, World!` printed to the screen.
 
 #### Compilation and running C with CodeBlocks
-[Codeblocks can be downloaded from here.](http://www.codeblocks.org/downloads/26)
+<a href='http://www.codeblocks.org/downloads/26' target='_blank' rel='nofollow'>Codeblocks can be downloaded from here.</a>
 Make a new program with `file` -> `new` -> `file`, select C/C++ source, select C as your language, and then copy over the helloworld.c text that you read through earlier. Compile and run the code with `Build` -> `Build and Run`.
 
 #### Compilation and running C with Dev-C++
-[Dev-C++ can be downloaded from here.](https://sourceforge.net/projects/orwelldevcpp/)
+<a href='https://sourceforge.net/projects/orwelldevcpp/' target='_blank' rel='nofollow'>Dev-C++ can be downloaded from here.</a>
 Make a new program with `file` -> `new` -> `Source File`, then copy over the helloworld.c text that you read through earlier and then save the file with`file` -> `save As`  as hello.c , and Compile and run the code with `Execute` -> `Compile & Run`.
 
 #### Compilation and running C with XCode
-[XCode can be downloaded from here.](https://developer.apple.com/xcode/)
+<a href='https://developer.apple.com/xcode/' target='_blank' rel='nofollow'>XCode can be downloaded from here.</a>
 Make a new program with `File` -> `New` -> `Project` -> `OS X`. Then, select "New Command Line Tool". Name it whatever you want and select C as the language.
 
 To run the code, click `Product` -> `Run`.

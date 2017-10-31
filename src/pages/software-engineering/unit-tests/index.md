@@ -17,6 +17,24 @@ Depending on the type of programming language (or paradigm) these can be against
 - **Industry Standard** -  Unit testing is a common discipline these days, and is a requirement for a large portion of software companies
 - **Less bugs** - Substantial research suggests that applying testing to an application can improve production bug density by 40% — 80%.
 
+### Example(In Javascript)
+Suppose there is a function written in file **add.js**
+```javascript
+var add = function(number1, number2){
+  return number1 + number2;
+}
+```
+Now, in order to write unit test of this particular function we can use testing tools like [mocha](http://mochajs.org/)
+```javascript
+const mocha = require('mocha')
+const chai = require('chai')  // It is an assertion library
+describe('Test to check add function', function(){
+  it('should add two numbers', function(){
+    (add(2,3)).should.equal(5)  //Checking that 2+3 should equal 5 using the given add function
+  });
+});
+```
+
 ### More Information
 
 Martin Fowler on Unit Testing: <a href='https://www.martinfowler.com/bliki/UnitTest.html' target='_blank' rel='nofollow'>martinfowler.com</a>

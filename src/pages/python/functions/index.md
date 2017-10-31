@@ -3,6 +3,8 @@ title: Functions
 ---
 ## Functions
 
+Functions are blocks of code that can be reused simply by calling the function. This enables simple, elegent code reuse without explicitly re-writing sections of code. This makes code both more readable, makes for easier debugging, and limits typing errors. 
+
 Functions in Python are created using the `def` keyword, followed by a function name and function parameters inside parentheses.
 
 The `return` keyword is used by the function to return a value, if you don't want to return any value, the default value `None` will returned. 
@@ -43,5 +45,5 @@ result = s(1, 2)
 #result = 3
 ```
 #### More Information:
-[Python 3 Docs: Defining Functions](https://docs.python.org/3/tutorial/controlflow.html#defining-functions)
+<a href='https://docs.python.org/3/tutorial/controlflow.html#defining-functions' target='_blank' rel='nofollow'>Python 3 Docs: Defining Functions</a>
 
