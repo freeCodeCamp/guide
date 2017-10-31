@@ -3,9 +3,28 @@ title: Area of a Triangle
 ---
 ## Area of a Triangle
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/area-of-a-triangle/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The area of a triangle is defined as the space enclosed by the perimeter of the triangle.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+#### Terminology
+
+Height (h) - The vertical length of the parallelogram from top to bottom. Measured at right angle with the base.
+
+Base (b) - The horizontal width of the parallelogram from left to right.
+
+#### Formula
+
+Area of a triangle = 1/2 * b * h
+
+#### Example
+
+1. A triangle has a base of 6in and is 3in high, what is the area?
+
+Area of a triangle = 1/2 * b * h
+  b = 6in
+  h = 3in
+  
+Area of a triangle = 1/2 * 6in * 3in
+Area of a triangle = 9in
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
