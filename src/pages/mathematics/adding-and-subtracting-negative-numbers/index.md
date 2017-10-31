@@ -19,4 +19,4 @@ Adding and subtracting positive numbers is fairly straighforward, but what does 
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
+basically two negative number addition is just like normal addition but with a negative sign.
