@@ -8,6 +8,8 @@ CSS stands for Cascading Style Sheets. It was first invented in 1996, and is now
 
 CSS allows for developers to control how web pages look by "styling" the HTML structure of that page.
 
+Styles don’t smell or taste anything like HTML, they have a format of ‘property: value’ and most properties can be applied to most HTML tags.
+
 You can build some pretty amazing things in CSS alone, such as <a href='https://codepen.io/bali_balo/pen/BLJONk' target='_blank' rel='nofollow'>this pure-CSS Minesweeper game</a> (which uses no JavaScript).
 
 ![](https://cdn-images-1.medium.com/max/800/1*GFcKk9KxqHAnWa1ECcKDOQ.png)
