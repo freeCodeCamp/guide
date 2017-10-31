@@ -35,8 +35,8 @@ _Here, we are using the `preventDefault` method. It does exactly what it says, w
 
 <a href='https://jsfiddle.net/dy457gbh/' target='_blank' rel='nofollow'>jsFiddle</a>
 
-#### Two more ways to play with click method
-Here you can pass data to the handler:
+#### Two more ways to play with the `click` method
+You can pass data to the handler:
 ```javascript
 jqueryElement.click( [eventData ], handler )
 ```
