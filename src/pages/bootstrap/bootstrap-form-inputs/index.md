@@ -31,3 +31,22 @@ The following example contains three checkboxes. The last option is disabled:
 <div class="checkbox disabled">
   <label><input type="checkbox" value="" disabled>Option 3</label>
 </div>```
+
+The following snippet shows how to use inline radio inputs:
+```
+<div class="form-check form-check-inline">
+  <label class="form-check-label">
+    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 1
+  </label>
+</div>
+<div class="form-check form-check-inline">
+  <label class="form-check-label">
+    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 2
+  </label>
+</div>
+<div class="form-check form-check-inline disabled">
+  <label class="form-check-label">
+    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" disabled> 3
+  </label>
+</div>
+```
