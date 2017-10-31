@@ -2,8 +2,13 @@
 title: A Href Attribute
 ---
 ## A Href Attribute
+The main use of anchor tags - <a></a> - is as hyperlinks. That basically means that they take you somewhere. Hyperlinks require the href property, because it specifies a location. 
+A hash - # within a hyperlink specifies an html element id to which the window should be scrolled.
 
-The `<a href>` attribute refers to a destination provided by a link. The `a` (anchor) tag is dead without the `<href>` attribute. Sometimes in your workflow, you don't want a live link or you won't know the link destination yet. In this case, it's useful to set the `href` attribute to `"#"` to create a dead link.
+href="#some-id" would scroll to an element on the current page such as <div id="some-id">.
+
+href="//site.com/#some-id" would go to site.com and scroll to the id on that page.
+href="#" doesn't specify an id name, but does have a corresponding location - the top of the page. Clicking an anchor with href="#" will move the scroll position to the top.
 
 For instance:
 
