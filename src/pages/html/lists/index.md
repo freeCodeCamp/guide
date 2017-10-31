@@ -14,6 +14,7 @@ Within the `<ol>` or `<ul>` tags, you need to put the items in the list. You add
   <li>Item 1</li>
   <li>Item 2</li>
   <li>Item 3</li>
+  <li>Item 4</li>
 </ul>
 ```
 
@@ -21,11 +22,13 @@ This would display as:
 * Item 1
 * Item 2
 * Item 3
+* Item 4
 
 An ordered list would display as:
 1. Item 1
 2. Item 2
 3. Item 3
+4. Item 4
 
 #### Description lists
 A description list is a list of terms, with a description of each term. A description list is made using the `<dl>` tag.
