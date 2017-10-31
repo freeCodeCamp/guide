@@ -48,6 +48,8 @@ This is a list of the CSS classes that bootstrap provides for buttons.
 
 <button type="button" class="btn btn-link">Link</button>
 
+`.navbar-btn` ertically aligns a button inside a navbar
+
 #### Bootstrap Button Sizes:
 This is a list of the CSS classes for different size of the buttons.
 
