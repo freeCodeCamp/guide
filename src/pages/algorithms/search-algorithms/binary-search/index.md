@@ -79,6 +79,26 @@ var numbers = [1,2,3,4,5,6,7];
 print(binarySearch(numbers, 5, 0, numbers.length-1));
 ```
 
+Here is another implementation in Javascript:
+
+```Javascript
+function binary_search(a, v) {
+    function search(low, high) {
+        if (low === high) {
+            return a[low] === v;
+        } else {
+            var mid = math_floor((low + high) / 2);
+            return (v === a[mid]) 
+                   ||
+                   (v < a[mid]) 
+                   ? search(low, mid - 1)
+                   : search(mid + 1, high);
+        }
+    }
+    return search(0, array_length(a) - 1);
+}
+```
+
 ### More Information
 <a href="https://youtu.be/P3YID7liBug">Binary search (YouTube video)</a>
 
