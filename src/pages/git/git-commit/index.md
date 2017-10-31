@@ -14,7 +14,7 @@ Commits are at the heart of Git usage. You can think of a commit as a snapshot o
 There are a number of options that you can include with `git commit`. However, this guide will only cover the most common options. For an extensive list of options, please consult the <a href='https://git-scm.com/docs/git-commit' target='_blank' rel='nofollow'>Git documentation</a>.
 
 #### The -m Option
-The most common option used with `git commit` is the `-m` option. The `-m` stands for message. When calling `git commit`, it is required to include a message. The message should be a short description of the changes being committed. The message should be at the end of the command and it must be wrapped in quotations `" "`.
+The most common option used with `git commit` is the `-m` option. The `-m` stands for message. When calling `git commit`, it is required to include a message. The message should be a short description of the changes being committed. The message should be at the end of the command and it must be wrapped in quotations `" "`. You will get to see these messages on the files you have made changes to on the specific repository it pertains to on github.com with your message located after the file name.
 
 An example of how to use the `-m` option:
 ```shell
