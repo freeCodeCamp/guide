@@ -62,4 +62,4 @@ Finally, to access phpMyAdmin go to localhost/phpmyadmin in your browser.  The d
 
 ### More Information
 
-<!-- Insert helpful linsk here -->
+<!-- Insert helpful links here -->
