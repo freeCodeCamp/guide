@@ -53,3 +53,18 @@ for(int i = 0; i < n; i++)
 
 * [Wikipedia](https://en.wikipedia.org/wiki/Selection_sort)
 * [KhanAcademy](https://www.khanacademy.org/computing/computer-science/algorithms#sorting-algorithms)
+
+
+#### Implemination 
+void selectionSort()
+{
+int loc, minIndex;
+for(loc = 0; loc < length -1; ++loc)
+{minIndex= minLocation(loc, length -1);
+swap(a[loc], a[minIndex]);}}
+int minLocation(int first, int last)
+{int loc, minIndex;minIndex= first;
+for(loc = first + 1; loc <= last; ++loc)
+if(list[loc] < list[minIndex])minIndex= loc;
+returnminIndex;}
+void swap(intfirst, intsecond){...}
