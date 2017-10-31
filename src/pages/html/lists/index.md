@@ -49,5 +49,6 @@ Which would end up looking like so:
 </dl>
 
 #### More Information:
+Lists can be used for navigation bars in webpages!
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 <a href='https://www.w3schools.com/html/html_lists.asp' target='_blank' rel='nofollow'>HTML lists on w3schools</a>
