@@ -1,7 +1,7 @@
 ---
 title: Progressive Web Apps
 ---
-## What are progressive web apps?
+#### What are progressive web apps?
 
 They appear to be not just a new fad, but a fudamentally different way of approaching what a website can and should be on whatever platform you are viewing it from.
 
@@ -27,10 +27,9 @@ These apps aren’t packaged and deployed through stores, they’re just website
 
 
 
-
 #### More Information:
 
 
-### Sources
+#### Sources
 
 Alex Russell https://infrequently.org/2015/06/progressive-apps-escaping-tabs-without-losing-our-soul/
