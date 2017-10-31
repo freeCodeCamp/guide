@@ -13,6 +13,14 @@ The background-size property specifies the size of the background images. You ca
 .inherit {background-size: inherit}
 ```
 
+To set this property on multiple background images separate values by comma:
+```css
+.multiple {
+    background-image: url(1.png), url(2.png);
+    background-size: 3px 3px, cover;
+}
+```
+
 #### More Information:
 
 Documentation: <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/background-size' target='_blank' rel='nofollow'>MDN</a>
