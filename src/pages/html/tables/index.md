@@ -20,6 +20,9 @@ A more complex HTML table may also include `<caption>`, `<col>`, `<colgroup>`, `
         <td>
           cell 2
         </td>
+	<td>
+	 cell 3
+	</td>
       </tr>
     </table>
 	</body>
