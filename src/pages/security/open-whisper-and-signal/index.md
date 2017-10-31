@@ -10,7 +10,7 @@ The group's main product is the Signal Protocol, a cryptographic protocol that p
 1. [Edwards-curve Digital Signature Algorithm (EdDSA)](https://signal.org/docs/specifications/xeddsa/)-compatible signatures, created and verified using public-private key pairs.
 1. An [Extended Triple Diffie-Hellman (X3DH)](https://signal.org/docs/specifications/x3dh/) key agreement that creates a shared secret key and allows the two parties to mutually authenticate based their public keys.
 1. [Double Ratchet](https://signal.org/docs/specifications/doubleratchet/) is the algorithm by which a shared secret key is used by the two parties to encrypted/decrypt messages.
-1. The [Sesame](https://signal.org/docs/specifications/sesame/) algorithm manages asynchronous and multi-device encryption sessions.<sup></sup>
+1. The [Sesame](https://signal.org/docs/specifications/sesame/) algorithm manages asynchronous and multi-device encryption sessions.<sup>1</sup>
 
 The Signal Protocol was initially released as part of the TextSecure messaging app, which was later renamed Signal. It has since been used more widely to add encryption to other communications apps such as WhatsApp and (in a more limited capacity) Facebook Messenger and Google's Allo.
 
