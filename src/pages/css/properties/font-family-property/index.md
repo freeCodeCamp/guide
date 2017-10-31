@@ -45,3 +45,5 @@ p {
   font-family: Lato, sans-serif, monospace;
 }
 ```
+#### More Information: 
+Docs: [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/font-family)
