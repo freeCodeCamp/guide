@@ -3,6 +3,8 @@ title: Area of a Circle
 ---
 ## Area of a Circle
 
+https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=0ahUKEwiO-JflzpnXAhUC-GMKHVAMBx0QjRwIBw&url=https%3A%2F%2Fsocratic.org%2Fquestions%2Fwhat-is-the-area-of-a-circle-with-a-radius-of-3-cm&psig=AOvVaw30Z_Vc0vemQmzEdiME3O-c&ust=1509496472667706
+
 Area of a circle is defined as the space enclosed by the circumference of the circle.
 
 #### Terminology
