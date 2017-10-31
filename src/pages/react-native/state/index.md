@@ -1,7 +1,7 @@
 ---
-title: React Native - Component State
+title: Component State
 ---
-## React Native - Component State
+## Component State
 
 In `Class` components, there is a way to store and manage state built in to React Native.
 
@@ -54,6 +54,8 @@ Or updated by calling:
 ```js
 this.setState({});
 ```
+
+**Note:** Aside from its initial creation in your component's `constructor()` method, you should never directly modify the component's state with `this.state = `. You must use `this.setState` as can be seen in the `incrementCount` and `decrementCount` functions above.
 
 The count is incremented and decremented by calling the functions passed to the `onPress` handlers just like they would be if you called a click handler from JavaScript on the web.
 
