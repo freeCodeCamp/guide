@@ -1,7 +1,7 @@
 ---
-title: Manipulating Cookies
+title: Service Workers
 ---
-## Manipulating Cookies
+## Service Workers
 
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/manipulating-cookies/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
