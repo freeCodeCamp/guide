@@ -2,21 +2,16 @@
 title: CSS Images
 ---
 ## CSS Images
-<p>This helps in adding an image to a website.</p>
 
+This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/tutorials/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
-####Code Sample</h4>
+<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
 
-```<img src="picture.jpg" alt="Picture" width="100px" height="100px">```
-
-* **src:** It consists the value of the path to the required image</li>
-* **alt:** If the image is not displayed then an alternate text can be displayed using alt attribute.</li>
-* **width:** This specifies a width for the image</li>
-* **height:** This specifies a height for the image</li>
-
+<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
+MDN Documentation: [CSS Images](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Images)
 
 ##### Properties
 <a title="The image-orientation CSS property describes how to correct the default orientation of an image." href="/en-US/docs/Web/CSS/image-orientation"><code>image-orientation</code></a>
