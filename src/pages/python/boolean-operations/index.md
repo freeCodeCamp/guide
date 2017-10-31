@@ -44,4 +44,4 @@ not x | if x is false, then True, else False | (3)
     >>> False or True    # Second argument is evaluated.
     True
     >>> False or False   # Second argument is evaluated.
-    False
+    False 
