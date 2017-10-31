@@ -50,6 +50,10 @@ title: Python Resources
 *   <a href='http://www.pyladies.com/' target='_blank' rel='nofollow'>PyLadies</a>
 *   <a href='https://djangogirls.org/' target='_blank' rel='nofollow'>DjangoGirls</a>
 
+## Blog
+
+* <a href='https://medium.freecodecamp.org/learning-python-from-zero-to-hero-120ea540b567'>Learning Python: From Zero to Hero</a>
+
 Tools:
 
 *   <a href='https://www.jetbrains.com/pycharm-edu/' target='_blank' rel='nofollow'>PyCharm Edu</a> - a free educational version of PyCharm that comes with tutorials to teach you Python and the ability to download more.
