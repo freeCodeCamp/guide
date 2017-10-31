@@ -1,15 +1,59 @@
 ---
 title: Error Handling
 ---
+
 ## Error Handling
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/computer-science/error-handling/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Error handling is very important thing every developer should care about while doing programming. Here I'll explain how to handle errors which occurs run-time using try-catch block with an example in C# programs. Try-catch block available in all the major programming languages and has similar syntax as well.
+  
+### How try-catch block works.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+whatever the code available in the try block executes as similar like the source code executes out of try block. Try block means that your trying to execute some code which may throw exceptions. When a code in try block throws any exception, the same can handle/catch by catch block. The advantages of having the try-catch block is, it make sure that unexpected termination of program will not happen at run time.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Try-catch block syntax included an optional block called finally. Which gets executed always, whether the try blocks throws error or not.
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+Below I've given a program which handles the divide by zero exception using predefined class in C# library. Exception is the base class for all the exception.
 
-
+```c#
+using System;
+namespace ErrorHandling
+{
+   class DivideByZero
+    {
+       int result;
+       DivideByZero()
+       {
+          result = 0;
+       }
+       public void division(int num1, int num2)
+       {
+          try
+          {
+             result = num1 / num2;
+          }
+          catch (DivideByZeroException e)
+          {
+             Console.WriteLine("Exception caught: {0}", e);
+          }
+          catch(Exception ex)
+          {
+              Console.WriteLine("Exception caught: {0}", ex);
+          }
+          finally
+          {
+             Console.WriteLine("Result: {0}", result);
+          }
+       }
+       static void Main(string[] args)
+       {
+          DivideByZero d = new DivideByZero();
+          d.division(10, 0);
+          Console.ReadKey();
+       }
+    }
+ }
+ ```
+ * In the above program passing 0 as second parameter will throw DivideByZeroExceptions. 
+ * This exception will handle by the catch block which has DivideByZeroException class. If any exceptions other than DivideByZeroExceptions occurs it will handle by Exception catch block.
+ 
+ Exception is the base class for all the exceptions class available in C# library. Even if you want to write your own exception you have to inherits Exception base class into your program.

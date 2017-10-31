@@ -61,22 +61,25 @@ This is basically saying that the function, f(n) is bounded both from the top an
 [Read in detail here.](https://guide.freecodecamp.org/computer-science/notation/big-theta-notation)
 ![Theta](http://www.geeksforgeeks.org/wp-content/uploads/thetanotation.png)
 ####**Reading the three measures**
-
 Saying that an algorithm (Algo1) is **0**(log n) is saying that in the worst case scenario, the algorithm will run at _**log n**_ times the size of the input _**n**_. Another algorithm (Algo2) with a running time of **0**(n^2) will run at _**n^2**_ times the size of the input _**n**_. Therefore, Algo1's running time will grow slower (in fact, much slower) than that of Algo2 and is going to be much faster for larger inputs. Hence, Algo1 is faster than Algo2. 
 It is important to note that, we can compare the worst case running time of one algorithm to only the worst case of some other algorithm. Otherwise, it is not a fair comparison.
 
-####**Worst-case, Best-case**
 
-You were probably confused by what worst case and best case scenarios mean while comparing algorithms. See the example of searching for an element in a sorted array, in that case, it is easy to understand the problem won't run for long if the element to be searched is the first or the minimal element. This is the best case scenario as any algorithm will give it's best running time in this scenario. Similarly, the worst case would be if the element was the last element to be searched. Because any algorithm would give it's worst performance then.
+####**Worst-case, Best-case**
+How do we measure the performance value of algorithms?
+You were probably confused by what worst case and best case scenarios mean while comparing algorithms. 
+See the example of searching for an element in a sorted array, in that case, it is easy to understand the problem won't run for long if the element to be searched is the first or the minimal element. This is the best case scenario as any algorithm will give it's best running time in this scenario. Similarly, the worst case would be if the element was the last element to be searched. Because any algorithm would give it's worst performance then.
 
 ####**Summary**
-
 In summary, the asymptotic notation is the growth rate of an algorithm in comparison to it's input size. It is used to decide which is the best suited algorithm amongst our choices.Does the algorithm suddenly become incredibly slow when the input size grows? Does it mostly maintain its quick run time as the input size increases? Asymptotic Notation gives us the ability to answer these questions.
 
-####**Good Resources**
-
+Some examples:
+- "The delivery will be there within your lifetime." (big-O, upper-bound)
+- "I can pay you at least one dollar." (big-omega, lower bound)
+- "The high today will be 25ºC and the low will be 19ºC." (big-theta, narrow)
+- "It's a kilometer walk to the beach." (big-theta, exact)
+#### More Information:
 [Khan Academy](https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/asymptotic-notation)
 Video by the brilliant Doug Lloyd
 [![Video by the brilliant Doug Lloyd](https://img.youtube.com/vi/IM9sHGlYV5A/0.jpg)](https://www.youtube.com/watch?v=IM9sHGlYV5A)]
-
 [geeksforgeeks](http://www.geeksforgeeks.org/analysis-of-algorithms-set-3asymptotic-notations/)
