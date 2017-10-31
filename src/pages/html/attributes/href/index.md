@@ -35,3 +35,4 @@ Tags that use HREF:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 <a href='https://tomayko.com/blog/2008/wtf-is-an-href-anyway' target='_blank' rel='nofollow'>WTF is a href anyway</a>
 <a href='https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/href' target='_blank' rel='nofollow'>MDN</a>
+<a href='https://www.w3schools.com/tags/att_a_href.asp'target='_blank' rel='nofollow'>W3</a>
