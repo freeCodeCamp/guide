@@ -21,9 +21,9 @@ For example:
 </html>
 ```
 
-That Piece of code displays this:
+That piece of code displays this:
 
-![](https://avatars0.githubusercontent.com/u/9892522?v=4&s=400?raw=true)
+![The freeCodeCamp Avatar](https://avatars0.githubusercontent.com/u/9892522?v=4&s=400?raw=true)
 
 ### More Information:
 - The `src` attribute is supported by all browsers
