@@ -46,3 +46,8 @@ OR
 #### More Information:
 For more information visit <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/opacity' target='_blank' rel='nofollow'>MDN</a>
 
+My changes: I have been working on a personal project where I had to manipulate the opacity of headers from the main html file. The main html referenced a separate .css file I made where I added rgba colors. 
+
+RGB is the standard Red, Green, Blue color model while RGBA has the "A" which stands for alpha and is responsible for the opacity which ranges between 0.0 and 1.0. There are different ways in which you can incorporate the opacity element in your code. I simply implemented it all in one line. For instance: color: rgba(230, 98, 231, 0.8). A great resource to reference the properties of background opacity is: https://developer.mozilla.org/en-US/docs/Web/CSS/opacity. 
+
+
