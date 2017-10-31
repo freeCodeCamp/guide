@@ -63,3 +63,5 @@ Output:
 First 15 characters are:
 Python is a pow
 ```
+### More Information:
+- <a href='https://www.tutorialspoint.com/python/python_files_io.htm'>Python - Files I/O</a> from tutorialspoint
