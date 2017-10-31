@@ -3,7 +3,7 @@ title: CSS Classes
 ---
 ## CSS Classes
 
-Classes are an efficient way of grouping HTML elements so that they can share the same styles.
+Classes are an efficient way of grouping HTML elements so that they can share the same styles. This way all a group of HTML elements can all have a similiar appearance!
 
 ---
 
