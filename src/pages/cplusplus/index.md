@@ -9,6 +9,7 @@ title: C++
 * It was designed by Bjarne Stroustrup under with the name "C with classes".
 * It is widely based on the programming language C and thus got it's name.
 * It is actually an Object Oriented version of C and adds more stuff for programmers.
+* It is therefore possible to code C++ in a "C style" or "object-oriented style." 
 
 
 ### Here is your 1st program in C++ -
