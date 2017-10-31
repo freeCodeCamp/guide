@@ -1,0 +1,4 @@
+Digital Signatures are the public key primitives of message authentication. In the physical world, it is common to use handwritten signatures on handwritten or typed messages. They are used to bind a signatory to a the message.
+Similarly, a digital signature is a technique that binds a person/entity to the digital data. This binding can be independently verified by receiver as well as any third party. 
+Digital signature is a cryptographic value that is calculated from the data and a secret key only known by the person who is signing.
+This concept of digital signatures is now a days crucial for maintaining and checing the authentication of online messages.
