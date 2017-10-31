@@ -49,4 +49,4 @@ let substring: string = names.substring(3,10);
 ```
 
 
- [More methods and description at TutorialsPoint](https://www.tutorialspoint.com/typescript/typescript_arrays.htm)
+ [More methods and description at TutorialsPoint](https://www.tutorialspoint.com/typescript/typescript_strings.htm)
