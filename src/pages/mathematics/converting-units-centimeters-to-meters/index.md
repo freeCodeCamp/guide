@@ -2,14 +2,18 @@
 title: Converting Units Centimeters to Meters
 ---
 ## Converting Units Centimeters to Meters
-
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/converting-units-centimeters-to-meters/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+We Know,
+1 meter = 100 centimeters 
 
+Thus,
+1 centimeter = 1/100 meter = 0.01 meter
 
+### Examples
+
+1. Convert 100 cm to meter.
+   100cm = (100/100)m = 1m
+   
+2. Convert 5000 cm to meter.
+   5000cm = (5000/100)m = 50m
