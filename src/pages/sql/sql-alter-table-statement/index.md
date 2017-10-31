@@ -41,3 +41,4 @@ You can also use the alter table workbench tool.  Just RIGHT click on the table 
 
 There is much more that can be done, check the manual of your database management software to learn more.
 
+My change
