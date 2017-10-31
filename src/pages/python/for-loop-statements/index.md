@@ -159,3 +159,24 @@ for index, item in enumerate(shopping_basket):
 #### More Information:
 
 - <a href='https://docs.python.org/3/tutorial/controlflow.html#for-statements' target='_blank' rel='nofollow'>Python for loop documentation</a>
+
+My changes: Dictionaries are an esential data structure in Python. One way to implement a dictionary is by creating a hashmap. A hashmap assigns is a pair/tuple that consists of a key and a value that is assigned to a key. For instance apple:red signifies that red is the value attached to the key "apple". So everytime apple is called, red will be mapped to it.
+
+Here is some code I wrote based off the previous example of assigning hex values to colors (I did my own variation):
+
+zodiac_signs_to_elements = {"taurus": "earth",
+                            "scorpio": "water",
+                            "gemini": "air"}
+                            
+for key in zodiac_signs_to_elements:
+           print(key, zodiac_signs_to_elements[key]) 
+Output:
+>
+ taurus: earth
+ scorpio: water
+ gemini: air
+>
+
+
+
+
