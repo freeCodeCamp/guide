@@ -55,13 +55,17 @@ This is a list of the CSS classes for different size of the buttons.
 
 <button type="button" class="btn btn-lg">Large</button>
 
-`.btn-sm` This is bootstrap's large button.
+`.btn-sm` This is bootstrap's small button.
 
 <button type="button" class="btn btn-sm">Small</button>
 
-`.btn-xs` This is bootstrap's large button.
+`.btn-xs` This is bootstrap's extra small button.
 
 <button type="button" class="btn btn-xs">Extra Small</button>
+
+`.btn-m` This is bootstrap's medium sized button.
+
+<button type="button" class="btn btn-m">Medium</button>
 
 _Note: Do not include the dot in the HTML Class Attribute, referring to the classes with a dot is only used when adjusting the classes in CSS._
 
