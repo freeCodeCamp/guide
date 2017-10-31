@@ -1,7 +1,7 @@
 ---
-title: Avl Trees
+title: AVL Trees
 ---
-## Avl Trees
+## AVL Trees
 
 An AVL tree is a subtype of binary search tree.
 
@@ -20,8 +20,3 @@ AVL trees have an additional guarantee:
 In order to maintain this guarantee, an implementation of an AVL will include an algorithm to rebalance the tree when adding an additional element would upset this guarantee.
 
 AVL trees have a worst case lookup, insert and delete time of O(log n).
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
