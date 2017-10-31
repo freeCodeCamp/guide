@@ -74,3 +74,4 @@ int main()
  cout << n;      // Compile time error, n not available here
 }
 ```
+ 
