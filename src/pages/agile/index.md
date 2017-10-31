@@ -3,7 +3,7 @@ title: Agile
 ---
 ## Agile
 
-Agile software development is a collection of methodologies used to manage teams of developers.
+Agile software development is a collection of methodologies used to manage teams of developers. It is widely used in industries today.
 
 Agile emphasizes asking end users what they want, and frequently showing them demos of the product as it is developed.
 
