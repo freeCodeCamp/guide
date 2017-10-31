@@ -3,13 +3,27 @@ title: Combining Typefaces
 ---
 ## Combining Typefaces
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/typography/combining-typefaces/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+There are no hard and fast rules for choosing typefaces, but you can often avoid having to choose new typefaces by styling an existing typeface to create a visual hierarchy. When in doubt, keep it simple.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Designers follow different philosophies to determine when and how to combine typefaces.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### Anchor<sup>1</sup> or Role Typeface
+
+If your project involves large amounts of text, choose an anchor typeface for the body text. This anchor typeface will guide the rest of your design choices as you make continuous tests and refinements for different combinations of typefaces against your anchor.
+
+### Contrasting Typefaces
+
+For text-light projects, having clear hierarchical roles for a font is not as great a concern as visual impact. Pair contrasting typefaces such as serif plus sans-serif. Designers often share their favorite typeface pairs, so search and experiment until you create a pleasing result.
+
+### Typeface Families
+
+Many type foundries create typefaces with extensive extra features like multiple weights and cases, decorative glyphs, serif and sans-serif versions, etc. You can use a single type family like this to ensure consistent design while creatively using those extra features to provide extra emphasis or decoration that might otherwise require another typeface. Typeface families are often a great compromise of visual consistency and typographic flexibility.
+
+#### Sources
+
+1. Tim Brown, [Combining Typefaces: A Pocket Guide](https://blog.typekit.com/2016/04/29/combining-typefaces-free-guide-to-great-typography/), PDF.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
+* Shaun Pagin, [The Art Of Mixing Typefaces Google Fonts Edition](http://www.fastprint.co.uk/blog/the-art-of-mixing-typefaces.html).
 
