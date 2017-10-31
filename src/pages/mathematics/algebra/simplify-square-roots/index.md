@@ -1,3 +1,4 @@
+
 ---
 title: Simplify Square Roots
 ---
@@ -11,5 +12,7 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
+This is a link to a usefull cite to learn to simplify square roots.
+https://www.khanacademy.org/math/algebra/rational-exponents-and-radicals/alg1-simplify-square-roots/a/simplifying-square-roots-review
 
 
