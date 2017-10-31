@@ -3,13 +3,8 @@ title: Ddos Denial of Service Attacks
 ---
 ## Ddos Denial of Service Attacks
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/security/ddos-denial-of-service-attacks/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+A denial-of-service attack is a security event that occurs when an attacker takes action that prevents legitimate users from accessing targeted computer systems, devices or other network resources. 
+Denial-of-service (DoS) attacks typically flood servers, systems or networks with traffic in order to overwhelm the victim resources and make it difficult or impossible for legitimate users to use them. While an attack that crashes a server can often be dealt with successfully by simply rebooting the system, flooding attacks can be more difficult to recover from.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
 
