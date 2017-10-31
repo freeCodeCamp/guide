@@ -9,9 +9,9 @@ Before we begin, you may want to <a href='http://clojure.org/guides/getting_star
 ## Defining Variables
 
 The bread and butter of any programming language are variables and functions. Let's define a variable!
-
-    (def our-string "Hello world!")
-
+```clojure
+(def our-string "Hello world!")
+```
 Easy peasy. That piece of code uses the `def` macro to associate a string (`"Hello world!"`) to a symbol (`our-string`). We could also have defined a number, such as `1` or `1.1`, a character, such as `\a` or `\Z`, or something more complicated like a list or a regular expression (_uuuugh_).
 
 Note that our code is inside parentheses, like a list, because everything in a Lisp is a list! (That will be very important when we start talking about macros.)
