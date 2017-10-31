@@ -1,7 +1,7 @@
 ---
-title: how-to-set-up-ubuntu-lamp-server
+title: local-lamp-server-on-ubuntu
 ---
-## How to Set Up a Local LAMP Server on Ubuntu
+## Local LAMP Server on Ubuntu
 
 The purpose of this brief guide is to take you through the process of setting up a LAMP (Linux, Apache, MySQL, PHP) server on a local Ubuntu Linux machine or virtual machine.  This will allow a developer to develop using PHP and MySQL (with phpMyAdmin). This is a common stack that is necessary for Wordpress development.
 
@@ -58,7 +58,7 @@ In the file type the following php code:
 Then, open a browser and type in localhost/info.php
 You should see a page from the php file you just wrote that gives you information about php.
 
-Finally, to access phpMyAdmin go to localhost/phpmyadmin in your browser.  The defualt root username is 'root' and the password is the password you chose earlier for the MySQL database.  
+Finally, to access phpMyAdmin go to localhost/phpmyadmin in your browser.  The defualt root username is 'root' and the password is the password you chose earlier for the MySQL database.
 
 ### More Information
 
