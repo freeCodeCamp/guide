@@ -8,3 +8,4 @@ title: Bayes Classifier
 - https://en.wikipedia.org/wiki/Naive_Bayes_classifier
 - https://youtu.be/XcwH9JGfZOU (Part 1)
 - https://youtu.be/k2diLn5Nqbs (Part 2)
+- http://scikit-learn.org/stable/modules/naive_bayes.html (scikit-learn implementation documentation)
