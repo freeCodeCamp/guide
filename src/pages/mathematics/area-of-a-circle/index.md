@@ -18,7 +18,20 @@ Pi (<span class="texhtml">π</span>) - A mathematical constant which is approxim
 #### Formula
 
 ###### Given radius of the circle
+The formula for finding the area of a circle = A = π r²
+r = radius
+r² = radius x radius
+π = 3.14
+To find the area of a circle given the radius, multiply π (3.14) with r2 ( radius x radius).
 
+Ex: r = 3
+    π = 3.14
+   
+3.14 x 3² = 28.26
+
+28.26 = area of circle
+
+r2
 Area of circle =  <span class="texhtml"><span class="texhtml">π</span> * <i>radius</i><sup>2</sup></span>
 
 ###### Given diameter of the circle
@@ -53,3 +66,4 @@ Area of circle =  <i>C</i><sup>2</sup></span> / 4 * <span class="texhtml"><span 
 
 #### More Information:
 More information with illustrations can be found <a href="https://www.wikihow.com/Calculate-the-Area-of-a-Circle">here</a>
+<a href='http://mathcentral.uregina.ca/QQ/database/QQ.09.06/s/amanda4.html'>more</a>
