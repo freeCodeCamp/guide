@@ -13,6 +13,10 @@ Here's an example of a jQuery method that selects a paragraph element, and adds 
 `<p>This is a paragraph selected by a jQuery method.</p>`<br>
 `$("p").addClass("selected");`
 
+if you want to delete class from html element with JQuery - here is example what to do:
+`<p class="selected">This is a paragraph where class selected is deleted by a JQuery method.</p>`<br>
+`$("p").removeClass("selected");`
+
 In jQuery, the class and ID selectors are like those in CSS. If you want to select elements with a certain class, use a dot (.) and the class name. If you want to select elements with a certain ID value, use the hash symbol (#) and the ID name.
 
 Selecting by class:
@@ -57,6 +61,9 @@ Another filtering selector, `:contains(text)`, selects elements that have a cert
 `$("p:contains('World')").css("color", "yellow");`
 
 **Note:** In the jQuery selector, `World` is in single-quotes because it is already inside a pair of double-quotes. Always use single-quotes inside double-quotes to avoid unintentionally ending a string.
+
+There is a variant to select element and find some relative elements below of it.
+`$("p").find("li")`
 
 These are just a few of the selectors available for use in jQuery. See the More Information section for a link to the complete list on the jQuery website.
 
