@@ -3,13 +3,29 @@ title: Converting Pounds to Ounces
 ---
 ## Converting Pounds to Ounces
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/converting-pounds-to-ounces/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+__1 pound (lb) is equal to 16 Ounces (oz)__
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+__1 lb = 16 oz__
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+_The mass m in ounces (oz) is equal to the mass m in pounds (lb) times 16_
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+__m(oz) = m(lb) × 16__
+
+### Example
+
+Example 1: Convert 5 lb to ounces.
+
+Solution-
+
+m(oz) = 5 lb × 16 = 80 oz
+
+Example 2: Convert 25 lb to ounces.
+
+Solution-
+
+m(oz) = 25 lb × 16 = 400 oz
+
+### More Information:
+More information can be found [here](https://www.wikihow.com/Convert-Pounds-to-Ounces)
 
 
