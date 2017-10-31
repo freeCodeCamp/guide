@@ -1,13 +1,21 @@
 ---
 title: Area of a Rectangle
 ---
+## Area of an object
+
+It is the space covered by the object in 2-dimensaional space.
+
 ## Area of a Rectangle
 
-The area of a rectangle can be calculated by multiplying the length of the two different sides together.
+Given the length and breadth of the rectangle as l and b respectively, then area can be calculated as :
+ 
+ area = l*b square units
 
-For example, if you have a rectangle that is 2cm by 4cm, then you can work out the area:
 
-2cm x 4cm = 8cm²
+
+For example, if you have a rectangle that is 3cm * 4cm, then you can work out the area:
+
+3cm x 4cm = 12cm²
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
