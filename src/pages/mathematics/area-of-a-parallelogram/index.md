@@ -35,5 +35,5 @@ A = (7 in) · (10 in)
 A = 70 in2
 
 #### More Information
-More information with illustrations can be found [here](https://www.mathgoodies.com/lessons/vol1/area_parallelogram)
+More information with illustrations can be found [here](https://www.mathgoodies.com/lessons/vol1/area_parallelogram) and [here](https://www.khanacademy.org/math/basic-geo/basic-geo-area-and-perimeter/parallelogram-area/a/area-of-parallelogram)
 
