@@ -19,7 +19,7 @@ It follows the same pattern as React where the views (what you see on the screen
 
 ### Reasons to choose React Native
 
-1. Code reusability — It uses one code based that is shared between both platforms.
+1. Code reusability — It uses one code base that is shared between both platforms.
 1. Reuse web tools and skills — Reuse JavaScript knowledge and tools like Axios, Redux, and other libraries that don’t require the DOM from the web.
 1. Optimized for developer productivity — Comes with features like hot/live reloading and chrome developer tools out of the box!
 1. Performance — Performs better than hybrid application frameworks like Ionic and Cordova.
