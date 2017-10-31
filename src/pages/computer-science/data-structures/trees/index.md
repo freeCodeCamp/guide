@@ -1,3 +1,6 @@
+---- 
+title: Trees  
+----  
 Tree is a very useful datastructure where the elements appear in a non-linear fashion, which requires a 2-dimensional representation.
 Basic terminologies in Tree are:
 1) Node - This is the main component of any tree structure. The concept of the node is same as that used in a linked list. A node of a tree stores the actual data and linkd to the other node.
