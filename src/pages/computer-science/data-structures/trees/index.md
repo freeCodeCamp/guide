@@ -9,3 +9,4 @@ Basic terminologies in Tree are:
 7) Height - The maximum number of nodes that is possible in the path that is starting from te root node to a leaf node is called the height of a tree.
 8) Degree - The maximum number of children that is possible for a node is known as the degree of a node.
 9) Sibling - THe nodes which have the same parent are called siblings.
+
