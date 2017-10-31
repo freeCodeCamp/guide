@@ -3,13 +3,26 @@ title: Code Tag
 ---
 ## Code Tag
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/code-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Web Developers use the `<code>` element in HTML when defining a piece of computer source code.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+**Example:**
+```html
+<p>This is how you declare a JavaScript variable:<br/>
+<code>var i = 0;</code>
+</p>
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+The example above is a piece of HTML showing you how to declare a JavaScript variable using the `<code>` element within a paragraph of regular text. By default, the text in `<code>` is displayed in monospace.
+
+**Example 2:**
+```html
+<p>After your fork the freeCodeCamp-guides repository, copy it to your local machine by running:</br>
+<code>git clone https://github.com/YOUR-USERNAME/guides.git</code>
+</p>
+```
+
+This example is also a piece of HTML showing you how to clone a fork of the freeCodeCamp-guides repository.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+- [MDN Code-tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code)
+- [W3Schools Code-tag](https://www.w3schools.com/tags/tag_code.asp)
