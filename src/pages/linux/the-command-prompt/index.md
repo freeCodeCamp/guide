@@ -17,7 +17,7 @@ As one of the oldest User Interfaces (UI), command prompts have been implemented
 
 Today, Linux and Unix users still use the same terms, but with slight differences. Real and virtual terminals connections are managed by a program called **getty**, and you can switch between virtual terminals using Alt + Ctrl + [F1-F12]. When start a tty connection, getty asks for your login name. It then hands control to the **login** program, which asks for your password. Once that is entered, **login** starts the **shell** listed for your username in the /etc/passwd file.
 In Graphical User Environments (GUI), users can access the command prompt using a **terminal emulator**, which provides the features of a tty, but within a window. There are many terminal emulators available to Linux users, such as **xterm**, **kterm**, and **rxvt**. The ones available will depend on which Linux distribution (distro, for short) you are using, and its defaults. Check your package manager to install others. Windows users can use **PuTTY** or other utilities to connect to a Linux system.
----
+
 ## The Shell
 "Shell"s are programs that interpret commands. There are a number of them, such as <a href='https://www.gnu.org/software/bash/' target='_blank' rel='nofollow'>**B**ourne **A**gain **SH**ell</a> (BASH), <a href='https://docs.freebsd.org/44doc/usd/04.csh/paper.html' target='_blank' rel='nofollow'>C Shell</a> (csh/tcsh), and <a href='http://zsh.sourceforge.net/' target='_blank' rel='nofollow'>Z SHell</a> (zsh). If the internet was a mainframe, you could think of a shell as a particular web browser, like Firefox, Chrome, or Internet Explorer. They all provide similar functionality, but with different features. The most common default shell in Linux is BASH, but each user can switch temporarily or permanently to any other available shell. The shell is fully scriptable, meaning that programming concepts can be combined with shell and system utilities in order to create more complicated functions.
 
@@ -49,6 +49,7 @@ means you type "ls -l" at a normal prompt.
 # apt-get install node
 ```
 means that you type "apt-get install node" using administrator privileges. How you elevate your privileges depends on your Linux distribution.
+
 ### Getting Root
 1. **login**
     * Logging in as root is a *very bad idea*. This is why some versions of Linux disable users' ability to log this way. Those users are encouraged to use the next method, "sudo" from within their own user account.
