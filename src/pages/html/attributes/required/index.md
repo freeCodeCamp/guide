@@ -3,13 +3,29 @@ title: Required
 ---
 ## Required
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/attributes/required/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Required attribute can be used with input field. It specifies that the input field must be filled before submitting the form. If not, it prompts the user to fill the field before proceeding with form submission.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Syntax: 
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+`<input type="email" name:"mailid" required>`
+
+Attribute:
+
+`required - for making input field mandatory`
+
+Example:
+```html
+<html>
+  <body>
+  <form action="#">
+  <input type="email" name:"mailid" required>
+  </form>
+  </body>
+</html>
+```
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+Please find the below articles to refer on input and form tags:
+[Input field](https://guide.freecodecamp.org/html/elements/input),
+[form-tag](https://guide.freecodecamp.org/html/elements/form-tag)
