@@ -1,13 +1,17 @@
 ---
 title: Area of a Circle
 ---
+## What is the are of a particular object?
+
+Area of an object is basically the space covered by it in 2-dimensional space.
+
 ## Area of a Circle
 
-Area of a circle is defined as the space enclosed by the circumference of the circle.
+Area of a circle is defined as the space enclosed by the circumference of the circle or the area it covers on a flat surface.
 
 #### Terminology
 
-Circumference (C) - The enclosing boundary of the circle is called circumference of the circle.
+Circumference (C) - The enclosing boundary of the circle is called circumference of the circle or the outline of the circle.
 
 Radius (r) - The length of a line from any point on the boundary/cirumference of the circle to the centre of the circle is known as the radius of the circle.
 
