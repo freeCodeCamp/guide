@@ -10,4 +10,4 @@ For a 2×2 matrix, its determinant is found by subtracting the products of its d
 #### More Information:
 <a href='https://github.com/freeCodeCamp/guides/blob/master/src/pages/mathematics/determinant-of-a-matrix/index.md "Determinant of a Matrix"' target='_blank' rel='nofollow'>Determinant of a Matrix</a>
 
-
+my changes
