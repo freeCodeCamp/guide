@@ -61,6 +61,10 @@ _Wrap around indexing_
     25
     >>> my_list[-2]
     16
+_Unpacking lists for python-3_
+
+    >>> print(*my_list)
+    1 2 9 16 25
 
 **Mutable:**
 
