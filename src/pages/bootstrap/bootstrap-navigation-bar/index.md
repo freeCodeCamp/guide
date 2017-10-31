@@ -9,7 +9,7 @@ The Bootstrap framework provides you with a feature call navigation bars. In sho
 To use Bootstrap Navigation Bars you add a `<nav>` element to the top inside the `<body>` element of your webpage. There are various styles you can add to customize the display of your navbars.
 
 #### Code Example
-This is the code needed to make a basic navbar.
+This is the code needed to make a  navbar.
 ```html
 <nav class="navbar navbar-default">
   <div class="container-fluid">
