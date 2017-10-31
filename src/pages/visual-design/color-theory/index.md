@@ -6,7 +6,7 @@ title: Color Theory
 Color Theory is the practical application of mixing and using colors together to achieve a specific visual effect. This can be broken down further into segments describing where to find colors, how to use color, and how color can impact usability.  
 
 A color wheel is the main tool used by designers to specify or locate color. Color wheels can include the entire color spectrum or they can be organized by a defined category of colors. 
-The three main category of colors, which you might already be familiar with, are Primary Colors, Secondary Colors, and Tertiary Colors.
+The four main category of colors, which you might already be familiar with, are Primary Colors, Secondary Colors, Tertiary Colors, Complementary Colors.
 
 **Primary Colors:**
 Red, yellow and blue
@@ -19,6 +19,10 @@ These are the colors formed by mixing the primary colors.
 **Tertiary Colors:** 
 Yellow-orange, red-orange, red-purple, blue-purple, blue-green & yellow-green
 These are the colors formed by mixing a primary and a secondary color. 
+
+**Complementary Colors:**
+Red-green, yellow-purple, blue-orange
+These are colors formed by mixing colors that are oppsite from each other on the color wheel.
 
 In web design, colors also carry with them connotations and implications that need to be understood or else you could cause confusion. The color red in a non-digital space, such as a fast-food restaurant, carries the implication of energy or excitement. However, on the web the color red also carries with it the implication that the user has committed an error. This example of how color means certain things in certain settings should be a critical reminder to understand how the person viewing your page will interpret the color selection you’ve made.
 
