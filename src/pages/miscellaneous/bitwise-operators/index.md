@@ -39,6 +39,10 @@ Returns x with the bits shifted to the left by y places (and new bits on the rig
 
 Returns x with the bits shifted to the right by y places. This is same as dividing x by 2**y for an unsigned integer. Right shift of a negative signed number has implementation-defined behaviour. Most of the compilers throw a warning when you shift with a count >= sizeof(type). Shifting it right may fill "empty" bits with the original Most Significant Bit (i.e. perform sign extension) or it may shift in zeroes, depending on platform and/or compiler.
 
+my changes
+NOTE:
+The left shift (<<) and right shift (>>) operators shouldnot be used with negative numbers in C because thir behaviour with negative numbers is undefined.
+
 ## Logical shift right operator
 
 `x >>> y`
