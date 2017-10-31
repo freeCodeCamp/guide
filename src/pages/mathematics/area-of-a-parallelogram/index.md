@@ -3,11 +3,11 @@ title: Area of a Parallelogram
 ---
 ## Area of a Parallelogram
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/area-of-a-parallelogram/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Area of parallelogram is calculated as:
+If h is the height and b is the base length,
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The formula for the area of a parallelogram = base * height.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
