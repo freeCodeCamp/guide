@@ -2,12 +2,18 @@
 title: CSS-Preprocessors
 ---
 ## CSS-Preprocessors
-
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/tutorials/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+<p>
+A CSS preprocessor is a CSS add-in that adds previously unavailable features to CSS, using new syntax.
+  </p><p>
+The main task of the preprocessor is to provide convenient syntactic constructions for the developer to simplify, and thereby speed up the development and support of styles in projects.
+  </p>
+<p>CSS preprocessors convert code written using a preprocessor language into pure and valid CSS code.</p>
+<p>With preprocessors, you can write code that targets:</p>
+<ul><li>
+Readability for humans
+  </li><li>
+Structured and logical
+  </li><li>
+Performance
+  </li></ul>
+<p>And this is only a small part of what the preprocessor can give you. But do not run ahead.<p>
