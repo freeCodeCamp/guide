@@ -7,9 +7,6 @@ The `<em>` tag is used to emphasize text in an HTML document. This can be done b
 
 Note: The `<em>` tag should not be used to stylistically italicize text. The `<em>` tag is used to stress emphasis on text.
 
-#### More Information:
-- <a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em' target='_blank' rel='nofollow'>MDN</a>
-
 ### Example:
 ```
 <body>
@@ -19,3 +16,8 @@ Note: The `<em>` tag should not be used to stylistically italicize text. The `<e
 </body>
 ```
 
+#### More Information:
+
+- <a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em' target='_blank' rel='nofollow'>The HTML &lt;a&gt; element: MDN</a>
+- <a href='https://www.w3schools.com/tags/tag_em.asp' target='_blank' rel='nofollow'>em tag: w3schools</a>
+- <a href='http://htmlreference.io/element/em/' target='_blank' rel='nofollow'>em tag: htmlreference.io</a>
