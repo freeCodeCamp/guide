@@ -7,6 +7,7 @@ title: Some Usages for Linux
 *   The White House powers their web servers using <a href='https://en.wikipedia.org/wiki/Red_Hat' target='_blank' rel='nofollow'>Red Hat Linux</a> and <a href='https://en.wikipedia.org/wiki/Apache_HTTP_Server' target='_blank' rel='nofollow'>Apache</a>.
 *   The US Department of Defense (DoD) uses Linux to run their nuclear submarine fleet.
 *   The US Navy uses Linux for ground control software.
-*  Pakistan is using Linux in many of its public schools and colleges and plans to ultimately run it on all of its government computer systems
+*   Pakistan is using Linux in many of its public schools and colleges and plans to ultimately run it on all of its government computer systems.
+*   SpaceX's Falcon 9 rocket and Dragon spacecraft uses a version of Linux.
 
 Other adoptions of Linux from around the world can be viewed <a href='https://en.wikipedia.org/wiki/List_of_Linux_adopters' target='_blank' rel='nofollow'>here</a> and <a href='http://www.comparebusinessproducts.com/fyi/50-places-linux-running-you-might-not-expect' target='_blank' rel='nofollow'>here</a>
