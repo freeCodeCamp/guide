@@ -90,6 +90,42 @@ p.small {
 }
 ```
 
+### Import font
+
+External fonts can be loaded either using the `@font-face` property or using Google Fonts' API.
+
+#### Font-face
+`@font-face` is used to specify the name and location of a font.
+
+```
+@font-face {
+  font-family: nameOfTheFont;
+  src: url(fonts/myFont.woff);
+  }
+```
+
+You can also specify the `font-weight` and `font-style` if you have a particular font file for bold and italic.
+
+```
+@font-face {
+  font-family: nameOfTheFont;
+  src: url(fonts/myFontExtraBold.woff);
+  font-weight: bold;
+  font-style: normal;
+}
+```
+
+#### Google Font
+Google Font API can be used to load fonts via an external link. These links have to be in the `head` section to use them in your CSS stylesheet. 
+```<head>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+```
+```
+.selector {
+  font-family: 'Open Sans', sans-serif;
+}
+```
 #### More Information:
 
 - https://www.w3schools.com/css/css_font.asp
