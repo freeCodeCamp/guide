@@ -19,3 +19,15 @@ Answer: Routing is a core feature in AngularJS. This feature is useful in buildi
 
 Question: Explain ng-repeat directive.
 Answer: The ng-repeat directive is the most used and very useful AngularJS Directive feature. It iterates over a collection of items and creates DOM elements. It constantly monitors the source of data to re-render a template in response to change.
+
+
+Question : Explain ng-App directive.
+Answer : The ng-app directive starts an AngularJS Application. It defines the root element. It automatically initializes or bootstraps the application when web page containing AngularJS Application is loaded. It is also used to load various AngularJS modules in AngularJS Application. 
+
+Question : Explain ng-init directive
+Answer : The ng-init directive initializes an AngularJS Application data. It is used to put values to the variables to be used in the application. Eg:In the below example, we have initialized an array of countries,using JSON syntax to define array of countries.
+```html
+<div ng-app = "" ng-init = "countries = [{locale:'en-US',name:'United States'}, {locale:'en-GB',name:'United Kingdom'}, {locale:'en-FR',name:'France'}]">
+   ...
+</div>
+```
