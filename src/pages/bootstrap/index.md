@@ -12,7 +12,7 @@ Bootstrap includes a responsive grid system for responsive layouts and is a grea
 
 Sometimes referred to as Twitter Bootstrap, the framework was originally developed by Twitter as an internal tool.  It was released as an open source project in August 2011.
 
-Bootstrap 2 was released in January 2012 and introduced the 12 column responsive grid system.
+Bootstrap 2 was released in January 2012 and introduced the 12-column responsive grid system.
 
 Bootstrap 3 appeared in August 2013, switching to a flat design and a mobile-first approach.
 
@@ -34,7 +34,7 @@ Adding the JavaScript elements of Bootstrap is similar, with `<script>` elements
 ```
 
 
-Or, alternatively, you can download all of Bootstrap's source files including Sass, JavaScript, and the build system with Bower, Composer, Meteor, or npm. This allows greater control and the option to include or exclude modules as needed.
+Alternatively, you can download all of Bootstrap's source files including Sass, JavaScript, and the build system with Bower, Composer, Meteor, or npm. This allows greater control and the option to include or exclude modules as needed.
 
 `npm install bootstrap@4.0.0-beta`
 
