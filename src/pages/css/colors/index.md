@@ -32,11 +32,11 @@ You can use named colors, like `green`, `blue`, `yellow`, `red`, `purple`, and m
 
 ```
 p {
-  color: rgb(244, 145, 14); // bright orange
+  color: rgb(244, 145, 14); // bright orange: you can also use orange instead of the rgb values
 }
 
 body {
-  background-color: hsl(184, 87%, 94%); // bright blue
+  background-color: hsl(184, 87%, 94%); // bright blue: you can also use blue instead of the rgb values
 }
 ```
 
