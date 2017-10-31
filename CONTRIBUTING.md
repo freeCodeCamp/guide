@@ -115,6 +115,7 @@ All PRs must pass the Travis CI checks before we can merge it. If a PR breaks th
 
 1. Your PR creates a new article and it's missing an `index.md` file somewhere. Every folder in `src/pages` needs an `index.md` file in it (and the name has to be `index.md`). Two likely scenarios are 1) you named the new article file something other than `index.md`, or 2) you created both a new folder, then a sub-folder, you wrote the new article in the sub-folder but forget to put a stub `index.md` file in the new folder
 2. The article doesn't have a `title` field at the top - every article needs this as the first 3 lines of the `index.md` file (the site uses this field to create the menu):
+<p>Haidar Tamvan Menavvam</p>
 
 ```
 ---
