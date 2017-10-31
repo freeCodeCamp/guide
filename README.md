@@ -1,6 +1,6 @@
 ![](https://s3.amazonaws.com/freecodecamp/wide-social-banner.png)
 
-# freeCodeCamp Guide
+# freeCodeCamp Guide [![Build Status](https://travis-ci.org/freeCodeCamp/guides.svg?branch=master)](https://travis-ci.org/freeCodeCamp/guides)
 The freeCodeCamp community is building a massive, searchable "Guide." This reference tool will eventually include thousands of articles that cover all areas of development, design, and data science - all written to be easily understood by people new to coding.
 
 This repo is where we plan and maintain these Guide articles, which we then host on our community's wiki-like [Guide website](https://guide.freecodecamp.org).
