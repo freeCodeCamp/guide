@@ -45,3 +45,4 @@ I hope this at least gives you enough to get started.
 
 Please see the manual for your database manager and have fun trying different options yourself.
 
+You can use variety of sql databases like MYsql, TERADATA, MOngoDB ETC.
