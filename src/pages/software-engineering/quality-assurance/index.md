@@ -25,7 +25,7 @@ Main categories are
 *  **Regression tests** (re-applying tests at later stages of development to ensure they still work)
 
 #### Black Box
-These test do not look inside the system under test, but treat it as 'closed' in the same way that the end user will experience it. 
+These test do not look inside the system under test, but treat it as 'closed' in the same way that the end user will experience it. Black-box testing is a method of software testing that examines the functionality of an application without peering into its internal structures or workings. This method of test can be applied virtually to every level of software testing: unit, integration, system and acceptance.
 
 ### Other Resources
 <a href='https://guide.freecodecamp.org/agile/test-driven-development' target='_blank' rel='nofollow'>Test Driven Development (freeCodeCamp Guide)</a>
