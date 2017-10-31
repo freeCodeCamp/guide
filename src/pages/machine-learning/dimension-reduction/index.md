@@ -22,6 +22,9 @@ Dealing with a lot of dimensions can be painful for machine learning algorithms.
 - [Auto Encoders] (https://medium.com/towards-data-science/reducing-dimensionality-from-dimensionality-reduction-techniques-f658aec24dfe)
 - Linear discriminant analysis (LDA)
 - Generalized discriminant analysis (GDA)
+- autoencoders
+
+
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
