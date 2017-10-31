@@ -11,8 +11,8 @@ title: CSS Images
 
 * **src:** It consists the value of the path to the required image</li>
 * **alt:** If the image is not displayed then an alternate text can be displayed using alt attribute.</li>
-* **width:** This specifies a width for the image</li>
-* **height:** This specifies a height for the image</li>
+* **width:** This specifies a width for the image(can be percent or px or auto)</li>
+* **height:** This specifies a height for the image(can be percent or px or auto)</li>
 
 
 #### More Information:
