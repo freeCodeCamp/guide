@@ -35,7 +35,7 @@ So how long would it take to do the linear search operation?
 In the best case, you could get lucky and the item you are looking at maybe at the first position in the array!
 But in the worst case, you would have to look at each and every item before you find the item at the last place or before you realize that the item is not in the array.
 
-The complexity therefore of the linear search is: O(n).
+The complexity therefore of the linear search is: <b>O(n)</b>.
 
 The code for a linear search function in JavaScript is shown below. This function returns the position of the item we are looking for in the array. If the item is not present in the array, the function would return null.
 
