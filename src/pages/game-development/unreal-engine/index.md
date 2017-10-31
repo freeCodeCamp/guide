@@ -23,6 +23,13 @@ Unreal has gone through 4 major revisions. Although some code is common between 
   * Unreal Engine 4
   Released in 2015 and targets PC, PlayStation 4, Xbox One, Mac OS X, iOS, Android, many VR systems, Linux, SteamOS, and HTML5, and the editor can run on Windows, OS X and Linux. Unreal Script has been removed and replaced with dynamically reloaded C++ modules, and a more advanced visual scripting interface called Blueprints.
 
+## Unreal Script
+UnrealScript (often abbreviated to UScript) is Unreal Engine's native scripting language used for authoring game code and gameplay events before the release of Unreal Engine 4. The language was designed for simple, high-level game programming.The UnrealScript interpreter was programmed by Tim Sweeney, who also created an earlier game scripting language, ZZT-oop.
+
+Similar to Java, UnrealScript is object-oriented without multiple inheritance (classes all inherit from a common Object class), and classes are defined in individual files named for the class they define. Unlike Java, UnrealScript does not have object wrappers for primitive types. Interfaces are only supported in Unreal Engine generation 3 and a few Unreal Engine 2 games. UnrealScript supports operator overloading, but not method overloading, except for optional parameters.
+
+In March 2014, Epic announced that the Unreal Engine 4 would no longer be supporting UnrealScript, but instead support game scripting in C++. Visual scripting would be supported by the Blueprints Visual Scripting system, a replacement for the earlier Kismet visual scripting system.
+
 #### More Information:
 
 <a href='https://www.unrealengine.com/' target='_blank' rel='nofollow'>www.UnrealEngine.com</a>  
