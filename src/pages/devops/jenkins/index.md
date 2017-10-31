@@ -1,7 +1,7 @@
 ---
 title: Jenkins
 ---
-## Docker
+## Jenkins
 
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/devops/jenkins/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
