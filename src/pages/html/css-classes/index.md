@@ -17,7 +17,7 @@ When you're writing HTML you can add a class to an element like so:
 
 ```
 
-Then  in our CSS file we should add the special attributes to the class.  
+Then  in our CSS file we should add the special attributes to the class.  Make sure to use a period (.) when talking about classes.
 ```css
 .superMan {
 color: red;
@@ -28,7 +28,7 @@ background-color: blue;
  
 
 Notice that classes have the prefix of a period (.) in CSS.
-
+The other way to change details in HTML is by using ids, in which you use a (#) instead of a (.).
 You can see the result of the above code <a href='https://codepen.io/Tlandis/pen/RLvomV' target='_blank' rel='nofollow'>here</a>.
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
