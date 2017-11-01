@@ -6,7 +6,7 @@ title: Swift
 
 # What is Swift?
 
-Swift is an [open source](https://en.wikipedia.org/wiki/Open-source_software), general-purpose programming language developed by Apple Inc. They describe it as :
+Swift is an [open source](https://en.wikipedia.org/wiki/Open-source_software), general-purpose programming language developed by Apple Inc. They describe it as:
 
 > Swift is a powerful and intuitive programming language for macOS, iOS, watchOS and tvOS. Writing Swift code is interactive and fun, the syntax is concise yet expressive, and Swift includes modern features developers love. Swift code is safe by design, yet also produces software that runs lightning-fast.<sup>1</sup>
 
@@ -26,7 +26,7 @@ project or application, no matter how small!
 
 * [Developing iOS Apps (Swift)](https://developer.apple.com/library/content/referencelibrary/GettingStarted/DevelopiOSAppsSwift/): Want to make iOS Apps? This is a great place to start.
 
-* [Language Guide](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/) : Has an overview of just about every feature in Swift. If you get confused when reading someone else's code, this document can help you.
+* [Language Guide](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/): Has an overview of just about every feature in Swift. If you get confused when reading someone else's code, this document can help you.
 
 # Want to learn more?
 
@@ -34,5 +34,5 @@ project or application, no matter how small!
 
 ### Sources
 
-1. "Swift 4 - The powerful programming language that is also easy to learn." Apple, [developer.apple.com/swift/](developer.apple.com/swift), Accessed 31 Oct. 2017.
+1. "Swift 4 - The powerful programming language that is also easy to learn." Apple, [developer.apple.com/swift](https://developer.apple.com/swift/), Accessed 31 Oct. 2017.
 
