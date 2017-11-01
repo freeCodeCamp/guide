@@ -68,6 +68,7 @@
 .link {
   text-decoration: none;
   color: #fff;
+  cursor: pointer;
 }
 
 .navBar {
@@ -120,12 +121,16 @@
   color: #006400;
   background: #fff;
   border-color: #006400;
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0.2s;
 }
 
 .button:hover {
   color: #fff;
   background: #006400;
   border-color: #fff;
+  cursor: pointer;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
 }
 
 /* NoSupport */
