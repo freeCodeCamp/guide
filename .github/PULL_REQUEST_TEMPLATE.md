@@ -13,4 +13,4 @@ Replace this sentence with a brief description of the awesome changes your PR ha
   - For example, if you create a **Variables** article inside the **Python** directory, the pull request title should be **Python: add Variables article**.
   - Other examples are **Git: edit Git Commit article** or **PHP: create PHP section and add Data Structures article**
 - [] Reviewed necessary formatting guidelines in [`CONTRIBUTING.md`](https://github.com/freeCodeCamp/guides/.github/CONTRIBUTING.md).
-- [] No plagiarized content or content that has been directly copied from another source.
+- [] No plagiarized, duplicate or repetitive  content that has been directly copied from another source.
