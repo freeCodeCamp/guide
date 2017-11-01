@@ -6,32 +6,49 @@ With your help, we can create a comprehensive reference tool that will help mill
 
 <!-- TOC -->
 
-- [Steps](#steps)
-- [Creating a PR](#creating-a-pr)
-  - [Using GitHub.com](#using-githubcom)
-  - [Cloning Locally](#cloning-locally)
-- [Article Style Guide](#article-style-guide)
-  - [Title](#title)
-  - [Modularity](#modularity)
-  - [Code Blocks](#code-blocks)
-  - [Links](#links)
-  - [Images](#images)
-  - [Attributions](#attributions)
-  - [Resources](#resources)
-  - [Formatting](#formatting)
-- [Technical Writing](#technical-writing)
-  - [Outline](#outline)
-  - [Intro](#intro)
-  - [Content](#content)
-  - [Clarity](#clarity)
-  - [Voice](#voice)
-    - [Passive](#passive)
-    - [Active](#active)
-  - [Point of View](#point-of-view)
-  - [Abbreviations](#abbreviations)
-  - [Proper nouns](#proper-nouns)
-  - [Third-Party Tools](#third-party-tools)
-- [Getting Help](#getting-help)
+- [Contributing](#contributing)
+  - [Steps](#steps)
+  - [Creating a PR](#creating-a-pr)
+    - [Using GitHub.com](#using-githubcom)
+    - [Cloning Locally](#cloning-locally)
+    - [Running Locally](#running-locally)
+  - [Getting PR Accepted](#getting-pr-accepted)
+    - [Labels](#labels)
+    - [Conflicting/Duplicate Content](#conflictingduplicate-content)
+    - [Requesting Changes](#requesting-changes)
+    - [Travis CI Build](#travis-ci-build)
+    - [Closing](#closing)
+    - [Getting Help](#getting-help)
+  - [Article Style Guide](#article-style-guide)
+    - [Title](#title)
+    - [Modularity](#modularity)
+    - [Code Blocks](#code-blocks)
+    - [Links](#links)
+    - [Images](#images)
+    - [Attributions](#attributions)
+    - [Resources](#resources)
+    - [Formatting](#formatting)
+  - [Technical Writing](#technical-writing)
+    - [Outline](#outline)
+    - [Intro](#intro)
+    - [Content](#content)
+    - [Clarity](#clarity)
+    - [Voice](#voice)
+      - [Passive](#passive)
+      - [Active](#active)
+    - [Point of View](#point-of-view)
+    - [Abbreviations](#abbreviations)
+    - [Proper nouns](#proper-nouns)
+    - [Third-Party Tools](#third-party-tools)
+- [Reviewing PRs](#reviewing-prs)
+  - [Squash and Merge](#squash-and-merge)
+  - [Filtering PRs](#filtering-prs)
+  - [Templates](#templates)
+    - [Build Error](#build-error)
+    - [Syncing Fork](#syncing-fork)
+    - [Merge Conflicts](#merge-conflicts)
+    - [Duplicate](#duplicate)
+    - [Closing](#closing)
 
 <!-- /TOC -->
 
@@ -94,6 +111,112 @@ Make sure to maintain your local fork going forward so it stays up-to-date with 
 The next time you want to contribute, checkout your local `master` branch and run the command `git pull --rebase upstream master` before creating a new branch.
 
 This will grab all the changes on the official `master` branch without making an additional commit in your local repository.
+
+### Running Locally
+
+```bash
+# make sure to have yarn installed
+npm install -g yarn
+
+# fork repo
+
+# clone down your repo
+git clone https://github.com/YOUR-GITHUB-USERNAME/guides.git
+
+# navigate to root folder
+cd guides
+
+# install dependencies
+yarn install
+
+# run locally
+yarn run dev
+```
+
+In this project, we are using `yarn` because `netlify` builds our site with `yarn`.
+
+## Getting PR Accepted
+
+Here are a few guidelines the reviewers follow when reviewing PRs:
+
+- there is a relevant description and title
+- PR respects the [Article style guide](./README.md/#article-style-guide)
+- we follow general QA tips found in [Moderator guidelines](https://forum.freecodecamp.org/t/freecodecamp-moderator-guidelines/18295)
+- as long as a pull request improves or expands the guide, we accept it even if it contains imperfect English or partial content
+- older pull requests are reviewed first
+
+### Labels
+
+- **content** is for pull requests that modify the content of articles on the guide (they add a new article or update an existing article)
+- **duplicate** is for pull requests that have the same content as another open PR
+- **changes requested** is for pull requests that need a change before getting merged
+- **stale** is for pull requests with _"changes requested"_ label that doesn't get activity after about 2 weeks and will subsequently be closed.
+  - A _stale_ pull request should be closed.
+  - Here is [an example](https://github.com/freeCodeCamp/guides/pull/235).
+
+### Conflicting/Duplicate Content
+
+A PR is considered a **duplicate** if it makes changes to the same article as another PR.
+
+In general, a reviewer will:
+
+1. Sort PR from the oldest
+2. Search for PRs with similar content
+3. Merge from the oldest to the newest
+
+It is very likely there will be merge conflicts with duplicate PRs.
+
+Reviewers will make every effort to resolve these conflicts and merge duplicate PRs.
+
+### Requesting Changes
+
+If a pull request is not perfect, the reviewer may:
+
+- request changes to the contributor and add the *changes requested* label
+- fix minor issues and make a commit on top of the PR
+
+### Travis CI Build
+
+All PRs must pass the Travis CI checks before we can merge it.
+
+If a PR breaks the build (a Travis CI check fails and shows a red "X") there are two likely sources.
+
+You will need to fix the issue before we can merge your PR:
+
+1. Your PR creates a new article and it's missing an `index.md` file somewhere.
+    - Every folder in `src/pages` needs an `index.md` file in it (and the name has to be `index.md`).
+    - Two likely scenarios are
+      - you named the new article file something other than `index.md`, or
+      - you created both a new folder, then a sub-folder, you wrote the new article in the sub-folder but forget to put a stub `index.md` file in the new folder
+2. The article doesn't have a `title` field at the top.
+    - Please refer to [Title](#title) section below under [Article Style Guide](#article-style-guide).
+
+### Closing
+
+We close a pull request
+
+- if an older PR for the same article is merged, and your PR doesn't add new content
+- if there is zero/little effort in it (e.g: copy pasting from another source like Wikipedia)
+- if there is copied text from a copyrighted source - see [Citation issue](https://github.com/freeCodeCamp/guides/issues/2503)
+- if it does not respect the [Article Style Guide](#article-style-guide)
+- if it does not respect the [Academic Honesty policy](https://www.freecodecamp.org/academic-honesty)
+- if it is stale (if a change is requested and there is no activity for about 2 weeks)
+
+Also, if you're working off a "stub" article, your changes must be substantial enough to replace the stub text.
+
+We won't accept a PR that only adds links to the "More Information:" section.
+
+The repository has a `Normalise.js` script that adds attributes to links, but also checks for "This is a stub..." text via a RegEx.
+
+If found, it will revert the article text back to the generic stub text (and erase your changes).
+
+This is intended behavior, since it allows us to update all stubs if the template stub changed for any reason.
+
+### Getting Help
+
+There's a community of support from a whole team of contributors, whom you can bounce ideas off of and ask for input on your writing.
+
+Stay active in the [contributors chat room](https://gitter.im/freecodecamp/contributors) and ask lots of questions.
 
 ## Article Style Guide
 
@@ -370,8 +493,130 @@ You should aim for a grade level of 6.
 
 Another tool available is the [De-Jargonizer](http://scienceandpublic.com/), originally designed for scientific communication but might help avoid overspecialized wording.
 
-## Getting Help
+---
 
-There's a community of support from a whole team of contributors, whom you can bounce ideas off of and ask for input on your writing.
+# Reviewing PRs
 
-Stay active in the [contributors chat room](https://gitter.im/freecodecamp/contributors) and ask lots of questions.
+> This section is targeted at reviewers of this repo.
+
+## Squash and Merge
+
+We use the <kcd>Squash and merge</kcd> option when merging the PR which keeps the commit history clean.
+
+![GIF - Squash and merge](https://files.gitter.im/FreeCodeCamp/Contributors/56MQ/9cb8db153d7bb1b3576cd1ffc207e39d.gif)
+
+## Filtering PRs
+
+> PR, Open, Oldest First, Travis CI Build successful, no one assigned, no comments
+
+[`is:pr is:open sort:updated-asc status:success no:assignee comments:0`](https://github.com/freeCodeCamp/guides/pulls?utf8=%E2%9C%93&q=is%3Apr%20is%3Aopen%20sort%3Aupdated-asc%20status%3Asuccess%20no%3Aassignee%20comments%3A0)
+
+> PR, Open, Oldest First, Does not have labels: `platform`, `enhancement`, `invalid` or `changes requested`
+
+[`is:pr is:open sort:updated-asc -label:platform -label:enhancement -label:invalid -label:"changes requested"`](https://github.com/freeCodeCamp/guides/pulls?utf8=%E2%9C%93&q=is%3Apr%20is%3Aopen%20sort%3Aupdated-asc%20-label%3Aplatform%20-label%3Aenhancement%20-label%3Ainvalid%20-label%3A%22changes%20requested%22).
+
+## Templates
+
+> You can make your own with GitHub's built in [**Saved replies**](https://github.com/settings/replies/) feature or use the ones below.
+
+### Build Error
+
+```markdown
+Hey @username
+
+So I'd love to be able to merge your changes but it looks like there is an error with the Travis CI build. ⚠️
+
+Once you resolve these issues, I will be able to review your PR and merge it. 😊
+
+---
+
+> Feel free to reference the [Article Style Guide](https://github.com/freeCodeCamp/guides#article-title) for this repo on formatting an article correctly so your Travis CI build passes. ✅
+>
+> Also, it's good practice on GitHub to write a brief description of your changes when creating a PR. 📝
+```
+
+### Syncing Fork
+
+> When PR is not up to date with `master` branch.
+
+``````markdown
+Hey @username
+
+So I'd love to be able to merge your changes but it looks like there is an error with the Travis CI build. ⚠️
+
+```bash
+Error: ENOTDIR: not a directory, open 'src/pages/java/data-abstraction/index.md'
+```
+
+This particular error was not actually caused by your file but was an old error caused by merging faulty code to the `master` branch. It has since been resolved.
+
+To pass the build, you will have to sync the latest changes from the `master` branch of the `freeCodeCamp/guides` repo.
+
+Using the command line, you can do this in three easy steps:
+
+```bash
+git remote add upstream git://github.com/freeCodeCamp/guides.git
+
+git fetch upstream
+
+git pull upstream master
+```
+
+If you're using a GUI, you can simply `Add a new remote...` and use the link `git://github.com/freeCodeCamp/guides.git` from above.
+
+Once you sync your fork and pass the build, I will be able to review your PR and merge it. 😊
+
+---
+
+> Feel free to reference the [Syncing a Fork](https://help.github.com/articles/syncing-a-fork/) article on GitHub for more insight on how to keep your fork up-to-date with the upstream repository. 🔄
+>
+> Also, it's good practice on GitHub to write a brief description of your changes when creating a PR. 📝
+``````
+
+### Merge Conflicts
+
+> When PR has merge conflicts that need to be resolved.
+
+```markdown
+Hey @username
+
+So I'd love to be able to merge your changes but it looks like you have some merge conflicts. ⚠️
+
+Once you resolve these conflicts, I will be able to review your PR and merge it. 😊
+
+---
+
+> If you're not familiar with the merge conflict process, feel free to look over GitHub's guide on ["Resolving a merge conflict"](https://help.github.com/articles/resolving-a-merge-conflict-on-github/). 🔍️
+>
+> Also, it's good practice on GitHub to write a brief description of your changes when creating a PR. 📝
+```
+
+### Duplicate
+
+> When PR is repetitive or a duplicate.
+
+```markdown
+Hey @username
+
+It seems that similar changes have already been accepted earlier for this article you're editing, sorry about that. 😓
+
+If you feel you have more to add, please feel free to open up a new PR.
+
+Thanks again! 😊
+
+---
+
+> If you have any questions, feel free to reach out through [Gitter](https://gitter.im/FreeCodeCamp/Contributors) or by commenting below. 💬
+```
+
+### Closing
+
+> When PR is invalid.
+
+```markdown
+Hey @username
+
+You haven't actually added any content so I will be closing this PR and marking it as `invalid`. 😓️
+
+Feel free to open another PR though! 👍
+```
