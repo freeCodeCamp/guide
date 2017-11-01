@@ -3,13 +3,22 @@ title: Tagging in Git
 ---
 ## Tagging in Git
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/git/tagging-in-git/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `git tag TAG-NAME` command will create a tag at the current commit.  A tag is a simple way to bookmark a commit and is often used to mark releases.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The command syntax is as follows:
+```shell
+git tag TAG-NAME
+```
+For example, if you have just released a new version of your project and would like to tag the release commit so that you can easily find it later, you would issue the following command:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```shell
+git tag release
+```
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+To see what tags you have in your repository, you would issue the following command (not that there are no arguments to it):
 
+```shell
+git tag
+```
 
+For more information about the `git tag` command and all available options, please refer to the <a href="https://git-scm.com/docs/git-tag" target="_blank" rel="nofollow">Git documentation</a>.
