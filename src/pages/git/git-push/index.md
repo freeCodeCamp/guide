@@ -45,6 +45,6 @@ in which:
 
 #### More Information:
   
- +[Git docs - git-push](https://git-scm.com/docs/git-push)
+ + [Git docs - git-push](https://git-scm.com/docs/git-push)
   
- +[GitHub - Pushing to a Remote](https://help.github.com/articles/pushing-to-a-remote/)
+ + [GitHub - Pushing to a Remote](https://help.github.com/articles/pushing-to-a-remote/)
