@@ -2,14 +2,9 @@
 title: Wireshark
 ---
 ## Wireshark
-
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/security/wireshark/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+Wireshark, a network analysis tool formerly known as Ethereal, captures packets in real time and display them in human-readable format. Wireshark includes filters, color coding, and other features that let you dig deep into network traffic and inspect individual packets.
 
 
+
+#### Resources:
+<a href ='https://en.wikipedia.org/wiki/Wireshark' target ='_blank' rel ='nofollow'>Wireshark</a>
