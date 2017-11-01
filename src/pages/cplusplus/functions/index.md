@@ -1,4 +1,9 @@
-# Functions
+
+---
+title: Introduction to C++ functions
+---
+
+## Introduction to C++ functions
 
 Functions let you encapsulate a reusable set of execution steps that can be called from elsewhere in your program. Functions may be passed inputs and may return results. The inputs to functions are called *arguments*, and the result returned, if any, is called the *return value*.
 
