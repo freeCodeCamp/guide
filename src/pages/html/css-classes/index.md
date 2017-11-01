@@ -33,4 +33,8 @@ You can see the result of the above code <a href='https://codepen.io/Tlandis/pen
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+The .class selector selects elements with a specific class attribute. 
+example:
+.class {
+    css declarations;
+}
