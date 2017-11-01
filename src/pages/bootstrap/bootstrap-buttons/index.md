@@ -63,7 +63,7 @@ This is a list of the CSS classes for different size of the buttons.
 
 <button type="button" class="btn btn-xs">Extra Small</button>
 
-_Note: Do not include the dot in the HTML Class Attribute, referring to the classes with a dot is only used when adjusting the classes in CSS._
+_Note: Do not include the dot in the HTML Class Attribute, referring to the classes with a dot is only used when adjusting the classes in CSS. See the Code Example above._
 
 #### More Information: 
 * <a href='https://getbootstrap.com/docs/4.0/components/buttons/' target='_blank' rel='nofollow'>Bootstrap Buttons documentation</a>
