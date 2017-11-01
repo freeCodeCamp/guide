@@ -3,13 +3,37 @@ title: Area of a Parallelogram
 ---
 ## Area of a Parallelogram
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/area-of-a-parallelogram/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+A parallelogram is a four-sided flat shape with two pairs of parallel sides, where the opposite sides of a parallelogram are both equal to each other.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+## Formula
+To find the area of a parallelogram, we multiply the base by the height
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+**A = B * H**
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+*Where A is the area, B is the base and H is the height*
 
+### Examples
+
+Example 1: Find the area of a parallelogram with a base of 12 centimeters and a height of 5 centimeters.
+
+Solution:
+
+A = B * H
+
+A = (12 cm) · (5 cm)
+
+A = 60 cm2
+
+Example 2: Find the area of a parallelogram with a base of 7 inches and a height of 10 inches.
+
+Solution:
+
+A = B * H
+
+A = (7 in) · (10 in)
+
+A = 70 in2
+
+#### More Information
+More information with illustrations can be found [here](https://www.mathgoodies.com/lessons/vol1/area_parallelogram) and [here](https://www.khanacademy.org/math/basic-geo/basic-geo-area-and-perimeter/parallelogram-area/a/area-of-parallelogram)
 
