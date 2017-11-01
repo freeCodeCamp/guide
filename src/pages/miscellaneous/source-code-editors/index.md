@@ -48,15 +48,14 @@ be overwhelming to new users. There is also plenty of <a href='http://readwrite.
 <a href='http://stackoverflow.com/search?q=atom' target='_blank' rel='nofollow'>availble</a> online.
 
 
-## <a href='https://code.visualstudio.com/' target='_blank' rel='nofollow'>Visual Studio Code</a>
-![Visual Studio Code Icon](https://en.wikipedia.org/wiki/Visual_Studio_Code#/media/File:Visual_Studio_Code_icon_2017.svg)
+## <a href='https://code.visualstudio.com/' target='_blank' rel='nofollow'>Visual Studio Code</a> ![Visual Studio Code Icon](https://code.visualstudio.com/images/2017_10_24_orangeprerelease.png)
 
 ![Visual Studio Code Screenshot](https://code.visualstudio.com/home/home-screenshot-mac-lg.png)
 
 Visual Studio Code is a source code editor developed by Microsoft in 2015, and is now one of the most known code editors for web development. 
 It supports many programming languages, and like the others you can download plugins or extensions to make it more configurable for your coding style.
 Its main features are:
-    * IntelliSense - For syntax highlighting, autocomplete, functions definitions and smart complete.
-    * Debugging - Be able to debug using break points, call stacks and an interactive console.
-    * Build-in Git - Review diffs, stage files, make commits, push and pull, all available in the editor.
-    * Extensions - Install extensions to add new languages, themes, debuggers, and connect additional services.
+*   IntelliSense - For syntax highlighting, autocomplete, functions definitions and smart complete.
+*   Debugging - Be able to debug using break points, call stacks and an interactive console.
+*   Build-in Git - Review diffs, stage files, make commits, push and pull, all available in the editor.
+*   Extensions - Install extensions to add new languages, themes, debuggers, and connect additional services.
