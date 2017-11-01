@@ -48,6 +48,47 @@ C makes pick the data type, and makes us be very specific and intentional about 
 
 In general, you should pick the minimum for your task. If you know you'll be counting from 1 to 10, you don't need a long and you don't need a double. If you know that you will never have negative values, look into using the `unsigned` variants of the data types. By providing this functionality rather than doing it automatically, C is able to produce very light and efficient code. However, it's up to you as the programmer to understand the abilities and limitations, and choose accordingly.
 
+We can use the sizeof() operator to check the size of a variable. See the following C program for the usage of the various data types:
+
+#include <stdio.h>
+
+int main()
+
+{
+    int a = 1;
+    
+    char b ='G';
+    
+    double c = 3.14;
+    
+    printf("Hello World!\n");
+ 
+    //printing the variables defined above along with their sizes
+    printf("Hello! I am a character. My value is %c and "
+           "my size is %lu byte.\n", b,sizeof(char));
+    //can use sizeof(b) above as well
+ 
+    printf("Hello! I am an integer. My value is %d and "
+           "my size is %lu  bytes.\n", a,sizeof(int));
+    //can use sizeof(a) above as well
+ 
+    printf("Hello! I am a double floating point variable."
+           " My value is %lf and my size is %lu bytes.\n",c,sizeof(double));
+    //can use sizeof(c) above as well
+ 
+    printf("Bye! See you soon. :)\n");
+     return 0;
+}
+    
+## Output:
+
+Hello World!
+Hello! I am a character. My value is G and my size is 1 byte.
+Hello! I am an integer. My value is 1 and my size is 4  bytes.
+Hello! I am a double floating point variable. My value is 3.140000 and my size i
+s 8 bytes.
+Bye! See you soon. :)
+
 # Before you go on...
 ## A review
 * The actual abilities of C data types depend on the hardware. As a result, minimum sizes are defined for the data types.
