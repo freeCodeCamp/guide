@@ -11,11 +11,11 @@ You can achieve visual hierarchy in many ways, including (but not limited to):
 * Color and contrast
 * Headings and subheadings
 * Fonts
-* White or blank space
+* Negative space
 * Texture
 * Position
 * Orientation
-* Overall layout
+* Overall theme/aesthetic
 
 #### More Information:
 
