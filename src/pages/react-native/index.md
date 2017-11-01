@@ -10,6 +10,7 @@ React Native is a cross-platform tool for building JavaScript applications that 
 **Table of Contents**
 - [What is React Native?](#what-is-react-native)
 - [Reasons to choose React Native](#reasons-to-choose-react-native)
+- [How to Get Started with React Native](#how-to-get-started-with-react-native)
 
 ### What is React Native
 
@@ -26,3 +27,12 @@ It follows the same pattern as React where the views (what you see on the screen
 1. Corporate backing — Lot’s of companies support and contribute to React Native including Walmart, Airbnb, Wix, and, of course, Facebook.
 1. Community — React Native has a large (and growing) community with over 1500 contributors to the core project and thousands more who contribute to various libraries.
 1. Better user experience — React Native uses the JavaScript code to render native components from your phone's OS. In other words, the application's user interface (UI) is entirely native!
+
+### How to Get Started with React Native
+
+There are two quick easy ways to get started with React Native. Depending on your situation, one can be a better option for you. 
+
+1. Create React Native App 
+⋅⋅⋅Similar to Create React App it get up in running using the terminal.
+1. EXPO 
+⋅⋅⋅Best for Hackathons, you can create an quick app using drag and drop features from snack.expo.io in the broswer. 
