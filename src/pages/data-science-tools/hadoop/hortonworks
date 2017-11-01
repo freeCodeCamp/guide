@@ -1,0 +1,13 @@
+### Hortonworks Distributed Platform (HDP)
+
+HDP is an open source Hadoop distribution. Hortonworks releases all HDP General Availability (GA) source code on GitHub. They believe in a 100% open approach for everything in their distribution. Any bugs or fixes created in the HDP distribution is introduced to the Apache Hadoop community as a whole.
+
+### Key HDP Components
+
+HDP uses Apache Ambari as its web front end to manage the HDP cluster. This allows administrators to start, stop, install services from the web interface rather than envoking scripts through command line.
+
+HDP also includes Apache Ranger for user authorization and Apache NiFi (Hortonworks DataFlow), an end-to-end platform that collects, curates, analyzes and acts on data in real-time, on-premises or in the cloud, with a drag-and-drop visual interface.
+
+For more information:
+<a href="http://docs.hortonworks.com">Hortonworks Documentation</a>
+<a href="https://hortonworks.com/products/sandbox/">Download Apache Hadoop Sandbox</a>
