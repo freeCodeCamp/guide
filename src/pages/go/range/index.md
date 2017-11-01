@@ -1,8 +1,8 @@
 ---
-title: Iteration - Range
+title: Range
 ---
+## Range
 
-# Range
 To iterate over a collection in Go, we can use the range.
 
 Range differs from for-loops as the item in a collection is not accessed by an index. If you want to access a specifc element in a collection,
