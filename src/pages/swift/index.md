@@ -1,4 +1,3 @@
-
 ---
 title: Swift
 ---
@@ -31,9 +30,9 @@ project or application, no matter how small!
 
 # Want to learn more?
 
-* [Ray Wenderlich](https://www.raywenderlich.com/) : Has many great tutorials for Swift and iOS development.
+* [RayWenderlich.com](https://www.raywenderlich.com/) : Has many great tutorials for Swift and iOS development.
 
 ### Sources
 
-1. "Swift 4 - The powerful programming language that is also easy to learn." Apple, developer.apple.com/swift/, Accessed 31 Oct. 2017.
+1. "Swift 4 - The powerful programming language that is also easy to learn." Apple, [developer.apple.com/swift/](developer.apple.com/swift), Accessed 31 Oct. 2017.
 
