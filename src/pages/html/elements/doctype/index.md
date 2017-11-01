@@ -3,13 +3,22 @@ title: Doctype
 ---
 ## Doctype
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/doctype/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Letting the browser know what type of document it is looking at is important! This can be done with the DOCTYPE element, and helps comply with standards across HTML. This element goes right at the top of the code, and does not require a closing tag.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Example:
+```html
+<!DOCTYPE html>
+<html>
+  <body>
+  
+  </body>
+</html>
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+
+You may encounter old standards for DOCTYPE in old code.
+
+For reference of these standards you can view: <a href="https://html.com/tags/doctype/" target="_blank">!DOCTYPE HTML tag</a>
 
 
