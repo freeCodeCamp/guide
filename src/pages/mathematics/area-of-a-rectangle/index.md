@@ -9,6 +9,8 @@ For example, if you have a rectangle that is 2cm by 4cm, then you can work out t
 
 2cm x 4cm = 8cm²
 
+Formula:
+Area of a Rectangle = l * h
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 <!-- #### More Information: -->
