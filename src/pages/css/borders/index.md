@@ -29,12 +29,13 @@ The various values are:
 - 'dashed' - Sets a dashed border.
 - 'solid' - Sets a solid border.
 - 'double' - Sets a double border.
-- 'groove' - Sets a 3D grooved border. 
+- 'groove' - Sets a 3D grooved border.
 - 'ridge' - Sets a 3D ridged border. 
 - 'inset' - Sets a 3D inset border. 
 - 'outset' - Sets a 3D outset border.
 - 'none' - Sets no border.
 - 'hidden' - Sets a hidden border.
+The effect of "groove,ridge,inset,outset" border depends on border-color value.
 
 Based on the property you choose, these styles can be mismatched.
 ```css
