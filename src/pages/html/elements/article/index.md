@@ -3,13 +3,28 @@ title: Article
 ---
 ## Article
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/article/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The &lt;article&gt; tag specifies independent, self-contained content.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+An article should be able to make sense on its own and be possible to distribute it independenyl from the rest of the site.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Potential sources for the &lt;article&gt; element:
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+<ul>
+  <li>Forums</li>
+  <li>Blogs</li>
+  <li>News storys</li>
+  <li>Comments</li>
+</ul>
+
+The &lt;article&gt; tag also supports the <a href='https://www.w3schools.com/tags/ref_standardattributes.asp' target='_blank' rel='nofollow'>Global Attributes</a> and <a href='https://www.w3schools.com/tags/ref_eventattributes.asp' target='_blank' rel='nofollow'>Event Attributes</a> in HTML.
+ 
+```html
+<article>
+  <h1>HTML</h1>
+  <p>HTML stands for Hypertext Markup Language with the latest edition being release in November 1, 2016 .</p>
+</article>
+  ```
+  
+
 
 
