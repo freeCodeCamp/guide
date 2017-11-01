@@ -28,8 +28,9 @@ If you can't find a stub about the topic you'd like to write about, you can open
 Before you begin writing, make sure to read the [article style guide](#article-style-guide) below.
 
 ## How to contribute
-You can create a PR (Pull Request) with your draft article (or edits on an existing article) in two ways:
+You can create a PR (Pull Request) with your draft article (or edits on an existing article) in two ways. When opening a pull request, please make sure to include any edited article titles in the commit message. This allows other contributors to more easily determine if an article is being worked on.
 
+**Pull Request methods:**
 1) The easiest method is to use the GitHub interface. Watch the video demonstration or follow the steps below it:
 
 ![Gif showing the GitHub interface steps](https://i.imgur.com/0cmxJwN.gif)
