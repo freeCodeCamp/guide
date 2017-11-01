@@ -32,5 +32,6 @@ This is where CSS Frameworks such as [Bootstrap](http://getbootstrap.com/) and [
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
-[W3 Schools - Layouts](https://www.w3schools.com/html/html_layout.asp)
-[Layout Techniques to Create a Site](https://www.codementor.io/codementorteam/4-different-html-css-layout-techniques-to-create-a-site-85i9t1x34)
+<a href="https://www.w3schools.com/html/html_layout.asp">W3 Schools - Layouts</a>
+
+<a href="https://www.codementor.io/codementorteam/4-different-html-css-layout-techniques-to-create-a-site-85i9t1x34">Layout Techniques to Create a Site</a>
