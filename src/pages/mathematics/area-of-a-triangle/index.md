@@ -1,6 +1,11 @@
 ---
 title: Area of a Triangle
 ---
+Area of a Triangle is half times the base*height
+It is 1/2(base*height)
+
+A triangle is half as big as of the rectangle which surrounds it ,which is why it is half the times base times height. 
+
 ## Area of a Triangle
 
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/area-of-a-triangle/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
