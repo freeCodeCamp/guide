@@ -39,6 +39,6 @@ However, whenever you use the `new` keyword, it no longer performs this check. S
 Extras
 1. String methods use zero-based indexes, except for the second argument of substring().
 2. The String class is final- it's methods can't be overridden.
-3. When the String literal is found by JVM, it is addes to string literal pool.
-4. String class posses a method name length(),while arrays have an attribute naming length.
+3. When the String literal is found by JVM, it is added to string literal pool.
+4. String class contains a method name length(),while arrays have an attribute naming length.
 
