@@ -3,13 +3,14 @@ title: Clustering Algorithms
 ---
 ## Clustering Algorithms
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/machine-learning/clustering-algorithms/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Clustering algorithms are a form of machine learning used to classify data based upon intrinsic similarities. One of the particularly useful aspects of clustering algorithms is that they can be applied in unsupervised machine learning tasks. Any data that can be grouped by frequency, size, shape, or relation can be classified using a clustering algorithm. Common uses include genetic clustering, medical imaging, and social connection problem spaces.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Here is a list of common clustering alogirthims:
+- **k-means** - An algorithim for partitioning a feature space into cells and classify new data points based on their nearest neighbor in the feature space.
+- **graph-based models** - Edge connections within a graph can be used to separate data. Subsets of nodes that are connected by an edge can be used to define clustsers.
+- **self-organizing map** - A neural based approach to clustering that often incorporate principal component analysis through training. Neural models have a variety of forms for different data formats.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+[Cluster Analysis - Wikipedia](https://en.wikipedia.org/wiki/Cluster_analysis)
