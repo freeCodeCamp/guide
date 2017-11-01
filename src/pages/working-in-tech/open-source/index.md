@@ -9,3 +9,4 @@ Open source projects are legally made open through a creative license. They are 
 
 In short, the Open source softwares are of **lower cost**, **higher security** and **better quality** when compared to propreitary softwares.
 
+One of the biggest Open Source project is Linux.

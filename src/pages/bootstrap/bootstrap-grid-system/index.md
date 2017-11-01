@@ -147,7 +147,7 @@ The following code and image shows what is possible using different column width
 
 #### More Information:
 
-[Bootstrap Docs - Grid system](https://getbootstrap.com/docs/4.0/layout/grid/)
+<a href='https://getbootstrap.com/docs/4.0/layout/grid/' target='_blank' rel='nofollow'>Bootstrap Docs - Grid system</a>
 
 *This guide is based on Bootstrap v4 (it will work with v3 accept extra small screens are defined as `xs` and there is no `xl` size)*
 
