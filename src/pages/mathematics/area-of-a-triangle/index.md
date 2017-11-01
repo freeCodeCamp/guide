@@ -2,14 +2,14 @@
 title: Area of a Triangle
 ---
 ## Area of a Triangle
+The area of a triangle is defined as: 
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/area-of-a-triangle/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+**A = 1/2 x b x h**
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+where b and h represent the base and the height of the triangle, respectively
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Key intuition: A triangle is half as big as the rectangle that surrounds it, which is why the area of a triangle is one-half base times height.
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+[Khan Academy Area of Triangles](https://www.khanacademy.org/math/basic-geo/basic-geo-area-and-perimeter/area-triangle/a/area-of-triangle) 
