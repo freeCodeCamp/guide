@@ -30,7 +30,7 @@ A sample program :
 using namespace std :
 int main()
 {
-    cout<<"I Love freeCodeCamp ! ";
+    cout << "I Love freeCodeCamp ! ";
 }
 ```
 
@@ -42,7 +42,7 @@ So, let's debug the error :
 using namespace std ;
 int main()
 {
-    cout<<"I Love freeCodeCamp ! ";
+    cout << "I Love freeCodeCamp ! ";
     return 0;
 }
 
@@ -54,7 +54,7 @@ The output will be : `I Love freeCodeCamp !`
 ### Now , let's change the text to something else like this :
 
 ```cpp
-    cout<<"Hello World!\t I love freeCodeCamp!";
+    cout << "Hello World!\t I love freeCodeCamp!";
 ```
 
 The output will be something different this time :
@@ -79,7 +79,7 @@ Hello World!	 I love freeCodeCamp!
 ##### Now, let's try printing numbers and special characters with some escape sequences :
 
 ```cpp
-    cout<<"40158 \t 236708 ! \n \\ @ \?"<<endl;
+    cout << "40158 \t 236708 ! \n \\ @ \?" << endl;
 ```
 
 The output changes to :
@@ -91,8 +91,8 @@ The output changes to :
 ##### Let's try some other ways of printing
 
 ```cpp
-    cout<<"1+2"<<endl;
-    cout<<1+2<<endl;
+    cout << "1+2" << endl;
+    cout << 1+2 << endl;
 ```
 
 Output :
@@ -114,7 +114,7 @@ This is because we did not add the inverted commas for the second print statemen
 
  ```cpp
 
-     cout<<"Hello Comment"<<endl; //cout<<"Hello Comment"<<endl; , Single Line Comment.
+     cout << "Hello Comment" << endl; //cout<<"Hello Comment"<<endl; , Single Line Comment.
     /* This is an example of a multi line comment. No output is generated for this .
     I now end the comment.  :) */
  ```
