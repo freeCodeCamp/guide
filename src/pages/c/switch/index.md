@@ -1,8 +1,7 @@
 ---
 title: Switch Case
 ---
-
-# Switch Case
+## Switch Case
 
 The switch statement is like a set of `if statements`or simply it is a substitute for long if statements.
 It's a list of possibilities, with an action for each possibility. The condition of a switch statement is a value. The case says that if it has the value of whatever is after that case then do whatever follows the colon.The break is used to break out of the case statements. An optional default action, in case nothing else evaluates to true.
