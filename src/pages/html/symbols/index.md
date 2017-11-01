@@ -2,6 +2,13 @@
 title: Symbols
 ---
 ## Symbols
+Symbols can be added by using a HTML entity name.
+
+<b>Example</b><br>
+&lt;p&gt;I will display &amp;euro;&lt;/p&gt;<br>
+becomes<br>
+I will display &euro;<br>
+
 
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/symbols/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
