@@ -17,5 +17,5 @@ print(square(2))
 ### Lambda Expression
 ```python
 square = lambda num: num**2
-print(square(10))
+print(square(2))
 ```
