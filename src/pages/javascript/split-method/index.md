@@ -1,3 +1,6 @@
+---
+title: JavaScript
+---
 
 # Javascript(ES6) split() method
 
