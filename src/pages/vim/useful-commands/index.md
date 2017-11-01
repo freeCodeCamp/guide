@@ -8,13 +8,12 @@ title: Useful Commands
 
 ## Exiting Vi, Vim, Nvim, Gvim
 1. Press escape to get you into "normal" mode
-2. Type `:q`, press enter. If you receive an error try `:q!`
-(NOTE: The command `:q!` will force vim to exit without saving. Make sure you save first by typing the command `:w` if you do not want to lose any changes you've made.)
+2. To exit, type `:q` but if you made any changes in file Vim gives error code `E37` in this case:
+- To save and exit, type `:wq`
+- To ignore changes and exit, type `:q!`
 
 **OR**
 - Type ZZ (save and quit)
-- Close your terminal
-- Shut down your computer
 
 ## Bare minimum functionality
 Most likely you'll find yourself in "normal" mode, it allows you to enter commands by pressing the colon `:` key.
@@ -37,10 +36,13 @@ You are now in *paste* mode.
 You can then enter insert mode with `i` and paste the block of text/code without any issues!
 To return to regular Vim without paste mode you can enter normal mode (`escape` or `crtl + c`) and type `:set nopaste`, and press ENTER
 
-
 ## I Want to Learn Vim!
-Start by pressing `escape` to check if you're in normal mode, press colon `:`, type `Tutor`, and press `enter`.
+For total beginners, Vim comes with a built in tutorial! You can access it by running `vimtutor` from your terminal and this will launch an interactive tutorial on *how to get started with Vim* (takes around 15 minutes to work through).
+
+If you are not as confident in English, you can lanch `vimtutor` in your language of choice. For example `vimtutor fr` will launch the tutorial in french!
+
+Read the rest of our Vim Guides to get a better understanding of this powerful editor.
 
 ## Other Resources
-- [Vim Golf](https://vimgolf.com/) - A good way to learn from doing vim challenges to get the lowest amount of keystrokes. You can see solutions submitted by others if you can't figure the challenge out.
+- <a href='https://vimgolf.com/' target='_blank' rel='nofollow'>Vim Golf</a> - A good way to learn from doing vim challenges to get the lowest amount of keystrokes. You can see solutions submitted by others if you can't figure the challenge out.
 - Read the rest of our Vim Guides to get a better understanding of this powerful editor.

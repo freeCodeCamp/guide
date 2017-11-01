@@ -3,13 +3,12 @@ title: Vagrant
 ---
 ## Vagrant
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/developer-tools/vagrant/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Vagrant is a cross platform virtual machine software.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Developers use Vagrant to build a complete development environments.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Vagrant is composed of Provisioners, and Providers.
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+Provisioners install software, alter configurations.
 
-
+Providers enables Vagrant to manage machines.
