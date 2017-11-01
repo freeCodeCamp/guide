@@ -3,7 +3,7 @@ title: Vagrant
 ---
 ## Vagrant
 
-[Hashicorp](https://www.hashicorp.com/) created [Vagrant](https://www.vagrantup.com/) to prevent the "it works on my machine" development problem. Vagrant allows a development team to have a standard configuration across several different platforms (Virtualbox, Hyper-V, Docker -- called "providers") to be able to quickly and easily reproduce a standard environment.
+Vagrant is cross-platform virtual machine software. [Hashicorp](https://www.hashicorp.com/) created [Vagrant](https://www.vagrantup.com/) to prevent the "it works on my machine" development problem. Vagrant allows a development team to have a standard configuration across several different providers (Virtualbox, Hyper-V, Docker -- called "providers") to be able to quickly and easily reproduce a standard environment.
 
 Vagrant uses the concept of "boxes" to understand the development VM. A "Vagrantfile" contains standard configuration that will explain to Vagrant how to build the VM. Hashicorp provides a [catalog of public boxes](https://app.vagrantup.com/boxes/search) that you can use to get started. 
 
@@ -24,6 +24,3 @@ This whole process is explained in more depth on [Vagrant's website](https://www
 #### Vagrant Tips
 
 By default, if you are using a Linux Vagrant box, there will be a directory '/vagrant' that is shared with the directory you created earlier. For instance, if you created the directory 'my-vagrant-box', you should be able to add files to it and see them in your '/vagrant' folder when you SSH into your Vagrant box. 
-
-
-
