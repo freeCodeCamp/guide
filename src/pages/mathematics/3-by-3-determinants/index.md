@@ -3,13 +3,28 @@ title: 3 by 3 Determinants
 ---
 ## 3 by 3 Determinants
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/3-by-3-determinants/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+You can calculate a 3 by 3 Determinants like 2 by 2. You have to summarize the diagonals the way you see below.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+You have a matrix.  
+![matrix](http://www.purplemath.com/modules/matrices/determ15.gif)
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Step1. Extend it with the first two column after the third, like this:  
+![step1](http://www.purplemath.com/modules/matrices/determ10.gif)
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+Step2. Multiply all down-diagonals.  
+![step2](http://www.purplemath.com/modules/matrices/determ11.gif)
+
+Step3. Then multiply all up-diagonals.  
+![step3](http://www.purplemath.com/modules/matrices/determ12.gif)
+
+Step4. Substract all up-diagonals from down-diagonals.  
+![step4](http://www.purplemath.com/modules/matrices/determ13.gif)
+
+Step5. Simplify it.  
+![step5](http://www.purplemath.com/modules/matrices/determ14.gif)
+
+The determinant is `1`.
+
+[Source of the solution](http://www.purplemath.com/modules/determs2.htm)
 
 
