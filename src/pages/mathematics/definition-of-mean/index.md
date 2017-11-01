@@ -2,6 +2,7 @@
 title: Definition of Mean
 ---
 ## Definition of Mean
+The mean is the average of the numbers: a calculated "central" value of a set of numbers.
 
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/definition-of-mean/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
