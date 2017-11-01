@@ -3,13 +3,16 @@ title: Area of a Parallelogram
 ---
 ## Area of a Parallelogram
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/area-of-a-parallelogram/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The area of a parallelogram is defined as: 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+** A = b x h **
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+where b and h represent the base and height of the parallelogram, respectively 
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+Intuition: 
+Every parallelogram can be made into a rectangle, which is why we use the same formula to find the area of a parallelogram and a rectangle.
+
+#### Source & More Information:
+[Khan Academy: Area of a Parallelogram](https://www.khanacademy.org/math/basic-geo/basic-geo-area-and-perimeter/parallelogram-area/a/area-of-parallelogram)
 
 
