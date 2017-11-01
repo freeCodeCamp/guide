@@ -1,4 +1,3 @@
-
 ---
 title: Introduction to C++ functions
 ---
