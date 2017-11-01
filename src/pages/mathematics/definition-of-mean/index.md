@@ -1,3 +1,4 @@
+---
 title: Definition of Mean
 ---
 ## Definition of Mean
