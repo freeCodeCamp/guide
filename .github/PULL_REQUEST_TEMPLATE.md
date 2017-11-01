@@ -4,7 +4,13 @@ Replace this sentence with a brief description of the awesome changes your PR ha
 
 <!-- Thank you for contributing to the `guides` repo, it is much appreciated! 😊 -->
 
-<!-- Before creating a PR, please make sure to verify the following. -->
+<!--
+
+Before creating a PR, please make sure to verify the following by marking the checkboxes below as complete
+
+- [x] Like this!
+
+-->
 
 ## ✅️ By submitting this PR, I have verified the following
 
