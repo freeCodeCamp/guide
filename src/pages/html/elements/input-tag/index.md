@@ -3,13 +3,33 @@ title: Input Tag
 ---
 ## Input Tag
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/input-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The HTML &lt;input&gt; element is used to create interactive control for forms that reisde on the web in order to accept data from the user.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The tag are used within a &lt;form&gt; element to declare input controls to allow data from users to be inputted.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Depending on the type attributes given to the &lt;input&gt; tag, how it works varies considerably. 
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+Some of the avaiable types are as listed:
+
+<ul>
+  <li>button: a push button</li>
+  <li>checkbox: a check box allowing single values to be selected</li>
+  <li>email: a field for editing an e-mail address.</li>
+  <li> and many more ...</li>
+</ul>
+
+#### Example
+
+```html
+<form action="/action_page.php">
+  City: <input type="text" name="city"><br>
+  State: <input type="text" name="state"><br>
+  <input type="submit" value="Submit">
+</form>
+  ```
+#### Helpful Links:
+<ul>
+  <li><a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input' target='_blank' rel='nofollow'>MDN web docs</a></li>
+  <li><a href='https://www.w3schools.com/tags/tag_input.asp' target='_blank' rel='nofollow'>w3schools</a>
 
 
