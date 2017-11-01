@@ -18,7 +18,5 @@ Character | HTML entity(name) | HTML entity(number)
 &quot; double quote|\&quot;|\&#34;
 &apos; single quote|\&apos;|\&#39;
 
-
-
 #### More Information:
 <a href="https://www.w3schools.com/html/html_entities.asp" target="_blank" rel="nofollow">W3Schools HTML Entities</a>
