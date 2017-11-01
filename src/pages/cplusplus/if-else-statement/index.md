@@ -122,6 +122,8 @@ You entered a negative number : -200
 This step is always printed
 ```
 
+Note: Alternatively, if you need a bunch of cases you need to check in your code, or simply want to avoid putting in so many if-else blocks that run simple lines of code, there is the option of using Ternary Operators. These are quick and simple if-else statements. How that looks is: `condition ? cout << "This is true!" : cout << "This is false!";`
+
 <a href='https://repl.it/MzBq' target='_blank' rel='nofollow'>Try the code yourself</a>
 _CONGRATULATIONS . This is the end of the article on the IF statement_ 
 
