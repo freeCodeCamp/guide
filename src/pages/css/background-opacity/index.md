@@ -29,6 +29,12 @@ OR
 .class-name{
   opacity:0.5;
   }
+  
+  OR
+  
+ .class-name{
+  opacity:0.75;
+  }
 Opacity value can be anything between 0 and 1;
 ```
 **Transparent**
