@@ -3,13 +3,13 @@ title: The Quadratic Formula
 ---
 ## The Quadratic Formula
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/algebra/the-quadratic-formula/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+This mathematic formula came to us in its present-day form from French philosopher and mathemtician René Descartes in 1637. It is used in geometry to find the location a parabola (a symmetric curve, the ends of which approach parallel, but never reach it), which is given by the equation ![y equals a times x squared plus b times x plus c](https://github.com/jdhines/freecodecamp-article-images/blob/master/equation_parabola.png).
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The quadratic formula itself, which solves for x, is given as:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+![quadratic formula](https://github.com/jdhines/freecodecamp-article-images/blob/master/equation_quadtratic.png)
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+To see how you get the quadratic formula, solving for x, from the parabola formula, [view the derivation on Wikipedia](https://en.wikipedia.org/wiki/Quadratic_formula#Derivation_of_the_formula)
+
 
 
