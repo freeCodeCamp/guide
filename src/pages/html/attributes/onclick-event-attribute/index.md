@@ -1,3 +1,6 @@
+---
+title: Onclick Event Attribute
+---
 ## Onclick Event Attribute
 when the element is clicked fires a event, It works just like *onclick method* or  ```addEventListener('click')``` to the element
 
