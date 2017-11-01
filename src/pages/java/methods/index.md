@@ -3,6 +3,8 @@ title: Methods
 ---
 # Methods
 
+Methods are similar in nature to functions. A method is called by referring to its name followed by its parameter list.
+
 `getName()` and `getManufacturerName()` are two "Getter" methods we have used here. Notice, unlike JavaScript, we **have** to define the return type of any method we write, otherwise it will fail at compile time. If you do not want a method to return anything, use `void` return type.
 
 ```java
