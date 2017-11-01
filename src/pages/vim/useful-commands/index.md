@@ -37,10 +37,13 @@ You can then enter insert mode with `i` and paste the block of text/code without
 To return to regular Vim without paste mode you can enter normal mode (`escape` or `crtl + c`) and type `:set nopaste`, and press ENTER
 
 ## I Want to Learn Vim!
-Start by pressing `escape` to check if you're in normal mode, press colon `:`, type `Tutor`, and press `enter`.
+For total beginners, Vim comes with a built in tutorial! You can access it by running `vimtutor` from your terminal and this will launch an interactive tutorial on *how to get started with Vim* (takes around 15 minutes to work through).
+
+If you are not as confident in English, you can lanch `vimtutor` in your language of choice. For example `vimtutor fr` will launch the tutorial in french!
+
+Read the rest of our Vim Guides to get a better understanding of this powerful editor.
 
 ## Other Resources
 - <a href='https://vimgolf.com/' target='_blank' rel='nofollow'>Vim Golf</a> - A good way to learn from doing vim challenges to get the lowest amount of keystrokes. You can see solutions submitted by others if you can't figure the challenge out.
 - <a href='https://vim-adventures.com/' target='_blank' rel='nofollow'>Vim Adventures</a> - A fun and gamified approach to learn Vim where you lern the different key strokes with every new level in the game.
 - Read the rest of our Vim Guides to get a better understanding of this powerful editor.
-
