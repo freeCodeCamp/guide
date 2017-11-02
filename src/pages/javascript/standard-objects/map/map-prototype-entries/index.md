@@ -3,25 +3,13 @@ title: Map.prototype.entries
 ---
 ## Map.prototype.entries
 
-Returns a new `Iterator` object that contains the `[key, value]` pairs for each element in the `Map` object in insertion order.
+This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/standard-objects/map/map-prototype-entries/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
-## Syntax
-```javascript
-myMap.entries()
-```
+<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
 
+<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
-##Example
-```javascript
-const myMap = new Map();
-myMap.set('foo',1);
-myMap.set('bar',2);
-myMap.set('baz',3);
+#### More Information:
+<!-- Please add any articles you think might be helpful to read before writing the article -->
 
 
-var iterator = myMap.entries();
-
-console.log(iterator.next().value); // ['foo', 1]
-console.log(iterator.next().value); // ['bar', 2]
-console.log(iterator.next().value); // ['baz', 3]
-```

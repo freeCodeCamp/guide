@@ -3,16 +3,13 @@ title: I Tag
 ---
 ## I Tag
 
-The `<i>` element is used to denote text that is set apart from its surrounding text in some way. By default, text surrounded by `<i>` tags will be displayed in italic type. 
+This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/i-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
-In previous HTML specifications, the `<i>` tag was solely used to denote text to be italicized. In modern semantic HTML, however, tags such as `<em>` and `<strong>` should be used where appropriate. You can use the "class" attribute of the `<i>` element to state why the text in the tags is different from the surrounding text. You may want to show that the text or phrase is from a different language, as in the example below.
+<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
 
-```HTML
-<p>The French phrase <i class="french">esprit de corps</i> is often 
-used to describe a feeling of group cohesion and fellowship.</p>
-```
+<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/i">MDN</a>
+
 

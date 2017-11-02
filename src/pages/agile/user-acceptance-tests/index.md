@@ -3,9 +3,11 @@ title: User Acceptance Tests
 ---
 ## User Acceptance Tests
 
-One of the final steps in software testing is user acceptance testing (UAT). UAT makes sure actual users can use the software. Also referred to as beta, application, and end-user testing. 
+This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/user-acceptance-tests/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
-UAT checks that everything works properly and that there are no crashes. Those of the intended audience should complete the testing; this could be comprised of many people involved from the process and anyone who is able to test before going live. 
+<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+
+<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->

@@ -3,12 +3,13 @@ title: Doctype
 ---
 ## Doctype
 
-HTML code is always accompanied by it's "boilerplate" of tags. The very first tag found on any HTML file will be <!DOCTYPE html>. 
+This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/doctype/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
-This tag ensures that the browser will try and follow any specifications that you have stated after the opening tag. 
-This means that the browser will know how to render your file - instead of using a method of rending that could be incompatible with your code. 
+<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+
+<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
-<a href="https://developer.mozilla.org/en-US/docs/Glossary/Doctype"> MDN: !DOCTYPE</a> 
+<!-- Please add any articles you think might be helpful to read before writing the article -->
 
 

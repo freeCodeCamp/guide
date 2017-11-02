@@ -3,9 +3,9 @@ title: For Loop Statements
 ---
 ## For Loop Statements
 
-Python utilizes a for loop to iterate over a list of elements. Unlike C or Java, which use the for loop to change a value in steps and access something such as an array using that value.
+Python utilizes a for loop to iterate over a list of elements. Unlike C or Java, which use the for loop to change a value in steps and access e.g. an array using that value.
 
-For loops iterate over collection based data structures like lists, tuples, and dictionaries.
+For loops iterate over a collection based data structures like lists, tuples, and dictionaries.
 
 The basic syntax is:
 
@@ -42,8 +42,7 @@ Some ways in which For loops are used:
 for i in range(10):
     print(i)
 ```
-Rather than being a function, range is actually an immutable sequence type.
-The output will contain results from lower bound i.e 0 to the upper bound i.e 10 but excluding 10.By default the lower bound or the starting index is set to zero.
+
 Output:
 
 ```
@@ -101,26 +100,6 @@ lemon #ffff00
 orange #ffa500
 >
 ```
-**Iterate over two lists of same size in a single loop with the zip() function**
-
-```python 
-A = ["a", "b", "c"]
-B = ["a", "d", "e"]
-
-for a, b in zip(A, B):
-  print a, b, a == b
-  
-```
-
-Output:
-```
->
-a a True
-b d False
-c e False
->
-```
-
 
 **Iterate over a list and get the corresponding index with the enumerate() function**
 

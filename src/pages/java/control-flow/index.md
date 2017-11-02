@@ -34,7 +34,6 @@ switch( <integer / String / Enum > ){
         break;
     case <int/String/Enum>:
         <statements>
-        break;
     default:
         <statements>
 }
@@ -56,7 +55,7 @@ switch(person){
 }
 ```
 
-    Note: The `default` case runs when none of the `case` matches. Remember that when a case has no `break` statement, it `falls through` to the next case and will continue to the subsequent `cases` till a `break` is encountered. Because of this, make sure that each case has a `break` statement. The `default` case does not require a `break` statement. 
+    Note: The `default` case runs when none of the `case` matches. Remember that when a case has no `break` statement, it `falls through` to the next case and will continue to the subsequent `cases` till a `break` is encountered.
 
 *   `nested statements`
 
@@ -64,7 +63,7 @@ Any of the previous control flows can be nested. Which means you can have nested
 
 For example, let's consider the following scenario:
 
-If you have less than 25 bucks, you get yourself a cup of coffee. If you have more than 25 bucks but less than 60 bucks, you get yourself a decent meal. If you have more than 60 bucks but less than a 100, you get yourself a decent meal along with a glass of wine. However, when you have more than a 100 bucks, depending on who you are with, you either go for a candle lit dinner (with your wife) or you go to a sports bar (with your friends). As a default, you get a decent meal. 
+If you have less than 25 bucks, you get yourself a cup of coffee. If you have more than 25 bucks but less than 60 bucks, you get yourself a decent meal. If you have more than 60 bucks but less than a 100, you get yourself a decent meal along with a glass of wine. However, when you have more than a 100 bucks, depending on who you are with, you either go for a candle lit dinner (with your wife) or you go to a sports bar (with your friends).
 
 One of the ways to represent this will be:
 
@@ -87,8 +86,6 @@ if(cash<25){
         case "friends": 
             meetFriendsAtSportsBar();
             break;
-        default:
-            getDecentMeal();
     }
 }
 ```

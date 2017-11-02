@@ -8,7 +8,6 @@ We can use the `+=` operator to concatenate a string onto the end of an existing
 Watch out for spaces. Concatenation does not add spaces between concatenated strings, so you'll need to add them yourself.
 
 ## Example
-```javascript
+
     var ourStr = "I come first. ";
     ourStr += "I come second.";
-```

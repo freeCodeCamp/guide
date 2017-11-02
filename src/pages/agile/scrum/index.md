@@ -8,7 +8,6 @@ The practice revolves around
 - A set of roles (delivery team, product owner, and scrum master)
 - Ceremonies (sprint planning, daily standup, sprint review, sprint retrospective, and backlog grooming)
 - Artifacts (product backlog, sprint backlog, product increment, and info radiators and reports).
-- The main goal is to keep the team aligned on project progress to facilitate rapid iteration.
 
 
 #### More Information:

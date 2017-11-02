@@ -1,31 +1,15 @@
 ---
 title: Array.prototype.push
 ---
+## Array.prototype.push
 
-## Information
+This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/standard-objects/array/array-prototype-push/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
-The `push()` method adds one or more elements to the end of an array and returns the new length of the array.
+<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
 
-**Syntax**
-```javascript
-arr.push([element1[, ...[, elementN]]])
-```
+<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
-**Parameters**
-- `elementN`
-  - The elements to add to the end of the array.
+#### More Information:
+<!-- Please add any articles you think might be helpful to read before writing the article -->
 
-**Return value**
-- The new length property of the object upon which the method was called.
 
-[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
-
-## Examples
-
-```javascript
-let array = [1, 2, 3, 4];
-array.push(5);
-console.log(array); // [1, 2, 3, 4, 5]
-
-array.push(6, 7, 8);
-console.log(array); // [1, 2, 3, 4, 5, 6, 7, 8]

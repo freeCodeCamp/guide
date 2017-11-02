@@ -3,22 +3,13 @@ title: Img Width Attribute
 ---
 ## Img Width Attribute
 
-The HTML 'width' attribute refers to the width of an image. The value in the quotations is the amount of pixels. 
+This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/attributes/img-width-attribute/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
-For example, if you already have a link to an image set up via the `src` attribute you can add the width attribute like so:
-```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Img Width Attribute</title>
-  </head>
-  <body>
-    <img src="image.png" alt="Image" width="100"/>
-  </body>
-</html>
-```
+<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
 
-In the code snippet above there is an image tag and the image is set to a width of 100 pixels. `width="100"`
+<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img" target="_blank">MDN article on the img tag<a>
+<!-- Please add any articles you think might be helpful to read before writing the article -->
+
+

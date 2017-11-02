@@ -18,6 +18,6 @@ Some examples:
 
 #### More Information:
 
-<a href='https://www.w3schools.com/js/js_window_location.asp' target='_blank' rel='nofollow'>W3C</a>
+[W3C](https://www.w3schools.com/js/js_window_location.asp)
 
-<a href='https://developer.mozilla.org/pt-BR/docs/Web/API/Window/location' target='_blank' rel='nofollow'>MDN</a>
+[MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/Window/location)

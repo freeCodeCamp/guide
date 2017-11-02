@@ -8,6 +8,5 @@ When you disable a button, it will become grayed-out and can no longer be clicke
 jQuery has a function called `.prop()` that allows you to adjust the properties of elements.
 
 Here's how you would disable all buttons:
-```javascript
+
     $('#button').prop('disabled', true);
-```

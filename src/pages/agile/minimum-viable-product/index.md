@@ -2,13 +2,14 @@
 title: Minimum Viable Product
 ---
 ## Minimum Viable Product
-The idea is to rapidly build a minimum set of features that is enough to deploy the product and test key assumptions about customers’ interactions with the product.  
 
-#### A Minimum Viable Product has three key characteristics:
-- It has enough value that people are willing to use it or buy it initially.
-- It demonstrates enough future benefit to retain early adopters.
-- It provides a feedback loop to guide future development.
+This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/minimum-viable-product/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
-Learn more about MVP:
-<a href='https://youtu.be/MHJn_SubN4E' target='_blank' rel='nofollow'>what is a mvp?</a>
+<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+
+<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+
+#### More Information:
+<!-- Please add any articles you think might be helpful to read before writing the article -->
+
 

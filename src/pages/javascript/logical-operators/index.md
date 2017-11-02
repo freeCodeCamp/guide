@@ -21,6 +21,3 @@ true && false //returns true
 false && false //returns false
 ```
 
-#### More information:
-
-<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators' target='_blank' rel='nofollow'>MDN</a>.

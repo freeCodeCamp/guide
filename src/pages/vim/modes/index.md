@@ -8,19 +8,14 @@ Because vim is focused on changing existing code just as much as writing new
 code, it is split into several modes that each have different purposes.
 
 ### Normal Mode
+When you open vim, normal mode is where you will be and where you will spend
+most time when using vim.  In normal mode, keyboard keys don't type letters.
 
-By default, vim starts in "normal" mode. Here, key presses don't work as one
-would expect. That is, they don't insert text into the document; instead,
-certain key presses can:
-
+Instead they can:
 - Move the cursor
-- Manipulate text
-- Enter other modes
-
-Normal mode is where one should spend most of their time while using vim. Remember,
-this is what makes vim different.
-
-Normal mode can be accessed from other modes by pressing `Esc` or `<C-[>`.
+- Delete/Replace text
+- Copy/Paste text
+- Control several windows/buffers
 
 ### Insert Mode
 This is the second most used mode.  You can enter it by using an insert command
@@ -39,17 +34,12 @@ but these are the simplest.  Once in insert mode, typing inserts characters befo
 insert mode and return to normal mode, press `<esc>` or `ctrl-[`
 
 ### Visual Mode
-Visual mode is used to select text, similar to how clicking and dragging with a
+Visual mode it used to select text, similar to how clicking and dragging with a
 mouse behaves.  Press 'v' to enter visual mode, this begins the selection where
 the cursor is, then move the cursor to the end of what you want to select and
 now you can execute a command over the selecting text.
 For example, after selecting text, press 'd' to delete the selected text or 'y'
 to copy it.
-
-The visual mode actually has multiple subtypes:  *visual*, *block-visual* and *linewise-visual*
-- *visual*: like described above. Enter by pressing `v`
-- *block-visual*: select any rectangular region. Enter by pressing `<ctrl>+v`
-- *linewise-visual*: always select full lines. Enter by pressing `<shift>+v`
 
 ### Command Mode
 Command mode has a wide variety of commands and can do things that normal mode
@@ -58,7 +48,7 @@ type your command which should appear at the bottom of the window.
 For example, to do a global find and replace type `:%s/foo/bar/g` to replace
 all 'foo' with 'bar'
 - `:` Enters command mode
-- `%` Means across all lines
+- `%` Means accross all lines
 - `s` Means substitute
 - `/foo` is regex to find things to replace
 - `/bar/` is regex to replace things with

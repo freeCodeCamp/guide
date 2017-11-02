@@ -7,11 +7,6 @@ title: If Elif Else Statements
 The `if`/`elif`/`else` structure is a common way to control the flow of a program, allowing you to execute specific blocks of code depending on the value of some data. If the condition following the keyword `if` evaluates as `true`, the block of code will execute:
 
 ```python
-if True:
-  print('If block will execute!')
-```
-
-```python
 x = 5
 
 if x > 4:
@@ -19,13 +14,7 @@ if x > 4:
 ```
 
 You can optionally add an `else` response that will execute if the condition is `false`:
-```python
-if not True:
-  print('If statement will execute!')
-else:
-  print('Else statement will execute!')
-```
-Or you can also see this example
+
 ```python
 y = 3
 
@@ -37,7 +26,7 @@ else:
 
 *Note that there is no condition following the `else` keyword - it catches all situations where the condition was `false`*
 
-Multiple conditions can be checked by including one or more `elif` checks after your initial `if` statement but only one condition will execute:
+Multiple conditions can be checked by including one or more `elif` checks after your initial `if` statement:
 
 ```python
 z = 7

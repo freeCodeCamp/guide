@@ -24,13 +24,6 @@ function NoResults(props) {
           </Button>
         </Link>
       </div>
-      <div
-        aria-live='polite'
-        className='sr-only'
-        role='status'
-        >
-          No results found
-      </div>
     </div>
   );
 }
