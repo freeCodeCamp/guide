@@ -49,3 +49,4 @@ Additional parameters must be preceded by `&`.
 <a href='https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks' target='_blank' rel='nofollow'>Mailto links on MDN web docs</a>
 
 
+Mailto links are so that you can email someone. You can even include to, subject, body and so forth. 
