@@ -3,7 +3,7 @@ title: this reference
 ---
 ## `this` reference
 
-In JavaScript, every function has a `this` reference automatically created when you declare it. This reference is quite similar to `this` reference in other class-based languages such as Java or C# (JavaScript is a prototype-based language and no "class" concept): *It points to the which object is calling to the function* (this object sometimes called as *context*). In JavaScript, however, *the `this` reference inside functions can be bound to different objects depend on where the function is being called*. Here is three basic rules for `this` binding in JavaScript:
+In JavaScript, every function has a `this` reference automatically created when you declare it. This reference is quite similar to `this` reference in other class-based languages such as Java or C# (JavaScript is a prototype-based language and no "class" concept): *It points to the which object is calling to the function* (this object sometimes called as *context*). In JavaScript, however, *the `this` reference inside functions can be bound to different objects depend on where the function is being called*. Here are 4 basic rules for `this` binding in JavaScript:
 
 ### Rule 1
 
@@ -40,6 +40,24 @@ console.log(obj.a); // 2
 Clearly, in the above snippet, the `foo()` function is being called with *context* is `obj` object and `this` reference now is bound to `obj`. So when a function is called with a context object, the `this` reference will be bound to this object.
 
 ### Rule 3
+
+`.call`, `.apply` and `.bind` can all be used at the call site to explicitly bind `this`. Using `.bind(this)` is something you may see in quite a lot of React components.
+
+```javascript
+var foo = function() {
+  console.log(this.bar)
+}
+
+foo.call({ bar: 1 }) // 1
+```
+
+Here's a quick example of how each one is used to bind `this`:
+
+- `.call()`: `fn.call(thisObj, fnParam1, fnParam2)`
+- `.apply()`: `fn.apply(thisObj, [fnParam1, fnParam2])`
+- `.bind()`: `const newFn = fn.bind(thisObj, fnParam1, fnParam2)`
+
+### Rule 4
 
 ```javascript
 function Point2D(x, y) {
