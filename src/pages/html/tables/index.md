@@ -3,13 +3,64 @@ title: Tables
 ---
 ## Tables
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/tables/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `<table>` tag defines an HTML table. It consists of the `<table>` element and one or more `<tr>`, `<th>`, and `<td>` elements.
+The `<tr>` element defines a table row, the `<th>` element defines a table header, and the `<td>` element defines a table cell.
+A more complex HTML table may also include `<caption>`, `<col>`, `<colgroup>`, `<thead>`, `<tfoot>`, and `<tbody>` elements.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Simple Table Example
+```html
+<!DOCTYPE html>
+<html>
+	<body>
+    <table>
+      <tr>
+        <td>
+          cell 1
+        </td>
+        <td>
+          cell 2
+        </td>
+      </tr>
+    </table>
+	</body>
+</html>
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### Table Example with more semantic information
+```html
+<!DOCTYPE html>
+<html>
+	<body>
+    <table>
+      <thead>
+        <th>
+          <td>
+            Table Header
+          </td>
+        </th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            Table
+          </td>
+          <td>
+            Body
+          </td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>
+            Table Footer
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+	</body>
+</html>
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+<a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table' target='_blank' rel='nofollow'>MDN Article on the HTML <table> tag</a>
