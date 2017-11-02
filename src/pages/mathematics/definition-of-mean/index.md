@@ -2,14 +2,13 @@
 title: Definition of Mean
 ---
 ## Definition of Mean
+In statistics, the term _mean_ refers to the 'average' value in a collection of data. You can find this value by adding together all of the numbers and then dividing by the total number of values in the collection.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/definition-of-mean/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+#### Example
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The mean of ( 5, 8, 10, 12, 15 ) is 8:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+_To find the mean we would find the sum of all of these numbers (40) and divide it by the number of values in the collection (5).  40/5 is 8, which is the average value in the collection._
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+#### Median and Mode
+Mean is often confused with [median](https://en.wikipedia.org/wiki/Median), the value in the middle of the collection and [mode](https://guide.freecodecamp.org/mathematics/definition-of-mode), the value that occurs most frequently in the collection.

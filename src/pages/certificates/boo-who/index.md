@@ -38,14 +38,14 @@ This program is very simple, the trick is to understand what a boolean primitive
 **Solution ahead!**
 
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
-
+```javascript
     function booWho(bool) {
       return typeof bool === 'boolean';
     }
 
     // test here
     booWho(null);
-
+```
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLnK/0' target='_blank' rel='nofollow'>Run Code</a>
 
 # Code Explanation:
