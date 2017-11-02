@@ -8,8 +8,8 @@ GNU/Linux (commonly referred to as just Linux) is a free, open-source, customiza
 
 #### More Information:
 
-<a href='https://fr.wikipedia.org/wiki/Linux' target='_blank'>Linux on Wikipedia</a>
+[Linux on Wikipedia](https://en.wikipedia.org/wiki/Linux)
 
-<a href='https://www.kernel.org/' target='_blank'>Kernel.org - the Linux kernel official website</a>
+[Kernel.org - the Linux kernel official website](https://www.kernel.org/)
 
-<a href='http://distrowatch.com' target='_blank'>Distrowatch - the reference for Linux distributions</a>
+[Distrowatch - the reference for Linux distributions](http://distrowatch.com)
