@@ -3,13 +3,30 @@ title: Amplitude and Period of Sinusoidal Functions from Equation
 ---
 ## Amplitude and Period of Sinusoidal Functions from Equation
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/amplitude-and-period-of-sinusoidal-functions-from-equation/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The **generic equation** for a sinusoidal function is:
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+![Generic Sinusoid Equation](https://github.com/viso-gio/HostedImages/blob/master/GenericSinusoid.png?raw=true)
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Where *A* represents the **amplitude** of the oscillation, and *f* the **frequency**.
+*Phi* is the **phase**, linked to the amount by which the sinusoid is shifted along the *x* axis.
+*Omega* is the **angular frequency**, and represents the rate of oscillation as radians per second.
+
+The **period** of the oscillation, *T*, is given by:
+
+![Period](https://github.com/viso-gio/HostedImages/blob/master/PeriodFormula.png?raw=true)
+
+
+
+A commonly found **alternative form** of the sinusoid is:
+
+![Alternative Sinusoid Equation](https://github.com/viso-gio/HostedImages/blob/master/AlternativeSinusoid.png?raw=true)
+
+In this case, the **amplitude** is calculated as:
+
+![Alternative Amplitude](https://github.com/viso-gio/HostedImages/blob/master/AlternativeAmplitude.png?raw=true)
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+For more informations visit:
+* <a href='https://www.mathsisfun.com/algebra/amplitude-period-frequency-phase-shift.html' target='_blank' rel='nofollow'>MathIsFun</a>
+* <a href='https://en.wikipedia.org/wiki/Sine_wave' target='_blank' rel='nofollow'>Wikipedia: Sine Wave</a>
