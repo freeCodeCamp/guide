@@ -50,7 +50,7 @@ Operating system is defined as the low-level software that supports a computer�
 
 ### 5. Init
 
-- Looks at the /etc/inittab file to decide the Linux run level.
+- Looks at the <b>/etc/inittab</b> file to decide the Linux run level.
 
 - Following are the available run levels
 - 0 — halt
