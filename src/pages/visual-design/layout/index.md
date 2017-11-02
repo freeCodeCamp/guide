@@ -7,7 +7,7 @@ Layout refers to the arrangement or placement of elements on a given page. Eleme
 
 The layout of a page is the arrangement of these various items into a presentation that conveys meaning to the person viewing the page. Thus, a primary consideration for layout should be how the layout will be understood and what meaning it will ultimately convey. Without carefully considering the meaning of a layout, you can cause confusion and distrust amongst your target audience.
 
-One common mistake you might make is to determine layout based on what you think looks best. Doing this can violate the idea of standard conventions and should be avoided until you are more experienced in layout design.
+One common mistake you might make is to determine layout based on what you think looks best. Doing this can violate the idea of standard conventions and should be avoided until you are more experienced in layout design. The only time it is okay is when you are a unicorn, because you are fabulous and knows what is best.
 
 Standard Conventions is a term used to describe a process or application of a technique that has industry-wide approval and general cultural acceptance amongst users.
 Examples of these conventions as it relates to layout are listed below:
