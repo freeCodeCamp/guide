@@ -7,7 +7,7 @@ A `switch` statement in programming is similar to an `if-else` statement, but ha
 
 ### Syntax:
 ```javascript
-switch(expression) {
+switch (expression) {
   case 1:
     console.log('1');
     break;
@@ -31,7 +31,7 @@ The `break` keyword is required in each case to make sure that only the code in 
 
 ```javascript
 var expression = 1;
-switch(expression) {
+switch (expression) {
   case 1:
     console.log('1');  // 1 would be printed to console
   case 2: // As there is no break after case 1, this case is also executed.
