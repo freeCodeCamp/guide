@@ -13,3 +13,29 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
 
+<h1>Font size</h1>
+Font size property sets the size of a font. It can use some of pre-defined values like medium/small/large or some of units like px, percentages, em...
+
+<h4>Pre-defined values</h4>
+<ul>
+  <li>font-size: xx-small;</li>
+  <li>font-size: x-small;</li>
+  <li>font-size: small;</li>
+  <li>font-size: medium;</li>
+  <li>font-size: large;</li>
+  <li>font-size: x-large;</li>
+  <li>font-size: xx-large;</li>
+</ul>
+<h4>Relative values</h4>
+<ul>
+  <li>font-size: smaller;</li>
+  <li>font-size: larger;</li>
+</ul>
+<h4>Length and percentages values</h4>
+<ul>
+  <li>font-size: 10px;</li>
+  <li>font-size: 3em;</li>
+  <li>font-size: 150%;</li>
+</ul>
+
+Resource: MDN and W3C
