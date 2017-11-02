@@ -3,7 +3,34 @@ title: Location Object
 ---
 ## Location Object
 
-The "Location" object provides an API (Application Programming Interface) which enables retrieval of a URL, setting of a URL, or access to parts of a URL. It is already implemented for you by default on the Window and Document objects. They and are accessible by:
+The "Location" object provides an API (Application Programming Interface) which enables retrieval of a URL, setting of a URL, or access to parts of a URL. It is already implemented for you by default on the Window and Document objects. 
+Note: There is no public standard that applies to the location object, but all major browsers support it.
+
+### Location Object Properties
+
+| Property | Description                                             |
+|----------|---------------------------------------------------------|
+| hash     | Sets or returns the anchor part (#) of a URL            |
+| host     | Sets or returns the hostname and port number of a URL   |
+| hostname | Sets or returns the hostname of a URL                   |
+| href     | Sets or returns the entire URL                          |
+| origin   | Returns the protocol, hostname and port number of a URL |
+| pathname | Sets or returns the path name of a URL                  |
+| port     | Sets or returns the port number of a URL                |
+| protocol | Sets or returns the protocol of a URL                   |
+| search   | Sets or returns the querystring part of a URL           |
+
+### Location Object Methods
+
+| Method    | Description                                  |
+|-----------|----------------------------------------------|
+| assign()  | Loads a new document                         |
+| reload()  | Reloads the current document                 |
+| replace() | Replaces the current document with a new one |
+
+### Examples
+
+The location objects are accessible by:
 
 ```javascript
     console.log(window.location);
@@ -45,6 +72,7 @@ If your URL contains parameters or hashes you can access them like so:
     // > "#other-properties"
 ```
 
-For more information on the Location API: [Location](https://developer.mozilla.org/en-US/docs/Web/API/Location)
+#### More Information:
 
-
+<a href='https://www.w3schools.com/jsref/obj_location.asp' target='_blank' rel='nofollow'>W3C - Location Object</a>
+[Location](https://developer.mozilla.org/en-US/docs/Web/API/Location)
