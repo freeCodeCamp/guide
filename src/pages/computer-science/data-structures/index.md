@@ -12,6 +12,7 @@ In simple language, Data Structures are structures programmed to store ordered d
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-* <a href='http://www.studytonight.com/data-structures/introduction-to-data-structures' target='_blank' rel='nofollow'>Data Structures</a>
-
-
+* [Data Structures](http://www.studytonight.com/data-structures/introduction-to-data-structures)
+* [Geek for Geek](http://www.geeksforgeeks.org/data-structures/)
+* [Tutorials Point](https://www.tutorialspoint.com/data_structures_algorithms/data_structure_overview.htm)
+* [Data Structures](http://www.studytonight.com/data-structures/introduction-to-data-structures)

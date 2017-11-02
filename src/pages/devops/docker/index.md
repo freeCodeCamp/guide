@@ -3,13 +3,11 @@ title: Docker
 ---
 ## Docker
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/devops/docker/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
+Docker uses containers (a runtime instance of an image) to create environments that can easily build, ship, and run applications. The main benefit is that Docker containers run completely isolated from the host environment by default, only accessing host files and ports if configured to do so. This is a great alternative to virutal machines(VMs) that are often resource intensive. VMs disk image and application state are an entanglement of OS settings, system-installed dependencies, OS security patches, and other easy-to-lose, hard-to-replicate ephemera.
+
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+<a href='https://docs.docker.com/get-started/' target='_blank' rel='nofollow'>Get Started with Docker</a>
 
 
