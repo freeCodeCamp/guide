@@ -60,3 +60,43 @@ console.log(obj2.c); // undefined
 ```
 
 In above snippet, the statement `var obj2 = Object.create(obj1)` will create `obj2` object with prototype  `obj1` object. In other words, `obj1` becomes the prototype of `obj2` instead of `Object.prototype` by default. As you can see,  `b` is not a property of `obj2`, you can still access it via the  prototype chain. For `c` property, however, you get `undefined` value because it can't be found in `obj1` and `Object.prototype`.
+
+### Classes
+
+In ES2016, we now get to use the `Class` keyword as well as the methods mentioned above to manipulate `prototype`. The JavaScript `Class` appeals to developers from OOP backgrounds, but it's essentially doing the same thing as above.
+
+```javascript
+class Rectangle {
+  constructor(height, width) {
+    this.height = height
+    this.width = width
+  }
+
+  get area() {
+    return this.calcArea()
+  }
+
+  calcArea() {
+    return this.height * this.width
+  }
+}
+
+const square = new Rectangle(10, 10)
+
+console.log(square.area) // 100
+```
+
+This is basically the same as:
+
+```javascript
+function Rectangle(height, width) {
+  this.height = height
+  this.width = width
+}
+
+Rectangle.prototype.calcArea = function calcArea() {
+  return this.height * this.width
+}
+```
+
+The `getter` and `setter` methods in classes bind an Object property to a function that will be called when that property is looked up. It's just syntactic sugar to help make it easier to _look up_ or _set_ properties.
