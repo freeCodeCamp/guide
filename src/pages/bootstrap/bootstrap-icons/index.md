@@ -31,4 +31,4 @@ _Note: Do not include the dot in the HTML Class Attribute, referring to the clas
 #### More Information:
 <a href='https://getbootstrap.com/docs/3.3/components/#glyphicons' target='_blank' rel='nofollow'>Bootstrap Glyphicons</a>
 
-
+Better known as "Glyphicons" in the Bootstrap community, are icons used in buttons, button groups for a toolbar, navigation or prepended form inputs.
