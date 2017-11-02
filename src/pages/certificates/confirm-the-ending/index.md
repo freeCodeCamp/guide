@@ -36,11 +36,11 @@ Check that you have the proper syntax and that you use `===` to compare.
 **Solution ahead!**
 
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
-
+```javascript
     function confirmEnding(str, target) {
       return str.substr(-target.length) === target;
     }
-
+```
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLjU/18' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
