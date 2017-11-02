@@ -1,13 +1,14 @@
 ---
 title: Flex Property
 ---
-# Flex Property
+## Flex Property
 
 `flex` property is a shorthand to specify a flexible item's size. `flex-grow`, `flex-shrink` and `flex-basis` can be specified within this shorthand property.
 
 **This property has no effect if the element is not a `flex-item`**. Flex item is an element that is a direct child of a container parent with display property as `flex` or `inline-flex`. 
 
 ## Syntax
+
 Possible variations in syntax listed below. `flex-grow` and `flex-shrink` take a whole number as value. `flex-basis` takes regular size units such as px, em, rem...etc.
 
 ```css
@@ -28,6 +29,6 @@ flex: <flex-grow> <flex-shrink>;
 
 `flex: 1 2` specifies `flex-grow: 1` and `flex-shrink: 2`. The element grows to take up empty space in proportion with other elements with `flex-grow: 1` but shrinks twice as smaller when compared other elements with `flex-shrink: 1` when pressed against space.
 
-#### More Information
-Additional references here: 
+### More Information
+
 * `flex` property reference on [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/flex)
