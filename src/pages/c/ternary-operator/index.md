@@ -8,7 +8,7 @@ The ternary operator is an operator that takes three arguments. The first argume
 
 Here's a simple decision-making example using **if** and **else**:
 
-```c
+c
 int a = 10, b = 20, c;
 
 if (a < b) {
@@ -19,7 +19,7 @@ else {
 }
 
 printf("%d", c);
-```
+
 This example takes more than 10 lines, but that isn't necessary. You can write the above program in just 3 lines of code using the **ternary operator**.
 
 ### Syntax
@@ -27,12 +27,12 @@ This example takes more than 10 lines, but that isn't necessary. You can write t
 
 Here's the above example re-written to use the ternary operator:
 
-```c
+c
 int a = 10, b = 20, c;
 
 c = (a < b) ? a : b;
 
 printf("%d", c);
-```
+
 
 This looks pretty simple, right?
