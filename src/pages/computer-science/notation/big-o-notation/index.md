@@ -69,7 +69,7 @@ Here are five Big O run times that you’ll encounter a lot, sorted from fastest
 
 *This article only covers the very basics of Big O. For a more in-depth explanation take a look at their respective FreeCodeCamp guides for algorithms.*
 
-#### Interesting articles to check out
+### More Information
 
 - [Khan Academy](https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/big-o-notation)
 - [Big O cheat sheet](http://bigocheatsheet.com/)
