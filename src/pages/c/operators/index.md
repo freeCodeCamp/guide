@@ -94,36 +94,36 @@ title: Operators
      ```
 
 ## 3. Bitwise Operators
-- `&` If at a place there is a bit in both operands, then it is copied to the result
+- `&` Bitwise AND. If at a place there is a bit in both operands, then it is copied to the result
      ```C
           A = 11001
           B = 01000
      RESULT = 01000
      ```
-- `|` If at a place there is a bit in either operands, then it is copied to the result
+- `|` Bitwise OR. If at a place there is a bit in either operands, then it is copied to the result
      ```C
           A = 11001
           B = 01000
      RESULT = 11001
      ```
-- `^` If at a place there is a bit in one of the operands (not both), then it is copied to the result
+- `^` Bitwise XOR. If at a place there is a bit in one of the operands (not both), then it is copied to the result
      ```C
           A = 11001
           B = 01000
      RESULT = 10001
      ```
-- `~` Reverses the bits. 1 -> 0, 0 -> 1
+- `~` Bitwise complement. Reverses the bits. 1 -> 0, 0 -> 1
      ```C
           C = 01000
      RESULT = 10111
      ```
-- `<<` The left operand is moved left by as many bits, as the right operand
+- `<<` Shift LEFT. The left operand is moved left by as many bits, as the right operand
      ```C
           A = 11001
              A << 2
      RESULT = 00100
      ```
-- `>>` The left operand is moved right by as many bits, as the right operand
+- `>>` Shift RIGHT. The left operand is moved right by as many bits, as the right operand
      ```C
           A = 11001
              A >> 2
