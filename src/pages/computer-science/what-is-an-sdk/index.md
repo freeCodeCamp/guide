@@ -11,5 +11,10 @@ There are also SDKs that are installed in apps to provide analytics and data abo
 
 It may be something as simple as the implementation of one or more application programming interfaces (APIs) in the form of some libraries to interface to a particular programming language or to include sophisticated hardware that can communicate with a particular embedded system. 
 
-Common tools include debugging facilities and other utilities, often presented in an integrated development environment (IDE). SDKs also frequently include sample code and supporting technical notes or other supporting documentation to help clarify points made by the primary reference material.
+An SDK is a collection of software used for developing applications for a specific device or operating system. Examples of SDKs include the Windows 7 SDK, the Mac OS X SDK, the iPhone SDK, the Android SDK etc.
 
+SDKs typically include an integrated development environment (IDE), which serves as the central programming interface. The IDE may include a programming window for writing source code, a debugger for fixing program errors, and a visual editor, which allows developers to create and edit the program's graphical user interface (GUI). IDEs also include a compiler, which is used to create applications from source code files.
+
+Most SDKs contain sample code, which provides developers with example programs and libraries. These samples help developers learn how to build basic programs with the SDK, which enables them to eventually create more complex applications. SDKs also offer technical documentation, which may include tutorials and FAQs. Some SDKs may also include sample graphics, such as buttons and icons, which can be incorporated into applications.
+
+Since most companies want to encourage developers to create applications for their platform, SDKs are usually provided free of charge. Developers can simply download an SDK from a company's website and begin programming immediately. However, since each software development kit is different, it can take awhile for developers to learn how to use a new SDK. Therefore, most modern SDKs include extensive documentation and have an intuitive programming interface, which helps incentivize program development.
