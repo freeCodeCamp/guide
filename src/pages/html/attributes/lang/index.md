@@ -3,13 +3,11 @@ title: Lang
 ---
 ## Lang
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/attributes/lang/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+In HTML, Lang tag is used to declare the language of the whole or a part of a web page.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Example
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+```html
+<html lang="en">
+</html>
+```
