@@ -37,8 +37,3 @@ You can read more about steganography in images here: http://www.garykessler.net
 Audio steganography is a technique used to transmit hidden information by modifying an audio signal in an imperceptible manner.
 
 This blogpost provides an example of concealing an image in an audio file (wow)! https://solusipse.net/blog/post/basic-methods-of-audio-steganography-spectrograms/
-
-### Contribute!
-If you're interested in contributing to this page, <a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>this quick style guide will help ensure your pull request gets accepted</a>.
-
-
