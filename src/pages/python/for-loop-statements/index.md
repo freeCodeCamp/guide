@@ -42,7 +42,8 @@ Some ways in which For loops are used:
 for i in range(10):
     print(i)
 ```
-
+Rather than being a function, range is actually an immutable sequence type.
+The output will contain results from lower bound i.e 0 to the upper bound i.e 10 but excluding 10.By default the lower bound or the starting index is set to zero.
 Output:
 
 ```
@@ -100,6 +101,26 @@ lemon #ffff00
 orange #ffa500
 >
 ```
+**Iterate over two lists of same size in a single loop with the zip() function**
+
+```python 
+A = ["a", "b", "c"]
+B = ["a", "d", "e"]
+
+for a, b in zip(A, B):
+  print a, b, a == b
+  
+```
+
+Output:
+```
+>
+a a True
+b d False
+c e False
+>
+```
+
 
 **Iterate over a list and get the corresponding index with the enumerate() function**
 
