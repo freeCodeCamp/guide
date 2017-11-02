@@ -25,3 +25,17 @@ Read more: https://html.com/tags/comment-tag/#ixzz4vtZHu5uR
 	</body>
 </html>
 ```
+
+### Multiline Comments
+'''html
+<!DOCTYPE html>
+<html>
+	<body>
+		<h1> You can also comment out multiple lines of code </h1>
+		<!-- 
+         This is a multiline comment and it can
+         span through as many as lines you like.
+      -->
+	</body>
+</html>
+	
