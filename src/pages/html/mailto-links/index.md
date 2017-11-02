@@ -14,18 +14,20 @@ A mailto link is a kind of hyperlink (<a href=""></a>), with special parameters 
 
 #### Adding a subject to that mail:
 
-If you want to add a specific subject to that mail, be careful to add %20 (or +) everywhere there's a space in the subject line
+If you want to add a specific subject to that mail, be careful to add `%20` or `+` everywhere there's a space in the subject line.
 
 #### Adding body text:
 
 Similarly, you can add a specific message in the body portion of the email:
-Again, spaces have to be replaced by %20 or +.
-After the subject paramater, any additional parameter must be preceded by &
+Again, spaces have to be replaced by `%20` or `+`.
+After the subject paramater, any additional parameter must be preceded by `&`
 
 Example : Say you want users to send an email to their friends about their progress at Free Code Camp:
 
-address: empty
-subject: Great news
+Address: empty
+
+Subject: Great news
+
 Body: I am becoming a developer
 
 Your html link now:
@@ -38,12 +40,12 @@ Here, we've left mailto empty (mailto:?). This will open the user's email client
 
 In the same manner, you can add CC and bcc parameters. 
 Seperate each address by a comma! 
-Additional parameters must be preceded by &.
+Additional parameters must be preceded by `&`.
 
     <a href="mailto:firstfriend@something.com?subject=Great%20news&cc=secondfriend@something.com,thirdfriend@something.com&bcc=fourthfriend@something.com">Send mail!</a>
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-[Mailto links on MDN web docs](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks)
+<a href='https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks' target='_blank' rel='nofollow'>Mailto links on MDN web docs</a>
 
 
