@@ -1,3 +1,6 @@
+---
+title: Area of a Rectangle
+---
 ## Area of a Rectangle
 
 You can calculate the area of a rectangle
