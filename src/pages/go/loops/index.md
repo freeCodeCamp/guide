@@ -36,3 +36,27 @@ Running the above program produces an output similar to the following output -
 $ go run for.go
 The sum of first 10 natural numbers is 55
 ```
+
+A for loop in Go can also have any boolean statement. In this mode, it can act as a `while` loop does in other languages. See the below code snippet for an example.
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+	value := 7
+	for value > 5 {
+		fmt.Println("It's a big value!")
+		value--
+	}
+	fmt.Println(value)
+}
+```
+Running the above program produces an output similar to the following output -
+```    
+$ go run for.go
+It's a big value!
+It's a big value!
+5
+```
