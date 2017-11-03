@@ -9,6 +9,23 @@ A motherboard provides power and connectivity to the computer's components, and 
 
 Top manufacturers of motherboards are INTEL , ASUS , ACER, GIGABYTE, IBM , SIMMTRONICS and many more.
 
+## Parts of a Motherboard
+
+If you were to open up your computer and take out the motherboard, you would probably get pretty confused about all the different parts. Depending on the make and model of your computer, it might look something like this.
+To understand how computers work, you don't need to know every single part of the motherboard. However, it is good to know some of the more important parts and how the motherboard connects the various parts of a computer system together. Here are some of the typical parts:
+
+- A CPU socket - the actual CPU is directly soldered onto the socket. Since high speed CPUs generate a lot of heat, there are heat sinks and mounting points for fans right next to the CPU socket.
+- A power connector to distribute power to the CPU and other components.
+- Slots for the system's main memory, typically in the form of DRAM chips.
+- A chip forms an interface between the CPU, the main memory and other components. On many types of motherboards, this is referred to as the Northbridge. This chip also contains a large heat sink.
+- A second chip controls the input and output (I/O) functions. It is not connected directly to the CPU but to the Northbridge. This I/O controller is referred to as the Southbridge. The Northbridge and Southbridge combined are referred to as the chipset.
+- Several connectors, which provide the physical interface between input and output devices and the motherboard. The Southbridge handles these connections.
+- Slots for one or more hard drives to store files. The most common types of connections are Integrated Drive Electronics (IDE) and Serial Advanced Technology Attachment (SATA).
+- A read-only memory (ROM) chip, which contains the firmware, or startup instructions for the computer system. This is also called the BIOS.
+- A slot for a video or graphics card. There are a number of different types of slots, including the Accelerated Graphics Port (AGP) and Peripheral Component Interconnect Express (PCIe).
+Additional slots to connect hardware in the form of Peripheral Component Interconnect (PCI) slots.
+
+
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 * <a href='https://www.computerhope.com/jargon/m/mothboar.htm' target='_blank' rel='nofollow'>Motherboard</a>

@@ -7,17 +7,20 @@ If you want your loop to go on infinitely, you can use the `while`, `do while` a
 
 ```java
 // Infinite For Loop
-for ( ; ; ){
+for ( ; ; )
+{
     // your code here
 }
 
 // Infinite While Loop
-while (true){
+while (true)
+{
     // your code here
 }
 
 // Infinite Do While Loop
-do{
+do
+{
     // your code here
 } while (true);
 ```
