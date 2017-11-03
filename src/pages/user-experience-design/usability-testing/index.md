@@ -3,9 +3,11 @@ title: Usability Testing
 ---
 ## Usability Testing
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/user-experience-design/usability-testing/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+### What is usability testing? (Short Answer)
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Usability testing is a way to see how easy to use something is by testing it with real users.
+
+Users are asked to complete tasks, typically while they are being observed by a researcher, to see where they encounter problems and experience confusion. If more people encounter similar problems, recommendations will be made to overcome these usability issues.
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
