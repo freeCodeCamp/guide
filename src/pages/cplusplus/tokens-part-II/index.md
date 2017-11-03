@@ -29,7 +29,8 @@ title: Tokens Part 2
  5. The `%` operator *divides and gives the remainder* of the 2 operands.
 
  ### Example of using arithmetic operators :
- ```C++
+ 
+ ```cpp
  #include<iostream>
 using namespace std;
 
@@ -78,7 +79,7 @@ The 2 types of decrement :
 
 Example of Increment and decrement operators :
 
-```C++
+```cpp
 #include<iostream>
 using namespace std;
 
@@ -142,6 +143,4 @@ _Camper , You now know what are tokens. The next article will be about <need-to-
  
  **Happy Coding ! :)**
  
- **Feel free to ask any queries on FreeCodeCamp's GitHub page or [FreeCodeCamp's Forum .](https://forum.freecodecamp.org/)**
-
-By : Jaithra Bhatia and Hitarth Asrani
+ **Feel free to ask any queries on FreeCodeCamp's GitHub page or <a href='https://forum.freecodecamp.org/' target='_blank' rel='nofollow'>FreeCodeCamp's Forum .</a>**
