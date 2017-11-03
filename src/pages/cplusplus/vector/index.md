@@ -44,3 +44,32 @@ std::string second_item = a.at(2); // gets "element"
 // OR
 std::string second_item = a[2]; // gets "element"
 ```
+
+### Iterating Through a Vector
+There are different ways to iterate through a vector and access its contents. The following forms are equivalent, the first one involves using a range-based expression (since C++11), the second one uses iterators, and the last one is a index-based iteration
+
+
+``` cpp
+#include <iostream>
+#include <vector>
+
+// First declare the vector
+std::vector<int> myVector{1, 2, 3, 4, 5}; // a is a vector of 5 ints: 1, 2, 3, 4 and 5
+
+// Using a range based loop (since C++11)
+for(int element : myVector ){  // Reads like "for every element in myVector"
+  std::cout << "The element is " << element << std::endl;
+}
+
+// Using an iterator
+std::vector<int>::iterator it; // Declare the iterator
+for(it = myVector.begin(); it != myVector.end(); ++it){
+  std::cout << "The element is " << *it << std::endl;  // Dereference the iterator to access its data
+}
+
+// Using indices
+for(std::vector<int>::size_type i = 0; i != myVector.size(); i++){
+  std::cout << "The element is " << myVector[i] << std::endl;  // Dereference the iterator to access its data
+}
+
+```
