@@ -12,5 +12,7 @@ To describe component's DOM representations, React uses an XML-like syntax calle
 For more information head to <a href='https://reactjs.org/' target='_blank' rel='nofollow'>https://reactjs.org/</a>
 
 # Tutorials
-
 <a href='https://egghead.io/browse/frameworks/react' target='_blank' rel='nofollow'>Egghead.io React</a>
+
+### People to Follow
+* <a href='https://twitter.com/dan_abramov' target='_blank' rel='nofollow'>Dan Abramov Twitter</a>
