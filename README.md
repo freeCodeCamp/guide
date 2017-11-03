@@ -31,11 +31,11 @@ To help, find a `stub article` on our [Guide website](https://guide.freecodecamp
 
 If you can't find a stub about the topic you'd like to write about, you can open a PR that creates the stub and includes your draft article. Feel free to ask us questions if you're not sure where to put a new article in the directory structure.
 
-Before you begin writing, make sure to read the [article style guide](#article-style-guide) below.
+Before you begin writing, make sure to read the [article style guide](https://github.com/freeCodeCamp/guides/blob/master/CONTRIBUTING.md#article-style-guide) below.
 
 ## Contributing
 
-1. 🍴 [Fork this repo](https://github.com/freeCodeCamp/guides#fork-destination-box)
+1. 🍴 Fork this repo
 2. 👀️ Follow the contributing guidelines outlined in [CONTRIBUTING.md](CONTRIBUTING.md).
 3. 🔧 Make some awesome changes!
 4. 👉 [Make a pull request](https://github.com/freeCodeCamp/guides/compare)
