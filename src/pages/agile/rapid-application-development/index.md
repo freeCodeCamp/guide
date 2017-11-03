@@ -4,25 +4,25 @@ title: Rapid Application Development
 
 ## Rapid Application Development
 
-+<p align="justify">
+<p align="justify">
 Rapid application development (RAD) describes a method of software development which heavily emphasizes rapid prototyping and iterative delivery. The RAD model is, therefore, a sharp alternative to the typical waterfall development model, which often focuses largely on planning and sequential design practices. First introduced in 1991 in James Martin’s book by the same name, rapid application development has become one of the most popular and powerful development methods, which falls under the parental category of agile development techniques.
 </p>
 
-+<p align="justify">
+<p align="justify">
 RAD is especially well suited for (although not limited to) developing software that is driven by user interface requirements. Graphical user interface builders are often called rapid application development tools. 
 </p>
 
 ### RAD Vs Traditional SDLC
 
-+<p align="justify">
+<p align="justify">
 The traditional SDLC follows a rigid process models with high emphasis on requirement analysis and gathering before the coding starts. It puts pressure on the customer to sign off the requirements before the project starts and the customer doesn’t get the feel of the product as there is no working build available for a long time.
 </p>
 
-+<p align="justify">
+<p align="justify">
 The customer may need some changes after he gets to see the software. However, the change process is quite rigid and it may not be feasible to incorporate major changes in the product in the traditional SDLC.
 </p>
 
-+<p align="justify">
+<p align="justify">
 The RAD model focuses on iterative and incremental delivery of working models to the customer. This results in rapid delivery to the customer and customer involvement during the complete development cycle of product reducing the risk of non-conformance with the actual user requirements.
 </p>
 
