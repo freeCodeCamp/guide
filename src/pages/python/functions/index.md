@@ -22,13 +22,13 @@ In Python, a function definition has the following features:
 ```python
 # a function with no parameters or returned values
 def sayHello():
-  print "Hello!"
+  print("Hello!")
 
 sayHello()  # calls the function, 'Hello!' is printed to the console
 
 # a function with a parameter
 def helloWithName(name):
-  print "Hello " + name + "!"
+  print("Hello " + name + "!")
 
 helloWithName("Ada")  # calls the function, 'Hello Ada!' is printed to the console
 
@@ -36,7 +36,7 @@ helloWithName("Ada")  # calls the function, 'Hello Ada!' is printed to the conso
 def multiply(val1, val2):
   return val1 * val2
 
-print multiply(3, 5)  # prints 15 to the console
+print(multiply(3, 5))  # prints 15 to the console
 ```
 
 Functions are blocks of code that can be reused simply by calling the function. This enables simple, elegent code reuse without explicitly re-writing sections of code. This makes code both more readable, makes for easier debugging, and limits typing errors. 
@@ -86,19 +86,19 @@ result = s(1, 2)
 - If a function definition includes parameters, you must provide the same number of parameters when you call the function.
 
   ```python
-  print multiply(3)  # TypeError: multiply() takes exactly 2 arguments (0 given)
+  print(multiply(3))  # TypeError: multiply() takes exactly 2 arguments (0 given)
 
-  print multiply('a', 5)  # 'aaaaa' printed to the console
+  print(multiply('a', 5))  # 'aaaaa' printed to the console
 
-  print multiply('a', 'b')  # TypeError: Python can't multiply two strings
+  print(multiply('a', 'b'))  # TypeError: Python can't multiply two strings
   ```
 
 - The block of code that the function will run includes all statements indented within the function.
 
   ```python
   def myFunc():
-    print 'this will print'
-    print 'so will this'
+    print('this will print')
+    print('so will this')
 
   x = 7
   # the assignment of x is not a part of the function since it is not indented
@@ -111,8 +111,8 @@ result = s(1, 2)
     x = num * 2
     return x
 
-  print x  # error - x is not defined
-  print double(4)  # prints 8
+  print(x)  # error - x is not defined
+  print(double(4))  # prints 8
   ```
 
 ### More Information:
