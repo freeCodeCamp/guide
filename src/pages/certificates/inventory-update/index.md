@@ -11,7 +11,7 @@ The current as well as new inventory will be in this format: `[[2, "item-0"], [3
 
 #### Relevant Links
 
-* <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array' target='_blank' rel='nofollow'>JS Array</a>
+* <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array' target='_blank' rel='nofollow'>JavaScript Array</a>
 
 ## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 1
 
@@ -33,7 +33,7 @@ Return the completed inventory in alphabetical order.
 
 ## Spoiler Alert!
 
-![:warning_sign:](https://discourse-user-assets.s3.amazonaws.com/original/2X/2/2d6c412a50797771301e7ceabd554cef4edcd74d.gif)
+![:warning:](https://discourse-user-assets.s3.amazonaws.com/original/2X/2/2d6c412a50797771301e7ceabd554cef4edcd74d.gif)
 
 **Solution ahead!**
 
@@ -48,7 +48,7 @@ Return the completed inventory in alphabetical order.
         // A helper method to return the index of a specified product (undefined if not found)
         var getProductIndex = function (name) {
             for (var i = 0; i < this.length; i++) {
-                if (this<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>i][1] === name) {
+                if (this[i][1] === name) {
                     return i;
                 }
             }
@@ -120,10 +120,10 @@ Return the completed inventory in alphabetical order.
 
 #### Relevant Links
 
-* <a href='https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/this' target='_blank' rel='nofollow'>JS this</a>
-* <a href='https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/length' target='_blank' rel='nofollow'>JS Array.length</a>
-* <a href='http://forum.freecodecamp.com/t/javascript-array-prototype-push/14298' target='_blank' rel='nofollow'>JS Array.prototype.push()</a>
-* <a href='http://forum.freecodecamp.com/t/javascript-array-prototype-sort/14306' target='_blank' rel='nofollow'>JS Array.prototype.sort()</a>
+* <a href='https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/this' target='_blank' rel='nofollow'>JavaScript this</a>
+* <a href='https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/length' target='_blank' rel='nofollow'>JavaScript Array.length</a>
+* <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push' target='_blank' rel='nofollow'>JavaScript Array.prototype.push()</a>
+* <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort' target='_blank' rel='nofollow'>JavaScript Array.prototype.sort()</a>
 
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution:
 
@@ -132,7 +132,7 @@ Return the completed inventory in alphabetical order.
       // All inventory must be accounted for or you're fired!
 
       var index;
-      var arrCurInvName = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>]; // Names of arr1's items
+      var arrCurInvName = []; // Names of arr1's items
       var arrNeInvName = []; // Names of arr2's items
 
       // Same as using two for loops, this takes care of increasing the number of stock quantity.
@@ -205,9 +205,9 @@ Return the completed inventory in alphabetical order.
 
 #### Relevant Links
 
-* <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map' target='_blank' rel='nofollow'>JS Array.prototype.map()</a>
-* <a href='http://forum.freecodecamp.com/t/javascript-array-prototype-indexof/14291' target='_blank' rel='nofollow'>JS Array.prototype.indexOf()</a>
-* <a href='http://forum.freecodecamp.com/t/javascript-ternary-operator/15973' target='_blank' rel='nofollow'>JS Ternary Operator</a>
+* <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map' target='_blank' rel='nofollow'>JavaScript Array.prototype.map()</a>
+* <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf' target='_blank' rel='nofollow'>JavaScript Array.prototype.indexOf()</a>
+* <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator' target='_blank' rel='nofollow'>JavaScript Ternary Operator</a>
 
 ## ![:rotating_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:") Advanced Code Solution:
 
@@ -228,7 +228,7 @@ Return the completed inventory in alphabetical order.
         // check if item already exists in inventory
         const position = inventory.indexOf(item);
 
-        // exsisting item: update quantity
+        // existing item: update quantity
         if (position !== -1) {
           const row = Math.floor(position / 2);
           arr1[row][0] += quantity;
@@ -271,7 +271,7 @@ Return the completed inventory in alphabetical order.
 
 ### Code Explanation:
 
-* Convert current inventory array **arr1** to an one-dimensional array in order that `indexOf()` method could be used to check existance of new delivery items in current inventory.
+* Convert current inventory array **arr1** to an one-dimensional array in order that `indexOf()` method could be used to check existence of new delivery items in current inventory.
 * Check if item already exists in current inventory using `indexOf()`.
 * If item exists update quantity and continue loop execution.
 * Else append item to inventory.
@@ -279,9 +279,9 @@ Return the completed inventory in alphabetical order.
 
 #### Relevant Links
 
-* <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply'>JS Function.prototype.apply()</a>
-* <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/continue' target='_blank' rel='nofollow'>JS continue</a>
-* <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort' target='_blank' rel='nofollow'>JS Array.prototype.sort()</a>
+* <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply'>JavaScript Function.prototype.apply()</a>
+* <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/continue' target='_blank' rel='nofollow'>JavaScript continue</a>
+* <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort' target='_blank' rel='nofollow'>JavaScript Array.prototype.sort()</a>
 
 ## ![:clipboard:](https://forum.freecodecamp.com/images/emoji/emoji_one/clipboard.png?v=3 ":clipboard:") NOTES FOR CONTRIBUTIONS:
 
