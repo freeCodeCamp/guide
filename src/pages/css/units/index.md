@@ -9,6 +9,18 @@ title: Units
 * Coordinate positions: e.g. for specifying the position of a positioned element relative to the top left of the screen.
 * Functions: For specifying e.g. background images or background image gradients.
 
+#### PX
+
+The most common unit of measurement in CSS is `px`. This allows you to specify a pixel measurement (e.g `height: 35px;`).
+
+#### VW
+
+The `vw` unit is a measurement of Viewport Width. `100vw` is equivalent to the full width of the window.
+
+#### VH
+
+The `vh` unit is a measurement of Viewport Height. `100vh` is equivalent to the full height of the window.
+
 #### More Information:
 
 [Mozilla MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Values_and_units)
