@@ -40,12 +40,12 @@ Here's a <a href='https://www.python.org/about/apps/' target='_blank' rel='nofol
 
 #### Some article covering the usability of python
 
-* [10 MAJOR USES OF PYTHON](http://www.dummies.com/programming/python/10-major-uses-of-python/)
-* [Applications for Python](https://www.python.org/about/apps/)
-* [Where is python Language used](https://stackoverflow.com/questions/3043085/where-is-python-language-used)
-* [What is python used for](https://stackoverflow.com/questions/1909512/what-is-python-used-for)
+* <a href='http://www.dummies.com/programming/python/10-major-uses-of-python/' target='_blank' rel='nofollow'>10 MAJOR USES OF PYTHON</a>
+* <a href='https://www.python.org/about/apps/' target='_blank' rel='nofollow'>Applications for Python</a>
+* <a href='https://stackoverflow.com/questions/3043085/where-is-python-language-used' target='_blank' rel='nofollow'>Where is python Language used</a>
+* <a href='https://stackoverflow.com/questions/1909512/what-is-python-used-for' target='_blank' rel='nofollow'>What is python used for</a>
 
 
 
-The offcial package index for python is [here](https://pypi.python.org/pypi)
+The offcial package index for python is <a href='https://pypi.python.org/pypi' target='_blank' rel='nofollow'>here</a>
 
