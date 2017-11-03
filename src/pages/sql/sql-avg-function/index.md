@@ -21,5 +21,6 @@ from student
 group by studentID, FullName;
 ```
 
+
 ![image-1](https://github.com/SteveChevalier/guide-images/blob/master/avg_function01.JPG?raw=true)
 
