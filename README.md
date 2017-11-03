@@ -29,9 +29,11 @@ We welcome your help writing these articles. You don't have to be an expert in a
 
 To help, find a `stub article` on our [Guide website](https://guide.freecodecamp.org/), write the article, then open a pull request (PR) to replace the stub with your article.
 
-If you can't find a stub about the topic you'd like to write about, you can open a PR that creates the stub and includes your draft article. Feel free to ask us questions if you're not sure where to put a new article in the directory structure.
+If you can't find a stub about the topic you'd like to write about, you can open a PR that creates the stub and includes your draft article. 
 
-Before you begin writing, make sure to read the [article style guide](https://github.com/freeCodeCamp/guides/blob/master/CONTRIBUTING.md#article-style-guide) below.
+Feel free to ask us questions [in Gitter](https://gitter.im/freeCodeCamp/Contributors) if you're not sure where to put a new article in the directory structure.
+
+Before you begin writing, make sure to read the [article style guide](https://github.com/freeCodeCamp/guides/blob/master/CONTRIBUTING.md#article-style-guide) outlined in [CONTRIBUTING.md](CONTRIBUTING.md). 
 
 ## Contributing
 
