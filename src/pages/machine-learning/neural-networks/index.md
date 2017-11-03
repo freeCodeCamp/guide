@@ -12,6 +12,10 @@ The most basic element of a neural network is a neuron. Its input is a vector, s
 
 Neural networks are used on a variety of tasks, including computer vision, speech recognition, translation, social network filtering, playing video games, and medical diagnosis.
 
+### Visualization
+
+There's an awesome tool to help you grasp the idea of neural networks without any hard math: <a href='http://playground.tensorflow.org' target='_blank' rel='nofollow'>TensorFlow Playground</a>, a web app that lets you play with a real neural network running in your browser and click buttons and tweak parameters to see how it works.
+
 ### Problems solved using Neural Networks
 - Classification
 - Clustering

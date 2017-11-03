@@ -4,12 +4,17 @@ title: Bootstrap Forms
 ## Bootstrap Forms
 ---
 
-One can use the CSS formatting of Bootstrap to style forms on their webpages.
+Bootstrap framework provides a form feature which a programmer can use to create beautiful html forms easily. Using the bootstrap form gives each individual form element a unified global style. Bootstrap form adds the right spacing and look to each element. 
 
-#### Basic Example
+Each bootstrap form element should have a class *form-control*. This class is how bootstrao knows which elements to style. All textual elements like **input**, **textarea** and **select** that has *form-control* class will have 100% width by default. There are two types of Bootstrap forms, which are:
 
-All textual `<input>`, `<textarea>`, and `<select>` elements with `.form-control` are set to `width: 100%;` by default.  Wrap labels and controls in `.form-group` for optimum spacing.
-```html
+* Inline form - creates the form on a single line. Useful for login forms in a nav bar
+* Horizontal form - creates a form with each element in a different row
+
+## Example of a basic form
+
+```html 
+
 <form>
   <div class="form-group">
     <label for="exampleInputEmail1">Email address</label>
@@ -31,15 +36,13 @@ All textual `<input>`, `<textarea>`, and `<select>` elements with `.form-control
   </div>
   <button type="submit" class="btn btn-default">Submit</button>
 </form>
+
 ```
-![Example Form](https://github.com/TroyB12/Pictures/blob/master/image.png)
 
----
+## Example of an inline form
 
-#### Inline Form
-
-On the `<form>` element, add a class named `.form-inline` for left-aligned and inline-block controls.  According to [Bootstrap Website](https://getbootstrap.com/docs/3.3/css/#forms), this only applies to forms within viewports that are at least 768px wide.
 ```html
+
 <form class="form-inline">
   <div class="form-group">
     <label for="exampleInputName2">Name</label>
@@ -51,29 +54,43 @@ On the `<form>` element, add a class named `.form-inline` for left-aligned and i
   </div>
   <button type="submit" class="btn btn-default">Send invitation</button>
 </form>
+
 ```
 
-![Inline Form](https://github.com/TroyB12/Pictures/blob/master/Inline%20Form.PNG)
+## Example of horizontal form
 
 ```html
-<form class="form-inline">
-  <div class="form-group">
-    <label class="sr-only" for="exampleInputEmail3">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
-  </div>
-  <div class="form-group">
-    <label class="sr-only" for="exampleInputPassword3">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
-  </div>
-  <div class="checkbox">
-    <label>
-      <input type="checkbox"> Remember me
-    </label>
-  </div>
-  <button type="submit" class="btn btn-default">Sign in</button>
-</form>
-```
 
+<form class="form-horizontal">
+  <div class="form-group">
+    <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <div class="checkbox">
+        <label>
+          <input type="checkbox"> Remember me
+        </label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-default">Sign in</button>
+    </div>
+  </div>
+</form>
+
+```
 ![Inline Form 2](https://github.com/TroyB12/Pictures/blob/master/Inline%20Form2.PNG)
 
 ```html
@@ -127,4 +144,3 @@ In combination with Bootstrap's predefined grid classes to align labels and grou
 ```
     
 ![Horizontal Form](https://github.com/TroyB12/Pictures/blob/master/Horizontal%20Form.PNG)
-
