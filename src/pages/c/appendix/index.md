@@ -8,6 +8,7 @@ Because C is such a low-level language, there are a lot of terms that come up th
 The compilation is the process of taking the human-readable code and turning it into machine-readable code. This process is performed by a compiler.
 
 ## Compiler
+
 A compiler is a program that compiles code, meaning it changes it from something human-readable into something machine-readable.
 
 ## Debugging/Debugger
@@ -20,6 +21,7 @@ GNU+Linux is the technically accurate term for what is commonly referred to as "
 Graphical User Interface. A GUI will allow you to interact with a program by pointing and clicking rather than having to type in commands.
 
 ## Header Files
+
 Header files are files containing function declarations that are defined in other source files. These are typically 'included' at the top of a source file.
 
 ## IDE
