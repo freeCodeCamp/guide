@@ -57,4 +57,11 @@ while(!sorted) {
 }
 ```
 
+## Properties
+- Space Complexity: O(1)
+- Time Complexity : O(n^2) 
+- Stable          : Yes
+
+## More Reading
+- [Wikipedia](https://en.wikipedia.org/wiki/Bubble_sort)
 
