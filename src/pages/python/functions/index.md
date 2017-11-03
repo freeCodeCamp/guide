@@ -85,7 +85,7 @@ result = s(1, 2)
 
 - If a function definition includes parameters, you must provide the same number of parameters when you call the function.
 
-  ```
+  ```python
   print multiply(3)    //TypeError: multiply() takes exactly 2 arguments (0 given)
 
   print multiply('a', 5)  //'aaaaa' printed to the console
@@ -95,7 +95,7 @@ result = s(1, 2)
 
 - The block of code that the function will run includes all statements indented within the function.
 
-  ```
+  ```python
   def myFunc():
     print 'this will print'
     print 'so will this'
