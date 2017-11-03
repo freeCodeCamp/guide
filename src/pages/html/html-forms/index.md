@@ -44,7 +44,7 @@ There are various form elements available like text fields, textarea fields, dro
 
 The HTML <form> tag is used to create an HTML form and it has following syntax −
     
-    <form action = "Script URL" method = "GET|POST">
+    <form action = "your_post_url" method = "GET|POST">
          form elements like input, textarea etc.
     </form>
 
