@@ -1,3 +1,7 @@
+---
+title: RegExp.prototype.exec
+---
+
 The **`exec()`** method executes a search for a match in a specified string. Returns a result array, or [`null`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/null "The value null represents the intentional absence of any object value. It is one of JavaScript's primitive values.").
 
 If you are executing a match simply to find true or false, use the [`RegExp.prototype.test()`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/test "The test() method executes a search for a match between a regular expression and a specified string. Returns true or false.") method or the [`String.prototype.search()`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/search "The search() method executes a search for a match between a regular expression and this String object.") method.
