@@ -11,21 +11,21 @@ Web components are based on existing web standards. Features to support web comp
 #### Specifications
 
 >Web components are based on four main specifications:
-
+>
 >Custom Elements
-
+>
 >The Custom Elements specification lays the foundation for designing >and using new types of DOM elements.
-
+>
 >Shadow DOM
-
+>
 >..The shadow DOM specification defines how to use encapsulated style >and markup in web components.
-
+>
 >HTML imports
-
+>
 >The HTML imports specification defines the inclusion and reuse of >HTML documents in other HTML documents.
-
+>
 >HTML Template
-
+>
 >The HTML template element specification defines how to declare >fragments of markup that go unused at page load, but can be >instantiated later on at runtime.
 <sup>2</sup>
 
