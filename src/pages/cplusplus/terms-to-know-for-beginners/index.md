@@ -30,24 +30,19 @@ A sample program :
 using namespace std :
 int main()
 {
-    cout<<"I Love freeCodeCamp!";
+    cout << "I Love freeCodeCamp ! ";
 }
 ```
 
-<<<<<<< HEAD
 The above code returns an error because at line 2, we have used a colon(:) instead of a semicolon(;)
 So, let's debug the error:
-=======
-The above code returns an error because at line 2 , we have used a colon(:) instead of a semicolon(;)
-So, let's debug the error :
->>>>>>> parent of d43a9a32... Revert "Merge branch 'master' into patch-2"
 
 ```C++
 #include <iostream>
 using namespace std ;
 int main()
 {
-    cout<<"I Love freeCodeCamp!";
+    cout << "I Love freeCodeCamp ! ";
     return 0;
 }
 
@@ -59,7 +54,7 @@ The output will be : `I Love freeCodeCamp!`
 ### Now , let's change the text to something else like this:
 
 ```cpp
-    cout<<"Hello World!\t I love freeCodeCamp!";
+    cout << "Hello World!\t I love freeCodeCamp!";
 ```
 
 The output will be something different this time:
@@ -84,7 +79,7 @@ Hello World!	 I love freeCodeCamp!
 ##### Now, let's try printing numbers and special characters with some escape sequences:
 
 ```cpp
-    cout<<"40158 \t 236708 ! \n \\ @ \?"<<endl;
+    cout << "40158 \t 236708 ! \n \\ @ \?" << endl;
 ```
 
 The output changes to:
@@ -96,8 +91,8 @@ The output changes to:
 ##### Let's try some other ways of printing:
 
 ```cpp
-    cout<<"1+2"<<endl;
-    cout<<1+2<<endl;
+    cout << "1+2" << endl;
+    cout << 1+2 << endl;
 ```
 
 Output:
@@ -118,9 +113,9 @@ This is because we did not add the inverted commas for the second print statemen
 #### Example of using comments:
 
  ```cpp
-
-     cout<<"Hello Comment"<<endl; //cout<<"Hello Comment"<<endl; , Single Line Comment.
-    /* This is an example of a multi line comment. No output is generated for this.
+     cout << "Hello Comment" << endl; //cout<<"Hello Comment"<<endl; , Single Line Comment.
+     
+    /* This is an example of a multi line comment. No output is generated for this .
     I now end the comment.  :) */
  ```
  The output will be:
@@ -133,7 +128,4 @@ This is because we did not add the inverted commas for the second print statemen
 
 
 
-<<<<<<< HEAD
 By Jaithra Bhatia and Hitarth Asrani.
-=======
->>>>>>> parent of d43a9a32... Revert "Merge branch 'master' into patch-2"
