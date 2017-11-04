@@ -3,11 +3,11 @@ title: Comments
 ---
 ## Comments
 
-programmers use comments to add hints, notes, suggestions, or warnings to their source code, they have no effect on the actual output of the code. Comments can be very helpful in explaining the intent of what your code is or should be doing.
+Programmers use comments to add hints, notes, suggestions, or warnings to their source code. They have no effect on the actual output of the code. Comments can be very helpful in explaining the intent of what your code is or should be doing.
 
 JavaScript has two ways of assigning comments in its code.
 
-the first way is the `//` comment, this makes all text following it on the same line into a comment. For example:
+The first way is the `//` comment. This makes all text following it on the same line into a comment. For example:
 ```javascript
 function hello() {
   // This is a one line JavaScript comment
