@@ -3,6 +3,9 @@ title: Functions
 ---
 ## Functions
 
+
+Functions are blocks of code that can be reused simply by calling the function. This enables simple, elegant code reuse without explicitly re-writing sections of code. This makes code both more readable, makes for easier debugging, and limits typing errors. 
+=======
 A function allows you to define a reusable block of code that can be executed many times within your program. 
 
 Functions allow you to create more modular and [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) solutions to complex problems.
@@ -41,11 +44,12 @@ print(multiply(3, 5))  # prints 15 to the console
 
 Functions are blocks of code that can be reused simply by calling the function. This enables simple, elegent code reuse without explicitly re-writing sections of code. This makes code both more readable, makes for easier debugging, and limits typing errors. 
 
+
 Functions in Python are created using the `def` keyword, followed by a function name and function parameters inside parentheses.
 
-The `return` keyword is used by the function to return a value, if you don't want to return any value, the default value `None` will returned. 
+The `return` keyword is used by the function to return a value, if you don't want to return any value, the default value `None` will be returned. 
 
-The function name is used to call the function, passing the needed parameters inside parentheses.
+The function name is used to call the function, after passing the needed parameters inside parentheses.
 
 ```python
 # this is a basic sum function
@@ -66,14 +70,14 @@ result = sum(1)
 # result = 4
 ```
 
-You can pass the parameters in the order you whant, using the name of the parameter.
+You can pass the parameters in the order you want, using the name of the parameter.
 
 ```python
 result = sum(b=2, a=2)
 # result = 4
 ```
 
-Functions are also Objects, that way you can assign then to another variable, and use that variable like a function.
+Functions are also objects, that way you can assign then to another variable, and use that variable like a function.
 
 ```python
 s = sum
