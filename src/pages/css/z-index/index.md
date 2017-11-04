@@ -3,7 +3,7 @@ title: Z Index
 ---
 ## Z Index
 
-Z Index (`z-index`) is a CSS property that let's us define the order of overlapping HTML elements. Elements with a higher index will be placed on top of elements with a lower index.
+Z Index (`z-index`) is a CSS property that lets us define the order of overlapping HTML elements. Elements with a higher index will be placed on top of elements with a lower index.
 
 **Note**: Z index only works on positioned elements (`position:absolute`, `position:relative`, or `position:fixed`).
 
