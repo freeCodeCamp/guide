@@ -30,4 +30,4 @@ Finally, there is the **Margin Area**. This creates clear space around the eleme
 The default for this property is `content-box`. If you use the default then the box model will allow the author to specify the size of the content area. However, it is possible to use these to instead specify the size of the border area. This is done by changing `box-sizing` property to `border-box`. This can sometimes make layouts easier. You can set the `box-sizing` property per element as desired.
 
 #### More Information:
-
+[MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Box_model)
