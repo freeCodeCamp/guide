@@ -22,3 +22,9 @@ For e.g:
     int x = 10;
     int y = (x == 10) ? 5 : 9; // y will equal 5 since the expression x == 10 evaluates to true
 ```
+
+For e.g:
+```java
+    char a = 'B';
+    char b = (a == 'K') ? C : D; // b will equal D since the expression a == 'K' evaluates to false
+```
