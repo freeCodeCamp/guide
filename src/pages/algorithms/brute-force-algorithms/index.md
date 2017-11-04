@@ -1,15 +1,21 @@
----
-title: Brute Force Algorithms
----
-## Brute Force Algorithms
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/algorithms/brute-force-algorithms/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+## Brute Force Algorithm
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+  1.List all possible Hamilton circuits (leaving out the exact reversals, if you wish)
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+  2.Find the weight of each
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+  3.Choose (the) one with the smallest weight.
 
 
+Pluses: It always works (given enough time & care).
+
+Minuses: It can only be used for relatively small graphs. For a computer doing 10,000 circuits/sec, it would take about 18 seconds to handle 10 vertices, 50 days to handle 15 vertices, 2 years for 16 vertices, 193,000 years for 20 vertices.
+
+Bottom line: Unfortunately, the Brute Force Algorithm is the ONLY method known that is guaranteed to produce an optimal solution.
+
+Mathematicians have not been able to prove that another such method exists nor have they been able to prove that one doesn’t exist.
+
+This is one of the most important and famous unsolved problems in mathematics. If you can find an efficient solution to the TSP, you will be rich and famous!!
+
+Although we do not have an efficient algorithm for solving TSPs, we do have several algorithms that produce results that may not be optimal; in this respect, we are willing to give up our requirement for an optimal solution in the interest of time and settle for a "good" solution which may not be optimal. We call this class of algorithms approximate algorithms. The remaining algorithms are approximate algorithms.
