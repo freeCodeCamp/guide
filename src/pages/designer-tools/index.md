@@ -9,10 +9,10 @@ These are some of them:
 
 [Adobe Experience Design](www.adobe.com/products/experience-design.html)
 
-[Figma](https://www.figma.com)
+<a href='https://www.figma.com' target='_blank' rel='nofollow'>Figma</a>
 
-[Framer](https://framer.com)
+<a href='https://framer.com' target='_blank' rel='nofollow'>Framer</a>
 
-[Adobe Photoshop](http://adobe.com/Photoshop)
+<a href='http://adobe.com/Photoshop' target='_blank' rel='nofollow'>Adobe Photoshop</a>
 
-[Sketch](https://www.sketchapp.com)
+<a href='https://www.sketchapp.com' target='_blank' rel='nofollow'>Sketch</a>
