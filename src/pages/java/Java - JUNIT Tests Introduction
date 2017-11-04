@@ -1,0 +1,43 @@
+---
+title: JUNIT Test Cases Introduction
+---
+
+# JUNIT Framework
+JUnit is a test framework which uses annotations to identify methods that specify a test. JUnit is an open source project hosted at Github.
+
+# Defining  Junit Test
+
+A JUnit test is a method contained in a class which is only used for testing. This is called a Test class. To define that a certain method is a test method, annotate it with the @Test annotation.
+This method executes the code under test. You use an assert method, provided by JUnit or another assert framework, to check an expected result versus the actual result. These method calls are typically called asserts or assert statements.
+You should provide meaningful messages in assert statements. That makes it easier for the user to identify and fix the problem. This is especially true if someone looks at the problem, who did not write the code under test or the test code
+
+## Example
+The following code shows a JUnit test using the JUnit 5 version. This test assumes that the MyClass class exists and has a multiply(int, int) method.
+```
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.Test;
+
+public class MyTests {
+
+    @Test
+    public void multiplicationOfZeroIntegersShouldReturnZero() {
+        MyClass tester = new MyClass(); // MyClass is tested
+
+        // assert statements
+        assertEquals("10 x 0 must be 0", 0, tester.multiply(10, 0));
+        assertEquals("0 x 10 must be 0", 0, tester.multiply(0, 10));
+        assertEquals("0 x 0 must be 0", 0, tester.multiply(0, 0));
+    }
+}
+```
+
+# JUNIT naming conventions
+
+There are several potential naming conventions for JUnit tests. A widely-used solution for classes is to use the "Test" suffix at the end of test classes names.
+As a general rule, a test name should explain what the test does. If that is done correctly, reading the actual implementation can be avoided.
+One possible convention is to use the "should" in the test method name. For example, "ordersShouldBeCreated" or "menuShouldGetActive". This gives a hint what should happen if the test method is executed.
+Another approach is to use "Given[ExplainYourInput]When[WhatIsDone]Then[ExpectedResult]" for the display name of the test method.
+
+
+
