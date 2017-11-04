@@ -1,0 +1,11 @@
+---
+title: Node
+---
+
+Nodes are the elements of a DOM organization chart.
+Node properties consist of: Document, Element, CharacterData (which Text, Comment, and CDATASection inherit), ProcessingInstruction, DocumentFragment, DocumentType, Notation, Entity, EntityReference
+
+Think of a family tree elements represeted people.
+DOM elements are represented by nodes.
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/API/Node">Node</a>
