@@ -10,7 +10,7 @@ Calculating the determinant of a square two-by-two matrix is simple, and is the 
 
 Given a matrix A, the determinant of A (written as |A|) is given by the following equation:
 
-![img](http://www.sciweavers.org/tex2img.php?eq=A%3D%20%5Cbegin%7Bbmatrix%7Da%20%26%20b%20%5C%5Cc%20%26%20d%20%5Cend%7Bbmatrix%7D%20%20%5C%5C%0A%5C%5C%0A%7CA%7C%20%3D%20ad%20-%20bc&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+![img](https://ncalculators.com/images/formulas/2x2-matrix-determinant.jpg)
 
 ### More Information
 
