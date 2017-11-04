@@ -1,0 +1,28 @@
+---
+title: Python Datetime Object
+---
+
+'datetime()' Uses a specific format 
+
+## Argument
+
+It takes a string input `mm/dd/yyyy` or whatever common date format that is used - and using dateutil parser library, you are able to convert your string into a Python datetime object. 
+
+## Return Value
+
+The return value would be a Python datetime objects with the following format: 
+
+  class datetime.datetime(year, month, day[, hour[, minute[, second[, microsecond[, tzinfo]]]]])
+
+## Code Sample
+  
+  # parsing string to get Python datetime oject
+  
+  from dateutil import parser
+  
+  date_string = 'October 1, 2017'
+  parser.parse(date_string)
+  
+  out: datetime.datetime(2017, 10, 1, 0, 0)
+  
+  
