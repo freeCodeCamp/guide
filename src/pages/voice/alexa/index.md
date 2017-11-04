@@ -1,7 +1,8 @@
 ---
-title: Amazon Alexa Development
+title: Alexa
 ---
-## Amazon Alexa Development
+
+## Alexa
 
 The Alexa platform was created by Amazon, and formally released for development by external parties in 2015. It provides the ability for users to interact with Alexa enabled devices using just their voice, and no interaction with a touch screen. The platform contains both hardware and software components. Amazon manufactures and sells the hardware devices which come with a variety of features and price points.
 
