@@ -11,6 +11,10 @@ const meta = [
     name='viewport'
   />,
   <meta
+    content='article'
+    property='og:type'
+  />,
+  <meta
     content='summary'
     name='twitter:card'
   />,
