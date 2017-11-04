@@ -1,7 +1,17 @@
+---
+title: ES6
+---
 
-The 6th edition of ECMAScript is called ES6. It is also know as ES2015. The changes add a lot of syntactic sugar that allow developers to create applications in an object oriented style. 
+## ES6
 
-ES5 example:
+The 6th edition of ECMAScript is called ES6. 
+
+It is also know as ES2015. 
+
+The changes add a lot of syntactic sugar that allow developers to create applications in an object oriented style. 
+
+> ES5 example:
+
 ```javascript
 var User = function () {
   function User(name) {
@@ -16,7 +26,8 @@ var User = function () {
 }();
 ```
 
-ES6 example:
+> ES6 example:
+
 ```javascript
 class User {
   constructor(name) {
