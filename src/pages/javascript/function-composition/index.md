@@ -1,6 +1,7 @@
 ---
-title: Function composition
+title: Function Composition
 ---
+
 ## Function composition
 
 Function composition is the pointwise application of one function to the result of another. Developers do it in a manual manner every day when the nest functions:
