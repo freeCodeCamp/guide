@@ -3,13 +3,12 @@ title: Definition of Mode
 ---
 ## Definition of Mode
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/definition-of-mode/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Mode is the number which appears most often in a set of numbers. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+##### Example: in {6, 3, 9, 6, 6, 5, 9, 3} the Mode is 6 (it occurs most often).
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
+Read more on <a href="https://en.wikipedia.org/wiki/Mode_(statistics)"> Wikipedia</a>
 
 
