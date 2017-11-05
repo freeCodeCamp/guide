@@ -2,14 +2,24 @@
 title: Area of a Triangle
 ---
 ## Area of a Triangle
+Area of a Triangle is half of the product of: "height(or altitude)" and "length of base" of triangle.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/area-of-a-triangle/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+T = (b x h) / 2
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+![Triangle](https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Triangle.TrigArea.svg/165px-Triangle.TrigArea.svg.png)
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+#### Terminology
+**b:** base of triangle
+
+**h:** height(or altitude) of triangle
+
+**T:** Area of triangle
+
+#### Examples
+
+1. **b** = 10 units, **h** = 5 units, **A** = (b x h) / 2 = **25 square units**
+
+2. **b** = 4.5 units, **h** = 6.8 units, **A** = **15.3 square units**
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+[Wikipedia](https://en.wikipedia.org/wiki/Triangle)
