@@ -7,7 +7,7 @@ title: For Loop
 For loop is called a counted loop, since it runs for a specified number of times.
 
 ## Example
-```
+```C#
 for (i = 0; i < 5; i++)
 {
     Console.WriteLine("Number " + i);
