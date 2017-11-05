@@ -3,13 +3,61 @@ title: Height and Width Dimensions
 ---
 ## Height and Width Dimensions
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/height-and-width-dimensions/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+#### Height
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The CSS property of height defines the height of an element. By default the property sets the height of the content area. This can be changed to specify the border area as well. 
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+###### Value options:
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+```
+/* Keyword */ 
+
+height: auto;
+
+/* By length */
+
+height: 40em;
+height: 20px;
+
+/* BY Percent*/ 
+
+height: 20%;
+
+/* Global */ 
+
+height: initial;
+height: inherit;
+height: unset;
+
+```
+
+#### Width
+
+The CSS property of width defines the width of an element. By default the property sets the height of the content area. This can be changed to specify the border area as well. 
+
+###### Value options:
+
+```
+/* Keyword */ 
+
+width: fit-content;
+width: auto;
+
+/* By length */
+
+width: 2em;
+width: 450px;
+
+/* BY Percent*/ 
+
+width: 50%;
+
+/* Global */ 
+
+width: initial;
+width: inherit;
+width: unset;
+
+```
 
 
