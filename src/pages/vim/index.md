@@ -15,5 +15,4 @@ Vim is rock stable and boasts many features including:
 
 For more information head to <a href='https://vim.sourceforge.io' target='_blank' rel='nofollow'>Vim's homepage</a>
 
-This tutorial is extremely helpful when learning how to use vim.
-http://www.openvim.com/
+To get started, [Open Vim](http://www.openvim.com/) is an online, interactive Vim tutorial you can do right in your browser.
