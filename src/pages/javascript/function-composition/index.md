@@ -1,3 +1,8 @@
+---
+title: Function composition
+---
+## Function composition
+
 Function composition is the pointwise application of one function to the result of another. Developers do it in a manual manner every day when the nest functions:
 
 ```javascript
@@ -10,7 +15,7 @@ But this is hard to read. There is a better way using function composition. Inst
 add2AndSquare = (n) => square(add2(n))
 ``` 
 
-We can use a higher order function to create chain explicitly.
+We can use a higher order function to chain them in an ordered way.
 ```javascript
 add2AndSquare = compose( add2, square)
 ``` 
@@ -23,7 +28,7 @@ compose = (f1, f2) => value => f2( f1(value) );
 
 To get even more flexibility we can use the reduceRight function:
 ```javascript
-compose = (...fns) => (initialVal) => fns.reduceRight((val, fn) => fn(val);, initialVal);
+compose = (...fns) => (initialVal) => fns.reduceRight((val, fn) => fn(val), initialVal);
 
 ```
 
