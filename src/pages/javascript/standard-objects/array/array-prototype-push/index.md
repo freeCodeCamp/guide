@@ -1,10 +1,10 @@
 ---
 title: Array.prototype.push
 ---
-## Array.prototype.push
 
-The 'push' method adds one or more elements to the end of an array.
+The 'push' method adds one or more elements to the end of an array and returns the new length of the array.
 
+## Example
 ```javascript
 var colors = ['Red', 'Green', 'Purple'];
 colors.push('Yellow', 'Pink');

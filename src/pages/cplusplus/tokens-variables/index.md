@@ -64,7 +64,7 @@ The syntax is as follows ~
 <Data-type> <Variable-name> ; 
 
 For example :
- ```C++
+ ```cpp
  int a ; //declaring a variable named 'a' of type integer.
  a=4;    //initializing a variable
  ```
@@ -86,7 +86,8 @@ For example :
  ![Img](https://i.imgur.com/YdbgWHL.png)
 
 ##### Garbage Values in a variable.
- ```C++
+
+ ```cpp
  #include<iostream>
  using namespace std;
 int main()
@@ -125,6 +126,4 @@ _Tokens part 1 is over. See you campers at Part 2 of Tokens :)_
 
  **Happy Coding ! :)**
 
- **Feel free to ask any queries on FreeCodeCamp's GitHub page or [FreeCodeCamp's Forum .](https://forum.freecodecamp.org/)**
-
-By : Jaithra Bhatia and Hitarth Asrani.
+ **Feel free to ask any queries on FreeCodeCamp's GitHub page or <a href='https://forum.freecodecamp.org/' target='_blank' rel='nofollow'>FreeCodeCamp's Forum .</a>**
