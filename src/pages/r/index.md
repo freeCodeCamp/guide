@@ -15,3 +15,4 @@ R is an open source programming language and software environment for statistica
  * [r Studio](https://www.rstudio.com/online-learning/)
  * [Code school](http://tryr.codeschool.com/)
  * [Coursera](https://www.coursera.org/learn/r-programming)
+ * [DataCamp](https://www.datacamp.com)

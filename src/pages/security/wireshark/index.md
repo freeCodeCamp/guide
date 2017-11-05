@@ -7,19 +7,4 @@ You could think of a network packet analyzer as a measuring device used to exami
 In the past, such tools were either very expensive, proprietary, or both. However, with the advent of Wireshark, all that has changed.
 Wireshark is perhaps one of the best open source packet analyzers available today.
 
-## Some intended purposes-
-
-Here are some examples people use Wireshark for:
-
-a) Network administrators use it to troubleshoot network problems
-
-b) Network security engineers use it to examine security problems
-
-c) Developers use it to debug protocol implementations
-
-d) People use it to learn network protocol internals
-
-#### More Information:
-https://www.wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html
-
 
