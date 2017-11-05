@@ -13,6 +13,8 @@ function myFunction(a, b) {
 myFunction(10, 2);           // Function invocation, will return 20 
 ```
 
+In the example code, a and b are the function's parameters that hold the values 10 and 2, that are the arguments used in the function call.
+
 ### Invoking a Function as a Method
 In JavaScript, you can define functions as object methods.
 
@@ -30,6 +32,6 @@ myObject.fullName();         // Function invoked as a method, will return "John 
 ```
 
 ### More Information:
-- Function documentation: [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
+- Function documentation: <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions' target='_blank' rel='nofollow'>MDN</a>
 
 
