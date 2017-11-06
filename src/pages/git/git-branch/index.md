@@ -82,6 +82,13 @@ git branch -D BRANCH-TO-DELETE
 git branch -d --force BRANCH-TO-DELETE
 git branch --delete --force BRANCH-TO-DELETE
 ```
+To delete a remote branch you should run the following command:
+```shell
+git push REMOTE-NAME :BRANCH-TO-DELETE
+
+# Alternative (since v1.7.0):
+git push REMOTE-NAME --delete BRANCH-TO-DELETE
+```
 
 ### Compare Branches <a name="compare-branches"></a>
 You can compare branches with the `git diff` command:
