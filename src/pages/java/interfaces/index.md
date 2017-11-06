@@ -1,7 +1,7 @@
 ---
-title: Java Docs Interfaces
+title: Interfaces
 ---
-# Java Interfaces
+# Interfaces
 
 Interface in Java is a bit like the Class, but with a significant difference : an `interface` can _only_ have method signatures and fields. That means, an Interface cannot contain the implementation of any method, just its signature, i.e. the name, parameters and exceptions of the method. For example :
 

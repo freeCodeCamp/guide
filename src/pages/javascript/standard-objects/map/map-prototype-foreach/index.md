@@ -3,13 +3,32 @@ title: Map.prototype.forEach
 ---
 ## Map.prototype.forEach
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/standard-objects/map/map-prototype-foreach/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Executes the provided function once per each key/value pair in the `Map` object, in insertion order.
+Returns `undefined`.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+## Syntax
+```javascript
+myMap.forEach(callback, thisArg)
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+## Parameters
+**callback** Function to execute for each element.
+**thisArg** Value to use as this when executing callback.
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
+##Example
+```javascript
+const myMap = new Map();
+myMap.set('foo',1);
+myMap.set('bar',2);
+myMap.set('baz',3);
 
+function valueLogger(value, key, map){
+    console.log(`${value}`);
+}
+
+myMap.forEach(valueLogger);
+// 1
+// 2
+// 3
+```

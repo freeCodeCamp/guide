@@ -3,13 +3,23 @@ title: Nav Tag
 ---
 ## Nav Tag
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/nav-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The purpose of the `<nav>` element is to provide a section of a webpage that contains links to other sections in the same document or to other documents.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Example
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```html
+<html>
+  <body>
+    <nav class="menu">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </body>
+</html>
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+- <a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav' target='_blank' rel='nofollow'>MDN</a>

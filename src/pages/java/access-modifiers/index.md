@@ -1,7 +1,7 @@
 ---
-title: Java Docs Access Modifiers
+title: Access Modifiers
 ---
-# Java Access Modifiers
+# Access Modifiers
 
 Have you ever wanted to define how people would access some of your properties. You would not want anyone using your underwears but your close friends and family relatives can as well use your sweater and maybe your car.
 
@@ -85,4 +85,6 @@ protected String getName(){
   return "My Name is You";
 }
 ```
+Here the concise form of access modifier in the form of table:
+ (https://qph.ec.quoracdn.net/main-qimg-fc12c8e22920851b748ba9f626f3836a)
     

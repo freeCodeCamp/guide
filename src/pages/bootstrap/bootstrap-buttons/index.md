@@ -48,7 +48,30 @@ This is a list of the CSS classes that bootstrap provides for buttons.
 
 <button type="button" class="btn btn-link">Link</button>
 
+#### Bootstrap Button Sizes:
+This is a list of the CSS classes for different size of the buttons.
+
+`.btn-lg` This is bootstrap's large button.
+
+<button type="button" class="btn btn-lg">Large</button>
+
+`.btn-sm` This is bootstrap's large button.
+
+<<<<<<< HEAD
+#### More Information:
+These documentation will provide more examples about how to use more features from boostrap's buttons and learn about they
+- <a href='http://getbootstrap.com/docs/4.0/components/buttons/'> Buttons </a>
+- <a href='http://getbootstrap.com/docs/4.0/components/button-group/'> Button group </a>
+=======
+<button type="button" class="btn btn-sm">Small</button>
+
+`.btn-xs` This is bootstrap's large button.
+
+<button type="button" class="btn btn-xs">Extra Small</button>
+
 _Note: Do not include the dot in the HTML Class Attribute, referring to the classes with a dot is only used when adjusting the classes in CSS._
 
-#### More Information:
+#### More Information: 
+* <a href='https://getbootstrap.com/docs/4.0/components/buttons/' target='_blank' rel='nofollow'>Bootstrap Buttons documentation</a>
 * [Bootstrap Get Started](/articles/bootstrap/bootstrap-get-started)
+>>>>>>> parent of d43a9a32... Revert "Merge branch 'master' into patch-2"

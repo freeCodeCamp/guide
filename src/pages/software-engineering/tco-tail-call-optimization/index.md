@@ -32,7 +32,7 @@ To solve this using Tail Call Optimization, the statement where the function cal
 In the previous example, the multiplication operation is executed last in the `return x * fact(x-1)` statement, so it was not the final operation of the function. Therefore, it is not tail call optimized. In order for it to be tail call optimized, you need to make the call to itself the last operation of the function.
 
 #### Example
-Here is an example of a JavaScript (ECMAScript 2015) factorial function using recursion **with** TCO:
+Here is an example of a JavaScript (ES5) factorial function using recursion **with** TCO.
 
 ```javascript
   function fact(n) {
@@ -51,7 +51,7 @@ Here is an example of a JavaScript (ECMAScript 2015) factorial function using re
   console.log(fact(10000)); // Infinity - Number too large, but unlike the unoptimized factorial, this does not result in stack overflow.
 ```
 
-Notice that running `fact` on 10000 this time will **not result in a stack overflow** because the call to `factTCO` is the last operation of the function.
+Notice that running `fact` on 10000 this time will **not result in a stack overflow** when *run in a browser that supports ES6* because the call to `factTCO` is the last operation of the function.
 
 ### Why this works
 When the compiler or interpreter notices that the self-call is the last operation of the function, it pops the current function and pushes the self-call to the stack. This way the size of the stack isn't changed. Therefore, the stack doesn't overflow because of the function.
@@ -59,5 +59,5 @@ When the compiler or interpreter notices that the self-call is the last operatio
 ### Notes
 
 #### More Information:
-- [What is tail call optmization?](https://stackoverflow.com/questions/310974/what-is-tail-call-optimization) (StackOverflow)
-- [Tail call optimization in ECMAScript 6](http://2ality.com/2015/06/tail-call-optimization.html) (2ality - Dr. Axel Rauschmayer's blog)
+- <a href='https://stackoverflow.com/questions/310974/what-is-tail-call-optimization' target='_blank' rel='nofollow'>What is tail call optmization?</a> (StackOverflow)
+- <a href='http://2ality.com/2015/06/tail-call-optimization.html' target='_blank' rel='nofollow'>Tail call optimization in ECMAScript 6</a> (2ality - Dr. Axel Rauschmayer's blog)
