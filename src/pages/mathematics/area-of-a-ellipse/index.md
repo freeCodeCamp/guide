@@ -1,6 +1,11 @@
 ---
 title: Area of a Ellipse
 ---
+
+The area of an ellipse can be found by the following formula area = pi*a*b 
+where b is the distance from the center to a co-vertex
+a is the distance from the center to a vertex.
+
 ## Area of a Ellipse
 
 A Circle is stretched by factor **r**(radius) in all directions.
