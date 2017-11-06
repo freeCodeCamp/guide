@@ -29,6 +29,5 @@ So, we associated the function object with `square` and hence from now on we can
 
 #### More Information:
 
-<a href='https://docs.python.org/3/reference/expressions.html#lambda' target='_blank' rel='nofollow'>Official Doc</a>
-
-<a href='https://dbader.org/blog/python-lambda-functions' target='_blank' rel='nofollow'>Further Read</a>
+- [Official Doc](https://docs.python.org/3/reference/expressions.html#lambda)
+- [Further Read](https://dbader.org/blog/python-lambda-functions)
