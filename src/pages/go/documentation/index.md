@@ -1,3 +1,7 @@
+---
+title: Documentation
+---
+
 # Official documentation
 1. [Language specification](https://golang.org/ref/spec)
 2. [Effective Go](https://golang.org/doc/effective_go.html)
