@@ -1,15 +1,22 @@
 ---
-title: AVl Trees
+title: AVL Trees
 ---
-## AVl Trees
+## AVL Trees
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/algorithms/avl-trees/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+An AVL tree is a subtype of binary search tree.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+A BST is a data structure composed of nodes. It has the following guarantees:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+1. Each tree has a root node (at the top).
+2. The root node has zero or more child nodes.
+3. Each child node has zero or more child nodes, and so on.
+4. Each node has up to two children.
+5. For each node, its left descendents are less than the current node, which is less than the right descendents.
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+AVL trees have an additional guarantee:
 
+6. The difference between the depth of right and left subtrees cannot be more than one.
+    
+In order to maintain this guarantee, an implementation of an AVL will include an algorithm to rebalance the tree when adding an additional element would upset this guarantee.
 
+AVL trees have a worst case lookup, insert and delete time of O(log n).
