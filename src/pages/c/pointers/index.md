@@ -69,6 +69,92 @@ char *lowerCase (char *string) {
 ```
 This starts by taking a string (something you'll learn about when you get into arrays) and runs through each location. Notice the p++. This increments the pointer, which means that it is looking at the next memory location. Each letter is a memory location, so in this way the pointer is looking at every letter and deciding what to do for each one.
 
+### Const Qualifer
+The qualifier const can be applied to the declaration of any variable to specify that its value will not be changed ( Which depends upon where const variables are stored, we may change value of const variable by using pointer ).
+
+# Pointer to variable
+We can change the value of ptr and we can also change the value of object ptr pointing to.
+Following code fragment explains pointer to variabel
+```
+#include <stdio.h>
+int main(void)
+{
+    int i = 10;
+    int j = 20;
+    int *ptr = &i;        /* pointer to integer */
+    printf("*ptr: %d\n", *ptr);
+  
+    /* pointer is pointing to another variable */
+    ptr = &j;
+    printf("*ptr: %d\n", *ptr);
+  
+    /* we can change value stored by pointer */
+    *ptr = 100;
+    printf("*ptr: %d\n", *ptr);
+  
+    return 0;
+}
+```
+# Pointer to constant
+We can change pointer to point to any other integer variable, but cannot change value of object (entity) pointed using pointer ptr.
+```
+#include <stdio.h> 
+int main(void)
+{
+    int i = 10;   
+    int j = 20;
+    const int *ptr = &i;    /* ptr is pointer to constant */
+  
+    printf("ptr: %d\n", *ptr); 
+    *ptr = 100;        /* error: object pointed cannot be modified
+                     using the pointer ptr */
+  
+    ptr = &j;          /* valid */
+    printf("ptr: %d\n", *ptr);
+  
+    return 0;
+}
+```
+# Constant pointer to variable
+In this we can change the value of the variable the pointer is pointing to. But we can't change the pointer to point to 
+another variable.
+```
+#include <stdio.h>
+int main(void)
+{
+   int i = 10;
+   int j = 20;
+   int *const ptr = &i;    /* constant pointer to integer */
+  
+   printf("ptr: %d\n", *ptr);
+  
+   *ptr = 100;    /* valid */
+   printf("ptr: %d\n", *ptr);
+  
+   ptr = &j;        /* error */
+   return 0;
+}
+```
+# constant pointer to constant
+Above declaration is constant pointer to constant variable which means we cannot change value pointed by pointer as well as we cannot point the pointer to other variable.
+```
+#include <stdio.h>
+  
+int main(void)
+{
+    int i = 10;
+    int j = 20;
+    const int *const ptr = &i;        /* constant pointer to constant integer */
+  
+    printf("ptr: %d\n", *ptr);
+  
+    ptr = &j;            /* error */
+    *ptr = 100;        /* error */
+  
+    return 0;
+}
+```
+
 # Before you go on...
 ## A review
 * Pointers are variables, but instead of storing a value, they store a memory location.
