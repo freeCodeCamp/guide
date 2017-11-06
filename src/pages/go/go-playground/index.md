@@ -1,13 +1,25 @@
 ---
-title: The Go Playground
+title: Go Playground
 ---
-## The Go Playground
 
-This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/go/go-playground/index.md).
+# The Golang Playground
+The Golang playground is a website where you can write Go code online, so that you don't have to set up any developmet environment.
 
-[This quick style guide will help ensure your pull request gets accepted](https://github.com/freecodecamp/guides/blob/master/README.md).
+Just open a new browser window clinking [Playground](https://play.golang.org).
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Once there you'll get the buttons:
+1. Run
+2. Format
+3. Imports
+4. Share
+
+The Run button just send the instruction of compile the code you wrote to the google servers that run the golang Backend.
+
+The Format button implements the idiomatic formatting style of the language, you can read more [here.](https://golang.org/pkg/fmt/)
+
+Imports just check what packages you have declared within import(). An import path is a string that uniquely identifies a package. A package's import path corresponds to its location inside a workspace or in a remote repository (explained below). [More](https://golang.org/doc/code.html#ImportPaths)
+
+With Share you get an URL where the code you just wrote is saved. Useful when asking for help showing your code.
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
