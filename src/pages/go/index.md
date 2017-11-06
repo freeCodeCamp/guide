@@ -33,6 +33,6 @@ alloy dev
 
 ### Go Playground
 
-  https://play.golang.org/
+  [Go Playground](https://play.golang.org/)
 
-Learning how to install go on your local machine is important, but if want to start playing with go right in your browser, then Go Playground is the perfect sandbox to get started right away! To learn more about the Go Playground see their article titled "<a href='https://blog.golang.org/playground' target='_blank' rel='nofollow'>Inside the Go Playground</a>".
+Learning how to install go on your local machine is important, but if want to start playing with go right in your browser, then Go Playground is the perfect sandbox to get started right away! To learn more about the Go Playground see their article titled [Inside the Go Playground](https://blog.golang.org/playground)
