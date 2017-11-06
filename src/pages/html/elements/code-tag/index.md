@@ -3,13 +3,18 @@ title: Code Tag
 ---
 ## Code Tag
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/code-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The HTML `<code>` tag is used for indicating a piece of code. The code tag surrounds the code being marked up.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+## Syntax
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```html
+<code>...</code>
+```
+
+## Example
+```html 
+<code>A piece of computer code</code>
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+MDN Documentation: <a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code' target='_blank' rel='nofollow'>MDN</a>
