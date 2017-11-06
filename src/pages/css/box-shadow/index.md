@@ -2,14 +2,60 @@
 title: Box Shadow
 ---
 ## Box Shadow
+The box-shadow property attaches one or more shadows to an element. 
+It's  an option that give you the power to easily design wonderful shadow effects.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/box-shadow/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+### Syntax:
+```css
+  div {
+    box-shadow: none | [inset? && [ <offset-x> <offset-y> <blur-radius>? <spread-radius>? <color>? ] ]#
+    }
+  ```
+* #### inset 
+If not specified (default), the shadow is assumed to be a drop shadow (as if the box were raised above the content).
+The presence of the inset keyword changes the shadow to one inside the frame
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+* #### offset-x offset-y
+These are two <length> values to set the shadow offset. <offset-x> specifies the horizontal distance. Negative values place the shadow to the left of the element. <offset-y> specifies the vertical distance. Negative values place the shadow above the element. See <length> for possible units.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+* #### blur-radius
+This is a third <length> value. The larger this value, the bigger the blur, so the shadow becomes bigger and lighter. Negative values are not allowed. If not specified, it will be 0 (the shadow's edge is sharp).
+  
+* #### spread-radius
+This is a fourth <length> value. Positive values will cause the shadow to expand and grow bigger, negative values will cause the shadow to shrink. If not specified, it will be 0 (the shadow will be the same size as the element).
+ 
+* #### color 
+This is fifth value used to set shadow color
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+### Examples
 
+#### Basic use
+```css
+div {
+    width: 200px;
+    height: 50px;
+    background-color: #333;
+    box-shadow: 10px 10px 5px #ccc;
+}
+```
+10px - offset-x
+10px - offset-y
+5px -  blur
+#ccc - light gray color
 
+It will display
+
+![image](https://raw.githubusercontent.com/krzysiekh/images/master/box-shadow1.png)
+
+#### Inside box shadow
+```css
+div {
+    width: 200px;
+    height: 50px;
+    background-color: #333;
+    box-shadow: inset 10px 10px 5px #ccc;
+}
+```
+It uses very similar code, but with inset value, which displays shadow inside div element
+
+![image](https://raw.githubusercontent.com/krzysiekh/images/master/box-shadow2.png)
