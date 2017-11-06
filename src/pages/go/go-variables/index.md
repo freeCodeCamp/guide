@@ -11,22 +11,22 @@ A regular A variable declaration creates one or more variables, binds correspond
 and an initial value.
 
 Example:
-```
+``` go
 var x int = 1
 ```
 or
-```
+``` go
 var x int
 ```
 or
-```
+``` go
 var x, y float32 = -1, -2
 ```
 
 ## Method 2: Short variable declarations
 
 It is shorthand for a regular variable declaration with initializer expressions but no types, and use the syntax:
-```
+``` go
 x := 1
 ```
 Short variable declarations may appear only inside functions. In some contexts such as the initializers for "if", "for", or 
