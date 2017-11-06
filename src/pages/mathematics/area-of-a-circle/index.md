@@ -64,4 +64,4 @@ Area of circle =  <i>C</i><sup>2</sup></span> / 4 * <span class="texhtml"><span 
      Area = 625 / (4 * 3.14) = 49.76 <span>cm<sup>2</sup></span>
 
 #### More Information:
-More information with illustrations can be found <a href="https://www.wikihow.com/Calculate-the-Area-of-a-Circle">here</a>
+More information with illustrations can be found [WikiHow](https://www.wikihow.com/Calculate-the-Area-of-a-Circle)
