@@ -13,7 +13,7 @@ function NavItem(props) {
   const { isStubbed, path, title } = props;
   return (
     <li>
-      <Link to={ path }>
+      <Link data-navitem='true' to={ path }>
         <span
           className={
             'navItemTitle' +

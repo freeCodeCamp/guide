@@ -10,33 +10,45 @@ const propTypes = {
   location: PropTypes.object
 };
 
-function Article(props) {
-  const article = props.data.markdownRemark;
-  const { pathname } = props.location;
-  const {
-    html,
-    fields: {
-      slug
-    },
-    frontmatter: {
-      title
+class Article extends React.Component {
+  componentDidMount() {
+    if (document.activeElement.hasAttribute('data-navitem')) {
+      this.article.focus();
     }
-  } = article;
-  return (
-    <div>
-      <Helmet>
-        <title>{ `${title} | freeCodeCamp Guide` }</title>
-        <link
-          href={ `https://guide.freecodecamp.org${slug}` }
-          rel='canonical'
+  }
+
+  render() {
+    const article = this.props.data.markdownRemark;
+    const { pathname } = this.props.location;
+    const {
+      html,
+      fields: {
+        slug
+      },
+      frontmatter: {
+        title
+      }
+    } = article;
+    return (
+      <div>
+        <Helmet>
+          <title>{ `${title} | freeCodeCamp Guide` }</title>
+          <link
+            href={ `https://guide.freecodecamp.org${slug}` }
+            rel='canonical'
+          />
+        </Helmet>
+        <Breadcrumbs path={ pathname } />
+        <article
+          className='article'
+          dangerouslySetInnerHTML={{ __html: html }}
+          id='article'
+          ref={(article) => { this.article = article; }}
+          tabIndex='-1'
         />
-      </Helmet>
-      <Breadcrumbs path={ pathname } />
-      <div
-        dangerouslySetInnerHTML={{ __html: html }}
-      />
-    </div>
-  );
+      </div>
+    );
+  }
 }
 
 Article.displayName = 'Article';
