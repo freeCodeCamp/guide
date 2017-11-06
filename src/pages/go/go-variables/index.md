@@ -3,11 +3,34 @@ title: Go Variables
 ---
 ## Go Variables
 
-This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/go/go-variables/index.md).
+# Variable declaration in Golang
 
-[This quick style guide will help ensure your pull request gets accepted](https://github.com/freecodecamp/guides/blob/master/README.md).
+## Method 1:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+A regular A variable declaration creates one or more variables, binds corresponding identifiers to them, and gives each a type 
+and an initial value.
+
+Example:
+``` go
+var x int = 1
+```
+or
+``` go
+var x int
+```
+or
+``` go
+var x, y float32 = -1, -2
+```
+
+## Method 2: Short variable declarations
+
+It is shorthand for a regular variable declaration with initializer expressions but no types, and use the syntax:
+``` go
+x := 1
+```
+Short variable declarations may appear only inside functions. In some contexts such as the initializers for "if", "for", or 
+"switch" statements, they can be used to declare local temporary variables.
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
