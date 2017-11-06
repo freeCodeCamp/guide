@@ -143,6 +143,7 @@ Some frequently used options are:
 * ride
 * wrap
 
-## Additional Details : <a href='https://getbootstrap.com/docs/4.0/components/carousel/' target='_blank' rel='nofollow'>Bootstrap Carousel</a>
+## Additional Details
+- [Bootstrap Carousel](https://getbootstrap.com/docs/4.0/components/carousel/)
 
 
