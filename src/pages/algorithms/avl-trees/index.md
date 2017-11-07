@@ -19,7 +19,7 @@ title: AVl Trees
 
 What if the input to binary search tree comes in a sorted (ascending or descending) manner? It will then look like this −
 
-![alt text](https://www.tutorialspoint.com/data_structures_algorithms/images/unbalanced_bst.jpg "Worst Case")
+![alt text](https://lh4.googleusercontent.com/-kdGx4EYZbrQZJAZWBCAxwc4c38Ijs4DQ8qA0HYPaXYKrG25saZIQ67Qwy75WivXdSVXd04Fd4cztPBd8gR3=w1366-h641 "Worst Case")
 
 ***
 
@@ -31,7 +31,7 @@ What if the input to binary search tree comes in a sorted (ascending or descendi
 
 ***
 
-![alt text](https://www.tutorialspoint.com/data_structures_algorithms/images/unbalanced_avl_trees.jpg "Worst Case")
+![alt text](https://lh3.googleusercontent.com/fw00O5Ay8ooHal1Ci0AgUT_5rrIKSpN4lKhK7kugQNKUkbNbFkL7euQGjyLnEi53f0Kn66w84K_Ine2t7TsF=w1366-h641 "Worst Case")
 
 1. Here we see that the first tree is balanced and the next two trees are not balanced.
 
