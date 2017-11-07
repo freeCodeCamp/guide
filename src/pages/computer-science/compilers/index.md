@@ -7,7 +7,7 @@ Within the field of computer programming, compilers usually refer to application
 
 The target output of a compiler is usually machine code for specific CPU. For example C++ could be compiled into x86 machine code for running on desktop PCs. Alternatively, some language compilers create machine code for a specification that doesn't represent real hardware, but is instead used as general machine code like language that can be quickly interpreted into real machine code on any CPU. This allows for compiled programs to be portable, without the larger overhead of a fully interpreted language. Java and Python fall into this category.
 
-As part of the compilation process, the code is checked for errors in syntax and semantics and the process is stopped if the compiler cannot correctly translate the entire source into machine code. This is in contrast to interpreted languages where errors are usually identified only at runtime.
+Code is checked for errors in syntax and semantics during compilation and the process is stopped if the compiler cannot correctly translate the entire source into machine code. This is in contrast to interpreted languages where errors are usually identified only at runtime.
 
 ### Parts of a compiler
 
