@@ -32,6 +32,6 @@ Here you can see that in the graph of y = |x|, if -2 is input in to the function
   |8| = 8
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+[Absolute Value](http://www.purplemath.com/modules/absolute.htm "Absolute Value")
 
 

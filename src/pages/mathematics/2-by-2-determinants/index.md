@@ -3,13 +3,11 @@ title: 2 by 2 Determinants
 ---
 ## 2 by 2 Determinants
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/2-by-2-determinants/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+For a 2×2 matrix, its determinant is found by subtracting the products of its diagonals, which is a fancy way of saying in words what the following says in pictures:
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+<img src="http://www.purplemath.com/modules/matrices/detanim2.gif">
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+[Determinant of a Matrix](https://github.com/freeCodeCamp/guides/blob/master/src/pages/mathematics/determinant-of-a-matrix/index.md "Determinant of a Matrix")
 
 

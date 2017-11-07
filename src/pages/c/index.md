@@ -36,7 +36,7 @@ Let's break this program down step-by-step.
 
 First is the `#include`:
 ```C
-#include <stdio.h>
+#include <stdio.h> // This is called preprocessor directives
 ```
 This is an instruction to the compiler to find and include a set of header files. Header files contain additional code that we can use. In this case, the compiler has been instructed to include `<stdio.h>`, which contains all kinds of useful functions like `printf()`. We'll get into detail about what functions are later, but for now just remember that a function is a collection of code that we can use.
 
@@ -101,6 +101,10 @@ If everything has gone well, you should see `Hello, World!` printed to the scree
 #### Compilation and running C with CodeBlocks
 [Codeblocks can be downloaded from here.](http://www.codeblocks.org/downloads/26)
 Make a new program with `file` -> `new` -> `file`, select C/C++ source, select C as your language, and then copy over the helloworld.c text that you read through earlier. Compile and run the code with `Build` -> `Build and Run`.
+
+#### Compilation and running C with Dev-C++
+[Dev-C++ can be downloaded from here.](https://sourceforge.net/projects/orwelldevcpp/)
+Make a new program with `file` -> `new` -> `Source File`, then copy over the helloworld.c text that you read through earlier and then save the file with`file` -> `save As`  as hello.c , and Compile and run the code with `Execute` -> `Compile & Run`.
 
 #### Compilation and running C with XCode
 [XCode can be downloaded from here.](https://developer.apple.com/xcode/)

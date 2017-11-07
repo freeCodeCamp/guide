@@ -3,7 +3,7 @@ title: Git Push
 ---
 ## Git Push
 
-The `git push` is a command that allows you to send the commits from your local branch in your local Git repository to the remote repository.
+The `git push` command allows you to send the commits from your local branch in your local Git repository to the remote repository.
 
 To be able to push to your remote repository, you must ensure that **all your changes to the local repository are committed**.
 
