@@ -19,3 +19,5 @@ const styleSheets = [
 ];
 
 export default styleSheets;
+
+document.tags.href.color = "blue"
