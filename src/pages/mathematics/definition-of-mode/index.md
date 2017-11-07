@@ -11,5 +11,6 @@ Given a distribution of data, the mode can be described as the maximum of either
 Given a set of numbers (1 1 2 4 5 5 8 9 10 1 3 7), the mode = 1, as this is the number which most frequently occurs. 
 
 #### More Information:
-![Wikipedia - Mode](https://en.wikipedia.org/wiki/Mode_(statistics))
+
+- [Wikipedia - Mode](https://en.wikipedia.org/wiki/Mode_(statistics))
 
