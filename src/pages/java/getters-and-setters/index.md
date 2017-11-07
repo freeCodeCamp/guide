@@ -14,12 +14,12 @@ public class Vehicle {
   
   // Getter
   public String getColor() {
-  return color;
+    return color;
   }
   
   // Setter
   public void setColor(String c) {
-  this.color = c;
+    this.color = c;
   }
 }
 ```
@@ -28,10 +28,11 @@ The setter method takes a parameter and assigns it to the attribute.
 
 Once the getter and setter have been defined, we use it in our main:
 ```java
-public stativ void main(String[] args) {
+public static void main(String[] args) {
   Vehicle v1 = new Vehicle();
   v1.setColor("Red");
-  System.out.pringln(v1.getColor());
+  
+  System.out.println(v1.getColor());
 }
 
 // Outputs "Red"
