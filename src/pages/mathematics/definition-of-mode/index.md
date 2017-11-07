@@ -3,13 +3,13 @@ title: Definition of Mode
 ---
 ## Definition of Mode
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/definition-of-mode/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The mode of a set of numbers indicates the value which occurs most frequenty in the set.
+Given a distribution of data, the mode can be described as the maximum of either the probability mass function if the data are discrete, or the probability distribution function if the data are continuous. A set of number in which there are numbers which occur most frequently may be described as bimodel, and any number greater than two is said to be multimodal. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Example:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Given a set of numbers (1 1 2 4 5 5 8 9 10 1 3 7), the mode = 1, as this is the number which most frequently occurs. 
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
+![Wikipedia - Mode](https://en.wikipedia.org/wiki/Mode_(statistics))
 
