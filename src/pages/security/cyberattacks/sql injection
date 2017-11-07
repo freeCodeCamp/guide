@@ -1,0 +1,7 @@
+SQL Injection
+
+SQL is a query language used to communicate with databases. Critical data for websites and services are stored on servers. Many of these 
+servers use SQL to manage their databases.
+
+SQL injection is when a person uses specially crafted SQL statements to get a server to give up information that it shouldn't. This works
+through vulnerabilities in SQL that allow the SQL server to run malicious code.
