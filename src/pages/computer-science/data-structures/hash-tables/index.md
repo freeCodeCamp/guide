@@ -3,16 +3,6 @@ title: Hash Tables
 ---
 ## Hash Tables
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/computer-science/data-structures/hash-tables/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
 Here's an explanation in layman's terms.
 
 Let's assume you want to fill up a library of books and not just stuff them in there, but you want to be able to easily find them again when you need them.
@@ -54,3 +44,8 @@ This leads to the next problem. Collisions. Since the algorithm has no way to sp
 Various collision handling methods exist, including running the data into yet another calculation to get another spot in the table (double hashing), or simply to find a space close to the one you were given (i.e. right next to the previous book assuming the slot was available also known as linear probing). This would mean that you have some digging to do when you try to find the book later, but it's still better than simply starting at one end of the library.
 
 Finally, at some point, you might want to put more books into the library than the library allows. In other words, you need to build a bigger library. Since the exact spot in the library was calculated using the exact and current size of the library, it goes to follow that if you resize the library you might end up having to find new spots for all the books since the calculation done to find their spots has changed.
+
+#### More Information:
+<!-- Please add any articles you think might be helpful to read before writing the article -->
+
+
