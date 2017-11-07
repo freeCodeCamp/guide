@@ -40,3 +40,11 @@ There's an awesome tool to help you grasp the idea of neural networks without an
 - <a href='http://ufldl.stanford.edu/tutorial/supervised/MultiLayerNeuralNetworks/' target='_blank' rel='nofollow'>Stanford University</a>
 - <a href='https://youtu.be/aircAruvnKk' target='_blank' rel='nofollow'>3Blue1Brown</a>
 - <a href='https://youtu.be/h3l4qz76JhQ' target='_blank' rel='nofollow'>Siraj Raval</a>
+
+## Convolution Neural Network 
+CNNs, like neural networks, are made up of neurons with learnable weights and biases. Each neuron receives several inputs, takes a weighted sum over them, pass it through an activation function and responds with an output. The whole network has a loss function and all the tips and tricks that we developed for neural networks still apply on CNNs
+
+CNNs have a couple of concepts called parameter sharing and local connectivity
+Parameter sharing is sharing of weights by all neurons in a particular feature map.
+Local connectivity is the concept of each neural connected only to a subset of the input image (unlike a neural network where all the neurons are fully connected)
+This helps to reduce the number of parameters in the whole system and makes the computation more efficient.
