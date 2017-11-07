@@ -1,8 +1,8 @@
 ---
-title: iOS Development
+title: Swift Development
 ---
 
-## iOS Development
+## Swift Development
 
 This section contains resources related to Native iOS Applications Development using Swift. 
 
