@@ -25,6 +25,7 @@ Code example:
     <input type="radio" name="gender" value="female">Female<br>
     <input type="radio" name="gender" value="other">Other
     <input type="submit" value="Submit">
+    <input type="checkbox" name="correct" value="correct">Correct
 </form>
 ```
 
