@@ -34,8 +34,8 @@ To set multiple CSS properties, you'll have to use the object literal syntax lik
 
 ```js
     $('#element').css({
-        'background': 'gray',
-        'color': 'white'
+        background: 'gray',
+        color: 'white'
     });
 ```
 
