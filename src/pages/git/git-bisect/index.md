@@ -21,12 +21,12 @@ Git will check out a commit between the "good" and "bad" versions and output som
 Bisecting: 2 revisions left to test after this (roughly 2 steps)
 ```
 
-You should now tell git if the current commit works with `git commit good` or if the current commit is broken with `git commit bad`. This process will repeat until the command is able to print out the first bad commit.
+You should now tell git if the current commit works with `git bisect good` or if the current commit is broken with `git bisect bad`. This process will repeat until the command is able to print out the first bad commit.
 
-When finished, you should clean up the bisect session. This will reset your HEAD to what it was before the bisect session:
+When finished, you should clean up the bisect session. This will reset your HEAD to what it was before you started the bisect session:
 ```shell
 git bisect reset
 ```
 
 ### Other Resources
-- [git-scm](https://git-scm.com/docs/git-bisect)
+- [Git bisect documentation](https://git-scm.com/docs/git-bisect)
