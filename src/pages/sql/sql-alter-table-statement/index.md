@@ -8,7 +8,7 @@ title: SQL Alter Table Statement
 This guide will introduce you to and attempt to explain some of the basics of the SQL alter table functions within a relational database.
 IMPORTANT Safety Tip!!!   ALWAYS backup your data before making changes!!!!
 
-Will be using MySQL for all examples throughout these freeCodeCamp SQL guides us. The reasons for selecting MySQL are 1) it is very commonly used on websites for the backend database, 2) it's free, and is fun and easy to use.
+We will be using MySQL for all examples throughout this freeCodeCamp SQL guide. The reasons for selecting MySQL are 1) it is very commonly used on websites for the backend database, 2) it's free, and is fun and easy to use.
 
 ## Covered in this Guide 
 We will use the tables created in the “CREATE TABLE” guide.  Feel free to review that guide if you are not familiar with creating a table.
