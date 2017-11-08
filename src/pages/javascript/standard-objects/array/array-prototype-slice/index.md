@@ -3,13 +3,51 @@ title: Array.prototype.slice
 ---
 ## Array.prototype.slice
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/standard-objects/array/array-prototype-slice/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `slice()` method creates and returns a copy of an array. The original array will not be modified. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Syntax
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```js
+arr.slice([begin], [end])
+```
+*brackets `[ ]` indicate an optional parameter 
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+**Parameters**
+
+`begin`
+The index at which extraction begins. If omitted, extraction begins at index `0`.
+
+`end`
+The non-inclusive index at which extraction ends. If omitted, extraction continues through the rest of the array.
+
+**Return Value**
+
+A new array containing the extracted elements.
+
+### Examples
+
+```js
+var shapes = [“circle”, “rectangle”, “square”, “triangle”, “oval”];
+var fourSidedShapes = shapes.slice(1, 3);
+
+console.log(fourSidedShapes); // [“rectangle”, “square”]
+```
+
+```js
+var arr1 = [1, 2, 3, 4];
+var arr2 = arr1.slice();
+
+console.log(arr1); // [1, 2, 3, 4]
+console.log(arr2); // [1, 2, 3, 4]
+
+arr1.push(5);
+
+console.log(arr1); // [1, 2, 3, 4, 5]
+console.log(arr2); // [1, 2, 3, 4]
+```
+
+### More Information:
+
+<a href=“https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice” target=“_blank” rel=“nofollow”>MDN</a>
 
 
