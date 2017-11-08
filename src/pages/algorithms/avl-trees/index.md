@@ -1,5 +1,5 @@
 ---
-title: AVl Trees
+title: AVL Trees
 ---
 
 # AVL Trees
@@ -40,7 +40,3 @@ What if the input to binary search tree comes in a sorted (ascending or descendi
 3. In the third tree, the right subtree of A has height 2 and the left is missing, so it is 0, and the difference is 2 again.
 
 **AVL tree permits difference (balance factor) to be only 1.**
-
-
-
-

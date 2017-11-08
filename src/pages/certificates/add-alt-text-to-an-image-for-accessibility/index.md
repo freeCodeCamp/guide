@@ -7,6 +7,6 @@ In short, every image should have an alt attribute!
 
 You can add an alt attribute right in the img element like this:
 
-    ```html
-    <img src="www.your-image-source.com/your-image.jpg" alt="your alt text" />
-    ```
+```html
+	<img src="http://www.your-image-source.com/your-image.jpg" alt="your alt text" />
+```

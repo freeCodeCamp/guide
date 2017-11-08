@@ -19,6 +19,7 @@ C# is an object-oriented language while also providing support for component-ori
 7) LINQ (Language-Integrated Query) and Lambda Expressions
 8) Generics
 9) Indexers
+10) Multithreading
 
 #### New Features Added on C# 7.0:
 1) Deconstructors

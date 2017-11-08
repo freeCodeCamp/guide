@@ -21,7 +21,7 @@ Here you can see that in the graph of y = |x|, if -2 is input in to the function
 
 * **Simplify -|-1|**
 
-  -|-1| = -|1| = -1
+  -|-1| = -(1) = -1
 
 * **Simplify |-5(-3) + 1|**
 
