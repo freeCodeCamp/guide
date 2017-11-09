@@ -39,6 +39,9 @@ Now, the array is already sorted, but our algorithm does not know if it is compl
 
 ( 1 2 4 5 8 ) –> ( 1 2 4 5 8 )
 
+### Video Explanation
+[Bubble sort in easy way](https://www.youtube.com/watch?v=Jdtq5uKz-w4)
+
 This code will use bubble sort to sort the array.
 ```js
 let arr = [1, 4, 7, 45, 7,43, 44, 25, 6, 4, 6, 9];
