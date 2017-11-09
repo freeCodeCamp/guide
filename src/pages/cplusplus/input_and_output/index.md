@@ -4,9 +4,9 @@ title: Input and Output
 
 ## Input and Output
 
-Input stream objects in C++ use 'cin'. This is used to save input data into the program.
+Input stream objects in C++ use 'cin'. This is pronounced "see in". This is used to input user data into the program.
 
-Output stream objects use 'cout', as shown in the first introduction of C++, to print out statements to the console.
+Output stream objects use 'cout', as shown in the first introduction of C++, to print out statements to the console. As you may have guessed, this is pronounced "see out". 
 
 ```C++
 # include<iostream>
