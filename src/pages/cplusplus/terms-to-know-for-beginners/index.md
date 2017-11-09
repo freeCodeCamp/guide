@@ -1,18 +1,18 @@
 ---
 title: IDE and Printing different text 
 ---
-# Introduction to an IDE and printing different text : 
+# Introduction to an IDE and printing different text: 
 
-* In the last article, some download links for software required for programming . Software like this is known as an IDE.
+* In the last article, there were some download links for software required used by programmers. Software, like this, is known as an IDE.
  **IDE stands for Integrated Development Environment**
 
 ## IDEs mainly consist of 3 kinds of software :
 
-**1 Editor :** A slightly modified text editor to make coding easy. An example of an editor for coding is Notepad++.
+**1 Editor:** A modified text editor to make coding easy. An example of an editor for coding is Notepad++.
 
-**2 Debugger :** Software that helps you find errors in your program , and resolve them before execution. Imagine FaceBook crashing on loading an application or a game crashing all of a ssudden. To prevent faulty execution of a program, the debugger is a programmer's best friend.
+**2 Debugger:** Software that helps you find errors in your program and helps resolve them, before execution. Imagine FaceBook crashing on loading an application or a game crashing, all of a sudden. To prevent faulty execution of a program, the debugger is a programmer's best friend.
 
-**3 Compiler :** A compiler is that part of the computer which converts your high level program code to simple machine code : 0s & 1s ; so that a computer understands the commands and executes them. From now on , we will be uding the word **compiler** frequently.
+**3 Compiler:** A compiler is the part of the IDE which converts high-level program code to machine code - 0's & 1's - so that a computer understands the commands and executes them. From now on, we will be using the word **compiler** frequently.
 
 *Q : Try searching for an IDE on Google and run your first program on it . Check the output*
 
@@ -20,7 +20,7 @@ Now, install the IDE and try changing the text from the program in the last arti
 
 ### Changing text on C++
 
-* To change text ,change what's typed in the `""` after `cout<<`
+* To change text, change what's typed in the quotation marks (`""`) after `cout <<`
 
 A sample program :
 
@@ -30,11 +30,11 @@ A sample program :
 using namespace std :
 int main()
 {
-    cout << "I Love freeCodeCamp ! ";
+    cout << "I Love freeCodeCamp!";
 }
 ```
 
-The above code returns an error because at line 2, we have used a colon(:) instead of a semicolon(;)
+The above code returns an error because at line 2, we have used a colon(:) instead of a semicolon(;).
 So, let's debug the error:
 
 ```C++
@@ -42,7 +42,7 @@ So, let's debug the error:
 using namespace std ;
 int main()
 {
-    cout << "I Love freeCodeCamp ! ";
+    cout << "I Love freeCodeCamp!";
     return 0;
 }
 
@@ -51,7 +51,7 @@ int main()
 Note that now the program runs perfectly.
 The output will be : `I Love freeCodeCamp!`
 
-### Now , let's change the text to something else like this:
+### Now, let's change the text to something else like this:
 
 ```cpp
     cout << "Hello World!\t I love freeCodeCamp!";
@@ -63,7 +63,7 @@ The output will be something different this time:
 Hello World!	 I love freeCodeCamp!
 ```
 
- If you realised , the `\t` command created a _tab space_ between the two texts . This is one kind of special command in C++. These special commands are known as *Escape Sequences* .
+ In case you didn't realize it, the `\t` command created a _tab space_ between the two blocks of text. This is one kind of special command in C++. These special commands are known as *Escape Sequences*.
  They are used to print certain special characters a compiler cannot display.
 
 #### Useful escape sequences:
@@ -104,7 +104,7 @@ This is because we did not add the inverted commas for the second print statemen
 
 #### Comments:
 
-* Comments are an important feature of many programming languages. They allow the programmer to take notes for self help, and won't affect the running of the program.
+* Comments are an important feature of many programming languages. They allow the programmer to take notes for self-help, and won't affect the running of the program.
 
 **The different types of comments and Syntax of a comment**:
   1 `//`  ~ _Single Line Comments_  : The length of these comments is 1 line (the line it is typed on) .
