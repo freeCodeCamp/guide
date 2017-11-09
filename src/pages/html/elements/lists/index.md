@@ -65,8 +65,7 @@ The description list contains list items with their definitons. We use `<dl>` ta
   </hhtml>
 
 #### More Information:
-<a href='https://html.com/lists/' target='_blank' rel='nofollow'>HTML</a>
-
 [HTML](https://html.com/lists/)
+
 
 
