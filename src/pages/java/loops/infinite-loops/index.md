@@ -24,3 +24,5 @@ do
     // your code here
 } while (true);
 ```
+
+To stop (break) an infinite loop, a user has to press Ctrl+C on their keyboard.
