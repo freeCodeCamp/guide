@@ -48,6 +48,8 @@ There are also selectors that act as filters - they will usually start with colo
 ```
 `$("li:first").css("color", "green");`
 
+**Note:** Don't forget that applying css in JavaScript is not a good practice. You should always give your styles in css files.
+
 Another filtering selector, `:contains(text)`, selects elements that have a certain text. Place the text you want to match in the parentheses. Here's an example with two paragraphs. The jQuery selector takes the word "Moto" and changes its color to yellow.
 
 ```
