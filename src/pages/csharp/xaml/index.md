@@ -1,7 +1,7 @@
 ---
-title: Xaml
+title: XAML
 ---
-## Xaml
+## XAML
 
 Pronounced "zammel", XAML is an XML-based markup language developed by Microsoft. 
 
