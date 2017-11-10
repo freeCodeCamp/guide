@@ -21,3 +21,9 @@ GPUs can be used for computation as well as video rendering. Common ways to do t
 - <a href='https://www.opengl.org/' target='_blank' rel='nofollow'>OpenGL</a>
 
 Notable makers of GPU's include: Nvidia and AMD/ATI.
+
+## Fact
+
+The term GPU was popularized by Nvidia in 1999, who marketed the GeForce 256 as "the world's first GPU", or Graphics Processing Unit.
+
+
