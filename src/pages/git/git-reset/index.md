@@ -3,32 +3,38 @@ title: Git Reset
 ---
 ## Git Reset
 
-Git-reset is a command that allows you to RESET your current head to a specified state.
+The `git reset` command allows you to RESET your current head to a specified state. You can reset the state of specific files as well as an entire branch.
 
-Git reset (--patch | -p) [<tree-ish>] [--] [<paths>…​]
-Selectively chose chunks in the difference between the index and the tree. The chosen chunks are applied in reverse to the index.
+### Reset a file or set of files
+The following command lets you selectively choose chunks of content and revert or unstage it.
 
-Git reset [<mode>] [<commit>]
-This command resets current branch head to selected commit and updates the index. Defaults to "--mixed" if <mode> is omitted.
+```shell
+git reset (--patch | -p) [tree-ish] [--] [paths]
+```
 
-The <mode> must be:
+### Unstage a file
+If you moved a file into the staging area with `git add`, but no longer want it to be part of a commit, you can use `git reset` to unstage that file:
 
- --soft
- does not reset the index file or working tree, but resets head to commit.Changes all files to "Changes to be commited"
+```shell
+git reset HEAD FILE-TO-UNSTAGE
+```
 
- --mixed
-  reset index but not the working tree and reports what has not been updated.
+The changes you made will still be in the file, this command just removes that file from your staging area.
 
- --hard
-   Resets the index and working tree. Any changes to tracked files in the working tree since <commit> are discarded.
+### Reset a branch to a prior commit
+The following command resets your current branch's HEAD to the given `COMMIT` and updates the index. It basically rewinds the state of your branch, then all commits you make going forward write over anything that came after the reset point. If you omit the `MODE`, it defaults to `--mixed`:
 
- --merge
-    Resets the index and updates the files in the working tree that are different between <commit> and HEAD, but keeps those which are different between the index and working tree 
+```shell
+git reset MODE COMMIT
+```
 
- --keep
-    Resets index entries and updates files in the working tree that are different between <commit> and HEAD. If a file that is different between <commit> and HEAD has local changes, reset is aborted.
+The options for `MODE` are:
 
-
+- `--soft`: does not reset the index file or working tree, but resets HEAD to `commit`. Changes all files to "Changes to be commited"
+- `--mixed`: resets the index but not the working tree and reports what has not been updated
+- `--hard`: resets the index and working tree. Any changes to tracked files in the working tree since `commit` are discarded
+- `--merge`: resets the index and updates the files in the working tree that are different between `commit` and HEAD, but keeps those which are different between the index and working tree 
+- `--keep`: resets index entries and updates files in the working tree that are different between `commit` and HEAD. If a file that is different between `commit` and HEAD has local changes, the reset is aborted
 
 ### More Information:
-- Git documentation: [reset](https://git-scm.com/docs/git-reset)
+- [Git reset documentation](https://git-scm.com/docs/git-reset)
