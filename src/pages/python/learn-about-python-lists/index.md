@@ -76,6 +76,35 @@ Elements from a `list` may be extracted and re-arranged using another `list` as 
     >>> print(my_new_list)
     [34, 9, 1]
     
+**List Comprehension:**
+
+There are two ways to create `lists` dynamically in Python. The first one and the most used by beginners Python programmers is with a simple for-loop like the example bellow:
+
+    >>> my_list = []
+    >>> for i in range(0, 10):
+    >>>     my_list.append(i)
+    >>> print my_list //Output: [0,1,2,3,4,5,6,7,8,9]
+    
+There is also an another way to accomplise that by using what we call `list comprehension`. 
+
+Αdvantages of `list comprehensions`:
+* Makes the code shorter and easier to read
+* Produces a slightly faster program
+
+The previous example can be easily replicated with a `list comprehensions` taking 1 line of code instead of 3(not counting the print statement)
+
+    >>> my_list = [i for i in range(0, 10)]
+    >>> print my_list //Output: [0,1,2,3,4,5,6,7,8,9]
+
+Also we can create more advanced concepts using if conditions. The following example creates a list with all the even numbers between 1 and 10:
+    
+    >>> my_list = [i for i in range(1, 11) if (i % 2 == 0)]
+    >>> print my_list //Output: [2,4,6,8]
+
+To sum up `list comprehensions` is a really useful Python's feature and should be used when appropriate. The basic syntaxt is:
+    
+    >>> my_own_list = [the element to be appended in the list | the for-loop | the condition]
+
 
 **TODO: Which of these should be discussed here:**
 
