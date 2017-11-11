@@ -79,6 +79,8 @@ For total beginners, Vim comes with a built in tutorial! You can access it by ru
 
 If you are not as confident in English, you can lanch `vimtutor` in your language of choice. For example `vimtutor fr` will launch the tutorial in french!
 
+Play Vim(https://vim-adventures.com/) - A fun way to learn vim plating a step-by-step game.
+
 Read the rest of our Vim Guides to get a better understanding of this powerful editor.
 
 ## Other Resources
