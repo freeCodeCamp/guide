@@ -38,4 +38,5 @@ Mode is often confused with [mean](https://guide.freecodecamp.org/mathematics/de
 
 #### More Information:
 [Wikipedia - Mode](https://en.wikipedia.org/wiki/Mode_(statistics))
+
 [Mode Definition](https://www.tutorialspoint.com/mean_median_and_mode/mode_of_data_set.htm)
