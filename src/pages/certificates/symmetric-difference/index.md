@@ -6,7 +6,7 @@ title: Symmetric Difference
 
 ### ![:checkered_flag:](https://forum.freecodecamp.com/images/emoji/emoji_one/checkered_flag.png?v=3 ":checkered_flag:") Problem Explanation: ###
 
-Symmetric difference (commonly denoted by &Delta;) of two sets is the set of elements which are in either of the two sets, but not in both.
+Symmetric difference (commonly denoted by Δ) of two sets is the set of elements which are in either of the two sets, but not in both.
 
 For example, `sym([1, 2, 3], [5, 2, 1, 4])` should yield `[3, 4, 5]`.
 
