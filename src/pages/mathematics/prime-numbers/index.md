@@ -1,15 +1,25 @@
 ---
 title: Prime Numbers
 ---
-## Prime Numbers
+# Prime Numbers
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/prime-numbers/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+A prime number (or a prime) is a natural number greater than 1 that has no positive divisors other than 1 and itself.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+## Example
+1. 5 is a prime number because:
+    * 5/1 = 5 with a remainder 0 
+    * 5/2 = 2 with a remainder 1 
+    * 5/3 = 1 with a remainder 2 
+    * 5/4 = 1 with a remainder 1 
+    * 5/5 = 1 with a remainder 0  
+    So 5 is only divisible by 1 and itself.
+2. 4 is *not* a prime number because it is divisible by 2 (and 1 and itself)
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### Sources
+[Wikipedia - Prime number](https://en.wikipedia.org/wiki/Prime_number)
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+### Resources
+[Trial Division](https://en.wikipedia.org/wiki/Trial_division)  
+[Sieve of Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes)
 
 
