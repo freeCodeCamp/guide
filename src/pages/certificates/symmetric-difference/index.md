@@ -42,8 +42,8 @@ In the event of *odd number of sets* the symmetric difference will include ident
     B = {2, 3, 4}
     C = {3, 4, 5}
 
-    (A &Intersection; B) &Intersection; C = {1, 4} &Intersection {3, 4, 5}
-    A &Intersection; B = {1, 3, 5}
+    (A &#8898; B) &#8898; C = {1, 4} &#8898; {3, 4, 5}
+    A &#8898; B = {1, 3, 5}
 
 > _try to solve the problem now_
 
