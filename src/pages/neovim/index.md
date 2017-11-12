@@ -3,7 +3,7 @@ title: Neovim
 ---
 # Neovim
 
-Neovim is a refactor, and sometimes redactor, in the tradition of Vim (which itself derives from [Stevie](https://en.wikipedia.org/wiki/Stevie_%28text_editor%29 "Stevie")).
+Neovim is a refactor, and sometimes redactor, in the tradition of Vim (which itself derives from <a href='https://en.wikipedia.org/wiki/Stevie_%28text_editor%29 "Stevie"' target='_blank' rel='nofollow'>Stevie</a>).
 It is not a rewrite but a continuation and extension of Vim.
 Many clones and derivatives exist, some very clever—but none are Vim.
 Neovim is built for users who want the good parts of Vim, and more.
