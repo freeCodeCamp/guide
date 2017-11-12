@@ -29,5 +29,5 @@ After `git rebase master branch` or `git rebase master` when you have checked ou
                                       \---o-o branch
 
 ### More Information:
-- Git documentation: [rebase](https://git-scm.com/docs/git-rebase)
+- Git documentation: <a href='https://git-scm.com/docs/git-rebase' target='_blank' rel='nofollow'>rebase</a>
 
