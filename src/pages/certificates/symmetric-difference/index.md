@@ -10,7 +10,7 @@ Symmetric difference (commonly denoted by &Delta;) of two sets is the set of ele
 
 For example, `sym([1, 2, 3], [5, 2, 1, 4])` should yield `[3, 4, 5]`.
 
-Following above definition, symmetric difference of three sets *A*, *B*, and *C* can be expressed as `(A &Delta; B) &Delta; C`.
+Following above definition, symmetric difference of three sets *A*, *B*, and *C* can be expressed as `(A Δ B) &Delta; C`.
 
 #### Relevant Links ####
 
@@ -42,8 +42,8 @@ In the event of *odd number of sets* the symmetric difference will include ident
     B = {2, 3, 4}
     C = {3, 4, 5}
 
-    (A &#8898; B) &#8898; C = {1, 4} &#8898; {3, 4, 5}
-    A &#8898; B = {1, 3, 5}
+    (A ⋂ B) ⋂ C = {1, 4} ⋂ {3, 4, 5}
+    A ⋂ B = {1, 3, 5}
 
 > _try to solve the problem now_
 
