@@ -17,6 +17,6 @@ As mentioned above, threads also hold important data such as the line number of 
 
 When the operating system’s <b>scheduler</b> decides that it is Program A’s turn to run, the OS feeds (or to be more accurate, multiplexes) instructions in Program A’s thread to the CPU, which then runs these instructions.
 
-<!-- #### More Information: -->
+#### More Information:
 [Wikipedia - Threads](https://en.wikipedia.org/wiki/Thread_(computing))
 
