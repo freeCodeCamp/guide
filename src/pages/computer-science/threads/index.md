@@ -2,10 +2,18 @@
 title: Threads
 ---
 ## Threads
+<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+
+### Definition 
+   A sequence of program instructions given to the operating system to execute. It is the smallest synchronous sequence that can be executed. Being synchronous, instructions in a thread are linear and execute one after another. If a program has multiple threads, the program as a whole can be asynchronous in that these threads are executing their own instructions independently of each other (simultaneously).
 
 Threads are a way in programming to perform multiple tasks at the same time.  
 
-There may be any number of child threads within the context of a process. Threads can increase the speed of execution of a program, by increasing the percentage of CPU used for the task. Note that drastically increasing the number of threads in a program can be highly CPU intensive, and if 100% of a CPU is being used, then threads will have no effect on the speed of execution.
+A common distinction one should make is the difference between threads and processes. A thread is a child of a process so to speak.  
+There may be any number of child threads within the context of a process. Threads can increase the speed of execution of a program, by increasing the percentage of CPU used for the task.  
+Note that drastically increasing the number of threads in a program can be highly CPU intensive, and if 100% of a CPU is being used, then threads will have no effect on the speed of execution.
+
+![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Multithreaded_process.svg/440px-Multithreaded_process.svg.png "Threads inside a Process graph")
 
 **Multithreading** is a programming concept where a program spawns multiple threads during execution so as to perform tasks faster.
 
@@ -22,9 +30,9 @@ if __name__ == "__main__":
         threading.Thread(target=print_number, args=(i,)).start()
 ````
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-- [Threads (Wikipedia)](https://en.wikipedia.org/wiki/Thread_(computing))
+
+- [Threads (Wikipedia)](https://en.wikipedia.org/wiki/Thread_(computing))  
 - [Understanding Multithreading](http://www.nakov.com/inetjava/lectures/part-1-sockets/InetJava-1.3-Multithreading.html)

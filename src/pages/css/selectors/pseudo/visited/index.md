@@ -3,13 +3,33 @@ title: Visited
 ---
 ## Visited
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/selectors/pseudo/visited/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The CSS :visited selector changes the style of a link that has been visited by a user. This selector is used to help users distinguish between links they have and have not visited.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+If multiple CSS pseudo selectors are being used, the :visited selector must come after the :link selector.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+In the example below, after a user clicks on a link, the text color will change from black to green. 
+
+```css
+ a {
+   color: black;
+ }
+ 
+ a:visited {
+   color: green;
+ }
+```
+
+Due to user privacy reasons, the :visited selector is limited to modifying the styles of the following CSS properties:
+
+* color
+* background-color
+* border-color (including border-color for separate sides)
+* column-rule-color
+* outline-color
+* fill and stroke (for SVG images)
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
+* [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/:visited)
+* [W3 Schools](https://www.w3schools.com/cssref/sel_visited.asp)
+* [CSS Tricks Guide to Pseudo Classes & Elements](https://www.smashingmagazine.com/2016/05/an-ultimate-guide-to-css-pseudo-classes-and-pseudo-elements/#visited)
 
