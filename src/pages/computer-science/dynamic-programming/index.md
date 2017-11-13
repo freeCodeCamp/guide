@@ -22,7 +22,7 @@ int fib(int n)
 
 Above is a simple recursive solution where we are computing fib(2) many times.
 
-And below is the optimised solution (using DP
+And below is the optimised solution (using DP)
 
 
 ```c++
