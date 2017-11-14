@@ -31,7 +31,7 @@ This example makes use of a CDN that loads the default settings. If you'd like t
 
 #### Learning Resources
 
-1. <a href="http://foundation.zurb.com/sites/docs/" title="Foundation Documentation">Foundation Documentation</a>
-1. <a href="https://github.com/zurb/foundation-sites" title="List of Foundation Tutorials">List of Foundation Tutorials</a>
-1. <a href="http://foundation.zurb.com/learn/tutorials.html" title="Foundation Source Files on GitHub">Foundation Source Files on GitHub</a>
-1. <a href="https://www.youtube.com/playlist?list=PLqGj3iMvMa4LJo_lBMTJwAlQRElulSeL8" title="DevTips YouTube Series on Foundation Grid">DevTips YouTube Series on Foundation Grid</a>
+1. [Foundation Documentation](http://foundation.zurb.com/sites/docs/)
+1. [List of Foundation Tutorials](https://github.com/zurb/foundation-sites)
+1. [Foundation Source Files on GitHub](http://foundation.zurb.com/learn/tutorials.html)
+1. [DevTips YouTube Series on Foundation Grid](https://www.youtube.com/playlist?list=PLqGj3iMvMa4LJo_lBMTJwAlQRElulSeL8)
