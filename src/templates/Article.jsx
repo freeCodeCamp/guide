@@ -31,25 +31,26 @@ function getOgTitle(pathname) {
 }
 
 function getOgDescription(html) {
-  const el = document.createElement('html');
-  el.innerHTML = html;
   let description = '';
-  const paragraph = el.getElementsByTagName('p')[0];
-  if (paragraph) {
-    description += paragraph.innerText;
+  const rex = /<p>(.*?)<\/p>/g;
+  description = rex.exec( html );
+  if (description !== null) {
+    return description[1].replace(/<[^>]*>/i, '');
+  } else {
+    return 'FreeCodeCamp Guide';
   }
-  return description;
 }
 
 function getOgImage(html) {
-  const el = document.createElement('html');
-  el.innerHTML = html;
-  const image = el.getElementsByTagName('img')[0];
-  if (image) {
-    return image.src;
+  let image;
+  const rex = /<img [^>]*src=["|\']([^"|\']+)/i;
+  image = rex.exec( html );
+  if (image !== null &&
+    (image[1].match('^//forum.freecodecamp.com/images/emoji') === null)) {
+    return image[1];
   } else {
     return 'https://raw.githubusercontent.com/' +
-      'freeCodeCamp/guides/master/assets/FCC-banner.png';
+    'freeCodeCamp/guides/master/assets/FCC-banner.png';
   }
 }
 
