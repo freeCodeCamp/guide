@@ -4,7 +4,7 @@ title: Python
 
 ## What is Python?
 
-<a>Python</a> is a general purpose programming language which is dynamically typed, interpreted, and known for its easy readability with great design principles.
+<a href='https://www.python.org' target='_blank' rel='nofollow'>Python</a> is a general purpose programming language which is dynamically typed, interpreted, and known for its easy readability with great design principles.
 
 To know more about Python, you might want to check <a href='https://www.python.org/doc/essays/blurb/' target='_blank' rel='nofollow'>this</a> and <a href='https://docs.python.org/3/faq/general.html' target='_blank' rel='nofollow'>this</a>.
 
