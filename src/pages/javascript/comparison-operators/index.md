@@ -3,9 +3,9 @@ title: Comparison Operators
 ---
 JavaScript has both **strict** and **type–converting** comparisons.
 
-*   A strict comparison (e.g. ===) is only true if the operands are of the same type.
+*   A strict comparison ('strict-equality,' e.g. ===) is only true if the operands are identical, including being of the same type.
 
-*   The more commonly used abstract comparison (e.g. ==) converts the operands to the same Type before making the comparison.
+*   The abstract comparison ('loose-equality,'e.g. ==) converts the operands to the same Type before making the comparison.
 
 *   For relational abstract comparisons (e.g., <=), the operands are first converted to primitives, then to the same type, before comparison.
 
