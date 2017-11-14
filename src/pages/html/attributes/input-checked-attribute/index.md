@@ -3,13 +3,28 @@ title: Input Checked Attribute
 ---
 ## Input Checked Attribute
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/attributes/input-checked-attribute/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+This attribute, used as part of the ```<input>``` element of an HTML ```<form>```, is used to specify whether or not the ```<input>``` element should be checked when the page is loaded.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+#### Syntax
+```<input checked>```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+This attribute is used along with inputs of type ```checkbox``` and ```radio```.
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+#### Example
 
+1.Checkbox
+```html
+<form action="index.php">
+  <input type="checkbox" name="quantity" value="10" checked> 10 <br>
+  <input type="checkbox" name="quantity" value="20"> 20 <br>
+</form>  
+```
 
+2.Radio button
+```html
+<form action="index.php">
+  <input type="radio" name="quantity" value="10" checked> 10 <br> 
+  <input type="radio" name="quantity" value="20"> 20 <br>
+</form>  
+```
+Here, the value '10' is checked by default when the page is loaded.
