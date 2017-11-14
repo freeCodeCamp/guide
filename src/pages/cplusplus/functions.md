@@ -1,4 +1,6 @@
-# Functions in C++
+---
+Functions in C++
+---
 
 There are many built in functions in C++ which you can use by including a library. Let us take at one example.
 There is a built in function to find square root of a number. The code is given below
