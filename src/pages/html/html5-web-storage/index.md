@@ -29,6 +29,11 @@ sessionStorage.setItem("foo", "bar");
 sessionStorage.getItem("foo"); //returns "bar"
 ```
 
+### Private Browsing / Incognito modes
+In private browsing or igcognito modes, most browsers's storage APIs are still available and seemingly fully functional, however all stored data is wiped after the browser is closed. 
+
+In summary, for fully functional web app testing, do remember to test on all browsers with/without private browsing.
+
 #### More Information:
 
 <a href='https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage' target='_blank' rel='nofollow'>MDN</a>
