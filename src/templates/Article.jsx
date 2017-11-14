@@ -49,8 +49,8 @@ function getOgImage(html) {
     (image[1].match('^//forum.freecodecamp.com/images/emoji') === null)) {
     return image[1];
   } else {
-    return 'https://raw.githubusercontent.com/' +
-    'freeCodeCamp/guides/master/assets/FCC-banner.png';
+    return 'https://s3.amazonaws.com/freecodecamp/' +
+    'freecodecamp-square-logo-large.jpg';
   }
 }
 
