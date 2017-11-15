@@ -3,13 +3,12 @@ title: Utf 8 Reference
 ---
 ## Utf 8 Reference
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/utf-8-reference/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The Unicode Standard has become a success and is implemented in HTML, XML, Java, JavaScript, E-mail, ASP, PHP, etc. The Unicode standard is also supported in many operating systems and all modern browsers.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The charset attribute specifies the type of character-set encoding that this page uses. You should always define the character set.
+Because rather than letting the browser auto-detect the charset from the code, we can supply it directly within the code. So occasions where browser making incorrect charset detections can be avoided.
+However, this is particularly important if your page needs to display nonstandard characters.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+`<meta charset="utf-8" />`  and `<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />`
+**In HTML5, they are equivalent**. Use the shorter one, it is easier to remember and type. [Browser support](https://code.google.com/archive/p/doctype-mirror/wikis/MetaCharsetAttribute.wiki) is fine since it was designed for backwards compatibility.
+[more details](https://www.w3.org/International/questions/qa-html-encoding-declarations)
