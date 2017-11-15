@@ -13,3 +13,18 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
 
+## CSS Colors:
+Colors in CSS can be specified by the following methods:
+
+Hexadecimal colors
+RGB colors
+RGBA colors
+HSL colors
+HSLA colors
+Predefined/Cross-browser color names
+Hexadecimal Colors
+Hexadecimal color values are supported in all major browsers.
+
+A hexadecimal color is specified with: #RRGGBB, where the RR (red), GG (green) and BB (blue) hexadecimal integers specify the components of the color. All values must be between 00 and FF.
+
+For example, the #0000ff value is rendered as blue, because the blue component is set to its highest value (ff) and the others are set to 00.
