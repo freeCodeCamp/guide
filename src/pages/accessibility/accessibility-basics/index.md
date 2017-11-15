@@ -113,6 +113,47 @@ For images that contain information, like a brochure, a map, a chart etc., not a
 
 For images of text, the text can either be included in the alt-attribute or offered in some alternative manner. The problem is that adding the textual alternative on the same page would basically make the same content show twice for people who can see the image, which is why the alt-attribute is better in this case.
 
+### Accessible SVGs (Inline SVG)
+
+Inlining the SVG provides more predictable results and control than if it is added with `<use>` or `<img>` because the SVG source is directly available in the DOM which is exposed to the accessibility API that is used by AT.
+
+Let’s take the same basic SVG example: 
+```
+<svg height="100" width="100">
+  <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
+</svg>
+```
+
+Since this SVG does not contain any visible text that describes the graphic, we need to add the alternative text (invisible) by:
+
+- Inside the `<svg>`, add: 
+
+1.  `<title>A short title of the SVG</title>`
+1. must be the first child of it’s parent element
+2. will be used as a tooltip as the pointing device moves over it
+
+- A description can be added if needed
+1. a description - note this is not read by narrator (bug filed)
+
+According to the [W3C specification](https://www.w3.org/TR/SVG11/struct.html#DescriptionAndTitleElements), we shouldn’t have to do anything extra for SVGs beyond providing the <title> and possibly a <desc> because they should be available to the Accessibility API. Unfortunately, browser support is not quite there yet (bugs reported for: [Chrome](https://bugs.chromium.org/p/chromium/issues/detail?id=231654&q=SVG%20%20title%20attribute&colspec=ID%20Pri%20M%20Stars%20ReleaseBlock%20Component%20Status%20Owner%20Summary%20OS%20Modified) and [Firefox](https://bugzilla.mozilla.org/show_bug.cgi?id=1151648)).
+So, to ensure the AT can access the `<title>` and `<desc>`:
+
+- Add the appropriate ID’s to the `<title>` and `<desc>`:
+
+1. `<title id="uniqueTitleID">The title of the SVG</title>`
+2. `<desc id="uniqueDescID">A longer, more complete description for complex graphics.</desc>`
+- On the `<svg>` tag, add:
+3. `aria-labelledby="uniqueTitleID uniqueDescID"` (use the title and desc ID’s) - both title and description are included in `aria-labelledby` because it has better screen-reader support than `aria-describedby`
+
+Actually result:
+```
+<svg height="100" width="100">
+   <title id="uniqueTitleID">The title of the SVG</title>
+   <desc id="uniqueDescID">A longer, more complete description for complex graphics.</desc>
+  <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
+</svg>
+```
+
 ### I can't read your scrawl, son
 
 Even people who don't wear glasses and have no problem with their eyesight at all benefit from an easy to read font and proper contrast. I'm sure you would cringe if you had to fill in a form where light yellow, hopelessly loopy letters are placed on a white background. For people who's eyesight is not as good, like your grandma for example, this becomes hopelessly worse.
