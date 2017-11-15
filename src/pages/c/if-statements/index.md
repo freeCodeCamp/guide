@@ -13,8 +13,8 @@ Let's look at an example of this in action:
 
 int main(void) {
 
-    if(true) {
-        printf("Statement is True!\n");
+    if(false) {
+        printf("Statement is False!\n");
 
     }
 
@@ -35,7 +35,7 @@ Of course, that example wasn't very useful, because true is always true. Here's 
 int main(void) {
     int n = 2;
 
-    if(n == 3) {
+    if(n == 6) {
         printf("Statement is True!\n");
 
     } else {
