@@ -22,9 +22,9 @@ include:
 
 Examples of unacceptable behavior by participants include:
 
-* The use of sexualized language or imagery and unwelcome sexual attention or
-advances
-* Trolling, insulting/derogatory comments, and personal or political attacks
+* The use of sexualized language or imagery 
+* Unwelcomed sexual attention or advances
+* Trolling, insulting, or derogatory comments
 * Public or private harassment
 * Publishing others' private information, such as a physical or electronic
   address, without explicit permission
