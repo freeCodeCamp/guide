@@ -227,3 +227,5 @@ public class SmartPhone implements MusicPlayer {
 Whoops, did I forget `next()` ? See, since it was a `default` method, I didn't had to provide an implementation at all. (Wont work for JDK < 8)
 
 So, now you have a good grasp of Interfaces! Go learn about Abstract Classes to know how Java gives you yet another way to define contracts.
+Add
+When you implement an interface,you are fulfilling its contract.
