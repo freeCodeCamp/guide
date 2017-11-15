@@ -7,3 +7,4 @@ SQL stands for Structured Query Language. It is the most common tool used to man
 
 SQL is commonly pronounced as "sequel." Its most popular variants are Oracle, Sybase, Microsoft Access, MySQL, PostgreSQL, and SQLite - a version of SQL which is commonly used for prototyping.
 
+#structural, integrity, consistency, security, indepent
