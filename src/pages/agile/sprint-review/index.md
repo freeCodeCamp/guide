@@ -19,13 +19,13 @@ The agenda may also include a review of the Backlog (including value and priorit
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-Ken Rubin of Innolution [Stop Calling Your Sprint Review a Demo](https://www.scrumalliance.org/community/spotlight/ken-rubin/january-2015/stop-calling-your-sprint-review-a-demo%E2%80%94words-matte)
+Ken Rubin of Innolution <a href='https://www.scrumalliance.org/community/spotlight/ken-rubin/january-2015/stop-calling-your-sprint-review-a-demo%E2%80%94words-matte' target='_blank' rel='nofollow'>Stop Calling Your Sprint Review a Demo</a>
 
-Scrum.org [What is a Sprint Review](https://www.scrum.org/resources/what-is-a-sprint-review)
+Scrum.org <a href='https://www.scrum.org/resources/what-is-a-sprint-review' target='_blank' rel='nofollow'>What is a Sprint Review</a>
 
-Mountain Goat Software [Sprint Review Meeting](https://www.mountaingoatsoftware.com/agile/scrum/meetings/sprint-review-meeting)
+Mountain Goat Software <a href='https://www.mountaingoatsoftware.com/agile/scrum/meetings/sprint-review-meeting' target='_blank' rel='nofollow'>Sprint Review Meeting</a>
 
-Atlassian [Three Steps for Better Sprint Reviews](https://www.atlassian.com/blog/agile/sprint-review-atlassian)
+Atlassian <a href='https://www.atlassian.com/blog/agile/sprint-review-atlassian' target='_blank' rel='nofollow'>Three Steps for Better Sprint Reviews</a>
 
-Age of Product [Sprint Review Anti Patterns](https://age-of-product.com/sprint-review-anti-patterns/)
+Age of Product <a href='https://age-of-product.com/sprint-review-anti-patterns/' target='_blank' rel='nofollow'>Sprint Review Anti Patterns</a>
 
