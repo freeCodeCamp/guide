@@ -12,8 +12,8 @@ The simplest of the bunch are while loops. While loops will run while the condit
 int main(void) {
     int my_number = 0;
 
-    while(my_number != 10){
-        ++my_number;
+    while(my_number != 20){
+        my_number++;
     }
 
     printf("my_number = %i", my_number);
