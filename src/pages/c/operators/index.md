@@ -12,14 +12,14 @@ title: Operators
 - `-`Subtracts the second operand from the first
      ```C
      int a = 8;
-     int b = 9;
-     int c = a - b; // c = -1
+     int b = 10;
+     int c = a - b; // c = -2
      ```
 - `*` Multiplies two operands
      ```C
-     int a = 8;
-     int b = 9;
-     int c = a * b; // c = 72
+     int a = 6;
+     int b = 6;
+     int c = a * b; // c = 36
      ```
 - `/` Divides the first operand by the second
      ```C
