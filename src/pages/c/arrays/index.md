@@ -7,13 +7,14 @@ Before trying to explain what arrays are, let's look at the code where we want t
 ```C
 #include <stdio.h>
 int main(void){
-int a, b, c, d, e, f, g, i, j, k;
+int a, b, c, d, e, f, g, i, j, k,l;
 scanf("%d", &a);
 scanf("%d", &b);
 ... 
 printf("%d", k);
 printf("%d", j);
 printf("%d", i);
+printf("%d",l);
 ... //and so on..
 
 return 0;
@@ -29,7 +30,7 @@ Let's look at some code:
 int main(void){
 
 int arr[4] = {1, 2, 3, 88};
-int brr[] = {78, 65};
+int brr[] = {78, 65,34};
 int crr[100] = {3};
 
 int var = arr[0];
