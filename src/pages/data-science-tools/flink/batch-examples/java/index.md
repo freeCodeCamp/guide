@@ -21,7 +21,7 @@ mvn clean package -DskipTests # this will take up to 10 minutes
 
 ### Datasets
 
-For the batch processing data we'll be using the datasets in here: <a href='http://files.grouplens.org/datasets/movielens/ml-latest-small.zip'>datasets</a>
+For the batch processing data we'll be using the datasets in here: [datasets](http://files.grouplens.org/datasets/movielens/ml-latest-small.zip)
 In this example we'll be using the movies.csv and the ratings.csv, create a new java project and put them in a folder in the application base.
 
 ### Example
