@@ -68,13 +68,13 @@ There's a lot we can do with all of those operators! Consider the following, whe
 #include <stdio.h>
 
 int main(void) {
-    int n = 5;
+    int n = 7;
 
-    if(n == 5) {
-        printf("n is equal to 5!\n");
+    if(n == 7) {
+        printf("n is equal to 7!\n");
 
-    } else if (n > 5) {
-        printf("n is greater than 5!\n");
+    } else if (n > 7) {
+        printf("n is greater than 7!\n");
 
     }
 
