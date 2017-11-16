@@ -18,4 +18,6 @@ You can find plenty of informations in the following sites :
 - <a href='https://docs.docker.com/' target='_blank' rel='nofollow'>Docker docs</a>
 - <a href='https://hub.docker.com/' target='_blank' rel='nofollow'>DockerHub</a>
 
-
+* Docker website: [Docker](https://www.docker.com/)
+* Read more about Docker: [Wikipedia](https://en.wikipedia.org/wiki/Docker_(software))
+* The official YouTube channel from Docker: [YouTube](https://www.youtube.com/user/dockerrun)
