@@ -41,7 +41,7 @@ There are 5 flags you can use to apply specific rules to the whole regular expre
 
 #### Methods
 
-You will most likely use regular expressions in `String` methods, such as `String.replace()`, but there are a handful of methods that can are for the `RegExp` object.
+You will most likely use regular expressions in `String` methods, such as `String.replace()`, but there are a handful of methods that belong to the `RegExp` object.
 
 For example, `RegExp.test()` will return a Boolean for whether there exists a match between the regular expression pattern and the string in question. `RegExp.toString()` will turn the expression object into a string, which can be handy when running tests on your code.
 
