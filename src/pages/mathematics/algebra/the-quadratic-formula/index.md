@@ -3,7 +3,7 @@ title: The Quadratic Formula
 ---
 ## The Quadratic Formula
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+<img alt='An example of a quadratic formula. ' src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Quadratic_formula.svg">
 
 Mathematicians and Programmers use the quadratic formula to solve the zeroes quadratic equations, such as x^2 + 4x + 4 = 0. This equation can be very helpful in calculus, probability, and all sorts of disciplines.
 
@@ -12,6 +12,4 @@ Any quadratic formula is in the form ax + bx^2 + c, and if you want to calculate
 http://www.purplemath.com/modules/quadform.htm
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+[The Quadratic Formula Explained](http://www.purplemath.com/modules/quadform.htm "The Quadratic Formula Explained")
