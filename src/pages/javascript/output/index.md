@@ -97,6 +97,6 @@ Also, you can control & filter the type of output you wish to see in console.
 
 
 #### More Information:
-- [Complete reference of console object by Google](https://developers.google.com/web/tools/chrome-devtools/console/console-reference)
-- [Console MDN](https://developer.mozilla.org/en-US/docs/Web/API/Console)
+- <a href='https://developers.google.com/web/tools/chrome-devtools/console/console-reference' target='_blank' rel='nofollow'>Complete reference of console object by Google</a>
+- <a href='https://developer.mozilla.org/en-US/docs/Web/API/Console' target='_blank' rel='nofollow'>Console MDN</a>
 
