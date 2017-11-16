@@ -134,7 +134,7 @@ This is used for storing logical values. A boolean type can have a value of eith
 
     Default value is false.
 
-    Example: boolean b = true, boolean b1 = 1;
+    Example: boolean b = true, boolean b1 = 1, boolean b2;
 
 ## Reference Data Types:
 

@@ -4,22 +4,21 @@ title: CSS Buttons
 ## CSS Buttons
 Due to the use of CSS you can change the style of the normal HTML button.
 
+**Basic button styling**
 
-**simple green Button** 
- ```css
- .button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-}
+```css
+.button {
+      
+      background-color: red; /* use color name, hex value, or rgb */
+      border: 2px solid white; /*use px(pixel size) style(solid, dotted, dashed) and color */
+      color: white; /* colors the words on the button. */
+      padding: 15px; /* how much room between other elements */
+      text-aling: right; /* alings text (left, center, right) */
+      font-size: 16px; /* how large the writing is */
+     }
 ```
 
-*The different colors:*
+**The different colors:**
 
 ```css
   .button1 {background-color: #4CAF50;} /* Green */
@@ -32,7 +31,7 @@ Use the background-color property to change the color of the button.
 Use the color property to change the color of the text inside the button.
 ```
 
-*The different sizes:*
+**The different sizes:**
 
 ```css
   .button1 {font-size: 10px;}
@@ -42,6 +41,21 @@ Use the color property to change the color of the text inside the button.
   .button5 {font-size: 24px;}
   
 Use the font-size property to change the size of the button.
+```
+
+**Example: simple green Button** 
+
+ ```css
+ .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
 ```
 
 #### More Information:
