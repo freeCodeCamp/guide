@@ -31,4 +31,6 @@ title: Get Started with Nodejs
 *   <a href='http://www.wilcoxd.com/whitepapers/node_js/' target='_blank' rel='nofollow'>Ryan Wilcox's Whitepaper</a>
 *   <a href='http://www.devthought.com/' target='_blank' rel='nofollow'>devthought</a>
 
-_Source & more links <a href='http://stackoverflow.com/questions/2353818/how-do-i-get-started-with-node-js/5511507#5511507' target='_blank' rel='nofollow'>here.</a>_
+### More Information:
+How do I get started with Node.js: <a href='http://stackoverflow.com/questions/2353818/how-do-i-get-started-with-node-js/5511507#5511507' target='_blank' rel='nofollow'>stackoverflow</a>
+How do I start with Node.js after I installed it?: <a href='https://nodejs.org/en/docs/guides/getting-started-guide/'  target='_blank' rel='nofollow'>Node.js Official Website</a>
