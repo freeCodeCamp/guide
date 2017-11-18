@@ -24,8 +24,8 @@ do
     // Increment the counter
     iter_DoWhile++;
 }
-while(iter_DoWhile < 10);
-System.out.println ("iter_DoWhile Value: " + iter_DoWhile);
+while (iter_DoWhile < 10);
+System.out.println("iter_DoWhile Value: " + iter_DoWhile);
 ```
 
 Output:
@@ -42,11 +42,11 @@ Output:
 Can you guess the output of the following code snippet?
 
 ```java
-int i=10;
+int i = 10;
 do
 {
     System.out.println("The value of i is " + i);
     i--;
 }
-while( i >= 10 );
+while (i >= 10);
 ```

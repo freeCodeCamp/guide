@@ -32,3 +32,4 @@ is obtained by setting _a=1, b=1, c=-1_ in the quadratic formula. This gives two
 * _x=(-1-√5)/2_.
 
 #### More Information:
+[The Quadratic Formula Explained](http://www.purplemath.com/modules/quadform.htm "The Quadratic Formula Explained")
