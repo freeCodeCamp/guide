@@ -36,7 +36,7 @@ title: Convert HTML Entities
 **Solution ahead!**
 
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
-
+```javascript
     function convertHTML(str) {
       // Split by character to avoid problems.
 
@@ -70,7 +70,7 @@ title: Convert HTML Entities
 
     //test here
     convertHTML("Dolce & Gabbana");
-
+```
 ### Code Explanation:
 
 Explain solution here and add any relevant links
@@ -106,7 +106,7 @@ Explain solution here and add any relevant links
 *   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp' target='_blank' rel='nofollow'>Regular Expressions</a>
 
 ## ![:rotating_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:") Advanced Code Solution:
-
+```javascript
     function convertHTML(str) {
       // Use Object Lookup to declare as many HTML entities as needed.
       htmlEntities={
@@ -124,8 +124,8 @@ Explain solution here and add any relevant links
 
     // test here
     convertHTML("Dolce & Gabbana");
-
-![:rocket:</a> <a href='https://repl.it/CLnR/0' target='_blank' rel='nofollow'>Run Code</a>
+```
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLnR/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
