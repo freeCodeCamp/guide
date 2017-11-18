@@ -61,7 +61,7 @@ After you've counted the cards, use an `if` statement to check the value of **co
 **Solution ahead!**
 
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
-
+```javascript
     function cc(card) {
       // Only change code below this line
       switch(card){
@@ -87,7 +87,7 @@ After you've counted the cards, use an `if` statement to check the value of **co
       }
       // Only change code above this line
     }
-
+```
 ### Code Explanation:
 
 *   Check the value of each card via a `switch` statement.

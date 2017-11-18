@@ -13,6 +13,11 @@ Implicit or unconscious bias happens by our brains making incredibly quick judgm
 
 Unconscious bias is far more prevalent than conscious prejudice and often incompatible with one’s conscious values. Certain scenarios can activate unconscious attitudes and beliefs. For example, biases may be more prevalent when multi-tasking or working under time pressure.<sup>1</sup>
 
+#### Project Implicit:
+Project Implicit is a non-profit organization and international collaboration between researchers who are interested in implicit social cognition - thoughts and feelings outside of conscious awareness and control. The goal of the organization is to educate the public about hidden biases and to provide a “virtual laboratory” for collecting data on the Internet.
+
+They have produced [a variety of online tests](https://implicit.harvard.edu/implicit/selectatest.html) to examine implicit bias in common situations. 
+
 Unconscious bias can influence decisions in recruitment, promotion and performance management. It could be discriminatory when the unconscious bias relates to a protected characteristic.<sup>2</sup>
 
 ## Sources

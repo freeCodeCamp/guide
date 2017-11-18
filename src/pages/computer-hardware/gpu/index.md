@@ -19,3 +19,5 @@ GPUs can be used for computation as well as video rendering. Common ways to do t
 - <a href='https://developer.nvidia.com/cuda-zone' target='_blank' rel='nofollow'>CUDA</a>
 - <a href='https://www.khronos.org/opencl/' target='_blank' rel='nofollow'>OpenCL</a>
 - <a href='https://www.opengl.org/' target='_blank' rel='nofollow'>OpenGL</a>
+
+Notable makers of GPU's include: Nvidia and AMD/ATI.

@@ -3,9 +3,9 @@ title: Await Promises
 ---
 ## Await Promises
 
-The `async` / `await` [operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators) make it easier to implement many async Promises. They also allow engineers to write clearer, more succinct, testable code.
+The `async` / `await` <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators' target='_blank' rel='nofollow'>operators</a> make it easier to implement many async Promises. They also allow engineers to write clearer, more succinct, testable code.
 
-To understand this subject, you should have a solid understanding of how [Promises](https://guide.freecodecamp.org/javascript/promises) work.
+To understand this subject, you should have a solid understanding of how <a href='https://guide.freecodecamp.org/javascript/promises' target='_blank' rel='nofollow'>Promises</a> work.
 
 ---
 
@@ -40,7 +40,7 @@ There are a few things to note:
 
 Implementing a single Promise is pretty straightforward. In contrast, Chained Promises or the creation of a dependency pattern may produce "spaghetti code".
 
-The following examples assume that the [`request-promise`](https://github.com/request/request-promise) library is available as `rp`.
+The following examples assume that the <a href='https://github.com/request/request-promise' target='_blank' rel='nofollow'>`request-promise`</a> library is available as `rp`.
 
 ### Chained/Nested Promises
 
@@ -114,5 +114,5 @@ errorExample();
 
 #### More Information:
 
-* `await` Operator [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await)
-* `async` Function Operator [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/async_function)
+* `await` Operator <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await' target='_blank' rel='nofollow'>MDN Docs</a>
+* `async` Function Operator <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/async_function' target='_blank' rel='nofollow'>MDN Docs</a>

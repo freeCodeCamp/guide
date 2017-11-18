@@ -16,15 +16,15 @@ But, you did not travel at a rate of 60 miles per hour for each instant of your 
 
 Let’s take a look at the graph of your trip, with the x-axis representing time (in minutes) and the y-axis representing distance (in miles). Pt. A represents San Francisco, with coordinates (0, 0) and pt. B represents Santa Rosa, with coordinates (60, 60). The curved line represents your location, in space and time, as you traveled from San Francisco to Santa Rosa.
 
-![image](https://github.com/MarkMikow/MyFiles/blob/master/img1.png)
+![image](https://github.com/MarkMikow/MyFiles/blob/master/img1.png?raw=true)
 
 You can determine the average speed (rate of the change in distance per time) of your trip by taking the algebra slope (“rise over run”):
 
-![image](https://github.com/MarkMikow/MyFiles/blob/master/img2.png)
+![image](https://github.com/MarkMikow/MyFiles/blob/master/img2.png?raw=true)
 
 Using the same graph, you can pick any two points, C (x1, y1) and D (x2, y2) and find the slope between them. Moreover, you can label each point using function notation, such that (x1, y1) becomes (x, f(x)) and (x2, y2) becomes ((x + h), f(x + h)), with h being the horizontal distance that pt. D is from pt. C:
 
-![image](https://github.com/MarkMikow/MyFiles/blob/master/img3.png)
+![image](https://github.com/MarkMikow/MyFiles/blob/master/img3.png?raw=true)
 
 
 
