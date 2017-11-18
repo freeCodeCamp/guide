@@ -1,6 +1,7 @@
 ---
-Abstract Classes in Java
+title: Abstract Classes in Java
 ---
+
 Lets discuss abstract classes. Before diving into this tutorial it is better that you have understood concepts of classes
 and inheritance.
 Let's suppose that you are building a java application and you have a parent class named Person and you have two child classes
