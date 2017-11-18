@@ -3,10 +3,6 @@ title: The Quadratic Formula
 ---
 ## The Quadratic Formula
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/algebra/the-quadratic-formula/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
 The quadratic formula is a tool for solving quadratic equations. A quadratic equation is a polynomial equation of degree two.
 A degree two polynomial is just a polynomial where the highest exponent of _x_ is 2. The following are examples of quadratic equations.
 
@@ -36,6 +32,3 @@ is obtained by setting _a=1, b=1, c=-1_ in the quadratic formula. This gives two
 * _x=(-1-√5)/2_.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
