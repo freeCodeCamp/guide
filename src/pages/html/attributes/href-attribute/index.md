@@ -3,13 +3,18 @@ title: Href Attribute
 ---
 ## Href Attribute
 
-The href attribute is mainly used for `<a>` tags to specify the URL for a webpage the link leads to.
+You use the `href` attribute when you want to add an hyperlink to the `<a>` tag. The `href` specifies the page's URL.
 
-For example:
+#### How to use
+`<a href="URL"></a>`
+
+#### Examples
 ```html
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>
+<a href="https://www.freecodecamp.org">This is an absolute URL</a>
+
+<a href="index.html">This is a relative URL</a>
+
 ```
 
-#### Here is where you can find more information on href attributes:
-<a href='https://www.w3schools.com/tags/att_href.asp' target='_blank' rel='nofollow'>W3Schools</a>
-
+#### More Information:
+[W3Schools](https://www.w3schools.com/tags/att_href.asp)
