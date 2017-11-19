@@ -3,7 +3,7 @@ title: Href Attribute
 ---
 ## Href Attribute
 
-You use the `href` attribute when you want to add an hiperlink to the `<a>` tag. The `href` specifies the page's URL.
+You use the `href` attribute when you want to add an hyperlink to the `<a>` tag. The `href` specifies the page's URL.
 
 #### How to use
 `<a href="URL"></a>`
@@ -15,3 +15,6 @@ You use the `href` attribute when you want to add an hiperlink to the `<a>` tag.
 <a href="index.html">This is a relative URL</a>
 
 ```
+
+#### More Information:
+[W3Schools](https://www.w3schools.com/tags/att_href.asp)
