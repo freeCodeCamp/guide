@@ -55,7 +55,9 @@ There is a little problem, it's not recommended to use slice in the arguments ob
 
 > **Important**: You should not slice on arguments because it prevents optimizations in JavaScript engines (V8 for example). Instead, try constructing a new array by iterating through the arguments object.
 > 
-> _by_ **_Mozilla Developer Network_**
+> _by_ **_Mozilla Developer Network_** <a href='https://developer.mozilla.org/ca/docs/Web/JavaScript/Reference/Functions/arguments' target='_blank' rel='nofollow'>(reference)<a>
+
+
 
 So, what other method is available to convert _arguments_ to an array? I recommend the for-loop (not the for-in loop), you can do it like this:
 
@@ -68,3 +70,22 @@ for (var i = 0; i < arguments.length; i++) {
 
 For more information on the optimization issues:  
 Optimization Killers: <a href='https://github.com/petkaantonov/bluebird/wiki/Optimization-killers#3-managing-arguments' target='_blank' rel='nofollow'>Managing Arguments</a>
+
+### ES6 spread operator as a way to circumvent the arguments object
+
+In ES2015/ES6 it is possible to use the spread operator (`...`) instead of the arguments object in most places. Say we have the following function (non-ES6): 
+
+    function getIntoAnArgument() {
+      var args = arguments.slice();
+      args.forEach(function(arg) {
+        console.log(arg);
+      }
+    }
+
+can in ES6 be replaced by: 
+
+    function getIntoAnArgument(...args) {
+        args.forEach(arg => console.log(arg));
+    }
+
+note that we also used an arrow function to shorten the forEach callback!
