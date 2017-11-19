@@ -24,8 +24,9 @@ def fib(n)
         return n
     return fib(n-1) + fib(n-2);
 }
-
 ```
+
+And below is the optimised solution (using DP)
 
 For F(5), this solution will generate the calls depicted in the image above, running in O(2^N).
 
@@ -42,14 +43,10 @@ def fib(n)
         lookup[n] = fib(n-1) + fib(n-2) # Else, do the recursion.
     return lookup[n]
 }
-
 ```
 Caching computed solutions in a lookup table, and query it before go recursion will let the program have a running time of O(N).
 
-
 #### More Information:
 
-<a href="https://stackoverflow.com/questions/1065433/what-is-dynamic-programming">What is dynamic programming on StackOverflow</a>
-
-<a href="https://stackoverflow.com/questions/6184869/what-is-the-difference-between-memoization-and-dynamic-programming">Difference between memoization and DP on StackOverflow</a>
-
+[What is dynamic programming on StackOverflow](https://stackoverflow.com/questions/1065433/what-is-dynamic-programming")
+[Difference between memoization and DP on StackOverflow](https://stackoverflow.com/questions/6184869/what-is-the-difference-between-memoization-and-dynamic-programming)

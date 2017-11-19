@@ -43,6 +43,15 @@ Use `.next` to return the next consecutive <a href='https://ruby-doc.org/core-2.
     -4.next #=> -3
 ```
 
+## <a href='https://ruby-doc.org/core-1.8.7/Integer.html#method-i-pred' target='_blank' rel='nofollow'>Pred</a>:
+
+Use `.pred` to return the previous consecutive <a href='https://ruby-doc.org/core-2.2.0/Integer.html' target='_blank' rel='nofollow'>**integer**</a>.
+```Ruby
+    15.pred #=> 14
+    2.pred  #=> 1
+    (-4).pred #=> -5
+```
+
 ## <a href='https://ruby-doc.org/core-2.4.2/Object.html#method-i-to_s' target='_blank' rel='nofollow'>To String</a>:
 
 Using `.to_s` on a number (<a href='https://ruby-doc.org/core-2.2.0/Integer.html' target='_blank' rel='nofollow'>**integer**</a>, <a href='https://ruby-doc.org/core-2.2.0/Float.html#method-i-ceil' target='_blank' rel='nofollow'>**floats**</a>, etc.) returns a <a href='https://ruby-doc.org/core-2.2.0/String.html' target='_blank' rel='nofollow'>string</a> of that number.
