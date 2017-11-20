@@ -20,6 +20,7 @@ int main()
     return 0;
 }
 ```
+
 When you execute this program you will see 5 displayed on the screen
 
 * Note that in the above program // is placed after the lines. Symbol "//" is for commenting our code. Code after the symbol
@@ -29,3 +30,47 @@ When you execute this program you will see 5 displayed on the screen
 * On line 6 the value 5 is assigned to the variable a. Now whenever we use the variable a in our program its value will be 5
   unless we change it.
 * On line 7 we display the value of variable a and 5 is printed on the screen.
+### Scope of Variables
+All the variables have their area of functioning, and out of that boundary they don't hold their value, this boundary is called scope of the variable. For most of the cases its between the curly braces,in which variable is declared that a variable exists, not outside it. We will study the storage classes later, but as of now, we can broadly divide variables into two main types,
+
+*Global Variables.
+
+*Local variables.
+
+#### Global variables
+
+Global variables are those, which ar once declared and can be used throughout the lifetime of the program by any class or any function. They must be declared outside the main() function. If only declared, they can be assigned different values at different time in program lifetime. But even if they are declared and initialized at the same time outside the main() function, then also they can be assigned any value at any point in the program.
+
+Example : Only declared, not initialized.
+
+```cpp
+include <iostream>
+using namespace std;
+int x;                // Global variable declared
+int main()
+{
+ x=10;                 // Initialized once
+ cout <<"first value of x = "<< x;
+ x=20;                 // Initialized again
+ cout <<"Initialized again with value = "<< x;
+}
+```
+
+#### Local Variables
+Local variables are the variables which exist only between the curly braces, in which its declared. Outside that they are unavailable and leads to compile time error.
+
+Example :
+
+```cpp
+include <iostream>
+using namespace std;
+int main()
+{
+ int i=10;
+ if(i<20)        // if condition scope starts
+  {
+    int n=100;   // Local variable declared and initialized
+  }              // if condition scope ends
+ cout << n;      // Compile time error, n not available here
+}
+```
