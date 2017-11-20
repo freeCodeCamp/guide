@@ -3,17 +3,9 @@ title: Personas
 ---
 ## Personas
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/user-experience-design/personas/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.-->
-
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-#User Persona
+# User Persona
 
 A user persona is a fictional profile or representation of an ideal user you are trying to reach. Designers use personas to better understand their users and customize a design to fit the target audience.
 
@@ -32,18 +24,22 @@ Designers have different ways of creating a user persona, but well defined perso
 3.End Goal(s)
 4.Scenario
 
-###Headers
+### Headers
 Headers include the name of your user, mage, and often a quote. The quote is a way designers summarize what the user thinks is important. A strong header keeps designers concentrated on the users they are building for.
 
-###Demographic Profiles
+### Demographic Profiles
 Demographic profiles contain all data from user research. All the data gives designers a complete picture of their users. There are four sections to the profile: personal background, professional background, user environment, and psychographics.
 
 Personal background is information such as age, gender, ethnicity, and education. Designers can include the family status (e.g. single, married, widowed, etc.) or persona group (e.g. working moms).Professional background is the user’s job occupation, income level, and work experience.
 
 User environment is physical, social, and technological context of a user. This information shows what a user’s typical day is, where they spend their time, and what they do with others. Psychographics are research on how your users think and feel. This data focuses on the attitudes, interests, motivation, and pain points of your users.
 
-###End Goal(s)
+### End Goal(s)
 An end goal is the action users take to complete a goal. End goals motivate all users and show what users want or need.
 
-###Scenario
+### Scenario
 Scenarios is a description of how users would use a product to accomplish an end goal. These situations define when, where, and how this event would take place. You write these scenarios from the perspective of the user.
+
+#### More Information:
+<!-- Please add any articles you think might be helpful to read before writing the article -->
+<a href="https://www.usability.gov/how-to-and-tools/methods/personas.html" target='_blank' rel='nofollow'>Personas - usability.gov</a>
