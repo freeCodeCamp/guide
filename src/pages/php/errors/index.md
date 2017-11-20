@@ -1,7 +1,7 @@
 ---
-title: PHP Errors
+title: Errors
 ---
-## PHP Errors
+## Errors
 
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/php/errors/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 

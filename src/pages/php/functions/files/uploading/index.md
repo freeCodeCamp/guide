@@ -1,7 +1,7 @@
 ---
-title: PHP File Uploading
+title: File Uploading
 ---
-## PHP File Uploading
+## File Uploading
 
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/php/functions/files/uploading/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 

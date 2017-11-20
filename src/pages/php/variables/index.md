@@ -1,7 +1,7 @@
 ---
-title: PHP Variables
+title: Variables
 ---
-## PHP Variables
+## Variables
 
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/php/variables/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 

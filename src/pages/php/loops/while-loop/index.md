@@ -1,7 +1,7 @@
 ---
-title: PHP While Loop
+title: While Loop
 ---
-## PHP While Loop
+## While Loop
 
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/php/loops/while-loop/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 

@@ -1,7 +1,7 @@
 ---
-title: PHP Checking Required Inputs
+title: Checking Required Inputs
 ---
-## PHP Checking Required Inputs
+## Checking Required Inputs
 
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/php/forms/checking-required-inputs/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 

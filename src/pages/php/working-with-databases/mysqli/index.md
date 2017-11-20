@@ -1,7 +1,7 @@
 ---
-title: PHP Working With Databases MySQLi
+title: Working With Databases - MySQLi
 ---
-## PHP Working With Databases MySQLi
+## Working With Databases - MySQLi
 
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/php/working-with-databases/mysqli/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 

@@ -1,7 +1,7 @@
 ---
-title: PHP Working With Databases
+title: Working With Databases
 ---
-## PHP Working With Databases
+## Working With Databases
 
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/php/working-with-databases/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 

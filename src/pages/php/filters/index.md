@@ -1,7 +1,7 @@
 ---
-title: PHP Filters
+title: Filters
 ---
-## PHP Filters
+## Filters
 
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/php/filters/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 

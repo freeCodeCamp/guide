@@ -1,7 +1,7 @@
 ---
-title: PHP Working With JSON APIs
+title: Working With JSON APIs
 ---
-## PHP Working With JSON APIs
+## Working With JSON APIs
 
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/php/working-with-json-apis/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 

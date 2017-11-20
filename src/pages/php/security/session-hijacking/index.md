@@ -1,7 +1,7 @@
 ---
-title: PHP Security - Session Hijacking
+title: Security - Session Hijacking
 ---
-## PHP Security - Session Hijacking
+## Security - Session Hijacking
 
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/php/security/session-hijacking/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 

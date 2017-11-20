@@ -1,7 +1,7 @@
 ---
-title: PHP Cookies
+title: Cookies
 ---
-## PHP Cookies
+## Cookies
 
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/php/functions/cookies/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 

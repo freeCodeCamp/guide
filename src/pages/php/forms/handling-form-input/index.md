@@ -1,7 +1,7 @@
 ---
-title: PHP Handling Form Input
+title: Handling Form Input
 ---
-## PHP Handling Form Input
+## Handling Form Input
 
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/php/forms/handling-form-input/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 

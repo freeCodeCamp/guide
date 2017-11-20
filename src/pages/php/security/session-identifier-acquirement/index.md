@@ -1,7 +1,7 @@
 ---
-title: PHP Security - Session Identifier Acquirement
+title: Security - Session Identifier Acquirement
 ---
-## PHP Security - Session Identifier Acquirement
+## Security - Session Identifier Acquirement
 
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/php/security/session-identifier-acquirement/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 

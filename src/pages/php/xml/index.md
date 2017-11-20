@@ -1,7 +1,7 @@
 ---
-title: PHP XML
+title: XML
 ---
-## PHP XML
+## XML
 
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/php/xml/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 

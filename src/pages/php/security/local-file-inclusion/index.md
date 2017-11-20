@@ -1,7 +1,7 @@
 ---
-title: PHP Security - Local File Inclusion
+title: Security - Local File Inclusion
 ---
-## PHP Security - Local File Inclusion
+## Security - Local File Inclusion
 
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/php/security/local-file-inclusion/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 

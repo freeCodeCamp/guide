@@ -1,7 +1,7 @@
 ---
-title: PHP Security - Remote File Inclusion
+title: Security - Remote File Inclusion
 ---
-## PHP Security - Remote File Inclusion
+## Security - Remote File Inclusion
 
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/php/security/remote-file-inclusion/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 

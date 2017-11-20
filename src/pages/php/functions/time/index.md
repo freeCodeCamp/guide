@@ -1,7 +1,7 @@
 ---
-title: PHP Time
+title: Time
 ---
-## PHP Time
+## Time
 
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/php/functions/time/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 

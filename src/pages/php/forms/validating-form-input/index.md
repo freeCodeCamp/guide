@@ -1,7 +1,7 @@
 ---
-title: PHP Validating Form Input
+title: Validating Form Input
 ---
-## PHP Validating Form Input
+## Validating Form Input
 
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/php/forms/validating-form-input/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 

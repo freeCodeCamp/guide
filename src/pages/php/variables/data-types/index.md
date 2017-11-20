@@ -1,7 +1,7 @@
 ---
-title: PHP Data Types
+title: Data Types
 ---
-## PHP Data Types
+## Data Types
 
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/php/variables/data-types/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 

@@ -1,7 +1,7 @@
 ---
-title: PHP If/Else/ElseIf
+title: If/Else/ElseIf
 ---
-## PHP If/Else/ElseIf
+## If/Else/ElseIf
 
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/php/if-else-elseif/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
