@@ -4,8 +4,8 @@ title: Neural Networks
 ## Neural Networks
 ![Feed-forward neural network](http://ufldl.stanford.edu/tutorial/images/SingleNeuron.png)
 
-A neural network is a computing system. They are like biological neural networks that constitute animal brains. 
-To train  a neural network, we need an input vector and a corresponding output vector.
+A artificial neural network is a computing system. They are like biological neural networks that constitute animal brains. 
+To train a neural network, we need an input vector and a corresponding output vector.
 The training works by minimizing an error term. This error can be the squared difference between the predicted output and the original output.
 
 Neural networks initially became popular in the 1980s, but limitations in computational power prohibited their widespread acceptance until the past decade.
@@ -25,6 +25,10 @@ As mentioned earlier, the middle layers are "hidden," meaning the weights given 
 
 Neural networks are used on a variety of tasks. These include computer vision, speech recognition, translation, social network filtering, playing video games, and medical diagnosis among other things.
 
+### Visualization
+
+There's an awesome tool to help you grasp the idea of neural networks without any hard math: <a href='http://playground.tensorflow.org' target='_blank' rel='nofollow'>TensorFlow Playground</a>, a web app that lets you play with a real neural network running in your browser and click buttons and tweak parameters to see how it works.
+
 ### Problems solved using Neural Networks
 - Classification
 - Clustering
@@ -37,6 +41,11 @@ Neural networks are used on a variety of tasks. These include computer vision, s
 - Feature learning 
 - Learning to rank
 - Grammar induction
+
+### Types of Neural Networks
+- Recurrent Neural Network (RNN)
+- Long-short Term Memory (LSTM), a type of RNN
+- Convolutional Neural Network (CNN)
 
 ### More Information:
 - <a href=' https://en.wikipedia.org/wiki/Artificial_neural_network#Components_of_an_artificial_neural_network ' target='_blank' rel='nofollow'>Wikipedia</a>
