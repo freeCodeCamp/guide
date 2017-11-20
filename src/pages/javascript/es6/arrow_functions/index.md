@@ -37,4 +37,4 @@ let NewOneWithParameters = (a, b) => {
 NewOneWithParameters(10, 20);
 ```
 
-I don’t think, I need to give explanation for this. It's straightforward.
+I don’t think I need to give an explanation for this. It's straightforward.
