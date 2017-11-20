@@ -25,6 +25,35 @@ var promise = new Promise(function(resolve, reject) {
 
 The Promise object works as proxy for a value not necessarily known when the promise is created. It allows you to associate handlers with an asynchronous action's eventual success value or failure reason. This lets asynchronous methods return values like synchronous methods: instead of immediately returning the final value, the asynchronous method returns a promise to supply the value at some point in the future.
 
+## Using 'Then' (Promise Chaining)
+
+To take several asynchronous calls and synchronize them one after the other, you can use promise chaining. This allows using a value from the first promise in later subsequent callbacks.
+```javascript
+Promise.resolve('some')
+  .then(function(string) { // <-- This will happen after the above Promise resolves (returning the value 'some')
+    return new Promise(function(resolve, reject) {
+      setTimeout(function() {
+        string += 'thing';
+        resolve(string);
+      }, 1);
+    });
+  })
+  .then(function(string) { // <-- This will happen after the above .then's new Promise resolves
+    console.log(string); // <-- Logs 'something' to the console
+  });
+```
+
+=======
+
+## Promise API
+
+There are 4 static methods in the Promise class:
+
+  - Promise.resolve
+  - Promise.reject
+  - Promise.all
+  - Promise.race
+
 ## Promises can be chained together
 
 When writing Promises to solve a particular problem, you can chain them together to form logic.
@@ -84,4 +113,47 @@ will skip to the nearest `catch()` handler.
 
 For more information on Functional Programming: <a href='https://en.wikipedia.org/wiki/Functional_programming' target='_blank' rel='nofollow'>Functional Programming</a>
 
+## Function Generators
+
+In recent releases, JavaScript has introduced more ways to natively handle Promises. One such way is the function generator. Function generators are "pausable" functions. When used with Promises, generators can make using a lot easier to read and appear "synchronous".
+
+```javascript
+const myFirstGenerator = function* () {
+  const one = yield 1;
+  const two = yield 2;
+  const three = yield 3;
+
+  return 'Finished!';
+}
+
+const gen = myFirstGenerator();
+```
+
+Here's our first generator, which you can see by the `function*` syntax. The `gen` variable we declared will not run `myFirstGenerator`, but instead will "this generator is ready to use".
+
+```javascript
+console.log(gen.next());
+// Returns { value: 1, done: false }
+```
+
+When we run `gen.next()` it will unpause the generator and carry on. Since this is the first time we have called `gen.next()` it will run `yield 1` and pause until we call `gen.next()` again. When `yield 1` is called, it will return to us the `value` that was yielded and whether or not the generator is `done`.
+
+```javascript
+console.log(gen.next());
+// Returns { value: 2, done: false }
+
+console.log(gen.next());
+// Returns { value: 3, done: false }
+
+console.log(gen.next());
+// Returns { value: 'Finished!', done: true }
+
+console.log(gen.next());
+// Will throw an error
+```
+As we keep calling `gen.next()` it will keep going onto the next `yield` and pausing each time. Once there are no more `yield`'s left, it will proceed to run the rest of the generator, which in this case simply returns `'Finished!'`. If you call `gen.next()` again, it will throw an error as the generator is finished.
+
+Now, imagine if each `yield` in this example was a `Promise`, the code itself would appear extremely synchronous. Libraries such as <a href='https://github.com/redux-saga/redux-saga' target='_blank' rel='nofollow'>redux-saga</a> make use of this to implement easier-to-understand side-effects in your Redux applications.
+
+### More Information
 For more information on promises: <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise' target='_blank' rel='nofollow'>Promises</a>

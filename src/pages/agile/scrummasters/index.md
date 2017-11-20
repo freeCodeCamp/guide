@@ -17,10 +17,11 @@ The Scrum Master is a servant-leader for the Scrum Team. The Scrum Master helps 
 - Walking the product owner through more technical user stories
 - Encouraging collaboration between the Scrum team and product owner
 
+Scrum masters are part of an Agile team. They can be developers or other functional members (wearing multiple hats) or functioning individually as a sole role in a team. Their main objective is to enhance the development using the Scrum framework.
+
+Often their role is to: guide the sprint planning, monitor daily standup, conduct retrospectives, ensure velocity is present, help Scoping of Sprints.
 
 #### More Information:
 
 - <a href="https://www.scrum.org/resources/what-is-a-scrum-master" target="_blank" rel="nofollow">What is a Scrum Master</a>
 - <a href="https://www.scrum.org/resources/scrum-guide" rel="nofollow">Scrum Guide</a> 
-
-

@@ -31,4 +31,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ## Important!
 This attribute is no longer supported in html5. css is the way to go.
 
+The Div Align attribute can be used to horizontally align the contents within a div. In the below example, the text will be centered within the div.
+
+```html
+<div align="center">
+  This Text Will Be Centered
+</div>
+```
+
+**This attribute is not supported in HTML5 and [CSS Text Align](https://github.com/freeCodeCamp/guides/blob/f50b7370be514b2a03ee707cd0f0febe2bb713ae/src/pages/css/text-align/index.md) should be used instead
 
