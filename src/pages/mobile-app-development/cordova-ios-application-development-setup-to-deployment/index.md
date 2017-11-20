@@ -213,7 +213,7 @@ Select either *All devices* or *specific devices* click next.
 Next the review dialog is displayed,
 Here it will show the signing certificate and provisioning profile used for generating the build.
 Review and click next.
-Finally the file  save as popup is displayed to select the locationin the filesystem to store the exported app file.
+Finally the file  save as popup is displayed to select the location in the file system to store the exported app file.
 
 The app is exported as ``.ipa``` file .
 
