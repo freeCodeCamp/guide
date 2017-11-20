@@ -23,3 +23,5 @@ The GPU was originally used mainly for 3D game rendering to improve your resolut
 - <a href='https://www.khronos.org/opencl/' target='_blank' rel='nofollow'>OpenCL</a>
 - <a href='https://www.opengl.org/' target='_blank' rel='nofollow'>OpenGL</a>
 - <a href='https://blogs.nvidia.com/blog/2009/12/16/whats-the-difference-between-a-cpu-and-a-gpu/' target='_blank' rel='nofollow'>nVidia Blog</a>
+
+Notable makers of GPU's include: Nvidia and AMD/ATI.
