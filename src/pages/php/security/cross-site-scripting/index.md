@@ -1,7 +1,7 @@
 ---
-title: Security - Cross Site Scripting
+title: Cross Site Scripting
 ---
-## Security - Cross Site Scripting
+## Cross Site Scripting
 
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/php/security/cross-site-scripting/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
