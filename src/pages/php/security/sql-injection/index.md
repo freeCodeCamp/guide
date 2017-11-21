@@ -1,7 +1,7 @@
 ---
-title: Security - SQL Injection
+title: SQL Injection
 ---
-## Security - SQL Injection
+## SQL Injection
 
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/php/security/sql-injection/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
