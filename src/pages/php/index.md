@@ -12,7 +12,13 @@ Originally PHP stood for 'Personal Home Page', as Rasmus Lerdorf created it for 
 
 ## What is PHP used for?
 
-It is typically used to generate web page content dynamically. For example, if you have a blog website, you might write some PHP scripts to retrieve your blog posts from a database and display them. Other things that PHP scripts could be used for include:
+PHP can be used for:
+
+* Websites and web applications (server-side scripting)
+* Command line scripting
+* Desktop (GUI) applications
+
+Typically, it is used in the first form to generate web page content dynamically. For example, if you have a blog website, you might write some PHP scripts to retrieve your blog posts from a database and display them. Other things that PHP scripts could be used for include:
 
 * Processing and saving user input from form data
 * Setting and working with website cookies
