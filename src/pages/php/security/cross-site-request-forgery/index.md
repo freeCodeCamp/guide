@@ -1,7 +1,7 @@
 ---
-title: Security - Cross Site Request Forgery
+title: Cross Site Request Forgery
 ---
-## Security - Cross Site Request Forgery
+## Cross Site Request Forgery
 
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/php/security/cross-site-request-forgery/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
