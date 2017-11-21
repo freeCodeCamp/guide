@@ -24,6 +24,8 @@ Then in our CSS file we should add the special attributes to the class.
 
 [View the above example on CodePen](https://codepen.io/Tlandis/pen/RLvomV).
 
+Notice that classes have the prefix of a period (.) in CSS.
+
 **Note:** class names are traditionally all lowercase, with each word in a multi-word class name separated by hyphens (e.g. "super-man").
 
 #### More Information:
