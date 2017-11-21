@@ -41,13 +41,13 @@ $ rpm -ivh jdk-8uversion-linux-x64.rpm`
 
 Open JDK installation :  
 `bash  
-sudo apt-get install openjdk-8-jdk` 
+$ sudo apt-get install openjdk-8-jdk` 
 
 Oracle JDK installation :  
 `bash  
-sudo add-apt-repository ppa:webupd8team/java  
-sudo apt-get update  
-sudo apt-get install oracle-java8-installer` 
+$ sudo add-apt-repository ppa:webupd8team/java  
+$ sudo apt-get update  
+$ sudo apt-get install oracle-java8-installer` 
 
 ### Mac
 
