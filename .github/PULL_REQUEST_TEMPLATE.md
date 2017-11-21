@@ -18,7 +18,7 @@ Before creating a PR, please make sure to verify the following by marking the ch
   - Your PR should NOT be called `Update index.md` since it does not help the maintainer understand what has been changed.
   - For example, if you create a **Variables** article inside the **Python** directory, the pull request title should be **Python: add Variables article**.
   - Other examples are **Git: edit Git Commit article** or **PHP: create PHP section and add Data Structures article**
-- [] Reviewed necessary formatting guidelines in [`CONTRIBUTING.md`](https://github.com/freeCodeCamp/guides/.github/CONTRIBUTING.md).
+- [] Reviewed necessary formatting guidelines in [`CONTRIBUTING.md`](https://github.com/freeCodeCamp/guides/blob/master/CONTRIBUTING.md).
 - [] No plagiarized, duplicate or repetitive  content that has been directly copied from another source.
 
 <!-- TO NOTE
