@@ -2,12 +2,30 @@
 title: Switch
 ---
 ## Switch
+In PHP, the `Switch` statement is very similar to the Javascript `Switch` statement (See the <a href="/javascript/switch-statements">Javascript Switch Guide</a> to compare and contrast). It allows rapid case testing with a lot of different possible conditions, the code is also more readable.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/php/switch/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+### Syntax
+```php
+<?php
+	// Switch Statement Example
+	switch ($i) {
+    	case "free":
+    	    echo "i is free";
+    	    break;
+    	case "code":
+    	    echo "i is code";
+    	    break;
+    	case "camp":
+    	    echo "i is camp";
+    	    break;
+    	default:
+    		echo "i is freecodecamp";
+	}
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### Break
+The `break;` statement exits the switch and goes on to run the rest of the application's code. If you do not use the `break;` statement you may end up running mulitple cases and statements, sometimes this may be desired in which case you should not include the `break;` statement.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+* <a href="https://secure.php.net/manual/en/control-structures.switch.php" rel="nofollow">php.net docs Switch</a>
