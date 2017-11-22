@@ -3,13 +3,12 @@ title: Sprint Planning Meetings
 ---
 ## Sprint Planning Meetings
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/sprint-planning-meetings/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Sprint Planning Meetings are involve Scrum Team members, Scrummaster and Product Owner. It supposed to be possibly short and clear for all of the participants.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Product Owner's role is to explain the business needs.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Scrum Master helps to arrange it into an actionable tasks.
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+Team members apply and plan it according to their best understanding.
 
-
+The outcome of a sprint planning meeting should include a specific business goal executed with actual development tasks.
