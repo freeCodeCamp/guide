@@ -3,13 +3,25 @@ title: Array.prototype.reduce
 ---
 ## Array.prototype.reduce
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/standard-objects/array/array-prototype-reduce/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `.reduce()` method loops through an array and executes a callback function at each iteration in order to reduce the array to a single value. It then returns this value.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The most basic use case of `.reduce()` is to sum numbers like in this example :
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```
+var numbers = [0, 1, 2, 3, 4];
+
+var result = numbers.reduce(function(accumulator, currentValue){
+  return accumulator + currentValue;
+});
+
+console.log(result); // = 10
+```
+
+The `.reduce()` method is not limited to numbers. It is a less specific, broader method than `.map()` or `.filter()` but it is logically less efficient at doing the same work.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce?v=b)
+
+[Funfunfunction - video on the basics of `.reduce()`](https://youtu.be/Wl98eZpkp-c)
 
 
