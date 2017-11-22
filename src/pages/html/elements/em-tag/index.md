@@ -18,6 +18,6 @@ Note: The `<em>` tag should not be used to stylistically italicize text. The `<e
 
 #### More Information:
 
-- <a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em' target='_blank' rel='nofollow'>The HTML &lt;a&gt; element: MDN</a>
-- <a href='https://www.w3schools.com/tags/tag_em.asp' target='_blank' rel='nofollow'>em tag: w3schools</a>
-- <a href='http://htmlreference.io/element/em/' target='_blank' rel='nofollow'>em tag: htmlreference.io</a>
+[em tag: w3schools](https://www.w3schools.com/tags/tag_em.asp)
+
+[em tag: htmlreference.io](http://htmlreference.io/element/em/)
