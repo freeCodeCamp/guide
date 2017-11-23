@@ -36,10 +36,9 @@ The `display` property specifies the type of box used for an HTML element. There
 
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 * Documentation and full list of keyword values: [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/display)
-* The W3Schools CSS reference on the display property is available <a href='https://www.w3schools.com/cssref/pr_class_display.asp' target='_blank' rel='nofollow'>here</a>.
+* The W3Schools CSS reference on the display property is available: [W3Schools](https://www.w3schools.com/cssref/pr_class_display.asp)
 
-* CSS-TRICKS has a great reference on the display property <a href='https://css-tricks.com/almanac/properties/d/display/' target='_blank' rel='nofollow'>here</a>
+* CSS-TRICKS has a great reference on the display property: [CSS-Tricks](https://css-tricks.com/almanac/properties/d/display/)
 * Browser Support: [caniuse](http://caniuse.com/#search=display)
 * A Complete Guide to Flexbox: [CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
