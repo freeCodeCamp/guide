@@ -1,4 +1,8 @@
-# The Zero Value in Golang.
+---
+title: The Zero Value
+---
+
+## The Zero Value
 Understanding some zero values inside Golang:
 1. false for booleans
 2. 0 for integers
@@ -17,3 +21,5 @@ Please, use short declaration operator as much as possible.
 * Use var for:
   * zero value
   * package scope
+  
+  ### More Information
