@@ -55,6 +55,6 @@ It can also be used when downloading data, and if there are multiple mirrors ava
 
 #### More Information
 Read on more information on Traceroute:
-- [How to Use TRACERT in Windows](https://support.microsoft.com/en-us/help/314868/how-to-use-tracert-to-troubleshoot-tcp-ip-problems-in-windows)
--[How to Use TRACERT in Linux](https://www.lifewire.com/traceroute-linux-command-4092586)
+- <a href='https://support.microsoft.com/en-us/help/314868/how-to-use-tracert-to-troubleshoot-tcp-ip-problems-in-windows' target='_blank' rel='nofollow'>How to Use TRACERT in Windows</a>
+-<a href='https://www.lifewire.com/traceroute-linux-command-4092586' target='_blank' rel='nofollow'>How to Use TRACERT in Linux</a>
 
