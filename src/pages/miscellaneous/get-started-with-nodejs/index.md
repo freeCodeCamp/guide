@@ -35,4 +35,6 @@ Node.js has become a key part of 'JavaScript Everywhere', encouraging web applic
 *   <a href='http://www.wilcoxd.com/whitepapers/node_js/' target='_blank' rel='nofollow'>Ryan Wilcox's Whitepaper</a>
 *   <a href='http://www.devthought.com/' target='_blank' rel='nofollow'>devthought</a>
 
-_Source & more links <a href='http://stackoverflow.com/questions/2353818/how-do-i-get-started-with-node-js/5511507#5511507' target='_blank' rel='nofollow'>here.</a>_
+### More Information:
+*   <a href='https://stackoverflow.com/questions/2353818/how-do-i-get-started-with-node-js' target='_blank' rel='nofollow'>Stackoverflow.com: How do I get started with Node.js?</a>
+*   <a href='https://nodejs.org/en/docs/guides/getting-started-guide/'  target='_blank' rel='nofollow'>Node.js Official Website: How do I start with Node.js after I installed it?</a>
