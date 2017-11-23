@@ -222,3 +222,9 @@ The following table lists all the 2D transform properties:
 | skew(x-angle,y-angle) | Defines a 2D skew transformation along the X- and the Y-axis              |
 | skewX(angle)          | Defines a 2D skew transformation along the X-axis                         |
 | skewY(angle)          | Defines a 2D skew transformation along the Y-axis                         |
+
+## More Info:
+
+* https://css-tricks.com/almanac/properties/t/transform/
+* https://www.w3schools.com/css/css3_2dtransforms.asp
+* https://developer.mozilla.org/en-US/docs/Web/CSS/transform
