@@ -10,22 +10,19 @@ The `<u>` element was deprecated in HTML 4.01. In HTML5, the `<u>` tag was redef
 Instead, to underline text, it is recommended that the `<span>` tag is used in place of `<u>`. Style your `<span>` tags with the CSS `text-decoration` property with the value `underline`.
 
 ### Examples:
-```
+``` html
 <html>
 <body>
-
 <p>This parragraph has a <u>underline</u>.</p>
-
 </body>
 </html>
 ```
 Underlining text with the `<span>` tag:
-```
+```html
 <span style="text-decoration: underline">Everyone</span> has been talking about <span style="text-decoration: underline">freeCodeCamp</span> lately.
 ```
 
 
-#### More Information:
+### More Information:
+[MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/u)
 
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-<a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/u' target='_blank' rel='nofollow'> MDN article on &lt;Element_U&gt; </a>
