@@ -50,6 +50,7 @@ Another important `border`property is the `border-radius` property. This can eit
 
 ### More Information:
 
-MDN Documentation: <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/border' target='_blank' rel='nofollow'>MDN</a>
+- [MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/border)
+- [CSS3 Border Radius](https://guide.freecodecamp.org/css/css3-borders-rounded-corners)
 
 Browser Support: IE6+
