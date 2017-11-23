@@ -2,14 +2,15 @@
 title: Data Frames
 ---
 ## Data Frames
-A frame is data that is transmitted between network points as a unit complete with addressing and necessary protocol control information.
-A frame is usually transmitted serial bit by bit and contains a header field and a trailer field that "frame" the data. 
-In the OSI model, data frames are created at the data link layer.
 
-The Data Link layer frame includes:
-* Data - The packet from the Network layer
-* Header - Contains control information, such as addressing, and is located at the beginning of the PDU (Package Data Unit)
-* Trailer - Contains control information added to the end of the PDU
+Data Frames (Frames) are data units that are switchable over packet switched networks. Frames are Open Systems Interconnection (OSI) Layer 2 Protocol Data Units (PDUs). Frames are addressed using Media Access Control (MAC) addresses. There are several different Layer 2 communications protocols, each with distinct control information, but most utilize a common format.
+
+Frames are divided into control information and data (also called the 'payload'). Control information is contained in the frame header and trailer which encapsulate the payload. Encapsulation is the process by which a Layer 3 packet has a Layer 2 header added to the front and a Layer 2 trailer added at the end. This is the standard format for Data Frames: a header followed by the payload followed by a trailer.
+
 ![A frame in data link layer](http://www.highteck.net/images/156-Datalink-PDU.jpg)
 
+The Data Frame header contains protocol specific information but all headers include the protocol being used and source/destination MAC addresses. Common Layer 2 protocols include Ethernet and Point-to-Point Protocol (PPP). Data Frame trailers typically contain a Frame Check Sequence (FCS) that allows the receiving device to verify the integrity of the received frame.
+
+#### More Information:
+<!-- Please add any articles you think might be helpful to read before writing the article -->
 
