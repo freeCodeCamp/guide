@@ -1,13 +1,13 @@
-----
-title: CSS-Preprocessors
-----
+---
+title: CSS Preprocessors
+---
 
-## CSS-Preprocessors
+## CSS Preprocessors
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-CSS-Preprocessors are increasingly becoming a mainstay in the workflow of front end web developers. CSS is an incredibly complicated and nuanced language, and in an effort to make it's usage easier, developers often turn to using preprocessors such as SASS or LESS.
+CSS Preprocessors are increasingly becoming a mainstay in the workflow of front end web developers. CSS is an incredibly complicated and nuanced language, and in an effort to make it's usage easier, developers often turn to using preprocessors such as SASS or LESS.
 
-CSS preprocessors compile the code which is written using a special compiler, and then use that to create a css file, which can then be refereneced by the main HTML document. When using any CSS Preprocessor, you will be able to program in normal CSS just as you would if the preprocessor were not in place, but you also have more options available to you. Some, such as SASS, has specific style standards which are meant make the writing of the document even easier, such as the freedom to omit braces if you choose to do so. 
+CSS Preprocessors compile the code which is written using a special compiler, and then use that to create a css file, which can then be refereneced by the main HTML document. When using any CSS Preprocessor, you will be able to program in normal CSS just as you would if the preprocessor were not in place, but you also have more options available to you. Some, such as SASS, has specific style standards which are meant make the writing of the document even easier, such as the freedom to omit braces if you choose to do so. 
 
 Of course, CSS Preprocessors also offer other features as well. Many of the features offered are incredibly similar across preprocessors, with only slight variances in syntax. Thus, you can choose pretty much anyone you wish, and will be able to achieve the same things. Some of the more useful features are: 
 
