@@ -28,7 +28,7 @@ The first part is just declaring a variable and assigning the function (i.e) () 
 
 Then the second part is declaring the body part of the function. The arrow part with the curly braces defines the body part.
 
-Another example with parameters.
+Another example with parameters:
 
 ```
 let NewOneWithParameters = (a, b) => {
@@ -37,4 +37,4 @@ let NewOneWithParameters = (a, b) => {
 NewOneWithParameters(10, 20);
 ```
 
-I don’t think I need to give explanation for this. Its straightforward.
+I don’t think I need to give an explanation for this. It's straightforward.
