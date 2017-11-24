@@ -31,4 +31,6 @@ Computer science is categorized into several fields. The following are among the
   - Operating Systems
   - Database Systems
 
-In this section, we cover a lot of fundamentals of how contemporary computers work.
+##More Information
+[Visualization of Data Structures](http://www.cs.usfca.edu/~galles/JavascriptVisual/Algorithms.html)
+
