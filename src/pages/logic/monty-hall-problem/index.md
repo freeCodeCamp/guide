@@ -23,3 +23,6 @@ Yes, it is possible that Door 1 had the car all along and Monty tricked you. Tha
 
 <a href="https://www.youtube.com/watch?v=YReov4c3taI" target="_blank" rel="nofollow">21 Kevin Spacey Monty Hall Problem</a>
 
+
+#### More Information:
+- Monty Hall problem article: [Wikipedia](https://en.wikipedia.org/wiki/Monty_Hall_problem)
