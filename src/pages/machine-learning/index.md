@@ -26,6 +26,12 @@ There are however other subcategories of machine learning you may encounter such
 3. <a href='https://www.udemy.com/data-science-and-machine-learning-with-python-hands-on/' target='_blank' rel='nofollow'>Data Science and Machine Learning with Python - Hands On!</a>
 4. <a href='http://ciml.info/' target='_blank' rel='nofollow'>Machine Learning</a>
 
+#### Video Resources:
+
+1. <a href="https://www.youtube.com/channel/UCWN3xxRkmTPmbKwht9FuE5A" target="_blank">Siraj Raval's Youtube channel</a>
+2. <a href="https://www.youtube.com/channel/UCfzlCWGWYyIQ0aLC5w48gBQ" target="_blank">Sentdex's Youtube channel</a>
+
+
   The first steps involved in any Machine Learning process is to categorize data points. This is called classification.
 You need to select a key differentiator of the data. Say you are trying to identify if a certain image is of a male of female. you will need training data where you point to your code, specific nuances to look for which will help it identify if it is a female or a male.
   
