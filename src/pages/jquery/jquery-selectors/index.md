@@ -48,6 +48,8 @@ There are also selectors that act as filters - they will usually start with colo
 ```
 `$("li:first").css("color", "green");`
 
+**Note:** Don't forget that applying css in JavaScript is not a good practice. You should always give your styles in css files.
+
 Another filtering selector, `:contains(text)`, selects elements that have a certain text. Place the text you want to match in the parentheses. Here's an example with two paragraphs. The jQuery selector takes the word "Moto" and changes its color to yellow.
 
 ```
@@ -57,6 +59,12 @@ Another filtering selector, `:contains(text)`, selects elements that have a cert
 `$("p:contains('World')").css("color", "yellow");`
 
 **Note:** In the jQuery selector, `World` is in single-quotes because it is already inside a pair of double-quotes. Always use single-quotes inside double-quotes to avoid unintentionally ending a string.
+
+**Multiple Selectors**
+In jQuery, you can use multiple selectors to apply the same changes to more than one element, using a single line of code. You do this by separating the different ids with a comma. For example, if you want to set the background color of three elements with ids cat,dog,and rat respectively to red, simply do:
+```
+$("#cat,#dog,#rat").css("background-color","red");
+```
 
 These are just a few of the selectors available for use in jQuery. See the More Information section for a link to the complete list on the jQuery website.
 

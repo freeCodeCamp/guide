@@ -3,38 +3,23 @@ title: Lang
 ---
 ## Lang
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/attributes/lang/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+In HTML, Lang tag is used to declare the language of the whole or a part of a web page.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Examples
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
-HTML lang Attribute
-
-The lang Attribute Attribute is used to specify language of the element's content
-
-
-Example :
-
-```
-<html>
-<body>
-
-<p>FreeCodeCamp</p>
-<p lang="hi">फ्री कोड कैंप </p>
-
-</body>
+```html
+<html lang="en">
 </html>
-
-
 ```
 
-You need to specify language_code for the element.
+The lang attribute can also be used to specify the language of a specific element:
 
-In the above example "hi" is for hindi language.Similarly you can use "en" for English, "es" for Spanish, "fr" for French and so on.
+```html
+<p lang="hi">
+  फ्री कोड कैंप
+</p>
+```
 
-You will have to refer ISO 639-1 Language Codes for specific language code.
+In the above example, "hi" denotes the Hindi language. Similarly, you can use "en" for English, "es" for Spanish, "fr" for French and so on.
+
+Refer to [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the appropriate two-digit Language code.
