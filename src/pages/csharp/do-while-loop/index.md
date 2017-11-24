@@ -4,7 +4,7 @@ title: Do while loop
 
 # Do while Loop
 
-The `do while` loop executes a block of code once and until a condition is false. They are a particular case of [`while` loops](https://guide.freecodecamp.org/csharp/while-loop): they execute a block of code one time and then until the condition is false. A common use of `do while` loops are input checks.
+The `do while` loop executes a block of code once and until a condition is false. They are a particular case of <a href='https://guide.freecodecamp.org/csharp/while-loop' target='_blank' rel='nofollow'>`while` loops</a>: they execute a block of code one time and then until the condition is false. A common use of `do while` loops are input checks.
 
 ## Example
 ```

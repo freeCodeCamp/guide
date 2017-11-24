@@ -4,7 +4,7 @@ title: Closures
 
 # Closures
 
-A closure is the combination of a function and the lexical environment within which that function was declared.
+A closure is the combination of a function and the lexical environment (scope) within which that function was declared. Closures are a fundamental and powerful property of Javascript. This article discusses the 'how' and 'why' about Closures:
 
 
 
@@ -50,7 +50,6 @@ const arr_ = [person1, person2, person3];
 const arr_sorted = arr_.sort(by('height')); // [ { name: 'nicholas', height: 66 }, { name: 'rob', height: 70 },{ name: 'joe', height: 72 } ]
 
 ```
-
 The closure 'remembers' the environment in which it was created. This environment consists of any local variables that were in-scope at the time the closure was created.
 
 ```js
@@ -171,6 +170,10 @@ myModule.method1(); // I am method 1
 myModule.method2(); // I am method 2, I am a private variable
 ```
 
+Closures are useful for capturing new instances of private variables contained in the 'remembered' environment, and those variables can only be accessed through the returned function or methods.
+
 ### More Information:
 
 <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures' target='_blank' rel='nofollow'>MDN</a>
+<br />
+<a href='https://medium.freecodecamp.org/lets-learn-javascript-closures-66feb44f6a44' target='_blank' rel='nofollow'>Javascript Closures</a>
