@@ -1,5 +1,5 @@
 ---
-title: ToList
+title: To List
 ---
 
 # ToList

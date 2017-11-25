@@ -1,5 +1,5 @@
 ---
-title: ToDictionary
+title: To Dictionary
 ---
 
 # ToDictionary
