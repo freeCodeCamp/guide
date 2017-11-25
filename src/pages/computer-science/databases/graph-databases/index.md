@@ -3,13 +3,9 @@ title: Graph Databases
 ---
 ## Graph Databases
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/computer-science/databases/graph-databases/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+A graph database is a database that uses graph structures for semantic queries with nodes, edges and properties to represent and store data. A key concept of the system is the graph (or edge or relationship), which directly relates data items in the store. The relationships allow data in the store to be linked together directly, and in many cases retrieved with one operation.
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
+* <a href='https://en.wikipedia.org/wiki/Graph_database' target='_blank' rel='nofollow'>Graph Databases</a>
 
