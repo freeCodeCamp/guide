@@ -43,6 +43,9 @@ OR
   opacity:0.0;
   }
 ```
+
+[A codepen example to show background opacity ranges](https://codepen.io/lvcoulter/full/dVrwmK/)
+
 #### More Information:
 For more information visit [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/opacity)
 Browser support: <a href= 'https://caniuse.com/#search=opacity' target= '_blank' rel= 'nofollow'>caniuse</a>

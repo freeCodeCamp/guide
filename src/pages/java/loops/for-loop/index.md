@@ -28,6 +28,15 @@ for (iter_For = 0; iter_For < 10; iter_For++)
 System.out.println("iter_For Value: " + fooFor);
 ```
 
+Note: It is also acceptable to declare a variable within the for loop as a single statement.
+```java
+for (int iter_For = 0; iter_For < 10; iter_For++)
+{
+    System.out.print (iter_For + " ");
+    // Iterated 10 times, iter_For 0,1,2...9
+}
+```
+
 Output:
 ```
 0 1 2 3 4 5 6 7 8 9

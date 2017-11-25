@@ -3,12 +3,24 @@ title: Doctype
 ---
 ## Doctype
 
-HTML code is always accompanied by it's "boilerplate" of tags. The very first tag found on any HTML file will be <!DOCTYPE html>. 
+HTML code is always accompanied by its "boilerplate" of tags. The very first tag found on any HTML file must be a Doctype declaration.
+The html5 doctype `<!DOCTYPE html>` is a required preamble used to inform the browser which [rendering mode](https://developer.mozilla.org/en-US/docs/Quirks_Mode_and_Standards_Mode) to use (HTML5 vs. XHTML). Be sure to place the doctype at the very top of the document.
 
-This tag ensures that the browser will try and follow any specifications that you have stated after the opening tag. 
-This means that the browser will know how to render your file - instead of using a method of rending that could be incompatible with your code. 
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset=UTF-8>
+        <title>Document Title</title>
+    </head>
+    <body>
+        <p>Document content.</p>
+    </body>
+</html>
+```
 
 #### More Information:
-<a href="https://developer.mozilla.org/en-US/docs/Glossary/Doctype"> MDN: !DOCTYPE</a> 
 
-
+- [Doctype: MDN](https://developer.mozilla.org/en-US/docs/Glossary/Doctype)
+- [Introduction to HTML5: MDN](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/Introduction_to_HTML5)
+- [Quirks Mode and Standards Mode: MDN](https://developer.mozilla.org/en-US/docs/Quirks_Mode_and_Standards_Mode)

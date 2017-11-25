@@ -43,7 +43,7 @@ Area of circle =  <span class="texhtml"><span class="texhtml">π</span> * <i>(
 
 We know that the circumference of the circle (C), 
 <br>`C = 2 * π * (radius)`.
-<br><br>From this,you can derive the area of the circle as below,
+<br><br>From this, you can derive the area of the circle as below,
 
 Area of circle =  <i>C</i><sup>2</sup></span> / 4 * <span class="texhtml"><span class="texhtml">π</span>
   
