@@ -1,6 +1,10 @@
 ---
 title: Get Started with Nodejs
 ---
+[Node.js](https://nodejs.org/) is a JavaScript runtime built on [Chrome's V8 JavaScript engine](https://developers.google.com/v8/ "Chrome's V8 Engine") enabling JavaScript to be used for server-side programming.
+
+Node.js has become a key part of 'JavaScript Everywhere', encouraging web application development to unify around a single programming language, rather than rely on a different language for writing server side scripts.
+
 ### Tutorials:
 
 *   <a href='http://nodeschool.io/' target='_blank' rel='nofollow'>NodeSchool.io interactive lessons</a>
@@ -31,4 +35,6 @@ title: Get Started with Nodejs
 *   <a href='http://www.wilcoxd.com/whitepapers/node_js/' target='_blank' rel='nofollow'>Ryan Wilcox's Whitepaper</a>
 *   <a href='http://www.devthought.com/' target='_blank' rel='nofollow'>devthought</a>
 
-_Source & more links <a href='http://stackoverflow.com/questions/2353818/how-do-i-get-started-with-node-js/5511507#5511507' target='_blank' rel='nofollow'>here.</a>_
+### More Information:
+*   <a href='https://stackoverflow.com/questions/2353818/how-do-i-get-started-with-node-js' target='_blank' rel='nofollow'>Stackoverflow.com: How do I get started with Node.js?</a>
+*   <a href='https://nodejs.org/en/docs/guides/getting-started-guide/'  target='_blank' rel='nofollow'>Node.js Official Website: How do I start with Node.js after I installed it?</a>
