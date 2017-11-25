@@ -16,18 +16,18 @@ Our goal for this Algorithm is to split `arr` (first argument) into smaller chun
 
 #### Relevant Links
 
-*   [Array.push()</a>
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push' rel='nofollow'>Array.push()</a>
 *   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice' target='_blank' rel='nofollow'>Array.slice()</a>
 
 ## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 1
 
 The links above suggest to use `Array.push()`, so let's start by first creating a new array to store the smaller arrays we will soon have like this:
-
+```javascript
     var newArray = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:"' target='_blank' rel='nofollow'>];
-
+```
 > _try to solve the problem now_
 
-## ![:speech_balloon:</a> Hint: 2
+## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:")</a> Hint: 2
 
 Next we'll need a `for loop` to loop through `arr`.
 
@@ -46,7 +46,7 @@ Finally, we need a method to do the actual splitting and we can use `Array.slice
 **Solution ahead!**
 
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
-
+```javascript
     function chunkArrayInGroups(arr, size) {
 
       var temp = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>];
@@ -66,8 +66,8 @@ Finally, we need a method to do the actual splitting and we can use `Array.slice
         result.push(temp);
       return result;
     }
-
-![:rocket:</a> <a href='https://repl.it/CLjU/24' target='_blank' rel='nofollow'>Run Code</a>
+```
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLjU/24' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -80,11 +80,11 @@ Finally, we need a method to do the actual splitting and we can use `Array.slice
 
 #### Relevant Links
 
-*   [Array.push()</a>
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push' rel='nofollow'>Array.push()</a>
 *   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for' target='_blank' rel='nofollow'>For Loops</a>
 
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution:
-
+```javascript
     function chunkArrayInGroups(arr, size) {
       // Break it up.
       var arr2 = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>];
@@ -93,8 +93,8 @@ Finally, we need a method to do the actual splitting and we can use `Array.slice
       }
       return arr2;
     }
-
-![:rocket:</a> <a href='https://repl.it/Cj9x/3' target='_blank' rel='nofollow'>Run Code</a>
+```
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/Cj9x/3' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -111,7 +111,7 @@ Finally, we need a method to do the actual splitting and we can use `Array.slice
 *   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for' target='_blank' rel='nofollow'>For Loops</a>
 
 ## ![:rotating_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:") Advanced Code Solution:
-
+```javascript
     function chunkArrayInGroups(arr, size) {
       // Break it up.
       var newArr = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>];
@@ -124,8 +124,8 @@ Finally, we need a method to do the actual splitting and we can use `Array.slice
       return newArr;
     }
     chunkArrayInGroups(["a", "b", "c", "d"], 2);
-
-![:rocket:</a> <a href='https://repl.it/CLjU/26' target='_blank' rel='nofollow'>Run Code</a>
+```
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLjU/26' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -145,7 +145,7 @@ Finally, we need a method to do the actual splitting and we can use `Array.slice
 *   <a href='https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/while' target='_blank' rel='nofollow'>While Loops</a>
 
 ## ![:rotating_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:") Advanced Code Solution 2:
-
+```javascript
     function chunkArrayInGroups(arr, size) {
       var newArr = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>];
       while (arr.length) {
@@ -153,8 +153,8 @@ Finally, we need a method to do the actual splitting and we can use `Array.slice
       }
       return newArr;
     }
-
-![:rocket:</a> <a href='https://repl.it/CLjU/579' target='_blank' rel='nofollow'>Run Code</a>
+```
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLjU/579' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
