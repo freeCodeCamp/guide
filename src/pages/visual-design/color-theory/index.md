@@ -58,6 +58,6 @@ Web design, advertising, and human-computer interface heuristics also recognize 
 
 [Table of spectral or near-spectral colors in RGB](https://en.wikipedia.org/wiki/Spectral_color#Table_of_spectral_or_near-spectral_colors)
 
-[Color and Usability](usability.md)
-[Color and Culture](color-and-culture.md)
+[Color and Usability](/visual-design/color-theory/usability/index.md)
+[Color and Culture](/visual-design/color-theory/color-and-culture/index.md)
 

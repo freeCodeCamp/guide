@@ -3,7 +3,7 @@ title: Color and Usability
 ---
 ## Color and Usability
 
-Like the variances in [representation of color by visual displays](index.md), human eyes and brain interpret colors in a variety of ways.
+Like the variances in [representation of color by visual displays](/visual-design/color-theory/index.md), human eyes and brain interpret colors in a variety of ways.
 
 About one in twenty people have color blindness.[2]
 That's almost a billion people!
