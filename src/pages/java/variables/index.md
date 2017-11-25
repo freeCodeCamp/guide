@@ -23,11 +23,16 @@ int i;
 Float myFloat;
 ```
 
-You can also <i>assign</i> a value to the variable when you are declaring it. (This is way of declaring a variable is called <i>initialisation</i>.)
+You can <i>assign</i> a value to the variable either simultaneously when you are declaring it (which is called <i>initialisation</i>), or anywhere in the code after you have declared it. The symbol **=** is used for the same.
 
 ```java
 // Initialise the variable of Primitive Data Type 'int' to store the value 10
 int i = 10;
+
+//Variables can also be declared in one statement, and assigned values later.
+int j;
+j = 10;
+
 
 // Initialise the variable of Reference Data Type 'Float' to refer to a 'Float' object containing value 10.0
 Float myFloat = new Float(10.0);
