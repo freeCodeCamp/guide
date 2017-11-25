@@ -13,10 +13,7 @@ To use bootstrap buttons you follow the same steps that you would to create a bu
 
 <button type="button" class="btn btn-primary">Primary</button>
 
-
-You can also use bootstrap buttons with the `<a>` and `<input>` elements as shown in the example below.
-
-**Code Example:**
+You can also use bootstrap buttons with the `<a>` and `<input>` elements as shown in the examples below.
 
 `<a class="btn btn-primary" href="#" role="button">This button is a link</a>`
 
@@ -61,8 +58,24 @@ This is a list of the CSS classes that bootstrap provides for buttons.
 
 <button type="button" class="btn btn-link">Link</button>
 
+#### Bootstrap Button Sizes:
+This is a list of the CSS classes for different size of the buttons.
+
+`.btn-lg` This is bootstrap's large button.
+
+<button type="button" class="btn btn-lg">Large</button>
+
+`.btn-sm` This is bootstrap's large button.
+
+<button type="button" class="btn btn-sm">Small</button>
+
+`.btn-xs` This is bootstrap's large button.
+
+<button type="button" class="btn btn-xs">Extra Small</button>
+
 _Note: Do not include the dot in the HTML Class Attribute, referring to the classes with a dot is only used when adjusting the classes in CSS._
 
-#### More Information:
-****Bootstrap 4.0 Latest (Beta version)**** :
-[Bootstrap Modal v4.0](http://getbootstrap.com/docs/4.0/components/buttons/)
+#### More Information: 
+* <a href='https://getbootstrap.com/docs/4.0/components/buttons/' target='_blank' rel='nofollow'>Bootstrap Buttons documentation</a>
+* <a href='http://getbootstrap.com/docs/4.0/components/button-group/' target='_blank' rel='nofollow'>Bootstrap Button Group documentation</a>
+* [Bootstrap Get Started](/articles/bootstrap/bootstrap-get-started)
