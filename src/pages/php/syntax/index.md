@@ -3,11 +3,22 @@ title: Syntax
 ---
 ## Syntax
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/php/syntax/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+PHP is a language allowing you to include dynamic content in otherwise static webpages. It is written inline with html, simply rename a .html file to .php (web-server must have php installed) to get started.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```PHP
+<!DOCTYPE html>
+<html>
+<head>
+<title>PHP Example</title>
+</head>
+<body>
+<h1>PHP Example</h1>
+<?php
+  echo "Hello World from PHP!";
+?>
+</body>
+</html>
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+* <a href="https://secure.php.net/docs.php">php.net - PHP Documentation</a>

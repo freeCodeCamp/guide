@@ -2,12 +2,37 @@
 title: Conditionals
 ---
 ## Conditionals
+Conditionals in PHP are written using the `if`, `elseif`, `else` syntax. Using conditionals allows you to perform different actions depending on different inputs and values provided to a page at run time. In PHP conditionals are often referred to as control structures.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/php/if-else-elseif/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### If
+```PHP
+<?php
+if ($_GET['name'] = "freecodecamp"){
+  echo "You viewed the freeCodeCamp Page!";
+}
+```
+### Elseif
+```PHP
+<?php
+if ($_GET['name'] = "freecodecamp"){
+  echo "You viewed the freeCodeCamp Page!";
+} elseif ($_GET['name'] = "freecodecampguide"){
+  echo "You viewed the freeCodeCamp Guide Page!";
+}
+```
+### Else
+```PHP
+<?php
+if ($_GET['name'] = "freecodecamp"){
+  echo "You viewed the freeCodeCamp Page!";
+} elseif ($_GET['name'] = "freecodecampguide"){
+  echo "You viewed the freeCodeCamp Guide Page!";
+} else {
+  echo "You viewed a page that does not exist yet!";
+}
+```
+### Note
+In cases where you have a lot of possible conditions you may want to use a <a href="/php/switch">Switch Statement</a>.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+* <a href="https://secure.php.net/manual/en/control-structures.elseif.php" rel="nofollow">php.net control structures manual</a>
