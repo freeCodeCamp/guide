@@ -40,7 +40,7 @@ Beginning/End of line movement:
 ## Exiting Vi, Vim, Nvim, Gvim
 1. Press escape to get you into "normal" mode
 2. To exit, type `:q` but if you made any changes in file Vim gives error code `E37` in this case:
-- To save and exit, type `:wq`
+- To save and exit, type `:wq` or `:x`
 - To ignore changes and exit, type `:q!`
 
 **OR**
