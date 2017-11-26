@@ -31,12 +31,13 @@ As you get the next odd one, don't forget to add it to a global variable that ca
 
 ## Spoiler Alert!
 
-![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](//discourse-user-assets.s3.amazonaws.com/original/2X/2/2d6c412a50797771301e7ceabd554cef4edcd74d.gif)
+![:warning:](//discourse-user-assets.s3.amazonaws.com/original/2X/2/2d6c412a50797771301e7ceabd554cef4edcd74d.gif)
 
 **Solution ahead!**
 
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
 
+```javascript
     function sumFibs(num) {
         var prevNumber = 0;
         var currNumber = 1;
@@ -55,6 +56,7 @@ As you get the next odd one, don't forget to add it to a global variable that ca
 
     // test here
     sumFibs(4);
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLnV/0' target='_blank' rel='nofollow'>Run Code</a>
 
@@ -68,31 +70,33 @@ As you get the next odd one, don't forget to add it to a global variable that ca
 
 #### Relevant Links
 
-*   <a>JS while Loop</a>
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/statements/while' target='_blank' rel='nofollow'>JS while</a>
 
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution:
 
+```javascript
     function sumFibs(num) {
-      // create an array of fib numbers till num
-      var arrFib = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>1];
-      for (var i = 1; i <=num;) {
-          arrFib.push(i);
-          i = arrFib[arrFib.length - 1] + arrFib[arrFib.length - 2];
-      }
+        // create an array of fib numbers till num
+        var arrFib = 1;
+        for (var i = 1; i <=num;) {
+            arrFib.push(i);
+            i = arrFib[arrFib.length - 1] + arrFib[arrFib.length - 2];
+        }
 
-      // return the sum of odd numbers from the array
-      var res = arrFib.reduce(function(prev, curr) {
-          if (curr%2 !== 0) return prev + curr;
-          else return prev;
+        // return the sum of odd numbers from the array
+        var res = arrFib.reduce(function(prev, curr) {
+            if (curr%2 !== 0) return prev + curr;
+            else return prev;
         });
 
-      return res;
+        return res;
     }
 
     // test here
     sumFibs(4);
+```
 
-![:rocket:</a> <a href='https://repl.it/CLnW/0' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLnW/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -102,9 +106,44 @@ As you get the next odd one, don't forget to add it to a global variable that ca
 
 #### Relevant Links
 
-*   <a href='http://forum.freecodecamp.com/t/javascript-array-prototype-push/14298' target='_blank' rel='nofollow'>JS Array Prototype Push</a>
-*   <a href='http://forum.freecodecamp.com/t/javascript-for-loop/14666s-Explained' target='_blank' rel='nofollow'>JS For Loops Explained</a>
-*   <a href='http://forum.freecodecamp.com/t/javascript-array-prototype-reduce/14299' target='_blank' rel='nofollow'>JS Array Prototype Reduce</a>
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/statements/for' target='_blank' rel='nofollow'>JS for</a>
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push' target='_blank' rel='nofollow'>JS Array.prototype.push()</a>
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce' target='_blank' rel='nofollow'>JS Array.prototype.reduce()</a>
+
+## ![:rotating_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:") Advanced Code Solution:
+
+```javascript
+    function sumFibs(num) {
+
+        let current = 1;
+        let adjacent = 1;
+        let accumulate = current;
+
+        while (adjacent <= num) {
+            accumulate += (adjacent % 2 !== 0) ? adjacent : 0;
+            adjacent += current;
+            current = adjacent - current;
+        }
+
+        return accumulate;
+
+    }
+
+    // test here
+    sumFibs(4);
+
+```
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/NYSe/latest' target='_blank' rel='nofollow'>Run Code</a>
+
+### Code Explanation:
+*   The variables `current` and `adjacent` are initialised with the first two Fibonacci numbers and will hold the runtime Fibonacci pair **F<sub>n</sub>, F<sub>n+1</sub>** respectively.
+*   The `while` statement iterates over the integer series starting from `adjacent` to `num` (inclusive).
+*   The following statement adds `adjacent` to `accumulator` if its an even number.
+*   The subsequent two statements reinitialise `current` and `adjacent` to succeeding sequence pair.
+
+#### Relevant Links
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/statements/while' target='_blank' rel='nofollow'>JS while</a>
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Remainder_()' target='_blank' rel='nofollow'>JS modulo</a>
 
 ## ![:clipboard:](https://forum.freecodecamp.com/images/emoji/emoji_one/clipboard.png?v=3 ":clipboard:") NOTES FOR CONTRIBUTIONS:
 
