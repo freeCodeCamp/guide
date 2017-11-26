@@ -128,7 +128,7 @@ Nothing happens in this loop, because the only line it will look at is a semicol
 
 This has the effect of putting a pause in your code. In this case, the code reached the while loop, and didn't go any further. Instead, it kept checking for the status of the button to change. This would be useful for when you want nothing to happen until a certain condition has been met.
 
-# Before you go on...
+# Before you go on
 ## A review
 * Loops allow your code to be run more than once, when certain conditions are met.
 * There are a couple of loops available to us in C:
