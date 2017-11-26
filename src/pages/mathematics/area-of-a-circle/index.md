@@ -3,6 +3,18 @@ title: Area of a Circle
 ---
 ## Area of a Circle
 
+The area of a circle is all the space inside a circle's circumference. 
+
+If 'r' is the radius of circle, its area is calculated with formula pi*r<sup>2</sup> where pi is mathematical constant.
+
+pi = 22/7 = 3.141592....
+
+A = pi *r<sup>2</sup>, r is the radius of circle
+
+A = pi * {d<sup>2</sup>/4}, d is the diameter of circle, d=2* r
+
+![alt](http://areacircle.com/Area_of_a_circle_basics.png)
+
 Area of a circle is defined as the space enclosed by the circumference of the circle.
 
 #### Terminology
@@ -31,7 +43,7 @@ Area of circle =  <span class="texhtml"><span class="texhtml">π</span> * <i>(
 
 We know that the circumference of the circle (C), 
 <br>`C = 2 * π * (radius)`.
-<br><br>From this,you can derive the area of the circle as below,
+<br><br>From this, you can derive the area of the circle as below,
 
 Area of circle =  <i>C</i><sup>2</sup></span> / 4 * <span class="texhtml"><span class="texhtml">π</span>
   
@@ -52,4 +64,4 @@ Area of circle =  <i>C</i><sup>2</sup></span> / 4 * <span class="texhtml"><span 
      Area = 625 / (4 * 3.14) = 49.76 <span>cm<sup>2</sup></span>
 
 #### More Information:
-More information with illustrations can be found <a href="https://www.wikihow.com/Calculate-the-Area-of-a-Circle">here</a>
+More information with illustrations can be found [WikiHow](https://www.wikihow.com/Calculate-the-Area-of-a-Circle)
