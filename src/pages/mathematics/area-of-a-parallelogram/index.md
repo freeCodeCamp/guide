@@ -3,13 +3,13 @@ title: Area of a Parallelogram
 ---
 ## Area of a Parallelogram
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/area-of-a-parallelogram/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+A parallelogram can be rearranged into rectangle of same area as shown below.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+![alt](https://upload.wikimedia.org/wikipedia/commons/2/27/Parallelogram_area_animated.gif)
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Its area is calculated by formula A = b*h where **b** is base length, **h** is height.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
+For more details visit [wiki](https://en.wikipedia.org/wiki/Parallelogram)
 

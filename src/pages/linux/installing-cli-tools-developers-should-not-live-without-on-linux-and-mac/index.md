@@ -1,7 +1,7 @@
 ---
 title: Installing CLI Tools Developers Should not Live Without on Linux and Mac
 ---
-This article is a short description on how to install key command line utilities that developers use everyday on Macintosh and Linux environments. The main CLI tools that will be shown are: Homebrew (Mac), Node and NPM, Bower, Gulp and Grunt.
+This article is a short description on how to install key command line utilities that developers use everyday on Macintosh and Linux environments. The main CLI tools that will be shown are: Homebrew (Mac), Node and NPM, Bower, Gulp, Grunt and Tmux.
 
 ## Installing Homebrew (Macintosh Systems)
 
@@ -22,6 +22,8 @@ Homebrew is 'The missing package manager for OS X'. It is a great tool for downl
 *   Using `apt-get` first type: `curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -`, then `sudo apt-get install nodejs`
 *   Using `pacman` type: `pacman -S nodejs npm`
 *   Using `yum` type: `sudo yum install nodejs npm`
+*   Using `dnf` type: `sudo dnf install nodejs`
+*   Using `zypper` type: `sudo zypper install nodejs6`
 
 ## Installing Bower
 
@@ -44,5 +46,13 @@ And in individual project folders:
 `Grunt` is another popular automation tool similar to `Gulp`. To install it, use `npm` again:
 
 *   `npm install -g grunt-cli`
+
+## Installing Tmux
+
+`Tmux` is a terminal multiplexer for Linux and Mac. It gives you the ability to have multiple sessions and windows in the same Bash window, and also lets you "detach" sessions that you can connect to through SSH, leaving all programs that were currently running, running. 
+
+To install on Linux:
+
+*   `sudo apt install tmux`
 
 And that's that! With these tools your development process and content will be enjoyable and efficient. As you can see, the main tool to install is `npm` and it allows you to install many other great web oriented CLI tools.
