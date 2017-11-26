@@ -20,3 +20,4 @@ https://www.youtube.com/watch?v=_3VIC8u1UV8
 
 ### More Information:
 Stand-up meeting: <a href="https://en.wikipedia.org/wiki/Stand-up_meeting" target='_blank' rel='nofollow'>Wikipedia</a>
+easy
