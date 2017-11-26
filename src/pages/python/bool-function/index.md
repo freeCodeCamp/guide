@@ -12,7 +12,8 @@ It takes one argument, `x`. `x` is converted using the standard <a href='https:/
 If `x` is false or omitted, this returns `False`; otherwise it returns `True`.
 
 ## Code Sample
-
+    
+    print(bool(5>1) # Returns True as 5 is greater 1
     print(bool(4 > 2)) # Returns True as 4 is greater than 2
     print(bool(4 < 2)) # Returns False as 4 is not less than 2
     print(bool(4 == 4)) # Returns True as 4 is equal to 4
