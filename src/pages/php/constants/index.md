@@ -2,12 +2,22 @@
 title: Constants
 ---
 ## Constants
+Constants are a type of variable in PHP. The `define()` function to set a constant takes three arguments - the key name, the key's value, and a Boolean (true or false) which determines whether the key's name is case-insensitive (false by default). A constant's value cannot be altered once it is set. It is used for values which rarely change (for example a database password OR api key).
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/php/constants/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+### Scope
+It is important to know that unlike variables, constants ALWAYS have a global scope and can be accessed from any function in the script.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### Example
+```PHP
+<?php
+define("freeCodeCamp", "Learn to code and help nonprofits", false);
+echo freeCodeCamp;
+```
+**Output:**
+```text
+Learn to code and help nonprofits
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+* <a href="https://secure.php.net/manual/en/language.constants.php" rel="nofollow">php.net constants manual</a>
+* <a href="https://secure.php.net/manual/en/function.define.php" rel="nofollow">php.net define() manual</a>
