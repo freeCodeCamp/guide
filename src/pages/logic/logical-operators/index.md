@@ -3,6 +3,15 @@ title: Logical Operators
 ---
 ## Logical Operators
 
+* **And** (&&) - Both conditions must be true.
+* **Or** (||) - At least one condition must be true.
+* **Not** (!) - Condition must be false.
+* **If** - If a condition is true, execute.
+* **Iff** (if and only if) 
+* **Xor** ("eXclusive or") - One, and only one, condition must be true.
+
+#### Examples:
+
 * **And** (&&)  
    returns **TRUE** if and only if, all inputs are **TRUE**  
    ```
