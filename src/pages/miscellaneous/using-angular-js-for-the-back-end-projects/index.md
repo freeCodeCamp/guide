@@ -1,5 +1,5 @@
 ---
-title: Guides to Back End Projects
+title: Using AngularJS for the Back End Projects
 ---
 Here you will find articles that will help you learn more and complete your back end projects.
 
@@ -30,12 +30,3 @@ Here you will find articles that will help you learn more and complete your back
     *   <a href="https://guide.freecodecamp.org/miscellaneous/restrict-access-to-authenticated-users-only">Restrict a page to authenticated users</a>
     *   <a>JS-IsLoggedInAsync</a>
 *   <a href="https://guide.freecodecamp.org/miscellaneous/angular-socketio">Bonus: SocketIO</a>
-
-*   <a>Epilogue</a>
-
-# Legend
-
-**/bolded/names/with.extensions** are directories and files in the project file structure  
-<a>highlighted.items/are/hypothetical</a> URLs that allow access to different pages in your app  
-_italicizedItems_ are function and object names within your code
-
