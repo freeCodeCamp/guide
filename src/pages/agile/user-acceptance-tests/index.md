@@ -1,9 +1,7 @@
 ---
 title: User Acceptance Tests
 ---
-
 ## User Acceptance Tests
-
 
 One of the final steps in software testing is user acceptance testing (UAT). UAT makes sure actual users can use the software. Also referred to as beta, application, and end-user testing. 
 
