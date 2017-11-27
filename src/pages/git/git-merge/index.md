@@ -13,6 +13,9 @@ For example, if you are currently working in a branch named `dev` and would like
 ```shell
 git merge new-features
 ```
+
+Make sure to make your changes and edit our or delete the `HEAD` and `>>>>>>> arrows <<<<<<<` within your favorite code editor after you are done.
+
 **Please Note:** if there are any uncommitted changes on your current branch, Git will not allow you to merge until all changes in your current branch have been committed.
 
 For more information about the `git merge` command and all available options, please refer to the <a href="https://git-scm.com/docs/git-merge" target="_blank" rel="nofollow">Git documentation</a>.
