@@ -26,4 +26,3 @@ These are some of them:
 - [Color Picker](https://addons.mozilla.org/en-us/firefox/addon/colorzilla/?src=collection&collection_id=90e68e6a-f13f-5921-3412-5228262ca9db)
 
 - [React Developer Tools](https://addons.mozilla.org/en-US/firefox/addon/react-devtools/)
-

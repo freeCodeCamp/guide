@@ -43,13 +43,13 @@ The `Array.prototype.split` and `Array.prototype.join` methods can be of use her
 **Solution ahead!**
 
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
-
+```javascript
     function palindrome(str) {
       return str.replace(/<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>\W_]/g, '').toLowerCase() ===
              str.replace(/[\W_]/g, '').toLowerCase().split('').reverse().join('');
     }
-
-![:rocket:</a> <a href='https://repl.it/CLjU/2' target='_blank' rel='nofollow'>Run Code</a>
+```
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLjU/2' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -68,7 +68,7 @@ The `Array.prototype.split` and `Array.prototype.join` methods can be of use her
 *   <a href='http://forum.freecodecamp.com/t/javascript-array-prototype-join/14292' target='_blank' rel='nofollow'>Array.prototype.join</a>
 
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution:
-
+```javascript
     function palindrome(str) {
       str = str.toLowerCase().replace(/<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>\W_]/g, '');
       for(var i = 0, len = str.length - 1; i < len/2; i++) {
@@ -78,8 +78,8 @@ The `Array.prototype.split` and `Array.prototype.join` methods can be of use her
       }
       return true;
     }
-
-![:rocket:</a> <a href='https://repl.it/CLjU/3' target='_blank' rel='nofollow'>Run Code</a>
+```
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLjU/3' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -94,7 +94,7 @@ The `Array.prototype.split` and `Array.prototype.join` methods can be of use her
 *   <a>Regex</a>
 
 ## ![:rotating_light:</a> Advanced Code Solution (most performant):
-
+```javascript
     //this solution performs at minimum 7x better, at maximum infinitely better.
     //read the explanation for the reason why. I just failed this in an interview.
     function palindrome(str) {
@@ -124,8 +124,8 @@ The `Array.prototype.split` and `Array.prototype.join` methods can be of use her
       return true
 
     }
-
-![:rocket:</a> <a href='https://repl.it/CLjU/4' target='_blank' rel='nofollow'>Run Code</a>
+```
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLjU/4' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 

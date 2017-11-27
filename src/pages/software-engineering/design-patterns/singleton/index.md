@@ -73,4 +73,20 @@ $obj1 = Singleton::getInstance();
 $obj2 = Singleton::getInstance();
 
 ```
+## Singleton in C#
+The most elegant, simple and highly performant version of the pattern using [System.Lazy\<T\>](http://msdn.microsoft.com/en-us/library/dd642331.aspx) type from .NET 4.0 or higher.
+```csharp
+public sealed class Singleton
+{
+    private static readonly Lazy<Singleton> lazy = new Lazy<Singleton>(() => new Singleton());
+    
+    public static Singleton Instance { get { return lazy.Value; } }
 
+    private Singleton()
+    {
+    }
+}
+```
+For more information, visit the following links:
+- [MSDN: Implementing Singleton in C#](https://msdn.microsoft.com/en-us/library/ff650316.aspx)
+- [C# in Depth. Implementing the Singleton Pattern in C#](http://csharpindepth.com/Articles/General/Singleton.aspx)
