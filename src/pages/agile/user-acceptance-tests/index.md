@@ -4,7 +4,10 @@ title: User Acceptance Tests
 
 ## User Acceptance Tests
 
-In the process of Software Development the UAT plays a significant role which is popularly known as "Beta Testing". This testing is a real world testing and is performed by a real world user of the particular applications. The feedback from this testing is forwarded to the development team for any specific changes.
+
+One of the final steps in software testing is user acceptance testing (UAT). UAT makes sure actual users can use the software. Also referred to as beta, application, and end-user testing. 
+
+UAT checks that everything works properly and that there are no crashes. Those of the intended audience should complete the testing; this could be comprised of many people involved from the process and anyone who is able to test before going live.  The feedback from this testing is forwarded to the development team for any specific changes.
 
 #### Why do we need UAT
 

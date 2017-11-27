@@ -5,7 +5,7 @@ title: Data Types
 
 Java is a strongly typed language. This means that, in Java, each data type has its own strict definition. There are no implicit data type conversions when any conflicts occur between the data types. Any change in data types should be explicitly declared by the programmer.
 
-Java defines 8 simple data types : `byte`, `short`, `int`, `long`, `char`, `float`, `double` and `boolean`.
+Java defines 8 primitive data types : `byte`, `short`, `int`, `long`, `char`, `float`, `double` and `boolean`.
 
 They are divided into the following categories:
 
@@ -134,7 +134,7 @@ This is used for storing logical values. A boolean type can have a value of eith
 
     Default value is false.
 
-    Example: boolean b = true, boolean b1 = 1;
+    Example: boolean b = true, boolean b1 = 1, boolean b2;
 
 ## Reference Data Types:
 
