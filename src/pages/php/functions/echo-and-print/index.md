@@ -2,12 +2,31 @@
 title: Echo and Print
 ---
 ## Echo and Print
+The echo and print functions provide a way to write out the value of a variable or argument to the screen.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/php/functions/echo-print/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+### echo
+The `echo()` function writes out the value of a variable or argument to the screen.
+```PHP
+<?php
+echo "freeCodeCamp";
+```
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### print
+The `print()` function out the value of a variable or argument to the screen.
+```PHP
+<?php
+echo "freeCodeCamp";
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### print_r
+The `print_r()` function writes out the value of any variable (such as an array) or argument to the screen, unlike the echo or print functions which are more limited.
+```PHP
+<?php
+$freecodecamp = "freeCodeCamp";
+print_r($freecodecamp);
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+* <a href="https://secure.php.net/manual/en/function.echo.php" rel="nofollow">php.net echo() manual</a>
+* <a href="https://secure.php.net/manual/en/function.print.php" rel="nofollow">php.net print() manual</a>
+* <a href="https://secure.php.net/manual/en/function.print-r.php" rel="nofollow">php.net print_r() manual</a>

@@ -3,11 +3,16 @@ title: Time
 ---
 ## Time
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/php/functions/time/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `time()` function returns the current unix timestamp (number of seconds since the Unix Epoch - January 1 1970 00:00:00 GMT).
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
+### Example
+```php
+<?php
+echo time();
+```
+**Output:**
+```text
+1511732226
+```
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+* <a href="https://secure.php.net/manual/en/function.time.php">php.net time() manual</a>

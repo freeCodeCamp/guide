@@ -56,7 +56,7 @@ An application server or software framework provides the core required dependenc
 
 [FreeCodeCamp Full Stack Development Certification](https://guide.freecodecamp.org/meta/free-code-camp-full-stack-development-certification)
 
-[Rick Internet Application (Wikipedia.org)](https://en.wikipedia.org/wiki/Rich_Internet_application)
+[Rich Internet Application (Wikipedia.org)](https://en.wikipedia.org/wiki/Rich_Internet_application)
 
 [Software Framework (Wikipeida.org)](https://en.wikipedia.org/wiki/Software_framework)
 
