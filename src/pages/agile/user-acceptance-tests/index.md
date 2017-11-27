@@ -1,20 +1,6 @@
 ---
 title: User Acceptance Tests
 ---
-## User Acceptance Tests
-
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/user-acceptance-tests/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-### my changes .. manas
-
-## User Acceptance Tests (UAT)
 
 In the process of Software Development the UAT plays a significant role which is popularly known as "Beta Testing". This testing is a real world testing and is performed by a real world user of the particular applications. The feedback from this testing is forwarded to the development team for any specific changes.
 
@@ -48,7 +34,7 @@ In the process of Software Development the UAT plays a significant role which is
 
 * [7 KEYS TO A SUCCESSFUL USER ACCEPTANCE TESTING](http://blog.debugme.eu/successful-user-acceptance-testing/)
 
-* [[AgileUAT: A Framework for User Acceptance Testing
+* [AgileUAT: A Framework for User Acceptance Testing
 based on User Stories and Acceptance Criteria](http://research.ijcaonline.org/volume120/number10/pxc3903533.pdf)
 
 
