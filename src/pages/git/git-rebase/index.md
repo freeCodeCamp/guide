@@ -27,7 +27,13 @@ After `git rebase master branch` or `git rebase master` when you have checked ou
                /---o-o-o-o---o--o------ feature
     ----o--o-o-A----o---o--o-o-o--o--o- master
                                       \---o-o branch
+### Rebase vs. Merge
+Rebase command rewrites the history of commits and the merge command brings changes from two branches into one, keeping the history of commits. In general the way to get the best of both worlds is to rebase local changes you’ve made but haven’t shared yet before you push them in order to clean up your story, but never rebase anything you’ve pushed somewhere.
 
 ### More Information:
-- Git documentation: <a href='https://git-scm.com/docs/git-rebase' target='_blank' rel='nofollow'>rebase</a>
 
++ [Git docs - git-rebase](https://git-scm.com/docs/git-rebase)
+  
++ [GitHub - About Git Rebase](https://help.github.com/articles/about-git-rebase/)
+
++ [GitHowTo - Rebase](https://githowto.com/rebasing)
