@@ -37,5 +37,5 @@ That is, while there is value in the items on the right, we value the items on t
 
 #### More Information:
 
-<a href="http://agilemanifesto.org/history.html">(1) History: The Agile Manifesto</a>
-<a href='http://agilemanifesto.org/' target='_blank' rel='nofollow'>Agile Manifesto</a>
+[(1) History: The Agile Manifesto](http://agilemanifesto.org/history.html)
+[Agile Manifesto](http://agilemanifesto.org/)
