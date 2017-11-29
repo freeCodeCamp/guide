@@ -30,8 +30,31 @@ $ rails server
 It couldn't be anymore simple! Well, this isn't actually 100% true, we could make it even smaller by reducing the `rails server` command to:
 ```shell
 $ rails s
-```
+``` 
 4. Now, with you preffered brower, go to `http://localhost:3000` and you'll see: "Yay! You’re on Rails!"
+
+### Optional - Rails console 
+
+The rails console is a powerful CLI tool that allows you to interact with the environment of your project, without having to code. For example, if you have a running application, and you want to quickly change the name of an user with the email `developer@example.com`. 
+
+From the rails app folder type:
+
+```shell
+$ rails console # or rails c, for short
+``` 
+
+That would fire up the rails console, and once inside:
+```shell
+my_awesome_project> user = User.find_by(email: 'developer@example.com')
+my_awesome_project> user.name = 'FreeCodeCamp Dev"
+my_awesome_project> user.save # all your model's validations will be checked here
+``` 
+
+That's it. You changed the name of the user, using all the business logic of your app.
+
+
+
+
 
 ## Convention over Configuration
 *Convention over Configuration* means a developer only needs to specify unconventional aspects of the application. For example, if there is a class Sale in the model, the corresponding table in the database is called sales by default. It is only if one deviates from this convention, such as calling the table "products sold", that the developer needs to write code regarding these names. Generally, Ruby on Rails conventions lead to less code and less repetition.
