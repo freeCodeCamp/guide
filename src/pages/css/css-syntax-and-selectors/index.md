@@ -2,14 +2,23 @@
 title: CSS Syntax and Selectors
 ---
 ## CSS Syntax and Selectors
+### CSS Syntax
+The basic syntax for any CSS property is,
+```css
+ selector {
+              property : property-value ; 
+          }
+```
+the whole structure is called a "rule set".  The "Property" and "Property-value" can be grouped together to be called as a "Declaration"
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/css-syntax-and-selectors/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+### Selectors
+Selectors select(s) the element to be styled.
+### Property
+Ways in which you can style a given HTML element.
+### Property-value
+To the right of the property after the colon, we have the property-value, which chooses one out of many possible appearances for a given property
+### Declaration
+A single rule, specifying the property to be styled
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+### sources
+<a href='https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics'>CSS basics</a>
