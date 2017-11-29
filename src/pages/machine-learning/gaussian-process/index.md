@@ -3,13 +3,10 @@ title: Gaussian Process
 ---
 ## Gaussian Process
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/machine-learning/gaussian-process/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Gaussian Process (GP) is a generic supervised learning method designed to solve regression and probabilistic classification problems.  In a GP, every point in some continuous input space is associated with a normally distributed random variable. When it comes to GP as a  machine-learning algorithm, a Gaussian process uses measure of the similarity between points to predict the value for an unseen point from training data. The prediction has both estimate for that point and also uncertainty information.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+
+([link](http://scikit-learn.org/stable/modules/gaussian_process.html))
 
 
