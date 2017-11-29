@@ -6,6 +6,34 @@ title: MongoDB
 MongoDB is an open-source non-relational Database that uses a JSON like structure to store data. 
 It uses a document model to store and retrieve the data instead of the table model used by sequential databases such as SQL or Oracle.
 
+### NOSQL Vs RDBMS
+
+| MongoDB Terms And Concepts | SQL Terms and Concepts |
+| --- | --- |
+| Database | Database |
+| Collection | Table |
+| document | Row |
+| Field | Column |
+| Index | Index |
+| Embedded Documents | Table Joins |
+
+
+### MongoDB Characteristics
+1. Next Generation Database
+2. No Joins
+3. Clustering
+4. Opensource
+5. Schema less
+6. No Relationships
+
+### Features of MongoDB
+1. Document Database
+2. High Performance
+3. Rich Query Language
+4. High Availability
+5. Horizontal Scalability
+
+
 ### More Information
 [What is Mongo DB?](https://www.mongodb.com/what-is-mongodb)
 
