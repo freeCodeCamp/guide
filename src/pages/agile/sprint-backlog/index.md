@@ -8,4 +8,4 @@ The Sprint Backlog is a list of tasks identified by the Scrum Team to be complet
 It is critical that the team itself selects the items and size of the Sprint Backlog. Because they are the people implementing / completing the tasks, they must be the people to choose what they are forecating to achive during the Sprint.
 
 #### More Information:
-<a href="http://www.scrumguides.org/scrum-guide.html#artifacts-sprintbacklog">Scrum Guide: Sprint Backlog</a>
+[Scrum Guide: Sprint Backlog](http://www.scrumguides.org/scrum-guide.html#artifacts-sprintbacklog)
