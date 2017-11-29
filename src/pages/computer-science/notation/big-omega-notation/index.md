@@ -11,5 +11,6 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
+- (https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/big-big-omega-notation)
+- (https://stackoverflow.com/questions/10376740/what-exactly-does-big-%D3%A8-notation-represent)
 
