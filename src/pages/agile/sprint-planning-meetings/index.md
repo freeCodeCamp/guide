@@ -21,5 +21,4 @@ The team should come up with a shared Sprint Goal for the Sprint to keep the foc
 
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-<a href="http://www.scrumguides.org/scrum-guide.html#events-planning">Scrum Guide: Sprint Planning</a>
+[Scrum Guide: Sprint Planning](http://www.scrumguides.org/scrum-guide.html#events-planning)
