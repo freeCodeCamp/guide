@@ -1,6 +1,8 @@
 ---
 title: Variables
 ---
+
+## Variables
 # Creating (Declaring) PHP Variables
 
 Variables are "containers" for storing information.
@@ -63,3 +65,7 @@ echo $x + $y;
 In the example above, notice that we did not have to tell PHP which data type the variable is.
 PHP automatically converts the variable to the correct data type, depending on its value.
 In other languages such as C, C++, and Java, the programmer must declare the name and type of the variable before using it.
+
+#### More Information:
+<!-- Please add any articles you think might be helpful to read before writing the article -->
+

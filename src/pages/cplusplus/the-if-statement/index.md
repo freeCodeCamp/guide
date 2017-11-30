@@ -41,7 +41,7 @@ if (a<0)
  }
 ```
 
-//program continues   //program continues
+//program continues to execute 
 
 Example In C++ :
   ```cpp
@@ -55,13 +55,13 @@ Example In C++ :
   {
 
   int no ;
-  cout<<"Enter a number : ";
-  cin>>no ;
+  cout << "Enter a number : ";
+  cin >> no ;
 
   //If Statement to check if the number is positive
   if (no>0)
   {
-  cout<<"You have entered a positive number : "<<no<<endl ;
+  cout << "You have entered a positive number : "<< no << endl ;
   }
   //If number is not positive, then if statement is skipped a program continues
   cout<<"This step is always printed"<<endl ;
@@ -95,5 +95,6 @@ _CONGRATULATIONS . This is the end of the article on the IF statement_
  **Good Luck to all of you** 
  
  **Happy Coding ! :)**
+
+ **Feel free to ask any queries on FreeCodeCamp's GitHub page or <a href='https://forum.freecodecamp.org/' target='_blank' rel='nofollow'>FreeCodeCamp's Forum .</a>**
  
- **Feel free to ask any queries on FreeCodeCamp's GitHub page or [FreeCodeCamp's Forum .](https://forum.freecodecamp.org/)**
