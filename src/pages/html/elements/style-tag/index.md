@@ -9,6 +9,10 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
+---
+title: Style tag
+---
+
 The style tag is used sort of like a css file except inside of an HTML, like so:
 
 ```
