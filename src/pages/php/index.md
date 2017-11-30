@@ -21,3 +21,22 @@ It is typically used to generate web page content dynamically. For example, if y
 ## How does PHP work?
 
 All PHP code is executed on a web server only, not on your local computer. For example, if you complete a form on a website and submit it, or click a link to a web page written in PHP, no actual PHP code runs on your computer. Instead, the form data or request for the web page gets sent to a web server to be processed by the PHP scripts. The web server then sends the processed HTML back to you (which is where 'Hypertext Preprocessor' in the name comes from), and your web browser displays the results. For this reason, you cannot see the PHP code of a website, only the resulting HTML that the PHP scripts have produced.
+
+## What Can PHP Do?
+
+* PHP can generate dynamic page content
+* PHP can create, open, read, write, delete, and close files on the server
+* PHP can collect form data
+* PHP can send and receive cookies
+* PHP can add, delete, modify data in your database
+* PHP can be used to control user-access
+* PHP can encrypt data
+
+## Why PHP?
+
+* PHP runs on various platforms (Windows, Linux, Unix, Mac OS X, etc.)
+* PHP is compatible with almost all servers used today (Apache, IIS, etc.)
+* PHP supports a wide range of databases
+* PHP is free. Download it from the official PHP resource: www.php.net
+* PHP is easy to learn and runs efficiently on the server side
+
