@@ -42,3 +42,21 @@ You can also install a localhost server to run PHP websites. For installing Apac
 ```
 sudo apt install apache2 libapache2-mod-php
 ```
+
+## What Can PHP Do?
+
+* PHP can generate dynamic page content
+* PHP can create, open, read, write, delete, and close files on the server
+* PHP can collect form data
+* PHP can send and receive cookies
+* PHP can add, delete, modify data in your database
+* PHP can be used to control user-access
+* PHP can encrypt data
+
+## Why PHP?
+
+* PHP runs on various platforms (Windows, Linux, Unix, Mac OS X, etc.)
+* PHP is compatible with almost all servers used today (Apache, IIS, etc.)
+* PHP supports a wide range of databases
+* PHP is free. Download it from the official PHP resource: www.php.net
+* PHP is easy to learn and runs efficiently on the server side
