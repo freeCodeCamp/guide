@@ -10,11 +10,11 @@ The style tag is used sort of like a css file except inside of an HTML, like so:
 <html>
   <head>
     <title>Your Title</title>
-    <style> <-- Here
+    <style> -- Start
       p {
         color:red;
       }
-    </style> <-- To here
+    </style> -- End 
   </head>
   <body>
     <p>This is content</p>
