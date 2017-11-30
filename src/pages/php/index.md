@@ -22,6 +22,27 @@ It is typically used to generate web page content dynamically. For example, if y
 
 All PHP code is executed on a web server only, not on your local computer. For example, if you complete a form on a website and submit it, or click a link to a web page written in PHP, no actual PHP code runs on your computer. Instead, the form data or request for the web page gets sent to a web server to be processed by the PHP scripts. The web server then sends the processed HTML back to you (which is where 'Hypertext Preprocessor' in the name comes from), and your web browser displays the results. For this reason, you cannot see the PHP code of a website, only the resulting HTML that the PHP scripts have produced.
 
+## Installation
+
+PHP can be installed with or without a web server.
+
+### GNU/Linux
+
+On Debian based GNU/Linux distros, you can install by :
+```bash
+sudo apt install php
+```
+
+After installing you can run any PHP files by simply doing this in terminal :
+```
+php file.php
+```
+
+You can also install a localhost server to run PHP websites. For installing Apache Web Server :
+```
+sudo apt install apache2 libapache2-mod-php
+```
+
 ## What Can PHP Do?
 
 * PHP can generate dynamic page content
@@ -39,4 +60,3 @@ All PHP code is executed on a web server only, not on your local computer. For e
 * PHP supports a wide range of databases
 * PHP is free. Download it from the official PHP resource: www.php.net
 * PHP is easy to learn and runs efficiently on the server side
-
