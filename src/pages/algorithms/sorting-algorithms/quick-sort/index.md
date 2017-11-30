@@ -8,7 +8,7 @@ Quick sort is an efficient divide and conquer sorting algorithm. Average case ti
 The steps involved in Quick Sort are:
 - Choose an element to serve as a pivot, in this case, the last element of the array is the pivot.
 - Partitioning: Sort the array in such a manner that all elements less than the pivot are to the left, and all elements greater than the pivot are to the right.
-- Call Quicksort recursively, taking into account the previous pivot to properly subdivide the left and right arrays. (A more detailed explanation can be found in the comments below)
+- Call Quicksort recursively, taking into account the previous pivot to properly subdivide the left and right arrays. (A more detailed explanation can be found in the comments below.)
 
 A quick implementation in JavaScript:
 
@@ -55,11 +55,11 @@ const partition = (arr, start, end) => {
 
   }
 
-  //The value at arr[i + 1] will be greater than the value of arr[pivot]
+  // The value at arr[i + 1] will be greater than the value of arr[pivot]
   swap(arr, i + 1, pivot)
 
-  //You return i + 1, as the values to the left of it are less than arr[i+1], and values to the right are greater than arr[i + 1]
-  // As such, when the recursive quicksorts are called, the new sub arrays will not include this the previously used pivot value
+  // You return i + 1, as the values to the left of it are less than arr[i + 1], and values to the right are greater than arr[i + 1]
+  // As such, when the recursive quicksorts are called, the new sub arrays will not include the previously used pivot value
   return i + 1
 }
 
