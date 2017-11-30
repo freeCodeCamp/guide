@@ -3,13 +3,12 @@ title: Center an Image Using Text Align Center
 ---
 ## Center an Image Using Text Align Center
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/tutorials/center-an-image-using-text-align-center/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+An `<img>` element has a default display value of `inline-block`. This means that it flows inline like text, but also allows the element to be given  `height` and `width` attributes.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+To center an image using `text-align: center;` you must place the `<img>` inside of a block-level element such as a `div`. Since the `text-align` property only applies to block-level elements, you place `text-align: center;` on the wrapping block-level element to achieve a horizontally centered `<img>`.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+## Documentation
+<a href='https://developer.mozilla.org/en-US/docs/Web/CSS/text-align' target='_blank' rel='nofollow'>**text-align** - MDN</a>
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
+<a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img' target='_blank' rel='nofollow'>**\<img\>** - MDN</a>
 

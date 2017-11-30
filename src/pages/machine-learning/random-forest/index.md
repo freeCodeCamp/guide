@@ -13,3 +13,4 @@ Random Forests belong in the category of **ensemble learning** algorithms. This 
 #### More Information:
 - <a href='https://www.wikiwand.com/en/Random_forest' target='_blank' rel='nofollow'>Random Forests (Wikipedia)</a>
 - <a href='https://www.analyticsvidhya.com/blog/2014/06/introduction-random-forest-simplified/' target='_blank' rel='nofollow'>Introduction to Random Forests - Simplified</a>
+- <a href='https://www.youtube.com/watch?v=loNcrMjYh64' target='_blank' rel='nofollow'>How Random Forest algorithm works (Video)</a>
