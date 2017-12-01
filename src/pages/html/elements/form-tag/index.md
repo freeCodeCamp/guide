@@ -3,13 +3,9 @@ title: Form Tag
 ---
 ## Form Tag
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/form-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `<form>` tag is used to create forms in HTML that are for user input. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The `<form>` element will have other elements nested inside of it. They are:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+* [`<Input>`](https://guide.freecodecamp.org/html/elements/input "Input")
+*
