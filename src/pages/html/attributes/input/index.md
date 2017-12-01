@@ -12,4 +12,6 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+Specification
+HTML:	3.2, 4.01, 5.0	
+XHTML: 1.0,	1.1
