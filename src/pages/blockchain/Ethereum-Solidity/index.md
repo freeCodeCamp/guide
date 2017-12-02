@@ -1,1 +1,3 @@
-# Ethereum / Solidity
+---
+title: Ethereum / Solidity
+---
