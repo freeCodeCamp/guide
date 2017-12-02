@@ -68,4 +68,4 @@ Output:
 
 #### More Information
 
-Check out the [Python docs on string splitting](https://docs.python.org/2/library/stdtypes.html#str.split)
+Check out the <a href='https://docs.python.org/2/library/stdtypes.html#str.split' target='_blank' rel='nofollow'>Python docs on string splitting</a>

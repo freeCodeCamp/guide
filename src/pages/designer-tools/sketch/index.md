@@ -12,6 +12,7 @@ Sketch is a design toolkit for macOS only. It quickly became very popular as an 
 * Lots of plugins
 * Export files in multiple formats
 * Vast community
+* Exports style guide in easy to read HTML/CSS 
 
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
