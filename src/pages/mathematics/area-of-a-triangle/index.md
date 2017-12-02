@@ -2,11 +2,7 @@
 title: Area of a Triangle
 ---
 ## Area of a Triangle
-
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/area-of-a-triangle/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
+The area of a triangle is equal to 1/2 of the base times the height. For example, if you have a triangle that is 3 units tall and 6 units long then the area is 1/2 x 3 x 6, which is 9.
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
