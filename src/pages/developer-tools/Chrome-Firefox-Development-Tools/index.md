@@ -1,11 +1,7 @@
 ---
-title: Chrome-Firefox Development Tools
+title: Chrome Firefox Development Tools
 ---
-## Chrome-Firefox Development Tools
-
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/developer-tools/Chrome-Firefox-Development-Tools/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+## Chrome Firefox Development Tools
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 Browser development tools allow you to debug and temporarily modify your page in your browser.  They can be accessed by the key command [cntrl + shift + I] or on chrome Menu> More Tools> Developer Tools in Firefox Menu> Web Developer> Toggle Tools.

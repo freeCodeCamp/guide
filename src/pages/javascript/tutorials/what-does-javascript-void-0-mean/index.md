@@ -77,7 +77,7 @@ When you double click the link,an alert will popup, closing it will redirect to 
 Rather,perform some javascript operation.
 
 #### More Information:
-1) [Mozilla Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/void)
-2) [Understanding void 0](https://www.quackit.com/javascript/tutorial/javascript_void_0.cfm)
+1) <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/void' target='_blank' rel='nofollow'>Mozilla Docs</a>
+2) <a href='https://www.quackit.com/javascript/tutorial/javascript_void_0.cfm' target='_blank' rel='nofollow'>Understanding void 0</a>
 
 
