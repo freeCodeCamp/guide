@@ -1,7 +1,7 @@
 ---
-title: Chrome-Firefox Development Tools
+title: Chrome Firefox Development Tools
 ---
-## Chrome-Firefox Development Tools
+## Chrome Firefox Development Tools
 
 Google Chrome and Mozilla Firefox browsers come with a powerful set of development tools that are commonly used in Web Development. The development tools contain a source code inspector, an application console, a network monitor, a debugger, as well as tools to monitor memory usage and performance of a given webpage.
 
