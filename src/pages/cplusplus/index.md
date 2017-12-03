@@ -71,7 +71,7 @@ cout<<"Hello World"<<endl;
 * `endl` is a reserved word for the computer when using the C++ language to **end this line and go to the next line during output** .   - _cout stands for "console output"_
 * And , you have to finish the command with a semicolon `;`.
 
-**NOTE : Every command except the main funcction command and the include command needs to be ended by the semicolon. Without a ";" , you may encounter an error**
+**NOTE : Every command except the main function command and the include command needs to be ended by the semicolon. Without a ";" , you may encounter an error**
 
 * `return 0;` safely terminates the current function i.e. 'main()' in this case and since no function follows after 'main()' the program is terminated. 
 * Don't forget to tell the computer that this is the last line it needs to execute. To do this , you add the closing curly brace "}" . You may encounter an error before program execution if you do not finish your program with **}** .
