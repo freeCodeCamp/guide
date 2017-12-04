@@ -5,9 +5,7 @@ title: Border Property
 
 The `border` shorthand property sets all the border properties in one declaration. 
 ```css 
-.class {
   border: 1px solid #000;
-}
 ```
 
 The properties that can be set, are (in order): 
@@ -18,9 +16,7 @@ The properties that can be set, are (in order):
 It does not matter if one of the values above are missing, for example:
 
 ```css 
-.class {
   border: solid red;
-}
 ```
 The above code is also valid CSS.
 
@@ -42,12 +38,10 @@ The various values are:
 
 Based on the property you choose, these styles can be mismatched.
 ```css
-.class {
   border-top-style: solid;
   border-left-style: dotted;
   border-right-style: dashed;
   border-bottom-style: double;
-}
 ```
 As shown, the border property allows you to select different sections of it. (`top`, `bottom`, `left` and, `right`)
 
