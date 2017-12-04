@@ -3,13 +3,24 @@ title: Font Size Property
 ---
 ## Font Size Property
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/properties/font-size-property/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+CSS property for setting the size of the font.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Possible values are ```xx-small```, ```x-small```, ```small```, ```medium```, ```large```, ```x-large```, ```xx-large``` these values are known as absolute values while the relative values are ```larger```, ```smaller``` or setting the font-size unit with ```%```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### Syntax
+
+```
+p {
+  font-size: 40px;
+}
+```
+
+### Output
+
+[JSfiddle](https://jsfiddle.net/42egtvLp/)
+
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+[W3 Documentation](https://www.w3.org/TR/CSS2/fonts.html#propdef-font-size)
 
-
+[MDN - CSS font-size](https://developer.mozilla.org/en-US/docs/Web/CSS/font-size)
