@@ -2,14 +2,36 @@
 title: Background Position Property
 ---
 ## Background Position Property
+The background-property sets the position from where the background image should start. In other words, this property will take an x-value and a y-value and will start the image from the point `(x, y)`.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/properties/background-position-property/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+**Example:**
+```css
+/* setting background-image of HTML doc */
+body {
+  background-image: url('https://i.imgur.com/6Z2VStD.png');
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+```
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+By default, background-position property is set to `0% 0%`.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+**Property values:**
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+`background-position: x-value y-value` where,
 
+_x-value_: `left | center | right | x% | x px`, and
 
+_y-value_: `top | center | bottom | y% | y px`.
+
+Other permitted property values are `initial` and `inherit`.
+
+`initial`: Sets this property to its default value.
+
+`inherit`: Inherits the value from parent element.
+
+**Note:** When only one value is given to background-property then the other is, by default, set to `center`.
+
+**Other Resources:**
+
+MDN Docs: https://developer.mozilla.org/en-US/docs/Web/CSS/background-position

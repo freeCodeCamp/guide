@@ -154,4 +154,13 @@ We then located the position within the DOM that we wanted to insert our React b
 Next, we created a script tag to input our react code. We used the ReactDOM.render() method that takes two arguments. The “what” of the react content, in this case our JSX, and the second argument is the “where” that you want to insert the React content into the DOM. In this case it is the location with the id of “app”.
 
 
+As an alternative to JSX, you can use ES6 and Javascript's compiler like Babel. [https://babeljs.io/](https://babeljs.io/)
+
+For more information head to <a href='https://reactjs.org/' target='_blank' rel='nofollow'>https://reactjs.org/</a>
+
+### Tutorials
+<a href='https://egghead.io/browse/frameworks/react' target='_blank' rel='nofollow'>Egghead.io React</a>
+
+### People to Follow
+* <a href='https://twitter.com/dan_abramov' target='_blank' rel='nofollow'>Dan Abramov Twitter</a>
 
