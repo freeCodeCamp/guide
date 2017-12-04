@@ -3,13 +3,16 @@ title: Location Reload Method
 ---
 ## Location Reload Method
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/location-reload-method/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The "Location" reload method is a method on the "Location" object. By default it is implemented on the `window` object. It can be used to reload your current web page.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+```javascript
+    window.location.reload();
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+By default this will reload your current web page. This allows the browser to pull from its cache for a faster load time. Usually loading your web page from cache is preferred, but there are occasions where the cached web page that you are loading is out of date. This can cause potential bugs within the web page. If you would like to hard reload your web page without using the browser cache, you can achieve it by passing an optional Boolean parameter like so:
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+```javascript
+    window.location.reload(true);
+```
 
-
+For more information on `reload()`: [Location.reload()](https://developer.mozilla.org/en-US/docs/Web/API/Location/reload)
