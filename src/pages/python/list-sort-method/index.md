@@ -7,7 +7,7 @@ Python lists have a built-in ```sort()``` method that modifies the list in-place
 
 list.sort(key=…,  reverse=[True/False])
 
-#### Parameters
+### Parameters
 
 There are two optional parameters to this method
 <br><br>
@@ -21,7 +21,7 @@ There are two optional parameters to this method
 <br><br>
 Please note that the `sort()` method does not return any value. It modifies the original list.
 
-#### Example Usage
+### Example Usage
 
 ```py
 a = [4, 2, 5, 3, 1]
@@ -46,8 +46,6 @@ print a # prints [5, 4, 3, 2, 1]
 
 If you want to sort the list based on your own function, then use the <b>key</b> parameter. 
 <br>Here is an example to sort the strings in the list by length, in ascending order
-
-#### Example Usage
 
 ```py
 a = ["hello", "hi", "hey"]
@@ -74,8 +72,8 @@ b.sort(key = compareByAge)
 print b # prints [('Adam', 20), ('Rahul', 25), ('Rahman', 30)]
 ```
 
-#### Sorting Basics
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+### Sorting Basics
+
 A simple ascending sort is very easy -- just call the sorted() function. It returns a new sorted list:
 
 ```python
@@ -96,6 +94,15 @@ Another difference is that the list.sort() method is only defined for lists. In 
 >>> sorted({1: 'D', 2: 'B', 3: 'B', 4: 'E', 5: 'A'})
 [1, 2, 3, 4, 5]
 ```
+#### Implementation Details
+ 
+If one wants to know details about the implementation of the sort function, the algorithm, and the time complexity, etc., refer <a href='http://svn.python.org/projects/python/trunk/Objects/listsort.txt' target='_blank' rel='nofollow'>here</a>. In brief, sort function uses TimSort algorithm, which according to Python Developers, is :-  
+>an adaptive, stable, natural mergesort, modestly called
+timsort (hey, I earned it <wink>).  It has supernatural performance on many
+kinds of partially ordered arrays (less than lg(N!) comparisons needed, and
+as few as N-1), yet as fast as Python's previous highly tuned samplesort
+hybrid on random arrays.
+
 #### sort() Parameters
 By default, sort() doesn't require any extra parameters. However, it has two optional parameters:
  * reverse - If true, the sorted list is reversed (or sorted in Descending order)
@@ -105,3 +112,5 @@ By default, sort() doesn't require any extra parameters. However, it has two opt
 More information about ```sort()``` can be found <a href='https://docs.python.org/3/library/functions.html#sorted' target='_blank' rel='nofollow'>here</a>
 
 More information about sort() and sorted() can be found <a href='https://docs.python.org/3.6/tutorial/datastructures.html' target='_blank' rel='nofollow'>here</a>
+
+More information about sort() and sorted() can be found <a href='https://docs.python.org/3.6/tutorial/datastructures.html' target='_blank' rel='nofollow'>here</a>. 
