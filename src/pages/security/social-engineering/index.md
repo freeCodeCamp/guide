@@ -21,15 +21,17 @@ Social Engineering is the art of gaining access to a secured system or resource 
 
 * Phishing: Sending an email which looks like it is from a trusted source to bait the user into clicking a link (to install malware) or replying with private information.
 
+* Infiltrating: impersonating someone legitimate in order to gain physical access to a building/office etc., e.g. the coffee machine repair person
+
 
 
 #### More Information:
 Read on more information on social engineering hacks and steps you can take to protect yourself from one:
-[What is Social Engineering?](https://www.webroot.com/us/en/home/resources/tips/online-shopping-banking/secure-what-is-social-engineering)
+<a href='https://www.webroot.com/us/en/home/resources/tips/online-shopping-banking/secure-what-is-social-engineering' target='_blank' rel='nofollow'>What is Social Engineering?</a>
 
-[Protect Yourself from Social Engineering Attacks](http://www.makeuseof.com/tag/protect-8-social-engineering-attacks/)
+<a href='http://www.makeuseof.com/tag/protect-8-social-engineering-attacks/' target='_blank' rel='nofollow'>Protect Yourself from Social Engineering Attacks</a>
 
-[7 Best Social Engineering Hacks Ever](https://www.darkreading.com/the-7-best-social-engineering-attacks-ever/d/d-id/1319411?)
+<a href='https://www.darkreading.com/the-7-best-social-engineering-attacks-ever/d/d-id/1319411?' target='_blank' rel='nofollow'>7 Best Social Engineering Hacks Ever</a>
 
 
 

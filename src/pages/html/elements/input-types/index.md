@@ -3,13 +3,11 @@ title: Input Types
 ---
 ## Input Types
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/input-types/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Input HTML elements can be assigned an attribute called a "type." The type of an input element determines what type of data the user can input. The default input is text, but other options incude Checkboxes, simple buttons, or Color (utilizing hex codes). 
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+[W3 Schools: Input Type](https://www.w3schools.com/tags/att_input_type.asp)
+
+[MDN: <input>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)
 
 
