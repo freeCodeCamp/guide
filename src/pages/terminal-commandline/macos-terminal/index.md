@@ -32,3 +32,18 @@ touch | Crerate a new file
 cp| copy a file 
 rm | remove a file 
 rm -rf | remove a directory 
+
+### Usage Examples
+
+Some of the aforementioned commands aren't clear without examples. Below are a few usage examples to help provide you with some context. 
+
+#### Making a Directory
+
+```mkdir #YOUR-NEW-FOLDER-NAME-HERE```
+
+#### Making a File 
+
+``` touch YOUR-FILE-NAME.JS```
+You can make a file with any extension you choose. As long as it is in an a format accepted by the folder or machine.
+
+#### Copying a File 
