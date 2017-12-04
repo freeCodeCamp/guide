@@ -15,9 +15,20 @@ If you want to list the contents of your directory use the command:
 
 ```ls```
 
-To switch from to a new directory you use the command 
+To switch to a new directory you use the command: 
 
-```cd``
+```cd```
 
-which stand for change directory. 
+which stands for change directory. 
 
+Here is a list of common commands:
+
+Command | Usage
+------------ | -------------
+pwd | Print Working Direcotry (Where Am I? )
+ls | List contents of current directory
+mkdir | Create a new directory
+touch | Crerate a new file
+cp| copy a file 
+rm | remove a file 
+rm -rf | remove a directory 
