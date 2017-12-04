@@ -3,13 +3,18 @@ title: Algebra of Logic
 ---
 ## Algebra of Logic
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/logic/algebra-of-logic/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+_Algebra of Logic_ or _Boolean algebra_ is a branch of mathematics. It deals with variables and their truth value. The variables have two possible states – `true` or `false`.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+It was first introduced by George Boole in his book The Mathematical Analysis of Logic (1847).
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Boolean algebra is fundamental to the development of digital electronics. It is responsible for making possible all modern computing.
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+The three basic operations in Boolean Algebra are `AND`, `OR`, and `NOT`. Consider two boolean variables `x` and `y`:
 
+- `x AND y` is true if and only if both `x` and `y` are true
+- `x OR y` is true if and only if either of `x`, `y` are true
+- `NOT x` is true if and only if `x` is false and vice versa
 
+### More Information:
+- The Calculus of Logic: <a href='http://www.maths.tcd.ie/pub/HistMath/People/Boole/CalcLogic/CalcLogic.html' target='_blank' rel='nofollow'>George Boole</a>
+- Boolean algebra article: <a href='https://en.wikipedia.org/wiki/Boolean_algebra' target='_blank' rel='nofollow'>Wikipedia</a>

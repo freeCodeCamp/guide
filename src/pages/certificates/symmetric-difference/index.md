@@ -32,7 +32,7 @@ Write a function that returns the symmetric difference of the two arrays: `yourF
 
 > _try to solve the problem now_
 
-## ![:speech_balloon:</a> Hint: 3
+## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 3
 
 Use `Array.prototype.reduce` along with `yourFunction` to repeat the process on multiple arguments
 

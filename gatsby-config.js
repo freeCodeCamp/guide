@@ -22,6 +22,7 @@ module.exports = {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
+          'gatsby-remark-fcc-forum-emoji',
           'gatsby-remark-smartypants',
           'gatsby-remark-prismjs'
         ]
