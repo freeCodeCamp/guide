@@ -25,7 +25,7 @@ Here is a list of common commands:
 
 Command | Usage
 ------------ | -------------
-pwd | Print Working Direcotry (Where Am I? )
+pwd | Print Working Directory (Where Am I? )
 ls | List contents of current directory
 mkdir | Create a new directory
 touch | Crerate a new file
@@ -55,7 +55,13 @@ Use the following syntax to copy a file from the terminal:
 
 For example, if we have a file, _'test.txt'_ that is stored in our _/Desktop_ directory and we want to copy it to the _/Documents_ folder, our command would look like this: 
 
-    cp ~/Desktop/test.txtm ~Documents
+    cp ~/Desktop/test.txt ~/Documents
+
+#### Deleting a File 
+
+Use the following syntax to delete a file 
+
+**rm _#PATH_TO_FILE_**
 
 
 
