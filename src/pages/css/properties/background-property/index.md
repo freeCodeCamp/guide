@@ -3,13 +3,22 @@ title: Background Property
 ---
 ## Background Property
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/properties/background-property/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Background property represents a shorthand property for ```background-image```, ```background-position```, ```background-attachement```, ```background-color```, ```background-repeat```, ```background-position```
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Syntax
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```
+p {
+  background: url("adress of the image") 50% red repeat fixed;
+}
+```
+
+### Output
+
+[JSfiddle](https://jsfiddle.net/uya02a9f/1/)
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
+[W3 Documentation](https://www.w3.org/TR/CSS2/colors.html#propdef-background)
 
+[MDN - CSS background](https://developer.mozilla.org/en-US/docs/Web/CSS/background)
