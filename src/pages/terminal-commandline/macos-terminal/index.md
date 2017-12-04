@@ -44,6 +44,18 @@ Some of the aforementioned commands aren't clear without examples. Below are a f
 #### Making a File 
 
 ``` touch YOUR-FILE-NAME.JS```
+
 You can make a file with any extension you choose. As long as it is in an a format accepted by the folder or machine.
 
 #### Copying a File 
+
+Use the following syntax to copy a file from the terminal:
+
+**cp _source_ _destination_**
+
+For example, if we have a file, _'test.txt'_ that is stored in our _/Desktop_ directory and we want to copy it to the _/Documents_ folder, our command would look like this: 
+
+    cp ~/Desktop/test.txtm ~Documents
+
+
+
