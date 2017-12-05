@@ -7,12 +7,19 @@ Git tag feature can be use to make a reference point to some specific point in y
 
 ### List Tags
 
-`git tag` will lists the tags in alphabetical order.
+`git tag` will list the tags in alphabetical order.
 
 ```shell
 $ git tag
 v0.0.1
 v0.0.2
+```
+
+To list only the tags that match a certain pattern use `-l <pattern>`, like this:
+```shell
+$ git tag -l 'v2*'
+v2.0.0
+v2.0.1
 ```
 
 ### Creating Tags
@@ -24,7 +31,7 @@ There are two available methods to create tags
 
 ### Annotated Tags
 
-Annotated Tags is the full fledged version of creating a tag where it will contain a checksum, tagger name, email, date and tagging message etc...
+Annotated Tags is the full fledged version of creating a tag where it will contain a checksum, tagger name, email, date and tagging message etc.
 
 ```shell
 $ git tag -a v0.0.3 -m "Release Version 0.0.3"
@@ -35,6 +42,11 @@ v0.0.3 //new tag
 ```
 
 `-a` flag indicates that this is a annotated tag. `-m` flag lets you add in line massage. If you avoid `-m` you'd be provided with a window to enter the massage.
+
+Other options available are `-s` and `-u`, which create a GPG-signed tag using the default e-mail address as key or a given key.
+```shell
+$ git tag -a v0.0.3 -u some-key
+```
 
 You can view the content of the tag by using `git show v0.0.3` command.
 
@@ -52,6 +64,7 @@ Date:   Tue Jun 27 15:33:06 2017 +0530
     Implement an awesome feature
 
 ```
+
 
 ### Lightweight Tags
 
@@ -80,6 +93,14 @@ Date:   Tue Jul 25 15:09:02 2017 +0530
 ```
 
 As you can see only a reference of a checksum is kept here.
+
+
+### Tagging Later
+
+You can also tag old commits by especifying the commit number at the end of the command:
+```shell
+$ git tag v1.2 9fceb02
+```
 
 
 ### Deleting a Tag
