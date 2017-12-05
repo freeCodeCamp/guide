@@ -3,7 +3,7 @@ title: Garbage Collection
 ---
 ## Garbage Collection
 
-####What is Garbage Collection?
+#### What is Garbage Collection?
 
 In general layman term, Garbage collection (GC) is nothing but collecting or gaining the memory back which has been allocated to the objects, which is not in use at the moment in any part of our program. A brief description as below.
 
@@ -21,4 +21,9 @@ In .net programming, heap has three generations called generation 0, 1, 2. Gener
 
 Generations 1 and 2 has object which has the longer life time. GC on generations 1 and 2 will not happen until the generations 0 has sufficient memory to allocate.
 
-Its not advisable to invoke the GC programmatically. It's good to let it happend on its own. GC get call whenever the generation 0 gets filled. GC will not impact the performance of your program. It;s was
+Its not advisable to invoke the GC programmatically. It's good to let it happend on its own. GC get call whenever the generation 0 gets filled. GC will not impact the performance of your program. 
+
+
+#### More Information:
+ -<!-- Please add any articles you think might be helpful to read before writing the article -->
+ +- https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/fundamentals - To know more about garbage Collection
