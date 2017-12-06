@@ -10,6 +10,7 @@ The practice revolves around
 - Artifacts (product backlog, sprint backlog, product increment, and info radiators and reports).
 - The main goal is to keep the team aligned on project progress to facilitate rapid iteration.
 
+The recommended practices of the scrum are directly related to its purpose. For example, the recommendation that the scrums are done while standing, is because standing encourages less digressions and increases focus.
 
 #### More Information:
 There are several online tools that can be used to do scrum for your team. e.g. <a href='https://www.scrumdo.com/'>Scrum Do, <a href='http://www.asana.com'>Asana, or <a href='http://trello.com>Trello
