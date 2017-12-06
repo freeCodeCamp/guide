@@ -19,10 +19,10 @@ It follows the same pattern as React where the views (what you see on the screen
 
 ### Reasons to choose React Native
 
-1. Code reusability — It uses one code based that is shared between both platforms.
-1. Reuse web tools and skills — Reuse JavaScript knowledge and tools like Axios, Redux, and other libraries that don’t require the DOM from the web.
-1. Optimized for developer productivity — Comes with features like hot/live reloading and chrome developer tools out of the box!
-1. Performance — Performs better than hybrid application frameworks like Ionic and Cordova.
-1. Corporate backing — Lot’s of companies support and contribute to React Native including Walmart, Airbnb, Wix, and, of course, Facebook.
-1. Community — React Native has a large (and growing) community with over 1500 contributors to the core project and thousands more who contribute to various libraries.
-1. Better user experience — React Native uses the JavaScript code to render native components from your phone's OS. In other words, the application's user interface (UI) is entirely native!
+1. **Code reusability** — It uses one code based that is shared between both platforms.
+1. **Reuse web tools and skills** — Reuse JavaScript knowledge and tools like Axios, Redux, and other libraries that don’t require the DOM from the web.
+1. **Optimized for developer productivity** — Comes with features like hot/live reloading and chrome developer tools out of the box!
+1. **Performance** — Performs better than hybrid application frameworks like Ionic and Cordova.
+1. **Corporate backing** — Lot’s of companies support and contribute to React Native including Walmart, Airbnb, Wix, and, of course, Facebook.
+1. **Community** — React Native has a large (and growing) community with over 1500 contributors to the core project and thousands more who contribute to various libraries.
+1. **Better user experience** — React Native uses the JavaScript code to render native components from your phone's OS. In other words, the application's user interface (UI) is entirely native!
