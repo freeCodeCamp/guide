@@ -40,7 +40,7 @@ Styles are also not inherited as they are on the web. You specifically have to s
 
 React Native uses an implementation of Flexbox similar to the web standard for layouts. So by default items in the view will be set to `display: flex`. The flexbox standard was created to simplify web layouts and gives a pretty straightforward way to layout mobile applications as well. In addition to flexbox, you are also able to style React Native by using absolute positioning which is helpful in some cases.
 
-One difference between the web standard the mobile one is that by default React Native will use `flexDirection: column` instead of `flex-direction: row`. This is to account for developing on mobile devices.
+One difference between the web standard the mobile one is that by default React Native will use `flexDirection: column` instead of `flex-direction: row`. This is to account for the screen size and layout needs while developing on mobile devices.
 
 To learn more about flexbox, checkout [this detailed guide on CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) and a gamified learning approach [with Flexbox Froggies](http://flexboxfroggy.com/).
 
