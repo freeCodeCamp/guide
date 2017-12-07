@@ -67,3 +67,22 @@ The `.gcd` method provides the greatest common divisor (always positive) of two 
     15.gcd(5) #=> 5
     3.gcd(-7) #=> 1
 ```
+
+## <a href='http://ruby-doc.org/core-2.2.0/Integer.html#method-i-round' target='_blank' rel='nofollow'>Round</a>:
+
+Use `.round` to return a rounded <a href='https://ruby-doc.org/core-2.2.0/Integer.html' target='_blank' rel='nofollow'>**integer**</a> or <a href='https://ruby-doc.org/core-2.2.0/Float.html' target='_blank' rel='nofollow'>**float**</a>.
+```Ruby
+    1.round        #=> 1
+    1.round(2)     #=> 1.0
+    15.round(-1)   #=> 20
+```
+
+## <a href='http://ruby-doc.org/core-2.2.0/Integer.html#method-i-times' target='_blank' rel='nofollow'>Times</a>:
+
+Use `.times` to iterate the given block ```int``` times.
+```Ruby
+    5.times do |i|
+      print i, " "
+    end
+    #=> 0 1 2 3 4
+```

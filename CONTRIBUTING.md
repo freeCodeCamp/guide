@@ -48,7 +48,7 @@ With your help, we can create a comprehensive reference tool that will help mill
     - [Syncing Fork](#syncing-fork)
     - [Merge Conflicts](#merge-conflicts)
     - [Duplicate](#duplicate)
-    - [Closing](#closing)
+    - [Closing](#closing-1)
 
 <!-- /TOC -->
 

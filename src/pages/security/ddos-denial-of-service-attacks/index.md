@@ -16,6 +16,7 @@ DDoS attacks can be broadly categorized into three categories −
 ### Volume-Based Attacks
 Volume-based attacks include TCP floods, UDP floods, ICMP floods, and other spoofedpacket floods. These are also called Layer 3 & 4 * Attacks. Here, an attacker tries to saturate the bandwidth of the target site. The attack magnitude is measured in Bits per Second (bps).
 
+
 * **UDP Flood** − A UDP flood is used to flood random ports on a remote host with numerous UDP packets, more specifically port number 53. Specialized firewalls can be used to filter out or block malicious UDP packets.
 
 * **ICMP Flood** − This is similar to UDP flood and used to flood a remote host with numerous ICMP Echo Requests. This type of attack can consume both outgoing and incoming bandwidth and a high volume of ping requests will result in overall system slowdown.
@@ -62,3 +63,7 @@ Assume your server IP address is AAA.BBB.CCC.DDD. Then you should do the followi
 * You will use the CDN URL cdn.someotherid.domain.com to create two CNAME records, the first one to point to www and the second record to point to @ as shown below.
 
 You can take the help from your system administrator to understand these points and configure your DNS and CDN appropriately. Finally, you will have the following configuration at your DNS.
+
+### More Information
+
+<a href='https://www.us-cert.gov/ncas/tips/ST04-015'>Understanding Denial-of-Service Attacks</a><br>
