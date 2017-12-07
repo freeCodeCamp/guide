@@ -13,4 +13,4 @@ Backlog emergence and grooming are essential tasks for every scrum team. Althoug
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-- Optimizing Product Backlog Refinement https://www.scrum.org/resources/blog/optimizing-product-backlog-refinement
+- [Optimizing Product Backlog Refinement](https://www.scrum.org/resources/blog/optimizing-product-backlog-refinement)
