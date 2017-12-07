@@ -59,7 +59,6 @@
   },
   "pre-commit": [
     "pre-commit-message",
-    "lint",
-    "normalise"
+    "lint"
   ]
 }

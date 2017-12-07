@@ -21,7 +21,7 @@ You can set that as the image using the `src` attribute.
 
 The above code displays like this:
 
-![](https://avatars0.githubusercontent.com/u/9892522?v=4&s=400?raw=true)
+![The freeCodeCamp Avatar](https://avatars0.githubusercontent.com/u/9892522?v=4&s=400?raw=true)
 
 The `src` attribute is supported by all browsers.
 
