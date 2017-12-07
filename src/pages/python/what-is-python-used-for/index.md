@@ -21,6 +21,9 @@ The presence of computing is Artificial Intelligence. AI has come to stay and Py
 #### Mobile app development
 Mobile apps and games can be created with python using Kivy, Pygame and PyQt.
 
+#### Security And Networking:
+Python is used to build Networking tools and security-tools that are widely used.Python's remote automation is the most secured, fast and efficient for cloud-testing of frameworks, that's why professional developers use python for making most secured frameworks and for socket-programmings.
+
 #### More Information:
 Here's a <a href='https://www.python.org/about/apps/' target='_blank' rel='nofollow'>link</a> to appications of Python on it's offical website.
 <!-- Please add any articles you think might be helpful to read before writing the article -->
@@ -43,12 +46,12 @@ Here's a <a href='https://www.python.org/about/apps/' target='_blank' rel='nofol
 
 #### Some article covering the usability of python
 
-* [10 MAJOR USES OF PYTHON](http://www.dummies.com/programming/python/10-major-uses-of-python/)
-* [Applications for Python](https://www.python.org/about/apps/)
-* [Where is python Language used](https://stackoverflow.com/questions/3043085/where-is-python-language-used)
-* [What is python used for](https://stackoverflow.com/questions/1909512/what-is-python-used-for)
+* <a href='http://www.dummies.com/programming/python/10-major-uses-of-python/' target='_blank' rel='nofollow'>10 MAJOR USES OF PYTHON</a>
+* <a href='https://www.python.org/about/apps/' target='_blank' rel='nofollow'>Applications for Python</a>
+* <a href='https://stackoverflow.com/questions/3043085/where-is-python-language-used' target='_blank' rel='nofollow'>Where is python Language used</a>
+* <a href='https://stackoverflow.com/questions/1909512/what-is-python-used-for' target='_blank' rel='nofollow'>What is python used for</a>
 
 
 
-The offcial package index for python is [here](https://pypi.python.org/pypi)
+The offcial package index for python is <a href='https://pypi.python.org/pypi' target='_blank' rel='nofollow'>here</a>
 
