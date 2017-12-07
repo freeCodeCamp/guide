@@ -28,4 +28,4 @@ You can check common examples of color picker tools below.
 
 * <a href='https://atom.io/packages/color-picker' target='_blank' rel='nofollow'>Color picker package for Atom</a>
 
-* <a href='http://www.instant-eyedropper.com/' target='_blank' rel=nofollow'>Instant Eyedropper</a>
+* <a href='http://www.instant-eyedropper.com/' target='_blank' rel='nofollow'>Instant Eyedropper</a>
