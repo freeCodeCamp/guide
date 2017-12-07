@@ -3,13 +3,21 @@ title: Section
 ---
 ## Section
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/section/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The HTML ```<section>``` element defines a section within an HTML page that is used when there is not a more specific semantic HTML element to represent it. Typically, a ```<section>``` element will include a heading element (```<h1>``` - ```<h6>```) as child element. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+For example, a web page could be divided into various sections such as welcome, content and contact sections. 
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+A ```<section>``` element should not be used in place of a ```<div>``` element if a generic container is needed. It should be used to define sections within an HTML page.
+
+```html
+<section>
+  <h2>This is a Heading</h2>
+  <p>This is a paragraph of content</p>
+</section>
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+* [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section)
+* [W3 Schools](https://www.w3schools.com/tags/tag_section.asp)
 
 
