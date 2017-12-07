@@ -1,50 +1,52 @@
 ---
 title: Dynamic Programming
 ---
+
 ## Dynamic Programming
 
-Dynamic Programming is a method of programming where you divide a complex problem into multiple subproblems and store the solution of each of those subproblems. When the same subproblem occurs again, instead of recomputing it, we lookup its solution. Thereby saving on the computation time at the modest expense of storage. This  property of DP is called Overlapping Subproblems.
+Dynamic Programming(DP) is a programming technique for solving problems where the computations of its subproblems overlap: you write your program in a way that avoids recomputing already solved problems.
+This technique, it's usually applied in conjunction with memoization which is an optimization technique where you cache previously computed results, and return the cached result when the same computation is needed again.
 
-Here is an example.
+An example with Fibonacci's series which is defined as:
 
-```c++
-int fib(int n)
+```F(N) = F(N-1) + F(N-2)```
+
+This is the tree to find F(5):
+
+![Fibonacci serie's tree](https://i.stack.imgur.com/59Rpw.png)
+
+To compute F(5) it will need to compute many times the same F(i). Using recursion:
+
+```python
+def fib(n)
 {
-
-    if ( n <= 1 )
-
-    return n;
-
+    if n <= 1:
+        return n
     return fib(n-1) + fib(n-2);
-
 }
 ```
 
-Above is a simple recursive solution where we are computing fib(2) many times.
+And below is the optimised solution (using DP)
 
-And below is the optimised solution (using DP
+For F(5), this solution will generate the calls depicted in the image above, running in O(2^N).
 
+Here is an optimised solution which uses DP and memoization:
 
-```c++
-int lookup[n+1];
+```python
+lookup = {1 : 1, 2 : 1} # Create a lookup-table (a map) inizialized with the first 2 Fibonacci's numbers
 
-for(int i =0; i<=n; i++)
-{    
-    lookup[i] = -1;
-}
-
-int fib(int n)
+def fib(n)
 {
-    if (lookup[n] == -1)
-    {
-        if (n <= 1)
-        lookup[n] = n;
-        else
-        lookup[n] = fib(n-1) + fib(n-2);
-    }
-    return lookup[n];
+    if n in lookup: # If n is already computed
+        return n # Return the previous computed solution
+    else 
+        lookup[n] = fib(n-1) + fib(n-2) # Else, do the recursion.
+    return lookup[n]
 }
 ```
+Caching computed solutions in a lookup table, and query it before go recursion will let the program have a running time of O(N).
 
 #### More Information:
-<a href='http://www.geeksforgeeks.org/dynamic-programming-set-1/' target='_blank' rel='nofollow'>Geeks for Geeks Article</a>
+
+[What is dynamic programming on StackOverflow](https://stackoverflow.com/questions/1065433/what-is-dynamic-programming")
+[Difference between memoization and DP on StackOverflow](https://stackoverflow.com/questions/6184869/what-is-the-difference-between-memoization-and-dynamic-programming)

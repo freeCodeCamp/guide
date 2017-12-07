@@ -2,14 +2,12 @@
 title: Design Patterns
 ---
 ## Design Patterns
-
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/design-patterns/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Software design pattern is a general reusable solution to a commonly occurring problem within a given context in software design. It is not a finished design that can be transformed directly into source or machine code. Design patterns are formalized best practices that the programmer can use to solve common problems when designing an application or system.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
+You can read the following links, about:
+- <a href='http://www.oodesign.com/'> Object Oriented Design
+- <a href='https://code.tutsplus.com/articles/a-beginners-guide-to-design-patterns--net-12752'> A Beginner’s Guide to Design Patterns
+- <a href='http://blog.ploeh.dk/2017/10/04/from-design-patterns-to-category-theory/'>From design patterns to category theory
+  
 
