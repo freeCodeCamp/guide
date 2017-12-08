@@ -13,7 +13,7 @@ We will be using MySQL for all examples throughout this freeCodeCamp SQL guide. 
 ## Covered in this Guide 
 We will use the tables created in the “CREATE TABLE” guide.  Feel free to review that guide if you are not familiar with creating a table.
 * Alter the created table will alter it in several different ways. 
-* We'll change its name will modify columns
+* We'll change its name and modify columns
 * add columns ( While adding columns we will also review several of the most important column types and their use.)
 * drop columns (meaning remove the column column) 
 * Creating a table by importing a CSV file and altering that table
@@ -24,7 +24,7 @@ Most of this will be done using SQL statements in the MySQL workbench scripting 
 ## The table before alterations;
 ![image-1](https://github.com/SteveChevalier/guide-images/blob/master/alter_table01a.JPG?raw=true)
 
-Add date and an email address columns (a date and a character column)
+Add date and email address columns (a date and a character column)
 ![image-1](https://github.com/SteveChevalier/guide-images/blob/master/alter_table01.JPG?raw=true)
 
 Add a numeric column (note that it was added in a specific location in the table)

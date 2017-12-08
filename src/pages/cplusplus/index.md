@@ -26,7 +26,7 @@ int main()
 ### The Output of this program will simply be :
 
 ```
-Hello World !
+Hello World
 ```
 
 Now , let's break down the code :
@@ -61,7 +61,7 @@ cout<<"Hello World"<<endl;
 }
 ```
 
-* The word `cout` in C++ is used for any output. 
+* The word `cout` in C++ is used for any console output. 
 * It always has to be followed by `<<` , the _insertion operator_ . 
 * Whatever is in the double quotes `""` is printed . Certain special characters have a different syntax for print statements   
 * Now to print any other kind of data , you have to  add `<<` .
@@ -85,13 +85,13 @@ _You have finished coding your first C++ program and have understood most of the
  
  **Happy Coding ! :)**
  
- **Feel free to ask any queries on FreeCodeCamp's GitHub page or [FreeCodeCamp's Forum .](https://forum.freecodecamp.org/)**
+ **Feel free to ask any queries on FreeCodeCamp's GitHub page or <a href='https://forum.freecodecamp.org/' target='_blank' rel='nofollow'>FreeCodeCamp's Forum .</a>**
 
  <a href='https://repl.it/L4k3' target='_blank' rel='nofollow'>Try the code yourself ! :) </a>
 
 **You may require some software to write and execute C++ code. I recommend using CodeBlocks. There's a download link below :**
 
-Download Link : [Download Here](http://www.codeblocks.org/downloads/26)
+Download Link : <a href='http://www.codeblocks.org/downloads/26' target='_blank' rel='nofollow'>Download Here</a>
 
 * Click the link with the GNU/GCC compiler for windows. This will not require an additional installation
 

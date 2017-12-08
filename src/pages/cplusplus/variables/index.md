@@ -23,10 +23,8 @@ int main()
 
 When you execute this program you will see 5 displayed on the screen
 
-* Note that in the above program // is placed after the lines. Symbol "//" is for commenting our code. Code after the symbol
-  "//" is not execueted in the line where its placed.
-
 * On line 5 n simple integer variable is declared.
+
 * On line 6 the value 5 is assigned to the variable a. Now whenever we use the variable a in our program its value will be 5
   unless we change it.
 * On line 7 we display the value of variable a and 5 is printed on the screen.
@@ -44,7 +42,7 @@ Global variables are those, which ar once declared and can be used throughout th
 Example : Only declared, not initialized.
 
 ```cpp
-include <iostream>
+#include <iostream>
 using namespace std;
 int x;                // Global variable declared
 int main()
@@ -62,7 +60,7 @@ Local variables are the variables which exist only between the curly braces, in 
 Example :
 
 ```cpp
-include <iostream>
+#include <iostream>
 using namespace std;
 int main()
 {
@@ -72,5 +70,26 @@ int main()
     int n=100;   // Local variable declared and initialized
   }              // if condition scope ends
  cout << n;      // Compile time error, n not available here
+}
+```
+
+### Constant Variables
+Constant variable are the variables which cannot be changed. For example, if you needed "pi" in your code, you would not want to change it after initialization.
+
+Example :
+
+```cpp
+#include <iostream>
+using namespace std;
+const double PI = 3.14159253;
+int main()
+{
+//Calculating the area of a circle, using user provided radius
+double radius;
+//input and output explained in other guide
+cin>>radius;
+//pi*r^2
+double area = PI*radius*radius;
+cout<<area<<endl;
 }
 ```

@@ -14,13 +14,12 @@ using namespace std;
 
 int main()
 {
-int x;
-cout<<"Enter a number : "<<endl; //Ask user for input.
-cin >> x; //Take user input.
-cout << "The output value of int x : " << x << endl;
-return 0;
+  int x;
+  cout << "Enter a number: " << endl; // Ask user for input
+  cin >> x; // Take user input
+  cout << "The output value of int x: " << x << endl;
+  return 0;
 }
-
 ```
 
 * The header file <iostream> is required for stream objects.

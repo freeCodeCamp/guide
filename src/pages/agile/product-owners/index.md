@@ -26,3 +26,8 @@ The Product Owner then prioritizes the workload to ensure that the stories that 
 Working with the team and the Scrum Master, the Product owner attends sprint planning meetings to loop groomed stories into the sprint. Throughout the sprint, the Product Owner ensures that the team completes the work according to the Definition of Done (DoD), answers any questions that may arise, and update stakeholders. 
 
 When the sprint is complete, the Product Owner participates in the Sprint Review along with other stakeholders. Making sure that each story meets the DoD, the Product Owner prepares for the next sprint by gathering feedback and prioritizing work based on what was completed. 
+
+
+### More Information:
+- Agile Product Ownership in a Nutshell video: [YouTube](https://www.youtube.com/watch?v=502ILHjX9EE)
+
