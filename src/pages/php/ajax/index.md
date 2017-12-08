@@ -3,13 +3,6 @@ title: AJAX
 ---
 ## AJAX
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/php/ajax/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 <b>AJAX</b> stands for <b>Asynchronous JavaScript And XML</b>. It is not a programming language. It is a technology for developing better, faster and interactive Web Applications using HTML, CSS, JavaScript and XML. 
 <ol>
@@ -42,7 +35,7 @@ var xhttp = new XMLHttpRequest();
   <li>4: request finished and response is ready</li>
  </ul>
  
-```onreadystatechange``` is a property of the XMLHttpRequest Object which defines a function to be called when the readyState property changes.
+```onreadystatechange``` is a property of the XMLHttpRequest Object which defines a function to be called when the readyState property changes.<br/>
   
 ```status``` is a property of the XMLHttpRequest Object which returns the status-number of a request
 <ul>
@@ -106,10 +99,10 @@ The file ```content.txt``` should be present in the root directory of the Web Ap
 
 ### Sources
 
-- [W3Schools](#https://www.w3schools.com/js/js_ajax_intro.asp)
-- [MDN web docs](#https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX/Getting_Started)
+- [W3Schools](https://www.w3schools.com/js/js_ajax_intro.asp)
+- [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX/Getting_Started)
 
 ### Other Resources
 
-- [W3Schools](#https://www.w3schools.com/js/js_ajax_intro.asp)
-- [MDN web docs](#https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX/Getting_Started)
+- [W3Schools](https://www.w3schools.com/js/js_ajax_intro.asp)
+- [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX/Getting_Started)
