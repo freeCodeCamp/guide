@@ -16,6 +16,91 @@ A binary search tree adds these two characteristics:
 
 Binary search trees allow fast lookup, insert and removal of nodes. The way that they are set up means that, on average, each comparison allows the operations to skip about half of the tree, so that each lookup, insertion or deletion takes time proportional to the logarithm of the number of items stored in the tree.
 
+Let us define a BST node having some data, referencing to its left and right child nodes.
+
+struct node {
+   int data;   
+   struct node *leftChild;
+   struct node *rightChild;
+};
+
+## Search Operation
+Whenever an element is to be searched, start searching from the root node. Then if the data is less than the key value, search for the element in the left subtree. Otherwise, search for the element in the right subtree. Follow the same algorithm for each node.
+
+Algorithm
+struct node* search(int data){
+   struct node *current = root;
+   printf("Visiting elements: ");
+	
+   while(current->data != data){
+	
+      if(current != NULL) {
+         printf("%d ",current->data);
+			
+         //go to left tree
+         if(current->data > data){
+            current = current->leftChild;
+         }//else go to right tree
+         else {                
+            current = current->rightChild;
+         }
+			
+         //not found
+         if(current == NULL){
+            return NULL;
+         }
+      }			
+   }
+   return current;
+}
+
+## Insert Operation
+
+Whenever an element is to be inserted, first locate its proper location. Start searching from the root node, then if the data is less than the key value, search for the empty location in the left subtree and insert the data. Otherwise, search for the empty location in the right subtree and insert the data.
+
+Algorithm
+void insert(int data) {
+   struct node *tempNode = (struct node*) malloc(sizeof(struct node));
+   struct node *current;
+   struct node *parent;
+
+   tempNode->data = data;
+   tempNode->leftChild = NULL;
+   tempNode->rightChild = NULL;
+
+   //if tree is empty
+   if(root == NULL) {
+      root = tempNode;
+   } else {
+      current = root;
+      parent = NULL;
+
+      while(1) {                
+         parent = current;
+			
+         //go to left of the tree
+         if(data < parent->data) {
+            current = current->leftChild;                
+            //insert to the left
+				
+            if(current == NULL) {
+               parent->leftChild = tempNode;
+               return;
+            }
+         }//go to right of the tree
+         else {
+            current = current->rightChild;
+            
+            //insert to the right
+            if(current == NULL) {
+               parent->rightChild = tempNode;
+               return;
+            }
+         }
+      }            
+   }
+}        
+
 ### Relevant videos on freeCodeCamp YouTube channel
 * <a href='https://youtu.be/5cU1ILGy6dM' target='_blank' rel='nofollow'>Binary Search Tree</a>
 * <a href='https://youtu.be/Aagf3RyK3Lw' target='_blank' rel='nofollow'>Binary Search Tree: Traversal and Height</a>

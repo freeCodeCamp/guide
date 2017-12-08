@@ -22,19 +22,19 @@ The above code is also valid CSS.
 
 ### Border Styles
 
-The 'border-style' property sets a wide range of different types of borders.
+The `border-style` property sets a wide range of different types of borders.
 
 The various values are:
-- 'dotted' - Sets a dotted border.
-- 'dashed' - Sets a dashed border.
-- 'solid' - Sets a solid border.
-- 'double' - Sets a double border.
-- 'groove' - Sets a 3D grooved border. 
-- 'ridge' - Sets a 3D ridged border. 
-- 'inset' - Sets a 3D inset border. 
-- 'outset' - Sets a 3D outset border.
-- 'none' - Sets no border.
-- 'hidden' - Sets a hidden border.
+- `dotted` - Sets a dotted border.
+- `dashed` - Sets a dashed border.
+- `solid` - Sets a solid border.
+- `double` - Sets a double border.
+- `groove` - Sets a 3D grooved border. 
+- `ridge` - Sets a 3D ridged border. 
+- `inset` - Sets a 3D inset border. 
+- `outset` - Sets a 3D outset border.
+- `none` - Sets no border.
+- `hidden` - Sets a hidden border.
 
 Based on the property you choose, these styles can be mismatched.
 ```css
@@ -43,7 +43,7 @@ Based on the property you choose, these styles can be mismatched.
   border-right-style: dashed;
   border-bottom-style: double;
 ```
-As shown, the border property allows you to select different sections of it. [top, bottom, left, right]
+As shown, the border property allows you to select different sections of it. (`top`, `bottom`, `left` and, `right`)
 
 Another important `border`property is the `border-radius` property. This can either be declared in pixels or in percentage. The `border-radius` property adds rounded corners to elements,
 

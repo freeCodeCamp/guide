@@ -2,12 +2,17 @@
 title: Functions
 ---
 ## Functions
+In PHP the developer can create functions that allow them to repeat routine tasks without having to rewrite large amounts of code.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/php/functions/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### Example Function
+In this example function we take two arguments a username and the amount of points to add - we then return a string declaring that the user has been given points.
+```php
+<?php
+function freeCodeCamp(username, pointsToAdd){
+  $msg = "You gave ".$username." ".$pointsToAdd." points";
+  return $msg;
+}
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+* <a href="https://secure.php.net/manual/en/functions.user-defined.php">php.net user defined functions manual</a>

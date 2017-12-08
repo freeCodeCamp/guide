@@ -106,11 +106,45 @@ Each bootstrap form element should have a class *form-control*. This class is ho
   <button type="submit" class="btn btn-primary">Transfer cash</button>
 </form>
 ```
+Bootstrap forms allow the programmer to use classes to easily make HTML forms presentable and responsive.
+Take the following simple form:
+
+![](https://siamcomm.com/wp-content/uploads/2017/10/Forms-·-Bootstrap.png)
+
+```html
+<form>
+  <div class="form-group">
+    <label for="EmailField">Email address</label>
+    <input type="email" class="form-control" id="EmailField" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="PasswordField">Password</label>
+    <input type="password" class="form-control" id="PasswordField" placeholder="Password">
+  </div>
+  <div class="form-check">
+    <label class="form-check-label">
+      <input type="checkbox" class="form-check-input">
+      Check me out
+    </label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+```
+
+Individual form fields and the associated label should be wrapped in a `<div>` with a class of `form-group`. One exception to this is when using checkbox field where `form-check` should be used instead of `form-group`.
+
+The `<input>` tag should be given a class of `form-control`.
+
+The `<button>` tag should be given the classes of `btn btn-primary`. 
+
+#### More Information:
+<!-- Please add any articles you think might be helpful to read before writing the article -->
+[The official BootStrap documentation is very helpful](http://getbootstrap.com/docs/4.0/components/forms/)
 
 ![Inline Form 3](https://github.com/TroyB12/Pictures/blob/master/Inline%20Form3.PNG)
 
 #### Horizontal Form
-
 In combination with Bootstrap's predefined grid classes to align labels and groups of form controls in a horizontal layout by adding `.form-horizontal` to the form. Doing so changes `.form-group`s to behave as grid rows, so no need for `.row`.
 ```html
 <form class="form-horizontal">
