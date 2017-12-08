@@ -2,14 +2,22 @@
 title: Conversion of Temperature Celsius to Fahrenheit
 ---
 ## Conversion of Temperature Celsius to Fahrenheit
+Formula to convert from Celcius (°C) to Fahrenheit (°F) is very simple.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/conversion-of-temperature-celsius-to-fahrenheit/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+T (°F) = T (°C) x <span class="fraction"><sup>9</sup>⁄<sub>5</sub></span> + 32 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+where T stands for Temperature.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+#### Examples:
+12 °C x <span class="fraction"><sup>9</sup>⁄<sub>5</sub></span> + 32 = 53.60 °F
+
+34 °C x <span class="fraction"><sup>9</sup>⁄<sub>5</sub></span> + 32 = 93.20 °F
+
+76 °C x <span class="fraction"><sup>9</sup>⁄<sub>5</sub></span> + 32 = 168.80 °F
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+To read more abaout the difference between Celcius and Fahrenheit, click [here](https://www.quora.com/What-is-the-difference-between-fahrenheit-and-celsius) to read a discussion from Quora.
+
+Cilck [here](https://www.google.com/search?q=celsius+to+fahrenheit&rlz=1C1CHBD_enMY766MY766&oq=celsius+to+fahrenheit&aqs=chrome..69i57j69i60l3&sourceid=chrome&ie=UTF-8) to use a converter from Google.
 
 
