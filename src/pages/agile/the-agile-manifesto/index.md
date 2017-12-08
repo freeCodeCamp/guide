@@ -37,5 +37,5 @@ That is, while there is value in the items on the right, we value the items on t
 
 #### More Information:
 
-[(1) History: The Agile Manifesto](http://agilemanifesto.org/history.html)
-[Agile Manifesto](http://agilemanifesto.org/)
+*[(1) History: The Agile Manifesto](http://agilemanifesto.org/history.html)
+*[Agile Manifesto](http://agilemanifesto.org/)
