@@ -10,7 +10,7 @@ IDEs offer a central graphic user interface (GUI) that incorporates the followin
 Examples of IDEs are:
  - [NetBeans](https://netbeans.org/)
  - [Eclipse](https://www.eclipse.org/)
- - [ItelliJ IDEA](https://www.jetbrains.com/idea/)
+ - [IntelliJ IDEA](https://www.jetbrains.com/idea/)
  - [Visual Studio](https://www.visualstudio.com/vs/)
  - [Xcode](https://developer.apple.com/xcode/)
  - [Android Studio](https://developer.android.com/studio/index.html)
