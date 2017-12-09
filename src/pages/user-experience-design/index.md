@@ -11,7 +11,7 @@ In this section, we'll have guides to a wide variety of user experience design c
 
 #### Articles for Resources and Inspiration for User Experience Design
 
-[Boxes & Arrows](http://boxesandarrows.com)
+<a href='http://boxesandarrows.com' target='_blank' rel='nofollow'>Boxes & Arrows</a>
 [Usabilla] (http://blog.usabilla.com)
 
 #### Textbook for User Experience Design 
