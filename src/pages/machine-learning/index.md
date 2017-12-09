@@ -20,6 +20,19 @@ In sum, there are two broad categories of machine learning
 
 There are however other subcategories of machine learning you may encounter such as Semi-supervised and reinforced learning.
 
+
+### Supervised learning
+Supervised learning is the machine learning task of inferring a function from supervised training data. The training
+data consist of a set of training examples. In supervised learning, each example is a pair consisting of an input object
+(typically a vector) and a desired output value (also called the supervisory signal). Further, the supervised learning can be taken as 2 paradigm, classification and regression.
+
+#### Basic flowchart/steps for supervised learning
+1. Collect training set.
+2. Divide training set into input object (features) and output object (classes or value)
+3. Decide what you will be applying, regression or classifier
+4. Decide which algorithm will you be applying, SVM, deep net, etc
+5. Run the algorithm on training set and use the model for predictions
+
 #### Courses:
 1. <a href='https://www.udacity.com/course/intro-to-machine-learning--ud120?autoenroll=true' target='_blank' rel='nofollow'>Intro to Machine Learning</a>
 2. <a href='https://www.coursera.org/learn/machine-learning' target='_blank' rel='nofollow'>Machine Learning - Taught by:  Andrew Ng</a>
@@ -30,14 +43,6 @@ There are however other subcategories of machine learning you may encounter such
 
 1. <a href="https://www.youtube.com/channel/UCWN3xxRkmTPmbKwht9FuE5A" target="_blank">Siraj Raval's Youtube channel</a>
 2. <a href="https://www.youtube.com/channel/UCfzlCWGWYyIQ0aLC5w48gBQ" target="_blank">Sentdex's Youtube channel</a>
-
-
-  The first steps involved in any Machine Learning process is to categorize data points. This is called classification.
-You need to select a key differentiator of the data. Say you are trying to identify if a certain image is of a male of female. you will need training data where you point to your code, specific nuances to look for which will help it identify if it is a female or a male.
-  
-  Say facial hair are a good method to differentiate a man. So you train your code to look for facial hair. This only increases the probability that the image it is looking it could be a male. Now based on how broad your training data is, your code may also find some female images which may have traces of facial hair. AFter going through multiple iterations of the smae data, your code would then need to learn more features such as shapes of chin, ears, cheekbones etc., All of these become decision trees, these are the features based on which your machine would could the probability of the image being of that of a male or a female.
-  
-  This is a very simple example of Supervised learning.
 
 
 
