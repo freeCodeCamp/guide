@@ -21,6 +21,80 @@ int main() {
 }
 ```
 
+File Handling is most important part of a programmer . In C language we use a structure pointer of a file type to declare a file
+
+```c
+FILE *fp;
+```
+C provides a number of build-in function to perform basic file operation
+
+**fopen()**   **-**   **create a new file or open a existing file**
+
+**fclose()**   **-**   **close a file**
+
+**getc()**   **-**   **reads a character from a file**
+
+**putc()**   **-**   **writes a character to a file**
+
+**fscanf()**   **-**   **reads a set of data from a file**
+
+**fprintf()**   **-**   **writes a set of data to a file**
+
+**getw()**   **-**   **reads a integer from a file**
+
+**putw()**   **-**   **writes a integer to a file**
+
+**fseek()**   **-**   **set the position to desire point**
+
+**ftell()**   **-**   **gives current position in the file**
+
+**rewind()**   **-**   **set the position to the begining point**
+
+### Opening a file
+
+  The **fopen()** function is used to create a file or open a existing file
+  
+  ```c
+  fp = fopen(const char filename,const char mode);
+  ```
+  
+  In C there are many mode for opening a file 
+  **r**  **-**   **open a file in reading mode**
+  
+  **w**  **-**   **opens or create a text file in writing mode**
+  
+  **a**  **-**   **opens a file in append mode**
+  
+  **r+**  **-**   **opens a file in both reading and writing mode**
+  
+  **a+**  **-**   **opens a file in both reading and writing mode**
+  
+  **w+**  **-**   **opens a file in both reading and writing mode**
+  
+  Here's an  example of reading and writing data to a file
+  
+  ```c
+  #include<stdio.h>
+#include<conio.h>
+main()
+{
+ FILE *fp;
+ char ch;
+ fp = fopen("hello.txt", "w");
+ printf("Enter data");
+ while( (ch = getchar()) != EOF) {
+    putc(ch,fp);
+ }
+ fclose(fp);
+ fp = fopen("hello.txt", "r");
+ 
+ while( (ch = getc(fp)! = EOF)
+    printf("%c",ch);
+    
+ fclose(fp);
+}
+```
+
 Now you might be thinking, "this justs prints text to my screen.  How is this file IO?"
 The answer isn't obvious at first, and needs some understanding about the UNIX system.
 Under a UNIX system, everything is treated as a file, meaning you can read and write from it.
@@ -86,7 +160,7 @@ echo Kamala > name.txt
 ### The Real Deal
 The above methods only worked for the most basic of cases.  If you wanted to do bigger and better things, you will probably want to work with files from within C instead of through the shell.
 To accomplish this, you will use a function called `fopen`.  This function takes two string parameters, the first being the file name and the second being the mode.
-Mode is basically permissions, so `r` for read and `w` for write.  You can also combine them, so `rw` would mean you could read and write to the file.  There are more modes, but these are the most used.
+Mode is basically permissions, so `r` for read, `w` for write, `a` for append.  You can also combine them, so `rw` would mean you could read and write to the file.  There are more modes, but these are the most used.
 
 After you have a `FILE` pointer, you can use basically the same IO commands you would've used, except that you have to prefix them with `f` and the first argument will be the file pointer.
 For example, `printf`'s file version is `fprintf`.
@@ -143,4 +217,4 @@ Hello, Carol!
 Super awesome, right! :smile:
 
 ### More Information:
-- [Wikibooks page on file IO](https://en.wikibooks.org/wiki/C_Programming/File_IO)
+- <a href='https://en.wikibooks.org/wiki/C_Programming/File_IO' target='_blank' rel='nofollow'>Wikibooks page on file IO</a>

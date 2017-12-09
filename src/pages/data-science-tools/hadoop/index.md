@@ -62,5 +62,5 @@ To fix this issue, hadoop keeps redundant data. 3 copies of each block is kept i
 To fix the 3rd problem, concept called NameNode standby. There are 2 namenodes used here. One is active, one is standby with the standby taking over when the active namenode undergoes failure.
 
 #### More Information:
-1. [Udacity course on hadoop](https://www.udacity.com/course/intro-to-hadoop-and-mapreduce--ud617)
-1. [Apache Hadoop](http://hadoop.apache.org/)
+1. <a href='https://www.udacity.com/course/intro-to-hadoop-and-mapreduce--ud617' target='_blank' rel='nofollow'>Udacity course on hadoop</a>
+1. <a href='http://hadoop.apache.org/' target='_blank' rel='nofollow'>Apache Hadoop</a>
