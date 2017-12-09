@@ -9,7 +9,7 @@ The opacity property can take a value from 0.0 - 1.0. The lower value, the more 
 
 Find more details <a href='https://www.w3schools.com/css/css_image_transparency.asp' target='_blank' rel='nofollow'>here</a>
 
-You can choose upto what extent you want to make the element transparent.
+You can choose up to what extent you want to make the element transparent.
 You have to add the following CSS property to achieve the transparency levels.
 
 **Fully Opaque**
