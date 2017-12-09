@@ -39,7 +39,3 @@ The mean can be a great way to describe a set of numbers. However, it is importa
 
 #### More Information:
 * ![Mean](http://www.purplemath.com/modules/meanmode.htm "Mean")
-
-
-
-
