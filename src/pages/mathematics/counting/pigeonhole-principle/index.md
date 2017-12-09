@@ -21,5 +21,5 @@ The Pigeonhole Principle often shows up in computer science. For example, the SH
 We can use the Pigeonhole Principle to prove some more esoteric things as well. A common example is the hair counting problem. The human head has anywhere from 0 to about 150,000 hairs. To stay safe, let's say that a human can have up to one million hairs on their head. Paris, France has a population of about 2.2 million people. If we sort everyone in Paris into boxes based on how many hairs they have on their head, then we can use our generalization above to say N = 1000000 (the number of boxes, one box for every possible hair count) and M = 2200000 (the population of Paris, France). Since M > N, by the Pigeonhole Principle we can state with certainty that at least two people in Paris must have the same number of hairs on their head.
 
 #### More Information:
-[Wikipedia - Pigeonhole Principle](https://en.wikipedia.org/wiki/Pigeonhole_principle)
-[More fun examples of the Pigeonhole Principle](https://mindyourdecisions.com/blog/2008/11/25/16-fun-applications-of-the-pigeonhole-principle/)
+* [Wikipedia - Pigeonhole Principle](https://en.wikipedia.org/wiki/Pigeonhole_principle)
+* [More fun examples of the Pigeonhole Principle](https://mindyourdecisions.com/blog/2008/11/25/16-fun-applications-of-the-pigeonhole-principle/)
