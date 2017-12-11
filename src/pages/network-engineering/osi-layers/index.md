@@ -9,8 +9,6 @@ The OSI model is used to help standardise and characterise how data should flow 
 The organisation that came up with this model is the **International Standardisation Organisation** and hence this model is formally referred to as **ISO - OSI**.
 
 ### Architecture 
-![A frame in data link layer](https://ibb.co/f85fTG)
-
 As in the figure below the model divides the network into **7 layers**. Data communication in the OSI model starts with the top layer ( Application Layer ) of the stack at the sending side, travels down the stack to the sender's lowest layer ( Physical Layer ), then traverses the physical network connection to the bottom layer on the receiving side, and up its OSI model stack. We go for a layered approach because it is easy to design independent layers which interact with each other as compared to a monolithic complex model.
 
 
