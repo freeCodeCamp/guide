@@ -13,8 +13,13 @@ The background-size property specifies the size of the background images. You ca
 .inherit {background-size: inherit}
 ```
 
+CSS Syntax: background-size: auto|length|cover|contain|initial|inherit;
+
 #### More Information:
 
 Documentation: <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/background-size' target='_blank' rel='nofollow'>MDN</a>
 
 Browser Support: <a href='http://caniuse.com/#search=background-size' target='_blank' rel='nofollow'>caniuse</a>
+
+Sources:
+https://www.w3schools.com/cssref/css3_pr_background-size.asp
