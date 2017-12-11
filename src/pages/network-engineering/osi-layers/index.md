@@ -42,51 +42,11 @@ In the diagram above, to the extreme left is the unit of data that is used in ea
 ### **Functions of Layers**
 
 
-#### **Layer 7 - Application Layer**
-The application layer serves as the window for users and application processes to access network services.This layer contains a variety of commonly needed functions, some of which are:
+#### **1. Layer 1 - Physical Layer**
 
-* Resource sharing and device redirection
-* Remote file access
-* Remote printer access
-* Inter-process communication
+The physical layer, the lowest layer of the OSI model, is concerned with the transmission and reception of the unstructured raw bit stream over a physical medium. It describes the electrical/optical, mechanical, and functional interfaces to the physical medium, and carries the signals for all of the higher layers.
 
-
-#### **Layer 6 - Presentation Layer**
-The presentation layer formats the data to be presented to the application layer. It can be viewed as the translator for the network.The presentation layer provides:
-
-* _**Character code translation:**_ for example, ASCII to EBCDIC.
-* _**Data conversion:**_ bit order, CR-CR/LF, integer-floating point, and so on.
-* _**Data compression:**_ reduces the number of bits that need to be transmitted on the network.
-* _**Data encryption:**_ encrypt data for security purposes. For example, password encryption.
-
-
-#### **Layer 5 - Session Layer**
-The session layer allows session establishment between processes running on different stations. It provides the following functionalities:
-
-* _**Session establishment, maintenance and termination:**_ allows two application processes on different machines to establish, use and terminate a connection, called a session.
-* _**Session support:**_ performs the functions that allow these processes to communicate over the network, performing security, name recognition, logging, and so on.
-
-
-#### **Layer 4 - Transport Layer**
-The transport layer ensures that messages are delivered error-free, in sequence, and with no losses or duplications. It relieves the higher layer protocols from any concern with the transfer of data between them and their peers. The transport layer provides:
-
-* _**Message segmentation:**_ accepts a message from the (session) layer above it, splits the message into smaller units and passes the smaller units down to the network layer. The transport layer at the destination station reassembles the message.
-* _**Message acknowledgment:**_ provides reliable end-to-end message delivery with acknowledgments.
-* _**Message traffic control:**_ tells the transmitting station to "back-off" when no message buffers are available.
-* _**Session multiplexing:**_ multiplexes several message streams, or sessions onto one logical link and keeps track of which messages belong to which sessions.
-
-
-#### **Layer 3 - Network Layer**
-The network layer controls the operation of the subnet, deciding which physical path the data should take based on network conditions, priority of service, and other factors. It provides:
-
-* _**Routing:**_ routes frames among networks.
-* _**Subnet traffic control:**_ routers (network layer intermediate systems) can instruct a sending station to "throttle back" its frame transmission when the router's buffer fills up.
-* _**Frame fragmentation:**_ if it determines that a downstream router's maximum transmission unit (MTU) size is less than the frame size, a router can fragment a frame for transmission and re-assembly at the destination station.
-Logical-physical address mapping: translates logical addresses, or names, into physical addresses.
-* _**Subnet usage accounting:**_ has accounting functions to keep track of frames forwarded by subnet intermediate systems, to produce billing information.
-
-
-#### **Layer 2 - Data Link Layer**
+#### **2. Layer 2 - Data Link Layer**
 The data link layer provides error-free transfer of data frames from one node to another over the physical layer, allowing layers above it to assume virtually error-free transmission over the link. To do this, the data link layer provides:
 
 * _**Link establishment and termination:**_ establishes and terminates the logical link between two nodes.
@@ -97,9 +57,54 @@ The data link layer provides error-free transfer of data frames from one node to
 * _**Frame error checking:**_ checks received frames for integrity.
 * _**Media access management:**_ determines when the node has the right to use the physical medium.
 
+#### **3. Layer 3 - Network Layer**
+The network layer controls the operation of the subnet, deciding which physical path the data should take based on network conditions, priority of service, and other factors. It provides:
 
-#### **Layer 1 - Physical Layer**
-The physical layer, the lowest layer of the OSI model, is concerned with the transmission and reception of the unstructured raw bit stream over a physical medium. It describes the electrical/optical, mechanical, and functional interfaces to the physical medium, and carries the signals for all of the higher layers.
+* _**Routing:**_ routes frames among networks.
+* _**Subnet traffic control:**_ routers (network layer intermediate systems) can instruct a sending station to "throttle back" its frame transmission when the router's buffer fills up.
+* _**Frame fragmentation:**_ if it determines that a downstream router's maximum transmission unit (MTU) size is less than the frame size, a router can fragment a frame for transmission and re-assembly at the destination station.
+Logical-physical address mapping: translates logical addresses, or names, into physical addresses.
+* _**Subnet usage accounting:**_ has accounting functions to keep track of frames forwarded by subnet intermediate systems, to produce billing information.
+
+#### **4. Layer 4 - Transport Layer**
+The transport layer ensures that messages are delivered error-free, in sequence, and with no losses or duplications. It relieves the higher layer protocols from any concern with the transfer of data between them and their peers. The transport layer provides:
+
+* _**Message segmentation:**_ accepts a message from the (session) layer above it, splits the message into smaller units and passes the smaller units down to the network layer. The transport layer at the destination station reassembles the message.
+* _**Message acknowledgment:**_ provides reliable end-to-end message delivery with acknowledgments.
+* _**Message traffic control:**_ tells the transmitting station to "back-off" when no message buffers are available.
+* _**Session multiplexing:**_ multiplexes several message streams, or sessions onto one logical link and keeps track of which messages belong to which sessions.
+
+#### **5. Layer 5 - Session Layer**
+The session layer allows session establishment between processes running on different stations. It provides the following functionalities:
+
+* _**Session establishment, maintenance and termination:**_ allows two application processes on different machines to establish, use and terminate a connection, called a session.
+* _**Session support:**_ performs the functions that allow these processes to communicate over the network, performing security, name recognition, logging, and so on.
+
+#### **6. Layer 6 - Presentation Layer**
+The presentation layer formats the data to be presented to the application layer. It can be viewed as the translator for the network.The presentation layer provides:
+
+* _**Character code translation:**_ for example, ASCII to EBCDIC.
+* _**Data conversion:**_ bit order, CR-CR/LF, integer-floating point, and so on.
+* _**Data compression:**_ reduces the number of bits that need to be transmitted on the network.
+* _**Data encryption:**_ encrypt data for security purposes. For example, password encryption.
+
+#### **Layer 7 - Application Layer**
+The application layer serves as the window for users and application processes to access network services.This layer contains a variety of commonly needed functions, some of which are:
+
+* Resource sharing and device redirection
+* Remote file access
+* Remote printer access
+* Inter-process communication
+
+
+
+
+
+
+
+
+
+
 
 
 
