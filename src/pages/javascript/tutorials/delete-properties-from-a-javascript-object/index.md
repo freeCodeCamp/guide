@@ -20,6 +20,16 @@ The **delete operator** removes a property from an object.
 
 **property** The property to delete.
 
+## Example
+
+```js
+var person = {name:'Jay', age:'52'};
+delete person['age'];
+
+console.log(person); //{name:'Jay'}
+
+```
+
 ## Return value
 
 Throws in [strict</a> mode if the property is an own non-configurable property (returns false in non-strict). Returns true in all other cases.
