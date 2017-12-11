@@ -20,7 +20,9 @@ We go for a layered approach because it is easy to design independent layers wit
 
 
 <p align = "center"> 
+  <br></br>
   <img src="https://user-images.githubusercontent.com/16820612/33828192-2773b920-de91-11e7-8804-08dbfaf0143a.jpg"/>
+  <br></br>
 </p>
 
 
