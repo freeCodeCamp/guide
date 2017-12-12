@@ -2,7 +2,9 @@
 title: OSI Layers 
 ---
 ## The OSI Layers
-<br></br>
+
+
+
 ### Introduction
 
 
@@ -26,7 +28,7 @@ We go for a layered approach because it is easy to design independent layers wit
   <img src="https://user-images.githubusercontent.com/16820612/33828192-2773b920-de91-11e7-8804-08dbfaf0143a.jpg"/>
   <br></br>
 </p>
-
+<br></br>
 
 ### **Important Observations**
 
@@ -41,37 +43,43 @@ In the diagram above, to the extreme left is the unit of data that is used in ea
 ### **Functions of Layers**
 
 
-#### **1. Layer 1 - Physical Layer**
+#### **1. Physical Layer**
 
-The physical layer, the lowest layer of the OSI model, is concerned with the transmission and reception of the unstructured raw bit stream over a physical medium. It describes the electrical/optical, mechanical, and functional interfaces to the physical medium, and carries the signals for all of the higher layers.
-
-
-#### **2. Layer 2 - Data Link Layer**
-
-The data link layer provides error-free transfer of data frames from one node to another over the physical layer, allowing layers above it to assume virtually error-free transmission over the link. 
+The physical layer is the lowest of the OSI Layers and the most complex. This is because of the undelying hardware technologies used. The function of this layer is to define how the bit stream will be transmitted rather than the logical data packet. It deals with defining which frequency will the bit be transmitted on, what kind of modulation will be used, how the bits will be grouped and other low lying physical parameters needed for transmission of bits.
 
 
-#### **3. Layer 3 - Network Layer**
 
-The network layer controls the operation of the sub-network (subnet), deciding which physical path the data should take based on network conditions, priority of service, and other factors. 
+#### **2. Data Link Layer**
+
+The data link layer is responsible for transferring data to adjacent devices on the same Local Area Network (LAN). This layer also has provisions to make sure that error-free data is being passed on to the higher layers from the physical layer. Hence, it conteains error detection and correction mechanisms to ensure the integrity of data is maintained.
 
 
-#### **4. Layer 4 - Transport Layer**
+
+#### **3. Network Layer**
+
+The network layer is responsible for forwarding packets to other networks. Usually a network is divided into multiple subnets and the network layer with the help of routers forwards packets between such networks to establish a Wide Area Network (WAN). 
+
+
+
+#### **4. Transport Layer**
 
 The transport layer ensures that messages are delivered error-free, in sequence, and with no losses or duplications. It relieves the higher layer protocols from any concern with the transfer of data between them and their peers.
 
 
-#### **5. Layer 5 - Session Layer**
+
+#### **5. Session Layer**
 
 The session layer allows session establishment between processes running on different stations. 
 
 
-#### **6. Layer 6 - Presentation Layer**
+
+#### **6. Presentation Layer**
 
 The presentation layer formats the data to be presented to the application layer. 
 
 
-#### **Layer 7 - Application Layer**
+
+#### **7. Application Layer**
 
 The application layer serves as the window for users and application processes to access network services.
 
