@@ -71,7 +71,7 @@ class Results extends PureComponent {
     return results.map((result, i) => {
       const { _index, _source: { title, url }, formattedDescription } = result;
       return (
-        <div key={ i }>        
+        <div key={ i }>
           <MediaWrapper url={ url }>
             <Media>
               <Media.Left align='middle'>
