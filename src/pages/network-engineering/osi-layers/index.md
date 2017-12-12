@@ -2,8 +2,7 @@
 title: OSI Layers 
 ---
 ## The OSI Layers
-
-
+<br></br>
 ### Introduction
 
 
@@ -13,7 +12,7 @@ The OSI model is used to help standardise and characterise how data should flow 
 
 The organisation that came up with this model is the **International Standardisation Organisation** and hence this model is formally referred to as **ISO - OSI**.
 
-
+<br></br>
 ### Architecture 
 
 
@@ -38,7 +37,7 @@ In the diagram above, you would notice that the upper layers of the protocol (Ap
 * _**Unit of Data:**_
 In the diagram above, to the extreme left is the unit of data that is used in each of the layer. The transport layer (and the layers below it) have a unique name for the unit of data being transferred from sender to receiver. 
 
-
+<br></br>
 ### **Functions of Layers**
 
 
