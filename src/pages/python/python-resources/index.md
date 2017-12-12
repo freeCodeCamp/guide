@@ -28,7 +28,7 @@ title: Python Resources
 *   <a href='http://www.tangowithdjango.com/' target='_blank' rel='nofollow'>Tango with Django</a>
 *   <a href='http://tutorial.djangogirls.org/en/' target='_blank' rel='nofollow'>Django Girls' Tutorial</a> - Build a blog
 *   <a href='http://www.marinamele.com/taskbuster-django-tutorial' target='_blank' rel='nofollow'>TaskBuster Django Tutorial</a> - Build a Django project from scratch
-
+*    <a href='https://www.guru99.com/python-tutorials.html' target='_blank' rel='nofollow'>Learn Python in 7 Days</a>
 ## Challenges
 
 *   <a href='https://github.com/gregmalcolm/python_koans' target='_blank' rel='nofollow'>Python Koans</a>
@@ -53,3 +53,5 @@ title: Python Resources
 Tools:
 
 *   <a href='https://www.jetbrains.com/pycharm-edu/' target='_blank' rel='nofollow'>PyCharm Edu</a> - a free educational version of PyCharm that comes with tutorials to teach you Python and the ability to download more.
+
+*  <a href='https://www.pythonanywhere.com/' target='_blank' rel='nofollow'>PythonAnywhere</a> - a python shell accessable via your internet browser
