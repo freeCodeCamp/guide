@@ -28,9 +28,9 @@ Main categories are
 These test do not look inside the system under test, but treat it as 'closed' in the same way that the end user will experience it. 
 
 ### Other Resources
-[Test Driven Development (freeCodeCamp Guide)](https://guide.freecodecamp.org/agile/test-driven-development)
+<a href='https://guide.freecodecamp.org/agile/test-driven-development' target='_blank' rel='nofollow'>Test Driven Development (freeCodeCamp Guide)</a>
 
-[Unit tests (freeCodeCamp Guide)](https://guide.freecodecamp.org/software-engineering/unit-tests/)
+<a href='https://guide.freecodecamp.org/software-engineering/unit-tests/' target='_blank' rel='nofollow'>Unit tests (freeCodeCamp Guide)</a>
 
 
 
