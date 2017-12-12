@@ -2,9 +2,7 @@
 title: OSI Layers 
 ---
 ## The OSI Layers
-
-
-
+<br></br>
 ### Introduction
 
 
