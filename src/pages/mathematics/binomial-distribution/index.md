@@ -14,7 +14,7 @@ E(X) = np
 Var(X) = np(1-p)
 
 Binomial distributions only occur if:
--There's a fixed number of trials, n.
--Each trial should be either a success or failure.
--Probability of success (p) is constant at each trial.
--Independent trials.
+- There's a fixed number of trials, n.
+- Each trial should be either a success or failure.
+- Probability of success (p) is constant at each trial.
+- Independent trials.
