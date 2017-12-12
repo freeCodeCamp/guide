@@ -18,6 +18,3 @@ Binomial distributions only occur if:
 -Each trial should be either a success or failure.
 -Probability of success (p) is constant at each trial.
 -Independent trials.
-
-
-
