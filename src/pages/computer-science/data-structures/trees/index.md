@@ -1,79 +1,97 @@
 ---
 title: Trees
 ---
-## Trees
+# Trees
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/computer-science/data-structures/trees/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+A tree data structure can be defined recursively (locally) as a collection of nodes (starting at a root node), where each node is a data structure consisting of a value, together with a list of references to nodes (the "children"), with the constraints that no reference is duplicated, and none points to the root. A tree with no nodes is called a null or empty tree.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+A binary tree is a non linear data structure consisting nodes, where each node has the following 3 components:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+**Data element**: Stores any kind of data in the node
+**Left pointer**: Points to the sub-tree on the left side of node
+**Right pointer**: Points to the sub-tree on the right side of the node
+As the name suggests, the data element stores any kind of data in the node.
+The left and right pointers point to binary trees on the left and right side of the node respectively.
 
-A tree is a data structure made up of nodes or vertices and edges without having any cycle. A tree with no nodes is called a null or empty tree. A tree that is not empty usually consists of a root node and many levels of additional nodes that form a hierarchy.
+If a tree is empty, it is represented by a null pointer.
 
-# Terminology used in trees:
+## Terminology used in trees:
 
-Root :
+**Root** :
 The top node in a tree.
 
-Child:
+**Child**:
 A node directly connected to another node when moving away from the Root.
 
-Parent:
+**Parent**:
 The converse notion of a child.
 
-Siblings:
+**Siblings**:
 A group of nodes with the same parent.
 
-Descendant:
+**Descendant**:
 A node reachable by repeated proceeding from parent to child.
 
-Ancestor:
+**Ancestor**:
 A node reachable by repeated proceeding from child to parent.
 
-Leaf(less commonly called External node):
+**Branch**(internal node):
+A node of a tree that has child nodes.
+
+**Leaf**(less commonly called External node):
 A node with no children.
 
-Degree:
+**Degree**:
 The number of subtrees of a node.
 
-Edge:
+**Edge**:
 The connection between one node and another.
 
-Path:
+**Path**:
 A sequence of nodes and edges connecting a node with a descendant.
 
-Level:
+**Level**:
 The level of a node is defined by 1 + (the number of connections between the node and the root). 
 
-Height of tree:
+**Height of tree**:
 The height of a tree is the height of its root node.
 
-Depth:
+**Depth**:
 The depth of a node is the number of edges from the tree's root node to the node.
 
-Forest:
+**Forest**:
 A forest is a set of n ≥ 0 disjoint trees. 
 
+### Some Popular Types of Trees:
 
- An internal node (also known as an inner node, inode for short, or branch node) is any node of a tree that has child nodes. 
-Similarly, an external node(also known as an outer node, leaf node, or terminal node) is any node that does not have child nodes.
+* Binary Tree
+* Binary Search Tree
+* AVL Tree
+* Red Black Tree
+* Splay Tree
+* Huffmann Tree
 
-# Some Popular Types of Trees:
-Binary Tree,
- Binary Search Tree,
- AVL Tree,
- Red Black Tree,
- Splay Tree,
- Huffmann Tree
+### Common uses
 
-# Common uses
-Representing hierarchical data, 
- Storing data in a way that makes it easily searchable,
- Representing sorted lists of data,
- Routing algorithms 
+* Representing hierarchical data
+* Storing data in a way that makes it easily searchable
+* Representing sorted lists of data
+* Routing algorithms
 
+
+
+###Code of a tree node
+
+``` c_cpp
+struct node
+    {
+         int data;                 //Data element
+         struct node * left;          //Pointer to left node
+         struct node * right;         //Pointer to right node
+    };
+
+```
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+* <a href='https://en.wikipedia.org/wiki/Tree_(data_structure)' target='_blank' rel='nofollow'>Trees (data structure)</a>

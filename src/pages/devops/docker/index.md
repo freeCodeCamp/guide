@@ -1,15 +1,24 @@
 ---
 title: Docker
 ---
+
 ## Docker
+Docker uses containers (a runtime instance of an image) to create environments that can easily build, ship, and run applications. The main benefit is that Docker containers run completely isolated from the host environment by default, only accessing host files and ports if configured to do so. This is a great alternative to virutal machines(VMs) that are often resource intensive. VMs disk image and application state are an entanglement of OS settings, system-installed dependencies, OS security patches, and other easy-to-lose, hard-to-replicate ephemera.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/devops/docker/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+### What is Docker:
+Docker is the most used and well defined containerization platform. It helps both developer and operation teams to streamline their daily workflows.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### What is containerization then:
+Simply put, it is nothing more than packaging of a process/application and it's dependencies into a distributable image which can run in isolation. 
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### Why do we need Docker:
+It makes the life of software engineers very smooth as they will always work on the same development environment. 
+It helps in sharing the final product to customers/other teams without worrying about environment issues.
+It reduces the amount of hardware we need to run our applications by not wasting them for unnecessary OS layer.
+
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+- [Beginner friendly doc](https://medium.freecodecamp.org/a-beginner-friendly-introduction-to-containers-vms-and-docker-79a9e3e119b)
+- [Docker Official docs](https://docs.docker.com/get-started/)
+- [Try Docker Online](http://training.play-with-docker.com/)

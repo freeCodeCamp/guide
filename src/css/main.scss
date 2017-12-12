@@ -79,6 +79,10 @@
   border-radius: 0;
 }
 
+.main {
+    outline: 0;
+}
+
 .content {
   margin-bottom: 50px;
 
@@ -258,4 +262,16 @@
   border: none;
   border-radius: 0px;
   cursor: pointer;
+}
+
+.skip-link {
+    background-color: white;
+    left: 0;
+    padding: 5px 10px;
+    top: 0;
+    z-index: 9;
+}
+
+.skip-link:focus {
+    position: absolute;
 }
