@@ -19,6 +19,6 @@ The width property sets the width of an element. It can be a keyword value, a le
 
 #### More Information:
 
-Docs: [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/width)
+Docs: <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/width' target='_blank' rel='nofollow'>MDN</a>
 
 Browser Support: It's categorised under the 'well supported sub-set', so need not worry for browser support

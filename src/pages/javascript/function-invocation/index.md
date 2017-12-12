@@ -2,14 +2,36 @@
 title: Function Invocation
 ---
 ## Function Invocation
+The code inside a function is executed when the function is invoked. It is common to use the term "call a function" instead of "invoke a function".
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/function-invocation/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Functions must be in scope when they are called. The scope of a function is the function in which it is declared, or the entire program if it is declared at the top level.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+```javascript
+function myFunction(a, b) {
+  return a * b;
+}
+myFunction(10, 2);           // Function invocation, will return 20 
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+In the example code, a and b are the function's parameters that hold the values 10 and 2, that are the arguments used in the function call.
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+### Invoking a Function as a Method
+In JavaScript, you can define functions as object methods.
+
+The following example creates an object (`myObject`), with two properties (`firstName` and `lastName`), and a method (`fullName`):
+
+```javascript
+var myObject = {
+  firstName:"John",
+  lastName: "Doe",
+  fullName: function () {
+    return this.firstName + " " + this.lastName;
+  }
+}
+myObject.fullName();         // Function invoked as a method, will return "John Doe"
+```
+
+### More Information:
+- Function documentation: <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions' target='_blank' rel='nofollow'>MDN</a>
 
 

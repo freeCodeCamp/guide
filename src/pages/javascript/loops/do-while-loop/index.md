@@ -11,7 +11,7 @@ Here is the **syntax** for `do...while` loop:
 
        *Statement(s);*
 
-    }while (*condition*);
+    } while (*condition*);
 
 **statement(s):** A statement that is executed **at least once** before the condition or Boolean expression is evaluated and is re-executed each time the condition evaluates to true.
 

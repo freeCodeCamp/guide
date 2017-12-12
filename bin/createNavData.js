@@ -1,16 +1,18 @@
 const fse = require('fs-extra');
 const { Observable } = require('rx');
 
-const { commonREs, readDir, pagesDir } = require('../utils');
+const { commonREs, info, readDir, pagesDir } = require('../utils');
 
-const { isAStubRE, metaRE } = commonREs;
+const { isAStubRE, metaTitleRE } = commonREs;
 
 const navData = {};
 
-function getPageTitle(content) {
-  // meta = '---\ntitle: Frontmatter Title\n---'
-  const meta = content.match(metaRE)[0];
-  return meta.split('\n')[1].replace('title: ', '');
+function getPageTitle(content, path) {
+  try {
+    return content.match(metaTitleRE)[1].trim();
+  } catch (err) {
+    throw `Error reading the frontmatter from "${path}/index.md"`;
+  }
 }
 
 function listAllDirs(level, prevPages = []) {
@@ -20,7 +22,7 @@ function listAllDirs(level, prevPages = []) {
     const content = fse.readFileSync(`${dirPath}/index.md`, 'utf8');
     const subDirs = readDir(dirPath);
     const parent = level.split('/')[level.split('/').length - 1];
-    const title = getPageTitle(content);
+    const title = getPageTitle(content, dirPath);
     const isStubbed = isAStubRE.test(content);
     // remove 'src/pages' from the path
     const articlePath = dirPath.slice(9);
@@ -44,6 +46,7 @@ function listAllDirs(level, prevPages = []) {
 }
 
 function createNavData() {
+  info('Creating navData...', 'yellow');
   const startTime = Date.now();
   listAllDirs(pagesDir, [])
     .toArray()
@@ -59,16 +62,15 @@ function createNavData() {
             JSON.stringify(navData, null, 2)
           )
           .then(() => {
-            const endTime = Date.now();
+            const msTaken = Date.now() - startTime;
             const pages = Object.keys(navData).length;
-            console.log(`
-navData created
-
-It took ${endTime - startTime}ms to create the nav data for ${pages} pages
-`);
+            info('navData created', 'greenBright');
+            info(
+              `It took ${msTaken}ms to create the navData for ${pages} pages`,
+              'yellow'
+            );
           })
           .catch(err => {
-            console.error(err);
             throw new Error(err);
           });
       }

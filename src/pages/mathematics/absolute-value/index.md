@@ -21,7 +21,7 @@ Here you can see that in the graph of y = |x|, if -2 is input in to the function
 
 * **Simplify -|-1|**
 
-  -|-1| = -|1| = -1
+  -|-1| = -(1) = -1
 
 * **Simplify |-5(-3) + 1|**
 
@@ -32,6 +32,6 @@ Here you can see that in the graph of y = |x|, if -2 is input in to the function
   |8| = 8
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+<a href='http://www.purplemath.com/modules/absolute.htm "Absolute Value"' target='_blank' rel='nofollow'>Absolute Value</a>
 
 

@@ -34,4 +34,4 @@ The JavaScript array method `.shift()` will remove the first element from an arr
   each element has been moved down 1 index value. */
 ```
 
-Source : [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift)
+Source : <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift' target='_blank' rel='nofollow'>MDN</a>

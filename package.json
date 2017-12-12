@@ -21,7 +21,7 @@
     "gatsby-plugin-sitemap": "^1.2.0",
     "gatsby-remark-prismjs": "^1.2.0",
     "gatsby-remark-smartypants": "^1.4.1",
-    "gatsby-source-filesystem": "^1.4.1",
+    "gatsby-source-filesystem": "1.4.10",
     "gatsby-transformer-remark": "^1.6.3",
     "prop-types": "^15.5.10",
     "react": "^15.6.1",
@@ -33,7 +33,8 @@
     "redux-actions": "^2.2.1",
     "redux-create-types": "0.0.1",
     "redux-epic": "^0.3.0",
-    "rx": "^4.1.0"
+    "rx": "^4.1.0",
+    "unist-util-visit": "^1.1.3"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
@@ -58,7 +59,6 @@
   },
   "pre-commit": [
     "pre-commit-message",
-    "lint",
-    "normalise"
+    "lint"
   ]
 }

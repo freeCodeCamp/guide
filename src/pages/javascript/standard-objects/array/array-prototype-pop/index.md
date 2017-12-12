@@ -1,15 +1,34 @@
 ---
 title: Array.prototype.pop
 ---
-## Array.prototype.pop
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/standard-objects/array/array-prototype-pop/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+# Array.prototype.pop
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The `pop()` method removes the last element from and changes the length of an array.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+**Syntax**
+```js
+    arr.pop()
+```
 
+**Return value**
+- The removed element from the array; undefined if the array is empty.
+
+## Description
+
+The `pop()` method removes the last element from an array and returns that value to the caller. 
+
+If you call `pop()` on an empty array, it returns undefined.
+
+## Examples
+
+```js
+let array = [1, 2, 3, 4];
+array.pop(); // removes 4
+console.log(array); // [1, 2, 3]
+
+[].pop() // undefined
+```
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop' target='_blank' rel='nofollow'>MDN</a>

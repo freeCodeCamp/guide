@@ -38,7 +38,7 @@ var Queue = function() {
             queue[back++] = elem;
         },
         remove: function() {
-            if(!this.isEmpty()) {
+            if (!this.isEmpty()) {
                 return queue[front++]; // or queue.shift()
             }
             else {
@@ -46,7 +46,7 @@ var Queue = function() {
             }
         },
         peek: function() {
-            if(!this.isEmpty()) {
+            if (!this.isEmpty()) {
                 return queue[front];
             }
         }

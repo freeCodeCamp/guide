@@ -14,6 +14,6 @@ The text-align property specifies the horizontal alignment of text in an element
 
 #### More Information:
 
-Docs: [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/text-align)
+Docs: <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/text-align' target='_blank' rel='nofollow'>MDN</a>
 
 Browser Support: It's categorised under the 'well supported sub-set', so need not worry for browser support

@@ -3,13 +3,29 @@ title: Undefined Type
 ---
 ## Undefined Type
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/typescript/undefined-type/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+In TypeScript, same with null type, undefined type has the values undefined. Undefined is valid values of every type. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+```ts
+let u: undefined = undefined;
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+When using `--strictNullChecks` flag, undefined is only assignable to void and their type.
+```ts
+let s = "foo";
+s = null; // error, 'null' is not assignable to 'string'
+let sn: string | null = "bar";
+sn = null; // ok
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
+sn = undefined; // error, 'undefined' is not assignable to 'string | null'
+```
+With `--strictNullChecks`, an optional parameter automatically adds `| undefined`:
+```ts
+function f(x: number, y?: number) {
+    return x + (y || 0);
+}
+f(1, 2);
+f(1);
+f(1, undefined);
+f(1, null); // error, 'null' is not assignable to 'number | undefined'
+```
 
