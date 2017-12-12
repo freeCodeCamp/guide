@@ -91,6 +91,17 @@ Some of the principles that influenced the design of Python are included as an e
     If the implementation is easy to explain, it may be a good idea.
     Namespaces are one honking great idea -- let's do more of those!
 
+
+## Pros and Cons of Python
+### Pros
+1. Interactive language with a module support for almost all functionality.
+2. Open Source: So, you can contribute to the community, the functions you have developed for future use and to help others
+3. A lot of good interpreters and notebooks available for better experience like jupyter notebook.
+
+#### Cons
+1. Being open source, many different ways have developed over the year for same function. This sometimes, creates chaos for others to read someone else code.
+2. It is a slow language. So, a very bad language to use for developing general algorithms.
+
 ## Documentation
 
 <a href='https://docs.python.org/3/' target='_blank' rel='nofollow'>Python is well documented</a>. These docs include tutorials, guides, references and meta information for language.
@@ -136,7 +147,9 @@ The `objects` parameter is prefixed with a `*` which indicates that the function
 Free Code Camp has some great resources. The web is a big place, there's plenty more to explore:
 * Python Practice Book: http://anandology.com/python-practice-book/index.html
 * Think Python: http://greenteapress.com/thinkpython/html/index.html
-* Pratical Business Python: http://pbpython.com/
+* Practical Business Python: http://pbpython.com/
 * Another course: https://realpython.com/?utm_source=fsp&utm_medium=promo&utm_campaign=bestresources
 * General: https://www.fullstackpython.com/
+* Learn the Basics: https://www.codecademy.com/learn/learn-python
 * Computer science using Python: https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-11?ref=hackernoon#!
+* Developer's Guide to Python: https://devguide.python.org/

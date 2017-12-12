@@ -27,4 +27,7 @@ Thinking, Fast and Slow: amzn.to/2tnnlTN
 
 Learn You a Haskell for Great Good!: amzn.to/2veOjdv
 
+The Complete Software Developer's Career Guide: https://simpleprogrammer.com/products/careerguide/ 
+
 To see the full list, visit: https://talkpython.fm/episodes/show/130/10-books-python-developers-should-be-reading
+

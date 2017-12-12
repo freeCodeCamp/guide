@@ -7,12 +7,22 @@ In this section, we'll have guides to a wide variety of tools used by designers.
 
 These are some of them:
 
-[Adobe Experience Design](www.adobe.com/products/experience-design.html)
+- [Adobe Experience Design](www.adobe.com/products/experience-design.html)
 
-<a href='https://www.figma.com' target='_blank' rel='nofollow'>Figma</a>
+- [Figma](https://www.figma.com)
 
-<a href='https://framer.com' target='_blank' rel='nofollow'>Framer</a>
+- [Framer](https://framer.com)
 
-<a href='http://adobe.com/Photoshop' target='_blank' rel='nofollow'>Adobe Photoshop</a>
+- [Adobe Photoshop](http://adobe.com/Photoshop)
 
-<a href='https://www.sketchapp.com' target='_blank' rel='nofollow'>Sketch</a>
+- [Sketch](https://www.sketchapp.com)
+
+## Firefox Plug-In Tools 
+
+In this section, you can see popular Firefox plug-ins used by designers.
+
+These are some of them:
+
+- [Color Picker](https://addons.mozilla.org/en-us/firefox/addon/colorzilla/?src=collection&collection_id=90e68e6a-f13f-5921-3412-5228262ca9db)
+
+- [React Developer Tools](https://addons.mozilla.org/en-US/firefox/addon/react-devtools/)

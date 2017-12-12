@@ -11,7 +11,7 @@ title: C++
 * It is actually an Object Oriented version of C and adds more stuff for programmers.
 
 
-### Here is your 1st program in C++ -
+### Here is your first program in C++ -
 
 ```cpp
 #include <iostream>
@@ -26,7 +26,7 @@ int main()
 ### The Output of this program will simply be :
 
 ```
-Hello World !
+Hello World
 ```
 
 Now , let's break down the code :
@@ -38,7 +38,7 @@ Now , let's break down the code :
 using namespace std;
 ```
 
-* The 1st line tells the computer to use the "iostream" header file for this specific program . There are many other header files which are requireed for a specific program to run properly. Some of them are : math , vector and string. Header files are generally represented by a ".h" extension
+* The 1st line tells the computer to use the "iostream" header file for this specific program . There are many other header files which are required for a specific program to run properly. Some of them are : math , vector and string. Header files are generally represented by a ".h" extension
 * `iostream` stands for input-output stream . The "iostream" file contains code for allowing the computer to take input and generate an output, using the C++ language.
 * The second line tells the computer to use the standard namespace which includes features of standard C++ .
 
@@ -50,7 +50,7 @@ int main()
 ```
 
 * C++ starts execution of a program from the -main function- `int main()` . During execution , the computer starts running the code from every line from `{`(opening bracket) till `}`(closing bracket)
-  **NOTE : Every function starts with an opening curly brace "{" and ends with a closing curly brace "}"**
+  **NOTE : Every function starts with an opening curly brace "{" and ends with a closing curly brace "}".**
 * Line 4 indicates the start of the main() function. 
 
 #### Lines 4,5 & 6
@@ -61,7 +61,7 @@ cout<<"Hello World"<<endl;
 }
 ```
 
-* The word `cout` in C++ is used for any output. 
+* The word `cout` in C++ is used for any console output. 
 * It always has to be followed by `<<` , the _insertion operator_ . 
 * Whatever is in the double quotes `""` is printed . Certain special characters have a different syntax for print statements   
 * Now to print any other kind of data , you have to  add `<<` .
@@ -71,7 +71,7 @@ cout<<"Hello World"<<endl;
 * `endl` is a reserved word for the computer when using the C++ language to **end this line and go to the next line during output** .   - _cout stands for "console output"_
 * And , you have to finish the command with a semicolon `;`.
 
-**NOTE : Every command except the main funcction command and the include command needs to be ended by the semicolon. Without a ";" , you may encounter an error**
+**NOTE : Every command except the main funcction command and the include command needs to be ended by the semicolon. Without a ";" , you may encounter an error!**
 
 * `return 0;` safely terminates the current function i.e. 'main()' in this case and since no function follows after 'main()' the program is terminated. 
 * Don't forget to tell the computer that this is the last line it needs to execute. To do this , you add the closing curly brace "}" . You may encounter an error before program execution if you do not finish your program with **}** .
@@ -82,8 +82,6 @@ cout<<"Hello World"<<endl;
 
 Programmers use a Hello World program (like this one) as a ritual on using a new programming language. It is a symbol of good luck.  
 _You have finished coding your first C++ program and have understood most of the code you have written/typed. CONGRATULATIONS!_
- 
- **Good Luck to all of you** 
  
  **Happy Coding ! :)**
  
@@ -97,4 +95,4 @@ Download Link : <a href='http://www.codeblocks.org/downloads/26' target='_blank'
 
 * Click the link with the GNU/GCC compiler for windows. This will not require an additional installation
 
-Link #2 for Mac : <a href='https://developer.apple.com/xcode/' target='_blank' rel='nofollow'>Download for Mac #2 here</a>
+Link #2 for Mac : [Download for Mac #2 here](https://developer.apple.com/xcode/)

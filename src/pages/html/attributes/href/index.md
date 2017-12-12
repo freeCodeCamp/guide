@@ -17,11 +17,14 @@ The HREF attribute gets the exact meaning of a link depending on the element tha
 Tags that use HREF:
 ```html
 <a>
+<area>
+<base>
 <cursor>
 <discard>
 <feImage>
 <hatch>
 <image>
+<link>
 <mesh>
 <meshgradient>
 <mpath>
