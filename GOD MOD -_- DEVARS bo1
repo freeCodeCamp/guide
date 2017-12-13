@@ -1,0 +1,20 @@
+-_GOD_MOD_-
+god (god mode)
+ufo (ufo mode)
+give all (gives players all guns)
+ai axis delete (kills all zombies)
+noclip (fly through walls)
+take all (take all guns)
+notarget (zombies dont attack)
+give ammo
+dropweapon (drop current weapon, give to friends)
+demigod (similar to god mode, just not invincible)
+ai_disableSpawn (disable zombie spawn)
+cg_fov 80 105 65 5 (pro mod toggles)
+cg_third person (third person)
+toggle r_fullbright 1 0 (cartoon mode)
+toggle timescale 1 10 .1 (toggle game speed)
+toggle g_speed 100 200 500(toggle running speed)
+toggle r_colorMap 1 2 3 0 (toggle visions)
+
+
