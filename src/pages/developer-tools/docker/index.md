@@ -3,13 +3,19 @@ title: Docker
 ---
 ## Docker
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/developer-tools/docker/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Docker is an open-source software aimed at facilitating application deployment. 
+It offers the possibility to build containers, including an operating system, libraries and all you need to run your application. Therefore, your application can then be deployed on any machine. 
+Its lightweight structure enables you to run several containers on the same machine.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Similar to Github, DockerHub offers a wide variety of images (Ubuntu and others), on which containers are built.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### See also
+- Docker Compose : to create and manage several containers at the same time.
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+### Links
+You can find plenty of informations in the following sites : 
+- <a href='https://www.docker.com/' target='_blank' rel='nofollow'>Docker website</a>
+- <a href='https://docs.docker.com/' target='_blank' rel='nofollow'>Docker docs</a>
+- <a href='https://hub.docker.com/' target='_blank' rel='nofollow'>DockerHub</a>
 
 
