@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
@@ -16,6 +16,7 @@ import {
 const propTypes = {
   isSearching: PropTypes.bool,
   lastPage: PropTypes.string,
+  resetSearch: PropTypes.func.isRequired,
   results: PropTypes.arrayOf(PropTypes.object),
   searchTerm: PropTypes.string
 };
@@ -35,34 +36,45 @@ function mapDispatchToProps(dispatch) {
   }, dispatch);
 }
 
-function shouldShowResults(conditions) {
-  const { lastPage, results, searchTerm } = conditions;
-  return results.length ?
-    <Results /> :
-    <NoResults page={ lastPage } searchTerm={ searchTerm } />;
-}
-
-function SearchPage(props) {
-  if (
-    typeof window !== 'undefined' &&
-    !('Promise' in window)
-  ) {
-    return <NoSupport />;
+class SearchPage extends PureComponent {
+  constructor() {
+    super();
   }
-  const { isSearching, lastPage, results, searchTerm } = props;
-  return (
-    <div>
-      <Helmet>
-        <title>Search | freeCodeCamp Guide</title>
-      </Helmet>
-      <h2 className='colourDarkGrey'>Search Results</h2>
-      {
-        (isSearching && !results.length) ?
-          <ResultsSkeleton /> :
-          shouldShowResults({ results, lastPage, searchTerm })
-      }
-    </div>
-  );
+
+  componentWillUnmount() {
+    const { resetSearch } = this.props;
+    resetSearch();
+  }
+
+  shouldShowResults() {
+    const { lastPage, results, searchTerm } = this.props;
+    return results.length ?
+      <Results /> :
+      <NoResults page={ lastPage } searchTerm={ searchTerm } />;
+  }
+
+  render() {
+    if (
+      typeof window !== 'undefined' &&
+      !('Promise' in window)
+    ) {
+      return <NoSupport />;
+    }
+    const { isSearching, results } = this.props;
+    return (
+      <div>
+        <Helmet>
+          <title>Search | freeCodeCamp Guide</title>
+        </Helmet>
+        <h2 className='colourDarkGrey'>Search Results</h2>
+        {
+          (isSearching && !results.length) ?
+            <ResultsSkeleton /> :
+            this.shouldShowResults()
+        }
+      </div>
+    );
+  }
 }
 
 SearchPage.displayName = 'SearchPage';

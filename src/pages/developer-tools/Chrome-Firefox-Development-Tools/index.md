@@ -1,22 +1,22 @@
 ---
-title: Chrome-Firefox Development Tools
+title: Chrome Firefox Development Tools
 ---
-## Chrome-Firefox Development Tools
+## Chrome Firefox Development Tools
 
-The Chrome and Firefox Development tools are a set of web authoring and debugging tools built into the Google Chrome and Mozilla Firefox browser. In fact other browsers like Internet Explorer, Edge and Safari also incorporate these tools in their browser. 
+Google Chrome and Mozilla Firefox browsers come with a powerful set of development tools that are commonly used in Web Development. The development tools contain a source code inspector, an application console, a network monitor, a debugger, as well as tools to monitor memory usage and performance of a given webpage.
 
 ### Accessing the development tools
 
-#### Keyboard shortcuts
-
 The developer tools can be accessed via the following keyboard shortcuts
+
+#### Keyboard shortcuts
 
 | Browser | Windows | Mac |
 | --- | --- | ---|
 | Chrome | F12 | Option+Command+i |
 | Firefox | F12 | Option+Command+i |
+The development tools are accessed by right clicking anywhere on a webpage, and choosing the 'Inspect' (Chrome) or 'Inspect Element' (Firefox) option.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 ### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
