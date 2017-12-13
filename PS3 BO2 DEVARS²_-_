@@ -1,0 +1,96 @@
+-_ALL GUNS_-
+humangun_zm
+humangun_upgraded_zm
+ray_gun_zm
+ray_gun_upgraded_zm
+thundergun_zm
+thundergun_upgraded_zm
+freeze_gun_zm
+freeze_gun_upgraded_zm
+crossbow_explosive_zm
+crossbow_explosive_upgraded_zm knife_ballistic_zm
+knife_ballistic_upgraded_zm
+knife_ballistic_bowie_zm
+knife_ballistic_bowie_upgraded_zm
+m1911_zm
+m1911_upgraded_zm
+python_zm
+python_upgraded_zm
+cz75_zm
+cz75_upgraded_zm
+m14_zm
+m14_upgraded_zm
+m16_zm
+m16_gl_upgraded_zm
+g11_lps_zm
+g11_lps_upgraded_zm
+famas_zm
+famas_upgraded_zm
+ak74u_zm
+ak74u_upgraded_zm
+mp5k_zm
+mp5k_upgraded_zm
+mp40_zm
+mp40_upgraded_zm
+mpl_zm
+mpl_upgraded_zm
+pm63_zm
+pm63_upgraded_zm
+spectre_zm
+spectre_upgraded_zm
+cz75dw_zm
+cz75dw_upgraded_zm
+ithaca_zm
+ithaca_upgraded_zm
+rottweil72_zm
+rottweil72_upgraded_zm
+spas_zm
+spas_upgraded_zm
+hs10_zm
+hs10_upgraded_zm
+aug_acog_zm
+aug_acog_mk_upgraded_zm
+galil_zm
+galil_upgraded_zm
+commando_zm
+commando_upgraded_zm
+fnfal_zm
+fnfal_upgraded_zm
+dragunov_zm
+dragunov_upgraded_zm
+l96a1_zm
+l96a1_upgraded_zm
+rpk_zm
+rpk_upgraded_zm
+hk21_zm
+hk21_upgraded_zm
+m72_law_zm
+m72_law_upgraded_zm
+china_lake_zm
+china_lake_upgraded_zm
+zombie_cymbal_monkey
+frag_grenade_zm
+claymore_zm
+minigun_zm
+
+
+
+
+
+
+
+BINDS
+bind DPAD_RIGHT
+bind DPAD_DOWN
+bind DPAD_LEFT
+bind DPAD_UP
+bind BUTTON_RSTICK
+bind BUTTON_LSTICK
+bind BUTTON_B
+bind BUTTON_Y
+bind BUTTON_X
+bind BUTTON_A
+bind BUTTON_LSHLDR
+bind BUTTON_RSHLDR
+bind BUTTON_RTRIG
+bind BUTTON_LTRIG
