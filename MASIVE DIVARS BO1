@@ -1,0 +1,30 @@
+
+COMMANDS/DVARS
+give ammo
+player_meleeRange 999
+player_meleeWidth 999
+player_clipSizeMultiplier 999
+player_sprintUnlimited 1
+player_sustainAmmo 1 (unlimited ammo)
+player_burstFireCooldown (full auto m16, g11)
+player_lastStandBleedoutTime 400
+Revive_Trigger_Radius 99999
+
+cg_tracerlength 999
+cg_tracerspeed 0020
+cg_tracerwidth 15
+cg_gun_x 7 (these are all for bullet trails put them all together)
+
+perk_weapReloadMultiplier 0.001 (super sleight of hand)
+perk_weapratemultiplier 0 (super double tap)
+perk_armorvest 0 (super juggernaut)
+
+g_gravity 999 (more strafe in the air)
+jump_height 999 (allows you to jump around 8-10 feet)
+cg_drawfps 1 (simple fps counter in top right corner)
+r_fog 0 (no fog)
+timescale .1-10 (game timescale)
+g_speed 400 (player speed)
+ai_meleeRange 0 (dogs do no damage)
+phys_gravity 99 (zombie bodies float when they die)
+magic_chest_movable 0 (makes chest unmoveable)
