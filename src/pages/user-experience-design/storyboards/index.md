@@ -3,13 +3,4 @@ title: Storyboards
 ---
 ## Storyboards
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/user-experience-design/storyboards/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+Storyboard is a visual way of structring user experience flow. It is divided into boards presenting phases or steps taken by the user while using given software. Storyboards can be collectively created and presented during a team meeting or designed by dedicated designer. Storyboards are valuable for software developers that implement it into a final product.

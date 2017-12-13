@@ -9,11 +9,11 @@ title: Grunt
 
 There are many repetitive tasks in web development. For example: compiling, minifying, and copying files. Doing these tasks manually takes a lot of effort and time.
 
-You will make your job easier with Grunt. You only need to configure the tasks through a [Gruntfile](https://gruntjs.com/sample-gruntfile).
+You will make your job easier with Grunt. You only need to configure the tasks through a <a href='https://gruntjs.com/sample-gruntfile' target='_blank' rel='nofollow'>Gruntfile</a>.
 
 ### Getting Started
 
-1. Install [npm](https://www.npmjs.org/).
+1. Install <a href='https://www.npmjs.org/' target='_blank' rel='nofollow'>npm</a>.
 2. Install Grunt's command line interface (CLI) globally with `npm install -g grunt-cli`.
 3. List Grunt and the Grunt plugins as devDependencies in a `package.json` file.
 4. Install Grunt and the Grunt plugins with `npm i`.
@@ -115,4 +115,4 @@ module.exports = function(grunt) {
 
 #### More Information:
 
-Grunt documentation: [Getting Started](https://gruntjs.com/getting-started)
+Grunt documentation: <a href='https://gruntjs.com/getting-started' target='_blank' rel='nofollow'>Getting Started</a>
