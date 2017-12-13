@@ -14,7 +14,7 @@ for (initialize variable; condition; modify variable)
 ```
 
 * `initialization` - Initializes the loop and is executed just once, at the beginning.
-You can initialize more than one variable of the same type in the first part of the basic for loop declaration; each initialization must be separated by a comm
+You can initialize more than one variable of the same type in the first part of the basic for loop declaration; each initialization must be separated by a comma.
 * `expression` - Evaluated at the beginning of each iteration. If the `expression` evaluates to `true`, `Statements` will get executed.
 * `increment` - Invoked after each iteration through the loop. You can increase/decrease the value of variables here.
 
@@ -26,6 +26,15 @@ for (iter_For = 0; iter_For < 10; iter_For++)
     // Iterated 10 times, iter_For 0,1,2...9
 }
 System.out.println("iter_For Value: " + fooFor);
+```
+
+Note: It is also acceptable to declare a variable within the for loop as a single statement.
+```java
+for (int iter_For = 0; iter_For < 10; iter_For++)
+{
+    System.out.print (iter_For + " ");
+    // Iterated 10 times, iter_For 0,1,2...9
+}
 ```
 
 Output:

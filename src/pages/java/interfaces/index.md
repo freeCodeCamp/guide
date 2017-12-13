@@ -3,13 +3,17 @@ title: Interfaces
 ---
 # Interfaces
 
-Interface in Java is a bit like the Class, but with a significant difference : an `interface` can _only_ have method signatures and fields. That means, an Interface cannot contain the implementation of any method, just its signature, i.e. the name, parameters and exceptions of the method. For example :
+Interface in Java is a bit like the Class, but with a significant difference : an `interface` can _only_ have method signatures, fields and default methods. Since Java 8, you can also create [default methods](https://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html). In the next block you can see an example of interface :
 
 ```java
 public interface Vehicle {
     public String licensePlate = "";
+    public float maxVel
     public void start();
     public void stop();
+    default void blowHorn(){
+      System.out.println("Blowing horn");
+   }
 }
 ```
 
