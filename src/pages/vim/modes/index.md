@@ -39,12 +39,17 @@ but these are the simplest.  Once in insert mode, typing inserts characters befo
 insert mode and return to normal mode, press `<esc>` or `ctrl-[`
 
 ### Visual Mode
-Visual mode it used to select text, similar to how clicking and dragging with a
+Visual mode is used to select text, similar to how clicking and dragging with a
 mouse behaves.  Press 'v' to enter visual mode, this begins the selection where
 the cursor is, then move the cursor to the end of what you want to select and
 now you can execute a command over the selecting text.
 For example, after selecting text, press 'd' to delete the selected text or 'y'
 to copy it.
+
+The visual mode actually has multiple subtypes:  *visual*, *block-visual* and *linewise-visual*
+- *visual*: like described above. Enter by pressing `v`
+- *block-visual*: select any rectangular region. Enter by pressing `<ctrl>+v`
+- *linewise-visual*: always select full lines. Enter by pressing `<shift>+v`
 
 ### Command Mode
 Command mode has a wide variety of commands and can do things that normal mode
