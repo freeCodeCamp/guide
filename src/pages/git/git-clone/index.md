@@ -5,9 +5,9 @@ title: Git Clone
 
 The `git clone` command allows you to copy a remote repository onto your local machine.
 
-First, find the remote repository for the project you're working on or interested in - this can also be your fork of a project. Next, copy the url for it. For example, if you've forked the freeCodeCamp guides repository, the url looks like `https://github.com/YOUR-GITHUB-USERNAME/guides.git`.
+First, find the remote repository for the project you're working on or interested in - this can also be your fork of a project. Next, copy the url for it. For example, if you've forked the freeCodeCamp guides repository, the url should look like `https://github.com/YOUR-GITHUB-USERNAME/guides.git`.
 
-In the command line on your local machine, navigate to where you want to save the project in your working directory. Finally, run the `git clone` command:
+In the command line on your local machine, navigate to the directory you want to clone the repository in. Finally, run the `git clone` command:
 
 ```shell
 git clone URL-OF-REPOSITORY
