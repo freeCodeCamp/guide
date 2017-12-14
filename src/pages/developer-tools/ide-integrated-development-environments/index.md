@@ -14,6 +14,7 @@ Examples of IDEs are:
  - [Visual Studio](https://www.visualstudio.com/vs/)
  - [Xcode](https://developer.apple.com/xcode/)
  - [Android Studio](https://developer.android.com/studio/index.html)
+ - [PyCharm](https://www.jetbrains.com/pycharm/)
 
 #### More Information
 [AppSec Knowledge Base](https://www.veracode.com/security/integrated-development-environments)
