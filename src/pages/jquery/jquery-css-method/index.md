@@ -12,11 +12,12 @@ To return the value of a specified CSS property, use the following syntax:
     $(selector).css(propertyName);
 ```
 
-For eg: 
+E.g.,
 ```js
     $('#element').css('background');
 ```
-Note: Here we can use any css selector eg: element(HTML Tag selector), .element(Class Selector), #element(ID selector).
+Note: Here we can use any css selector, e.g., element(HTML tag selector), .element(class selector), #element(ID selector).
+
 ### Setting 
 
 To set a specified CSS property, use the following syntax:
@@ -24,8 +25,7 @@ To set a specified CSS property, use the following syntax:
     $(selector).css(propertyName,value);
 ```
 
-For eg:
-
+E.g.,
 ```js
     $('#element').css('background','red');
 ```
@@ -38,7 +38,6 @@ To set multiple CSS properties, you'll have to use the object literal syntax lik
         'color': 'white'
     });
 ```
-
 
 #### More Information:
 
