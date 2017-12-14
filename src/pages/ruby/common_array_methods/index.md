@@ -54,12 +54,30 @@ array.pop
 => [0, 1, 2, 3]
 ```
 
+#### .shift
+The .shift method will permantently remove the first element of an array and return this element:
+
+```
+array.shift
+=> 0  
+array
+=> [1, 2, 3, 4]
+```
+
 #### .push
 The .push method will allow you to add an element to the end of an array:
 
 ```
 array.push(99)
 => [0, 1, 2, 3, 4, 99]
+```
+
+#### .unshift
+The .unshift method will prepend an element to the beginning of an array:
+
+```
+array.unshift(-1)
+=> [-1, 0, 1, 2, 3, 4]
 ```
 
 #### .delete

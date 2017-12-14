@@ -33,7 +33,7 @@ Keep in mind the **order of operation** check the link in the _links_ section fo
 **Solution ahead!**
 
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
-
+```javascript
     function convertToF(celsius) {
       // Only change code below this line
       var fahrenheit = (celsius * (9/5)) + 32;
@@ -48,7 +48,7 @@ Keep in mind the **order of operation** check the link in the _links_ section fo
 
     // Change the inputs below to test your code
     convertToF(30);
-
+```
 ### Code Explanation:
 
 *   Declare the **fahrenheit** variable.
