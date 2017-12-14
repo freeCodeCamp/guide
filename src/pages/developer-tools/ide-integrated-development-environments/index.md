@@ -16,4 +16,6 @@ Examples of IDEs are:
  - [Android Studio](https://developer.android.com/studio/index.html)
 
 #### More Information
-<a href='https://www.veracode.com/security/integrated-development-environments' target='_blank' rel='nofollow'>AppSec Knowledge Base</a>
+[AppSec Knowledge Base](https://www.veracode.com/security/integrated-development-environments)
+[Eclipse.org](https://www.eclipse.org/home/) - an open source community of tools, project and collaborative working groups
+[Top IDEs: 51 Powerful Dev Environments for Streamlined Development by Stackify](https://stackify.com/top-integrated-developer-environments-ides/)
