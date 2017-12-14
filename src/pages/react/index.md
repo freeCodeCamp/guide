@@ -40,7 +40,7 @@ This content will not appear in your webpage. Anything in the head section of th
 
 ## 2 Get Script Tags to Harness the Power of React and Babel Libraries
 Ok, item one is checked off of our list. Let’s look at item two. We are going to set up our developer environment by using script tags to bring in React and Babel. This is not a real life developer environment. That would be quite an elaborate setup. It would also leave us with a lot of boiler plate code and libraries that would take us off subject of learning React basics. The goal of this series is to go over the basic syntax of React and get right into coding.
-We are going to use <script> tags to bring in the React Library, the React DOM library (why), and the Babel library.
+We are going to use `<script>` tags to bring in the React Library, the React DOM library (why), and the Babel library.
 
 ```javascript
 <head>
