@@ -7,10 +7,15 @@ An Integrated Development Environment (IDE) is a software that consolidates the 
 
 IDEs offer a central graphic user interface (GUI) that incorporates the following: a code editor, a compiler or interpreter, a debugger, and build automation tools.
 
+Examples of IDEs are:
+ - [NetBeans](https://netbeans.org/)
+ - [Eclipse](https://www.eclipse.org/)
+ - [ItelliJ IDEA](https://www.jetbrains.com/idea/)
+ - [Visual Studio](https://www.visualstudio.com/vs/)
+ - [Xcode](https://developer.apple.com/xcode/)
+ - [Android Studio](https://developer.android.com/studio/index.html)
+
 #### More Information
 [AppSec Knowledge Base](https://www.veracode.com/security/integrated-development-environments)
-
-#### IDE Resources
-[eclipse](https://www.eclipse.org/home/) - an open source communit of tools, project and collaborative working groups
-
+[Eclipse.org](https://www.eclipse.org/home/) - an open source community of tools, project and collaborative working groups
 [Top IDEs: 51 Powerful Dev Environments for Streamlined Development by Stackify](https://stackify.com/top-integrated-developer-environments-ides/)

@@ -24,12 +24,12 @@ In the above div on medium screen size devices, this div will be shown 9 out of 
 ![Grid Example](https://www.javatpoint.com/bootstrappages/images/bootstrapgrid.jpg "Basic Grid Example")
 
 Below I am giving popular frameworks links:
-1. [Bootstrap](https://www.getbootstrap.com)
-2. [Foundation](https://foundation.zurb.com/)
-3. [Material Design Lite](https://getmdl.io/)
+1. <a href='https://www.getbootstrap.com' target='_blank' rel='nofollow'>Bootstrap</a>
+2. <a href='https://foundation.zurb.com/' target='_blank' rel='nofollow'>Foundation</a>
+3. <a href='https://getmdl.io/' target='_blank' rel='nofollow'>Material Design Lite</a>
 
 #### More Information:
-1. [CSS Flexbox Complete tutorial in 8 minutes](https://medium.freecodecamp.org/css-flexbox-interactive-tutorial-in-8-minutes-including-cheat-sheet-6214e00de3d2)
+1. <a href='https://medium.freecodecamp.org/css-flexbox-interactive-tutorial-in-8-minutes-including-cheat-sheet-6214e00de3d2' target='_blank' rel='nofollow'>CSS Flexbox Complete tutorial in 8 minutes</a>
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
 
