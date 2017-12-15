@@ -1,22 +1,15 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import { bindActionCreators } from 'redux';
 import Helmet from 'react-helmet';
 
 import NoResults from '../pageComponents/search/NoResults.jsx';
-import NoSupport from '../pageComponents/search/NoSupport.jsx';
 import Results from '../pageComponents/search/Results.jsx';
 import ResultsSkeleton from '../pageComponents/search/ResultsSkeleton.jsx';
-
-import {
-  resetSearch
-} from '../LayoutComponents/search/redux';
 
 const propTypes = {
   isSearching: PropTypes.bool,
   lastPage: PropTypes.string,
-  resetSearch: PropTypes.func.isRequired,
   results: PropTypes.arrayOf(PropTypes.object),
   searchTerm: PropTypes.string
 };
@@ -30,20 +23,14 @@ function mapStateToProps(state) {
   };
 }
 
-function mapDispatchToProps(dispatch) {
-  return bindActionCreators({
-    resetSearch
-  }, dispatch);
+function mapDispatchToProps() {
+  return {};
 }
 
 class SearchPage extends PureComponent {
-  constructor() {
-    super();
-  }
-
-  componentWillUnmount() {
-    const { resetSearch } = this.props;
-    resetSearch();
+  constructor(props) {
+    super(props);
+    this.shouldShowResults = this.shouldShowResults.bind(this);
   }
 
   shouldShowResults() {
@@ -54,12 +41,6 @@ class SearchPage extends PureComponent {
   }
 
   render() {
-    if (
-      typeof window !== 'undefined' &&
-      !('Promise' in window)
-    ) {
-      return <NoSupport />;
-    }
     const { isSearching, results } = this.props;
     return (
       <div>
