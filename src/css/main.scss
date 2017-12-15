@@ -69,7 +69,6 @@
 .content {
   overflow-y: scroll;
   height: 92vh;
-  margin-bottom: 50px;
 
   img {
     max-width: 100%;
@@ -267,7 +266,7 @@
 /* SideNav */
 
 .body {
-  overflow: hidden;
+  overflow-y: hidden;
 }
 
 .caretStyle {
@@ -330,7 +329,9 @@
 }
 
 .bodyContainer {
+  --h: 100vh;
   margin-top: 55px;
+  height: calc(var(--h) - 55px);
 }
 
 @media (max-width: 992px){
