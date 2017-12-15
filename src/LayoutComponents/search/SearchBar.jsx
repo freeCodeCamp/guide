@@ -2,18 +2,15 @@ import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import ControlLabel from 'react-bootstrap/lib/ControlLabel';
-import FormControl from 'react-bootstrap/lib/FormControl';
-
+import FCCSearchBar from 'react-freecodecamp-search';
 import {
-  fetchSearchResults,
+  updateIsSearching,
   updateLastPage,
   updateSearchResults,
   updateSearchTerm
 } from './redux';
 
 const propTypes = {
-  fetchSearchResults: PropTypes.func.isRequired,
   results: PropTypes.arrayOf(PropTypes.object),
   searchTerm: PropTypes.string,
   updateLastPage: PropTypes.func.isRequired,
@@ -30,7 +27,7 @@ function mapStateToProps(state) {
 
 function mapDispatchToProps(dispatch) {
   return bindActionCreators({
-    fetchSearchResults,
+    updateIsSearching,
     updateLastPage,
     updateSearchResults,
     updateSearchTerm
@@ -40,61 +37,34 @@ function mapDispatchToProps(dispatch) {
 class SearchBar extends PureComponent {
   constructor() {
     super();
-
-    this.handleChange = this.handleChange.bind(this);
-    this.handleSubmit = this.handleSubmit.bind(this);
+    this.handleResults = this.handleResults.bind(this);
   }
 
-  handleChange(e) {
-    e.preventDefault();
+  handleResults(results) {
     const {
+      searchTerm,
       updateLastPage,
-      updateSearchResults,
-      updateSearchTerm
+      updateSearchResults
     } = this.props;
     const { push } = this.context.router.history;
     const { pathname } = this.context.router.history.location;
-    const { value } = e.target;
 
-    if (pathname !== '/search' && value.length > 2) {
+    if (pathname !== '/search' && searchTerm.length >= 2) {
       updateLastPage(pathname);
       push('/search');
     }
-    if (value.length <= 2) {
-      updateSearchResults([]);
-    }
-    updateSearchTerm(value);
+    updateSearchResults(results);
   }
 
-  handleSubmit(e) {
-    e.preventDefault();
-    const { fetchSearchResults } = this.props;
-    fetchSearchResults();
-  }
 
   render() {
-    const {
-      searchTerm
-    } = this.props;
+    const { updateSearchTerm } = this.props;
     return (
-      <div className='searchBar'>
-        <form onSubmit={ this.handleSubmit }>
-          <ControlLabel
-            htmlFor='searchInput'
-            srOnly={ true }
-            >
-            Search
-          </ControlLabel>
-          <FormControl
-            className='input'
-            id='searchInput'
-            onChange={ this.handleChange }
-            placeholder='&#xf002; What would you like to know?'
-            type='text'
-            value={ searchTerm }
-          />
-        </form>
-      </div>
+      <FCCSearchBar
+        handleResults={this.handleResults}
+        handleSearchingStatus={updateIsSearching}
+        handleSearchTerm={updateSearchTerm}
+      />
     );
   }
 }
