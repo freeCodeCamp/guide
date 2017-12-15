@@ -3,13 +3,19 @@ title: SQL Insert Query
 ---
 ## SQL Insert Query
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/sql/sql-insert-query/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The INSERT INTO statement is used to insert new records in a table.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Syntax for  **INSERT INTO** :
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+`INSERT INTO table_name (column1, column2, column3, ...)
+VALUES (value1, value2, value3, ...);`
 
 
+If we are giving values for all the columns of the table, no need to specify the column names in the SQL query.
+Make sure the order of the values is in the same order as the columns in the table.
+
+`INSERT INTO table_name
+VALUES (value1, value2, value3, ...);`
+
+*Please note the queries provided above are for MSSQL.*
