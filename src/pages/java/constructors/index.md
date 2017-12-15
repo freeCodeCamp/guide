@@ -51,17 +51,17 @@ public class Car {
     private String name;
 
     //Constructor.
-    public Car(String model){
+    public Car(String model) {
         this.name = "Honda " + model;
     }
 
-    public String getName(){
+    public String getName() {
         return this.name;
     }
 
-    public static void main(String args[]){
+    public static void main(String args[]) {
         Car car = new Car("Civic");
-        System.out.println( car.getName() );
+        System.out.println(car.getName());
     }
 }
 ```
@@ -79,11 +79,11 @@ public class Bank {
 
     private static Bank instance;
     
-    private Bank(){
+    private Bank() {
     }
 
-    public static Bank getInstance(){
-        if(null == instance){
+    public static Bank getInstance() {
+        if (null == instance) {
             instance = new Bank();
         }
         return instance;
@@ -111,35 +111,34 @@ public class Car {
     private String carType;
 
     //Constructor.
-    public Car(){
+    public Car() {
         this.name = "No Name";
         this.carType = "No Type";
     }
-    public Car(String model){
+    public Car(String model) {
         this.name = "Honda " + model;
     }
     
-    public Car(String model, String carType){
+    public Car(String model, String carType) {
         this.name = model;
         this.carType = carType;
     }
     
-    public String getName(){
+    public String getName() {
         return this.name;
     }
     
-    public String getCarType(){
+    public String getCarType() {
         return this.name;
     }
 
-    public static void main(String args[]){
+    public static void main(String args[]) {
         Car car = new Car("Civic");
-        System.out.println( car.getName() );
+        System.out.println(car.getName());
         
         //Other Way To Initialize
         Car car = new Car("Civic","Sedan");
-        System.out.println( car.getName() + " "+ car.getCarType() );
-        
+        System.out.println(car.getName() + " "+ car.getCarType());
     }
 }
 
