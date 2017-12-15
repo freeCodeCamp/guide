@@ -24,9 +24,11 @@ Docker is available in two editions: Community Edition (CE) and Enterprise Editi
 
 Once installed try this
 
+```
 $ docker run hello-world
 
 Hello from Docker!
+```
 This message shows that your installation appears to be working correctly.
 
 
