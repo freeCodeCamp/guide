@@ -3,13 +3,12 @@ title: Storyboards
 ---
 ## Storyboards
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/user-experience-research/storyboards/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+As a best practice, it's the first sketch of the expected functionality of a project (e.g. a website, application, service, etc.). It has the purpose to aid in the planning of the requirements of the project and to outline the necessary steps (workflow) that completing a task requires. For instance, a sketch of an authentication web page lays out (before any code), what type of data is required from the user, what actions are necessary to perform in the back end, and what is the expected output of the action.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+Wikipedia. Storyboard https://en.wikipedia.org/wiki/Storyboard
+
+Storyboards for Mobile Application.
+http://mobile-interaction-design.blogspot.com/2013/01/storyboards-for-mobile-application.html
 
 

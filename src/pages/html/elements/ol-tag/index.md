@@ -25,5 +25,5 @@ In HTML, ordered and unordered lists are similar in both usage and styling. Use 
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-[MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body)
+<a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body' target='_blank' rel='nofollow'>MDN</a>
 
