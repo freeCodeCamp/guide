@@ -41,8 +41,10 @@ These days there are a variety of deep learning frameworks that allow you specif
 * <a href="http://pytorch.org//">Pytorch</a>
 * <a href="https://keras.io/">Keras</a>
 * <a href="https://caffe2.ai/">Caffe2</a>
+* <a href="https://github.com/gluon-api/gluon-api/">Gluon</a>
 
 ### More Information:
+* <a href="http://www.deeplearningbook.org">Deep Learning Textbook</a> 
 * <a href="https://en.wikipedia.org/wiki/Deep_learning">Deep Learning</a>
 * <a href="https://github.com/freeCodeCamp/guides/blob/master/src/pages/machine-learning/neural-networks/index.md">FreeCodeCamp Guide to Neural Networks</a>
 * <a href="http://image-net.org/">Imagenet</a>
