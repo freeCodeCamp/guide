@@ -59,4 +59,4 @@ For contributing to the FreeCodeCamp wiki, go to <a href='https://github.com/Fre
 
 For adding a project or files to GitHub, go to <a href='https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/' target='_blank' rel='nofollow'>this page</a>.
 
-**Bonus step:** Atom has a package named 'Markdown Preview Plus'. It does the same as the normal markdown previewer, but the preview file is styled more accurately to the GitHub style. Go ahead and install this package and see what you get.
+**Bonus step:** Atom has a package named <a href='https://atom.io/packages/markdown-preview-plus' target='_blank' rel='nofollow'>Markdown Preview Plus</a>. It does the same as the normal markdown previewer, but the preview file is styled more accurately to the GitHub style. Go ahead and install this package and see what you get.
