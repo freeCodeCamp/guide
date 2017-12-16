@@ -3,7 +3,7 @@ title: Scrum
 ---
 ## Scrum
 
-Scrum is one of the methodologies under the Agile umbrella. 
+Scrum is one of the methodologies under the Agile umbrella. It originates from 'scrummage' which is a term used in rugby to denote players huddling together to get possession of the ball.
 The practice revolves around 
 - A set of roles (delivery team, product owner, and scrum master)
 - Ceremonies (sprint planning, daily standup, sprint review, sprint retrospective, and backlog grooming)
