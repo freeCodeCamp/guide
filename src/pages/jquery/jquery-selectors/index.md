@@ -60,6 +60,12 @@ Another filtering selector, `:contains(text)`, selects elements that have a cert
 
 **Note:** In the jQuery selector, `World` is in single-quotes because it is already inside a pair of double-quotes. Always use single-quotes inside double-quotes to avoid unintentionally ending a string.
 
+**Multiple Selectors**
+In jQuery, you can use multiple selectors to apply the same changes to more than one element, using a single line of code. You do this by separating the different ids with a comma. For example, if you want to set the background color of three elements with ids cat,dog,and rat respectively to red, simply do:
+```
+$("#cat,#dog,#rat").css("background-color","red");
+```
+
 These are just a few of the selectors available for use in jQuery. See the More Information section for a link to the complete list on the jQuery website.
 
 #### More Information:

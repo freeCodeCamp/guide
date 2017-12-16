@@ -10,7 +10,7 @@ The `typeof` operator is useful in JavaScript as it allows programmers to easily
 For example:
 ```javascript
 var x = 12345;    // number
-x = "string"; // string[
+x = "string"; // string
 x = { key: "value" }; // object
 ```
 
