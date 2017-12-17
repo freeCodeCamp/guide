@@ -83,6 +83,20 @@ You may have observed a similar issue with things like if statements and any of 
 
 Ideally, you'll always pass into your functions as parameters, but you may not always be able to. Picking the best solution is your job as a programmer.
 
+# Recursion in C
+When function is called within the same function, it is known as recursion in C. The function which calls the same function, is known as recursive function.
+
+int factorial (int n)  
+{  
+    if ( n < 0)  
+        return -1; /*Wrong value*/  
+    if (n == 0)  
+        return 1; /*Terminating condition*/  
+    return (n * factorial (n -1));  
+}  
+
+
+
 # Before you go on...
 ## A review
 * Functions are good to use because they make your code cleaner and easier to debug.
