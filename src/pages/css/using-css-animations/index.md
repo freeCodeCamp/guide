@@ -12,4 +12,5 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+* <a href='https://www.w3schools.com/css/css3_animations.asp' target='_blank' rel='nofollow'>CSS3 Animations</a>
+* <a href='https://css-tricks.com/almanac/properties/a/animation/' target='_blank' rel='nofollow'>Animations CSS-Tricks</a>
