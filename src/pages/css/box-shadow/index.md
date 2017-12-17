@@ -7,10 +7,10 @@ It's  an option that give you the power to easily design wonderful shadow effect
 
 ### Syntax:
 ```css
-  div {
-    box-shadow: none | [inset? && [ <offset-x> <offset-y> <blur-radius>? <spread-radius>? <color>? ] ]#
-    }
-  ```
+div {
+  box-shadow: none | [inset? && [ <offset-x> <offset-y> <blur-radius>? <spread-radius>? <color>? ] ]#
+}
+```
 * #### inset 
 If not specified (default), the shadow is assumed to be a drop shadow (as if the box were raised above the content).
 The presence of the inset keyword changes the shadow to one inside the frame
@@ -32,10 +32,10 @@ This is fifth value used to set shadow color
 #### Basic use
 ```css
 div {
-    width: 200px;
-    height: 50px;
-    background-color: #333;
-    box-shadow: 10px 10px 5px #ccc;
+  width: 200px;
+  height: 50px;
+  background-color: #333;
+  box-shadow: 10px 10px 5px #ccc;
 }
 ```
 10px - offset-x
@@ -50,10 +50,10 @@ It will display
 #### Inside box shadow
 ```css
 div {
-    width: 200px;
-    height: 50px;
-    background-color: #333;
-    box-shadow: inset 10px 10px 5px #ccc;
+  width: 200px;
+  height: 50px;
+  background-color: #333;
+  box-shadow: inset 10px 10px 5px #ccc;
 }
 ```
 It uses very similar code, but with inset value, which displays shadow inside div element
