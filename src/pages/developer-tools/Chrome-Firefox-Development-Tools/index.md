@@ -21,9 +21,11 @@ The developer tools can be accessed via the following keyboard shortcuts
 | --- | --- | ---|
 | Chrome | F12 | Option+Command+i |
 | Firefox | F12 | Option+Command+i |
+
 The development tools are accessed by right clicking anywhere on a webpage, and choosing the 'Inspect' (Chrome) or 'Inspect Element' (Firefox) option. They can also be accessed by the key command [cntrl + shift + I] or on chrome Menu> More Tools> Developer Tools in Firefox Menu> Web Developer> Toggle Tools.
 
 
 ### More Information:
 [Chrome DevTools](https://developer.chrome.com/devtools)
+
 [Firefox Developer Tools](https://developer.mozilla.org/en-US/docs/Tools)
