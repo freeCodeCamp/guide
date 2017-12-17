@@ -1,9 +1,10 @@
 ---
 title: Backtracking Algorithms
 ---
+
 # Backtracking Algorithms
 
-   ### Backtracking is a general algorithm for finding all (or some) solutions to some computational problems, notably constraint satisfaction problems, that incrementally builds candidates to the solutions, and abandons each partial candidate *("backtracks")* as soon as it determines that the candidate cannot possibly be completed to a valid solution.
+Backtracking is a general algorithm for finding all (or some) solutions to some computational problems, notably constraint satisfaction problems, that incrementally builds candidates to the solutions, and abandons each partial candidate *("backtracks")* as soon as it determines that the candidate cannot possibly be completed to a valid solution.
 
 ### Example Problem (The Knight’s tour problem)
 
@@ -43,8 +44,7 @@ Else
 ```
 
 
+###More Information
+[Wikipedia](https://en.wikipedia.org/wiki/Backtracking)
 
-Read more <a href='https://en.wikipedia.org/wiki/Backtracking' target='_blank' rel='nofollow'>Here</a>.
-
-Read more <a href='http://www.geeksforgeeks.org/backtracking-set-1-the-knights-tour-problem/' target='_blank' rel='nofollow'>GeeksforGeeks</a>.
-
+[Geeks 4 Geeks](http://www.geeksforgeeks.org/backtracking-set-1-the-knights-tour-problem/)
