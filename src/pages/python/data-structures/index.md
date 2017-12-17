@@ -12,4 +12,4 @@ Majorly, the data structures can be divided into two categories :-
 
 ## Reference:
 
-<a href='https://docs.python.org/3.7/tutorial/datastructures.html'>Python Data Structures</a>
+[Python Data Structures](https://docs.python.org/3.7/tutorial/datastructures.html)
