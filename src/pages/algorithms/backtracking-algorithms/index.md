@@ -44,7 +44,8 @@ Else
 ```
 
 
-###More Information
+### More Information
+
 [Wikipedia](https://en.wikipedia.org/wiki/Backtracking)
 
 [Geeks 4 Geeks](http://www.geeksforgeeks.org/backtracking-set-1-the-knights-tour-problem/)
