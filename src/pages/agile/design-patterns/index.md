@@ -2,12 +2,22 @@
 title: Design Patterns
 ---
 ## Design Patterns
-Software design pattern is a general reusable solution to a commonly occurring problem within a given context in software design. It is not a finished design that can be transformed directly into source or machine code. Design patterns are formalized best practices that the programmer can use to solve common problems when designing an application or system.
+
+Design Patterns describe simple and elegant solutions to specific problems in object-oriented software design.
+
+A design pattern is a general reusable solution to a commonly occurring problem.
+Commonly, these patterns have been developed and evolved over time, while better solutions to known problems are being used in the software development industry.
+
+The book Design Patterns: Elements of Reusable Object-Oriented Software by the Gang of Four, was the first book to try to catalog the most well-known patterns from that time in an easy way for developers to put to use into their projects.
+
+Some patterns have been so crucial to the industry that became part of technologies, like Iterator in C++, Java, and other languages, or Observer, commonly used into Reactive Programming.
+
+
 
 #### More Information:
-You can read the following links, about:
-- <a href='http://www.oodesign.com/'> Object Oriented Design
-- <a href='https://code.tutsplus.com/articles/a-beginners-guide-to-design-patterns--net-12752'> A Beginner’s Guide to Design Patterns
-- <a href='http://blog.ploeh.dk/2017/10/04/from-design-patterns-to-category-theory/'>From design patterns to category theory
-  
 
+- [Design Patterns by Source Making](https://sourcemaking.com/design_patterns): list of well known patterns available online
+- [Game Programming Patterns](http://gameprogrammingpatterns.com/): book about Design Patterns commonly used in Game Development, available to be read online for free
+- [Object Oriented Design](http://www.oodesign.com/)
+- [A Beginner’s Guide to Design Patterns](https://code.tutsplus.com/articles/a-beginners-guide-to-design-patterns--net-12752)
+- [From design patterns to category theory](http://blog.ploeh.dk/2017/10/04/from-design-patterns-to-category-theory/)

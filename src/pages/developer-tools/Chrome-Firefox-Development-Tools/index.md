@@ -3,8 +3,7 @@ title: Chrome Firefox Development Tools
 ---
 ## Chrome Firefox Development Tools
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-Browser development tools allow you to debug and temporarily modify your page in your browser.  They can be accessed by the key command [cntrl + shift + I] or on chrome Menu> More Tools> Developer Tools in Firefox Menu> Web Developer> Toggle Tools.
+Browser development tools allow you to debug and temporarily modify your page in your browser.  
 
 **Features:**
 * **Page Inspector:**  View and edit page content and layout.
@@ -13,9 +12,18 @@ Browser development tools allow you to debug and temporarily modify your page in
 * **Network Monitor:**  See network requests made when pages are loaded
 * **Performance Tools:**  Analyze computer resources used by the site
 
+### Accessing the development tools
+The developer tools can be accessed via the following keyboard shortcuts
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-<a href='https://developer.chrome.com/devtools' target='_blank' rel='nofollow'>Chrome DevTools</a>
-<br/>
-<a href='https://developer.mozilla.org/en-US/docs/Tools' target='_blank' rel='nofollow'>Firefox Developer Tools</a>
+#### Keyboard shortcuts
+
+| Browser | Windows | Mac |
+| --- | --- | ---|
+| Chrome | F12 | Option+Command+i |
+| Firefox | F12 | Option+Command+i |
+The development tools are accessed by right clicking anywhere on a webpage, and choosing the 'Inspect' (Chrome) or 'Inspect Element' (Firefox) option. They can also be accessed by the key command [cntrl + shift + I] or on chrome Menu> More Tools> Developer Tools in Firefox Menu> Web Developer> Toggle Tools.
+
+
+### More Information:
+[Chrome DevTools](https://developer.chrome.com/devtools)
+[Firefox Developer Tools](https://developer.mozilla.org/en-US/docs/Tools)

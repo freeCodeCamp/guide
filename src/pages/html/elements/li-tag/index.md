@@ -7,7 +7,7 @@ The `<li>` tag defines a list item in a list. The `<li>` tag can be used with un
 
 ### Example
 
-```
+```html
 <body>
   <ul>
     <li>
@@ -69,7 +69,7 @@ The `type` attribute defines the numbering type that will be used in the list. T
 
 The following HTML
 
-```
+```html
 <body>
   <ol type="I">
     <li>list item</li>
@@ -95,7 +95,7 @@ The `value` attribute specifies the numeric order of the current `<li>`. This at
 
 The following HTML
 
-```
+```html
 <body>
   <ol>
     <li value="4">list item</li>
