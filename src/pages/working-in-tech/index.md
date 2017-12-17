@@ -7,27 +7,34 @@ A wide variety of technology-related fields such as web development, design, dat
 
 This section will focus on various aspects of working in tech. We will discuss the additional career challenges that under-represented minorities and people from non-traditional education backgrounds face.
 
+
+
+## Books to read
+
 ### Computer Security
 
 The field of computer security is growing at a rapid rate every year, in a report done recently it is estimated that by 2021 their will be 3.5 million jobs unfilled. The demand is due to the increase in cyber attacks and with how much data is being created everyday, data is so valuable nowadays and it needs to be kept secure and safe.
 
-### Books to Read
+_The following four are relevant in all walks of life:_
 
-Talk Python is a great podcast for novices and experts.
+About Face: The Essentials of Interaction Design: <https://amzn.to/2uwtugk>
 
-Recently Timo Koola provided 10 books every developer should read.
+Thinking in Systems: A Primer:  <https://amzn.to/2u6FbJF>
 
-The following four are relevant in all walks of life:
+Thinking, Fast and Slow: <https://amzn.to/2tnnlTN>
 
-About Face: The Essentials of Interaction Design: amzn.to/2uwtugk
+Learn You a Haskell for Great Good!: <https://amzn.to/2veOjdv>
 
-Thinking in Systems: A Primer: amzn.to/2u6FbJF
+To see the full list, visit: <https://talkpython.fm/episodes/show/130/10-books-python-developers-should-be-reading>
 
-Thinking, Fast and Slow: amzn.to/2tnnlTN
+## Podcasts to listen 
+## Articles to read 
+## Videos to Watch
 
-Learn You a Haskell for Great Good!: amzn.to/2veOjdv
+To see the full list, visit: https://talkpython.fm/episodes/show/130/10-books-python-developers-should-be-reading
 
 The Complete Software Developer's Career Guide: https://simpleprogrammer.com/products/careerguide/ 
 
 To see the full list, visit: https://talkpython.fm/episodes/show/130/10-books-python-developers-should-be-reading
+
 
