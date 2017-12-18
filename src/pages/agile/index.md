@@ -13,4 +13,6 @@ With Agile, the emphasis is on "agility" - being able to quickly respond to feed
 
 There are many different flavors of agile, including Scrum and Extreme Programming.
 
-For more information head to <a href='https://www.agilealliance.org/' target='_blank' rel='nofollow'>Agile Alliance's Homepage</a>.
+### More information
+
+[Agile Alliance's Homepage](https://www.agilealliance.org/)
