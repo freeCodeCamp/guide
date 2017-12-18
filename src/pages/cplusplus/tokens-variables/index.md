@@ -46,7 +46,7 @@ Data Type       Size allocated in memory        Example
   (doubles or larger floats )
 
 * bool              1 byte                      bool bb; bb=0;
- (boolean values: 0 or 1)
+ (boolean values: 0 or 1 also true or false)
 
 #### Identifiers.
 
@@ -59,15 +59,18 @@ Data Type       Size allocated in memory        Example
 - NO use of spaces or special characters is allowed , instead use an UNDERSCORE _ .  
 
 #### Declaring a variabe :
+
 The syntax is as follows 
 <*data type*> <*variable name*>;
 or
 <*data type*> <*variable name*> = <*value*>; if we also want to initialize the variable.
 
+
 For example :
  ```cpp
- int a ; //declaring a variable named 'a' of type integer.
- a=4;    //initializing a variable
+ int a ;    //declaring a variable named 'a' of type integer.
+ a=4;        //initializing a variable
+ int b = 5 ; //declaring and initializing a variable 'b' of type integer.
  ```
 
 **Examples  of declaring a variable:**
@@ -127,5 +130,6 @@ _Tokens part 1 is over. See you campers at [Part 2](https://guide.freecodecamp.o
  **Good Luck to all of you** 
 
  **Happy Coding ! :)**
+
 
  **Feel free to ask any queries on FreeCodeCamp's GitHub page or [FreeCodeCamp's Forum .](https://forum.freecodecamp.org/)**
