@@ -51,5 +51,5 @@ There's an awesome tool to help you grasp the idea of neural networks without an
 - <a href=' https://en.wikipedia.org/wiki/Artificial_neural_network#Components_of_an_artificial_neural_network ' target='_blank' rel='nofollow'>Wikipedia</a>
 - <a href='http://natureofcode.com/book/chapter-10-neural-networks/' target='_blank' rel='nofollow'>Daniel Shiffman's Nature of Code</a>
 - <a href='http://ufldl.stanford.edu/tutorial/supervised/MultiLayerNeuralNetworks/' target='_blank' rel='nofollow'>Stanford University</a>
-- <a href='https://youtu.be/aircAruvnKk' target='_blank' rel='nofollow'>3Blue1Brown</a>
-- <a href='https://youtu.be/h3l4qz76JhQ' target='_blank' rel='nofollow'>Siraj Raval</a>
+- <a href='https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi' target='_blank' rel='nofollow'>3Blue1Brown</a>
+- <a href='https://www.youtube.com/playlist?list=PL2-dafEMk2A5BoX3KyKu6ti5_Pytp91sk' target='_blank' rel='nofollow'>Siraj Raval</a>
