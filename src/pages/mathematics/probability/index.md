@@ -3,10 +3,10 @@ title: Probability
 ---
 ## Probability
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/probability/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The probability of an event is the chance that an event is going to occur.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
+  Probabilities generally range from 0 to 1, with 0 indicating that an event will never happen and 1 that an event will happen for certain. 
+  
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
