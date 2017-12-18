@@ -1,11 +1,11 @@
 ---
-title: Control Statements
+title: Jump Statements
 ---
-# Control Statements
+# Jump Statements
 
-Loop control statements change execution from its normal sequence. When execution leaves a scope, all automatic objects that were created in that scope are destroyed.
+Jump statements are a type of <a href='https://docs.oracle.com/javase/tutorial/java/nutsandbolts/flow.html' target='_blank' rel='nofollow'><i>control flow</i></a> statements. Basically, you can use them to change the order in which statements are executed from the normal course of execution. In essence, these statements cause the program control to 'jump' away from the next expected point of execution to another place in the program.
 
-Java supports the following control statements:
+The following jump statements are commonly used with loops:
 
 *   <a href='http://forum.freecodecamp.com/t/java-loops-break-control-statement' target='_blank' rel='nofollow'>break</a>
 *   <a href='http://forum.freecodecamp.com/t/java-loops-continue-control-statement' target='_blank' rel='nofollow'>continue</a>
