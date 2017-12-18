@@ -19,4 +19,8 @@ FreeCodeCamp's curriculum heavily emphasizes creating algorithms. This is becaus
 
 This video demonstrates some popular sorting algorithms that are commonly taught in programming and Computer Science courses.
 
+This is also a really good open source project that helps you visualize algorithms: 
+
+http://algo-visualizer.jasonpark.me/#path=backtracking/knight's_tour/basic
+
 [![YouTube Screenshot Image](http://i66.tinypic.com/17614m.png)](https://www.youtube.com/watch?v=kPRA0W1kECg)
