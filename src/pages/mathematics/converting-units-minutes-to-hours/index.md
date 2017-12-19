@@ -1,15 +1,15 @@
+---		
+title: Converting Units Minutes to Hours		
 ---
-title: Converting Units Minutes to Hours
----
+
 ## Converting Units Minutes to Hours
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/converting-units-minutes-to-hours/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+An hour consists of 60 minutes. Therefore, to convert the number of minutes into hours you divide by 60.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+For example:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Say you spent 540 minutes coding for Hacktoberfest, and you want to tell people how many hours have passed. 
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+540 minutes * (1 hour/60 minutes) = (540/60) hours = 9 hours
 
-
+You spent 9 hours coding for Hacktoberfest. Congratulations! :)

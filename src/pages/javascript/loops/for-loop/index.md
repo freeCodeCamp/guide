@@ -26,7 +26,7 @@ When indexing over an array many times it is easy to exceed the bounds of the ar
     // The bounds of the array will be exceeded.
     var arr = [1,2,3];
     for (var i = 0; i <= arr.length; i++) {
-       console.log(i);
+       console.log(arr[i]);
     }
 
     output:
