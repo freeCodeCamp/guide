@@ -37,7 +37,7 @@ Now , let's break down the code.
 using namespace std;
 ```
 
-* The first line tells the computer to use the "iostream" header file for this specific program. There are many other header files which are requireed for a specific program to run properly. Some of them are : math , vector and string. Header files usually contain code that provides a framework and useful functions. The are generally represented by a ".h" extension
+* The first line tells the computer to use the "iostream" header file for this specific program. There are many other header files which are required for a specific program to run properly. Some of them are : math , vector and string. Header files usually contain code that provides a framework and useful functions. The are generally represented by a ".h" extension
 * `iostream` stands for input-output stream . The "iostream" file contains code for allowing the computer to take input and generate an output, using the C++ language.
 * The second line tells the computer to use the standard namespace which includes features of standard C++. You could write this program without this line, but you'd have to use `std::cout` instead of `cout` on line 4. It makes the code more readable and our lives as programmers easier.
 
@@ -49,7 +49,7 @@ int main()
 ```
 
 * C++ starts execution of a program from the -main function- `int main()` . During execution , the computer starts running the code from every line from `{`(opening bracket) till `}`(closing bracket)
-  **NOTE : Every function starts with an opening curly brace "{" and ends with a closing curly brace "}"**
+  **NOTE : Every function starts with an opening curly brace "{" and ends with a closing curly brace "}".**
 * Line 4 indicates the start of the main() function. 
 
 #### Lines 4,5 & 6
@@ -84,14 +84,14 @@ _You have finished coding your first C++ program and have understood most of the
  
  **Good Luck to all of you and happy coding! :)**
  
- **Feel free to ask any queries on FreeCodeCamp's GitHub page or [FreeCodeCamp's Forum .](https://forum.freecodecamp.org/)**
+ **Feel free to ask any queries on FreeCodeCamp's GitHub page or <a href='https://forum.freecodecamp.org/' target='_blank' rel='nofollow'>FreeCodeCamp's Forum .</a>**
 
  <a href='https://repl.it/L4k3' target='_blank' rel='nofollow'>Try the code yourself ! :) </a>
 
 
 **You may require some software to write and execute C++ code. I recommend using CodeBlocks. There's a download link below :**
 
-Download Link : [Download Here](http://www.codeblocks.org/downloads/26)
+Download Link : <a href='http://www.codeblocks.org/downloads/26' target='_blank' rel='nofollow'>Download Here</a>
 
 * Click the link with the GNU/GCC compiler for windows. This will not require an additional installation
 

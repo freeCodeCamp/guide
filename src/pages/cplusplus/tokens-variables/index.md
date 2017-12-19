@@ -1,5 +1,5 @@
 ---
-title: Tokens - I
+title: Tokens Part 1
 ---
 
 ### What are tokens ?
@@ -46,7 +46,7 @@ Data Type       Size allocated in memory        Example
   (doubles or larger floats )
 
 * bool              1 byte                      bool bb; bb=0;
- (boolean values: 0 or 1)
+ (boolean values: 0 or 1 also true or false)
 
 #### Identifiers.
 
@@ -59,14 +59,18 @@ Data Type       Size allocated in memory        Example
 - NO use of spaces or special characters is allowed , instead use an UNDERSCORE _ .  
 
 #### Declaring a variabe :
-The syntax is as follows ~
 
-<Data-type> <Variable-name> ; 
+The syntax is as follows 
+<*data type*> <*variable name*>;
+or
+<*data type*> <*variable name*> = <*value*>; if we also want to initialize the variable.
+
 
 For example :
  ```cpp
- int a ; //declaring a variable named 'a' of type integer.
- a=4;    //initializing a variable
+ int a ;    //declaring a variable named 'a' of type integer.
+ a=4;        //initializing a variable
+ int b = 5 ; //declaring and initializing a variable 'b' of type integer.
  ```
 
 **Examples  of declaring a variable:**
@@ -78,8 +82,9 @@ For example :
 - Similarly you can imagine different boxes of different sizes and storing different things as different variabls.
 
 
-**NOTE : 1 The C++ compiler ignores whitespaces and they are generally used for beautification of the code so that it is eassy for any programmer to debug or understand the code.**
- **2 . If a variable is not initialized , it contains a garbage value. Let me give an example.**
+**NOTES :** 
+1. **The C++ compiler ignores whitespaces and they are generally used for beautification of the code so that it is eassy for any programmer to debug or understand the code.**
+2. **If a variable is not initialized , it contains a garbage value. Let me give an example:**
 
  So in terms of boxes, you can imagine this as - 
 
@@ -120,10 +125,11 @@ inline , operator, private int, double ,void , char, template ,using , virtual ,
 
 **They all are used for a special function in C++.**
 
-_Tokens part 1 is over. See you campers at Part 2 of Tokens :)_
+_Tokens part 1 is over. See you campers at [Part 2](https://guide.freecodecamp.org/cplusplus/tokens-part-II) of Tokens :)_
 
  **Good Luck to all of you** 
 
  **Happy Coding ! :)**
+
 
  **Feel free to ask any queries on FreeCodeCamp's GitHub page or [FreeCodeCamp's Forum .](https://forum.freecodecamp.org/)**
