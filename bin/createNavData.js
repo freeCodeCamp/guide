@@ -11,8 +11,7 @@ function getPageTitle(content, path) {
   try {
     return content.match(metaTitleRE)[1].trim();
   } catch (err) {
-    throw `Error reading the frontmatter from "${path}/index.md"
-          due to exception ${err}`;
+    throw `Error reading the frontmatter from "${path}/index.md"`;
   }
 }
 
