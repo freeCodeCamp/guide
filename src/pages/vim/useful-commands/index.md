@@ -87,6 +87,14 @@ For total beginners, Vim comes with a built in tutorial! You can access it by ru
 
 If you are not as confident in English, you can lanch `vimtutor` in your language of choice. For example `vimtutor fr` will launch the tutorial in french!
 
+## Find and Replace
+1. Press `Escape` to make sure your are in `normal mode`;
+2. Type in `:` (You will switch to `command mode`);
+3. Type `%s,word_to_be_replaced,new_word,g`;
+4. Press `ENTER`.
+
+Important: if you want to replace the first occurence of the word, remove the at the end.
+
 Play Vim(https://vim-adventures.com/) - A fun way to learn vim plating a step-by-step game.
 
 Read the rest of our Vim Guides to get a better understanding of this powerful editor.
