@@ -56,7 +56,7 @@ Data Type       Size allocated in memory        Example
 
 - Start naming with a letter from A-Z or a-z .
 - Numbers can follow thee first letter but we cannot start naming with numbers.
-- NO use of spaces or special characters is allowed , instead use an UNDERSCORE _ .  
+- NO use of spaces or special characters are allowed, instead, use an UNDERSCORE _ .  
 
 #### Declaring a variabe :
 
@@ -73,24 +73,39 @@ For example :
  int b = 5 ; //declaring and initializing a variable 'b' of type integer.
  ```
 
-**Examples  of declaring a variable:**
-   int a9; char A; double area_circle;      long l;
+**Examples of declaring a variable:**
+```cpp
+int a9;
+char A;
+double area_circle;
+long l;
+```
 
-**Wrong ways to declare variables**- int 9;  char -a; double area of circle ; long l!!;
-- There are use of numbers in the beginning of the name ; special characters are used ; spaces are not allowed; special characters are used.
+**Wrong ways to declare variables**- 
+```cpp
+int 9a;
+char -a;
+double area of circle;
+long l!!;
+```
+
+- Variable names cannot start with a number
+- Special characters are not allowed
+- Spaces are not allowed
+
  
-- Similarly you can imagine different boxes of different sizes and storing different things as different variabls.
-
+You can imagine different boxes of different sizes and storing different things as different variables.
 
 **NOTES :** 
 1. **The C++ compiler ignores whitespaces and they are generally used for beautification of the code so that it is eassy for any programmer to debug or understand the code.**
 2. **If a variable is not initialized , it contains a garbage value. Let me give an example:**
 
- So in terms of boxes, you can imagine this as - 
+### Garbage Values in a Variable
+If a variable is not initialized , it contains a garbage value. For example:
 
- ![Img](https://i.imgur.com/YdbgWHL.png)
+So in terms of boxes, you can imagine this as - 
 
-##### Garbage Values in a variable.
+![Img](https://i.imgur.com/YdbgWHL.png)
 
  ```cpp
  #include<iostream>
@@ -112,7 +127,7 @@ Garbage value in a : 0
 New value in a :  5
 ```
 
-As you can see,, there is already a value stored in 'a' before we give it a value(here , it is 0 ). This should remain in the mind of every programmer so that when the variables aree used they do not create a logical error and print garbage values.
+As you can see, there is already a value stored in 'a' before we give it a value(here , it is 0 ). This should remain in the mind of every programmer so that when the variables are used they do not create a logical error and print garbage values.
 
 <a href='https://repl.it/Mg7j' target='_blank' rel='nofollow'>Try the code yourself ! :) </a>
 
@@ -123,13 +138,12 @@ As you can see,, there is already a value stored in 'a' before we give it a valu
 Examples of Keywords : 
 inline , operator, private int, double ,void , char, template ,using , virtual , break , case , switch , friend, etc. 
 
-**They all are used for a special function in C++.**
+**Each of these keywords is used for a special function in C++.**
 
 _Tokens part 1 is over. See you campers at [Part 2](https://guide.freecodecamp.org/cplusplus/tokens-part-II) of Tokens :)_
 
  **Good Luck to all of you** 
 
  **Happy Coding ! :)**
-
 
  **Feel free to ask any queries on FreeCodeCamp's GitHub page or [FreeCodeCamp's Forum .](https://forum.freecodecamp.org/)**
