@@ -4,7 +4,7 @@ title: ForEach Loop
 
 ## ForEach Loop
 
-The ForEach loop executes a block of code for each item in a collection.
+The ForEach loop executes a block of code for each item in an array or collection that implements the System.Collections.IEnumerable or System.Collections.Generic.IEnumerable<T> interface.<sup>1</sup>
 
 ### Example
 ```csharp
@@ -22,3 +22,5 @@ foreach(string name in Names)
 > We have Jane
 > We have Jack
 ```
+### Sources
+1 https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/foreach-in
