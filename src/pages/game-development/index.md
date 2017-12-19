@@ -49,3 +49,5 @@ The Unity Game Engine ranges somewhere in the middle, while it is beginner frien
 <a href='https://www.yoyogames.com/gamemaker'>Game Maker Engine</a><br>
 <a href='https://unity3d.com/pt'>Unity3D Engine</a><br>
 <a href='https://www.unrealengine.com/en-US/what-is-unreal-engine-4'>Unreal Engine</a>
+
+<a href='https://gamifique.files.wordpress.com/2011/11/1-rules-of-play-game-design-fundamentals.pdf'>Rules of Play (A Book On Game Design Fundamentals) by Salen and Zimmerman</a>
