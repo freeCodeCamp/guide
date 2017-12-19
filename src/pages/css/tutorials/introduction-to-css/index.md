@@ -10,6 +10,7 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+<a href='https://www.khanacademy.org/computing/computer-programming/html-css/intro-to-css/p/css-basics' target='_blank' rel='nofollow'>A Lesson on CSS Basics by Khan Academy</a>.
+
 
 
