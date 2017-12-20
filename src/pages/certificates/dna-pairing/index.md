@@ -41,7 +41,7 @@ title: Dna Pairing
 **Solution ahead!**
 
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
-
+```javascript
     function pairElement(str) {
       // Return each strand as an array of two elements, the original and the pair.
       var paired = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>];
@@ -74,8 +74,8 @@ title: Dna Pairing
 
     // test here
     pairElement("GCG");
-
-![:rocket:</a> <a href='https://repl.it/CLmz/0' target='_blank' rel='nofollow'>Run Code</a>
+```
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLmz/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -88,7 +88,7 @@ title: Dna Pairing
 *   <a>Switch Statements</a>
 
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution:
-
+```javascript
     function pairElement(str) {
       //define a map object with all pair possibilities 
       var map = {T:'A', A:'T', G:'C', C:'G'};
@@ -103,8 +103,8 @@ title: Dna Pairing
 
     // test here
     pairElement("GCG");
-
-![:rocket:</a> <a href='https://repl.it/CLnA/0' target='_blank' rel='nofollow'>Run Code</a>
+```
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLnA/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ## Code Explanation:
 
