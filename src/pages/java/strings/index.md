@@ -36,9 +36,27 @@ You see, the creators of the JVM are pretty smart. They figured that Strings dif
 
 However, whenever you use the `new` keyword, it no longer performs this check. So, there could be a 1000s of String objects with the same content and yet, it'll go ahead and create a new String - using up additional memory. This is precisely why it's a good practice to use `String literals` instead of using the `new` keyword as much as possible.
 
+#### Comparing Strings 
+If you want to compare the value of two String variables, you can't use ==. This is due to the fact that this will compare the references of the variables and not the values that are linked to them. To compare the stored values of the Strings you use the methode equals.
+
+```java
+boolean equals(Object obj)
+```
+
+It returns true if two objects are equal and false otherwise. 
+```java
+String str = "Hello world";
+String str2 = "Hello world";
+
+System.out.println(str == str2); // This prints false
+System.out.println(str.equals(str2); // This prints true
+```
+The first comparison is false because "==" looks at the references and they aren't the same.
+The seconde comparison is true because the variables store the same values. In this case "Hello world".
+
 Extras
 1. String methods use zero-based indexes, except for the second argument of substring().
 2. The String class is final- it's methods can't be overridden.
-3. When the String literal is found by JVM, it is addes to string literal pool.
-4. String class posses a method name length(),while arrays have an attribute naming length.
-
+3. When the String literal is found by JVM, it is added to string literal pool.
+4. String class contains a method name length(),while arrays have an attribute naming length.
+5. Strings are immutable and can not be changed. 
