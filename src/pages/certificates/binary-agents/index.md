@@ -39,7 +39,7 @@ Make sure that each time you transcode a character from binary to decimal, you r
 **Solution ahead!**
 
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
-
+```javascript
     function binaryAgent(str) {
       biString = str.split(' ');
       uniString = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>];
@@ -57,8 +57,8 @@ Make sure that each time you transcode a character from binary to decimal, you r
 
     // test here
     binaryAgent("01000001 01110010 01100101 01101110 00100111 01110100 00100000 01100010 01101111 01101110 01100110 01101001 01110010 01100101 01110011 00100000 01100110 01110101 01101110 00100001 00111111");
-
-![:rocket:</a> <a href='https://repl.it/CLnm/0' target='_blank' rel='nofollow'>Run Code</a>
+```
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLnm/0' target='_blank' rel='nofollow'>Run Code</a>
 
 # Code Explanation:
 
@@ -74,7 +74,7 @@ Make sure that each time you transcode a character from binary to decimal, you r
 *   <a href='http://forum.freecodecamp.com/t/javascript-parseint/14686' target='_blank' rel='nofollow'>parseInt</a>
 
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution:
-
+```javascript
     function binaryAgent(str) {
       // Separate the binary code by space.
       str = str.split(' ');
@@ -108,8 +108,8 @@ Make sure that each time you transcode a character from binary to decimal, you r
 
     // test here
     binaryAgent("01000001 01110010 01100101 01101110 00100111 01110100 00100000 01100010 01101111 01101110 01100110 01101001 01110010 01100101 01110011 00100000 01100110 01110101 01101110 00100001 00111111");
-
-![:rocket:</a> <a href='https://repl.it/CLno/0' target='_blank' rel='nofollow'>Run Code</a>
+```
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLno/0' target='_blank' rel='nofollow'>Run Code</a>
 
 # Code Explanation
 
@@ -126,14 +126,14 @@ Make sure that each time you transcode a character from binary to decimal, you r
 *   <a href='http://example.com' target='_blank' rel='nofollow'>Link Title 3</a>
 
 ## ![:rotating_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:") Advanced Code Solution:
-
+```javascript
     function binaryAgent(str) {
       return String.fromCharCode(...str.split(" ").map(function(char){ return parseInt(char, 2); }));
     }
 
     // test here
     binaryAgent("01000001 01110010 01100101 01101110 00100111 01110100 00100000 01100010 01101111 01101110 01100110 01101001 01110010 01100101 01110011 00100000 01100110 01110101 01101110 00100001 00111111");
-
+```
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLnp/0' target='_blank' rel='nofollow'>Run Code</a>
 
 # Code Explanation
