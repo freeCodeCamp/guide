@@ -33,7 +33,7 @@ $ sudo usermod -aG wheel username
 ```
 
 
-## How to Delete a User
+##### How to Delete a User
 ##### For Debian (Ubuntu)
 ```
 $ sudo deluser username
@@ -43,7 +43,10 @@ $ sudo deluser username
 ```
 $ sudo userdel username
 ```
-
+##### How to see online users
+```
+$ sudo who
+```
 
 #### Note: All above commands can be executed without sudo in `root` mode
 
