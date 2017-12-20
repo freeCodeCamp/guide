@@ -6,17 +6,17 @@ title: Arrays
 Before trying to explain what arrays are, let's look at the code where we want to print 10 numbers given by the user in reverse order.
 ```C
 #include <stdio.h>
-int main(void){
-int a, b, c, d, e, f, g, i, j, k;
-scanf("%d", &a);
-scanf("%d", &b);
-... 
-printf("%d", k);
-printf("%d", j);
-printf("%d", i);
-... //and so on..
+int main(void) {
+    int a, b, c, d, e, f, g, i, j, k;
+    scanf("%d", &a);
+    scanf("%d", &b);
+    ... 
+    printf("%d", k);
+    printf("%d", j);
+    printf("%d", i);
+    ... //and so on..
 
-return 0;
+    return 0;
 }
 ```
 So... this looks a bit tedious.<br>Up until now every variable created had some special role. But right now, it would be great if we could just store multiple values in one place and get access to the values with their place in the line maybe (first value, second etc.). Also, we could use loops on them, which are things you will learn about later, but basically they do the same thing over and over again eg. reading from the user, or printing out values. 
@@ -26,15 +26,14 @@ Arrays are containers with a given size. They contain variables of the **same ty
 Let's look at some code:
 ```C
 #include <stdio.h>
-int main(void){
+int main(void) {
+    int arr[4] = {1, 2, 3, 88};
+    int brr[] = {78, 65};
+    int crr[100] = {3};
 
-int arr[4] = {1, 2, 3, 88};
-int brr[] = {78, 65};
-int crr[100] = {3};
+    int var = arr[0];
 
-int var = arr[0];
-
-return 0;
+    return 0;
 }
 ```
 And now let's break the syntax down a bit: 
