@@ -6807,9 +6807,9 @@ react-fontawesome@^1.6.1:
   dependencies:
     prop-types "^15.5.6"
 
-react-freecodecamp-search@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/react-freecodecamp-search/-/react-freecodecamp-search-1.2.1.tgz#315c7a495d214a00dc7a69203fecd5c8bd3ffaec"
+react-freecodecamp-search@^1.4.2:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/react-freecodecamp-search/-/react-freecodecamp-search-1.4.1.tgz#f48e95c62d012dab42e5405f4b5b4c998d434153"
   dependencies:
     rxjs "^5.5.5"
     xhr "^2.4.1"

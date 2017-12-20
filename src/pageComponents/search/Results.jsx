@@ -27,6 +27,10 @@ function mapDispatchToProps() {
   return {};
 }
 
+function truncate(str) {
+  return str.replace('\n', '').slice(0, 150) + '...';
+}
+
 function MediaWrapper(props) {
   const { url } = props;
   return isGuidesUrl.test(url) ?
@@ -57,7 +61,15 @@ class Results extends PureComponent {
   renderResultItems() {
     const { results } = this.props;
     return results.map((result, i) => {
-      const { _index, _source: { title, url, description } } = result;
+      const {
+        _index,
+        _source: {
+          title,
+          url,
+          friendlySearchString = ''
+        }
+      } = result;
+      const description = truncate(friendlySearchString);
       return (
         <MediaWrapper key={ i } url={ url }>
           <Media>
