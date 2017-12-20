@@ -68,6 +68,5 @@ pick 5186a9f <message for this commit>
 - If there is a merge conflict, there are a number of ways to fix this, including following the suggestions in [this guide](https://help.github.com/enterprise/2.11/user/articles/resolving-a-merge-conflict-using-the-command-line/). One way is to open the files in Atom and delete the parts of the code you do not want. Then use `git add <file name>` followed by `git rebase --continue`. You can skip over the confliced commit by entering `git rebase --skip`, exit the git rebase by entering `git rebase --abort` in your console.
 
 ### More Information:
-- Git documentation: [rebase](https://git-scm.com/docs/git-rebase)
-- Thoughbot guide to [git rebase interactive](https://robots.thoughtbot.com/git-interactive-rebase-squash-amend-rewriting-history)
-
+- Git documentation: <a href='https://git-scm.com/docs/git-rebase' target='_blank' rel='nofollow'>rebase</a>
+- Thoughbot guide to <a href='https://robots.thoughtbot.com/git-interactive-rebase-squash-amend-rewriting-history' target='_blank' rel='nofollow'>git rebase interactive</a>
