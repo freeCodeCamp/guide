@@ -177,3 +177,10 @@ int main()
 }
 ```
 
+#### More Information: 	
+ <!-- Please add any articles you think might be helpful to read before writing the article -->		
+ <ul>
+  <li>
+    <a href="https://www.youtube.com/watch?v=njTh_OwMljA" target ="_blank" rel="nofollow">HackerRank Linked Lists Video</a>
+  </li>
+ </ul>
