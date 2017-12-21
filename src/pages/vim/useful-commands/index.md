@@ -37,6 +37,10 @@ Beginning/End of line movement:
 2. Type in `:w` ("w" stands for "write");
 3. Press `Enter`.
 
+## Searching
+1. Press escape to get you into "normal" mode
+2. Type `:/`, type the keyword to search `:/<keyword>` and press enter.
+
 ## Exiting Vi, Vim, Nvim, Gvim
 1. Press escape to get you into "normal" mode
 2. To exit, type `:q` but if you made any changes in file Vim gives error code `E37` in this case:
