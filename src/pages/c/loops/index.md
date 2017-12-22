@@ -98,6 +98,7 @@ The next section is a boolean condition that will be checked for true or false, 
 
 The final section is referred to as the 'afterthought'. Its job is to perform some operation every loop, after the code within the brackets has been run through. In this case, it's just adding one to the count. This is the most common way for the afterthought to be used, because it lets you keep count of how many times you've run through a for loop.
 
+
 # Some Fun and Useful Quirks
 
 ## Infinte looping with for loops
@@ -110,6 +111,25 @@ for(;;){
 There's nothing in the initialization section, so nothing has been initialized. That's fine, and that is done sometimes because you don't always want or need to initialize anything.
 
 Next is the condition, which is blank. That's a little odd. This means that no condition will be tested, so it's never going to be false, so it will run through the loop, perform the afterthought (which is to do nothing), and then check the condition again, which will make it run again. As you've probably realized, this is an infinite loop. As it turns out, this is actually useful. When creating performing an infinite loop, the method of doing `while(1)` is perfectly legitimate, but performs a comparison every time. `for(;;)`, on the other hand, does not. For that reason, `for(;;)` has a legitimate use in that it is a hair more efficient than other methods of infinite looping. Thankfully, many compilers will take care of this for you.
+## Different Methods to write for loops:
+    ```C
+      //common method
+      for(int i=0;i<10;i++){
+        printf("hello, world! \n");
+         
+      } 
+      
+      // Below is another method to write your for loop
+      int i =0;
+      for(i;i<10;){
+        printf("%d",i);
+        i=i+1
+      }
+      
+      // 
+      
+      
+        ```
 
 ## Not using brackets
 Throughout this page, you've read that the code 'within the brackets' is what gets run, and that's mostly true. However, what if there are no brackets?
