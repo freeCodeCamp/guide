@@ -10,18 +10,18 @@ The basic syntax is:
 
 ```python
 counter = 0
-while (counter < 10):
+while (counter < n): 
    # Execute the block of code here as
-   # long as counter is less than 10
+   # long as counter is less than n
 ```
 
 An example is shown below:
 ```python
 days = 0
 week = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
-while (days < 7):
+while (days < 7): 
    print("Today is " + week[days])
-   days += 1
+   days += 1 # necessary in order to progress the while loop
 ```
 
 Output:
