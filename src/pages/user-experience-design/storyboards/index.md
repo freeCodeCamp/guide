@@ -18,14 +18,9 @@ Effective Storyboards...
     * demonstrate UI completeness
 
 
-
 ![Storyboard Example](https://github.com/yunChigewan/storage/blob/master/storyboard_pic.jpeg?raw=true)
 
  Image credit: Chelsea Hostetter, Austin Center for Design
-
-
-
-
 
 
 #### More Information:
