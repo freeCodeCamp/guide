@@ -8,7 +8,9 @@ title: C++
 * C++ is a general purpose programming language which has been used since the 1990's
 * It was designed by Bjarne Stroustrup under with the name "C with classes".
 * It is an Object Oriented version of the programming language C, its namesake.
-
+* It is considered one of the biggest programming languages, as you can see in the following image:
+![Img](http://static1.businessinsider.com/image/59deb30392406c21008b6148-1200/for-bonus-points-heres-the-chart-showing-these-languages-relative-popularity.jpg)
+_source: Github_
 
 ### Your First Program in C++
 
@@ -94,5 +96,7 @@ _You have finished coding your first C++ program and have understood most of the
 Download Link : <a href='http://www.codeblocks.org/downloads/26' target='_blank' rel='nofollow'>Download Here</a>
 
 * Click the link with the GNU/GCC compiler for windows. This will not require an additional installation
+
+Other alternatives could be visual studio, using a compiler or an online IDE such as Cloud9 or repl.it
 
 Link #2 for Mac : [Download for Mac #2 here](https://developer.apple.com/xcode/)
