@@ -9,8 +9,7 @@ into account but don't take them to the letter. Sometimes breaking some of these
 
 ## Global variables
 
-Global variables can be easy to use, and with little code it might look like a great solution. But, when the code gets larger and larger, 
-it becomes harder to know when are they being used.
+Global variables can be easy to use, and with little code it might look like a great solution. But, when the code gets larger and larger, it becomes harder to know when are they being used.
 
 Instead of using global variables you could use variables declared in functions which can help you telling what values are being passed 
 and identifying errors faster.
@@ -30,10 +29,39 @@ They are considered bad because they lead to ["spaguetti code"](https://en.wikip
 linear flow, when using those statements the flow is modified and lead to a "twisted and tangled" flow.
 
 Goto was used in the past when while, for, if functions, however, witht the introduction of those structured programming was created.
-In general avoid using goto unless you are sure it will make your code cleaner and easier to read. An example might be using it in nested
-loops.
+In general avoid using goto unless you are sure it will make your code cleaner and easier to read. An example might be using it in nested loops.
 
-The usage of break and continue are practically the same. Use them in switches and try to make functions with an only purpose so you only 
-have one exit point.
+The usage of break and continue are practically the same. Use them in switches and try to make functions with an only purpose so you only have one exit point.
 
 ![img](https://imgs.xkcd.com/comics/goto.png)
+
+## Avoid changing the control variable inside of a for loop
+
+Usually there are works around this that look clearer and less confusing, eg. while loops.
+Do:
+```cpp
+int i=1;
+while (i <= 5)
+{
+    if (i == 2)
+        i = 4;
+
+    ++i;
+}
+```
+
+Instead of:
+```cpp
+for (int i = 1; i <= 5; i++)
+        {
+            if( i == 2)
+            {
+               i = 4;
+            }
+            // Do work
+        }
+```
+
+## Declare constants and types at the top
+
+They are usually declared after libraries, this makes them be toguether and easier to read.
