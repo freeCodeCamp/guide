@@ -65,3 +65,5 @@ for (int i = 1; i <= 5; i++)
 ## Declare constants and types at the top
 
 They are usually declared after libraries, this makes them be toguether and easier to read.
+For local variables it happens the same, declare them at the top (Other people preffer it declaring them as later as possible in order to save memory see: [cplusplus.com](http://www.cplusplus.com/forum/general/33612/)
+
