@@ -46,6 +46,14 @@ Beginning/End of line movement:
 **OR**
 - Type ZZ (save and quit)
 
+## Setting line numbers
+1. Press escape to get you into "normal" mode
+2. Type `:set number`, press enter
+
+To set line numbers on by default:
+1. Open/create the vim configuration file with `vim ~/.vimrc`
+2. Add the line `set number`, press enter
+
 ## Bare minimum functionality
 
 Most likely you'll find yourself in "normal" mode, it allows you to enter commands by pressing the colon `:` key.
@@ -78,6 +86,16 @@ To return to regular Vim without paste mode you can enter normal mode (`escape` 
 For total beginners, Vim comes with a built in tutorial! You can access it by running `vimtutor` from your terminal and this will launch an interactive tutorial on *how to get started with Vim* (takes around 15 minutes to work through).
 
 If you are not as confident in English, you can lanch `vimtutor` in your language of choice. For example `vimtutor fr` will launch the tutorial in french!
+
+## Find and Replace
+1. Press `Escape` to make sure your are in `normal mode`;
+2. Type in `:` (You will switch to `command mode`);
+3. Type `%s,word_to_be_replaced,new_word,g`;
+4. Press `ENTER`.
+
+Important: if you want to replace the first occurence of the word, remove the at the end.
+
+Play Vim(https://vim-adventures.com/) - A fun way to learn vim plating a step-by-step game.
 
 Read the rest of our Vim Guides to get a better understanding of this powerful editor.
 

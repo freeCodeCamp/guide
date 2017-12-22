@@ -4,7 +4,7 @@ title: vector
 
 ## Vectors
 
-`vector` is one of the most used containers in C++. A container is a data structure that stores a collection of objects, some in order, some not. All containers have a different set of functions that allow you to access an object(s) in that collection.
+`vector` is one of the most used containers in C++. A container is a data structure that stores a collection of objects, some in order, some not (eg. Structures, arrays, Classes .. etc) . All containers have a different set of functions that allow you to access an object(s) in that collection.
 
 `std::vector` is part of the C++ standard library (hence the prefix `std::`) and allows you to store contiguous data of the same data type. NOTE: **All objects within a vector must be of the same data type**
 

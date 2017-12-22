@@ -23,6 +23,13 @@ Generations 1 and 2 has object which has the longer life time. GC on generations
 
 Its not advisable to invoke the GC programmatically. It's good to let it happend on its own. GC get call whenever the generation 0 gets filled. GC will not impact the performance of your program. 
 
+Garbage collection is the process in which programs try to free up memory space that is no longer used by variables, objects, and such.  Garbage collection is implemented differently for every language. Most high-level programming languages have some sort of garbage collection built in. Low-level programming languages may add garbage collection through libraries.
+
+Garbage collection is a tool that saves time for the programmer, for example it replaces the need for functions such as malloc() and free() which are found in C. It can also help in preventing memory leaks.
+
+The downside of garbage collection is that it has a negative impact on performance. The program has to regularly run though the program, checking object references and cleaning out memory - this takes up resources and often requires the program to pause.
+ 
+If an object has no references (is no longer reachable) then it is eligible for garbage collection. For example in the Java code below, the Thing object originally referenced by 'thing1' has its one and only reference redirected to another object on the heap - it is then unreachable and will have its memory unallocated by the garbage collector.
 
 #### More Information:
  -<!-- Please add any articles you think might be helpful to read before writing the article -->

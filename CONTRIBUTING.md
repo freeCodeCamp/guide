@@ -48,7 +48,7 @@ With your help, we can create a comprehensive reference tool that will help mill
     - [Syncing Fork](#syncing-fork)
     - [Merge Conflicts](#merge-conflicts)
     - [Duplicate](#duplicate)
-    - [Closing](#closing)
+    - [Closing](#closing-1)
 
 <!-- /TOC -->
 
@@ -575,7 +575,7 @@ Once you sync your fork and pass the build, I will be able to review your PR and
 
 ### Merge Conflicts
 
-> When PR has merge conflicts that need to be resolved.
+> When PR has merge conflicts that need to be resolved.¹
 
 ```markdown
 Hey @username
@@ -590,6 +590,7 @@ Once you resolve these conflicts, I will be able to review your PR and merge it.
 >
 > Also, it's good practice on GitHub to write a brief description of your changes when creating a PR. 📝
 ```
+¹ If a first-time-contributor has a merge conflict maintainers will resolve the conflict for them.
 
 ### Duplicate
 

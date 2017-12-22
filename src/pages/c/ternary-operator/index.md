@@ -35,5 +35,10 @@ c = (a < b) ? a : b;
 printf("%d", c);
 ```
 
+Output of the example should be:
+```
+10
+```
 
 This looks pretty simple, right? Do note that `value_if_true` and `value_if_false` must have the same type, and they cannot be full statements but simply expressions.
+
