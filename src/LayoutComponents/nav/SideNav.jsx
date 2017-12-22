@@ -103,15 +103,15 @@ class SideNav extends Component {
     const { expandedState, pages, parents } = this.props;
     const panels = renderPanels(parents, pages);
     return (
-      <div className='sideNav' id='side-nav'>
-        <PanelGroup>
+      <nav className='sideNav' id='side-nav'>
+        <PanelGroup role='list'>
           {
             (!parents || !expandedState) ?
               <NavPanel title='No Parents Here' /> :
               panels
           }
         </PanelGroup>
-      </div>
+      </nav>
     );
   }
 }
