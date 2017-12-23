@@ -3,9 +3,14 @@ title: Bootstrap Grid System
 ---
 ## Bootstrap Grid System
 
-Bootstrap uses a twelve column grid system, useful for designing a layout that will work well across different size screens from mobile and tablet to desktop.
+In a nutshell Bootstrap grid system helps you create responsive layouts, it comprises of a system of rows and columns that helps you structure your content. 
 
-You build your grid with containers, rows, and columns.
+Rows are horizontal groups of columns, with a maximum of 12 columns per row. Within each row, the content is placed inside the columns and it can span anywhere between 1 to 12 columns.
+
+Bootstrap has five different types of grid tiers namely Extra small, Small, Medium, Large and Extra large, there is a breakpoint defined for each of these grid tiers.
+
+Bootstrap uses pixels to define the grid tier breakpoints, the different viewport widths that act as breakpoints for the grid tiers are:
+
 
 #### How it works
 
@@ -79,7 +84,7 @@ Screen size values can be assigned as follows:
   - xs - < 768px Phones
   - sm - < 992px Tablets
   - md - < 1200px Laptops
-  - lg - > 1200 px Desktops
+  - lg - > 1200px Desktops
  
  Bootstrap is mobile first and responsive. 
  
@@ -147,9 +152,16 @@ The following code and image shows what is possible using different column width
 
 #### More Information:
 
-[Bootstrap Docs - Grid system](https://getbootstrap.com/docs/4.0/layout/grid/)
+<a href='https://getbootstrap.com/docs/4.0/layout/grid/' target='_blank' rel='nofollow'>Bootstrap Docs - Grid system</a>
 
-*This guide is based on Bootstrap v4 (it will work with v3 accept extra small screens are defined as `xs` and there is no `xl` size)*
+*This guide is based on Bootstrap v4 (it will work with v3 except extra small screens are defined as `xs` and there is no `xl` size)*
 
 
+* Extra large: **Viewport width >= 1200px**
+* Large: **Viewport width >= 992px**
+* Medium: **Viewport width >= 768px**
+* Small: **Viewport width >= 576px**
+* Extra small: **Viewport widths below 576px**      
 
+#### More Information:
+https://getbootstrap.com/docs/4.0/layout/grid/

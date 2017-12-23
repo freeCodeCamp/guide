@@ -3,7 +3,7 @@ title: Arrays
 ---
 # Array
 
-An array is used to store a collection of data of similar datatype. Arrays always start with the index of 0.
+An Array is used to store a collection of data of similar datatype. Arrays always start with the index of 0. Java arrays are homogeneous, meaning all elements must be one data type (as opposed to Ruby where elements may be of mixed types).
 
 **Syntax:**
 
@@ -62,7 +62,7 @@ System.out.println(list[1]);
 ```
 Output:
 ```
-2
+2.0
 ```
 
 ## Modifying Arrays:
