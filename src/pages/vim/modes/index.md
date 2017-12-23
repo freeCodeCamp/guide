@@ -79,3 +79,4 @@ on top of the first character that you want to replace. Then press 'R' (capital 
 enter replace mode. Now whatever you type will replace the existing text. The
 cursor automatically moves to the next character just like in insert mode. The
 only difference is that every character you type will replace the existing one.
+ 
