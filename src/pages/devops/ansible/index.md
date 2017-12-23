@@ -3,13 +3,35 @@ title: Ansible
 ---
 ## Ansible
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/devops/ansible/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+There are usually a few steps involved in deploying your code into production (to the live site). The number of steps increases as your Site/App/Webapp becomes larger and more complex. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The solution to this is automated deployment. Automation comes in the form of scripts that act as a set of instructions (just as all code does) outlining each of these steps. 
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Ansible is an automation tool, often used for deployment as mentioned above, but increasingly used for other complex automations. 
+
+It uses a language called <a href='https://en.wikipedia.org/wiki/YAML' target='_blank' rel='nofollow'>YAML</a> which allows you to describe the instuctions close to plain english, as you can see in this Ansible module example:
+
+```YAML
+---
+- yum: name={{contact.item}} state=installed
+with_items:
+- app_server
+- acme_software
+
+
+- service: name=app_server state=running enabled=yes
+
+
+- template: src=/opt/code/templates/foo.j2 dest=/etc/foo.conf
+notify: 
+- restart app server
+```
+
+Ansible modules, which are small task specific programs. Once they serve there intended purpose e.g. running your deploy script, these modules are removed by Ansible.  
+
+A significant benefit of using Ansible is that it uses SSH (Secure SHell) by default, and the modules can reside on any machine (computer) not requiring servers, daemons or databases.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+<a href='https://www.ansible.com/how-ansible-works' target='_blank' rel='nofollow'>Learn more about how Ansible works</a>.
 
-
+<a href='http://docs.ansible.com/' target='_blank' rel='nofollow'>Ansible documentation</a>.
