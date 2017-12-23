@@ -37,6 +37,17 @@ do {
     // Will execute once and until the condition is false
 } while (condition);
 ```
+### For loops
+
+For loops are usually used when you know how many times the code will execute.
+The flow can be seen in this [graph](https://www.tutorialspoint.com/cplusplus/images/cpp_for_loop.jpg).
+
+They are declared this way:
+``` c++
+for ( initialize a variable; check a condition; increment the initialized variable ) {
+   //Code to execute
+}
+```
 
 Lets write a program which will print numbers from 0 to 1000 including 1000 on the screen using a for loop.
 
@@ -45,8 +56,8 @@ for (int i = 0;i<=1000;i++)
 {
   cout << i << endl;
 }
-
 ```
+
 When you execute this code in a c++ program numbers from 1 to 1000 will be printed.
 Now lets discuss how the for loop works.
 
