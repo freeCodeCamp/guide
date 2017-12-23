@@ -13,8 +13,6 @@ Make sure you create good variable names, for example, if you are creating a gam
 
 Also, PLEASE, use comments, I'm not even kidding, just try to read some old projects you did without comments... now imagine being someone else who didn't even code it.
 
-![img](https://i.pinimg.com/originals/21/51/cc/2151ccb127b52364b991e4a7683f5c4d.jpg)
-
 ## Global variables
 
 Global variables can be easy to use, and with little code it might look like a great solution. But, when the code gets larger and larger, it becomes harder to know when are they being used.
