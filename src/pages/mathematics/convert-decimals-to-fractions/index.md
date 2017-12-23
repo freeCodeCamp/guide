@@ -1,15 +1,27 @@
 ---
 title: Convert Decimals to Fractions
 ---
+
 ## Convert Decimals to Fractions
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/convert-decimals-to-fractions/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+1. Write down decimal number as decimal / 1
+2. Multiply the numerator and denominator by 10 for every no after the decimal point.
+3. Simplify the fraction till it becomes irreducible.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+## Examples
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### Example 1
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+Convert 0.25 into a fraction. 
 
+0.25/1 --> 25/100 --> 5/20 --> 1/4
+        
+The final answer is 1/4 which is the fractional representation of decimal no 0.25
 
+### Ezxample 2 
+
+Convert 0.2 into a fraction.
+
+0.2/1 ---> x100 = 20/100 = 2/10.
+
+![Examples](http://m.mathblaster.com/Mathblaster/CoolMath/Article-Images/decimals-to-fractions-&-fractions-to-decimals.jpg)
