@@ -34,6 +34,7 @@ switch( <integer / String / Enum > ){
         break;
     case <int/String/Enum>:
         <statements>
+        break;
     default:
         <statements>
 }
@@ -56,7 +57,7 @@ switch(person){
 }
 ```
 
-    Note: The `default` case runs when none of the `case` matches. Remember that when a case has no `break` statement, it `falls through` to the next case and will continue to the subsequent `cases` till a `break` is encountered.
+    Note: The `default` case runs when none of the `case` matches. Remember that when a case has no `break` statement, it `falls through` to the next case and will continue to the subsequent `cases` till a `break` is encountered. Because of this, make sure that each case has a `break` statement. The `default` case does not require a `break` statement. 
 
 *   `nested statements`
 
@@ -90,9 +91,11 @@ if(cash<25){
         case "friends": 
             meetFriendsAtSportsBar();
             break;
+        default:
+            getDecentMeal();
     }
 }
 ```
 In this example, `meetFriendsAtSportsBar()` will be executed.
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CJZi/1' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](https://forum.freecodecamp.org/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CJZi/1' target='_blank' rel='nofollow'>Run Code</a>
