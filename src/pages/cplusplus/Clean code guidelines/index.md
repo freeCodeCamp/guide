@@ -91,3 +91,13 @@ for (int i = 1; i <= 5; i++)
 ## Other recommendations
 
 ### Use for when you know the number of iterations, while and do while when you don't.
+
+### Use const, pass by value/reference when suitable. This will help with saving memory.
+
+## Write const in caps, datatypes starting with T and variables in lower case.
+
+```cpp
+const int MAX= 100;             //Constant
+typedef int TVector[MAX];       //Data type
+TVector vector;                 //Vector
+```
