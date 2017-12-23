@@ -1,46 +1,58 @@
 ---
 title: Game Development
 ---
+
 ## Game Development
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/game-development/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Game Development is the art of creating games and describes the design, development and release of a game. It may involve concept generation, design, build, test and release. While you create a game, it is important to think about the game mechanics, rewards, player engagement and level design.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+A game developer could be a programmer, a sound designer, an artist, a designer or many other roles available in the industry.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Game Development can be undertaken by a large Game Development Studio or by a single individual. It can be as small or large as you like. As long as it lets the player interact with content and is able to manipulate the game's elements, you can call it a 'game'.
 
-### Game Development
+To get involved in the Game Development process, you do not need to write code. Artists may create and design assets, while a Developer might focus on programming a health bar. A Tester may get involved to see that the game works as expected.
 
-We all know those evenings where we sat around our TVs, mashing buttons to make characters jump and interact on objects on screen and compete with our friends all night long. Those sessions gave way to the intense multiplayer matches of the late 90s and the early 2000's. And they gave way to the current modern era of gaming, awash with celebrities, competition and large prizes!
+![What first games looked like](https://i.ytimg.com/vi/ePc12V6F0ws/maxresdefault.jpg "What first games looked like")
 
-Game development refers to the complete process of making video games. There are innumerable aspects to Game Development, some of the most popular ones being 3D Modeling, Game Level Design as well as Writing, Storyboarding, Game Music Design.
+To resolve problems that game frameworks had, tools like libGDX and OpenGL were developed. They helped game development to be a lot faster and easier, providing lots of pre-made functions and features. However, it was still hard to enter the industry or understand a framework for someone coming from a non-programmer background, a common case in the game development scene.
 
-The earliest games were non-commercial games and were made by hobbyists and people who were commited to their machines. Nowadays, "Indie" (short for Independent) studios, have been cranking award winning titles. The most famous ones being games like Thomas Was Alone and Limbo.
+![3D map editor made with OpenGL](https://i.ytimg.com/vi/E0laTeycpB4/maxresdefault.jpg "3D map editor made with OpenGL")
 
-Being a game developer requires indigenous thought, creativity and a hunger to make an immersive experience to the player. The best games remembered by generations have not been the ones that stayed in mainstream. But, instead, titles like Half Life (where is HL3 , GabeN?), and Journey. 
+That was when game engines like Construct, Game Maker, Unity and Unreal were developed. Generally, an engine has everything that a framework had, but with a more friendly approach by using a graphic user interface (GUI) and helping with the graphic development of the game.
 
-Hopefully this little walk through memory lane makes you fired up to develop some games! If you are, cheeck out these links to give yourself a headstart. 
+In some cases, like Game Maker and Construct, the amount of pre-made functions are so big that people with no previous programming skills could build a game from scratch, really expanding the scene and making game development accessible for almost anyone.
 
-* 	For the absolute beginners, we'd recommend [Unity](https://unity3d.com/) or [GameMaker](https://www.amazon.com/YoYo-Games-Ltd-GMS-GameMaker/dp/B00C3MR1JG) or [Construct 2](https://www.scirra.com/construct2).
-*  You'll need a text editor, we recommend [Sublime Text](http://www.sublimetext.com/).
-*  Some extra tools, because it's dangerous to go alone!
-	1. 	[Blender](http://www.blender.org/) for all your 3D Modelling needs.
-	2. [Audacity](http://audacity.sourceforge.net/) for all your audio needs.
-	3. [GIMP](http://www.gimp.org/) for everything visual.
-*  We also recommend these sites and blogs for more information:
-	1. 	[Soren Johnson's Game Design Journal](http://www.designer-notes.com/)
-	2. [The GameDev StackExchange](http://gamedev.stackexchange.com/)
-	3. [GameDev.net](https://www.gamedev.net/page/index.html)
-	4. [GameDevs.Org](http://gamedevs.org/)
+### Game Engines
 
-The next great game may be already in your head, so get out there and start creating!
+![Unity development screen](http://paulbourke.net/stereographics/Unitystereo/textureplanes.jpg "Unity development screen")
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+Many developers choose to develop a game using a Game Development Engine.
 
-*Related sites worth checking out*
+Game Engines can make the process of creating a game much easier and enable developers to reuse lots of functionality. It also takes care of rendering for 2D and 3D Graphics, physics and collision detection, sound, scripting and much more.
+
+Some Game Engines have a very steep learning curve such as CryEngine or Unreal Engine. Yet, other tools are very accessible to beginners and some do not even need you to be able to write code to create your game, e.g. Construct 2.
+
+The Unity Game Engine ranges somewhere in the middle, while it is beginner friendly, some popular and commercial games have been built using Unity (e.g. Overcooked, Superhot).
+
+### Typical Game Engines
+
+- CryEngine
+- Unreal Engine
+- Unity Game Engine
+- Game Maker
+- Construct 2 or 3
+- Twine
+
+
+
+
+### More Information
 
 * [Awesome-List of GameDev resources](https://github.com/Kavex/GameDev-Resources)
 * [Game Programming Books](http://www.fromdev.com/2013/07/game-development-books.html)
-
-
+<a href='https://libgdx.badlogicgames.com/'>libGDX Framework</a><br>
+<a href='https://www.opengl.org/'>OpenGL Framework</a><br>
+<a href='https://www.scirra.com/'>Construct Game Engine</a><br>
+<a href='https://www.yoyogames.com/gamemaker'>Game Maker Engine</a><br>
+<a href='https://unity3d.com/pt'>Unity3D Engine</a><br>
+<a href='https://www.unrealengine.com/en-US/what-is-unreal-engine-4'>Unreal Engine</a>
