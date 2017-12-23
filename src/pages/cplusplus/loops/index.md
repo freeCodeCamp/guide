@@ -25,6 +25,19 @@ Therefore, in order to solve such problems loops are introduced.
 
 There are different types of loop functions:
 ### While and do while loops
+
+While and do while loops allow you to make the loop until a condition finishes.
+The difference between While and Do while is that Do while always executes once.
+Here you can see an example:
+``` c++
+while (condition){
+    // Code that will execute while condition is true
+}
+do { 
+    // Will execute once and until the condition is false
+} while (condition);
+```
+
 Lets write a program which will print numbers from 0 to 1000 including 1000 on the screen using a for loop.
 
 ``` c++
