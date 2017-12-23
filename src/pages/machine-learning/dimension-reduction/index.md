@@ -20,10 +20,11 @@ Dealing with a lot of dimensions can be painful for machine learning algorithms.
 - Graph-based kernel PCA
 - t-Distributed Stochastic Neighbor Embedding [t-SNE](https://lvdmaaten.github.io/tsne/)
 - [Auto Encoders](https://medium.com/towards-data-science/reducing-dimensionality-from-dimensionality-reduction-techniques-f658aec24dfe)
-- Linear discriminant analysis (LDA)
 - Generalized discriminant analysis (GDA)
 
 #### More Information:
+
 * [A step by step tutorial to Principal Component Analysis](https://plot.ly/ipython-notebooks/principal-component-analysis/#introduction)
 * [Dimensionality Reduction Techniques](https://medium.com/towards-data-science/reducing-dimensionality-from-dimensionality-reduction-techniques-f658aec24dfe)
 * [Dimensionality Reduction Techniques: Where to Begin](https://blog.treasuredata.com/blog/2016/03/25/dimensionality-reduction-techniques-where-to-begin)
+

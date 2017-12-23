@@ -43,7 +43,7 @@ The best way to go about the callback function is to check if the number from th
 **Solution ahead!**
 
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution (Imperative Solution):
-
+```javascript
     function diffArray(arr1, arr2) {
       var newArr = [];
 
@@ -64,8 +64,8 @@ The best way to go about the callback function is to check if the number from th
     }
 
     diffArray([1, 2, 3, 5], [1, 2, 3, 4, 5]);
-
-[<kbd>![](//discourse-user-assets.s3.amazonaws.com/original/2X/6/6d6bf8d908c0577924495e89482c7163190c3856.png) **Run Code** ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:")</kbd>](https://repl.it/CLme/0)
+```
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href="https://repl.it/CLme/0">Run Code</a>
 
 ### Code Explanation:
 
@@ -76,7 +76,7 @@ Read the comments in the code.
 *   <a href='https://devdocs.io/javascript/statements/for' target='_blank' rel='nofollow'>for Loop (Devdocs)</a>
 
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution (Declarative Solution):
-
+```javascript
     function diffArray(arr1, arr2) {
       return arr1
         .concat(arr2)
@@ -86,8 +86,8 @@ Read the comments in the code.
     }
 
     diffArray([1, 2, 3, 5], [1, 2, 3, 4, 5]);
-
-[<kbd>![](//discourse-user-assets.s3.amazonaws.com/original/2X/6/6d6bf8d908c0577924495e89482c7163190c3856.png) **Run Code** ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:")</kbd>](https://repl.it/CNYb/0)
+```
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href="https://repl.it/CNYb/0">Run Code</a>
 
 ### Code Explanation:
 
@@ -111,7 +111,7 @@ Explain solution here and add any relevant links
 
     diffArray([1, 2, 3, 5], [1, 2, 3, 4, 5]);
 
-[<kbd>![](//discourse-user-assets.s3.amazonaws.com/original/2X/6/6d6bf8d908c0577924495e89482c7163190c3856.png) **Run Code** ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:")</kbd>](https://repl.it/CNYU/0)
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href="https://repl.it/CNYU/0">Run Code</a>
 
 ### Code Explanation:
 
