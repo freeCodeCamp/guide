@@ -3,13 +3,31 @@ title: Map.prototype.delete
 ---
 ## Map.prototype.delete
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/standard-objects/map/map-prototype-delete/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Removes the specified element from a `Map` object.
+Returns whether the key was found and successfully deleted.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+## Syntax
+```javascript
+myMap.delete(key);
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+## Parameters
+**key** Required.
 
 
+##Example
+```javascript
+const myMap = new Map();
+myMap.set('foo',1);
+myMap.set('bar',2);
+myMap.set('baz',3);
+
+
+myMap.size(); // 3
+myMap.has('foo'); // true;
+
+myMap.delete('foo');  // Returns true. Successfully removed.
+
+myMap.size(); // 2
+myMap.has('foo');    // Returns false. The "foo" element is no longer present.
+```

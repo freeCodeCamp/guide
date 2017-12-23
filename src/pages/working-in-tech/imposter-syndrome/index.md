@@ -5,6 +5,8 @@ title: Imposter Syndrome
 
 A feeling of _being a fraud_ or _not good enough_ to get the job done. Common among software engineers, developers and designers working in tech companies. People suffering from imposter syndrome have a sense of inadequacy and insecurity concerning their ability to make a contribution at the workplace. In reality, they may be perfectly capable of and do contribute successfully to their tasks.
 
+Imposter Syndrome is very common among software engineers or developers who are new to the role and lack the experience of some of their co-workers. Throughout various industries, imposter syndrome is very common with highly successful people. Studies have found the two out of five 'successful' people consider themselves frauds/imposters while other studies have shown that up to 70% of people experience imposter syndrome as one point in time or another.
+
 These thoughts are fairly common if you suffer from imposter syndrome:
 
 
@@ -16,11 +18,16 @@ These thoughts are fairly common if you suffer from imposter syndrome:
 * "People are going to realise that I am not as smart as I potrayed in the interview and I will be ridiculed and fired for this" (fears failure)
 * "My IQ is not high enough to work here"
 
+#### Overcoming Imposter Syndrome
+
+The first step in overcoming imposter syndrome is to learn the difference between a growth mindset and a fixed mindset. People with a growth mindset believe that their skills and talents can be developed through hard work, practice, conversations with others, etc. Alternately, those with a fixed mindset tend to believe their talents are set abilities that they were born with. 
+
+When you change your outlook to a growth mindset, you allow yourself to take on challenges that may seem out of reach. If you believe that your skills can be developed over time, it will matter less if you don't know how to do something (as long as you are willing to put in the work). 
+
 Some resources to help you know more about Imposter Syndrome and some tips to tackle it:
 
 * <a href='http://www.apa.org/gradpsych/2013/11/fraud.aspx' target='_blank' rel='nofollow'>Feel Like a Fraud? | American Psychological Association</a>
 * <a href='https://www.ted.com/playlists/503/fighting_impostor_syndrome' target='_blank' rel='nofollow'>Fighting Imposter Syndrome | TED Talks</a>
 * <a href='https://qz.com/606727/is-imposter-syndrome-a-sign-of-greatness/' target='_blank' rel='nofollow'>Is imposter syndrome a sign of greatness? | Quartz</a>
+* <a href='https://blog.trello.com/4-truths-of-impostor-syndrome?utm_source=newsletter&utm_medium=email&utm_campaign=sept17_newsletter1' target='_blank' rel='nofollow'>The 4 Simple Truths Impostor Syndrome Is Hiding From You | Trello</a>
 * <a href='https://www.brainpickings.org/2014/01/29/ira-glass-success-daniel-sax/' target='_blank' rel='nofollow'>The Taste Gap: Ira Glass on the Secret of Creative Success, Animated in Living Typography | Brain Pickings</a>
-
-
