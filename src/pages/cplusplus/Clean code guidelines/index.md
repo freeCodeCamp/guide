@@ -59,7 +59,7 @@ for (int i = 1; i <= 5; i++)
                i = 4;
             }
             // Do work
-        }
+}
 ```
 
 ## Declare constants and types at the top
@@ -70,3 +70,24 @@ For local variables it happens the same, declare them at the top (Other people p
 ## Use only one return function at the end
 
 Just like we said before, we tend to make only one entry and exit to make the flow clearer.
+
+## Use curly braces even when writing one-liners
+
+Making it systematically will help you doing it faster and in case you want to change the code in the future you will be able to do it without worries.
+
+Instead of:
+```cpp
+for (int i = 1; i <= 5; i++)
+    //CODE
+```
+
+Do:
+```cpp
+for (int i = 1; i <= 5; i++)
+        {
+    //CODE
+}
+```
+## Other recommendations
+
+### Use for when you know the number of iterations, while and do while when you don't.
