@@ -2,6 +2,10 @@
 title: Loops
 ---
 
+# Loops
+
+## Introduction
+
 Now lets discuss something known as loop. Suppose you want to print the even numbers from 1 to 1000 on the screen. One way 
 to do this is to write the following lines
 
@@ -18,6 +22,9 @@ cout << 1000 << endl;
 But the problem with this approach is that you have to write the same line again and again. And if suppose you have to print 
 prime numbers from 1 to 1000 then this will be more hectic.
 Therefore, in order to solve such problems loops are introduced.
+
+There are different types of loop functions:
+### While and do while loops
 Lets write a program which will print numbers from 0 to 1000 including 1000 on the screen using a for loop.
 
 ``` c++
