@@ -8,7 +8,6 @@ Because vim is focused on changing existing code just as much as writing new
 code, it is split into several modes that each have different purposes.
 
 ### Normal Mode
-
 By default, vim starts in "normal" mode. Here, key presses don't work as one
 would expect. That is, they don't insert text into the document; instead,
 certain key presses can:
@@ -45,12 +44,17 @@ not designed to be used in insert mode all the time.
 To leave insert mode and return to normal mode, press `Esc` or `<C-[>`
 
 ### Visual Mode
-Visual mode it used to select text, similar to how clicking and dragging with a
+Visual mode is used to select text, similar to how clicking and dragging with a
 mouse behaves.  Press 'v' to enter visual mode, this begins the selection where
 the cursor is, then move the cursor to the end of what you want to select and
 now you can execute a command over the selecting text.
 For example, after selecting text, press 'd' to delete the selected text or 'y'
 to copy it.
+
+The visual mode actually has multiple subtypes:  *visual*, *block-visual* and *linewise-visual*
+- *visual*: like described above. Enter by pressing `v`
+- *block-visual*: select any rectangular region. Enter by pressing `<ctrl>+v`
+- *linewise-visual*: always select full lines. Enter by pressing `<shift>+v`
 
 ### Command Mode
 Command mode has a wide variety of commands and can do things that normal mode
@@ -67,3 +71,11 @@ all 'foo' with 'bar'
 
 Vim has a number of other methods that you can read about in the help
 documentation, `:h` or `:help`.
+
+### Replace Mode
+Replace mode allows you replace existing text by directly typing over it.
+Before entering this mode, get into normal mode and put your cursor
+on top of the first character that you want to replace. Then press 'R' (capital R) to
+enter replace mode. Now whatever you type will replace the existing text. The
+cursor automatically moves to the next character just like in insert mode. The
+only difference is that every character you type will replace the existing one.
