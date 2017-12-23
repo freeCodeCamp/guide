@@ -6,6 +6,8 @@ title: Factorials
 
 ###### Definition of Factorial
 
+The factorial is to multiply it by every intiger lower then it ending at one. If the initial number is negative the result is infinity.
+
 A factorial of <span class="texhtml"> n </span>, a non-negative integer, is defined as:
 
 <span class="texhtml"> n! = 1 * 2 * ... * (n - 1) * n </span>
@@ -40,7 +42,10 @@ For more, see <a href='https://en.wikipedia.org/wiki/Factorial#Extension_of_fact
 
 <span class="texhtml"> 
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+One tricky example that many may not know if 0! = 1. For futher proof see the link under More Information.
 
+
+
+
+#### More Information:
 <a href='http://www.purplemath.com/modules/factorial.htm' target='_blank' rel='nofollow'>Factorials</a>
