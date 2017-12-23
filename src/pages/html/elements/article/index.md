@@ -3,13 +3,27 @@ title: Article
 ---
 ## Article
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/article/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `<article>` tag defines composition in a document. These compositions can be a forum post, a magazine or newspaper article, or a blog entry.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Example
+Here is an example of how to use article tag in webpage:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```html
+ <article class="review">
+      <p>How to make baked patatoes?</p>
+      <footer>
+        <p>
+          Posted on
+          <time datetime="2017-10-23 19:00">Oct 23</time>
+          by Melih.
+        </p>
+      </footer>
+    </article>
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+[MDN](https://developer.mozilla.org/tr/docs/Web/HTML/Element/article)
+
+
 
 
