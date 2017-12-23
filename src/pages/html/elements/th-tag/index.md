@@ -11,5 +11,31 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
+The HTML <th> tag is used for defining a header cell (which contains header information) or table header in the table.
+  
+Example :
+
+<html>
+
+   <head>
+      <title>HTML th Tag</title>
+   </head>
+
+   <body>
+      <table border = "1">
+         <tr>
+            <th>Month</th>
+            <th>Savings</th>
+         </tr>
+         
+         <tr>
+            <td>09L6</td>
+            <td>i7, 500gb laptop</td>
+         </tr>
+      </table>
+   </body>
+
+</html>
+
 
 
