@@ -24,14 +24,14 @@ So, for example :
    I'm shifting to a new place and I need to arrange my stuff in boxes . Thus there come 2 things to my mind  **What kind of stuff will be stored in the box, so that the size off the box is known (the data type)** and **How do I identify the box ?(Naming the variable)**  
    Hence , we know that a variable in C++ needs a *name* and a *data type* and that the value stored in them can be changed.
    
-#### Data Types in C++ : 
+### Data Types in C++ : 
 When declaring variables in c++ they must have a name to which you will reffer later on, a value (constant or not) and a type.
 The type will tell the compiler the values that the variable can use, the possible operations and will save a certain space in memmory.
 In c++ there are two types of data:
 * Simple type
 * Struct type
 
-#### Simple data types
+### Simple data types
 
 * Boolean -- bool
 Works like a switch, can be on or off.
@@ -50,13 +50,13 @@ bool GameRunning = true;
 char a;
 int x = 2;
 ```
-##### These types can also be modified with modifiers such as:
+#### These types can also be modified with modifiers such as:
 signed
 unsigned
 short
 long
 
-#### Struct data type
+### Struct data type
 
 #### Identifiers.
 
