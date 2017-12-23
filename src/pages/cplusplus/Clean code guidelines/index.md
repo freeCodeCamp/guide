@@ -1,3 +1,7 @@
+---
+title: Clean Code Guidelines
+---
+
 # Clean Code Guidelines
 
 When coding, the coding style you follow can be really important. Specially when you are working with a team or you plan on sharing your 
