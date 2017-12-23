@@ -160,9 +160,11 @@ int main()
 }
 ```
 
-what will be the the Output? "NO! I am boss"? if you are guessing this output then you are wrong.
+What will be the the Output? "NO! I am boss"? if you are guessing this output then you are wrong.
 Why did this happen? because in the if statement you used "=" instead of "==" operator.
-"==" is comparator . It will compare between two variables but "=' is assignment operator 
+"==" is comparator . 
+
+It will compare between two variables but "=' is assignment operator 
 when we said i=4, we simply assigning value 4 to the integer i, and since in "C" every NON-ZERO value is true so
 if(i=4) is true statement and instructions under this will executed
 
