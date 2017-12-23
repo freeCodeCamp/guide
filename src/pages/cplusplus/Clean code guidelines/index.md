@@ -7,6 +7,14 @@ snippets with c++ code, so you can familiarize with it easier.
 Remember that these are only recommendations for achieving clarity, which can be a personal prefference, so take these pieces of advice 
 into account but don't take them to the letter. Sometimes breaking some of these rules can lead to cleaner code.
 
+## Use good variable names and make comments
+
+Make sure you create good variable names, for example, if you are creating a game, avoid using the variable "a" use something like "p1" referring to player 1. The [hungarian notation](https://en.wikipedia.org/wiki/Hungarian_notation) is commonly spread and can give you some gidelines for declaring variables.
+
+Also, PLEASE, use comments, I'm not even kidding, just try to read some old projects you did without comments... now imagine being someone else who didn't even code it.
+
+![img](https://i.pinimg.com/originals/21/51/cc/2151ccb127b52364b991e4a7683f5c4d.jpg)
+
 ## Global variables
 
 Global variables can be easy to use, and with little code it might look like a great solution. But, when the code gets larger and larger, it becomes harder to know when are they being used.
