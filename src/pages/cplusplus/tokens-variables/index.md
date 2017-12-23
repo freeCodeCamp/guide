@@ -110,6 +110,72 @@ You can imagine different boxes of different sizes and storing different things 
 1. **The C++ compiler ignores whitespaces and they are generally used for beautification of the code so that it is eassy for any programmer to debug or understand the code.**
 2. **If a variable is not initialized , it contains a garbage value. Let me give an example:**
 
+### Scope of Variables
+All the variables have their area of functioning, and out of that boundary they don't hold their value, this boundary is called scope of the variable. For most of the cases its between the curly braces,in which variable is declared that a variable exists, not outside it. We will study the storage classes later, but as of now, we can broadly divide variables into two main types,
+
+*Global Variables.
+
+*Local variables.
+
+#### Global variables
+
+Global variables are those, which ar once declared and can be used throughout the lifetime of the program by any class or any function. They must be declared outside the main() function. If only declared, they can be assigned different values at different time in program lifetime. But even if they are declared and initialized at the same time outside the main() function, then also they can be assigned any value at any point in the program.
+
+Example : Only declared, not initialized.
+
+```cpp
+#include <iostream>
+using namespace std;
+int x;                // Global variable declared
+int main()
+{
+ x=10;                 // Initialized once
+ cout <<"first value of x = "<< x;
+ x=20;                 // Initialized again
+ cout <<"Initialized again with value = "<< x;
+}
+```
+
+#### Local Variables
+Local variables are the variables which exist only between the curly braces, in which its declared. Outside that they are unavailable and leads to compile time error.
+
+Example :
+
+```cpp
+#include <iostream>
+using namespace std;
+int main()
+{
+ int i=10;
+ if(i<20)        // if condition scope starts
+  {
+    int n=100;   // Local variable declared and initialized
+  }              // if condition scope ends
+ cout << n;      // Compile time error, n not available here
+}
+```
+
+### Constant Variables
+Constant variable are the variables which cannot be changed. For example, if you needed "pi" in your code, you would not want to change it after initialization.
+
+Example :
+
+```cpp
+#include <iostream>
+using namespace std;
+const double PI = 3.14159253;
+int main()
+{
+//Calculating the area of a circle, using user provided radius
+double radius;
+//input and output explained in other guide
+cin>>radius;
+//pi*r^2
+double area = PI*radius*radius;
+cout<<area<<endl;
+}
+```
+
 ### Garbage Values in a Variable
 If a variable is not initialized , it contains a garbage value. For example:
 
