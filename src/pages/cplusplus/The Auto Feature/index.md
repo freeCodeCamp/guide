@@ -1,8 +1,8 @@
 ---
-title: auto
+title: The Auto Feature
 ---
 
-## auto
+## The Auto Feature
 
 `auto` is a C++11 feature that lets the compiler infer the data type for us in a definition. 
 
