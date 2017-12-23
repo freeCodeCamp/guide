@@ -10,24 +10,21 @@ In c++ there are two types of data:
 
 * Boolean -- bool
 Works like a switch, can be on or off.
-```cpp
-bool GameRunning = true;
-```
 * Character -- char
 Stores a single character.
-```cpp
-char a;
-a = 'H';
-```
 * Integer  -- int
 Stores an [integer](https://en.wikipedia.org/wiki/Integer).
-```cpp
-int x = 2;
-```
 * Floating point  -- float
+They can use decimals.
 * Double floating point  -- double
 Double precision of the float type.
 
+Here you can see some examples:
+```cpp
+bool GameRunning = true;
+char a;
+int x = 2;
+```
 ### These types can also be modified with modifiers such as:
 signed
 unsigned
