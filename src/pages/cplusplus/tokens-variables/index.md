@@ -15,7 +15,7 @@ Tokens are the smallest unit of a program which are importanat to the compiler. 
 
 ### What are Variables ?
 
-* Textbook defination : Variables are named memory locations whoose data can be altered.
+* Textbook definition : Variables are named memory locations whoose data can be altered.
 
 * But I would like you to think of a variable to be something like a box, something like this : 
     ![Img](https://i.imgur.com/YdbgWHL.png)
