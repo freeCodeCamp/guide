@@ -1,0 +1,38 @@
+Here is the first part in a series of tutorials on the subject I wrote one time ago.
+
+Introduction
+
+This short article is mainly for students, software engineers and  those who are struggling to get a grip on the subject. In other words I  will not be focusing on the theoretical side of the topic. I will first  explain what Dynamic Programming means then provide several examples to  demonstrate this algorithmic technique. I will be using the shortcut DP  for Dynamic Programming for the purpose of brevity. Now open your heart  and mind.
+
+What is Dynamic Programming?
+Historically speaking the term programming in DP refers to optimally  planning multi stage processes so do not be confused. Programming in  this context has nothing to do with regular programming languages or  writing code. DP is an easy (to some extent), smart and efficient method  for solving specific (not all problems can be solved using DP) types of  complex computational problems. Candidate problems that can be  potentially solved by DP are those problems which can be broken into  smaller overlapping sub problems of the same type. The key idea is the  overlapping between sub problems so that we solve each sub problem only  once then combine all the solutions to get the final solution otherwise  the solution will not be efficient at all, on the contrary Dynamic  Programming makes our life more difficult if the sub problems do not  overlap.
+
+
+How does DP Compare to Divide and Conquer?
+Dynamic Programming solves problems in a similar way to divide and  conquer technique by combining the solutions of sub problems however DP  is applied to optimization problems when sub problems are not  independent as in the case of divide and conquer. In the case of DP sub  problems share other sub problems that is why DP technique makes sure a  given sub problem is solved only once by saving the solution in a table  so that it can be used again. On the other hand divide and conquer  introduce more work when applied to optimization problems.
+
+
+Dynamic Programming versus Memoization
+The term Memoization in plain English means the ability to remember  something. Applying this concept to DP or Memoization means we need to  save already computed values in a table (for example) in order to  retrieve that value whenever needed without recalculating it from the  scratch. Dynamic Programming uses a bottom up approach to solve a given  optimization problem. On the other hand Memoization uses a top down  approach to solve a given problem. With that said we need to understand  the difference between bottom up and top down approaches so please keep  reading.
+
+
+Top down Approach
+If the problem that we are intending to solve can be formulated  recursively in terms of its sub problems (for example calculating the  factorial of a positive integer) and if these sub problems overlap (sub  problems are repeated over and over) then we can store the solutions in a  table. Whenever we attempt to solve a new sub problem we check if the  sub problem has already been solved before by simple table lookup. If  that is the case then we use the stored solution otherwise we proceed in  computing the new value then store it for later use. As you can see  this approach is nothing but a modified recursive method to improve  execution performance. If you are not familiar with recursion I  encourage you to read this article that I wrote sometime ago.
+
+
+Bottom up Approach
+Bottom up approach is the one used in Dynamic Programming. Again the  solution of a problem is formulated recursively in terms of sub problems  however we construct the solution for the bigger problem by first  solving the smaller problems then combining the solutions of the sub  problems. A table is used to store the solutions of the smaller  problems. Solutions to bigger sub problems are iteratively generated  using the saved solutions of the smaller sub problems and so on until  the grand solution is constructed. We will try to clarify these abstract  concepts by providing real examples later in this article.
+
+
+Dynamic Programming Steps
+
+All problems that can be solved using Dynamic Programming generally  follow the steps outlined below. These steps are not magical on their  own which means knowing the steps is not always enough to solve a given  problem. The level of difficulty is mainly determined by the actual  problem itself. Trying to solve more problems helps allot but there is  no magical touch (to be honest with you)
+
+    1.Characterize the structure of an optimal solution
+    2.Recursively define the value of an optimal solution
+    3.Compute the value of an optimal solution in a bottom up fashion
+    4.Construct an optimal solution from the computed information
+
+
+Let us briefly go through the steps mentioned earlier. These bullet  points are abstract concepts and hard to visualize without referring to  specific problems. The first step means you need to know the value you  are trying to optimize for example start asking questions like what is  the maximum profit that we can get, what is the minim time that we need  to spend and so on. Once you figure out what you need to optimize you  need to come out with a recursive formula to compute the optimal value.  In other words the optimized value should be defined in terms of smaller  size instances of the same problem for example the factorial of 10 is  computed using the factorial of 9. The third step is computing the  optimal value by combining the solutions of smaller sub problems. These  solutions are generated in a bottom up approach as discussed earlier.  The last step is constructing the solution because calculating the  optimal value is not the same as indicating how to get that value. One  table is usually used to store the solutions to sub problems and another  table is usually used to store back pointers to construct the final  solution which is the actual procedure to come out with an optimal  value.
+
