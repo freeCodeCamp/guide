@@ -31,3 +31,5 @@ auto last_employee = employees.back();
 ```
 
 Once the compiler determines the type on the right side of the `=` it replaces `auto` with that type.
+
+Auto is Compiler time, meaning the time it takes for the program to figure out what to replace auto with, happens during compile. Once the program is compiled, the two examples for with/without auto would look the same to the computer. This means that using auto takes longer to compile, but has the same runtime.
