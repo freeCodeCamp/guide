@@ -24,7 +24,7 @@ C# is an object-oriented language while also providing support for component-ori
 
 #### New Features Added on C# 7.0:
 1) Deconstructors
-2) New syntax to work with Tuples
+2) New syntax to work with Tuples Jatinder
 3) Pattern Matching with Is Expressions
 4) Local Functions
 5) Return by Reference
