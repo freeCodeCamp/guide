@@ -73,10 +73,24 @@ $obj1 = Singleton::getInstance();
 $obj2 = Singleton::getInstance();
 
 ```
+## Singleton in C#
+The most elegant, simple and highly performant version of the pattern using [System.Lazy\<T\>](http://msdn.microsoft.com/en-us/library/dd642331.aspx) type from .NET 4.0 or higher.
+```csharp
+public sealed class Singleton
+{
+    private static readonly Lazy<Singleton> lazy = new Lazy<Singleton>(() => new Singleton());
+    
+    public static Singleton Instance { get { return lazy.Value; } }
+   
+    private Singleton()
+    {
+    }
+}
+```
 
 ## Singleton in Python3
 
->>We can use metaclass to implement Singleton in Python3.
+We can use metaclass to implement Singleton in Python3.
 
 ```python
 class Singleton(type):
@@ -92,10 +106,11 @@ class Singleton(type):
 
 class MyClass(metaclass=Singleton):
     pass
+```
 
-```
-Testing
-```
+### Testing
+
+```python
 obj_0 = MyClass()
 obj_1 = MyClass()
 
@@ -105,3 +120,7 @@ Out[2]: <__main__.MyClass at 0x111130da0>
 In [3]: obj_1
 Out[3]: <__main__.MyClass at 0x111130da0>
 ```
+
+For more information, visit the following links:
+- [MSDN: Implementing Singleton in C#](https://msdn.microsoft.com/en-us/library/ff650316.aspx)
+- [C# in Depth. Implementing the Singleton Pattern in C#](http://csharpindepth.com/Articles/General/Singleton.aspx)
