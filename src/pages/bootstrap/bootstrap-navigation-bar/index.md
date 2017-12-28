@@ -163,3 +163,6 @@ On a small screen (such as a phone or tablet) the navbar is going to take up too
     </ul>
   </div>
 </nav>
+
+#### More Information:
+[BootStrap navbar documentation](https://getbootstrap.com/docs/4.0/components/navbar/)

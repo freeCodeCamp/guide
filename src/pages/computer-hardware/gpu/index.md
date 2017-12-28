@@ -9,8 +9,9 @@ A GPU is like a CPU but has different strengths and weaknesses. CPUs are very go
 
 GPUs can be used for computation as well as video rendering. Common ways to do this include OpenACC, CUDA, OpenCL, and OpenGL. Some applications include GPU implementations to reduce the amount of time the application takes to run.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+The GPU was originally used mainly for 3D game rendering to improve your resolution and framerate. But now these capabilities are being harnessed more broadly to improve computational workloads in many areas; for example financial modeling, cutting-edge scientific research and oil and gas exploration. GPU's are also used as a resource for bitcoin mining, since they are able to run repetitive tasks easily without straining the resources of the CPU, which allows you run an Operating System on the computer with a low end CPU while still being able to bitcoin mine using the GPU
 
+There are two major brands producing GPUs: NVidia and AMD. They are often referred as the "green team" and "red team" which indicate the major color of their logo. 
 
 Notable makers of GPU's include: Nvidia and AMD/ATI.
 
@@ -48,22 +49,22 @@ GPUs were evolving and advancing at it's peak rate and this generation GPUs were
 In 2006, the release of NVIDIA's GeForce 8 series GPU revolutionized the GPU industry and reach, by introducing the GPU as massively parallel processors. It was the first to have "unified" and "programmable" shaders or, in other words, programmable unified processor. Unified means all the processes of graphics pipeline were executed on a single processor and no external unit is required for any stage. Basic Unified GPU architecture components are discussed below.
 
 
-##Basic Unified GPU Architecture Components
+## Basic Unified GPU Architecture Components
 
 Unified GPU architectures are based on a parallel array of many programmable processors, wherein all the stages of graphics pipeline, viz., vertex, geometry, rasterization, and pixel shader processing and parallel computations on the same core, in contrast with earlier GPUs. The processor array is highly integrated with fixed function processors for compression and decompression, rasterization, raster operations, texture filtering, anti-aliasing, video decoding, and HD video processing.
 
 The following discussed architecture is focused on executing many parallel threads efficiently on many processor cores.
 
-###Processor Array
+### Processor Array
 A processor array consists of many processing cores. A unified GPU processor array has a typical organized structure of multi-threaded multi-processors. For execution of each thread, a multiprocessor is involved, and in each GPUs multi-processor, also known as Streaming Multiprocessors (SM), there are numerous Streaming processors, arranged in a queue. All the processors connect to DRAM partitions via interconnection network.
-###Multi-Threading
+### Multi-Threading
 As discussed earlier, GPU is optimized for high throughput and latency hiding. High scale multithreading shrinks the latency of memory loads from DRAM. While a thread is at stall because of a load or fetch instruction to complete, the processor can execute another thread. Also, because of high scale multithreading, GPU supports fine-grained parallel graphics shader programming models and fine-grained parallel computer programming models.
-###Multi-Processor Architecture
+### Multi-Processor Architecture
 Besides multiple processor cores in a SM, there are Special Functional Units, a multithreaded instruction unit, instruction and constant caches, and a shared memory. Also, each core consists of large multi-threaded register file (RF).Each streaming processor core consists of both integer and floating point arithmetic units, which together can handle most of the operations.
 
-###SIMT
+### SIMT
 The streaming multi-processor use a "single-instruction multiple-thread (SIMT)" architecture. The instructions are executed in group of parallel threads known as warps. Each parallel thread is of the same type and start together at the same program address. SIMT processor architecture is quite similar to SIMD architecture. In SIMT, a particular instruction is executed in multiple parallel threads independently, while in SIMD, same instruction is executed in multiple data lanes in synchronous groups.
-###Streaming Processor
+### Streaming Processor
 It executes all the fundamental FP operations as well as arithmetic, comparison, conversion, and logical PTX instructions.
 Special Functional Unit
 Some of the thread instructions are executed on SFUs simultaneously with other thread instruction being executed on the SPs.
@@ -77,3 +78,6 @@ Some of the thread instructions are executed on SFUs simultaneously with other t
 - <a href='https://developer.nvidia.com/cuda-zone' target='_blank' rel='nofollow'>CUDA</a>
 - <a href='https://www.khronos.org/opencl/' target='_blank' rel='nofollow'>OpenCL</a>
 - <a href='https://www.opengl.org/' target='_blank' rel='nofollow'>OpenGL</a>
+- <a href='https://blogs.nvidia.com/blog/2009/12/16/whats-the-difference-between-a-cpu-and-a-gpu/' target='_blank' rel='nofollow'>nVidia Blog</a>
+- <a href='https://www.nvidia.com/' target='_blank' rel='nofollow'>NVidia</a>
+- <a href='http://www.amd.com/en-us/products/graphics' target='_blank' rel='nofollow'>AMD</a>
