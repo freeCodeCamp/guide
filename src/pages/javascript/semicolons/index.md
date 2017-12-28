@@ -17,16 +17,4 @@ A consistent coding style makes code more readable. Decide whether you will or w
 
 ### Other resources
 
-<aside class="onebox whitelistedgeneric">
-
-<header class="source">[blog.izs.me</a></header>
-
-<article class="onebox-body">![](http://assets.tumblr.com/images/og/fb_landscape_share.png)
-
-### <a href='http://blog.izs.me/post/2353458699/an-open-letter-to-javascript-leaders-regarding' target='_blank' rel='nofollow'>An Open Letter to JavaScript Leaders Regarding Semicolons</a>
-
-I got this email last night from Sean Silva: “ I was browsing the code for your npm.js project (this file in particular: https://github.com/isaacs/npm/blob/master/lib/npm.js), and noticed you using a...
-
-</article>
-
-</aside>
+<a href='http://blog.izs.me/post/2353458699/an-open-letter-to-javascript-leaders-regarding' target='_blank' rel='nofollow'>An Open Letter to JavaScript Leaders Regarding Semicolons</a>
