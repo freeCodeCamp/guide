@@ -1,0 +1,10 @@
+Scalable Vector Graphics (SVG) is an image format that can draw 2D graphics directly in the browser.
+SVG is based on XML and supports features such as interactivity, transitions and animations.
+SVG was one of the many standards designed by the World Wide Web Consortium (W3C).
+Typically SVG graphics are stored in XML files and edited using vector-based image manipulation programs.
+Many browsers can display SVG graphics in a manner similar to how they display other image formats.
+
+HTML5 introduced the ability to embed SVG graphics directly in web pages. Now you can create SVG shapes in your HTML web page and manipulate them directly with CSS or JavaScript.
+SVG shapes allow you to create simple graphics without the need to learn the syntax for drawing paths. 
+You can combine various SVG shapes to create complex objects such as logos. SVG elements need to be put inside the <svg> tags.
+Some of the shapes you can create with SVG are: text, line, rectangle, circle and polygon.
