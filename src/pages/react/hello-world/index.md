@@ -1,33 +1,61 @@
 ---
-title: React - Hello World
+title: Hello World
 ---
-## React - Hello World
+## Hello World !!
 
-In react.js you can write the most easy programs with hello world example look like this :
+Every language learning starts with Traditional Hello World example. Here, you get introduced to React with the same HelloWorld program.
 
-```js
-ReactDOM.render(
-  <h1>Hello, world!</h1>,
-  document.getElementById('app')
-);
+Everything in React is a component. So firstly, you need to create HelloWorld component.
+
+#### HelloWorld.js
+
+```javascript
+  import React from 'react';
+
+  class HelloWorld extends React.Component{
+    constructor(props) {
+      super(props);
+    }
+
+    render(){
+      return(
+        <div>
+          <p>Hello World !!</p>
+        </div>
+      );
+    }
+  }
+
+  export default HelloWorld;
 ```
 
-`ReactDOM.render()` is the part when react will render the component. in this case is `<h1>Hello, world!</h1>`, and ` document.getElementById('app')` is part react will render your component into html by id. which you can see here :
+You need to have index.html which has a div with id=”helloWorld” where our HelloWorld component gets rendered.
+
+#### index.html
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <title>React App</title>
-   </head>
-   <body>
-      <!-- Root Element -->
-      <div id="app"></div>
-      <script src="index.js"></script>
-   </body>
-</html>
-
+  <!doctype html>
+  <html>
+    <head>
+      <title>Hello World !!</title>
+    </head>
+    <body>
+      <div id="helloWorld"></div>
+    </body>
+  </html>
 ```
 
-`<div id="app"></div>` app is the target id.`<script src="index.js"></script>` index.js come from webpack output bundled app.
+Then, you need to create index.js that act as link between HelloWorld.js and index.html, which tells exactly where we need to render the component.
+
+#### index.js
+
+```javascript
+  import ReactDOM from 'react-dom';
+  import HelloWorld from './HelloWorld';
+
+  ReactDOM.render(<HelloWorld />, document.getElementById('helloWorld'));
+```
+
+Congrats !! You have created your first React component. You learn more about React in the coming articles.
+
+Happy Coding !!
