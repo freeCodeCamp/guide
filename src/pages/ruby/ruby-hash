@@ -1,0 +1,24 @@
+---
+title: Ruby Hashes
+---		 
+
+## Ruby Hashes
+
+A hash is a collection of key-value pairs, each key being unique. To make a hash in Ruby,
+use curly brackets, separate key and associated value with colon, finally separate each pairs with comma:
+
+```ruby
+my_hash = { "Jean" => 18, "Maria" => 18, "Simon" => 26 }
+```
+
+You can read a value of an hash using its paired key:
+
+```ruby
+my_hash["Jean"] #=> 18
+```
+
+You can read the key of a specific value using the `.key` method:
+
+```ruby
+my_hash.key(26) #=> "Simon"
+```
