@@ -17,16 +17,20 @@ Basic Principles of Redux:
 In practical terms how do we use Redux exactly?
 ### RULE 1
 #### Where is this state stored? Redux supplies you a handy function called
-```
+
+```js
 createStore()
 ```
+
 Where you create the store that will hold all your state.
 
 ### RULE 3 (I’m going to show rule 3 first since it will make more sense)
 #### State can only be changed by a pure function aka a reducer so to create this connection we will pass in our reducer to createStore() like so
-```
+
+```js
 var store = createStore(reducer)
 ```
+
 It gets more complicated when you have more reducers but at the core, the store now has a reducer attached to it
 
 ### RULE 2
@@ -34,12 +38,13 @@ It gets more complicated when you have more reducers but at the core, the store 
 
 You can see where this is going.
 
-```
+```js
 store.dispatch(action)
 ```
+
 Before I get into what a reducer and an a action is I think showing you a very basic and limited implementation of Redux’s createStore() will help greatly.
 
-````
+```js
 createStore = (reducer) => {
     let state;
 //dispatch method
@@ -49,16 +54,19 @@ createStore = (reducer) => {
   return {dispatch}
 }
 ```
+
 See how we passed in a reducer to createStore and it becomes set in our dispatch method; and when we call the dispatch method it takes in an action and it sets a new state based on what reducer will return.
 
 ## What is a Reducer? What is an Action?
 An Action at the most basic level is an object that has a property called type. It can also have other properties but for simplicity it will only have type.
-```
+
+```js
 var someAction = {type:'doSomething'}
 ```
+
 A reducer is just a function:
 
-```
+```js
 var reducer = (state, action) => {
     
     if (action.type === 'doSomething'){
@@ -70,8 +78,10 @@ var reducer = (state, action) => {
     }
 }
 ```
+
 The action that we pass into a reducer will determine how the state will be changed depending on the type.
 Redux does get more complicated but if you understand these principles then you will have an easier time navigating through react-redux projects!
 
-For more information head to [http://redux.js.org/](http://redux.js.org/)
+#### More Information:
 
+For more information head to [http://redux.js.org/](http://redux.js.org/)
