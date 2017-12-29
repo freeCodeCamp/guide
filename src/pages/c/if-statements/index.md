@@ -1,6 +1,7 @@
 ---
-Title: Logical Operators and If Statements
+title: Logical Operators and If Statements
 ---
+
 # if Statements in C
 Sometimes you only want code to run in a certain situation. That's where if statements come in to play. If something is true, the code will be executed; if it isn't true, the code will not be executed.
 
