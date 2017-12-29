@@ -67,7 +67,7 @@ module.exports = function(grunt) {
         }]
       }
     },
-    
+
     postcss: {
       options: {
         processors: [
@@ -79,7 +79,7 @@ module.exports = function(grunt) {
         src: "dest/css/*.css"
       }
     },
-    
+
      uglify: {
       js: {
         files: {
@@ -87,7 +87,7 @@ module.exports = function(grunt) {
         }
       },
     },
-    
+
     imagemin: {
       img: {
         options: {
@@ -103,15 +103,34 @@ module.exports = function(grunt) {
       }
     },
   });
-  
+
   grunt.loadNpmTasks("grunt-contrib-htmlmin");
   grunt.loadNpmTasks("grunt-postcss");
   grunt.loadNpmTasks("grunt-contrib-uglify");
   grunt.loadNpmTasks("grunt-contrib-imagemin");
-  
+
   grunt.registerTask("default", ["htmlmin", "postcss", "uglify, imagemin"]);
 };
 ```
+#### Permission on Unix systems
+
+Most of the time you should be fine using Grunt in Windows, but if you are a Linux or MacOS user, things can get a bit tricky.
+You need to give Grunt the **appropiate  permissions** in order for you to successfully execute the grunt-tasks. You can achieve this
+by using:
+
+```
+sudo chown username:groupname projectRootDirectory
+sudo chmod 77
+```
+
+`chown` in this case will make you the owner of the directory and `chmod` will grant you the following permissions: `--rwxrwx---` (read, write and execute permissions for the owner and group). You can look up the permissions with:
+
+```
+ls -l
+```
+
+After you have done that, you can enjoy using Grunt without having any permission problems on Unix systems.
+
 
 #### More Information:
 
