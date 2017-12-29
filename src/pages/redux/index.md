@@ -1,6 +1,7 @@
 ---
 title: Redux
 ---
+
 ## Redux
 
 Redux is a predictable state container for JavaScript apps.
@@ -73,3 +74,4 @@ The action that we pass into a reducer will determine how the state will be chan
 Redux does get more complicated but if you understand these principles then you will have an easier time navigating through react-redux projects!
 
 For more information head to [http://redux.js.org/](http://redux.js.org/)
+
