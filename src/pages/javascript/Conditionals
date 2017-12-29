@@ -1,0 +1,153 @@
+JavaScript Conditionals
+
+Conditionals control behavior in JavaScript and determine whether or not pieces of code can run.
+
+if
+
+The most common type of conditional is the if statement, which only runs if the condition enclosed in parentheses () is truthy.
+
+An if statement looks like this:
+EDITABLE CODE
+if (10 > 5) {
+    var outcome = "if block";
+}
+​
+outcome;
+"if block"
+
+Here’s what’s happening in the example above:
+•	The keyword if tells JavaScript to start the conditional statement.
+•	(10 > 5) is the condition to test, which in this case is true — 10 isgreater than 5.
+•	The part contained inside curly braces {} is the block of code to run.
+•	Because the condition passes, the variable outcome is assigned the value "if block".
+
+else
+You can extend an if statement with an else statement, which adds another block to run when the if conditional doesn’t pass.
+EDITABLE CODE
+if ("cat" === "dog") {
+    var outcome = "if block";
+} else {
+    var outcome = "else block";
+}
+outcome;
+"else block"
+
+In the example above, "cat" and "dog" are not equal, so the else block runs and the variable outcome gets the value "else block".
+
+else if
+
+You can also extend an if statement with an else if statement, which adds another conditional with its own block.
+EDITABLE CODE
+if (false) {
+    var outcome = "if block";
+} else if (true) {
+    var outcome = "else if block";
+} else {
+    var outcome = "else block";
+}
+outcome;
+"else if block"
+
+You can use multiple if else conditionals, but note that only the first else if block runs. JavaScript skips any remaining conditionals after it runs the first one that passes.
+EDITABLE CODE
+
+if (false) {
+    var outcome = "if block";
+} else if (true) {
+    var outcome = "first else if block";
+} else if (true) {
+    var outcome = "second else if block";
+} else {JavaScript Conditionals
+
+Conditionals control behavior in JavaScript and determine whether or not pieces of code can run.
+
+if
+
+The most common type of conditional is the if statement, which only runs if the condition enclosed in parentheses () is truthy.
+An if statement looks like this:
+
+EDITABLE CODE
+if (10 > 5) {
+    var outcome = "if block";
+}
+
+outcome;
+"if block"
+
+Here’s what’s happening in the example above:
+•	The keyword if tells JavaScript to start the conditional statement.
+•	(10 > 5) is the condition to test, which in this case is true — 10 isgreater than 5.
+•	The part contained inside curly braces {} is the block of code to run.
+•	Because the condition passes, the variable outcome is assigned the value "if block".
+else
+
+You can extend an if statement with an else statement, which adds another block to run when the if conditional doesn’t pass.
+EDITABLE CODE
+
+if ("cat" === "dog") {
+    var outcome = "if block";
+} else {
+    var outcome = "else block";
+}
+
+outcome;
+"else block"
+
+In the example above, "cat" and "dog" are not equal, so the else block runs and the variable outcome gets the value "else block".
+else if
+
+You can also extend an if statement with an else if statement, which adds another conditional with its own block.
+EDITABLE CODE
+if (false) {
+    var outcome = "if block";
+} else if (true) {
+    var outcome = "else if block";
+} else {
+    var outcome = "else block";
+}
+
+outcome;
+"else if block"
+
+You can use multiple if else conditionals, but note that only the first else if block runs. JavaScript skips any remaining conditionals after it runs the first one that passes.
+EDITABLE CODE
+if (false) {
+    var outcome = "if block";
+} else if (true) {
+    var outcome = "first else if block";
+} else if (true) {
+    var outcome = "second else if block";
+} else {
+    var outcome = "else block";
+}
+
+outcome;
+"first else if block"
+An else if statement doesn’t need a following else statement to work. If none of the if or else if conditions pass, then JavaScript moves forward and doesn’t run any of the conditional blocks of code.
+EDITABLE CODE
+if (false) {
+    var outcome = "if block";
+} else if (false) {
+    var outcome = "else if block";
+}
+
+outcome;
+"first else if block"
+
+
+    var outcome = "else block";
+}
+
+outcome;
+"first else if block"
+An else if statement doesn’t need a following else statement to work. If none of the if or else if conditions pass, then JavaScript moves forward and doesn’t run any of the conditional blocks of code.
+EDITABLE CODE
+if (false) {
+    var outcome = "if block";
+} else if (false) {
+    var outcome = "else if block";
+}
+
+outcome;
+"first else if block"
+
