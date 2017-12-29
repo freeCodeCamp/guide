@@ -1,6 +1,7 @@
 ---
 title: Arrays
 ---
+
 # Array
 
 An Array is used to store a collection of data of similar datatype. Arrays always start with the index of 0. Java arrays are homogeneous, meaning all elements must be one data type (as opposed to Ruby where elements may be of mixed types).
@@ -90,11 +91,14 @@ for (int i = 0; i < a.length; i++){ // loop goes through each index
 ![:rocket:](https://forum.freecodecamp.org/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/NC2Y' target='_blank' rel='nofollow'>Run Code</a>
 
 Output:
-```
+```java
     4
     5
     6
     7
     8
 ```
+
+#### More Information:
+
 Source: <a href='https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html' target='_blank' rel='nofollow'>Java Arrays</a>
