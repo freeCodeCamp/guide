@@ -125,6 +125,8 @@ CMD ["npm", "start"]
 
 ```
 
+#### More Information:
+
 - [Beginner friendly doc](https://medium.freecodecamp.org/a-beginner-friendly-introduction-to-containers-vms-and-docker-79a9e3e119b)
 - [Docker Official docs](https://docs.docker.com/get-started/)
 - [Try Docker Online](http://training.play-with-docker.com/)
