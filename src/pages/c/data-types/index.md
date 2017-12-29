@@ -15,7 +15,7 @@ C allows us to choose between several different options with our data types beca
 ## Integer data types
 
 #### Characters: `char`
-`char` holds characters- things like letters, punctuation, and spaces. In a computer, characters are stored as numbers, so `char` holds integer values that represent characters. The actual translation is described by the ASCII standard. [Here's](http://www.asciitable.com/) a handy table for looking up that.
+`char` holds characters- things like letters, punctuation, and spaces. In a computer, characters are stored as numbers, so `char` holds integer values that represent characters. The actual translation is described by the ASCII standard. <a href='http://www.asciitable.com/' target='_blank' rel='nofollow'>Here's</a> a handy table for looking up that.
 
 The actual size, like all other data types in C, depends on the hardware you're working on. By minimum, it is at least 8 bits, so you will have at least 0 to 127. Alternatively, you can use `signed char` to get at least -128 to 127.
 
