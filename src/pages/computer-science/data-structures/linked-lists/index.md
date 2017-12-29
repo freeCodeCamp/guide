@@ -1,6 +1,8 @@
 
 ## Linked Lists
- 
+---
+title: Linked Lists
+---
 #### A Linked List is a simple *linear-access* data structure. 
 A linked list is a simple data structure, but it can be used to implement more complicated Data Structures like Queues, Stacks, etc. There are three types of Linked Lists:
 
