@@ -1,6 +1,7 @@
 ---
 title: Accessibility Basics
 ---
+
 > "The Dark Arts are many, varied, ever-changing, and eternal. Fighting them is like fighting a many-headed monster, which, each time a neck is severed, sprouts a head even fiercer and cleverer than before. You are fighting that which is unfixed, mutating, indestructible."
 > 
 > -- Severus Snape, Harry Potter and the Half-Blood Prince, Chapter 7
