@@ -3,6 +3,8 @@ title: Containers
 ---
 ## Containers
 
+Containers are a solution to the problem of how to get software to run reliably when moved from one computing environment to another. 
+
 Containers are an operating-system-level virtualization. It is an operating system feature in which the kernel allows the existence of multiple isolated user-space instances. Such instances, called containers may look like real computers from the point of view of programs running in them.
 
 ## Virtual Machines
@@ -32,3 +34,7 @@ Unlike a VM which provides hardware virtualization, a container provides operati
 For all intent and purposes, containers look like a VM. For example, they have private space for processing, can execute commands as root, have a private network interface and IP address, allow custom routes and iptable rules, can mount file systems, and etc.
 
 The one big difference between containers and VMs is that containers *share* the host system’s kernel with other containers.
+
+## Orchestration
+
+There are several container orchestration frameworks leveraged in production: docker-swarm and kubernetes
