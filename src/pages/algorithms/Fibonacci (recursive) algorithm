@@ -1,0 +1,26 @@
+#include <stdio.h>
+//FIBONACCI NUMBERS
+//Ok,this code asks you for an integer and then through
+// recursion finds the fibonacci number of that integer.
+// Recursion is a very useful technique to use in functions when you have to calculate some sequence.
+//It may seem difficult at first but you will find it very useful once you learn how it works.
+int fibo(int x){
+if(x==0 || x==1 ) return x; //Basically, F[0]=0 ,F[1]=1
+
+
+return fibo(x-1) + fibo(x-2);	//F(n) = F(n-1)  + F(n-2)
+}
+
+
+
+
+int main(){
+	int x;
+	printf("Give number:\n");
+	scanf("%d",&x);
+	printf("The fibonacci is:%d",fibo(x));
+	
+	
+
+return 0;
+}
