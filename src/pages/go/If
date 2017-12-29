@@ -1,0 +1,15 @@
+---
+title: If in Go
+---
+
+# If statement in Go
+
+For the flow control in Go the `if` statement is a common choice. `If` statements are used to make the execution of a certain section of the program depending on a condition. If that condition is evalueted to TRUE the section will be executed, if FALSE it will be skipped.
+
+
+
+    ```go
+    if <that is to be evaluated and must be boolean then> {
+        //code that will be ececuted if the condition is 'true'
+    }
+    ```
