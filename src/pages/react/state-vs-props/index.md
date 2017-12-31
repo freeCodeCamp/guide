@@ -45,6 +45,7 @@ See the below example to get an idea of state:
 
   export default Person;
 ```
+In the above example,  `age` is the state of `Person` component. 
 
 ## Props:
 
@@ -72,6 +73,8 @@ See the below example to get an idea of Props:
 
   const person = <Person character = "good"></Person>
 ```
+
+In the above example, `const person = <Person character = "good"></Person>` we are passing `character = "good"` prop to `Person` component.
 
 It gives output as "I am a good person", in fact I am.
 
