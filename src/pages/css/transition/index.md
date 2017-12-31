@@ -1,8 +1,8 @@
 ---
 title: Transition
 ---
+<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 ## Transition
-
 
 The `transition` property allows you to change property values smoothly (from one value to another), over a given duration. 
 ```css 
@@ -40,16 +40,10 @@ or the property `transition-timing-function`
 `cubic-bezier(n,n,n,n)` - lets you define your own values in a cubic-bezier function
 
 
-### More Information:
-
-MDN Documentation: <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/transition' target='_blank' rel='nofollow'>MDN</a>
-
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-Easings reference: <a href='http://easings.net/en' target='_blank' rel='nofollow'>Easings</a>
+* MDN Documentation: <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/transition' target='_blank' rel='nofollow'>MDN</a>
+* Easings reference: <a href='http://easings.net/en' target='_blank' rel='nofollow'>Easings</a>
 
 
 
