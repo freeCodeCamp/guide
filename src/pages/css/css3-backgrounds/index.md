@@ -89,7 +89,7 @@ It doesn't matter if one property is missing, as long as you respect the order:
 This will work even if the color and the attachment are missing.
 
 
+
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
-More information on MDN: <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/background' target='_blank' rel='nofollow'>MDN</a>
+<a href='https://developer.mozilla.org/en-US/docs/Web/CSS/background' target='_blank' rel='nofollow'>MDN</a>
