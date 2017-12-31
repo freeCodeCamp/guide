@@ -30,4 +30,38 @@ Note that vertical-align only applies to inline and table-cell elements: you can
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
+Programmers use **vertical-align** to specify the alignment of inline, or table-box, vertically.
+
+It's simple use is:
+```
+.someclass { 
+  vertical-align: middle;
+}
+```
+**vertical-align** has more valid values, these are:
+  
+⋅ 
+* baseline
+
+* sub
+
+* super
+
+* top
+
+* text-top
+
+* middle
+
+* bottom
+
+* text-bottom
+
+* length
+
+apart from these, you can also use any value in %.
+
+You can find more info about vertical-align [here](https://css-tricks.com/what-is-vertical-align/)
+
+[vertical-align on Mozille Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/vertical-align)
 
