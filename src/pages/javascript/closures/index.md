@@ -170,6 +170,8 @@ myModule.method1(); // I am method 1
 myModule.method2(); // I am method 2, I am a private variable
 ```
 
+Closures are useful for capturing new instances of private variables contained in the 'remembered' environment, and those variables can only be accessed through the returned function or methods.
+
 ### More Information:
 
 <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures' target='_blank' rel='nofollow'>MDN</a>
