@@ -15,3 +15,7 @@ You can build some pretty amazing things in CSS alone, such as <a href='https://
 #### Suggested Reading:
 
 A good start is the current Beta <a href='https://github.com/freeCodeCamp/freeCodeCamp/blob/staging/seed/challenges/01-responsive-web-design/basic-css.json#L14' target='_blank' rel='nofollow'>introduction for the CSS challenges</a>
+
+### CSS Grid Layout
+
+CSS Grid Layout aka Grid CSS is the most powerful layout system available in CSS. It is a 2-dimensional system, meaning it can handle both columns and rows. Meanwhile, the flexbox which is largely a 1-dimensional system. You work with Grid Layout by applying CSS rules both to a parent element (which becomes the Grid Container) and to that elements children (which become Grid Items).
