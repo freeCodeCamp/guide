@@ -158,9 +158,22 @@ As an alternative to JSX, you can use ES6 and Javascript's compiler like Babel. 
 
 For more information head to <a href='https://reactjs.org/' target='_blank' rel='nofollow'>https://reactjs.org/</a>
 
+## Advantages of React
+
+Some reasons to use React are:
+
+1. Fast. Apps made in React can handle complex updates and still feel quick and responsive.
+2. Modular. Instead of writing large, dense files of code, you can write many smaller, reusable files. React's modularity can be a beautiful solution to JavaScript's [maintainability problems](https://en.wikipedia.org/wiki/Spaghetti_code).
+3. Scalable. Large programs that display a lot of changing data are where React performs best.
+4. Flexible. You can use React for interesting projects that have nothing to do with making a web app. People are still figuring out React's potential. [There's room to explore](https://medium.mybridge.co/22-amazing-open-source-react-projects-cb8230ec719f).
+
 ### Tutorials
 <a href='https://egghead.io/browse/frameworks/react' target='_blank' rel='nofollow'>Egghead.io React</a>
 
 ### People to Follow
 * <a href='https://twitter.com/dan_abramov' target='_blank' rel='nofollow'>Dan Abramov Twitter</a>
+
+#### More Information
+* [https://reactjs.org/](https://reactjs.org/)
+
 
