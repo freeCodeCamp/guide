@@ -47,3 +47,9 @@ a. `componentWillUnmount()`
 - `constructor`, `componentWillMount`, `componentDidMount` and `componentWillUnmount` will be called only once during the lifecycle of a component.
 - `componentWillUpdate`,  and `componentDidUpdate` will only be executed if and only if `shouldComponentUpdate` returns true.
 - `componentWillUnmount()`will be called just before unmounting any component and hence can be used to free up the used memory, close any connections to DB, etc.
+
+Many things can be learnt by diving into coding. So get your hands dirty by coding.
+
+Reach me out on [twitter](https://twitter.com/getifyJr) if needed.
+
+Happy Coding !!!
