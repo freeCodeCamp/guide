@@ -7,14 +7,10 @@ In this section, we'll have guides to a wide variety of tools used by designers.
 
 These are some of them:
 
-- [Adobe Experience Design](www.adobe.com/products/experience-design.html)
-
+- [Adobe Experience Design](https://www.adobe.com/products/xd.html)
 - [Figma](https://www.figma.com)
-
 - [Framer](https://framer.com)
-
-- [Adobe Photoshop](http://adobe.com/Photoshop)
-
+- [Adobe Photoshop](https://www.adobe.com/products/photoshop.html)
 - [Sketch](https://www.sketchapp.com)
 
 ## Firefox Plug-In Tools 
