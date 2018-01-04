@@ -3,7 +3,6 @@ title: SQL Insert Query
 ---
 ## SQL Insert Query
 
-
 Insert queries are a way to insert data into a table. Lets say we have created a table using
 
 `CREATE TABLE example_table ( name varchar(255), age int)`
