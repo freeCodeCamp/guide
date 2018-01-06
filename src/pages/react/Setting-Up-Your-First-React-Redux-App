@@ -1,0 +1,166 @@
+# Atom Setup
+
+Atom is a great code editor that has a lot of really great packages. I recommend the `emmet` package for writing JSX with autocomplete.
+
+To set it up go to Atom -> Preferences -> Install:
+1. Install `emmet` package in atom.
+2. Install `language-babel` package in atom.
+3. Go to Atom -> Keymap...
+4. Paste the following code at the bottom of the page: 
+
+```
+'atom-text-editor[data-grammar~="jsx"]:not([mini])':
+  'tab': 'emmet:expand-abbreviation-with-tab'
+```
+
+Now you are all set to begin!
+
+# Creating the React App
+The quickest way to get started and hacking on your React App is the `create-react-app`.
+
+If you haven't installed it you can install it by:
+
+```
+$ npm install -g create-react-app
+```
+
+To get started run the create-react-app with the name of your project:
+
+```
+$ create-react-app basic-react-redux-setup
+$ cd basic-react-redux-setup
+```
+
+# Setting Up Linting
+
+Linters are important for having clean and readable code. This section will walk you through setting up a linter for react.
+For this gist we are going to use `eslint` with the `Air BnB plugin`.
+
+Before getting started lets check the dependencies for the package `eslint-airbnb-config`:
+```
+$ npm info "eslint-config-airbnb@latest" peerDependencies
+```
+At the time of writing the peerDependencies are (for version 15.0.2):
+
+```
+{ eslint: '^3.19.0',
+  'eslint-plugin-jsx-a11y': '^5.1.1',
+  'eslint-plugin-import': '^2.6.1',
+  'eslint-plugin-react': '^7.1.0' }
+```
+
+It is important to note that it is not always the best to use the latest version of the npm packages. Eslint@^4.0.0 currently does not actually support `eslint-config-airbnb`.
+
+Lets start by installing eslint:
+```
+$ npm install -D eslint@3.19.0
+```
+
+Now lets add the other dependencies in this order: 
+```
+$ npm install -D eslint-plugin-jsx-a11y@5.1.1
+$ npm install -D eslint-plugin-import@2.6.1
+$ npm install -D eslint-plugin-react@7.1.0
+```
+
+Now that all the dependencies are installed we can install our `eslint-config-airbnb`
+```
+$ npm install -D eslint-config-airbnb
+```
+
+Now lets set up our linter rules. In the root directory create an eslint config file:
+
+```
+$ touch .eslintrc.yml
+```
+
+Now lets open up our code and add some rules. Within the `.eslintrc.yml` file add:
+
+```
+extends: airbnb
+plugins:
+  - react
+  - jsx-a11y
+  - import
+env:
+  browser: true
+rules:
+  react/jsx-filename-extension:
+    - 1
+    - extensions:
+      - ".js"
+      - ".jsx"
+  import/no-unresolved:
+    - 0
+```
+The eslintrc.yml file above says that eslint should extend its rules to include Airbnb's and to include the React, JSX, and Import plugins we installed above. The rules listed allow us to write JSX in both .js and .jsx files and we get a warning when we are importing non-used files into our code. Adding the env for browser will eliminate errors for browser related methods such as fetch.
+
+To verify that everything is set up correctly go to the App.js and you should see an error below letting you know that `class App extends Component` should be written as a pure functional component.
+
+![App.js Error](https://image.ibb.co/b29ZkQ/Screen_Shot_2017_07_19_at_9_54_24_AM.png "App Error")
+
+When you refactor and take out the `{ Component }` import from the top your code should look like this: 
+
+![App.js Fixes](https://image.ibb.co/kCXjKk/Screen_Shot_2017_07_19_at_2_38_49_PM.png "App Fixed")
+
+For more info on extra configuration please visit the [eslint docs](http://eslint.org/docs/user-guide/configuring#extending-configuration-files) and the [Airbnb Docs](https://github.com/airbnb/javascript/tree/master/react).
+
+Now that we have our linters set up lets move on to file structure!
+
+# File Structure
+
+Good React-Redux code is modular and will therefore contain ALOT of files on bigger applications. The way I tend to structure my apps is the following:
+
+```
+React App Directory
++-- public
+|   +- favicon.io
+|   +- index.html*
+|   +- manifest.json
++-- src
+|   +-- Components 
+|   |   +-- Home 
+|   |   |   +-- Home.js
+|   |   |   +-- Home.css
+|   |   +-- Another Component 
+|   |   |   +-- AnotherComponent.js
+|   |   |   +-- AnotherComponent.css
+|   |   +-- Forms**
+|   |   |   |   +-- FormsOne 
+|   |   |   |   |    +-- FormsOne.js
+|   |   |   |   |    +-- FormsOne.css
+|   |   |   |   +-- FormsTwo 
+|   |   |   |   |    +-- FormsTwo.js
+|   |   |   |   |    +-- FormsTwo.css
+|   +-- Redux
+|   |   +--  Actions
+|   |   |     +-- SimilarActions1.js***
+|   |   |     +-- SimilarActions2.js***
+|   |   |     +-- SimilarActions3.js***
+|   |   +--  Reducer
+|   |   |     +-- Reducers1.js****
+|   |   |     +-- Reducers2.js****
+|   |   |     +-- Reducers3.js****
+|   +-- Constants
+|   |   +--  Constants.js *****
+|   +-- Helpers
+|   |   +--  Helpers.js ******
+|   +-- App.js
+|   +-- App.css
+|   +-- index.js
+|   +-- index.css
+.eslintrc.yml
+.gitignore
+package.json
+README.md******* 
+
+* Be sure to change the title from  'React App' to your apps title
+** Group Like with Like if it makes sense
+*** Similar actions can be user status actions like login and logout
+**** Can have more than 1 reducer per file if reducers are used for different pieces of state but are somewhat similar. I.E. reducer for FormOne and FormTwo.
+***** Constants file is used for storing your constants such as `USER_LOGIN`
+****** Helpers can be used for helper functions
+******* Be sure to remove the create-react-app text and replace with a more accurate description of your project
+```
+Below is a picture of how I would structure my file structure in a hypothetical app:
+![Example File Layout](https://image.ibb.co/bJSyvQ/Screen_Shot_2017_07_19_at_11_50_09_AM.png "example file layout")
