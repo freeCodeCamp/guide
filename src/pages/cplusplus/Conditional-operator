@@ -1,0 +1,13 @@
+---
+title: The conditional operator
+---
+
+The conditional operator can be used as a short alternative to the if-else statement.
+
+Format:
+
+expression1 ? expression2 : expression3;
+
+The first expression will be tested.
+The second expression will execute if the first expression is true.
+The third expression will execute if the first expression is false.
