@@ -1,0 +1,47 @@
+---
+title: Switch statement
+---
+
+The switch statement can select an option between multiple statements. It can be an alternative for an if/else if statement.
+
+General format:
+
+switch (expression) //integer
+{                   
+	case expression1: statement1;
+  break;
+	case expression2: statement2;
+  break;
+..........
+
+	default:   statement3;
+}
+
+
+There are no limits to the number of cases.
+When a case is not chosen, the switch statement will execute the default line.
+Each case has to be separated by a break; statement.
+
+
+Example:
+int main()
+{
+char expression;
+
+cout << "Enter letter A or B";
+cin >> expression;
+
+switch(expression)
+{
+  case 'A': cout << "You entered A.";
+  break;
+  case 'B': cout << "You entered B.";
+  break;
+  default: cout << "You did not enter A or B.";
+}
+return 0;
+}
+
+
+
+
