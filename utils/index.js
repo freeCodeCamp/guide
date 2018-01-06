@@ -12,3 +12,6 @@ module.exports = {
   readDir,
   pagesDir
 };
+
+
+Const is short for constant
