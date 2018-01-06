@@ -1,0 +1,21 @@
+Hello World! - Your first PHP Program
+
+What is php? 
+PHP is a server-side scripting language created in 1995 by Rasmus Lerdorf.
+
+What is PHP used for?
+It is typically used to generate web page content dynamically. For example, if you have a blog website, you might write some PHP scripts to retrieve your blog posts from a database and display them. Other things that PHP scripts could be used for include:
+
+Processing and saving user input from form data
+Setting and working with website cookies
+Restricting access to certain pages of your website
+
+Hello World in php
+
+<?php
+  echo "Hello World!";
+?>
+
+Code Description
+
+This is as basic as PHP gets. Three simple lines, the first line identifies that everything beyond the <?php tag, until the ?> tag, is PHP code. The second line causes the greeting to be printed (or echoed) to the web page. This next example is slightly more complex and uses variables.
