@@ -1,0 +1,79 @@
+---
+title: SQL HAVING Clause
+---
+
+The HAVING clause was added to SQL because the WHERE keyword could not be used with aggregate functions.
+
+### HAVING Syntax
+
+```sql
+SELECT column_name(s)
+FROM table_name
+WHERE condition
+GROUP BY column_name(s)
+HAVING condition
+ORDER BY column_name(s);
+```
+
+### Demo Database
+
+Below is a selection from the "Customers" table in the Northwind sample database:
+
+|CustomerID|CustomerName|ContactName|Address|City|PostalCode|Country|
+|---|---|---|---|---|---|---|
+|1| Alfreds |Futterkiste 	|Maria Anders 	|Obere Str. 57 	|Berlin 	|12209 	|Germany|
+|2| Ana Trujillo Emparedados y helados 	|Ana Trujillo 	|Avda. de la Constitución 2222 	|México D.F. 	|05021 	|Mexico|
+|3| Antonio Moreno Taquería 	|Antonio Moreno 	|Mataderos 2312 	|México D.F. 	|05023 	|Mexico|
+|4| Around the Horn 	|Thomas Hardy 	|120 Hanover Sq. 	|London 	|WA1 1DP 	|UK|
+|5| Berglunds snabbköp 	|Christina Berglund 	|Berguvsvägen 8 	|Luleå 	|S-958 22 	|Sweden|
+
+### SQL HAVING Examples
+
+The following SQL statement lists the number of customers in each country. Only include countries with more than 5 customers:
+
+#### Example
+
+```sql
+SELECT COUNT(CustomerID), Country
+FROM Customers
+GROUP BY Country
+HAVING COUNT(CustomerID) > 5;
+```
+The following SQL statement lists the number of customers in each country, sorted high to low (Only include countries with more than 5 customers):
+
+#### Example
+
+```sql
+SELECT COUNT(CustomerID), Country
+FROM Customers
+GROUP BY Country
+HAVING COUNT(CustomerID) > 5
+ORDER BY COUNT(CustomerID) DESC;
+```
+
+### More HAVING Examples
+
+The following SQL statement lists the employees that have registered more than 10 orders:
+
+#### Example
+
+```sql
+SELECT Employees.LastName, COUNT(Orders.OrderID) AS NumberOfOrders
+FROM (Orders
+INNER JOIN Employees ON Orders.EmployeeID = Employees.EmployeeID)
+GROUP BY LastName
+HAVING COUNT(Orders.OrderID) > 10;
+```
+
+The following SQL statement lists if the employees "Davolio" or "Fuller" have registered more than 25 orders:
+
+#### Example
+
+```sql
+SELECT Employees.LastName, COUNT(Orders.OrderID) AS NumberOfOrders
+FROM Orders
+INNER JOIN Employees ON Orders.EmployeeID = Employees.EmployeeID
+WHERE LastName = 'Davolio' OR LastName = 'Fuller'
+GROUP BY LastName
+HAVING COUNT(Orders.OrderID) > 25;
+```
