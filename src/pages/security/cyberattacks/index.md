@@ -1,6 +1,9 @@
 ---
-title: Cyberattacks
+#Cyberattacks
 ---
+
+![](http://1dj7ai1twkif3eguo63vlxnw.wpengine.netdna-cdn.com/wp-content/uploads/2017/06/1-CyberAttack-1200x565.jpg)
+
 A cyberattack refers to the exploitation or "hacking" of computer systems, infrastructures, computer networks, and/or personal computer devices using malicious code. The aim of a cyberattack more often than not is to steal, modify or destroy information. 
 
 The motive for launching a cyberattack can range from financial to political and ideological. There are also hackers who infiltrate into systems as a form of entertainment.
