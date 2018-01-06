@@ -1,0 +1,16 @@
+What is Django?
+
+Django is an open source web framework, written in Python.
+
+Why do you need a framework?
+
+To understand what Django is actually for, we need to take a closer look at the servers. The first thing is that the server needs to know that you want it to serve you a web page.
+
+Imagine a mailbox (port) which is monitored for incoming letters (requests). This is done by a web server. The web server reads the letter and then sends a response with a webpage. But when you want to send something, you need to have some content. And Django is something that helps you create the content.
+
+Why use Django ? 
+
+Django is open source, its fast and it uses existing Python Libraires to extend the capabilities of the app that you are working on.
+Django also has a built-in admin site that will allow you to manage the content of the site which is a real time saver. On addition to this Django is highly scalable and secure. It will allow you to can scale easily to meet your traffic demands.
+
+For more information check out this wiki - https://en.wikipedia.org/wiki/Django_(web_framework)
