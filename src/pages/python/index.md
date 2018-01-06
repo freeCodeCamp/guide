@@ -10,11 +10,19 @@ To know more about Python, you might want to check <a href='https://www.python.o
 
 ## Python 2 or Python 3
 
-*   The two versions are similar, with knowledge of one switching to writing code for the other is easy.
+*   As a beginner, which should you learn?
+    Answer:Python 2.x
+    * OS (such as Mac OS X, Ubuntu) come with Python 2.7 built in already
+    * All major frameworks still run on Python 2, and will continue to do so for a significant time.
+    * Python 2 has far more documentation available.
+*   Why people say Python 3.x is better?
+    * All the new features will be implemented in 3.x rather than being added to 2.x
+    * Python 3.x is the future.
+    * 3.x is under active development. This means that all recent standard library improvements, for example, are only available by    default in Python 3.x.
 *   <a href='https://wiki.python.org/moin/Python2orPython3' target='_blank' rel='nofollow'>Python 2 or Python 3</a>
-    *   <a href='https://www.python.org/dev/peps/pep-0373/' target='_blank' rel='nofollow'>Python 2.x will not be maintained past 2020.</a> 
-    * 3.x is under active development. This means that all recent standard library improvements, for example, are only available by default in Python 3.x.
-    *   Python ecosystem has amassed a significant amount of quality software over the years. The downside of breaking backwards compatibility in 3.x is that some of that software (especially in-house software in companies) still doesn't work on 3.x yet.
+*   <a href='https://www.python.org/dev/peps/pep-0373/' target='_blank' rel='nofollow'>Python 2.x will not be maintained past 2020.</a> 
+*   The two versions are almost similar.That means you can switch from Python 2.x to 3.x after they stop maintaing the older version.
+   
 
 ## Installation
 
