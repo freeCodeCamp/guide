@@ -1,0 +1,55 @@
+Booleans are simply a check for is something true or false or 0 or 1.
+
+
+
+
+
+TL:DR of booleans for Dummies and quick usage examples:
+
+!                   you can use Exclamation point to say if check for false 
+                    example:
+                    
+                    bool wasTrue= false;
+                    if(!wasTrue)
+                    the if statements reads if wasTrue equals false;
+                    
+bool nothingInitializedInCode;
+                    
+                    *if you put nothing java will set this to default false; 
+
+Values of Booleans:
+"True" or "False"       Bool thisIsABool= true;   if(thisIsABool) return; *works because if statements a bool comparison.
+"1"    or "0"           
+
+
+Valid operators: 
+||           Bool thisIsTheRealLife = true; Bool isThisJustFantasy = false;  
+            if(thisIsTheRealLife || isThisJustFantasy)   *you can or statement between bools
+                
+            *reads: " if this isTheRealLife is true or isThisJustFantasy is true then..." 
+            
+            remember that each is its own check against true unless specified as such
+            if(thisIsTheRealLife==false || isThisJustFantasy==false)
+            
+            or              both of these are the same
+            
+            if(!thisIsTheRealLife || !isThisJustFantasy) 
+               
+
+&&           Bool peanutButter = true; Bool jelly = false;  
+            if(peanutButter && jelly)   *you can or statement between bools
+                
+            *reads: if peanutButter is true and jelly is true then..."
+            this statement does not interate because both are not true since jelly is false unless you do it like so:
+             if(peanutButter && !jelly) 
+             
+            again adding !  reverses the logic from checking for true to false
+
+==          bool twin1= true; bool twin2=true;
+            if(twin1 == twin2)
+            
+            reads if twin1 is true and twin2 is true then execute w.e
+
+*though == is sometimes redundant since bools are a test of true or false
+
+
