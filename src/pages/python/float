@@ -1,0 +1,14 @@
+In Python, a decimal or fractional number is called float.
+
+
+#### Example:
+
+```py
+acct_balance = 117.75
+print(acct_balance)
+```
+
+And the result is
+```py
+117.5
+```
