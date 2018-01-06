@@ -1,0 +1,33 @@
+---
+title: Construct 2
+---
+
+
+
+# About
+
+Construct is an HTML5-based 2D game editor, developed by Scirra Ltd. It is aimed primarily at non-programmers, allowing quick creation of games in a drag-and-drop fashion using a visual editor and a behavior-based logic system.
+
+# Feature
+### Event system and behaviors
+
+The primary method of programming games and applications in Construct is through 'event sheets', which are similar to source files used in programming languages. Each event sheet has a list of events, which contain conditional statements or triggers. Once these are met, actions or functions can be carried out. Event logic such as OR and AND, as well as sub-events (representing scope) allow for sophisticated systems to be programmed without learning a comparatively more difficult programming language. Groups can be used to enable and disable multiple events at once, and to organize events.
+
+### Object instance selection
+Unlike many traditional development environments, Construct eschews selecting specific instances of objects when adding events, in favor of filtering through all instances of an object type on screen. When adding events, the editor allows the user to specify conditions or checks that must be fulfilled by each object instance on the screen before the event will be added or run by it. Events can be chained together using sub-events, allowing for more complicated behaviors to be created.
+
+# Support
+### HTML5 and storefronts
+Construct's primary export platforms are HTML5 based. It claims support across Google Chrome, Firefox, Internet Explorer 9+, Safari 6+ and Opera 15+ on desktop browsers, and support for Safari in iOS 6+, Chrome and Firefox for Android, Windows Phone 8+, BlackBerry 10+ and Tizen.
+
+Additionally, Construct can export to several online marketplaces and platforms, including Facebook, the Chrome Web Store, the Firefox Marketplace, the Amazon Appstore, Scirra's own Arcade and Kongregate.
+
+### Native platforms
+Construct has the ability to export to several platforms that provide offline and native application behavior: Windows, OS X and both 32-bit and 64-bit Linux are supported by exporting to NW.js. Doing this will allow the user to incorporate several features that HTML5 apps do not normally support, such as fileIO. On October 23, 2012, Scirra announced full support for exporting to Windows 8 Metro apps, including the incorporation of in-app purchases, 'snap' view states, roaming data, sharing, live tiles, touch input and accelerometer and inclinometer input. Support for exporting to Windows 10 Universal apps was added on August 26, 2015.
+
+Construct handles native mobile support for iOS and Android by utilizing Cordova.
+
+### Consoles
+On January 20, 2014, Scirra announced that Construct would be adding support for Nintendo's Wii U system. Later that year, a plug-in was released to make Construct-based games compatible with the Nintendo Web Framework.
+
+On April 13, 2016, Scirra announced that Construct's UWP support will allow publishing games to the Xbox One. Currently, this is in beta.
