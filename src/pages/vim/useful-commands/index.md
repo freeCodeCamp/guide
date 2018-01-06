@@ -81,6 +81,37 @@ You are now in *paste* mode.
 You can then enter insert mode with `i` and paste the block of text/code without any issues!
 To return to regular Vim without paste mode you can enter normal mode (`escape` or `crtl + c`) and type `:set nopaste`, and press ENTER
 
+## Move left one character on the current line.
+h
+
+## Move down to the next line.
+j
+
+## Move up to the previous line.
+k
+
+## Move right one character on the current line.
+l
+
+## Move to the next word on the current line.
+
+## Move to the end of next word on the current line.
+e
+
+## Move to the previous begining of the word on the current line.
+
+## Can also be used for line navigation to the left first char of word.
+
+Arrow key <-
+
+## Scroll forward one page.
+
+Ctrl-f
+
+## Scroll backward one page.
+
+scroll backward one page.
+
 ## I Want to Learn Vim!
 
 For total beginners, Vim comes with a built in tutorial! You can access it by running `vimtutor` from your terminal and this will launch an interactive tutorial on *how to get started with Vim* (takes around 15 minutes to work through).
