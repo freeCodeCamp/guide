@@ -3,38 +3,12 @@ title: Accuracy and Precision
 ---
 ## Accuracy and Precision
 
-The terms accuracy and precision are often used interchangabley  in conversation but they actaully refer to different concepts.
+In science and engineering, the accuracy of a measurement is the degree of closeness or trueness of that measurement to the true value of the quantity being measured. For example, a ruler that measures a known length of 1 meter as 1 meter would have high accuracy; a ruler that measures the same distance as 0.8 meter would have low accuracy.
 
-<br>
+The precision of a measurement is the repeatibility of that measurement and expresses the variability within it. For example, if the ruler mentioned above that measured 1 meter as 0.8 meter, measured the distance as 0.80 m, 0.79 m, 0.80 m, 0.81 m and 0.80 m over successive mesurements the ruler would be quite precise (the measurements have low variability), whilst being inaccurate.
 
-**Accuracy** is how close a measure is to an actual value.
-
-![High Accuracy](https://upload.wikimedia.org/wikipedia/commons/2/2b/Accuracy_and_precision-highaccuracylowprecision.png)
-
-### Example
-
-* If you are measureing a pencil that is 4 inches long and you recieve a measure of 4 inches you obtained an accurate measure.
-
-<br>
-<br>
-
-**Precision** is how close repeated measures are to each other.
-
-![High Precision](https://upload.wikimedia.org/wikipedia/commons/e/ec/Accuracy_and_precision-highprecisionlowaccuracy.png)
-
-### Example
-
-* If you are measuring a pencil that is 4 inches long and you recieve measures of 2, 2.1, and 2 inches you obtained precise measures since they were all within a smale range of one another. However, these measures are not accuaret since the pencil's accutal length is 4 inches.
-
-<br>
-<br>
-
-It is possible for measures to be only accurate or precise, both accurate and precise, or neight accurate nor precise.
-
-<br>
+The precision of a measurement is independent of the accuracy of the measurement. Likewise the accuracy of a measurement is independent of its precision. This means that measurements can be precise and of low accuracy, accurate and of low precision, precise and accurate, and imprecise and inaccurate.
 
 #### More Information:
 
 [Accuracy and Precision](http://www.statisticshowto.com/accuracy-and-precision/)
-
-
