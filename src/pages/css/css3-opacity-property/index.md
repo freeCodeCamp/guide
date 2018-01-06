@@ -30,7 +30,7 @@ opacity: 1.0;
 
 ```
 
-[This simple example ](https://codepen.io/Tlandis/pen/xXMRGM)shows how you might use opacity with a hover effect.
+<a href='https://codepen.io/Tlandis/pen/xXMRGM' target='_blank' rel='nofollow'>This simple example </a>shows how you might use opacity with a hover effect.
 
 Opacity is often used to draw the user's attention to elements and  focus on important parts of a page. 
 

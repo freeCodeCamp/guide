@@ -3,8 +3,9 @@ title: Hard Drives
 ---
 ## Hard Drives
 
+Hard drives are permenant storages for computers. There are several types of hard drives, traditional magnetic disks, new generation solid state disks or hybrid disks which contains both SSD and magnetic storage.
 
-Hard drives are spinning magnetic disks that serve as long-term storage for computer data.
+Traditional hard disk uses magnetic needles and rotating magnetized platters to store data. Because of these moving parts, hard drives are easily damaged by drops or shocks. The motor that rotates the platters also consumes a lot of power, but no other storage method is as affordable for large volumes of storage.
 
 Hard drives come in various sizes, some up to even 10TB (10 trillion bytes). Typical computers come with between 256GB (256 billion bytes) to 1TB. Laptops usually use Solid State Drives (SSDs) because they are faster, lighter, more power efficient, and contain no moving parts, making them less likely to fail due to impact. For the same amount of storage, SSDs are generally more expensive than hard drives.
 
