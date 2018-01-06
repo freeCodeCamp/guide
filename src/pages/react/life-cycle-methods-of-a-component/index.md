@@ -50,6 +50,4 @@ a. `componentWillUnmount()`
 
 Many things can be learnt by diving into coding. So get your hands dirty by coding.
 
-Reach me out on [twitter](https://twitter.com/getifyJr) if needed.
-
 Happy Coding !!!
