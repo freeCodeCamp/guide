@@ -1,7 +1,8 @@
----
-title: Phishing
----
+
 ## Phishing
+
+![](https://accelerator-origin.kkomando.com/wp-content/uploads/2016/06/phishing-hook-on-computer.jpg)
+
 Phishing is a form of cyberattacks using social engineering, which tricks the user into providing the attacker personal details, such as username, passwords, and credit card numbers, often by pretending to be a trusted organization. 
 
 Cybercriminals often send phishing emails to random email addresses, so anyone can become a victim of phishing. However, hackers may choose to launch a phishing attack at specific organization or individual in a "spear phishing" attack. 
