@@ -1,0 +1,30 @@
+Arrays are variables that can store multiple values of the same type using the [] operator.
+
+Example:
+int sample[3]
+ - int is the data type
+ - sample is the name of the array
+ - 3 is the size declarator; number of elements in the array
+ 
+ 
+ Example of working array:
+ //This is to obtain the number of hours worked for 5 total days.
+ 
+ 
+ int main()
+ {
+ const int NUM_DAYS = 5;
+ int hoursWorked[NUM_DAYS];
+ 
+ //Get the number of hours worked each days.
+ cout << "Enter the number of hours worked:";
+ cin >> hoursWorked[0];
+ cin >> hoursWorked[1];
+ cin >> hoursWorked[2];
+ cin >> hoursWorked[3];
+ cin >> hoursWorked[4];
+ return 0;
+ }
+ 
+ This program will record the number of hours worked on each assigned day.
+ 
