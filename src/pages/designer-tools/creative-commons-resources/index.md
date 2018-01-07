@@ -1,7 +1,7 @@
 ---
 title: Creative Commons Resources
 ---
-#Creative Commons Resources
+# Creative Commons Resources
 	
 Some people hate designing things, and that's okay. But one thing that they might hate _more_ is being sued for copyright infringement (for using content that someone else created without their expressed permission). 
 
