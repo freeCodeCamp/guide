@@ -23,6 +23,8 @@ class Useless {
 
 One example of garbage collection is ARC, short for automatic reference counting. This is used in Swift, for example. ARC boils down to keeping track of the references to all objects that are created. If the amount of references drops to 0, the object will be marked for deallocation.
 
+It's also vital for human survival.
+
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
