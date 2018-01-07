@@ -172,3 +172,4 @@ kitty.annoy();
 
 - <a href='http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/' target='_blank' rel='nofollow'>javascriptissexy.com</a>
 - <a href='https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20prototypes/ch2.md' target='_blank' rel='nofollow'>You Don't Know JS</a>
+- <a href='https://www.youtube.com/watch?v=zE9iro4r918' target='_blank' rel='nofollow'>WTF is THIS: Understanding the "this" keyword in JavaScript (Video)</a>
