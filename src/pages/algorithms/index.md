@@ -22,11 +22,18 @@ freeCodeCamp's curriculum heavily emphasizes creating algorithms. This is becaus
 
 ### Further Resources
 
-* <a href='https://www.youtube.com/watch?v=rL8X2mlNHPM' target='_blank' rel='nofollow'>Intro to Algorithms | Crash Course: Computer Science</a>
+[Intro to Algorithms | Crash Course: Computer Science](https://www.youtube.com/watch?v=rL8X2mlNHPM)
+
 This video gives an accessible and lively introduction to algorithms focusing on sorting and graph search algorithms. 
-* <a href='https://www.youtube.com/watch?v=CvSOaYi89B4' target='_blank' rel='nofollow'>What is an Algorithm and Why Should you Care? | Khan Academy</a>
+
+[What is an Algorithm and Why Should you Care? | Khan Academy](https://www.youtube.com/watch?v=CvSOaYi89B4)
+
 This video introduces algorithms and briefly discusses some high profile uses of them. 
-* <a href='https://www.youtube.com/watch?v=kPRA0W1kECg' target='_blank' rel='nofollow'>15 Sorting Algorithms in 6 Minutes | Timo Bingmann</a>
+
+[15 Sorting Algorithms in 6 Minutes | Timo Bingmann](https://www.youtube.com/watch?v=kPRA0W1kECg)
+
 This video visually demonstrates some popular sorting algorithms that are commonly taught in programming and Computer Science courses.
-* <a href='http://algo-visualizer.jasonpark.me' target='_blank' rel='nofollow'>Algorithm Visualizer</a>
+
+[Algorithm Visualizer](http://algo-visualizer.jasonpark.me)
+
 This is also a really good open source project that helps you visualize algorithms. 
