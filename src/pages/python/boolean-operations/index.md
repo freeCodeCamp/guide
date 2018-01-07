@@ -45,3 +45,6 @@ not x | if x is false, then True, else False | (3)
     True
     >>> False or False   # Second argument is evaluated.
     False
+    
+### Additional Resource
+<a href="https://docs.python.org/3/library/stdtypes.html#truth">Official docs</a>
