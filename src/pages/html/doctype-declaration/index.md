@@ -32,6 +32,7 @@ Doctype syntax for transitional HTML 4.01:
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 ```
 
+
 Doctype syntax for frameset HTML 4.01:
 ```html
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
