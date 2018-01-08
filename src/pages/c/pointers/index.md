@@ -51,6 +51,8 @@ Notice that the `*` is required before each variable. This is because being a po
 ### Arrays
 The most common application of a pointer is in an array. Arrays, which you'll read about later, allow for a group of variables. You don't actually have to deal with `*` and `&` to use arrays, but that's what they're doing behind the scenes.
 
+An interesting fact is that the array name is actually a pounter to the base of the array. So to get the i'th element in the array, the pointer based equivalent of A[i] is *(A+i).
+
 ### Functions
 Sometimes you want to adjust a variable in a function, but if you pass it to an array, it has its own copy to work with. If instead you pass that memory location, however, you can access it from outside of its normal scope. This is because you are touching the original memory location itself, allowing you to adjust something in a function and having it make changes elsewhere.
 

@@ -82,3 +82,19 @@ Now we want to use the functions that we just created in `prime_functions.py` so
     # playground.py
     import prime_functions
     print(prime_functions.isPrime(29)) # returns True
+
+##Importing only what is required required 
+
+It is always a good idea to import only the functions that you are going to use. Let me wxaplin this with the help of an example. The "google" package provided by Google has a lot of functions. Suppose you want to use the search() function. One way of doing this will be
+
+    import google
+    google.search("Playground")
+    google.search("Modules in python")
+
+But a more better, cleaner way of doing the same is,
+
+    from google import search
+
+    search("Playground")
+
+    search("Modules in python")`
