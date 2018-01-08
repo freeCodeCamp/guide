@@ -3,7 +3,7 @@ title: Security
 ---
 ## Security
 
-Information Security (also called "infosec" or just "security") deals with guarding and breaking into systems.
+Information Security (also called "infosec" or just "security") deals with guarding and breaking into systems. Ethical Hacking an integral part.
 
 This is a particularly important space right now, following major breaches such as the <a href='https://medium.freecodecamp.org/the-equifax-hack-and-how-to-protect-your-family-all-explained-in-5-minutes-a2b5187cb6c0' target='_blank' rel='nofollow'>2017 Equifax breach</a>.
 
