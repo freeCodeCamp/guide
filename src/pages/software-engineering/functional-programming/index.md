@@ -17,7 +17,7 @@ Many programming languages support functional programming like Haskell, F#, Comm
 
 ### Uses
 
-Functional programming has long been popular in academia, but with few industrial applications. However, recently several prominent functional programming languages have been used in commercial or industrial systems. For example, the Erlang programming language, which was developed by the Swedish company Ericsson in the late 1980s, is used for building a range of applications at companies such as T-Mobile, Nortel, Facebook, Électricité de France and WhatsApp.
+Functional programming has long been popular in academia, but with few industrial applications. However, recently several prominent functional programming languages have been used in commercial or industrial systems. For example, the Erlang programming language, which was developed by the Swedish company Ericsson in the late 1980s, is used for building a range of applications at companies such as T-Mobile, Nortel, Facebook, Électricité de France and WhatsApp. Xmonad, a popular linux window manager, is written in Haskell.
 
 ### Higher-Order Functions
 Higher-order functions are a big part of functional programming. A higher-order function is a function that either takes a function(s) as a parameter or returns a function.
@@ -40,3 +40,7 @@ Functional Programming: <a href='https://en.wikipedia.org/wiki/Functional_progra
 Functional Programming – What Is It and Why Does It Matter? : <a href='https://www.keycdn.com/blog/functional-programming/' target='_blank' rel='nofollow'>KeyCDN</a>
 
 What is Functional Programming? : <a href='https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0' target='_blank' rel='nofollow'>Medium</a>
+
+Functional Programming : <a href='https://wiki.haskell.org/Functional_programming' target='_blank' rel='nofollow'>Haskell Wiki</a>
+
+
