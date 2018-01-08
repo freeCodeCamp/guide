@@ -1,9 +1,12 @@
 ---
 title: Imposter Syndrome
 ---
+
 ## Imposter Syndrome
 
 A feeling of _being a fraud_ or _not good enough_ to get the job done. Common among software engineers, developers and designers working in tech companies, especially those not coming from a traditional tech background. People suffering from imposter syndrome have a sense of inadequacy and insecurity concerning their ability to make a contribution at the workplace. In reality, they may be perfectly capable of and do contribute successfully to their tasks. 
+
+Imposter Syndrome is very common among software engineers or developers who are new to the role and lack the experience of some of their co-workers. Throughout various industries, imposter syndrome is very common with highly successful people. Studies have found the two out of five 'successful' people consider themselves frauds/imposters while other studies have shown that up to 70% of people experience imposter syndrome as one point in time or another.
 
 These thoughts are fairly common if you suffer from imposter syndrome:
 
@@ -15,6 +18,12 @@ These thoughts are fairly common if you suffer from imposter syndrome:
 * "I have no idea how I got through the interview process" (feels only luck dictates results)
 * "People are going to realise that I am not as smart as I potrayed in the interview and I will be ridiculed and fired for this" (fears failure)
 * "My IQ is not high enough to work here"
+
+#### Overcoming Imposter Syndrome
+
+The first step in overcoming imposter syndrome is to learn the difference between a growth mindset and a fixed mindset. People with a growth mindset believe that their skills and talents can be developed through hard work, practice, conversations with others, etc. Alternately, those with a fixed mindset tend to believe their talents are set abilities that they were born with. 
+
+When you change your outlook to a growth mindset, you allow yourself to take on challenges that may seem out of reach. If you believe that your skills can be developed over time, it will matter less if you don't know how to do something (as long as you are willing to put in the work). 
 
 Some resources to help you know more about Imposter Syndrome and some tips to tackle it:
 

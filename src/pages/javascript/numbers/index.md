@@ -69,7 +69,8 @@ foo.toFixed(2);  // "47.69"
 >Type `Number.prototype` in your browser and see other available methods yourself.
 
 #### More Information:
-<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#Number_type' target='_blank' rel='nofollow'>MDN</a>
+1. <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#Number_type' target='_blank' rel='nofollow'>MDN</a>
+2. <a href='https://www.w3schools.com/js/js_numbers.asp' target='_blank' rel='nofollow'>JavaScript Numbers</a>
 
 #### References
 1.  <a href='https://github.com/getify/You-Dont-Know-JS/tree/master/types%20%26%20grammar' target='_blank' rel='nofollow'>Types & grammar</a> by Kyle Simpson.
