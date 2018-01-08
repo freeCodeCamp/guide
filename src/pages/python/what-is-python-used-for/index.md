@@ -17,6 +17,7 @@ Python is one of the most flexible languages when it come to automating boring o
 
 ##### Artificial Intelligence:
 The presence of computing is Artificial Intelligence. AI has come to stay and Python is serving as a major language to boast development in the field of AI. Tensorflow is designed with Python and it is under AI.
+This is an amazing oppurtinity
 
 #### Mobile app development
 Mobile apps and games can be created with python using Kivy, Pygame and PyQt.
