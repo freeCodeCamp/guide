@@ -72,6 +72,7 @@ You can pass the parameters in the order you want, using the name of the paramet
 result = sum(b=2, a=2)
 # result = 4
 ```
+
 However, it is not possible to pass a keyword argument before a non-keyword one
 
 ```Python
