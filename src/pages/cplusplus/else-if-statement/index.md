@@ -1,5 +1,5 @@
 ---
-else if statement
+title: else if statement
 ---
 
 Before diving into this tutorial you should have the concepts of if statement and else statement.
