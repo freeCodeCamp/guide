@@ -48,10 +48,12 @@ For example, when creating moodboard for Harry Potter website, do not use pictur
 
 Making moodboards is one of the most fun part of production, so try to enjoy it and get creative!
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Mood boards can convey color scheme, type face, and specific imagery.  They can also explore tone and mood more abstractly.  A board can include video or sound in addition to static images, photography, and text.
+
+![An example of a surf-themed mood board](https://cdn-images-1.medium.com/max/1600/1*9qVOw8uDg8oOOevWmYUozQ.jpeg)
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
+<a href='https://uxplanet.org/creating-better-moodboards-for-ux-projects-381d4d6daf70'>Milanote. "Creating Better Moodboards for UX Projects." <i>Medium</i>.  September 10, 2017.  Accessed: October 25, 2017.</a>
 
-Search engines are your best friend.
-Use the world as your inspiration.
+
