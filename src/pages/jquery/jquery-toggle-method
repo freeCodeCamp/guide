@@ -1,0 +1,10 @@
+---
+title: jQuery Effects Toggle Method
+---
+## jQuery Effects Toggle Method
+
+In its simplest form, **.toggle()** toggles the state of the matched element immediately, between hidden and visible. For example:
+```javascript
+$(".myclass").toggle();
+```
+will toggle all the elements whose class is *myclass*. Any jQuery selector can be used.
