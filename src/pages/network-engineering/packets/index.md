@@ -35,8 +35,17 @@ In the OSI model, packets correspond to layer 3, the Network Layer.
   
   Another example is the TCP (Transmission Control Protocol), which works with IP in what we call the TCP/IP suite. TCP is responsible for ensuring that data transfer is reliable. To achieve that, it checks whether the packets have arrived in order, whether any packets are missing or have been duplicated, and whether there is any delay in packet transmission. It controls this by setting a timeout and signals called acknowledgments.
   
+## How does Packet Loss happen?
+  **Packet Loss** is a phenomenon that happens when packets sent across a computer network fail to reach their intended destination. They can be lost on their way, more often, intentionally dropped. The latter happens because packets sent through a *router* or a *network segment* arrive at a greater rate than the router is able to process. As a consequence, there is no other option than to *drop* them.
+  **Packet Loss** is also used as a relevant metric for the performance of a network, measured as the *percentage of the packets lost* with respect to packets sent.
   
-## Conclusion
+  The causes of the packet loss may vary, yet the most common ones are:
+  - ```link congestion```-network devices intentionally drop packets.
+  - ```device performance```-Routers, switches and other hardware devices can't physically keep up.
+  - ```software issues```-as software written for the network devices is not perfect, bugs might occur undetected. 
+  - ```faulty hardware or cabling.```  
+  
+ ## Conclusion
   Data travels in packets over digital networks and all of the data we consume, whether it be text, audio, images or video, come broken down into packets which are reassembled in our devices or computers. This is why, for instance, when a picture loads over a slow connection, you see chunks of it appearing one after the other. 
   
 #### More Information:
