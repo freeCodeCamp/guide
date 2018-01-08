@@ -27,4 +27,4 @@ For an interactive guide go through <a href="https://medium.freecodecamp.org/the
 
 Both of these are great resources by Ohans Emmanuel. 
 
-
+<a href="http://flexboxfroggy.com/" target='_blank' rel="nofollow">Flexbox Froggy</a> Is a great interactive game to help learn Flexbox in an easy to understand, but still challenging way.
