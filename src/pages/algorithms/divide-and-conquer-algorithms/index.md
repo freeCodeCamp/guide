@@ -25,3 +25,7 @@ Following are some standard algorithms that are Divide and Conquer algorithms.
 
 6) Cooley–Tukey Fast Fourier Transform (FFT) algorithm is the most common algorithm for FFT. It is a divide and conquer algorithm which works in O(nlogn) time.
 
+#### More Information:
+[Wikipedia](https://en.wikipedia.org/wiki/Divide_and_conquer_algorithm)
+<br/>
+[Video : Divide and Conquer](https://www.youtube.com/watch?v=x78uQu730b0)
