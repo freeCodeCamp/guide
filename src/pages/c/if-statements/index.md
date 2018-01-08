@@ -1,8 +1,11 @@
 ---
 title: Logical Operators and If Statements
 ---
+
+
 # If Statements in C
 Sometimes you want your code to run according to certain conditions. In such situation we can use If statements. It is also known as decision making statement as it make the decision on basis of given expression(or on given condition).If the expression evaluates to true, then the block of code inside the 'if' statement will be executed. If the expression evaluates to false, then the first set of code after the end of the 'if' statement (after the closing curly brace) will be executed.A expression is an expression that has relational and/or logical operators operating on boolean variables. A expression evaluates to either true or false.
+
 
 ## A Simple Example
 Let's look at an example of this in action:
@@ -39,10 +42,13 @@ Of course, that example wasn't very useful, because true is always true. Here's 
 int main(void) {
     int n = 2;
 
-    if(n == 3) {
+    if(n == 3) // comparing n with 3
+    {
         printf("Statement is True!\n");
 
-    } else {
+    } 
+    else // if first condition is not true, then comes to this block of code.
+    {
         printf("Statement is False!\n");
 
     }
@@ -75,13 +81,17 @@ There's a lot we can do with all of those operators! Consider the following, whe
 ```C
 #include <stdio.h>
 
-int main(void) {
+int main(void) 
+{
     int n = 5;
 
-    if(n == 5) {
+    if(n == 5) 
+    {
         printf("n is equal to 5!\n");
 
-    } else if (n > 5) {
+    } 
+    else if (n > 5) 
+    {
         printf("n is greater than 5!\n");
 
     }
@@ -107,16 +117,21 @@ int main(void) {
     int n = 5;
     int m = 10;
 
-    if(n > m || n == 15) {
+    if(n > m || n == 15) 
+    {
         printf("Either n is greater than m, or n is equal to 15\n");
 
-    } else if( n == 5 && m == 10 ) {
+    } 
+    else if( n == 5 && m == 10 )
+    {
         printf("n is equal to 5 and m is equal to 10!\n");
 
-    } else if ( !(n == 6)) {
+    } 
+    else if ( !(n == 6)) {
         printf("It is not true that n is equal to 6!\n");
 
-    } else if (n > 5) {
+    }
+    else if (n > 5) {
         printf("n is greater than 5!\n");
     }
 
@@ -156,6 +171,35 @@ By design, 0 is false, and by convention, 1 is true. In fact, here's a look at t
 There's actually a bit more to it, but this is the part that does all the work.
 
 These two lines of code tell the compiler that the word 'false' should be replaced with '0', and the word 'true' should be replaced by '1'. `stdbool.h` also has some documentation and compiler instructions that will be discussed later, but those two lines are all there really is to it.
+
+# Tips and Tricks 
+Consider the code below:
+
+```C
+#include <stdio.h>
+int main()
+  {
+    int i=3;
+    if(i=4)
+    {
+      printf("This block is executed");
+    }
+    else
+    {
+      printf("NO! I am boss");
+    }
+}
+```
+
+What will be the the Output? "NO! I am boss"? if you are guessing this output then you are wrong.
+Why did this happen? because in the if statement you used "=" instead of "==" operator.
+"==" is comparator . 
+
+It will compare between two variables but "=' is assignment operator 
+when we said i=4, we simply assigning value 4 to the integer i, and since in "C" every NON-ZERO value is true so
+if(i=4) is true statement and instructions under this will executed
+
+
 
 # Before you go on...
 ## A review
