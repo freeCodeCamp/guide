@@ -145,24 +145,6 @@
   }
 }
 
-/* SearchBar */
-
-.searchBar {
-  width: 100%;
-}
-
-@media (min-width: 992px) {
-  .searchBar {
-    width: 75%;
-  }
-}
-
-.input {
-  min-width: 100%;
-  width: 100%;
-  height: 30px;
-}
-
 /* NoResults/404 */
 
 .flexWrapper {
@@ -328,4 +310,8 @@
 
 .skip-link:focus {
     position: absolute;
+}
+
+.article {
+    outline: 0;
 }

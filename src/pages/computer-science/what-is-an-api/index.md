@@ -10,3 +10,4 @@ An interface sits on top of a complicated system and simplifies certain tasks, a
 #### More Information:
 * <a href='https://schoolofdata.org/2013/11/18/web-apis-for-non-programmers/' target='_blank' rel='nofollow'>API for non-programmers</a>
 * <a href='https://en.wikipedia.org/wiki/Application_programming_interface' target='_blank' rel='nofollow'>Wikipedia</a>
+* <a href='https://medium.freecodecamp.org/what-is-an-api-in-english-please-b880a3214a82' target='_blank' rel='nofollow'>What is an API? In English, please.</a>

@@ -35,6 +35,22 @@ array.last
 => 4
 ```
 
+#### .take
+The .take method returns the first n elements of the array:
+
+```
+array.take(3)
+=> [0, 1, 2]
+```
+
+#### .drop
+The .drop method returns the elements after n elements of the array:
+
+```
+array.drop(3)
+=> [3, 4]
+```
+
 #### array index
 You can access a specific element in an array by accessing its index. If the index does not exist in the array, nil will be returned:
 
@@ -54,12 +70,30 @@ array.pop
 => [0, 1, 2, 3]
 ```
 
+#### .shift
+The .shift method will permantently remove the first element of an array and return this element:
+
+```
+array.shift
+=> 0  
+array
+=> [1, 2, 3, 4]
+```
+
 #### .push
 The .push method will allow you to add an element to the end of an array:
 
 ```
 array.push(99)
 => [0, 1, 2, 3, 4, 99]
+```
+
+#### .unshift
+The .unshift method will prepend an element to the beginning of an array:
+
+```
+array.unshift(-1)
+=> [-1, 0, 1, 2, 3, 4]
 ```
 
 #### .delete
@@ -84,6 +118,20 @@ The .reverse methods reverses the array but does not mutate it (the original arr
 ```
 array.reverse
 => [4, 3, 2, 1, 0]
+```
+
+#### .each
+The .each method iterates over each element of the array, allowing you to perform actions on them.
+```
+array.each do |element|
+  puts element
+end
+=> 
+0
+1
+2
+3
+4
 ```
 
 ## More Information/ Official Documentation:
