@@ -13,7 +13,7 @@ Web App Image Editors are available in-browser. In other words, you  do not need
 
 ### Open Source Editors
 
-Available as free downloads and open to user contributions to the software's development.
+Available as free downloads and open to user contributions to the software's development. Additions can be made easily.
 
 ### Paid Editors
 
