@@ -8,6 +8,7 @@ title: If-Else Statement
 * In the simple If statement, if the value of the test expression is false, then we skip the code of block and continue with our next statement.
 * But many of the times we want to execute certain steps if the value of test expression is false.
 * In such cases, we use the if-else statement.
+* We can use multiple mathematical expressions in test expression using logical AND (&&) and OR (||) operators.
 
 ### General Form of If-Else Statement
 
