@@ -13,11 +13,11 @@ A closure is the combination of a function and the lexical environment (scope) w
 ```js
 //we have an outer function named walk and an inner function named fly
 
-function walk (){
+function walk () {
   
   var dist = '1780 feet';
   
-  function fly(){
+  function fly() {
     console.log('At '+dist);
   }
   
@@ -102,13 +102,13 @@ Javascript did not have a concept of block-scoped variables. Meaning that when d
 ```javascript
     var funcs = [];
     
-    for(var i = 0; i < 3; i++){
+    for(var i = 0; i < 3; i++) {
         funcs[i] = function(){
             console.log('My value is ' + i);  //creating three different functions with different param values.
         }
     }
     
-    for(var j = 0; j < 3; j++){
+    for(var j = 0; j < 3; j++) {
         funcs[j]();             // My value is 3
                                 // My value is 3
                                 // My value is 3
@@ -120,7 +120,7 @@ Since the variable i does not have block-scope, it's value within all three func
 ```javascript
     var funcs = [];
     
-    var createFunction = function(val){
+    var createFunction = function(val) {
 	    return function() {console.log("My value: " + val);};
     }
 
