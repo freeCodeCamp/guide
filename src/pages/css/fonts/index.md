@@ -94,3 +94,6 @@ p.small {
 
 - https://www.w3schools.com/css/css_font.asp
 - https://developer.mozilla.org/en-US/docs/Web/CSS/font
+
+#### Font Resources
+[Find free fonts to embed in your project at Font Squirrel](http://fontsquirrel.com)
