@@ -14,12 +14,12 @@ A **callback function** is a function that is passed _as an argument_ to another
 To illustrate callbacks, let's start with a simple example:
 
 ```javascript
-function createQuote(quote, callback){ 
+function createQuote(quote, callback) { 
   var myQuote = "Like I always say, " + quote;
   callback(myQuote); // 2
 }
 
-function logQuote(quote){
+function logQuote(quote) {
   console.log(quote);
 }
 
@@ -36,7 +36,7 @@ Also, we need to ensure that if the callback function we pass in expects argumen
 Additionally, we can pass in anonymous functions as callbacks. The below call to `createQuote` would have the same result as the above example:
 
 ```javascript
-createQuote("eat your vegetables!", function(quote){ 
+createQuote("eat your vegetables!", function(quote) { 
   console.log(quote); 
 });
 ```
@@ -57,14 +57,14 @@ Most of the time we are creating programs and applications that operate in a **s
 Let's take a look at an example that simulates a request to a server:
 
 ```javascript
-function serverRequest(query, callback){
-  setTimeout(function(){
+function serverRequest(query, callback) {
+  setTimeout(function() {
     var response = query + "full!";
     callback(response);
   },5000);
 }
 
-function getResults(results){
+function getResults(results) {
   console.log("Response from the server: " + results);
 }
 
