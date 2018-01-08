@@ -122,7 +122,7 @@ You entered a negative number : -200
 This step is always printed
 ```
 
-<a href='https://repl.it/MzBq' target='_blank' rel='nofollow'>Try the code yourself</a>
+[Try the code yourself](https://repl.it/MzBq)
 
 _CONGRATULATIONS . This is the end of the article on the IF statement_ 
 
@@ -130,4 +130,4 @@ _CONGRATULATIONS . This is the end of the article on the IF statement_
 
 **Happy Coding ! :)**
 
- **Feel free to ask any queries on FreeCodeCamp's GitHub page or <a href='https://forum.freecodecamp.org/' target='_blank' rel='nofollow'>FreeCodeCamp's Forum .</a>**
+ **Feel free to ask any queries on FreeCodeCamp's GitHub page or [FreeCodeCamp's Forum](https://forum.freecodecamp.org)
