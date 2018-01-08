@@ -83,7 +83,7 @@ _Example of code:_
 
 ```java
 int[] a = new int[] {4, 5, 6, 7, 8}; // declare array
-for (int i = 0; i < a.length; i++){ // loop goes through each index
+for (int i = 0; i < a.length; i++) { // loop goes through each index
     System.out.println(a[i]); // prints the array
 }
 ```
