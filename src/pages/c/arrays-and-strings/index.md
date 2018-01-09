@@ -116,6 +116,20 @@ if(!strcmp(first, second)){
     printf("These strings are not the same!\n");
 }
 ```
+##### Compare: `strstr`
+`strstr` (from 'string string') returns pointer to the first occurrence of a string in a given string, and returns a NULL pointer if not found. Take a look at an example of how this might be used:
+
+```C
+char *p;
+p = strstr(first, double)
+
+if(p){
+    printf("String found! First occurence of string: %s\n", p);
+} else {
+    printf("String not found!\n");
+}
+```
+
 Notice the `!`, which is needed because this function returns 0 if they are the same. Placing the exclamation point here will make that comparison return true.
 
 #### Split a string: `strtok`
