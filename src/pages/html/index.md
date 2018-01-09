@@ -59,3 +59,18 @@ On 1 November 2016, HTML 5.1 was released as a W3C Recommendation
   </tr>
 </table>
 
+##The HTML charset Attribute
+To display an HTML page correctly, a web browser must know the character set used in the page.
+
+####This is specified in the <meta> tag:
+
+##### For HTML4:
+
+```html
+<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1">
+```
+##### For HTML5:
+
+```html
+<meta charset="UTF-8">
+
