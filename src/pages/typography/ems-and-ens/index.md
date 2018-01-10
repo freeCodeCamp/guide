@@ -32,5 +32,5 @@ Dash - <a href='https://en.wikipedia.org/wiki/Dash#Em_dash' target='_blank' rel=
 
 Thinking With Type by Ellen Lupton - <a href='http://thinkingwithtype.com' target='_blank' rel='nofollow'>Thinking With Type</a>
 
-
+Modularscale - <a href='http://www.modularscale.com/' target='_blank' rel='nofollow'>http://www.modularscale.com/</a>
 
