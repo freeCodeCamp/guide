@@ -92,4 +92,7 @@ This displays the manual page for the command in your shell window. To navigate,
 This article uses information from the <a href='https://github.com/progit/progit2' target='_blank' rel='nofollow'>Pro Git</a> book, written by Scott Chacon and Ben Straub and published by Apress. The book is displayed in full in the <a href='https://git-scm.com/book/en/v2' target='_blank' rel='nofollow'>Git documentation</a>.
 
 ### More Information: <a name="more-information"></a>
-- For downloads, documentation, and a browser-based tutorial: <a href='https://git-scm.com/' target='_blank' rel='nofollow'>Git official website</a>
+- For downloads, documentation, and a browser-based tutorial: <a href='https://git-scm.com/' target='_blank' rel='nofollow'>Git official website</a>  
+
+-Arabic Git Series:  <a href='https://www.youtube.com/watch?v=iIWM5k2d4cs&list=PLMN9BZ_Ye1E7iV3IVdupXrztVc-CF-GkE' target='_blank' rel='nofollow'>Amr Samir</a>
+
