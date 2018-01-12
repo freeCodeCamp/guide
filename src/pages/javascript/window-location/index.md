@@ -19,6 +19,6 @@ The `window.location` object can be written without the `window` prefix, as just
 
 #### More Information:
 
-[W3C](https://www.w3schools.com/js/js_window_location.asp)
+<a href='https://www.w3schools.com/js/js_window_location.asp' target='_blank' rel='nofollow'>W3C</a>
 
 [MDN](https://developer.mozilla.org/docs/Web/API/Window/location)
