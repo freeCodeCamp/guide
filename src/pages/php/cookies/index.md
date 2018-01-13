@@ -1,8 +1,8 @@
 ---
-title: PHP Cookies
+title: Cookies
 ---
 
-# PHP COOKIES
+# Cookies
 
 ## What is a Cookie?
 
