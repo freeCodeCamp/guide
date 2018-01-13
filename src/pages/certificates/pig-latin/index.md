@@ -47,6 +47,9 @@ You will need to use everything you know about string manipulation to get the la
       if (str[0].match(regex)) {
         pigLatin = str + 'way';
 
+      } else if(str.match(regex) === null) {
+        // Check if the string contains only consonants
+        pigLatin = str + 'ay';
       } else {
 
         // Find how many consonants before the first vowel.
