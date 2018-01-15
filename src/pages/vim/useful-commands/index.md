@@ -39,9 +39,8 @@ Beginning/End of line movement:
 
 ## Exiting Vi, Vim, Nvim, Gvim
 1. Press escape to get you into "normal" mode
-2. To exit, type `:q` but if you made any changes in file Vim gives error code `E37` in this case:
-- To save and exit, type `:wq`
-- To ignore changes and exit, type `:q!`
+2. Type `:q`, press enter. If you receive an error try `:q!`
+3. To exit and save, type `:q`
 
 **OR**
 - Type ZZ (save and quit)
