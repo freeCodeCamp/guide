@@ -1,7 +1,7 @@
 ---
-title: PHP Expressions
+title: Expressions
 ---
-## PHP Expressions
+## Expressions
 
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/php/php-expressions/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
