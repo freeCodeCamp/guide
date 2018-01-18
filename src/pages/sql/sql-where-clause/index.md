@@ -6,9 +6,9 @@ title: SQL Where Clause
 
 ### Where Clause (and / or, IN, BETWEEN and LIKE)
 
-The WHERE clause is used to limit the number of rows returned.  
+The WHERE clause is used to limit the number of rows returned. The WHERE clause is used to extract only those records that fulfill a specified condition.
 
-In this case all five of these will be used is a some what ridiculous Where clause. 
+In this case all five of these will be used is a some what ridiculous WHERE clause. 
 
 Here is the current full student list to compare to the WHERE clause result set:
 
