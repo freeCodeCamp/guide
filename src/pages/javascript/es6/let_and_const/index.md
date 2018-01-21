@@ -13,7 +13,7 @@ if (true) {
 console.log(a); // undefined
 ```
 
-In the above example variable ‘a’ is defined inside If statement and so it’s not accessible outside the function.
+In the above example variable ‘a’ is defined inside an If statement and so it’s not accessible outside of the function.
 
 Another example:
 ```
@@ -31,7 +31,7 @@ console.log(a); // 50
 
 ## Const
 
-Const is used to assign a constant value to the variable. And the value cannot be changed. Its fixed.
+Const is used to assign a constant value to the variable. And the value cannot be changed. It's fixed.
 ```
 const a = 50;
 a = 60; // shows error. You cannot change the value of const.

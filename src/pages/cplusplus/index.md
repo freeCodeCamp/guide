@@ -39,7 +39,7 @@ Now , let's break down the code.
 using namespace std;
 ```
 
-* The first line tells the computer to use the "iostream" header file for this specific program. There are many other header files which are required for a specific program to run properly. Some of them are : math , vector and string. Header files usually contain code that provides a framework and useful functions. The are generally represented by a ".h" extension
+* The 1st line tells the computer to use the "iostream" header file for this specific program . There are many other header files which are requireed for a specific program to run properly. Some of them are : math , vector and string. Header files are generally represented by a ".h" extension (you don't need to add .h when including C++ standard library files)
 * `iostream` stands for input-output stream . The "iostream" file contains code for allowing the computer to take input and generate an output, using the C++ language.
 * The second line tells the computer to use the standard namespace which includes features of standard C++. You could write this program without this line, but you'd have to use `std::cout` instead of `cout` on line 4. It makes the code more readable and our lives as programmers easier.
 
@@ -67,7 +67,7 @@ int main()
 * Whatever is in the double quotes `""` is printed . Certain special characters have a different syntax for print statements   
 * Now to print any other kind of data , you have to  add `<<` .
 
-***Q. Try to change "Hello World" to any other sentence or word(s). What will the output be?***
+***Challenge: Try to change Hello World to any other sentence or word(s). What will be the output ?***
 
 * `endl` is a reserved word when using the C++ language to **end this line and go to the next line during output** .   - _cout stands for "console output"_
 * Finally, finish the command with a semicolon `;`.
@@ -86,12 +86,13 @@ _You have finished coding your first C++ program and have understood most of the
  
  **Good Luck to all of you and happy coding! :)**
  
- **Feel free to ask any queries on FreeCodeCamp's GitHub page or <a href='https://forum.freecodecamp.org/' target='_blank' rel='nofollow'>FreeCodeCamp's Forum .</a>**
+ **Happy Coding ! :)**
+ 
+ **Feel free to ask any questions on FreeCodeCamp's GitHub page or [FreeCodeCamp's Forum.](https://forum.freecodecamp.org/)**
 
- <a href='https://repl.it/L4k3' target='_blank' rel='nofollow'>Try the code yourself ! :) </a>
+ <a href='https://repl.it/L4k3' target='_blank' rel='nofollow'>Try it yourself ! :) </a>
 
-
-**You may require some software to write and execute C++ code. I recommend using CodeBlocks. There's a download link below :**
+**You may need some software to write and execute C++ code. I recommend using CodeBlocks. There's a download link below :**
 
 Download Link : <a href='http://www.codeblocks.org/downloads/26' target='_blank' rel='nofollow'>Download Here</a>
 
