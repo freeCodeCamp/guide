@@ -11,7 +11,7 @@
 
 La comunidad freeCodeCamp esta creando una **"Guia"** masiva.
 
-Esta herramienta de referencia eventualmente incluira miles de articulos que cubriran todas las areas de desarrollo, diseño y ciencia de datos - todo escrito para ser facilmente comprendido por personas nuevas en la programación.
+Esta herramienta de referencia eventualmente incluira miles de articulos que cubriran todas las areas de desarrollo, diseño y data science - todo escrito para ser facilmente comprendido por personas nuevas en la programación.
 
 Este repositorio es donde planeamos y mantenemos estos articulos guias, que luego son dispuestan en la guia estilo wiki de la comunidad,[`guide.freecodecamp.org`](https://guide.freecodecamp.org).
 
@@ -22,16 +22,16 @@ Los articulos guia buscan ser cortos articulos para iniciarte y familiarizarte c
 
 Los articulos guias pueden ser explicaciones de sintaxis, patrones de diseño, para que sirven las etiquetas aria, o el significado de los numeros en la esquina superior derecha de tu pantalla en [freecodecamp.org](https://freecodecamp.org).
 
-Aca puedes encontrar un [articulo de ejemplo sobre elementos HTML ](./src/pages/html/elements/index.md).
+Aquí puedes encontrar un [articulo de ejemplo sobre elementos HTML ](./src/pages/html/elements/index.md).
 
 ## ¿De qué temas puedo escribir un articulo?
 
-Tu ayuda escribiendo estos articulos es bienvenida.No hace falta que seas un experto in un topico para hablar de el - toda esta guia es open source, asi que incluso si cometes un error, otro contribuyente puede corregirla.
+Tu ayuda escribiendo estos articulos es bienvenida. No hace falta que seas un experto en un tema para hablar de el - toda esta guia es open source, asi que incluso si cometes un error, otro contribuyente puede corregirla.
 
 Como ayuda, encuentra un `articulo reducido`
 To help, find a `stub article` on our [Guide website](https://guide.freecodecamp.org/), write the article, then open a pull request (PR) to replace the stub with your article.
 
-Si no encuentras un resumen del topico del que te gustaria escribir, puedes abrir un PR(Pull request) que cree el resumen e incluya tu borrador del articulo.
+Si no encuentras un resumen del tema del que te gustaria escribir, puedes abrir un PR(Pull request) que cree el resumen e incluya tu borrador del articulo.
 
 Sientete en libertad de hacernos cualquier pregunta [en Gitter](https://gitter.im/freeCodeCamp/Contributors) si no estas seguro de en donde ubicar tu nuevo articulo dentro de la estructura de directorios.
 
@@ -45,7 +45,7 @@ Antes de comenzar a escribir, asegurate de leer la [guia de estilo en articulos]
 4. 👉 [Hacer pull request](https://github.com/freeCodeCamp/guides/compare)
 5. 🎉 Conseguir que tu pull request sea aprobado - ¡exito!
 
-O simplemente [crea un topico](https://github.com/freeCodeCamp/guides/issues) - ¡cualquier pequeña ayuda cuenta! 😊
+O simplemente [crea un tema(issue)](https://github.com/freeCodeCamp/guides/issues) - ¡cualquier pequeña ayuda cuenta! 😊
 
 ## Licencia
 
