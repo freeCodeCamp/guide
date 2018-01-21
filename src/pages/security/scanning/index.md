@@ -14,9 +14,9 @@ Creating Network Diagrams
 
 ## Scanning Techniques
 
-One of the most common ways to scan a a network is a technique called a Ping Sweep. This can determine the live hosts on a range of IP address. A really simple example of this is just going to your command line and typing `ping 8.8.8.8`. This will send an [ICMP] (https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol "Internet Control Message Protocol") ECHO request to a host, in this case it will be Google's Public DNS.
+One of the most common ways to scan a a network is a technique called a Ping Sweep. This can determine the live hosts on a range of IP address. A really simple example of this is just going to your command line and typing `ping 8.8.8.8`. This will send an [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol) ECHO request to a host, in this case it will be Google's Public DNS.
 
-Different Internet protocols require different methods of scanning; for example scanning a [TCP] (https://en.wikipedia.org/wiki/Transmission_Control_Protocol "Transmission Control Protol") network would be different to scanning a [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol "User Datagram Protocol on Wikipedia") network.
+Different Internet protocols require different methods of scanning; for example scanning a [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol) network would be different to scanning a [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol) network.
 
 TCP scans generally take advantage of the way in which TCP operates and how TCP goes through a "handshake" to initiate communication on a network. 
 1.  A device (Host A) attempting to communicate across a network to another device (Server B) will send a SYN message.
@@ -26,7 +26,7 @@ TCP scans generally take advantage of the way in which TCP operates and how TCP 
 
 Throughout this communication, there are bits of information that each participant sends in an attempt to initiate the conversation. 
 
-There are a lot more types of [scans](https://nmap.org/bennieston-tutorial/ "More scans") that further abuse the TCP Handshake process; such as IDLE scans, Xmas tree scans, Inverse TCP scans and Full Scans
+There are a lot more types of [scans](https://nmap.org/bennieston-tutorial/) that further abuse the TCP Handshake process; such as IDLE scans, Xmas tree scans, Inverse TCP scans and Full Scans
 
 ## Tools
 
