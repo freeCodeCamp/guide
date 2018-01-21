@@ -39,9 +39,8 @@ Beginning/End of line movement:
 
 ## Exiting Vi, Vim, Nvim, Gvim
 1. Press escape to get you into "normal" mode
-2. To exit, type `:q` but if you made any changes in file Vim gives error code `E37` in this case:
-- To save and exit, type `:wq`
-- To ignore changes and exit, type `:q!`
+2. Type `:q`, press enter. If you receive an error try `:q!`
+3. To exit and save, type `:q`
 
 **OR**
 - Type ZZ (save and quit)
@@ -86,6 +85,14 @@ To return to regular Vim without paste mode you can enter normal mode (`escape` 
 For total beginners, Vim comes with a built in tutorial! You can access it by running `vimtutor` from your terminal and this will launch an interactive tutorial on *how to get started with Vim* (takes around 15 minutes to work through).
 
 If you are not as confident in English, you can lanch `vimtutor` in your language of choice. For example `vimtutor fr` will launch the tutorial in french!
+
+## Find and Replace
+1. Press `Escape` to make sure your are in `normal mode`;
+2. Type in `:` (You will switch to `command mode`);
+3. Type `%s,word_to_be_replaced,new_word,g`;
+4. Press `ENTER`.
+
+Important: if you want to replace the first occurence of the word, remove the at the end.
 
 Play Vim(https://vim-adventures.com/) - A fun way to learn vim plating a step-by-step game.
 

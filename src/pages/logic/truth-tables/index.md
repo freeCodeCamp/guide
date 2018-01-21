@@ -19,7 +19,7 @@ AND is binary operator. It operates on two variables, say `x`, `y`.
 
 Thus we have 2^2 = 4 columns in our truth table !
 
-The last column is the functional value – x AND y.
+The last column is the functional value – x AND y.The logic for AND operation is that if values of x and y are both True only then the output would have the value True else it would be False. 
 
 Similarly truth tables for other logical operators -
 

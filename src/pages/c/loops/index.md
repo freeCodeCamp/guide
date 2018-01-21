@@ -100,7 +100,7 @@ The final section is referred to as the 'afterthought'. Its job is to perform so
 
 # Some Fun and Useful Quirks
 
-## Infinte looping with for loops
+## Infinite looping with for loops
 Take a moment to consider what this code will do:
 ```C
 for(;;){

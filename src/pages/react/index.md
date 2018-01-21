@@ -40,7 +40,7 @@ This content will not appear in your webpage. Anything in the head section of th
 
 ## 2 Get Script Tags to Harness the Power of React and Babel Libraries
 Ok, item one is checked off of our list. Let’s look at item two. We are going to set up our developer environment by using script tags to bring in React and Babel. This is not a real life developer environment. That would be quite an elaborate setup. It would also leave us with a lot of boiler plate code and libraries that would take us off subject of learning React basics. The goal of this series is to go over the basic syntax of React and get right into coding.
-We are going to use <script> tags to bring in the React Library, the React DOM library (why), and the Babel library.
+We are going to use `<script>` tags to bring in the React Library, the React DOM library (why), and the Babel library.
 
 ```javascript
 <head>
@@ -158,9 +158,37 @@ As an alternative to JSX, you can use ES6 and Javascript's compiler like Babel. 
 
 For more information head to <a href='https://reactjs.org/' target='_blank' rel='nofollow'>https://reactjs.org/</a>
 
+## Advantages of React
+
+Some reasons to use React are:
+
+1. Fast. Apps made in React can handle complex updates and still feel quick and responsive.
+2. Modular. Instead of writing large, dense files of code, you can write many smaller, reusable files. React's modularity can be a beautiful solution to JavaScript's [maintainability problems](https://en.wikipedia.org/wiki/Spaghetti_code).
+3. Scalable. Large programs that display a lot of changing data are where React performs best.
+4. Flexible. You can use React for interesting projects that have nothing to do with making a web app. People are still figuring out React's potential. [There's room to explore](https://medium.mybridge.co/22-amazing-open-source-react-projects-cb8230ec719f).
+
 ### Tutorials
 <a href='https://egghead.io/browse/frameworks/react' target='_blank' rel='nofollow'>Egghead.io React</a>
 
 ### People to Follow
 * <a href='https://twitter.com/dan_abramov' target='_blank' rel='nofollow'>Dan Abramov Twitter</a>
+
+#### More Information
+* [https://reactjs.org/](https://reactjs.org/)
+
+
+
+### Virtual DOM
+React's magic comes from it's interpretation of the DOM and it's strategy for creating UIs.
+
+React uses the Virtual DOM to render an HTML tree virtually first, and then, every time a state changes and we get a new HTML tree that needs to be taken to the browser’s DOM, instead of writing the whole new tree React will only write the difference between the new tree and the previous tree (since React has both trees in memory). This process is known as Tree Reconciliation.
+
+### Reconciliation
+
+React has a smart diffing algorithm that it uses to only regenerate in its DOM node what actually needs to be regenerated while it keeps everything else as is. This diffing process is possible because of React’s virtual DOM.
+
+Using the virtual DOM, React keeps the last DOM version in memory and when it has a new DOM version to take to the browser, that new DOM version will also be in memory, so React can compute the difference between the new and the old versions.
+
+React will then instruct the browser to update only the computed diff and not the whole DOM node. No matter how many times we regenerate our interface, React will take to the browser only the new “partial” updates.
+
 
