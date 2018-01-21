@@ -7,15 +7,15 @@ In this section, we'll have guides to a wide variety of tools used by designers.
 
 These are some of them:
 
-- [Adobe Experience Design](https://www.adobe.com/products/xd.html)
-- [Figma](https://www.figma.com)
-- [Framer](https://framer.com)
-- [Adobe Photoshop](https://www.adobe.com/products/photoshop.html)
-- [Sketch](https://www.sketchapp.com)
-- [Coolors](http://coolors.co)
+[Adobe Experience Design](www.adobe.com/products/experience-design.html) - [Guide](https://github.com/freeCodeCamp/guides/blob/master/src/pages/designer-tools/Experience-design/index.md)
 
+[Figma](https://www.figma.com) - [Guide](https://github.com/freeCodeCamp/guides/blob/master/src/pages/designer-tools/Figma/index.md)
 
-## Firefox Plug-In Tools 
+[Framer](https://framer.com) - [Guide](https://github.com/freeCodeCamp/guides/blob/master/src/pages/designer-tools/framer/index.md)
+
+[Adobe Photoshop](http://adobe.com/Photoshop) - [Guide](https://github.com/freeCodeCamp/guides/blob/master/src/pages/designer-tools/photoshop/index.md)
+
+[Sketch](https://www.sketchapp.com) - [Guide](https://github.com/freeCodeCamp/guides/blob/master/src/pages/designer-tools/sketch/index.md)
 
 In this section, you can see popular Firefox plug-ins used by designers.
 
