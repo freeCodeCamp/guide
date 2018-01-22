@@ -1,11 +1,11 @@
 ---
-title: Exact Change
+title: Cash Register
 ---
 ![:triangular_flag_on_post:](https://forum.freecodecamp.com/images/emoji/emoji_one/triangular_flag_on_post.png?v=3 ":triangular_flag_on_post:") Remember to use <a>**`Read-Search-Ask`**</a> if you get stuck. Try to pair program ![:busts_in_silhouette:](https://forum.freecodecamp.com/images/emoji/emoji_one/busts_in_silhouette.png?v=3 ":busts_in_silhouette:") and write your own code ![:pencil:](https://forum.freecodecamp.com/images/emoji/emoji_one/pencil.png?v=3 ":pencil:")
 
 ### ![:checkered_flag:](https://forum.freecodecamp.com/images/emoji/emoji_one/checkered_flag.png?v=3 ":checkered_flag:") Problem Explanation:
 
-*   You have to create a program that will handle when the register does not have enough cash or will have no cash after the transaction. Other than that it needs to return an array of the change in the form of an array, so that will be a 2D array.
+*   You have to create a program that will return an object containing a `status` key and a `change` key. The value of `status` is the string `INSUFFICIENT_FUNDS`, `CLOSED`, or `OPEN`, and the value of `change` is a 2D array of the change due.
 
 #### Relevant Links
 
@@ -13,19 +13,19 @@ title: Exact Change
 
 ## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 1
 
-*   It is easier to handle if you have to close the register, or if you know how much money is in your register beforehand and you will not have enough money to complete the transaction. For this it is recommended to have a function to assign this information to a variable.
+*   It is easier when you know how much money is in your register beforehand. For this it is recommended to have a function to assign this information to a variable. Then you can see if you have enough money to complete the transaction and return change, or if you should close the register.
 
 > _try to solve the problem now_
 
 ## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 2
 
-*   Life is easier when you get to know the value of each currency type in the register instead of how much money is composed of that particular currency. So be sure to watch out for that.
+*   This problem is easier when you know the value of each bill or coin you are working with, rather than just the sum of each in the register. For example, it's useful to know that a nickel is worth .05, along with the fact that you have $2.05 worth of nickels in the cash register.
 
 > _try to solve the problem now_
 
 ## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 3
 
-*   You will have to get as much change from one type before moving to the next from greater value to lesser, and keep going until you have covered the whole change.
+*   You will have to get as much change from one type of bill or coin before moving to the next, from greater to lesser value. Keep going until you have calculated all the change due.
 
 > _try to solve the problem now_
 
@@ -37,8 +37,8 @@ title: Exact Change
 
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Beginner Code Solution:
 
-    // Create an object which hold the denominations and their values
-    var denom = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>
+    // Create an array of objects which hold the denominations and their values
+    var denom = [
       { name: 'ONE HUNDRED', val: 100.00},
       { name: 'TWENTY', val: 20.00},
       { name: 'TEN', val: 10.00},
@@ -51,6 +51,7 @@ title: Exact Change
     ];
 
     function checkCashRegister(price, cash, cid) {
+      var output = { status: null, change: [] };
       var change = cash - price;
 
       // Transform CID array into drawer object
@@ -58,23 +59,26 @@ title: Exact Change
         acc.total += curr[1];
         acc[curr[0]] = curr[1];
         return acc;
-      }, {total: 0});
+      }, { total: 0 });
 
       // Handle exact change
       if (register.total === change) {
-        return 'Closed';
+        output.status = 'CLOSED';
+        output.change = cid;
+        return output;
       }
 
-      // Handle obvious insufficent funds
+      // Handle obvious insufficient funds
       if (register.total < change) {
-        return 'Insufficient Funds';
+        output.status = 'INSUFFICIENT_FUNDS';
+        return output;
       }
 
       // Loop through the denomination array
       var change_arr = denom.reduce(function(acc, curr) {
         var value = 0;
         // While there is still money of this type in the drawer
-        // And while the denomination is larger than the change reminaing
+        // And while the denomination is larger than the change remaining
         while (register[curr.name] > 0 && change >= curr.val) {
           change -= curr.val;
           register[curr.name] -= curr.val;
@@ -87,27 +91,30 @@ title: Exact Change
         if (value > 0) {
             acc.push([ curr.name, value ]);
         }
-        return acc; // Return the current Change Array
+        return acc; // Return the current change_arr
       }, []); // Initial value of empty array for reduce
 
       // If there are no elements in change_arr or we have leftover change, return
       // the string "Insufficient Funds"
       if (change_arr.length < 1 || change > 0) {
-        return "Insufficient Funds";
+        output.status = 'INSUFFICIENT_FUNDS';
+        return output;
       }
 
       // Here is your change, ma'am.
-      return change_arr;
+      output.status = 'OPEN';
+      output.change = change_arr;
+      return output;
     }
 
     // test here
     checkCashRegister(19.50, 20.00, [["PENNY", 1.01], ["NICKEL", 2.05], ["DIME", 3.10], ["QUARTER", 4.25], ["ONE", 90.00], ["FIVE", 55.00], ["TEN", 20.00], ["TWENTY", 60.00], ["ONE HUNDRED", 100.00]]);
 
-![:rocket:</a> <a href='https://repl.it/CLoj/0' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/@scissorsneedfoo/cash-register-example' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
-First, the CID array is transformed into a drawer object. Then we handle the conditions of exact change and insufficient funds. Then we loop through the denomination array and update the change and values while there is still money of this type in the drawer and while the denomination is larger than the change reminaing. Then we add this denomination to the output only if any was used. Finally, if there are no elements in `change_arr` or we have leftover change, return the string "Insufficient Funds".
+First, create an array of objects with the value of each denomination of bill or coin, along with an output object with the status and change keys. Next, transform the CID array into a drawer object. Then, handle the conditions of exact change and insufficient funds. Loop through the `denom` array and update the change and values while there is still money of each type in the drawer and while the denomination is larger than the change remaining. Add this denomination to the accumulator of `change_arr` if any of this type was used. After the loop, `change_arr` is a 2D array of the change due, sorted from highest to lowest denomination. If there are no elements in `change_arr` or you still owe change, return the output object with a status of `INSUFFICIENT_FUNDS`. Finally you can give the correct change. Return the output object with a status of `OPEN` and `change_arr` as the value of change.
 
 #### Relevant Links
 
