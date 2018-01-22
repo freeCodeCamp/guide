@@ -1,6 +1,9 @@
 ---
 title: Logical Operators
 ---
+
+# Logical Operators
+
 Logical operators compare Boolean values and return a Boolean response.  There are two types of logical operators - Logical AND, and Logical OR. These operators are often written as && for AND, and || for OR.
 
 #### Logical AND ( && )
