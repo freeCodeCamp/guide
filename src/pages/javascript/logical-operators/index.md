@@ -36,6 +36,7 @@ Both logical operators will return the value of the last evaluated expression. F
 
 #### More information:
 
+
 [Javascript Truth Table](https://guide.freecodecamp.org/javascript/truth-table)
 
 [MDN](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Logical_Operators)

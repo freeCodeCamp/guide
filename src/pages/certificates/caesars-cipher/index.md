@@ -39,7 +39,7 @@ Leave anything that doesn't come between A-Z as it is.
 **Solution ahead!**
 
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
-
+```javascript
     function rot13(str) {
       // Split str into a character array
       return str.split('')
@@ -59,7 +59,7 @@ Leave anything that doesn't come between A-Z as it is.
           return String.fromCharCode(x - 13);
         }).join('');  // Rejoin the array into a string
     }
-
+```
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLjU/38' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
@@ -77,7 +77,7 @@ Leave anything that doesn't come between A-Z as it is.
 *   <a href='http://forum.freecodecamp.com/t/javascript-array-prototype-join/14292' target='_blank' rel='nofollow'>Array.prototype.join</a>
 
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution:
-
+```javascript
     // Solution with Regular expression and Array of ASCII character codes
     function rot13(str) {
       var rotCharArray = <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply' target='_blank' rel='nofollow'>];
@@ -99,7 +99,7 @@ Leave anything that doesn't come between A-Z as it is.
 
     // Change the inputs below to test
     rot13("LBH QVQ VG!");
-
+```
 ### Code Explanation:
 
 *   An empty array is created in a variable called `rotCharArray` to store the character codes.
@@ -266,7 +266,7 @@ E.g. `65` maps to `13` which can be taken as an offset value and added to `65` t
 
 #### Relevant Links
 
-*   [String.prototype.replace</a>
+*   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace">String.prototype.replace()</a>
 
 ## ![:clipboard:](https://forum.freecodecamp.com/images/emoji/emoji_one/clipboard.png?v=3 ":clipboard:") NOTE TO CONTRIBUTORS:
 
