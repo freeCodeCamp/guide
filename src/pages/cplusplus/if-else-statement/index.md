@@ -11,6 +11,7 @@ title: If-Else Statement
 
 ### General Form of If-Else Statement
 
+
 ```cpp
   if (test expression) {
   //True-Block statements;
@@ -23,6 +24,7 @@ title: If-Else Statement
 ### Example of If-Else Statement
 
 If test expression is true :
+
 ```cpp
 int a=10;
 if (a<20) {
@@ -34,7 +36,9 @@ else
 }
 //program continues
 ```
+
 If test expression is false :
+
 ```cpp
 int a=10;
 if (a>20){
@@ -46,6 +50,7 @@ else
 }
 //program continues
 ```
+
 ### Example in C++:
 
 ```cpp
@@ -92,11 +97,13 @@ You entered a negative number : -200
 This step is always printed
 ```
 
-<a href='https://repl.it/MzBq' target='_blank' rel='nofollow'>Try the code yourself</a>
+[Try the code yourself](https://repl.it/MzBq)
+
 _CONGRATULATIONS . This is the end of the article on the IF statement_ 
 
- **Good Luck to all of you** 
+**Good Luck to all of you** 
 
- **Happy Coding ! :)**
+**Happy Coding ! :)**
 
- **Feel free to ask any queries on FreeCodeCamp's GitHub page or <a href='https://forum.freecodecamp.org/' target='_blank' rel='nofollow'>FreeCodeCamp's Forum .</a>**
+**Feel free to ask any queries on FreeCodeCamp's GitHub page or [FreeCodeCamp's Forum](https://forum.freecodecamp.org)
+
