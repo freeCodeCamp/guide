@@ -199,6 +199,8 @@ Why learn React?
 Many popular websites use React implementing the MVC architectural pattern. Facebook (Partially), Instagram (Completely), Khan Academy (Partially), Codecademy (Partially), New York Times (Partially), Yahoo Mail (Completely), Dropbox's new photo and video gallery app Carousel (Completely) are the popular websites known to be using React.
 How these large applications are build using React? The simple answer is by building small applications or components.
 Example
+
+        ``` react
         var component2  = function() {
           return (
               <div></div>
@@ -218,6 +220,8 @@ Example
              )
         }
         <component1/>
+        ```
+        
 
 2.	React is Declarative for most part in which we are  concerned more with What to do rather than How to do a specific task.  Declarative programming is a programming paradigm that expresses the logic of a computation without describing its control flow.
 Declarative programming  comes with  certain advantages such as reduced side effects(occurs when we modify any state or mutating something or making an API request), minimizing mutability(as lot of is abstracted), enhanced readability, lesser bugs.
