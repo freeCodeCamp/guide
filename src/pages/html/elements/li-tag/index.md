@@ -160,4 +160,3 @@ And here is an ordered list with a nested, unordered list.
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
-
