@@ -23,8 +23,7 @@ x := 1
 text, err := ioutil.ReadAll(reader)
 ```
 
-Short variable declarations may appear only inside functions. In some contexts such as the initializers for "if", "for", or 
-"switch" statements, they can be used to declare local temporary variables.
+Short variable declarations may appear only inside functions. In some contexts such as the initializers for `if`, `for`, or `switch` statements, they can be used to declare local temporary variables.
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
