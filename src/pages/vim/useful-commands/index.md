@@ -63,6 +63,10 @@ Try to move around with the arrow keys in "insert" mode.
 
 Depending on the configuration, you may enter a file browser by typing and entering the command `:e .` in "normal" mode. The 'e' stands for edit, and the period for the file or directory.
 
+## Writing in a file
+1. Press `i`. You are now in insert mode and can edit your file.
+2. Press esc to get back to normal mode.
+
 ## Searching a file in Vim
 
 When in normal mode (press the `escape` key to make sure), you can search for any term in the document by typing `/`, followed by the term you're looking for, and then pressing `enter`. For example, type `/hello` and press `enter` to search for the word "hello" in the current file.
