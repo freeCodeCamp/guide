@@ -326,11 +326,11 @@ Use Markdown style links in your articles to link to other websites.
 
 ### Images
 
-For including images, if the images aren't already hosted somewhere else on the web, you'll need to put them online yourself using a platform like [Imgur](https://imgur.com/) or [Flickr](https://www.flickr.com).
+For including images, if they aren't already hosted somewhere else on the web, you will need to put them online yourself using a platform like [Imgur](https://imgur.com/) or [Flickr](https://www.flickr.com). You can also host images by committing them to a git repository and pushing it to GitHub. Then you can right-click the image and copy its URL.
 
-A good way to do this is to commit them to a GitHub repository of your own, then push them to GitHub. Then you can right-click the image and copy its image source.
+We don't allow hosting images directly in the git repository because it would make it far too big (people pulling it to their local system to make changes would end up downloading all the images), and because it is easier to change an image by just changing the URL in an article than by putting the new image in the repository.
 
-Then you'd just need to reference them in your markdown file with this syntax:
+To include the image in your article, use the appropriate markdown syntax:
 
 ```markdown
 ![Image Title](https://url-to-image)
