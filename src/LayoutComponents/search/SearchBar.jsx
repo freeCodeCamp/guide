@@ -43,8 +43,10 @@ class SearchBar extends PureComponent {
 
   handleSearchTerm(searchTerm) {
     const {
-      updateLastPage
+      updateLastPage,
+      updateSearchTerm
     } = this.props;
+    updateSearchTerm(searchTerm);
     const { push } = this.context.router.history;
     const { pathname } = this.context.router.history.location;
     if (pathname !== '/search' && searchTerm.length > 2) {
