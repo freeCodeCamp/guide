@@ -3,14 +3,6 @@ title: Evented Servers
 ---
 ## Evented Servers
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/computer-science/evented-servers/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 Evented servers run a single event loop that handles events for all connected clients. This is opposed to Threaded servers, which use multiple concurrently executing threads, where each thread handles one client request.
 
 In simple terms, Evented servers have only one main thread that is shared amongst all client requests.
@@ -23,4 +15,7 @@ With an Evented server, there is only one operator that is able to take the pick
 
 These kind of servers use callbacks to let the clients know when their requests have been dealt with.
 
-For infomration regarding Even-driven architecture, go here : https://en.wikipedia.org/wiki/Event-driven_architecture
+#### More Information:
+<!-- Please add any articles you think might be helpful to read before writing the article -->
+
+[Even-driven architecture on Wikipedia](https://en.wikipedia.org/wiki/Event-driven_architecture)
