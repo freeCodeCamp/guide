@@ -63,8 +63,8 @@ The output will be something different this time :
 Hello World!	 I love freeCodeCamp!
 ```
 
- If you realised , the `\t` command created a _tab space_ between the two texts . This is one kind of special command in C++. These special commands are known as *Escape Sequences* .
- They are used to print certain special characters a compiler cannot display.
+If you realised , the `\t` command created a _tab space_ between the two texts . This is one kind of special command in C++. These special commands are known as *Escape Sequences* .
+They are used to print certain special characters a compiler cannot display.
 
 #### Useful escape sequences -
 
@@ -118,16 +118,16 @@ This is because we did not add the inverted commas for the second print statemen
     /* This is an example of a multi line comment. No output is generated for this .
     I now end the comment.  :) */
  ```
- The output will be :
+The output will be :
 
 `Hello Comment`
 
- As you may notice, the comments are ignored during program execution and do not show up on checking the output of the program.
+As you may notice, the comments are ignored during program execution and do not show up on checking the output of the program.
  
  
- #### Operators 
- * Operators allow you to compare two or more expressions
- * `==` equal to 
+#### Operators 
+* Operators allow you to compare two or more expressions
+* `==` equal to 
 * `!=`  not equal to 
 * `<` less than 
 * `>` greater than 
@@ -137,17 +137,11 @@ This is because we did not add the inverted commas for the second print statemen
 ```cpp
     (7==5); 
 ```
-This evaluates to false 
-
+This evaluates to false
 
 ```cpp 
     (7!=5); 
 ```
 This evaluates to true
 
- 
-
 <a href='https://repl.it/L4ox' target='_blank' rel='nofollow'>A summation of all the print statements used in this article. Feel free to tweak around woth the code ! :) </a>
-
-
-
