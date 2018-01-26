@@ -1,6 +1,7 @@
 ---
 title: Constructors
 ---
+
 # Constructors
 
 What's the point then? I should be able to store data in it right?
@@ -23,7 +24,7 @@ This initializing with no parameters is a way of calling the default constructor
 public class Car {
     private String name;
 
-    //User Specified Default Constructor
+    // User Specified Default Constructor
     public Car() {
         name = "Tesla";
     }
@@ -51,7 +52,7 @@ public class Car {
 
     private String name;
 
-    //Constructor.
+    // Constructor.
     public Car(String model){
         this.name = "Honda " + model;
     }
@@ -98,7 +99,7 @@ Notice that the constructor is `private`. This enforces the fact that no one els
 In fact, if in another class, you try:
 
 ```java
-Bank account = new Bank(); //-> throws a compilation error: Bank() has private access in Bank.
+Bank account = new Bank(); // Throws a compilation error: Bank() has private access in Bank.
 ```
 
 So, the only way to gain access to the instance is by using `Bank.getInstance()`. Such instances are called `Singleton` since you get exactly one instance (per VM to be precise) throughout the life of your application.
