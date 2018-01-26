@@ -44,6 +44,6 @@ Some techniques are: RSA, Diffie-Hellman, DSS(Digital Signature Standard), ElGam
 
 #### More Information:
 
-- [Cryptography: Theory and Practice by Douglas Stinson](https://www.crcpress.com/Cryptography-Theory-and-Practice-Third-Edition/Stinson/p/book/9781584885085)
-- [TechTarget on Encryption](http://searchsecurity.techtarget.com/definition/encryption)
-- [Cryptography Guide](https://www.tutorialspoint.com/cryptography/index.htm)
+- <a href='https://www.crcpress.com/Cryptography-Theory-and-Practice-Third-Edition/Stinson/p/book/9781584885085' target='_blank' rel='nofollow'>Cryptography: Theory and Practice by Douglas Stinson</a>
+- <a href='http://searchsecurity.techtarget.com/definition/encryption' target='_blank' rel='nofollow'>TechTarget on Encryption</a>
+- <a href='https://www.tutorialspoint.com/cryptography/index.htm' target='_blank' rel='nofollow'>Cryptography Guide</a>
