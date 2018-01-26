@@ -9,4 +9,4 @@ Cyberattacks can be targeted and untargeted, and the mechanisms employed by hack
 
 A cyberattack can also be untargeted. The classical example of such attacks is phishing, in which cybercriminals send out emails to a large group of people disguising as a legit organization to encourage users to share sensitive information or visit a phony website. Alternatively, the hacker could compromise a legit website and plant a malware (malicious software) by which visitors would get infected. In 2017, a Ukrainian government website was infected with malware that erases visitors' hard drives.
 
-Emails no longer look like spam - they look very official, and the email addresses can originally appear as though they come from a legit person or organization.
+Emails no longer look like spam - they look very official, and the email addresses can originally appear as though they come from a legit person or organization through a process called [spoofing](https://en.wikipedia.org/wiki/Email_spoofing).
