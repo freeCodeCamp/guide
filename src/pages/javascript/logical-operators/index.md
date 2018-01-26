@@ -1,37 +1,59 @@
 ---
 title: Logical Operators
 ---
+
+# Logical Operators
+
 Logical operators compare Boolean values and return a Boolean response.  There are two types of logical operators - Logical AND, and Logical OR. These operators are often written as && for AND, and || for OR.
 
 #### Logical AND ( && )
 
-The AND operator compares two expressions. If the 1st evaluates as ["truthy"](https://developer.mozilla.org/en-US/docs/Glossary/Truthy), the statement will return the value of the 2nd expression.
-If the 1st evaluates as ["falsy"](https://developer.mozilla.org/en-US/docs/Glossary/Falsy), the statement will return the value of the 1st expression.
+The AND operator compares two expressions. If the first evaluates as ["truthy"](https://developer.mozilla.org/en-US/docs/Glossary/Truthy), the statement will return the value of the second expression.
+If the first evaluates as ["falsy"](https://developer.mozilla.org/en-US/docs/Glossary/Falsy), the statement will return the value of the first expression.
+
+When only involving boolean values (either `true` or `false`), it returns true if only if both expressions are true. If one or both expressions are false, the entire statement will return false.
 ```js
-true && true //returns  the 2nd value, true
-true && false //returns the 2nd value, false
-false && false //returns the 1st value, false
-123 && 'abc' // returns the 2nd value, 'abc'
-'abc' && null //returns the 2nd value, null
-undefined && 'abc' //returns the 1st value, undefined
-0 && false //returns the 1st value, 0
+true && true //returns  the second value, true
+true && false //returns the second value, false
+false && false //returns the first value, false
+123 && 'abc' // returns the second value, 'abc'
+'abc' && null //returns the second value, null
+undefined && 'abc' //returns the first value, undefined
+0 && false //returns the first value, 0
 ```
 
 #### Logical OR ( || )
 
-The OR operator compares two expressions. If the first evaluates as "falsey", the statement will return the value of the 2nd expression. If the first evaluates as "truthy", the statement will return the value of the 1st expression.
+The OR operator compares two expressions. If the first evaluates as "falsy", the statement will return the value of the second second expression. If the first evaluates as "truthy", the statement will return the value of the first expression.
+
+When only involving boolean values (either `true` or `false`), it returns true if either expression is true. Both expressions can be true, but only one is needed to get true as a result.
 ```js
-true && true //returns the 1st value, true
-true && false //returns the 1st value, true
-false && false //returns the 2nd value, false
-123 && 'abc' // returns the 1st value, 123
-'abc' && null //returns the 1st value, 'abc'
-undefined && 'abc' //returns the 2nd value, 'abc'
-0 && false //returns the 2nd value, false
+true || true //returns the first value, true
+true || false //returns the first value, true
+false || false //returns the second value, false
+123 || 'abc' // returns the first value, 123
+'abc' || null //returns the first value, 'abc'
+undefined || 'abc' //returns the second value, 'abc'
+0 || false //returns the second value, false
 ```
 
-Note that where `&&` returns the 1st value, `||` returns the 2nd value and vice versa.
+#### Tips:
+Both logical operators will return the value of the last evaluated expression. For example:
+
+```js
+"cat" && "dog" //returns "dog"
+"cat" && false //returns false
+0 && "cat"  //returns 0 (which is a falsy value)
+
+"cat" || "dog" //returns "cat"
+"cat" || false //returns "cat"
+0 || "cat" //returns "cat"
+```
+
+Note that where `&&` returns the first value, `||` returns the second value and vice versa.
 
 #### More information:
 
-[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators).
+[Javascript Truth Table](https://guide.freecodecamp.org/javascript/truth-table)
+
+[MDN](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Logical_Operators)

@@ -6,7 +6,7 @@ Commenting is a way that you can leave comments within your code without affecti
 It is also a convenient way to make code inactive without having to delete it entirely.
 
 You can start a comment with `<!-- and end a comment with -->`.
-
+```html
     <!--
     <h1>Hello World</h1>
 
@@ -14,3 +14,4 @@ You can start a comment with `<!-- and end a comment with -->`.
 
     <p>Hello Paragraph</p>
     -->
+```
