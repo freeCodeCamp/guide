@@ -1,5 +1,5 @@
 ---
-title: Assignment with Times Equals
+title: Compound Assignment With Augmented Multiplication
 ---
 The `*= operator` multiplies a variable by a number.
 ```javascript

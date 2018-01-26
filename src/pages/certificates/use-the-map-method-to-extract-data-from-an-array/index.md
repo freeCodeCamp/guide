@@ -1,5 +1,5 @@
 ---
-title: Iterate Over Arrays with Map
+title: Use the Map Method to Extract Data from an Array
 ---
 Using _map_ is the best way to iterate through an array or object. Map uses a function to pretty much do whatever you want it to do. It will pass each value to the callback function.
 

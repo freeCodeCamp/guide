@@ -1,5 +1,5 @@
 ---
-title: Find White Space with Regular Expressions
+title: Match Whitespace
 ---
 We can also use selectors like`\s` to find spaces in a string.
 
