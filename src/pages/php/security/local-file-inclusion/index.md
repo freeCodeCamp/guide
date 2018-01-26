@@ -3,11 +3,17 @@ title: Local File Inclusion
 ---
 ## Local File Inclusion
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/php/security/local-file-inclusion/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+A vulnerability in the application caused by the programmer requiring a file input provided by the user and not sanitizing the input before accessing the requested file. This results in a file being included where it should not of been.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Example local file inclusion attacks
+A website allows you to view PDFs as `download.php?file=myfile.php`, due to a lack of proper checking a malicious user is able to request /etc/passwd and get sensitive configuration information from the web server.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
+### Defending your website from local file inclusion attacks in PHP
+```PHP
+<?php
+if(basename($_GET['file]) !== $_GET['file']) {
+  die('INVALID FILE REQUESTED');
+}
+```
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+* <a href="https://www.owasp.org/index.php/Testing_for_Local_File_Inclusion" rel="nofollow">OWASP Wiki - Testing for Local File Inclusion</a>

@@ -1,36 +1,29 @@
 ---
 title: Go Variables
 ---
-## Go Variables
+# Variable declarations in Go
 
-# Variable declaration in Golang
+## Method 1: Regular Variable Declarations
 
-## Method 1:
+A regular variable declaration creates one or more variables by binding identifiers with a type and an initial value. If a variable is declared without a type, then that variable is given the type of the corresponding initialization value in the assignment. If a variable is defined with no initial value, then the variable is initialized to its [zero value](https://golang.org/ref/spec#The_zero_value).
 
-A regular A variable declaration creates one or more variables, binds corresponding identifiers to them, and gives each a type 
-and an initial value.
-
-Example:
+The following examples are all valid variable declarations in go:
 ``` go
 var x int = 1
-```
-or
-``` go
-var x int
-```
-or
-``` go
-var x, y float32 = -1, -2
+var y int
+var z = 0
+var a, b float32 = -1, -2
 ```
 
-## Method 2: Short variable declarations
+## Method 2: Short Variable Declarations
 
-It is shorthand for a regular variable declaration with initializer expressions but no types, and use the syntax:
+Shorthand variable declarations create variables with only an identifier and an initial value. The `var` keyword and types are not needed to declare a variable using shorthand syntax:
 ``` go
 x := 1
+text, err := ioutil.ReadAll(reader)
 ```
-Short variable declarations may appear only inside functions. In some contexts such as the initializers for "if", "for", or 
-"switch" statements, they can be used to declare local temporary variables.
+
+Short variable declarations may appear only inside functions. In some contexts such as the initializers for `if`, `for`, or `switch` statements, they can be used to declare local temporary variables.
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->

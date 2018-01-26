@@ -60,6 +60,27 @@ Output:
 9
 >
 ```
+Additionally, one can specify the lower bound of the sequence and even the step of the sequence by adding a second and a third parameter. 
+
+```python
+for i in range(4,10,2): #From 4 to 9 using a step of two
+    print(i)
+```
+Output:
+
+```
+>
+4
+6
+8
+>
+```
+
+**xrange() function**
+
+For the most part, xrange and range are the exact same in terms of functionality. They both provide a way to generate a list of integers for you to use, however you please. The only difference is that range returns a Python list object and xrange returns an xrange object. It means that xrange doesn't actually generate a static list at run-time like range does. It creates the values as you need them with a special technique called yielding. This technique is used with a type of object known as generators.
+
+One more thing to add. In Python 3.x, the xrange function does not exist anymore. The range function now does what xrange does in Python 2.x
 
 **Iterate over values in a list or tuple**
 
@@ -158,4 +179,8 @@ for index, item in enumerate(shopping_basket):
 
 #### More Information:
 
-- <a href='https://docs.python.org/3/tutorial/controlflow.html#for-statements' target='_blank' rel='nofollow'>Python for loop documentation</a>
+- <a href='https://docs.python.org/2.7/tutorial/controlflow.html#for-statements' target='_blank' rel='nofollow'>Python2 for loop documentation</a>
+
+- <a href='https://docs.python.org/3/tutorial/controlflow.html#for-statements' target='_blank' rel='nofollow'>Python3 for loop documentation</a>
+
+
