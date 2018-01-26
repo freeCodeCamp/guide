@@ -27,7 +27,9 @@ Setting an element to `opacity: 0;` does not remove it from the page. The elemen
 }
 ```
 
-[This simple example](https://jsfiddle.net/1ogmxaf8/1/) shows how you might use opacity with a hover effect.
+[This simple example](https://codepen.io/Tlandis/pen/xXMRGM) shows how you might use opacity with a hover effect.
+
+Opacity is often used to draw the user's attention to elements and focus on important parts of a page. 
 
 #### More Information:
 * [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/opacity)
