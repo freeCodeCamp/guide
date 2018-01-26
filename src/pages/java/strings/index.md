@@ -15,15 +15,10 @@ Output:
 true
 ```
 
-You can create a String in the following ways:
-
-1.  
+You can create a String either by creating a string literal, or by explicitly creating a String object using the `new` keyword:
 ```java
-String str = "I am a String"; //This is a String literal
-```
-2.  
-```java
-String str = new String("I am a String"); //This is a String Object
+String str = "I am a String"; // This is a String literal
+String str = new String("I am a String"); // This is a String Object
 ```
 
 You might be thinking: What's the difference between the two?
