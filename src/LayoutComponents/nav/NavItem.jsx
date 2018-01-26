@@ -12,8 +12,8 @@ const propTypes = {
 function NavItem(props) {
   const { isStubbed, path, title } = props;
   return (
-    <li role='presentation'>
-      <Link role='presentation' to={ path }>
+    <li>
+      <Link data-navitem='true' to={ path }>
         <span
           className={
             'navItemTitle' +
