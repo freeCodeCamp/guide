@@ -34,7 +34,12 @@ $ rails new your_application_name
 $ cd your_application_name
 ```
 
-3. To run the rails server and see if everything went accordingly is also fast:
+3. Get the necessary gems and software packages before running your application:
+```shell
+$ bundle install
+```
+
+4. To run the rails server and see if everything went accordingly is also fast:
 ```shell
 $ rails server
 ```
@@ -42,7 +47,7 @@ It couldn't be anymore simple! Well, this isn't actually 100% true, we could mak
 ```shell
 $ rails s
 ```
-4. Now, with you preffered brower, go to `http://localhost:3000` and you'll see: "Yay! You’re on Rails!"  
+5. Now, with you preffered brower, go to `http://localhost:3000` and you'll see: "Yay! You’re on Rails!"  
 
 ### Alternative method for creating a Rails application  
 
