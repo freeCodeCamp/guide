@@ -6,6 +6,7 @@ Everything to the right of the equals sign is evaluated first, so we can say `my
 One such operator is the `+= operator`.
 
 `myVar += 5;` will add 5 to myVar instead of using any of the follwoing:
-
+```javascript
     myVar = 5 + myVar;
     myVar = myvar + 5;
+```
