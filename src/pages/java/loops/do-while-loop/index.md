@@ -3,7 +3,8 @@ title: Do...While Loop
 ---
 # Do...While Loop
 
-The `do while` is similar to the `while` loop, but the group of statements is guranteed to run at least once before checking for a given condition.
+The `do-while` loop is just like 'while' loop but the code is always executed at least once before the condition is checked.
+You have to use do-while loop when the condition for loop becomes positive only after the code is executed one time.
 
 ```java
 do
