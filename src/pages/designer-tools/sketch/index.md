@@ -12,6 +12,7 @@ Sketch is a design toolkit for macOS only. It quickly became very popular as an 
 * Lots of plugins
 * Export files in multiple formats
 * Vast community
+* Exports style guide in easy to read HTML/CSS 
 
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
@@ -24,5 +25,7 @@ The Sketch Website - <a href='https://www.sketchapp.com' target='_blank' rel='no
 Sketch Documentation - <a href='https://www.sketchapp.com/docs/' target='_blank' rel='nofollow'>Sketch Documentation</a>
 
 A collection of Sketch tutorials - <a href='http://learnsketch.com/tutorials' target='_blank' rel='nofollow'>Learn Sketch</a>
+
+Sketch App Resources - <a href='https://www.sketchappsources.com/' target="_blank" rel="nofollow">https://www.sketchappsources.com/</a>
 
 
