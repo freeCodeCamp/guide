@@ -13,6 +13,7 @@ import {
 const propTypes = {
   results: PropTypes.arrayOf(PropTypes.object),
   searchTerm: PropTypes.string,
+  updateIsSearching: PropTypes.func.isRequired,
   updateLastPage: PropTypes.func.isRequired,
   updateSearchResults: PropTypes.func.isRequired,
   updateSearchTerm: PropTypes.func.isRequired
@@ -35,35 +36,32 @@ function mapDispatchToProps(dispatch) {
 }
 
 class SearchBar extends PureComponent {
-  constructor() {
-    super();
-    this.handleResults = this.handleResults.bind(this);
+  constructor(props) {
+    super(props);
+    this.handleSearchTerm = this.handleSearchTerm.bind(this);
   }
 
-  handleResults(results) {
+  handleSearchTerm(searchTerm) {
     const {
-      searchTerm,
       updateLastPage,
-      updateSearchResults
+      updateSearchTerm
     } = this.props;
+    updateSearchTerm(searchTerm);
     const { push } = this.context.router.history;
     const { pathname } = this.context.router.history.location;
-
-    if (pathname !== '/search' && searchTerm.length >= 2) {
+    if (pathname !== '/search' && searchTerm.length > 2) {
       updateLastPage(pathname);
       push('/search');
     }
-    updateSearchResults(results);
   }
 
-
   render() {
-    const { updateSearchTerm } = this.props;
+    const { updateIsSearching, updateSearchResults } = this.props;
     return (
       <FCCSearchBar
-        handleResults={this.handleResults}
+        handleResults={updateSearchResults}
         handleSearchingStatus={updateIsSearching}
-        handleSearchTerm={updateSearchTerm}
+        handleSearchTerm={this.handleSearchTerm}
       />
     );
   }
