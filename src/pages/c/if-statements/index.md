@@ -2,8 +2,10 @@
 title: Logical Operators and If Statements
 ---
 
-# if Statements in C
-Sometimes you only want code to run in a certain situation. That's where if statements come in to play. If something is true, the code will be executed; if it isn't true, the code will not be executed.
+
+# If Statements in C
+Sometimes you want your code to run according to certain conditions. In such situation we can use If statements. It is also known as decision making statement as it make the decision on basis of given expression(or on given condition).If the expression evaluates to true, then the block of code inside the 'if' statement will be executed. If the expression evaluates to false, then the first set of code after the end of the 'if' statement (after the closing curly brace) will be executed.A expression is an expression that has relational and/or logical operators operating on boolean variables. A expression evaluates to either true or false.
+
 
 ## A Simple Example
 Let's look at an example of this in action:
@@ -21,6 +23,10 @@ int main(void) {
 
     return 0;
 }
+```
+```
+output:
+Statement is True!
 ```
 
 Just like helloworld.c, stdio.h has been included. New in this program is stdbool.h, which is the standard boolean library- it contains code that gives us access to 'true' and 'false'.
@@ -49,6 +55,10 @@ int main(void) {
 
     return 0;
 }
+```
+```
+output:
+Statement is False!
 ```
 
 There are a few important things that are different here. First, `stdbool.h` hasn't been included. That's okay, because `true` and `false` aren't being used. In C, we have statements that are treated as true and false even though the words true or false aren't involved in the operation.
@@ -89,6 +99,10 @@ int main(void)
     return 0;
 }
 ```
+```
+output:
+n is equal to 5!
+```
 
 The if-else statement has an 'else if' attached to it. This code runs if the condition within the previous if was false, but adds a condition within its own parenthesis that must be true before the code is run.
 
@@ -123,6 +137,10 @@ int main(void) {
 
     return 0;
 }
+```
+```
+output:
+n is equal to 5 and m is equal to 10!
 ```
 
 Here's the first set of parenthesis: `n > m || n == 5`. This will be true if n is greater than m, or if n is equal to 5. n is not greater than m, but n is equal to 5. Because one of these things are true, and they are joined by an or, this statement will be true and the code within will be printed.
@@ -185,9 +203,9 @@ if(i=4) is true statement and instructions under this will executed
 
 # Before you go on...
 ## A review
-* 'if' statements check if something is true, and if they are, they run the code within the curly brackets.
-* 'else' can be added to the end of an 'if', and will run only if the previous if(s) were false.
-* 'else if' can also be added to the end of an 'if', and will run only if the previous if(s) were false.
+* 'if' statements check if expression is true, then it run the code within the curly brackets.
+* 'else' can be added to the end of an 'if', and will run only if the previous if(s) statement were false.
+* 'else if' can also be added to the end of an 'if', and will run only if the previous if(s) statement were false.
 * Everything in a computer is represented by numbers, so every comparison in C can be done by treating values like numbers- even true, false, and characters.
 * There are a bunch of comparison operators:
  * == is equal to
@@ -197,6 +215,6 @@ if(i=4) is true statement and instructions under this will executed
  * \>= is less than or equal to
  * <= is less than or equal to
 * We also have some logical operators, which allow us to chain together logical operations:
- * ! flips whether something is true or false
- * && joins two operations, making the overall operation true only if both halves are true
- * || joins two operations, making the overall operation true if one or both halves are true
+ * ! is called NOT operator-It reverses the state of the operand
+ * && is called AND operator-It returns true when both conditions are true
+ * || is called OR operator-It returns true when at-least one of the condition is true

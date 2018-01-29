@@ -2,7 +2,7 @@
 title: Ruby on Rails
 ---
 
-## What is Ruby on Rails
+# Ruby on Rails
 Ruby on Rails is a server-side framework (gem) built on the Ruby language to make websites. Rails makes web development faster, easier and more fun. It includes everything you need to build fantastic applications and has a big community. Rails was created by David Heinemeir Hansson and is currently on it's 5th version. Rails emphasizes the use of other well-known software engineering patterns and paradigms, including convention over configuration (CoC), don't repeat yourself (DRY), and the active record pattern. Rails is a model–view–controller (MVC) framework, providing default structures for a database, a web service, and web pages. Lately, Rails has integrated an API module to make the creation of web-services faster and easier.
 
 ## Installing Rails
@@ -11,19 +11,35 @@ Rails is downloaded in the same way as any other Ruby gem: with the `gem install
 ```shell
 $ gem install rails
 ```
+## Setting Up database
+Rails ships with sqlite3 as the default database, which is a simple file on disk. You need to install MySQL or PostgreSQL if you want to use something more robust.
+
 ## Creating a Rails application
 
 1. After you install Ruby on Rails, it's very simple to create a brand new application, we'll just need 3 more words:
 ```shell
-$ rails new <application_name>
+$ rails new your_application_name
 ```
+  * If you want to use MySQL
+  ```shell
+  $ rails new <application_name> -d mysql
+  ```
+  * If you want to use Postgres
+  ```shell
+  $ rails new <application_name> -d postgresql
+  ```
 
-2. This command will create a folder with the *application_name* you informed in the last command. Next step is to go to the new directory you've just created:
+2. This command will create a folder with the *your_application_name* you informed in the last command. Next step is to go to the new directory you've just created:
 ```shell
-$ cd <application_name>
+$ cd your_application_name
 ```
 
-3. To run the rails server and see if everything went accordingly is also fast:
+3. Get the necessary gems and software packages before running your application:
+```shell
+$ bundle install
+```
+
+4. To run the rails server and see if everything went accordingly is also fast:
 ```shell
 $ rails server
 ```
@@ -31,7 +47,7 @@ It couldn't be anymore simple! Well, this isn't actually 100% true, we could mak
 ```shell
 $ rails s
 ```
-4. Now, with you preffered brower, go to `http://localhost:3000` and you'll see: "Yay! You’re on Rails!"  
+5. Now, with you preffered brower, go to `http://localhost:3000` and you'll see: "Yay! You’re on Rails!"  
 
 ### Alternative method for creating a Rails application  
 
@@ -58,4 +74,3 @@ $ rails s
 
 ## Ruby on Rails is open source 
 So not only is it free to use, you can also help make it better. More than 3,000 people already have contributed code to [Rails](https://github.com/rails/rails). It’s easier than you think to become one of them.
-
