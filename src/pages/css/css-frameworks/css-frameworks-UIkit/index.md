@@ -28,5 +28,5 @@ We have used a CDN in this example, but you can checkout other ways of installin
 
 ### Learning Resources
 
-*   The official documentation for UIKit is available <a href='https://getuikit.com/docs/introduction' target='_blank' rel='nofollow'>here</a>.
-*   Checkout UIKit's open source GitHub repository <a href='https://github.com/uikit/uikit' target='_blank' rel='nofollow'>here</a>.
+* The official documentation for UIKit is available <a href='https://getuikit.com/docs/introduction' target='_blank' rel='nofollow'>here</a>.
+* Checkout UIKit's open source GitHub repository <a href='https://github.com/uikit/uikit' target='_blank' rel='nofollow'>here</a>.

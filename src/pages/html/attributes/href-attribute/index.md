@@ -3,13 +3,19 @@ title: Href Attribute
 ---
 ## Href Attribute
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/attributes/href-attribute/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Href is short for "Hypertext Reference" and is an HTML attribute.  The href attribute is mainly used for `<a>` tags to specify the URL for a webpage the link leads to (whether it be on a different section of the same page, or on a completely different webpage).  
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+#### How to use
+`<a href="URL"></a>`
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+#### Examples
+```html
+<a href="https://www.freecodecamp.org">This is an absolute URL</a>
+
+<a href="index.html">This is a relative URL</a>
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+[W3Schools](https://www.w3schools.com/tags/att_href.asp)
 
-
+[HTMLElementReference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a)

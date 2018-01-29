@@ -2,7 +2,7 @@
 title: jQuery Ajax Post Method
 ---
 ## jQuery Ajax Post Method
-Sends an asynchronous http POST request to load data from the server. Its general form is :
+Sends an asynchronous http POST request to load data from the server. Its general form is:
 ```javascript
 jQuery.post( url [, data ] [, success ] [, dataType ] )
 ```
@@ -77,7 +77,7 @@ $( "#searchForm" ).submit(function( event ) {
 ```
 
 ### jQuery.ajax()
-`$.post( url [, data ] [, success ] [, dataType ] )` is a shorthand Ajax function, equivalent to :
+`$.post( url [, data ] [, success ] [, dataType ] )` is a shorthand Ajax function, equivalent to:
 ```javascript
 $.ajax({
   type: "POST",

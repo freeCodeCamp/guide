@@ -2,14 +2,19 @@
 title: SQL Injection
 ---
 ## SQL Injection
+SQL injection is a malicious technique that is meant to compromise or destroy databases. It is one of the most common web-hacking techniques.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/sql/sql-injection/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+SQL injection is performed by placing malicious code in SQL statements via an input. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The following example is a code snippet that will retrieve a user from a database based on an `AccountId`.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```
+passedInAccountId = getRequestString("AccountId");
+sql = "select * from Accounts where AccountId = " + passedInAccountId;
+```
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+SQL injection can be used to compromise this code by injecting a `1=1;` statement for `AccountId`.
 
+`https://www.foo.com/get-user?AccountId="105 OR 1=1;"`
 
+`1=1` will always evaluate to `TRUE`. This will cause the executed code to output all of the Accounts table.
