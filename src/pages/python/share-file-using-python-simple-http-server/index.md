@@ -1,5 +1,5 @@
 ---
-title: Share File Using Python Simlehtttp Server
+title: Share File Using Python SimpleHTTPserver
 ---
 ## The steps need to follow for sending the file.
 
