@@ -1,15 +1,14 @@
 ---
 title: Continuous Deployment
 ---
+
 ## Continuous Deployment
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/continuous-deployment/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Continuous Deployment is a modern software engineering process which is considered part of a DevOps environment. It involves teams of developers producing, updating and releasing code in very short cycles. This means developers commit smaller amounts of code, much more often.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The goal of Continuous Deployment is to have code in a constant reliable and deployable state to enable this code to be released at any time. This process aims to release code more quickly. To achieve continuous deployment, a development team relies on infrastructure that automates and instruments the various steps leading up to deployment. This is quite often called Infrastructure as Code (IaC). 
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Two main benefits of Continuous Deployment include an earlier return on investment for each feature after it is developed due to the lower release times as well as earlier feedback on new features. 
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
+Other benefits to Continuous Deployment include improved code quality due to less bugs making it to production, more reliable code releases and a much lower time to market.
 

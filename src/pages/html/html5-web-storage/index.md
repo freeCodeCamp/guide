@@ -19,7 +19,7 @@ localStorage.setItem("foo", "bar");
 localStorage.getItem("foo"); //returns "bar"
 ```
 
-`window.sessionStorage`: stores data for one session; data is lost when the browser tab is closed.
+`window.sessionStorage`: stores data for one session, where data is lost when the browser / browser tab is closed.
 
 ```javascript
 // Store Item

@@ -11,3 +11,5 @@ Using constructors it is easy to create new objects using a blueprint or constru
     };
 
     var myCar = new Car();
+    
+The name of a constructor function usually begins with a capital letter (unlike other functions, which tend to begin with a lowercase character). The uppercase letter is supposed to help remind developers to use the new keyword when they create an object using that function.
