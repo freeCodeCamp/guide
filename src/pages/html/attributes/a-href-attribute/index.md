@@ -27,8 +27,8 @@ The `<a href>` attribute is supported by all browsers.
 <a href="#">This is a dead link</a>
 <a href="https://www.freecodecamp.org">This is a live link to freeCodeCamp</a>
 ```
-You can also use an image to refer to a destination. In this case, the image acts as a link and clicking on it opens the destination. To add an image, you need to use the the `src` attribute under the `img` tag. 
+You can also use an image to refer to a destination. In this case, the image is wrapped inside a link and clicking on it opens the destination. To add an image, you need to specify the the `src` attribute of an `img` tag. 
 ### Example
 ```html
-<a href="***"><img src = "flowers.jpg"></a>
+<a href="***"><img src="flowers.jpg"></a>
 ```
