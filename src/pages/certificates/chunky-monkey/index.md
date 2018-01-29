@@ -27,7 +27,7 @@ The links above suggest to use `Array.push()`, so let's start by first creating 
 ```
 > _try to solve the problem now_
 
-## ![:speech_balloon:</a> Hint: 2
+## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:")</a> Hint: 2
 
 Next we'll need a `for loop` to loop through `arr`.
 
