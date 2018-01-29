@@ -23,7 +23,7 @@ const propTypes = {
 function Layout(props) {
   return (
     <div>
-      <nav className='navbar navBar'>
+      <nav className='navbar navBar navbar-fixed-top'>
         <div className='navContainer'>
           <div className='logoContainer'>
             <a
@@ -52,7 +52,7 @@ function Layout(props) {
           <SearchBar />
         </div>
       </nav>
-      <Grid>
+      <Grid className='bodyContainer'>
         <Row>
           <Col md={ 4 }>
             <SideNav />
