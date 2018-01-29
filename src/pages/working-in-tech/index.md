@@ -31,4 +31,16 @@ To see the full list, visit: <https://talkpython.fm/episodes/show/130/10-books-p
 ## Articles to read 
 ## Videos to Watch
 
+## What Does a Typical Day at the Office Look Like?
 
+### In the Life of a... 
+
+Web Developer
+
+Web Designer
+
+App Developer
+
+Product Manager
+
+Etc...

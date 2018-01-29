@@ -8,20 +8,33 @@ Logical operators compare Boolean values and return a Boolean response.  There a
 
 #### Logical AND ( && )
 
-The AND operator compares two expressions and returns thruthy only if both are true.  If one or both expressions evaluate false, the entire statement will return false.  
+The AND operator compares two expressions. If the first evaluates as ["truthy"](https://developer.mozilla.org/en-US/docs/Glossary/Truthy), the statement will return the value of the second expression.
+If the first evaluates as ["falsy"](https://developer.mozilla.org/en-US/docs/Glossary/Falsy), the statement will return the value of the first expression.
+
+When only involving boolean values (either `true` or `false`), it returns true if only if both expressions are true. If one or both expressions are false, the entire statement will return false.
 ```js
-true && true //returns true
-true && false //returns false
-false && false //returns false
+true && true //returns  the second value, true
+true && false //returns the second value, false
+false && false //returns the first value, false
+123 && 'abc' // returns the second value, 'abc'
+'abc' && null //returns the second value, null
+undefined && 'abc' //returns the first value, undefined
+0 && false //returns the first value, 0
 ```
 
 #### Logical OR ( || )
 
-The OR operator compares two expressions and returns truthy if either expression is true.  Both expressions can be true, but only one is needed to get a truthy result.  
+The OR operator compares two expressions. If the first evaluates as "falsy", the statement will return the value of the second second expression. If the first evaluates as "truthy", the statement will return the value of the first expression.
+
+When only involving boolean values (either `true` or `false`), it returns true if either expression is true. Both expressions can be true, but only one is needed to get true as a result.
 ```js
-true || true //returns true
-true || false //returns true
-false || false //returns false
+true || true //returns the first value, true
+true || false //returns the first value, true
+false || false //returns the second value, false
+123 || 'abc' // returns the first value, 123
+'abc' || null //returns the first value, 'abc'
+undefined || 'abc' //returns the second value, 'abc'
+0 || false //returns the second value, false
 ```
 
 #### Tips:
@@ -37,8 +50,9 @@ Both logical operators will return the value of the last evaluated expression. F
 0 || "cat" //returns "cat"
 ```
 
-#### More information:
+Note that where `&&` returns the first value, `||` returns the second value and vice versa.
 
+#### More information:
 
 [Javascript Truth Table](https://guide.freecodecamp.org/javascript/truth-table)
 

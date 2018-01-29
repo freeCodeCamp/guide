@@ -55,6 +55,17 @@ The width can be set as a specific size (in px, pt, cm, em, etc) or by using one
 
 The `border-width` property can have from one to four values (for the top border, right border, bottom border, and the left border).
 
+### Border-Radius
+The `border-radius` property allows the corners of a border to be rounded. This is done by providing a size for
+how much the border is to be rounded. Size can be in px or %.
+```css 
+  border-radius: 25px;
+```
+Each corner of `border-radius` can be adjusted. The order is top, bottom, left, right.
+```css 
+  border-radius: 15% 10px 30% 5px;
+```
+
 ### More Information:
 
 - [MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/border)
