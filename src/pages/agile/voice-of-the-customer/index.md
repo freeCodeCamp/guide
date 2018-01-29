@@ -3,13 +3,14 @@ title: Voice of the Customer
 ---
 ## Voice of the Customer
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/voice-of-the-customer/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+You, as the Product Owner (PO), are the Voice of the Customer to the Delivery Team. When the team needs clarification on a story, to better understand the What and the Why, they will ask you.<BR>
+You understand the needs, motivations and  desired outcomes of the customer as they change over the length of the project.
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
+Scrum Alliance on the <a href='https://www.scrumalliance.org/community/articles/2014/july/who-is-your-product-owner' target='_blank' rel='nofollow'>Product Owner</a>
+
+Agile Alliance on the <a href='https://www.agilealliance.org/glossary/product-owner/' target='_blank' rel='nofollow'>Product Owner</a>
+
 
 

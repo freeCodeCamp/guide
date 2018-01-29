@@ -3,13 +3,21 @@ title: Text Decoration Property
 ---
 ## Text Decoration Property
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/properties/text-decoration-property/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The text-decoration property specifies the decoration added to text. It has 6 possible values: 
+```css
+    .none {text-decoration: none}
+    .underline {text-decoration: underline}
+    .line-through {text-decoration: line-through}
+    .overline {text-decoration: overline}
+    .initial {text-decoration: initial}
+    .inherit {text-decoration: inherit}
+```
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+**Note**: In CSS3 you can use the text-decoration-color property to change the color of the decoration, otherwise the color is the same as the color of the text.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
+Docs: <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration' target='_blank' rel='nofollow'>Mozilla Developer Network</a>
 
+Browser Support: <a href='http://caniuse.com/#search=text-decoration' target='_blank' rel='nofollow'>Caniuse</a>

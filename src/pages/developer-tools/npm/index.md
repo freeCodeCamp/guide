@@ -30,9 +30,9 @@ npm install
 Running npm install in a project's root directory without a specific package name, installs all the dependencies required for that project. Those are calculated according to the project's package.json file. This demonstrates the power of npm, where a single command can fetch tens or hundreds of dependencies automatically for you, and is useful when you git clone a repository, for example.
 
 #### More Information:
-* Node.js website: [nodejs](https://nodejs.org)
-* The official website of npm, you can read about npm as well as search for the different available packages: [npmjs](https://www.npmjs.com)
-* Read more about npm: [Wikipedia](https://en.wikipedia.org/wiki/Npm_(software))
-* A Beginner's Guide to NPM: [sitepoint](https://www.sitepoint.com/beginners-guide-node-package-manager/)
-* If you want a comprehensive video series, check this out: [youtube](https://youtu.be/6fj0cpmMiVg)
-* And here's the official series from NPM: [youtube](https://youtu.be/pa4dc480Apo)
+* Node.js website: <a href='https://nodejs.org' target='_blank' rel='nofollow'>nodejs</a>
+* The official website of npm, you can read about npm as well as search for the different available packages: <a href='https://www.npmjs.com' target='_blank' rel='nofollow'>npmjs</a>
+* Read more about npm: <a href='https://en.wikipedia.org/wiki/Npm_(software)' target='_blank' rel='nofollow'>Wikipedia</a>
+* A Beginner's Guide to NPM: <a href='https://www.sitepoint.com/beginners-guide-node-package-manager/' target='_blank' rel='nofollow'>sitepoint</a>
+* If you want a comprehensive video series, check this out: <a href='https://youtu.be/6fj0cpmMiVg' target='_blank' rel='nofollow'>youtube</a>
+* And here's the official series from NPM: <a href='https://youtu.be/pa4dc480Apo' target='_blank' rel='nofollow'>youtube</a>

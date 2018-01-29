@@ -15,6 +15,6 @@ The background-size property specifies the size of the background images. You ca
 
 #### More Information:
 
-Documentation: [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/background-size)
+Documentation: <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/background-size' target='_blank' rel='nofollow'>MDN</a>
 
-Browser Support: [caniuse](http://caniuse.com/#search=background-size)
+Browser Support: <a href='http://caniuse.com/#search=background-size' target='_blank' rel='nofollow'>caniuse</a>

@@ -5,9 +5,9 @@ title: Page Redirects Using JavaScript
 
 If you're trying to redirect a user to another page, you can easily use JavaScript to accomplish this task. It is important to note the following:
 
-Even if you have the jQuery library loaded in your scripts, you should still use the pure JavaScript solution for page redirects for efficiency purposes. The jQuery workarounds are clunky at best and are absolutely not necessary.
+Even if you have the jQuery library loaded in your scripts, you might wish to use the pure JavaScript solution for page redirects for efficiency purposes. 
 
-There are several different ways to go about this, but the simplest way is the best way. Simply use the `window.location` object to send the user to the page you wish them redirected to. The `window.location` object can use any valid URL value such as `http://www.yoururl.com`, `somepage.html`, etc.
+There are several different ways to go about this, but the simplest way is to use the `window.location` object to send the user to the page you wish them to be redirected to. The `window.location` object can use any valid URL value such as `http://www.yoururl.com`, `somepage.html`, etc.
 
 ```javascript
 window.location = 'http://www.yoururl.com';
@@ -19,7 +19,7 @@ window.location = 'http://www.yoururl.com';
 
 You can use a special redirect method that is, by default, attached to the `window.location` object in every major browser named `replace()`. This method accepts the same valid URL values as just using `window.location`.
 
-**Mozilla Firefox** and **Opera** (couldn't test Safari) are the only browsers I was able to get to sucessfully redirect without creating information in the "Back" history of the browser for the page that is redirecting a user using this method. What that means is that when using Firefox or Opera browsers, this redirect will push the user away from the page and prevent the user from pressing the "Back" button in their browser to come right back to the same page by replacing the location of the redirecting page with the page the user was redirected to.
+
 
 Here is an example of using this method (it will still work the same as just using `window.location` in other browsers):
 

@@ -1,15 +1,74 @@
 ---
-title: Borders
+title: Border Property
 ---
-## Borders
+## Border Property
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/borders/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `border` shorthand property sets all the border properties in one declaration. 
+```css 
+  border: 1px solid #000;
+```
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The properties that can be set, are (in order): 
+1. `border-width`
+2. `border-style`
+3. `border-color`
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+It does not matter if one of the values above are missing, for example:
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+```css 
+  border: solid red;
+```
+The above code is also valid CSS.
+
+### Border Styles
+
+The `border-style` property sets a wide range of different types of borders.
+
+The various values are:
+- `dotted` - Sets a dotted border.
+- `dashed` - Sets a dashed border.
+- `solid` - Sets a solid border.
+- `double` - Sets a double border.
+- `groove` - Sets a 3D grooved border. 
+- `ridge` - Sets a 3D ridged border. 
+- `inset` - Sets a 3D inset border. 
+- `outset` - Sets a 3D outset border.
+- `none` - Sets no border.
+- `hidden` - Sets a hidden border.
+
+Based on the property you choose, these styles can be mismatched.
+```css
+  border-top-style: solid;
+  border-left-style: dotted;
+  border-right-style: dashed;
+  border-bottom-style: double;
+```
+As shown, the border property allows you to select different sections of it. (`top`, `bottom`, `left` and, `right`)
+
+Another important `border`property is the `border-radius` property. This can either be declared in pixels or in percentage. The `border-radius` property adds rounded corners to elements,
 
 
+### Border Width
+The `border-width` property specifies the width of the four borders.
+
+The width can be set as a specific size (in px, pt, cm, em, etc) or by using one of the three pre-defined values: thin, medium, or thick.
+
+The `border-width` property can have from one to four values (for the top border, right border, bottom border, and the left border).
+
+### Border-Radius
+The `border-radius` property allows the corners of a border to be rounded. This is done by providing a size for
+how much the border is to be rounded. Size can be in px or %.
+```css 
+  border-radius: 25px;
+```
+Each corner of `border-radius` can be adjusted. The order is top, bottom, left, right.
+```css 
+  border-radius: 15% 10px 30% 5px;
+```
+
+### More Information:
+
+- [MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/border)
+- [CSS3 Border Radius](https://guide.freecodecamp.org/css/css3-borders-rounded-corners)
+
+Browser Support: IE6+

@@ -5,17 +5,17 @@ title: How to Create a Lightbox
 ## How to Create a Lightbox
 
 ### Introduction
-A lightbox is a combination of two components, a [modal](https://en.wikipedia.org/wiki/Modal_window) and a slide show. Here you will construct a simple lightbox using `HTML`, `CSS` and `JavaScript`. 
+A lightbox is a combination of two components, a <a href='https://en.wikipedia.org/wiki/Modal_window' target='_blank' rel='nofollow'>modal</a> and a slide show. Here you will construct a simple lightbox using `HTML`, `CSS` and `JavaScript`. 
 
-The lightbox will be contained in the modal, which will be triggered by some `JavaScript`, from [event handlers](https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Event_handlers) in the `HTML` markup.
+The lightbox will be contained in the modal, which will be triggered by some `JavaScript`, from <a href='https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Event_handlers' target='_blank' rel='nofollow'>event handlers</a> in the `HTML` markup.
 You will build styles which will provide state with `CSS` and behavior with `JavaScript`. You will also find a reference list of the methods you use and other useful tid-bits that are related to this tutorial, at the bottom.
 
 #### Our Images
-The images we will be using are being supplied by [Pexels](https://www.pexels.com/), 
+The images we will be using are being supplied by <a href='https://www.pexels.com/' target='_blank' rel='nofollow'>Pexels</a>, 
 a free stock photo gallery that allows you to provide high quality images to their projects fast, free and usually with no attributions needed.
 
 #### Just Show Me The Code!
-A live example can be found [here - CodePen/Lightbox](https://codepen.io/rdev-rocks/pen/KXNzvo) and a full draft of the code is near the bottom.
+A live example can be found <a href='https://codepen.io/rdev-rocks/pen/KXNzvo' target='_blank' rel='nofollow'>here - CodePen/Lightbox</a> and a full draft of the code is near the bottom.
 
 ### Step 1. The Markup
 
@@ -532,40 +532,40 @@ And thats it! Now put all the code together. You should now have a functional li
 
 #### HTML
 
-[Modal](https://en.wikipedia.org/wiki/Modal_window) - A popup window
+<a href='https://en.wikipedia.org/wiki/Modal_window' target='_blank' rel='nofollow'>Modal</a> - A popup window
 
-[Event Handlers](https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Event_handlers) - HTML properties that listen for user events.  
+<a href='https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Event_handlers' target='_blank' rel='nofollow'>Event Handlers</a> - HTML properties that listen for user events.  
 
-[Entity](https://developer.mozilla.org/en-US/docs/Glossary/Entity) - A string that represents a reserved charactor in HTML.
+<a href='https://developer.mozilla.org/en-US/docs/Glossary/Entity' target='_blank' rel='nofollow'>Entity</a> - A string that represents a reserved charactor in HTML.
 
 #### CSS
 
-[box-sizing:](https://css-tricks.com/box-sizing/) - A CSS3 property that controls the way the browser renders content based on height and width. 
+<a href='https://css-tricks.com/box-sizing/' target='_blank' rel='nofollow'>box-sizing:</a> - A CSS3 property that controls the way the browser renders content based on height and width. 
   
-[Flex-box](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) - A new technology that helps with positioning HTML content in a responsive mannor. 
+<a href='https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox' target='_blank' rel='nofollow'>Flex-box</a> - A new technology that helps with positioning HTML content in a responsive mannor. 
   
-[:hover](https://developer.mozilla.org/en-US/docs/Web/CSS/:hover) - A pseudo-selector that gets triggered when a user hovers over an element when this class is assigned to it. 
+<a href='https://developer.mozilla.org/en-US/docs/Web/CSS/:hover' target='_blank' rel='nofollow'>:hover</a> - A pseudo-selector that gets triggered when a user hovers over an element when this class is assigned to it. 
 
 #### JavaScript
 
-[let](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let) A block-scope variable.
+<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let' target='_blank' rel='nofollow'>let</a> A block-scope variable.
 
-[const](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const) A block-scope constant.
+<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const' target='_blank' rel='nofollow'>const</a> A block-scope constant.
 
-[getElementById()](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById) - A document method that returns a reference to an HTML element.
+<a href='https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById' target='_blank' rel='nofollow'>getElementById()</a> - A document method that returns a reference to an HTML element.
 
-[getElementsByClassName()](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByClassName) - A document method that returns an array of references to the html that have matching classes.
+<a href='https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByClassName' target='_blank' rel='nofollow'>getElementsByClassName()</a> - A document method that returns an array of references to the html that have matching classes.
 
-[+=](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Assignment_Operators) - an assignment operator which will add numbers or concatenate strings.
+<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Assignment_Operators' target='_blank' rel='nofollow'>+=</a> - an assignment operator which will add numbers or concatenate strings.
 
 #### Resources:
 
-[Live Example](https://codepen.io/rdev-rocks/pen/KXNzvo?editors=1111) - A CodePen that demos the above code.
+<a href='https://codepen.io/rdev-rocks/pen/KXNzvo?editors=1111' target='_blank' rel='nofollow'>Live Example</a> - A CodePen that demos the above code.
 
-[Interactive Flex-Box](https://codepen.io/enxaneta/full/adLPwv) - An interactive CodePen that shows flex-box behavior.
+<a href='https://codepen.io/enxaneta/full/adLPwv' target='_blank' rel='nofollow'>Interactive Flex-Box</a> - An interactive CodePen that shows flex-box behavior.
 
-[Pexels](https://www.pexels.com/) - A free stock photo gallery.
+<a href='https://www.pexels.com/' target='_blank' rel='nofollow'>Pexels</a> - A free stock photo gallery.
 
-[MDN](https://developer.mozilla.org/en-US/) - A great place for information about web stuff.
+<a href='https://developer.mozilla.org/en-US/' target='_blank' rel='nofollow'>MDN</a> - A great place for information about web stuff.
 
-[W3School - Lightbox](https://www.w3schools.com/howto/howto_js_lightbox.asp) - This code was inspired from here. Thanks W3Schools!
+<a href='https://www.w3schools.com/howto/howto_js_lightbox.asp' target='_blank' rel='nofollow'>W3School - Lightbox</a> - This code was inspired from here. Thanks W3Schools!

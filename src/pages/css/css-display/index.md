@@ -20,8 +20,8 @@ The display property specifies the type of box used for an HTML element. It has 
 
 ### More Information: 
 
-Docs and full list of keyword values: [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/display)
+Docs and full list of keyword values: <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/display' target='_blank' rel='nofollow'>MDN</a>
 
-Browser Support: [caniuse](http://caniuse.com/#search=display)
+Browser Support: <a href='http://caniuse.com/#search=display' target='_blank' rel='nofollow'>caniuse</a>
 
-A Complete Guide to Flexbox: [CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+A Complete Guide to Flexbox: <a href='https://css-tricks.com/snippets/css/a-guide-to-flexbox/' target='_blank' rel='nofollow'>CSS-Tricks</a>

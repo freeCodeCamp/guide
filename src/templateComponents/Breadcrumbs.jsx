@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Link from 'gatsby-link';
-import { titleify } from '../../seed/utils';
+import titleify from '../../utils/titleify';
 
 const propTypes = {
   path: PropTypes.string.isRequired

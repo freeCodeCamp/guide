@@ -23,6 +23,6 @@ You can add as many comments to your stylesheet as you like. It’s good practic
 
 ### More Information:
 
-MDN documentation: [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Comments)
+MDN documentation: <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/Comments' target='_blank' rel='nofollow'>MDN</a>
 
-CSS Comments by Adam Roberts: [Sitepoint](https://www.sitepoint.com/css-comments/)
+CSS Comments by Adam Roberts: <a href='https://www.sitepoint.com/css-comments/' target='_blank' rel='nofollow'>Sitepoint</a>

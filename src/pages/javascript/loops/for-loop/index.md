@@ -11,7 +11,7 @@ The javascript `for` statement consists of three expressions and a statement:
 
 *   initialization - Run before the first execution on the loop. This expression is commonly used to create counters. Variables created here are scoped to the loop. Once the loop has finished it's execution they are destroyed.
 *   condition - Expression that is checked prior to the execution of every iteration. If omitted this expression evaluates to true;
-*   final-expression - Expression that is run after every iteration. Usually used to increment a counter.
+*   final-expression - Expression that is run after every iteration. Usually used to increment a counter. But it can be used to decrement a counter too.
 *   statement - Code to be repeated in the loop
 
 any of these three expressions or the statement can be omitted. For loops are commonly used to count a certain number of iterations to repeat a statement.
@@ -24,9 +24,9 @@ When indexing over an array many times it is easy to exceed the bounds of the ar
 
     // This will cause an error.
     // The bounds of the array will be exceeded.
-    var arr = [1,2,3];
+    var arr = [ 1, 2, 3 ];
     for (var i = 0; i <= arr.length; i++) {
-       console.log(i);
+       console.log(arr[i]);
     }
 
     output:
@@ -55,4 +55,4 @@ There are to ways to fix this code. Set the condition to either `i < arr.length`
     7
     8
 
-links: <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for' target='_blank' rel='nofollow'>MDN</a> 
+links: <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for' target='_blank' rel='nofollow'>MDN</a>

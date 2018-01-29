@@ -4,7 +4,7 @@ title: Python
 
 ## What is Python?
 
-<a>Python</a> is a general purpose programming language which is dynamically typed, interpreted, and known for its easy readability with great design principles.
+<a href='https://www.python.org' target='_blank' rel='nofollow'>Python</a> is a general purpose programming language which is dynamically typed, interpreted, and known for its easy readability with great design principles.
 
 To know more about Python, you might want to check <a href='https://www.python.org/doc/essays/blurb/' target='_blank' rel='nofollow'>this</a> and <a href='https://docs.python.org/3/faq/general.html' target='_blank' rel='nofollow'>this</a>.
 
@@ -30,8 +30,7 @@ If it is available and in Unix shell’s search path makes it possible to start 
 
 `hello_campers.py`
 
-    if __name__ == '__main__'
-        print('Hello campers!')
+    print('Hello campers!')
 
 From terminal:
 
@@ -46,6 +45,8 @@ From terminal:
     Python 3.4.3
     $ python3.5 --version
     Python 3.5.1
+    $ python3.6 --version
+    Python 3.6.2 
 
 ## Python Interpreter Interactive Mode
 
@@ -91,6 +92,17 @@ Some of the principles that influenced the design of Python are included as an e
     If the implementation is easy to explain, it may be a good idea.
     Namespaces are one honking great idea -- let's do more of those!
 
+
+## Pros and Cons of Python
+### Pros
+1. Interactive language with a module support for almost all functionality.
+2. Open Source: So, you can contribute to the community, the functions you have developed for future use and to help others
+3. A lot of good interpreters and notebooks available for better experience like jupyter notebook.
+
+#### Cons
+1. Being open source, many different ways have developed over the year for same function. This sometimes, creates chaos for others to read someone else code.
+2. It is a slow language. So, a very bad language to use for developing general algorithms.
+
 ## Documentation
 
 <a href='https://docs.python.org/3/' target='_blank' rel='nofollow'>Python is well documented</a>. These docs include tutorials, guides, references and meta information for language.
@@ -130,3 +142,15 @@ A function is called when the name of the function is followed by `()`. For the 
 The argument that we called the `print` function with is a `str` object or _string_, one of Python's <a href='https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str' target='_blank' rel='nofollow'>_built-in types_</a>.
 
 The `objects` parameter is prefixed with a `*` which indicates that the function will take an arbitrary number of arguments for that parameter.
+
+## What to learn more?
+
+Free Code Camp has some great resources. The web is a big place, there's plenty more to explore:
+* Python Practice Book: http://anandology.com/python-practice-book/index.html
+* Think Python: http://greenteapress.com/thinkpython/html/index.html
+* Practical Business Python: http://pbpython.com/
+* Another course: https://realpython.com/?utm_source=fsp&utm_medium=promo&utm_campaign=bestresources
+* General: https://www.fullstackpython.com/
+* Learn the Basics: https://www.codecademy.com/learn/learn-python
+* Computer science using Python: https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-11?ref=hackernoon#!
+* Developer's Guide to Python: https://devguide.python.org/

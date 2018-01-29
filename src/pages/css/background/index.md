@@ -39,10 +39,18 @@ You can use the background image property to set an image as a background for an
 The image is repeated by default so that it covers the entire element.
 ```css
 body {
-  background-image: url(“barn.jpg”);
+  background-image: url("barn.jpg");
 }
 ```
 ![image](https://user-images.githubusercontent.com/26467304/31036366-eb1fc260-a539-11e7-835d-e3f935a22c86.png)
+
+
+You can also link pictures or gifs that you find online by using their link (ie. from Google Images a search).
+```css
+body {
+  background-image: url("https://mdn.mozillademos.org/files/11983/starsolid.gif");
+}
+```
 
 ### Background Image - The Repeat Property
 The background image is repeated both vertically (up and down) and horizontally (across the web page) by default.
@@ -51,7 +59,7 @@ You can use the background-repeat property to repeat the image vertically or hor
 Here is an example that repeats the image vertically.
 ```css
 body {
-  background-image: url(“barn.jpg”);
+  background-image: url("barn.jpg");
   background-repeat: repeat-y;
 }
 ```
@@ -60,7 +68,7 @@ body {
 You can repeat the image horizontally by setting the background-repeat property to “repeat-x”.
 ```css
 body {
-  background-image: url(“barn.jpg”);
+  background-image: url("barn.jpg");
   background-repeat: repeat-x;
 }
 ```
@@ -68,7 +76,7 @@ body {
 You can also use the background-repeat property to set an image to not repeat.
 ```css
 body {
-  background-image: url(“barn.jpg”);
+  background-image: url("barn.jpg");
   background-repeat: no-repeat;
 }
 ```
@@ -78,7 +86,7 @@ body {
 You can use the position property to specify where your image will be located on a web page.
 ```css
 body {
-  background-image: url(“barn.jpg”);
+  background-image: url("barn.jpg");
   background-repeat: no-repeat;
   background-position: right top;
 }
@@ -90,7 +98,7 @@ You can use the background-attachment property to set an image to a fixed positi
 A fixed position makes it so an image does not scroll with the rest of the page.
 ```css
 body {
-  background-image: url(“barn.jpg”);
+  background-image: url("barn.jpg");
   background-repeat: no-repeat;
   background-position: right top;
   background-attachment: fixed;
@@ -99,11 +107,18 @@ body {
 
 ![fixed](https://user-images.githubusercontent.com/26467304/31039859-39612c92-a54f-11e7-93ca-9d7bcb938225.PNG)
 
+### Background Gradients
+A gradient is a transition between two or more colors and can be used via CSS similar to a background image.  
+
+The syntax of a gradient background can be quite complex and is often still used with vendor prefixes due to inconsistencies between supported browsers.
+
+The <a href='http://www.colorzilla.com/gradient-editor/' target="_blank" rel='nofollow'>Colorzilla Gradient Editor</a> is a great online tool for generating custom gradients and the associated css markup.
+
 ### Background – The Shorthand Property
 You can write the background properties on a single line. This is called the shorthand property.
 ```css
 body {
-  background: url(“barn.jpg”) no-repeat right top;
+  background: url("barn.jpg") no-repeat right top;
 }
 ```
 You can leave out properties you don’t need when using the shorthand property, but the properties 
@@ -115,6 +130,6 @@ must be used in a certain order. The order is:
 * position
 
 ### Other Resources
-* [List of color values](http://cloford.com/resources/colours/500col.htm)
-* [Color Picker Tool](http://colrd.com/create/palette/)
+* <a href='http://cloford.com/resources/colours/500col.htm' target='_blank' rel='nofollow'>List of color values</a>
+* <a href='http://colrd.com/create/palette/' target='_blank' rel='nofollow'>Color Picker Tool</a>
 

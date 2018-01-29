@@ -23,7 +23,7 @@ The JavaScript array method `.some()` will take a callback function to test each
       }
   }
 ```
-See wiki on [Arithmetic Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators) to see the remainder operator `%`
+See wiki on <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators' target='_blank' rel='nofollow'>Arithmetic Operators</a> to see the remainder operator `%`
 
 **Has 3 arguments**
 
@@ -87,4 +87,4 @@ Is an optional parameter and more info can be found at the [MDN</a>
   // ES6 arrows functions
   arr4.some((curr) => curr >= 14)  // returns true
 ```
-Source : [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some)
+Source : <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some' target='_blank' rel='nofollow'>MDN</a>

@@ -1,15 +1,9 @@
 ---
 title: Background Image Property
 ---
-## Background Image Property
-
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/properties/background-image-property/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
+#### Suggested Reading:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+https://developer.mozilla.org/en-US/docs/Web/CSS/background-image
+#### Draft of Article:
+<!-- Please add your working draft below in GitHub-flavored Markdown -->
+Explanation and examples of the background-image property in CSS
