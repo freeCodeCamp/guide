@@ -7,7 +7,7 @@ import Row from 'react-bootstrap/lib/Row';
 import Link from 'gatsby-link';
 
 import SearchBar from '../LayoutComponents/search/SearchBar.jsx';
-import SideNav from '../LayoutComponents/nav/SideNav.jsx';
+import Nav from '../LayoutComponents/nav/Nav.jsx';
 
 import logo from '../../assets/freeCodeCamp-logo.png';
 import glyph from '../../assets/freeCodeCamp-logo-glyph.png';
@@ -55,7 +55,7 @@ function Layout(props) {
       <Grid className='bodyContainer'>
         <Row>
           <Col md={ 4 }>
-            <SideNav />
+            <Nav />
           </Col>
           <Col
             className='content'
