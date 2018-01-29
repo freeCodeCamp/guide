@@ -10,7 +10,7 @@ title: Structures
 * **Structures** form the basis of **_object-oriented-programming_** as the concept of *class* originates from structures.
 ### struct keyword
 * `struct` keyword can help us in defining a user-defined data type.
-```
+```C
 struct StudentRecord
 {
   char Name[20];
@@ -20,13 +20,15 @@ struct StudentRecord
 };
 ```
 In `main()`, the user-defined data-type **StudentRecord** is defined as:
-```void main()
+```C
+int main(void)
 {
   struct StudentRecord student1;
 }
 ```
 To access the data stored in **student1**, we use dot( **.** ) operator to access the contents of the structure type variable.
-```void main()
+```C
+int main(void)
 {
   struct StudentRecord student1;
   student1.Class = 10;

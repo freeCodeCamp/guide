@@ -39,9 +39,8 @@ Beginning/End of line movement:
 
 ## Exiting Vi, Vim, Nvim, Gvim
 1. Press escape to get you into "normal" mode
-2. To exit, type `:q` but if you made any changes in file Vim gives error code `E37` in this case:
-- To save and exit, type `:wq`
-- To ignore changes and exit, type `:q!`
+2. Type `:q`, press enter. If you receive an error try `:q!`
+3. To exit and save, type `:q`
 
 **OR**
 - Type ZZ (save and quit)
@@ -63,6 +62,10 @@ To edit text and move around in a familiar way press `i`, for "insert" mode.
 Try to move around with the arrow keys in "insert" mode.
 
 Depending on the configuration, you may enter a file browser by typing and entering the command `:e .` in "normal" mode. The 'e' stands for edit, and the period for the file or directory.
+
+## Writing in a file
+1. Press `i`. You are now in insert mode and can edit your file.
+2. Press esc to get back to normal mode.
 
 ## Searching a file in Vim
 

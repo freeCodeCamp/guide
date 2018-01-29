@@ -48,6 +48,24 @@ As shown, the border property allows you to select different sections of it. (`t
 Another important `border`property is the `border-radius` property. This can either be declared in pixels or in percentage. The `border-radius` property adds rounded corners to elements,
 
 
+### Border Width
+The `border-width` property specifies the width of the four borders.
+
+The width can be set as a specific size (in px, pt, cm, em, etc) or by using one of the three pre-defined values: thin, medium, or thick.
+
+The `border-width` property can have from one to four values (for the top border, right border, bottom border, and the left border).
+
+### Border-Radius
+The `border-radius` property allows the corners of a border to be rounded. This is done by providing a size for
+how much the border is to be rounded. Size can be in px or %.
+```css 
+  border-radius: 25px;
+```
+Each corner of `border-radius` can be adjusted. The order is top, bottom, left, right.
+```css 
+  border-radius: 15% 10px 30% 5px;
+```
+
 ### More Information:
 
 - [MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/border)
