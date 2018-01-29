@@ -10,7 +10,7 @@ It is one of the four commands that prompts network interaction by Git. By defau
 1. Updates the current local working branch (currently checked out branch)
 1. Updates the remote tracking branches for all other branches.
 
-`git pull` fetches (`git fetch`) the new commits and merges <a href='https://guide.freecodecamp.org/git/git-merge' target='_blank' rel='nofollow'>(`git merge`)</a> these into your local branch.
+`git pull` fetches (`git fetch`) the new commits and merges <a href='/git/git-merge' target='_blank' rel='nofollow'>(`git merge`)</a> these into your local branch.
 
 This command's syntax is as follows:
 
