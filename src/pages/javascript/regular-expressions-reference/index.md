@@ -7,7 +7,7 @@ In JavaScript, regular expressions are a shorthand used to match the desired par
 
 ### Syntax
 
-Regular expressions are made up of two parts - the `pattern` and the `flags` (optional). The pattern is written between two forward slashes, followed by the optional flags: `var exp = /pattern/flags`. 
+Regular expressions are made up of two parts - the `pattern` and the `flags` (optional). The pattern is written between two forward slashes, followed by the optional flags: `var exp = /pattern/flags`.
 
 #### Patterns
 
@@ -35,20 +35,64 @@ There are 5 flags you can use to apply specific rules to the whole regular expre
 
 `y` - the sticky match; this matches your pattern only starting at the index found in the `RegExp.lastIndex` property
 
+### Creating a regular expression
+A regular expression is a type of object. It can either be constructed
+with the RegExp constructor or written as a literal value by enclosing the
+pattern in forward slash ( / ) characters.
+
+```
+var re1 = new RegExp (" abc ") ;
+var re2 = / abc /;
+```
+Both of these regular expression objects represent the same pattern: an
+a character followed by a b followed by a c.
+
 ### The RegExp Object
 
 `RegExp` is a constructor that creates an object from the regular expression pattern you create. In addition to the literal notation described above, you can also use the constructor format to create a regular expression: `new RegExp(pattern[, flags])`
 
+### Testing for matches
+```
+console . log (/ abc /. test (" abcde ") );
+// → true
+console . log (/ abc /. test (" abxde ") );
+// → false
+```
+
+### Matching a set of characters
+```
+console . log (/[0123456789]/. test (" in 1992") );
+// → true
+console . log (/[0 -9]/. test (" in 1992") );
+// → true
+```
+### Choice patterns
+
+```
+var animalCount = /\ b \ d + ( pig | cow | chicken )s ?\ b /;
+console . log ( animalCount . test ("15 pigs ") );
+// → true
+console . log ( animalCount . test ("15 pigchickens ") );
+// → false
+```
+
 #### Methods
 
-You will most likely use regular expressions in `String` methods, such as `String.replace()`, but there are a handful of methods that can are for the `RegExp` object.
+You will most likely use regular expressions in `String` methods, such as `String.replace()`, but there are a handful of methods that belong to the `RegExp` object.
 
 For example, `RegExp.test()` will return a Boolean for whether there exists a match between the regular expression pattern and the string in question. `RegExp.toString()` will turn the expression object into a string, which can be handy when running tests on your code.
+
+The first argument can also be a regular expression, in which case thefirst match of the regular expression is replaced. When a g option (for global) is added to the regular expression, all matches in the string will be replaced, not just the first.
+
+```
+console . log (" Borobudur ". replace (/[ ou ]/ , "a ") );
+// → Barobudur
+console . log (" Borobudur ". replace (/[ ou ]/g , "a ") );
+// → Barabadar
+```
 
 ### More Information:
 
 * <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp" target='_blank' rel='nofollow'>Here you can read</a> about all the pattern match characters, object properties, see some examples and more.
 
 * <a href="https://regex101.com/" target='_blank' rel='nofollow'>Here is a great site</a> that lets you test out regular expression patterns in real-time, save your favorites and explore patterns made by others.
-
-

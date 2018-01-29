@@ -1,48 +1,52 @@
 ---
-title: Java Docs Inheritance
+title: Inheritance
 ---
-# Java Inheritance
+# Inheritance
 
 Java inheritance refers to the ability of a Java Class to `inherit` the properties from some other Class. Think of it like a child inheriting properties from its parents, the concept is very similar to that. In Java lingo, it is also called _extend_-ing a class. Some simple things to remember :
 
-*   The Class that extends or inherits is called **subclass**
-*   The Class that is being extended or inherited is called **superclass**
+*   The Class that extends or inherits is called a **subclass**
+*   The Class that is being extended or inherited is called a **superclass**
 
-Thus, inheritance gives Java the cool capability of _re-using_ code, or share code between classes!
+Thus, inheritance gives Java the cool capability of _re-using_ code, or sharing code between classes!
 
 Let's describe it with the classic example of a `Vehicle` class and a `Car` class :
 
-    public class Vehicle {
-        public void start() {
-            // starting the engine
-        }
-
-        public void stop() {
-            // stopping the engine
-        }
+```java
+public class Vehicle {
+    public void start() {
+        // starting the engine
     }
 
-    public class Car extends Vehicle {
-        int numberOfSeats = 4;
-
-        public int getNumberOfSeats() {
-            return numberOfSeats;
-        }
+    public void stop() {
+        // stopping the engine
     }
+}
 
-Here we can see the `Car` class inheriting the properties of the `Vehicle` class. So, we dont have to write the same code of `start()` and `stop()` for `Car` as well, as those properties come from its parent. Yes, objects created from the `Car` class _also_ have those properties!
+public class Car extends Vehicle {
+    int numberOfSeats = 4;
 
-    Car tesla = new Car();
+    public int getNumberOfSeats() {
+        return numberOfSeats;
+    }
+}
+```
 
-    tesla.start();
+Here, we can see the `Car` class inheriting the properties of the `Vehicle` class. So, we don't have to write the same code for the methods `start()` and `stop()` for `Car` as well, as those properties are available from its parent or superclass. Therefore, objects created from the `Car` class will _also_ have those properties!
 
-    tesla.stop();
+```java
+Car tesla = new Car();
+
+tesla.start();
+
+tesla.stop();
+```
 
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CJXz/0' target='_blank' rel='nofollow'>Run Code</a>
 
-But, does the parent Class has the methods of the child? No, it doesn't.
+But, does the parent class have the methods of the child? No, it doesn't.
 
-Therefore, whenever you need to share some common bit of code to some more classes, it is always good to have a parent Class, and then extend that Class whenever needed! Saves a lot of lines of code, makes code modular and better testable.
+Therefore, whenever you need to share some common piece of code between multiple classes, it is always good to have a parent class, and then extend that class whenever needed! Reduces the number of lines of code, makes code modular, and simplifies testing.
 
 ## What can be inherited ?
 
@@ -51,58 +55,66 @@ Therefore, whenever you need to share some common bit of code to some more class
 ## What cannot be inherited ?
 
 *   `private` fields and methods
-*   Constructors. Although, subclass constructor _has_ to call superclass constructor if its defined (More on that later!)
-*   Multiple classes. Java supports only **single inheritance**, that is you can only inherit one class at a time.
+*   Constructors. Although, the subclass constructor _has_ to call the superclass constructor if its defined (More on that later!)
+*   Multiple classes. Java supports only **single inheritance**, that is, you can only inherit one class at a time.
 *   Fields. Individual fields of a class cannot be overriden by the subclass.
 
 ## Type Casting & Reference
 
-In Java, it is possible to reference a subclass as an _instance_ of its superclass. It is called _Polymorphism_ in Object Oriented Programming, the ability of an object to take on many forms. For example, `Car` class object can be referenced as a `Vehicle` class instance like this :
+In Java, it is possible to reference a subclass as an _instance_ of its superclass. It is called _Polymorphism_ in Object Oriented Programming (OOP), the ability for an object to take on many forms. For example, the `Car` class object can be referenced as a `Vehicle` class instance like this :
 
-    Vehicle car = new Car();
+```java
+Vehicle car = new Car();
+```
 
 Although, the opposite is not possible :
 
-    Car car = new Vehicle(); // ERROR
+```java
+Car car = new Vehicle(); // ERROR
+```
 
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CJYB/0' target='_blank' rel='nofollow'>Run Code</a>
 
-Since you can reference a Java subclass as a superclass instance, you can cast a subclass object easily to a superclass instance. It may be possible to cast a superclass object into a subclass type, but _only if the object is really an instance of subclass_. So keep this in mind :
+Since you can reference a Java subclass as a superclass instance, you can easily cast an instance of a subclass object to a superclass instance. It is possible to cast a superclass object into a subclass type, but _only if the object is really an instance of the subclass_. So keep this in mind :
 
-    Car car = new Car();
-    Vehicle vehicle = car; // upcasting
-    Car car2 = (Car)vechile; //downcasting
+```java
+Car car = new Car();
+Vehicle vehicle = car; // upcasting
+Car car2 = (Car)vechile; //downcasting
 
-    Bike bike = new Bike(); // say Bike is also a subclass of Vehicle
-    Vehicle v = bike; // upcasting, no problem here.
-    Car car3 = (Car)bike; // Compilation Error : as bike is NOT a instance of Car
+Bike bike = new Bike(); // say Bike is also a subclass of Vehicle
+Vehicle v = bike; // upcasting, no problem here.
+Car car3 = (Car)bike; // Compilation Error : as bike is NOT a instance of Car
+```
 
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CJYM/0' target='_blank' rel='nofollow'>Run Code</a>
 
-Now you know how to share code through parent-child relationship. But, what if, you do not like the implementation of a particular method in the child class and want to write a new one for it? What to do then?
+Now you know how to share code through a parent-child relationship. But, what if, you do not like the implementation of a particular method in the child class and want to write a new one for it? What do you do then?
 
 ## Override it!
 
 Java lets you _override_ or redefine the methods defined in the superclass. For example, your `Car` class has a different implementation of `start()` than the parent `Vehicle`, so you do this :
 
-    public class Vehicle {
-        public void start() {
-          System.out.println("Vehicle start code");
-        }
+```java
+public class Vehicle {
+    public void start() {
+      System.out.println("Vehicle start code");
     }
+}
 
-    public class Car extends Vehicle {
-        public void start() {
-          System.out.println("Car start code");
-      }
-    }
+public class Car extends Vehicle {
+    public void start() {
+      System.out.println("Car start code");
+  }
+}
 
-    Car car = new Car();
-    car.start(); // "Car start code"
+Car car = new Car();
+car.start(); // "Car start code"
+```
 
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CJYZ/1' target='_blank' rel='nofollow'>Run Code</a>
 
-So, it's pretty simple to override methods in the subclass. Although, there is a _catch_. Only that superclass method will be overriden which has the _exact same method signature_ as the subclass method. That means the subclass method definition must have the exact same name, same number and type of parameters, and in the exact same sequence. Thus, `public void start(String key)` would not override `public void start()`.
+So, it's pretty simple to override methods in the subclass. Although, there is a _catch_. Only that superclass method with the _exact same method signature_ as the subclass method will be overriden. That means the subclass method definition must have the exact same name, same number and type of parameters, and in the exact same sequence. Thus, `public void start(String key)` would not override `public void start()`.
 
 **Notes** :
 
@@ -115,58 +127,64 @@ Annotations in Java is a good coding practice, but they are not a necessity. The
 
 Funny you ask about it! Just use the keyword `super` :
 
-    public class Vehicle() {
-        public void start() {
-          System.out.println("Vehicle start code");
-        }
+```java
+public class Vehicle() {
+    public void start() {
+      System.out.println("Vehicle start code");
     }
+}
 
-    public class Car extends Vehicle {
-        public void run() {
-          super.start();
-      }
-    }
+public class Car extends Vehicle {
+    public void run() {
+      super.start();
+  }
+}
 
-    Car car = new Car();
-    car.run(); // "Vehicle start code"
+Car car = new Car();
+car.run(); // "Vehicle start code"
+```
 
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CJY4/0' target='_blank' rel='nofollow'>Run Code</a>
 
-**N.B.** : Although you can call the parent method by `super` call, you cannot go up the inheritance with chained `super` calls.
+**N.B.** : Although you can call the parent method by using a `super` call, you cannot go up the inheritance hierarchy with chained `super` calls.
 
 ## How to know the type of a class?
 
-Using the `instanceof` keyword. Having lots of classes and subclasses it would be a little confusing to know which class is a subclass of which one in runtime. So, we can use `instanceof` to determine whether a class is actually a subclass of a superclass or not.
+Using the `instanceof` keyword. Having lots of classes and subclasses it would be a little confusing to know which class is a subclass of which one in runtime. So, we can use `instanceof` to determine whether an object is an instance of a class, an instance of a subclass, or an instance of an interface.
 
-    Car car = new Car();
+```java
+Car car = new Car();
 
-    boolean flag = car instanceof Vehicle; // true in this case!
+boolean flag = car instanceof Vehicle; // true in this case!
+```
 
 ## Constructors & Inheritance
 
-As mentioned earlier, constructors cannot be directly inherited by a subclass. Although, a subclass is _required_ to call its parent's constructor as the <a href='http://stackoverflow.com/questions/1168345/why-does-this-and-super-have-to-be-the-first-statement-in-a-constructor' target='_blank' rel='nofollow'>first thing</a> in its own constructor. How? You guessed it, using `super` :
+As mentioned earlier, constructors cannot be directly inherited by a subclass. Although, a subclass is _required_ to call its parent's constructor as the <a href='http://stackoverflow.com/questions/1168345/why-does-this-and-super-have-to-be-the-first-statement-in-a-constructor' target='_blank' rel='nofollow'>first operation</a> in its own constructor. How? You guessed it, using `super` :
 
-    public class Vehicle {
-        public Vehicle() {
-            // constructor
-        }
-        public void start() {
-          System.out.println("Vehicle start code");
-        }
+```java
+public class Vehicle {
+    public Vehicle() {
+        // constructor
     }
+    public void start() {
+      System.out.println("Vehicle start code");
+    }
+}
 
-    public class Car extends Vehicle {
-        public Car() {
-          super();
-        }
-        public void run() {
-          super.start();
-      }
+public class Car extends Vehicle {
+    public Car() {
+      super();
     }
+    public void run() {
+      super.start();
+  }
+}
+```
 
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CJY8/0' target='_blank' rel='nofollow'>Run Code</a>
 
-Remember, if the superclass does not have any constructors defined, you dont have to call it explicitely in the subclass. Java handles that internally for you! Invocation to `super` constructor is done in the case when the super class is to be called with any other constructor other than the _default constructor_.
+Remember, if the superclass does not have any constructors defined, you don't have to call it explicitely in the subclass. Java handles that internally for you! Invocation to `super` constructor is done in the case when the super class is to be called with any other constructor other than the _default constructor_.
 
 If no other constructors are defined, then Java invokes the default super class constructor (_even if not defined explicitly_).
 

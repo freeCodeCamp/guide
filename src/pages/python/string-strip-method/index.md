@@ -33,4 +33,4 @@ An optional argument can be provided as a string containing all characters you w
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
-String methods [documentation](https://docs.python.org/3/library/stdtypes.html#string-methods).
+String methods <a href='https://docs.python.org/3/library/stdtypes.html#string-methods' target='_blank' rel='nofollow'>documentation</a>.

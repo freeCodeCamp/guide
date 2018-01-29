@@ -14,6 +14,8 @@ Because we know that names in the phonebook are sorted alphabetically, we could 
 3. Otherwise, throw away the half of the phonebook that does not contain the name.
 4. Repeat until you find the name or there are no more pages left in the phonebook.
 
+Time complexity: As we dispose off one part of the search case during every step of binary search, and perform the search operation on the other half, this results in a worst case time complexity of </b><i>O</i>(<i>log<sub>2</sub>N</i>)<b>.
+
 This is the binary search algorithm. It is elegant and efficient but for it to work correctly, the array must be **sorted**.
 
 <hr>
@@ -76,6 +78,9 @@ function binarySearch(arr, item, low, high) {
 var numbers = [1,2,3,4,5,6,7];
 print(binarySearch(numbers, 5, 0, numbers.length-1));
 ```
+The Power of Binary Search in Data Systems (B+ trees):
+Binary Search Trees are very powerful because of their O(log n) search times, second to the hashmap data structure which uses a hasing key to search for data in O(1). It is important to understand how the log n run time comes from the height of a binary search tree. If each node splits into two nodes, (binary), then the depth of the tree is log n (base 2).. In order to improve this speed in Data System, we use B+ trees because they have a larger branching factor, and therefore more height. I hope this short article helps expand your mind about how binary search is used in practical systems.
+
 
 ### More Information
 <a href="https://youtu.be/P3YID7liBug">Binary search (YouTube video)</a>

@@ -34,6 +34,6 @@ div {
 `inherit` - Inherits this property from its parent element.
 
 #### More Information:
-[MDN web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/background-color?v=b)
+<a href='https://developer.mozilla.org/en-US/docs/Web/CSS/background-color?v=b' target='_blank' rel='nofollow'>MDN web docs</a>
 
 

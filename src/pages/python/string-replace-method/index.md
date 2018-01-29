@@ -3,13 +3,36 @@ title: String Replace Method
 ---
 ## String Replace Method
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/python/string-replace-method/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `str.replace(old, new, max)` is used to replace the substring `old` with the string `new` for a total of `max` times. This method returns a new copy of the string with the replacement. The original string `str` is unchanged.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+#### Examples
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+1. Replace all occurrences of `"is"` with `"WAS"`
+
+```python
+string = "This is nice. This is good."
+newString = string.replace("is","WAS")
+print(newString)
+```
+
+Output
+```python
+ThWAS WAS nice. ThWAS WAS good.
+```
+
+2. Replace the first 2 occurrences of `"is"` with `"WAS"`
+
+```python
+string = "This is nice. This is good."
+newString = string.replace("is","WAS", 2)
+print(newString)
+```
+
+Output
+```python
+ThWAS WAS nice. This is good.
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
+Read more about string replacement in the <a href='https://docs.python.org/2/library/string.html#string.replace' target='_blank' rel='nofollow'>Python docs</a>
 

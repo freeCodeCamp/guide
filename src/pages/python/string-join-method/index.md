@@ -3,13 +3,38 @@ title: String Join Method
 ---
 ## String Join Method
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/python/string-join-method/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `str.join(iterable)` method is used to join all elements in an `iterable` with a specified string ```str```.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+`iterable`: All iterables of string. Could a list of strings, tuple of string or even a plain string.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+#### Examples
+
+1) Join a ist of strings with `":"`
+```python
+print ":".join(["freeCodeCamp", "is", "fun"])
+```
+Output
+```shell
+freeCodeCamp:is:fun
+```
+
+2) Join a tuple of strings with `" and "`
+```python
+print " and ".join(["A", "B", "C"])
+```
+Output
+```shell
+A and B and C
+```
+
+3) Insert a `" "` after every character in a string
+```python
+print " ".join("freeCodeCamp")
+```
+Output:
+```shell
+f r e e C o d e C a m p
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+<a href='https://docs.python.org/2/library/stdtypes.html#str.join' target='_blank' rel='nofollow'>Python Documentation on String Join</a>

@@ -9,9 +9,11 @@ Test Driven Development (TDD) is one of Agile Software Development approaches. I
 It's basically composed of 4 steps
 
  - Write a test case
- - Execute
- - If fails, adjust your code
- - If pass, development continues
+ - See the test fail (Red)
+ - Make the test pass, comitting whatever crimes in the process (Green)
+ - Refactor the code to be up to standards (Refactor)
+
+ These steps follow the principle of Red-Green-Refactor. Red-Green make sure that you write the simplest code possible to solve the problem while the last step makes sure that the code that you write is up to the standards.
 
 Each new feature of your system should follow the steps above.
 
@@ -20,11 +22,13 @@ Each new feature of your system should follow the steps above.
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-Agile Data's [Introduction to TDD](http://agiledata.org/essays/tdd.html)
+Agile Data's <a href='http://agiledata.org/essays/tdd.html' target='_blank' rel='nofollow'>Introduction to TDD</a>
 
-Wiki on [TDD](https://en.wikipedia.org/wiki/Test-driven_development)
+Wiki on <a href='https://en.wikipedia.org/wiki/Test-driven_development' target='_blank' rel='nofollow'>TDD</a>
 
-Martin Fowler [Is TDD Dead?](https://martinfowler.com/articles/is-tdd-dead/)
+Martin Fowler <a href='https://martinfowler.com/articles/is-tdd-dead/' target='_blank' rel='nofollow'>Is TDD Dead?</a>
  (A series of recorded conversations on the subject)
  
- Kent Beck's book [Test Driven Development by Example](https://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530)
+ Kent Beck's book <a href='https://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530' target='_blank' rel='nofollow'>Test Driven Development by Example</a>
+
+Uncle Bob's <a href='http://blog.cleancoder.com/uncle-bob/2014/12/17/TheCyclesOfTDD.html' target='_blank' rel='nofollow'>The Cycles of TDD</a>

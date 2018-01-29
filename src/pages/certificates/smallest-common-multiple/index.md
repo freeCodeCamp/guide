@@ -154,55 +154,59 @@ Note: If the array only has two elements, then the `for` loop never gets used an
 ## ![:rotating_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:") Advanced Code Solution:
 
     function smallestCommons(arr) {
-        var min = Math.min.apply(null, arr);
-        var max = Math.max.apply(null, arr);
-        var grandLCM;
 
-        for (var i=min; i<max; i++) {
-            if(i===min){
-                grandLCM = (i * (i+1))/gcd(i, i+1);
-            }else{
-                grandLCM = (grandLCM * (i+1))/gcd(grandLCM, i+1);
-            }
-        }
+      // range
+      let min = Math.min.apply(null, arr);
+      let max = Math.max.apply(null, arr);
 
-        return grandLCM;
+      let smallestCommon = lcm(min, min + 1);
 
-        function gcd(x, y) {    // Implements The Euclidean Algorithm
-        if (y === 0)
-            return x;
-        else
-            return gcd(y, x%y);
-        }
+      while(min < max) {
+        min++;
+        smallestCommon = lcm(smallestCommon, min);
+      }
+
+      return smallestCommon;
     }
 
+    /**
+     * Calculates Greatest Common Divisor
+     * of two nubers using Euclidean algorithm
+     * https://en.wikipedia.org/wiki/Euclidean_algorithm
+     */
+    function gcd(a, b) {
+      while (b > 0) {
+        let tmp = a;
+        a = b;
+        b = tmp % b;
+      }
+      return a;
+    }
+
+    /**
+     * Calculates Least Common Multiple
+     * for two numbers utilising GCD
+     */
+    function lcm(a, b) {
+      return (a * b / gcd(a, b));
+    }
+
+
     // test here
-    smallestCommons(<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>1,5]);
+    smallestCommons([1,5]);
+    
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/MR9P/latest' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
-*   Get the minimum (min) and maximum (max) in the **arr**.
-*   Variable **grandLCM** will hold our final result.
-*   In a single loop, iterate from **min** to **max-1**.
-*   In each iteration: if first iteration, compute the lcm of current and next number in range and hold intermediate result in **grandLCM** else compute the lcm of previous intermediate result and next number in range.
-
-### Comparism to code at:
-
-![:rocket:</a> <a href='https://repl.it/CLn3/0' target='_blank' rel='nofollow'>Run Code</a>
-
-*   Unlike the solution at the link (Run Code) above, only a single for loop is used for range iteration and computation.
-*   The double loop (for and .reduce()) are replaced with just one `for loop`. That is the only difference.
-
-### Worthy of note:
-
-*   The gcd function uses recursion. <a href='https://en.wikipedia.org/wiki/Recursion' target='_blank' rel='nofollow'>Recursion explained</a>.
-*   Same result can be achieved with a regular loop, e.g a `for loop`.
-*   Here, in each function call in the recursion, a new execution context is created with its own variables `x` and `y`. Hence, this recursion approach is more expensive than using a regular loop.
+*   Extract minimum and maximum from provided **arr**.
+*   Initialise **smallestCommon** with the LCM of first two numbers.
+*   Loop through range computing LCM of current LCM and next number in range **lcm(a, b, c) = lcm(lcm(a, b), c)**.
 
 #### Relevant Links
 
-*   <a href='http://forum.freecodecamp.com/t/javascript-array-prototype-reduce/14299' target='_blank' rel='nofollow'>JS Array Prototype Reduce</a>
-*   <a href='http://forum.freecodecamp.com/t/using-array-prototype-reduce-to-reduce-conceptual-boilerplate-for-problems-on-arrays/14687' target='_blank' rel='nofollow'>JS Reduce Made Easy</a>
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply' target='_blank' rel='nofollow'>JS Function.prototype.apply()</a>
+
 
 ## ![:clipboard:](https://forum.freecodecamp.com/images/emoji/emoji_one/clipboard.png?v=3 ":clipboard:") NOTES FOR CONTRIBUTIONS:
 
