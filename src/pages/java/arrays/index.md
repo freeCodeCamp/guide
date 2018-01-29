@@ -70,14 +70,18 @@ Output:
 ```java
 arrayName[index] = value; 
 ```
-Note: You can not change the size or type of an array after initializing it.
 
+Note: You cannot change the size or type of an array after initialising it.
+Note: You can however reset the array like so
+
+```java
+arrayName = new dataType[] {value1, value2, value3};
+```
 
 ## Code snippets of above syntax:
 ```java
 list[1] = 3; // now, if you access the array like above, it will output 3 rather than 2
 ```
-
 
 _Example of code:_
 
@@ -98,6 +102,48 @@ Output:
     7
     8
 ```
+
+### Multi-dimensional Arrays
+Two-dimensional arrays (2D arrays) can be thought of as a table with rows and columns
+```java
+int M = 5;
+int N = 5;
+double[][] a = new double [M][N]; //M = rows N = columns
+for(int i = 0; i < M; i++) {
+    for (int j = 0; j < N; j++) {
+        //Do something here at index 
+    }
+}
+```
+This loop will execute M ^ N times and will build this:
+
+[ 0 | 1 | 2 | 3 | 4 ]  
+[ 0 | 1 | 2 | 3 | 4 ]  
+[ 0 | 1 | 2 | 3 | 4 ]  
+[ 0 | 1 | 2 | 3 | 4 ]  
+[ 0 | 1 | 2 | 3 | 4 ]  
+
+
+### Jagged Arrays
+Jagged arrays are multi-dimensional arrays that have a set number of rows but a varying number of columns. Jagged arrays are used to conserve memory use of the array. Here is a code example:
+
+
+```java
+int[][] array = new int[5][]; //initialize a 2D array with 5 rows
+array[0] = new int[1]; //creates 1 column for first row
+array[1] = new int[2]; //creates 2 columns for second row
+array[2] = new int[5]; //creates 5 columns for third row
+array[3] = new int[5]; //creates 5 columns for fourth row
+array[4] = new int[5]; //creates 5 columns for fifth row
+```	
+
+Output: 
+
+[ 0 ]                  
+[ 0 | 1 ]              
+[ 0 | 1 | 2 | 3 | 4 ]  
+[ 0 | 1 | 2 | 3 | 4 ]  
+[ 0 | 1 | 2 | 3 | 4 ]  
 
 #### More Information:
 * Source: <a href='https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html' target='_blank' rel='nofollow'>Java Arrays</a>
