@@ -9,13 +9,13 @@ The property values for `clear` are none, left, right, both, initial, and inheri
 
 This property is used after the `float` property is used to "clear" out the `float`.
 ```css
-  clear: none;
-  clear: left;
-  clear: right;
-  clear: both;
-  clear: initial;
-  clear: inherit;
+clear: none;
+clear: left;
+clear: right;
+clear: both;
+clear: initial;
+clear: inherit;
 ```
 
 #### More Information:
-MDN Documentation: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/clear" target='_blank' rel='nofollow'>MDN</a>
+[MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/clear)
