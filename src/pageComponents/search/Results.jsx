@@ -72,24 +72,22 @@ class Results extends PureComponent {
       } = result;
       const description = truncate(friendlySearchString);
       return (
-        <div key={ i }>
-          <MediaWrapper url={ url }>
-            <Media>
-              <Media.Left align='middle'>
-                <FontAwesome
-                  className='resultIcon'
-                  name={ faNames[_index] ? faNames[_index] : '' }
-                  size='3x'
-                />
-              </Media.Left>
-              <Media.Body>
-                <Media.Heading>{ title }</Media.Heading>
-                {_index === 'guides' && <Breadcrumbs path={url}/>}
-                <p>{ description }</p>
-              </Media.Body>
-            </Media>
-          </MediaWrapper>
-        </div>
+        <MediaWrapper key={i} url={url}>
+          <Media>
+            <Media.Left align='middle'>
+              <FontAwesome
+                className='resultIcon'
+                name={faNames[_index] ? faNames[_index] : ''}
+                size='3x'
+              />
+            </Media.Left>
+            <Media.Body>
+              <Media.Heading>{title}</Media.Heading>
+              {_index === 'guides' && <Breadcrumbs path={url} />}
+              <p>{description}</p>
+            </Media.Body>
+          </Media>
+        </MediaWrapper>
       );
     });
   }
