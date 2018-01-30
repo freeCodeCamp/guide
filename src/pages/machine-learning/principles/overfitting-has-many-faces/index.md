@@ -3,9 +3,9 @@ title: Overfitting Has Many Faces
 ---
 ## Overfitting Has Many Faces
 
-Overfitting occurs when the hypothesis function J(Θ) fits your training set too closely having a high variance and low error on the training set while having a high test error on any other data. 
+If a learning algorithm fits a given training set well, this does not simply indicate a good hypothesis. Overfitting occurs when the hypothesis function J(Θ) fits your training set too closely having a high variance and low error on the training set while having a high test error on any other data. 
 
-If a learning algorithm fits a given training set well, this does not simply indicate a good hypothesis. This is when the error of the hypothesis on as measured on the data set that was used to train the parameters happens to be lower than the error on any other data set. 
+In other words, overfitting occrus if the error of the hypothesis as measured on the data set that was used to train the parameters happens to be lower than the error on any other data set.
 
 ### Choosing an Optimal Polynomial Degree
 
