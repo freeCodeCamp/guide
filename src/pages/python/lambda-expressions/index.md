@@ -25,24 +25,26 @@ print(square(5)) # Output: 25
 In the above lambda example `lambda x: x ** 2` yields an anonymous function object which can be associated with any name.
 So, we associated the function object with `square` and hence from now on we can call the `square` object like any traditional function. e.g. `square(10)`
 
-## Examples:
+## Examples
 
-### Beginner:
- >>> lambda_func = lambda x: x**2     # Function that takes an integer and returns its square
- >>> lambda_func(3)
-    9
+### Beginner
+```py
+lambda_func = lambda x: x**2 # Function that takes an integer and returns its square
+lambda_func(3) # Returns 9
+```
 
-### Intermediate:
->>> lambda_func = lambda x: True if x**2 >= 10 else False
->>> lambda_func(3)
-  False
->>> lambda_func(4)
-  True
-  
-### Complex:
->>> my_dict = {"A": 1, "B": 2, "C": 3}
->>> sorted(my_dict, key=lambda x: my_dict[x]%3)
-  ['C', 'A', 'B']
+### Intermediate
+```py
+lambda_func = lambda x: True if x**2 >= 10 else False
+lambda_func(3) # Returns False
+lambda_func(4) # Returns True
+```
+
+### Complex
+```py
+my_dict = {"A": 1, "B": 2, "C": 3}
+sorted(my_dict, key=lambda x: my_dict[x]%3) # Returns ['C', 'A', 'B']
+```
 
 #### More Information:
 - [Official Doc](https://docs.python.org/3/reference/expressions.html#lambda)
