@@ -519,6 +519,24 @@ We use the <kcd>Squash and merge</kcd> option when merging the PR which keeps th
 
 > You can make your own with GitHub's built in [**Saved replies**](https://github.com/settings/replies/) feature or use the ones below.
 
+### Thank you
+
+```markdown
+Thank you for your contribution to the page! 👍
+We're happy to accept these changes, and look forward to future contributions. 🎉
+```
+
+### Thank you and congrats
+
+> For thanking and encouraging first-time contributors.
+
+```markdown
+Hi @username. Congrats on your first pull request (PR)! 🎉
+
+Thank you for your contribution to the page! 👍
+We're happy to accept these changes, and look forward to future contributions. 📝
+```
+
 ### Build Error
 
 ```markdown
