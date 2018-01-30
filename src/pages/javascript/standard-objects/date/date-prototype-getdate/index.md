@@ -1,14 +1,15 @@
 ---
 title: Date.prototype.getDate
 ---
+
 ## Date.prototype.getDate
 
-The getDate() method returns the day of the month for the specified date according to local time.
+The `getDate()` method returns the day of the month for the specified date according to local time.
 
 ### Syntax
 
 ```js
-dateObj.getDate()
+dateObject.getDate()
 ```
 
 ### Example
