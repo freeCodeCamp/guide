@@ -154,6 +154,6 @@ end
 4
 ```
 
-## More Information/ Official Documentation:
+## More Information
 
-There are plenty more array methods, you can read more about them <a href='https://ruby-doc.org/core-2.4.2/Array.html' target='_blank' rel='nofollow'>here</a>
+[Ruby Array docs](https://ruby-doc.org/core-2.4.2/Array.html)
