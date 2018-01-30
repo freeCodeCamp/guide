@@ -1,8 +1,8 @@
 ---
-title: E Eulers Number
+title: E Euler's Number
 ---
 
-## E Eulers Number
+## E Euler's Number
 
 Accessing Euler's Number
 
@@ -34,3 +34,7 @@ An easy and accessible way to get e. It uses the e^n, where we here take n as 1,
 import math
 math.exp( 1 )
 ```
+
+### More Information
+
+[Wikipedia](https://en.wikipedia.org/wiki/E_(mathematical_constant))
