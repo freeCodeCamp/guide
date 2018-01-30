@@ -11,7 +11,7 @@ A Code Smell is a sign that there may be a deeper problem with your code, that *
 
 #### More Information:
 * _Refactoring: Improving the Design of Existing Code - Kent Beck, Martin Fowler_
-* <a href='https://en.wikipedia.org/wiki/Code_smell' target='_blank' rel='nofollow'>Code Smells</a> on Wikipedia
-* <a href='https://blog.codinghorror.com/code-smells/' target='_blank' rel='nofollow'>Code Smells</a> on Jeff Atwood's Blog
-* <a href='http://wiki.c2.com/?CodeSmell' target='_blank' rel='nofollow'>Code Smell</a> on Ward Cunningham's C2 Wiki.
+* [Code Smells on Wikipedia](https://en.wikipedia.org/wiki/Code_smell)
+* [Code Smells on Jeff Atwood's Blog (Coding Horror)](https://blog.codinghorror.com/code-smells/)
+* [Code Smells on Ward Cunningham's C2 Wiki](http://wiki.c2.com/?CodeSmell)
 * https://martinfowler.com/bliki/CodeSmell.html
