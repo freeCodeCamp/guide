@@ -23,5 +23,5 @@ With the object model, JavaScript gets all the power it needs to create dynamic 
 
 #### More Information:
 
-[W3C - HTML DOM](https://www.w3schools.com/js/js_htmldom.asp)
+<a href='https://www.w3schools.com/js/js_htmldom.asp' target='_blank' rel='nofollow'>W3C - HTML DOM</a>
 
