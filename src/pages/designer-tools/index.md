@@ -17,6 +17,8 @@ These are some of them:
 
 [Sketch](https://www.sketchapp.com) - [Guide](https://github.com/freeCodeCamp/guides/blob/master/src/pages/designer-tools/sketch/index.md)
 
+[Illustrator](http://adobe.com/Illustrator) - [Guide](https://github.com/freeCodeCamp/guides/blob/master/src/pages/designer-tools/illustrator/index.md)
+
 In this section, you can see popular Firefox plug-ins used by designers.
 
 These are some of them:
