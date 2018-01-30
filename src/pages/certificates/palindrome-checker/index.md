@@ -93,7 +93,7 @@ The `Array.prototype.split` and `Array.prototype.join` methods can be of use her
 
 *   <a>Regex</a>
 
-## ![:rotating_light:</a> Advanced Code Solution (most performant):
+## ![:rotating_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:") Advanced Code Solution (most performant):
 ```javascript
     //this solution performs at minimum 7x better, at maximum infinitely better.
     //read the explanation for the reason why. I just failed this in an interview.
@@ -105,7 +105,7 @@ The `Array.prototype.split` and `Array.prototype.join` methods can be of use her
       //back and front pointers won't always meet in the middle, so use (back > front)
       while (back > front) {
         //increments front pointer if current character doesn't meet criteria
-        if ( str<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>front].match(/[\W_]/) ) {
+        if ( str[front].match(/[\W_]/) ) {
           front++
           continue
         }
