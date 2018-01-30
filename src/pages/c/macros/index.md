@@ -3,7 +3,6 @@ title: Macros in C
 ---
 ## Macros in C
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 A macro is a piece of code with a given name. When the name is used, it is replaced by the content of the macro.
 
 #### Defining macros
