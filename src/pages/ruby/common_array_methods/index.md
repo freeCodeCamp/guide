@@ -3,7 +3,7 @@ title: Common Array Methods
 ---
 ## Common Array Methods
 
-Ruby Arrays form a core foundation in programming in Ruby, and most languages in fact. It is used so much that it would be beneficial to know and even memorize some of the most commonly used methods for arrays. If you want to read more about Ruby Arrays <a href='https://github.com/freeCodeCamp/guides/blob/master/src/pages/ruby/ruby-arrays/index.md' target='_blank' rel='nofollow'>See Here</a>.
+Ruby Arrays form a core foundation in programming in Ruby, and most languages in fact. It is used so much that it would be beneficial to know and even memorize some of the most commonly used methods for arrays. If you want to know more about Ruby Arrays, we have [an article about them](https://guide.freecodecamp.org/ruby/ruby-arrays).
 
 For the purpose of this guide, our array will be as follows:
 
