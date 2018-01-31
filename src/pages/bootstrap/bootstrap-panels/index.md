@@ -54,3 +54,7 @@ This is a set of examples that shows each type of panel. The CSS Class is displa
 <div class="panel panel-heading">Panel Danger</div>
 <div class="panel panel-body"> This is a panel with the danger panel style.</div>
 </div>
+
+### More Information
+
+- [Bootstrap dropdown documentation](https://getbootstrap.com/docs/4.0/components/dropdowns/)
