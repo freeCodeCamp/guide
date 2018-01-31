@@ -3,13 +3,35 @@ title: Binary Decimal Hexadecimal Converter
 ---
 ## Binary Decimal Hexadecimal Converter
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/tools/binary-decimal-hexadecimal-converter/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+| Hex      | Decimal  | Binary   |
+|----------|----------|----------|
+| 0        | 0        | 0        |
+| 1        | 1        | 1        |
+| 2        | 2        | 10       |
+| 3        | 3        | 11       |
+| 4        | 4        | 100      |
+| 5        | 5        | 101      |
+| 6        | 6        | 110      |
+| 7        | 7        | 111      |
+| 8        | 8        | 1000     |
+| 9        | 9        | 1001     |
+| A        | 10       | 1010     |
+| B        | 11       | 1011     |
+| C        | 12       | 1100     |
+| D        | 13       | 1101     |
+| E        | 14       | 1110     |
+| F        | 15       | 1111     |
+| 10       | 16       | 10000    |
+| 20       | 32       | 100000   |
+| 40       | 64       | 1000000  |
+| 80       | 128      | 10000000 |
+| 100      | 256      | 100000000|
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### More Information:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+You can find more converters online at the following locations.
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+* <a href='https://www.mathsisfun.com/binary-decimal-hexadecimal-converter.html' target='_blank' rel='nofollow'>Math is Fun Binary, Decimal, Hexadecimal Converter</a>
 
+* <a href='http://www.rapidtables.com/convert/number/hex-dec-bin-converter.html' target='_blank' rel='nofollow'>Rapidtables Binary, Decimal, Hexadecimal Converter</a>
 
