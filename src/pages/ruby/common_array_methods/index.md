@@ -120,6 +120,15 @@ array.reverse
 => [4, 3, 2, 1, 0]
 ```
 
+#### .include?
+The include? method checks to see if the argument given is included in the array:
+
+```ruby
+array = [1, 2, 3, 4, 5]
+=> [1, 2, 3, 4, 5]
+array.include?(3)
+=> true
+
 #### .flatten
 The flatten method can be used to take an array that contains nested arrays and create a one-dimensional array:
 
