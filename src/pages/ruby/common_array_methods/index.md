@@ -54,7 +54,7 @@ array.drop(3)
 #### array index
 You can access a specific element in an array by accessing its index. If the index does not exist in the array, nil will be returned:
 ruby
-```
+```ruby
 array[2]
 => 2
 
