@@ -10,7 +10,6 @@ What is important to understand about the JIT compilation, is that it will compi
 
 Two examples of JIT Compilers are : JVM (Java Virtual Machine) in Java and CLR (Common Language Runtime), in C#.
 
-
 ## JIT stands for Just-in-Time which means that code gets compiled when it is needed, not before runtime.
 
 In the beginning, a compiler was responsible for turning a high-level language (defined as higher level than assembler) into object code (machine instructions), which would then be linked (by a linker) into an executable.
@@ -49,8 +48,6 @@ Java Virtual Machine (JVM)( JVM executes bytecode) maintains a count as of how m
 
 Also next time this function is calculated same compiled code is executed again unlike normal interpretation in which the code is interpreted again line by line. This makes execution faster.
 
-
 #### More Information
 
 [Wikipedia article about JIT Compilation](https://en.wikipedia.org/wiki/Just-in-time_compilation)
-
