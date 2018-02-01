@@ -9,7 +9,8 @@ An algorithm is like a recipe. It's a series of steps one takes to achieve a spe
 Some common types of algorithms include sorting algorithms, search algorithms, and compression algorithms. Classes of algorithms include Graph, Dynamic Programming, Sorting, Searching, Strings, Math, Computational Geometry, Optimization, Miscellaneous. Although technically not a class of algorithms, Data Structures is often grouped with them. 
 
 ### Efficiency
-Algorithms are most commonly judged by their efficiency, the amount of compute resources they take to complete their task. 
+
+Algorithms are most commonly judged by their efficiency, the amount of computing resources they require to complete their task.
 
 ### Sorting Algorithms
 
