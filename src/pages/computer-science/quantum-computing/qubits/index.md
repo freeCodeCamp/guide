@@ -1,17 +1,6 @@
 ---
 title: Qubits
 ---
-## Qubits
-
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/computer-science/quantum-computing/qubits/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
 
 ## Qubits
 
@@ -21,5 +10,8 @@ The major difference between the classical bit and the quantum bit has to do wit
 
 To illustrate this further, if you had one qubit, you can store a "0" and "1" simultaneously (which corresponds to a total of 2 states or values). If you had a 2-qubit system, you can hold **four** values at once - 00, 01, 10, and 11. With a 3-qubit system, you can hold **eight** values at once - 000, 001, 010, 011, 100, 101, 110, and 111. In general, a quantum system consisting of n-qubits will be able to have 2^n states which is exponentially more powerful than any classical computer.
 
-#### More Information: 
-You can read more about Qubits [here](https://en.wikipedia.org/wiki/Qubit "Learn more about Qubits"). You can also check [here](https://en.wikipedia.org/wiki/Quantum_mechanics "Quantum Mechanics")
+#### More Information
+
+[Qbits on Wikipedia](https://en.wikipedia.org/wiki/Qubit)
+
+[Quantum Mechanics on Wikipedia](https://en.wikipedia.org/wiki/Quantum_mechanics)
