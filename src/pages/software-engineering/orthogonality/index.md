@@ -1,6 +1,7 @@
 ---
 title: Orthogonality
 ---
+
 ## Orthogonality
 
 Orthogonality is a software design principle for writing components in a way that changing one component doesn't affect other components. It is the combination of two other principles, namely strong cohesion and loose coupling.
