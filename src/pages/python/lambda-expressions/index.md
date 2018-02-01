@@ -39,7 +39,6 @@ lambda_func = lambda x: True if x**2 >= 10 else False
 lambda_func(3) # Returns False
 lambda_func(4) # Returns True
 ```
-
 ### Complex
 ```py
 my_dict = {"A": 1, "B": 2, "C": 3}
@@ -81,6 +80,13 @@ list(filtered)
 NOTE: in Python 3 built in function return generator objects, so you have to call `list`, while in Python 2 they return a `list`, `tuple`or `string`.
 
 What happened? You told `filter` to take each element in `my_list` and apply the lambda expressions. The values that return `False` are filtered out. 
+
+### Complex
+```py
+my_dict = {"A": 1, "B": 2, "C": 3}
+sorted(my_dict, key=lambda x: my_dict[x]%3) # Returns ['C', 'A', 'B']
+```
+
 #### More Information:
 - [Official Doc](https://docs.python.org/3/reference/expressions.html#lambda)
 - [Further Read](https://dbader.org/blog/python-lambda-functions)

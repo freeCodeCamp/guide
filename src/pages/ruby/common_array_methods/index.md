@@ -120,6 +120,24 @@ array.reverse
 => [4, 3, 2, 1, 0]
 ```
 
+#### .include?
+The include? method checks to see if the argument given is included in the array:
+
+```ruby
+array = [1, 2, 3, 4, 5]
+=> [1, 2, 3, 4, 5]
+array.include?(3)
+=> true
+
+#### .flatten
+The flatten method can be used to take an array that contains nested arrays and create a one-dimensional array:
+
+```ruby
+array = [1, 2, [3, 4, 5], [6, 7]]
+array.flatten
+=> [1, 2, 3, 4, 5, 6, 7]
+```
+
 #### .join
 The .join method returns a string of all the elements of the array separated by a separator parameter. If the separator parameter is nil, the method uses an empty string as a separator between strings.
 

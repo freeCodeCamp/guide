@@ -1,10 +1,11 @@
 ---
-title: Utf 8 Reference
+title: UTF 8 Reference
 ---
-## Utf 8 Reference
-UTF-8 refers to the meta tag located inside the head of an HTML document and usually looking something like this `<meta charset="UTF-8">`. It tells the browser which character set the page is encoded in.
+## UTF 8 Reference
 
-UTF 8 is an encoding scheme used to translate the characters we see on screens into numbers computers can store. 
+UTF 8 is an encoding scheme used to translate the characters we see on screens into numbers computers can store. Specifying a character encoding like UTF8 will allow the browser to properly display advanced characters like accented letters and emoji.
+
+In HTML documents, you can specify the character encoding on the page by placing this meta tag in the `head` tag of your HTML page: `<meta charset="UTF-8">`. UTF 8 is the standard encoding.
 
 The [Unicode](https://www.unicode.org/) standard was developed in order to accomodate the characters used in languages across the world. 
 
@@ -31,6 +32,6 @@ Specify a meta tag with a charset of UTF 8 in your head tag.
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-* [Unicode Character Code Charts](https://www.unicode.org/charts/index.html)
 
+* [Unicode Character Code Charts](https://www.unicode.org/charts/index.html)
 * [HTML Unicode Reference](https://www.w3schools.com/charsets/ref_html_utf8.asp)

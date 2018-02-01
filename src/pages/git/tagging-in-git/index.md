@@ -3,7 +3,7 @@ title: Tagging in Git
 ---
 ## Tagging in Git
 
-Git tag feature can be use to make a reference point to some specific point in your commit history. Typically this feature is use to mark release points.
+Tags are a convenient way to highlight some milestone in you version history. Be it a new version, release or just a flag one could see where you made some decision. From the point of view of git, tag is just another branch name, for a branch that will never change. Typically this feature is used to mark release points.
 
 ### List Tags
 
@@ -150,5 +150,3 @@ state without impacting any branches by performing another checkout.
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 - Git documentation: <a href='https://git-scm.com/book/en/v2/Git-Basics-Tagging' target='_blank' rel='nofollow'>tag</a>
-
-
