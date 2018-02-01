@@ -44,6 +44,8 @@ With your help, we can create a comprehensive reference tool that will help mill
   - [Squash and Merge](#squash-and-merge)
   - [Filtering PRs](#filtering-prs)
   - [Templates](#templates)
+    - [Thank you](#thank-you)
+    - [Thank you and congrats](#thank-you-and-congrats)
     - [Build Error](#build-error)
     - [Syncing Fork](#syncing-fork)
     - [Merge Conflicts](#merge-conflicts)
