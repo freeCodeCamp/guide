@@ -3,13 +3,27 @@ title: Fractions
 ---
 ## Fractions
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/fractions/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+A fraction represents part of a whole number, a value between 0 and 1.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+A fraction normally has 2 parts:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+* Numerator: Represents the number of equal parts marking up the fraction.
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+* Dinominator: Represents the number by which 1 (or the numerator) is divided to make the fraction.
+
+The numerator and dinominator are both integers (whole numbers).
+
+A proper fraction is one where the numerator is less that the dinominator.
 
 
+Fractions can also be added after a whole number to increase its accuracy.
+
+### Examples
+
+1½ represents 1 + 1/2 or 1.5.
+
+Not all fractions have decimal representations:
+
+⅓ or 1/3 representas 1 divided by 3
+
+ 
