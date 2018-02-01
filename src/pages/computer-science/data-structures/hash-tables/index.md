@@ -1,11 +1,10 @@
 ---
 title: Hash Tables
 ---
+
 ## Hash Tables
 
-
 A hash table (hash map) is a data structure which implements an associative array abstract data type, a structure that can map keys to values. A hash table uses a hash function to compute an index into an array of buckets or slots, from which the desired value can be found.
-========
 
 Here's an explanation in layman's terms.
 
@@ -55,7 +54,6 @@ Finally, at some point, you might want to put more books into the library than t
 A Hash Table (or as it also known, a Hash Map) is a data structure that can map keys to values. Every hash table has a hash function that computes an index to a given key, such that a certain value can be found using said key.
 * <a href='https://en.wikipedia.org/wiki/Hash_table' target='_blank' rel='nofollow'>Hash Tables</a>
 * <a href='https://www.hackerearth.com/practice/data-structures/hash-tables/basics-of-hash-tables/tutorial/' target='_blank' rel='nofollow'>Basics of Hash Tables</a>
-
 
 ![an example of a hash table](https://github.com/TomerPacific/fccGuideImages/blob/master/315px-Hash_table_3_1_1_0_1_0_0_SP.svg.png?raw=true)
 
