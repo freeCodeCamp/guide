@@ -4,13 +4,13 @@ title: Fractions
 
 ## Fractions
 
-A fraction represents part of a whole number, a value between 0 and 1.
+A fractional number represents part of a whole number, a value between 0 and 1. They can be represented using decimals (e.g. 0.1), percentages (e.g. 10%), negative indices (e.g. 10 ^ -1) or fractions (e.g. 1/10).
 
-A fraction normally has two parts:
+A fraction normally has two parts which are divided by a line:
 
-* Numerator: Represents the number of equal parts marking up the fraction.
+* Numerator: Represents the number of equal parts marking up the fraction. (above the line)
 
-* Denominator: Represents the number by which the numerator is divided to make the fraction.
+* Denominator: Represents the number by which the numerator is divided to make the fraction. (below the line)
 
 The numerator and denominator are both integers (whole numbers).
 
