@@ -236,6 +236,7 @@
 .resultIcon {
   color: rgba(0, 100, 0, 0.5);
   margin-right: 6px;
+  width: 50px;
 }
 
 .searchResults {
@@ -247,6 +248,10 @@
     padding: 1px 2px;
     background: white;    
   }
+}
+
+.searchResults .media {
+  margin-bottom: 20px; 
 }
 
 /* SideNav */
