@@ -6,6 +6,10 @@ title: Hash Tables
 
 A hash table (hash map) is a data structure which implements an associative array abstract data type, a structure that can map keys to values. A hash table uses a hash function to compute an index into an array of buckets or slots, from which the desired value can be found.
 
+![an example of a hash table](https://github.com/TomerPacific/fccGuideImages/blob/master/315px-Hash_table_3_1_1_0_1_0_0_SP.svg.png?raw=true)
+
+A hash table has an average time complexity of O(1) for Search, Insert and Delete functions, while worst case is O(n).
+
 Here's an explanation in layman's terms.
 
 Let's assume you want to fill up a library of books and not just stuff them in there, but you want to be able to easily find them again when you need them.
@@ -48,17 +52,6 @@ Various collision handling methods exist, including running the data into yet an
 
 Finally, at some point, you might want to put more books into the library than the library allows. In other words, you need to build a bigger library. Since the exact spot in the library was calculated using the exact and current size of the library, it goes to follow that if you resize the library you might end up having to find new spots for all the books since the calculation done to find their spots has changed.
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-A Hash Table (or as it also known, a Hash Map) is a data structure that can map keys to values. Every hash table has a hash function that computes an index to a given key, such that a certain value can be found using said key.
-* <a href='https://en.wikipedia.org/wiki/Hash_table' target='_blank' rel='nofollow'>Hash Tables</a>
-* <a href='https://www.hackerearth.com/practice/data-structures/hash-tables/basics-of-hash-tables/tutorial/' target='_blank' rel='nofollow'>Basics of Hash Tables</a>
-
-![an example of a hash table](https://github.com/TomerPacific/fccGuideImages/blob/master/315px-Hash_table_3_1_1_0_1_0_0_SP.svg.png?raw=true)
-
-A hash table has an average time complexity of O(1) for Search, Insert and Delete functions, while worst case is O(n).
-
 In a perfect world, a hash function will map each value to one key, but since you are not living in a perfect world, what might happen is that the hash function will give the same key for different values. This is what is called hash collisions.
 
 Hash Collisions
@@ -78,4 +71,8 @@ Another way you can resolve hash collisions is using open addressing. In this me
 
 The major setback of open addressing lies in the fact that when needing to look for values, they might not be in the place you expect them to be (the key mapping). Therefore you have to traverse parts of the hash table in order to find the value you are looking for, thus resulting in increased time complexity.
 
+#### More Information:
+<!-- Please add any articles you think might be helpful to read before writing the article -->
+* <a href='https://en.wikipedia.org/wiki/Hash_table' target='_blank' rel='nofollow'>Hash Tables</a>
+* <a href='https://www.hackerearth.com/practice/data-structures/hash-tables/basics-of-hash-tables/tutorial/' target='_blank' rel='nofollow'>Basics of Hash Tables</a>
 For more information regarding hash tables, go to : https://en.wikipedia.org/wiki/Hash_table
