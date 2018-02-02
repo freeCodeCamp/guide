@@ -4,6 +4,7 @@ import Link from 'gatsby-link';
 import { connect } from 'react-redux';
 import Media from 'react-bootstrap/lib/Media';
 import FontAwesome from 'react-fontawesome';
+import Breadcrumbs from '../../templateComponents/Breadcrumbs.jsx';
 
 const isGuidesUrl = /^https?:\/\/guide\.freecodecamp\.org/i;
 
@@ -71,18 +72,19 @@ class Results extends PureComponent {
       } = result;
       const description = truncate(friendlySearchString);
       return (
-        <MediaWrapper key={ i } url={ url }>
+        <MediaWrapper key={i} url={url}>
           <Media>
             <Media.Left align='middle'>
               <FontAwesome
                 className='resultIcon'
-                name={ faNames[_index] ? faNames[_index] : '' }
+                name={faNames[_index] ? faNames[_index] : ''}
                 size='3x'
               />
             </Media.Left>
             <Media.Body>
-              <Media.Heading>{ title }</Media.Heading>
-              <p>{ description }</p>
+              <Media.Heading>{title}</Media.Heading>
+              {_index === 'guides' && <Breadcrumbs path={url} />}
+              <p>{description}</p>
             </Media.Body>
           </Media>
         </MediaWrapper>

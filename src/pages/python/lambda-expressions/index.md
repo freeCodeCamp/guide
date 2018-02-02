@@ -32,20 +32,17 @@ So, we associated the function object with `square` and hence from now on we can
 lambda_func = lambda x: x**2 # Function that takes an integer and returns its square
 lambda_func(3) # Returns 9
 ```
-
 ### Intermediate
 ```py
 lambda_func = lambda x: True if x**2 >= 10 else False
 lambda_func(3) # Returns False
 lambda_func(4) # Returns True
 ```
-
 ### Complex
 ```py
 my_dict = {"A": 1, "B": 2, "C": 3}
 sorted(my_dict, key=lambda x: my_dict[x]%3) # Returns ['C', 'A', 'B']
 ```
-
 ### Use-case
 
 Let's say you want to filter out odd numbers from a `list`. You could use a `for` loop:
@@ -81,7 +78,7 @@ list(filtered)
 NOTE: in Python 3 built in function return generator objects, so you have to call `list`, while in Python 2 they return a `list`, `tuple`or `string`.
 
 What happened? You told `filter` to take each element in `my_list` and apply the lambda expressions. The values that return `False` are filtered out. 
+
 #### More Information:
 - [Official Doc](https://docs.python.org/3/reference/expressions.html#lambda)
 - [Further Read](https://dbader.org/blog/python-lambda-functions)
-
