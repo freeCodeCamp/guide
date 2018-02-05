@@ -3,13 +3,19 @@ title: Search Algorithms
 ---
 ## Search Algorithms
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/algorithms/search-algorithms/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Searching algorithms are a set of instructions that take an array (or list) and an item as an input and tries to locate the item in the array.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Some algorithms can also tell when the item is not present in the array.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+## Why Searching Algorithms are Important
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+We often work with large data sets in Computer Science. Search algorithms are important to get precise members of those sets. These algorithms have direct applications in data structure algorithms and many more.
 
 
+## Some Common Sorting Algorithms
+
+Some of the most common searching algorithms are:
+
+* Binary Search
+* Jump Search
+* Linear Search
