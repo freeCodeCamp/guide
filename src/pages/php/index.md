@@ -70,3 +70,13 @@ sudo apt install apache2 libapache2-mod-php
 * PHP supports a wide range of databases
 * PHP is free. Download it from the official PHP resource: www.php.net
 * PHP is easy to learn and runs efficiently on the server side
+
+## Initial Structure / Hello World!
+ 
+ ```php
+ <?php
+ 
+   echo 'Hello World!';
+ 
+ ?>
+ ```
