@@ -1,29 +1,53 @@
 ---
 title: The Quadratic Formula
 ---
+
 ## The Quadratic Formula
 
-The Quadratic Formula can be used to find the solution(s) of any quadratic equation, and using the determinant can determine how many soltuions are present.  Other methods, such as factoring, graphing, or comlpeting the square finds the solution(s) of a quadratic equation, but the Quadratic formula is very useful in cases where you can't factor or graph. 
+The quadratic formula is a tool for solving quadratic equations. A quadratic equation is a polynomial equation of degree two.
+A degree two polynomial is just a polynomial where the highest exponent of _x_ is 2. The following are examples of quadratic equations.
+
+* ![x^2-5x+6=0](https://github.com/jasonu/freecodecamp-images/blob/master/quadratic_integer_roots.png "example quadratic equation")
+* ![x^2+x-1=0](https://github.com/jasonu/freecodecamp-images/blob/master/quadratic_irrational_roots.png "example quadratic equation")
+
+The formula only applies to equations that have the form above where a polynomial equals zero.
+In general, the formula applies to equations which have the form:
+
+<!-- Generated via latex2png.com resolution=150 dpi, src: $ax^2 + bx + c = 0$ -->
+![ax^2+bx+c=0](https://github.com/jasonu/freecodecamp-images/blob/master/quadratic_equation.png "general quadratic equation")
+
+Where _a_, _b_ and _c_ are coefficients of the polynomial. In this case the equation will have solution(s):
+
+<!-- Generated via latex2png.com resolution=150 dpi, src: $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$ -->
+![quadratic formula](https://github.com/jasonu/freecodecamp-images/blob/master/quadratic_formula.png "quadratic formula")
+
+#### Example:
+Suppose you wish to find the solutions to: ![x^2-5x+6=0](https://github.com/jasonu/freecodecamp-images/blob/master/quadratic_integer_roots.png "example quadratic equation"), then by plugging _a=1, b=-5, c=6_ into the quadratic formula we get:
+* _x=2_,
+* _x=3_.
+
+
+#### Example:
+The solution to: ![x^2+x-1=0](https://github.com/jasonu/freecodecamp-images/blob/master/quadratic_irrational_roots.png "example quadratic equation")
+is obtained by setting _a=1, b=1, c=-1_ in the quadratic formula. This gives two irrational solutions or roots:
+* _x=(-1+√5)/2_,
+* _x=(-1-√5)/2_.
+
+The Quadratic Formula can be used to find the solution(s) of any quadratic equation, and using the determinant can determine how many solutions are present.  Other methods, such as factoring, graphing, or completing the square finds the solution(s) of a quadratic equation, but the Quadratic formula is very useful in cases where you can't factor or graph. 
 
 When writing the quadratic equation as:
 
-<img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/70a0e43dfc81e6fea3be4fc96895a8f9ec2966ac" alt="ax^2 + bx + c = 0">
+![ax^2 + bx + c = 0](https://wikimedia.org/api/rest_v1/media/math/render/svg/70a0e43dfc81e6fea3be4fc96895a8f9ec2966ac/)
 
 (x is the variable while a, b, and c are constants)
 
 The quadratic formula is:
 
-<img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/2a9804ca8ce019507e3199ca8fced800fb5b7d7c" alt="x=-b +/- sqrt(b^2 - 4ac) all over 2a">
+![x=-b +/- sqrt(b^2 - 4ac) all over 2a](https://wikimedia.org/api/rest_v1/media/math/render/svg/2a9804ca8ce019507e3199ca8fced800fb5b7d7c/)
 
-### Solving an equation using the Quadratic Formula
-First, determine your constants a, b, and c
-
-Plug the values for a, b, and c in the quadratic formula
-
-Solve using Order of Operations, making two cases for the plus/minus
 
 ### Discriminant
-The discriminant is everything under the radical in the quadratic formula. <img src="http://www.katesmathlessons.com/uploads/1/6/1/0/1610286/what-is-the-discriminant_orig.png" alt="b^2 - 4ac" height=220px>
+The discriminant is everything under the radical in the quadratic formula. ![b^2 - 4ac](http://www.katesmathlessons.com/uploads/1/6/1/0/1610286/what-is-the-discriminant_orig.png/)
 
 If the discriminant = 0, then the quadratic only has one solution.  Graphically, this represents the vertex being placed on the x axis.
 
@@ -34,12 +58,12 @@ If the discriminant is negative ( < 0 ), the the quadratic has no real solutions
 ### Memorization
 More often than not, you will be required to memorize the quadratic formula.  Here are some helpful mnemonic devices:
 
-There are several <a href="https://www.youtube.com/watch?v=2lbABbfU6Zc" target="_blank"> songs </a> that help.
+There are several [songs](https://www.youtube.com/watch?v=2lbABbfU6Zc/) that help.
 
 In addition, creating a story to remember the quadratic formula helps.  For example: The negative boy was unsure (plus or minus) to go to the radical party, but because he was so square, he missed out on four awesome chicks.  The party was all over at 2Am.
 
 ### Common Mistakes:
-A lot of people forget about Order of Operations and subract 4 before multiplying it to a and c.
+A lot of people forget about Order of Operations and subtract 4 before multiplying it to a and c.
 
 In addition, the 2a is underneath the whole thing, not just the square root.
 
@@ -47,17 +71,11 @@ Make sure that you are careful not to drop the square root or the "plus/minus" i
 
 Remember that "b^2" means "the square of ALL of b, including its sign", so don't leave b^2 being negative.
 
-#### ** Don't take shourtcuts or be sloppy, it will hurt you in the long run **
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-A <a href="https://en.wikipedia.org/wiki/Quadratic_formula" target="_blank"> Wikipedia Article </a> of the Quadratic formula nad its many deviations
+[The Quadratic Formula Explained](http://www.purplemath.com/modules/quadform.htm "The Quadratic Formula Explained")
 
-A nice <a href="http://www.purplemath.com/modules/quadform.htm" target="_blank"> article by Purple Math </a> explaining the Quadratic Formula.
+[Wikipedia - Quadratic formula](https://en.wikipedia.org/wiki/Quadratic_formula/)
 
-<a href="https://www.khanacademy.org/math/algebra/quadratics/solving-quadratics-using-the-quadratic-formula/a/quadratic-formula-explained-article" target="_blank"> Khan Acadamy </a> explains the Quadratic Formula and how to use it.
+[Purple Math](http://www.purplemath.com/modules/quadform.htm/)
 
-### Good Luck!
-
+[Khan Academy](https://www.khanacademy.org/math/algebra/quadratics/solving-quadratics-using-the-quadratic-formula/a/quadratic-formula-explained-article/)
