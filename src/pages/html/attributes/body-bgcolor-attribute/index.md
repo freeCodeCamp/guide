@@ -4,12 +4,34 @@ title: Body Bgcolor Attribute
 ## Body Bgcolor Attribute
 The `<body bgcolor>` attribute assigns a background color for an HTML document. 
 
-**Syntax**:
+The Body Bgcolor attribute is not supported in HTML5. Use CSS instead.
+For older versions of HTML, you can add a background color in using the bgcolor attribute, selecting a color name, RGB value, or HEX value.
 
-`<body bgcolor="color">`
-The color value can be either a color name (like, `purple`) or a hex value (like, `#af0000`).
+**Syntax:** 
 
-To add a background color to a webpage you can use the `<body bgcolor="######">` attribute. It specifies a color for the HTML document to display.
+`<body bgcolor="#FF0066">`
+
+**Example:**
+```html
+<html>
+  <body bgcolor="red">
+  </body>
+</html>
+```
+
+The correct way to do this in HTML5, using CSS, looks like this:
+
+**Syntax:**
+
+`<body style="background-color:red;">`
+
+**Example:**
+```html
+<html>
+  <body style="background-color:rgb(255,99,21);">
+  </body>
+</html>
+```
 
 **For example:**
 
