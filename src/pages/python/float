@@ -1,0 +1,13 @@
+Python supports four different numerical types including int (signed integers), long (long integers), complex (complex numbers) and float (floating point real values) Floats represent real numbers and are written with a decimal point dividing the integer and fractional parts. Floats may also be in scientific notation, with E or e indicating the power of 10 (2.5e2 = 2.5 x 102 = 250).
+
+The term floating point is derived from the fact that there is no fixed number of digits before and after the decimal point; that is, the decimal point can float. There are also representations in which the number of digits before and after the decimal point is set, called fixed-pointrepresentations.
+
+The syntax for float() is: float([x])
+
+float() Parameters
+The float() method takes a single parameter:
+
+x (Optional) - number or string that needs to be converted to floating point number
+If it's a string, the string should contain decimal points
+
+<img src = "https://image.slidesharecdn.com/pythontutorialfeb152012-150421005015-conversion-gate02/95/python-tutorialfeb152012-12-638.jpg?cb=1429595510" >
