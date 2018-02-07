@@ -10,3 +10,6 @@ title: Python Frozenset
 `frozenset` constructor:
 
 **TODO: Examples**
+```Python
+animals = frozenset(['Dog', 'Cat'])
+```
