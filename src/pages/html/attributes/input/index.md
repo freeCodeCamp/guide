@@ -1,15 +1,21 @@
----
-title: Input
----
-## Input
-
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/attributes/input/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+[![Watch html input](https://image.slidesharecdn.com/odyjgt6slmix47ur8ghv-signature-ab1ceccb1f8c80fc0c4a772ec6f5ff7e658b8296d1227f76388f1981b0bcd4db-poli-160408073201/95/html-tables-forms-and-audio-video-14-638.jpg?cb=1460100868)](https://www.youtube.com/watch?v=T4kvt7K_Qgg)
 
 
+The input tag does not need an ending tag and can have numerous attributes:
+<ui>
+  <li> text </li>
+  <li> password </li>
+  <li> radio </li>
+  <li> checkbox </li>
+  <li> reset </li>
+  <li> submit </li>
+</ul>
+
+![Text](./inputtext.png)
+![Radio](./inputradio.png)
+![Submit](./inputsubmit.png)
+![Checkbox](./inputcheckbox.png)
+![Reset](./inputreset.png)
+
+### Sources
+ <a href='https://tutorialehtml.com/en/html-tutorial-input-tag/' target='_blank' rel='nofollow'>tutorialehtml.com</a>
