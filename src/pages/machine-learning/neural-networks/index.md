@@ -53,3 +53,25 @@ There's an awesome tool to help you grasp the idea of neural networks without an
 - <a href='http://ufldl.stanford.edu/tutorial/supervised/MultiLayerNeuralNetworks/' target='_blank' rel='nofollow'>Stanford University</a>
 - <a href='https://youtu.be/aircAruvnKk' target='_blank' rel='nofollow'>3Blue1Brown</a>
 - <a href='https://youtu.be/h3l4qz76JhQ' target='_blank' rel='nofollow'>Siraj Raval</a>
+
+
+## Convolution Neural Networks
+![Convolution neural network](http://d3kbpzbmcynnmx.cloudfront.net/wp-content/uploads/2015/11/Screen-Shot-2015-11-07-at-7.26.20-AM.png)
+
+A Convolutional Neural Network (CNN) is comprised of one or more convolutional layers (often with a subsampling step) and then followed by one or more fully connected layers as in a standard multilayer neural network.
+
+Unline traditional Neural Network, Convolution Neural Network take advantage of the two-dimensional input. Convolution layers are used to extract features from the input training data. Each convolution layer is assigned a set of filters which hel in feature extraction. With depth of CNN model, complexity of feature learnt by convolution layers increases, i.e. first convolution layer captures simple features while the last convolution layer captures complex features of the traning sample. 
+Apart from convolution layers CNN model also have max pooling layer which helpes in reduction of image size incase the input has  bigger dimensions.
+
+
+#### Advantages of CNN model over Neural Network:
+
+Convolutional neural networks allow networks to have fewer weights, and they are given a very effective tool - convolutions - for image processing. This guides the learning towards what we think interesting data is.
+
+For instance, we know that images contain a lot of redundant information, and that for object recognition, edges are often all we need. We have used this insight to give the neural network a simple way to do edge detection, though convolution. This is why we use ConvNets for most computer vision deep learning tasks, as it makes use of local patterns of the data.
+
+
+#### For further info:
+- <a href='https://www.quora.com/What-is-a-convolutional-neural-network'></a>
+
+
