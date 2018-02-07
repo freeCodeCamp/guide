@@ -15,11 +15,17 @@ If you have used `npm`, then you can think of it as _npm_ of python.
 
 Last time, in <a>`import-statements`</a> wiki we used `requests` module as an example. As it is a third party module we have to install it separately after installing python.
 
-Installing it would be as simple as `pip install requests` . You can even pass various arguments along with it. The one that you'll come across more often is `--upgrade`. You can upgrade a python module by :
+Installing it would be as simple as `pip install requests` . You can even pass various arguments along with it. The one that you'll come across more often is with an option `--upgrade` or simply `-U`. You can upgrade a python module by :
 
     pip install <module_name> --upgrade
 
 For example, to upgrade the requests module to its latest version would be as simple as `pip install requests --upgrade`.
+
+You can also run pip behind a proxy server:
+
+    pip install -U pytest --proxy [user:passwd@]proxy.server:port
+
+where arguments in `[]` are optional.
 
 Before using `pip`, you will need to install it (it's quite simple). You can install it from <a href='https://bootstrap.pypa.io/get-pip.py' target='_blank' rel='nofollow'>here</a>
 
