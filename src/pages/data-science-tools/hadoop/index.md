@@ -50,4 +50,8 @@ The Hadoop Ecosystem includes:
 
 #### More Information:
 1. <a href='https://www.udacity.com/course/intro-to-hadoop-and-mapreduce--ud617' target='_blank' rel='nofollow'>Udacity course on hadoop</a>
-1. <a href='http://hadoop.apache.org/' target='_blank' rel='nofollow'>Apache Hadoop</a>
+2. <a href='http://hadoop.apache.org/' target='_blank' rel='nofollow'>Apache Hadoop</a>
+
+3. <a href='https://cognitiveclass.ai/courses/introduction-to-hadoop/' target='_blank' rel='nofollow'>Hadoop 101</a>
+
+4. <a href='https://insidebigdata.com/2015/02/25/free-book-hadoop-dummies/' target='_blank' rel='nofollow'>Free ebook - Hadoop for dummies</a>
