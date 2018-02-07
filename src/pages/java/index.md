@@ -37,7 +37,7 @@ $ tar zxvf jdk-8uversion-linux-x64.tar.gz`
 
 `bash  
 $ rpm -ivh jdk-8uversion-linux-x64.rpm`   
-* Users have the choice to install an open source version of Java, OpenJDK or the Oracle JDK. While OpenJDK is in active development and in sync with Oracle JDK, they just differ in <a href='http://openjdk.java.net/faq/' target='_blank' rel='nofollow'>licensing</a> stuff. However few developers complain of the stability of Open JDK. Instructions for **Ubuntu** :
+* Users have the choice to install an open source version of Java, OpenJDK or the Oracle JDK. While OpenJDK is in active development and in sync with Oracle JDK, they just differ in <a href='http://openjdk.java.net/faq/' target='_blank' rel='nofollow'>licensing</a> stuff. However few developers complain of the stability of Open JDK. Instructions for **Ubuntu** (or any **Debian** based OS) :
 
 Open JDK installation :  
 `bash  
