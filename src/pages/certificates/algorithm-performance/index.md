@@ -5,7 +5,10 @@ In mathematics, big-O notation is a symbolism used to describe and compare the _
 A function's limiting behavior is how the function acts as it trends towards a particular value and in big-O notation it is usually as it trends towards infinity.  
 In short, big-O notation is used to describe the growth or decline of a function, usually with respect to another function.
 
-<a href='https://github.com/FreeCodeCamp/wiki/blob/master/Algorithms-Bubble-Sort.md#algorithm-bubble-sort' target='_blank' rel='nofollow'>NOTE: x^2 is equivalent to x * x or 'x-squared']
+
+
+
+NOTE: x^2 is equivalent to x * x or 'x-squared']
 
 For example we say that x = O(x^2) for all x > 1 or in other words, x^2 is an upper bound on x and therefore it grows faster.  
 The symbol of a claim like x = O(x^2) for all x > _n_ can be substituted with x <= x^2 for all x > _n_ where _n_ is the minimum number that satisfies the claim, in this case 1.  
@@ -18,10 +21,10 @@ Through the comparison and analysis of algorithms we are able to create more eff
 
 ## Examples
 
-As an example, we can examine the time complexity of the [bubble sort</a> algorithm and express it using big-O notation.
+As an example, we can examine the time complexity of the <a href='https://github.com/FreeCodeCamp/wiki/blob/master/Algorithms-Bubble-Sort.md#algorithm-bubble-sort' target='_blank' rel='nofollow'>[bubble sort]</a> algorithm and express it using big-O notation.
 
 #### Bubble Sort:
-
+```javascript
     // Function to implement bubble sort
     void bubble_sort(int array<a href='http://bigocheatsheet.com/' target='_blank' rel='nofollow'>], int n)
     {
@@ -42,7 +45,7 @@ As an example, we can examine the time complexity of the [bubble sort</a> algori
             }
         }
     }
-
+```
 Looking at this code, we can see that in the best case scenario where the array is already sorted, the program will only make _n_ comparisons as no swaps will occur.  
 Therefore we can say that the best case time complexity of bubble sort is O(_n_).
 
