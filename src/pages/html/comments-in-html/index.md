@@ -44,4 +44,3 @@ Conditional Comments are only recognised by Internet Explorer Version 5 through 
 	</body>
 </html>
 ```
-<h1> and <p> will be excuted only for Internet Explorer.
