@@ -3,8 +3,6 @@ title: XAML
 ---
 ## XAML
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/csharp/xaml/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
 ## XAML : Extensible Application Markup Language
 
 XAML pronounced as "Zammel" is a mark language developed by Microsoft. This markup language is mainly used for designing GUIs. Also it is popular for its usability in workflow. 
