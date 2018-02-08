@@ -20,6 +20,7 @@ Chrome and Firefox Developer tools assist web developers in analyzing the HTML, 
 
 
 
+
 ### More Information:
 * [Chrome DevTools](https://developer.chrome.com/devtools)
 * [Firefox Developer Tools](https://developer.mozilla.org/en-US/docs/Tools)
