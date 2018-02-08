@@ -22,7 +22,7 @@ array.length
 ```
 
 #### .first
-The .first methods accesses the first element of the array, the element at index 0:
+The .first method accesses the first element of the array, the element at index 0:
 
 
 ``` ruby
@@ -31,7 +31,7 @@ array.first
 ```
 
 #### .last
-The .last methods accesses the last element of the array:
+The .last method accesses the last element of the array:
 
 
 ``` ruby
@@ -121,7 +121,7 @@ array.delete(1)
 ```
 
 #### .delete_at
-The .delete_at methods allows you to permanently remove an element of an array at a specified index:
+The .delete_at method allows you to permanently remove an element of an array at a specified index:
 
 
 ``` ruby
@@ -130,7 +130,7 @@ array.delete_at(0)
 ```
 
 #### .reverse
-The .reverse methods reverses the array but does not mutate it (the original array stays as is):
+The .reverse method reverses the array but does not mutate it (the original array stays as is):
 
 
 ``` ruby
