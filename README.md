@@ -3,6 +3,7 @@
 # freeCodeCamp Guide
 
 [![Build Status](https://img.shields.io/travis/freeCodeCamp/guides/master.svg?style=flat-square)](https://travis-ci.org/freeCodeCamp/guides) [![license](https://img.shields.io/badge/license-BSD--3--Clause-lightgrey.svg?style=flat-square)](https://opensource.org/licenses/BSD-3-Clause)  [![Gitter](https://img.shields.io/gitter/room/freeCodeCamp/Contributors.svg?style=flat-square)](https://gitter.im/freeCodeCamp/Contributors)
+[![Open Source Helpers](https://www.codetriage.com/freecodecamp/guides/badges/users.svg)](https://www.codetriage.com/freecodecamp/guides)
 
 [![GitHub Issues](https://img.shields.io/github/issues/freeCodeCamp/guides.svg?style=flat-square)](https://github.com/freeCodeCamp/guides/issues) [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/freeCodeCamp/guides.svg?style=flat-square)](https://github.com/freeCodeCamp/guides/pulls) [![Pull Requests Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![first-timers-only Friendly](https://img.shields.io/badge/first--timers--only-friendly-blue.svg?style=flat-square)](http://www.firsttimersonly.com/)
@@ -24,6 +25,8 @@ Guide articles can be an explanation of a syntax, design pattern, what aria labe
 You can find an [example article about HTML Elements here](./src/pages/html/elements/index.md).
 
 ## What can I write an article about?
+
+Front-end development (adjective form with a dash) is when you are working on the front end (noun form with no dash). The same goes with the back end, full stack, and many other compound terms.
 
 We welcome your help writing these articles. You don't have to be an expert in a topic to write about it - this entire Guide is open source, so even if you make a mistake, another contributor will eventually correct it.
 
