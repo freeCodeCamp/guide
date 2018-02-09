@@ -190,6 +190,6 @@ end
 4
 ```
 
-## More Information/ Official Documentation:
+## More Information
 
-There are plenty more array methods, you can read more about them [here](https://ruby-doc.org/core-2.4.2/Array.html/)
+There are plenty more array methods, you can read more about them [in the official documentation](https://ruby-doc.org/core-2.4.2/Array.html/)
