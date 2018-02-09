@@ -3,10 +3,9 @@ title: Common Array Methods
 ---
 ## Common Array Methods
 
-Ruby Arrays form a core foundation in programming in Ruby, and most languages in fact. It is used so much that it would be beneficial to know and even memorize some of the most commonly used methods for arrays. If you want to read more about Ruby Arrays [see here](https://github.com/freeCodeCamp/guides/blob/master/src/pages/ruby/ruby-arrays/index.md/).
+Ruby Arrays form a core foundation in programming in Ruby, and most languages in fact. It is used so much that it would be beneficial to know and even memorize some of the most commonly used methods for arrays. If you want to know more about Ruby Arrays, we have [an article about them](https://guide.freecodecamp.org/ruby/ruby-arrays).
 
 For the purpose of this guide, our array will be as follows:
-
 
 ``` ruby
 array = [0, 1, 2, 3, 4]
@@ -14,7 +13,6 @@ array = [0, 1, 2, 3, 4]
 
 #### .length
 The .length method tallies the number of elements in your array and returns the count:
-
 
 ``` ruby
 array.length
@@ -24,7 +22,6 @@ array.length
 #### .first
 The .first method accesses the first element of the array, the element at index 0:
 
-
 ``` ruby
 array.first
 => 0
@@ -32,7 +29,6 @@ array.first
 
 #### .last
 The .last method accesses the last element of the array:
-
 
 ``` ruby
 array.last
@@ -68,8 +64,6 @@ array[5]
 
 #### .pop
 The .pop method will permantently remove the last element of an array:
-
-
 
 ``` ruby
 array.pop
@@ -113,7 +107,6 @@ array.unshift(-1)
 #### .delete
 The .delete method removes a specified element from an array permanently:
 
-
 ``` ruby
 array.delete(1)
 => [0, 2, 3, 4]
@@ -122,7 +115,6 @@ array.delete(1)
 #### .delete_at
 The .delete_at method allows you to permanently remove an element of an array at a specified index:
 
-
 ``` ruby
 array.delete_at(0)
 => [1, 2, 3, 4]
@@ -130,7 +122,6 @@ array.delete_at(0)
 
 #### .reverse
 The .reverse method reverses the array but does not mutate it (the original array stays as is):
-
 
 ``` ruby
 array.reverse
