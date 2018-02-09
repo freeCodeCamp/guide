@@ -13,16 +13,12 @@ Consider the example of a Machine Learning algorithm that plays chess. In this e
 
 In general, machine learning problems can be classified into supervised learning, and unsupervised learning. In supervised learning, you have the input and the labeled output, and you suspect that a relationship exists between the input and the labeled output. When you know neither what the labeled output is nor if a relationship exists, unsupervised learning will help you find structure in your data if there is one.
 
-In sum, there are two broad categories of machine learning
+We've covered two main categories of machine learning, but there are four broad categories of machine learning:
 
 1. Supervised learning
 2. Unsupervised learning
 3. Semi-supervised Learning
 4. Reinforcement Learning
-
-
-There are however other subcategories of machine learning you may encounter such as Semi-supervised and reinforced learning.
-
 
 #### More Information:
 
