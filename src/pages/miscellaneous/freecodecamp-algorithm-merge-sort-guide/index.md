@@ -13,9 +13,7 @@ The biggest advantage of using Merge sort is that the <a href='https://www.youtu
 
 Before we write code, let us understand how merge sort works with the help of a diagram.
 
-<div class="lightbox-wrapper">[![Merge Sort](//discourse-user-assets.s3.amazonaws.com/optimized/2X/4/4712ef1a5d856dbb4af393fcc08a820a38787395_1_487x499.png)
-
-<div class="meta"><span class="filename">ac98ccu.png</span><span class="informations">876x899 26.8 KB</span><span class="expand"></span></div>](//discourse-user-assets.s3.amazonaws.com/original/2X/4/4712ef1a5d856dbb4af393fcc08a820a38787395.png "ac98ccu.png") </div>
+![Merge Sort](//discourse-user-assets.s3.amazonaws.com/original/2X/4/4712ef1a5d856dbb4af393fcc08a820a38787395.png)
 
 *   Initially we have an array of 6 unsorted integers Arr(5, 8, 3, 9, 1, 2)
 *   We split the array into two halves Arr1 = (5, 8, 3) and Arr2 = (9, 1, 2).
