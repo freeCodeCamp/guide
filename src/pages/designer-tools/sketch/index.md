@@ -3,7 +3,7 @@ title: Sketch
 ---
 ## Sketch
 
-Sketch is a design toolkit for macOS only. It quickly became very popular as an alternative to Photoshop for user interface design as it's much cheaper and has a low learning curve.
+Sketch is a professional design application for the Mac that utilizes a vector-based workflow. The interface is clean and inviting for new users as well as being a familiar tool for users of Adobe Fireworks. Sketch has become a popular alternative tool to Photoshop for users who do not need an over abundance of options for interface designs.
 
 ### Why Sketch?
 
