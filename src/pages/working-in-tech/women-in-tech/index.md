@@ -23,5 +23,5 @@ The worst thing you can do is to sell yourself short if you want something take 
 
 ### More Information:
 
-- https://www.theguardian.com/lifeandstyle/2017/aug/08/why-are-there-so-few-women-in-tech-the-truth-behind-the-google-memo
-- https://www.nytimes.com/2017/09/16/opinion/sunday/ellen-pao-sexism-tech.html
+- [Why are there so few women in tech? The truth behind the Google memo](https://www.theguardian.com/lifeandstyle/2017/aug/08/why-are-there-so-few-women-in-tech-the-truth-behind-the-google-memo)
+- [Ellen Pao: Has Anything Really Changed for Women in Tech?](https://www.nytimes.com/2017/09/16/opinion/sunday/ellen-pao-sexism-tech.html)
