@@ -1,9 +1,7 @@
 ---
 title: XAML
 ---
-## XAML
-
-## XAML : Extensible Application Markup Language
+## XAML: Extensible Application Markup Language
 
 XAML pronounced as "Zammel" is a mark language developed by Microsoft. This markup language is mainly used for designing GUIs. Also it is popular for its usability in workflow. 
 
@@ -21,7 +19,7 @@ Creating a TextBlock with several properties.
 	Margin="50,10,0,0" />
 ```
 
-## Article
+## More Information:
 
 * [A Beginners Article about XAML and the WPF Engine](http://www.c-sharpcorner.com/UploadFile/logisimo/a-beginners-article-about-xaml-and-the-wpf-engine/)
 
