@@ -245,7 +245,13 @@
   width: 100%;
   .breadcrumb {
     padding: 1px 2px;
-    background: white;    
+    background: white;
+    li:hover > a {
+      text-decoration: underline;
+    }
+  }
+  a {
+    text-decoration: none;
   }
 }
 
@@ -321,12 +327,12 @@
 }
 
 @media (max-width: 992px){
- 
+
   .content {
     overflow-y: hidden;
     height: 100%;
   }
-  
+
 }
 
 .skip-link {
