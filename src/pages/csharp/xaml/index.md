@@ -19,7 +19,7 @@ Creating a TextBlock with several properties.
 	Margin="50,10,0,0" />
 ```
 
-## More Information:
+### More Information:
 
 * [A Beginners Article about XAML and the WPF Engine](http://www.c-sharpcorner.com/UploadFile/logisimo/a-beginners-article-about-xaml-and-the-wpf-engine/)
 
