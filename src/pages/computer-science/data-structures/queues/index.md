@@ -77,4 +77,5 @@ console.log(queue.remove()); // exception
 
 * <a href='http://www.geeksforgeeks.org/queue-data-structure/' target='_blank' rel='nofollow'>More Info on Queues - GeeksForGeeks</a>  
 * <a href='https://www.hackerrank.com/domains/data-structures/queues' target='_blank' rel='nofollow'>Solve Challenges using Queues - Hackerrank</a>
+* <a href="https://www.youtube.com/watch?v=wjI1WNcIntg" target ="_blank" rel="nofollow">HackerRank Stacks and Queues Video</a>
 
