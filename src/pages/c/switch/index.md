@@ -5,11 +5,15 @@ title: Switch Case
 # Switch Case
 
 The switch statement is like a set of `if statements`.
+
 It's a list of possibilities, with an action for each possibility, and an optional default action, in case nothing else evaluates to true.
-We exit from the switch by `break`.
+
+We exit from the switch by `break`. If the `break` statement is not reached before the beginning of the next case, the execution will fall through and begin executing the code in the next case.
+
+Using a switch statement over multiple if/else statements can contribute to more speed and readability.
 
 ## Example
-```
+```c
 # include <stdio.h>
 
 int main() {
@@ -46,7 +50,7 @@ int main() {
 ```
 
 ## Output:
-```
+```c
 -> Enter an operator (+, -, *,): -
 -> Enter two operands: 32.5
 -> 12.4

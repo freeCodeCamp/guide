@@ -1,16 +1,26 @@
 ---
-title: Chrome-Firefox Development Tools
+title: Chrome Firefox Development Tools
 ---
-## Chrome-Firefox Development Tools
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/developer-tools/Chrome-Firefox-Development-Tools/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+## Chrome Firefox Development Tools
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Chrome and Firefox Developer tools assist web developers in analyzing the HTML, CSS and Javascript on a web page. They are useful for debugging, optimizing code, inspecting elements and much more.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+**Features:**
+* **Page Inspector:**  View and edit page content and layout.
+* **Web Console:**  See javascript console.log() messages and erros
+* **JavaScript Debugger:**  View and modify JavaScript running on a page
+* **Network Monitor:**  See network requests made when pages are loaded
+* **Performance Tools:**  Analyze computer resources used by the site
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-<a href='https://developer.chrome.com/devtools' target='_blank' rel='nofollow'>Chrome DevTools</a>
-<br/>
-<a href='https://developer.mozilla.org/en-US/docs/Tools' target='_blank' rel='nofollow'>Firefox Developer Tools</a>
+### Accessing the development tools
+
+1. In the menu bar at the top of the screen select View > Developer > Developer Tools. The tools will appear on the bottom, side, or as a pop-out window.
+2. On a web page right click on an element. When the menu appears select ‘Inspect’.
+
+
+
+
+### More Information:
+* [Chrome DevTools](https://developer.chrome.com/devtools)
+* [Firefox Developer Tools](https://developer.mozilla.org/en-US/docs/Tools)
