@@ -7,7 +7,7 @@ function Index() {
       <Helmet>
         <title>freeCodeCamp Guide</title>
       </Helmet>
-      <h2>freeCodeCamp Guide</h2>
+      <h2>BUILD TEST - DO NOT MERGE</h2>
       <p>
         {
           'This website is full of articles about all things related to ' +
