@@ -10,8 +10,7 @@ const initialState = {
 
 export const types = createTypes(
   [
-    'fetchSearchResults',
-    'resetSearch',
+    'updateIsSearching',
     'updateLastPage',
     'updateSearchResults',
     'updateSearchTerm'
@@ -19,22 +18,16 @@ export const types = createTypes(
   'search'
 );
 
-export const fetchSearchResults = createAction(types.fetchSearchResults);
-export const resetSearch = createAction(types.resetSearch);
+export const updateIsSearching = createAction(types.updateIsSearching);
 export const updateLastPage = createAction(types.updateLastPage);
 export const updateSearchResults = createAction(types.updateSearchResults);
 export const updateSearchTerm = createAction(types.updateSearchTerm);
 
 export const reducer = handleActions(
   {
-    [types.fetchSearchResults]: state => ({
+    [types.updateIsSearching]: (state, { payload }) => ({
       ...state,
-      isSearching: true
-    }),
-    [types.resetSearch]: state => ({
-      ...state,
-      results: [],
-      searchTerm: ''
+      isSearching: payload
     }),
     [types.updateLastPage]: (state, { payload }) => ({
       ...state,
@@ -42,7 +35,6 @@ export const reducer = handleActions(
     }),
     [types.updateSearchResults]: (state, { payload = [] }) => ({
       ...state,
-      isSearching: false,
       results: payload
     }),
     [types.updateSearchTerm]: (state, { payload }) => ({

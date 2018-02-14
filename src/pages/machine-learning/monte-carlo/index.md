@@ -3,7 +3,7 @@ title: Monte Carlo
 ---
 ## Monte Carlo
 
-A Monte Carlo algorithm is an algorithm for computers which is used to simulate the behaviour of other systems. It is not an exact method, but a heuristical one, typically using randomness and statistics to get a result. The algorithm terminates with an answer that is correct with probability.
+The Monte Carlo is a class of simulation techniques that allow you to explore the solution space of a problem that has inputs that can take on multiple values. By running simulations with randomized inputs and model parameters, you can observe outcomes that result from inputs that may have other not been tested. The method is useful for solving problems that may be too difficult to solve analytically. It is not an exact method, but a heuristical one, typically using randomness and statistics to get a result. The algorithm terminates with an answer that is correct with probability.
 
 It is a computation process that uses random numbers to produce an outcome(s). Instead of having fixed inputs, probability distributions are assigned to some or all of the inputs. This will generate a probability distribution for the output after the simulation is run.
 
@@ -11,11 +11,9 @@ For example, a Monte Carlo algorithm can be used to estimate the value of π. Th
 
 In modern communication systems, the quality of information exchange is determined by the presence of noise in the channel. The major source of noise - Additive White Gaussian Noise (AWGN) being random in nature can be characterized using the Monte Carlo algorithm in simulating a Communications System.
 
-For More Information Check this out - hhttps://www.youtube.com/watch?v=Q2-FH36LuT0 
+### More Information:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+- https://en.wikipedia.org/wiki/Monte_Carlo_method
+- http://mathworld.wolfram.com/MonteCarloMethod.html
+- http://blog.minitab.com/blog/understanding-statistics/monte-carlo-is-not-as-difficult-as-you-think
+- [Monte Carlo Algorithm (4:41)](https://www.youtube.com/watch?v=Q2-FH36LuT0)
