@@ -1,5 +1,5 @@
 ---
-title: React from Scratch
+title: React
 ---
 # React
 
