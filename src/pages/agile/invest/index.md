@@ -11,7 +11,7 @@ title: INVEST
 **S** | **small**
 **T** | **testable**
 
-When you are grooming and sizing the User Stories in the backlog, the INVEST mnemonic can help you determine if they are ready
+When you are refining and sizing the User Stories in the backlog, the INVEST mnemonic can help you determine if they are ready
 
 - Independent
   - The story is as distinct as possible from the other stories. Avoid "2-stories in one".
