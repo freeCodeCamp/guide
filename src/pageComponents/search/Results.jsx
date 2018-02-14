@@ -4,6 +4,7 @@ import Link from 'gatsby-link';
 import { connect } from 'react-redux';
 import Media from 'react-bootstrap/lib/Media';
 import FontAwesome from 'react-fontawesome';
+import Breadcrumbs from '../../templateComponents/Breadcrumbs.jsx';
 
 const isGuidesUrl = /^https?:\/\/guide\.freecodecamp\.org/i;
 
@@ -25,6 +26,10 @@ function mapStateToProps(state) {
 
 function mapDispatchToProps() {
   return {};
+}
+
+function truncate(str) {
+  return str.replace('\n', '').slice(0, 150) + '...';
 }
 
 function MediaWrapper(props) {
@@ -57,20 +62,29 @@ class Results extends PureComponent {
   renderResultItems() {
     const { results } = this.props;
     return results.map((result, i) => {
-      const { _index, _source: { title, url, description } } = result;
+      const {
+        _index,
+        _source: {
+          title,
+          url,
+          friendlySearchString = ''
+        }
+      } = result;
+      const description = truncate(friendlySearchString);
       return (
-        <MediaWrapper key={ i } url={ url }>
+        <MediaWrapper key={i} url={url}>
           <Media>
             <Media.Left align='middle'>
               <FontAwesome
                 className='resultIcon'
-                name={ faNames[_index] ? faNames[_index] : '' }
+                name={faNames[_index] ? faNames[_index] : ''}
                 size='3x'
               />
             </Media.Left>
             <Media.Body>
-              <Media.Heading>{ title }</Media.Heading>
-              <p>{ description }</p>
+              <Media.Heading>{title}</Media.Heading>
+              {_index === 'guides' && <Breadcrumbs path={url} />}
+              <p>{description}</p>
             </Media.Body>
           </Media>
         </MediaWrapper>

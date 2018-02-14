@@ -1,8 +1,11 @@
 ---
 title: Semantic HTML Elements
 ---
+
 ## Semantic HTML Elements
 The `<em>` element marks text as being emphasized above the text around it. Typically, the browser renders this in *italics*, but you can add other styles using CSS.
+
+HTML5 introduced new semantic elements such as `<header>` and `<footer>`. These elements function similarly to `<div>`, but give additional context to people and computers reading or parsing the code.
 
 #### `<em>` vs `<i>` vs `<cite>`
 Since webpages so often display `<em>` in *italics*, beginning developers may think `<em>` and `<i>` (which also renders text in *italics*) are interchangeable.
@@ -21,5 +24,6 @@ In this example, the word "can't" is emphasized: I just <em>can't</em> handle th
 
 In this example, the French text is set off from the rest of the sentence: His art had a certain <i>je ne sais quoi</i>.
 
-#### More Information:
+#### More Information
+
 Refer to the [MDN Web Docs article](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em).

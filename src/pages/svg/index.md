@@ -49,7 +49,70 @@ When you want to apply the same attributes or CSS styles to multiple SVG element
 
 The `<path />` element defines a vector path in the viewport. The path is defined by the `d` attribute. In the first example the definition reads 'move to the absolute coordinate (10, 170) _and_ draw a line to the relative coodrinates 590 in the X direction and 0 in the Y direction.   
 
-## Browser Support
+### The canvas element
+
+Canvas graphics can be drawn onto a <canvas> element. You can give suchan element width and height attributes to determine its size in pixels.A new canvas is empty, meaning it is entirely transparent and thusshows up simply as empty space in the document.
+The <canvas> tag is intended to support different styles of drawing.To get access to an actual drawing interface, we first need to create a context, which is an object whose methods provide the drawing interface.There are currently two widely supported drawing styles: "2d" for two-dimensional graphics and "webgl" for three-dimensional graphics through the OpenGL interface.
+
+A context is created through the getContext method on the <canvas> element.
+```
+<p > Before canvas . </p >
+< canvas width ="120" height ="60" > </ canvas >
+<p > After canvas . </p >
+< script >
+var canvas = document . querySelector (" canvas ") ;
+var context = canvas . getContext ("2 d ") ;
+context . fillStyle = " red ";
+context . fillRect (10 , 10 , 100 , 50) ;
+</ script >
+```
+![](http://www.crwflags.com/fotw/images/s/sly@stt.gif)
+
+After creating the context object, the example draws a red rectangle 100
+pixels wide and 50 pixels high, with its top-left corner at coordinates
+(10,10).
+
+### Drawing a pie chart
+
+The results variable contains an array of objects that represent the
+survey responses.
+```
+var results = [
+{ name : " Satisfied " , count : 1043 , color : " lightblue "} ,
+{ name : " Neutral " , count : 563 , color : " lightgreen "} ,
+{ name : " Unsatisfied " , count : 510 , color : " pink "} ,
+{ name : " No comment " , count : 175 , color : " silver "}
+];
+```
+To draw a pie chart, we draw a number of pie slices, each made up of an arc and a pair of lines to the center of that arc. We can compute the angle taken up by each arc by dividing a full circle (2 π ) by the total number of responses and then multiplying that number (the angle per response) by the number of people who picked a given choice.
+```
+< canvas width ="200" height ="200" > </ canvas >
+< script >
+var cx = document . querySelector (" canvas ") . getContext ("2 d ") ;
+var total = results . reduce ( function ( sum , choice ) {
+return sum + choice . count ;
+} , 0) ;
+
+// Start at the top
+
+var currentAngle = -0.5 * Math . PI ;
+results . forEach ( function ( result ) {
+var sliceAngle = ( result . count / total ) * 2 * Math . PI ;
+cx . beginPath () ;
+// center =100 ,100 , radius =100
+// from current angle , clockwise by slice ' s angle
+cx . arc (100 , 100 , 100 ,
+currentAngle , currentAngle + sliceAngle );
+currentAngle += sliceAngle ;
+cx . lineTo (100 , 100) ;
+cx . fillStyle = result . color ;
+cx . fill () ;
+}) ;
+</ script >
+```
+This draws the following chart:
+![](https://pbs.twimg.com/media/CTDvkA8UwAAdJg5.png)
+### Browser Support
 
 <a href='https://caniuse.com/#feat=svg' target='_blank' rel='nofollow'>Browser support for SVG</a> is available in all modern browsers. There are some issues with scaling in IE 9 through IE 11 however they can be overcome with the use of the `width`, `height`, `viewbox`, and CSS. 
 
