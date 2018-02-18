@@ -101,7 +101,7 @@ Before we write code, let us understand how merge sort works with the help of a 
     }
     }
 
-:rocket: <a href='https://repl.it/CYVc/1' target='_blank' rel='nofollow'>Run Code</a> 
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CYVc/1' target='_blank' rel='nofollow'>Run Code</a> 
 
 ### Javascript Implementation 
 
@@ -131,6 +131,6 @@ When we merge the two halfs, we store the result in an auxilliary array. We will
 
     >> [1, 3, 3, 5, 6, 7, 15]
 
-:rocket: <a href='https://repl.it/CYVd' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CYVd' target='_blank' rel='nofollow'>Run Code</a>
 
 If you still have problem in understanding MergeSort, a <a href='https://www.youtube.com/watch?v=TzeBrDU-JaY' target='_blank' rel='nofollow'>video explanation</a> will make it even more clear.
