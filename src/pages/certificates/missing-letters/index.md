@@ -127,7 +127,7 @@ You will need to figure out where the missing letter is, along with handling the
     // test here
     fearNotLetter("abce");
 
-![:rocket:</a> <a href='https://repl.it/CLnG/0' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLnG/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 

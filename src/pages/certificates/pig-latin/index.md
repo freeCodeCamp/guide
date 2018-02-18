@@ -63,7 +63,7 @@ You will need to use everything you know about string manipulation to get the la
     // test here
     translatePigLatin("consonant");
 
-![:rocket:</a> <a href='https://repl.it/CLmt/0' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLmt/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -96,7 +96,7 @@ You will need to use everything you know about string manipulation to get the la
     // test here
     translatePigLatin("consonant");
 
-![:rocket:</a> <a href='https://repl.it/CLmw/0' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLmw/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -141,7 +141,7 @@ You will need to use everything you know about string manipulation to get the la
     // test here
     translatePigLatin("consonant");
 
-![:rocket:</a> <a href='https://repl.it/CLmv/0' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLmv/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 

@@ -130,7 +130,7 @@ If you are using `Date()` to create instances of dates to work with, then use UT
     // test here
     makeFriendlyDates(['2016-07-01', '2016-07-04']);
 
-![:rocket:</a> <a href='https://repl.it/CLos/0' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLos/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 

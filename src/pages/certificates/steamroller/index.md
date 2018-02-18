@@ -60,7 +60,7 @@ You will definitely need recursion or another way to go beyond two level arrays 
     // test here
     steamrollArray([1, [2], [3, [[4]]]]);
 
-![:rocket:</a> <a href='https://repl.it/CLnh/0' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLnh/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -84,7 +84,7 @@ You will definitely need recursion or another way to go beyond two level arrays 
 
     flattenArray([1, [2], [3, [[4]]]]);
 
-![:rocket:</a> <a href='https://repl.it/CLni/0' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLni/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -117,7 +117,7 @@ You will definitely need recursion or another way to go beyond two level arrays 
         });
     }
 
-![:rocket:</a> <a href='https://repl.it/CpDy/4' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CpDy/4' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 

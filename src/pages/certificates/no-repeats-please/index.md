@@ -141,7 +141,7 @@ A way to visualize this is by considering a tree that starts with the first char
     // Test here.
     permAlone('aab');
 
-![:rocket:</a> <a href='https://repl.it/CLop/0' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLop/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 

@@ -54,7 +54,7 @@ The tricky part is getting the regular expression part to work, once you do that
     // test here
     spinalCase('This Is Spinal Tap');
 
-![:rocket:</a> <a href='https://repl.it/CLnS/0' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLnS/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -74,7 +74,7 @@ The tricky part is getting the regular expression part to work, once you do that
     // test here
     spinalCase('This Is Spinal Tap');
 
-![:rocket:</a> <a href='https://repl.it/CLnT/0' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLnT/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -95,7 +95,7 @@ The tricky part is getting the regular expression part to work, once you do that
       return str.split(/\s|_|(?=<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>A-Z])/).join('-').toLowerCase()
     }
 
-![:rocket:</a> <a href='https://repl.it/EUZV' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/EUZV' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
