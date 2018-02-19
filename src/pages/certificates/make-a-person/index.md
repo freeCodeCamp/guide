@@ -75,7 +75,7 @@ Often the code would not work the way you expect it due to wrong variable names,
     var bob = new Person('Bob Ross');
     bob.getFullName();
 
-![:rocket:</a> <a href='https://repl.it/CLov/0' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLov/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 

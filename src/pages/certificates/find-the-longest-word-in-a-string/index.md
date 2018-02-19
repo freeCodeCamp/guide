@@ -50,7 +50,7 @@ Remember how to get the length of elements on the array? `Array[index].length`.
       return maxLength;
     }
 
-![:rocket:</a> <a href='https://repl.it/CLjU/5' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLjU/5' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -119,7 +119,7 @@ In case you're wondering about that `0` after the callback function, it is used 
       }
     }
 
-![:rocket:</a> <a href='https://repl.it/CLjU/7' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLjU/7' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
