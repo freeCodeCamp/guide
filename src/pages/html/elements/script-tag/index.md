@@ -3,13 +3,31 @@ title: Script Tag
 ---
 ## Script Tag
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/script-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `<script>` tag/element is used to incorporate client-side Javascript into your HTML file which can be used to add interactivity and logic to your website 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The tag can be used to encompass actual Javascript code right in the HTML itself like this
+```
+<script>
+  alert('hello this is my Javascript doing things!');
+</script>
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Or you can use it as a way to reference an external javascript file like this
+```
+<script src="main.js" />
+```
+Here the `src` attribute of the element takes in a path to a Javascript file
+
+Script tags are loaded into your HTML in-order and syncronously so it is usually best practice to add your scripts right before the ending of your `<body>` tag in your HTML like so
+```
+  <script src="main.js" />
+  <script>
+    alert('hello this is my Javascript doing things!');
+  </script>
+</body>
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+You can see the official documentation for the script element on the [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script)
 
 

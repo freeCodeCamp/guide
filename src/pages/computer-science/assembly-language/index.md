@@ -16,6 +16,7 @@ Programmers will write code in Assembly if exicution speed and control is absolu
 * It is necessary to use CPU instructions that are not available in the compilers of high-level languages.
 * Optimization plays primary role in software engineering, such as game development.
 * There is no high-level language to program a certain types of processors.
+
 ![Image of Levels of Code](https://raw.githubusercontent.com/colbybanbury/assemblyPicture/master/Screenshot%20from%202017-10-14%2014-03-06.png)
 
 #### More Information:
