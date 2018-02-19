@@ -13,7 +13,7 @@ In modern communication systems, the quality of information exchange is determin
 
 ### More Information:
 
-- https://en.wikipedia.org/wiki/Monte_Carlo_method
-- http://mathworld.wolfram.com/MonteCarloMethod.html
-- http://blog.minitab.com/blog/understanding-statistics/monte-carlo-is-not-as-difficult-as-you-think
+- [Wikipedia](https://en.wikipedia.org/wiki/Monte_Carlo_method)
+- [Wolfram MathWorld](http://mathworld.wolfram.com/MonteCarloMethod.html)
+- [Minitab article - Monte Carlo is not as difficult as you think](http://blog.minitab.com/blog/understanding-statistics/monte-carlo-is-not-as-difficult-as-you-think)
 - [Monte Carlo Algorithm (4:41)](https://www.youtube.com/watch?v=Q2-FH36LuT0)
