@@ -32,6 +32,7 @@ There are three main techniques:
 * **Boundary Value Analysis** (the system is tested with chosen inputs where behaviour and therefore output should change)
 * **Cause-Effect Graphing** (tests are designed from a visualization of the input-output relations)
 
+
 ### Other Resources
 <a href='https://guide.freecodecamp.org/agile/test-driven-development' target='_blank' rel='nofollow'>Test Driven Development (freeCodeCamp Guide)</a>
 
