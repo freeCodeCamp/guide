@@ -3,12 +3,12 @@ title: Link
 ---
 ## Link
 
-The :link CSS pseudo-class is used to target all unvisited anchor (<a>) elements that have an href attribute, even if the href has an empty value.
+The `:link` CSS pseudo-class is used to target all unvisited elements (e.g. anchor `<a>` elements) that have an `href` attribute, even if the `href` has an empty value.
 
-Syntax:
+General Syntax:
 
 ```css
-:link
+target:link
 ```
 
 ## Example
@@ -22,6 +22,5 @@ a:link {
 
 
 #### More Information:
-For more information visit [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/:link)
 
-
+- [:link (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/:link)
