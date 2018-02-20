@@ -8,6 +8,7 @@ Sketch is a professional design application for the Mac that utilizes a vector-b
 ### Why Sketch?
 
 * Easily reuse elements
+* Prototyping
 * Collaborate with others
 * Lots of plugins
 * Export files in multiple formats
