@@ -83,7 +83,9 @@ class Results extends PureComponent {
             </Media.Left>
             <Media.Body>
               <Media.Heading>{title}</Media.Heading>
-              {_index === 'guides' && <Breadcrumbs path={url} />}
+              {_index === 'guides' &&
+                <Breadcrumbs path={url.replace(isGuidesUrl, '')} />
+              }
               <p>{description}</p>
             </Media.Body>
           </Media>
