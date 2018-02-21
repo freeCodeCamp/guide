@@ -3,7 +3,7 @@ title: Article
 ---
 ## Article
 
-The `<article>` tag represents self-contained content in a document. The article should be independent from the rest of page, intented to be distributable and reusable.
+The `<article>` tag represents self-contained content in a document. The article should be independent from the rest of page, intended to be distributable and reusable.
 
 The `<article>` tag was added in HTML5 and is supported by major browsers.
 
