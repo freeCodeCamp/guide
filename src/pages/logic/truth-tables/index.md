@@ -21,6 +21,7 @@ Thus we have 2^2 = 4 columns in our truth table !
 The last column is the functional value – x AND y.
 
 OR operator:
+
 | x | y | x OR y  |
 |---|---|---|
 | F  | F  | F  |
@@ -29,12 +30,14 @@ OR operator:
 | T  | T  | T  |
 
 NOT operator:
+
 | x | NOT x |
 |---|---|
 | F  | T  |
 | T  | F  |
 
 Implication operator:
+
 | x | y | x IMPLY y  |
 |---|---|---|
 | F  | F  | T  |
@@ -55,6 +58,7 @@ According to the implication truth table this propositional formula is true.
 P implies Q can also be thought as an abbreviation for NOT(P) OR Q.
 
 Double implication operator:
+
 | x | y | x <-> y  |
 |---|---|---|
 | F  | F  | T  |
