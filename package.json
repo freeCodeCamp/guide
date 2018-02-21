@@ -28,6 +28,7 @@
     "react-bootstrap": "^0.31.0",
     "react-dom": "^15.6.1",
     "react-fontawesome": "^1.6.1",
+    "react-freecodecamp-search": "^1.4.1",
     "react-redux": "^5.0.5",
     "redux": "^3.7.2",
     "redux-actions": "^2.2.1",
@@ -59,7 +60,6 @@
   },
   "pre-commit": [
     "pre-commit-message",
-    "lint",
-    "normalise"
+    "lint"
   ]
 }
