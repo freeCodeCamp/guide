@@ -31,7 +31,8 @@
   margin-top: 0;
 }
 
-:global td, :global th {
+:global td,
+:global th {
   border-bottom: 1px solid rgba(0, 0, 0, 0.12);
   padding: 10px;
 }
@@ -65,22 +66,9 @@
 
 /* Layout */
 
-.link {
-  text-decoration: none;
-  color: #fff;
-}
-
-.navBar {
-  background: #006400;
-  display: flex;
-  align-items: center;
-  /* height: 40px; */
-  border: none;
-  border-radius: 0;
-}
-
 .content {
-  margin-bottom: 50px;
+  overflow-y: scroll;
+  height: 92vh;
 
   img {
     max-width: 100%;
@@ -91,6 +79,72 @@
     display: inline-block;
     width: 20px;
     height: 20px;
+  }
+}
+
+/* NavBar */
+
+.navBar {
+  background: #006400;
+  display: flex;
+  align-items: center;
+  min-height: 40px;
+  border: none;
+  border-radius: 0;
+}
+
+.main {
+    outline: 0;
+}
+
+
+.navContainer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+@media (min-width: 992px) {
+  .navContainer {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .navContainer {
+    width: 1170px;
+  }
+}
+
+/* Navbar logo */
+
+.logo-glyph {
+  height: 30px;
+  width: auto;
+}
+
+.logo {
+  display: none;
+}
+
+.logoContainer {
+  margin-right: 10px;
+}
+
+@media (min-width: 992px) {
+  .logo-glyph {
+    display: none;
+  }
+
+  .logo {
+    display: block;
+  }
+
+  .logoContainer {
+    margin-right: 50px;
+    width: 25%;
   }
 }
 
@@ -148,9 +202,15 @@
 /* ResultsSkeleton */
 
 @keyframes fadeInOut {
-  0% { opacity: 0.6; }
-  50% { opacity: 1; }
-  100% { opacity: 0.6; }
+  0% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.6;
+  }
 }
 
 .skeleton {
@@ -171,17 +231,6 @@
   background: #eee;
 }
 
-/* SearchBar */
-
-.formContainer {
-  margin: 0;
-}
-
-.input {
-  min-width: 100%;
-  width: 100%;
-}
-
 /* SearchPage */
 
 .resultIcon {
@@ -194,12 +243,16 @@
   flex-direction: column;
   padding: 5px;
   width: 100%;
+  .breadcrumb {
+    padding: 1px 2px;
+    background: white;    
+  }
 }
 
 /* SideNav */
 
 .body {
-  overflow: hidden;
+  overflow-y: hidden;
 }
 
 .caretStyle {
@@ -237,6 +290,7 @@
 .sideNav {
   overflow-y: scroll;
   max-height: 90vh;
+  position: relative;
 }
 
 .stubbed {
@@ -258,4 +312,35 @@
   border: none;
   border-radius: 0px;
   cursor: pointer;
+}
+
+.bodyContainer {
+  --h: 100vh;
+  margin-top: 55px;
+  height: calc(var(--h) - 55px);
+}
+
+@media (max-width: 992px){
+ 
+  .content {
+    overflow-y: hidden;
+    height: 100%;
+  }
+  
+}
+
+.skip-link {
+    background-color: white;
+    left: 0;
+    padding: 5px 10px;
+    top: 0;
+    z-index: 9;
+}
+
+.skip-link:focus {
+    position: absolute;
+}
+
+.article {
+    outline: 0;
 }
