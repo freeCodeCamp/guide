@@ -5,7 +5,7 @@ title: Data Types
 
 Java is a strongly typed language. This means that, in Java, each data type has its own strict definition. There are no implicit data type conversions when any conflicts occur between the data types. Any change in data types should be explicitly declared by the programmer.
 
-Java defines 8 simple data types : `byte`, `short`, `int`, `long`, `char`, `float`, `double` and `boolean`.
+Java defines 8 primitive data types : `byte`, `short`, `int`, `long`, `char`, `float`, `double` and `boolean`.
 
 They are divided into the following categories:
 
@@ -134,7 +134,7 @@ This is used for storing logical values. A boolean type can have a value of eith
 
     Default value is false.
 
-    Example: boolean b = true, boolean b1 = 1;
+    Example: boolean b = true, boolean b1 = 1, boolean b2;
 
 ## Reference Data Types:
 
@@ -161,4 +161,36 @@ class demo{
         char[] arr = new char[10];           //arr is the reference variable
     }
 }
+```
+
+## String:
+
+String is not a primitive data type, but it lets you store multiple character data types in an array and has many methods that can be used. It is used quite commonly when the user types in data and you have to manipulate it. 
+
+In the example below, we try to remove all of the letters from the string and output it:
+
+```java
+
+String input = "My birthday is 10 January 1984 and my favorite number is 42";
+String output = "";
+
+for(int i=0;i<input.length();i++){
+
+//if the character at index i on the string is a letter or a space, move on to the next index
+if(Character.isLetter(input.charAt(i)) || input.charAt(i)==' '){ 
+    
+    continue;
+}
+
+output = output + input.charAt(i); //the number is added onto the output
+
+}
+
+System.out.println(output);
+```
+
+
+Output: 
+```
+10198442
 ```
