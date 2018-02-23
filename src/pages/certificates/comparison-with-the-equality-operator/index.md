@@ -16,6 +16,7 @@ If `myVal` is equal to `10`, the function will return "Equal". If it is not, the
 
 The equality operator will do its best to convert values for comparison, for example:
 
+```js
        1   ==  1        // true
       "1"  ==  1        // true
        1   == '1'       // true
@@ -23,3 +24,4 @@ The equality operator will do its best to convert values for comparison, for exa
        0   == null      // false
        0   == undefined // false
      null  == undefined // true
+```

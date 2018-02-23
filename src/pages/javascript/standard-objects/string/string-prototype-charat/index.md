@@ -5,7 +5,9 @@ The `charAt()` method returns the specified character from a string.
 
 ## Syntax
 
+```js
     str.charAt(index)
+```
 
 ## Parameters
 
@@ -21,6 +23,7 @@ Characters in a string are indexed from left to right. The index of the first ch
 
 ## Examples
 
+```js
     var anyString = 'Brave new world';
 
     console.log("The character at index 0   is '" + anyString.charAt(0)   + "'"); // 'B'
@@ -34,3 +37,4 @@ Characters in a string are indexed from left to right. The index of the first ch
     document.write(str.charAt(str.length - 1));
 
     // Output: Z
+```

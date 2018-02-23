@@ -3,7 +3,7 @@ title: Area of a Circle
 ---
 ## Area of a Circle
 
-The area of a circle is all the space inside a circle's circumference. 
+The area of a circle is all the space inside a circle's circumference.
 
 If 'r' is the radius of circle, its area is calculated with formula pi*r<sup>2</sup> where pi is mathematical constant.
 
@@ -41,27 +41,26 @@ Area of circle =  <span class="texhtml"><span class="texhtml">π</span> * <i>(
 
 ###### Given circumference of the circle
 
-We know that the circumference of the circle (C), 
+We know that the circumference of the circle (C),
 <br>`C = 2 * π * (radius)`.
 <br><br>From this, you can derive the area of the circle as below,
 
 Area of circle =  <i>C</i><sup>2</sup></span> / 4 * <span class="texhtml"><span class="texhtml">π</span>
-  
+
 #### Examples
 
 1. Given radius = 3cm, find area of the circle
 
-     Area = 3.14 * 9 = 28.26 <span>cm<sup>2</sup></span>
+   <pre>Area = 3.14 * 9 = 28.26 <span>cm<sup>2</sup></span></pre>
 
 2. Given diameter = 8cm, find area of the circle
 
-     Radius = (Diameter/2) = 4cm
-
-     Area = 3.14 * 16 = 50.24 <span>cm<sup>2</sup></span>
+   <pre>Radius = (Diameter/2) = 4cm
+    Area = 3.14 * 16 = 50.24 <span>cm<sup>2</sup></span></pre>
 
 3. Given circumference of a circle = 25cm, find the area of the circle
 
-     Area = 625 / (4 * 3.14) = 49.76 <span>cm<sup>2</sup></span>
+   <pre>Area = 625 / (4 * 3.14) = 49.76 <span>cm<sup>2</sup></span></pre>
 
 A "Real World" Example:-
 
@@ -77,7 +76,7 @@ A = 0.126 m2 (to 3 decimals)
 And the holes are 1 m deep, so:
 Volume = 0.126 m2 × 1 m = 0.126 m3
 So Max should order 0.126 cubic meters of concrete to fill each hole.
- 
+
 Note: Max could have estimated the area by:
 1. Calculating a square hole: 0.4 × 0.4 = 0.16 m2
 2. Taking 80% of that (estimates a circle): 80% × 0.16 m2 = 0.128 m2

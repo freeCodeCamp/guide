@@ -5,12 +5,14 @@ After you've created a JavaScript object, you can update its properties at any t
 
 For example, let's look at `ourDog`:
 
+```js
     var ourDog = {
       "name": "Camper",
       "legs": 4,
       "tails": 1,
       "friends": ["everything!"]
     };
+```
 
 Since he's a particularly happy dog, let's change his name to "Happy Camper". Here's how we update his object's name property:
 

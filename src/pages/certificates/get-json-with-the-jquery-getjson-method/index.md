@@ -9,8 +9,10 @@ These properties and their values are often referred to as "key-value pairs".
 
 Here is a sample of what it looks like.
 
+```js
     $.getJSON("/json/cats.json", function(json) {
 
        $(".message").html(JSON.stringify(json));
 
      });
+```

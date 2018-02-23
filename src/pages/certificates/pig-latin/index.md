@@ -38,6 +38,7 @@ You will need to use everything you know about string manipulation to get the la
 
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
 
+```js
     function translatePigLatin(str) {
       // Create variables to be used
       var pigLatin = '';
@@ -62,6 +63,7 @@ You will need to use everything you know about string manipulation to get the la
 
     // test here
     translatePigLatin("consonant");
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLmt/0' target='_blank' rel='nofollow'>Run Code</a>
 
@@ -85,6 +87,7 @@ You will need to use everything you know about string manipulation to get the la
 
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution:
 
+```js
     function translatePigLatin(str) {
       function check(obj) {
           return <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>'a','i','u','e','o'].indexOf(str.charAt(obj)) == -1 ? check(obj + 1) : obj;
@@ -95,6 +98,7 @@ You will need to use everything you know about string manipulation to get the la
 
     // test here
     translatePigLatin("consonant");
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLmw/0' target='_blank' rel='nofollow'>Run Code</a>
 
@@ -113,6 +117,7 @@ You will need to use everything you know about string manipulation to get the la
 
 ## ![:rotating_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:") Advanced Code Solution:
 
+```js
     function translatePigLatin(str) {
         var strArr = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>];
         var tmpChar;
@@ -134,12 +139,13 @@ You will need to use everything you know about string manipulation to get the la
             tmpChar = strArr.shift();
             strArr.push(tmpChar);
         }
-     // convert array to string and concatenate "ay" at the end  
+     // convert array to string and concatenate "ay" at the end
      return strArr.join("")+"ay";
     }
 
     // test here
     translatePigLatin("consonant");
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLmv/0' target='_blank' rel='nofollow'>Run Code</a>
 

@@ -5,8 +5,10 @@ The less than equal to operator (`<=`) compares the values of two numbers. If th
 
 ## Examples
 
+```js
       4 <= 5  // true
     '7' <= 7  // true
       5 <= 5  // true
       3 <= 2  // false
     '8' <= 4  // false
+```

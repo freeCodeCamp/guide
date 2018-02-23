@@ -5,9 +5,11 @@ title: Passing Values to Functions with Arguments
 
 Here is a function with two parameters, `param1` and `param2`:
 
+```js
     function functionWithArgs(param1, param2) {
       console.log(param1, param2);
     }
+```
 
 Then we can call functionWithArgs:
 

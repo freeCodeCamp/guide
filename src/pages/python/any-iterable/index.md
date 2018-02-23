@@ -17,20 +17,24 @@ If even one of them is `True`, it would return `True`.
 
 The `any()` operation is equivalent to (internally, may not be implemented exactly like this)
 
-    def any(iterable):
-        for element in iterable:
-            if element:
-                return True
-        return False
+```python
+def any(iterable):
+    for element in iterable:
+        if element:
+            return True
+    return False
+```
 
 ## Code Sample
 
-    print(any([])) #=> False
-    print(any({})) #=> False
-    print(any([6, 7])) #=> True
-    print(any([6, 7, None])) #=> True
-    print(any([0, 6, 7])) #=> True
-    print(any([9, 8, [1, 2]])) #=> True
+```python
+print(any([])) #=> False
+print(any({})) #=> False
+print(any([6, 7])) #=> True
+print(any([6, 7, None])) #=> True
+print(any([0, 6, 7])) #=> True
+print(any([9, 8, [1, 2]])) #=> True
+```
 
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CL9c/0' target='_blank' rel='nofollow'>Run Code</a>
 

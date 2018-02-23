@@ -15,12 +15,14 @@ meet CamperBot in <a href='https://img.shields.io/badge/Gitter_Chat_Room:-FreeCo
 
 ## Example Commands
 
-    find js   # all JS entries
-    wiki muta  # first entry with muta in name
-    wiki bobbytables  # showing images
-    wiki video  # and video
-    rollem    # secret sauce
-    Algorithm roman   # any Algorithm with roman in name
+```text
+find js   # all JS entries
+wiki muta  # first entry with muta in name
+wiki bobbytables  # showing images
+wiki video  # and video
+rollem    # secret sauce
+Algorithm roman   # any Algorithm with roman in name
+```
 
 For playing with CamperBot please use the testing channel: <a href='https://gitter.im/FreeCodeCamp/camperbotPlayground' target='_blank' rel='nofollow'>https://gitter.im/FreeCodeCamp/camperbotPlayground</a>
 

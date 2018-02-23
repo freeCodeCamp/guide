@@ -9,7 +9,9 @@ More font-family examples can be viewed at <a href='https://developer.mozilla.or
 
 **_Note_**: Keep in mind that different computers and browsers will have different fonts enabled. Commonly available fonts are called _Web Safe_
 
+```css
      p {
         font-size: 16px;
         font-family: Monospace;
       }
+```

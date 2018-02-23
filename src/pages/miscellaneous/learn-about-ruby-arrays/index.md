@@ -10,16 +10,18 @@ title: Learn About Ruby Arrays
 
 ## Examples:
 
-    arr = [1,2,3]
-    # is equivalent to:
-    arr = Array.new(3)
-    arr[0] = 1
-    arr[1] = 2
-    arr[2] = 3
-    # is also equivalent to:
-    arr = Array(1..3)
-    # All three of these examples return:
-    [1,2,3]
+```ruby
+arr = [1,2,3]
+# is equivalent to:
+arr = Array.new(3)
+arr[0] = 1
+arr[1] = 2
+arr[2] = 3
+# is also equivalent to:
+arr = Array(1..3)
+# All three of these examples return:
+[1,2,3]
+```
 
 ## References:
 

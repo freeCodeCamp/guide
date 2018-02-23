@@ -38,6 +38,7 @@ For example: `slasher(<a href='http://forum.freecodecamp.com/t/javascript-array-
 
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
 
+```js
     function slasher(arr, howMany) {
       // remove the head
       arr.splice(0, howMany);
@@ -45,6 +46,7 @@ For example: `slasher(<a href='http://forum.freecodecamp.com/t/javascript-array-
       return arr;
     }
     slasher(<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>1, 2, 3], 2);
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLjU/28' target='_blank' rel='nofollow'>Run Code</a>
 
@@ -57,12 +59,14 @@ For example: `slasher(<a href='http://forum.freecodecamp.com/t/javascript-array-
 
 ## ![:sunflower:</a> Intermediate Code Solution:
 
+```js
     function slasher(arr, howMany) {
 
       // Return string after the amount chopped off.
       return arr.slice(howMany);
 
     }
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLjU/29' target='_blank' rel='nofollow'>Run Code</a>
 

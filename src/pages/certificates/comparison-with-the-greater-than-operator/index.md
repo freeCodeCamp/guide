@@ -7,7 +7,9 @@ Like the equality operator, greater than operator will convert data types of val
 
 ## Examples
 
+```js
      5 > 3   // true
      7 > '3' // true
      2 > 3   // false
     '1' > 9  // false
+```

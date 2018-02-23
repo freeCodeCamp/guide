@@ -31,15 +31,19 @@ I do like materialize because of its simplicity, for example;
 
 In bootstrap you would do this to a button
 
-    <button class="btn btn-primary btn-lg">
-    My Button
-    </button>
+```html
+<button class="btn btn-primary btn-lg">
+My Button
+</button>
+```
 
 Basically each class name repeatedly has the btn- attached to it. And this is mostly the case for many other bootstrap components especially when you want to add simple classes like color.
 
 With Materialize you can add all the classes simply like this:
 
-    <button class="btn waves-effect waves-light green">My Button</a>
+```html
+<button class="btn waves-effect waves-light green">My Button</a>
+```
 
 As you can see, use of the btn- has been reduced. The `green` class can be re-used with any/all other HTML element other than the `button` shown in this case.
 

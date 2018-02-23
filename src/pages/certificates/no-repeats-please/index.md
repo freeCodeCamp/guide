@@ -21,6 +21,7 @@ This task can be daunting even after watching a tutorial. To write a recursive s
 
 The pseudo code will look something like this:
 
+```js
     var str = ???;
     permAlone(current position in original string, characters used already in original string, created string) {
       if (current string is finished) {
@@ -37,6 +38,7 @@ The pseudo code will look something like this:
       }
     }
     permAlone(0, nothing used yet, empty new string (or array the same size as str));
+```
 
 Another way to think about this problem is to start from an empty space. Introduce the first letter to the space. This space will now contain the first sub-permutation. Here's a diagram illustrating the idea:
 
@@ -44,6 +46,7 @@ Another way to think about this problem is to start from an empty space. Introdu
 
 ##### Non-Recursive Method
 
+```js
     // An approach to introduce a new character to a permutation
     var ch = '?';
     var source = ['?', '?', '?'];     // Current sub-permutation
@@ -54,6 +57,7 @@ Another way to think about this problem is to start from an empty space. Introdu
       temp.splice(i, 0, ch);          // Insert the new character
       dest.push(temp);                // Store the new sub-permutation
     }
+```
 
 Finding each permutation could then be done non-recursively by including the above in a function taking a source array and returning a destination array. For each letter of the input string, pass that character, as well as the array returned from the previous call of the function.
 
@@ -94,6 +98,7 @@ A way to visualize this is by considering a tree that starts with the first char
 
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
 
+```js
     function permAlone(str) {
 
       // Create a regex to match repeated consecutive characters.
@@ -140,6 +145,7 @@ A way to visualize this is by considering a tree that starts with the first char
 
     // Test here.
     permAlone('aab');
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLop/0' target='_blank' rel='nofollow'>Run Code</a>
 

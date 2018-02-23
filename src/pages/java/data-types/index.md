@@ -24,60 +24,68 @@ These are of four types: `byte`, `short`, `int`, `long`. It is important to note
 
 Byte data type is an 8-bit signed two's complement integer.
 
-    Wrapper Class: Byte
+```text
+Wrapper Class: Byte
 
-    Minimum value: -128 (-2^7)
+Minimum value: -128 (-2^7)
 
-    Maximum value: 127 (2^7 -1)
+Maximum value: 127 (2^7 -1)
 
-    Default value: 0
+Default value: 0
 
-    Example: byte a = 10 , byte b = -50
+Example: byte a = 10 , byte b = -50
+```
 
 ### short:
 
 Short data type is a 16-bit signed two's complement integer.
 
-    Wrapper Class: Short
+```text
+Wrapper Class: Short
 
-    Minimum value: -32,768 (-2^15)
+Minimum value: -32,768 (-2^15)
 
-    Maximum value: 32,767 (2^15 -1)
+Maximum value: 32,767 (2^15 -1)
 
-    Default value: 0.
+Default value: 0.
 
-    Example: short s = 10, short r = -1000
+Example: short s = 10, short r = -1000
+```
 
 ### int:
 
 int data type is a 32-bit signed two's complement integer. It is generally used as the default data type for integral values unless there is a concern about memory.
 
-    Wrapper Class: Integer
+```text
+Wrapper Class: Integer
 
-    Minimum value: (-2^31)
+Minimum value: (-2^31)
 
-    Maximum value: (2^31 -1)
+Maximum value: (2^31 -1)
 
-    The default value: 0.
+The default value: 0.
 
-    Example: int a = 50000, int b = -20
+Example: int a = 50000, int b = -20
+```
 
 ### long:
 
 Long data type is a 64-bit signed two's complement integer.
 
-    Wrapper Class: Long
+```text
+Wrapper Class: Long
 
-    Minimum value: (-2^63)
+Minimum value: (-2^63)
 
-    Maximum value: (2^63 -1)
+Maximum value: (2^63 -1)
 
-    Default value: 0L.
+Default value: 0L.
 
-    Example: long a = 100000L, long b = -600000L;
+Example: long a = 100000L, long b = -600000L;
 
-    By default all integer type variable is "int". So long num=600851475143  will give an error.
-    But it can be specified as long by appending the suffix L (or l)
+By default all integer type variable is "int". So long num=600851475143  will give an error.
+But it can be specified as long by appending the suffix L (or l)
+```
 
 ## Floating­ Point​:
 
@@ -87,54 +95,62 @@ These are also called real numbers and are used for expressions involving fracti
 
 float data type is a single-precision 32-bit <a href='http://steve.hollasch.net/cgindex/coding/ieeefloat.html' target='_blank' rel='nofollow'>IEEE 754 floating point</a>.
 
-    Wrapper Class: Float
+```text
+Wrapper Class: Float
 
-    Float is mainly used to save memory in large arrays of floating point numbers.
+Float is mainly used to save memory in large arrays of floating point numbers.
 
-    Default value: 0.0f.
+Default value: 0.0f.
 
-    Example: float f1 = 24.5f
+Example: float f1 = 24.5f
 
-    The default data type of floating-point number is double. So float f = 24.5 will introduce an error.
-    However, we can append the suffix F (or f) to designate the data type as float.
+The default data type of floating-point number is double. So float f = 24.5 will introduce an error.
+However, we can append the suffix F (or f) to designate the data type as float.
+```
 
 ### double:
 
 double data type is a double-precision 64-bit IEEE 754 floating point.
 
-    Wrapper Class: Double
+```text
+Wrapper Class: Double
 
-    This data type is generally used as the default data type for decimal values.
+This data type is generally used as the default data type for decimal values.
 
-    Default value: 0.0d.
+Default value: 0.0d.
 
-    Example: double d1 = 123.400778
+Example: double d1 = 123.400778
+```
 
 ## Character:
 
 We use this data type to store characters. This is not the same as the char in C/C++. Java uses a `UNICODE`, internationally accepted character set. Char in Java is 16­bits long while that in C/C++ is 8­bits.
 
-    Wrapper Class: Character
+```text
+Wrapper Class: Character
 
-    Minimum value: '\u0000' (or 0).
+Minimum value: '\u0000' (or 0).
 
-    Maximum value: '\uffff' (or 65,535).
+Maximum value: '\uffff' (or 65,535).
 
-    Example: char letterA ='a'
+Example: char letterA ='a'
+```
 
 ## Boolean:
 
 This is used for storing logical values. A boolean type can have a value of either true or false. This type is generally returned by relational operators.
 
-    There are only two possible values: true and false.
+```text
+There are only two possible values: true and false.
 
-    Wrapper Class: Boolean
+Wrapper Class: Boolean
 
-    This data type is used for simple flags that track true/false conditions.
+This data type is used for simple flags that track true/false conditions.
 
-    Default value is false.
+Default value is false.
 
-    Example: boolean b = true, boolean b1 = 1, boolean b2;
+Example: boolean b = true, boolean b1 = 1, boolean b2;
+```
 
 ## Reference Data Types:
 

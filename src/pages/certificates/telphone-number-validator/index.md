@@ -39,11 +39,13 @@ Start by trying to get it to validate each format from the example, each one sho
 
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
 
+```js
     function telephoneCheck(str) {
        var regex = /^(1\s?)?(\(\d{3}\)|\d{3})<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>\s\-]?\d{3}[\s\-]?\d{4}$/;
        return regex.test(str);
     }
     telephoneCheck("555-555-5555");
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLo9/0' target='_blank' rel='nofollow'>Run Code</a>
 
@@ -91,11 +93,13 @@ Start by trying to get it to validate each format from the example, each one sho
 
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
 
+```js
     function telephoneCheck(str) {
        var regex = /^(1\s?)?(\(\d{3}\)|\d{3})<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>\s\-]?\d{3}[\s\-]?\d{4}$/;
        return regex.test(str);
     }
     telephoneCheck("555-555-5555");
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLo9/0' target='_blank' rel='nofollow'>Run Code</a>
 
@@ -112,11 +116,13 @@ Start by trying to get it to validate each format from the example, each one sho
 
 ## ![:sunflower:</a> Intermediate Code Solution:
 
+```js
     function telephoneCheck(str) {
       var re = /^(?:(?:\+?1\s*(?:<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>.-]\s*)?)?(?:\(\s*([2-9]1[02-9]|[2-9][02-8]1|[2-9][02-8][02-9])\s*\)|([2-9]1[02-9]|[2-9][02-8]1|[2-9][02-8][02-9]))\s*(?:[.-]\s*)?)?([2-9]1[02-9]|[2-9][02-9]1|[2-9][02-9]{2})\s*(?:[.-]\s*)?([0-9]{4})$/;
       return re.test(str);
     }
     telephoneCheck("555-555-5555");
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLoa/0' target='_blank' rel='nofollow'>Run Code</a>
 

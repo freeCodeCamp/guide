@@ -9,11 +9,15 @@ To install MongoDB, you should have Mac OS X 10.6 (Snow Leopard) or above. To fi
 
 The easiest way to install MongoDB on OS X is using <a href='http://brew.sh/' target='_blank' rel='nofollow'>HomeBrew</a>. If you haven't used HomeBrew before, simply execute the following command in a Terminal window:
 
+```shell
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
 
 After HomeBrew is successfully installed, follow up with this command:
 
+```shell
     brew update && brew install mongodb
+```
 
 HomeBrew will automatically install all the dependencies for you.
 
@@ -21,17 +25,23 @@ HomeBrew will automatically install all the dependencies for you.
 
 Again, we'll let HomeBrew do the heavy lifting:
 
+```shell
     brew install node
+```
 
 The npm executable is already included in the Node.js package.
 
 Before continuing, let's make sure Node.js modules can be found by others (![:warning:](//forum.freecodecamp.com/images/emoji/emoji_one/warning.png?v=2 ":warning:") **CAUTION**: it's best to copy and paste these commands, as you'd lose the original contents of your `.bashrc` file if you typed `>` in place of `>>`):
 
+```shell
     echo 'export NODE_PATH="./node_modules:/usr/local/lib/node_modules"' >> ~/.bashrc && source ~/.bashrc
+```
 
 To check if the configuration is in effect, execute:
 
+```shell
     echo $NODE_PATH
+```
 
 You should see `./node_modules:/usr/local/lib/node_modules` printed out below your command.
 
@@ -39,25 +49,33 @@ If you use a different shell than Bash, simply replace `~/.bashrc` with your she
 
 ## Step 3: installing fullstack tools
 
+```shell
     npm install -g express yo grunt grunt-cli generator-angular-fullstack bower
+```
 
 ## Step 4: generating a fullstack app
 
 Make a directory for your Back End Project projects. Assuming your desktop is your de facto workspace:
 
+```shell
     mkdir ~/Desktop/Back End Projects && cd ~/Desktop/Back End Projects
+```
 
 Now that all the preparations are in place, it's time for the main event:
 
+```shell
     yo angular-fullstack
+```
 
 Answer the questions according to checklist items <span class="hashtag">#13-23</span> of <a href='http://www.freecodecamp.com/challenges/get-set-for-our-back-end-development-projects' target='_blank' rel='nofollow'>Challenge: Get Set for Back End Projects</a>. Consult <span class="hashtag">#24-27</span> if you run into errors. This will download ~350MB worth of files into your current directory.
 
 Before going any further, we need to fix a <a href='https://github.com/clnhll/guidetobasejumps#fixing-exportsupdate' target='_blank' rel='nofollow'>known issue</a> in some generated files:
 
+```shell
     echo "sed -i '' -e 's/_.merge/_.extend/' server/api/*/*.controller.js" > \
     fix-exports-update.sh && chmod +x fix-exports-update.sh && \
     ./fix-exports-update.sh
+```
 
 You need to run `./fix-exports-update.sh` every time you generate a new API endpoint (until they fix this upstream, that is).
 
@@ -65,17 +83,23 @@ You need to run `./fix-exports-update.sh` every time you generate a new API endp
 
 Tell Git not to track your database:
 
+```shell
     echo "data" >> .gitignore
+```
 
 Turn the directory in which your application is located into a Git repository by running the following commands:
 
+```shell
     git init && git add . && git commit -am 'initial commit'
+```
 
 ## Step 6: starting MongoDB
 
 To start MongoDB for the first time in your app's directory, run the following commands in your terminal:
 
+```shell
     mkdir data && echo 'mongod --config /usr/local/etc/mongod.conf --dbpath=data --rest "$@" --httpinterface' > mongod.sh && chmod a+x mongod.sh && ./mongod.sh
+```
 
 From this point on you can simply start MongoDB by executing `./mongod.sh`. A few things to note:
 
@@ -87,7 +111,9 @@ From this point on you can simply start MongoDB by executing `./mongod.sh`. A fe
 
 Open a new Terminal tab by pressing `⌘T`, and run the following command:
 
+```shell
     grunt serve
+```
 
 Grunt should automatically open your new Angular site's index page as soon as it finishes starting up.
 

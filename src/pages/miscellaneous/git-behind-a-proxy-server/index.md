@@ -13,7 +13,9 @@ You can <a href='http://www.wikihow.com/Change-Proxy-Settings' target='_blank' r
 
 Once you have obtained the proxy settings (server URL, port, username and password); you need to configure your git as follows:
 
+```shell
     $ git config --global http.proxy http://<username>:<password>@<proxy-server-url>:<port>
+```
 
 You would need to replace `<username>`, `<password>`, `<proxy-server-url>`, `<port>` with the values specific to your proxy server credentials. These fields are optional. For instance, your proxy server might not even require `<username>` and `<password>`, or that it might be running on port 80 (in which case `<port>` is not required).
 

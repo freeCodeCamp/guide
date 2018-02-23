@@ -39,6 +39,7 @@ title: Mutations
 
 **Procedural**
 
+```js
     function mutation(arr) {
       var test = arr<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>1].toLowerCase();
       var target = arr[0].toLowerCase();
@@ -48,12 +49,13 @@ title: Mutations
       }
       return true;
      }
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLjU/30' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
-First we make the two strings in the array lowercase. `test` will hold what we are looking for in `target`.  
+First we make the two strings in the array lowercase. `test` will hold what we are looking for in `target`.
 Then we loop through our test characters and if any of them is not found we `return false`.
 
 If they are _all_ found, the loop will finish without returning anything and we get to `return true`.
@@ -67,6 +69,7 @@ If they are _all_ found, the loop will finish without returning anything and we 
 
 **Declarative**
 
+```js
     function mutation(arr) {
       return arr<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>1].toLowerCase()
         .split('')
@@ -75,6 +78,7 @@ If they are _all_ found, the loop will finish without returning anything and we 
             .indexOf(letter) != -1;
         });
     }
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLjU/31' target='_blank' rel='nofollow'>Run Code</a>
 

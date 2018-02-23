@@ -10,7 +10,9 @@ Before we begin, you may want to <a href='http://clojure.org/guides/getting_star
 
 The bread and butter of any programming language are variables and functions. Let's define a variable!
 
-    (def our-string "Hello world!")
+```scheme
+(def our-string "Hello world!")
+```
 
 Easy peasy. That piece of code uses the `def` macro to associate a string (`"Hello world!"`) to a symbol (`our-string`). We could also have defined a number, such as `1` or `1.1`, a character, such as `\a` or `\Z`, or something more complicated like a list or a regular expression (_uuuugh_).
 
@@ -20,17 +22,23 @@ Note that our code is inside parentheses, like a list, because everything in a L
 
 Now, let's define a function!
 
-    (defn hello-world [] (println our-string))
+```scheme
+(defn hello-world [] (println our-string))
+```
 
 This is a bit more complex. Like `def`, it uses a macro (`defn`) to create a variable - although this time, that variable is a function. The empty vector (a vector is a type of list -- think of it like an array) after `hello-world` defines the arguments to that function -- in this case, we don't have any. The code after that is what the function does. It evaluates `our-string`, which is equal to `"Hello world!"`, and prints it to the console. Let's run it!
 
-    (hello-world)
-    ; => Hello world!
-    ;    nil
+```scheme
+(hello-world)
+; => Hello world!
+;    nil
+```
 
 You could also write this:
 
-    (def hello-world (fn [] (println our-string)))
+```scheme
+(def hello-world (fn [] (println our-string)))
+```
 
 `defn` is just a shortcut to help keep your code concise. `(defn ...)` and `(def ... (fn ...))` are the same in practice.
 
@@ -38,9 +46,11 @@ You could also write this:
 
 Well, that was nice, but it wasn't really exciting. Let's try a function with parameters. How about one that adds 3 numbers?
 
-    (defn add [x y z] (+ x y z))
-    (add 1 2 3)
-    ; => 6
+```scheme
+(defn add [x y z] (+ x y z))
+(add 1 2 3)
+; => 6
+```
 
 ...Hold on. `(+ x y z)`? That looks funny. Well, Lisps are written using "prefix notation", which means that the function always comes first. Since all mathematical operators in Lisp (`+ - * /`) are just functions, they also come before their arguments (in this case, `x y z`).
 
@@ -50,9 +60,11 @@ You'll notice that our vector has some stuff in it now: `[x y z]`! Whenever a fu
 
 A great feature about arguments in Clojure is destructuring. It allows you to 'pull' elements out of a list.
 
-    (defn add [[x y] z] (+ x y z))
-    (add [1 2] 3)
-    ; => 6
+```scheme
+(defn add [[x y] z] (+ x y z))
+(add [1 2] 3)
+; => 6
+```
 
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://ideone.com/SWlvKn' target='_blank' rel='nofollow'>IDEOne it!</a>
 
@@ -62,13 +74,15 @@ The arguments to that function are a collection (`[x y]`) and a number (`z`). We
 
 You can also define a function with an arbitrary number of arguments using `&`.
 
-    (defn demonstrate-rest [first & rest]
-      (println first)
-      (println rest))
-    (demonstrate-rest 1 "foo" ["bar" 22])
-    ; => 1
-    ;    ("foo" ["bar" 22])
-    ;    nil
+```scheme
+(defn demonstrate-rest [first & rest]
+  (println first)
+  (println rest))
+(demonstrate-rest 1 "foo" ["bar" 22])
+; => 1
+;    ("foo" ["bar" 22])
+;    nil
+```
 
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://ideone.com/VftymP' target='_blank' rel='nofollow'>IDEOne it!</a>
 
@@ -82,5 +96,5 @@ In Clojure, returns are 'implicit'. If you've used Ruby, you're probably familia
 
 The reason why our functions that use `println` output `nil` is because `println` evaluates to `nil`. (`nil` is like `null` or `None` -- it represents nothing.)
 
-| [![:point_left:](//forum.freecodecamp.com/images/emoji/emoji_one/point_left.png?v=2 ":point_left:") Previous](//forum.freecodecamp.com/t/what-is-clojure/18419) | [![:book:](//forum.freecodecamp.com/images/emoji/emoji_one/book.png?v=2 ":book:") Home ![:book:](//forum.freecodecamp.com/images/emoji/emoji_one/book.png?v=2 ":book:")](//forum.freecodecamp.com/t/clojure-resources/18422) | [Next ![:point_right:](//forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=2 ":point_right:")](//forum.freecodecamp.com/t/clojure-conditionals/18412)|  
+| [![:point_left:](//forum.freecodecamp.com/images/emoji/emoji_one/point_left.png?v=2 ":point_left:") Previous](//forum.freecodecamp.com/t/what-is-clojure/18419) | [![:book:](//forum.freecodecamp.com/images/emoji/emoji_one/book.png?v=2 ":book:") Home ![:book:](//forum.freecodecamp.com/images/emoji/emoji_one/book.png?v=2 ":book:")](//forum.freecodecamp.com/t/clojure-resources/18422) | [Next ![:point_right:](//forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=2 ":point_right:")](//forum.freecodecamp.com/t/clojure-conditionals/18412)|
 | [Summary](//forum.freecodecamp.com/t/what-is-clojure/18419) | [Table of Contents](//forum.freecodecamp.com/t/clojure-resources/18422) | [Conditionals](//forum.freecodecamp.com/t/clojure-conditionals/18412)|

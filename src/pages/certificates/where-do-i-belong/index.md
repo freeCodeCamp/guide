@@ -37,6 +37,7 @@ If there is no index for that number then you will have to deal with that case t
 
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
 
+```js
     function getIndexToIns(arr, num) {
       arr.sort(function(a, b) {
         return a - b;
@@ -49,6 +50,7 @@ If there is no index for that number then you will have to deal with that case t
 
       return arr.length;
     }
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLjU/36' target='_blank' rel='nofollow'>Run Code</a>
 
@@ -63,16 +65,18 @@ If there is no index for that number then you will have to deal with that case t
 
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
 
+```js
     function getIndexToIns(arr, num) {
       // Find my place in this sorted array.
       var times = arr.length; // runs the for loop once for each thing in the array
-      var count = 0; 
+      var count = 0;
       for (i=0;i<times;i++){
         if(num>arr<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>i]){count++;} } // counts how many array numbers are smaller than num
         return count; // the above equals num's position in a sorted array
     }
 
     getIndexToIns([40, 60], 50);
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLjU/2547' target='_blank' rel='nofollow'>Run Code</a>
 
@@ -86,6 +90,7 @@ If there is no index for that number then you will have to deal with that case t
 
 by [@HarinaPana](/u/harinapana)
 
+```js
     function getIndexToIns(arr, num) {
 
       arr.sort(function(a, b) {
@@ -101,6 +106,7 @@ by [@HarinaPana](/u/harinapana)
     }
 
     getIndexToIns([40, 60], 50);
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLjU/4135' target='_blank' rel='nofollow'>Run Code</a>
 
@@ -114,11 +120,13 @@ by [@HarinaPana](/u/harinapana)
 
 by [@faustodc](/u/faustodc)
 
+```js
     function getIndexToIns(arr, num) {
       arr.push(num);
       arr.sort(function(a, b){return a-b});
       return arr.indexOf(num);
     }
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/EB10/1' target='_blank' rel='nofollow'>Run Code</a>
 
@@ -138,6 +146,7 @@ by [@faustodc](/u/faustodc)
 
 **Using `.findIndex()`**
 
+```js
     function getIndexToIns(arr, num) {
       // sort and find right index
       var index = arr.sort((curr, next) => curr > next)
@@ -147,6 +156,7 @@ by [@faustodc](/u/faustodc)
     }
 
     getIndexToIns(<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>40, 60], 500);
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLjU/63' target='_blank' rel='nofollow'>Run Code</a>
 
@@ -166,6 +176,7 @@ by [@faustodc](/u/faustodc)
 
 by [@nivrith](/u/nivrith)
 
+```js
     function getIndexToIns(arr, num) {
 
     return arr.concat(num).sort((a,b) => a-b).indexOf(num);
@@ -173,6 +184,7 @@ by [@nivrith](/u/nivrith)
     }
 
     getIndexToIns(<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>1,3,4],2);
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/IUJE/0' target='_blank' rel='nofollow'>Run Code</a>
 

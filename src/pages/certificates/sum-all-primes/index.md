@@ -37,6 +37,7 @@ This problem is hard if you have to create your own code to check for primes, so
 
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
 
+```js
     function sumPrimes(num) {
       var res = 0;
 
@@ -70,6 +71,7 @@ This problem is hard if you have to create your own code to check for primes, so
 
     // test here
     sumPrimes(10);
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLnZ/0' target='_blank' rel='nofollow'>Run Code</a>
 
@@ -88,6 +90,7 @@ This problem is hard if you have to create your own code to check for primes, so
 
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution:
 
+```js
     function sumPrimes(num) {
       // function to check if the number presented is prime
       function isPrime(number){
@@ -118,6 +121,7 @@ This problem is hard if you have to create your own code to check for primes, so
     }
     // test here
     sumPrimes(10);
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLn0/0' target='_blank' rel='nofollow'>Run Code</a>
 
@@ -134,24 +138,26 @@ This problem is hard if you have to create your own code to check for primes, so
 
 ## ![:rotating_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:") Advanced Code Solution:
 
+```js
     function sumPrimes(num) {
-      // step 1	
-      let arr = Array.from({length: num+1}, (v, k) => k).slice(2); 
+      // step 1
+      let arr = Array.from({length: num+1}, (v, k) => k).slice(2);
       // step 2
-      let onlyPrimes = arr.filter( (n) => { 
+      let onlyPrimes = arr.filter( (n) => {
         let m = n-1;
-        while (m > 1 && m >= Math.sqrt(n)) { 
-          if ((n % m) === 0) 
+        while (m > 1 && m >= Math.sqrt(n)) {
+          if ((n % m) === 0)
             return false;
             m--;
         }
           return true;
       });
       // step 3
-      return onlyPrimes.reduce((a,b) => a+b); 
+      return onlyPrimes.reduce((a,b) => a+b);
     }
     // test here
     sumPrimes(977);
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/DoOo/3' target='_blank' rel='nofollow'>Run Code</a>
 

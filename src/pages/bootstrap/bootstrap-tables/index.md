@@ -9,10 +9,12 @@ In order to achieve the basic styling example add the base class `.table` to any
 
 **Example**
 
+```html
     <table class="table">
       ...
     </table>
-    
+```
+
 ![Basic Table](https://github.com/TroyB12/Pictures/blob/master/Basic%20Table.PNG)
 
 ---
@@ -20,10 +22,11 @@ In order to achieve the basic styling example add the base class `.table` to any
 
 In order to achieve the striped row effect (zebra-striping) in tables use `.table-striped` in addition to `.table` on any `<table>` element.  Striped tables are styled via the `:nth-child` CSS selector, which is not available in Internet Explorer 8.
 
+```html
     <table class="table table-striped">
       ...
     </table>
-
+```
 ![Striped Table](https://github.com/TroyB12/Pictures/blob/master/Table%20Striped.PNG)
 
 ---
@@ -31,10 +34,11 @@ In order to achieve the striped row effect (zebra-striping) in tables use `.tabl
 
 In order to achieve the bordered table use `.table-bordered` in addition to `.table` on any `<table>` element.
 
+```html
     <table class="table table-bordered">
       ...
     </table>
-
+```
 ![Bordered Table](https://github.com/TroyB12/Pictures/blob/master/Table%20Bordered.PNG)
 
 ---
@@ -42,10 +46,11 @@ In order to achieve the bordered table use `.table-bordered` in addition to `.ta
 
 In order to achieve the hover row effect on tables, use `.table-bordered` in addition to `.table` on any `<table>` element.
 
+```html
     <table class="table table-hover">
       ...
     </table>
-
+```
 ![Hover Table](https://github.com/TroyB12/Pictures/blob/master/Table%20Hover.PNG)
 
 ---
@@ -53,10 +58,11 @@ In order to achieve the hover row effect on tables, use `.table-bordered` in add
 
 In order to achieve the condensed table use `.table-condensed` in addition to `.table` on any `<table>` element.
 
+```html
     <table class="table table-condensed">
       ...
     </table>
-
+```
 ![Condensed Table](https://github.com/TroyB12/Pictures/blob/master/Table%20Condensed.PNG)
 
 ---
@@ -83,6 +89,7 @@ Developers are able to change the style of each individual row and/or cell by us
 - `.warning` -	Indicates a warning that might need attention
 - `.danger` -	Indicates a dangerous or potentially negative action
 
+```html
     <!-- On rows -->
     <tr class="active">...</tr>
     <tr class="success">...</tr>
@@ -98,7 +105,8 @@ Developers are able to change the style of each individual row and/or cell by us
       <td class="danger">...</td>
       <td class="info">...</td>
     </tr>
-    
+```
+
 ![Contextual Class Table](https://github.com/TroyB12/Pictures/blob/master/Table%20Contextual%20Classes.PNG)
 
 ---

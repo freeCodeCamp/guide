@@ -7,6 +7,7 @@ Here is the **syntax** for while loop:
 
 ## Syntax:
 
+```js
     while (condition)
 
     {
@@ -14,6 +15,7 @@ Here is the **syntax** for while loop:
       statement(s);
 
     }
+```
 
 _statement(s):_ A statement that is executed as long as the condition evaluates to true.
 
@@ -21,22 +23,25 @@ _condition:_ Here, condition is a Boolean expression which is evaluated before e
 
 ## Example:
 
-        var i = 1;
-        while (i < 10) 
-        {
-          console.log(i);
-           i++;
-        }
-
-        Output:
-        1 
-        2 
-        3 
-        4
-        5
-        6
-        7
-        8
-        9
+```js
+var i = 1;
+while (i < 10)
+{
+  console.log(i);
+   i++;
+}
+```
+Output:
+```text
+1
+2
+3
+4
+5
+6
+7
+8
+9
+```
 
 source:<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while' target='_blank' rel='nofollow'>While Loop</a>

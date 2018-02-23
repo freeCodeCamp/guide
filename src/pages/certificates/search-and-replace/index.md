@@ -38,6 +38,7 @@ You will create a program that takes a sentence, then search for a word in it an
 
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
 
+```js
     function myReplace(str, before, after) {
       // Find index where before is on string
       var index = str.indexOf(before);
@@ -54,6 +55,7 @@ You will create a program that takes a sentence, then search for a word in it an
 
     // test here
     myReplace("A quick brown fox jumped over the lazy dog", "jumped", "leaped");
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLmo/0' target='_blank' rel='nofollow'>Run Code</a>
 
@@ -73,6 +75,7 @@ You will create a program that takes a sentence, then search for a word in it an
 
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution:
 
+```js
     function myReplace(str, before, after) {
     //Create a regular expression object
       var re = new RegExp(before,"gi");
@@ -89,6 +92,7 @@ You will create a program that takes a sentence, then search for a word in it an
 
     // test here
     myReplace("A quick brown fox jumped over the lazy dog", "jumped", "leaped");
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLmp/0' target='_blank' rel='nofollow'>Run Code</a>
 
@@ -106,6 +110,7 @@ You will create a program that takes a sentence, then search for a word in it an
 
 ## ![:rotating_light:</a> Advanced Code Solution:
 
+```js
     function myReplace(str, before, after) {
 
         // create a function that will change the casing of any number of letter in parameter "target"
@@ -134,6 +139,7 @@ You will create a program that takes a sentence, then search for a word in it an
 
     // test here
     myReplace("A quick brown fox jumped over the lazy dog", "jumped", "leaped");
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLmq/0' target='_blank' rel='nofollow'>Run Code</a>
 

@@ -7,8 +7,10 @@ jQuery often selects an HTML element with a selector, then does something to tha
 
 The following code will make the buttons have a bouncy animation on page load.
 
+```html
     <script>
       $(document).ready(function() {
         $("button").addClass("animated bounce");
       });
     </script>
+```

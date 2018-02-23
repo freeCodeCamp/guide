@@ -25,12 +25,14 @@ Let's take an example. It's quite common to create a <a href='https://en.wikiped
 
 Say, we have to write a utility function, that creates this slug. You could probably write something like this:
 
-    function createSlug(str){
-      return str.split(" ").reduce(function(prev, next){
-        return prev.concat(<a href='https://signalvnoise.com/posts/3124-give-it-five-minutes' target='_blank' rel='nofollow'>next.toLowerCase()]);
-      }, [])
-      .join("-");
-    }
+```js
+function createSlug(str){
+  return str.split(" ").reduce(function(prev, next){
+    return prev.concat(<a href='https://signalvnoise.com/posts/3124-give-it-five-minutes' target='_blank' rel='nofollow'>next.toLowerCase()]);
+  }, [])
+  .join("-");
+}
+```
 
 Don't take my word for it! Go ahead, and test it out in your console with some input like "Leo Finally Wins a Freaking Oscar!" See what it returns. I will wait...done? Ok, moving on.
 
@@ -38,7 +40,9 @@ Yes, it's not a robust implementation. It does not take care of some edge cases,
 
 But it's a start. Notice how the usage of `reduce` takes the boilerplate out of your way -- the action happens only at the line:
 
-    return prev.concat([next.toLowerCase()]);
+```js
+return prev.concat([next.toLowerCase()]);
+```
 
 That's the core of the functionality we want. In fact, we are so assured of its awesomeness, that we start the `function` body with a `return` statement!
 
@@ -66,7 +70,9 @@ Good, now that you are confused with the `prev` and `next` inside the callback; 
 
 As you must have seen in the documentation, it takes a few additional but optional arguments as well. But more on that later. Assuming `arr` is an arbitrary array.
 
-    arr.reduce(function(){}, initialValue);
+```js
+arr.reduce(function(){}, initialValue);
+```
 
 Now, let's have a closer look at the callback function, which is the first argument of `reduce`. This callback, in turn, takes two arguments. These two arguments are called in the official documentation as `prev` and `next`. Personally, I don't think those names do justice to their true nature.
 
@@ -74,9 +80,11 @@ So, throughout this text, we would be referring to them as `acc`, to represent a
 
 With these so far, here's what a `reduce` should look like:
 
-    arr.reduce(function(acc, item){
-     /* here you have to complete the function */
-    }, initialValue);
+```js
+arr.reduce(function(acc, item){
+ /* here you have to complete the function */
+}, initialValue);
+```
 
 Now, let's find out what would the value of these `acc` and `item` are. We have mentioned earlier that the `reduce` is a replacement for iterative constructs.
 
@@ -84,17 +92,21 @@ It stands to reason that `reduce` would take your custom callback function; and 
 
 Instead of describing these, let's ask the JS execution engine what these are!
 
-    var arr = <a href='http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/' target='_blank' rel='nofollow'>10, 20, 30, 60];
-    arr.reduce(function(acc, item){
-       console.log(acc, item);
-    }, 0);
+```js
+var arr = <a href='http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/' target='_blank' rel='nofollow'>10, 20, 30, 60];
+arr.reduce(function(acc, item){
+   console.log(acc, item);
+}, 0);
+```
 
 Executing the above in browser or Node console would give you this as output:
 
-    0 10
-    undefined 20
-    undefined 30
-    undefined 60
+```js
+0 10
+undefined 20
+undefined 30
+undefined 60
+```
 
 Notice the number of outputs are same as number of elements in the Array `[10, 20, 30, 60]`. In fact, it prints out the elements of the Array!
 
@@ -106,18 +118,22 @@ In short, our `acc` accumulator, is not accumulating!
 
 But then, how do we make it accumulate? Let's try executing this:
 
-    var arr = [10, 20, 30, 60];
-    arr.reduce(function(acc, item){
-       console.log(acc, item);
-       return acc;
-    }, 0);
+```js
+var arr = [10, 20, 30, 60];
+arr.reduce(function(acc, item){
+   console.log(acc, item);
+   return acc;
+}, 0);
+```
 
 This time the output changes to:
 
-    0 10
-    0 20
-    0 30
-    0 60
+```js
+0 10
+0 20
+0 30
+0 60
+```
 
 As you can see, the value of `acc` would remain constant throughout. And that is expected - we are not altering the value of `acc` anywhere in the custom callback. We return whatever `reduce` makes available at a given iteration.
 
@@ -127,19 +143,23 @@ This leaves only one important part in our understanding - the value of executio
 
 So, we again approach our friendly neighbor, the JS console and execute this:
 
-    var arr = <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode' target='_blank' rel='nofollow'>10, 20, 30, 60];
-    arr.reduce(function(acc, item){
-       console.log(acc, item, this);
-       return acc;
-    }, 0);
+```js
+var arr = <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode' target='_blank' rel='nofollow'>10, 20, 30, 60];
+arr.reduce(function(acc, item){
+   console.log(acc, item, this);
+   return acc;
+}, 0);
+```
 
 If you are in [strict mode</a>, it would return `undefined` as value of `this`. Otherwise, in-browser, it would point to <a href='https://developer.mozilla.org/en-US/docs/Web/API/Window' target='_blank' rel='nofollow'>`window`</a> object as `this`. Can we override and set it on our own, using <a href='https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_objects/Function/bind' target='_blank' rel='nofollow'>`bind`</a>? Sure! just use `bind` with the callback:
 
-    var arr = <a href='https://en.wikipedia.org/wiki/Loop_invariant' target='_blank' rel='nofollow'>10, 20, 30, 60];
-    arr.reduce(function(acc, item){
-       console.log(acc, item, this);
-       return acc;
-    }.bind(arr), 0);
+```js
+var arr = <a href='https://en.wikipedia.org/wiki/Loop_invariant' target='_blank' rel='nofollow'>10, 20, 30, 60];
+arr.reduce(function(acc, item){
+   console.log(acc, item, this);
+   return acc;
+}.bind(arr), 0);
+```
 
 I have bound the array `arr` itself; but you can set it to any object in your environment.
 
@@ -171,15 +191,19 @@ The only way `acc` always gets the maximum of _subarray traversed so far_, is if
 
 So, here's what the function would look like:
 
-    var arr = [20, 50, 5, 60];
-    arr.reduce(function(acc, item){
-      return Math.max(acc, item);
-    }, 0);
+```js
+var arr = [20, 50, 5, 60];
+arr.reduce(function(acc, item){
+  return Math.max(acc, item);
+}, 0);
+```
 
 It could be tempting to rewrite it as follows, in tandem with functional programming principles;
 
-    var arr = [20, 50, 5, 60];
-    arr.reduce(Math.max, 0);
+```js
+var arr = [20, 50, 5, 60];
+arr.reduce(Math.max, 0);
+```
 
 but this would not work and would return `NaN`. Here's the reason - `acc` and `item` are not the **only** arguments to the custom callback. When you call [`Math.max()`](//forum.freecodecamp.com/t/javascript-math-max/14682) tries to call it on non-numeric arguments, resulting in `NaN`.
 
@@ -189,10 +213,12 @@ So, what if my Array is consisted of values less than zero? Say, `arr = <a href=
 
 Instead, we should pick the lowest possible value for initial value.
 
-    var arr = [-20, -50, -5, -60];
-    arr.reduce(function(acc, item){
-      return Math.max(acc, item);
-    }, -Infinity);
+```js
+var arr = [-20, -50, -5, -60];
+arr.reduce(function(acc, item){
+  return Math.max(acc, item);
+}, -Infinity);
+```
 
 We are getting there. We should hone our skills on another Array related problem. Just to have some fun, let's go with a bit tougher one.
 
@@ -210,10 +236,12 @@ And yes, the initial value. It should be a number, whose LCM with another number
 
 Let's write our `reduce` solution.
 
-    var arr = <a href='http://www.freecodecamp.com/challenges/symmetric-difference' target='_blank' rel='nofollow'>1, 2, 3, 4, 5, 6];
-    arr.reduce(function(acc, item){
-      return acc * item / hcf(acc, item);
-    }, 1);
+```js
+var arr = <a href='http://www.freecodecamp.com/challenges/symmetric-difference' target='_blank' rel='nofollow'>1, 2, 3, 4, 5, 6];
+arr.reduce(function(acc, item){
+  return acc * item / hcf(acc, item);
+}, 1);
+```
 
 I am assuming an `hcf()` function is available in the environment. I picked the entries in a way; it should return `60` as answer.
 
@@ -227,7 +255,9 @@ Say, you wish to flatten nested arrays. And yes, before you start jumping up-and
 
 For instance, we could take this Array to test our code with.
 
-    var arr = [[1, 2, 3], ['cat', 'dog', ['fish', 'bird'], [[[]]]]];
+```js
+var arr = [[1, 2, 3], ['cat', 'dog', ['fish', 'bird'], [[[]]]]];
+```
 
 This looks sufficiently complex to begin with - nested arrays, empty nested arrays with varying depth.
 
@@ -239,19 +269,21 @@ Throughout the callback function code, we would simply extract the content from 
 
 And since we don't know the level of nesting at any given instant; we must go call our custom callback recursively. Meaning, we have to write it somewhere else and call it by name inside `reduce()`.
 
-    var arr = [[1, 2, 3], ['cat', 'dog', ['fish', 'bird'], [[[]]]]];
+```js
+var arr = [[1, 2, 3], ['cat', 'dog', ['fish', 'bird'], [[[]]]]];
 
-    function flattenArray(arr) {
-      return arr.reduce(function(acc, item){
-        if(Array.isArray(item)){
-          return acc.concat(flattenArray(item)); // recursively call to flatten nested array
-        return acc.concat(item); // this does the ordering. If you want reverse ordered output, just reverse it!
-      }, [])
+function flattenArray(arr) {
+  return arr.reduce(function(acc, item){
+    if(Array.isArray(item)){
+      return acc.concat(flattenArray(item)); // recursively call to flatten nested array
+    return acc.concat(item); // this does the ordering. If you want reverse ordered output, just reverse it!
+  }, [])
 
-    }
+}
 
-    // call it like this
-    flattenArray(arr);
+// call it like this
+flattenArray(arr);
+```
 
 Of course, this requires some background in recursive functions; but that's not too difficult to pick up, compared to the matter of this long one!
 
@@ -267,49 +299,55 @@ What would the initial value be? Of course, we are forming an array; so it would
 
 Just to be clear, this function could accept arbitrary number of arrays; so, we have to convert them all to an array of arrays for easy manipulation.
 
-    function symDiff(args){
-      // convert args to an Array
-      var argsArray = Array.prototype.slice.call(arguments);
+```js
+function symDiff(args){
+  // convert args to an Array
+  var argsArray = Array.prototype.slice.call(arguments);
 
-      // now do the reduce magic!
-      argsArray.reduce(function(acc, item){
-        return acc
-          .filter(function(itemInAcc){
-            return item.indexOf(itemInAcc) === -1;
-          })
-          .concat(item.filter(function(itemInItem){
-            return acc.indexOf(itemInItem) === -1;
-          }));
-      }. []);
-    }
+  // now do the reduce magic!
+  argsArray.reduce(function(acc, item){
+    return acc
+      .filter(function(itemInAcc){
+        return item.indexOf(itemInAcc) === -1;
+      })
+      .concat(item.filter(function(itemInItem){
+        return acc.indexOf(itemInItem) === -1;
+      }));
+  }. []);
+}
+```
 
 Yes, I know. It looks big. So, let's see if we can refactor to make it small. Notice that both the `filter` functions do same work; except with altered set of argument pairs. Cool! Let's create a separate function and call it twice with those arguments.
 
-    function symDiff(args){
-      // convert args to an Array
-      var argsArray = Array.prototype.slice.call(arguments);
+```js
+function symDiff(args){
+  // convert args to an Array
+  var argsArray = Array.prototype.slice.call(arguments);
 
-      // now do the reduce magic!
-      argsArray.reduce(function(acc, item){
-        var funWithFiltering = function(arr1, arr2){
-          return arr1.filter(function(itemInArr1){
-            return arr2.indexOf(itemInArr1) === -1;
-          });
-        };
+  // now do the reduce magic!
+  argsArray.reduce(function(acc, item){
+    var funWithFiltering = function(arr1, arr2){
+      return arr1.filter(function(itemInArr1){
+        return arr2.indexOf(itemInArr1) === -1;
+      });
+    };
 
-        return funWithFiltering(acc, item).concat(funWithFiltering(item, acc));
-      }. []);
-    }
+    return funWithFiltering(acc, item).concat(funWithFiltering(item, acc));
+  }. []);
+}
+```
 
 This looks better. But there is still one other problem. This would keep duplicates in the array. If that is not needed, we could just as easily write another function using `reduce` to remove the duplicates.
 
-    function removeDuplicates(arr){
-      arr.filter(item, index, self){
-        // Keep only the first instance of the array, as given by indexOf()
-        // Remove other elements from Array
-        return self.indexOf(item) === index;
-      }
-    }
+```js
+function removeDuplicates(arr){
+  arr.filter(item, index, self){
+    // Keep only the first instance of the array, as given by indexOf()
+    // Remove other elements from Array
+    return self.indexOf(item) === index;
+  }
+}
+```
 
 We cannot keep on ignoring this any longer. I have been using `filter` while promising to use `reduce`, right? The reason is simple - `filter` can be written with `reduce`. In fact, any array operation, in theory; can be implemented with `reduce()`.
 
@@ -321,7 +359,9 @@ Whoa that was quite a lot! But I think I have made a strong case of using `reduc
 
 As soon as you get a problem on some String transformation or Array manipuation; start by writing
 
-    return arr.reduce(function(acc, item){_}, _);
+```js
+return arr.reduce(function(acc, item){_}, _);
+```
 
 And then fill in the blanks. When you are using `reduce()`, you are thinking in terms of interaction of every element with another element. You are forming the output by acculumating it from start to finish.
 

@@ -38,6 +38,7 @@ To convert `arguments` into an array use this code `var args = Array.prototype.s
 
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
 
+```js
     function destroyer(arr) {
       var args = Array.prototype.slice.call(arguments);
 
@@ -50,6 +51,7 @@ To convert `arguments` into an array use this code `var args = Array.prototype.s
       }
       return arr.filter(Boolean);
     }
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLjU/95' target='_blank' rel='nofollow'>Run Code</a>
 
@@ -59,9 +61,11 @@ To convert `arguments` into an array use this code `var args = Array.prototype.s
 
 2.  Start a basic `for` loop to iterate through `arr`. Nest another `for` loop inside the first, changing the integer variable `j` and arr to args. This second loop will iterate through `args` .
 
+```js
     *   Within the second loop create an `if` statement, checking strictly `===` that the current val of `arr<a href='http://forum.freecodecamp.com/t/javascript-arguments/14283' target='_blank' rel='nofollow'>i]` is equal to `args[j]`.
 
     *   If the value at the current index _is_ equal in both arrays, use `delete` to remove it from `arr`.
+```
 
 3.  Outside of the nested loops: return the modified array using the `Boolean` object as a filter for any `null`'s created by the `delete` operator.
 
@@ -74,12 +78,14 @@ To convert `arguments` into an array use this code `var args = Array.prototype.s
 
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution:
 
+```js
     function destroyer(arr) {
       var args = Array.from(arguments).slice(1);
       return arr.filter(function(val) {
         return !args.includes(val);
       });
     }
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/Ck2m/0' target='_blank' rel='nofollow'>Run Code</a>
 

@@ -33,10 +33,13 @@ The equality operator converts the operands if they are **not of the same type**
 
 #### Syntax
 
+```js
      x == y
+```
 
 #### Examples
 
+```js
      1   ==  1        // true
     "1"  ==  1        // true
      1   == '1'       // true
@@ -45,6 +48,7 @@ The equality operator converts the operands if they are **not of the same type**
 
        0   == undefined   // false
      null  == undefined   // true
+```
 
 ### Inequality (!=)
 
@@ -52,15 +56,19 @@ The inequality operator returns true if the operands are not equal. If the two o
 
 #### Syntax
 
+```js
     x != y
+```
 
 #### Examples
 
+```js
     1 !=   2     // true
     1 !=  "1"    // false
     1 !=  '1'    // false
     1 !=  true   // false
     0 !=  false  // false
+```
 
 ### Identity / strict equality (===)
 
@@ -68,12 +76,16 @@ The identity operator returns true if the operands are strictly equal **with no 
 
 #### Syntax
 
+```js
     x === y
+```
 
 #### Examples
 
+```js
     3 === 3   // true
     3 === '3' // false
+```
 
 ### Non-identity / strict inequality (!==)
 
@@ -81,12 +93,16 @@ The non-identity operator returns true if the operands **are not equal and/or no
 
 #### Syntax
 
+```js
     x !== y
+```
 
 #### Examples
 
+```js
     3 !== '3' // true
     4 !== 3   // true
+```
 
 ## Relational operators
 
@@ -96,11 +112,15 @@ The greater than operator returns true if the left operand is greater than the r
 
 #### Syntax
 
+```js
     x > y
+```
 
 #### Examples
 
+```js
     4 > 3 // true
+```
 
 ### Greater than or equal operator (>=)
 
@@ -108,12 +128,16 @@ The greater than or equal operator returns true if the left operand is greater t
 
 #### Syntax
 
+```js
     x >= y
+```
 
 #### Examples
 
+```js
     4 >= 3 // true
     3 >= 3 // true
+```
 
 ### Less than operator (<)
 
@@ -121,11 +145,15 @@ The less than operator returns true if the left operand is less than the right o
 
 #### Syntax
 
+```js
     x < y
+```
 
 #### Examples
 
+```js
     3 < 4 // true
+```
 
 ### Less than or equal operator (<=)
 
@@ -133,10 +161,14 @@ The less than or equal operator returns true if the left operand is less than or
 
 #### Syntax
 
+```js
     x <= y
+```
 
 #### Examples
 
+```js
     3 <= 4 // true
+```
 
 _You can find more information at <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators' target='_blank' rel='nofollow'>MDN</a>._

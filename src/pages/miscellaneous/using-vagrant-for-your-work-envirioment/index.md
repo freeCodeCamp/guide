@@ -30,19 +30,23 @@ Now the interface looks different. Don't worry about any of the buttons at the b
 Now we see we are in a terminal / console window. You should see the name of your computer followed by **MINGW64 /d/FreeCodeCampMachine (master)**. That simply says we are operating in the folder you created and you are on the **master** repository. Later we will create a branch but let's worry about that later.
 
 Now, let's throw some commands down and get the ball rolling. First type the following and hit Enter:
-
-    $ git clone https://github.com/scotch-io/scotch-box myProject
+```shell
+$ git clone https://github.com/scotch-io/scotch-box myProject
+```
 
 This will create a folder inside your directory named **"myProject"**. Next, let's drill into that folder, so enter the following commands and hit enter:
-
-    $ cd myProject
+```shell
+$ cd myProject
+```
 
 Now we're in the folder we want to be in. Now type the following on the command line and hit enter:
-
-    vagrant up
+```shell
+vagrant up
+```
 
 Now, let's open a browser window and enter the following IP address:
-
-    http://192.168.33.10/
+```shell
+http://192.168.33.10/
+```
 
 You should see a landing page for **Scotch Box** telling you everything that is there and installed. Now, when you dig through the file you created earlier, you'll find one that says **"public"**. Inside that folder you'll see a file named **"index.php"** and that's what you see for the landing page. You can edit that file with a text editor, save it, and refresh your browser to see your changes.

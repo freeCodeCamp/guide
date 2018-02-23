@@ -32,51 +32,53 @@ En el caso de que se reciba sólo un argumento no te preocupes sobre como solici
 
 ## Solución del código:
 
-    function addTogether() {
-      // Función para comprobar si un número es realmente un número
-      // y retornar undefined en caso contrario.
-      var checkNum = function(num) {
-        if (typeof num !== 'number') {
-          return undefined;
-        } else
-          return num;
-      };
+```js
+function addTogether() {
+  // Función para comprobar si un número es realmente un número
+  // y retornar undefined en caso contrario.
+  var checkNum = function(num) {
+    if (typeof num !== 'number') {
+      return undefined;
+    } else
+      return num;
+  };
 
-      // Comprobar si tenemos dos parámetros y si ambos son números
-      // En caso que no lo sean retornamos undefined
-      // retornamos la suma
-      if (arguments.length > 1) {
-        var a = checkNum(arguments[0]);
-        var b = checkNum(arguments[1]);
-        if (a === undefined || b === undefined) {
+  // Comprobar si tenemos dos parámetros y si ambos son números
+  // En caso que no lo sean retornamos undefined
+  // retornamos la suma
+  if (arguments.length > 1) {
+    var a = checkNum(arguments[0]);
+    var b = checkNum(arguments[1]);
+    if (a === undefined || b === undefined) {
+      return undefined;
+    } else {
+      return a + b;
+    }
+  } else {
+    // Si solo es encontrado un parámetro retornamos una nueva función para solicitar un segundo parámetro
+    // Guardamos el primer argumento antes de entrar al scope de la nueva función
+    var c = arguments[0];
+
+    // Comprobamos que sea número de nuevo, debe ser fuera del objeto que retornaremos
+    // en lugar de undefined.
+    if (checkNum(c)) {
+      // // Retornamos la función que espera el segundo parámetro.
+      return function(arg2) {
+        // Comprobamos que no sean números.
+        if (c === undefined || checkNum(arg2) === undefined) {
           return undefined;
         } else {
-          return a + b;
+          // Si lo son, sumamos.
+          return c + arg2;
         }
-      } else {
-        // Si solo es encontrado un parámetro retornamos una nueva función para solicitar un segundo parámetro
-        // Guardamos el primer argumento antes de entrar al scope de la nueva función
-        var c = arguments[0];
-
-        // Comprobamos que sea número de nuevo, debe ser fuera del objeto que retornaremos
-        // en lugar de undefined.
-        if (checkNum(c)) {
-          // // Retornamos la función que espera el segundo parámetro.
-          return function(arg2) {
-            // Comprobamos que no sean números.
-            if (c === undefined || checkNum(arg2) === undefined) {
-              return undefined;
-            } else {
-              // Si lo son, sumamos.
-              return c + arg2;
-            }
-          };
-        }
-      }
+      };
     }
+  }
+}
 
-    // realizamos el test
-    addTogether(2,3);
+// realizamos el test
+addTogether(2,3);
+```
 
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CLnz/0' target='_blank' rel='nofollow'>¡En REPL!</a>
 
@@ -91,63 +93,67 @@ En el caso de que se reciba sólo un argumento no te preocupes sobre como solici
 
 ## Segunda solución:
 
-    function addTogether() {
-      var args = new Array(arguments.length);
-      // Almacenamos los argumentos en un array.
-      for(var i = 0; i < args.length; ++i) {
-        args[i] = arguments[i];
-      }
-      // Comprobamos la cantidad de argumentos.
-      if(args.length == 2){
-        // Si hay dos argumentos, comprobamos el tipo de ambos
-        // Utiliza typeof para comprobar el tipo de argumentos. (ambos deben ser números)
-        if(typeof args[0] !== 'number' || typeof args[1] !=='number' ){
-          return undefined;
-        }
-        return args[0]+args[1];
-      }
-      // Cuando solo un argumento es provisto.
-      if(args.length == 1){
-        a = args[0];
-        // Comprobamos el tipo utilizando typeof.
-        if(typeof a!=='number'){
-          return undefined;
-        }
-        else{
-          // Hacemos uso de las funciones internas.
-          return function(b){
-          // Comprobamos el segundo parámetro.
-          if(typeof b !=='number'){
-            return undefined;
-          }
-          else
-            return a+b;
-          };
-        }
-      }
+```js
+function addTogether() {
+  var args = new Array(arguments.length);
+  // Almacenamos los argumentos en un array.
+  for(var i = 0; i < args.length; ++i) {
+    args[i] = arguments[i];
+  }
+  // Comprobamos la cantidad de argumentos.
+  if(args.length == 2){
+    // Si hay dos argumentos, comprobamos el tipo de ambos
+    // Utiliza typeof para comprobar el tipo de argumentos. (ambos deben ser números)
+    if(typeof args[0] !== 'number' || typeof args[1] !=='number' ){
+      return undefined;
     }
+    return args[0]+args[1];
+  }
+  // Cuando solo un argumento es provisto.
+  if(args.length == 1){
+    a = args[0];
+    // Comprobamos el tipo utilizando typeof.
+    if(typeof a!=='number'){
+      return undefined;
+    }
+    else{
+      // Hacemos uso de las funciones internas.
+      return function(b){
+      // Comprobamos el segundo parámetro.
+      if(typeof b !=='number'){
+        return undefined;
+      }
+      else
+        return a+b;
+      };
+    }
+  }
+}
 
-    // realizamos el test
-    addTogether(2,3);
+// realizamos el test
+addTogether(2,3);
+```
 
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CLoA/0' target='_blank' rel='nofollow'>¡En REPL!</a>
 
 ## Tercer solución:
 
-    //jshint esversion: 6
-    function addTogether() {
-      var args = Array.from(arguments);
-      return args.some(n => typeof n !== 'number') ? 
-        undefined: 
-        args.length > 1 ?
-          args.reduce((acc, n) => acc += n, 0):
-          (n) => typeof n === "number" ? 
-            n + args[0]:
-            undefined;
-    }
+```js
+//jshint esversion: 6
+function addTogether() {
+  var args = Array.from(arguments);
+  return args.some(n => typeof n !== 'number') ?
+    undefined:
+    args.length > 1 ?
+      args.reduce((acc, n) => acc += n, 0):
+      (n) => typeof n === "number" ?
+        n + args[0]:
+        undefined;
+}
 
-    // realizamos el test
-    addTogether(2,3);
+// realizamos el test
+addTogether(2,3);
+```
 
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CLoB/0' target='_blank' rel='nofollow'>¡En REPL!</a>
 

@@ -15,73 +15,81 @@ Hence, we have sorted the complete list in this way.
 
 ## Algorithm
 
-    Loop for i=0 to N-1:
-    * Pick element array<a href='https://repl.it/CWZq' target='_blank' rel='nofollow'>i] and insert it into sorted sublist array[0...i-1]
+```text
+Loop for i=0 to N-1:
+* Pick element array<a href='https://repl.it/CWZq' target='_blank' rel='nofollow'>i] and insert it into sorted sublist array[0...i-1]
+```
 
 ## Complexity
 
-    Space complexity: O(1)      // Auxillary/temporary space is used.
+```text
+Space complexity: O(1)      // Auxillary/temporary space is used.
 
-    Time complexity: O(n*n)     // Two nested for loops are used.
+Time complexity: O(n*n)     // Two nested for loops are used.
+```
 
 ## C++ Implementation
 
-    // Function to sort an array using insertion sort
-    void insertionSort(int arr[], int n)
-    {
-       int i, key, j;
-       for (i = 1; i < n; i++)
-       {
-           key = arr[i];
-           j = i-1;
+```cpp
+// Function to sort an array using insertion sort
+void insertionSort(int arr[], int n)
+{
+   int i, key, j;
+   for (i = 1; i < n; i++)
+   {
+       key = arr[i];
+       j = i-1;
 
-           /* Move elements of arr[0..i-1], that are greater than key,
-          to one position ahead of their current position */
-       while (j >= 0 && arr[j] > key)
-       {
-           arr[j+1] = arr[j];
-           j = j-1;
-       }
-       arr[j+1] = key; // place element key at it's correct place
-       }
-    }
+       /* Move elements of arr[0..i-1], that are greater than key,
+      to one position ahead of their current position */
+   while (j >= 0 && arr[j] > key)
+   {
+       arr[j+1] = arr[j];
+       j = j-1;
+   }
+   arr[j+1] = key; // place element key at it's correct place
+   }
+}
 
-    int main()
-    {
-        // array to be sorted
-        int arr[5] = {12, 11, 13, 5, 6};
+int main()
+{
+    // array to be sorted
+    int arr[5] = {12, 11, 13, 5, 6};
 
-        // call the insertion sort
-    insertionSort(arr, 5);
+    // call the insertion sort
+insertionSort(arr, 5);
 
-    // prints sorted array i.e. 5 6 11 12 13
-    for(int i=0; i<5; i++)
-        std::cout << arr[i] << " ";
-    return 0;
-    }
+// prints sorted array i.e. 5 6 11 12 13
+for(int i=0; i<5; i++)
+    std::cout << arr[i] << " ";
+return 0;
+}
+```
 
-:rocket: [Run Code</a> ## Python Implementation  
+:rocket: [Run Code</a> ## Python Implementation
 
-    # Function to perform insertion sort
-    def insertionSort(arr):
-        # Traverse through array
-        for i in range(1, len(arr)):
-            key = arr<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>i]
-            # Move elements of arr[0..i-1], that are greater than key,
-            # to one position ahead of their current position
-            j = i-1
-            while j>=0 and key < arr[j] :
-                    arr[j+1] = arr[j]
-                    j -= 1
-            arr[j+1] = key # place element key at it's correct place
+```python
+# Function to perform insertion sort
+def insertionSort(arr):
+    # Traverse through array
+    for i in range(1, len(arr)):
+        key = arr<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>i]
+        # Move elements of arr[0..i-1], that are greater than key,
+        # to one position ahead of their current position
+        j = i-1
+        while j>=0 and key < arr[j] :
+                arr[j+1] = arr[j]
+                j -= 1
+        arr[j+1] = key # place element key at it's correct place
 
-    # array to be sorted
-    arr = [12, 11, 13, 5, 6]
-    # call the insertion sort
-    insertionSort(arr)
-    # prints sorted array i.e. 5 6 11 12 13
-    for i in range(len(arr)):
-        print(arr[i],end = ' ')
+# array to be sorted
+arr = [12, 11, 13, 5, 6]
+# call the insertion sort
+insertionSort(arr)
+# prints sorted array i.e. 5 6 11 12 13
+for i in range(len(arr)):
+    print(arr[i],end = ' ')
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CWZi' target='_blank' rel='nofollow'>Run Code</a>
 

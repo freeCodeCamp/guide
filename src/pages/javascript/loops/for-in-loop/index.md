@@ -3,9 +3,11 @@ title: For...In Loop
 ---
 The `for...in` statement iterates over the enumerable properties of an object, in arbitrary order. For each distinct property, statements can be executed.
 
+```js
     for (variable in object) {
     ...
     }
+```
 
 | Required/Optional | Parameter | Description |
 |-------------------|-----------|----------------------------------------------------------------------|
@@ -16,6 +18,7 @@ The `for...in` statement iterates over the enumerable properties of an object, i
 
 ## Examples
 
+```js
     // Initialize object.
     a = { "a": "Athens", "b": "Belgrade", "c": "Cairo" }
 
@@ -54,3 +57,4 @@ The `for...in` statement iterates over the enumerable properties of an object, i
     //   2: two
     //   orange: fruit
     //   carrot: vegetable
+```

@@ -7,11 +7,13 @@ title: How to Use Git Rebase
 
 Let us say that you have a repository such as this:
 
+```text
                                                       --- Commit 5 ----------- auth branch
-                                                    /               
-                                                   --- Commit 4 -------------- dev branch 
+                                                    /
+                                                   --- Commit 4 -------------- dev branch
                                                  /
      --- Commit 1 ---- Commit 2 ---- Commit 3 -------------------------------- master branch
+```
 
 If you wanted to merge the `auth` branch with the `dev` branch, git will throw an error at you because your `auth` branch is out-of-date: it doesn't account for Commit 4\. You'll have to bring your branch up-to-date.
 
@@ -19,16 +21,20 @@ Git provides you with two methods to do this: the `merge` command and the `rebas
 
 Let's run `rebase` now:
 
+```text
     $ git checkout auth
     $ git rebase dev
+```
 
 The repo will now look like this:
 
+```text
                                                                      --- Commit 5 --- auth branch
                                                                    /
-                                                   --- Commit 4 --------------------- dev branch 
+                                                   --- Commit 4 --------------------- dev branch
                                                  /
      --- Commit 1 ---- Commit 2 ---- Commit 3 --------------------------------------- master branch
+```
 
 Do you see what happened? Git essentially saved the commits in the `auth` branch, 'removed' it, and then created it again with the same commits _after_ the commits in the `dev` branch. This means that `Commit 4` only exists in the `dev` branch and not the `auth` branch! And that is really all there is to it! This might seem a bit confusing at first, but try to understand the diagram. This is an extremely useful tool.
 

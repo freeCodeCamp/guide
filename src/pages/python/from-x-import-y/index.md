@@ -5,19 +5,23 @@ If you have read the <a>`import statements`</a> wiki then you'd have seen me use
 
 So picking up the same example:
 
-    >>> from math import ceil, sqrt
-    >>> # here it would be
-    >>> sqrt(36)
-    <<< 6
+```python
+>>> from math import ceil, sqrt
+>>> # here it would be
+>>> sqrt(36)
+<<< 6
+```
 
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CS5t/1' target='_blank' rel='nofollow'>Run Code</a>
 
 Or we could use this:
 
-    >>> import math
-    >>> # here it would be
-    >>> math.sqrt(36)
-    <<< 6
+```python
+>>> import math
+>>> # here it would be
+>>> math.sqrt(36)
+<<< 6
+```
 
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CS5u' target='_blank' rel='nofollow'>Run Code</a>
 

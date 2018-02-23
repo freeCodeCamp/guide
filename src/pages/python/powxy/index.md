@@ -5,8 +5,8 @@ title: Python Powxy
 
 ## Arguments
 
-The arguments must have numeric types.  
-This function takes two arguments, `x` and `y`, as well as three, `x`, `y`, and`z`.  
+The arguments must have numeric types.
+This function takes two arguments, `x` and `y`, as well as three, `x`, `y`, and`z`.
 If `z` is present, `x` and `y` must be of integer types, and y must be non-negative.
 
 ## Return
@@ -15,9 +15,11 @@ If `z` is present, it returns `x` to the power `y` modulo `z`. If only `x` and `
 
 ## Example
 
-    print(pow(2,4))    # prints 16
-    print(pow(10,-2))  # prints 0.01
-    print(pow(4,3,5))  # prints 4
+```python
+print(pow(2,4))    # prints 16
+print(pow(10,-2))  # prints 0.01
+print(pow(4,3,5))  # prints 4
+```
 
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CTGi' target='_blank' rel='nofollow'>Run Code</a>
 

@@ -7,4 +7,6 @@ jQuery has a function called `children()` that allows you to access the children
 
 Here's an example of how you would use the `children()` function:
 
+```js
     $("#left-well").children().css("color", "blue");
+```

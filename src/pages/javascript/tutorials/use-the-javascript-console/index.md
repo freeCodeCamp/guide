@@ -9,4 +9,6 @@ You can also use <a href='https://repl.it/' target='_blank' rel='nofollow'>https
 
 This is how you print to the console:
 
+```js
     console.log('Hello world!')
+```

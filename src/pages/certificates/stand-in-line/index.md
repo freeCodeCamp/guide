@@ -47,12 +47,14 @@ The function `nextInLine` uses **arr** and **item**. Those are what the tests wi
 
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
 
+```js
     function nextInLine(arr, item) {
       // Your code here
       arr.push(item);
       var removed = arr.shift();
       return removed;  // Change this line
     }
+```
 
 ### Code Explanation:
 

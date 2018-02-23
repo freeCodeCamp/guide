@@ -83,6 +83,7 @@ Explain solution here and add any relevant links
 
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution:
 
+```js
     function convertHTML(str) {
     //Chaining of replace method with different arguments
       str = str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,"&apos;");
@@ -91,6 +92,7 @@ Explain solution here and add any relevant links
 
     // test here
     convertHTML("Dolce & Gabbana");
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLnQ/0' target='_blank' rel='nofollow'>Run Code</a>
 

@@ -5,8 +5,10 @@ There are a couple ways to manipulate object properties, dot notation and bracke
 
 Adding properties to objects with dot notation:
 
+```js
     myObject.myProperty = "myValue";
-    
+```
+
 Adding properties to objects using bracket notation:
 ```javascript
 myObject['myProperty'] = "myValue";
@@ -21,4 +23,6 @@ myObject[dynamicProperty] = "myValue";
 
 We can also delete them like this:
 
+```js
     delete(myObject.myProperty);
+```

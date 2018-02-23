@@ -9,7 +9,7 @@ To learn about Merge Sort, a basic knowledge about <a href='http://programmers.s
 *   Sort the left half and the right half using the same recurring algorithm.
 *   Merge the sorted halves.
 
-The biggest advantage of using Merge sort is that the <a href='https://www.youtube.com/watch?v=V42FBiohc6c&list=PL2_aWCzGMAwI9HK8YPVBjElbLbI3ufctn' target='_blank' rel='nofollow'>time complexity</a> is only n*log(n) to sort an entire Array. It is a lot better than n^2 running time of bubble sort or insertion sort.  
+The biggest advantage of using Merge sort is that the <a href='https://www.youtube.com/watch?v=V42FBiohc6c&list=PL2_aWCzGMAwI9HK8YPVBjElbLbI3ufctn' target='_blank' rel='nofollow'>time complexity</a> is only n*log(n) to sort an entire Array. It is a lot better than n^2 running time of bubble sort or insertion sort.
 
 Before we write code, let us understand how merge sort works with the help of a diagram.
 
@@ -25,111 +25,119 @@ Before we write code, let us understand how merge sort works with the help of a 
 
 ### C++ Implementation
 
-    void merge(int array[], int left, int mid, int right)
-    {
-        int i, j, k;
+```cpp
+void merge(int array[], int left, int mid, int right)
+{
+    int i, j, k;
 
-        // Size of left sublist
-    int size_left = mid - left + 1;
+    // Size of left sublist
+int size_left = mid - left + 1;
 
-    // Size of right sublist
-    int size_right =  right - mid;
+// Size of right sublist
+int size_right =  right - mid;
 
-    /* create temp arrays */
-    int Left[size_left], Right[size_right];
+/* create temp arrays */
+int Left[size_left], Right[size_right];
 
-    /* Copy data to temp arrays L[] and R[] */
-    for(i = 0; i < size_left; i++)
-    {
-        Left[i] = array[left+i];
-    }
+/* Copy data to temp arrays L[] and R[] */
+for(i = 0; i < size_left; i++)
+{
+    Left[i] = array[left+i];
+}
 
-    for(j = 0; j < size_right; j++)
-    {
-        Right[j] = array[mid+1+j];
-    }
+for(j = 0; j < size_right; j++)
+{
+    Right[j] = array[mid+1+j];
+}
 
-    // Merge the temp arrays back into arr[left..right]
-    i = 0; // Initial index of left subarray
-    j = 0; // Initial index of right subarray
-    k = left; // Initial index of merged subarray
+// Merge the temp arrays back into arr[left..right]
+i = 0; // Initial index of left subarray
+j = 0; // Initial index of right subarray
+k = left; // Initial index of merged subarray
 
-    while (i < size_left && j < size_right)
-    {
-        if (Left[i] <= Right[j])
-        {
-            array[k] = Left[i];
-            i++;
-        }
-        else
-        {
-            array[k] = Right[j];
-            j++;
-        }
-        k++;
-    }
-
-    // Copy the remaining elements of Left[]
-    while (i < size_left)
+while (i < size_left && j < size_right)
+{
+    if (Left[i] <= Right[j])
     {
         array[k] = Left[i];
         i++;
-        k++;
     }
-
-    // Copy the rest elements of R[]
-    while (j < size_right)
+    else
     {
         array[k] = Right[j];
         j++;
-        k++;
     }
-    }
+    k++;
+}
 
-    void mergeSort(int array[], int left, int right)
+// Copy the remaining elements of Left[]
+while (i < size_left)
+{
+    array[k] = Left[i];
+    i++;
+    k++;
+}
+
+// Copy the rest elements of R[]
+while (j < size_right)
+{
+    array[k] = Right[j];
+    j++;
+    k++;
+}
+}
+
+void mergeSort(int array[], int left, int right)
+{
+    if(left < right)
     {
-        if(left < right)
-        {
-            int mid = (left+right)/2;
+        int mid = (left+right)/2;
 
-            // Sort first and second halves
-        mergeSort(array, left, mid);
-        mergeSort(array, mid+1, right);
+        // Sort first and second halves
+    mergeSort(array, left, mid);
+    mergeSort(array, mid+1, right);
 
-        // Finally merge them
-        merge(array, left, mid, right);
-    }
-    }
+    // Finally merge them
+    merge(array, left, mid, right);
+}
+}
+```
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CYVc/1' target='_blank' rel='nofollow'>Run Code</a> 
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CYVc/1' target='_blank' rel='nofollow'>Run Code</a>
 
-### Javascript Implementation 
+### Javascript Implementation
 
-Let's write MergeSort in JavaScript:  
+Let's write MergeSort in JavaScript:
 
-    function mergeSort (arr) {
-      if (arr.length < 2) return arr;
-      var mid = Math.floor(arr.length /2);
-      var subLeft = mergeSort(arr.slice(0,mid));
-      var subRight = mergeSort(arr.slice(mid));
-      return merge(subLeft, subRight);
-    }
+```js
+function mergeSort (arr) {
+  if (arr.length < 2) return arr;
+  var mid = Math.floor(arr.length /2);
+  var subLeft = mergeSort(arr.slice(0,mid));
+  var subRight = mergeSort(arr.slice(mid));
+  return merge(subLeft, subRight);
+}
+```
 
-First we check the length of the array. If it is 1 then we simply return the array. This would be our base case. Else, we will find out the middle value and divide the array into two halves. We will now sort both of the halves with recursive calls to MergeSort function.  
+First we check the length of the array. If it is 1 then we simply return the array. This would be our base case. Else, we will find out the middle value and divide the array into two halves. We will now sort both of the halves with recursive calls to MergeSort function.
 
-    function merge (a,b) {
-        var result = [];
-        while (a.length >0 && b.length >0)
-            result.push(a[0] < b[0]? a.shift() : b.shift());
-        return result.concat(a.length? a : b);
-    }
+```js
+function merge (a,b) {
+    var result = [];
+    while (a.length >0 && b.length >0)
+        result.push(a[0] < b[0]? a.shift() : b.shift());
+    return result.concat(a.length? a : b);
+}
+```
 
-When we merge the two halfs, we store the result in an auxilliary array. We will compare the starting element of left array to the starting element of right array. Whichever is lesser will be pushed into the results array and we will remove it from there respective arrays using [shift() operator</a>. If we still end up with values in either of left or right array, we would simply concatenate it in the end of the result. Here is the sorted result:  
+When we merge the two halfs, we store the result in an auxilliary array. We will compare the starting element of left array to the starting element of right array. Whichever is lesser will be pushed into the results array and we will remove it from there respective arrays using [shift() operator</a>. If we still end up with values in either of left or right array, we would simply concatenate it in the end of the result. Here is the sorted result:
 
-    var test = [5,6,7,3,1,3,15];
-    console.log(mergeSort(test));
+```js
+var test = [5,6,7,3,1,3,15];
+console.log(mergeSort(test));
 
-    >> [1, 3, 3, 5, 6, 7, 15]
+>> [1, 3, 3, 5, 6, 7, 15]
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CYVd' target='_blank' rel='nofollow'>Run Code</a>
 

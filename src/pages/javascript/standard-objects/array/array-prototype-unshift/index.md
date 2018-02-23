@@ -5,7 +5,9 @@ The JavaScript array method `.unshift()` adds one or more elements to the beginn
 
 **Syntax**
 
+```js
     arr.unshift([element1[, ...[, elementN]]])
+```
 
 ## Parameters
 
@@ -17,6 +19,7 @@ The new `length` of the array upon which the method was called.
 
 ## Examples
 
+```js
     var array = [1, 2, 3, 4, 5];
 
     array.unshift(0);
@@ -25,6 +28,7 @@ The new `length` of the array upon which the method was called.
 
     array.unshift([-1]);
     // array is now [[-1], 0, 1, 2, 3, 4, 5];
+```
 
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/C2V3' target='_blank' rel='nofollow'>Run code</a>
 

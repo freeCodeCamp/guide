@@ -13,9 +13,11 @@ The return value would be a positive number. Even if complex number is passed, i
 
 ## Code Sample
 
-    print(abs(3.4)) # prints 3.4
-    print(abs(-6)) # prints 6
-    print(abs(3 + 4j)) # prints 5, because |3 + 4j| = 5
+```python
+print(abs(3.4)) # prints 3.4
+print(abs(-6)) # prints 6
+print(abs(3 + 4j)) # prints 5, because |3 + 4j| = 5
+```
 
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CL8k/0' target='_blank' rel='nofollow'>Run Code</a>
 

@@ -7,16 +7,18 @@ The first block is called the "Constructor Function" which is where attributes o
 
 ## Example
 
-    var Car = function(brand, color, location) {
-     this.brand = brand;
-     this.color = color;
-     this.location = location
-    };
+```js
+var Car = function(brand, color, location) {
+ this.brand = brand;
+ this.color = color;
+ this.location = location
+};
 
-    Car.prototype = {
-     move: function() { this.location++; },
-     stop: function() { this.location = 0; },
-    };
+Car.prototype = {
+ move: function() { this.location++; },
+ stop: function() { this.location = 0; },
+};
+```
 
 ## Explanation
 
@@ -24,8 +26,10 @@ The reason for declaring the entire class in 2 blocks is to save on memory when 
 
 When a instance of the class attempt to access a method:
 
-    var x_car = new Car('lexus', 'white', 0);
-    x_car.move();
+```js
+var x_car = new Car('lexus', 'white', 0);
+x_car.move();
+```
 
 The interpreter will actually _first_ fail to find the called method in the object itself since it was made from the Car constructor function. As you can see above there is no reference to any of the methods in the Car constructor function. From there the interpreter searches to the `Car.prototype` which is now shared between all instances. There the interpreter find the method that was called!
 

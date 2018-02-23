@@ -15,10 +15,12 @@ There might be an interesting application for dealing with the browser's current
 
 **An interesting note**: `screen.availHeight` can also be used to figure out how tall a taskbar is on a computer. If your browser resolution is say `1366 x 768`, and `screen.availHeight` reports 728 pixels, then your taskbar is 40 pixels high. You can also calculate taskbar height by subtracting `screen.height` and `screen.availHeight`:
 
-    var taskbarHeight = parseInt(screen.height,10) - parseInt(screen.availHeight,10) + " pixels";
-    /*
-    For a user that has a screen resolution of 1366 x 768 pixels, their taskbar is likely 40 pixels if using Windows 10 with no added accessibility features.
-    */
+```js
+var taskbarHeight = parseInt(screen.height,10) - parseInt(screen.availHeight,10) + " pixels";
+/*
+For a user that has a screen resolution of 1366 x 768 pixels, their taskbar is likely 40 pixels if using Windows 10 with no added accessibility features.
+*/
+```
 
 ## Get Viewing Window Size
 

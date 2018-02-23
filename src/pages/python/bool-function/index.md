@@ -13,17 +13,19 @@ If `x` is false or omitted, this returns `False`; otherwise it returns `True`.
 
 ## Code Sample
 
-    print(bool(4 > 2)) # Returns True as 4 is greater than 2
-    print(bool(4 < 2)) # Returns False as 4 is not less than 2
-    print(bool(4 == 4)) # Returns True as 4 is equal to 4
-    print(bool(4 != 4)) # Returns False as 4 is equal to 4 so inequality doesn't holds
-    print(bool(4)) # Returns True as 4 is a non-zero value
-    print(bool(-4)) # Returns True as -4 is a non-zero value
-    print(bool(0)) # Returns False as it is a zero value
-    print(bool('dskl')) # Returns True as the string is a non-zero value
-    print(bool([1, 2, 3])) # Returns True as the list is a non-zero value
-    print(bool((2,3,4))) # Returns True as tuple is a non-zero value
-    print(bool([])) # Returns False as list is empty and equal to 0 according to truth value testing
+```python
+print(bool(4 > 2)) # Returns True as 4 is greater than 2
+print(bool(4 < 2)) # Returns False as 4 is not less than 2
+print(bool(4 == 4)) # Returns True as 4 is equal to 4
+print(bool(4 != 4)) # Returns False as 4 is equal to 4 so inequality doesn't holds
+print(bool(4)) # Returns True as 4 is a non-zero value
+print(bool(-4)) # Returns True as -4 is a non-zero value
+print(bool(0)) # Returns False as it is a zero value
+print(bool('dskl')) # Returns True as the string is a non-zero value
+print(bool([1, 2, 3])) # Returns True as the list is a non-zero value
+print(bool((2,3,4))) # Returns True as tuple is a non-zero value
+print(bool([])) # Returns False as list is empty and equal to 0 according to truth value testing
+```
 
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CVCS/2' target='_blank' rel='nofollow'>Run Code</a>
 

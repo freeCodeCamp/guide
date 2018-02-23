@@ -39,6 +39,7 @@ You will need to figure out where the missing letter is, along with handling the
 
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
 
+```js
     function fearNotLetter(str) {
 
       for(var i = 0; i < str.length; i++) {
@@ -51,13 +52,14 @@ You will need to figure out where the missing letter is, along with handling the
 
           /* if current character has escaped one character find previous char and return */
           return String.fromCharCode(code - 1);
-        }  
+        }
       }
       return undefined;
     }
 
     // test here
     fearNotLetter("abce");
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLnD/0' target='_blank' rel='nofollow'>Run Code</a>
 
@@ -76,6 +78,7 @@ You will need to figure out where the missing letter is, along with handling the
 
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution:
 
+```js
     // Adding this solution for the sake of avoiding using 'for' and 'while' loops.
     // See the explanation for reference as to why. It's worth the effort.
 
@@ -95,6 +98,7 @@ You will need to figure out where the missing letter is, along with handling the
 
     // test here
     fearNotLetter("abce");
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLnE/0' target='_blank' rel='nofollow'>Run Code</a>
 
@@ -114,6 +118,7 @@ You will need to figure out where the missing letter is, along with handling the
 
 ## ![:rotating_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:") Advanced Code Solution:
 
+```js
     function fearNotLetter(str) {
       var allChars = '';
       var notChars = new RegExp('<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>^'+str+']','g');
@@ -126,6 +131,7 @@ You will need to figure out where the missing letter is, along with handling the
 
     // test here
     fearNotLetter("abce");
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLnG/0' target='_blank' rel='nofollow'>Run Code</a>
 

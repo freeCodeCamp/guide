@@ -35,9 +35,10 @@ For Example, `(script src="uStates.js")(/script) (!-- creates uStates. --)`
 
 For Example,
 
-`javascript  
-(div id="tooltip")(/div)  
-(svg width="960" height="600" id="statesvg")(/svg)` 
+```javascript
+(div id="tooltip")(/div)
+(svg width="960" height="600" id="statesvg")(/svg)
+```
 
 *   Create Tooltip function to create html content string in tooltip div.
 

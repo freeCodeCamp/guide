@@ -19,8 +19,10 @@ Also the <a href='http://api.jquery.com/jQuery.getJSON/' target='_blank' rel='no
 
 Here's an example call to fetch Free Code Camp's Twitch channel data:
 
+```js
     $.getJSON('https://api.twitch.tv/kraken/streams/freecodecamp?callback=?', function(data) {
       console.log(data);
     });
+```
 
 JSONP is considered insecure <a href='https://en.wikipedia.org/wiki/Cross-origin_resource_sharing#CORS_vs_JSONP' target='_blank' rel='nofollow'>according to Wikipedia</a>, but should be sufficient for our purposes. For a detailed discussion on Twitch's CORS restriction, please read <a href='https://github.com/justintv/Twitch-API/issues/133' target='_blank' rel='nofollow'>issue <span class="hashtag">#133</span></a> on the Twitch-API repository.

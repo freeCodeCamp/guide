@@ -9,18 +9,19 @@ Just like a garland is made with flowers, a linked list is made up of nodes. We 
 
 Singly linked lists contain nodes which have a `data` field as well as a `next` field, which points to the next node in the sequence. Operations that can be performed on singly linked lists are insertion, deletion and traversal.
 
-`
 
-    Singly Link List
+Singly Link List
 
 * * *
 
+```text
        head
         |
         |
       +-----+--+      +-----+--+      +-----+------+
       |  1  |o----->  |  2  |o----->  |  3  | NULL |
       +-----+--+      +-----+--+      +-----+------+
+```
 
 `
 
@@ -40,6 +41,7 @@ Doubly Linked List
 
 * * *
 
+```text
               head
                |
                |
@@ -48,6 +50,7 @@ Doubly Linked List
       | NULL |  1  |          |  2  |          |  3  | NULL |
       |      |     |  <------o|     |  <------o|     |      |
       +------+-----+--+    +--+-----+--+       +-----+------+
+```
 
 `
 
@@ -65,13 +68,15 @@ Circular Linked List
 
 * * *
 
+```text
          head
           |
           |
         +-----+--+      +-----+--+      +-----+--+
+```
 
---> | 1 |o-----> | 2 |o-----> | 3 |o----  
-| +-----+--+ +-----+--+ +-----+--+ |  
+--> | 1 |o-----> | 2 |o-----> | 3 |o----
+| +-----+--+ +-----+--+ +-----+--+ |
 | |
 
 * * *
@@ -110,7 +115,7 @@ Insertion after node X.
 
 *   Create a new node with given data.
 *   Point new node's `next` to old X's `next`.
-*   Point X's `next` to this new node.  
+*   Point X's `next` to this new node.
     `
 
 **Time Complexity: O(1)**
@@ -137,7 +142,7 @@ Deletion after node X.
 
 *   Get the node pointed by `X` as Temp.
 *   Point X's `next` to Temp's `next`.
-*   Free memory used by Temp node.  
+*   Free memory used by Temp node.
     `
 
 **Time Complexity: O(1)**
@@ -154,7 +159,7 @@ Traversal
 
 *   Get the node pointed by `head` as Current.
 *   Check if Current is not null and display it.
-*   Point Current to Current's `next` and move to above step.  
+*   Point Current to Current's `next` and move to above step.
     `
 
 **Time Complexity: O(n) // Here n is size of link-list**
@@ -163,6 +168,7 @@ Traversal
 
 ### C++ implementation of singly linked list
 
+```cpp
     // Header files
     #include <iostream>
 
@@ -174,9 +180,11 @@ Traversal
 
     // Head pointer always points to first element of the linked list
     struct node *head = NULL;
+```
 
-#### Printing data in each node  
+#### Printing data in each node
 
+```cpp
     // Display the list
     void printList()
     {
@@ -191,9 +199,11 @@ Traversal
 
     std::cout << std::endl;
     }
+```
 
-#### Insertion at the beginning  
+#### Insertion at the beginning
 
+```cpp
     // Insert link at the beginning
     void insertFirst(int data)
     {
@@ -210,9 +220,11 @@ Traversal
 
     std::cout << "Inserted successfully" << std::endl;
     }
+```
 
-#### Deletion at the beginning  
+#### Deletion at the beginning
 
+```cpp
     // Delete first item
     void deleteFirst()
     {
@@ -228,9 +240,11 @@ Traversal
 
     std::cout << "Deleted successfully" << std::endl;
     }
+```
 
-#### Size  
+#### Size
 
+```cpp
     // Find no. of nodes in link list
     void size()
     {
@@ -244,9 +258,11 @@ Traversal
 
     std::cout << "Size of Linked List is " << length << std::endl;
     }
+```
 
-#### Searching  
+#### Searching
 
+```cpp
     // Find node with given data
     void find(int data){
 
@@ -277,9 +293,11 @@ Traversal
     // If data found
     std::cout << "Found" << std::endl;
     }
+```
 
-#### Deletion after a node  
+#### Deletion after a node
 
+```cpp
     // Delete a node with given data
     void del(int data){
 
@@ -325,11 +343,13 @@ Traversal
     delete current;
     std::cout << "Deleted succesfully" << std::endl;
     }
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CXVt/1' target='_blank' rel='nofollow'>Run Code</a>
 
-### Python Implementation of Singly Linked List  
+### Python Implementation of Singly Linked List
 
+```python
     class Node(object):
         # Constructor
         def __init__(self, data=None, next=None):
@@ -350,9 +370,11 @@ Traversal
     class LinkedList(object):
         def __init__(self, head=None):
             self.head = head
+```
 
-#### Insertion  
+#### Insertion
 
+```python
         # Function to insert data
     def insert(self, data):
         # new_node is a object of class Node
@@ -360,9 +382,11 @@ Traversal
         new_node.set_next(self.head)
         self.head = new_node
         print("Node with data " + str(data) + " is created succesfully")
+```
 
-#### Size  
+#### Size
 
+```python
         # Function to get size
     def size(self):
         current = self.head
@@ -371,9 +395,11 @@ Traversal
             count += 1
             current = current.get_next()
         print("Size of link list is " + str(count))
+```
 
-#### Searching  
+#### Searching
 
+```python
         # Function to search a data
     def search(self, data):
         current = self.head
@@ -387,9 +413,11 @@ Traversal
             print("Node with data " + str(data) + " is not present")
         else:
             print("Node with data " + str(data) + " is found")
+```
 
-#### Deletion after a node  
+#### Deletion after a node
 
+```python
         # Function to delete a node with data
     def delete(self, data):
         current = self.head
@@ -409,6 +437,7 @@ Traversal
         else:
             previous.set_next(current.get_next())
             print("Node with data " + str(data) + " is deleted successfully")
+```
 
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CVq3/2' target='_blank' rel='nofollow'>Run Code</a>
 

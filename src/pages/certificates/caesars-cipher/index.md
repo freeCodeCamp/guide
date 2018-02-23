@@ -111,7 +111,8 @@ Leave anything that doesn't come between A-Z as it is.
 
 ### Algorithm Explanation:
 
-    ALPHA	KEY	BASE 	 	 	 ROTATED	ROT13
+```text
+    ALPHA  KEY  BASE          ROTATED  ROT13
     -------------------------------------------------------------
     [A]     65  <=>   0 + 13  =>  13 % 26  <=>  13 + 65 = 78 [N]
     [B]     66  <=>   1 + 13  =>  14 % 26  <=>  14 + 65 = 79 [O]
@@ -139,6 +140,7 @@ Leave anything that doesn't come between A-Z as it is.
     [X]     88  <=>  23 + 13  =>  36 % 26  <=>  10 + 65 = 75 [K]
     [Y]     89  <=>  24 + 13  =>  37 % 26  <=>  11 + 65 = 76 [L]
     [Z]     90  <=>  25 + 13  =>  38 % 26  <=>  12 + 65 = 77 [M]
+```
 
 #### Relevant Links
 
@@ -150,36 +152,39 @@ Leave anything that doesn't come between A-Z as it is.
 
 ## ![:rotating_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:") Advanced Code Solution:
 
+```js
     function rot13(str) { // LBH QVQ VG!
       return str.replace(/<a href='http://unicode-table.com/en/alphabets/english/' target='_blank' rel='nofollow'>A-Z]/g, L => String.fromCharCode((L.charCodeAt(0) % 26) + 65));
     }
+```
 
 ### Algorithm Explanation:
 
-Understanding modulo operator (_sometimes called modulus operator_) symbolically represented as `%` in JavaScript is key to understanding the algorithm.  
+Understanding modulo operator (_sometimes called modulus operator_) symbolically represented as `%` in JavaScript is key to understanding the algorithm.
 This is an interesting operator which shows up in various places of Engineering e.g. in cryptography.
 
-Basically, operated on a number, it divides the number by the given divisor and gives the remainder of the division.  
+Basically, operated on a number, it divides the number by the given divisor and gives the remainder of the division.
 For Example,
 
 *   `0 % 5 = 0` because `0 / 5 = 0` and the remainder is `0`.
 *   `2 % 5 = 2` because `2 / 5 = 0` and the remainder is `2`
-*   `4 % 5 = 4` because `4 / 5 = 0` and the remainder is `4`  
+*   `4 % 5 = 4` because `4 / 5 = 0` and the remainder is `4`
 
 *   `5 % 5 = 0` because `5 / 5 = 1` and the remainder is `0`
 *   `7 % 5 = 2` because `7 / 5 = 1` and the remainder is `2`
-*   `9 % 5 = 4` because `9 / 5 = 1` and the remainder is `4`  
+*   `9 % 5 = 4` because `9 / 5 = 1` and the remainder is `4`
 
 *   `10 % 5 = 0` because `10 / 5 = 2` and the remainder is `0`
 
-But you must have noticed a pattern here.  
-As you might have noticed, the amazing modulo operator wraps over the LHS value when it just reaches multiples of the RHS value.  
-e.g. in our case, when `LHS = 5`, it wrapped over to `0`  
-OR  
+But you must have noticed a pattern here.
+As you might have noticed, the amazing modulo operator wraps over the LHS value when it just reaches multiples of the RHS value.
+e.g. in our case, when `LHS = 5`, it wrapped over to `0`
+OR
 when `LHS = 10`, it wrapped over to `0` again.
 
-Hence, we see the following pattern emerging  
+Hence, we see the following pattern emerging
 
+```text
      0 ⇔ 0
      1 ⇔ 1
      2 ⇔ 2
@@ -191,6 +196,7 @@ Hence, we see the following pattern emerging
      8 ⇔ 3
      9 ⇔ 4
     10 ⇔ 0
+```
 
 Hence, we conclude that using modulo operator, one can map a range of values to a range between [`0` to `DIVISOR - 1`]. In our case, we mapped [`5 - 9`] between [`0 - 4`] or mapped [`6 - 10`] between [`0 - 4`].
 
@@ -198,6 +204,7 @@ Did you understand till this?
 
 Now let us consider mapping a range of `26` numbers i.e. between [`65 - 90`] (_which represents uppercase [**English alphabets**</a> in <a href='http://unicode-table.com/en/alphabets/' target='_blank' rel='nofollow'>Unicode character set</a>_) to a range of numbers between <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace' target='_blank' rel='nofollow'>`0 - 25`].
 
+```text
     [A]  65 % 26 ⇔ 13
     [B]  66 % 26 ⇔ 14
     [C]  67 % 26 ⇔ 15
@@ -224,12 +231,14 @@ Now let us consider mapping a range of `26` numbers i.e. between [`65 - 90`] (_w
     [X]  88 % 26 ⇔ 10
     [Y]  89 % 26 ⇔ 11
     [Z]  90 % 26 ⇔ 12
+```
 
-As you can notice, each number in the range of [`65 - 90`] maps to a unique number between [`0 - 25`].  
+As you can notice, each number in the range of [`65 - 90`] maps to a unique number between [`0 - 25`].
 You might have also noticed that each given number (e.g. `65`) maps to another number (e.g. `13`) which can be used as an offset value (i.e. `65 + OFFSET`) to get the ROT13 of the given number.
 
 E.g. `65` maps to `13` which can be taken as an offset value and added to `65` to give `78`.
 
+```text
     [A]  65 % 26 ⇔ 13 + 65 =  78 [N]
     [B]  66 % 26 ⇔ 14 + 65 =  79 [O]
     [C]  67 % 26 ⇔ 15 + 65 =  80 [P]
@@ -256,6 +265,7 @@ E.g. `65` maps to `13` which can be taken as an offset value and added to `65` t
     [X]  88 % 26 ⇔ 10 + 65 =  75 [K]
     [Y]  89 % 26 ⇔ 11 + 65 =  76 [L]
     [Z]  90 % 26 ⇔ 12 + 65 =  77 [M]
+```
 
 ### Code Explanation:
 

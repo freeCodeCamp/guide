@@ -13,9 +13,11 @@ This function returns a lowercase hexadecimal string prefixed with "0x".
 
 ## Example
 
-    print(hex(16))    # prints  0x10
-    print(hex(-298))  # prints -0x12a
-    print(hex(543))   # prints  0x21f
+```python
+print(hex(16))    # prints  0x10
+print(hex(-298))  # prints -0x12a
+print(hex(543))   # prints  0x21f
+```
 
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CV0S' target='_blank' rel='nofollow'>Run Code</a>
 

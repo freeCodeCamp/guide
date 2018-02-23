@@ -27,9 +27,11 @@ Comprueba que tienes la sintaxis de forma apropiada y que estés utilizando `===
 
 ## Solución del código:
 
-    function confirmEnding(str, target) {
-      return str.substr(-target.length) === target;
-    }
+```js
+function confirmEnding(str, target) {
+  return str.substr(-target.length) === target;
+}
+```
 
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CLjU/18' target='_blank' rel='nofollow'>Ejecutar código</a>
 

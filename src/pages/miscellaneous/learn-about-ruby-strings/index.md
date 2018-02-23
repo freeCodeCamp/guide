@@ -13,24 +13,26 @@ title: Learn About Ruby Strings
 
 ## Examples:
 
-    "Hello World"
-    # is equivalent to:
-    'Hello World'
+```ruby
+"Hello World"
+# is equivalent to:
+'Hello World'
 
-    "This is line 1.\nAnd this is line 2."
-    # returns:
-    This is line 1.
-    And this is line 2.
+"This is line 1.\nAnd this is line 2."
+# returns:
+This is line 1.
+And this is line 2.
 
-    name = "Batman"
-    "Hello, my name is #{name}!"
-    # returns:
-    Hello, my name is Batman!
+name = "Batman"
+"Hello, my name is #{name}!"
+# returns:
+Hello, my name is Batman!
 
-    # Note that for single quotes, ruby doesn't take special consideration for variables or backslashes:
-    'This is your name:\n#{name}'
-    # returns:
-    This is your name:\n#{name}
+# Note that for single quotes, ruby doesn't take special consideration for variables or backslashes:
+'This is your name:\n#{name}'
+# returns:
+This is your name:\n#{name}
+```
 
 ## References:
 

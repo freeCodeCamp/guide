@@ -7,9 +7,11 @@ ASI has a set of rules it uses to determine where it should insert semicolons. I
 
 There is only one case where ASI fails: when a line starts with an opening bracket `(` or `<a href='http://blog.izs.me/post/2353458699/an-open-letter-to-javascript-leaders-regarding' target='_blank' rel='nofollow'>`. To avoid this causing errors, when a line starts with an opening bracket, you can put a semicolon at the beginning of the line that has the opening bracket:
 
+```js
     ;(function() {
       console.log('Hi!')
     })
+```
 
 Note that this is only required if you don't use semicolons.
 

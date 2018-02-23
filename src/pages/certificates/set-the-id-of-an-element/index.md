@@ -9,4 +9,6 @@ There are several benefits to using id attributes, and you'll learn more about t
 
 Here's an example of how you give your h2 element the id of cat-photo-app:
 
+```html
     <h2 id="cat-photo-app">
+```

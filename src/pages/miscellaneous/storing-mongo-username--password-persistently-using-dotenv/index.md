@@ -21,20 +21,24 @@ If you have already pushed your repository to github with your credentials store
 
 **First,** delete your repo from github. You'll create a new one when we are ready.
 
-**Second,** delete your local git repository from your working directory.  
--Change directories to your working directory. Your .git repo file should be in here.  
+**Second,** delete your local git repository from your working directory.
+-Change directories to your working directory. Your .git repo file should be in here.
 BEWARE: using the -rf flag can delete your entire harddrive if not used correctly. I use the -i flag, which stands for interactive to be certain I am IN the correct directory. After sorting through a few files and I am 100% sure I'm in the right place, I'll kill that command and run it again without the -i flag. Do what you feel most comfortable with, but it's advised you have a full backup of your computer (in more than one place) before running a -rm command.
 
-    cd <project-name>
-    rm -i -rf .git
+```shell
+cd <project-name>
+rm -i -rf .git
+```
 
 **Third** be sure to update your .gitignore file to include the .env file in addition to any other folders you wish to keep private. Local IDE files such as .idea/ if using jetbrains for example, could be in this file. My .gitignore file looks like this. Note that you can add a folder or file here before it is created without causing any errors.
 
-`.gitignore`  
-node_modules  
-.env  
-data/  
+`.gitignore`
+```text
+node_modules
+.env
+data/
 .idea/
+```
 
 **Finally** create a new repository. Now you're ready to continue creating your .env file and pushing your repo safely to github and keep your credentials safe.
 
@@ -44,22 +48,22 @@ data/
 
 This is where the node module dotenv can help. To use dotenv, you need to require it in your application code, call the config() function on it which pulls your credentials from a locally stored file on your computer. This file is named `.env`
 
-**Step 1:** Create a .env file and store your variables in it  
+**Step 1:** Create a .env file and store your variables in it
 `MONGOLAB_URI="mongodb://username:password@ds01316.mlab.com:1316/food"`
 
-**Step 2:** Require dotenv in your main application  
-in your main `app.js` (or whatever you have named it)  
+**Step 2:** Require dotenv in your main application
+in your main `app.js` (or whatever you have named it)
 `var dotenv = require('dotenv');`
 
-**Step 3:** Call the config function on your variable. (note this can all be done in one line by chaining, but I like seeing this occur as a separate activity).  
+**Step 3:** Call the config function on your variable. (note this can all be done in one line by chaining, but I like seeing this occur as a separate activity).
 `dotenv.config();`
 
-**Step 4:** Set your mongodb URL by calling your process varables:  
+**Step 4:** Set your mongodb URL by calling your process varables:
 `var url = process.env.MONGOLAB_URI;`
 
 This solution keeps your code clean of the secure credentials you do not want to push to a public repository, while keeping each application neatly organized and saving time during development.
 
-**References:**  
+**References:**
 
 <aside class="onebox whitelistedgeneric">
 
@@ -79,7 +83,7 @@ At the command line, environmental variables are defined for the current shell a
 
 <header class="source"><a href='http://stackoverflow.com/questions/35356692/best-practice-when-using-an-api-key-in-node-js' target='_blank' rel='nofollow'>stackoverflow.com</a></header>
 
-<article class="onebox-body"><a href='https://i.stack.imgur.com/jRaTj.jpg?s=128&g=1' target='_blank' rel='nofollow'>![Drake Main</a>](http://stackoverflow.com/users/4956243/drake-main) 
+<article class="onebox-body"><a href='https://i.stack.imgur.com/jRaTj.jpg?s=128&g=1' target='_blank' rel='nofollow'>![Drake Main</a>](http://stackoverflow.com/users/4956243/drake-main)
 
 #### <a href='http://stackoverflow.com/questions/35356692/best-practice-when-using-an-api-key-in-node-js' target='_blank' rel='nofollow'>Best practice when using an API key in Node.js</a>
 
@@ -95,7 +99,7 @@ At the command line, environmental variables are defined for the current shell a
 
 <header class="source"><a href='http://stackoverflow.com/questions/1213430/how-to-fully-delete-a-git-repository-created-with-init' target='_blank' rel='nofollow'>stackoverflow.com</a></header>
 
-<article class="onebox-body"><a href='https://www.gravatar.com/avatar/9db1745a666cface1731c12d54e189e6?s=128&d=identicon&r=PG' target='_blank' rel='nofollow'>![Peiniau</a>](http://stackoverflow.com/users/105813/peiniau) 
+<article class="onebox-body"><a href='https://www.gravatar.com/avatar/9db1745a666cface1731c12d54e189e6?s=128&d=identicon&r=PG' target='_blank' rel='nofollow'>![Peiniau</a>](http://stackoverflow.com/users/105813/peiniau)
 
 #### <a href='http://stackoverflow.com/questions/1213430/how-to-fully-delete-a-git-repository-created-with-init' target='_blank' rel='nofollow'>How to fully delete a git repository created with init?</a>
 

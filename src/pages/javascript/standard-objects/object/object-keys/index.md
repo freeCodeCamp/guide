@@ -5,7 +5,9 @@ The `Object.keys()` method returns an array of a given object's own enumerable p
 
 ## Syntax
 
+```js
     Object.keys(obj)
+```
 
 ### Parameters
 
@@ -21,6 +23,7 @@ The object whose enumerable own properties are to be returned.
 
 ## Examples
 
+```js
     var arr = ['a', 'b', 'c'];
     console.log(Object.keys(arr)); // console: ['0', '1', '2']
 
@@ -59,3 +62,4 @@ The object whose enumerable own properties are to be returned.
 
     // Output:
     // grain,width,shape,toString
+```

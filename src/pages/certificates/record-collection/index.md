@@ -60,6 +60,7 @@ To access the value of a key in this object, you will use `collection[id][prop]`
 
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
 
+```js
     function updateRecords(id, prop, value) {
       if (prop === "tracks" && value !== "") {
        if(collection<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>id][prop]) {
@@ -76,6 +77,7 @@ To access the value of a key in this object, you will use `collection[id][prop]`
 
       return collection;
     }
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/C2AZ/0' target='_blank' rel='nofollow'>Run Code</a>
 

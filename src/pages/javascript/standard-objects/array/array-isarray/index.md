@@ -5,7 +5,9 @@ The `Array.isArray()` method returns `true` if an object is an array, `false` if
 
 ## Syntax
 
+```js
     Array.isArray(obj)
+```
 
 ### Parameters
 
@@ -15,12 +17,13 @@ The `Array.isArray()` method returns `true` if an object is an array, `false` if
 
 ## Examples
 
+```js
     // all following calls return true
     Array.isArray([]);
     Array.isArray([1]);
     Array.isArray(new Array());
     // Little known fact: Array.prototype itself is an array:
-    Array.isArray(Array.prototype); 
+    Array.isArray(Array.prototype);
 
     // all following calls return false
     Array.isArray();
@@ -32,3 +35,4 @@ The `Array.isArray()` method returns `true` if an object is an array, `false` if
     Array.isArray(true);
     Array.isArray(false);
     Array.isArray({ __proto__: Array.prototype });
+```

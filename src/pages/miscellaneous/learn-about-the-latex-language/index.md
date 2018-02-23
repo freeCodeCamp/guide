@@ -9,18 +9,24 @@ You can embed Latex in GitterIM. Examples:
 
 ## Array
 
-    $$\begin{array} {c c}
-    arr11 & arr12\\
-    arr21 & arr22\\
-    \end{array}$$
+```latex
+$$\begin{array} {c c}
+arr11 & arr12\\
+arr21 & arr22\\
+\end{array}$$
+```
 
 ## Matrix
 
-    $$\begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}$$
+```latex
+$$\begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}$$
+```
 
 ## Formatting
 
-    $$\huge\textstyle\color{#F00}{BigRed}\small\textstyle\color{#0F0}{SmallGreen}$$
+```latex
+$$\huge\textstyle\color{#F00}{BigRed}\small\textstyle\color{#0F0}{SmallGreen}$$
+```
 
 <a href='https://github.com/Khan/KaTeX/wiki/Function-Support-in-KaTeX' target='_blank' rel='nofollow'>Function Support</a>
 
@@ -30,11 +36,13 @@ You can embed Latex in GitterIM. Examples:
 
 Gitter uses Katex (an custom implementation of LaTeX) and it can be used introducing the following code:
 
-    $$\begin{array} {c c}
-    item11 & item12\
-    item21 & item 22\
-    \end{array}
-    $$
+```latex
+$$\begin{array} {c c}
+item11 & item12\
+item21 & item 22\
+\end{array}
+$$
+```
 
 Text:
 

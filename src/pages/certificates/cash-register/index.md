@@ -37,6 +37,7 @@ title: Cash Register
 
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Beginner Code Solution:
 
+```js
     // Create an array of objects which hold the denominations and their values
     var denom = [
       { name: 'ONE HUNDRED', val: 100.00},
@@ -109,6 +110,7 @@ title: Cash Register
 
     // test here
     checkCashRegister(19.50, 20.00, [["PENNY", 1.01], ["NICKEL", 2.05], ["DIME", 3.10], ["QUARTER", 4.25], ["ONE", 90.00], ["FIVE", 55.00], ["TEN", 20.00], ["TWENTY", 60.00], ["ONE HUNDRED", 100.00]]);
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/@scissorsneedfoo/cash-register-example' target='_blank' rel='nofollow'>Run Code</a>
 

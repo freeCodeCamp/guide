@@ -17,22 +17,26 @@ If even one of them is not `True`, it would return `False`.
 
 The `all()` operation is equivalent to (not internally implemented exactly like this)
 
-    def all(iterable):
-        for element in iterable:
-            if not element:
-                return False
-        return True
+```python
+def all(iterable):
+    for element in iterable:
+        if not element:
+            return False
+    return True
+```
 
 ## Code Sample
 
-    print(all([6, 7])) #=> True
-    print(all([6, 7, None])) #=> False  Because this has None
-    print(all([0, 6, 7])) #=> False Because this has zero
-    print(all([9, 8, [1, 2]])) #=> True
-    print(all([9, 8, []])) #=> False Because it has []
-    print(all([9, 8, [1, 2, []]])) #=> True
-    print(all([9, 8, {}])) #=> False Because it has {}
-    print(all([9, 8, {'engine': 'Gcloud'}])) #=> True
+```python
+print(all([6, 7])) #=> True
+print(all([6, 7, None])) #=> False  Because this has None
+print(all([0, 6, 7])) #=> False Because this has zero
+print(all([9, 8, [1, 2]])) #=> True
+print(all([9, 8, []])) #=> False Because it has []
+print(all([9, 8, [1, 2, []]])) #=> True
+print(all([9, 8, {}])) #=> False Because it has {}
+print(all([9, 8, {'engine': 'Gcloud'}])) #=> True
+```
 
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CL9U/0' target='_blank' rel='nofollow'>Run Code</a>
 

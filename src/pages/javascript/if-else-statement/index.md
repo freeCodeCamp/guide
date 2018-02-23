@@ -7,13 +7,16 @@ The `if` statement executes a statement if a specified condition is **true**. If
 
 > **Note:** The `else` statement is optional.
 
+```js
     if (condition)
        statement1
     else
        statement2
+```
 
 Multiple `if...else` statements can be nested to create an `else if` clause. This specifies a new condition to test and can be repeated to test multiple conditions, checking until a true statement is presented to execute.
 
+```js
     if (condition1)
        statement1
     else if (condition2)
@@ -23,7 +26,7 @@ Multiple `if...else` statements can be nested to create an `else if` clause. Thi
     ...
     else
        statementN
-
+```
 _**Note:**_ If you want to execute more than one statement in the `if`, `else` or `else if` part, curly braces are required around the statements.
 
 <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else' target='_blank' rel='nofollow'>MDN link</a> | <a href='https://msdn.microsoft.com/en-us/library/85yyde5c.aspx' target='_blank' rel='nofollow'>MSDN link</a>
@@ -32,14 +35,17 @@ _**Note:**_ If you want to execute more than one statement in the `if`, `else` o
 
 **Using** `if...else`:
 
+```js
     if (x == 5) {
       z = 7;
       q = 42;
     } else
       z = 19;
+```
 
 **Using** `else if`:
 
+```js
     if (x < 10)
       return "Small number";
     else if (x < 50)
@@ -50,3 +56,4 @@ _**Note:**_ If you want to execute more than one statement in the `if`, `else` o
       flag = 1;
       return "Invalid number";
     }
+```

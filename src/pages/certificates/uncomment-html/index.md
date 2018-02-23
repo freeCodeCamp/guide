@@ -3,7 +3,9 @@ title: Uncomment HTML
 ---
 Comments allow code to be ignored. In the HTML language, comments are done by wrapping the code you wish to ignore with `<!-- and -->`
 
+```html
     <!-- This text would not show up as it is a comment -->
+```
 
 You can easily uncomment by just removing the comment elements.
 

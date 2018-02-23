@@ -3,6 +3,7 @@ title: Override Class Declarations by Styling Id Attributes
 ---
 We can use `id` to override styling too. `id` should have a higher priority than `class`, so its rules apply if a conflict occurs.
 
+```html
     <style>
       body {
         background-color: black;
@@ -18,3 +19,4 @@ We can use `id` to override styling too. `id` should have a higher priority than
       #orange-text{color:orange;}
     </style>
     <h1 class="pink-text blue-text" id="orange-text">Hello World!</h1>
+```

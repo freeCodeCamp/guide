@@ -5,11 +5,13 @@ When a `return` statement is reached, the execution of the current function stop
 
 ## Example
 
+```js
     function myFun() {
       console.log("Hello");
       return "World";
       console.log("byebye")
     }
     myFun();
+```
 
 The above outputs "Hello" to the console, returns "World", but `"byebye"` is never output, because the function exits at the `return` statement.

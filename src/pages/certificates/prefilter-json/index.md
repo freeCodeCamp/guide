@@ -9,8 +9,10 @@ Let's filter out the cat who's "id" key has a value of 1.
 
 Here's the code to do this:
 
+```js
     json = json.filter(function(val) {
 
       return(val.id !== 1);
 
     });
+```

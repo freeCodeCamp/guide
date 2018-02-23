@@ -7,11 +7,13 @@ Here is the **syntax** for `do...while` loop:
 
 ## Syntax:
 
+```js
      do {
 
        *Statement(s);*
 
     } while (*condition*);
+```
 
 **statement(s):** A statement that is executed **at least once** before the condition or Boolean expression is evaluated and is re-executed each time the condition evaluates to true.
 
@@ -19,17 +21,20 @@ Here is the **syntax** for `do...while` loop:
 
 ## Example:
 
+```js
     var i = 0;
     do {
       i = i + 1;
       console.log(i);
     } while (i < 5);
-
-    Output:
+```
+Output:
+```text
     1
     2
     3
     4
     5
+```
 
 source: <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/do...while' target='_blank' rel='nofollow'>**do...while**</a>

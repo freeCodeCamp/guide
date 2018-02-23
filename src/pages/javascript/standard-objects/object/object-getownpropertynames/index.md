@@ -5,7 +5,9 @@ The `Object.getOwnPropertyNames()` method returns an array of all properties (en
 
 ## Syntax
 
+```js
     Object.getOwnPropertyNames(obj)
+```
 
 ### Parameters
 
@@ -21,6 +23,7 @@ The object whose enumerable _and non-enumerable_ own properties are to be return
 
 ## Examples
 
+```js
     var arr = ['a', 'b', 'c'];
     console.log(Object.getOwnPropertyNames(arr).sort()); // logs '0,1,2,length'
 
@@ -49,23 +52,24 @@ The object whose enumerable _and non-enumerable_ own properties are to be return
     console.log(Object.getOwnPropertyNames(my_obj).sort()); // logs 'foo,getFoo'
 
     function Pasta(grain, size, shape) {
-        this.grain = grain; 
-        this.size = size; 
-        this.shape = shape; 
+        this.grain = grain;
+        this.size = size;
+        this.shape = shape;
     }
 
     var spaghetti = new Pasta("wheat", 2, "circle");
 
     var names = Object.getOwnPropertyNames(spaghetti).filter(CheckKey);
-    document.write(names); 
+    document.write(names);
 
-    // Check whether the first character of a string is 's'. 
+    // Check whether the first character of a string is 's'.
     function CheckKey(value) {
-        var firstChar = value.substr(0, 1); 
+        var firstChar = value.substr(0, 1);
         if (firstChar.toLowerCase() == 's')
-            return true; 
+            return true;
         else
-             return false; 
+             return false;
     }
     // Output:
     // size,shape
+```

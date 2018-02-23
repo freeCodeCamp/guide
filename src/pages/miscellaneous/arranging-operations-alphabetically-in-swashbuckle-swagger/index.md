@@ -9,6 +9,7 @@ Although the operations will not appear in alphabetical order, Swashbuckle allow
 
 The code below creates a <a href='https://github.com/domaindrivendev/Swashbuckle#documentfilter' target='_blank' rel='nofollow'>DocumentFilter</a> which is then applied to the final document as outlined <a href='https://github.com/domaindrivendev/Swashbuckle#modifying-generated-operations' target='_blank' rel='nofollow'>here</a>.
 
+```csharp
     using Swashbuckle.Swagger;
     using System;
     using System.Collections.Generic;
@@ -56,9 +57,11 @@ The code below creates a <a href='https://github.com/domaindrivendev/Swashbuckle
             }
         }
     }
+```
 
 Now you can simply add it to the config file like this
 
+```csharp
     .EnableSwagger(c =>
         {
             ...
@@ -66,6 +69,7 @@ Now you can simply add it to the config file like this
             ...
         }
     );
+```
 
 ## References:
 

@@ -13,7 +13,9 @@ To remove all pre-installed bloatware because of privacy concerns or to keep you
 
 You can create a temporary alias like this:
 
+```text
     alias alias_name="command_to_run"
+```
 
 However, when you close your shell session, this alias will cease to exist.
 

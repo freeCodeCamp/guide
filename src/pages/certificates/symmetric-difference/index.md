@@ -38,12 +38,14 @@ Use `Array.prototype.reduce` along with `yourFunction` to repeat the process on 
 
 Something strange about the definition of symmetric difference is that if one identical item occurs in three different sets, it is a member of the symmetric difference. For example:
 
+```js
     a = [1, 2, 5]
     b = [2, 3, 5]
     c = [3, 4, 5]
 
     sym(a, b) = [1, 3]
     sym([1, 3], c) = [1, 4, 5]
+```
 
 > _try to solve the problem now_
 
@@ -55,6 +57,7 @@ Something strange about the definition of symmetric difference is that if one id
 
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
 
+```js
     function sym() {
         var args = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>];
         for (var i = 0; i < arguments.length; i++) {
@@ -82,6 +85,7 @@ Something strange about the definition of symmetric difference is that if one id
         // Apply reduce method to args array, using the symDiff function
         return args.reduce(symDiff);
     }
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/C4II/0' target='_blank' rel='nofollow'>Run Code</a>
 
@@ -103,6 +107,7 @@ Something strange about the definition of symmetric difference is that if one id
 
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution:
 
+```js
     function sym() {
 
       // Convert the argument object into a proper array
@@ -135,6 +140,7 @@ Something strange about the definition of symmetric difference is that if one id
 
     // test here
     sym([1, 2, 3], [5, 2, 1, 4]);
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLoc/0' target='_blank' rel='nofollow'>Run Code</a>
 
@@ -155,6 +161,7 @@ Something strange about the definition of symmetric difference is that if one id
 
 ## ![:rotating_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:") Advanced Code Solution:
 
+```js
     function sym() {
       // difference between set A and set B
       const diff = (A, B) => new Set(<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>...A].filter(n => !B.has(n)));
@@ -172,6 +179,7 @@ Something strange about the definition of symmetric difference is that if one id
 
     // test here
     sym([1, 2, 3], [5, 2, 1, 4]);
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLod/0' target='_blank' rel='nofollow'>Run Code</a>
 

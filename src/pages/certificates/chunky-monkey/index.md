@@ -133,7 +133,9 @@ Finally, we need a method to do the actual splitting and we can use `Array.slice
 *   Our while loop loops until `i` is equal to or more than the length of the array in our test.
 *   Inside our loop, we push to the `newArr` array using `arr.slice(i, i+size)`. For the first time it loops, it will look something like:
 
+```js
     newArr.push(arr.slice(1, 1+2))
+```
 
 *   After we push to `newArr`, we add the variable of `size` onto `i`.
 *   Finally, we return the value of `newArr`.

@@ -10,21 +10,23 @@ title: Learn About Ruby Numbers
 
 ## Examples:
 
-    x = 5.5
-    x.class
-    # returns
-    Float
+```ruby
+x = 5.5
+x.class
+# returns
+Float
 
-    x = 5
-    x.class
-    # returns
-    Fixnum
+x = 5
+x.class
+# returns
+Fixnum
 
-    x = 11122233344455566677
-    x.class
-    # returns
-    Bignum # basically, Bignum is a very large number
-    # <a href='http://ruby-doc.org/core-2.0.0/Bignum.html' target='_blank' rel='nofollow'>read this article for more info</a>
+x = 11122233344455566677
+x.class
+# returns
+Bignum # basically, Bignum is a very large number
+```
+* <a href='http://ruby-doc.org/core-2.0.0/Bignum.html' target='_blank' rel='nofollow'>read this article for more info</a>
 
 ## References:
 

@@ -9,8 +9,9 @@ Insertion sort is the simplest and efficient sorting algorithm for small number 
  In Insertion sort, you compare the `key` element with the previous elements. If the previous elements are greater than the `key` element, then you move the previous element to the next position.
 
 Start from index 1 to size of the input array.
-
+```text
 [ 8 3 5 1 4 2 ]
+```
 
 Step 1 :
 

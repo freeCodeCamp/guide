@@ -9,13 +9,13 @@ In the game of golf each hole has a **par** meaning the average number of **stro
 
 Your function will be passed **par** and **strokes** arguments. You've to return the correct string according to this table which lists the strokes in order of priority; top (highest) to bottom (lowest):
 
-Strokes | Return  
-:--------- | :-------------  
-1 | "Hole-in-one!"  
-<= par - 2 | "Eagle"  
-par - 1 | "Birdie"  
-par | "Par"  
-par + 1 | "Bogey"  
+Strokes | Return
+:--------- | :-------------
+1 | "Hole-in-one!"
+<= par - 2 | "Eagle"
+par - 1 | "Birdie"
+par | "Par"
+par + 1 | "Bogey"
 par + 2 | "Double Bogey"
 
 > = par + 3 | "Go Home!"
@@ -59,6 +59,7 @@ Control the flow of your function based on the tables order of priority - top (h
 
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
 
+```js
     function golfScore(par, strokes) {
       // Only change code below this line
       if (strokes == 1){
@@ -80,6 +81,7 @@ Control the flow of your function based on the tables order of priority - top (h
     }
     // Change these values to test
     golfScore(5, 4);
+```
 
 ### Code Explanation:
 

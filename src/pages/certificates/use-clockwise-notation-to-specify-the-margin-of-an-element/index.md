@@ -5,7 +5,9 @@ Instead of specifying an element's`margin-top`, `margin-right`, `margin-bottom`,
 
 These four values work like a clock: top, right, bottom, left, and will produce the exact same result as using the side-specific margin instructions.
 
+```css
     .green-box {
       background-color: green;
       margin: 40px 20px 20px 40px;
     }
+```

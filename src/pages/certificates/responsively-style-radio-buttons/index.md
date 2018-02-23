@@ -5,6 +5,7 @@ You can use Bootstrap's `col-xs-*` classes on `form` elements. That will make ra
 
 Nest all of your radio buttons within a `<div class="row">` element. Then nest each of them within a `<div class="col-xs-6">` element.
 
+```html
     <form action="/submit-cat-photo">
       <div class="row">
         <div class="col-xs-6"><label><input type="radio" name="indoor-outdoor"> Indoor</label></div>
@@ -16,3 +17,4 @@ Nest all of your radio buttons within a `<div class="row">` element. Then nest e
       <input type="text" placeholder="cat photo URL" required>
       <button type="submit">Submit</button>
     </form>
+```

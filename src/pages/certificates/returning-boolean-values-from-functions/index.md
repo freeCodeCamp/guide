@@ -5,6 +5,7 @@ You may recall from Comparison with the Equality Operator that all comparison op
 
 A common `anti-pattern` is to use an `if/else` statement to do a comparison and then return `true/false`:
 
+```js
     function isEqual(a,b) {
       if(a === b) {
         return true;
@@ -12,9 +13,12 @@ A common `anti-pattern` is to use an `if/else` statement to do a comparison and 
         return false;
       }
     }
+```
 
 Since `===` returns `true` or `false`, we can simply return the result of the comparison:
 
+```js
     function isEqual(a,b) {
       return a === b;
     }
+```

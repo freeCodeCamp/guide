@@ -5,9 +5,11 @@ The for statement creates a loop that consists of three optional expressions, en
 
 The for loop has the following syntax:
 
-    for (<a href='http://forum.freecodecamp.com/t/javascript-while-loop/14668' target='_blank' rel='nofollow'>initialization]; [condition]; [final-expression]) {  
-        code block to be executed                  
+```js
+    for (<a href='http://forum.freecodecamp.com/t/javascript-while-loop/14668' target='_blank' rel='nofollow'>initialization]; [condition]; [final-expression]) {
+        code block to be executed
     }
+```
 
 [initialization] is executed before the loop (the code block) starts.
 
@@ -17,10 +19,12 @@ The for loop has the following syntax:
 
 ## Example in JavaScript:
 
+```js
     var ourArray = [];
     for (var i = 0; i < 5; i++) {
         ourArray.push(i);
     }
+```
 
 From the example above, you can read:
 

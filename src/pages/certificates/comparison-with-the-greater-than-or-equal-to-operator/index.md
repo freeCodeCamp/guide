@@ -7,7 +7,9 @@ Like the equality operator, greater than equal to operator will convert data typ
 
 ## Examples
 
+```js
      6  >=  6  // true
      7  >= '3' // true
      2  >=  3  // false
     '7' >=  9  // false
+```

@@ -3,7 +3,9 @@ title: Delete Properties from a JavaScript Object
 ---
 We can also delete properties from objects like this:
 
+```js
     delete ourDog.bark;
+```
 
 The **delete operator** removes a property from an object.
 
@@ -11,8 +13,10 @@ The **delete operator** removes a property from an object.
 
 `delete expression` where expression should evaluate to a property reference, e.g.:
 
+```js
     delete object.property
     delete object['property']
+```
 
 ## Parameters
 

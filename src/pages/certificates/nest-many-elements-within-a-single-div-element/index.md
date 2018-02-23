@@ -7,6 +7,7 @@ The div element is probably the most commonly used HTML element of all. It's use
 
 Just like any other non-self-closing element, you can open a `div` element with `<div>` and close it on another line with `</div>`.
 
+```html
     <div>
      <p>Things cats love:</p>
      <ul>
@@ -21,4 +22,4 @@ Just like any other non-self-closing element, you can open a `div` element with 
        <li>other cats</li>
      </ol>
     </div>
-    >
+```

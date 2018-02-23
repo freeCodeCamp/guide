@@ -7,8 +7,10 @@ You would typically want to UNDO/REDO when you commit some changes to git, and r
 
 Assuming you did some changes and made commits like:
 
-    git commit -m "Commit 1 - Some changes to the code"
-    git commit -m "Commit 2 - Some MORE changes to the code"
+```shell
+git commit -m "Commit 1 - Some changes to the code"
+git commit -m "Commit 2 - Some MORE changes to the code"
+```
 
 1.  (UNDO-ing): Revert back the last commit `git reset --soft HEAD~`
 2.  _Do the changes._

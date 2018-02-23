@@ -5,10 +5,12 @@ It is possible to have both `local` and `global` variables with the same name. W
 
 In this example:
 
+```js
     var someVar = "Hat";
     function myOutfit() {
       var someVar = "Head";
       return someVar;
     }
+```
 
 The function `myOutfit` will return `"Head"` because the `local` version of the variable is present.

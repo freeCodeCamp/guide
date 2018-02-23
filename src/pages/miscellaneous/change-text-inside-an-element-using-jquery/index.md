@@ -7,6 +7,8 @@ jQuery has a function called `.html()` that lets you add HTML tags and text with
 
 Here's how you would rewrite and italicize the text of our heading:
 
-    $("h3").html("<em>jQuery Funhouse</em>");
+```js
+$("h3").html("<em>jQuery Funhouse</em>");
+```
 
 jQuery also has a similar function called `.text()` that only alters text without adding tags. So when using `.html()` please remember that you will be editing the whole markup and not just the text.

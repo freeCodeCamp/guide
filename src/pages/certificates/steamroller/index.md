@@ -37,6 +37,7 @@ You will definitely need recursion or another way to go beyond two level arrays 
 
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
 
+```js
     function steamrollArray(arr) {
       var flattenedArray = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>];
 
@@ -59,6 +60,7 @@ You will definitely need recursion or another way to go beyond two level arrays 
 
     // test here
     steamrollArray([1, [2], [3, [[4]]]]);
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLnh/0' target='_blank' rel='nofollow'>Run Code</a>
 
@@ -77,12 +79,14 @@ You will definitely need recursion or another way to go beyond two level arrays 
 
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution:
 
+```js
     function steamrollArray(arr) {
       let flat = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>].concat(...arr);
       return flat.some(Array.isArray) ? steamrollArray(flat) : flat;
     }
 
     flattenArray([1, [2], [3, [[4]]]]);
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLni/0' target='_blank' rel='nofollow'>Run Code</a>
 
@@ -102,6 +106,7 @@ You will definitely need recursion or another way to go beyond two level arrays 
 
 ## ![:rotating_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:") Advanced Code Solution:
 
+```js
     function steamrollArray(arr) {
       return arr.toString()
         .replace(',,', ',')       // "1,2,,3" => "1,2,3"
@@ -116,6 +121,7 @@ You will definitely need recursion or another way to go beyond two level arrays 
           }
         });
     }
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CpDy/4' target='_blank' rel='nofollow'>Run Code</a>
 

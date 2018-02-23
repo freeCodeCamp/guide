@@ -5,6 +5,7 @@ Objects have their own attributes, called _properties_, and their own functions,
 
 You can use the `this` keyword to reference _public properties and methods_ of the current objects. However, when You need to create private ones so they are not accessible from the outside of the object you just remove the keyword `this` from the object property or method declaration and declare it with `var` so that it is private outside its scope.
 
+```js
     var Bike = function() {
       var speed = 100; // private
       function addUnit(value) { // private
@@ -16,9 +17,11 @@ You can use the `this` keyword to reference _public properties and methods_ of t
       };
 
     };
+```
 
 ## Another example:
 
+```js
     var Cake = function() {
 
       var loot = 2;
@@ -31,3 +34,4 @@ You can use the `this` keyword to reference _public properties and methods_ of t
       this.setLoot = function(num){
         loot = num;
       };
+```

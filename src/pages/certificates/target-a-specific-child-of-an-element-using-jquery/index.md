@@ -5,4 +5,6 @@ jQuery uses CSS Selectors to target elements. `target:nth-child(n)` css selector
 
 Here's how you would give the third element in each well bounce: `$(".target:nth-child(3)").addClass("animated bounce");`
 
+```js
     $(".btn:nth-child(2)").addClass("animated bounce");
+```

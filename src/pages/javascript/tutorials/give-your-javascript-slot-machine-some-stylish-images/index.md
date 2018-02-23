@@ -5,4 +5,6 @@ We've already set up the images for you in an array called images. We can use di
 
 Here's how we would set the first slot to show a different image depending on which number its random number generates:
 
+```js
     $($('.slot')[0]).html('<img src = "' + images[slotOne-1] + '">');
+```

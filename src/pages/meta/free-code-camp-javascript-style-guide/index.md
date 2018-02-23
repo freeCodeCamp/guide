@@ -5,7 +5,7 @@ title: Free Code Camp JavaScript Style Guide
 
 ## Indent
 
-Always Use Two Spaces  
+Always Use Two Spaces
 No hard tabs, ever. No really, just don't do it.
 
 ## Curly Braces
@@ -14,11 +14,15 @@ Always use curly braces when using the keywords `if/else/else if`. This prevents
 
 Bad:
 
-    if (foo) bar();
+```js
+if (foo) bar();
+```
 
 Good:
 
-    if (foo) { bar(); }
+```js
+if (foo) { bar(); }
+```
 
 ## Curly Braces Everywhere!
 
@@ -26,23 +30,27 @@ Space After `function` Keyword, Except in Anonymous Functions
 
 Good:
 
-    function foo() {
-    }
+```js
+function foo() {
+}
 
-    var foo = function() {
-      // ...
-    };
+var foo = function() {
+  // ...
+};
+```
 
 Bad:
 
-    function foo ()
-    {
-      // ...
-    }
+```js
+function foo ()
+{
+  // ...
+}
 
-    var foo = function () {
-      // ...
-    };
+var foo = function () {
+  // ...
+};
+```
 
 ## Comments
 
@@ -57,16 +65,20 @@ Bad:
 
 Good:
 
-    if (true) {
-     // do the thing
-    }
+```js
+if (true) {
+ // do the thing
+}
+```
 
 Bad:
 
-    if(true)
-    {
-     // do the thing
-    }
+```js
+if(true)
+{
+ // do the thing
+}
+```
 
 ## Else
 
@@ -76,41 +88,47 @@ This also has the side effect of making code cleaner and easier to read.
 
 Bad:
 
-    someAsynFunc(function(err, data) {
-      if (err) {
-        callback(err);
-      } else {
-        // do stuff with data
-      }
-    });
+```js
+someAsynFunc(function(err, data) {
+  if (err) {
+    callback(err);
+  } else {
+    // do stuff with data
+  }
+});
+```
 
 Good:
 
-    someAsynFunc(function(err, data) {
-      if (err) {
-        return callback(err);
-      }
-      // do stuff with data
-      // saves one indent
-    });
+```js
+someAsynFunc(function(err, data) {
+  if (err) {
+    return callback(err);
+  }
+  // do stuff with data
+  // saves one indent
+});
+```
 
 ## Long Strings
 
 Long multiline strings should be in one of two forms:
 
-    var longString =
-      ‘long strings should ‘ +
-      ‘be in this form, with the ‘ +
-      ‘operator ending the line’;
+```js
+var longString =
+  ‘long strings should ‘ +
+  ‘be in this form, with the ‘ +
+  ‘operator ending the line’;
 
-    var foo = 'bar';
+var foo = 'bar';
 
-    var longString = [
-      'long strings with variables such as ',
-      foo,
-      'should ',
-      'be in this form, an array of strings ',
-      'that are joined with the join array instance method',
-    ].join('');
+var longString = [
+  'long strings with variables such as ',
+  foo,
+  'should ',
+  'be in this form, an array of strings ',
+  'that are joined with the join array instance method',
+].join('');
+```
 
 ...more to come

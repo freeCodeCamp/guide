@@ -5,7 +5,9 @@ Strict equality (`===`) is the counterpart to the equality operator (`==`). Unli
 
 ## Examples
 
+```js
     3 === 3   // true
     3 === '3' // false
+```
 
 _In the second example, `3` is a `Number` type and `'3'` is a `String` type._
