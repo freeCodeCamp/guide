@@ -4,7 +4,7 @@ title: Linked Lists
 
 ## Linked Lists
 
-#### A Linked List is a simple *linear-access* data structure. 
+#### A Linked List is a simple *linear-access* data structure.
 A linked list is a simple data structure, but it can be used to implement more complicated Data Structures like Queues, Stacks, etc. There are three types of Linked Lists:
 
 1. Simple Linked List
@@ -25,32 +25,32 @@ Advantages over arrays
 1) Dynamic size
 2) Ease of insertion/deletion
 
-``` 
+```text
 static = size fixed at creation time
 linear = stored linearly in memory as a single block
 ```
 
 #### Arrays have the following disadvantages:-
-1. Arrays are static structures and therefore cannot be easily extended or reduced to fit the data set. 
+1. Arrays are static structures and therefore cannot be easily extended or reduced to fit the data set.
 2. Arrays are also expensive to maintain new insertions and deletions.
 
-Linked Lists address some of the limitations of arrays. Unlike an array, where all the elements are stored in a contiguous block of memory, in a linked list each element is a separate object and has a **link** to the next element in sequence. This allows a linked list to start with space for only one element, and grow to accomodate an arbitrary number of elements by allocating memory as and when needed. 
+Linked Lists address some of the limitations of arrays. Unlike an array, where all the elements are stored in a contiguous block of memory, in a linked list each element is a separate object and has a **link** to the next element in sequence. This allows a linked list to start with space for only one element, and grow to accomodate an arbitrary number of elements by allocating memory as and when needed.
 
 Deleting elements is also simply handled by manipulating links.
 
 Once you understand the Simple Linked List (which from here on will be referred as **'List'**), you can move on to the Doubly Linked List.
 
 A List as illustrated below is made up of the following components:-
-```
-         head    
+```text
+         head
              |
-             | 
+             |
         +---+---+     +---+---+       +----+------+
         | 1  | o----->|  2  | o-----> |  3 |   φ  |
-        +---+---+     +---+---+       +----+------+       
+        +---+---+     +---+---+       +----+------+
                                               |
-                                              | 
-                                              tail    
+                                              |
+                                              tail
 ```
 | Node      | Significance     |
 | ----------|-------------|
@@ -58,8 +58,8 @@ A List as illustrated below is made up of the following components:-
 | Node(s)   | Dynamically allocated self-referential block contain 1 Data element and a link to the next node |
 | TAIL      | End of the List |
 
-Most common operations available on List are,  
-1. AddFirst - Inserts an element at the front of the List.  
+Most common operations available on List are,
+1. AddFirst - Inserts an element at the front of the List.
 2. AddLast - Inserts an element at the tail of the List.
 3. InsertAfter - Inserts an element after an existing element in the List.
 4. InsertBefore - Inserts an element before an existing element in the List.
@@ -69,10 +69,10 @@ Most common operations available on List are,
 8. IsEmpty - Check whether the List is empty or not.
 
 
-#### Applications  
-* Base Data Structure for Vector, Array, Queue, Stack, etc  
-* Polynomial Representation  
-* Ring Buffer  
+#### Applications
+* Base Data Structure for Vector, Array, Queue, Stack, etc
+* Polynomial Representation
+* Ring Buffer
 
 #### More Information:
 * <a href='http://www.geeksforgeeks.org/linked-list-set-1-introduction/' target='_blank' rel='nofollow'>Introduction to Linked Lists</a>
@@ -88,7 +88,7 @@ Types:
 2) (Doubly) In a 'doubly linked list', each node contains, besides the next-node link, a second link field pointing to the 'previous' node in the sequence. The two links may be called 'forward('s') and 'backwards', or 'next' and 'prev'('previous').
 
 Example in Javascript:
-```
+```js
 function LinkedList () {
 		this.head = null;
 		this.tail = null;
@@ -110,7 +110,7 @@ function LinkedList () {
 	}
 
     LinkedList.prototype.addToHead = function(value) {
-	
+
 		let newNode = new Node(value, this.head, null);
 
 		if (this.head) this.head.prev = newNode;
@@ -125,13 +125,13 @@ function LinkedList () {
 
 ```
 Now Execute code
-```
+```js
 let LL = new LinkedList();
 
 	LL.addToHead(100);
 
 	LL.addToHead(200);
-    
+
 	console.log(LL);
 
 ```
@@ -143,7 +143,7 @@ Each node in a list consists of at least two parts:
 2) pointer to the next node
 In C, we can represent a node using structures. Below is an example of a linked list node with an integer data.
 In Java, LinkedList can be represented as a class and a Node as a separate class. The LinkedList class contains a reference of Node class type
-```C
+```c
 // A linked list node
 struct Node
 {
@@ -152,92 +152,93 @@ struct Node
 };
 ```
 # Linked List with three elements
+
 ```c
 // A simple C program to introduce
 // a linked list
 #include<stdio.h>
 #include<stdlib.h>
- 
-struct Node 
+
+struct Node
 {
   int data;
   struct Node *next;
 };
- 
-// Program to create a simple linked 
+
+// Program to create a simple linked
 // list with 3 nodes
 int main()
 {
   struct Node* head = NULL;
   struct Node* second = NULL;
   struct Node* third = NULL;
-   
-  // allocate 3 nodes in the heap  
-  head = (struct Node*)malloc(sizeof(struct Node)); 
+
+  // allocate 3 nodes in the heap
+  head = (struct Node*)malloc(sizeof(struct Node));
   second = (struct Node*)malloc(sizeof(struct Node));
   third = (struct Node*)malloc(sizeof(struct Node));
- 
-  /* Three blocks have been allocated  dynamically. 
-     We have pointers to these three blocks as first, second and third     
+
+  /* Three blocks have been allocated  dynamically.
+     We have pointers to these three blocks as first, second and third
        head           second           third
         |                |               |
         |                |               |
     +---+-----+     +----+----+     +----+----+
     | #  | #  |     | #  | #  |     |  # |  # |
     +---+-----+     +----+----+     +----+----+
-    
+
    # represents any random value.
    Data is random because we haven’t assigned anything yet  */
-   
+
   head->data = 1; //assign data in first node
   head->next = second; // Link first node with the second node
-   
-  /* data has been assigned to data part of first block (block 
+
+  /* data has been assigned to data part of first block (block
     pointed by head).  And next pointer of first block points to
     second.  So they both are linked.
- 
+
        head          second         third
         |              |              |
         |              |              |
     +---+---+     +----+----+     +-----+----+
     | 1  | o----->| #  | #  |     |  #  | #  |
-    +---+---+     +----+----+     +-----+----+    
-  */ 
-   
+    +---+---+     +----+----+     +-----+----+
+  */
+
   second->data = 2; //assign data to second node
   second->next = third; // Link second node with the third node
-   
+
   /* data has been assigned to data part of second block (block pointed by
-     second). And next pointer of the second block points to third block.  
+     second). And next pointer of the second block points to third block.
     So all three blocks are linked.
-   
+
        head         second         third
         |             |             |
         |             |             |
     +---+---+     +---+---+     +----+----+
     | 1  | o----->| 2 | o-----> |  # |  # |
-    +---+---+     +---+---+     +----+----+      */   
-   
+    +---+---+     +---+---+     +----+----+      */
+
   third->data = 3; //assign data to third node
   third->next = NULL;
-   
+
   /* data has been assigned to data part of third block (block pointed
     by third). And next pointer of the third block is made NULL to indicate
     that the linked list is terminated here.
- 
-     We have the linked list ready.  
- 
-           head    
+
+     We have the linked list ready.
+
+           head
              |
-             | 
+             |
         +---+---+     +---+---+       +----+------+
         | 1  | o----->|  2  | o-----> |  3 | NULL |
-        +---+---+     +---+---+       +----+------+       
-    
-     
-    Note that only head is sufficient to represent the whole list.  We can 
-    traverse the complete list by following next pointers.    */     
- 
+        +---+---+     +---+---+       +----+------+
+
+
+    Note that only head is sufficient to represent the whole list.  We can
+    traverse the complete list by following next pointers.    */
+
   return 0;
 }
 ```

@@ -9,7 +9,7 @@ Each will return a copy of the string with characters removed, at from the begin
 
 Example:
 
-```
+```python
 >>> string = '   Hello, World!    '
 >>> strip_beginning = string.lstrip()
 >>> strip_beginning
@@ -24,7 +24,7 @@ Example:
 
 An optional argument can be provided as a string containing all characters you wish to strip.
 
-```
+```python
 >>> url = 'www.example.com/'
 >>> url.strip('w./')
 'example.com'

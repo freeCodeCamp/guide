@@ -27,7 +27,7 @@ print(kiss)
 ```
 
 #### Output
-```
+```py
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 ValueError: list.remove(x): x not in list

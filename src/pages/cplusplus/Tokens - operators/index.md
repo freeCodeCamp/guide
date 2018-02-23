@@ -6,15 +6,15 @@ title: Operators
 
 * Operators let you perform operations on your data.
 * The data that is being operated on is called the  _operand_ .
-* The different types of operators in C++ are : 
+* The different types of operators in C++ are :
 * *OPERANDS* are the data on which the operator performs certain commands.
 * Operators are of 3 types : unary(works on 1 operand), binary(works on 2 operands) , ternary(works on 3 operands).
 
 ### 1 The I/O operators -
 
 * These operators allow you to direct input and output.
- ## The Input oerator ">>" ## 
- is used to read data from standard iinput (the "cin" statement) .  
+ ## The Input oerator ">>" ##
+ is used to read data from standard iinput (the "cin" statement) .
 
  ##The Output operator "<<"##
  is used to send output in the `cout` stateement.
@@ -29,7 +29,7 @@ title: Operators
  5. The `%` operator *divides and gives the remainder* of the 2 operands.
 
  ### Example of using arithmetic operators :
- 
+
  ```cpp
  #include<iostream>
 using namespace std;
@@ -38,18 +38,18 @@ int main()
 {
   int a=5; //1st operand
   int b= 10; //2nd operand
-  
+
   cout<<"+ operator "<<a+b<<endl; //Add
   cout<<"- operator "<<a-b<<endl; //Subtract
   cout<<"* operator "<<a*b<<endl; //Multiply
   cout<<"/ operator "<<b/a<<endl; //Find Quotient
   cout<<"modulus operator "<<b%a<<endl; //Find remainder
- return 0; 
+ return 0;
 }
  ```
- 
+
  OUTPUT :
-```
+```text
 + operator 15
 - operator -5
 * operator 50
@@ -63,7 +63,7 @@ modulus operator 0
 
 * `++` is known as the increment operator. It increases the value of an integer variable by 1.
 
-The 2 types of increment : 
+The 2 types of increment :
 
 * Pre increment is 1st incrementing the value and then using it. Example : `int a ; ++a;`
 * Post increment is 1st using the variable then incrementing it. Example : `int b; b++;`
@@ -72,7 +72,7 @@ The 2 types of increment :
 
 * `--` is known as the decrement operator. It decreases the value of an integer variable by 1.
 
-The 2 types of decrement : 
+The 2 types of decrement :
 
 * Pre decrement is 1st decrementing the value and then using it. Example : `int a ; --;`
 * Post decrement is 1st using the variable then decrementing it. Example : `int b; b--;`
@@ -84,16 +84,16 @@ Example of Increment and decrement operators :
 using namespace std;
 
 int main()
-{ 
+{
   int a=3,b=4;
-  
+
   // INCREMENT
   cout<<"Value of int a PRE INCREMENTED : "<<++a<<endl;
   cout<<"Value of int b POST INCREMENTED : "<<b++<<endl;
   cout<<"Value of b is changed after using once : "<<b<<endl;
-  
+
   // DECREMENT
-  cout<<"\n"; //go to next line 
+  cout<<"\n"; //go to next line
   a=10; //Assigning a new value to a
   b=10; //Assigning a new value to b
   cout<<"Value of int a PRE DECREMENTED : "<<--a<<endl;
@@ -105,7 +105,7 @@ int main()
 
 OUTPUT :
 
-```
+```text
 Value of int a PRE INCREMENTED : 4
 Value of int b POST INCREMENTED : 4
 Value of b is changed after using once : 5
@@ -130,17 +130,17 @@ Value of b is changed after using once : 9
     6. Not equal to `!=`
 
 
-### 4 : Logical Operators : 
+### 4 : Logical Operators :
 
 * These operators combine expressions for logical operations . They are :
  1. Logical AND `&&` : Evaluates to true if both values are true .
  2. Logical OR `||`  : Evaluates to true if any value is true .
  3. Logical NOT `!`  : If *expression* is true then *!expression* is false. This operator reverses the truth value and is a unary operator.
 
-_Camper , You now know what are tokens. The next article will be about <need-to-put-topic> CONGRATULATIONS_ 
- 
- **Good Luck to all of you** 
- 
+_Camper , You now know what are tokens. The next article will be about <need-to-put-topic> CONGRATULATIONS_
+
+ **Good Luck to all of you**
+
  **Happy Coding ! :)**
- 
+
  **Feel free to ask any queries on FreeCodeCamp's GitHub page or <a href='https://forum.freecodecamp.org/' target='_blank' rel='nofollow'>FreeCodeCamp's Forum .</a>**

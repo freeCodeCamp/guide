@@ -1,5 +1,5 @@
 ---
-title: Converting Units Minutes to Hours		
+title: Converting Units Minutes to Hours
 ---
 
 ## Converting Units Minutes to Hours
@@ -19,12 +19,12 @@ The symbols for time in minutes and hours are **min** and **h** respectively (Th
 
 Converting from time in minutes to time in hours:
 
-```
+```text
 90 minutes = (90 / 60) hours = 1.5 hours
 ```
 
 Converting from time in hours to time in minutes:
 
-```
+```text
 24 hours = (24 * 60) minutes = 1440 minutes
 ```

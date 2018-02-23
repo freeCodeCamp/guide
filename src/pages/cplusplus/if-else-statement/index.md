@@ -57,7 +57,7 @@ else
 //Program to check whether number entered by user is positive or negative
 #include <iostream>
 using namespace std ;
-int main()  
+int main()
 {
   int no;
   cout<<"Enter a number : "<<endl;
@@ -82,16 +82,16 @@ int main()
 ### Output
 
 * When a positive number is entered :
-```
-Enter a number : 
+```text
+Enter a number :
  4
 You entered a positive number : 4
 This step is always printed
 ```
 
 * When a negative number is entered :
-```
-Enter a number : 
+```text
+Enter a number :
  -200
 You entered a negative number : -200
 This step is always printed
@@ -99,9 +99,9 @@ This step is always printed
 
 [Try the code yourself](https://repl.it/MzBq)
 
-_CONGRATULATIONS . This is the end of the article on the IF statement_ 
+_CONGRATULATIONS . This is the end of the article on the IF statement_
 
-**Good Luck to all of you** 
+**Good Luck to all of you**
 
 **Happy Coding ! :)**
 

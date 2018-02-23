@@ -72,21 +72,21 @@ Abstract Flow
 Code Example:
 
 authorization request
-```
+```http
 GET /oauth2/authorize?response_type=code
 &client_id=client123&scope=profile
 &redirect_uri=https://client.com/callback HTTP/1.1
 Host: auth.server.com
 ```
 
-```
+```http
 HTTP/1.1 302 Found
 Location: https://client.com/callback#code=sb8s6doy9bsd9sd&state=abcde
 ```
 
 post receiving authorization code , make request to authorization server with code,
 
-```
+```http
 POST /oauth2/token HTTP/1.1
 Host: auth.server.com
 Content-Type: application/x-www-form-urlencoded
@@ -100,7 +100,7 @@ grant_type=authorization_code
 ```
 
 response
-```
+```http
 HTTP/1.1 200 OK
 Content-Type: application/json;charset=UTF-8
 Cache-Control: no-store
@@ -127,14 +127,14 @@ Abstract Flow:
 
 Code Sample:
 
-```
+```http
 GET /oauth2/authorize?response_type=token
 &client_id=client123
 &redirect_uri=https://client.com/callback HTTP/1.1
 Host: auth.server.com
 ```
 
-```
+```http
 HTTP/1.1 302 Found
 Location: https://client.com/callback#access_token=98y2b38&token_type=bearer&expires_in=3600&state=abcde
 ```
@@ -153,7 +153,7 @@ Abstract Flow:
 
 Code Sample:
 
-```
+```http
 POST /oauth2/token HTTP/1.1
 Host: auth.server.com
 Content-Type: application/x-www-form-urlencoded
@@ -179,7 +179,7 @@ Abstract Flow:
 
 Code Sample:
 
-```
+```http
 POST /oauth2/token HTTP/1.1
 Host: auth.server.com
 Content-Type: application/x-www-form-urlencoded

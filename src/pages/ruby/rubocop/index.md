@@ -27,7 +27,7 @@ time on syntax issues.
 Rubocop is delivered as a Gem, so on a typical project which uses Bundler you
 would add it to the development section of your `Gemfile`:
 
-```
+```ruby
 group :development do
   gem rubocop
 end
@@ -40,14 +40,14 @@ everyone will agree on what the current best practice is.
 
 Before every commit, I like to check that my newly modified code complies with
 the commmunity standard, simply by running:
-```
+```shell
 rubocop
 ```
 
 This will output a list of warnings about your code.
 
 It can be helpful to ask Rubocop for more help:
-```
+```shell
 rubocop --extra-details --display-cop-names
 ```
 (You might add these to a `.rubocop` file to make them default.)
@@ -65,7 +65,7 @@ rubocop <my new file>
 
 I can edit make the suggested changes manually, or I can ask Rubocop to fix
 minor issues automatically:
-```
+```shell
 rubocop --auto-correct
 ```
 
@@ -77,6 +77,6 @@ In this case it can often be useful to run only a single cop across the
 codebase, and check those changes in before moving on to the next guideline, for
 example:
 
-```
+```shell
 rubocop --auto-correct --only 'Layout/EmptyLineAfterMagicComment'
 ```

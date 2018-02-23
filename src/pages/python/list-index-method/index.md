@@ -3,11 +3,11 @@ title: List Index Method
 ---
 ## List Index Method
 
-Among the many functions which come along with the list data structure the `index()` returns the the first occurrence/index of the element in the list given as an argument to the function. 
+Among the many functions which come along with the list data structure the `index()` returns the the first occurrence/index of the element in the list given as an argument to the function.
 
 Lists are the most basic Python data structure and stores a list of values in order (in comparison to dictionaries, which order doesn't matter). We retrieve the items by numerical index.
 
-Keeping in mind the fact that indexing starts from 0, or the first element is taken to be at the 0 index, let's have a look at some examples. 
+Keeping in mind the fact that indexing starts from 0, or the first element is taken to be at the 0 index, let's have a look at some examples.
 
 #### Example Usage:
 
@@ -46,7 +46,7 @@ words = ["I","am", "a", "I", "am", "Pythonista"]
 print(words.index("am",2,5))
 ```
 ##### Output:
-```
+```text
 4
 ```
 Here although the element is searched between the indices 2(inclusive) and 5(not inclusive) but the returned index is computed relative to the beginning of the full list rather than the start argument.

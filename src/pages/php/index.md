@@ -44,12 +44,12 @@ sudo apt install php
 ```
 
 After installing you can run any PHP files by simply doing this in terminal :
-```
+```bash
 php file.php
 ```
 
 You can also install a localhost server to run PHP websites. For installing Apache Web Server :
-```
+```bash
 sudo apt install apache2 libapache2-mod-php
 ```
 

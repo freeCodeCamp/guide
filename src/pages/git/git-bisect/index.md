@@ -17,7 +17,7 @@ git bisect good 4b60707
 ```
 
 Git will check out a commit between the "good" and "bad" versions and output something like the following:
-```
+```shell
 Bisecting: 2 revisions left to test after this (roughly 2 steps)
 ```
 

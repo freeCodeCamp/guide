@@ -4,12 +4,12 @@ title: else if statement
 
 Before diving into this tutorial you should have the concepts of if statement and else statement.
 Now let's take a look at else if statement.
-Suppose that you ask user to input two numbers and you tell them the greater number and if none of 
+Suppose that you ask user to input two numbers and you tell them the greater number and if none of
 them is greater then the other, then you print "Both are equal".
 
 In this scinerio you will need an else if statement. The program will look like this :
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 int main()
@@ -37,7 +37,7 @@ int main()
 }
 
 ```
-* Not that else if statement is executed if the first condition i.e (number1 > number2) return false otherwise elseif 
+* Not that else if statement is executed if the first condition i.e (number1 > number2) return false otherwise elseif
   statement will not be executed
-  
-* You can write multiple else if conditions depending on the problem you want to solve  
+
+* You can write multiple else if conditions depending on the problem you want to solve

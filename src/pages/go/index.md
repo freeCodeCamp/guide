@@ -14,17 +14,17 @@ Want a quick [Tour of Go?](https://tour.golang.org/welcome/1)
 For a quickstart and boilerplate Go project, try <a href='https://www.growthmetrics.io/open-source/alloy' target='_blank' rel='nofollow'>Alloy</a>
 
 1. Clone Alloy repository
-```
+```shell
 git clone https://github.com/olliecoleman/alloy
 cd alloy
 ```
 2. Install the dependencies
-```
+```shell
 glide install
 npm install
 ```
 3. Start the development server
-```
+```shell
 go install
 alloy dev
 ```

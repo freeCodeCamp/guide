@@ -12,10 +12,10 @@ Start from index 1 to size of the input array.
 
 [ 8 3 5 1 4 2 ]
 
-Step 1 :  
+Step 1 :
 
 ![[ 8 3 5 1 4 2 ]](https://github.com/blulion/freecodecamp-resource/blob/master/insertion_sort/1.png?raw=true)
-```
+```text
       key = 3 //starting from 1st index.
 
       Here `key` will be compared with the previous elements.
@@ -28,7 +28,7 @@ Step 1 :
 Step 2 :
 
 ![[ 3 8 5 1 4 2 ]](https://github.com/blulion/freecodecamp-resource/blob/master/insertion_sort/2.png?raw=true)
-```
+```text
       key = 5 //2nd index
 
       8 > 5 //move 8 to 2nd index and insert 5 to the 1st index.
@@ -38,10 +38,10 @@ Step 2 :
 Step 3 :
 
 ![[ 3 5 8 1 4 2 ]](https://github.com/blulion/freecodecamp-resource/blob/master/insertion_sort/3.png?raw=true)
-```
+```text
       key = 1 //3rd index
 
-      8 > 1     => [ 3 5 1 8 4 2 ]  
+      8 > 1     => [ 3 5 1 8 4 2 ]
 
       5 > 1     => [ 3 1 5 8 4 2 ]
 
@@ -52,7 +52,7 @@ Step 3 :
 Step 4 :
 
 ![[ 1 3 5 8 4 2 ]](https://github.com/blulion/freecodecamp-resource/blob/master/insertion_sort/4.png?raw=true)
-```
+```text
       key = 4 //4th index
 
       8 > 4   => [ 1 3 5 4 8 2 ]
@@ -66,7 +66,7 @@ Step 4 :
 Step 5 :
 
 ![[ 1 3 4 5 8 2 ]](https://github.com/blulion/freecodecamp-resource/blob/master/insertion_sort/5.png?raw=true)
-```
+```text
       key = 2 //5th index
 
       8 > 2   => [ 1 3 4 5 2 8 ]
@@ -115,7 +115,7 @@ A quick implementation in Swift is as shown below :
   }
 ```
 The Java example is shown below:
-```
+```java
 public int[] insertionSort(int[] arr)
       for (j = 1; j < arr.length; j++) {
          int key = arr[j]

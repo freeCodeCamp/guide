@@ -8,7 +8,7 @@ You can declare functions and properties as a lambda expression, without the nee
 
 Here is an example of a regular method declaration:
 ##
-```
+```csharp
 public Point CreatePoint(int x, int y)
 {
     return new Point(x, y);
@@ -16,6 +16,6 @@ public Point CreatePoint(int x, int y)
 ```
 The following gives the same result, but is written as an expression bodied function:
 ##
-```
+```csharp
 public Point CreatePoint(int x, int y) => new Point(x, y);
 ```

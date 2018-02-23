@@ -6,14 +6,14 @@ title: User management on Linux
 ## How to Create a User
 
 #### Use the `adduser` or `useradd` command to add a new user to your system.
-```
+```bash
 $ sudo adduser username
 ```
  Be sure to replace `username` with the user that you want to create.
 
 
 #### Use the `passwd` command to update the new user's password.
-```
+```bash
 $ sudo passwd username
 ```
 A strong password is highly recommended!
@@ -22,29 +22,29 @@ A strong password is highly recommended!
 ## How to Create a Sudo User
 
 To create a `sudo` user, you need to create a regular user first using the command above, then add this user to the group of `sudoers` using the `usermod` command.
-##### On Debian systems (Ubuntu/LinuxMint/ElementryOS), members of the `sudo` group have sudo privileges. 
-```
+##### On Debian systems (Ubuntu/LinuxMint/ElementryOS), members of the `sudo` group have sudo privileges.
+```bash
 $ sudo usermod -aG sudo username
 ```
 
 ##### On RHEL based syatems (Fedora/CentOs), members of the `wheel` group have sudo privilages.
-```
+```bash
 $ sudo usermod -aG wheel username
 ```
 
 
 ## How to Delete a User
 ##### For Debian (Ubuntu)
-```
+```bash
 $ sudo deluser username
 ```
 
 ##### For RHEL (Fedora/CentOS)
-```
+```bash
 $ sudo userdel username
 ```
 ##### Creating groups and adding users
-```
+```bash
 $ sudo groupadd editorial
 $ sudo usermod -a -G editorial username
 ```

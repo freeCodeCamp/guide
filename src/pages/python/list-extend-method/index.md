@@ -16,7 +16,7 @@ cities.extend(cities_in_texas)
 print(cities)
 ```
 #### Output
-```
+```text
 ["San Francisco", "Los Angeles", "New York", "San Antonio", "Austin", "Dallas"]
 ```
 

@@ -6,7 +6,7 @@ title: If
 
 The if statement executes different blocks of code based on conditions.
 
-```
+```c
 if (condition) {
 	// Do something when `condition` is true
 }
@@ -17,7 +17,7 @@ else {
 
 When `condition` is true, code inside the `if` section executes, otherwise `else` executes. Sometimes you would need to add a second condition. For readability, you should use a `else if` rather than nesting `if` statements.
 
-```
+```c
 if (condition) {
 	// Do something if `condition` is true
 }
@@ -33,7 +33,7 @@ Note that the `else` and `else if` sections are not required, while `if` is mand
 
 
 ## Example
-```
+```c
 #include <stdio.h>
 
 int main () {
@@ -58,7 +58,7 @@ int main () {
 ```
 
 ## Outuput
-```
+```text
 -> a is not less than 20!
 -> Value of a is : 100
 ```

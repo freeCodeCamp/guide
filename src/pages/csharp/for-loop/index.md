@@ -7,7 +7,7 @@ title: For Loop
 The for loop executes a block of code repeatedly until a specified conditional expression evaluates to false.
 
 Anatomy of for loop:
-```
+```csharp
 for (initialization; condition; iterator)
 {
     body
@@ -19,7 +19,7 @@ for (initialization; condition; iterator)
 - iterator       - Executes after each iteration of the body of the loop.
 
 ### Example 1
-```
+```csharp
 for (int i = 0; i < 5; i++)
 {
     Console.WriteLine("Number " + i);
@@ -27,7 +27,7 @@ for (int i = 0; i < 5; i++)
 ```
 
 ### Output:
-```
+```text
 > Number 0
 > Number 1
 > Number 2
@@ -36,7 +36,7 @@ for (int i = 0; i < 5; i++)
 ```
 
 ### Example 2
-```
+```csharp
 int j = 0;
 for (int i = 0; j < 5; i++)
 {
@@ -46,7 +46,7 @@ for (int i = 0; j < 5; i++)
 ```
 
 ### Output:
-```
+```text
 > Numbers 0 0
 > Numbers 1 1
 > Numbers 2 2
@@ -55,7 +55,7 @@ for (int i = 0; j < 5; i++)
 ```
 
 ### Example 3 - Simplification of Example 2
-```
+```csharp
 for (int i = 0, j = 0; i < 5 && j < 5; i++, j++)
 {
     Console.WriteLine("Numbers {0} {1}", i, j);
@@ -63,7 +63,7 @@ for (int i = 0, j = 0; i < 5 && j < 5; i++, j++)
 ```
 
 ### Output:
-```
+```text
 > Numbers 0 0
 > Numbers 1 1
 > Numbers 2 2
@@ -72,7 +72,7 @@ for (int i = 0, j = 0; i < 5 && j < 5; i++, j++)
 ```
 
 ### Example 4
-```
+```csharp
 for (int i = 5; i > 0; i--)
 {
     Console.WriteLine("Number " + i);
@@ -80,7 +80,7 @@ for (int i = 5; i > 0; i--)
 ```
 
 ### Output:
-```
+```text
 > Number 5
 > Number 4
 > Number 3
@@ -89,7 +89,7 @@ for (int i = 5; i > 0; i--)
 ```
 
 ### Example 5
-```
+```csharp
 // Infinite loop - The loop body is executed infinitely
 for (; ;)
 {
@@ -100,7 +100,7 @@ for (; ;)
 Console.WriteLine("Never considered for execution");
 ```
 ### Output:
-```
+```text
 > The universe is infinite
 > The universe is infinite
 > The universe is infinite
@@ -109,7 +109,7 @@ Console.WriteLine("Never considered for execution");
 ```
 
 ### Example 6
-```
+```csharp
 int i = 0;
 for (; i < 5;)
 {
@@ -118,7 +118,7 @@ for (; i < 5;)
 }
 ```
 ### Output:
-```
+```text
 > Number 0
 > Number 1
 > Number 2

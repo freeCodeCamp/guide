@@ -74,7 +74,7 @@ Long data type is a 64-bit signed two's complement integer.
 
     Default value: 0L.
 
-    Example: long a = 100000L, long b = -600000L; 
+    Example: long a = 100000L, long b = -600000L;
 
     By default all integer type variable is "int". So long num=600851475143  will give an error.
     But it can be specified as long by appending the suffix L (or l)
@@ -157,7 +157,7 @@ class Box{
 class demo{
 
     public static void main(String args[]) {
-        Box box1 = new Box();                //box1 is the reference variable  
+        Box box1 = new Box();                //box1 is the reference variable
         char[] arr = new char[10];           //arr is the reference variable
     }
 }
@@ -165,7 +165,7 @@ class demo{
 
 ## String:
 
-String is not a primitive data type, but it lets you store multiple character data types in an array and has many methods that can be used. It is used quite commonly when the user types in data and you have to manipulate it. 
+String is not a primitive data type, but it lets you store multiple character data types in an array and has many methods that can be used. It is used quite commonly when the user types in data and you have to manipulate it.
 
 In the example below, we try to remove all of the letters from the string and output it:
 
@@ -177,8 +177,8 @@ String output = "";
 for(int i=0;i<input.length();i++){
 
 //if the character at index i on the string is a letter or a space, move on to the next index
-if(Character.isLetter(input.charAt(i)) || input.charAt(i)==' '){ 
-    
+if(Character.isLetter(input.charAt(i)) || input.charAt(i)==' '){
+
     continue;
 }
 
@@ -190,7 +190,7 @@ System.out.println(output);
 ```
 
 
-Output: 
-```
+Output:
+```text
 10198442
 ```

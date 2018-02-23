@@ -16,11 +16,11 @@ When you have Yarn installed, you can start using it. Here are some of the most 
 ### yarn Usage
 
 **Starting a new project**
-```
+```shell
 yarn init
 ```
 The `yarn init` command will open an interactive form for creating a yarn project. `yarn init` creates a `package.json` file that stores the information about your project. This interactive form will open up with the following questions:
-```
+```shell
 name (your-project):
 version (1.0.0):
 description:
@@ -32,7 +32,7 @@ license (MIT):
 You can either type the answers for each option or just hit enter without typing anything to use the default or to leave blank. You can always go into your favorite text editor to change your `package.json` file, if needed.
 
 Your `package.json` file should look similar to this:
-```
+```json
 {
   "name": "your-new-project",
   "version": "1.0.0",
@@ -48,22 +48,22 @@ Your `package.json` file should look similar to this:
 ```
 
 **Adding a dependency**
-```
+```shell
 yarn add [package]
 ```
 
 **Upgrading a dependency**
-```
+```shell
 yarn upgrade [package]
 ```
 
 **Removing a dependency**
-```
+```shell
 yarn remove [package]
 ```
 
 **Installing all the dependencies of project**
-```
+```shell
 yarn install
 ```
 

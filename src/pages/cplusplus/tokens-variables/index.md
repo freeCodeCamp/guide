@@ -17,14 +17,14 @@ Tokens are the smallest unit of a program which are importanat to the compiler. 
 
 * Textbook definition : Variables are named memory locations whoose data can be altered.
 
-* But I would like you to think of a variable to be something like a box, something like this : 
+* But I would like you to think of a variable to be something like a box, something like this :
     ![Img](https://i.imgur.com/YdbgWHL.png)
 
 So, for example :
-   I'm shifting to a new place and I need to arrange my stuff in boxes . Thus there come 2 things to my mind  **What kind of stuff will be stored in the box, so that the size off the box is known (the data type)** and **How do I identify the box ?(Naming the variable)**  
+   I'm shifting to a new place and I need to arrange my stuff in boxes . Thus there come 2 things to my mind  **What kind of stuff will be stored in the box, so that the size off the box is known (the data type)** and **How do I identify the box ?(Naming the variable)**
    Hence , we know that a variable in C++ needs a *name* and a *data type* and that the value stored in them can be changed.
-   
-### Data Types in C++ : 
+
+### Data Types in C++ :
 When declaring variables in c++ they must have a name to which you will reffer later on, a value (constant or not) and a type.
 The type will tell the compiler the values that the variable can use, the possible operations and will save a certain space in memmory.
 In c++ there are two types of data:
@@ -66,11 +66,11 @@ long
 
 - Start naming with a letter from A-Z or a-z .
 - Numbers can follow thee first letter but we cannot start naming with numbers.
-- NO use of spaces or special characters are allowed, instead, use an UNDERSCORE _ .  
+- NO use of spaces or special characters are allowed, instead, use an UNDERSCORE _ .
 
 #### Declaring a variabe :
 
-The syntax is as follows 
+The syntax is as follows
 <*data type*> <*variable name*>;
 or
 <*data type*> <*variable name*> = <*value*>; if we also want to initialize the variable.
@@ -91,7 +91,7 @@ double area_circle;
 long l;
 ```
 
-**Wrong ways to declare variables**- 
+**Wrong ways to declare variables**-
 ```cpp
 int 9a;
 char -a;
@@ -103,10 +103,10 @@ long l!!;
 - Special characters are not allowed
 - Spaces are not allowed
 
- 
+
 You can imagine different boxes of different sizes and storing different things as different variables.
 
-**NOTES :** 
+**NOTES :**
 1. **The C++ compiler ignores whitespaces and they are generally used for beautification of the code so that it is eassy for any programmer to debug or understand the code.**
 2. **If a variable is not initialized , it contains a garbage value. Let me give an example:**
 
@@ -179,26 +179,26 @@ cout<<area<<endl;
 ### Garbage Values in a Variable
 If a variable is not initialized , it contains a garbage value. For example:
 
-So in terms of boxes, you can imagine this as - 
+So in terms of boxes, you can imagine this as -
 
 ![Img](https://i.imgur.com/YdbgWHL.png)
 
- ```cpp
- #include<iostream>
- using namespace std;
+```cpp
+#include<iostream>
+using namespace std;
 int main()
 {
     int a ;
-    cout<<"Garbage value in a : "<<a<<endl; //declaring the variable named 'a' of type integer 
+    cout<<"Garbage value in a : "<<a<<endl; //declaring the variable named 'a' of type integer
     a=5; //initializing variable.
     cout<<"New value in a "<<a<<endl;
 
 }
-``` 
+```
 
 ### The output is :
 
-```
+```text
 Garbage value in a : 0
 New value in a :  5
 ```
@@ -208,17 +208,17 @@ As you can see, there is already a value stored in 'a' before we give it a value
 <a href='https://repl.it/Mg7j' target='_blank' rel='nofollow'>Try the code yourself ! :) </a>
 
 
-#### Keywords : 
+#### Keywords :
 
-*Keywords are reserved words that convey a special meaning to the compiler. They **CANNOT** be used for naming in c++.* 
-Examples of Keywords : 
-inline , operator, private int, double ,void , char, template ,using , virtual , break , case , switch , friend, etc. 
+*Keywords are reserved words that convey a special meaning to the compiler. They **CANNOT** be used for naming in c++.*
+Examples of Keywords :
+inline , operator, private int, double ,void , char, template ,using , virtual , break , case , switch , friend, etc.
 
 **Each of these keywords is used for a special function in C++.**
 
 _Tokens part 1 is over. See you campers at [Part 2](https://guide.freecodecamp.org/cplusplus/tokens-part-II) of Tokens :)_
 
- **Good Luck to all of you** 
+ **Good Luck to all of you**
 
  **Happy Coding ! :)**
 

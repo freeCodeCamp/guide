@@ -20,25 +20,25 @@ JSON data is written as name/value pairs.
 
 A name/value pair consists of a field name (in double quotes), followed by a colon, followed by a value:
 
-```
+```json
 "handle":"moghya"
 ```
 - JSON names require double quotes.
 
 ### JSON - Evaluates to JavaScript Objects
 
-The JSON format is almost identical to JavaScript objects. 
+The JSON format is almost identical to JavaScript objects.
 
 In JSON, keys must be strings, written with double quotes:
 
 - JSON
 
-```
+```json
 "handle":"moghya"
 ```
 - JavaScript
 
-```
+```js
 handle:"moghya"
 ```
 
@@ -64,48 +64,48 @@ Because JSON syntax is derived from JavaScript object notation, very little extr
 
 With JavaScript you can create an object and assign data to it, like this:
 
-```
-var person = { 
+```js
+var person = {
   "name":"Shubham",
-  "age":21, 
-  "handle":"moghya", 
+  "age":21,
+  "handle":"moghya",
   "website":"http://moghya.me/"
   };
-  
+
 ```
 
 
 You can access a JavaScript object like this:
 
-```
+```js
 //returns moghya
 person.handle;
 ```
 
 It can also be accessed like this:
 
-```
+```js
 //returns http://moghya.me/
 person["website"];
 ```
 
-### Arrays in JSON 
+### Arrays in JSON
 
-```
+```js
 var team = {
   "name":"novatoscript",
-  "members" : 
+  "members" :
   [
     {
       "name":"Shubham Sawant",
-      "age":21, 
-      "handle":"moghya", 
+      "age":21,
+      "handle":"moghya",
       "website":"http://moghya.me",
     },
     {
       "name":"Saurabh Banore",
-      "age":21, 
-      "handle":"banoresaurabh", 
+      "age":21,
+      "handle":"banoresaurabh",
       "website":"http://banoresaurabh.me/",
     }
   ]
@@ -113,6 +113,6 @@ var team = {
 
 ```
 
-### Example 
+### Example
 
 A very large example of JSON is [here!](http://moghya.me/js/profile.json).

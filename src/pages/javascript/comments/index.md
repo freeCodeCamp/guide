@@ -49,7 +49,7 @@ function hello() {
 hello();
 ```
 
-```
+```js
 function hello() {
   // The statements below are not going to get executed
   /*

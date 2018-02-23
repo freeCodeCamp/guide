@@ -39,7 +39,7 @@ In go, every program is associated with a “package”, or a collection of asso
 
 ### Imports
 
-```
+```go
 import “fmt”
 ```
 
@@ -54,7 +54,7 @@ func main() {
 
 Functions are the heart of any program in go. They can have arguments and return values, but the `main` function does neither of these. It acts as the “entry point,” or where go looks first to run your program. We want our Hello World program to print, so we want to put our code here.
 
-### Print statement 
+### Print statement
 
 ```go
 fmt.Println("Hello, world!")

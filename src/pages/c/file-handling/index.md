@@ -53,28 +53,28 @@ C provides a number of build-in function to perform basic file operation
 ### Opening a file
 
   The **fopen()** function is used to create a file or open a existing file
-  
+
   ```c
   fp = fopen(const char filename,const char mode);
   ```
-  
-  In C there are many mode for opening a file 
+
+  In C there are many mode for opening a file
   **r**  **-**   **open a file in reading mode**
-  
+
   **w**  **-**   **opens or create a text file in writing mode**
-  
+
   **a**  **-**   **opens a file in append mode**
-  
+
   **r+**  **-**   **opens a file in both reading and writing mode**
-  
+
   **a+**  **-**   **opens a file in both reading and writing mode**
-  
+
   **w+**  **-**   **opens a file in both reading and writing mode**
-  
+
   Here's an  example of reading and writing data to a file
-  
-  ```c
-  #include<stdio.h>
+
+```c
+#include<stdio.h>
 #include<conio.h>
 main()
 {
@@ -87,10 +87,10 @@ main()
  }
  fclose(fp);
  fp = fopen("hello.txt", "r");
- 
+
  while( (ch = getc(fp)! = EOF)
     printf("%c",ch);
-    
+
  fclose(fp);
 }
 ```
@@ -125,7 +125,7 @@ If you want to append, you can use `>>`. _N.b. these redirection operators are i
 
 The contents of `hello.txt` will, not surprisingly, be
 
-```
+```text
 Hello, world!
 ```
 
@@ -200,7 +200,7 @@ int main() {
 
 Suppose `names.txt` contains the following:
 
-```
+```text
 Kamala
 Logan
 Carol
@@ -208,7 +208,7 @@ Carol
 
 Then after running `greetings` the file `greet.txt` will contain:
 
-```
+```text
 Hello, Kamala!
 Hello, Logan!
 Hello, Carol!

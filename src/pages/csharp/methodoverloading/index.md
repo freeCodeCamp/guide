@@ -8,8 +8,8 @@ Default parameters were introduced in C# version 4.0, but up until that, C# code
 
 ## Example
 1. Create a class file named Person.cs & input the following code.
-  ```
-  public class Person
+```csharp
+public class Person
 {
     public string FirstName { get; private set; }
     public string LastName { get; set; }
@@ -32,7 +32,7 @@ Default parameters were introduced in C# version 4.0, but up until that, C# code
 }
 ```
 2. In your default Program.cs file you can call now this class Person using the method overloading.
-```
+```csharp
 class Program
     {
         static void Main(string[] args)
@@ -48,4 +48,4 @@ class Program
 
         }
     }
-  ```
+```

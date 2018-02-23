@@ -26,7 +26,7 @@ int main()
 
 #### The Output of this program will simply be :
 
-```
+```text
 Hello World
 ```
 
@@ -52,7 +52,7 @@ int main()
 
 * C++ starts execution of a program from the -main function- `int main()` . During execution , the computer starts running the code from every line from `{`(opening bracket) till `}`(closing bracket)
   **NOTE : Every function starts with an opening curly brace "{" and ends with a closing curly brace "}".**
-* Line 4 indicates the start of the main() function. 
+* Line 4 indicates the start of the main() function.
 
 #### Lines 4,5 & 6
 
@@ -62,9 +62,9 @@ int main()
 }
 ```
 
-* The word `cout` in C++ is used to output. 
-* It is followed by `<<` , the _insertion operator_ . 
-* Whatever is in the double quotes `""` is printed . Certain special characters have a different syntax for print statements   
+* The word `cout` in C++ is used to output.
+* It is followed by `<<` , the _insertion operator_ .
+* Whatever is in the double quotes `""` is printed . Certain special characters have a different syntax for print statements
 * Now to print any other kind of data , you have to  add `<<` .
 
 ***Challenge: Try to change Hello World to any other sentence or word(s). What will be the output ?***
@@ -74,20 +74,20 @@ int main()
 
 **NOTE : Every command except the main function definition and the #include directive needs to be ended by the semicolon. Without a ";" , you may encounter an error.**
 
-* `return 0;` safely terminates the current function i.e. 'main()' in this case and since no function follows after 'main()' the program is terminated. 
+* `return 0;` safely terminates the current function i.e. 'main()' in this case and since no function follows after 'main()' the program is terminated.
 * Don't forget to tell the computer that this is end of the main() function. To do this , you add the closing curly brace "}". You will encounter an error before program execution if you do not include the **}** .
 
 ### The code should look something like this:
 
 ![Img](https://i.imgur.com/d1liGwI.png)
 
-Programmers use a Hello World program (like this one) as a ritual on using a new programming language. It is a symbol of good luck.  
+Programmers use a Hello World program (like this one) as a ritual on using a new programming language. It is a symbol of good luck.
 _You have finished coding your first C++ program and have understood most of the code you have written/typed. CONGRATULATIONS!_
- 
+
  **Good Luck to all of you and happy coding! :)**
- 
+
  **Happy Coding ! :)**
- 
+
  **Feel free to ask any questions on FreeCodeCamp's GitHub page or [FreeCodeCamp's Forum.](https://forum.freecodecamp.org/)**
 
  <a href='https://repl.it/L4k3' target='_blank' rel='nofollow'>Try it yourself ! :) </a>

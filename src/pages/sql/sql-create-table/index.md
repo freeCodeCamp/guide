@@ -5,14 +5,14 @@ title: SQL Create Table
 
 ## Introduction
 
-This guide is an overview to the basics of the SQL `CREATE TABLE` functions. 
+This guide is an overview to the basics of the SQL `CREATE TABLE` functions.
 
 We will be using MySQL for all examples throughout these freeCodeCamp SQL guides. MySQL is a used frequently on websites for the backend database, 2) it's free, and is fun and easy to use.
 
 ## Covered in this Guide
 
 * Creating a schema, the container for all our database objects.
-* Create a table so we have something to alter. 
+* Create a table so we have something to alter.
 * Creating a table by importing a CSV file and altering that table
 * Creating a table using the MySQL workbench tool
 
@@ -32,7 +32,7 @@ The schema is a container for a the objects required to manage the data for a gi
 
 We’ll create the schema for our learning and testing using the SQL command;
 
-```
+```sql
 create database fCC_alterTableGuide;
 ```
 
@@ -48,14 +48,14 @@ This instances schema structure after running the SQL statement
 
 We’ll create a Student Table.
 
-The steps will be: 
+The steps will be:
 
-1. make sure we don’t have the table already 
-
-
+1. make sure we don’t have the table already
 
 
-2. create the table 
+
+
+2. create the table
 3. insert the test data.
 
 * Data Types: the student name is a character field limited to 90 characters

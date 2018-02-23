@@ -8,8 +8,8 @@ A basic for statement has three parts: declaration and/or initialization, boolea
 
 ```java
 for (initialize variable; condition; modify variable)
-{  
-    // perform action  
+{
+    // perform action
 }
 ```
 
@@ -44,7 +44,7 @@ for (int iter_For = 0; iter_For < 10; iter_For++)
 ```
 
 Output:
-```
+```text
 0 1 2 3 4 5 6 7 8 9
 iter_For Value: 10
 ```
@@ -56,7 +56,7 @@ i++ means i = i+1.
 int addUntil = 50;
 int sum 0;
 
-for (int i = 1; i <= addUntil; i++) 
+for (int i = 1; i <= addUntil; i++)
 {
     sum+=i
 }

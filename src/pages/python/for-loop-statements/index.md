@@ -34,7 +34,7 @@ for character in ["P", "y", "t", "h", "o", "n"]:
   print("Give me a '{}'!".format(character))
 ```
 
-Some ways in which For loops are used: 
+Some ways in which For loops are used:
 
 **Iterate over the range() function**
 
@@ -46,7 +46,7 @@ Rather than being a function, range is actually an immutable sequence type.
 The output will contain results from lower bound i.e 0 to the upper bound i.e 10 but excluding 10.By default the lower bound or the starting index is set to zero.
 Output:
 
-```
+```text
 >
 0
 1
@@ -60,7 +60,7 @@ Output:
 9
 >
 ```
-Additionally, one can specify the lower bound of the sequence and even the step of the sequence by adding a second and a third parameter. 
+Additionally, one can specify the lower bound of the sequence and even the step of the sequence by adding a second and a third parameter.
 
 ```python
 for i in range(4,10,2): #From 4 to 9 using a step of two
@@ -68,7 +68,7 @@ for i in range(4,10,2): #From 4 to 9 using a step of two
 ```
 Output:
 
-```
+```text
 >
 4
 6
@@ -92,7 +92,7 @@ for value in A:
 
 Output:
 
-```
+```text
 >
 hello
 1
@@ -115,7 +115,7 @@ for key in fruits_to_colors:
 
 Output:
 
-```
+```text
 >
 apple #ff0000
 lemon #ffff00
@@ -124,17 +124,17 @@ orange #ffa500
 ```
 **Iterate over two lists of same size in a single loop with the zip() function**
 
-```python 
+```python
 A = ["a", "b", "c"]
 B = ["a", "d", "e"]
 
 for a, b in zip(A, B):
   print a, b, a == b
-  
+
 ```
 
 Output:
-```
+```text
 >
 a a True
 b d False
@@ -154,7 +154,7 @@ for index,word in enumerate(A):
 
 Output:
 
-```
+```text
 >
 0 this
 1 is

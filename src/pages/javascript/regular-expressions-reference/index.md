@@ -11,7 +11,7 @@ Regular expressions are made up of two parts - the `pattern` and the `flags` (op
 
 #### Patterns
 
-The use of alphanumeric (A-Z, a-z, 0-9) characters makes for a straightforward match. However, the real power of regular expressions comes with character classes. 
+The use of alphanumeric (A-Z, a-z, 0-9) characters makes for a straightforward match. However, the real power of regular expressions comes with character classes.
 
 Say, for example, you want to all the places a string that has a number from 0-9. Rather than explicitly calling out `/[0-9]/`, you can use the special character class of `/\d/`. The backslash escapes the `d` character (so don't match the letter `d`), but instead uses the special matching abilities of `\d`.
 
@@ -25,7 +25,7 @@ There are plenty more modifiers that allow your pattern to match whatever you mi
 
 There are 5 flags you can use to apply specific rules to the whole regular expression you are writing. They are:
 
-`g` - the global match; this allows you to match all instances of your expression, rather than stopping after the first occurrence. 
+`g` - the global match; this allows you to match all instances of your expression, rather than stopping after the first occurrence.
 
 `i` - the ignore case match (self-explanatory)
 
@@ -40,7 +40,7 @@ A regular expression is a type of object. It can either be constructed
 with the RegExp constructor or written as a literal value by enclosing the
 pattern in forward slash ( / ) characters.
 
-```
+```js
 var re1 = new RegExp (" abc ") ;
 var re2 = / abc /;
 ```
@@ -52,7 +52,7 @@ a character followed by a b followed by a c.
 `RegExp` is a constructor that creates an object from the regular expression pattern you create. In addition to the literal notation described above, you can also use the constructor format to create a regular expression: `new RegExp(pattern[, flags])`
 
 ### Testing for matches
-```
+```js
 console . log (/ abc /. test (" abcde ") );
 // → true
 console . log (/ abc /. test (" abxde ") );
@@ -60,7 +60,7 @@ console . log (/ abc /. test (" abxde ") );
 ```
 
 ### Matching a set of characters
-```
+```js
 console . log (/[0123456789]/. test (" in 1992") );
 // → true
 console . log (/[0 -9]/. test (" in 1992") );
@@ -68,7 +68,7 @@ console . log (/[0 -9]/. test (" in 1992") );
 ```
 ### Choice patterns
 
-```
+```js
 var animalCount = /\ b \ d + ( pig | cow | chicken )s ?\ b /;
 console . log ( animalCount . test ("15 pigs ") );
 // → true
@@ -84,7 +84,7 @@ For example, `RegExp.test()` will return a Boolean for whether there exists a ma
 
 The first argument can also be a regular expression, in which case thefirst match of the regular expression is replaced. When a g option (for global) is added to the regular expression, all matches in the string will be replaced, not just the first.
 
-```
+```js
 console . log (" Borobudur ". replace (/[ ou ]/ , "a ") );
 // → Barobudur
 console . log (" Borobudur ". replace (/[ ou ]/g , "a ") );

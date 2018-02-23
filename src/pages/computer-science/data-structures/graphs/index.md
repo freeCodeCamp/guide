@@ -5,7 +5,7 @@ title: Graphs
 A graph is a data-structure you can use to solve routing problems, such as "Are these two components connected?" and "What is the shortest path from point a to b?"
 
 A graph consists of nodes and edges.
-A node (i.e. vertex) is an object in your graph. 
+A node (i.e. vertex) is an object in your graph.
 A node can contain information such as the name of the node and which edges it is attached to.
 An edge is a link that connects two nodes.
 The edge can contain information such as the weight of the edge.
@@ -16,7 +16,7 @@ If you have a undirected edge from a to b, there is also a way from b to a.
 If you have a directed edge from a to b, there is not necessarily an edge from b to a.
 
 You can use graphs to formulate situations such as:
-* Geographical maps 
+* Geographical maps
    * Each city in your country is a node
    * If two cities are connected by a road there is a edge between them
         * Roads can be one- or two-way (both directed and undirected edges)
@@ -28,7 +28,7 @@ You can use graphs to formulate situations such as:
         * the weight can be the maximum water capacity of the flow
 
 Example: a graph that has as nodes the capitals of the Nordic countries, and as (undirected) edges the driving distance to cities connected by direct road.
-```
+```text
 .     +---------+
 .     |Reykjavik|
 .     +---------+

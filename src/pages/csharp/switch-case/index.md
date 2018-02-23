@@ -9,7 +9,7 @@ It's a list of possibilities, with an action for each possibility, and an option
 We exit from the switch by `break`.
 
 ## Example
-```
+```csharp
 int number = 1;
 
 switch(number)
@@ -29,13 +29,13 @@ switch(number)
 ```
 
 ## Output:
-```
+```text
 > The number is one!
 ```
 
 ## Example in if statements
 The previous switch case example, in `if statements` corresponds to:
-```
+```csharp
 int number = 1;
 
 if(number == 0)
@@ -48,12 +48,12 @@ else if(number == 1)
 }
 else
 {
-    Console.WriteLine("I don't know this number!");    
+    Console.WriteLine("I don't know this number!");
 }
 
 ```
 
 ## Output:
-```
+```text
 > The number is one!
 ```

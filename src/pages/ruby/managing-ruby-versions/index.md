@@ -18,7 +18,7 @@ hashes like this:
 This use of the 'hashrocket' operator (`=>`) was so common, that Ruby 1.9
 provided a shorthand:
 
-```
+```ruby
   { one: 1, two: 2, three: 3 }
 ```
 
@@ -44,7 +44,7 @@ There are a couple of tools which are popular for this, but both have agreed to
 share a common file. Many Ruby (or Rails) projects will include a simple
 `.ruby-version` file, which simply specifies a version number, _eg_:
 
-```
+```text
 2.4.2
 ```
 

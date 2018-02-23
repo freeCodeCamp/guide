@@ -7,7 +7,7 @@ The `time` module in the Python standard library contains the function `sleep()`
 
 Example:
 
-```
+```python
 import time
 
 for letter in 'hello, world!':

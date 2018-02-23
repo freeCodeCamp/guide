@@ -14,7 +14,7 @@ words.append("very much")
 print(words)
 ```
 #### Output
-```
+```text
 ["I", "love", "Python", "very much"]
 ```
  As you might have noticed the element `"very much"` is appended to the list.

@@ -1,7 +1,7 @@
 ---
-title: IDE and Printing different text 
+title: IDE and Printing different text
 ---
-# Introduction to an IDE and printing different text : 
+# Introduction to an IDE and printing different text :
 
 * In the last article, some download links for software required for programming . Software like this is known as an IDE.
  **IDE stands for Integrated Development Environment**
@@ -37,7 +37,7 @@ int main()
 The above code returns an error because at line 2, we have used a colon(:) instead of a semicolon(;)
 So, let's debug the error:
 
-```C++
+```cpp
 #include <iostream>
 using namespace std ;
 int main()
@@ -59,7 +59,7 @@ The output will be : `I Love freeCodeCamp!`
 
 The output will be something different this time:
 
-```
+```text
 Hello World!	 I love freeCodeCamp!
 ```
 
@@ -83,8 +83,8 @@ They are used to print certain special characters a compiler cannot display.
 ```
 
 The output changes to:
-```
-40158 	 236708 ! 
+```text
+40158 	 236708 !
  \ @ ?
 ```
 
@@ -114,7 +114,7 @@ This is because we did not add the inverted commas for the second print statemen
 
  ```cpp
      cout << "Hello Comment" << endl; //cout<<"Hello Comment"<<endl; , Single Line Comment.
-     
+
     /* This is an example of a multi line comment. No output is generated for this .
     I now end the comment.  :) */
  ```
@@ -124,8 +124,8 @@ The output will be :
 `Hello Comment`
 
 As you may notice, the comments are ignored during program execution and do not show up on checking the output of the program.
- 
-#### Operators 
+
+#### Operators
 * Operators allow you to compare two or more expressions
 * `==` equal to
 * `!=`  not equal to
@@ -135,12 +135,12 @@ As you may notice, the comments are ignored during program execution and do not 
 * `>=` greater than or equal to
 
 ```cpp
-    (7==5); 
+    (7==5);
 ```
 This evaluates to false
 
-```cpp 
-    (7!=5); 
+```cpp
+    (7!=5);
 ```
 This evaluates to true
 

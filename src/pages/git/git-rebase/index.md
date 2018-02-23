@@ -8,14 +8,14 @@ Rebasing a branch in Git is a way to move the entirety of a branch to another po
             /o-----o---o--o-----o--------- branch
     --o-o--A--o---o---o---o----o--o-o-o--- master
 
-When you rebase you can move it like this: 
+When you rebase you can move it like this:
 
                                        /o-----o---o--o-----o------ branch
     --o-o--A--o---o---o---o----o--o-o-o master
 
-To rebase, make sure you have all the commits you want in the rebase in your master branch. Check out the branch you want to rebase and type `git rebase master` (where master is the branch you want to rebase on). 
+To rebase, make sure you have all the commits you want in the rebase in your master branch. Check out the branch you want to rebase and type `git rebase master` (where master is the branch you want to rebase on).
 
-It is also possible to rebase on a different branch, so that for example a branch that was based on another branch (let's call it feature) is rebased on master: 
+It is also possible to rebase on a different branch, so that for example a branch that was based on another branch (let's call it feature) is rebased on master:
 
                                 /---o-o branch
                /---o-o-o-o---o--o------ feature
@@ -23,7 +23,7 @@ It is also possible to rebase on a different branch, so that for example a branc
 
 After `git rebase master branch` or `git rebase master` when you have checked out the branch, you'll get:
 
-                                
+
                /---o-o-o-o---o--o------ feature
     ----o--o-o-A----o---o--o-o-o--o--o- master
                                       \---o-o branch
@@ -32,11 +32,11 @@ After `git rebase master branch` or `git rebase master` when you have checked ou
 
 To use `git rebase` in the console with a list of commits you can choose, edit or drop in the rebase:
 
-- Enter `git rebase -i HEAD~5` with the last number being any number of commits from the most recent backwards you want to review. 
-- In vim, press `esc`, then `i` to start editing the test. 
-- On the left hand side you can overwrite the `pick` with one of the commands below. If you want to squash a commit into a previous one and discard the commit message, enter `f` in the place of the `pick` of the commit. 
+- Enter `git rebase -i HEAD~5` with the last number being any number of commits from the most recent backwards you want to review.
+- In vim, press `esc`, then `i` to start editing the test.
+- On the left hand side you can overwrite the `pick` with one of the commands below. If you want to squash a commit into a previous one and discard the commit message, enter `f` in the place of the `pick` of the commit.
 
-```
+```git
 pick 452b159 <message for this commit>
 pick 7fd4192 <message for this commit>
 pick c1af3e5 <message for this commit>

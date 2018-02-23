@@ -1,7 +1,7 @@
 ---
 title: Setting Up Yum Repositories in RedHat/CentOS Linux
 ---
-<div class="para">YUM Repositories are warehouses of Linux software (RPM package files). 
+<div class="para">YUM Repositories are warehouses of Linux software (RPM package files).
 RPM package file is a Red Hat Package Manager file and enables quick and easy software installation on Red Hat/CentOS Linux.
 </div>
 
@@ -14,7 +14,7 @@ Step2: Change Directory to-><br>
 <br>Step3: Create new file<br>
 ```#vim myrepo.repo```
 <br>Step4: Type following lines in file<br>
-```
+```ini
 [file-name]
 name=filename
 baseurl="location of yum repositories"

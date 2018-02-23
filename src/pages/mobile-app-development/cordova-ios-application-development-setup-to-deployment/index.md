@@ -9,24 +9,24 @@ Hybrid Application development for android is a breeze, be it for development or
 Most of the Hybrid Application Developers who are in learning stage are not able to explore hybrid iOS app development process due to the simple reason that they dont own a mac, since developing iOS apps requires the iOS SDK and XCode unlike Android SDK which runs on any Desktop OS. Therefore the aim of this guide is to show the basic workflow of hybrid iOS app development on a mac, so that a develoer even if he/she cannot develop iOS apps, is atleast familiar with how its done.
 
 
-## Creating cordova project 
+## Creating cordova project
 Begin by opening the terminal and creating a new cordova project ( use sudo only if you have permission issues, ie. EACCESS errors ) :
-```
+```bash
 sudo cordova create iosdemo
 cd iosdemo
 sudo cordova platform add ios
 ```
 At the time of writing this guide cordova iOS platform version is : 4.3.1
 
-We wont modify any source code of the app and simple continue with the default sample code that is added by cordova automatically when we run the create command. However it is assumed we will add plugins modify code in the ```www``` folder during normal development flow. 
+We wont modify any source code of the app and simple continue with the default sample code that is added by cordova automatically when we run the create command. However it is assumed we will add plugins modify code in the ```www``` folder during normal development flow.
 
 Next step is to run the cordova build command. This will convert our app code to an .xcodeproj file which we will use next.
-```
+```bash
 sudo cordova build ios
 ```
 
-The generated Xcode Project file will be in : 
-```
+The generated Xcode Project file will be in :
+```bash
 [Your App Folder]/platforms/ios/[Your App Name].xcodeproj
 ```
 
@@ -42,7 +42,7 @@ Once you have the account ready we can proceed further and login to <a href='htt
 The dashboard screen should look something like this :
 <img src="https://image.ibb.co/j0d8zQ/Clipboard_image_2017_09_18_11_35_58.png" alt="Project opening in Xcode" width="100%">
 
-Click on ```Certificates, Identifiers & Profiles``` 
+Click on ```Certificates, Identifiers & Profiles```
 This should take you to the following screen, which by default displays Certificates issued from your account :
 <img src="https://image.ibb.co/fk8mm5/1.png" alt="Certificates, Identifiers & Profiles" width="100%">
 
@@ -57,12 +57,12 @@ This should bring you to the following screen, where you are asked to create and
 
  Follow the on-screen instructions to generate it, and continue.
  Once the certificate is ready, download it to your Mac, and double click it.
- This will add it to Keychain Access in the Mac. 
+ This will add it to Keychain Access in the Mac.
 <img src="https://image.ibb.co/dJg6m5/4.png" alt="Download development certificate" width="100%">
 
 ## Creating Distribution Certificates
 Creating distribution certificates is similar to the process for creating development certificates,
-However here we select ```App Store and Ad Hoc``` from ```Production``` section in the ```Add iOS Certifcate Page``` 
+However here we select ```App Store and Ad Hoc``` from ```Production``` section in the ```Add iOS Certifcate Page```
 
 <img src="https://image.ibb.co/bEKFeQ/5.png" alt="Add iOS Certificate" width="100%">
 
@@ -147,7 +147,7 @@ The Xcode screen should look something like this.
 Click on the App Name on the top left corner fo the window, this will open the detailed view on the right side.
 <img src="https://image.ibb.co/fqb3ZQ/Screen_Shot_2017_09_18_at_5_07_53_PM.png" alt="Project settings" width="100%">
 
-Then click on Targets-> App Name 
+Then click on Targets-> App Name
 
 <img src="https://image.ibb.co/i0znTk/Screen_Shot_2017_09_18_at_5_11_28_PM.png" alt="targets" width="50%">
 
@@ -169,7 +169,7 @@ After selection the error should be gone, and it should show Team as the Team Na
 
 Do the same thing for Signing (Release) section, however in the file selection dialog slect the Ad Hoc distribution Profile.
 
-Now that the Code signing steps are done we either 
+Now that the Code signing steps are done we either
 * run the app directly on device
 * run the app on a simulator
 * generate an ipa file for distribution
@@ -226,8 +226,8 @@ in the left pane, select the app to be installed and click install.
 Wait for the process to complete and click apply,
 This should install the ipa file on your device.
 
-To debug the app : 
-1) Open safari, 
+To debug the app :
+1) Open safari,
 2) open the app on device
 3) In the Safari menu bar select ``` Develop --> Your Device Name --> Your App ```.
 

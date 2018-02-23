@@ -24,7 +24,7 @@ You can always just hit `Enter` all the way and use the default options - or you
 
 Now your `package.json` should look a lot like this:
 
-```
+```json
 {
   "name": "freecodecamp-guides-rabbitmq-tortoise",
   "version": "1.0.0",
@@ -55,7 +55,7 @@ Now your `package.json` should look a lot like this:
 }
 ```
 
-Now we're all set. Let's create a publisher first. 
+Now we're all set. Let's create a publisher first.
 
 ```javascript
 const Tortoise = require('tortoise')
@@ -108,11 +108,11 @@ Time to write code to actually consume messages:
 ```javascript
 tortoise
 .queue('random-user-queue', { durable: false })
-// Add as many bindings as needed 
+// Add as many bindings as needed
 .exchange('random-user-exchange', 'direct', 'random-user-key', { durable: false })
 .prefetch(1)
 .subscribe(function(msg, ack, nack) {
-  // Handle 
+  // Handle
   let payload = JSON.parse(msg)
   getURL(payload['url']).then((response) => {
     console.log('Job result: ', response)

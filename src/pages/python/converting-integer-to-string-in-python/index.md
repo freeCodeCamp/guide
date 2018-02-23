@@ -17,7 +17,7 @@ string = "Hello, I am " + age + " years old"
 <a href='https://repl.it/JyYH/0' target='_blank' rel='nofollow'>Run code on repl.it</a>
 
 The error that shows up is
-```
+```py
 Traceback (most recent call last):
   File "python", line 3, in <module>
 TypeError: must be str, not int

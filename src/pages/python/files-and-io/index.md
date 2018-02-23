@@ -5,12 +5,12 @@ title: Files and IO
 ## Files and IO
 
 ### Output to Screen
-Python provides the simplest way to produce output to the screen. 
+Python provides the simplest way to produce output to the screen.
 ```python
 print "Python is a powerful language.","It is easy to learn."
 ```
-Output: 
-```
+Output:
+```text
 Python is a powerful language.It is easy to learn.
 ```
 
@@ -25,8 +25,8 @@ There are two ways to take input from a user.
 str = raw_input("Enter your name: ")
 print "Welcome ", str
 ```
-Output: 
-```
+Output:
+```text
 Enter your name: John Doe
 Welcome John Doe
 ```
@@ -39,8 +39,8 @@ Welcome John Doe
 str = input("Enter input: ")
 print "Input: ", str
 ```
-Output: 
-```
+Output:
+```text
 Enter input: [x*5 for x in range(2,10,2)]
 Input: [10,20,30,40]
 ```
@@ -53,18 +53,18 @@ Using Python, files can be easily opened, read, written and closed. With the ava
 
 Example:
 ```python
-file1 = open("foo.txt", "r+")     # Opens the file with read permission.  
+file1 = open("foo.txt", "r+")     # Opens the file with read permission.
 file1.write("Python is a powerful language.It is easy to learn.")     # Writes data into the file.
 data = file1.read(15)     # Reads first 15 characters in the file.
 print "First 15 characters are:\n", data     # Prints output
 file1.close()     # Closes the opened file.
 ```
 Output:
-```
+```text
 First 15 characters are:
 Python is a pow
 ```
 ## Suggested Reading
- * https://automatetheboringstuff.com/chapter8/ 
+ * https://automatetheboringstuff.com/chapter8/
  * https://docs.python.org/2/tutorial/inputoutput.html
  * https://www.tutorialspoint.com/python/python_files_io.htm

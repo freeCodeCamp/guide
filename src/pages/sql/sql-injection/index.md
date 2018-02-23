@@ -4,11 +4,11 @@ title: SQL Injection
 ## SQL Injection
 SQL injection is a malicious technique that is meant to compromise or destroy databases. It is one of the most common web-hacking techniques.
 
-SQL injection is performed by placing malicious code in SQL statements via an input. 
+SQL injection is performed by placing malicious code in SQL statements via an input.
 
 The following example is a code snippet that will retrieve a user from a database based on an `AccountId`.
 
-```
+```js
 passedInAccountId = getRequestString("AccountId");
 sql = "select * from Accounts where AccountId = " + passedInAccountId;
 ```

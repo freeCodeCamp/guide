@@ -3,7 +3,7 @@ title: CSS Cursors
 ---
 ## CSS Cursors
 
-The cursor property specifies the type of cursor to be displayed when you hover over an element. It has 36 possible values: 
+The cursor property specifies the type of cursor to be displayed when you hover over an element. It has 36 possible values:
 ```css
     .auto            { cursor: auto; }
     .default         { cursor: default; }
@@ -43,7 +43,7 @@ The cursor property specifies the type of cursor to be displayed when you hover 
 
 You can also set an image as the cursor.
 
-```
+```css
 .custom-cursor {
   cursor: url(cursor-image.png);
 }

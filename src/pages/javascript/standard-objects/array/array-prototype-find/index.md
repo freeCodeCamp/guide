@@ -6,7 +6,7 @@ title: Array.prototype.find
 The `find()` method returns the value of the first element in the array that satisfies the provided testing function. Otherwise undefined is returned. The `find()` method does not mutate the array on which it is called.
 
 Syntax:
-```
+```js
 arr.find(callback[, thisArg])
 ```
 
@@ -21,7 +21,7 @@ arr.find(callback[, thisArg])
     - The array find was called upon.
 - `thisArg` (Optional)
   - Object to use as this when executing callback.
-  
+
 ##### Return value
 A value in the array if an element passes the test; otherwise, undefined.
 
@@ -38,7 +38,7 @@ let items = [
     {name: 'games', quantity: 5}
 ];
 
-function findMovies(item) { 
+function findMovies(item) {
     return item.name === 'movies';
 }
 

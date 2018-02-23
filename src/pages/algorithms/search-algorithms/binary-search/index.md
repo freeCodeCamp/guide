@@ -21,19 +21,19 @@ Time complexity: As we dispose off one part of the search case during every step
 
 In detail, how many times can you divide N by 2 until you have 1? This is essentially saying, do a binary search (half the elements) until you found it. In a formula this would be this:
 
-```
+```text
 1 = N / 2x
 ```
 
 Multiply by 2x:
 
-```
+```text
 2x = N
 ```
 
 Now do the log2:
 
-```
+```text
 log2(2x)    = log2 N
 x * log2(2) = log2 N
 x * 1       = log2 N
@@ -85,18 +85,18 @@ function binarySearch(arr, item, low, high) {
     if (low > high) { // No more elements in the array.
         return null;
     }
-    
+
     // Find the middle of the array.
     var mid = Math.ceil((low + high) / 2);
 
     if (arr[mid] === item) { // Found the item!
         return mid;
     }
-    
+
     if (item < arr[mid]) { // Item is in the half from low to mid-1.
         return binarySearch(arr, item, low, mid-1);
     }
-    
+
     else { // Item is in the half from mid+1 to high.
         return binarySearch(arr, item, mid+1, high);
     }

@@ -2,7 +2,7 @@
 title: Firebase Cloud Messaging Integration for Cordova Hybrid Apps
 ---
 ## Firebase Cloud Messaging Integration for Cordova Hybrid Apps
-This is a basic straight forward walk through regarding how to implement push notification in Android as well as iOS using the <a href='https://github.com/fechanique/cordova-plugin-fcm' target='_blank' rel='nofollow'> cordova plugin for fcm </a> and Google Firebase FCM from scratch. 
+This is a basic straight forward walk through regarding how to implement push notification in Android as well as iOS using the <a href='https://github.com/fechanique/cordova-plugin-fcm' target='_blank' rel='nofollow'> cordova plugin for fcm </a> and Google Firebase FCM from scratch.
 I will be using Ubuntu 16.04 LTS for this, but OS used for development should not matter much.
 
 ## FCM Integration for Cordova Hybrid Apps
@@ -10,7 +10,7 @@ I will be using Ubuntu 16.04 LTS for this, but OS used for development should no
 ### Android Implementation
 
 Create an empty folder pushSample
-```
+```bash
 cd '/opt/lampp/htdocs'
 mkdir pushSample
 cd pushSample
@@ -20,7 +20,7 @@ cordova platform add android
 cordova plugin add cordova-plugin-FCM
 ```
 While adding the cordova FCM plugin will show an error :
-```
+```bash
 Error: cordova-plugin-fcm: You have installed platform android but file 'google-services.json' was not found in your Cordova project root folder.
 ```
 
@@ -33,8 +33,8 @@ Once the project is created click on Notifications section in left side panel.
 Now click on the Android icon to add **Android** platform support to our project.
 
 In the next popup form fill the details as follows :
-**Android package name :** Package name or ID is the unique identifier for an app in the play store. 
-Note that it is a very important value which cannot be changed for an app once it is uploaded to the play store. 
+**Android package name :** Package name or ID is the unique identifier for an app in the play store.
+Note that it is a very important value which cannot be changed for an app once it is uploaded to the play store.
 It will be in reverse domain name syntax : eg hello.pushSample.com will have app id : com.pushSample.hello.
 Also in the **config.xml** file in your cordova project set the same app id.
 For our sample project it will be in :
@@ -92,13 +92,13 @@ Click on the **Download google-services.json** button, which should download the
 
 Once you get the file paste it in the root folder of your cordova project, in my case :
 
-```
+```shell
 /opt/lampp/htdocs/pushSample/pushSample
 ```
 
 Next build the project
 
-```
+```shell
 cordova build android
 ```
 
@@ -109,7 +109,7 @@ Next we have to write the client side code for handling push notifications :
 ```js
 FCMPlugin.getToken(function(token) {
     //this is the FCM token which can be used
-    //to send notification to specific device 
+    //to send notification to specific device
     console.log(token);
     //FCMPlugin.onNotification( onNotificationCallback(data), successCallback(msg), errorCallback(err) )
     //Here you define your application behaviour based on the notification data.
@@ -231,37 +231,37 @@ Here as discussed earlier upload the APNs Auth Key you generated in the Apple me
 Next we do the client side app setup.
 Create a new folder sampleApp in your development folder, for me it is
 
-```
+```text
 /Volumes/Development/
 ```
 
 so the new folder will be
 
-```
+```shell
 /Volumes/Development/pushSample
 cd /Volumes/Development/pushSample
 ```
 
 Create a new cordova project, **Note : Use sudo if required**
 
-```
+```shell
 cordova create pushSample
 cd pushSample
 ```
 
 Now add the latest iOS platform
 
-```
+```shell
 sudo cordova platform add ios
 ```
 
 Now paste the **Googleservice-info.plist** file we downloaded earlier in the cordova project root folder, for me it is
-```
+```shell
 /Volumes/Development/pushSample/pushSample
 ```
 
 add the cordova fcm plugin.
-```
+```shell
 cordova plugin add cordova-plugin-fcm
 ```
 
@@ -276,19 +276,19 @@ At this point the sample code will have an app.js file, which you can modify and
 
 Next run cordova build command
 
-```
+```shell
 sudo cordova build ios
 ```
 
 Once the cordova build command is successful, open the app in xcode. To do this open the xcode.proj file, which will be located in
 
-```
+```shell
 your_cordova_project/platforms/ios/app_name.xcodeproj
 ```
 
 for me it is
 
-```
+```shell
 /Volumes/Development/pushSample/pushSample/platforms/ios/PushSample.xcodeproj
 ```
 
