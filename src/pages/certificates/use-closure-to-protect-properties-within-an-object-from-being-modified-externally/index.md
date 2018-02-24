@@ -1,5 +1,5 @@
 ---
-title: Make Object Properties Private
+title: Use Closure to Protect Properties Within an Object from Being Modified Externally
 ---
 Objects have their own attributes, called _properties_, and their own functions, called _methods_.
 

@@ -1,5 +1,5 @@
 ---
-title: Prefilter JSON
+title: Pre-filter JSON to Get the Data You Need
 ---
 The **filter()** method creates a new array with all elements that pass the test implemented by the provided function.
 

@@ -1,5 +1,5 @@
 ---
-title: Filter Arrays with Filter
+title: Use The Filter Method To Extract Data From An Array
 ---
 Filter is a useful method that can filter out values that don't match a certain criteria.
 
