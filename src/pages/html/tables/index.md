@@ -25,6 +25,17 @@ A more complex HTML table may also include `<caption>`, `<col>`, `<colgroup>`, `
 	</body>
 </html>
 ```
+Result:
+    <table>
+      <tr>
+        <td>
+          cell 1
+        </td>
+        <td>
+          cell 2
+        </td>
+      </tr>
+    </table>
 
 ### Table Example with more semantic information
 ```html
@@ -34,9 +45,10 @@ A more complex HTML table may also include `<caption>`, `<col>`, `<colgroup>`, `
     <table>
       <thead>
         <th>
-          <td>
-            Table Header
-          </td>
+          First Table Header
+	</th>
+	<th>
+          Second Table Header
         </th>
       </thead>
       <tbody>
@@ -52,7 +64,10 @@ A more complex HTML table may also include `<caption>`, `<col>`, `<colgroup>`, `
       <tfoot>
         <tr>
           <td>
-            Table Footer
+            First Table Footer
+          </td>
+	  <td>
+            Second Table Footer
           </td>
         </tr>
       </tfoot>
@@ -60,7 +75,38 @@ A more complex HTML table may also include `<caption>`, `<col>`, `<colgroup>`, `
 	</body>
 </html>
 ```
-
+Result:
+    <table>
+      <thead>
+        <th>
+          First Table Header
+	</th>
+	<th>
+          Second Table Header
+        </th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            Table
+          </td>
+          <td>
+            Body
+          </td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>
+            First Table Footer
+          </td>
+	  <td>
+            Second Table Footer
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+    
 #### More Information:
 
-<a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table' target='_blank' rel='nofollow'>MDN Article on the HTML <table> tag</a>
+<a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table' target='_blank' rel='nofollow'>MDN Article on the HTML table tag</a>
