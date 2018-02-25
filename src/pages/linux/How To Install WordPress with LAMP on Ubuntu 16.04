@@ -1,0 +1,464 @@
+
+# How To Install WordPress with LAMP on Ubuntu 16.04
+
+### Introduction
+
+WordPress is the most popular CMS (content management system) on the
+internet.  It allows you to easily set up flexible blogs and websites on
+ top of a MySQL backend with PHP processing.  WordPress has seen
+incredible adoption and is a great choice for getting a website up and
+running quickly.  After setup, almost all administration can be done
+through the web frontend.
+
+In this guide, we'll focus on getting a WordPress instance set up on a
+ LAMP stack (Linux, Apache, MySQL, and PHP) on an Ubuntu 16.04 server.
+
+## Prerequisites
+
+In order to complete this tutorial, you will need access to an Ubuntu 16.04 server.
+
+You will need to perform the following tasks before you can start this guide:
+
+* **Create a `sudo` user on your server**: We will be completing the steps in this guide using a non-root user with `sudo` privileges.  You can create a user with `sudo` privileges by following our [Ubuntu 16.04 initial server setup guide](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-16-04).
+* **Install a LAMP stack**: WordPress will need a web server, a database, and PHP in order to correctly function.  Setting up a LAMP stack (Linux, Apache, MySQL, and PHP) fulfills all of these requirements.  Follow [this guide](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04) to install and configure this software.
+* **Secure your site with SSL**: WordPress serves dynamic content and handles user authentication and authorization.  TLS/SSL is the technology that allows you to encrypt the traffic from your site so that your connection is secure.  The way you set up SSL will depend on whether you have a domain name for your site.
+  - **If you have a domain name...** the easiest way to secure your site is with Let's Encrypt, which provides free, trusted certificates.  Follow our [Let's Encrypt guide for Apache](https://www.digitalocean.com/community/tutorials/how-to-secure-apache-with-let-s-encrypt-on-ubuntu-16-04) to set this up.
+  - **If you do not have a domain...** and you are just using this configuration for testing or personal use, you can use a self-signed certificate instead.  This provides the same type of encryption, but without the domain validation.  Follow our [self-signed SSL guide for Apache](https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-apache-in-ubuntu-16-04) to get set up.
+
+When you are finished the setup steps, log into your server as your `sudo` user and continue below.
+
+## Step 1: Create a MySQL Database and User for WordPress
+
+The first step that we will take is a preparatory one.  WordPress
+uses MySQL to manage and store site and user information.  We have MySQL
+ installed already, but we need to make a database and a user for
+WordPress to use.
+
+To get started, log into the MySQL root (administrative) account by issuing this command:
+
+```
+<ul class="prefixed"><li class="line" prefix="$">mysql -u root -p
+</li></ul>
+```
+
+You will be prompted for the password you set for the MySQL root account when you installed the software.
+
+First, we can create a separate database that WordPress can control.
+ You can call this whatever you would like, but we will be using `wordpress` in this guide to keep it simple.  You can create the database for WordPress by typing:
+
+```
+<ul class="prefixed"><li class="line" prefix="mysql>">CREATE DATABASE <span class="highlight">wordpress</span> DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+</li></ul>
+```
+
+**Note:** Every MySQL statement must end in a semi-colon (;).  Check to make sure this is present if you are running into any issues.<br>
+
+Next, we are going to create a separate MySQL user account that we
+will use exclusively to operate on our new database.  Creating
+one-function databases and accounts is a good idea from a management and
+ security standpoint.  We will use the name `wordpressuser` in this guide.  Feel free to change this if you'd like.
+
+We are going to create this account, set a password, and grant access
+ to the database we created.  We can do this by typing the following
+command.  Remember to choose a strong password here for your database
+user:
+
+```
+<ul class="prefixed"><li class="line" prefix="mysql>">GRANT ALL ON <span class="highlight">wordpress</span>.* TO '<span class="highlight">wordpressuser</span>'@'localhost' IDENTIFIED BY '<span class="highlight">password</span>';
+</li></ul>
+```
+
+You now have a database and user account, each made specifically for
+WordPress.  We need to flush the privileges so that the current instance
+ of MySQL knows about the recent changes we've made:
+
+```
+<ul class="prefixed"><li class="line" prefix="mysql>">FLUSH PRIVILEGES;
+</li></ul>
+```
+
+Exit out of MySQL by typing:
+
+```
+<ul class="prefixed"><li class="line" prefix="mysql>">EXIT;
+</li></ul>
+```
+
+## Step 2: Install Additional PHP Extensions
+
+When setting up our LAMP stack, we only required a very minimal set
+of extensions in order to get PHP to communicate with MySQL.  WordPress
+and many of its plugins leverage additional PHP extensions.
+
+We can download and install some of the most popular PHP extensions for use with WordPress by typing:
+
+```
+<ul class="prefixed"><li class="line" prefix="$">sudo apt-get update
+</li><li class="line" prefix="$">sudo apt-get install php-curl php-gd php-mbstring php-mcrypt php-xml php-xmlrpc
+</li></ul>
+```
+
+Note
+Each WordPress plugin has its own set of requirements.  Some may require
+ additional PHP packages to be installed.  Check your plugin
+documentation to discover its PHP requirements.  If they are available,
+they can be installed with `apt-get` as demonstrated above.<br>
+
+We will restart Apache to leverage these new extensions in the next
+section.  If you are returning here to install additional plugins, you
+can restart Apache now by typing:
+
+```
+<ul class="prefixed"><li class="line" prefix="$">sudo systemctl restart apache2
+</li></ul>
+```
+
+## Step 3: Adjust Apache's Configuration to Allow for .htaccess Overrides and Rewrites
+
+Next, we will be making a few minor adjustments to our Apache configuration.  Currently, the use of `.htaccess`
+files is disabled.  WordPress and many WordPress plugins use these
+files extensively for in-directory tweaks to the web server's behavior.
+
+Additionally, we will enable `mod_rewrite`, which will be needed in order to get WordPress permalinks to function correctly.
+
+### Enable .htaccess Overrides
+
+Open the primary Apache configuration file to make our first change:
+
+```
+<ul class="prefixed"><li class="line" prefix="$">sudo nano /etc/apache2/apache2.conf
+</li></ul>
+```
+
+To allow `.htaccess` files, we need to set the `AllowOverride` directive within a `Directory` block pointing to our document root.  Towards the bottom of the file, add the following block:
+/etc/apache2/apache2.conf
+
+```
+. . .
+
+<span class="highlight"><Directory /var/www/html/></span>
+    <span class="highlight">AllowOverride All</span>
+<span class="highlight"></Directory></span>
+
+. . .
+```
+
+When you are finished, save and close the file.
+
+### Enable the Rewrite Module
+
+Next, we can enable `mod_rewrite` so that we can utilize the WordPress permalink feature:
+
+```
+<ul class="prefixed"><li class="line" prefix="$">sudo a2enmod rewrite
+</li></ul>
+```
+
+### Enable the Changes
+
+Before we implement the changes we've made, check to make sure we haven't made any syntax errors:
+
+```
+<ul class="prefixed"><li class="line" prefix="$">sudo apache2ctl configtest
+</li></ul>
+```
+
+The output might have a message that looks like this:
+
+```
+<div class="secondary-code-label " title="Output">Output</div>AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Syntax OK
+```
+
+If you wish to suppress the top line, just add a `ServerName` directive to the `/etc/apache2/apache2.conf`
+file pointing to your server's domain or IP address.  This is just a
+message however and doesn't affect the functionality of our site.  As
+long as the output contains `Syntax OK`, you are ready to continue.
+
+Restart Apache to implement the changes:
+
+```
+<ul class="prefixed"><li class="line" prefix="$">sudo systemctl restart apache2
+</li></ul>
+```
+
+## Step 4: Download WordPress
+
+Now that our server software is configured, we can download and set
+up WordPress.  For security reasons in particular, it is always
+recommended to get the latest version of WordPress from their site.
+
+Change into a writable directory and then download the compressed release by typing:
+
+```
+<ul class="prefixed"><li class="line" prefix="$">cd /tmp
+</li><li class="line" prefix="$">curl -O https://wordpress.org/latest.tar.gz
+</li></ul>
+```
+
+Extract the compressed file to create the WordPress directory structure:
+
+```
+<ul class="prefixed"><li class="line" prefix="$">tar xzvf latest.tar.gz
+</li></ul>
+```
+
+We will be moving these files into our document root momentarily.  Before we do, we can add a dummy `.htaccess` file and set its permissions so that this will be available for WordPress to use later.
+
+Create the file and set the permissions by typing:
+
+```
+<ul class="prefixed"><li class="line" prefix="$">touch /tmp/wordpress/.htaccess
+</li><li class="line" prefix="$">chmod 660 /tmp/wordpress/.htaccess
+</li></ul>
+```
+
+We'll also copy over the sample configuration file to the filename that WordPress actually reads:
+
+```
+<ul class="prefixed"><li class="line" prefix="$">cp /tmp/wordpress/wp-config-sample.php /tmp/wordpress/wp-config.php
+</li></ul>
+```
+
+We can also create the `upgrade` directory, so that
+WordPress won't run into permissions issues when trying to do this on
+its own following an update to its software:
+
+```
+<ul class="prefixed"><li class="line" prefix="$">mkdir /tmp/wordpress/wp-content/upgrade
+</li></ul>
+```
+
+Now, we can copy the entire contents of the directory into our document root.  We are using the `-a`
+flag to make sure our permissions are maintained.  We are using a dot
+at the end of our source directory to indicate that everything within
+the directory should be copied, including hidden files (like the `.htaccess` file we created):
+
+```
+<ul class="prefixed"><li class="line" prefix="$">sudo cp -a /tmp/wordpress/. /var/www/html
+</li></ul>
+```
+
+## Step 5: Configure the WordPress Directory
+
+Before we do the web-based WordPress setup, we need to adjust some items in our WordPress directory.
+
+### Adjusting the Ownership and Permissions
+
+One of the big things we need to accomplish is setting up reasonable
+file permissions and ownership.  We need to be able to write to these
+files as a regular user, and we need the web server to also be able to
+access and adjust certain files and directories in order to function
+correctly.
+
+We'll start by assigning ownership over all of the files in our document root to our username.  We will use `sammy` as our username in this guide, but you should change this to match whatever your `sudo` user is called.  We will assign group ownership to the `www-data` group:
+
+```
+<ul class="prefixed"><li class="line" prefix="$">sudo chown -R <span class="highlight">sammy</span>:www-data /var/www/html
+</li></ul>
+```
+
+Next, we will set the `setgid` bit on each of the
+directories within the document root.  This causes new files created
+within these directories to inherit the group of the parent directory
+(which we just set to `www-data`) instead of the creating
+user's primary group.  This just makes sure that whenever we create a
+file in the directory on the command line, the web server will still
+have group ownership over it.
+
+We can set the `setgid` bit on every directory in our WordPress installation by typing:
+
+```
+<ul class="prefixed"><li class="line" prefix="$">sudo find /var/www/html -type d -exec chmod g+s {} \;
+</li></ul>
+```
+
+There are a few other fine-grained permissions we'll adjust.  First, we'll give group write access to the `wp-content` directory so that the web interface can make theme and plugin changes:
+
+```
+<ul class="prefixed"><li class="line" prefix="$">sudo chmod g+w /var/www/html/wp-content
+</li></ul>
+```
+
+As part of this process, we will give the web server write access to all of the content in these two directories:
+
+```
+<ul class="prefixed"><li class="line" prefix="$">sudo chmod -R g+w /var/www/html/wp-content/themes
+</li><li class="line" prefix="$">sudo chmod -R g+w /var/www/html/wp-content/plugins
+</li></ul>
+```
+
+This should be a reasonable permissions set to start with.  Some plugins and procedures might require additional tweaks.
+
+### Setting up the WordPress Configuration File
+
+Now, we need to make some changes to the main WordPress configuration file.
+
+When we open the file, our first order of business will be to adjust
+some secret keys to provide some security for our installation.
+WordPress provides a secure generator for these values so that you do
+not have to try to come up with good values on your own.  These are only
+ used internally, so it won't hurt usability to have complex, secure
+values here.
+
+To grab secure values from the WordPress secret key generator, type:
+
+```
+<ul class="prefixed"><li class="line" prefix="$">curl -s https://api.wordpress.org/secret-key/1.1/salt/
+</li></ul>
+```
+
+You will get back unique values that look something like this:
+
+**Warning!**  It is important that you request unique values each time.  Do **NOT** copy the values shown below!<br>
+
+```
+<div class="secondary-code-label " title="Output">Output</div>define('AUTH_KEY',         '1jl/vqfs<XhdXoAPz9 <span class="highlight">DO NOT COPY THESE VALUES</span> c_j{iwqD^<+c9.k<J@4H');
+define('SECURE_AUTH_KEY',  'E2N-h2]Dcvp+aS/p7X <span class="highlight">DO NOT COPY THESE VALUES</span> {Ka(f;rv?Pxf})CgLi-3');
+define('LOGGED_IN_KEY',    'W(50,{W^,OPB%PB<JF <span class="highlight">DO NOT COPY THESE VALUES</span> 2;y&,2m%3]R6DUth[;88');
+define('NONCE_KEY',        'll,4UC)7ua+8<!4VM+ <span class="highlight">DO NOT COPY THESE VALUES</span> #`DXF+[$atzM7 o^-C7g');
+define('AUTH_SALT',        'koMrurzOA+|L_lG}kf <span class="highlight">DO NOT COPY THESE VALUES</span>  07VC*Lj*lD&?3w!BT#-');
+define('SECURE_AUTH_SALT', 'p32*p,]z%LZ+pAu:VY <span class="highlight">DO NOT COPY THESE VALUES</span> C-?y+K0DK_+F|0h{!_xY');
+define('LOGGED_IN_SALT',   'i^/G2W7!-1H2OQ+t$3 <span class="highlight">DO NOT COPY THESE VALUES</span> t6**bRVFSD[Hi])-qS`|');
+define('NONCE_SALT',       'Q6]U:K?j4L%Z]}h^q7 <span class="highlight">DO NOT COPY THESE VALUES</span> 1% ^qUswWgn+6&xqHN&%');
+```
+
+These are configuration lines that we can paste directly in our
+configuration file to set secure keys.  Copy the output you received
+now.
+
+Now, open the WordPress configuration file:
+
+```
+<ul class="prefixed"><li class="line" prefix="$">nano /var/www/html/wp-config.php
+</li></ul>
+```
+
+Find the section that contains the dummy values for those settings.  It will look something like this:
+/var/www/html/wp-config.php
+
+```
+. . .
+
+define('AUTH_KEY',         'put your unique phrase here');
+define('SECURE_AUTH_KEY',  'put your unique phrase here');
+define('LOGGED_IN_KEY',    'put your unique phrase here');
+define('NONCE_KEY',        'put your unique phrase here');
+define('AUTH_SALT',        'put your unique phrase here');
+define('SECURE_AUTH_SALT', 'put your unique phrase here');
+define('LOGGED_IN_SALT',   'put your unique phrase here');
+define('NONCE_SALT',       'put your unique phrase here');
+
+. . .
+```
+
+Delete those lines and paste in the values you copied from the command line:
+/var/www/html/wp-config.php
+
+```
+. . .
+
+define('AUTH_KEY',         '<span class="highlight">VALUES COPIED FROM THE COMMAND LINE</span>');
+define('SECURE_AUTH_KEY',  '<span class="highlight">VALUES COPIED FROM THE COMMAND LINE</span>');
+define('LOGGED_IN_KEY',    '<span class="highlight">VALUES COPIED FROM THE COMMAND LINE</span>');
+define('NONCE_KEY',        '<span class="highlight">VALUES COPIED FROM THE COMMAND LINE</span>');
+define('AUTH_SALT',        '<span class="highlight">VALUES COPIED FROM THE COMMAND LINE</span>');
+define('SECURE_AUTH_SALT', '<span class="highlight">VALUES COPIED FROM THE COMMAND LINE</span>');
+define('LOGGED_IN_SALT',   '<span class="highlight">VALUES COPIED FROM THE COMMAND LINE</span>');
+define('NONCE_SALT',       '<span class="highlight">VALUES COPIED FROM THE COMMAND LINE</span>');
+
+. . .
+```
+
+Next, we need to modify some of the database connection settings at
+the beginning of the file.  You need to adjust the database name, the
+database user, and the associated password that we configured within
+MySQL.
+
+The other change we need to make is to set the method that WordPress
+should use to write to the filesystem.  Since we've given the web server
+ permission to write where it needs to, we can explicitly set the
+filesystem method to "direct".  Failure to set this with our current
+settings would result in WordPress prompting for FTP credentials when we
+ perform some actions.
+
+This setting can be added below the database connection settings, or anywhere else in the file:
+/var/www/html/wp-config.php
+
+```
+. . .
+
+define('DB_NAME', '<span class="highlight">wordpress</span>');
+
+/** MySQL database username */
+define('DB_USER', '<span class="highlight">wordpressuser</span>');
+
+/** MySQL database password */
+define('DB_PASSWORD', '<span class="highlight">password</span>');
+
+. . .
+
+<span class="highlight">define('FS_METHOD', 'direct');</span>
+```
+
+Save and close the file when you are finished.
+
+## Step 6: Complete the Installation Through the Web Interface
+
+Now that the server configuration is complete, we can complete the installation through the web interface.
+
+In your web browser, navigate to your server's domain name or public IP address:
+
+```
+http://<span class="highlight">server_domain_or_IP</span>
+```
+
+Select the language you would like to use:
+
+![WordPress language selection](How%20To%20Install%20WordPress%20with%20LAMP%20on%20Ubuntu%2016.04%20%7C%20DigitalOcean_files/language_selection.png)
+
+Next, you will come to the main setup page.
+
+Select a name for your WordPress site and choose a username (it is
+recommended not to choose something like "admin" for security purposes).
+  A strong password is generated automatically.  Save this password or
+select an alternative strong password.
+
+Enter your email address and select whether you want to discourage search engines from indexing your site:
+
+![WordPress setup installation](How%20To%20Install%20WordPress%20with%20LAMP%20on%20Ubuntu%2016.04%20%7C%20DigitalOcean_files/setup_installation.png)
+
+When you click ahead, you will be taken to a page that prompts you to log in:
+
+![WordPress login prompt](How%20To%20Install%20WordPress%20with%20LAMP%20on%20Ubuntu%2016.04%20%7C%20DigitalOcean_files/login_prompt.png)
+
+Once you log in, you will be taken to the WordPress administration dashboard:
+
+![WordPress login prompt](How%20To%20Install%20WordPress%20with%20LAMP%20on%20Ubuntu%2016.04%20%7C%20DigitalOcean_files/admin_screen.png)
+
+## Upgrading WordPress
+
+As WordPress upgrades become available, you will be unable in install them through the interface with the current permissions.
+
+The permissions we selected here are meant to provide a good balance
+between security and usability for the 99% of times between upgrading.
+However, they are a bit too restrictive for the software to
+automatically apply updates.
+
+When an update becomes available, log back into your server as your `sudo` user.  Temporarily give the web server process access to the whole document root:
+
+```
+<ul class="prefixed"><li class="line" prefix="$">sudo chown -R www-data /var/www/html
+</li></ul>
+```
+
+Now, go back the WordPress administration panel and apply the update.
+
+When you are finished, lock the permissions down again for security:
+
+```
+<ul class="prefixed"><li class="line" prefix="$">sudo chown -R <span class="highlight">sammy</span> /var/www/html
+</li></ul>
+```
+
+This should only be necessary when applying upgrades to WordPress itself.
