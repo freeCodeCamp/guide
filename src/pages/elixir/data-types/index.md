@@ -22,7 +22,7 @@ iex> 27e-100
 ```
 
 ### Booleans
-A boolean is a true or false value. In Elixir everything is truthy except for `false` and `nil`.
+A boolean is a true or false value. In Elixir everything is truthy except for `false` and `nil`. It's important to note that booleans are a subtype of Elxir atoms (you can inspect the values in IEX to see for yourself).
 
 ```elixir
 iex> true
