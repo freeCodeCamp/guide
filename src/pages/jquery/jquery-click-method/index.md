@@ -8,7 +8,7 @@ Binds the click event to an element or triggers the event on an element. It's mo
 ```javascript
 jQueryElement.click(handler)
 ```
-* handler: it's a function who is executed everytime when the event is triggered, this function also receive a param a [eventObject](http://api.jquery.com/Types/#Event)
+* handler: it's a function who is executed everytime when the event is triggered, this function also receive a param a <a href='http://api.jquery.com/Types/#Event' target='_blank' rel='nofollow'>eventObject</a>
 
 #### Examples
 Showing a alert on click of a button:
@@ -18,11 +18,11 @@ Showing a alert on click of a button:
 ```javascript
 $("#alert").click(function(){
   alert("Hi! I'm an alert");
-})
+});
 ```
-[jsFiddle](https://jsfiddle.net/pL63cL6m/)
+<a href='https://jsfiddle.net/pL63cL6m/' target='_blank' rel='nofollow'>jsFiddle</a>
 
-Usage of ones of the [eventObject](http://api.jquery.com/Types/#Event) method:
+Usage of ones of the <a href='http://api.jquery.com/Types/#Event' target='_blank' rel='nofollow'>eventObject</a> method:
 ```html
 <a id="myLink" href="www.google.com">Link to Google</a>
 ```
@@ -33,7 +33,7 @@ $("#myLink").click(function(event){
 ```
 _here we are using the preventDefault method, it do exactly what it says, we stop the default event of an element, in this case we prevent our anchor tag to make a redirection when clicked_
 
-[jsFiddle](https://jsfiddle.net/dy457gbh/)
+<a href='https://jsfiddle.net/dy457gbh/' target='_blank' rel='nofollow'>jsFiddle</a>
 
 #### More ways to play with the click method
 
@@ -57,15 +57,38 @@ The click method with no handler function triggers a click event:
 ```javascript
 $("#alert").click(function(){
   alert("Hi! I'm an alert");
-})
+});
 
 $("#alert").click();
 ```
+
 Whenever the page loads, the click event will trigger the assigned alert.
 
-[jsFiddle](https://jsfiddle.net/gspk6gxt/)
+Also you should prefer to use .on('click',...) over .click(...) because the former can use less memory and work for dynamically added elements.
+
+<a href='https://jsfiddle.net/gspk6gxt/' target='_blank' rel='nofollow'>jsFiddle</a>
+
+#### Common Mistakes
+
+The click event is only bound to elements currently on the DOM at the time of binding, so any elements added afterwards will not be bound. To bind all elements on the DOM, even if they will be created at a later time, use the `.on()` method.
+
+For example, this click method example:
+
+```javascript
+$( "element" ).click(function() {
+  alert("I've been clicked!");
+});
+```
+
+Can be changed to this on method example:
+
+```javascript
+$( document ).on("click", "element", function() {
+  alert("I've been clicked!");
+});
+```
 
 #### More Information:
 
-For more information, please visit the [official website](https://api.jquery.com/click/#click) 
+For more information, please visit the <a href='https://api.jquery.com/click/#click' target='_blank' rel='nofollow'>official website</a> 
 
