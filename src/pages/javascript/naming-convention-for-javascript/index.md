@@ -7,16 +7,22 @@ Here you will get an overview of the different code cases that are widely used.
 
 In programming, camelCase formatting for variable names looks like this:
 
+```js
     var camelCase = "lower-case first word, capitalize each subsequent word";
+```
 
 ## PascalCase
 
 PascalCase (or CamelCase) is a variant of camelCase. It differs from camelCase by capitalizing every word, *including* the first word:
 
+```js
     var PascalCase = "upper-case every word";
+```
 
 ## snake_case
 
 Another popular case called snake_case separates each word with underscores in this manner:
 
+```js
     var snake_case = "lower-case everything, but separate words with underscores";
+```

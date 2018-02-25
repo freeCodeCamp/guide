@@ -37,6 +37,7 @@ If you are using `Date()` to create instances of dates to work with, then use UT
 
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
 
+```js
     function makeFriendlyDates(str) {
 
       var months = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
@@ -129,6 +130,7 @@ If you are using `Date()` to create instances of dates to work with, then use UT
 
     // test here
     makeFriendlyDates(['2016-07-01', '2016-07-04']);
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLos/0' target='_blank' rel='nofollow'>Run Code</a>
 

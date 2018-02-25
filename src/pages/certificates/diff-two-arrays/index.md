@@ -99,6 +99,7 @@ Explain solution here and add any relevant links
 
 ## ![:rotating_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:") Advanced Code Solution (Declarative Solution):
 
+```js
     function diffArray(arr1, arr2) {
         return arr1
           .filter(el => !arr2.includes(el))
@@ -108,6 +109,7 @@ Explain solution here and add any relevant links
     }
 
     diffArray([1, 2, 3, 5], [1, 2, 3, 4, 5]);
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href="https://repl.it/CNYU/0">Run Code</a>
 

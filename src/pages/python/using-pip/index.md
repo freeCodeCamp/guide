@@ -9,7 +9,9 @@ Third party modules add so much more functionality to Python. Now we would learn
 
 The simplest way is to use `pip`
 
-    pip install <module_name>
+```shell
+pip install <module_name>
+```
 
 If you have used `npm`, then you can think of it as _npm_ of python.
 
@@ -17,7 +19,9 @@ Last time, in <a>`import-statements`</a> wiki we used `requests` module as an ex
 
 Installing it would be as simple as `pip install requests` . You can even pass various arguments along with it. The one that you'll come across more often is `--upgrade`. You can upgrade a python module by :
 
-    pip install <module_name> --upgrade
+```shell
+pip install <module_name> --upgrade
+```
 
 For example, to upgrade the requests module to its latest version would be as simple as `pip install requests --upgrade`.
 
@@ -29,6 +33,8 @@ An alternative to using pip would be to try <a href='https://bootstrap.pypa.io/e
 
 Using `easy_install` is also simple. The syntax is:
 
-    easy_install <module_name>
+```shell
+easy_install <module_name>
+```
 
 However, `pip` is more popular than using `easy_install`.

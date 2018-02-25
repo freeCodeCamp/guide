@@ -9,8 +9,10 @@ The official installation guide is available <a href='https://docs.djangoproject
 
 But before you start installing, make sure you are inside an **activated** virtual environment; where running the following command in terminal would look like this:
 
-    $ python --version
-    Python 3.5.1
+```shell
+$ python --version
+Python 3.5.1
+```
 
 It might not be `3.5.1` for you. It could very well be `3.4.3`. But that is ok, just as long as it does not show it as `2.7.9` or something else that starts with `2`.
 
@@ -18,7 +20,9 @@ Once you have ensured you are in an activated virtual environment, and `python` 
 
 Once installed; it would be a great idea to check what all did `pip` install; by executing the following command:
 
-    $ pip freeze
+```shell
+$ pip freeze
+```
 
 This would output a list of modules installed with current Python; and you should see Django with proper version (something like `Django==1.9.2` in the list.
 

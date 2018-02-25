@@ -37,6 +37,7 @@ Make the variable created store the current value and append the word to it.
 
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
 
+```js
     function repeatStringNumTimes(str, num) {
       var accumulatedStr = '';
 
@@ -47,6 +48,7 @@ Make the variable created store the current value and append the word to it.
 
       return accumulatedStr;
     }
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLjU/19' target='_blank' rel='nofollow'>Run Code</a>
 
@@ -64,6 +66,7 @@ Make the variable created store the current value and append the word to it.
 
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution:
 
+```js
     function repeatStringNumTimes(str, num) {
       if(num < 0)
         return "";
@@ -72,6 +75,7 @@ Make the variable created store the current value and append the word to it.
       else
         return str + repeatStringNumTimes(str, num - 1);
     }
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLjU/21' target='_blank' rel='nofollow'>Run Code</a>
 
@@ -88,11 +92,13 @@ Make the variable created store the current value and append the word to it.
 
 ## ![:rotating_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:") Advanced Code Solution:
 
+```js
     function repeatStringNumTimes(str, num) {
       return num > 0 ? str.repeat(num) : '';
     }
 
     repeatStringNumTimes("abc", 3);
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLjU/85' target='_blank' rel='nofollow'>Run Code</a>
 

@@ -23,7 +23,7 @@ A [Boolean](https://guide.freecodecamp.org/javascript/booleans) indicating wheth
 
 ## Examples
 
-```
+```js
 Number.isFinite(Infinity)     // false
 Number.isFinite(-Infinity)    // false
 
@@ -38,7 +38,7 @@ Number.isFinite('2005/12/12') // false
 
 Number.isFinite('0');         // false, would've been true with
                               // global isFinite('0')
-                         
+
 Number.isFinite(null);        // false, would've been true with
                               // global isFinite(null)
 

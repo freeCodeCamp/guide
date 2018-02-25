@@ -8,7 +8,7 @@ Ruby for loops are used to loop or iterate over a number of elements and execute
 
 For loops are merely one example of looping or iterating over elements. Below is an example of a for loop:
 
-```
+```ruby
 for element in array do
   puts element
 end
@@ -16,7 +16,7 @@ end
 
 There are many many different ways in which you can execute a for loop or loop in Ruby, another such example would be:
 
-```
+```ruby
 element.each do |element|
   puts element
 end
@@ -26,6 +26,6 @@ This would achieve exactly the same results as the aforementioned for loop, it i
 
 To go one step further, we can write the above loop in the following way:
 
-```
+```ruby
 element.each do { |element| puts element }
 ```

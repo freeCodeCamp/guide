@@ -19,29 +19,33 @@ In its simplest form, the `ping` command provides two valuable pieces of informa
 
 This is what my `ping` response looks like on my Mac OS X computer when everything is working normally here in Malaysia:
 
-    MacBook-Pro:~ ajm$ ping Google.com
-    PING google.com (216.58.196.46): 56 data bytes
-    64 bytes from 216.58.196.46: icmp\_seq=0 ttl=55 time=6.396 ms
-    64 bytes from 216.58.196.46: icmp\_seq=1 ttl=55 time=6.368 ms
-    64 bytes from 216.58.196.46: icmp\_seq=2 ttl=55 time=26.773 ms
-    64 bytes from 216.58.196.46: icmp\_seq=3 ttl=55 time=6.984 ms
-    ^C
-    --- google.com ping statistics ---
-    4 packets transmitted, 4 packets received, 0.0% packet loss
-    round-trip min/avg/max/stddev = 6.368/11.630/26.773/8.746 ms
+```text
+MacBook-Pro:~ ajm$ ping Google.com
+PING google.com (216.58.196.46): 56 data bytes
+64 bytes from 216.58.196.46: icmp\_seq=0 ttl=55 time=6.396 ms
+64 bytes from 216.58.196.46: icmp\_seq=1 ttl=55 time=6.368 ms
+64 bytes from 216.58.196.46: icmp\_seq=2 ttl=55 time=26.773 ms
+64 bytes from 216.58.196.46: icmp\_seq=3 ttl=55 time=6.984 ms
+^C
+--- google.com ping statistics ---
+4 packets transmitted, 4 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 6.368/11.630/26.773/8.746 ms
+```
 
 This is what my `ping` response looks like on a Windows computer when everything is working well:
 
-    C:\Users\BJM>ping Google.com
-    Pinging google.com [216.58.196.46] with 32 bytes of data:
-    Reply from 216.58.196.46: bytes=32 time=6ms TTL=128
-    Reply from 216.58.196.46: bytes=32 time=15ms TTL=128
-    Reply from 216.58.196.46: bytes=32 time=6ms TTL=128
-    Reply from 216.58.196.46: bytes=32 time=6ms TTL=128
-    Ping statistics for 216.58.196.46:
-        Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
-    Approximate round trip times in milli-seconds:
-        Minimum = 6ms, Maximum = 15ms, Average = 8ms
+```text
+C:\Users\BJM>ping Google.com
+Pinging google.com [216.58.196.46] with 32 bytes of data:
+Reply from 216.58.196.46: bytes=32 time=6ms TTL=128
+Reply from 216.58.196.46: bytes=32 time=15ms TTL=128
+Reply from 216.58.196.46: bytes=32 time=6ms TTL=128
+Reply from 216.58.196.46: bytes=32 time=6ms TTL=128
+Ping statistics for 216.58.196.46:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 6ms, Maximum = 15ms, Average = 8ms
+```
 
 You can see from these examples that the connection is pretty good with average response times under 10ms.
 
@@ -49,33 +53,39 @@ You can see from these examples that the connection is pretty good with average 
 
 So what would happen if I could not connect to `Google.com`? For example <span class="hashtag">#1</span>, I simulate a broken network connection to my Mac by unplugging my router from the wall, and re-run the command. The first thing I notice is that it takes a _lot_ longer for the command to respond:
 
-    MacBook-Pro:~ ajm$ ping google.com
-    ping: cannot resolve google.com: Unknown host
-    MacBook-Pro:~ ajm$
+```text
+MacBook-Pro:~ ajm$ ping google.com
+ping: cannot resolve google.com: Unknown host
+MacBook-Pro:~ ajm$
+```
 
 Or, for example <span class="hashtag">#2</span>, depending on exactly how the connection is failing:
 
-    PING google.com (216.58.196.46): 56 data bytes
-    Request timeout for icmp\_seq 0
-    Request timeout for icmp\_seq 1
-    Request timeout for icmp\_seq 2
-    ^C
+```text
+PING google.com (216.58.196.46): 56 data bytes
+Request timeout for icmp\_seq 0
+Request timeout for icmp\_seq 1
+Request timeout for icmp\_seq 2
+^C
+```
 
 And sometimes, if I have a particularly flaky connection, I'll see a mixture of these messages. For example <span class="hashtag">#3</span>, I can simulate this by connecting my Mac computer to a public Wi-Fi connection that is across the street:
 
-    PING google.com (216.58.196.206): 56 data bytes
-    64 bytes from 216.58.196.206: icmp\_seq=0 ttl=57 time=273.655 ms
-    64 bytes from 216.58.196.206: icmp\_seq=1 ttl=57 time=808.546 ms
-    64 bytes from 216.58.196.206: icmp\_seq=2 ttl=57 time=179.613 ms
-    Request timeout for icmp\_seq 3
-    Request timeout for icmp\_seq 4
-    64 bytes from 216.58.196.206: icmp\_seq=5 ttl=57 time=374.612 ms
-    Request timeout for icmp\_seq 6
-    ping: sendto: No route to host
-    Request timeout for icmp\_seq 7
-    ping: sendto: No route to host
-    Request timeout for icmp\_seq 8
-    ^C
+```text
+PING google.com (216.58.196.206): 56 data bytes
+64 bytes from 216.58.196.206: icmp\_seq=0 ttl=57 time=273.655 ms
+64 bytes from 216.58.196.206: icmp\_seq=1 ttl=57 time=808.546 ms
+64 bytes from 216.58.196.206: icmp\_seq=2 ttl=57 time=179.613 ms
+Request timeout for icmp\_seq 3
+Request timeout for icmp\_seq 4
+64 bytes from 216.58.196.206: icmp\_seq=5 ttl=57 time=374.612 ms
+Request timeout for icmp\_seq 6
+ping: sendto: No route to host
+Request timeout for icmp\_seq 7
+ping: sendto: No route to host
+Request timeout for icmp\_seq 8
+^C
+```
 
 In the first test, `ping` told me that my machine could not even find the Internet address (IP `216.58.196.46`) for `Google.com`. In the second test, my computer remembered Google's IP address, but could not actually reach the Google servers (`Request timeout`). In the third test, `sendto: No route to host` means that the network device knows where the Google servers are, but something along the digital pathway is broken.
 

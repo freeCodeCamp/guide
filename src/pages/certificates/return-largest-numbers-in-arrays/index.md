@@ -35,6 +35,7 @@ Pay close attention to the timing of the storing of variables when working with 
 
 **(Procedural approach)**
 
+```js
     function largestOfFour(arr) {
       var results = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>];
       for (var n = 0; n < arr.length; n++) {
@@ -50,6 +51,7 @@ Pay close attention to the timing of the storing of variables when working with 
 
       return results;
     }
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLjU/734' target='_blank' rel='nofollow'>Run Code</a>
 
@@ -71,6 +73,7 @@ Pay close attention to the timing of the storing of variables when working with 
 
 **(Declarative approach)**
 
+```js
     function largestOfFour(arr) {
       return arr.map(function(group){
         return group.reduce(function(prev, current) {
@@ -78,6 +81,7 @@ Pay close attention to the timing of the storing of variables when working with 
         });
       });
     }
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLjU/733' target='_blank' rel='nofollow'>Run Code</a>
 
@@ -98,9 +102,11 @@ Pay close attention to the timing of the storing of variables when working with 
 
 **(Declarative approach)**
 
+```js
     function largestOfFour(arr) {
       return arr.map(Function.apply.bind(Math.max, null));
     }
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLjU/17' target='_blank' rel='nofollow'>Run Code</a>
 
@@ -119,7 +125,7 @@ In other words, it would be really nice and simple if this worked by itself:
 
 Alas, it doesn't.
 
-*   To do the work of accepting arguments in the shape of an array, there is this `Function.prototype.apply` method, but it complicates things a bit by _invoking_ the _context_ function.  
+*   To do the work of accepting arguments in the shape of an array, there is this `Function.prototype.apply` method, but it complicates things a bit by _invoking_ the _context_ function.
 
 i.e. `Math.max.apply(null, [9, 43, 20, 6]);` would invoke something like a `Max.max` method. What we're looking for... almost.
 
@@ -130,9 +136,9 @@ Here we're passing `null` as the _context_ of the `Function.prototype.apply` met
 *   Now we pass the _context_ for the `Function.prototype.apply.bind` call (in this case we want `Math.max`so we can gain its functionality).
 *   Since the embedded `Function.prototype.apply` method will also require a context as it's 1st argument, we need to pass it a bogus _context_.
     *   So, we pass `null` as the 2nd param to `Function.prototype.apply.bind` which gives a _context_ to the `Math.max` method.
-
     *   Since, `Math.max` is independent of any _context_, hence, it ignores the bogus _context_ given by `Function.prototype.apply` method call.
     *   Thus, our `Function.prototype.apply.bind(Math.max, null)` makes a new function accepting the `arr.map` values i.e. the inner arrays.
+
 
 #### Relevant Links
 

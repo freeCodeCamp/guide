@@ -39,7 +39,7 @@ Selecting with IDs:
 
 There are also selectors that act as filters - they will usually start with colons. For example, the `:first` selector selects the element that is the first child of its parent. Here's an example of an unordered list with some list items. The jQuery selector below the list selects the first `<li>` element in the list--the "One" list item--and then uses the `.css` method to turn the text green.
 
-```
+```html
    <ul>
       <li>One</li>
       <li>Two</li>
@@ -52,7 +52,7 @@ There are also selectors that act as filters - they will usually start with colo
 
 Another filtering selector, `:contains(text)`, selects elements that have a certain text. Place the text you want to match in the parentheses. Here's an example with two paragraphs. The jQuery selector takes the word "Moto" and changes its color to yellow.
 
-```
+```html
     <p>Hello</p>
     <p>World</p>
 ```
@@ -62,7 +62,7 @@ Another filtering selector, `:contains(text)`, selects elements that have a cert
 
 **Multiple Selectors**
 In jQuery, you can use multiple selectors to apply the same changes to more than one element, using a single line of code. You do this by separating the different ids with a comma. For example, if you want to set the background color of three elements with ids cat,dog,and rat respectively to red, simply do:
-```
+```js
 $("#cat,#dog,#rat").css("background-color","red");
 ```
 

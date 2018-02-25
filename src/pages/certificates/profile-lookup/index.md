@@ -57,6 +57,7 @@ Leave your `return "No such contact"` out of the `for` loop as a final catch-all
 
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
 
+```js
     for (var x = 0; x < contacts.length; x++){
         if (contacts<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/clipboard.png?v=3 ":clipboard:"' target='_blank' rel='nofollow'>x].firstName === firstName) {
             if (contacts[x].hasOwnProperty(prop)) {
@@ -67,6 +68,7 @@ Leave your `return "No such contact"` out of the `for` loop as a final catch-all
         }
     }
     return "No such contact";
+```
 
 ### Code Explanation:
 

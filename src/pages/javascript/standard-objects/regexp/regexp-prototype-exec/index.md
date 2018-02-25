@@ -28,11 +28,13 @@ If the match fails, the `exec()` method returns [`null`](/en-US/docs/Web/JavaScr
 
 Consider the following example:
 
+```js
     // Match "quick brown" followed by "jumps", ignoring characters in between
     // Remember "brown" and "jumps"
     // Ignore case
     var re = /quick\s(brown).+?(jumps)/ig;
     var result = re.exec('The Quick Brown Fox Jumps Over The Lazy Dog');
+```
 
 The following table shows the results for this script:
 
@@ -42,6 +44,7 @@ The following table shows the results for this script:
 
 If your regular expression uses the "`g`" flag, you can use the `exec()` method multiple times to find successive matches in the same string. When you do so, the search starts at the substring of `str` specified by the regular expression's [`lastIndex`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/lastIndex "The lastIndex is a read/write integer property of regular expression instances that specifies the index at which to start the next match.") property ([`test()`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/test "The test() method executes a search for a match between a regular expression and a specified string. Returns true or false.") will also advance the [`lastIndex`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/lastIndex "The lastIndex is a read/write integer property of regular expression instances that specifies the index at which to start the next match.") property). For example, assume you have this script:
 
+```js
     var myRe = /ab*/g;
     var str = 'abbcdefabh';
     var myArray;
@@ -50,11 +53,14 @@ If your regular expression uses the "`g`" flag, you can use the `exec()` method 
       msg += 'Next match starts at ' + myRe.lastIndex;
       console.log(msg);
     }
+```
 
 This script displays the following text:
 
+```js
     Found abb. Next match starts at 3
     Found ab. Next match starts at 9
+```
 
 Note: Do not place the regular expression literal (or [`RegExp`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp "The RegExp constructor creates a regular expression object for matching text with a pattern.") constructor) within the `while` condition or it will create an infinite loop if there is a match due to the [`lastIndex`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/lastIndex "The lastIndex is a read/write integer property of regular expression instances that specifies the index at which to start the next match.") property being reset upon each iteration. Also be sure that the global flag is set or a loop will occur here also.
 
@@ -62,7 +68,9 @@ Note: Do not place the regular expression literal (or [`RegExp`](/en-US/docs/Web
 
 You can also use `exec()` without creating a [`RegExp`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp "The RegExp constructor creates a regular expression object for matching text with a pattern.") object:
 
+```js
     var matches = /(hello \S+)/.exec('This is a hello world!');
     console.log(matches[1]);
+```
 
 This will log a message containing 'hello world!'.

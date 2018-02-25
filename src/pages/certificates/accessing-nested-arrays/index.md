@@ -5,7 +5,8 @@ As we have seen in earlier examples, JSON objects can contain both nested object
 
 Here is an example of how to access a nested array:
 
-    var ourPets = { 
+```js
+    var ourPets = {
       "cats": [
         "Meowzer",
         "Fluffy",
@@ -19,3 +20,4 @@ Here is an example of how to access a nested array:
     };
     ourPets.cats[1]; // "Fluffy"
     ourPets.dogs[0]; // "Spot"
+```

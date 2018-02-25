@@ -2,7 +2,7 @@
 title: Accessibility Basics
 ---
 > "The Dark Arts are many, varied, ever-changing, and eternal. Fighting them is like fighting a many-headed monster, which, each time a neck is severed, sprouts a head even fiercer and cleverer than before. You are fighting that which is unfixed, mutating, indestructible."
-> 
+>
 > --Professor Severus Snape, Harry Potter Series
 
 In this day and age, more and more new technologies are invented to make the life of developers, as well as users easier. To what degree this is a good thing is a debate for another time, for now it's enough to say the toolbox of a developer, especially a web developer, is as ever-changing as the so called "dark arts" are according to our friend Snape.
@@ -52,7 +52,7 @@ There's variations on this legislation all over the world, some more severe and 
 
 ## Ok, so accessibility is a big deal. Now how do we implement it?
 
-That question, sadly, is harder to answer than it may seem. The Harry Potter quote at the top is there for a reason, and its not my being an avid Fantasy reader. 
+That question, sadly, is harder to answer than it may seem. The Harry Potter quote at the top is there for a reason, and its not my being an avid Fantasy reader.
 
 As I stated above, accessibility is important for a large group of different people, each with their own needs. Making your website work for literally everyone is a large, on-going task.
 
@@ -62,11 +62,13 @@ To bring a bit of a method to the madness, the Web Content Accessibility Guideli
 
 The HTML specification is a document that describes how the language should be used to build websites. Assistive technologies, like screen-readers, speech recognition programs etc. are aware of this document. Web developers however, often are not, or at least not enough, and think something like this is ok:
 
-    <div class="awesome-button"></div>
+```html
+<div class="awesome-button"></div>
 
-    <span><strong>Huge heading I will style with CSS later</strong></span>
+<span><strong>Huge heading I will style with CSS later</strong></span>
 
-    <span class="clickable-with-JavaScript">English</span>
+<span class="clickable-with-JavaScript">English</span>
+```
 
 Guess what? All three of these elements break several criteria of WCAG and therefore are not accessible at all.
 
@@ -81,11 +83,13 @@ Spans and divs are non-elements. They are meant to contain other elements, not t
 *   You can manually add ARIA-attributes to the elements above. This is an advanced topic and outside the scope of this article.
 *   Or, you can simply do this:
 
-    <button>This is a button</button>
+```html
+<button>This is a button</button>
 
-    <h2>Here's a heading level two</h2>
+<h2>Here's a heading level two</h2>
 
-    <a href="JavascriptThing">English</a>
+<a href="JavascriptThing">English</a>
+```
 
 Boom. Suddenly, all these elements are now perfectly accessible, just by using native HTML. HTML the way it was meant to be used, in other words.
 
@@ -123,13 +127,15 @@ The WCAG has contrast ratios for smaller and larger letters and there's plenty o
 
 While we are at the topic of forms, let's quickly glance at the
 
-tag. This little guy is kinda important.  
-When you put some input fields on a web page, you can use labels to ...well ...label them. However, putting them next to each other is not quite enough. The attribute you want is the for-attribute, which takes the ID of a subsequent input field. This way, assistive technologies know what label to associate with what form field.  
+tag. This little guy is kinda important.
+When you put some input fields on a web page, you can use labels to ...well ...label them. However, putting them next to each other is not quite enough. The attribute you want is the for-attribute, which takes the ID of a subsequent input field. This way, assistive technologies know what label to associate with what form field.
 I guess the best way to illustrate this is by giving an example:
 
-    <label for='username'>
+```html
+<label for='username'>
 
-    <input type='text' id='username'>
+<input type='text' id='username'>
+```
 
 This will make for example a screen-reader say "username, text edit field", instead of just reporting' text edit field' and requiring the user to go look for a label. This also really helps people who use speech recognition.
 
@@ -151,16 +157,16 @@ Screen-readers and other assistive technologies render a top-to-bottom represent
 
 DOM stands for Document Object Model and is a tree-like structure of your website's HTML elements. All your HTML elements are nodes that hierarchically interlink based on the HTML tags you use and JavaScript, as well as screen-readers, use this DOM tree to work with your HTML code.
 
-If you put your element at the top of your element, it will show up at the top of your DOM tree as well. therefore, the screen-reader will put it at the top as well, even if you move it to the bottom of the page using CSS.  
-So a final tip I want to give you all is to pay attention to the order of your HTML, not just your finished website with CSS added in. Does it still make sense without CSS? Great!  
-Oh ... it doesn't? In that case ..you might one day hear a muffled curse carried to you on a chilly breeze while walking outside. That will most likely be me, visiting your website. 
+If you put your element at the top of your element, it will show up at the top of your DOM tree as well. therefore, the screen-reader will put it at the top as well, even if you move it to the bottom of the page using CSS.
+So a final tip I want to give you all is to pay attention to the order of your HTML, not just your finished website with CSS added in. Does it still make sense without CSS? Great!
+Oh ... it doesn't? In that case ..you might one day hear a muffled curse carried to you on a chilly breeze while walking outside. That will most likely be me, visiting your website.
 In that case I really only have two words for you. Often have I heard those same two words directed at me when I wrote some bad code and it is with great pleasure that I tell you: "go fix!"
 
 ## Conclusion
 
-I have told you about accessibility, what it is, what it's not and why it's important.  
-I have also given you the basics, the very basics, of getting accessibility right. These basics are however very powerful and can make your life a lot easier when coding for accessibility.  
-If we talk in FCC terms, you should keep these in mind while doing the HTML/CSS curriculum as well as the JavaScript curriculum.  
+I have told you about accessibility, what it is, what it's not and why it's important.
+I have also given you the basics, the very basics, of getting accessibility right. These basics are however very powerful and can make your life a lot easier when coding for accessibility.
+If we talk in FCC terms, you should keep these in mind while doing the HTML/CSS curriculum as well as the JavaScript curriculum.
 In subsequent articles, I will touch on a number of more notch topics. A number of questions I will answer are:
 
 *   Adding structure headings sounds like a good idea, but they don't fit in my design. What do I do?

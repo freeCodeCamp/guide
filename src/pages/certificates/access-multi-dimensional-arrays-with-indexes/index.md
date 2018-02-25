@@ -5,6 +5,7 @@ One way to think of a `multi-dimensional` array, is as an array of arrays. When 
 
 ## Example
 
+```js
     var arr = [
         [1,2,3],
         [4,5,6],
@@ -14,3 +15,4 @@ One way to think of a `multi-dimensional` array, is as an array of arrays. When 
     arr[0]; // equals [1,2,3]
     arr[1][2]; // equals 6
     arr[3][0][1]; // equals 11
+```

@@ -3,9 +3,11 @@ title: For...Of Loop
 ---
 The `for...of` statement creates a loop iterating over iterable objects (including Array, Map, Set, Arguments object and so on), invoking a custom iteration hook with statements to be executed for the value of each distinct property.
 
+```js
     for (variable of object) {
         statement
     }
+```
 
 | | Description |
 |----------|-------------------------------------|
@@ -18,6 +20,7 @@ The `for...of` statement creates a loop iterating over iterable objects (includi
 
 ### Array
 
+```js
     let arr = [ "fred", "tom", "bob" ];
 
     for (let i of arr) {
@@ -28,9 +31,11 @@ The `for...of` statement creates a loop iterating over iterable objects (includi
     // fred
     // tom
     // bob
+```
 
 ### Map
 
+```js
     var m = new Map();
     m.set(1, "black");
     m.set(2, "red");
@@ -42,9 +47,11 @@ The `for...of` statement creates a loop iterating over iterable objects (includi
     // Output:
     // 1,black
     // 2,red
+```
 
 ### Set
 
+```js
     var s = new Set();
     s.add(1);
     s.add("red");
@@ -56,9 +63,11 @@ The `for...of` statement creates a loop iterating over iterable objects (includi
     // Output:
     // 1
     // red
+```
 
 ### Arguments object
 
+```js
     // your browser must support for..of loop
     // and let-scoped variables in for loops
 
@@ -74,3 +83,4 @@ The `for...of` statement creates a loop iterating over iterable objects (includi
     // Output:
     // 1
     // red
+```

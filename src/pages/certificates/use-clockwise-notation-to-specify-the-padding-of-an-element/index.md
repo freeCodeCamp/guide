@@ -5,7 +5,9 @@ Instead of specifying an element's `padding-top`, `padding-right`, `padding-bott
 
 These four values work like a clock: top, right, bottom, left, and will produce the exact same result as using the side-specific padding instructions.
 
+```css
     .green-box {
       background-color: green;
       padding: 40px 20px 20px 40px
     }
+```

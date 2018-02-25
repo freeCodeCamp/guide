@@ -8,10 +8,10 @@ Docker uses containers (a runtime instance of an image) to create environments t
 Docker is an open-source project based on Linux containers. It uses Linux Kernel features like namespaces and control groups to create containers on top of an operating system.
 
 ### What is containerization then:
-Simply put, it is nothing more than packaging of a process/application and it's dependencies into a distributable image which can run in isolation. 
+Simply put, it is nothing more than packaging of a process/application and it's dependencies into a distributable image which can run in isolation.
 
 ### Why do we need Docker:
-It makes the life of software engineers very smooth as they will always work on the same development environment. 
+It makes the life of software engineers very smooth as they will always work on the same development environment.
 It helps in sharing the final product to customers/other teams without worrying about environment issues.
 It reduces the amount of hardware we need to run our applications by not wasting them for unnecessary OS layer.
 
@@ -37,7 +37,7 @@ A Dockerfile is where you write the instructions to build a Docker image. These 
 **EXPOSE 8000**: to expose a port
 **ENV ANT_HOME /usr/local/apache-ant** to pass an environment variable and so forth. Once you’ve got your Dockerfile set up, you can use the docker build command to build an image from it. Here’s an example of a Dockerfile:
 
-```
+```docker
 # Start with ubuntu 14.04
 FROM ubuntu:14.04
 

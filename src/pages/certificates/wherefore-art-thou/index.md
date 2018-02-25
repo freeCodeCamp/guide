@@ -39,6 +39,7 @@ Check equivalence of `Object` in `collection` with `Object` passed as second par
 
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
 
+```js
     function whatIsInAName(collection, source) {
       // "What's in a name? that which we call a rose
       // By any other name would smell as sweet.”
@@ -58,6 +59,7 @@ Check equivalence of `Object` in `collection` with `Object` passed as second par
 
     // test here
     whatIsInAName([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }], { last: "Capulet" });
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLmh/0' target='_blank' rel='nofollow'>Run Code</a>
 
@@ -76,6 +78,7 @@ Check equivalence of `Object` in `collection` with `Object` passed as second par
 
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution:
 
+```js
     function whatIsInAName(collection, source) {
       // "What's in a name? that which we call a rose
       // By any other name would smell as sweet.”
@@ -91,6 +94,7 @@ Check equivalence of `Object` in `collection` with `Object` passed as second par
 
     // test here
     whatIsInAName([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }], { last: "Capulet" });
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLmi/0' target='_blank' rel='nofollow'>Run Code</a>
 
@@ -108,6 +112,7 @@ Check equivalence of `Object` in `collection` with `Object` passed as second par
 
 ## ![:rotating_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:") Advanced Code Solution:
 
+```js
     function whatIsInAName(collection, source) {
       // "What's in a name? that which we call a rose
       // By any other name would smell as sweet.”
@@ -128,6 +133,7 @@ Check equivalence of `Object` in `collection` with `Object` passed as second par
 
     // test here
     whatIsInAName([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }], { last: "Capulet" });
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLmj/0' target='_blank' rel='nofollow'>Run Code</a>
 

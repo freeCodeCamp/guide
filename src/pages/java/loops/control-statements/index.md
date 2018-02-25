@@ -26,8 +26,8 @@ System.out.println(i);
 ```
 
 Output:
-```
-    0 1 2 3 4 
+```text
+    0 1 2 3 4
 ```
 
 The 'continue' control statement is the less intense version of 'break'. It only breaks out of the current instance of the loop and continues on. In the loop below, if i is 5, the loop continues, so it will skip over the print statement below and move on until i reaches 10 and the loop stops.
@@ -45,6 +45,6 @@ System.out.println(i);
 ```
 
 Output:
-```
+```text
     0 1 2 3 4 6 7 8 9
 ```

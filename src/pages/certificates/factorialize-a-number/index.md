@@ -51,19 +51,19 @@ What it returns can be viewed as `(5*(4*(3*(2*1))))` or just `5 * 4 * 3 * 2 * 1`
 
 ### During the rest of the executions:
 
-**Second Execution**: _num_ = 5-1 = **4** -> is _num_ 0 or 1? No  
+**Second Execution**: _num_ = 5-1 = **4** -> is _num_ 0 or 1? No
 
 --> return the multiplication between 4 and the next result when _num_ is now 4-1.
 
-**Third Execution**: _num_ = 4 - 1 = **3** -> is _num_ 0 or 1? No  
+**Third Execution**: _num_ = 4 - 1 = **3** -> is _num_ 0 or 1? No
 
 --> return the multiplication between 3 and the next result when _num_ is now 3-1.
 
-**Fourth Execution**: _num_ = 3-1 = **2** -> is _num_ 0 or 1? No  
+**Fourth Execution**: _num_ = 3-1 = **2** -> is _num_ 0 or 1? No
 
 --> return the multiplication between 2 and the next result when _num_ is now 2-1.
 
-**Fifth Execution**: _num_ = 2-1 = **1** -> is _num_ 0 or 1? Yep  
+**Fifth Execution**: _num_ = 2-1 = **1** -> is _num_ 0 or 1? Yep
 
 --> return **1**. And this is where the recursion stops because there are no more executions.
 
@@ -84,12 +84,14 @@ Got it? ![:wink:</a>
 
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Code Solution:
 
+```js
     function factorialize(num) {
       if (num === 0) { return 1; }
       return num * factorialize(num-1);
     }
 
     factorialize(5);
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLjU/1' target='_blank' rel='nofollow'>Run Code</a>
 

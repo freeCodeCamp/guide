@@ -13,7 +13,7 @@ Apache Flink is an open source stream processing framework with powerful stream-
 * Java 7 or 8
 * IntelliJ IDEA or Eclipse IDE
 
-```
+```shell
 git clone https://github.com/apache/flink.git
 cd flink
 mvn clean package -DskipTests # this will take up to 10 minutes
@@ -26,15 +26,15 @@ In this example we'll be using the movies.csv and the ratings.csv, create a new 
 
 ### Example
 
-We're going to make an execution where we retrieve the average rating by movie genre of the entire dataset we have. 
+We're going to make an execution where we retrieve the average rating by movie genre of the entire dataset we have.
 
 **Environment and datasets**
 
 First create a new Java file, I'm going to name it AverageRating.java
 
-The first thing we'll do is to create the execution environment and load the csv files in a dataset. Like this: 
+The first thing we'll do is to create the execution environment and load the csv files in a dataset. Like this:
 
-```
+```java
 ExecutionEnvironment env = ExecutionEnvironment.getExecutionEnvironment();
 DataSet<Tuple3<Long, String, String>> movies = env.readCsvFile("ml-latest-small/movies.csv")
   .ignoreFirstLine()
@@ -54,11 +54,11 @@ There, we are making a dataset with a <Long, String, String> for the movies, ign
 
 Here we will process the dataset with flink. The result will be in a List of String, Double tuples. where the genre will be in the String and the average rating will be in the double.
 
-First we'll join the ratings dataset with the movies dataset by the moviesId present in each dataset. 
-With this we'll create a new Tuple  with the movie name, genre and score. 
-Later, we group this tuple by genre and add the score of all equal genres, finally we divide the score by the total results and we have our desired result. 
+First we'll join the ratings dataset with the movies dataset by the moviesId present in each dataset.
+With this we'll create a new Tuple  with the movie name, genre and score.
+Later, we group this tuple by genre and add the score of all equal genres, finally we divide the score by the total results and we have our desired result.
 
-```
+```java
 List<Tuple2<String, Double>> distribution = movies.join(ratings)
   .where(0)
   .equalTo(0)

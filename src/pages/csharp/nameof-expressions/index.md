@@ -6,7 +6,7 @@ title: nameof Expressions
 
 Sometimes you need the string name of a variable, type, or member for things such as raising an exception, logging, or firing property changed events. Prior to C# 6.0, you might use a string literal for such purposes.
 ##
-```
+```csharp
 public void ProcessStudent(Student student)
 {
     if (student == null) throw new ArgumentNullException("student");
@@ -14,7 +14,7 @@ public void ProcessStudent(Student student)
 ```
 However, if the student parameter were to be renamed, you would have to remember to also modify the string literal. Now with nameof expressions, you don’t have to use string literals and the compiler will be able to warn you if you are using an incorrect name.
 ##
-```
+```csharp
 public void ProcessStudent(Student student)
 {
     if (student == null) throw new ArgumentNullException(nameof(student));

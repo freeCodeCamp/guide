@@ -6,7 +6,7 @@ title: Arrow Functions
 
 Functions in ES6 have changed a bit. I mean the syntax.
 
-```
+```js
 // Old Syntax
 function oldOne() {
  console.log("Hello World..!");
@@ -30,7 +30,7 @@ Then the second part is declaring the body part of the function. The arrow part 
 
 Another example with parameters:
 
-```
+```js
 let NewOneWithParameters = (a, b) => {
  console.log(a+b); // 30
 }

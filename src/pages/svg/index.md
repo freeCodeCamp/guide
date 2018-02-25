@@ -31,11 +31,11 @@ With a viewport in place you can add basic graphics, text, and path elements.
     <path stroke-width="2" d="M10 170 l590 0" />
     <path stroke-width="4" d="M10 190 l590 0" />
     <path stroke-width="6" d="M10 210 l590 0" />
-  </g>  
-</svg>  
+  </g>
+</svg>
 ```
 
-You can see the output and play with the code in <a href='https://codepen.io/SgiobairOg/pen/OxbNpW' target='_blank' rel='nofollow'>this codepen</a>. 
+You can see the output and play with the code in <a href='https://codepen.io/SgiobairOg/pen/OxbNpW' target='_blank' rel='nofollow'>this codepen</a>.
 
 In the opening `svg` tag we add a width attribute to set the width of the viewport to 100% of the container width, you can use percentages or pixel widths. The opening svg tag also has `viewbox` attribute which defines a window through which elements of your svg are visible, in this case, the viewbox spans from (0,0) to (600,300). In SVG space the X-axis starts with zero on the left and increases to the right; the Y-axis starts with zero at the top and increases towards the bottom.
 
@@ -43,7 +43,7 @@ The first new tag is the `<rect />` tag which defines a rectangle in the SVG vie
 
 Next we define a circle or oval with the `<circle />` tag. The sample defines a circle centered at (240,60) with a radius of 50 units. The `stroke` and `stroke-width` attributes set a stroke color and a size for the stroke.
 
-You can add text to the graphic with the `text` tag. The sample text is anchored from the middle of the text to a point at (450, 70) and has a font size of 20 units. The nice thing about text in SVG is it will scale with the rest of your graphic but it is still readable by the browser and web bots. 
+You can add text to the graphic with the `text` tag. The sample text is anchored from the middle of the text to a point at (450, 70) and has a font size of 20 units. The nice thing about text in SVG is it will scale with the rest of your graphic but it is still readable by the browser and web bots.
 
 When you want to apply the same attributes or CSS styles to multiple SVG elements you can group them with the `<g>` tag. Attributes assigned to the `<g>` tag, like the `stroke` attribute in the example, will be applied to all elements within the group. In this case three `<path />` elements.
 
@@ -68,7 +68,7 @@ Canvas graphics can be drawn onto a <canvas> element. You can give suchan elemen
 The <canvas> tag is intended to support different styles of drawing.To get access to an actual drawing interface, we first need to create a context, which is an object whose methods provide the drawing interface.There are currently two widely supported drawing styles: "2d" for two-dimensional graphics and "webgl" for three-dimensional graphics through the OpenGL interface.
 
 A context is created through the getContext method on the <canvas> element.
-```
+```html
 <p > Before canvas . </p >
 < canvas width ="120" height ="60" > </ canvas >
 <p > After canvas . </p >
@@ -89,7 +89,7 @@ pixels wide and 50 pixels high, with its top-left corner at coordinates
 
 The results variable contains an array of objects that represent the
 survey responses.
-```
+```javascript
 var results = [
 { name : " Satisfied " , count : 1043 , color : " lightblue "} ,
 { name : " Neutral " , count : 563 , color : " lightgreen "} ,
@@ -98,7 +98,7 @@ var results = [
 ];
 ```
 To draw a pie chart, we draw a number of pie slices, each made up of an arc and a pair of lines to the center of that arc. We can compute the angle taken up by each arc by dividing a full circle (2 π ) by the total number of responses and then multiplying that number (the angle per response) by the number of people who picked a given choice.
-```
+```html
 < canvas width ="200" height ="200" > </ canvas >
 < script >
 var cx = document . querySelector (" canvas ") . getContext ("2 d ") ;
@@ -127,7 +127,7 @@ This draws the following chart:
 ![](https://pbs.twimg.com/media/CTDvkA8UwAAdJg5.png)
 ### Browser Support
 
-<a href='https://caniuse.com/#feat=svg' target='_blank' rel='nofollow'>Browser support for SVG</a> is available in all modern browsers. There are some issues with scaling in IE 9 through IE 11 however they can be overcome with the use of the `width`, `height`, `viewbox`, and CSS. 
+<a href='https://caniuse.com/#feat=svg' target='_blank' rel='nofollow'>Browser support for SVG</a> is available in all modern browsers. There are some issues with scaling in IE 9 through IE 11 however they can be overcome with the use of the `width`, `height`, `viewbox`, and CSS.
 
 ## Tools to create SVG
 

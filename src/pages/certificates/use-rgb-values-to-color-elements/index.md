@@ -7,4 +7,6 @@ RGB values look like this: `rgb(0, 0, 0)` for black and `rgb(255, 255, 255)` for
 
 Instead of using six hexadecimal digits like you do with hex code, with rbg you specify the brightness of each color with a number between 0 and 255.
 
+```css
     background-color: rgb(0,0,0);
+```

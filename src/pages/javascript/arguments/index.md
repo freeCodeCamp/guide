@@ -5,7 +5,7 @@ The arguments object is an **array-like object** _(in that the structure of the 
 
 *   First, we declare a function and make it return the arguments object.
 
-```javascript  
+```javascript
 function storeNames() { return arguments; }
 ```
 
@@ -54,7 +54,7 @@ console.log(getGrades(90, 100, 75, 40, 89, 95));
 There is a little problem, it's not recommended to use slice in the arguments object (optimization reasons)...
 
 > **Important**: You should not slice on arguments because it prevents optimizations in JavaScript engines (V8 for example). Instead, try constructing a new array by iterating through the arguments object.
-> 
+>
 > _by_ **_Mozilla Developer Network_** <a href='https://developer.mozilla.org/ca/docs/Web/JavaScript/Reference/Functions/arguments' target='_blank' rel='nofollow'>(reference)<a>
 
 
@@ -68,34 +68,40 @@ for (var i = 0; i < arguments.length; i++) {
 } // Now 'args' is an array that holds your arguments.
 ```
 
-For more information on the optimization issues:  
+For more information on the optimization issues:
 Optimization Killers: <a href='https://github.com/petkaantonov/bluebird/wiki/Optimization-killers#3-managing-arguments' target='_blank' rel='nofollow'>Managing Arguments</a>
 
 ### ES6 rest parameter as a way to circumvent the arguments object
 
-In ES2015/ES6 it is possible to use the rest parameter (`...`) instead of the arguments object in most places. Say we have the following function (non-ES6): 
+In ES2015/ES6 it is possible to use the rest parameter (`...`) instead of the arguments object in most places. Say we have the following function (non-ES6):
 
-    function getIntoAnArgument() {
-        var args = arguments.slice();
-        args.forEach(function(arg) {
-            console.log(arg);
-        });
-    }
+```js
+function getIntoAnArgument() {
+    var args = arguments.slice();
+    args.forEach(function(arg) {
+        console.log(arg);
+    });
+}
+```
 
-That function can be replaced in ES6 by: 
+That function can be replaced in ES6 by:
 
-    function getIntoAnArgument(...args) {
-        args.forEach(arg => console.log(arg));
-    }
+```js
+function getIntoAnArgument(...args) {
+    args.forEach(arg => console.log(arg));
+}
+```
 
-note that we also used an arrow function to shorten the forEach callback!   
+note that we also used an arrow function to shorten the forEach callback!
 
 The arguments object is not available inside the body of an arrow function.
 
-The rest parameter must always come as the last argument in your function definition.  
-    ```function getIntoAnArgument(arg1, arg2, arg3, ...restOfArgs  /*no more arguments allowed here*/) {
-        //function body
-    }```   
+The rest parameter must always come as the last argument in your function definition.
+```js
+function getIntoAnArgument(arg1, arg2, arg3, ...restOfArgs  /*no more arguments allowed here*/) {
+    //function body
+}
+```
 
 
 

@@ -5,6 +5,7 @@ If you want to work with json files with just vanilla JavaScript.
 
 ## IE8+
 
+```js
     var request = new XMLHttpRequest();
     request.open('GET', '/my/url', true);
 
@@ -21,9 +22,11 @@ If you want to work with json files with just vanilla JavaScript.
 
     request.send();
     request = null;
+```
 
 ## IE9+
 
+```js
     var request = new XMLHttpRequest();
     request.open('GET', '/my/url', true);
 
@@ -42,9 +45,11 @@ If you want to work with json files with just vanilla JavaScript.
     };
 
     request.send();
+```
 
 ## IE10+
 
+```js
     var request = new XMLHttpRequest();
     request.open('GET', '/my/url', true);
 
@@ -63,3 +68,4 @@ If you want to work with json files with just vanilla JavaScript.
     };
 
     request.send();
+```

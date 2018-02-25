@@ -40,6 +40,7 @@ You can't have more than three consecutive Roman numerals together.
 
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
 
+```js
     var convertToRoman = function(num) {
 
       var decimalValue = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'> 1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1 ];
@@ -59,6 +60,7 @@ You can't have more than three consecutive Roman numerals together.
 
     // test here
     convertToRoman(36);
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLmf/0' target='_blank' rel='nofollow'>Run Code</a>
 
@@ -76,6 +78,7 @@ You can't have more than three consecutive Roman numerals together.
 
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution:
 
+```js
     function convertToRoman(num) {
      var romans = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>"I", "V", "X", "L", "C", "D", "M"],
          ints = [],
@@ -124,6 +127,7 @@ You can't have more than three consecutive Roman numerals together.
 
     // test here
     convertToRoman(97);
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/C1YV' target='_blank' rel='nofollow'>Run Code</a>
 
@@ -143,6 +147,7 @@ You can't have more than three consecutive Roman numerals together.
 
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution:
 
+```js
     function convertToRoman(num) {
       var romans = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>
       // 10^i 10^i*5
@@ -180,6 +185,7 @@ You can't have more than three consecutive Roman numerals together.
 
     // test here
     convertToRoman(36);
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/C1YV' target='_blank' rel='nofollow'>Run Code</a>
 

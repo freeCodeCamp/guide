@@ -42,6 +42,7 @@ You could use loops or callbacks functions, there are multiple ways to solve thi
 
 **Using for-in loop & hasOwnProperty**
 
+```js
     function truthCheck(collection, pre) {
       // Create a counter to check how many are true.
       var counter = 0;
@@ -58,6 +59,7 @@ You could use loops or callbacks functions, there are multiple ways to solve thi
 
     // test here
     truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "male"}, {"user": "Laa-Laa", "sex": "female"}, {"user": "Po", "sex": "female"}], "sex");
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLnw/0' target='_blank' rel='nofollow'>Run Code</a>
 
@@ -76,6 +78,7 @@ You could use loops or callbacks functions, there are multiple ways to solve thi
 
 **Using Array.every()**
 
+```js
     function truthCheck(collection, pre) {
       return collection.every(function (element) {
         return element.hasOwnProperty(pre) && Boolean(element<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>pre]);
@@ -84,6 +87,7 @@ You could use loops or callbacks functions, there are multiple ways to solve thi
 
     // test here
     truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "male"}, {"user": "Laa-Laa", "sex": "female"}, {"user": "Po", "sex": "female"}], "sex");
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLny/0' target='_blank' rel='nofollow'>Run Code</a>
 
@@ -99,12 +103,14 @@ You could use loops or callbacks functions, there are multiple ways to solve thi
 
 ## ![:rotating_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:") Advanced Code Solution:
 
+```js
     function truthCheck(collection, pre) {
       // Is everyone being true?
       return collection.every(obj => obj<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>pre]);
     }
 
     truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "male"}, {"user": "Laa-Laa", "sex": "female"}, {"user": "Po", "sex": "female"}], "sex");
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/E2u6/0' target='_blank' rel='nofollow'>Run Code</a>
 

@@ -1,14 +1,15 @@
 ---
 title: Freecodecamp Algorithm Bubble Sort Guide
 ---
-Bubble sort is a simple sorting algorithm. This sorting algorithm is comparison based algorithm in which each pair of adjacent elements is  
-compared and elements are swapped if they are not in order. This algorithm does sorting in-place i.e. it does not creates a new array while  
+Bubble sort is a simple sorting algorithm. This sorting algorithm is comparison based algorithm in which each pair of adjacent elements is
+compared and elements are swapped if they are not in order. This algorithm does sorting in-place i.e. it does not creates a new array while
 carrying out the sorting process.
 
 #### Example
 
 <a href='http://www.sorting-algorithms.com/bubble-sort' target='_blank' rel='nofollow'>Animation of BubbleSort</a>
 
+```text
     array = <a href='https://repl.it/CXif' target='_blank' rel='nofollow'>5, 1, 4, 2, 8]
 
     First Pass:
@@ -30,47 +31,52 @@ carrying out the sorting process.
     ( 1 2 4 5 8 ) –> ( 1 2 4 5 8 )
     ( 1 2 4 5 8 ) –> ( 1 2 4 5 8 )
     ( 1 2 4 5 8 ) –> ( 1 2 4 5 8 )
+```
 
 #### C++ Implementation
 
-    // Function to implement bubble sort
-    void bubble_sort(int array[], int n)
-    {
-        // Here n is the number of elements in array
-        int temp;
+```cpp
+// Function to implement bubble sort
+void bubble_sort(int array[], int n)
+{
+    // Here n is the number of elements in array
+    int temp;
 
-        for(int i = 0; i < n-1; i++)
+    for(int i = 0; i < n-1; i++)
+{
+    // Last i elements are already in place
+    for(int j = 0; j < n-i-1; j++)
     {
-        // Last i elements are already in place
-        for(int j = 0; j < n-i-1; j++)
+        if (array[j] > array[j+1])
         {
-            if (array[j] > array[j+1])
-            {
-                // swap elements at index j and j+1
-                temp = array[j];
-                array[j] = array[j+1];
-                array[j+1] = temp;
-            }
+            // swap elements at index j and j+1
+            temp = array[j];
+            array[j] = array[j+1];
+            array[j+1] = temp;
         }
     }
-    }
+}
+}
+```
 
-:rocket: [Run Code</a> #### Python Implementation  
+:rocket: [Run Code</a> #### Python Implementation
 
-    def bubble_sort(arr):
-        exchanges = True # A check to see if the array is already sorted so that no further steps gets executed
-        i = len(arr)-1
-        while i > 0 and exchanges:
-           exchanges = False
-           for j in range(i):
-               if arr<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>j]>arr[j+1]:
-                   exchanges = True
-                   arr[j], arr[j+1] = arr[j+1], arr[j]
-           i -= 1
+```python
+def bubble_sort(arr):
+    exchanges = True # A check to see if the array is already sorted so that no further steps gets executed
+    i = len(arr)-1
+    while i > 0 and exchanges:
+       exchanges = False
+       for j in range(i):
+           if arr<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>j]>arr[j+1]:
+               exchanges = True
+               arr[j], arr[j+1] = arr[j+1], arr[j]
+       i -= 1
 
-    arr = [5,3,23,1,43,2,54]
-    bubble_sort(arr)
-    print(arr) # Prints [1, 2, 3, 5, 23, 43, 54]
+arr = [5,3,23,1,43,2,54]
+bubble_sort(arr)
+print(arr) # Prints [1, 2, 3, 5, 23, 43, 54]
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CW0M/1' target='_blank' rel='nofollow'>Run Code</a>
 

@@ -5,7 +5,9 @@ The `charCodeAt()` method returns the numeric Unicode value of the character at 
 
 ## Syntax
 
+```js
     str.charCodeAt(index)
+```
 
 ### Parameters
 
@@ -23,9 +25,11 @@ Note that `charCodeAt()` will always return a value that is less than 65536\. Th
 
 ## Examples
 
+```js
     'ABC'.charCodeAt(0); // returns 65
 
-    var str = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"; 
+    var str = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     document.write(str.charCodeAt(str.length - 1));
 
     // Output: 90
+```

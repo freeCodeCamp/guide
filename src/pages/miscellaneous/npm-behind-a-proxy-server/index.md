@@ -13,8 +13,10 @@ You can <a href='http://www.wikihow.com/Change-Proxy-Settings' target='_blank' r
 
 Once you have obtained the proxy settings (server URL, port, username and password); you need to configure your `npm` configurations as follows.
 
-    $ npm config set proxy http://<username>:<password>@<proxy-server-url>:<port>
-    $ npm config set https-proxy http://<username>:<password>@<proxy-server-url>:<port>
+```shell
+$ npm config set proxy http://<username>:<password>@<proxy-server-url>:<port>
+$ npm config set https-proxy http://<username>:<password>@<proxy-server-url>:<port>
+```
 
 You would have to replace `<username>`, `<password>`, `<proxy-server-url>`, `<port>` with the values specific to your proxy server credentials.
 

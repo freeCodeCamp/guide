@@ -9,4 +9,6 @@ jQuery has a function called `parent()` that allows you to access the parent of 
 
 Here's an example of how you would use the `parent()` function:
 
+```js
     $("#left-well").parent().css("background-color", "blue")
+```

@@ -3,7 +3,7 @@ title: Bootstrap Grid System
 ---
 ## Bootstrap Grid System
 
-In a nutshell Bootstrap grid system helps you create responsive layouts, it comprises of a system of rows and columns that helps you structure your content. 
+In a nutshell Bootstrap grid system helps you create responsive layouts, it comprises of a system of rows and columns that helps you structure your content.
 
 Rows are horizontal groups of columns, with a maximum of 12 columns per row. Within each row, the content is placed inside the columns and it can span anywhere between 1 to 12 columns.
 
@@ -17,13 +17,13 @@ Bootstrap uses pixels to define the grid tier breakpoints, the different viewpor
 ###### Container
 The container is the outer most element that will *contain* your grid, use `container` for a fixed width container in the middle of the screen (extra margin on larger screens) or `container-fluid` for full width.
 
-```
+```html
 <div class="container"></div>
 ```
 
 ###### Row
 Use `row` to group your columns, this will keep everything lined up properly and help you structure your grid.
-```
+```html
 <div class="row"></div>
 ```
 
@@ -38,7 +38,7 @@ Here is how you would define a class prefix to use up one column width on the va
 - **Large** `col-lg-1`
 - **Extra Large** `col-xl-1`
 
-```
+```html
 <div class="col-sm-1"></div>
 ```
 
@@ -47,7 +47,7 @@ Here is how you would define a class prefix to use up one column width on the va
 
 A full width grid that has four columns, that each take up a full row on xs screens, half a row on sm and md screens, and a quarter of the width of the row on screens that are large and above.
 
-```
+```html
 <div class="container-fluid">
   <div class="row">
     <div class="col-12 col-sm-6 col-lg-4">First Column</div>
@@ -71,13 +71,13 @@ Bootstrap provides a ready made 12 column grid system for use in layouts. Consid
    </div>
 ```
 
-where: 
+where:
 
 	- col = column
 	- md = screen size
 	- 6 = column width
 
-As a 12 column grid system, all user defined grid column widths must add up to 12. 
+As a 12 column grid system, all user defined grid column widths must add up to 12.
 
 Screen size values can be assigned as follows:
 
@@ -85,12 +85,12 @@ Screen size values can be assigned as follows:
   - sm - < 992px Tablets
   - md - < 1200px Laptops
   - lg - > 1200px Desktops
- 
- Bootstrap is mobile first and responsive. 
- 
- Mobile first means that the grid layout will automatically be responsive for smaller screens. The HTML then defines the grid layout for larger screens. 
 
-The following code and image shows what is possible using different column widths. 
+ Bootstrap is mobile first and responsive.
+
+ Mobile first means that the grid layout will automatically be responsive for smaller screens. The HTML then defines the grid layout for larger screens.
+
+The following code and image shows what is possible using different column widths.
 
 ```html
 	<div class="container">
@@ -161,7 +161,7 @@ The following code and image shows what is possible using different column width
 * Large: **Viewport width >= 992px**
 * Medium: **Viewport width >= 768px**
 * Small: **Viewport width >= 576px**
-* Extra small: **Viewport widths below 576px**      
+* Extra small: **Viewport widths below 576px**
 
 #### More Information:
 https://getbootstrap.com/docs/4.0/layout/grid/

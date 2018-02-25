@@ -3,23 +3,23 @@ title: Script Tag
 ---
 ## Script Tag
 
-The `<script>` tag/element is used to incorporate client-side Javascript into your HTML file which can be used to add interactivity and logic to your website 
+The `<script>` tag/element is used to incorporate client-side Javascript into your HTML file which can be used to add interactivity and logic to your website
 
 The tag can be used to encompass actual Javascript code right in the HTML itself like this
-```
+```html
 <script>
   alert('hello this is my Javascript doing things!');
 </script>
 ```
 
 Or you can use it as a way to reference an external javascript file like this
-```
+```html
 <script src="main.js" />
 ```
 Here the `src` attribute of the element takes in a path to a Javascript file
 
 Script tags are loaded into your HTML in-order and syncronously so it is usually best practice to add your scripts right before the ending of your `<body>` tag in your HTML like so
-```
+```html
   <script src="main.js" />
   <script>
     alert('hello this is my Javascript doing things!');

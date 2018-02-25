@@ -7,7 +7,7 @@ title: Switch Statement
 The Switch Statement switches program flow through a specific code path based upon the value of the variable being switched.  If none of the case statements match the value of the switched variable, the default path is chosen.
 
 ## Example
-```
+```csharp
 public enum Colors { Red, Blue, Green, Orange }
 
 Colors myColor;
@@ -15,13 +15,13 @@ Colors myColor;
 ... myColor is set to one of the enum values ...
 
 switch(myColor){
-  case Colors.Red: 
+  case Colors.Red:
     Console.WriteLine("How you like them apples?");
     break;
-  case Colors.Blue: 
+  case Colors.Blue:
     Console.WriteLine("Ice Ice Baby...");
     break;
-  case Colors.Green: 
+  case Colors.Green:
     Console.WriteLine("Fore!");
     break;
   default:
@@ -30,7 +30,7 @@ switch(myColor){
 ```
 
 ## Output:
-```
+```text
 If myColor is Colors.Red:
 > How you like them apples?
 

@@ -15,21 +15,21 @@ Methods should always be defined as lowercase (you can separate the words with a
 Methods are quite easy to create, they can be created without the ability to accept parameters, with parameters and even with pre-defined parameters if none is given.
 
 #### Simple method
-```
+```ruby
 def my_method
   code goes here
 end
 ```
 
 #### Parameter accepting method
-```
+```ruby
 def my_method (param1, param2)
   param1 + param2
 end
 ```
 
 #### Predefined paramter method (predefined parameters are used when none are given)
-```
+```ruby
 def my_method (param1 = parameter1, param2 = parameter2)
   parm1 + parm2
 end

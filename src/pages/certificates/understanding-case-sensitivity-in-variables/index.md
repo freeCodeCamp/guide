@@ -11,6 +11,8 @@ Write variable names in Javascript in `camelCase`. In `camelCase`, `multi-word` 
 
 ## Examples:
 
+```js
     var someVariable;
     var anotherVariableName;
     var thisVariableNameIsTooLong;
+```

@@ -37,6 +37,7 @@ You will have to check if the current value is already on the array to be return
 
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
 
+```js
     function uniteUnique(arr1, arr2, arr3) {
       // Creates an empty array to store our final result.
       var finalArray = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>];
@@ -62,6 +63,7 @@ You will have to check if the current value is already on the array to be return
 
     // test here
     uniteUnique([1, 3, 2], [5, 2, 1, 4], [2, 1]);
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLnM/0' target='_blank' rel='nofollow'>Run Code</a>
 
@@ -82,6 +84,7 @@ You will have to check if the current value is already on the array to be return
 
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution:
 
+```js
     function uniteUnique(arr1, arr2, arr3) {
      var newArr;
      //Convert the arguments object into an array
@@ -94,11 +97,12 @@ You will have to check if the current value is already on the array to be return
         }));
       });
 
-       return newArr;                    
+       return newArr;
     }
 
     // test here
     uniteUnique(<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>1, 3, 2], [5, 2, 1, 4], [2, 1]);
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLnO/0' target='_blank' rel='nofollow'>Run Code</a>
 
@@ -117,6 +121,7 @@ You will have to check if the current value is already on the array to be return
 
 ## ![:rotating_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:") Advanced Code Solution:
 
+```js
     function uniteUnique() {
       var concatArr = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>];
       var i = 0;
@@ -131,6 +136,7 @@ You will have to check if the current value is already on the array to be return
 
     // test here
     uniteUnique([1, 3, 2], [5, 2, 1, 4], [2, 1]);
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLnN/0' target='_blank' rel='nofollow'>Run Code</a>
 
@@ -147,6 +153,7 @@ You will have to check if the current value is already on the array to be return
 
 ## ![:rotating_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:") Alternative Code Solution using ES2015
 
+```js
     //jshint esversion:6
 
     function uniteUnique(arr) {
@@ -160,6 +167,7 @@ You will have to check if the current value is already on the array to be return
 
     // test here
     uniteUnique([1, 3, 2], [5, 2, 1, 4], [2, 1]);
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CcWk/0' target='_blank' rel='nofollow'>Run Code</a>
 

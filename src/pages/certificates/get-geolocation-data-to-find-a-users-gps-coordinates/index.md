@@ -11,6 +11,7 @@ By selecting allow you will see the text on the output phone change to your lati
 
 Here's some code that does this:
 
+```js
     if (navigator.geolocation) {
 
       navigator.geolocation.getCurrentPosition(function(position) {
@@ -20,3 +21,4 @@ Here's some code that does this:
       });
 
     }
+```

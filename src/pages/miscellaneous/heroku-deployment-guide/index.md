@@ -41,11 +41,13 @@ These will get added to a folder called node_modules in your root folder.
 
 It'll ask you a series of questions and create a package.json file in your root folder based on your answers and its defaults. If you've already created a file called server.js as mentioned above, this _essential_ line will get added to your package.json file:
 
+    ```json
       "scripts": {
 
       "start": "node server.js"
 
       }
+    ```
 
 If you name it anything else, though, like 'index.js', that line won't get added and you'll have to manually add that. That's the default behavior as mentioned <a href='https://docs.npmjs.com/files/package.json#default-values' target='_blank' rel='nofollow'>here</a>. You can install node modules before or after this step and they will get added to package.json automatically.
 

@@ -18,7 +18,9 @@ for (int j = 0; j < 10; j++)
 
 The value of `j` will be printed for each iteration, except when it is equal to `5`. The print statement will get skipped because of the `continue` and the output will be:
 
+```text
     0 1 2 3 4 6 7 8 9
+```
 
 Say you want to count the number of `i`s in a the word `mississippi`. Here you could use a loop with the `continue` statement, as follows:
 
@@ -46,4 +48,4 @@ System.out.println("numPs = " + numPs);
 
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CJZH/0' target='_blank' rel='nofollow'>Run Code</a>
 
-Additionally, you can use labels to choose a specific loop out of a nested set to skip to the next iteration. 
+Additionally, you can use labels to choose a specific loop out of a nested set to skip to the next iteration.

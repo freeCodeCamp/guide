@@ -5,6 +5,7 @@ If you have many options to choose from, use a `switch` statement. A `switch` st
 
 Here is a `pseudocode` example:
 
+```js
     switch (num) {
       case value1:
         statement1;
@@ -17,5 +18,6 @@ Here is a `pseudocode` example:
         statementN;
         break;
     }
+```
 
 `case` values are tested with strict equality (`===`). The `break` tells JavaScript to stop executing statements. If the `break` is omitted, the next statement will be executed.

@@ -15,7 +15,7 @@ You can use remainders to convert decimal numbers to binary numbers.
 
 Converting the decimal number 30 to binary.
 
-```
+```text
 30 / 2 = 15 r 0
 15 / 2 = 7 r 1
 7 / 2 = 3 r 1
@@ -35,7 +35,7 @@ So your answer is correct.
 
 Converting the decimal number 116 to binary.
 
-```
+```text
 116 / 2 = 58 r 0
 58 / 2 = 29 r 0
 29 / 2 = 14 r 1

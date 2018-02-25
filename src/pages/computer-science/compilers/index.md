@@ -6,15 +6,15 @@ title: Compilers
 ### Programming
 At its heart, a barebones computer (aka a stored program computer) is nothing but a machine which knows how to read steps written in a fixed instruction set and execute the same. The set of instructions a computer understands is very specific to it. This is also known as machine language (**opcodes**). Machine Language is often alos referred to as Bianry Code.
 
-Humans interact with computers using **Programs**. A program is simply a sequence of opcodes provided to the computer along with data that is necessary for executing the opcodes. 
+Humans interact with computers using **Programs**. A program is simply a sequence of opcodes provided to the computer along with data that is necessary for executing the opcodes.
 
 For example,
-```
-ADD 10, 20  // ADD is the Opcode 
-            // and 10, 20 are the two operands(data) 
+```text
+ADD 10, 20  // ADD is the Opcode
+            // and 10, 20 are the two operands(data)
             // needed for the ADD instruction to be executed successfully
 ```
-Humans develop programs to solve complex problems. Looking at how simple opcodes are, if we try to develop programs using opcodes alone, it will be very cumbersome and difficult to debug. To solve this problem, high level languages like C/C++, Python, Java, Javascript, etc were developed. 
+Humans develop programs to solve complex problems. Looking at how simple opcodes are, if we try to develop programs using opcodes alone, it will be very cumbersome and difficult to debug. To solve this problem, high level languages like C/C++, Python, Java, Javascript, etc were developed.
 
 Now, high level languages aren't suitable for execution by computers. Hence, the need arose for a translator that can digest the high-level language programs and convert them to machine language instructions suitable for execution by a computer.
 
@@ -35,19 +35,19 @@ Most compilers break down into three primary stages: Parsing, Transformation, an
 Parsing typically gets broken down into two phases: **Lexical Analysis** and **Syntactic Analysis**.
 
 *Lexical Analysis* takes the raw code and splits it apart into these things called tokens by a thing called a tokenizer (or lexer).
-```
-Tokens are an array of tiny little objects that describe an isolated piece of the syntax. 
+```text
+Tokens are an array of tiny little objects that describe an isolated piece of the syntax.
 They could be numbers, labels, punctuation, operators, etc.
 ```
 
-*Syntactic Analysis* takes the tokens and reformats them into a representation that describes each part of the syntax 
+*Syntactic Analysis* takes the tokens and reformats them into a representation that describes each part of the syntax
 and their relation to one another. This is known as an intermediate representation or Abstract Syntax Tree.
-```
+```text
 An Abstract Syntax Tree, or AST for short, is a deeply nested object.
 It represents code in a way that is both easy to work with and tells us a lot of information.
 ```
 #### Transformation
-The next type of stage for a compiler is transformation. Again, this just takes the AST from the last step and makes changes to it. 
+The next type of stage for a compiler is transformation. Again, this just takes the AST from the last step and makes changes to it.
 It can manipulate the AST in the same language or it can translate it into an entirely new language.
 
 #### Code Generation

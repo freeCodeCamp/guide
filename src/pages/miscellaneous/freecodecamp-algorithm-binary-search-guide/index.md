@@ -15,22 +15,24 @@ Binary search works on sorted arrays. A binary search begins by comparing the mi
 
 The pseudocode for binary search algorithm is as follows:
 
-    BinarySearch(A<a href='https://repl.it/CWZq/158' target='_blank' rel='nofollow'>0..N-1], value) {
-      low = 0
-      high = N - 1
-      while (low <= high) {
-        // invariants: value > A[i] for all i < low
-                       value < A[i] for all i > high
-        mid = (low + high) / 2
-        if (A[mid] > value)
-          high = mid - 1
-        else if (A[mid] < value)
-          low = mid + 1
-        else
-          return mid
-      }
-      return not_found // value would be inserted at index "low"
-    }
+```text
+BinarySearch(A<a href='https://repl.it/CWZq/158' target='_blank' rel='nofollow'>0..N-1], value) {
+  low = 0
+  high = N - 1
+  while (low <= high) {
+    // invariants: value > A[i] for all i < low
+                   value < A[i] for all i > high
+    mid = (low + high) / 2
+    if (A[mid] > value)
+      high = mid - 1
+    else if (A[mid] < value)
+      low = mid + 1
+    else
+      return mid
+  }
+  return not_found // value would be inserted at index "low"
+}
+```
 
 ## Complexity
 
@@ -40,31 +42,34 @@ The pseudocode for binary search algorithm is as follows:
 *   Worst case space complexity: **O(1)** for iterative; **O(log n)** for recursive.
 
 ## C++ Implementation
+```cp
+int binarySearch(int arr[], int value, int left, int right) {
+  int middle;
+  while (left <= right) {
+    middle = (left + right) / 2;
+    if (arr[middle] == value)
+      return middle;
+    else if (arr[middle] > value)
+      right = middle - 1;
+    else
+      left = middle + 1;
+  }
+  return -1;
+}
+```
 
-    int binarySearch(int arr[], int value, int left, int right) {
-      int middle;
-      while (left <= right) {
-        middle = (left + right) / 2;
-        if (arr[middle] == value)
-          return middle;
-        else if (arr[middle] > value)
-          right = middle - 1;
-        else
-          left = middle + 1;
-      }
-      return -1;
-    }
+:rocket: [Run Code</a> ## Python Implementation
 
-:rocket: [Run Code</a> ## Python Implementation  
-
-    def binary_search(l, value):
-        low = 0
-        high = len(l)-1
-        while low <= high:
-            mid = (low+high)//2
-            if l<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>mid] > value: high = mid-1
-            elif l[mid] < value: low = mid+1
-            else: return mid
-        return -1
+```python
+def binary_search(l, value):
+    low = 0
+    high = len(l)-1
+    while low <= high:
+        mid = (low+high)//2
+        if l<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>mid] > value: high = mid-1
+        elif l[mid] < value: low = mid+1
+        else: return mid
+    return -1
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CWZi/2' target='_blank' rel='nofollow'>Run Code</a>

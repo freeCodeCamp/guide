@@ -27,22 +27,24 @@ Asegúrate luego de transcodificar un carácter de binario a decimal de restable
 
 ## Solución del código:
 
-    function binaryAgent(str) {
-      biString = str.split(' ');
-      uniString = [];
+```js
+function binaryAgent(str) {
+  biString = str.split(' ');
+  uniString = [];
 
-      // Utilizando el parámetro base en parseInt podemos convertir el número
-      // binario a número decimal mientras simultáneamente lo convertimos a carácter.
+  // Utilizando el parámetro base en parseInt podemos convertir el número
+  // binario a número decimal mientras simultáneamente lo convertimos a carácter.
 
-      for(i=0;i < biString.length;i++){
-        uniString.push(String.fromCharCode(parseInt(biString[i], 2))); 
-      }
-      // Simplemente unimos la cadena.
-      return uniString.join('');
-    }
+  for(i=0;i < biString.length;i++){
+    uniString.push(String.fromCharCode(parseInt(biString[i], 2)));
+  }
+  // Simplemente unimos la cadena.
+  return uniString.join('');
+}
 
-    // realizamos el test
-    binaryAgent("01000001 01110010 01100101 01101110 00100111 01110100 00100000 01100010 01101111 01101110 01100110 01101001 01110010 01100101 01110011 00100000 01100110 01110101 01101110 00100001 00111111");
+// realizamos el test
+binaryAgent("01000001 01110010 01100101 01101110 00100111 01110100 00100000 01100010 01101111 01101110 01100110 01101001 01110010 01100101 01110011 00100000 01100110 01110101 01101110 00100001 00111111");
+```
 
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CLnm/0' target='_blank' rel='nofollow'>¡En REPL!</a>
 
@@ -56,39 +58,41 @@ Asegúrate luego de transcodificar un carácter de binario a decimal de restable
 
 ## Segunda solución:
 
-    function binaryAgent(str) {
-      // Separamos el código binario por sus espacios.
-      str = str.split(' ');
-      var power;
-      var decValue = 0;
-      var sentence = '';
+```js
+function binaryAgent(str) {
+  // Separamos el código binario por sus espacios.
+  str = str.split(' ');
+  var power;
+  var decValue = 0;
+  var sentence = '';
 
-      // Comprobamos cada número binario de la matriz.
-      for (var s = 0; s < str.length; s++) {
-        // Comprobamos cada bit del número binario.
-        for (var t = 0; t < str[s].length; t++) {
-          // Esto solo toma en consideración los activos.
-          if (str[s][t] == 1) {
-            // Esto es equivalente a 2 ** posición.
-            power = Math.pow(2, +str[s].length - t - 1);
-            decValue += power;
+  // Comprobamos cada número binario de la matriz.
+  for (var s = 0; s < str.length; s++) {
+    // Comprobamos cada bit del número binario.
+    for (var t = 0; t < str[s].length; t++) {
+      // Esto solo toma en consideración los activos.
+      if (str[s][t] == 1) {
+        // Esto es equivalente a 2 ** posición.
+        power = Math.pow(2, +str[s].length - t - 1);
+        decValue += power;
 
-            // Guardamos el valor decimal sumándolo al anterior.
-          }
-        }
-
-        // Luego de que el número binario es convertido a decimal, lo convertimos en una cadena y lo guardamos.
-        sentence += (String.fromCharCode(decValue));
-
-        // Reseteamos el valor decimal para el próximo número binario.
-        decValue = 0;
+        // Guardamos el valor decimal sumándolo al anterior.
       }
-
-      return sentence;
     }
 
-    // realizamos el test
-    binaryAgent("01000001 01110010 01100101 01101110 00100111 01110100 00100000 01100010 01101111 01101110 01100110 01101001 01110010 01100101 01110011 00100000 01100110 01110101 01101110 00100001 00111111");
+    // Luego de que el número binario es convertido a decimal, lo convertimos en una cadena y lo guardamos.
+    sentence += (String.fromCharCode(decValue));
+
+    // Reseteamos el valor decimal para el próximo número binario.
+    decValue = 0;
+  }
+
+  return sentence;
+}
+
+// realizamos el test
+binaryAgent("01000001 01110010 01100101 01101110 00100111 01110100 00100000 01100010 01101111 01101110 01100110 01101001 01110010 01100101 01110011 00100000 01100110 01110101 01101110 00100001 00111111");
+```
 
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CLno/0' target='_blank' rel='nofollow'>¡En REPL!</a>
 
@@ -102,12 +106,14 @@ Asegúrate luego de transcodificar un carácter de binario a decimal de restable
 
 ## Tercera solución:
 
-    function binaryAgent(str) {
-      return String.fromCharCode(...str.split(" ").map(function(char){ return parseInt(char, 2); }));
-    }
+```js
+function binaryAgent(str) {
+  return String.fromCharCode(...str.split(" ").map(function(char){ return parseInt(char, 2); }));
+}
 
-    // realizamos el test
-    binaryAgent("01000001 01110010 01100101 01101110 00100111 01110100 00100000 01100010 01101111 01101110 01100110 01101001 01110010 01100101 01110011 00100000 01100110 01110101 01101110 00100001 00111111");
+// realizamos el test
+binaryAgent("01000001 01110010 01100101 01101110 00100111 01110100 00100000 01100010 01101111 01101110 01100110 01101001 01110010 01100101 01110011 00100000 01100110 01110101 01101110 00100001 00111111");
+```
 
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CLnp/0' target='_blank' rel='nofollow'>¡En REPL!</a>
 
@@ -120,16 +126,18 @@ Asegúrate luego de transcodificar un carácter de binario a decimal de restable
 
 ## Cuarta solución:
 
-    function binaryAgent(str) {
-      var re = /(\d+)(\s?)/g;
-      function convertToChar(match,p1,p2){
-        return String.fromCharCode(parseInt(p1, 2));
-      }
-      return str.replace(re, convertToChar);
-    }
+```js
+function binaryAgent(str) {
+  var re = /(\d+)(\s?)/g;
+  function convertToChar(match,p1,p2){
+    return String.fromCharCode(parseInt(p1, 2));
+  }
+  return str.replace(re, convertToChar);
+}
 
-    // realizamos el test
-    binaryAgent("01000001 01110010 01100101 01101110 00100111 01110100 00100000 01100010 01101111 01101110 01100110 01101001 01110010 01100101 01110011 00100000 01100110 01110101 01101110 00100001 00111111");
+// realizamos el test
+binaryAgent("01000001 01110010 01100101 01101110 00100111 01110100 00100000 01100010 01101111 01101110 01100110 01101001 01110010 01100101 01110011 00100000 01100110 01110101 01101110 00100001 00111111");
+```
 
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CLnr/0' target='_blank' rel='nofollow'>¡En REPL!</a>
 

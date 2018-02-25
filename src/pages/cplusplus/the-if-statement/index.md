@@ -10,14 +10,14 @@ title: C++ If Statement
 * The `if` statement uses relational and logical operators to make logical expressions.
 
 -----------------------------------------------
-  
+
 The general form of an `if` statement:
 
  if (Test Expression / Condition )
  {
     // code block if test expression is True
  }
-  
+
 -----------------------------------------------
 
 If the value of your test expression is `true`, then the block of
@@ -30,7 +30,7 @@ Example of `if` Statement:
 ```cpp
 
   int a= 10;
-  
+
   //TRUE STATEMENT
   if (a<20)
   {
@@ -75,15 +75,15 @@ Example in C++ :
 ### Output :
 
   OUTPUT 1 :
-```
+```text
 Enter a number :  5
 You have entered a positive number : 5
-This step is always printed 
+This step is always printed
  ```
   This is the output when the number entered is positive.
 
   OUTPUT 2 :
-```
+```text
 Enter a number :  -1
 This step is always printed
 ```

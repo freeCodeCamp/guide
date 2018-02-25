@@ -10,9 +10,9 @@ Default parameters are parameters which are given by default while declaring a f
 
 Example
 
-```
+```js
 let Func = (a, b = 10) => {
- return a + b; 
+ return a + b;
 }
 Func(20); // 20 + 10 = 30
 ```
@@ -21,7 +21,7 @@ In the above example, we are passing only one parameter. The function makes use 
 
 Consider another example:
 
-```
+```js
 Func(20, 50); // 20 + 50 = 70
 ```
 
@@ -29,7 +29,7 @@ In the above example, the function takes two parameters and the second parameter
 
 Consider another example:
 
-```
+```js
 let NotWorkingFunction = (a = 10, b) => {
  return a + b;
 }
@@ -42,7 +42,7 @@ In the above example, the value 20 gets assigned to parameter ‘a’ and ‘b�
 
 But,
 
-```
+```js
 NotWorkingFunction(20, 30); // 50;
 ```
 

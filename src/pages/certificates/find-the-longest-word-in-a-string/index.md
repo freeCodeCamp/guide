@@ -37,6 +37,7 @@ Remember how to get the length of elements on the array? `Array[index].length`.
 
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
 
+```js
     function findLongestWord(str) {
       var words = str.split(' ');
       var maxLength = 0;
@@ -49,6 +50,7 @@ Remember how to get the length of elements on the array? `Array[index].length`.
 
       return maxLength;
     }
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLjU/5' target='_blank' rel='nofollow'>Run Code</a>
 
@@ -67,18 +69,20 @@ Then check for the longest word by comparing the current word to the previous on
 
 **Using `.reduce()`**
 
+```js
     function findLongestWord(s) {
       return s.split(' ')
         .reduce(function(x, y) {
           return Math.max(x, y.length)
         }, 0);
     }
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLjU/6' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
-For more information on `reduce` <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce' target='_blank' rel='nofollow'>click here.</a>  
+For more information on `reduce` <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce' target='_blank' rel='nofollow'>click here.</a>
 
 In case you're wondering about that `0` after the callback function, it is used to give an initial value to the `x`, so that `Math.max` will know where to start.
 
@@ -92,32 +96,34 @@ In case you're wondering about that `0` after the callback function, it is used 
 
 **Using recursiveness**
 
+```js
     function findLongestWord(str) {
 
-      //split the string into individual words 
+      //split the string into individual words
       //(important!!, you'll see why later)
       str = str.split(" ");
 
-      //str only has 1 element left that is the longest element, 
+      //str only has 1 element left that is the longest element,
       //return the length of that element
       if(str.length == 1){
         return str<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>0].length;
       }
 
-      //if the first element's length is greater than the second element's (or equal) 
+      //if the first element's length is greater than the second element's (or equal)
       //remove the second element and recursively call the function)
       if(str[0].length >= str[1].length){
         str.splice(1,1);
         return findLongestWord(str.join(" "));
       }
 
-      //if the second element's length is greater thant the first element's start 
-      //call the function past the first element 
+      //if the second element's length is greater thant the first element's start
+      //call the function past the first element
       if(str[0].length <= str[1].length){
         // from the first element to the last element inclusive.
         return findLongestWord(str.slice(1,str.length).join(" "));
       }
     }
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLjU/7' target='_blank' rel='nofollow'>Run Code</a>
 

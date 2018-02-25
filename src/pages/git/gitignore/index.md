@@ -17,7 +17,7 @@ The entries in this file can also follow a matching pattern.
 
 This is an example of what the `.gitignore` file could look like:
 
-```
+```git
 # Ignore Mac system files
 .DS_store
 

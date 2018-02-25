@@ -5,4 +5,6 @@ You can use the `.split()` method to split a string into an array.
 
 split uses the argument you give to to split the string.
 
+```js
     array = string.split(' ');
+```

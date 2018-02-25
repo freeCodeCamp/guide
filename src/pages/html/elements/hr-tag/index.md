@@ -7,7 +7,7 @@ The horizontal rule or `<hr>` is a tag that allows to insert a divisory line, de
 It's very important to clarify that this tag is a thematic break; in previous versions of .html is a horizontal rule.
 
 ### Example
-```
+```html
 <!DOCTYPE html>
 <html>
   <body>

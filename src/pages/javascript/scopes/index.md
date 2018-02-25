@@ -5,6 +5,7 @@ If you've been programming in JavaScript for a while, you've undoubtedly run int
 
 In programmer speak, `scope` is the **current context of execution**. Confused? Let's take a look at the following piece of code:
 
+```js
     var foo = 'Hi, I am foo!';
 
     var baz = function () {
@@ -14,6 +15,7 @@ In programmer speak, `scope` is the **current context of execution**. Confused? 
 
     baz(); // Hi, I am foo!
     console.log(bar); // ReferenceError...
+```
 
 This is a simple example, but it does a good job of illustrating what is known as _Lexical scope_. JavaScript, and almost every other programming language has a _Lexical scope_. There is another kind of scope known as _Dynamic scope_, but we won't be discussing that.
 
@@ -49,11 +51,13 @@ Now, `bar` was declared in the local scope of `baz`, but there is a RHS referenc
 
 But, you might ask, if the function can look outside itself for variables, or a local scope can peek into the global scope to find LHS references, why can't the global scope peek into a local scope? Well that's how lexical scope works!
 
+```js
     ... // global scope
     var baz = function() {
       ... // baz's scope
     }
     ... /// global scope
+```
 
 This is the same code from above which illustrates the scope. This forms a sort of hierarchy that goes up to the global scope:
 
@@ -63,6 +67,7 @@ So, if there is a RHS reference for a variable inside `baz`'s scope, it can be f
 
 What if we had another function inside `baz`?
 
+```js
     ... // global scope
     var baz = function() {
       ... // baz's scope
@@ -73,6 +78,7 @@ What if we had another function inside `baz`?
 
     }
     ... /// global scope
+```
 
 In this case, the hierarchy or the **scope chain** would look like this:
 

@@ -5,7 +5,9 @@ The `lastIndexOf()` method returns the index within the calling String object of
 
 ## Syntax
 
+```js
     str.lastIndexOf(searchValue<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/lastIndexOf' target='_blank' rel='nofollow'>, fromIndex])
+```
 
 ## Parameters
 
@@ -31,32 +33,34 @@ The `lastIndexOf()` method is case sensitive. For example, the following express
 
 ## Examples
 
-    'canal'.lastIndexOf('a');     // returns 3
-    'canal'.lastIndexOf('a', 2);  // returns 1
-    'canal'.lastIndexOf('a', 0);  // returns -1
-    'canal'.lastIndexOf('x');     // returns -1
-    'Blue Whale, Killer Whale'.lastIndexOf('blue'); // returns -1
+```js
+'canal'.lastIndexOf('a');     // returns 3
+'canal'.lastIndexOf('a', 2);  // returns 1
+'canal'.lastIndexOf('a', 0);  // returns -1
+'canal'.lastIndexOf('x');     // returns -1
+'Blue Whale, Killer Whale'.lastIndexOf('blue'); // returns -1
 
-    var anyString = 'Brave new world';
+var anyString = 'Brave new world';
 
-    console.log('The index of the first w from the beginning is ' + anyString.indexOf('w'));
-    // logs 8
-    console.log('The index of the first w from the end is ' + anyString.lastIndexOf('w')); 
-    // logs 10
-    console.log('The index of "new" from the beginning is ' + anyString.indexOf('new'));
-    // logs 6
-    console.log('The index of "new" from the end is ' + anyString.lastIndexOf('new'));
-    // logs 6
+console.log('The index of the first w from the beginning is ' + anyString.indexOf('w'));
+// logs 8
+console.log('The index of the first w from the end is ' + anyString.lastIndexOf('w'));
+// logs 10
+console.log('The index of "new" from the beginning is ' + anyString.indexOf('new'));
+// logs 6
+console.log('The index of "new" from the end is ' + anyString.lastIndexOf('new'));
+// logs 6
 
-    var str = "time, time";
+var str = "time, time";
 
-    var s = "";
-    s += "time is at position " + str.lastIndexOf("time");
-    s += "<br />";
-    s += "abc is at position " + str.lastIndexOf("abc");
+var s = "";
+s += "time is at position " + str.lastIndexOf("time");
+s += "<br />";
+s += "abc is at position " + str.lastIndexOf("abc");
 
-    document.write(s);
+document.write(s);
 
-    // Output:
-    // time is at position 6
-    // abc is at position -1
+// Output:
+// time is at position 6
+// abc is at position -1
+```

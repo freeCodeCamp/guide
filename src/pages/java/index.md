@@ -31,45 +31,47 @@ Download the latest Java binaries from the <a href='http://www.oracle.com/techne
 
 *   Download the relevant <a href='http://www.cyberciti.biz/faq/linux-unix-bsd-extract-targz-file/' target='_blank' rel='nofollow'>tar.gz</a> file for your system and install :
 
-`bash  
-$ tar zxvf jdk-8uversion-linux-x64.tar.gz`   
+`bash
+$ tar zxvf jdk-8uversion-linux-x64.tar.gz`
 * <a href='https://en.wikipedia.org/wiki/List_of_Linux_distributions#RPM-based' target='_blank' rel='nofollow'>RPM based Linux platforms</a> download the relevant <a href='https://en.wikipedia.org/wiki/RPM_Package_Manager' target='_blank' rel='nofollow'>.rpm</a> file and install :
 
-`bash  
-$ rpm -ivh jdk-8uversion-linux-x64.rpm`   
+`bash
+$ rpm -ivh jdk-8uversion-linux-x64.rpm`
 * Users have the choice to install an open source version of Java, OpenJDK or the Oracle JDK. While OpenJDK is in active development and in sync with Oracle JDK, they just differ in <a href='http://openjdk.java.net/faq/' target='_blank' rel='nofollow'>licensing</a> stuff. However few developers complain of the stability of Open JDK. Instructions for **Ubuntu** :
 
-Open JDK installation :  
-`bash  
-sudo apt-get install openjdk-8-jdk` 
+Open JDK installation :
+`bash
+sudo apt-get install openjdk-8-jdk`
 
-Oracle JDK installation :  
-`bash  
-sudo add-apt-repository ppa:webupd8team/java  
-sudo apt-get update  
-sudo apt-get install oracle-java8-installer` 
+Oracle JDK installation :
+`bash
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install oracle-java8-installer`
 
 ### Mac
 
 *   Either download Mac OSX .dmg executable from Oracle Downloads
 *   Or use <a href='http://brew.sh/' target='_blank' rel='nofollow'>Homebrew</a> to <a href='http://stackoverflow.com/a/28635465/2861269' target='_blank' rel='nofollow'>install</a> :
 
-`bash  
-brew tap caskroom/cask  
-brew install brew-cask  
-brew cask install java` 
+`bash
+brew tap caskroom/cask
+brew install brew-cask
+brew cask install java`
 
 ### Verify Installation
 
 Verify Java has been properly installed in your system by opening Command Prompt (Windows) / Windows Powershell / Terminal (Mac OS and *Unix) and checking the versions of Java runtime and compiler :
 
-    $ java -version
-    java version "1.8.0_66"
-    Java(TM) SE Runtime Environment (build 1.8.0_66-b17)
-    Java HotSpot(TM) 64-Bit Server VM (build 25.66-b17, mixed mode)
+```shell
+$ java -version
+java version "1.8.0_66"
+Java(TM) SE Runtime Environment (build 1.8.0_66-b17)
+Java HotSpot(TM) 64-Bit Server VM (build 25.66-b17, mixed mode)
 
-    $ javac -version
-    javac 1.8.0_66
+$ javac -version
+javac 1.8.0_66
+```
 
 **Tip** : If you get an error such as "Command Not Found" on either `java` or `javac` or both, dont panic, its just your system PATH is not properly set. For Windows, see <a href='http://stackoverflow.com/questions/15796855/java-is-not-recognized-as-an-internal-or-external-command' target='_blank' rel='nofollow'>this StackOverflow answer</a> or <a href='http://javaandme.com/' target='_blank' rel='nofollow'>this article</a> on how to do it. Also there are guides for <a href='http://stackoverflow.com/questions/9612941/how-to-set-java-environment-path-in-ubuntu' target='_blank' rel='nofollow'>Ubuntu</a> and <a href='http://www.mkyong.com/java/how-to-set-java_home-environment-variable-on-mac-os-x/' target='_blank' rel='nofollow'>Mac</a> as well. If you still can't figure it out, dont worry, just ask us in our <a href='https://gitter.im/FreeCodeCamp/java' target='_blank' rel='nofollow'>Gitter room</a>!
 
@@ -85,25 +87,31 @@ Also, once your bytecode is compiled it can run on any Java VM. This Virtual Mac
 
 Let's write a sample Hello World application. Open any editor / IDE of choice and create a file `HelloWorld.java`.
 
-    public class HelloWorld {
+```java
+public class HelloWorld {
 
-        public static void main(String[] args) {
-            // Prints "Hello, World" to the terminal window.
-            System.out.println("Hello, World");
-        }
-
+    public static void main(String[] args) {
+        // Prints "Hello, World" to the terminal window.
+        System.out.println("Hello, World");
     }
+
+}
+```
 
 **N.B.** Keep in mind in Java file name should be the **exact same name of the public class** in order to compile!
 
 Now open the terminal / Command Prompt. Change your current directory in the terminal / Command Prompt to the directory where your file is located. And compile the file :
 
-    $ javac HelloWorld.java
+```shell
+$ javac HelloWorld.java
+```
 
 Now run the file using `java` command!
 
-    $ java HelloWorld
-    Hello, World
+```shell
+$ java HelloWorld
+Hello, World
+```
 
 Congrats! Your first Java program has run successfully. Here we are just printing a string passing it to the API `System.out.println`. We will cover all the concepts in the code, but you are welcome to take a <a href='https://docs.oracle.com/javase/tutorial/getStarted/application/' target='_blank' rel='nofollow'>closer look</a>! If you have any doubt or need additional help, feel free to contact us anytime in our <a href='https://gitter.im/FreeCodeCamp/java' target='_blank' rel='nofollow'>Gitter Chatroom</a>!
 

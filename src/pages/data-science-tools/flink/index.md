@@ -5,9 +5,9 @@ title: Flink
 
 Apache Flink is an open source stream processing framework with powerful stream- and batch-processing capabilities.
 
-The core of Apache Flink is a distributed streaming dataflow engine written in Java and Scala. Flink executes arbitrary dataflow programs in a data-parallel and pipelined manner. 
+The core of Apache Flink is a distributed streaming dataflow engine written in Java and Scala. Flink executes arbitrary dataflow programs in a data-parallel and pipelined manner.
 Flink's pipelined runtime system enables the execution of bulk/batch and stream processing programs. Furthermore, Flink's runtime supports the execution of iterative algorithms natively.
-Flink provides a high-throughput, low-latency streaming engine as well as support for event-time processing and state management. Flink applications are fault-tolerant in the event of machine failure and support exactly-once semantics. 
+Flink provides a high-throughput, low-latency streaming engine as well as support for event-time processing and state management. Flink applications are fault-tolerant in the event of machine failure and support exactly-once semantics.
 Programs can be written in Java, Scala, Python, and SQL and are automatically compiled and optimized into dataflow programs that are executed in a cluster or cloud environment.
 
 Flink does not provide its own data storage system and provides data source and sink connectors to systems such as Amazon Kinesis, Apache Kafka, HDFS, Apache Cassandra, and ElasticSearch.
@@ -16,7 +16,7 @@ Flink does not provide its own data storage system and provides data source and 
 
 **What Is New in Apache Flink?**
 * Flink implements actual streaming processing and not imitates it with micro-batch processing. In Spark streaming is a special case of batching, while in Flink batching is a special case of streaming (stream of a finite size)
-* Flink has better support for cyclical and iterative processing 
+* Flink has better support for cyclical and iterative processing
 * Flink has lower latency and higher throughput
 * Flink has more powerful windows operators
 * Flink implements lightweight distributed snapshots that has low overhead and only-once processing guarantees in stream processing, without using micro batching as Spark does
@@ -47,7 +47,7 @@ Prerequisites for building Flink:
 * Maven (we recommend version 3.0.4)
 * Java 7 or 8
 
-```
+```shell
 git clone https://github.com/apache/flink.git
 cd flink
 mvn clean package -DskipTests # this will take up to 10 minutes

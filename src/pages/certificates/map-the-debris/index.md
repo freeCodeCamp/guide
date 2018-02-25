@@ -44,6 +44,7 @@ Find out how to remove and add key to a JavaScript object.
 
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
 
+```js
     function orbitalPeriod(arr) {
       var GM = 398600.4418;
       var earthRadius = 6367.4447;
@@ -67,6 +68,7 @@ Find out how to remove and add key to a JavaScript object.
 
     // test here
     orbitalPeriod([{name : "sputnik", avgAlt : 35873.5553}]);
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLow/0' target='_blank' rel='nofollow'>Run Code</a>
 
@@ -89,6 +91,7 @@ Find out how to remove and add key to a JavaScript object.
 
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution:
 
+```js
     function orbitalPeriod(arr) {
       var GM = 398600.4418;
       var earthRadius = 6367.4447;
@@ -108,6 +111,7 @@ Find out how to remove and add key to a JavaScript object.
 
     // test here
     orbitalPeriod([{name : "sputnik", avgAlt : 35873.5553}]);
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLoy/0' target='_blank' rel='nofollow'>Run Code</a>
 
@@ -120,6 +124,7 @@ Find out how to remove and add key to a JavaScript object.
 
 ## ![:rotating_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:") Advanced Code Solution:
 
+```js
     function orbitalPeriod(arr) {
       var GM = 398600.4418;
       var earthRadius = 6367.4447;
@@ -138,6 +143,7 @@ Find out how to remove and add key to a JavaScript object.
 
     // test here
     orbitalPeriod(<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>{name : "sputnik", avgAlt : 35873.5553}]);
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLoz/0' target='_blank' rel='nofollow'>Run Code</a>
 

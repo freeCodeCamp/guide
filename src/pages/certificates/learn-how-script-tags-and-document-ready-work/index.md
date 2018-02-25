@@ -7,6 +7,8 @@ To add JS to your HTML, you need a `script` tag. Your browser will run any JavaS
 
 Inside your script element, add this code: `$(document).ready(function() {` to your script. Then close it on the following line (still inside your script element) with: `});`
 
+```html
     <script> $(document).ready(function(){
 
     });</script>
+```

@@ -27,12 +27,14 @@ title: Reto De Algoritmo Bu
 
 ## Solución del código:
 
-    function booWho(bool) {
-      return typeof bool === 'boolean';
-    }
+```js
+function booWho(bool) {
+  return typeof bool === 'boolean';
+}
 
-    // realizamos el test
-    booWho(null);
+// realizamos el test
+booWho(null);
+```
 
 ![:rocket:](/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CLnK/0' target='_blank' rel='nofollow'>¡En REPL!</a>
 

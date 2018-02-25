@@ -9,7 +9,7 @@ Docker is available for both Windows and Linux environment. Docker container run
 
 ### Container Vs. Virtual Machines
 
-* Container virtualises the Operating System and more portable, where as VMs virtualises the Hardware. 
+* Container virtualises the Operating System and more portable, where as VMs virtualises the Hardware.
 
 * Container are an abstraction at the app layer that packages code and dependencies togehter. VMs are an abstraction of physical hardware turning one server into many. Hypervisor helps VM to do so.
 
@@ -24,7 +24,7 @@ Docker is available in two editions: Community Edition (CE) and Enterprise Editi
 
 Once installed try this
 
-```
+```shell
 $ docker run hello-world
 
 Hello from Docker!
@@ -50,7 +50,7 @@ This message shows that your installation appears to be working correctly.
 
 
 #### More Information:
-You can find plenty of informations in the following sites : 
+You can find plenty of informations in the following sites :
 - <a href='https://www.docker.com/' target='_blank' rel='nofollow'>Docker website</a>
 - <a href='https://docs.docker.com/' target='_blank' rel='nofollow'>Docker docs</a>
 - <a href='https://hub.docker.com/' target='_blank' rel='nofollow'>DockerHub</a>

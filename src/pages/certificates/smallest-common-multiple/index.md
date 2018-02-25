@@ -43,6 +43,7 @@ If you sort the array from greatest to smallest, then you can use the first two 
 
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
 
+```js
     function smallestCommons(arr) {
       // Sort array from greater to lowest
       // This line of code was from Adam Doyle (http://github.com/Adoyle2014)
@@ -79,7 +80,7 @@ If you sort the array from greatest to smallest, then you can use the first two 
 
     // test here
     smallestCommons([1,5]);
-
+```
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLn2/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
@@ -111,6 +112,7 @@ Note: If the array only has two elements, then the `for` loop never gets used an
 
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution:
 
+```js
     function smallestCommons(arr) {
         var range = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>];
         for (var i = Math.max(arr[0], arr[1]); i >= Math.min(arr[0], arr[1]); i--) {
@@ -135,7 +137,7 @@ Note: If the array only has two elements, then the `for` loop never gets used an
 
     // test here
     smallestCommons([1,5]);
-
+```
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLn4/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
@@ -153,6 +155,7 @@ Note: If the array only has two elements, then the `for` loop never gets used an
 
 ## ![:rotating_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:") Advanced Code Solution:
 
+```js
     function smallestCommons(arr) {
 
       // range
@@ -194,7 +197,8 @@ Note: If the array only has two elements, then the `for` loop never gets used an
 
     // test here
     smallestCommons([1,5]);
-    
+```
+
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/MR9P/latest' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:

@@ -16,30 +16,30 @@ Backtracking is a general algorithm for finding all (or some) solutions to some 
 
 ### Naive Algorithm for Knight’s tour
 The Naive Algorithm is to generate all tours one by one and check if the generated tour satisfies the constraints.
-```
+```text
 while there are untried tours
-{ 
-   generate the next tour 
-   if this tour covers all squares 
-   { 
+{
+   generate the next tour
+   if this tour covers all squares
+   {
       print this path;
    }
 }
 ```
 ### Backtracking Algorithm for Knight’s tour
 Following is the Backtracking algorithm for Knight’s tour problem.
-```
-If all squares are visited 
+```text
+If all squares are visited
     print the solution
 Else
-   a) Add one of the next moves to solution vector and recursively 
-   check if this move leads to a solution. (A Knight can make maximum 
+   a) Add one of the next moves to solution vector and recursively
+   check if this move leads to a solution. (A Knight can make maximum
    eight moves. We choose one of the 8 moves in this step).
    b) If the move chosen in the above step doesn't lead to a solution
-   then remove this move from the solution vector and try other 
+   then remove this move from the solution vector and try other
    alternative moves.
-   c) If none of the alternatives work then return false (Returning false 
-   will remove the previously added item in recursion and if false is 
+   c) If none of the alternatives work then return false (Returning false
+   will remove the previously added item in recursion and if false is
    returned by the initial call of recursion then "no solution exists" )
 ```
 

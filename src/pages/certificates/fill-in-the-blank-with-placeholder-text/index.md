@@ -5,8 +5,10 @@ Web developers traditionally use **lorem ipsum** text as placeholder text. It's 
 
 **lorem ipsum** text has been used as placeholder text by typesetters since the 16th century, and this tradition continues on the web.
 
+```html
     <h1>Hello World</h1>
 
     <h2>CatPhotoApp</h2>
 
     <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
+```

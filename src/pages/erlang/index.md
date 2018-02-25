@@ -29,7 +29,7 @@ print_name([FirstLetter | RestOfName]) ->
 
 Output:
 
-```
+```text
 > name:print_name("Mike").
 M
 i
@@ -55,7 +55,7 @@ say_hello(Name) ->
 
 Output:
 
-```
+```text
 > greeting:say_hello("Mary").
 "Welcome back Mary!"
 > greeting:say_hello("Tom").

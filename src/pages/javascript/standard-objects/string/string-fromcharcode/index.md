@@ -5,7 +5,9 @@ The static `String.fromCharCode()` method returns a string created by using the 
 
 ## Syntax
 
+```js
     String.fromCharCode(num1[, ...[, numN]])
+```
 
 ### Parameters
 
@@ -23,9 +25,11 @@ Because `fromCharCode()` is a static method of String, you always use it as `Str
 
 ## Examples
 
+```js
     String.fromCharCode(65, 66, 67);  // "ABC"
 
     var test = String.fromCharCode(112, 108, 97, 105, 110);
     document.write(test);
 
     // Output: plain
+```

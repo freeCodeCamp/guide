@@ -15,21 +15,27 @@ If you have written code in another programming language (JavaScript, Python, Ja
 
 In Sass, variables work essentially the same way and can be declared with a "$" character next to the name of the variable:
 
-    $main-color: #CCCCCC;
+```css
+$main-color: #CCCCCC;
+```
 
 The variable above is storing the hex color code for a tone of gray. We can declare this variable inside any `.scss` or `.sass` file that we're working in. We can also incorporate the variable into a tag (HTML5 tag, ID, class, pseudo selectors) when styling:
 
-    $main-color: #CCCCCC;
+```css
+$main-color: #CCCCCC;
 
-    header {
-      background-color: $main-color;
-    }
+header {
+  background-color: $main-color;
+}
+```
 
 In this code snippet, we have assigned the value of the header's `background-color` to the value stored in `$main-color`, which (when Sass compiles to CSS) is output as:
 
-    header {
-      background-color: #CCCCCC;
-    }
+```css
+header {
+  background-color: #CCCCCC;
+}
+```
 
 Neat! But couldn't we just have set the `background-color` to `#CCCCCC` in the first place? The answer is yes, but there's more to it than that.
 
@@ -47,62 +53,76 @@ A mixin is a block of re-usable code that can take arguments, much like a functi
 
 Mixins are declared by prefixing the "@" character in front of the word "mixin", then the name of the mixin. Below is an example of a mixin called btn which takes two arguments and applies them to CSS properties:
 
-    @mixin btn($color, $text-color) {
-      background-color: $color;
-      color: $text-color;
-      padding: 1em;
-    }
+```css
+@mixin btn($color, $text-color) {
+  background-color: $color;
+  color: $text-color;
+  padding: 1em;
+}
+```
 
 After writing out a mixin, nothing will happen by default because we have not put the mixin to use (similar to writing a function vs. calling a function). Let's integrate our mixin. We will include it in an HTML5 `button` selector using the `@include` statement:
 
 _The `@include` statement lets us bring in our mixin styling into a CSS selector of our choice. In this case, the `button` selector with the values blue and white passed in as arguments._
 
-    button {
-      @include btn(blue, white);
-    }
+```css
+button {
+  @include btn(blue, white);
+}
+```
 
 Which is something we can use in any other HTML selector if we chose to. This would compile down to:
 
-    button {
-      background-color: blue;
-      color: white;
-      padding: 1em;
-    }
+```css
+button {
+  background-color: blue;
+  color: white;
+  padding: 1em;
+}
+```
 
 Just by using the single line `@include btn(blue, white);` inside our button selector, we can bring in all the code written out inside our mixin with blue and white passed in as arguments. Additionally, we can set default values for the arguments passed to a mixin. For example, say we wanted our button mixin to default to a specific color and font color if no values were passed when called:
 
-    @mixin button($color: green, $text-color: red) {
-      background-color: $color;
-      color: $text-color;
-      padding: 1em;
-    }
+```css
+@mixin button($color: green, $text-color: red) {
+  background-color: $color;
+  color: $text-color;
+  padding: 1em;
+}
+```
 
 By typing in a ":" followed by the default value we want to set, we have assigned green as a default value for our `$color` argument, and red as a default value for our `$text-color` argument.
 
 Now if we were to call our mixin without passing any values...
 
-    button {
-      @include btn;
-    }
+```css
+button {
+  @include btn;
+}
+```
 
 This compiles down into:
 
-    button {
-      background-color: green;
-      color: red;
-      padding: 1em;
-    }
+```css
+button {
+  background-color: green;
+  color: red;
+  padding: 1em;
+}
+```
 
 If we wanted to put our variables to use with our mixin, we could do so as well:
 
-    $main-color: #CCCCCC;
-    $second-color: #FFFFFF;
+```css
+$main-color: #CCCCCC;
+$second-color: #FFFFFF;
 
-    @mixin button($color: $main-color, $text-color: $second-color) {
-      background-color: $color;
-      color: $text-color;
-      padding: 1em;
-    }
+@mixin button($color: $main-color, $text-color: $second-color) {
+  background-color: $color;
+  color: $text-color;
+  padding: 1em;
+}
+```
 
 In the example above, we declare two variables with distinct hex color values, then set the arguments `$color` and `$text-color` to default to our variables if no argument is passed.
 
@@ -116,37 +136,41 @@ The last tool we will discuss is the extend directive. Extends can be used to du
 
 Below is an example of an extend directive being put to use:
 
-    .primary-module {
-      color: red;
-    }
+```css
+.primary-module {
+  color: red;
+}
 
-    .another-module {
-      @extend .primary-module;
-    }
+.another-module {
+  @extend .primary-module;
+}
 
-    // This ouputs the following CSS
+// This ouputs the following CSS
 
-    .primary-module, .another-module {
-      color: red;
-    }
+.primary-module, .another-module {
+  color: red;
+}
+```
 
 Nothing too shady going here yet. We have a selector targeting `.another-module` which uses an extend to clone styling which was applied to the selector `.primary-module`. This outputs a styling of `color: red;` being applied to the class `.primary-module` and `.another-module`. Logical so far and a tool that has a similar effect to including a mixin on several elements that need to share the same styling.
 
 Now let's take a closer look at a different example and pick out where an extend directive complicates a bit:
 
-    .primary-module p {
-      color: red;
-    }
+```css
+.primary-module p {
+  color: red;
+}
 
-    .another-module {
-      @extend .primary-module;
-    }
+.another-module {
+  @extend .primary-module;
+}
 
-    // This outputs the following CSS
+// This outputs the following CSS
 
-    .primary-module p, .another-module p {
-      color: red;
-    }
+.primary-module p, .another-module p {
+  color: red;
+}
+```
 
 Did you catch it? The selector of `.another-module` is using an extend on the `.primary-module p` selector. Note that because `.primary-module` has a descent selector of `p` (paragraph tag), when the extend is called and our Sass code is compiled, the style of `color: red;` is being applied to `.primary-module p` and `.another-module p`.
 

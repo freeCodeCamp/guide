@@ -45,13 +45,13 @@ _Tip : Toggle the console anytime in the DevTools using `Esc` key._
 
 While you can visit the <a href='https://developers.google.com/web/tools/chrome-devtools/iterate/inspect-styles/shortcuts' target='_blank' rel='nofollow'>complete list of shortcuts</a>, below are a few that are most used:
 
-Feature Windows, Linux Mac  
-Search for a keyword, regex is supported. `Ctrl`+`F``Cmd`+`F`  
-Search and Open a file `Ctrl`+`P``Cmd`+`P`  
-Jump to line `Ctrl`+`G`+`:line_no``Cmd`+`G`+`:line_no`  
-Add a breakpoint `Ctrl`+`B`, or click on the line no.`Cmd`+`B`, or click on the line no.  
-Pause / resume script execution `F8` `F8`  
-Step over next function call `F10` `F10`  
+Feature Windows, Linux Mac
+Search for a keyword, regex is supported. `Ctrl`+`F``Cmd`+`F`
+Search and Open a file `Ctrl`+`P``Cmd`+`P`
+Jump to line `Ctrl`+`G`+`:line_no``Cmd`+`G`+`:line_no`
+Add a breakpoint `Ctrl`+`B`, or click on the line no.`Cmd`+`B`, or click on the line no.
+Pause / resume script execution `F8` `F8`
+Step over next function call `F10` `F10`
 Step into next function call `F11` `F11`
 
 ### 3 : Using a Source Map for our Code
@@ -68,19 +68,23 @@ We must leverage `Source Maps` to assign a name to the JavaScript from our edito
 
 Lets say we are on the <a href='https://www.freecodecamp.com/challenges/factorialize-a-number' target='_blank' rel='nofollow'>Factorialize</a> challenge, and our code looks like this:
 
+```js
     function factorialize(num) {
       if(num <= 1){
       ...
     }
     factorialize(5);
+```
 
 All we need to do is add `//# sourceURL=factorialize.js` to the top of the code, i.e the first line:
 
+```js
     //# sourceURL=factorialize.js
 
     function factorialize(num) {
       if(num <= 1){
       ...
+```
 
 > ![:sparkles:](//forum.freecodecamp.com/images/emoji/emoji_one/sparkles.png?v=2 ":sparkles:") **_And Eureka that's it!_** ![:sparkles:](//forum.freecodecamp.com/images/emoji/emoji_one/sparkles.png?v=2 ":sparkles:")
 

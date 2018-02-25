@@ -21,7 +21,7 @@ dataType arrayName[];  //  works but not preferred way
 ```java
 double[] list; // preferred way
 ```
-or 
+or
 ```java
 double list[]; // works but not preferred way
 ```
@@ -62,13 +62,13 @@ arrayName[index]; // gives you the value at the specified index
 System.out.println(list[1]);
 ```
 Output:
-```
+```text
 2.0
 ```
 
 ## Modifying Arrays:
 ```java
-arrayName[index] = value; 
+arrayName[index] = value;
 ```
 
 Note: You cannot change the size or type of an array after initialising it.
@@ -111,17 +111,17 @@ int N = 5;
 double[][] a = new double [M][N]; //M = rows N = columns
 for(int i = 0; i < M; i++) {
     for (int j = 0; j < N; j++) {
-        //Do something here at index 
+        //Do something here at index
     }
 }
 ```
 This loop will execute M ^ N times and will build this:
 
-[ 0 | 1 | 2 | 3 | 4 ]  
-[ 0 | 1 | 2 | 3 | 4 ]  
-[ 0 | 1 | 2 | 3 | 4 ]  
-[ 0 | 1 | 2 | 3 | 4 ]  
-[ 0 | 1 | 2 | 3 | 4 ]  
+[ 0 | 1 | 2 | 3 | 4 ]
+[ 0 | 1 | 2 | 3 | 4 ]
+[ 0 | 1 | 2 | 3 | 4 ]
+[ 0 | 1 | 2 | 3 | 4 ]
+[ 0 | 1 | 2 | 3 | 4 ]
 
 
 ### Jagged Arrays
@@ -135,15 +135,15 @@ array[1] = new int[2]; //creates 2 columns for second row
 array[2] = new int[5]; //creates 5 columns for third row
 array[3] = new int[5]; //creates 5 columns for fourth row
 array[4] = new int[5]; //creates 5 columns for fifth row
-```	
+```
 
-Output: 
+Output:
 
-[ 0 ]                  
-[ 0 | 1 ]              
-[ 0 | 1 | 2 | 3 | 4 ]  
-[ 0 | 1 | 2 | 3 | 4 ]  
-[ 0 | 1 | 2 | 3 | 4 ]  
+[ 0 ]
+[ 0 | 1 ]
+[ 0 | 1 | 2 | 3 | 4 ]
+[ 0 | 1 | 2 | 3 | 4 ]
+[ 0 | 1 | 2 | 3 | 4 ]
 
 #### More Information:
 * Source: <a href='https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html' target='_blank' rel='nofollow'>Java Arrays</a>

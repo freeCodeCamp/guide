@@ -15,7 +15,7 @@ title: Map
 
 Here is an example:
 
-```c++
+```cpp
 #include <iostream>
 #include <map>
 
@@ -23,24 +23,24 @@ using namespace std;
 
 int main (){
   map<char,int> first;
-  
+
   //initializing
   first['a']=10;
   first['b']=20;
   first['c']=30;
   first['d']=40;
-  
+
    map<char, int>::iterator it;
    for(it=first.begin(); it!=first.end(); ++it){
       cout << it->first << " => " << it->second << '\n';
    }
-   
+
   return 0;
 }
 ```
 
 Output:
-```
+```text
 a => 10
 b => 20
 c => 30
@@ -50,7 +50,7 @@ d => 40
 ## Creating map object
 ` map<string, int> myMap; `
 
-## Insertion 
+## Insertion
 Inserting data with insert member function.
 
 `myMap.insert(make_pair("earth", 1));`
@@ -63,7 +63,7 @@ We can also insert data in std::map using operator [] i.e.
 ## Accessing map elements
 
 To access map elements, you have to create iterator for it. Here is an example as stated before.
-```c++
+```cpp
 map<char, int>::iterator it;
    for(it=first.begin(); it!=first.end(); ++it){
       cout << it->first << " => " << it->second << '\n';

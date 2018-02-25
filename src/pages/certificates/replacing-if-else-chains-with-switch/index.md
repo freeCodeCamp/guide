@@ -3,6 +3,7 @@ title: Replacing if Else Chains with Switch
 ---
 If you have many options to choose from, a `switch` statement can be easier to write than many chained `if/if` else statements. The following:
 
+```js
     if(val === 1) {
       answer = "a";
     } else if(val === 2) {
@@ -10,9 +11,11 @@ If you have many options to choose from, a `switch` statement can be easier to w
     } else {
       answer = "c";
     }
+```
 
 can be replaced with:
 
+```js
     switch (val) {
       case 1:
         answer = "a";
@@ -23,3 +26,4 @@ can be replaced with:
       default:
         answer = "c";
     }
+```

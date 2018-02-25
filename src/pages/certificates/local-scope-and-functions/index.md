@@ -5,11 +5,13 @@ Variables which are declared within a function, as well as the function paramete
 
 Here is a function `myLocalScope` with a local variable called `loc`.
 
+```js
     function myLocalScope() {
       var loc = "foo";
       console.log(loc);
     }
     myLocalScope(); // "foo"
     console.log(loc); // "undefined"
+```
 
 `loc` is not defined outside of the function.

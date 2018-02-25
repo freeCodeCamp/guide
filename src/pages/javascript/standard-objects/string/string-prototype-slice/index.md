@@ -5,7 +5,9 @@ The JavaScript string method `.slice()` extracts a portion of a string and retur
 
 ## Syntax
 
+```js
     str.slice(beginSliceIndex [, endSliceIndex]);
+```
 
 ## Parameters
 
@@ -27,16 +29,20 @@ Optional. The zero-based index where the slice should end. If omitted, `.slice()
 
 **Using `.slice()` to create a new string**
 
+```js
     var string1 = "Hello World!";
     var string2 = string1.slice(3);
     console.log(string2);                           // Will log "lo World!"
 
     var string3 = string1.slice(3, 7);
     console.log(string3);                           // Will log "lo W"
+```
 
 **Using `.slice()` with negative indices**
 
+```js
     var string = "Hello World!"
     str.slice(-3);                                  // Returns "ld!"
     str.slice(-3, -1);                              // Returns "ld"
     str.slice(0, -1);                               // Returns "Hello World"
+```

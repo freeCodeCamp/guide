@@ -5,12 +5,12 @@ title: Testing with Chaijs
 
 ### Installation
 You can install Chai in your project through npm.
-```
+```bash
 npm install chai
 ```
 ##### Pro-tip
 Add Chai in devDependencies of  _package.json_, using * as version tag. In this way, you always have the most recent version.
-```
+```json
 "devDependencies": {
   "chai": "*"
 }
@@ -20,7 +20,7 @@ Add Chai in devDependencies of  _package.json_, using * as version tag. In this 
 
 #### Assert
 You can use _assert_ to check if your tests are performing well.
-```
+```js
 var assert = require('chai').assert, foo = 'bar', beverages = { tea: [ 'chai', 'matcha', 'oolong' ] };
 
 assert.typeOf(foo, 'string'); // without optional message

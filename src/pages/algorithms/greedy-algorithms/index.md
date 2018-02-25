@@ -59,7 +59,7 @@ The diagram shows us that the least confliciting interval is the one in the midd
 
 4. **Earliest Finishing time first**. This is the approach that always gives us the most optimal solution to this problem. We derived a lot of insights from previous approaches and finally came upon this approach. We sort the intervals according to increasing order of their finishing times and then we start selecting intervals from the very beginning. Look at the following pseudo code for more clarity.
 
-```
+```text
 function interval_scheduling_problem(requests)
     schedule \gets \{\}
     while requests is not yet empty

@@ -5,7 +5,9 @@ You can add new properties to existing JavaScript objects the same way you would
 
 Here is how using dot notation:
 
+```js
     myDog.bark = "woof-woof";
+```
 
 Here is how using bracket notation:
 ```javascript

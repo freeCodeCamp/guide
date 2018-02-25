@@ -20,8 +20,8 @@ You can also chain ternary operators, this way you will have an if-else if-else 
 ```
 > **Pro tip**: As you see you can split the ternary operator on multiple lines
 E.g.
-```
-const wealth = housesOwned > 3 ? "rich" 
+```js
+const wealth = housesOwned > 3 ? "rich"
              : housesOwned > 1 ? "nothing to complain"
              : "poor"
 ```

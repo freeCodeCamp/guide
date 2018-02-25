@@ -13,22 +13,26 @@ Here is a list of the flexbox properties that can be used to position out elemen
 
 ### CSS that can be applied to the container
 
-    display: flexbox | inline-flex;
-    flex-direction: row | row-reverse | column | column-reverse;
-    flex-wrap: nowrap | wrap | wrap-reverse;
-    flex-flow: <‘flex-direction’> || <‘flex-wrap’>
-    justify-content: flex-start | flex-end | center | space-between | space-around;
-    align-items: flex-start | flex-end | center | baseline | stretch;
-    align-content: flex-start | flex-end | center | space-between | space-around | stretch;
+```css
+display: flexbox | inline-flex;
+flex-direction: row | row-reverse | column | column-reverse;
+flex-wrap: nowrap | wrap | wrap-reverse;
+flex-flow: <‘flex-direction’> || <‘flex-wrap’>
+justify-content: flex-start | flex-end | center | space-between | space-around;
+align-items: flex-start | flex-end | center | baseline | stretch;
+align-content: flex-start | flex-end | center | space-between | space-around | stretch;
+```
 
 ### CSS that can be applied to items/elements in the container
 
-    order: <integer>;
-    flex-grow: <number>; /* default 0 */
-    flex-shrink: <number>; /* default 1 */
-    flex-basis: <length> | auto; /* default auto */
-    flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]
-    align-self: auto | flex-start | flex-end | center | baseline | stretch;
+```css
+order: <integer>;
+flex-grow: <number>; /* default 0 */
+flex-shrink: <number>; /* default 1 */
+flex-basis: <length> | auto; /* default auto */
+flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]
+align-self: auto | flex-start | flex-end | center | baseline | stretch;
+```
 
 So now you have your toolkit but you ask "What do I do with my tools, how do I use these?", well let me show you.
 

@@ -10,19 +10,21 @@ We can go now open our `dist/index.html`. This will be the one HTML page that lo
 
 Therefore, this is what our `dist/index.html` file will look like:
 
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-      <meta charset="UTF-8">
-      <title>React Webpack Example</title>
-    </head>
-    <body>
-      <!-- React app will be injected into the following `div` element: -->
-      <div id="app"></div>
-      <!-- Include bundled JavaScript: -->
-      <script src="bundle.js"></script>
-    </body>
-    </html>
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>React Webpack Example</title>
+</head>
+<body>
+  <!-- React app will be injected into the following `div` element: -->
+  <div id="app"></div>
+  <!-- Include bundled JavaScript: -->
+  <script src="bundle.js"></script>
+</body>
+</html>
+```
 
 You might be wondering why this page links to a `bundle.js` when all we have so far is an empty `src/js/client.js`. This will be revealed later when we write our Webpack configuration file.
 
@@ -30,27 +32,29 @@ You might be wondering why this page links to a `bundle.js` when all we have so 
 
 Now it's time to write some React code. Just like in the `dist/index.html` file, for now we will write just enough code to get the app going, so there won't be much code required at all:
 
-    import React from 'react';
-    import ReactDOM from 'react-dom';
+```js
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-    class Main extends React.Component {
-      render() {
-        return (
-          <div>
-            <h1>This is one cool app!</h1>
-          </div>
-        );
-      }
-    }
+class Main extends React.Component {
+  render() {
+    return (
+      <div>
+        <h1>This is one cool app!</h1>
+      </div>
+    );
+  }
+}
 
-    const app = document.getElementById('app');
-    ReactDOM.render(<Main />, app);
+const app = document.getElementById('app');
+ReactDOM.render(<Main />, app);
+```
 
 The code that looks like HTML elements is actually JSX, which is a part of React.
 
 *   <a href='http://buildwithreact.com/tutorial/jsx' target='_blank' rel='nofollow'>Help: More about JSX</a>
 
-To explain what is going on in this file, we'll break it down:  
+To explain what is going on in this file, we'll break it down:
 - First, we are importing `React` and `ReactDOM`. These are required for any React file that is used to inject code into the DOM. The `ReactDOM` is a virtual DOM, and it's not the same thing as the standard Document Object Model.
 
 *   <a href='https://facebook.github.io/react/docs/glossary.html' target='_blank' rel='nofollow'>Help: More about the React DOM</a>
@@ -68,38 +72,40 @@ There's still one more file left to write before our project is ready. It's the 
 
 In this case, at its most basic, a `webpack.config.js` exports an object that has the following properties:
 
-| Property | Role |  
-| --- | --- |  
-| entry | What goes in: the entry point of the app. In this case, it's `src/js/client.js`. |  
-| output | What comes out: what Webpack is going to bundle for us. In this case, it's whatever we name it in the `webpack.config.js`. |  
+| Property | Role |
+| --- | --- |
+| entry | What goes in: the entry point of the app. In this case, it's `src/js/client.js`. |
+| output | What comes out: what Webpack is going to bundle for us. In this case, it's whatever we name it in the `webpack.config.js`. |
 | loaders | The tasks that Webpack is going to carry out. |
 
 Here is what the `webpack.config.js` file looks like:
 
-    var path = require('path');
-    var srcPath = path.join(__dirname, 'src');
-    var buildPath = path.join(__dirname, 'dist');
+```js
+var path = require('path');
+var srcPath = path.join(__dirname, 'src');
+var buildPath = path.join(__dirname, 'dist');
 
-    module.exports = {
-      context: srcPath,
-      entry: path.join(srcPath, 'js', 'client.js'),
-      output: {
-          path: buildPath,
-          filename: "bundle.js"
-      },
-      module: {
-          loaders: <a href='https://en.wikipedia.org/wiki/Don%27t_repeat_yourself' target='_blank' rel='nofollow'>
-              {
-                test: /\.jsx?$/,
-                exclude: /(node_modules|bower_components)/,
-                loader: 'babel',
-                query: {
-                  presets: ['react', 'es2015']
-                }
-              }
-          ]
-      }
-    };
+module.exports = {
+  context: srcPath,
+  entry: path.join(srcPath, 'js', 'client.js'),
+  output: {
+      path: buildPath,
+      filename: "bundle.js"
+  },
+  module: {
+      loaders: <a href='https://en.wikipedia.org/wiki/Don%27t_repeat_yourself' target='_blank' rel='nofollow'>
+          {
+            test: /\.jsx?$/,
+            exclude: /(node_modules|bower_components)/,
+            loader: 'babel',
+            query: {
+              presets: ['react', 'es2015']
+            }
+          }
+      ]
+  }
+};
+```
 
 Again, let's break it down so that it's clear what this file is doing:
 

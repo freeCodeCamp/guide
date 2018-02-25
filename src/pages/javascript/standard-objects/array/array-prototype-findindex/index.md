@@ -3,12 +3,12 @@ title: Array.prototype.findIndex
 ---
 ## Information
 
-The `findIndex()` method returns the index of the first element in the array that satisfies the provided testing function. Otherwise -1 is returned. 
+The `findIndex()` method returns the index of the first element in the array that satisfies the provided testing function. Otherwise -1 is returned.
 
 The `findIndex()` method does not mutate the array on which it is called.
 
 Syntax:
-```
+```js
 arr.findIndex(callback[, thisArg])
 ```
 
@@ -23,7 +23,7 @@ arr.findIndex(callback[, thisArg])
     - The array findIndex() was called upon.
 - `thisArg` (Optional)
   - Object to use as this when executing callback.
-  
+
 ##### Return value
 A index in the array if an element passes the test; otherwise, -1.
 
@@ -40,7 +40,7 @@ let items = [
     {name: 'games', quantity: 5}
 ];
 
-function findMovies(item) { 
+function findMovies(item) {
     return item.name === 'movies';
 }
 

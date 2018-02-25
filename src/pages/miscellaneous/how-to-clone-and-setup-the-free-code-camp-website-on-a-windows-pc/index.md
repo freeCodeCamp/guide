@@ -15,10 +15,12 @@ Download and install the 4 prerequisites. When installing Python and Node it is 
 1.  Open a command prompt with administrator rights.
 2.  Verify that Node is in the path by running `node -v`
 3.  Verify that npm is in the path by running `npm -v`
-4.  Run the following commands:  
+4.  Run the following commands:
 
-        npm install gulp -g
-        npm install node-gyp -g
+    ```shell
+    npm install gulp -g
+    npm install node-gyp -g
+    ```
 
 5.  If you want to spare the time in explorer finding Mongo when it has to be started create a `.cmd` file on your desktop and write the path to Mongo. Probably `%programfiles%\MongoDB\Server\3.0\bin\mongod.exe`.
 

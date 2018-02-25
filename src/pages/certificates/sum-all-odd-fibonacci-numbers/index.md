@@ -37,6 +37,7 @@ As you get the next odd one, don't forget to add it to a global variable that ca
 
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
 
+```js
     function sumFibs(num) {
         var prevNumber = 0;
         var currNumber = 1;
@@ -55,6 +56,7 @@ As you get the next odd one, don't forget to add it to a global variable that ca
 
     // test here
     sumFibs(4);
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLnV/0' target='_blank' rel='nofollow'>Run Code</a>
 
@@ -72,6 +74,7 @@ As you get the next odd one, don't forget to add it to a global variable that ca
 
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution:
 
+```js
     function sumFibs(num) {
       // create an array of fib numbers till num
       var arrFib = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>1];
@@ -91,6 +94,7 @@ As you get the next odd one, don't forget to add it to a global variable that ca
 
     // test here
     sumFibs(4);
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLnW/0' target='_blank' rel='nofollow'>Run Code</a>
 

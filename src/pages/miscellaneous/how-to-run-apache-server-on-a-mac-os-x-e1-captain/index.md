@@ -7,12 +7,16 @@ When you consider run <a href='http://www.apache.org/' target='_blank' rel='nofo
 
 Type on your terminal window:
 
+```shell
     httpd -v
+```
 
 It's give the server version and build date.
 
 Here http stands for Hypertext Transfer Protocol d stands for Daemon which is a software program for using multi tasking also uses on Mac OS X. `httpd` is the Apache HyperText Transfer Protocol (HTTP) server program. It is designed to be run as a standalone daemon process. Type
 
+```shell
     sudo apachectl start
+```
 
 on your terminal window and go to your browser and type `http://localhost` you will get, `It works!` on your browser.

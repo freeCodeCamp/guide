@@ -13,28 +13,32 @@ Python supports a concept of iteration over containers. This is implemented usin
 
     *   `__next__()`: returns the next object of the container.
 
-    iterator_object = 'abc'.__iter__()
-    print(iterator_object)
-    print(id(iterator_object))
-    print(id(iterator_object.__iter__())) # Returns the iterator itself.
-    print(iterator_object.__next__())     # Returns 1st object and advances iterator.
-    print(iterator_object.__next__())     # Returns 2nd object and advances iterator.
-    print(iterator_object.__next__())     # Returns 3rd object and advances iterator.
-    print(iterator_object.__next__())     # Raises StopIteration Exception.
+```python
+iterator_object = 'abc'.__iter__()
+print(iterator_object)
+print(id(iterator_object))
+print(id(iterator_object.__iter__())) # Returns the iterator itself.
+print(iterator_object.__next__())     # Returns 1st object and advances iterator.
+print(iterator_object.__next__())     # Returns 2nd object and advances iterator.
+print(iterator_object.__next__())     # Returns 3rd object and advances iterator.
+print(iterator_object.__next__())     # Raises StopIteration Exception.
+```
 
 Output :
 
-    <str_iterator object at 0x102e196a0>
-    4343305888
-    4343305888
-    a
-    b
-    c
-    ---------------------------------------------------------------------------
-    StopIteration                             Traceback (most recent call last)
-    <ipython-input-1-d466eea8c1b0> in <module>()
-          6 print(iterator_object.__next__())     # Returns 2nd object and advances iterator.
-          7 print(iterator_object.__next__())     # Returns 3rd object and advances iterator.
-    ----> 8 print(iterator_object.__next__())     # Raises StopIteration Exception.
+```text
+<str_iterator object at 0x102e196a0>
+4343305888
+4343305888
+a
+b
+c
+---------------------------------------------------------------------------
+StopIteration                             Traceback (most recent call last)
+<ipython-input-1-d466eea8c1b0> in <module>()
+      6 print(iterator_object.__next__())     # Returns 2nd object and advances iterator.
+      7 print(iterator_object.__next__())     # Returns 3rd object and advances iterator.
+----> 8 print(iterator_object.__next__())     # Raises StopIteration Exception.
 
-    StopIteration:
+StopIteration:
+```

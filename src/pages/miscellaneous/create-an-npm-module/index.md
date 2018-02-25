@@ -9,8 +9,10 @@ The beauty of NPM is that you can assemble packages other people have created to
 
 I created this simple utility as `index.js`:
 
-    var time = new Date().toTimeString();
-    console.log(time);
+```js
+var time = new Date().toTimeString();
+console.log(time);
+```
 
 ## Step 2: Create package information
 
@@ -20,14 +22,16 @@ Simply run `npm init` and answer the questions.
 
 Your `package.json` should look something like this:
 
-    {
-      "name": "whattimeisit",
-      "version": "1.0.0",
-      "description": "accurate time retrieval",
-      "main": "index.js",
-      "author": "HoursAndMinutes",
-      "license": "ISC"
-    }
+```json
+{
+  "name": "whattimeisit",
+  "version": "1.0.0",
+  "description": "accurate time retrieval",
+  "main": "index.js",
+  "author": "HoursAndMinutes",
+  "license": "ISC"
+}
+```
 
 Don't forget to include the GitHub repository link if the code is on GitHub!
 

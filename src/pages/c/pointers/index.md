@@ -21,7 +21,7 @@ int main(void){
 }
 ```
 
-In this code, there are two declarations. The first is a typical variable initialization which creates a `double` and sets it equal to 10.1. New in our declarations is the usage of `*`. The asterisk (`*`) is usually used for multiplication, but when we use it by placing it in front of a variable it tells C that this is a pointer variable.  
+In this code, there are two declarations. The first is a typical variable initialization which creates a `double` and sets it equal to 10.1. New in our declarations is the usage of `*`. The asterisk (`*`) is usually used for multiplication, but when we use it by placing it in front of a variable it tells C that this is a pointer variable.
 
 The next line tells the compiler where that somewhere else actually is. By using `&` in this way, it becomes the 'dereferencing operator', and returns the memory location of the variable it's looking at.
 
@@ -41,8 +41,8 @@ printf("%f\n", *my_pointer);
 ```
 Notice that in order to get the value of the data at `*my_pointer`, you'll need to tell C that you want to get the value the variable is pointing at. Try running this code without that asterisk, and you'll be able to print the memory location, because that's what the `my_variable` variable is actually holding.
 
-You can declare multiple pointer in a single statement as with standard variables, like so: 
-```
+You can declare multiple pointer in a single statement as with standard variables, like so:
+```c
 int *x, *y;
 ```
 Notice that the `*` is required before each variable. This is because being a pointer is considered as part of the variable and not part of the datatype.
@@ -65,7 +65,7 @@ int main(void) {
     int a = 11;
     func(a);
     printf("%d",a);// print 11
-    
+
 
     return 0;
 }
@@ -123,7 +123,7 @@ The qualifier const can be applied to the declaration of any variable to specify
 # Pointer to variable
 We can change the value of ptr and we can also change the value of object ptr pointing to.
 Following code fragment explains pointer to variabel
-```
+```c
 #include <stdio.h>
 int main(void)
 {
@@ -131,74 +131,74 @@ int main(void)
     int j = 20;
     int *ptr = &i;        /* pointer to integer */
     printf("*ptr: %d\n", *ptr);
-  
+
     /* pointer is pointing to another variable */
     ptr = &j;
     printf("*ptr: %d\n", *ptr);
-  
+
     /* we can change value stored by pointer */
     *ptr = 100;
     printf("*ptr: %d\n", *ptr);
-  
+
     return 0;
 }
 ```
 # Pointer to constant
 We can change pointer to point to any other integer variable, but cannot change value of object (entity) pointed using pointer ptr.
-```
-#include <stdio.h> 
+```c
+#include <stdio.h>
 int main(void)
 {
-    int i = 10;   
+    int i = 10;
     int j = 20;
     const int *ptr = &i;    /* ptr is pointer to constant */
-  
-    printf("ptr: %d\n", *ptr); 
+
+    printf("ptr: %d\n", *ptr);
     *ptr = 100;        /* error: object pointed cannot be modified
                      using the pointer ptr */
-  
+
     ptr = &j;          /* valid */
     printf("ptr: %d\n", *ptr);
-  
+
     return 0;
 }
 ```
 # Constant pointer to variable
-In this we can change the value of the variable the pointer is pointing to. But we can't change the pointer to point to 
+In this we can change the value of the variable the pointer is pointing to. But we can't change the pointer to point to
 another variable.
-```
+```c
 #include <stdio.h>
 int main(void)
 {
    int i = 10;
    int j = 20;
    int *const ptr = &i;    /* constant pointer to integer */
-  
+
    printf("ptr: %d\n", *ptr);
-  
+
    *ptr = 100;    /* valid */
    printf("ptr: %d\n", *ptr);
-  
+
    ptr = &j;        /* error */
    return 0;
 }
 ```
 # constant pointer to constant
 Above declaration is constant pointer to constant variable which means we cannot change value pointed by pointer as well as we cannot point the pointer to other variable.
-```
+```c
 #include <stdio.h>
-  
+
 int main(void)
 {
     int i = 10;
     int j = 20;
     const int *const ptr = &i;        /* constant pointer to constant integer */
-  
+
     printf("ptr: %d\n", *ptr);
-  
+
     ptr = &j;            /* error */
     *ptr = 100;        /* error */
-  
+
     return 0;
 }
 ```

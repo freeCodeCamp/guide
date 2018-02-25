@@ -9,17 +9,19 @@ Assignment operators, as the name suggests, assign (or re-assign) values to a va
 ## Syntax
 
 `x = y;` | Description  | Necessity
-:---------:|:---------------------:|:---------:  
-`x` | Variable | Required  
-`=` | Assignment operator | Required  
+:---------:|:---------------------:|:---------:
+`x` | Variable | Required
+`=` | Assignment operator | Required
 `y` | Value to assign to variable | Required
 
 ## Examples
 
+```js
     let initialVar = 5;   // Variable initialization requires the use of an assignment operator
 
     let newVar = 5;
     newVar = 6;   // Variable values can be modified using an assignment operator
+```
 
 ## Variations
 
@@ -27,33 +29,39 @@ The other assignment operators are a shorthand for performing some operation usi
 
 For example, below is the syntax for the addition assignment operator:
 
-    x += y;
+```js
+x += y;
+```
 
 This is the same as applying the addition operator and reassigning the sum to the original variable (i.e., x), which can be expressed by the following code:
 
-    x = x + y;
+```js
+x = x + y;
+```
 
 To illustrate this using actual values, here is another example of using the addition assignment operator:
 
+```js
     let myVar = 5;   // value of myVar: 5
     myVar += 7;   // value of myVar: 12 = 5 + 7
+```
 
 ## Complete list of Javascript's assignment operators
 
-Operator | Syntax | Long version  
-------------------------------- | --------- | -------------  
-Assignment | x = y | x = y  
-Addition assignment | x += y | x = x + y  
-Subtraction assignment | x -= y | x = x - y  
-Multiplication assignment | x *= y | x = x * y  
-Division assignment | x /= y | x = x / y  
-Remainder assignment | x %= y | x = x % y  
-Exponentiation assignment | x **= y | x = x ** y  
-Left shift assignment | x <<= y | x = x << y  
-Right shift assignment | x >>= y | x = x >> y  
-Unsigned right shift assignment | x >>>= y | x = x >>> y  
-Bitwise AND assignment | x &= y | x = x & y  
-Bitwise XOR assignment | x ^= y | x = x ^ y  
+Operator | Syntax | Long version
+------------------------------- | --------- | -------------
+Assignment | x = y | x = y
+Addition assignment | x += y | x = x + y
+Subtraction assignment | x -= y | x = x - y
+Multiplication assignment | x *= y | x = x * y
+Division assignment | x /= y | x = x / y
+Remainder assignment | x %= y | x = x % y
+Exponentiation assignment | x **= y | x = x ** y
+Left shift assignment | x <<= y | x = x << y
+Right shift assignment | x >>= y | x = x >> y
+Unsigned right shift assignment | x >>>= y | x = x >>> y
+Bitwise AND assignment | x &= y | x = x & y
+Bitwise XOR assignment | x ^= y | x = x ^ y
 Bitwise OR assignment | x |= y | x = x | y
 
 ### More Information:

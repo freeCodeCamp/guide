@@ -18,46 +18,51 @@ Binary search trees allow fast lookup, insert and removal of nodes. The way that
 
 Let us define a BST node having some data, referencing to its left and right child nodes.
 
+```c
 struct node {
-   int data;   
+   int data;
    struct node *leftChild;
    struct node *rightChild;
 };
+```
 
 ## Search Operation
 Whenever an element is to be searched, start searching from the root node. Then if the data is less than the key value, search for the element in the left subtree. Otherwise, search for the element in the right subtree. Follow the same algorithm for each node.
 
+```text
 Algorithm
 struct node* search(int data){
    struct node *current = root;
    printf("Visiting elements: ");
-	
+
    while(current->data != data){
-	
+
       if(current != NULL) {
          printf("%d ",current->data);
-			
+
          //go to left tree
          if(current->data > data){
             current = current->leftChild;
          }//else go to right tree
-         else {                
+         else {
             current = current->rightChild;
          }
-			
+
          //not found
          if(current == NULL){
             return NULL;
          }
-      }			
+      }
    }
    return current;
 }
+```
 
 ## Insert Operation
 
 Whenever an element is to be inserted, first locate its proper location. Start searching from the root node, then if the data is less than the key value, search for the empty location in the left subtree and insert the data. Otherwise, search for the empty location in the right subtree and insert the data.
 
+```text
 Algorithm
 void insert(int data) {
    struct node *tempNode = (struct node*) malloc(sizeof(struct node));
@@ -75,14 +80,14 @@ void insert(int data) {
       current = root;
       parent = NULL;
 
-      while(1) {                
+      while(1) {
          parent = current;
-			
+
          //go to left of the tree
          if(data < parent->data) {
-            current = current->leftChild;                
+            current = current->leftChild;
             //insert to the left
-				
+
             if(current == NULL) {
                parent->leftChild = tempNode;
                return;
@@ -90,16 +95,17 @@ void insert(int data) {
          }//go to right of the tree
          else {
             current = current->rightChild;
-            
+
             //insert to the right
             if(current == NULL) {
                parent->rightChild = tempNode;
                return;
             }
          }
-      }            
+      }
    }
-}        
+}
+```
 
 ### Relevant videos on freeCodeCamp YouTube channel
 * <a href='https://youtu.be/5cU1ILGy6dM' target='_blank' rel='nofollow'>Binary Search Tree</a>
@@ -107,20 +113,24 @@ void insert(int data) {
 
 Following are common types of Binary Trees:-
 Full Binary Tree/Strict Binary Tree: A Binary Tree is full or strict if every node has 0 or 2 children
+```text
               18
-           /       \  
-         15         30  
+           /       \
+         15         30
         /  \        /  \
       40    50    100   40
-      
+```
+
  In Full Binary Tree, number of leaf nodes is equal to number of internal nodes plus one.
- 
+
  Complete Binary Tree: A Binary Tree is complete Binary Tree if all levels are completely filled except possibly the last level and the last level has all keys as left as possible
- 
+
+```text
                18
-           /       \  
-         15         30  
+           /       \
+         15         30
         /  \        /  \
       40    50    100   40
      /  \   /
-    8   7  9 
+    8   7  9
+```

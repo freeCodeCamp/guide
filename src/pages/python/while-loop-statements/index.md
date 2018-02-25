@@ -4,7 +4,7 @@ title: While Loop Statements
 ## While Loop Statements
 
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-Python utilizes different the while loop similar to other popular languages.  The while loop continuously iterates through a block of code as long as the condition is true.  Once condition is proven to be false then it breaks out of the block of code.  
+Python utilizes different the while loop similar to other popular languages.  The while loop continuously iterates through a block of code as long as the condition is true.  Once condition is proven to be false then it breaks out of the block of code.
 
 The basic syntax is:
 
@@ -26,7 +26,7 @@ while (days < 7):
 
 Output:
 
-```
+```text
 Today is Monday
 Today is Tuesday
 Today is Wednesday

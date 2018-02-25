@@ -50,6 +50,7 @@ Just as you can chain strings by concatenating, you can assign them to an existi
 
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
 
+```js
     function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {
         var result = "";
         // Your code below this line
@@ -61,6 +62,7 @@ Just as you can chain strings by concatenating, you can assign them to an existi
 
     // Change the words here to test your function
     wordBlanks("dog", "big", "ran", "quickly");
+```
 
 **Example Run**
 

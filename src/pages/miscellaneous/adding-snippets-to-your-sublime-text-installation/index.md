@@ -19,11 +19,13 @@ You will add the snippet by replacing the text `Hello, ${1:this} is a ${2:snippe
 
 In the case of the `div` snippet, it's as simple as placing the following text in the snippet area:
 
-    <!-- $1 -->
-    <div class= "$1">
+```html
+<!-- $1 -->
+<div class= "$1">
 
-    </div>
-    <!-- $1 -->
+</div>
+<!-- $1 -->
+```
 
 The `$` operator references the variables that will be typed in once you type `div` and then tab. In fact you can have any number of them!
 

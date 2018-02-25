@@ -7,7 +7,7 @@ React is a JavaScript library for building user interfaces.
 
 React is declarative: React uses a declarative paradigm that makes it easier to reason about your application.
 
-React is efficient: React computes the minimal set of changes necessary to keep your DOM up-to-date. 
+React is efficient: React computes the minimal set of changes necessary to keep your DOM up-to-date.
 
 And React is flexible: React works with the libraries and frameworks that you already know.
 
@@ -18,7 +18,7 @@ Chances are that if you are new to web development that setting up a development
 
 In this article we are going to look at how we can get started with React using only a text editor and a browser and nothing else.
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=100pKUE3OPI" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=100pKUE3OPI" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg"
 alt="Watch Video Here" width="240" height="180" border="10" /></a>
 
 ## 1 — Set Up Boiler Plate Code with Emmet
@@ -88,7 +88,7 @@ We’ll go within the body. And best practice isn’t just to throw React into t
 We’ll create a simple ```<div>``` element and give it an id of “app”. We are going to be able to target this location to insert our React content much the same way you might use CSS to target an id for styling of your choice.
 Any react content will be rendered within the div tags with the id of app. In the meantime we’ll leave some text saying that “React has not rendered yet” If we see this when we preview our page it means that somewhere we missed rendering react.
 Now, let’s go ahead and create a script tag within our body where we will create with react for the first time. The syntax we are going to need for our script tag is to add an attribute of “type”. This specifies the media type of the script. Above in our head we used an src attribute that pointed to the external script files for the React library, ReactDOM library and Babel library.
-  
+
 ```javascript
 <body>
   <div id="app">React has not rendered yet</div>
@@ -117,7 +117,7 @@ Our first argument is going to be our JSX.
   <div id="app">React has not rendered yet</div>
   <script type="text/babel">
   ReactDOM.render(
-    <h1>Hello World</h1>, 
+    <h1>Hello World</h1>,
     React Where
   );
 </script>
@@ -136,7 +136,7 @@ Now, let’s look at what our second argument would be.
   <div id="app">React has not rendered yet</div>
   <script type="text/babel">
     ReactDOM.render(
-      <h1>Hello World</h1>, 
+      <h1>Hello World</h1>,
       Document.getElementById("app")
     );
   </script>
@@ -154,7 +154,7 @@ If you click on the head tag we can see our script libraries we included. Then w
 
 or
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=100pKUE3OPI" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=100pKUE3OPI" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg"
 alt="Watch Video Here" width="240" height="180" border="10" /></a>
 
 ## Recap
@@ -198,29 +198,28 @@ Why learn React?
 Many popular websites use React implementing the MVC architectural pattern. Facebook (Partially), Instagram (Completely), Khan Academy (Partially), Codecademy (Partially), New York Times (Partially), Yahoo Mail (Completely), Dropbox's new photo and video gallery app Carousel (Completely) are the popular websites known to be using React.
 How these large applications are build using React? The simple answer is by building small applications or components.
 Example
+    ```js
+    var component2  = function() {
+      return (
+          <div></div>
+         )
+    }
+    var component3  = function() {
+      return (
+          <div></div>
+         )
+    }
+    var component1  = function() {
+      return (
+          <div>
+        <component2/>
+        <component3/>
+        </div>
+         )
+    }
+    <component1/>
+    ```
 
-        ``` react
-        var component2  = function() {
-          return (
-              <div></div>
-             )
-        }
-        var component3  = function() {
-          return (
-              <div></div>
-             )
-        }
-        var component1  = function() {
-          return (
-              <div>
-            <component2/>
-            <component3/>
-            </div>
-             )
-        }
-        <component1/>
-        ```
-        
 
 2.	React is Declarative for most part in which we are  concerned more with What to do rather than How to do a specific task.  Declarative programming is a programming paradigm that expresses the logic of a computation without describing its control flow.
 Declarative programming  comes with  certain advantages such as reduced side effects(occurs when we modify any state or mutating something or making an API request), minimizing mutability(as lot of is abstracted), enhanced readability, lesser bugs.

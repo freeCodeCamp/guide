@@ -35,6 +35,7 @@ If no element satisfy the function then you must return **undefined**
 
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
 
+```js
     function findElement(arr, func) {
       // Make num undefined by default
       var num;
@@ -58,6 +59,7 @@ If no element satisfy the function then you must return **undefined**
 
     // test here
     findElement([1, 2, 3, 4], function(num){ return num % 2 === 0; });
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLn6/0' target='_blank' rel='nofollow'>Run Code</a>
 
@@ -74,6 +76,7 @@ If no element satisfy the function then you must return **undefined**
 
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution:
 
+```js
     function findElement(arr, func) {
       filterArr = arr.filter(func); //filter array with the function provided
 
@@ -82,6 +85,7 @@ If no element satisfy the function then you must return **undefined**
 
     // test here
     findElement([1, 2, 3, 4], function(num){ return num % 2 === 0; });
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLn7/0' target='_blank' rel='nofollow'>Run Code</a>
 

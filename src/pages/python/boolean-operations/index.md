@@ -7,10 +7,10 @@ title: Python Boolean Operations
 
 These are the Boolean operations, ordered by ascending priority:
 
-Operation | Result | Notes  
---------- | ------------------------------------ | -----  
-x or y | if x is false, then y, else x | (1)  
-x and y | if x is false, then x, else y | (2)  
+Operation | Result | Notes
+--------- | ------------------------------------ | -----
+x or y | if x is false, then y, else x | (1)
+x and y | if x is false, then x, else y | (2)
 not x | if x is false, then True, else False | (3)
 
 **Notes:**
@@ -23,25 +23,31 @@ not x | if x is false, then True, else False | (3)
 
 ### `not`:
 
-    >>> not True
-    False
-    >>> not False
-    True
+```python
+>>> not True
+False
+>>> not False
+True
+```
 
 ### `and`:
 
-    >>> True and False    # Short-circuited at first argument.
-    False
-    >>> False and True    # Second argument is evaluated.
-    False
-    >>> True and True     # Second argument is evaluated.
-    True
+```python
+>>> True and False    # Short-circuited at first argument.
+False
+>>> False and True    # Second argument is evaluated.
+False
+>>> True and True     # Second argument is evaluated.
+True
+```
 
 ### `or`:
 
-    >>> True or False    # Short-circuited at first argument.
-    True
-    >>> False or True    # Second argument is evaluated.
-    True
-    >>> False or False   # Second argument is evaluated.
-    False
+```python
+>>> True or False    # Short-circuited at first argument.
+True
+>>> False or True    # Second argument is evaluated.
+True
+>>> False or False   # Second argument is evaluated.
+False
+```

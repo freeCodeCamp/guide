@@ -34,7 +34,7 @@ ORDER BY Customers.CustomerName
 # Changes
 
 ### What is the result of the following command?
-``` 
+```sql
   DROP VIEW view_name
 ```
 Here it'll be an error because we can't perform a DML operation on a view.
@@ -49,9 +49,10 @@ NOT NULL is the only contstraint that works at the column level.
 
 ### What are the pseudocolumns in SQL? Give some examples?
 A pseudocolumn is a function which returns a system generated value. The reason it is known as so because a pseudocolumn is an Oracle assigned value used in the same context as an Oracle database column but not stored on disk.
-``` Some examples of it are:
+Some examples of it are:
+```sql
     ROWNUM, ROWID, USER, CURRVAL, NEXTVAL etc.
-```    
+```
 
 
 

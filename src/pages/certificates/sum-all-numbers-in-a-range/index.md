@@ -33,6 +33,7 @@ Remember to that you must add all the numbers in between so this would require a
 
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
 
+```js
     function sumAll(arr) {
         var max = Math.max(arr<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>0], arr[1]);
         var min = Math.min(arr[0], arr[1]);
@@ -44,6 +45,7 @@ Remember to that you must add all the numbers in between so this would require a
     }
 
     sumAll([1, 4]);
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLm6/0' target='_blank' rel='nofollow'>Run Code</a>
 
@@ -63,6 +65,7 @@ Since the numbers might not be always in order, using `max()` and `min()` will h
 
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution:
 
+```js
     function sumAll(arr) {
       // Buckle up everything to one!
 
@@ -75,6 +78,7 @@ Since the numbers might not be always in order, using `max()` and `min()` will h
       var sum = (lastNum - firstNum + 1) * (firstNum + lastNum) / 2;
       return sum;
     }
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLm7/0' target='_blank' rel='nofollow'>Run Code</a>
 
@@ -95,6 +99,7 @@ The line `var sortedArr = arr.sort((a,b) => a-b);` is probably what will have yo
 
 ## ![:rotating_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:") Advanced Code Solution:
 
+```js
     function sumAll(arr) {
         var sum = 0;
         for (var i = Math.min(...arr); i <= Math.max(...arr); i++){
@@ -104,6 +109,7 @@ The line `var sortedArr = arr.sort((a,b) => a-b);` is probably what will have yo
     }
 
     sumAll(<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>1, 4]);
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLm8/0' target='_blank' rel='nofollow'>Run Code</a>
 

@@ -13,39 +13,43 @@ I came up with a pure JavaScript function which solves this problem that has no 
 
 And here is the function I created:
 
-    function isVisible (element) {
-        //start with initial element to check visibility and display
-        var el = document.querySelector(element);
-        //display and visibility vary per browser and must be sought in different ways depending on the browser
-        var t1 = el.currentStyle ? el.currentStyle.visibility : getComputedStyle(el, null).visibility;
-        var t2 = el.currentStyle ? el.currentStyle.display : getComputedStyle(el, null).display;
-        //if either of these are true, then the element is not visible
+```js
+function isVisible (element) {
+    //start with initial element to check visibility and display
+    var el = document.querySelector(element);
+    //display and visibility vary per browser and must be sought in different ways depending on the browser
+    var t1 = el.currentStyle ? el.currentStyle.visibility : getComputedStyle(el, null).visibility;
+    var t2 = el.currentStyle ? el.currentStyle.display : getComputedStyle(el, null).display;
+    //if either of these are true, then the element is not visible
+    if (t1 === "hidden" || t2 === "none") {
+        return false;
+    }
+    //This regex is used to scan the parent nodes all the way up to the body element
+    while (!(/body/i).test(el)) {
+        //get the next parent node
+        el = el.parentNode;
+        //grab the values, if available,
+        t1 = el.currentStyle ? el.currentStyle.visibility : getComputedStyle(el, null).visibility;
+        t2 = el.currentStyle ? el.currentStyle.display : getComputedStyle(el, null).display;
         if (t1 === "hidden" || t2 === "none") {
             return false;
         }
-        //This regex is used to scan the parent nodes all the way up to the body element
-        while (!(/body/i).test(el)) {
-            //get the next parent node
-            el = el.parentNode;
-            //grab the values, if available, 
-            t1 = el.currentStyle ? el.currentStyle.visibility : getComputedStyle(el, null).visibility;
-            t2 = el.currentStyle ? el.currentStyle.display : getComputedStyle(el, null).display;
-            if (t1 === "hidden" || t2 === "none") {
-                return false;
-            }
-        }
-        //if all scans are not successful, then the element is visible
-        return true;
     }
+    //if all scans are not successful, then the element is visible
+    return true;
+}
+```
 
 And to use the function, you only need to call it with a query string to select the element to test i.e.
 
-    <body>
-    	<p style="visibility: hidden;" id="myP">My paragraph</p>
-        <script type="text/javascript">
-        	//include isVisible function
-        	alert('Is my paragraph visible? ' + isVisible('#myP'));
-        </script>
-    </body>
+```html
+<body>
+    <p style="visibility: hidden;" id="myP">My paragraph</p>
+    <script type="text/javascript">
+        //include isVisible function
+        alert('Is my paragraph visible? ' + isVisible('#myP'));
+    </script>
+</body>
+```
 
 And the resulting alert will be: `Is my paragraph visible? false`

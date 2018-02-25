@@ -12,9 +12,11 @@ To capitalize the first letter of a random string, you should follow these steps
 
 You should use <a href='http://forum.freecodecamp.com/t/javascript-string-prototype-charat/15932' target='_blank' rel='nofollow'>charAt()</a> method, at _index 0_, to select the first character of the string.
 
+```js
     var string = "freeCodecamp";
 
     string.charAt(0); // Returns "f"
+```
 
 > NOTE: `charAt` is preferable than using `<a href='http://forum.freecodecamp.com/t/javascript-string-prototype-touppercase/15950' target='_blank' rel='nofollow'> ]` (bracket notation) as `str.charAt(0)` returns an empty string (_`''`_) for `str = ''` instead of `undefined` in case of `''[0]`.
 
@@ -22,22 +24,27 @@ You should use <a href='http://forum.freecodecamp.com/t/javascript-string-protot
 
 You may use [toUpperCase()</a> method and convert the calling string to upper case.
 
+```js
     var string = "freeCodecamp";
 
     string.charAt(0).toUpperCase(); // Returns "F"
+```
 
 ## 3\. Get the Remainder of the String
 
 You may use <a href='https://github.com/freecodecamp/freecodecamp/wiki/js-array-prototype-slice' target='_blank' rel='nofollow'>slice()</a> method and get the remainder of the string (from the second character, _index 1_, to the end of the string).
 
+```js
     var string = "freeCodecamp";
 
     string.slice(1); // Returns "reeCodecamp"
+```
 
 ## 4\. Return the result adding the first letter and the remainder of the string
 
 You should create a function that accepts a string as only argument and returns the concatenation of the first letter capitalized `string.charAt(0).toUpperCase()` and the remainder of the string `string.slice(1)`.
 
+```js
     var string = "freeCodecamp";
 
     function capitalizeFirstLetter(str) {
@@ -45,9 +52,11 @@ You should create a function that accepts a string as only argument and returns 
     }
 
     capitalizeFirstLetter(string); // Returns "FreeCodecamp"
+```
 
 Or you may add that function to the `String.prototype` for using it directly on a string using the following code (_so that the method is not enumerable but can be overwritten or deleted later_):
 
+```js
     var string = "freeCodecamp";
 
     /* this is how methods are defined in prototype of any built-in Object */
@@ -60,6 +69,7 @@ Or you may add that function to the `String.prototype` for using it directly on 
     });
 
     string.capitalizeFirstLetter(); // Returns "FreeCodecamp"
+```
 
 ### Source
 

@@ -6,7 +6,7 @@ title: Create a dummy file with a specific size
 
 The "dd" command can be used to create a file of a specific size. This is useful if you would like to test download speeds, or any other tests, and need a file of a specific size.
 
-```
+```bash
 dd if=/dev/zero of=file_name.txt bs=1024k count=10
 ```
 
@@ -16,6 +16,6 @@ bs is your byte size and count represent the number of blocks. An easy way to lo
 
 Here is an even simpler way to create a 1MB file:
 
-```
+```bash
 dd if=/dev/zero of=file_name.txt bs=1MB count=1
 ```

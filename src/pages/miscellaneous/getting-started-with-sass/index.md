@@ -51,36 +51,40 @@ Now that we have our project folder setup, we can use the Sass watch command to 
 
 The next step is to open up the project folder in your text editor of choice. Once we have our files opened and ready for editing, we can add in a very basic HTML page (for us to style) which will look like the following:
 
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-      <meta charset="UTF-8">
-      <title>Sass!</title>
-      <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-      <article>
-        <h1>Hello World</h1>
-        <p class="cat-paragraph-1">Cat ipsum dolor sit amet, stand in front of the computer screen, so chase imaginary bugs has closed eyes but still sees you caticus cuteicus.</p>
-        <p class="cat-paragraph-2">Drink water out of the faucet chew on cable or if it fits, i sits roll on the floor purring your whiskers off.</p>
-      </article>
-    </body>
-    </html>
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sass!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <article>
+    <h1>Hello World</h1>
+    <p class="cat-paragraph-1">Cat ipsum dolor sit amet, stand in front of the computer screen, so chase imaginary bugs has closed eyes but still sees you caticus cuteicus.</p>
+    <p class="cat-paragraph-2">Drink water out of the faucet chew on cable or if it fits, i sits roll on the floor purring your whiskers off.</p>
+  </article>
+</body>
+</html>
+```
 
 After setting up the HTML we can open up our `style.scss` file and begin styling in Sass. In the sample code below, you will probably notice how some the style selectors are nested within the article selector; something unique to Sass. Don't fret, the syntax will be explained in Part 2\. For now we just want to acquire an understanding of how Sass works in its simplest form.
 
-    article {
-      h2 {
-        font-family: Arial;
-        color: blue;
-      }
-      .cat-paragraph-1 {
-        color: red;
-      }
-      .cat-paragraph-2 {
-        color: green;
-      }
-    }
+```css
+article {
+  h2 {
+    font-family: Arial;
+    color: blue;
+  }
+  .cat-paragraph-1 {
+    color: red;
+  }
+  .cat-paragraph-2 {
+    color: green;
+  }
+}
+```
 
 Once that code has been typed and saved into the `style.scss` file, the watch task we punched into the command line will have detected a change in the file, compiled our Sass to CSS, and output a new file titled `style.css`. You may also see a file called `style.css.map` in your project folder that has magically appeared as well. This file is called a sourcemap and is of great use when debugging Sass, but for now we'll just leave it be.
 

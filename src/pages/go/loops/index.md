@@ -32,7 +32,7 @@ func main() {
 
 ```
 Running the above program produces an output similar to the following output -
-```    
+```shell
 $ go run for.go
 The sum of first 10 natural numbers is 55
 ```

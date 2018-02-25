@@ -14,18 +14,18 @@ more details.
   focus on prediction accuracy
 - **Supervised Learning** - Using historical data to predict the future. Example: Using historical data of prices at which houses were sold to predict the price in which your house will be sold. Regression and Classification come under supervised learning.
 - **Unsupervised Learning** - Finding patterns in unlabelled data. Example: Grouping customers by purchasing behaviour. Clustering comes under unsupervised learning.
-- **Regression** - A machine learning technique used to predict continous values. Linear Regression is one of the most popular regression algorithm.  
+- **Regression** - A machine learning technique used to predict continous values. Linear Regression is one of the most popular regression algorithm.
 - **Classification** - A machine learning technique used to predict discrete values. Logistic Regression is one of the most popular classification algorithm.
-```
-f: x -> y  
+```text
+f: x -> y
 
 Here 'f' is a function that takes 'x' as input and produces 'y' as output.
 
-If the output value 'y' is a real number / continous value then the function 
-is a regression technique.  
+If the output value 'y' is a real number / continous value then the function
+is a regression technique.
 
 If the output value 'y' is a discrete / categorical value then the function is a classification technique.
-```  
+```
 - **Clustering** - Grouping of unlabelled data. Identifying patterns using statistics.
 
 ### More Information:

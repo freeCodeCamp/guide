@@ -7,6 +7,8 @@ With responsive design, there is no need to design a mobile version of your webs
 
 You can add Bootstrap to any app just by including it with
 
+```html
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+```
 
 at the top of your HTML.

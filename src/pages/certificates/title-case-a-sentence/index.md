@@ -43,6 +43,7 @@ We have to return a sentence with title case. This means that the first letter w
 
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
 
+```js
     String.prototype.replaceAt = function(index, character) {
         return this.substr(0, index) + character + this.substr(index+character.length);
     };
@@ -55,6 +56,7 @@ We have to return a sentence with title case. This means that the first letter w
         }
         return updatedTitle.join(' ');
     }
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLjU/8' target='_blank' rel='nofollow'>Run Code</a>
 
@@ -73,6 +75,7 @@ Split the string by white spaces, and create a variable to track the updated tit
 
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution:
 
+```js
     function titleCase(str) {
       var convertToArray = str.toLowerCase().split(" ");
       var result = convertToArray.map(function(val){
@@ -82,6 +85,7 @@ Split the string by white spaces, and create a variable to track the updated tit
     }
 
     titleCase("I'm a little tea pot");
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLjU/9' target='_blank' rel='nofollow'>Run Code</a>
 
@@ -95,18 +99,20 @@ We are making entire string lowercase and then converting it into array. Then we
 
 ## ![:rotating_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:") Advanced Code Solution:
 
+```js
     function titleCase(str) {
       return str.toLowerCase().replace(/(^|\s)\S/g, (L) => L.toUpperCase());
     }
+```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLjU/14' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
-The solution works by first lowercasing all the characters in the string and then only uppercasing the first character of each word.  
-- Lowercase the whole string using `str.toLowerCase()`.  
-- Replace every word' first character to uppercase using `.replace`.  
-- Search for character at the beginning of each word i.e. matching any character following a `space` or matching the first character of the whole string, by using the following pattern.  
+The solution works by first lowercasing all the characters in the string and then only uppercasing the first character of each word.
+- Lowercase the whole string using `str.toLowerCase()`.
+- Replace every word' first character to uppercase using `.replace`.
+- Search for character at the beginning of each word i.e. matching any character following a `space` or matching the first character of the whole string, by using the following pattern.
 - Regex explanation:
 
 *   Find all non-whitespace characters `(\S`)
@@ -114,8 +120,8 @@ The solution works by first lowercasing all the characters in the string and the
 *   Or after any whitespace character `(\s)`
     *   The `g` modifier searches for other such word pattern in the whole string and replaces them.
 
-    *   This solution works with national symbols and accented letters as illustrated by following examples  
-        `international characters:` 'бабушка курит трубку' // -> 'Бабушка Курит Трубку'  
+    *   This solution works with national symbols and accented letters as illustrated by following examples
+        `international characters:` 'бабушка курит трубку' // -> 'Бабушка Курит Трубку'
         `accented characters:` 'località àtilacol' // -> 'Località Àtilacol'
 
 #### Relevant Links

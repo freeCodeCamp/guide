@@ -11,8 +11,10 @@ Sign up for <a href='https://signup.heroku.com/' target='_blank' rel='nofollow'>
 
 To start your DB on your own system execute the following command:
 
-    # Create a directory named 'data' if it doesn't exist
-    $ mongod --port 27017 --dbpath=./data
+```shell
+# Create a directory named 'data' if it doesn't exist
+$ mongod --port 27017 --dbpath=./data
+```
 
 Now your Db is running at-
 
@@ -42,31 +44,33 @@ To work with the database, First you need to create a connection. In this sectio
 
 Basic Code for connecting to MongoDB
 
-    //lets require/import the mongodb native drivers.
-    var mongodb = require('mongodb');
+```js
+//lets require/import the mongodb native drivers.
+var mongodb = require('mongodb');
 
-    //We need to work with "MongoClient" interface in order to connect to a mongodb server.
-    var MongoClient = mongodb.MongoClient;
+//We need to work with "MongoClient" interface in order to connect to a mongodb server.
+var MongoClient = mongodb.MongoClient;
 
-    // Connection URL. This is where your mongodb server is running.
+// Connection URL. This is where your mongodb server is running.
 
-    //(Focus on This Variable)
-    var url = 'mongodb://localhost:27017/my_database_name';      
-    //(Focus on This Variable)
+//(Focus on This Variable)
+var url = 'mongodb://localhost:27017/my_database_name';
+//(Focus on This Variable)
 
-    // Use connect method to connect to the Server
-      MongoClient.connect(url, function (err, db) {
-      if (err) {
-        console.log('Unable to connect to the mongoDB server. Error:', err);
-      } else {
-        console.log('Connection established to', url);
+// Use connect method to connect to the Server
+  MongoClient.connect(url, function (err, db) {
+  if (err) {
+    console.log('Unable to connect to the mongoDB server. Error:', err);
+  } else {
+    console.log('Connection established to', url);
 
-        // do some work here with the database.
+    // do some work here with the database.
 
-        //Close connection
-        db.close();
-      }
-    });
+    //Close connection
+    db.close();
+  }
+});
+```
 
 For more examples to work with MongoDB you can refer this <a href='http://blog.modulus.io/mongodb-tutorial' target='_blank' rel='nofollow'>blog</a>
 

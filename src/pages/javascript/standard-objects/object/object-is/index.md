@@ -32,13 +32,13 @@ A [Boolean](https://guide.freecodecamp.org/javascript/booleans) indicating wheth
 * String of the same length and same characters
 * Same object
 * Both numbers and:
-  * Both ```+0``` or both ```-0``` 
+  * Both ```+0``` or both ```-0```
   * Both ```NaN```
   * or both a number that is not zero and not ```NaN```
 
 ## Examples
 
- ```
+```js
 
 Object.is('string', 'string'); // true
 Object.is(undefined, undefined); // true
@@ -46,7 +46,7 @@ Object.is(null, null); // true
 
 Object.is('string, 'word'); // false
 Object.is(true, false); // false
-Object.is([], []); //false  
+Object.is([], []); //false
 
 var obj = {name: Jane};
 Object.is(obj, obj); // true
@@ -56,7 +56,7 @@ Object.is(NaN, NaN); // true
 Object.is(+0, -0); // false
 Object.is(-0, -0); // true
 
- ```
+```
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 

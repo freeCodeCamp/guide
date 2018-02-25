@@ -7,7 +7,7 @@ title: Split
 `String.Split` method can parse a string: As input, Split takes an characters that indicate which characters is the separator generating an array of the sub strings.
 
 ## Example
-```
+```csharp
 string myText = "I like pizza";
 
 // Split the string by ' '(space) character.
@@ -25,7 +25,7 @@ foreach(string x in splitResoult)
 ```
 
 ## Output:
-```
+```text
 > I
 > like
 > pizza

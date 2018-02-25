@@ -7,15 +7,19 @@ But; we cannot also be ignorant of the fact that there are two major flavors of 
 
 The following is a valid `print` statement in Python 2, but would not work on Python 3 -
 
-    print "Hello World"
+```python
+print "Hello World"
+```
 
 In Python 3, this would throw an error somewhat like this:
 
-    >>> print "hello"
-      File "<stdin>", line 1
-        print "hello"
-                    ^
-    SyntaxError: Missing parentheses in call to 'print'
+```python
+>>> print "hello"
+  File "<stdin>", line 1
+    print "hello"
+                ^
+SyntaxError: Missing parentheses in call to 'print'
+```
 
 We won't be diverted in our discussion any further trying to document all these differences - but <a href='http://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html' target='_blank' rel='nofollow'>this</a> might of interest to you, if you are into it.
 
