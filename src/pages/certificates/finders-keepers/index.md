@@ -29,7 +29,7 @@ If no element satisfy the function then you must return **undefined**
 
 ## Spoiler Alert!
 
-![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](//discourse-user-assets.s3.amazonaws.com/original/2X/2/2d6c412a50797771301e7ceabd554cef4edcd74d.gif)
+![warning sign](//discourse-user-assets.s3.amazonaws.com/original/2X/2/2d6c412a50797771301e7ceabd554cef4edcd74d.gif)
 
 **Solution ahead!**
 
@@ -59,7 +59,7 @@ If no element satisfy the function then you must return **undefined**
     // test here
     findElement([1, 2, 3, 4], function(num){ return num % 2 === 0; });
 
-![:rocket:</a> <a href='https://repl.it/CLn6/0' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLn6/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -83,7 +83,7 @@ If no element satisfy the function then you must return **undefined**
     // test here
     findElement([1, 2, 3, 4], function(num){ return num % 2 === 0; });
 
-![:rocket:</a> <a href='https://repl.it/CLn7/0' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLn7/0' target='_blank' rel='nofollow'>Run Code</a>
 
 #### Relevant Links
 
