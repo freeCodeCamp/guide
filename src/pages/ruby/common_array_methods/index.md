@@ -182,5 +182,4 @@ end
 ```
 
 ## More Information
-
-There are plenty more array methods, you can read more about them [in the official documentation](https://ruby-doc.org/core-2.4.2/Array.html/)
+* [Ruby Array docs](https://ruby-doc.org/core-2.4.2/Array.html)
