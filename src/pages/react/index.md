@@ -1,7 +1,17 @@
 ---
-title: React from Scratch
+title: React
 ---
 # React
+
+React is a JavaScript library for building user interfaces.
+
+React is declarative: React uses a declarative paradigm that makes it easier to reason about your application.
+
+React is efficient: React computes the minimal set of changes necessary to keep your DOM up-to-date. 
+
+And React is flexible: React works with the libraries and frameworks that you already know.
+
+## React from Scratch
 
 Would you like to get started learning the basics of react without getting bogged down creating a development environment?
 Chances are that if you are new to web development that setting up a development environment can leave you feeling a little intimidated when you are just trying to learn React or just learn about React for the first time.
@@ -158,9 +168,67 @@ As an alternative to JSX, you can use ES6 and Javascript's compiler like Babel. 
 
 For more information head to <a href='https://reactjs.org/' target='_blank' rel='nofollow'>https://reactjs.org/</a>
 
-### Tutorials
-<a href='https://egghead.io/browse/frameworks/react' target='_blank' rel='nofollow'>Egghead.io React</a>
+## Advantages of React
 
-### People to Follow
-* <a href='https://twitter.com/dan_abramov' target='_blank' rel='nofollow'>Dan Abramov Twitter</a>
+Some reasons to use React are:
 
+1. Fast. Apps made in React can handle complex updates and still feel quick and responsive.
+2. Modular. Instead of writing large, dense files of code, you can write many smaller, reusable files. React's modularity can be a beautiful solution to JavaScript's [maintainability problems](https://en.wikipedia.org/wiki/Spaghetti_code).
+3. Scalable. Large programs that display a lot of changing data are where React performs best.
+4. Flexible. You can use React for interesting projects that have nothing to do with making a web app. People are still figuring out React's potential. [There's room to explore](https://medium.mybridge.co/22-amazing-open-source-react-projects-cb8230ec719f).
+
+### Virtual DOM
+React's magic comes from it's interpretation of the DOM and it's strategy for creating UIs.
+
+React uses the Virtual DOM to render an HTML tree virtually first, and then, every time a state changes and we get a new HTML tree that needs to be taken to the browser’s DOM, instead of writing the whole new tree React will only write the difference between the new tree and the previous tree (since React has both trees in memory). This process is known as Tree Reconciliation.
+
+### Reconciliation
+
+React has a smart diffing algorithm that it uses to only regenerate in its DOM node what actually needs to be regenerated while it keeps everything else as is. This diffing process is possible because of React’s virtual DOM.
+
+Using the virtual DOM, React keeps the last DOM version in memory and when it has a new DOM version to take to the browser, that new DOM version will also be in memory, so React can compute the difference between the new and the old versions.
+
+React will then instruct the browser to update only the computed diff and not the whole DOM node. No matter how many times we regenerate our interface, React will take to the browser only the new “partial” updates.
+
+For more information head to [https://reactjs.org/](https://reactjs.org/)
+
+Why learn React?
+
+1.	React involves Composition that is lots of components wrapping up the functionalities into an encapsulated container.
+Many popular websites use React implementing the MVC architectural pattern. Facebook (Partially), Instagram (Completely), Khan Academy (Partially), Codecademy (Partially), New York Times (Partially), Yahoo Mail (Completely), Dropbox's new photo and video gallery app Carousel (Completely) are the popular websites known to be using React.
+How these large applications are build using React? The simple answer is by building small applications or components.
+Example
+
+        ``` react
+        var component2  = function() {
+          return (
+              <div></div>
+             )
+        }
+        var component3  = function() {
+          return (
+              <div></div>
+             )
+        }
+        var component1  = function() {
+          return (
+              <div>
+            <component2/>
+            <component3/>
+            </div>
+             )
+        }
+        <component1/>
+        ```
+        
+
+2.	React is Declarative for most part in which we are  concerned more with What to do rather than How to do a specific task.  Declarative programming is a programming paradigm that expresses the logic of a computation without describing its control flow.
+Declarative programming  comes with  certain advantages such as reduced side effects(occurs when we modify any state or mutating something or making an API request), minimizing mutability(as lot of is abstracted), enhanced readability, lesser bugs.
+
+3.	Unidirectional dataflow. UI in react is actually the function of the state that means as the state updates it updates the UI as well. So our UI progresses as the state changes.
+
+### More Information:
+
+- <a href='https://twitter.com/dan_abramov' target='_blank' rel='nofollow'>Dan Abramov's Twitter</a>
+- Tutorials at <a href='https://egghead.io/browse/frameworks/react' target='_blank' rel='nofollow'>Egghead.io React</a>
+- [https://reactjs.org/](https://reactjs.org/)

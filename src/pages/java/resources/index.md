@@ -33,6 +33,8 @@ Java is trademarked and licensed by Oracle. Most of the following are un-officia
 *   <a href='https://projecteuler.net/' target='_blank' rel='nofollow'>Project Euler</a>
 *   <a href='http://practiceit.cs.washington.edu/' target='_blank' rel='nofollow'>Practice It! - Java Challenges</a>
 *   <a href='https://www.codewars.com/?language=java' target='_blank' rel='nofollow'>Codewars - Java Katas</a>
+*   <a href='https://www.hackerrank.com/domains/java/java-introduction'>HackerRank Java Challenges</a>
+*   <a href='https://leetcode.com/' target='_blank' rel='nofollow'>LeetCode</a>
 *   <a href='http://www.codeabbey.com/' target='_blank' rel='nofollow'>CodeAbbey</a>
 
 ## Community

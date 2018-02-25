@@ -1,9 +1,10 @@
 ---
 title: Chrome Firefox Development Tools
 ---
+
 ## Chrome Firefox Development Tools
 
-Browser development tools allow you to debug and temporarily modify your page in your browser.  
+Chrome and Firefox Developer tools assist web developers in analyzing the HTML, CSS and Javascript on a web page. They are useful for debugging, optimizing code, inspecting elements and much more.
 
 **Features:**
 * **Page Inspector:**  View and edit page content and layout.
@@ -13,19 +14,13 @@ Browser development tools allow you to debug and temporarily modify your page in
 * **Performance Tools:**  Analyze computer resources used by the site
 
 ### Accessing the development tools
-The developer tools can be accessed via the following keyboard shortcuts
 
-#### Keyboard shortcuts
+1. In the menu bar at the top of the screen select View > Developer > Developer Tools. The tools will appear on the bottom, side, or as a pop-out window.
+2. On a web page right click on an element. When the menu appears select ‘Inspect’.
 
-| Browser | Windows | Mac |
-| --- | --- | ---|
-| Chrome | F12 | Option+Command+i |
-| Firefox | F12 | Option+Command+i |
 
-The development tools are accessed by right clicking anywhere on a webpage, and choosing the 'Inspect' (Chrome) or 'Inspect Element' (Firefox) option. They can also be accessed by the key command [cntrl + shift + I] or on chrome Menu> More Tools> Developer Tools in Firefox Menu> Web Developer> Toggle Tools.
 
 
 ### More Information:
-[Chrome DevTools](https://developer.chrome.com/devtools)
-
-[Firefox Developer Tools](https://developer.mozilla.org/en-US/docs/Tools)
+* [Chrome DevTools](https://developer.chrome.com/devtools)
+* [Firefox Developer Tools](https://developer.mozilla.org/en-US/docs/Tools)

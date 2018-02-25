@@ -1,33 +1,74 @@
 ---
 title: HTML Entities
 ---
-## HTML Entities
 
-When a developer needs a character to be displayed on a web page that is not on the keyboard or that is an HTML reserved character HTML entities can be used. An HTML entity is written where the symbol or character would normally be typed in the HTML, but encoded in a specific format.  This format consists of the ampersand(&) followed by either the entity name or number, and ended with a semicolon(;).  If the entity number is use it must also be preceded with a pound sign(#).
+# HTML Entities
 
+## Overview
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-HTML entities are used to replace reserved characters. If you use the less than (<) or more than (>) character in your text, your browser might confuse the character for part of an HTML tag.
+•	What are HTML Entities?
 
-Common HTML character entities include:
+HTML entities are characters that are used to replace reserved characters in HTML or for characters that do not appear on your keyboard. Some characters are reserved in HTML. If you use the less than(<) or greater than(>) signs in your text, the browser might mix them up with tags.
 
-    space             &nbsp;      &#160;
-<   less than         &lt;        &#60;
->   greater than      &gt;        &#62;
+•	What are they used for?
+  
+As mentioned about HTML entities are used in order to replace reserved characters that are reserved by HTML.
 
+• How do you use them?
 
-  &*entity_name*;<br>
-  &#*entity_number*;
+A character entity looks similar to this:
+```html
+&entity_name;
+```
+Or
+```html
+&#entitiy_number;
+```
+To display the less than sign(<) we must write it like so: &lt; or &#60;
+  
+### Reference Guide
 
-## Examples
+* https://dev.w3.org/html5/html-author/charref
+* By no means is this an exhaustive list but the above link will be able to give you more entities if the ones below do not work for your needs. Happy Coding :bowtie: 
 
-Character | HTML entity(name) | HTML entity(number)
-----------|-------------------|--------------------
-&amp; ampersand|\&amp;|\&#38;
-&copy; copyright|\&copy;|\&#169;
-&quot; double quote|\&quot;|\&#34;
-&apos; single quote|\&apos;|\&#39;
+```html
+Character	Entity Name	Entity Number	Description
+|       |       | &#32; | Space |
+|-------|-------|-------|-------|
+|   !   |       | &#33; | Exclamation mark |
+|-------|-------|-------|------------------|
+|   "   |	      | &#34; | Quotation mark |
+|-------|-------|-------|----------------|
+|   #   |	      | &#35; | Number sign |
+|-------|-------|-------|-------------|
+|   $   |       | &#36; | Dollar sign |
+|-------|-------|-------|-------------|
+|   %   |	      | &#37; | Percent sign |
+|-------|-------|-------|--------------|
+|   &   |	&amp;	| &#38; | Ampersand |
+|-------|-------|-------|-----------|
+|   '   |		    | &#39;	| Apostrophe |
+|-------|-------|-------|------------|
+|   (   |		    | &#40; | Opening/Left Parenthesis |
+|-------|-------|-------|--------------------------|
+|    )  |		    | &#41; | Closing/Right Parenthesis |
+|-------|-------|-------|---------------------------|
+|   *   |		    | &#42; | Asterisk |
+|-------|-------|-------|----------|
+|   +   |		    | &#43; | Plus sign|
+|-------|-------|-------|----------|
+|   ,   | 		  | &#44;	| Comma |
+|-------|-------|-------|-------|
+|   -   |		    | &#45;	| Hyphen |
+|-------|-------|-------|--------|
+|   .   |		    | &#46;	| Period |
+|-------|-------|-------|--------|
+|   /   | 	    | &#47;	| Slash |
+|-------|-------|-------|-------|
+```
 
 
 #### More Information:
-<a href="https://www.w3schools.com/html/html_entities.asp" target="_blank" rel="nofollow">W3Schools HTML Entities</a>
+* There are plenty of HTML entites references out there. One example is https://dev.w3.org/html5/html-author/charref
+* The other one is at <a href="https://www.w3schools.com/html/html_entities.asp" target="_blank" rel="nofollow">W3Schools HTML Entities</a>
+

@@ -46,16 +46,22 @@ std::string second_item = a.at(2); // gets "element"
 std::string second_item = a[2]; // gets "element"
 ```
 
-### Member Functions
-There are some functions which will change the size of vectors , these functions are known as <b>Modifiers</b>
-```
-push_back() //It will add the new element at the end of the vector.
-pop_back() //It will delete the new element from the end of the vector.
+### Some useful member functions
+The standard template library (STL) also provide different *methods* for you:
+
+```cpp
+std::vector.size(); // returns the size of the vector (the number of positions in the vector)
+std::vector.begin(); // returns an iterator which is a pointer to the beginning of the vector
+std::vector.end(); // returns an iterator which is a pointer to the end of the vector
+std::vector.empty(); // returns true if the vector is empty, otherwise returns false.
+std::vector.front(); // returns the first element of the vector.
+std::vector.back(); // returns the last element of the vector.
+std::vector.push_back(n); // inserts the element "n" to the end of the vector.
+std::vector.pop_back(n); // removes the last element of the vector
 ```
 
 ### Iterating Through a Vector
 There are different ways to iterate through a vector and access its contents. The following forms are equivalent, the first one involves using a range-based expression (since C++11), the second one uses iterators, and the last one is a index-based iteration
-
 
 ``` cpp
 #include <iostream>
@@ -81,3 +87,4 @@ for(std::vector<int>::size_type i = 0; i != myVector.size(); i++){
 }
 
 ```
+

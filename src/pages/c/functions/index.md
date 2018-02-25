@@ -24,7 +24,10 @@ int main(void) {
 }
 ```
 
-Notice that like `main`, `divides` has a similar format. That's because `main` is also a function- it's just special because C looks for it first. `divides` also comes before `main`. This is important because `main` calls `divides`. Calling a function means that its code is being used. Code must be compiled before it gets used, and C compiles line by line from the top, so in order for a function to be called, it must be written out before it is called like in this example. If `divides` came after `main`, it would fail because the compiler doesn't know that `divides` exists yet.
+Notice that like `main`, `divides` has a similar format. That's because `main` is also a function- it's just special because C looks for it first. `divides` also comes before `main`. This is important because `main` calls `divides`. Calling a function means that its code is being used. Code must be compiled before it gets used, and C compiles line by line from the top, so in order for a function to be called, it must be written out before it is called like in this example. If `divides` came after `main`, it would fail because the compiler doesn't know that `divides` exists yet. You may also use a function prototype before main to allow you to place `divides` after main. A function prototype is identical to the function with the same variables and return type, except they braces are omitted and replaced with a semicolon like so:
+```C
+int divides(int a, int b);
+```
 
 Also notice that `divides` and `main` are not sharing brackets and are not in each other's brackets. They are meant to be separate, even though one calls the other.
 

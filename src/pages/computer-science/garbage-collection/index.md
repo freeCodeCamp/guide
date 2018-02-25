@@ -31,6 +31,17 @@ The downside of garbage collection is that it has a negative impact on performan
  
 If an object has no references (is no longer reachable) then it is eligible for garbage collection. For example in the Java code below, the Thing object originally referenced by 'thing1' has its one and only reference redirected to another object on the heap - it is then unreachable and will have its memory unallocated by the garbage collector.
 
+```java
+class Useless {
+  public static void main (String[] args) {
+  Thing thing1 = new Thing();
+  Thing thing2 = new Thing();
+  thing2 = thing1; // direct thing2's reference towards thing1
+                   // no references access thing2
+} }
+```
+
+One example of garbage collection is ARC, short for automatic reference counting. This is used in Swift, for example. ARC boils down to keeping track of the references to all objects that are created. If the amount of references drops to 0, the object will be marked for deallocation.
+
 #### More Information:
- -<!-- Please add any articles you think might be helpful to read before writing the article -->
- +- https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/fundamentals - To know more about garbage Collection
+ * https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/fundamentals - To know more about garbage Collection
