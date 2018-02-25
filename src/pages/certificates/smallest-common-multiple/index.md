@@ -80,7 +80,7 @@ If you sort the array from greatest to smallest, then you can use the first two 
     // test here
     smallestCommons([1,5]);
 
-![:rocket:</a> <a href='https://repl.it/CLn2/0' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLn2/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -136,7 +136,7 @@ Note: If the array only has two elements, then the `for` loop never gets used an
     // test here
     smallestCommons([1,5]);
 
-![:rocket:</a> <a href='https://repl.it/CLn4/0' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLn4/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 

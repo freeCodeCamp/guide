@@ -59,7 +59,7 @@ Check equivalence of `Object` in `collection` with `Object` passed as second par
     // test here
     whatIsInAName([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }], { last: "Capulet" });
 
-![:rocket:</a> <a href='https://repl.it/CLmh/0' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLmh/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -92,7 +92,7 @@ Check equivalence of `Object` in `collection` with `Object` passed as second par
     // test here
     whatIsInAName([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }], { last: "Capulet" });
 
-![:rocket:</a> <a href='https://repl.it/CLmi/0' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLmi/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -129,7 +129,7 @@ Check equivalence of `Object` in `collection` with `Object` passed as second par
     // test here
     whatIsInAName([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }], { last: "Capulet" });
 
-![:rocket:</a> <a href='https://repl.it/CLmj/0' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLmj/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 

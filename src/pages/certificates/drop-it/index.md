@@ -57,7 +57,7 @@ If you still can't figure out how to solve it with shift, then try solving it wi
     // test here
     dropElements([1, 2, 3, 4], function(n) {return n >= 3;})
 
-![:rocket:</a> <a href='https://repl.it/CLna/0' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLna/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -79,7 +79,7 @@ If you still can't figure out how to solve it with shift, then try solving it wi
     // test here
     dropElements(<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>1, 2, 3, 4], function(n) {return n >= 3;});
 
-![:rocket:</a> <a href='https://repl.it/CLnc/0' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLnc/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -104,7 +104,7 @@ If you still can't figure out how to solve it with shift, then try solving it wi
     // test here
     dropElements([1, 2, 3, 4], function(n) {return n >= 3;});
 
-![:rocket:</a> <a href='https://repl.it/CLnf/0' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLnf/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation
 

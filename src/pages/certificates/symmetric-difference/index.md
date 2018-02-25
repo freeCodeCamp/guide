@@ -83,7 +83,7 @@ Something strange about the definition of symmetric difference is that if one id
         return args.reduce(symDiff);
     }
 
-![:rocket:</a> <a href='https://repl.it/C4II/0' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/C4II/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -136,7 +136,7 @@ Something strange about the definition of symmetric difference is that if one id
     // test here
     sym([1, 2, 3], [5, 2, 1, 4]);
 
-![:rocket:</a> <a href='https://repl.it/CLoc/0' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLoc/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -173,7 +173,7 @@ Something strange about the definition of symmetric difference is that if one id
     // test here
     sym([1, 2, 3], [5, 2, 1, 4]);
 
-![:rocket:</a> <a href='https://repl.it/CLod/0' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLod/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 

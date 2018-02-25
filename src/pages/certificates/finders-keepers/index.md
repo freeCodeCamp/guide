@@ -59,7 +59,7 @@ If no element satisfy the function then you must return **undefined**
     // test here
     findElement([1, 2, 3, 4], function(num){ return num % 2 === 0; });
 
-![:rocket:</a> <a href='https://repl.it/CLn6/0' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLn6/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -83,7 +83,7 @@ If no element satisfy the function then you must return **undefined**
     // test here
     findElement([1, 2, 3, 4], function(num){ return num % 2 === 0; });
 
-![:rocket:</a> <a href='https://repl.it/CLn7/0' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLn7/0' target='_blank' rel='nofollow'>Run Code</a>
 
 #### Relevant Links
 
