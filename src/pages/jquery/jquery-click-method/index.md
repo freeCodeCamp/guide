@@ -35,25 +35,25 @@ _here we are using the preventDefault method, it do exactly what it says, we sto
 
 <a href='https://jsfiddle.net/dy457gbh/' target='_blank' rel='nofollow'>jsFiddle</a>
 
-#### More two way to play with click method
-Here you can pass data to the handler:
-```javascript
-jqueryElement.click( [eventData ], handler )
-```
-* eventData: it can be **any** type 
+#### More ways to play with the click method
+
+The handler function can also accept additional data in the form of an object:
 
 ```javascript
-$("element").click({param1: "Hello", param2: "World"}, function(event){
-    alert(event.data.param1);
-    alert(event.data.param2);
+jqueryElement.click(usefulInfo, handler)
+```
+
+The data can be of any type.
+
+```javascript
+$("element").click({firstWord: "Hello", secondWord: "World"}, function(event){
+    alert(event.data.firstWord);
+    alert(event.data.secondWord);
 });
 ```
 
-And you can also trigger click event:
-```javascript
-$( "element" ).click();
-```
-Using the above example and adding `.click()`
+The click method with no handler function triggers a click event:
+
 ```javascript
 $("#alert").click(function(){
   alert("Hi! I'm an alert");
@@ -61,9 +61,10 @@ $("#alert").click(function(){
 
 $("#alert").click();
 ```
-Now even without click the button the click event will be triggered always when we enter or reload the page.
 
-Also I would prefer to use .on('click',...) over .click(...) because the former can use less memory and work for dynamically added elements.
+Whenever the page loads, the click event will trigger the assigned alert.
+
+Also you should prefer to use .on('click',...) over .click(...) because the former can use less memory and work for dynamically added elements.
 
 <a href='https://jsfiddle.net/gspk6gxt/' target='_blank' rel='nofollow'>jsFiddle</a>
 
