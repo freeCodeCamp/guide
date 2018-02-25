@@ -102,3 +102,43 @@ Developers are able to change the style of each individual row and/or cell by us
 ![Contextual Class Table](https://github.com/TroyB12/Pictures/blob/master/Table%20Contextual%20Classes.PNG)
 
 ---
+
+#### Accessible Bootstrap Tables
+In order to ensure that all users can understand the structure of an HTML table (even when users are utilizing a screen reader to access the table) the scope of the rows and columns must be added to the HTML structure. Adding the scope will allow the Table to meet the Web Content Accessibility Guidelines or [WCAG](https://www.w3.org/TR/WCAG20-TECHS/H63.html).
+
+##### Accessible Bootstrap Table Example
+- <code>scope="col"</code> is added to all the <code>th</code> columns. Then <code>scope="row"</code> is added to the corresponding start of each new row inside the <code>tbody</code> tag. This markup tells screen readers which columns go with which new header rows. This will minimize confusion for non-sighted users.
+```html
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Phone Number</th>
+      <th scope="col">Fax Number</th>
+      <th scope="col">City</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Jane Smith</th>
+      <td>555-555-555</td>
+      <td>555-555-555</td>
+      <td>Chicago</td>
+    </tr>
+    <tr>
+      <th scope="row">John Smith</th>
+      <td>555-555-555</td>
+      <td>555-555-555</td>
+      <td>Richmond</td>
+    </tr>
+    <tr>
+      <th scope="row">Rick Sanchez</th>
+      <td>555-555-555</td>
+      <td>555-555-555</td>
+      <td>Dimension C-137</td>
+    </tr>
+  </tbody>
+</table>
+```
+
+
