@@ -21,6 +21,7 @@ This property may be specified using one, two, three, or four values.
 - When four values are specified, the paddings apply to the top, right, bottom, and left in that order (clockwise).
 
 ```css
+/* em refers to the current font size of an element */
 /* Apply to all four sides */
 padding: 1em;
   

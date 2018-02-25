@@ -5,7 +5,7 @@ title: HTML Forms
 
 Basically, forms are used to collect data entered by a user, which are then sent to the server for further processing. They can be used for different kinds of user inputs, such as name, email etc. 
 
-Form contains control elements which are wrapped around ```<form></form>``` tags, like ```input```, which type can be:
+Form contains control elements which are wrapped around ```<form></form>``` tags, like ```input```, which can have types like:
 
 - ```text```
 - ```email```
@@ -13,6 +13,11 @@ Form contains control elements which are wrapped around ```<form></form>``` tags
 - ```checkbox```
 - ```radio```
 - ```submit```
+- ```range```
+- ```search```
+- ```date```
+- ```color```
+- ```datalist```
 
 Code example:
 ```html
@@ -24,7 +29,15 @@ Code example:
     <input type="radio" name="gender" value="male">Male<br>
     <input type="radio" name="gender" value="female">Female<br>
     <input type="radio" name="gender" value="other">Other
+    <input list="Options">
+    <datalist id="Options">
+      <option value="Option1">
+      <option value="Option2">
+      <option value="Option3">
+    </datalist> 
     <input type="submit" value="Submit">
+    <input type="color">
+    <input type="checkbox" name="correct" value="correct">Correct
 </form>
 ```
 You can [click here](https://www.xul.fr/javascript/form-objects.php) for a more complete list of input types.
@@ -36,7 +49,6 @@ Other elements that form can contain:
 - ```button``` - makes a clickable button that submits the form.
 - ```fieldset``` - groups containing form elements.
 
-
 SOME MORE INFORMATION ON HTML FORMS.
 
 HTML Forms are required, when you want to collect some data from the site visitor. For example, during user registration you would like to collect information such as name, email address, credit card, etc.
@@ -46,9 +58,9 @@ A form will take input from the site visitor and then will post it to a back-end
 There are various form elements available like text fields, textarea fields, drop-down menus, radio buttons, checkboxes, etc.
 
 The HTML <form> tag is used to create an HTML form and it has following syntax −
-    
+
+``` html    
     <form action = "Script URL" method = "GET|POST">
          form elements like input, textarea etc.
     </form>
-
-
+```

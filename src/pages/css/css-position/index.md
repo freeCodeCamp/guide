@@ -6,7 +6,7 @@ title: CSS Position
 The position property specifies the type of positioning method used for an element. It has 5 keyword values:
 
 ```css
-    .static         { position: static; }
+    .static         { position: static; } // default value
     .relative       { position: relative; }
     .sticky         { position: sticky; }
     .fixed          { position: fixed; }
