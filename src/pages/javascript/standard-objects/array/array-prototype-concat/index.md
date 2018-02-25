@@ -6,7 +6,15 @@ The 'concat' method returns a new array consisting of the elements of the array 
 
 You can pass multiple arguments to the 'concat' method. The arguments can be arrays, or data types like booleans, strings, and numbers.
 
-Concatenating two arrays:
+### Syntax
+
+```javascript
+const newArray = array.concat(value1, value2, value3...);
+```
+
+### Examples
+
+#### Concatenating two arrays
 ```javascript
 var cold = ['Blue', 'Green', 'Purple'];
 var warm = ['Red', 'Orange', 'Yellow'];
@@ -17,14 +25,16 @@ console.log(result);
 // results in ['Blue', 'Green', 'Purple', 'Red', 'Orange', 'Yellow'];
 ```
 
-Concatenating values to an array:
+#### Concatenating value to an array
+
 ```javascript
-var fruits = ['Orange', 'Apple', 'Strawberry'];
+const odd = [1, 3, 5, 7, 9];
+const even = [0, 2, 4, 6, 8];
 
-var result = cold.concat(5, 7, 9);
+const oddAndEvenAndTen = odd.concat(even, 10);
 
-console.log(result);
-// results in ['Orange', 'Apple', 'Strawberry', 5, 7, 9];
+console.log(oddAndEvenAndTen);
+// results in [1, 3, 5, 7, 9, 0, 2, 4, 6, 8, 10];
 ```
 
 #### More Information:

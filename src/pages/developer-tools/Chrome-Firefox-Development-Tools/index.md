@@ -1,15 +1,26 @@
 ---
 title: Chrome Firefox Development Tools
 ---
+
 ## Chrome Firefox Development Tools
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/developer-tools/chrome-firefox-development-tools/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Chrome and Firefox Developer tools assist web developers in analyzing the HTML, CSS and Javascript on a web page. They are useful for debugging, optimizing code, inspecting elements and much more.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+**Features:**
+* **Page Inspector:**  View and edit page content and layout.
+* **Web Console:**  See javascript console.log() messages and erros
+* **JavaScript Debugger:**  View and modify JavaScript running on a page
+* **Network Monitor:**  See network requests made when pages are loaded
+* **Performance Tools:**  Analyze computer resources used by the site
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### Accessing the development tools
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+1. In the menu bar at the top of the screen select View > Developer > Developer Tools. The tools will appear on the bottom, side, or as a pop-out window.
+2. On a web page right click on an element. When the menu appears select ‘Inspect’.
 
 
+
+
+### More Information:
+* [Chrome DevTools](https://developer.chrome.com/devtools)
+* [Firefox Developer Tools](https://developer.mozilla.org/en-US/docs/Tools)
