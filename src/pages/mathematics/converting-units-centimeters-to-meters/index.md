@@ -11,22 +11,32 @@ In the following formula the units are notated with brackets [ ] around them
 ```
 
 If you enter the value you have, let's say 50 centimeters, it will be calculated like this:
+
 ```
 50[cm] / 100 = 0.5[m]
 ```
 The result of the calculation returns a value of 0.5 meters, the amount of meters 50 centimeter is.
 
-### Coding 
-Of course, as a Free Code Camp guide, where would we be without a coding example!
-For this example we will use JavaScript syntax, but it's simple enough for everything else
+### Examples
+
+1. 1 cm = 0.01 m (<span class="fraction"><sup>1</sup>⁄<sub>100</sub></span>)
+2. 25 cm = 0.25 m (<span class="fraction"><sup>25</sup>⁄<sub>100</sub></span>)
+3. 200 cm = 2 m (<span class="fraction"><sup>200</sup>⁄<sub>100</sub></span>)
+
+### Coding
 
 ```js
-var lengthInCm = 300;
-var lengthInM;
-
 function convertCentimeterToMeter (cm) {
   return ( cm / 100 );
 }
 
+// Set some example measurements
+var lengthInCm = 300;
+var lengthInM;
+
 lengthInM = convertCentimeterToMeter(lengthInCm); // 3
 ```
+
+### More Information:
+
+- [Convert cm to m](https://www.convertunits.com/from/cm/to/m)
