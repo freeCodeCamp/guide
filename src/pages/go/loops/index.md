@@ -36,6 +36,7 @@ Running the above program produces an output similar to the following output -
 $ go run for.go
 The sum of first 10 natural numbers is 55
 ```
+
 You can use `continue` and `break` to adjust the loops flow
 ```go
   // this code prints any odd numbers up to 5
@@ -57,4 +58,17 @@ If you want to create an infinite loop just use `for { }`
     // Whill loop until a condition breaks the loop
     break // exit the loop
   }
+```
+
+## Replacement for while-loop
+To simulate while-loop of other languages, you can simply exclude the **init** and **post** statement:
+
+```go
+func main() {
+	num := 1
+	for num <= 1000 {
+		num *= 2
+	}
+	fmt.Println("The smallest power of 2 above 1000 is", num)
+}
 ```

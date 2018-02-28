@@ -25,12 +25,19 @@ Main categories are
 *  **Regression tests** (re-applying tests at later stages of development to ensure they still work)
 
 #### Black Box
-These test do not look inside the system under test, but treat it as 'closed' in the same way that the end user will experience it. 
+These test do not look inside the system under test, but treat it as 'closed' in the same way that the end user will experience it. Black Box testing is useful if the tested system's internal structure can't be observed by the tester. Black box testing focuses on higher level testing of the system and it is mainly used by independent software testers or tester teams rather than developers. 
+
+There are three main techniques:
+* **Equivalence partitioning** (the tested input values are representative of larger input datasets)
+* **Boundary Value Analysis** (the system is tested with chosen inputs where behaviour and therefore output should change)
+* **Cause-Effect Graphing** (tests are designed from a visualization of the input-output relations)
 
 ### Other Resources
 <a href='https://guide.freecodecamp.org/agile/test-driven-development' target='_blank' rel='nofollow'>Test Driven Development (freeCodeCamp Guide)</a>
 
 <a href='https://guide.freecodecamp.org/software-engineering/unit-tests/' target='_blank' rel='nofollow'>Unit tests (freeCodeCamp Guide)</a>
+
+[Software Testing Fundamentals](http://softwaretestingfundamentals.com/)
 
 
 

@@ -3,13 +3,26 @@ title: Required
 ---
 ## Required
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/attributes/required/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The HTML required attribute is used in an input element to make the input field in a form required to submit the form.
+If the user does not fill in the input field the form will not submit and it will give a message asking the user to fill out the field. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+For example: 
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML Required Attribute</title>
+  </head>
+  <body>
+    <form action="/">
+      Text Field: <input type="text" name="textfield" required>
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Simply add `required` to an input element 
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input" target="_blank">MDN article on the input element</a>
