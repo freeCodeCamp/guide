@@ -1,6 +1,6 @@
 ---
 title: Area of a Triangle
----
+-----
 # Area of a Triangle
 
 ## Formula
