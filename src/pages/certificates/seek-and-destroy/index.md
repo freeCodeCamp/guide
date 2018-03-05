@@ -32,7 +32,7 @@ To convert `arguments` into an array use this code `var args = Array.prototype.s
 
 ## Spoiler Alert!
 
-![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](//discourse-user-assets.s3.amazonaws.com/original/2X/2/2d6c412a50797771301e7ceabd554cef4edcd74d.gif)
+![warning sign](//discourse-user-assets.s3.amazonaws.com/original/2X/2/2d6c412a50797771301e7ceabd554cef4edcd74d.gif)
 
 **Solution ahead!**
 
@@ -51,7 +51,7 @@ To convert `arguments` into an array use this code `var args = Array.prototype.s
       return arr.filter(Boolean);
     }
 
-![:rocket:</a> <a href='https://repl.it/CLjU/95' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLjU/95' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 

@@ -1,6 +1,7 @@
 ---
-title: Converting Units Minutes to Hours
+title: Converting Units Minutes to Hours		
 ---
+
 ## Converting Units Minutes to Hours
 
 __An hour is a unit of time equal to 60 minutes__
@@ -37,4 +38,3 @@ Solution-
 
 ### More Information:
 More information can be found [here](https://www.wikihow.com/Convert-Minutes-to-Hours)
-
