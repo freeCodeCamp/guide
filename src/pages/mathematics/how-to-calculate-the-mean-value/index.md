@@ -3,13 +3,14 @@ title: How to Calculate the Mean Value
 ---
 ## How to Calculate the Mean Value
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/how-to-calculate-the-mean-value/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+A Mean is nothing but average of numbers.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+#### Examples
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+1. What is the mean of 10 , 2 , 3?
+A. mean = (10 + 2 + 3) / 3,
+        = 15 / 3,
+        = 5.
+   So , the mean of 10 , 2 , 3 is  5.
 
 

@@ -1,11 +1,29 @@
 ---
 title: Bootstrap Icons
 ---
+
 ## Bootstrap Icons
+
+The Bootstrap framework provides you Glyphicons for icon.
+
+### How to use
+
+To use Bootstrap icon create a span tag with base class `glyphicon` and  individual icon class.
+Use it only on elements that contain no text content and have no child elements.
+
+**Code Example:**
+
+`<span class="glyphicon glyphicon-search" aria-hidden="true"></span>`
+
+<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+
+`<span class="glyphicon glyphicon-cog"></span>`
+
+<span class="glyphicon glyphicon-cog"></span>
 
 The Bootstrap framework provides you with over 250 icons called glyphs. They come in font format from the Glyphicon Halflings set.
 
-#### How To Use:
+### How To Use
 
 To use bootstrap icons you simply create `<span>` tag and apply the applicable CSS class for the icon. A code example has been provided below.
 
@@ -15,7 +33,8 @@ To use bootstrap icons you simply create `<span>` tag and apply the applicable C
 
 <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
 
-#### Bootstrap Glyphicon Class List:
+### Bootstrap Glyphicon Class List
+
 This is an example of the CSS classes that bootstrap provides for glyphicons. More of them is avalible <a href='https://getbootstrap.com/docs/3.3/components/#glyphicons' target='_blank' rel='nofollow'>here</a>
 
 `.glyphicon glyphicon-plus` This is bootstrap's plus/add icon.
@@ -28,7 +47,19 @@ This is an example of the CSS classes that bootstrap provides for glyphicons. Mo
 
 _Note: Do not include the dot in the HTML Class Attribute, referring to the classes with a dot is only used when adjusting the classes in CSS._
 
-#### More Information:
-<a href='https://getbootstrap.com/docs/3.3/components/#glyphicons' target='_blank' rel='nofollow'>Bootstrap Glyphicons</a>
+### Bootstrap Icon in Buttons
 
+```html
+  <button type="button" class="btn btn-default" aria-label="Left Align">
+    <span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>
+  </button>
+```
+<button type="button" class="btn btn-default" aria-label="Left Align">
+  <span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>
+</button>
 
+_Note: Bootstrap's Glyphicons icon is not avalable on bootstrap V4_
+
+### More Information:
+
+- [Bootstrap Glyphicons Icons Doc](https://getbootstrap.com/docs/3.3/components/#glyphicons)

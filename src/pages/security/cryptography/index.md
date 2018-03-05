@@ -8,6 +8,8 @@ The basic objective of cryptography is to enable two people to communicate throu
 
 Cryptography started being used by the Romans in order to make messages in battle unreadable by the enemy if decyphered. 
 
+Cryptography prior to the modern age was effectively synonymous with encryption, the conversion of information from a readable state to apparent nonsense. 
+
 Modern cryptography is used in data so that only one party or only authorised partys have the ability to access the information. 
 
 Encryption over the years has become more advanced.
@@ -44,6 +46,6 @@ Some techniques are: RSA, Diffie-Hellman, DSS(Digital Signature Standard), ElGam
 
 #### More Information:
 
-- <a href='https://www.crcpress.com/Cryptography-Theory-and-Practice-Third-Edition/Stinson/p/book/9781584885085' target='_blank' rel='nofollow'>Cryptography: Theory and Practice by Douglas Stinson</a>
-- <a href='http://searchsecurity.techtarget.com/definition/encryption' target='_blank' rel='nofollow'>TechTarget on Encryption</a>
-- <a href='https://www.tutorialspoint.com/cryptography/index.htm' target='_blank' rel='nofollow'>Cryptography Guide</a>
+- [Cryptography: Theory and Practice by Douglas Stinson](https://www.crcpress.com/Cryptography-Theory-and-Practice-Third-Edition/Stinson/p/book/9781584885085)
+- [TechTarget on Encryption](http://searchsecurity.techtarget.com/definition/encryption)
+- [Cryptography Guide](https://www.tutorialspoint.com/cryptography/index.htm)
