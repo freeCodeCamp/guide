@@ -71,7 +71,7 @@ This problem is hard if you have to create your own code to check for primes, so
     // test here
     sumPrimes(10);
 
-![:rocket:</a> <a href='https://repl.it/CLnZ/0' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLnZ/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 

@@ -22,6 +22,8 @@ Cases:
 
 * [**Patriot Missile Case**](http://seeri.etsu.edu/SECodeCases/ethicsC/PatriotMissile.htm) – This piece examines the importance of configuration management and effective design as they relate to the Patriot Missile Disaster.
 
---
+* [**Therac-25**] (http://users.csc.calpoly.edu/~jdalbey/SWE/Papers/THERAC25.html) – This case highlights the danger of software-based controls on life-threatening systems.
+
+
 #### More Information
 Additional information is available through the [Software Engineering Ethics Research Institute](http://seeri.etsu.edu)

@@ -27,6 +27,22 @@ An ordered list would display as:
 2. Item 2
 3. Item 3
 
+Lists can also be easily nested within each other, for example:
+
+<ol>
+  <li>Blue</li>
+    <ul>
+      <li>Indigo</li>
+      <li>Aqua</li>
+    </ul>
+  <li>Red</li>
+    <ul>
+      <li>Burgundy</li>
+      <li>Maroon</li>
+    </ul>
+  </ol>
+
+
 ### Different markers 
 You can use `<ol type="">` or `<li type="">` to specify the kind of marker to use in the list
 
@@ -45,6 +61,7 @@ a. Item 1
 b. Item 2 
 
 c. Item 3
+
 
 
 #### Description lists

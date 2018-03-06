@@ -46,7 +46,7 @@ For example: `slasher(<a href='http://forum.freecodecamp.com/t/javascript-array-
     }
     slasher(<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>1, 2, 3], 2);
 
-![:rocket:</a> <a href='https://repl.it/CLjU/28' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLjU/28' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
