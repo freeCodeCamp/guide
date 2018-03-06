@@ -1,12 +1,10 @@
-const httpsRE = /https?\:\/\//;
 const isAFileRE = /(\.md|\.jsx?|\.html?)$/;
 const isAStubRE = /This\sis\sa\sstub.+?Help\sour\scommunity\sexpand\sit/;
-const markdownLinkRE = /\!?\[.*?\]\(.+?\)/g;
-const metaTitleRE = /^---\r?\ntitle:([^\n]*)\n---$/m;
+const metaTitleRE = /^---\s*title:([^\n]*)\n---$/m;
+const markdownLinkRE = /([^!])\[([^\n]*)\]\((https?\:\/\/[^\n]*)\)/g;
 const shouldBeIgnoredRE = /^(\_|\.)/;
 
 module.exports = {
-  httpsRE,
   isAFileRE,
   isAStubRE,
   markdownLinkRE,

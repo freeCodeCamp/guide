@@ -26,6 +26,7 @@ Here is a simple HTML template which includes the latest compiled and minified C
       </body>
     </html>
 ```
+ <kbd><a href='http://jsbin.com/gebolikiru/edit?html,output' target='_blank' rel='nofollow'>![](//discourse-user-assets.s3.amazonaws.com/original/2X/f/f9c81b35877c3e0551ca461c75b78aac80c6f48a.png) **JSBin Demo**</a></kbd>
 
 This example makes use of a CDN that loads the default settings. If you'd like to customize the grid layout, change the colors or add and remove components you can do so on the Foundation [download](http://foundation.zurb.com/sites/download/) page.
 

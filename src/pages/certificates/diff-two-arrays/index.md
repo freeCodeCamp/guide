@@ -62,8 +62,8 @@ The best way to go about the callback function is to check if the number from th
     }
 
     diffArray([1, 2, 3, 5], [1, 2, 3, 4, 5]);
-```
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href="https://repl.it/CLme/0">Run Code</a>
+
+<a href='https://repl.it/CLme/0' target='_blank' rel='nofollow'><kbd>![](//discourse-user-assets.s3.amazonaws.com/original/2X/6/6d6bf8d908c0577924495e89482c7163190c3856.png) **Run Code** ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:")</kbd></a>
 
 ### Code Explanation:
 
@@ -85,7 +85,8 @@ Read the comments in the code.
 
     diffArray([1, 2, 3, 5], [1, 2, 3, 4, 5]);
 ```
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href="https://repl.it/CNYb/0">Run Code</a>
+
+<a href='https://repl.it/CNYb/0' target='_blank' rel='nofollow'><kbd>![](//discourse-user-assets.s3.amazonaws.com/original/2X/6/6d6bf8d908c0577924495e89482c7163190c3856.png) **Run Code** ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:")</kbd></a>
 
 ### Code Explanation:
 
@@ -109,7 +110,7 @@ Explain solution here and add any relevant links
 
     diffArray([1, 2, 3, 5], [1, 2, 3, 4, 5]);
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href="https://repl.it/CNYU/0">Run Code</a>
+<a href='https://repl.it/CNYU/0' target='_blank' rel='nofollow'><kbd>![](//discourse-user-assets.s3.amazonaws.com/original/2X/6/6d6bf8d908c0577924495e89482c7163190c3856.png) **Run Code** ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:")</kbd></a>
 
 ### Code Explanation:
 
