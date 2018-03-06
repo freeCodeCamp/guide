@@ -34,9 +34,16 @@ HSLA color values are an extension of HSL color values with an alpha channel - w
 An HSL color value is specified with: hsl(hue, saturation, lightness).
 An HSLA color value is similar, with the alpha value in last position: hsla(hue, saturation, lightness, alpha)
     
+### Hexcodes
+Hexcode, short for hexadecimal code, is a way to express a color value to your computer. It is named this way because 16 unique symbols can be used as values. In this case, the numbers 0 to 9 and letters a to f are used.
 
-### Hex Colors
-Hexadecimal colors are a combination of 3 or 6 hexadecimal (base 16) values.
+Hex codes are expressed in this format: #000000, which would be the color black in this instance. Six characters are used in each hexcode, using any of the 16 characters mentioned previously. These six characters are divided into three pairs of two.
+
+These three pairs each express a value for the amount of red, green and blue in a particular color. Taking the hexcode color #AA11BB, AA is the amount of red, 11 the amount of green, and BB the amount of blue. 0 is the lowest value of a color while f is the highest value.
+
+Hex codes are case insensitive, meaning that #FFFFFF and #ffffff would be the same color: white.
+
+Additionally, there are 16,777,216 possible color combinations using hexcode.
 
 ### Opacity
 
@@ -53,6 +60,7 @@ The opacity property value must be a number between 0.0 (fully transparent) and 
   </body>
 </html>
 ```
+
 ```css
 body {
   background-color: green;
@@ -71,18 +79,23 @@ p {
 h2 {
  color: #FA8072; //salmon 
 }
+```
+
+You can also add an alpha value, or transparency to colors. Transparency allows text to be overlaid on an image and stil have the image partially viewable trhough the text, or can be used to change the shade of the colour if no other elements are in front or behind the text. Use `rgba()` or `hsla()` and fill in your color values. The alpha value goes last and is a percent converted to a decimal. (For example, 20% is 0.2, 75% is 0.75, etc.)
 
 ```css
 body {
   background-color: hsl(184, 87%, 94%); // bright blue
 }
-
 ```
+
 Above shows paragraphs styled bright orange and 20% transparent, h2 elements a salmon pink, and the body's background bright blue.
 
-To get custom colors to use in CSS, you might find a color picker helpful. Some text editors have built-in color pickers, like Visual Studio Code. If you search "color picker" on Google or DuckDuckGo, you will get a color picker that you can use. Google Chrome and Firefox also have color picker add-ons that you can install. Adobe Color CC not only helps you pick a color, but will also help you pick out a color scheme for your web page!
+To get custom colors to use in CSS, you might find a color picker helpful. Some text editors have built-in color pickers, like Visual Studio Code. If you search "color picker" on Google or DuckDuckGo, you will get a color picker that you can use. Google Chrome and Firefox also have color picker add-ons that you can install. Adobe Color CC not only helps you pick a color, but will also help you pick out a color scheme for your web page! It's a good idea to check that you have enough contrast between your text and background colors by using a tool like WebAIM's Color Contrast Checker.
 
 #### More Information:
 <a href="https://color.adobe.com/" target="_blank">Adobe Color CC</a><br>
 <a href="https://chrome.google.com/webstore/detail/colorpick-eyedropper/ohcpnigalekghcmgcdcenkpelffpdolg?hl=en" target="_blank">ColorPick Eyedropper on Chrome Web Store</a><br>
-<a href="https://addons.mozilla.org/en-US/firefox/addon/colorzilla/" target="_blank">ColorZilla add-on for Firefox</a>
+<a href="https://addons.mozilla.org/en-US/firefox/addon/colorzilla/" target="_blank">ColorZilla add-on for Firefox</a><br>
+<a href="http://www.colorhexa.com/" target="_blank">Explore different Hex colors</a><br>
+<a href="https://webaim.org/resources/contrastchecker/" target="_blank">WebAIM Color Contrast Checker</a>

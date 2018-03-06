@@ -44,11 +44,13 @@ With your help, we can create a comprehensive reference tool that will help mill
   - [Squash and Merge](#squash-and-merge)
   - [Filtering PRs](#filtering-prs)
   - [Templates](#templates)
+    - [Thank you](#thank-you)
+    - [Thank you and congrats](#thank-you-and-congrats)
     - [Build Error](#build-error)
     - [Syncing Fork](#syncing-fork)
     - [Merge Conflicts](#merge-conflicts)
     - [Duplicate](#duplicate)
-    - [Closing](#closing)
+    - [Closing](#closing-1)
 
 <!-- /TOC -->
 
@@ -140,7 +142,7 @@ In this project, we are using `yarn` because `netlify` builds our site with `yar
 Here are a few guidelines the reviewers follow when reviewing PRs:
 
 - there is a relevant description and title
-- PR respects the [Article style guide](./README.md/#article-style-guide)
+- PR respects the [Article style guide](./CONTRIBUTING.md/#article-style-guide)
 - we follow general QA tips found in [Moderator guidelines](https://forum.freecodecamp.org/t/freecodecamp-moderator-guidelines/18295)
 - as long as a pull request improves or expands the guide, we accept it even if it contains imperfect English or partial content
 - older pull requests are reviewed first
@@ -518,6 +520,24 @@ We use the <kcd>Squash and merge</kcd> option when merging the PR which keeps th
 ## Templates
 
 > You can make your own with GitHub's built in [**Saved replies**](https://github.com/settings/replies/) feature or use the ones below.
+
+### Thank you
+
+```markdown
+Thank you for your contribution to the page! 👍
+We're happy to accept these changes, and look forward to future contributions. 🎉
+```
+
+### Thank you and congrats
+
+> For thanking and encouraging first-time contributors.
+
+```markdown
+Hi @username. Congrats on your first pull request (PR)! 🎉
+
+Thank you for your contribution to the page! 👍
+We're happy to accept these changes, and look forward to future contributions. 📝
+```
 
 ### Build Error
 

@@ -12,92 +12,107 @@ const propTypes = {
   location: PropTypes.object
 };
 
-function getOgTitle(pathname) {
-  const pathMap = pathname
-    // remove leading and trailing slash
-    .replace(/^\/([a-z0-9/-]+[^/])\/?$/i, '$1')
-    .split('/');
 
-  let metaTitle = '';
-  pathMap.forEach((title, i) => {
-    if (i === pathMap.length - 1) {
-      metaTitle += titleify(title);
+class Article extends React.Component {
+  constructor(props) {
+    super(props);
+    this.getOgDescription = this.getOgDescription.bind(this);
+    this.getOgImage = this.getOgImage.bind(this);
+    this.getOgTitle = this.getOgTitle.bind(this);
+  }
+  componentDidMount() {
+    if (document.activeElement.hasAttribute('data-navitem')) {
+      this.article.focus();
+    }
+  }
+  getOgTitle(pathname) {
+    const pathMap = pathname
+      // remove leading and trailing slash
+      .replace(/^\/([a-z0-9/-]+[^/])\/?$/i, '$1')
+      .split('/');
+    let metaTitle = '';
+    pathMap.forEach((title, i) => {
+      if (i === pathMap.length - 1) {
+        metaTitle += titleify(title);
+      } else {
+        metaTitle += titleify(title + ' | ');
+      }
+    });
+    return metaTitle;
+  }
+
+  getOgDescription(html) {
+    let description = '';
+    const rex = /<p>(.*?)<\/p>/g;
+    description = rex.exec( html );
+    if (description !== null) {
+      return description[1].replace(/<[^>]*>/i, '');
     } else {
-      metaTitle += titleify(title + ' | ');
+      return 'FreeCodeCamp Guide';
     }
-  });
-
-  return metaTitle;
-}
-
-function getOgDescription(html) {
-  let description = '';
-  const rex = /<p>(.*?)<\/p>/g;
-  description = rex.exec( html );
-  if (description !== null) {
-    return description[1].replace(/<[^>]*>/i, '');
-  } else {
-    return 'FreeCodeCamp Guide';
   }
-}
 
-function getOgImage(html) {
-  let image;
-  const rex = /<img [^>]*src=["|\']([^"|\']+)/i;
-  image = rex.exec( html );
-  if (image !== null &&
-    (image[1].match('^//forum.freecodecamp.com/images/emoji') === null)) {
-    return image[1];
-  } else {
-    return 'https://s3.amazonaws.com/freecodecamp/' +
-    'freecodecamp-square-logo-large.jpg';
-  }
-}
-
-function Article(props) {
-  const article = props.data.markdownRemark;
-  const { pathname } = props.location;
-  const {
-    html,
-    fields: {
-      slug
-    },
-    frontmatter: {
-      title
+  getOgImage(html) {
+    let image;
+    const rex = /<img [^>]*src=["|\']([^"|\']+)/i;
+    image = rex.exec( html );
+    if (image !== null &&
+      (image[1].match('^//forum.freecodecamp.com/images/emoji') === null)) {
+      return image[1];
+    } else {
+      return 'https://s3.amazonaws.com/freecodecamp/' +
+      'freecodecamp-square-logo-large.jpg';
     }
-  } = article;
+  }
 
-  return (
-    <div>
-      <Helmet>
-        <title>{ `${title} | freeCodeCamp Guide` }</title>
-        <link
-          href={ `https://guide.freecodecamp.org${slug}` }
-          rel='canonical'
+  render() {
+    const article = this.props.data.markdownRemark;
+    const { pathname } = this.props.location;
+    const {
+      html,
+      fields: {
+        slug
+      },
+      frontmatter: {
+        title
+      }
+    } = article;
+    return (
+      <div>
+        <Helmet>
+          <title>{ `${title} | freeCodeCamp Guide` }</title>
+          <link
+            href={ `https://guide.freecodecamp.org${slug}` }
+            rel='canonical'
+          />
+          <meta
+            content={ `https://guide.freecodecamp.org${slug}` }
+            property='og:url'
+          />
+          <meta
+            content={ `${this.getOgTitle(pathname)}` }
+            property='og:title'
+          />
+          <meta
+            content={ `${this.getOgDescription(html)}` }
+            property='og:description'
+          />
+          <meta
+            content={ `${this.getOgImage(html)}` }
+            property='og:image'
+          />
+        </Helmet>
+        <Breadcrumbs path={ pathname } />
+        <article
+          className='article'
+          dangerouslySetInnerHTML={{ __html: html }}
+          id='article'
+          ref={(article) => { this.article = article; }}
+          tabIndex='-1'
         />
-        <meta
-          content={ `https://guide.freecodecamp.org${slug}` }
-          property='og:url'
-        />
-        <meta
-          content={ `${getOgTitle(pathname)}` }
-          property='og:title'
-        />
-        <meta
-          content={ `${getOgDescription(html)}` }
-          property='og:description'
-        />
-        <meta
-          content={ `${getOgImage(html)}` }
-          property='og:image'
-        />
-      </Helmet>
-      <Breadcrumbs path={ pathname } />
-      <div
-        dangerouslySetInnerHTML={{ __html: html }}
-      />
-    </div>
-  );
+      </div>
+    );
+  }
 }
 
 Article.displayName = 'Article';
