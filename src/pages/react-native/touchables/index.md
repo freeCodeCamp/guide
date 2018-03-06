@@ -1,5 +1,5 @@
 ---
-title: React Native - Touchables
+title: Touchables
 ---
 ## React Native - Touchables
 
