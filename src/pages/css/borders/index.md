@@ -77,4 +77,9 @@ Each corner of `border-radius` can be adjusted. The order is top, bottom, left, 
 - [MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/border)
 - [CSS3 Border Radius](https://guide.freecodecamp.org/css/css3-borders-rounded-corners)
 
+### Other Border Attributes
+- 'border-radius' - This can set radius of the border. 
+- 'border-spacing' - This can set spacing between the text and border. 
+- 'border-image' - This sets an image as border. 
+
 Browser Support: IE6+
