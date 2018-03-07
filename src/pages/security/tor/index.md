@@ -1,7 +1,9 @@
 ---
 title: Tor (The Onion Router)
 ---
+
 ## Tor
+
 Tor stands for "The Onion Router", which is a free software that helps anonymize its users Internet usage, maintained by the Tor Project.
 In addition to the Onion Router, the Tor Project maintains a bundle of software, most notably a web browser, which is often also
 called Tor.
@@ -12,9 +14,9 @@ Tor has gotten a lot of negative attention because of its criminal use case. Cri
 
 Tor has many other usecases. Journalists reporting from areas where their lives may be endangered by the nature of the stories they are breaking, whistleblowers, and people living in oppressive regimes all fit into Tor's more benign usecases, along with anyone more interested in online anonymity.
 
-Edward Snowden, the NSA whistleblower, has mentioned Tor favorably as a very well put-together program. Famously, an internal NSA memo that was leaked referred to it as "the king of high-secure, low-latency internet anonymity There are no contenders to the throne in waiting".
-
+Edward Snowden, the NSA whistleblower, has mentioned Tor favorably as a very well put-together program. Famously, an internal NSA memo that was leaked referred to it as "the king of high-secure, low-latency internet anonymity. There are no contenders to the throne in waiting".
 
 #### More Information:
-<a href='https://www.torproject.org' target='_blank' rel='nofollow'>The Tor Project</a>
+
+<a href='https://www.torproject.org' target='_blank' rel='nofollow'>The Tor Project</a><br />
 <a href='https://www.theguardian.com/world/2013/oct/04/nsa-gchq-attack-tor-network-encryption' target='_blank' rel='nofollow'>NSA and GCHQ try to crack Tor</a>
