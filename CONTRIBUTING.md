@@ -44,6 +44,8 @@ With your help, we can create a comprehensive reference tool that will help mill
   - [Squash and Merge](#squash-and-merge)
   - [Filtering PRs](#filtering-prs)
   - [Templates](#templates)
+    - [Thank you](#thank-you)
+    - [Thank you and congrats](#thank-you-and-congrats)
     - [Build Error](#build-error)
     - [Syncing Fork](#syncing-fork)
     - [Merge Conflicts](#merge-conflicts)
@@ -140,7 +142,7 @@ In this project, we are using `yarn` because `netlify` builds our site with `yar
 Here are a few guidelines the reviewers follow when reviewing PRs:
 
 - there is a relevant description and title
-- PR respects the [Article style guide](./README.md/#article-style-guide)
+- PR respects the [Article style guide](./CONTRIBUTING.md/#article-style-guide)
 - we follow general QA tips found in [Moderator guidelines](https://forum.freecodecamp.org/t/freecodecamp-moderator-guidelines/18295)
 - as long as a pull request improves or expands the guide, we accept it even if it contains imperfect English or partial content
 - older pull requests are reviewed first
@@ -326,11 +328,11 @@ Use Markdown style links in your articles to link to other websites.
 
 ### Images
 
-For including images, if the images aren't already hosted somewhere else on the web, you'll need to put them online yourself using a platform like [Imgur](https://imgur.com/) or [Flickr](https://www.flickr.com).
+For including images, if they aren't already hosted somewhere else on the web, you will need to put them online yourself using a platform like [Imgur](https://imgur.com/) or [Flickr](https://www.flickr.com). You can also host images by committing them to a git repository and pushing it to GitHub. Then you can right-click the image and copy its URL.
 
-A good way to do this is to commit them to a GitHub repository of your own, then push them to GitHub. Then you can right-click the image and copy its image source.
+We don't allow hosting images directly in the git repository because it would make it far too big (people pulling it to their local system to make changes would end up downloading all the images), and because it is easier to change an image by just changing the URL in an article than by putting the new image in the repository.
 
-Then you'd just need to reference them in your markdown file with this syntax:
+To include the image in your article, use the appropriate markdown syntax:
 
 ```markdown
 ![Image Title](https://url-to-image)
@@ -518,6 +520,24 @@ We use the <kcd>Squash and merge</kcd> option when merging the PR which keeps th
 ## Templates
 
 > You can make your own with GitHub's built in [**Saved replies**](https://github.com/settings/replies/) feature or use the ones below.
+
+### Thank you
+
+```markdown
+Thank you for your contribution to the page! 👍
+We're happy to accept these changes, and look forward to future contributions. 🎉
+```
+
+### Thank you and congrats
+
+> For thanking and encouraging first-time contributors.
+
+```markdown
+Hi @username. Congrats on your first pull request (PR)! 🎉
+
+Thank you for your contribution to the page! 👍
+We're happy to accept these changes, and look forward to future contributions. 📝
+```
 
 ### Build Error
 

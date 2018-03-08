@@ -11,9 +11,30 @@ Each method has a signature, which is the combination of the data type, the name
 ```java
 public class Car {
     private String name;
+    private String manufacturersName;
 
     public void changeName() {
         name = "Tesla";
+    }
+    
+    public String getName(){
+        return name;
+    }
+    
+    public String getManufacurername(){
+        return manufacturersName;
+    }
+    
+}
+```
+Parameters can be passed into methods. Parameters are declared just after the name of the method, inside brackets.
+Syntax for parameter declaration is [Data Type] [Name].
+```java
+public class Car {
+    private String name;
+
+    public void changeName(String newName) {
+        name = newName;
     }
 }
 ```
