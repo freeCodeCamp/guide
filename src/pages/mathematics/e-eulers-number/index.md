@@ -16,7 +16,7 @@ Euler's Number is a famous irrational mathematical constant that serves as the b
 
 ![Leonhard_Euler Image](https://github.com/TomerPacific/fccGuideImages/blob/master/Leonhard_Euler.jpg?raw=true)
 
-                                                           &#8455; &asymp; 2.71828
+                                                           &#8455; 2.71828
                                                            
  
  
