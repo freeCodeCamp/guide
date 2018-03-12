@@ -41,7 +41,6 @@ HTML5 is the latest version, or specification, of HTML. The World Wide Web Conso
 <body>: The element contains the visible page content
 <h1>: The element defines a large heading
 <p>: The element defines a paragraph
-<ul>
 ```
 
 ### HTML Versions
