@@ -33,15 +33,21 @@ HTML5 is the latest version, or specification, of HTML. The World Wide Web Conso
 
 </body>
 </html>
-
-<!DOCTYPE html>: Defines this document to be HTML5
-<html>: The root element of an HTML page
-<head>: The element contains meta information about the document
-<title>: The element specifies a title for the document
-<body>: The element contains the visible page content
-<h1>: The element defines a large heading
-<p>: The element defines a paragraph
 ```
+
+!DOCTYPE html: Defines this document to be HTML5
+
+html: The root element of an HTML page
+
+head: The element contains meta information about the document
+
+title: The element specifies a title for the document
+
+body: The element contains the visible page content
+
+h1: The element defines a large heading
+
+p: The element defines a paragraph
 
 ### HTML Versions
 
