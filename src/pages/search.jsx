@@ -1,17 +1,11 @@
-import React from 'react';
+import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import { bindActionCreators } from 'redux';
 import Helmet from 'react-helmet';
 
 import NoResults from '../pageComponents/search/NoResults.jsx';
-import NoSupport from '../pageComponents/search/NoSupport.jsx';
 import Results from '../pageComponents/search/Results.jsx';
 import ResultsSkeleton from '../pageComponents/search/ResultsSkeleton.jsx';
-
-import {
-  resetSearch
-} from '../LayoutComponents/search/redux';
 
 const propTypes = {
   isSearching: PropTypes.bool,
@@ -29,40 +23,39 @@ function mapStateToProps(state) {
   };
 }
 
-function mapDispatchToProps(dispatch) {
-  return bindActionCreators({
-    resetSearch
-  }, dispatch);
+function mapDispatchToProps() {
+  return {};
 }
 
-function shouldShowResults(conditions) {
-  const { lastPage, results, searchTerm } = conditions;
-  return results.length ?
-    <Results /> :
-    <NoResults page={ lastPage } searchTerm={ searchTerm } />;
-}
-
-function SearchPage(props) {
-  if (
-    typeof window !== 'undefined' &&
-    !('Promise' in window)
-  ) {
-    return <NoSupport />;
+class SearchPage extends PureComponent {
+  constructor(props) {
+    super(props);
+    this.shouldShowResults = this.shouldShowResults.bind(this);
   }
-  const { isSearching, lastPage, results, searchTerm } = props;
-  return (
-    <div>
-      <Helmet>
-        <title>Search | freeCodeCamp Guide</title>
-      </Helmet>
-      <h2 className='colourDarkGrey'>Search Results</h2>
-      {
-        (isSearching && !results.length) ?
-          <ResultsSkeleton /> :
-          shouldShowResults({ results, lastPage, searchTerm })
-      }
-    </div>
-  );
+
+  shouldShowResults() {
+    const { lastPage, results, searchTerm } = this.props;
+    return results.length ?
+      <Results /> :
+      <NoResults page={ lastPage } searchTerm={ searchTerm } />;
+  }
+
+  render() {
+    const { isSearching, results } = this.props;
+    return (
+      <div>
+        <Helmet>
+          <title>Search | freeCodeCamp Guide</title>
+        </Helmet>
+        <h2 className='colourDarkGrey'>Search Results</h2>
+        {
+          (isSearching && !results.length) ?
+            <ResultsSkeleton /> :
+            this.shouldShowResults()
+        }
+      </div>
+    );
+  }
 }
 
 SearchPage.displayName = 'SearchPage';
