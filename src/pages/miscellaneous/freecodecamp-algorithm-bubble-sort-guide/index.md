@@ -72,7 +72,7 @@ carrying out the sorting process.
     bubble_sort(arr)
     print(arr) # Prints [1, 2, 3, 5, 23, 43, 54]
 
-![:rocket:</a> <a href='https://repl.it/CW0M/1' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CW0M/1' target='_blank' rel='nofollow'>Run Code</a>
 
 #### <a href='https://www.freecodecamp.com/videos/big-o-notation-what-it-is-and-why-you-should-care' target='_blank' rel='nofollow'>Complexity of Algorithm</a>
 
