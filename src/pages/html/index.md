@@ -18,7 +18,38 @@ The HyperText part of HTML comes from the early days of the web. Pages usually c
 
 HTML5 is the latest version, or specification, of HTML. The World Wide Web Consortium (W3C) is the organization responsible for developing standards for the World Wide Web, including those for HTML. As web pages and web applications grow more complex, W3C runs the process to update HTML's standards.
 
-## HTML Versions
+## A simple example of HTML Document
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Page Title</title>
+</head>
+<body>
+
+  <h1>My First Heading</h1>
+  <p>My first paragraph.</p>
+
+</body>
+</html>
+```
+
+!DOCTYPE html: Defines this document to be HTML5
+
+html: The root element of an HTML page
+
+head: The element contains meta information about the document
+
+title: The element specifies a title for the document
+
+body: The element contains the visible page content
+
+h1: The element defines a large heading
+
+p: The element defines a paragraph
+
+### HTML Versions
 
 Since the early days of the web, there have been many versions of HTML
 
@@ -31,7 +62,7 @@ Since the early days of the web, there have been many versions of HTML
 |XHTML|2000|
 |HTML5|2014|
 
-## Other Resources
+#### Other Resources
 
 - [HTML Elements](https://guide.freecodecamp.org/html/elements)
 - [Semantic HTML](https://guide.freecodecamp.org/html/html5-semantic-elements)
