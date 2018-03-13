@@ -3,13 +3,21 @@ title: Array.prototype.includes
 ---
 ## Array.prototype.includes
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/standard-objects/array/array-prototype-includes/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `includes()` method determines whether an array includes a value. It returns true or false.  
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+It takes two arguments:
+1. `searchValue` - The element to search for in the array.
+2. `fromIndex` - The position in the array to start searching for the proivded `searchValue`. If a negative value is supplied it starts from the array's length minus the negative value.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### Example
+
+```js
+const a = [1, 2, 3];
+a.includes(2); // true 
+a.includes(4); // false
+```
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
+[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)
 
