@@ -47,7 +47,7 @@ function normaliseLinks(content) {
     .filter(x => !x.startsWith('!'))
     .filter(x => x.match(httpsRE))
     .map(str => {
-      // raw will look like: 
+      // raw will look like:
       // [ '[guides website', 'https://guide.freecodecamp.org)' ]
       const raw = str.slice(0).split('](');
       const formatted = [ raw[0].replace('[', ''), raw[1].replace(')', '') ];
