@@ -34,7 +34,6 @@ You can also put all of your bash commands into a .sh file, and run them from th
 ```
 #!/bin/bash
 echo "Hello world!"
-
 ```
 
 Then you could run the script like so:
@@ -46,8 +45,8 @@ Hello world!
 
 The script only has two lines. The first indicates what program to use to run the file (in this case, bash). The second line is the command we want to use, echo.
 
-## Where to learn more?
-Free Code Camp has some great resources. The web is a big place, there's plenty more to explore:
+### More Information:
+
 * Wikipedia: https://en.wikipedia.org/wiki/Bash_(Unix_shell)
 * tldp.org Guide to Bash: http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html#toc2
 * gnu.org Bash manual: https://www.gnu.org/software/bash/manual/html_node/index.html#SEC_Contents
