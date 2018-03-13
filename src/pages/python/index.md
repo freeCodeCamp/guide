@@ -30,7 +30,9 @@ If it is available and in Unix shell’s search path makes it possible to start 
 
 `hello_campers.py`
 
-    print('Hello campers!')
+```python
+print('Hello campers!')
+```
 
 From terminal:
 
