@@ -4,6 +4,20 @@ title: Just in Time Compilation
 
 ## Just in Time Compilation
 
+Just-in-time compilation is a method for improving the performance of interpreted programs. During execution the program may be compiled into native code to improve its performance.  It is also known as dynamic compilation.
+
+Dynamic compilation has some advantages over static compilation.  When running Java or C# applications, the runtime environment can profile the application while it is being run.  This allows for more optimized code to be generated.  If the behavior of the application changes while it is running, the runtime environment can recompile the code.
+
+Some of the disadvantages include startup delays and the overhead of compilation during runtime. To limit the overhead, many JIT compilers only compile the code paths that are frequently used.
+
+### Overview
+
+Traditionally there are two methods for converting source code into a form that can be run on a platform. Static compilation converts the code into a language for a specific platform.  An interpreter directly executes the source code.
+
+JIT compilation attempts to use the benefits of both.  While the interpretted program is being run, the JIT compiler determines the most frequently used code and compiles it to machine code.  Depending on the compiler, this can be done on a method or smaller section of code.
+
+Dynamic compilation was first described in a paper by J. McCarthy on LISP in 1960.
+
 Just In Time Compilation, JIT, or Dynamic Translation, is compilation that is being done during the execution of a program. Meaning, at run time, as opposed to prior to execution. What happens is the translation to machine code. The advantages of a JIT are due to the fact, that since the compilation takes place in run time, a JIT compiler has access to dynamic runtime information enabling it to make better optimizations (such as inlining functions).
 
 What is important to understand about the JIT compilation, is that it will compile the bytecode into machine code instructions of the running machine. Meaning, that the resulting machine code is optimized for the running machine's CPU architecture.
@@ -50,4 +64,5 @@ Also next time this function is calculated same compiled code is executed again 
 
 #### More Information
 
-[Wikipedia article about JIT Compilation](https://en.wikipedia.org/wiki/Just-in-time_compilation)
+- [JIT Compilation (Wikipedia)](https://en.wikipedia.org/wiki/Just-in-time_compilation)
+- [JIT Introduction](https://eli.thegreenplace.net/2013/11/05/how-to-jit-an-introduction/)
