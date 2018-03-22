@@ -36,9 +36,9 @@ REST was developed to provide a uniform interface for
 - #### Singular or Plural?
     Use correct grammer for declaration
 
-    :heavy_multiplication_x: `/person/145` 
+    **Avoid** `/person/145` 
 
-    :heavy_check_mark: `/people/154` Assume to return 154th person from list of people
+    **Preferred** `/people/154` Assume to return 154th person from list of people
 
 - #### Use casing
   Use anyone of the below patterns and be **consistent!**  
