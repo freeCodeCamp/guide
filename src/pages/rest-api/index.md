@@ -73,8 +73,10 @@ REST was developed to provide a uniform interface for
  - #### HTTP Status Codes
 
  Use correct status codes 
- | Codes        | Meaning           | 
-| ------------- |:-------------:| 
+ 
+ 
+| Codes        | Meaning           | 
+| ------------- |-------------| 
 | 1xx      | Hold on.. | 
 | 2xx      | Here you go!      | 
 | 3xx | Go away      |
