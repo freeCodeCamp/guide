@@ -40,3 +40,6 @@ In order to publish a package to NPM, you need to have an account registered. To
 Before you publish your package to NPM, check if the directory contains any files you do not want made public (e.g. passwords, private keys etc). You can add these to a file named `.npmignore` to exclude them from package publishing. NPM will also honor `.gitignore` if you have that.
 
 Once you have finalized your package contents, run `npm publish`. You can confirm the details of your package at <a href='https://npmjs.com/package/yourpackagename' target='_blank' rel='nofollow'>https://npmjs.com/package/yourpackagename</a>.
+
+### More Information:
+Creating Node.js modules <a href='https://docs.npmjs.com/getting-started/creating-node-modules' target='_blank' rel='nofollow'> npm </a>

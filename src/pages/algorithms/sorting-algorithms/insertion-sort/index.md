@@ -97,7 +97,7 @@ The below algorithm is slightly optimized version to avoid swapping `key` elemen
 ```
 A quick implementation in Swift is as shown below :
 
-```
+```swift
   var array = [8, 3, 5, 1, 4, 2]
 
   func insertionSort(array:inout Array<Int>) -> Array<Int>{
@@ -113,6 +113,20 @@ A quick implementation in Swift is as shown below :
       }
       return array
   }
+```
+The Java example is shown below:
+```
+public int[] insertionSort(int[] arr)
+      for (j = 1; j < arr.length; j++) {
+         int key = arr[j]
+         int i = j - 1
+         while (i > 0 and arr[i] > key) {
+            arr[i+1] = arr[i]
+            i -= 1
+         }
+         arr[i+1] = key
+      }
+      return arr;
 ```
 
 ### Properties:
