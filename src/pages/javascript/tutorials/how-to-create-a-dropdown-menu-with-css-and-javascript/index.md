@@ -74,7 +74,7 @@ The dropdown element is a `div` containing a `title` and `menu` elements. The fo
 
 The `result` element is there just to show you what option is currently selected.  
 
-### Styles:
+#### Styles:
 Below you can check the full css code out. As you can see it makes use of CSS3 `transition` and `transform` constructs.
 
 Please pay attention to the `.dropdown` classes definitions. These are used to define the layout for the dropdown container component as well as its inner elements, such as the `.title` and its `.option`'s.
@@ -129,7 +129,7 @@ body{
 }
 ```
 
-### JavaScript:
+#### JavaScript:
 Now we'll see how the Javascript part is implemented. We'll first go through the function definitions 
 and then the code that calls these functions to make the dropdown actions happen.
 
