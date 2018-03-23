@@ -20,7 +20,7 @@ What are JSON-safe values one may ask! Let's make a list of all JSON-unsafe valu
 ```javascript
   JSON.stringify( value [, replacer [, space]])
 ```
-In it's simplest and most used form: 
+In its simplest and most used form: 
 
 ```javascript
   JSON.stringify( value )
