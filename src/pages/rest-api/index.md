@@ -38,7 +38,7 @@ REST was developed to provide a uniform interface for
 
     **Avoid** `/person/145` 
 
-    **Prefe** `/people/154` Assume to return 154th person from list of people
+    **Prefer** `/people/154` Assume to return 154th person from list of people
 
 - #### Use casing
   Use anyone of the below patterns and be **consistent!**  
