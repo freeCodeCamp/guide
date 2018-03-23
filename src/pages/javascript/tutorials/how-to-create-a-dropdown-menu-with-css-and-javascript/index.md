@@ -2,14 +2,27 @@
 title: How to Create a Dropdown Menu with CSS and JavaScript
 ---
 
-**O QUE FAZER**
-* pegar prints da página gerada
-* criar código no codepen
-* colocar meu nome no final???
-* adicionar links pra ES6, se houver
-
 ## How to Create a Dropdown Menu with CSS and JavaScript
-In this tutorial you will learn how to create a simple dropdown menu with vanilla Javascript, HTML and CSS. We will be using ES6 features and CSS3 transitions and transforms, so please be sure you're not using an old browser.
+In this tutorial you will learn how to create a simple dropdown menu with vanilla Javascript, HTML and CSS. We will walk through the HTML, CSS and Javascript code, but paying more attention to the programming, since this is a JS tutorial. We'll use just plain JS and CSS, with no frameworks or preprocessors. The only (kind-of) exception will be importing the [Font Awesome](https://fontawesome.com/) CSS file because we'll use one of its icons.
+
+This is targeted to developers that have an average understanding of HTML, CSS and JS. I tried to make it as clean as possible, but I won't focus too much on details here. I hope you all enjoy.
+
+## Screenshots
+This is how the code result looks like: 
+
+Initial screen: 
+
+<img src="https://i.imgur.com/jrnu6mE.png" width="200px"></img>
+
+
+Dropdown opened: 
+
+<img src="https://i.imgur.com/gszPtRa.png" width="200px"></img>
+
+
+Dropdown with option selected: 
+
+<img src="https://i.imgur.com/TKXxZGF.png" width="200px"></img>
 
 
 #### HTML:
@@ -24,11 +37,11 @@ To start off, let's see the `<head>` code
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Dropdown Example</title>
 
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/'-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="styles.css">
 </head>
 ```
-This is basically HTML head boilerplate, with the exception of the `link` tags loading the two CSS stylesheets we will use in this tutorial: the [Font Awesome](https://fontawesome.com/) styles, because we'll use one of its icons, and the `styles.css` file, where we will define this page's styles.
+This is basically HTML head boilerplate, with the exception of the `link` tags loading the two CSS stylesheets we will use in this tutorial: the Font Awesome styles, and the `styles.css` file, where we will define this page's styles.
 
 Then, there's the rest of the HTML file, the body:
 ```html
@@ -64,6 +77,7 @@ The `result` element is there just to show you what option is currently selected
 ### Styles:
 Below you can check the full css code out. As you can see it makes use of CSS3 `transition` and `transform` constructs.
 
+Please pay attention to the `.dropdown` classes definitions. These are used to define the layout for the dropdown container component as well as its inner elements, such as the `.title` and its `.option`'s.
 
 ```css
 body{
@@ -116,19 +130,10 @@ body{
 ```
 
 ### JavaScript:
-```Javascript
-const dropdown = document.querySelector('.dropdown .title');
-const dropdownOptions = document.querySelectorAll('.dropdown .option');
-const icon = dropdown.querySelector('.fa-angle-right');
+Now we'll see how the Javascript part is implemented. We'll first go through the function definitions 
+and then the code that calls these functions to make the dropdown actions happen.
 
-dropdown.addEventListener('click', toggleMenuDisplay);
-
-dropdownOptions.forEach(option => option.addEventListener('click',handleOptionSelected));
-
-document.querySelector('.dropdown .title').addEventListener('change',handleTitleChange);
-```
-
-Here, we can see basically 3 actions that take place depending on what the user interaction is, as their listeners are added to the DOM elements:
+Basically, there are 3 actions that take place depending on what the user interaction is, as their listeners are added to the DOM elements:
 1. Clicking on the dropdown element
 2. Selecting one of the dropdown options
 3. Changing the currently selected option
