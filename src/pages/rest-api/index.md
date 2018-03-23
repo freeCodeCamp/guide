@@ -36,15 +36,16 @@ REST was developed to provide a uniform interface for
 - #### Singular or Plural?
     Use correct grammer for declaration
 
-    :heavy_multiplication_x: `/person/145` 
+    **Avoid** `/person/145` 
 
-    :heavy_check_mark: `/people/154` Assume to return 154th person from list of people
+    **Prefe** `/people/154` Assume to return 154th person from list of people
 
 - #### Use casing
   Use anyone of the below patterns and be **consistent!**  
 
+
   | Case Styles        | Example          | 
-  | ------------- |:-------------:|
+  | ------------- |-------------|
   | **UpperCamelCase**      | `http://api.fintech.cp/DailyTransactions/Today` | 
   | **lowerCamelCase**      | `http://api.fintech.cp/dailyTransactions/today`      |  
   | **snake_case**    | `http://api.fintech.cp/daily_transactions/today`      | 
@@ -73,8 +74,10 @@ REST was developed to provide a uniform interface for
  - #### HTTP Status Codes
 
  Use correct status codes 
- | Codes        | Meaning           | 
-| ------------- |:-------------:| 
+
+
+| Codes        | Meaning           | 
+| ------------- |-------------| 
 | 1xx      | Hold on.. | 
 | 2xx      | Here you go!      | 
 | 3xx | Go away      |
