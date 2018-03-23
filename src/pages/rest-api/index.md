@@ -14,7 +14,6 @@ REST was developed to provide a uniform interface for
  - Self descriptive messages
  - Using Hypermedia as the Engine of Application State (HATEOS)
 
-
 ### Best Practices
 
  - #### Basics
@@ -73,13 +72,14 @@ REST was developed to provide a uniform interface for
  - #### HTTP Status Codes
 
  Use correct status codes 
- | Codes        | Meaning           | 
-| ------------- |:-------------:| 
-| 1xx      | Hold on.. | 
-| 2xx      | Here you go!      | 
-| 3xx | Go away      |
-| 4xx |You fucked up..|
-|5xx|I fucked up.. |
+ 
+  | Codes        | Meaning           | 
+  | ------------- |:-------------:|
+  | 1xx | Request received and understood | 
+  | 2xx | Action requested by client was received, understood and requested | 
+  | 3xx | Client must take additional action to complete the request. Most of these status codes are used in URL Redirection. |
+  | 4xx | Intended for situations where it seems the error was caused by the client. |
+  | 5xx | The server failed to fulfil a request. |
 
 
   Little more on **2xx**!
