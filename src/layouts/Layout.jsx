@@ -1,12 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import FCCSearch from 'react-freecodecamp-search';
 import Col from 'react-bootstrap/lib/Col';
 import Grid from 'react-bootstrap/lib/Grid';
 import Image from 'react-bootstrap/lib/Image';
 import Row from 'react-bootstrap/lib/Row';
 import Link from 'gatsby-link';
 
-import SearchBar from '../LayoutComponents/search/SearchBar.jsx';
 import SideNav from '../LayoutComponents/nav/SideNav.jsx';
 
 import logo from '../../assets/freeCodeCamp-logo.png';
@@ -49,7 +49,7 @@ function Layout(props) {
               />
             </Link>
           </div>
-          <SearchBar />
+          <FCCSearch />
         </div>
       </nav>
       <Grid className='bodyContainer'>
