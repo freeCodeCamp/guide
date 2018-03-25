@@ -15,12 +15,14 @@ exports.createNavigationNode = node => {
   const nodeDir = fileAbsolutePath.replace(/\/index\.md$/, '');
   const dashedName = nodeDir.split('/').slice(-1)[0];
   const [, path ] = nodeDir.split(pagesDir);
+  const parentPath = path.split('/').slice(0, -1).join('/');
 
   const navNode = {
-    children: readDir(nodeDir),
+    categoryChildren: readDir(nodeDir),
     dashedName,
     isStubbed: isAStubRE.test(content),
     path,
+    parentPath,
     title
   };
 

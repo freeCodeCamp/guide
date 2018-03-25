@@ -35,7 +35,7 @@ describe('fcc-creat-nav-data', () => {
 
     it('node.children should be an array', () => {
       const result = createNavigationNode(mockNode);
-      expect(result.children).to.be.an('array');
+      expect(result.categoryChildren).to.be.an('array');
     });
 
     it('node.dashedName should equal the containing folder name', () => {
@@ -48,7 +48,12 @@ describe('fcc-creat-nav-data', () => {
       expect(result.path).to.equal('/php/functions/files/file-writing');
     });
 
-    it('node.parent should equal the parent folder name', () => {
+    it('node.parentPath should equal the path of the parent page', () => {
+      const result = createNavigationNode(mockNode);
+      expect(result.parentPath).to.equal('/php/functions/files');
+    });
+
+    it('node.title should equal srcNode.frontmatter.title', () => {
       const result = createNavigationNode(mockNode);
       expect(result.title).to.equal(mockNode.frontmatter.title);
     });
