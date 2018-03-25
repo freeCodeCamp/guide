@@ -29,8 +29,6 @@
     "react-dom": "^15.6.1",
     "react-fontawesome": "^1.6.1",
     "react-freecodecamp-search": "^2.0.1",
-    "react-redux": "^5.0.5",
-    "redux": "^3.7.2",
     "redux-actions": "^2.2.1",
     "redux-create-types": "0.0.1",
     "redux-epic": "^0.3.0",

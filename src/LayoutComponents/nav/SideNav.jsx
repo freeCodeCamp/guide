@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import PanelGroup from 'react-bootstrap/lib/PanelGroup';
-import { connect } from 'react-redux';
-import { bindActionCreators } from 'redux';
 
-import { toggleExpandedState } from './redux';
 import NavPanel from './NavPanel.jsx';
 import NavItem from './NavItem.jsx';
 
@@ -14,22 +11,6 @@ const propTypes = {
   parents: PropTypes.arrayOf(PropTypes.object),
   toggleExpandedState: PropTypes.func.isRequired
 };
-
-function mapStateToProps(state) {
-  const { expandedState, parents, pages } = state.nav;
-  return {
-    expandedState,
-    parents,
-    pages
-  };
-}
-
-function mapDispatchToProps(dispatch) {
-  const dispatchers = {
-    toggleExpandedState: bindActionCreators(toggleExpandedState, dispatch)
-  };
-  return dispatchers;
-}
 
 function renderChildren(children, pages) {
   return children.map(child => {
@@ -122,4 +103,4 @@ SideNav.contextTypes = {
 SideNav.displayName = 'SideNav';
 SideNav.propTypes = propTypes;
 
-export default connect(mapStateToProps, mapDispatchToProps)(SideNav);
+export default SideNav;
