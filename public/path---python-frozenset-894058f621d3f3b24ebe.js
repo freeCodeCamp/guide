@@ -1,0 +1,2 @@
+webpackJsonp([0x266fb68d82c0d600],{"./node_modules/json-loader/index.js!./.cache/json/python-frozenset.json":function(o,n){o.exports={data:{markdownRemark:{html:"<p><strong>TODO: <code>frozenset</code> basic info</strong></p>\n<p><strong>Immutable</strong></p>\n<p><strong>Creation:</strong></p>\n<p><code>frozenset</code> constructor:</p>\n<p><strong>TODO: Examples</strong></p>",fields:{slug:"/python/frozenset/"},frontmatter:{title:"Python Frozenset"}}},pathContext:{slug:"/python/frozenset/"}}}});
+//# sourceMappingURL=path---python-frozenset-894058f621d3f3b24ebe.js.map

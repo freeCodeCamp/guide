@@ -1,0 +1,2 @@
+webpackJsonp([0x58bf138be286f800],{"./node_modules/json-loader/index.js!./.cache/json/certificates-label-bootstrap-buttons.json":function(t,e){t.exports={data:{markdownRemark:{html:"<p>Just like we labeled our <a>wells</a>, we want to label our buttons.</p>",fields:{slug:"/certificates/label-bootstrap-buttons/"},frontmatter:{title:"Label Bootstrap Buttons"}}},pathContext:{slug:"/certificates/label-bootstrap-buttons/"}}}});
+//# sourceMappingURL=path---certificates-label-bootstrap-buttons-d9d832e96e1a3a09cb6f.js.map

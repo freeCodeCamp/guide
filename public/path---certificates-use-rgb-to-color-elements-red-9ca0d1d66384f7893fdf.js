@@ -1,0 +1,2 @@
+webpackJsonp([0x60f33085bf59f000],{"./node_modules/json-loader/index.js!./.cache/json/certificates-use-rgb-to-color-elements-red.json":function(e,o){e.exports={data:{markdownRemark:{html:"<p>background-color: rgb(255, 0, 0)</p>",fields:{slug:"/certificates/use-rgb-to-color-elements-red/"},frontmatter:{title:"Use Rgb to Color Elements Red"}}},pathContext:{slug:"/certificates/use-rgb-to-color-elements-red/"}}}});
+//# sourceMappingURL=path---certificates-use-rgb-to-color-elements-red-9ca0d1d66384f7893fdf.js.map

@@ -1,0 +1,2 @@
+webpackJsonp([706379863170231e4],{"./node_modules/json-loader/index.js!./.cache/json/data-science-tools.json":function(e,t){e.exports={data:{markdownRemark:{html:"<h2>Data Science Tools</h2>\n<p>In this section, we’ll have guides to a wide variety of tools used by data scientists.</p>",fields:{slug:"/data-science-tools/"},frontmatter:{title:"Data Science Tools"}}},pathContext:{slug:"/data-science-tools/"}}}});
+//# sourceMappingURL=path---data-science-tools-176af92bd11aa26e62d1.js.map

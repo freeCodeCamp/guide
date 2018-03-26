@@ -1,0 +1,2 @@
+webpackJsonp([0x3948e3423801cc00],{"./node_modules/json-loader/index.js!./.cache/json/certificates-label-bootstrap-wells.json":function(e,t){e.exports={data:{markdownRemark:{html:"<p>You can add labels to the wells by using the headers <code>&#x3C;h4></code> above the well divs.</p>",fields:{slug:"/certificates/label-bootstrap-wells/"},frontmatter:{title:"Label Bootstrap Wells"}}},pathContext:{slug:"/certificates/label-bootstrap-wells/"}}}});
+//# sourceMappingURL=path---certificates-label-bootstrap-wells-e2c45f69bae668b98d87.js.map

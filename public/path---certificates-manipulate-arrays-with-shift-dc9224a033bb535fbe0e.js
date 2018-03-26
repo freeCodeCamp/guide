@@ -1,0 +1,2 @@
+webpackJsonp([0xec611d70124b8000],{"./node_modules/json-loader/index.js!./.cache/json/certificates-manipulate-arrays-with-shift.json":function(e,t){e.exports={data:{markdownRemark:{html:"<p><code>shift()</code> removes the first element unlike <code>pop()</code> which removes the last.</p>",fields:{slug:"/certificates/manipulate-arrays-with-shift/"},frontmatter:{title:"Manipulate Arrays with Shift"}}},pathContext:{slug:"/certificates/manipulate-arrays-with-shift/"}}}});
+//# sourceMappingURL=path---certificates-manipulate-arrays-with-shift-dc9224a033bb535fbe0e.js.map

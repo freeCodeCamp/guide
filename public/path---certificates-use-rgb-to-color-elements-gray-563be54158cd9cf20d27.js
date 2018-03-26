@@ -1,0 +1,2 @@
+webpackJsonp([0xa30483cfa1184000],{"./node_modules/json-loader/index.js!./.cache/json/certificates-use-rgb-to-color-elements-gray.json":function(e,o){e.exports={data:{markdownRemark:{html:"<p>RGB value for gray: <code>rgb(128, 128, 128)</code></p>",fields:{slug:"/certificates/use-rgb-to-color-elements-gray/"},frontmatter:{title:"Use Rgb to Color Elements Gray"}}},pathContext:{slug:"/certificates/use-rgb-to-color-elements-gray/"}}}});
+//# sourceMappingURL=path---certificates-use-rgb-to-color-elements-gray-563be54158cd9cf20d27.js.map

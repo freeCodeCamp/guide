@@ -1,0 +1,2 @@
+webpackJsonp([0x174e176d4423a500],{"./node_modules/json-loader/index.js!./.cache/json/certificates-style-the-html-body-element.json":function(e,t){e.exports={data:{markdownRemark:{html:"<p>Every HTML page has the <code>body</code> element. and it is like the main page.</p>",fields:{slug:"/certificates/style-the-html-body-element/"},frontmatter:{title:"Style the HTML Body Element"}}},pathContext:{slug:"/certificates/style-the-html-body-element/"}}}});
+//# sourceMappingURL=path---certificates-style-the-html-body-element-3b1d03d510ff163f7d25.js.map
