@@ -53,7 +53,6 @@
     "dev": "gatsby develop",
     "lint": "eslint --ext .js,.jsx --ignore-path .gitignore .",
     "pre-commit-message": "echo \"Running pre-commit script. This can take a while.\"",
-    "normalise": "node bin/normaliseArticles",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "pre-commit": [
