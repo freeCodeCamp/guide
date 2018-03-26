@@ -116,10 +116,9 @@ This will grab all the changes on the official `master` branch without making an
 
 ### Running Locally
 
-```bash
-# make sure to have yarn installed
-npm install -g yarn
+Make sure to have yarn installed (follow these [instructions](https://yarnpkg.com/en/docs/install) if needed).
 
+```bash
 # fork repo
 
 # clone down your repo
