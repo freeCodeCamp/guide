@@ -43,7 +43,9 @@ Beginning/End of line movement:
 3. To exit and save, type `:q`
 
 **OR**
+
 - Type ZZ (save and quit)
+- Type `:wq` (save and quit but using with the commonly used "w" and "q" commands)
 
 ## Setting line numbers
 1. Press escape to get you into "normal" mode
