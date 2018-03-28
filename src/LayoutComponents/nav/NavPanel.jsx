@@ -1,10 +1,6 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import Panel from 'react-bootstrap/lib/Panel';
-import { connect } from 'react-redux';
-import { bindActionCreators } from 'redux';
-
-import { toggleExpandedState } from './redux';
 
 const propTypes = {
   categoryChildren: PropTypes.arrayOf(PropTypes.string),
@@ -15,27 +11,6 @@ const propTypes = {
   path: PropTypes.string,
   title: PropTypes.string
 };
-
-function mapStateToProps(state, ownProps) {
-  const { path } = ownProps;
-  const isExpanded = state.nav.expandedState[path];
-  const category = state.nav.pages.filter(page => page.path === path)[0];
-  const { title, children: categoryChildren, dashedName } = category;
-
-  return {
-    categoryChildren,
-    dashedName,
-    isExpanded,
-    title
-  };
-}
-
-function mapDispatchToProps(dispatch) {
-  const dispatchers = {
-    handleClick: bindActionCreators(toggleExpandedState, dispatch)
-  };
-  return dispatchers;
-}
 
 function NoArticles() {
   return (
@@ -135,4 +110,4 @@ NavPanel.contextTypes = {
 NavPanel.displayName = 'NavPanel';
 NavPanel.propTypes = propTypes;
 
-export default connect(mapStateToProps, mapDispatchToProps)(NavPanel);
+export default NavPanel;
