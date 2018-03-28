@@ -3,13 +3,20 @@ title: Nonfunctional Requirements
 ---
 ## Nonfunctional Requirements
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/nonfunctional-requirements/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+A nonfunctional requirement is one of two types of requirements you will recieve from a product owner. A nonfunctional requirement specifies the criteria that judges the operation of the system, instead of what the system does. They are normally distinguished from functional requirements due to their use of adverbs or descriptors.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Examples:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+* The printer should print 5 seconds after the button is pressed
+* The code should be written in Java
+* The UI should be easily navigable
+
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+
+[ReQtest](http://reqtest.com/requirements-blog/functional-vs-non-functional-requirements/) Explains the difference between functional and nonfunctional requirements
+
+[Scaled Agile](http://www.scaledagileframework.com/nonfunctional-requirements/) Works through the process from finding to testing nonfunctional requirements
+
 
 
