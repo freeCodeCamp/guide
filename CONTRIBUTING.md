@@ -235,7 +235,7 @@ However, you can include special characters in the article title.
 
 Here are some examples of properly named titles:
 
-> [`src/pages/html/tables/index.html`](https://github.com/freeCodeCamp/guides/blob/master/src/pages/html/tables/index.md)
+> [`src/pages/html/tables/index.md`](https://github.com/freeCodeCamp/guides/blob/master/src/pages/html/tables/index.md)
 
 ```markdown
 ---
