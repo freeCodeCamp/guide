@@ -35,15 +35,16 @@ REST was developed to provide a uniform interface for
 - #### Singular or Plural?
     Use correct grammer for declaration
 
-    :heavy_multiplication_x: `/person/145` 
+    **Avoid** `/person/145` 
 
-    :heavy_check_mark: `/people/154` Assume to return 154th person from list of people
+    **Prefer** `/people/154` Assume to return 154th person from list of people
 
 - #### Use casing
   Use anyone of the below patterns and be **consistent!**  
 
+
   | Case Styles        | Example          | 
-  | ------------- |:-------------:|
+  | ------------- |-------------|
   | **UpperCamelCase**      | `http://api.fintech.cp/DailyTransactions/Today` | 
   | **lowerCamelCase**      | `http://api.fintech.cp/dailyTransactions/today`      |  
   | **snake_case**    | `http://api.fintech.cp/daily_transactions/today`      | 
@@ -82,6 +83,7 @@ REST was developed to provide a uniform interface for
   | 5xx | The server failed to fulfil a request. |
 
 
+
   Little more on **2xx**!
 
   - **201 Resource Created.**
@@ -113,5 +115,7 @@ REST was developed to provide a uniform interface for
 
 ### **Further reading**
 [How to Design Great APIs - Parse Developer Day 2013](https://www.youtube.com/watch?v=qCdpTji8nxo)
+
 [The never-ending REST API design debate by Guillaume Laforge](https://www.youtube.com/watch?v=48azd2VqtP0)
+
 [HTTP status codes](https://httpstatuses.com/)

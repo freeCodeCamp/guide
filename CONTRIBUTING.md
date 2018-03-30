@@ -116,10 +116,9 @@ This will grab all the changes on the official `master` branch without making an
 
 ### Running Locally
 
-```bash
-# make sure to have yarn installed
-npm install -g yarn
+Make sure to have yarn installed (follow these [instructions](https://yarnpkg.com/en/docs/install) if needed).
 
+```bash
 # fork repo
 
 # clone down your repo
@@ -236,7 +235,7 @@ However, you can include special characters in the article title.
 
 Here are some examples of properly named titles:
 
-> [`src/pages/html/tables/index.html`](https://github.com/freeCodeCamp/guides/blob/master/src/pages/html/tables/index.md)
+> [`src/pages/html/tables/index.md`](https://github.com/freeCodeCamp/guides/blob/master/src/pages/html/tables/index.md)
 
 ```markdown
 ---

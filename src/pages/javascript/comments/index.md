@@ -37,6 +37,15 @@ function hello() {
 hello();
 ```
 
+#### More Information:
+<a href='https://www.digitalocean.com/community/tutorials/how-to-write-comments-in-javascript' target='_blank' rel='nofollow'>How To Write Comments in JavaScript</a>
+<h3>Many IDEs come with a keyboard shortcut to comment out lines. </h3>
+<ol>
+  <li>Highlight text to be commented</li>
+  <li>Mac: Push Command(Apple Key) & "/"</li>
+  <li>Windows: Push Control & "/"</li>
+  <li>You can also uncomment code by doing the same steps</li>
+</ol>
 A shortcut to comment out a section of javascript in many code editors is to highlight the lines of code you want to comment out, then press `Cmd/Ctrl + /`.
 
 Comments are also very helpful for code testing as you can prevent a certain code-line/block from running
