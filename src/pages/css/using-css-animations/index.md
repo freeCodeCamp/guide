@@ -46,8 +46,6 @@ For the CSS part :
     /* --------------------------------------   */
     /* animation: 2.5s infinite normal blink;   */
 }
-
-
 @keyframes blink {
     0%, 100% {              /* Defines the properties at these frames */
         background: #333;
@@ -66,4 +64,3 @@ For the CSS part :
 
 #### More Information:
 For more deatils on CSS Animations, please visit [Mozilla Developer Network Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations)
-

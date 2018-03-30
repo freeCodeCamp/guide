@@ -74,11 +74,16 @@ int main() {
 * Depth First Search.
 * Tree traversals
 * Infix expression -> Prefix/Postfix expresstion
+* Valid Parentheses
 
 
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 * <a href='http://www.geeksforgeeks.org/stack-data-structure/' target='_blank' rel='nofollow'>More Info on Stacks - GeeksForGeeks</a>
+* <a href='https://en.wikipedia.org/wiki/Tower_of_Hanoi' target='_blank' rel='nofollow'> Tower of Hanoi Problem and how the solution uses stacks and recursions </a>
+
+
+* <a href='https://www.youtube.com/watch?v=wjI1WNcIntg' target='_blank' rel='nofollow'>HackerRank Stacks and Queues Video</a>
 
 
