@@ -3,7 +3,7 @@ title: React - Components
 ---
 ## React - Components
 
-Components are reusable in react.js you can injecting value into props like this example bellow :
+Components are reusable in react.js. You can inject value into props as given below :
 
 ```jsx
 
@@ -19,4 +19,4 @@ ReactDOM.render(
 
 ```
 
-```name="Faisal Arkan"``` will give value into ```{props.name}``` from ```function Welcome(props)``` and returning component that has given value by ```name="Faisal Arkan"```, After that react will render element into html.
+The value ```"Faisal Arkan"``` will get populated into ```{props.name}``` of ```Welcome``` Component. React renders the component along with given ```{props.name}```
