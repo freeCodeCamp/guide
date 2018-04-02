@@ -9,7 +9,8 @@ const propTypes = {
   handleClick: PropTypes.func.isRequired,
   isExpanded: PropTypes.bool,
   path: PropTypes.string,
-  title: PropTypes.string
+  title: PropTypes.string,
+  toggleDisplaySideNav: PropTypes.func.isRequired
 };
 
 function NoArticles() {
@@ -60,7 +61,7 @@ class NavPanel extends PureComponent {
             ( isExpanded ? 'caretStyle expanded' : 'caretStyle' )
           }
         />
-        <span>
+        <span onClick={this.props.toggleDisplaySideNav}>
           { title }
         </span>
       </div>
