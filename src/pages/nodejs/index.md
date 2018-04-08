@@ -1,16 +1,50 @@
 ---
-title: NodeJS
+title: Node.js
 ---
-## NodeJS
+## Node.js
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/nodejs/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js' package ecosystem, npm, is the largest ecosystem of open source libraries in the world.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+#### Let's break it down.
+- Javascript runtime built on Chrome's V8 JavaScript engine.  
+Every browser has a JavaSript engine built in it to process JavaScript files contained in websites. Google Chrome uses V8 engine which is built using C++. Node.js also uses this super-fast engine to interpret JavaScript files.
+- Node.js uses an event-driven model.  
+This means that Node.js waits for certain events to take place. It then acts on those events. Events can be anything from a click to a HTTP request. We can also declare our own custom events and make node.js listen for those events.
+- Node.js uses a non-blocking I/O model.  
+We know that I/O tasks take much longer than processing tasks. Node.js uses callback functions to handle such requests.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Let us assume that a particular I/O task takes 5 secs to execute.
+And we want to perform this I/O twice in our code.
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-[Official NodeJS site](https://nodejs.org)
-[Node Version Manager](https://github.com/creationix/nvm/blob/master/README.md)
-[n: Interactive NodeJS Version Manager](https://github.com/tj/n)
+**Python**
+```python
+import time
+
+def my_io_task():
+  time.sleep(5)
+  print("done")
+
+my_io_task()
+my_io_task()
+```
+
+**Node.js**
+```node
+function my_io_task() {
+    setTimeout(function() {
+      console.log('done');
+    }, 5000);
+}
+
+my_io_task();
+my_io_task();
+```
+
+Both look similar but the time taken to execute are different. The python code takes 10 seconds to execute while the Node.js code takes only 5 seconds to execute.  
+Node.js takes less time because of its non-blocking I/O model. The first call to ```my_io_task()``` starts the timer and leaves it there. It does not wait for the response from the function, instead, it moves on to call the second ```my_io_task()```, starts the timer and leaves it there.  
+When the timer completes it's execution taking 5 seconds, it calls the function and prints ```done``` on the console. Since, both the timers are started together, they complete together and therefore take same amount of time.
+
+#### More information:
+- [Official NodeJS site](https://nodejs.org)
+- [Node Version Manager](https://github.com/creationix/nvm/blob/master/README.md)
+- [n: Interactive NodeJS Version Manager](https://github.com/tj/n)
