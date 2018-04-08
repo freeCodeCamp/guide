@@ -45,6 +45,6 @@ Node.js takes less time because of its non-blocking I/O model. The first call to
 When the timer completes it's execution taking 5 seconds, it calls the function and prints ```done``` on the console. Since, both the timers are started together, they complete together and therefore take same amount of time.
 
 #### More information:
-[Official NodeJS site](https://nodejs.org)
-[Node Version Manager](https://github.com/creationix/nvm/blob/master/README.md)
-[n: Interactive NodeJS Version Manager](https://github.com/tj/n)
+- [Official NodeJS site](https://nodejs.org)
+- [Node Version Manager](https://github.com/creationix/nvm/blob/master/README.md)
+- [n: Interactive NodeJS Version Manager](https://github.com/tj/n)
