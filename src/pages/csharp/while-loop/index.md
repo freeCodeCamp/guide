@@ -7,7 +7,7 @@ title: While Loop
 The while loop executes a block of code until a specified condition is false.
 
 ## Example
-```
+```csharp
 int i = 0;
 while (i < 5)
 {
