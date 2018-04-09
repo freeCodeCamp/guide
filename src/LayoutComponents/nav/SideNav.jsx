@@ -1,79 +1,32 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import PanelGroup from 'react-bootstrap/lib/PanelGroup';
-import { connect } from 'react-redux';
-import { bindActionCreators } from 'redux';
 
-import { toggleExpandedState } from './redux';
 import NavPanel from './NavPanel.jsx';
 import NavItem from './NavItem.jsx';
 
 const propTypes = {
   expandedState: PropTypes.object,
   pages: PropTypes.arrayOf(PropTypes.object),
-  parents: PropTypes.arrayOf(PropTypes.object),
-  toggleExpandedState: PropTypes.func.isRequired
+  parents: PropTypes.arrayOf(PropTypes.object)
 };
 
-function mapStateToProps(state) {
-  const { expandedState, parents, pages } = state.nav;
-  return {
-    expandedState,
-    parents,
-    pages
-  };
-}
-
-function mapDispatchToProps(dispatch) {
-  const dispatchers = {
-    toggleExpandedState: bindActionCreators(toggleExpandedState, dispatch)
-  };
-  return dispatchers;
-}
-
-function renderChildren(children, pages) {
-  return children.map(child => {
-    if (child.hasChildren) {
-      return renderParent(child, pages);
-    }
-    return (
-      <NavItem
-        isStubbed={ child.isStubbed }
-        key={ child.path }
-        path={ child.path }
-        title={ child.title }
-      />
-    );
-  });
-}
-
-function renderParent(parent, pages) {
-  const childrenForParent = pages.filter(
-    page => page.parentPath === parent.path
-  );
-
-  const children = renderChildren(childrenForParent, pages);
-
-  return (
-    <NavPanel
-      key={ parent.path }
-      path={ parent.path }
-      >
-      { children }
-    </NavPanel>
-  );
-}
-
-function renderPanels(parents, pages) {
-  if (!parents) {
-    return 'No Parents Here';
-  }
-  return parents.map(parent => renderParent(parent, pages));
+function parentFilter(node) {
+  return node.path.split('/').filter(Boolean).length === 1;
 }
 
 class SideNav extends Component {
   constructor() {
     super();
+
+    this.state = {
+      expandedState: {}
+    };
+
+    this.renderChildren = this.renderChildren.bind(this);
+    this.renderPanels = this.renderPanels.bind(this);
+    this.renderParent = this.renderParent.bind(this);
+    this.toggleExpandedState = this.toggleExpandedState.bind(this);
   }
 
   componentDidMount() {
@@ -82,12 +35,12 @@ class SideNav extends Component {
       .slice(1)
       .split('/')
       .slice(0, -1)
-      .reduce((accu, current, i, pathArray) => {
+      .reduce((map, current, i, pathArray) => {
         const path = i !== 0 ?
-          accu[pathArray[i - 1]] + `/${current}` :
+          map[pathArray[i - 1]] + `/${current}` :
           `/${current}`;
         return {
-          ...accu,
+          ...map,
           [current]: path
         };
       }, {});
@@ -95,13 +48,76 @@ class SideNav extends Component {
     Object.keys(pathMap)
       .map(key => pathMap[key])
       .forEach(path => {
-        this.props.toggleExpandedState(path);
+        this.toggleExpandedState(path);
       });
   }
 
+  renderPanels(parents, pages) {
+    if (!parents) {
+      return 'No Parents Here';
+    }
+    return parents.map(parent => this.renderParent(parent, pages));
+  }
+
+  renderParent(parent, pages) {
+    const childrenForParent = pages.filter(
+      page => page.parentPath === parent.path
+    );
+    const { path } = parent;
+    const isExpanded = !!this.state.expandedState[path];
+    const [ category ] = pages.filter(page => page.path === path);
+    const { title, categoryChildren, dashedName } = category;
+
+    const children = this.renderChildren(childrenForParent, pages);
+
+    return (
+      <NavPanel
+        categoryChildren={ categoryChildren }
+        dashedName={ dashedName }
+        handleClick={ this.toggleExpandedState }
+        isExpanded={ isExpanded }
+        key={ parent.path }
+        path={ parent.path }
+        title={ title }
+        >
+        { isExpanded ? children : null }
+      </NavPanel>
+    );
+  }
+
+  renderChildren(children, pages) {
+    return children.map(child => {
+      if (child.hasChildren) {
+        return this.renderParent(child, pages);
+      }
+      return (
+        <NavItem
+          isStubbed={ child.isStubbed }
+          key={ child.path }
+          path={ child.path }
+          title={ child.title }
+        />
+      );
+    });
+  }
+
+  toggleExpandedState(path) {
+    this.setState(
+      state => ({
+        ...state,
+        expandedState: {
+          ...state.expandedState,
+          [path]: !state.expandedState[path]
+        }
+      })
+    );
+  }
+
   render() {
-    const { expandedState, pages, parents } = this.props;
-    const panels = renderPanels(parents, pages);
+    const { pages } = this.props;
+    const { expandedState } = this.state;
+    const parents = pages.filter(parentFilter);
+    const panels = this.renderPanels(parents, pages);
     return (
       <nav className='sideNav' id='side-nav'>
         <PanelGroup role='list'>
@@ -122,4 +138,4 @@ SideNav.contextTypes = {
 SideNav.displayName = 'SideNav';
 SideNav.propTypes = propTypes;
 
-export default connect(mapStateToProps, mapDispatchToProps)(SideNav);
+export default SideNav;

@@ -3,7 +3,7 @@ title: Strings
 ---
 # Strings
 
-Strings are sequences of characters. In Java, a `String` is an `Object`.
+Strings are sequences of characters. In Java, a `String` is an `Object`. Strings should not be confused with `char` as characters are literally 1 value rather than a sequence of characters. You can still use 1 value within a String, however it is preferred to use `char` when you are checking for 1 character.
 
 ```java
 String course = "FCC";
@@ -15,15 +15,10 @@ Output:
 true
 ```
 
-You can create a String in the following ways:
-
-1.  
+You can create a String either by creating a string literal, or by explicitly creating a String object using the `new` keyword:
 ```java
-String str = "I am a String"; //This is a String literal
-```
-2.  
-```java
-String str = new String("I am a String"); //This is a String Object
+String str = "I am a String"; // This is a String literal
+String str = new String("I am a String"); // This is a String Object
 ```
 
 You might be thinking: What's the difference between the two?

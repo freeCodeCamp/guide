@@ -1,5 +1,5 @@
 ---
-title: React Native - Screen Dimensions
+title: Screen Dimensions
 ---
 ## React Native - Screen Dimensions
 

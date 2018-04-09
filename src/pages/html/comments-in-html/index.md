@@ -3,7 +3,7 @@ title: Comments in HTML
 ---
 ## Comments in HTML
 
-The comment tag is an element used to leave notes, mostly related to the project or the website. This tag is frequently used to explain something in the code or leave some recommendations about the project. The comment tag also makes it easier for the developer to understand the code when viewing it at a later time.
+The comment tag is an element used to leave notes which are related to the project or the website. This tag is frequently used to explain something in the code or leave some recommendations about the project. The comment tag also makes it easier for the developer to come back and understand the code he's written at a later stage.
 
 It is good practice to add comments to your code, especially when working with a team or at a company.  
 
@@ -30,6 +30,8 @@ Read more: https://html.com/tags/comment-tag/#ixzz4vtZHu5uR
 ## Conditional Comments
 Conditional Comments defines some HTML tags to be excuted when a certain codition is fullfilled. 
 
+Conditional Comments are only recognised by Internet Explorer Version 5 through to Version 9 - IE5 - IE9.
+
 ### Example
 ```html
 <!DOCTYPE html>
@@ -42,4 +44,3 @@ Conditional Comments defines some HTML tags to be excuted when a certain coditio
 	</body>
 </html>
 ```
-<h1> and <p> will be excuted only for Internet Explorer.

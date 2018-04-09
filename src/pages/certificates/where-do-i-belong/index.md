@@ -31,7 +31,7 @@ If there is no index for that number then you will have to deal with that case t
 
 ## Spoiler Alert!
 
-![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](//discourse-user-assets.s3.amazonaws.com/original/2X/2/2d6c412a50797771301e7ceabd554cef4edcd74d.gif)
+![warning sign](//discourse-user-assets.s3.amazonaws.com/original/2X/2/2d6c412a50797771301e7ceabd554cef4edcd74d.gif)
 
 **Solution ahead!**
 
@@ -50,7 +50,7 @@ If there is no index for that number then you will have to deal with that case t
       return arr.length;
     }
 
-![:rocket:</a> <a href='https://repl.it/CLjU/36' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLjU/36' target='_blank' rel='nofollow'>Run Code</a>
 
 ## Code Explanation:
 
@@ -74,7 +74,7 @@ If there is no index for that number then you will have to deal with that case t
 
     getIndexToIns([40, 60], 50);
 
-![:rocket:</a> <a href='https://repl.it/CLjU/2547' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLjU/2547' target='_blank' rel='nofollow'>Run Code</a>
 
 ## Code Explanation:
 
@@ -102,7 +102,7 @@ by [@HarinaPana](/u/harinapana)
 
     getIndexToIns([40, 60], 50);
 
-![:rocket:</a> <a href='https://repl.it/CLjU/4135' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLjU/4135' target='_blank' rel='nofollow'>Run Code</a>
 
 ## Code Explanation:
 
@@ -148,7 +148,7 @@ by [@faustodc](/u/faustodc)
 
     getIndexToIns(<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>40, 60], 500);
 
-![:rocket:</a> <a href='https://repl.it/CLjU/63' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLjU/63' target='_blank' rel='nofollow'>Run Code</a>
 
 ## Code Explanation:
 
@@ -174,7 +174,7 @@ by [@nivrith](/u/nivrith)
 
     getIndexToIns(<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>1,3,4],2);
 
-![:rocket:</a> <a href='https://repl.it/IUJE/0' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/IUJE/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ## Code Explanation:
 

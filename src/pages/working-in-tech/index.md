@@ -15,20 +15,33 @@ The field of computer security is growing at a rapid rate every year, in a repor
 
 _The following four are relevant in all walks of life:_
 
-About Face: The Essentials of Interaction Design: <https://amzn.to/2uwtugk>
+[About Face: The Essentials of Interaction Design](https://amzn.to/2uwtugk)
 
-Thinking in Systems: A Primer:  <https://amzn.to/2u6FbJF>
+[Thinking in Systems: A Primer](https://amzn.to/2u6FbJF)
 
-Thinking, Fast and Slow: <https://amzn.to/2tnnlTN>
+[Thinking, Fast and Slow](https://amzn.to/2tnnlTN)
 
-Learn You a Haskell for Great Good!: <https://amzn.to/2veOjdv>
+[Learn You a Haskell for Great Good!](https://amzn.to/2veOjdv)
 
-The Complete Software Developer's Career Guide: <https://simpleprogrammer.com/products/careerguide/>
 
-To see the full list, visit: <https://talkpython.fm/episodes/show/130/10-books-python-developers-should-be-reading>
+[The Complete Software Developer's Career Guide](https://simpleprogrammer.com/products/careerguide/)
 
 ## Podcasts to listen 
+[10 Books Python Developers should be reading - talkpython.fm](https://talkpython.fm/episodes/show/130/10-books-python-developers-should-be-reading)
+
 ## Articles to read 
 ## Videos to Watch
 
+## What Does a Typical Day at the Office Look Like?
 
+### In the Life of a... 
+
+Web Developer
+
+Web Designer
+
+App Developer
+
+Product Manager
+
+Etc...

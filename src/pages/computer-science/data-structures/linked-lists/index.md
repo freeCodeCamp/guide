@@ -1,8 +1,9 @@
 ---
 title: Linked Lists
 ---
+
 ## Linked Lists
- 
+
 #### A Linked List is a simple *linear-access* data structure. 
 A linked list is a simple data structure, but it can be used to implement more complicated Data Structures like Queues, Stacks, etc. There are three types of Linked Lists:
 
@@ -10,9 +11,19 @@ A linked list is a simple data structure, but it can be used to implement more c
 2. Doubly Linked List (or Double Ended Linked List)
 3. Circular Linked Lists (Ring Buffer)
 
+
+Linked List |  (Introduction)
+Like arrays, Linked List is a linear data structure. Unlike arrays, linked list elements are not stored at contiguous location; the elements are linked using pointers or like in the example using Javascript, a reference to the next node.
+
 If you want to understand Linked Lists, it helps to understand **Arrays**.
 
+
 To recap, an array is traditionally a **static** **linear** data structure that supports constant time random access. Insertions and Deletions are not always constant time.
+
+
+Advantages over arrays
+1) Dynamic size
+2) Ease of insertion/deletion
 
 ``` 
 static = size fixed at creation time
@@ -70,6 +81,60 @@ Drawbacks:
 1) Random access is not allowed. We have to access elements sequentially starting from the first node. So we cannot do binary search with linked lists.
 2) Extra memory space for a pointer is required with each element of the list
 
+
+Types:
+1) (Singly) linked lists contain nodes which have a data field as well as a 'next' field, which points to the next node in line of nodes. Operations that can be performed on singly linked lists include insertion, deletion and traversal.
+
+2) (Doubly) In a 'doubly linked list', each node contains, besides the next-node link, a second link field pointing to the 'previous' node in the sequence. The two links may be called 'forward('s') and 'backwards', or 'next' and 'prev'('previous').
+
+Example in Javascript:
+```
+function LinkedList () {
+		this.head = null;
+		this.tail = null;
+	}
+
+    // Node has three properties value, next, prev
+
+	function Node (value, next, prev) {
+
+		this.value = value;
+
+	// A 'pointer' referencing to the next Node (if present) otherwise null
+
+		this.next = next;
+
+	// A 'pointer' referencing the previous Node, otherwise null
+
+		this.prev = prev;
+	}
+
+    LinkedList.prototype.addToHead = function(value) {
+	
+		let newNode = new Node(value, this.head, null);
+
+		if (this.head) this.head.prev = newNode;
+
+		else this.tail = newNode;
+
+		this.head = newNode;
+	}
+
+
+
+
+```
+Now Execute code
+```
+let LL = new LinkedList();
+
+	LL.addToHead(100);
+
+	LL.addToHead(200);
+    
+	console.log(LL);
+
+```
 
 Representation in C:
 A linked list is represented by a pointer to the first node of the linked list. The first node is called head. If the linked list is empty, then value of head is NULL.
@@ -176,4 +241,3 @@ int main()
   return 0;
 }
 ```
-
