@@ -75,6 +75,8 @@ When in normal mode (press the `escape` key to make sure), you can search for an
 
 You can skip to the next occurrence of your search term by pressing `n`, or the previous occurrence by pressing `N`.
 
+If you want to highlight all the search matches type `:set hlsearch` or use the abbreviated command `:set hls`.
+
 ## Pasting blocks of code
 
 Very often you will find yourself looking for solutions to problems, and finding someone has written a block of code that does exactly what you want.
