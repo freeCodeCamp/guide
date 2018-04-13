@@ -11,7 +11,7 @@ Assembly languages are devided into different Instruction Set Architectures (ISA
 
 Assemblers decompose Assembly instructions into their respective binary representations. Assemblers replace the generic addresses of assembly code with explicit register and memory addresses of your computer.
 
-Programmers will write code in Assembly if exicution speed and control is absolutely paramount. Otherwise upperlevel languages are used for easier development. Programmers principally use Assembly in the following situations:
+Programmers will write code in Assembly if execution speed and control is absolutely paramount. Otherwise upperlevel languages are used for easier development. Programmers principally use Assembly in the following situations:
 * The software directly works with hardwares, such as device drivers.
 * It is necessary to use CPU instructions that are not available in the compilers of high-level languages.
 * Optimization plays primary role in software engineering, such as game development.
@@ -21,5 +21,4 @@ Programmers will write code in Assembly if exicution speed and control is absolu
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
 
