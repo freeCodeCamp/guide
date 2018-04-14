@@ -40,9 +40,7 @@ The pseudo code will look something like this:
 
 Another way to think about this problem is to start from an empty space. Introduce the first letter to the space. This space will now contain the first sub-permutation. Here's a diagram illustrating the idea:
 
-<div class="lightbox-wrapper">[![diagram](//discourse-user-assets.s3.amazonaws.com/optimized/2X/6/69896bacc8bd3b2e347beb4b304a7f97caa6d9ab_1_690x417.png)
-
-<div class="meta"><span class="filename">zFm5gRx.png</span><span class="informations">898x544 7.1 KB</span><span class="expand"></span></div>](//discourse-user-assets.s3.amazonaws.com/original/2X/6/69896bacc8bd3b2e347beb4b304a7f97caa6d9ab.png "zFm5gRx.png") </div>
+![diagram](//discourse-user-assets.s3.amazonaws.com/original/2X/6/69896bacc8bd3b2e347beb4b304a7f97caa6d9ab.png)
 
 ##### Non-Recursive Method
 
@@ -61,9 +59,7 @@ Finding each permutation could then be done non-recursively by including the abo
 
 A way to visualize this is by considering a tree that starts with the first character of your string:
 
-<div class="lightbox-wrapper">[![Permutation Tree](//discourse-user-assets.s3.amazonaws.com/optimized/2X/8/8187f2b06cdc02cf62286c18ce15bfcdc99bc68c_1_690x386.png)
-
-<div class="meta"><span class="filename">t8zNarc.png</span><span class="informations">951x533 12.7 KB</span><span class="expand"></span></div>](//discourse-user-assets.s3.amazonaws.com/original/2X/8/8187f2b06cdc02cf62286c18ce15bfcdc99bc68c.png "t8zNarc.png") </div>
+![Permutation Tree](//discourse-user-assets.s3.amazonaws.com/original/2X/8/8187f2b06cdc02cf62286c18ce15bfcdc99bc68c.png)
 
 #### Relevant Links
 
@@ -92,7 +88,7 @@ A way to visualize this is by considering a tree that starts with the first char
 
 ## Spoiler Alert!
 
-![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](//discourse-user-assets.s3.amazonaws.com/original/2X/2/2d6c412a50797771301e7ceabd554cef4edcd74d.gif)
+![warning sign](//discourse-user-assets.s3.amazonaws.com/original/2X/2/2d6c412a50797771301e7ceabd554cef4edcd74d.gif)
 
 **Solution ahead!**
 
@@ -145,7 +141,7 @@ A way to visualize this is by considering a tree that starts with the first char
     // Test here.
     permAlone('aab');
 
-![:rocket:</a> <a href='https://repl.it/CLop/0' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLop/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
