@@ -5,12 +5,12 @@ title: Hover
   The `selector:hover` pseudo-class is triggered whene you interact with the element (selector) with a pointing device generally a mouse pointer. The styles of the element hovered over will be overridden by style defined in `selector:hover` pseudo-class.<br>
 To style links/elements properly the rules should be defined in the order :- <br>
 :link - :visited - :hover - :active
-  
+
 **Syntax :**
-```
- selector:hover {
-    css declarations;
- }
+```css
+selector:hover {
+  css declarations;
+}
 ```
 
 #### More Information:

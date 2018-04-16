@@ -3,18 +3,18 @@ title: Text Shadow
 ---
 ## Text Shadow
 
-The `text-shadow` property adds shadow to text. 
-```css 
-  text-shadow: offset-x offset-y blur-radius color;
+The `text-shadow` property adds shadow to text.
+```css
+text-shadow: offset-x offset-y blur-radius color;
 ```
 
-### offset-x 
+### offset-x
 
 Sets the horizontal distance from the text. Accepts both positive and negative values. Positive values place shadow to the right of the text while a negative value places the shadow to the left.
 
 The `offset-x` value is required.
 
-### offset-y 
+### offset-y
 
 Sets the vertical distance from the text. Accepts both positive and negative values. Positive values place shadow to below the text while a negative value places the shadow above.
 
@@ -36,15 +36,15 @@ The `color` value is optional.
 
 ### Example
 
-```css 
-  text-shadow: 1px -2px 5px #a4a4a4;
+```css
+text-shadow: 1px -2px 5px #a4a4a4;
 ```
 
 ### Example of multiple shadows
 Multiple shadows can be used for giving text a solid outline on all 4 directions, like a bubble-writing effect.
 
 ```css
-  text-shadow: -1px 0 1px black, 0 1px 1px black, 1px 0 1px black, 0 -1px 1px black;
+text-shadow: -1px 0 1px black, 0 1px 1px black, 1px 0 1px black, 0 -1px 1px black;
 ```
 
 ### More Information:

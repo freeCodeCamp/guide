@@ -3,20 +3,20 @@ title: Border Property
 ---
 ## Border Property
 
-The `border` shorthand property sets all the border properties in one declaration. 
-```css 
-  border: 1px solid #000;
+The `border` shorthand property sets all the border properties in one declaration.
+```css
+border: 1px solid #000;
 ```
 
-The properties that can be set, are (in order): 
+The properties that can be set, are (in order):
 1. `border-width`
 2. `border-style`
 3. `border-color`
 
 It does not matter if one of the values above are missing, for example:
 
-```css 
-  border: solid red;
+```css
+border: solid red;
 ```
 The above code is also valid CSS.
 
@@ -29,25 +29,25 @@ The various values are:
 - `dashed` - Sets a dashed border.
 - `solid` - Sets a solid border.
 - `double` - Sets a double border.
-- `groove` - Sets a 3D grooved border. 
-- `ridge` - Sets a 3D ridged border. 
-- `inset` - Sets a 3D inset border. 
+- `groove` - Sets a 3D grooved border.
+- `ridge` - Sets a 3D ridged border.
+- `inset` - Sets a 3D inset border.
 - `outset` - Sets a 3D outset border.
 - `none` - Sets no border.
 - `hidden` - Sets a hidden border.
 
-Based on the property you choose, these styles can be mismatched. 
+Based on the property you choose, these styles can be mismatched.
 You can style each side seperately:
 ```css
-  border-top-style: solid;
-  border-left-style: dotted;
-  border-right-style: dashed;
-  border-bottom-style: double;
+border-top-style: solid;
+border-left-style: dotted;
+border-right-style: dashed;
+border-bottom-style: double;
 ```
 
 Or you can style them all at once:
 ```css
-  border-style: solid dashed double dotted;
+border-style: solid dashed double dotted;
 ```
 As shown, the border property allows you to select different sections of it. [top, bottom, left, right]
 
@@ -64,12 +64,12 @@ The `border-width` property can have from one to four values (for the top border
 ### Border-Radius
 The `border-radius` property allows the corners of a border to be rounded. This is done by providing a size for
 how much the border is to be rounded. Size can be in px or %.
-```css 
-  border-radius: 25px;
+```css
+border-radius: 25px;
 ```
 Each corner of `border-radius` can be adjusted. The order is top, bottom, left, right.
-```css 
-  border-radius: 15% 10px 30% 5px;
+```css
+border-radius: 15% 10px 30% 5px;
 ```
 
 ### More Information:
@@ -78,8 +78,8 @@ Each corner of `border-radius` can be adjusted. The order is top, bottom, left, 
 - [CSS3 Border Radius](https://guide.freecodecamp.org/css/css3-borders-rounded-corners)
 
 ### Other Border Attributes
-- 'border-radius' - This can set radius of the border. 
-- 'border-spacing' - This can set spacing between the text and border. 
-- 'border-image' - This sets an image as border. 
+- 'border-radius' - This can set radius of the border.
+- 'border-spacing' - This can set spacing between the text and border.
+- 'border-image' - This sets an image as border.
 
 Browser Support: IE6+

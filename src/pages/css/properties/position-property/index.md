@@ -6,11 +6,11 @@ title: Position Property
 The position property specifies the type of positioning method used for an element. It has five keyword values:
 
 ```css
-    .static         { position: static; }
-    .relative       { position: relative; }
-    .sticky         { position: sticky; }
-    .fixed          { position: fixed; }
-    .absolute       { position: absolute; }
+.static         { position: static; }
+.relative       { position: relative; }
+.sticky         { position: sticky; }
+.fixed          { position: fixed; }
+.absolute       { position: absolute; }
 ```
 
 #### More Information:

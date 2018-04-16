@@ -6,10 +6,10 @@ title: Text Align Property
 The text-align property specifies the horizontal alignment of text in an element.
 
 ```css
-    .text-align {
-        /* List of keyword values of text-align property*/
-        text-align: left|right|center|justify|initial|inherit;
-    }
+.text-align {
+    /* List of keyword values of text-align property*/
+    text-align: left|right|center|justify|initial|inherit;
+}
 ```
 
 #### More Information:

@@ -7,16 +7,16 @@ The CSS :visited selector changes the style of a link that has been visited by a
 
 If multiple CSS pseudo selectors are being used, the :visited selector must come after the :link selector.
 
-In the example below, after a user clicks on a link, the text color will change from black to green. 
+In the example below, after a user clicks on a link, the text color will change from black to green.
 
 ```css
- a {
-   color: black;
- }
- 
- a:visited {
-   color: green;
- }
+a {
+  color: black;
+}
+
+a:visited {
+  color: green;
+}
 ```
 
 Due to user privacy reasons, the :visited selector is limited to modifying the styles of the following CSS properties:

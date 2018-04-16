@@ -10,22 +10,22 @@ The background color property lets you choose the color of your element. This ca
 
 Here is an example of setting the background color for a web page to green.
 ```css
-  body {
-    background-color: green;
-  }
+body {
+  background-color: green;
+}
 ```
 ![fullbackground](https://user-images.githubusercontent.com/26467304/31036038-845567f2-a538-11e7-8e6c-8a52bb0d44b8.png)
 
-Here is an example of setting the colors for two elements. This will set the background of the header 
+Here is an example of setting the colors for two elements. This will set the background of the header
 to purple and the rest of the page to blue.
 
 ```css
-  body {
-    background-color: blue;
-  }
-  h1 {
-    background–color: purple;
-  }
+body {
+  background-color: blue;
+}
+h1 {
+  background–color: purple;
+}
 ```
 ![twobackground](https://user-images.githubusercontent.com/26467304/31036152-0607936a-a539-11e7-9e9f-a5e60ade042d.png)
 
@@ -35,7 +35,7 @@ In CSS color can be defined in three ways:
 * An RGB value such as `rgb(76,175,80)` (This is the RGB value for light green.)
 
 ### Background Images
-You can use the background image property to set an image as a background for an element. 
+You can use the background image property to set an image as a background for an element.
 The image is repeated by default so that it covers the entire element.
 ```css
 body {
@@ -108,7 +108,7 @@ body {
 ![fixed](https://user-images.githubusercontent.com/26467304/31039859-39612c92-a54f-11e7-93ca-9d7bcb938225.PNG)
 
 ### Background Gradients
-A gradient is a transition between two or more colors and can be used via CSS similar to a background image.  
+A gradient is a transition between two or more colors and can be used via CSS similar to a background image.
 
 The syntax of a gradient background can be quite complex and is often still used with vendor prefixes due to inconsistencies between supported browsers.
 
@@ -121,7 +121,7 @@ body {
   background: url("barn.jpg") no-repeat right top;
 }
 ```
-You can leave out properties you don’t need when using the shorthand property, but the properties 
+You can leave out properties you don’t need when using the shorthand property, but the properties
 must be used in a certain order. The order is:
 * color
 * image

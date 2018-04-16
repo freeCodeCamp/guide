@@ -27,7 +27,7 @@ To change the background color of a button, use the background-color property:
 
 To add a colored border to a button, use the border property:
 
-```
+```css
 button {
   background-color: #FFF;
   color: #FFF;
@@ -78,7 +78,7 @@ To create rounded buttons, use the border-radius property:
 
 To change the style of a button when you move the mouse over it, use the :hover selector:
 
-```
+```css
 button:hover {
   background-color: #0E2C5B;
   color: #FFF;
@@ -92,7 +92,7 @@ button:hover {
 
 To disable a button, use the cursor property:
 
-```
+```css
 button {
   cursor: not-allowed;
 }

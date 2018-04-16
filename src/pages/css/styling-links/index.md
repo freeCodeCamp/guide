@@ -30,10 +30,12 @@ a:active { color: blue; }
 * ```a:hover``` MUST come after ```a:link``` and ```a:visited```
 * ```a:active``` MUST come after ```a:hover```
 
-    a:link - a normal, unvisited link
-    a:visited - a link the user has visited
-    a:hover - a link when the user mouses over it
-    a:active - a link the moment it is clicked
+```css
+a:link - a normal, unvisited link
+a:visited - a link the user has visited
+a:hover - a link when the user mouses over it
+a:active - a link the moment it is clicked
+```
 
 ```css
 /* unvisited link */
@@ -54,7 +56,7 @@ a:hover {
 /* selected link */
 a:active {
     color: blue;
-} 
+}
 ```
 #### More Information:
 https://www.w3schools.com/css/css_link.asp
