@@ -12,4 +12,5 @@ The @media part of the code changes the color of the background depending on the
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
-<a href="https://www.w3schools.com/cssref/css3_pr_mediaquery.asp"> W3Schools @media rule. <a>
+<a href="https://www.w3schools.com/cssref/css3_pr_mediaquery.asp"> W3Schools @media rule. </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@media"> MDN @media rule. </a>
