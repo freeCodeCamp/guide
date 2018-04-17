@@ -3,7 +3,7 @@ title: Learn About Python Lists
 ---
 **TODO: `list` basic info**
 
-<a href='https://docs.python.org/3/library/stdtypes.html#lists' target='_blank' rel='nofollow'>Python Docs - Lists</a>
+[Python Docs - Lists](https://docs.python.org/3/library/stdtypes.html#lists)
 
 **Creation:**
 
@@ -79,7 +79,7 @@ Elements from a `list` may be extracted and re-arranged using another `list` as 
 
 **TODO: Which of these should be discussed here:**
 
-<a href='https://docs.python.org/3/tutorial/datastructures.html#more-on-lists' target='_blank' rel='nofollow'>Python Docs - More on Lists</a>:
+[Python Docs - More on Lists](https://docs.python.org/3/tutorial/datastructures.html#more-on-lists)
 
 *   `list.append(x)` Add an item to the end of the list. Equivalent to a[len(a):] = [x].
 
