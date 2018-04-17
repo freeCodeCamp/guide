@@ -44,7 +44,7 @@ If you want to change a property labeled with more than one word, refer to this 
 To change `background-color` of a element
 
 ```js
-    $('#element').css('background-color': 'gray');
+    $('#element').css('background-color', 'gray');
 ```
 
 #### More Information:
