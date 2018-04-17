@@ -3,62 +3,56 @@ title: CSS3 Nth Child Selector
 ---
 ## CSS3 Nth Child Selector
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-The :nth-child selector is a pseudo-selector, that is useful in selecting elements based on their order of occurrence in their parent container. 
+The `nth-child` selector is a css psuedo-class taking a pattern by which to match one or more elements relative to their position amongst siblings.
 
 ## Syntax
 
-```
-selector:nth-child(expression) {
-    // css declarations
-}
-```
-The expression could be either a number, a keyword such as "odd" or "even" or a notation in the form "an+b". An thing to note here is that the syntax does not specify the parent container. The selector specifies the element type to select and the expression determines the constraint on the order of occurrence of the element.
-
-For example, div:nth-child(3) would select all the third 'div' elements. If no such 'div' element exists that is the third element in its container, nothing gets affected. In the example given below, there is no such div that is the third element in its container.
-
-```
-<div class='parent-container'>
-  <div id='first-child'></div>
-  <div id='second-child'>
-    <div id='second-childs-first-child'></div> 
-    <div id='second-childs-second-child'></div> 
-    <p id='second-childs-third-child'></p> 
-  </div>
-  <span id='third-child'></span>
-  <span id='fourth-child'></span>
-  <p id='fifth-child'></p>
-</div>
+```css 
+  a:nth-child(pattern) {
+    /* Css goes here */
+  }
 ```
 
-### Simple Examples
+### Pattern
 
-To assign a gray background to every odd row in a table - 
-```
-tr:nth-child(odd) {
-    background-color: gray
-}
-```
+The patterns accepted by `nth-child` can come in the form of keywords or an equation of the form An+B.
 
-To assign a red background to every div that is the second child in its own container -
-```
-div:nth-child(2) {
-    background-color: red
-}
-```
+#### Keywords
 
-To assign styles to a row after every two rows such as the first row, the fourth row, the seventh row and so on - 
-```
-tr:nth-child(3n+1) {
-    background-color: blue
-}
+##### Odd
+
+Odd returns all odd elements of a given type.
+
+```css 
+  a:nth-childe(odd) {
+    /* CSS goes here */
+  }
 ```
 
+##### Even
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-https://css-tricks.com/almanac/selectors/n/nth-child/
-https://www.w3schools.com/cssref/sel_nth-child.asp
-https://css-tricks.com/examples/nth-child-tester/
+Even returns all even elements of a given type.
 
+```css 
+  a:nth-childe(even) {
+    /* CSS goes here */
+  }
+```
 
+#### An+B
+
+Returns all elements matching the equation An+B for every positive integer value of n (in addition to 0).
+
+For example, the following will match every 3rd anchor element:
+```css 
+  a:nth-childe(3n) {
+    /* CSS goes here */
+  }
+```
+
+### More Information:
+
+<a href='https://developer.mozilla.org/en-US/docs/Web/CSS/%3Anth-child' target='_blank' rel='nofollow'>MDN Documentation</a>
+<a href='https://css-tricks.com/almanac/selectors/n/nth-child/' target='_blank' rel='nofollow'>CSS Tricks - nth child selector</a>
+<a href='https://css-tricks.com/examples/nth-child-tester/' target='_blank' rel='nofollow'>CSS Tricks - nth child tester</a>
+<a href='https://www.w3schools.com/cssref/sel_nth-child.asp' target='_blank' rel='nofollow'>W3Scools - nth child selector</a>
