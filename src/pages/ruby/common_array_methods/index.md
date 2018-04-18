@@ -96,14 +96,6 @@ array.unshift(1)
 => [1, 2, 3]
 ```
 
-#### .unshift
-The .unshift method will prepend an element to the beginning of an array:
-
-``` ruby
-array.unshift(-1)
-=> [-1, 0, 1, 2, 3, 4]
-```
-
 #### .delete
 The .delete method removes a specified element from an array permanently:
 
