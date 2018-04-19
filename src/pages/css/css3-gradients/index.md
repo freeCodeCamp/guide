@@ -3,7 +3,7 @@ title: CSS3 Gradients
 ---
 ## CSS3 Gradients
 
-Css3 lets you use gradients instead of solid colours. A gradient is one colour merging into another one. 
+CSS3 lets you use gradients instead of solid colours. A gradient is one colour merging into another one. 
 
 ```css
     .linear-gradient { 
@@ -17,15 +17,9 @@ Css3 lets you use gradients instead of solid colours. A gradient is one colour m
 ![Image of red to yellow gradient example - towards right](https://ejke.github.io/else/linear_gradient.png)
 
 The syntax is <br/>
-<i>background: linear-gradient(direction, color-stop1, color-stop2, ...);</i><br/>
-<i>background: radial-gradient(shape size at position, start-color, ..., last-color);</i>
+`background: linear-gradient(direction, color-stop1, color-stop2, ...);`
+`background: radial-gradient(shape size at position, start-color, ..., last-color);`
 
-
-<!--This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/css3-gradients/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.-->
-
-<!--<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.-->
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 <b>CSS3 Gradients</b> let you display smooth transitions between 2 or more colors.
 
 #### More Information:
