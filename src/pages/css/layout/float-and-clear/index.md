@@ -19,7 +19,7 @@ The `float` property can have one of the following values:
 In its simplest use, the `float` property can be used to wrap text around images.
 
 #### Float in Picture: 
-![alt text]( "css-tricks-float-img")
+![float image for print layout](https://github.com/jamal-pb95/guides/blob/master/assets/css3-float-print-layout.png "css-tricks-float-img")
 
 ```
 img {
@@ -28,6 +28,7 @@ img {
 ```
 This example specifies that an image should float to the right in a page:
 
+![Float image for web layout](https://github.com/jamal-pb95/guides/blob/master/assets/css3-float-web-text-wrap.png "float img web")
 ```
 img {
     float: left;
@@ -60,12 +61,14 @@ When clearing floats, you should match the `clear` to the `float`. If an element
 
 #### Example:
 ![unclear footer image](https://github.com/jamal-pb95/guides/blob/master/assets/unclearedfooter.png "unclear footer image")
+Source: CSS-TRICS
 ```
 div {
     clear: left;
 }
 ```
 ![clear footer image](https://github.com/jamal-pb95/guides/blob/master/assets/clearedfooter.png "clear footer image")
+Source: CSS-TRICS
 
 ### Additional Resources:
 - MDN CSS: [Float](https://developer.mozilla.org/en-US/docs/Web/CSS/float) & [Clear](https://developer.mozilla.org/en-US/docs/Web/CSS/clear)
