@@ -32,7 +32,7 @@ Unity Technologies calls this bundling of a third-party SDK an "industry first".
 Two other programming languages were supported: Boo, which was deprecated with the release of Unity 5 and UnityScript which was deprecated in August 2017 after the release of Unity 2017.1.
 
 Unity formerly supported 7 other platforms including its own Unity Web Player.
-Unity Web Player was a browser plugin that was supported in Windows and OS X only,[16] which has been deprecated in favor of WebGL.
+Unity Web Player was a browser plugin that was supported in Windows and OS X only, which has been deprecated in favor of WebGL.
 
 
 Unity is the engine used by Rust, Kerbal Space Program, and Cup Head.
