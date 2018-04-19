@@ -86,6 +86,7 @@ Which would end up looking like so:
 </dl>
 
 #### More Information:
+Lists can be used for navigation bars in webpages!
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 * [HTML lists on w3schools](https://www.w3schools.com/html/html_lists.asp)
 
