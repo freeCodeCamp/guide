@@ -8,6 +8,11 @@ Linux is an open source, unix based operating system created in 1991 by Linus To
 
 There are also many versions of Linux designed to be run on personal computers, such as Debian or Ubuntu. More importantly, these different versions of Linux (called distributions) allow the user varying degrees of personalization and control of the operating system. This means that users can choose their Linux distributions based on their wants and needs.  
 
+<!-- Linux Importance-->
+
+## Linux Importance
+Linux is widely used on server as it is more secure than any other operating system. If you gain expertise on this OS then it is really beneficial for you to work with the servers. Linux is really vast in terms of learning, so learn as much as you can. Many hackers and developers use different linux distros like Kali linux, Ubuntu, Mint OS, etc as it provides us with a lot of tools to work with. 
+
 
 There is also Kali Linux which is used for advanced penetration testing and auditing. It has over 700 tools, to be able to use it efficiently you will need to know how to use command line. It is not advised for beginners.
 
