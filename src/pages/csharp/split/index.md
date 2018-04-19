@@ -3,9 +3,9 @@ title: Split
 ---
 
 # Split Method
+<code>String.Split</code> breaks a string into sub-strings. it takes a character as input, which is used as a separator. the method  returns an array - each element of that array a part of the original string.
 
-`String.Split` method can parse a string: As input, Split takes an characters that indicate which characters is the separator generating an array of the sub strings.
-
+<code>String.Split</code> can be used for turning a sentence into its word components:
 ## Example
 ```
 string myText = "I like pizza";
