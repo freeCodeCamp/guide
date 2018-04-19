@@ -18,6 +18,9 @@ The `float` property can have one of the following values:
 `inherit` - The element inherits the float value of its parent
 In its simplest use, the `float` property can be used to wrap text around images.
 
+#### Float in Picture: 
+![alt text]( "css-tricks-float-img")
+
 ```
 img {
     float: right;
@@ -56,12 +59,13 @@ The most common way to use the `clear` property is after you have used a `float`
 When clearing floats, you should match the `clear` to the `float`. If an element is floated to the `left`, then you should `clear` to the `left`. Your floated element will continue to `float`, but the cleared element will appear below it on the web page.
 
 #### Example:
+![alt text](assets/unclearedfooter.png "unclear footer image")
 ```
 div {
     clear: left;
 }
 ```
-
+![alt text](assets/clearedfooter.png "clear footer image")
 
 ### Additional Resources:
 - MDN CSS: [Float](https://developer.mozilla.org/en-US/docs/Web/CSS/float) & [Clear](https://developer.mozilla.org/en-US/docs/Web/CSS/clear)
