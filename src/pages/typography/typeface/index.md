@@ -3,13 +3,16 @@ title: Typeface
 ---
 ## Typeface
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/typography/typeface/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+A typeface is a design for a set of printer or display font(s), each for a set of characters, in a number of specific sizes. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Typefaces often come as a family of typefaces, with individual typefaces for italic, bold, and other variations in the main design.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Readers shouldn't be confused and/or misunderstood the difference between a typeface and a font as both of these terms are widely used interchangably, though there is a subtle difference between the two.
+
+A typeface is more of a type or family or category of a character that is printed or displayed on a page or the screen; whereas the font is more of a visual appearance or the display of that particular typeface.
+
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+<a href='http://whatis.techtarget.com/definition/typeface' target='_blank' rel='nofollow'>Typeface</a>.
 
 
