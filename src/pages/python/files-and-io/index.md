@@ -3,6 +3,7 @@ title: Files and IO
 ---
 
 ## Files and IO
+Interacting with various filetypes, such as .CSV (used to transfer data in a spreadsheet-like format) or .INI (configuration files), are essential in programming. While it may not be obvious to the user, file IO is the behind-the-scenes driver that is reading, manipulating, and storing data.
 
 ### Output to Screen
 Python provides the simplest way to produce output to the screen. 
@@ -45,7 +46,7 @@ Enter input: [x*5 for x in range(2,10,2)]
 Input: [10,20,30,40]
 ```
 ### Interacting with Files in Python
-Using Python, files can be easily opened, read, written and closed. With the available functions :
+Using Python, files can be easily opened, read, written and closed. There are a number of functions to get started with file IO:
   1. <code>open()</code>
   2. <code>read()</code>
   3. <code>write()</code>
