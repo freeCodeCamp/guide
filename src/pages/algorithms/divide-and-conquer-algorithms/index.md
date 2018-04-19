@@ -25,3 +25,4 @@ Following are some standard algorithms that are Divide and Conquer algorithms.
 
 6) Cooley–Tukey Fast Fourier Transform (FFT) algorithm is the most common algorithm for FFT. It is a divide and conquer algorithm which works in O(nlogn) time.
 
+7) Karatsuba Algorithm is an efficient way to multiply two numbers x and y as opposed to using the classical approach, which takes O(n^2) time. The point of the Karatsuba algorithm is to break large numbers down into smaller numbers so that any multiplications that occur happen on smaller numbers, and has a running time of O(n^1.59). 
