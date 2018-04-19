@@ -12,4 +12,5 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
+An empathy map is a collaborative tool teams can use to gain a deeper insight into their customers. Much like a user persona, an empathy map can represent a group of users, such as a customer segment.
 
