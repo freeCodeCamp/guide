@@ -69,3 +69,18 @@ System.out.println("The sum of the first 50 numbers is: " + 50);
 ### Extras
 
 You cannot use a number (old C-style language construct) or anything that does not evaluate to a boolean value as a condition for an if statement or looping construct. You can't, for example, say if(x), unless x is a boolean variable.
+
+Example
+```
+for (int i=0; i<100; i++) {
+  System.out.println("i:" + i);
+}
+```
+This loop prints:
+i:0
+i:1
+i:2
+i:3
+i:4
+...
+i:99
