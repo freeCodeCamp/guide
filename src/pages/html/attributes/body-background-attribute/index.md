@@ -18,7 +18,11 @@ Attribute:
 
 Example:
 ```html
+<!DOCTYPE HTML>
 <html>
+<HEAD>
+  <TITLE>TITLE</TITLE>
+  </HEAD>
   <body background="image.jpg">
   </body>
 </html>
