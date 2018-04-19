@@ -3,13 +3,21 @@ title: Area of Triangles
 ---
 ## Area of Triangles
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/area-of-triangles/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Given a triangle we can find out its area with different approaches.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+## Given the length of the base and the height (or altitude)
+base: `a`
+height: `h`
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+`Area = (a*h)/2`
+
+## Given a length of two sides and an angle between them:
+sides: `a, b`
+angle: `\alpha`
+
+`Area = a * b * sin(\alpha)`
+
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
+https://en.wikipedia.org/wiki/Triangle#Computing_the_area_of_a_triangle
 
