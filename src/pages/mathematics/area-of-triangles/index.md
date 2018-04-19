@@ -3,13 +3,12 @@ title: Area of Triangles
 ---
 ## Area of Triangles
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/area-of-triangles/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+The area of a triangle can be found by calculating one half base times height.
+A = 1/2bh
+For example, if you have a triangle with a base of 2cm and a height of 4cm, you would have an area of 4.
+1/2(2cm) x 4cm = 4cm
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+https://www.khanacademy.org/math/basic-geo/basic-geo-area-and-perimeter/area-triangle/a/area-of-triangle
 
 
