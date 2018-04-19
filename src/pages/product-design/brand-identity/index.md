@@ -3,13 +3,11 @@ title: Brand Identity
 ---
 ## Brand Identity
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/product-design/brand-identity/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Make sure you create a brand not only with the logo. Brand identity is about all usages and applications a brand may have passing its essence with ease.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+It's a manual showing where the identity may be inserted, based on design patterns.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+When creating a brand identity, understand about your client, about its aspirations, its vision of the world and the problem it is helping to solve.
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
+Apply that identity to things that matter and make sense to that brand.
 
