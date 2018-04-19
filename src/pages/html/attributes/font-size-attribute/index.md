@@ -3,13 +3,20 @@ title: Font Size Attribute
 ---
 ## Font Size Attribute
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/attributes/font-size-attribute/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+This attribute specifies the font size as either a numeric or relative value. Numeric values range from `1` to `7` with `1` being the smallest and `3` the default. It can also be defined using a relative value, like `+2` or `-3`, which set it relative to the value of the size attribute of the `<basefont>` element, or relative to `3`, the default value, if none does exist.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Syntax: 
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+`<font size="number">
+`
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+Example:
+```html
+<html>
+  <body>
+    <font size="6">This is some text!</font>
+  </body>
+</html>
+```
 
-
+Note : `The size attribute of <font> is not supported in HTML5. Use CSS instead.`

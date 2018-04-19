@@ -2,20 +2,9 @@
 title: Form Validation
 ---
 ## Form Validation
-
 Form validation normally used to occur at the server, after the client had entered all the necessary data and then pressed the Submit button. If the data entered by a client was incorrect or was simply missing, the server would have to send all the data back to the client and request that the form be resubmitted with correct information. This was really a lengthy process which used to put a lot of burden on the server.
 
-JavaScript provides a way to validate form's data on the client's computer before sending it to the web server. Form validation generally performs two functions.
-
-   + **Basic Validation** - First of all, the form must be checked to make sure all the mandatory fields are filled in. It would require just a loop through each field in the form and check for data.
-
-   + **Data Format Validation** - Secondly, the data that is entered must be checked for correct form and value. Your code must include appropriate logic to test correctness of data.
-   
-### Example:
-
-We will take an example to understand the process of validation. Here is a simple form in html format.
-
-```
+```html
 <html>
    
    <head>
@@ -72,17 +61,17 @@ We will take an example to understand the process of validation. Here is a simpl
 </html>
 ```
 
-### Output : [Run on Liveweave](https://liveweave.com/LP9eOP)
+#### Output
+Lookout [here](https://liveweave.com/LP9eOP)
 
-## Basic Form Validation
+### Basic Form Validation
 
-First let us see how to do a basic form validation. In the above form, we are calling **validate()** to validate data when **onsubmit** event is occurring. The following code shows the implementation of this **validate()** function.
+First let us see how to do a basic form validation. In the above form, we are calling validate() to validate data when onsubmit event is occurring. The following code shows the implementation of this validate() function.
 
-```
+```html
 <script type="text/javascript">
-   <!--
-      // Form validation code will come here.
-      function validate()
+   // Form validation code will come here.
+   function validate()
       {
       
          if( document.myForm.Name.value == "" )
@@ -115,24 +104,23 @@ First let us see how to do a basic form validation. In the above form, we are ca
          }
          return( true );
       }
-   //-->
 </script>
 ```
 
-### Output : [Run on liveweave](https://liveweave.com/pCPTnP)
+#### Output
+Lookout [here](https://liveweave.com/pCPTnP)
 
-## Data Format Validation
+### Data Format Validation
 
 Now we will see how we can validate our entered form data before submitting it to the web server.
 
 The following example shows how to validate an entered email address. An email address must contain at least a ‘@’ sign and a dot (.). Also, the ‘@’ must not be the first character of the email address, and the last dot must at least be one character after the ‘@’ sign.
 
-### Example
+#### Example:
 
-```
+```html
 <script type="text/javascript">
-   <!--
-      function validateEmail()
+    function validateEmail()
       {
          var emailID = document.myForm.EMail.value;
          atpos = emailID.indexOf("@");
@@ -146,17 +134,12 @@ The following example shows how to validate an entered email address. An email a
          }
          return( true );
       }
-   //-->
 </script>
 ```
 
-### Output : [Run on liveweve](https://liveweave.com/nznVs6)
+#### Output
+Lookout [here](https://liveweave.com/nznVs6)
 
-## More Information:
-
-[MDN Documentation](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Form_validation) ||| 
+## More Information About Form Validation
+[MDN Reference](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Form_validation)<br />
 [Tutorialspoint](https://www.tutorialspoint.com/javascript/javascript_form_validations.htm)
-
-
-
-

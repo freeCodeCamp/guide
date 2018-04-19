@@ -38,7 +38,7 @@ var Queue = function() {
             queue[back++] = elem;
         },
         remove: function() {
-            if(!this.isEmpty()) {
+            if (!this.isEmpty()) {
                 return queue[front++]; // or queue.shift()
             }
             else {
@@ -46,7 +46,7 @@ var Queue = function() {
             }
         },
         peek: function() {
-            if(!this.isEmpty()) {
+            if (!this.isEmpty()) {
                 return queue[front];
             }
         }
@@ -77,4 +77,5 @@ console.log(queue.remove()); // exception
 
 * <a href='http://www.geeksforgeeks.org/queue-data-structure/' target='_blank' rel='nofollow'>More Info on Queues - GeeksForGeeks</a>  
 * <a href='https://www.hackerrank.com/domains/data-structures/queues' target='_blank' rel='nofollow'>Solve Challenges using Queues - Hackerrank</a>
+* <a href="https://www.youtube.com/watch?v=wjI1WNcIntg" target ="_blank" rel="nofollow">HackerRank Stacks and Queues Video</a>
 
