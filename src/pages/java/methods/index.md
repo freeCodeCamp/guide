@@ -6,6 +6,16 @@ The most recognizable method in Java is probably `public static void main(String
 
 Each method has a signature, which is the combination of the data type, the name, and the number of arguments the method takes. In `public static void main` the method does not have a specified data type and instead uses `void` to declare that no data is returned. In a method named `public static double ave(double val, double val)` the data type is "double" (0.0), the name is "ave" (average) and the method takes 2 arguments. Each method **must** have a unique signature.
 
+In java, methods are generally used to access the private data members of a class and perform a task.
+
+Syntax of a method in java:
+```java
+Access-specifier Return-type Method-name(Arguments){
+
+}
+```
+
+***Example:***
 `getName()` and `getManufacturerName()` are two "Getter" methods we have used here. Notice, unlike JavaScript, we **have** to define the return type of any method we write, otherwise it will fail at compile time. If you do not want a method to return anything, use `void` return type.
 
 ```java
