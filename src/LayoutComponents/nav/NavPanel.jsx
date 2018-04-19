@@ -37,20 +37,16 @@ function NoArticles() {
 class NavPanel extends PureComponent {
   constructor() {
     super();
-
-    this.renderHeader = this.renderHeader.bind(this);
-    this.handleHeaderClick = this.handleHeaderClick.bind(this);
-    this.renderBody = this.renderBody.bind(this);
   }
 
-  handleHeaderClick() {
+  handleHeaderClick = () => {
     const { push } = this.context.router.history;
     const { path, handleClick } = this.props;
     handleClick(path);
     push(path);
   }
 
-  renderHeader() {
+  renderHeader = () => {
     const { isExpanded, title } = this.props;
     return (
       <div className='title' onClick={ this.handleHeaderClick }>
@@ -67,7 +63,7 @@ class NavPanel extends PureComponent {
     );
   }
 
-  renderBody() {
+  renderBody = () => {
     const { categoryChildren, children, isExpanded } = this.props;
     const childrenWithChildren = children.filter(child => child.props.children);
     const uniqueChildren = childrenWithChildren
