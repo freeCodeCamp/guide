@@ -21,6 +21,7 @@ The display property specifies the type of box used for an HTML element. It has 
 ### More Information: 
 
 Docs and full list of keyword values: <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/display' target='_blank' rel='nofollow'>MDN</a>
+[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/display)
 
 Browser Support: <a href='http://caniuse.com/#search=display' target='_blank' rel='nofollow'>caniuse</a>
 
