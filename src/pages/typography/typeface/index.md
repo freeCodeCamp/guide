@@ -3,13 +3,16 @@ title: Typeface
 ---
 ## Typeface
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/typography/typeface/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+A typeface is a set of fonts, also known as font family.
+Typefaces are seperated into categories according to their distinct design features:
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+- Serif
+- Sans Serif
+- Script
+- Display/decorative
+- Monospace
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+For a more comprehensive list of typefaces, see [List of typefaces](https://en.wikipedia.org/wiki/List_of_typefaces)
+[Typography Handbook](http://typographyhandbook.com)
