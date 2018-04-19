@@ -31,6 +31,13 @@ mixed_array.length # 3
 [].length # 0
 ```
 
+You can easily make an array from a range of numbers with the `.to_a` method
+
+```ruby
+range_array = (1..10)
+=> [1, 2, 3...]
+```
+
 #### Ruby Lambda
 A lambda is also commonly referred to as an anonymous function. To create a lambda in Ruby, you can use the following syntax:
 ```ruby
