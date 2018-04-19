@@ -3,13 +3,10 @@ title: Algebra
 ---
 ## Algebra
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/algebra/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Algebra is a branch of mathematics that substitutes letters for numbers to solve for unknown values. Algebra can include real numbers, complex numbers, matrices, vectors, and many more forms of numerical representations.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+In algebra, the manipulation that occurs to the expression on one side of the equal sign also happens to the other. This maintains equality and consistency of the sought-after value.
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+For videos relating to algebra topics and examples: https://www.khanacademy.org/math/algebra/introduction-to-algebra
