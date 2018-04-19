@@ -47,3 +47,5 @@ System.out.println("Full Car Name = " + modelS.getManufacturerName() + " " + mod
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CJZP/0' target='_blank' rel='nofollow'>Run Code</a>
 
 So, `Car` is a class, which has the fields or properties name and manufacturerName. `modelS` is an object of `Car` class. So `modelS` also has the same properties and methods.
+
+Also the main key method to remember is the Constructor method because this is how new objects get created and if the overload doesnt match for trying to create new objects then you will either have null object fields or simply compiler errors.
