@@ -12,7 +12,7 @@
 
 The freeCodeCamp community is building a massive, searchable **"Guide"**.
 
-This reference tool will eventually include thousands of articles that cover all areas of development, design, and data science - all written to be easily understood by people new to coding.
+This reference tool will eventually include thousands of articles that cover all areas of development, design, and data science—all written to be easily understood by people new to coding.
 
 This repo is where we plan and maintain these Guide articles, which we then host on our community's wiki-like Guide website at [`guide.freecodecamp.org`](https://guide.freecodecamp.org).
 
@@ -28,7 +28,7 @@ You can find an [example article about HTML Elements here](./src/pages/html/elem
 
 Front-end development (adjective form with a dash) is when you are working on the front end (noun form with no dash). The same goes with the back end, full stack, and many other compound terms.
 
-We welcome your help writing these articles. You don't have to be an expert in a topic to write about it - this entire Guide is open source, so even if you make a mistake, another contributor will eventually correct it.
+We welcome your help writing these articles. You don't have to be an expert in a topic to write about it—this entire Guide is open source, so even if you make a mistake, another contributor will eventually correct it.
 
 To help, find a `stub article` on our [Guide website](https://guide.freecodecamp.org/), write the article, then open a pull request (PR) to replace the stub with your article. A [pull request](https://help.github.com/articles/about-pull-requests/) is how you'll suggest changes. It lets others know about your changes, review them and adopt them.
 
@@ -44,9 +44,9 @@ Before you begin writing, make sure to read the [article style guide](https://gi
 2. 👀️ Follow the contributing guidelines outlined in [CONTRIBUTING.md](CONTRIBUTING.md).
 3. 🔧 Make some awesome changes!
 4. 👉 [Make a pull request](https://github.com/freeCodeCamp/guide/compare)
-5. 🎉 Get your pull request approved - success!
+5. 🎉 Get your pull request approved—success!
 
-Or just [create an issue](https://github.com/freeCodeCamp/guide/issues) - any little bit of help counts! 😊
+Or just [create an issue](https://github.com/freeCodeCamp/guide/issues)—any little bit of help counts! 😊
 
 ## License
 
