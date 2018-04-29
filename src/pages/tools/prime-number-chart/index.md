@@ -14,5 +14,5 @@ title: Prime Number Chart
 | 73 | 79 | 83 | 89 | 97 |
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-[WolframMathWorld:Prime Numbers](http://mathworld.wolfram.com/PrimeNumber.html)
+<a href='http://mathworld.wolfram.com/PrimeNumber.html' target='_blank' rel='nofollow'>WolframMathWorld:Prime Numbers</a>
 

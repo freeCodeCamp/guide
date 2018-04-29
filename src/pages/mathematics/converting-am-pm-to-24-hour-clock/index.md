@@ -1,9 +1,14 @@
 ---
 title: Converting AM/PM to 24 Hour Clock
 ---
+
 ## Converting AM/PM to 24 Hour Clock
 
-24-hour clock system is another way to tell time besides using AM or PM (12-hour system). Table below show the conversion between 12-hour clock system and 24-hour clock system.
+There are two main ways to show the time: "12-Hour Clock" or "a.m./p.m.": 24-Hour Clock.
+
+Most countries prefer the 24-Hour Clock, yet, in Latin America and English-speaking countries the 12-Hour Clock is broadly used, where twice a day it is 12:00, at midnight and at noon. To distinguish between both, you can add a.m. or p.m. respectively.
+
+Table below show the conversion between 12-hour clock system and 24-hour clock system.
 
 | 12-hour clock system|24-hour clock system|
 | -------------       |:-------------:     |
@@ -32,18 +37,53 @@ title: Converting AM/PM to 24 Hour Clock
 | 10:00 PM            | 22:00              |
 | 11:00 PM            | 23:00              |
 
-As shown in the table above, from 12:00 AM until 12.00 PM the notation is similar between 12-hour clock system and 24-hour clock system. But start from 01.00 PM until 11.00 PM, we need to add 12 hours. Fun thing about 12 hours system is we do not to include AM nor PM to differentiate between day or night.
+## 12-hour Clock (a.m./p.m.)
 
-#### More Examples:
-04:30 AM = 04:30
+The day is split into 12 hours running from Midnight to Noon (a.m. hours) and 12 hours running from Noon to Midnight (p.m. hours).
 
-12.45 AM = 00:45
+The abbreviations “a.m. and p.m.” derive from Latin:
 
-12.45 PM = 12:45
+- a.m.: Ante Meridiem = Before Noon.
+- p.m.: Post Meridiem = Afternoon.
 
-01:28 PM = 13:28
+## 24-hour Clock
 
-11.59 PM = 23:59
+The day runs from midnight to midnight and is divided into 24 hours, indicated by the hours passed since midnight, from 0 to 23.
+
+## Converting AM/PM to 24 Hour Clock
+
+### From the first hour of the day (12:00 am (Midnight) to 12:59 am), and subtract 12 hours.
+
+- 12:00 a.m. = 0:00
+- 12:15 a.m. = 0:15
+
+### From 1:00 a.m. to 12:59 p.m., remains the same.
+
+- 9:00 a.m. = 9:00
+- 12:59 p.m. = 12:59
+
+### From 1:00 p.m. to 11:59 p.m., add 12 hours.
+
+- 3:17 p.m. = 15:17
+- 11:59 p.m. = 23:59.
+
+## Converting 24-hour Clock to a.m/p.m
+
+### For the first hour of the day (0:00 to 0:59), add 12 hours and add the “a.m.” termination.
+
+- 0:30 = 12:30 a.m.
+- 0:55 = 12:55 a.m.
+
+### From 1:00 to 11:59, just add the “a.m.” termination.
+
+- 2:25 = 2:25 a.m.
+- 9:30 = 9:30 a.m.
+
+### From 13:00 to 23:59, subtract 12 hours, and add the “p.m.” termination.
+
+- 16:55 = 4:55 p.m.
+- 21:45 = 8:45 p.m.
+
 
 #### More Information:
 To read more abaout 24-hour system, you can click [Wikipedia](https://en.wikipedia.org/wiki/24-hour_clock)
