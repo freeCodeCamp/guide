@@ -29,6 +29,7 @@ Operating system is defined as the low-level software that supports a computer�
 - MBR stands for Master Boot Record.
 - It is located in the 1st sector of the bootable disk. Typically /dev/hda, or /dev/sda. Why it’s sda and hda ? refer here for more.
 - MBR is less than 512 bytes in size. This has three components 1) primary boot loader info in 1st 446 bytes 2) partition table info in next 64 bytes 3) mbr validation check in last 2 bytes.
+- It contains information about GRUB (or LILO in old systems).
 - So, in simple terms MBR loads and executes the GRUB boot loader.
 
 ### 3. GRUB
@@ -38,7 +39,19 @@ Operating system is defined as the low-level software that supports a computer�
 - It is located in the 1st sector of the bootable disk. Typically /dev/hda, or /dev/sda. Why it’s sda and hda ? refer here for more.
 - If you have multiple kernel images installed on your system, you can choose which one to be executed, by default only the major one boots up .
 - GRUB displays a splash screen, waits for few seconds, if you don’t enter anything, it loads the default kernel image as specified in the grub configuration file.
+- GRUB has the knowledge of the filesystem (the older Linux loader LILO didn’t understand filesystem).
 - Grub configuration file is /boot/grub/grub.conf (/etc/grub.conf is a link to this). The following is sample grub.conf of CentOS.
+```
+#boot=/dev/sda
+default=0
+timeout=5
+splashimage=(hd0,0)/boot/grub/splash.xpm.gz
+hiddenmenu
+title CentOS (2.6.18-194.el5PAE)
+          root (hd0,0)
+          kernel /boot/vmlinuz-2.6.18-194.el5PAE ro root=LABEL=/
+          initrd /boot/initrd-2.6.18-194.el5PAE.img
+```
 
 ### 4. Kernel
 
@@ -63,7 +76,7 @@ Operating system is defined as the low-level software that supports a computer�
 
 - Init identifies the default initlevel from /etc/inittab and uses that to load all appropriate program.
 - Execute ‘grep initdefault /etc/inittab’ on your system to identify the default run level
-- If you want to get into trouble, you can set the default run level to 0 or 6. Since you know what 0 and 6 means, probably    you might not do that.
+- If you want to get into trouble, you can set the default run level to 0 or 6. Since you know what 0 and 6 means, probably you might not do that.
 - Typically you would set the default run level to either 3 or 5.
 
 
@@ -79,3 +92,7 @@ Operating system is defined as the low-level software that supports a computer�
 - Run level 4 — /etc/rc.d/rc4.d/
 - Run level 5 — /etc/rc.d/rc5.d/
 - Run level 6 — /etc/rc.d/rc6.d/
+- Under the /etc/rc.d/rc*.d/ directories, you would see programs that start with S and K.
+- Programs starts with S are used during startup. S for startup.
+- Programs starts with K are used during shutdown. K for kill.
+- There are numbers right next to S and K in the program names. Those are the sequence number in which the programs should be started or killed.

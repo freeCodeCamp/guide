@@ -90,9 +90,18 @@ Without any arguments, `git merge` will merge the corresponding remote tracking 
 ### git pull in IDEs
 Common language in other IDES may not include the word `pull`. If you look out for the words `git pull` but don't see them, look for the word `sync` instead. 
 
+### fethcing a remote PR (Pull Request) in to local repo
+For purposes of reviewing and such, PRs in remote should be fetched to the local repo. You can use `git fetch` command as follows to achieve this.
+
+`git fetch origin pull/ID/head:BRANCHNAME`
+
+ID is the pull request id and BRANCHNAME is the name of the branch that you want to create. Once the branch has been created you can use `git checkout` to switch to that brach.
+
+
 ### Other Resources on git pull
-- [git-scm](https://git-scm.com/docs/git-pull)
-- [GitHub Help Docs](https://help.github.com/articles/fetching-a-remote/#pull)
+- <a href='https://git-scm.com/docs/git-pull' target='_blank' rel='nofollow'>git-scm</a>
+- <a href='https://help.github.com/articles/fetching-a-remote/#pull' target='_blank' rel='nofollow'>GitHub Help Docs</a>
+- <a href='https://www.atlassian.com/git/tutorials/syncing' target='_blank' rel='nofollow'>Syncing Tutorials</a>
 
 ### Other Resources on git in guide.freecodecamp.org
 - [Git merge](../git-merge/index.md)
