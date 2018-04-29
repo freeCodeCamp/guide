@@ -1,6 +1,7 @@
 ---
 title: Files and IO
 ---
+
 ## Files and IO
 Python has many ways of input and output operations. Some of the output operations can be printing a text, console logs and even output a text or spreadsheet file. 
 
@@ -11,11 +12,12 @@ The most commonly used modes are 'w' which is for writing into the file and 'r' 
 
 A file has to be closed after the input and output operation has been completed to free up any resources. 
 
-Sample code to open a text file with the name
-```
+Sample code to open a text file:
+
+``` python
 file = open('hello_world.txt','w')
 file.write('Hello World!')
 file.close()
 ```
 #### More Information:
-https://docs.python.org/2/tutorial/inputoutput.html
+[Python Documentation - IO](https://docs.python.org/2/tutorial/inputoutput.html)
