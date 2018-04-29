@@ -1,7 +1,7 @@
 ---
-title: Converting am Pm to 24 Hour Clock
+title: Converting AM/PM to 24 Hour Clock
 ---
-## Converting am Pm to 24 Hour Clock
+## Converting AM/PM to 24 Hour Clock
 
 24-hour clock system is another way to tell time besides using AM or PM (12-hour system). Table below show the conversion between 12-hour clock system and 24-hour clock system.
 
@@ -37,13 +37,13 @@ As shown in the table above, from 12:00 AM until 12.00 PM the notation is simila
 #### More Examples:
 04:30 AM = 04:30
 
-12.45 AM = 12:45
+12.45 AM = 00:45
+
+12.45 PM = 12:45
 
 01:28 PM = 13:28
 
 11.59 PM = 23:59
 
 #### More Information:
-To read more abaout 24-hour system, you can click [here](https://en.wikipedia.org/wiki/24-hour_clock) to read an article from Wikipedia.
-
-
+To read more abaout 24-hour system, you can click [Wikipedia](https://en.wikipedia.org/wiki/24-hour_clock)
