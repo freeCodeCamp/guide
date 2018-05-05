@@ -41,6 +41,7 @@ title: Python Resources
 *   <a href='https://github.com/mshang/python-elevator-challenge' target='_blank' rel='nofollow'>Python Elevator Challenge</a>
 *   <a href='https://coderbyte.com/' target='_blank' rel='nofollow'>CoderByte Challenges</a>
 *   <a href='https://checkio.org' target='_blank' rel='nofollow'>CheckiO</a> - the game for coders
+*   <a href='https://hackerrank.com/domains/python/py-introduction'>HackerRank - Python Challenges</a>
 
 ## Community
 
@@ -51,6 +52,6 @@ title: Python Resources
 *   <a href='http://www.pyladies.com/' target='_blank' rel='nofollow'>PyLadies</a>
 *   <a href='https://djangogirls.org/' target='_blank' rel='nofollow'>DjangoGirls</a>
 
-Tools:
+## Tools:
 
 *   <a href='https://www.jetbrains.com/pycharm-edu/' target='_blank' rel='nofollow'>PyCharm Edu</a> - a free educational version of PyCharm that comes with tutorials to teach you Python and the ability to download more.
