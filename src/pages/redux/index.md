@@ -7,5 +7,7 @@ Redux is a predictable state container for JavaScript apps.
 
 It helps you write applications that behave consistently, run in different environments (client, server, and native), and are easy to test. On top of that, it provides a great developer experience, such as live code editing combined with a time traveling debugger.
 
-For more information head to [http://redux.js.org/](http://redux.js.org/)
-Course from author: [https://egghead.io/courses/getting-started-with-redux(https://egghead.io/courses/getting-started-with-redux)
+#### More Information
+For more information head to [http://redux.js.org/](http://redux.js.org/).
+
+[A course from Dan Abramov, the author of Redux.](https://egghead.io/courses/getting-started-with-redux)
