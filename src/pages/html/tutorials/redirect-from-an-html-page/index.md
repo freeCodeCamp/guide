@@ -3,13 +3,7 @@ title: Redirect from an HTML Page
 ---
 ## Redirect from an HTML Page
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/tutorials/redirect-from-an-html-page/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+In HTML you can use `<meta http-equiv="refresh" content="0; url=https://www.freecodecamp.org/" />` tag to redirect to another page. The use of the `<meta>` tag is not the preferenced way to create a link, HTTP Redirects are the standard however more often than not the developer does not have control over the server and cannot set HTTP Headers.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+* [MDN - Redirections in HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Redirections)
