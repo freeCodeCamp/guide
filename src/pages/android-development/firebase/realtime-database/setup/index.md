@@ -2,8 +2,6 @@
 title: Setting up Firebase Realtime Database
 ---
 
--->
-
 # Prerequisites
 1. The latest version of Android Studio
 2. Have connected with Firebase manually or via Firebase Assistant(See [Connecting to Firebase](guide/src/pages/android-development/firebase/connecting-to-firebase)). 
