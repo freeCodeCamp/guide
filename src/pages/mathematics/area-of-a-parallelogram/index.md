@@ -1,15 +1,25 @@
 ---
 title: Area of a Parallelogram
 ---
+
 ## Area of a Parallelogram
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/area-of-a-parallelogram/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+A parallelogram is a four-sided figure in which the opposite sides and angles are equal. It can be considered as being made up of two same  triangles sticked base to base.
+![alt text](http://www.onemathematicalcat.org/Math/Geometry_obj/graphics/area_parallelogram.bmp)
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The area of a triangle is `1/2 * base * height` and the area of a parallelogram is the addition of areas of the two same triangles.
+Therefore,
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### Example
+Consider a paralleogram as shown in the figure.
+![alt text](http://www.proprofs.com/quiz-school/upload/yuiupload/812246308.jpg)
+
+Therefore, Area = 6 * 2.5 = 15 (m)^2
+
+
+
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
+For more details visit [wiki](https://en.wikipedia.org/wiki/Parallelogram)
 

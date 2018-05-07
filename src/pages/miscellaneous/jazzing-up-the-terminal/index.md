@@ -12,9 +12,7 @@ To install Terminator enter `sudo apt-get install terminator` into the terminal.
 
 Screenshot of Terminator:
 
-<div class="lightbox-wrapper">[![Screenshot of Terminator](//discourse-user-assets.s3.amazonaws.com/optimized/2X/6/6af4988ebfb1835ff3c19366865eaaaaf224cb19_1_690x388.png)
-
-<div class="meta"><span class="filename">terminator-mad.png</span><span class="informations">1600x900 861 KB</span><span class="expand"></span></div>](//discourse-user-assets.s3.amazonaws.com/original/2X/6/6af4988ebfb1835ff3c19366865eaaaaf224cb19.png "terminator-mad.png") </div>
+![Screenshot of Terminator](//discourse-user-assets.s3.amazonaws.com/original/2X/6/6af4988ebfb1835ff3c19366865eaaaaf224cb19.png)
 
 #### Oh My ZSH!
 
