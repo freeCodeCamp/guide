@@ -1,4 +1,8 @@
-## Setting up Firebase Realtime Database
+---
+title: Setting up Firebase Realtime Database
+---
+
+-->
 
 # Prerequisites
 1. The latest version of Android Studio
