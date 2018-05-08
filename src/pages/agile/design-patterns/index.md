@@ -14,8 +14,8 @@ Patterns can be used for multiple objectives  (learning, communication, improvin
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-- [Wikipedia on Design Patterns] (https://en.wikipedia.org/wiki/Software_design_pattern)
-- [Wikipedia on GoF Book] (https://en.wikipedia.org/wiki/Design_Patterns)
+- [Wikipedia on Design Patterns](https://en.wikipedia.org/wiki/Software_design_pattern)
+- [Wikipedia on GoF Book](https://en.wikipedia.org/wiki/Design_Patterns)
 - [Design Patterns by Source Making](https://sourcemaking.com/design_patterns): list of well known patterns available online
 - [Game Programming Patterns](http://gameprogrammingpatterns.com/): book about Design Patterns commonly used in Game Development, available to be read online for free
 - [Object Oriented Design](http://www.oodesign.com/)
