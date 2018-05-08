@@ -44,7 +44,7 @@ This example shows two columns selected from the "student" table, and two calcul
 
 The WHERE clause is used to limit the number of rows returned.  
 
-In this case all five of these will be used is a some what ridiculous Where clause. 
+In this case all five of these will be used is a somewhat ridiculous Where clause. 
 
 Compare this result to the above SQL statement to follow this logic.
 
