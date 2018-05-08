@@ -1,0 +1,31 @@
+---
+title: if-then-else
+---
+
+## What is If-Then-Else
+
+Most programming langauges have an "If-then-else" function, where IF[condition]THEN[statement][ELSEstatments]. What this means is if you have a certain "condition" that could occur then the function would execute the "statment", but if the "condition" is not met, then the funciton would execute the other "statment."
+
+## If Than Else
+
+'''vba
+
+    Public Sub ifThanElse()
+    
+    Dim x as integer
+    Dim y as integer
+    
+    x = 10
+    y = 20 
+    
+    If x < y Then
+      MsgBox(x & " is less then " & y)
+    Else
+      MsgBox(x & " is greater then " & y)
+    End If 
+    
+    End Sub 
+    
+'''
+
+The above code when executed will display the message "10 is less then 20." There are numerous ways to use If-Then-Else statments, to learn more <a href = 'https://msdn.microsoft.com/en-us/vba/language-reference-vba/articles/ifthenelse-statement' target='_blank' rel='nofollow'> check this out.</a>
