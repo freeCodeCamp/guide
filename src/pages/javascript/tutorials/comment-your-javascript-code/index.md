@@ -11,8 +11,10 @@ Let's take a look at the two ways you can write comments in JavaScript.
 
 *   The slash-star-star-slash comment will comment out everything between the `/*` and the `*/` characters:
 
-`/* 
+```javascript
+/* 
 This is 
 a multi-line comment 
 (comment block) 
-*/`
+*/
+```
