@@ -1,0 +1,71 @@
+What is AngularJS?
+What are AngularJS features?
+How AngularJS handle the security?
+What are Modules in AngularJS?
+What components can be defined within AngularJS modules?
+What is core module in AngularJS?
+How angular modules load the dependencies?
+What is difference between config() and run() method in AngularJS? 
+When dependent modules of a module are loaded?
+What is Angular Prefixes $ and $$?
+What are Filters in AngularJS?
+What are Expressions in AngularJS?
+How AngularJS expressions are different from the JavaScript expressions?
+What are Directives in AngularJS?
+What is the role of ng-app, ng-init and ng-model directives?
+How to create custom directives in AngularJS?
+What are different ways to invoke a directive?
+What is restrict option in directive?
+Can you define multiple restrict options on a directive?
+What is auto bootstrap process in AngularJS?
+What is manual bootstrap process in AngularJS?
+How to bootstrap your angular app for multiple modules?
+What is scope in AngularJS?
+What is $scope and $rootScope?
+What is scope hierarchy?
+What is the difference between $scope and scope?
+How AngularJS is compiled?
+How AngularJS compilation is different from other JavaScript frameworks?
+How Directives are compiled?
+What are Compile, Pre, and Post linking in AngularJS?
+What directives are used to show and hide HTML elements in AngularJS?
+Explain directives ng-if, ng-switch and ng-repeat?
+What are ng-repeat special variables?
+What are Templates in AngularJS?
+What is ng-include and when to use it?
+What angular components can be defined within AngularJS templates?
+What is data binding in AngularJS?
+Explain Two-way and One-way data binding in AngularJS?
+What is issue with two-way data binding?
+How AngularJS handle data binding?
+What is the difference between $watch, $digest and $apply?
+Which one is fast between $digest and $apply?
+Which one handles exception automatically between $digest and $apply?
+Explain $watch(), $watchgroup() and $watchCollection() functions of scope?
+Explain AngularJS scope life-cycle?
+Explain digest life-cycle in AngularJS?
+When to use $destroy() function of scope?
+What is difference between $evalAsync and $timeout?
+What is the difference between $watch and $observe?
+What is the difference between $parse and $eval?
+What is Isolate Scope and why it is required?
+Does AngularJS support MVC?
+What is Model in AngularJS?
+What is ViewModel in AngularJS?
+What is Controller in AngularJS?
+How to share information between controllers in AngularJS?
+What is $emit, $broadcast and $on in AngularJS?
+What is View in AngularJS?
+Q73 How to apply validation in AngularJS?
+Q74 How to do custom form validation in AngularJS?
+Q75 What are different Angular form properties?
+Q76 What are different states of a form in AngularJS?
+Q77 What is Service in AngularJS?
+Q78 What are different ways to create service in AngularJS?
+Q79 What is the difference between Factory, Service and Provider?
+Q80 What is difference between value and constant?
+Q81 What is the difference between $http and $resource?
+Q82 What methods $http service support?
+Q83 How to enable caching in $http service?
+Q84 What methods $resource service object support?
+Q85 What is $q service and when to use it?
