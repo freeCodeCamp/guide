@@ -52,6 +52,7 @@ Web design, advertising, and human-computer interface heuristics also recognize 
 <a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+A great website to find color schemes-https://coolors.co/d6bbc0-d0a3bf-c585b3-bc69aa-af42ae
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
