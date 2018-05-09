@@ -76,4 +76,6 @@ The `for...of` statement creates a loop iterating over iterable objects (includi
 
 # Other Resources:
 
-<a href='https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/for...of' target='_blank' rel='nofollow'>MDN link</a> | <a href='https://msdn.microsoft.com/library/dn858238%28v=vs.94%29.aspx?f=255&MSPPError=-2147217396' target='_blank' rel='nofollow'>MSDN link</a> | <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments/@@iterator' target='_blank' rel='nofollow'>arguments @@iterator</a>
+* [MDN link](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/for...of)
+* [MSDN link](https://msdn.microsoft.com/library/dn858238%28v=vs.94%29.aspx?f=255&MSPPError=-2147217396)
+* [arguments @@iterator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments/@@iterator)
