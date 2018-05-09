@@ -49,4 +49,5 @@ In the following example, a loop iterates from 1 through 9\. The statements betw
 
 ## Other Resources
 
-<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/continue' target='_blank' rel='nofollow'>MDN link</a> | <a href='https://msdn.microsoft.com/en-us/library/8de3fkc8.aspx' target='_blank' rel='nofollow'>MSDN link</a>
+* [MDN link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/continue)
+* [MSDN link](https://msdn.microsoft.com/en-us/library/8de3fkc8.aspx)
