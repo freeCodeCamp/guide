@@ -8,6 +8,6 @@ You can learn more about building a brand and it's identity on YouTube channels 
 
 
 #### More Information:
-<a href="https://www.youtube.com/user/TheSkoolRocks">the futur</a>
+* [the futur YouTube channel](https://www.youtube.com/user/TheSkoolRocks)
 
 
