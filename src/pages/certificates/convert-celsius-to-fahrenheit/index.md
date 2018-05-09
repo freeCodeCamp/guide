@@ -28,12 +28,12 @@ Keep in mind the **order of operation** check the link in the _links_ section fo
 
 ## Spoiler Alert!
 
-![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](//discourse-user-assets.s3.amazonaws.com/original/2X/2/2d6c412a50797771301e7ceabd554cef4edcd74d.gif)
+![warning sign](//discourse-user-assets.s3.amazonaws.com/original/2X/2/2d6c412a50797771301e7ceabd554cef4edcd74d.gif)
 
 **Solution ahead!**
 
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
-
+```javascript
     function convertToF(celsius) {
       // Only change code below this line
       var fahrenheit = (celsius * (9/5)) + 32;
@@ -48,7 +48,7 @@ Keep in mind the **order of operation** check the link in the _links_ section fo
 
     // Change the inputs below to test your code
     convertToF(30);
-
+```
 ### Code Explanation:
 
 *   Declare the **fahrenheit** variable.
