@@ -51,9 +51,9 @@ The `<path />` element defines a vector path in the viewport. The path is define
 
 ## Browser Support
 
-<a href='https://caniuse.com/#feat=svg' target='_blank' rel='nofollow'>Browser support for SVG</a> is available in all modern browsers. There are some issues with scaling in IE 9 through IE 11 however they can be overcome with the use of the `width`, `height`, `viewbox`, and CSS.
+[Browser support for SVG](https://caniuse.com/#feat=svg) is available in all modern browsers. There are some issues with scaling in IE 9 through IE 11 however they can be overcome with the use of the `width`, `height`, `viewbox`, and CSS.
 
-## Editor
+## Editors
 
 * [Vectr](https://vectr.com) - web and desktop tool fot creating and editing SVG graphics, free of charge
 
