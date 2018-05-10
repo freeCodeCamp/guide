@@ -122,6 +122,5 @@ A quick implementation in Swift is as shown below :
 
 #### Other Resources:
 
-- <a href='https://en.wikipedia.org/wiki/Insertion_sort' target='_blank' rel='nofollow'>Wikipedia</a>
-
-- <a href='https://youtu.be/TwGb6ohsvUU' target='_blank' rel='nofollow'>Insertion Sort - CS50</a>
+- [Wikipedia](https://en.wikipedia.org/wiki/Insertion_sort)
+- [CS50 - YouTube](https://youtu.be/TwGb6ohsvUU)
