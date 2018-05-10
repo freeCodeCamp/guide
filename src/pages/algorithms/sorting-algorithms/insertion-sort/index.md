@@ -134,6 +134,7 @@ public int[] insertionSort(int[] arr)
 * Time Complexity: O(n*n)
 * Stable: Yes
 
-#### More Information:
+#### Other Resources:
 
-- <a href='https://en.wikipedia.org/wiki/Insertion_sort' target='_blank' rel='nofollow'>Wikipedia</a>
+- [Wikipedia](https://en.wikipedia.org/wiki/Insertion_sort)
+- [CS50 - YouTube](https://youtu.be/TwGb6ohsvUU)
