@@ -1,14 +1,14 @@
 ![freeCodeCamp Guide](https://s3.amazonaws.com/freecodecamp/wide-social-banner.png)
 
-# freeCodeCamp Guide
+# The freeCodeCamp Guide
 
-[![Build Status](https://img.shields.io/travis/freeCodeCamp/guides/master.svg?style=flat-square)](https://travis-ci.org/freeCodeCamp/guides) [![license](https://img.shields.io/badge/license-BSD--3--Clause-lightgrey.svg?style=flat-square)](https://opensource.org/licenses/BSD-3-Clause)  [![Gitter](https://img.shields.io/gitter/room/freeCodeCamp/Contributors.svg?style=flat-square)](https://gitter.im/freeCodeCamp/Contributors)
-[![Open Source Helpers](https://www.codetriage.com/freecodecamp/guides/badges/users.svg)](https://www.codetriage.com/freecodecamp/guides)
+[![Build Status](https://img.shields.io/travis/freeCodeCamp/guide/master.svg?style=flat-square)](https://travis-ci.org/freeCodeCamp/guide) [![license](https://img.shields.io/badge/license-BSD--3--Clause-lightgrey.svg?style=flat-square)](https://opensource.org/licenses/BSD-3-Clause)  [![Gitter](https://img.shields.io/gitter/room/freeCodeCamp/Contributors.svg?style=flat-square)](https://gitter.im/freeCodeCamp/Contributors)
+[![Open Source Helpers](https://www.codetriage.com/freecodecamp/guide/badges/users.svg)](https://www.codetriage.com/freecodecamp/guide)
 
-[![GitHub Issues](https://img.shields.io/github/issues/freeCodeCamp/guides.svg?style=flat-square)](https://github.com/freeCodeCamp/guides/issues) [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/freeCodeCamp/guides.svg?style=flat-square)](https://github.com/freeCodeCamp/guides/pulls) [![Pull Requests Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![GitHub Issues](https://img.shields.io/github/issues/freeCodeCamp/guide.svg?style=flat-square)](https://github.com/freeCodeCamp/guide/issues) [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/freeCodeCamp/guide.svg?style=flat-square)](https://github.com/freeCodeCamp/guide/pulls) [![Pull Requests Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![first-timers-only Friendly](https://img.shields.io/badge/first--timers--only-friendly-blue.svg?style=flat-square)](http://www.firsttimersonly.com/)
 
-[![Throughput Graph](https://graphs.waffle.io/freeCodeCamp/guides/throughput.svg)](https://waffle.io/freeCodeCamp/guides/metrics)
+[![Throughput Graph](https://graphs.waffle.io/freeCodeCamp/guide/throughput.svg)](https://waffle.io/freeCodeCamp/guide/metrics)
 
 The freeCodeCamp community is building a massive, searchable **"Guide"**.
 
@@ -36,21 +36,21 @@ If you can't find a stub about the topic you'd like to write about, you can open
 
 Feel free to ask us questions [in Gitter](https://gitter.im/freeCodeCamp/Contributors) if you're not sure where to put a new article in the directory structure.
 
-Before you begin writing, make sure to read the [article style guide](https://github.com/freeCodeCamp/guides/blob/master/CONTRIBUTING.md#article-style-guide) outlined in [CONTRIBUTING.md](CONTRIBUTING.md). 
+Before you begin writing, make sure to read the [article style guide](https://github.com/freeCodeCamp/guide/blob/master/CONTRIBUTING.md#article-style-guide) outlined in [CONTRIBUTING.md](CONTRIBUTING.md). 
 
 ## Contributing
 
 1. 🍴 Fork this repo
 2. 👀️ Follow the contributing guidelines outlined in [CONTRIBUTING.md](CONTRIBUTING.md).
 3. 🔧 Make some awesome changes!
-4. 👉 [Make a pull request](https://github.com/freeCodeCamp/guides/compare)
+4. 👉 [Make a pull request](https://github.com/freeCodeCamp/guide/compare)
 5. 🎉 Get your pull request approved - success!
 
-Or just [create an issue](https://github.com/freeCodeCamp/guides/issues) - any little bit of help counts! 😊
+Or just [create an issue](https://github.com/freeCodeCamp/guide/issues) - any little bit of help counts! 😊
 
 ## License
 
-Copyright (c) 2017 freeCodeCamp.
+Copyright (c) 2018 freeCodeCamp.
 
 The content of this repository is bound by the following licenses:
 - The computer software is licensed under the [BSD-3-Clause](./LICENSE.md).

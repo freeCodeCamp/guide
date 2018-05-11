@@ -14,10 +14,10 @@ Hex codes are case insensitive, meaning that #FFFFFF and #ffffff would be the sa
 You may be most familiar with Hexadecimal code when using it for specifying color in your CSS files. There are 16,777,216 possible color combinations using hexcode.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
-[Wikipedia article about Hexadecimal code](https://en.wikipedia.org/wiki/Hexadecimal)
-
-[More information on colors in CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value)
-
-[Explore different Hex colors](http://www.colorhexa.com/)
+* [Wikipedia article about Hexadecimal code](https://en.wikipedia.org/wiki/Hexadecimal)
+* [Wikipedia article about web colors](https://en.wikipedia.org/wiki/Web_colors)
+* [Hex Colors](http://www.color-hex.com/)
+* [Medium article on hex color code](https://medium.com/webkul-dev/hex-color-codes-27cd0a37c3ce)
+* [More information on colors in CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value)
+* [Explore different Hex colors](http://www.colorhexa.com/)

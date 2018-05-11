@@ -4,6 +4,8 @@ title: Files and IO
 
 ## Files and IO
 
+Python has many ways of input and output operations. Some of the output operations can be printing a text, console logs and even output a text or spreadsheet file. 
+
 ### Output to Screen
 Python provides the simplest way to produce output to the screen. 
 ```python
@@ -44,6 +46,7 @@ Output:
 Enter input: [x*5 for x in range(2,10,2)]
 Input: [10,20,30,40]
 ```
+
 ### Interacting with Files in Python
 Using Python, files can be easily opened, read, written and closed. With the available functions :
   1. <code>open()</code>
@@ -59,12 +62,30 @@ data = file1.read(15)     # Reads first 15 characters in the file.
 print "First 15 characters are:\n", data     # Prints output
 file1.close()     # Closes the opened file.
 ```
+
 Output:
 ```
 First 15 characters are:
 Python is a pow
 ```
-## Suggested Reading
- * https://automatetheboringstuff.com/chapter8/ 
- * https://docs.python.org/2/tutorial/inputoutput.html
- * https://www.tutorialspoint.com/python/python_files_io.htm
+
+#### Opening Files
+The python method open() can be used to return a file object. It is most commonly used with two arguments which are the file name and the mode of access. The mode of access is used to describe the way the file is accessed or used. 
+
+The most commonly used modes are 'w' which is for writing into the file and 'r' which is used for reading the file while 'r+' is used to read and write the file. 'a' is the mode that is used for appending text into the file. The mode argument is also optional and will be assumed to be 'r' if it is ommitted.
+
+A file has to be closed after the input and output operation has been completed to free up any resources. 
+
+Sample code to open a text file:
+
+``` python
+file = open('hello_world.txt','w')
+file.write('Hello World!')
+file.close()
+```
+
+#### More Information:
+[Python Documentation - IO](https://docs.python.org/2/tutorial/inputoutput.html)
+[Automate the Boring Stuff](https://automatetheboringstuff.com/chapter8/)
+[Tutorials Point - Python IO](https://www.tutorialspoint.com/python/python_files_io.htm)
+
