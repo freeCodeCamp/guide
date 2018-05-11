@@ -20,4 +20,6 @@ Here is an example of how to display a section in the same color:
 
 <a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div' target='_blank' rel='nofollow'>MDN</a>
 
+<a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div'>HTML Element Reference</a>
+
 
