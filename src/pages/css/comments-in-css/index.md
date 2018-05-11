@@ -19,7 +19,7 @@ Comments are used in CSS to explain a block of code or to make temporary changes
     }
 ```
 
-You can add as many comments to your stylesheet as you like. It’s good practice to use CSS comments to help identify parts of any stylesheet that might be difficult to understand from a cursory glance. By using CSS comments to make your stylesheets more readable, the CSS will be easier to maintain in the future.
+You can add as many comments to your stylesheet as you like. It’s good practice to use CSS comments to help identify parts of any stylesheet that might be difficult to understand from a cursory glance. Comments are especially important when working in a team, when your code must be understood by others. By using CSS comments to make your stylesheets more readable, the CSS will be easier to maintain in the future.
 
 ### More Information:
 
