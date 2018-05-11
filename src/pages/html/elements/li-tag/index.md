@@ -80,8 +80,6 @@ The `type` attribute defines the numbering type that will be used in the list. T
 
 #### Example
 
-The following HTML
-
 ```html
 <body>
   <ol type="I">
@@ -90,9 +88,8 @@ The following HTML
     <li>list item</li>
   </ol>
 </body>
-
 ```
-Will output
+The above HTMl will output:
 
 <ol type="I">
   <li>list item</li>
@@ -106,8 +103,6 @@ The `value` attribute specifies the numeric order of the current `<li>`. This at
 
 #### Example
 
-The following HTML
-
 ```html
 <body>
   <ol>
@@ -116,9 +111,9 @@ The following HTML
     <li>list item</li>
   </ol>
 </body>
-
 ```
-Will output
+
+The above HTML will output:
 
 4. list item
 5. list item
