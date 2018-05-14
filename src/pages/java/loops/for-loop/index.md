@@ -23,9 +23,7 @@ A common way the `for` loop is used is if you need to iterate your code a specif
 Notice that you would check if the value is less than 10, not less than or equal to 10, since you are starting your counter at 0.
 
 ```java
-int iter_For;
-
-for (iter_For = 0; iter_For < 10; iter_For++)
+for (int iter_For = 0; iter_For < 10; iter_For++)
 {
     System.out.print(iter_For + " ");
     // Iterated 10 times, iter_For 0,1,2...9
