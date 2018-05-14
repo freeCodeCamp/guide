@@ -297,19 +297,25 @@ The following represents two other examples using JavaScript and CSS syntax high
 
 ```markdown
     ```javascript
-        function logTheThings(stuff) {
-          console.log(stuff);
-        }
+    function logTheThings(stuff) {
+      console.log(stuff);
+    }
     ```
 
     ```css
-        .awesome {
-          background-color: #FCCFCC;
-        }
+    .awesome {
+      background-color: #FCCFCC;
+    }
     ```
 ```
 
-Here are some suggested formatting guidelines when writing code blocks:
+Please keep the following recommendations in mind:
+
+- To ensure correct rendering, each codeblock must have a language label. You can find a list of supported languages [here](http://prismjs.com/#languages-list ).
+- For codeblocks with no appropriate language, use generic labels like ` ```text `, or ` ```code `.
+- You may know about markdown's four-space indentation syntax for writing codeblocks. However, this is currently __not__ supported by our rendering system.
+
+Finally, here are some suggested formatting guidelines when writing code blocks:
 
 - JavaScript statements should end with a `;` semicolon
 - Comments made should have a space between the comment characters and the comment themselves
