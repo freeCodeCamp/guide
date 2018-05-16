@@ -67,7 +67,7 @@ Now you can write the corresponding Html code:
   <div class="desc">Add a description of image here</div>
 </div>
 ```
-You can view the related code pen here: [Gallery](https://codepen.io/msnavu/pen/NMBPRw)
+You can view the related code pen here on: [Gallery](https://codepen.io/msnavu/pen/NMBPRw)
 
 
 
