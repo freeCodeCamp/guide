@@ -40,7 +40,7 @@ Beginning/End of line movement:
 #### Manipulate text
 #### Enter other modes
 
-Normal mode is where one should spend most of their time while using vim. Remember,
+**Normal mode** is where one should spend most of their time while using vim. Remember,
 this is what makes vim different.
 
 
