@@ -127,7 +127,8 @@ function Person(firstName, lastName) {
 
 ```
 
-### Hidding details in classes with symbols
+### Hiding details in classes with symbols
+
 
 Most often some properties and methods have to be hidden to prevent access from outside the function. With classes, to obtain this functionality, one way to do this is by using symbols. Symbol is a new built-in type of JavaScript, which can be invoked to give a new symbol value. Every Symbol is unique and can be used as a key on object. So one use case of symbols is that you can add something to an object you might not own, and you might not want to collide with any other keys of object so creating a new one and adding as property to that object using symbol is the safest. Also, when symbol value is added to an object; no one else will know how to get it.
 
