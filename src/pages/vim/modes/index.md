@@ -14,7 +14,7 @@ Normal mode can be accessed from other modes by pressing `Esc` or `<C-[>`.
 In Normal mode key presses don't work as one would expect. That is, they don't insert text into the document; instead,
 certain key presses can:
 
-####Move the cursor####
+#### Move the cursor
 - **h**   move one character left    
 - **j**   move one row down          
 - **k**   move one row up            
@@ -37,8 +37,8 @@ Beginning/End of line movement:
 - **0**   move to the beginning of the line     
 - **$**   move to the end of the line           
 
-####Manipulate text####
-####Enter other modes####
+#### Manipulate text
+#### Enter other modes
 
 Normal mode is where one should spend most of their time while using vim. Remember,
 this is what makes vim different.
