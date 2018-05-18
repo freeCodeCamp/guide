@@ -1,15 +1,28 @@
 ---
 title: XAML
 ---
-## XAML
+## XAML: Extensible Application Markup Language
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/csharp/xaml/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+XAML pronounced as "Zammel" is a mark language developed by Microsoft. This markup language is mainly used for designing GUIs. Also it is popular for its usability in workflow. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Areas like Silverlight, Mobile Development, WPF (Windows Presentation Foindation), Windows Store uses XAML heavily and span accross any CLR and .NET framework
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Its a declaritive language and answers WHAT and HOW. It aims at separating the behavior from the designer code.
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+## Example
+Creating a TextBlock with several properties.
+```xml
+<TextBlock Text="I am a TextBlock!" 
+	HorizontalAlignment="Left" 
+	FontSize="25" 
+	FontWeight="Bold" 
+	Margin="50,10,0,0" />
+```
 
+### More Information:
 
+* [A Beginners Article about XAML and the WPF Engine](http://www.c-sharpcorner.com/UploadFile/logisimo/a-beginners-article-about-xaml-and-the-wpf-engine/)
+
+* [XAML Magic: Attached Properties](http://www.codemag.com/article/1405061)
+
+* [XAML Overview (WPF)](https://docs.microsoft.com/en-us/dotnet/framework/wpf/advanced/xaml-overview-wpf)
