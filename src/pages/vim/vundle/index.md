@@ -16,13 +16,14 @@ It allows you to...
 To get started, follow <a href='https://github.com/VundleVim/Vundle.Vim#quick-start' target='_blank' rel='nofollow'>this guide</a>.
 
 Some useful plugins to get you started are :
-- nerdtree
-- syntastic
-- tagbar
-- ctrlp
-- gitgutter
-- fugitive
-- delimitMate
+- [nerdtree](https://github.com/scrooloose/nerdtree) - File tree explorer
+- [syntastic](https://github.com/vim-syntastic/syntastic) or [ale](https://github.com/w0rp/ale) - Syntax checker / linter 
+- [tagbar](https://github.com/majutsushi/tagbar) - Displays tags in a window
+- [ctrlp](https://github.com/kien/ctrlp.vim) - Fuzzy file, buffer, mru, tag, etc finder
+- [gitgutter](https://github.com/airblade/vim-gitgutter) - Shows a git diff in the gutter (sign column)
+- [fugitive](https://github.com/tpope/vim-fugitive) - Git wrapper
+- [delimitMate](https://github.com/Raimondi/delimitMate) - Insert mode auto-completion for quotes, parens, brackets, etc
+- [tcomment](https://github.com/tomtom/tcomment_vim) - Comment lines whatever the language
 - and tons more !
 
 
