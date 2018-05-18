@@ -145,7 +145,7 @@ The argument that we called the `print` function with is a `str` object or _stri
 
 The `objects` parameter is prefixed with a `*` which indicates that the function will take an arbitrary number of arguments for that parameter.
 
-## What to learn more?
+## Want to learn more?
 
 Free Code Camp has some great resources. The web is a big place, there's plenty more to explore:
 * Python Practice Book: http://anandology.com/python-practice-book/index.html
