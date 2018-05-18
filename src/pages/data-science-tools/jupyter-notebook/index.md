@@ -3,11 +3,26 @@ title: Jupyter Notebook
 ---
 ## Jupyter Notebook
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/data-science-tools/jupyter-notebook/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The Jupyter Notebook helps you create and share documents containing live code, equations, visualizations and rich text.   
+ 
+You can use it for:
+* data cleaning and transformation
+* numerical simulation
+* statistical modeling
+* data visualization
+* machine learning
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The Jupyter notebook combines two components:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### A web application:  
+
+The Jupyter Notebook App helps to edit and run notebook documents in a web browser,  combining explanatory text, mathematics, computations and rich media.
+
+### Notebook document:
+
+The Jupyter Notebook App can create a 'Notebook document' containing both code and rich text elements. A Notebook document can be both readable and executable.
 
 #### More Information:
-[Jupyter/IPython Notebook Quick Start Guide](http://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html)
+<!-- Please add any articles you think might be helpful to read before writing the article -->
+<a href='http://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html' target='_blank' rel='nofollow'>Jupyter/IPython Notebook Quick Start Guide</a>
+

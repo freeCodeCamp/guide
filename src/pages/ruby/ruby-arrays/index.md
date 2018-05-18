@@ -9,11 +9,12 @@ An array represents a list of values. The individual values are often called "el
 my_array = [1, 2, 3, 4, 5]
 ```
 
-That first example is an array of numbers, but a Ruby array can contain values of different types:
+That first example is an array of numbers, but a Ruby array can contain values of different types, even other arrays:
 
 ```ruby
-mixed_array = [5, "Hello World", true]
+mixed_array = [5, "Hello World", true, [1,2,3]]
 ```
+
 
 You can access the elements of an array with square brackets and numerical indexes. Notice that the first element is at index 0, not 1:
 

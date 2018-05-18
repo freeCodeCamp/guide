@@ -7,8 +7,14 @@ Let's take a look at the two ways you can write comments in JavaScript.
 
 *   The double-slash comment will comment out the remainder of the text on the current line:
 
-`// This is a comment.`
+`// This is a single line comment.`
 
 *   The slash-star-star-slash comment will comment out everything between the `/*` and the `*/` characters:
 
-`/* This is also a comment */`
+```javascript
+/* 
+This is 
+a multi-line comment 
+(comment block) 
+*/
+```
