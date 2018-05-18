@@ -3,7 +3,7 @@ title: ExpressJS
 ---
 ## ExpressJS
 
-When it comes to build web applications using Node.js, creating a server can take a lot of time. Over the years Node.js has matured enough due to the support from community. Using Node.js as a backend for web applications and websites help the developers to start working on their application or product in a quickly manner. In this tutorial, we are going to look into Expressjs which is a Node.js framework for web development that comes with features like routing and rendering and support for REST APIs.
+When it comes to build web applications using Node.js, creating a server can take a lot of time. Over the years Node.js has matured enough due to the support from community. Using Node.js as a backend for web applications and websites help the developers to start working on their application or product quickly. In this tutorial, we are going to look into Expressjs which is a Node.js framework for web development that comes with features like routing and rendering and support for REST APIs.
 
 ## What is Express?
 
