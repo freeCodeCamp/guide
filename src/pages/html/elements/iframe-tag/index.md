@@ -3,13 +3,8 @@ title: Iframe Tag
 ---
 ## Iframe Tag
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/iframe-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+In HTML the `<iframe>` tag is used to embed a webpage inside another web page. You can write an `<iframe>` tag as `<iframe src="https://www.freecodecamp.org"><p>Your browser does not support iframes</p></iframe>`.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+* [MDN - HTML iframe tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe)
+* [W3 - HTML 5.2 iframe specification](https://www.w3.org/TR/html5/semantics-embedded-content.html#the-iframe-element)
