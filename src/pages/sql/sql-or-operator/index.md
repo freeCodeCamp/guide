@@ -21,4 +21,4 @@ FROM Person
 WHERE Gender = “M” AND (Name = “Peter” OR Name = “John”)
 ```
 
-
+This example selects all records where Gender is "M" and Name is "Peter" as well as where Gender is "M" and Name is "John". 

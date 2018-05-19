@@ -15,7 +15,7 @@ Read the instructions carefully, it is always a good hint in itself to run the c
 
 #### Relevant Links
 
-*   <a>Closures</a>
+*   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures" target='_blank' rel='nofollow'>Closures</a>
 *   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Details_of_the_Object_Model' target='_blank' rel='nofollow'>Details of the Object Model</a>
 
 ## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 1
@@ -38,7 +38,7 @@ Often the code would not work the way you expect it due to wrong variable names,
 
 ## Spoiler Alert!
 
-![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](//discourse-user-assets.s3.amazonaws.com/original/2X/2/2d6c412a50797771301e7ceabd554cef4edcd74d.gif)
+![warning sign](//discourse-user-assets.s3.amazonaws.com/original/2X/2/2d6c412a50797771301e7ceabd554cef4edcd74d.gif)
 
 **Solution ahead!**
 
@@ -75,7 +75,7 @@ Often the code would not work the way you expect it due to wrong variable names,
     var bob = new Person('Bob Ross');
     bob.getFullName();
 
-![:rocket:</a> <a href='https://repl.it/CLov/0' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLov/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -85,9 +85,9 @@ Often the code would not work the way you expect it due to wrong variable names,
 
 #### Relevant Links
 
-*   <a>How to build objects</a>
-*   <a>Construct objects with functions</a>
-*   <a>Declare objects as variables</a>
+*   <a href="https://www.freecodecamp.org/challenges/build-javascript-objects" target='_blank' rel='nofollow'>How to build objects</a>
+*   <a href="https://www.freecodecamp.org/challenges/construct-javascript-objects-with-functions" target='_blank' rel='nofollow'>Construct objects with functions</a>
+*   <a href="https://www.freecodecamp.org/challenges/declare-javascript-variables" target='_blank' rel='nofollow'>Declare objects as variables</a>
 
 ## ![:clipboard:](https://forum.freecodecamp.com/images/emoji/emoji_one/clipboard.png?v=3 ":clipboard:") NOTES FOR CONTRIBUTIONS:
 
