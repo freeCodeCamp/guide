@@ -47,7 +47,8 @@ It couldn't be anymore simple! Well, this isn't actually 100% true, we could mak
 ```shell
 $ rails s
 ```
-5. Now, with you preffered brower, go to `http://localhost:3000` and you'll see: "Yay! You’re on Rails!"  
+
+5. Now, with your preferred brower, go to `http://localhost:3000` and you'll see: "Yay! You’re on Rails!"
 
 ### Alternative method for creating a Rails application  
 
@@ -64,7 +65,7 @@ $ rails s
 3. Create the Rails application using the Unix dot notation. This results in assigning the name of the directory to the new application.  
     ```shell
     $ rails new .
-    ```  
+    ```
 
 ## Convention over Configuration
 *Convention over Configuration* means a developer only needs to specify unconventional aspects of the application. For example, if there is a class Sale in the model, the corresponding table in the database is called sales by default. It is only if one deviates from this convention, such as calling the table "products sold", that the developer needs to write code regarding these names. Generally, Ruby on Rails conventions lead to less code and less repetition.
@@ -73,4 +74,4 @@ $ rails s
 *Don't repeat yourself* means that information is located in a single, unambiguous place. For example, using the ActiveRecord module of Rails, the developer does not need to specify database column names in class definitions. Instead, Ruby on Rails can retrieve this information from the database based on the class name.
 
 ## Ruby on Rails is open source 
-So not only is it free to use, you can also help make it better. More than 3,000 people already have contributed code to [Rails](https://github.com/rails/rails). It’s easier than you think to become one of them.
+Not only is it free to use, you can also help make it better. More than 3,000 people already have contributed code to [Rails](https://github.com/rails/rails). It’s easier than you think to become one of them.
