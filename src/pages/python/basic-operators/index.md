@@ -3,9 +3,9 @@ title: Basic Operators
 ---
 ## Basic Operators
 
-Operators are symbols which tells the interpreter to do a specific operation (viz arithmetic, comparison, logical etc)
+Operators are symbols which tells the interpreter to do a specific operation (viz arithmetic, comparison, logical, etc.)
 
-The different types of operators in Python are listed below
+The different types of operators in Python are listed below:
 
 1. Arithmetic Operators
 2. Relational Operators
@@ -19,7 +19,7 @@ The different types of operators in Python are listed below
 
 An arithmetic operator takes two operands as input, performs a calculation and returns the result. 
 
-Consider the expression, <b>“a = 2 + 3”</b>, here 2 and 3 are called <i>operands</i> and `+` is the <i>arithmetic operator</i>. The result of the operation is stored in the variable a.
+Consider the expression, <b>“a = 2 + 3”</b>. Here, `2` and `3` are the <i>operands</i> and `+` is the <i>arithmetic operator</i>. The result of the operation is stored in the variable a.
 
 <table style="width:100%">
   <tr>
@@ -54,12 +54,12 @@ Consider the expression, <b>“a = 2 + 3”</b>, here 2 and 3 are called <i>oper
   </tr>
   <tr>
     <td align="center">**</td>
-    <td>Performs an exponentiation operation. <br>The left operand is raised to the power of right operand</td> 
+    <td>Performs an Exponentiation operation. <br>The left operand is raised to the power of right operand</td> 
     <td>12 ** 3 = 1728</td>
   </tr>
   <tr>
     <td align="center">//</td>
-    <td>Performs floor division operation. <br>Returns the integral part of the quotient obtained after diving the left operand by the right operand</td> 
+    <td>Performs a Floor Division operation. <br>Returns the integral part of the quotient obtained after diving the left operand by the right operand</td> 
     <td>18 // 5 = 3</td>
   </tr>
 </table>
@@ -158,7 +158,7 @@ An assignment operator is used to assign values to a variable. This is usually c
 
 Consider the following examples,
 <br>
-<b>a = 18</b>. Here `=` is an assignment operator, and the result is stored in the variable a
+<b>a = 18</b>. Here `=` is an assignment operator, and the result is stored in variable a.
 <br>
 <b>a += 10</b>. Here `+=` is an assignment operator, and the result is stored in variable a. This is same as a = a + 10.
 
