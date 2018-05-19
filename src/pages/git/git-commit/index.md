@@ -54,3 +54,20 @@ Bear in mind:
 * It is perfectly ok - and even recommended - to write multiline commit messages
 * You can also refer to other issues or pull requests in your commit message. GitHub allocated a number reference to all pull requests and issues, so for example if you want to refer to pull request #788 simply do so in either the subject-line or in the body text as appropriate
     
+#### The --amend Option
+The `--amend` option allows you to change your last commit. Let's say you just committed and you made a mistake in your commit log message. You can conveniently modify the most recent commit using the command:
+```shell
+git commit --amend -m "an updated commit message"
+```
+If you forget to include a file in the commit:
+```shell
+git add FORGOTTEN-FILE-NAME
+git commit --amend -m "an updated commit message"
+
+# If you don't need to change the commit message, use the --no-edit option
+git add FORGOTTEN-FILE-NAME
+git commit --amend --no-edit
+```
+Premature commits happen all the time in the course of your day-to-day development. It’s easy to forget to stage a file or how to correctly format your commit message. The `--amend` flag is a convenient way to fix these minor mistakes. This command will replace the old commit message with the updated one specified in the command.
+
+Amended commits are actually entirely new commits and the previous commit will no longer be on your current branch. When you're working with others, you should try to avoid amending commits if the last commit is already pushed into the repository.
