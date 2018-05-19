@@ -8,7 +8,7 @@ One of the things that developers hear quite often regarding their pull requests
 Quite often when you develop some new feature you end up with several intermittent commits in your history - you develop incrementally after all. That might be just some typos or steps to final solution. Most of the time there is no use in having all these commits in final public version of code, so it's more beneficial to have all of them compacted into one, single and final.
 
 So let's assume you have following commit log in the branch you'd like to merge as part of pull request:
-```
+```shell
 $ git log --pretty=oneline --abbrev-commit
 30374054 Add Jupyter Notebook stub to Data Science Tools
 8490f5fc Minor formatting and Punctuation changes
@@ -19,14 +19,14 @@ Clearly we would prefer to have only one commit here, since there is no benefit 
 
 So what we do is starting interactive rebase session from current **HEAD** (commit **30374054**) to commit **3233cb21**, with intention to combine **3** latest commits into one:
 
-```
+```shell
 $ git rebase -i HEAD~3
 ```
 
 That will open an editor with something like following:
 
 
-```
+```shell
 pick 3233cb21 Prototype for Notebook page
 pick 8490f5fc Minor formatting and Punctuation changes
 pick 30374054 Add Jupyter Notebook to Data Science Tools
@@ -53,14 +53,14 @@ As always, Git gives us very nice help message where you can see this `squash` o
 
 Currently the instructions for interactive rebase say to `pick` every specified commit **and** preserve corresponding commit message. That is - don't change anything. But we want to have only one commit in the end. Simply edit the text in you editor replacing `pick` with `squash` (or just `s`) next yo every commit we want to get rid of and save/exit the editor. That might look like this:
 
-```
+```shell
 s 3233cb21 Prototype for Notebook page
 s 8490f5fc Minor formatting and Punctuation changes
 pick 30374054 Add Jupyter Notebook to Data Science Tools
 ```
 
 When you close your editor saving this changes it will be reopened right away suggesting to choose and reword commit messages. Something like
-```
+```shell
 # This is a combination of 3 commits.
 # The first commit's message is:
 Prototype for Notebook page
@@ -85,7 +85,7 @@ Your terminal now should show a success message including `Successfully rebased 
 
 This operation is slightly dangerous if you have your branch already published in a remote repository - you are modifying commit history after all. So it's best to do squash operation on local branch before you do **push**. Sometimes, it will be already pushed - how would you create pull request after all? In this case you'll have to **force** the changes on remote branch after doing the squashing, since your local history and branch history in the remote repository are different:
 
-```
+``` shell
 $ git push origin +my-branch-name
 ```
 
