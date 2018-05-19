@@ -21,7 +21,7 @@ C# is an object-oriented language while also providing support for component-ori
 9) Indexers
 
 #### New Features Added on C# 7.0:
-1) Destructors
+1) Deconstructors
 2) New syntax to work with Tuples
 3) Pattern Matching with Is Expressions
 4) Local Functions
@@ -36,7 +36,7 @@ You can use C# to create Windows client applications, XML Web services, distribu
 
 #### More Information:
 
-* <a href='https://docs.microsoft.com/en-us/dotnet/csharp/getting-started/introduction-to-the-csharp-language-and-the-net-framework' target='_blank' rel='nofollow'>Introduction to C#</a>
-* <a href='https://www.microsoft.com/net/tutorials/csharp/getting-started' target='_blank' rel='nofollow'>C# Tutorials</a>
-* <a href='https://docs.microsoft.com/en-us/dotnet/csharp/' target='_blank' rel='nofollow'>Official C# Documentation</a>
-* <a href='https://msdn.microsoft.com/en-us/magazine/mt790184.aspx' target='_blank' rel='nofollow'>New Features in C# 7.0</a>
+* [Introduction to C#](https://docs.microsoft.com/en-us/dotnet/csharp/getting-started/introduction-to-the-csharp-language-and-the-net-framework)
+* [C# Tutorials](https://www.microsoft.com/net/tutorials/csharp/getting-started)
+* [Official C# Documentation](https://docs.microsoft.com/en-us/dotnet/csharp/)
+* [New Features in C# 7.0](https://msdn.microsoft.com/en-us/magazine/mt790184.aspx)
