@@ -15,15 +15,15 @@ Output:
 true
 ```
 
-You can create a String either by creating a string literal, or by explicitly creating a String object using the `new` keyword:
-```java
-String str = "I am a String"; // This is a String literal
-String str = new String("I am a String"); // This is a String Object
-```
+You can create a String Object in the following ways:
 
-You might be thinking: What's the difference between the two?
+1. `String str = "I am a String"; //as a String literal`
+1. `String str = "I am a " + "String"; //as a constant expression`
+1. `String str = new String("I am a String"); //as a String Object using the constructor`
 
-Well, using the `new` keyword gurantees that a new `String` object will be created and a new memory location will be allocated in the `Heap` memory (<a href='https://docs.oracle.com/cd/E13150_01/jrockit_jvm/jrockit/geninfo/diagnos/garbage_collect.html' target='_blank' rel='nofollow'>Click here to learn more</a>). You see, Java takes care of memory allocation and collecting unused memory in the background - among other things. However, in this case, it's good to be aware about the difference so that you can write code that can help the JVM make appropriate optimizations.
+You might be thinking: What's the difference between the three?
+
+Well, using the `new` keyword gurantees that a new `String` object will be created and a new memory location will be allocated in the `Heap` memory [(click here to learn more)](https://docs.oracle.com/cd/E13150_01/jrockit_jvm/jrockit/geninfo/diagnos/garbage_collect.html). String literals and constant String expressions are cached at compile time. The compiler puts them in the String Literal Pool to prevent duplicates and improve memory consumption. Object allocation is expensive and this trick increases performance while instantiating Strings. If you use the same literal again, the JVM uses the same object. Using the contructor like above is almost always a worse choice.
 
 In the this code snippet, how many String objects are created?
 
@@ -31,19 +31,24 @@ In the this code snippet, how many String objects are created?
 String str = "This is a string";
 String str2 = "This is a string";
 String str3 = new String("This is a string");
-
-System.out.println(str == str2); // This prints true
-System.out.println(str == str3); // This prints false
 ```
 
-The answer is: 2 String objects are created.
 
-You see, the creators of the JVM are pretty smart. They figured that Strings differ mostly in terms of its `content`. When you create a String literal, the JVM internally checks, what is known as the `String pool`, to see if it can find a similar (content wise) String object. If it finds it, it returns the same reference. Otherwise, it just goes ahead and creates a new String object in the pool so that the same check can be performed in the future.
+The answer is: 2 String objects are created.  
+`str` and `str2` both refer to the same object. `str3` has the same content but using `new` forced the creation of a new, distinct, object.
+When you create a String literal, the JVM internally checks, what is known as the `String pool`, to see if it can find a similar (content wise) String object. If it finds it, it returns the same reference. Otherwise, it just goes ahead and creates a new String object in the pool so that the same check can be performed in the future.
 
-However, whenever you use the `new` keyword, it no longer performs this check. So, there could be a 1000s of String objects with the same content and yet, it'll go ahead and create a new String - using up additional memory. This is precisely why it's a good practice to use `String literals` instead of using the `new` keyword as much as possible.
+
+You can test this using the swallow, fast Object comparison `==` and the implemented `equals()`.
+
+```java
+System.out.println(str == str2); // This prints 'true'
+System.out.println(str == str3); // This prints 'false'
+System.out.println(str.equals(str3)); // This prints 'true'
+```
 
 #### Comparing Strings 
-If you want to compare the value of two String variables, you can't use ==. This is due to the fact that this will compare the references of the variables and not the values that are linked to them. To compare the stored values of the Strings you use the methode equals.
+If you want to compare the value of two String variables, you can't use ==. This is due to the fact that this will compare the references of the variables and not the values that are linked to them. To compare the stored values of the Strings you use the method equals.
 
 ```java
 boolean equals(Object obj)
@@ -58,7 +63,7 @@ System.out.println(str == str2); // This prints false
 System.out.println(str.equals(str2); // This prints true
 ```
 The first comparison is false because "==" looks at the references and they aren't the same.
-The seconde comparison is true because the variables store the same values. In this case "Hello world".
+The second comparison is true because the variables store the same values. In this case "Hello world".
 
 **Notes**
 
@@ -66,4 +71,4 @@ The seconde comparison is true because the variables store the same values. In t
 2. The String class is final- it's methods can't be overridden.
 3. When the String literal is found by JVM, it is added to string literal pool.
 4. String class contains a method name length(),while arrays have an attribute naming length.
-5. Strings are immutable and can not be changed. 
+5. Strings are immutable and can not be changed.
