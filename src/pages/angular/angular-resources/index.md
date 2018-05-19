@@ -11,7 +11,6 @@ A collection of helpful Angular resources
 ## Specific-topic Pages
 
 *   <a href='http://www.sitepoint.com/practical-guide-angularjs-directives/' target='_blank' rel='nofollow'>Directives</a> - Excellent guide going into detail on Angular Directives (Part 1)
-*   <a href='http://www.sitepoint.com/practical-guide-angularjs-directives-part-two/' target='_blank' rel='nofollow'>Directives</a> - Excellent guide going into detail on Angular Directives (Part 2)
 
 ## Videos
 
