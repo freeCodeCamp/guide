@@ -7,11 +7,11 @@ The `git commit` command will save all staged changes, along with a brief descri
 
 Commits are at the heart of Git usage. You can think of a commit as a snapshot of your project, where a new version of that project is created in the current repository. Two important features of commits are:
 
-- you can recall the commited changes at a later date, or revert the project to that version <a href='https://guide.freecodecamp.org/git/git-checkout' target='_blank' rel='nofollow'>see Git checkout</a>
+- you can recall the commited changes at a later date, or revert the project to that version ([see Git checkout](https://guide.freecodecamp.org/git/git-checkout))
 - if multiple commits edit different parts of the project, they will not overwrite each other even if the authors of the commit were unaware of each other. This is one of the benefits of using Git over a tool like Dropbox or Google Drive.
 
 ### Options
-There are a number of options that you can include with `git commit`. However, this guide will only cover the two most common options. For an extensive list of options, please consult the <a href='https://git-scm.com/docs/git-commit' target='_blank' rel='nofollow'>Git documentation</a>.
+There are a number of options that you can include with `git commit`. However, this guide will only cover the two most common options. For an extensive list of options, please consult the [Git documentation](https://git-scm.com/docs/git-commit).
 
 #### The -m Option
 The most common option used with `git commit` is the `-m` option. The `-m` stands for message. When calling `git commit`, it is required to include a message. The message should be a short description of the changes being committed. The message should be at the end of the command and it must be wrapped in quotations `" "`.
@@ -25,7 +25,7 @@ The output in your terminal should look something like this:
 [master 13vc6b2] My message
  1 file changed, 1 insertion(+)
 ```
-**NOTE:** If the `-m` is not included with the `git commit` command, you will be prompted to add a message in your default text editor.
+**NOTE:** If the `-m` is not included with the `git commit` command, you will be prompted to add a message in your default text editor - see 'Using detailed commit messages' below.
 
 #### The -a Option
 Another popular option is the `-a` option. The `-a` stands for all. This option automatically stages all modified files to be committed. If new files are added the `-a` option will not stage those new files. Only files that the git repository is aware of will be committed.
@@ -44,8 +44,13 @@ The output in your terminal should look something like this:
  1 file changed, 1 insertion(+)
 ```
 
-### Using detailed commit message
-Although ```git commit -m "commit message"``` works fine it will be useful if we provide more and systmatic information. we do this using writing commit message in file.The process is similar you add your changes to staging area using ```git add``` command and while committing them instead of using ```-m``` option just use ```git commit```.This will open a file your default text editor (most probably vi), write down commit message in detail and save changes this will perform commit.
+### Using detailed commit messages
+Although `git commit -m "commit message"` works just fine, it can be useful to provide more detailed and systmatic information.
 
-Keep your commit message lines length less than 72 charcters as standard practise.Also it is perfectly ok to write multiline commit message.You can also refer to other issue or pull request in your commit message.For example you want to provide 788 pull request for reference then you can add it to your commit message using #. ```#788``` in your commit message will create link to that pull request.
+If you commit without using the `-m` option, git will open your default text editor with a new file, which will include a commented-out list of all the files/changes that are staged in the commit. You then write your detailed commit message (the first line will be treated as the subject line) and the commit will be performed when you save/close the file.
+
+Bear in mind:
+* Keep your commit message lines length less than 72 charcters as standard practice
+* It is perfectly ok - and even recommended - to write multiline commit messages
+* You can also refer to other issues or pull requests in your commit message. GitHub allocated a number reference to all pull requests and issues, so for example if you want to refer to pull request #788 simply do so in either the subject-line or in the body text as appropriate
     
