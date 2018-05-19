@@ -48,7 +48,7 @@ System.out.println(str.equals(str3)); // This prints 'true'
 ```
 
 #### Comparing Strings 
-If you want to compare the value of two String variables, you can't use ==. This is due to the fact that this will compare the references of the variables and not the values that are linked to them. To compare the stored values of the Strings you use the methode equals.
+If you want to compare the value of two String variables, you can't use ==. This is due to the fact that this will compare the references of the variables and not the values that are linked to them. To compare the stored values of the Strings you use the method equals.
 
 ```java
 boolean equals(Object obj)
@@ -63,7 +63,7 @@ System.out.println(str == str2); // This prints false
 System.out.println(str.equals(str2); // This prints true
 ```
 The first comparison is false because "==" looks at the references and they aren't the same.
-The seconde comparison is true because the variables store the same values. In this case "Hello world".
+The second comparison is true because the variables store the same values. In this case "Hello world".
 
 **Notes**
 
