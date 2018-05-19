@@ -22,6 +22,11 @@ To view the branches in a Git repository, run the command:
 git branch
 ```
 
+To view both remote-tracking branches and local branches, run the command:
+```shell
+git branch -a
+```
+
 There will be an asterisk (\*) next to the branch that you're currently on.
 
 There are a number of different options you can include with `git branch` to see different information. For more details about the branches, you can use the `-v` (or `-vv`, or `--verbose`) option. The list of branches will include the SHA-1 value and commit subject line for the `HEAD` of each branch next to its name.
