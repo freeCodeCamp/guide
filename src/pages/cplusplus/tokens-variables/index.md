@@ -4,7 +4,7 @@ title: Tokens Part 1
 
 ### What are tokens ?
 
-Tokens are the smallest unit of a program which are importanat to the compiler. There are different kinds of tokens:
+Tokens are the smallest units of a program which are important to the compiler. There are different kinds of tokens:
 - Keywords
 - Operators
 - Punctuators
