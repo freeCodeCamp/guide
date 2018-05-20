@@ -36,7 +36,7 @@ This is where accessibility comes into play. Accessibility basically entails mak
 
 ## Why implement accessibility?
 
-This is one for the final category I just listed. You may think that accessibility doesn't apply to you or to your users, so why implement it? What would a blind person do with a photo editing tool?
+You may think that accessibility doesn't apply to you or to your users, so why implement it? What would a blind person do with a photo editing tool?
 
 The truth is, you're right to a certain degree. If you have done meticulous user research and have excluded any chance of a certain group of people visiting your website, the priority for catering to that group of people diminishes quite a bit.
 
@@ -52,7 +52,7 @@ There's variations on this legislation all over the world, some more severe and 
 
 ## Ok, so accessibility is a big deal. Now how do we implement it?
 
-That question, sadly, is harder to answer than it may seem. The Harry Potter quote at the top is there for a reason, and its not my being an avid Fantasy reader. 
+That question, sadly, is harder to answer than it may seem. The Harry Potter quote at the top is there for a reason, and its not my being an avid Fantasy reader.
 
 As I stated above, accessibility is important for a large group of different people, each with their own needs. Making your website work for literally everyone is a large, on-going task.
 
@@ -61,13 +61,13 @@ To bring a bit of a method to the madness, the Web Content Accessibility Guideli
 ### Talk like the natives
 
 The HTML specification is a document that describes how the language should be used to build websites. Assistive technologies, like screen-readers, speech recognition programs etc. are aware of this document. Web developers however, often are not, or at least not enough, and think something like this is ok:
-
+```html
     <div class="awesome-button"></div>
 
     <span><strong>Huge heading I will style with CSS later</strong></span>
 
     <span class="clickable-with-JavaScript">English</span>
-
+```
 Guess what? All three of these elements break several criteria of WCAG and therefore are not accessible at all.
 
 The first element breaks the so-called 'name, role, value'-criterium, which states that all elements on a web page should expose their name, their role (like button) and their value (like the contents of an edit field) to assistive technologies. This div actually doesn't provide any of the three, rendering it invisible to screen-readers.
@@ -80,13 +80,13 @@ Spans and divs are non-elements. They are meant to contain other elements, not t
 
 *   You can manually add ARIA-attributes to the elements above. This is an advanced topic and outside the scope of this article.
 *   Or, you can simply do this:
-
+```html
     <button>This is a button</button>
 
     <h2>Here's a heading level two</h2>
 
     <a href="JavascriptThing">English</a>
-
+```
 Boom. Suddenly, all these elements are now perfectly accessible, just by using native HTML. HTML the way it was meant to be used, in other words.
 
 ### A foundation cannot stand without structure
@@ -101,7 +101,7 @@ Images on a website are great. They add a new layer to your content, can really 
 
 Certainly. That is, if you can see them. In the HTML5-specification, an img-attribute must always have an alt-attribute. This attribute is meant as an alternative to the image in case it can't be seen. This would be true for blind visitors to your website, but also when your image can't be loaded for some reason. Not adding an alt-tag to an img-attribute is therefore not only breaking accessibility, but going against the HTML5-spec.
 
-I implore any web developer who catches themselves doing this to eat their programmer's hat and work on Windows 95 exclusively for a week. After the time is up, write an essay on what you have learn from this ordeal so I can have a laugh during my afternoon coffee.
+I implore any web developer who catches themselves doing this to eat their programmer's hat and work on Windows 95 exclusively for a week. After the time is up, write an essay on what you have learned from this ordeal so I can have a laugh during my afternoon coffee.
 
 Now, there is one caveat here. Alt-attributes are mandatory according to the HTML5-spec, but it's not mandatory to actually fill them in. `<img src="awesome-image.jpg", alt="">` is therefore legal HTML5 code.
 
@@ -118,6 +118,7 @@ For images of text, the text can either be included in the alt-attribute or offe
 Even people who don't wear glasses and have no problem with their eyesight at all benefit from an easy to read font and proper contrast. I'm sure you would cringe if you had to fill in a form where light yellow, hopelessly loopy letters are placed on a white background. For people who's eyesight is not as good, like your grandma for example, this becomes hopelessly worse.
 
 The WCAG has contrast ratios for smaller and larger letters and there's plenty of tools out there to check if the contrast ratios are strong enough. The information and tooling is there, go use it.
+
 A good place to start checking color contrast is by using the [WebAIM](https://webaim.org/resources/contrastchecker/) color contrast checker.
 
 ### What does this button do?
@@ -125,12 +126,14 @@ A good place to start checking color contrast is by using the [WebAIM](https://w
 While we are on the topic of forms, let's quickly glance at the <code>input</code> tag. This little guy is kinda important.  
 When you put some input fields on a web page, you can use labels to ...well ...label them. However, putting them next to each other is not quite enough. The attribute you want is the for-attribute, which takes the ID of a subsequent input field. This way, assistive technologies know what label to associate with what form field.  
 I guess the best way to illustrate this is by giving an example:
-
+```html
     <label for='username'>
 
     <input type='text' id='username'>
+```
 
 This will make for example a screen-reader say "username, text edit field", instead of just reporting' text edit field' and requiring the user to go look for a label. This also really helps people who use speech recognition software.
+
 
 ### That's a tall order
 
@@ -151,17 +154,22 @@ Screen-readers and other assistive technologies render a top-to-bottom represent
 DOM stands for Document Object Model and is the tree-like structure of your website's HTML elements. All your HTML elements are nodes that hierarchically interlink based on the HTML tags you use and JavaScript. Screen-readers use this DOM tree to work with your HTML code.
 
 If you put your element at the top of your element, it will show up at the top of your DOM tree as well. therefore, the screen-reader will put it at the top as well, even if you move it to the bottom of the page using CSS.  
+
 So a final tip I want to give you all is to pay attention to the order of your HTML, not just your finished website with CSS added in. Does it still make sense without CSS? Great!  
+
 Oh ... it doesn't? In that case ..you might one day hear a muffled curse carried to you on a chilly breeze while walking outside. That will most likely be me, visiting your website. 
 In that case I really only have two words for you. Often have I heard those same two words directed at me when I wrote some bad code and it is with great pleasure that I tell you: "go fix!"
 
 ### Color Contrast
 Color contrast should be a minimum of 4.5:1 for normal text and 3:1 for large text. “Large text” is defined as text that is at least 18 point (24px) or 14 point (18.66px) and bold. [Contrast Checker](https://webaim.org/resources/contrastchecker/)
 
+
 ## Conclusion
 
 I have told you about accessibility, what it is, what it's not and why it's important.  
+
 I have also given you the basics, the very basics, of getting accessibility right. These basics are however very powerful and can make your life a lot easier when coding for accessibility.  
+
 If we talk in FCC terms, you should keep these in mind while doing the HTML/CSS curriculum as well as the JavaScript curriculum.  
 In subsequent articles, I will touch on a number of more notch topics. A number of questions I will answer are:
 
