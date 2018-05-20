@@ -1,15 +1,27 @@
 ---
 title: B Tag
 ---
+
 ## B Tag
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/b-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `<b>` tag is used to make the text placed between the tags as Bold.
+The `<b>` tag represents a span of text.
+It is stylistically different from normal text. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Here is an example on how to use them.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+`<b>I am bold text </b>`
+
+Which results in:
+
+<b>I am bold text</b>
+
+### Note:
+
+The text inside a `<b>` tag does not convey any importance it is just to make the text bold.
+To make text bold and convey some importance `<strong>` tag is used.
+You should not use `<b>` tag to make Heading bold rather use the Heading tags from `<h1>` till `<h6>`.
+
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
++[MDN](https://developer.mozilla.org/tr/docs/Web/HTML/Element/b)

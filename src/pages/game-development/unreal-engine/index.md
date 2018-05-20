@@ -25,5 +25,5 @@ Unreal has gone through 4 major revisions. Although some code is common between 
 
 #### More Information:
 
-[www.UnrealEngine.com](https://www.unrealengine.com/)  
-[www.EpicGames.com](https://github.com/EpicGames)
+<a href='https://www.unrealengine.com/' target='_blank' rel='nofollow'>www.UnrealEngine.com</a>  
+<a href='https://github.com/EpicGames' target='_blank' rel='nofollow'>www.EpicGames.com</a>
