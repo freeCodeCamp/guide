@@ -74,7 +74,7 @@ v0.0.2
 v0.0.3 //new tag
 ```
 
-`-a` flag indicates that this is a annotated tag. `-m` flag lets you add in line massage. If you avoid `-m` you'd be provided with a window to enter the massage.
+`-a` flag indicates that this is a annotated tag. `-m` flag lets you add in line message. If you avoid `-m` you'd be provided with a window to enter the message.
 
 Other options available are `-s` and `-u`, which create a GPG-signed tag using the default e-mail address as key or a given key.
 ```shell
@@ -148,7 +148,7 @@ state without impacting any branches by performing another checkout.
 ...
 ```
 
-### For useful resources and information check following links:)
-1.https://git-scm.com/book/en/v2/Git-Basics-Tagging
-2.https://git-scm.com/docs/git-tag
-3.https://githowto.com/tagging_versions
+### More Information
+* [Git Pro - Tagging Basics](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
+* [Git Pro - Documentation](https://git-scm.com/docs/git-tag)
+* [Git HowTo](https://githowto.com/tagging_versions)
