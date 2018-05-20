@@ -3,13 +3,25 @@ title: Active
 ---
 ## Active
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/selectors/pseudo/active/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The CSS :active selector changes the style of an HTML element when a user activates the element. This selector typically provides the user confirmation that they have clicked on an element. 
+The :active selector is most commonly used on ```<a>``` and ```<button>``` elements but can be used on all elements.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+If multiple CSS pseudo selectors are being used, the :active selector must come after the :hover selector.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+In the example below, when a user clicks on a link, the text color will change from black to red until the click action stops. 
+
+```css
+a {
+  color: black;
+}
+
+a:active {
+  color: red;
+}
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+* [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/:active)
+* [W3 Schools](https://www.w3schools.com/cssref/sel_active.asp)
 
 
