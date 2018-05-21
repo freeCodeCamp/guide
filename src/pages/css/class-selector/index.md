@@ -2,7 +2,7 @@
 title: Class Selector
 ---
 ## Class Selector
-A Class Selector is used in a CSS file to apply styles to the HTML elements with the corresponding class name. In HTML, we can set the class name for any element by adding a "class" attribute.
+A Class Selector is used in a CSS file to apply style to the HTML elements with the corresponding class name. In HTML, you can set the class name for any element by adding a "class" attribute.
 
 Examples:
 ```html
@@ -41,6 +41,6 @@ h1.test, h2.test {
 ```
 **Tips: No space between multiple classes.**
 #### More Information:
-CSS Syntax and Selectors: <a href='https://www.w3schools.com/css/css_syntax.asp' target='_blank' rel='nofollow'>w3school</a>
+CSS Syntax and Selectors: <a href='https://www.w3schools.com/css/css_syntax.asp' target='_blank' rel='nofollow'>w3schools</a>
 
 
