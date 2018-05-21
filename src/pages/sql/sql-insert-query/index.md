@@ -3,7 +3,7 @@ title: SQL Insert Query
 ---
 ## SQL Insert Query
 
-Insert queries are a way to insert data into a table. Lets say we have created a table using
+Insert queries are a way to insert data into a table. Let's say we have created a table using
 
 `CREATE TABLE example_table ( name varchar(255), age int)`
 
@@ -22,7 +22,7 @@ Now to add some data to this table , we'll use **INSERT** in the following way:
 | --- | --- |
 | Andrew | 23 |
 
-Even the following will work but it's always a good practice to specify which data is going into which column.
+Even the following will work, but it's always a good practice to specify which data is going into which column.
 
 `INSERT INTO table_name VALUES ("John", 28)`
 
