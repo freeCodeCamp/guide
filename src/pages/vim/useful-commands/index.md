@@ -32,7 +32,7 @@ Most likely you'll find yourself in "normal" mode, it allows you to enter comman
 To get here from other modes you can type `ctrl + c` or `escape`.
 
 To edit text and move around in a familiar way press `i`, for "insert" mode.
-Try to move around with the arrow keys in "insert" mode.
+Try to move around with the arrow keys in "insert" mode. You can also use j, k, h, and l to navigate down, up, left, and right respectively. 
 
 Depending on the configuration, you may enter a file browser by typing and entering the command `:e .` in "normal" mode. The 'e' stands for edit, and the period for the file or directory.
 
@@ -74,6 +74,5 @@ Play Vim(https://vim-adventures.com/) - A fun way to learn vim plating a step-by
 Read the rest of our Vim Guides to get a better understanding of this powerful editor.
 
 ## Other Resources
-
-- <a href='https://vimgolf.com/' target='_blank' rel='nofollow'>Vim Golf</a> - A good way to learn from doing vim challenges to get the lowest amount of keystrokes. You can see solutions submitted by others if you can't figure the challenge out.
+- [Vim Golf](https://vimgolf.com/) - A good way to learn from doing vim challenges to get the lowest amount of keystrokes. You can see solutions submitted by others if you can't figure the challenge out.
 - Read the rest of our Vim Guides to get a better understanding of this powerful editor.
