@@ -9,7 +9,8 @@ Before doing a penetration test, it is mandatory to have an agreement that will 
 * where will be the IP source of the attack, and
 * what will be the penetration fields of the system.
 
-Penetration testing is conducted by professional ethical hackers who mainly use commercial, open-source tools, automate tools and manual checks. There are no restrictions; the most important objective here is to uncover as many security flaws as possible.
+Penetration testing is conducted by professional ethical hackers who mainly use commercial, open-source tools, automate tools and manual checks. There are no restrictions; the most important objective here is to uncover as many security flaws as possible. Many big companies offer rewards for anybody that can point out security vulnerabilities in their systems, through what is called [bug bounty programs](https://en.wikipedia.org/wiki/Bug_bounty_program). Google, for example, will offer tens of thousands of dollars through their Vulnerability Reward Program.
+
 ## Types of Penetration Testing
 We have five types of penetration testing −
 
@@ -41,4 +42,4 @@ First understand your requirements and evaluate all the risks.
 * Always sign an agreement before doing a penetration test.
 
 ## Resources
-[Penetration Testing](https://en.wikipedia.org/wiki/Penetration_test)
+<a href='https://en.wikipedia.org/wiki/Penetration_test' target='_blank' rel='nofollow'>Penetration Testing</a>
