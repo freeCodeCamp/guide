@@ -3,7 +3,7 @@ title: Access Modifiers
 ---
 # Access Modifiers
 
-Have you ever wanted to define how people would access some of your properties. You would not want anyone using your underwears but your close friends and family relatives can as well use your sweater and maybe your car.
+Have you ever wanted to define how people would access some of your properties? You would not want anyone using your underwears but your close friends and family relatives can as well use your sweater and maybe your car.
 
 This level of access to different properties that you own is also in Java. You to define the access level for variables, methods and classes depending on which other classes you want them to be available to.
 
