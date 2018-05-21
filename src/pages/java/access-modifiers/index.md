@@ -3,13 +3,16 @@ title: Access Modifiers
 ---
 # Access Modifiers
 
-Have you ever wanted to define how people would access some of your properties. You would not want anyone using your underwears but your close friends and family relatives can as well use your sweater and maybe your car.
+Have you ever wanted to define how people would access some of your properties? You would not want anyone using your underwears but your close friends and family relatives can as well use your sweater and maybe your car.
 
 This level of access to different properties that you own is also in Java. You to define the access level for variables, methods and classes depending on which other classes you want them to be available to.
 
 Java provides 4 levels of access modifiers. This means that you can modify access to a variable, method or a class in 4 ways. These 4 ways are private, public, protected and default.
 
 Among these 4 modifiers, only 2 which are public and default can be applied to a class. However, the 4 modifiers can be applied to variables and methods
+
+#### Access Modifiers Table Reference: 
+![Access Modifiers Table](https://i.imgur.com/zoMspyn.png)
 
 private Access Modifier
 Allows a variable or method to only be accessed in the class in which it was created. No other class beyond the class that created the variable or method can access it. This is closely similar to your underwear. They are only accessible to the owner. To make a variable or method private, you simply append the private keyword before the variable or method type. For example;
@@ -85,4 +88,6 @@ protected String getName(){
   return "My Name is You";
 }
 ```
+Here the concise form of access modifier in the form of table:
+ (https://qph.ec.quoracdn.net/main-qimg-fc12c8e22920851b748ba9f626f3836a)
     
