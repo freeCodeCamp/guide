@@ -8,7 +8,7 @@ First announced only for OS X, at Apple's Worldwide Developers Conference in 200
 
 ## Overview
 
-Unity is an all purpose game engine that provides a complete framework for creating 2D and 3D games using C#. 
+Unity is an all-purpose game engine that provides a complete framework for creating 2D and 3D games using C#. 
 
 Unity is particularly popular for mobile game development and much of their focus is on mobile platforms. Unity3D's 2D pipeline is a more recent addition to the engine, and is less mature than the 3D pipeline. Despite this Unity is an adaquate platform for developing 2D games even when compared to other dedicated 2D engines, particularly if you plan to release the game across multiple mobile devices.
 
