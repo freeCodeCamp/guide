@@ -24,43 +24,43 @@ Example: Assume the input array is:
 
 Based on the algorithm, we will sort the input array according to the one's digit (least significant digit).
 
-0: 10
-1: 21 11
-2:
-3: 123
-4: 34 44 654
-5:
-6:
-7: 17
-8:
+0: 10 </br>
+1: 21 11</br>
+2:</br>
+3: 123</br>
+4: 34 44 654</br>
+5:</br>
+6:</br>
+7: 17</br>
+8:</br>
 9:
 
 So, the array becomes 10,21,11,123,24,44,654,17
 Now, we'll sort according to the ten's digit:
 
-0:
-1: 10 11 17
-2: 21 123
-3: 34
-4: 44
-5: 654
-6:
-7:
-8:
+0:</br>
+1: 10 11 17</br>
+2: 21 123</br>
+3: 34</br>
+4: 44</br>
+5: 654</br>
+6:</br>
+7:</br>
+8:</br>
 9:
 
 Now, the array becomes : 10,11,17,21,123,34,44,654
 Finally , we sort according to the hundred's digit (most significant digit):
 
-0: 010 011 017 021 034 044
-1: 123
-2:
-3:
-4:
-5:
-6: 654
-7:
-8:
+0: 010 011 017 021 034 044</br>
+1: 123</br>
+2:</br>
+3:</br>
+4:</br>
+5:</br>
+6: 654</br>
+7:</br>
+8:</br>
 9:
 
 The array becomes : 10,11,17,21,34,44,123,654 which is sorted. This is how our algorithm works. 
