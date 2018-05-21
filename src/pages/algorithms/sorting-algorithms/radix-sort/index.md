@@ -33,7 +33,7 @@ Based on the algorithm, we will sort the input array according to the one's digi
 6:</br>
 7: 17</br>
 8:</br>
-9:
+9:</br>
 
 So, the array becomes 10,21,11,123,24,44,654,17
 Now, we'll sort according to the ten's digit:
