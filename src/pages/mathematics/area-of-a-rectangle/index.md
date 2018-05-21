@@ -3,15 +3,15 @@ title: Area of a Rectangle
 ---
 ## Area of a Rectangle
 
-The area of a rectangle can be calculated by multiplying the length of the two different sides together.
+The area of a rectangle can be calculated by multiplying the lengths of the two perpendicular sides together.
 
-For example, if you have a rectangle that is 2cm by 4cm, then you can work out the area:
+`Area = a x b`
 
-2cm x 4cm = 8cm²
+**For Example**
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+For a rectangle where *a = 3* and *b = 4*
+
+`Area = a x b = 3 x 4 = 12`
 
 <!-- #### More Information: -->
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
