@@ -7,21 +7,15 @@ title: Radix Sort
 Prerequisite: Counting Sort
 
 QuickSort, MergeSort, HeapSort are comparison based sorting algorithms.
-
 CountSort is not comparison based algorithm. It has the complexity of O(n+k), where k is the maximum element of the input array.
-
 So, if k is O(n) ,CountSort becomes linear sorting, which is better than comparison based sorting algorithms that have O(nlogn) time complexity. 
-
 The idea is to extend the CountSort algorithm to get a better time complexity when k goes O(n2). 
-
 Here comes the idea of Radix Sort.
 
 Algorithm:
 
 For each digit i where i varies from the least significant digit to the most significant digit of a number
-
 Sort input array using countsort algorithm according to ith digit.
-
 We used count sort because it is a stable sort.
 
 Example: Assume the input array is:
@@ -42,7 +36,6 @@ Based on the algorithm, we will sort the input array according to the one's digi
 9:
 
 So, the array becomes 10,21,11,123,24,44,654,17
-
 Now, we'll sort according to the ten's digit:
 
 0:
@@ -57,33 +50,22 @@ Now, we'll sort according to the ten's digit:
 9:
 
 Now, the array becomes : 10,11,17,21,123,34,44,654
-
 Finally , we sort according to the hundred's digit (most significant digit):
 
 0: 010 011 017 021 034 044
-
 1: 123
-
 2:
-
 3:
-
 4:
-
 5:
-
 6: 654
-
 7:
-
 8:
-
 9:
 
 The array becomes : 10,11,17,21,34,44,123,654 which is sorted. This is how our algorithm works. 
 
 An implementation in C:
-
 ```
 void countsort(int arr[],int n,int place)
 
