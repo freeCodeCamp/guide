@@ -25,7 +25,7 @@ You might be thinking: What's the difference between the three?
 
 Well, using the `new` keyword gurantees that a new `String` object will be created and a new memory location will be allocated in the `Heap` memory [(click here to learn more)](https://docs.oracle.com/cd/E13150_01/jrockit_jvm/jrockit/geninfo/diagnos/garbage_collect.html). String literals and constant String expressions are cached at compile time. The compiler puts them in the String Literal Pool to prevent duplicates and improve memory consumption. Object allocation is expensive and this trick increases performance while instantiating Strings. If you use the same literal again, the JVM uses the same object. Using the contructor like above is almost always a worse choice.
 
-In the this code snippet, how many String objects are created?
+In this code snippet, how many String objects are created?
 
 ```java
 String str = "This is a string";
