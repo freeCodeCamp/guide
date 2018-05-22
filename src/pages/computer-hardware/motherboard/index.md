@@ -18,7 +18,7 @@ To understand how computers work, you don't need to know every single part of th
 - A power connector to distribute power to the CPU and other components.
 - Slots for the system's main memory, typically in the form of DRAM chips.
 - A chip forms an interface between the CPU, the main memory and other components. On many types of motherboards, this is referred to as the Northbridge. This chip also contains a large heat sink.
-- A second chip controls the input and output (I/O) functions. It is not connected directly to the CPU but to the Northbridge. This I/O controller is referred to as the Southbridge. The Northbridge and Southbridge combined are referred to as the chipset.
+- A second chip controls the input and output (I/O) functions. It is not connected directly to the CPU but to the Northbridge. This I/O controller is referred as the Southbridge. The Northbridge and Southbridge combined are referred to as the chipset.
 - Several connectors, which provide the physical interface between input and output devices and the motherboard. The Southbridge handles these connections.
 - Slots for one or more hard drives to store files. The most common types of connections are Integrated Drive Electronics (IDE) and Serial Advanced Technology Attachment (SATA).
 - A read-only memory (ROM) chip, which contains the firmware, or startup instructions for the computer system. This is also called the BIOS.
