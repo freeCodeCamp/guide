@@ -11,7 +11,9 @@ CPU speeds are measured in gigahertz (GHz). For every gigahertz of speed, a CPU 
 
 Gigahertz is not the only determining factor in the actual speed of a processor, as different processors with the same gigahertz speed (also known as clock speed) may perform real-world tasks at different speeds due to using different sets of instructions to perform these tasks. These instruction sets are called CPU architectures.
 
-Most modern CPUs use a 64-bit architecture, which means they store information as 64 binary 'bits'. Older CPUs used 32-bit, 16-bit, and even 8-bit architectures. The largest number a 64-bit CPU can store is 18,446,744,073,709,552,000. 
+Most modern CPUs use a 64-bit architecture, which means they use 64 bit long memory adresses. Older CPUs used 32-bit, 16-bit, and even 8-bit architectures. The largest number a 64-bit CPU can store is 18,446,744,073,709,552,000. A CPPU need memory adresses to get specified values from the RAM. If we call the length of the memory adresses n, 2^n is the amount of memory cells a CPU can adress.
+
+An instruction cycle for a CPU is called the fetch-decode-execute cycle - where the computer retrieves a instruction from its memory, deetermines which instruction it fetched and what it does, and then carries out said instrucitons.
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
@@ -24,5 +26,5 @@ A microprocessor is a silicon chip containing millions of microscopic transistor
   
 There are two primary manufacturers of computer microprocessors. Intel and Advanced Micro Devices (AMD) lead the market in terms of speed and quality. Intel's desktop CPUs include Celeron, Pentium and Core. AMD's desktop processors include Sempron, Athlon and Phenom. Intel makes Celeron M, Pentium M and Core mobile processors for notebooks. AMD makes mobile versions of its Sempron and Athlon, as well as the Turion mobile processor which comes in Ultra and Dual-Core versions. Both companies make both single-core and multi-core processors.
 #### More Information:
-<a href='https://en.wikipedia.org/wiki/Central_processing_unit' target='_blank' rel='nofollow'>Wikipedia</a>M
+<a href='https://en.wikipedia.org/wiki/Central_processing_unit' target='_blank' rel='nofollow'>Wikipedia</a>
 
