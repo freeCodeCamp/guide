@@ -4,7 +4,7 @@ title: Finite State Machine
 The finite state machine (FSM) is a software design pattern where a given model transitions to other behavioral states through external input.
 
 ## Finite State Machine
-A FSM is defined by it's **states**, it's **initial state** and the **transitions**.
+A FSM is defined by its **states**, it's **initial state** and the **transitions**.
 
 The power of FSM comes from the ability to clearly define different *behaviors* in different conditions. Usually FSM is used with looping behavioral scripts which constantly evaluate the current situation in a loop or with events.
 
