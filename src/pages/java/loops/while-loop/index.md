@@ -3,7 +3,7 @@ title: While Loop
 ---
 # While Loop
 
-The `while` loop executes a group of statements when an expression evaluates to `true`. For instance:
+The `while` loop executes a group of statements whilst an expression evaluates to `true`. For instance:
 
 ```java
 while (some_condition_is_true)
@@ -15,7 +15,7 @@ while (some_condition_is_true)
 **Note**: For the `while` loop to start executing, you'd require the condition to be true. However, to exit the loop you must do something as given below (otherwise the loop will execute forever. Practically, it will run till the JVM runs out of memory).
 
 ## Example
-In the following example, the `expression` is given by `iter_While < 10`.We increment `iter_While` by `1` each time the loop is executed.The `while`loop breaks when`iter_While`value reaches `10`.
+In the following example, the `expression` is given by `iter_While < 10`. We increment `iter_While` by `1` each time the loop is executed. The `while`loop breaks when`iter_While`value reaches `10`.
 
 ```java
 int iter_While = 0;
@@ -35,4 +35,4 @@ Output:
 iter_While Value: 10
 ```
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CJYj/0' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [Run Code](https://repl.it/CJYj/0)
