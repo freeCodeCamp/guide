@@ -10,10 +10,10 @@ The arguments provided to `bind` will precede any arguments that are passed to t
 
 ### Using `bind` to change `this` in a function
 
-The fist argument provided to `bind` is the `this` context the function will be bound to. 
+The first argument provided to `bind` is the `this` context the function will be bound to. 
 If you do not want to change the value of `this` pass `null` as the first argument.
 
-You are tasked with writing code to  update the number of attendees as they arrive at a conference.
+You are tasked with writing code to update the number of attendees as they arrive at a conference.
 You create a simple webpage that has a button that, when clicked, increments the `numOfAttendees`
 property on the confrence object. You use jQuery to add a click handler to your button, but after clicking the button the confrence object has not changed. Your code might look something like this.
 
@@ -60,7 +60,7 @@ var makeCool = combineStrings.bind(null, "Cool");
 makeCool("trick"); // "Cool trick"
 ```
 
-The guide on [this reference](https://guide.freecodecamp.org/javascript/this-reference) has more information about how what the `this` keyword references can change.
+The guide on <a href='https://guide.freecodecamp.org/javascript/this-reference' target='_blank' rel='nofollow'>this reference</a> has more information about how what the `this` keyword references can change.
 
-More details on the `bind` method can be found on Mozilla's [MDN docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind).
+More details on the `bind` method can be found on Mozilla's <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind' target='_blank' rel='nofollow'>MDN docs</a>.
 
