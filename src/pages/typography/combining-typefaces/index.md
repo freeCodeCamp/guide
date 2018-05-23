@@ -3,11 +3,11 @@ title: Combining Typefaces
 ---
 ## Combining Typefaces
 
-## Font Pairing Basics
+#### Font Pairing Basics
 
 Which fonts look good together and which ones don't? If you've ever struggled with this question, you're not alone. Learn how to pair different fonts and styles by getting familiar with these clever combos!
 
-## Try these steps one by one
+#### Try these steps one by one
 
 * Pair a regular and bold font to create a subtle contrast
 * Balance a script font with a bold font
