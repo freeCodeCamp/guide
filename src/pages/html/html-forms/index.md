@@ -55,7 +55,7 @@ A form will take input from the site visitor and then will post it to a back-end
 
 There are various form elements available like text fields, textarea fields, drop-down menus, radio buttons, checkboxes, etc.
 
-The HTML <form> tag is used to create an HTML form and it has following syntax −
+The HTML `<form>` tag is used to create an HTML form and it has following syntax −
 
 ``` html    
     <form action = "Script URL" method = "GET|POST">
