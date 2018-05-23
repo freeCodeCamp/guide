@@ -3,11 +3,14 @@ title: Tagging in Git
 ---
 ## Tagging in Git
 
-Tags are a convenient way to highlight some milestone in you version history. Be it a new version, release or just a flag one could see where you made some decision. From the point of view of git, tag is just another branch name, for a branch that will never change. Typically this feature is used to mark release points.
+Similar to most of the Version Control Systems(VCS's), Git has the ability to tag specific points in history which are important.
+It is used to mark release points like (v1.0, and so on).
+
+Tags are a convenient way to highlight some milestone in you version history. Be it a new version, release or just a flag like (v1.0, and so on) one could see where you made some decision. From the point of view of git, tag is just another branch name, for a branch that will never change. Typically this feature is used to mark release points.
 
 ### List Tags
 
-`git tag` will list the tags in alphabetical order.
+The `git tag` command allows you to lists the tags in alphabetical order; the order in which they appear has no real importance.
 
 ```shell
 $ git tag
@@ -26,44 +29,8 @@ v2.0.1
 
 There are two available methods to create tags
 
-1. Annotated Tags
-2. Lightweight Tags
-
-### Annotated Tags
-
-Annotated Tags is the full fledged version of creating a tag where it will contain a checksum, tagger name, email, date and tagging message etc.
-
-```shell
-$ git tag -a v0.0.3 -m "Release Version 0.0.3"
-$ git tag
-v0.0.1
-v0.0.2
-v0.0.3 //new tag
-```
-
-`-a` flag indicates that this is a annotated tag. `-m` flag lets you add in line massage. If you avoid `-m` you'd be provided with a window to enter the massage.
-
-Other options available are `-s` and `-u`, which create a GPG-signed tag using the default e-mail address as key or a given key.
-```shell
-$ git tag -a v0.0.3 -u some-key
-```
-
-You can view the content of the tag by using `git show v0.0.3` command.
-
-```shell
-$ git show v0.0.3
-Tagger: John Doe <johndoe@gmail.com>
-Date:   Tue Jun 27 15:39:51 2017 +0530
-
-Release Version 0.0.3
-
-commit e3bbf5f990efd7ad54dccc8d9cb777daf65b70f9
-Author: John Doe <johndoe@gmail.com>
-Date:   Tue Jun 27 15:33:06 2017 +0530
-
-    Implement an awesome feature
-
-```
+1. Lightweight Tags
+2. Annotated Tags
 
 
 ### Lightweight Tags
@@ -94,14 +61,48 @@ Date:   Tue Jul 25 15:09:02 2017 +0530
 
 As you can see only a reference of a checksum is kept here.
 
+ 
+### Annotated Tags
 
-### Tagging Later
+Annotated Tags is the full fledged version of creating a tag where it will contain a checksum, tagger name, email, date and tagging message etc.
 
-You can also tag old commits by especifying the commit number at the end of the command:
 ```shell
-$ git tag v1.2 9fceb02
+$ git tag -a v0.0.3 -m "Release Version 0.0.3"
+$ git tag
+v0.0.1
+v0.0.2
+v0.0.3 //new tag
 ```
 
+`-a` flag indicates that this is a annotated tag. `-m` flag lets you add in line message. If you avoid `-m` you'd be provided with a window to enter the message.
+
+Other options available are `-s` and `-u`, which create a GPG-signed tag using the default e-mail address as key or a given key.
+```shell
+$ git tag -a v0.0.3 -u some-key
+```
+
+You can view the content of the tag by using `git show v0.0.3` command.
+
+```shell
+$ git show v0.0.3
+Tagger: John Doe <johndoe@gmail.com>
+Date:   Tue Jun 27 15:39:51 2017 +0530
+
+Release Version 0.0.3
+
+commit e3bbf5f990efd7ad54dccc8d9cb777daf65b70f9
+Author: John Doe <johndoe@gmail.com>
+Date:   Tue Jun 27 15:33:06 2017 +0530
+
+    Implement an awesome feature
+
+```
+ 
+ ### Tagging Later
+ You can also tag commits after you’ve moved past them. Now, suppose you forgot to tag the project at v1.2, which was at the “updated rakefile” commit. You can add it after the fact. To tag that commit, you specify the commit checksum (or part of it) at the end of the command:
+ ```shell
+git tag -a v1.2 9fceb02
+```
 
 ### Deleting a Tag
 
@@ -147,6 +148,7 @@ state without impacting any branches by performing another checkout.
 ...
 ```
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-- Git documentation: <a href='https://git-scm.com/book/en/v2/Git-Basics-Tagging' target='_blank' rel='nofollow'>tag</a>
+### More Information
+* [Git Pro - Tagging Basics](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
+* [Git Pro - Documentation](https://git-scm.com/docs/git-tag)
+* [Git HowTo](https://githowto.com/tagging_versions)

@@ -23,7 +23,7 @@ int main(void) {
 ```
 While the statement within the while loop is true, the content within the brackets will be run. When the program hits the `while(my_number)`, it checks the statement within the parenthesis. If that statement is false, it won't run the while loop. Instead, it will skip over the code between the two brackets and will pick up where it left off.
 
-If the statement is true, the code within the brackets will be run. Once the code within the brackets has been run, the statement within the parenthesis will be checked again. Just like before, if the statement is true, the code will be run, if it's false, the code will be skipped.
+If the statement is true, the code within the brackets will be run. Once the code within the brackets has run, the statement within the parenthesis will be checked again. Just like before, if the statement is true, the code will be run, if it's false, the code will be skipped.
 
 Something that you may run into when playing with this or any other loop is the idea of an infinite loop- a loop that will run an infinite amount of times because there's nothing to stop it. Sometimes this can happen on purpose:
 

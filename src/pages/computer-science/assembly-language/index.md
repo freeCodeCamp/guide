@@ -9,7 +9,7 @@ Assembly Language is the interface between higher level languages (c++, Java, ec
 
 Assembly languages are devided into different Instruction Set Architectures (ISA) which are the basic instructions that the CPU can understand. More complex instuctions from the upper level language are decomposed by the compiler into the simpler operations in the instruction set. Different computer architectures have Different ISAs. A few common ISAs are MIPS, ARM, Intel x86, RISC-V.
 
-Assemblers decompose Assembly instructions into their respective binary representations. Assemblers replace the generic addresses of assembly code with explicit register and memory addresses of your computer.
+Assemblers decompose Assembly instructions into their respective binary representations and replace the generic addresses of assembly code with explicit register and memory addresses of your computer.
 
 Programmers will write code in Assembly if execution speed and control is absolutely paramount. Otherwise upperlevel languages are used for easier development. Programmers principally use Assembly in the following situations:
 * The software directly works with hardwares, such as device drivers.

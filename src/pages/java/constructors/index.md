@@ -45,7 +45,7 @@ Hence, the purpose of using `constructors` is to provide:
 2.  Provide initial values to a object properties.
 3.  Control how an object is created.
 
-Let's look at another example. Say, Honda (the car manufacturer), wants all its cars to be named `Honda <something>`. In order to enforce this, we might represent this using a class as follows:
+Let's look at another example. Say, Honda (the car manufacturer), wants all of its cars to be named `Honda <a name>`. In order to enforce this, we might represent this using a class as follows:
 
 ```java
 public class Car {
@@ -104,7 +104,7 @@ Bank account = new Bank(); // Throws a compilation error: Bank() has private acc
 
 So, the only way to gain access to the instance is by using `Bank.getInstance()`. Such instances are called `Singleton` since you get exactly one instance (per VM to be precise) throughout the life of your application.
 
-There can be many number of constructors in a class. But they should differ in the method parameters. This is Constructor Overloading. For example
+There can be many number of constructors in a class. But they should differ in the method parameters. This is Constructor Overloading. To be precise, we say constructor overloading has occurred when there are two or more constructors with the same name, but different method parameters. As a result, the two functions have different method signatures and are treated by Java as different constructors entirely. For example:
 
 ```java
 public class Car {

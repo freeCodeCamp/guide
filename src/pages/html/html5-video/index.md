@@ -3,17 +3,31 @@ title: HTML5 Video
 ---
 ## HTML5 Video
 
+
 Before HTML5, in order to have a video play in a webpage you would need to use a plugin, like Adobe Flash Player. With the introduction of HTML5, you can now place it directly into the page itself.
-
-Example:
-
-```html
-    <video>
-      <source src="video.mp4" type="video/mp4">
-    </video>
+The HTML <video> tag is used to embed video in web documents. It may contain one or more video sources, represented using the src attribute or the [source](<source>) element.
+  
+  
+ To embed video file into web page, just add this code snippet and change the src of audio file.
+ 
+ ```html
+ <video controls>
+    <source src="tutorial.ogg" type="video /ogg">
+    <source src="tutorial.mp4" type="video /mpeg">
+  Your browser does not support the video element. Kindly,update it to latest version.
+  </video >
 ```
 
+The controls attribute includes video controls, similar to play, pause, and volume.
+
 This feature is supported by all modern/updated browsers. However, not all support the same video file format. My recommendation for a wide range of compatibilty is MP4, as it is the most widely accepted format. There are also two other formats (WebM and Ogg) that are supported in Chrome, Firefox, and Opera.
+
+The <source> element enables you to indicate alternative video files which the browser may choose from. The browser will utilize the first recognize format.
+In HTML5, there are 3 supported video formats: MP4, WebM, and Ogg.
+
+The text between the <video> and </video> tags will only be displayed in browsers that do not support the <video> element.
+Since this is html5, some browser do not support it. You can check it at https://caniuse.com/#search=audio.
+
 
 There are several different elements of the video tag, many of these explanations are based on Mozilla's web docs (linked below). There are even more if you click the link at the bottom. 
 

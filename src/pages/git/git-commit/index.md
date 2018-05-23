@@ -25,10 +25,11 @@ The output in your terminal should look something like this:
 [master 13vc6b2] My message
  1 file changed, 1 insertion(+)
 ```
+
 **NOTE:** If the `-m` is not included with the `git commit` command, you will be prompted to add a message in your default text editor - see 'Using detailed commit messages' below.
 
 #### The -a Option
-Another popular option is the `-a` option. The `-a` stands for all. This option automatically stages all modified files to be committed. If new files are added the `-a` option will not stage those new files. Only files that the git repository is aware of will be committed.
+Another popular option is the `-a` option. The `-a` stands for all. This option automatically stages all modified files to be committed. If new files are added the `-a` option will not stage those new files. Only files that the Git repository is aware of will be committed.
 
 For example:
 
@@ -71,3 +72,6 @@ git commit --amend --no-edit
 Premature commits happen all the time in the course of your day-to-day development. It’s easy to forget to stage a file or how to correctly format your commit message. The `--amend` flag is a convenient way to fix these minor mistakes. This command will replace the old commit message with the updated one specified in the command.
 
 Amended commits are actually entirely new commits and the previous commit will no longer be on your current branch. When you're working with others, you should try to avoid amending commits if the last commit is already pushed into the repository.
+
+### More Information:
+- Git documentation: [commit](https://git-scm.com/docs/git-commit)

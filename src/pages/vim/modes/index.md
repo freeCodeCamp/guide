@@ -8,18 +8,41 @@ Because vim is focused on changing existing code just as much as writing new
 code, it is split into several modes that each have different purposes.
 
 ### Normal Mode
-By default, vim starts in "normal" mode. Here, key presses don't work as one
-would expect. That is, they don't insert text into the document; instead,
+By default, vim starts in "normal" mode. 
+Normal mode can be accessed from other modes by pressing `Esc` or `<C-[>`.
+
+In Normal mode key presses don't work as one would expect. That is, they don't insert text into the document; instead,
 certain key presses can:
 
-- Move the cursor
-- Manipulate text
-- Enter other modes
+#### Move the cursor
+- **h**   move one character left    
+- **j**   move one row down          
+- **k**   move one row up            
+- **l**   move one character right   
 
-Normal mode is where one should spend most of their time while using vim. Remember,
+As many vim commands, row movement can be prefixed by a number to move s
+everal lines at a time:                                                 
+- **4j**  move 4 rows down                                              
+- **6k**  move 6 rows up                                                
+                                                                        
+Basic word movements:                                                  
+- **w**   move to beginning of next word                                
+- **b**   move to previous beginning of word                            
+- **e**   move to end of word                                           
+- **W**   move to beginning of next word after a whitespace             
+- **B**   move to beginning of previous word before a whitespace        
+- **E**   move to end of word before a whitespace                       
+
+Beginning/End of line movement:                 
+- **0**   move to the beginning of the line     
+- **$**   move to the end of the line           
+
+#### Manipulate text
+#### Enter other modes
+
+**Normal mode** is where one should spend most of their time while using vim. Remember,
 this is what makes vim different.
 
-Normal mode can be accessed from other modes by pressing `Esc` or `<C-[>`.
 
 ### Insert Mode
 

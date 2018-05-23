@@ -11,3 +11,4 @@ Most people prefer to use Git as a [CLI (command-line interface)](https://en.wik
 * [GitKraken](https://www.gitkraken.com) is a popular Git GUI for Windows, Mac and Linux. It is proprietary but free for non-commercial use.
 * [GitHub Desktop](https://desktop.github.com/) is the Git client application provided by GitHub, allowing better integration with GitHub than other solutions. It is available for Windows and Mac, but not yet for Linux. It is free and open source.
 * [SourceTree](https://www.sourcetreeapp.com/) is another Git GUI for Windows and Mac by Atlassian. It has many features such as interactive rebase, designed to make using Git easier for beginners.
+* [Git Tower](https://www.git-tower.com/mac/) is available for Mac and Windows.

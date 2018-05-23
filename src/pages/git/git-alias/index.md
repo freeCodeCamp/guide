@@ -42,3 +42,15 @@ Date:   Tue Aug 26 19:48:51 2008 +0800
 
     Signed-off-by: Scott Chacon <schacon@example.com>
 ```
+
+```shell
+$ git config --global alias.st status --short --branch
+```
+When you run the command `git st`, your git status will be displayed in a nice, streamlined format.
+
+### View, Edit and Delete Aliases
+To view all of the aliases you have created on your machine, run the command:
+```shell
+cat ~/.gitconfig
+```
+Replacing `cat` with `nano` will allow you to edit them or remove them completely.
