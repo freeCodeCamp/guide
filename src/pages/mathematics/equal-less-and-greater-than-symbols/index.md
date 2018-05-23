@@ -16,5 +16,5 @@ For example:
 25 < 42 should be read as follows:
 Twenty five is less than forty two. 
 
-One other neat trick that may help is that you can think of the inequlity signs as an arrow that points to the smaller value.  So in the above example 24 < 42 the arrow points to 25.
+One other neat trick that may help is that you can think of the inequlity signs as an arrow that points to the smaller value.  So in the above example 24 < 42 the arrow points to 24.
 
