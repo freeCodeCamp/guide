@@ -9,7 +9,7 @@ Red-Black Tree is a self-balancing Binary Search Tree (BST) where every node fol
 2. Every tree leaf node is always black.
 3. Every red node has both of its children colored black.
 3. There are no two adjacent red nodes (A red node cannot have a red parent or red child).
-4. Every path from root to a trea leaf node has same number of black nodes (called "black height").
+4. Every path from root to a tree leaf node has the same number of black nodes (called "black height").
 
 Reference-style: 
 ![alt text][fibonacci]
