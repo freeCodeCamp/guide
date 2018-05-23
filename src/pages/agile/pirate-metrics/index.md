@@ -21,4 +21,4 @@ Lean Analytics, 2013
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 - Original Pirate Metrics Slideshow (McClure) https://www.slideshare.net/dmc500hats/startup-metrics-for-pirates-long-version
 - Lean Analytics Book Website http://leananalyticsbook.com/
-
+- Notion has a really good guide on Pirate Metrics (including Team measures) on their [website](http://usenotion.com/aarrrt/)
