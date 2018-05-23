@@ -3,6 +3,7 @@ title: Font Color Attribute
 ---
 
 ## Font Color Attribute
+
 The font color atribute in the form of a hex code, rgb code, or color name determins the color of the text inside of
 `<font>`open and `</font>` close tags.
 
