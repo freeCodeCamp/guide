@@ -8,10 +8,12 @@ jQuery uses CSS-style selectors to select parts, or elements, of an HTML page. I
 
 To use one of these selectors, type a dollar sign and parentheses after it: `$()`. This is shorthand for the `jQuery()` function. Inside the parentheses, add the element you want to select. You can use either single- or double-quotes. After this, add a dot after the parentheses and the method you want to use.
 
-Here's an example of using jQuery to select a paragraph element, and add the class `selected` to it:
+
+Here's an example of a jQuery method that selects all paragraph elements, and adds a class of "selected" to them:
 
 ```javascript
 <p>This is a paragraph selected by a jQuery method.</p>
+<p>This is also a paragraph selected by a jQuery method.</p>
 
 $("p").addClass("selected");
 ```
@@ -91,4 +93,4 @@ $("#cat,#dog,#rat").css("background-color","red");
 These are just a few of the selectors available for use in jQuery. See the More Information section for a link to the complete list on the jQuery website.
 
 #### More Information:
-<a href="http://api.jquery.com/category/selectors/" target="_blank">Full list of jQuery selectors.</a>
+* [Full list of jQuery selectors](http://api.jquery.com/category/selectors/)
