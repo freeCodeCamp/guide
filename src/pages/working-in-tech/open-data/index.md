@@ -10,7 +10,7 @@ The following points are characteristic of open data:
 * The data becomes usable by being available in a common understandable format.
 * The data must be available under an open license. This allows anyone to use, redistribute and modify it.
 
-Open data can help governments, businesses and individuals. It can improve services, bring socioeconomic changes, and protect the planet.
+Open data can help governments, businesses, and individuals. It can improve services, bring socioeconomic changes, and protect the planet.
 
 One way that you can use open data is through Civic Hacking in your local code for America Brigade. 
 #### More Information:
