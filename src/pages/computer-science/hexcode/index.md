@@ -9,7 +9,8 @@ Hex colors are broken up into six hexadecimal digits. There are three sections -
 
 There are 16,777,216 possible color combinations using hexcode.
 
-####Examples:
+#### Examples:
+
 Pure red is FF0000
 Pure green is 00FF00
 Pure blue is 0000FF
