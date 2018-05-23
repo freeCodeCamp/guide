@@ -1,15 +1,37 @@
 ---
-title: Id Selector
+title: ID Selector
 ---
-## Id Selector
+## ID Selector
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/id-selector/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The CSS ID selector applies styles to a specific html element. The CSS ID selector must match the ID attribute of an HTML element. CSS ID will override CSS Class properties.
+The id of an element should be unique within a page, so the id selector is used to select one unique element!
+To select an element with a specific id, write a hash (#) character, followed by the id of the element.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Syntax
+```css
+#specified_id { /* styles */ }
+```
+You can combine the ID selector with other types of selectors to style a very specific element.
+```css
+section#about:hover { color: blue; }
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+div.classname#specified_id { color: green; }
+```
+### Note about IDs
+
+ID should be avoided when styling if possible. As it has high specificity and it can be overriden only if you inline styles, or add styles into ```<style>```. The weight of ID override class selectors and type selectors.
+
+Remember, the ID selector must match an HTML element's ID attribute.
+```html
+<div id="specified_id"><!-- content --></div>
+```
+
+### Specificity 
+ID selectors have a high specificity making them difficult to override. Classes have a much lower specificity and are generally the preferred way to style elements in order to avoid specificity issues. [Specificity on MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity) 
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+<a href="https://www.freecodecamp.org/challenges/set-the-id-of-an-element" target="_blank">freeCodeCamp Challenge - Set the ID of an Element</a>
 
+<a href="https://www.freecodecamp.org/challenges/use-an-id-attribute-to-style-an-element"  target="_blank">freeCodeCamp Challenge - Use an ID Attribute to Style an Element</a>
 
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors" target="_blank">MDN</a>

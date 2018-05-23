@@ -1,15 +1,28 @@
 ---
-title: What Is an Api
+title: What is an API
 ---
-## What Is an Api
+## What is an API
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/computer-science/what-is-an-api/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+API stands for Application Programming Interface. Don’t worry about the AP, just focus on the I. An API is an interface. You use interfaces all the time. A computer operating system is an interface. Buttons in an elevator are an interface. A gas pedal in a car is an interface.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+An interface sits on top of a complicated system and simplifies certain tasks, a middleman that saves you from needing to know all the details of what’s happening under the hood. A web API is the same sort of thing. It sits on top of a web service, like Twitter or YouTube, and simplifies certain tasks for you. It translates your actions into the technical details for the computer system on the other end.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+<strong>Here are Top 10 APIs for beginners </strong>
+
+<ol>
+  <li>Dropbox: https://www.dropbox.com/developers</li>
+  <li>Google Maps: https://developers.google.com/maps/web/</li>
+  <li>Twitter: https://dev.twitter.com/docs</li>
+  <li>YouTube: https://developers.google.com/youtube/v3/getting-started</li>
+  <li>Soundcloud: http://developers.soundcloud.com/docs/api/guide#playing</li>
+  <li>Stripe: https://stripe.com/docs/tutorials/checkout</li>
+  <li>Instagram: http://instagram.com/developer/</li>
+  <li>Twilio: https://www.twilio.com/docs</li>
+  <li>Yelp: http://www.yelp.com/developers/getting_started</li>
+  <li>Facebook: https://developers.facebook.com/docs/facebook-login/login-flow-for-web</li>
+</ol>
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+* [API for non-programmers](https://schoolofdata.org/2013/11/18/web-apis-for-non-programmers/)
+* [Wikipedia](https://en.wikipedia.org/wiki/Application_programming_interface)
+* [Medium](https://medium.com/girl-geeks/top-10-apis-for-beginners-4d3c43be9386)

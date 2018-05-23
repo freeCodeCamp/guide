@@ -32,7 +32,7 @@ You will create a program that takes a sentence, then search for a word in it an
 
 ## Spoiler Alert!
 
-![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](//discourse-user-assets.s3.amazonaws.com/original/2X/2/2d6c412a50797771301e7ceabd554cef4edcd74d.gif)
+![warning sign](//discourse-user-assets.s3.amazonaws.com/original/2X/2/2d6c412a50797771301e7ceabd554cef4edcd74d.gif)
 
 **Solution ahead!**
 
@@ -55,7 +55,7 @@ You will create a program that takes a sentence, then search for a word in it an
     // test here
     myReplace("A quick brown fox jumped over the lazy dog", "jumped", "leaped");
 
-![:rocket:</a> <a href='https://repl.it/CLmo/0' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLmo/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -90,7 +90,7 @@ You will create a program that takes a sentence, then search for a word in it an
     // test here
     myReplace("A quick brown fox jumped over the lazy dog", "jumped", "leaped");
 
-![:rocket:</a> <a href='https://repl.it/CLmp/0' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLmp/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
@@ -135,7 +135,7 @@ You will create a program that takes a sentence, then search for a word in it an
     // test here
     myReplace("A quick brown fox jumped over the lazy dog", "jumped", "leaped");
 
-![:rocket:</a> <a href='https://repl.it/CLmq/0' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLmq/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 

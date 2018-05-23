@@ -3,13 +3,33 @@ title: A Tag
 ---
 ## A Tag
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/a-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `<a>` tag or _anchor_ element creates a hyperlink to another page or file. In order to link to a different page or file the `<a>` tag must also contain a `href` attribute, which indicates the link's destination.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The text between the opening and closing `<a>` tags becomes the link.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+By default, a linked page is displayed in the current browser window unless another target is specified. 
+
+#### Example:
+
+```html
+  <a href= "https://guide.freecodecamp.org/">freeCodeCamp</a>
+```
+
+An image can also be turned into a link by enclosing the `<img>` tag in an `<a>` tag.
+
+#### Example:
+
+```html
+  <a href= "https://guide.freecodecamp.org/"><img src="logo.svg"></a>
+```
+
+
+
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+
+- <a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a' target='_blank' rel='nofollow'>The HTML &lt;a&gt; element: MDN</a>
+- <a href='https://www.w3schools.com/tags/tag_a.asp' target='_blank' rel='nofollow'>A tag: w3schools</a>
+
 
 
