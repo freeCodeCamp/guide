@@ -4,11 +4,11 @@ title: Modes in Vim
 
 # Vim Modes
 
-Because vim is focused on changing existing code just as much as writing new
+Because Vim is focused on changing existing code just as much as writing new
 code, it is split into several modes that each have different purposes.
 
 ### Normal Mode
-By default, vim starts in "normal" mode. 
+By default, Vim starts in "normal" mode. 
 Normal mode can be accessed from other modes by pressing `Esc` or `<C-[>`.
 
 In Normal mode key presses don't work as one would expect. That is, they don't insert text into the document; instead,
@@ -40,8 +40,8 @@ Beginning/End of line movement:
 #### Manipulate text
 #### Enter other modes
 
-**Normal mode** is where one should spend most of their time while using vim. Remember,
-this is what makes vim different.
+**Normal mode** is where one should spend most of their time while using Vim. Remember,
+this is what makes Vim different.
 
 
 ### Insert Mode
@@ -60,8 +60,8 @@ These commands have an uppercase variety too:
 - `A` moves the cursor to the end of the line and enters insert mode
 - `O` inserts a new line above the current one and enters insert mode on the new line
 
-There are so many more ways of inserting text in vim that can't be listed here
-but these are the simplest. Also, beware of staying in insert mode for too long; vim is
+There are so many more ways of inserting text in Vim that can't be listed here
+but these are the simplest. Also, beware of staying in insert mode for too long; Vim is
 not designed to be used in insert mode all the time.
 
 To leave insert mode and return to normal mode, press `Esc` or `<C-[>`
