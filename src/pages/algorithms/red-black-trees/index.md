@@ -25,3 +25,6 @@ All of the red-black tree algorithms that have been proposed are characterized b
 Specifically, in a left-leaning red-black 2-3 tree built from N random keys:
 ->A random successful search examines log2 N − 0.5 nodes.
 ->The average tree height is about 2 log2 N
+
+#### More Information:
+* [Video from Algorithms and Data Structures](https://www.youtube.com/watch?v=2Ae0D6EXBV4)
