@@ -10,7 +10,7 @@ To use one of these selectors, type a dollar sign and parentheses after it--`$()
 
 Here's an example of a jQuery method that selects all paragraph elements, and adds a class of "selected" to them:
 
-`<p>This is a paragraph selected by a jQuery method.</p>`
+`<p>This is a paragraph selected by a jQuery method.</p>`<br>
 `<p>This is also a paragraph selected by a jQuery method.</p>`<br>
 `$("p").addClass("selected");`
 
