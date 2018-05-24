@@ -3,11 +3,10 @@ title: User Centered Design
 ---
 ## User Centered Design
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/user-experience-design/user-centered-design/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+User-centered design (UCD) is a framework of steps in which analysis is conducted for the workflow of a product, service or process. Designers examine the usability, characteristics, environment, and tasks of a product and are extensively attentive to all steps of the design process.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The main goal of UCD is to optimize the product, service, or process around how users will use the product, rather than forcing users to confirm or change their behavior to adapt the product. 
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
