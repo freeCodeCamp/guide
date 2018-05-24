@@ -3,8 +3,8 @@ title: Error Handling
 ---
 
 ## Error Handling
-
-Error handling is the process of handling runtime errors caused by your code. Here I'll explain how to handle these errors through the use of a **try-catch statement** . Try-catch statements are available in all the major programming languages with similar syntax.
+Error Handling, and to a larger extent, Exception Handling, are programs written into methods to return important information about the manipulation of data. Error handling is often used alongside Promises and Callbacks.
+Error handling is very important thing every developer should care about while doing programming. Here I'll explain how to handle errors which occurs run-time using try-catch block with an example in C# programs. Try-catch statements are available in all the major programming languages with similar syntax.
   
 ### How the try-catch block works.
 
@@ -55,3 +55,8 @@ namespace ErrorHandling
  * This exception will handle by the catch block which has DivideByZeroException class. If any exceptions other than DivideByZeroExceptions occurs it will handle by Exception catch block.
  
  Exception is the base class for all the exceptions class available in C# library. Even if you want to write your own exception you have to inherits Exception base class into your program.
+
+#### More Information:
+<!-- Please add any articles you think might be helpful to read before writing the article -->
+https://quizlet.com/135129010/computer-science-error-handling-flash-cards/
+https://en.wikipedia.org/wiki/Exception_handling
