@@ -33,7 +33,7 @@ Return the completed inventory in alphabetical order.
 
 ## Spoiler Alert!
 
-![:warning_sign:](https://discourse-user-assets.s3.amazonaws.com/original/2X/2/2d6c412a50797771301e7ceabd554cef4edcd74d.gif)
+![warning sign](//discourse-user-assets.s3.amazonaws.com/original/2X/2/2d6c412a50797771301e7ceabd554cef4edcd74d.gif)
 
 **Solution ahead!**
 
