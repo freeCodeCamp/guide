@@ -27,7 +27,7 @@ It's also possible to run functions using ternary operator, which sometimes can 
 
 ```javascript
     const runFirst = true;
-    run ? first() : second();
+    runFirst ? first() : second();
 ```
 
 **Read more:** <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator' target='_blank' rel='nofollow'>MDN</a>
