@@ -13,9 +13,11 @@ Step 1: Check if there are existing repositories or not.
 ```sh
 #yum repolist
 ```
+
 You will find there is no repositories.
 
-Step 2: Change Directory to->
+Step 2: Change Directory to
+
 ```sh
 #cd /etc/yum.repos.d
 ```
@@ -37,6 +39,7 @@ gpgcheck=0
 Step 5: Save and Exit
 
 Step 6: Repeat Step 1
+
 ```sh
 You Will find repositories
 ```
