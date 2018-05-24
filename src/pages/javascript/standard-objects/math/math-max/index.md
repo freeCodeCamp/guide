@@ -3,13 +3,16 @@ title: Math Max
 ---
 ## Math Max
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/standard-objects/math/math-max/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The Math.max() function returns the largest of zero or more numbers.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+You can pass it any number of arguments.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```javascript
+Math.max(7, 2, 9, -6);
+// returns 9
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/max)
 
 
