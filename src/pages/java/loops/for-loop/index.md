@@ -18,7 +18,7 @@ for (variable initialization; boolean expression; increment expression)
 You can initialize more than one variable of the same type in the first part of the basic `for` loop declaration; each initialization must be separated by a comma.
 
 * `expression` - Evaluated at the beginning of each iteration. If the `expression` evaluates to `true`, `Statements` will get executed.
-* `increment` - Invoked after each iteration through the loop. You can increase/decrease the value of variables here.
+* `increment` - Invoked after each iteration through the loop. You can increase/decrease the value of variables here. Be sure the increment is working towards the expression value, to avoid an infinite loop.
 
 A common way the `for` loop is used is if you need to iterate your code a specific number of times. For example, if you wanted to output the numbers 0-10, you would initialize the variable for your counter to 0, then check if the value is less than 10, and add one to the counter after every iteration.
 
