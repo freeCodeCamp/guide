@@ -3,7 +3,7 @@ title: Prototypes
 ---
 ## Prototypes
 
-JavaScript is a prototype-based language, therefore understanding the prototype object is one of the most important concepts which  JavaScript practitioners need to know. This article will give you a short overview of the Prototype object through various  examples. Before reading this article, you will need to have a basic understanding of  [`this` reference in JavaScript](/javascript/this-in-javascript).
+JavaScript is a prototype-based language, therefore understanding the prototype object is one of the most important concepts which  JavaScript practitioners need to know. This article will give you a short overview of the Prototype object through various  examples. Before reading this article, you will need to have a basic understanding of  [`this` reference in JavaScript](/javascript/this-reference).
 
 ### Prototype object
 
