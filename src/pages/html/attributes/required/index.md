@@ -3,13 +3,49 @@ title: Required
 ---
 ## Required
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/attributes/required/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The HTML required attribute is used in an input element to make the input field in a form required to submit the form.
+If the user does not fill in the input field the form will not submit and it will give a message asking the user to fill out the field. 
+The `< Required>` attribute is applicable to `<input>` , `<select>` , `<textarea>`. 
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+For example: 
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML Required Attribute</title>
+  </head>
+  <body>
+    <form action="/">
+      Text Field: <input type="text" name="textfield" required>
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
+```
+
+Select Example:
+```html
+<form action="/action.php">
+<select required>
+  <option value="">None</option>
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+</select>
+</form>
+```
+Text Area Example:
+```html
+<form action="/action.php">
+  <textarea name="comment" required></textarea>
+  <input type="submit">
+</form>
+```
+
+Simply add `required` to an input element 
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input" target="_blank">MDN article on the input element</a>
 
