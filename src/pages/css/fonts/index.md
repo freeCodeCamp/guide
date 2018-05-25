@@ -54,6 +54,7 @@ There are different types of font size values:
 * `em` - `1em` = the current font size, so `1em` = `16px` (recommended by the W3C)
 * `small`, `medium`, `large` - known as absolute size values
 * `%` - percentages
+* `rem` - similar to em but allows you to scale around a globally set font-size
 
 ```css
 .with-pixels {
@@ -70,6 +71,10 @@ There are different types of font size values:
 
 .with-percentage {
     font-size: 80%;
+}
+
+with-rem {
+    font-size: 1.2rem;
 }
 ```
 
