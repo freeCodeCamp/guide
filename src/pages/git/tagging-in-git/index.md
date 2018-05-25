@@ -1,14 +1,20 @@
 ---
 title: Tagging in Git
 ---
+
 ## Tagging in Git
 
-Similar to most of the Version Control Systems(VCS's), Git has the ability to tag specific points in history which are important.
-It is used to mark release points like (v1.0, and so on).
+Tags in Git are a convenient way to highlight some milestone in you version history. Be it a new version, release or just a flag like (v1.0, and so on) one could see where you
+made some decision. From the point of view of git, tag is just another branch name, for a branch that will never change. Typically this feature is used to mark release points.
 
-Tags are a convenient way to highlight some milestone in you version history. Be it a new version, release or just a flag like (v1.0, and so on) one could see where you made some decision. From the point of view of git, tag is just another branch name, for a branch that will never change. Typically this feature is used to mark release points.
+#### Branch Vs Tags
 
-### List Tags
+What's the difference between tags and branches? The workspace is (almost always) associated with a branch, called master by default. When it is, a commit will automatically
+update the master reference to point to that new commit; in other words, branches are mutable references.
+
+A tag, on the other hand, is created to point to a specific commit and thereafter does not change, even if the branch moves on. In other words, tags are immutable references.
+
+#### Listing Your Tags
 
 The `git tag` command allows you to lists the tags in alphabetical order; the order in which they appear has no real importance.
 
@@ -152,3 +158,6 @@ state without impacting any branches by performing another checkout.
 * [Git Pro - Tagging Basics](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
 * [Git Pro - Documentation](https://git-scm.com/docs/git-tag)
 * [Git HowTo](https://githowto.com/tagging_versions)
+* [Git tip: Tags](http://alblue.bandlem.com/2011/04/git-tip-of-week-tags.html)
+* [Creating a tag](https://www.drupal.org/node/1066342)
+
