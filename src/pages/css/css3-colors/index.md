@@ -31,6 +31,25 @@ p {
 ```
 This rule changes the font color of all p elements to green, just like above.
 
+### HSL values
+
+HSL stands for "Hue", "Saturation" and "Lightness". When setting the value using HSL all three of these properties need to specified in this order.
+
+**Hue** is defined with a position on a color wheel with the mimimum value being 0 and the maximum value being 360. 0 specifies red, 120 specifies green and 240 specifies blue. 360 is a whole loop around the color wheel so takes us back to red.
+
+**Saturation** is defined with a percentage value between 0% and 100%. 0% gives no saturation so will give a shade of gray and 100% will give the full color.
+
+**Lightness** is defined also using a percentage. 0% is pure black and 100% is pure white. 
+
+```css
+p {
+  color: hsl(120, 100%, 50%)
+}
+```
+The code above gives the same green that would be achieved using `rgb(0, 255, 0)` or `#00ff00`
+
+To try creating your own values use the [HSL Calculator](https://www.w3schools.com/colors/colors_hsl.asp)
+
 ### Hexadecimal Values
 
 Hexadecimal values are yet another way to define colors in CSS and they work quite similarly to RGB values.<br>
