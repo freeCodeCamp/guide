@@ -48,6 +48,6 @@ a. `componentWillUnmount()`
 - `componentWillUpdate`,  and `componentDidUpdate` will only be executed if and only if `shouldComponentUpdate` returns true.
 - `componentWillUnmount()`will be called just before unmounting any component and hence can be used to free up the used memory, close any connections to DB, etc.
 
-Many things can be learnt by diving into coding. So get your hands dirty by coding.
+Many things can be learned by diving into coding. So get your hands dirty by coding.
 
 Happy Coding !!!
