@@ -1,6 +1,7 @@
 ---
 title: Tagging in Git
 ---
+
 # Tagging in Git
 
 Git tags are commonly used to highlight important commits by adding a mark file with a reference in the Git database. They can be a great help to fast find major changes, release points or other relevant commits in large projects.
@@ -141,7 +142,7 @@ To git@github.com:jcash/gitmanual.git
  * [new tag]         v4.0 -> v4.0
  ```
 
-You can also use the --tags option to add multiple tags at once with the ```git push origin``` command:
+You can also use the ```--tags``` option to add multiple tags at once with the ```git push origin``` command:
 
 ```
 $ git push origin --tags
@@ -152,6 +153,39 @@ To git@github.com:jcash/gitmanual.git
  * [new tag]         v4.0 -> v4.0
  * [new tag]         v4.1-lw -> v4.1-lw
 ```
+
+## Checking out Tags
+
+You can use ```git cehckout``` to checkout to a tag like you would normally do. But you need to keep in mind that this would result a *detached HEAD* state.
+
+```
+$ git checkout v0.0.3
+Note: checking out 'v0.0.3'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+```
+
+## Deleting a Tag
+
+You may find a situation were you want to delete a certain tag. There's a very useful command for this situations:
+
+```
+$ git tag --delete v0.0.2
+$ git tag
+v0.0.1
+v0.0.3
+v0.0.4
+```
+
+### More Information
+
+* [Git Pro - Tagging Basics](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
+* [Git Pro - Documentation](https://git-scm.com/docs/git-tag)
+* [Git HowTo](https://githowto.com/tagging_versions)
+* [Git tip: Tags](http://alblue.bandlem.com/2011/04/git-tip-of-week-tags.html)
+* [Creating a tag](https://www.drupal.org/node/1066342)
 
 ### Sources
 
