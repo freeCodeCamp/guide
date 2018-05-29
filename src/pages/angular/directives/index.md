@@ -6,7 +6,7 @@ title: Directives
 
 #### Motivation
 
-Directives are core to Angular's template HTML. Components are the most significant example. Every component view renders below a root component view. This can result in a tree of views defining a single application. A view constitutes a class (`component.ts`) and its template (`component.html’).
+Directives are core to Angular's template HTML. Components are the most significant example. Every component view renders below a root component view. This can result in a tree of views defining a single application. A view constitutes a class (`component.ts`) and its template (`component.html`).
 
 Other directives, while not as critical, provide much-needed flexibility. A directive positioned on an element has complete control over it. Using `<ng-template></ng-template>` allows for the dynamic creation and removal of HTML content. Microsyntax gives developers the freedom to further customize directive behavior.
 
