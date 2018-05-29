@@ -27,11 +27,18 @@ Unity is notable for its ability to target games for multiple platforms. The cur
 Unity is the default software development kit (SDK) for Nintendo's Wii U video game console platform, with a free copy included by Nintendo with each Wii U developer license.
 Unity Technologies calls this bundling of a third-party SDK an "industry first".
 
+##  Noteworthy Games: 
+* Assassin’s Creed: Identity
+* Temple Run Trilogy
+* Battlestar Galactica Online
+* Hearthstone: Heroes of Warcraft
+     
 ## History
 
 Two other programming languages were supported: Boo, which was deprecated with the release of Unity 5 and UnityScript which was deprecated in August 2017 after the release of Unity 2017.1.
 
 Unity formerly supported 7 other platforms including its own Unity Web Player.
+
 Unity Web Player was a browser plugin that was supported in Windows and OS X only, which has been deprecated in favor of WebGL.
 
 
