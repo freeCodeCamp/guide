@@ -13,7 +13,7 @@ Inline CSS applies styling to a single element and its children, until another s
 
 To apply inline CSS, add the "style" attribute to an HTML element that you'd like to modify. Inside quotes, include a semicolon-delimited list of key/value pairs (each in turn separated by a colon) indicating styles to set.
 
-Here's an example of inline CSS. The words "One" and "Two" will have a background color of yellow and text color of red. The word "Three" has a new style that overrides the first, and will have a background color of green and text color of cyan. In the example, we're applying styles to `<div>` tags, but you can apply a style to any HTML element. 
+Here's an example of inline CSS. The words "One" and "Two" will have a background color of yellow and text color of red. The word "Three" has a new style that overrides the first, and will have a background color of green and text color of cyan. In the example, we're applying styles to `<div>` tags, but you can apply a style to any HTML element.
 
 ```html
 <div style="color:red; background:yellow">
@@ -26,7 +26,7 @@ Here's an example of inline CSS. The words "One" and "Two" will have a backgroun
   </div>
 </div>
 ```
-        
+
 ### External CSS
 
 While writing an inline style is a quick way to change a single element, there's a more efficient way to apply the same style to many elements of the page at once.

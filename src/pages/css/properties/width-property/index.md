@@ -8,11 +8,11 @@ The width property sets the width of an element. It can be a keyword value, a le
 **Note**: The width property does not include padding, borders, or margins; it sets the width of the area inside the padding, border, and margin of the element!
 
 ```css
-    .length-value {width: 100px;}
-    .percentage {width: 50%;}
-    .auto {width: auto;}
-    .inherit {width: inherit;}
-    .initial {width: initial;}
+.length-value {width: 100px;}
+.percentage {width: 50%;}
+.auto {width: auto;}
+.inherit {width: inherit;}
+.initial {width: initial;}
 ```
 
 **Note**: The min-width and max-width properties override width.

@@ -14,16 +14,16 @@ The `text-indent` css property specifies the amount of indentation (empty space)
 **Syntax**
 
 ```css
-  /* <length> values */
-  text-indent: 40px;
-  
-  /* <percentage> value relative to the containing block width */
-  text-indent: 10%;
-  
-  /* Keyword values */
-  text-indent: 2em each-line;
-  text-indent: 2em hanging;
-  text-indent: 2em hanging each-line;
+/* <length> values */
+text-indent: 40px;
+
+/* <percentage> value relative to the containing block width */
+text-indent: 10%;
+
+/* Keyword values */
+text-indent: 2em each-line;
+text-indent: 2em hanging;
+text-indent: 2em hanging each-line;
 
 ```
 

@@ -13,9 +13,9 @@ The `transition` property is a shorthand property for `transition-property`, `tr
 transition: transition-property transition-duration transition-timing-function transition-delay
 ```
 
-For example : 
+For example :
 
-```
+```css
 transition: width 2s ease-in-out 1s;
 ```
 
@@ -23,7 +23,7 @@ transition: width 2s ease-in-out 1s;
 
 #### `transition-property`
 
-Specify the **name** of property to which you should apply a transition : 
+Specify the **name** of property to which you should apply a transition :
 
 * `background-color`
 * `color`
@@ -33,25 +33,25 @@ Specify the **name** of property to which you should apply a transition :
 * `border-radius`
 * And so on !
 
-For example : 
+For example :
 
-```
+```css
 transition-property: width; /* means the transition applies on the width */
 ```
 
 #### `transition-duration`
 
-Specify the **number of seconds or milliseconds** the transition should **take** : 
+Specify the **number of seconds or milliseconds** the transition should **take** :
 
 For example :
 
-```
+```css
 transition-duration: 2s /* means the transition effect last 2s */
 ```
 
 #### `transition-timing-function`
 
-Specify the **speed curve** of the transition effect. Thus, you can change your **transition's speed over its duration**. 
+Specify the **speed curve** of the transition effect. Thus, you can change your **transition's speed over its duration**.
 
 Here are the most used values :
 
@@ -78,7 +78,7 @@ Specify in **seconds or milliseconds** when the transition will **start**.
 
 For example :
 
-```
+```css
 transition-delay: 1s /* means wait 1s before the transition effect start */
 ```
 
@@ -121,6 +121,6 @@ Here are some simple pens containing simple transitions :
 
 #### More Information:
 
-* [w3schools : CSS3 Transitions](https://www.w3schools.com/css/css3_transitions.asp) 
+* [w3schools : CSS3 Transitions](https://www.w3schools.com/css/css3_transitions.asp)
 * [MDN web docs : Using CSS transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)
 * [DevTips : CSS Transition](https://www.youtube.com/watch?v=8kK-cA99SA0)

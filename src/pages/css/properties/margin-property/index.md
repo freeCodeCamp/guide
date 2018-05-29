@@ -16,29 +16,29 @@ There are multiple ways of setting the margin of an element.
 The simple way...
 
 ```css
-  margin: 10px;  
+margin: 10px;
 ```
 This will put 10 pixels of space completely around the element.
 
 You can also put different amounts of space on each side of an element. For example:
 
 ```css
-  margin-top: 10px;
-  margin-bottom: 15px;
-  margin-left: 20px;
-  margin-right: 25px;
+margin-top: 10px;
+margin-bottom: 15px;
+margin-left: 20px;
+margin-right: 25px;
 ```
 
 However, there is a shorthand one can use when defining different sides of an element. It starts at the top and goes clockwise around the element (top, right, bottom, left). For example, the about code would be written in shorhand like this:
 
 ```css
-  margin: 10px 25px 15px 25px;
+margin: 10px 25px 15px 25px;
 ```
 
 Additionally, if the bottom and top margins are the same, and the left and right margins are the same, it can be written like this:
 
 ```css
-  margin: 10px 20px;
+margin: 10px 20px;
 ```
 
 where the top and bottom margins are 10 pixels and the left and right margins are 20 pixels.
@@ -53,7 +53,7 @@ inherit - element inherits the margin from its parent element
 
 ### Measuring Space
 
-Just like there are multiple ways of setting the margin, there are also multiple ways of measuring margin. 
+Just like there are multiple ways of setting the margin, there are also multiple ways of measuring margin.
 
 px -  Measurement in pixels, the standard unit of measurement of screen space.
 

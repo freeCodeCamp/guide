@@ -10,21 +10,21 @@ title: CSS Framework Foundation
 Here is a simple HTML template which includes the latest compiled and minified CSS and Javascript for the Foundation library.
 
 ```html
-    <!DOCTYPE html>
-    <html lang="en">
-      <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Foundation Template</title>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.1/foundation.min.css">
-      </head>
-      <body>
-        <h1>Hello World</h1>
-        <!-- Add all HTML Code here -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/foundation/6.2.1/foundation.min.js"></script>
-      </body>
-    </html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Foundation Template</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.1/foundation.min.css">
+  </head>
+  <body>
+    <h1>Hello World</h1>
+    <!-- Add all HTML Code here -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/foundation/6.2.1/foundation.min.js"></script>
+  </body>
+</html>
 ```
 
 This example makes use of a CDN that loads the default settings. If you'd like to customize the grid layout, change the colors or add and remove components you can do so on the Foundation [download](http://foundation.zurb.com/sites/download/) page.

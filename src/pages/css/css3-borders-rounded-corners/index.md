@@ -6,19 +6,19 @@ title: CSS3 Border Radius Property
 With CSS3, you can give any element "rounded corners", by using the `border-radius` property. The value can be in any valid CSS length unit.
 
 ```css
-  .rounded-corners {
-    border-radius: 20px;
-  }
+.rounded-corners {
+  border-radius: 20px;
+}
 
-  .circle {
-    border-radius: 50%;
-  }
+.circle {
+  border-radius: 50%;
+}
 ```
 ![examples](https://github.com/kaithrendyle/guide-photos/blob/master/rounded-circle.png?raw=true)
 
-**Note:** The `border-radius` property is actually a shorthand property for the `border-top-left-radius`, `border-top-right-radius`, `border-bottom-right-radius` and `border-bottom-left-radius` properties. 
+**Note:** The `border-radius` property is actually a shorthand property for the `border-top-left-radius`, `border-top-right-radius`, `border-bottom-right-radius` and `border-bottom-left-radius` properties.
 
-If just one value provided, the border-radius will be the same for all four corners, as in the examples above. But you also have the option to specify different values for each corner.  
+If just one value provided, the border-radius will be the same for all four corners, as in the examples above. But you also have the option to specify different values for each corner.
 
 ```css
 .new-shape {
@@ -41,19 +41,19 @@ If three values are set, the first again applies to the top-left radius, the sec
 ![examples](https://github.com/kaithrendyle/guide-photos/blob/master/odd-shapes.png?raw=true)
 
 The rounding of a corner does not have to be perfectly symmetrical. You may specify both the horizontal and vertical radiuses using a slash ("/") to achieve a corner with an elliptical shape.
-```css 
+```css
 .elliptical-1 {
   border-radius: 50px/10px; /* horizontal radius / vertical radius */
 }
 .elliptical-2 {
-  border-radius: 10px/50px; 
+  border-radius: 10px/50px;
 }
 
 ```
 ![examples](https://github.com/kaithrendyle/guide-photos/blob/master/elliptical-basic.png?raw=true)
 
 Since only one pair of values is given in the above examples, all four corners are the same. But, of course, if you want a more complex shape, you may supply up to four values for the horizontal radiuses and four for the vertical radiuses.
-```css 
+```css
 .elliptical-3 {
   border-radius: 50px 20px 50px 20px/20px 50px 20px 50px; /* horizontal top-left, horizontal top-right, horizontal bottom-right, horizontal bottom-left / vertical top-left, vertical top-right, vertical bottom-right, vertical bottom-left */
 }
