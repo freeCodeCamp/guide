@@ -17,10 +17,10 @@ Your team works to break up the User Stories to a size that can be completed wit
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-- Agile Alliance on [Iterations](https://www.agilealliance.org/glossary/iteration/)
-- Agile Alliance on [Timeboxes](https://www.agilealliance.org/glossary/timebox/)
-- Agile Coach on [Sprint vs Iteration](http://agilecoach.typepad.com/agile-coaching/2014/02/sprint-vs-iteration.html)
-- Scrum Alliance [Timeboxing as a Motivational Factor](https://www.scrumalliance.org/community/articles/2014/february/timeboxing-a-motivational-factor-for-scrum-teams)
-- Scrum Alliance [Sprint is More Than Just a Timebox](https://www.scrumalliance.org/community/articles/2014/may/sprint-is-more-than-just-a-timebox)
-- Scrum Inc [What is Timeboxing](https://www.scruminc.com/what-is-timeboxing/)
-- Scrum.org [What is a Sprint in Scrum](https://www.scrum.org/resources/what-is-a-sprint-in-scrum)
+- Agile Alliance on <a href='https://www.agilealliance.org/glossary/iteration/' target='_blank' rel='nofollow'>Iterations</a>
+- Agile Alliance on <a href='https://www.agilealliance.org/glossary/timebox/' target='_blank' rel='nofollow'>Timeboxes</a>
+- Agile Coach on <a href='http://agilecoach.typepad.com/agile-coaching/2014/02/sprint-vs-iteration.html' target='_blank' rel='nofollow'>Sprint vs Iteration</a>
+- Scrum Alliance <a href='https://www.scrumalliance.org/community/articles/2014/february/timeboxing-a-motivational-factor-for-scrum-teams' target='_blank' rel='nofollow'>Timeboxing as a Motivational Factor</a>
+- Scrum Alliance <a href='https://www.scrumalliance.org/community/articles/2014/may/sprint-is-more-than-just-a-timebox' target='_blank' rel='nofollow'>Sprint is More Than Just a Timebox</a>
+- Scrum Inc <a href='https://www.scruminc.com/what-is-timeboxing/' target='_blank' rel='nofollow'>What is Timeboxing</a>
+- Scrum.org <a href='https://www.scrum.org/resources/what-is-a-sprint-in-scrum' target='_blank' rel='nofollow'>What is a Sprint in Scrum</a>
