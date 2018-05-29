@@ -265,7 +265,7 @@ export class ExampleDirective {
 A few elements to test with will help.
 
 ```html
-<!-- The innerHTML self-explanatory -->
+<!-- the intended results are self-explanatory -->
 <div appExample=“purple”>This text is purple!</div>
 <div appExample=“blue”>This text is blue!</div>
 <div appExample=“red”>This text is red!</div>
