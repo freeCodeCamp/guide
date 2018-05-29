@@ -1,5 +1,5 @@
 ---
-Title: Directives
+title: Directives
 ---
 
 # Directives
