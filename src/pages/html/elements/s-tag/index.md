@@ -3,7 +3,12 @@ title: S Tag
 ---
 ## S Tag
 
-In HTML the `<s>` tag is used to strikethrough text.
+In HTML the `<s>` tag is used to strikethrough text. For instance:
+
+```html
+<p><s>This year is the year of the monkey.</s></p>
+<p>This year is the year of the Rooster.</p>
+```
 
 #### More Information:
 * [MDN - HTML s tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/s)
