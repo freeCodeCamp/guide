@@ -1,8 +1,4 @@
----
-title: Bootstrap Tables
----
-## Bootstrap Tables
----
+
 
 #### Basic Table
 In order to achieve the basic styling example add the base class `.table` to any `<table>` element.

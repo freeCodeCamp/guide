@@ -1,7 +1,4 @@
----
-title: Bootstrap Modals
----
-## Bootstrap Modals
+
 Modals are popups for providing important information before continuing further.  
 
 To create such dialogs/pop-ups on the top of current page Bootstrap provides Modal plugin.

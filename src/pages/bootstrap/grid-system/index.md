@@ -1,11 +1,5 @@
 ---
-title: Bootstrap Grid System
----
-## Bootstrap Grid System
 
-Bootstrap uses a twelve column grid system, useful for designing a layout that will work well across different size screens from mobile and tablet to desktop.
-
-You build your grid with containers, rows, and columns.
 
 #### How it works
 
@@ -79,7 +73,7 @@ Screen size values can be assigned as follows:
   - xs - < 768px Phones
   - sm - < 992px Tablets
   - md - < 1200px Laptops
-  - lg - > 1200 px Desktops
+
  
  Bootstrap is mobile first and responsive. 
  
@@ -148,8 +142,3 @@ The following code and image shows what is possible using different column width
 #### More Information:
 
 <a href='https://getbootstrap.com/docs/4.0/layout/grid/' target='_blank' rel='nofollow'>Bootstrap Docs - Grid system</a>
-
-*This guide is based on Bootstrap v4 (it will work with v3 accept extra small screens are defined as `xs` and there is no `xl` size)*
-
-
-

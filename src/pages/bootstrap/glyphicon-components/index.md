@@ -1,7 +1,5 @@
 ---
-title: Bootstrap Glyphicon Components
----
-## Bootstrap Glyphicon Components
+
 
 Bootstrap 3 includes 260 glyphicons. Glyphicons are normally not free of charge, but their creator has made them available for Bootstrap free of cost. As a thank you, you should include a link back to Glyphicons whenever possible.
 

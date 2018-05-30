@@ -1,26 +1,12 @@
 ---
-title: Bootstrap Carousel
----
-## Bootstrap Carousel
 
-Bootstrap provides Carousel as a plugin for cycling through a series of data.
-Carousel is often referred as Slideshow.
-Carousel provides a dynamic way of representing large amount of data (text or images) by sliding or cycling through,in a smooth fashion
-
-Sample Code of Image Slider is below :-
 
 ```html
 <html>
 <head>
   
 <!-- BootStrap's minified CSS version -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-<!-- Jquery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-<!-- Latest compiled JavaScript -->
- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
  </head>
 
@@ -88,14 +74,12 @@ width :800 px;
 </div>
 </div>
 
+
 </body>
 </html>
 ```
 
 
-Understanding the Attributes and classes used in above example :-
-
-#### 1) Attributes
 
 a) `data-ride`  :-  `data-ride ="carousel"`  allows on page load animation to begin.
 
@@ -103,7 +87,6 @@ b) `data-target` :- It points to the id of the Carousel
 
 c) `data-slide-to` :- It specifies which slide to move on to when clicking on the indicators(specific dots).
 
-#### 2) Classes
 
 a) `carousel`  :- `class="carousel"` specifies that the  div contains carousel.
 
@@ -121,7 +104,5 @@ g) `carousel-caption` :- This class let you add captions to each slide.
 
 Note: Add `class="carousel-caption"` for each item.
 
-
-#### Additional Details : <a href='https://getbootstrap.com/docs/4.0/components/carousel/' target='_blank' rel='nofollow'>Bootstrap Carousel</a>
 
 

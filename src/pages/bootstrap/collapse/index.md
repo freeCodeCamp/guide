@@ -1,10 +1,4 @@
----
-title: Bootstrap Collapse
----
 
-The Bootstrap collapse plugin allows you to toggle content on your pages with a few classes thanks to some helpful JavaScript.
-
-Collapsibles are useful when you want to hide and show large amount of content.
 
 ### How to use it
 
@@ -98,5 +92,3 @@ $('.collapsible-element').on('show.bs.collapse', function() {
 ![Alt Text](https://github.com/figengungor/Gif/blob/master/freeCodeCamp/bootstrap/collapse/collapse.gif)
 
 #### More Information:
-
-<a href='https://v4-alpha.getbootstrap.com/components/collapse/' target='_blank' rel='nofollow'>The official Bootstrap 4 guide on Collapse</a>

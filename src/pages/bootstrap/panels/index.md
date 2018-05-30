@@ -1,7 +1,4 @@
----
-title: Bootstrap Panels
----
-## Bootstrap Panels
+
 
 The Bootstrap framework provides you with a feature called panels. A panel is a box that has a styled heading and then a body that allows you to display information in an organized manner, through a set of one or more panels.
 
@@ -54,3 +51,4 @@ This is a set of examples that shows each type of panel. The CSS Class is displa
 <div class="panel panel-heading">Panel Danger</div>
 <div class="panel panel-body"> This is a panel with the danger panel style.</div>
 </div>
+

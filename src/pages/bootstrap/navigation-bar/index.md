@@ -1,7 +1,4 @@
----
-title: Bootstrap Navigation Bar
----
-## Bootstrap Navigation Bar
+
 
 The Bootstrap framework provides you with a feature call navigation bars. In short a navigation bar (also referred to navbars) is a header at the top of the page to display navigational information.
 
