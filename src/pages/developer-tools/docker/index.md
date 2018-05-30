@@ -8,7 +8,6 @@ libraries and all you need to run your application. Therefore, your application 
 run several containers on the same machine. A container image is a lightwieght, stand-alone, execuateble package of a piece of software that includes everything
 needed to run it.
 
-
 ### Features
 Docker containers running on a single machine share that machine's operating system kernel; they start instantly and use less compute and RAM. Images are
 constructed from filesystem layers and share common files. This minimizes disk usage and image downloads are much faster.
@@ -67,5 +66,3 @@ You can find plenty of informations in the following sites :
 - <a href='https://www.docker.com/' target='_blank' rel='nofollow'>Docker website</a>
 - <a href='https://docs.docker.com/' target='_blank' rel='nofollow'>Docker docs</a>
 - <a href='https://hub.docker.com/' target='_blank' rel='nofollow'>DockerHub</a>
-
-
