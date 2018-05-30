@@ -21,8 +21,8 @@ A natural example of a hexagonal grid are bees' honeycombs.
 
 <img src=https://upload.wikimedia.org/wikipedia/commons/3/3d/Honeycomb_15_03_2012.jpg alt="a honeycomb" height="200" /></br>
 
-An unnatural example of a hexagonal grid is the board for the game Settlers of Catan:
+An unnatural example of a hexagonal grid is the New York County Supreme Court building on Foley Square, Manhattan:
 
-<img src=https://cdn.pixabay.com/photo/2014/11/13/16/55/board-game-529581_960_720.jpg alt="Settlers of Catan board" height="200" />
+<img src=http://www.secretsinplainsight.com/wp-content/uploads/NY-Supreme-Court.jpg alt="NYC Supreme Court Building" height="200" />
 
 
