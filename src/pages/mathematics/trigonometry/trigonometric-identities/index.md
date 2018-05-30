@@ -38,8 +38,8 @@ Whenever expressions involving trigonometric functions need to be simplified, *T
 
 ## Other Resources
 
-- [Wolfram MathWorld - Trigonometric Identities](http://mathworld.wolfram.com/topics/TrigonometricIdentities.html)
-- [Wolfram MathWorld - Trigonometry Angles--Pi/3](http://mathworld.wolfram.com/TrigonometryAnglesPi3.html)
-- [Wolfram MathWorld - 30-60-90 Triangle](http://mathworld.wolfram.com/30-60-90Triangle.html)
-- [Wikipedia - List of Trigonometric Identities](https://www.wikiwand.com/en/List_of_trigonometric_identities)
-- [Wikipedia - Trigonometric Functions](https://www.wikiwand.com/en/Trigonometric_functions)
+- <a href='http://mathworld.wolfram.com/topics/TrigonometricIdentities.html' target='_blank' rel='nofollow'>Wolfram MathWorld - Trigonometric Identities</a>
+- <a href='http://mathworld.wolfram.com/TrigonometryAnglesPi3.html' target='_blank' rel='nofollow'>Wolfram MathWorld - Trigonometry Angles--Pi/3</a>
+- <a href='http://mathworld.wolfram.com/30-60-90Triangle.html' target='_blank' rel='nofollow'>Wolfram MathWorld - 30-60-90 Triangle</a>
+- <a href='https://www.wikiwand.com/en/List_of_trigonometric_identities' target='_blank' rel='nofollow'>Wikipedia - List of Trigonometric Identities</a>
+- <a href='https://www.wikiwand.com/en/Trigonometric_functions' target='_blank' rel='nofollow'>Wikipedia - Trigonometric Functions</a>
