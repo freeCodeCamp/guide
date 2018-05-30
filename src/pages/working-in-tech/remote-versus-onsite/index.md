@@ -23,7 +23,7 @@ Some companies are 100% onsite, and some are 100% remote. But, it's not unusual 
 
 Remote work can be a great tool for a business as a contingency plan in the event of inclement weather or a natural disaster.
 
-Some companies also have a physical office where you can go to work if you'd like, but allow you to work wherever.
+Some companies also have a physical office where you can go to work if you'd like, but allow you to work wherever. Recently there has been more movement from large companies, such as IBM, toward moving employees back to onsite employment. However, many large organizations are still very flexible and willing to let you work from home, or another convenient location.
 
 ### More Information:
 
