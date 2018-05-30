@@ -8,4 +8,6 @@ Checkboxes are a type of input.
 
 Here's an example of a checkbox:
 
-`<label><input type="checkbox" name="personality"> Loving</label>`.
+```html
+<label><input type="checkbox" name="personality"> Loving</label>
+```
