@@ -6,7 +6,7 @@ title: Operators
 ## 1. Arithmetic Operators
 - `+` Adds to operands (values) 
      ```C
-     int a = 6;
+     int a = 7;
      int c = a + 1; // c = 7
      ```
 - `-`Subtracts the second operand from the first
