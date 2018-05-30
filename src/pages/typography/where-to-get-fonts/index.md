@@ -4,7 +4,7 @@ title: Where to Get Fonts
 ## Where to Get Fonts
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-Online font services like Google Fonts provide an easy way to use different fonts on your site without the need to worry about whether or not the person viewing your site will have the font available on their system. To use Google Fonts in your site, visit <a href="https://fonts.google.com/"></a>. You can browse the site to find the font that works best for your project. Once you've chosen, click the plus sign next to the font. A bar will appear at the bottom of the screen. Click on it. You will then be given several lines of code. Copy and paste the line of HTML into the head of your HTML file above the existing <link> element. Then take the CSS and use it where necessary in your stylesheet. 
+Online font services like Google Fonts provide an easy way to use different fonts on your site without the need to worry about whether or not the person viewing your site will have the font available on their system. To use Google Fonts in your site, visit the <a href="https://fonts.google.com/">Google Fonts</a> archive. You can browse the site to find the font that works best for your project. Once you've chosen, click the plus sign next to the font. A bar will appear at the bottom of the screen. Click on it. You will then be given several lines of code. Copy and paste the line of HTML into the head of your HTML file above the existing <link> element. Then take the CSS and use it where necessary in your stylesheet. 
 
 You're done! You successfully have new fonts for your site.
 
@@ -21,6 +21,7 @@ Sometimes you will come accross the need to generate a webfont when you are aske
 ..* <a href="http://fontsquirrel.com" target="_blank">Font Squirrel</a>
 ..* <a href="http://www.dafont.com" target="_blank">DaFont</a>
 ..* <a href="http://www.1001freefonts.com" target="_blank">1001 Free Fonts</a>
+..* <a href="https://www.myfonts.com/WhatTheFont/">What The Font</a>
 
 ##### Web Font Generators
 ..* <a href="https://www.fontsquirrel.com/tools/webfont-generator" target="_blank">Font Squirrel Font Generator</a>

@@ -15,7 +15,7 @@ C allows us to choose between several different options with our data types beca
 ## Integer data types
 
 #### Characters: `char`
-`char` holds characters- things like letters, punctuation, and spaces. In a computer, characters are stored as numbers, so `char` holds integer values that represent characters. The actual translation is described by the ASCII standard. [Here's](http://www.asciitable.com/) a handy table for looking up that.
+`char` holds characters- things like letters, punctuation, and spaces. In a computer, characters are stored as numbers, so `char` holds integer values that represent characters. The actual translation is described by the ASCII standard. <a href='http://www.asciitable.com/' target='_blank' rel='nofollow'>Here's</a> a handy table for looking up that.
 
 The actual size, like all other data types in C, depends on the hardware you're working on. By minimum, it is at least 8 bits, so you will have at least 0 to 127. Alternatively, you can use `signed char` to get at least -128 to 127.
 
@@ -47,6 +47,47 @@ The `long long` data type is overkill for just about every application, but C wi
 C makes pick the data type, and makes us be very specific and intentional about the way that we do this. This gives you a lot of power over your code, but it's important to pick the right one.
 
 In general, you should pick the minimum for your task. If you know you'll be counting from 1 to 10, you don't need a long and you don't need a double. If you know that you will never have negative values, look into using the `unsigned` variants of the data types. By providing this functionality rather than doing it automatically, C is able to produce very light and efficient code. However, it's up to you as the programmer to understand the abilities and limitations, and choose accordingly.
+
+We can use the sizeof() operator to check the size of a variable. See the following C program for the usage of the various data types:
+
+#include <stdio.h>
+
+int main()
+
+{
+    int a = 1;
+    
+    char b ='G';
+    
+    double c = 3.14;
+    
+    printf("Hello World!\n");
+ 
+    //printing the variables defined above along with their sizes
+    printf("Hello! I am a character. My value is %c and "
+           "my size is %lu byte.\n", b,sizeof(char));
+    //can use sizeof(b) above as well
+ 
+    printf("Hello! I am an integer. My value is %d and "
+           "my size is %lu  bytes.\n", a,sizeof(int));
+    //can use sizeof(a) above as well
+ 
+    printf("Hello! I am a double floating point variable."
+           " My value is %lf and my size is %lu bytes.\n",c,sizeof(double));
+    //can use sizeof(c) above as well
+ 
+    printf("Bye! See you soon. :)\n");
+     return 0;
+}
+    
+## Output:
+
+Hello World!
+Hello! I am a character. My value is G and my size is 1 byte.
+Hello! I am an integer. My value is 1 and my size is 4  bytes.
+Hello! I am a double floating point variable. My value is 3.140000 and my size i
+s 8 bytes.
+Bye! See you soon. :)
 
 # Before you go on...
 ## A review
