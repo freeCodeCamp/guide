@@ -18,6 +18,9 @@ and in the cloud.
 Docker containers isolate applications from one another and from the underlying infrastructure. Docker provides the strongest default isolation to limit app
 issues to a single container instead of the entire machine.
 
+## Overview
+A container image is a lightweight, stand-alone, executable package of a piece of software that includes everything needed to run it: code, runtime, system tools, system libraries, settings. Available for both Linux and Windows based apps, containerized software will always run the same, regardless of the environment. Containers isolate software from its surroundings, for example differences between development and staging environments and help reduce conflicts between teams running different software on the same infrastructure.
+
 ### See also
 - Docker Compose : to create and manage several containers at the same time.
 
