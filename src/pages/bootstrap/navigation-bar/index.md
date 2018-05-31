@@ -1,7 +1,4 @@
----
-title: Navigation Bar
----
-## Navigation Bar
+
 
 The Bootstrap framework provides you with a feature call navigation bars. In short a navigation bar (also referred to navbars) is a header at the top of the page to display navigational information.
 
@@ -163,6 +160,3 @@ On a small screen (such as a phone or tablet) the navbar is going to take up too
     </ul>
   </div>
 </nav>
-
-#### More Information:
-[BootStrap navbar documentation](https://getbootstrap.com/docs/4.0/components/navbar/)
