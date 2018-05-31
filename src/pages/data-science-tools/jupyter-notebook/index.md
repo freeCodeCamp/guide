@@ -36,6 +36,18 @@ A kernel is a program that runs and introspects the user’s code. The Jupyter N
 ### Dashboard
 The dashboard of the application not only shows you the notebook documents that you have made and can reopen but can also be used to manage the kernels: you can which ones are running and shut them down if necessary.
 
+### How notebooks work
+Jupyter notebooks grew out of the IPython project started by Fernando Perez. IPython is an interactive shell, similar to the normal Python shell but with great features like syntax highlighting and code completion. Originally, notebooks worked by sending messages from the web app (the notebook you see in the browser) to an IPython kernel (an IPython application running in the background). The kernel executed the code, then sent it back to the notebook.
+![Notebook architecture](https://jupyter.readthedocs.io/en/latest/_images/notebook_components.png)
+
+When you save the notebook, it is written to the server as a JSON file with a **.ipynb** file extension
+The new name Jupyter comes from the combination of **Ju**lia, **Py**thon, and **R**. there are a lot of kernels for different languages to use Jupyter. you could check the [list of available Jupyter kernels](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels).
+
+### Installing Jupyter Notebook
+Jupyter notebooks automatically come with the distribution. You'll be able to use notebooks from the default environment.
+To install Jupyter notebooks in a conda environment: `conda install jupyter notebook`
+To install Jupyter notebooks with pip: `pip install jupyter notebook`
+
 #### More Information:
 * [Jupyter/IPython Notebook Quick Start Guide](http://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html)
 * [What is Jupyter Notebook by codebasics, duration 8:24](https://www.youtube.com/watch?v=q_BzsPxwLOE)
