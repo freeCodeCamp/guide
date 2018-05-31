@@ -3,7 +3,7 @@ title: Mean Median Mode and Range
 ---
 ## Mean, Median, Mode, and Range
 
-Mean, median, and mode are three variations of average. Range is the difference between the largest and smallest values of a set.
+Statisticians and mathematicians use the mean, median, mode, and range to learn information about a group of numbers. 
 
 ```
 Example set:
@@ -11,7 +11,17 @@ Example set:
 5, -4, 11, 5, 5, 20, 8.5, 11
 ```
 
-The **mean** of a set of values is the sum of all the values divided by how many values there are.
+To calculate the **range** of a set, take the highest number, denoted x, and the lowest number, denoted y, and calculate x-y. Range will give an indication of how spread out the numbers are.
+```
+Smallest value: -4
+Largest value: 20
+
+20 - (-4) = 24
+
+The range is 24
+```  
+
+To calculate the **mean**, add all the numbers together and divide by the total amount of elements in a group. This is what is normally meant when discussing the 'average'.
 ```
 5 + (-4) + 11 + 5 + 5 + 20 + 8.5 + 11 = 61.5
 
@@ -23,20 +33,7 @@ Count: 8
 The mean is 7.6875
 ```
 
-The **median** is the middle value in an ordered set. If the count of values in a set is odd, the median value is simply the middle value. If the count is even, the median value is the mean (average) of the two middle values.
-
-```
-First, put the set in order:
-
--4, 5, 5, 5, 8.5, 11, 11, 20
-
-The third 5 and 8.5 are the middle values...
-(5 + 8.5) / 2 = 6.75
-
-The median is 6.75
-```
-The **mode** is the value that appears most often in a set. If all values appear an equal number of times, there is no mode for that set.
-
+To calculate the **mode**, look for the number that is repated the most frequently. For example, for the numbers 1,2,3,4,5,6,7,7,7 the mode would be 7 because there are three 7s in the group, which is higher than the amount of any other number.
 ```
 Put the set in order so it's easier to see how
 many of each value there are:
@@ -48,15 +45,17 @@ everything else appears once.
 
 The mode is 5
 ```
-The **range** of a set is calculated by subtracting the smallest value from the largest value.
 
+To calculate the **median**, arrange all the numbers in increasing order and cross off the highest and lowest number until there is only one or two numbers left. If there is one number left, then that number is the median. If there are two numbers, then add the two numbers and divide by 2 to get the median. For example, in 1,2,3,4,5,6,7,7,7 the median would be 5.
 ```
-Smallest value: -4
-Largest value: 20
+First, put the set in order:
 
-20 - (-4) = 24
+-4, 5, 5, 5, 8.5, 11, 11, 20
 
-The range is 24
+The third 5 and 8.5 are the middle values...
+(5 + 8.5) / 2 = 6.75
+
+The median is 6.75
 ```
 
 
