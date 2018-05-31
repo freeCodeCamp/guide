@@ -1,7 +1,6 @@
 ---
 title: Array.prototype.push
 ---
-## Array.prototype.push
 
 The `push()` method is used to add one or more new elements to the end of an array.
 It also returns the new length of the array.
@@ -52,3 +51,6 @@ var newLength = myStarkFamily.push('Rickon');  // oops! forgot Rickon
 console.log(newLength);  // 6
 console.log(myStarkFamily);  // ['John', 'Robb', 'Sansa', 'Bran', 'Arya', 'Rickon']
 ```
+
+#### More Information:
+[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)

@@ -17,12 +17,14 @@ Java is trademarked and licensed by Oracle. Most of the following are un-officia
 *   <a href='https://github.com/winterbe/java8-tutorial' target='_blank' rel='nofollow'>Java 8 Tutorial</a>
 *   <a href='https://github.com/cxxr/better-java' target='_blank' rel='nofollow'>Better Java</a>
 *   <a href='http://www3.ntu.edu.sg/home/ehchua/programming/index.html#Java' target='_blank' rel='nofollow'>Java Programming notes by NTU</a>
+*   <a href='https://www.hackerrank.com/domains/tutorials/30-days-of-code' target='_blank' rel='nofollow'>HackerRank's 30 days of Code Challenge with video tutorials in Java</a>
 *   <a href='http://introcs.cs.princeton.edu/java/home/' target='_blank' rel='nofollow'>Princeton's Introduction to Programming in Java</a>
 *   <a href='http://math.hws.edu/javanotes/' target='_blank' rel='nofollow'>Introduction to Programming Using Java</a>
 *   <a href='http://javapractices.com/home/HomeAction.do' target='_blank' rel='nofollow'>Java Practices</a>
 *   <a href='https://github.com/iluwatar/java-design-patterns/' target='_blank' rel='nofollow'>Java Design Patterns</a>
 *   <a href='https://github.com/pedrovgs/Algorithms' target='_blank' rel='nofollow'>Algorithms in Java</a>
 *   <a href='https://spring.io/guides' target='_blank' rel='nofollow'>Spring Official Guides</a>
+*   <a href='http://www.tutorialspoint.com/java/'>Tutorials Point - Java</a>
 
 ## Challenges
 
@@ -32,6 +34,9 @@ Java is trademarked and licensed by Oracle. Most of the following are un-officia
 *   <a href='https://projecteuler.net/' target='_blank' rel='nofollow'>Project Euler</a>
 *   <a href='http://practiceit.cs.washington.edu/' target='_blank' rel='nofollow'>Practice It! - Java Challenges</a>
 *   <a href='https://www.codewars.com/?language=java' target='_blank' rel='nofollow'>Codewars - Java Katas</a>
+*   <a href='https://www.hackerrank.com/domains/java/java-introduction'>HackerRank Java Challenges</a>
+*   <a href='https://leetcode.com/' target='_blank' rel='nofollow'>LeetCode</a>
+*   <a href='http://www.codeabbey.com/' target='_blank' rel='nofollow'>CodeAbbey</a>
 
 ## Community
 
@@ -41,3 +46,4 @@ Java is trademarked and licensed by Oracle. Most of the following are un-officia
 *   <a href='https://www.reddit.com/r/learnjava' target='_blank' rel='nofollow'>/r/LearnJava</a>
 *   <a href='http://www.javaranch.com/' target='_blank' rel='nofollow'>Java Ranch</a>
 *   <a href='https://www.javacodegeeks.com/' target='_blank' rel='nofollow'>Java Code Geeks</a>
+*   <a href='http://javasearch.org' target='_blank' rel=nofollow'>Java 8 API Search</a>
