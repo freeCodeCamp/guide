@@ -20,6 +20,12 @@ In Python 3, the same statement throws an error like this:
 In Python 2, “print” is treated as a statement rather than a function. There is no need to wrap the text you want to print in parentheses, although you can if you want.
 Python 3 explicitly treats “print” as a function, which means you have to pass the items you need to print to the function in parentheses in the standard way, or you will get a syntax error
 
+Using the `print()` function is 'safe' in both Python 2 and 3:
+
+```python
+print("Hello World")
+```
+
 We won't be diverted in our discussion any further trying to document all these differences, but <a href='http://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html' target='_blank' rel='nofollow'>this</a> might be of interest to you, if you are interested.
 
 Both Python 2 and Python 3 are cool. Most Linux and macOS distributions come pre-installed with Python 2 as the default version of Python. And Python 3 was born out of the insatiable quest for more readable and more beautiful language constructs.
