@@ -17,9 +17,11 @@ In Python 3, this would throw an error somewhat like this:
                     ^
     SyntaxError: Missing parentheses in call to 'print'
     
-If you use that 'print' it wil work on both python 2 and 3
+Using the `print()` function is 'safe' in both Python 2 and 3:
 
-   print("Hello World")
+```python
+print("Hello World")
+```
 
 We won't be diverted in our discussion any further trying to document all these differences - but <a href='http://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html' target='_blank' rel='nofollow'>this</a> might of interest to you, if you are into it.
 
