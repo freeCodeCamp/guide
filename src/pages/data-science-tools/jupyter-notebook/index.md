@@ -3,10 +3,38 @@ title: Jupyter Notebook
 ---
 ## Jupyter Notebook
 
-The notebook is a web application that allows you to combine explanatory text, math equations, code, and visualizations all in one easily sharable document. basically the output is a html file.
-You'll find them being used for data cleaning and exploration, visualization, machine learning, and big data analysis
-Notebooks are also rendered automatically on GitHub. It’s a great feature that lets you easily share your work.
+The Jupyter Notebook helps you create and share documents containing live code, equations, visualizations and rich text.   
+ 
+You can use it for:
+* data cleaning and transformation
+* numerical simulation
+* statistical modeling
+* data visualization
+* machine learning
 
+The Jupyter notebook combines two components:
+
+### A web application:  
+
+The Jupyter Notebook App helps to edit and run notebook documents in a web browser,  combining explanatory text, mathematics, computations and rich media.
+
+### Notebook document:
+
+The Jupyter Notebook App can create a 'Notebook document' containing both code and rich text elements. A Notebook document can be both readable and executable.
+
+These documents are produced by the Jupyter Notebook App.
+
+## Jupyter Notebook App
+As a server-client application, the Jupyter Notebook App allows you to edit and run your notebooks via a web browser.  
+The application can be executed on a PC without Internet access or it can be installed on a remote server, where you can access it through the Internet.  
+
+Its two main components are the kernels and a dashboard.
+
+### Kernels
+A kernel is a program that runs and introspects the user’s code. The Jupyter Notebook App has a kernel for Python code, but there are also kernels available for other programming languages.
+
+### Dashboard
+The dashboard of the application not only shows you the notebook documents that you have made and can reopen but can also be used to manage the kernels: you can which ones are running and shut them down if necessary.
 
 ### How notebooks work
 Jupyter notebooks grew out of the IPython project started by Fernando Perez. IPython is an interactive shell, similar to the normal Python shell but with great features like syntax highlighting and code completion. Originally, notebooks worked by sending messages from the web app (the notebook you see in the browser) to an IPython kernel (an IPython application running in the background). The kernel executed the code, then sent it back to the notebook.
@@ -17,10 +45,11 @@ The new name Jupyter comes from the combination of **Ju**lia, **Py**thon, and **
 
 ### Installing Jupyter Notebook
 Jupyter notebooks automatically come with the distribution. You'll be able to use notebooks from the default environment.
-To install Jupyter notebooks in a conda environment: **conda install jupyter notebook**
-To install Jupyter notebooks with pip: **pip install jupyter notebook**
-
+To install Jupyter notebooks in a conda environment: `conda install jupyter notebook`
+To install Jupyter notebooks with pip: `pip install jupyter notebook`
 
 #### More Information:
-<a href='http://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html' target='_blank' rel='nofollow'>Jupyter/IPython Notebook Quick Start Guide</a>
-
+* [Jupyter/IPython Notebook Quick Start Guide](http://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html)
+* [What is Jupyter Notebook by codebasics, duration 8:24](https://www.youtube.com/watch?v=q_BzsPxwLOE)
+* [Jupyter Notebook Tutorial / Ipython Notebook Tutorial, by codebasics, duration 24:07](https://www.youtube.com/watch?v=EEEZX_0FMEc)
+* [More Information](https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook)

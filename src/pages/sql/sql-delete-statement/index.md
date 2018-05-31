@@ -19,5 +19,15 @@ DELETE FROM Person
 WHERE Id = 3;
 ```
 
+Using DELETE to remove all records from a given table 
 
+```sql
+DELETE * FROM Person
+;
+```
 
+Or depending on your RDBMS you could use the TRUNCATE TABLE statement which deletes all records from a table and depending on your RDBMS may or may not allow rollback.  DELETE is DML and TRUNCATE is DDL.
+
+```sql
+TRUNCATE TABLE Person;
+```
