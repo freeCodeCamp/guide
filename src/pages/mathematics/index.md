@@ -6,7 +6,10 @@ title: Mathematics
 In this section, we'll have guides to a wide variety of mathematical concepts.
 
 ### Maths in programming
-Although it is good practice to create mathematical functions yourself, there are math libraries availiable for use in many programming languages. These have predetermined functions you can utilize to execute calculations. Some concepts of mathematics popularly used in coding with respect to algorithmic coding are
+
+Although it is good practice to create mathematical functions yourself, there are math libraries availiable for use in many programming languages. These 
+have predetermined functions you can utilize to execute calculations. In programming, you typically cover topics like these in upper division courses on
+the theory of computation, the design of algorithms, and computer language design.
 
 #### Fibonacci sequence (generating functions)
 We all know that the recursion excercise begins with solving a fibonaaci sequence. It is also the first example which shows the power of Dynamic Programming. So, it is the special case of a class of mathematics known as generating functions. So, what we will be discussing here applies in general to all genrating function.
