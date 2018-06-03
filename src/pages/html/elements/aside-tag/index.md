@@ -1,27 +1,13 @@
 ---
 title: Aside Tag
 ---
-## Nav Tag
+## Aside Tag
 
-The `<nav>` tag is intended for major block of navigation links. NOT all links of a document should be inside a `<nav>` element.
+This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/aside-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
-Browsers, such as screen readers for disabled users, can use this element to determine whether to omit the initial rendering of this content.
+<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
 
-
-#### Example
-``` html
-
-<nav class="menu">
-  <ul>
-    <li><a href="#">Home</a></li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Contact</a></li>
-  </ul>
-</nav>
-
-```
+<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
