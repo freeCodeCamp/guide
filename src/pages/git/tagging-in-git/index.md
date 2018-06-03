@@ -156,7 +156,7 @@ To git@github.com:jcash/gitmanual.git
 
 ## Checking out Tags
 
-You can use ```git cehckout``` to checkout to a tag like you would normally do. But you need to keep in mind that this would result a *detached HEAD* state.
+You can use ```git checkout``` to checkout to a tag like you would normally do. But you need to keep in mind that this would result a *detached HEAD* state.
 
 ```
 $ git checkout v0.0.3
