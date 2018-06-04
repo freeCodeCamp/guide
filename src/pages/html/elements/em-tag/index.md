@@ -18,4 +18,5 @@ Note: The `<em>` tag should not be used to stylistically italicize text. The `<e
 
 #### More Information:
 - [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em)
-<a ref="https://www.w3schools.com/TAGs/tag_em.asp>W3Schools</a>
+- [em tag: w3schools](https://www.w3schools.com/tags/tag_em.asp)
+- [em tag: htmlreference.io](http://htmlreference.io/element/em/)

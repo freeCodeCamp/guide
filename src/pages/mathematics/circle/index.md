@@ -3,13 +3,16 @@ title: Circle
 ---
 ## Circle
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/circle/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+A circle is a closed shape where all points are the same distance from the center.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The distance from one point to the center is called the radius (R).
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+The distance from one point, throught the center to another point is called the diameter (D).
+
+The distance all around the circle is called the circumference (C). 
+
+![circle](https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Circle-withsegments.svg/612px-Circle-withsegments.svg.png "circle")
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+More information with illustrations can be found here: https://en.wikipedia.org/wiki/Circle
