@@ -3,11 +3,20 @@ title: Ruby Hashes
 ---
 
 ## Ruby Hashes
-In Ruby, a hash is similar to an [array](https://raw.githubusercontent.com/freeCodeCamp/guides/master/src/pages/ruby/ruby-arrays/index.md), but rather than simply storing a value it stores a key, value pair.
+
+A hash is a collection of keys and values. It is similar to what is commonly called a dictionary in other languages. In Ruby, a hash is similar to an <a href='https://raw.githubusercontent.com/freeCodeCamp/guides/master/src/pages/ruby/ruby-arrays/index.md' target='_blank' rel='nofollow'>array</a>, but rather than simply storing a value it stores a key, value pair.
 ```ruby
 array = ["value"]
 hash = { "key" => "value" }
 ```
+
+There are a couple of different ways to create a new hash:
+```ruby
+hash1 = {a: 100, b: "200"}
+hash2 = Hash.new
+hash3 = Hash.new(0) # with default value set to 0
+```
+
 A programmer can then access a hash value using its key, rather than the index.
 ```ruby
 array[0] # => "value"
@@ -30,3 +39,6 @@ In addition, if all of your keys are [symbols](#), you can write your hash in th
 hash = { symbol: "value" }
 hash[:symbol] # => "value"
 ```
+
+#### More Information:
+<a href='https://ruby-doc.org/core-2.4.2/Hash.html' target='_blank' rel='nofollow'>Ruby hash documentation</a>
