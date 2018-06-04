@@ -77,5 +77,9 @@ Documentation reference: <a href='http://www.cplusplus.com/reference/cmath/' tar
 ``` python
 >>> import math
 ```
+#### Java
+```java
+import java.lang.Math
+```
 
 
