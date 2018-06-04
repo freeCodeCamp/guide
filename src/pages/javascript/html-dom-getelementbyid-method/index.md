@@ -33,4 +33,4 @@ document.getElementById("demo"); // Returns the element with id "demo" containin
 
 #### Alternative solutions:
 
-Most used alternative solution to document.getElementById is using a jQuery selector which you read about more <a href='https://github.com/freeCodeCamp/guides/tree/master/src/pages/jquery' target='_blank'>here</a>
+A commonly-used alternative to `document.getElementById` is using a jQuery selector which you read about more [here](https://github.com/freeCodeCamp/guides/tree/master/src/pages/jquery).
