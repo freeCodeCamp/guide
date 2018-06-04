@@ -3,13 +3,11 @@ title: Radians to Degrees
 ---
 ## Radians to Degrees
 
-The measurement in Redian is directly proportional to that in Degrees meaning that:
+One complete cycle = 2π Radians = 360 degrees
 
+1 Radians = 360 / 2π degree
 
-1 Radian = K Degrees where K is a constant.
-
-For this relation the constant K is 180/π where π (PI) ≈ 3.14159 thus 1 Radian = 180/π Degrees
-
+p Radians = p × 360 / 2π degree
 
 ### Examples:
 
