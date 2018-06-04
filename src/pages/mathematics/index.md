@@ -71,7 +71,8 @@ Documentation reference: [cplusplus reference](http://www.cplusplus.com/referenc
 >>> import math
 ```
 #### Java
-    Java
-    import java.lang.Math
+```java
+import java.lang.Math
+```
 
 
