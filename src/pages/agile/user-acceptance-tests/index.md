@@ -41,4 +41,6 @@ UAT checks that everything works properly and that there are no crashes. Those o
 based on User Stories and Acceptance Criteria](http://research.ijcaonline.org/volume120/number10/pxc3903533.pdf)
 
 
+In software development, user acceptance testing (UAT) - also called <strong>beta testing</strong>, application testing, and end user testing - is a phase of software development in which the software is tested in the "real world" by the intended audience. UAT can be done by in-house testing in which volunteers or paid test subjects use the software or, more typically for widely-distributed software, by making the test version available for downloading and free trial over the Web. The experiences of the early users are forwarded back to the developers who make final changes before releasing the software commercially.
 
+Source of the article is <a href="http://searchsoftwarequality.techtarget.com/definition/user-acceptance-testing-UAT" target="_blank">here</a>
