@@ -25,4 +25,4 @@ It helps the team building or maintaining a service, application or website to s
 ### More Information On Creating Customer Journey Map:
 [How To Create A Customer Journey Map](https://uxmastery.com/how-to-create-a-customer-journey-map/)
 
-
+[See this video for more info](https://youtu.be/mSxpVRo3BLg)
