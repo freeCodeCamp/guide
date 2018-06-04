@@ -16,7 +16,7 @@ while (i < 5)
 }
 ```
 
-## Output:
+### Output:
 ```
 > Number 0
 > Number 1
@@ -25,5 +25,30 @@ while (i < 5)
 > Number 4
 ```
 
+## Other Uses
+
+The while loops is often used for infinite iterrations by using (for example) `while (true)`, only to be ended through a condition unrelated to the initial condition of the loop.
+
+
+```csharp
+int i = 0;
+while (true)
+{
+    if(i<50){
+        Console.WriteLine("Number " + i);
+        i++;
+    }
+    else{
+        Console.WriteLine("End of loop");
+        break;
+    }
+}
+```
+
+## Differences to the `for` loop
+
+The biggest differences between the  `for` and `while` loops is that `while` is typically used when  a developer is not sure of an exact number of iterations of the loop, and `for` is used when it's clear how many times to iterate through code.
+
 ### Sources
-1 https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/while
+* [Microsoft C# - while](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/while)
+
