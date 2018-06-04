@@ -3,13 +3,12 @@ title: Real Numbers
 ---
 ## Real Numbers
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/real-numbers/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Real Numbers is a set of numbers consisting of all numbers along a line, their negatives and zero. It includes integers, fractions, roots and special numbers like e and π.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The set of real numbers is normally represented by the following symbol:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+![](https://upload.wikimedia.org/wikipedia/commons/3/39/Latex_real_numbers.svg)
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+### Examples
 
-
+1, 1.2, -5/7, √2, e, π 
