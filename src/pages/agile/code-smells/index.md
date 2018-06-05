@@ -3,15 +3,18 @@ title: Code Smells
 ---
 ## Code Smells
 
-A code smell resides in a part of source code that usually indicates a deeper problem.<sup>1</sup>
-A code smell does not represent a bug by itself; it means that the code smell does not affect the functionality of the product. It would be more accurately qualified as a weakness in the code that may slow down development or refactoring. It may also increase the bug possibilities.
-Some examples of code smells may be <em>duplicated code</em> or <em>excessive number of parameters</em>.
+A Code Smell in computer programming is a surface indication that there might be a problem regarding your system and the quality of your code. This problem might require refactoring to be fixed.
 
-As a result, it is important yet easy, even for beginners, to spot and reduce code smells. Thus, clean and bring robustness to the code.
+It is important to understand that smelly code works, but is not of good quality.
 
-This kind of problems are referred as a <em>value system</em><sup>2</sup> for the software developer; Indeed, this kind of problems allows to evaluate the technical debt of a project.
+#### Examples
+1. Duplicated code - Blocks of code that have been replicated across the code base. This may indicate that you need to generalize the code into a function and call it in two places, or it may be that the way the code works in one place is completely unrelated to the way it works in another place, despite having been copied.
+2. Large classes - Classes having too many lines of code. This may indicate that the class is trying to do too many things, and needs to be broken up into smaller classes.
 
-### Sources:
-
-1. Fowler, Martin <a href="https://martinfowler.com/bliki/CodeSmell.html">Code smell</a>
-2. Martin, Robert C. (2009). "17: Smells and Heuristics". Clean Code: A Handbook of Agile Software Craftsmanship
+#### More Information:
+* _Refactoring: Improving the Design of Existing Code - Kent Beck, Martin Fowler_
+* _Clean Code: A Handbook of Agile Software Craftsmanship - Martin, Robert C. (2009)._
+* [Code Smells on Wikipedia](https://en.wikipedia.org/wiki/Code_smell)
+* [Code Smells on Jeff Atwood's Blog (Coding Horror)](https://blog.codinghorror.com/code-smells/)
+* [Code Smells on Ward Cunningham's C2 Wiki](http://wiki.c2.com/?CodeSmell)
+* [Martin Fowler - Code Smell](https://martinfowler.com/bliki/CodeSmell.html)

@@ -3,13 +3,10 @@ title: Self Organization
 ---
 ## Self Organization
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/self-organization/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Scrum teams are said to be self organising. This means that the work done and generally the way it is done is left up to the team to decide.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+During Sprint Planning the team will look at the product backlog (which will have been prioritised by the product owner) and decide which stories the will work on in the upcoming sprint and the tasks which will need completing to mark the story as Done. The team will estimate a score or size for the story to denote effort. 
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+During a sprint it is up to the members of the team to pick up sprint backlog stories to work on, generally they will pick ones they think they can achieve. Due to it being a self organising team, there should be no assigning a task to a team member by someone else.
 
 
