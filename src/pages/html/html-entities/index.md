@@ -2,16 +2,6 @@
 title: HTML Entities
 ---
 
-
-
-**Advantage of using an entity name:** An entity name is easy to remember.
-**Disadvantage of using an entity name:** Browsers may not support all entity names, but the support for numbers is good.
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-=======
-
 # HTML Entities
 
 ## Overview
@@ -45,39 +35,23 @@ This is by no means an exhaustive list but the links below will be able to give 
 
 
 | Character | Entity Name | Entity Number |	Description |
-|       |       | &#32; | Space |
-|-------|-------|-------|-------|
-|   !   |       | &#33; | Exclamation mark |
-|-------|-------|-------|------------------|
-|   "   |	      | &#34; | Quotation mark |
-|-------|-------|-------|----------------|
-|   #   |	      | &#35; | Number sign |
-|-------|-------|-------|-------------|
-|   $   |       | &#36; | Dollar sign |
-|-------|-------|-------|-------------|
-|   %   |	      | &#37; | Percent sign |
-|-------|-------|-------|--------------|
-|   &   |	&amp;	| &#38; | Ampersand |
-|-------|-------|-------|-----------|
-|   '   |		    | &#39;	| Apostrophe |
-|-------|-------|-------|------------|
-|   (   |		    | &#40; | Opening/Left Parenthesis |
-|-------|-------|-------|--------------------------|
-|    )  |		    | &#41; | Closing/Right Parenthesis |
-|-------|-------|-------|---------------------------|
-|   *   |		    | &#42; | Asterisk |
-|-------|-------|-------|----------|
-|   +   |		    | &#43; | Plus sign|
-|-------|-------|-------|----------|
-|   ,   | 		  | &#44;	| Comma |
-|-------|-------|-------|-------|
-|   -   |		    | &#45;	| Hyphen |
-|-------|-------|-------|--------|
-|   .   |		    | &#46;	| Period |
-|-------|-------|-------|--------|
-|   /   | 	    | &#47;	| Slash |
-|-------|-------|-------|-------|
-
+|-------|---------|---------|-------|
+|       |         | `&#32;` | Space |
+|   !   |         | `&#33;` | Exclamation mark |
+|   "   |	        | `&#34;` | Quotation mark |
+|   #   |	        | `&#35;` | Number sign |
+|   $   |         | `&#36;` | Dollar sign |
+|   %   |	        | `&#37;` | Percent sign |
+|   &   |	`&amp;`	| `&#38;` | Ampersand |
+|   '   |		      | `&#39;`	| Apostrophe |
+|   (   |		      | `&#40;` | Opening/Left Parenthesis |
+|    )  |		      | `&#41;` | Closing/Right Parenthesis |
+|   *   |		      | `&#42;` | Asterisk |
+|   +   |		      | `&#43;` | Plus sign|
+|   ,   | 		    | `&#44;`	| Comma |
+|   -   |		      | `&#45;`	| Hyphen |
+|   .   |		      | `&#46;`	| Period |
+|   /   | 	      | `&#47;`	| Slash |
 
 #### More Information:
 There are plenty of HTML entites references out there; some examples are:
