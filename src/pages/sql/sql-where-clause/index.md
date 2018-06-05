@@ -4,13 +4,13 @@ title: SQL Where Clause
 
 ## SQL Where Clause
 
-### Where Clause (and / or, IN, BETWEEN and LIKE)
+### `WHERE` Clause (and/or, `IN`, `BETWEEN`, and `LIKE`)
 
-The WHERE clause is used to limit the number of rows returned.  
+The `WHERE` clause is used to limit the number of rows returned.  
 
-In this case all five of these will be used is a some what ridiculous Where clause. 
+In this case all five of these will be used is a some what ridiculous `WHERE` clause. 
 
-Here is the current full student list to compare to the WHERE clause result set:
+Here is the current full student list to compare to the `WHERE` clause result set:
 
 ```sql
 select studentID, FullName, sat_score, rcd_updated from student;
@@ -34,18 +34,19 @@ select studentID, FullName, sat_score, rcd_updated from student;
 ```
 
 Rows will be presented that....
-* Have Student IDs between 1 and 5 (inclusive) 
-* OR studentID = 8 
-* or have "Maxmimo" in the name
+
+* `WHERE` Student IDs are between 1 and 5 (inclusive) 
+* `OR` studentID = 8 
 
 Here's an updated query, where any record that has an SAT score that's in this list (1000, 1400) will not be presented:
 
 ```sql
-select studentID, FullName, sat_score, recordUpdated
-from student
-where ( studentID between 1 and 5 or studentID = 8 or FullName like '%Maximo%'
-) and 
-sat_score NOT in (1000, 1400);
+
+select  studentID, FullName, sat_score, recordUpdated
+from    student
+where   (studentID between 1 and 5 or studentID = 8)
+        and
+        sat_score NOT in (1000, 1400);
 ```
 
 ```text
