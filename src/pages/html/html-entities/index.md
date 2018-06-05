@@ -35,23 +35,33 @@ This is by no means an exhaustive list but the links below will be able to give 
 
 
 | Character | Entity Name | Entity Number |	Description |
-|-------|---------|---------|-------|
-|       |         | `&#32;` | Space |
-|   !   |         | `&#33;` | Exclamation mark |
-|   "   |	        | `&#34;` | Quotation mark |
-|   #   |	        | `&#35;` | Number sign |
-|   $   |         | `&#36;` | Dollar sign |
-|   %   |	        | `&#37;` | Percent sign |
-|   &   |	`&amp;`	| `&#38;` | Ampersand |
-|   '   |		      | `&#39;`	| Apostrophe |
-|   (   |		      | `&#40;` | Opening/Left Parenthesis |
-|    )  |		      | `&#41;` | Closing/Right Parenthesis |
-|   *   |		      | `&#42;` | Asterisk |
-|   +   |		      | `&#43;` | Plus sign|
-|   ,   | 		    | `&#44;`	| Comma |
-|   -   |		      | `&#45;`	| Hyphen |
-|   .   |		      | `&#46;`	| Period |
-|   /   | 	      | `&#47;`	| Slash |
+|-------|-----------|-----------|-------|
+|       |           | `&#32;`   | Space |
+|   !   |           | `&#33;`   | Exclamation mark |
+|   "   |	          | `&#34;`   | Quotation mark |
+|   #   |	          | `&#35;`   | Number sign |
+|   $   |           | `&#36;`   | Dollar sign |
+|   ¢   | `&cent;`  | `&#162;`  | Cent sign |
+|   €   | `&euro;`  | `&#8364;` | Euro sign | 
+|   £   | `&pound;` | `&#163;`  | GBP sign |
+|   ¥   | `&yen;`   | `&#165;`  | Yen sign |
+|   %   |	          | `&#37;`   | Percent sign |
+|   &   |	`&amp;`	  | `&#38;`   | Ampersand |
+|   '   |  		      | `&#39;`  	| Apostrophe |
+|   (   |  		      | `&#40;`   | Opening/Left Parenthesis |
+|    )  |  		      | `&#41;`   | Closing/Right Parenthesis |
+|   *   |  		      | `&#42;`   | Asterisk |
+|   +   |  		      | `&#43;`   | Plus sign|
+|   ,   |   		    | `&#44;`  	| Comma |
+|   -   |	  	      | `&#45;`  	| Hyphen |
+|   .   |	  	      | `&#46;`  	| Period |
+|   /   |   	      | `&#47;`  	| Slash |
+|   ©   | `&copy;`  | `&#169;`  | Copyright |
+|   ®   | `&reg;`   | `&#174;`  | Registered Trademark |
+|   "   | `&quot;`  | `&#34;`   | double quotation mark |
+|  `>`  |  `&gt;`   | `&#62;`   | Greater-than sign |
+|  `<`  |  `&lt;`   | `&#60;`   | Less-than sign |
+
 
 #### More Information:
 There are plenty of HTML entites references out there; some examples are:
