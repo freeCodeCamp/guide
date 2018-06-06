@@ -48,11 +48,15 @@ a. `componentWillUnmount()`
 - `componentWillUpdate`,  and `componentDidUpdate` will only be executed if and only if `shouldComponentUpdate` returns true.
 - `componentWillUnmount()`will be called just before unmounting any component and hence can be used to free up the used memory, close any connections to DB, etc.
 
+
 ## WARNING!!!
 Starting in React v16.3.0, React is starting to deprecate certain lifecycles
 * `componentWillMount`
 * `componentWillReceiveProps`
 * `componentWillUpdate`
+
+Many things can be learned by diving into coding. So get your hands dirty by coding.
+
 
 Note:
 

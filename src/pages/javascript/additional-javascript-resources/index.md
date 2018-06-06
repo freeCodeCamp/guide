@@ -13,6 +13,7 @@ title: JavaScript Tutorials and Other Resources
 *   <a href='https://www.youtube.com/watch?v=v2ifWcnQs6M&index=1&list=PL62E185BB8577B63D' target='_blank' rel='nofollow'>Douglas Crockford's Videos</a>
 *   <a href='https://mbeaudru.github.io/modern-js-cheatsheet/' target='_blank' rel='nofollow'>Modern JS Cheatsheet</a>
 *   <a href='http://www.codeconquest.com/blog/top-50-websites-to-learn-javascript/' target='_blank' rel='nofollow'>The 50 Best Websites to Learn JavaScript</a>
+*   <a href='https://www.codementor.io/community/topic/javascript' target='_blank' rel='nofollow'>Codementor JavaScript tutorial</a> 
 *   <a href='http://youmightnotneedjquery.com/' target='_blank' rel='nofollow'>You Might Not Need jQuery</a>
 
 ## References
@@ -52,6 +53,8 @@ Find javascript libraries at <a href='http://jster.net' target='_blank' rel='nof
 *   <a href='https://codility.com/programmers/lessons/' target='_blank' rel='nofollow'>Codility</a>
 *   <a href='http://coderbyte.com' target='_blank' rel='nofollow'>Coderbyte</a>
 *   <a href='http://exercism.io' target='_blank' rel='nofollow'>Exercism</a>
+*   <a href='https://www.javascript.com/' target='_blank' rel='nofollow'>Javascript.com (Pluralsight)</a>
+
 
 ## Editors
 
@@ -66,6 +69,15 @@ Find javascript libraries at <a href='http://jster.net' target='_blank' rel='nof
 
 *   <a href='http://perfectionkills.com' target='_blank' rel='nofollow'>Perfection Kills</a>
 *   <a href='http://www.2ality.com/' target='_blank' rel='nofollow'>2ality</a>
+*   <a href='https://medium.com/the-javascript-collection' target='_blank' rel='nofollow'>JS collection on Medium</a>
+*   <a href='https://davidwalsh.name/' target='_blank' rel='nofollow'>David Walsh</a>
+*   <a href='http://superherojs.com/' target='_blank' rel='nofollow'>superheroJS</a>
+
+
+
+## Podcasts
+*   <a href='https://devchat.tv/js-jabber' target='_blank' rel='nofollow'>JS Jabber</a>
+
 
 ## Books
 

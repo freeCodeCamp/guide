@@ -12,6 +12,7 @@ title: Useful Commands
 1. Press escape to get you into "normal" mode
 2. Type `:q`, press enter. If you receive an error try `:q!`
 3. To exit and save, type `:q`
+(NOTE: The command `:q!` will force Vim to exit without saving. Make sure you save first by typing the command `:w` if you do not want to lose any changes you've made.)
 
 **OR**
 
@@ -48,7 +49,7 @@ If you want to highlight all the search matches type `:set hlsearch` or use the 
 
 Very often you will find yourself looking for solutions to problems, and finding someone has written a block of code that does exactly what you want.
 If you try to copy and paste the code directly into Vim you might find that the code is weirdly formatted or hasnt't been pasted correctly.
-This is due to the fact that vim reads each character that you paste one after the other, meaning any key-combinations that activates a Vim shortcut will be executed and Vim will try (and fail) to automatically indent the pasted code.
+This is due to the fact that Vim reads each character that you paste one after the other, meaning any key-combinations that activates a Vim shortcut will be executed and Vim will try (and fail) to automatically indent the pasted code.
 
 To overcome this you can use Vim's **Paste mode** which you can activate by entering normal mode (press `escape` or `crtl + c`) and type `:set paste`, then press ENTER.
 You are now in *paste* mode.

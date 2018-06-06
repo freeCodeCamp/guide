@@ -42,6 +42,7 @@ title: Python Resources
 *   <a href='https://github.com/mshang/python-elevator-challenge' target='_blank' rel='nofollow'>Python Elevator Challenge</a>
 *   <a href='https://coderbyte.com/' target='_blank' rel='nofollow'>CoderByte Challenges</a>
 *   <a href='https://checkio.org' target='_blank' rel='nofollow'>CheckiO</a> - the game for coders
+*   <a href='http://www.codeabbey.com/' target='_blank' rel='nofollow'>CodeAbbey</a> 
 *   <a href='https://hackerrank.com/domains/python/py-introduction'>HackerRank - Python Challenges</a>
 
 ## Community

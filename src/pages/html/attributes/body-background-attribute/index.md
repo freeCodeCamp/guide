@@ -19,7 +19,7 @@ Attribute:
 Example:
 ```html
 <html>
-  <body background="image.jpg">
+  <body background="https://assets.digitalocean.com/blog/static/hacktoberfest-is-back/hero.png">
   </body>
 </html>
 ```

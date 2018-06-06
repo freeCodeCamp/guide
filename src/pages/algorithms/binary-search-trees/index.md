@@ -16,18 +16,27 @@ A binary search tree adds these two characteristics:
 
 Binary search trees allow fast lookup, insert and removal of nodes. The way that they are set up means that, on average, each comparison allows the operations to skip about half of the tree, so that each lookup, insertion or deletion takes time proportional to the logarithm of the number of items stored in the tree.
 
+
+### Runtime
+**Data structure: Array**
+- Worst-case performance: O(log n)
+- Best-case performance: O(1)
+- Average performance: O(log n)
+- Worst-case space complexity: O(1)
+
 Let us define a BST node having some data, referencing to its left and right child nodes.
 
+```
 struct node {
    int data;   
    struct node *leftChild;
    struct node *rightChild;
 };
+```
 
 ## Search Operation
 Whenever an element is to be searched, start searching from the root node. Then if the data is less than the key value, search for the element in the left subtree. Otherwise, search for the element in the right subtree. Follow the same algorithm for each node.
-
-Algorithm
+```
 struct node* search(int data){
    struct node *current = root;
    printf("Visiting elements: ");
@@ -53,12 +62,13 @@ struct node* search(int data){
    }
    return current;
 }
+```
 
 ## Insert Operation
 
 Whenever an element is to be inserted, first locate its proper location. Start searching from the root node, then if the data is less than the key value, search for the empty location in the left subtree and insert the data. Otherwise, search for the empty location in the right subtree and insert the data.
 
-Algorithm
+```
 void insert(int data) {
    struct node *tempNode = (struct node*) malloc(sizeof(struct node));
    struct node *current;
@@ -100,6 +110,7 @@ void insert(int data) {
       }            
    }
 }        
+```
 
 ### Relevant videos on freeCodeCamp YouTube channel
 * <a href='https://youtu.be/5cU1ILGy6dM' target='_blank' rel='nofollow'>Binary Search Tree</a>

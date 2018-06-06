@@ -1,6 +1,7 @@
 ---
 title: A Href Attribute
 ---
+
 ## A Href Attribute
 
 The `<a href>` attribute refers to a destination provided by a link. The `a` (anchor) tag is dead without the `<href>` attribute. Sometimes in your workflow, you don't want a live link or you won't know the link destination yet. In this case, it's useful to set the `href` attribute to `"#"` to create a dead link.
@@ -42,3 +43,16 @@ Any description between tags is not required. After that you can place a link le
 ```html
 <a href="#top>Go to Top</a>
 ```
+
+### Image Links
+
+The `<a href="#">` can also be aplied to images and other HTML elements.
+
+### Example
+
+```html
+<a href="#"><img itemprop="image" style="height: 90px;" src="http://www.chatbot.chat/assets/images/header-bg_y.jpg" alt="picture">  </a>
+
+```
+### Example
+<a href="#"><img itemprop="image" style="height: 90px;" src="http://www.chatbot.chat/assets/images/header-bg_y.jpg" alt="picture">  </a>
