@@ -3,13 +3,19 @@ title: Font Weight Property
 ---
 ## Font Weight Property
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/properties/font-weight-property/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Font weight can be set higher or lower using the `font-weight` property. The values available for `font-weight` are `normal`, `bold`, `lighter`, `bolder`, and a numeric value.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+```css
+  font-weight: lighter;
+  font-weight: bolder;
+  font-weight: bold;
+  font-weight: light;
+  font-weight: 100;
+  font-weight: 900;
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+The bolder and bold values increase the weight of the font and light and lighter decrease weight.
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+#### More Information
 
-
+[MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight)
