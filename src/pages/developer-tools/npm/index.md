@@ -5,12 +5,12 @@ title: npm
 
 npm is a package manager and is used to install and manage dependencies.
 npm is central to the vibrant JavaScript(and specifically the Node.js) community, by making module and code reusability across projects very simple.
-Currently npm has upwards of 500,000 available packages.
-npm is useful not only for server side projects. Most popular front-end libraries like Bootstrap and Font Awesome are available too.
+Currently, npm has upwards of 500,000 available packages.
+npm is useful not only for server-side projects. Most popular front-end libraries like Bootstrap and Font Awesome are available too.
 
 **Note:** 
 * npm comes out of the box with Node.js so it's necessary to install Node.js first
-* npm has no full form because of it's usage beyond Node.js specific projects. It was formerly called Node Package Manager.
+* npm has no full form because of its usage beyond Node.js specific projects. It was formerly called Node Package Manager.
 
 ### npm Usage
 
@@ -22,12 +22,12 @@ Running this command in your project's root directory initializes it for use wit
 ```
 npm install [name-of-package]
 ```
-This installs a package and all its dependencies automatically, and saves it in the package.json file. If you are installing a development dependency you may want to use the --save-dev or -D switch. npm will then save the package as a development dependency.
+This installs a package and all its dependencies automatically and saves it in the package.json file. If you are installing a development dependency you may want to use the --save-dev or -D switch. npm will then save the package as a development dependency.
 Packages are installed locally in the 'node-modules' directory in your project's directory. Sometimes you may want to have a package available across different projects. This is done with the --global or -g switch. This is often useful for development tools and command line utilities.
 ```
 npm install
 ```
-Running npm install in a project's root directory without a specific package name, installs all the dependencies required for that project. Those are calculated according to the project's package.json file. This demonstrates the power of npm, where a single command can fetch tens or hundreds of dependencies automatically for you, and is useful when you git clone a repository, for example.
+Running npm install in a project's root directory without a specific package name installs all the dependencies required for that project. Those are calculated according to the project's package.json file. This demonstrates the power of npm, where a single command can fetch tens or hundreds of dependencies automatically for you and is useful when you git clone a repository, for example.
 
 #### More Information:
 * Node.js website: <a href='https://nodejs.org' target='_blank' rel='nofollow'>nodejs</a>

@@ -50,4 +50,4 @@ Input/Output device is any hardware used by a human operator or other systems to
 ### Monitor
 A computer monitor is an output device which displays information in pictorial form.
   
-![Moniter](https://assets.pcmag.com/media/images/523934-dell-ultrasharp-34-curved-monitor-u3417w.jpg?thumb=y)
+![Monitor](https://assets.pcmag.com/media/images/523934-dell-ultrasharp-34-curved-monitor-u3417w.jpg?thumb=y)
