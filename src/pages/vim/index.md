@@ -17,6 +17,10 @@ One of the main differences that Vim (and its predecessor, *vi*) have over other
 
 The modal part of Vim is what makes it really powerful. For a interactive tutorial, please visit [OpemVim](http://www.openvim.com/). Here you can try for yourself several of its more powerful features.
 
+## More information
+
 For more information head to <a href='https://vim.sourceforge.io' target='_blank' rel='nofollow'>Vim's homepage</a>
 
-To get started, [Open Vim](http://www.openvim.com/) is an online, interactive Vim tutorial you can do right in your browser.
+* [Open Vim](http://www.openvim.com/) is an online, interactive Vim tutorial you can do right in your browser
+* [Vim Adventures](https://vim-adventures.com)
+
