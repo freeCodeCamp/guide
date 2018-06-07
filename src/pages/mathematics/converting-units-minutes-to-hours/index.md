@@ -4,27 +4,37 @@ title: Converting Units Minutes to Hours
 
 ## Converting Units Minutes to Hours
 
-A minute is defined as one sixtieth of an hour. Conversion between minutes and hours is thus given by
+__An hour is a unit of time equal to 60 minutes__
 
-<pre><code>t<sub>h</sub> = t<sub>min</sub> / 60
+__1 hr = 60 min__
 
-t<sub>min</sub> = t<sub>h</sub> * 60
-</code></pre>
+Therefore to convert minutes to hours we divide the number of minutes by 60
 
-where t<sub>min</sub> is the time in minutes and t<sub>h</sub> is the time in hours.
+__1 min = 1/60 hr__
 
-The symbols for time in minutes and hours are **min** and **h** respectively (The International System of Units, 8th edition, [Chapter 4: Units outside the SI](https://www.bipm.org/utils/common/pdf/si_brochure_8_en.pdf)).
+__1 min = 0.01667 hr
 
-### Examples
 
-Converting from time in minutes to time in hours:
+### Example
 
-```
-90 minutes = (90 / 60) hours = 1.5 hours
-```
+Example 1: Convert 120 mins to hours.
 
-Converting from time in hours to time in minutes:
+Solution-
 
-```
-24 hours = (24 * 60) minutes = 1440 minutes
-```
+120/60 = 2 hours
+
+Example 2: Convert 250 mins to hours.
+
+Solution-
+
+270/60 = 4.5 hours
+
+Example 3: Convert 5 hrs 45 mins into hours
+
+Solution-
+
+45/60 = 0.75
+5+0.75 = 5.75 hours
+
+### More Information:
+More information can be found [here](https://www.wikihow.com/Convert-Minutes-to-Hours)
