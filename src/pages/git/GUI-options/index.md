@@ -12,3 +12,4 @@ Most people prefer to use Git as a [CLI (command-line interface)](https://en.wik
 * [GitHub Desktop](https://desktop.github.com/) is the Git client application provided by GitHub, allowing better integration with GitHub than other solutions. It is available for Windows and Mac, but not yet for Linux. It is free and open source.
 * [SourceTree](https://www.sourcetreeapp.com/) is another Git GUI for Windows and Mac by Atlassian. It has many features such as interactive rebase, designed to make using Git easier for beginners.
 * [Git Tower](https://www.git-tower.com/mac/) is available for Mac and Windows.
+* [TortoiseGit](https://tortoisegit.org/) is a Windows Shell Interface to Git based on TortoiseSVN. It's open source and can be built with freely available software.
