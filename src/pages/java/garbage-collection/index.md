@@ -3,7 +3,8 @@ title: Garbage Collection
 ---
 # Garbage Collection in Java
 In languages like C/C++, it is the duty of the programmer to create and destroy objects. But if the programmer does not performs his duty, sufficient memory may not be available for the creation of a new object and the program may terminate causing **OutOfMemoryErrors**.
-	       Java relieves the programmer from memory management task and itself reclaims the memory occupied by the objects which are no longer in use. Garbage Collection in java is carried out by a daemon thread called **Garbage Collector**. **JVM(Java Virtual Machine)** invokes it when there is lack of memory(heap) for new objects.
+
+Java relieves the programmer from memory management task and itself reclaims the memory occupied by the objects which are no longer in use. Garbage Collection in java is carried out by a daemon thread called **Garbage Collector**. **JVM(Java Virtual Machine)** invokes it when there is lack of memory(heap) for new objects.
 
 ## When an object becomes eligible for Garbage Collection? 
 * An object becomes eligible for Garbage Collection if it is not reachable from any live threads or any static references.
@@ -21,6 +22,7 @@ In languages like C/C++, it is the duty of the programmer to create and destroy 
 2. Re-assigning the reference variable
 3. Object is created inside a block and reference goes out of scope once control exit that block.
 4. [Island of Isolation](http://www.geeksforgeeks.org/island-of-isolation-in-java/)
+
 ## Ways of requesting JVM to run Garbage Collector<sup>1</sup>
 * Though making an object eligible for Garbage Collection, it depends on sole discretion of JVM to run the Garbage Collector to destroy it.
 * We can also request JVM to run Garbage Collector. There are two ways to do it :
@@ -69,8 +71,9 @@ public class Test
 ```
 Note :
 
-  There is no guarantee that any one of above two methods will definitely run Garbage Collector.
-  The call System.gc() is effectively equivalent to the call : Runtime.getRuntime().gc()
+1. There is no guarantee that any one of above two methods will definitely run Garbage Collector.
+2. The call System.gc() is effectively equivalent to the call : Runtime.getRuntime().gc()
+
 ## Object Finalization
 * Objects have resources associtated with them. It is their responsibility to free the resources. 
 * The finalize(), is declared in Object class and is called by garbage collector once, just before destroying the object. An object can take any last action using this method jst before its area is reclaimed by the garbage collector.
