@@ -3,11 +3,30 @@ title: Converting Pounds to Ounces
 ---
 ## Converting Pounds to Ounces
 
-One pound (lb) is equal to 16 ounces (oz). To convert pounds to ounces, you multiply the number of pounds by `16`. 
+__1 pound (lb) is equal to 16 Ounces (oz)__
 
-### Examples
-Something that weighs `6 lbs` weighs `96 oz`, because `16 X 6` is `96`.
+__1 lb = 16 oz__
 
-`.5 lbs` converts to `8 oz` because `.5 X 16 = 8`.
+_The mass m in ounces (oz) is equal to the mass m in pounds (lb) times 16_
+
+__m(oz) = m(lb) × 16__
+
+### Example
+
+Example 1: Convert 5 lb to ounces.
+
+Solution-
+
+m(oz) = 5 lb × 16 = 80 oz
+
+Example 2: Convert 25 lb to ounces.
+
+Solution-
+
+m(oz) = 25 lb × 16 = 400 oz
+
+### More Information:
+More information can be found [here](https://www.wikihow.com/Convert-Pounds-to-Ounces)
+
 
 
