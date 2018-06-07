@@ -53,8 +53,8 @@ Find javascript libraries at <a href='http://jster.net' target='_blank' rel='nof
 *   <a href='https://codility.com/programmers/lessons/' target='_blank' rel='nofollow'>Codility</a>
 *   <a href='http://coderbyte.com' target='_blank' rel='nofollow'>Coderbyte</a>
 *   <a href='http://exercism.io' target='_blank' rel='nofollow'>Exercism</a>
+*   <a href='https://javascript30.com/' target='_blank' rel='nofollow'>JavaScript30</a>
 *   <a href='https://www.javascript.com/' target='_blank' rel='nofollow'>Javascript.com (Pluralsight)</a>
-
 
 ## Editors
 
