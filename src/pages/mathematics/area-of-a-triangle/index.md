@@ -1,53 +1,70 @@
 ---
 title: Area of a Triangle
----
+-----
+# Area of a Triangle
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-## Area of a Triangle
+## Formula
+There are 3 different ways to calculate the Area of a Triangle
 
-A triangle is a three sided, two dimensional polygon. There are two methods to determine the area.
+### When the height and base of the triangle are known
 
-### Method 1
-The area of a triangle can be calculated by multiplying 0.5 to the base length to the perpendicular height.
+__A = 1/2 * B * H__
 
-![Triangle-1](https://github.com/uuykay/misc/blob/master/area-triangle-image-2.jpg)
+*Where A is the area, B is the base and H is the height*
 
-Mathematically this is expressed as:
+### When 2 sides and the included angle are known
 
-![Formula-1](https://github.com/uuykay/misc/blob/master/triangle-equation-area-1.jpg)
+__A = 1/2  a * b * sin C__
 
-### Method 2
-If the perpendicular height is not known, you can use a different method to calculate the area. If you know the length of two sides and the size of the angle in between them, then the area can be found.
+*Where a and b are 2 sides of the triangle and  C is the included angle*
 
-![Triangle-2](https://github.com/uuykay/misc/blob/master/area-triangle-image-3.jpg)
+### When all 3 sides of the triangle are known
 
-Mathematically this is expressed as:
+__A = &radic;(s*(s-a)(s-b)(s-c))__
 
-![Formula-2](https://github.com/uuykay/misc/blob/master/triangle-equation-area-2.jpg)
+__s = (a+b+c)/2__
 
-Note that the formula expressed above uses sides a and b and angle C between them. These can be substituted for another other two sides and the angle between them.
-
-
-### Terminology
-
-Base - The bottom side. Select a side that is known.
-
-Perpendicular Height - The height of the triangle, measured perpendicular to the base, to the tallest point of the triangle.
-
-Sin - The sine trigonometric expression.
+*Where a, b and c are the 3 sides of the triangle and s is half the perimeter of the triangle*
 
 ### Examples
 
-1. Find the area of a triangle with a base length of 4 units and a perpendicular height of 12 units
+Example 1: Example: What is the area of a triangle with a base of 12cm and height of 15cm?
 
-   Area = 0.5 x 4 x 12 = 24 units<sup>2</sup>
-   
-2. If two sides of a triangle are known to be 3 and 6, and the angle between them is 30 degrees, what is the angle of the triangle?
+Solution:
 
-   Area = 0.5 x 3 x 6 x sin(30 degrees) = 4.5 units<sup>2</sup>
+A = 1/2 * B * H
+
+A = 1/2 x 12 x 15
+
+A = 90 <span>cm<sup>2</sup></span>
+
+Example 2: What is the area of a triangle with sides  7cm & 10 cm and an included angle of 25º
+
+Solution:
+
+A = 1/2 * a * b * sin C
+
+A = 1/2 x 7 x 10 sin 25º
+
+A = 14.8 <span>cm<sup>2</sup></span>
+
+Example 3: What is the area of a triangle with sides of 3cm, 4cm and 5cm
+
+Solution:
+
+s = (a+b+c)/2
+
+s = (3+4+5)/2
+
+s = 6cm
+
+A = &radic;(s*(s-a)(s-b)(s-c))
+
+A = &radic;(6*(6-3)(6-4)(6-5))
+
+A = 6 <span>cm<sup>2</sup></span>
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-- [Wikipedia: Triangle](https://en.wikipedia.org/wiki/Triangle)
-- [More Examples](https://mathbits.com/MathBits/TISection/Trig/AreaTrigTri.htm)
+More information with illustrations can be found [here](https://www.mathsisfun.com/algebra/trig-area-triangle-without-right-angle.html) and [here](https://www.mathsisfun.com/geometry/herons-formula.html)
+
 
