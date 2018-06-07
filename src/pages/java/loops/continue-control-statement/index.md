@@ -47,3 +47,7 @@ System.out.println("numPs = " + numPs);
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CJZH/0' target='_blank' rel='nofollow'>Run Code</a>
 
 Additionally, you can use labels to choose a specific loop out of a nested set to skip to the next iteration. 
+
+
+New
+if the break statement or the continue statement is labeled, it will cause similar actions to occur on the labeled loop,not the innermost loop and an unlabeled continue statement will cause the current iteration of the innermost loop to stop , the condition of that loop to be checked and if  the condition is met,the loop to run again.
