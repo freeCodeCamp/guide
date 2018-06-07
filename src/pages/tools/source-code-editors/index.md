@@ -1,6 +1,7 @@
 ---
 title: Source Code Editors
 ---
+
 ##Source Code Editors
 
 Source code editors are the programs that allow for code creation and  
@@ -45,6 +46,7 @@ Atom is an <a href='https://github.com/atom/atom' target='_blank' rel='nofollow'
 by <a href='https://github.com/' target='_blank' rel='nofollow'>GitHub</a>. Like Sublime Text, Atom is quite popular.  
 It is very configurable ("hackable", as they say) but advanced features may  
 be overwhelming to new users. There is also plenty of <a href='http://readwrite.com/2014/05/20/github-atom-5-tips-getting-started-tutorial-corey-johnson/' target='_blank' rel='nofollow'>helpful</a> <a href='http://flight-manual.atom.io/' target='_blank' rel='nofollow'>documentation</a>  
+
 <a href='http://stackoverflow.com/search?q=atom' target='_blank' rel='nofollow'>availble</a> online.
 
 
@@ -59,3 +61,4 @@ Its main features are:
 *   Debugging - Be able to debug using break points, call stacks and an interactive console.
 *   Build-in Git - Review diffs, stage files, make commits, push and pull, all available in the editor.
 *   Extensions - Install extensions to add new languages, themes, debuggers, and connect additional services.
+
