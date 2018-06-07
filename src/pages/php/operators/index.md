@@ -1,8 +1,8 @@
 ---
-title: PHP Operators
+title: Operators
 ---
 
-## Operators In PHP
+## Operators
 
 
 PHP contains all the normal operators one would expect to find in a programming language. 
