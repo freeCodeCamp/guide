@@ -3,13 +3,18 @@ title: Combining Typefaces
 ---
 ## Combining Typefaces
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/typography/combining-typefaces/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+#### Font Pairing Basics
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Which fonts look good together and which ones don't? If you've ever struggled with this question, you're not alone. Learn how to pair different fonts and styles by getting familiar with these clever combos!
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+#### Try these steps one by one
+
+* Pair a regular and bold font to create a subtle contrast
+* Balance a script font with a bold font
+* Pair a tall and short font to create visual interest
+* Pair fonts with different weights to create a strong contrast
+* Pair a regular and italic font to create emphasis
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
 
