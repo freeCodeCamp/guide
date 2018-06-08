@@ -100,3 +100,6 @@ Rectangle.prototype.calcArea = function calcArea() {
 ```
 
 The `getter` and `setter` methods in classes bind an Object property to a function that will be called when that property is looked up. It's just syntactic sugar to help make it easier to _look up_ or _set_ properties.
+
+**Further Reading:**
+* [MDN: Object prototypes](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes)
