@@ -1,7 +1,7 @@
 ---
-title: Window Setinterval Method
+title: Window setInterval Method
 ---
-## Window Setinterval Method
+## Window setInterval Method
 
 The `setInterval()` method calls a function or evaluates an expression at specified intervals (in milliseconds). 
 
@@ -10,6 +10,12 @@ The `setInterval()` method calls a function or evaluates an expression at specif
 ```
 
 The `setInterval()` method will continue calling the function until `clearInterval()` is called, or the window is closed.
+
+The `setInterval()` method can pass additional parameters to the function, as shown in the example below.
+
+```js
+    setInterval(function, milliseconds, parameter1, parameter2, parameter3); 
+```
 
 The ID value returned by `setInterval()` is used as the parameter for the `clearInterval()` method.
 
