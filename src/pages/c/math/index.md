@@ -112,14 +112,14 @@ int result = pow(2,3) // will result in 2*2*2 or 8
 # Before you go on...
 ## A review
 * There are several basic operators:
- * `+` for addition
- * `-` for subtraction
- * `*` for multiplication
- * `/` for division
- * `%` for modulo
-* There are also a bunch more operators, but we'll get into detail with them later.
+  * `+` for addition
+  * `-` for subtraction
+  * `*` for multiplication
+  * `/` for division
+  * `%` for modulo
+  * There are also a bunch more operators, but we'll get into detail with them later.
 * Integer math is a thing that C is pretty strict about.
- * C is very strict about data types
- * If only integers are involved, an integer will be returned
- * If a floating point number is involved in an operation, that part of the operation becomes floating point
- * C provides a `math.h` library with multiple functions like `pow` for calculatin the power of a number. 
+* C is very strict about data types
+* If only integers are involved, an integer will be returned
+* If a floating point number is involved in an operation, that part of the operation becomes floating point
+* C provides a `math.h` library with multiple functions like `pow` for calculating the power of a number. 
