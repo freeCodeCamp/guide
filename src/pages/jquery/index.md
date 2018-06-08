@@ -21,4 +21,3 @@ $(document).ready(function(){
 
 #### More Information
 * [jQuery Home Page](https://jquery.com/)
-
