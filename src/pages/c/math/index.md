@@ -122,3 +122,4 @@ int result = pow(2,3) // will result in 2*2*2 or 8
  * C is very strict about data types
  * If only integers are involved, an integer will be returned
  * If a floating point number is involved in an operation, that part of the operation becomes floating point
+ * C provides a `math.h` library with multiple functions like `pow` for calculatin the power of a number. 
