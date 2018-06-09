@@ -3,7 +3,7 @@ title: Math Floor
 ---
 ## Math Floor
 
-`Math.floor()` is a method of the Math standard object that rounds a given number downwards to the next integer. Take note that for negative numbers this means that the number will get rounded "away from 0" instead of to the number of smaller absolute value since it returns the largest integer less than or equal to a given number.
+`Math.floor()` is a method of the Math standard object that rounds a given number downwards to the next integer. Take note that for negative numbers this means that the number will get rounded "away from 0" instead of to the number of smaller absolute value since `Math.floor()` returns the largest integer less than or equal to the given number.
 
 ### Examples
 ```javascript
