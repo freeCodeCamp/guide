@@ -19,21 +19,21 @@ For example, to display a different message based on the value of the isMember v
     let message = isMember ? 'Welcome Back!' : 'You need to login';
 ```
 
-Another useful method to using a Terarny would be to envoke it to execute a function or method 
+Another useful method to using a Ternary operator would be to envoke it to conditionally execute a function or method 
 
 ```javascript
     
-    function memeberOpen(){
+    function memberOpen(){
         console.log("open");
     }
     
-    function memeberClose(){
+    function memberClose(){
         console.log("close");
     }
     
     let isMember = true;
     
-    (isMember) ? memeberOpen() : memeberClose();
+    (isMember) ? memberOpen() : memberClose();
 ```
 
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/M8Ge/1' target='_blank' rel='nofollow'>Run Code</a>
