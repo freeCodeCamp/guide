@@ -2,14 +2,37 @@
 title: Th Tag
 ---
 ## Th Tag
-
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/th-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+The `<th>` tag allows you to define a header cell in HTML tables. By default, most browsers will bold and center data in these tags.
+
+### Example
+```html
+<table>
+ <tr>
+   <th>Movie</th>
+   <th>Rating</th>
+ </tr>
+ <tr>
+   <td>Die Hard</td>
+   <td>5 Stars</td>
+ </tr>
+</table>
+```
+This markup will create the following output:
+
+<table>
+ <tr>
+   <th>Movie</th>
+   <th>Rating</th>
+ </tr>
+ <tr>
+   <td>Die Hard</td>
+   <td>5 Stars</td>
+ </tr>
+</table>
+
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
+[MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th)
 
