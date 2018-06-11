@@ -3,13 +3,13 @@ title: The Midpoint Formula
 ---
 ## The Midpoint Formula
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/the-midpoint-formula/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+In math, the midpoint is the middle point of a line segment. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+![img](https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Midpoint.svg/282px-Midpoint.svg.png)
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+In two dimensions, for a line segment with endpoints (x1,y1) and (x2,y2), the midpoint is the halfway point, midpoint = ((x1+x2)/2,(y1+y2)/2).
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
+- [Wikipedia - Midpoint](https://en.wikipedia.org/wiki/Midpoint)
 

@@ -1,5 +1,5 @@
 ---
-title: PHP and Database Connections
+title: Working With Databases
 ---
 
 ## What options are available for PHP to connect to a database?
