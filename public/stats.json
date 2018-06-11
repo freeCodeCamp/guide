@@ -429,8 +429,8 @@
       "path---javascript-standard-objects-map-214c0fe592e4a14f859f.js.map"
     ],
     "path---c-loops": [
-      "path---c-loops-7e5c0b0a0304f7a5a5ea.js",
-      "path---c-loops-7e5c0b0a0304f7a5a5ea.js.map"
+      "path---c-loops-538c65d4c10e5ebc5b2f.js",
+      "path---c-loops-538c65d4c10e5ebc5b2f.js.map"
     ],
     "path---java-data-types": [
       "path---java-data-types-6d554c94c771f0de1185.js",
@@ -593,8 +593,8 @@
       "path---nodejs-file-system-0a1821df9bff29f3200a.js.map"
     ],
     "path---javascript-standard-objects-json-json-stringify": [
-      "path---javascript-standard-objects-json-json-stringify-43fed34b9eccd36c31fa.js",
-      "path---javascript-standard-objects-json-json-stringify-43fed34b9eccd36c31fa.js.map"
+      "path---javascript-standard-objects-json-json-stringify-df812940d6bdcb34490e.js",
+      "path---javascript-standard-objects-json-json-stringify-df812940d6bdcb34490e.js.map"
     ],
     "path---go-go-structs": [
       "path---go-go-structs-1acdd94363b1b7c8d2c8.js",
@@ -661,8 +661,8 @@
       "path---git-c373ac90e7245b21bdef.js.map"
     ],
     "path---css-using-css-animations": [
-      "path---css-using-css-animations-e4da1bcca3182087d99f.js",
-      "path---css-using-css-animations-e4da1bcca3182087d99f.js.map"
+      "path---css-using-css-animations-b320abcef892efa34438.js",
+      "path---css-using-css-animations-b320abcef892efa34438.js.map"
     ],
     "path---javascript-standard-objects-string-string-prototype-padstart": [
       "path---javascript-standard-objects-string-string-prototype-padstart-6dfe7031a9514d7677b0.js",
@@ -779,6 +779,10 @@
     "path---git-git-push": [
       "path---git-git-push-a030746011b524a32c29.js",
       "path---git-git-push-a030746011b524a32c29.js.map"
+    ],
+    "path---software-engineering-design-patterns-factory": [
+      "path---software-engineering-design-patterns-factory-43aea899123df86960b3.js",
+      "path---software-engineering-design-patterns-factory-43aea899123df86960b3.js.map"
     ],
     "path---meta-free-code-camp-hotkeys": [
       "path---meta-free-code-camp-hotkeys-1ed7f02ba2338e4ee310.js",
@@ -1047,10 +1051,6 @@
     "path---miscellaneous": [
       "path---miscellaneous-5bc2be5ff4fb03ed0a91.js",
       "path---miscellaneous-5bc2be5ff4fb03ed0a91.js.map"
-    ],
-    "page-component---src-pages-404-jsx": [
-      "page-component---src-pages-404-jsx-2400d8491b6f575c4a4e.js",
-      "page-component---src-pages-404-jsx-2400d8491b6f575c4a4e.js.map"
     ],
     "path---certificates-style-the-html-body-element": [
       "path---certificates-style-the-html-body-element-3b1d03d510ff163f7d25.js",
@@ -2044,6 +2044,10 @@
       "path---javascript-error-handling-and-try-catch-throw-d9db600676bfb93ef732.js",
       "path---javascript-error-handling-and-try-catch-throw-d9db600676bfb93ef732.js.map"
     ],
+    "path---html-elements-main-tag": [
+      "path---html-elements-main-tag-d11654230f3d1e8d6837.js",
+      "path---html-elements-main-tag-d11654230f3d1e8d6837.js.map"
+    ],
     "path---python-is-there-a-way-to-substring-a-string-in-python": [
       "path---python-is-there-a-way-to-substring-a-string-in-python-195bb4d43eece03113f2.js",
       "path---python-is-there-a-way-to-substring-a-string-in-python-195bb4d43eece03113f2.js.map"
@@ -2540,10 +2544,6 @@
       "path---user-experience-research-contextual-inquiries-8bd5e292f678961c0c46.js",
       "path---user-experience-research-contextual-inquiries-8bd5e292f678961c0c46.js.map"
     ],
-    "path---mathematics-intro-to-the-pythagorean-theorem": [
-      "path---mathematics-intro-to-the-pythagorean-theorem-730a30fdc2d1ffbddba8.js",
-      "path---mathematics-intro-to-the-pythagorean-theorem-730a30fdc2d1ffbddba8.js.map"
-    ],
     "path---mathematics-simplifying-expressions": [
       "path---mathematics-simplifying-expressions-16ddd0132dc77be281c8.js",
       "path---mathematics-simplifying-expressions-16ddd0132dc77be281c8.js.map"
@@ -2655,6 +2655,10 @@
     "path---security-tor": [
       "path---security-tor-3c6fdb2b240f55abc807.js",
       "path---security-tor-3c6fdb2b240f55abc807.js.map"
+    ],
+    "path---": [
+      "path----19d4d8b37c6a00784965.js",
+      "path----19d4d8b37c6a00784965.js.map"
     ],
     "path---css-selectors-attribute-class-equals": [
       "path---css-selectors-attribute-class-equals-89a5abba155e1e6a2ebf.js",
@@ -2915,10 +2919,6 @@
     "path---tools-calculators-finance-calculator": [
       "path---tools-calculators-finance-calculator-778de7964a5dcc09ce5d.js",
       "path---tools-calculators-finance-calculator-778de7964a5dcc09ce5d.js.map"
-    ],
-    "page-component---src-pages-index-jsx": [
-      "page-component---src-pages-index-jsx-321bfe9b09b183ba8557.js",
-      "page-component---src-pages-index-jsx-321bfe9b09b183ba8557.js.map"
     ],
     "path---mathematics-graph-of-y-equals-sin-x": [
       "path---mathematics-graph-of-y-equals-sin-x-c5e4c38ca7cd54c08a61.js",
@@ -4497,8 +4497,8 @@
       "path---html-elements-paragraphs-de541a680a5c1d16b9a3.js.map"
     ],
     "path---css-properties-margin-property": [
-      "path---css-properties-margin-property-d8471116a9c2dadb0cc2.js",
-      "path---css-properties-margin-property-d8471116a9c2dadb0cc2.js.map"
+      "path---css-properties-margin-property-d5053a38cf4a25c551c1.js",
+      "path---css-properties-margin-property-d5053a38cf4a25c551c1.js.map"
     ],
     "path---mathematics-adding-fractions": [
       "path---mathematics-adding-fractions-aed816dff16c05d36c40.js",
@@ -4599,6 +4599,10 @@
     "path---product-design-understanding-competitors": [
       "path---product-design-understanding-competitors-2308e4789b8ceb05e76e.js",
       "path---product-design-understanding-competitors-2308e4789b8ceb05e76e.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-21c60addaecc492bd901.js",
+      "component---src-layouts-index-js-21c60addaecc492bd901.js.map"
     ],
     "path---mathematics-all-factors-of-a-number": [
       "path---mathematics-all-factors-of-a-number-ce833eca6367a9ee65a8.js",
@@ -5160,10 +5164,6 @@
       "path---javascript-standard-objects-object-656ca0196b6226b2721d.js",
       "path---javascript-standard-objects-object-656ca0196b6226b2721d.js.map"
     ],
-    "page-component---src-templates-article-jsx": [
-      "page-component---src-templates-article-jsx-7fb585ad5a40050c28b1.js",
-      "page-component---src-templates-article-jsx-7fb585ad5a40050c28b1.js.map"
-    ],
     "path---javascript-if-else-statement": [
       "path---javascript-if-else-statement-eddeac953fb8a063b602.js",
       "path---javascript-if-else-statement-eddeac953fb8a063b602.js.map"
@@ -5185,8 +5185,8 @@
       "path---bootstrap-bootstrap-icons-fe26512789f869d29c17.js.map"
     ],
     "path---algorithms": [
-      "path---algorithms-112d275d54df8bc5acc6.js",
-      "path---algorithms-112d275d54df8bc5acc6.js.map"
+      "path---algorithms-a6dc848359a5f78f77f7.js",
+      "path---algorithms-a6dc848359a5f78f77f7.js.map"
     ],
     "path---python-list-pop": [
       "path---python-list-pop-fd3823b5a2a7b98283ce.js",
@@ -5960,6 +5960,10 @@
       "path---rt-os-17ee17c50113191dbdd5.js",
       "path---rt-os-17ee17c50113191dbdd5.js.map"
     ],
+    "path---javascript-object-instantiation-functional": [
+      "path---javascript-object-instantiation-functional-c7e49b08921f217325bd.js",
+      "path---javascript-object-instantiation-functional-c7e49b08921f217325bd.js.map"
+    ],
     "path---miscellaneous-learn-a-little-about-latex": [
       "path---miscellaneous-learn-a-little-about-latex-2010a654faaf27eb0473.js",
       "path---miscellaneous-learn-a-little-about-latex-2010a654faaf27eb0473.js.map"
@@ -6037,8 +6041,8 @@
       "path---html-attributes-table-border-attribute-18109647606149deb5cf.js.map"
     ],
     "path---rest-api": [
-      "path---rest-api-6aea6f216d054ee8df4d.js",
-      "path---rest-api-6aea6f216d054ee8df4d.js.map"
+      "path---rest-api-8aa5dd790e894d3f4fcb.js",
+      "path---rest-api-8aa5dd790e894d3f4fcb.js.map"
     ],
     "path---robotics": [
       "path---robotics-973bcb03a3b1392ebfa7.js",
@@ -6512,6 +6516,10 @@
       "path---mathematics-linear-algebra-orthogonality-d81669eb025db5f86ba8.js",
       "path---mathematics-linear-algebra-orthogonality-d81669eb025db5f86ba8.js.map"
     ],
+    "path---javascript-object-instantiation": [
+      "path---javascript-object-instantiation-431ea98380977bd9004a.js",
+      "path---javascript-object-instantiation-431ea98380977bd9004a.js.map"
+    ],
     "path---python-from-x-import-y": [
       "path---python-from-x-import-y-e33a1f6b4dfd410224d6.js",
       "path---python-from-x-import-y-e33a1f6b4dfd410224d6.js.map"
@@ -6785,8 +6793,8 @@
       "path---mathematics-how-to-find-the-median-value-81e4fe6afa222f583d75.js.map"
     ],
     "commons": [
-      "commons-5b522707b2557b27265f.js",
-      "commons-5b522707b2557b27265f.js.map"
+      "commons-63bec720791325401daf.js",
+      "commons-63bec720791325401daf.js.map"
     ],
     "path---javascript-conditional-ternary-operators": [
       "path---javascript-conditional-ternary-operators-a7c610200dbcea5e5893.js",
@@ -6965,8 +6973,8 @@
       "path---javascript-standard-objects-error-error-prototype-message-5f0aa4f303a66d140e4d.js.map"
     ],
     "path---javascript-tutorials-how-to-create-a-dropdown-menu-with-css-and-javascript": [
-      "path---javascript-tutorials-how-to-create-a-dropdown-menu-with-css-and-javascript-3567a9661babaece4dc2.js",
-      "path---javascript-tutorials-how-to-create-a-dropdown-menu-with-css-and-javascript-3567a9661babaece4dc2.js.map"
+      "path---javascript-tutorials-how-to-create-a-dropdown-menu-with-css-and-javascript-b8ddf5e8a3a54e7d35da.js",
+      "path---javascript-tutorials-how-to-create-a-dropdown-menu-with-css-and-javascript-b8ddf5e8a3a54e7d35da.js.map"
     ],
     "path---mathematics-introduction-to-logarithms": [
       "path---mathematics-introduction-to-logarithms-851ddf9c7a81f4efd783.js",
@@ -7377,8 +7385,8 @@
       "path---bootstrap-bootstrap-navigation-bar-063ab461c68893289923.js.map"
     ],
     "path---html-tables": [
-      "path---html-tables-218b7307fdd5dfc7755c.js",
-      "path---html-tables-218b7307fdd5dfc7755c.js.map"
+      "path---html-tables-6b6cc8ac75cb5c925dab.js",
+      "path---html-tables-6b6cc8ac75cb5c925dab.js.map"
     ],
     "path---javascript-loops-for-in-loop": [
       "path---javascript-loops-for-in-loop-3091d2f639027812bdec.js",
@@ -7409,8 +7417,8 @@
       "path---javascript-standard-objects-error-error-prototype-tostring-155544c2f0e5e11f3c7f.js.map"
     ],
     "path---designer-tools-illustrator": [
-      "path---designer-tools-illustrator-91746fe2c2e015522907.js",
-      "path---designer-tools-illustrator-91746fe2c2e015522907.js.map"
+      "path---designer-tools-illustrator-57056c1ba43491d66e24.js",
+      "path---designer-tools-illustrator-57056c1ba43491d66e24.js.map"
     ],
     "path---certificates-target-a-specific-child-of-an-element-using-jquery": [
       "path---certificates-target-a-specific-child-of-an-element-using-jquery-8f4d1e85b77392921868.js",
@@ -7419,6 +7427,10 @@
     "path---mathematics-number-theory-finding-prime-numbers": [
       "path---mathematics-number-theory-finding-prime-numbers-34e578bab1caa04b8ca1.js",
       "path---mathematics-number-theory-finding-prime-numbers-34e578bab1caa04b8ca1.js.map"
+    ],
+    "component---src-pages-404-jsx": [
+      "component---src-pages-404-jsx-63350e09e7b32b4f2c8b.js",
+      "component---src-pages-404-jsx-63350e09e7b32b4f2c8b.js.map"
     ],
     "path---css-properties-line-height-property": [
       "path---css-properties-line-height-property-056e0e55192b6ce296aa.js",
@@ -7611,6 +7623,10 @@
     "path---mathematics-probability": [
       "path---mathematics-probability-941ffd9a92c7f78bfd47.js",
       "path---mathematics-probability-941ffd9a92c7f78bfd47.js.map"
+    ],
+    "path---html-optional-tags": [
+      "path---html-optional-tags-dfaa3e95d1a3d9aeeff5.js",
+      "path---html-optional-tags-dfaa3e95d1a3d9aeeff5.js.map"
     ],
     "path---sql-sql-having-clause": [
       "path---sql-sql-having-clause-ed93ade1e62ef93a38ab.js",
@@ -8025,8 +8041,8 @@
       "path---mathematics-basic-number-properties-associative-commutative-and-distributive-5b7c6614ad515983c247.js.map"
     ],
     "path---java-interfaces": [
-      "path---java-interfaces-0f881b74b34a396d9383.js",
-      "path---java-interfaces-0f881b74b34a396d9383.js.map"
+      "path---java-interfaces-a201b9df15fb8e9300dc.js",
+      "path---java-interfaces-a201b9df15fb8e9300dc.js.map"
     ],
     "path---php-working-with-databases-mysqli": [
       "path---php-working-with-databases-mysqli-14276f391b5070ba482a.js",
@@ -8267,6 +8283,10 @@
     "path---mathematics-how-to-work-with-30-60-90-degree-triangles": [
       "path---mathematics-how-to-work-with-30-60-90-degree-triangles-0c0f1102af9363666838.js",
       "path---mathematics-how-to-work-with-30-60-90-degree-triangles-0c0f1102af9363666838.js.map"
+    ],
+    "path---java-generics": [
+      "path---java-generics-1d8702cf8ae39884df71.js",
+      "path---java-generics-1d8702cf8ae39884df71.js.map"
     ],
     "path---javascript-standard-objects-array-array-isarray": [
       "path---javascript-standard-objects-array-array-isarray-31d9aed54705dd75c13b.js",
@@ -8592,6 +8612,10 @@
       "path---javascript-standard-objects-promise-promise-prototype-then-cfe24fa0dc6b0cbd7f47.js",
       "path---javascript-standard-objects-promise-promise-prototype-then-cfe24fa0dc6b0cbd7f47.js.map"
     ],
+    "component---src-pages-index-jsx": [
+      "component---src-pages-index-jsx-39a79ab3325f010b261b.js",
+      "component---src-pages-index-jsx-39a79ab3325f010b261b.js.map"
+    ],
     "path---typography-alignment": [
       "path---typography-alignment-07845348835ba7f4fe14.js",
       "path---typography-alignment-07845348835ba7f4fe14.js.map"
@@ -8789,8 +8813,8 @@
       "path---html-elements-b-tag-036ad90f4477d44ea2f6.js.map"
     ],
     "path---javascript-comments": [
-      "path---javascript-comments-5e5d6fb40a127ab9ce7f.js",
-      "path---javascript-comments-5e5d6fb40a127ab9ce7f.js.map"
+      "path---javascript-comments-c98cf9a675f8bf289b63.js",
+      "path---javascript-comments-c98cf9a675f8bf289b63.js.map"
     ],
     "path---certificates-use-typeof-to-check-the-type-of-a-variable": [
       "path---certificates-use-typeof-to-check-the-type-of-a-variable-001327d8b8ded4baa7ed.js",
@@ -8869,8 +8893,8 @@
       "path---vim-search-and-replace-b8c5a7749439715ffccd.js.map"
     ],
     "path---vim-useful-commands": [
-      "path---vim-useful-commands-021f40d9aba42b4d9d2c.js",
-      "path---vim-useful-commands-021f40d9aba42b4d9d2c.js.map"
+      "path---vim-useful-commands-617caccba2ae0702c486.js",
+      "path---vim-useful-commands-617caccba2ae0702c486.js.map"
     ],
     "path---mathematics-counting-rule-of-sum": [
       "path---mathematics-counting-rule-of-sum-823feb4d7dff47ee06ab.js",
@@ -9196,6 +9220,10 @@
       "path---meta-free-code-camp-style-guide-for-algorithms-fd1c82c76d3b05e04ad0.js",
       "path---meta-free-code-camp-style-guide-for-algorithms-fd1c82c76d3b05e04ad0.js.map"
     ],
+    "component---src-templates-article-jsx": [
+      "component---src-templates-article-jsx-6794cc8adf6fde8411c8.js",
+      "component---src-templates-article-jsx-6794cc8adf6fde8411c8.js.map"
+    ],
     "path---javascript-location-object": [
       "path---javascript-location-object-0565d2a31612be481915.js",
       "path---javascript-location-object-0565d2a31612be481915.js.map"
@@ -9329,8 +9357,10 @@
       "path---algorithms-evaluating-polynomials-synthetic-division-8566b8c962930555b882.js.map"
     ],
     "app": [
-      "app-78e48f4c1a7a4c7cd1f7.js",
-      "app-78e48f4c1a7a4c7cd1f7.js.map"
+      "app-29b507970850600bdbb6.js",
+      "build-js-styles.css",
+      "app-29b507970850600bdbb6.js.map",
+      "build-js-styles.css.map"
     ],
     "path---mathematics-convert-fractions-to-percents": [
       "path---mathematics-convert-fractions-to-percents-a3c5cf4255d63fb21ec0.js",
@@ -10624,10 +10654,6 @@
       "path---tools-calculators-mortgage-payoff-calculator-b45b595687eaabec7f40.js",
       "path---tools-calculators-mortgage-payoff-calculator-b45b595687eaabec7f40.js.map"
     ],
-    "layout-component---index": [
-      "layout-component---index-37772614021144ab7cde.js",
-      "layout-component---index-37772614021144ab7cde.js.map"
-    ],
     "path---javascript-standard-objects-function-function-prototype-tostring": [
       "path---javascript-standard-objects-function-function-prototype-tostring-48c3002f1b22495f0c9e.js",
       "path---javascript-standard-objects-function-function-prototype-tostring-48c3002f1b22495f0c9e.js.map"
@@ -10921,8 +10947,8 @@
       "path---game-development-godot-b894adad7e79899e43e4.js.map"
     ],
     "path---react-native": [
-      "path---react-native-d7d4cb6ceb68ed59b4eb.js",
-      "path---react-native-d7d4cb6ceb68ed59b4eb.js.map"
+      "path---react-native-657ce54a15c01e46f1fe.js",
+      "path---react-native-657ce54a15c01e46f1fe.js.map"
     ],
     "path---php-loops-while-loop": [
       "path---php-loops-while-loop-25e3b583b0153e3b6862.js",

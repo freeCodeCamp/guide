@@ -1,0 +1,2 @@
+webpackJsonp([0xaec7122f5b3d],{4017:function(e,t){e.exports={data:{markdownRemark:{html:'<h2>is</h2>\n<p>The <code>is</code> keyword checks if an object is compatible with a given type, or (starting with C# 7) tests an expression against a pattern.</p>\n<h4>More information:</h4>\n<ul>\n<li><a href="https://docs.microsoft.com/dotnet/csharp/language-reference/keywords/is">C# Reference: is</a></li>\n</ul>',fields:{slug:"/csharp/is/"},frontmatter:{title:"is"}}},pathContext:{slug:"/csharp/is/"}}}});
+//# sourceMappingURL=path---csharp-is-8a2fa1ca4f922cbab65a.js.map

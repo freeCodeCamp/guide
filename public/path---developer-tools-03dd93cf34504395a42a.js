@@ -1,0 +1,2 @@
+webpackJsonp([63651036630040],{4240:function(e,l){e.exports={data:{markdownRemark:{html:"<h2>Developer Tools</h2>\n<p>In this section, we’ll explain a wide variety of tools used by developers.</p>\n<p>Some examples of these tools:</p>\n<ul>\n<li>Version control systems</li>\n<li>DevOps tools</li>\n<li>Build tools</li>\n<li>Package managers</li>\n</ul>",fields:{slug:"/developer-tools/"},frontmatter:{title:"Developer Tools"}}},pathContext:{slug:"/developer-tools/"}}}});
+//# sourceMappingURL=path---developer-tools-03dd93cf34504395a42a.js.map
