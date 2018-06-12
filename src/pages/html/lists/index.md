@@ -74,7 +74,7 @@ Here is an example of a description list:
   <dt>Programming</dt>
   <dd>The process of writing computer programs.</dd>
   <dt>freeCodeCamp</dt>
-  <dd>An awesome non-profit orgainzation teaching people how to code.</dd>
+  <dd>An awesome non-profit organization teaching people how to code.</dd>
 </dl>
 ```
 Which would end up looking like this:
@@ -82,7 +82,7 @@ Which would end up looking like this:
   <dt>Programming</dt>
   <dd>The process of writing computer programs.</dd>
   <dt>freeCodeCamp</dt>
-  <dd>An awesome non-profit orgainzation teaching people how to code.</dd>
+  <dd>An awesome non-profit organization teaching people how to code.</dd>
 </dl>
 
 #### More Information:

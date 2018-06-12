@@ -88,7 +88,7 @@ In some cases you might want to align elements in a navbar to the right (for exa
 #### Displaying the navbar independent of scrolling
 In some cases you might want to keep the navbar at the top or bottom of the screen regardless of scrolling. You will need to add either the `navbar-fixed-top` or `navbar-fixed-bottom` class to the `<nav>` element.
 ```html
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
       <a class="navbar-brand" href="#">Site Name</a>

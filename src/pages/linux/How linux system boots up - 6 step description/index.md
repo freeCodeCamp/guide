@@ -17,8 +17,8 @@ Operating system is defined as the low-level software that supports a computerâ€
 
 - BIOS stands for Basic Input/Output System
 - Performs some system integrity checks over the HDD
-- Searches, loads, and executes the boot loader program , mostly in MBR
-- It looks for boot loader in floppy, cd-rom, or hard drive. We can press a    key (typically F12 of F2, but it depends on your system) during the BIOS startup to change the boot sequence.
+- Searches, loads, and executes the boot loader program , mostly in the Master Boot Record (MBR)
+- It looks for boot loader in floppy, cd-rom, or hard drive. We can press a key (typically F12 of F2, but it depends on your system) during the BIOS startup to change the boot sequence.
 - Once the boot loader program is detected and loaded into the memory, BIOS gives the control to it.
 - So, in simple terms BIOS loads and executes the MBR boot loader
 

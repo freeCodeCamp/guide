@@ -18,6 +18,8 @@ _source: Github_
 ```cpp
 #include <iostream>
 using namespace std;
+#include<iostream>
+using namespace std ;
 int main()
 {
     cout << "Hello World" << endl;

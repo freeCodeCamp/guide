@@ -11,7 +11,6 @@ HTML, or HyperText Markup Language, is the standard markup language for describi
 ```html
 <h1>This is a first level header (six evels of headings exist in HTML)</h1>
 <p>This is a paragraph that has some <em>empathised</em> words.</p>
-
 ```
 
 The HyperText part of HTML comes from the early days of the web. Pages usually contained static documents that connected to other documents with hypertext links.

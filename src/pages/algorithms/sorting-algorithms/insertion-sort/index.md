@@ -135,6 +135,7 @@ public int[] insertionSort(int[] arr)
 * Stable: Yes
 
 #### Other Resources:
-
 - [Wikipedia](https://en.wikipedia.org/wiki/Insertion_sort)
 - [CS50 - YouTube](https://youtu.be/TwGb6ohsvUU)
+- [SortInsertion - GeeksforGeeks, YouTube](https://www.youtube.com/watch?v=wObxd4Kx8sE)
+

@@ -16,9 +16,9 @@ p {
     font-family: "Times New Roman", Times, serif;   
 }
 ```
-
-Generic family names are serif, sans-serif, monospace, cursive, fantasy, system-ui. It is common to specify one at the end. In the case above the user's serif system font would be used. 
-
+In the above example, "Times New Roman" is the <family-name> of the font, while "serif" is the <generic-name>. Generic names are used as a fallback
+mechanism for preserving style if the family-name is unavailable. A generic name should always be the last item in the list of font family names. Generic
+family names are serif, sans-serif, monospace, cursive, fantasy, system-ui.
 
 ### Font style
 
@@ -95,5 +95,6 @@ p.small {
 
 #### More Information:
 
-- https://www.w3schools.com/css/css_font.asp
-- https://developer.mozilla.org/en-US/docs/Web/CSS/font
+- [W3 Schools - CSS Font](https://www.w3schools.com/css/css_font.asp)
+- [MND - CSS Font](https://developer.mozilla.org/en-US/docs/Web/CSS/font)
+- [CSSFontStack](https://www.cssfontstack.com/)
