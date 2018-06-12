@@ -28,6 +28,7 @@ module.exports = {
         ]
       }
     },
+    'fcc-create-nav-data',
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
