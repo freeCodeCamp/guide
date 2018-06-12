@@ -8,17 +8,20 @@ PHP is a server-side scripting language created in 1995 by Rasmus Lerdorf.
 
 ## What does the acronym PHP stand for?
 
-Originally PHP stood for 'Personal Home Page', as Rasmus Lerdorf created it for use on his own website. Then in 1997 more developers expanded the language and the acronym also changed to what it stands for today: 'PHP: Hypertext Preprocessor'. As the first 'P' in PHP also stands for 'PHP', it is known as a 'recursive acronym'.
+Originally PHP stood for 'Personal Home Page', as Rasmus Lerdorf created it for use on his own website. Then in 1997 more developers expanded the language and the
+acronym also changed to what it stands for today: 'PHP: Hypertext Preprocessor'. As the first 'P' in PHP also stands for 'PHP', it is known as a 'recursive acronym'.
 
 ## What is PHP used for?
 
-PHP can be used for:
+As of October 2017, PHP is used on [82% of websites whose server-side language is known](https://w3techs.com/technologies/overview/programming_language/all). It is
+typically used on websites to generate web page content dynamically. Use-cases include:
 
 * Websites and web applications (server-side scripting)
 * Command line scripting
 * Desktop (GUI) applications
 
-Typically, it is used in the first form to generate web page content dynamically. For example, if you have a blog website, you might write some PHP scripts to retrieve your blog posts from a database and display them. Other things that PHP scripts could be used for include:
+Typically, it is used in the first form to generate web page content dynamically. For example, if you have a blog website, you might write some PHP scripts to retrieve
+your blog posts from a database and display them. Other things that PHP scripts could be used for include:
 
 * Processing and saving user input from form data
 * Setting and working with website cookies
@@ -86,4 +89,10 @@ Since writing the whole code for a website is not really practical/feasible for 
 ## Documentation
 
 PHP is [well documented](http://php.net/docs.php). The [official docs](http://php.net/manual/en/) include examples on almost every function reference guide, as well as user comments.
+
+## Other Resources
+
+- [Tizag.com PHP Tutorial](http://www.tizag.com/phpT/): still-relevant tutorials for getting started with PHP
+- [Awesome PHP](https://github.com/ziadoz/awesome-php): a curated list of PHP libraries, resources, and "shiny things"
+- [Laracasts.com](https://laracasts.com/): a membership website to learn web application development with PHP
 
