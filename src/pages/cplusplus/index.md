@@ -16,11 +16,13 @@ _source: Github_
 ### Your First Program in C++
 
 ```cpp
+#include <iostream>
+using namespace std;
 #include<iostream>
 using namespace std ;
 int main()
 {
-    cout<<"Hello World!"<<endl;
+    cout << "Hello World" << endl;
     return 0;
 }
 ```
@@ -59,7 +61,7 @@ int main()
 #### Lines 4,5 & 6
 
 ```cpp
-    cout<<"Hello World"<<endl;
+    cout << "Hello World" << endl;
     return 0;
 }
 ```
