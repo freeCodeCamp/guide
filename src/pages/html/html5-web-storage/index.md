@@ -32,3 +32,5 @@ sessionStorage.getItem("foo"); //returns "bar"
 #### More Information:
 
 <a href='https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage' target='_blank' rel='nofollow'>MDN</a>
+<a href='https://www.html5rocks.com/en/features/storage' target='_blank' rel='nofollow'>HTML5 Rocks</a>
+<a href='https://www.w3schools.com/html/html5_webstorage.asp' target='_blank' rel='nofollow'>W3 Schools</a>
