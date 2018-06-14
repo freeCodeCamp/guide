@@ -24,9 +24,7 @@ Let's make a new folder for your project. I'll use the <a href='http://www.freec
 
 Got to your work directory and make a new one. You can do this in the terminal (or not).
 
-<div class="lightbox-wrapper">[![Project Directory](//discourse-user-assets.s3.amazonaws.com/optimized/2X/2/2e3faaa2752657c592a9991ceed29a0200f332e6_1_690x387.png)
-
-<div class="meta"><span class="filename">Fullscreen_10_29_15__12_06_PM.png</span><span class="informations">1366x768 174 KB</span><span class="expand"></span></div>](//discourse-user-assets.s3.amazonaws.com/original/2X/2/2e3faaa2752657c592a9991ceed29a0200f332e6.png "Fullscreen_10_29_15__12_06_PM.png") </div>
+![Project Directory](//discourse-user-assets.s3.amazonaws.com/original/2X/2/2e3faaa2752657c592a9991ceed29a0200f332e6.png)
 
 Now, go into the project directory, and (for sure in the terminal this time) use the command `git init`. Note, this tutorial assumes <a href='https://git-scm.com/book/en/v2/Getting-Started-Installing-Git' target='_blank' rel='nofollow'>you have git installed</a>.
 
@@ -51,15 +49,11 @@ Now, `git add -A` and `git commit -m 'relevant message'` again, just in case. An
 
 Go to your github profile and create a new repo. Name it something relevant, like campNews.
 
-<div class="lightbox-wrapper">[![New Repo](//discourse-user-assets.s3.amazonaws.com/optimized/2X/3/3f113af87b94fcd649c78d5f6d36463795671e7b_1_690x387.png)
-
-<div class="meta"><span class="filename">Fullscreen_10_29_15__12_49_PM.png</span><span class="informations">1366x768 314 KB</span><span class="expand"></span></div>](//discourse-user-assets.s3.amazonaws.com/original/2X/3/3f113af87b94fcd649c78d5f6d36463795671e7b.png "Fullscreen_10_29_15__12_49_PM.png") </div>
+![New Repo](//discourse-user-assets.s3.amazonaws.com/original/2X/3/3f113af87b94fcd649c78d5f6d36463795671e7b.png)
 
 Once it's created, go in and grab the HTTPS clone URL. (Ignore the files in my screenshot, your repo will be empty at this point).
 
-<div class="lightbox-wrapper">[![clone url](//discourse-user-assets.s3.amazonaws.com/optimized/2X/a/a0f3da26ba0802342d7d6f7890763a2bca32b62a_1_690x387.png)
-
-<div class="meta"><span class="filename">Fullscreen_10_29_15__12_51_PM.png</span><span class="informations">1366x768 218 KB</span><span class="expand"></span></div>](//discourse-user-assets.s3.amazonaws.com/original/2X/a/a0f3da26ba0802342d7d6f7890763a2bca32b62a.png "Fullscreen_10_29_15__12_51_PM.png") </div>
+![clone url](//discourse-user-assets.s3.amazonaws.com/original/2X/a/a0f3da26ba0802342d7d6f7890763a2bca32b62a.png)
 
 ## Putting it all together
 
