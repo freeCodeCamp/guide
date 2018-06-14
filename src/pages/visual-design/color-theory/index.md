@@ -35,6 +35,12 @@ A black is sometimes used as a contrast medium to increase the range of contrast
 The combination of Primary colors Cyan, Magenta, Yellow, and Key (CMYK) is common. "Key" represents black.
 Key is a traditional term for the most significant impression of a combination of imprints.
 
+### Color Psychology
+
+Color Psychology is a study of how color influences human mood and behavior. The colors chosen for the design can influence how 
+successful a product is.
+
+
 ### Web colors
 
 Web standards including HTML, CSS, and graphics file formats: jpeg, PNG, GIF, and SVG use primary colors of red, green, and blue.
