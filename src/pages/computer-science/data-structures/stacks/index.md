@@ -10,7 +10,7 @@ You can imagine a stack as the way plates were organized in buffet restaurant. Y
 Some basics operations of stack are:
 1. Push - Inserts an item at the top of the stack.
 2. Pop - Removes an item at the top of the stack.
-3. isEmpty - Check wether the stack is empty or not
+3. isEmpty - Check whether the stack is empty or not
 4. Size - Return the number of items in the stack
 (All the operations can be done in O(1) time)
 
@@ -73,12 +73,13 @@ int main() {
 * Sudoku solver
 * Depth First Search.
 * Tree traversals
-* Infix expression -> Prefix/Postfix expresstion
+* Infix expression -> Prefix/Postfix expression
+* Valid Parentheses
 
 
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-* <a href='http://www.geeksforgeeks.org/stack-data-structure/' target='_blank' rel='nofollow'>More Info on Stacks - GeeksForGeeks</a>
-
-
+* [More Info on Stacks - GeeksForGeeks](http://www.geeksforgeeks.org/stack-data-structure/)
+* [Stack - Wikipedia](https://en.wikipedia.org/wiki/Stack_(abstract_data_type)
+* [Tower of Hanoi Problem and how the solution uses stacks and recursions](https://en.wikipedia.org/wiki/Tower_of_Hanoi)
+* [HackerRank Stacks and Queues Video](https://www.youtube.com/watch?v=wjI1WNcIntg)

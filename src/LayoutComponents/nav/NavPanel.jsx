@@ -1,43 +1,20 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import Panel from 'react-bootstrap/lib/Panel';
-import { connect } from 'react-redux';
-import { bindActionCreators } from 'redux';
-
-import { toggleExpandedState } from './redux';
 
 const propTypes = {
   categoryChildren: PropTypes.arrayOf(PropTypes.string),
   children: PropTypes.any,
+  dashedName: PropTypes.string,
   handleClick: PropTypes.func.isRequired,
   isExpanded: PropTypes.bool,
   path: PropTypes.string,
   title: PropTypes.string
 };
 
-function mapStateToProps(state, ownProps) {
-  const { path } = ownProps;
-  const isExpanded = state.nav.expandedState[path];
-  const category = state.nav.pages.filter(page => page.path === path)[0];
-  const { title, children: categoryChildren } = category;
-
-  return {
-    categoryChildren,
-    isExpanded,
-    title
-  };
-}
-
-function mapDispatchToProps(dispatch) {
-  const dispatchers = {
-    handleClick: bindActionCreators(toggleExpandedState, dispatch)
-  };
-  return dispatchers;
-}
-
 function NoArticles() {
   return (
-    <li role='presentation'>
+    <li>
       <span>
         No articles yet.
         <br />
@@ -109,13 +86,15 @@ class NavPanel extends PureComponent {
   }
 
   render() {
-    const { isExpanded } = this.props;
+    const { isExpanded, dashedName } = this.props;
     return (
       <Panel
         bsClass='panelStyle panel'
         collapsible={ true }
         expanded={ isExpanded }
         header={ this.renderHeader() }
+        id={ `${dashedName}-panel` }
+        role='listitem'
         >
         {
           ( isExpanded ? this.renderBody() : null )
@@ -131,4 +110,4 @@ NavPanel.contextTypes = {
 NavPanel.displayName = 'NavPanel';
 NavPanel.propTypes = propTypes;
 
-export default connect(mapStateToProps, mapDispatchToProps)(NavPanel);
+export default NavPanel;
