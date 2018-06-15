@@ -12,8 +12,7 @@ function  is a function upon which the compiler has been requested to perform in
 to insert the complete body of the function in every place that the function is called, rather than generating code to call the function 
 in the one place it is defined.
 
-However we cannot gurantee that every function declared inline will be inline. Because when we declare function as inline function we are 
-requesting compiler not a commanding. Compiler may ignore the request of inlining because of the following situations:-
+However we cannot gurantee that every function declared inline will be inline. Because when we declare function as inline function we are requesting compiler not a commanding. Compiler may ignore the request of inlining because of the following situations:-
 1) if a function contains loop e.g for loop, while loop, do_while loop etc.
 2) if a function contains switch or goto statement.
 3) function not returning value if return type is mentioned.
@@ -82,7 +81,3 @@ Following are some of the advantages of inline function:-
 you would need to recompile all the code using it to make sure it will be updated.
 * As mentioned above it increases the executable size, which may cause thrashing in memory. 
 More number of page fault bringing down your program performance.
-
-
-I hope you understood the inline function. I tried to explain in simplest way possible. Thank you.
-
