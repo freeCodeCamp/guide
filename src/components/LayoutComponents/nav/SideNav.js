@@ -121,14 +121,14 @@ class SideNav extends Component {
     return (
       <nav className='sideNav' id='side-nav'>
         <PanelGroup role='list'>
-          {
-            (!parents || !expandedState) ?
-              <NavPanel
-                title='No Parents Here'
-                toggleDisplaySideNav={this.props.toggleDisplaySideNav}
-              /> :
-              panels
-          }
+          {!parents || !expandedState ? (
+            <NavPanel
+              title='No Parents Here'
+              toggleDisplaySideNav={this.props.toggleDisplaySideNav}
+            />
+          ) : (
+            panels
+          )}
         </PanelGroup>
       </nav>
     );
