@@ -1,7 +1,7 @@
 /* global graphql */
 import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
-import { StaticQuery, Link } from 'gatsby';
+import { StaticQuery } from 'gatsby';
 import FCCSearch from 'react-freecodecamp-search';
 import Col from 'react-bootstrap/lib/Col';
 import Grid from 'react-bootstrap/lib/Grid';
@@ -68,7 +68,7 @@ function Layout({ children }) {
                     >
                     Skip to main content
                   </a>
-                  <Link className='link' to={'/'}>
+                  <a className='link' href='https://www.freecodecamp.org'>
                     <Image
                       alt='freeCodeCamp logo'
                       className='logo'
@@ -80,7 +80,7 @@ function Layout({ children }) {
                       className='logo-glyph'
                       src={glyph}
                     />
-                  </Link>
+                  </a>
                 </div>
                 <FCCSearch />
               </div>
