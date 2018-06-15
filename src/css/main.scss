@@ -67,7 +67,7 @@
 /* Layout */
 
 .content {
-  overflow-y: scroll;
+  overflow-y: auto;
   height: 92vh;
 
   img {
@@ -164,6 +164,24 @@
   }
 }
 
+/* Navbar Toggle */
+
+.navbar-toggle {
+  border: 1px solid #fff;
+  margin-left: 10px;
+  margin-right: 0px;
+}
+
+.navbar-toggle .icon-bar{
+  background-color: #fff;
+}
+
+@media (max-width: 992px) {
+  .navbar-toggle  {
+    display: block;
+  }
+}
+
 /* 404 */
 
 .flexWrapper {
@@ -236,6 +254,13 @@
   overflow-y: scroll;
   max-height: 90vh;
   position: relative;
+}
+
+@media (max-width: 992px) {
+  .sideNav {
+    overflow-y: auto;
+    max-height: none;
+  }
 }
 
 .stubbed {

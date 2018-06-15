@@ -8,7 +8,8 @@ import NavItem from './NavItem.jsx';
 const propTypes = {
   expandedState: PropTypes.object,
   pages: PropTypes.arrayOf(PropTypes.object),
-  parents: PropTypes.arrayOf(PropTypes.object)
+  parents: PropTypes.arrayOf(PropTypes.object),
+  toggleDisplaySideNav: PropTypes.func.isRequired
 };
 
 function parentFilter(node) {
@@ -79,6 +80,7 @@ class SideNav extends Component {
         key={ parent.path }
         path={ parent.path }
         title={ title }
+        toggleDisplaySideNav={this.props.toggleDisplaySideNav}
         >
         { isExpanded ? children : null }
       </NavPanel>
@@ -96,6 +98,7 @@ class SideNav extends Component {
           key={ child.path }
           path={ child.path }
           title={ child.title }
+          toggleDisplaySideNav={this.props.toggleDisplaySideNav}
         />
       );
     });
@@ -123,7 +126,10 @@ class SideNav extends Component {
         <PanelGroup role='list'>
           {
             (!parents || !expandedState) ?
-              <NavPanel title='No Parents Here' /> :
+              <NavPanel
+                title='No Parents Here'
+                toggleDisplaySideNav={this.props.toggleDisplaySideNav}
+              /> :
               panels
           }
         </PanelGroup>
