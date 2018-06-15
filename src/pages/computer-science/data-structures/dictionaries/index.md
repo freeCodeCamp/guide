@@ -222,4 +222,4 @@ for key in freq:
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+Wikibooks : <a href='https://en.wikibooks.org/wiki/A-level_Computing/AQA/Paper_1/Fundamentals_of_data_structures/Dictionaries' target='_blank' rel='nofollow'>Cryptography: Theory and Practice by Douglas Stinson</a>
