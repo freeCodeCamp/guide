@@ -6,7 +6,6 @@ import Col from 'react-bootstrap/lib/Col';
 import Grid from 'react-bootstrap/lib/Grid';
 import Image from 'react-bootstrap/lib/Image';
 import Row from 'react-bootstrap/lib/Row';
-import Link from 'gatsby-link';
 
 import SideNav from '../LayoutComponents/nav/SideNav.jsx';
 
@@ -50,9 +49,9 @@ function Layout({ data, children }) {
               >
               Skip to main content
             </a>
-            <Link
+            <a
               className='link'
-              to={ '/' }
+              href='https://www.freecodecamp.org'
               >
               <Image
                 alt='freeCodeCamp logo'
@@ -65,7 +64,7 @@ function Layout({ data, children }) {
                 className='logo-glyph'
                 src={ glyph }
               />
-            </Link>
+            </a>
           </div>
           <FCCSearch />
         </div>
