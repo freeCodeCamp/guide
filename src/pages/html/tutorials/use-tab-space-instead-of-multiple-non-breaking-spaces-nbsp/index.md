@@ -3,13 +3,7 @@ title: Use Tab Space Instead of Multiple Non Breaking Spaces Nbsp
 ---
 ## Use Tab Space Instead of Multiple Non Breaking Spaces Nbsp
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/tutorials/use-tab-space-instead-of-multiple-non-breaking-spaces-nbsp/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+In HTML the most common way to add multiple spaces is by adding `&nbsp;` for each space. To add a tab space put your text in `<pre>` tags, for example `<pre>My Text Here</pre>` and every tab will be treated as eight spaces. Another way to add multiple spaces in HTML would be to use CSS for example `<p style="padding-right: 5px;">My Text Here</p>`.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+* [MDN - The Preformatted Text element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre)

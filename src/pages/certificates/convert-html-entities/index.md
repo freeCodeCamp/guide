@@ -1,9 +1,7 @@
 ---
 title: Convert HTML Entities
 ---
-<div class="lightbox-wrapper">[![](//discourse-user-assets.s3.amazonaws.com/optimized/2X/f/fc44d1dfbd3910e574cdedb0f05162f65b4cb7c4_1_690x198.jpg)
-
-<div class="meta"><span class="filename">g7sWL1I.jpg</span><span class="informations">800x230 48.4 KB</span><span class="expand"></span></div>](//discourse-user-assets.s3.amazonaws.com/original/2X/f/fc44d1dfbd3910e574cdedb0f05162f65b4cb7c4.jpg "g7sWL1I.jpg") </div>
+![HTML entities &'<>"](//discourse-user-assets.s3.amazonaws.com/original/2X/f/fc44d1dfbd3910e574cdedb0f05162f65b4cb7c4.jpg)
 
 ![:triangular_flag_on_post:](https://forum.freecodecamp.com/images/emoji/emoji_one/triangular_flag_on_post.png?v=3 ":triangular_flag_on_post:") Remember to use <a>**`Read-Search-Ask`**</a> if you get stuck. Try to pair program ![:busts_in_silhouette:](https://forum.freecodecamp.com/images/emoji/emoji_one/busts_in_silhouette.png?v=3 ":busts_in_silhouette:") and write your own code ![:pencil:](https://forum.freecodecamp.com/images/emoji/emoji_one/pencil.png?v=3 ":pencil:")
 
@@ -31,12 +29,12 @@ title: Convert HTML Entities
 
 ## Spoiler Alert!
 
-![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](//discourse-user-assets.s3.amazonaws.com/original/2X/2/2d6c412a50797771301e7ceabd554cef4edcd74d.gif)
+![warning sign](//discourse-user-assets.s3.amazonaws.com/original/2X/2/2d6c412a50797771301e7ceabd554cef4edcd74d.gif)
 
 **Solution ahead!**
 
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
-
+```javascript
     function convertHTML(str) {
       // Split by character to avoid problems.
 
@@ -45,7 +43,7 @@ title: Convert HTML Entities
       // Since we are only checking for a few HTML elements I used a switch
 
       for (var i = 0; i < temp.length; i++) {
-        switch (temp<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split' target='_blank' rel='nofollow'>i]) {
+        switch (temp[i]) {
           case '<':
             temp[i] = '&lt;';
             break;
@@ -70,14 +68,14 @@ title: Convert HTML Entities
 
     //test here
     convertHTML("Dolce & Gabbana");
-
+```
 ### Code Explanation:
 
 Explain solution here and add any relevant links
 
 #### Relevant Links
 
-*   [str.split()</a>
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split' target='_blank' rel='nofollow'>str.split()</a>
 *   <a href='https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/join' target='_blank' rel='nofollow'>arr.join()</a>
 *   <a href='https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/switch' target='_blank' rel='nofollow'>switch statement</a>
 
@@ -106,7 +104,7 @@ Explain solution here and add any relevant links
 *   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp' target='_blank' rel='nofollow'>Regular Expressions</a>
 
 ## ![:rotating_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:") Advanced Code Solution:
-
+```javascript
     function convertHTML(str) {
       // Use Object Lookup to declare as many HTML entities as needed.
       htmlEntities={
@@ -124,21 +122,21 @@ Explain solution here and add any relevant links
 
     // test here
     convertHTML("Dolce & Gabbana");
-
-![:rocket:</a> <a href='https://repl.it/CLnR/0' target='_blank' rel='nofollow'>Run Code</a>
+```
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLnR/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 
 *   Create a object to use the Lookup functionality to easily find the characters.
 *   Split the original string by characters and use map to check for the changed html entity or use the same one. Alternatively you could use Regex `str.replace(/&|<|>|"|'/gi`.
-*   The a function is added which is what returns the converted entity or the original one if there is no conversion. If you go the regex route then you just have to return the matched hits. `return html<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split' target='_blank' rel='nofollow'>entity];`
+*   The a function is added which is what returns the converted entity or the original one if there is no conversion. If you go the regex route then you just have to return the matched hits. `return html[entity];`
 *   Lastly we join all the characters once again.
 
 **Note** that if you went the regex route then you don't need to join anything, just make sure you return the whole operation or save it to a variable and then return it.
 
 #### Relevant Links
 
-*   [str.split()</a>
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split' target='_blank' rel='nofollow'>str.split()</a>
 *   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map' target='_blank' rel='nofollow'>arr.map()</a>
 *   <a href='https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/join' target='_blank' rel='nofollow'>arr.join()</a>
 

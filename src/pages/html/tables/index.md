@@ -5,7 +5,12 @@ title: Tables
 
 An HTML table is defined with the <table> tag.
 
-Each table row is defined with the <tr> tag. A table header is defined with the <th> tag. By default, table headings are bold and centered. A table data/cell is defined with the <td> tag.
+Each table row is defined with the <tr> tag. Inside a row there may be table headers or table data.
+
+* A table header is defined with the <th> tag. By default, table headings are bold and centered.
+* A table data/cell is defined with the <td> tag.
+
+A more complex HTML table may also include `<caption>`, `<col>`, `<colgroup>`, `<thead>`, `<tfoot>`, and `<tbody>` elements in it.
 
 ### Simple Table Example
 ```html
@@ -32,37 +37,61 @@ Each table row is defined with the <tr> tag. A table header is defined with the 
 ### Table Example with more semantic information
 ```html
 <!DOCTYPE html>
-<html>
+    <html>
 	<body>
-    <table>
-      <thead>
-        <th>
-          <td>
-            Table Header
-          </td>
-        </th>
-      </thead>
-      <tbody>
-        <tr>
-          <td>
-            Table
-          </td>
-          <td>
-            Body
-          </td>
-        </tr>
-      </tbody>
-      <tfoot>
-        <tr>
-          <td>
-            Table Footer
-          </td>
-        </tr>
-      </tfoot>
-    </table>
+	   <table>
+	  <thead>
+	    <tr>
+	      <th>Item</th>
+	      <th>Amount</th>
+	    </tr>
+	  </thead>
+	  <tfoot>
+	    <tr>
+	      <td>Apple</td>
+	      <td>10</td>
+	    </tr>
+	  </tfoot>
+	  <tbody>
+	    <tr>
+	      <td>Peach</td>
+	      <td>15</td>
+	    </tr>
+	    <tr>
+	      <td>Watermelon</td>
+	      <td>3</td>
+	    </tr>
+	  </tbody>
+	</table>
 	</body>
-</html>
+   </html>
 ```
+Result:
+<table>
+	  <thead>
+	    <tr>
+	      <th>Item</th>
+	      <th>Amount</th>
+	    </tr>
+	  </thead>
+	  <tfoot>
+	    <tr>
+	      <td>Apple</td>
+	      <td>10</td>
+	    </tr>
+	  </tfoot>
+	  <tbody>
+	    <tr>
+	      <td>Peach</td>
+	      <td>15</td>
+	    </tr>
+	    <tr>
+	      <td>Watermelon</td>
+	      <td>3</td>
+	    </tr>
+	  </tbody>
+	</table>
+
 
 #### More Information:
 
