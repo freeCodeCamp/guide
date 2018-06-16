@@ -1,4 +1,5 @@
 const path = require('path');
+const generateBabelConfig = require('gatsby/dist/utils/babel-config');
 
 exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
   const { createNodeField } = boundActionCreators;
@@ -24,7 +25,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
 
   return new Promise((resolve, reject) => {
     const Article = path.resolve('src/templates/Article.jsx');
-    // Query for all markdown "nodes" and for the slug we previously created.
+    // Query for all markdown 'nodes' and for the slug we previously created.
     resolve(
       graphql(
         `
@@ -60,5 +61,27 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
         return;
       })
     );
+  });
+};
+
+
+exports.modifyWebpackConfig = ({ config, stage }) => {
+  const program = {
+    directory: __dirname,
+    browserslist: ['> 1%', 'last 2 versions', 'IE >= 9']
+  };
+
+  return generateBabelConfig(program, stage).then(babelConfig => {
+    config.removeLoader('js').loader('js', {
+      test: /\.jsx?$/,
+      exclude: modulePath => {
+        return (
+          /node_modules/.test(modulePath) &&
+          !(/node_modules\/react\-freecodecamp\-search/).test(modulePath)
+        );
+      },
+      loader: 'babel',
+      query: babelConfig
+    });
   });
 };
