@@ -2,8 +2,7 @@ const { expect } = require('chai');
 
 const { createNavigationNode } = require('./create-navigation-node');
 
-describe('fcc-creat-nav-data', () => {
-
+describe('fcc-create-nav-data', () => {
   describe('create-vanigation-node', () => {
     const mockNode = {
       internal: {
@@ -78,7 +77,5 @@ describe('fcc-creat-nav-data', () => {
       const result = createNavigationNode(notAStub);
       expect(result.isStubbed).to.equal(false);
     });
-
   });
-
 });

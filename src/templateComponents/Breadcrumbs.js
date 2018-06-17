@@ -18,9 +18,8 @@ function Breadcrumbs(props) {
     .replace(/^\/([a-z0-9/-]+[^/])\/?$/i, '$1')
     .split('/')
     .reduce((accu, current, i, pathArray) => {
-      const path = i !== 0 ?
-        accu[pathArray[ i - 1 ]].path + `/${current}` :
-        `/${current}`;
+      const path =
+        i !== 0 ? accu[pathArray[i - 1]].path + `/${current}` : `/${current}`;
       return {
         ...accu,
         [current]: {
@@ -34,16 +33,20 @@ function Breadcrumbs(props) {
     .map(key => pathMap[key])
     .map((page, i, thisArray) => {
       if (i === thisArray.length - 1) {
-        return <li className='active' key={ i }>{ page.title }</li>;
+        return (
+          <li className='active' key={i}>
+            {page.title}
+          </li>
+        );
       }
-      return <li key={ i }><Link to={ page.path }>{ page.title }</Link></li>;
+      return (
+        <li key={i}>
+          <Link to={page.path}>{page.title}</Link>
+        </li>
+      );
     });
 
-  return (
-    <ol className='breadcrumb'>
-      { crumbs }
-    </ol>
-  );
+  return <ol className='breadcrumb'>{crumbs}</ol>;
 }
 
 Breadcrumbs.displayName = 'Breadcrumbs';

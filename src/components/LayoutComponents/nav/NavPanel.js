@@ -1,12 +1,13 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import Panel from 'react-bootstrap/lib/Panel';
+import { navigateTo } from 'gatsby';
 
 const propTypes = {
-  categoryChildren: PropTypes.arrayOf(PropTypes.string),
   children: PropTypes.any,
   dashedName: PropTypes.string,
   handleClick: PropTypes.func.isRequired,
+  hasChildren: PropTypes.bool,
   isExpanded: PropTypes.bool,
   path: PropTypes.string,
   title: PropTypes.string,
@@ -25,7 +26,7 @@ function NoArticles() {
             'https://github.com/freeCodeCamp/guides/blob/master/README.md' +
             '#freecodecamp-guide'
           }
-          rel='nofollow'
+          rel='noopener noreferrer'
           target='_blank'
           >
           write one?
@@ -45,20 +46,18 @@ class NavPanel extends PureComponent {
   }
 
   handleHeaderClick() {
-    const { push } = this.context.router.history;
     const { path, handleClick } = this.props;
     handleClick(path);
-    push(path);
+    navigateTo(path);
   }
 
   renderHeader() {
     const { isExpanded, title } = this.props;
     return (
-      <div className='title' onClick={ this.handleHeaderClick }>
+      <div className='title' onClick={this.handleHeaderClick}>
         <span
           className={
-            'caret ' +
-            ( isExpanded ? 'caretStyle expanded' : 'caretStyle' )
+            'caret ' + (isExpanded ? 'caretStyle expanded' : 'caretStyle')
           }
         />
         <span onClick={this.props.toggleDisplaySideNav}>
@@ -69,21 +68,20 @@ class NavPanel extends PureComponent {
   }
 
   renderBody() {
-    const { categoryChildren, children, isExpanded } = this.props;
+    const { hasChildren, children, isExpanded } = this.props;
     const childrenWithChildren = children.filter(child => child.props.children);
-    const uniqueChildren = childrenWithChildren
-      .concat(
-        children
-          .filter(
-            child => !childrenWithChildren.some(x => x.key === child.key))
-          );
+    const uniqueChildren = childrenWithChildren.concat(
+      children.filter(
+        child => !childrenWithChildren.some(x => x.key === child.key)
+      )
+    );
     return (
-        <div className={ isExpanded ? 'body' : '' }>
-          <ul className='navPanelUl'>
-            { categoryChildren.length ? uniqueChildren : <NoArticles /> }
-          </ul>
-        </div>
-      );
+      <div className={isExpanded ? 'body' : ''}>
+        <ul className='navPanelUl'>
+          {hasChildren ? uniqueChildren : <NoArticles />}
+        </ul>
+      </div>
+    );
   }
 
   render() {
@@ -91,23 +89,18 @@ class NavPanel extends PureComponent {
     return (
       <Panel
         bsClass='panelStyle panel'
-        collapsible={ true }
-        expanded={ isExpanded }
-        header={ this.renderHeader() }
-        id={ `${dashedName}-panel` }
+        collapsible={true}
+        expanded={isExpanded}
+        header={this.renderHeader()}
+        id={`${dashedName}-panel`}
         role='listitem'
         >
-        {
-          ( isExpanded ? this.renderBody() : null )
-        }
+        {isExpanded ? this.renderBody() : null}
       </Panel>
     );
   }
 }
 
-NavPanel.contextTypes = {
-  router: PropTypes.object
-};
 NavPanel.displayName = 'NavPanel';
 NavPanel.propTypes = propTypes;
 

@@ -4,7 +4,6 @@ const { commonREs, readDir, pagesDir } = require('../../utils/');
 const { isAStubRE } = commonREs;
 
 exports.createNavigationNode = node => {
-
   const {
     fileAbsolutePath,
     frontmatter: { title },
@@ -14,11 +13,16 @@ exports.createNavigationNode = node => {
 
   const nodeDir = fileAbsolutePath.replace(/\/index\.md$/, '');
   const dashedName = nodeDir.split('/').slice(-1)[0];
-  const [, path ] = nodeDir.split(pagesDir);
-  const parentPath = path.split('/').slice(0, -1).join('/');
+  const [, path] = nodeDir.split(pagesDir);
+  const parentPath = path
+    .split('/')
+    .slice(0, -1)
+    .join('/');
 
+  const categoryChildren = readDir(nodeDir);
   const navNode = {
-    categoryChildren: readDir(nodeDir),
+    categoryChildren,
+    hasChildren: !!categoryChildren.length,
     dashedName,
     isStubbed: isAStubRE.test(content),
     path,

@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import PanelGroup from 'react-bootstrap/lib/PanelGroup';
 
-import NavPanel from './NavPanel.jsx';
-import NavItem from './NavItem.jsx';
+import NavPanel from './NavPanel';
+import NavItem from './NavItem';
 
 const propTypes = {
   expandedState: PropTypes.object,
@@ -37,9 +37,8 @@ class SideNav extends Component {
       .split('/')
       .slice(0, -1)
       .reduce((map, current, i, pathArray) => {
-        const path = i !== 0 ?
-          map[pathArray[i - 1]] + `/${current}` :
-          `/${current}`;
+        const path =
+          i !== 0 ? map[pathArray[i - 1]] + `/${current}` : `/${current}`;
         return {
           ...map,
           [current]: path
@@ -66,23 +65,23 @@ class SideNav extends Component {
     );
     const { path } = parent;
     const isExpanded = !!this.state.expandedState[path];
-    const [ category ] = pages.filter(page => page.path === path);
-    const { title, categoryChildren, dashedName } = category;
+    const [category] = pages.filter(page => page.path === path);
+    const { title, hasChildren, dashedName } = category;
 
     const children = this.renderChildren(childrenForParent, pages);
 
     return (
       <NavPanel
-        categoryChildren={ categoryChildren }
-        dashedName={ dashedName }
-        handleClick={ this.toggleExpandedState }
-        isExpanded={ isExpanded }
-        key={ parent.path }
-        path={ parent.path }
-        title={ title }
+        dashedName={dashedName}
+        handleClick={this.toggleExpandedState}
+        hasChildren={hasChildren}
+        isExpanded={isExpanded}
+        key={parent.path}
+        path={parent.path}
+        title={title}
         toggleDisplaySideNav={this.props.toggleDisplaySideNav}
         >
-        { isExpanded ? children : null }
+        {isExpanded ? children : null}
       </NavPanel>
     );
   }
@@ -105,15 +104,13 @@ class SideNav extends Component {
   }
 
   toggleExpandedState(path) {
-    this.setState(
-      state => ({
-        ...state,
-        expandedState: {
-          ...state.expandedState,
-          [path]: !state.expandedState[path]
-        }
-      })
-    );
+    this.setState(state => ({
+      ...state,
+      expandedState: {
+        ...state.expandedState,
+        [path]: !state.expandedState[path]
+      }
+    }));
   }
 
   render() {

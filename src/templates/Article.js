@@ -3,15 +3,15 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 
-import Breadcrumbs from '../templateComponents/Breadcrumbs.jsx';
+import Breadcrumbs from '../templateComponents/Breadcrumbs';
 
 import titleify from '../../utils/titleify';
+import Layout from '../components/Layout';
 
 const propTypes = {
   data: PropTypes.object,
   location: PropTypes.object
 };
-
 
 class Article extends React.Component {
   constructor(props) {
@@ -44,7 +44,7 @@ class Article extends React.Component {
   getOgDescription(html) {
     let description = '';
     const rex = /<p>(.*?)<\/p>/g;
-    description = rex.exec( html );
+    description = rex.exec(html);
     if (description !== null) {
       return description[1].replace(/<[^>]*>/i, '');
     } else {
@@ -54,14 +54,18 @@ class Article extends React.Component {
 
   getOgImage(html) {
     let image;
-    const rex = /<img [^>]*src=["|\']([^"|\']+)/i;
-    image = rex.exec( html );
-    if (image !== null &&
-      (image[1].match('^//forum.freecodecamp.com/images/emoji') === null)) {
+    const rex = /<img [^>]*src=["|']([^"|']+)/i;
+    image = rex.exec(html);
+    if (
+      image !== null &&
+      image[1].match('^//forum.freecodecamp.com/images/emoji') === null
+    ) {
       return image[1];
     } else {
-      return 'https://s3.amazonaws.com/freecodecamp/' +
-      'freecodecamp-square-logo-large.jpg';
+      return (
+        'https://s3.amazonaws.com/freecodecamp/' +
+        'freecodecamp-square-logo-large.jpg'
+      );
     }
   }
 
@@ -70,47 +74,39 @@ class Article extends React.Component {
     const { pathname } = this.props.location;
     const {
       html,
-      fields: {
-        slug
-      },
-      frontmatter: {
-        title
-      }
+      fields: { slug },
+      frontmatter: { title }
     } = article;
     return (
-      <div>
+      <Layout>
         <Helmet>
-          <title>{ `${title} | freeCodeCamp Guide` }</title>
+          <title>{`${title} | freeCodeCamp Guide`}</title>
           <link
-            href={ `https://guide.freecodecamp.org${slug}` }
+            href={`https://guide.freecodecamp.org${slug}`}
             rel='canonical'
           />
           <meta
-            content={ `https://guide.freecodecamp.org${slug}` }
+            content={`https://guide.freecodecamp.org${slug}`}
             property='og:url'
           />
+          <meta content={`${this.getOgTitle(pathname)}`} property='og:title' />
           <meta
-            content={ `${this.getOgTitle(pathname)}` }
-            property='og:title'
-          />
-          <meta
-            content={ `${this.getOgDescription(html)}` }
+            content={`${this.getOgDescription(html)}`}
             property='og:description'
           />
-          <meta
-            content={ `${this.getOgImage(html)}` }
-            property='og:image'
-          />
+          <meta content={`${this.getOgImage(html)}`} property='og:image' />
         </Helmet>
-        <Breadcrumbs path={ pathname } />
+        <Breadcrumbs path={pathname} />
         <article
           className='article'
           dangerouslySetInnerHTML={{ __html: html }}
           id='article'
-          ref={(article) => { this.article = article; }}
+          ref={article => {
+            this.article = article;
+          }}
           tabIndex='-1'
         />
-      </div>
+      </Layout>
     );
   }
 }
@@ -121,15 +117,15 @@ Article.propTypes = propTypes;
 export default Article;
 
 export const pageQuery = graphql`
-query ArticleBySlug($slug: String!) {
-  markdownRemark(fields: { slug: { eq: $slug }}) {
-    html
-    fields {
-      slug
-    }
-    frontmatter {
-      title
+  query ArticleBySlug($slug: String!) {
+    markdownRemark(fields: { slug: { eq: $slug } }) {
+      html
+      fields {
+        slug
+      }
+      frontmatter {
+        title
+      }
     }
   }
-}
 `;

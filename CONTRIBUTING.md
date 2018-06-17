@@ -131,7 +131,7 @@ cd guide
 yarn install
 
 # run locally
-yarn run dev
+yarn develop
 ```
 
 In this project, we are using `yarn` because `netlify` builds our site with `yarn`.
