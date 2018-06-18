@@ -32,7 +32,7 @@ in which:
 
 **Note**
 
-If you have uncommited changes, the merge part of the `git pull` command will fail and your local branch will be untouched. 
+If you have uncommitted changes, the merge part of the `git pull` command will fail and your local branch will be untouched. 
 
 Thus, you should *always commit your changes in a branch before pulling* new commits from a remote repository.
 
@@ -70,7 +70,7 @@ The four network commands are:
 
 When working with Git, it can feel like there are lots of copies of the same code floating all over the place. There are different versions of the same file on each branch. And, different copies of the same branches on every developer's computer and on the remote. To keep track of this, Git uses something called **remote tracking branches**. 
 
-If you execute `git branch --all` within a Git repository, remote tracking branches appear in red. These are read only copies of the code as it appears on the remote. ( When was the last network interaction that would have brought information locally? Remember when this information was last updated. The information in the remote tracking branches reflects the information from that interaction.) 
+If you execute `git branch --all` within a Git repository, remote tracking branches appear in red. These are read-only copies of the code as it appears on the remote. ( When was the last network interaction that would have brought information locally? Remember when this information was last updated. The information in the remote tracking branches reflects the information from that interaction.) 
 
 With **remote tracking branches**, you can work in Git on several branches without network interaction.  Every time you execute `git pull` or `git fetch` commands, you update **remote tracking branches**.
 

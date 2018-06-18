@@ -9,7 +9,7 @@ The `typeof` operator is useful in JavaScript as it allows programmers to easily
 
 For example:
 ```javascript
-var x = 12345;    // number
+var x = 12345; // number
 x = "string"; // string
 x = { key: "value" }; // object
 ```
@@ -20,9 +20,9 @@ The `typeof` operator returns a string that represents the current type of a var
 
 ```javascript
 var x = 12345; 
-console.log(typeof x)  // "number"
+console.log(typeof x) // number
 x = "string"; 
-console.log(typeof x)  // "string"
+console.log(typeof x) // string
 x = { key: "value" };
 console.log(typeof x) // "object"
 ```
@@ -34,9 +34,7 @@ Here's an example of a function that can take a variable that is a string or a n
 function doSomething(x) {
   if(typeof(x) === 'string') {
     alert('x is a string')
-  }
-  
-  else if(typeof(x) === 'number'){
+  } else if(typeof(x) === 'number') {
     alert('x is a number')
   }
 }
@@ -50,7 +48,7 @@ function(x){
     console.log('variable x is not defined');
     return;
   }
-  //continue with function here...
+  // continue with function here...
 }
 ```   
 

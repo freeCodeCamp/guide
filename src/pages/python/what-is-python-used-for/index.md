@@ -24,9 +24,16 @@ Mobile apps and games can be created with python using Kivy, Pygame and PyQt.
 #### Security And Networking:
 Python is used to build Networking tools and security-tools that are widely used.Python's remote automation is the most secured, fast and efficient for cloud-testing of frameworks, that's why professional developers use python for making most secured frameworks and for socket-programmings.
 
+##### Machine Learning, Deep Learning
+Python is one of the best languages suited for machine learning, deep learning and data analytics with stronghold in all of them.
+There are specialized languages best suited for various role such as R and MATLAB but when it comes to overlapping fields of applications python wins hands down due to its flexibility and rapid prototyping and availability of libraries.
+
+
+
 #### More Information:
 Here's a <a href='https://www.python.org/about/apps/' target='_blank' rel='nofollow'>link</a> to appications of Python on it's offical website.
 <!-- Please add any articles you think might be helpful to read before writing the article -->
+
 
 #### Python is generally used for 
 

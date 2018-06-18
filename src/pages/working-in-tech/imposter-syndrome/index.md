@@ -16,7 +16,7 @@ These thoughts are fairly common if you suffer from imposter syndrome:
 * "My colleagues are much smarter than me and I don't think I could ever match up to them" (undermines own achievements)
 * "My coworkers have told me I've achieved a lot, but I feel like it's never enough" (discounts praise)
 * "I have no idea how I got through the interview process" (feels only luck dictates results)
-* "People are going to realise that I am not as smart as I potrayed in the interview and I will be ridiculed and fired for this" (fears failure)
+* "People are going to realise that I am not as smart as I portrayed in the interview and I will be ridiculed and fired for this" (fears failure)
 * "My IQ is not high enough to work here"
 * "I need more training to feel like I deserve to be here"
 
@@ -31,5 +31,8 @@ Some resources to help you know more about Imposter Syndrome and some tips to ta
 * <a href='http://www.apa.org/gradpsych/2013/11/fraud.aspx' target='_blank' rel='nofollow'>Feel Like a Fraud? | American Psychological Association</a>
 * <a href='https://www.ted.com/playlists/503/fighting_impostor_syndrome' target='_blank' rel='nofollow'>Fighting Imposter Syndrome | TED Talks</a>
 * <a href='https://qz.com/606727/is-imposter-syndrome-a-sign-of-greatness/' target='_blank' rel='nofollow'>Is imposter syndrome a sign of greatness? | Quartz</a>
+* <a href='https://dev.to/kathryngrayson/overcoming-impostor-syndrome-apg' target='_blank' rel='nofollow'>Overcoming Impostor Syndrome | DEV</a>
+* <a href='https://www.fastcompany.com/40421352/the-five-types-of-impostor-syndrome-and-how-to-beat-them' target='_blank' rel='nofollow'>Types of imposter syndrome and how to beat them | FastCompany </a>
 * <a href='https://startupbros.com/21-ways-overcome-impostor-syndrome/' target='_blank' rel='nofollow'> 21 Proven Ways to Overcome Imposter Syndrom | Startup Bros</a>
 * <a href='https://www.nytimes.com/2015/10/26/your-money/learning-to-deal-with-the-impostor-syndrome.html' target='_blank' rel='nofollow'>Learning How to Deal with the Imposter Syndrome | NY Times</a>
+

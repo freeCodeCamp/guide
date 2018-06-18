@@ -31,12 +31,13 @@ C# is an object-oriented language that provides support for component-oriented a
 6) Out Variables
 7) Literal improvements
 8) Generalized Async Return Types
-9) More Expresion-Bodied Members
+9) More Expression-Bodied Members
 10) Throw Expressions
 
 You can use C# to create Windows client applications, XML Web services, distributed components, client-server applications, database applications, and much more.
 
 #### More Information:
+
 
 * <a href='https://docs.microsoft.com/en-us/dotnet/csharp/getting-started/introduction-to-the-csharp-language-and-the-net-framework' target='_blank' rel='nofollow'>Introduction to C#</a>
 * <a href='https://www.microsoft.com/net/tutorials/csharp/getting-started' target='_blank' rel='nofollow'>C# Tutorials</a>

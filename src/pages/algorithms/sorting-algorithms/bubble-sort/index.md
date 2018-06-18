@@ -66,7 +66,10 @@ while(!sorted) {
   }
 }
 ```
-### More Information
 
+### More Information
+<!-- Please add any articles you think might be helpful to read before writing the article -->
 - [Wikipedia](https://en.wikipedia.org/wiki/Bubble_sort)
+- [Bubble Sort Algorithm - CS50](https://youtu.be/Ui97-_n5xjo)
 - [Bubble Sort Algorithm - MyCodeSchool (video)](https://www.youtube.com/watch?v=Jdtq5uKz-w4)
+- [Algorithms: Bubble Sort - HackerRank (video)](https://www.youtube.com/watch?v=6Gv8vg0kcHc)

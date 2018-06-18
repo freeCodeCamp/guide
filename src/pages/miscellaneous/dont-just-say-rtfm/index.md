@@ -1,6 +1,7 @@
 ---
-title: Dont Just Say Rtfm
+title: Don't Just Say Rtfm
 ---
+## Don't Just Say Rtfm
 RTFM comments generally useless
 
 > If everybody read the fine manual, most of the questions asked on the internet would go away!

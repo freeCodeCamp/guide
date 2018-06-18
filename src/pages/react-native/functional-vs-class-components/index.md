@@ -1,5 +1,5 @@
 ---
-title: React Native - Functional vs Class Components
+title: Functional vs Class Components
 ---
 ## React Native - Functional vs Class Components
 

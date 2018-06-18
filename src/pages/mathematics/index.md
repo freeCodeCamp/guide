@@ -6,7 +6,10 @@ title: Mathematics
 In this section, we'll have guides to a wide variety of mathematical concepts.
 
 ### Maths in programming
-Although it is good practice to create mathematical functions yourself, there are math libraries availiable for use in many programming languages. These have predetermined functions you can utilize to execute calculations. Some concepts of mathematics popularly used in coding with respect to algorithmic coding are
+
+Although it is good practice to create mathematical functions yourself, there are math libraries availiable for use in many programming languages. These 
+have predetermined functions you can utilize to execute calculations. In programming, you typically cover topics like these in upper division courses on
+the theory of computation, the design of algorithms, and computer language design.
 
 #### Fibonacci sequence (generating functions)
 We all know that the recursion excercise begins with solving a fibonaaci sequence. It is also the first example which shows the power of Dynamic Programming. So, it is the special case of a class of mathematics known as generating functions. So, what we will be discussing here applies in general to all genrating function.
@@ -73,6 +76,29 @@ Documentation reference: <a href='http://www.cplusplus.com/reference/cmath/' tar
 #### Python
 ``` python
 >>> import math
+>>> math.sqrt(9)      //takes only positive roots into consideration
+3.0
+>>> math.pi           //you can also utilize mathematical consonants like pi and e
+3.141592653589793
+>>> math.radians(90)  //converts degrees to radians
+1.5707963267948966
 ```
+#### Java
+```java
+import java.lang.Math
+```
+
+The `math` module can also be imported as follows, and the usage difference is illustrated: 
+
+```python
+>>> from math import *
+>>> sqrt(4)
+2.0
+>>> pi
+3.141592653589793
+
+```
+
+Documentation reference: <a href='https://docs.python.org/2/library/math.html' target='_blank' rel='nofollow'>Python 2</a> | <a href='https://docs.python.org/3/library/math.html' target='_blank' rel='nofollow'>Python 3</a>
 
 

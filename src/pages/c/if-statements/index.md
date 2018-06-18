@@ -65,6 +65,31 @@ There are a few important things that are different here. First, `stdbool.h` has
 
 Within the parenthesis of the if statement is something new, too: `n == 3`. This is a comparison between `n` and the number 3. `==` is the comparison operator, and is one of several comparison opertations in C.
 
+## Nested if-else
+The if-else statement allows a choice to be made between two possible alternatives. Sometimes a choice must be made between more than two possibilities. For example the sign function in mathematics returns -1 if the argument is less than zero, returns +1 if the argument is greater than zero and returns zero if the argument is zero. The following C++ statement implements this function:
+
+```C
+if (x < 0)
+   sign = -1;
+else
+   if (x == 0)
+      sign = 0;
+   else
+      sign = 1;
+```
+This is an if-else statement in which the statement following the else is itself an if-else statement. If x is less than zero then sign is set to -1, however if it is not less than zero the statement following the else is executed. In that case if x is equal to zero then sign is set to zero and otherwise it is set to 1.
+Novice programmers often use a sequence of if statements rather than use a nested if-else statement. That is they write the above in the logically equivalent form:
+
+```C
+if (x < 0)
+   sign = -1;
+if (x == 0)
+   sign = 0;
+if (x > 0)
+   sign = 1;
+```
+This version is not recommended since it does not make it clear that only one of the assignment statements will be executed for a given value of x. Also it is inefficient since all three conditions are always tested.
+
 ## Comparison Operators
 Operator Name               |  Usage    | Operator Result
 ----------------------------|:---------:|-----------------
@@ -198,8 +223,6 @@ Why did this happen? because in the if statement you used "=" instead of "==" op
 It will compare between two variables but "=' is assignment operator 
 when we said i=4, we simply assigning value 4 to the integer i, and since in "C" every NON-ZERO value is true so
 if(i=4) is true statement and instructions under this will executed
-
-
 
 # Before you go on...
 ## A review

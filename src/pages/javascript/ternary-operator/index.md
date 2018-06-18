@@ -19,6 +19,32 @@ let isMember = true;
 let message = isMember ? 'Welcome Back!' : 'You need to login'; // 'Welcome Back'
 ```
 
+Another useful method to using a Ternary operator would be to envoke it to conditionally execute a function or method 
+
+```javascript
+    
+    function memberOpen(){
+        console.log("open");
+    }
+    
+    function memberClose(){
+        console.log("close");
+    }
+    
+    let isMember = true;
+    
+    (isMember) ? memberOpen() : memberClose();
+```
+
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/M8Ge/1' target='_blank' rel='nofollow'>Run Code</a>
+
+## Running functions with ternary operator
+
+It's also possible to run functions using ternary operator, which sometimes can be useful and more readable. However, use it carefully, because then code is harder to debug.
+
+```javascript
+    const runFirst = true;
+    runFirst ? first() : second();
+```
 
 **Read more:** <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator' target='_blank' rel='nofollow'>MDN</a>

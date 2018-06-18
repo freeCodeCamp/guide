@@ -8,6 +8,8 @@ A artificial neural network is a computing system. They are like biological neur
 To train a neural network, we need an input vector and a corresponding output vector.
 The training works by minimizing an error term. This error can be the squared difference between the predicted output and the original output.
 
+The basic principle which underlies the remarkable success of neural networks is 'The Universal Approximation Theorem'. It has been mathematically proven thet the neural networks are universal approximation machines which are capable of approximating any mathematical function between the given input and output.
+
 Neural networks initially became popular in the 1980s, but limitations in computational power prohibited their widespread acceptance until the past decade.
 Innovations in CPU size and power allow for neural network implementation at scale, though other machine learning paradigms still outrank neural networks in terms of efficiency.
 
@@ -41,6 +43,7 @@ There's an awesome tool to help you grasp the idea of neural networks without an
 - Feature learning 
 - Learning to rank
 - Grammar induction
+- Generating images
 
 ### Types of Neural Networks
 - Recurrent Neural Network (RNN)
@@ -53,3 +56,4 @@ There's an awesome tool to help you grasp the idea of neural networks without an
 - <a href='http://ufldl.stanford.edu/tutorial/supervised/MultiLayerNeuralNetworks/' target='_blank' rel='nofollow'>Stanford University</a>
 - <a href='https://youtu.be/aircAruvnKk' target='_blank' rel='nofollow'>3Blue1Brown</a>
 - <a href='https://youtu.be/h3l4qz76JhQ' target='_blank' rel='nofollow'>Siraj Raval</a>
+- <a href='https://www.youtube.com/watch?v=ILsA4nyG7I0' target='_blank' rel='nofollow'>How deep neural networks work</a>

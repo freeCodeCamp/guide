@@ -53,6 +53,27 @@ $ sudo usermod -a -G editorial username
 To switch to root on ubuntu, run `su -i` command followed by the password of the user logged in. Prompt changes to `#` insted of `$`
 
 
+##### On Debian systems (Ubuntu/LinuxMint/ElementryOS), members of the `sudo` group have sudo privileges. 
+```
+$ sudo usermod -aG sudo username
+```
+
+## How to Create a Group 
+
+To create a  group, use the command `groupadd` 
+```
+$ sudo groupadd groupname
+```
+
+## How to delete group 
+
+To delete a group, use the command 'groupdel'
+
+``` 
+$ sudo groupdel grouname 
+``
+
+
 #### References
   <a href='https://www.digitalocean.com/community/tutorials/how-to-add-and-delete-users-on-ubuntu-16-04' target='_blank' rel='nofollow'>Debian(Ubuntu)</a>
 

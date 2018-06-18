@@ -74,9 +74,6 @@ Most common operations available on List are,
 * Polynomial Representation  
 * Ring Buffer  
 
-#### More Information:
-* <a href='http://www.geeksforgeeks.org/linked-list-set-1-introduction/' target='_blank' rel='nofollow'>Introduction to Linked Lists</a>
-
 Drawbacks:
 1) Random access is not allowed. We have to access elements sequentially starting from the first node. So we cannot do binary search with linked lists.
 2) Extra memory space for a pointer is required with each element of the list
@@ -241,3 +238,6 @@ int main()
   return 0;
 }
 ```
+#### More Information:
+* <a href='http://www.geeksforgeeks.org/linked-list-set-1-introduction/' target='_blank' rel='nofollow'>Introduction to Linked Lists</a>
+* <a href='https://www.youtube.com/watch?v=njTh_OwMljA' target='_blank' rel='nofollow'>Linked Lists (YouTube video)</a>
