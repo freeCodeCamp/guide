@@ -11,7 +11,7 @@ const propTypes = {
   postBodyComponents: PropTypes.array
 };
 
-export default class HTML extends React.Component {
+class HTML extends React.Component {
   render() {
     const head = Helmet.rewind();
     return (
@@ -35,3 +35,5 @@ export default class HTML extends React.Component {
 }
 
 HTML.propTypes = propTypes;
+
+export default HTML;

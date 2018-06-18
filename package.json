@@ -18,15 +18,15 @@
     "eslint-plugin-import": "^2.3.0",
     "eslint-plugin-react": "^7.0.0",
     "fs-extra": "^3.0.1",
-    "gatsby": "next",
-    "gatsby-plugin-google-analytics": "next",
-    "gatsby-plugin-react-helmet": "next",
-    "gatsby-plugin-sass": "next",
-    "gatsby-plugin-sitemap": "next",
-    "gatsby-remark-prismjs": "next",
-    "gatsby-remark-smartypants": "next",
-    "gatsby-source-filesystem": "next",
-    "gatsby-transformer-remark": "next",
+    "gatsby": "^2.0.0-beta.1",
+    "gatsby-plugin-google-analytics": "^2.0.0-beta.1",
+    "gatsby-plugin-react-helmet": "^3.0.0-beta.1",
+    "gatsby-plugin-sass": "^2.0.0-beta.1",
+    "gatsby-plugin-sitemap": "^2.0.0-beta.1",
+    "gatsby-remark-prismjs": "^3.0.0-beta.1",
+    "gatsby-remark-smartypants": "^2.0.0-beta.1",
+    "gatsby-source-filesystem": "^2.0.1-beta.1",
+    "gatsby-transformer-remark": "^2.1.1-beta.1",
     "lodash": "^4.17.5",
     "node-sass": "^4.9.0",
     "prettier": "^1.13.5",
@@ -49,6 +49,7 @@
     "chai": "^4.1.2",
     "chalk": "^2.0.1",
     "mocha": "^5.2.0",
+    "postcss-loader": "^2.1.5",
     "pre-commit": "^1.2.2"
   },
   "keywords": [
@@ -71,5 +72,8 @@
   "pre-commit": [
     "pre-commit-message",
     "lint"
+  ],
+  "browserslist": [
+    ">0.25%"
   ]
 }
