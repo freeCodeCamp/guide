@@ -60,9 +60,7 @@ class NavPanel extends PureComponent {
             'caret ' + (isExpanded ? 'caretStyle expanded' : 'caretStyle')
           }
         />
-        <span onClick={this.props.toggleDisplaySideNav}>
-          { title }
-        </span>
+        <span onClick={this.props.toggleDisplaySideNav}>{title}</span>
       </div>
     );
   }

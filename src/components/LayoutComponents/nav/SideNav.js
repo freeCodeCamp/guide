@@ -93,10 +93,10 @@ class SideNav extends Component {
       }
       return (
         <NavItem
-          isStubbed={ child.isStubbed }
-          key={ child.path }
-          path={ child.path }
-          title={ child.title }
+          isStubbed={child.isStubbed}
+          key={child.path}
+          path={child.path}
+          title={child.title}
           toggleDisplaySideNav={this.props.toggleDisplaySideNav}
         />
       );
