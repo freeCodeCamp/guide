@@ -116,7 +116,7 @@ Explain solution here and add any relevant links
       };
       //Use map function to return a filtered str with all entities changed automatically.
       return str.split('').map(function(entity){
-        return htmlEntities<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>entity] || entity;
+        return htmlEntities[entity] || entity;
       }).join('');
     }
 
