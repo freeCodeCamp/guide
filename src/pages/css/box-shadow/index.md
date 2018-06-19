@@ -2,6 +2,7 @@
 title: Box Shadow
 ---
 ## Box Shadow
+
 The `box-shadow` property attaches one or more shadows around the frame of an element (can be inside). It's an option that give you the power to easily design wonderful shadow effects. Box shadows are a great way to elevate the visuals of your web page.
 
 A box shadow can be described with several properties including:
@@ -47,10 +48,10 @@ However, this step can be ignored if it is creating confusion, as moz property a
 #### Basic use
 ```css
 div {
-    width: 200px;
-    height: 50px;
-    background-color: #333;
-    box-shadow: 10px 10px 5px #ccc;
+  width: 200px;
+  height: 50px;
+  background-color: #333;
+  box-shadow: 10px 10px 5px #ccc;
 }
 ```
 10px - offset-x
@@ -65,12 +66,12 @@ It will display
 #### Inside box shadow
 ```css
 div {
-    width: 200px;
-    height: 50px;
-    background-color: #333;
-    box-shadow: inset 10px 10px 5px #ccc;
+  width: 200px;
+  height: 50px;
+  background-color: #333;
+  box-shadow: inset 10px 10px 5px #ccc;
 }
 ```
-It uses very similar code, but with inset value, which displays shadow inside div element
+It uses very similar code, but with inset value, which displays shadow inside the div element
 
 ![image](https://raw.githubusercontent.com/krzysiekh/images/master/box-shadow2.png)
