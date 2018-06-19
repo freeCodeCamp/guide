@@ -71,7 +71,7 @@
   },
   "pre-commit": [
     "pre-commit-message",
-    "lint"
+    "format"
   ],
   "browserslist": [
     ">0.25%"
