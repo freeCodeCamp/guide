@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import Panel from 'react-bootstrap/lib/Panel';
-import { navigateTo } from 'gatsby';
+import { push } from 'gatsby';
 
 const propTypes = {
   children: PropTypes.any,
@@ -48,11 +48,11 @@ class NavPanel extends PureComponent {
   handleHeaderClick() {
     const { path, handleClick } = this.props;
     handleClick(path);
-    navigateTo(path);
+    push(path);
   }
 
   renderHeader() {
-    const { isExpanded, title } = this.props;
+    const { isExpanded, title, toggleDisplaySideNav } = this.props;
     return (
       <div className='title' onClick={this.handleHeaderClick}>
         <span
@@ -60,7 +60,7 @@ class NavPanel extends PureComponent {
             'caret ' + (isExpanded ? 'caretStyle expanded' : 'caretStyle')
           }
         />
-        <span onClick={this.props.toggleDisplaySideNav}>{title}</span>
+        <span onClick={toggleDisplaySideNav}>{title}</span>
       </div>
     );
   }
