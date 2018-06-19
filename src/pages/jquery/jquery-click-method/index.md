@@ -10,6 +10,7 @@ The jQuery Click method triggers an function when an element is clicked. The fun
 $("#clickMe").click(handler)
 ```
 
+
 The click method takes the handler function and executes it every time the element `#clickMe` is clicked. The handler function receives a parameter known as an [eventObject](http://api.jquery.com/Types/#Event) that can be useful for controlling the action. 
 
 #### Examples
