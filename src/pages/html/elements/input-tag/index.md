@@ -14,31 +14,31 @@ An input with "type='text'" will produce a single line field where any informati
 
 ### The most common types used
 
-text: A single-line text field.
+* `text`: A single-line text field.
 
-button: A button with no default behavior.
+* `button`: A button with no default behavior.
 
-submit: A button that submits the form.
+* `submit`: A button that submits the form.
 
-checkbox: A check box allowing values to be selected/deselected.
+* `checkbox`: A check box allowing values to be selected/deselected.
 
-date:  For entering a date (year, month, and day).
+* `date`:  For entering a date (year, month, and day).
 
-email: For editing an e-mail address.
+* `email`: For editing an e-mail address.
 
-file: Lets the user select a file.
+* `file`: Lets the user select a file.
 
-hidden: Not displayed but its value is submitted to the server.
+* `hidden`: Not displayed but its value is submitted to the server.
 
-number: For entering a number.
+* `number`: For entering a number.
 
-password: A single-line text field whose value is obscured.
+* `password`: A single-line text field whose value is obscured.
 
-radio: A radio button, allowing a single value to be selected out of multiple choices.
+* `radio`: A radio button, allowing a single value to be selected out of multiple choices.
 
-range: A control for entering a number.
+* `range`: A control for entering a number.
 
-url: For entering a URL.
+* `url`: For entering a URL.
 
 Example:
 ```html
@@ -49,17 +49,20 @@ Example:
 <input type="password">
 ```
 
-Inputs come with alot of predetermined attributes.
+Inputs come with a lot of predetermined attributes.
+
 Some commonly found attributes include autocomplete, checked and placeholder.
 
 ```html
 <input type="text" placeholder="This is a placeholder">
 ```
+
 In the above instance, an area within which input can be entered is rendered, with the placeholder stating "This is a placeholder". Once the input line is clicked and a key is pressed, the placeholder disappears and is replaced by your own input.
 
 ```html
 <input type="checkbox" checked>
 ```
+
 In this instance, a checkbox appears and it is checked by default due to the attribute 'checked'.
 
 There are many different types of inputs and associated attributes that can all be found on the link found below.
