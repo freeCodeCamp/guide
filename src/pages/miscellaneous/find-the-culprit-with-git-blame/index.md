@@ -9,8 +9,4 @@ Shows what revision and author last modified each line of a file and blame them.
 
 **Reference:** <a href='https://git-scm.com/docs/git-blame' target='_blank' rel='nofollow'>https://git-scm.com/docs/git-blame</a>
 
-## 
-
-<div class="lightbox-wrapper">[![](//discourse-user-assets.s3.amazonaws.com/optimized/2X/2/24c2d8e7e137c454cd182222b6a38054a09c6889_1_488x500.png)
-
-<div class="meta"><span class="filename">xancoby.png</span><span class="informations">572x585 62.5 KB</span><span class="expand"></span></div>](//discourse-user-assets.s3.amazonaws.com/original/2X/2/24c2d8e7e137c454cd182222b6a38054a09c6889.png "xancoby.png") </div>
+![](//discourse-user-assets.s3.amazonaws.com/original/2X/2/24c2d8e7e137c454cd182222b6a38054a09c6889.png)
