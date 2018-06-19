@@ -1,7 +1,7 @@
 ---
-title: Article
+title: Article Tag
 ---
-## Article
+## Article Tag
 
 The `<article>` tag represents self-contained content in a document. The article should be independent from the rest of page, intended to be distributable and reusable.
 

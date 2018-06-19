@@ -1,8 +1,8 @@
 ---
-title: Body
+title: Body Tag
 ---
 
-## Body
+## Body Tag
 
 The `<body>` tag contains the content for a webpage. Along with `<head>`, it is one of the two required elements of an HTML document. `<body>` must be the second child of an `<html>` element. There can only be one `<body>` element on a page.
 
