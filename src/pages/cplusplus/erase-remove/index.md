@@ -29,7 +29,7 @@ v.erase(std::remove_if(v.begin(), v.end(), is_odd), v.end());
 
 As you can see, the code with hand-written loop requires a bit more typing, but it also has a performance issue. Each `erase` call has to move forward all the elements after the deleted one, to avoid "gaps" in the collection. Calling `erase` multiple times on the same container generates lots of overhead of moving the elements.
 
-On the other hand, the code with the erase–remove idiom is not only more expressive, but it also is more efficient. First, you use `remove_if/remove` to move all elements which don't fit the remove criteria to the front of the range, keeping the relative order of the elements. So after calling `remove/remove_if`, a single call of `erase` deletes all remaining elements at the end of the range.
+On the other hand, the code with the erase–remove idiom is not only more expressive, but it also is more efficient. First, you use `remove_if/remove` to move all elements which don't fit the remove criteria to the front of the range, keeping the relative order of the elements. So after calling `remove_if/remove`, a single call of `erase` deletes all remaining elements at the end of the range.
 
 ### Example
 
