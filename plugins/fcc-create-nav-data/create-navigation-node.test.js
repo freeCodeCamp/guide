@@ -1,3 +1,4 @@
+const path = require('path');
 const { expect } = require('chai');
 
 const { createNavigationNode } = require('./create-navigation-node');
@@ -22,9 +23,10 @@ describe('fcc-create-nav-data', () => {
       frontmatter: {
         title: 'File Writing'
       },
-      fileAbsolutePath:
-        '/home/stuart/guides/src/pages/php/functions/files' +
-        '/file-writing/index.md'
+      fileAbsolutePath: path.resolve(
+        __dirname,
+        '../../src/pages/php/functions/files/file-writing/index.md'
+      )
     };
 
     it('should return an object', () => {
