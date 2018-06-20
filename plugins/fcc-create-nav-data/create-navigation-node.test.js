@@ -1,9 +1,9 @@
+const path = require('path');
 const { expect } = require('chai');
 
 const { createNavigationNode } = require('./create-navigation-node');
 
-describe('fcc-creat-nav-data', () => {
-
+describe('fcc-create-nav-data', () => {
   describe('create-vanigation-node', () => {
     const mockNode = {
       internal: {
@@ -23,9 +23,10 @@ describe('fcc-creat-nav-data', () => {
       frontmatter: {
         title: 'File Writing'
       },
-      fileAbsolutePath:
-        '/home/stuart/guides/src/pages/php/functions/files' +
-        '/file-writing/index.md'
+      fileAbsolutePath: path.resolve(
+        __dirname,
+        '../../src/pages/php/functions/files/file-writing/index.md'
+      )
     };
 
     it('should return an object', () => {
@@ -78,7 +79,5 @@ describe('fcc-creat-nav-data', () => {
       const result = createNavigationNode(notAStub);
       expect(result.isStubbed).to.equal(false);
     });
-
   });
-
 });

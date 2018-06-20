@@ -14,18 +14,9 @@ function NavItem(props) {
   const { isStubbed, path, title } = props;
   return (
     <li>
-      <Link
-        data-navitem='true'
-        onClick={props.toggleDisplaySideNav}
-        to={ path }
-        >
-        <span
-          className={
-            'navItemTitle' +
-            ( isStubbed ? ' stubbed' : '' )
-          }
-          >
-          { title }
+      <Link data-navitem='true' onClick={props.toggleDisplaySideNav} to={path}>
+        <span className={'navItemTitle' + (isStubbed ? ' stubbed' : '')}>
+          {title}
         </span>
       </Link>
     </li>

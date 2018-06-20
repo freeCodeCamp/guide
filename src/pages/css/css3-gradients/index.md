@@ -68,7 +68,7 @@ The following example shows a linear gradient that starts from the left. It star
 <style>
 #grad1 {
     height: 200px;
-    background: red; /* For browsers that do not support gradients */    
+    background: red; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(left, red , green); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(right, red, green); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(right, red, green); /* For Firefox 3.6 to 15 */
@@ -108,7 +108,7 @@ The following example shows a linear gradient that starts at top left (and goes 
 <style>
 #grad1 {
     height: 200px;
-    background: red; /* For browsers that do not support gradients */    
+    background: red; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(left top, red, green); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(bottom right, red, green); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(bottom right, red, green); /* For Firefox 3.6 to 15 */
