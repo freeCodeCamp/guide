@@ -11,6 +11,17 @@ const propTypes = {
   postBodyComponents: PropTypes.array
 };
 
+let css;
+if (process.env.NODE_ENV === 'production') {
+  css = (
+    <style
+      dangerouslySetInnerHTML={{
+        __html: require('!raw!../public/styles.css')
+      }}
+    />
+  );
+}
+
 class HTML extends React.Component {
   render() {
     const head = Helmet.rewind();
@@ -20,6 +31,7 @@ class HTML extends React.Component {
           {preloads}
           {this.props.headComponents}
           {metaAndStyleSheets}
+          {css}
           <title>freeCodeCamp Guide</title>
         </head>
         <body>

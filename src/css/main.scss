@@ -104,7 +104,8 @@
   background: #006400;
   display: flex;
   align-items: center;
-  min-height: 40px;
+  min-height: 38px !important;
+  max-height: 38px;
   border: none;
   border-radius: 0;
 }
