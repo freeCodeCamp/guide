@@ -11,6 +11,9 @@ In a traditional webpage, you could easily render `Hello World!` to the screen b
   <head>
     <title>Test Page</title>
   </head>
+  <style>
+    p { color: red; font-size: 15px; }
+  </style>
   <body>
     <p>Hello World!</p>
   </body>
@@ -32,7 +35,12 @@ class App extends Component {
     );
   }
 }
-
+const styles = {
+  textStyle: {
+    color: red,
+    fontSize: 15
+  }
+}
 AppRegistry.registerComponent(‘AwesomeProject’, () => App);
 ```
 
