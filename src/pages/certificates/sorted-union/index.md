@@ -39,7 +39,7 @@ You will have to check if the current value is already on the array to be return
 
     function uniteUnique(arr1, arr2, arr3) {
       // Creates an empty array to store our final result.
-      var finalArray = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>];
+      var finalArray = [];
 
       // Loop through the arguments object to truly made the program work with two or more arrays
       // instead of 3.
@@ -98,7 +98,7 @@ You will have to check if the current value is already on the array to be return
     }
 
     // test here
-    uniteUnique(<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>1, 3, 2], [5, 2, 1, 4], [2, 1]);
+    uniteUnique([1, 3, 2], [5, 2, 1, 4], [2, 1]);
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLnO/0' target='_blank' rel='nofollow'>Run Code</a>
 
@@ -118,7 +118,7 @@ You will have to check if the current value is already on the array to be return
 ## ![:rotating_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:") Advanced Code Solution:
 
     function uniteUnique() {
-      var concatArr = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>];
+      var concatArr = [];
       var i = 0;
       while (arguments[i]){
         concatArr = concatArr.concat(arguments[i]); i++;
@@ -152,7 +152,7 @@ You will have to check if the current value is already on the array to be return
     function uniteUnique(arr) {
 
       //make an array out of arguments and flatten it (using the spread operator)
-      const args = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>].concat(...arguments);
+      const args = [].concat(...arguments);
 
       // create a Set
       return [...new Set(args)];
