@@ -9,7 +9,7 @@ Primarily, Java has the following constructs for flow control:
 
 *   `if`
     ```java
-    if( <expression that results in a boolean>){
+    if( <expression that results in a boolean> ){
         //code enters this block if the above expression is 'true'
     }
     ```
@@ -76,11 +76,11 @@ One of the ways to represent this will be:
 int cash = 150;
 String company = "friends";
 
-if(cash<25){
+if( cash < 25 ){
     getCoffee();
-} else if(cash < 60){
+} else if( cash < 60 ){
     getDecentMeal();
-} else if(cash < 100){
+} else if( cash < 100 ){
     getDecentMeal();
     getGlassOfWine();
 } else {

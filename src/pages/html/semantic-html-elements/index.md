@@ -12,18 +12,13 @@ Since webpages so often display `<em>` in *italics*, beginning developers may th
 
 While the visual result may be the same, the semantic meaning of the two tags is different. The `<em>` tag indicates that its content is emphasized, while the `<i>` tag represents text that is set apart from the surrounding text, such as with a foreign language, a fictional character's thoughts, or the definition of a word. On the other hand, the title of a book, movie, musical composition, or another work should use the `<cite>` tag.
 
-```html
-<p>I just <em>can't</em> handle this right now!</p>
-```
+A semantic element clearly describes its meaning to both the browser and the developer.
 
-In this example, the word "can't" is emphasized: I just <em>can't</em> handle this right now!
+Examples of non-semantic elements: `<div>` and `<span>` - Tells nothing about its content.
 
-```html
-<p>His art had a certain <i>je ne sais quoi</i>.</p>
-```
+Examples of semantic elements: `<form>`, `<table>`, and `<article>` - Clearly defines its content.
 
-In this example, the French text is set off from the rest of the sentence: His art had a certain <i>je ne sais quoi</i>.
-
-#### More Information
+#### More Information:
+For more information: https://codepen.io/mi-lee/post/an-overview-of-html5-semantics
 
 Refer to the [MDN Web Docs article](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em).

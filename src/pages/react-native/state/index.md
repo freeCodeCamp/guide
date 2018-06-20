@@ -27,8 +27,8 @@ class App extends Component {
     return (
       <View>
         <Text>Count: {this.state.counter}</Text>
-        <Button onPres={this.decrementCount.bind(this)}>-</Button>
-        <Button onPres={this.incrementCount.bind(this)}>+</Button>
+        <Button onPress={this.decrementCount.bind(this)}>-</Button>
+        <Button onPress={this.incrementCount.bind(this)}>+</Button>
       </View>
     );
   }

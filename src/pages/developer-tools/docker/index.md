@@ -3,16 +3,31 @@ title: Docker
 ---
 [logo]: https://www.docker.com/sites/default/files/Whale%20Logo332_5.png "Docker"
 
-Docker is an open-source software aimed at facilitating application deployment. It offers the possibility to build containers, including an operating system, libraries and all you need to run your application. Therefore, your application can then be deployed on any machine. Its lightweight structure enables you to run several containers on the same machine. A container image is a lightwieght, stand-alone, execuateble package of a piece of software that includes everything need to run it.
+Docker is an open-source software aimed at facilitating application deployment. It offers the possibility to build containers, including an operating system,
+libraries and all you need to run your application. Therefore, your application can then be deployed on any machine. Its lightweight structure enables you to
+run several containers on the same machine. A container image is a lightwieght, stand-alone, execuateble package of a piece of software that includes everything
+needed to run it.
 
-Docker is available for both Windows and Linux environment. Docker container running on a single machine share that machine's oprating system kernel. Docker container isolates applications from one another. Similar to Github, DockerHub offers a wide variety of images (Ubuntu and others), on which containers are built.
+### Features
+Docker containers running on a single machine share that machine's operating system kernel; they start instantly and use less compute and RAM. Images are
+constructed from filesystem layers and share common files. This minimizes disk usage and image downloads are much faster.
+
+Docker containers are based on open standards and run on all major \*nix distributions, Microsoft Windows, and on any infrastructure including VMs, bare-metal
+and in the cloud.
+
+Docker containers isolate applications from one another and from the underlying infrastructure. Docker provides the strongest default isolation to limit app
+issues to a single container instead of the entire machine.
+
+## Overview
+A container image is a lightweight, stand-alone, executable package of a piece of software that includes everything needed to run it: code, runtime, system tools, system libraries, settings. Available for both Linux and Windows based apps, containerized software will always run the same, regardless of the environment. Containers isolate software from its surroundings, for example differences between development and staging environments and help reduce conflicts between teams running different software on the same infrastructure.
+
+### See also
+- Docker Compose : to create and manage several containers at the same time.
 
 ### Container Vs. Virtual Machines
 
 * Container virtualises the Operating System and more portable, where as VMs virtualises the Hardware. 
-
 * Container are an abstraction at the app layer that packages code and dependencies togehter. VMs are an abstraction of physical hardware turning one server into many. Hypervisor helps VM to do so.
-
 * [CONTAINERS ARE NOT VMS](https://blog.docker.com/2016/03/containers-are-not-vms/)
 
 
@@ -54,5 +69,3 @@ You can find plenty of informations in the following sites :
 - <a href='https://www.docker.com/' target='_blank' rel='nofollow'>Docker website</a>
 - <a href='https://docs.docker.com/' target='_blank' rel='nofollow'>Docker docs</a>
 - <a href='https://hub.docker.com/' target='_blank' rel='nofollow'>DockerHub</a>
-
-

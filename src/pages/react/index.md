@@ -1,7 +1,21 @@
 ---
-title: React from Scratch
+title: React
 ---
 # React
+
+React is a JavaScript library for building user interfaces.
+
+Because React is a JavaScript library, React runs in the browser, NOT on the server. This makes React very fast due to not having to wait for server responses. 
+
+React is used for building user interfaces: User interfaces is what the user sees on their screen and interacts with to use your web app. This interface is split up into components, instead of having one huge page you break it up into smaller pieces known as components. In more general terms, this approach is called Modularity.
+
+It's declarative: React uses a declarative paradigm that makes it easier to reason about your application. It's efficient: React computes the minimal set of changes necessary to keep your DOM up-to-date. And it's flexible: React works with the libraries and frameworks that you already know.
+
+React is efficient: React computes the minimal set of changes necessary to keep your DOM up-to-date. 
+
+And React is flexible: React works with the libraries and frameworks that you already know.
+
+## React from Scratch
 
 Would you like to get started learning the basics of react without getting bogged down creating a development environment?
 Chances are that if you are new to web development that setting up a development environment can leave you feeling a little intimidated when you are just trying to learn React or just learn about React for the first time.
@@ -167,17 +181,6 @@ Some reasons to use React are:
 3. Scalable. Large programs that display a lot of changing data are where React performs best.
 4. Flexible. You can use React for interesting projects that have nothing to do with making a web app. People are still figuring out React's potential. [There's room to explore](https://medium.mybridge.co/22-amazing-open-source-react-projects-cb8230ec719f).
 
-### Tutorials
-<a href='https://egghead.io/browse/frameworks/react' target='_blank' rel='nofollow'>Egghead.io React</a>
-
-### People to Follow
-* <a href='https://twitter.com/dan_abramov' target='_blank' rel='nofollow'>Dan Abramov Twitter</a>
-
-#### More Information
-* [https://reactjs.org/](https://reactjs.org/)
-
-
-
 ### Virtual DOM
 React's magic comes from it's interpretation of the DOM and it's strategy for creating UIs.
 
@@ -227,3 +230,9 @@ Example
 Declarative programming  comes with  certain advantages such as reduced side effects(occurs when we modify any state or mutating something or making an API request), minimizing mutability(as lot of is abstracted), enhanced readability, lesser bugs.
 
 3.	Unidirectional dataflow. UI in react is actually the function of the state that means as the state updates it updates the UI as well. So our UI progresses as the state changes.
+
+### More Information:
+
+- <a href='https://twitter.com/dan_abramov' target='_blank' rel='nofollow'>Dan Abramov's Twitter</a>
+- Tutorials at <a href='https://egghead.io/browse/frameworks/react' target='_blank' rel='nofollow'>Egghead.io React</a>
+- [https://reactjs.org/](https://reactjs.org/)

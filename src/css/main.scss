@@ -67,7 +67,7 @@
 /* Layout */
 
 .content {
-  overflow-y: scroll;
+  overflow-y: auto;
   height: 92vh;
 
   img {
@@ -79,6 +79,22 @@
     display: inline-block;
     width: 20px;
     height: 20px;
+  }
+}
+
+/* Search */
+
+.fcc_searchBar {
+  width: 100%;
+
+  .ais-Hits {
+    background-color: white;
+    width: 60%;
+  }
+  @media (max-width: 400px) {
+    .ais-Hits {
+      width: 80%;
+    }
   }
 }
 
@@ -148,7 +164,25 @@
   }
 }
 
-/* NoResults/404 */
+/* Navbar Toggle */
+
+.navbar-toggle {
+  border: 1px solid #fff;
+  margin-left: 10px;
+  margin-right: 0px;
+}
+
+.navbar-toggle .icon-bar{
+  background-color: #fff;
+}
+
+@media (max-width: 992px) {
+  .navbar-toggle  {
+    display: block;
+  }
+}
+
+/* 404 */
 
 .flexWrapper {
   align-items: center;
@@ -176,77 +210,6 @@
   color: #fff;
   background: #006400;
   border-color: #fff;
-}
-
-/* NoSupport */
-
-.browserIcon {
-  color: rgb(0, 100, 0);
-  opacity: 0.5;
-  transition: opacity 150ms ease-in-out;
-}
-
-.browserIcon:hover {
-  opacity: 1;
-}
-
-.row-fluid {
-  min-width: 100%;
-}
-
-.flexSpaceAround {
-  justify-content: space-around;
-  display: flex;
-}
-
-/* ResultsSkeleton */
-
-@keyframes fadeInOut {
-  0% {
-    opacity: 0.6;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0.6;
-  }
-}
-
-.skeleton {
-  animation: 2s linear 0s;
-  animation-name: fadeInOut;
-  animation-iteration-count: infinite;
-  border-radius: 4px;
-}
-
-.iconSkeleton {
-  background: #eee;
-  height: 42px;
-  width: 36px;
-}
-
-.textSkeleton {
-  color: #eee;
-  background: #eee;
-}
-
-/* SearchPage */
-
-.resultIcon {
-  color: rgba(0, 100, 0, 0.5);
-  margin-right: 6px;
-}
-
-.searchResults {
-  display: flex;
-  flex-direction: column;
-  padding: 5px;
-  width: 100%;
-  .breadcrumb {
-    padding: 1px 2px;
-    background: white;    
-  }
 }
 
 /* SideNav */
@@ -293,6 +256,13 @@
   position: relative;
 }
 
+@media (max-width: 992px) {
+  .sideNav {
+    overflow-y: auto;
+    max-height: none;
+  }
+}
+
 .stubbed {
   color: #777;
 }
@@ -321,12 +291,12 @@
 }
 
 @media (max-width: 992px){
- 
+
   .content {
     overflow-y: hidden;
     height: 100%;
   }
-  
+
 }
 
 .skip-link {

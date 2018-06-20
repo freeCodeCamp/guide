@@ -40,7 +40,7 @@ foo; // 47.3
 bar; // 47
 ```
 
-Very large or very small `number`s can be written as:
+Very large or very small `numbers` can be written as:
 
 ```javascript
 var foo = 47e8; // 4700000000

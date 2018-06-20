@@ -19,7 +19,5 @@ In order to remain safe from Trojans, you should always download programs from r
 &nbsp;
 
 #### More Information:
-
+<a href='https://en.wikipedia.org/wiki/Trojan_horse_(computing)' target='_blank' rel='nofollow'>Trojan Horses on Wikipedia</a>.
 <a href="https://www.avg.com/en/signal/what-is-a-trojan">Trojan Horse Fundamentals - AVG</a>
-
-

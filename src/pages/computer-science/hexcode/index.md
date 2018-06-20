@@ -3,21 +3,27 @@ title: Hexcode
 ---
 ## Hexcodes
 
-Hexcode, short for Hexadecimal code, is a special way to write numbers, mostly used in Web development to express a color value. Hexadecimal code is also known as Base Sixteen, where similarly, Binary code is Base Two. It is named this way because 16 unique symbols can be used as values.  In this case, the numbers 0 to 9 and letters a to f are used.
+In mathematics and computing, hexadecimal (also base 16, or hex) is a positional numeral system with a radix, or base, of 16. It uses sixteen distinct symbols, most often the symbols 0–9 to represent values zero to nine, and A, B, C, D, E, F (or alternatively a, b, c, d, e, f) to represent values ten to fifteen.
 
-Hex colors are expressed in this format: #000000, which would be the color black in this instance. Six characters are used in each hex color, using any of the 16 characters mentioned previously. These six characters are divided into three pairs of two.
+Hex colors are broken up into six hexadecimal digits. There are three sections - Red, Green, and Blue (in that order). Each section is a number from 00 to FF. The higher the number/letter, the more of that color you have.
 
-These three pairs each express a value for the amount of red, green and blue in a particular color. Taking the hexcode color #AA11BB, AA is the amount of red, 11 the amount of green, and BB the amount of blue. 0 is the lowest value of a color while f is the highest value.
+There are 16,777,216 possible color combinations using hexcode.
 
-Hex codes are case insensitive, meaning that #FFFFFF and #ffffff would be the same color: white.
+#### Examples:
 
-You may be most familiar with Hexadecimal code when using it for specifying color in your CSS files. There are 16,777,216 possible color combinations using hexcode.
+Pure red is FF0000
+Pure green is 00FF00
+Pure blue is 0000FF
+Black is 000000
+White is FFFFFF
+
+
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
-[Wikipedia article about Hexadecimal code](https://en.wikipedia.org/wiki/Hexadecimal)
-
-[More information on colors in CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value)
-
-[Explore different Hex colors](http://www.colorhexa.com/)
+* [Wikipedia article about Hexadecimal code](https://en.wikipedia.org/wiki/Hexadecimal)
+* [Wikipedia article about web colors](https://en.wikipedia.org/wiki/Web_colors)
+* [Hex Colors](http://www.color-hex.com/)
+* [Medium article on hex color code](https://medium.com/webkul-dev/hex-color-codes-27cd0a37c3ce)
+* [More information on colors in CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value)
+* [Explore different Hex colors](http://www.colorhexa.com/)

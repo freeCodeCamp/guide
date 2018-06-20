@@ -1,26 +1,70 @@
 ---
 title: HTML Entities
 ---
-## HTML Entities
 
-HTML entites are a way to print some special characters, and be sure they will be displayed correctly, no matter what the charater encoding will be used either to create the HTML file itself, or to display the page on the client browser. Moreover that's a convenient way to put some invisible or not visually distinctive characters, like non-breaking space, N- or M-dash, exactly upper or lower quotes etc. It also gives an ability to display any character you need as long as you know its number in Unicode characters chart.
+# HTML Entities
 
-An entity in HTML is encoded with ampersand, entity code/name and a semicolon. Like &ndash; (name) or &#x02013; (hex-code) or
-&#8211; (decimal code) - these three variants encode the same N-dash symbol.
+## Overview
 
-HTML entities are used to replace reserved characters. If you use the less than (<) or more than (>) character in your text, your browser might confuse the character for part of an HTML tag.
+###	What are HTML Entities?
 
-## Examples
+HTML entities are characters that are used to replace reserved characters in HTML or for characters that do not appear on your keyboard. Some characters are reserved in HTML. If you use the less than(<) or greater than(>) signs in your text, the browser might mix them up with tags.
 
-Character | HTML entity(name) | HTML entity(number)
-----------|-------------------|--------------------
-&amp; ampersand|\&amp;|\&#38;
-&copy; copyright|\&copy;|\&#169;
-&quot; double quote|\&quot;|\&#34;
-&apos; single quote|\&apos;|\&#39;
-&lt; less than|\&lt;|\&#60;
-&lt; greater than|\&gt;|\&#62;
+###	What are they used for?
+  
+As mentioned about HTML entities are used in order to replace reserved characters that are reserved by HTML.
+
+### How do you use them?
+
+A character entity looks similar to this:
+```html
+<!-- format &[entity_name]; -->
+<!-- example for a less-than sign (<) -->
+&lt;
+```
+Or
+```html
+<!-- &#[entity_number]; -->
+<!-- example for a less-than sign (<) -->
+&#60;
+```
+  
+## Reference Guide
+
+This is by no means an exhaustive list but the links below will be able to give you more entities if the ones below do not work for your needs. Happy Coding :bowtie: 
+
+
+| Character | Entity Name | Entity Number |	Description |
+|-------|-----------|-----------|-------|
+|       |           | `&#32;`   | Space |
+|   !   |           | `&#33;`   | Exclamation mark |
+|   "   |	          | `&#34;`   | Quotation mark |
+|   #   |	          | `&#35;`   | Number sign |
+|   $   |           | `&#36;`   | Dollar sign |
+|   ¢   | `&cent;`  | `&#162;`  | Cent sign |
+|   €   | `&euro;`  | `&#8364;` | Euro sign | 
+|   £   | `&pound;` | `&#163;`  | GBP sign |
+|   ¥   | `&yen;`   | `&#165;`  | Yen sign |
+|   %   |	          | `&#37;`   | Percent sign |
+|   &   |	`&amp;`	  | `&#38;`   | Ampersand |
+|   '   |  		      | `&#39;`  	| Apostrophe |
+|   (   |  		      | `&#40;`   | Opening/Left Parenthesis |
+|    )  |  		      | `&#41;`   | Closing/Right Parenthesis |
+|   *   |  		      | `&#42;`   | Asterisk |
+|   +   |  		      | `&#43;`   | Plus sign|
+|   ,   |   		    | `&#44;`  	| Comma |
+|   -   |	  	      | `&#45;`  	| Hyphen |
+|   .   |	  	      | `&#46;`  	| Period |
+|   /   |   	      | `&#47;`  	| Slash |
+|   ©   | `&copy;`  | `&#169;`  | Copyright |
+|   ®   | `&reg;`   | `&#174;`  | Registered Trademark |
+|   "   | `&quot;`  | `&#34;`   | double quotation mark |
+|  `>`  |  `&gt;`   | `&#62;`   | Greater-than sign |
+|  `<`  |  `&lt;`   | `&#60;`   | Less-than sign |
+
 
 #### More Information:
-There are plenty of HTML entites references out there. One example is https://dev.w3.org/html5/html-author/charref
-the other one is at <a href="https://www.w3schools.com/html/html_entities.asp" target="_blank" rel="nofollow">W3Schools HTML Entities</a>
+There are plenty of HTML entites references out there; some examples are:
+* [Table of Entities - W3](https://dev.w3.org/html5/html-author/charref)
+* [W3 Schools](https://www.w3schools.com/html/html_entities.asp)
+* [Freeformatter](https://www.freeformatter.com/html-entities.html)
