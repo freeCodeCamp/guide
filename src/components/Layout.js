@@ -15,7 +15,7 @@ import logo from '../../assets/freeCodeCamp-logo.png';
 import glyph from '../../assets/freeCodeCamp-logo-glyph.png';
 
 import 'prismjs/themes/prism.css';
-import '../css/main.scss';
+import '../css/main.css';
 
 const propTypes = {
   children: PropTypes.any,
