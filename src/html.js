@@ -18,8 +18,8 @@ class HTML extends React.Component {
       <html lang='en'>
         <head>
           {preloads}
-          {this.props.headComponents}
           {metaAndStyleSheets}
+          {this.props.headComponents}
           <title>freeCodeCamp Guide</title>
         </head>
         <body>
