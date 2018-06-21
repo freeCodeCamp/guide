@@ -22,3 +22,5 @@ You will need to create a `button` element.
     <button type="submit">Submit</button>
   </form>
 ```
+
+You can use input tag for button as well.
