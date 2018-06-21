@@ -31,6 +31,16 @@ mixed_array.length # 3
 [].length # 0
 ```
 
+You can check the first element of an array with the `first` method:
+```ruby
+mixed_array.first # 5
+```
+
+You can check the last element of an array with the `last` method:
+```ruby
+mixed_array.last # true
+```
+
 #### Ruby Lambda
 A lambda is also commonly referred to as an anonymous function. To create a lambda in Ruby, you can use the following syntax:
 ```ruby
