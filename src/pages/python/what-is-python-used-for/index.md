@@ -3,20 +3,37 @@ title: What Is Python Used for
 ---
 ## What Is Python Used for
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-Python can be easily used for small, large, online and offline projects. The best options for utilizing Python are web development, simple scripting and data analysis. Below are a few examples of what Python will let you do:
+Python can be easily used for small, large, online and offline projects. The best options for utilizing Python are web development, simple scripting and data analysis.
+Below are a few examples of what Python will let you do:
 
 ##### Web Development:
-You can use Python to create web applications on many levels of complexity. There are many excellent Python web frameworks including, Pyramid, Django and Flask, to name a few.
+You can use Python to create web applications on many levels of complexity. There are many excellent Python web frameworks including, Pyramid, Django and Flask, to name
+a few.
 
 ##### Data Analysis:
-Python is the leading language of choice for many data scientists. Python has grown in popularity within the field due to the availability of many excellent libraries focused on data science (of which NumPy and Pandas are two of the most well-known) and data visualisation (like Matplotlib and Seaborn).
+
+Python is the leading language of choice for many data scientists. Python has grown in popularity within the field due to the availability of many excellent libraries
+focused on data science (of which NumPy and Pandas are two of the most well-known) and data visualisation (like Matplotlib and Seaborn). Pyton really made Data crunching
+fun with all its numerous available libraries. Ipython with JupyterLab is another form of Python that improves the usage of Python in the field of data science.
 
 ##### Automation:
-Python is a very flexible language that can be used to automate boring or repetitive tasks. System administrators often use it by writing scripts which can be easily executed from the terminal. Python can also be used to create bots which automate some of our daily tasks.
+Python is a very flexible language that can be used to automate boring or repetitive tasks. System administrators often use it by writing scripts which can be easily
+executed from the terminal. Python can also be used to create bots which automate some of our daily tasks.
 
 ##### Artificial Intelligence:
-Python is also used extensively in the growing field of Artificial Intelligence (AI). Google selected Python to be one of the first well-supported programming languages for [training and interacting with models] using Tensorflow.
+Python is also used extensively in the growing field of Artificial Intelligence (AI). Google selected Python to be one of the first well-supported programming languages
+for training and interacting with models using Tensorflow.
+
+#### Mobile app development
+Mobile apps and games can be created with python using Kivy, Pygame and PyQt.
+
+#### Security And Networking:
+Python is used to build Networking tools and security-tools that are widely used.Python's remote automation is the most secured, fast and efficient for cloud-testing of frameworks, that's why professional developers use python for making most secured frameworks and for socket-programmings.
+
+##### Machine Learning, Deep Learning
+Python is one of the best languages suited for machine learning, deep learning and data analytics with stronghold in all of them.
+There are specialized languages best suited for various role such as R and MATLAB but when it comes to overlapping fields of applications python wins hands down due to its flexibility and rapid prototyping and availability of libraries.
+
 
 #### More Information:
 Here's a <a href='https://www.python.org/about/apps/' target='_blank' rel='nofollow'>link</a> to a section of the official Python website describing its various applications.
@@ -37,6 +54,7 @@ Here's a <a href='https://www.python.org/about/apps/' target='_blank' rel='nofol
 * Rapid Prototyping
 * Browser Automation
 * Data analysis
+* Image Processing
 
 #### Some articles covering the usability of python
 
