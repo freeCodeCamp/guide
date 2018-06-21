@@ -1,26 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { BrowserRouter as Router } from 'react-router-dom';
-import { Provider } from 'react-redux';
+import { Router } from 'react-router-dom';
 
-import createStore from './src/store';
+import NavigationContextProvider from './src/contexts/NavigationContext';
 
-const propTypes = {
-    children: PropTypes.node.isRequired
-  };
-
-const store = createStore();
-
-exports.replaceRouterComponent = ({ history }) => {
-
-  const ConnectedRouterWrapper = ({ children }) => (
-    <Provider store={ store }>
-      <Router history={ history }>{ children }</Router>
-    </Provider>
-  );
-  ConnectedRouterWrapper.displayName = 'ConnectRouterWrapper';
-  ConnectedRouterWrapper.propTypes = propTypes;
-
-  return ConnectedRouterWrapper;
+export const replaceRouterComponent = ({ history }) => {
+    const ConnectedRouterWrapper = ({ children }) => (
+        <NavigationContextProvider>
+            <Router history={history}>{children}</Router>
+        </NavigationContextProvider>
+    );
+    ConnectedRouterWrapper.displayName = 'ConnectedRouterWrapper';
+    ConnectedRouterWrapper.propTypes = { children: PropTypes.any };
+    return ConnectedRouterWrapper;
 };
-
