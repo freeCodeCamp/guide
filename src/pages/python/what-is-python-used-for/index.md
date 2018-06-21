@@ -1,13 +1,14 @@
 ---
 title: What Is Python Used for
 ---
+
 ## What Is Python Used for
 
-Python can be easily used for small, large, online and offline projects. The best options for utilizing Python are web development, simple scripting and data analysis.
+Python can easily be used for small, large, online and offline projects. The best options for utilizing Python are web development, simple scripting and data analysis.
 Below are a few examples of what Python will let you do:
 
 ##### Web Development:
-You can use Python to create web applications on many levels of complexity. There are many excellent Python web frameworks including, Pyramid, Django and Flask, to name
+You can use Python to create web applications on many levels of complexity. There are many excellent Python web frameworks, including Pyramid, Django and Flask, to name
 a few.
 
 ##### Data Analysis:
@@ -28,16 +29,17 @@ for training and interacting with models using Tensorflow.
 Mobile apps and games can be created with python using Kivy, Pygame and PyQt.
 
 #### Security And Networking:
-Python is used to build Networking tools and security-tools that are widely used.Python's remote automation is the most secured, fast and efficient for cloud-testing of frameworks, that's why professional developers use python for making most secured frameworks and for socket-programmings.
+Python is used to build Networking tools and security-tools that are widely used.Python's remote automation is the most secured, fast and efficient for cloud-testing
+of frameworks, that's why professional developers use python for making most secured frameworks and for socket-programmings.
 
 ##### Machine Learning, Deep Learning
-Python is one of the best languages suited for machine learning, deep learning and data analytics with stronghold in all of them.
-There are specialized languages best suited for various role such as R and MATLAB but when it comes to overlapping fields of applications python wins hands down due to its flexibility and rapid prototyping and availability of libraries.
+Python is one of the best languages suited for machine learning, deep learning and data analytics with a stronghold in all of them.
 
+There are specialized languages best suited for various role such as R and MATLAB but when it comes to overlapping fields of applications python wins hands down due to
+its flexibility and rapid prototyping and availability of libraries.
 
 #### More Information:
 Here's a <a href='https://www.python.org/about/apps/' target='_blank' rel='nofollow'>link</a> to a section of the official Python website describing its various applications.
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
 #### Python is generally used for 
 
