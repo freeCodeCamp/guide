@@ -1,5 +1,5 @@
 ---
-title: Problem 399: Squarefree Fibonacci Numbers
+title: Squarefree Fibonacci Numbers
 ---
 ## Problem 399: Squarefree Fibonacci Numbers
 

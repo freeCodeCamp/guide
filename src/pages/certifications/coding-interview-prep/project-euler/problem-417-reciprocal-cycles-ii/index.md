@@ -1,5 +1,5 @@
 ---
-title: Problem 417: Reciprocal cycles II
+title: Reciprocal cycles II
 ---
 ## Problem 417: Reciprocal cycles II
 

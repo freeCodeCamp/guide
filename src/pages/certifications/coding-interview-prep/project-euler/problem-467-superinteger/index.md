@@ -1,5 +1,5 @@
 ---
-title: Problem 467: Superinteger
+title: Superinteger
 ---
 ## Problem 467: Superinteger
 

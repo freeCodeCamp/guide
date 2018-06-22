@@ -1,5 +1,5 @@
 ---
-title: Problem 262: Mountain Range
+title: Mountain Range
 ---
 ## Problem 262: Mountain Range
 

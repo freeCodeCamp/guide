@@ -1,5 +1,5 @@
 ---
-title: Problem 426: Box-ball system
+title: Box-ball system
 ---
 ## Problem 426: Box-ball system
 

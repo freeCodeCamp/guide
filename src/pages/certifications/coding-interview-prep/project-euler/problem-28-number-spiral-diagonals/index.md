@@ -1,5 +1,5 @@
 ---
-title: Problem 28: Number spiral diagonals
+title: Number spiral diagonals
 ---
 ## Problem 28: Number spiral diagonals
 

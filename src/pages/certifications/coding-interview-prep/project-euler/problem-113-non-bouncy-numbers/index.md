@@ -1,5 +1,5 @@
 ---
-title: Problem 113: Non-bouncy numbers
+title: Non-bouncy numbers
 ---
 ## Problem 113: Non-bouncy numbers
 

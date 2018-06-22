@@ -1,5 +1,5 @@
 ---
-title: Problem 451: Modular inverses
+title: Modular inverses
 ---
 ## Problem 451: Modular inverses
 

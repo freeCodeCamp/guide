@@ -1,5 +1,5 @@
 ---
-title: Problem 379: Least common multiple count
+title: Least common multiple count
 ---
 ## Problem 379: Least common multiple count
 

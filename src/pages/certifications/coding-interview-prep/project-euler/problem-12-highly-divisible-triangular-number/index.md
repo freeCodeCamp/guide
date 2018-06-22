@@ -1,5 +1,5 @@
 ---
-title: Problem 12: Highly divisible triangular number
+title: Highly divisible triangular number
 ---
 ## Problem 12: Highly divisible triangular number
 

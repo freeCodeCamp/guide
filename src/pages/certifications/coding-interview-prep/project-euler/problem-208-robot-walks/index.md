@@ -1,5 +1,5 @@
 ---
-title: Problem 208: Robot Walks
+title: Robot Walks
 ---
 ## Problem 208: Robot Walks
 

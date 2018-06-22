@@ -1,5 +1,5 @@
 ---
-title: Problem 148: Exploring Pascal's triangle
+title: Exploring Pascal's triangle
 ---
 ## Problem 148: Exploring Pascal's triangle
 

@@ -1,5 +1,5 @@
 ---
-title: Problem 36: Double-base palindromes
+title: Double-base palindromes
 ---
 ## Problem 36: Double-base palindromes
 

@@ -1,5 +1,5 @@
 ---
-title: Problem 139: Pythagorean tiles
+title: Pythagorean tiles
 ---
 ## Problem 139: Pythagorean tiles
 

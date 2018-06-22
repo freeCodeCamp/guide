@@ -1,5 +1,5 @@
 ---
-title: Problem 84: Monopoly odds
+title: Monopoly odds
 ---
 ## Problem 84: Monopoly odds
 

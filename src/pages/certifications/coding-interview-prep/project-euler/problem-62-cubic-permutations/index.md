@@ -1,5 +1,5 @@
 ---
-title: Problem 62: Cubic permutations
+title: Cubic permutations
 ---
 ## Problem 62: Cubic permutations
 

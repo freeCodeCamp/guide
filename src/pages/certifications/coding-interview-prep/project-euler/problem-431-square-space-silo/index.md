@@ -1,5 +1,5 @@
 ---
-title: Problem 431: Square Space Silo
+title: Square Space Silo
 ---
 ## Problem 431: Square Space Silo
 

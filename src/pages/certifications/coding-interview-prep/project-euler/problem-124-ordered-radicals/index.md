@@ -1,5 +1,5 @@
 ---
-title: Problem 124: Ordered radicals
+title: Ordered radicals
 ---
 ## Problem 124: Ordered radicals
 

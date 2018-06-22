@@ -1,5 +1,5 @@
 ---
-title: Problem 304: Primonacci
+title: Primonacci
 ---
 ## Problem 304: Primonacci
 

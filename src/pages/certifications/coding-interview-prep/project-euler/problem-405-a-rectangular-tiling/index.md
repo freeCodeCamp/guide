@@ -1,5 +1,5 @@
 ---
-title: Problem 405: A rectangular tiling
+title: A rectangular tiling
 ---
 ## Problem 405: A rectangular tiling
 

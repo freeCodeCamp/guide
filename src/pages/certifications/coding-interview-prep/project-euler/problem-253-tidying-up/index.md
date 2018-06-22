@@ -1,5 +1,5 @@
 ---
-title: Problem 253: Tidying up
+title: Tidying up
 ---
 ## Problem 253: Tidying up
 

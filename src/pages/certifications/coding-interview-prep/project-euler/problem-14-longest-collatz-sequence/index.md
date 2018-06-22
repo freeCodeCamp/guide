@@ -1,5 +1,5 @@
 ---
-title: Problem 14: Longest Collatz sequence
+title: Longest Collatz sequence
 ---
 ## Problem 14: Longest Collatz sequence
 

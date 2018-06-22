@@ -1,5 +1,5 @@
 ---
-title: Problem 91: Right triangles with integer coordinates
+title: Right triangles with integer coordinates
 ---
 ## Problem 91: Right triangles with integer coordinates
 

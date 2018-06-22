@@ -1,5 +1,5 @@
 ---
-title: Problem 437: Fibonacci primitive roots
+title: Fibonacci primitive roots
 ---
 ## Problem 437: Fibonacci primitive roots
 

@@ -1,5 +1,5 @@
 ---
-title: Problem 232: The Race
+title: The Race
 ---
 ## Problem 232: The Race
 

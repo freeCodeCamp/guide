@@ -1,5 +1,5 @@
 ---
-title: Problem 303: Multiples with small digits
+title: Multiples with small digits
 ---
 ## Problem 303: Multiples with small digits
 

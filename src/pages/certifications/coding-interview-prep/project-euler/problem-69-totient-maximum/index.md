@@ -1,5 +1,5 @@
 ---
-title: Problem 69: Totient maximum
+title: Totient maximum
 ---
 ## Problem 69: Totient maximum
 

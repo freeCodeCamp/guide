@@ -1,5 +1,5 @@
 ---
-title: Problem 236: Luxury Hampers
+title: Luxury Hampers
 ---
 ## Problem 236: Luxury Hampers
 

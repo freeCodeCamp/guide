@@ -1,5 +1,5 @@
 ---
-title: Problem 314: The Mouse on the Moon
+title: The Mouse on the Moon
 ---
 ## Problem 314: The Mouse on the Moon
 

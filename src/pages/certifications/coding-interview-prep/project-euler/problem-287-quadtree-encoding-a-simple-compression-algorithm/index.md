@@ -1,5 +1,5 @@
 ---
-title: Problem 287: Quadtree encoding (a simple compression algorithm)
+title: Quadtree encoding (a simple compression algorithm)
 ---
 ## Problem 287: Quadtree encoding (a simple compression algorithm)
 

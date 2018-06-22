@@ -1,5 +1,5 @@
 ---
-title: Problem 132: Large repunit factors
+title: Large repunit factors
 ---
 ## Problem 132: Large repunit factors
 

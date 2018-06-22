@@ -1,5 +1,5 @@
 ---
-title: Problem 278: Linear Combinations of Semiprimes
+title: Linear Combinations of Semiprimes
 ---
 ## Problem 278: Linear Combinations of Semiprimes
 

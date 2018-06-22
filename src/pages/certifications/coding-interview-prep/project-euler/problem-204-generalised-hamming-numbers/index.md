@@ -1,5 +1,5 @@
 ---
-title: Problem 204: Generalised Hamming Numbers
+title: Generalised Hamming Numbers
 ---
 ## Problem 204: Generalised Hamming Numbers
 

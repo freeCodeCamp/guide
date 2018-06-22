@@ -1,5 +1,5 @@
 ---
-title: Problem 473: Phigital number base
+title: Phigital number base
 ---
 ## Problem 473: Phigital number base
 

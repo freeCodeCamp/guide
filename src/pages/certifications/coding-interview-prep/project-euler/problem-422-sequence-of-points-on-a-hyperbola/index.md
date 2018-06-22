@@ -1,5 +1,5 @@
 ---
-title: Problem 422: Sequence of points on a hyperbola
+title: Sequence of points on a hyperbola
 ---
 ## Problem 422: Sequence of points on a hyperbola
 

@@ -1,5 +1,5 @@
 ---
-title: Problem 68: Magic 5-gon ring
+title: Magic 5-gon ring
 ---
 ## Problem 68: Magic 5-gon ring
 

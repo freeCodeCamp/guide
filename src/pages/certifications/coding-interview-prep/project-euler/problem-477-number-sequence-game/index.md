@@ -1,5 +1,5 @@
 ---
-title: Problem 477: Number Sequence Game
+title: Number Sequence Game
 ---
 ## Problem 477: Number Sequence Game
 

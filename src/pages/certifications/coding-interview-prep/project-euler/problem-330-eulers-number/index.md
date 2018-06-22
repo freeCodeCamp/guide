@@ -1,5 +1,5 @@
 ---
-title: Problem 330: Euler's Number
+title: Euler's Number
 ---
 ## Problem 330: Euler's Number
 

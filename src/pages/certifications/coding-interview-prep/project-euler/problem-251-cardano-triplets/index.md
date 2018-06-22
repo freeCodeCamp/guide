@@ -1,5 +1,5 @@
 ---
-title: Problem 251: Cardano Triplets
+title: Cardano Triplets
 ---
 ## Problem 251: Cardano Triplets
 

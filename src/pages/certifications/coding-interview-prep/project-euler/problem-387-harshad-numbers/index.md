@@ -1,5 +1,5 @@
 ---
-title: Problem 387: Harshad Numbers
+title: Harshad Numbers
 ---
 ## Problem 387: Harshad Numbers
 

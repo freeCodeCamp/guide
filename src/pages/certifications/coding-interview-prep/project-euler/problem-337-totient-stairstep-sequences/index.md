@@ -1,5 +1,5 @@
 ---
-title: Problem 337: Totient Stairstep Sequences
+title: Totient Stairstep Sequences
 ---
 ## Problem 337: Totient Stairstep Sequences
 

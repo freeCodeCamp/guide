@@ -1,5 +1,5 @@
 ---
-title: Problem 17: Number letter counts
+title: Number letter counts
 ---
 ## Problem 17: Number letter counts
 

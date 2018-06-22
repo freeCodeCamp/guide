@@ -1,5 +1,5 @@
 ---
-title: Problem 142: Perfect Square Collection
+title: Perfect Square Collection
 ---
 ## Problem 142: Perfect Square Collection
 

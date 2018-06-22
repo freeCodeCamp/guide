@@ -1,5 +1,5 @@
 ---
-title: Problem 57: Square root convergents
+title: Square root convergents
 ---
 ## Problem 57: Square root convergents
 

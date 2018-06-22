@@ -1,5 +1,5 @@
 ---
-title: Problem 214: Totient Chains
+title: Totient Chains
 ---
 ## Problem 214: Totient Chains
 

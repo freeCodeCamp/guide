@@ -1,5 +1,5 @@
 ---
-title: Problem 245: Coresilience
+title: Coresilience
 ---
 ## Problem 245: Coresilience
 

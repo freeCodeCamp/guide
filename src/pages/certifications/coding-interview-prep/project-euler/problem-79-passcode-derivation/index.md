@@ -1,5 +1,5 @@
 ---
-title: Problem 79: Passcode derivation
+title: Passcode derivation
 ---
 ## Problem 79: Passcode derivation
 

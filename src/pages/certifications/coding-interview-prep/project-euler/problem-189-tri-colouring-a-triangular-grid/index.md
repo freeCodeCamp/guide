@@ -1,5 +1,5 @@
 ---
-title: Problem 189: Tri-colouring a triangular grid
+title: Tri-colouring a triangular grid
 ---
 ## Problem 189: Tri-colouring a triangular grid
 

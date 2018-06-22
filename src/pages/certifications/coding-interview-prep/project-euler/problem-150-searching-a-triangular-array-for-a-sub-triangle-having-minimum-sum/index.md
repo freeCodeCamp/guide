@@ -1,5 +1,5 @@
 ---
-title: Problem 150: Searching a triangular array for a sub-triangle having minimum-sum
+title: Searching a triangular array for a sub-triangle having minimum-sum
 ---
 ## Problem 150: Searching a triangular array for a sub-triangle having minimum-sum
 

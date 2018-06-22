@@ -1,5 +1,5 @@
 ---
-title: Problem 163: Cross-hatched triangles
+title: Cross-hatched triangles
 ---
 ## Problem 163: Cross-hatched triangles
 

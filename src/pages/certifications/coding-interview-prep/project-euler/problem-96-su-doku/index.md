@@ -1,5 +1,5 @@
 ---
-title: Problem 96: Su Doku
+title: Su Doku
 ---
 ## Problem 96: Su Doku
 

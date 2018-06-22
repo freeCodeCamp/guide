@@ -1,5 +1,5 @@
 ---
-title: Problem 97: Large non-Mersenne prime
+title: Large non-Mersenne prime
 ---
 ## Problem 97: Large non-Mersenne prime
 

@@ -1,5 +1,5 @@
 ---
-title: Problem 140: Modified Fibonacci golden nuggets
+title: Modified Fibonacci golden nuggets
 ---
 ## Problem 140: Modified Fibonacci golden nuggets
 

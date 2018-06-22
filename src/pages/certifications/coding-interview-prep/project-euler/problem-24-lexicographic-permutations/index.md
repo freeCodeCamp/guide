@@ -1,5 +1,5 @@
 ---
-title: Problem 24: Lexicographic permutations
+title: Lexicographic permutations
 ---
 ## Problem 24: Lexicographic permutations
 

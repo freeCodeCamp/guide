@@ -1,5 +1,5 @@
 ---
-title: Problem 20: Factorial digit sum
+title: Factorial digit sum
 ---
 ## Problem 20: Factorial digit sum
 

@@ -1,5 +1,5 @@
 ---
-title: Problem 389: Platonic Dice
+title: Platonic Dice
 ---
 ## Problem 389: Platonic Dice
 

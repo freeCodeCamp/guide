@@ -1,5 +1,5 @@
 ---
-title: Problem 70: Totient permutation
+title: Totient permutation
 ---
 ## Problem 70: Totient permutation
 

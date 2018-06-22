@@ -1,5 +1,5 @@
 ---
-title: Problem 454: Diophantine reciprocals III
+title: Diophantine reciprocals III
 ---
 ## Problem 454: Diophantine reciprocals III
 

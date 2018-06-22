@@ -1,5 +1,5 @@
 ---
-title: Problem 120: Square remainders
+title: Square remainders
 ---
 ## Problem 120: Square remainders
 

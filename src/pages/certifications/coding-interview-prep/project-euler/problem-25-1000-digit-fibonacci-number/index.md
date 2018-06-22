@@ -1,5 +1,5 @@
 ---
-title: Problem 25: 1000-digit Fibonacci number
+title: 1000-digit Fibonacci number
 ---
 ## Problem 25: 1000-digit Fibonacci number
 

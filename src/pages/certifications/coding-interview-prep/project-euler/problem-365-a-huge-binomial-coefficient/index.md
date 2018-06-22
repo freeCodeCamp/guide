@@ -1,5 +1,5 @@
 ---
-title: Problem 365: A huge binomial coefficient
+title: A huge binomial coefficient
 ---
 ## Problem 365: A huge binomial coefficient
 

@@ -1,5 +1,5 @@
 ---
-title: Problem 378: Triangle Triples
+title: Triangle Triples
 ---
 ## Problem 378: Triangle Triples
 

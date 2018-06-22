@@ -1,5 +1,5 @@
 ---
-title: Problem 122: Efficient exponentiation
+title: Efficient exponentiation
 ---
 ## Problem 122: Efficient exponentiation
 

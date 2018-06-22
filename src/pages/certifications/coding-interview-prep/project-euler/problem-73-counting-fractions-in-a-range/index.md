@@ -1,5 +1,5 @@
 ---
-title: Problem 73: Counting fractions in a range
+title: Counting fractions in a range
 ---
 ## Problem 73: Counting fractions in a range
 

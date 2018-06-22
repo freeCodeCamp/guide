@@ -1,5 +1,5 @@
 ---
-title: Problem 198: Ambiguous Numbers
+title: Ambiguous Numbers
 ---
 ## Problem 198: Ambiguous Numbers
 

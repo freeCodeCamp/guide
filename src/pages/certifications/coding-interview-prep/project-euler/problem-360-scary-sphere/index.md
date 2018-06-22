@@ -1,5 +1,5 @@
 ---
-title: Problem 360: Scary Sphere
+title: Scary Sphere
 ---
 ## Problem 360: Scary Sphere
 

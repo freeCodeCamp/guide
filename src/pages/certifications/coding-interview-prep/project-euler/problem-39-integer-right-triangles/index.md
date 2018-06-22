@@ -1,5 +1,5 @@
 ---
-title: Problem 39: Integer right triangles
+title: Integer right triangles
 ---
 ## Problem 39: Integer right triangles
 

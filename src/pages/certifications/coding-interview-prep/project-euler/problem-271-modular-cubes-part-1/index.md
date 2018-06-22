@@ -1,5 +1,5 @@
 ---
-title: Problem 271: Modular Cubes, part 1
+title: Modular Cubes, part 1
 ---
 ## Problem 271: Modular Cubes, part 1
 

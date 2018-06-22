@@ -1,5 +1,5 @@
 ---
-title: Problem 179: Consecutive positive divisors
+title: Consecutive positive divisors
 ---
 ## Problem 179: Consecutive positive divisors
 

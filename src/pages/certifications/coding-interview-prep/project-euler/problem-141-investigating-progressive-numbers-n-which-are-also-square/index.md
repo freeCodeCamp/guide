@@ -1,5 +1,5 @@
 ---
-title: Problem 141: Investigating progressive numbers, n, which are also square
+title: Investigating progressive numbers, n, which are also square
 ---
 ## Problem 141: Investigating progressive numbers, n, which are also square
 

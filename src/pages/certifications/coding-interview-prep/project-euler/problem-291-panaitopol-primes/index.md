@@ -1,5 +1,5 @@
 ---
-title: Problem 291: Panaitopol Primes
+title: Panaitopol Primes
 ---
 ## Problem 291: Panaitopol Primes
 

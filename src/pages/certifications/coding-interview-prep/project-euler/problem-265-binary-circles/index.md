@@ -1,5 +1,5 @@
 ---
-title: Problem 265: Binary Circles
+title: Binary Circles
 ---
 ## Problem 265: Binary Circles
 

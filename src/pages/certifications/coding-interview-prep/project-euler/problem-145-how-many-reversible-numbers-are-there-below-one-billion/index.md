@@ -1,5 +1,5 @@
 ---
-title: Problem 145: How many reversible numbers are there below one-billion?
+title: How many reversible numbers are there below one-billion?
 ---
 ## Problem 145: How many reversible numbers are there below one-billion?
 

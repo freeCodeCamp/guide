@@ -1,5 +1,5 @@
 ---
-title: Problem 286: Scoring probabilities
+title: Scoring probabilities
 ---
 ## Problem 286: Scoring probabilities
 

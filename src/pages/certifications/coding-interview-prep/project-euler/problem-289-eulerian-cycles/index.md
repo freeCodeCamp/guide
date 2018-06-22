@@ -1,5 +1,5 @@
 ---
-title: Problem 289: Eulerian Cycles
+title: Eulerian Cycles
 ---
 ## Problem 289: Eulerian Cycles
 

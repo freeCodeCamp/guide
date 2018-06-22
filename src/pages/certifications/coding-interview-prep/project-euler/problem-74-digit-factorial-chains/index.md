@@ -1,5 +1,5 @@
 ---
-title: Problem 74: Digit factorial chains
+title: Digit factorial chains
 ---
 ## Problem 74: Digit factorial chains
 

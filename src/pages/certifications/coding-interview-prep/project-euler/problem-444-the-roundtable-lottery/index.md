@@ -1,5 +1,5 @@
 ---
-title: Problem 444: The Roundtable Lottery
+title: The Roundtable Lottery
 ---
 ## Problem 444: The Roundtable Lottery
 

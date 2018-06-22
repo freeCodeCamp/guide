@@ -1,5 +1,5 @@
 ---
-title: Problem 406: Guessing Game
+title: Guessing Game
 ---
 ## Problem 406: Guessing Game
 

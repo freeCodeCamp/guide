@@ -1,5 +1,5 @@
 ---
-title: Problem 306: Paper-strip Game
+title: Paper-strip Game
 ---
 ## Problem 306: Paper-strip Game
 

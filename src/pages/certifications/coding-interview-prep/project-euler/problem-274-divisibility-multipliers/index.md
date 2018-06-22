@@ -1,5 +1,5 @@
 ---
-title: Problem 274: Divisibility Multipliers
+title: Divisibility Multipliers
 ---
 ## Problem 274: Divisibility Multipliers
 

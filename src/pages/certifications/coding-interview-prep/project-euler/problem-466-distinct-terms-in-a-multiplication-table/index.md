@@ -1,5 +1,5 @@
 ---
-title: Problem 466: Distinct terms in a multiplication table
+title: Distinct terms in a multiplication table
 ---
 ## Problem 466: Distinct terms in a multiplication table
 

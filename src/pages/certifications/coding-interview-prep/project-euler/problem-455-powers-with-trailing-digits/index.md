@@ -1,5 +1,5 @@
 ---
-title: Problem 455: Powers With Trailing Digits
+title: Powers With Trailing Digits
 ---
 ## Problem 455: Powers With Trailing Digits
 

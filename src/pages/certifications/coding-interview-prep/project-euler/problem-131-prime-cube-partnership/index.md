@@ -1,5 +1,5 @@
 ---
-title: Problem 131: Prime cube partnership
+title: Prime cube partnership
 ---
 ## Problem 131: Prime cube partnership
 

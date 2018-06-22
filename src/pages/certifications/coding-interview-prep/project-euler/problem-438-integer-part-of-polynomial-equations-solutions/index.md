@@ -1,5 +1,5 @@
 ---
-title: Problem 438: Integer part of polynomial equation's solutions
+title: Integer part of polynomial equation's solutions
 ---
 ## Problem 438: Integer part of polynomial equation's solutions
 

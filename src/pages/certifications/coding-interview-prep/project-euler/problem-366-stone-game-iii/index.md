@@ -1,5 +1,5 @@
 ---
-title: Problem 366: Stone Game III
+title: Stone Game III
 ---
 ## Problem 366: Stone Game III
 

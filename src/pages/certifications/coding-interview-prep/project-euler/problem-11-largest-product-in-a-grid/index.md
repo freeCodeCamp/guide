@@ -1,5 +1,5 @@
 ---
-title: Problem 11: Largest product in a grid
+title: Largest product in a grid
 ---
 ## Problem 11: Largest product in a grid
 

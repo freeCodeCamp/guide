@@ -1,5 +1,5 @@
 ---
-title: Problem 90: Cube digit pairs
+title: Cube digit pairs
 ---
 ## Problem 90: Cube digit pairs
 

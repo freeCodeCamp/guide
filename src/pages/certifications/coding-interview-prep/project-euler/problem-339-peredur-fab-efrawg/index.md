@@ -1,5 +1,5 @@
 ---
-title: Problem 339: Peredur fab Efrawg
+title: Peredur fab Efrawg
 ---
 ## Problem 339: Peredur fab Efrawg
 

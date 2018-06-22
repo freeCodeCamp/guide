@@ -1,5 +1,5 @@
 ---
-title: Problem 370: Geometric triangles
+title: Geometric triangles
 ---
 ## Problem 370: Geometric triangles
 

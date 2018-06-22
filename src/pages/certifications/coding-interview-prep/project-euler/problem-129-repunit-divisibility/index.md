@@ -1,5 +1,5 @@
 ---
-title: Problem 129: Repunit divisibility
+title: Repunit divisibility
 ---
 ## Problem 129: Repunit divisibility
 

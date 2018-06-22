@@ -1,5 +1,5 @@
 ---
-title: Problem 392: Enmeshed unit circle
+title: Enmeshed unit circle
 ---
 ## Problem 392: Enmeshed unit circle
 

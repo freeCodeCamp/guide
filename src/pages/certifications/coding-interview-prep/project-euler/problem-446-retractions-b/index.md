@@ -1,5 +1,5 @@
 ---
-title: Problem 446: Retractions B
+title: Retractions B
 ---
 ## Problem 446: Retractions B
 

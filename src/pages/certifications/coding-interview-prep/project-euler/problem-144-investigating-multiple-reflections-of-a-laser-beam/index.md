@@ -1,5 +1,5 @@
 ---
-title: Problem 144: Investigating multiple reflections of a laser beam
+title: Investigating multiple reflections of a laser beam
 ---
 ## Problem 144: Investigating multiple reflections of a laser beam
 

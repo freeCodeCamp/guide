@@ -1,5 +1,5 @@
 ---
-title: Problem 356: Largest roots of cubic polynomials
+title: Largest roots of cubic polynomials
 ---
 ## Problem 356: Largest roots of cubic polynomials
 

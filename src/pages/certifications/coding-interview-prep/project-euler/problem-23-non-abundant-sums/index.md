@@ -1,5 +1,5 @@
 ---
-title: Problem 23: Non-abundant sums
+title: Non-abundant sums
 ---
 ## Problem 23: Non-abundant sums
 

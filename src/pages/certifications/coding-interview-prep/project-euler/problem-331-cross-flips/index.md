@@ -1,5 +1,5 @@
 ---
-title: Problem 331: Cross flips
+title: Cross flips
 ---
 ## Problem 331: Cross flips
 

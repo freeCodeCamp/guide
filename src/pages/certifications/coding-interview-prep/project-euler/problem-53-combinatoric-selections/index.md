@@ -1,5 +1,5 @@
 ---
-title: Problem 53: Combinatoric selections
+title: Combinatoric selections
 ---
 ## Problem 53: Combinatoric selections
 

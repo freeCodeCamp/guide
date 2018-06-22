@@ -1,5 +1,5 @@
 ---
-title: Problem 114: Counting block combinations I
+title: Counting block combinations I
 ---
 ## Problem 114: Counting block combinations I
 

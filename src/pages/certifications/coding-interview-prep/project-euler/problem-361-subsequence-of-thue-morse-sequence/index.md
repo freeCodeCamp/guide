@@ -1,5 +1,5 @@
 ---
-title: Problem 361: Subsequence of Thue-Morse sequence
+title: Subsequence of Thue-Morse sequence
 ---
 ## Problem 361: Subsequence of Thue-Morse sequence
 

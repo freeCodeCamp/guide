@@ -1,5 +1,5 @@
 ---
-title: Problem 32: Pandigital products
+title: Pandigital products
 ---
 ## Problem 32: Pandigital products
 

@@ -1,5 +1,5 @@
 ---
-title: Problem 154: Exploring Pascal's pyramid
+title: Exploring Pascal's pyramid
 ---
 ## Problem 154: Exploring Pascal's pyramid
 

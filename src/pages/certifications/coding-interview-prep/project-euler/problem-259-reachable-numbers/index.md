@@ -1,5 +1,5 @@
 ---
-title: Problem 259: Reachable Numbers
+title: Reachable Numbers
 ---
 ## Problem 259: Reachable Numbers
 

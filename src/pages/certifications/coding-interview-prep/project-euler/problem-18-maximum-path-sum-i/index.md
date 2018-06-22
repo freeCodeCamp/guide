@@ -1,5 +1,5 @@
 ---
-title: Problem 18: Maximum path sum I
+title: Maximum path sum I
 ---
 ## Problem 18: Maximum path sum I
 

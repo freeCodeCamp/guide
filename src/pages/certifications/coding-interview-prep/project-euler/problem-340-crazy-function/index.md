@@ -1,5 +1,5 @@
 ---
-title: Problem 340: Crazy Function
+title: Crazy Function
 ---
 ## Problem 340: Crazy Function
 

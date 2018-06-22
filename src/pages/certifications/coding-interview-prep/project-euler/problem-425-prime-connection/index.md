@@ -1,5 +1,5 @@
 ---
-title: Problem 425: Prime connection
+title: Prime connection
 ---
 ## Problem 425: Prime connection
 

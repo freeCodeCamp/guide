@@ -1,5 +1,5 @@
 ---
-title: Problem 411: Uphill paths
+title: Uphill paths
 ---
 ## Problem 411: Uphill paths
 

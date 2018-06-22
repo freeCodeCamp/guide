@@ -1,5 +1,5 @@
 ---
-title: Problem 410: Circle and tangent line
+title: Circle and tangent line
 ---
 ## Problem 410: Circle and tangent line
 

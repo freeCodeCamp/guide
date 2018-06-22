@@ -1,5 +1,5 @@
 ---
-title: Problem 26: Reciprocal cycles
+title: Reciprocal cycles
 ---
 ## Problem 26: Reciprocal cycles
 

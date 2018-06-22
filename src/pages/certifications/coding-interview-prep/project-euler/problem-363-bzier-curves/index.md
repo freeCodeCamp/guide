@@ -1,5 +1,5 @@
 ---
-title: Problem 363: Bézier Curves
+title: Bézier Curves
 ---
 ## Problem 363: Bézier Curves
 

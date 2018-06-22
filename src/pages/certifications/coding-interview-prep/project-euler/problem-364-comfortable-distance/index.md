@@ -1,5 +1,5 @@
 ---
-title: Problem 364: Comfortable distance
+title: Comfortable distance
 ---
 ## Problem 364: Comfortable distance
 

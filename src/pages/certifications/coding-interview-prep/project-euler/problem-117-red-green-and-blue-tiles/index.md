@@ -1,5 +1,5 @@
 ---
-title: Problem 117: Red, green, and blue tiles
+title: Red, green, and blue tiles
 ---
 ## Problem 117: Red, green, and blue tiles
 

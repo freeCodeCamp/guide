@@ -1,5 +1,5 @@
 ---
-title: Problem 343: Fractional Sequences
+title: Fractional Sequences
 ---
 ## Problem 343: Fractional Sequences
 

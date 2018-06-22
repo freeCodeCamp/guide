@@ -1,5 +1,5 @@
 ---
-title: Problem 475: Music festival
+title: Music festival
 ---
 ## Problem 475: Music festival
 

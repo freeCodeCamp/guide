@@ -1,5 +1,5 @@
 ---
-title: Problem 301: Nim
+title: Nim
 ---
 ## Problem 301: Nim
 

@@ -1,5 +1,5 @@
 ---
-title: Problem 172: Investigating numbers with few repeated digits
+title: Investigating numbers with few repeated digits
 ---
 ## Problem 172: Investigating numbers with few repeated digits
 

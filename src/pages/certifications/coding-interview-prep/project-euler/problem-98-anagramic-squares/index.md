@@ -1,5 +1,5 @@
 ---
-title: Problem 98: Anagramic squares
+title: Anagramic squares
 ---
 ## Problem 98: Anagramic squares
 

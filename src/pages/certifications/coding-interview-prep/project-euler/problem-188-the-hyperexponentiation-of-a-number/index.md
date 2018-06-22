@@ -1,5 +1,5 @@
 ---
-title: Problem 188: The hyperexponentiation of a number
+title: The hyperexponentiation of a number
 ---
 ## Problem 188: The hyperexponentiation of a number
 

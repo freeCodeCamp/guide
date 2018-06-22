@@ -1,5 +1,5 @@
 ---
-title: Problem 34: Digit factorials
+title: Digit factorials
 ---
 ## Problem 34: Digit factorials
 

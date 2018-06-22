@@ -1,5 +1,5 @@
 ---
-title: Problem 93: Arithmetic expressions
+title: Arithmetic expressions
 ---
 ## Problem 93: Arithmetic expressions
 

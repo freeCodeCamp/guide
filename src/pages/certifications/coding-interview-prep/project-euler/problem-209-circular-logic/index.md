@@ -1,5 +1,5 @@
 ---
-title: Problem 209: Circular Logic
+title: Circular Logic
 ---
 ## Problem 209: Circular Logic
 

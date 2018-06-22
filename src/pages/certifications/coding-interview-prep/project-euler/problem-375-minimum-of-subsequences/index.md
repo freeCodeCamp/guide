@@ -1,5 +1,5 @@
 ---
-title: Problem 375: Minimum of subsequences
+title: Minimum of subsequences
 ---
 ## Problem 375: Minimum of subsequences
 

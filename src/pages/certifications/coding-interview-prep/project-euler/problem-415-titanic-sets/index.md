@@ -1,5 +1,5 @@
 ---
-title: Problem 415: Titanic sets
+title: Titanic sets
 ---
 ## Problem 415: Titanic sets
 

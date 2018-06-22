@@ -1,5 +1,5 @@
 ---
-title: Problem 476: Circle Packing II
+title: Circle Packing II
 ---
 ## Problem 476: Circle Packing II
 

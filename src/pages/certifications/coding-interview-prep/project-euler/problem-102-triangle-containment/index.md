@@ -1,5 +1,5 @@
 ---
-title: Problem 102: Triangle containment
+title: Triangle containment
 ---
 ## Problem 102: Triangle containment
 

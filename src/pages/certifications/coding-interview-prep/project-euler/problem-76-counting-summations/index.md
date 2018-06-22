@@ -1,5 +1,5 @@
 ---
-title: Problem 76: Counting summations
+title: Counting summations
 ---
 ## Problem 76: Counting summations
 

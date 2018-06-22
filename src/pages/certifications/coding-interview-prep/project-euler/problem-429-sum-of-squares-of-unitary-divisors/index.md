@@ -1,5 +1,5 @@
 ---
-title: Problem 429: Sum of squares of unitary divisors
+title: Sum of squares of unitary divisors
 ---
 ## Problem 429: Sum of squares of unitary divisors
 

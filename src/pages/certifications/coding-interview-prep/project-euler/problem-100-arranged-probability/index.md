@@ -1,5 +1,5 @@
 ---
-title: Problem 100: Arranged probability
+title: Arranged probability
 ---
 ## Problem 100: Arranged probability
 

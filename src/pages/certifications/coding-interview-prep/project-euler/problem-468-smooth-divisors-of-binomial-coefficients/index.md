@@ -1,5 +1,5 @@
 ---
-title: Problem 468: Smooth divisors of binomial coefficients
+title: Smooth divisors of binomial coefficients
 ---
 ## Problem 468: Smooth divisors of binomial coefficients
 

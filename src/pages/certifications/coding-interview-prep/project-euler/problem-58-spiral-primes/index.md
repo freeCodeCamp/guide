@@ -1,5 +1,5 @@
 ---
-title: Problem 58: Spiral primes
+title: Spiral primes
 ---
 ## Problem 58: Spiral primes
 

@@ -1,5 +1,5 @@
 ---
-title: Problem 313: Sliding game
+title: Sliding game
 ---
 ## Problem 313: Sliding game
 

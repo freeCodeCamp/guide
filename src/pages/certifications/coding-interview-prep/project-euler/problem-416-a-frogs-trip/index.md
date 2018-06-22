@@ -1,5 +1,5 @@
 ---
-title: Problem 416: A frog's trip
+title: A frog's trip
 ---
 ## Problem 416: A frog's trip
 

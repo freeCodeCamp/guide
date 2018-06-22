@@ -1,5 +1,5 @@
 ---
-title: Problem 391: Hopping Game
+title: Hopping Game
 ---
 ## Problem 391: Hopping Game
 

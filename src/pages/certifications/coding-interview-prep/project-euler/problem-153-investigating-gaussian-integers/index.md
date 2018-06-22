@@ -1,5 +1,5 @@
 ---
-title: Problem 153: Investigating Gaussian Integers
+title: Investigating Gaussian Integers
 ---
 ## Problem 153: Investigating Gaussian Integers
 

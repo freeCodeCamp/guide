@@ -1,5 +1,5 @@
 ---
-title: Problem 382: Generating polygons
+title: Generating polygons
 ---
 ## Problem 382: Generating polygons
 

@@ -1,5 +1,5 @@
 ---
-title: Problem 205: Dice Game
+title: Dice Game
 ---
 ## Problem 205: Dice Game
 

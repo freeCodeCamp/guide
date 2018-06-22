@@ -1,5 +1,5 @@
 ---
-title: Problem 311: Biclinic Integral Quadrilaterals
+title: Biclinic Integral Quadrilaterals
 ---
 ## Problem 311: Biclinic Integral Quadrilaterals
 

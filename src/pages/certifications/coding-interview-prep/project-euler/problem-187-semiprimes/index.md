@@ -1,5 +1,5 @@
 ---
-title: Problem 187: Semiprimes
+title: Semiprimes
 ---
 ## Problem 187: Semiprimes
 

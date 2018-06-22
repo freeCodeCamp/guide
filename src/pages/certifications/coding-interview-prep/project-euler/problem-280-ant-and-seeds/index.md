@@ -1,5 +1,5 @@
 ---
-title: Problem 280: Ant and seeds
+title: Ant and seeds
 ---
 ## Problem 280: Ant and seeds
 

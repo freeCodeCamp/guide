@@ -1,5 +1,5 @@
 ---
-title: Problem 38: Pandigital multiples
+title: Pandigital multiples
 ---
 ## Problem 38: Pandigital multiples
 

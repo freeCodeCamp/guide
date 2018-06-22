@@ -1,5 +1,5 @@
 ---
-title: Problem 115: Counting block combinations II
+title: Counting block combinations II
 ---
 ## Problem 115: Counting block combinations II
 

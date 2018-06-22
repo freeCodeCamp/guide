@@ -1,5 +1,5 @@
 ---
-title: Problem 146: Investigating a Prime Pattern
+title: Investigating a Prime Pattern
 ---
 ## Problem 146: Investigating a Prime Pattern
 

@@ -1,5 +1,5 @@
 ---
-title: Problem 19: Counting Sundays
+title: Counting Sundays
 ---
 ## Problem 19: Counting Sundays
 

@@ -1,5 +1,5 @@
 ---
-title: Problem 288: An enormous factorial
+title: An enormous factorial
 ---
 ## Problem 288: An enormous factorial
 

@@ -1,5 +1,5 @@
 ---
-title: Problem 151: Paper sheets of standard sizes: an expected-value problem
+title: Paper sheets of standard sizes - an expected-value problem
 ---
 ## Problem 151: Paper sheets of standard sizes: an expected-value problem
 

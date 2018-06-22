@@ -1,5 +1,5 @@
 ---
-title: Problem 234: Semidivisible numbers
+title: Semidivisible numbers
 ---
 ## Problem 234: Semidivisible numbers
 

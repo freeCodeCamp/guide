@@ -1,5 +1,5 @@
 ---
-title: Problem 101: Optimum polynomial
+title: Optimum polynomial
 ---
 ## Problem 101: Optimum polynomial
 

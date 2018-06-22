@@ -1,5 +1,5 @@
 ---
-title: Problem 384: Rudin-Shapiro sequence
+title: Rudin-Shapiro sequence
 ---
 ## Problem 384: Rudin-Shapiro sequence
 

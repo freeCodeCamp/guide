@@ -1,5 +1,5 @@
 ---
-title: Problem 432: Totient sum
+title: Totient sum
 ---
 ## Problem 432: Totient sum
 

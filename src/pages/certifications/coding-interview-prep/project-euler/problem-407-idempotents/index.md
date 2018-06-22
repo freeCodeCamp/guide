@@ -1,5 +1,5 @@
 ---
-title: Problem 407: Idempotents
+title: Idempotents
 ---
 ## Problem 407: Idempotents
 

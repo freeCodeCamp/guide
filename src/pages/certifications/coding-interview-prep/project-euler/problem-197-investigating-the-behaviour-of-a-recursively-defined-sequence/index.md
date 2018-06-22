@@ -1,5 +1,5 @@
 ---
-title: Problem 197: Investigating the behaviour of a recursively defined sequence
+title: Investigating the behaviour of a recursively defined sequence
 ---
 ## Problem 197: Investigating the behaviour of a recursively defined sequence
 

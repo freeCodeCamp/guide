@@ -1,5 +1,5 @@
 ---
-title: Problem 316: Numbers in decimal expansions
+title: Numbers in decimal expansions
 ---
 ## Problem 316: Numbers in decimal expansions
 

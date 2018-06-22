@@ -1,5 +1,5 @@
 ---
-title: Problem 201: Subsets with a unique sum
+title: Subsets with a unique sum
 ---
 ## Problem 201: Subsets with a unique sum
 

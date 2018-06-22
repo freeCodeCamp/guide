@@ -1,5 +1,5 @@
 ---
-title: Problem 190: Maximising a weighted product
+title: Maximising a weighted product
 ---
 ## Problem 190: Maximising a weighted product
 

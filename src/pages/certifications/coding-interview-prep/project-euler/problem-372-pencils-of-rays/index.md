@@ -1,5 +1,5 @@
 ---
-title: Problem 372: Pencils of rays
+title: Pencils of rays
 ---
 ## Problem 372: Pencils of rays
 

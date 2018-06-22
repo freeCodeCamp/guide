@@ -1,5 +1,5 @@
 ---
-title: Problem 434: Rigid graphs
+title: Rigid graphs
 ---
 ## Problem 434: Rigid graphs
 

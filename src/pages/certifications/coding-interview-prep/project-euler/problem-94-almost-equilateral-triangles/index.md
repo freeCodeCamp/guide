@@ -1,5 +1,5 @@
 ---
-title: Problem 94: Almost equilateral triangles
+title: Almost equilateral triangles
 ---
 ## Problem 94: Almost equilateral triangles
 

@@ -1,5 +1,5 @@
 ---
-title: Problem 449: Chocolate covered candy
+title: Chocolate covered candy
 ---
 ## Problem 449: Chocolate covered candy
 

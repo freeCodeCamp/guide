@@ -1,5 +1,5 @@
 ---
-title: Problem 267: Billionaire
+title: Billionaire
 ---
 ## Problem 267: Billionaire
 

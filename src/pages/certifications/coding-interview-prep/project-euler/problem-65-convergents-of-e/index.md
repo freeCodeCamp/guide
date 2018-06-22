@@ -1,5 +1,5 @@
 ---
-title: Problem 65: Convergents of e
+title: Convergents of e
 ---
 ## Problem 65: Convergents of e
 

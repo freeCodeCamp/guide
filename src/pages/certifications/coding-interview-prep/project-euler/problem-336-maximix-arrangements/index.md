@@ -1,5 +1,5 @@
 ---
-title: Problem 336: Maximix Arrangements
+title: Maximix Arrangements
 ---
 ## Problem 336: Maximix Arrangements
 

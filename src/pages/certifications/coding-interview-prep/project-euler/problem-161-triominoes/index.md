@@ -1,5 +1,5 @@
 ---
-title: Problem 161: Triominoes
+title: Triominoes
 ---
 ## Problem 161: Triominoes
 

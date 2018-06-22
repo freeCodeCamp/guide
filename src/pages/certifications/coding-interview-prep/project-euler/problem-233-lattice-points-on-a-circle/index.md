@@ -1,5 +1,5 @@
 ---
-title: Problem 233: Lattice points on a circle
+title: Lattice points on a circle
 ---
 ## Problem 233: Lattice points on a circle
 

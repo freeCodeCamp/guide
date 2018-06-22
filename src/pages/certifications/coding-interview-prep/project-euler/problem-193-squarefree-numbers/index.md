@@ -1,5 +1,5 @@
 ---
-title: Problem 193: Squarefree Numbers
+title: Squarefree Numbers
 ---
 ## Problem 193: Squarefree Numbers
 

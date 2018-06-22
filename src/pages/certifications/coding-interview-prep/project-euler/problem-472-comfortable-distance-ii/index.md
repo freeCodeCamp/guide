@@ -1,5 +1,5 @@
 ---
-title: Problem 472: Comfortable Distance II
+title: Comfortable Distance II
 ---
 ## Problem 472: Comfortable Distance II
 

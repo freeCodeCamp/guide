@@ -1,5 +1,5 @@
 ---
-title: Problem 463: A weird recurrence relation
+title: A weird recurrence relation
 ---
 ## Problem 463: A weird recurrence relation
 

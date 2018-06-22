@@ -1,5 +1,5 @@
 ---
-title: Problem 137: Fibonacci golden nuggets
+title: Fibonacci golden nuggets
 ---
 ## Problem 137: Fibonacci golden nuggets
 

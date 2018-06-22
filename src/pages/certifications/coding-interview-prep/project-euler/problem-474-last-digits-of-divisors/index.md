@@ -1,5 +1,5 @@
 ---
-title: Problem 474: Last digits of divisors
+title: Last digits of divisors
 ---
 ## Problem 474: Last digits of divisors
 

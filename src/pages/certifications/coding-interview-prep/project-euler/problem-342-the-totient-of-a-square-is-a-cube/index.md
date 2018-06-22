@@ -1,5 +1,5 @@
 ---
-title: Problem 342: The totient of a square is a cube
+title: The totient of a square is a cube
 ---
 ## Problem 342: The totient of a square is a cube
 

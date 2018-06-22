@@ -1,5 +1,5 @@
 ---
-title: Problem 420: 2x2 positive integer matrix
+title: 2x2 positive integer matrix
 ---
 ## Problem 420: 2x2 positive integer matrix
 

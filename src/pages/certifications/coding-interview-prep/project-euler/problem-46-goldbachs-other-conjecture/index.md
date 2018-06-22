@@ -1,5 +1,5 @@
 ---
-title: Problem 46: Goldbach's other conjecture
+title: Goldbach's other conjecture
 ---
 ## Problem 46: Goldbach's other conjecture
 

@@ -1,5 +1,5 @@
 ---
-title: Problem 459: Flipping game
+title: Flipping game
 ---
 ## Problem 459: Flipping game
 

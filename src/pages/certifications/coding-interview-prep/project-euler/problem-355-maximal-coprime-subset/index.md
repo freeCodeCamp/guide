@@ -1,5 +1,5 @@
 ---
-title: Problem 355: Maximal coprime subset
+title: Maximal coprime subset
 ---
 ## Problem 355: Maximal coprime subset
 

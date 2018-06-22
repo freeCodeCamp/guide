@@ -1,5 +1,5 @@
 ---
-title: Problem 29: Distinct powers
+title: Distinct powers
 ---
 ## Problem 29: Distinct powers
 

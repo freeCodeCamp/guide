@@ -1,5 +1,5 @@
 ---
-title: Problem 45: Triangular, pentagonal, and hexagonal
+title: Triangular, pentagonal, and hexagonal
 ---
 ## Problem 45: Triangular, pentagonal, and hexagonal
 

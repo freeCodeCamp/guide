@@ -1,5 +1,5 @@
 ---
-title: Problem 397: Triangle on parabola
+title: Triangle on parabola
 ---
 ## Problem 397: Triangle on parabola
 

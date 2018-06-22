@@ -1,5 +1,5 @@
 ---
-title: Problem 351: Hexagonal orchards
+title: Hexagonal orchards
 ---
 ## Problem 351: Hexagonal orchards
 

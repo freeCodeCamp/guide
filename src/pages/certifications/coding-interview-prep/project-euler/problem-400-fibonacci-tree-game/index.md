@@ -1,5 +1,5 @@
 ---
-title: Problem 400: Fibonacci tree game
+title: Fibonacci tree game
 ---
 ## Problem 400: Fibonacci tree game
 

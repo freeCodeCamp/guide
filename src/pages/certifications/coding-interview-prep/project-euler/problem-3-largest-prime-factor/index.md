@@ -1,5 +1,5 @@
 ---
-title: Problem 3: Largest prime factor
+title: Largest prime factor
 ---
 ## Problem 3: Largest prime factor
 

@@ -1,5 +1,5 @@
 ---
-title: Problem 226: A Scoop of Blancmange
+title: A Scoop of Blancmange
 ---
 ## Problem 226: A Scoop of Blancmange
 

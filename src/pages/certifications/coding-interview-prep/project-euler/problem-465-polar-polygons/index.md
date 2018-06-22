@@ -1,5 +1,5 @@
 ---
-title: Problem 465: Polar polygons
+title: Polar polygons
 ---
 ## Problem 465: Polar polygons
 

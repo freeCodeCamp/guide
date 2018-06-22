@@ -1,5 +1,5 @@
 ---
-title: Problem 452: Long Products
+title: Long Products
 ---
 ## Problem 452: Long Products
 

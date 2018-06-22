@@ -1,5 +1,5 @@
 ---
-title: Problem 202: Laserbeam
+title: Laserbeam
 ---
 ## Problem 202: Laserbeam
 

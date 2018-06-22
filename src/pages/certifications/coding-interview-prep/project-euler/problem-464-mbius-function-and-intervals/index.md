@@ -1,5 +1,5 @@
 ---
-title: Problem 464: Möbius function and intervals
+title: Möbius function and intervals
 ---
 ## Problem 464: Möbius function and intervals
 

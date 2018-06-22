@@ -1,5 +1,5 @@
 ---
-title: Problem 300: Protein folding
+title: Protein folding
 ---
 ## Problem 300: Protein folding
 

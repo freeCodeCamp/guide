@@ -1,5 +1,5 @@
 ---
-title: Problem 353: Risky moon
+title: Risky moon
 ---
 ## Problem 353: Risky moon
 

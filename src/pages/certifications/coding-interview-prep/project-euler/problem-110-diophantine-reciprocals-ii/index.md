@@ -1,5 +1,5 @@
 ---
-title: Problem 110: Diophantine Reciprocals II
+title: Diophantine Reciprocals II
 ---
 ## Problem 110: Diophantine Reciprocals II
 

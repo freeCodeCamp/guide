@@ -1,5 +1,5 @@
 ---
-title: Problem 281: Pizza Toppings
+title: Pizza Toppings
 ---
 ## Problem 281: Pizza Toppings
 

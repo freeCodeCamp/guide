@@ -1,5 +1,5 @@
 ---
-title: Problem 409: Nim Extreme
+title: Nim Extreme
 ---
 ## Problem 409: Nim Extreme
 

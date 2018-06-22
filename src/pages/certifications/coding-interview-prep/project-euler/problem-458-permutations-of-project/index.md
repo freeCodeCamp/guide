@@ -1,5 +1,5 @@
 ---
-title: Problem 458: Permutations of Project
+title: Permutations of Project
 ---
 ## Problem 458: Permutations of Project
 

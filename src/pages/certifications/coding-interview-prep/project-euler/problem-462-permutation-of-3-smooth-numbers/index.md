@@ -1,5 +1,5 @@
 ---
-title: Problem 462: Permutation of 3-smooth numbers
+title: Permutation of 3-smooth numbers
 ---
 ## Problem 462: Permutation of 3-smooth numbers
 

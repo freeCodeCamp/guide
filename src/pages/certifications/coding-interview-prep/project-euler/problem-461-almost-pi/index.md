@@ -1,5 +1,5 @@
 ---
-title: Problem 461: Almost Pi
+title: Almost Pi
 ---
 ## Problem 461: Almost Pi
 

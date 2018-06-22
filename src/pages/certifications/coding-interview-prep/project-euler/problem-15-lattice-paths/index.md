@@ -1,5 +1,5 @@
 ---
-title: Problem 15: Lattice paths
+title: Lattice paths
 ---
 ## Problem 15: Lattice paths
 

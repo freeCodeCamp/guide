@@ -1,5 +1,5 @@
 ---
-title: Problem 334: Spilling the beans
+title: Spilling the beans
 ---
 ## Problem 334: Spilling the beans
 

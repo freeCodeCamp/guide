@@ -1,5 +1,5 @@
 ---
-title: Problem 89: Roman numerals
+title: Roman numerals
 ---
 ## Problem 89: Roman numerals
 

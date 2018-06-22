@@ -1,5 +1,5 @@
 ---
-title: Problem 305: Reflexive Position
+title: Reflexive Position
 ---
 ## Problem 305: Reflexive Position
 

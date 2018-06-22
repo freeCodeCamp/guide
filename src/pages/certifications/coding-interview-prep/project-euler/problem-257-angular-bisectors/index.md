@@ -1,5 +1,5 @@
 ---
-title: Problem 257: Angular Bisectors
+title: Angular Bisectors
 ---
 ## Problem 257: Angular Bisectors
 

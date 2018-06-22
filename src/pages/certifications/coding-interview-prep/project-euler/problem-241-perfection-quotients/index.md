@@ -1,5 +1,5 @@
 ---
-title: Problem 241: Perfection Quotients
+title: Perfection Quotients
 ---
 ## Problem 241: Perfection Quotients
 

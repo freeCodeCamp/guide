@@ -1,5 +1,5 @@
 ---
-title: Problem 292: Pythagorean Polygons
+title: Pythagorean Polygons
 ---
 ## Problem 292: Pythagorean Polygons
 

@@ -1,5 +1,5 @@
 ---
-title: Problem 211: Divisor Square Sum
+title: Divisor Square Sum
 ---
 ## Problem 211: Divisor Square Sum
 

@@ -1,5 +1,5 @@
 ---
-title: Problem 147: Rectangles in cross-hatched grids
+title: Rectangles in cross-hatched grids
 ---
 ## Problem 147: Rectangles in cross-hatched grids
 

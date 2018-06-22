@@ -1,5 +1,5 @@
 ---
-title: Problem 87: Prime power triples
+title: Prime power triples
 ---
 ## Problem 87: Prime power triples
 

@@ -1,5 +1,5 @@
 ---
-title: Problem 374: Maximum Integer Partition Product
+title: Maximum Integer Partition Product
 ---
 ## Problem 374: Maximum Integer Partition Product
 

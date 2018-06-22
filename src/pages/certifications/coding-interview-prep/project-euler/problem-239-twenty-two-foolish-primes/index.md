@@ -1,5 +1,5 @@
 ---
-title: Problem 239: Twenty-two Foolish Primes
+title: Twenty-two Foolish Primes
 ---
 ## Problem 239: Twenty-two Foolish Primes
 

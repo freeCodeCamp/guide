@@ -1,5 +1,5 @@
 ---
-title: Problem 6: Sum square difference
+title: Sum square difference
 ---
 ## Problem 6: Sum square difference
 

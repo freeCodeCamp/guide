@@ -1,5 +1,5 @@
 ---
-title: Problem 194: Coloured Configurations
+title: Coloured Configurations
 ---
 ## Problem 194: Coloured Configurations
 

@@ -1,5 +1,5 @@
 ---
-title: Problem 279: Triangles with integral sides and an integral angle
+title: Triangles with integral sides and an integral angle
 ---
 ## Problem 279: Triangles with integral sides and an integral angle
 

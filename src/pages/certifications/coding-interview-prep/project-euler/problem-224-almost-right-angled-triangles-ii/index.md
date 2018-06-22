@@ -1,5 +1,5 @@
 ---
-title: Problem 224: Almost right-angled triangles II
+title: Almost right-angled triangles II
 ---
 ## Problem 224: Almost right-angled triangles II
 

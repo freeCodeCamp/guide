@@ -1,5 +1,5 @@
 ---
-title: Problem 264: Triangle Centres
+title: Triangle Centres
 ---
 ## Problem 264: Triangle Centres
 

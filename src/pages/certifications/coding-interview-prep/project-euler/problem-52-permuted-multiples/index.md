@@ -1,5 +1,5 @@
 ---
-title: Problem 52: Permuted multiples
+title: Permuted multiples
 ---
 ## Problem 52: Permuted multiples
 

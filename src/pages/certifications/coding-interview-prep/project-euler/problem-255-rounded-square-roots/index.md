@@ -1,5 +1,5 @@
 ---
-title: Problem 255: Rounded Square Roots
+title: Rounded Square Roots
 ---
 ## Problem 255: Rounded Square Roots
 

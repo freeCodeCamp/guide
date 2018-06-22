@@ -1,5 +1,5 @@
 ---
-title: Problem 396: Weak Goodstein sequence
+title: Weak Goodstein sequence
 ---
 ## Problem 396: Weak Goodstein sequence
 

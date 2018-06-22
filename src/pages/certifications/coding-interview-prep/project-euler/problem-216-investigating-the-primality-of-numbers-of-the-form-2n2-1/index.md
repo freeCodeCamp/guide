@@ -1,5 +1,5 @@
 ---
-title: Problem 216: Investigating the primality of numbers of the form 2n2-1
+title: Investigating the primality of numbers of the form 2n2-1
 ---
 ## Problem 216: Investigating the primality of numbers of the form 2n2-1
 

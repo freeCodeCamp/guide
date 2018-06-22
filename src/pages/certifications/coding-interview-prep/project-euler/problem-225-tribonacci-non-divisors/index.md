@@ -1,5 +1,5 @@
 ---
-title: Problem 225: Tribonacci non-divisors
+title: Tribonacci non-divisors
 ---
 ## Problem 225: Tribonacci non-divisors
 

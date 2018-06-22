@@ -1,5 +1,5 @@
 ---
-title: Problem 203: Squarefree Binomial Coefficients
+title: Squarefree Binomial Coefficients
 ---
 ## Problem 203: Squarefree Binomial Coefficients
 

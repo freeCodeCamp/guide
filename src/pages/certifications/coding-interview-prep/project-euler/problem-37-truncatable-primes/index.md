@@ -1,5 +1,5 @@
 ---
-title: Problem 37: Truncatable primes
+title: Truncatable primes
 ---
 ## Problem 37: Truncatable primes
 

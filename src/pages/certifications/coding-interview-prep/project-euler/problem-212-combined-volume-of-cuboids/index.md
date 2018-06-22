@@ -1,5 +1,5 @@
 ---
-title: Problem 212: Combined Volume of Cuboids
+title: Combined Volume of Cuboids
 ---
 ## Problem 212: Combined Volume of Cuboids
 

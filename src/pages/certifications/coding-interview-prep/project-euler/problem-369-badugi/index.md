@@ -1,5 +1,5 @@
 ---
-title: Problem 369: Badugi
+title: Badugi
 ---
 ## Problem 369: Badugi
 

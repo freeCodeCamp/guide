@@ -1,5 +1,5 @@
 ---
-title: Problem 54: Poker hands
+title: Poker hands
 ---
 ## Problem 54: Poker hands
 

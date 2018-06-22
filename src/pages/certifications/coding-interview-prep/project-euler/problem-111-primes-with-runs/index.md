@@ -1,5 +1,5 @@
 ---
-title: Problem 111: Primes with runs
+title: Primes with runs
 ---
 ## Problem 111: Primes with runs
 

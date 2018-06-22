@@ -1,5 +1,5 @@
 ---
-title: Problem 207: Integer partition equations
+title: Integer partition equations
 ---
 ## Problem 207: Integer partition equations
 

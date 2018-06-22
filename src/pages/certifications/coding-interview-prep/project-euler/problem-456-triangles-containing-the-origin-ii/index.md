@@ -1,5 +1,5 @@
 ---
-title: Problem 456: Triangles containing the origin II
+title: Triangles containing the origin II
 ---
 ## Problem 456: Triangles containing the origin II
 

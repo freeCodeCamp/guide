@@ -1,5 +1,5 @@
 ---
-title: Problem 199: Iterative Circle Packing
+title: Iterative Circle Packing
 ---
 ## Problem 199: Iterative Circle Packing
 

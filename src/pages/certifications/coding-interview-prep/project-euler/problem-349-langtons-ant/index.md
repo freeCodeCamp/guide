@@ -1,5 +1,5 @@
 ---
-title: Problem 349: Langton's ant
+title: Langton's ant
 ---
 ## Problem 349: Langton's ant
 

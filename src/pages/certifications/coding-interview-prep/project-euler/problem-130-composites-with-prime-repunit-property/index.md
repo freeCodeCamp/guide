@@ -1,5 +1,5 @@
 ---
-title: Problem 130: Composites with prime repunit property
+title: Composites with prime repunit property
 ---
 ## Problem 130: Composites with prime repunit property
 

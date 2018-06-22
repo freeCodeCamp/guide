@@ -1,5 +1,5 @@
 ---
-title: Problem 315: Digital root clocks
+title: Digital root clocks
 ---
 ## Problem 315: Digital root clocks
 

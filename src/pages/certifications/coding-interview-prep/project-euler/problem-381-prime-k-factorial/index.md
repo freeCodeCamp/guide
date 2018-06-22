@@ -1,5 +1,5 @@
 ---
-title: Problem 381: (prime-k) factorial
+title: (prime-k) factorial
 ---
 ## Problem 381: (prime-k) factorial
 

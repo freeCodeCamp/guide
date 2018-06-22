@@ -1,5 +1,5 @@
 ---
-title: Problem 160: Factorial trailing digits
+title: Factorial trailing digits
 ---
 ## Problem 160: Factorial trailing digits
 

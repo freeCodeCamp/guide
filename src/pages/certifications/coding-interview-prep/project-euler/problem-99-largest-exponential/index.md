@@ -1,5 +1,5 @@
 ---
-title: Problem 99: Largest exponential
+title: Largest exponential
 ---
 ## Problem 99: Largest exponential
 

@@ -1,5 +1,5 @@
 ---
-title: Problem 350: Constraining the least greatest and the greatest least
+title: Constraining the least greatest and the greatest least
 ---
 ## Problem 350: Constraining the least greatest and the greatest least
 

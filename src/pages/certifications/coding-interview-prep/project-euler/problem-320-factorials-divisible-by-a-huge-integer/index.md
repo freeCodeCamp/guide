@@ -1,5 +1,5 @@
 ---
-title: Problem 320: Factorials divisible by a huge integer
+title: Factorials divisible by a huge integer
 ---
 ## Problem 320: Factorials divisible by a huge integer
 

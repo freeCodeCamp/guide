@@ -1,5 +1,5 @@
 ---
-title: Problem 112: Bouncy numbers
+title: Bouncy numbers
 ---
 ## Problem 112: Bouncy numbers
 

@@ -1,5 +1,5 @@
 ---
-title: Problem 167: Investigating Ulam sequences
+title: Investigating Ulam sequences
 ---
 ## Problem 167: Investigating Ulam sequences
 

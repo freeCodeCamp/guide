@@ -1,5 +1,5 @@
 ---
-title: Problem 191: Prize Strings
+title: Prize Strings
 ---
 ## Problem 191: Prize Strings
 

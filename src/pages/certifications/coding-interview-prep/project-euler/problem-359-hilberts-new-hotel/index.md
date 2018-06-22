@@ -1,5 +1,5 @@
 ---
-title: Problem 359: Hilbert's New Hotel
+title: Hilbert's New Hotel
 ---
 ## Problem 359: Hilbert's New Hotel
 

@@ -1,5 +1,5 @@
 ---
-title: Problem 177: Integer angled Quadrilaterals
+title: Integer angled Quadrilaterals
 ---
 ## Problem 177: Integer angled Quadrilaterals
 

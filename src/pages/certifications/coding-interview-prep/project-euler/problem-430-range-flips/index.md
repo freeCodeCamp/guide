@@ -1,5 +1,5 @@
 ---
-title: Problem 430: Range flips
+title: Range flips
 ---
 ## Problem 430: Range flips
 

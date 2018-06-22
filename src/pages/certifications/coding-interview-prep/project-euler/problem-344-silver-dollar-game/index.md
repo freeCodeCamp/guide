@@ -1,5 +1,5 @@
 ---
-title: Problem 344: Silver dollar game
+title: Silver dollar game
 ---
 ## Problem 344: Silver dollar game
 

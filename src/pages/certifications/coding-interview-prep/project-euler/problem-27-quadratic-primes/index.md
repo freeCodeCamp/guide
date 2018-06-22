@@ -1,5 +1,5 @@
 ---
-title: Problem 27: Quadratic primes
+title: Quadratic primes
 ---
 ## Problem 27: Quadratic primes
 

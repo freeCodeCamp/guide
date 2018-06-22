@@ -1,5 +1,5 @@
 ---
-title: Problem 243: Resilience
+title: Resilience
 ---
 ## Problem 243: Resilience
 

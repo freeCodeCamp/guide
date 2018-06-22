@@ -1,5 +1,5 @@
 ---
-title: Problem 328: Lowest-cost Search
+title: Lowest-cost Search
 ---
 ## Problem 328: Lowest-cost Search
 

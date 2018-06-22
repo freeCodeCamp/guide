@@ -1,5 +1,5 @@
 ---
-title: Problem 176: Right-angled triangles that share a cathetus
+title: Right-angled triangles that share a cathetus
 ---
 ## Problem 176: Right-angled triangles that share a cathetus
 

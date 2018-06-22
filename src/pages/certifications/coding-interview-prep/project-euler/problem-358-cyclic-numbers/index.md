@@ -1,5 +1,5 @@
 ---
-title: Problem 358: Cyclic numbers
+title: Cyclic numbers
 ---
 ## Problem 358: Cyclic numbers
 

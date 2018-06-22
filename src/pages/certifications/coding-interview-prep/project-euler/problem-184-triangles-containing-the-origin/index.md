@@ -1,5 +1,5 @@
 ---
-title: Problem 184: Triangles containing the origin
+title: Triangles containing the origin
 ---
 ## Problem 184: Triangles containing the origin
 

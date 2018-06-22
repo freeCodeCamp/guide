@@ -1,5 +1,5 @@
 ---
-title: Problem 321: Swapping Counters
+title: Swapping Counters
 ---
 ## Problem 321: Swapping Counters
 

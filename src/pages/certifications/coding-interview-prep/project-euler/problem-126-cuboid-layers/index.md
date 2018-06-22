@@ -1,5 +1,5 @@
 ---
-title: Problem 126: Cuboid layers
+title: Cuboid layers
 ---
 ## Problem 126: Cuboid layers
 

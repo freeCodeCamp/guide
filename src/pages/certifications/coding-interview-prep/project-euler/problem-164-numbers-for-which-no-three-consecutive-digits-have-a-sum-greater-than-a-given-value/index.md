@@ -1,5 +1,5 @@
 ---
-title: Problem 164: Numbers for which no three consecutive digits have a sum greater than a given value
+title: Numbers for which no three consecutive digits have a sum greater than a given value
 ---
 ## Problem 164: Numbers for which no three consecutive digits have a sum greater than a given value
 

@@ -1,5 +1,5 @@
 ---
-title: Problem 263: An engineers' dream come true
+title: An engineers' dream come true
 ---
 ## Problem 263: An engineers' dream come true
 

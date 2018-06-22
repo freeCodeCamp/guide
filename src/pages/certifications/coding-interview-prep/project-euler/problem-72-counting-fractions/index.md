@@ -1,5 +1,5 @@
 ---
-title: Problem 72: Counting fractions
+title: Counting fractions
 ---
 ## Problem 72: Counting fractions
 

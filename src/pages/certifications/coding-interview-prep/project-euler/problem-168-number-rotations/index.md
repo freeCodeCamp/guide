@@ -1,5 +1,5 @@
 ---
-title: Problem 168: Number Rotations
+title: Number Rotations
 ---
 ## Problem 168: Number Rotations
 

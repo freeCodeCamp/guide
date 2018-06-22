@@ -1,5 +1,5 @@
 ---
-title: Problem 33: Digit cancelling fractions
+title: Digit cancelling fractions
 ---
 ## Problem 33: Digit cancelling fractions
 

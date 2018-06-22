@@ -1,5 +1,5 @@
 ---
-title: Problem 78: Coin partitions
+title: Coin partitions
 ---
 ## Problem 78: Coin partitions
 

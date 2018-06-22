@@ -1,5 +1,5 @@
 ---
-title: Problem 242: Odd Triplets
+title: Odd Triplets
 ---
 ## Problem 242: Odd Triplets
 

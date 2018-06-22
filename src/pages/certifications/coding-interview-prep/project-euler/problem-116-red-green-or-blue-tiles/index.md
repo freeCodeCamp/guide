@@ -1,5 +1,5 @@
 ---
-title: Problem 116: Red, green or blue tiles
+title: Red, green or blue tiles
 ---
 ## Problem 116: Red, green or blue tiles
 

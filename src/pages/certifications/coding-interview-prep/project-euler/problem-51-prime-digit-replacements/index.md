@@ -1,5 +1,5 @@
 ---
-title: Problem 51: Prime digit replacements
+title: Prime digit replacements
 ---
 ## Problem 51: Prime digit replacements
 

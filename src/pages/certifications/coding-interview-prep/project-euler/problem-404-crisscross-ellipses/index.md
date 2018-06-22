@@ -1,5 +1,5 @@
 ---
-title: Problem 404: Crisscross Ellipses
+title: Crisscross Ellipses
 ---
 ## Problem 404: Crisscross Ellipses
 

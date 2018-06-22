@@ -1,5 +1,5 @@
 ---
-title: Problem 40: Champernowne's constant
+title: Champernowne's constant
 ---
 ## Problem 40: Champernowne's constant
 

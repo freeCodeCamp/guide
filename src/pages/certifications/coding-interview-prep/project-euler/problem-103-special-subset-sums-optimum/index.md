@@ -1,5 +1,5 @@
 ---
-title: Problem 103: Special subset sums: optimum
+title: Special subset sums - optimum
 ---
 ## Problem 103: Special subset sums: optimum
 

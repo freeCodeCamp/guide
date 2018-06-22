@@ -1,5 +1,5 @@
 ---
-title: Problem 443: GCD sequence
+title: GCD sequence
 ---
 ## Problem 443: GCD sequence
 

@@ -1,5 +1,5 @@
 ---
-title: Problem 354: Distances in a bee's honeycomb
+title: Distances in a bee's honeycomb
 ---
 ## Problem 354: Distances in a bee's honeycomb
 

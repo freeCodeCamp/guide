@@ -1,5 +1,5 @@
 ---
-title: Problem 442: Eleven-free integers
+title: Eleven-free integers
 ---
 ## Problem 442: Eleven-free integers
 

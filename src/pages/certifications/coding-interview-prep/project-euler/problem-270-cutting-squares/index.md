@@ -1,5 +1,5 @@
 ---
-title: Problem 270: Cutting Squares
+title: Cutting Squares
 ---
 ## Problem 270: Cutting Squares
 

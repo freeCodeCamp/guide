@@ -1,5 +1,5 @@
 ---
-title: Problem 213: Flea Circus
+title: Flea Circus
 ---
 ## Problem 213: Flea Circus
 

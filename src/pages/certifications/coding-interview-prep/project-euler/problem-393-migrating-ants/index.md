@@ -1,5 +1,5 @@
 ---
-title: Problem 393: Migrating ants
+title: Migrating ants
 ---
 ## Problem 393: Migrating ants
 

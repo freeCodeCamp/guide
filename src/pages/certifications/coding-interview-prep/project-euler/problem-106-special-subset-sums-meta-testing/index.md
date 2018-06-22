@@ -1,5 +1,5 @@
 ---
-title: Problem 106: Special subset sums: meta-testing
+title: Special subset sums - meta-testing
 ---
 ## Problem 106: Special subset sums: meta-testing
 

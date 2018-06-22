@@ -1,5 +1,5 @@
 ---
-title: Problem 60: Prime pair sets
+title: Prime pair sets
 ---
 ## Problem 60: Prime pair sets
 

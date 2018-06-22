@@ -1,5 +1,5 @@
 ---
-title: Problem 156: Counting Digits
+title: Counting Digits
 ---
 ## Problem 156: Counting Digits
 

@@ -1,5 +1,5 @@
 ---
-title: Problem 390: Triangles with non rational sides and integral area
+title: Triangles with non rational sides and integral area
 ---
 ## Problem 390: Triangles with non rational sides and integral area
 

@@ -1,5 +1,5 @@
 ---
-title: Problem 230: Fibonacci Words
+title: Fibonacci Words
 ---
 ## Problem 230: Fibonacci Words
 

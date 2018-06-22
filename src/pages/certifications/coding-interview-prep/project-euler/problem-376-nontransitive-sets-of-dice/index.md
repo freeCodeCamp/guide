@@ -1,5 +1,5 @@
 ---
-title: Problem 376: Nontransitive sets of dice
+title: Nontransitive sets of dice
 ---
 ## Problem 376: Nontransitive sets of dice
 

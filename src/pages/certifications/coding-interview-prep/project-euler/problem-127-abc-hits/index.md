@@ -1,5 +1,5 @@
 ---
-title: Problem 127: abc-hits
+title: abc-hits
 ---
 ## Problem 127: abc-hits
 

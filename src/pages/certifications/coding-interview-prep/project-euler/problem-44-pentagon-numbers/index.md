@@ -1,5 +1,5 @@
 ---
-title: Problem 44: Pentagon numbers
+title: Pentagon numbers
 ---
 ## Problem 44: Pentagon numbers
 

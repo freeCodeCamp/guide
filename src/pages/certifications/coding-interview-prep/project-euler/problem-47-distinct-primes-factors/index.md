@@ -1,5 +1,5 @@
 ---
-title: Problem 47: Distinct primes factors
+title: Distinct primes factors
 ---
 ## Problem 47: Distinct primes factors
 

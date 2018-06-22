@@ -1,5 +1,5 @@
 ---
-title: Problem 284: Steady Squares
+title: Steady Squares
 ---
 ## Problem 284: Steady Squares
 

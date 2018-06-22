@@ -1,5 +1,5 @@
 ---
-title: Problem 394: Eating pie
+title: Eating pie
 ---
 ## Problem 394: Eating pie
 

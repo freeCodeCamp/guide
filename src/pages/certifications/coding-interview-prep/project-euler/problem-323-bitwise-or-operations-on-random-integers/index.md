@@ -1,5 +1,5 @@
 ---
-title: Problem 323: Bitwise-OR operations on random integers
+title: Bitwise-OR operations on random integers
 ---
 ## Problem 323: Bitwise-OR operations on random integers
 

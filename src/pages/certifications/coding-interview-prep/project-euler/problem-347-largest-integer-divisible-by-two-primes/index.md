@@ -1,5 +1,5 @@
 ---
-title: Problem 347: Largest integer divisible by two primes
+title: Largest integer divisible by two primes
 ---
 ## Problem 347: Largest integer divisible by two primes
 

@@ -1,5 +1,5 @@
 ---
-title: Problem 269: Polynomials with at least one integer root
+title: Polynomials with at least one integer root
 ---
 ## Problem 269: Polynomials with at least one integer root
 

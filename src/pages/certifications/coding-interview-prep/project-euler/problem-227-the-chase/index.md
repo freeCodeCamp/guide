@@ -1,5 +1,5 @@
 ---
-title: Problem 227: The Chase
+title: The Chase
 ---
 ## Problem 227: The Chase
 

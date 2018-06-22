@@ -1,5 +1,5 @@
 ---
-title: Problem 371: Licence plates
+title: Licence plates
 ---
 ## Problem 371: Licence plates
 

@@ -1,5 +1,5 @@
 ---
-title: Problem 2: Even Fibonacci Numbers
+title: Even Fibonacci Numbers
 ---
 ## Problem 2: Even Fibonacci Numbers
 

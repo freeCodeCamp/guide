@@ -1,5 +1,5 @@
 ---
-title: Problem 345: Matrix Sum
+title: Matrix Sum
 ---
 ## Problem 345: Matrix Sum
 

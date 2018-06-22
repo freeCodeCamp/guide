@@ -1,5 +1,5 @@
 ---
-title: Problem 48: Self powers
+title: Self powers
 ---
 ## Problem 48: Self powers
 

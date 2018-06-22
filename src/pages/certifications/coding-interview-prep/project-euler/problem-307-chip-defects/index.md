@@ -1,5 +1,5 @@
 ---
-title: Problem 307: Chip Defects
+title: Chip Defects
 ---
 ## Problem 307: Chip Defects
 

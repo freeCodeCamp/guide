@@ -1,5 +1,5 @@
 ---
-title: Problem 479: Roots on the Rise
+title: Roots on the Rise
 ---
 ## Problem 479: Roots on the Rise
 

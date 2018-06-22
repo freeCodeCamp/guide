@@ -1,5 +1,5 @@
 ---
-title: Problem 433: Steps in Euclid's algorithm
+title: Steps in Euclid's algorithm
 ---
 ## Problem 433: Steps in Euclid's algorithm
 

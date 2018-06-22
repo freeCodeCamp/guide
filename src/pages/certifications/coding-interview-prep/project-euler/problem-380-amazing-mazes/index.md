@@ -1,5 +1,5 @@
 ---
-title: Problem 380: Amazing Mazes!
+title: Amazing Mazes!
 ---
 ## Problem 380: Amazing Mazes!
 

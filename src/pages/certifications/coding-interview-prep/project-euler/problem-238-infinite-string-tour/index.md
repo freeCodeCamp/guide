@@ -1,5 +1,5 @@
 ---
-title: Problem 238: Infinite string tour
+title: Infinite string tour
 ---
 ## Problem 238: Infinite string tour
 

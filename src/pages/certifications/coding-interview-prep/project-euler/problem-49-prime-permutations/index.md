@@ -1,5 +1,5 @@
 ---
-title: Problem 49: Prime permutations
+title: Prime permutations
 ---
 ## Problem 49: Prime permutations
 

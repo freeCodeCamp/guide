@@ -1,5 +1,5 @@
 ---
-title: Problem 293: Pseudo-Fortunate Numbers
+title: Pseudo-Fortunate Numbers
 ---
 ## Problem 293: Pseudo-Fortunate Numbers
 

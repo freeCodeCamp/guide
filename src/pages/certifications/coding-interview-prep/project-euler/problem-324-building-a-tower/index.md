@@ -1,5 +1,5 @@
 ---
-title: Problem 324: Building a tower
+title: Building a tower
 ---
 ## Problem 324: Building a tower
 

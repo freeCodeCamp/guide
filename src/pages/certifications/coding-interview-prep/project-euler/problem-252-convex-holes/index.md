@@ -1,5 +1,5 @@
 ---
-title: Problem 252: Convex Holes
+title: Convex Holes
 ---
 ## Problem 252: Convex Holes
 

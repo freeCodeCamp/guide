@@ -1,5 +1,5 @@
 ---
-title: Problem 398: Cutting rope
+title: Cutting rope
 ---
 ## Problem 398: Cutting rope
 

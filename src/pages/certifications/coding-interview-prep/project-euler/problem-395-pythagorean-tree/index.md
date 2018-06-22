@@ -1,5 +1,5 @@
 ---
-title: Problem 395: Pythagorean tree
+title: Pythagorean tree
 ---
 ## Problem 395: Pythagorean tree
 

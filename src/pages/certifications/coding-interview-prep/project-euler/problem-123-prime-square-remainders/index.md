@@ -1,5 +1,5 @@
 ---
-title: Problem 123: Prime square remainders
+title: Prime square remainders
 ---
 ## Problem 123: Prime square remainders
 

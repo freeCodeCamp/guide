@@ -1,5 +1,5 @@
 ---
-title: Problem 248: Numbers for which Euler’s totient function equals 13!
+title: Numbers for which Euler’s totient function equals 13!
 ---
 ## Problem 248: Numbers for which Euler’s totient function equals 13!
 

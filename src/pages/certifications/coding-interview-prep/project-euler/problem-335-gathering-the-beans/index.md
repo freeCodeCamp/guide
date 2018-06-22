@@ -1,5 +1,5 @@
 ---
-title: Problem 335: Gathering the beans
+title: Gathering the beans
 ---
 ## Problem 335: Gathering the beans
 

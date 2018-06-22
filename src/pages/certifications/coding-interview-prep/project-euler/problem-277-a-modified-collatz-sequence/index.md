@@ -1,5 +1,5 @@
 ---
-title: Problem 277: A Modified Collatz sequence
+title: A Modified Collatz sequence
 ---
 ## Problem 277: A Modified Collatz sequence
 

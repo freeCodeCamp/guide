@@ -1,5 +1,5 @@
 ---
-title: Problem 42: Coded triangle numbers
+title: Coded triangle numbers
 ---
 ## Problem 42: Coded triangle numbers
 

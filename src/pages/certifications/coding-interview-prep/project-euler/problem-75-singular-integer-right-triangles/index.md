@@ -1,5 +1,5 @@
 ---
-title: Problem 75: Singular integer right triangles
+title: Singular integer right triangles
 ---
 ## Problem 75: Singular integer right triangles
 

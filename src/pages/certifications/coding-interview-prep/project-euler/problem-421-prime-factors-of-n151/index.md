@@ -1,5 +1,5 @@
 ---
-title: Problem 421: Prime factors of n15+1
+title: Prime factors of n15+1
 ---
 ## Problem 421: Prime factors of n15+1
 

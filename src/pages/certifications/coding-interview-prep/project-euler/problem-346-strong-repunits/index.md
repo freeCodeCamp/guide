@@ -1,5 +1,5 @@
 ---
-title: Problem 346: Strong Repunits
+title: Strong Repunits
 ---
 ## Problem 346: Strong Repunits
 

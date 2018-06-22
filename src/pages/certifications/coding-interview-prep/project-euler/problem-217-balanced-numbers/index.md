@@ -1,5 +1,5 @@
 ---
-title: Problem 217: Balanced Numbers
+title: Balanced Numbers
 ---
 ## Problem 217: Balanced Numbers
 

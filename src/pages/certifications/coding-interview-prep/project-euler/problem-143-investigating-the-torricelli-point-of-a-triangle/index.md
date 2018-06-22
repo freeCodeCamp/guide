@@ -1,5 +1,5 @@
 ---
-title: Problem 143: Investigating the Torricelli point of a triangle
+title: Investigating the Torricelli point of a triangle
 ---
 ## Problem 143: Investigating the Torricelli point of a triangle
 

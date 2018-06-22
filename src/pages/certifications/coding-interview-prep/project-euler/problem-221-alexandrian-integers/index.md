@@ -1,5 +1,5 @@
 ---
-title: Problem 221: Alexandrian Integers
+title: Alexandrian Integers
 ---
 ## Problem 221: Alexandrian Integers
 

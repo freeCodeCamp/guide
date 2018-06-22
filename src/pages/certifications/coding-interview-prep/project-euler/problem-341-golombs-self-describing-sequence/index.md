@@ -1,5 +1,5 @@
 ---
-title: Problem 341: Golomb's self-describing sequence
+title: Golomb's self-describing sequence
 ---
 ## Problem 341: Golomb's self-describing sequence
 

@@ -1,5 +1,5 @@
 ---
-title: Problem 247: Squares under a hyperbola
+title: Squares under a hyperbola
 ---
 ## Problem 247: Squares under a hyperbola
 

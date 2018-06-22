@@ -1,5 +1,5 @@
 ---
-title: Problem 322: Binomial coefficients divisible by 10
+title: Binomial coefficients divisible by 10
 ---
 ## Problem 322: Binomial coefficients divisible by 10
 

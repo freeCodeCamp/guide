@@ -1,5 +1,5 @@
 ---
-title: Problem 367: Bozo sort
+title: Bozo sort
 ---
 ## Problem 367: Bozo sort
 

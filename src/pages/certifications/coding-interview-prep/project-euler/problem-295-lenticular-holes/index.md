@@ -1,5 +1,5 @@
 ---
-title: Problem 295: Lenticular holes
+title: Lenticular holes
 ---
 ## Problem 295: Lenticular holes
 

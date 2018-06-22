@@ -1,5 +1,5 @@
 ---
-title: Problem 377: Sum of digits, experience 13
+title: Sum of digits, experience 13
 ---
 ## Problem 377: Sum of digits, experience 13
 

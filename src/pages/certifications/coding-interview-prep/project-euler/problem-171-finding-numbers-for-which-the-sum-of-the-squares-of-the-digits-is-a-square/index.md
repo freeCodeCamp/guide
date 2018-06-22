@@ -1,5 +1,5 @@
 ---
-title: Problem 171: Finding numbers for which the sum of the squares of the digits is a square
+title: Finding numbers for which the sum of the squares of the digits is a square
 ---
 ## Problem 171: Finding numbers for which the sum of the squares of the digits is a square
 

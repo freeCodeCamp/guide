@@ -1,5 +1,5 @@
 ---
-title: Problem 427: n-sequences
+title: n-sequences
 ---
 ## Problem 427: n-sequences
 

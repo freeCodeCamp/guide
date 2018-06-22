@@ -1,5 +1,5 @@
 ---
-title: Problem 333: Special partitions
+title: Special partitions
 ---
 ## Problem 333: Special partitions
 

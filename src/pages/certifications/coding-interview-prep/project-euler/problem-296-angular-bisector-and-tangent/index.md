@@ -1,5 +1,5 @@
 ---
-title: Problem 296: Angular Bisector and Tangent
+title: Angular Bisector and Tangent
 ---
 ## Problem 296: Angular Bisector and Tangent
 

@@ -1,5 +1,5 @@
 ---
-title: Problem 408: Admissible paths through a grid
+title: Admissible paths through a grid
 ---
 ## Problem 408: Admissible paths through a grid
 

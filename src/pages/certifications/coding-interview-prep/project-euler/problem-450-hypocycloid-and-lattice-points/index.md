@@ -1,5 +1,5 @@
 ---
-title: Problem 450: Hypocycloid and Lattice points
+title: Hypocycloid and Lattice points
 ---
 ## Problem 450: Hypocycloid and Lattice points
 

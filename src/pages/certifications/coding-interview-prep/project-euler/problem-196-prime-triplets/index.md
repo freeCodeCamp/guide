@@ -1,5 +1,5 @@
 ---
-title: Problem 196: Prime triplets
+title: Prime triplets
 ---
 ## Problem 196: Prime triplets
 

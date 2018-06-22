@@ -1,5 +1,5 @@
 ---
-title: Problem 327: Rooms of Doom
+title: Rooms of Doom
 ---
 ## Problem 327: Rooms of Doom
 

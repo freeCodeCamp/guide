@@ -1,5 +1,5 @@
 ---
-title: Problem 16: Power digit sum
+title: Power digit sum
 ---
 ## Problem 16: Power digit sum
 

@@ -1,5 +1,5 @@
 ---
-title: Problem 275: Balanced Sculptures
+title: Balanced Sculptures
 ---
 ## Problem 275: Balanced Sculptures
 

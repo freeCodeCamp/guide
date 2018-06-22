@@ -1,5 +1,5 @@
 ---
-title: Problem 266: Pseudo Square Root
+title: Pseudo Square Root
 ---
 ## Problem 266: Pseudo Square Root
 

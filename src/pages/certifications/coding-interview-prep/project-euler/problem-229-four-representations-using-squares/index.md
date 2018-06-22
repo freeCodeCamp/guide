@@ -1,5 +1,5 @@
 ---
-title: Problem 229: Four Representations using Squares
+title: Four Representations using Squares
 ---
 ## Problem 229: Four Representations using Squares
 

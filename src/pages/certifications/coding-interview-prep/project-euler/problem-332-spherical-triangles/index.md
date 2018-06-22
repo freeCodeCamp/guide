@@ -1,5 +1,5 @@
 ---
-title: Problem 332: Spherical triangles
+title: Spherical triangles
 ---
 ## Problem 332: Spherical triangles
 

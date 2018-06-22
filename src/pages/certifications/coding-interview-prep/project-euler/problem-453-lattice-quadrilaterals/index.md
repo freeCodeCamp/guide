@@ -1,5 +1,5 @@
 ---
-title: Problem 453: Lattice Quadrilaterals
+title: Lattice Quadrilaterals
 ---
 ## Problem 453: Lattice Quadrilaterals
 

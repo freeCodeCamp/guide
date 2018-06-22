@@ -1,5 +1,5 @@
 ---
-title: Problem 30: Digit n powers
+title: Digit n powers
 ---
 ## Problem 30: Digit n powers
 

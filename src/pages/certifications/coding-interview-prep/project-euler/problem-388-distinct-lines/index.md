@@ -1,5 +1,5 @@
 ---
-title: Problem 388: Distinct Lines
+title: Distinct Lines
 ---
 ## Problem 388: Distinct Lines
 

@@ -1,5 +1,5 @@
 ---
-title: Problem 5: Smallest multiple
+title: Smallest multiple
 ---
 ## Problem 5: Smallest multiple
 

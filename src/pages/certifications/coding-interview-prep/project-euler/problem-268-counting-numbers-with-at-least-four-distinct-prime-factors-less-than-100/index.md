@@ -1,5 +1,5 @@
 ---
-title: Problem 268: Counting numbers with at least four distinct prime factors less than 100
+title: Counting numbers with at least four distinct prime factors less than 100
 ---
 ## Problem 268: Counting numbers with at least four distinct prime factors less than 100
 

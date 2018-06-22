@@ -1,5 +1,5 @@
 ---
-title: Problem 219: Skew-cost coding
+title: Skew-cost coding
 ---
 ## Problem 219: Skew-cost coding
 

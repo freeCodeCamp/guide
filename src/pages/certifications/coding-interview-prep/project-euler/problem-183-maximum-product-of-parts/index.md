@@ -1,5 +1,5 @@
 ---
-title: Problem 183: Maximum product of parts
+title: Maximum product of parts
 ---
 ## Problem 183: Maximum product of parts
 

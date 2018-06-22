@@ -1,5 +1,5 @@
 ---
-title: Problem 478: Mixtures
+title: Mixtures
 ---
 ## Problem 478: Mixtures
 

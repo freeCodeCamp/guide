@@ -1,5 +1,5 @@
 ---
-title: Problem 55: Lychrel numbers
+title: Lychrel numbers
 ---
 ## Problem 55: Lychrel numbers
 

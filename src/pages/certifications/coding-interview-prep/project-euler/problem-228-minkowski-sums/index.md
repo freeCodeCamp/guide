@@ -1,5 +1,5 @@
 ---
-title: Problem 228: Minkowski Sums
+title: Minkowski Sums
 ---
 ## Problem 228: Minkowski Sums
 

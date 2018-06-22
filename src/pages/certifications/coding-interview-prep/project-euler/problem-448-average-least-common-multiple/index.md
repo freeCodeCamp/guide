@@ -1,5 +1,5 @@
 ---
-title: Problem 448: Average least common multiple
+title: Average least common multiple
 ---
 ## Problem 448: Average least common multiple
 

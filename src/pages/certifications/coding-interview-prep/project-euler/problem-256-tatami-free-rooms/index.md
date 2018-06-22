@@ -1,5 +1,5 @@
 ---
-title: Problem 256: Tatami-Free Rooms
+title: Tatami-Free Rooms
 ---
 ## Problem 256: Tatami-Free Rooms
 

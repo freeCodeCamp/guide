@@ -1,5 +1,5 @@
 ---
-title: Problem 424: Kakuro
+title: Kakuro
 ---
 ## Problem 424: Kakuro
 

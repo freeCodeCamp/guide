@@ -1,5 +1,5 @@
 ---
-title: Problem 260: Stone Game
+title: Stone Game
 ---
 ## Problem 260: Stone Game
 

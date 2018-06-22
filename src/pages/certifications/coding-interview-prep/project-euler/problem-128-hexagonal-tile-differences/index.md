@@ -1,5 +1,5 @@
 ---
-title: Problem 128: Hexagonal tile differences
+title: Hexagonal tile differences
 ---
 ## Problem 128: Hexagonal tile differences
 

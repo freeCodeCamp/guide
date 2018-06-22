@@ -1,5 +1,5 @@
 ---
-title: Problem 439: Sum of sum of divisors
+title: Sum of sum of divisors
 ---
 ## Problem 439: Sum of sum of divisors
 

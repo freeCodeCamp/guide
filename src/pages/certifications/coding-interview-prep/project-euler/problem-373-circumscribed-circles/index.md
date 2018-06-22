@@ -1,5 +1,5 @@
 ---
-title: Problem 373: Circumscribed Circles
+title: Circumscribed Circles
 ---
 ## Problem 373: Circumscribed Circles
 

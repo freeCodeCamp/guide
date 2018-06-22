@@ -1,5 +1,5 @@
 ---
-title: Problem 9: Special Pythagorean triplet
+title: Special Pythagorean triplet
 ---
 ## Problem 9: Special Pythagorean triplet
 

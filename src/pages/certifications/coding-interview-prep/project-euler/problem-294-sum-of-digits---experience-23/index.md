@@ -1,5 +1,5 @@
 ---
-title: Problem 294: Sum of digits - experience #23
+title: Sum of digits - experience #23
 ---
 ## Problem 294: Sum of digits - experience #23
 

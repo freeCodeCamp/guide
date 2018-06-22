@@ -1,5 +1,5 @@
 ---
-title: Problem 134: Prime pair connection
+title: Prime pair connection
 ---
 ## Problem 134: Prime pair connection
 

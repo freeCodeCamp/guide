@@ -1,5 +1,5 @@
 ---
-title: Problem 235: An Arithmetic Geometric sequence
+title: An Arithmetic Geometric sequence
 ---
 ## Problem 235: An Arithmetic Geometric sequence
 

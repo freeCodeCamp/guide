@@ -1,5 +1,5 @@
 ---
-title: Problem 440: GCD and Tiling
+title: GCD and Tiling
 ---
 ## Problem 440: GCD and Tiling
 

@@ -1,5 +1,5 @@
 ---
-title: Problem 441: The inverse summation of coprime couples
+title: The inverse summation of coprime couples
 ---
 ## Problem 441: The inverse summation of coprime couples
 

@@ -1,5 +1,5 @@
 ---
-title: Problem 273: Sum of Squares
+title: Sum of Squares
 ---
 ## Problem 273: Sum of Squares
 

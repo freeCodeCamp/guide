@@ -1,5 +1,5 @@
 ---
-title: Problem 50: Consecutive prime sum
+title: Consecutive prime sum
 ---
 ## Problem 50: Consecutive prime sum
 

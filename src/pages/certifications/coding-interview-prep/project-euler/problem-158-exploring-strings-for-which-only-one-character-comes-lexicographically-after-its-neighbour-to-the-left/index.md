@@ -1,5 +1,5 @@
 ---
-title: Problem 158: Exploring strings for which only one character comes lexicographically after its neighbour to the left
+title: Exploring strings for which only one character comes lexicographically after its neighbour to the left
 ---
 ## Problem 158: Exploring strings for which only one character comes lexicographically after its neighbour to the left
 

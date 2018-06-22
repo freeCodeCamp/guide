@@ -1,5 +1,5 @@
 ---
-title: Problem 43: Sub-string divisibility
+title: Sub-string divisibility
 ---
 ## Problem 43: Sub-string divisibility
 

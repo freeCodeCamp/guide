@@ -1,5 +1,5 @@
 ---
-title: Problem 138: Special isosceles triangles
+title: Special isosceles triangles
 ---
 ## Problem 138: Special isosceles triangles
 

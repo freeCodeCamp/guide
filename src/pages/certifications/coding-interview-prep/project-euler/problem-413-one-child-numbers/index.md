@@ -1,5 +1,5 @@
 ---
-title: Problem 413: One-child Numbers
+title: One-child Numbers
 ---
 ## Problem 413: One-child Numbers
 

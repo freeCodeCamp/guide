@@ -1,5 +1,5 @@
 ---
-title: Problem 310: Nim Square
+title: Nim Square
 ---
 ## Problem 310: Nim Square
 

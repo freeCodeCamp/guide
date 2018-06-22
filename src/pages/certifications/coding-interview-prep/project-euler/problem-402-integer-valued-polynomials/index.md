@@ -1,5 +1,5 @@
 ---
-title: Problem 402: Integer-valued polynomials
+title: Integer-valued polynomials
 ---
 ## Problem 402: Integer-valued polynomials
 

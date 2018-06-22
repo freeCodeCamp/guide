@@ -1,5 +1,5 @@
 ---
-title: Problem 418: Factorisation triples
+title: Factorisation triples
 ---
 ## Problem 418: Factorisation triples
 

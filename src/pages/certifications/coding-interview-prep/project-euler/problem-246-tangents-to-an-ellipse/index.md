@@ -1,5 +1,5 @@
 ---
-title: Problem 246: Tangents to an ellipse
+title: Tangents to an ellipse
 ---
 ## Problem 246: Tangents to an ellipse
 

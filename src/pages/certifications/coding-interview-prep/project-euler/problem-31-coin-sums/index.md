@@ -1,5 +1,5 @@
 ---
-title: Problem 31: Coin sums
+title: Coin sums
 ---
 ## Problem 31: Coin sums
 

@@ -1,5 +1,5 @@
 ---
-title: Problem 71: Ordered fractions
+title: Ordered fractions
 ---
 ## Problem 71: Ordered fractions
 

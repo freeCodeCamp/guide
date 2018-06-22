@@ -1,5 +1,5 @@
 ---
-title: Problem 182: RSA encryption
+title: RSA encryption
 ---
 ## Problem 182: RSA encryption
 

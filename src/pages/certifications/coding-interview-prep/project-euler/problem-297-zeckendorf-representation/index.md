@@ -1,5 +1,5 @@
 ---
-title: Problem 297: Zeckendorf Representation
+title: Zeckendorf Representation
 ---
 ## Problem 297: Zeckendorf Representation
 

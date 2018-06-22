@@ -1,5 +1,5 @@
 ---
-title: Problem 338: Cutting Rectangular Grid Paper
+title: Cutting Rectangular Grid Paper
 ---
 ## Problem 338: Cutting Rectangular Grid Paper
 

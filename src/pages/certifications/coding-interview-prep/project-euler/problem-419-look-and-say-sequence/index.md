@@ -1,5 +1,5 @@
 ---
-title: Problem 419: Look and say sequence
+title: Look and say sequence
 ---
 ## Problem 419: Look and say sequence
 

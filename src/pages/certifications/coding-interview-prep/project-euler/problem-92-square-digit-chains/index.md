@@ -1,5 +1,5 @@
 ---
-title: Problem 92: Square digit chains
+title: Square digit chains
 ---
 ## Problem 92: Square digit chains
 

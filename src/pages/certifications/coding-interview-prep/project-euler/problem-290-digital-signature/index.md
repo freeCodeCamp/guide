@@ -1,5 +1,5 @@
 ---
-title: Problem 290: Digital Signature
+title: Digital Signature
 ---
 ## Problem 290: Digital Signature
 

@@ -1,5 +1,5 @@
 ---
-title: Problem 77: Prime summations
+title: Prime summations
 ---
 ## Problem 77: Prime summations
 

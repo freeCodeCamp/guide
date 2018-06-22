@@ -1,5 +1,5 @@
 ---
-title: Problem 109: Darts
+title: Darts
 ---
 ## Problem 109: Darts
 

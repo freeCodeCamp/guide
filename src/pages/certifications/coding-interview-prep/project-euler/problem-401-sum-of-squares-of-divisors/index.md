@@ -1,5 +1,5 @@
 ---
-title: Problem 401: Sum of squares of divisors
+title: Sum of squares of divisors
 ---
 ## Problem 401: Sum of squares of divisors
 

@@ -1,5 +1,5 @@
 ---
-title: Problem 192: Best Approximations
+title: Best Approximations
 ---
 ## Problem 192: Best Approximations
 

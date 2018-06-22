@@ -1,5 +1,5 @@
 ---
-title: Problem 447: Retractions C
+title: Retractions C
 ---
 ## Problem 447: Retractions C
 

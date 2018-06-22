@@ -1,5 +1,5 @@
 ---
-title: Problem 180: Rational zeros of a function of three variables
+title: Rational zeros of a function of three variables
 ---
 ## Problem 180: Rational zeros of a function of three variables
 

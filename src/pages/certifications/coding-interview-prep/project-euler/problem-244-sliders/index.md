@@ -1,5 +1,5 @@
 ---
-title: Problem 244: Sliders
+title: Sliders
 ---
 ## Problem 244: Sliders
 

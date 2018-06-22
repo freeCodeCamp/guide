@@ -1,5 +1,5 @@
 ---
-title: Problem 136: Singleton difference
+title: Singleton difference
 ---
 ## Problem 136: Singleton difference
 

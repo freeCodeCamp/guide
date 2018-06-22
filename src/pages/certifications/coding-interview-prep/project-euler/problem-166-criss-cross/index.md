@@ -1,5 +1,5 @@
 ---
-title: Problem 166: Criss Cross
+title: Criss Cross
 ---
 ## Problem 166: Criss Cross
 

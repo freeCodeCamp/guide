@@ -1,5 +1,5 @@
 ---
-title: Problem 222: Sphere Packing
+title: Sphere Packing
 ---
 ## Problem 222: Sphere Packing
 

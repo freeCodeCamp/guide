@@ -1,5 +1,5 @@
 ---
-title: Problem 56: Powerful digit sum
+title: Powerful digit sum
 ---
 ## Problem 56: Powerful digit sum
 

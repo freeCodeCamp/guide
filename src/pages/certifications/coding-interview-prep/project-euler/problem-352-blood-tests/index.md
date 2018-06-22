@@ -1,5 +1,5 @@
 ---
-title: Problem 352: Blood tests
+title: Blood tests
 ---
 ## Problem 352: Blood tests
 

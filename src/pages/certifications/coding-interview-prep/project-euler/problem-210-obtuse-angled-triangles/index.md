@@ -1,5 +1,5 @@
 ---
-title: Problem 210: Obtuse Angled Triangles
+title: Obtuse Angled Triangles
 ---
 ## Problem 210: Obtuse Angled Triangles
 

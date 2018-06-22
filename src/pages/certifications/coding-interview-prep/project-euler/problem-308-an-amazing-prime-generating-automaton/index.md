@@ -1,5 +1,5 @@
 ---
-title: Problem 308: An amazing Prime-generating Automaton
+title: An amazing Prime-generating Automaton
 ---
 ## Problem 308: An amazing Prime-generating Automaton
 

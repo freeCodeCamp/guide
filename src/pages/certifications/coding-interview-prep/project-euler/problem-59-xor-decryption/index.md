@@ -1,5 +1,5 @@
 ---
-title: Problem 59: XOR decryption
+title: XOR decryption
 ---
 ## Problem 59: XOR decryption
 

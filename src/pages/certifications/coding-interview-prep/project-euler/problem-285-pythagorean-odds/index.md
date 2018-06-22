@@ -1,5 +1,5 @@
 ---
-title: Problem 285: Pythagorean odds
+title: Pythagorean odds
 ---
 ## Problem 285: Pythagorean odds
 

@@ -1,5 +1,5 @@
 ---
-title: Problem 460: An ant on the move
+title: An ant on the move
 ---
 ## Problem 460: An ant on the move
 

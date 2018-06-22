@@ -1,5 +1,5 @@
 ---
-title: Problem 107: Minimal network
+title: Minimal network
 ---
 ## Problem 107: Minimal network
 

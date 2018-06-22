@@ -1,5 +1,5 @@
 ---
-title: Problem 325: Stone Game II
+title: Stone Game II
 ---
 ## Problem 325: Stone Game II
 

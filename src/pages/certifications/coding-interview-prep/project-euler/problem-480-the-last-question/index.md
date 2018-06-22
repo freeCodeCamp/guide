@@ -1,5 +1,5 @@
 ---
-title: Problem 480: The Last Question
+title: The Last Question
 ---
 ## Problem 480: The Last Question
 

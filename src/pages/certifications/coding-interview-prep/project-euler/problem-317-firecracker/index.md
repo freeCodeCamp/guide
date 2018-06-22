@@ -1,5 +1,5 @@
 ---
-title: Problem 317: Firecracker
+title: Firecracker
 ---
 ## Problem 317: Firecracker
 

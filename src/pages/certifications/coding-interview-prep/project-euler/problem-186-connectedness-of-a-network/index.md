@@ -1,5 +1,5 @@
 ---
-title: Problem 186: Connectedness of a network
+title: Connectedness of a network
 ---
 ## Problem 186: Connectedness of a network
 

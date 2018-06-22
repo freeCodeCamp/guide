@@ -1,5 +1,5 @@
 ---
-title: Problem 80: Square root digital expansion
+title: Square root digital expansion
 ---
 ## Problem 80: Square root digital expansion
 

@@ -1,5 +1,5 @@
 ---
-title: Problem 348: Sum of a square and a cube
+title: Sum of a square and a cube
 ---
 ## Problem 348: Sum of a square and a cube
 

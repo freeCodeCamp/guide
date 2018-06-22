@@ -1,5 +1,5 @@
 ---
-title: Problem 357: Prime generating integers
+title: Prime generating integers
 ---
 ## Problem 357: Prime generating integers
 

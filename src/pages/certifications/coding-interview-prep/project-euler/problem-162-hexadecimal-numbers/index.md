@@ -1,5 +1,5 @@
 ---
-title: Problem 162: Hexadecimal numbers
+title: Hexadecimal numbers
 ---
 ## Problem 162: Hexadecimal numbers
 

@@ -1,5 +1,5 @@
 ---
-title: Problem 386: Maximum length of an antichain
+title: Maximum length of an antichain
 ---
 ## Problem 386: Maximum length of an antichain
 

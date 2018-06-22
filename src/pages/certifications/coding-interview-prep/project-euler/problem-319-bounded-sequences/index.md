@@ -1,5 +1,5 @@
 ---
-title: Problem 319: Bounded Sequences
+title: Bounded Sequences
 ---
 ## Problem 319: Bounded Sequences
 

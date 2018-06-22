@@ -1,5 +1,5 @@
 ---
-title: Problem 240: Top Dice
+title: Top Dice
 ---
 ## Problem 240: Top Dice
 

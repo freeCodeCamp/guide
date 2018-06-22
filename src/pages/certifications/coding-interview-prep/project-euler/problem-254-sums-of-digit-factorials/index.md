@@ -1,5 +1,5 @@
 ---
-title: Problem 254: Sums of Digit Factorials
+title: Sums of Digit Factorials
 ---
 ## Problem 254: Sums of Digit Factorials
 

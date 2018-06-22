@@ -1,5 +1,5 @@
 ---
-title: Problem 61: Cyclical figurate numbers
+title: Cyclical figurate numbers
 ---
 ## Problem 61: Cyclical figurate numbers
 

@@ -1,5 +1,5 @@
 ---
-title: Problem 21: Amicable numbers
+title: Amicable numbers
 ---
 ## Problem 21: Amicable numbers
 

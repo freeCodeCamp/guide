@@ -1,5 +1,5 @@
 ---
-title: Problem 35: Circular primes
+title: Circular primes
 ---
 ## Problem 35: Circular primes
 

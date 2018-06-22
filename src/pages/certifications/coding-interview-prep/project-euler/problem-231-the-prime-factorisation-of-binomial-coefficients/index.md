@@ -1,5 +1,5 @@
 ---
-title: Problem 231: The prime factorisation of binomial coefficients
+title: The prime factorisation of binomial coefficients
 ---
 ## Problem 231: The prime factorisation of binomial coefficients
 

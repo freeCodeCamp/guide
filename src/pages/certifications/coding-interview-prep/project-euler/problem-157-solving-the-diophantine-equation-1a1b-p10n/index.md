@@ -1,5 +1,5 @@
 ---
-title: Problem 157: Solving the diophantine equation 1/a+1/b= p/10n
+title: Solving the diophantine equation 1/a+1/b= p/10n
 ---
 ## Problem 157: Solving the diophantine equation 1/a+1/b= p/10n
 

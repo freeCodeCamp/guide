@@ -1,5 +1,5 @@
 ---
-title: Problem 133: Repunit nonfactors
+title: Repunit nonfactors
 ---
 ## Problem 133: Repunit nonfactors
 

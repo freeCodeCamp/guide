@@ -1,5 +1,5 @@
 ---
-title: Problem 423: Consecutive die throws
+title: Consecutive die throws
 ---
 ## Problem 423: Consecutive die throws
 

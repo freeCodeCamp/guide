@@ -1,5 +1,5 @@
 ---
-title: Problem 261: Pivotal Square Sums
+title: Pivotal Square Sums
 ---
 ## Problem 261: Pivotal Square Sums
 

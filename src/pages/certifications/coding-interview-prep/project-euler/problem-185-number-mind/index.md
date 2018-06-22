@@ -1,5 +1,5 @@
 ---
-title: Problem 185: Number Mind
+title: Number Mind
 ---
 ## Problem 185: Number Mind
 

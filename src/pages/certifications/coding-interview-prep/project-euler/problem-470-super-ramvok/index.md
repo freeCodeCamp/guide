@@ -1,5 +1,5 @@
 ---
-title: Problem 470: Super Ramvok
+title: Super Ramvok
 ---
 ## Problem 470: Super Ramvok
 

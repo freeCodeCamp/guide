@@ -1,5 +1,5 @@
 ---
-title: Problem 326: Modulo Summations
+title: Modulo Summations
 ---
 ## Problem 326: Modulo Summations
 

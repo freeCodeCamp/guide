@@ -1,5 +1,5 @@
 ---
-title: Problem 412: Gnomon numbering
+title: Gnomon numbering
 ---
 ## Problem 412: Gnomon numbering
 

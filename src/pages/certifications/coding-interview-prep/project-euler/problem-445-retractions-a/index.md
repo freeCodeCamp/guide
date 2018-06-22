@@ -1,5 +1,5 @@
 ---
-title: Problem 445: Retractions A
+title: Retractions A
 ---
 ## Problem 445: Retractions A
 

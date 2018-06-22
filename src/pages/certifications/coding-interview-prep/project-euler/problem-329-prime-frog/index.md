@@ -1,5 +1,5 @@
 ---
-title: Problem 329: Prime Frog
+title: Prime Frog
 ---
 ## Problem 329: Prime Frog
 

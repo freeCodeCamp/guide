@@ -1,5 +1,5 @@
 ---
-title: Problem 88: Product-sum numbers
+title: Product-sum numbers
 ---
 ## Problem 88: Product-sum numbers
 

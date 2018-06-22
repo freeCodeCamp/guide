@@ -1,5 +1,5 @@
 ---
-title: Problem 95: Amicable chains
+title: Amicable chains
 ---
 ## Problem 95: Amicable chains
 

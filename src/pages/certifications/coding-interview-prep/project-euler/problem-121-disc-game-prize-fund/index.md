@@ -1,5 +1,5 @@
 ---
-title: Problem 121: Disc game prize fund
+title: Disc game prize fund
 ---
 ## Problem 121: Disc game prize fund
 

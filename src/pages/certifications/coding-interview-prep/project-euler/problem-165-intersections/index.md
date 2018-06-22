@@ -1,5 +1,5 @@
 ---
-title: Problem 165: Intersections
+title: Intersections
 ---
 ## Problem 165: Intersections
 

@@ -1,5 +1,5 @@
 ---
-title: Problem 223: Almost right-angled triangles I
+title: Almost right-angled triangles I
 ---
 ## Problem 223: Almost right-angled triangles I
 

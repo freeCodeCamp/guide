@@ -1,5 +1,5 @@
 ---
-title: Problem 159: Digital root sums of factorisations
+title: Digital root sums of factorisations
 ---
 ## Problem 159: Digital root sums of factorisations
 

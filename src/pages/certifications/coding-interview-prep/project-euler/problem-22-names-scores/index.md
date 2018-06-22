@@ -1,5 +1,5 @@
 ---
-title: Problem 22: Names scores
+title: Names scores
 ---
 ## Problem 22: Names scores
 

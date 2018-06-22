@@ -1,5 +1,5 @@
 ---
-title: Problem 428: Necklace of Circles
+title: Necklace of Circles
 ---
 ## Problem 428: Necklace of Circles
 

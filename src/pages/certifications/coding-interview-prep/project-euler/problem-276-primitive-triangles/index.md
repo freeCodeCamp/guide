@@ -1,5 +1,5 @@
 ---
-title: Problem 276: Primitive Triangles
+title: Primitive Triangles
 ---
 ## Problem 276: Primitive Triangles
 

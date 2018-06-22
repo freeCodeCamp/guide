@@ -1,5 +1,5 @@
 ---
-title: Problem 469: Empty chairs
+title: Empty chairs
 ---
 ## Problem 469: Empty chairs
 

@@ -1,5 +1,5 @@
 ---
-title: Problem 220: Heighway Dragon
+title: Heighway Dragon
 ---
 ## Problem 220: Heighway Dragon
 

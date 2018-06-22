@@ -1,5 +1,5 @@
 ---
-title: Problem 119: Digit power sum
+title: Digit power sum
 ---
 ## Problem 119: Digit power sum
 

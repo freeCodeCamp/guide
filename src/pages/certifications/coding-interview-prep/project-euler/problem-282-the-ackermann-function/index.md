@@ -1,5 +1,5 @@
 ---
-title: Problem 282: The Ackermann function
+title: The Ackermann function
 ---
 ## Problem 282: The Ackermann function
 

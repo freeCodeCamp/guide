@@ -1,5 +1,5 @@
 ---
-title: Problem 135: Same differences
+title: Same differences
 ---
 ## Problem 135: Same differences
 

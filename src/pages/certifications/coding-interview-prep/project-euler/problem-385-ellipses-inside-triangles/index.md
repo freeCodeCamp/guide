@@ -1,5 +1,5 @@
 ---
-title: Problem 385: Ellipses inside triangles
+title: Ellipses inside triangles
 ---
 ## Problem 385: Ellipses inside triangles
 

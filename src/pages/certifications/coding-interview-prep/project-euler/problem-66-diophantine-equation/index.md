@@ -1,5 +1,5 @@
 ---
-title: Problem 66: Diophantine equation
+title: Diophantine equation
 ---
 ## Problem 66: Diophantine equation
 

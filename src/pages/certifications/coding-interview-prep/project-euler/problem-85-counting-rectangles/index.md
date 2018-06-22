@@ -1,5 +1,5 @@
 ---
-title: Problem 85: Counting rectangles
+title: Counting rectangles
 ---
 ## Problem 85: Counting rectangles
 

@@ -1,5 +1,5 @@
 ---
-title: Problem 63: Powerful digit counts
+title: Powerful digit counts
 ---
 ## Problem 63: Powerful digit counts
 

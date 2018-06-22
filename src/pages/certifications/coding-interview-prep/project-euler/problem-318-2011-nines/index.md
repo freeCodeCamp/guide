@@ -1,5 +1,5 @@
 ---
-title: Problem 318: 2011 nines
+title: 2011 nines
 ---
 ## Problem 318: 2011 nines
 

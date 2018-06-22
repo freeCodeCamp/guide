@@ -1,5 +1,5 @@
 ---
-title: Problem 312: Cyclic paths on Sierpiński graphs
+title: Cyclic paths on Sierpiński graphs
 ---
 ## Problem 312: Cyclic paths on Sierpiński graphs
 

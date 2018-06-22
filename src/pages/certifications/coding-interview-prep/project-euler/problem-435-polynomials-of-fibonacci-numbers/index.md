@@ -1,5 +1,5 @@
 ---
-title: Problem 435: Polynomials of Fibonacci numbers
+title: Polynomials of Fibonacci numbers
 ---
 ## Problem 435: Polynomials of Fibonacci numbers
 

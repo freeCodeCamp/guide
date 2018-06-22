@@ -1,5 +1,5 @@
 ---
-title: Problem 249: Prime Subset Sums
+title: Prime Subset Sums
 ---
 ## Problem 249: Prime Subset Sums
 

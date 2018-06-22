@@ -1,5 +1,5 @@
 ---
-title: Problem 299: Three similar triangles
+title: Three similar triangles
 ---
 ## Problem 299: Three similar triangles
 

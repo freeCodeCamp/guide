@@ -1,5 +1,5 @@
 ---
-title: Problem 258: A lagged Fibonacci sequence
+title: A lagged Fibonacci sequence
 ---
 ## Problem 258: A lagged Fibonacci sequence
 

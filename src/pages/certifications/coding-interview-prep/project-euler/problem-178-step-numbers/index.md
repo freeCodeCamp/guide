@@ -1,5 +1,5 @@
 ---
-title: Problem 178: Step Numbers
+title: Step Numbers
 ---
 ## Problem 178: Step Numbers
 

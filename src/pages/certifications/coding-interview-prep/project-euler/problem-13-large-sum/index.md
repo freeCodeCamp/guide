@@ -1,5 +1,5 @@
 ---
-title: Problem 13: Large sum
+title: Large sum
 ---
 ## Problem 13: Large sum
 

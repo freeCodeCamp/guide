@@ -1,5 +1,5 @@
 ---
-title: Problem 206: Concealed Square
+title: Concealed Square
 ---
 ## Problem 206: Concealed Square
 

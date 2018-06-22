@@ -1,5 +1,5 @@
 ---
-title: Problem 362: Squarefree factors
+title: Squarefree factors
 ---
 ## Problem 362: Squarefree factors
 

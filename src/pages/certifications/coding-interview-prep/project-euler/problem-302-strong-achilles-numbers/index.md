@@ -1,5 +1,5 @@
 ---
-title: Problem 302: Strong Achilles Numbers
+title: Strong Achilles Numbers
 ---
 ## Problem 302: Strong Achilles Numbers
 

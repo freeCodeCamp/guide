@@ -1,5 +1,5 @@
 ---
-title: Problem 309: Integer Ladders
+title: Integer Ladders
 ---
 ## Problem 309: Integer Ladders
 

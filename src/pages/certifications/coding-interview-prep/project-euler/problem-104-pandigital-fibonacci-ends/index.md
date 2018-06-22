@@ -1,5 +1,5 @@
 ---
-title: Problem 104: Pandigital Fibonacci ends
+title: Pandigital Fibonacci ends
 ---
 ## Problem 104: Pandigital Fibonacci ends
 

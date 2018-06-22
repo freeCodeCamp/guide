@@ -1,5 +1,5 @@
 ---
-title: Problem 41: Pandigital prime
+title: Pandigital prime
 ---
 ## Problem 41: Pandigital prime
 

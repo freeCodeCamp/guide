@@ -1,5 +1,5 @@
 ---
-title: Problem 471: Triangle inscribed in ellipse
+title: Triangle inscribed in ellipse
 ---
 ## Problem 471: Triangle inscribed in ellipse
 

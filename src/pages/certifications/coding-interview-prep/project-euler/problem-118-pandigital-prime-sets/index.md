@@ -1,5 +1,5 @@
 ---
-title: Problem 118: Pandigital prime sets
+title: Pandigital prime sets
 ---
 ## Problem 118: Pandigital prime sets
 

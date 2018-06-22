@@ -1,5 +1,5 @@
 ---
-title: Problem 64: Odd period square roots
+title: Odd period square roots
 ---
 ## Problem 64: Odd period square roots
 

@@ -1,5 +1,5 @@
 ---
-title: Problem 298: Selective Amnesia
+title: Selective Amnesia
 ---
 ## Problem 298: Selective Amnesia
 

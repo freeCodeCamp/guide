@@ -1,5 +1,5 @@
 ---
-title: Problem 155: Counting Capacitor Circuits
+title: Counting Capacitor Circuits
 ---
 ## Problem 155: Counting Capacitor Circuits
 

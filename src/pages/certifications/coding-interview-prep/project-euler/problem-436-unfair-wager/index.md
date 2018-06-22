@@ -1,5 +1,5 @@
 ---
-title: Problem 436: Unfair wager
+title: Unfair wager
 ---
 ## Problem 436: Unfair wager
 

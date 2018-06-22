@@ -1,5 +1,5 @@
 ---
-title: Problem 215: Crack-free Walls
+title: Crack-free Walls
 ---
 ## Problem 215: Crack-free Walls
 

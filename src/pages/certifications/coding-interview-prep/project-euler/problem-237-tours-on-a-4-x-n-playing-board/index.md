@@ -1,5 +1,5 @@
 ---
-title: Problem 237: Tours on a 4 x n playing board
+title: Tours on a 4 x n playing board
 ---
 ## Problem 237: Tours on a 4 x n playing board
 

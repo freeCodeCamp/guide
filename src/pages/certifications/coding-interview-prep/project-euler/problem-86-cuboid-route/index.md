@@ -1,5 +1,5 @@
 ---
-title: Problem 86: Cuboid route
+title: Cuboid route
 ---
 ## Problem 86: Cuboid route
 

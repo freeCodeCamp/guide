@@ -1,5 +1,5 @@
 ---
-title: Problem 125: Palindromic sums
+title: Palindromic sums
 ---
 ## Problem 125: Palindromic sums
 

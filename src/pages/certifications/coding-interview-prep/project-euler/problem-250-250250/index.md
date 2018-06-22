@@ -1,5 +1,5 @@
 ---
-title: Problem 250: 250250
+title: 250250
 ---
 ## Problem 250: 250250
 

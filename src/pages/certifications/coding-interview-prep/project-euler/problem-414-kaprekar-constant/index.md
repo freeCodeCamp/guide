@@ -1,5 +1,5 @@
 ---
-title: Problem 414: Kaprekar constant
+title: Kaprekar constant
 ---
 ## Problem 414: Kaprekar constant
 

@@ -1,5 +1,5 @@
 ---
-title: Problem 403: Lattice points enclosed by parabola and line
+title: Lattice points enclosed by parabola and line
 ---
 ## Problem 403: Lattice points enclosed by parabola and line
 

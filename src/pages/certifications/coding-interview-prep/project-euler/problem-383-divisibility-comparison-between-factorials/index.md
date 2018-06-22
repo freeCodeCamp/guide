@@ -1,5 +1,5 @@
 ---
-title: Problem 383: Divisibility comparison between factorials
+title: Divisibility comparison between factorials
 ---
 ## Problem 383: Divisibility comparison between factorials
 

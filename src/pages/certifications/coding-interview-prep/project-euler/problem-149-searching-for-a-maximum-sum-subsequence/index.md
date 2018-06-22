@@ -1,5 +1,5 @@
 ---
-title: Problem 149: Searching for a maximum-sum subsequence
+title: Searching for a maximum-sum subsequence
 ---
 ## Problem 149: Searching for a maximum-sum subsequence
 

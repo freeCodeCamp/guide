@@ -1,5 +1,5 @@
 ---
-title: Problem 218: Perfect right-angled triangles
+title: Perfect right-angled triangles
 ---
 ## Problem 218: Perfect right-angled triangles
 

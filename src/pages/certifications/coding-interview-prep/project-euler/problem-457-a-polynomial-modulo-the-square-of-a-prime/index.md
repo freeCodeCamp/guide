@@ -1,5 +1,5 @@
 ---
-title: Problem 457: A polynomial modulo the square of a prime
+title: A polynomial modulo the square of a prime
 ---
 ## Problem 457: A polynomial modulo the square of a prime
 

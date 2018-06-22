@@ -1,5 +1,5 @@
 ---
-title: Problem 368: A Kempner-like series
+title: A Kempner-like series
 ---
 ## Problem 368: A Kempner-like series
 
