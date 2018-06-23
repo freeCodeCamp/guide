@@ -47,13 +47,16 @@ title: Operators
      int b = a--; // postfix operator; a = 6, b = 7
      int c = --a; // prefix operator; a = 5, c = 5
      ```
- ## 2. Logical Operators
-- `==` True when the two operands are equal
+
+
+## 2. Relational Operators
+
+- `==` Equal - true when the two operands are equal
   ```C
   int a = 5, b = 5;
   bool c = (a == b); // c = true
   ```
-- `!=` True when the two operands are NOT equal
+- `!=` Not equal - true when the two operands are NOT equal
   ```C
   int a = 5, b = 6;
   bool c = (a != b); // c = true
@@ -79,7 +82,10 @@ title: Operators
   int a = 5, b = 8;
   bool c = (a <= b); // c = true
   ```
-  - `&&` AND operator - True when **both** of the operands are true.
+
+## 3. Logical Operators
+
+- `&&` AND operator - True when **both** of the operands are true.
   ```C
   bool c = (5 < 6) && (8!=7); // both operands true, therefore c = true
   ```
@@ -92,7 +98,7 @@ title: Operators
   bool c = !(8 == 7) // translate: NOT (false), therefore c = true
   ```
 
-## 3. Bitwise Operators
+## 4. Bitwise Operators
 
 - `&` AND operator - If at a place there is a bit in both operands, then it is copied to the result
   ```C
@@ -130,7 +136,7 @@ title: Operators
   RESULT = 00110
   ```
 
-## 4. Assignment Operators
+## 5. Assignment Operators
 - `=`
   ```C
   int a = 7; // 'a' is going to be equal to 7
@@ -161,7 +167,7 @@ title: Operators
   a %= 5; // equivalent to a = a % 5 = 21 % 5 = 1
   ```
      
-## 5. Operator precedence in C
+## 6. Operator precedence in C
 Operators with the highest precedence appear at the top of the list. Within an expression, operators
 with higher precedence will be evaluated first.
 - Postfix `() [] -> . ++ --`
