@@ -85,8 +85,6 @@ Now we want to use the functions that we just created in `prime_functions.py` so
     
 ## Sorting Imports
 
-Imports  with Python are generally sorted alphabetically and you can find some information to sort them, the most popular one is PEP8.
+Good practice is to sort `import` modules in three groups - standard library imports, related third-party imports, and local imports.  Within each group it is sensible to sort alphabetically by module name. You can find [more information in PEP8](https://www.python.org/dev/peps/pep-0008/?#imports).
 
-One of the most important thing for Python language is readabilty so alphabetically sorted modules are quicker to read and searchable. Also It is easier to verify that something is imported, and avoids duplicated imports.
-
-According to few references from reputable sites and repositories also popularity, Alphabetical ordering is the way.
+One of the most important thing for Python language is legibility, and alphabetically sorting modules are quicker to read and search. Also it is easier to verify that something is imported, and avoid duplicated imports.
