@@ -1,9 +1,10 @@
 import React from 'react';
+import Layout from '../components/Layout';
 import Helmet from 'react-helmet';
 
 function Index() {
   return (
-    <div>
+    <Layout>
       <Helmet>
         <title>freeCodeCamp Guide</title>
       </Helmet>
@@ -33,7 +34,7 @@ function Index() {
           }
           <a
             href='https://freecodecamp.org'
-            rel='nofollow'
+            rel='noopener noreferrer'
             target='_blank'
             >
             freeCodeCamp.org
@@ -50,7 +51,7 @@ function Index() {
           }
           <a
             href='https://github.com/freeCodeCamp/guides'
-            rel='nofollow'
+            rel='noopener noreferrer'
             target='_blank'
             >
             open source
@@ -61,7 +62,7 @@ function Index() {
         </p>
         <hr />
         <p>Happy coding!</p>
-    </div>
+    </Layout>
   );
 }
 
