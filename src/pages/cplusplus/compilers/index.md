@@ -76,4 +76,4 @@ g++ is the standard Linux compiler and is a great utility. It comes packaged wit
 ____________
 
 There are a number of different types of compilers. The two listed are the two that are usually packaged with the Windows
-or Linux/OSX. In addition, you may write c++ on 3rd party software for game development like Unreal Engine.
+or Linux/OSX.
