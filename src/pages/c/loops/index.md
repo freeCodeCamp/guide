@@ -23,7 +23,7 @@ int main(void) {
 ```
 While the statement within the while loop is true, the content within the brackets will be run. When the program hits the `while(my_number)`, it checks the statement within the parenthesis. If that statement is false, it won't run the while loop. Instead, it will skip over the code between the two brackets and will pick up where it left off.
 
-If the statement is true, the code within the brackets will be run. Once the code within the brackets has been run, the statement within the parenthesis will be checked again. Just like before, if the statement is true, the code will be run, if it's false, the code will be skipped.
+If the statement is true, the code within the brackets will be run. Once the code within the brackets has run, the statement within the parenthesis will be checked again. Just like before, if the statement is true, the code will be run, if it's false, the code will be skipped.
 
 Something that you may run into when playing with this or any other loop is the idea of an infinite loop- a loop that will run an infinite amount of times because there's nothing to stop it. Sometimes this can happen on purpose:
 
@@ -96,11 +96,11 @@ Unlike the for loop, there are three things in our parenthesis that are separate
 
 The next section is a boolean condition that will be checked for true or false, just like our while loop. It's referred to as a 'condition', because it's the condition that will get checked before starting a loop.
 
-The final section is referred to as the 'afterthought'. Its job is to perform some operation every loop, after the code within the brackets has been run through. In this case, it's just adding one to the count. This is the most common way for the afterthought to be used, because it lets you keep count of how many times you've run through a for loop.
+The final section is referred to as the 'increment/decrement'. Its job is to perform some operation every loop - usually adding or subtracting from the initial variable - after the code within the brackets has been run through. In this case, it's just adding one to the count. This is the most common way for the increment to be used, because it lets you keep count of how many times you've run through a for loop.
 
 # Some Fun and Useful Quirks
 
-## Infinte looping with for loops
+## Infinite looping with for loops
 Take a moment to consider what this code will do:
 ```C
 for(;;){
