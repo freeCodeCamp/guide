@@ -9,9 +9,7 @@ During my first semester in college, we had a course about introduction to algor
 
 A **flowchart** represents your program flow from top to bottom. Each command is represented on this. Depending on the nature of the command there are different shapes you can use. A few of them that I mostly use (you can google more on this, google is your friend when you know what to google for) are:
 
-<div class="lightbox-wrapper">[![](//discourse-user-assets.s3.amazonaws.com/optimized/2X/b/b8b6b68e8b27f8d958b198613ada0a31a22df5ab_1_690x448.png)
-
-<div class="meta"><span class="filename">flowchart-theory.png</span><span class="informations">1266x822 96.5 KB</span><span class="expand"></span></div>](//discourse-user-assets.s3.amazonaws.com/original/2X/b/b8b6b68e8b27f8d958b198613ada0a31a22df5ab.png "flowchart-theory.png") </div>
+![](//discourse-user-assets.s3.amazonaws.com/original/2X/b/b8b6b68e8b27f8d958b198613ada0a31a22df5ab.png)
 
 More information about this you can find here <a href='https://en.wikipedia.org/wiki/Flowchart' target='_blank' rel='nofollow'>https://en.wikipedia.org/wiki/Flowchart</a>.
 

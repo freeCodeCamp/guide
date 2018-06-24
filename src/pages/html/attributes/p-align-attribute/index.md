@@ -3,13 +3,8 @@ title: P Align Attribute
 ---
 ## P Align Attribute
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/attributes/p-align-attribute/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+The `<p>` tag align attribute is a way to align text to a specific location on the page. The supported values are left, right, center, and justify. For example you can write `<p align="right">My Text Here</p>` and the text will be aligned to the right side of the page. The align attribute is not supported in HTML 5 the latest version of HTML. It's recommended to use CSS to align text in HTML 5.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+* [W3 - HTML 4.01 Specification](https://www.w3.org/TR/html401/struct/text.html#h-9.3.1)
+* [MDN - CSS Text Align](https://developer.mozilla.org/en-US/docs/Web/CSS/text-align)
