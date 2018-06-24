@@ -3,7 +3,7 @@ title: SVG
 ---
 ## SVG
 
-SVG or Scalable Vector Graphics is a web standard for defining vector based graphics in web pages. Based on XML the SVG standard provides markup to describe paths, shapes, and text within a viewport. The markup can be embedded directly into HTML for display or saved to a `.svg` file and inserted like any other image. You can write SVG by hand but more complicated graphics can be designed in vector graphics editors such as Illustrator or InkScape and exported to SVG files or code.
+SVG or Scalable Vector Graphics is a web standard for defining vector-based graphics in web pages. Based on XML the SVG standard provides markup to describe paths, shapes, and text within a viewport. The markup can be embedded directly into HTML for display or saved to a `.svg` file and inserted like any other image. You can write SVG by hand, but more complicated graphics can be designed in vector graphics editors such as Illustrator or InkScape and exported to SVG files or code.
 
 ## SVG Basics
 Developers start an SVG graphic with the `<svg>` tag and XML namespace like so:
@@ -14,7 +14,7 @@ Developers start an SVG graphic with the `<svg>` tag and XML namespace like so:
 ```
 The sample also includes a `version` attribute. The `version` attribute is optional but it is recommended for complaince with XML specifications.
 
-This sample won't display anything it merely established a viewport. You can add `height` and `width` attributes to set a display size for the viewport this essentially establishes a canvas for you to work in.
+This sample won't display anything, it merely established a viewport. You can add `height` and `width` attributes to set a display size for the viewport this essentially establishes a canvas for you to work in.
 
 With a viewport in place you can add basic graphics, text, and path elements.
 
@@ -43,7 +43,7 @@ The first new tag is the `<rect />` tag which defines a rectangle in the SVG vie
 
 Next we define a circle or oval with the `<circle />` tag. The sample defines a circle centered at (240,60) with a radius of 50 units. The `stroke` and `stroke-width` attributes set a stroke color and a size for the stroke.
 
-You can add text to the graphic with the `text` tag. The sample text is anchored from the middle of the text to a point at (450, 70) and has a font size of 20 units. The nice thing about text in SVG is it will scale with the rest of your graphic but it is still readable by the browser and web bots. 
+You can add text to the graphic with the `text` tag. The sample text is anchored from the middle of the text to a point at (450, 70) and has a font size of 20 units. The nice thing about text in SVG is it will scale with the rest of your graphic, but it is still readable by the browser and web bots. 
 
 When you want to apply the same attributes or CSS styles to multiple SVG elements you can group them with the `<g>` tag. Attributes assigned to the `<g>` tag, like the `stroke` attribute in the example, will be applied to all elements within the group. In this case three `<path />` elements.
 
