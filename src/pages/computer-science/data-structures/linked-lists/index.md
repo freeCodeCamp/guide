@@ -60,7 +60,6 @@ Most common operations available on List are,
 #### Implementation of a Simple Linked List in C++
 ```cpp
 #include<iostream>
-#include<conio.h>
 using namespace std;
 
 struct Number
@@ -123,7 +122,7 @@ void List :: display()
 	}
 	
 }
-main()
+int main()
 {
 	List l1;
 	
