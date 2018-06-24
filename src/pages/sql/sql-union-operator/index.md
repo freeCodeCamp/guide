@@ -14,6 +14,7 @@ The SQL statements must have the same number of columns in their Select Statemen
 ### Basic Example
 
 SQL Statement
+
 ```sql
 SELECT 'aaaaa'
 UNION
@@ -21,6 +22,7 @@ SELECT 'bbbbbbbbb';
 ```
 
 Output
+
 ```text
 +-----------+
 | aaaaa     |
@@ -34,6 +36,7 @@ Output
 ### Example using the student tables
 
 SQL Statement
+
 ```sql
 SELECT StudentID, FullName FROM student WHERE studentID BETWEEN 1 AND 5
 UNION
@@ -41,6 +44,7 @@ SELECT studentID, studentEmailAddr FROM `student-contact-info` WHERE studentID B
 ```
 
 Output
+
 ``` text
 +-----------+--------------------------------+
 | StudentID | FullName                       |
@@ -54,6 +58,25 @@ Output
 |         8 | Michael.Roach@freeCodeCamp.ort |
 +-----------+--------------------------------+
 7 rows in set (0.00 sec)
+```
+
+## SQL UNION ALL Operator
+
+The UNION ALL operator is an extension to UNION operator where it should result you a A+B of rows in the ouptput assuming A and B is your input, in simple terms UNION ALL doesn't deduplicate.
+
+
+### Basic Syntax
+
+SQL Statement
+
+```sql
+SELECT expression1, expression2, ... expression_n
+FROM tables
+[WHERE conditions]
+UNION ALL
+SELECT expression1, expression2, ... expression_n
+FROM tables
+[WHERE conditions];
 ```
 
 As with all of these SQL things there is MUCH MORE to them than what's in this introductory guide.  
