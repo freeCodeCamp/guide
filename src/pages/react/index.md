@@ -3,7 +3,7 @@ title: React
 ---
 # React
 
-React is a JavaScript library for building user interfaces.
+React is a JavaScript library for building user interfaces. It was voted the most loved in the "Frameworks, Libraries, and Other Technologies" category of Stack Overflow's 2017 Developer Survey.<sup>1</sup>
 
 Because React is a JavaScript library, React runs in the browser, NOT on the server. This makes React very fast due to not having to wait for server responses. 
 
@@ -203,27 +203,27 @@ Many popular websites use React implementing the MVC architectural pattern. Face
 How these large applications are build using React? The simple answer is by building small applications or components.
 Example
 
-        ``` react
-        var component2  = function() {
-          return (
-              <div></div>
-             )
-        }
-        var component3  = function() {
-          return (
-              <div></div>
-             )
-        }
-        var component1  = function() {
-          return (
-              <div>
-            <component2/>
-            <component3/>
-            </div>
-             )
-        }
-        <component1/>
-        ```
+``` react
+var component2  = function() {
+  return (
+      <div></div>
+     )
+}
+var component3  = function() {
+  return (
+      <div></div>
+     )
+}
+var component1  = function() {
+  return (
+      <div>
+    <component2/>
+    <component3/>
+    </div>
+     )
+}
+<component1/>
+```
         
 
 2.	React is Declarative for most part in which we are  concerned more with What to do rather than How to do a specific task.  Declarative programming is a programming paradigm that expresses the logic of a computation without describing its control flow.
@@ -236,3 +236,6 @@ Declarative programming  comes with  certain advantages such as reduced side eff
 - <a href='https://twitter.com/dan_abramov' target='_blank' rel='nofollow'>Dan Abramov's Twitter</a>
 - Tutorials at <a href='https://egghead.io/browse/frameworks/react' target='_blank' rel='nofollow'>Egghead.io React</a>
 - [https://reactjs.org/](https://reactjs.org/)
+
+### Sources
+1. ["Developer Survey Results 2017."](https://insights.stackoverflow.com/survey/2017#technology-most-loved-dreaded-and-wanted-frameworks-libraries-and-other-technologies) <em>Stack Overflow.</em> Accessed: October 28, 2017.
