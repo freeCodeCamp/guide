@@ -2,11 +2,11 @@
 title: Relational Databases
 ---
 
-As a database a way to store data, relational-databases are a model for how the data is being stored. The data is organized into tables also know as relations. The tables contain a record for each instances of the data know as records or tuple. Unique identifiers identify each record to describe it across the database.
+As databases are a way to store data, relational-databases are a model for how the data is to be stored. The data is organized into tables also know as relations. The tables contain a record for each instance of the data know as records or tuples. Unique identifiers identify each record to describe it across the database.
 
 ## Tables
 
-Like the a sheet in excel, tables are made up of columns and rows. Each row is an instance of data with attributes in the column of the table know as fields. There can be several tables for each category for entities. An example could be a table of users. Each row would be a user and each field would be details on the user like email, password and contact details for that specific user. In Figure 1 you can see diagram of the example.
+Like the a sheet in excel, tables are made up of columns and rows. Each row is an instance of data with attributes in the column of the table know as fields. There can be several tables for each category for entities. An example could be a table of users. Each row would be a user and each field would be details on the user such as email, password, and contact details for that specific user. In Figure 1 you can see diagram of the example.
 
 |             | user       | email            | Telephone                            |
 |-------------|------------|------------------|--------------------------------------|
@@ -19,7 +19,7 @@ Figure 1 - Example of user table.
 
 ## Records
 
-A record is a single entity of data. As in the example above it could be a user or it can be an account, a device or anything that data can represent on. Records do need a unique identifier sometimes referred to as a key. This key must be unique as it is used to describe relationships a record has with other records of other tables. In Figure 1 we could add keys to each row that identifies each user with a key and the table would now look like Figure 2.
+A record is a single entity of data. As in the example above it could be a user, an account, a device, or anything that data can represent on. Records do need a unique identifier sometimes referred to as a key. This key must be unique as it is used to describe relationships a record has with other records of other tables. In Figure 1 we could add keys to each row that identifies each user with a key and the table would now look like Figure 2.
 
 | KEY       | user       | email             | Telephone                           |
 |-----------|------------|------------------|--------------------------------------|
@@ -57,7 +57,7 @@ Relational-databases allow you to describe the relationships entities have with 
 
 Figure 4 - Example of Pet table with owner field linked.
 
-A one-to-many relationship is one record linked to many other records, the example being the user Jerry having two pets. It could also be a many to many relationship where the tables could be books and authors, authors could co-write many books. Finally the most common relationship type is one-to-one, a record can only be linked to one and only one other record.
+A one-to-many relationship is one record linked to many other records, the example being the user Jerry having two pets. It could also be a many to many relationship where the tables could be books and authors, as authors could co-write many books. Finally the most common relationship type is one-to-one, a record that can only be linked to one, and only one, other record.
 
 
 ## Conclusion

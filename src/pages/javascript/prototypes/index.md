@@ -3,7 +3,7 @@ title: Prototypes
 ---
 ## Prototypes
 
-JavaScript is a prototype-based language, therefore understanding the prototype object is one of the most important concepts which  JavaScript practitioners need to know. This article will give you a short overview of the Prototype object through various  examples. Before reading this article, you will need to have a basic understanding of  [`this` reference in JavaScript](/src/pages/javascript/this-reference/index.md).
+JavaScript is a prototype-based language, therefore understanding the prototype object is one of the most important concepts which  JavaScript practitioners need to know. This article will give you a short overview of the Prototype object through various  examples. Before reading this article, you will need to have a basic understanding of the [`this` reference in JavaScript](/src/pages/javascript/this-reference/index.md).
 
 ### Prototype object
 
@@ -100,3 +100,6 @@ Rectangle.prototype.calcArea = function calcArea() {
 ```
 
 The `getter` and `setter` methods in classes bind an Object property to a function that will be called when that property is looked up. It's just syntactic sugar to help make it easier to _look up_ or _set_ properties.
+
+**Further Reading:**
+* [MDN: Object prototypes](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes)
