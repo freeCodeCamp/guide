@@ -20,9 +20,9 @@ Common use for the File System module:
 * Delete files
 * Rename files
 
-The ```fs.readFile()``` method is used to read files on your computer. 
+The ```fs.readFile()``` method is used to read files on your computer. It takes three argument - filename, encoding and a call back function.
 
-Node.js code to read file asynchronously from your computer and return the content to the console.
+Node.js code to read file from your computer and return the content to the console.
 
 ```javascript
 var fs = require('fs');
@@ -35,6 +35,23 @@ fs.readFile('input.txt', 'utf-8', function(err, data){
   }
 });
 ```
+
+The ```fs.writeFile()`` method takes three arguments - filename, content and a call back function.
+
+Node.js code to write content into file. 
+
+```javascript
+var fs = require('fs');
+fs.writeFile('output.txt', "New content added", function(err, data){
+	if(err){
+		console.log(err);
+	}
+	else{
+		console.log("The file is saved");
+	}
+});
+```
+
 ## Resources
 
 * [Node.js API](https://nodejs.org/api/fs.html#fs_file_system)
