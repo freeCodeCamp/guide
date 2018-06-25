@@ -39,6 +39,13 @@ fs.readFile('input.txt', 'utf-8', function(err, data){
 ```
 The above code reads a file *input.txt* from your computer and returns the content to the console.
 
+### Steps for execution : 
+
+* You should have Node.js installed in your computer.
+* Create a file *app.js* and paste the above code.
+* Create a file *input.txt* and write some content into it.
+* Now open your console in the working directory and execute the command ``` node app.js ```.
+
 *Note* : The input.txt file should be present in the same directory where your Node.js code file is present otherwise it will throw an error.
 
 ## Writing in a file
@@ -46,8 +53,6 @@ The above code reads a file *input.txt* from your computer and returns the conte
 The ```fs.writeFile()``` method takes three arguments - filename, content and a call back function.
 
 Node.js code to write content into file. 
-
-*Note* : If file does not exist then the ```fs.writeFile()``` method creates a file and writes the content into it. On the contrary if the file exists then it overwrites the content in the file.
 
 ```javascript
 var fs = require('fs');
@@ -60,6 +65,13 @@ fs.writeFile('output.txt', "New content added", function(err, data){
 	}
 });
 ```
+### Steps for execution : 
+
+* You should have Node.js installed in your computer.
+* Create a file *app.js* and paste the above code.
+* Now open your console in the working directory and execute the command ``` node app.js ```.
+
+*Note* : If file does not exist then the ```fs.writeFile()``` method creates a file and writes the content into it. On the contrary if the file exists then it overwrites the content in the file.
 
 ## Resources
 
