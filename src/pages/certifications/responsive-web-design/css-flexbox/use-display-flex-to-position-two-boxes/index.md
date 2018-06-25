@@ -1,5 +1,5 @@
 ---
-title: Use display: flex to Position Two Boxes
+title: "Use display: flex to Position Two Boxes"
 ---
 ## Use display: flex to Position Two Boxes
 
