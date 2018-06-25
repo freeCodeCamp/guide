@@ -36,7 +36,7 @@ fs.readFile('input.txt', 'utf-8', function(err, data){
 });
 ```
 
-The ```fs.writeFile()`` method takes three arguments - filename, content and a call back function.
+The ```fs.writeFile()``` method takes three arguments - filename, content and a call back function.
 
 Node.js code to write content into file. 
 
