@@ -18,18 +18,18 @@ title: Useful Commands
 
 ## How to split windows 
 You can split vim windows and edit 2 or more files at the same time. 
-- :split  -> split window (horizontal)
-- :vsplit -> split windos (vertical)
-- :vertical new -> open a new file in a new window
+- `:split`  -> split window (horizontal)
+- `:vsplit` -> split window (vertical)
+- `:vertical` new -> open a new file in a new window
 
 To move between windows you can use the following commands:
 
-- CTRL-W h - move to the window on the left
-- CTRL-W j - move to the window below
-- CTRL-W k - move to the window above
-- CTRL-W l - move to the window on the right
-- CTRL-W t - move to the top window
-- CTRL-W b - move to the bottom window
+- `CTRL-W h` - move to the window on the left
+- `CTRL-W j` - move to the window below
+- `CTRL-W k` - move to the window above
+- `CTRL-W l` - move to the window on the right
+- `CTRL-W t` - move to the top window
+- `CTRL-W b` - move to the bottom window
 
 ## Bare minimum functionality
 Most likely you'll find yourself in "normal" mode, it allows you to enter commands by pressing the colon `:` key.
