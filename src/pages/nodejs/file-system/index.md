@@ -8,3 +8,35 @@ Node.js has a set of built-in modules which you can use without any further inst
 
 In order to to include a module, use the ```require()``` function with the name of the module.
 
+```javascript
+var fs = require('fs');
+```
+
+Common use for the File System module:
+
+* Read files
+* Create files
+* Update files
+* Delete files
+* Rename files
+
+The ```fs.readFile()``` method is used to read files on your computer. 
+
+Node.js code to read file asynchronously from your computer and return the content to the console.
+
+```javascript
+var fs = require('fs');
+fs.readFile('input.txt', 'utf-8', function(err, data){
+  if(err){
+  console.log(err);
+  }
+  else{
+  console.log("Asynchronous data is " + data.toString());
+  }
+});
+```
+## Resources
+
+* [Node.js API](https://nodejs.org/api/fs.html#fs_file_system)
+* [W3 Schools](https://www.w3schools.com/nodejs/nodejs_filesystem.asp)
+ 
