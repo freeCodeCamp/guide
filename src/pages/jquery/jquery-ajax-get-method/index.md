@@ -2,7 +2,7 @@
 title: jQuery Ajax Get Method
 ---
 ## jQuery Ajax Get Method
-Sends an asynchronous http GET request to load data from the server. Its general form is :
+Sends an asynchronous http GET request to load data from the server. Its general form is:
 ```javascript
 jQuery.get( url [, data ] [, success ] [, dataType ] )
 ```
@@ -17,7 +17,7 @@ jQuery.get( url [, data ] [, success ] [, dataType ] )
 $.get('http://example.com/resource.json', {category:'client', type:'premium'});
 ```
 
-requests `resource.json` from the server, sending additional data and ignoring the returned result
+requests `resource.json` from the server, sending additional data and ignoring the returned result:
  ```javascript
 $.get('http://example.com/resource.json', {category:'client', type:'premium'}, function(response){ 
       alert("success");
@@ -33,7 +33,7 @@ $.get('http://example.com/resource.json', {category:'client', type:'premium'}).d
 ```
 
 ### jQuery.ajax()
-`$.get( url [, data ] [, success ] [, dataType ] )` is a shorthand Ajax function, equivalent to :
+`$.get( url [, data ] [, success ] [, dataType ] )` is a shorthand Ajax function, equivalent to:
  ```javascript
 $.ajax({
   url: url,

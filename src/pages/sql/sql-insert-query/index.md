@@ -3,13 +3,32 @@ title: SQL Insert Query
 ---
 ## SQL Insert Query
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/sql/sql-insert-query/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Insert queries are a way to insert data into a table. Let's say we have created a table using
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+`CREATE TABLE example_table ( name varchar(255), age int)`
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+**example_table**
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+| Name | Age |
+| --- | --- |
 
+Now to add some data to this table , we'll use **INSERT** in the following way:
 
+`INSERT INTO example_table (column1,column2) VALUES ("Andrew",23)`
+
+**example_table**
+
+| Name | Age |
+| --- | --- |
+| Andrew | 23 |
+
+Even the following will work, but it's always a good practice to specify which data is going into which column.
+
+`INSERT INTO table_name VALUES ("John", 28)`
+
+**example_table**
+
+| Name | Age |
+| --- | --- |
+| Andrew | 23 |
+| John | 28 |
