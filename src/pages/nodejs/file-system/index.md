@@ -1,6 +1,6 @@
 ## File System
 
-The Node.js file system module allow you to work with the file system on your computer.
+The Node.js File System module allows you to work with the file system on your computer.
 
 What is a file system module ?
 
@@ -20,7 +20,9 @@ Common use for the File System module:
 * Delete files
 * Rename files
 
-The ```fs.readFile()``` method is used to read files on your computer. It takes three argument - filename, encoding and a call back function.
+## Reading a file
+
+The ```fs.readFile()``` method is used to read file on your computer. It takes three arguments - filename, encoding and a call back function.
 
 Node.js code to read file from your computer and return the content to the console.
 
@@ -31,14 +33,21 @@ fs.readFile('input.txt', 'utf-8', function(err, data){
   console.log(err);
   }
   else{
-  console.log("Asynchronous data is " + data.toString());
+  console.log("Content present in input.txt file : " + data.toString());
   }
 });
 ```
+The above code reads a file *input.txt* from your computer and returns the content to the console.
+
+*Note* : The input.txt file should be present in the same directory where your Node.js code file is present otherwise it will throw an error.
+
+## Writing in a file
 
 The ```fs.writeFile()``` method takes three arguments - filename, content and a call back function.
 
 Node.js code to write content into file. 
+
+*Note* : If file does not exist then the ```fs.writeFile()``` method creates a file and writes the content into it. On the contrary if the file exists then it overwrites the content in the file.
 
 ```javascript
 var fs = require('fs');
