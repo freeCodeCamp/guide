@@ -65,6 +65,8 @@ fs.writeFile('output.txt', "New content added", function(err, data){
 	}
 });
 ```
+The above code creates a file *output.txt* and add content *New content added* to it.
+
 ### Steps for execution : 
 
 * You should have Node.js installed in your computer.
