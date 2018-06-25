@@ -4,7 +4,7 @@ The Node.js File System module allows you to work with the file system on your c
 
 What is a file system module ?
 
-Node.js has a set of built-in modules which you can use without any further installation. Similarly **file system module** contains a set of functions which are required to perform different operations on files such as read and write operation.
+Node.js has a set of built-in modules which you can use without any further installation. Similarly **File System module** contains a set of functions which are required to perform different operations on files such as read and write operation.
 
 In order to to include a module, use the ```require()``` function with the name of the module.
 
