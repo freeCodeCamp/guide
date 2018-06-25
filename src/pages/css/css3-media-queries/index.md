@@ -53,3 +53,5 @@ The `p` tag will have a padding of 30px as soon as the screen reaches min 768px 
 ### More Information
 * [MDN - media queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
 * [W3 Schools - @media rule](https://www.w3schools.com/cssref/css3_pr_mediaquery.asp)
+* [CSS Tricks Standard Device Widths Atricle](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/)
+* [https://alistapart.com/article/responsive-web-design](Ethan Marcotte A List Apart Atricle on  Responsive Web Design)
