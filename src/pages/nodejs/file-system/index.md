@@ -7,7 +7,7 @@ Node.js has a set of built-in modules which you can use without any further inst
 In order to to include a module, use the ```require()``` function with the name of the module.
 
 ```javascript
-var fs = require('fs');
+const fs = require('fs');
 ```
 
 Common use for the File System module:
@@ -25,7 +25,7 @@ The ```fs.readFile()``` method is used to read file on your computer. It takes t
 Node.js code to read file from your computer and return the content to the console.
 
 ```javascript
-var fs = require('fs');
+const fs = require('fs');
 fs.readFile('input.txt', 'utf-8', (err, data) => {
   if(err){
   console.log(err);
@@ -53,7 +53,7 @@ The ```fs.writeFile()``` method takes three arguments - filename, content and a 
 Node.js code to write content into file. 
 
 ```javascript
-var fs = require('fs');
+const fs = require('fs');
 fs.writeFile('output.txt', "New content added", (err, data) => {
 	if(err){
 		console.log(err);
