@@ -60,7 +60,7 @@ In the case that only one argument was passed, do not worry about how to prompt 
       // handle the case where one is not
       // returns the addition.
       if (arguments.length > 1) {
-        var a = checkNum(arguments<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>0]);
+        var a = checkNum(arguments[0]);
         var b = checkNum(arguments[1]);
         if (a === undefined || b === undefined) {
           return undefined;
@@ -114,7 +114,7 @@ In the case that only one argument was passed, do not worry about how to prompt 
       var args = new Array(arguments.length);
       //Storing the arguments in an array
       for(var i = 0; i < args.length; ++i) {
-          args<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>i] = arguments[i];
+          args[i] = arguments[i];
         }
      //Check for the arguments length
      if(args.length == 2){
@@ -175,7 +175,7 @@ In the case that only one argument was passed, do not worry about how to prompt 
         args.length > 1 ?
           args.reduce((acc, n) => acc += n, 0):
           (n) => typeof n === "number" ? 
-            n + args<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>0]:
+            n + args[0]:
             undefined;
     }
 
