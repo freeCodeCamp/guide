@@ -4,7 +4,7 @@ Node.js has a set of built-in modules which you can use without any further inst
 
 The HTTP module can create an HTTP server that listens to server ports and gives a response back to the client.
 
-In order to to include a module, use the require() function with the name of the module.
+In order to to include a module, use the ```require()``` function with the name of the module.
 
 ```javascript
 const http = require('http');
@@ -32,7 +32,7 @@ console.log("Server is listening on port no : 8000");
 * You should have Node.js installed in your computer.
 * Create a file *app.js* and paste the above code.
 * Now open your console in the working directory and execute the command ``` node app.js ```.
-* Open your browser and enter ```http://localhost:8080```
+* Open your browser and enter ```http://localhost:8000```
 
 ## Resources
 
