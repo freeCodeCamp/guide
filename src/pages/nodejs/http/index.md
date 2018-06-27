@@ -36,5 +36,5 @@ console.log("Server is listening on port no : 8000");
 
 ## Resources
 
-* [Node.js API](https://nodejs.org/api/fs.html#fs_file_system)
-* [W3 Schools](https://www.w3schools.com/nodejs/nodejs_filesystem.asp)
+* [Node.js API](https://nodejs.org/api/http.html#http_http)
+* [W3 Schools](https://www.w3schools.com/nodejs/nodejs_http.asp)
