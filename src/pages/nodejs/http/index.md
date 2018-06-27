@@ -34,6 +34,8 @@ console.log("Server is listening on port no : 8000");
 * Now open your console in the working directory and execute the command ``` node app.js ```.
 * Open your browser and enter ```http://localhost:8000```
 
+*Note:* In order to close the server then press ```ctrl + C``` in your console for windows users.
+
 ## Resources
 
 * [Node.js API](https://nodejs.org/api/http.html#http_http)
