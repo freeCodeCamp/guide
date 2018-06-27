@@ -7,16 +7,6 @@ Logistic regression is the appropriate regression analysis to conduct when the d
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-For further reading to build logistic regression step by step :
-
-- Click <a href="https://medium.com/towards-data-science/building-a-logistic-regression-in-python-step-by-step-becd4d56c9c8"  target='_blank' rel='nofollow'>here</a> for an article about building a Logistic Regression in Python.
-
-- Click <a href="http://nbviewer.jupyter.org/gist/justmarkham/6d5c061ca5aee67c4316471f8c2ae976" target='_blank' rel='nofollow'>here</a> for another article on building a Logical Regression.
-
-#### Mathematical implementation
-
 Logistic regression is used to solve classification problems, where the output is of the form y∈{0,1}. Here, 0 is a negative class and 1 is a positive class. Let's say we have a hypothesis hθ(x), where x is our dataset(a matrix) of length m. θ is the parameteric matrix. We have : 0 < hθ(x) < 1
 
 In Logistic regression, hθ(x) is a sigmoid function, thus hθ(x) = g(θ'x).
@@ -32,4 +22,13 @@ J(θ)=(1/m)∑Cost(hθ(x(i)),y(i)) , where summation is from i=1 to m.
 
 Cost(hθ(x),y)=−log(hθ(x))           if y = 1
 Cost(hθ(x),y)=−log(1−hθ(x))         if y = 0
+
+
+#### More Information:
+<!-- Please add any articles you think might be helpful to read before writing the article -->
+For further reading to build logistic regression step by step :
+
+- Click <a href="https://medium.com/towards-data-science/building-a-logistic-regression-in-python-step-by-step-becd4d56c9c8"  target='_blank' rel='nofollow'>here</a> for an article about building a Logistic Regression in Python.
+
+- Click <a href="http://nbviewer.jupyter.org/gist/justmarkham/6d5c061ca5aee67c4316471f8c2ae976" target='_blank' rel='nofollow'>here</a> for another article on building a Logical Regression.
 
