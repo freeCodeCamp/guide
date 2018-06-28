@@ -45,7 +45,7 @@ The tricky part is getting the regular expression part to work, once you do that
       var regex = /\s+|_+/g;
 
       // Replace low-upper case to low-space-uppercase
-      str = str.replace(/(<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>a-z])([A-Z])/g, '$1 $2');
+      str = str.replace(/([a-z])([A-Z])/g, '$1 $2');
 
       // Replace space and underscore with -
       return str.replace(regex, '-').toLowerCase();
@@ -66,7 +66,7 @@ The tricky part is getting the regular expression part to work, once you do that
 
     function spinalCase(str) {
       // Replace low-upper case to low-space-uppercase
-      str = str.replace(/(<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>a-z])([A-Z])/g, '$1 $2');
+      str = str.replace(/([a-z])([A-Z])/g, '$1 $2');
       // Split on whitespace and underscores and join with dash
       return str.toLowerCase().split(/(?:_| )+/) .join('-');
     }
@@ -92,7 +92,7 @@ The tricky part is getting the regular expression part to work, once you do that
       // "It's such a fine line between stupid, and clever."
       // --David St. Hubbins
 
-      return str.split(/\s|_|(?=<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>A-Z])/).join('-').toLowerCase()
+      return str.split(/\s|_|(?=[A-Z])/).join('-').toLowerCase()
     }
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/EUZV' target='_blank' rel='nofollow'>Run Code</a>

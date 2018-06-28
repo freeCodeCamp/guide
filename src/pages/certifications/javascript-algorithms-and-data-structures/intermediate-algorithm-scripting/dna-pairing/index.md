@@ -42,7 +42,7 @@ title: Dna Pairing
 ```javascript
     function pairElement(str) {
       // Return each strand as an array of two elements, the original and the pair.
-      var paired = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>];
+      var paired = [];
 
       // Function to check with strand to pair.
       var search = function(char) {
@@ -94,7 +94,7 @@ title: Dna Pairing
       strArr = str.split('');
       //replace each Array item with a 2d Array using map
       for (var i=0;i<strArr.length;i++){
-        strArr<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>i]=[strArr[i], map[strArr[i]]];
+        strArr[i]=[strArr[i], map[strArr[i]]];
       }
      return strArr;
     }

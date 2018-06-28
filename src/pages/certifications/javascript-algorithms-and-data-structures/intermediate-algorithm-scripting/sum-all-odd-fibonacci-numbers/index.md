@@ -74,7 +74,7 @@ As you get the next odd one, don't forget to add it to a global variable that ca
 
     function sumFibs(num) {
       // create an array of fib numbers till num
-      var arrFib = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>1];
+      var arrFib = [1];
       for (var i = 1; i <=num;) {
           arrFib.push(i);
           i = arrFib[arrFib.length - 1] + arrFib[arrFib.length - 2];

@@ -42,7 +42,7 @@ This problem is hard if you have to create your own code to check for primes, so
 
       // Function to get the primes up to max in an array
       function getPrimes(max) {
-        var sieve = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>];
+        var sieve = [];
         var i;
         var j;
         var primes = [];

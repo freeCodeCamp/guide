@@ -48,7 +48,7 @@ Find out how to remove and add key to a JavaScript object.
       var GM = 398600.4418;
       var earthRadius = 6367.4447;
       var a = 2 * Math.PI;
-      var newArr = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>];
+      var newArr = [];
       var getOrbPeriod = function(obj) {
         var c = Math.pow(earthRadius + obj.avgAlt, 3);
         var b = Math.sqrt(c / GM);
@@ -96,7 +96,7 @@ Find out how to remove and add key to a JavaScript object.
       //Looping through each key in arr object
       for(var prop in arr) {
         //Rounding off the orbital period value
-        var orbitalPer = Math.round(2 * Math.PI * Math.sqrt(Math.pow(arr<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>prop].avgAlt + earthRadius, 3) / GM));
+        var orbitalPer = Math.round(2 * Math.PI * Math.sqrt(Math.pow(arr[prop].avgAlt + earthRadius, 3) / GM));
         //deleting the avgAlt property
         delete arr[prop].avgAlt;
         //adding orbitalPeriod property
@@ -137,7 +137,7 @@ Find out how to remove and add key to a JavaScript object.
     }
 
     // test here
-    orbitalPeriod(<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>{name : "sputnik", avgAlt : 35873.5553}]);
+    orbitalPeriod([{name : "sputnik", avgAlt : 35873.5553}]);
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLoz/0' target='_blank' rel='nofollow'>Run Code</a>
 

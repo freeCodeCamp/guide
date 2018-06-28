@@ -41,7 +41,7 @@ You will need to use everything you know about string manipulation to get the la
     function translatePigLatin(str) {
       // Create variables to be used
       var pigLatin = '';
-      var regex = /<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>aeiou]/gi;
+      var regex = /[aeiou]/gi;
 
       // Check if the first character is a vowel
       if (str[0].match(regex)) {
@@ -90,7 +90,7 @@ You will need to use everything you know about string manipulation to get the la
 
     function translatePigLatin(str) {
       function check(obj) {
-          return <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>'a','i','u','e','o'].indexOf(str.charAt(obj)) == -1 ? check(obj + 1) : obj;
+          return ['a','i','u','e','o'].indexOf(str.charAt(obj)) == -1 ? check(obj + 1) : obj;
       }
 
       return str.substr(check(0)).concat((check(0) === 0 ? 'w' : str.substr(0, check(0))) + 'ay');
@@ -117,7 +117,7 @@ You will need to use everything you know about string manipulation to get the la
 ## ![:rotating_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:") Advanced Code Solution:
 
     function translatePigLatin(str) {
-        var strArr = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>];
+        var strArr = [];
         var tmpChar;
 
         // check if the char is consonant using RegEx

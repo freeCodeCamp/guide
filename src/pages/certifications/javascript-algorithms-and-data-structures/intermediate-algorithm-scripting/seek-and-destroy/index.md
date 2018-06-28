@@ -43,7 +43,7 @@ To convert `arguments` into an array use this code `var args = Array.prototype.s
 
       for (var i = 0; i < arr.length; i++) {
         for (var j = 0; j < args.length; j++) {
-          if (arr<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>i] === args[j]) {
+          if (arr[i] === args[j]) {
             delete arr[i];
           }
         }

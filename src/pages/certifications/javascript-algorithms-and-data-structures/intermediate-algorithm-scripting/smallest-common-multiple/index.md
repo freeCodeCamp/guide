@@ -52,7 +52,7 @@ If you sort the array from greatest to smallest, then you can use the first two 
 
       // Create new array and add all values from greater to smaller from the
       // original array.
-      var newArr = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>];
+      var newArr = [];
       for (var i = arr[0]; i >= arr[1]; i--) {
         newArr.push(i);
       }
@@ -112,7 +112,7 @@ Note: If the array only has two elements, then the `for` loop never gets used an
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution:
 
     function smallestCommons(arr) {
-        var range = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>];
+        var range = [];
         for (var i = Math.max(arr[0], arr[1]); i >= Math.min(arr[0], arr[1]); i--) {
         range.push(i);
         }
