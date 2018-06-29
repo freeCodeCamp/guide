@@ -1,18 +1,15 @@
 ---
-title: The Python Strings
+title: The Python Data Structures
 ---
-Python allows `str` objects, or _strings_, to be expressed in a few different ways:
+A data structure is a particular way of organizing data in a computer so that it can be used efficiently. Python comes with a robust set of inbuilt data structures. Some of the most commonly used ones are :-  
+* Lists  
+* Tuples  
+* Dictionaries  
 
-*   Single quotes: `'Single quote strings can have "double" quotes inside.'`
-*   Double quotes: `"Double quote strings can have 'single' quotes inside."`
-*   Triple quoted:
-
-        """Triple quoted strings can span multiple lines.
-        Unescaped "double" and 'single' quotes in triple quoted strings are retained."""
-
-        '''Triple quoted strings can be 'single'or "double" quotes.
-        Unescaped newlines are also retained.'''
+Majorly, the data structures can be divided into two categories :-  
+* Mutable :- A mutable data structure is a structure whose state can  be modified after it is created. Python Lists and Dictionaries are mutable.  
+* Immutable :- An immutable data structure can't be modified. Example :- Once a tuple is created, we can't update the values inside it.  
 
 ## Reference:
 
-<a href='https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str' target='_blank' rel='nofollow'>Text Sequence Type _str_</a>
+[Python Data Structures](https://docs.python.org/3.7/tutorial/datastructures.html)
