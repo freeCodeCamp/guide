@@ -16,8 +16,8 @@ a serious business. Take your time, read the documentation or readme's, do resea
 if you are a beginner or a seasoned developer there will always be something new to learn.
 
 # Here are a couple of articles to keep you motivated:
-https://medium.freecodecamp.org/i-made-my-first-open-source-contribution-within-200-days-and-how-you-can-too-4d5bdbd63fad
-https://opensource.com/article/17/5/making-your-first-open-source-contribution
-https://medium.com/ifme/my-first-open-source-contribution-68c86de88af9
+* https://medium.freecodecamp.org/i-made-my-first-open-source-contribution-within-200-days-and-how-you-can-too-4d5bdbd63fad
+* https://opensource.com/article/17/5/making-your-first-open-source-contribution
+* https://medium.com/ifme/my-first-open-source-contribution-68c86de88af9
 
 
