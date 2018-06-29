@@ -1,4 +1,6 @@
-# The Battle of Open Source
+---
+title: The Battle of Open Source
+---
 
 As someone new to software development contributing to open source projects can seem daunting and downright terrifying. 
 Learning software development has been an unexpected journey that I have had the pleasure of taking. Having the support from
