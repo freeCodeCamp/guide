@@ -2,11 +2,14 @@
 title: User-Centered Design
 ---
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-
 ## User-Centered Design
-User centered design (UCD) is a collection of processes which focus on putting users at the center of product design and development. UCD is an iterative design approach that aims to develop an understanding of user needs, doing so through a mixture of investigative (e.g., surveys and interviews) and generative (e.g., brainstorming) methods and tools. Crucially, UCD heavily involves users in all design and evaluation phases. 
+User centered design (UCD) is a collection of processes which focus on putting users at the center of product design and development. UCD is an
+iterative design approach that aims to develop an understanding of user needs, doing so through a mixture of investigative (e.g., surveys and
+interviews) and generative (e.g., brainstorming) methods and tools. Crucially, UCD heavily involves users in all design and evaluation phases.
+Designers examine the usability, characteristics, environment, and tasks of a product and are extensively attentive to all steps of the design process.
+
+The main goal of UCD is to optimize the product, service, or process around how users will use the product, rather than forcing users to confirm or
+change their behavior to adapt the product. 
 
 ### Phases of the UCD Process
 1. Specify the context of use: Identify the people who will use the product, what they will use it for, and under what conditions they will use it.
@@ -19,10 +22,6 @@ User-centered design is often used interchangeably with human-centered design, b
 
 User-centered design takes into account age, gender, social status, education and professional background, influential factors, product usage expectations and demands and many other important things that may vary for different segments.User-centered design is about deep research on users’ habits, from their interactions with the product to their vision of how the product should look like and behave.
 
-
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-User-Centered Design: An Introduction <a href='https://usabilitygeek.com/user-centered-design-introduction/' target='_blank' rel='nofollow'>Usability Geek</a>
-
-Benefits of User-Centered Design <a href='https://www.usability.gov/what-and-why/benefits-of-ucd.html' target='_blank' rel='nofollow'>Usability.gov</a>
+* [User-Centered Design: An Introduction](https://usabilitygeek.com/user-centered-design-introduction/) - Usability Geek
+* [Benefits of User-Centered Design](https://www.usability.gov/what-and-why/benefits-of-ucd.html)
