@@ -4,21 +4,21 @@ title: SQL LIKE Operator
 ## SQL LIKE Operator
 
 ### LIKE Operator defined
-The LIKE opertor is used in a WHERE or HAVING (as part of the GROUP BY) to limit the selected rows to the items when a column has a certain pattern of characters contained in it. 
+The `LIKE` operator is used in a `WHERE` or `HAVING` (as part of the `GROUP BY`) to limit the selected rows to the items when a column has a certain pattern of characters contained in it. 
 
 ### This guide will demonstrate:
-* a column starts with or ends with a given string pattern
-* a string pattern is in the middle of the column
-* a string is NOT in the column
+* Determining if a string starts or ends with a given string pattern
+* Determining if a pattern exists in the middle of the string
+* Determining if a string is not contained in the string
 
 ### A column starts or ends with a given string pattern
-This SQL will select students that have FullName column starting with Monique or ending with Greene.
+This SQL will select students that have `FullName` starting with "Monique" or ending with "Greene".
 
 ```sql
 SELECT studentID, FullName, sat_score, rcd_updated
 FROM student 
 WHERE 
-FullName LIKE 'Monique%' OR -- note the % at the end but not the beginnig
+FullName LIKE 'Monique%' OR -- note the % at the end but not the beginning
 FullName LIKE '%Greene'; -- note the % at the beginning but not the end
 ```
 ```text
@@ -93,9 +93,3 @@ SELECT studentID, FullName, sat_score, rcd_updated FROM student;
 |         9 | Raymond F. Boyce       |      2400 | 2017-08-16 15:35:33 |
 +-----------+------------------------+-----------+---------------------+
 9 rows in set (0.00 sec)
-
-As with all of these SQL things there is MUCH MORE to them than what's in this introductory guide.  
-
-I hope this at least gives you enough to get started.  
-
-Please see the manual for your database manager and have fun trying different options yourself.
