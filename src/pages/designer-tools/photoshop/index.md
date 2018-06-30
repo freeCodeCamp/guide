@@ -161,6 +161,11 @@ If you need another format, select `File` > `Export` > `Export as...`. There, yo
 * <a href='http://www.pixelmator.com/mac/' target='_blank' rel='nofollow'>Pixelmator</a> (Mac only)
 * <a href='https://www.gimp.org/' target='_blank' rel='nofollow'>GIMP</a> (Mac and PC)
 
+### Online Alternatives to Photoshop
+
+* [Pixlr](https://pixlr.com/)
+* [Photopea](https://www.photopea.com/) (The only online tool to edit .psd files)
+
 #### Footnotes
 
 1. While you can design logos in Photoshop, most designers chose to use Illustrator for logos, as Illustrator creates vector images that can make it easier to resize logos for multiple uses, such as small logos for business cards, or large logos for banner signs.
