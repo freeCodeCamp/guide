@@ -1,4 +1,4 @@
-# React routing for beginners
+# React Router for beginners
 
 # Installation
 React Router has been broken into three packages: `react-router`, `react-router-dom`, and `react-router-native`.
