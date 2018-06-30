@@ -2,6 +2,8 @@
 title: Basic Usage
 ---
 
+## VIM Basic Usage
+
 ### Open File
 - Run vim or vi and open the given filename.
 
