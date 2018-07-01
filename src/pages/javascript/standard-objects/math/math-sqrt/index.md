@@ -7,7 +7,7 @@ The function `Math.sqrt()` returns the square root of a number.
 
 If a negative number is entered, `NaN` is returned.
 
-`sqrt()` is a static method of `Math`, therefore it is always called on `Math` rather than a created object. 
+`sqrt()` is a static method of `Math`, therefore it is always called as `Math.sqrt()` rather than as a method on another object. 
 
 #### Syntax
 
