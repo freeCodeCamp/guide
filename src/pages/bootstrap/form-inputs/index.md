@@ -1,8 +1,8 @@
 ---
-title: Bootstrap Form Inputs
+title: Form Inputs
 ---
 
-## Bootstrap Form Inputs
+## Form Inputs
 
 Bootstrap supports the following form controls:
 
@@ -14,7 +14,7 @@ Bootstrap supports the following form controls:
 
 ## Example Code Snippets
 
-**Bootstrap Input**
+#### 1. Input
 
 Bootstrap supports all the HTML5 input types: text, password, datetime, datetime-local, date, month, time, week, number, email, url, search, tel, and color.
 
@@ -33,7 +33,7 @@ The following example contains two input elements; one of type text and one of t
 </div>
 ```
 
-**Bootstrap Textarea**
+#### 2. Textarea
 
 The following example contains a textarea:
 
@@ -44,7 +44,7 @@ The following example contains a textarea:
 </div>
 ```
 
-**Bootstrap Checkboxes**
+#### 3. Checkboxes
 
 Checkboxes are used if you want the user to select any number of options from a list of preset options.
 
@@ -70,7 +70,7 @@ Use the **.checkbox-inline** class if you want the checkboxes to appear on the s
 <label class="checkbox-inline"><input type="checkbox" value="">Option 3</label>
 ```
 
-**Bootstrap Radio Buttons**
+#### 4. Radio Buttons
 
 Radio buttons are used if you want to limit the user to just one selection from a list of preset options.
 
@@ -96,7 +96,7 @@ Use the **.radio-inline** class if you want the checkboxes to appear on the same
 <label class="radio-inline"><input type="radio" name="optradio">Option 3</label>
 ```
 
-**Bootstrap Select List**
+#### 5. Select (List)
 
 Select lists are used if you want to allow the user to pick from multiple options.
 
@@ -114,7 +114,6 @@ The following example contains a dropdown list (select list):
 </div>
 ```
 
- #### More Information:
- 
- <a href="https://www.w3schools.com/bootstrap/bootstrap_forms_inputs.asp" target="_blank" rel="nofollow">W3Schools - Bootstrap Form Inputs</a>
- 
+### More Information:
+[W3Schools - Bootstrap Form Inputs](https://www.w3schools.com/bootstrap/bootstrap_forms_inputs.asp)
+
