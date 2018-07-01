@@ -32,5 +32,5 @@ The `indexOf()` method checks the string from left to right. The index of the fi
 ```
 
 ### More Information:
-- MDN documentation: [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf)
-- MSDN documentation: [MSDN](https://docs.microsoft.com/en-us/scripting/javascript/reference/indexof-method-string-javascript)
+- MDN documentation: <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf' target='_blank' rel='nofollow'>MDN</a>
+- MSDN documentation: <a href='https://docs.microsoft.com/en-us/scripting/javascript/reference/indexof-method-string-javascript' target='_blank' rel='nofollow'>MSDN</a>
