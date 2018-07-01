@@ -9,7 +9,7 @@ title: Math Pow
 
 `Math.pow(base, exponent)`, where `base` is the base number and `exponent` is the number by which to raise the `base`.
 
-`pow()` is a static method of `Math`, therefore it is always called on `Math` rather than a created object.
+`pow()` is a static method of `Math`, therefore it is always called as `Math.pow()` rather than as a method on another object.
 
 #### Examples
 
