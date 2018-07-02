@@ -4,15 +4,19 @@ title: Add To Homescreen
 
 ## Add To Homescreen
 
-In this particular section, the web app install banner is focusing on web app, with the feature of add to homescreen.
+Here the web app install banner is focused on web app, with the feature of add to homescreen.
 
-### Browser Support (**[Check here](https://caniuse.com/#feat=web-app-manifest)**)
+### Browser Support for Add To Homescreen
 
+Add to Homescreen functionality is currently supported by:
 * Chrome
+* iOS Safari
+
+You can see the latest status of browser support of this feature [here](https://caniuse.com/#feat=web-app-manifest).
 
 ### On Android
 
-On android, the add to homescreen banner is automatically prompt with a certain requirement. This is how it looks like on android.
+On Android, the "add to homescreen" banner comes up automatically if you meet certain requirements. This is what it should look like on Android:
 
 | Add to homescreen prompt | When app launched |
 | :----------------------: | :---------------: |
@@ -21,16 +25,16 @@ On android, the add to homescreen banner is automatically prompt with a certain 
 [add1]: https://user-images.githubusercontent.com/15358452/31663686-860779f0-b375-11e7-85c9-1387d9b3bfcf.png "Add to homescreen prompt on android"
 [add2]: https://user-images.githubusercontent.com/15358452/31663690-89b0d998-b375-11e7-8a84-f3e33be9a2c2.png "Launch from Homescreen"
 
-#### Requirement
+#### Requirements
 
-* a `manifest.json` included
+* include a `manifest.json` file with the following properties:
   * `short name`
   * `name`
   * `192x192` size of `png` icon
   * `start_url`
-* service worker registered and activated
-* the website serve over HTTPS (_Localhost is an exception_)
-* Meets a site engagement heuristic defined by Chrome
+* include a service worker that is both registered and activated
+* the website served over HTTPS (you can still try this with localhost without HTTPS)
+* the website meets engagement heuristics defined by Chrome
 
 #### manifest.json
 
@@ -93,17 +97,17 @@ On android, the add to homescreen banner is automatically prompt with a certain 
 * `short name` is the short name of the web app. (It will be shown below the icon of phone menu)
 * `theme_color` is the color of the top of the browser.
 * `background_color` is the background color of the launch screen.
-* `display` is the way the web app should display once launch on the phone.
-* `start_url` define the starting url of the website
+* `display` is the way the web app should display once launched on the phone.
+* `start_url` define the starting url of the website.
 * `icons` is an array that store all the images location, sizes and type.
 
 ### On other devices
 
-Although this method does not work on iOS and Windows, but there is a fallback method.
+Although this method does not work on iOS and Windows, there is a fallback method. 
 
 **iOS**
 
-On iOS, add to homescreen needed to be done manually. Add meta tag to our existing `html` to support iOS web app icon.
+On iOS, the "add to homescreen" button must be added manually. Add the following meta tags to the head section of your HTML to support iOS web app icon.
 
 ```html
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -121,7 +125,7 @@ On iOS, add to homescreen needed to be done manually. Add meta tag to our existi
 
 **Windows**
 
-On windows phone, add meta tag to `html` file.
+On windows phone, add the following meta tags to the head section of your HTML:
 
 ```html
 <meta name="msapplication-TileImage" content="/assets/images/icons/icon-144x144.png">
