@@ -59,5 +59,3 @@ let newArray = exampleArray.splice(1, 2);
 
 #### More Information:
 <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice' target='_blank' rel='nofollow'>MDN - Array.prototype.slice()</a>
-
-
