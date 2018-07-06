@@ -1,3 +1,8 @@
+---
+title: JSON
+---
+
+
 # JSON
 
 You will be sending lots of JSON in your programs. You use the Json.Decode library to convert wild and crazy JSON into nicely structured Elm values.
