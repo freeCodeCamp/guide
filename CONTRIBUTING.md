@@ -94,7 +94,7 @@ Watch the video demonstration or follow the steps below it:
     git clone https://github.com/YOUR-GITHUB-USERNAME/guide.git
     ```
 
-3. Add a remote upstream so git knows where the official freeCodeCamp guide repository is located by running the following command:
+3. Add a remote upstream so git knows where the official freeCodeCamp guide repository is located by running the following command in the local folder where the repository is stored at:
 
     ```bash
     git remote add upstream https://github.com/freeCodeCamp/guide.git
