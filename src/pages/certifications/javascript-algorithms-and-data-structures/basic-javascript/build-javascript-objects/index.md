@@ -1,10 +1,19 @@
 ---
 title: Build JavaScript Objects
 ---
-## Build JavaScript Objects
+# Build JavaScript Objects
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-javascript/build-javascript-objects/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Objects are similar to arrays, except that instead of using indexes to access and modify their data, you access the data in objects through what are called properties.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Here's a sample object:
+
+    var cat = {
+        "name": "Whiskers",
+        "legs": 4,
+        "tails": 1,
+        "enemies": ["Water", "Dogs"]
+    };
+
+Objects are useful for storing data in a structured way, and can represents real world objects, like a cats.
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
