@@ -3,8 +3,20 @@ title: Comment out HTML
 ---
 ## Comment out HTML
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/responsive-web-design/basic-html-and-html5/comment-out-html/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Comment syntax is the same of every other HTML element:
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Example:
+```
+<!-- code -->
+```
+ 
+ subElement | Description
+ ---------- | -----------
+ `<!--` | Opening tag
+ code | Commented text
+ `-->` | Closing tag
+ 
+ If you want to comment just some elements in the code you want to wrap them in a comment element - create an opening tag before them and a closing tag right after.
+ 
+Have fun!
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
