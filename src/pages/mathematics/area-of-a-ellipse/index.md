@@ -6,9 +6,9 @@ title: Area of an Ellipse
 An ellipse is a 2D shape defined by a continuous curve and two focus points. The sum of the two distances from the foci to any  point on the curve is constant. 
 
 #### Terminology
-Foci or focus points - these points are equidistant from the center of the ellipse <br>
-Major axis - the line drawn cutting the ellipse in half and running through both foci.<br>
-Minor axis - the line drawn cutting the ellipse in half and running between both foci.<br> 
+* Foci or focus points - these points are equidistant from the center of the ellipse
+* Major axis - the line drawn cutting the ellipse in half and running through both foci
+* Minor axis - the line drawn cutting the ellipse in half and running between both foci
 
 <img src = "https://jwolfgang.info/wp-content/uploads/2017/10/area-of-ellipse2.png">
 
@@ -28,8 +28,5 @@ Area = 1/2 * 2 in * 1/2 * 7 in * π = 11 in<sup>2</sup>
 
 #### More Information:
 
-For more information, please visit <a href= "https://www.mathsisfun.com/geometry/ellipse.html">mathisfun.com</a>
-
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+* [Wikipedia](https://en.wikipedia.org/wiki/Ellipse)
+* [Math Is Fun](https://www.mathsisfun.com/geometry/ellipse.html)
