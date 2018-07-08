@@ -1,15 +1,27 @@
 ---
 title: Font Color Attribute
 ---
+
 ## Font Color Attribute
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/attributes/font-color-attribute/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+The font color atribute in the form of a hex code, rgb code, or color name determins the color of the text inside of
+`<font>`open and `</font>` close tags.
 
 
+### Depreciated
+The Font Color Attribute has been deprecated in HTML5 and should not be used. Browser support for this attribute is limited and using it may produce unexpected results. Instead, use the CSS color property. [Read more](https://html.com/attributes/font-color)
+
+### Syntax
+
+```html
+<font color="color_name|hex_number|rgb_number">
+```
+
+
+### Examples
+
+```html
+<font color="red">This is some text!</font>
+<font color="#8639e0">This is some purple text!</font>
+<font color="rgb(3, 198, 254)">This is some blue text!</font>
+```
