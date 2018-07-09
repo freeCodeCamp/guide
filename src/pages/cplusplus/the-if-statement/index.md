@@ -72,6 +72,7 @@ Example In C++ :
   }
 ```
 
+
 **Output:**
 
 OUTPUT 1:
