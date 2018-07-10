@@ -8,14 +8,14 @@ This css property describes how inline content like text is aligned in its paren
 ### Values:
 The `text-align` property is specified as a single keyword chosen from the list of values below.  
 
-text-align: left;  
-text-align: right;  
-text-align: center;  
-text-align: justify;  
-text-align: justify-all;  
-text-align: start;  
-text-align: end;  
-text-align: match-parent;
+* `text-align: left`
+* `text-align: right`
+* `text-align: center`
+* `text-align: justify`
+* `justify-all`
+* `start`
+* `end`
+* `match-parent`
 
 #### More Information:
 - <a href='https://www.w3.org/TR/REC-CSS1/#text-align' target='_blank' rel='nofollow'>CSS1 Spec</a>
