@@ -1,15 +1,15 @@
 ---
-title: Open Whisper and Signal
+title: Open Whisper Systems and Signal
 ---
-## Open Whisper and Signal
+## Signal
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/security/open-whisper-and-signal/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Signal is a communications app which aims to be both usable and secure. There is currently <a href="https://www.wired.com/2017/03/wikileaks-cia-hack-signal-encrypted-chat-apps/">no indication</a> that Signal cryptography can be cracked by intelligence agencies. Signal is also reasonably secure <a href="https://signal.org/bigbrother/eastern-virginia-grand-jury/">against subpoenas</a> from American law enforcement, since they keep minimal metadata.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Signal uses the Internet to send one-to-one and group messages, which can include files, voice notes, images and videos, anonymized GIF's, and make one-to-one voice and video calls. Signal also has a disappearing messages feature, enabling you to send ephemeral sensitive messages and media.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Signal uses standard cellular mobile numbers as identifiers, and uses end-to-end encryption to secure all communications to other Signal users.
+
+Signal is developed by Open Whisper Systems. The clients are published as free and open-source software under the GPLv3 license. The server code is published under the AGPLv3 license.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+<a href="https://signal.org/">Open Whisper Systems's official homepage</a>
