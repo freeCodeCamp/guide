@@ -2,14 +2,12 @@
 title: Lean Software Development
 ---
 ## Lean Software Development
-
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/lean-software-development/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+<sup> Lean Software Development is an agile methodology that focuses on the minimization of waste and the optimization of efficiency through the software development cycle. </sup>
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+MSDN  - [Lean Software Development](https://msdn.microsoft.com/en-us/library/hh533841(v=vs.120).aspx)
+
+### Sources
+1. “What is lean software development? - Definition from WhatIs.Com.” SearchSoftwareQuality. Accessed October 29, 2017.
 
 
