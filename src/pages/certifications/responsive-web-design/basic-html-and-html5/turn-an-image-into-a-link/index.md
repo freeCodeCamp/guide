@@ -3,8 +3,8 @@ title: Turn an Image into a Link
 ---
 ## Turn an Image into a Link
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/responsive-web-design/basic-html-and-html5/turn-an-image-into-a-link/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+In a previous challenge you already achieved the task to nest a HTML element into another (e.g. [Nest an anchor element within a paragraph](https://learn.freecodecamp.org/responsive-web-design/basic-html-and-html5/nest-an-anchor-element-within-a-paragraph) )
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Now you are asked to solve the same problem with different tags: just put the image ( as is ) within the anchor element and it will become the clickable content of that anchor.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Good luck!
