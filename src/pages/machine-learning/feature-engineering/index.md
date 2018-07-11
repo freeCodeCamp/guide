@@ -59,6 +59,8 @@ Specifically, look for opportunities to take the sum, difference, product, or qu
 * Product of two features: You're running a pricing test, and you have the feature price and an indicator variable conversion. You can take their product to create the feature earnings.
 * Quotient of two features: You have a dataset of marketing campaigns with the features n_clicks and n_impressions. You can divide clicks by impressions to create  click_through_rate, allowing you to compare across campaigns of different volume.
 
+Feature engineering
+
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 * [Paper exploring "Feature Engineering for Text Classification"](https://pdfs.semanticscholar.org/6e51/8946c59c8c5d005054af319783b3eba128a9.pdf)
