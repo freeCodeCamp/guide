@@ -10,6 +10,8 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 Interaction design (also known as IxD), is "the practice of designing interactive digital products, environments, systems, and services. There are several areas of interaction design, but main ones include design, human-computer interaction (HCI), and software development.
 
 
+Alan Cooper and Robert Reimann wrote a great book on the subject of interaction design called "About Face: The Essentials of Interaction Design."
+
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 <a href='https://www.interaction-design.org/' target='_blank' rel='nofollow'>Interaction Design Foundation</a>
