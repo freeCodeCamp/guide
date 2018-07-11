@@ -27,3 +27,8 @@ Modern typesetting programs sometimes offer four additional justification optons
 * Wikipedia Article [Link](https://en.wikipedia.org/wiki/Typographic_alignment)
 * Web Style guide [Link](http://webstyleguide.com/wsg2/type/align.html)
 
+There are four basic alignements:
+Flush left or left-aligned - text is aligned along the left margin or gutter
+Flush right or right-aligned - text is aligned along the right margin or gutter
+Justified - word-spacing the lettering are adjusted to fall flush with both margins
+Centered - an even gap on both sides of the line
