@@ -39,3 +39,9 @@ even_list = [number for number in some_list if number % 2 == 0]
 What the list comprehension does is it adds an element from a list to a new list if some condition is met. This example list comprehension says that for every number (the variable of the for loop) in some_list, if that number is divisible by 2 (the number is even) then return that number to be added to the new list (even_list).
 
 The same list is produced but in this case it only took 2 lines of code. The List Comprehension allows for the 3 lines of the for loop plus the 1 line of creating an empty list to be condensed into a single line. Not only is this much neater but it is much faster in most cases. This example is pretty simple and easy to read so list comprehension is a good choice. There are cases where list comprehension makes readability very bad so you have to weigh your options when choosing to use list comprehension.
+
+Further documentation of this can be seen on the official Python website under data structures:
+https://docs.python.org/2.7/tutorial/datastructures.html
+
+Also a good resourse is Python for Beginners: 
+http://www.pythonforbeginners.com/basics/list-comprehensions-in-python
