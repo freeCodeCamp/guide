@@ -134,6 +134,8 @@ def binary_search(target, array)
 end
 ```
 
+Note: To prevent overflow due to addition people now prefer using mid=low+(high-low)/2.
+
 ### More Information
 * [Binary search (YouTube video)](https://youtu.be/P3YID7liBug)
 * [Binary Search - CS50](https://www.youtube.com/watch?v=5xlIPT1FRcA)
