@@ -5,7 +5,11 @@ title: String Strip Method
 
 There are three options for stripping characters from a string in Python, `lstrip()`, `rstrip()` and `strip()`.
 
-Each will return a copy of the string with characters removed, at from the beginning, the end or both beginning and end. If no arguments are given the default is to strip whitespace characters.
+If parameters are not passed to these functions, then they will remove whitespace characters by default.
+
+* `strip` will remove characters from **both** sides of the string
+* `lstrip` will only remove characters from the **left** side of the string
+* `rstrip` will only remove characters from the **right** side of the string
 
 Example:
 
@@ -28,6 +32,10 @@ An optional argument can be provided as a string containing all characters you w
 >>> url = 'www.example.com/'
 >>> url.strip('w./')
 'example.com'
+
+>>> example = '00000This is a string!00000'
+>>> example.strip('0')
+'This is a string!'
 ```
 
 #### More Information:
