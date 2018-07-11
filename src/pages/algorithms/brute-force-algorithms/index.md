@@ -2,6 +2,9 @@
 title: Brute Force Algorithms
 ---
 ## Brute Force Algorithms
+One of the most used brute force algorithm would be find out whether a number is prime or not.
+Simplest way to do it is through a linear scan from 2 to the square root of the number and is any number in between it divides it,number n is not prime otherwise it is.
+You could refer this for more info:- https://www.youtube.com/watch?v=7VPA-HjjUmU
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 Algorithms in general are supposed to find the solution to a problem. This process can be viewed as finding the correct solution among all possible answers. Let's say the problem is to find the greatest common divisor of two numbers. This problem can be interpreted as "among all numbers, find the largest number that is the divisor of both inputs".
