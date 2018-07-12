@@ -43,7 +43,14 @@ data consist of a set of training examples. In supervised learning, each example
 1. <a href="https://www.youtube.com/channel/UCWN3xxRkmTPmbKwht9FuE5A" target="_blank">Siraj Raval's Youtube channel</a>
 2. <a href="https://www.youtube.com/channel/UCfzlCWGWYyIQ0aLC5w48gBQ" target="_blank">Sentdex's Youtube channel</a>
 
+### A broad overview <sup>1</sup>
 
+![A venn diagram showing how deep learning is a kind of representation learning, which is in turn a kind of machine learning, which is used for many but not all approaches to AI. Each section of the Venn diagram includes an example of an AI technology.](https://c2.staticflickr.com/2/1498/26267140021_6aaf829fe3_b.jpg)
+
+
+### Sources
+
+1. <a href='http://www.deeplearningbook.org/contents/intro.html' target='_blank' rel='nofollow'> Deep Learning Book</a>
 
 #### More Information:
 
