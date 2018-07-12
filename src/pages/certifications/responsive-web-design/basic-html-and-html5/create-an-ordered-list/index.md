@@ -3,8 +3,14 @@ title: Create an Ordered List
 ---
 ## Create an Ordered List
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/responsive-web-design/basic-html-and-html5/create-an-ordered-list/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Sometimes people overthink this kind of challenge: the ordered lists has the exact same pattern of the unordered ones, it simply changes the tag: `<ul>` for the unordered, `<ol>` for the ordered.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The different effect is that one has the bullets, the other has numbers ( or other progressive marks ):
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+type | code | effect 
+ --| --| --
+unordered | `<ul><li>Bulleted item</li></ul>` | <ul><li>Bulleted item</li></ul>
+ordered | `<ol><li>Numbered item</li></ol>` | <ol><li>Numbered item</li></ol>
+
+
+If you do not remember how the lists works you can review the past challenge: [Create a bulleted unordered list](https://learn.freecodecamp.org/responsive-web-design/basic-html-and-html5/create-a-bulleted-unordered-list).
