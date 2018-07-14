@@ -8,7 +8,7 @@ Programmers use comments to add hints, notes, suggestions, or warnings to their 
 
 JavaScript has two ways of assigning comments in its code.
 
-The first way is the `//` comment, this makes all text following it on the same line into a comment. For example:
+The first way is the `//` comment; all text following `//` on the same line into a comment. For example:
 
 ```javascript
 function hello() {
@@ -18,7 +18,7 @@ function hello() {
 hello();
 ```
 
-The second way is the `/* */` comment, which you can use for single-line or multi-line comments. For example:
+The second way is the `/* */` comment, which can be used for both single-line and multi-line comments. For example:
 
 ```javascript
 function hello() {

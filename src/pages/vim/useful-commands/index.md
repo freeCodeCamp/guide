@@ -1,11 +1,17 @@
 ---
 title: Useful Commands
 ---
-## Useful Commands
+
+# Useful Commands
 
 ## Saving
 1. Press `Escape` to make sure you're in `normal mode`;
 2. Type in `:w` ("w" stands for "write");
+3. Press `Enter`.
+
+## Saving (to a new file)
+1. Press `Escape` to make sure you're in `normal mode`.
+2. Type in `:w newfilename` (newfilename is the file name of the new file that you want to save to).
 3. Press `Enter`.
 
 ## Exiting Vi, Vim, Nvim, Gvim
