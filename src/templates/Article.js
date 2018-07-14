@@ -117,8 +117,8 @@ Article.propTypes = propTypes;
 export default Article;
 
 export const pageQuery = graphql`
-  query ArticleBySlug($slug: String!) {
-    markdownRemark(fields: { slug: { eq: $slug } }) {
+  query ArticleById($id: String!) {
+    markdownRemark(id: { eq: $id }) {
       html
       fields {
         slug
