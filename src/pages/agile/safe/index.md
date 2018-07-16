@@ -9,7 +9,7 @@ The main website (<a target='_blank' rel='nofollow' href="http://www.scaledagile
 
 ## Principles
 
-There are nine, underlying principles for SAFe:
+There are nine, underlying principles for SAFe
 
 1. **Take an economic view** - evaluate economic costs of decisions, developments, and risks
 2. **Apply systems thinking** - development processes are interactions among the systems used by workers and thus need to view progress with systems thinking
