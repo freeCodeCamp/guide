@@ -1,10 +1,10 @@
 ---
 title: Create Decimal Numbers with JavaScript
 ---
-## Create Decimal Numbers with JavaScript
+# Create Decimal Numbers with JavaScript
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-javascript/create-decimal-numbers-with-javascript/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+JavaScript number variables can have decimals.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+    var myDecimal = 2.8;
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->

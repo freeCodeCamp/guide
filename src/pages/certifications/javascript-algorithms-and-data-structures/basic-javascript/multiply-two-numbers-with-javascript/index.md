@@ -1,10 +1,9 @@
 ---
 title: Multiply Two Numbers with JavaScript
 ---
-## Multiply Two Numbers with JavaScript
+# Multiply Two Numbers with JavaScript
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-javascript/multiply-two-numbers-with-javascript/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+JavaScript uses the `*` symbol for multiplication.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
+    var product = 8 * 10; //product gets the value 80
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
