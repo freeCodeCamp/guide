@@ -19,7 +19,7 @@ New semantic HTML5 elements include ```<header>```, ```<nav>```, ```<section>```
 Since October 2014, HTML4 got upgraded to HTML5, along with some new “semantic” elements.  To this day, some of us might still be confused as to why so many different elements that doesn’t seem to show any major changes.
 
 #### <code>&#60;section&#62;</code> and <code>&#60;article&#62;</code>
-“What’s the difference?”, you may ask.  Both these elements are used for sectioning a content, and yes, they can definitely be used interchangeably.  It’s a matter of in which situation.  HTML4 offered only one type of element, which is <code>&#60;div&#62;</code>.  While this is still used in HTML5, HTML5 provided us with <code>&#60;section&#62;</code> and <code>&#60;article&#62;</code> in a way to replace <code>&#60;div&#62;</code>, in a way.
+“What’s the difference?”, you may ask.  Both these elements are used for sectioning a content, and yes, they can definitely be used interchangeably.  It’s a matter of in which situation.  HTML4 offered only one type of container element, which is <code>&#60;div&#62;</code>.  While this is still used in HTML5, HTML5 provided us with <code>&#60;section&#62;</code> and <code>&#60;article&#62;</code> in a way to replace <code>&#60;div&#62;</code>.
   
 The <code>&#60;section&#62;</code> and <code>&#60;article&#62;</code> elements are conceptually similar and interchangeable.  To decide which of these you should choose, take note of the following:
   
