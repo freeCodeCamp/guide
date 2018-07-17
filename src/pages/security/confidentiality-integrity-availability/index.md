@@ -5,7 +5,7 @@ title: Confidentiality Integrity Availability
 Confidentiality, Integrity, and Availability or the CIA triad is the most fundamental concept in cyber security. It serves as guiding principles or goals for information security for organizations and individuals to keep information safe from prying eyes.
 
 ### Confidentiality
-Confidentiality is about ensuring access to data is restricted to only the intended audience and not others. As you may expect, the more sensitive the information is, the more stringent the security measures should be.  
+Confidentiality is about ensuring access to data is restricted to only the intended audience and not others. As you may expect, the more sensitive the information is, the more stringent the security measures should be.  Many privacy laws rely on confidentiality security controls to enforce legal requirements.
 
 Some measures to keep information confidential are:
 - Encryption
@@ -40,8 +40,6 @@ Measures to mitigate threats to availability include:
 - Failover
 - RAID
 - High-availability clusters
-
-
 
 Other than the CIA triad, there are also other frequently recurring themes in information security:  
 - non-repudiation: assurance that someone/ something cannot deny something (e.g. one cannot deny the authenticity of a digital signature) 
