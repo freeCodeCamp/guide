@@ -42,7 +42,7 @@ Reassign the values of the `const` variable `s` using various element assignment
 
 # Code Explanation:
 
-Trying to reassign a read-only `const` variable will throw an error, but by using various element assignment we can access and change the value of an array just like we would with `let` or `var`.
+Trying to reassign a read-only `const` variable will throw an error, but by using various element assignment you can access and change the value of an array just like you would with `let` or `var`.
 
 #### Relevant Links
 
