@@ -33,5 +33,8 @@ the image can not be rendered.
 <img src="URL of the Image" alt="Descriptive Title" style="width: 100px; height: 150px;"/>
 ```
 
+See the freeCodeCamp page on the `<img>` tag [here](https://guide.freecodecamp.org/html/elements/img-tag).
+
 #### More Information
-[More examples on w3schools](https://www.w3schools.com/html/html_images.asp)
+* To get more details on images in HTML, check out the [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Img)
+* [More examples on w3schools](https://www.w3schools.com/html/html_images.asp)
