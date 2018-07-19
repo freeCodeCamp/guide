@@ -25,7 +25,7 @@ Just add a regular stylesheet link to the head of your web page like so:
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 ``` 
 or download the latest css file to your local machine. Here: (https://www.w3schools.com/w3css/4/w3.css)
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+
 
 
 #### More Information on W3.Css Containers
