@@ -3,7 +3,7 @@ title: Prototypes
 ---
 ## Prototypes
 
-JavaScript is a prototype-based language, therefore understanding the prototype object is one of the most important concepts which  JavaScript practitioners need to know. This article will give you a short overview of the Prototype object through various  examples. Before reading this article, you will need to have a basic understanding of  [`this` reference in JavaScript](/javascript/this-in-javascript).
+JavaScript is a prototype-based language, therefore understanding the prototype object is one of the most important concepts which  JavaScript practitioners need to know. This article will give you a short overview of the Prototype object through various  examples. Before reading this article, you will need to have a basic understanding of the [`this` reference in JavaScript](/src/pages/javascript/this-reference/index.md).
 
 ### Prototype object
 
@@ -16,7 +16,7 @@ function Point2D(x, y) {
 }
 ```
 
-As `Point2D` function is declared, a property named `prototype` will be created by default for it (note that, in JavaScript, a function is also a object). The `prototype` property is also a object which contains a `constructor` property and its value is `Point2D` function: `Point2D.prototype.constructor = Point2D`. And when you call `Point2D` with `new` keyword, *newly created objects will inherit all properties from* `Point2D.prototype`. To check that, you can add a method named `move` into `Point2D.prototype` as follow:
+As `Point2D` function is declared, a default property named `prototype` will be created for it (note that, in JavaScript, a function is also an object). The `prototype` property is an object which contains a `constructor` property and its value is `Point2D` function: `Point2D.prototype.constructor = Point2D`. And when you call `Point2D` with `new` keyword, *newly created objects will inherit all properties from* `Point2D.prototype`. To check that, you can add a method named `move` into `Point2D.prototype` as follows:
 
 ```javascript
 Point2D.prototype.move = function(dx, dy) {
@@ -30,9 +30,9 @@ console.log(p1.x); // 4
 console.log(p1.y); // 6
 ```
 
-The `Point2D.prototype` is called **prototype object** or **prototype** of `p1` object and for any object created with `new Point2D(...)` syntax. You can add more properties to `Point2D.prototype` object as you like. The common pattern is declare methods to `Point2D.prototype` and other properties will be declared in constructor function.
+The `Point2D.prototype` is called **prototype object** or **prototype** of `p1` object and for any other object created with `new Point2D(...)` syntax. You can add more properties to `Point2D.prototype` object as you like. The common pattern is declare methods to `Point2D.prototype` and other properties will be declared in constructor function.
 
-Built-in objects in JavaScript is constructed similar as above. For example:
+Built-in objects in JavaScript are constructed in a similar manner. For example:
 
 - Prototype of objects created with `new Object()` or `{}` syntax is `Object.prototype`.
 - Prototype of arrays created with `new Array()` or `[]` syntax is `Array.prototype`.
@@ -100,3 +100,6 @@ Rectangle.prototype.calcArea = function calcArea() {
 ```
 
 The `getter` and `setter` methods in classes bind an Object property to a function that will be called when that property is looked up. It's just syntactic sugar to help make it easier to _look up_ or _set_ properties.
+
+**Further Reading:**
+* [MDN: Object prototypes](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes)

@@ -3,7 +3,7 @@ title: The Programmers Oath
 ---
 ## The Programmers Oath
 
-The Programmers Oath is a an oath created by Robert C. Martin, that are the guidelines for a better web. The oath goes as follows:
+The Programmers Oath is a an oath created by Robert C. Martin, highlighting the guidelines for a better web. The oath goes as follows:
 
 >In order to defend and preserve the honor of the profession of computer programmers,
 >I promise that, to the best of my ability and judgement:
@@ -30,7 +30,7 @@ Harm comes in many different forms. <b>You</b> as a professional programmer prom
 ### Promise 2
 >2. The code that I produce will always be my best work. I will not knowingly allow code that is defective either in behavior or structure to accumulate.
 
-As a programmer, you want to believe in doing your best work, and you never want to be in a situation where code you realease is knowingly not your best work.
+As a programmer, you want to believe in doing your best work, and you never want to be in a situation where code you release is knowingly not your best work.
 
 You don't want to allow code that is defective to accumulate in your system. You may not be able to prevent it from getting into your system (ex. a release emergency), but you won't allow it to commute to accumulate. 
 

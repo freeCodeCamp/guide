@@ -1,7 +1,7 @@
 const path = require('path');
 
-exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
-  const { createNodeField } = boundActionCreators;
+exports.onCreateNode = ({ node, actions, getNode }) => {
+  const { createNodeField } = actions;
   let slug;
   if (node.internal.type === 'MarkdownRemark') {
     const fileNode = getNode(node.parent);
@@ -19,27 +19,28 @@ exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
   }
 };
 
-exports.createPages = ({ graphql, boundActionCreators }) => {
-  const { createPage } = boundActionCreators;
+exports.createPages = ({ graphql, actions }) => {
+  const { createPage } = actions;
 
   return new Promise((resolve, reject) => {
-    const Article = path.resolve('src/templates/Article.jsx');
-    // Query for all markdown "nodes" and for the slug we previously created.
+    const Article = path.resolve('src/templates/Article.js');
+    // Query for all markdown 'nodes' and for the slug we previously created.
     resolve(
       graphql(
         `
-        {
-          allMarkdownRemark {
-            edges {
-              node {
-                fields {
-                  slug
+          {
+            allMarkdownRemark {
+              edges {
+                node {
+                  id
+                  fields {
+                    slug
+                  }
                 }
               }
             }
           }
-        }
-      `
+        `
       ).then(result => {
         if (result.errors) {
           console.log(result.errors);
@@ -52,7 +53,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
             path: edge.node.fields.slug,
             component: Article,
             context: {
-              slug: edge.node.fields.slug
+              id: edge.node.id
             }
           });
         });
