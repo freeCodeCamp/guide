@@ -9,9 +9,9 @@ When present, it specifies that an <input> element should be pre-selected (check
 
 The checked attribute can be used with <input type="checkbox"> and <input type="radio">.
 
-The checked attribute can also be set after the page load, with a JavaScript.
+The checked attribute can also be set after the page load, through JavaScript.
 
-## Example
+## Take a look at the following example:
 ```html
 <form action="/action_page.php">
   <input type="checkbox" name="vehicle" value="Bike"> I have a bike<br>
@@ -20,4 +20,4 @@ The checked attribute can also be set after the page load, with a JavaScript.
 </form>
 ```
 
-In the above example,when the web page is loaded,by default the first checkbox will come automatically selected due to the checked attribute.
+In the example above when the web page is loaded by default the first checkbox will come automatically selected due to the checked attribute.
