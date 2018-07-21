@@ -3,8 +3,8 @@ title: Nest Many Elements within a Single div Element
 ---
 ## Nest Many Elements within a Single div Element
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/responsive-web-design/basic-html-and-html5/nest-many-elements-within-a-single-div-element/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Using a generic purpose tag as `div` to wrap multiple elements allows the developer to apply a common style to each of the wrapped element, to group elements with the same meaning, to create different layout 'pack' and so on.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+About this challenge you have to group the lists already present in the code: you can use the opening div tag just before the paragraph used as header of the unordered list and put the closing tag right below the ordered one.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Good luck!
