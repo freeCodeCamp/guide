@@ -42,7 +42,7 @@ You will create a program that takes a sentence, then search for a word in it an
       // Find index where before is on string
       var index = str.indexOf(before);
       // Check to see if the first letter is uppercase or not
-      if (str<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>index] === str[index].toUpperCase()) {
+      if (str[index] === str[index].toUpperCase()) {
         // Change the after word to be capitalized before we use it.
         after = after.charAt(0).toUpperCase() + after.slice(1);
       }
@@ -77,7 +77,7 @@ You will create a program that takes a sentence, then search for a word in it an
     //Create a regular expression object
       var re = new RegExp(before,"gi");
     //Check whether the first letter is uppercase or not
-      if(/<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>A-Z]/.test(before[0])){
+      if(/[A-Z]/.test(before[0])){
       //Change the word to be capitalized
         after = after.charAt(0).toUpperCase()+after.slice(1);
          }
@@ -94,7 +94,7 @@ You will create a program that takes a sentence, then search for a word in it an
 
 ### Code Explanation:
 
-*   In this solution, regular expression `<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:"' target='_blank' rel='nofollow'>A-Z]` is used to check if character is uppercase.
+*   In this solution, regular expression `[A-Z]` is used to check if character is uppercase.
 *   Create a new regular expression object, **re**.
 *   If first letter of **before** is capitalized, change the first letter of **after** to uppercase.
 *   Replace **before** with **after** in the string.
@@ -104,7 +104,8 @@ You will create a program that takes a sentence, then search for a word in it an
 
 *   <a>JS Regex Resources</a>
 
-## ![:rotating_light:</a> Advanced Code Solution:
+## ![:rotating_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:") Advanced Code Solution:
+
 
     function myReplace(str, before, after) {
 
@@ -117,7 +118,7 @@ You will create a program that takes a sentence, then search for a word in it an
             // iterate through all the items of sourceArr and targetArr arrays till loop hits the end of shortest array
             for (var i = 0; i < Math.min(targetArr.length, sourceArr.length); i++){
                 // find out the casing of every letter from sourceArr using regular expression
-                // if sourceArr<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>i] is upper case then convert targetArr[i] to upper case
+                // if sourceArr[i] is upper case then convert targetArr[i] to upper case
                 if (/[A-Z]/.test(sourceArr[i])) {
                     targetArr[i] = targetArr[i].toUpperCase();
                 }
