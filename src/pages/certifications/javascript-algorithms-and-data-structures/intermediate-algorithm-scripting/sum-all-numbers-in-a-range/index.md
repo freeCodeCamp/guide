@@ -5,9 +5,9 @@ title: Sum All Numbers in a Range
 
 ### ![:checkered_flag:](https://forum.freecodecamp.com/images/emoji/emoji_one/checkered_flag.png?v=3 ":checkered_flag:") Problem Explanation:
 
-You need to create a program that will take an array of two numbers who are not necessarily in order, and then add not just those numbers but any numbers in between. For example, <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:"' target='_blank' rel='nofollow'>3,1] will be the same as `1+2+3` and not just `3+1`
+You need to create a program that will take an array of two numbers who are not necessarily in order, and then add not just those numbers but any numbers in between. For example, [3,1] will be the same as `1+2+3` and not just `3+1`
 
-## ![:speech_balloon:</a> Hint: 1
+## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 1
 
 Use `Math.max()` to find the maximum value of two numbers.
 
@@ -34,7 +34,7 @@ Remember to that you must add all the numbers in between so this would require a
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
 
     function sumAll(arr) {
-        var max = Math.max(arr<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>0], arr[1]);
+        var max = Math.max(arr[0], arr[1]);
         var min = Math.min(arr[0], arr[1]);
         var temp = 0;
         for (var i=min; i <= max; i++){
@@ -68,7 +68,7 @@ Since the numbers might not be always in order, using `max()` and `min()` will h
 
       // Using ES6 arrow function (one-liner)
       var sortedArr = arr.sort((a,b) => a-b);
-      var firstNum = arr<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>0];
+      var firstNum = arr[0];
       var lastNum = arr[1];
       // Using Arithmetic Progression summing formula
 
@@ -103,7 +103,7 @@ The line `var sortedArr = arr.sort((a,b) => a-b);` is probably what will have yo
       return sum;
     }
 
-    sumAll(<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>1, 4]);
+    sumAll([1, 4]);
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLm8/0' target='_blank' rel='nofollow'>Run Code</a>
 

@@ -48,7 +48,7 @@ Often the code would not work the way you expect it due to wrong variable names,
       var fullName = firstAndLast;
 
       this.getFirstName = function() {
-        return fullName.split(" ")<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>0];
+        return fullName.split(" ")[0];
       };
 
       this.getLastName = function() {

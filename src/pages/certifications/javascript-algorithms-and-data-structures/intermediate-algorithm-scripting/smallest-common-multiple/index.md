@@ -11,11 +11,11 @@ We can first start with just finding the smallest common multiple between two nu
 
 An example would be the numbers `3` and `4`. The multiples of `3` are `3, 6, 9, 12, 15, 18, ...` and the multiples of `4` are `4, 8, 12, 16, 20, ...`. The first smallest number we run into in both lists is `12` so this is the smallest common multiple between `3` and `4`.
 
-This problem can be confusing because most people look for the smallest common multiple of just the two numbers but forget the keyword **range**. However, this means that if you are given `<a href='https://en.wikipedia.org/wiki/Least_common_multiple' target='_blank' rel='nofollow'>1,5]`, then you have to check for the smallest common multiple for all the numbers `[1,2,3,4,5]` that is evenly divisible by all of them.
+This problem can be confusing because most people look for the smallest common multiple of just the two numbers but forget the keyword **range**. However, this means that if you are given `[1,5]`, then you have to check for the smallest common multiple for all the numbers `[1,2,3,4,5]` that is evenly divisible by all of them.
 
 #### Relevant Links
 
-*   [Least (Smallest) Common Multiple</a>
+*   <a href='https://en.wikipedia.org/wiki/Least_common_multiple' target='_blank' rel='nofollow'>Least (Smallest) Common Multiple</a>
 
 ## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 1
 
@@ -52,7 +52,7 @@ If you sort the array from greatest to smallest, then you can use the first two 
 
       // Create new array and add all values from greater to smaller from the
       // original array.
-      var newArr = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>];
+      var newArr = [];
       for (var i = arr[0]; i >= arr[1]; i--) {
         newArr.push(i);
       }
@@ -86,7 +86,7 @@ If you sort the array from greatest to smallest, then you can use the first two 
 
 *   Because of the possibility of the smallest common denominator being among the two biggest numbers, it makes sense to check those first, so sort the array.
 *   Create a new array to sort all the numbers, `newArr`.
-*   Use a descending `for` loop (`var i = arr<a href='http://forum.freecodecamp.com/t/javascript-array-prototype-sort/14306' target='_blank' rel='nofollow'>0]; i >= arr[1]; i--`) to add the numbers from the biggest to the smallest in the new array.
+*   Use a descending `for` loop (`var i = arr[0]; i >= arr[1]; i--`) to add the numbers from the biggest to the smallest in the new array.
 *   Declare the variables for the quotient so we can access them outside the loop:
     *   the quotient that'll be our smallest common multiple (`quot`)
     *   the loop number we're checking (`loop`)
@@ -103,7 +103,7 @@ Note: If the array only has two elements, then the `for` loop never gets used an
 
 #### Relevant Links
 
-*   [JS Array Prototype Sort</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-array-prototype-sort/14306' target='_blank' rel='nofollow'>JS Array Prototype Sort</a>
 *   <a href='http://forum.freecodecamp.com/t/javascript-for-loop/14666s-Explained' target='_blank' rel='nofollow'>JS For Loops Explained</a>
 *   <a href='http://forum.freecodecamp.com/t/javascript-array-prototype-push/14298' target='_blank' rel='nofollow'>JS Array Prototype Push</a>
 *   <a href='http://forum.freecodecamp.com/t/javascript-do-while-loop/14662' target='_blank' rel='nofollow'>JS Do While Loop</a>
@@ -112,7 +112,7 @@ Note: If the array only has two elements, then the `for` loop never gets used an
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution:
 
     function smallestCommons(arr) {
-        var range = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>];
+        var range = [];
         for (var i = Math.max(arr[0], arr[1]); i >= Math.min(arr[0], arr[1]); i--) {
         range.push(i);
         }
@@ -140,14 +140,14 @@ Note: If the array only has two elements, then the `for` loop never gets used an
 
 ### Code Explanation:
 
-*   The first, basic solution requires over 2,000 loops to calculate the test case `smallestCommons(<a href='https://en.wikipedia.org/wiki/Euclidean_algorithm' target='_blank' rel='nofollow'>1,13])`, and over 4 million loops to calculate `smallestCommons([1,25])`. This solution evaluates `smallestCommons([1,13])` in around 20 loops and `smallestCommons([1,25])` in 40, by using a more efficient algorithm.
+*   The first, basic solution requires over 2,000 loops to calculate the test case `smallestCommons([1,13])`, and over 4 million loops to calculate `smallestCommons([1,25])`. This solution evaluates `smallestCommons([1,13])` in around 20 loops and `smallestCommons([1,25])` in 40, by using a more efficient algorithm.
 *   Make an empty array **range**.
 *   All numbers between the given range are pushed to **range** using a `for` loop.
 *   The next block of code implements the Euclidean algorithm, which is used for finding smallest common multiples.
 
 #### Relevant Links
 
-*   [Euclidean algorithm</a>
+*   <a href='https://en.wikipedia.org/wiki/Euclidean_algorithm' target='_blank' rel='nofollow'>Euclidean algorithm</a>
 *   <a href='http://forum.freecodecamp.com/t/javascript-math-max/14682' target='_blank' rel='nofollow'>JS Math Max</a>
 *   <a href='http://forum.freecodecamp.com/t/javascript-math-min/14684' target='_blank' rel='nofollow'>JS Math Min</a>
 
