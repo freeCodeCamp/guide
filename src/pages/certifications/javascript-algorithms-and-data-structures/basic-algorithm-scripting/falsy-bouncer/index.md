@@ -11,7 +11,7 @@ Remove all <a>falsy</a> values from an array.
 
 #### Relevant Links
 
-*   <a>Falsy Values</a>
+*   <a href='https://guide.freecodecamp.org/javascript/falsy-values/' target='_blank' rel='nofollow'>Falsy Values</a>
 
 ## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 1
 
@@ -47,7 +47,7 @@ Then we need to add a `filter()` with the falsy values function...
 
 ### Code Explanation:
 
-The `Array.prototype.filter` method expects a function that returns a `Boolean` value which takes a single argument and returns `true` for <a href='http://forum.freecodecamp.com/t/javascript-truthy-value/15975' target='_blank' rel='nofollow'>truthy</a> value or `false` for <a>falsy</a> value. Hence we pass the built-in `Boolean` function.
+The `Array.prototype.filter` method expects a function that returns a `Boolean` value which takes a single argument and returns `true` for <a href='http://forum.freecodecamp.com/t/javascript-truthy-value/15975' target='_blank' rel='nofollow'>truthy</a> value or `false` for <a href='https://guide.freecodecamp.org/javascript/falsy-values/' target='_blank' rel='nofollow'>falsy</a> value. Hence we pass the built-in `Boolean` function.
 
 #### Relevant Links
 
