@@ -45,7 +45,7 @@ If you still can't figure out how to solve it with shift, then try solving it wi
       // drop them elements.
       var times = arr.length;
       for (var i = 0; i < times; i++) {
-        if (func(arr<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>0])) {
+        if (func(arr[0])) {
           break;
         } else {
           arr.shift();
@@ -77,7 +77,7 @@ If you still can't figure out how to solve it with shift, then try solving it wi
     }
 
     // test here
-    dropElements(<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>1, 2, 3, 4], function(n) {return n >= 3;});
+    dropElements([1, 2, 3, 4], function(n) {return n >= 3;});
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLnc/0' target='_blank' rel='nofollow'>Run Code</a>
 
@@ -95,7 +95,7 @@ If you still can't figure out how to solve it with shift, then try solving it wi
 ## ![:rotating_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:") Advanced Code Solution:
 
     function dropElements(arr, func) {
-      while(arr.length > 0 && !func(arr<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>0])) {
+      while(arr.length > 0 && !func(arr[0])) {
         arr.shift();
       }
       return arr;
@@ -113,7 +113,7 @@ If you still can't figure out how to solve it with shift, then try solving it wi
 
 #### Relevant Links
 
-*   <a>While loops</a>
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while' target='_blank' rel='nofollow' >While loops</a>
 
 ## ![:clipboard:](https://forum.freecodecamp.com/images/emoji/emoji_one/clipboard.png?v=3 ":clipboard:") NOTES FOR CONTRIBUTIONS:
 
