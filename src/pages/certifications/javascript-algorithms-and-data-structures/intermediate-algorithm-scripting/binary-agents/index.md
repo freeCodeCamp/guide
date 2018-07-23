@@ -42,7 +42,7 @@ Make sure that each time you transcode a character from binary to decimal, you r
 ```javascript
     function binaryAgent(str) {
       biString = str.split(' ');
-      uniString = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>];
+      uniString = [];
 
     /*using the radix (or base) parameter in parseInt, we can convert the binary
       number to a decimal number while simultaneously converting to a char*/
@@ -85,7 +85,7 @@ Make sure that each time you transcode a character from binary to decimal, you r
       // Check each binary number from the array.
       for (var s = 0; s < str.length; s++) {
         // Check each bit from binary number
-        for (var t = 0; t < str<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>s].length; t++) {
+        for (var t = 0; t < str[s].length; t++) {
           // This only takes into consideration the active ones.
           if (str[s][t] == 1) {
             // This is quivalent to 2 ** position
