@@ -62,7 +62,7 @@ The function `nextInLine` uses **arr** and **item**. Those are what the tests wi
 
 **Example Run**
 
-*   Test `nextInLine(<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/clipboard.png?v=3 ":clipboard:"' target='_blank' rel='nofollow'>2], 1);` runs.
+*   Test `nextInLine([2,1]);` runs.
 *   The `nextInLine` function is called. **arr** becomes [2]. **item** becomes 1.
 *   `arr.push(item);` Pushes 1 to [2]. So **arr** is now [2,1].
 *   `var removed = arr.shift();` removes the first element. So **arr** is now [1]. 2 has been removed and is stored in **removed**.
@@ -70,7 +70,7 @@ The function `nextInLine` uses **arr** and **item**. Those are what the tests wi
 
 **_Note_**: You don't actually need the variable **removed**. The element removed can be returned directly using `return arr.shift();`.
 
-## ![:clipboard:</a> NOTES FOR CONTRIBUTIONS:
+## ![:clipboard:](https://forum.freecodecamp.com/images/emoji/emoji_one/clipboard.png?v=3 ":clipboard:") NOTES FOR CONTRIBUTIONS:
 
 *   ![:warning:](https://forum.freecodecamp.com/images/emoji/emoji_one/warning.png?v=3 ":warning:") **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
 *   Add an explanation of your solution.

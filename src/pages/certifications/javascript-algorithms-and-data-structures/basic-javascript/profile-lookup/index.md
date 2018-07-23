@@ -58,7 +58,7 @@ Leave your `return "No such contact"` out of the `for` loop as a final catch-all
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
 
     for (var x = 0; x < contacts.length; x++){
-        if (contacts<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/clipboard.png?v=3 ":clipboard:"' target='_blank' rel='nofollow'>x].firstName === firstName) {
+        if (contacts[x].firstName === name) {
             if (contacts[x].hasOwnProperty(prop)) {
                 return contacts[x][prop];
             } else {
@@ -84,7 +84,7 @@ Leave your `return "No such contact"` out of the `for` loop as a final catch-all
 *   `"likes"` is found within the first object, so the second `if` statement returns true.
 *   The value of `"likes"` is returned - `"Pizza", "Coding", "Brownie Points"`.
 
-## ![:clipboard:</a> NOTES FOR CONTRIBUTIONS:
+## ![:clipboard:](https://forum.freecodecamp.com/images/emoji/emoji_one/clipboard.png?v=3 ":clipboard:") NOTES FOR CONTRIBUTIONS:
 
 *   ![:warning:](https://forum.freecodecamp.com/images/emoji/emoji_one/warning.png?v=3 ":warning:") **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
 *   Add an explanation of your solution.
