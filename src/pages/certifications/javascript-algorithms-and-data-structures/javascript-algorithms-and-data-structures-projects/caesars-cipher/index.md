@@ -196,7 +196,7 @@ Hence, we conclude that using modulo operator, one can map a range of values to 
 
 Did you understand till this?
 
-Now let us consider mapping a range of `26` numbers i.e. between [`65 - 90`] which represents uppercase [**English alphabets**] in <a href='http://unicode-table.com/en/alphabets/' target='_blank' rel='nofollow'>Unicode character set</a> to a range of numbers between `0 - 25`].
+Now let us consider mapping a range of `26` numbers i.e. between [`65 - 90`] which represents uppercase [**English alphabets**] in <a href='http://unicode-table.com/en/alphabets/' target='_blank' rel='nofollow'>Unicode character set</a> to a range of numbers between [`0 - 25`].
 
     [A]  65 % 26 ⇔ 13
     [B]  66 % 26 ⇔ 14
