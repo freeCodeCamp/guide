@@ -48,7 +48,7 @@ You could use loops or callbacks functions, there are multiple ways to solve thi
       // Check for each object
       for (var c in collection) {
         // If it is has property and value is truthy
-        if (collection<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>c].hasOwnProperty(pre) && Boolean(collection[c][pre])) {
+        if (collection[c].hasOwnProperty(pre) && Boolean(collection[c][pre])) {
           counter++;
         }
       }
@@ -78,7 +78,7 @@ You could use loops or callbacks functions, there are multiple ways to solve thi
 
     function truthCheck(collection, pre) {
       return collection.every(function (element) {
-        return element.hasOwnProperty(pre) && Boolean(element<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>pre]);
+        return element.hasOwnProperty(pre) && Boolean(element[pre]);
       });
     }
 
@@ -101,7 +101,7 @@ You could use loops or callbacks functions, there are multiple ways to solve thi
 
     function truthCheck(collection, pre) {
       // Is everyone being true?
-      return collection.every(obj => obj<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>pre]);
+      return collection.every(obj => obj[pre]);
     }
 
     truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "male"}, {"user": "Laa-Laa", "sex": "female"}, {"user": "Po", "sex": "female"}], "sex");
