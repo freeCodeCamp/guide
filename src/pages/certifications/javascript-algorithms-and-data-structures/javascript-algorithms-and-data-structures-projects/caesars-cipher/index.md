@@ -142,7 +142,7 @@ Leave anything that doesn't come between A-Z as it is.
 
 #### Relevant Links
 
-*   [Function.apply</a>
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply' target='_blank' rel='nofollow'>Function.apply</a>
 *   <a href='https://forum.freecodecamp.com/t/regular-expressions-resources/15931' target='_blank' rel='nofollow'>Regex</a>
 *   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/test' target='_blank' rel='nofollow'>Regex.test</a>
 
@@ -196,7 +196,7 @@ Hence, we conclude that using modulo operator, one can map a range of values to 
 
 Did you understand till this?
 
-Now let us consider mapping a range of `26` numbers i.e. between [`65 - 90`] (_which represents uppercase [**English alphabets**] in <a href='http://unicode-table.com/en/alphabets/' target='_blank' rel='nofollow'>Unicode character set</a> to a range of numbers between <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace' target='_blank' rel='nofollow'>`0 - 25`].</a>
+Now let us consider mapping a range of `26` numbers i.e. between [`65 - 90`] which represents uppercase [**English alphabets**] in <a href='http://unicode-table.com/en/alphabets/' target='_blank' rel='nofollow'>Unicode character set</a> to a range of numbers between `0 - 25`].
 
     [A]  65 % 26 ⇔ 13
     [B]  66 % 26 ⇔ 14
