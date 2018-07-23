@@ -7,7 +7,7 @@ title: Falsy Bouncer
 
 ### ![:checkered_flag:](https://forum.freecodecamp.com/images/emoji/emoji_one/checkered_flag.png?v=3 ":checkered_flag:") Problem Explanation:
 
-Remove all <a>falsy</a> values from an array.
+Remove all <a href='https://guide.freecodecamp.org/javascript/falsy-values/' target='_blank' rel='nofollow'>falsy</a> values from an array.
 
 #### Relevant Links
 
