@@ -1,7 +1,7 @@
 ---
 title: Arguments
 ---
-The arguments object is an **array-like object** _(meaning that it looks like an array but it's not)_ that stores all of the arguments that you passed to a function and is proprietary to that function in particular. If you were to pass 3 arguments to a function, say `storeNames()`, those 3 arguments would be stored inside an object called **arguments** and it would look like this when we pass the arguments `storeNames("Mulder", "Scully", "Alex Krycek")` to our function:
+The arguments object is an **array-like object** _(in that the structure of the object is similar to that of an array however it should not be considered an array as it has all the functionality of an object)_ that stores all of the arguments that you passed to a function and is proprietary to that function in particular. If you were to pass 3 arguments to a function, say `storeNames()`, those 3 arguments would be stored inside an object called **arguments** and it would look like this when we pass the arguments `storeNames("Mulder", "Scully", "Alex Krycek")` to our function:
 
 *   First, we declare a function and make it return the arguments object.
 
@@ -14,7 +14,7 @@ function storeNames() { return arguments; }
 ```javascript
 // If we execute the following line in the console:
 storeNames("Mulder", "Scully", "Alex Kryceck");
-// The output will be ["Mulder", "Scully", "Alex Kryceck"]
+// The output will be { '0': 'Mulder', '1': 'Scully', '2': 'Alex Kryceck' }
 ```
 
 If you want to know more about this, such as converting it to an array or the optimization problem that comes with using the _slice(_) method and how to solve it, click on **read more** (Gitter Chat Only).
@@ -43,7 +43,7 @@ console.log(getGrades(90, 100, 75, 40, 89, 95));
 
 // OUTPUT SHOULD BE: //
 // [100, 75] <- Why? Because it started from index 1 and stopped at index 3
-// so, index 3 (40) wasn't taken in consideration.
+// so, index 3 (40) wasn't taken into consideration.
 //
 // If we remove the '3' parameter, leaving just (arguments, 1) we'd get
 // every argument from index 1: [100, 75, 40, 89, 95].
@@ -71,21 +71,31 @@ for (var i = 0; i < arguments.length; i++) {
 For more information on the optimization issues:  
 Optimization Killers: <a href='https://github.com/petkaantonov/bluebird/wiki/Optimization-killers#3-managing-arguments' target='_blank' rel='nofollow'>Managing Arguments</a>
 
-### ES6 spread operator as a way to circumvent the arguments object
+### ES6 rest parameter as a way to circumvent the arguments object
 
-In ES2015/ES6 it is possible to use the spread operator (`...`) instead of the arguments object in most places. Say we have the following function (non-ES6): 
+In ES2015/ES6 it is possible to use the rest parameter (`...`) instead of the arguments object in most places. Say we have the following function (non-ES6): 
 
     function getIntoAnArgument() {
-      var args = arguments.slice();
-      args.forEach(function(arg) {
-        console.log(arg);
-      }
+        var args = arguments.slice();
+        args.forEach(function(arg) {
+            console.log(arg);
+        });
     }
 
-can in ES6 be replaced by: 
+That function can be replaced in ES6 by: 
 
     function getIntoAnArgument(...args) {
         args.forEach(arg => console.log(arg));
     }
 
-note that we also used an arrow function to shorten the forEach callback!
+note that we also used an arrow function to shorten the forEach callback!   
+
+The arguments object is not available inside the body of an arrow function.
+
+The rest parameter must always come as the last argument in your function definition.  
+    ```function getIntoAnArgument(arg1, arg2, arg3, ...restOfArgs  /*no more arguments allowed here*/) {
+        //function body
+    }```   
+
+
+

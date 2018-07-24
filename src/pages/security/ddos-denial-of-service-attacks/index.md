@@ -62,3 +62,9 @@ Assume your server IP address is AAA.BBB.CCC.DDD. Then you should do the followi
 * You will use the CDN URL cdn.someotherid.domain.com to create two CNAME records, the first one to point to www and the second record to point to @ as shown below.
 
 You can take the help from your system administrator to understand these points and configure your DNS and CDN appropriately. Finally, you will have the following configuration at your DNS.
+
+### More Information
+
+* [Understanding Denial-of-Service Attacks](https://www.us-cert.gov/ncas/tips/ST04-015)
+* [Visualisation of DDoS Attacks Worldwide](http://www.digitalattackmap.com/#anim=1&color=0&country=ALL&list=0&time=17462&view=map "Visualisation of DDoS Attacks Worldwide")
+* [Kotaku Article about DDoS](https://kotaku.com/how-ddos-attacks-work-and-why-theyre-so-hard-to-stop-1676445620)

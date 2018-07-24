@@ -34,6 +34,8 @@ Some Game Engines have a very steep learning curve such as CryEngine or Unreal E
 
 The Unity Game Engine ranges somewhere in the middle, while it is beginner friendly, some popular and commercial games have been built using Unity (e.g. Overcooked, Superhot).
 
+### Typical Game Engines
+
 - CryEngine
 - Unreal Engine
 - Unity Game Engine
@@ -41,11 +43,16 @@ The Unity Game Engine ranges somewhere in the middle, while it is beginner frien
 - Construct 2 or 3
 - Twine
 
+
+
+
 ### More Information
 
-<a href='https://libgdx.badlogicgames.com/'>libGDX Framework</a><br>
-<a href='https://www.opengl.org/'>OpenGL Framework</a><br>
-<a href='https://www.scirra.com/'>Construct Game Engine</a><br>
-<a href='https://www.yoyogames.com/gamemaker'>Game Maker Engine</a><br>
-<a href='https://unity3d.com/pt'>Unity3D Engine</a><br>
-<a href='https://www.unrealengine.com/en-US/what-is-unreal-engine-4'>Unreal Engine</a>
+* [Awesome-List of GameDev resources](https://github.com/Kavex/GameDev-Resources)
+* [Game Programming Books](http://www.fromdev.com/2013/07/game-development-books.html)
+* <a href='https://libgdx.badlogicgames.com/'>libGDX Framework</a><br>
+* <a href='https://www.opengl.org/'>OpenGL Framework</a><br>
+* <a href='https://www.scirra.com/'>Construct Game Engine</a><br>
+* <a href='https://www.yoyogames.com/gamemaker'>Game Maker Engine</a><br>
+* <a href='https://unity3d.com/pt'>Unity3D Engine</a><br>
+* <a href='https://www.unrealengine.com/en-US/what-is-unreal-engine-4'>Unreal Engine</a>
