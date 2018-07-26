@@ -17,7 +17,7 @@ jQuery.get( url [, data ] [, success ] [, dataType ] )
 $.get('http://example.com/resource.json', {category:'client', type:'premium'});
 ```
 
-requests `resource.json` from the server, sending additional data and ignoring the returned result
+requests `resource.json` from the server, sending additional data and ignoring the returned result:
  ```javascript
 $.get('http://example.com/resource.json', {category:'client', type:'premium'}, function(response){ 
       alert("success");
