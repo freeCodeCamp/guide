@@ -40,9 +40,9 @@ title: Mutations
 **Procedural**
 
     function mutation(arr) {
-      var test = arr<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>1].toLowerCase();
+      var test = arr[1].toLowerCase();
       var target = arr[0].toLowerCase();
-      for (i=0;i<test.length;i++) {
+      for (var i=0;i<test.length;i++) {
         if (target.indexOf(test[i]) < 0)
           return false;
       }
@@ -68,7 +68,7 @@ If they are _all_ found, the loop will finish without returning anything and we 
 **Declarative**
 
     function mutation(arr) {
-      return arr<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>1].toLowerCase()
+      return arr[1].toLowerCase()
         .split('')
         .every(function(letter) {
           return arr[0].toLowerCase()

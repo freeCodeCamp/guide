@@ -28,18 +28,19 @@ exports.createPages = ({ graphql, actions }) => {
     resolve(
       graphql(
         `
-        {
-          allMarkdownRemark {
-            edges {
-              node {
-                fields {
-                  slug
+          {
+            allMarkdownRemark {
+              edges {
+                node {
+                  id
+                  fields {
+                    slug
+                  }
                 }
               }
             }
           }
-        }
-      `
+        `
       ).then(result => {
         if (result.errors) {
           console.log(result.errors);
@@ -52,7 +53,7 @@ exports.createPages = ({ graphql, actions }) => {
             path: edge.node.fields.slug,
             component: Article,
             context: {
-              slug: edge.node.fields.slug
+              id: edge.node.id
             }
           });
         });

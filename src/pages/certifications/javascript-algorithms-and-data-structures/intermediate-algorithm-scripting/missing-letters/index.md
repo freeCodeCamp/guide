@@ -116,7 +116,7 @@ You will need to figure out where the missing letter is, along with handling the
 
     function fearNotLetter(str) {
       var allChars = '';
-      var notChars = new RegExp('<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>^'+str+']','g');
+      var notChars = new RegExp('[^'+str+']','g');
 
       for (var i = 0; allChars[allChars.length-1] !== str[str.length-1] ; i++)
         allChars += String.fromCharCode(str[0].charCodeAt(0) + i);

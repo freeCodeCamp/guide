@@ -38,7 +38,7 @@ You will definitely need recursion or another way to go beyond two level arrays 
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
 
     function steamrollArray(arr) {
-      var flattenedArray = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>];
+      var flattenedArray = [];
 
       // Create function that adds an element if it is not an array.
       // If it is an array, then loops through it and uses recursion on that array.
@@ -78,7 +78,7 @@ You will definitely need recursion or another way to go beyond two level arrays 
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution:
 
     function steamrollArray(arr) {
-      let flat = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>].concat(...arr);
+      let flat = [].concat(...arr);
       return flat.some(Array.isArray) ? steamrollArray(flat) : flat;
     }
 
@@ -105,7 +105,7 @@ You will definitely need recursion or another way to go beyond two level arrays 
     function steamrollArray(arr) {
       return arr.toString()
         .replace(',,', ',')       // "1,2,,3" => "1,2,3"
-        .split(',')               // <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>'1','2','3']
+        .split(',')               // ['1','2','3']
         .map(function(v) {
           if (v == '[object Object]') { // bring back empty objects
             return {};

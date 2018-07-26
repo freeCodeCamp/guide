@@ -66,6 +66,35 @@ int main() {
 }
 ```
 
+#### Using Arrays as Stacks
+
+In some programming languages an array has stack functionality, allowing the developer to perform **push** and **pop** operations without the need for a custom stack data structure.
+
+For example, an array in JavaScript has **push** and **pop** methods allowing one to easily implement stack functionality in an application.
+
+```js
+stack = [];
+
+let i = 0;
+while(i < 5)
+  stack.push(i++);
+
+while(stack.length) {
+  stack.pop();
+}
+```
+
+A List in Python can also perform stack functionality in an application. Instead of **push**, one can use the **append** method.
+```python
+stack = []
+
+for i in range(5):
+    stack.append(i)
+
+while len(stack):
+    stack.pop()
+```
+
 #### Applications
 
 * Turn recursion into loop.
