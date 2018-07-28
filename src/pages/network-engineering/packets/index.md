@@ -4,6 +4,10 @@ title: Packets
 ## Packets
 
 A packet is a basic unit of communication over a digital network. A packet is also called a **datagram, a segment, a block, a cell or a frame,** depending on the protocol used for the transmission of data. When data has to be transmitted, it is broken down into similar structures of data before transmission, called packets, which are reassembled to the original data chunk once they reach their destination.
+
+Packet switched networks are generally more efficient compared to circuit switched networks. Circuit switched network needs to reserve resources for the duration of communication. Packet switched networks can send packets on demand.
+
+In the OSI model, packets correspond to layer 3, the Network Layer.
   
 ## Structure of a Data Packet
   The structure of a packet depends on the type of packet it is and on the protocol. Read further below on packets and protocols. Normally, a packet has a header and a payload.

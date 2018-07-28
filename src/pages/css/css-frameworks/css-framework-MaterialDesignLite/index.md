@@ -1,7 +1,7 @@
 ---
 title: CSS Framework Material Design Lite
 ---
-# CSS Framework UIKit
+# CSS Framework Material Design Lite
 
 Material Design Lite lets you add a Material Design look and feel to your websites. It aims to optimize for cross-device use.
 
