@@ -3,8 +3,11 @@ title: Declare String Variables
 ---
 ## Declare String Variables
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-javascript/declare-string-variables/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+In JavaScript, variables are <strong>dynamic</strong>. That means they can hold numbers, strings, or any other data type at a given time. To declare a string, simply <strong>initialize</strong> (create) a variable:
+
+    var a;
+    
+Then, using single or double quotation marks, declare the string:
+
+    a = "Hello Camper!";
