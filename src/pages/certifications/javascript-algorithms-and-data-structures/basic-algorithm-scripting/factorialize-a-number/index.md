@@ -39,7 +39,7 @@ The first **returned** value can be visualized better if you think about those p
 
 ### During the first execution of the function:
 
-<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/wink.png?v=3 ":wink:"' target='_blank' rel='nofollow'>**num** = 5]
+[**num** = 5]
 
 Is 5 _equal_ to 1 or 0? **No** ---> Oki doki, let's continue...
 
@@ -67,13 +67,13 @@ What it returns can be viewed as `(5*(4*(3*(2*1))))` or just `5 * 4 * 3 * 2 * 1`
 
 --> return **1**. And this is where the recursion stops because there are no more executions.
 
-Got it? ![:wink:</a>
+Got it? ![:wink:](https://forum.freecodecamp.com/images/emoji/emoji_one/wink.png?v=3 ":wink:")
 
 > _try to solve the problem now_
 
 #### Relevant Links
 
-*   <a>JS Functions</a>
+*   <a href='https://www.youtube.com/watch?v=R8SjM4DKK80' target='_blank' rel='nofollow'>JS Functions</a>
 *   <a href='https://www.youtube.com/watch?v=k7-N8R0-KY4' target='_blank' rel='nofollow'>Recursion in JS</a>
 
 ## Spoiler Alert!

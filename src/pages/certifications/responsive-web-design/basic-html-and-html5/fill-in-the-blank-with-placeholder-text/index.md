@@ -3,8 +3,6 @@ title: Fill in the Blank with Placeholder Text
 ---
 ## Fill in the Blank with Placeholder Text
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/responsive-web-design/basic-html-and-html5/fill-in-the-blank-with-placeholder-text/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+You are asked to replace the text you see into the paragraph (the `p` element) with the text provided by the challenge introduction (when you read about <em>few words</em> it means at least 2, at most all); if, by chance, you have removed or modified some of the code other than the paragraph text you can click on `reset all code` button to restart with a clean code.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Good luck!

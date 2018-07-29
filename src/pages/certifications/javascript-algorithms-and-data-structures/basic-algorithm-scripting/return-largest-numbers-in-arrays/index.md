@@ -15,11 +15,12 @@ You will need to keep track of the array with the answer and the largest number 
 
 ## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 2
 
-You can work with multidimensional arrays by `Array<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:"' target='_blank' rel='nofollow'>Index][SubIndex]`
+You can work with multidimensional arrays by `Array[Index][SubIndex]`
 
 > _try to solve the problem now_
 
-## ![:speech_balloon:</a> Hint: 3
+## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 3
+
 
 Pay close attention to the timing of the storing of variables when working with loops
 
@@ -36,7 +37,7 @@ Pay close attention to the timing of the storing of variables when working with 
 **(Procedural approach)**
 
     function largestOfFour(arr) {
-      var results = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>];
+      var results = [];
       for (var n = 0; n < arr.length; n++) {
         var largestNumber = arr[n][0];
         for (var sb = 1; sb < arr[n].length; sb++) {
@@ -115,7 +116,7 @@ So we want to create a function that does the work of `Math.max` and accepts inp
 
 In other words, it would be really nice and simple if this worked by itself:
 
-`Math.max(<a href='http://forum.freecodecamp.com/t/javascript-math-max/14682' target='_blank' rel='nofollow'>9, 43, 20, 6]); // Resulting in 43`
+`Math.max([9, 43, 20, 6]); // Resulting in 43`
 
 Alas, it doesn't.
 
@@ -136,7 +137,7 @@ Here we're passing `null` as the _context_ of the `Function.prototype.apply` met
 
 #### Relevant Links
 
-*   [Math.max</a>
+*   <a href ='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/max' target='_blank' rel='nofollow'> Math.max</a>
 *   <a href='http://devdocs.io/#q=js+Function+apply' target='_blank' rel='nofollow'>Function.prototype.apply on DevDocs</a>
 *   <a href='http://devdocs.io/#q=js+Function+bind' target='_blank' rel='nofollow'>Function.bind on DevDocs</a>
 

@@ -45,7 +45,7 @@ The `Array.prototype.split` and `Array.prototype.join` methods can be of use her
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
 ```javascript
     function palindrome(str) {
-      return str.replace(/<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>\W_]/g, '').toLowerCase() ===
+      return str.replace(/[\W_]/g, '').toLowerCase() ===
              str.replace(/[\W_]/g, '').toLowerCase().split('').reverse().join('');
     }
 ```
@@ -70,7 +70,7 @@ The `Array.prototype.split` and `Array.prototype.join` methods can be of use her
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution:
 ```javascript
     function palindrome(str) {
-      str = str.toLowerCase().replace(/<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>\W_]/g, '');
+      str = str.toLowerCase().replace(/[\W_]/g, '');
       for(var i = 0, len = str.length - 1; i < len/2; i++) {
         if(str[i] !== str[len-i]) {
           return false;
@@ -87,7 +87,7 @@ The `Array.prototype.split` and `Array.prototype.join` methods can be of use her
 
 *   Next we set up our `for` loop and declare an index `i` to keep track of the loop. We set our escape sequence to when `i` is greater than the length of the string divided by two, which tells the loop to stop after the halfway point of the string. And finally we set `i` to increment after every loop.
 
-*   Inside of each loop we want to check that the letter in element `<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:"' target='_blank' rel='nofollow'>i]` is equal to the letter in the length of the string minus i, `[str.length - i]`. Each loop, the element that is checked on both sides of the string moves closer to the center until we have checked all of the letters. If at any point the letters do not match, we return `false`. If the loop completes successfully, it means we have a palindrome and therefore we return `true`!
+*   Inside of each loop we want to check that the letter in element `[i]` is equal to the letter in the length of the string minus i, `[str.length - i]`. Each loop, the element that is checked on both sides of the string moves closer to the center until we have checked all of the letters. If at any point the letters do not match, we return `false`. If the loop completes successfully, it means we have a palindrome and therefore we return `true`!
 
 #### Relevant Links
 

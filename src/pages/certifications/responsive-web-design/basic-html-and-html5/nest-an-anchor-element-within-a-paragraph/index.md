@@ -3,8 +3,16 @@ title: Nest an Anchor Element within a Paragraph
 ---
 ## Nest an Anchor Element within a Paragraph
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/responsive-web-design/basic-html-and-html5/nest-an-anchor-element-within-a-paragraph/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Read the instruction carefully: even if this is a challenge about the `a` tag it does not necessarily means that you should manipulate it! <br/>
+The challenge introduction speaks about the existing `a` element and it asks you to write the paragraph into which it will be nested: in other words you just need to write the `p` HTML element, where the content is composed by some text - "View more " (double check the capitalization and the final space) - and the `a` HTML element already present in the page.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+You can visualize the final structure of your `p` element as follows:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+  desc | code
+ ------- | ---------
+  Opening tag | `<p>` 
+  Some text content | `View more `
+  The existing `a` element | `<a>...</a>`
+  Closing tag | `</p>`
+
+

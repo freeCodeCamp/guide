@@ -62,7 +62,7 @@ To access the value of a key in this object, you will use `collection[id][prop]`
 
     function updateRecords(id, prop, value) {
       if (prop === "tracks" && value !== "") {
-       if(collection<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>id][prop]) {
+       if(collection[id][prop]) {
         collection[id][prop].push(value);
        }
        else {

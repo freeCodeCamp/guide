@@ -13,6 +13,7 @@ The standard agenda for the retrospective is:
 * What do we keep doing?
 * What do we stop doing?
 * What do we start doing?
+* Who do we want to say thank you to? (Not necessary but good practice)
 
 And from this discussion, the team creates a list of behaviors that they work on, collectively, over time. 
 

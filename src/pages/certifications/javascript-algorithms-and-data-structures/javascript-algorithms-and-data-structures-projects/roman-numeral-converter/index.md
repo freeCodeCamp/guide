@@ -42,7 +42,7 @@ You can't have more than three consecutive Roman numerals together.
 
     var convertToRoman = function(num) {
 
-      var decimalValue = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'> 1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1 ];
+      var decimalValue = [ 1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1 ];
       var romanNumeral = [ 'M', 'CM', 'D', 'CD', 'C', 'XC', 'L', 'XL', 'X', 'IX', 'V', 'IV', 'I' ];
 
       var romanized = '';
@@ -77,7 +77,7 @@ You can't have more than three consecutive Roman numerals together.
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution:
 
     function convertToRoman(num) {
-     var romans = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>"I", "V", "X", "L", "C", "D", "M"],
+     var romans = ["I", "V", "X", "L", "C", "D", "M"],
          ints = [],
          romanNumber = [],
          numeral = "";
@@ -131,20 +131,20 @@ You can't have more than three consecutive Roman numerals together.
 
 *   Create an array of Roman Numerals (`romans`).
 *   Use a for loop to create an array of the digits (`ints`) in the number.
-*   Loop through the array of digits (base 10) and as you do, increment the Roman Numeral (base 5) index by 2 (`numeral = romans<a href='http://forum.freecodecamp.com/t/javascript-for-loop/14666' target='_blank' rel='nofollow'>i*2]`).
+*   Loop through the array of digits (base 10) and as you do, increment the Roman Numeral (base 5) index by 2 (`numeral = romans[i*2]`).
 *   Within the loop, use Switch Case to push the proper Roman Numerals (backwards) onto that array.
 *   Reverse the Roman Numerals array and turn it into a string.
 
 #### Relevant Links
 
-*   [For Loops</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-for-loop/14666' target='_blank' rel='nofollow'>For Loops</a>
 *   <a>While Loops</a>
 *   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math' target='_blank' rel='nofollow'>Math</a>
 
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution:
 
     function convertToRoman(num) {
-      var romans = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>
+      var romans = 
       // 10^i 10^i*5
         ["I", "V"], // 10^0
         ["X", "L"], // 10^1

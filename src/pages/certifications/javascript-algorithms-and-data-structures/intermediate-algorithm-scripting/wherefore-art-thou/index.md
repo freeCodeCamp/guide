@@ -48,7 +48,7 @@ Check equivalence of `Object` in `collection` with `Object` passed as second par
       // filter the collection
       return collection.filter(function (obj) {
         for(var i = 0; i < srcKeys.length; i++) {
-          if(!obj.hasOwnProperty(srcKeys<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>i]) || obj[srcKeys[i]] !== source[srcKeys[i]]) {
+          if(!obj.hasOwnProperty(srcKeys[i]) || obj[srcKeys[i]] !== source[srcKeys[i]]) {
             return false;
           }
         }
@@ -84,7 +84,7 @@ Check equivalence of `Object` in `collection` with `Object` passed as second par
 
       return collection.filter(function (obj) {
         return srcKeys.every(function (key) {
-          return obj.hasOwnProperty(key) && obj<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>key] === source[key];
+          return obj.hasOwnProperty(key) && obj[key] === source[key];
         });
       });
     }
@@ -118,7 +118,7 @@ Check equivalence of `Object` in `collection` with `Object` passed as second par
       return collection.filter(function (obj) {
         return srcKeys
           .map(function(key) {
-            return obj.hasOwnProperty(key) && obj<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>key] === source[key];
+            return obj.hasOwnProperty(key) && obj[key] === source[key];
           })
           .reduce(function(a, b) {
             return a && b;
