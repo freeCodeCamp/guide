@@ -8,4 +8,4 @@ The '+=' operator can concatenate (link) strings easily. Make sure your spelling
 
     var str = "Hello ";
     str += "coding"; // It is "Hello coding"
-    str += "camper!"; // It is "Hello codingcamper"
+    str += "camper!"; // It is "Hello codingcamper!"
