@@ -3,8 +3,9 @@ title: Appending Variables to Strings
 ---
 ## Appending Variables to Strings
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-javascript/appending-variables-to-strings/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Make sure your spelling and spacing are correct. Appending strings (stored inside variables) can be done like so:
+
+    var adj = "happy!";
+    var sent = "Today, I woke up being ";
+    sent += adj; // The result is "Today, I woke up being happy!"
