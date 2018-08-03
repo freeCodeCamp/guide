@@ -1,10 +1,31 @@
 ---
-title: Create Strings using Template Literals
+title: Create Strings Using Template Literals
 ---
-## Create Strings using Template Literals
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/es6/create-strings-using-template-literals/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+![:triangular_flag_on_post:](https://forum.freecodecamp.com/images/emoji/emoji_one/triangular_flag_on_post.png?v=3 ":triangular_flag_on_post:") Remember to use <a>**`Read-Search-Ask`**</a> if you get stuck. Try to pair program and write your own code.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Problem Explanation:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+It's required to use template literals to return a list as every element in the array as the element will be wrapped in a `<li></li>` tag.
+
+## Hint: 1
+
+*   Use `map()` function to apply the template literals on all of the `arr` elements 
+
+> _try to solve the problem now_
+
+## Hint: 2
+
+*   Inside the `map()` use an arrow function which has `element` as a parameter and returns `<li></li>` that has the text-warning class and containing the `element` inside it
+
+> _try to solve the problem now_
+
+## Spoiler Alert!
+
+![warning sign](//discourse-user-assets.s3.amazonaws.com/original/2X/2/2d6c412a50797771301e7ceabd554cef4edcd74d.gif)
+
+**Solution ahead!**
+
+```const resultDisplayArray = arr.map(item => `<li class="text-warning">${item}</li>`);```
+
+
