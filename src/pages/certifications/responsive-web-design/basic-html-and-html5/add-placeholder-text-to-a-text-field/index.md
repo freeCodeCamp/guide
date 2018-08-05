@@ -3,8 +3,10 @@ title: Add Placeholder Text to a Text Field
 ---
 ## Add Placeholder Text to a Text Field
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/responsive-web-design/basic-html-and-html5/add-placeholder-text-to-a-text-field/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+`placeholder` is an attribute, not a tag. It can be used together with the attribute `text` of the `input` tag to create a text to visualize when the input box is empty. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+If you're stuck check for these issues:
+ - you should add the `placeholder` attribute to the `input` tag already present in the code without removing anything; if by accident you removed or modified something remember that you can restart with a clean code by clicking `reset all code` button
+ - the syntax is the same of every attribute: `<tag attributeName="attributeValue" >` and the value to insert is indicated by the challenge's instructions (check for typos).
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Good luck!

@@ -122,7 +122,9 @@ It is usually performed by the users or the Subject Matter Experts. It is also c
 
 A good way of defining which acceptance tests should be written is to add acceptance criteria to a user story. With acceptance criteria, you can define when a user story is ready to deploy and the issue completed to your wishes.
 
-#### More Information
+In an Agile project it is important for the team to have acceptance criteria defined for all user stories. The Acceptance Testing work will use the defined criteria for evaluating the delivered functionality. When a story can pass all acceptance criteria it is complete. 
 
-* [International Software Testing Qualifications Board](http://www.istqb.org/)
+#### More Information:
+ <!-- Please add any articles you think might be helpful to read before writing the article -->
+- International Software Testing Qualifications Board (http://www.istqb.org/)
 

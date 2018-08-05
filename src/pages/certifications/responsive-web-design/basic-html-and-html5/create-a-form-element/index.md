@@ -1,10 +1,13 @@
 ---
 title: Create a Form Element
 ---
-## Create a Form Element
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/responsive-web-design/basic-html-and-html5/create-a-form-element/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+A `<form>` is an element used to gather infomation directly from the user's input. When you use this HTML element you are identifying a section used to collect the user choices.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Inside this HTML element, you might insert a few `input` tags, used to collect data in different ways based on the `type` attribute.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+All of this data will be sent to the page specified in the `action` attribute of the form. This is simply a relative path that indicates the page that expects to receive this data.
+
+In this challenge, you already have an `input` element. All you need to do is wrap a `form` tag around it. Do not forget the `action` attribute. Use the value indicated by the challenge (doublecheck the syntax).
+
+Good luck!
