@@ -7,13 +7,13 @@ The `hr` tag is one of the simplest HTML elements. It creates a thin horizontal 
 
 This lesson uses the `hr` tag to separate the title and content of a "card". So how do you create an `hr` element?
 
-```
+```html
 <!-- It's this easy -->
 <hr>
 ```
 
 This element is self-closing, but to be friendly to parsers and style checkers you should add an explicit closing marker.
-```
+```html
 <hr />
 ```
 
