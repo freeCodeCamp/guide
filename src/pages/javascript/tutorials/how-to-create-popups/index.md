@@ -13,7 +13,7 @@ We will construct the popup using ```HTML``` , ```CSS``` and ```JavaScript```
 
 The HTML provides the structure for the popup
 
-``` 
+```html 
 <!-- div class="container" will contain the button that will open the popup when I click on it, and the popup window that will appear -->
 <div class="container">
   <button id="Btn">Open The PopUp</button>
@@ -28,7 +28,7 @@ The HTML provides the structure for the popup
 We will choose our own style for the popup window. Notice: the popup div should be hidden at first, so in the style I will select display: none; 
 
 
-``` 
+```css 
 .popup_main_div{
     position: fixed;
     width: 800px;
@@ -78,10 +78,9 @@ We will choose our own style for the popup window. Notice: the popup div should 
 
 
 
-```
-
-//First of all I will initialize my variables 
-//Select the elements that we will use from the DOM
+```js
+// First of all I will initialize my variables 
+// Select the elements that we will use from the DOM
 // I wiil add en event in the button which will trigger a function that will change the popup's display style from none to block
 
   const Btn=document.getElementById("Btn")
