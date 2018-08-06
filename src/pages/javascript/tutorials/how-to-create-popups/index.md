@@ -9,7 +9,7 @@ In this example , the popup will appear when you click on a button and will stay
 
 We will construct the popup using ```HTML``` , ```CSS``` and ```JavaScript```
 
-**Step 1 HTML**
+### Step 1 HTML
 
 The HTML provides the structure for the popup
 
@@ -24,7 +24,7 @@ The HTML provides the structure for the popup
 </div>
 ```
 
-**Step 2 CSS**
+### Step 2 CSS
 We will choose our own style for the popup window. Notice: the popup div should be hidden at first, so in the style I will select display: none; 
 
 
@@ -74,7 +74,7 @@ We will choose our own style for the popup window. Notice: the popup div should 
 ```
 
 
-**Step 3 JavaScript**
+### Step 3 JavaScript
 
 
 
