@@ -5,7 +5,7 @@ title: Background
 The background property lets you use images and colors to create backgrounds for your web pages.
 
 ### Background Color
-The background color property lets you choose the color of your element. This can be the background for the entire page or the background of one section of your page.
+The background color property allows you to choose the color of your element. This can be the background for the entire page or the background of one section of your page.
 * An element is a piece of HTML such as a header or paragraph on a web page.
 
 Here is an example of setting the background color for a web page to green.
@@ -106,6 +106,13 @@ body {
 ```
 
 ![fixed](https://user-images.githubusercontent.com/26467304/31039859-39612c92-a54f-11e7-93ca-9d7bcb938225.PNG)
+
+### Background Gradients
+A gradient is a transition between two or more colors and can be used via CSS similar to a background image.  
+
+The syntax of a gradient background can be quite complex and is often still used with vendor prefixes due to inconsistencies between supported browsers.
+
+The <a href='http://www.colorzilla.com/gradient-editor/' target="_blank" rel='nofollow'>Colorzilla Gradient Editor</a> is a great online tool for generating custom gradients and the associated css markup.
 
 ### Background – The Shorthand Property
 You can write the background properties on a single line. This is called the shorthand property.

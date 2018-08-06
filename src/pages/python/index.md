@@ -18,7 +18,7 @@ To know more about Python, you might want to check <a href='https://www.python.o
 
 ## Installation
 
-Most *nix based operating systems come with Python installed (usually Python 2). Replacing the system Python is not recommended and may cause problems. However, different versions of Python can be safely installed along side the system Python. See <a href='https://docs.python.org/3/using/index.html' target='_blank' rel='nofollow'>Python Setup and Usage</a>
+Most *nix based operating systems come with Python installed (usually Python 2). Replacing the system Python is not recommended and may cause problems. However, different versions of Python can be safely installed alongside the system Python. See <a href='https://docs.python.org/3/using/index.html' target='_blank' rel='nofollow'>Python Setup and Usage</a>.
 
 Windows doesn't come with Python, the installer and instructions can be found <a href='https://docs.python.org/3/using/windows.html' target='_blank' rel='nofollow'>here</a>
 
@@ -30,8 +30,9 @@ If it is available and in Unix shell’s search path makes it possible to start 
 
 `hello_campers.py`
 
-    if __name__ == '__main__'
-        print('Hello campers!')
+```python
+print('Hello campers!')
+```
 
 From terminal:
 
@@ -46,6 +47,8 @@ From terminal:
     Python 3.4.3
     $ python3.5 --version
     Python 3.5.1
+    $ python3.6 --version
+    Python 3.6.2 
 
 ## Python Interpreter Interactive Mode
 
@@ -66,7 +69,7 @@ Interactive mode has a prompt where Python commands can be entered and run:
 
 ## The Zen of Python
 
-Some of the principles that influenced the design of Python are included as an easter egg and can be read by using the command inside Python interpreter interactive mode:
+Some of the principles that influenced the design of Python are included as an Easter egg and can be read by using the command inside Python interpreter interactive mode:
 
     >>> import this
     The Zen of Python, by Tim Peters
@@ -142,7 +145,7 @@ The argument that we called the `print` function with is a `str` object or _stri
 
 The `objects` parameter is prefixed with a `*` which indicates that the function will take an arbitrary number of arguments for that parameter.
 
-## What to learn more?
+## Want to learn more?
 
 Free Code Camp has some great resources. The web is a big place, there's plenty more to explore:
 * Python Practice Book: http://anandology.com/python-practice-book/index.html
@@ -152,4 +155,6 @@ Free Code Camp has some great resources. The web is a big place, there's plenty 
 * General: https://www.fullstackpython.com/
 * Learn the Basics: https://www.codecademy.com/learn/learn-python
 * Computer science using Python: https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-11?ref=hackernoon#!
+* List of more resources for learning python: https://github.com/vinta/awesome-python
+* Interactive Python: http://interactivepython.org/runestone/static/thinkcspy/index.html
 * Developer's Guide to Python: https://devguide.python.org/

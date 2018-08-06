@@ -21,3 +21,7 @@ When the user presses the button to finish his order
 Then the blue shirt must be deducted from the stock
 And the money added to the store's bank
 ```
+
+## More Information
+
+* A well-known Behavior Driven Development (BDD) framework is [Cucumber](https://cucumber.io/). Cucumber supports many programming languages and can be integrated with a number of frameworks; for example, [Ruby on Rails](http://rubyonrails.org/), [Spring Framework](http://spring.io/) and [Selenium](http://www.seleniumhq.org/)
