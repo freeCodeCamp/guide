@@ -11,4 +11,4 @@ Access the position of the array, and change it, like so:
     arr[0] = 6; // Now, the array is [6, 2, 3, 4, 5]
     arr[4] = 10 // Now, the array is [6, 2, 3, 4, 10]
 
-The important concept here is that arrays are *mutable*. This means that they can be changed easily.
+The important concept here is that arrays are <strong>mutable</strong>. This means that they can be changed easily.
