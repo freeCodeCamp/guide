@@ -3,7 +3,6 @@ title: Set Default Parameters for Your Functions
 ---
 ## Set Default Parameters for Your Functions
 
-*solution by @RyanPisuena*
 
 :triangular_flag_on_post: Remember to use Read-Search-Ask if you get stuck. Try to pair program  :busts_in_silhouette: and write your own code :pencil: 
 
