@@ -1,7 +1,7 @@
 ---
 title: Learn About Jsonp
 ---
-### JSONP
+## JSONP
 JSONP stands for "JSON with padding". Let's say you want to make AJAX requests to a different domain. Well, you can't do this with XMLHttpRequest, as you normally would, but you CAN do this with script tags, as seen [on StackOverflow](https://stackoverflow.com/questions/2067472/what-is-jsonp-all-about):
 
 ```javascript
@@ -18,7 +18,7 @@ script.src = 'http://www.someWebApiServer.com/some-data?callback=my_callback';
 This triggers an automatic callback after the data has loaded, creating a function with the data desired inside of it. 
 
 
-#### More Information:
+### More Information:
 *   <a href='https://en.wikipedia.org/wiki/JSONP' target='_blank' rel='nofollow'>Wikipidea/JSONP</a>
 *   <a href='https://learn.jquery.com/ajax/working-with-jsonp' target='_blank' rel='nofollow'>JSONP and JQuery</a>
 *   <a href='http://api.jquery.com/jquery.getjson/#jsonp' target='_blank' rel='nofollow'>More JSONP with JQuery</a>
