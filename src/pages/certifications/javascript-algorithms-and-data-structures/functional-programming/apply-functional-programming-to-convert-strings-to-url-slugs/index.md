@@ -2,7 +2,7 @@
 title: Apply Functional Programming to Convert Strings to URL Slugs
 ---
 ## Apply Functional Programming to Convert Strings to URL Slugs
-
+```
 // the global variable
 var globalTitle = "Winter Is Coming";
 
@@ -16,3 +16,4 @@ return title.split(/\W/).filter((obj)=>{
 // Add your code above this line
 
 var winterComing = urlSlug(globalTitle); // Should be "winter-is-coming"
+```
