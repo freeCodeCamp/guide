@@ -14,4 +14,12 @@ Reinforcement Learning refers to a field of Machine Learning that applies to age
 Example:
 A bot is given a task to play Space Invaders, it tries to learn to play it by interacting with game and in return getting a reward for the points that it scored at end of the game. Greater the reward, greater are its chances of doing the similar gameplay. In that way, it learns how to play the game and perform in the best possible way.
 
+In industries robot uses deep reinforcement learning to pick a device from one box and putting it in a container. Whether it succeeds or fails, it memorizes the object and gains knowledge and train’s itself to do this job with great speed and precision. Learning on its own is a kind of reinforcement learning provided the learning is in positive dimension.
+
+Q-Learning in Tower of Hanoi
+
+Lapyl Github
+
+include some hand-solved examples of reinforcement learning.
 In industries robot uses deep reinforcement learning to pick a device from one box and putting it in a container. Whether it succeeds or fails, it memorizes the object and gains knowledge and trains itself to do this job with great speed and precision. Learning on its own is a kind of reinforcement learning provided the learning is in positive dimension.
+
