@@ -2,7 +2,8 @@
 title: Apply Functional Programming to Convert Strings to URL Slugs
 ---
 ## Apply Functional Programming to Convert Strings to URL Slugs
-```
+
+```javascript
 // the global variable
 var globalTitle = "Winter Is Coming";
 
