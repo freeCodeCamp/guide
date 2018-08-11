@@ -4,38 +4,45 @@ title: Abstract Classes in Java
 
 Lets discuss abstract classes. Before diving into this tutorial it is better that you have understood concepts of classes
 and inheritance.
-Let's suppose that you are building a java application and you have a parent class named Person and you have two child classes
-Teacher and Student. The teacher and student class is inherited by the Person class. 
+
+Abstract classes are classes that can be subclassed (i.e. extended) but cannot be instantiated. You can think of them as a **class version** of interfaces. 
+
+Consider the following example to understand abstract classes:
+You have a class Vehicle which defines certain basic functionality (methods) and certain components (object variables) that a machinery should have, to be classified as a vehicle. You cannot create an object of Vehicle because a vehicle in itself is an abstract concept. You can however extend the functionality of the vehicle class to create a Car or a Bike.
+
 ``` java
-public class Person
+abstract class Vehicle
 {
+  //variable that is used to declare the no. of wheels in a vehicle
+  private int wheels;
+  
+  //Variable to define the type of motor used
+  private Motor motor;
+  
+  //an abstract method that only declares, but does not define the start 
+  //functionality because each vehicle uses a different starting mechanism
+  abstract void start();
 }
 
-public class Teacher extends Person
+public class Car extends Vehicle
 {
   ...
 }
 
-public class Student extends Person
+public class Bike extends Vehicle
 {
   ...
 }
 ```
-In this application only Teacher and Student objects can be created and you don't want anyone to create an object of class
-Person. In this situation you make the Person class as abstract class.
-Its syntax is as follows
-``` java
-abstract public class Person
-```
-Now, you cannot create a person object anywhere in the program. Only childs of Person i.e Teacher and Student objects can be
-created.
+
+You cannot create an object of Vehicle class anywhere in your program. You can however, extend the abstract vehicle class and create objects of the child classes;
 
 ``` java
-Person p = new Person();    // It will give error
-Person p1 = new Student();  // valid
-Person p2 = new Teacher();  // valid
+Vehicle newVehicle = new Vehicle();    // Invalid
+Vehicle car = new Car();  // valid
+Vehicle bike = new Bike();  // valid
 
-Teacher t1 = new Teacher();  // valid
-Student s1 = new Student();  // valid
+Car carObj = new Car();  // valid
+Bike bikeObj = new Bike();  // valid
 ```
-There are also some more concepts related to abstract classes which will be discussed later.
+
