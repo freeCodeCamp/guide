@@ -56,7 +56,7 @@ The function `nextInLine` uses **arr** and **item**. Those are what the tests wi
 
 ### Code Explanation:
 
-*   Pushe **item** at the end of **arr**.
+*   Push **item** at the end of **arr**.
 *   Call the `shift()` method on **arr** to get the first item and store it in **removed**.
 *   Return **removed**.
 
