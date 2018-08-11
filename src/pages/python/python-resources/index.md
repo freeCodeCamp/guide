@@ -28,6 +28,8 @@ title: Python Resources
 *   <a href='http://www.tangowithdjango.com/' target='_blank' rel='nofollow'>Tango with Django</a>
 *   <a href='http://tutorial.djangogirls.org/en/' target='_blank' rel='nofollow'>Django Girls' Tutorial</a> - Build a blog
 *   <a href='http://www.marinamele.com/taskbuster-django-tutorial' target='_blank' rel='nofollow'>TaskBuster Django Tutorial</a> - Build a Django project from scratch
+*   <a href='http://www.tutorialspoint.com/python/'>Tutorials Point - Python</a>
+*   <a href='https://pythonprogramming.net' target='_blank' rel='nofollow'> Set of Starter Projects with Videos </a> - From the basics onward.
 
 ## Challenges
 
@@ -40,6 +42,8 @@ title: Python Resources
 *   <a href='https://github.com/mshang/python-elevator-challenge' target='_blank' rel='nofollow'>Python Elevator Challenge</a>
 *   <a href='https://coderbyte.com/' target='_blank' rel='nofollow'>CoderByte Challenges</a>
 *   <a href='https://checkio.org' target='_blank' rel='nofollow'>CheckiO</a> - the game for coders
+*   <a href='http://www.codeabbey.com/' target='_blank' rel='nofollow'>CodeAbbey</a> 
+*   <a href='https://hackerrank.com/domains/python/py-introduction'>HackerRank - Python Challenges</a>
 
 ## Community
 
@@ -50,6 +54,6 @@ title: Python Resources
 *   <a href='http://www.pyladies.com/' target='_blank' rel='nofollow'>PyLadies</a>
 *   <a href='https://djangogirls.org/' target='_blank' rel='nofollow'>DjangoGirls</a>
 
-Tools:
+## Tools:
 
 *   <a href='https://www.jetbrains.com/pycharm-edu/' target='_blank' rel='nofollow'>PyCharm Edu</a> - a free educational version of PyCharm that comes with tutorials to teach you Python and the ability to download more.
