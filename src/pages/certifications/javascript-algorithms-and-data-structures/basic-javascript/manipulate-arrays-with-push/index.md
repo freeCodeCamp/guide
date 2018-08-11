@@ -3,8 +3,10 @@ title: Manipulate Arrays With push()
 ---
 ## Manipulate Arrays With push()
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-javascript/manipulate-arrays-with-push/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+The `push()` method allows you to append (add to the end) an element to an array. Like so...
+
+```javascript
+var arr = [1, 2, 3, 4];
+arr.push(5); // Now, the array is [1, 2, 3, 4, 5]
+```
