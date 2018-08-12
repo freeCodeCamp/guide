@@ -10,9 +10,9 @@ Static webpages are fairly simple with express. This could be useful for buildin
 To serve a static webpage from the "views" folder you can use code such as:
 
 ```javascript
- const express = require('express');
+ const express = require("express");
  const app = express();
- app.use(express.static(__dirname + '/views'));
+ app.use(express.static(__dirname + "/views"));
 ```
 
 
