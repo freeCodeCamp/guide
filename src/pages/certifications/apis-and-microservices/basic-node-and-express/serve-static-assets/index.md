@@ -5,10 +5,14 @@ title: Serve Static Assets
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
-To serve a static webpage from the "public" folder you can use code such as:
+Static webpages are fairly simple with express. This could be useful for building your own portfolio website or blog, etc.
+
+To serve a static webpage from the "views" folder you can use code such as:
 
 ```javascript
- app.use("", express.static(__dirname + '/public'));
+ const express = require('express');
+ const app = express();
+ app.use(express.static(__dirname + '/views'));
 ```
 
 
