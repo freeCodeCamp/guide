@@ -1,10 +1,9 @@
----
-title: Add a Submit Button to a Form
----
-## Add a Submit Button to a Form
+To add a 'Submit' button to a form you use the <input> elements of type "submit" to create the button:
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/responsive-web-design/basic-html-and-html5/add-a-submit-button-to-a-form/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+<input type="submit">
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+If you do not specify a value, the button will have a default value choosen by your user agent (generally this is something like "Submit" or "Submit Query").
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+If you wish to specify a value(eg. "Send Request"):
+
+<input type="submit" value="Send Request">
