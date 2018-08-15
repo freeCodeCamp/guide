@@ -1,15 +1,10 @@
 ---
 title: Convolutional Neural Networks
 ---
-## Convolutional Neural Networks (CNN)
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/machine-learning/neural-networks/convolutional-neural-networks/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Convolutional Neural Networks (ConvNets or CNNs) are a category of Neural Networks that have proven very effective in areas such as image recognition and classification. ConvNets have been successful in identifying faces, objects and traffic signs apart from powering vision in robots and self driving cars.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+### Suggested links :
+ - Stanford CS231n [Lecture 5 Convolutional Neural Networks](https://www.youtube.com/watch?v=bNb2fEVKeEo)
+ - Stanford CS231n [Lecture 9 CNN Architectures](https://www.youtube.com/watch?v=DAOcjicFr1Y&t=2384s)
+ - Udacity Deep learning : [Convolutional netwoks](https://www.youtube.com/watch?v=jajksuQW4mc)
