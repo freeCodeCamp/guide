@@ -7,19 +7,20 @@ If you have many options to choose from, use a `switch` statement. A `switch` st
 
 Here is a pseudocode example:
 
-````switch(num) {
-  case value1:
-    statement1;
-    break;
-  case value2:
-    statement2;
-    break;
-...
-  case valueN:
-    statementN;
-    break;
-}
-````
+```js
+  switch(num) {
+    case value1:
+      statement1;
+      break;
+    case value2:
+      statement2;
+      break;
+    ...
+    case valueN:
+      statementN;
+      break;
+  }
+```
 
 ### A bit more explanation
 A switch statement first evaluates its expression. It then looks for the first `case` clause whose expression evaluates to the same value as the result of the input expression (using the [strict comparison](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators), (`===`) and transfers control to that clause, executing the associated statements. (If multiple cases match the provided value, the first case that matches is selected, even if the cases are not equal to each other.)
@@ -31,7 +32,7 @@ The optional `break` statement associated with each case label ensures that the 
 
 ### Problem Explanation: 
 Write a switch statement which tests `val` and sets `answer` for the following conditions:
-- `1`- "alpha",
+- `1` - "alpha",
 - `2` - "beta",
 - `3` - "gamma",
 - `4` - "delta".
@@ -45,26 +46,27 @@ Do not see "following conditions" as an ordered list as it looks in the original
 #### Try to solve the problem now!
 
 # Spoiler Alert!
-### Are you completely shure what you want a look? ...
+### Are you completely sure what you want a look? ...
 
 # Basic Code Solution
 
-````function caseInSwitch(val) {
+```js
+function caseInSwitch(val) {
   var answer = "";
   // Only change code below this line
   switch(val) {
     case 1:
-    return "alpha";
-    break;
+      return "alpha";
+      break;
     case 2:
-    return "beta";
-    break;
+      return "beta";
+      break;
     case 3:
-    return "gamma";
-    break;
+      return "gamma";
+      break;
     case 4:
-    return "delta";
-    break;
+      return "delta";
+      break;
   }
 
   // Only change code above this line  
@@ -73,7 +75,7 @@ Do not see "following conditions" as an ordered list as it looks in the original
 
 // Change this value to test
 caseInSwitch(1);
-````
+```
 ## Code Explanation
 It is common to ignore that `case` values are tested with strict equality with any need of other expression, like so:
 `case === value`
