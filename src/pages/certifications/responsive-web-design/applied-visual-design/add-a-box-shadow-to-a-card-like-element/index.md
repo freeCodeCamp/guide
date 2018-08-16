@@ -3,6 +3,8 @@ title: Add a box-shadow to a Card-like Element
 ---
 ## Add a box-shadow to a Card-like Element
 
+These notes are for beginners to get a quick look on the basic usage.
+
 ### Syntax
 
 ```css
@@ -19,15 +21,15 @@ box-shadow: [horizontal offset] [vertical offset] [blur radius] [optional spread
 
 3. The **blur** radius (required)
 	- setting to 0 will be sharp
-	- the higher the number, the more blurred it will be, and the further out the shadow will extend.
+	- the higher the number, the more blurred
 
 4. The **spread** radius (optional)
    - positive value: increase the size of the shadow
-   - negative value: decrease the size
-   - 0: the shadow is same size as blur
+   - negative value: decrease the size of the shadow
+   - setting to 0: the shadow is same size as blur
 
 5. Color (required)
-   - any color value, like hex, named, rgba or hsla. 
+   - hex, named, rgba or hsla
 
 ### One Side
 
