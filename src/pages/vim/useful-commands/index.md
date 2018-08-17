@@ -51,6 +51,14 @@ To move between windows you can use the following commands:
 - `CTRL-W t` - move to the top window
 - `CTRL-W b` - move to the bottom window
 
+## Undo/Redo
+
+These actions should be performed in __Normal Mode__.
+
+__Undo__: Press `u` or type in `:undo` and press `Enter`.
+
+__Redo__: Press `U` (`Shift` + `u`) or type in `:redo` and press `Enter`.
+
 ## Bare minimum functionality
 
 Most likely you'll find yourself in "normal" mode, it allows you to enter commands by pressing the colon `:` key.
