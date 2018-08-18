@@ -39,6 +39,7 @@
     "react-freecodecamp-search": "^2.0.1",
     "react-helmet": "^5.2.0",
     "react-media": "^1.8.0",
+    "readdirp-walk": "^1.6.0",
     "redux-actions": "^2.2.1",
     "redux-create-types": "0.0.1",
     "redux-epic": "^0.3.0",
@@ -65,10 +66,11 @@
     "build": "node --max_old_space_size=7168 node_modules/gatsby-cli build",
     "dev": "gatsby develop",
     "develop": "gatsby develop",
+    "ensure-page-naming": "node ./bin/ensure-page-naming.js",
     "lint": "eslint --ext .js,.jsx --ignore-path .gitignore . --fix",
     "format": "prettier --single-quote --semi es5 --write '?(src|plugins)/**/*.js' && npm run lint",
     "pre-commit-message": "echo \"Running pre-commit script. This can take a while.\"",
-    "test": "mocha  -R spec \"./{,!(node_modules)/**/}*.test.js\""
+    "test": "yarn ensure-page-naming && mocha  -R spec \"./{,!(node_modules)/**/}*.test.js\""
   },
   "pre-commit": [
     "pre-commit-message",
