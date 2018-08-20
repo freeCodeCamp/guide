@@ -6,6 +6,7 @@ title: Use class Syntax to Define a Constructor Function
 
 Spoiler Warning: here is a basic solution to this challenge in case you're stuck.
 
+```javascript
 function makeClass() {
   "use strict";
   /* Alter code below this line */
@@ -23,3 +24,4 @@ function makeClass() {
 const Vegetable = makeClass();
 const carrot = new Vegetable('carrot');
 console.log(carrot.name); // => should be 'carrot'
+```
