@@ -13,7 +13,7 @@
 }
 
 :global body {
-  font-family: 'Lato', 'FontAwesome', sans-serif;
+  font-family: 'Lato', sans-serif, 'FontAwesome';
   font-size: 16px;
 }
 
