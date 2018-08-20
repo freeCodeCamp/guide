@@ -3,17 +3,18 @@
  ---
  ## Create a Gradual CSS Linear Gradient
  
- This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/responsive-web-design/applied-visual-design/create-a-gradual-css-linear-gradient/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
- 
- 
 To create a linear gradient you must define at least two color stops. Color stops are the colors you want to render smooth transitions among. You can also set a starting point and a direction (or an angle) along with the gradient effect.
 
-The syntax is always-->
+The syntax is always:
+
+```
 background-image: linear-gradient(angle, color-stop1, color-stop2);
+```
 
-The colors can be used in both hex() and rgb() formats.
-Experiment a bit and you'll understand how easy and beautiful it is to use it.
+The colors can be used in both hex() and rgb() formats. Experiment a bit and you'll understand how easy and beautiful it is to use it.
 
+
+## Resources
 <a href='https://www.w3schools.com/css/css3_gradients.asp'>There's an extensive info on this topic available on this link.
 
 
