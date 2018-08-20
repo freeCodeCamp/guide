@@ -43,7 +43,7 @@ If there is no index for that number then you will have to deal with that case t
       });
 
       for (var a = 0; a < arr.length; a++) {
-        if (arr<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>a] >= num)
+        if (arr[a] >= num)
           return a;
       }
 
@@ -67,8 +67,8 @@ If there is no index for that number then you will have to deal with that case t
       // Find my place in this sorted array.
       var times = arr.length; // runs the for loop once for each thing in the array
       var count = 0; 
-      for (i=0;i<times;i++){
-        if(num>arr<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>i]){count++;} } // counts how many array numbers are smaller than num
+      for (var i=0;i<times;i++){
+        if(num>arr[i]){count++;} } // counts how many array numbers are smaller than num
         return count; // the above equals num's position in a sorted array
     }
 
@@ -93,7 +93,7 @@ by [@HarinaPana](/u/harinapana)
       });
 
       var i = 0;
-      while (num > arr<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>i]) {
+      while (num > arr[i]) {
       i++;
       }
 
@@ -146,7 +146,7 @@ by [@faustodc](/u/faustodc)
       return index === -1 ? arr.length : index;
     }
 
-    getIndexToIns(<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>40, 60], 500);
+    getIndexToIns([40, 60], 500);
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLjU/63' target='_blank' rel='nofollow'>Run Code</a>
 
@@ -172,7 +172,7 @@ by [@nivrith](/u/nivrith)
 
     }
 
-    getIndexToIns(<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>1,3,4],2);
+    getIndexToIns([1,3,4],2);
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/IUJE/0' target='_blank' rel='nofollow'>Run Code</a>
 

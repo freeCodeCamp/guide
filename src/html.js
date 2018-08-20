@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Helmet from 'react-helmet';
 
 import preloads from './head/preloads';
 import metaAndStyleSheets from './head';
@@ -13,7 +12,6 @@ const propTypes = {
 
 class HTML extends React.Component {
   render() {
-    const head = Helmet.rewind();
     return (
       <html lang='en'>
         <head>

@@ -4,11 +4,9 @@ title: Constructors
 
 # Constructors
 
-What's the point then? I should be able to store data in it right?
+A constructor is a block of code that is used to initialize an instance (i.e. an object) of a class. It can be thought of as starter code. A constructor is called when we create an object of a class using the **new** keyword.
 
-That's when we use either **getter** (e.g., `getName()`) / **setter** (e.g., `setName()`) methods or in this case constructors to initialize a class. Basically every Java Class has a constructor, which is the method which is called first when any object of the class is initialized. Think of it as a bit of starter code.
-
-When you write a class without any constructor, then Java assumes it has a default constructor :
+When you write a class without any constructor, the Java compiler creates a default constructor :
 
 ```java
 public class Car {
@@ -31,7 +29,7 @@ public class Car {
 }
 ```
 
-Then, when calling `new Car()`, the variable `name` will get auto-initialized to "Tesla".
+Then, when calling `new Car()`, the variable `name` will get auto-initialized to "Tesla" for that instance of the Car object.
 
 Clearly, constructors are exactly what they sound like: they are used to `construct` i.e., instantiate an object of a particular class.  
 Constructors look similar to method declarations, but are slightly different in the sense that they:
@@ -175,3 +173,6 @@ class Complex {
 }
 ```
 [run the full code](https://repl.it/MwnJ)
+
+
+//## Constructor Chaining

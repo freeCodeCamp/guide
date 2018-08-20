@@ -9,7 +9,7 @@ title: Chunky Monkey
 
 Our goal for this Algorithm is to split `arr` (first argument) into smaller chunks of arrays with the length provided by `size` (second argument). There are 4 green checks (objectives) our code needs to pass in order to complete this Algorithm:
 
-1.  `(<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push' target='_blank' rel='nofollow'>'a', 'b', 'c', 'd'], 2)` is expected to be `[['a', 'b'], ['c', 'd']]`
+1.  `(['a', 'b', 'c', 'd'], 2)` is expected to be `[['a', 'b'], ['c', 'd']]`
 2.  `([0, 1, 2, 3, 4, 5], 3)` is expected to be `[[0, 1, 2], [3, 4, 5]]`
 3.  `([0, 1, 2, 3, 4, 5], 2)` is expected to be `[[0, 1], [2, 3], [4, 5]]`
 4.  `([0, 1, 2, 3, 4, 5], 4)` is expected to be `[[0, 1, 2, 3], [4, 5]]`
@@ -23,7 +23,7 @@ Our goal for this Algorithm is to split `arr` (first argument) into smaller chun
 
 The links above suggest to use `Array.push()`, so let's start by first creating a new array to store the smaller arrays we will soon have like this:
 ```javascript
-    var newArray = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:"' target='_blank' rel='nofollow'>];
+    var newArray = [];
 ```
 > _try to solve the problem now_
 
@@ -49,7 +49,7 @@ Finally, we need a method to do the actual splitting and we can use `Array.slice
 ```javascript
     function chunkArrayInGroups(arr, size) {
 
-      var temp = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>];
+      var temp = [];
       var result = [];
 
       for (var a = 0; a < arr.length; a++) {
@@ -73,7 +73,7 @@ Finally, we need a method to do the actual splitting and we can use `Array.slice
 
 *   Firstly, we create two empty arrays called `temp` and `result`, which we will eventually return.
 *   Our **for loop** loops until `a` is equal to or more than the length of the array in our test.
-*   Inside our loop, we push to `temp` using `temp.push(arr<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push' target='_blank' rel='nofollow'>a]);` if the remainder of `a / size` is not equal to `size - 1`.
+*   Inside our loop, we push to `temp` using `temp.push(arr[a]);` if the remainder of `a / size` is not equal to `size - 1`.
 *   Otherwise, we push to `temp`, push `temp` to the `result` variable and reset `temp` to an empty array.
 *   Next, if `temp` isn't an empty array, we push it to `result`.
 *   Finally, we return the value of `result`.
@@ -87,7 +87,7 @@ Finally, we need a method to do the actual splitting and we can use `Array.slice
 ```javascript
     function chunkArrayInGroups(arr, size) {
       // Break it up.
-      var arr2 = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>];
+      var arr2 = [];
       for (var i = 0; i < arr.length; i+=size) {
     	arr2.push(arr.slice(i , i+size));
       }
@@ -114,7 +114,7 @@ Finally, we need a method to do the actual splitting and we can use `Array.slice
 ```javascript
     function chunkArrayInGroups(arr, size) {
       // Break it up.
-      var newArr = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>];
+      var newArr = [];
       var i = 0;
 
       while (i < arr.length) {
@@ -147,7 +147,7 @@ Finally, we need a method to do the actual splitting and we can use `Array.slice
 ## ![:rotating_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:") Advanced Code Solution 2:
 ```javascript
     function chunkArrayInGroups(arr, size) {
-      var newArr = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>];
+      var newArr = [];
       while (arr.length) {
         newArr.push(arr.splice(0,size));
       }

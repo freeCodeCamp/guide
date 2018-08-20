@@ -3,8 +3,22 @@ title: Implement the filter Method on a Prototype
 ---
 ## Implement the filter Method on a Prototype
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/functional-programming/implement-the-filter-method-on-a-prototype/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+// the global Array
+var s = [23, 65, 98, 5];
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Array.prototype.myFilter = function(callback){
+  var newArray = [];
+  // Add your code below this line
+  this.forEach(function(x) {
+    if (callback(x) == true) {
+      newArray.push(x);
+    }
+  })
+  // Add your code above this line
+  return newArray;
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+};
+
+var new_s = s.myFilter(function(item){
+  return item % 2 === 1;
+});

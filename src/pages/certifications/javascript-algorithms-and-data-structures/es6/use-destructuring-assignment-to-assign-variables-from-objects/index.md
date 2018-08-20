@@ -1,10 +1,20 @@
 ---
 title: Use Destructuring Assignment to Assign Variables from Objects
 ---
+
 ## Use Destructuring Assignment to Assign Variables from Objects
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/es6/use-destructuring-assignment-to-assign-variables-from-objects/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+# This challenge requires some intuition about string objects in javascript. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+When you create a string object it is based on the following <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/prototype">string prototype</a>. 
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Thus, each string has a length property; genericString = {length: 13}. (This is the only adopted property from the String.prototype.)
+
+# Reassign properties using deconstruction. 
+```javascript
+var basicOjb = {x: 40};
+//To reassign 'get the value of the x property of basicObj and place its value into bigX' in ES6:
+const { x: bigX } = basicOjb;
+consle.log(bigX) // ans = 40 
+```
+Place the value of the length property of 'str' into len.

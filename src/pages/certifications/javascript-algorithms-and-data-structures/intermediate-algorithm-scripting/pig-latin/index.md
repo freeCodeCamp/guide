@@ -41,7 +41,7 @@ You will need to use everything you know about string manipulation to get the la
     function translatePigLatin(str) {
       // Create variables to be used
       var pigLatin = '';
-      var regex = /<a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>aeiou]/gi;
+      var regex = /[aeiou]/gi;
 
       // Check if the first character is a vowel
       if (str[0].match(regex)) {
@@ -90,7 +90,7 @@ You will need to use everything you know about string manipulation to get the la
 
     function translatePigLatin(str) {
       function check(obj) {
-          return <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>'a','i','u','e','o'].indexOf(str.charAt(obj)) == -1 ? check(obj + 1) : obj;
+          return ['a','i','u','e','o'].indexOf(str.charAt(obj)) == -1 ? check(obj + 1) : obj;
       }
 
       return str.substr(check(0)).concat((check(0) === 0 ? 'w' : str.substr(0, check(0))) + 'ay');
@@ -104,20 +104,20 @@ You will need to use everything you know about string manipulation to get the la
 ### Code Explanation:
 
 *   This is a declarative as well as recursive approach to this problem.
-*   `check()` is a function which checks for first letter of string to be in the array of vowels, `<a href='http://forum.freecodecamp.com/t/javascript-string-prototype-charat/15932' target='_blank' rel='nofollow'>'a','i','u','e','o']`.
+*   `check()` is a function which checks for first letter of string to be in the array of vowels, `['a','i','u','e','o']`.
 *   In case of consonants, `check()` calls itself on the next characters until finding the first vowel.
 *   It'll return the index of whatever it finds to be the last initial consonant i.e., Schmidtsville's would be 3.
 *   Then, letters up until that index are removed from the string and concatenated with either that same chunk of removed string or **w** accordingly, and then **ay** regardless.
 
 #### Relevant Links
 
-*   [JS String Prototype CharAt</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-string-prototype-charat/15932' target='_blank' rel='nofollow'>JS String Prototype CharAt</a>
 *   <a href='http://forum.freecodecamp.com/t/javascript-string-prototype-concat/15935' target='_blank' rel='nofollow'>JS String Prototype Concat</a>
 
 ## ![:rotating_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:") Advanced Code Solution:
 
     function translatePigLatin(str) {
-        var strArr = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>];
+        var strArr = [];
         var tmpChar;
 
         // check if the char is consonant using RegEx

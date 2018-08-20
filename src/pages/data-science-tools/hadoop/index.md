@@ -49,5 +49,7 @@ The Hadoop Ecosystem includes:
 - Apache Oozie
 
 #### More Information:
-1. <a href='https://www.udacity.com/course/intro-to-hadoop-and-mapreduce--ud617' target='_blank' rel='nofollow'>Udacity course on hadoop</a>
-1. <a href='http://hadoop.apache.org/' target='_blank' rel='nofollow'>Apache Hadoop</a>
+
+1. [Udacity course on hadoop](https://www.udacity.com/course/intro-to-hadoop-and-mapreduce--ud617)
+1. [Apache Hadoop](http://hadoop.apache.org/)
+1. [Big Data Hadoop Tutorial Videos by edureka!](https://www.youtube.com/playlist?list=PL9ooVrP1hQOFrYxqxb0NJCdCABPZNo0pD)

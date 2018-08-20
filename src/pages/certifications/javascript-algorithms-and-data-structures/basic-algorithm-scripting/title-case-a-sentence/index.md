@@ -49,7 +49,7 @@ We have to return a sentence with title case. This means that the first letter w
 
     function titleCase(str) {
         var newTitle = str.split(' ');
-        var updatedTitle = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>];
+        var updatedTitle = [];
         for (var st in newTitle) {
             updatedTitle[st] = newTitle[st].toLowerCase().replaceAt(0, newTitle[st].charAt(0).toUpperCase());
         }
@@ -120,7 +120,7 @@ The solution works by first lowercasing all the characters in the string and the
 
 #### Relevant Links
 
-*   <a>JS Regex Resources</a>
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions' target='_blank' rel='nofollow'>JS Regex Resources</a>
 
 ## ![:clipboard:](https://forum.freecodecamp.com/images/emoji/emoji_one/clipboard.png?v=3 ":clipboard:") NOTES FOR CONTRIBUTIONS:
 

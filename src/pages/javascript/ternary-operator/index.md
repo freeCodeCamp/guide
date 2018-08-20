@@ -47,4 +47,17 @@ It's also possible to run functions using ternary operator, which sometimes can 
     runFirst ? first() : second();
 ```
 
+## Chaining using the ternary operator
+
+You can also chain a ternary operator indefinitely, in a similar way to using `else if's` before the final else of an an `if`/`else` block. Each time the colon is used to state the else part of the ternary operator a new condition can be stated until the final termination condition is used.
+
+```javascript
+    function displayNum(num) {
+     return  num === 3 ? 'number is 3' : num === 2 ? 'number is 2' : num === 1 ? 'number is 1 ' : 'number is not in range';
+    }
+```
+
+This method needs to be used sparingly in the right places however, as with multiple `else if's` it can sometimes lead to more readable code using a switch statement.
+
+
 **Read more:** <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator' target='_blank' rel='nofollow'>MDN</a>

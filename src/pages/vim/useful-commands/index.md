@@ -1,11 +1,17 @@
 ---
 title: Useful Commands
 ---
-## Useful Commands
+
+# Useful Commands
 
 ## Saving
 1. Press `Escape` to make sure you're in `normal mode`;
 2. Type in `:w` ("w" stands for "write");
+3. Press `Enter`.
+
+## Saving (to a new file)
+1. Press `Escape` to make sure you're in `normal mode`.
+2. Type in `:w newfilename` (newfilename is the file name of the new file that you want to save to).
 3. Press `Enter`.
 
 ## Exiting Vi, Vim, Nvim, Gvim
@@ -44,6 +50,14 @@ To move between windows you can use the following commands:
 - `CTRL-W l` - move to the window on the right
 - `CTRL-W t` - move to the top window
 - `CTRL-W b` - move to the bottom window
+
+## Undo/Redo
+
+These actions should be performed in __Normal Mode__.
+
+__Undo__: Press `u` or type in `:undo` and press `Enter`.
+
+__Redo__: Press `U` (`Shift` + `u`) or type in `:redo` and press `Enter`.
 
 ## Bare minimum functionality
 

@@ -4,7 +4,7 @@ title: For Loop
 
 # For Loop
 
-The `for` loop executes a block of code until a specified condition is false. Although a `for` loop looks like a <a href='https://guide.freecodecamp.org/csharp/while-loop' target='_blank' rel='nofollow'>`while` loop</a>, developers should use them __properly__. Use `while` loops when the number of iterations are varied, otherwise use `for` loops. A common use of `for` loops are array iterations.
+The `for` loop executes a block of code until a specified condition is false. Althought `for` loop looks like a <a href='https://guide.freecodecamp.org/csharp/while-loop' target='_blank' rel='nofollow'>`while` loop</a>, developers should use them __properly__. Use `while` loops when the number of iterations are variable, otherwise use `for` loops. A common use of `for` loops are array iterations.<sup>1</sup>
 
 ## Syntax
 ```C#
@@ -39,3 +39,6 @@ for (int i = 0; i < array.Length; i++)
 > Item on index 3 is 4
 > Item on index 4 is 5
 ```
+
+### Sources
+1 https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/for

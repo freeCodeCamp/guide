@@ -3,8 +3,11 @@ title: Nest one Array within Another Array
 ---
 ## Nest one Array within Another Array
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-javascript/nest-one-array-within-another-array/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Arrays are one-dimensional; that means they store only one row of data. But you can make an array multi-dimensional by putting arrays inside arrays! Like so:
+
+```javascript
+var arr = [["Two-dimensional", 2], ["Two rows", 12]];
+```
+
+The above array has two dimensions.

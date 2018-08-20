@@ -41,6 +41,12 @@ Ruby has many built in methods to work with strings. Strings in Ruby by default 
     ```ruby
     "Hello".downcase #=> hello
     ```
+### Swapcase
+
+* The `.swapcase` method transforms the uppercase latters in a string to lowercase and the lowercase letters to uppercase.
+  ```ruby
+  "hELLO wORLD".swapcase #=> Hello World
+  ```
 
 ### Capitalize:
 

@@ -2,9 +2,8 @@
 title: Delete HTML Elements
 ---
 ## Delete HTML Elements
+To remove an HTML element you must remove its tag subelements: the content, whatever it is, can be kept since it's not representative of any HTML element.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/responsive-web-design/basic-html-and-html5/delete-html-elements/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Remember: if some code other than the part you are asked to modify has been changed you can restart your challenge by clicking the `reset all code` button.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Good luck!
