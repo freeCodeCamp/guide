@@ -4,6 +4,7 @@ The syntax is always-->
 background-image: linear-gradient(angle, color-stop1, color-stop2);
 
 The colors can be used in both hex() and rgb() formats.
+Experiment a bit and you'll understand how easy and beautiful it is to use it.
 
 <a href='https://www.w3schools.com/css/css3_gradients.asp'>There's an extensive info on this topic available on this link.
 
@@ -11,4 +12,3 @@ The colors can be used in both hex() and rgb() formats.
 <a href ='https://www.youtube.com/watch?v=wTk4Wuckd0U'> Also, you might want to review this Youtube video by The Net Ninja.
 
 
-Experiment a bit and you'll understand how easy and beautiful it is to use it.
