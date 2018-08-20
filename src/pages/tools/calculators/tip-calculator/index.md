@@ -3,11 +3,12 @@ title: Tip Calculator
 ---
 ## Tip Calculator
 
-Tip Calculator is a calculator that calculates a tip based on the percentage of the total bill amount the user chooses in accordance with the service provided.
+A Tip Calculator is a calculator that calculates a tip based on the percentage of the total bill.
 
-## Step 1 HTML : 
+## Step 1 - HTML: 
 
-We create a form in order to enter the preferred amount.
+We create a form in order to enter the preferred amount:
+
 ```html
 <!doctype html>
 <html lang="en">
@@ -86,9 +87,9 @@ We create a form in order to enter the preferred amount.
 ```
 
 
-## Step 2 CSS : 
+## Step 2 - CSS:
 
-You can design the style howeever you want. I used Bootstrap 4 also I used css only to hide the results and show it through JavaScript after the user fill in the form.
+You design the style however you want. You can also use CSS to hide the results and show them through JavaScript after the user fills in the form:
 
 ```css
   #results {
@@ -97,16 +98,13 @@ You can design the style howeever you want. I used Bootstrap 4 also I used css o
 ```
 
 
-## Step 3 JavaScript : 
+## Step 3: JavaScript: 
 
-We add onchange event. The onchange event occurs when user interact with the form. This action will execute a function that computes the final bill amount based on the percentage tip and return the results.
+We add onchange event. The onchange event occurs when user interacts with the form. 
 
+This action will execute a function that computes the final bill amount based on the percentage tip, then returns the results.
 
 ```javascript
-
-
-
-
 document.querySelector('#tip-form').onchange = function(){
 
   var bill = Number(document.getElementById('billTotal').value);
@@ -128,4 +126,4 @@ tipAmount.value = tipValue.toFixed(2);
 
 ```
 
-Live code in : [Codepen.io](https://codepen.io/voula12/pen/djrZGw)
+You can see a working example and its code on [Codepen.io](https://codepen.io/voula12/pen/djrZGw).
