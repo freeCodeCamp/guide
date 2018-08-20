@@ -1,9 +1,10 @@
 ---
-title: Hint for Create a Complex JSX Element
+title: Create a Complex JSX Element
 ---
 ## Create a Complex JSX Element
 
-Hint 
+Hint: 
+
 ```html
 const JSX = <div>
   <h1>Heading.</h1>
@@ -14,4 +15,4 @@ const JSX = <div>
   <li>Milk</li>
 </ul>
 </div>;  
-html'''
+```
