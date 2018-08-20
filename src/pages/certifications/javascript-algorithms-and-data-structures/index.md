@@ -1,7 +1,7 @@
 ---
-title: Amazon Web Services
+title: Javascript Algorithms and Data Structures
 ---
-## Amazon Web Services
+## Javascript Algorithms and Data Structures
 
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/quadratic-equations/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 

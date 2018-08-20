@@ -7,5 +7,5 @@ title: Concatenating Strings with the Plus Equals Operator
 The '+=' operator can concatenate (link) strings easily. Make sure your spelling is right, and you've left appropriate spaces.
 
     var str = "Hello ";
-    str += "coding"; // It is "Hello coding"
-    str += "camper!"; // It is "Hello codingcamper!"
+    str += "coding"; // Now the string reads "Hello coding"
+    str += "camper!"; // And now the string reads "Hello codingcamper!"
