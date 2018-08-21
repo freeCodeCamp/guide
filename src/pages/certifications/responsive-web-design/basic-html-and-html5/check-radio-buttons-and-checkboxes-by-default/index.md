@@ -3,8 +3,8 @@ title: Check Radio Buttons and Checkboxes by Default
 ---
 ## Check Radio Buttons and Checkboxes by Default
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/responsive-web-design/basic-html-and-html5/check-radio-buttons-and-checkboxes-by-default/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `checked` attribute, exclusively usable with `type="radio"` and the `type="checkbox"`, is a boolean attribute ( you can check the challenge about the `required` attribute, boolean aswell, at this link: [use html5 to require a field](https://learn.freecodecamp.org/responsive-web-design/basic-html-and-html5/use-html5-to-require-a-field/)).
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+As boolean attribute you simply have to add the word `checked` to the `input` HTML element you want to set checked by default (the challenge requires you to set by default _the first_ of the checkbox and radio-buttons already present in the code).
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Good luck!
