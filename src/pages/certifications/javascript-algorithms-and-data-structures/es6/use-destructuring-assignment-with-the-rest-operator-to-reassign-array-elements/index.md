@@ -33,7 +33,7 @@ function removeFirstTwo(list) {
 
 ## Hint 3 - Spoiler Alert - Solution Ahead!
 
-Sip the first two elements of the `arr` array with `,,`.
+Exclude the first two elements of the `arr` array with `,,`.
 
 ```javascript
 function removeFirstTwo(list) {
