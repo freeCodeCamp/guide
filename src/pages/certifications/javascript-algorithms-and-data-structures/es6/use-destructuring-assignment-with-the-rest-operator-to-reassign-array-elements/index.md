@@ -3,8 +3,45 @@ title: Use Destructuring Assignment with the Rest Operator to Reassign Array Ele
 ---
 ## Use Destructuring Assignment with the Rest Operator to Reassign Array Elements
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/es6/use-destructuring-assignment-with-the-rest-operator-to-reassign-array-elements/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+## Hint 1
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Use descructuring to create the `arr` variable.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```javascript
+function removeFirstTwo(list) {
+  "use strict";
+  // change code below this line
+  const [arr] = list; // change this
+  // change code above this line
+  return arr;
+}
+```
+
+## Hint 2 
+
+Spread the `list` parameter into `arr`.
+
+```javascript
+function removeFirstTwo(list) {
+  "use strict";
+  // change code below this line
+  const [...arr] = list; // change this
+  // change code above this line
+  return arr;
+}
+```
+
+## Hint 3 - Spoiler Alert - Solution Ahead!
+
+Exclude the first two elements of the `arr` array with `,,`.
+
+```javascript
+function removeFirstTwo(list) {
+  "use strict";
+  // change code below this line
+  const [,,...arr] = list; // change this
+  // change code above this line
+  return arr;
+}
+```
+
