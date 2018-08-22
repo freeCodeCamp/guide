@@ -3,13 +3,27 @@ title: Math Sqrt
 ---
 ## Math Sqrt
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/standard-objects/math/math-sqrt/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The function `Math.sqrt()` returns the square root of a number. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+If a negative number is entered, `NaN` is returned.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+`sqrt()` is a static method of `Math`, therefore it is always called as `Math.sqrt()` rather than as a method on another object. 
+
+#### Syntax
+
+`Math.sqrt(x)`, where `x` is a number. 
+
+#### Examples
+
+```js
+Math.sqrt(25); // 5
+Math.sqrt(169); // 13
+Math.sqrt(3); // 1.732050807568
+Math.sqrt(1); // 1
+Math.sqrt(-5); // NaN
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/sqrt" target="_blank" rel="nofollow">MDN</a>
 
 
