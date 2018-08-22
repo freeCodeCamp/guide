@@ -33,7 +33,7 @@ fixCar(carIsBroken, callCarOwner);
 We can do this by using the "+=" operator. 
 ```javascript
 let count = 1;
-const addOne () => return count +=1;
+const addOne = () => count +=1;
 ```
 ### How do you pass a function to a method?
 We can pass a function to a method the same way we might pass a variable to a method. Just pass it in as an argument!
