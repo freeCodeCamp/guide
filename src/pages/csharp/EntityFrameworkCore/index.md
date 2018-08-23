@@ -1,3 +1,10 @@
+---
+Entity Framework Core : Introduction
+---
+
+---
+![logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRygP2bs0ijw6sR03-4SH3nZu1_uAmPgiXXjZwOaSJQBH5uCkuV)
+
 *** Will be focused on EF Core 2.X and later ***
 
 Entity Framework or EF is an Object/Relational Mapping (O/RM) framework, 
@@ -5,8 +12,9 @@ based on the ADO.NET and simplify tasks like sooring and accessing data in the D
 
 EF is a cross-platform and open source framework.
 
-EF Core on GitHub: https://github.com/aspnet/EntityFrameworkCore
-EF Core Official Documentation: https://docs.microsoft.com/ef/core
+[EF Core On GitHub] (https://github.com/aspnet/EntityFrameworkCore/)
+
+[EF Core Official Documentation] (https://docs.microsoft.com/ef/core/)
 
 Support databases available :
 SQL Server	
