@@ -3,7 +3,7 @@ Entity Framework Core : Introduction
 ---
 
 ---
-![logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRygP2bs0ijw6sR03-4SH3nZu1_uAmPgiXXjZwOaSJQBH5uCkuV)
+![logo](https://www.ryadel.com/wp-content/uploads/2015/03/entity-framework-logo.jpg)
 
 *** Will be focused on EF Core 2.X and later ***
 
