@@ -33,5 +33,5 @@ EF will create the database and views through the migrations options based on PO
 
 Database-First:
 EF will create the POCO/domain classes based on an existing database.
-* please note this approache doesn't the designer.
+* please note this approache doesn't support the designer.
 
