@@ -2,6 +2,7 @@
 title: Create Texture by Adding a Subtle Pattern as a Background Image
 ---
 ## Create Texture by Adding a Subtle Pattern as a Background Image
+<a href='https://www.w3schools.com/cssref/css3_pr_background.asp' target='_blank' rel='nofollow'>This is explanation how to insert background url</a>
 
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/responsive-web-design/applied-visual-design/create-texture-by-adding-a-subtle-pattern-as-a-background-image/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
