@@ -15,4 +15,4 @@ function myLocalScope() {
 }
 myLocalScope();
 ```
-The variable is only existant in the function. Outside the function, it is non-existant.
+The variable only exists in the function. Outside the function, it is non-existent.
