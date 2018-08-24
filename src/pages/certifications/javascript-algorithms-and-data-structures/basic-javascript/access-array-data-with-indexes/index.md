@@ -4,7 +4,7 @@ title: Access Array Data with Indexes
 ## Access Array Data with Indexes
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-The first element of an array is at position zero. So, if you want to access the first element of an array, you...
+The first element of an array is at position zero. So, if you want to access the first element of an array, you can do it like so:
 
 ```javascript
 var arr = ["Programming", 123, "Coding", 789];
