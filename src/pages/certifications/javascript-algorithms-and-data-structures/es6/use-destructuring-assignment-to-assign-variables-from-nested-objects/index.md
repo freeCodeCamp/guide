@@ -12,5 +12,5 @@ The test wants you to obtain `max` and `max` only. If you destructure your const
 Here is the code solution:
 
 ```javascript
-const { tomorrow: { max: maxOfTomorrow } } = LOCAL_FORECAST;
+const { tomorrow: { max: maxOfTomorrow } } = forecast;
 ```
