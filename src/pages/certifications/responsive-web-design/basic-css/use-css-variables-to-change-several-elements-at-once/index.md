@@ -3,8 +3,6 @@ title: Use CSS Variables to change several elements at once
 ---
 ## Use CSS Variables to change several elements at once
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/responsive-web-design/basic-css/use-css-variables-to-change-several-elements-at-once/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
+Let's do this task!
+All you need are 5th, 6th and 7th lines of code. Here in penguin class you must to change the black value to gray, the gray value to white, and the yellow value to orange. 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
