@@ -3,6 +3,43 @@ title: Vagrant
 ---
 ## Vagrant
 
+### Install Vagrant
+
+To install Vagrant, first find the [appropriate package](https://www.vagrantup.com/downloads.html) for your system and download it. Vagrant is packaged as an operating-specific package. Run the installer for your system. The installer will automatically add vagrant to your system path so that it is available in terminals. If it is not found, please try logging out and logging back in to your system (this is particularly necessary sometimes for Windows).
+
+### Verify Installation
+After installing Vagrant, verify the installation worked by opening a new command prompt or console, and checking that vagrant is available:
+```bash
+$ vagrant
+Usage: vagrant [options] <command> [<args>]
+
+    -v, --version                    Print the version and exit.
+    -h, --help                       Print this help.
+
+# ...
+```
+
+### Getting Started
+```bash
+$ vagrant init hashicorp/precise64
+$ vagrant up
+```
+
+### Boxes
+Boxes are added to Vagrant with vagrant box add. This stores the box under a specific name so that multiple Vagrant environments can re-use it. If you have not added a box yet, you can do so now:
+```bash
+$ vagrant box add hashicorp/precise64
+```
+
+### Finding more Boxes
+The best place to find more boxes is [HashiCorp's Vagrant Cloud box catalog](https://vagrantcloud.com/boxes/search).
+
+### Common
+Youtube: [Getting Started With Vagrant](https://www.youtube.com/watch?v=LyIyyFDgO4o) by [Codecourse](https://www.youtube.com/user/phpacademy)
+
+#### More Information:
+The Vagrant website: [vagrantup.com](https://www.vagrantup.com)
+=======
 Vagrant is a tool to **"Create and configure lightweight, reproducible, and portable development environments."**
 
 This means Vagrant takes all the headache out of setting up a local development environment. Vagrant replaces it with almost a single configuration file. This file is where you can pick and choose what features you want your server to have. 

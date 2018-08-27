@@ -41,6 +41,12 @@ Ruby has many built in methods to work with strings. Strings in Ruby by default 
     ```ruby
     "Hello".downcase #=> hello
     ```
+### Swapcase
+
+* The `.swapcase` method transforms the uppercase latters in a string to lowercase and the lowercase letters to uppercase.
+  ```ruby
+  "hELLO wORLD".swapcase #=> Hello World
+  ```
 
 ### Capitalize:
 
@@ -117,7 +123,7 @@ _Note that the first letter is only capitalized if it is at the beginning of the
     ```ruby
     "15".to_i #=> 15 # integer
     ```
-
+    
 ### Gsub:
 
 *  `gsub` replaces every reference of the first parameter for the second parameter on a string.
@@ -161,3 +167,13 @@ _Note that the first letter is only capitalized if it is at the beginning of the
     "information".index('o', 5) #=> 9
     "information".index('z') #=> nil
     ```
+
+### Clear:
+
+*   Removes string content.
+    ```ruby
+    a = "abcde"
+    a.clear    #=> ""
+    ```
+
+

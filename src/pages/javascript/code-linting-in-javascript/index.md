@@ -16,6 +16,9 @@ Here are some popular Javascript Linters:
 
 [ESLint](http://eslint.org)
 
+#### Linters for Editors :
+* Visual Code : To Install the eslint extension, open command palette (View -> Command Palette.. or cmd+shift+p ) and execute command:
+ext install eslint
 
 #### Tools and Plugins
 [Prettier](https://prettier.io)

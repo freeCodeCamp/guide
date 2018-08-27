@@ -11,10 +11,11 @@ Alternatively, software development can be done within silos. One silo is respon
 
 This section contains articles introducing technologies used in DevOps.
 
-<a href="https://en.wikipedia.org/wiki/DevOps">Read more about DevOps on Wikipedia.</a>
+### More Information
+* [Read more about DevOps on Wikipedia](https://en.wikipedia.org/wiki/DevOps)
+* [See this Video that explains Devops](https://youtu.be/_I94-tJlovg)
 
-This section contains links to learning DevOps more in depth through a MOOC experience. 
+### Resources
+This section contains links to learning DevOps through a MOOC experience. Courses may be pay-only.
 
-<a href="https://www.edx.org/microsoft-professional-program-front-end-development">See the intro in here.</a>
-or 
-<a href="https://www.edx.org/microsoft-professional-program-devops">Get a more specific exposure here.</a>
+* [edX course](https://www.edx.org/microsoft-professional-program-front-end-development)

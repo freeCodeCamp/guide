@@ -3,11 +3,48 @@ title: Documentation
 ---
 ## Documentation
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/elixir/documentation/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+One of the best advanced of Elixir in comparison to other programming languages is its documentation system. Elixir's documentation is created by your code comments and made into a pretty HTML Website for you to browse with ease and understand how the application works. Once you understand how to properly comment your code in Elixir, you'll be able to explain how your application works to other programmers with ease. In the examples below we show the usage of Elixir's documentation functions in a fictional webserver module.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Inline Documentation
+Inline documentation uses a `#` in front of text describing something about the code.
+```elixir
+def get(path) do
+    # This is an inline comment for documentation purposes.
+    "http get request response"
+  end
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### Module Documentation
+Module document describes the purpose of a module. Moduledocs are similar to multiline comments you would find in other programming languages.
+```elixir
+defmodule WebServer do
+  @moduledoc """
+    Provides a set of functions to accept and respond to HTTP requests.
+    This module provides the @get/1, @post/1, and @put/1 functions.
+  """
+end
+```
+
+### Function Documentation
+Function documentation describes the purpose and usage of a single function. Functiondocs are similar to multiline comments you would find in other programming languages. It also shows examples of the function so another programmer knows what to expect.
+```elixir
+  @doc """
+    Responds to a get request
+
+    ## Parameters
+     - path: A path to the desired resource
+    
+    ## Examples
+     - iex> WebServer.get(/documentation.pdf)
+       "Returning documentation.pdf
+     - iex> WebServer.get(/downloads.html)
+       "Returning downloads.html"
+  """
+  def get(path) do
+    "http get request response"
+  end
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+* [ElixirSchool - Documentation](https://elixirschool.com/en/lessons/basics/documentation/)
+* [ExDoc](https://github.com/elixir-lang/ex_doc)

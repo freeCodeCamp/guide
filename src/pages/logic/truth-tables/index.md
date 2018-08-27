@@ -6,7 +6,7 @@ title: Truth Tables
 A truth table is a mathematical tool used in Boolean Algebra. It consists of a column each for the function variables. A final column holds the functional value evaluated for the corresponding values of the variables. For a boolean function of n variables, its truth table expansion will have 2^n rows. This is beacuse each variable has two possible states – true & false.
 
 ### AND
-Let us explore the truth table for the AND operator :
+Let us explore the truth table for the AND operator:
 
 | x | y | x AND y  |
 |---|---|---|
@@ -17,7 +17,7 @@ Let us explore the truth table for the AND operator :
 
 AND is binary operator. It operates on two variables, say `x`, `y`. 
 
-Thus we have 2^2 = 4 columns in our truth table !
+Thus we have 2^2 = 4 columns in our truth table!
 
 The last column is the functional value – x AND y.The logic for AND operation is that if values of x and y are both True only then the output would have the value True else it would be False. 
 
@@ -95,7 +95,7 @@ Double implication operator:
 | T  | T  | T  |
 
 
-Truth tables are a powerful tool. They can be used to express & evaluate simple boolean functions and operations as well complex combinational circuits and sequential logic circuits !
+Truth tables are a powerful tool. They can be used to express and evaluate simple boolean functions and operations, complex combinational circuits, and sequential logic circuits!
 
 
 

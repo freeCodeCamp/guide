@@ -3,13 +3,17 @@ title: React
 ---
 # React
 
-React is a JavaScript library for building user interfaces.
+React is a JavaScript library for building user interfaces. It was voted the most loved in the "Frameworks, Libraries, and Other Technologies" category of Stack Overflow's 2017 Developer Survey.<sup>1</sup>
 
-React is declarative: React uses a declarative paradigm that makes it easier to reason about your application.
+Because React is a JavaScript library, React runs in the browser, NOT on the server. This makes React very fast due to not having to wait for server responses. 
 
-React is efficient: React computes the minimal set of changes necessary to keep your DOM up-to-date. 
+React is used for building user interfaces: User interfaces is what the user sees on their screen and interacts with to use your web app. This interface is split up into components, instead of having one huge page you break it up into smaller pieces known as components. In more general terms, this approach is called Modularity.
 
-And React is flexible: React works with the libraries and frameworks that you already know.
+It's declarative: React uses a declarative paradigm that makes it easier to reason about your application. 
+
+It's efficient: React computes the minimal set of changes necessary to keep your DOM up-to-date. 
+
+And it's flexible: React works with the libraries and frameworks that you already know.
 
 ## React from Scratch
 
@@ -22,6 +26,7 @@ In this article we are going to look at how we can get started with React using 
 alt="Watch Video Here" width="240" height="180" border="10" /></a>
 
 ## 1 — Set Up Boiler Plate Code with Emmet
+
 Let’s get started with step 1. We’ll begin with a file in our browser called “index.html”. We’ll begin with the boiler plate code HTML code. For a quick start I recommend using Emmet with whatever text editor you have and on the first line typing in ```html:5``` then pressing the shift key to get the code below. Or you can go ahead and copy and paste the code from below.
 
 ```javascript
@@ -49,6 +54,7 @@ We can fill in the title of “Time to React!”.
 This content will not appear in your webpage. Anything in the head section of the HTML file will be meta data that our browser will user to interpret our code in the body section. This title is going to be what appears on the tab for our page, not actually on the page.
 
 ## 2 Get Script Tags to Harness the Power of React and Babel Libraries
+
 Ok, item one is checked off of our list. Let’s look at item two. We are going to set up our developer environment by using script tags to bring in React and Babel. This is not a real life developer environment. That would be quite an elaborate setup. It would also leave us with a lot of boiler plate code and libraries that would take us off subject of learning React basics. The goal of this series is to go over the basic syntax of React and get right into coding.
 We are going to use `<script>` tags to bring in the React Library, the React DOM library (why), and the Babel library.
 
@@ -76,6 +82,7 @@ Babel is how we take advantage of ECMA script beyond ES5 and deal with something
 Alright, we have completed steps 1 and 2. We have set up our boiler plate code and set up our developer environment.
 
 ## 3 Render React to the DOM
+
 Our next two steps will be to choose our location within DOM that we want to render our react content. And using another script tag for our React content within the body. Generally, as a good separations of concerns practice this would be in its own file then linked to this html document. We’ll do that later in upcoming lessons.
 For now, we’ll let this dwell within the body of the html document we are currently in.
 Now we are going to look at how simple it is to choose a place on the DOM to render our React content.
@@ -199,27 +206,27 @@ Many popular websites use React implementing the MVC architectural pattern. Face
 How these large applications are build using React? The simple answer is by building small applications or components.
 Example
 
-        ``` react
-        var component2  = function() {
-          return (
-              <div></div>
-             )
-        }
-        var component3  = function() {
-          return (
-              <div></div>
-             )
-        }
-        var component1  = function() {
-          return (
-              <div>
-            <component2/>
-            <component3/>
-            </div>
-             )
-        }
-        <component1/>
-        ```
+``` react
+var component2  = function() {
+  return (
+      <div></div>
+     )
+}
+var component3  = function() {
+  return (
+      <div></div>
+     )
+}
+var component1  = function() {
+  return (
+      <div>
+    <component2/>
+    <component3/>
+    </div>
+     )
+}
+<component1/>
+```
         
 
 2.	React is Declarative for most part in which we are  concerned more with What to do rather than How to do a specific task.  Declarative programming is a programming paradigm that expresses the logic of a computation without describing its control flow.
@@ -232,3 +239,7 @@ Declarative programming  comes with  certain advantages such as reduced side eff
 - <a href='https://twitter.com/dan_abramov' target='_blank' rel='nofollow'>Dan Abramov's Twitter</a>
 - Tutorials at <a href='https://egghead.io/browse/frameworks/react' target='_blank' rel='nofollow'>Egghead.io React</a>
 - [https://reactjs.org/](https://reactjs.org/)
+
+### Sources
+
+1. ["Developer Survey Results 2017."](https://insights.stackoverflow.com/survey/2017#technology-most-loved-dreaded-and-wanted-frameworks-libraries-and-other-technologies) <em>Stack Overflow.</em> Accessed: October 28, 2017.

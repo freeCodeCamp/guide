@@ -1,3 +1,4 @@
+
 ---
 title: Simplify Square Roots
 ---
@@ -16,3 +17,6 @@ The second important thing to know is the concept of Perfect Squares. When a who
 A square root can be simplified if the number you are trying to take the square root of has a factor that is a perfect square. If it does, the Radical Product Property can be used to simplify. Examples below simplify the square root of 48 and simplify the square root of 75. 
 
 ![Image showing the square root of 48 being simplified to 4 multiplied by the square root of 3 and the square root of 75 being simplified to 5 multiplied by the square root of 3.](https://raw.githubusercontent.com/hayleycd/images/master/radical_examples.jpeg)
+
+#### More Information:
+* [Khan Academy article on simplifying square roots](https://www.khanacademy.org/math/algebra/rational-exponents-and-radicals/alg1-simplify-square-roots/a/simplifying-square-roots-review)

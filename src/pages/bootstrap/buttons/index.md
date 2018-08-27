@@ -2,6 +2,7 @@
 title: Buttons
 ---
 ## Buttons
+
 The Bootstrap framework provides you with various styling options for buttons. These styles help you provide a visual representation to the user of what the button may do.
 
 #### How To Use:
@@ -58,6 +59,10 @@ This is a list of the CSS classes that bootstrap provides for buttons.
 
 <button type="button" class="btn btn-link">Link</button>
 
+`.btn-light` This is bootstrap's light button.
+
+<button type="button" class="btn btn-light">Light</button>
+
 #### Bootstrap Button Sizes:
 This is a list of the CSS classes for different size of the buttons.
 
@@ -65,11 +70,11 @@ This is a list of the CSS classes for different size of the buttons.
 
 <button type="button" class="btn btn-lg">Large</button>
 
-`.btn-sm` This is bootstrap's large button.
+`.btn-sm` This is bootstrap's small button.
 
 <button type="button" class="btn btn-sm">Small</button>
 
-`.btn-xs` This is bootstrap's large button.
+`.btn-xs` This is bootstrap's extra small button.
 
 <button type="button" class="btn btn-xs">Extra Small</button>
 

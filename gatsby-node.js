@@ -1,8 +1,11 @@
 const path = require('path');
-const generateBabelConfig = require('gatsby/dist/utils/babel-config');
+const select = require('unist-util-select');
+const { head } = require('lodash');
 
-exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
-  const { createNodeField } = boundActionCreators;
+const { isAStubRE } = require('./utils').commonREs;
+
+exports.onCreateNode = ({ node, actions, getNode }) => {
+  const { createNodeField } = actions;
   let slug;
   if (node.internal.type === 'MarkdownRemark') {
     const fileNode = getNode(node.parent);
@@ -20,27 +23,30 @@ exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
   }
 };
 
-exports.createPages = ({ graphql, boundActionCreators }) => {
-  const { createPage } = boundActionCreators;
+exports.createPages = ({ graphql, actions }) => {
+  const { createPage } = actions;
 
   return new Promise((resolve, reject) => {
-    const Article = path.resolve('src/templates/Article.jsx');
+    const Article = path.resolve('src/templates/Article.js');
     // Query for all markdown 'nodes' and for the slug we previously created.
     resolve(
       graphql(
         `
-        {
-          allMarkdownRemark {
-            edges {
-              node {
-                fields {
-                  slug
+          {
+            allMarkdownRemark {
+              edges {
+                node {
+                  htmlAst
+                  id
+                  excerpt
+                  fields {
+                    slug
+                  }
                 }
               }
             }
           }
-        }
-      `
+        `
       ).then(result => {
         if (result.errors) {
           console.log(result.errors);
@@ -48,40 +54,45 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
         }
 
         // Create article pages.
-        result.data.allMarkdownRemark.edges.forEach(edge => {
-          createPage({
-            path: edge.node.fields.slug,
-            component: Article,
-            context: {
-              slug: edge.node.fields.slug
+        result.data.allMarkdownRemark.edges.forEach(
+          ({
+            node: {
+              htmlAst,
+              excerpt,
+              fields: { slug },
+              id
             }
-          });
-        });
+          }) => {
+            let meta = {};
+
+            if (!isAStubRE.test(excerpt)) {
+              const featureImage = head(
+                select(htmlAst, 'element[tagName=img]')
+              );
+              meta.featureImage = featureImage
+                ? featureImage.properties.src
+                : 'https://s3.amazonaws.com/freecodecamp' +
+                  '/reecodecamp-square-logo-large.jpg';
+
+              const description = head(select(htmlAst, 'element[tagName=p]'));
+              meta.description = description
+                ? description.children[0].value
+                : '';
+            }
+
+            createPage({
+              path: slug,
+              component: Article,
+              context: {
+                id,
+                meta
+              }
+            });
+          }
+        );
 
         return;
       })
     );
-  });
-};
-
-
-exports.modifyWebpackConfig = ({ config, stage }) => {
-  const program = {
-    directory: __dirname,
-    browserslist: ['> 1%', 'last 2 versions', 'IE >= 9']
-  };
-
-  return generateBabelConfig(program, stage).then(babelConfig => {
-    config.removeLoader('js').loader('js', {
-      test: /\.jsx?$/,
-      exclude: modulePath => {
-        return (
-          /node_modules/.test(modulePath) &&
-          !(/node_modules\/react\-freecodecamp\-search/).test(modulePath)
-        );
-      },
-      loader: 'babel',
-      query: babelConfig
-    });
   });
 };
