@@ -170,6 +170,29 @@ Finally, we need a method to do the actual splitting and we can use `Array.slice
 *   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice' target='_blank' rel='nofollow'>Array.splice()</a>
 *   <a href='https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/while' target='_blank' rel='nofollow'>While Loops</a>
 
+## ![:rotating_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:") Advanced Code Solution 3:
+```javascript
+    function chunkArrayInGroups(arr, size) {
+      if (arr.length <= size){
+        return [arr];
+      }
+      else {
+        return [arr.slice(0,size)].concat(chunkArrayInGroups(arr.slice(size),size));
+      }
+    }
+```
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLjU/579' target='_blank' rel='nofollow'>Run Code</a>
+
+### Code Explanation:
+
+* Array smaller than size is returned nested.
+* For any array larger than size, it's splited in two. First segment is nested and concatnated with second second segment which makes a recursive call.
+
+#### Relevant Links
+
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#Recursion' target='_blank' rel='nofollow'>Recursion</a>
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice' target='_blank' rel='nofollow'>Array.splice()</a>
+
 ## ![:clipboard:](https://forum.freecodecamp.com/images/emoji/emoji_one/clipboard.png?v=3 ":clipboard:") NOTES FOR CONTRIBUTIONS:
 
 *   ![:warning:](https://forum.freecodecamp.com/images/emoji/emoji_one/warning.png?v=3 ":warning:") **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
