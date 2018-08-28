@@ -6,12 +6,14 @@ Global variables are declared OUTSIDE the function and its value is accessible/c
 
 You should ALWAYS use **var** to declare your variables (to make locally) else it will install GLOBALLY
 
-example:
-var color = "black";
+Take care with the global variables because they are risky. Most of the time you should use closures to declare your variables.
+Example:
 
-function findColor() {
-  document.write(color);  
-}
+```javascript
+    (function(){
+      var myVar = true;
+    })();
+```
 
 <a href='http://www.w3.org/wiki/JavaScript_best_practices#Avoid_globals' target='_blank' rel='nofollow'>JavaScript Best Practices: Avoid Globals</a>
 
