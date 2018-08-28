@@ -3,13 +3,27 @@ title: Proxies
 ---
 ## Proxies
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/security/proxies/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Proxies are servers or a network of computers that act as an intermediary between a client and a server.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Their are different types of proxies which include but are not limited to:
+<ul>
+ 	<li>Forward Proxies</li>
+ 	<li>Reverse Proxies</li>
+ 	<li>Transparent Proxies</li>
+ 	<li>Web Proxies</li>
+</ul>
+The most commonly known one's today are web proxies which act as an intermediary between a user's computer and the internet.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+The common features of such proxies are:
+<ul>
+ 	<li>To hide a user's IP address providing anonymity while surfing the web.</li>
+ 	<li> Enabling users to access sites with blocked IP addresses.</li>
+</ul>
+
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
+<a href="https://en.wikipedia.org/wiki/Proxy_server" target="_blank" rel="noopener">Proxy Server by Wikipedia</a>
+
+<a href="http://whatis.techtarget.com/definition/proxy-server" target="_blank" rel="noopener">Proxy Server by WhatIs on TechTarget</a>
 
