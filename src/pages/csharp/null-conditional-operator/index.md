@@ -34,3 +34,25 @@ string city = student?.Address?.City;
 ```
 Null-conditional operators are short-circuiting, so as soon as one check of conditional member access
 returns null, the rest do not take place.
+
+# Null-coalescing operator
+Another useful null-checking option is the null-coalescing operator. It returns the left-hand operand if the operand is not null; otherwise it returns the right hand operand.
+
+For example:
+##
+```csharp
+public string GetStringValue()
+{
+    return null;
+}
+
+// Display the value of s if s is NOT null. If x IS null, display the string "It was null."
+
+string x = GetStringValue();
+
+Console.WriteLine(x ?? "It was null.");
+
+// Result:
+
+"It was null."
+```
