@@ -40,3 +40,10 @@ Measures to mitigate threats to availability include:
 - Failover
 - RAID
 - High-availability clusters
+
+Other than the CIA triad, there are also other frequently recurring themes in information security:  
+- non-repudiation: assurance that someone/ something cannot deny something (e.g. one cannot deny the authenticity of a digital signature) 
+- authentication: proving that a person is who they claim to be
+- reliability: confidence that one can depend on a system or process
+- privacy: a generalised counterpart of confidentiality which also address the social consequence of failing to meet the requirement 
+

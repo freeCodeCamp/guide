@@ -1,7 +1,9 @@
 ---
 title: Ternary Operator
 ---
+
 ## Ternary Operator
+
 Programmers use ternary operators in C for decision making inplace of conditional statements **if** and **else**.
 The ternary operator is an operator that takes three arguments. The first argument is a comparison argument, the second is the result upon a true comparison, and the third is the result upon a false comparison. If it helps you can think of the operator as shortened way of writing an if-else statement.
 
@@ -23,7 +25,10 @@ printf("%d", c);
 This example takes more than 10 lines, but that isn't necessary. You can write the above program in just 3 lines of code using the **ternary operator**.
 
 ### Syntax
+
 `condition ? value_if_true : value_if_false`
+
+The statement evalutes to statement\_1 if the condition is true, and statement\_2 otherwise.
 
 Here's the above example re-written to use the ternary operator:
 
@@ -35,5 +40,12 @@ c = (a < b) ? a : b;
 printf("%d", c);
 ```
 
+Output of the example should be:
+
+```c
+10
+```
+
+`c` is set equal to `a`, because the condition `a<b` was true.
 
 This looks pretty simple, right? Do note that `value_if_true` and `value_if_false` must have the same type, and they cannot be full statements but simply expressions.

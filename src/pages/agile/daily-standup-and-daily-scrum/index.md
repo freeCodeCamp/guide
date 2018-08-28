@@ -3,9 +3,11 @@ title: Daily Stand-Up and Daily Scrum
 ---
 ## Daily Stand-Up and Daily Scrum
 
-The Daily Stand-Up (DSU) or Daily Scrum meeting is one of the key ceremonies of the scrum methodology.
+The Daily Stand-Up (DSU) or Daily Scrum meeting is one of the integral parts of scrum methodology.
 
 As the name suggests, you hold the meeting daily, at the same time and, for a co-located team, in the same location. The meeting should be brief, finished in less than 15 minutes.
+
+Only members of the Development team are required to attend the Daily Stand-up. Typically, the Scrum Master and Product Owners will also attend, but they are not required.
 
 The standard agenda for each person is:
 * What have you done since the last DSU
