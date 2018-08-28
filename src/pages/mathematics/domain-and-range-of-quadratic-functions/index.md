@@ -13,3 +13,7 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
 
+
+The values of a, b, and c determine the shape and position of the parabola. The domain of a function is the set of all real values of x that will give real values for y. The range of a function is the set of all real values of y that you can get by plugging real numbers into x.
+
+
