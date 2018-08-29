@@ -143,7 +143,7 @@ Now it's a floating point 12 divided by 5, so this returns a floating point numb
 To turn a number into an `int`, use `(int)`, to turn it into a `double`, use `(double)`, and so on.
 
 ## Math.h
-So that's all the built-in stuff, but just like how you can `#include` stdio and stdbool, you can include a library called `math.h`. This library has all kinds of helpful functions for all kinds of math. It's worth giving a read to [the Wikipedia page on it](https://en.wikipedia.org/wiki/C_mathematical_functions#Overview_of_functions) if you want the full list of functions. Here's an example on how to use `abs`, which is the first in their list:
+So that's all the built-in stuff, but just like how you can `#include` stdio and stdbool, you can include a library called `math.h`. This library has all kinds of helpful functions for all kinds of math. It's worth giving a read to <a href='https://en.wikipedia.org/wiki/C_mathematical_functions#Overview_of_functions' target='_blank' rel='nofollow'>the Wikipedia page on it</a> if you want the full list of functions. Here's an example on how to use `abs`, which is the first in their list:
 
 ```C
 a = abs(-1);
@@ -164,7 +164,7 @@ a = abs(-1);
  * AND is done with &
  * OR is done with  |
  * NOT is done with ~
- * XOR is done with ^
+ * XOR is done with ^ (XOR doesn't work with floating type number in C)
 * Compound assignment operations exist for all of the non-unary operations
  * a += b is the same as a = a + b, and so on
 * Casting allows you to swap between data types
