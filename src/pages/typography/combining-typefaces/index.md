@@ -3,6 +3,18 @@ title: Combining Typefaces
 ---
 ## Combining Typefaces
 
+#### Font Pairing Basics
+
+Which fonts look good together and which ones don't? If you've ever struggled with this question, you're not alone. Learn how to pair different fonts and styles by getting familiar with these clever combos!
+
+#### Try these steps one by one
+
+* Pair a regular and bold font to create a subtle contrast
+* Balance a script font with a bold font
+* Pair a tall and short font to create visual interest
+* Pair fonts with different weights to create a strong contrast
+* Pair a regular and italic font to create emphasis
+
 There are no hard and fast rules for choosing typefaces, but you can often avoid having to choose new typefaces by styling an existing typeface to create a visual hierarchy. When in doubt, keep it simple.
 
 Designers follow different philosophies to determine when and how to combine typefaces.

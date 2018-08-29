@@ -4,9 +4,14 @@ const emojiRE = /^:[a-z_]+:$/;
 
 function markdownToHTML(node) {
   const { url, title, alt } = node;
-  const html = (
-    `<img src="${url}" title="${title}" alt="${alt}" class="forum-image">`
-  );
+  const html = `
+  <img
+    alt="${alt}"
+    class="forum-image"
+    src="${url}"
+    title="${title}"
+    >
+  `;
 
   return Object.assign(node, {
     type: 'html',
