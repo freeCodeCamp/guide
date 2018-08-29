@@ -32,6 +32,7 @@ Pi (<span class="texhtml">π</span>) - A mathematical constant which is approxim
 ###### Given radius of the circle
 
 Area of circle =  <span class="texhtml"><span class="texhtml">π</span> * <i>radius</i><sup>2</sup></span>
+Note: Area of Unit Circle is π (a transcendental number).
 
 ###### Given diameter of the circle
 
