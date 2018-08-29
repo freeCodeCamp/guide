@@ -61,9 +61,8 @@ To access the value of a key in this object, you will use `collection[id][prop]`
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
 
     function updateRecords(id, prop, value) {
-      if (prop === "tracks" && value !== "") {
-       if(collection[id][prop]) {
-        collection[id][prop].push(value);
+      if (prop=== 'tracks' && value!==''){if (Boolean(collection[id][prop])==false){collection[id][prop]=[value];}
+      else {collection[id][prop].push(value);}
        }
        else {
         collection[id][prop]=[value];
