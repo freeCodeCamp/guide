@@ -23,7 +23,7 @@ let result = reRegex.test(repeatNum);
 ```
 will match whole:
 test test test
-bacause:
+because:
 * *\1* repeats (test)
 * *\2* repeats (\s)
 
@@ -34,7 +34,7 @@ let testString = "test test test test test test";
 let reRegex =/(test)(\s)\1\2\1/g;
 let result = reRegex.test(repeatNum);
 ```
-because we used */g*, our Regex don't return after first full match (test test test) and matched all repetitions.
+because we used */g*, our Regex doesn't return after first full match (test test test) and matched all repetitions.
 
 ## Spoiler Alert - Solution Ahead!
 
