@@ -3,8 +3,21 @@ title: Testing Objects for Properties
 ---
 ## Testing Objects for Properties
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-javascript/testing-objects-for-properties/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+My changes:
+Spoiler alert ahead
+-------------------------------------------------------------------------------------------------------------------------------
+// Setup
+var myObj = {
+  gift: "pony",
+  pet: "kitten",
+  bed: "sleigh"
+};
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+function checkObj(checkProp) {
+  // Your Code Here
+  if (checkProp in myObj){return myObj[checkProp];} //this will let the program to check if the input is in myObj, if so, the condition will be executed. 
+  else {return "Not Found";}
+}
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+// Test your code by modifying these values
+checkObj("gift");
