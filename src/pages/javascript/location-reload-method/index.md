@@ -44,11 +44,19 @@ function reloadThePage(){
 ```
 
 
+### Example:
+
+```javascript
+// Reload the current resources from the server
+window.location.reload(true);
+
+// Reload the current resources from the browser's cache
+window.location.reload();
+```
 
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+This will reload the page at the current URL from the server.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+* [MDN](https://developer.mozilla.org/docs/Web/API/Location/reload)
+* [W3 Schools](https://www.w3schools.com/jsref/met_loc_reload.asp)
