@@ -3,11 +3,6 @@ title: SQL General Data Types
 ---
 ## SQL General Data Types
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/sql/sql-general-data-types/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 # SQL Data Types
 Each column in a database table is required to have a name and a data type.
 
@@ -15,7 +10,11 @@ An SQL developer must decide what type of data that will be stored inside each c
 
 # MySQL Data Types
 
-In MySQL there are three main data types: text, number, and date.
+SQL general data types consist of the following: 
+1. A text- and/or numeric-based value, often referred to as a STRING
+2. A numeric-only value, often referred to as an INTEGER
+3. A calendar- and/or clock-based value, often reffered to as DATE or TIME
+4. A database-specific value such as a boolean (two-option) flag, an array that stores multiple values within one data point
 
 ## Text data types:
 | Data type     |Description   |
@@ -54,7 +53,9 @@ In MySQL there are three main data types: text, number, and date.
 | TIMESTAMP()	 | A timestamp. TIMESTAMP values are stored as the number of seconds since the Unix epoch ('1970-01-01 00:00:00' UTC). Format: YYYY-MM-DD HH:MI:SS Note: The supported range is from '1970-01-01 00:00:01' UTC to '2038-01-09 03:14:07' UTC |
 | TIME()	| A time. Format: HH:MI:SS Note: The supported range is from '-838:59:59' to '838:59:59' |
 | YEAR()	| A year in two-digit or four-digit format. Note: Values allowed in four-digit format: 1901 to 2155. Values allowed in two-digit format: 70 to 69, representing years from 1970 to 2069 |
-#### More Information:
+
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
 
+#### More Information:
+More information on the specific data types in SQL can be found in the [SQL Data Types] (https://guide.freecodecamp.org/sql/sql-data-types/) section of freeCodeCamp.
