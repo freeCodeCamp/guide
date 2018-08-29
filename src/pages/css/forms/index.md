@@ -3,13 +3,21 @@ title: Forms
 ---
 ## Forms
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/forms/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+HTML Form element defines a form that is used to collect user input.
+Examples:
+```html
+<form>
+  contents
+</form>
+```
+An HTML form contains form elements.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Form elements are different types of input elements, like text fields, checkboxes, radio buttons, submit buttons, and more.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Inside the form tags there are also some important attribute which are:
+-action : the page that the data will sent to
+-method : type of request which are: 'GET' and 'POST'
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+
 
 
