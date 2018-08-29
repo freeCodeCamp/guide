@@ -10,16 +10,9 @@ It is important to note that these will not effect the html code themselves, and
 
 If no entity name exists, either the entity number or hexadecimal reference can be used.
 
-Examples:
-
-```html
-  <p>nabla by entity: &nabla;</p>
-  <p>nabla by hexadecimal: &#2207;</p>
-  <p>nabla by decimal: &#8711;</p>
-```
-
 ![Common HTML5 Symbols](http://ways2web.weebly.com/uploads/5/4/4/8/54485903/8779038_orig.png)
 
 #### More Information:
-![W3 Schools Reference](https://www.w3schools.com/html/html_symbols.asp)
-![Symbols Reference Chart](https://dev.w3.org/html5/html-author/charref)
+
+* ![W3 Schools Reference](https://www.w3schools.com/html/html_symbols.asp)
+* ![Symbols Reference Chart](https://dev.w3.org/html5/html-author/charref)
