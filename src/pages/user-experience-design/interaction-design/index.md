@@ -25,4 +25,5 @@ When a designer is working on designing a possible solution, they are not just c
 Every prototype that is being designed introduces considerations and tradeoffs in all these dimensions, and there is no obvious way in which they can be sequenced. This notion holds equally for interaction design – Technical decisions influences the aesthetic qualities of the resulting interaction, instrumental choices on features to offer have ethical repercussions, and so on.
 
 #### More Information:
-<a href='https://www.interaction-design.org/literature/book/the-encyclopedia-of-human-computer-interaction-2nd-ed/interaction-design-brief-intro' target='_blank' rel='nofollow'>(Source and more details on IDF)</a>
+<!-- Please add any articles you think might be helpful to read before writing the article -->
+<a href='https://www.interaction-design.org/' target='_blank' rel='nofollow'>Interaction Design Foundation</a>
