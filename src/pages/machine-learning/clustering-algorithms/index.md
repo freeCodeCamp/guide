@@ -3,6 +3,20 @@ title: Clustering Algorithms
 ---
 ## Clustering Algorithms
 
+Clustering algorithms have the task of grouping a set of objects in such a way that objects in the same group (called a cluster) are more similar (in some sense or another) to each other than to those in other groups (clusters). It is a main task of exploratory data mining, and a common technique for statistical data analysis, used in many fields, including machine learning, pattern recognition, image analysis, information retrieval, bioinformatics, data compression, and computer graphics.
+
+## Types of Clustering Algorithms:
+1. Connectivity-based clustering (hierarchical clustering)
+2. Centroid-based clustering (k-means clustering)
+3. Distribution-based clustering 
+4. Density-based clustering 
+
+## Examples 
+1. Alogmerative clustering
+2. k-means clustering
+3. k-mediods clustering
+4. Partition Clustering
+
 ### K-Means Clustering
 
 K-means algorithm is a popular clustering algorithm since it is relatively simple and fast, as opposed to other clustering algorithms. The algorithm is defined as the following:
@@ -62,9 +76,8 @@ plt.show()
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-https://www.datascience.com/blog/k-means-clustering
-
-http://fromdatawithlove.thegovans.us/2013/05/clustering-using-scikit-learn.html
-
-http://datascienceis.life
-
+* [Cluster Analysis](https://en.wikipedia.org/wiki/Cluster_analysis)
+* [Introduction to Clustering and related algorithms](https://www.analyticsvidhya.com/blog/2016/11/an-introduction-to-clustering-and-different-methods-of-clustering/)
+* https://www.datascience.com/blog/k-means-clustering
+* http://fromdatawithlove.thegovans.us/2013/05/clustering-using-scikit-learn.html
+* http://datascienceis.life

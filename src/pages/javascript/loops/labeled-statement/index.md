@@ -7,7 +7,7 @@ The **Labeled Statement** is used with the `break` and `continue` statements and
 
 ### Syntax
 ``` javascript
-labelname: 
+labelname:
   statements
 ```
 ### Usage
@@ -21,56 +21,56 @@ foo: {
 }
 console.log("Because execution jumps to here!")
 /* output
-This prints: 
+This prints:
 Because execution jumps to here! */
 ```
 When used with a `continue` statement the `labeled` statement allows you to skip a loop iteration, the advantage comes from being able to jump out from an inner loop to an outer one when you have nested loop statements. Without the use of a `labeled` statement you could only jump out of the existing loop iteration to the `next iteration of the same loop.`
 #### Example
 ``` javascript
 // without labeled statement, when j==i inner loop jumps to next iteration
-function test(){
-  for(var i= 0; i<3; i++){
-    console.log("i="+i);
-    for(var j=0; j<3; j++){
-      if(j===i){
+function test() {
+  for (var i = 0; i < 3; i++) {
+    console.log("i=" + i);
+    for (var j = 0; j < 3; j++) {
+      if (j === i) {
         continue;
       }
-      console.log("j="+j);
+      console.log("j=" + j);
     }
   }
 }
 
 /* output
 i=0 (note j=0 is missing)
-j=1 
-j=2 
-i=1 
+j=1
+j=2
+i=1
 j=0 (note j=1 is missing)
-j=2 
-i=2 
-j=0 
+j=2
+i=2
+j=0
 j=1 (note j=2 is missing)
 */
 
 // using a labeled statement we can jump to the outer (i) loop instead
-function test(){
-  outer: for(var i= 0; i<3; i++){
-    console.log("i="+i);
-    for(var j=0; j<3; j++){
-      if(j===i){
+function test() {
+  outer: for (var i = 0; i < 3; i++) {
+    console.log("i=" + i);
+    for (var j = 0; j < 3; j++) {
+      if (j === i) {
         continue outer;
       }
-      console.log("j="+j);
+      console.log("j=" + j);
     }
   }
 }
 
 /*
 i=0 (j only logged when less than i)
-i=1 
-j=0 
-i=2 
-j=0 
+i=1
+j=0
+i=2
+j=0
 j=1
 */
 ```

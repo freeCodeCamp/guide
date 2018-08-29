@@ -11,6 +11,10 @@ This translated code is binary code. It is nothing but 1s and 0s. Interpreters t
 To compare, compilers convert all the source code at once to binary code, then run the binary code.
 
 #### More Information:
-<a href="https://medium.freecodecamp.org/a-gentler-introduction-to-programming-707453a79ee8" target="_blank">Matt Adesanya's "A Gentler Introduction to Programming"</a> compares compilers and interpreters, and introduces other basic programming concepts.
+[Matt Adesanya's "A Gentler Introduction to Programming"](https://medium.freecodecamp.org/a-gentler-introduction-to-programming-707453a79ee8) compares compilers and interpreters, and introduces other basic programming concepts.
 
-
+Some Interpreted Languages:
+* [Python](https://en.wikipedia.org/wiki/Python_(programming_language))
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+* [Ruby](https://en.wikipedia.org/wiki/Ruby_(programming_language))
+* [Forth](https://en.wikipedia.org/wiki/Forth_(programming_language))
