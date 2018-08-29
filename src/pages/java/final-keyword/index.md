@@ -15,6 +15,7 @@ class MyClass {
 }
 ```
 PI is now a constant. Any attempt to assign it a value will cause an error.
+
 -----------------------------------------------------------------------------------------
 If you make any method as final, you cannot override it.
 ```java
@@ -34,6 +35,7 @@ class Honda extends Bike{
 
 Output wil be - 
   Output:Compile Time Error
+  
 ---------------------------------------------------------------------------------------
 
 
