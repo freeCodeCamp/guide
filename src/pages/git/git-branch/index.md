@@ -39,7 +39,10 @@ To checkout an existing branch, run the command:
 git checkout BRANCH-NAME
 ```
 
-Generally, Git won't let you checkout another branch unless your working directory is clean, because you would lose any working directory changes that aren't committed. You have three options to handle your changes: 1) trash them (see <a href='https://guide.freecodecamp.org/git/git-checkout/' target='_blank' rel='nofollow'>Git checkout for details</a>), 2) commit them (see <a href='https://guide.freecodecamp.org/git/git-commit/' target='_blank' rel='nofollow'>Git commit for details</a>), or 3) stash them (see <a href='https://guide.freecodecamp.org/git/git-stash/' target='_blank' rel='nofollow'>Git stash for details</a>).
+Generally, Git won't let you checkout another branch unless your working directory is clean, because you would lose any working directory changes that aren't committed. You have three options to handle your changes: 
+1) trash them (see <a href='https://guide.freecodecamp.org/git/git-checkout/' target='_blank' rel='nofollow'>Git checkout for details</a>) or
+2) commit them (see <a href='https://guide.freecodecamp.org/git/git-commit/' target='_blank' rel='nofollow'>Git commit for details</a>) or 
+3) stash them (see <a href='https://guide.freecodecamp.org/git/git-stash/' target='_blank' rel='nofollow'>Git stash for details</a>).
 
 ### Create a New Branch <a name="create-a-new-branch"></a>
 To create a new branch, run the command:
