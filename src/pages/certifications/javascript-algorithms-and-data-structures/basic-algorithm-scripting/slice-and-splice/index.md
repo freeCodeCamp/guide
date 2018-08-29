@@ -7,7 +7,7 @@ title: Slice and Splice
 
 ### ![:checkered_flag:](https://forum.freecodecamp.com/images/emoji/emoji_one/checkered_flag.png?v=3 ":checkered_flag:") Problem Explanation:
 
-We need to copy each element from the first array into the second array starting at the index n. We've also got to ensure that the original arrays are not mutated. We cannot make any changes to the original arrays.
+We need to copy each element from the first array into the second array starting at the index n. We've also got to ensure that the original arrays are not mutated. That is, we cannot make any changes to the original arrays.
 
 #### Relevant Links
 
