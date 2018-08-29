@@ -40,10 +40,9 @@ public stativ void main(String[] args) {
 Getters and setters allow control over the values.  You may validate the given value in the setter before actually setting the value.
 
 
----
-title: Why getter and setter?
----
-By using getter and setter, the programmer can control how his important variables are accessed and updated in a correct manner, such as changing value of a variable within a specified range. Consider the following code of a setter method:
+## Why getter and setter?
+
+By using getter and setter, the programmer can control how their important variables are accessed and updated in a correct manner, such as changing value of a variable within a specified range. Consider the following code of a setter method:
 ```java
 public void setNumber(int num) {
     if (num < 10 || num > 100) {
