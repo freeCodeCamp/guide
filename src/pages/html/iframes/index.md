@@ -18,6 +18,7 @@ Listed below are some of the `<iframe>`'s attributes:
 | `width` | The width of the frame in CSS pixels |
 
 ### Examples
+Any user can move around in the iframe so be careful how you use them
 Embedding a YouTube video with an `<iframe>`:
 ```html
 <iframe width="560" height="315" src="https://www.youtube.com/embed/v8kFT4I31es" 
