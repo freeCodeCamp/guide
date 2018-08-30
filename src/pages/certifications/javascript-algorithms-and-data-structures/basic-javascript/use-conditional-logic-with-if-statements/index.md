@@ -42,7 +42,7 @@ function trueOrFalse(wasThatTrue) {
 The function first evaluates `if` the condition `(wasThatTrue)` evaluates to `true`. If it does, ir returns the statement between the curly braces. If it doesn't, it returns the next `return` statement outside them. 
 
 ### Resources
-- [MDN glossary - Boolean](https://developer.mozilla.org/en-US/docs/Glossary/Boolean)
+- ["Boolean" - MDN Glossary](https://developer.mozilla.org/en-US/docs/Glossary/Boolean)
 
-- [MDN JS - if...else](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
+- ["if...else" - MDN JavaScript reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
 
