@@ -27,6 +27,16 @@ Learn the most common font types (Geometric Sans, Humanist Sans, Oldstyle, Trans
 
 In the end, guidelines can only take you so far. Creativity and surprise are important components of design work. As much as you pay attention to standards and convention, pay attention to outliers. Study how and why they break the rules to inform your own rule-breaking.
 
+## Tips for quickly choosing a Typeface
+* Plan Your Hierarchy
+* Consider What Others Have Done Already
+* Experiment the Easy Way
+* Avoid Anachronisms
+* Avoid Trite Correlations
+* Consider an Extended Type Family
+* Stick With the Classic Combinations
+* Use a Limited Palette
+
 #### Sources
 
 1. Dan Meyer, [What Font Should I Use? 5 Principles for Choosing and Using Typefaces](https://www.smashingmagazine.com/2010/12/what-font-should-i-use-five-principles-for-choosing-and-using-typefaces/), smashingmagazine.com, 2010.
@@ -34,4 +44,7 @@ In the end, guidelines can only take you so far. Creativity and surprise are imp
 #### More Information:
 
 [20 Perfect Type Pairings](http://www.creativebloq.com/typography/20-perfect-type-pairings-3132120)
+
+#### More Information:
+* [Smashing Magazine article - How to choose a typeface](https://www.smashingmagazine.com/2011/03/how-to-choose-a-typeface/)
 

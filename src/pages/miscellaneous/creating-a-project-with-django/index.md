@@ -72,13 +72,13 @@ So let's go ahead and install Django first into our testing environment (taskpla
 
 To create our functional tests we are going to need a few things. First, we need to have the Firefox web browser installed in our machine. If you don't have Firefox, install that now.
 
-**Sidenote**: You can use Chrome for integration testing, but you have to download the driver [here</a> and follow <a href='http://stackoverflow.com/questions/13724778/how-to-run-selenium-webdriver-test-cases-in-chrome' target='_blank' rel='nofollow'>this stack overflow question</a>. Firefox has had historically better performance than chrome when running integration tests, which is a very important consideration since compared to unit tests, integration tests are extremely slow.
+**Sidenote**: You can use Chrome for integration testing, but you have to download the driver [here](https://sites.google.com/a/chromium.org/chromedriver/downloads) and follow [this stack overflow question](http://stackoverflow.com/questions/13724778/how-to-run-selenium-webdriver-test-cases-in-chrome). Firefox has had historically better performance than chrome when running integration tests, which is a very important consideration since compared to unit tests, integration tests are extremely slow.
 
 This is because integration tests are testing the **entire** system, rather than 'units' (small components). In the real world, sometimes it's best to avoid integration tests because of the long development time to create them, slow run time, ambiguous errors, and other reasons you would discover in time.
 
 However, they are still worth our consideration when developing a real world app, and can be very useful in terms of reliability despite the performance downsides.
 
-Next, we need to install a package called <a href='http://selenium.googlecode.com/svn/trunk/docs/api/py/index.html' target='_blank' rel='nofollow'>Selenium</a>. This package will provide us with a WebDriver so we can control a browser with our tests. Selenium is usually used to automate your browser.
+Next, we need to install a package called [Selenium](http://selenium.googlecode.com/svn/trunk/docs/api/py/index.html). This package will provide us with a WebDriver so we can control a browser with our tests. Selenium is usually used to automate your browser.
 
     pip install selenium
 
@@ -195,3 +195,10 @@ You should see the following.
 Our first passing test!
 
 We've covered a lot in this article. We created our first project, set up virtual environments for both development and testing purposes, wrote our first functional test, and followed the Test-driven development process by writing a failing test, and then making it making it pass.
+
+## Using starter templates
+You can save yourself a lot of time by kickstarting your project with a django starter template. These projects use best practices that will save you headaches later when your project grows.
+Some of the more popular projects are
+- [Cookiecutter](https://github.com/pydanny/cookiecutter-django)
+- [Hackathon starter](https://github.com/DrkSephy/django-hackathon-starter)
+- [Edge](https://github.com/arocks/edge)
