@@ -56,7 +56,7 @@
 }
 
 .breadcrumb > li + li:before {
-  content: '\f105';
+  content: '\203A';
   color: #555;
 }
 
