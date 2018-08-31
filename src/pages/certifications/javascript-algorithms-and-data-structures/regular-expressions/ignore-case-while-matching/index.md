@@ -2,7 +2,7 @@
 title: Ignore Case While Matching
 ---
 ## Ignore Case While Matching
-### Solution:
+### Solution: 
 ```javascript
 let myString = "freeCodeCamp";
 let fccRegex = /freeCodeCamp/i; // Change this line
