@@ -3,8 +3,14 @@ title: Match a Literal String with Different Possibilities
 ---
 ## Match a Literal String with Different Possibilities
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/regular-expressions/match-a-literal-string-with-different-possibilities/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Solution:
+```javascript
+let petString = "James has a pet cat.";
+let petRegex = /dog|cat|bird|fish/; // Change this line
+let result = petRegex.test(petString);
+```
+### Explain:
+You should be using the alternation or `OR` operator: `|` to find the strings that you interested in. 
+The `OR` operator will return true if **any** is true.
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
