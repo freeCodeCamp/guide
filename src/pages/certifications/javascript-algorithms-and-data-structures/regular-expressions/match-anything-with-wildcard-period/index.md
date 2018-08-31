@@ -18,3 +18,4 @@ let result = unRegex.test(exampleStr);
 ```
 ## Explaination
 The period `.` will be any one character so the strings "run", "sun", "fun" and "pun" have the same un charaters.
+
