@@ -134,6 +134,51 @@ Enter your score:
 85
 Good performance
 ```
+### Another example of if...else if...else ladder
+Suppose we have the user input two numbers and we are going to display if either number is greater than the other. And if neither is greater than the other, then we print the statement "Both are equal".
+
+In this scinerio we will need an if...else if...else ladder statement. The program will look like this :
+
+```
+#include<iostream>
+using namespace std;
+int main()
+{
+	int number1,number2;
+	cout << "Enter first number: \n";
+	cin >> number1;
+	cout << "Enter second number: \n";
+	cin >> number2;
+
+	if(number1 > number2)     // Checks if the first number is greater than the second number
+	{
+		cout << "Number 1 is greater.";
+	}
+	else if(number2 > number1)    // Checks if the second number is greater than the first number
+	{
+		cout << "Number 2 is greater.";
+	}
+	else    // If both of the above cases return false, then both numbers are equal
+	{
+		cout << "Both the numbers are equal.";
+	}
+
+	return 0;
+}
+```
+
+#### Output
+```
+Enter first number:
+85
+Enter second number:
+86
+Number 2 is greater.
+```
+
+* Note that the program will only check the 'else if' condition when the initial 'if' condition is not satisfied. And if neither of these conditions are satisfied, the last 'else' block gets executed which prints the statement: "Both the numbers are equal.". 
+
+* The size of the if...else if...else ladder may vary depending on the problem the program is trying to solve and the number of conditions that need to be checked.
 
 _CONGRATULATIONS . This is the end of the article on the IF statement_ 
 
