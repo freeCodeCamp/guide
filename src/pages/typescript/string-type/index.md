@@ -47,6 +47,6 @@ let names: string = 'Harvey Specter';
 let substring: string = names.substring(3,10);
 //substring = 'rvey Spe'
 ```
-
+ 
 
  [More methods and description at TutorialsPoint](https://www.tutorialspoint.com/typescript/typescript_strings.htm)
