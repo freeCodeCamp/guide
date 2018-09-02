@@ -3,8 +3,18 @@ title: Remove Items Using splice()
 ---
 ## Remove Items Using splice()
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-data-structures/remove-items-using-splice/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+- The `splice()` function must be called on the `arr` array in order to remove 1 or more elements from the center of the array.
+- The array `arr` currently adds up to the value of 16. Simply remove as many variables neccessary to return 10.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+## Solution:
+```javascript
+function sumOfTen(arr) {
+  // change code below this line
+  arr.splice(1,2);
+  // change code above this line
+  return arr.reduce((a, b) => a + b);
+}
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+// do not change code below this line
+console.log(sumOfTen([2, 5, 1, 5, 2, 1]));
+```
