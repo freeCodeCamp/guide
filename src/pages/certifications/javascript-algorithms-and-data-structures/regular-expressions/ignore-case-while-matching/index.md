@@ -2,9 +2,16 @@
 title: Ignore Case While Matching
 ---
 ## Ignore Case While Matching
-
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/regular-expressions/ignore-case-while-matching/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+In this challenge, I will write a regex fccRegex to match "freeCodeCamp", no matter its case. 
+Your regex should not match any abbreviations or variations with spaces.
+## Hint 1:
+The i flag is the key for this challenge, you should put it on the right position.
+## Spoiler Alert - Solution Ahead!
+
+## Solution
+```javascript
+let myString = "freeCodeCamp";
+let fccRegex = /freeCodeCamp/i; // Change this line
+let result = fccRegex.test(myString);
+```
