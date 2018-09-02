@@ -11,7 +11,8 @@ OBJECT[{KEY}] = {VALUE}
 
 - The above code will create a ney `key-value` within the object. 
 
-```Solution
+## Solution
+```javascript
 let foods = {
   apples: 25,
   oranges: 32,
