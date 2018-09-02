@@ -23,3 +23,11 @@ console.log(array1.reduce(reducer, 5));   // expected output: 15
 ```
 
 You can see and run this code at [Array.prototype.reduce()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce).
+
+## Solution:
+
+```javascript
+let myArray = [1, 2, 3];
+let arraySum = myArray.reduce((previous, current) =>  previous + current);
+console.log(`Sum of array values is: ${arraySum}`);
+```
