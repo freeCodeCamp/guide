@@ -7,7 +7,7 @@ title: Catch Use of Assignment Operator Instead of Equality Operator
 - The `=` operator on its own is only used to assign values, not to compare them. 
 
 ## Solution
-``javascript
+```javascript
 let x = 7;
 let y = 9;
 let result = "to come";
