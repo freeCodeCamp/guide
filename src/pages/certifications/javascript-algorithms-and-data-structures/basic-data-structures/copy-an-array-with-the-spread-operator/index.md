@@ -4,7 +4,7 @@ title: Copy an Array with the Spread Operator
 ## Copy an Array with the Spread Operator
 
 - The final hint in the example tells you to use a recently learned method.
-- The spread operator all elements into a new empty object. 
+- The spread operator copies all elements into a new empty object. 
 
 ```javascript 
 while (num >= 1) {
