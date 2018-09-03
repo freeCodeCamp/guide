@@ -3,8 +3,26 @@ title: Check For The Presence of an Element With indexOf()
 ---
 ## Check For The Presence of an Element With indexOf()
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-data-structures/check-for-the-presence-of-an-element-with-indexof/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+- A simple `if-statement` can be used to check whether or not the value returned by the `indexOf()` function is less than 0.
+- Once the value is discovered then you can return either `true` or `false`.
+- `Solution-1` demonstrates how a simple `if-statement` can return the correct result.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+## Solution-1:
+```javascript
+function quickCheck(arr, elem) {
+  if(arr.indexOf(elem)>=0) {
+    return true;
+  }
+  return false;
+}
+console.log(quickCheck(['squash', 'onions', 'shallots'], 'mushrooms'));
+```
+- `Solution-2` demonstrates how the problem can be solved using the `? : (conditional)` operator.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+## Solution-2:
+```javascript
+function quickCheck(arr, elem) {
+return arr.indexOf(elem) >= 0 ? true : false;
+}
+console.log(quickCheck(['squash', 'onions', 'shallots'], 'mushrooms'));
+```
