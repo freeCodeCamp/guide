@@ -180,8 +180,6 @@ Number 2 is greater.
 
 * The size of the if...else if...else ladder may vary depending on the problem the program is trying to solve and the number of conditions that need to be checked.
 
-_CONGRATULATIONS . This is the end of the article on the IF statement_ 
-
 **Good Luck to all of you** 
 
 **Happy Coding ! :)**
