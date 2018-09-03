@@ -6,11 +6,7 @@ title: Create complex multi-dimensional arrays
 - The first string - `deep` - must be inserted three levels deep. This means within exactly threes sets of `[square-brackets]`.
 
 ```javascript
-let threeLevelArray [ "first level",
-  ["Two levels deep"],
-    ["Three levels deep"]
-  ]
-]
+let threeLevelArray = ["first level", ["Two levels deep", ["Three levels deep"]]];
 ```
 - Using this logic insert strings `deep` , `deeper` and `deepest` in the matrix three levels deep, four levels deep and five levels deep respectively.
 
