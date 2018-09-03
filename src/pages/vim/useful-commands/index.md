@@ -59,6 +59,18 @@ __Undo__: Press `u` or type in `:undo` and press `Enter`.
 
 __Redo__: Press `U` (`Shift` + `u`) or type in `:redo` and press `Enter`.
 
+## Motion Commands
+- `^` - Move to the beginning of a line.
+- `$` - Move the the end of a line.
+- `h` - Move left.
+- `l` - Move right.
+- `k` - Move to the previous line.
+- `j` - Move to the next line.
+- `w` - Move Forward 1 word.
+- `b` - Move back 1 word.
+- `5w` - Move forward 5 words
+- `Shift-G` - Move to last line of a file
+
 ## Bare minimum functionality
 
 Most likely you'll find yourself in "normal" mode, it allows you to enter commands by pressing the colon `:` key.
