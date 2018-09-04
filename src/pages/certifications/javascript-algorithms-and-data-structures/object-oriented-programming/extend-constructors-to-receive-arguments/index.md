@@ -3,8 +3,19 @@ title: Extend Constructors to Receive Arguments
 ---
 ## Extend Constructors to Receive Arguments
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/object-oriented-programming/extend-constructors-to-receive-arguments/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+### Method:
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Just like in the `Bird()` example, the `Dog()` function must takle two parameters - `name` and `color`. The name and color must then be initialised within the function using the `this` keyword. The final property - `numLegs` is set to 4 as the function doesn't take in a numLegs parameter.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### Solution:
+
+```javascript
+
+function Dog(name, color) {
+  this.name = name;
+  this.color = color;
+  this.numLegs = 4;
+}
+let terrier = new Dog("George","White");
+
+```
