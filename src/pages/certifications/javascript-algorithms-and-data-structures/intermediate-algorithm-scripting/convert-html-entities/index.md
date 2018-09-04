@@ -111,13 +111,11 @@ Explain solution here and add any relevant links
         '&':'&amp;',
         '<':'&lt;',
         '>':'&gt;',
-        '\"':'&quot;',
+        '"':'&quot;',
         '\'':"&apos;"
       };
       //Use map function to return a filtered str with all entities changed automatically.
-      return str.split('').map(function(entity){
-        return htmlEntities[entity] || entity;
-      }).join('');
+      return str.split('').map(entity => htmlEntities[entity] || entity).join('');
     }
 
     // test here
