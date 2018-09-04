@@ -5,7 +5,7 @@ title: Define a Constructor Function
 
 ### Method:
 
-The `Dog()` function should be written in the exact same format as the `Bird()` fuction given in the example. Simply replace `Bird` with `Dog` to pass all test cases.
+The `Dog()` function should be written in the exact same format as the `Bird()` function given in the example. Simply replace `Bird` with `Dog` to pass all test cases.
 
 ### Solution:
 
