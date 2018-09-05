@@ -60,19 +60,20 @@ Leave your `return "No such contact"` out of the `for` loop as a final catch-all
     for (var x = 0; x < contacts.length; x++){
         if (contacts[x].firstName === name) {
             if (contacts[x].hasOwnProperty(prop)) {
-                return contacts[x][prop];
+               return contacts[x][prop];
             } else {
                 return "No such property";
             }
         }
     }
     return "No such contact";
+    }
 
 ### Code Explanation:
 
 *   The `for` loop runs, starting at the first object in the **contacts** list.
 *   If the **firstName** parameter passed into the function matches the value of the `"firstName"` key in the first object, the `if` statement passes.
-*   Then, we use `.hasOwnProperty()` method (checks if there's a given property and returns a boolean) with **prop** as an argument. If it's true, the value of **prop** is returned.
+*   Then, we use `.hasOwnProperty() or Boolean()==true/false` method (checks if there's a given property and returns a boolean) with **prop** as an argument. If it's true, the value of **prop** is returned.
     *   If the second `if` statement fails, `No such property` is returned.
 *   If the first `if` statement fails, the `for` loop continues on to the next object in the **contacts** list.
 *   If the **firstName** parameter isn't matched by the final **contacts** object, the `for` loop exits and `No such contact` is returned.
