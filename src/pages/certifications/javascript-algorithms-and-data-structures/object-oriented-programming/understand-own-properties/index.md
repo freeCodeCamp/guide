@@ -3,8 +3,23 @@ title: Understand Own Properties
 ---
 ## Understand Own Properties
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/object-oriented-programming/understand-own-properties/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+### Method:
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+In the example code given you will see a new array `ownProps[]` intialised followed by a `for...in` statement to loop through the properties of `duck` and then use a `push()` statement to fill in the new array. The same method must be followed for the `canary` object. 
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Simply replace the `duck` object in the 'for...in' statement with the `canary`object to pass all test cases.
+
+### Solution:
+
+```javascript
+
+let canary = new Bird("Tweety");
+let ownProps = [];
+// Add your code below this line
+for(let property in canary) {
+  if(canary.hasOwnProperty(property)) {
+    ownProps.push(property);
+  }
+}
+
+```
