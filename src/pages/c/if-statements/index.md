@@ -42,6 +42,8 @@ Just like helloworld.c, stdio.h has been included. New in this program is stdboo
 Also new in the above example is that 'if' statement. If the statement within the parenthesis is true, the code within the brackets of the if statement will be run. In the case of this example, true is true, so the code will run the `printf` function.
 
 ## If-else
+In the 'If-else' statement, If the statement within the parenthesis is true, the code within the brackets of the 'if' statement will be executed and if the statement within the parenthesis is false, the code within the brackets of the 'else' statement will be executed.
+
 Of course, that example wasn't very useful, because true is always true. Here's another one that's a bit more practical:
 
 ```C

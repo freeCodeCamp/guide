@@ -134,6 +134,26 @@ def binary_search(target, array)
 end
 ```
 
+Here is another implementation in Javascript:
+
+```Javascript
+function binary_search(a, v) {
+    function search(low, high) {
+        if (low === high) {
+            return a[low] === v;
+        } else {
+            var mid = math_floor((low + high) / 2);
+            return (v === a[mid]) 
+                   ||
+                   (v < a[mid]) 
+                   ? search(low, mid - 1)
+                   : search(mid + 1, high);
+        }
+    }
+    return search(0, array_length(a) - 1);
+}
+```
+
 ### More Information
 * [Binary search (YouTube video)](https://youtu.be/P3YID7liBug)
 * [Binary Search - CS50](https://www.youtube.com/watch?v=5xlIPT1FRcA)

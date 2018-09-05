@@ -3,8 +3,14 @@ title: Positive and Negative Lookahead
 ---
 ## Positive and Negative Lookahead
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/regular-expressions/positive-and-negative-lookahead/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+- Remeber to use 2 `lookaheads` to check the patterns in the string. The first `lookahead` is very similar to that given in the example - '(?=\w{3,6})' - only the `lower-number` 3 is too low for our test cases, and an `upper-number` is completely unneccesarry. This first `lookahead` is only used to find a string consisting of a certain amount of characters. A second `lookahead` must be used to check for consecutive numerical values at the end of the string.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+- The second `lookahead` is also similar to that given in the example - `(?=\D*\d)` - however, this expression too must be modified to pass all test cases. Remember to specify the exact amount of numbers you want to appear at the end of the string. 
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+## Solution : 
+
+```javascript
+let sampleWord = "astronaut";
+let pwRegex = /(?=\w{5,})(?=\D*\d{2})/;
+let result = pwRegex.test(sampleWord);
+```

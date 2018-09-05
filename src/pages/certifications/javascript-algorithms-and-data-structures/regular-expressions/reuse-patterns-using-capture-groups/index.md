@@ -2,9 +2,12 @@
 title: Reuse Patterns Using Capture Groups
 ---
 ## Reuse Patterns Using Capture Groups
+- The regular expression - `(\w+)\s\1` - will have to be modified to allow for 2 white spaces seperating 3 numbers.
+- Also the shorthand character for digits `\d` must be used as oposed to the shorthand `\w` used in the example.
+## Solution:
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/regular-expressions/reuse-patterns-using-capture-groups/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```javascript
+let repeatNum = "42 42 42";
+let reRegex =  /^(\d+)\s\1\s\1$/;
+let result = reRegex.test(repeatNum);
+```

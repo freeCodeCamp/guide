@@ -2,6 +2,9 @@
 title: Create Strings Using Template Literals
 ---
 
+<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Instead of using string concatenation, ES6 offers template literals to create strings. In this challenge, you have to use template literals to create an array of text warnings.
+
 ![:triangular_flag_on_post:](https://forum.freecodecamp.com/images/emoji/emoji_one/triangular_flag_on_post.png?v=3 ":triangular_flag_on_post:") Remember to use <a>**`Read-Search-Ask`**</a> if you get stuck. Try to pair program and write your own code.
 
 ### Problem Explanation:
@@ -27,5 +30,4 @@ It's required to use template literals to return a list as every element in the 
 **Solution ahead!**
 
 ```const resultDisplayArray = arr.map(item => `<li class="text-warning">${item}</li>`);```
-
 

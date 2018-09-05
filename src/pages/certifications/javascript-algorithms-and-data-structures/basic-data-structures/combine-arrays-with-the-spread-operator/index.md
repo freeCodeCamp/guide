@@ -3,8 +3,16 @@ title: Combine Arrays with the Spread Operator
 ---
 ## Combine Arrays with the Spread Operator
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-data-structures/combine-arrays-with-the-spread-operator/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+- The solution is exactly like the example given. Simply insert the `fragment[]` array into the `sentence[]` array at the desired index.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+## Solution:
+```javascript
+function spreadOut() {
+  let fragment = ['to', 'code'];
+  let sentence = ["learning", ...fragment, "is", "fun"]; // change this line
+  return sentence;
+}
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+// do not change code below this line
+console.log(spreadOut());
+```

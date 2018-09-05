@@ -48,7 +48,7 @@ It couldn't be anymore simple! Well, this isn't actually 100% true, we could mak
 $ rails s
 ```
 
-5. Now, with your preferred brower, go to `http://localhost:3000` and you'll see: "Yay! You’re on Rails!"
+5. Now, with your preferred browser, go to `http://localhost:3000` and you'll see: "Yay! You’re on Rails!"
 
 ### Alternative method for creating a Rails application  
 
@@ -75,3 +75,4 @@ $ rails s
 
 ## Ruby on Rails is open source 
 Not only is it free to use, you can also help make it better. More than 4,500 people have already contributed code to [Rails](https://github.com/rails/rails). It’s easier than you think to become one of them.
+

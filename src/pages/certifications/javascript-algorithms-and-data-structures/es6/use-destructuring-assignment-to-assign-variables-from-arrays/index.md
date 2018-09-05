@@ -3,8 +3,11 @@ title: Use Destructuring Assignment to Assign Variables from Arrays
 ---
 ## Use Destructuring Assignment to Assign Variables from Arrays
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/es6/use-destructuring-assignment-to-assign-variables-from-arrays/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+We have to take some precaution in this case.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+1. No need of const [b,a] as it will keep the effect of assignment local.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+2. const [b,a] = [a,b] will result in the value of a,b as undefined(simple assignment rule left to right).
+
+Hence the solution to this problem is 
+[b,a] = [a,b]

@@ -3,8 +3,6 @@ title: Refactor Global Variables Out of Functions
 ---
 ## Refactor Global Variables Out of Functions
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/functional-programming/refactor-global-variables-out-of-functions/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+If you're having trouble with changing bookList, try using a copy of the array in your functions. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Here's some more information about [how JavaScript handles function arguments](https://codeburst.io/javascript-passing-by-value-vs-reference-explained-in-plain-english-8d00fd06a47c).

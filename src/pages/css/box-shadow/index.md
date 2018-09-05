@@ -75,3 +75,6 @@ div {
 It uses very similar code, but with inset value, which displays shadow inside the div element
 
 ![image](https://raw.githubusercontent.com/krzysiekh/images/master/box-shadow2.png)
+
+#### More Information
+Docs: [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow)
