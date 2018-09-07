@@ -36,6 +36,17 @@ Often the code would not work the way you expect it due to wrong variable names,
 
 > _try to solve the problem now_
 
+## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 4
+
+If you are having problems with writing the `setter` methods, below is a template for a `set` method:
+```
+this.setFullName = function(input) {
+  // Insert your code here
+}
+```
+
+> _try to solve the problem now_
+
 ## Spoiler Alert!
 
 ![warning sign](//discourse-user-assets.s3.amazonaws.com/original/2X/2/2d6c412a50797771301e7ceabd554cef4edcd74d.gif)
