@@ -1,9 +1,7 @@
 ---
 title: Free Code Camp Logo
 ---
-<div class="lightbox-wrapper">[![Free Code Camp's logo](//discourse-user-assets.s3.amazonaws.com/optimized/2X/c/cf6e8e0a75acb7aa900eb304270a6407ae1d9e2c_1_690x388.jpg)
-
-<div class="meta"><span class="filename">520129377_1280x720.jpg</span><span class="informations">1280x720 17 KB</span><span class="expand"></span></div>](//discourse-user-assets.s3.amazonaws.com/original/2X/c/cf6e8e0a75acb7aa900eb304270a6407ae1d9e2c.jpg "520129377_1280x720.jpg") </div>
+![Free Code Camp's logo](//discourse-user-assets.s3.amazonaws.com/original/2X/c/cf6e8e0a75acb7aa900eb304270a6407ae1d9e2c.jpg)
 
 It uses the typeface 'saxmono'.
 
