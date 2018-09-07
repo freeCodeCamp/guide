@@ -4,6 +4,7 @@ title: Where to Get Fonts
 ## Where to Get Fonts
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+
 Online font services like Google Fonts or Font Squirrel provide an easy way to use different fonts on your site without the need to worry about whether or not the person viewing your site will have the font available on their system. 
 
 ### Downloaded Fonts
