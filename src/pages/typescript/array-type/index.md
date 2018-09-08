@@ -20,7 +20,7 @@ let names: Array<string> = ['Javier', 'Emma', 'John', 'Sophia', 'Emma'];
 ```
 
 ## Built-in methods
-In Typescript's type you can use some built-in functions. Each type has common and unique methods.
+In Typescript's Array type you can use some built-in functions. Each type has common and unique methods.
 Below you can read about the most used ones of the array type's methods. In the example, we will use the array declaration from above.
 
 ### pop()
