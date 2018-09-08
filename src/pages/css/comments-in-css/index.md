@@ -21,10 +21,12 @@ The comment syntax in CSS works for both single and multi-line comments. You can
         clear: both;
     }
 ```
+
 By using CSS comments to make your stylesheets more readable, the CSS will be easier to maintain in the future for you or another developper. 
 It’s good practice to use CSS comments to help identify parts of any stylesheet that might be difficult to understand for someone who didn't write the code. 
 
-You can also make your comments more readable by stylizing it
+You can also make your comments more readable by stylizing it.  
+
 ```css
 /*
 ***
@@ -36,6 +38,58 @@ You can also make your comments more readable by stylizing it
 * The asterisk around the paragraph make it more readable.
 ***
 */
+
+You can add as many comments to your stylesheet as you like. It’s good practice to use CSS comments to help identify parts of any stylesheet that might be difficult to understand from a cursory glance. Comments are especially important when working in a team, when your code must be understood by others. By using CSS comments to make your stylesheets more readable, the CSS will be easier to maintain in the future.
+
+## Comment Formats
+
+Comments should be used everyday in your CSS to keep in maintainable and readable by any dev who dives into said CSS.
+Here are a few exmples to get you started of CSS comments you can use in your daily work to make your life that bit easier.
+
+``` css
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+   CSS TABLE OF CONTENTS
+   
+   1.0 - Reset
+   2.0 - Fonts
+   3.0 - Globals
+   4.0 - Color Palette
+   5.0 - Header
+   6.0 - Body
+       6.1 - Sliders
+       6.2 - Imagery
+   7.0 - Footer
+   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/****************************************************************************
+1.0 - Reset */
+
+/****************************************************************************
+2.0 - Fonts */
+
+/****************************************************************************
+3.0 - Globals */
+
+/****************************************************************************
+4.0 - Color Palette */
+
+/****************************************************************************
+5.0 - Header */
+
+/****************************************************************************
+6.0 - Body */
+
+    /************************************************************************
+    5.1 - Sliders */
+    
+    /************************************************************************
+    5.2 - Imagery */
+    
+/****************************************************************************
+7.0 - Footer */
+``` css
 
 h2 {
     font-size: 1.2em;
