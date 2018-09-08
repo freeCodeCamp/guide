@@ -97,7 +97,7 @@ Position the marker `outside` of the list item element, and all text lines and s
 >   list-style-position: outside; /* default */
 > }
 > ```
-> <img src="https://github.com/kayfo23/imgs-for-fcc-guide/blob/master/list-style-position-inside.png?raw=true" width="350" title="list-style-position outside">
+> <img src="https://github.com/kayfo23/imgs-for-fcc-guide/blob/master/list-style-position-outside.png?raw=true" width="350" title="list-style-position outside">
 
 Position the marker `inside`, and the first text line of each list item will be indented to make room for the marker. Any sub-lines of the same list item will align with the marker rather than the first text line: 
 
@@ -107,7 +107,7 @@ Position the marker `inside`, and the first text line of each list item will be 
 >   list-style-position: inside;
 > }
 > ```
-> <img src="https://github.com/kayfo23/imgs-for-fcc-guide/blob/master/list-style-position-outside.png?raw=true" width="350" title="list-style-position inside">
+> <img src="https://github.com/kayfo23/imgs-for-fcc-guide/blob/master/list-style-position-inside.png?raw=true" width="350" title="list-style-position inside">
 
 #### `list-style-image`
 
@@ -154,7 +154,7 @@ Note that any styles added to the `ul` or `ol` element will affect the entire li
 >   background-color: lightyellow;
 > }
 > ```
-> <img src="https://github.com/kayfo23/imgs-for-fcc-guide/blob/master/border-styles.png?raw=true" width="350" title="list-style general styling">
+> <img src="https://github.com/kayfo23/imgs-for-fcc-guide/blob/master/list-styles.png?raw=true" width="350" title="list-style general styling">
 
 #### List Spacing
 
