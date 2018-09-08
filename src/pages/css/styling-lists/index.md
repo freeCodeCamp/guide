@@ -25,7 +25,7 @@ In **Unordered** lists (`<ul></ul>`), the order of the list items does not matte
 
 Each list item within and ordered or unordered is surrounded by the `<li></li>` tag.
 
-### Styling List Item Markers
+### List-Specific Styles
 
 #### `list-style-type`
 
@@ -131,16 +131,47 @@ The `list-style-image` property accepts an image url in place of the list marker
 > ```
 > <img src="https://github.com/kayfo23/imgs-for-fcc-guide/blob/master/list-style-shorthand.png?raw=true" width="350" title="list-style shorthand">
 
-### Additional Styling
+####  Additional List-Specific Styling
 
-There are many more various ways to style lists besides the list marker. `color`, `font-family`, `margin`, `padding`, `border` are just a few examples of properties that can be added to either the `ul`, `ol` or `li` elements that make up the list.
+Certain attributes can also be added to the list element to control the flow, count, or specific values of ordered list items, such as the `start`, `reversed`, and `value` attributes. See the MDN resources listed below for further details.
 
-Note that any styles added to the `ul` or `ol` element will affect the entire list, while any styles added directly to the `li` elements will affect the individual list items. An example of changing the `border` property between the list and list item elements is below:
+### General Styling
+
+There are many more ways to style lists besides the list marker. `color`, `font-family`, `margin`, `padding`, `border` are just a few examples of properties that can be added to either the `ul`, `ol`, or `li` elements that make up the list.
+
+Note that any styles added to the `ul` or `ol` element will affect the entire list, while any styles added directly to the `li` elements will affect the individual list items. For example, the `border` and `background-color` properties have been styled differently between the list and list item elements below:
 
 > ```css
 > /* css */
-***HERE***
-> <img src="https://github.com/kayfo23/imgs-for-fcc-guide/blob/master/list-style-shorthand.png?raw=true" width="350" title="list-style shorthand">
+> ul {
+>   list-style-type: circle;
+>   border: 2px solid blue;
+>   background-color: lightblue;
+> }
+> li {
+>   margin: 5px;
+>   background-color: lightyellow;
+> }
+> ```
+> <img src="https://github.com/kayfo23/imgs-for-fcc-guide/blob/master/border-styles.png?raw=true" width="350" title="list-style general styling">
+
+#### List Spacing
+
+You may notice after choosing to hide the list markers there still remains extra spacing in front of the list items. To override the default padding or margin of lists, one solution is to set `margin` and `padding` to `0` and then adjust as needed. 
+
+> ```css
+> /* css */
+> ul {
+>   list-style: none;
+>   padding: 0;
+> }
+> li {
+>   padding: 5px 10px;
+>   background-color: #EEEEEE;
+>   border: 1px solid #DDDDDD;
+> }
+> ```
+> <img src="https://github.com/kayfo23/imgs-for-fcc-guide/blob/master/list-style-padding.png?raw=true" width="350" title="list-style general styling">
 
 ---
 ### Sources:
