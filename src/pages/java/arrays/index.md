@@ -3,7 +3,7 @@ title: Arrays
 ---
 # Array
 
-An Array is used to store a collection of similar datatypes. Arrays always start with the index of 0. 
+An Array is used to store a collection of similar data types. Arrays always start with the index of 0. 
 
 **Syntax:**
 
