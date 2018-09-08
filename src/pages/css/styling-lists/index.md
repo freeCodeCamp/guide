@@ -15,7 +15,7 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 
 There are two main types of lists in HTML &mdash; **Ordered** and **Unordered**.
 
-In **Ordered** lists (<ol></ol>), the order of the list items is important. The items may appear in order by number, roman numeral, alpha numeral, or another type of marker. The default markers for ordered lists is a number (or decimal):
+In **Ordered** lists (`<ol></ol>`), the order of the list items is important. The items may appear in order by number, roman numeral, alpha numeral, or another type of marker. The default marker for ordered lists is a number (or `decimal`):
 
 > <img src="https://github.com/kayfo23/imgs-for-fcc-guide/blob/master/ordered-list.png?raw=true" width="350" title="ordered list">
 
@@ -83,7 +83,7 @@ Accepted values for the `list-style-type` property include:
 *Other:*
 * none
 
-Note: all of the property values listed above can be used for styling both ordered and unordered lists (ex: an ordered list with `square` list markers).
+Note: all the property values listed above can be used for styling both ordered and unordered lists (ex: an ordered list with `square` list markers).
 
 #### `list-style-position`
 
@@ -99,7 +99,7 @@ Position the marker `outside` of the list item element, and all text lines and s
 > ```
 > <img src="https://github.com/kayfo23/imgs-for-fcc-guide/blob/master/list-style-position-inside.png?raw=true" width="350" title="list-style-position outside">
 
-Position the marker `inside`, and the first text line of each list item will be indented to make room for the marker. Any sub-lines of the same list item will align with the marker rather than the first text line. 
+Position the marker `inside`, and the first text line of each list item will be indented to make room for the marker. Any sub-lines of the same list item will align with the marker rather than the first text line: 
 
 > ```css
 > /* css */
@@ -134,13 +134,13 @@ The `list-style-image` property accepts an image url in place of the list marker
 
 ####  More List-Specific Styling
 
-Ordered list elements also accept attributes that control the flow, count, or specific marker values of its list items. These include the `start`, `reversed`, and `value` attributes. See the MDN resources listed below for further details.
+Ordered list tags also accept attributes that control the flow, count, or specific marker values of its list items. These include the `start`, `reversed`, and `value` attributes. See the MDN resources listed below for further details.
 
 ### General Styling
 
-There are other ways to style lists besides the list marker. `color`, `font-family`, `margin`, `padding`, or `border` are just a few examples of properties that can be added to either the `ul`, `ol`, or `li` elements.
+List content can be styled just like other `p` or `div` elements. `color`, `font-family`, `margin`, `padding`, or `border` are just a few examples of properties that can be added to either the `ul`, `ol`, or `li` elements.
 
-Do note that any styles added to the `ul` or `ol` element will affect the entire list. Styles added directly to the `li` elements will affect the individual list items. In the example below, the border and background-color properties are styled differently between the list and list item elements:
+Note that any styles added to the `ul` or `ol` element will affect the entire list. Styles added directly to the `li` elements will affect the individual list items. In the example below, the border and background-color properties are styled differently between the list and list item elements:
 
 > ```css
 > /* css */
@@ -177,7 +177,7 @@ You may notice extra spacing in front of the list items when `list-style-type` i
 ---
 #### Sources:
 
-The links below were referenced in compiling information found in this article. Please visit them for further details regarding this topic.
+The links below were referenced in compiling information found in this article. Please visit them for further details about this topic.
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
