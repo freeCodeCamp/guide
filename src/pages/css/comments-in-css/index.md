@@ -3,14 +3,17 @@ title: Comments in CSS
 ---
 ## Comments in CSS
 
-Comments are used in CSS to explain a block of code or to make temporary changes during development. The commented code doesn't execute. The comment syntax in CSS works for both single and multi-line comments.
+Comments are used in CSS to explain a block of code or to make temporary changes during development. The commented code doesn't execute. 
 
-``` css
+The comment syntax in CSS works for both single and multi-line comments. You can add as many comments to your stylesheet as you like.
+
+```css
     /*
         This is
         a multi-line
         comment
     */
+    
     /* This is a single line comment*/
     .group:after {
         content: "";
@@ -18,6 +21,23 @@ Comments are used in CSS to explain a block of code or to make temporary changes
         clear: both;
     }
 ```
+
+By using CSS comments to make your stylesheets more readable, the CSS will be easier to maintain in the future for you or another developper. 
+It’s good practice to use CSS comments to help identify parts of any stylesheet that might be difficult to understand for someone who didn't write the code. 
+
+You can also make your comments more readable by stylizing it.  
+
+```css
+/*
+***
+* SECTION FOR H2 STYLE 
+***
+* A paragraph where I give informations
+* about everything that someone who reads the code
+* but didn't write it would need to know.
+* The asterisk around the paragraph make it more readable.
+***
+*/
 
 You can add as many comments to your stylesheet as you like. It’s good practice to use CSS comments to help identify parts of any stylesheet that might be difficult to understand from a cursory glance. Comments are especially important when working in a team, when your code must be understood by others. By using CSS comments to make your stylesheets more readable, the CSS will be easier to maintain in the future.
 
@@ -71,8 +91,15 @@ Here are a few exmples to get you started of CSS comments you can use in your da
 7.0 - Footer */
 ``` css
 
+h2 {
+    font-size: 1.2em;
+    font-family: "Ubuntu", serif;
+    text-transform: uppercase;
+    }
+```
+
 ### More Information:
 
-MDN documentation: <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/Comments' target='_blank' rel='nofollow'>MDN</a>
-
-CSS Comments by Adam Roberts: <a href='https://www.sitepoint.com/css-comments/' target='_blank' rel='nofollow'>Sitepoint</a>
+* [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/Comments)
+* [CSS Comments by Adam Roberts](https://www.sitepoint.com/css-comments/)
+* [CSS Guidelines](https://cssguidelin.es/#commenting) 
