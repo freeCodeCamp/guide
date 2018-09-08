@@ -17,3 +17,7 @@ In this section, we'll have guides to a wide variety of user experience design c
 #### Textbook for User Experience Design 
 
 Interaction Design: beyond human computer interaction 4th edition -> (Amazon)[https://www.amazon.com/Interaction-Design-Beyond-Human-Computer/dp/1119020751]
+
+#### Mostly Free Online UX Design Curriculum
+
+[Springboard Learning Path: User Experience Design - Julia Debari](https://www.springboard.com/learning-paths/user-experience-design/learn/#)
