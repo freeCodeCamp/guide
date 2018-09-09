@@ -2,9 +2,11 @@
 title: Match Characters that Occur One or More Times
 ---
 ## Match Characters that Occur One or More Times
+ 
+ ## the problem:
+ You want to find matches when the letter s occurs one or more times in "Mississippi". Write a regex that uses the + sign.
+ ## the solution
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/regular-expressions/match-characters-that-occur-one-or-more-times/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+let difficultSpelling = "Mississippi";
+let myRegex = /s+/g; // this is the solution
+let result = difficultSpelling.match(myRegex);
