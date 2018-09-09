@@ -7,9 +7,8 @@ The domain and range determine the possible values for variables within any give
 
 In the case of quadratic functions, the domain is almost always x = +/- infinity (x can equal any number).
 On the other hand, range is determined by the vertex of the parabola. For instance, the range of the equation y = x^2 + 2 is y > 2 because y can't equal any number below the vertex.
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
-#### More Information:
+### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
 
