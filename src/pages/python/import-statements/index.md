@@ -82,3 +82,9 @@ Now we want to use the functions that we just created in `prime_functions.py` so
     # playground.py
     import prime_functions
     print(prime_functions.isPrime(29)) # returns True
+    
+## Sorting Imports
+
+Good practice is to sort `import` modules in three groups - standard library imports, related third-party imports, and local imports.  Within each group it is sensible to sort alphabetically by module name. You can find [more information in PEP8](https://www.python.org/dev/peps/pep-0008/?#imports).
+
+One of the most important thing for Python language is legibility, and alphabetically sorting modules are quicker to read and search. Also it is easier to verify that something is imported, and avoid duplicated imports.
