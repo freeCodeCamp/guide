@@ -15,5 +15,5 @@ a^b , so a is the base and b is exponential.
 ![Example](http://d2r5da613aq50s.cloudfront.net/wp-content/uploads/165077.image0.png)
 
 #### Note
-Any number to the power of zero equals 1, as long as the base number is not 0.
+Any number to the power of zero equals 1, as long as the base number is not 0. 
 
