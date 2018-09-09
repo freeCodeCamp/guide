@@ -29,7 +29,6 @@ Then the determinant of this matrix, denoted <em>det(A)</em>, is given by:
 
 Please keep in mind the order of operations in the expression above.
 
-
 For example, consider the following matrix, which we will call B:
 
 <table>
@@ -59,6 +58,6 @@ For example, consider the following matrix, which we will call B:
 <em>det(B) = (-41) - 100 - 90 = -231</em>
 
 #### More information:
- * [MathIsFun](https://www.mathsisfun.com/algebra/matrix-determinant.html) - an explanation of the math behind calculating the determinants of 2x2, 3x3, and even nxn matrices.
- * [Wolfram Alpha](http://www.wolframalpha.com/widgets/view.jsp?id=7fcb0a2c0f0f41d9f4454ac2d8ed7ad6) - an online widget for calculating the determinants of 3x3 matrices.
- * [Wikipedia](https://en.wikipedia.org/wiki/Determinant) - an explanation between the meaning of the determinant.
+ * [Determinant of a Matrix](https://www.mathsisfun.com/algebra/matrix-determinant.html) on MathIsFun
+ * [3x3 Determinant calculator](http://www.wolframalpha.com/widgets/view.jsp?id=7fcb0a2c0f0f41d9f4454ac2d8ed7ad6)
+ * [Determinant](https://en.wikipedia.org/wiki/Determinant) on Wikipedia
