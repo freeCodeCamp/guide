@@ -3,8 +3,30 @@ title: Add Methods After Inheritance
 ---
 ## Add Methods After Inheritance
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/object-oriented-programming/add-methods-after-inheritance/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+First, inherit Dog prototype from Animal:
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+
+
+```javascript
+
+Dog.prototype = Object.create(Animal.prototype);
+```
+
+
+Then, set constructor to Dog:
+
+```javascript
+
+Dog.prototype.constructor = Dog;
+```
+
+Finally, add method:
+
+```javascript
+
+Dog.prototype.bark = function() {
+    console.log("Woof!");
+}
+```
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
