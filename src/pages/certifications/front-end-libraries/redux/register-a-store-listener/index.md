@@ -45,3 +45,4 @@ store.subscribe(sayHi);
 ```
 
 Want to update this? [Edit this stub on GitHub.](https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/front-end-libraries/redux/register-a-store-listener/index.md)
+ 
