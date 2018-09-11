@@ -16,7 +16,16 @@ The concept families of type hadn't formed when typefaces were first invented, a
 ### Punctuation
 Punctuation gives type emotion, and gives indications on when to stop, slow down, and much more.
 
+### There are seven types of font families
+
+- Old Style
+- Transitional
+- Modern
+- Slab Serif
+- Sans Serif
+- Decorative
+- Script-Cursive
+
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
 Type Families - <a href='https://en.wikipedia.org/wiki/Type_family' target='_blank' rel='nofollow'>Wikipedia</a>
