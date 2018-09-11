@@ -13,7 +13,7 @@ You can declare a variable this way
 
 ```
 
-ES6 introduced two other ways to declare variables. __let__ and __const__. _Let_ is is pretty similar to var and for the most part is interchangeable:
+ES6 introduced two other ways to declare variables. __let__ and __const__. _Let_ is pretty similar to var and for the most part is interchangeable:
 
 ```js
 
