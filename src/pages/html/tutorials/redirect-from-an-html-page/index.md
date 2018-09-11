@@ -3,13 +3,15 @@ title: Redirect from an HTML Page
 ---
 ## Redirect from an HTML Page
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/tutorials/redirect-from-an-html-page/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+If you've changed the URL of your HTML page and want to automatically redirect your visitors to the new location of the page, you can use a meta tag within the `<head>` area of your old HTML page. 
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+``` html
+<head>
+  <meta http-equiv="refresh" content="0; url=http://freecodecamp.org/" />
+</head>
+```
+In the above example, visitors to the page would be redirected from your old html page to [http://freecodecamp.org/](http://freecodecamp.org/). The attribute of `content="0` means that the browser will redirect to the new page after 0 seconds. Changing the value to `content="2` would redirect after 2 seconds.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+* [MDN - Redirections in HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Redirections)
