@@ -60,11 +60,11 @@ int main(void) {
 ## Strings
 Arrays are sets of variables, and strings are sets of characters. As a result, we can represent strings with an array. You _can_ declare something in the same way as before, but you'll need to place '\0' as one of your values (more on that in a minute!):
 ```C
-char hello_world = {'H', 'e', 'l', 'l', 'o', ' ', 'w', 'o', 'r', 'l', 'd', '!', '\0'};
+char hello_world[] = {'H', 'e', 'l', 'l', 'o', ' ', 'w', 'o', 'r', 'l', 'd', '!', '\0'};
 ```
 Yikes. That's not really a great solution. Thankfully, C provides a better way with strings in mind:
 ```C
-char hello_world = "Hello world!";
+char hello_world[] = "Hello world!";
 ```
 That's much nicer. It doesn't even require you to place the '\0' at the end, either. So what was that?
 
@@ -80,7 +80,7 @@ Another thing C makes easier for us is the printing of strings. Rather than forc
 #include <stdio.h>
 
 int main(void) {
-    char hello_world = "Hello, World!\n";
+    char hello_world[] = "Hello, World!\n";
     printf("%s", hello_world);
 
     return 0;
@@ -117,6 +117,12 @@ if(!strcmp(first, second)){
 }
 ```
 Notice the `!`, which is needed because this function returns 0 if they are the same. Placing the exclamation point here will make that comparison return true.
+
+#### Split a string: `strtok`
+`strtok` (from 'string token') breaks a string into a series of tokens using a  delimiter. In this example, strtok breaks  string str into a series of tokens using the delimiter delim:
+```C
+char *strtok(char *str, const char *delim);
+```
 
 # Before you go on...
 ## A Review
