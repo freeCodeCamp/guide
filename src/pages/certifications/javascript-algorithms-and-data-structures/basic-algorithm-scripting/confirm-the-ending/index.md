@@ -3,8 +3,19 @@ title: Confirm the Ending
 ---
 ## Confirm the Ending
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-algorithm-scripting/confirm-the-ending/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+- slice() takes only 2 parameters — the first is the index at which to begin extraction, and the second is the index at which to stop extraction
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+## Solution
+```javascript
+let tarLen = target.length; 
+let strLen = str.length; 
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+let end = str.slice(strLen - tarLen, strLen); 
+
+if(end == target){ 
+  return true; 
+} 
+else{ 
+  return false; 
+}
+```
