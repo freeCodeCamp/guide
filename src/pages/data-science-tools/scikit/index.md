@@ -1,7 +1,7 @@
 ---
-title: scikit
+title: scikit-learn
 ---
-## scikit
+## Scikit-learn
 
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/data-science-tools/scikit/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
@@ -11,4 +11,4 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-<a href='http://scikit-learn.org/stable/' target='_blank' rel='nofollow'>scikit reference page</a>
+<a href='http://scikit-learn.org/stable/' target='_blank' rel='nofollow'>Scikit-learn reference page</a>
