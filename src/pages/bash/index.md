@@ -44,6 +44,7 @@ Hello world!
 ```
 
 The script only has two lines. The first indicates what program to use to run the file (in this case, bash). The second line is the command we want to use, echo.
+add the lines
 
 ### More Information:
 
