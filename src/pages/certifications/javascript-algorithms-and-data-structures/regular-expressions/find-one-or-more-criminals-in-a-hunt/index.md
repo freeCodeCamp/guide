@@ -3,8 +3,11 @@ title: Find One or More Criminals in a Hunt
 ---
 ## Find One or More Criminals in a Hunt
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/regular-expressions/find-one-or-more-criminals-in-a-hunt/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+## Solution of Find One or More Criminals in a Hunt:
+// example crowd gathering
+let crowd = 'P1P2P3P4P5P6CCCP7P8P9';
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+let reCriminals = /C+/ig; // Change this line
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+let matchedCriminals = crowd.match(reCriminals);
+console.log(matchedCriminals);
