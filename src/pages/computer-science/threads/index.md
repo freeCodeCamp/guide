@@ -2,6 +2,11 @@
 title: Threads
 ---
 ## Threads
+A thread is a lightweight process. See What is the difference between a process and a thread? and How does a thread differ from a traditional process? for more detail.
+
+Processes and threads are similar in that they both have "separate paths of execution" from other processes or threads, meaning that the OS or language has implemented mechanisms to retain state and current/next instruction to execute. When a process or thread is allowed to execute that state is restored and things pick up where they left off.
+
+Processes usually have an entirely separate memory space while threads often do not. Processes are usually managed by the OS, and with some exceptions, threads are usually managed by the execution environment of the language they are written in.
 
 A sequence of program instructions given to the operating system to execute. It is the smallest synchronous sequence that can be executed. Being synchronous, instructions in a thread are linear and execute one after another. If a program has multiple threads, the program as a whole can be asynchronous in that these threads are executing their own instructions independently of each other (simultaneously).
 
