@@ -3,17 +3,61 @@ title: Ansible
 ---
 ## Ansible
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Ansible_logo.svg/256px-Ansible_logo.svg.png"> 
+Ansible is a simple to use automation tool.  Ansible can be used to automate deployments, updates, security, systems management, container provisioning and more.  The configuration files are easy to manage YAML files written in plain English.  Installation is simple and due its Master-Push format, there are no agents needed on remote machines.  Communications with remote machines is via SSH.
 
-Ansible is a configuration management tool for Linux, Unix and Windows. Ansible was first released in 2012, supported commercially by AnsibleWorks Inc. and acquired by Red Hat in 2015. The platform was built by Micheal DeHaan in Python and PowerShell. 
+### Installation on Ubuntu Servers 14.04 or newer
+Installation via the Ansible PPA on Ubuntu servers is recommended.
 
-As with most configuration management software, Ansible has two types of servers: controlling machines and nodes. First, there is a single controlling machine which is where orchestration begins. Nodes are managed by a controlling machine over SSH. The controlling machine describes the location of nodes through its inventory.
+First make sure your system is up to date.
+```
+$ sudo apt-get update
+$ sudo apt-get upgrade
+```
+Next you will want to add the following package to your system
+```
+$ sudo apt-get install software-properties-common
+```
 
-To orchestrate nodes, Ansible deploys modules to nodes over SSH. Modules are temporarily stored in the nodes and communicate with the controlling machine through a JSON protocol over the standard output. When Ansible is not managing nodes, it does not consume resources because no daemons or programs are executing for Ansible in the background.
+Add the ppa:ansible/ansible to your system
+```
+$ sudo apt-add-repository ppa:ansible/ansible
+```
 
-In contrast with popular configuration management software — such as Chef, Puppet, and CFEngine — Ansible uses an agentless architecture. With an agent-based architecture, nodes must have a locally installed daemon that communicates with a controlling machine. With an agentless architecture, nodes are not required to install and run background daemons to connect with a controlling machine. This type of architecture reduces the overhead on the network by preventing the nodes from polling the controlling machine.
+Update your repos again
+```
+$ sudo apt-get update
+```
+
+There are usually a few steps involved in deploying your code into production (to the live site). The number of steps increases as your Site/App/Webapp becomes larger and more complex. 
+
+The solution to this is automated deployment. Automation comes in the form of scripts that act as a set of instructions (just as all code does) outlining each of these steps. 
+
+Ansible is an automation tool, often used for deployment as mentioned above, but increasingly used for other complex automations. 
+
+It uses a language called <a href='https://en.wikipedia.org/wiki/YAML' target='_blank' rel='nofollow'>YAML</a> which allows you to describe the instuctions close to plain english, as you can see in this Ansible module example:
+
+```YAML
+---
+- yum: name={{contact.item}} state=installed
+with_items:
+- app_server
+- acme_software
+
+
+- service: name=app_server state=running enabled=yes
+```
+
+Finally, Install the package
+```
+$ sudo apt-get install ansible
+```
+
+A significant benefit of using Ansible is that it uses SSH (Secure SHell) by default, and the modules can reside on any machine (computer) not requiring servers, daemons or databases.
+
+The true power of Ansible is in using playbooks.  Read more about configuration and use of Ansible on [Ansible's official documentation](https://docs.ansible.com/ansible/latest/index.html). 
+
+Ansible modules, which are small task specific programs. Once they serve there intended purpose e.g. running your deploy script, these modules are removed by Ansible.  
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-Read more on <a href="https://en.wikipedia.org/wiki/Ansible_(software)">Wikipedia</a>
-
+[Learn more about how Ansible works](https://www.ansible.com/how-ansible-works)
+[Ansible documentation](http://docs.ansible.com/)
