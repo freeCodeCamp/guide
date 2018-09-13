@@ -51,4 +51,9 @@ Special challenges for the CIA triad:
 
 **Internet of Things security** is also a special challenge because the IoT consists of so many Internet-enabled devices other than computers, which often go unpatched and are often configured with default or weak passwords. Unless adequately protected, IoT things could be used as separate attack vectors or part of a thingbot. As more and more products are developed with the capacity to be networked, it’s important to routinely consider security in product development.  
 
-More Information: [Confidentiality, integrity, and availability (CIA triad)](http://whatis.techtarget.com/definition/Confidentiality-integrity-and-availability-CIA)
+### More Information: [Confidentiality, integrity, and availability (CIA triad)](http://whatis.techtarget.com/definition/Confidentiality-integrity-and-availability-CIA)
+Other than the CIA triad, there are also other frequently recurring themes in information security:  
+- non-repudiation: assurance that someone/ something cannot deny something (e.g. one cannot deny the authenticity of a digital signature) 
+- authentication: proving that a person is who they claim to be
+- reliability: confidence that one can depend on a system or process
+- privacy: a generalised counterpart of confidentiality which also address the social consequence of failing to meet the requirement 
