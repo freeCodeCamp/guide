@@ -59,5 +59,5 @@ The true power of Ansible is in using playbooks.  Read more about configuration 
 Ansible modules, which are small task specific programs. Once they serve there intended purpose e.g. running your deploy script, these modules are removed by Ansible.  
 
 #### More Information:
-[Learn more about how Ansible works](https://www.ansible.com/how-ansible-works)
-[Ansible documentation](http://docs.ansible.com/)
+- [Learn more about how Ansible works](https://www.ansible.com/how-ansible-works/)
+- [Ansible documentation](http://docs.ansible.com/)
