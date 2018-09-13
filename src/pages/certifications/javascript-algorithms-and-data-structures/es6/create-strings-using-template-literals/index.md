@@ -34,6 +34,6 @@ It's required to use template literals to return a list as every element in the 
 ## No map() solution
 Despite it's a less flexible solution, if you know the number of elements in advance, you can enumerate them as in
 
-```const resultDisplayArray = [`<li class="text-warning">${result.failure[0]}</li>`,
-  `<li class="text-warning">${result.failure[1]}</li>`
-  ,`<li class="text-warning">${result.failure[2]}</li>`];```
+```const resultDisplayArray = [`<li class="text-warning">${arr[0]}</li>`,
+  `<li class="text-warning">${arr[1]}</li>`
+  ,`<li class="text-warning">${arr[2]}</li>`];```
