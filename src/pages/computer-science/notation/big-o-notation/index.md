@@ -15,8 +15,8 @@ This tells you the number of operations an algorithm will make. It’s called Bi
 
 #### Big O establishes a worst-case run time
 
-If you are a doctor who is treating Harry Abbit, you might look into the electronic records that are related to Harry Abbit medical history (he is the first person in a list). Lets consider the situation when his  life depends on all available medical data.
-Suppose you’re using simple search to look for a person in the electronic records. You know that simple search takes O(n) time to run, so you’ll have to look through every single entry for Abbit. Of course, you’ve noticed that guy is the first entry. So you didn’t have to look at every entry — you found it on the first try.
+Say you are a doctor who is treating Harry Abbit, you might look into the electronic records that are related to Harry Abbit's medical history (he is the first person in a list). Lets consider the situation when his life depends on all available medical data.
+Suppose you’re using simple search to look for a person in the electronic records. You know that simple search takes O(n) time to run, so you’ll have to look through every single entry for Abbit. Of course, you’ve noticed that Abbit is the first entry, so you didn’t have to look at every entry — you found it on the first try.
 
 *Did this algorithm take O(n) time? Or did it take O(1) time because you found the person on the first try?*
 
@@ -24,9 +24,9 @@ In this case, that’s the best-case scenario. But Big O notation is about the w
 
 #### Algorithm running times grow at different rates
 
-Let’s assume it takes 1 millisecond to check one entry. With simple search, doctor has to check 10 entries, so the search takes 10 ms to run. On the other hand, he only has to check 3 elements with *binary search algorithm* (log10 is roughly 3), so that search takes 3 ms to run. 
+Let’s assume it takes 1 millisecond to check one entry. With simple search, the doctor has to check 10 entries, so the search takes 10 ms to run. On the other hand, he only has to check 3 elements with *binary search algorithm* (log10 is roughly 3), so that search takes 3 ms to run. 
 
-But realistically, the list will have more than hundred elements. 
+But realistically, the list will have more than a hundred elements. 
 
 *If it does, how long will simple search take? How long will binary search take?*
 
@@ -36,7 +36,7 @@ The run time for simple search with 1 billion items will be 1 billion ms, which 
   <img src="https://user-images.githubusercontent.com/5860906/31781165-723a053c-b500-11e7-937c-7b33db281efe.png">
 </p>
 
-So as the list of numbers gets bigger, binary search becomes a lot faster than simple search.That is, as the number of items increases, binary search takes a little more time to run. But simple search takes a *lot* more time to run. So as the list of numbers gets bigger, binary search becomes a lot faster than simple search. 
+So as the list of numbers gets bigger, binary search becomes a lot faster than simple search. That is, as the number of items increases, binary search takes a little more time to run. But simple search takes a *lot* more time to run. So as the list of numbers gets bigger, binary search becomes a lot faster than simple search. 
 
 *That’s why it’s not enough to know how long an algorithm takes to run — you need to know how the running time increases as the list size increases. That’s where Big O notation comes in.*
 
@@ -68,3 +68,8 @@ Here are five Big O run times that you’ll encounter a lot, sorted from fastest
    Example: A really slow algorithm, like the traveling salesperson (coming up next!).
 
 *This article only covers the very basics of Big O. For a more in-depth explanation take a look at their respective FreeCodeCamp guides for algorithms.*
+
+### More Information
+
+- [Khan Academy](https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/big-o-notation)
+- [Big O cheat sheet](http://bigocheatsheet.com/)
