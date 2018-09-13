@@ -17,6 +17,7 @@ Next you will want to add the following package to your system
 ```
 $ sudo apt-get install software-properties-common
 ```
+
 Add the ppa:ansible/ansible to your system
 ```
 $ sudo apt-add-repository ppa:ansible/ansible
@@ -44,9 +45,9 @@ with_items:
 
 
 - service: name=app_server state=running enabled=yes
+```
 
 Finally, Install the package
-
 ```
 $ sudo apt-get install ansible
 ```
@@ -58,7 +59,5 @@ The true power of Ansible is in using playbooks.  Read more about configuration 
 Ansible modules, which are small task specific programs. Once they serve there intended purpose e.g. running your deploy script, these modules are removed by Ansible.  
 
 #### More Information:
-
-<a href='https://www.ansible.com/how-ansible-works' target='_blank' rel='nofollow'>Learn more about how Ansible works</a>.
-
-<a href='http://docs.ansible.com/' target='_blank' rel='nofollow'>Ansible documentation</a>.
+- [Learn more about how Ansible works](https://www.ansible.com/how-ansible-works/)
+- [Ansible documentation](http://docs.ansible.com/)
