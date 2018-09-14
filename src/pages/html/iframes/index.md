@@ -16,6 +16,7 @@ Listed below are some of the `<iframe>`'s attributes:
 | `name` | A name for the frame |
 | `src` | The URL of the web page to embed |
 | `width` | The width of the frame in CSS pixels |
+| `id` | The id of the frame so you can reference it from an JavaScript function |
 
 ### Examples
 Embedding a YouTube video with an `<iframe>`:
