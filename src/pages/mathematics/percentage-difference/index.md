@@ -1,8 +1,8 @@
 ---
 title: Percentage Difference
 ---
-
-The percentage difference is:
+<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+## Percentage Difference
 The difference between two values divided by the average of the two values. Shown as a percentage.
 
 Difference means to subtract one value from another:
@@ -33,14 +33,6 @@ Here is the answer, in one line:
 
         Example continued
         (25 − 15)/((25 + 15)/2)  × 100% = 50%
-
-## Percentage Difference
-
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/percentage-difference/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
