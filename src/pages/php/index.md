@@ -6,7 +6,9 @@ title: PHP
 
 ## What is PHP?
 
-PHP is a server-side scripting language created in 1995 by Rasmus Lerdorf.
+PHP is a server-side scripting language created in 1995 by Rasmus Lerdorf. 
+
+PHP is a widely-used open source general-purpose scripting language that is especially suited for web development and can be embedded into HTML.
 
 ## What does the acronym PHP stand for?
 
