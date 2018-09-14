@@ -9,7 +9,7 @@ Twitch is a live streaming video platform that was founded in June 2011. More th
 
 Creating an account with Twitch enables you to interact with chat, get alerts when someone you know streams and maybe even stream yourself.
 
-1.  Click here to [create a new account](https://passport.twitch.tv/users/new).
+1.  Click here to [create a new account](https://www.twitch.tv/signup).
 
 2.  You should now choose an appropriate username and password.
 
