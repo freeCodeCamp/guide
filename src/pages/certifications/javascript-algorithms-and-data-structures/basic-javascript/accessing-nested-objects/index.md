@@ -1,8 +1,7 @@
 ---
-title: Accessing Nested Arrays
+title: Accessing Nested Objects
 ---
 ## Accessing Nested Objects
-
 Clue: ***" Use bracket notation for properties with a space in their name."***
 
 If we look at our object:
