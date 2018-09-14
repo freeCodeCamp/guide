@@ -2,10 +2,7 @@
 title: Column Databases
 ---
 ## Column Databases
-
 Column oriented databases are designed to efficiently return data for a limited number of columns. It does it by storing all of the values of a column together. A column oriented database will excel at read operations on a limited number of columns, however write operation will be expensive compared to row oriented databases.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
