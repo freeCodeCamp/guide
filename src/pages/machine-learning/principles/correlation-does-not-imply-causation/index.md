@@ -2,17 +2,16 @@
 title: Correlation Does not Imply Causation
 ---
 ## Correlation Does not Imply Causation
-
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Many Fitness and Health related websites often miss this point about research that tends to happen in these fields. They report the scientific research as Causation other than what it really is, Correlation. For eg. researchers found that early risers have lower BMI and are found to less obese. This correlation can be misrepresented as 'Waking up early can reduce chances of Obesity'. We do not know that just waking up early 'caused' the outcome - lower obesity. What we have found here is Correlation.
+
+Informal definition of Correlation goes as - when event A happens, event B also tends to happen and vice-versa. Or people that wake up early tend to be towards the lower end of the weight spectrum. Both events tend to happen together. But it is not necessary that one event caused the other. 
+
+Causality means that event A 'caused' or lead to the happening of event B. For eg. if I stand in the sun, I would get tanned. Here then second event occurs because of the first.
 
 In statistics, there is a lot of talk about **correlated variables**. A correlation is a relationship between two variables. **Causation** refers to a relationship where a change in one variable **is responsible for** the change of another variable. This is also known as a **causal relationship**.
 
 When there is a causal relationship between two variables, there is also a correlation between them. But, a correlation between two variables does not imply a causal relationship between them. This is a <a href='https://en.wikipedia.org/wiki/Formal_fallacy' target='_blank' rel='nofollow'>logical fallacy</a>.
-
-For example, there is a correlation between the amount of time spent studying for a test and the grade received on the test. This is a causal relationship, because the time spent studying affects your grade. If you study less, you will receive a lower grade; if you study more, you will receive a higher grade.
-
-There is also a correlation between the <a href='http://www.tylervigen.com/spurious-correlations' target='_blank' rel='nofollow'>per capita consumption of margarine and the divorce rate in Maine</a>. However, this is _not_ a causal relationship - it is foolish to think that a decrease in margarine consumption will lower the divorce rate in Maine.
-
 
 This is because a correlation between two variables can be explained by many reasons:
 - One variable influences the other. This _would_ be a causal relationship. For example, there is a correlation between household salary and number of cars owned.
