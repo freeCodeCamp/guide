@@ -3,11 +3,11 @@ title: Accessing Nested Arrays
 ---
 ## Accessing Nested Arrays
 
-### Clue:
+Clue:
+
 - For this challenge try to remember:
 ***" Use bracket notation for properties with a space in their name."***
 
----
 If we look at our object:
 
 ```javascript
