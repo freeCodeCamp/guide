@@ -36,5 +36,3 @@ Here is the answer, in one line:
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
