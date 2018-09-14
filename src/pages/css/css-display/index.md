@@ -18,10 +18,12 @@ The display property specifies the type of box used for an HTML element. It has 
     .initial          {display: initial}
 ```
 
+The `display:none` property can often be helpful when making a website responsive. For example, you may want to hide an element on a page as the screen size shrinks in order to compensate for the lack of space. `display: none` will not only hide the element, but all other elements on the page will behave as if that element does not exist. This is the biggest difference between this property and the `visibility: hidden` property, which hides the element but keeps all other page elements in the same place as they would appear if the hidden element was visible. 
+
 ### More Information: 
 
-Docs and full list of keyword values: <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/display' target='_blank' rel='nofollow'>MDN</a>
+Docs and full list of keyword values: [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/display)
 
-Browser Support: <a href='http://caniuse.com/#search=display' target='_blank' rel='nofollow'>caniuse</a>
+Browser Support: [caniuse](http://caniuse.com/#search=display)
 
-A Complete Guide to Flexbox: <a href='https://css-tricks.com/snippets/css/a-guide-to-flexbox/' target='_blank' rel='nofollow'>CSS-Tricks</a>
+A Complete Guide to Flexbox: [CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
