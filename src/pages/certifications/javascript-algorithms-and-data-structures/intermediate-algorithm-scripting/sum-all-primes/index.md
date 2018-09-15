@@ -161,6 +161,62 @@ This problem is hard if you have to create your own code to check for primes, so
 *   **Step 2:** Filter all numbers off of `arr` that are not prime by subjecting each element to the _"trial division test"_ which _"consists of dividing n by each integer m that is greater than 1 and less than or equal to the square root of n"_. This test returns `false` if any number less than the element being operated on (m) produces no remainder when said element (n) is divided by it. See link below for more on this.
 *   **Step 3:** Return the sum of all remaining elements of arr using `.reduce()`.
 
+## ![:rotating_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:") Alternative Advanced Code Solution:
+
+    function sumPrimes(num) {
+      if (num < 2) return 0;
+      if (num === 2) return 2;
+
+      let sum = 0;
+      // Create a map of the prime numbers
+      const primes = [2, 3];
+
+      // Generate primes
+      while (nextPrime(num, primes));
+
+      // Return the sum of all the primes up to num
+      return primes.reduce((sum, p) => sum + p);
+
+      /* Generate next prime in the map */
+      function nextPrime(upperBound, primes) {
+        const lastKnownPrime = primes[primes.length - 1];
+
+        for(let prime = lastKnownPrime + 2; prime <= upperBound; prime += 2) {
+          if (isPrime(prime, primes)) {
+            primes.push(prime);
+            return true;
+          }
+        }
+
+        return false;
+
+        /* Check if a number is a prime number */
+        function isPrime(p, primes) {
+          if (primes.includes(p)) return true;
+
+          // The following construction wouldn't work outside of the box,
+          // it's calibrated to have the nextPrime() function as well, it is
+          // not to be called with a random number. It expects to check a
+          // consequetive odd numbers after the last known prime in the map.
+          // If you don't have enough prime numbers in the map then this will
+          // break.
+          const numberOfKnownPrimes = primes.length;
+          for (let primeIndex = 0;
+               primeIndex < numberOfKnownPrimes && primes[primeIndex] <= parseInt(Math.sqrt(p));
+               ++primeIndex)
+          {
+            if (p % primes[primeIndex] === 0) return false;
+          }
+
+          return true;
+        }
+      }
+    }
+
+
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/@kr3at0/SumAllPrimes
+' target='_blank' rel='nofollow'>Run Code</a>
+
 ### Relevant Links
 
 *   <a href='https://en.wikipedia.org/wiki/Prime_number#Trial_division' target='_blank' rel='nofollow'>Trial Division Test</a>
