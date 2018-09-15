@@ -3,8 +3,19 @@ title: Combine Two Arrays Using the concat Method
 ---
 ## Combine Two Arrays Using the concat Method
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/functional-programming/combine-two-arrays-using-the-concat-method/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+- The concat method is used to join two or more arrays or strings.
+- This method does not mutate the existing arrays, but returns a new array.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+## Solution
+```javascript
+function nonMutatingConcat(original, attach) {
+  // Add your code below this line
+  
+  return original.concat(attach); 
+  
+  // Add your code above this line
+}
+var first = [1, 2, 3];
+var second = [4, 5];
+nonMutatingConcat(first, second);
+```
