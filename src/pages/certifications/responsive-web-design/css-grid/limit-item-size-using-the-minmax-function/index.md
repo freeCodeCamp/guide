@@ -3,8 +3,9 @@ title: Limit Item Size Using the minmax Function
 ---
 ## Limit Item Size Using the minmax Function
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/responsive-web-design/css-grid/limit-item-size-using-the-minmax-function/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Just mine vision on doing it, hope it helps :).
+
+
+grid-template-columns: repeat(3, minmax(90px ,1fr)); /* container class have now a grid-template-columns property that is set to repeat 3 columns with the minimum width of 90px and maximum width of 1fr. */
