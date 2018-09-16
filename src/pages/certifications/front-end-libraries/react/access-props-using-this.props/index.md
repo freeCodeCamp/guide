@@ -2,9 +2,18 @@
 title: Access Props Using this.props
 ---
 ## Access Props Using this.props
+---
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/front-end-libraries/react/access-props-using-this.props/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+For this solution you need to remember first how to add props to your parent component:
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+ ```JSX
+<ReturnTempPassword tempPassWord="xxxxxxxx" />
+```
+
+Once you have the prop set, you can use this.props in your child component.
+
+```html
+<p>Your temporary password is: <strong>{this.props.tempPassword}</strong></p>
+```
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
