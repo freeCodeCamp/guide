@@ -7,4 +7,3 @@ title: 2d Shapes Polygons and More
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
