@@ -11,7 +11,7 @@ title: Use the every Method to Check that Every Element in an Array Meets a Crit
 ### Problem Explanation:
 Use the `every` method inside the `checkPositive` function to check if every element in `arr` is positive. The function should return a Boolean value.
 
-#### Relevet Links:
+#### Relevant Links:
   - [Array.prototype.every()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every)
   
 ### Hint
