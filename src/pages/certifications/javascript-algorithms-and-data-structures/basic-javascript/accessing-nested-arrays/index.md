@@ -2,9 +2,40 @@
 title: Accessing Nested Arrays
 ---
 ## Accessing Nested Arrays
+In this guide you will be using bracket notation "[]" along with dot notation "." to access nested array elements.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-javascript/accessing-nested-arrays/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+## Hint 1:
+  Use bracket notation to access the elements of the array
+  arr[]
+  
+## Hint 2:
+  use dot notation to access the elements of the nested array
+  arr[].nestedArr[]
+  
+## Spoiler Alert - Solution Ahead!
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+## Solution:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+// Setup
+var myPlants = [
+  { 
+    type: "flowers",
+    list: [
+      "rose",
+      "tulip",
+      "dandelion"
+    ]
+  },
+  {
+    type: "trees",
+    list: [
+      "fir",
+      "pine",
+      "birch"
+    ]
+  }  
+];
+
+// Only change code below this line
+
+var secondTree = myPlants[1].list[1]; // Solution
