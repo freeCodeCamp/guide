@@ -3,8 +3,13 @@ title: Bind 'this' to a Class Method
 ---
 ## Bind 'this' to a Class Method
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/front-end-libraries/react/bind-this-to-a-class-method/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+First we need to bind ```this``` with our class method ``addItem``. For that, as we saw it was used in the previous lesson, we use the expresion:
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+```HTML
+this.addItem = this.addItem.bind(this);
+```
+Then we can set the button with the appropriate method on our ``onClick`` handler:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```HTML
+<button onClick={this.addItem}>Click Me</button>
+```
