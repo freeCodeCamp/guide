@@ -132,3 +132,6 @@ Why bother with <code>&#60;time&#62;</code>?  While humans can read time that ca
 * [w3schools](https://www.w3schools.com/html/html5_semantic_elements.asp) provides simple and clear descriptions of many of the news elements and how/where they should be used.
 * [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) also provides a great reference for all HTML elements and goes deeper into each.
 
+Some people still don't know what HTML really is, however, the question should be...If HTML is Hypertext Mark-up Language,
+why this fifth version is so important and everyone is so hyped? You could summarise all this hipe in one magic word...SEMANTIC
+
