@@ -25,7 +25,7 @@ _condition:_ Here, condition is a Boolean expression which is evaluated before e
         while (i < 10) 
         {
           console.log(i);
-           i++;
+           i++; // i=i+1 same thing
         }
 
         Output:
@@ -39,4 +39,4 @@ _condition:_ Here, condition is a Boolean expression which is evaluated before e
         8
         9
 
-source:<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while' target='_blank' rel='nofollow'>While Loop</a>
+*Source: [While Loop - MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while)*
