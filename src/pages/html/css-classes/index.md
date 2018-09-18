@@ -50,6 +50,16 @@ background-color: black;
 
 **Note:** class names are traditionally all lowercase, with each word in a multi-word class name separated by hyphens (e.g. "super-man").
 
+You can also combine classes in the same line:
+```css
+.superMan .spiderMan {
+color: red;
+background-color: blue;
+}
+
+You can see the result of the above code <a href='https://codepen.io/Tlandis/pen/RLvomV' target='_blank' rel='nofollow'>here</a>.
+Learn how to combine css classes using selectors <a href='https://www.w3schools.com/css/css_combinators.asp' target='_blank' rel='nofollow'>here</a>. 
+
 #### More Information:
 
 <!-- Please add any articles you think might be helpful to read before writing the article -->
