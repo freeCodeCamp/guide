@@ -11,7 +11,7 @@ The `text-align` property is specified as a single keyword chosen from the list 
 text-align: left;  aligns the text to the left
 text-align: right; aligns the text to the right
 text-align: center; aligns the text to the center 
-text-align: justify; makes the lines the same widht 
+text-align: justify; makes the lines the same width 
 text-align: justify-all; makes the lines the same width, including the last one  
 text-align: start;  aligns the last line at the beginning of the line
 text-align: end;  aligns the last line at the end of the line
