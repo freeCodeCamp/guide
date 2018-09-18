@@ -20,5 +20,3 @@ To be able to use the 'clearTimeout()' method, you must use a global variable. S
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
 Documentation: <a href='https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/clearTimeout' target='_blank' rel='nofollow'>MDN</a> 
-
-Some more examples on <a href='https://www.w3schools.com/jsref/met_win_cleartimeout.asp' rel='nofollow'>w3schools</a>
