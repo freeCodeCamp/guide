@@ -6,7 +6,7 @@ title: If-Else Statement
 
 * The If-Else statement is an extension of the simple If statement.
 * In the simple If statement, if the value of the test expression is false, then we skip the code of block and continue with our next statement.
-* But many of the times we want to execute certain steps if the value of test expression is false.
+* But many times, we want to execute certain steps if the value of test expression is false.
 * In such cases, we use the if-else statement.
 
 ### General Form of If-Else Statement
@@ -184,4 +184,4 @@ Number 2 is greater.
 
 **Happy Coding ! :)**
 
- **Feel free to ask any queries on FreeCodeCamp's GitHub page or [FreeCodeCamp's Forum .](https://forum.freecodecamp.org/)**
+ **Feel free to ask any queries on freeCodeCamp.org's GitHub page or [the freeCodeCamp.org Forum](https://forum.freecodecamp.org/)**.

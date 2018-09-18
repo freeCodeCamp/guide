@@ -38,3 +38,13 @@ The one big difference between containers and VMs is that containers *share* the
 ## Orchestration
 
 There are several container orchestration frameworks leveraged in production: docker-swarm and kubernetes
+
+## List of container providers
+
+Bellow is a small list of the most used containers vendors that can be used.
+
+- [Docker](https://www.docker.com/)
+- [Kubernetes](https://kubernetes.io/)
+- [Amazon AWS ECS](https://aws.amazon.com/ecs/?nc1=h_ls)
+- [RKT](https://github.com/rkt/rkt)
+- [Azure Fabric](https://azure.microsoft.com/en-us/services/service-fabric/)

@@ -4,7 +4,9 @@ title: Arrays
 
 # Array
 
-An Array is used to store a collection of data of similar datatypes. Arrays always start with the index of 0 and are instantiated to a set number of indexes. All the variables in the array must be of the same type, declared at instantiation.
+An Array is used to store a collection of similar data types. 
+Arrays always start with the index of 0 and are instantiated to a set number of indexes. 
+All the variables in the array must be of the same type, declared at instantiation.
 
 **Syntax:**
 
@@ -91,8 +93,6 @@ for (int i = 0; i < a.length; i++){ // loop goes through each index
     System.out.println(a[i]); // prints the array
 }
 ```
-
-![:rocket:](https://forum.freecodecamp.org/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/NC2Y' target='_blank' rel='nofollow'>Run Code</a>
 
 Output:
 ```java

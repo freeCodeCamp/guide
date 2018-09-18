@@ -3,6 +3,7 @@ title: Create a Basic JavaScript Object
 ---
 ## Create a Basic JavaScript Object
 
+
 ### Method:
 
 The soultion to this problem is more or less identical to the example given.
@@ -16,5 +17,4 @@ let dog = {
   name: "George",
   numLegs: 4
 };
-
 ```

@@ -1,33 +1,39 @@
 ---
-title: Create Strings using Template Literals
+title: Create Strings Using Template Literals
 ---
-## Create Strings using Template Literals
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 Instead of using string concatenation, ES6 offers template literals to create strings. In this challenge, you have to use template literals to create an array of text warnings.
 
-## Hint 1:
+![:triangular_flag_on_post:](https://forum.freecodecamp.com/images/emoji/emoji_one/triangular_flag_on_post.png?v=3 ":triangular_flag_on_post:") Remember to use <a>**`Read-Search-Ask`**</a> if you get stuck. Try to pair program and write your own code.
 
-Set `resultDisplayArray` to equal an array with 3 elements. Those elements will be strings using the power of template literals! These strings will have the format: `<li class="text-warning">${}</li>`.
+### Problem Explanation:
 
-## Hint 2:
+It's required to use template literals to return a list as every element in the array as the element will be wrapped in a `<li></li>` tag.
 
-Inside the template literals, will be references to the elements of `arr`, the parameter of the function.
+## Hint: 1
 
-## Spoiler Alert - Solution Ahead!
+*   Use `map()` function to apply the template literals on all of the `arr` elements 
 
-## Solution:
+> _try to solve the problem now_
 
-```javascript
-function makeList(arr) {
-  "use strict";
+## Hint: 2
 
-  // change code below this line
-  const resultDisplayArray = [`<li class="text-warning">${arr[0]}</li>`,
-  `<li class="text-warning">${arr[1]}</li>`,
-  `<li class="text-warning">${arr[2]}</li>`];
-  // change code above this line
+*   Inside the `map()` use an arrow function which has `element` as a parameter and returns `<li></li>` that has the text-warning class and containing the `element` inside it
 
-  return resultDisplayArray;
-}
-```
+> _try to solve the problem now_
+
+## Spoiler Alert!
+
+![warning sign](//discourse-user-assets.s3.amazonaws.com/original/2X/2/2d6c412a50797771301e7ceabd554cef4edcd74d.gif)
+
+**Solution ahead!**
+
+```const resultDisplayArray = arr.map(item => `<li class="text-warning">${item}</li>`);```
+
+## No map() solution
+Despite it's a less flexible solution, if you know the number of elements in advance, you can enumerate them as in
+
+```const resultDisplayArray = [`<li class="text-warning">${arr[0]}</li>`,
+  `<li class="text-warning">${arr[1]}</li>`
+  ,`<li class="text-warning">${arr[2]}</li>`];```

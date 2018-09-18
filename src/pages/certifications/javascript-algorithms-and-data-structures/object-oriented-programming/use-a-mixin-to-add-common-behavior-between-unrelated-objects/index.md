@@ -3,8 +3,32 @@ title: Use a Mixin to Add Common Behavior Between Unrelated Objects
 ---
 ## Use a Mixin to Add Common Behavior Between Unrelated Objects
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/object-oriented-programming/use-a-mixin-to-add-common-behavior-between-unrelated-objects/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+### Method
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Just like the `flyMixin` function, a new `glideMixin` function must be made to accept both `bird` and `boat` objects as a parameter. Create this new function using the same syntax as the `flyMixin` function and then call the function on both objects. 
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### Solution
+
+```javascript
+
+let bird = {
+  name: "Donald",
+  numLegs: 2
+};
+
+let boat = {
+  name: "Warrior",
+  type: "race-boat"
+};
+
+// Add your code below this line
+let glideMixin = function(obj) {
+    obj.glide = function() {
+        console.log("Gliding!");
+    }
+};
+glideMixin(bird);
+glideMixin(boat);
+
+
+```
