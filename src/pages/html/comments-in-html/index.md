@@ -45,3 +45,15 @@ Conditional Comments are only recognised by Internet Explorer Version 5 through 
 	</body>
 </html>
 ```
+
+### IE Conditional Comments
+
+These comments are only available in Internet Explorer and can be used up to IE9. In the current times, there is a good change you will never see them, but it is good to know about their existance. Conditional comments are a way to serve a different experience for different client browsers. For example:
+
+```html
+<!--[if lt IE 9]> <p>Your browser is lower then IE9</p> <![endif]-->     
+<!--[if IE 9]> <p>Your browser is IE9</p> <![endif]-->
+<!--[if gt IE 9]> <p>Your browser is greater then IE9</p> <![endif]-->
+```
+
+[About conditional comments](https://msdn.microsoft.com/en-us/library/ms537512(v=vs.85).aspx)
