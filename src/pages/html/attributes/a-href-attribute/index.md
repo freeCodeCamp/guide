@@ -24,10 +24,18 @@ For instance:
 ```
 The `<a href>` attribute is supported by all browsers.
 
+#### more atribute:
+ `hreflang` : Specifies the language of the linked resource.
+ `target`   : Specifies the context in which the linked resource will open.
+ `title`    : Defines the title of a link, which appears to the user as a tooltip.
+
 ### Examples
 ```html
 <a href="#">This is a dead link</a>
 <a href="https://www.freecodecamp.org">This is a live link to freeCodeCamp</a>
+<a href="https://html.com/attributes/a-href/
+">more with a href atribut</a>
+
 ```
 
 ### In-page anchors
