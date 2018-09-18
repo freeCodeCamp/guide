@@ -4,7 +4,7 @@ title: SQL Interview Questions
 ## SQL Interview Questions
 
 ### What is an inner join in SQL?
-This is the default type of join if no join is specified. It retuns all rows in which there is at least one match in both tables.
+This is the default type of join if no join is specified. It returns all rows in which there is at least one match in both tables.
 ```sql
 SELECT * FROM A x JOIN B y ON y.aId = x.Id
 ```
@@ -44,7 +44,7 @@ No, because ALTER is a DDL command and Oracle server performs an automatic COMMI
 
 
 ### Which is the only constraint that enforces rules at column level?
-NOT NULL is the only contstraint that works at the column level.
+NOT NULL is the only constraint that works at the column level.
 
 
 ### What are the pseudocolumns in SQL? Give some examples?
