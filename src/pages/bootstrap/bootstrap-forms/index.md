@@ -11,6 +11,7 @@ Here’s a quick example to demonstrate Bootstrap’s form styles. Keep reading 
 
 #### Usage
 
+```html
 <form>
   <div class="form-group">
     <label for="exampleInputEmail1">Email address</label>
@@ -29,5 +30,4 @@ Here’s a quick example to demonstrate Bootstrap’s form styles. Keep reading 
   </div>
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
-
-
+```
