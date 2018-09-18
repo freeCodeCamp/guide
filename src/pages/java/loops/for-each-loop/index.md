@@ -3,7 +3,7 @@ title: For Each Loop
 ---
 # For Each Loop
 
-Also called the enhanced for loop, it is an extremely useful and simple way to iterate over each item in a collection, arrays as well as objects that implement the Iterable interface.
+Also called the enhanced `for` loop, it is an extremely useful and simple way to iterate over each item in a collection, array or any object that implements the `Iterable` interface.
 
 ```java
 for (object : iterable)
@@ -12,7 +12,7 @@ for (object : iterable)
 }
 ```
 
-The loop is read as - for each element in the `iterable` (could be an array, collectable etc.). The `object` type must match the element type of the `iterable`.
+The loop is read as, "for each element in the `iterable` (could be an array, collectable etc.)". The `object` type must match the element type of the `iterable`.
 
 ```java
 int[] number_list = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
@@ -29,6 +29,7 @@ Output:
     0 1 2 3 4 5 6 7 8 9
 ```
 :rocket:<a href='https://repl.it/CJYs/0' target='_blank' rel='nofollow'>Run Code</a>
+
 
 Comparing this with the traditional `for` loops :
 
@@ -65,8 +66,10 @@ An example of it's usage with multidimenisonal arrays are shown below:
 int number_list_new[][]={  {  0,  1, 2},
                   {  3, 4, 5},
                   { 6, 7, 8} };
-
-for(int i[] : number_list_new)  //Because 2d arrays are implemented as "arrays of arrays",the first iteration variable iterates through 3 such arrays(that is, the 3 rows of testarr[][]) 
+                  
+// Because 2d arrays are implemented as "arrays of arrays",the first iteration variable iterates 
+// through 3 such arrays(that is, the 3 rows of testarr[][]) 
+for(int i[] : number_list_new)  
 {
   for(int j : i){
     System.out.print(j+" ");
@@ -82,4 +85,3 @@ Output:
 
 
 In the above code snippets, `number_list` is an array. If you don't know what this is, don't worry about it. An array is a container object that holds a fixed number of values of a single type, but more on this later.
-
