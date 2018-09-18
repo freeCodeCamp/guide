@@ -7,16 +7,13 @@ title: Comparisons with the Logical Or Operator
 **Spoiler Alert**
 :grimacing: :grimacing: :grimacing:
 
-Below is the sample code
-(The simplest way)
-
+Below is the sample code. (The simplest way)
 
 ```javascript
-if ( val <10 || val>20 ) {
+if ( val < 10 || val > 20 ) {
     return "Outside";
 }
-
 ```
 
-#### The above code will return "Yes" only if *val* is between 10 and 20 (10 and 20 inclusive)
+The above code will return "Yes" only if *val* is between 10 and 20. (Inclusive)
 
