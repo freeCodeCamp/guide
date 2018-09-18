@@ -17,8 +17,26 @@ else
 }
 ```
 
-When `condition` is true, code inside the `if` section executes, otherwise `else` executes. Sometimes you would need to add a second condition. For readability, you should use a `else if` rather than nesting `if` statements.
-
+When `condition` is true, code inside the `if` section executes, otherwise `else` executes. Sometimes you would need to add a second condition. For readability, you should use  `else if` rather than nesting `if` statements.
+instead of writing:
+```
+if (condition)
+{
+	// Do something if `condition` is true
+}
+else 
+{
+	if (anotherCondition)
+	{
+		// Do something if `anotherCondition` is ture
+	}
+	else
+	{
+		// Do something if `condition` AND `anotherCondition` is false
+	}
+}
+```
+You could use the much more concise writing: 
 ```
 if (condition)
 {
