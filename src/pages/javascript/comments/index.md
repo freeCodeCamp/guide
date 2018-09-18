@@ -41,9 +41,6 @@ function hello() {
 }
 hello();
 ```
-It is as simple as it is and gives you approtunity to change some values and try the code without deleting it's part.
-If you use WebStorm or similar program you can choose the necessary lines and click Rctrl+Rshift+/ and it would automatically comment your selected text or code.
-
 #### More Information:
 <a href='https://www.digitalocean.com/community/tutorials/how-to-write-comments-in-javascript' target='_blank' rel='nofollow'>How To Write Comments in JavaScript</a>
 
