@@ -29,11 +29,10 @@ Unconscious bias is far more prevalent than conscious prejudice and often incomp
   
 Unconscious bias can influence decisions in recruitment, promotion and performance management. It could be discriminatory when the unconscious bias relates to a protected characteristic.  
 
-Project Implicit is a non-profit organization and international collaboration between researchers who are interested in implicit social cognition - thoughts and feelings outside of conscious awareness and control. The goal of the organization is to educate the public about hidden biases and to provide a “virtual laboratory” for collecting data on the Internet.
-
-They have produced [a variety of online tests](https://implicit.harvard.edu/implicit/selectatest.html) to examine implicit bias in common situations. 
-
-Unconscious bias can influence decisions in recruitment, promotion and performance management. It could be discriminatory when the unconscious bias relates to a protected characteristic.<sup>2</sup>
+#### Sources
+ 1. ["What is Unconscious Bias" University of California, San Francisco
+Office of Diversity and Outreach. Accessed: October 15, 2017.](https://diversity.ucsf.edu/resources/unconscious-bias)
+ 2. ["Unconscious Bias" acas.org.uk Accessed: October 15, 2017.](http://www.acas.org.uk/index.aspx?articleid=5433)
 
 #### More Information:
 1. [Navarro, Renee MD. "What is unconscious bias?" *University of California, San Francisco.* Accessed: October 20, 2017](https://diversity.ucsf.edu/resources/unconscious-bias)
