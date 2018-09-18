@@ -23,8 +23,7 @@ An image can also be turned into a link by enclosing the `<img>` tag in an `<a>`
   <a href= "https://guide.freecodecamp.org/"><img src="logo.svg"></a>
 ```
 
-
-
+It's important to remember that all the buttons that guides us through the navigation process should be anchors with the aspect of a button, rather than a button with a function that triggers a link.
 
 #### More Information:
 
