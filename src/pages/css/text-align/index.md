@@ -17,6 +17,15 @@ text-align: start;  aligns the last line at the beginning of the line
 text-align: end;  aligns the last line at the end of the line
 text-align: match-parent;  calcule the values start and end to the parent's direction and replaced by the appropriate left or right value.
 
+/* Block alignment values (Non-standard syntax) */
+text-align: -moz-center;
+text-align: -webkit-center;
+
+/* Global values */
+text-align: inherit;
+text-align: initial;
+text-align: unset;
+
 #### More Information:
 - <a href='https://www.w3.org/TR/REC-CSS1/#text-align' target='_blank' rel='nofollow'>CSS1 Spec</a>
 - <a href='https://www.w3.org/TR/CSS21/text.html#alignment-prop' target='_blank' rel='nofollow'>CSS2 Spec</a>
