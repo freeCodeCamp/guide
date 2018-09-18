@@ -3,13 +3,11 @@ title: Framer
 ---
 ## Framer
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/designer-tools/framer/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+<p>Framer is a complete workflow for creating interactive designs whether solo or in a team. With pre-set animations, pre-made native interactions, and multiple screen app flows, you can quickly build and prototype your designs. The design aspect has an auto-layout and smart grouping algorithms, allowing the design space to interact and respond to the various elements added onto it and keeping the hierarchy in tact. Framer also supports Handoff, a simple way to deliver accurate conversions to developers once the design stage is complete. <p>
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+Official Website: <a href="https://framer.com/features/">Framer</a>
+The site also has multiple official <a href="https://framer.com/getstarted/guides/">guides</a> on using Framer.
 
-
+ 

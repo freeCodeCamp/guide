@@ -1,15 +1,35 @@
----
-title: W3 CSS Containers
----
+
 ## W3 CSS Containers
+W3.css provides a container class which adds 16 pixels worth of left and right padding to any html element, and 0.01em of
+top and bottom padding.
+This makes it ideal for html containing elements such as ```<header>, <div>, <footer>, <section>```etc. But can also be used with great effect on elements like ```<img> and <p>.```
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/w3-css-containers/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+### Simple example
+```
+<header class="w3-container">
+  <h1>Header With W3 Container</h1>
+</header>
+```
+```
+<header>
+  <h1>Header Without W3 Container</h1>
+</header>
+```
+Would produce the following result.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+![Header img](https://github.com/OcelotDive/randomImages/blob/master/images/WithWithout.PNG)
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### To use W3.Css Containers
+Just add a regular stylesheet link to the head of your web page like so:
+```
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+``` 
+or download the latest css file to your local machine. Here: (https://www.w3schools.com/w3css/4/w3.css)
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+
+
+#### More Information on W3.Css Containers
+
+##### W3schools.com (https://www.w3schools.com/w3css/w3css_containers.asp)
 
 
