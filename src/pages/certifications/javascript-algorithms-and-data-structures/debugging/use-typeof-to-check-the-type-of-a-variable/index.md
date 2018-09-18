@@ -3,8 +3,10 @@ title: Use typeof to Check the Type of a Variable
 ---
 ## Use typeof to Check the Type of a Variable
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/debugging/use-typeof-to-check-the-type-of-a-variable/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+- Use `console.log(typeof variable)` to display the type of the desired variable.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+## Solution:
+```javascript
+console.log(typeof seven);
+console.log(typeof three);
+```

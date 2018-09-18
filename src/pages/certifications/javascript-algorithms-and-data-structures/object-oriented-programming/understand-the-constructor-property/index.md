@@ -3,8 +3,27 @@ title: Understand the Constructor Property
 ---
 ## Understand the Constructor Property
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/object-oriented-programming/understand-the-constructor-property/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+### Method
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Simply finish the function like that of the example given. Use an `if-statement` to test whether or not the `candidate` is a `Dog`.  
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### Solution
+
+```javascript
+
+function Dog(name) {
+  this.name = name;
+}
+
+// Add your code below this line
+function joinDogFraternity(candidate) {
+  if(candidate.constructor === Dog) {
+    return true;
+  }
+  else {
+    return false;
+  }
+}
+
+```
+ 

@@ -149,13 +149,13 @@ You will have to check if the current value is already on the array to be return
 
     //jshint esversion:6
 
-    function uniteUnique(arr) {
+    function uniteUnique(...arrays) {
 
-      //make an array out of arguments and flatten it (using the spread operator)
-      const args = [].concat(...arguments);
+      //make an array out of the given arrays and flatten it (using the spread operator)
+      const flatArray = [].concat(...arrays);
 
-      // create a Set
-      return [...new Set(args)];
+      // create a Set which clears any duplicates since it's a regulat set and not a multiset
+      return [...new Set(flatArray)];
     }
 
     // test here

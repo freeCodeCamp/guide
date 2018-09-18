@@ -43,6 +43,10 @@ title: Books to Read for Programmers
 - [Amazon Smile](https://smile.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/098478280X)
 - ISBN-13: 978-0984782802
 
+*The C Programming Language by Brian W. Kernighan and Dennis Ritchie*
+- [Amazon Smile](https://smile.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628/)
+- ISBN-13: 978-0131103628
+
 
 This list was compiled from multiple suggestion threads on Reddit and Stackoverflow. 
 Please feel free to add more that you have found useful!

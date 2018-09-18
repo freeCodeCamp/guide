@@ -3,8 +3,19 @@ title: Remove Whitespace from Start and End
 ---
 ## Remove Whitespace from Start and End
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/regular-expressions/remove-whitespace-from-start-and-end/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+To solve this challenge you simply have to create a regex string that matches any spaces at the beginning or at the end of the string. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+## Hint 1:
+Think of how you can select substrings at the beginning or end of a string.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+## Hint 2:
+Think of how you can select whitespace
+
+## Spoiler Alert - Solution Ahead!
+
+## Solution:
+```javascript
+let hello = "   Hello, World!  ";
+let wsRegex = /^\s+|\s+$/g; // Change this line
+let result = hello.replace(wsRegex, ''); // Change this line
+```

@@ -3,8 +3,17 @@ title: Catch Arguments Passed in the Wrong Order When Calling a Function
 ---
 ## Catch Arguments Passed in the Wrong Order When Calling a Function
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/debugging/catch-arguments-passed-in-the-wrong-order-when-calling-a-function/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+```javascript
+function raiseToPower(b, e) {
+  return Math.pow(b, e);
+}
+```
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+- The above function is used to raise the base number `b` to the power of the exponent `e`. 
+- The function must be called specifically with variables in the correct order. Otherwise the function will mix up both variables and return an undesired answer.
+- Make sure tha variable `power` is implementing the `raiseToPower` function correctly.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+## Solution:
+```javascript
+let power = raiseToPower(base, exp);
+```

@@ -14,6 +14,21 @@ Unconscious bias is far more prevalent than conscious prejudice and often incomp
 
 #### Project Implicit:
 
+There are many factors that can give you an unconcious bias, such as:
+
+- Our Perception – how we see people and perceive reality.
+- Our Attitude – how we react towards certain people.
+- Our Behaviours – how receptive/friendly we are towards certain people.
+- Our Attention – which aspects of a person we pay most attention to.
+- Our Listening Skills – how much we actively listen to what certain people say.
+- Our Micro-affirmations – how much or how little we comfort certain people in certain situations.
+
+It was also found in various studies that that even the order of questions in a test can lead to unconsious bias. There is a very good video on the topic [here](https://www.youtube.com/watch?v=75g4d5sF3xI").  
+
+Unconscious bias is far more prevalent than conscious prejudice and often incompatible with one’s conscious values. Certain scenarios can activate unconscious attitudes and beliefs. For example, biases may be more prevalent when multi-tasking or working under time pressure.  
+  
+Unconscious bias can influence decisions in recruitment, promotion and performance management. It could be discriminatory when the unconscious bias relates to a protected characteristic.  
+
 Project Implicit is a non-profit organization and international collaboration between researchers who are interested in implicit social cognition - thoughts and feelings outside of conscious awareness and control. The goal of the organization is to educate the public about hidden biases and to provide a “virtual laboratory” for collecting data on the Internet.
 
 They have produced [a variety of online tests](https://implicit.harvard.edu/implicit/selectatest.html) to examine implicit bias in common situations. 

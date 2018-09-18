@@ -32,7 +32,9 @@ The first step in overcoming imposter syndrome is to learn the difference betwee
 When you change your outlook to a growth mindset, you allow yourself to take on challenges that may seem out of reach. If you believe that your skills can be developed over time, it will matter less if you don't know how to do something (as long as you are willing to put in the work). 
 
 
-Some resources to help you know more about Imposter Syndrome and some tips to tackle it:
+<a href='https://www.thecut.com/2017/01/25-famous-women-on-impostor-syndrome-and-self-doubt.html' 'target=_blank' rel='nofollow'> Many talented, successful people deal with Imposter Syndrome.</a> They even say that - counterintuitively - not only does success not eliminate Imposter Syndrome; many times, success makes it worse. So, it isn't something we conquer once. We conquer it every day, every time we take on a project, task, etc.
+
+More great resources to help you know more about Imposter Syndrome and some tips to tackle it:
 
 * <a href='http://www.apa.org/gradpsych/2013/11/fraud.aspx' target='_blank' rel='nofollow'>Feel Like a Fraud? | American Psychological Association</a>
 * <a href='https://www.ted.com/playlists/503/fighting_impostor_syndrome' target='_blank' rel='nofollow'>Fighting Imposter Syndrome | TED Talks</a>
