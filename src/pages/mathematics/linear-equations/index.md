@@ -11,7 +11,3 @@ The equation for a linear function is **y = mx + b**.
 * _'mx'_ is the slope, or rate of which the equation is headed. This can be calculated using **(y2-y1/x2-x1)**, where the numerator is the vertical shift, while the denominator is the horizontal shift.
 * _'b'_ is the y-intercept, or where the linear function meets the y-axis.
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
