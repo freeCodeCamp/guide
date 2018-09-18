@@ -21,6 +21,9 @@ Dealing with a lot of dimensions can be painful for machine learning algorithms.
 - t-Distributed Stochastic Neighbor Embedding [t-SNE](https://lvdmaaten.github.io/tsne/)
 - [Auto Encoders](https://medium.com/towards-data-science/reducing-dimensionality-from-dimensionality-reduction-techniques-f658aec24dfe)
 - Generalized discriminant analysis (GDA)
+- autoencoders
+
+
 
 #### More Information:
 
