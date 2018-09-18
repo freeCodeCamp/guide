@@ -184,4 +184,4 @@ Number 2 is greater.
 
 **Happy Coding ! :)**
 
- **Feel free to ask any queries on FreeCodeCamp's GitHub page or [FreeCodeCamp's Forum.](https://forum.freecodecamp.org/)**
+ **Feel free to ask any queries on freeCodeCamp.org's GitHub page or [the freeCodeCamp.org Forum](https://forum.freecodecamp.org/)**.
