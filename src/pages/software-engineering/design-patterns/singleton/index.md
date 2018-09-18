@@ -150,4 +150,3 @@ An important thing to note is that `static` properties and methods are lazy init
 For more information, visit the following links:
 - [MSDN: Implementing Singleton in C#](https://msdn.microsoft.com/en-us/library/ff650316.aspx)
 - [C# in Depth. Implementing the Singleton Pattern in C#](http://csharpindepth.com/Articles/General/Singleton.aspx)
-
