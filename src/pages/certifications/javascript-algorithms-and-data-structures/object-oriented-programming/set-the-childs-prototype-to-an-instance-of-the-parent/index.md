@@ -3,8 +3,36 @@ title: Set the Child's Prototype to an Instance of the Parent
 ---
 ## Set the Child's Prototype to an Instance of the Parent
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/object-oriented-programming/set-the-childs-prototype-to-an-instance-of-the-parent/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+### Method
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+This challenge is no different from the last challenge, in the fact that you must create an object which inherits from the `supertype`. Only this time the subtype `Dog` will inherit the `Animal` supertype.
+Simply create a new instance of `Dog.prototype` like the following example.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```javascript
+
+Bird.prototype = Object.create(Animal.prototype);
+
+```
+
+### Solution
+
+```javascript
+
+function Animal() { }
+
+Animal.prototype = {
+  constructor: Animal,
+  eat: function() {
+    console.log("nom nom nom");
+  }
+};
+
+function Dog() { }
+
+// Add your code below this line
+Dog.prototype = Object.create(Animal.prototype);
+
+let beagle = new Dog();
+beagle.eat();  // Should print "nom nom nom"
+
+```
