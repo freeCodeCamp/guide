@@ -14,6 +14,7 @@ Vim is rock stable and boasts many features including:
 - powerful search and replace
 - integrates with many tools
 - built-in macro support for automation text manipulation
+- usable on systems that lack support for GUI based text editors
 
 One of the main differences that Vim (and its predecessor, *vi*) have over other editors like *nano*, is that it is a _modal editor_, which means that it have several modes of operation. For example, the editor starts in *Navigation Mode*, which allows you to quickly move around the document (or, more accurately _blazingly fast_). In this mode, you can enter commands to interact with your document, like using `:i` to enter `insert mode`, `:q` to quit, `/<text>` to search text, among others. 
 
