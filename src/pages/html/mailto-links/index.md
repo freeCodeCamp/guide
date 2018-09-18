@@ -8,7 +8,9 @@ title: Mailto Links
 A mailto link is a kind of hyperlink (<a href=""></a>), with special parameters that lets you specify additional recipients, a subject line, and/or a body text.
 
 ### The basic syntax with a recipient is : 
-    ```<a href="mailto:friend@something.com">Some text</a>```
+```
+<a href="mailto:friend@something.com">Some text</a>
+```
 
 ### More customization!
 
@@ -32,7 +34,9 @@ Body: I am becoming a developer
 
 Your html link now:
 
-   ```<a href="mailto:?subject=Great%20news&body=I%20am%20becoming%20a%20developer">Send mail!</a>```
+```
+<a href="mailto:?subject=Great%20news&body=I%20am%20becoming%20a%20developer">Send mail!</a>
+```
     
 Here, we've left mailto empty (mailto:?). This will open the user's email client and the user will add the recipient address themselves.
 
@@ -42,7 +46,9 @@ In the same manner, you can add CC and bcc parameters.
 Seperate each address by a comma! 
 Additional parameters must be preceded by `&`.
 
-   ``` <a href="mailto:firstfriend@something.com?subject=Great%20news&cc=secondfriend@something.com,thirdfriend@something.com&bcc=fourthfriend@something.com">Send mail!</a>```
+```
+<a href="mailto:firstfriend@something.com?subject=Great%20news&cc=secondfriend@something.com,thirdfriend@something.com&bcc=fourthfriend@something.com">Send mail!</a>
+```
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
