@@ -51,3 +51,28 @@ Since there are no whole numbers between 6 and 7, all of the positive factors ha
 1 | 2 | 3 | 6 | 7 | 14 | 21 | 42 | -1 | -2 | -3 | -6 | -7 | -14 | -21 | -42
  --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
 
+## Confirm number of factors is correct
+We can quickly confirm that we have identified all positive factors with the following steps:
+
+1. Take the prime factorization (provided by tree above)
+
+2<sup>1</sup> * 3<sup>1</sup> * 7*<sup>1</sup>
+
+
+2. Add one to each of the exponents:
+
+2's exponent: 1 + 1 = 2
+3's exponent: 1 + 1 = 2
+7's exponent: 1 + 1 = 2
+
+
+3. Multiple each of the numbers above:
+
+2 * 2 * 2 = 8
+
+
+4. Confirm that 42 has 8 factors: 
+
+1 | 2 | 3 | 6 | ... | 7 | 14 | 21 | 42
+ --- | --- | --- | --- | --- | --- | --- | --- | ---
+
