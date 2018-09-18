@@ -114,7 +114,7 @@ int main() {
 
 ## Strings
 
-To store strings/multiple characters, we use `char arrays` in C, because the language has no special type built in. One thing to be aware of, is that a terminating null is automatically added to the end, signaling that it is the end of the string.
+To store strings/multiple characters, we use `char arrays` in C, because the language has no special type built in. One thing to be aware of, is that a terminating null is automatically added to the end, signaling that it is the end of the string. However, you may also initialze a string with curly braces `{}` as well, but you have to manually add the terminating null. 
 
 Like so:
 ```C
