@@ -141,9 +141,8 @@ The less than or equal operator returns true if the left operand is less than or
 
 _You can find more information at <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators' target='_blank' rel='nofollow'>MDN</a>._
 
----
-title: Comparing null and undefined
----
+
+## Comparing null and undefined
 
 When we compare null and undefined we see different behaviour. Lets check different scenario through examples
 #### Example - strict equality check (===)
