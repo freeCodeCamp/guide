@@ -2,7 +2,6 @@
 title: Type Families
 ---
 ## Type Families
-
 ### General Information
 Type families are ranges of typeface designs. Each family is a variation of a basic style of alphabet. There are hundreds or maybe even thousands of typeface families. 
 
@@ -27,5 +26,3 @@ Punctuation gives type emotion, and gives indications on when to stop, slow down
 - Script-Cursive
 
 #### More Information:
-
-Type Families - <a href='https://en.wikipedia.org/wiki/Type_family' target='_blank' rel='nofollow'>Wikipedia</a>

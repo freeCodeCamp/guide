@@ -3,8 +3,18 @@ title: Use the some Method to Check that Any Elements in an Array Meet a Criteri
 ---
 ## Use the some Method to Check that Any Elements in an Array Meet a Criteria
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/functional-programming/use-the-some-method-to-check-that-any-elements-in-an-array-meet-a-criteria/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+### Problem Explanation
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Use the some method inside the checkPositive function to check if any element in arr is positive. The `checkPositive` function should return a Boolean value.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+#### Relevant Links:
+  - [Array.prototype.some()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some)
+  
+
+### Solution:
+```javascript
+function checkPositive(arr) {
+  return arr.some((elem) => elem > 0);
+}
+checkPositive([1, 2, 3, -4, 5]);
+```

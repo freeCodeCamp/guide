@@ -3,8 +3,17 @@ title: Comparisons with the Logical Or Operator
 ---
 ## Comparisons with the Logical Or Operator
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-javascript/comparisons-with-the-logical-or-operator/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+### Guide : Follow the code given in the example
+**Spoiler Alert**
+:grimacing: :grimacing: :grimacing:
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Below is the sample code. (The simplest way)
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```javascript
+if ( val < 10 || val > 20 ) {
+    return "Outside";
+}
+```
+
+The above code will return "Yes" only if *val* is between 10 and 20. (Inclusive)
+
