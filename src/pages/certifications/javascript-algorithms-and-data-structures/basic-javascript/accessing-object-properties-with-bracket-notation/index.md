@@ -3,7 +3,9 @@ title: Accessing Object Properties with Bracket Notation
 ---
 ## Accessing Object Properties with Bracket Notation
 
-// Setup
+Here's one possible solution:
+
+```js
 var testObj = {
   "an entree": "hamburger",
   "my side": "veggies",
@@ -14,3 +16,4 @@ var testObj = {
 
 var entreeValue = testObj["an entree"];   // Change this line
 var drinkValue = testObj["the drink"];    // Change this line
+```
