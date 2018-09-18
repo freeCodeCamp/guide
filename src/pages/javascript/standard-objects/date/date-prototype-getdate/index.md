@@ -1,15 +1,26 @@
 ---
 title: Date.prototype.getDate
 ---
+
 ## Date.prototype.getDate
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/standard-objects/date/date-prototype-getdate/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `getDate()` method returns the day of the month for the specified date according to local time.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Syntax
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```js
+dateObject.getDate()
+```
+
+### Example
+
+```js
+var Xmas95 = new Date('December 25, 1995 23:15:30');
+var day = Xmas95.getDate();
+
+console.log(day); // 25
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+[MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getDate)
