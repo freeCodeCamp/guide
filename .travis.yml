@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - "6"
+  - "8"
 script:
   - yarn run lint
-  - node bin/createNavData
+  - yarn test

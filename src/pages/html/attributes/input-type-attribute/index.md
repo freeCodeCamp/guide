@@ -3,13 +3,84 @@ title: Input Type Attribute
 ---
 ## Input Type Attribute
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/attributes/input-type-attribute/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The input type attribute specifies the type of the input the user should put in your form.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### text
+One line of a text.
+```html
+    <form>
+      <label for="login">Login:</label>
+      <input type="text" name="login">
+    </form>
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### password
+One line of a text. Text is automatically displayed as a series of dots or asterisks (depends on the browser and OS).
+```html
+    <form>
+      <label for="password">Password:</label>
+      <input type="password" name="password">
+    </form>
+```
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+### email
+The HTML checks if the input matches the e-mail address format (something@something).
+```html
+    <form>
+      <label for="email">E-mail address:</label>
+      <input type="email" name="email">
+    </form>
+```
 
+### number
+Allow only numeric input. You can also specify the min and max value allowed. The example below check that the input is number between 1 and 120.
+```html
+    <form>
+      <label for="age">Age:</label>
+      <input type="number" name="age" min="1" max="120">
+    </form>
+```
+
+### radio
+Only one option can be selected by the user. The group of radio buttons need to have the same name attribute. You can select automatically one option by using `checked` property (in example below the value Blue is selected).
+```html
+    <form>
+      <label><input type="radio" name="color" value="red">Red</label>
+      <label><input type="radio" name="color" value="green">Green</label>
+      <label><input type="radio" name="color" value="blue" checked>Blue</label>
+    </form>
+```
+### checkbox
+User can select zero or more options from the group of checkboxes. You can use `checked` property here too for one or more options.
+```html
+    <form>
+      <label><input type="checkbox" name="lang" value="english">english</label>
+      <label><input type="checkbox" name="lang" value="spanish">spanish</label>
+      <label><input type="checkbox" name="lang" value="french">french</label>
+    </form>
+```
+### button
+The input is displayed as button, the text which should be displayed in the button is in value attribute.
+```html
+    <form>
+      <input type="button" value="click here">
+    </form>
+```
+### submit
+Displays the submit button. The text which should be displayed in the button is in value attribute. After clicking on the button, the HTML do the validation and if it passes, the form is submitted.
+```html
+    <form>
+      <input type="submit" value="SUBMIT">
+    </form>
+```
+
+### reset
+Displays the reset button. The text which should be displayed in the button is in value attribute. After clicking on the button, all values from the form are deleted.
+```html
+    <form>
+      <input type="reset" value="CANCEL">
+    </form>
+```
+
+There are more types elements. For more information visit [MSDN]("https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input") or [w3schools]("https://www.w3schools.com/Html/html_form_input_types.asp").
 
