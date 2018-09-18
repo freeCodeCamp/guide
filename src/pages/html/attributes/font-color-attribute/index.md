@@ -3,25 +3,41 @@ title: Font Color Attribute
 ---
 
 ## Font Color Attribute
+This attribute is used to set a color to the text enclosed in a ```<font>``` tag.
 
-The font color atribute in the form of a hex code, rgb code, or color name determins the color of the text inside of
-`<font>`open and `</font>` close tags.
+### Syntax:
+ ``html
+ <font color= "color">
+ ```
+ 
+### Important:
+This attribute is not supported in HTML5. Instead, this [freeCodeCamp article](https://guide.freecodecamp.org/css/colors) specifies a CSS method, which can be used.
 
-
-### Depreciated
-The Font Color Attribute has been deprecated in HTML5 and should not be used. Browser support for this attribute is limited and using it may produce unexpected results. Instead, use the CSS color property. [Read more](https://html.com/attributes/font-color)
-
-### Syntax
-
+### Note:
+A color can also be specified using a 'hex code' or an 'rgb code', instead of using a name.
+ 
+### Example:
+1. Color name attribute
 ```html
-<font color="color_name|hex_number|rgb_number">
+<html>
+  <body>
+   <font color="green">Font color example using color attribute</font>
+ </body>
+</html>
 ```
-
-
-### Examples
-
+2. Hex code attribute
 ```html
-<font color="red">This is some text!</font>
-<font color="#8639e0">This is some purple text!</font>
-<font color="rgb(3, 198, 254)">This is some blue text!</font>
+<html>
+  <body>
+   <font color="#00FF00">Font color example using color attribute</font>
+  </body>
+</html>
+```
+3. RGB attribute
+```html
+<html>
+  <body>
+    <font color="rgb(0,255,0)">Font color example using color attribute</font>
+  </body>
+</html>
 ```
