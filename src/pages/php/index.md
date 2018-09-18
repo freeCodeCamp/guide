@@ -30,6 +30,7 @@ your blog posts from a database and display them. Other uses for PHP scripts inc
 * Processing and saving user input from form data
 * Setting and working with website cookies
 * Restricting access to certain pages of your website
+* Creating actionable forms
 
 ## How does PHP work?
 
