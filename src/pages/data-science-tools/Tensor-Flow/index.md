@@ -5,7 +5,7 @@ title: TensorFlow
 
 <a href='https://www.tensorflow.org/' target='_blank' rel='nofollow'>TensorFlow</a> is an open source software library for Machine Intelligence.
 
-### With the aim of conducting research in these fascinating areas, the Google team developed TensorFlow.
+With the aim of conducting research in these fascinating areas, the Google team developed TensorFlow.
 
 ## How it is used for Data Science
 TensorFlow is an open source software library for numerical computation using data flow graphs. 
@@ -17,4 +17,4 @@ working on the Google Brain Team within Google's Machine Intelligence research o
 for the purposes of conducting machine learning and deep neural networks research, but the 
 system is general enough to be applicable in a wide variety of other domains as well.
 
-## For more information, visit the <a href='https://github.com/tensorflow' target='_blank' rel='nofollow'>TensorFlow Github page</a>
+For more information, visit the <a href='https://github.com/tensorflow' target='_blank' rel='nofollow'>TensorFlow Github page</a>
