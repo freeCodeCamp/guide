@@ -3,19 +3,24 @@ title: P Align Attribute
 ---
 ## P Align Attribute
 
-To align the text inside a ```<p>``` tag, this attribute will help.
+### Important
+This attribute is not supported in HTML5. It is recommended to use the [`text-align` CSS property](https://guide.freecodecamp.org/css/text-align).
 
-#### Syntax
-```<p align = "position">```
+To align the text inside a `<p>` tag, this attribute will help.
 
-#### Attributes 
+### Syntax
+```html
+<p align="position">Lorem Ipsum...</p>
+```
+
+### Attributes 
  
- **left**    -  Text aligns to the left            
- **right**   -  Text aligns to the right           
- **center**  -  Text aligns to the center          
- **justify** -  All lines of text have equal width 
+- **left**    -  Text aligns to the left            
+- **right**   -  Text aligns to the right           
+- **center**  -  Text aligns to the center          
+- **justify** -  All lines of text have equal width 
 
-#### Example
+### Example
 
 ```html
 <html>
@@ -24,13 +29,8 @@ To align the text inside a ```<p>``` tag, this attribute will help.
 </body>
 </html>
 ```
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
-#### Important
-This attribute is not supported in HTML5. Instead, this [w3schools article](https://www.w3schools.com/cssref/pr_text_text-align.asp) specifies a CSS method, which can be used.
-
-### Sources 
-1. https://www.w3schools.com/tags/att_p_align.asp
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+#### More Information:
+* [CSS `text-align`](https://guide.freecodecamp.org/css/text-align)
+* [W3 - HTML 4.01 Specification](https://www.w3.org/TR/html401/struct/text.html#h-9.3.1)
+* [MDN - CSS Text Align](https://developer.mozilla.org/en-US/docs/Web/CSS/text-align)
