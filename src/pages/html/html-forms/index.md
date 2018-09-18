@@ -62,3 +62,6 @@ The HTML `<form>` tag is used to create an HTML form and it has following syntax
          form elements like input, textarea etc.
     </form>
 ```
+
+The action attribute defines the action to be performed when the form is submitted.
+Normally, the form data is sent to a web page at the Script URL when the user clicks on the submit button. If the action attribute is omitted, the action is set to the current page.

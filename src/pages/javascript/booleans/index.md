@@ -4,7 +4,7 @@ title: Boolean
 
 ## Boolean
 
-Booleans are a primitive datatype commonly used in computer programming languages. A boolean can be either `true` or `false` in javascript (spelling or wording may vary in other languages). 
+Booleans are a primitive datatype commonly used in computer programming languages. A boolean can be either `true` or `false` in Javascript (spelling or wording may vary in other languages). 
 
 In Javascript, there is often implicit type coercion to boolean. If for example you have an if statement which checks a certain expression, that expression will be coerced to a boolean: 
 
@@ -45,7 +45,7 @@ With the and operator it works in a similar way, but for 'and' to be true, both 
 
 ## The Boolean Object
 
-There is also a native JavaScript object that wraps around a value. The value passed as the first parameter is converted to a boolean value, if necessary. If value is omitted or is 0, -0, null, false, NaN, undefined, or the empty string (""), the object has an initial value of false. All other values, including any object or the string "false", create an object with an initial value of true.
+There is also a native JavaScript object that wraps around a value. The value passed as the first parameter is converted to a boolean value, if necessary. If value is omitted, 0, -0, null, false, NaN, undefined, or the empty string (""), the object has an initial value of false. All other values, including any object or the string "false", create an object with an initial value of true.
 
 Do not confuse the primitive Boolean values true and false with the true and false values of the Boolean object.
 

@@ -24,6 +24,10 @@ Each member offers an alternative perspective to the problem and potential solut
 
 * Achieve customer satisfaction by working for the same goal
 
+Some researchers have viewed cross-functional interactions as cooperative or competitive in nature, while others have argued that organization’s functional areas are often forced to compete and cooperate simultaneously with one another (“coopetition”) and it is critical to understand how these complex relationships interplay and affect firm performance.
+
+From the Agile project perspective, the delivery team is expected to be a cross-functional team that contains a collection of members who possess all the skills needed for the team to deliver their work without significant support from outside the team. Typically this means the team has the design, architecture, coding, and testing skills needed to succeed.
+
 ### Articles
 
 * [17 PROVEN WAYS TO BENEFIT FROM A CROSS-FUNCTIONAL TEAM] (https://www.scoro.com/blog/improve-cross-team-collaboration/)
@@ -35,7 +39,3 @@ Each member offers an alternative perspective to the problem and potential solut
 * [Cross Functional Doesn’t Mean Everyone Can Do Everything] (https://www.mountaingoatsoftware.com/blog/cross-functional-doesnt-mean-everyone-can-do-everything)
 
 * [Cross functional teams](https://dzone.com/articles/cross-functional-scrum-teams)
-
-
-=======
-Some researchers have viewed cross-functional interactions as cooperative or competitive in nature, while others have argued that organization’s functional areas are often forced to compete and cooperate simultaneously with one another (“coopetition”) and it is critical to understand how these complex relationships interplay and affect firm performance.
