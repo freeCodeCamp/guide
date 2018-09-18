@@ -57,7 +57,7 @@ Can be used for:
 * Sidenotes
 
 #### More Information:
-
-<a href="http://www.webpagemistakes.ca/text-alignment-on-the-web/">Text Alignment on the Web</a>
-
-
+<!-- Please add any articles you think might be helpful to read before writing the article -->
+* [Wikipedia Article](https://en.wikipedia.org/wiki/Typographic_alignment)
+* [Web Style guide](https://webstyleguide.com/wsg2/type/align.html)
+* <a href="http://www.webpagemistakes.ca/text-alignment-on-the-web/" rel='noopener noreferrer'>Text Alignment on the Web</a>

@@ -48,3 +48,6 @@ After mirroring repository you can clone your local mirror from your server.
 ```shell
 git clone NAME-OF-DIRECTORY-ON-COMPUTER
 ```
+
+### More Information:
+- Git documentation: [clone](https://git-scm.com/docs/git-clone)
