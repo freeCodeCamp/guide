@@ -39,7 +39,7 @@ Often the code would not work the way you expect it due to wrong variable names,
 ## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 4
 
 If you are having problems with writing the `setter` methods, below is a template for a `set` method:
-```
+```js
 this.setFullName = function(input) {
   // Insert your code here
 }
@@ -54,38 +54,38 @@ this.setFullName = function(input) {
 **Solution ahead!**
 
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
+```js
+var Person = function(firstAndLast) {
+  var fullName = firstAndLast;
 
-    var Person = function(firstAndLast) {
-      var fullName = firstAndLast;
+  this.getFirstName = function() {
+    return fullName.split(" ")[0];
+  };
 
-      this.getFirstName = function() {
-        return fullName.split(" ")[0];
-      };
+  this.getLastName = function() {
+    return fullName.split(" ")[1];
+  };
 
-      this.getLastName = function() {
-        return fullName.split(" ")[1];
-      };
+  this.getFullName = function() {
+    return fullName;
+  };
 
-      this.getFullName = function() {
-        return fullName;
-      };
+  this.setFirstName = function(name) {
+    fullName = name + " " + fullName.split(" ")[1];
+  };
 
-      this.setFirstName = function(name) {
-        fullName = name + " " + fullName.split(" ")[1];
-      };
+  this.setLastName = function(name) {
+    fullName = fullName.split(" ")[0] + " " + name;
+  };
 
-      this.setLastName = function(name) {
-        fullName = fullName.split(" ")[0] + " " + name;
-      };
+  this.setFullName = function(name) {
+    fullName = name;
+  };
+};
 
-      this.setFullName = function(name) {
-        fullName = name;
-      };
-    };
-
-    var bob = new Person('Bob Ross');
-    bob.getFullName();
-
+var bob = new Person('Bob Ross');
+bob.getFullName();
+```
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLov/0' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
