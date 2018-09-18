@@ -1,5 +1,5 @@
 ---
-title: Vertical-Align
+title: Vertical Align CSS  
 ---
 ## Vertical-Align
 
@@ -22,9 +22,8 @@ These are the valid values for ```vertical-align```:
 * ```text=top``` - This aligns the top of this element so that it is aligned with the top of the parent element's top
 * ```text-bottom``` - This aligns the bottom of this element so that it is aligned with the bottom of the parent element's text
 
-
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+
 * [CSS vertical-align](https://www.w3schools.com/cssref/pr_pos_vertical-align.asp)
 
 
