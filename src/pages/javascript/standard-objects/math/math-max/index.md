@@ -1,6 +1,7 @@
 ---
 title: Math Max
 ---
+
 ## Math Max
 
 `Math.max()` is a function that returns the largest value from a list of numeric values passed as parameters. If a non-numeric value is passed as a parameter, `Math.max()` will return `NaN`.
