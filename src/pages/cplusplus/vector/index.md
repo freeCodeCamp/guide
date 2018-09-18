@@ -60,6 +60,22 @@ std::vector.push_back(n); // inserts the element "n" to the end of the vector.
 std::vector.pop_back(n); // removes the last element of the vector
 ```
 
+### Vector Iterator
+The iterators provide another method for accessing elements in your vector.
+
+Iterator declaration.
+```cpp
+std::vector<int> v;
+//Iterator delcaration for the above vector will correspond to
+std::vector<int>::iterator it;
+```
+Using the iterator to print elements of the vector using for loop
+```cpp
+for(it=v.begin(); it!=v.end(); ++it) 
+//std::vector::begin and std::vector::end return iterator pointing to first and last element of the vector respectively.
+  cout<<*it;
+```
+
 ### Iterating Through a Vector
 There are different ways to iterate through a vector and access its contents. The following forms are equivalent, the first one involves using a range-based expression (since C++11), the second one uses iterators, and the last one is a index-based iteration
 
@@ -87,4 +103,3 @@ for(std::vector<int>::size_type i = 0; i != myVector.size(); i++){
 }
 
 ```
-

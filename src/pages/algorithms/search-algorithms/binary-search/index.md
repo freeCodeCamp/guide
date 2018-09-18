@@ -80,6 +80,8 @@ The two base cases for recursion would be:
 
 The code for recursive binary search is shown below:
 
+### Example in Javascript
+
 ```javascript
 function binarySearch(arr, item, low, high) {
     if (low > high) { // No more elements in the array.
@@ -108,6 +110,49 @@ print(binarySearch(numbers, 5, 0, numbers.length-1));
 The Power of Binary Search in Data Systems (B+ trees):
 Binary Search Trees are very powerful because of their O(log n) search times, second to the hashmap data structure which uses a hasing key to search for data in O(1). It is important to understand how the log n run time comes from the height of a binary search tree. If each node splits into two nodes, (binary), then the depth of the tree is log n (base 2).. In order to improve this speed in Data System, we use B+ trees because they have a larger branching factor, and therefore more height. I hope this short article helps expand your mind about how binary search is used in practical systems.
 
+
+### Example in Ruby
+
+```ruby
+def binary_search(target, array)
+  sorted_array = array.sort
+  low = 0
+  high = (sorted_array.length) - 1
+
+  while high >= low
+    middle = (low + high) / 2
+
+    if target > sorted_array[middle]
+      low = middle + 1
+    elsif target < sorted_array[middle]
+      high = middle - 1
+    else
+      return middle
+    end
+  end
+  return nil
+end
+```
+
+Here is another implementation in Javascript:
+
+```Javascript
+function binary_search(a, v) {
+    function search(low, high) {
+        if (low === high) {
+            return a[low] === v;
+        } else {
+            var mid = math_floor((low + high) / 2);
+            return (v === a[mid]) 
+                   ||
+                   (v < a[mid]) 
+                   ? search(low, mid - 1)
+                   : search(mid + 1, high);
+        }
+    }
+    return search(0, array_length(a) - 1);
+}
+```
 
 ### More Information
 * [Binary search (YouTube video)](https://youtu.be/P3YID7liBug)

@@ -1,11 +1,17 @@
 ---
 title: Useful Commands
 ---
-## Useful Commands
+
+# Useful Commands
 
 ## Saving
 1. Press `Escape` to make sure you're in `normal mode`;
 2. Type in `:w` ("w" stands for "write");
+3. Press `Enter`.
+
+## Saving (to a new file)
+1. Press `Escape` to make sure you're in `normal mode`.
+2. Type in `:w newfilename` (newfilename is the file name of the new file that you want to save to).
 3. Press `Enter`.
 
 ## Exiting Vi, Vim, Nvim, Gvim
@@ -29,6 +35,32 @@ To set line numbers on by default:
 
 ## Opening a file within VIM
 In VIM you can open a file within the same window by setting your cursor on a path and typing `gf`.  This will tell VIM that the current text that the cursor resides is a file that you want to open.  The file will open up within the VIM terminal so if you want to return to the previous window just type `ctrl+o`.  This will tell VIM to go to the previous screen.
+
+## How to split windows 
+You can split vim windows and edit 2 or more files at the same time. 
+- `:split`  -> split window (horizontal)
+- `:vsplit` -> split window (vertical)
+- `:vertical` new -> open a new file in a new window
+
+To move between windows you can use the following commands:
+
+- `CTRL-W h` - move to the window on the left
+- `CTRL-W j` - move to the window below
+- `CTRL-W k` - move to the window above
+- `CTRL-W l` - move to the window on the right
+- `CTRL-W t` - move to the top window
+- `CTRL-W b` - move to the bottom window
+
+## Undo/Redo
+
+These actions should be performed in __Normal Mode__.
+
+__Undo__: Press `u` or type in `:undo` and press `Enter`.
+
+__Redo__: Press `U` (`Shift` + `u`) or type in `:redo` and press `Enter`.
+
+## Opening a file in a specific line
+- vi filename +n, where n is the line number
 
 ## Bare minimum functionality
 
@@ -79,4 +111,5 @@ Read the rest of our Vim Guides to get a better understanding of this powerful e
 
 ## Other Resources
 - [Vim Golf](https://vimgolf.com/) - A good way to learn from doing vim challenges to get the lowest amount of keystrokes. You can see solutions submitted by others if you can't figure the challenge out.
+- [Vim Adventures](https://vim-adventures.com/) - A fun and gamified approach to learn Vim where you lern the different key strokes with every new level in the game.
 - Read the rest of our Vim Guides to get a better understanding of this powerful editor.

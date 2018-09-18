@@ -72,5 +72,10 @@ The only time the conditional is false is when a true value leads to a false val
 |  t| f | f |t|f|
 
 You can easily see that the out output of the IFF operator in the truth table is the same as the ANDing of columns 3 and 4.
+
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
+
+ +* [Logical Operators in Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators)
+ +* [Logical Operators in PHP](http://php.net/manual/en/language.operators.logical.php)
+ +* [Logical Operators in C++](http://en.cppreference.com/w/cpp/language/operator_logical)
