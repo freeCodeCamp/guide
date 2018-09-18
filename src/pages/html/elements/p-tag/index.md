@@ -21,3 +21,12 @@ The use of the `<p>` is compatible with other tags, allowing to add hyperlinks (
   </body>
 </html>
 ```
+
+You can also nest an anchor element `<a>` within a paragraph. 
+
+### Example
+```html
+<p>Here's a 
+  <a href="http://freecodecamp.com">link to Free Code Camp.com</a>
+  for you to follow.</p>
+```
