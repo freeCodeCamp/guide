@@ -1,7 +1,7 @@
 ---
-title: Ol Tag
+title: ol Tag
 ---
-## Ol Tag
+## ol Tag
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 The `<ol>` tag creates an ordered list element in HTML. An ordered list is one of two list structures in HTML, the other is the unordered list, created by the `<ul>` tag.  Ordered lists are used to display lists with meaningful order. By default, list items in an ordered list are displayed as a numbered list, starting with 1. This behavior can be changed with the "type" attribute or by using CSS styles. List elements can be nested.
@@ -25,5 +25,9 @@ In HTML, ordered and unordered lists are similar in both usage and styling. Use 
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-[MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body)
+
+
+## Other Resources
+* [The unordered list `<ul>`](https://github.com/freeCodeCamp/guides/blob/master/src/pages/html/elements/ul-tag/index.md)
+* [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol)
 
