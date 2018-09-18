@@ -54,6 +54,7 @@ this.setFullName = function(input) {
 **Solution ahead!**
 
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
+
 ```js
 var Person = function(firstAndLast) {
   var fullName = firstAndLast;
