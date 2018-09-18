@@ -3,13 +3,42 @@ title: Display Property
 ---
 ## Display Property
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/layout/display-property/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `display` property specifies the type of box used for an HTML element. There are 20 total keyword values, although only 10 are used commonly. The commonly used ones are:
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+```css
+.none           {display: none}
+.block          {display: block}
+.inline-block   {display: inline-block}
+.inline         {display: inline}
+.flex           {display: flex}
+.inline-flex    {display: inline-flex}
+.inline-table   {display: inline-table}
+.table          {display: table}
+.inherit        {display: inherit}
+.initial        {display: initial}
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+**Common Examples:**
+
+```css
+.myBox {
+    display: block;
+}
+
+.myContainer {
+    display: flex;
+}
+
+.inlineList ul > li {
+    display: inline;
+}
+```
+
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+* Documentation and full list of keyword values: [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/display)
+* The W3Schools CSS reference on the display property is available: [W3Schools](https://www.w3schools.com/cssref/pr_class_display.asp)
 
-
+* CSS-TRICKS has a great reference on the display property: [CSS-Tricks](https://css-tricks.com/almanac/properties/d/display/)
+* Browser Support: [caniuse](http://caniuse.com/#search=display)
+* A Complete Guide to Flexbox: [CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
