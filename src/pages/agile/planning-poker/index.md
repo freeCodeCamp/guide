@@ -25,5 +25,10 @@ Because planning poker is a tool to moderate a *joint* expert estimation, it lea
 
 A moderator should try to avoid confirmation bias. 
 
+Things worth mentioning:
+- Estimations are not comparable between teams, as every team has its own scala.
+- Estimations should include everything that needs to be done in order for a piece of work to be done: designing, coding, testing, communicating, code reviews (+ all possible risks)
+- The value of using planning poker is in the resulting discussions, as they reveal different views on a possible implementation
+
 ### More Information:
 - Planning poker video: <a href='https://www.youtube.com/watch?v=MrIZMuvjTws' target='_blank' rel='nofollow'>YouTube</a>
