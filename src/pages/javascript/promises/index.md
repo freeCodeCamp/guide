@@ -83,7 +83,8 @@ var subtract = function(x, y) {
   });
 };
 
-var result = add(2,2)
+// Starting promise chain
+add(2,2)
   .then((added) => {
     // added = 4
     return subtract(added, 3);
@@ -96,13 +97,14 @@ var result = add(2,2)
     // added = 6
     return added * 2;    
   })
+  .then((result) => {
+    // result = 12
+    console.log("My result is ", result);
+  })
   .catch((err) => {
-    // If any part of the chain is rejected, print the message.
+    // If any part of the chain is rejected, print the error message.
     console.log(err);
   });
-
-// > My result is 12
-console.log("My result is ",result);
 
 ```
 
