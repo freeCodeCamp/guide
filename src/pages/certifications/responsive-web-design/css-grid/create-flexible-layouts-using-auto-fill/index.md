@@ -3,8 +3,6 @@ title: Create Flexible Layouts Using auto-fill
 ---
 ## Create Flexible Layouts Using auto-fill
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/responsive-web-design/css-grid/create-flexible-layouts-using-auto-fill/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+ grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+A container class now have a grid-template-columns property with repeat and auto-fill that will fill the grid with columns that have a minimum width of 60px and maximum of 1fr.
