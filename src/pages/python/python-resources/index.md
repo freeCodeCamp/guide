@@ -24,6 +24,7 @@ title: Python Resources
 *   <a href='https://inventwithpython.com/' target='_blank' rel='nofollow'>Invent with Python</a> (plus two other books by the Automate the Boring Stuff guy)
 *   <a href='http://interactivepython.org/runestone/static/pythonds/index.html' target='_blank' rel='nofollow'>Problem Solving with Algorithms and Data Structures Using Python</a>
 *   <a href='https://github.com/faif/python-patterns' target='_blank' rel='nofollow'>Python Design Patterns</a>
+*   <a href='https://www.djangoproject.com/start/' target='_blank' rel='nofollow'>Django Getting Started Tutorial</a>
 *   <a href='http://chimera.labs.oreilly.com/books/1234000000754/index.html' target='_blank' rel='nofollow'>Test-Driven Development with Python</a>
 *   <a href='http://www.tangowithdjango.com/' target='_blank' rel='nofollow'>Tango with Django</a>
 *   <a href='http://tutorial.djangogirls.org/en/' target='_blank' rel='nofollow'>Django Girls' Tutorial</a> - Build a blog
