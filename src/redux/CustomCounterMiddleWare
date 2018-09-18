@@ -1,0 +1,136 @@
+/* kind of imports from codepen.io global vars */
+const { createStore, applyMiddleware, combineReducers } = Redux;
+const { Provider, connect } = reactRedux;
+
+
+/*
+ * ACTIONS
+ */
+const INCREASE_ACTION = 'INCREASE_ACTION';
+const DECREASE_ACTION = 'DECREASE_ACTION';
+
+/* increase action creator: payload = +1*/
+const increaseActionCreator = () =>{
+  console.log("increased called");
+  return{
+    type: INCREASE_ACTION,
+    payload: 1
+  }
+}
+
+/* decrease action creator: payload = +-1*/
+const decreaseActionCreator = () =>{
+  return{
+    type: DECREASE_ACTION,
+    payload: -1
+  }
+}
+
+
+/*
+ * REDUCERS
+ */
+
+/* if INCREASE/DECREASE ACTION detected, modify state as defined in payload*/
+const counterReducer = (state=0, action) => {
+  switch (action.type){
+    case INCREASE_ACTION:
+    case DECREASE_ACTION:
+      return state + action.payload; 
+  }
+  
+  return state;
+};
+
+/* assign counterReducer result to state.counter*/
+const rootReducer = combineReducers({
+  counter: counterReducer
+});
+
+
+
+/*
+ * COUNTER COMPONENT
+ */
+
+const CounterComponent = (props) => {
+    return (
+      <div className="counter-component"> 
+        <h2>Superstitious counter component</h2>
+        <label>Counter: {props.counter}</label>
+        <button type="submit" className="btn btn-default"
+          onClick={props.increaseActionCreator}> + </button>        
+        <button type="submit" className="btn btn-default"
+          onClick={props.decreaseActionCreator}> - </button>
+      </div>
+    ) 
+}
+/* INCOMING DIRECTION: map redux state.counter to component props.counter*/
+function mapStateToProps(state){
+  return {counter: state.counter};
+}
+/* USE connect HOC to decorate CounterComponent with redux state and action creators*/
+const ReduxCounterComponent = connect(mapStateToProps, {increaseActionCreator, decreaseActionCreator})(CounterComponent);
+
+
+/*
+ * APP (MAIN) COMPONENT
+ * simply renders ReduxCounterComponent
+ */
+
+class App extends React.Component {
+  render() {
+    return (
+      <div className="app">
+        <ReduxCounterComponent />
+      </div>
+    );
+  }
+}
+
+
+
+
+/*
+ * MIDDLEWARE
+ */
+
+/*log called actions*/
+const logger = ({ dispatch }) =>{
+    return next => action => {
+        console.log("ACTION CALLLED: ", action.type, " with payload: ", action.payload);
+        next(action);
+    }
+}
+
+
+
+/*prevent to have a counter with value 13!!*/
+const superstitiousMode = (store) => {
+    return next => action => {
+        if(store.getState().counter + action.payload == 13 ){
+            const newAction = {...action, payload:action.payload*2}
+            store.dispatch(newAction);
+        }
+        else{
+            next(action);
+        }
+    }
+}
+
+
+/*
+ * INDEX.JSX
+ *  - create redux store with 'logger' middleware
+ *  - assign store to Provider
+ *  - render App (main) component in index.html ".container" element
+ */
+
+const createStoreWithMiddleware = applyMiddleware(logger, superstitiousMode)(createStore);
+
+ReactDOM.render(
+  <Provider store={createStoreWithMiddleware(rootReducer)}>
+    <App />
+  </Provider>
+  , document.querySelector('.container'));
+
