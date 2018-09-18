@@ -2,20 +2,44 @@
 title: Accessing Nested Arrays
 ---
 ## Accessing Nested Arrays
-In this guide you will be using bracket notation "[]" along with dot notation "." to access nested array elements.
 
-## Hint 1:
-  Use bracket notation to access the elements of the array
-  arr[]
+### Accessing elements within an array using bracket notation `[]`
+```js
+var fruitBasket = ['apple', 'banana' 'orange', 'melon'];
+var favoriteFruit = fruitBasket[2];
   
-## Hint 2:
-  use dot notation to access the elements of the nested array
-  arr[].nestedArr[]
+console.log(favoriteFruit) // 'orange'
+```
+In this example, our favourite fruit is 'orange' which is at index `2` in the `fruitBasket` array. Using braket notation, we assign index `2` of the `fruitBasket` array to `favoriteFruit`. This makes `favoriteFruit` equal to 'orange'.
   
-## Spoiler Alert - Solution Ahead!
+### Accessing objects within arrays using braket `[]` and dot `.` notation
+```js
+var garage = [
+  {
+    type: 'car',
+    color: 'red',
+    make: 'Ford'
+  },
+  {
+    type: 'motorbike',
+    color: 'black',
+    make: 'Yamaha'
+  },
+  {
+    type: 'bus',
+    color: 'yellow',
+    make: 'Blue Bird'
+  }
+];
+
+var busColor = garage[2].color; // 'yellow'
+
+```
+  
+  
 
 ## Solution:
-
+```js
 // Setup
 var myPlants = [
   { 
@@ -38,4 +62,5 @@ var myPlants = [
 
 // Only change code below this line
 
-var secondTree = myPlants[1].list[1]; // Solution
+var secondTree = myPlants[1].list[1];
+```
