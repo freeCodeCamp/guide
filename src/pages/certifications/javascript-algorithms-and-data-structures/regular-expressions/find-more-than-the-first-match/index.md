@@ -3,19 +3,22 @@ title: Find More Than the First Match
 ---
 ## Find More Than the First Match
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-In this challenge, you should be using the regex starRegex, find and extract both "Twinkle" words from the string twinkleStar.
+If you have multiple occurrences of your regex inside a string, you can get the `match()` function to detect all of them. Simply tag along the `g` flag at the end of your regex! That's what you're doing in this challenge.
+
 ## Hint 1:
-Checkout the note in this challenge that will be helping you a lot.
+
+Change the regex so that it detects the word "twinkle".
+
 ## Hint 2:
-You should use i flag and g flag on the right position.
+
+You can add multiple tags to a regex! For example, a regex that detects multiple occurrences, and detects regardless of case, can be structured like `gi` or `ig`.
+
+## Spoiler Alert - Solution Ahead!
+
 ## Solution
+
 ```javascript
 let twinkleStar = "Twinkle, twinkle, little star";
-let starRegex = /Twinkle/gi; // Change this line
-let result = twinkleStar.match(starRegex); // Change this line
+let starRegex = /twinkle/gi; 
+let result = twinkleStar.match(starRegex); 
 ```
-## Addition
-No matter what you use `/Twinkle/gi` or `/Twinkle/ig` that will return the same result.
-
-
-
