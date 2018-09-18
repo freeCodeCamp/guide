@@ -3,7 +3,8 @@ title: Accessing Object Properties with Dot Notation
 ---
 ## Accessing Object Properties with Dot Notation
 
-// Setup
+Here's one possible solution:
+```js
 var testObj = {
   "hat": "ballcap",
   "shirt": "jersey",
@@ -14,3 +15,4 @@ var testObj = {
 
 var hatValue = testObj.hat;      // Change this line
 var shirtValue = testObj.shirt;    // Change this line
+```
