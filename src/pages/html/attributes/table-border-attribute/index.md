@@ -3,13 +3,8 @@ title: Table Border Attribute
 ---
 ## Table Border Attribute
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/attributes/table-border-attribute/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+The `<table>` tag border attribute is a way to order a border to a HTML Table. The supported values are `0` (no border) and `1` (border). The border attribute is not supported in HTML 5 the latest version of HTML. It's recommended to use CSS to add a border to a table in HTML 5.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+* [MDN - HTML Attribute Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes)
+* [MDN - CSS Border](https://developer.mozilla.org/en-US/docs/Web/CSS/border)
