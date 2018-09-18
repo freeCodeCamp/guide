@@ -3,13 +3,18 @@ title: Area of Triangles
 ---
 ## Area of Triangles
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/area-of-triangles/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The area of a triangle is the total enclosed space on the two-dimensional plane by the sides of the triangle.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+![Triangle](http://www.mathportal.org/calculators/plane-geometry-calculators/triangleEquilateral.gif)
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+The basic formula to find the area of a triangle is,
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+#### Formula
+__Area = 0.5 * base of the triangle * height of the triangle__
 
+For example in the image above,
 
+Area = 0.5 * a * h
+
+### More Information
+For a full list of other advanced fourmulas, click [here](http://www.onlinemathlearning.com/area-triangle.html)
