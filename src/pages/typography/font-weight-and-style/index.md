@@ -3,13 +3,37 @@ title: Font Weight and Style
 ---
 ## Font Weight and Style
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/typography/font-weight-and-style/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Font-weight can be written as text values:
+```
+font-weight: normal;
+font-weight: bold;
+```
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Or as a numerical value from `100` to `900` (in multiples of 100):
+```
+font-weight: 400;  /* equal to 'normal' above */
+font-weight: 700; /* equal to 'bold' above */
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Numerical value and their common description
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+| Value	| Common Description           |
+| ----- | ---------------------------- |
+| 100	  | Thin (Hairline)              | 
+| 200	  | Extra Light (Ultra Light)    | 
+| 300	  | Light                        | 
+| 400	  | Normal                       | 
+| 500	  | Medium                       | 
+| 600	  | Semi Bold (Demi Bold)        | 
+| 700	  | Bold                         | 
+| 800	  | Extra Bold (Ultra Bold)      | 
+| 900	  | Black (Heavy)                | 
 
+Not all weights are available for all fonts. Some specialised fonts may only be available in one weight (generally `normal` `400`).
+
+Font-weight can also be specified relative to an element's parent (if a font has more than one weight):
+```
+font-weight: lighter; 
+font-weight: bolder; 
+```
 
