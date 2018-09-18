@@ -164,7 +164,7 @@ a = abs(-1);
  * AND is done with &
  * OR is done with  |
  * NOT is done with ~
- * XOR is done with ^
+ * XOR is done with ^ (XOR doesn't work with floating type number in C)
 * Compound assignment operations exist for all of the non-unary operations
  * a += b is the same as a = a + b, and so on
 * Casting allows you to swap between data types

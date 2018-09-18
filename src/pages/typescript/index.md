@@ -42,8 +42,11 @@ If you want to try out TypeScript without installing it, visit the <a href='http
 
 The Playground has built-in auto completion and the ability to directly see the emitted JavaScript.
 
+To learn more about installation, see the [Installation Appendix](./src/articles/typescript/appendix-installation/index.md).
+
 ### Other Resources
 
 - <a href='http://www.typescriptlang.org/samples/index.html' target='_blank' rel='nofollow'>Quick Start</a>
 - <a href='http://www.typescriptlang.org/docs/home.html' target='_blank' rel='nofollow'>Documentation</a>
 - <a href='https://github.com/Microsoft/TypeScript' target='_blank' rel='nofollow'>Source Code</a>
+- <a href="https://www.tutorialspoint.com/typescript/" target="_blank">TutorialsPoint</a>
