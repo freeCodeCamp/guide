@@ -3,13 +3,17 @@ title: Math Ceil
 ---
 ## Math Ceil
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/standard-objects/math/math-ceil/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `Math.ceil()` is a method of the Math standard object that rounds a given number upwards to the next integer. Take note that for negative numbers this means that the number will get rounded "towards 0" instead of the number of greater absolute value (see examples).
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Examples
+```javascript
+Math.ceil(0.1)  //  1
+Math.ceil(1.3)  //  2
+Math.ceil(-0.9) // -0
+Math.ceil(-1.5) // -1
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+### More Information:
+* [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/ceil)
+* [w3schools](https://www.w3schools.com/jsref/jsref_ceil.asp)
+* [Wikipedia](https://en.wikipedia.org/wiki/Floor_and_ceiling_functions)

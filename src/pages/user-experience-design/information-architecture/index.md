@@ -16,9 +16,9 @@ It helps to know where IA sits within the schema of the team and other documenta
 
 IA is a critical discipline within the digital product/experience creation process. When done well, it is transparent and unnoticable. When done poorly, it dissolves client trust in the team, leads to extra work/time/money spent, possible delays in deliverables and if not caught before shipping/launch, it can embarrass the client to their target audience – not good for the production team.
 
+## Other Resources
 
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+- [Information architecture - Wikipedia](https://en.wikipedia.org/wiki/Information_architecture)
+- [Usabilty.gov](https://www.usability.gov/what-and-why/information-architecture.html)
 
 
