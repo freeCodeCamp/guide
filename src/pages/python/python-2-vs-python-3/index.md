@@ -26,7 +26,7 @@ Using the `print()` function is 'safe' in both Python 2 and 3:
 print("Hello World")
 ```
 
-We won't be diverted in our discussion any further trying to document all these differences, but <a href='http://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html' target='_blank' rel='nofollow'>this</a> might be of interest to you, if you are interested.
+So, the only question you need to concern yourself with right now; is which one you should pick. Python 2 currently has its End Of Life date set to 2020. Meaning regular bugfixes are not guaranteed going forward and yes, it takes time to even get familiar with most common aspects with either Python; and your time is important. So, invest your time and effort wisely!
 
 Both Python 2 and Python 3 are cool. Most Linux and macOS distributions come pre-installed with Python 2 as the default version of Python. And Python 3 was born out of the insatiable quest for more readable and more beautiful language constructs.
 
