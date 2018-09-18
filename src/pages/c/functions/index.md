@@ -14,7 +14,7 @@ int divides(int a, int b) {
 
 int main(void) {
     int first = 5;
-    int second = 10;
+    int second = 10; //MUST NOT BE ZERO;
 
     int result = divides(first, second);
 
