@@ -3,11 +3,12 @@ title: A React Environment Using a Remote Code Repository
 ---
 
 This is how to create a non production React environment utilizing a remote code repository.
-We will use the cdnjs.cloudflare.com 15.4.1 react.min.js, react-dom.min.js, and babel-core 5.8.34 browser.min.js
+We will use the cdnjs.cloudflare.com 16.0.0 react, react-dom, and babel-standalone 6.26.0
 to accomplish this.
+babel-polyfill is used for older browsers compatibility.
 
  ```html
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -15,11 +16,13 @@ to accomplish this.
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hello React</title>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.1/react.min.js">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/16.0.0/umd/react.production.min.js">
   </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.1/react-dom.min.js">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.0.0/umd/react-dom.production.min.js">
   </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.min.js">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.26.0/polyfill.min.js">
   </script>
 </head>
 
