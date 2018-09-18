@@ -11,9 +11,9 @@ The below PHP Script runs an SQL Statement to get a user's email by ID. However 
 <?php
 $input = $_GET['id'];
 $dbserver = "localhost";
-$dbuser = "root";
-$dbpass = "password";
-$dbname = "myDB";
+$dbuser = "camper";
+$dbpass = "supersecretcampsitepassword";
+$dbname = "freecodecamp";
 
 $conn = new mysqli($dbserver, $dbuser, $dbpass, $dbname);
 

@@ -28,14 +28,23 @@ You can <i>assign</i> a value to the variable either simultaneously when you are
 ```java
 // Initialise the variable of Primitive Data Type 'int' to store the value 10
 int i = 10;
+double amount = 10.0;
+boolean isOpen = false;
+char c = 'a'; // Note the single quotes
 
 //Variables can also be declared in one statement, and assigned values later.
 int j;
 j = 10;
 
+// initiates an Float object with value 1.0
+// variable myFloat now points to the object
+Float myFloat = new Float(1.0);
 
-// Initialise the variable of Reference Data Type 'Float' to refer to a 'Float' object containing value 10.0
-Float myFloat = new Float(10.0);
+//Bytes are one of types in Java and can be
+//represented with this code
+int byteValue = 0B101;
+byte anotherByte = (byte)0b00100001;
+
 ```
 
 As evident from the above example, variables of Primitive type behave slightly differently from variables of Reference (& Wrapper) type - while Primitive variables <i>store</i> the actual value, Reference variables <i>refer to</i> an 'object' containing the actual value.

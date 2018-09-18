@@ -118,6 +118,12 @@ if(!strcmp(first, second)){
 ```
 Notice the `!`, which is needed because this function returns 0 if they are the same. Placing the exclamation point here will make that comparison return true.
 
+#### Split a string: `strtok`
+`strtok` (from 'string token') breaks a string into a series of tokens using a  delimiter. In this example, strtok breaks  string str into a series of tokens using the delimiter delim:
+```C
+char *strtok(char *str, const char *delim);
+```
+
 # Before you go on...
 ## A Review
 * Arrays are collections of variables.

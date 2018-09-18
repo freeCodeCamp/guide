@@ -38,6 +38,13 @@ Once this is done, you now have a functioning executable file!
 Let's say you have a C++ file called `helloWorld.cpp` ...
 
 ### If you are on Windows -- 
+
+#### Using and IDE like CodeBlocks
+
+It is as simple as clicking the build and run buttons, they will create a file in the project folder.
+![img](https://i.imgur.com/FwZuFGy.png)
+
+#### Using Command Prompt
 1. Open a Developer Command Prompt - For this step, you will need to have Microsoft Visual Studio or some other IDE that 
 enables you to compile your program from the command line. You can also search online for C++ compilers.
 
@@ -69,4 +76,4 @@ g++ is the standard Linux compiler and is a great utility. It comes packaged wit
 ____________
 
 There are a number of different types of compilers. The two listed are the two that are usually packaged with the Windows
-or Linux/OSX. In addition, you may write c++ on 3rd party software for game development like Unreal Engine.
+or Linux/OSX.

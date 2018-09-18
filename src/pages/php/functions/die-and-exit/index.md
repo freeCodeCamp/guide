@@ -3,11 +3,17 @@ title: Die and Exit
 ---
 ## Die and Exit
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/php/functions/die-and-exit/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `die()` and `exit()` functions are identical. They each take one argument (a string) containing an error message. Upon being run they output the message and immediately halt execution of the script.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```PHP
+<?php
+die('Die() function was run');
+```
+```PHP
+<?php
+exit('Exit() function was run');
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+* <a href="https://secure.php.net/manual/en/function.die.php" rel="nofollow">php.net die() manual</a>
+* <a href="https://secure.php.net/manual/en/function.exit.php" rel="nofollow">php.net exit() manual</a>

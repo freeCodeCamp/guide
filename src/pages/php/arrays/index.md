@@ -3,11 +3,31 @@ title: Arrays
 ---
 ## Arrays
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/php/arrays/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+### Types Of Arrays
+In PHP there are three types of arrays: Indexed Arrays, Associative arrays, and Multidimensional arrays.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Indexed Array Example
+An indexed array accesses objects by index number.
+```PHP
+<?php
+$freecodecamp = array("free", "code", "camp");
+```
+`$freecodecamp[0]` would return `"free"`, `$freecodecamp[1]` would return `"code"`, and `$freecodecamp[2]` would return `"camp"`.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### Associative Array Example
+An associative array accesses objects by key name.
+```PHP
+<?php
+$freecodecamp = array("free"=>"0","code"=>"1","camp"=>"2");
+```
+`$freecodecamp['free']` would return "0", `$freecodecamp['code']` would return "1", `$freecodecamp['camp']` would return "2",
+
+### Multidimensional Array Example
+A multidimensional array is an array that contains other arrays.
+```PHP
+<?php
+$freecodecamp = array(array("free"=>"0","code"=>"1","camp"=>"2"),array("free"=>"0","code"=>"1","camp"=>"2"),array("free"=>"0","code"=>"1","camp"=>"2"));
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+* <a href="https://secure.php.net/manual/en/language.types.array.php" rel="nofollow">php.net arrays manual</a>

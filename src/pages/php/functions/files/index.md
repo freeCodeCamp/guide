@@ -3,11 +3,13 @@ title: Files
 ---
 ## Files
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/php/functions/files/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+PHP provides several functions for working with files. These functions allow the developer to enable user file uploads, for php to read and use data from a file, and lastly for php to write data to a file.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+* <a href="https://secure.php.net/manual/en/function.readfile.php" rel="nofollow">php.net readfile() manual</a>
+* <a href="https://secure.php.net/manual/en/function.fopen.php" rel="nofollow">php.net fopen() manual</a>
+* <a href="https://secure.php.net/manual/en/function.fread.php" rel="nofollow">php.net fread() manual</a>
+* <a href="https://secure.php.net/manual/en/function.fclose.php" rel="nofollow">php.net fclose() manual</a>
+* <a href="https://secure.php.net/manual/en/function.fgets.php" rel="nofollow">php.net fgets() manual</a>
+* <a href="https://secure.php.net/manual/en/function.feof.php" rel="nofollow">php.net feof() manual</a>
+* <a href="https://secure.php.net/manual/en/function.fgetc.php" rel="nofollow">php.net fgetc() manual</a>

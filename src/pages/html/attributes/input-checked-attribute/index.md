@@ -3,13 +3,21 @@ title: Input Checked Attribute
 ---
 ## Input Checked Attribute
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/attributes/input-checked-attribute/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The checked attribute is a boolean attribute.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+When present, it specifies that an <input> element should be pre-selected (checked) when the page loads.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+The checked attribute can be used with <input type="checkbox"> and <input type="radio">.
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+The checked attribute can also be set after the page load, through JavaScript.
 
+## Take a look at the following example:
+```html
+<form action="/action_page.php">
+  <input type="checkbox" name="vehicle" value="Bike"> I have a bike<br>
+  <input type="checkbox" name="vehicle" value="Car" checked> I have a car<br>
+  <input type="submit" value="Submit">
+</form>
+```
 
+In the example above when the web page is loaded by default the first checkbox will come automatically selected due to the checked attribute.

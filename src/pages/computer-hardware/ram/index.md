@@ -14,7 +14,8 @@ Some examples of packaging RAM are: DIMM, RIMM, SIMM, SO-DIMM, and SOO-RIMM. Bel
 ![RAM](https://images-na.ssl-images-amazon.com/images/I/41kVnWQebtL._SL256_.jpg)
 
 #### RAM speeds:
-The speed rating of your RAM module is an expression of its data transfer rate. The faster the number, the faster your computer can store and retrieve the data stored in local memory. The formula for the exact speed rating changes slightly based on the version of DDR memory your computer is using. It’s no longer simply an expression of clock speed, like a processor, but a combination of hardware factors. But in general, faster is better. Like the GPU and CPU, RAM can also be overclocked. To achieve the faster speed, a user has to enable an XMP (Intel) or AMP (AMD) profile in the BIOS.
+The speed rating of your RAM module is an expression of its data transfer rate, and it's almost always expressed in megahertz (Mhz). The faster the number, the faster your computer can store and retrieve the data stored in local memory. The formula for the exact speed rating changes slightly based on the version of DDR memory your computer is using. It’s no longer simply an expression of clock speed, like a processor, but a combination of hardware factors. But in general, faster is better. Like the GPU and CPU, RAM can also be overclocked. To achieve the faster speed, a user has to enable an XMP (Intel) or AMP (AMD) profile in the BIOS.
+The standard which dictates the rough speed for RAM in most computers has been DDR3, which is still widely adopted and supports a limit fo 2133Mhz. A new standard, DDR4, has been released in recent years and promises a wider range of clock speeds and reduced power consumption and latencies.
 
 
 #### More Information:
@@ -23,5 +24,6 @@ The speed rating of your RAM module is an expression of its data transfer rate. 
 * [Static RAM](https://en.wikipedia.org/wiki/Static_random-access_memory)
 * [Dynamic RAM](https://en.wikipedia.org/wiki/Dynamic_random-access_memory)
 * <a href='http://www.computermemoryupgrade.net/types-of-computer-memory-common-uses.html' target='_blank' rel='nofollow'>Types of RAM</a>.
+* <a href='https://en.wikipedia.org/wiki/Random-access_memory' target='_blank' rel='noffolow'>Wikipedia</a>.
 
 

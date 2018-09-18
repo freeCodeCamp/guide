@@ -1,13 +1,63 @@
 ---
 title: 3 by 3 Determinants
 ---
-
 ## 3 by 3 Determinants
 
-You can calculate the determinant of a square three-by-three matrix using the [Laplace formula](https://en.wikipedia.org/wiki/Laplace_expansion)
+Consider the following matrix, which we will call A:
 
-![img](http://www.sciweavers.org/tex2img.php?eq=A%20%26%3D%20%5Cbegin%7Bbmatrix%7Da%20%26%20b%20%26%20c%20%5C%5C%20d%20%26%20e%20%26%20f%20%5C%5C%20g%20%26%20h%20%26%20i%20%5Cend%7Bbmatrix%7D%20%5C%5C%0A%7CA%7C%20%26%3D%20%20%5Cbegin%7Bvmatrix%7Da%20%26%20b%20%26%20c%20%5C%5C%20d%20%26%20e%20%26%20f%20%5C%5C%20g%20%26%20h%20%26%20i%20%5Cend%7Bvmatrix%7D%5C%5C%0A%26%3D%20a%20%5Cbegin%7Bvmatrix%7De%20%26%20f%20%5C%5C%20h%20%26%20i%5Cend%7Bvmatrix%7D%20-%20b%20%5Cbegin%7Bvmatrix%7Dd%20%26%20f%20%5C%5C%20g%20%26%20i%5Cend%7Bvmatrix%7D%20%2B%20c%20%5Cbegin%7Bvmatrix%7Dd%20%26%20e%20%5C%5C%20g%20%26%20h%5Cend%7Bvmatrix%7D%20%5C%5C%0A%26%3D%20a%28ei%20-%20fh%29%20-%20b%28di%20-%20fg%29%20%2B%20c%28dh%20-%20eg%29%0A&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+<table>
+  <tr>
+    <td style="background-color: white">a</td>
+    <td style="background-color: white">b</td>
+    <td style="background-color: white">c</td>
+  </tr>
+  <tr>
+    <td style="background-color: white">d</td>
+    <td style="background-color: white">e</td>
+    <td style="background-color: white">f</td>
+  </tr>
+  <tr>
+    <td style="background-color: white">g</td>
+    <td style="background-color: white">h</td>
+    <td style="background-color: white">i</td>
+  </tr>
+</table>
 
-#### More Information
+Then the determinant of this matrix, denoted <em>det(A)</em>, is given by:
 
-- [Wikipedia: 3x3 matrix](https://en.wikipedia.org/wiki/Determinant#3_.C3.97_3_matrices)
+<em>det(A) = a * (e * i - h * f) - b * (d * i - f * g) + c * (d * h - e * g)</em>
+
+Please keep in mind the order of operations in the expression above.
+
+For example, consider the following matrix, which we will call B:
+
+<table>
+  <tr>
+    <td style="background-color: white">1</td>
+    <td style="background-color: white">2</td>
+    <td style="background-color: white">3</td>
+  </tr>
+  <tr>
+    <td style="background-color: white">0</td>
+    <td style="background-color: white">-3</td>
+    <td style="background-color: white">5</td>
+  </tr>
+  <tr>
+    <td style="background-color: white">-10</td>
+    <td style="background-color: white">4</td>
+    <td style="background-color: white">7</td>
+  </tr>
+</table>
+
+<em>det(B)</em> is given by the formula above. We apply the formula below:
+
+<em>det(B) = 1 * ( (-3) * 7 - 5 * 4) - 2 * ( 0 * 7 - 5 * (-10)) + 3 * (0 * 4 - (-3) * (-10))</em>, which we simplify to:
+
+<em>det(B) = 1 * ((-21) - 20) - 2 * (0 - (-50)) + 3 * (0 - (30))</em>, which we simplify to:
+
+<em>det(B) = (-41) - 100 - 90 = -231</em>
+
+#### More information:
+ * [Determinant of a Matrix](https://www.mathsisfun.com/algebra/matrix-determinant.html) on MathIsFun
+ * [3x3 Determinant calculator](http://www.wolframalpha.com/widgets/view.jsp?id=7fcb0a2c0f0f41d9f4454ac2d8ed7ad6)
+ * [Determinant](https://en.wikipedia.org/wiki/Determinant) on Wikipedia

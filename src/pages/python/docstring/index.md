@@ -5,6 +5,9 @@ title: Docstring
 
 Docstring is a way for developers to communicate the purpose, parameters, requirements, and usage of a function in Python to other developers. It allows for ease of code maintenance and understanding.
 
+Unlike conventional source code comments the docstring should describe what the
+function does, not how.
+
 A similar example to Docstring is @Javadoc in Java.
 
 Docstring is written as a multi-line comment just after the declaration header in Python. There are 4 different parts to a docstring:
@@ -54,3 +57,9 @@ def is_less_than_five(some_number):
   '''
   # Your code goes here
 ```
+
+### Some useful links:
+Numpy and Google Docstrings are two commonly used approaches:
+   * Google: http://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html
+   * Numpy: http://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_numpy.html
+Also, refer to some good old PEP commentary: https://www.python.org/dev/peps/pep-0257/

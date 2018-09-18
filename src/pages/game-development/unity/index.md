@@ -8,7 +8,7 @@ First announced only for OS X, at Apple's Worldwide Developers Conference in 200
 
 ## Overview
 
-Unity is an all purpose game engine that provides a complete framework for creating 2D and 3D games using C#. 
+Unity is an all-purpose game engine that provides a complete framework for creating 2D and 3D games using C#. 
 
 Unity is particularly popular for mobile game development and much of their focus is on mobile platforms. Unity3D's 2D pipeline is a more recent addition to the engine, and is less mature than the 3D pipeline. Despite this Unity is an adaquate platform for developing 2D games even when compared to other dedicated 2D engines, particularly if you plan to release the game across multiple mobile devices.
 
@@ -27,16 +27,26 @@ Unity is notable for its ability to target games for multiple platforms. The cur
 Unity is the default software development kit (SDK) for Nintendo's Wii U video game console platform, with a free copy included by Nintendo with each Wii U developer license.
 Unity Technologies calls this bundling of a third-party SDK an "industry first".
 
+##  Noteworthy Games: 
+* Assassin’s Creed: Identity
+* Temple Run Trilogy
+* Battlestar Galactica Online
+* Hearthstone: Heroes of Warcraft
+     
 ## History
 
 Two other programming languages were supported: Boo, which was deprecated with the release of Unity 5 and UnityScript which was deprecated in August 2017 after the release of Unity 2017.1.
 
 Unity formerly supported 7 other platforms including its own Unity Web Player.
-Unity Web Player was a browser plugin that was supported in Windows and OS X only,[16] which has been deprecated in favor of WebGL.
+
+Unity Web Player was a browser plugin that was supported in Windows and OS X only, which has been deprecated in favor of WebGL.
+
+
+Unity is the engine used by Rust, Kerbal Space Program, and Cup Head.
 
 
 #### More Information: 
 
-<a href='https://en.wikipedia.org/wiki/Unity_(game_engine)' target='_blank' rel='nofollow'>Wikipedia</a>
-
-<a href='https://unity3d.com/learn' target='_blank' rel='nofollow'>Official Unity Tutorials</a>
+[Unity's Official Website](https://unity3d.com/)
+[Wikipedia](https://en.wikipedia.org/wiki/Unity_(game_engine))
+[Official Unity Tutorials](https://unity3d.com/learn)
