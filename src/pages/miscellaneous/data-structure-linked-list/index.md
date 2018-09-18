@@ -326,7 +326,9 @@ Traversal
     std::cout << "Deleted succesfully" << std::endl;
     }
 
-:rocket: <a href='https://repl.it/CXVt/1' target='_blank' rel='nofollow'>Run Code</a> ### Python Implementation of Singly Linked List  
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CXVt/1' target='_blank' rel='nofollow'>Run Code</a>
+
+### Python Implementation of Singly Linked List  
 
     class Node(object):
         # Constructor

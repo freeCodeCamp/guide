@@ -11,7 +11,7 @@ to name a few. In this article, you will learn about what a greedy algorithm is 
 
 Imagine you are going for hiking and your goal is to reach the highest peak possible. You already have the map before you start, but there are thousands of possible paths shown on the map. You are too lazy and simply don’t have the time to evaluate each of them. Screw the map! You started hiking with a simple strategy – be greedy and short-sighted. Just take paths that slope upwards the most. This seems like a good strategy for hiking. But is it always the best ?
 
-After the trip ended and your whole body is sore and tired, you look at the hiking map for the first time. Oh my god! There’s a muddy river that I should’ve crossed, instead of keep walking upwards. This means that a greedy algorithm picks the best immediate choice and never reconsiders its choices. In terms of optimising a solution, this simply means that the greedy solution will try and find a local optimum solutions - which can be many - and might miss out on a global optimum solution.
+After the trip ended and your whole body is sore and tired, you look at the hiking map for the first time. Oh my god! There’s a muddy river that I should’ve crossed, instead of keep walking upwards. This means that a greedy algorithm picks the best immediate choice and never reconsiders its choices. In terms of optimizing a solution, this simply means that the greedy solution will try and find local optimum solutions - which can be many - and might miss out on a global optimum solution.
 
 ## Formal Definition
 
@@ -34,11 +34,11 @@ Let's dive into an interesting problem that you can encounter in almost any indu
 
 * The plan is to send the contestants out in a staggered fashion, via the following rule: the contestants must use the pool one at a time. In other words, first one contestant swims the 20 laps, gets out, and starts biking.
 
-* As soon as this first person is out of the pool, a second contestant begins swimming the 20 laps; as soon as he or she is out and starts biking, a third contestant begins swimming,and so on.
+* As soon as this first person is out of the pool, a second contestant begins swimming the 20 laps; as soon as he or she is out and starts biking, a third contestant begins swimming, and so on.
 
-* Each contestant has a projected swimming time, a projected biking time, and a projected running time. Your friend wants to decide on a schedulefor the triathlon: an order in which to sequence the starts of the contestants.
+* Each contestant has a projected swimming time, a projected biking time, and a projected running time. Your friend wants to decide on a schedule for the triathlon: an order in which to sequence the starts of the contestants.
 
-* Let's say that the completion timeof a schedule is the earliest time at which all contestants will be finished with all three legs of the triathlon, assuming the time projections are accurate. What is the best order for sending people out, if one wants the whole competition to be over as soon as possible? More precisely, give an efficient algorithm that produces a schedule whose completion time is as small as possible
+* Let's say that the completion time of a schedule is the earliest time at which all contestants will be finished with all three legs of the triathlon, assuming the time projections are accurate. What is the best order for sending people out, if one wants the whole competition to be over as soon as possible? More precisely, give an efficient algorithm that produces a schedule whose completion time is as small as possible
 
 ### The Lecture Scheduling Problem
 
@@ -52,7 +52,7 @@ Let's look at the various approaches for solving this problem.
 
 You can clearly see that the shortest interval lecture is the one in the middle, but that is not the optimal solution here. Let's look at yet another solution for this problem deriving insights from this solution.
 
-3. **Least Conflicting Interval First** i.e. you should look at intevals that cause the least number of conflicts. Yet again we have an example where this approach fails to find an optimal solution.
+3. **Least Conflicting Interval First** i.e. you should look at intervals that cause the least number of conflicts. Yet again we have an example where this approach fails to find an optimal solution.
 ![Least Conflicting Interval First](https://i.stack.imgur.com/5LZ9V.png)
 
 The diagram shows us that the least confliciting interval is the one in the middle with just 2 conflicts. After that we can only pick the two intervals at the very ends with conflicts 3 each. But the optimal solution is to pick the 4 intervals on the topmost level.
@@ -72,12 +72,14 @@ end
 ```
 
 ## When do we use Greedy Algorithms
+
 Greedy Algorithms can help you find solutions to a lot of seemingly tough problems. The only problem with them is that you might come up with the correct solution but you might not be able to verify if its the correct one. All the greedy problems share a common property that a local optima can eventually lead to a global minima without reconsidering the set of choices already considered.
 
 Greedy Algorithms help us solve a lot of different kinds of problems. Stay tuned for upcoming tutorials on each one of these.
 1. Shortest Path Problem.
 2. Minimum Spanning Tree Problem in a Graph.
-3. Huffman Encoding Probelm.
+3. Huffman Encoding Problem.
+4. K Centers Problem
 
 #### More Information:
 <a href="https://www.youtube.com/watch?v=HzeK7g8cD0Y" target="_blank">
