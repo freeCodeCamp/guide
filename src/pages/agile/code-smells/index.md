@@ -3,13 +3,18 @@ title: Code Smells
 ---
 ## Code Smells
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/code-smells/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+A Code Smell in computer programming is a surface indication that there might be a problem regarding your system and the quality of your code. This problem might require refactoring to be fixed.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+It is important to understand that smelly code works, but is not of good quality.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+#### Examples
+1. Duplicated code - Blocks of code that have been replicated across the code base. This may indicate that you need to generalize the code into a function and call it in two places, or it may be that the way the code works in one place is completely unrelated to the way it works in another place, despite having been copied.
+2. Large classes - Classes having too many lines of code. This may indicate that the class is trying to do too many things, and needs to be broken up into smaller classes.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+* _Refactoring: Improving the Design of Existing Code - Kent Beck, Martin Fowler_
+* _Clean Code: A Handbook of Agile Software Craftsmanship - Martin, Robert C. (2009)._
+* [Code Smells on Wikipedia](https://en.wikipedia.org/wiki/Code_smell)
+* [Code Smells on Jeff Atwood's Blog (Coding Horror)](https://blog.codinghorror.com/code-smells/)
+* [Code Smells on Ward Cunningham's C2 Wiki](http://wiki.c2.com/?CodeSmell)
+* [Martin Fowler - Code Smell](https://martinfowler.com/bliki/CodeSmell.html)
