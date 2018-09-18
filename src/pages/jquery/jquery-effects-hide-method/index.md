@@ -38,6 +38,17 @@ Usage:
 $(".myclass").toggle()
 ```   
 
+### .slideUp() method
+The `.slideUp()` method animates the height of the matched elements. This causes lower parts of the page to slide up, appearing to conceal the items. Once the height reaches 0 (or, if set, to whatever the CSS min-height property is), the display style property is set to none to ensure that the element no longer affects the layout of the page.
+
+Usage:
+```javascript
+$(".myclass").slideUp(); //will hide the element with the identifier myclass with a sliding motion for 400 ms.
+$(".myclass").slideUp(1000); //will hide the element with the identifier myclass with a sliding motion for 1000 ms.
+$(".myclass").slideUp("slow"); //will hide the element with the identifier myclass with a sliding motion for 600 ms.
+$(".myclass").slideUp("fast"); //will hide the element with the identifier myclass with a sliding motion for 200 ms.
+```
+
 #### More Information:
 JQuery hide() method on the <a href='http://api.jquery.com/hide/' target='_blank' rel='nofollow'>Official website</a>
 
