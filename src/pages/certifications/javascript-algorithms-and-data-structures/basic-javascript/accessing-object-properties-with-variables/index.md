@@ -1,7 +1,12 @@
 ---
 title: Accessing Object Properties with Variables
 ---
+
 ## Accessing Object Properties with Variables
+
+Here's a working solution in case you are stuck:
+
+```js
 // Setup
 var testObj = {
   12: "Namath",
@@ -13,3 +18,4 @@ var testObj = {
 
 var playerNumber = 16;       // Change this Line
 var player = testObj[playerNumber];   // Change this Line
+```
