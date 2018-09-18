@@ -15,29 +15,38 @@ The bulk of an Ionic app will be written in HTML, Javascript, and CSS. Ionic als
 
 ### Before we can start playing with Ionic. Let’s prepare our system first:
 
+```
   nodeJS and npm
   Ionic 2
   Cordova
   Android Environment (or iOS if you’re working on a MacOS)
+```
   
 ### First thing first, we need to have Node.js and npm.
 
+```
   sudo apt-get update
   sudo apt-get install nodejs
+```
   
 ### Node.js package manager (npm)
-  
+
+```  
   sudo apt-get install npm
+```
   
 ### Ionic 2 and cordova
 
+```
   sudo npm install -g ionic cordova
+```
   
 ### Now sit back and relax, give it some time to finish, it can take several minutes depending on your internet connection.
 Once that’s done, Let’s start off by generating a new project based on the “blank” template
 
+```
   ionic start MyFirstApp blank
   cd MyFirstApp 
   ionic serve
-
+```
 
