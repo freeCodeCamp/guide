@@ -30,6 +30,7 @@ and is displayed as:
 1. March
 
 An unordered list is written as
+
 ```HTML
 <ul>
   <li>Macintosh</li>
@@ -42,9 +43,11 @@ and is displayed as:
 - Fuji
 - Gala
 
+
 ## Description lists
+
 A description list is a list of terms, with a description of each term. A description list is made using the `<dl>` tag.
-Each item in the list is made up of two tags: a term (`<dt>`), and a description of that term (`<dd>`).
+Each item in the list is made up of two tags: a term `<dt>`, and a description of that term `<dd>`.
 
 Here is an example of a description list:
 ```HTML
@@ -52,17 +55,22 @@ Here is an example of a description list:
   <dt>Programming</dt>
   <dd>The process of writing computer programs.</dd>
   <dt>freeCodeCamp</dt>
-  <dd>An awesome non-profit orgainzation teaching people how to code.</dd>
+  <dd>An awesome non-profit organization teaching people how to code.</dd>
 </dl>
 ```
+
 which would end up looking like:
+
 <dl>
   <dt>Programming</dt>
   <dd>The process of writing computer programs.</dd>
   <dt>freeCodeCamp</dt>
-  <dd>An awesome non-profit orgainzation teaching people how to code.</dd>
+  <dd>An awesome non-profit organization teaching people how to code.</dd>
 </dl>
 
+
 ## More Information:
+
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-<a href='https://www.w3schools.com/html/html_lists.asp' target='_blank' rel='nofollow'>HTML lists on w3schools</a>
+* [HTML lists on w3schools](https://www.w3schools.com/html/html_lists.asp)
+

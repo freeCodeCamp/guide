@@ -3,11 +3,17 @@ title: How to Redirect a Web Page
 ---
 ## How to Redirect a Web Page
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/miscellaneous/how-to-redirect-a-web-page/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Redirecting a webpage is easy! You can copy this code into your html file's(with a few minor changes) head.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+`<meta http-equiv="Refresh" content="5;url=https://stevencopeland.github.io/new-website/">` Replace `content=5` with number of seconds until the website changes. Replace https://stevencopeland.github.io/new-website/ with what website you want. Rember to place this code in your head: `<meta http-equiv="Refresh" content="5;url=https://stevencopeland.github.io/new-website/">`
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+OR, there is another option if you jus want to change the page as soon as they reach that page:
+
+```
+window.location.assign("https://www.yournewwebsite.fakewebsite");
+```
+
+Replacing the website with your website. The one should go inside of a javascript file.
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
