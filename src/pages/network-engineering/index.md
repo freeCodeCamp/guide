@@ -13,3 +13,11 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
 
+Network engineers are responsible for implementing, maintaining, supporting, developing and, in some cases, designing communication networks within an organisation or between organisations.
+
+Their goal is to ensure the integrity of high availability network infrastructure to provide maximum performance for their users. Users may be staff, clients, customers and suppliers. Networks can include:
+
+computer;
+voice;
+firewall.
+Network engineers may work internally as part of an organisation's IT support team, or externally as part of an outsourced IT networking consultancy firm working with a number of clients.

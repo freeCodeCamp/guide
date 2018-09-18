@@ -20,9 +20,5 @@ This stage is focused on collecting data & metrics from the MVP.
 Next, using the data collected, a decision has to be made, whether or not your product is used by users and so you should preserve, or whether users are not interested in the product, and as such you must pivot. The learn phase is therefore ending with an idea (either how to expand the product, or how to pivot from the original product), applicable for the next Build Measure Learn loop.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-* [The Lean Startup](https://www.amazon.com/Lean-Startup-Entrepreneurs-Continuous-Innovation/dp/0307887898/ref=pd_sim_14_1?_encoding=UTF8&pd_rd_i=0307887898&pd_rd_r=3933CBZ1SDKV4D1KTY07&pd_rd_w=U6t2E&pd_rd_wg=nCoZ8&psc=1&refRID=3933CBZ1SDKV4D1KTY07) by Eric Reis, is a solid resource, along with excessive content from http://theleanstartup.com/
-* Wikipedia's page https://en.wikipedia.org/wiki/Lean_startup#Build-Measure-Learn
-* Marmelab Blog, about https://marmelab.com/blog/2016/02/12/build-measure-learn.html
-* Steve Blank, https://steveblank.com/2015/05/06/build-measure-learn-throw-things-against-the-wall-and-see-if-they-work/
+[Why Build, Measure, Learn – isn’t just throwing things against the wall to see if they work – the Minimal Viable Product](https://steveblank.com/2015/05/06/build-measure-learn-throw-things-against-the-wall-and-see-if-they-work/)
+[The Build-Measure-Learn Feedback Loop](https://www.mindtools.com/pages/article/build-measure-learn.htm)
