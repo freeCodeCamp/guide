@@ -3,8 +3,19 @@ title: Say Hello to HTML Elements
 ---
 ## Say Hello to HTML Elements
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/responsive-web-design/basic-html-and-html5/say-hello-to-html-elements/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Consider the following example: <br/>
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+`<p>This is a paragraph</p>` <br/>
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+You can refer to as a __*'p element'*__; broke down to pieces you can find the following subelements:
+
+subelement | description
+----------- | ----------
+`<p>` | This is the opening tag
+`This is a paragraph` |  This is the element's text
+`</p>` | This is the closing tag
+
+Remember the challenge request: 
+>change your h1 element's text to say "Hello World" 
+
+Good luck!

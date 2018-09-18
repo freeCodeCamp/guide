@@ -3,8 +3,9 @@ title: Concatenating Strings with the Plus Equals Operator
 ---
 ## Concatenating Strings with the Plus Equals Operator
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-javascript/concatenating-strings-with-the-plus-equals-operator/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+The '+=' operator can concatenate (link) strings easily. Make sure your spelling is right, and you've left appropriate spaces.
+
+    var str = "Hello ";
+    str += "coding"; // Now the string reads "Hello coding"
+    str += "camper!"; // And now the string reads "Hello codingcamper!"

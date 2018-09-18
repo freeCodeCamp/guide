@@ -3,8 +3,12 @@ title: Catch Mixed Usage of Single and Double Quotes
 ---
 ## Catch Mixed Usage of Single and Double Quotes
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/debugging/catch-mixed-usage-of-single-and-double-quotes/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+- Remember whether you choose to use single or double quotes, simply adding  a `\` before the character will allow the character to fit in the string without closing either single or double quotes. 
+- The test cases will only be passed by using double quotes.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+## Solution:
+```javascript
+//Solution1:
+let innerHtml = "<p>Click here to <a href=\"#Home\">return home</a></p>";
+console.log(innerHtml);
+```

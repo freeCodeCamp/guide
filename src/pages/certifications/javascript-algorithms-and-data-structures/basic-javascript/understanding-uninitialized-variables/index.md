@@ -3,8 +3,5 @@ title: Understanding Uninitialized Variables
 ---
 ## Understanding Uninitialized Variables
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-javascript/understanding-uninitialized-variables/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Make sure that the variable has the correct data value. Leaving a variable uninitialized, meaning you do not give it a value, can cause problems if you want to do operations on it. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->

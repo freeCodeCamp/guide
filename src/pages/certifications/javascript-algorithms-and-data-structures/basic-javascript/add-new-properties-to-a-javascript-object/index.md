@@ -3,8 +3,29 @@ title: Add New Properties to a JavaScript Object
 ---
 ## Add New Properties to a JavaScript Object
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-javascript/add-new-properties-to-a-javascript-object/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Here's the example:
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+```js
+var ourDog = {
+  "name": "Camper",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["everything!"]
+};
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+ourDog.bark = "bow-wow";
+```
+
+Here's a solution:
+
+```js
+var myDog = {
+  "name": "Happy Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"]
+};
+
+// Only change code below this line.
+myDog.bark = "woof";
+```

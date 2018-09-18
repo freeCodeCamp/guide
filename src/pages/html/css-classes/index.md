@@ -13,14 +13,40 @@ When writing HTML, you can add classes to an element. Just add the attribute `cl
 ```
 
 You can then style these elements with CSS. Classes are referenced with period (.) before them in CSS, but you should not put periods in your HTML.
+
 ```css
 .super-man {
   color: red;
   background-color: blue;
 }
 ```
+
 This code give a blue background and a red text color to all the elements that have the `super-man` class.
 [View this example on CodePen](https://codepen.io/Tlandis/pen/RLvomV).
+
+You can also declare more than one class to your element, like:
+
+```html
+
+<div class="ironMan alfred">
+ We're going to save you.
+</div>
+
+```
+
+Then in your css file:
+
+```css
+
+.ironMan{
+color:red;
+}
+
+.alfred{
+background-color: black;
+}
+
+```
 
 **Note:** class names are traditionally all lowercase, with each word in a multi-word class name separated by hyphens (e.g. "super-man").
 

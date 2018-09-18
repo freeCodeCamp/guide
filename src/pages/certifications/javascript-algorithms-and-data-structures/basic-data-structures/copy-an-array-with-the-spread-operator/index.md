@@ -3,8 +3,32 @@ title: Copy an Array with the Spread Operator
 ---
 ## Copy an Array with the Spread Operator
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-data-structures/copy-an-array-with-the-spread-operator/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+- The final hint in the example tells you to use a recently learned method.
+- The spread operator copies all elements into a new empty object. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+```javascript 
+while (num >= 1) {
+    newArr = [...arr]
+    num--;
+}
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+- The code above will copy all of the elements into `newArr` but will also reinitialise `newArr` with every new iteration of the while loop. 
+- A new variable should first be initialised using the spread operator - `let obj = [...arr];` - then this variable should be added to the `newArr` for every iteration of the while loop.
+
+## Solution:
+```javascript
+function copyMachine(arr, num) {
+  let newArr = [];
+  while (num >= 1) {
+    // change code below this line
+    newArr.push([...arr]);
+    // change code above this line
+    num--;
+  }
+  return newArr;
+}
+
+// change code here to test different cases:
+console.log(copyMachine([true, false, true], 2));
+```

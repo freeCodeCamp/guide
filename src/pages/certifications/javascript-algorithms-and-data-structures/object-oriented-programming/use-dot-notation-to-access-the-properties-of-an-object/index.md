@@ -3,8 +3,34 @@ title: Use Dot Notation to Access the Properties of an Object
 ---
 ## Use Dot Notation to Access the Properties of an Object
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/object-oriented-programming/use-dot-notation-to-access-the-properties-of-an-object/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+### Method:
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The following code will simply print `property1` from the `obj` object.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```javascript
+
+let obj = {
+  property1 = 1,
+  property2 = 2
+};
+
+console.log(obj.property1);
+
+```
+
+Following this logic, use the `console.log` operation to print both `property1`and `property2`to the screen.
+
+### Solution:
+
+```javascript
+
+let dog = {
+  name: "Spot",
+  numLegs: 4
+};
+// Add your code below this line
+console.log(dog.name);
+console.log(dog.numLegs);
+
+
+```

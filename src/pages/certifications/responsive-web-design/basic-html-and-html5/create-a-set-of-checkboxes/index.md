@@ -3,8 +3,11 @@ title: Create a Set of Checkboxes
 ---
 ## Create a Set of Checkboxes
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/responsive-web-design/basic-html-and-html5/create-a-set-of-checkboxes/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `type="checkbox"`attribute works basically as the `type="radio"` attribute does: the main difference is that checkboxes are used to collect one OR MORE choices, radio-buttons are used when you want exclusive choices ( one OR another ). 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The `name` attribute indicates the group the checkbox belongs to, and to be part of a group will make easier to manage the data on the server-side.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+To solve this challenge you need to create three `input` HTML elements with the attribute `type="checkbox"` and with the `name` attribute set to `"personality"` ( capitalization matters); the text content of the label it's up to you.
+
+
+Good luck!

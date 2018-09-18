@@ -42,7 +42,7 @@ This problem is hard if you have to create your own code to check for primes, so
 
       // Function to get the primes up to max in an array
       function getPrimes(max) {
-        var sieve = <a href='https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:"' target='_blank' rel='nofollow'>];
+        var sieve = [];
         var i;
         var j;
         var primes = [];
@@ -157,13 +157,13 @@ This problem is hard if you have to create your own code to check for primes, so
 
 ### Code Explanation:
 
-*   **Step 1:** Use `Array.from()` to generate a sequence of numbers up to and including `num`. Combine with `.slice()` to slice off first two indices `<a href='https://en.wikipedia.org/wiki/Prime_number#Trial_division' target='_blank' rel='nofollow'>0, 1]` since all prime numbers must be greater than 1.
+*   **Step 1:** Use `Array.from()` to generate a sequence of numbers up to and including `num`. Combine with `.slice()` to slice off first two indices `[0, 1]` since all prime numbers must be greater than 1.
 *   **Step 2:** Filter all numbers off of `arr` that are not prime by subjecting each element to the _"trial division test"_ which _"consists of dividing n by each integer m that is greater than 1 and less than or equal to the square root of n"_. This test returns `false` if any number less than the element being operated on (m) produces no remainder when said element (n) is divided by it. See link below for more on this.
 *   **Step 3:** Return the sum of all remaining elements of arr using `.reduce()`.
 
 ### Relevant Links
 
-*   [Trial Division Test</a>
+*   <a href='https://en.wikipedia.org/wiki/Prime_number#Trial_division' target='_blank' rel='nofollow'>Trial Division Test</a>
 *   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from#Examples' target='_blank' rel='nofollow'>Array.from()</a>
 *   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter' target='_blank' rel='nofollow'>Array.filter()</a>
 

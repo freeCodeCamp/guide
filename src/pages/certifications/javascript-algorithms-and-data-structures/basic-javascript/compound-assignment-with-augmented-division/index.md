@@ -3,8 +3,8 @@ title: Compound Assignment With Augmented Division
 ---
 ## Compound Assignment With Augmented Division
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-javascript/compound-assignment-with-augmented-division/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Computers read from left to right. So, using the '/=' operator means that the variable is divided with the number on the right, then the variable is assigned to the quotient. Like so:
+
+    var d = 10;
+    d /= 5; // Now, 'd' is equal to 2

@@ -3,8 +3,9 @@ title: Compound Assignment With Augmented Addition
 ---
 ## Compound Assignment With Augmented Addition
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-javascript/compound-assignment-with-augmented-addition/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Computers read from left to right. So, using the '+=' operator means that the variable is added with the right number, then the variable is assigned to the sum. Like so:
+
+    var a = 9;
+    a += 10; // Now, 'a' is equal to 19
+    

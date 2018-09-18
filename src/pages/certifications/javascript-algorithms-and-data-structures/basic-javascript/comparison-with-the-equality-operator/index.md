@@ -1,10 +1,36 @@
+
 ---
 title: Comparison with the Equality Operator
 ---
-## Comparison with the Equality Operator
+## Comparison with the equality operator
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-equality-operator/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Problem explanation:
+_Add the equality operator to the indicated line so that the function will return "Equal" when `val` is equivalent to 12._
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+#### Hint 1
+Remember that _equality is different from assignment (`=`), which assigns the value at the right of the operator to a variable in the left._<sup>1</sup>
+> _try to solve the problem now_
+
+
+## Spoiler alert!
+
+**Solution ahead!**
+
+## Basic code solution:
+
+```javascript
+
+function testEqual(val) {
+  if (val == 12) { // Change this line
+    return "Equal";
+  }
+  return "Not equal";
+}
+// Change this value to test
+testEqual(10);
+
+```
+
+### Code explanation
+The function first evaluates `if` the condition `(val == 12)` evaluates to `true`. If it does, it returns the statement between the curly braces ("Equal"). If it doesn't, it returns the next `return` statement outside them ("Not equal"). 

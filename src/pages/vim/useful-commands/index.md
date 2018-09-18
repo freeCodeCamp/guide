@@ -51,6 +51,17 @@ To move between windows you can use the following commands:
 - `CTRL-W t` - move to the top window
 - `CTRL-W b` - move to the bottom window
 
+## Undo/Redo
+
+These actions should be performed in __Normal Mode__.
+
+__Undo__: Press `u` or type in `:undo` and press `Enter`.
+
+__Redo__: Press `U` (`Shift` + `u`) or type in `:redo` and press `Enter`.
+
+## Opening a file in a specific line
+- vi filename +n, where n is the line number
+
 ## Bare minimum functionality
 
 Most likely you'll find yourself in "normal" mode, it allows you to enter commands by pressing the colon `:` key.
@@ -100,4 +111,5 @@ Read the rest of our Vim Guides to get a better understanding of this powerful e
 
 ## Other Resources
 - [Vim Golf](https://vimgolf.com/) - A good way to learn from doing vim challenges to get the lowest amount of keystrokes. You can see solutions submitted by others if you can't figure the challenge out.
+- [Vim Adventures](https://vim-adventures.com/) - A fun and gamified approach to learn Vim where you lern the different key strokes with every new level in the game.
 - Read the rest of our Vim Guides to get a better understanding of this powerful editor.

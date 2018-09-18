@@ -3,8 +3,17 @@ title: Comment Your JavaScript Code
 ---
 ## Comment Your JavaScript Code
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-javascript/comment-your-javascript-code/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Commenting allows you to type stuff that you don't want the computer to run as code. For example, notes to other programmers, directions, and more. Here's how to create a single-line comment.
+
+    // Hey, I'm a comment!
+
+Now, if you want to comment an entire paragraph, that can be easily accomplished with...
+
+    /*
+      Hey, I'm a paragraph comment.
+      This allows for programmers to
+      write tons and tons of random
+      words, without the fear of me
+      being compiled!
+    */
