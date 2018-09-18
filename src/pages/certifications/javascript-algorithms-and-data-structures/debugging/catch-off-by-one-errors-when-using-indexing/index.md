@@ -3,9 +3,6 @@ title: Catch Off By One Errors When Using Indexing
 ---
 ## Catch Off By One Errors When Using Indexing
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-
 ### Basics
 
 Due to the way JavaScript indexes work `firstFive` has **five elements** but they are indexed from **0 to 4**!
@@ -23,14 +20,14 @@ That should give you enough to grasp the limits of `firstFive`. Direct your atte
 You are given this code:
 ```javascript
   for (let i = 1; i <= len; i++) {
-    console.log(firstFive[i])
+    console.log(firstFive[i]);
   }
 ```
 To debug this piece of code, use `console.clear()`. What would be the best place for it? The answer is right before the `for` statement!
 ```javascript
   console.clear();
   for (let i = 1; i <= len; i++) {
-    console.log(firstFive[i])
+    console.log(firstFive[i]);
   }
 ```
 Console output:
