@@ -1,7 +1,9 @@
 ---
 title: Semantic HTML Elements
 ---
+
 ## Semantic HTML Elements
+The `<em>` element marks text as being emphasized above the text around it. Typically, the browser renders this in *italics*, but you can add other styles using CSS.
 
 Semantic HTML elements provide meaning to browsers, developers, and users of a site. In contrast to elements like `<div>` or `<span>`, semantic elements like `<header>` and `<footer>` more clearly explain the purpose of each section of a website.
 
@@ -46,3 +48,8 @@ Developers use semantic elements to enhance the following:
 ### Sources
 1. [Lee, Michelle. "An Overview of HTML5 Semantics." *CodePen*. February 16, 2016. Accessed: October 24, 2017](https://codepen.io/mi-lee/post/an-overview-of-html5-semantics)
 2. [Bidaux, Vincent. "HTML5 semantic elements and Webflow: the essential guide." *Webflow*. December 16, 2016. Accessed: October 24, 2017](https://webflow.com/blog/html5-semantic-elements-and-webflow-the-essential-guide)
+
+#### More Information:
+For more information: https://codepen.io/mi-lee/post/an-overview-of-html5-semantics
+
+Refer to the [MDN Web Docs article](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em).
