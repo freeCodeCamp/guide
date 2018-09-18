@@ -71,4 +71,4 @@ return studentGrades; // [ { name: 'Quincy', grade: 96 }, { name: 'Alexis', grad
 Filter is very useful and a great choice over for loops to filter arrays against conditional statements.
 
 #### More Information:
-[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter' target='_blank' rel='nofollow'>MDN</a>

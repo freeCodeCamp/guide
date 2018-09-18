@@ -3,8 +3,8 @@ title: Knights and Knaves Puzzles
 ---
 ## Knights and Knaves
 
-One type of logic puzzles, these puzzles have to do with two types of people. Knights: people who only tell the truth and  Knaves: people who only tell lies. Raymond Smullyan collected dozens of puzzles like this in his book, What is the Name of This Book?. 
-The way the puzzles work is that a person visits an island where he meets an inhabitant or group of. The visitor must use his logic skills to figure out who is the knight and who is the knave. 
+One type of logic puzzle, these puzzles have to do with two types of people. Knights: people who only tell the truth and Knaves: people who only tell lies. Raymond Smullyan collected dozens of puzzles like this in his book, "What is the Name of This Book?". 
+The way the puzzles work is that a person visits an island where he meets an inhabitant or group. The visitor must use his logic skills to figure out who is the knight and who is the knave. 
 
 ## Sample Puzzles
 
@@ -23,7 +23,7 @@ You come to a fork in a road and need to learn which path leads to your destinat
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
-* [What is the Name of This Book? from Amazon](https://www.amazon.com/gp/product/0486481980/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0486481980&linkCode=as2&tag=brenconl05-20&linkId=UU6GFKPWEKZFK2XG)
-* [Wikipedia Article](https://en.wikipedia.org/wiki/Knights_and_Knaves)
+* <a href='https://www.amazon.com/gp/product/0486481980/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0486481980&linkCode=as2&tag=brenconl05-20&linkId=UU6GFKPWEKZFK2XG' target='_blank' rel='nofollow'>What is the Name of This Book? from Amazon</a>
+* <a href='https://en.wikipedia.org/wiki/Knights_and_Knaves' target='_blank' rel='nofollow'>Wikipedia Article</a>
 
 
