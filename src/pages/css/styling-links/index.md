@@ -18,6 +18,24 @@ The four states are:
 * ```a:hover```: a link when the user's mouse is over it
 * ```a:active```: a link when it is clicked
 
+The `<a href="">` property is responsible for creating URLs and can be modified using a number of CSS styling properties, although it has a few by default:
+1. Underline
+2. Blue color
+
+You can change these by adding changing the `color` and `text-decoration` properties.
+
+```css
+   color: black;
+   text-decoration: none;
+```
+
+You can also style the link based on interaction using these properties, also known as link states:
+
+- a:link - a normal, unvisited link
+- a:visited - a link the user has visited
+- a:hover - a link when the user mouses over it
+- a:active - a link the moment it is clicked
+
 Here is some sample CSS using the 4 states:
 ```css
 a:link { color: red; }
@@ -56,7 +74,6 @@ a:active {
     color: blue;
 } 
 ```
-#### More Information:
-https://www.w3schools.com/css/css_link.asp
+
 
 
