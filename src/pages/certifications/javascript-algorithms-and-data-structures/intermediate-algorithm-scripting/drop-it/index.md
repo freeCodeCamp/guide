@@ -113,7 +113,7 @@ If you still can't figure out how to solve it with shift, then try solving it wi
 
 #### Relevant Links
 
-*   <a>While loops</a>
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while' target='_blank' rel='nofollow' >While loops</a>
 
 ## ![:clipboard:](https://forum.freecodecamp.com/images/emoji/emoji_one/clipboard.png?v=3 ":clipboard:") NOTES FOR CONTRIBUTIONS:
 

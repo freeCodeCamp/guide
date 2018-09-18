@@ -104,14 +104,14 @@ You will need to use everything you know about string manipulation to get the la
 ### Code Explanation:
 
 *   This is a declarative as well as recursive approach to this problem.
-*   `check()` is a function which checks for first letter of string to be in the array of vowels, `<a href='http://forum.freecodecamp.com/t/javascript-string-prototype-charat/15932' target='_blank' rel='nofollow'>'a','i','u','e','o']`.
+*   `check()` is a function which checks for first letter of string to be in the array of vowels, `['a','i','u','e','o']`.
 *   In case of consonants, `check()` calls itself on the next characters until finding the first vowel.
 *   It'll return the index of whatever it finds to be the last initial consonant i.e., Schmidtsville's would be 3.
 *   Then, letters up until that index are removed from the string and concatenated with either that same chunk of removed string or **w** accordingly, and then **ay** regardless.
 
 #### Relevant Links
 
-*   [JS String Prototype CharAt</a>
+*   <a href='http://forum.freecodecamp.com/t/javascript-string-prototype-charat/15932' target='_blank' rel='nofollow'>JS String Prototype CharAt</a>
 *   <a href='http://forum.freecodecamp.com/t/javascript-string-prototype-concat/15935' target='_blank' rel='nofollow'>JS String Prototype Concat</a>
 
 ## ![:rotating_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:") Advanced Code Solution:

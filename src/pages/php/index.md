@@ -6,7 +6,9 @@ title: PHP
 
 ## What is PHP?
 
-PHP is a server-side scripting language created in 1995 by Rasmus Lerdorf.
+PHP is a server-side scripting language created in 1995 by Rasmus Lerdorf. 
+
+PHP is a widely-used open source general-purpose scripting language that is especially suited for web development and can be embedded into HTML.
 
 ## What does the acronym PHP stand for?
 
@@ -23,7 +25,7 @@ typically used on websites to generate web page content dynamically. Use-cases i
 * Desktop (GUI) applications
 
 Typically, it is used in the first form to generate web page content dynamically. For example, if you have a blog website, you might write some PHP scripts to retrieve
-your blog posts from a database and display them. Other things that PHP scripts could be used for include:
+your blog posts from a database and display them. Other uses for PHP scripts include:
 
 * Processing and saving user input from form data
 * Setting and working with website cookies
@@ -69,7 +71,7 @@ sudo apt install apache2 libapache2-mod-php
 * PHP runs on various platforms (Windows, Linux, Unix, Mac OS X, etc.)
 * PHP is compatible with almost all servers used today (Apache, IIS, etc.)
 * PHP supports a wide range of databases
-* PHP is free. Download it from the official PHP resource: www.php.net
+* PHP is free. Download it from the official PHP resource: [secure.php.net](https://secure.php.net/)
 * PHP is easy to learn and runs efficiently on the server side
 
 ## PHP Frameworks
@@ -77,16 +79,16 @@ sudo apt install apache2 libapache2-mod-php
 Since writing the whole code for a website is not really practical/feasible for most projects, most developers tend to use frameworks for the web development. The advantage of using a framework is that 
 
  * You don't have to reinvent the wheel everytime you create a project, a lot of the nuances are already taken care for you
- * They are usually well-structured so that it helps in the seperation of concerns
+ * They are usually well-structured so that it helps in the separation of concerns
  * Most frameworks tend the follow the best practices of the language
- * A lot of them follow the MVC (Model-View-Controller) pattern so that it seperates the presentation layer from logic
+ * A lot of them follow the MVC (Model-View-Controller) pattern so that it separates the presentation layer from logic
  
 ## Popular frameworks
  
- * Laravel
- * Symfony
- * Zend
- * CakePHP
+ * [Laravel](https://laravel.com/)
+ * [Symfony](https://symfony.com/)
+ * [Zend](http://www.zend.com/)
+ * [CakePHP](https://cakephp.org/)
  
 ## Documentation
 

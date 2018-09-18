@@ -17,7 +17,8 @@ alt="Image of youtube video link spread and rest operator " width="240" height="
 
 ### Example
 This code
-```
+
+```javascript
 const product = (function() {
 	"use strict";
 	return function product(n1, n2, n3) {
@@ -27,8 +28,9 @@ const product = (function() {
 })();
 console.log(product(2, 4, 6));//48
 ```
-can be written as such
-```
+
+Can be written as such
+```javascript
 const product = (function() {
 	"use strict";
 	return function product(...n) {		

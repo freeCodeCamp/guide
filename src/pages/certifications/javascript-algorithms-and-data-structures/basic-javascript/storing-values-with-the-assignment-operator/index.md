@@ -3,8 +3,11 @@ title: Storing Values with the Assignment Operator
 ---
 ## Storing Values with the Assignment Operator
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-javascript/storing-values-with-the-assignment-operator/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+It's just like math! You can set a variable to act as a placeholder for data by using the '=' assignment operator. In other words, the variable will store the data.
+
+    var a; 
+    a = 5; // The variable 'a' is equal to 5
+    
+    var zxcv;
+    zxcv = 123; // The variable 'abc' is equal to 123

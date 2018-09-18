@@ -3,8 +3,20 @@ title: Remember to Set the Constructor Property when Changing the Prototype
 ---
 ## Remember to Set the Constructor Property when Changing the Prototype
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/object-oriented-programming/remember-to-set-the-constructor-property-when-changing-the-prototype/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+- Remember to define the constructor property when you set a prototype to a new object.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+# Solution 
+```javascript
+Dog.prototype = {
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+  constructor: Dog, // Solution
+
+  numLegs: 2, 
+  eat: function() {
+    console.log("nom nom nom"); 
+  }, 
+  describe: function() {
+    console.log("My name is " + this.name); 
+  }
+};
+```

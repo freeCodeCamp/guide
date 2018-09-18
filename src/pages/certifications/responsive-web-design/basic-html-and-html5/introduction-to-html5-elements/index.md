@@ -3,8 +3,14 @@ title: Introduction to HTML5 Elements
 ---
 ## Introduction to HTML5 Elements
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/responsive-web-design/basic-html-and-html5/introduction-to-html5-elements/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+To wrap an HTML element around other HTML element(s)  means to put the <em>inner</em> element(s) after the opening tag of the wrapper and before its closing tag.<br/>
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The example below represent a `h1` element and a `h4` element wrapped into a `header` element:
+```
+<header>
+  <h1> Big title </h1>
+  <h4> Tiny subtitle </h4>
+</header>
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+As you can see the `header` contains the other elements that ends up on the same level ( the `h1` ends before the `h4` starts and both are nested into the `header`). 

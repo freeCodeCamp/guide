@@ -3,8 +3,18 @@ title: Add Items to an Array with push() and unshift()
 ---
 ## Add Items to an Array with push() and unshift()
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-data-structures/add-items-to-an-array-with-push-and-unshift/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+- Just like the example given, use the `.unshift()` method on the array to add elements to the start of the array and use the `.push()` method to add elements to the end of the array. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+## Solution:
+```javascript
+function mixedNumbers(arr) {
+  // change code below this line
+arr.unshift('I',2,'three');
+arr.push(7,'VIII', 9);
+  // change code above this line
+  return arr;
+}
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+// do not change code below this line
+console.log(mixedNumbers(['IV', 5, 'six']));
+```

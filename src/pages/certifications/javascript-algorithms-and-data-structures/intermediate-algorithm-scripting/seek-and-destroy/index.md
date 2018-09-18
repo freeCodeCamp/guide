@@ -59,7 +59,7 @@ To convert `arguments` into an array use this code `var args = Array.prototype.s
 
 2.  Start a basic `for` loop to iterate through `arr`. Nest another `for` loop inside the first, changing the integer variable `j` and arr to args. This second loop will iterate through `args` .
 
-    *   Within the second loop create an `if` statement, checking strictly `===` that the current val of `arr<a href='http://forum.freecodecamp.com/t/javascript-arguments/14283' target='_blank' rel='nofollow'>i]` is equal to `args[j]`.
+    *   Within the second loop create an `if` statement, checking strictly `===` that the current val of `arr[i]` is equal to `args[j]`.
 
     *   If the value at the current index _is_ equal in both arrays, use `delete` to remove it from `arr`.
 

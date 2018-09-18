@@ -3,8 +3,19 @@ title: Match a Literal String with Different Possibilities
 ---
 ## Match a Literal String with Different Possibilities
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/regular-expressions/match-a-literal-string-with-different-possibilities/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Suppose you want to match many different words with your regular expression; using the `|` symbol, that becomes possible. In this challenge, you are using that symbol to identify four different pets hidden within strings!
+
+## Hint 1:
+
+Inside the string literal, place the pet names, each seperated by the `|` symbol.
+
+## Spoiler Alert - Solution Ahead!
+
+## Solution:
+
+```javascriot
+let petString = "James has a pet cat.";
+let petRegex = /dog|cat|bird|fish/;
+let result = petRegex.test(petString);
+```

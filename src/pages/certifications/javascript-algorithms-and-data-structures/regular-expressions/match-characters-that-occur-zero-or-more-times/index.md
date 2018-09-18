@@ -1,10 +1,29 @@
 ---
 title: Match Characters that Occur Zero or More Times
 ---
+
 ## Match Characters that Occur Zero or More Times
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/regular-expressions/match-characters-that-occur-zero-or-more-times/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Any letter in a regex expression that is followed by a `*` does not have to occur in the string tested whereas any letter in a regex expression followed by a `+` must occur in a string at least once, as shown below, 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+```javascript
+let phrase = "ba humbug";
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+let regexPlus = /bah+/;
+let regexStar = /bah*/;
+
+regexPlus.test(phrase);  // returns false
+regexStar.test(phrase);  // returns true
+```
+
+Both allow for any number of occurrences of the same letter in a row, for example,
+
+```javascript
+let phrase = "wooooow look at that!";
+
+let regexPlus = /wo+w/;
+let regexStar = /wo*w/;
+
+regexPlus.test(phrase); // returns true
+regexStar.test(phrase); // returns true
+```

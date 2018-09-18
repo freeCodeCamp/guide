@@ -3,8 +3,22 @@ title: Copy Array Items Using slice()
 ---
 ## Copy Array Items Using slice()
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-data-structures/copy-array-items-using-slice/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+- the `slice()` function must be used to return an array consisting of only `warm` and `sunny`.
+- Therefore, two parameters must be passed to the `slice()` function. The first parameter must be the index you would like the substring to start at. The second parameter must be the index at which the substring ends. 
+- Note: The second parameter will end the substring at that exact index.
+## Example:
+```javascript
+ return arr.slice(1,4);
+ /* This will return a substring consisting of indexs [1,2,3]
+    Note: arr[4] is NOT included.
+```
+## Solution:
+```javascript
+function forecast(arr) {
+  // change code below this line
+  return arr.slice(2,4);
+}
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+// do not change code below this line
+console.log(forecast(['cold', 'rainy', 'warm', 'sunny', 'cool', 'thunderstorms']));
+```

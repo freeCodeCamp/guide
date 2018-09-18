@@ -3,8 +3,25 @@ title: Create a Bulleted Unordered List
 ---
 ## Create a Bulleted Unordered List
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/responsive-web-design/basic-html-and-html5/create-a-bulleted-unordered-list/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+To pass the challenge the first operation you should do is to remove the `p` elements with all their content.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+After that you have to implement the list: it must contains at least three `li` element inside the `ul` element and these `li` must be on the same level, not nested into each other:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Correct: 
+```
+<ul>
+  <li></li>
+  <li></li>
+</ul>
+```
+Not correct: 
+```
+<ul>
+  <li>
+    <li>
+    </li>
+  </li>
+</ul>
+```
+
+Good luck!

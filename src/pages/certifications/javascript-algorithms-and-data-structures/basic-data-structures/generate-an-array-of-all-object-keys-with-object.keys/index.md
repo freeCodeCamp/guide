@@ -3,8 +3,40 @@ title: Generate an Array of All Object Keys with Object.keys()
 ---
 ## Generate an Array of All Object Keys with Object.keys()
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-data-structures/generate-an-array-of-all-object-keys-with-object.keys/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+### Method:
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+- To return the array of users the `Object.keys()` method must take an arguement.
+- This challenge can be solved using a single line return statement. 
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### Solution:
+
+```javascript
+
+let users = {
+  Alan: {
+    age: 27,
+    online: false
+  },
+  Jeff: {
+    age: 32,
+    online: true
+  },
+  Sarah: {
+    age: 48,
+    online: false
+  },
+  Ryan: {
+    age: 19,
+    online: true
+  }
+};
+
+function getArrayOfUsers(obj) {
+  // change code below this line
+  return Object.keys(obj);
+  // change code above this line
+}
+
+console.log(getArrayOfUsers(users));
+
+```

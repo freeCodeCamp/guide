@@ -100,7 +100,7 @@ The tricky part is getting the regular expression part to work, once you do that
 ### Code Explanation:
 
 *   Split the string at one of the following conditions (_converted to an array_)
-    *   a whitespace character <a href='http://devdocs.io/javascript/global_objects/string/split' target='_blank' rel='nofollow'>`\s`] is encountered
+    *   a whitespace character [`\s`] is encountered
     *   underscore character [`_`] is encountered
     *   or is followed by an uppercase letter [`(?=[A-Z])`]
 *   Join the array using a hyphen (`-`)
@@ -108,7 +108,7 @@ The tricky part is getting the regular expression part to work, once you do that
 
 #### Relevant Links
 
-*   [String#split</a>
+*   <a href='http://devdocs.io/javascript/global_objects/string/split' target='_blank' rel='nofollow'>String#split</a>
 *   <a href='http://devdocs.io/javascript/global_objects/regexp' target='_blank' rel='nofollow'>RegExp</a>
 *   <a href='http://devdocs.io/javascript/global_objects/array/join' target='_blank' rel='nofollow'>Arrray#join</a>
 *   <a href='http://devdocs.io/javascript/global_objects/string/tolowercase' target='_blank' rel='nofollow'>String#toLowerCase</a>
