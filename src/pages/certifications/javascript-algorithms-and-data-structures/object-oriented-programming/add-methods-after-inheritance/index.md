@@ -7,7 +7,7 @@ title: Add Methods After Inheritance
 
 Just like the following example, a new instance of an object - `Dog` - must be created and the `prototype` must be set. 
 
-```javascrip[t
+```javascript
 
 function Bird() { }
 Bird.prototype = Object.create(Animal.prototype);
