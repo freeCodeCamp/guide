@@ -11,6 +11,18 @@ But it would be unfair if we completely ignore the <a href='http://docs.python-g
 
 ## Wrapping Up
 
+If you have already installed `pip` then simply:
+```
+$ pip install django
+```
+After installation it's complete we can create a new project:
+```
+$ django-admin startproject myproject
+$ cd myproject
+$ python manage.py runserver
+```
+Go to `http://localhost:8000`! :rocket:
+
 We have successfully installed the web-framework of our need. However, it's not yet complete. Most web applications are content and data driven - so we need a data storage. Or, a Database, if you will.
 
 In next article, we would be discussing how to install PostgreSQL and use it with our Python web application.
