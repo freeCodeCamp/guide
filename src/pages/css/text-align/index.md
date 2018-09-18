@@ -12,7 +12,7 @@ text-align: left;  aligns the text to the left
 text-align: right; aligns the text to the right
 text-align: center; aligns the text to the center 
 text-align: justify; makes the lines the same widht 
-text-align: justify-all; makes the lines the same witdh, including the last one  
+text-align: justify-all; makes the lines the same width, including the last one  
 text-align: start;  aligns the last line at the beginning of the line
 text-align: end;  aligns the last line at the end of the line
 text-align: match-parent;  calcule the values start and end to the parent's direction and replaced by the appropriate left or right value.
