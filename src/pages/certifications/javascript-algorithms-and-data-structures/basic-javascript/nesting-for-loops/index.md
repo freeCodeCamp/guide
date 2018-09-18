@@ -3,8 +3,19 @@ title: Nesting For Loops
 ---
 ## Nesting For Loops
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-javascript/nesting-for-loops/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+function multiplyAll(arr) {
+  var product = 1;
+  // Only change code below this line
+  for (var i = 0; i < arr.length; i++) {
+    for (var j = 0; j < arr[i].length; j++) {
+      product *= arr[i][j];
+      console.log(product)
+    }
+  }
+  // Only change code above this line
+  return product;
+}
+// Modify values below to test your code
+multiplyAll([[1], [2], [3]])
+//multiplyAll([[1, 2], [3, 4], [5, 6, 7]]);
+//multiplyAll([[5, 1], [0.2, 4, 0.5], [3, 9]])
