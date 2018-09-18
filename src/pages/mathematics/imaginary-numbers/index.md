@@ -3,11 +3,7 @@ title: Imaginary Numbers
 ---
 ## Imaginary Numbers
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/imaginary-numbers/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+An Imaginary Number "i" is defined simply as the square root of -1. In other words i<sup>2</sup> = -1. One of the reasons you would use Imaginary Numbers (or Complex Numbers as some others call them) is so that you can manipulate equations or expressions that contain the square root of -1. 
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
