@@ -3,8 +3,24 @@ title: Define a Redux Action
 ---
 ## Define a Redux Action
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/front-end-libraries/redux/define-a-redux-action/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+There are three parts to this challenge.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+1. Declare an `action` object.
+2. Give it a `type` property.
+3. Set the property's value to `'LOGIN'`.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### Step 1. Declare an object.
+
+```javascript
+const yourObjectName = {};
+```
+
+### Steps 2 & 3. Give your object a property and set its value.
+
+```javascript
+const yourObjectName = {
+  propertyName: value
+};
+```
+
+Good luck!
