@@ -3,6 +3,17 @@ title: Customer Interviews
 ---
 ## Customer Interviews
 
+Building personas sometimes involve research. This research can be in the form of customer interviews. This is a one-on-one interaction with existing or potential users. It is used to gain qualitative information about users of your product. 
+
+It is usually conducted by two persons: one does the questioning while the other person takes notes. Questions are usually centered around:
+
+* Background.
+* Demographics.
+* Identifiers.
+* Goals.
+* Challenges. 
+* Possible solutions.
+
 Before committing to building a product, it is important to know who you are building it for. Once you have defined what the audience (who you anticipate your customers are) for your product, you should find a group of people that meet that criteria, and ask them questions. For example, if you are planning to build a platform for new moms to schedule playdates for their children, you should ask some moms about what they need from your software.
 
 When you are doing your customer interviews, it is important to focus on the problem that you are solving, rather than on the tech that you are building. You want to have an open conversation with your potential customer, but have some guidelines for what information you want from them. Ask your potential customer if there is anything that you did not ask them, or if they can think of someone else who you should talk to.
@@ -19,4 +30,5 @@ Encourage your interviewee to tell you stories. You're looking for qualitative d
 <!-- Please add any articles you think might be helpful to read before writing the article -->
  - <a href="https://venturewell.org/customer-interviews/">Do's and Don'ts of Customer Interviews</a>
  - <a href="https://www.slideshare.net/ZacharyCohn/18-customer-interview-tips">Zachary Cohn's Customer Interview Tips Presentation</a>
+ - "User Interviews – The Beginner’s Guide." theUXreview, 25 Oct. 2017, http://theuxreview.co.uk/user-interviews-the-beginners-guide/.
 
