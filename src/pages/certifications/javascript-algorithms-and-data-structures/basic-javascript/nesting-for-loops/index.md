@@ -22,11 +22,11 @@ for (var i=0; i < arr.length; i++) {
 }
 
 ```
-This outputs each sub-element in arr one at a time. Note that for the inner loop, we are checking the .length of arr[i], since arr[i] is itself an array.
+This outputs each sub-element in <code>arr</code> one at a time. Note that for the inner loop, we are checking the length of arr[i], since arr[i] is itself an array.
 
 <ul>
   <li>Modify function <code>multiplyAll</code> so that it multiplies the <code>product</code> variable by each number in the sub-arrays of <code>arr</code>.</li>
-  <li>Make sure the second <code>for loop</code> is nested inside the first.</li>
+  <li>Make sure the second for loop is nested inside the first.</li>
 </ul>
 
 <strong>Relevant Links</strong>
@@ -38,7 +38,7 @@ This outputs each sub-element in arr one at a time. Note that for the inner loop
   
 :speech_balloon: Hint: 1
 
-Make sure to check with <code>.length</code> and not the overall array.
+Make sure to check with <code>length</code> and not the overall array.
 
 <em>try to solve the problem now</em>
 
@@ -83,7 +83,7 @@ multiplyAll([[1,2],[3,4],[5,6,7]]);
 <strong>Code Explanation:</strong>
 
 <ul>
-  <li>We check the length of <code>arr</code> in the <code>i for loop</code> and the <code>arr[i]</code> length in the <code>j for loop</code>.</li>
+  <li>We check the length of <code>arr</code> in the <code>i</code> for loop and the <code>arr[i]</code> length in the <code>j</code> for loop.</li>
   <li>We multiply the <code>product</code> variable by itself because it equals 1, and then multiply it by the sub-arrays.</li>
   <li>The two sub-arrays to multiply are <code>arr[i]</code> and <code>j</code>.</li>
 </ul>
