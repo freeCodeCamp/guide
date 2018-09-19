@@ -3,9 +3,7 @@ title: Factoring Quadratics
 ---
 ## Factoring Quadratics
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/factoring-quadratics/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+For the function: f(x) = x^2 + 2x + 1, the factored form would be f(x) = (x + 1)(x + 1) or f(x) = (x + 1)^2
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
