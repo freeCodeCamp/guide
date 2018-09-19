@@ -28,8 +28,9 @@ An image can also be turned into a link by enclosing the `<img>` tag in an `<a>`
 
 #### More Information:
 
-- [The HTML &lt;a&gt; element: MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a)
-- [A tag: w3schools](https://www.w3schools.com/tags/tag_a.asp)
+- <a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a' target='_blank' rel='nofollow'>The HTML &lt;a&gt; element: MDN</a>
+- <a href='https://www.w3schools.com/tags/tag_a.asp' target='_blank' rel='nofollow'>A tag: w3schools</a>
+- <a href='http://htmlreference.io/element/a/' target='_blank' rel='nofollow'>A tag: htmlreference.io</a>
 
 
 

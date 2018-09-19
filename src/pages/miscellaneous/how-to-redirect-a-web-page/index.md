@@ -3,10 +3,8 @@ title: How to Redirect a Web Page
 ---
 ## How to Redirect a Web Page
 
-The implementation for the page redirection are as follows.
-
-To redirect your site visitors to a new page, add a line in your head section as follows 
- 
+To redirect your site visitors to a new page, add a line in your head section as follows:
+```html 
 <html>
    <head>
       
@@ -29,3 +27,11 @@ To redirect your site visitors to a new page, add a line in your head section as
       
    </body>
 </html>
+```
+
+There is another option if you just want to change the page as soon as they reach that page:
+
+```javascript
+window.location.assign("https://www.yournewwebsite.fakewebsite");
+```
+Replacing the website with your website. The one should go inside of a JavaScript file.
