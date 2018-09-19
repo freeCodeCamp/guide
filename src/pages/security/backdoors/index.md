@@ -15,7 +15,6 @@ Backdoors of another sort gained notoriety in 2013 when NSA documents leaked to 
 One of the most controversial backdoor cases involved the NSA's reported efforts to intentionally weaken an encryption algorithm known as the NIST SP800-90 Dual Ec Prng so that any data encrypted with the algorithm would be susceptible to cracking by the NSA.
 
 ### More Information:
-* What is a backdoor: [Incapsula](https://www.incapsula.com/web-application-security/backdoor-shell-attack.html)
-* Backdoor article: [Wikipedia](https://en.wikipedia.org/wiki/Backdoor_(computing))
-
+* What is a backdoor: <a href='https://www.incapsula.com/web-application-security/backdoor-shell-attack.html' target='_blank' rel='nofollow'>Incapsula</a>
+* Backdoor article: <a href='https://en.wikipedia.org/wiki/Backdoor_(computing)' target='_blank' rel='nofollow'>Wikipedia</a>
 

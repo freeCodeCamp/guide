@@ -26,6 +26,5 @@ Iframes have a border by default, if you wish to remove this you can do so by us
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+* [MDN - HTML iframe tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe)
+* [W3 - HTML 5.2 iframe specification](https://www.w3.org/TR/html5/semantics-embedded-content.html#the-iframe-element)
