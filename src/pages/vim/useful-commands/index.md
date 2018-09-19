@@ -62,6 +62,9 @@ __Redo__: Press `U` (`Shift` + `u`) or type in `:redo` and press `Enter`.
 ## Opening a file in a specific line
 - vi filename +n, where n is the line number
 
+## Opening a file searching for word/term
+- vi filename +/word, where word is what you are looking for. The cursor will be positioned on the first occurence of the word.
+
 ## Bare minimum functionality
 
 Most likely you'll find yourself in "normal" mode, it allows you to enter commands by pressing the colon `:` key.
