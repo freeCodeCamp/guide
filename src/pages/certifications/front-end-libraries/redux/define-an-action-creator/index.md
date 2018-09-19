@@ -3,8 +3,23 @@ title: Define an Action Creator
 ---
 ## Define an Action Creator
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/front-end-libraries/redux/define-an-action-creator/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+There are two parts to this challenge.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+1. Declare a `actionCreator()` function.
+2. Return the `action` object when that function is called.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### Step 1. Declare a function.
+
+```javascript
+const yourFunctionName = () => {}
+```
+
+### Step 2. Return an object when your function is called.
+
+```javascript
+const yourFunctionName = () => {
+  return yourObjectName;
+}
+```
+
+Good luck!
