@@ -3,6 +3,12 @@ title: Clustering Algorithms
 ---
 ## Clustering Algorithms
 
+Clustering is the process of dividing data into separated groups (clusters), while ensuring that:
+- Each cluster contains similar objects
+- Objects which do not belong to the same clusters are not similar
+
+The difficulty lies in the definition of a similarity measure that can separate the data in the way we want. For instance, a group of persons can be separated by gender, hair color, weight, race...etc.
+
 Clustering algorithms have the task of grouping a set of objects in such a way that objects in the same group (called a cluster) are more similar (in some sense or another) to each other than to those in other groups (clusters). It is a main task of exploratory data mining, and a common technique for statistical data analysis, used in many fields, including machine learning, pattern recognition, image analysis, information retrieval, bioinformatics, data compression, and computer graphics.
 
 ## Types of Clustering Algorithms:
@@ -72,7 +78,7 @@ plt.title("Iris by K-Means Clustering")
 plt.show()
 ```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Since the data points belong usually to a high-dimensional space, the similarity measure is often defined as a distance between two vectors (Euclidean, Manhathan, Cosine, Mahalanobis...)
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
