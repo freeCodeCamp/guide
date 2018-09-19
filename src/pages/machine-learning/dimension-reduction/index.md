@@ -10,21 +10,24 @@ Dealing with a lot of dimensions can be painful for machine learning algorithms.
 
 - When the dimensions can be given a meaningful interpretation, projection along that dimension can be used to explain certain behaviors.
 
--In the supervised learning case, dimensionality reduction can be used to reduce the dimension of the features, potentially leading to better performance for the learning algorithm.
+- In the supervised learning case, dimensionality reduction can be used to reduce the dimension of the features, potentially leading to better performance for the learning algorithm.
 
 ## Dimensionality Reduction Techniques
 
 - Linear Discriminant Analysis [LDA](http://scikit-learn.org/stable/modules/lda_qda.html)
 - Principal Components Analysis [PCA](http://setosa.io/ev/principal-component-analysis/)
-- Kernel PCA.
-- Graph-based kernel PCA.
-- t-Distributed Stochastic Neighbor Embedding [t-SNE](https://lvdmaaten.github.io/tsne/).
-- [Auto Encoders] (https://medium.com/towards-data-science/reducing-dimensionality-from-dimensionality-reduction-techniques-f658aec24dfe)
-- Linear discriminant analysis (LDA)
+- Kernel PCA
+- Graph-based kernel PCA
+- t-Distributed Stochastic Neighbor Embedding [t-SNE](https://lvdmaaten.github.io/tsne/)
+- [Auto Encoders](https://medium.com/towards-data-science/reducing-dimensionality-from-dimensionality-reduction-techniques-f658aec24dfe)
 - Generalized discriminant analysis (GDA)
+- autoencoders
+
+
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-[A step by step tutorial to Principal Component Analysis](https://plot.ly/ipython-notebooks/principal-component-analysis/#introduction)
-[Dimensionality Reduction Techniques](https://medium.com/towards-data-science/reducing-dimensionality-from-dimensionality-reduction-techniques-f658aec24dfe)
-[Dimensionality Reduction Techniques: Where to Begin](https://blog.treasuredata.com/blog/2016/03/25/dimensionality-reduction-techniques-where-to-begin)
+
+* [A step by step tutorial to Principal Component Analysis](https://plot.ly/ipython-notebooks/principal-component-analysis/#introduction)
+* [Dimensionality Reduction Techniques](https://medium.com/towards-data-science/reducing-dimensionality-from-dimensionality-reduction-techniques-f658aec24dfe)
+* [Dimensionality Reduction Techniques: Where to Begin](https://blog.treasuredata.com/blog/2016/03/25/dimensionality-reduction-techniques-where-to-begin)
+
