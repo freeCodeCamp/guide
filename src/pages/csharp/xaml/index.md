@@ -1,11 +1,14 @@
 ---
 title: XAML
 ---
-## XAML
-	
-XAML, Pronounced "zammel", which stands for Extensible Application Markup Language is a declarative XML-based language that is used for initializing structured values and objects. XAML Developed by Microsoft and is used in .NET technologies, particularly Windows Presentation Foundation (WPF), Silverlight, Windows Workflow Foundation (WF). In WPF, XAML is used to define UI elements, data binding, events, and other features.
-Anything that is implemented in XAML can be created using other .NET languages like C# or VB.NET. However, one of the key reasons of using the technology is the reduced complexity.
 
+## XAML: Extensible Application Markup Language
+
+XAML pronounced as "Zammel" is a mark language developed by Microsoft. This markup language is mainly used for designing GUIs. Also it is popular for its usability in workflow. 
+
+Areas like Silverlight, Mobile Development, WPF (Windows Presentation Foindation), Windows Store uses XAML heavily and span accross any CLR and .NET framework
+
+Its a declaritive language and answers WHAT and HOW. It aims at separating the behavior from the designer code.
 
 ## Example 1
 Creating a TextBlock with several properties.
@@ -17,7 +20,6 @@ Creating a TextBlock with several properties.
 	Margin="50,10,0,0" />
 ```
 
-
 ### Example 2
 The following example shows a label with "Hello World!" as its content in a top level container called UserControl.
 ```XAML
@@ -25,3 +27,11 @@ The following example shows a label with "Hello World!" as its content in a top 
     <Label Content="Hello World!" />
 </UserControl>
 ```
+
+### More Information:
+
+* [A Beginners Article about XAML and the WPF Engine](http://www.c-sharpcorner.com/UploadFile/logisimo/a-beginners-article-about-xaml-and-the-wpf-engine/)
+
+* [XAML Magic: Attached Properties](http://www.codemag.com/article/1405061)
+
+* [XAML Overview (WPF)](https://docs.microsoft.com/en-us/dotnet/framework/wpf/advanced/xaml-overview-wpf)
