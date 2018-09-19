@@ -3,8 +3,27 @@ title: Specify Exact Number of Matches
 ---
 ## Specify Exact Number of Matches
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/regular-expressions/specify-exact-number-of-matches/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+In this challenge we are instructed to specify an exact number of consecutive matches of a letter or "expression" inside a string.
+We do this by using curly brackets inside the Regex after the expression or letter we want to match with only 1 number inside the brackets.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+## Hint:
+```javascript
+let regex = /zx{2}y/;
+```
+This would return strings that contain 2 "x's" after a "z" and before a "y"
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+
+## Spoiler-Alert Solution Ahead!
+
+## Solution
+
+```javascript
+let timStr = "Timmmmber";
+let timRegex = /im{4}b/; // Change this line 
+let result = timRegex.test(timStr);
+
+```
+
+## Resources:
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
+
