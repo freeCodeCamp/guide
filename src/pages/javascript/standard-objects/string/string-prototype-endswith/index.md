@@ -3,9 +3,22 @@ title: String.prototype.endsWith
 ---
 ## String.prototype.endsWith
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/standard-objects/string/string-prototype-endswith/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The string function `endsWith` determines if a substring exists at the end of a string. It is equal to ending a regex matching pattern with a `$`
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+`endsWith` accepts two arguments and returns a boolean value. The first of two arguments is a required substring that you want to match. The second, and optional argument, indicates where to stop searching in the string. The second argument defaults to the end of the string.
+
+```javascript
+str.endsWith(substring, [endPosition]);
+```
+
+### Examples
+```javascript
+let str = 'Hella small batch thundercats listicle craft beer woke.';
+
+str.endsWith('beer woke.') // true
+str.endsWith('small') // false
+str.endsWith('small', 11) // true
+```
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
