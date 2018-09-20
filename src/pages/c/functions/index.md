@@ -14,7 +14,7 @@ int divides(int a, int b) {
 
 int main(void) {
     int first = 5;
-    int second = 10;
+    int second = 10; //MUST NOT BE ZERO;
 
     int result = divides(first, second);
 
@@ -24,7 +24,10 @@ int main(void) {
 }
 ```
 
-Notice that like `main`, `divides` has a similar format. That's because `main` is also a function- it's just special because C looks for it first. `divides` also comes before `main`. This is important because `main` calls `divides`. Calling a function means that its code is being used. Code must be compiled before it gets used, and C compiles line by line from the top, so in order for a function to be called, it must be written out before it is called like in this example. If `divides` came after `main`, it would fail because the compiler doesn't know that `divides` exists yet.
+Notice that like `main`, `divides` has a similar format. That's because `main` is also a function- it's just special because C looks for it first. `divides` also comes before `main`. This is important because `main` calls `divides`. Calling a function means that its code is being used. Code must be compiled before it gets used, and C compiles line by line from the top, so in order for a function to be called, it must be written out before it is called like in this example. If `divides` came after `main`, it would fail because the compiler doesn't know that `divides` exists yet. You may also use a function prototype before main to allow you to place `divides` after main. A function prototype is identical to the function with the same variables and return type, except they braces are omitted and replaced with a semicolon like so:
+```C
+int divides(int a, int b);
+```
 
 Also notice that `divides` and `main` are not sharing brackets and are not in each other's brackets. They are meant to be separate, even though one calls the other.
 
@@ -48,6 +51,13 @@ return a / b;
 This is pretty straightforward, because this is such a simple function. `a` is divided by `b`, and that value is returned. You've seen `return` before in the `main` function, but now instead of ending our program, it ends the method and gives the value to whatever called it.
 
 So to recap what this function does- it gets two integers, divides them, and gives them back to whatever called it.
+
+###Parameters of a function
+Parameters are used to pass arguements to the function.
+Their are two types of parameters:
+Parameter Written In Function Definition is Called “Formal Parameter”.
+Parameter Written In Function Call is Called “Actual Parameter”.They are also known as arguments.They are passed to the function definition and a copy is created in the form of formal parameters.
+
 
 ## A more complex example
 That one was a single line function. You'll see them when there's a pretty simple operation that needs to be performed over and over, or an operation that ends up being one long line. By making it a function, the code ends up being more readable and manageable.
@@ -82,6 +92,19 @@ You may have observed a similar issue with things like if statements and any of 
  * This is the best way to do it, if doing so is an option
 
 Ideally, you'll always pass into your functions as parameters, but you may not always be able to. Picking the best solution is your job as a programmer.
+
+Recursion in C
+When function is called within the same function, it is known as recursion in C. The function which calls the same function, is known as recursive function.
+```
+int factorial (int n)
+{
+    if ( n < 0)
+        return -1; /*Wrong value*/
+    if (n == 0)
+        return 1; /*Terminating condition*/
+    return (n * factorial (n -1));
+}   
+```
 
 # Before you go on...
 ## A review

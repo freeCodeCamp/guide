@@ -1,7 +1,7 @@
 ---
 title: Python Any Iterable
 ---
-`any()` is a built-in function in Python 3, to check if any of the items of an <a href='https://docs.python.org/3/glossary.html#term-iterable' target='_blank' rel='nofollow'>_iterable_</a> is `True`. It takes one argument, `iterable`.
+`any()` is a built-in function in Python 3 (and Python 2 since version 2.5), to check if any of the items of an <a href='https://docs.python.org/3/glossary.html#term-iterable' target='_blank' rel='nofollow'>_iterable_</a> is `True`. It takes one argument, `iterable`.
 
 ## Argument
 
@@ -11,9 +11,9 @@ The `iterable` argument is the collection whose entries are to be checked. It ca
 
 ## Return Value
 
-The return value would be a boolean. If and only if **all** entries of iterable are `False`, or the `iterable` is empty; it returns `False`. This function essentially performs a Boolean `OR` operation over all elements.
+The return value is a Boolean. If and only if **all** entries of iterable are `False`, or the `iterable` is empty; it returns `False`. This function essentially performs a Boolean `OR` operation over all elements.
 
-If even one of them is `True`, it would return `True`.
+If even one of them is `True`, it returns `True`.
 
 The `any()` operation is equivalent to (internally, may not be implemented exactly like this)
 
@@ -27,6 +27,8 @@ The `any()` operation is equivalent to (internally, may not be implemented exact
 
     print(any([])) #=> False
     print(any({})) #=> False
+    print(any([None])) #=> False
+    print(any(['', {}, 0])) #=> False
     print(any([6, 7])) #=> True
     print(any([6, 7, None])) #=> True
     print(any([0, 6, 7])) #=> True
