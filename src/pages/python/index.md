@@ -142,6 +142,8 @@ The <a href='https://docs.python.org/3/library/functions.html#print' target='_bl
 A function is called when the name of the function is followed by `()`. For the Hello world! example, the print function is called with a string as an argument for the first parameter. For the rest of the parameters the defaults are used.
 
 The argument that we called the `print` function with is a `str` object or _string_, one of Python's <a href='https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str' target='_blank' rel='nofollow'>_built-in types_</a>.
+Also the most important thing about python is that you don't have to specify the data type while declaring a variable, python's compiler
+will do that itself based on the type of value assigned.
 
 The `objects` parameter is prefixed with a `*` which indicates that the function will take an arbitrary number of arguments for that parameter.
 
