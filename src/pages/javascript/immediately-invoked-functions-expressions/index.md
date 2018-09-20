@@ -1,7 +1,6 @@
 ---
 title: Immediately Invoked Functions Expressions(IIFEs)
 ---
-This article gives a brief introduction to the concept and usage of Immediately Invoked Functions Expressions(IIFEs) functions in the Javascript programming language.
 
 ## Function Statement
 
