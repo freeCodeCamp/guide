@@ -1,6 +1,7 @@
 ---
 title: HTML
 ---
+
 # HTML
 
 HyperText Markup Language (HTML) is a markup language used to construct online documents and is the foundation of most websites today. A markup languages like HTML allows us to 1) create links to other documents, 2) structure the content in our document, and 3) ascribe context and meaning to the content of our document.
@@ -13,41 +14,52 @@ HTML5 is the latest version, or specification, of HTML. The World Wide Web Conso
  
 HTML5 Introduces a host of semantic elements. Though we discussed HTML helped to provided meaning to our document, it wasn't until HTML5s' introduction of [semantic elements](#) that its' potential was realized.
 
-## Other Resources
+## A simple example of HTML Document
 
-- [HTML Elements](#)
-- [Semantic HTML](#)
-- [HTML Attributes](#)
-<h2>HTML Versions</h2>
-<p>Since the early days of the web, there have been many versions of HTML:</p>
-<table class="w3-table-all notranslate">
-  <tr>
-    <th>Version</th>
-    <th>Year</th>
-  </tr>
-  <tr>
-    <td>HTML</td>
-    <td>1991</td>
-  </tr>
-  <tr>
-    <td>HTML 2.0</td>
-    <td>1995</td>
-  </tr>
-  <tr>
-    <td>HTML 3.2</td>
-    <td>1997</td>
-  </tr>
-  <tr>
-    <td>HTML 4.01</td>
-    <td>1999</td>
-  </tr>
-  <tr>
-    <td>XHTML</td>
-    <td>2000</td>
-  </tr>
-  <tr>
-    <td>HTML5</td>
-    <td>2014</td>
-  </tr>
-</table>
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Page Title</title>
+</head>
+<body>
 
+  <h1>My First Heading</h1>
+  <p>My first paragraph.</p>
+
+</body>
+</html>
+```
+
+!DOCTYPE html: Defines this document to be HTML5
+
+html: The root element of an HTML page
+
+head: The element contains meta information about the document
+
+title: The element specifies a title for the document
+
+body: The element contains the visible page content
+
+h1: The element defines a large heading
+
+p: The element defines a paragraph
+
+### HTML Versions
+
+Since the early days of the web, there have been many versions of HTML
+
+|Version|Year|
+|--- |--- |
+|HTML|1991|
+|HTML 2.0|1995|
+|HTML 3.2|1997|
+|HTML 4.01|1999|
+|XHTML|2000|
+|HTML5|2014|
+
+#### Other Resources
+
+- [HTML Elements](https://guide.freecodecamp.org/html/elements)
+- [Semantic HTML](https://guide.freecodecamp.org/html/html5-semantic-elements)
+- [HTML Attributes](https://guide.freecodecamp.org/html/attributes)
