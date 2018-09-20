@@ -1,7 +1,6 @@
 ---
 title: Immediately Invoked Functions Expressions(IIFEs)
 ---
-
 ## Function Statement
 
 A function created with a function declaration is a Function object and has all the properties, methods and behavior of Function objects.
