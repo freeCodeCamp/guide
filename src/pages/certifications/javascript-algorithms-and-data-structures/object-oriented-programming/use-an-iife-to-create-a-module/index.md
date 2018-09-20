@@ -3,8 +3,45 @@ title: Use an IIFE to Create a Module
 ---
 ## Use an IIFE to Create a Module
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/object-oriented-programming/use-an-iife-to-create-a-module/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+### Method
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Both `Mixin`'s must be wrapped in a new `funModule` so an esay starting point is to comment out all the code so far.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```javascript
+
+/*let isCuteMixin = function(obj) {
+  obj.isCute = function() {
+    return true;
+  };
+};
+let singMixin = function(obj) {
+  obj.sing = function() {
+    console.log("Singing to an awesome tune");
+  };
+};
+*/
+
+```
+
+Then below start writing your new `funModule` code. Inside the new module, you need to write a return statement to return both `Mixin` code blocks. Simply copy both original `Mixin` code blocks into your new module code, but remember to seperate both mixins with a `,`
+
+### Solution
+
+```javascript
+
+let funModule = (function() {
+  return {
+    isCuteMixin: function(obj) {
+      obj.isCute = function() {
+        return true;
+      };
+    },
+    singMixin: function(obj) {
+      obj.sing = function() {
+         console.log("Singing to an awesome tune");
+      };
+    }
+  }
+})();
+
+```
