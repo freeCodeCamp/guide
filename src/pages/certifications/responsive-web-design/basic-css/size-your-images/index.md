@@ -2,7 +2,6 @@
 title: Size Your Images
 ---
 ## Size Your Images
-
 For sizing your images, first create your class in your style tag.
 
 An example:
