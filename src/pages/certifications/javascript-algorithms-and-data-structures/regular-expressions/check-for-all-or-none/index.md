@@ -3,8 +3,27 @@ title: Check for All or None
 ---
 ## Check for All or None
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/regular-expressions/check-for-all-or-none/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+In this challenge we are instructed to check if 0 or 1 of a letter exists within a string.
+Our use case for this exercise is checking the spelling of one word in two similiar languages.
+This is handy since the word color or colour can be spelt multiple ways.
+We do this by having the identical spelling of the word with the "different" character being the one we are looking for.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+## Hint:
+```javascript
+let regex = /flavou?r/;
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```
+The above code would check the word flavor for a "u" and return true if it exists or doesnt exist as in "0 or 1" u's.
+
+
+## Spoiler-Alert Solution Ahead:
+
+## Solution
+```javascript
+let favWord = "favorite";
+let favRegex = /favou?rite/; // Change this line
+let result = favRegex.test(favWord);
+```
+
+## References:
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp
