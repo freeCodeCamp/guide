@@ -3,8 +3,44 @@ title: Adding a Default Option in Switch Statements
 ---
 ## Adding a Default Option in Switch Statements
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-javascript/adding-a-default-option-in-switch-statements/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+### Method:
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+- Switch statments a.k.a case control statements use **default** statement as a fallback statement i.e. it's executed when no other cases match.
+- The **default** statement is similar to `else` clause in `if/else`.
+- Syntax:
+```javascript
+switch (num) {
+  case value1:
+    statement1;
+    break;
+  case value2:
+    statement2;
+    break;
+...
+  default:
+    defaultStatement;
+    break;
+}
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### Solution:
+```javascript
+  switch(val){
+    case "a":
+      answer = "apple";
+      break;
+    case "b":
+      answer = "bird";
+      break;
+    case "c":
+      answer = "cat";
+      break;
+    default:
+      answer = "stuff";
+      break;
+  }
+  ```
+  
+ ### References 
+ 
+ Read more about switch statements at [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch).
