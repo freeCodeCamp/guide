@@ -26,7 +26,17 @@ $("#title").show( "slow", function() {
     $("p").show("fast");
 });
   ```
-* More options exist, please refer to the official website for further details. 
+* More options exist, please refer to the official website for further details.
+
+### .slideDown() method
+This method animates the height of the matched elements. This causes lower parts of the page to slide down, making way for the revealed items.
+Usage:
+```javascript
+$(".myclass").slideDown(); //will expand the element with the identifier myclass for 400 ms.
+$(".myclass").slideDown(1000); //will expand the element with the identifier myclass for 1000 ms.
+$(".myclass").slideDown("slow"); //will expand the element with the identifier myclass for 600 ms.
+$(".myclass").slideDown("fast"); //will expand the element with the identifier myclass for 200 ms.
+```
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
