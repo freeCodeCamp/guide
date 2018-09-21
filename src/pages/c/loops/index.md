@@ -23,7 +23,7 @@ int main(void) {
 ```
 While the statement within the while loop is true, the content within the brackets will be run. When the program hits the `while(my_number)`, it checks the statement within the parenthesis. If that statement is false, it won't run the while loop. Instead, it will skip over the code between the two brackets and will pick up where it left off.
 
-If the statement is true, the code within the brackets will be run. Once the code within the brackets has been run, the statement within the parenthesis will be checked again. Just like before, if the statement is true, the code will be run, if it's false, the code will be skipped.
+If the statement is true, the code within the brackets will be run. Once the code within the brackets has run, the statement within the parenthesis will be checked again. Just like before, if the statement is true, the code will be run, if it's false, the code will be skipped.
 
 Something that you may run into when playing with this or any other loop is the idea of an infinite loop- a loop that will run an infinite amount of times because there's nothing to stop it. Sometimes this can happen on purpose:
 
@@ -96,11 +96,25 @@ Unlike the for loop, there are three things in our parenthesis that are separate
 
 The next section is a boolean condition that will be checked for true or false, just like our while loop. It's referred to as a 'condition', because it's the condition that will get checked before starting a loop.
 
-The final section is referred to as the 'afterthought'. Its job is to perform some operation every loop, after the code within the brackets has been run through. In this case, it's just adding one to the count. This is the most common way for the afterthought to be used, because it lets you keep count of how many times you've run through a for loop.
+The final section is referred to as the 'increment/decrement'. Its job is to perform some operation every loop - usually adding or subtracting from the initial variable - after the code within the brackets has been run through. In this case, it's just adding one to the count. This is the most common way for the increment to be used, because it lets you keep count of how many times you've run through a for loop.
+
+# Loop Control Statements
+Loop control statements change execution form its normal sequence. When execution leaves a scope, all automatic objects that were created in that scope are destroyed.
+
+C supports the following control statements:
+
+#### 1. Break statement
+Terminates the <b>loop</b> or <b>switch</b> statement and transfers execution to the statement immediately following the loop or switch.
+
+#### 2. Continue statement
+Causes the loop to skip the remainder of its body and immediately retest its condition prior to reiterating.
+
+#### 3. Goto statement
+Transfers control to the labeled statement.
 
 # Some Fun and Useful Quirks
 
-## Infinte looping with for loops
+## Infinite looping with for loops
 Take a moment to consider what this code will do:
 ```C
 for(;;){
@@ -135,3 +149,321 @@ This has the effect of putting a pause in your code. In this case, the code reac
  * While loops, which allow us to run code while a condition is true
  * Do-while loops, which run code and then continue running it if a condition is true
  * For loops, which run code while a condition is true and allow us to perform an operation every loop.
+ 
+ 
+ ## Using loops for designing patterns.
+ Example 1: Program to print half pyramid using *
+*
+* *
+* * *
+* * * *
+* * * * *
+Source Code
+
+#include <stdio.h>
+int main()
+{
+    int i, j, rows;
+
+    printf("Enter number of rows: ");
+    scanf("%d",&rows);
+
+    for(i=1; i<=rows; ++i)
+    {
+        for(j=1; j<=i; ++j)
+        {
+            printf("* ");
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
+Example 2: Program to print half pyramid a using numbers
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+Source Code
+
+#include <stdio.h>
+int main()
+{
+    int i, j, rows;
+
+    printf("Enter number of rows: ");
+    scanf("%d",&rows);
+
+    for(i=1; i<=rows; ++i)
+    {
+        for(j=1; j<=i; ++j)
+        {
+            printf("%d ",j);
+        }
+        printf("\n");
+    }
+    return 0;
+}
+Example 3: Program to print half pyramid using alphabets
+A
+B B
+C C C
+D D D D
+E E E E E
+Source Code
+
+#include <stdio.h>
+int main()
+{
+    int i, j;
+    char input, alphabet = 'A';
+
+    printf("Enter the uppercase character you want to print in last row: ");
+    scanf("%c",&input);
+
+    for(i=1; i <= (input-'A'+1); ++i)
+    {
+        for(j=1;j<=i;++j)
+        {
+            printf("%c", alphabet);
+        }
+        ++alphabet;
+
+        printf("\n");
+    }
+    return 0;
+}
+Programs to print inverted half pyramid using * and numbers
+Example 4: Inverted half pyramid using *
+* * * * *
+* * * *
+* * * 
+* *
+*
+Source Code
+
+#include <stdio.h>
+int main()
+{
+    int i, j, rows;
+
+    printf("Enter number of rows: ");
+    scanf("%d",&rows);
+
+    for(i=rows; i>=1; --i)
+    {
+        for(j=1; j<=i; ++j)
+        {
+            printf("* ");
+        }
+        printf("\n");
+    }
+    
+    return 0;
+}
+Example 5: Inverted half pyramid using numbers
+1 2 3 4 5
+1 2 3 4 
+1 2 3
+1 2
+1
+Source Code
+
+#include <stdio.h>
+int main()
+{
+    int i, j, rows;
+
+    printf("Enter number of rows: ");
+    scanf("%d",&rows);
+
+    for(i=rows; i>=1; --i)
+    {
+        for(j=1; j<=i; ++j)
+        {
+            printf("%d ",j);
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
+ Programs to display pyramid and inverted pyramid using * and digits
+Example 6: Program to print full pyramid using *
+        *
+      * * *
+    * * * * *
+  * * * * * * *
+* * * * * * * * *
+Source Code
+
+#include <stdio.h>
+int main()
+{
+    int i, space, rows, k=0;
+
+    printf("Enter number of rows: ");
+    scanf("%d",&rows);
+
+    for(i=1; i<=rows; ++i, k=0)
+    {
+        for(space=1; space<=rows-i; ++space)
+        {
+            printf("  ");
+        }
+
+        while(k != 2*i-1)
+        {
+            printf("* ");
+            ++k;
+        }
+
+        printf("\n");
+    }
+    
+    return 0;
+}
+Example 7: Program to print pyramid using numbers
+
+        1
+      2 3 2
+    3 4 5 4 3
+  4 5 6 7 6 5 4
+5 6 7 8 9 8 7 6 5
+Source Code
+
+#include <stdio.h>
+int main()
+{
+    int i, space, rows, k=0, count = 0, count1 = 0;
+
+    printf("Enter number of rows: ");
+    scanf("%d",&rows);
+
+    for(i=1; i<=rows; ++i)
+    {
+        for(space=1; space <= rows-i; ++space)
+        {
+            printf("  ");
+            ++count;
+        }
+
+        while(k != 2*i-1)
+        {
+            if (count <= rows-1)
+            {
+                printf("%d ", i+k);
+                ++count;
+            }
+            else
+            {
+                ++count1;
+                printf("%d ", (i+k-2*count1));
+            }
+            ++k;
+        }
+        count1 = count = k = 0;
+
+        printf("\n");
+    }
+    return 0;
+}
+Example 8: Inverted full pyramid using *
+
+* * * * * * * * *
+  * * * * * * *
+    * * * * *
+      * * *
+        *
+Source Code
+
+#include<stdio.h>
+int main()
+{
+    int rows, i, j, space;
+
+    printf("Enter number of rows: ");
+    scanf("%d",&rows);
+
+    for(i=rows; i>=1; --i)
+    {
+        for(space=0; space < rows-i; ++space)
+            printf("  ");
+
+        for(j=i; j <= 2*i-1; ++j)
+            printf("* ");
+
+        for(j=0; j < i-1; ++j)
+            printf("* ");
+
+        printf("\n");
+    }
+
+    return 0;
+}
+Example 9: Print Pascal's triangle
+
+           1
+         1   1
+       1   2   1
+     1   3   3    1
+   1  4    6   4   1
+ 1  5   10   10  5   1 
+Source Code
+
+#include <stdio.h>
+int main()
+{
+    int rows, coef = 1, space, i, j;
+
+    printf("Enter number of rows: ");
+    scanf("%d",&rows);
+
+    for(i=0; i<rows; i++)
+    {
+        for(space=1; space <= rows-i; space++)
+            printf("  ");
+
+        for(j=0; j <= i; j++)
+        {
+            if (j==0 || i==0)
+                coef = 1;
+            else
+                coef = coef*(i-j+1)/j;
+
+            printf("%4d", coef);
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
+Example 10: Print Floyd's Triangle.
+1
+2 3
+4 5 6
+7 8 9 10
+Source Code
+
+#include <stdio.h>
+int main()
+{
+    int rows, i, j, number= 1;
+
+    printf("Enter number of rows: ");
+    scanf("%d",&rows);
+
+    for(i=1; i <= rows; i++)
+    {
+        for(j=1; j <= i; ++j)
+        {
+            printf("%d ", number);
+            ++number;
+        }
+
+        printf("\n");
+    }
+
+    return 0;
+}

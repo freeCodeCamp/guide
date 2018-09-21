@@ -29,5 +29,4 @@ To install the Unity Tweak Tool type `sudo apt install unity-tweak-tool`, and to
 
 <a href='http://www.techrepublic.com/blog/linux-and-open-source/six-must-have-ubuntu-unity-tweaks/' target='_blank' rel='nofollow'>Here</a> is a list of the six must-have Ubuntu Unity Tweaks.
 
-![:point_left:](//forum.freecodecamp.com/images/emoji/emoji_one/point_left.png?v=2 ":point_left:") Previous | ![:book:](//forum.freecodecamp.com/images/emoji/emoji_one/book.png?v=2 ":book:") Home ![:book:](//forum.freecodecamp.com/images/emoji/emoji_one/book.png?v=2 ":book:") | Next ![:point_right:](//forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=2 ":point_right:")  
 [**Download and Install Ubuntu Desktop**](//forum.freecodecamp.com/t/download-and-install-ubuntu-desktop/18383) | [**Table of Contents**](//forum.freecodecamp.com/t/setting-up-ubuntu-for-programming/18388) | [**Jazzing up the Terminal**](//forum.freecodecamp.com/t/jazzing-up-the-terminal/18386)

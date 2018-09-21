@@ -3,13 +3,8 @@ title: Business Value
 ---
 ## Business Value
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/business-value/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Business Value is the focus of agile delivery. The agile team is charged with evaluating the business value of all work.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Business value describes what the customer will get for a specific piece of work.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+This value is discovered through conversations with the customer and analysis of the work involved. Business stakeholders may have data that quantifies the value of a given feature that has been requested. A product owner will use the various sources of information available and devote significant time to understanding, evaluating, and prioritizing the value the customer will receive for a given piece of work. 
