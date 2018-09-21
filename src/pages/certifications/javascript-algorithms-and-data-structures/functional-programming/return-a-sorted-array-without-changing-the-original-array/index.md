@@ -3,8 +3,22 @@ title: Return a Sorted Array Without Changing the Original Array
 ---
 ## Return a Sorted Array Without Changing the Original Array
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/functional-programming/return-a-sorted-array-without-changing-the-original-array/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+### Method
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Firstly concatenate the array taken in as a parameter to a new empty array. Then Use the `sort()` method as seen in the last challenge and create a function to sort the new array in ascending order. 
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### Solution
+
+```javascript
+
+var globalArray = [5, 6, 3, 2, 9];
+function nonMutatingSort(arr) {
+  // Add your code below this line
+  return [].concat(arr).sort(function(a, b) {
+    return a - b;
+  });
+  // Add your code above this line
+}
+nonMutatingSort(globalArray);
+
+```
