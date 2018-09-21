@@ -56,7 +56,7 @@ Trie(Radix tree)
 
 Let us define a BST node having some data, referencing to its left and right child nodes.
 
-```
+```c
 struct node {
    int data;   
    struct node *leftChild;
@@ -154,7 +154,8 @@ Binary search trees (BSTs) also give us quick access to predecessors and success
 
 Following are common types of Binary Trees:-
 Full Binary Tree/Strict Binary Tree: A Binary Tree is full or strict if every node has 0 or 2 children
-              18
+
+               18
            /       \  
          15         30  
         /  \        /  \
