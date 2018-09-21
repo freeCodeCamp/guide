@@ -1,6 +1,6 @@
 
 ---
-title:Instructional Design
+title: Instructional Design
 ---
 ## Instructional Design
 
