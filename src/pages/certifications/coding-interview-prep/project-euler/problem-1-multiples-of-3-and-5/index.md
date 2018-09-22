@@ -20,8 +20,8 @@ function multiplesOf3and5(number) {
   return sum;
 }
 ```
-[Run Code](https://repl.it/@ezioda004/Project-Euler-Problem-1-Multiples-of-3-and-5)
+- [Run Code](https://repl.it/@ezioda004/Project-Euler-Problem-1-Multiples-of-3-and-5)
 
 
-### References:
-[Modulo operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Remainder_())
+### Reference:
+- [Modulo operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Remainder_())
