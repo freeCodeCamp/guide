@@ -6,7 +6,7 @@ title: Implement Bubble Sort
 ### Method:
 - Bubble Sort is a sorting algorithm which sorts or *bubbles* the largest number as last element at the end of each pass.
 - We compare each element to the one ahead of it, if the element before is smaller, we swap their places.
-- Bubble Sort's time complexity is `O(n^2)`.
+- Bubble Sort's time complexity is **O(n<sup>2</sup>)**.
 
 
 ### Solution:
@@ -40,5 +40,8 @@ function bubbleSort(array) {
   return array;
 }
   ```
+  - [Run Code](https://repl.it/@ezioda004/Bubble-Sort)
+  
   ### References:
-[GeeksForGeeks](https://www.geeksforgeeks.org/bubble-sort/)
+- [GeeksForGeeks](https://www.geeksforgeeks.org/bubble-sort/)
+- [Wikipedia](https://en.wikipedia.org/wiki/Bubble_sort)
