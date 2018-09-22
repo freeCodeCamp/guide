@@ -1,10 +1,44 @@
 ---
-title: Comparison with the Greater Than Operator
+title: Comparison with the greater than operator (>)
 ---
-## Comparison with the Greater Than Operator
+## Comparison with the greater than operator (>)
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-greater-than-operator/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Problem explanation:
+· _Add the `greater than` operator to the indicated lines so that the return statements make sense._
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+#### Hint 1
+The greater than operator `(>)` compares both operands using type coercion (converting data types if necessary) and returns `true` if the first one is greater than the second one.
+> _try to solve the problem now_
+> 
+
+## Spoiler alert!
+
+**Solution ahead!**
+
+## Basic code solution:
+
+```javascript
+function testGreaterThan(val) {
+  if (val > 100) {  // Change this line
+    return "Over 100";
+  }
+  
+  if (val > 10) {  // Change this line
+    return "Over 10";
+  }
+
+  return "10 or under";
+}
+
+// Change this value to test
+testGreaterThan(10);
+```
+· [Run code at repl.it](https://repl.it/@AdrianSkar/Basic-JS-Comparison-with-greater)
+
+### Code explanation
+The function first evaluates `if` the condition `(val > 100)` evaluates to `true` converting `val` to a number if necessary. If it does, it returns the statement between the curly braces ("Over 100"). If it doesn't, it checks if the next condition is `true` (returning "Over 10"). Otherwise the function will return "10 or under".
+
+### Resources
+
+- ["Greater than operator (>)" - *MDN JavaScript reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Greater_than_operator_(%3E))
