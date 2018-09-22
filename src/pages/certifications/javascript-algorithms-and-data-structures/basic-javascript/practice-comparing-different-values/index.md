@@ -22,7 +22,7 @@ Remember from last exercises that _unlike the equality operator, which attempts 
 // Setup
 function compareEquality(a, b) {
 	if (a === b) { // Change this line
-	return  "Equal";
+		return  "Equal";
 	}
 	return  "Not Equal";
 }
