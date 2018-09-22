@@ -9,7 +9,7 @@ title: Implement Selection Sort
   1. Sorted
   2. Unsorted
  - The Sorted part is at the beginning of the array and Unsorted part afterwards.
- - Each pass we loop through the whole array and find the smallest element and at the end of the pass we swap smallest element to the sorted array.
+ - Each pass, initially we assume the first element to be the smallest then we loop through the whole array and *select* the smallest element. At the end of the pass we swap smallest element to the sorted array.
  - It has **O(n2)** time complexity.
 
 ### Solution:
