@@ -1,7 +1,7 @@
 ---
-title: Comparison with the strict inequality operator
+title: Comparison with the Strict Inequality Operator
 ---
-## Comparison with the strict inequality operator
+## Comparison with the Strict Inequality Operator
 
 
 ### Problem explanation:
