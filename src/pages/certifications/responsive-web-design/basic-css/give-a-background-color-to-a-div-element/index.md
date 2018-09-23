@@ -7,7 +7,7 @@ You can change the `background` `color` to a `div` Element (or section) by one o
 
 <b>The First Method:</b>
 
-  Create a `class` in the style brackets.
+Create a `class` in the style brackets.
 ```html
 <style>
  .blue-background {
@@ -17,9 +17,9 @@ You can change the `background` `color` to a `div` Element (or section) by one o
 ```
 You can then add the `class` to your `div` Element:
 ```html
-  <div class="blue-background">
-      <p> Example </p>
-  </div>
+<div class="blue-background">
+  <p> Example </p>
+</div>
 ```
  
 <b>The Second Method:</b>
