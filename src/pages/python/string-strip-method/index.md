@@ -9,7 +9,7 @@ Each will return a copy of the string with characters removed, at from the begin
 
 Example:
 
-```
+```py
 >>> string = '   Hello, World!    '
 >>> strip_beginning = string.lstrip()
 >>> strip_beginning
@@ -24,11 +24,12 @@ Example:
 
 An optional argument can be provided as a string containing all characters you wish to strip.
 
-```
+```py
 >>> url = 'www.example.com/'
 >>> url.strip('w./')
 'example.com'
 ```
+However, do notice that only the first `.` got stripped from the string. This is because the `strip` function only strips the argument characters that lie at the left or rightmost. Since w comes before the first `.` they get stripped together, whereas 'com' is present in the right end before the `.` after stripping `/`
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
