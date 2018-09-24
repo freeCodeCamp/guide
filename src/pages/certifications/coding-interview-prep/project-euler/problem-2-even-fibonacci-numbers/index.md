@@ -16,7 +16,7 @@ title: Even Fibonacci Numbers
 ### Solution:
 
 #### Basic Solution - Iterative:
-```
+```js
 function fiboEvenSum(n) {
   let first = 1, second = 2, sum = 2, fibNum; // declaring and initializing variables
   if (n <= 1) return sum; // edge case
@@ -30,7 +30,7 @@ function fiboEvenSum(n) {
 }
 ```
 #### Advanced Solution - Recursive:
-```
+```js
 // We use memoization technique to save ith fibonacci number to the fib array 
 function fiboEvenSum(n){
   const fib = [1, 2]; 
@@ -47,9 +47,6 @@ function fiboEvenSum(n){
   fibonacci(n); // run the recursive function
   return sumEven;
 }
-
-fiboEvenSum(10);
-
 ```
 - [Run Code](https://repl.it/@ezioda004/Project-Euler-Problem-2-Even-Fibonacci-Numbers)
 ### References:
