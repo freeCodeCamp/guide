@@ -1,10 +1,29 @@
----
-title: Implement Bubble Sort
----
 ## Implement Bubble Sort
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/coding-interview-prep/algorithms/implement-bubble-sort/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+## Method:
+* BubbleSort is one of the easiest algorithms to understand and implement.
+* The idea is to loop through the array multiple times, and at each time move the highest element to the end of the array.
+* In worst case it has quadratic complexity **O(n²)**
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+## Solution:
+```
+function bubbleSort(array) {
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+  for(let i = 0; i < array.length; i++){
+    for(let j = 0; j < array.length-1; j++){
+      
+      if(array[j] > array[j+1]){
+        array[j] += array[j+1];
+        array[j+1] = array[j] - array[j+1];
+        array[j] -= array[j+1];
+      }
+
+    }
+  }
+
+  return array;
+}
+```
+
+## References:
+* Read about [Bubble Sort](https://en.wikipedia.org/wiki/Bubble_sort)
