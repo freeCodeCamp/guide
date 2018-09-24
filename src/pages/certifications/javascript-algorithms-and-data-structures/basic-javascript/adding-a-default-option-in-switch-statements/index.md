@@ -7,7 +7,7 @@ title: Adding a Default Option in Switch Statements
 * Adding a default option makes sure that in case your variable doesn't match any of the options, it will use the default.
 
 ## Solution:
-```
+```javascript
 function switchOfStuff(val) {
   var answer = "";
   
