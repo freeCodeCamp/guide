@@ -3,8 +3,24 @@ title: Create a React Component
 ---
 ## Create a React Component
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/front-end-libraries/react/create-a-react-component/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+## Hint 1:
+- Remember the previous section and return a "div" element which contains an "h1" with the text Hello React!.
+- "div" element has a child so remember to close all tags.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+## Solution 
+```javascript
+class MyComponent extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+  render() {
+    // change code below this line
+    return (
+      <div>
+       <h1>Hello React!</h1>
+      </div>
+    );
+    // change code above this line
+  }
+};
+```
