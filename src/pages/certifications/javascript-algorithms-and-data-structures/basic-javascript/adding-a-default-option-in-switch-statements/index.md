@@ -4,7 +4,7 @@ title: Adding a Default Option in Switch Statements
 
 # Adding a Default Option in Switch Statements
 
-* Adding a default option makes sure that in case your variable doesn't match any of the options, it will use the default.
+* Adding a default option makes sure that in case your variable doesn't match any of the options, the default will be used.
 
 ## Solution:
 ```javascript
