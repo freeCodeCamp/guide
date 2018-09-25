@@ -7,4 +7,27 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 
 <a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
 
+var myObj = {
+  gift: "pony",
+  pet: "kitten",
+  bed: "sleigh"
+};
+
+function checkObj(checkProp) {
+
+  var property = myObj.hasOwnProperty(checkProp);
+
+  if (property) {
+    var result = myObj[checkProp];
+    return result;
+  }
+  else {
+    return "Not Found";
+  }
+
+  return "Change Me!";
+}
+
+checkObj("gift");
+
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
