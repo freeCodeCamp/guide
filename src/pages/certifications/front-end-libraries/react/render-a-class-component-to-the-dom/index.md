@@ -31,4 +31,4 @@ class TypesOfVehicles extends React.Component {
 }
 ReactDOM.render(<TypesOfVehicles />,'node-id')
 ```
-The ReactDOM.render syntax may be a little tricky, you need to use the triangle brackets when passing in a Class Component. Also the two subcomponents are declared behind the scenes, which may be confusing if you are used to all the variables being defined in the code editor and visible.
+The ReactDOM.render syntax may be a little tricky, you need to use the triangle brackets when passing in a Class Component. Also the two subcomponents are declared behind the scenes, which may be confusing if you are used to all the variables being defined in the code editor in front of you.
