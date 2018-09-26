@@ -3,7 +3,7 @@ title: Comparison with the Greater Than Operator
 ---
 ## Comparison with the Greater Than Operator
 
-* `>` (Greater Than) is a logical operator that returns true case the value on the left is higher than the one on the right.
+`>` (Greater Than) is a logical operator that returns true case the value on the left is higher than the one on the right.
 
 ## Basic Solution
 
