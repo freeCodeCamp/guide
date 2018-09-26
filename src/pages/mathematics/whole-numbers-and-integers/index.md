@@ -3,13 +3,24 @@ title: Whole Numbers and Integers
 ---
 ## Whole Numbers and Integers
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/whole-numbers-and-integers/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+### Whole Numbers
+ All positive numbers, including zero, that do not have a fractional or decimal part. Numbers starting from 1, 2, 3, and so on... are called counting numbers or natural numbers. 
+ 
+ *Examples:* 0, 8, 512, 36535
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Whole numbers are usually taken for granted due to their trivial nature. But, our entire understanding of mathematics rest on the understanding the concept of Whole numbers and counting. 
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Using the Whole numbers we are able to count, add, subtract, multiply, and hence, be able to perform all other mathematical functions. You can form Integers, Rational, Irrational, and Real numbers using whole numbers.
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+### Integers
+An integer has all the properties of a whole number, mentioned above. Additionally, an integer can be negative.
+ 
+All whole numbers are integers.
+ 
+ *Examples:* -23, -11, 0, 12, 7129
+ 
+An integer is negative if, it has a `-` sign preceding it. 
+You can convert any real number to an integer by the process of [rounding](https://www.mathsisfun.com/rounding-numbers.html).
+
 
 

@@ -34,9 +34,7 @@ Now, to the fun part! It's easy, just follow these steps:
 
 5 . Click the "..." menu, then click "Edit group settings" in the dropdown menu.
 
-<div class="lightbox-wrapper">[![a screenshot telling you to click the "..." button then choose the "Edit group settings" option](//discourse-user-assets.s3.amazonaws.com/optimized/2X/2/2e6b9e8129a42aba871442045da24686a1a63765_1_690x485.png)
-
-<div class="meta"><span class="filename">Free-Code-Camp-Testland.png</span><span class="informations">1059x745 154 KB</span><span class="expand"></span></div>](//discourse-user-assets.s3.amazonaws.com/original/2X/2/2e6b9e8129a42aba871442045da24686a1a63765.png "Free-Code-Camp-Testland.png") </div>
+![a screenshot telling you to click the "..." button then choose the "Edit group settings" option](//discourse-user-assets.s3.amazonaws.com/original/2X/2/2e6b9e8129a42aba871442045da24686a1a63765.png)
 
 6 . Set the group's privacy setting to public.
 
@@ -59,17 +57,13 @@ Examples:
 
 Also, bear in mind whether your locals may not speak english fluently, and thus having a group in your own language may do a better job at inspiring them to join. We want everyone to feel comfortable, and coding can be difficult enough without having the pressure of having to speak a different language on top of it.
 
-<div class="lightbox-wrapper">[![A screen shot showing you the group description box on the Facebook page.](//discourse-user-assets.s3.amazonaws.com/optimized/3X/8/c/8c68d711a85d5089b28d927665db3a6d6cf7ca40_1_648x500.png)
-
-<div class="meta"><span class="filename">Untitled.png</span><span class="informations">805x621 78.3 KB</span><span class="expand"></span></div>](//discourse-user-assets.s3.amazonaws.com/original/3X/8/c/8c68d711a85d5089b28d927665db3a6d6cf7ca40.png "Untitled.png") </div>
+![A screen shot showing you the group description box on the Facebook page.](//discourse-user-assets.s3.amazonaws.com/original/3X/8/c/8c68d711a85d5089b28d927665db3a6d6cf7ca40.png)
 
 11 . Click the "Upload a photo button. To start out, you'll probably just want to use freeCodeCamp's banner (download it <a href='https://github.com/FreeCodeCamp/wiki/blob/master/deprecated%20wiki/images/FCC-FBbanner.png' target='_blank' rel='nofollow'>here</a>), or a scenic shot of your city. Later you can update this with a picture from one of your city's freeCodeCamp events.
 
 Alternatively, Justin being your assistant admin, you can ask him to add the logo from his photo album for you.
 
-<div class="lightbox-wrapper">[![A screenshot showing the "Upload a photo" button.](//discourse-user-assets.s3.amazonaws.com/optimized/2X/2/26006223f5f5b1c154496452037049be1a795d68_1_690x247.png)
-
-<div class="meta"><span class="filename">Free-Code-Camp-Testland.png</span><span class="informations">821x294 42.2 KB</span><span class="expand"></span></div>](//discourse-user-assets.s3.amazonaws.com/original/2X/2/26006223f5f5b1c154496452037049be1a795d68.png "Free-Code-Camp-Testland.png") </div>
+[![A screenshot showing the "Upload a photo" button.](//discourse-user-assets.s3.amazonaws.com/original/2X/2/26006223f5f5b1c154496452037049be1a795d68.png)
 
 12 . If you haven't already, **make sure to add <a href='https://www.facebook.com/FCC.GroupChancellor' target='_blank' rel='nofollow'>Justin</a> to your group and then make him an additional admin** so he can add you to the official list —you'll be able to do this after adding him, in the members section, clicking on the gear icon next to his name.  
 No need to "friend him" if you didn't do it on step 0\. Just send him a private message with the link to your group and he'll join by himself.  
