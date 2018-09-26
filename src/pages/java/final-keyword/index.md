@@ -3,7 +3,7 @@ title: Final
 ---
 
 ## final
-You use the final keyword to mark a variable constant, so that it can be assigned only once.
+You use the `final` keyword to mark a variable constant, so that it can be assigned only once. So you must initialize a final variable with a value. If its not initialized (when declared, inside Constructor or inside static blocks), compile time error will occur.
 
 ***Example:***
 ```java

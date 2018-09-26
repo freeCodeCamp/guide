@@ -3,8 +3,40 @@ title: Add Methods After Inheritance
 ---
 ## Add Methods After Inheritance
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/object-oriented-programming/add-methods-after-inheritance/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+### Method
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Just like the following example, a new instance of an object - `Dog` - must be created and the `prototype` must be set. 
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```javascript
+
+function Bird() { }
+Bird.prototype = Object.create(Animal.prototype);
+Bird.prototype.constructor = Bird;
+
+```
+
+Then a new function - `bark()` - must be added to the Dog prototype. 
+
+### Solution
+
+```javascript
+
+function Animal() { }
+Animal.prototype.eat = function() { console.log("nom nom nom"); };
+
+function Dog() { }
+
+// Add your code below this line
+Dog.prototype = Object.create(Animal.prototype);
+Dog.prototype.constructor = Dog;
+Dog.prototype.bark = function() {
+    console.log("Woof woof!");
+};
+// Add your code above this line
+
+let beagle = new Dog();
+
+beagle.eat(); // Should print "nom nom nom"
+beagle.bark(); // Should print "Woof!"
+
+```

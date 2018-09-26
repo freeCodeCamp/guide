@@ -11,11 +11,19 @@ title: CSS Buttons
 
 ![Default Button Style](https://image.ibb.co/kCweAm/button.png "Default Button Style")
 
-
 ## Styling a Button
 
 You can change several properties of a button in order to change its appearance.
 
+To add shadows to the button use `box-shadow` property.
+
+To add transparency to a button for a disabled effect use the property `opacity`.
+
+To remove the margins and create a button group add `float:left/right` property.
+
+To create a button group but with the borders, use `float` property and add a `border property`.
+
+To create a vertical group of buttons use display:`block property`.
 
 ### Button Color
 
@@ -37,7 +45,6 @@ button {
 
 ![Button Border](https://image.ibb.co/kUqymR/button_border_blue.png "Button Border")
 
-
 ### Button Text Size
 
 To change the text font size of a button, use the font-size property:
@@ -45,7 +52,6 @@ To change the text font size of a button, use the font-size property:
 `button {font-size: 20px;}`
 
 ![Button Text Size](https://image.ibb.co/gM9r6R/button_fontsize.png "Button Text Size")
-
 
 ### Button Padding
 
@@ -55,7 +61,6 @@ To change the padding of a button, use the padding property:
 
 ![Button Padding](https://image.ibb.co/fKer6R/button_padding.png "Button Padding")
 
-
 ### Button Width
 
 To change the width of a button, regardless the text content, use the width property:
@@ -64,7 +69,6 @@ To change the width of a button, regardless the text content, use the width prop
 
 ![Button Width](https://image.ibb.co/cDgSfm/button_width.png "Button Width")
 
-
 ### Rounded Buttons
 
 To create rounded buttons, use the border-radius property:
@@ -72,7 +76,6 @@ To create rounded buttons, use the border-radius property:
 `button {border-radius: 50%;}`
 
 ![Rounded Buttons](https://image.ibb.co/cfH00m/button_bradius.png "Rounded Buttons")
-
 
 ### Hoverable Buttons
 
@@ -87,6 +90,7 @@ button:hover {
 
 ![Hoverable Buttons](https://image.ibb.co/hxQnfm/button_hover.png "Hoverable Buttons")
 
+To determine the speed of the hover effect use the property `transition-duration`.
 
 ### Disabled Buttons
 
@@ -101,3 +105,4 @@ button {
 #### More Information:
 * https://www.w3schools.com/css/css3_buttons.asp
 * https://www.w3schools.com/howto/howto_css_animate_buttons.asp
+

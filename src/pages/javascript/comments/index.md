@@ -39,6 +39,13 @@ function hello() {
 hello();
 ```
 
+You can also prevent execution of Javascript code just commeting the code lines like this:
+```javascript
+function hello() {
+  /*console.log("Hello world!");*/
+}
+hello();
+```
 #### More Information:
 <a href='https://www.digitalocean.com/community/tutorials/how-to-write-comments-in-javascript' target='_blank' rel='nofollow'>How To Write Comments in JavaScript</a>
 <h3>Many IDEs come with a keyboard shortcut to comment out lines. </h3>

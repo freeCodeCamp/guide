@@ -4,6 +4,11 @@ title: Pointers
 # Pointers in C
 By now you should be aware that C is a low-level language, and nothing shows that better than pointers. Pointers are variables that get you the variable value by "pointing" to a memory location rather than storing the value of the variable itself. This allows for some handy tricks, and is also what gives us access to arrays and file handling, among other things.
 
+#
+```
+type *var-name;
+```
+
 ## Making and Using a Pointer
 ```c
 #include <stdio.h>
@@ -53,6 +58,47 @@ The most common application of a pointer is in an array. Arrays, which you'll re
 
 ### Functions
 Sometimes you want to adjust a variable in a function, but if you pass it to an array, it has its own copy to work with. If instead you pass that memory location, however, you can access it from outside of its normal scope. This is because you are touching the original memory location itself, allowing you to adjust something in a function and having it make changes elsewhere.
+####Use in call by reference
+
+Program to swap two number using call by reference.
+
+ /* C Program to swap two numbers using pointers and function. */
+#include <stdio.h>
+void swap(int *n1, int *n2);
+
+int main()
+{
+    int num1 = 5, num2 = 10;
+
+    // address of num1 and num2 is passed to the swap function
+    swap( &num1, &num2);
+    printf("Number1 = %d\n", num1);
+    printf("Number2 = %d", num2);
+    return 0;
+}
+
+void swap(int * n1, int * n2)
+{
+    // pointer n1 and n2 points to the address of num1 and num2 respectively
+    int temp;
+    temp = *n1;
+    *n1 = *n2;
+    *n2 = temp;
+}
+
+Output
+
+Number1 = 10
+Number2 = 5
+
+The address of memory location num1 and num2 are passed to the function swap and the pointers *n1 and *n2 accept those values.
+
+So, now the pointer n1 and n2 points to the address of num1 and num2 respectively.
+
+When, the value of pointers are changed, the value in the pointed memory location also changes correspondingly.
+
+Hence, changes made to *n1 and *n2 are reflected in num1 and num2 in the main function.
+
 
 ### POINTERS AS PARAMETERS TO FUNCTION
 when we pass any parameter to function we are making a copy of the parameter. let see with the example

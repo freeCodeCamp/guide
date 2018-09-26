@@ -2,9 +2,9 @@
 title: Constructors
 ---
 
-# Constructors
+If an object copies from a class, the what's the point? I should be able to store data in it right?
 
-A constructor is a block of code that is used to initialize an instance (i.e. an object) of a class. It can be thought of as starter code. A constructor is called when we create an object of a class using the **new** keyword.
+That's when we use either **getter** (e.g., getName()) / **setter** (e.g., setName()) methods, or in this case constructors, to initialize a class. Basically, every Java Class has a constructor which is the method called first when any object of the class is initialized. Think of it as a bit of starter code.
 
 When you write a class without any constructor, the Java compiler creates a default constructor :
 
@@ -16,7 +16,7 @@ public class Car {
 Car modelS = new Car();
 ```
 
-This initializing with no parameters is a way of calling the default constructor. You can also have a default constructor written yourself this way :
+This initializing with no parameters is a way of calling the default constructor. You can also have a default constructor written this way:
 
 ```java
 public class Car {
@@ -31,7 +31,7 @@ public class Car {
 
 Then, when calling `new Car()`, the variable `name` will get auto-initialized to "Tesla" for that instance of the Car object.
 
-Clearly, constructors are exactly what they sound like: they are used to `construct` i.e., instantiate an object of a particular class.  
+Clearly, constructors are exactly as they sound: they are used to `construct` i.e., instantiate an object of a particular class.  
 Constructors look similar to method declarations, but are slightly different in the sense that they:
 
 1.  Are named exactly the same as the class.
@@ -70,7 +70,7 @@ public class Car {
 
 Notice that when we write a constructor in this way i.e., providing a parameter, we are controlling (point no. 3) the way an instance of `Car` is created. In short, we are saying in this example that **you MUST provide a model name in order to get an instance of Car class**.
 
-Why is this important? There are times when you'd want **one and only one** instance of a class which you'd want to use in your entire application. One way of achieving this is by using a `private` constructor.
+Why is this important? There are times when you'd want `one and only one` instance of a class for use in your entire application. One way of achieving this is by using a `private` constructor.
 
 Assume you need a class to represent a Bank. You wouldn't want people to create instance of `Bank` ever. So, you design your class:
 
@@ -144,6 +144,8 @@ public class Car {
 }
 
 ```
+
+So, the only way to gain access to the instance is by using `Bank.getInstance()`. Such instances are called `Singleton` since you get exactly one instance (per VM to be precise) throughout the life of your application.
 
 ## Copy constructor
 The copy constructor is a constructor which creates an object by initializing it with an object of the same class, which has been created previously. The copy constructor is used to-

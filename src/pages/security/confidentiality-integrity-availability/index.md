@@ -41,9 +41,19 @@ Measures to mitigate threats to availability include:
 - RAID
 - High-availability clusters
 
+### Challenges for the CIA Triad
+
+Special challenges for the CIA triad:
+
+**Big data** poses extra challenges to the CIA paradigm because of the sheer volume of information that needs to be safe guarded, the multiplicity of sources it comes from and the variety of formats in which it exists. Duplicate data sets and disaster recovery plans can multiply the already high costs. Furthermore, because the main concern of big data is collecting and making some kind of useful interpretation of all this information, responsible data oversight is often lacking. 
+
+**Internet of Things privacy** is the special considerations required to protect the information of individuals from exposure in the IoT environment, in which almost any physical or logical entity or object can be given a unique identifier and the ability to communicate autonomously over the Internet or a similar network. The data transmitted by a given endpoint might not cause any privacy issues on its own. However, when even fragmented data from multiple endpoints is gathered, collated and analyzed, it can yield sensitive information. 
+
+**Internet of Things security** is also a special challenge because the IoT consists of so many Internet-enabled devices other than computers, which often go unpatched and are often configured with default or weak passwords. Unless adequately protected, IoT things could be used as separate attack vectors or part of a thingbot. As more and more products are developed with the capacity to be networked, it’s important to routinely consider security in product development.  
+
+### More Information: [Confidentiality, integrity, and availability (CIA triad)](http://whatis.techtarget.com/definition/Confidentiality-integrity-and-availability-CIA)
 Other than the CIA triad, there are also other frequently recurring themes in information security:  
 - non-repudiation: assurance that someone/ something cannot deny something (e.g. one cannot deny the authenticity of a digital signature) 
 - authentication: proving that a person is who they claim to be
 - reliability: confidence that one can depend on a system or process
 - privacy: a generalised counterpart of confidentiality which also address the social consequence of failing to meet the requirement 
-

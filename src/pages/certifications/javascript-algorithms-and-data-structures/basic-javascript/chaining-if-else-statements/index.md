@@ -3,8 +3,24 @@ title: Chaining If Else Statements
 ---
 ## Chaining If Else Statements
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-javascript/chaining-if-else-statements/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+* ```If```: the first conditional in every if/else statement, case the conditional is *true*, execute the code and ignore the rest.
+* ```Else if```: can never be used as the first conditional. It is always a conditional after an ```if```, case the conditional is true, execute the code. Otherwise jumps into the next conditional.
+* ```Else```: case all the previous conditionals are *false*, **else** is executed.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+## Solution:
+```javascript
+function testSize(num) {
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+  if(num < 5)
+    return 'Tiny';
+  else if(num < 10)
+    return 'Small';
+  else if(num < 15)
+    return 'Medium';
+  else if(num < 20)
+    return 'Large';
+  else
+    return 'Huge';
+
+}
+```

@@ -2,7 +2,6 @@
 title: Binary Search Trees
 ---
 ## Binary Search Trees
-
 ![Binary Search Tree](https://cdn-images-1.medium.com/max/1320/0*x5o1G1UpM1RfLpyx.png)
 
 A tree is a data structure composed of nodes that has the following characteristics:
@@ -56,7 +55,7 @@ Trie(Radix tree)
 
 Let us define a BST node having some data, referencing to its left and right child nodes.
 
-```
+```c
 struct node {
    int data;   
    struct node *leftChild;
@@ -66,7 +65,7 @@ struct node {
 
 ## Search Operation
 Whenever an element is to be searched, start searching from the root node. Then if the data is less than the key value, search for the element in the left subtree. Otherwise, search for the element in the right subtree. Follow the same algorithm for each node.
-```
+```c
 struct node* search(int data){
    struct node *current = root;
    printf("Visiting elements: ");
@@ -98,7 +97,7 @@ struct node* search(int data){
 
 Whenever an element is to be inserted, first locate its proper location. Start searching from the root node, then if the data is less than the key value, search for the empty location in the left subtree and insert the data. Otherwise, search for the empty location in the right subtree and insert the data.
 
-```
+```c
 void insert(int data) {
    struct node *tempNode = (struct node*) malloc(sizeof(struct node));
    struct node *current;
@@ -142,13 +141,20 @@ void insert(int data) {
 }        
 ```
 
+Binary search trees (BSTs) also give us quick access to predecessors and successors.
+  Predecessors can be described as the node that would come right before the node you are currently at.
+   - To find the predecessor of the current node, look at the rightmost/largest leaf node in the left subtree.
+  Successors can be described as the node that would come right after the node you are currently at.
+   - To find the successor of the current node, look at the leftmost/smallest leaf node in the right subtree.
+  
 ### Relevant videos on freeCodeCamp YouTube channel
-* <a href='https://youtu.be/5cU1ILGy6dM' target='_blank' rel='nofollow'>Binary Search Tree</a>
-* <a href='https://youtu.be/Aagf3RyK3Lw' target='_blank' rel='nofollow'>Binary Search Tree: Traversal and Height</a>
+* [Binary Search Tree](https://youtu.be/5cU1ILGy6dM)
+* [Binary Search Tree: Traversal and Height](https://youtu.be/Aagf3RyK3Lw)
 
 Following are common types of Binary Trees:-
 Full Binary Tree/Strict Binary Tree: A Binary Tree is full or strict if every node has 0 or 2 children
-              18
+
+               18
            /       \  
          15         30  
         /  \        /  \

@@ -5,7 +5,16 @@ title: Loops of all kinds
 Loops are what you use when you have code that you want to loop, meaning that after it runs, you might want it to loop around to the beginning and run again. There are a few of these in C.
 
 ## While loops
-The simplest of the bunch are while loops. While loops will run while the condition within the parenthesis is true. They should be used when you want something to happen until a certain condition takes place. Here's an example:
+The simplest of the bunch are while loops. While loops will run while the condition within the parenthesis is true. They should be used when you want something to happen until a certain condition takes place.
+
+### Syntax
+```
+while(condition) {
+   statement(s);
+}
+```
+
+Here's an example:
 ```C
 #include <stdio.h>
 
@@ -51,7 +60,16 @@ int main(void) {
 When this while loop is evaluated, `my_number` will be checked to see if it isn't 10. It isn't, because it's been initialized at 11, so the code within the while loop will run and `my_number` will be 12. 12 does not equal 10, so the code within the while loop will be run and `my_number` will be 13. This will keep running forever because this condition will never become false- the only way for it to stop is for the program to be forced to stop running. This is an example of an infinite loop, because if left alone, it will run an infinite amount of times.
 
 ## Do-while loops
-Do-while loops are a less commonly used version of a while loop. While loops start with an evaluation, so if that evaluation is false, the code within the brackets will not be run. With a do-while loop, however, the code within the brackets gets run once, then the evaluation is performed to see if it should be run again. Here's a look at that:
+Do-while loops are a less commonly used version of a while loop. While loops start with an evaluation, so if that evaluation is false, the code within the brackets will not be run. With a do-while loop, however, the code within the brackets gets run once, then the evaluation is performed to see if it should be run again.
+
+### Syntax
+```
+do {
+   statement(s);
+} while( condition );
+```
+
+Here's a look at that:
 ```C
 #include <stdio.h>
 
@@ -70,7 +88,16 @@ int main(void){
 If this were a while loop, the code within the brackets would never get run because this condition isn't true when the evaluation is performed. However, because this is a do-while loop, the code will be performed once, and then the evaluation is done to see if it should be done again. Do-while loops are useful for when you know you want something to be done once, but you may need it to be run additional times after that.
 
 ## For loops
-For loops are for when we want something to run a set number of times. Here's an example of that:
+For loops are for when we want something to run a set number of times.
+
+### Syntax
+```
+do {
+   statement(s);
+} while( condition );
+```
+
+Here's an example of that:
 ```C
 #include <stdio.h>                                                          
 

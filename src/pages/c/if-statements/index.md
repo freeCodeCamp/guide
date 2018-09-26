@@ -2,15 +2,12 @@
 title: Logical Operators and If Statements
 ---
 
-
 # If Statements in C
 Sometimes you want your code to run according to certain conditions. In such situation we can use If statements. It is also known as decision making statement as it make the decision on basis of given expression(or on given condition).If the expression evaluates to true, then the block of code inside the 'if' statement will be executed. If the expression evaluates to false, then the first set of code after the end of the 'if' statement (after the closing curly brace) will be executed.A expression is an expression that has relational and/or logical operators operating on boolean variables. A expression evaluates to either true or false.
 
-
 ## Syntax of *if statement*
 ```
-if (testExpression) 
-{
+if (testExpression) {
    // statements
 }
 ```
@@ -23,10 +20,8 @@ Let's look at an example of this in action:
 #include <stdbool.h>
 
 int main(void) {
-
     if(true) {
         printf("Statement is True!\n");
-
     }
 
     return 0;
@@ -52,15 +47,11 @@ Of course, that example wasn't very useful, because true is always true. Here's 
 int main(void) {
     int n = 2;
 
-    if(n == 3) // comparing n with 3
-    {
+    if(n == 3) { // comparing n with 3
         printf("Statement is True!\n");
-
     } 
-    else // if first condition is not true, then comes to this block of code.
-    {
+    else { // if first condition is not true, then comes to this block of code.
         printf("Statement is False!\n");
-
     }
 
     return 0;
@@ -116,19 +107,14 @@ There's a lot we can do with all of those operators! Consider the following, whe
 ```C
 #include <stdio.h>
 
-int main(void) 
-{
+int main(void) {
     int n = 5;
 
-    if(n == 5) 
-    {
+    if(n == 5) {
         printf("n is equal to 5!\n");
-
     } 
-    else if (n > 5) 
-    {
+    else if (n > 5) {
         printf("n is greater than 5!\n");
-
     }
 
     return 0;
@@ -142,7 +128,6 @@ n is equal to 5!
 The if-else statement has an 'else if' attached to it. This code runs if the condition within the previous if was false, but adds a condition within its own parenthesis that must be true before the code is run.
 
 ## Logical Operators
-
 Of course, we might want something to happen if it is not true, or if it and something else are true. For that, we have logical operators: ! for not, && for and, and || for or. Let's take a look at this in action:
 
 ```C
@@ -152,19 +137,14 @@ int main(void) {
     int n = 5;
     int m = 10;
 
-    if(n > m || n == 15) 
-    {
+    if(n > m || n == 15) {
         printf("Either n is greater than m, or n is equal to 15\n");
-
     } 
-    else if( n == 5 && m == 10 )
-    {
+    else if( n == 5 && m == 10 ) {
         printf("n is equal to 5 and m is equal to 10!\n");
-
     } 
     else if ( !(n == 6)) {
         printf("It is not true that n is equal to 6!\n");
-
     }
     else if (n > 5) {
         printf("n is greater than 5!\n");
@@ -212,15 +192,14 @@ Consider the code below:
 
 ```C
 #include <stdio.h>
-int main()
-  {
+
+int main() {
     int i=3;
-    if(i=4)
-    {
+    
+    if(i=4) {
       printf("This block is executed");
     }
-    else
-    {
+    else {
       printf("NO! I am boss");
     }
 }

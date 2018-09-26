@@ -1,22 +1,53 @@
 ---
 title: Generics
 ---
+
 # Generics
 
-In a nutshell, generics enable types (classes and interfaces) to be parameters when defining classes, interfaces and methods. Much like the more familiar formal parameters used in method declarations, type parameters provide a way for you to re-use the same code with different inputs. The difference is that the inputs to formal parameters are values, while the inputs to type parameters are types.
+Java Generics is a way to conviently use collections and classes for specific data types with out having to cast data back into the original data type. This prevents a lot of headache in the form of compile time and run time bugs. 
 
-Code without generics require type-casting.
+Simply put Generics lets you explicitly say that, for example an ArrayList object holds Integers so that when you call the get method you do not need to convert between Object and Integer. Below is an example of how you would have used an ArrayList prior to Generics.
 
 ```java
-List list = new ArrayList();
-list.add("hello");
-String s = (String) list.get(0);
+import java.util.ArrayList;
+
+public class Example {
+  private ArrayList classNames;
+  
+  public Example() {
+    classNames = new ArrayList();
+  }
+  
+  public void addName(String name) {
+    classNames.add(name);
+  }
+  
+  public String getNameAtIndex(int index) {
+    return (String) classNames.get(index);
+  }
+}
 ```
 
-Code with generics:
+The main problem with the above is if somehow an Object not of type String got added to the ArrayList then the `getNameAtIndex(int index)` method would result in a runtime error. To solve this we use Generics.
+
+The syntax for Generics is very simple. Below is an example of instantiating an ArrayList.
 
 ```java
-List<String> list = new ArrayList<String>();
-list.add("hello");
-String s = list.get(0);   // no cast
+import java.util.ArrayList;
+
+public class Example {
+  private ArrayList<String> classNames;
+  
+  public Example() {
+    classNames = new ArrayList<String>();
+  }
+  
+  public void addName(String name) {
+    classNames.add(name);
+  }
+  
+  public String getNameAtIndex(int index) {
+    return classNames.get(index);
+  }
+}
 ```

@@ -64,8 +64,9 @@ Using a service is the cleanest, fastest and easiest way to test. However, there
 – Using $parent, nextSibling, controllerAs, etc. to directly access the controllers
 – Using the $rootScope to add the data on (not a good practice)
 
-Question: What is the difference between ng-if and ng-show/hide 
-Answer: ng-if will only create and display the DOM element when its condition is true,if the condition is false or changes to false it will not create or destroy the created one. ng-show/hide will always generate the DOM element but it will apply the css display property based on the evaluation of the condition.
+Question: What is the difference between ng-if and ng-show/hide directives?
+Answer: ng-if will only create and display the DOM element when its condition is true, if the condition is false or changes to false it will not create or destroy the created one. 
+ng-show/hide will always generate the DOM element but it will apply the css display property based on the evaluation of the condition.
 
 #### More Information:
 

@@ -62,6 +62,9 @@ __Redo__: Press `U` (`Shift` + `u`) or type in `:redo` and press `Enter`.
 ## Opening a file in a specific line
 - vi filename +n, where n is the line number
 
+## Opening a file searching for word/term
+- vi filename +/word, where word is what you are looking for. The cursor will be positioned on the first occurence of the word.
+
 ## Bare minimum functionality
 
 Most likely you'll find yourself in "normal" mode, it allows you to enter commands by pressing the colon `:` key.
@@ -91,6 +94,9 @@ You are now in *paste* mode.
 You can then enter insert mode with `i` and paste the block of text/code without any issues!
 To return to regular Vim without paste mode you can enter normal mode (`escape` or `crtl + c`) and type `:set nopaste`, and press ENTER
 
+## Compiling a Project
+Vim has very tight integration with the `make` build automation tool. If your project uses a Makefile, you can type `:make` at the Vim command line in order to run your system's `make` tool. Vim will print the output of `make` on the screen and bring you to the first error, if any, when the `make` command completes. You can then jump through the compilation errors and warnings in your project's code by using the `:cn` and `:cp` commands, for next and previous issues respectively.
+
 ## I Want to Learn Vim!
 
 For total beginners, Vim comes with a built in tutorial! You can access it by running `vimtutor` from your terminal and this will launch an interactive tutorial on *how to get started with Vim* (takes around 15 minutes to work through).
@@ -111,4 +117,5 @@ Read the rest of our Vim Guides to get a better understanding of this powerful e
 
 ## Other Resources
 - [Vim Golf](https://vimgolf.com/) - A good way to learn from doing vim challenges to get the lowest amount of keystrokes. You can see solutions submitted by others if you can't figure the challenge out.
+- [Vim Adventures](https://vim-adventures.com/) - A fun and gamified approach to learn Vim where you lern the different key strokes with every new level in the game.
 - Read the rest of our Vim Guides to get a better understanding of this powerful editor.
