@@ -59,5 +59,5 @@ When the compiler or interpreter notices that the self-call is the last operatio
 ### Notes
 
 #### More Information:
-- [What is tail call optmization?](https://stackoverflow.com/questions/310974/what-is-tail-call-optimization) (StackOverflow)
-- [Tail call optimization in ECMAScript 6](http://2ality.com/2015/06/tail-call-optimization.html) (2ality - Dr. Axel Rauschmayer's blog)
+- <a href='https://stackoverflow.com/questions/310974/what-is-tail-call-optimization' target='_blank' rel='nofollow'>What is tail call optmization?</a> (StackOverflow)
+- <a href='http://2ality.com/2015/06/tail-call-optimization.html' target='_blank' rel='nofollow'>Tail call optimization in ECMAScript 6</a> (2ality - Dr. Axel Rauschmayer's blog)
