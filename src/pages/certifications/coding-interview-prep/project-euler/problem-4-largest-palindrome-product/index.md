@@ -10,7 +10,7 @@ title: Largest palindrome product
 ```js
 function largestPalindromeProduct(n) {
   
-  //We get the maximum n digit number, + operator type castes String to Number type
+  //To get the maximum n digit number, + operator type castes String to Number type
   let max = +[...Array(n)].reduce((a, c) => a+=9, "");
   
   //Next we get minimum n digit number from the max
