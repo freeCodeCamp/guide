@@ -3,33 +3,51 @@ title: Responsive Web Design
 ---
 ## Responsive Web Design
 
-Responsive Web Design is Desiging approach for the web for diffrent screen Sizes, the Same codebase by using CSS Grids, Frameworks or more basically media queries.
+Responsive web design is the concept of designing web pages that adapt to different screen sizes. It commonly involves the use of different layouts, font sizes, and placement of navigation menus.
 
-There are 2 ways to make Webpages responsive.
+In order to create a responsive web page, CSS is commonly used to style your HTML elements. Some common methods in CSS used to create responsive web designs are:
+
+1. Writing [media queries](https://guide.freecodecamp.org/css/media-queries)
+2. Using pre-existing [CSS frameworks](https://guide.freecodecamp.org/css/css-frameworks)
+3. Using the [Flexbox model](https://guide.freecodecamp.org/css/layout/flexbox)
+4. Using [CSS Grid](https://guide.freecodecamp.org/css/layout/grid-layout)
 
 #### 1. Media queries
-```css
+
+Media queries tell the web browser to ignore or replace properties of the webpage based on specific attributes like screen width or whether the user is printing.
+
+```
 @media (query) {
-  /* CSS Rules used when query matches */
+  /* The browser will use the CSS rules within the curly braces when the query is true */
+}
+```
+
+The following example sets `padding-left` and `padding-right` within the class `more-padding` when the screen width is less than or equal to 768px.
+
+```
+@media screen and (max-width: 768px) {
+    .more-padding {
+        padding-left: 10px;
+        padding-right: 10px; 
+    } 
 }
 ```
 
 ##### 2. CSS Frameworks
 
-by using CSS Frameworks, we can use CSS Classes pre built by the popular frameworks like Bootstrap or Foundation to be used in the class attribute of our element like
+CSS frameworks like [Bootstrap](https://www.getbootstrap.com/), [Material Design Lite](https://getmdl.io/), and [Foundation](https://foundation.zurb.com/) have pre-built CSS classes that make responsive design coding simpler. These classes operate like standard HTML classes.
+
+In this example, `col-md-9` and `col-sm-6` set the width of the `<div>` tag based on whether the screen is small or medium.
+
 ```html
-<div class="col-md-9 col-sm-6"></div>
+<div class="col-12 col-md-6"></div>
 ```
-In the above div on medium screen size devices, this div will be shown 9 out of 12 columns, while in small size devices will show this in 6 out of 12 columns. that's the beuty of reposive designing. What basically CSS Frameworks do is they provide Grid based design as in below image you can see grids of Bootstrap framework.
+
+The Bootstrap framework divides a row into twelve columns. In the above example, the `<div>` will spread across either nine or six of them. The grid system, pictured below, is fundamental to how Bootstrap eases responsive design.
+
 ![Grid Example](https://www.javatpoint.com/bootstrappages/images/bootstrapgrid.jpg "Basic Grid Example")
 
-Below I am giving popular frameworks links:
-1. [Bootstrap](https://www.getbootstrap.com)
-2. [Foundation](https://foundation.zurb.com/)
-3. [Material Design Lite](https://getmdl.io/)
-
 #### More Information:
-1. [CSS Flexbox Complete tutorial in 8 minutes](https://medium.freecodecamp.org/css-flexbox-interactive-tutorial-in-8-minutes-including-cheat-sheet-6214e00de3d2)
+1. <a href='https://medium.freecodecamp.org/css-flexbox-interactive-tutorial-in-8-minutes-including-cheat-sheet-6214e00de3d2' target='_blank' rel='nofollow'>CSS Flexbox Complete tutorial in 8 minutes</a>
+2. [Freecodecamp CSS section](https://guide.freecodecamp.org/css).
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
-

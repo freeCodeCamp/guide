@@ -1,15 +1,15 @@
 ---
-title: Materializecss Framework as a an Alternative to Bootstrap
+title: MaterializeCSS Framework as an Alternative to Bootstrap
 ---
 <a href='http://materializecss.com/' target='_blank' rel='nofollow'>MaterializeCSS</a> is a modern responsive front-end framework based on google's <a href='https://www.google.com/design/spec/material-design/introduction.html' target='_blank' rel='nofollow'>Material Design principles</a>.
 
 ## What is Material Design?
 
-Material Design (codenamed Quantum Paper) is a design language developed by Google. Expanding upon the "card" motifs that debuted in Google Now, Material Design makes more liberal use of grid-based layouts, responsive animations and transitions, padding, and depth effects such as lighting and shadows.
+Material Design (codenamed Quantum Paper) is a design system developed by Google. Expanding upon the "card" motifs that debuted in Google Now, Material Design makes more liberal use of grid-based layouts, responsive animations and transitions, padding, and depth effects such as lighting and shadows.
 
 This <a href='https://www.youtube.com/watch?v=Q8TXgCzxEnw' target='_blank' rel='nofollow'>video</a> gives you an idea about material design:
 
-## Check out this websites that are using Materialize, See the difference to what you're used to!
+## Check out these websites that use Materialize and see the difference from what you're used to!
 
 Test them on your phone too for a better feel.
 
@@ -21,15 +21,15 @@ Test them on your phone too for a better feel.
 
 More examples <a href='http://materializecss.com/showcase.html' target='_blank' rel='nofollow'>here</a>
 
-## A bootstrap alternative, really?
+## A Bootstrap alternative, really?
 
-Chill, nothing can ever beat bootstrap, imo. However, materialize CSS offers just that, Materializ-ation - The feeling of interacting with the interface as if its a physical material, like paper. I just came up with that.
+Chill, nothing can ever beat Bootstrap, in my opinion. However, materialize CSS offers just that, Materialize-ation - The feeling of interacting with the interface as if its a physical material, like paper. I just came up with that.
 
 But really...
 
-I do like materialize because of its simplicity, for example;
+I do like materialize because of its simplicity, for example:
 
-In bootstrap you would do this to a button
+In Bootstrap you would do this to create a button
 
     <button class="btn btn-primary btn-lg">
     My Button

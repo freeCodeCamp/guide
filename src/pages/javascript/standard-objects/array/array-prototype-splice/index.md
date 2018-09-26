@@ -3,13 +3,13 @@ title: Array.prototype.splice
 ---
 ## Array.prototype.splice
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/standard-objects/array/array-prototype-splice/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The  `splice()` method removes and/or adds elements within an array.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
+## Example
+``` javascript
+var myArray = ['a', 'b', 'c', 'd'];
+letters.splice(4, 0, 'e'); // insert 'e' at 2-index
+// myArray is now ["a", "b", "c", "d", "e"]
+```
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)

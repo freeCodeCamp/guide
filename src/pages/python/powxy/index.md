@@ -1,17 +1,17 @@
 ---
 title: Python Powxy
 ---
-`pow(x, y<a href='https://processing.org/reference/modulo.html' target='_blank' rel='nofollow'>, z])` is a built-in function in Python 3 to calculate `x` to the power `y` and if `z` is present , returns `x` to the power `y` [modulo</a> `z`
+`pow(x, y, z)` is a built-in function in Python 3 to calculate `x` to the power `y`, and if `z` is present, returns `x` to the power `y` [modulo](https://processing.org/reference/modulo.html) `z`.
 
 ## Arguments
 
 The arguments must have numeric types.  
-This function takes two arguments, `x` and `y`, as well as three, `x`,`y`and`z`.  
+This function takes two arguments, `x` and `y`, as well as three, `x`, `y`, and`z`.  
 If `z` is present, `x` and `y` must be of integer types, and y must be non-negative.
 
 ## Return
 
-If `z` is present it returns `x` to the power `y` modulo `z`.If only `x` and `y` are present it returns `x` to the power `y` (same as x**y).
+If `z` is present, it returns `x` to the power `y` modulo `z`. If only `x` and `y` are present, it returns `x` to the power `y` (same as `x**y`).
 
 ## Example
 
