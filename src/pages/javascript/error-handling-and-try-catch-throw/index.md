@@ -147,5 +147,5 @@ catch(err) {
 
 #### More Information:
 
-[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch)
-[W3S](https://www.w3schools.com/js/js_errors.asp)
+<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch' target='_blank' rel='nofollow'>MDN</a>
+<a href='https://www.w3schools.com/js/js_errors.asp' target='_blank' rel='nofollow'>W3S</a>
