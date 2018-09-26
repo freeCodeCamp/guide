@@ -1,10 +1,24 @@
----
-title: Create a Component with Composition
----
+
 ## Create a Component with Composition
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/front-end-libraries/react/create-a-component-with-composition/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The idea of parent and child components is central to React, so make sure you take your time in getting the hang of this.
+The syntax for calling these simple functional components after they have been defined:
+```javascript
+<SimpleComponent/>
+```
+So you just nest that inside the more complex React component:
+```javascript
+class ComplexComponent extends React.Component{
+   constructor(props){
+       super(props);
+       }
+       render(){
+          return (
+             <div>
+                <SimpleComponent/>
+             </div>);
+       }
+   };
+   ```
+Watch out for case sensitivity, React uses PascalCase and not camelCase. This would be a good time to review the JavaScript ES6 and array methods lessons as you will be utilizing them in the upcoming material.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
