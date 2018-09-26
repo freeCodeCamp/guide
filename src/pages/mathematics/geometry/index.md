@@ -1,6 +1,7 @@
 ---
 title: Geometry
 ---
+
 ## Geometry
 
 Geometry is the study of shapes and the space they exist in. This can be discussed in size, position, and properties of the shape. There are many subfields of geometry:
@@ -12,3 +13,4 @@ Convex geometry: The study of convex shapes in Euclidean space and abstract anal
 Algebraic geometry: The study of geometry through the use of multivariate polynomials and other techniques. 
 Discrete geometry: The study of the relative position of simple geometric objects, such as points, lines and circles. 
 
+#### More Information

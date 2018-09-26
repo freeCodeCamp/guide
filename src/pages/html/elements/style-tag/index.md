@@ -3,13 +3,40 @@ title: Style Tag
 ---
 ## Style Tag
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/style-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The style tag is used sort of like a css file except inside of an HTML, like so:
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+```
+    <head>
+      <title>Your Title</title>
+      <style>
+        p {
+          color:red;
+        }
+      </style>
+    </head>
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+That would make the paragraph tag's color red. It is kind of useful if you just want to put a little bit of code, but if you want a really long stylesheet, then I recommend just using `<link />`.
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
+[W3C schools](https://www.w3schools.com/tags/tag_style.asp)
+
+More Info:
+
+Style tag is used to set any CSS-styles for web-page inside a document. Style tag should be nested within head section of html-document:
+
+```html
+<head>
+  <style>
+  h1 {
+     text-align: center;
+     font-family: sans-serif;
+     }
+  </style>
+</head>
+```
+
+You can write any CSS-code inside style tag according to its syntax.
 
