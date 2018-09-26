@@ -17,7 +17,7 @@ We also have some great articles on our wiki:
 - <a href='http://forum.freecodecamp.com/t/javascript-string-prototype-charat/15932' target='_blank' rel='nofollow'>String.prototype.charAt()</a>  
 - <a href='http://forum.freecodecamp.com/t/javascript-string-prototype-charcodeat/15933' target='_blank' rel='nofollow'>String.prototype.charCodeAt()</a>  
 - <a href='http://forum.freecodecamp.com/t/javascript-string-prototype-concat/15935' target='_blank' rel='nofollow'>String.prototype.concat()</a>  
-- <a>String.prototype.indexOf()</a>  
+- <a href='https://forum.freecodecamp.org/t/javascript-string-prototype-indexof/15936' target='_blank' rel='nofollow'>String.prototype.indexOf()</a>  
 - <a href='http://forum.freecodecamp.com/t/string-prototype-lastindexof/15939' target='_blank' rel='nofollow'>String.prototype.lastIndexOf()</a>  
 - <a href='http://forum.freecodecamp.com/t/javascript-string-prototype-match/15941' target='_blank' rel='nofollow'>String.prototype.match()</a>  
 - <a href='http://forum.freecodecamp.com/t/javascript-string-prototype-replace/15942' target='_blank' rel='nofollow'>String.prototype.replace()</a>  

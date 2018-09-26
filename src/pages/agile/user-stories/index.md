@@ -17,6 +17,8 @@ Starting with epics allows you to sketch the product functionality without commi
 
 It also reduces the time and effort required to integrate new insights. If you have many detailed stories in the product backlog, then it’s often tricky and time-consuming to relate feedback to the appropriate items and it carries the risk of introducing inconsistencies.
 
+When thinking about possible stories, it is also important to consider "mis-user cases" and "unhappy path" stories.  How will exceptions be handled by the system?  What kind of messaging will you provide back to user?  How would a malicious user abuse this application function?  These mal-stories can save rework and become usful test cases in QA.
+
 #### More Information:
 - <a href='https://www.mountaingoatsoftware.com/agile/user-stories' target='_blank' rel='nofollow'>Mountain Goat Software Guide to User Stories</a>
 - <a href='http://www.romanpichler.com/blog/10-tips-writing-good-user-stories/' target='_blank' rel='nofollow'>Roman Pichler Guide to User Stories</a>

@@ -17,7 +17,7 @@ The zero-based index where the slice should begin. If beginSliceIndex is a negat
 
 Optional. The zero-based index where the slice should end. If omitted, `.slice()` extracts to the end of the string.
 
-[MDN Link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice)
+<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice' target='_blank' rel='nofollow'>MDN Link</a>
 
 ## Description
 

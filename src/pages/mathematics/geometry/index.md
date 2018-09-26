@@ -1,15 +1,8 @@
 ---
 title: Geometry
 ---
-## Geometry
+Geometry  is a branch of mathematics concerned with questions of shape, size, relative position of figures, and the properties of space. A mathematician who works in the field of geometry is called a geometer.
+While geometry has evolved significantly throughout the years, there are some general concepts that are more or less fundamental to geometry. These include the concepts of points, lines, planes, surfaces, angles, and curves, as well as the more advanced notions of manifolds and topology or metric and they apply to one dimension (a line) 2 dimensions (a plan) 3 or even more. 
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/geometry/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
+Representing figures in geometry allows to use several memmes or theorems like the ones of Pytagoras or Thales
 
