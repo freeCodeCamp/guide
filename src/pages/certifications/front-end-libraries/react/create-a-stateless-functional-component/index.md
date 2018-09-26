@@ -1,7 +1,6 @@
 ---
 title: Create a Stateless Functional Component
 ---
-## Create a Stateless Functional Component
 
 Here's a bit more than a hint. Your code should end up looking like this:
 
