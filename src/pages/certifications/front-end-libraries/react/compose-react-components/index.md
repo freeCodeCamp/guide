@@ -1,7 +1,7 @@
 ---
-title:Compose React Components
+title: Compose React Components
 ---
-##Compose React Components
+## Compose React Components
 
 Time to get comfortable with composing components within components. 
 
