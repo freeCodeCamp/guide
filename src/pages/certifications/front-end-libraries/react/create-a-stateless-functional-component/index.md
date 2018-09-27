@@ -1,13 +1,9 @@
----
-title: Create a Stateless Functional Component
----
-
 Here's a bit more than a hint. Your code should end up looking like this:
 
 ```javascript
 const YourComponent= function () {
-    <div classname="YourComponent"> "Some text" 
+    <div> "Some text" 
     </div>
 }
 ```
-So there you have it, the basic building block of React. I recommend really reviewing your vanilla javascript and especially ES6; as React is going to be very interwoven with those concepts.
+So there you have it, the basic building block of React. I recommend really reviewing your vanilla javascript and especially ES6; as React is going to be using those concepts.
