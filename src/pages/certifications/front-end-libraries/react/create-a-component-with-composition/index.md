@@ -1,3 +1,8 @@
+---
+title:Create a Component with Composition
+---
+##Create a Component with Composition
+
 The idea of parent and child components is central to React, so make sure you take your time in getting the hang of this.
 The syntax for calling these simple functional components after they have been defined:
 ```javascript
