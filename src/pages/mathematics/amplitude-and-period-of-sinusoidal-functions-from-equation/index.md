@@ -28,5 +28,5 @@ In this case, the **amplitude** is calculated as:
 #### More Information:
 
 For more informations visit:
-* [MathIsFun](https://www.mathsisfun.com/algebra/amplitude-period-frequency-phase-shift.html)
-* [Wikipedia: Sine Wave](https://en.wikipedia.org/wiki/Sine_wave)
+* <a href='https://www.mathsisfun.com/algebra/amplitude-period-frequency-phase-shift.html' target='_blank' rel='nofollow'>MathIsFun</a>
+* <a href='https://en.wikipedia.org/wiki/Sine_wave' target='_blank' rel='nofollow'>Wikipedia: Sine Wave</a>
