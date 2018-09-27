@@ -10,8 +10,11 @@ import math </br>
 def degrees_to_radians(angle): </br>
    return angle*math.pi/180;
 	 
-
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+One complete cycle = 360 degrees = 2π Radians
+
+1 degree = 2π / 360 Radians
+
+p degree = p ×  2π / 360 Radians
 
 
