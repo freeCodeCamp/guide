@@ -27,12 +27,22 @@ If all three `start`, `stop` and `step` are provided, it generates portion of se
 
 ## Example
 
-    a = [ 1, 2, 3, 4, 5, 6, 7, 8]
+    a = [1, 2, 3, 4, 5, 6, 7, 8]
     print(a[:5])    # prints [1, 2, 3, 4, 5]
     print(a[2:])    # prints [3, 4, 5, 6, 7, 8]
     print(a[2:5])    # prints [3, 4, 5]
     print(a[2:7:2])    # prints [3, 5, 7]
+    
+You can index the last index of a sequence by using `-1`:
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CT5h' target='_blank' rel='nofollow'>Run Code</a>
+    a = [1, 2, 3, 4, 5, 6]
+    print(a[-1])    # prints 6
+    print(a[2:-1])    # prints [3, 4, 5]
+    
+You can flip a sequence by using the `[::-1]` slice notation:
+
+    a = [1, 2, 3, 4, 5, 6]
+    print(a[::-1])    # prints [6, 5, 4, 3, 2, 1]
 
 <a href='https://docs.python.org/3/library/functions.html#slice' target='_blank' rel='nofollow'>Official Documentation</a>
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CT5h' target='_blank' rel='nofollow'>Run Code</a>
