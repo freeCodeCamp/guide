@@ -1,10 +1,27 @@
----
-title: Compose React Components
----
-## Compose React Components
+Time to get comfortable with composing components within components. 
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/front-end-libraries/react/compose-react-components/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+```javascript
+class ComplexComponent extends React.Component{
+    constructor(props){
+    super(props);
+    }
+    render() {
+    return(
+        <SimpleComponent/>
+        <LittleComponent/>
+        );
+    }
+};
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+class HugeComponent extends React.Component {
+    constructor(props){
+        super(props);
+        }
+    render(){
+        return(
+        <ComplexComponent/>
+        );
+     }   
+ };
+```
+The Complex Component in this example can contain several Simple Components, and can itself be contained inside the Huge Component! 
