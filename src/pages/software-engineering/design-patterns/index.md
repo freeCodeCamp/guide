@@ -9,7 +9,7 @@ Programmers and software architects use design patterns to solve **common, recur
 
 Developing by design patterns offer several advantages:
 
-* It's easier to follow good programming principles such as the **[SOLID](https://www.youtube.com/watch?v=XzdhzyAukMM) [principles](https://medium.com/@cramirez92/s-o-l-i-d-the-first-5-priciples-of-object-oriented-design-with-javascript-790f6ac9b9fa).**
+* It's easier to follow good programming principles such as the **<a href='https://www.youtube.com/watch?v=XzdhzyAukMM' target='_blank' rel='nofollow'>SOLID</a> <a href='https://medium.com/@cramirez92/s-o-l-i-d-the-first-5-priciples-of-object-oriented-design-with-javascript-790f6ac9b9fa' target='_blank' rel='nofollow'>principles</a>.**
 * It keeps code chunks smaller so code is easier to **test** and **debug**
 * It helps keep code loosely coupled so code is easier to **re-use** and **update** for new applications
 * It makes code easier to **understand**, so new contributors can **ramp up quickly**
@@ -42,7 +42,7 @@ These tasks can all be performed without design patterns, but design patterns **
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
-* Kamran Ahmed's [Design Patterns for Humans](https://github.com/kamranahmedse/design-patterns-for-humans) is an excellent introduction to the specific patterns
-* [Design Patterns](https://en.wikipedia.org/wiki/Design_Patterns) is the book that started this practice
-* Martin Fowler's [Patterns of Enterprise Application Architecture](https://martinfowler.com/eaaCatalog/) provide a suite of more sophisticated patterns for enterprise applications
-* Sourcemaking provides an [online resource](https://sourcemaking.com/design_patterns) with additional examples and information about design patterns
+* Kamran Ahmed's <a href='https://github.com/kamranahmedse/design-patterns-for-humans' target='_blank' rel='nofollow'>Design Patterns for Humans</a> is an excellent introduction to the specific patterns
+* <a href='https://en.wikipedia.org/wiki/Design_Patterns' target='_blank' rel='nofollow'>Design Patterns</a> is the book that started this practice
+* Martin Fowler's <a href='https://martinfowler.com/eaaCatalog/' target='_blank' rel='nofollow'>Patterns of Enterprise Application Architecture</a> provide a suite of more sophisticated patterns for enterprise applications
+* Sourcemaking provides an <a href='https://sourcemaking.com/design_patterns' target='_blank' rel='nofollow'>online resource</a> with additional examples and information about design patterns
