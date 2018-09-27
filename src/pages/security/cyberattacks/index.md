@@ -31,4 +31,15 @@ no one can be 100% that their data is secure.
 * Denial of Service Attacks (DoS)  
 * Man in the Middle (MITM)  
 * Credential Reuse  
-* Rogue Software  
+* Rogue Software
+* ARP Poisoning (Network Pentest)
+* Password Bruteforce 
+* Local/Remote file inclusion (Web App Pentest)
+* Indirect Object Reference (IDOR) 
+* Distributed Denial ofService (DDoS)
+* Trojan Attack
+* Wifi-Phishing
+* DNS Poisoning
+* E-mail Spoofing
+* KRACK (Key Reinstallation Attack)
+
