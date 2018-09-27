@@ -1,5 +1,5 @@
 ---
-title:Create a Component with Composition
+title: Create a Component with Composition
 ---
 ## Create a Component with Composition
 
