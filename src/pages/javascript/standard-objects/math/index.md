@@ -3,13 +3,18 @@ title: Math
 ---
 ## Math
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/standard-objects/math/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+`Math` is a standard built-in object to JavaScript that contains mathematical constants and functions as properties and methods. Most notably it contains the constants &pi; and Euler's constant and functions such as `floor()`, `round()`, `ceil()` and many more.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Example
+The following example shows how to use the `Math` object to write a function that calculates the area of a circle:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```javascript
+function calculateCircleArea(radius) {
+  return Math.PI * Math.pow(radius, 2);
+}
+calculateCircleArea(1); // 3.141592653589793
+```
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+### Other Resources
+* [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
+* [W3schools](https://www.w3schools.com/js/js_math.asp)
