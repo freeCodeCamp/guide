@@ -4,7 +4,8 @@ title: While Loop Statements
 ## While Loop Statements
 
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-The Python language has a `while` loop similar to other popular languages. The `while` loop continuously iterates through a block of code as long as the sentinel condition (the condition controlling the loop) is `True`.  Once the condition results in a `False` value, the loop would stop running and the code following the loop would run. 
+
+Python utilizes the `while` loop similarly to other popular languages.  The `while` loop evaluates a condition then executes a block of code if the condition is true. The block of code executes repeatedly until the condition becomes false.
 
 The basic syntax is:
 
@@ -36,7 +37,6 @@ Today is Saturday
 Today is Sunday
 ```
 
-
 #### More Information:
 
-- <a href='https://docs.python.org/3/reference/compound_stmts.html#the-while-statement' target='_blank' rel='nofollow'>Python3 while loop documentation</a>
+- <a href='https://docs.python.org/3/reference/compound_stmts.html#the-while-statement' target='_blank' rel='nofollow'>Python `while` statement documentation</a>
