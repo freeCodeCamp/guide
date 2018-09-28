@@ -5,7 +5,7 @@ title: How to Install Node Js and Npm on Windows
 
 Installing Node.js and Npm on Windows is very straightforward.
 
-First, download the Windows installer from the [Node.js website](https://nodejs.org/). You will have the choice between the **LTS** (Long Term Support) or **Current** version. 
+First, download the Windows installer from the <a href='https://nodejs.org/' target='_blank' rel='nofollow'>Node.js website</a>. You will have the choice between the **LTS** (Long Term Support) or **Current** version. 
 
   - The **Current** version receives the latest features and updates more rapidly
   - The **LTS** version foregos feature changes to improve stability, but receives patches such as bug fixes and security updates
@@ -25,4 +25,4 @@ The console should respond with a version string. Repeat the process for Npm:
 If both commands work, your installation was a success, and you can start using Node.js!
 
 #### More Information:
-For more information and guides, please visit the [Node.js docs page](https://nodejs.org/en/docs/).
+For more information and guides, please visit the <a href='https://nodejs.org/en/docs/' target='_blank' rel='nofollow'>Node.js docs page</a>.
