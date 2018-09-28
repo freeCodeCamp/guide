@@ -3,6 +3,7 @@ title: The Manifesto
 ---
 ## The Manifesto
 
+
 ### Origin
 
 > On February 11-13, 2001, at The Lodge at Snowbird ski resort in the Wasatch mountains of Utah, seventeen people met to talk, ski, relax, and try to find common ground—and of course, to eat. […] Now, a bigger gathering of organizational anarchists would be hard to find, so what emerged from this meeting was symbolic—a Manifesto for Agile Software Development—signed by all participants. (1)
@@ -12,11 +13,11 @@ title: The Manifesto
 We are uncovering better ways of developing software by doing it and helping others do it. 
 
 Through this work, we have come to value
- 
-* Individuals and interactions over process and tools.
-* Working software over comprehensive documentation.
-* Customer collaboration over contract negotiation.
-* Responding change over following a plan.
+
+- **Individuals and interactions** over process and tools.
+- **Working software** over comprehensive documentation.
+- **Customer collaboration** over contract negotiation.
+- **Responding to change** over following a plan.
 
 That is, while there is value in the items on the right, we value the items on the left more.
 
@@ -34,6 +35,7 @@ That is, while there is value in the items on the right, we value the items on t
  10. Simplicity–the art of maximizing the amount of work not done–is essential.
  11. The best architectures, requirements, and designs emerge from self-organizing teams.
  12. At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly.
+
 
 #### More Information:
 

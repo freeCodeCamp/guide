@@ -1,8 +1,7 @@
 ---
-title: Convolutional neural network
+title: Convolutional Neural Networks
 ---
 
-# Convolutional neural network
 Convolutional Neural Networks (ConvNets or CNNs) are a category of Neural Networks that have proven very effective in areas such as image recognition and classification. ConvNets have been successful in identifying faces, objects and traffic signs apart from powering vision in robots and self driving cars.
 
 ### Suggested links :

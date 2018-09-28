@@ -3,14 +3,41 @@ title: Go Functions
 ---
 ## Go Functions
 
-This is a stub. [Help our community expand it](https://github.com/freecodecamp/guides/tree/master/src/pages/go/go-functions/index.md).
+A function is a block of code that performs a task when it's called, such that the function's name identifies it and is used in calling the function.
 
-[This quick style guide will help ensure your pull request gets accepted](https://github.com/freecodecamp/guides/blob/master/README.md).
+A function's declaration starts with the keyword `func` followed by the function's name then the arguments of the function and finally the returned values types. The declaration binds the function name to the function. Keep in mind that the type comes after the variable name in both the arguments and the returned values. An example of a function's declaration is the following
+```go
+func add(a int, b int) int
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+A function can have 0 or many arguments depending on its desired functionality
+```go
+func zero() int { /* Function Definition */ }
+func increment(x int) int { /* Function Definition */ }
+func add(x, y int) int { /* Function Definition */ }
+```
+
+Go supports returning multiple values. The function below returns 2 values: the sum of the 2 arguments, and the difference between the first and the second argument
+```go
+func addAndSubtract(x, y int) (int, int) {
+  return x + y, x - y
+}
+
+addAndSubtract(7, 4) // Returns 11, 3
+```
+
+Go also supports naming the returned values
+```go
+func mulitplyByThreeAndDivideByFive(x int) (product int, quotient int) {
+	product = x * 3
+	quotient = x / 5
+	return
+}
+
+mulitplyByThreeAndDivideByFive(20) // Returns 60, 4
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 * [A Tour of Go](https://tour.golang.org/basics/4)
 * [Go By Example](https://gobyexample.com/functions)
 * [Golang Book](https://www.golang-book.com/books/intro/7)

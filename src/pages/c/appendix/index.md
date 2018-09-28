@@ -33,11 +33,20 @@ The human-readable code is code that can be read by a person- it's not in binary
 ## Libraries
 Libraries are useful sets of code that give more functions and features in the language.
 
+## Linker
+A piece of Software that combines multiple Object files (usually compiled source code of libraries) into one executable file. 
+
 ## Machine Code
 Machine code is the code that the machine can understand. Remember that computers use numbers, not English, to run.
 
 ## Newline
 A newline is what gets printed when you hit Enter, and is an example of a whitespace character.
+
+## Object File
+A file that contains Object Code (Machine Code).
+
+## Pointer
+A pointer is a variable that contains the memory address of another variable.
 
 ## Whitespace
 Whitespace is the characters that you don't see when you type but are there anyway. For example, you can't see spaces, but there is a lot here. Newlines are also whitespace characters, as are tabs.

@@ -2,6 +2,10 @@
 title: Loops
 ---
 
+# Loops
+
+## Introduction
+
 Now lets discuss something known as loop. Suppose you want to print the even numbers from 1 to 1000 on the screen. One way 
 to do this is to write the following lines
 
@@ -18,6 +22,33 @@ cout << 1000 << endl;
 But the problem with this approach is that you have to write the same line again and again. And if suppose you have to print 
 prime numbers from 1 to 1000 then this will be more hectic.
 Therefore, in order to solve such problems loops are introduced.
+
+There are different types of loop functions:
+### While and do while loops
+
+While and do while loops allow you to make the loop until a condition finishes.
+The difference between While and Do while is that Do while always executes once.
+Here you can see an example:
+``` c++
+while (condition){
+    // Code that will execute while condition is true
+}
+do { 
+    // Will execute once and until the condition is false
+} while (condition);
+```
+### For loops
+
+For loops are usually used when you know how many times the code will execute.
+The flow can be seen in this [graph](https://www.tutorialspoint.com/cplusplus/images/cpp_for_loop.jpg).
+
+They are declared this way:
+``` c++
+for ( initialize a variable; check a condition; increment the initialized variable ) {
+   //Code to execute
+}
+```
+
 Lets write a program which will print numbers from 0 to 1000 including 1000 on the screen using a for loop.
 
 ``` c++
@@ -25,8 +56,8 @@ for (int i = 0;i<=1000;i++)
 {
   cout << i << endl;
 }
-
 ```
+
 When you execute this code in a c++ program numbers from 1 to 1000 will be printed.
 Now lets discuss how the for loop works.
 

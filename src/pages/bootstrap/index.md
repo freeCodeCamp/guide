@@ -47,9 +47,14 @@ You can download and install the Bootstrap source files with Bower, Composer, Me
 
 _Note: These are only examples and may change without notice. Please refer to the _<a href='https://getbootstrap.com/' target='_blank' rel='nofollow'>Bootstrap website</a>_ for the most up-to-date links._
 
+#### The Bootstrap Grid System
+The grid system is a mobile-first flexbox system for quickly building layouts of all shapes and sizes suitable on all devices. It’s based on a 12 column layout and has multiple tiers, one for each media query range. 
+
+Bootstrap comes with predefined grid classes for your use in markup. See more details and examples at https://v4-alpha.getbootstrap.com/layout/grid/#how-it-works
+
 #### More Information:
 
-Bootstrap has thorough documentation with many <a href='https://getbootstrap.com/docs/4.0/examples/' target='_blank' rel='nofollow'>examples</a> and an <a href='https://getbootstrap.com/docs/4.0/getting-started/introduction/' target='_blank' rel='nofollow'>HTML template for getting started</a>. 
+Bootstrap has thorough documentation with many <a href='https://getbootstrap.com/docs/4.0/examples/' target='_blank' rel='nofollow'>examples</a> and an <a href='https://getbootstrap.com/docs/4.0/getting-started/introduction/' target='_blank' rel='nofollow'>HTML template for getting started</a> (this template only has script included; it does not contain a set up of the grid system if that's what you're looking for). 
 
 In addition, you can find both <a href='https://bootswatch.com/' target='_blank' rel='nofollow'>free</a> and <a href='https://themes.getbootstrap.com/' target='_blank' rel='nofollow'>paid</a>
 themes that build on the Bootstrap framework to provide a more customized and stylish look.

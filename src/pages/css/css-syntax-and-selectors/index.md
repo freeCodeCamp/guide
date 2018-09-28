@@ -27,11 +27,11 @@ Here's an example of inline CSS. The words "One" and "Two" will have a backgroun
 </div>
 ```
         
-### External CSS
+### Internal CSS
 
 While writing an inline style is a quick way to change a single element, there's a more efficient way to apply the same style to many elements of the page at once.
 
-The syntax of external CSS is a little different than inline. You still specify a semicolon-delimited list of styles, but now they're inside of curly braces and preceded by a selector, which tells the browser which element(s) the style should be applied to.
+The internal CSS has its styles specified in the ```<style>``` tag, and it is embedded in the ```<head>``` tag.
 
 Here's an example that has a similar effect as the "inline" example above, except the CSS has been extracted to its own area. The words "One" and "Two" will match the `div` selector and be red text on a yellow background. The words "Three" and "Four" will match the `div` selector too, but they also match the `.nested_div` selector which applies to any HTML element that references that class. This more specific selector overrides the first, and they end up appearing as cyan text on a green background.
 
@@ -77,6 +77,10 @@ Here's an example where we're specifying a style that should only be applied to 
   Four
 </div>
 ```
+
+### External CSS
+
+All the styling has its own document which is linked in the ```<head>``` tag. The extension of the linked file is ```.css```
 
 #### More Information:
 * [CSS Syntax](https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax) @ MDN

@@ -9,9 +9,11 @@ title: JavaScript Tutorials and Other Resources
 *   <a href='http://exploringjs.com/es6/' target='_blank' rel='nofollow'>Exploring ES6</a>
 *   <a href='https://www.youtube.com/watch?v=Bv_5Zv5c-Ts' target='_blank' rel='nofollow'>Udemy - Javascript Understanding the Weird Parts (_first 3.5 hrs_)</a>
 *   <a href="https://www.youtube.com/playlist?list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84">Functional programming in JavaScript</a>
+*   <a href='https://www.educative.io/collection/5679346740101120/5720605454237696?authorName=Arnav%20Aggarwal' target='_blank' rel='nofollow'>Introduction to JavaScript: First Steps</a>
 *   <a href='https://www.youtube.com/watch?v=v2ifWcnQs6M&index=1&list=PL62E185BB8577B63D' target='_blank' rel='nofollow'>Douglas Crockford's Videos</a>
 *   <a href='https://mbeaudru.github.io/modern-js-cheatsheet/' target='_blank' rel='nofollow'>Modern JS Cheatsheet</a>
 *   <a href='http://www.codeconquest.com/blog/top-50-websites-to-learn-javascript/' target='_blank' rel='nofollow'>The 50 Best Websites to Learn JavaScript</a>
+*   <a href='https://www.codementor.io/community/topic/javascript' target='_blank' rel='nofollow'>Codementor JavaScript tutorial</a> 
 *   <a href='http://youmightnotneedjquery.com/' target='_blank' rel='nofollow'>You Might Not Need jQuery</a>
 
 ## References
@@ -19,6 +21,7 @@ title: JavaScript Tutorials and Other Resources
 *   <a href='http://devdocs.io' target='_blank' rel='nofollow'>DevDocs</a>
 *   <a href='http://overapi.com/javascript' target='_blank' rel='nofollow'>OverAPI JavaScript Cheat Sheet</a>
 *   <a href='http://www.ecma-international.org/publications/standards/Ecma-262.htm' target='_blank' rel='nofollow'>ECMA-262</a>
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript' target='_blank' rel='nofollow'>Mozilla Developer Network (MDN)</a>
 
 Find javascript libraries at <a href='http://jster.net' target='_blank' rel='nofollow'>http://jster.net</a>
 
@@ -51,20 +54,38 @@ Find javascript libraries at <a href='http://jster.net' target='_blank' rel='nof
 *   <a href='https://codility.com/programmers/lessons/' target='_blank' rel='nofollow'>Codility</a>
 *   <a href='http://coderbyte.com' target='_blank' rel='nofollow'>Coderbyte</a>
 *   <a href='http://exercism.io' target='_blank' rel='nofollow'>Exercism</a>
+*   <a href='https://javascript30.com/' target='_blank' rel='nofollow'>JavaScript30</a>
+*   <a href='https://www.javascript.com/' target='_blank' rel='nofollow'>Javascript.com (Pluralsight)</a>
 
 ## Editors
 
 *   <a href='https://code.visualstudio.com/' target='_blank' rel='nofollow'>Visual Studio Code</a>
 
     Visual Studio Code includes built-in support for IntelliSense code completion, rich semantic code understanding and navigation, and code refactoring. It comes with a built-in debugger and git support and has a plethora of extensions.
+    
+*   <a href='https://www.jetbrains.com/webstorm/' target='_blank' rel='nofollow'>Webstorm</a>
+
+    A full-feature IDE for Javascript, including code completion and support for live linting, version control, and testing. Made by Jet Brains and modelled after their IntelliJ Java IDE.
 *   <a href='http://brackets.io' target='_blank' rel='nofollow'>Brackets</a>
 *   <a href='http://atom.io' target='_blank' rel='nofollow'>Atom</a>
+
+    Open source text editor made by GitHub.
+    
 *   <a href='https://www.sublimetext.com/' target='_blank' rel='nofollow'>Sublime Text</a>
 
 ## Blogs
 
 *   <a href='http://perfectionkills.com' target='_blank' rel='nofollow'>Perfection Kills</a>
 *   <a href='http://www.2ality.com/' target='_blank' rel='nofollow'>2ality</a>
+*   <a href='https://medium.com/the-javascript-collection' target='_blank' rel='nofollow'>JS collection on Medium</a>
+*   <a href='https://davidwalsh.name/' target='_blank' rel='nofollow'>David Walsh</a>
+*   <a href='http://superherojs.com/' target='_blank' rel='nofollow'>superheroJS</a>
+
+
+
+## Podcasts
+*   <a href='https://devchat.tv/js-jabber' target='_blank' rel='nofollow'>JS Jabber</a>
+
 
 ## Books
 

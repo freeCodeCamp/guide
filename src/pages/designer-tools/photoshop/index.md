@@ -156,6 +156,37 @@ You can then select `Quick export to PNG`, which in most cases is fine for web u
 
 If you need another format, select `File` > `Export` > `Export as...`. There, you can select from `PNG`, `JPG`, or `GIF`.
 
+### Photoshop Keyboard Shortcuts
+
+| Tools Shortcuts          | MAC  | WIN  |
+|--------------------------|------|------|
+|  Move tool               |   V  |   V  |  
+| Rectangular Marquee tool |   M  |   M  |   
+| Elliptical Marquee tool  |   M  |   M  |
+| Lasso tool               |   L  |   L  |
+| Polygonal Lasso tool     |   L  |   L  |
+| Magnetic Lasso tool      |   L  |   L  |
+| Magic Wand tool          |   W  |   W  |
+| Quick Selection tool     |   W  |   W  |
+| Crop tool                |   C  |   C  |
+| Slice tool               |   C  |   C  |
+| Slice Select tool        |   C  |   C  |
+| Eyedropper tool          |   I  |   I  |
+| Color Sampler tool       |   I  |   I  |
+| Ruler tool               |   I  |   I  |
+| Note tool                |   I  |   I  |
+| Count tool               |   I  |   I  |
+| Spot Healing Brush tool  |   J  |   J  |
+| Healing Brush tool       |   J  |   J  |
+| Patch tool               |   J  |   J  |
+| Red Eye tool             |   J  |   J  |
+| Brush tool               |   B  |   B  |
+| Pencil tool              |   B  |   B  |
+| Color Replacement tool   |   B  |   B  |
+| Mixer Brush tool         |   B  |   B  |
+| Clone Stamp tool         |   S  |   S  |
+| Pattern Stamp tool       |   S  |   S  |
+
 ### Alternatives to Photoshop
 
 * <a href='http://www.pixelmator.com/mac/' target='_blank' rel='nofollow'>Pixelmator</a> (Mac only)

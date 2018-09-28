@@ -3,11 +3,45 @@ title: While Loop
 ---
 ## While Loop
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/php/loops/while-loop/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `while loop` is one of the easiest type of loop in PHP. It executes the block of statements until the expression evaluates to **TRUE**. If the value of the expression changes at the time of execution, then the loop runs until the expression evaluates to **FALSE**.The Basic Form of While Loop is given below:
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+```shell
+while (expr)
+    statement
+```
+The Statements inside the while loop can be enclosed within the curly braces or can be used based on the following syntax:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```shell
+while (expr):
+    statement
+    ...
+endwhile;
+```
+Illustrating the simple and alternate syntax of while loop using example:
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+```php
+<?php
+
+/* using the simple form of while loop */
+
+$i = 1;  /* initialisation part */
+
+while ($i <= 100 && $i!=5 ) 
+{
+    echo $i++;  
+}
+
+/*using the alternate synatx of while loop*/
+
+$i = 0;
+
+while ($i <= 10):
+    echo $i++;
+endwhile;
+
+?>
+```
+
+#### More Information
+
+[While loop - PHP Documentation](http://php.net/manual/en/control-structures.while.php)

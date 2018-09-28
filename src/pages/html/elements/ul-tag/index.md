@@ -9,7 +9,7 @@ The `<ul>` can be nested inside other lists and is compatible with others tag su
 
 ### Example
 To create the following:
-
+```html
  <ul>
     <li>This is the bulleted list #1</li>
     <li>This is the bulleted list #2</li>
@@ -20,7 +20,7 @@ To create the following:
         </ul>
       </li>
   </ul>
-
+```
 
 You would use this HTML code:
 ``` html
@@ -43,4 +43,6 @@ You would use this HTML code:
 </html>
 ```
 
-## More Information
+## Other Resources
+- [The ordered list `<ol>`](https://github.com/freeCodeCamp/guides/blob/master/src/pages/html/elements/ol-tag/index.md)
+

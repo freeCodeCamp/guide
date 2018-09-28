@@ -3,19 +3,32 @@ title: SQL Insert Query
 ---
 ## SQL Insert Query
 
+Insert queries are a way to insert data into a table. Let's say we have created a table using
 
-The INSERT INTO statement is used to insert new records in a table.
+`CREATE TABLE example_table ( name varchar(255), age int)`
 
-Syntax for  **INSERT INTO** :
+**example_table**
 
-`INSERT INTO table_name (column1, column2, column3, ...)
-VALUES (value1, value2, value3, ...);`
+| Name | Age |
+| --- | --- |
 
+Now to add some data to this table , we'll use **INSERT** in the following way:
 
-If we are giving values for all the columns of the table, no need to specify the column names in the SQL query.
-Make sure the order of the values is in the same order as the columns in the table.
+`INSERT INTO example_table (column1,column2) VALUES ("Andrew",23)`
 
-`INSERT INTO table_name
-VALUES (value1, value2, value3, ...);`
+**example_table**
 
-*Please note the queries provided above are for MSSQL.*
+| Name | Age |
+| --- | --- |
+| Andrew | 23 |
+
+Even the following will work, but it's always a good practice to specify which data is going into which column.
+
+`INSERT INTO table_name VALUES ("John", 28)`
+
+**example_table**
+
+| Name | Age |
+| --- | --- |
+| Andrew | 23 |
+| John | 28 |

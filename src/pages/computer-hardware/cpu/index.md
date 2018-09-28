@@ -13,6 +13,8 @@ Gigahertz is not the only determining factor in the actual speed of a processor,
 
 Most modern CPUs use a 64-bit architecture, which means they use 64 bit long memory adresses. Older CPUs used 32-bit, 16-bit, and even 8-bit architectures. The largest number a 64-bit CPU can store is 18,446,744,073,709,552,000. A CPPU need memory adresses to get specified values from the RAM. If we call the length of the memory adresses n, 2^n is the amount of memory cells a CPU can adress.
 
+An instruction cycle for a CPU is called the fetch-decode-execute cycle - where the computer retrieves a instruction from its memory, deetermines which instruction it fetched and what it does, and then carries out said instrucitons.
+
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 <b>Function</b>

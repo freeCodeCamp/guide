@@ -6,7 +6,7 @@ title: Vundle
 Vundle is short for Vim bundle and is a Vim plugin manager.
 
 It allows you to...
-- keep track of and configure your plugins right in the `~/.vimrc` (a <a href='https://stackoverflow.com/questions/164847/what-is-in-your-vimrc' target='_blank' rel='nofollow'>file</a> to customise vim)
+- keep track of and configure your plugins right in the `~/.vimrc` (a [file](https://stackoverflow.com/questions/164847/what-is-in-your-vimrc) to customise Vim)
 - install configured plugins (a.k.a. scripts/bundle)
 - update configured plugins
 - search by name all available Vim scripts
@@ -24,7 +24,7 @@ Some useful plugins to get you started are :
 - [fugitive](https://github.com/tpope/vim-fugitive) - Git wrapper
 - [delimitMate](https://github.com/Raimondi/delimitMate) - Insert mode auto-completion for quotes, parens, brackets, etc
 - [tcomment](https://github.com/tomtom/tcomment_vim) - Comment lines whatever the language
-- and tons more !
+- [and tons more!](https://vimawesome.com/)
 
 
 #### More Information:

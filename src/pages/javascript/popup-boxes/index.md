@@ -39,6 +39,23 @@ The <a href='https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt' tar
 
 ![MDN Prompt Example](https://mdn.mozillademos.org/files/11303/prompt.png)
 
+### Other Design Options:
+If you are unhappy with the default JavaScript popups, you can substitute in various UI libraries.  For example, SweetAlert provides a nice replacement for standard JavaScript modals.  You can include it in your HTML via a CDN (content delivery network) and begin use.
+```HTML
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+```
+The syntax is as such: ```swal(title, subtitle, messageType)```
+
+```javascript
+swal("Oops!", "Something went wrong on the page!", "error");
+```
+The above code will produce the following popup: 
+![SweetAlert Example](https://ludu-assets.s3.amazonaws.com/lesson-content/rWqOoQXgDrSVSMrAKiZ9)
+SweetAlert is by no means the only subsitute for standard modals, but it is clean and easy to implement. 
+
+
+
+
 #### More Information:
 
 * <a href='https://developer.mozilla.org/en-US/docs/Web/API/Window/alert' target='_blank' rel='nofollow'>MDN window.alert()</a>

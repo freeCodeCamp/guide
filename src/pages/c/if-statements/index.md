@@ -1,8 +1,16 @@
 ---
 title: Logical Operators and If Statements
 ---
+
 # If Statements in C
-Sometimes you only want code to run in a certain situation. That's where If statements come in- if something is true, the code will be executed; if it isn't true, the code will not be executed.
+Sometimes you want your code to run according to certain conditions. In such situation we can use If statements. It is also known as decision making statement as it make the decision on basis of given expression(or on given condition).If the expression evaluates to true, then the block of code inside the 'if' statement will be executed. If the expression evaluates to false, then the first set of code after the end of the 'if' statement (after the closing curly brace) will be executed.A expression is an expression that has relational and/or logical operators operating on boolean variables. A expression evaluates to either true or false.
+
+## Syntax of *if statement*
+```
+if (testExpression) {
+   // statements
+}
+```
 
 ## A Simple Example
 Let's look at an example of this in action:
@@ -12,14 +20,16 @@ Let's look at an example of this in action:
 #include <stdbool.h>
 
 int main(void) {
-
     if(true) {
         printf("Statement is True!\n");
-
     }
 
     return 0;
 }
+```
+```
+output:
+Statement is True!
 ```
 
 Just like helloworld.c, stdio.h has been included. New in this program is stdbool.h, which is the standard boolean library- it contains code that gives us access to 'true' and 'false'.
@@ -27,6 +37,8 @@ Just like helloworld.c, stdio.h has been included. New in this program is stdboo
 Also new in the above example is that 'if' statement. If the statement within the parenthesis is true, the code within the brackets of the if statement will be run. In the case of this example, true is true, so the code will run the `printf` function.
 
 ## If-else
+In the 'If-else' statement, If the statement within the parenthesis is true, the code within the brackets of the 'if' statement will be executed and if the statement within the parenthesis is false, the code within the brackets of the 'else' statement will be executed.
+
 Of course, that example wasn't very useful, because true is always true. Here's another one that's a bit more practical:
 
 ```C
@@ -35,21 +47,49 @@ Of course, that example wasn't very useful, because true is always true. Here's 
 int main(void) {
     int n = 2;
 
-    if(n == 3) {
+    if(n == 3) { // comparing n with 3
         printf("Statement is True!\n");
-
-    } else {
+    } 
+    else { // if first condition is not true, then comes to this block of code.
         printf("Statement is False!\n");
-
     }
 
     return 0;
 }
 ```
+```
+output:
+Statement is False!
+```
 
 There are a few important things that are different here. First, `stdbool.h` hasn't been included. That's okay, because `true` and `false` aren't being used. In C, we have statements that are treated as true and false even though the words true or false aren't involved in the operation.
 
 Within the parenthesis of the if statement is something new, too: `n == 3`. This is a comparison between `n` and the number 3. `==` is the comparison operator, and is one of several comparison opertations in C.
+
+## Nested if-else
+The if-else statement allows a choice to be made between two possible alternatives. Sometimes a choice must be made between more than two possibilities. For example the sign function in mathematics returns -1 if the argument is less than zero, returns +1 if the argument is greater than zero and returns zero if the argument is zero. The following C++ statement implements this function:
+
+```C
+if (x < 0)
+   sign = -1;
+else
+   if (x == 0)
+      sign = 0;
+   else
+      sign = 1;
+```
+This is an if-else statement in which the statement following the else is itself an if-else statement. If x is less than zero then sign is set to -1, however if it is not less than zero the statement following the else is executed. In that case if x is equal to zero then sign is set to zero and otherwise it is set to 1.
+Novice programmers often use a sequence of if statements rather than use a nested if-else statement. That is they write the above in the logically equivalent form:
+
+```C
+if (x < 0)
+   sign = -1;
+if (x == 0)
+   sign = 0;
+if (x > 0)
+   sign = 1;
+```
+This version is not recommended since it does not make it clear that only one of the assignment statements will be executed for a given value of x. Also it is inefficient since all three conditions are always tested.
 
 ## Comparison Operators
 Operator Name               |  Usage    | Operator Result
@@ -72,20 +112,22 @@ int main(void) {
 
     if(n == 5) {
         printf("n is equal to 5!\n");
-
-    } else if (n > 5) {
+    } 
+    else if (n > 5) {
         printf("n is greater than 5!\n");
-
     }
 
     return 0;
 }
 ```
+```
+output:
+n is equal to 5!
+```
 
 The if-else statement has an 'else if' attached to it. This code runs if the condition within the previous if was false, but adds a condition within its own parenthesis that must be true before the code is run.
 
 ## Logical Operators
-
 Of course, we might want something to happen if it is not true, or if it and something else are true. For that, we have logical operators: ! for not, && for and, and || for or. Let's take a look at this in action:
 
 ```C
@@ -97,19 +139,23 @@ int main(void) {
 
     if(n > m || n == 15) {
         printf("Either n is greater than m, or n is equal to 15\n");
-
-    } else if( n == 5 && m == 10 ) {
+    } 
+    else if( n == 5 && m == 10 ) {
         printf("n is equal to 5 and m is equal to 10!\n");
-
-    } else if ( !(n == 6)) {
+    } 
+    else if ( !(n == 6)) {
         printf("It is not true that n is equal to 6!\n");
-
-    } else if (n > 5) {
+    }
+    else if (n > 5) {
         printf("n is greater than 5!\n");
     }
 
     return 0;
 }
+```
+```
+output:
+n is equal to 5 and m is equal to 10!
 ```
 
 Here's the first set of parenthesis: `n > m || n == 5`. This will be true if n is greater than m, or if n is equal to 5. n is not greater than m, but n is equal to 5. Because one of these things are true, and they are joined by an or, this statement will be true and the code within will be printed.
@@ -146,15 +192,14 @@ Consider the code below:
 
 ```C
 #include <stdio.h>
-int main()
-  {
+
+int main() {
     int i=3;
-    if(i=4)
-    {
+    
+    if(i=4) {
       printf("This block is executed");
     }
-    else
-    {
+    else {
       printf("NO! I am boss");
     }
 }
@@ -168,13 +213,11 @@ It will compare between two variables but "=' is assignment operator
 when we said i=4, we simply assigning value 4 to the integer i, and since in "C" every NON-ZERO value is true so
 if(i=4) is true statement and instructions under this will executed
 
-
-
 # Before you go on...
 ## A review
-* 'if' statements check if something is true, and if they are, they run the code within the curly brackets.
-* 'else' can be added to the end of an 'if', and will run only if the previous if(s) were false.
-* 'else if' can also be added to the end of an 'if', and will run only if the previous if(s) were false.
+* 'if' statements check if expression is true, then it run the code within the curly brackets.
+* 'else' can be added to the end of an 'if', and will run only if the previous if(s) statement were false.
+* 'else if' can also be added to the end of an 'if', and will run only if the previous if(s) statement were false.
 * Everything in a computer is represented by numbers, so every comparison in C can be done by treating values like numbers- even true, false, and characters.
 * There are a bunch of comparison operators:
  * == is equal to
@@ -184,6 +227,6 @@ if(i=4) is true statement and instructions under this will executed
  * \>= is less than or equal to
  * <= is less than or equal to
 * We also have some logical operators, which allow us to chain together logical operations:
- * ! flips whether something is true or false
- * && joins two operations, making the overall operation true only if both halves are true
- * || joins two operations, making the overall operation true if one or both halves are true
+ * ! is called NOT operator-It reverses the state of the operand
+ * && is called AND operator-It returns true when both conditions are true
+ * || is called OR operator-It returns true when at-least one of the condition is true

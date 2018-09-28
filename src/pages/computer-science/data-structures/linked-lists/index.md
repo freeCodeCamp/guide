@@ -1,8 +1,9 @@
 ---
 title: Linked Lists
 ---
+
 ## Linked Lists
- 
+
 #### A Linked List is a simple *linear-access* data structure. 
 A linked list is a simple data structure, but it can be used to implement more complicated Data Structures like Queues, Stacks, etc. There are three types of Linked Lists:
 
@@ -10,9 +11,19 @@ A linked list is a simple data structure, but it can be used to implement more c
 2. Doubly Linked List (or Double Ended Linked List)
 3. Circular Linked Lists (Ring Buffer)
 
+
+Linked List |  (Introduction)
+Like arrays, Linked List is a linear data structure. Unlike arrays, linked list elements are not stored at contiguous location; the elements are linked using pointers or like in the example using Javascript, a reference to the next node.
+
 If you want to understand Linked Lists, it helps to understand **Arrays**.
 
+
 To recap, an array is traditionally a **static** **linear** data structure that supports constant time random access. Insertions and Deletions are not always constant time.
+
+
+Advantages over arrays
+1) Dynamic size
+2) Ease of insertion/deletion
 
 ``` 
 static = size fixed at creation time
@@ -57,19 +68,251 @@ Most common operations available on List are,
 7. Size / Count - Returns the number of elements currently present in the List.
 8. IsEmpty - Check whether the List is empty or not.
 
+#### Implementation of a Simple Linked List in C++
+```cpp
+#include<iostream>
+using namespace std;
+
+struct Number
+{
+	int num;
+	struct Number *tail;
+};
+
+typedef struct Number N;
+
+class List
+{
+	private:
+		N *head,*end;
+		int count;
+	
+	public:
+		void display();
+		void insertBefore(int);
+		List();
+};
+
+List :: List()
+{
+	head=NULL;
+	end=NULL;
+	count=0;
+}
+
+void List :: insertBefore(int data)
+{
+		N *node;
+		node= new N;
+		node->num=data;
+		node->tail=NULL;
+		
+		if(!head){
+			head=end=node;	
+		}
+		
+		else{
+			node->tail=head;
+			head=node;	
+		}
+		
+		count++;	
+}
+
+void List :: display()
+{
+	cout<<"Number of nodes in the list = "<<count<<endl;
+	N *node;
+		node=head;
+	while(node) 
+	{
+		
+		cout<<node->num<<endl;
+		node=node->tail;
+		
+	}
+	
+}
+int main()
+{
+	List l1;
+	
+	l1.insertBefore(10);
+	l1.insertBefore(20);
+	l1.insertBefore(30);	
+	l1.insertBefore(40);
+	l1.insertBefore(50);
+	l1.display();
+	
+	return 0;
+}
+ 
+```
+
+#### OUTPUT 
+```
+Number of nodes in the list = 5
+50
+40
+30
+20
+10
+```
+
+#### Explanation
+```cpp
+
+struct Number
+{
+	int num;
+	struct Number *tail;
+		
+};
+```
+Declaration of a structure(node) with 2 data members
+* `num` holds the integer data value
+* `*tail` pointer points to the next node in the List
+
+```cpp
+class List
+{
+	private:
+		N *head,*end;
+		int count;
+	
+	public:
+		void display();
+		void insertBefore(int);
+		List();
+};
+```
+The List class declares the Linked List.
+* `*head` points to the first node in the List
+* `*end` points to the last node in the List
+* `count` holds the value for number of nodes in the list
+* `display()` is used to print the complete list on the console
+* `insertBefore()` is used to insert a new node
+* `List()` is a defualt constructor
+
+```cpp
+List :: List()
+{
+	head=NULL;
+	end=NULL;
+	count=0;
+}
+```
+
+The default constructor is used to initialize the data members of the List class with default values
+
+```cpp
+void List :: insertBefore(int data)
+{
+		N *node;
+		node= new N;
+		node->num=data;
+		node->tail=NULL;
+		
+		if(!head){
+			head=end=node;	
+		}
+		
+		else{
+			node->tail=head;
+			head=node;	
+		}
+		
+		count++;	
+}
+```
+
+* A new node is created. 
+* `num` is assigned the value of `data`.
+* `tail` is pointing to Null.
+* The `if(!head)` condition is true only when there are no elements in the List. 
+* When this is the case, `head` and `end` are both pointing to the newly created node.
+* Control will move to the `else` section, when there is at least one node in the list.
+* In this case, `tail` pointer in the newly created node is made to point to the `head`(first) node.
+* The `head` pointer then points to the newly created node to make it the first node in the list.
+* `count` is incremented by 1	as each new node is added.
+  
+```cpp
+void List :: display()
+{
+	N *node;
+	node=head;
+	while(node)
+	{
+		cout<<node->num<<endl;
+		node=node->tail;
+	}
+}
+```
+The display function is used to run through the list and print the total number of nodes and values of `num` on the console.
 
 #### Applications  
 * Base Data Structure for Vector, Array, Queue, Stack, etc  
 * Polynomial Representation  
 * Ring Buffer  
 
-#### More Information:
-* <a href='http://www.geeksforgeeks.org/linked-list-set-1-introduction/' target='_blank' rel='nofollow'>Introduction to Linked Lists</a>
-
 Drawbacks:
 1) Random access is not allowed. We have to access elements sequentially starting from the first node. So we cannot do binary search with linked lists.
 2) Extra memory space for a pointer is required with each element of the list
 
+
+Types:
+1) (Singly) linked lists contain nodes which have a data field as well as a 'next' field, which points to the next node in line of nodes. Operations that can be performed on singly linked lists include insertion, deletion and traversal.
+
+2) (Doubly) In a 'doubly linked list', each node contains, besides the next-node link, a second link field pointing to the 'previous' node in the sequence. The two links may be called 'forward('s') and 'backwards', or 'next' and 'prev'('previous').
+
+Example in Javascript:
+```
+function LinkedList () {
+		this.head = null;
+		this.tail = null;
+	}
+
+    // Node has three properties value, next, prev
+
+	function Node (value, next, prev) {
+
+		this.value = value;
+
+	// A 'pointer' referencing to the next Node (if present) otherwise null
+
+		this.next = next;
+
+	// A 'pointer' referencing the previous Node, otherwise null
+
+		this.prev = prev;
+	}
+
+    LinkedList.prototype.addToHead = function(value) {
+	
+		let newNode = new Node(value, this.head, null);
+
+		if (this.head) this.head.prev = newNode;
+
+		else this.tail = newNode;
+
+		this.head = newNode;
+	}
+
+
+
+
+```
+Now Execute code
+```
+let LL = new LinkedList();
+
+	LL.addToHead(100);
+
+	LL.addToHead(200);
+    
+	console.log(LL);
+
+```
 
 Representation in C:
 A linked list is represented by a pointer to the first node of the linked list. The first node is called head. If the linked list is empty, then value of head is NULL.
@@ -176,4 +419,6 @@ int main()
   return 0;
 }
 ```
-
+#### More Information:
+* <a href='http://www.geeksforgeeks.org/linked-list-set-1-introduction/' target='_blank' rel='nofollow'>Introduction to Linked Lists</a>
+* <a href='https://www.youtube.com/watch?v=njTh_OwMljA' target='_blank' rel='nofollow'>Linked Lists (YouTube video)</a>

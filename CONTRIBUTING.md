@@ -44,6 +44,8 @@ With your help, we can create a comprehensive reference tool that will help mill
   - [Squash and Merge](#squash-and-merge)
   - [Filtering PRs](#filtering-prs)
   - [Templates](#templates)
+    - [Thank you](#thank-you)
+    - [Thank you and congrats](#thank-you-and-congrats)
     - [Build Error](#build-error)
     - [Syncing Fork](#syncing-fork)
     - [Merge Conflicts](#merge-conflicts)
@@ -54,13 +56,13 @@ With your help, we can create a comprehensive reference tool that will help mill
 
 ## Steps
 
-1. 🍴 [Fork this repo](https://github.com/freeCodeCamp/guides#fork-destination-box)
+1. 🍴 [Fork this repo](https://github.com/freeCodeCamp/guide#fork-destination-box)
 2. 👀️ Follow the contributing guidelines outlined below.
 3. 🔧 Make some awesome changes!
-4. 👉 [Make a pull request](https://github.com/freeCodeCamp/guides/compare)
+4. 👉 [Make a pull request](https://github.com/freeCodeCamp/guide/compare)
 5. 🎉 Get your pull request approved - success!
 
-Or just [create an issue](https://github.com/freeCodeCamp/guides/issues) - any little bit of help counts! 😊
+Or just [create an issue](https://github.com/freeCodeCamp/guide/issues) - any little bit of help counts! 😊
 
 ## Creating a PR
 
@@ -70,11 +72,13 @@ Watch the video demonstration or follow the steps below it:
 
 ![GIF showing the GitHub interface steps](https://i.imgur.com/0cmxJwN.gif)
 
-1. Go into the **"pages"** folder (located in `guides/src`) and find the article stub you'd like to write or edit.
+1. Go into the **"pages"** folder (located in `guide/src`) and find the article stub you'd like to write or edit.
 
     > All stubs will be in an index.md file
 
 2. Click the <kbd>Edit this file</kbd> pencil icon and make your changes to the file in GitHub-flavored Markdown.
+
+    > If the icon is greyed out and giving you the warning "You must be on a branch to make or propose changes to this file", then you are likely on another person's tree. At the top left of the page, there is a drop down box which says "Tree: #######". Click on the drop down and change the branch to "master". The pencil icon should now be clickable.
 
 3. Scroll to the bottom of the screen and add a commit message explaining your changes.
 
@@ -89,13 +93,13 @@ Watch the video demonstration or follow the steps below it:
 2. Copy it to your local machine by running the following command:
 
     ```bash
-    git clone https://github.com/YOUR-GITHUB-USERNAME/guides.git
+    git clone https://github.com/YOUR-GITHUB-USERNAME/guide.git
     ```
 
-3. Add a remote upstream so git knows where the official freeCodeCamp guides repository is located by running the following command:
+3. Add a remote upstream so git knows where the official freeCodeCamp guide repository is located by running the following command in the local folder where the repository is stored at:
 
     ```bash
-    git remote add upstream https://github.com/freeCodeCamp/guides.git
+    git remote add upstream https://github.com/freeCodeCamp/guide.git
     ```
 
 4. Create a new branch for your work with the command `git checkout -b NEW-BRANCH-NAME`.
@@ -106,7 +110,7 @@ Watch the video demonstration or follow the steps below it:
 
 6. Go to your repository on GitHub and open a PR
 
-Make sure to maintain your local fork going forward so it stays up-to-date with the freeCodeCamp guides repository.
+Make sure to maintain your local fork going forward so it stays up-to-date with the freeCodeCamp guide repository.
 
 The next time you want to contribute, checkout your local `master` branch and run the command `git pull --rebase upstream master` before creating a new branch.
 
@@ -114,23 +118,22 @@ This will grab all the changes on the official `master` branch without making an
 
 ### Running Locally
 
-```bash
-# make sure to have yarn installed
-npm install -g yarn
+Make sure to have yarn installed (follow these [instructions](https://yarnpkg.com/en/docs/install) if needed).
 
+```bash
 # fork repo
 
 # clone down your repo
-git clone https://github.com/YOUR-GITHUB-USERNAME/guides.git
+git clone https://github.com/YOUR-GITHUB-USERNAME/guide.git
 
 # navigate to root folder
-cd guides
+cd guide
 
 # install dependencies
 yarn install
 
 # run locally
-yarn run dev
+yarn develop
 ```
 
 In this project, we are using `yarn` because `netlify` builds our site with `yarn`.
@@ -140,7 +143,7 @@ In this project, we are using `yarn` because `netlify` builds our site with `yar
 Here are a few guidelines the reviewers follow when reviewing PRs:
 
 - there is a relevant description and title
-- PR respects the [Article style guide](./README.md/#article-style-guide)
+- PR respects the [Article style guide](./CONTRIBUTING.md/#article-style-guide)
 - we follow general QA tips found in [Moderator guidelines](https://forum.freecodecamp.org/t/freecodecamp-moderator-guidelines/18295)
 - as long as a pull request improves or expands the guide, we accept it even if it contains imperfect English or partial content
 - older pull requests are reviewed first
@@ -152,7 +155,7 @@ Here are a few guidelines the reviewers follow when reviewing PRs:
 - **changes requested** is for pull requests that need a change before getting merged
 - **stale** is for pull requests with _"changes requested"_ label that doesn't get activity after about 2 weeks and will subsequently be closed.
   - A _stale_ pull request should be closed.
-  - Here is [an example](https://github.com/freeCodeCamp/guides/pull/235).
+  - Here is [an example](https://github.com/freeCodeCamp/guide/pull/235).
 
 ### Conflicting/Duplicate Content
 
@@ -179,7 +182,7 @@ If a pull request is not perfect, the reviewer may:
 
 All PRs must pass the Travis CI checks before we can merge it.
 
-If a PR breaks the build (a Travis CI check fails and shows a red "X") there are two likely sources.
+If a PR breaks the build (a Travis CI check fails and shows a red "X") there are three likely sources.
 
 You will need to fix the issue before we can merge your PR:
 
@@ -188,7 +191,9 @@ You will need to fix the issue before we can merge your PR:
     - Two likely scenarios are
       - you named the new article file something other than `index.md`, or
       - you created both a new folder, then a sub-folder, you wrote the new article in the sub-folder but forget to put a stub `index.md` file in the new folder
-2. The article doesn't have a `title` field at the top.
+2. Your PR creates a new folder and the folder name isn't formatted correctly.
+    - Your folder name should be all lowercase and formated in kebab-case (i.e. my-new-folder).
+3. The article doesn't have a `title` field at the top.
     - Please refer to [Title](#title) section below under [Article Style Guide](#article-style-guide).
 
 ### Closing
@@ -197,7 +202,7 @@ We close a pull request
 
 - if an older PR for the same article is merged, and your PR doesn't add new content
 - if there is zero/little effort in it (e.g: copy pasting from another source like Wikipedia)
-- if there is copied text from a copyrighted source - see [Citation issue](https://github.com/freeCodeCamp/guides/issues/2503)
+- if there is copied text from a copyrighted source - see [Citation issue](https://github.com/freeCodeCamp/guide/issues/2503)
 - if it does not respect the [Article Style Guide](#article-style-guide)
 - if it does not respect the [Academic Honesty policy](https://www.freecodecamp.org/academic-honesty)
 - if it is stale (if a change is requested and there is no activity for about 2 weeks)
@@ -234,7 +239,7 @@ However, you can include special characters in the article title.
 
 Here are some examples of properly named titles:
 
-> [`src/pages/html/tables/index.html`](https://github.com/freeCodeCamp/guides/blob/master/src/pages/html/tables/index.md)
+> [`src/pages/html/tables/index.md`](https://github.com/freeCodeCamp/guide/blob/master/src/pages/html/tables/index.md)
 
 ```markdown
 ---
@@ -242,7 +247,7 @@ title: Tables
 ---
 ```
 
-> [`src/pages/css/borders/index.md`](https://github.com/freeCodeCamp/guides/blob/master/src/pages/css/borders/index.md)
+> [`src/pages/css/borders/index.md`](https://github.com/freeCodeCamp/guide/blob/master/src/pages/css/borders/index.md)
 
 ```markdown
 ---
@@ -250,7 +255,7 @@ title: Borders
 ---
 ```
 
-> [`src/pages/javascript/loops/for-loop/index.md`](https://github.com/freeCodeCamp/guides/blob/master/src/pages/javascript/loops/for-loop/index.md)
+> [`src/pages/javascript/loops/for-loop/index.md`](https://github.com/freeCodeCamp/guide/blob/master/src/pages/javascript/loops/for-loop/index.md)
 
 ```markdown
 ---
@@ -296,19 +301,25 @@ The following represents two other examples using JavaScript and CSS syntax high
 
 ```markdown
     ```javascript
-        function logTheThings(stuff) {
-          console.log(stuff);
-        }
+    function logTheThings(stuff) {
+      console.log(stuff);
+    }
     ```
 
     ```css
-        .awesome {
-          background-color: #FCCFCC;
-        }
+    .awesome {
+      background-color: #FCCFCC;
+    }
     ```
 ```
 
-Here are some suggested formatting guidelines when writing code blocks:
+Please keep the following recommendations in mind:
+
+- To ensure correct rendering, each codeblock must have a language label. You can find a list of supported languages [here](http://prismjs.com/#languages-list ).
+- For codeblocks with no appropriate language, use generic labels like ` ```text `, or ` ```code `.
+- You may know about markdown's four-space indentation syntax for writing codeblocks. However, this is currently __not__ supported by our rendering system.
+
+Finally, here are some suggested formatting guidelines when writing code blocks:
 
 - JavaScript statements should end with a `;` semicolon
 - Comments made should have a space between the comment characters and the comment themselves
@@ -326,11 +337,11 @@ Use Markdown style links in your articles to link to other websites.
 
 ### Images
 
-For including images, if the images aren't already hosted somewhere else on the web, you'll need to put them online yourself using a platform like [Imgur](https://imgur.com/) or [Flickr](https://www.flickr.com).
+For including images, if they aren't already hosted somewhere else on the web, you will need to put them online yourself using a platform like [Imgur](https://imgur.com/) or [Flickr](https://www.flickr.com). You can also host images by committing them to a git repository and pushing it to GitHub. Then you can right-click the image and copy its URL.
 
-A good way to do this is to commit them to a GitHub repository of your own, then push them to GitHub. Then you can right-click the image and copy its image source.
+We don't allow hosting images directly in the git repository because it would make it far too big (people pulling it to their local system to make changes would end up downloading all the images), and because it is easier to change an image by just changing the URL in an article than by putting the new image in the repository.
 
-Then you'd just need to reference them in your markdown file with this syntax:
+To include the image in your article, use the appropriate markdown syntax:
 
 ```markdown
 ![Image Title](https://url-to-image)
@@ -346,7 +357,7 @@ Don't use emojis or emoticons in the Guide. freeCodeCamp has a global community,
 
 ### Attributions
 
-To minimize the potential for plagiarism and maintain integrity in these guides, it is important to give credit where necessary.
+To minimize the potential for plagiarism and maintain integrity in this guide, it is important to give credit where necessary.
 
 Any material quoted, or used directly and unchanged, from source material should be wrapped in quotation marks and be adequately cited. Material that is not a direct quote but is still paraphrased from a different resource should also be cited.
 
@@ -385,7 +396,7 @@ Typically, an attribution has a structure like the following:
 
 If you cannot find an author or published date, which is common, simply omit these.
 
-Use of proper citations will not only keep the guides reputable, but these citations and links will also provide valuable resources should the reader want to learn more about the topic.
+Use of proper citations will not only keep the guide reputable, but these citations and links will also provide valuable resources should the reader want to learn more about the topic.
 
 Also note that instances of blatant plagiarism will be either removed or have their pull requests declined, and the user will receive a warning.
 
@@ -509,15 +520,33 @@ We use the <kcd>Squash and merge</kcd> option when merging the PR which keeps th
 
 > PR, Open, Oldest First, Travis CI Build successful, no one assigned, no comments
 
-[`is:pr is:open sort:updated-asc status:success no:assignee comments:0`](https://github.com/freeCodeCamp/guides/pulls?utf8=%E2%9C%93&q=is%3Apr%20is%3Aopen%20sort%3Aupdated-asc%20status%3Asuccess%20no%3Aassignee%20comments%3A0)
+[`is:pr is:open sort:updated-asc status:success no:assignee comments:0`](https://github.com/freeCodeCamp/guide/pulls?utf8=%E2%9C%93&q=is%3Apr%20is%3Aopen%20sort%3Aupdated-asc%20status%3Asuccess%20no%3Aassignee%20comments%3A0)
 
 > PR, Open, Oldest First, Does not have labels: `platform`, `enhancement`, `invalid` or `changes requested`
 
-[`is:pr is:open sort:updated-asc -label:platform -label:enhancement -label:invalid -label:"changes requested"`](https://github.com/freeCodeCamp/guides/pulls?utf8=%E2%9C%93&q=is%3Apr%20is%3Aopen%20sort%3Aupdated-asc%20-label%3Aplatform%20-label%3Aenhancement%20-label%3Ainvalid%20-label%3A%22changes%20requested%22).
+[`is:pr is:open sort:updated-asc -label:platform -label:enhancement -label:invalid -label:"changes requested"`](https://github.com/freeCodeCamp/guide/pulls?utf8=%E2%9C%93&q=is%3Apr%20is%3Aopen%20sort%3Aupdated-asc%20-label%3Aplatform%20-label%3Aenhancement%20-label%3Ainvalid%20-label%3A%22changes%20requested%22).
 
 ## Templates
 
 > You can make your own with GitHub's built in [**Saved replies**](https://github.com/settings/replies/) feature or use the ones below.
+
+### Thank you
+
+```markdown
+Thank you for your contribution to the page! 👍
+We're happy to accept these changes, and look forward to future contributions. 🎉
+```
+
+### Thank you and congrats
+
+> For thanking and encouraging first-time contributors.
+
+```markdown
+Hi @username. Congrats on your first pull request (PR)! 🎉
+
+Thank you for your contribution to the page! 👍
+We're happy to accept these changes, and look forward to future contributions. 📝
+```
 
 ### Build Error
 
@@ -530,7 +559,7 @@ Once you resolve these issues, I will be able to review your PR and merge it. �
 
 ---
 
-> Feel free to reference the [Article Style Guide](https://github.com/freeCodeCamp/guides#article-title) for this repo on formatting an article correctly so your Travis CI build passes. ✅
+> Feel free to reference the [Article Style Guide](https://github.com/freeCodeCamp/guide#article-title) for this repo on formatting an article correctly so your Travis CI build passes. ✅
 >
 > Also, it's good practice on GitHub to write a brief description of your changes when creating a PR. 📝
 ```
@@ -550,19 +579,19 @@ Error: ENOTDIR: not a directory, open 'src/pages/java/data-abstraction/index.md'
 
 This particular error was not actually caused by your file but was an old error caused by merging faulty code to the `master` branch. It has since been resolved.
 
-To pass the build, you will have to sync the latest changes from the `master` branch of the `freeCodeCamp/guides` repo.
+To pass the build, you will have to sync the latest changes from the `master` branch of the `freeCodeCamp/guide` repo.
 
 Using the command line, you can do this in three easy steps:
 
 ```bash
-git remote add upstream git://github.com/freeCodeCamp/guides.git
+git remote add upstream git://github.com/freeCodeCamp/guide.git
 
 git fetch upstream
 
 git pull upstream master
 ```
 
-If you're using a GUI, you can simply `Add a new remote...` and use the link `git://github.com/freeCodeCamp/guides.git` from above.
+If you're using a GUI, you can simply `Add a new remote...` and use the link `git://github.com/freeCodeCamp/guide.git` from above.
 
 Once you sync your fork and pass the build, I will be able to review your PR and merge it. 😊
 

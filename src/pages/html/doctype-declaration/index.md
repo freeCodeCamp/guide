@@ -32,6 +32,7 @@ Doctype syntax for transitional HTML 4.01:
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 ```
 
+
 Doctype syntax for frameset HTML 4.01:
 ```html
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
@@ -60,5 +61,7 @@ While no longer in general use, there are several other doctype declaration type
 [A note from the W3](https://www.w3.org/QA/Tips/Doctype)
 
 [MDN Glossary entry](https://developer.mozilla.org/en-US/docs/Glossary/Doctype)
+
+[W3Schools](https://www.w3schools.com/tags/tag_doctype.asp)
 
 [A quick explanation of "Quirks Mode" and "Standards Mode"](https://developer.mozilla.org/en-US/docs/Quirks_Mode_and_Standards_Mode)

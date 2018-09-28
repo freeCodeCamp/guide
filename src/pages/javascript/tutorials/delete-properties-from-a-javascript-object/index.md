@@ -16,9 +16,11 @@ The **delete operator** removes a property from an object.
 
 ## Parameters
 
-**object** The name of an object, or an expression evaluating to an object.
+**object** <br/>
+The name of an object, or an expression evaluating to an object.
 
-**property** The property to delete.
+**property** <br/>
+The property to delete.
 
 ## Example
 
@@ -32,6 +34,6 @@ console.log(person); //{name:'Jay'}
 
 ## Return value
 
-Throws in [strict</a> mode if the property is an own non-configurable property (returns false in non-strict). Returns true in all other cases.
+Throws in strict mode if the property is an own non-configurable property (returns false in non-strict). Returns true in all other cases.
 
-<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/delete' target='_blank' rel='nofollow'>Read more</a>
+[Read more](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/delete)

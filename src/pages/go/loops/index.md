@@ -37,6 +37,29 @@ $ go run for.go
 The sum of first 10 natural numbers is 55
 ```
 
+You can use `continue` and `break` to adjust the loops flow
+```go
+  // this code prints any odd numbers up to 5
+  for n := 0; n <= 10; n++ {
+    if n % 2 == 0 {
+      // if the number is even jump to the next n
+      continue
+    }
+    fmt.Println(n)
+    // if the number is 5 exit the loop
+    if n == 5 {
+      break
+    }
+  }
+```
+If you want to create an infinite loop just use `for { }`
+```go
+  for {
+    // Whill loop until a condition breaks the loop
+    break // exit the loop
+  }
+```
+
 ## Replacement for while-loop
 To simulate while-loop of other languages, you can simply exclude the **init** and **post** statement:
 

@@ -4,7 +4,7 @@ title: Tokens Part 1
 
 ### What are tokens ?
 
-Tokens are the smallest unit of a program which are importanat to the compiler. There are different kinds of tokens:
+Tokens are the smallest units of a program which are important to the compiler. There are different kinds of tokens:
 - Keywords
 - Operators
 - Punctuators
@@ -15,7 +15,7 @@ Tokens are the smallest unit of a program which are importanat to the compiler. 
 
 ### What are Variables ?
 
-* Textbook defination : Variables are named memory locations whoose data can be altered.
+* Textbook definition : Variables are named memory locations whoose data can be altered.
 
 * But I would like you to think of a variable to be something like a box, something like this : 
     ![Img](https://i.imgur.com/YdbgWHL.png)
@@ -24,29 +24,39 @@ So, for example :
    I'm shifting to a new place and I need to arrange my stuff in boxes . Thus there come 2 things to my mind  **What kind of stuff will be stored in the box, so that the size off the box is known (the data type)** and **How do I identify the box ?(Naming the variable)**  
    Hence , we know that a variable in C++ needs a *name* and a *data type* and that the value stored in them can be changed.
    
-#### Data Types in C++ : 
-Data Type       Size allocated in memory        Example
+### Data Types in C++ : 
+When declaring variables in c++ they must have a name to which you will reffer later on, a value (constant or not) and a type.
+The type will tell the compiler the values that the variable can use, the possible operations and will save a certain space in memmory.
+In c++ there are two types of data:
+* Simple type
+* Struct type
 
-* char               1 byte                     char a; a='a';
-(character)
+### Simple data types
 
-* short             2 bytes                     short b; b = 1;
- (short integer)
+* Boolean -- bool
+Works like a switch, can be on or off.
+* Character -- char
+Stores a single character.
+* Integer  -- int
+Stores an [integer](https://en.wikipedia.org/wiki/Integer).
+* Floating point  -- float
+They can use decimals.
+* Double floating point  -- double
+Double precision of the float type.
 
-* int               4 bytes                     int c; c=450;
-  (holds integers)
+Here you can see some examples:
+```cpp
+bool GameRunning = true;
+char a;
+int x = 2;
+```
+#### These types can also be modified with modifiers such as:
+signed
+unsigned
+short
+long
 
-* long              8 bytes                     long l; l= 99000;
- (Long integer)
-
-* float             4 bytes                     float f; f=3.14159
- (floating integers, integers with decimals)
-
-* double            8 bytes                     double d; d=3.141592653579
-  (doubles or larger floats )
-
-* bool              1 byte                      bool bb; bb=0;
- (boolean values: 0 or 1 also true or false)
+### Struct data type
 
 #### Identifiers.
 
@@ -99,6 +109,72 @@ You can imagine different boxes of different sizes and storing different things 
 **NOTES :** 
 1. **The C++ compiler ignores whitespaces and they are generally used for beautification of the code so that it is eassy for any programmer to debug or understand the code.**
 2. **If a variable is not initialized , it contains a garbage value. Let me give an example:**
+
+### Scope of Variables
+All the variables have their area of functioning, and out of that boundary they don't hold their value, this boundary is called scope of the variable. For most of the cases its between the curly braces,in which variable is declared that a variable exists, not outside it. We will study the storage classes later, but as of now, we can broadly divide variables into two main types,
+
+*Global Variables.
+
+*Local variables.
+
+#### Global variables
+
+Global variables are those, which ar once declared and can be used throughout the lifetime of the program by any class or any function. They must be declared outside the main() function. If only declared, they can be assigned different values at different time in program lifetime. But even if they are declared and initialized at the same time outside the main() function, then also they can be assigned any value at any point in the program.
+
+Example : Only declared, not initialized.
+
+```cpp
+#include <iostream>
+using namespace std;
+int x;                // Global variable declared
+int main()
+{
+ x=10;                 // Initialized once
+ cout <<"first value of x = "<< x;
+ x=20;                 // Initialized again
+ cout <<"Initialized again with value = "<< x;
+}
+```
+
+#### Local Variables
+Local variables are the variables which exist only between the curly braces, in which its declared. Outside that they are unavailable and leads to compile time error.
+
+Example :
+
+```cpp
+#include <iostream>
+using namespace std;
+int main()
+{
+ int i=10;
+ if(i<20)        // if condition scope starts
+  {
+    int n=100;   // Local variable declared and initialized
+  }              // if condition scope ends
+ cout << n;      // Compile time error, n not available here
+}
+```
+
+### Constant Variables
+Constant variable are the variables which cannot be changed. For example, if you needed "pi" in your code, you would not want to change it after initialization.
+
+Example :
+
+```cpp
+#include <iostream>
+using namespace std;
+const double PI = 3.14159253;
+int main()
+{
+//Calculating the area of a circle, using user provided radius
+double radius;
+//input and output explained in other guide
+cin>>radius;
+//pi*r^2
+double area = PI*radius*radius;
+cout<<area<<endl;
+}
+```
 
 ### Garbage Values in a Variable
 If a variable is not initialized , it contains a garbage value. For example:
