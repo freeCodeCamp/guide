@@ -3,8 +3,15 @@ title: Comparison with the Inequality Operator
 ---
 ## Comparison with the Inequality Operator
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-inequality-operator/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+* `!=` (Inequality) is a logical operator that returns true case the value on the left is different from the one on the right.
+* The inequality operator considers `7` and `"7"` to be the same because it doesn't compare the type of the variable.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+## Basic Solution
+```javascript
+function testNotEqual(val) {
+  if (val != 99) 
+    return "Not Equal";
+  
+  return "Equal";
+}
+```

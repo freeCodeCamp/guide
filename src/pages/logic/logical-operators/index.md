@@ -3,15 +3,8 @@ title: Logical Operators
 ---
 ## Logical Operators
 
-* **AND**
-* **OR**
-* **NOT**
-* **IF**
-* **IFF** (if and only if)
-* **XOR** ("exclusive or")
-
-## How They Function
-**AND** is only true when both inputs are true. If either input is false, the output will also be false.
+**AND (&&)** </br>
+A&&B returns True if both A and B are True. If either A or B (or both) are False, then A&&B is False.
 
 | A | B |AND(A,B)|
 |---|---|---|
@@ -20,7 +13,9 @@ title: Logical Operators
 |  t| t | t |
 |  t| f | t |
 
-**OR** is true when one or both inputs are true. You'll see in the table below that OR is false only when both inputs are false
+
+**OR (||)** </br>
+A||B returns True if A or B (or both A and B) is True. Only returns False if both A and B is False.
 
 | A | B |OR(A,B)|
 |---|---|---|
@@ -29,7 +24,8 @@ title: Logical Operators
 |  t| t | t |
 |  t| f | t |
 
-**NOT** is also known as inversion. The output of **NOT** is the opposite of the input. This is the only logical operator that works on only one input, which makes it a unary operator.
+**NOT (!)** </br>
+Negates a truth value (true or false). Ex. if A is true, then !A is false. This is the only logical operator that works on only one input, which makes it a unary operator.
 
 | A | B |NOT(A)| NOT(B)
 |---|---|---|---|
@@ -38,7 +34,8 @@ title: Logical Operators
 |  t| t | f |f|
 |  t| f | f |t|
 
-**XOR** is known as **exclusive or** is true when one input or the other is true, but not both. This may seem like a trivial difference from or, but **XOR** is an extremely useful operator.
+**XOR ("eXclusive or")** </br>
+Is known as **exclusive or**. Similar to OR, but returns False if both A and B are true. That is, XOR returns true if one and only one of A or B is True.
 
 | A | B |XOR(A,B)|
 |---|---|---|
@@ -47,11 +44,12 @@ title: Logical Operators
 |  t| t | f |
 |  t| f | t |
 
-**IF** is known as a conditional, it can be read as A -> B (if A then B, A implies B, or A therefore B). It means that if A is true, then so is B.
+**Implication (A -> B)** </br>
+Read as "if A, then B" or "A implies B". 
+Only returns False when A is True and B is False. Otherwise the implication is True. </br>
+<img src="http://sites.millersville.edu/bikenaga/math-proof/truth-tables/truth-tables13.png">
 
-As with all operators it is important to stress that the truth value of the output belongs to the operator. This is particularly true with the conditional. Since **IF** can be also be displayed as A -> B, it is easy to associate the value of B as the value of the operator, which is not the case.
-
-A common point of confusion is when A is flase and B is true. It is possible for something other than A to cause B to be true, so A being false does not imply that B is also false.
+Note: Implications are often used for direct mathematical proofs. A represents the hypothesis, while B is the conclusion.
 
 The only time the conditional is false is when a true value leads to a false value. 
 
@@ -62,7 +60,12 @@ The only time the conditional is false is when a true value leads to a false val
 |  t| t | t |
 |  t| f | f |
 
-**IFF** is known as the biconditional. It is the equivalent of A -> B **AND** B->A. It means that both conditionals must be satisfied in order for the biconditional to be true.
+
+**Logical Equivalence (iff: if and only if)** </br>
+"P if and only if Q" is the same as "P implies Q AND Q implies P". In other words, the truth tables for P and Q are identical for all truth values. 
+This is known as the biconditional. It is the equivalent of A -> B **AND** B->A. It means that both conditionals must be satisfied in order for the biconditional to be true.
+
+You can easily see that the out output of the IFF operator in the truth table is the same as the ANDing of columns 3 and 4.
 
 | A | B |IF(A,B)| IF(B,A)| IFF(A,B)|
 |---|---|---|---|---|
@@ -71,7 +74,6 @@ The only time the conditional is false is when a true value leads to a false val
 |  t| t | t |t|t|
 |  t| f | f |t|f|
 
-You can easily see that the out output of the IFF operator in the truth table is the same as the ANDing of columns 3 and 4.
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
