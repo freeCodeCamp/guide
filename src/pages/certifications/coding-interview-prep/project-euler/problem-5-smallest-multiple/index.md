@@ -35,5 +35,5 @@ function smallestMult(n){
 ```  
 - [Run Code](https://repl.it/@ezioda004/Problem-5-Smallest-multiple)
 ### References:
-- [Euclidean algoruthm](https://en.wikipedia.org/wiki/Euclidean_algorithm)
+- [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm)
 - [LCM](https://en.wikipedia.org/wiki/Least_common_multiple)
