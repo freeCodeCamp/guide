@@ -32,4 +32,5 @@ while (i <= 4){
     myArray.push(i);
     i++;
 }
+
 ```
