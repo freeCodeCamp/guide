@@ -2,9 +2,27 @@
 title: Returning Boolean Values from Functions
 ---
 ## Returning Boolean Values from Functions
+Instead of using an if/else block to compare variable we can do it right inside the return statement with a comparison operator and minmal code.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-javascript/returning-boolean-values-from-functions/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+## Hint:
+```javascript
+return 5 > 1; // returns true
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+## Spoiler Alert: Solution Ahead!
+
+## Solution:
+
+```javascript
+
+function isLess(a, b) {
+  return a < b;
+}
+
+// Change these values to test
+isLess(10, 15);
+
+```
+
+
