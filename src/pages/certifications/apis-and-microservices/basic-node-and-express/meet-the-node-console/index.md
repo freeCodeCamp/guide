@@ -15,9 +15,9 @@ There are many methods available from the node console. You can find a list of t
     console.log("An error happened");
 ```
 
-
-
-
+### If you use Glitch
+- Glitch had changed the 'Logs' button to 'Status' button, still on the top-left, under the app name
+- Don't submit the 'Edit' page directly. Click the 'Show' button (on top) and submit the application show page's url (url format is like https://appname.glitch.me/)
 
 
 
