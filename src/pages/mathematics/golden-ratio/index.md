@@ -3,11 +3,14 @@ title: Golden Ratio
 ---
 ## Golden Ratio
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/golden-ratio/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+`PHI = φ = 1.61803398875...`
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Two quantities are in the golden ratio if their ratio is the same as the ratio of their sum to the larger quanitity.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Given a > b > 0,
+(a + b)/a = a/b = φ
+
+The golden ratio is irrational, and can be represented as (1 + √5)/2.
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
