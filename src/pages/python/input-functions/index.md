@@ -8,7 +8,7 @@ Many a time, in a program we need some input from the user. Taking inputs from t
     # This will just give a prompt without any message
     inp = input()
 
-<a href='https://repl.it/CUqX/0' target='_blank' rel='nofollow'>Run Code</a> ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:")
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CUqX/0' target='_blank' rel='nofollow'>Run Code</a>
 
 1.  To give a prompt with a message:
 
@@ -16,11 +16,15 @@ Many a time, in a program we need some input from the user. Taking inputs from t
     # <Your prompt message should appear here> _
     # The '_' in the output is the prompt
 
-<a href='https://repl.it/CUqX/1' target='_blank' rel='nofollow'>Run Code</a> :rocket: 3\. When we want to take an integer input:  
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CUqX/1' target='_blank' rel='nofollow'>Run Code</a>
+
+3\. When we want to take an integer input:  
 
     number = int(input('Please enter a number: '))
 
-<a href='https://repl.it/CUqX/2' target='_blank' rel='nofollow'>Run Code</a> :rocket: If you enter a non integer value then Python will throw an error `ValueError`. **So whenever you use this, please make sure that you catch it too.** Otherwise, your program will stop unexpectedly after the prompt.  
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CUqX/2' target='_blank' rel='nofollow'>Run Code</a>
+
+If you enter a non integer value then Python will throw an error `ValueError`. **So whenever you use this, please make sure that you catch it too.** Otherwise, your program will stop unexpectedly after the prompt.  
 
     number = int(input('Please enter a number: '))
     # Please enter a number: as
@@ -31,7 +35,7 @@ Many a time, in a program we need some input from the user. Taking inputs from t
 
     string = str(input('Please enter a string: '))
 
-<a href='https://repl.it/CUqX/3' target='_blank' rel='nofollow'>Run Code</a> ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:")
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CUqX/3' target='_blank' rel='nofollow'>Run Code</a>
 
 Though, inputs are stored by default as a string. Using the `str()` function makes it clear to the code-reader that the input is going to be a 'string'. It is a good practice to mention what type of input will be taken beforehand.
 

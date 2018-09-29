@@ -3,57 +3,56 @@ title: Array.prototype.sort
 ---
 ## Array.prototype.sort
 
-The `sort()` method sorts the elements of an array in place and returns the array. The default sort order is according to string Unicode code points.
+This method sorts the elements of an array in place and returns the array.
 
-#### Parameters
-1. `compareFunction` - optional - Specifies a function that defines the sort order. If omitted, the array is sorted according to each character's Unicode code point value, according to the string conversion of each element.
+The `sort()` method follows the **ASCII order**!
 
-#### Returns
-The sorted array.  
-*Note that the array is sorted in place, and no copy is made.*
 
-#### Examples
+index|character
+---|---
+33|!
+34|"
+35|#
+36|$
+37|%
 
-```js
-const veggies = ['cucumber', 'spinach', 'broccoli'];
-
-veggies.sort();
-
-console.log(veggies);
-/* Results:
-[ 'broccoli', 'cucumber', 'spinach' ]
-*/
-```
 
 ```js
-const items = [
-  { name: 'Sorting', value: 21 },
-  { name: 'Things', value: 37 },
-  { name: 'Can', value: 45 },
-  { name: 'Be', value: -12 },
-  { name: 'Very', value: 13 },
-  { name: 'Interesting', value: 37 }
-];
+var myArray = ['#', '!'];
+var sortedArray = myArray.sort();   // ['!', '#'] because in the ASCII table "!" is before "#"
 
-// sort by value
-items.sort(function (a, b) {
-  return a.value - b.value;
-});
+myArray = ['a', 'c', 'b'];
+console.log(myArray.sort()); // ['a', 'b', 'c']
+console.log(myArray) // ['a', 'b', 'c']
 
-console.log(items);
-/* Result:
-[ 
-  { name: 'Be', value: -12 },
-  { name: 'Very', value: 13 },
-  { name: 'Sorting', value: 21 },
-  { name: 'Things', value: 37 },
-  { name: 'Interesting', value: 37 },
-  { name: 'Can', value: 45 }
-]
-*/
+myArray = ['b', 'a', 'aa'];
+console.log(myArray.sort());   // ['a', 'aa', 'b']
+
+myArray = [1, 2, 13, 23];
+console.log(myArray.sort());   // [1, 13, 2, 23] numbers are treated like strings!
 ```
 
+
+# Advanced usage
+
+The `sort()` method can also accept a parameter: `array.sort(compareFunction)`
+
+### For example
+
+```js
+function compare(a, b){
+  if (a < b){return -1;}
+  if (a > b){return 1;}
+  if (a === b){return 0;}
+}
+
+var myArray = [1, 2, 23, 13];
+console.log(myArray.sort()); // [ 1, 13, 2, 23 ]
+console.log(myArray.sort(compare));   // [ 1, 2, 13, 23 ]
+
+myArray = [3, 4, 1, 2];
+sortedArray = myArray.sort(function(a, b){.....});   // it depends from the compareFunction
+```
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
-
