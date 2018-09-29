@@ -47,7 +47,7 @@ To retrieve changes out of the stash and apply them to the current branch you're
 1. `git stash apply STASH-NAME` applies the changes and leaves a copy in the stash
 2. `git stash pop STASH-NAME` applies the changes and removes the files from the stash
 
-There may be conflicts when you apply changes. You can resolve the conflicts similar to a merge ([see Git merge for details](https://guide.freecodecamp.org/git/git-merge/)).
+There may be conflicts when you apply changes. You can resolve the conflicts similar to a merge (<a href='https://guide.freecodecamp.org/git/git-merge/' target='_blank' rel='nofollow'>see Git merge for details</a>).
 
 ### Delete Stashed Changes
 If you want to remove stashed changes without applying them, run the command:
@@ -61,5 +61,5 @@ git stash clear
 ```
 
 ### More Information:
-- The `git merge` command: [fCC Guide](https://guide.freecodecamp.org/git/git-merge/)
-- Git documentation: [stash](https://git-scm.com/docs/git-stash)
+- The `git merge` command: <a href='https://guide.freecodecamp.org/git/git-merge/' target='_blank' rel='nofollow'>fCC Guide</a>
+- Git documentation: <a href='https://git-scm.com/docs/git-stash' target='_blank' rel='nofollow'>stash</a>

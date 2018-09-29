@@ -9,7 +9,8 @@ while(condition) {
    statement(s);
 }
 
-key point of the while loop is that the loop might not ever run. When the condition is tested and the result is false, the loop body will be skipped and the first statement after the while loop will be executed.
+A key point of the while loop is that the loop might not ever run.
+When the condition is tested and the result is false, the loop body will be skipped and the first statement after the while loop will be executed.
 
 
 Example:
@@ -29,7 +30,8 @@ int main () {
    }
  
    return 0;
-}```
+}
+```
 
 Output:
 
