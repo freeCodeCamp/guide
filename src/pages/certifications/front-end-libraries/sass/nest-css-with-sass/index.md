@@ -27,6 +27,7 @@ title: Nest CSS with Sass
 ```sass
 <style type='text/sass'>
   .blog-post { 
+  }
     h1 {
      text-align: center;
      color: blue;
@@ -34,6 +35,6 @@ title: Nest CSS with Sass
     p {
         font-size: 20px;
     } 
-  }  
+    
 </style>
 ```
