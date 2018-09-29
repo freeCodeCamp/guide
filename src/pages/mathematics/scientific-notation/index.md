@@ -3,13 +3,22 @@ title: Scientific Notation
 ---
 ## Scientific Notation
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/scientific-notation/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Scientific notation is a way of writing very large/small numbers in order to more easily handle them in computation.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+We can think of a number in scientific notation being comprised of a "digit term" and an "exponential term"
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+The digit term contains the significant figures of the number. The digit term must be a number between 1 and 10. The exponential term contains the placeholder zeros and locates where the decimal is placed. If the exponential term has a negative exponent, that means that the number is smaller than one, and that the decimal point must be moved a certain number of spaces to the left. Whereas a positive exponential number means that the number is very large and the decimal point must be moved to the right.
+
+#### Example:
+545,000,000,000 written in scientific notation: 5.45 x 10^11
+
+0.0000000000030435 = 3.0435 x 10^-12
+
+10 = 1.0 x 10^1
+
+1 = 1.0 x 10^0
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
+* [Great article including arithmetic in scientific notation](https://www.chem.tamu.edu/class/fyp/mathrev/mr-scnot.html)
+* [wikipedia article](https://en.wikipedia.org/wiki/Scientific_notation)
 
