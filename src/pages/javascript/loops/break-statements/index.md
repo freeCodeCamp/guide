@@ -3,7 +3,7 @@ title: Break Statement
 ---
 ## Introduction
 
-The **break** statement terminates the current loop, `switch`, or `label` statement and transfers program control to the statement following the terminated statement.
+The **break** statement terminates the current loop, `switch` or `label` statement and transfers program control to the statement following the terminated statement.
 
     break;
 
@@ -11,7 +11,6 @@ If the **break** statement is used in a labeled statement, the syntax is as foll
 
     break labelName;
 
-<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/break' target='_blank' rel='nofollow'>MDN link</a> | <a href='https://msdn.microsoft.com/en-us/library/3fhdxafb.aspx' target='_blank' rel='nofollow'>MSDN link</a>
 
 ## Examples
 
@@ -41,3 +40,7 @@ In the following example, the counter is set up to count from 1 to 99; however, 
     }
 
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/C7VO/0' target='_blank' rel='nofollow'>Run Code</a>
+
+## Other resources:
+
+<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/break' target='_blank' rel='nofollow'>MDN link</a> | <a href='https://msdn.microsoft.com/en-us/library/3fhdxafb.aspx' target='_blank' rel='nofollow'>MSDN link</a>
