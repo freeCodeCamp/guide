@@ -7,7 +7,7 @@ You can think of a number's absolute value as its distance from zero.
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Absolute_value.svg/2000px-Absolute_value.svg.png" width="300">  
 
-Here you can see that in the graph of y = |x|, if -2 is input in to the function, 2 is the result. This is because -2 has a distance of 2 from zero.
+Here you can see that in the graph of y = |x|, if -2 is input in to the function, 2 is the result. This is because -2 has a distance of 2 from zero. The absolute value of a number can never be negative. 
 
 ### Examples
 
@@ -30,6 +30,9 @@ Here you can see that in the graph of y = |x|, if -2 is input in to the function
 * **Simplify |8|**
 
   |8| = 8
+  
+* **Simplify |(-5)^3|**
+|-125| = 125
 
 #### More Information:
 <a href='http://www.purplemath.com/modules/absolute.htm "Absolute Value"' target='_blank' rel='nofollow'>Absolute Value</a>

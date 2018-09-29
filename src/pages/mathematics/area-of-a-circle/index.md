@@ -43,7 +43,7 @@ Area of circle =  <span class="texhtml"><span class="texhtml">π</span> * <i>(
 
 We know that the circumference of the circle (C), 
 <br>`C = 2 * π * (radius)`.
-<br><br>From this,you can derive the area of the circle as below,
+<br><br>From this, you can derive the area of the circle as below,
 
 Area of circle =  <i>C</i><sup>2</sup></span> / 4 * <span class="texhtml"><span class="texhtml">π</span>
   
@@ -63,5 +63,27 @@ Area of circle =  <i>C</i><sup>2</sup></span> / 4 * <span class="texhtml"><span 
 
      Area = 625 / (4 * 3.14) = 49.76 <span>cm<sup>2</sup></span>
 
-#### More Information:
+A "Real World" Example:-
+
+Example: Max is building a house. The first step is to drill holes and fill them with concrete.
+The holes are 0.4 m wide and 1 m deep, how much concrete should Max order for each hole?
+
+The holes are circular (in cross section) because they are drilled out using an auger.
+The diameter is 0.4m, so the Area is:
+A = (π/4) × D2
+A = (3.14159.../4) × 0.42
+A = 0.7854... × 0.16
+A = 0.126 m2 (to 3 decimals)
+And the holes are 1 m deep, so:
+Volume = 0.126 m2 × 1 m = 0.126 m3
+So Max should order 0.126 cubic meters of concrete to fill each hole.
+ 
+Note: Max could have estimated the area by:
+1. Calculating a square hole: 0.4 × 0.4 = 0.16 m2
+2. Taking 80% of that (estimates a circle): 80% × 0.16 m2 = 0.128 m2
+3. And the volume of a 1 m deep hole is: 0.128 m3
+
+#### More Information
+
 More information with illustrations can be found [WikiHow](https://www.wikihow.com/Calculate-the-Area-of-a-Circle)
+

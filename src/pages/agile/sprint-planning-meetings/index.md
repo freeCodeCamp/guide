@@ -1,14 +1,24 @@
 ---
-title: Sprint Planning Meetings
+title: Sprint Planning Meeting
 ---
-## Sprint Planning Meetings
+## Sprint Planning Meeting
 
-Sprint Planning Meetings are involve Scrum Team members, Scrummaster and Product Owner. It supposed to be possibly short and clear for all of the participants.
+The Sprint Planning is facilitated by the team's Scrum Master and consists of the Scrum Team: Development Team, Product Owner (PO) and Scrum Master (SM). It aims to plan a subset of Product Backlog items into a Sprint Backlog. The Scrum Sprint is normally started in after the Sprint Planning meeting. 
 
-Product Owner's role is to explain the business needs.
+### Main part
+It is of high value for the team to part the meeting in two parts by asking this two questions: 
+* **What** should the team plan for the upcoming Sprint? 
+* **How** should the team (roughly) takle the items planned?
 
-Scrum Master helps to arrange it into an actionable tasks.
+#### What
+In What phase the team starts with the top of the ordered Product Backlog. The team at least implicitly estimates the items by forecasting what they could take into Sprint Backlog. If needed they could ask / discuss items with the PO, who has to be in place for this meeting. 
 
-Team members apply and plan it according to their best understanding.
+#### How
+In How phase the team shortly discusses every picked Sprint Backlog item with the focus on how they will takle it. SM helps the team not to deep dive into discussion and implementation details. It is very likely and good if more questions to the PO are asked or refinements to the items, or backlog is done by the team. 
 
-The outcome of a sprint planning meeting should include a specific business goal executed with actual development tasks.
+### Sprint Goal / Closing
+The team should come up with a shared Sprint Goal for the Sprint to keep the focus in the Sprint time box. At the end of the Sprint Planning the team forecasts that they can achieve the Sprint Goal and complete most likely all Sprint Backlog items. The SM should prevent the team to overestimate by providing useful insights or statistics. 
+
+
+#### More Information:
+[Scrum Guide: Sprint Planning](http://www.scrumguides.org/scrum-guide.html#events-planning)

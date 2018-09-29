@@ -30,13 +30,13 @@ Using the same graph, you can pick any two points, C (x1, y1) and D (x2, y2) and
 
 The slope from pt. C to pt. D is: 
 
-![image](https://github.com/MarkMikow/MyFiles/blob/master/img4.png)
+![image](https://github.com/MarkMikow/MyFiles/blob/master/img4.png?raw=true)
 
-The expression ![image](https://github.com/MarkMikow/MyFiles/blob/master/img5.png) is called the difference quotient and you can use it to find the average rate of change from any point on a graph to any other point a horizontal distance of h units away.
+The expression ![image](https://github.com/MarkMikow/MyFiles/blob/master/img5.png?raw=true) is called the difference quotient and you can use it to find the average rate of change from any point on a graph to any other point a horizontal distance of h units away.
 
 To convert the average rate of change (the slope) to an instantaneous rate of change (the derivative, notated as f (x)), you take the limit of the difference quotient:
 
-![image](https://github.com/MarkMikow/MyFiles/blob/master/img6.png)
+![image](https://github.com/MarkMikow/MyFiles/blob/master/img6.png?raw=true)
 
 This is the formal definition of the derivative and means that you are taking the distance h and shrinking it down to an infinitesimally small amount. You still have a slope, but its end-points are infinitesimally close to each other. So close, in fact, that they appear as one point, or as one instant, in time. 
 

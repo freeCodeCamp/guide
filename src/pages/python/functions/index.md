@@ -56,7 +56,7 @@ result = sum(1, 2)
 # result = 3
 ```
 
-You can define default values for the parameters, that whay you can supress that parameter.
+You can define default values for the parameters, that way Python will interpretate that the value of that parameter is the default one if none is given.
 
 ```python
 def sum(a, b=3):
@@ -66,14 +66,23 @@ result = sum(1)
 # result = 4
 ```
 
-You can pass the parameters in the order you whant, using the name of the parameter.
+You can pass the parameters in the order you want, using the name of the parameter.
 
 ```python
 result = sum(b=2, a=2)
 # result = 4
 ```
 
-Functions are also Objects, that way you can assign then to another variable, and use that variable like a function.
+However, it is not possible to pass a keyword argument before a non-keyword one
+
+```Python
+result = sum(3, b=2)
+#result = 5
+result2 = sum(b=2, 3)
+#Will raise SyntaxError
+```
+
+Functions are also Objects, so you can assign them to a variable, and use that variable like a function.
 
 ```python
 s = sum

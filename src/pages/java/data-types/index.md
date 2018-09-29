@@ -5,7 +5,7 @@ title: Data Types
 
 Java is a strongly typed language. This means that, in Java, each data type has its own strict definition. There are no implicit data type conversions when any conflicts occur between the data types. Any change in data types should be explicitly declared by the programmer.
 
-Java defines 8 simple data types : `byte`, `short`, `int`, `long`, `char`, `float`, `double` and `boolean`.
+Java defines 8 primitive data types : `byte`, `short`, `int`, `long`, `char`, `float`, `double` and `boolean`.
 
 They are divided into the following categories:
 
@@ -32,7 +32,7 @@ Byte data type is an 8-bit signed two's complement integer.
 
     Default value: 0
 
-    Example: byte a = 10 , byte b = -50
+    Example: byte a = 10 , byte b = -50;
 
 ### short:
 
@@ -46,7 +46,7 @@ Short data type is a 16-bit signed two's complement integer.
 
     Default value: 0.
 
-    Example: short s = 10, short r = -1000
+    Example: short s = 10, short r = -1000;
 
 ### int:
 
@@ -93,7 +93,7 @@ float data type is a single-precision 32-bit <a href='http://steve.hollasch.net/
 
     Default value: 0.0f.
 
-    Example: float f1 = 24.5f
+    Example: float f1 = 24.5f;
 
     The default data type of floating-point number is double. So float f = 24.5 will introduce an error.
     However, we can append the suffix F (or f) to designate the data type as float.
@@ -120,7 +120,7 @@ We use this data type to store characters. This is not the same as the char in C
 
     Maximum value: '\uffff' (or 65,535).
 
-    Example: char letterA ='a'
+    Example: char letterA ='a';
 
 ## Boolean:
 
@@ -143,7 +143,7 @@ Apart from primitive data types there are reference variables created using cons
 Example :
 
 ```java
-class Box{
+public class Box{
 
     int length, breadth, height;
 
@@ -161,4 +161,36 @@ class demo{
         char[] arr = new char[10];           //arr is the reference variable
     }
 }
+```
+
+## String:
+
+String is not a primitive data type, but it lets you store multiple character data types in an array and has many methods that can be used. It is used quite commonly when the user types in data and you have to manipulate it. 
+
+In the example below, we try to remove all of the letters from the string and output it:
+
+```java
+
+String input = "My birthday is 10 January 1984 and my favorite number is 42";
+String output = "";
+
+for(int i=0;i<input.length();i++){
+
+//if the character at index i on the string is a letter or a space, move on to the next index
+if(Character.isLetter(input.charAt(i)) || input.charAt(i)==' '){ 
+    
+    continue;
+}
+
+output = output + input.charAt(i); //the number is added onto the output
+
+}
+
+System.out.println(output);
+```
+
+
+Output: 
+```
+10198442
 ```

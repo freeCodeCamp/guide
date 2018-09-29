@@ -82,6 +82,45 @@ Any RHS references inside `bar`'s local scope can be fullfilled by LHS reference
 
 **You can only traverse down a scope chain, not up.**
 
+There are other two important things you should know about JavaScript scopes. 
+
+1. Scopes are declared by functions, not by blocks.
+2. Functions can be forward-referenced, variables can't.
+
+Observe (each comment describes scope at the line that it's written on):
+
+```
+    // outer() is in scope here because functions can be forward-referenced
+    
+    function outer() {
+    
+        // only inner() is in scope here
+        // because only functions are forward-referenced
+    
+        var a = 1;
+        
+        //now 'a' and inner() are in scope
+        
+        function inner() {
+            var b = 2
+            
+            if (a == 1) {
+                var c = 3;
+            }
+            
+            // 'c' is still in scope because JavaScript doesn't care
+            // about the end of the 'if' block, only function inner()
+        }
+        
+        // now b and c are out of scope
+        // a and inner() are still in scope
+        
+    }
+    
+    // here, only outer() is in scope
+ ```
+
 # References
 
 1.  <a href='https://github.com/getify/You-Dont-Know-JS/tree/master/scope%20%26%20closures' target='_blank' rel='nofollow'>Scopes and Closures</a> by Kyle Simpson. It goes into more details of how the scope mechanism works, and also has a superficial description of how the JavaScript compiler works, so if you're interested in that, definitely give it a read! It's free on GitHub and can be bought from O'Reilly.
+2. <a href="https://www.amazon.com/Secrets-JavaScript-Ninja-John-Resig/dp/1617292850/ref=pd_lpo_sbs_14_img_0?_encoding=UTF8&psc=1&refRID=YMC2TB2C0DFHTQ3V62CA" target='_blank'>Secrets of the JavaScript Ninja</a> by John Resig and Bear Bibeault. A great guide for a more in-depth understanding of JavaScript.
