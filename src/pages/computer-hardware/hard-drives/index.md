@@ -3,13 +3,13 @@ title: Hard Drives
 ---
 ## Hard Drives
 
+Hard drives are permanent storages for computers. There are several types of hard drives, traditional magnetic disks, new generation solid state disks or hybrid disks which contains both SSD and magnetic storage.
 
-Hard drives are spinning magnetic disks that serve as long-term storage for computer data.
+Traditional hard disk uses magnetic needles and rotating magnetized platters to store data. Because of these moving parts, hard drives are easily damaged by drops or shocks. The motor that rotates the platters also consumes a lot of power, but no other storage method is as affordable for large volumes of storage.
 
+Hard drives come in various storage capacities, some up to even 10TB (10 trillion bytes). Typical computers come with 256GB (256 million bytes) to 1TB of storage space. Laptops usually use Solid State Drives (SSDs) because they are faster, lighter, and contain no moving parts, making them less likely to fail due to impact. For the same amount of storage, SSDs are generally more expensive than hard drives. Recently, some SSDs have been released that interface with the motherboard through the PCIe (PCI Express) bus slot through a system called NVMe. These SSDs have proven to be even faster at read/write times than traditional SATA SSDs.
 
-Hard drives come in various sizes, some up to even 10TB (10 trillion bytes). Typical computers come with 256GB (256 million bytes) to 1TB of storage space. Laptops usually use Solid State Drives (SSDs) because they are faster, lighter, and contain no moving parts, making them less likely to fail due to impact. For the same amount of storage, SSDs are generally more expensive than hard drives. 
-
-Magnetic heads are responsible for reading and writing data, which is physically stored on a set of magnetically coated discs stacked above one another referred to as a platter.  The heads are located at the end of an armature.  Interior discs that of the platter have two heads on a single arm.  This allows data to be accessed from both the disc beneath and above the arm.  The top and bottom discs of the platter only have one head at the end of an arm. On the opposite end of the end on the arm is an actuator.  It provides the movement of the arm to travel from the center of the platter called the spindle to the outermost regions of the platter.  The amount of time it takes to place the head in the correct concentric location is referred to as the seek time.  Once the head is in the correct concentric spatial location more time is spent waiting for the disc to rotate such that the sector with the requested data is beneath the head.  This amount of time is referred to as latency.   
+Magnetic heads are responsible for reading and writing data, which is physically stored on a set of magnetically coated discs stacked above one another referred to as a platter. The heads are located at the end of an armature. The interior discs of the platter have two heads on a single arm. This allows data to be accessed from both the disc beneath and above the arm. The top and bottom discs of the platter only have one head at the end of an arm. On the opposite end of the end on the arm is an actuator. It provides the movement of the arm to travel from the center of the platter called the spindle to the outermost regions of the platter. The amount of time it takes to place the head in the correct concentric location is referred to as the seek time. Once the head is in the correct concentric spatial location more time is spent waiting for the disc to rotate such that the sector with the requested data is beneath the head.  This amount of time is referred to as latency.
 
 The heads are positioned only a few nanometers away from the rotating discs. The heads are said to "fly" above the platter and as such the distance between head and platter is referred to as the 'flying height'.  The heads are designed to never touch the locations of the platters that store data and are magnetically coated. Should the head 'touch down' on a platter, both the head and sectors of the platters may be destroyed resulting in data loss (hence the phrase "a hard drive crash" or "head crash").
 
@@ -26,10 +26,11 @@ Data stored in RAM is said to be fleeting whereas data written out to a hard dri
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
-<a href='https://en.wikipedia.org/w/index.php?title=Flying_height&oldid=708071111' target='_blank' rel='nofollow'>Wikipedia</a>
-
-<a href='https://en.wikipedia.org/wiki/Hard_disk_drive' target='_blank' rel='nofollow'>Wikipedia</a>
-
+<a href='https://en.wikipedia.org/wiki/Hard_disk_drive' target='_blank' rel='nofollow'>Wikipedia</a> - Hard Disk Drive
+<a href='https://en.wikipedia.org/w/index.php?title=Flying_height&oldid=708071111' target='_blank' rel='nofollow'>Wikipedia</a> - Flying height
+<a href='https://en.wikipedia.org/wiki/Computer_data_storage' target='_blank' rel='nofollow'>Computer data storage (Wikipedia)</a>
+<a href='https://en.wikipedia.org/wiki/Flying_height' target='_blank' rel='nofollow'>Flying Height (Wikipedia)</a>
+<a href='https://en.wikipedia.org/wiki/Hard_disk_drive' target='_blank' rel='nofollow'>Hard disk drive (Wikipedia)</a>
 <a href='https://www.pcmag.com/article2/0,2817,2404258,00.asp' target='_blank' rel='nofollow'>Hard drives vs SSDs</a>
 
 <a href='https://www.digitaltrends.com/computing/solid-state-drives-vs-hard-disk-drives/' target='_blank' rel='nofollow'>Hard drives vs SSDs</a>
