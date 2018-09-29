@@ -254,3 +254,32 @@ int main(void)
 * Pointers are variables, but instead of storing a value, they store a memory location.
 * `*` and `&` are used to access values at memory locations and to access memory locations, respectively.
 * Pointers are useful for some of the underlying features of C.
+
+#Pointer vs Array in C
+Most of the time, pointer and array accesses can be treated as acting the same, the major exceptions being:
+
+1) the sizeof operator
+* sizeof(array) returns the amount of memory used by all elements in array
+* sizeof(pointer) only returns the amount of memory used by the pointer variable itself
+
+2) the & operator
+* &array is an alias for &array[0] and returns the address of the first element in array
+* &pointer returns the address of pointer
+
+3) a string literal initialization of a character array
+* char array[] = “abc” sets the first four elements in array to ‘a’, ‘b’, ‘c’, and ‘\0’
+* char *pointer = “abc” sets pointer to the address of the “abc” string (which may be stored in read-only memory and thus unchangeable)
+
+4) Pointer variable can be assigned a value whereas array variable cannot be.
+```
+int a[10];
+int *p; 
+p=a; /*legal*/
+a=p; /*illegal*/ 
+```
+5) Arithmetic on pointer variable is allowed.
+```
+p++; /*Legal*/
+a++; /*illegal*/ 
+```
+
