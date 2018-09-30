@@ -25,3 +25,6 @@ For this reason Blockchain is also known as **"The Trust Protocol"**.
 [WTF is The Blockchain?](https://hackernoon.com/wtf-is-the-blockchain-1da89ba19348)       
 [Blockchain: the revolution we’re not ready for](https://medium.freecodecamp.org/blockchain-is-our-first-22nd-century-technology-d4ad45fca2ce)         
 [How the blockchain is changing money and business | Don Tapscott (YouTube video)](https://www.youtube.com/watch?v=Pl8OlkkwRpc)
+
+### Lab
+<https://github.com/Microsoft/computerscience/blob/master/Labs/Azure%20Services/Blockchain%20on%20Azure/Blockchain%20on%20Azure.md">Blockchain On Azure</a>
