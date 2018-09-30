@@ -86,4 +86,8 @@ background: linear-gradient(to right,red 15%, yellow 15%);
 ![Hard colour stops](https://cdn.discordapp.com/attachments/261391445074771978/371716730046775318/image.png)
 
 
-**More information-** [Linear-gradient on Mozilla Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient)
+**More information-**
+
+[Linear-gradient on Mozilla Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient)
+
+[Gradient - CSS Tricks](https://css-tricks.com/css3-gradients/)
