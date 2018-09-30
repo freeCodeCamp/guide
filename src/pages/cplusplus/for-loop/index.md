@@ -10,7 +10,7 @@ The for loop is distinguished from other looping statements through an explicit 
 Hence a for loop is a repetition control structure that allows you to efficiently write a loop that needs to execute a specific number of times.
 
 Syntax:
-for ( init counter; condition for counter; change counter ) {
+for ( init; condition; increment) {
    statement(s);
 }
 init: this is execute once only.This step allows you to declare and initialize any loop control variables
