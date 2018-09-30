@@ -1,10 +1,33 @@
 ---
 title: Implement map on a Prototype
 ---
+
 ## Implement map on a Prototype
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/functional-programming/implement-map-on-a-prototype/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+To solve THIS challenge using the keyword this is a key.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+It will give us access to the object we are calling myMap.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+From there we can use the forEach or for loop to add elements to already declared empty array as we modify each element with the given callback method.
+
+```javascript
+// the global Array
+var s = [23, 65, 98, 5];
+
+Array.prototype.myMap = function(callback){
+  var newArray = [];
+  // Add your code below this line
+  this.forEach(a => newArray.push(callback(a)));
+  // Add your code above this line
+  return newArray;
+
+};
+
+var new_s = s.myMap(function(item){
+  return item * 2;
+});
+```
+
+### Useful Links
+[this. Javascript MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)<br/>
+[this. Javascript W3Schools](https://www.w3schools.com/js/js_this.asp)

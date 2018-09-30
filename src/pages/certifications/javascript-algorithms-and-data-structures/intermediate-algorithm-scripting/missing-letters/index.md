@@ -112,6 +112,22 @@ You will need to figure out where the missing letter is, along with handling the
 *   <a href='http://forum.freecodecamp.com/t/javascript-string-prototype-split/15944' target='_blank' rel='nofollow'>JS String Prototype Split</a>
 *   <a href='http://forum.freecodecamp.com/t/javascript-array-prototype-map/14294' target='_blank' rel='nofollow'>JS Array Prototype Map</a>
 
+## ![:rotating_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:") Simplified Advanced Code Solution:
+
+    function fearNotLetter(str) {
+      for (let i = 1; i < str.length; ++i) {
+        if (str.charCodeAt(i) - str.charCodeAt(i-1) > 1) {
+          return String.fromCharCode(str.charCodeAt(i - 1) + 1);
+        }
+      }
+    }
+
+### Code Explanation:
+
+* Loop over the string
+* Check if the difference in char codes between adjacent characters in the string is more than 1 (chack ASCII table)
+* Return the missing character ( +1 from where the gap was detected)
+
 ## ![:rotating_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:") Advanced Code Solution:
 
     function fearNotLetter(str) {

@@ -1,10 +1,26 @@
 ---
 title: Add Elements to the End of an Array Using concat Instead of push
 ---
+
 ## Add Elements to the End of an Array Using concat Instead of push
+Where the `push` method adds new element to the end of the orginal array, the `concat` method creates a new array containing the elements from the original array and the new element. The original array remains the same when using `concat`.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/functional-programming/add-elements-to-the-end-of-an-array-using-concat-instead-of-push/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+#### Relevant Links:
+- [Array.prototype.concat()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat)
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+## Solution
+```javascript
+function nonMutatingPush(original, newItem) {
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+  // Add your code below this line
+  
+  return original.concat(newItem);
+
+  // Add your code above this line
+}
+
+var first = [1, 2, 3];
+var second = [4, 5];
+nonMutatingPush(first, second);
+
+```

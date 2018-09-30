@@ -3,7 +3,6 @@
 title: Simplify Square Roots
 ---
 ## Simplify Square Roots
-
 In order to simplify square roots, it is important to know the radical product property. 
 
 ![Image showing radical product property. The square root of A multiplied by the square root of B is equivalent to the square root of A multiplied by B.](https://raw.githubusercontent.com/hayleycd/images/master/multiplying_radicals.jpeg)

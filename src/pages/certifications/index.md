@@ -1,5 +1,5 @@
 ---
-title: Certificates
+title: Certifications
 ---
 ## Certificates
 

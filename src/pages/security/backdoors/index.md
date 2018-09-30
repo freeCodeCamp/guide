@@ -16,6 +16,5 @@ One of the most controversial backdoor cases involved the NSA's reported efforts
 
 ### More Information:
 * What is a backdoor: <a href='https://www.incapsula.com/web-application-security/backdoor-shell-attack.html' target='_blank' rel='nofollow'>Incapsula</a>
-* Backdoor article: <a href='https://en.wikipedia.org/wiki/Backdoor_(computing)' target='_blank' rel='nofollow'>Wikipedia</a>)
-
+* Backdoor article: <a href='https://en.wikipedia.org/wiki/Backdoor_(computing)' target='_blank' rel='nofollow'>Wikipedia</a>
 

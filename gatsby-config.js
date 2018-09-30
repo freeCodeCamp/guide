@@ -35,6 +35,20 @@ module.exports = {
         trackingId: 'UA-55446531-6'
       }
     },
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: 'freeCodeCamp Guide',
+        /* eslint-disable camelcase */
+        short_name: 'fCC Guide',
+        start_url: '/',
+        background_color: '#ffffff',
+        theme_color: '#006400',
+        /* eslint-enable camelcase */
+        display: 'minimal-ui',
+        icon: 'static/square_puck.png'
+      }
+    },
     'gatsby-plugin-sitemap'
   ]
 };

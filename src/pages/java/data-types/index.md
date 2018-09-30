@@ -32,7 +32,7 @@ Byte data type is an 8-bit signed two's complement integer.
 
     Default value: 0
 
-    Example: byte a = 10 , byte b = -50
+    Example: byte a = 10 , byte b = -50;
 
 ### short:
 
@@ -46,7 +46,7 @@ Short data type is a 16-bit signed two's complement integer.
 
     Default value: 0.
 
-    Example: short s = 10, short r = -1000
+    Example: short s = 10, short r = -1000;
 
 ### int:
 
@@ -93,7 +93,7 @@ float data type is a single-precision 32-bit <a href='http://steve.hollasch.net/
 
     Default value: 0.0f.
 
-    Example: float f1 = 24.5f
+    Example: float f1 = 24.5f;
 
     The default data type of floating-point number is double. So float f = 24.5 will introduce an error.
     However, we can append the suffix F (or f) to designate the data type as float.
@@ -120,7 +120,7 @@ We use this data type to store characters. This is not the same as the char in C
 
     Maximum value: '\uffff' (or 65,535).
 
-    Example: char letterA ='a'
+    Example: char letterA ='a';
 
 ## Boolean:
 
@@ -143,7 +143,7 @@ Apart from primitive data types there are reference variables created using cons
 Example :
 
 ```java
-class Box{
+public class Box{
 
     int length, breadth, height;
 

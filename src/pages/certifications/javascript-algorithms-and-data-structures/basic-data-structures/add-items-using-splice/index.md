@@ -2,9 +2,28 @@
 title: Add Items Using splice()
 ---
 ## Add Items Using splice()
+- Using the splice() function, you must remove the first 2 elements from array `arr` and replace them with `DarkSalmon` and `BlanchedAlmond`.
+- Remember the splice function can take up to three parameters. 
+## Example:
+```javascript
+arr.splice(0, 1, "Two");
+/*  The first two paramemters are the same as they were in the previous challenge. 
+    `0` will start the `splice()` function off at index 0.
+    The second parameter `1` will remove only 1 variable from the array.
+    The final variable "Two" will replace the variable in arr[0].
+    Note: The final parameter can take more than 1 arguement.
+*/
+```
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-data-structures/add-items-using-splice/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+## Solution:
+```javascript
+function htmlColorNames(arr) {
+  // change code below this line
+  arr.splice(0, 2, "DarkSalmon", "BlanchedAlmond");
+  // change code above this line
+  return arr;
+} 
+ 
+// do not change code below this line
+console.log(htmlColorNames(['DarkGoldenRod', 'WhiteSmoke', 'LavenderBlush', 'PaleTurqoise', 'FireBrick']));
+```

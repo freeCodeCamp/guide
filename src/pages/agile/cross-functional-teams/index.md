@@ -24,18 +24,19 @@ Each member offers an alternative perspective to the problem and potential solut
 
 * Achieve customer satisfaction by working for the same goal
 
-### Articles
+Some researchers have viewed cross-functional interactions as cooperative or competitive in nature, while others have argued that organization’s functional areas are often forced to compete and cooperate simultaneously with one another (“coopetition”) and it is critical to understand how these complex relationships interplay and affect firm performance.
 
-* [17 PROVEN WAYS TO BENEFIT FROM A CROSS-FUNCTIONAL TEAM] (https://www.scoro.com/blog/improve-cross-team-collaboration/)
+### Cross Functional Team Skill Composition
+One common challenge of composing Cross Functional Teams is the thought that every technical member on the team is required to have all the technical skills necessary to perform any of the work. It helps that team members can perform more than one technical skill but it is still okay to have specialists. It is just best when not all members of the team are specialists.   
+
+#### More Information:
+
+* [17 PROVEN WAYS TO BENEFIT FROM A CROSS-FUNCTIONAL TEAM](https://www.scoro.com/blog/improve-cross-team-collaboration/)
 
 * [11 Reasons to Use Cross Functional Teams](https://blog.kainexus.com/employee-engagement/cross-functional-collaboration/cross-functional-teams/11-reasons)
 
 * [Cross-Functional Scrum Teams](https://www.scrumalliance.org/community/articles/2014/june/success-story-cross-functional-scrum-teams)
 
-* [Cross Functional Doesn’t Mean Everyone Can Do Everything] (https://www.mountaingoatsoftware.com/blog/cross-functional-doesnt-mean-everyone-can-do-everything)
+* [Cross Functional Doesn’t Mean Everyone Can Do Everything](https://www.mountaingoatsoftware.com/blog/cross-functional-doesnt-mean-everyone-can-do-everything)
 
 * [Cross functional teams](https://dzone.com/articles/cross-functional-scrum-teams)
-
-
-=======
-Some researchers have viewed cross-functional interactions as cooperative or competitive in nature, while others have argued that organization’s functional areas are often forced to compete and cooperate simultaneously with one another (“coopetition”) and it is critical to understand how these complex relationships interplay and affect firm performance.

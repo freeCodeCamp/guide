@@ -3,8 +3,10 @@ title: Manipulate Arrays With shift()
 ---
 ## Manipulate Arrays With shift()
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-javascript/manipulate-arrays-with-shift/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+While `pop()` was used to get rid of the last element of an array, `shift()` is used to get rid of the first element. It's like you are shifting the elements down one position. Check this out:
+
+```javascript
+var arr = [1, 2, 3, 4, 5];
+arr.shift(); // Gets rid of the 1
+```

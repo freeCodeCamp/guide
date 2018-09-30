@@ -38,6 +38,9 @@ Python is one of the best languages suited for machine learning, deep learning a
 There are specialized languages best suited for various role such as R and MATLAB but when it comes to overlapping fields of applications python wins hands down due to
 its flexibility and rapid prototyping and availability of libraries.
 
+#### Telegram Bots Development
+You can use Python and some Python-libraries for developing your own <a href='https://core.telegram.org/bots' target="_blank" rel="nofollow">Telegram Bots</a>
+
 #### More Information:
 Here's a <a href='https://www.python.org/about/apps/' target='_blank' rel='nofollow'>link</a> to a section of the official Python website describing its various applications.
 

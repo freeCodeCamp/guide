@@ -2,9 +2,29 @@
 title: Match Single Characters Not Specified
 ---
 ## Match Single Characters Not Specified
+In this challenge, we are asked to return a collection of matches that are not exactly specified. Whereas previous regexp challenges would have you match within the character case [a-z], this challenge instead asks us to negate these matches using the caret character [^a-z]. Our goal then is to return a negated collection (non-matches) of letters that are not vowels nor numbers.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/regular-expressions/match-single-characters-not-specified/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+## Hint 1:
+Did you remember to surround your regexp in both brackets and slashes? 
+```javascript
+let exampleRegExp = /[^a-z]/;
+```
+If so, then double check you're adding the appropriate flags:
+* i  : Ignores upper and lower case from search/match
+* g  : Retrieves multiple values; default is set to return the first match it encounters
+* ^  : Negates the matches following this flag
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Hint 2:
+Be sure to check whether your number range is correct -- the challenge asks us to negate all numbers from 0-99. This can be done using the negate caret placed immediately after the first opening bracket of your regexp. 
+```javacsript
+let numbersRegExp = /[^0-99]/ig; 
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### Spoiler Alert - Solution Ahead
+
+## Solution
+```javascript
+let quoteSample = "3 blind mice.";
+let myRegex = /[^aeiou^0-99]/ig; // Change this line
+let result = quoteSample.match(myRegex); // Change this line
+```

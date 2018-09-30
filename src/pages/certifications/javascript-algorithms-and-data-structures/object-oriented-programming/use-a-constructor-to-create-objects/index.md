@@ -3,8 +3,20 @@ title: Use a Constructor to Create Objects
 ---
 ## Use a Constructor to Create Objects
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/object-oriented-programming/use-a-constructor-to-create-objects/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+### Method:
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+We saw in the last challenge how to create a constructor function. Now we can simply call this function to create a new object with the properties already defined in the constructor. Simply initialise a new variable `hound` calling the `Dog()` constructor.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### Solution:
+
+```javascript
+
+function Dog() {
+  this.name = "Rupert";
+  this.color = "brown";
+  this.numLegs = 4;
+}
+// Add your code below this line
+let hound = new Dog();
+
+```

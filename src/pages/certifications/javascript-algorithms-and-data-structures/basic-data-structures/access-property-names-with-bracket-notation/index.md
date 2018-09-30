@@ -3,8 +3,41 @@ title: Access Property Names with Bracket Notation
 ---
 ## Access Property Names with Bracket Notation
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-data-structures/access-property-names-with-bracket-notation/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Method:
+- Using bracket notation simply write the return statement in the `checkInventory()` function.
+- The following code block demonstrates the required syntax.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+## Example:
+```javascript
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+let juice = {
+  apple: 1.15,
+  orange: 1.45
+};
+function checkInventory(scannedItem) {
+  return juice[scannedItem];
+}
+
+```
+## Solution:
+```javascript
+
+let foods = {
+  apples: 25,
+  oranges: 32,
+  plums: 28,
+  bananas: 13,
+  grapes: 35,
+  strawberries: 27
+};
+// do not change code above this line
+
+function checkInventory(scannedItem) {
+  // change code below this line
+  return foods[scannedItem];
+}
+
+// change code below this line to test different cases:
+console.log(checkInventory("apples"));
+
+```

@@ -41,6 +41,8 @@ x * 1       = log2 N
 
 This means you can divide log N times until you have everything divided. Which means you have to divide log N ("do the binary search step") until you found your element.
 
+/b><i>O</i>(<i>log<sub>2</sub>N</i>)<b> is such so because at every step half of the elements in the data set are gone which is justified by the base of the logarithmic function.
+
 This is the binary search algorithm. It is elegant and efficient but for it to work correctly, the array must be **sorted**.
 
 ---
@@ -132,6 +134,26 @@ def binary_search(target, array)
   end
   return nil
 end
+```
+
+Here is another implementation in Javascript:
+
+```Javascript
+function binary_search(a, v) {
+    function search(low, high) {
+        if (low === high) {
+            return a[low] === v;
+        } else {
+            var mid = math_floor((low + high) / 2);
+            return (v === a[mid]) 
+                   ||
+                   (v < a[mid]) 
+                   ? search(low, mid - 1)
+                   : search(mid + 1, high);
+        }
+    }
+    return search(0, array_length(a) - 1);
+}
 ```
 
 ### More Information

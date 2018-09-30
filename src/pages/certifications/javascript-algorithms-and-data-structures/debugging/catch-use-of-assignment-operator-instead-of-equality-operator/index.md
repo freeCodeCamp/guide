@@ -3,8 +3,20 @@ title: Catch Use of Assignment Operator Instead of Equality Operator
 ---
 ## Catch Use of Assignment Operator Instead of Equality Operator
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/debugging/catch-use-of-assignment-operator-instead-of-equality-operator/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+- Only the if statement must be editied in this challenege.
+- The `=` operator on its own is only used to assign values, not to compare them. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+## Solution
+```javascript
+let x = 7;
+let y = 9;
+let result = "to come";
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+if(x == y) {
+  result = "Equal!";
+} else {
+  result = "Not equal!";
+}
+
+console.log(result);
+```

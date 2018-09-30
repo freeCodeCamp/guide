@@ -3,8 +3,26 @@ title: Write Concise Object Literal Declarations Using Simple Fields
 ---
 ## Write Concise Object Literal Declarations Using Simple Fields
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/es6/write-concise-object-literal-declarations-using-simple-fields/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Here, we are tasked at returning an object that accepts the function's parameters as its attributes. 
+
+# Hint 1:
+
+Get rid of the colons, and the duplicate words.
+
+## Spoiler Alert - Solution Ahead
+
+## Solution
+
+```javascript
+const createPerson = (name, age, gender) => {
+  "use strict";
+  // change code below this line
+  return {
+    name,
+    age,
+    gender
+  };
+  // change code above this line
+};
+```

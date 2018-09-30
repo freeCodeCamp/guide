@@ -68,10 +68,11 @@ class NavPanel extends PureComponent {
   renderBody() {
     const { hasChildren, children, isExpanded } = this.props;
     const childrenWithChildren = children.filter(child => child.props.children);
-    const uniqueChildren = childrenWithChildren.concat(
-      children.filter(
-        child => !childrenWithChildren.some(x => x.key === child.key)
-      )
+    const uniqueChildren = children.filter(
+      child =>
+        !childrenWithChildren.some(
+          (potentialDupe, index) => index > 0 && potentialDupe.key === child.key
+        )
     );
     return (
       <div className={isExpanded ? 'body' : ''}>

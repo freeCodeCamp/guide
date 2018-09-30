@@ -73,26 +73,31 @@ As you get the next odd one, don't forget to add it to a global variable that ca
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution:
 
     function sumFibs(num) {
-      // create an array of fib numbers till num
-      var arrFib = [1];
-      for (var i = 1; i <=num;) {
-          arrFib.push(i);
-          i = arrFib[arrFib.length - 1] + arrFib[arrFib.length - 2];
-      }
+        // Perform checks for the validity of the input
+        if (num < 0) return -1;
+        if (num === 0 || num === 1) return 1;
 
-      // return the sum of odd numbers from the array
-      var res = arrFib.reduce(function(prev, curr) {
-          if (curr%2 !== 0) return prev + curr;
-          else return prev;
+        // Create an array of fib numbers till num
+        const arrFib = [1, 1];
+        let nextFib = 0;
+        
+        // We put the new Fibonacci numbers to the front so we
+        // don't need to calculate the length of the array on each
+        // iteration
+        while((nextFib = arrFib[0] + arrFib[1]) <= num) {
+            arrFib.unshift(nextFib);
+        }
+
+        // Sum only the odd numbers and return the value
+        return arrFib.reduce((acc, curr) => {
+            return acc + curr * (curr % 2);
         });
-
-      return res;
     }
 
     // test here
     sumFibs(4);
 
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLnW/0' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/@kr3at0/SumAllOddFibonacciNumbers' target='_blank' rel='nofollow'>Run Code</a>
 
 ### Code Explanation:
 

@@ -80,6 +80,26 @@ You will have to check if the current value is already on the array to be return
 *   <a href='http://forum.freecodecamp.com/t/javascript-string-prototype-indexof/15936' target='_blank' rel='nofollow'>JS String Prototype IndexOf</a>
 *   <a href='http://forum.freecodecamp.com/t/javascript-array-prototype-push/14298' target='_blank' rel='nofollow'>JS Array Prototype Push</a>
 
+## Alternative basic code solution
+
+```javascript
+
+function uniteUnique(arr) {
+  var args = [...arguments];
+  var result = [];
+  for(var i = 0; i < args.length; i++) {
+    for(var j = 0; j < args[i].length; j++) {
+       if(!result.includes(args[i][j])) {
+        result.push(args[i][j]);
+      }
+    }
+  }
+  return result;
+}
+
+uniteUnique([1, 3, 2], [5, 2, 1, 4], [2, 1]);
+```
+
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution:
 
     function uniteUnique(arr1, arr2, arr3) {
@@ -149,13 +169,13 @@ You will have to check if the current value is already on the array to be return
 
     //jshint esversion:6
 
-    function uniteUnique(arr) {
+    function uniteUnique(...arrays) {
 
-      //make an array out of arguments and flatten it (using the spread operator)
-      const args = [].concat(...arguments);
+      //make an array out of the given arrays and flatten it (using the spread operator)
+      const flatArray = [].concat(...arrays);
 
-      // create a Set
-      return [...new Set(args)];
+      // create a Set which clears any duplicates since it's a regulat set and not a multiset
+      return [...new Set(flatArray)];
     }
 
     // test here

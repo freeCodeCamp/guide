@@ -1,10 +1,41 @@
 ---
 title: Finders Keepers
 ---
-## Finders Keepers
+## Problem Explanation
+We need to return the element from an array that passes a function. Both the `function` and the `array` are passed into our function `findElement(arr, func)`.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-algorithm-scripting/finders-keepers/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+## Hint: 1
+Looking through the array can be done with a `for` loop.
+>*try to solve the problem now*
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+## Hint: 2
+`num` is passed to the function. We will need to set it to the elements we want to check with the function.
+>*try to solve the problem now*
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+## Hint: 3
+Do not forget, if none of the numbers in the array pass the test, it should return `undefined`.
+>*try to solve the problem now*
+
+## Basic Solution
+
+```javascript
+function findElement(arr, func) {
+  let num = 0;
+  
+  for(var i = 0; i < arr.length; i++) {
+    num = arr[i];
+    if (func(num)) {
+      return num;
+    }
+  }
+  
+  return undefined;
+}
+```
+
+## Code Explanation
+
+* Challenge asks us to look through array. This is done using a `for` loop.
+* The `num` variable is being passed into the function, so we set it to each index in our array.
+* The pre-defined function already checks each number for us, so if it is "true", we return that num.
+* If none of the numbers in the array pass the function's test, we return undefined.

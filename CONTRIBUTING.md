@@ -78,6 +78,8 @@ Watch the video demonstration or follow the steps below it:
 
 2. Click the <kbd>Edit this file</kbd> pencil icon and make your changes to the file in GitHub-flavored Markdown.
 
+    > If the icon is greyed out and giving you the warning "You must be on a branch to make or propose changes to this file", then you are likely on another person's tree. At the top left of the page, there is a drop down box which says "Tree: #######". Click on the drop down and change the branch to "master". The pencil icon should now be clickable.
+
 3. Scroll to the bottom of the screen and add a commit message explaining your changes.
 
 4. Then select the radio button option for **"Create a new branch for this commit and start a pull request"** and click <kbd>Propose file changes</kbd>.
@@ -94,7 +96,7 @@ Watch the video demonstration or follow the steps below it:
     git clone https://github.com/YOUR-GITHUB-USERNAME/guide.git
     ```
 
-3. Add a remote upstream so git knows where the official freeCodeCamp guide repository is located by running the following command:
+3. Add a remote upstream so git knows where the official freeCodeCamp guide repository is located by running the following command in the local folder where the repository is stored at:
 
     ```bash
     git remote add upstream https://github.com/freeCodeCamp/guide.git
@@ -180,7 +182,7 @@ If a pull request is not perfect, the reviewer may:
 
 All PRs must pass the Travis CI checks before we can merge it.
 
-If a PR breaks the build (a Travis CI check fails and shows a red "X") there are two likely sources.
+If a PR breaks the build (a Travis CI check fails and shows a red "X") there are three likely sources.
 
 You will need to fix the issue before we can merge your PR:
 
@@ -189,7 +191,9 @@ You will need to fix the issue before we can merge your PR:
     - Two likely scenarios are
       - you named the new article file something other than `index.md`, or
       - you created both a new folder, then a sub-folder, you wrote the new article in the sub-folder but forget to put a stub `index.md` file in the new folder
-2. The article doesn't have a `title` field at the top.
+2. Your PR creates a new folder and the folder name isn't formatted correctly.
+    - Your folder name should be all lowercase and formated in kebab-case (i.e. my-new-folder).
+3. The article doesn't have a `title` field at the top.
     - Please refer to [Title](#title) section below under [Article Style Guide](#article-style-guide).
 
 ### Closing

@@ -1,10 +1,48 @@
 ---
-title: Use Conditional Logic with If Statements
+title: Use conditional logic with If statements
 ---
-## Use Conditional Logic with If Statements
+## Use conditional logic with If statements
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-javascript/use-conditional-logic-with-if-statements/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+### Problem explanation:
+_Create an `if` statement inside the function to return `"Yes, that was true"` if the parameter `wasThatTrue` is `true` and return `"No, that was false"` otherwise._
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+#### Hint 1
+Your `if` statement will evaluate whether your `(condition)` is `true` or `false` and execute (if it evaluates to `true`) the `{statement}` declared right after it.
+> _try to solve the problem now_
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+#### Hint 2
+In case your `(condition)` evaluates to `false` the `{statement}` won't be executed and function will return the next `return` statement. 
+> _try to solve the problem now_
+
+## Spoiler alert!
+
+**Solution ahead!**
+
+## Basic code solution:
+
+```javascript
+
+// Setup
+function trueOrFalse(wasThatTrue) {
+
+  // Only change code below this line.
+  
+  if (wasThatTrue) 
+   {
+    return "Yes, that was true";
+    }
+  return "No, that was false";
+ 
+  // Only change code above this line.
+ }
+
+```
+
+### Code explanation
+The function first evaluates `if` the condition `(wasThatTrue)` evaluates to `true`. If it does, ir returns the statement between the curly braces. If it doesn't, it returns the next `return` statement outside them. 
+
+### Resources
+- ["Boolean" - MDN Glossary](https://developer.mozilla.org/en-US/docs/Glossary/Boolean)
+
+- ["if...else" - MDN JavaScript reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
+

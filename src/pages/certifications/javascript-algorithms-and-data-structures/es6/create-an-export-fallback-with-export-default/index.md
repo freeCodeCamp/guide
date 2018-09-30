@@ -3,8 +3,18 @@ title: Create an Export Fallback with export default
 ---
 ## Create an Export Fallback with export default
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/es6/create-an-export-fallback-with-export-default/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+What's a fallback value? It's basically a default that the code will go back to if nothing has been set. For example, variables have the default fallback value of `undefined`. That being said, a hint for this challenge!
+
+## Hint 1:
+
+Just add `export default` to the beginning of the function.
+
+## Spoiler Alert - Solution Ahead!
+
+## Solution:
+
+```javascript
+"use strict";
+export default function subtract(x,y) {return x - y;}
+```

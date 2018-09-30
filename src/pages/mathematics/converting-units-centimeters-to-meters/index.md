@@ -3,7 +3,18 @@ title: Converting Units Centimeters to Meters
 ---
 ## Converting Units Centimeters to Meters
 
+Centi- (symbol c) is a unit prefix in the metric system denoting a factor of one hundredth
+
+Meaning a Centimenter is one hundredth of a meter.
+x cm = x m / 100
+
+Examples
+1 cm = 1 m     / 100 = 0.01  m
+10 cm = 10 m   / 100 = 0.1   m
+1.2 cm = 1.2 m / 100 = 0.012 m
+
 Per definition, _one_ centimeter is _one hundreth_ of a meter
+
 In the following formula the units are notated with brackets [ ] around them
 
 ```
@@ -40,3 +51,4 @@ lengthInM = convertCentimeterToMeter(lengthInCm); // 3
 ### More Information:
 
 - [Convert cm to m](https://www.convertunits.com/from/cm/to/m)
+- [Wikipedia article on Centi](https://en.wikipedia.org/wiki/Centi-)

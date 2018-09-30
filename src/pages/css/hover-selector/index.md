@@ -37,4 +37,7 @@ button:hover {
 In the example above, the button's normal styling is white text on a green button. 
 When a user hovers over the button with their mouse the rule with the `:hover` selector will become active and the button's style will change.
 
-You can find many more pseudo-classes in this article on Mozillia's <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes' target='_blank' rel='nofollow'>MDN Docs</a>.
+#### More Information:
+<a href='https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes' target='_blank' rel='nofollow'>MDN `:hover` Docs</a>
+
+You can find many more pseudo-classes in this article on Mozillia's <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes' target='_blank' rel='nofollow'>MDN Pseudo-classes Docs</a>.

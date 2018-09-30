@@ -74,3 +74,5 @@ foo.toFixed(2);  // "47.69"
 
 #### References
 1.  <a href='https://github.com/getify/You-Dont-Know-JS/tree/master/types%20%26%20grammar' target='_blank' rel='nofollow'>Types & grammar</a> by Kyle Simpson.
+2.  <a href='https://www.ecma-international.org/ecma-262/5.1/#sec-4.3.20' target='_blank' rel='nofollow'>ECMAScript Language Specification: 4.3.20</a>
+3.  <a href='https://www.ecma-international.org/ecma-262/5.1/#sec-15.7' target='_blank' rel='nofollow'>ECMAScript Language Specification: 15.7 Number Objects</a>

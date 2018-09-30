@@ -3,6 +3,8 @@ title: Support Vector Machine
 ---
 ## Support Vector Machine
 
+A Support Vector Machine (SVM) is a discriminative classifier formally defined by a separating hyperplane. In other words, given labeled training data (supervised learning), the algorithm outputs an optimal hyperplane which categorizes new examples. It does this by minimizing the margin between the data points near the hyperplane.
+
 ![SVM vs logistic regression](https://i.imgur.com/KUeOSK3.png)
 
 A SVM cost function seeks to approximate the logistic function with a piecewise linear. This ML algorithm is used for classification problems and is part of the subset of supervised learning algorithms.
@@ -30,8 +32,6 @@ This new regularizing works the same with 1/\lambda, as seen in linear and logis
 [Andrew Ng's ML Course](https://www.coursera.org/learn/machine-learning/)
 [Standalone Video Lecture](https://www.youtube.com/watch?v=1NxnPkZM9bc)
 [SVM on Wikipedia](https://en.wikipedia.org/wiki/Support_vector_machine)
-=======
-A Support Vector Machine (SVM) is a discriminative classifier formally defined by a separating hyperplane. In other words, given labeled training data (supervised learning), the algorithm outputs an optimal hyperplane which categorizes new examples.
 
 
 The following is the code written for training, predicting and finding accuracy for SVM in python. This is done using Numpy, however, we can also write using scikit-learn in just a function call.

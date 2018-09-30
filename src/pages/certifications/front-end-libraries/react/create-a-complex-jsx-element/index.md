@@ -3,8 +3,16 @@ title: Create a Complex JSX Element
 ---
 ## Create a Complex JSX Element
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/front-end-libraries/react/create-a-complex-jsx-element/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Hint: 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```html
+const JSX = <div>
+  <h1>Heading.</h1>
+  <p>Paragraph</p>
+ <ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+</div>;  
+```

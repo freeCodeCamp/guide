@@ -3,8 +3,17 @@ title: Passing Values to Functions with Arguments
 ---
 ## Passing Values to Functions with Arguments
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-javascript/passing-values-to-functions-with-arguments/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Our task is to create a function that has **parameters**. These are inputs that determine the function's output. You place paramaters inside the `()`, like so:
+
+```javascript
+function functionWithArgs(one, two) {
+  console.log(one + two);
+}
+```
+We now have to add code inside the brackets. Our task is to add `one` and `two`, and print the sum to the console. Here is the basic code solution:
+
+```javascript
+functionWithArgs(7, 3);
+//This will console log 10.
+```

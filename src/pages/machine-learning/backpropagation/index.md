@@ -45,4 +45,4 @@ Siraj Raval - [Backpropagation in 5 Minutes](https://www.youtube.com/watch?v=q55
 [Andrew Ng's ML Course](https://www.coursera.org/learn/machine-learning/)
 [In depth, wiki style article](https://brilliant.org/wiki/backpropagation/)
 [Backprop on Wikipedia](https://en.wikipedia.org/wiki/Backpropagation)
-[A step-by-step example](https://mattmazur.com/2015/03/17/a-step-by-step-backpropagation-example/)
+[A Step by Step Backpropagation Example](https://mattmazur.com/2015/03/17/a-step-by-step-backpropagation-example/)

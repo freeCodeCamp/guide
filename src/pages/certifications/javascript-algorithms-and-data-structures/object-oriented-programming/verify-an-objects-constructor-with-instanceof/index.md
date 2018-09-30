@@ -3,8 +3,32 @@ title: Verify an Object's Constructor with instanceof
 ---
 ## Verify an Object's Constructor with instanceof
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/object-oriented-programming/verify-an-objects-constructor-with-instanceof/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+### Method:
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Just like in the last challenge, create a new object - `myHouse` - using the constructor given.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+#### Example:
+
+```javascript
+
+let hound = new Dog();
+
+```
+
+Remember to give the `House` function a parameter to initialise the number of rooms. Then simply call the `instanceof` operator to return true on your new House.
+
+### Solution:
+
+```javascript
+
+/* jshint expr: true */
+
+function House(numBedrooms) {
+  this.numBedrooms = numBedrooms;
+}
+
+// Add your code below this line
+let myHouse = new House(5);
+myHouse instanceof House;
+
+```

@@ -48,7 +48,7 @@ It couldn't be anymore simple! Well, this isn't actually 100% true, we could mak
 $ rails s
 ```
 
-5. Now, with your preferred brower, go to `http://localhost:3000` and you'll see: "Yay! You’re on Rails!"
+5. Now, with your preferred browser, go to `http://localhost:3000` and you'll see: "Yay! You’re on Rails!"
 
 ### Alternative method for creating a Rails application  
 
@@ -70,8 +70,14 @@ $ rails s
 ## Convention over Configuration
 *Convention over Configuration* means a developer only needs to specify unconventional aspects of the application. For example, if there is a class `Sale` in the model, the corresponding table in the database is called `sales` by default. It is only if one deviates from this convention, such as calling the table "products sold", that the developer needs to write code regarding these names. Generally, Ruby on Rails conventions lead to less code and less repetition.
 
+## What is MVC?
+Model (Active record) contains the business logic and interacts with the database.
+Views (Action views) all of the HTML files and structure. 
+Controller (Action controller) interacts with the views and model to direct the actions of the application.
+
 ## DRY - Don't Repeat Yourself
 *Don't repeat yourself* means that information is located in a single, unambiguous place. For example, using the ActiveRecord module of Rails, the developer does not need to specify database column names in class definitions. Instead, Ruby on Rails can retrieve this information from the database based on the class name.
 
 ## Ruby on Rails is open source 
 Not only is it free to use, you can also help make it better. More than 4,500 people have already contributed code to [Rails](https://github.com/rails/rails). It’s easier than you think to become one of them.
+

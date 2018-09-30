@@ -3,8 +3,18 @@ title: Use * to Import Everything from a File
 ---
 ## Use * to Import Everything from a File
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/es6/use--to-import-everything-from-a-file/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+If you want to import everything possible from a file, then you use the `import * as _ from` syntax, provided by ES6. That's exactly what you're tasked at doing in this challenge!
+
+## Hint 1:
+
+Fill in the blanks: `import * as objName from "file-name"`. You can be creative with your `objName`, but your file name should be `capitalize_strings`.
+
+## Spoiler Alert - Solution Ahead!
+
+## Solution:
+
+```javascript
+"use strict";
+import * as str from "capitalize_strings";
+```

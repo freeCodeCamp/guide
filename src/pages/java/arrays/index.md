@@ -4,7 +4,9 @@ title: Arrays
 
 # Array
 
-An Array is used to store a collection of data of similar datatypes. Arrays always start with the index of 0 and are instantiated to a set number of indexes. All the variables in the array must be of the same type, declared at instantiation.
+An Array is used to store a collection of similar data types. 
+Arrays always start with the index of 0 and are instantiated to a set number of indexes. 
+All the variables in the array must be of the same type, declared at instantiation.
 
 **Syntax:**
 
@@ -43,13 +45,18 @@ double[] List = new double[10];
 ## Another way to create an Array:
 
 ```java
-dataType[] arrayName = {value0, value1, ..., valuek};
+dataType[] arrayName = {value_0, value_1, ..., value_k};
 ```
 
 ## Code snippets of above syntax:
 
 ```java
 double[] list = {1, 2, 3, 4};
+
+The code above is equivalent to:
+double[] list = new double[4];
+*IMPORTANT NOTE: Please note the difference between the types of brackets
+that are used to represent arrays in two different ways.
 ```
 
 ## Accessing Arrays:
@@ -91,8 +98,6 @@ for (int i = 0; i < a.length; i++){ // loop goes through each index
     System.out.println(a[i]); // prints the array
 }
 ```
-
-![:rocket:](https://forum.freecodecamp.org/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/NC2Y' target='_blank' rel='nofollow'>Run Code</a>
 
 Output:
 ```java

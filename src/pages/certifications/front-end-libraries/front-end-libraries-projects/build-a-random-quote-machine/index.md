@@ -3,8 +3,8 @@ title: Build a Random Quote Machine
 ---
 ## Build a Random Quote Machine
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/front-end-libraries/front-end-libraries-projects/build-a-random-quote-machine/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The project consists of three distinct parts:
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+1. Identifying the components needed to complete the task, what components are there? Can some components be used more than once? E.g. the buttons, are they the same only with different onClick events?  
+2. What component should be responsible for keeping state, and how should changes in state be passed on to other components?
+3. How should a new quote be fetched? Where should the new quote and the author be stored? 

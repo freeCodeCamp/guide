@@ -3,8 +3,33 @@ title: Create a Method on an Object
 ---
 ## Create a Method on an Object
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/object-oriented-programming/create-a-method-on-an-object/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+### Method:
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+An objects function must be initialised within the object itself. This is demonstrated in the following code.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```javascript
+
+let obj = {
+  property1 = 1,
+  
+  function1: function() {
+    //Code to be exectued
+  }
+};
+
+```
+### Solution:
+
+```javascript
+
+let dog = {
+  name: "Spot",
+  numLegs: 4,
+  sayLegs: function() {
+    return "This dog has " + dog.numLegs + " legs.";
+  }
+};
+
+dog.sayLegs();
+
+```

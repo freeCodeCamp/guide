@@ -74,6 +74,20 @@ The first comparison is false because "==" looks at the references and they aren
 
 The second comparison is true because the variables store the same values. In this case "Hello world".
 
+We have several inbuilt methods in String. The following is an example of the String Length() method .
+
+```java
+public class StringDemo {
+
+   public static void main(String args[]) {
+      String palindrome = "Dot saw I was Tod";
+      int len = palindrome.length();
+      System.out.println( "String Length is : " + len );
+   }
+}
+```
+This will result in - `String Length is : 17`
+
 **Notes**
 
 1. String methods use zero-based indexes, except for the second argument of `substring()`.
@@ -81,3 +95,14 @@ The second comparison is true because the variables store the same values. In th
 3. When the String literal is found by JVM, it is added to string literal pool.
 4. String class posses a method name `length()`, while arrays have an attribute naming length.
 5. Strings are immutable and can not be changed.
+
+
+
+String Length
+
+The "length" of a string is just the number of chars in it. So "hi" is length 2 and "Hello" is length 5. The length() method on a string returns its length, like this:
+
+```java
+String a = "Hello";
+int len = a.length();  // len is 5
+```

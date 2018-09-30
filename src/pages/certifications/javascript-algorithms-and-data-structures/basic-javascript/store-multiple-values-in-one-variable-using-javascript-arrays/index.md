@@ -3,8 +3,15 @@ title: Store Multiple Values in one Variable using JavaScript Arrays
 ---
 ## Store Multiple Values in one Variable using JavaScript Arrays
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-javascript/store-multiple-values-in-one-variable-using-javascript-arrays/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Arrays allow you to store lots of different data, within a single variable. All you have to do is put the data in the array, seperated by commas. Like so...
+
+```javascript
+var arr = ["Code for change", 123];
+```
+
+Remember, an array is defined as a row of things. You're storing different data in a single 'row' (variable).
+
+Check this link out if you need more help:
+
+[JavaScript Arrays on W3 Schools](https://www.w3schools.com/js/js_arrays.asp)

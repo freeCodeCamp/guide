@@ -42,6 +42,15 @@ Asymmetric Encryption algorithms provide each user with a pair of keys: one publ
 
 Some Asymmetric techniques include: RSA, Diffie-Hellman, DSS(Digital Signature Standard), ElGamal.
 
+### Cryptographic Hashing
+
+Most cryptographic hash functions are designed to take a string of any length as input and produce a fixed-length hash value.
+
+A cryptographic hash function must be able to withstand all known types of cryptanalytic attack.
+
+### Cryptography Hashing
+A cryptographic hash function is a type of hash function that is designed to also be a one-way function (a function that takes too much time and resources to brute force). The main purpose of hashes deal with message intregrity, so the same message always results in the same hash.
+
 #### More Information:
 
 - [Cryptography: Theory and Practice by Douglas Stinson](https://www.crcpress.com/Cryptography-Theory-and-Practice-Third-Edition/Stinson/p/book/9781584885085)

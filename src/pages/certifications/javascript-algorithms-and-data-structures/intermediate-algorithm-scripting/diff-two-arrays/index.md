@@ -115,6 +115,18 @@ Explain solution here and add any relevant links
 
 Explain solution here and add any relevant links
 
+## ![:rotating_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:") Advanced Code Solution Alternative (Declarative Solution):
+    function diffArray(arr1, arr2) {
+      return [
+        ...diff(arr1, arr2),
+        ...diff(arr2, arr1)
+      ]
+      
+      function diff(a, b) {
+        return a.filter(item => b.indexOf(item) === -1);
+      }
+    }
+
 #### Relevant Links
 
 *   <a href='https://devdocs.io/javascript/global_objects/array/includes' target='_blank' rel='nofollow'>Array.prototype.includes (Devdocs)</a>

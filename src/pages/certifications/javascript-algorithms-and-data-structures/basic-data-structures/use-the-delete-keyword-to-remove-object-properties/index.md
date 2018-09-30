@@ -3,8 +3,22 @@ title: Use the delete Keyword to Remove Object Properties
 ---
 ## Use the delete Keyword to Remove Object Properties
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-data-structures/use-the-delete-keyword-to-remove-object-properties/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+[Developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/delete) provides a comprehensive tutorial on the delete operator. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### Solution:
+```javascript
+let foods = {
+  apples: 25,
+  oranges: 32,
+  plums: 28,
+  bananas: 13,
+  grapes: 35,
+  strawberries: 27
+};
+// change code below this line
+delete foods.oranges;
+delete foods.plums;
+delete foods.strawberries;
+// change code above this line
+console.log(foods);
+```

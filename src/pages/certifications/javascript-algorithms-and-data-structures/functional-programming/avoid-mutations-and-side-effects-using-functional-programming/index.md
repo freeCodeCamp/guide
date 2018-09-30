@@ -3,8 +3,26 @@ title: Avoid Mutations and Side Effects Using Functional Programming
 ---
 ## Avoid Mutations and Side Effects Using Functional Programming
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/functional-programming/avoid-mutations-and-side-effects-using-functional-programming/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+### Problem Explanation
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Fill in the code for the function `incrementer` so it returns the value of the global variable `fixedValue` increased by one. `fixedValue` should not change, no matter how many times the function `incrememter` is called.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### Hint 1
+
+Using the increment operator (`++`) on `fixedValue` will mutate `fixedValue`, meaning it will no longer reference the same value it was assigned with. 
+
+### Solution:
+```javascript
+// the global variable
+var fixedValue = 4;
+
+function incrementer () {
+  // Add your code below this line
+  return fixedValue + 1;
+  
+  // Add your code above this line
+}
+
+var newValue = incrementer(); // Should equal 5
+console.log(fixedValue); // Should print 4
+```

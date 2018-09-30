@@ -9,7 +9,7 @@ In Vim, copying is commonly refered to as 'yanking', and pasting remains the sam
 ### Command Keys
 The keys used for yanking and pasting in Vim are:
 - `y` to yank
-- `p` to paste
+- `p` to put (also known as paste)
 - `d` to cut
 - `"` to cut or yank to a register
 

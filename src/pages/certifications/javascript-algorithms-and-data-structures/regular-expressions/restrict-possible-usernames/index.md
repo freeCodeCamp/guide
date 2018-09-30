@@ -3,8 +3,24 @@ title: Restrict Possible Usernames
 ---
 ## Restrict Possible Usernames
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/regular-expressions/restrict-possible-usernames/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+## Solution:
+```javascript
+let username = "JackOfAllTrades";
+let userCheck = /^[a-z]{2,}\d*$/i;
+let result = userCheck.test(username);
+```
+## Explain:
+1. The only numbers in the username have to be at the end. `\d$`
+   There can be zero or more of them at the end. `*`
+```javascript
+/\d*$/;
+```
+2. Username letters can be lowercase and uppercase. `i`
+```javascript
+/\d*$/i;
+```
+3. Usernames have to be at least two characters long. `{2,}`
+   A two-letter username can only use alphabet letter characters. `^[a-z]`
+```javascript
+/^[a-z]{2,}\d*$/i;
+```

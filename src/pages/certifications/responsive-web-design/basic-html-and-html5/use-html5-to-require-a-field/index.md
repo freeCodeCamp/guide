@@ -3,8 +3,12 @@ title: Use HTML5 to Require a Field
 ---
 ## Use HTML5 to Require a Field
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/responsive-web-design/basic-html-and-html5/use-html5-to-require-a-field/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `required` attribute works with almost all possible types of the `input` tag ( it doesn't works because it doesn't make sense for the buttons-like types or the ones with a default value e.g. `type=range`) and force the user to leave at least a minimum mark of the interaction with the required input when submitting ( select _at least_ one checkbox, type _at least_ one character into a text box, etc..)
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Its use block the form form submission until the the `required` condition woudn't be fullfilled
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+You can use the `required` attribute with a particular syntax: since it is a boolean value you might write just`required` without any value.
+
+In this challenge you already have a form and a input element: it asks you to add the `required` attribute to the input element; remember that if something of the original code is modified or removed by accident you can always restart with a clean code using the `reset all code` button.
+
+Good luck!

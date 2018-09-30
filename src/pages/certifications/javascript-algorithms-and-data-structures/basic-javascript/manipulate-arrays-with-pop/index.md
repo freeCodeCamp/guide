@@ -3,8 +3,26 @@ title: Manipulate Arrays With pop()
 ---
 ## Manipulate Arrays With pop()
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-javascript/manipulate-arrays-with-pop/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+
+
+## Problem Explanation
+
+Get rid of the last element in the array. Then, assign that ridden element to `removedFromMyArray`.
+
+## Hint 1:
+
+Call `.pop()` on the array, and assign it to `removedFromMyArray`.
+
+## Spoiler! Code Solution:
+
+```javascript
+var removedFromMyArray = myArray.pop();
+=======
+Remove the last element of an array with the pop() method, like so:
+
+```javascript
+var arr = [1, 2, 3, 4, 5];
+arr.pop(); // This got rid of 5
+
+```

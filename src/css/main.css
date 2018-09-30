@@ -13,7 +13,7 @@
 }
 
 :global body {
-  font-family: 'Lato', 'FontAwesome', sans-serif;
+  font-family: 'Lato', sans-serif, 'FontAwesome';
   font-size: 16px;
 }
 
@@ -56,7 +56,7 @@
 }
 
 .breadcrumb > li + li:before {
-  content: '\f105';
+  content: '\203A';
   color: #555;
 }
 

@@ -3,8 +3,25 @@ title: Add Key-Value Pairs to JavaScript Objects
 ---
 ## Add Key-Value Pairs to JavaScript Objects
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-data-structures/add-key-value-pairs-to-javascript-objects/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+- The foods object has already been declared. All that is left to be done is to add three new `key-values`.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+```javascript
+OBJECT[{KEY}] = {VALUE}
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+- The above code will create a ney `key-value` within the object. 
+
+## Solution
+```javascript
+let foods = {
+  apples: 25,
+  oranges: 32,
+  plums: 28
+};
+// change code below this line
+foods['bananas'] = 13;
+foods['grapes'] = 35;
+foods['strawberries'] = 27;
+// change code above this line
+console.log(foods);
+```

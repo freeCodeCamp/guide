@@ -2,9 +2,19 @@
 title: Match Letters of the Alphabet
 ---
 ## Match Letters of the Alphabet
+In this challenge, you're asked to match all of the letters of the alphabet within a given string. Not only are you matching/searching for these characters, but you're asked to extract them. 
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/regular-expressions/match-letters-of-the-alphabet/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+### Hint 1: 
+Remember that you're asked to extract the letters from the string -- this cannot be done with the .test() method because it returns True or False. In this case, we need to extract the actual result from the string using the .match() method.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Hint 2:
+Are you using the match() method character case flag with brackets? e.g. regExp = /[a-e]/ vs regExp = /a-e/. What this allows us to do is search through the string for any characters matching [a, b, c, ... e] using the shorthand notation /[a-e]/.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### Spoiler alert: Solution Ahead
+
+## Solution
+```javascript
+let quoteSample = "The quick brown fox jumps over the lazy dog.";
+let alphabetRegex = /[a-z]/ig; // Change this line
+let result = quoteSample.match(alphabetRegex); // Change this line
+```

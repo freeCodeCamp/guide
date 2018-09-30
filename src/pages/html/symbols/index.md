@@ -1,14 +1,8 @@
 ---
 title: Symbols
 ---
+
 ## Symbols
-Symbols can be added by using a HTML entity name.
-
-<b>Example</b><br>
-&lt;p&gt;I will display &amp;euro;&lt;/p&gt;<br>
-becomes<br>
-I will display &euro;<br>
-
 
 HTML symbol entities are characters that are not represented on a user's keyboards. Many mathematical, scientific, and currency symbols
 are not present on a normal keyboard; therefore, to add such symbols to a page using HTML, the HTML entity name can be used.
@@ -16,18 +10,9 @@ It is important to note that these will not effect the html code themselves, and
 
 If no entity name exists, either the entity number or hexadecimal reference can be used.
 
-Examples:
+![Common HTML5 Symbols](http://ways2web.weebly.com/uploads/5/4/4/8/54485903/8779038_orig.png)
 
-```html
-<p>nabla by entity: &nabla;</p>
-<p>nabla by hexadecimal: &#2207;</p>
-<p>nabla by decimal: &#8711;</p>
-  ```
+#### More Information:
 
-
-#### Helpful Link:
-<ul>
-  <li><a href='https://www.w3schools.com/html/html_symbols.asp' target='_blank' rel='nofollow'>w3schools</a></li>
-</ul>
-
-
+* ![W3 Schools Reference](https://www.w3schools.com/html/html_symbols.asp)
+* ![Symbols Reference Chart](https://dev.w3.org/html5/html-author/charref)

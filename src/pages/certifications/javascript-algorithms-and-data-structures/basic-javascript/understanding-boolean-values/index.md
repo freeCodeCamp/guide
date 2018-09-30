@@ -1,10 +1,36 @@
 ---
-title: Understanding Boolean Values
+title: Understanding Boolean values
 ---
-## Understanding Boolean Values
+## Understanding Boolean values
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-javascript/understanding-boolean-values/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+### Problem explanation:
+Modify the `welcomeToBooleans` function so that it returns `true` instead of `false` when the run button is clicked.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Hint 1
+You just need to edit line 5 so the function returns `true` instead of `false`.
+> _try to solve the problem now_
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+## Spoiler Alert!
+
+**Solution ahead!**
+
+## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic code solution:
+
+```javascript
+function welcomeToBooleans() {
+
+// Only change code below this line.
+
+return true; // Change this line
+
+// Only change code above this line.
+}
+```
+
+### Code explanation
+Just modifying the `Boolean` value you wan't the function to return from `false` to `true` will meet the requirements.
+
+### Resources
+[MDN glossary - Boolean](https://developer.mozilla.org/en-US/docs/Glossary/Boolean)
+
+[Wikipedia - Boolean data type](https://en.wikipedia.org/wiki/Boolean_data_type)
