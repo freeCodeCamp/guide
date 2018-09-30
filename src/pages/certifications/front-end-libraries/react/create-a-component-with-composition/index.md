@@ -3,8 +3,30 @@ title: Create a Component with Composition
 ---
 ## Create a Component with Composition
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/front-end-libraries/react/create-a-component-with-composition/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+### Hint
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+To render the child componenet, all that has to be doneis to add it in the render of the prent component
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### Solution
+
+Render the ChildComponent as follows:
+
+````javascript
+class ParentComponent extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+  render() {
+    return (
+      <div>
+        <h1>I am the parent</h1>
+        { /* change code below this line */ }
+
+        <ChildComponent />
+
+        { /* change code above this line */ }
+      </div>
+    );
+  }
+};
+````
