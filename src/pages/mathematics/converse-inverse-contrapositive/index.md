@@ -1,13 +1,6 @@
----
-title: Converse Inverse Contrapositive
----
-## Converse Inverse Contrapositive
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/converse-inverse-contrapositive/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+title: Converse Inverse Contrapositive 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 In Discrete Mathematics, given a conditional statement ”if a,then b”, we
 can have 3 related statements:<br>
@@ -31,7 +24,5 @@ the hypothesis and the conclusion of the inverse statement.<br>
 ¬q → ¬p<br>
 Hence, the contrapositive will be: ”If it is weekday, then there is school.”
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
 
