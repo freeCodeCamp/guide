@@ -2,10 +2,15 @@
 title: For Loop
 ---
 
-A for loop is a repetition control structure that allows you to efficiently write a loop that needs to execute a specific number of times.
+
+For loop is a programming language conditional iterative statement which is used to check for certain conditions and then repeatedly execute a block of code as long as those conditions are met.
+
+The for loop is distinguished from other looping statements through an explicit loop counter or loop variable which allows the body of the loop to know the exact sequencing of each iteration.
+
+Hence a for loop is a repetition control structure that allows you to efficiently write a loop that needs to execute a specific number of times.
 
 Syntax:
-for ( init; condition; increment ) {
+for ( init counter; condition for counter; change counter ) {
    statement(s);
 }
 init: this is execute once only.This step allows you to declare and initialize any loop control variables
@@ -17,11 +22,11 @@ increment:After the body of the for loop executes, the flow of control jumps bac
 Example:
 ```C++
 #include <iostream>
-using namespace std;
+using namespace std; // Here we use the scope resolution operator to define the scope of the standar functions as std::
  
 int main () {
    // for loop execution
-   for( int a = 10; a < 20; a = a + 1 ) {
+   for( int a = 10; a < 20; a = a + 1 ) { // The loop will run till the value of a is less than 20
       cout << "value of a: " << a << endl;
    }
 
