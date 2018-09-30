@@ -3,8 +3,23 @@ title: Create a Stateless Functional Component
 ---
 ## Create a Stateless Functional Component
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/front-end-libraries/react/create-a-stateless-functional-component/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+### Hint 1
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+To make the componenent, a stateless component, a return function is one of the necessary things and that's what is missing
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### Hint 2
+
+A return function is added like this
+````javascript
+return(
+    <return elements>
+);
+````
+
+### Solution
+
+````javascript
+return(
+    <div>Completed challenge!</div>
+);
+  ````
