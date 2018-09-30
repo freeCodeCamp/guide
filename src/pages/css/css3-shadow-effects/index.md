@@ -69,8 +69,8 @@ The `box-shadow` property can take up to six values:
 
 
 #### More Information:
-* [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow?v=b)
-* [Check for browser support](https://caniuse.com/#search=box-shadow)
-* [CSS box-shadow generator](https://www.cssmatic.com/box-shadow) (feel free to experiment with box-shadows)
+* <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow?v=b' target='_blank' rel='nofollow'>MDN web docs</a>
+* <a href='https://caniuse.com/#search=box-shadow' target='_blank' rel='nofollow'>Check for browser support</a>
+* <a href='https://www.cssmatic.com/box-shadow' target='_blank' rel='nofollow'>CSS box-shadow generator</a> (feel free to experiment with box-shadows)
 
 
