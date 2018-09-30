@@ -3,8 +3,22 @@ title: Learn About Self-Closing JSX Tags
 ---
 ## Learn About Self-Closing JSX Tags
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/front-end-libraries/react/learn-about-self-closing-jsx-tags/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+### Hint 1
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Any tag is self-closed in React like this:
+````javascript
+<tagName />
+````
+pay emphasis on the front-slash, that's how tage are closed
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### Solution
+
+To finish the challenge, we will correct the open HTML tags, which have not been self closed, like so:
+
+````javascript
+const JSX = (
+  <div className="myDiv">
+    <h1>Add a class to this div</h1>
+  </div>
+);
+````
