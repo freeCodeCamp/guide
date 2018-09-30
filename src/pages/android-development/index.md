@@ -10,7 +10,7 @@ From simple games and utility apps to full-blown music players, there are many o
 There is definitely a learning curve to get used to the Android framework, however once you understand the core components that make up the app, the rest will come naturally.
 
 ## Getting started
-Check out the guides in this folder to learn about the 4 core components that make up an Android app and how you can get started with a sample app, and then delve into the more advanced topics such as fragments and the Gradle build system. Then check out the material design specifications guide as well to learn how to make your apps beautiful and user friendly.
+Check out the guides in this folder to learn about the 4 [core components](core-components/index.md) that make up an Android app and how you can get started with a sample app, and then delve into the more advanced topics such as fragments and the Gradle build system. Then check out the material design specifications guide as well to learn how to make your apps beautiful and user friendly.
 
 Lastly, learn to integrate 3rd party libraries and Firebase services to add functionality to your app.
 
