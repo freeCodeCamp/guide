@@ -31,6 +31,12 @@ The field of computer security is growing at a rapid rate every year, in a repor
 ## Articles to read 
 ## Videos to Watch
 
+[Roles in the Tech Industry](https://www.youtube.com/watch?v=i5qpS_D8Law)
+
+[How to: Work at Google](https://www.youtube.com/watch?v=k-baHBzWe4k)
+
+[Succeeding at Coding Interviews](https://www.youtube.com/watch?v=5KB5KAak6tM)
+
 ## What Does a Typical Day at the Office Look Like?
 
 ### In the Life of a... 
