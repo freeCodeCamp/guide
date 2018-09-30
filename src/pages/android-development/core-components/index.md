@@ -22,6 +22,8 @@ There are two kinds of services:
 ## [Broadcast receivers](https://developer.android.com/guide/components/broadcasts)
 A _broadcast receiver_ is another component without user interface (except an optional status bar notification) that lets the system to deliver events from/to the app, even when the latter hasn't been previously launched.
 
-## Content providers
+## [Content providers](https://developer.android.com/guide/topics/providers/content-providers)
+A _content provider_ is a component used to manage a set of app data to share with other applications. Each item saved in the content provider is identified by a URI scheme
+
 
 For detailed information about the topic, see the official [Android fundamentals](https://developer.android.com/guide/components/fundamentals) documentation 
