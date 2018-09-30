@@ -9,7 +9,6 @@ title: Use an Array to Store a Collection of Data
 
 Our goal for solving this problem is to create an array which store a collection of data of different types.
 
-
 ## Spoiler Alert!
 
 ![warning sign](//discourse-user-assets.s3.amazonaws.com/original/2X/2/2d6c412a50797771301e7ceabd554cef4edcd74d.gif)
@@ -17,8 +16,9 @@ Our goal for solving this problem is to create an array which store a collection
 **Solution ahead!**
 
 ## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Code Solution:
+
 ```javascript
-    let yourArray = ['one',1,true,'this',2]; // change this line
+let yourArray = ['one',1,true,'this',2];
 ```
 #### Relevant Links
 
