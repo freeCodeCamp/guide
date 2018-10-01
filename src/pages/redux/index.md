@@ -81,6 +81,9 @@ var reducer = (state, action) => {
 The action that we pass into a reducer will determine how the state will be changed depending on the type.
 Redux does get more complicated but if you understand these principles then you will have an easier time navigating through react-redux projects!
 
+#### Do you really need Redux?
+[Dan Abramov](https://github.com/gaearon), creator of Redux, wrote some time ago great article [You Might Not Need Redux](https://medium.com/@dan_abramov/you-might-not-need-redux-be46360cf367). You should check it first because, well, you might not need it.
+
 #### More Information:
 
 For more information head to [http://redux.js.org/](http://redux.js.org/)
