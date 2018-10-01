@@ -161,7 +161,7 @@ In the event of *odd number of sets* the symmetric difference will include ident
 
 ```javascript
     function sym() {
-      argv = Array.from(arguments).reduce(diffArray);
+      let argv = Array.from(arguments).reduce(diffArray);
       return argv.filter((element, index, array) => index === array.indexOf(element));
     }
 
