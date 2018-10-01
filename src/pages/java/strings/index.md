@@ -100,7 +100,7 @@ This will result in - `String Length is : 17`
 
 String Length
 
-The "length" of a string is just the number of chars in it. So "hi" is length 2 and "Hello" is length 5. The length() method on a string returns its length, like this:
+The "length" of a string is just the number of chars in it. So "hi" is length 2 and "Hello" is length 5. The length() method on a string returns its length, like this.
 
 ```java
 String a = "Hello";
