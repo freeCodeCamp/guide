@@ -6,9 +6,9 @@ title: Photoshop
 Photoshop was created in 1988 and is the industry standard for various image manipulation tasks such as:
 
 * Photo manipulation such as cropping images, quickly changing colors
-* Designing [mock-ups](https://en.wikipedia.org/wiki/Mockup) for websites or apps
+* Designing <a href='https://en.wikipedia.org/wiki/Mockup' target='_blank' rel='nofollow'>mock-ups</a> for websites or apps
 * Designing logos<sup>1</sup>
-* Creating [style tiles](http://styletil.es/)
+* Creating <a href='http://styletil.es/' target='_blank' rel='nofollow'>style tiles</a>
 * Designing icons
 
 Photoshop is used by web designers, mobile app designers, UX designers, and photographers, among other industry professionals.
@@ -31,11 +31,11 @@ Choose Photoshop when you need to work with a combination of media formats (phot
 
 ### Installation
 
-Adobe Photoshop is part of the Creative Cloud suite of programs. You can install a free, 7-day trial of Photoshop [via the Adobe website](https://www.adobe.com/products/photoshop/free-trial-download.html). After the trial, you will need to select a price option that works for you.
+Adobe Photoshop is part of the Creative Cloud suite of programs. You can install a free, 7-day trial of Photoshop <a href='https://www.adobe.com/products/photoshop/free-trial-download.html' target='_blank' rel='nofollow'>via the Adobe website</a>. After the trial, you will need to select a price option that works for you.
 
 If all you need is Photoshop, you can choose the Single Application option, which is $19.99/month, and it includes access to TypeKit (a good source for fonts) and 20GB of storage.
 
-Students and teachers can get an [educational discount here](http://www.adobe-students.com/creativecloud/buy/students.html).
+Students and teachers can get an <a href='http://www.adobe-students.com/creativecloud/buy/students.html' target='_blank' rel='nofollow'>educational discount here</a>.
 
 ### Basics
 
@@ -124,7 +124,7 @@ In the example below, the "circle" layer is on top of the "A" layer on the layer
 
 #### Importing fonts
 
-A Photoshop Creative Cloud license comes with a free [Typekit](https://typekit.com/) account. Typekit is a font foundry where you can find fonts for digital or print use. 
+A Photoshop Creative Cloud license comes with a free <a href='https://typekit.com/' target='_blank' rel='nofollow'>Typekit</a> account. Typekit is a font foundry where you can find fonts for digital or print use. 
 
 To add fonts from Typekit: 
 
@@ -146,14 +146,14 @@ If you need another format, select `File` > `Export` > `Export as...`. There, yo
 
 ### Alternatives to Photoshop
 
-* [Pixelmator](http://www.pixelmator.com/mac/) (Mac only)
-* [GIMP](https://www.gimp.org/) (Mac and PC)
+* <a href='http://www.pixelmator.com/mac/' target='_blank' rel='nofollow'>Pixelmator</a> (Mac only)
+* <a href='https://www.gimp.org/' target='_blank' rel='nofollow'>GIMP</a> (Mac and PC)
 
 #### Footnotes
 
 1. While you can design logos in Photoshop, most designers chose to use Illustrator for logos, as Illustrator creates vector images that can make it easier to resize logos for multiple uses, such as small logos for business cards, or large logos for banner signs.
 
 #### More Information:
-* [Raster vs. Vector graphics](https://www.psprint.com/resources/difference-between-raster-vector/)
+* <a href='https://www.psprint.com/resources/difference-between-raster-vector/' target='_blank' rel='nofollow'>Raster vs. Vector graphics</a>
 
 

@@ -25,7 +25,7 @@ Examples of pure compiled languages are C, C++, Erlang, Haskell, Rust, and Go.
 
 Interpreters will run through a program line by line and execute each command. Now, if the author decided he wanted to use a different kind of olive oil, he could scratch the old one out and add the new one. Your translator friend can then convey that change to you as it happens.
 
-Interpreted languages were once known to be significantly slower than compiled languages. But, with the development of [just-in-time compilation](https://guide.freecodecamp.org/computer-science/just-in-time-compilation), that gap is shrinking.
+Interpreted languages were once known to be significantly slower than compiled languages. But, with the development of <a href='https://guide.freecodecamp.org/computer-science/just-in-time-compilation' target='_blank' rel='nofollow'>just-in-time compilation</a>, that gap is shrinking.
 
 Examples of common interpreted languages are PHP, Ruby, Python, and JavaScript.
 
@@ -35,10 +35,10 @@ Most programming languages can have both compiled and interpreted implementation
 
 #### More Information:
 
-[Wikipedia - Compiled language](https://en.wikipedia.org/wiki/Compiled_language)
+<a href='https://en.wikipedia.org/wiki/Compiled_language' target='_blank' rel='nofollow'>Wikipedia - Compiled language</a>
 
-[Wikipedia - Interpreted language](https://en.wikipedia.org/wiki/Interpreted_language)
+<a href='https://en.wikipedia.org/wiki/Interpreted_language' target='_blank' rel='nofollow'>Wikipedia - Interpreted language</a>
 
-[programmerinterview.com article - What’s the difference between a compiled and interpreted language?](http://www.programmerinterview.com/index.php/general-miscellaneous/whats-the-difference-between-a-compiled-and-an-interpreted-language/)
+<a href='http://www.programmerinterview.com/index.php/general-miscellaneous/whats-the-difference-between-a-compiled-and-an-interpreted-language/' target='_blank' rel='nofollow'>programmerinterview.com article - What’s the difference between a compiled and interpreted language?</a>
 
 

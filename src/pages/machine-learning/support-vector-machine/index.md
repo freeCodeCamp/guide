@@ -143,5 +143,5 @@ class Svm (object):
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-[Scikit-learn SVM](http://scikit-learn.org/stable/modules/svm.html)
+<a href='http://scikit-learn.org/stable/modules/svm.html' target='_blank' rel='nofollow'>Scikit-learn SVM</a>
 

@@ -143,4 +143,4 @@ Hello, Carol!
 Super awesome, right! :smile:
 
 ### More Information:
-- [Wikibooks page on file IO](https://en.wikibooks.org/wiki/C_Programming/File_IO)
+- <a href='https://en.wikibooks.org/wiki/C_Programming/File_IO' target='_blank' rel='nofollow'>Wikibooks page on file IO</a>

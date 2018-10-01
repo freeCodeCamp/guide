@@ -6,14 +6,14 @@ title: Vundle
 Vundle is short for Vim bundle and is a Vim plugin manager.
 
 It allows you to...
-- keep track of and configure your plugins right in the `~/.vimrc` (a [file](https://stackoverflow.com/questions/164847/what-is-in-your-vimrc) to customise vim)
+- keep track of and configure your plugins right in the `~/.vimrc` (a <a href='https://stackoverflow.com/questions/164847/what-is-in-your-vimrc' target='_blank' rel='nofollow'>file</a> to customise vim)
 - install configured plugins (a.k.a. scripts/bundle)
 - update configured plugins
 - search by name all available Vim scripts
 - clean unused plugins up
 - run the above actions in a single keypress with interactive mode
 
-To get started, follow [this guide](https://github.com/VundleVim/Vundle.Vim#quick-start).
+To get started, follow <a href='https://github.com/VundleVim/Vundle.Vim#quick-start' target='_blank' rel='nofollow'>this guide</a>.
 
 Some useful plugins to get you started are :
 - nerdtree
@@ -27,5 +27,5 @@ Some useful plugins to get you started are :
 
 
 #### More Information:
-- [Github Repository](https://github.com/VundleVim/Vundle.Vim)
+- <a href='https://github.com/VundleVim/Vundle.Vim' target='_blank' rel='nofollow'>Github Repository</a>
 

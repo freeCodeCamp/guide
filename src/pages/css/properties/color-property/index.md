@@ -43,7 +43,7 @@ h1{
 
 #### More Information
 
-* W3 Schools site on how to format [text](https://www.w3schools.com/css/css_text.asp).
-* W3 Schools site on [colors](https://www.w3schools.com/colors/default.asp).
-* Color Property on [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/color).
-* Documentation on [w3.org](https://www.w3.org/wiki/CSS/Properties/color).
+* W3 Schools site on how to format <a href='https://www.w3schools.com/css/css_text.asp' target='_blank' rel='nofollow'>text</a>.
+* W3 Schools site on <a href='https://www.w3schools.com/colors/default.asp' target='_blank' rel='nofollow'>colors</a>.
+* Color Property on <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/color' target='_blank' rel='nofollow'>MDN</a>.
+* Documentation on <a href='https://www.w3.org/wiki/CSS/Properties/color' target='_blank' rel='nofollow'>w3.org</a>.

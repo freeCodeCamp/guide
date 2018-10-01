@@ -14,17 +14,17 @@ Dealing with a lot of dimensions can be painful for machine learning algorithms.
 
 ## Dimensionality Reduction Techniques
 
-- Linear Discriminant Analysis [LDA](http://scikit-learn.org/stable/modules/lda_qda.html)
-- Principal Components Analysis [PCA](http://setosa.io/ev/principal-component-analysis/)
+- Linear Discriminant Analysis <a href='http://scikit-learn.org/stable/modules/lda_qda.html' target='_blank' rel='nofollow'>LDA</a>
+- Principal Components Analysis <a href='http://setosa.io/ev/principal-component-analysis/' target='_blank' rel='nofollow'>PCA</a>
 - Kernel PCA.
 - Graph-based kernel PCA.
-- t-Distributed Stochastic Neighbor Embedding [t-SNE](https://lvdmaaten.github.io/tsne/).
+- t-Distributed Stochastic Neighbor Embedding <a href='https://lvdmaaten.github.io/tsne/' target='_blank' rel='nofollow'>t-SNE</a>.
 - [Auto Encoders] (https://medium.com/towards-data-science/reducing-dimensionality-from-dimensionality-reduction-techniques-f658aec24dfe)
 - Linear discriminant analysis (LDA)
 - Generalized discriminant analysis (GDA)
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-[A step by step tutorial to Principal Component Analysis](https://plot.ly/ipython-notebooks/principal-component-analysis/#introduction)
-[Dimensionality Reduction Techniques](https://medium.com/towards-data-science/reducing-dimensionality-from-dimensionality-reduction-techniques-f658aec24dfe)
-[Dimensionality Reduction Techniques: Where to Begin](https://blog.treasuredata.com/blog/2016/03/25/dimensionality-reduction-techniques-where-to-begin)
+<a href='https://plot.ly/ipython-notebooks/principal-component-analysis/#introduction' target='_blank' rel='nofollow'>A step by step tutorial to Principal Component Analysis</a>
+<a href='https://medium.com/towards-data-science/reducing-dimensionality-from-dimensionality-reduction-techniques-f658aec24dfe' target='_blank' rel='nofollow'>Dimensionality Reduction Techniques</a>
+<a href='https://blog.treasuredata.com/blog/2016/03/25/dimensionality-reduction-techniques-where-to-begin' target='_blank' rel='nofollow'>Dimensionality Reduction Techniques: Where to Begin</a>

@@ -11,7 +11,7 @@ The concat() method combines the text of two or more strings and returns a new s
 
 **string2...string_N_** The strings which are to be concatenated to this String.
 
-[MDN Link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/concat)
+<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/concat' target='_blank' rel='nofollow'>MDN Link</a>
 
 ## Description
 

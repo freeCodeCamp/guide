@@ -22,4 +22,4 @@ The purpose of the `<nav>` element is to provide a section of a webpage that con
 ```
 
 #### More Information:
-- [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav)
+- <a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav' target='_blank' rel='nofollow'>MDN</a>

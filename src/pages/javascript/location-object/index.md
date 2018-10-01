@@ -34,6 +34,6 @@ Note: There is no public standard that applies to the location object, but all m
 
 #### More Information:
 
-[W3C - Location Object](https://www.w3schools.com/jsref/obj_location.asp)
+<a href='https://www.w3schools.com/jsref/obj_location.asp' target='_blank' rel='nofollow'>W3C - Location Object</a>
 
 

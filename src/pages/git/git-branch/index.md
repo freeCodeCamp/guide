@@ -34,7 +34,7 @@ To checkout an existing branch, run the command:
 git checkout BRANCH-NAME
 ```
 
-Generally, Git won't let you checkout another branch unless your working directory is clean, because you would lose any working directory changes that aren't committed. You have three options to handle your changes: 1) trash them (see [Git checkout for details](https://guide.freecodecamp.org/git/git-checkout/)), 2) commit them (see [Git commit for details](https://guide.freecodecamp.org/git/git-commit/)), or 3) stash them (see [Git stash for details](https://guide.freecodecamp.org/git/git-stash/)).
+Generally, Git won't let you checkout another branch unless your working directory is clean, because you would lose any working directory changes that aren't committed. You have three options to handle your changes: 1) trash them (see <a href='https://guide.freecodecamp.org/git/git-checkout/' target='_blank' rel='nofollow'>Git checkout for details</a>), 2) commit them (see <a href='https://guide.freecodecamp.org/git/git-commit/' target='_blank' rel='nofollow'>Git commit for details</a>), or 3) stash them (see <a href='https://guide.freecodecamp.org/git/git-stash/' target='_blank' rel='nofollow'>Git stash for details</a>).
 
 ### Create a New Branch <a name="create-a-new-branch"></a>
 To create a new branch, run the command:
@@ -102,8 +102,8 @@ man git-branch
 ```
 
 ### More Information:  <a name="more-information"></a>
-- The `git merge` command: [fCC Guide](https://guide.freecodecamp.org/git/git-merge/)
-- The `git checkout` command: [fCC Guide](https://guide.freecodecamp.org/git/git-checkout/)
-- The `git commit` command: [fCC Guide](https://guide.freecodecamp.org/git/git-commit/)
-- The `git stash` command: [fCC Guide](https://guide.freecodecamp.org/git/git-stash/)
-- Git documentation: [branch](https://git-scm.com/docs/git-branch)
+- The `git merge` command: <a href='https://guide.freecodecamp.org/git/git-merge/' target='_blank' rel='nofollow'>fCC Guide</a>
+- The `git checkout` command: <a href='https://guide.freecodecamp.org/git/git-checkout/' target='_blank' rel='nofollow'>fCC Guide</a>
+- The `git commit` command: <a href='https://guide.freecodecamp.org/git/git-commit/' target='_blank' rel='nofollow'>fCC Guide</a>
+- The `git stash` command: <a href='https://guide.freecodecamp.org/git/git-stash/' target='_blank' rel='nofollow'>fCC Guide</a>
+- Git documentation: <a href='https://git-scm.com/docs/git-branch' target='_blank' rel='nofollow'>branch</a>
