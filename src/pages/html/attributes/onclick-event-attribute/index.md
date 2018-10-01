@@ -4,6 +4,11 @@ title: Onclick Event Attribute
 
 ## Onclick Event Attribute
 
+The onclick element is an event handler that is used to fire an event as soon as it is initiated.
+eg.-
+<div class="button" onClick="function()"></div>
+here on clicking the button the JS function() function is called
+
 When the element is clicked fires a event. 
 
 It works just like the *onclick method* or `addEventListener('click')` to the element.
