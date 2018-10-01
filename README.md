@@ -1,6 +1,6 @@
 ![freeCodeCamp Guide](https://s3.amazonaws.com/freecodecamp/wide-social-banner.png)
 
-# The freeCodeCamp Guide
+<h1 align="center"> The freeCodeCamp Guide </h1>
 
 [![Build Status](https://img.shields.io/travis/freeCodeCamp/guide/master.svg?style=flat-square)](https://travis-ci.org/freeCodeCamp/guide) [![license](https://img.shields.io/badge/license-BSD--3--Clause-lightgrey.svg?style=flat-square)](https://opensource.org/licenses/BSD-3-Clause)  [![Gitter](https://img.shields.io/gitter/room/freeCodeCamp/Contributors.svg?style=flat-square)](https://gitter.im/freeCodeCamp/Contributors)
 [![Open Source Helpers](https://www.codetriage.com/freecodecamp/guide/badges/users.svg)](https://www.codetriage.com/freecodecamp/guide)
