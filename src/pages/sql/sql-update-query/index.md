@@ -4,6 +4,12 @@ title: SQL Update Query
 ## SQL Update Query
 
 ### What an Update query can do
+An SQL UPDATE statement changes the data of one or more records in a table. Either all the rows can be updated, or a subset may be chosen using a condition.
+
+The UPDATE statement has the following form:[1]
+
+UPDATE table_name SET column_name = value [, column_name = value ...] [WHERE condition]
+
 An update query gives the DBA or SQL-using programmer the ability to update many records with one command. 
 
 Important Safety Tip! Always have a backup copy of what you are about to change BEFORE you change it!
