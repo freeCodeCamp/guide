@@ -4,7 +4,18 @@ title: For Loop
 
 # For Loop
 
-The `for` loop executes a block of code until a specified condition is false. Use `while` loops when the number of iterations are variable, otherwise use `for` loops. A common use of `for` loops are array iterations.
+The `for` loop executes a block of code until a specified condition is false. Use `while` loops when the number of iterations are variable, otherwise use `for` loops. A common use of `for` loops are array iterations. 
+
+
+## Syntax of For Loop
+
+```
+for ( init; condition; increment ) {
+   statement(s);
+}
+```
+
+The `for` loop consists of 3 sections, the initialization section, a specific condition and the incremental or decremental operation section. These 3 sections control the `for` loop.
 
 ## Example
 ```
@@ -28,3 +39,4 @@ int main () {
 > Item on index 2 is 3
 > Item on index 3 is 4
 ```
+
