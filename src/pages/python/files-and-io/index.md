@@ -21,7 +21,7 @@ print "Python is a powerful language.","It is easy to learn."
 ```
 Output: 
 ```
-Python is a powerful language.It is easy to learn.
+Python is a powerful language. It is easy to learn.
 ```
 
 ### Input from User
@@ -33,7 +33,7 @@ There are two ways to take input from a user.
 
 ```python
 str = raw_input("Enter your name: ")
-print "Welcome ", str
+print "Welcome", str
 ```
 Output: 
 ```
@@ -47,7 +47,7 @@ Welcome John Doe
 
 ```python
 str = input("Enter input: ")
-print "Input: ", str
+print "Input:", str
 ```
 Output: 
 ```
