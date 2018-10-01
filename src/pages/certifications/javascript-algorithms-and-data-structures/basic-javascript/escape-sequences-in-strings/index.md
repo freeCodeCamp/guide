@@ -1,8 +1,8 @@
 ---
 title: Escape Sequences in Strings
----
+---var myStr="FirstLine\n\t\\SecondeLine\nThirdLine"; // Change this line
 ## Escape Sequences in Strings
-
+Please I need a help about this code! Can seme one expline me: what's whrong in this code?
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-javascript/escape-sequences-in-strings/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
 <a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
