@@ -5,9 +5,10 @@ title: SQL Delete Statement
 
 To delete a record in a table you use the `DELETE` statement. 
 
-Be careful. You can delete all records of the table or just a few. Use the `WHERE` condition to specify which records do you want to delete. The syntax is:
+DELETE permanently removes records from a table
 
-```sql
+Be careful. You can delete all records of the table or just a few. Use the `WHERE` condition to specify which records do you want to delete. The syntax is:
+```
 DELETE FROM table_name
 WHERE condition;
 ```
