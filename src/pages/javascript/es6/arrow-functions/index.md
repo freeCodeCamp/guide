@@ -37,4 +37,12 @@ let NewOneWithParameters = (a, b) => {
 NewOneWithParameters(10, 20);
 ```
 
+Parentheses are optional when there's only one parameter name:
+
+```
+let newOneWithOneParam = a => {
+ console.log(a);
+}
+```
+
 I don’t think I need to give an explanation for this. It's straightforward.
