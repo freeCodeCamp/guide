@@ -4,7 +4,7 @@ title: CSS
 
 ### CSS
 
-CSS stands for Cascading Style Sheets. It was first invented in 1996, and is now a standard feature of all major web browsers.
+CSS is an acronym for Cascading Style Sheets. It was first invented in 1996, and is now a standard feature of all major web browsers.
 
 CSS allows for developers to control how web pages look by "styling" the HTML structure of that page.
 
@@ -18,3 +18,5 @@ You can build some pretty amazing things in CSS alone, such as this pure-CSS [Mi
 A good start is the freeCodeCamp curriculum [Introduction to Basic CSS](https://learn.freecodecamp.org/responsive-web-design/basic-css)
 
 The site [CSS Zen Garden](http://www.csszengarden.com/) is a great example how the same html can be styled to look totally unique.
+
+For a demonstration of the power of CSS, check out [Species In Pieces](http://species-in-pieces.com/#).
