@@ -20,8 +20,8 @@ in a HCL Terraform syntax or JSON format.
  
 ### Why is it in the Boom?
 
-Take a look at this Google trend for the term ‘Terraform’. The image clearly depicts the popularity of this tool worldwide. Since from 2016, this tool is making a good progress and many have adopted it as one of their essential tools in their DevOps tool chain.
-![Terraform Google Search Trend] (https://trends.google.com/trends/explore?date=today%205-y&q=%2Fg%2F11g6bg27fp) 
+Take a look at this Google trend for the term ‘Terraform’. The image clearly depicts the popularity of this tool worldwide. Since from "2016", this tool is making a good progress and many have adopted it as one of their essential tools in their DevOps tool chain.
+![Terraform Google Search Trend] (https://farm2.staticflickr.com/1973/44317727254_3179203cc2_b.jpg) 
 
 #### More Information:
 
