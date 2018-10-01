@@ -52,6 +52,9 @@ class Cat extends React.Component {
 }
 
 ```
+Classful components are stateful components because they have a state associated with them, so they should be used wisely , 
+because with great power comes great responsiblity.If the access to the state is given to every other component it will
+result in a poorly designed slow loading react app.
 
 ### Stateless Components
 
