@@ -65,7 +65,7 @@ In this example `var` is going to store the value `1`.
 
 ## Overview
 
-* A one-dimensional array is like a list;  A two dimensional array is like a table;  The C language places no limits on the number of dimensions in an array, though specific implementations may.
+* A one-dimensional array is like a list; A two dimensional array is like a table;  The C language places no limits on the number of dimensions in an array, though specific implementations may.
 
 * Some texts refer to one-dimensional arrays as vectors, two-dimensional arrays as matrices, and use the general term arrays when the number of dimensions is unspecified or unimportant.
 
