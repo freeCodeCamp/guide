@@ -26,3 +26,4 @@ When starting out with linux, there are some basic commands everyone should know
   7. **rm** - remove
   - This command removes files, not directories. `rm file.txt` will remove the file named file.txt as long as it exists and is in the current directory.
   
+date- to display the date 
