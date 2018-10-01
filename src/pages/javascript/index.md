@@ -29,3 +29,5 @@ Chakra, a fork of Jscript, is developed by Microsoft and used in their Edge brow
 Mozilla also offers Rhino, an implementation of JavaScript built in Java, typically embedded into Java applications to provide scripting to end users.
 
 WebKit (except for the Chromium project) implements the JavaScriptCore engine.
+ 
+Other most frequently used JavaScript Frameworks are React JS, Angular JS, Create JS, jQuery etc. 
