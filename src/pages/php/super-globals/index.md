@@ -2,6 +2,7 @@
 title: Super Globals
 ---
 ## Super Globals
+<?php echo "Super Globals are variables that can be acsessed from any page of the website possible if used"; ?>
 
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/php/super-globals/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
