@@ -83,7 +83,11 @@ Note: Max could have estimated the area by:
 2. Taking 80% of that (estimates a circle): 80% × 0.16 m2 = 0.128 m2
 3. And the volume of a 1 m deep hole is: 0.128 m3
 
-#### More Information
+Area of a circle
+A=πr2
+
+
+# More Information
 
 More information with illustrations can be found [WikiHow](https://www.wikihow.com/Calculate-the-Area-of-a-Circle)
 
