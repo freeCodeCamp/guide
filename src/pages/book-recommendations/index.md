@@ -51,5 +51,9 @@ title: Books to Read for Programmers
 - [Amazon Smile](https://smile.amazon.com/Dont-Make-Think-Revisited-Usability/dp/0321965515/ref=sr_1_1?ie=UTF8&qid=1538370339&sr=8-1&keywords=dont+make+me+think)
 - ISBN-13: 978-0321965516
 
+*Head First Java by Kathy Sierra and Bert Bates*
+- [Amazon Smile](https://smile.amazon.com/Head-First-Java-Kathy-Sierra/dp/0596009208)
+- ISBN-13: 978-0596009205
+
 This list was compiled from multiple suggestion threads on Reddit and Stackoverflow. 
 Please feel free to add more that you have found useful!
