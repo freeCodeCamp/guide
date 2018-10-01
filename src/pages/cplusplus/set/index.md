@@ -1,4 +1,6 @@
-# Title: Set
+---
+# title: Set
+---
 
 A set data structure in c++ is defined the same way a set is defined in the contet of mathematics. 
 
@@ -87,4 +89,5 @@ myset after removal of elements less than 30 : 	30	65	80
 	30	65
   ```
   
-  #### Check [Geeks for Geeks](https://www.geeksforgeeks.org/set-in-cpp-stl/) for more :) 
+  ### Sources
+ 1. [Geeks for Geeks](https://www.geeksforgeeks.org/set-in-cpp-stl/) 
