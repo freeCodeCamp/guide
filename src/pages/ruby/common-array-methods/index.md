@@ -173,5 +173,14 @@ end
 4
 ```
 
+#### .uniq
+The .uniq method takes in an array containing duplicate elements, and returns a copy of the array containing only unique elements--any duplicate elements are removed from the array.
+
+``` ruby
+array = [1, 1, 2, 2, 3, 3, 3, 4, 4, 4, 4, 5, 6, 7, 8]
+array.uniq
+=> [1, 2, 3, 4, 5, 6, 7, 8]
+```
+
 ## More Information
 * [Ruby Array docs](https://ruby-doc.org/core-2.4.2/Array.html)
