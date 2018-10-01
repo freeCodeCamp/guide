@@ -51,6 +51,11 @@ A cryptographic hash function must be able to withstand all known types of crypt
 ### Cryptography Hashing
 A cryptographic hash function is a type of hash function that is designed to also be a one-way function (a function that takes too much time and resources to brute force). The main purpose of hashes deal with message intregrity, so the same message always results in the same hash.
 
+### Cryptography and it's scope in CTF
+Cryptography is a world famous section in CTF(capture the flag) competitions where hackers from all over the world take part in it and hack their way to retrieve a key from a given file. The goal is usually to crack or clone cryptographic objects or algorithms to reach the flag. Cryptography in the past years have been evolved adding on to caeser cipher, to various forms like 'Atbash', 'Affine', 'Baconian', 'Transportation' and many more. 
+
+You can practice your Cryptography skills on https://picoctf.com/ (a CTF competition) where you can find questions ranging from begineer to advanced level.
+
 #### More Information:
 
 - [Cryptography: Theory and Practice by Douglas Stinson](https://www.crcpress.com/Cryptography-Theory-and-Practice-Third-Edition/Stinson/p/book/9781584885085)
