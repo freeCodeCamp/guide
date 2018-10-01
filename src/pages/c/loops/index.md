@@ -125,6 +125,44 @@ The next section is a boolean condition that will be checked for true or false, 
 
 The final section is referred to as the 'increment/decrement'. Its job is to perform some operation every loop - usually adding or subtracting from the initial variable - after the code within the brackets has been run through. In this case, it's just adding one to the count. This is the most common way for the increment to be used, because it lets you keep count of how many times you've run through a for loop.
 
+### Syntax Comparison
+```
+main()                            
+{                          
+  int i = 1;
+  while(i<=5)
+  {
+     printf(“While”);
+     i++;
+   }
+  getch();
+}
+
+
+main()            
+{
+  int i = 1;
+  do
+  {
+     printf(“do-while”);
+     i++;
+   } while(i<=5);
+  getch();
+
+}
+
+main()                
+{
+  int i
+  for(i=1;i<=5;i++)
+  {
+     printf(“for”);
+   }
+  getch();
+}
+```
+
+
 # Loop Control Statements
 Loop control statements change execution form its normal sequence. When execution leaves a scope, all automatic objects that were created in that scope are destroyed.
 

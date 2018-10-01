@@ -14,6 +14,7 @@ The % specifiers that you can use in ANSI C are:
 | %x | a hexadecimal (base 16) integer |
 | %p | an address (or pointer) |
 | %f | a floating point number for floats |
+| %u | int unsigned decimal |
 | %e | a floating point number in scientific notation |
 | %E | a floating point number in scientific notation |
 | %% | The % symbol! |
