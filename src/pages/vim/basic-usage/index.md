@@ -2,7 +2,8 @@
 title: Basic Usage
 ---
 
-## VIM Basic Usage
+<h1 align="center"> VIM Basic Usage </h1>
+  
 
 ### Open File
 - Run vim or vi and open the given filename.
@@ -23,3 +24,7 @@ title: Basic Usage
 
 ### Display line numbers
 - :set nu
+
+## About Vim
+Vim is the text editor basically used in CLI mode . But now the editor is also available in various versions. There have 
+also GVIM which is the graphical version of VIM. vi was the main editor then its improved & named it VI improved Vim.
