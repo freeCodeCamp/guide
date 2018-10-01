@@ -7,15 +7,27 @@ title: D3
 
 D3.js is a JavaScript library for manipulating documents based on data. D3 helps you bring data to life using HTML, SVG, and CSS. D3’s emphasis on web standards gives you the full capabilities of modern browsers without tying yourself to a proprietary framework, combining powerful visualization components and a data-driven approach to DOM manipulation.
 
+Download the latest version (5.7.0) here:
+
+[d3.zip](https://github.com/d3/d3/releases/download/v5.7.0/d3.zip)
+
+To link directly to the latest release, copy this snippet:
+
+```javascript
+<script src="https://d3js.org/d3.v5.min.js"></script>
+```
+The [full source and tests](https://github.com/d3/d3) are also available [for download](https://github.com/d3/d3/zipball/master) on GitHub.
+
+
 ### Introduction
 
 D3 allows you to bind arbitrary data to a Document Object Model (DOM), and then apply data-driven transformations to the document. For example, you can use D3 to generate an HTML table from an array of numbers. Or, use the same data to create an interactive SVG bar chart with smooth transitions and interaction.
 
-D3 is not a monolithic framework that seeks to provide every conceivable feature. Instead, D3 solves the crux of the problem: efficient manipulation of documents based on data. This avoids proprietary representation and affords extraordinary flexibility, exposing the full capabilities of web standards such as HTML, SVG, and CSS. With minimal overhead, D3 is extremely fast, supporting large datasets and dynamic behaviors for interaction and animation. D3’s functional style allows code reuse through a diverse collection of official and community-developed modules.
+D3 is not a monolithic framework that seeks to provide every conceivable feature. Instead, D3 solves the crux of the problem: efficient manipulation of documents based on data. This avoids proprietary representation and affords extraordinary flexibility, exposing the full capabilities of web standards such as HTML, SVG, and CSS. With minimal overhead, D3 is extremely fast, supporting large datasets and dynamic behaviors for interaction and animation. D3’s functional style allows code reuse through a diverse collection of [official](https://github.com/d3/d3/blob/master/API.md) and [community-developed](https://www.npmjs.com/browse/keyword/d3-module) modules.
 
 ### Selections
 
-Modifying documents using the W3C DOM API is tedious: the method names are verbose, and the imperative approach requires manual iteration and bookkeeping of temporary state. For example, to change the text color of paragraph elements:
+Modifying documents using the [W3C DOM API](https://www.w3.org/DOM/DOMTR) is tedious: the method names are verbose, and the imperative approach requires manual iteration and bookkeeping of temporary state. For example, to change the text color of paragraph elements:
 
 ```javascript
 var paragraphs = document.getElementsByTagName("p");
@@ -35,13 +47,13 @@ Yet, you can still manipulate individual nodes as needed:
 ```javascript
 d3.select("body").style("background-color", "black");
 ```
-Selectors are defined by the W3C Selectors API and supported natively by modern browsers. The above examples select nodes by tag name ("p" and "body", respectively). Elements may be selected using a variety of predicates, including containment, attribute values, class and ID.
+Selectors are defined by the [W3C Selectors API](https://www.w3.org/TR/selectors-api/) and supported natively by modern browsers. The above examples select nodes by tag name ("p" and "body", respectively). Elements may be selected using a variety of predicates, including containment, attribute values, class and ID.
 
 D3 provides numerous methods for mutating nodes: setting attributes or styles; registering event listeners; adding, removing or sorting nodes; and changing HTML or text content. These suffice for the vast majority of needs. Direct access to the underlying DOM is also possible, as each D3 selection is simply an array of nodes.
 
 ### Dynamic Properties
 
-Readers familiar with other DOM frameworks such as jQuery should immediately recognize similarities with D3. Yet styles, attributes, and other properties can be specified as functions of data in D3, not just simple constants. Despite their apparent simplicity, these functions can be surprisingly powerful; the d3.geoPath function, for example, projects geographic coordinates into SVG path data. D3 provides many built-in reusable functions and function factories, such as graphical primitives for area, line and pie charts.
+Readers familiar with other DOM frameworks such as [jQuery](https://jquery.com/) should immediately recognize similarities with D3. Yet styles, attributes, and other properties can be specified as functions of data in D3, not just simple constants. Despite their apparent simplicity, these functions can be surprisingly powerful; the [d3.geoPath](https://github.com/d3/d3-geo/blob/master/README.md#geoPath) function, for example, projects [geographic coordinates](https://tools.ietf.org/html/rfc7946) into SVG [path data](https://www.w3.org/TR/SVG/paths.html#PathData). D3 provides many built-in reusable functions and function factories, such as [graphical primitives](https://github.com/d3/d3-shape) for area, line and pie charts.
 
 For example, to randomly color paragraphs:
 
@@ -102,7 +114,7 @@ D3 lets you transform documents based on data; this includes both creating and d
 
 ### Transformation, not Representation
 
-D3 does not introduce a new visual representation. Unlike Processing or Protovis, D3’s vocabulary of graphical marks comes directly from web standards: HTML, SVG, and CSS. For example, you can create SVG elements using D3 and style them with external stylesheets. You can use composite filter effects, dashed strokes and clipping. If browser vendors introduce new features tomorrow, you’ll be able to use them immediately—no toolkit update required. And, if you decide in the future to use a toolkit other than D3, you can take your knowledge of standards with you!
+D3 does not introduce a new visual representation. Unlike [Processing](https://processing.org/) or [Protovis](https://mbostock.github.io/protovis/), D3’s vocabulary of graphical marks comes directly from web standards: HTML, SVG, and CSS. For example, you can create SVG elements using D3 and style them with external stylesheets. You can use composite filter effects, dashed strokes and clipping. If browser vendors introduce new features tomorrow, you’ll be able to use them immediately—no toolkit update required. And, if you decide in the future to use a toolkit other than D3, you can take your knowledge of standards with you!
 
 Best of all, D3 is easy to debug using the browser’s built-in element inspector: the nodes that you manipulate with D3 are exactly those that the browser understands natively.
 
@@ -127,7 +139,7 @@ d3.selectAll("circle").transition()
 ```
 By modifying only the attributes that actually change, D3 reduces overhead and allows greater graphical complexity at high frame rates. D3 also allows sequencing of complex transitions via events. And, you can still use CSS3 transitions; D3 does not replace the browser’s toolbox, but exposes it in a way that is easier to use.
 
-Want to learn more? Read these tutorials.
+Want to learn more? Read [these tutorials](https://github.com/d3/d3/wiki/Tutorials).
 
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
