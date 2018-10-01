@@ -2,7 +2,9 @@
 title: If-else Statement
 ---
 ## Introduction
-If/Else is a conditional statement where depending on the truthiness of a condition, diffierent actions will be performed.  
+If/Else is a conditional statement where depending on the truthiness of a condition, diffierent actions will be performed. 
+
+This condition is used to process a condition's truthfullness.
 
 > **Note:** The `{}` brackets are only needed if the condition has more than one action statement.
 
