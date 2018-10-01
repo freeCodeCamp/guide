@@ -173,5 +173,13 @@ end
 4
 ```
 
+#### .sort
+The .sort method sorts the elements in an array and returns a new array of the sorted elements. The .sort method compares elements in an array using the <=> operator in order to determine which element comes before which.
+
+``` ruby
+array = [9, 0, 1, 7, 8, 6, 4, 10, 3, 5, 2]
+array.sort
+=> [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+```
 ## More Information
 * [Ruby Array docs](https://ruby-doc.org/core-2.4.2/Array.html)
