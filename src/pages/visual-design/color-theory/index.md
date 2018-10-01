@@ -35,6 +35,12 @@ A black is sometimes used as a contrast medium to increase the range of contrast
 The combination of Primary colors Cyan, Magenta, Yellow, and Key (CMYK) is common. "Key" represents black.
 Key is a traditional term for the most significant impression of a combination of imprints.
 
+### Color Psychology
+
+Color Psychology is a study of how color influences human mood and behavior. The colors chosen for the design can influence how 
+successful a product is.
+
+
 ### Web colors
 
 Web standards including HTML, CSS, and graphics file formats: jpeg, PNG, GIF, and SVG use primary colors of red, green, and blue.
@@ -54,10 +60,19 @@ Web design, advertising, and human-computer interface heuristics also recognize 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+
+<a href="http://lfhs.lfcisd.net/UserFiles/Servers/Server_904/File/ECCastillo/Color%20Theory%20Worksheet.pdf">Basic Color Theory Worksheet</a>
+
+<a href="https://en.wikipedia.org/wiki/Color_psychology">Color Psychology Wiki</a>
 
 [Table of spectral or near-spectral colors in RGB](https://en.wikipedia.org/wiki/Spectral_color#Table_of_spectral_or_near-spectral_colors)
 
 [Color and Usability](/visual-design/color-theory/usability/index.md)
+
 [Color and Culture](/visual-design/color-theory/color-and-culture/index.md)
+
+[How to get a professional look with color](https://www.webdesignerdepot.com/2009/12/how-to-get-a-professional-look-with-color/)
+
+[Its Only Color](https://robots.thoughtbot.com/Its-only-color)
+
 

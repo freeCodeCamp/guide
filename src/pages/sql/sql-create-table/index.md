@@ -88,6 +88,12 @@ Complete the form as desired and click Apply
 
 ![image-9](https://github.com/SteveChevalier/guide-images/blob/master/create_table09.JPG?raw=true)
 
+## Create Table as Select (CTAS)
+
+A quick way to create a copy of a table, including data is to create table as select.
+
+CREATE TABLE my_table as (SELECT * FROM orig_tbl);
+
 ## Create and populate a table by importing a CSV file
 
 Right click on the "Tables" under the schema you want the new file placed in. Select Table Data Import.
@@ -109,6 +115,7 @@ You’ll see completion status, review and click FINISH
 ![image-13](https://github.com/SteveChevalier/guide-images/blob/master/create_table13.JPG?raw=true)
 
 ![image-14](https://github.com/SteveChevalier/guide-images/blob/master/create_table14.JPG?raw=true)
+  
 
 ## Other Material
 

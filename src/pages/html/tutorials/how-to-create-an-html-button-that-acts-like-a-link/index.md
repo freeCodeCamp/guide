@@ -21,6 +21,14 @@ A second option is to create your link as you normally would with your `<a>` tag
 
 Once you've created your link, you can the use CSS to make it look like a button. For instance, you could add a border, a background color, some styles for when the user is hovering the link...
 
+Another way to add a button is to wrap an `input` inside `form` tags. Specify the desired target URL in the form action attribute.
+
+```html
+<form action="http://google.com">
+    <input type="submit" value="Go to Google" />
+</form>
+```
+
 #### More Information:
-Read more about <a href='https://guide.freecodecamp.org/css/css-buttons/' target='_blank'>styling buttons using CSS</a>
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+* [FreeCodeCamp Guide - styling buttons](https://guide.freecodecamp.org/css/css-buttons/)
+* [How to create an HTML button that acts like a link?](https://stackoverflow.com/questions/2906582/how-to-create-an-html-button-that-acts-like-a-link)

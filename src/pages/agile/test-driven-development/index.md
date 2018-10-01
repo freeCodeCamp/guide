@@ -6,6 +6,7 @@ title: Test Driven Development
 Test Driven Development (TDD) is one of Agile Software Development approaches. It is based on the concept that
 > you must write a test case for your code even before you write the code
 
+Here, we write unit test first and then write the code to complete the test successfully. This saves time spend to perform unit test and other similar test, as we are going ahead with the successful iteration of the test as well leading to achieve modularity in the code. 
 It's basically composed of 4 steps
 
  - Write a test case

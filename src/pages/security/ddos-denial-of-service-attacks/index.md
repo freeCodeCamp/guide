@@ -16,7 +16,6 @@ DDoS attacks can be broadly categorized into three categories −
 ### Volume-Based Attacks
 Volume-based attacks include TCP floods, UDP floods, ICMP floods, and other spoofedpacket floods. These are also called Layer 3 & 4 * Attacks. Here, an attacker tries to saturate the bandwidth of the target site. The attack magnitude is measured in Bits per Second (bps).
 
-
 * **UDP Flood** − A UDP flood is used to flood random ports on a remote host with numerous UDP packets, more specifically port number 53. Specialized firewalls can be used to filter out or block malicious UDP packets.
 
 * **ICMP Flood** − This is similar to UDP flood and used to flood a remote host with numerous ICMP Echo Requests. This type of attack can consume both outgoing and incoming bandwidth and a high volume of ping requests will result in overall system slowdown.
@@ -66,4 +65,6 @@ You can take the help from your system administrator to understand these points 
 
 ### More Information
 
-<a href='https://www.us-cert.gov/ncas/tips/ST04-015'>Understanding Denial-of-Service Attacks</a><br>
+* [Understanding Denial-of-Service Attacks](https://www.us-cert.gov/ncas/tips/ST04-015)
+* [Visualisation of DDoS Attacks Worldwide](http://www.digitalattackmap.com/#anim=1&color=0&country=ALL&list=0&time=17462&view=map "Visualisation of DDoS Attacks Worldwide")
+* [Kotaku Article about DDoS](https://kotaku.com/how-ddos-attacks-work-and-why-theyre-so-hard-to-stop-1676445620)

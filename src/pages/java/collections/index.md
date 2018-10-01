@@ -34,13 +34,13 @@ These and various other methods have to be implemented by any class implementing
 
 Other important interfaces extending the collection interface are:
 
-Set
+Set:
 	A collection containing only unique elements.
 
-Queue
+Queue:
 	Implement the queue behaviour where elements are added only in the beginning and removed from the end.
 
-List
+List:
 	This collection handles a list/sequence of object.
 
 These four interfaces (Collection, Set, Queue, List) along with SortedSet, Deque and NavigableSet form the collective Collection hierarchy.

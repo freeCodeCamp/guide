@@ -92,6 +92,6 @@ struct node
 
 ```
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
-* <a href='https://en.wikipedia.org/wiki/Tree_(data_structure)' target='_blank' rel='nofollow'>Trees (data structure)</a>
+* [CMU lesson notes](http://www.cs.cmu.edu/~clo/www/CMU/DataStructures/Lessons/lesson4_1.htm)
+* [Wikipedia](https://en.wikipedia.org/wiki/Tree_(data_structure))
