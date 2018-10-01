@@ -14,6 +14,9 @@ Check out the guides in this folder to learn about the 4 core components that ma
 
 Lastly, learn to integrate 3rd party libraries and Firebase services to add functionality to your app.
 
+Google also provides Scholarship to students for learning Android Develpoment, in collab with UDACITY and PLURALSIGHT. Keep an eye on them!
+
+
 ### Official Documentation
 
 [Google Developers Guide for Android](https://developer.android.com/training/index.html)
