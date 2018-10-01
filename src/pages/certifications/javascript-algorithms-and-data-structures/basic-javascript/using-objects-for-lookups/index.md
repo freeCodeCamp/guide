@@ -3,8 +3,56 @@ title: Using Objects for Lookups
 ---
 ## Using Objects for Lookups
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-javascript/using-objects-for-lookups/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Here’s the example:
+```javascript
+// Setup
+function phoneticLookup(val) {
+  var result = "";
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+  // Only change code below this line
+  switch(val) {
+    case "alpha": 
+      result = "Adams";
+      break;
+    case "bravo": 
+      result = "Boston";
+      break;
+    case "charlie": 
+      result = "Chicago";
+      break;
+    case "delta": 
+      result = "Denver";
+      break;
+    case "echo": 
+      result = "Easy";
+      break;
+    case "foxtrot": 
+      result = "Frank";
+  }
 
+  // Only change code above this line
+  return result;
+}
+
+// Change this value to test
+phoneticLookup("charlie");
+```
+
+Here’s a solution:
+
+```javascript
+function phoneticLookup(val) {
+  var result = "";
+  var lookup = {
+    "alpha": "Adams",
+    "bravo": "Boston",
+    "charlie": "Chicago",
+    "delta": "Denver",
+    "echo": "Easy",
+    "foxtrot": "Frank"
+  };
+  return lookup[val];
+}
+phoneticLookup("charlie");
+```
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
