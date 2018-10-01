@@ -32,6 +32,7 @@ Command | Usage
 ------------ | -------------
 pwd | Print Working Directory (Where Am I? )
 ls | List contents of current directory
+cd | change your current directory
 mkdir | Create a new directory
 touch | Create a new file
 cp| Copy a file 
