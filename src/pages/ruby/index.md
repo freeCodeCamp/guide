@@ -37,7 +37,7 @@ g.salute
 ```
 ## Version
 
-The current stable version is 2.4.2\. It contains security improvements from its predecessor, ruby v2.3.5.
+The current stable version is [2.5.1](https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-5-1-released/).
 
 ## Installation
 
