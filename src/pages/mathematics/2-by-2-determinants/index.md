@@ -14,7 +14,7 @@ Given a matrix A, the determinant of A (written as |A|) is given by the followin
 
 The rows and vectors of a 2 by 2 matrix can be associated with points on a cartesian plane, such that each row forms a 2D vector. These two vectors form a parallelogram, as shown in the image below.
 PROOF:
-Let the vectors be M(a,b),N(c,d) originating from origin in a 2-D plane with an angle (*theta*>0) between them(head of one vector touching tail of another vector) as in https://upload.wikimedia.org/wikipedia/commons/0/05/Inner-product-angle.png . But in here it doesn't matter because sin(theta)=sin(2(pi)-theta).Then the other point is P(a+c,b+d).The area of the parallelogram is perpendicular distance from one point say N(c,d) to the base vector, M(a,b) multiplied by the length of the base vector, |M(a,b)|. The parallelogram consists of two triangles hence, the area is two times of a triangle. 
+Let the vectors be M(a,b),N(c,d) originating from origin in a 2-D plane with an angle (*theta*>0) between them(head of one vector touching tail of another vector) as in <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Inner-product-angle.png" width="300"> <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAHMSFdg7CiureEdDlP0y9A71ckEZZe7wedGwPbjxVFLjvQUi9">Here</a>  . But in here it doesn't matter because sin(theta)=sin(2(pi)-theta).Then the other point is P(a+c,b+d).The area of the parallelogram is perpendicular distance from one point say N(c,d) to the base vector, M(a,b) multiplied by the length of the base vector, |M(a,b)|. The parallelogram consists of two triangles hence, the area is two times of a triangle. 
 Let the perpendicular distance be h
 h=|N(c,d)|* sin(*theta*(angle between two vectors))
 b=|M(a,b)|
@@ -22,7 +22,7 @@ Area=h * b
 
 The absolute value of the determinant is equal to the area of the parallelogram. 
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Area_parallellogram_as_determinant.svg/1044px-Area_parallellogram_as_determinant.svg.png" width="300"> <a href="https://i.stack.imgur.com/gCaz3.png">Here</a> is an interesting visual proof of this property
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Area_parallellogram_as_determinant.svg/1044px-Area_parallellogram_as_determinant.svg.png" width="300"> <a href="https://i.stack.imgur.com/gCaz3.png">Here</a> is an interesting visual proof of this property.
 
 Note: If the determinant equals zero, there are no solutions (intersections) to the system (aka the lines are parallel). 
 
