@@ -22,7 +22,7 @@ var fruits = new List<Fruit>() {
     new Fruit() { Id = 6, Name = "Mango",      Color = "Yellow", Quantity: 2   }
 };
 
-var mangoQnt = fruits.Select(f => f.Quantity).FirstOrDefault(f => f.Name == "Mango"); // 2
+var mangoQnt = fruits.Where(f => f.Name == "Mango").Select(f => f.Quantity).FirstOrDefault(); // 2
 
-var grapeColor = fruits.Select(f => f.Color).FirstOrDefault(f => f.Name == "Grape"); // Purple
+var grapeColor = fruits.Where(f => f.Name == "Grape").Select(f => f.Color).FirstOrDefault(); // Purple
 ```
