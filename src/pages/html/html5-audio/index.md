@@ -43,4 +43,6 @@ https://www.w3schools.com/html/html5_audio.asp
 
 https://msdn.microsoft.com/en-us/library/gg589529(v=vs.85).aspx
 
+https://html5tutorial.info/html5-audio.php
+
 
