@@ -162,7 +162,7 @@ In the event of *odd number of sets* the symmetric difference will include ident
 ```javascript
     function sym() {
       let argv = Array.from(arguments).reduce(diffArray);
-      return argv.filter((element, index, array) => index === array.indexOf(element));
+      return argv.filter((element, index, array) => index === array.indexOf(element));//remove duplicates
     }
 
     function diffArray(arr1, arr2) {
@@ -180,7 +180,7 @@ In the event of *odd number of sets* the symmetric difference will include ident
 ### Code Explanation: ###
 
 * The main function *sym()* creates an array from *arguments* and reduces its elements utilising helper function *diffArray()* to a single array.
-* The following statement returns the symmetric difference filtering out duplicates from previous computation stored in *argv*.
+
 * The function *diffArray()* returns the symmetric difference of two arrays by picking out unique elements in parameterised arrays; *arr1* and *arr2*.
 
 #### Relevant Links ####
