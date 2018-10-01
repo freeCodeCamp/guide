@@ -1,8 +1,8 @@
 ---
-title: (2x2) Determinants
+title: 2 by 2 Determinants
 ---
 
-## A(2x2) Determinants
+## 2 by 2 Determinants
 
 In linear algebra, the determinant of a two-by-two matrix is a useful quantity.Mostly it is used to calculate the area of the given quadilateral(convex polygons only) and is also a easy representation of a quadilateral(convex polygons only) to be stored in computers as arrays. Scientists, engineers, and mathematicians use determinants in many everyday applications including image and graphic processing. 
 
