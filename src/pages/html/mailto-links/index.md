@@ -8,13 +8,15 @@ title: Mailto Links
 A mailto link is a kind of hyperlink (<a href=""></a>), with special parameters that lets you specify additional recipients, a subject line, and/or a body text.
 
 ### The basic syntax with a recipient is : 
-    <a href="mailto:friend@something.com">Some text</a>
+```html
+<a href="mailto:friend@something.com">Some text</a>
+```
 
 ### More customization!
 
 #### Adding a subject to that mail:
 
-If you want to add a specific subject to that mail, be careful to add `%20` or `+` everywhere there's a space in the subject line.
+If you want to add a specific subject to that mail, be careful to add `%20` or `+` everywhere there's a space in the subject line. An easy way to ensure that it is properly formatted is to use a [URL Decoder / Encoder](https://meyerweb.com/eric/tools/dencoder/).
 
 #### Adding body text:
 
@@ -31,21 +33,23 @@ Subject: Great news
 Body: I am becoming a developer
 
 Your html link now:
-
-    <a href="mailto:?subject=Great%20news&body=I%20am%20becoming%20a%20developer">Send mail!</a>
-    
+```html
+<a href="mailto:?subject=Great%20news&body=I%20am%20becoming%20a%20developer">Send mail!</a>
+```
 Here, we've left mailto empty (mailto:?). This will open the user's email client and the user will add the recipient address themselves.
 
 #### Adding more recipients:
 
 In the same manner, you can add CC and bcc parameters. 
-Seperate each address by a comma! 
-Additional parameters must be preceded by `&`.
+Seperate each address by a comma!
 
-    <a href="mailto:firstfriend@something.com?subject=Great%20news&cc=secondfriend@something.com,thirdfriend@something.com&bcc=fourthfriend@something.com">Send mail!</a>
+Additional parameters must be preceded by `&`.
+```html
+<a href="mailto:firstfriend@something.com?subject=Great%20news&cc=secondfriend@something.com,thirdfriend@something.com&bcc=fourthfriend@something.com">Send mail!</a>
+```
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-[Mailto links on MDN web docs](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks)
+<a href='https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks' target='_blank' rel='nofollow'>Mailto links on MDN web docs</a>
 
 

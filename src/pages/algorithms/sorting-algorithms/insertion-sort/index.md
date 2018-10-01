@@ -95,6 +95,26 @@ The below algorithm is slightly optimized version to avoid swapping `key` elemen
             i = i - 1
          arr[i+1] = key
 ```
+
+Here is a detaied implementation in Javascript:
+
+```
+function insertion_sort(A) {
+    var len = array_length(A);
+    var i = 1;
+    while (i < len) {
+        var x = A[i];
+        var j = i - 1;
+        while (j >= 0 && A[j] > x) {
+            A[j + 1] = A[j];
+            j = j - 1;
+        }
+        A[j+1] = x;
+        i = i + 1;
+    }
+}
+```
+
 A quick implementation in Swift is as shown below :
 
 ```swift
@@ -114,12 +134,28 @@ A quick implementation in Swift is as shown below :
       return array
   }
 ```
+The Java example is shown below:
+```
+public int[] insertionSort(int[] arr)
+      for (j = 1; j < arr.length; j++) {
+         int key = arr[j]
+         int i = j - 1
+         while (i > 0 and arr[i] > key) {
+            arr[i+1] = arr[i]
+            i -= 1
+         }
+         arr[i+1] = key
+      }
+      return arr;
+```
 
 ### Properties:
 * Space Complexity: O(1)
 * Time Complexity: O(n*n)
 * Stable: Yes
 
-#### More Information:
+#### Other Resources:
+- [Wikipedia](https://en.wikipedia.org/wiki/Insertion_sort)
+- [CS50 - YouTube](https://youtu.be/TwGb6ohsvUU)
+- [SortInsertion - GeeksforGeeks, YouTube](https://www.youtube.com/watch?v=wObxd4Kx8sE)
 
-- <a href='https://en.wikipedia.org/wiki/Insertion_sort' target='_blank' rel='nofollow'>Wikipedia</a>
