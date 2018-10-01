@@ -43,3 +43,4 @@ To change the remote folder:
 ```unix
 cd <path/to/folder>
 ```
+all done!
