@@ -32,7 +32,7 @@ Acceptance criteria are defined on the basis of the following attributes
 ->Timeliness
 
 ->Confidentiality and Availability
-
+ 
 ->Installability and Upgradability
 
 ->Scalability
@@ -64,11 +64,11 @@ The Acceptance test plan has the following attributes:
 
 =>The acceptance test activities are designed to reach at one of the conclusions:
 
-Accept the system as delivered
+* Accept the system as delivered
 
-Accept the system after the requested modifications have been made
+* Accept the system after the requested modifications have been made
 
-Do not accept the system
+* Do not accept the system
 
 #Acceptance Test Report - Attributes
 The Acceptance test Report has the following attributes:
