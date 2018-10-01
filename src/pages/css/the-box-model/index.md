@@ -16,7 +16,7 @@ Around the Content Area, this is a region known as **Padding Area**. The size of
 
 ![Padding Area Image](https://raw.githubusercontent.com/johnkennedy9147/Resources/master/CSS%20Box%20Model%20Images/padding%20area.jpg)
 
-Next, there is a **Border Area**. This creates a border around the element and its padding. You can set thickness (`border-width`), color (`border-color`), and style (`border-style`) of the border. Style options include `none` (no border), `solid`, `dashed`, `dotted` and several others. Additionally, you can set the borders on the 4 sides individually; for example, the top border with `border-top-width`, `border-top-color` and `border-top-style` for its thickness, color and style. (See note below regarding `box-sizing`.)
+Next, there is a **Border Area**. This creates a border around the element and its padding. You can set thickness (`border-width`), color (`border-color`), and style (`border-style`) of the border. Style options include `none` (no border), `solid`, `dashed`, `dotted`, and several others. Additionally, you can set the borders on the 4 sides individually; for example, the top border with `border-top-width`, `border-top-color` and `border-top-style` for its thickness, color and style. (See note below regarding `box-sizing`.)
 
 
 ![Border Area Image](https://raw.githubusercontent.com/johnkennedy9147/Resources/master/CSS%20Box%20Model%20Images/border%20area.jpg)
