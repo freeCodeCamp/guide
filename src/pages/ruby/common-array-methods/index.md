@@ -173,5 +173,13 @@ end
 4
 ```
 
+#### .compact
+The .compact method takes an array containing nil and returns a copy of that array, nil free.
+
+``` ruby
+array = [0, nil, 1, nil, 2, nil, 3, nil, 4]
+array.copmact 
+=> [0, 1, 2, 3, 4]
+```
 ## More Information
 * [Ruby Array docs](https://ruby-doc.org/core-2.4.2/Array.html)
