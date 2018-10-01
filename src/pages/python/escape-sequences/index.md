@@ -24,4 +24,12 @@ A _raw_ string can be used by prefixing the string with `r` or `R` which allows 
       File "<stdin>", line 1
         print(r"An odd number of backslashes at the end of a raw string will cause an error\")
                                                                                              ^
-    SyntaxError: EOL while scanning string literal
+    SyntaxError: EOL while scanning string literal.
+ #Some more examples of escape sequences.
+ Escape Sequence	
+\\ 	Prints Backslash 	
+\` 	Prints single-quote 	
+\" 	Prints double quote 	
+\a 	ASCII bell makes ringing the bell alert sounds ( eg. xterm ) 
+\b 	ASCII backspace ( BS ) removes previous character 
+\n  Adds newline.
