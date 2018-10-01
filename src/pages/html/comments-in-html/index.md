@@ -59,6 +59,7 @@ These comments are only available in Internet Explorer and can be used up to IE9
 [About conditional comments](https://msdn.microsoft.com/en-us/library/ms537512(v=vs.85).aspx)
 
 <!--
-with comments you can help yourself and other users to understand your code easily for more info on comments goto
+With comments you can help yourself and other users to understand your code easily for more info on comments goto
 :https://www.w3schools.com/Html/html_comments.asp
+visit w3 schools
 -->
