@@ -135,26 +135,22 @@ def binary_search(target, array)
   return nil
 end
 ```
+### Example in C
 
-Here is another implementation in Javascript:
-
-```Javascript
-function binary_search(a, v) {
-    function search(low, high) {
-        if (low === high) {
-            return a[low] === v;
-        } else {
-            var mid = math_floor((low + high) / 2);
-            return (v === a[mid]) 
-                   ||
-                   (v < a[mid]) 
-                   ? search(low, mid - 1)
-                   : search(mid + 1, high);
-        }
-    }
-    return search(0, array_length(a) - 1);
-}
+```C
+int binarySearch(int a[], int l, int r, int x) { 
+   if (r >= l){ 
+        int mid = l + (r - l)/2; 
+        if (a[mid] == x)   
+            return mid; 
+        if (arr[mid] > x)  
+            return binarySearch(arr, l, mid-1, x); 
+        return binarySearch(arr, mid+1, r, x); 
+   } 
+   return -1; 
+} 
 ```
+
 
 ### More Information
 * [Binary search (YouTube video)](https://youtu.be/P3YID7liBug)
