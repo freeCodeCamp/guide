@@ -47,4 +47,6 @@ Linux allows user to change desktop design and themes, add widgets and more. The
 
 ## It's Free.
 
-Hard to beat that!
+Hard to beat that! 
+
+Helps to do the work of pentesting.
