@@ -10,6 +10,8 @@ An arrow function expression is a more concise syntax for writing function expre
 
 ### The basic syntax
 
+The function arguments are followed by the arrow and then the function body. If there are no arguments, its argument list is just an empty set of parentheses.
+
 Below is a basic example of an arrow function:
 
 ```javascript
