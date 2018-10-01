@@ -33,6 +33,8 @@ The operators `<<` and `>>` are used to point in the direction of the data.
 * For `cin`, the `>>` operator is used. You can visualize the input data flowing into the variable.
 * For `cout`, the `<<` operator is used. You can visualize data from a string or variable flowing into the `cout` object.
 
+C's standard printf and scanf statements can also be used with c++ by importing '<cstdio>' header file.
+
 Try the code <a href="https://repl.it/ND8q/1" target='_blank' rel='nofollow'>here</a> .
 
  **Happy Coding ! :)**
