@@ -3,38 +3,32 @@ title: CSS3 Opacity Property
 ---
 ## CSS3 Opacity Property
 
+`opacity` lets you control how transparent an element is on a scale of `0` to `1`.
 
+If you set the property of an element to `0` it will be transparent. If you set it to `1` it will be opaque.
 
-This property controls how 'see-through' an element is.
-
-___
-If you set the property of an element to zero it will be completely transparent.  You won't be able to see it at all.  If you set it to '1'  it will be opaque and you won't be able to see anything behind it. 
+Setting an element to `opacity: 0;` does not remove it from the page. The element will still be clickable and impact the flow of the page's content.
 
 ```css
-
-.transparent{
-opacity: 0.0;
+.transparent {
+    opacity: 0;
 }
 
-.verySeeThrough{
-opacity: 0.3;
+.verySeeThrough {
+    opacity: 0.3;
 }
 
-.slightlySeeThrough{
-opacity: 0.7;
+.slightlySeeThrough {
+    opacity: 0.7;
 }
 
-.opaque{
-opacity: 1.0;
+.opaque {
+    opacity: 1;
 }
-
 ```
 
-[This simple example ](https://codepen.io/Tlandis/pen/xXMRGM)shows how you might use opacity with a hover effect.
-
-Opacity is often used to draw the user's attention to elements and  focus on important parts of a page. 
+[This simple example](https://jsfiddle.net/1ogmxaf8/1/) shows how you might use opacity with a hover effect.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+* [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/opacity)
+* [CSS Tricks Almanac](https://css-tricks.com/almanac/properties/o/opacity/)

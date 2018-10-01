@@ -2,14 +2,29 @@
 title: Map.prototype.set
 ---
 ## Map.prototype.set
+Sets or updates an element with specified key and value to a `Map` object. Returns `map` object.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/standard-objects/map/map-prototype-set/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+## Syntax
+```javascript
+myMap.set(key, value);
+```
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+## Parameters
+**key** Required.
+**value** Required.
 
 
+##Example
+```javascript
+const myMap = new Map();
+
+// sets new elements
+myMap.set('foo',1);
+myMap.set('bar',2);
+myMap.set('baz',3);
+
+// Updates an element
+myMap.set('foo', 100);
+
+myMap.get('foo');   // returns 100
+```

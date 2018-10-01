@@ -3,13 +3,18 @@ title: Math Trunc
 ---
 ## Math Trunc
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/standard-objects/math/math-trunc/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+`Math.trunc()` is a method of the Math standard object that returns only the integer part of a given number by simply removing fractional units. This results in an overall rounding towards zero. Any input that is not a number will result in an output of NaN.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Careful: This method is an ECMAScript 2015 (ES6) feature and thus is not supported by older browsers.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### Examples
+```javascript
+Math.trunc(0.1)   //  0
+Math.trunc(1.3)   //  1
+Math.trunc(-0.9)  // -0
+Math.trunc(-1.5)  // -1
+Math.trunc('foo') // NaN
+```
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+### More Information:
+* [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/trunc)

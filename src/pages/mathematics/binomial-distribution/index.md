@@ -1,15 +1,20 @@
 ---
 title: Binomial Distribution
 ---
-## Binomial Distribution
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/binomial-distribution/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+If X ~ B(n,p) then:
+P(X=x) = (n/x)p^x multiplied by (1-p)^(n-x)
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+![Probability](https://wikimedia.org/api/rest_v1/media/math/render/svg/d33401621fb832dd2f9783e80a906d562f669008)
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+![Diagram](https://wikimedia.org/api/rest_v1/media/math/render/svg/38d86cba65d40f015a2b807d2b736250805abe45)
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+If X ~ B(n,p) then:
+E(X) = np
+Var(X) = np(1-p)
 
-
+Binomial distributions only occur if:
+- There's a fixed number of trials, n.
+- Each trial should be either a success or failure.
+- Probability of success (p) is constant at each trial.
+- Independent trials.

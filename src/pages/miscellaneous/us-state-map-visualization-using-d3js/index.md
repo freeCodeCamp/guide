@@ -1,9 +1,7 @@
 ---
 title: Us State Map Visualization Using D3js
 ---
-<div class="lightbox-wrapper">[![screen shot 2016-05-19 at 6 29 43 pm](//discourse-user-assets.s3.amazonaws.com/optimized/2X/a/a4a31935c10185c660c713ba7651a30e0a11f1e8_1_690x461.png)
-
-<div class="meta"><span class="filename">fa585e4c-1df7-11e6-832e-66d00f4354e1.png</span><span class="informations">944x632 96 KB</span><span class="expand"></span></div>](//discourse-user-assets.s3.amazonaws.com/original/2X/a/a4a31935c10185c660c713ba7651a30e0a11f1e8.png "fa585e4c-1df7-11e6-832e-66d00f4354e1.png") </div>
+![screen shot 2016-05-19 at 6 29 43 pm](//discourse-user-assets.s3.amazonaws.com/original/2X/a/a4a31935c10185c660c713ba7651a30e0a11f1e8.png)
 
 ## Project Explanation:
 
@@ -51,9 +49,7 @@ For example, `uStates.draw("#statesvg", sampleData, tooltipFunc);`
 
 **Final output will be something like this: ( Hovered the mouse over California )**
 
-<div class="lightbox-wrapper">[![screen shot 2016-05-19 at 6 37 57 pm](//discourse-user-assets.s3.amazonaws.com/optimized/2X/2/2c17548386b8591d84ac8f2541fecd8d68e7365c_1_690x442.png)
-
-<div class="meta"><span class="filename">0dd852f0-1df9-11e6-8962-26873fa87af2.png</span><span class="informations">947x608 95.9 KB</span><span class="expand"></span></div>](//discourse-user-assets.s3.amazonaws.com/original/2X/2/2c17548386b8591d84ac8f2541fecd8d68e7365c.png "0dd852f0-1df9-11e6-8962-26873fa87af2.png") </div>
+![screen shot 2016-05-19 at 6 37 57 pm](//discourse-user-assets.s3.amazonaws.com/original/2X/2/2c17548386b8591d84ac8f2541fecd8d68e7365c.png)
 
 ## References:
 

@@ -22,6 +22,20 @@ City popped is :  San Francisco
 City at index 2 is  :  San Antonio
  ```
  
+#### Basic Stack Functionality
+ 
+The `pop()` method is often used in conjunction with `append()` to implement basic stack functionality in a Python application.
+ 
+```py
+stack = []
+
+for i in range(5):
+    stack.append(i)
+
+while len(stack):
+    print(stack.pop())
+```
+ 
  #### More Information:
  The official documentation for `pop()` can be found <a href='https://docs.python.org/3.6/tutorial/datastructures.html' target='_blank' rel='nofollow'>here</a>
  
