@@ -11,7 +11,7 @@ This section will focus on various aspects of working in tech. We will discuss t
 
 The field of computer security is growing at a rapid rate every year, in a report done recently it is estimated that by 2021 their will be 3.5 million jobs unfilled. The demand is due to the increase in cyber attacks and with how much data is being created everyday, data is so valuable nowadays and it needs to be kept secure and safe.
 
-### Books to Read
+### Books
 
 [About Face: The Essentials of Interaction Design](https://amzn.to/2uwtugk)
 
@@ -25,7 +25,7 @@ The field of computer security is growing at a rapid rate every year, in a repor
 
 To see the full list, visit: https://talkpython.fm/episodes/show/130/10-books-python-developers-should-be-reading
 
-### Articles about Tech Environment
+### Articles
 
 * [We fired our top talent. Best decision we ever made.](https://medium.freecodecamp.org/we-fired-our-top-talent-best-decision-we-ever-made-4c0a99728fde)
 * [You fired your top talent. I hope you’re happy.](https://medium.com/@deusexmachina667/you-fired-your-top-talent-i-hope-youre-happy-cf57c41183dd)
@@ -34,5 +34,5 @@ To see the full list, visit: https://talkpython.fm/episodes/show/130/10-books-py
 * [How you can land a 6-figure job In tech with no connections — tips that got me job offers from Google and other tech giants](https://medium.freecodecamp.org/how-you-can-land-a-6-figure-job-in-tech-with-no-connections-6eed0de26ea4)
 * [The Complete Software Developer's Career Guide](https://simpleprogrammer.com/products/careerguide/)
 
-### Podcasts to listen 
+### Podcasts
 [10 Books Python Developers should be reading - talkpython.fm](https://talkpython.fm/episodes/show/130/10-books-python-developers-should-be-reading)
