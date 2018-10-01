@@ -14,6 +14,13 @@ Check out the guides in this folder to learn about the 4 core components that ma
 
 Lastly, learn to integrate 3rd party libraries and Firebase services to add functionality to your app.
 
+### Setting Up and Getting Started with Android Studio
+1. Go to this [link](https://www.oracle.com/technetwork/java/javase/downloads/index.html) and install the latest JDK.
+2. Now download the Android Studio and SDK tools bundle from [here](https://developer.android.com/studio/).
+3. Install the Android Studio and SDK following the set up. Keep note of the SDK location.
+4. If you encounter any error go to settings later to solve it.
+
+
 ### Official Documentation
 
 [Google Developers Guide for Android](https://developer.android.com/training/index.html)
