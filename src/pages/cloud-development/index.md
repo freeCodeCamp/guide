@@ -2,29 +2,16 @@
 title: Cloud Development
 ---
 ## Cloud Development
-Cloud development refers to development of software programs where cloud-based and local components work together to make or manage cloud applications . 
 
-Development components include integrated development environments, application life-cycle management components (such as test and quality management, source code and configuration management, continuous delivery tools), and application security testing components. 
+Cloud development is the usage of software engineering practices on infrastructure components in a shared resource pool. This can be done in multiple manners, within your company or organizations own data center, or in a "public" shared datacenter owned and operated by a third party.
 
-The benefits of cloud development includes
-Business agility,
-Scalability,
-Performance and Cost Efficiency .
- 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/cloud-development/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Popular choices for Public Cloud providers are Amazon Web Services, Microsoft Azure, and Google Compute Engine. These providers operate clusters of massive datacenters whereby thousands of different individuals, companies, and organizations consume these resources. Operating the Cloud involves enabling the partitioning of these shared resources for the usage of these different users. The consumption of the resources is tracked (also referred to as metered) and then billed back to the user depending on the different financial scheme for the various compute, network, and storage resources consumed.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Many modern websites and big data efforts are said to be developed in the Cloud, meaning they are operating in some of these massive shared datacenters.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-<a href='https://aws.amazon.com/getting-started/resource-center/?nc2=h_ql_gs' target='_blank' rel='nofollow'>Getting Started with AWS</a>.
 
-<a href='https://cloud.google.com/docs/' target='_blank' rel='nofollow'>Getting Started with Google Cloud Platform</a>.
-
-<a href='https://docs.microsoft.com/en-us/azure/guides/developer/azure-developer-guide' target='_blank' rel='nofollow'>Getting Started with Microsoft Azure</a>.
-
-<a href='https://firebase.google.com/docs/' target='_blank' rel='nofollow'>Getting Started with Firebase</a>.
-
-
+[Getting Started with AWS](https://aws.amazon.com/getting-started/)
+[Google Cloud Documentation](https://cloud.google.com/docs/)
+[Getting Started with Microsoft Azure](https://docs.microsoft.com/en-us/azure/guides/developer/azure-developer-guide)
+[Firebase Documentation](https://firebase.google.com/docs/)
