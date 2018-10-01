@@ -3,8 +3,7 @@ title: For Loop
 ---
 
 # For Loop
-
-The for loop executes a block of code repeatedly until a specified conditional expression evaluates to false.
+The `for` loop executes a block of code until a specified condition is false. Althought `for` loop looks like a <a href='https://guide.freecodecamp.org/csharp/while-loop' target='_blank' rel='nofollow'>`while` loop</a>, developers should use them __properly__. Use `while` loops when the number of iterations are variable, otherwise use `for` loops. A common use of `for` loops are array iterations.<sup>1</sup>
 
 Anatomy of for loop:
 ```
@@ -127,4 +126,5 @@ for (; i < 5;)
 ```
 
 ### Other Resources
+- [1](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/for)
 - [Microsoft Documentation](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/for)
