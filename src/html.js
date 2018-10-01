@@ -27,6 +27,7 @@ class HTML extends React.Component {
           />
           {this.props.postBodyComponents}
         </body>
+      <p><b>add paragraph </b> </p>
       </html>
     );
   }
