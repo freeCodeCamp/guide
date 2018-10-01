@@ -2,9 +2,20 @@
 title: Add Inline Styles in React
 ---
 ## Add Inline Styles in React
+You can declare a component style passing the object directly as a prop 'style'. Just remember that each property of the style object is camelcased. So properties like 'font-size' is declared 'fontSize' to be a valid javascript object property.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/front-end-libraries/react/add-inline-styles-in-react/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+### Spoiler
+```jsx
+class Colorful extends React.Component {
+  render() {
+    // change code below this line
+    return (
+      <div style={{color: "yellow", fontSize: 24}}>Style Me!</div>
+    );
+    // change code above this line
+  }
+};
+```
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### Resources
+[DOM Elements Style](https://reactjs.org/docs/dom-elements.html#style)
