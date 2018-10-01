@@ -9,7 +9,6 @@ Firebase, in it's most basic form, was acquired by Google in October 2014. Since
 
 #### More Information:
 
-Firebase : https://firebase.google.com/
-Wikipedia : https://en.wikipedia.org/wiki/Firebase 
-
-Here you can find examples of how to use Firebase in your projects : https://firebase.google.com/docs/samples/
+- [Firebase](https://firebase.google.com/)
+- [Wikipedia](https://en.wikipedia.org/wiki/Firebase)
+- [Here](https://firebase.google.com/docs/samples/) you can find examples of how to use Firebase in your projects.
