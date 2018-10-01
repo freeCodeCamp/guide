@@ -26,7 +26,7 @@ exampleArray.splice(-1);
 If a second parameter is included, then `splice(start, deleteCount)` will remove `deleteCount` elements from the array, beginning with `start`.
 ```js
 let exampleArray = ['first', 'second', 'third', 'fourth'];
-exampleArray.splice(-1, 2);
+exampleArray.splice(1, 2);
 // exampleArray is now ['first', 'fourth'];
 ```
 
