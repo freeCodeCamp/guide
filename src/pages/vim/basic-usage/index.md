@@ -1,8 +1,7 @@
 ---
 title: Basic Usage
 ---
-
-<h1 align="center"> VIM Basic Usage </h1>
+## VIM Basic Usage
   
 
 ### Open File
