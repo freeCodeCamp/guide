@@ -55,5 +55,10 @@ title: Books to Read for Programmers
 - [Amazon Smile](https://smile.amazon.com/Head-First-Java-Kathy-Sierra/dp/0596009208)
 - ISBN-13: 978-0596009205
 
+*Hacking: Ultimate Hacking Guide: Hacking For Beginners And Tor Browser
+- https://www.amazon.in/dp/B075CX7T6G/ref=cm_sw_r_cp_awdb_t1_-7ESBbZ43CCBM
+- (ISBN 1976112524).
+
+
 This list was compiled from multiple suggestion threads on Reddit and Stackoverflow. 
 Please feel free to add more that you have found useful!
