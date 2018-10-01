@@ -11,3 +11,9 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
+Other types of non-volatile memory include:
+
+    Programmable Read-Only Memory (PROM)
+    Electrically Programmable Read-Only Memory (EPROM)
+    Electrically Erasable Programmable Read-Only Memory (EEPROM; also called Flash ROM)
+    Electrically Alterable Read-Only Memory (EAROM)
