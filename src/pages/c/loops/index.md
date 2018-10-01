@@ -127,6 +127,7 @@ The final section is referred to as the 'increment/decrement'. Its job is to per
 
 ### Syntax Comparison
 ```
+
 main()                            
 {                          
   int i = 1;
@@ -150,6 +151,7 @@ main()
   getch();
 
 }
+
 
 main()                
 {
