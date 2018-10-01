@@ -81,3 +81,11 @@ Some of the thread instructions are executed on SFUs simultaneously with other t
 - <a href='https://blogs.nvidia.com/blog/2009/12/16/whats-the-difference-between-a-cpu-and-a-gpu/' target='_blank' rel='nofollow'>nVidia Blog</a>
 - <a href='https://www.nvidia.com/' target='_blank' rel='nofollow'>NVidia</a>
 - <a href='http://www.amd.com/en-us/products/graphics' target='_blank' rel='nofollow'>AMD</a>
+ 
+ These are the best graphics cards right now.
+
+    Nvidia GeForce RTX 2080 Ti. The fastest graphics card for 4K, ray tracing, and everything else
+    Nvidia GeForce RTX 2080
+    Nvidia GeForce GTX 1080 Ti
+    Nvidia GeForce GTX 1070 Ti
+    AMD Radeon RX Vega 56 8GB
