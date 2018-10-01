@@ -37,7 +37,6 @@ The `<a href>` attribute is supported by all browsers.
 ">more with a href atribut</a>
 
 ```
-
 ### In-page anchors
 
 Also it is possible to set an anchor to certain place of the page. To do this you should first place a tab at location on the page with tag <a> and necessary attribute "name" with any key-word description in it, like this:
@@ -64,3 +63,8 @@ The `<a href="#">` can also be aplied to images and other HTML elements.
 ```
 ### Example
 <a href="#"><img itemprop="image" style="height: 90px;" src="http://www.chatbot.chat/assets/images/header-bg_y.jpg" alt="picture">  </a>
+### Some more examples of href
+```html
+<base href="https://www.freecodecamp.org/a-href/">This gives a base url for all further urls on the page</a>
+<link href="style.css">This is a live link to an external stylesheet</a>
+```
