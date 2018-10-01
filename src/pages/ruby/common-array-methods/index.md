@@ -173,5 +173,19 @@ end
 4
 ```
 
+#### .map
+The .map method is the same as the .collect method. The .map and .collect methods iterate over each element of the array, allowing you to perform actions on them. The .map and .collect methods differ from the .each method in that they return an array containing the transformed elements.
+
+``` ruby
+array.map { |element| element * 2 }
+  puts element
+end
+=> 
+0
+2
+4
+6
+8
+```
 ## More Information
 * [Ruby Array docs](https://ruby-doc.org/core-2.4.2/Array.html)
