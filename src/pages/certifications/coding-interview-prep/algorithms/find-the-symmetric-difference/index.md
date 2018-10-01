@@ -160,7 +160,7 @@ In the event of *odd number of sets* the symmetric difference will include ident
 ## ![:rotating_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/rotating_light.png?v=3 ":rotating_light:") Advanced Code Solution: ##
 
 ```javascript
-    function sym(args) {
+    function sym() {
       argv = Array.from(arguments).reduce(diffArray);
       return argv.filter((element, index, array) => index === array.indexOf(element));
     }
