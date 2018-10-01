@@ -39,6 +39,22 @@ The margin property in CSS defines the outermost portion of the box model, creat
 
 ![The CSS Box Model](https://www.w3.org/TR/css3-box/box.png)
 
+
+## Horizontal and Vertical align for Divs
+```
+div {
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    top: 50%;
+    left: 50%;
+    margin-left: -100px;
+    margin-top: -75px;
+}
+```
+
+![The CSS Box Model](https://www.w3.org/TR/css3-box/box.png)
+
 ## Collapsing margins
 Vertical margins on different elements that touch each other (thus have no content, padding, or borders separating them) will collapse, forming a single margin that is equal to the greater of the adjoining margins. This does not happen on horizontal margins (left and right), only vertical (top and bottom).
 
