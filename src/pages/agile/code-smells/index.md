@@ -18,3 +18,4 @@ It is important to understand that smelly code works, but is not of good quality
 * [Code Smells on Jeff Atwood's Blog (Coding Horror)](https://blog.codinghorror.com/code-smells/)
 * [Code Smells on Ward Cunningham's C2 Wiki](http://wiki.c2.com/?CodeSmell)
 * [Martin Fowler - Code Smell](https://martinfowler.com/bliki/CodeSmell.html)
+* [35 programming habits that make your code smell](https://techbeacon.com/35-bad-programming-habits-make-your-code-smell)
