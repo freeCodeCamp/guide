@@ -1,8 +1,8 @@
 ---
-# title: Set
+title: Set
 ---
 
-A set data structure in c++ is defined the same way a set is defined in the contet of mathematics. 
+A set data structure in c++ is defined the same way a set is defined in the context of mathematics. 
 
 More formally speaking, Sets are a type of associative containers in which each element has to be unique.
 * The value of the element cannot be modified once it is entered, although deleting an element and inserting a new element is allowed, the same way we do in mathenatics.
@@ -10,8 +10,9 @@ More formally speaking, Sets are a type of associative containers in which each 
 * Similar to vector, but only unique values are allowed.
 * Set arranges the elements in increasing order as and when you insert elements into the set. 
 
-The header file required for using the set data structure is 'set'. i.e, `#include<set>` must be there in your code for you to use the set data structure.    <br> 
-_Pro tip_:- Use `#include<bits/stdc++.h>` to include all C++ data structures and functions, instead of adding them one by one.    
+The header file required for using the set data structure is 'set'. i.e, `#include<set>` must be there in your code for you to use the set data structure.    
+    
+__Pro tip__:- Use `#include<bits/stdc++.h>` to include all C++ data structures and functions, instead of adding them one by one.    
 <br>
 Some of the functions that can be performed with a set:- 
 
@@ -55,17 +56,18 @@ int main()
   
   
     // remove all elements up to 65 in myset from the beginning:-
-    cout << "\nmyset after removal of elements less than 30 : "; 
+    cout << "\nContents of myset after removal of elements less than 30 : "; 
     myset.erase(myset.begin(), myset.find(30)); 
     for (itr = myset.begin(); itr != myset.end(); ++itr) 
     { 
         cout << '\t' << *itr; 
     } 
   
-    // remove element with value 50 in gquiz2 
+    // remove element with value 50 in myset
    
     int num = myset.erase(80); //returns true (and deletes) if 80 is there in the list else returns 0.
-    cout<<"\n"<<num<<" removed\n";
+    cout<<"\n\n After doing myset.erase(80), "<<num<<" element is removed\n\n";
+    cout<<"Contents of the modified set:\t";
     for (itr = myset.begin(); itr != myset.end(); ++itr) 
     { 
         cout << '\t' << *itr; 
@@ -78,15 +80,15 @@ int main()
   
 }
 ```
-
+```cpp
 Output:- 
-
-```
 The contents of myset : 	9	20	30	65	80
 
-myset after removal of elements less than 30 : 	30	65	80
-1 is removed
-	30	65
+Contents of myset after removal of elements less than 30 : 	30	65	80
+
+ After doing myset.erase(80), 1 element is removed
+
+Contents of the modified set:		30	65
   ```
   
   ### Sources
