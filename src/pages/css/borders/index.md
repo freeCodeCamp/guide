@@ -2,7 +2,7 @@
 title: Border Property
 ---
 ## Border Property
-
+css are used for different type of style
 CSS Border
 ----
 
@@ -63,7 +63,7 @@ To alter the thickness of your border use the border-width attribute. You may us
 define a border-style for the border to show up. The width can be set as a specific size (in px, pt, cm, em, etc) or by using one of the three pre-defined
 values: thin, medium, or thick.
 
-Example:
+ given Example are:
 ```css
 <style type="text/css">
 table {
