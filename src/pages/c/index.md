@@ -113,6 +113,8 @@ Make a new program with `file` -> `new` -> `Source File`, then copy over the hel
 # Before you go on...
 
 ## A review
+* C is lingua franca of programming languages.
+* C was used to re-implement the Unix operating system.
 * C is useful because it's small, fast, and has access to low-level operations. Because of this, it gets used a lot in robotics, operating systems, and consumer electronics, but not in things like webpages.
 * A C program has a few critical parts:
  * The include statement, which tells the C compiler where to find additional code that will be used in the program
