@@ -1,10 +1,12 @@
----
-title: Find the Symmetric Difference
----
-## Find the Symmetric Difference
-
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/coding-interview-prep/algorithms/find-the-symmetric-difference/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+# solution1
+```
+function sym(a) {
+    function sym2(a1, a2) {
+        let union = a1.concat(a2)
+        let intersection = a1.filter(n => a2.includes(n))
+        return Array.from(new Set(b.filter(n => !j.includes(n))))
+        // sym = union-intersection
+    }
+    return Array.from(arguments).reduce((pre, cur) => sym2(pre, cur))
+}
+```
