@@ -55,5 +55,9 @@ title: Books to Read for Programmers
 - [Amazon Smile](https://smile.amazon.com/Head-First-Java-Kathy-Sierra/dp/0596009208)
 - ISBN-13: 978-0596009205
 
+*Programming Pearls (2nd Edition) by Jon Bentley*
+- [Amazon Smile](https://www.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880)
+- ISBN-13: 978-0201657883
+
 This list was compiled from multiple suggestion threads on Reddit and Stackoverflow. 
 Please feel free to add more that you have found useful!
