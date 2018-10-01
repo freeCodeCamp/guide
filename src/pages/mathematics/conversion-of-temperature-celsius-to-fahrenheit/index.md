@@ -12,7 +12,9 @@ Thus, <span class="texhtml">0<sup>o</sup>C = 32<sup>o</sup>F</span> and <span cl
 
 The conversion from Temperature Fahrenheit to Celsius is as follows:
 
-<span class="texhtml">T<sub>Celsius</sub> = 5 / 9 * (T<sub>Fahrenheit</sub> - 32)</span>
+<span class="texhtml">T<sub>Celsius</sub> = 5 / 9 * (T<sub>Fahrenheit</sub> - 32)</span>40
+
+It is interesting to note here that <span class="texhtml">-40<sup>o</sup>C</span> = <span class="texhtml">-40<sup>o</sup>F</span>.
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
