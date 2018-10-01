@@ -36,6 +36,7 @@ Java is trademarked and licensed by Oracle. Most of the following are un-officia
 * [HackerRank Java Challenges](https://www.hackerrank.com/domains/java/java-introduction)
 * [LeetCode](https://leetcode.com/)
 * [CodeAbbey](http://www.codeabbey.com/)
+* [Sololearn](https://www.sololearn.com/Course/Java/)
 
 ## Community
 
