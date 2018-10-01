@@ -18,3 +18,7 @@ You can build some pretty amazing things in CSS alone, such as this pure-CSS [Mi
 A good start is the freeCodeCamp curriculum [Introduction to Basic CSS](https://learn.freecodecamp.org/responsive-web-design/basic-css)
 
 The site [CSS Zen Garden](http://www.csszengarden.com/) is a great example how the same html can be styled to look totally unique.
+
+##### Suggested Website
+
+https://www.w3schools.com/Css/
