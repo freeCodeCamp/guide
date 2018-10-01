@@ -15,14 +15,19 @@ Structure of a basic HTML file:
 <html>
 
   <head>
+    <!-- Metadata goes here -->
     <title></title>
   </head>
   
   <body>
+        <!-- Content goes here -->
   </body>
 </html>  
 ```
 #### More Information:
+
+https://internetingishard.com/html-and-css/basic-web-pages/
+https://www.w3schools.com/html/html_attributes.asp
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
 
