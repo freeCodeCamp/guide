@@ -2,19 +2,23 @@
 title: For Loop
 ---
 
+# For Loop
 A for loop is a repetition control structure that allows you to efficiently write a loop that needs to execute a specific number of times.
 
-Syntax:
+## Syntax
 for ( init; condition; increment ) {
    statement(s);
 }
-init: this is execute once only.This step allows you to declare and initialize any loop control variables
+### init
+This is execute once only.This step allows you to declare and initialize any loop control variables
 
-condition:Next, the condition is evaluated. If it is true, the body of the loop is executed. If it is false, the body of the loop does not execute and flow of control jumps to the next statement just after the for loop.
+### condition
+Next, the condition is evaluated. If it is true, the body of the loop is executed. If it is false, the body of the loop does not execute and flow of control jumps to the next statement just after the for loop.
 
-increment:After the body of the for loop executes, the flow of control jumps back up to the increment statement.This can be used to alter the  counter variable by simple addition,subtraction,multiplication,division.
+### increment
+After the body of the for loop executes, the flow of control jumps back up to the increment statement.This can be used to alter the  counter variable by simple addition,subtraction,multiplication,division.
 
-Example:
+## Example
 ```C++
 #include <iostream>
 using namespace std;
