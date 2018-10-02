@@ -31,4 +31,4 @@ Quantum systems may untangle the complexity of molecular and chemical interactio
 [Quantum Computers Explained – Limits of Human Technology | Kurzgesagt – In a Nutshell](https://www.youtube.com/watch?v=JhHMJCUmq28) 
        
 [Quantum computing explained with a deck of cards | Dario Gil, IBM Research](https://www.youtube.com/watch?v=yy6TV9Dntlw)
-    
+ [A Beginner's Guide to Quantum Computing | Dr. Talia Gershon, IBM Reasearch](https://www.youtube.com/watch?v=JRIPV0dPAd4)
