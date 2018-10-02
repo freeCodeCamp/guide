@@ -7,6 +7,8 @@ Docker is an open platform to build, ship, and run distributed applications. It 
 
 Docker is used to run packages called "containers". Containers are isolated from each others and from the OS.
 
+One of Docker's biggest advantages is that it can be used by a team using different operateing systems to build projects without needing to worry about software conflicts.
+
 ### Installation
 
 * Ubuntu: `sudo apt install docker`
