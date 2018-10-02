@@ -1,6 +1,7 @@
 ---
-title: Algorithm Performance
+title: Algorithm Performance (asymptotic-notation)
 ---
+Before making an algorithm, it is must that we knew the upper bound and lower bound of the function. Hence to find the upper bound of the function we calculate it’s big-O notation and to calculate it’s lower bound we calculate it’s big-omega notation.
 In mathematics, big-O notation is a symbolism used to describe and compare the _limiting behavior_ of a function.  
 A function's limiting behavior is how the function acts as it trends towards a particular value and in big-O notation it is usually as it trends towards infinity.  
 In short, big-O notation is used to describe the growth or decline of a function, usually with respect to another function.
@@ -58,3 +59,9 @@ It is very apparent that while for small use cases this time complexity might be
 This is the power of big-O notation: it allows developers to easily see the potential bottlenecks of their application, and take steps to make these more scalable.
 
 For more information on why big-O notation and algorithm analysis is important visit this <a href='https://www.freecodecamp.com/videos/big-o-notation-what-it-is-and-why-you-should-care' target='_blank' rel='nofollow'>video challenge</a>!
+
+
+
+
+Similarily as stated above big-Ω is the lower bound of the function. Big-omega means that at larger values of x, the lower bound of f(x) is g(x).
+So we can say that the worst-case running time of binary search is Ω(log⁡ n).
