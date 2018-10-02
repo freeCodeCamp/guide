@@ -28,11 +28,6 @@ class App extends React.Component {
       }
    }
    render() {
-
-   // We can call state here too. The brackets '{' and '}' in the jsx are for saying that the content in them are js
-   
-   let x1=this.state.x;
-   let y1=this.state.y;
    return (
       <div>
             <h1>{this.state.x}</h1>  {// here also we can call state of x}
@@ -42,3 +37,39 @@ class App extends React.Component {
    }
 }
 export default App;
+```
+
+
+Another Example:-
+
+
+```javascript
+import React from 'react';
+
+class App extends React.Component {
+   constructor(props) {
+      super(props);
+    // We declare the state as shown below
+      this.state = {                           
+         x: "This is x from state",    
+         y: "This is y from state"
+      }
+   }
+
+   render() {
+   
+   // We can call state here too. The brackets '{' and '}' in the jsx are for saying that the content in them are js
+
+   let x1=this.state.x;
+
+   let y1=this.state.y;
+   
+   return (
+      <div>
+            <h1>Another way of using state</h1>
+      </div>
+      );
+   }
+}
+export default App;
+```
