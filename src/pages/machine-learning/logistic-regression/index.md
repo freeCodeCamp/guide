@@ -29,14 +29,14 @@ Cost(hθ(x),y)=−log(hθ(x))           if y = 1
 Cost(hθ(x),y)=−log(1−hθ(x))         if y = 0
 #### Predictions using logistic regression:
 Logistic regression models the probability of the default class(i.e. the first class).
-By defining a decision boundary you can classify result given by 
+You can classify results given by : 
 
 y = e^(b0 + b1*X) / (1 + e^(b0 + b1*X))
 
-into two classes.Like for sigmoid function 0.5 is set as the decision boundary all x for which y≥0.5 are classified as class 1 and for which y<0.5 are classified as class 0.
+into two classes.Like for sigmoid function 0.5 is set as the decision boundary all x for which y≥0.5 are classified as class A and for which y<0.5 are classified as class B.
 
 #### Multi class logistic regression:
-Although logistic regression is usually used in case of binary classification but you can also use it in case of classification into multiple classes by:
+Although you will see logistic regression usually being used in case of binary classification but you can also use it in case of classification into multiple classes by:
 
 ##### one vs one method: 
 Here a classifier for each class is created separately and the classifier with the highest score is considered as output.
@@ -54,4 +54,4 @@ For further reading to build logistic regression step by step :
 
 - Click <a href="https://medium.com/towards-data-science/building-a-logistic-regression-in-python-step-by-step-becd4d56c9c8"  target='_blank' rel='nofollow'>here</a> for an article about building a Logistic Regression in Python.
 - Click <a href="http://nbviewer.jupyter.org/gist/justmarkham/6d5c061ca5aee67c4316471f8c2ae976" target='_blank' rel='nofollow'>here</a> for another article on building a Logical Regression.
-- Click <a href="https://medium.com/@tripathi.yugandhar/logistic-regression-f4bcc3a11333" target='_blank' rel='nofollow'>here</a> for another article on Logistic regression.
+- Click <a href="http://nbviewer.jupyter.org/gist/justmarkham/6d5c061ca5aee67c4316471f8c2ae976" target='_blank' rel='nofollow'>here</a> for another article on mathematics and intuition behind Logical Regression.
