@@ -52,3 +52,7 @@ Atom is an <a href='https://github.com/atom/atom' target='_blank' rel='nofollow'
 <a href='https://atom.io/' target='_blank' rel='nofollow'>atom.io</a> 
 
 ![Atom Screenshot](//discourse-user-assets.s3.amazonaws.com/original/2X/8/8016e7c0937e8ce6fcb6104c9aee0026443912f5.png)
+
+### Note:
+
+Other than editors there are also a number of IDEs or Integrated Development Environments that contain numerous in-built functionalities at the user's disposal. For eg, PyCharm from JetBrains, Visual Studio Code from Microsoft.
