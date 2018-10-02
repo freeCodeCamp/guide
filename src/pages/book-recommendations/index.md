@@ -55,6 +55,10 @@ title: Books to Read for Programmers
 - [Amazon Smile](https://smile.amazon.com/Head-First-Java-Kathy-Sierra/dp/0596009208)
 - ISBN-13: 978-0596009205
 
+*Head First Design Patterns*
+- [Amazon Smile](https://www.amazon.com/Head-First-Design-Patterns-Brain-Friendly/dp/0596007124)
+- ISBN-13: 978-0596007126
+
 *Programming Pearls (2nd Edition) by Jon Bentley*
 - [Amazon Smile](https://www.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880)
 - ISBN-13: 978-0201657883
