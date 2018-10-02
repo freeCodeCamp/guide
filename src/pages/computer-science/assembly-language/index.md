@@ -24,4 +24,5 @@ Assembly language is primarily used in the following situations:
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
+This Youtube video does a good job explaining what Assembly Language is.
+https://www.youtube.com/watch?v=ViNnfoE56V8
