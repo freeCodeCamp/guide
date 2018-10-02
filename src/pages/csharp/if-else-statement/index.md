@@ -1,29 +1,82 @@
 ---
-title: If Else Statement
+title: If
 ---
 
-# If Else Statement
+# If
 
 The If-Else statement executes a block of code depending if your precondition is fullfilled or not.
 
+```
+if (condition)
+{
+	// Do something when `condition` is true
+}
+else
+{
+	// Do something when `condition` is false
+}
+```
+
+When `condition` is true, code inside the `if` section executes, otherwise `else` executes. Sometimes you would need to add a second condition. For readability, you should use  `else if` rather than nesting `if` statements.
+instead of writing:
+```
+if (condition)
+{
+	// Do something if `condition` is true
+}
+else 
+{
+	if (anotherCondition)
+	{
+		// Do something if `anotherCondition` is ture
+	}
+	else
+	{
+		// Do something if `condition` AND `anotherCondition` is false
+	}
+}
+```
+You could use the much more concise writing: 
+```
+if (condition)
+{
+	// Do something if `condition` is true
+}
+else if (anotherCondition)
+{
+	// Do something if `anotherCondition` is ture
+}
+else
+{
+	// Do something if `condition` AND `anotherCondition` is false
+}
+```
+
+Note that the `else` and `else if` sections are not required, while `if` is mandatory.
+
+
 ## Example
 ```
-int Price = 30;
-
-If (Price = 30)
-{
-  Console.WriteLine("Price is equal to 30.");
-}
-
-Else 
-{
-  Console.WriteLine("Price is not equal to 30.");
-}
+	Console.WriteLine("Who are you? ");
+	string name = Console.ReadLine();
+	
+	if (name == "John")
+	{
+		Console.WriteLine("Hi John!");
+	}
+	else if (name == "Fabio")
+	{
+		Console.WriteLine("Oh, it's you Fabio :)");
+	}
+	else
+	{
+		Console.WriteLine("Oh! I thought you were John or Fabio. Anyway, nice to meet you {0}!", name);
+	}
+	
+	/* Run and type some names:
+		-> If name is "John", then output is "Hi John!"
+		-> If name is "Fabio", then output is "Oh, it's you Fabio :)"
+		-> If name is neither "John" nor "Fabio", output is "Oh! I thought you were John or Fabio. Anyway, nice to meet you {0}!" where {0} contains the name.
+	*/
 ```
-
-Since we already declared our int Price to be 30, this will be the expected output.
-
-## Output
-```
-Price is equal to 30.
-```
+The if statement needs a boolean result, that is, true or false. In some programming languages, several datatypes can be automatically converted into booleans, but in C#, you have to specifically make the result boolean. For instance, you can't use if(number), but you can compare number to something, to generate a true or false
