@@ -20,3 +20,53 @@ title: ArrayList
   An ArrayList allows us to randomly access elements. ArrayList is similar to *Vector* in a lot of ways. But it is faster than Vectors. The main thing to note is that - Vectors are faster than arrays but ArrayLists are not. 
   
   So when it comes down to choosing between the two - if speed is critical then Vectors should be considered, otherwise ArrayLists are better when it comes to storing large number of elements and accessing them efficiently.
+
+# For statemant on arraylist
+
+  Example of how to cycle arraylist
+
+```java
+  ArrayList<Integer> ages = new ArrayList<>();
+  ages.add(18);
+  ages.add(22);
+  ages.add(32);
+  ages.add(50);
+
+  for(int i = 0; i < ages.size(); i++) {
+    System.out.println(ages[i]);
+  }
+  ```
+
+  Output:
+
+  ```sh
+  > 18
+  > 22
+  > 32
+  > 50
+  ```
+
+  # Foreach statemant on arraylist
+
+  Example of how to cycle arraylist
+
+```java
+  ArrayList<Integer> ages = new ArrayList<>();
+  ages.add(18);
+  ages.add(22);
+  ages.add(32);
+  ages.add(50);
+
+  for(Integer n : ages) {
+    System.out.println(n);
+  }
+  ```
+
+  Output:
+
+  ```sh
+  > 18
+  > 22
+  > 32
+  > 50
+  ```
