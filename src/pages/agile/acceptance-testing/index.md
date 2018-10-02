@@ -128,3 +128,5 @@ In an Agile project it is important for the team to have acceptance criteria def
  <!-- Please add any articles you think might be helpful to read before writing the article -->
 - International Software Testing Qualifications Board (http://www.istqb.org/)
 
+My changes.
+
