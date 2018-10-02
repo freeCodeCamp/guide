@@ -10,3 +10,10 @@ To apply the change introduced by the commit at the tip of the master branch and
 ```shell
 git cherry-pick master
 ```
+
+### Check in a change from a different commit
+To apply the change introduced by the commit at the particular hash value you want, run the following command
+```shell
+git cherry-pick {HASHVALUE}
+```
+This will add the changes included referenced in that commit, to your current repository
