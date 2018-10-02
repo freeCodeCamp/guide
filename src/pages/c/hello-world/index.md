@@ -2,11 +2,9 @@
 title: Hello World C
 ---
 
- # Hello World
+ ## Hello World
 
 To write on console you can use the function `printf()` contained in the library `include <stdio.h>`
-
- ## Hello world in C
 
  ```C
  #include <stdio.h>
