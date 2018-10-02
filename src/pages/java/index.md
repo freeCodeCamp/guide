@@ -16,6 +16,9 @@ Java is also divided into several "Editions" :
 *   <a href='http://www.oracle.com/technetwork/java/javaee/overview/index.html' target='_blank' rel='nofollow'>EE</a> - Enterprise Edition - for developing and executing Java components that run embedded in a Java server
 *   <a href='http://www.oracle.com/technetwork/java/embedded/javame/overview/index.html' target='_blank' rel='nofollow'>ME</a> - Micro Edition - for developing and executing Java applications on mobile phones and embedded devices
 
+## Is Java free to download?
+Yes, Java is free to download. Get the latest version at <a href='https://www.java.com/en/' target='_blank' rel='nofollow'>java.com</a>
+
 ## Installation : JDK or JRE ?
 
 Download the latest Java binaries from the <a href='http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html' target='_blank' rel='nofollow'>official website</a>. Here you may face a question, which one to download, JDK or JRE? JRE stands for Java Runtime Environment, which is the platform dependent Java Virtual Machine to run Java codes, and JDK stands for Java Development Kit, which consists of most of the development tools, most importantly the compiler `javac`, and also the JRE. So, for an average user JRE would be sufficient, but since we would be developing with Java, we would download the JDK.
