@@ -13,6 +13,17 @@ Unlike normal currency, cryptocurrency can be exchanged as fractions. For exampl
 
 If you want to earn bitcoins through mining, it can be done through solving mathematical proof-of-work problems that validate transactions. Blockchain uses the concept of irreversible cryptographic hash function which consists of guessing a random number (usually less than a certain value) to solve the problem for transaction validation. You will require machines with high processing power to be able to solve these problems (for example Fast-Hash One or CoinTerra TerraMiner IV).
 
+At present(2018), their are approx 1600+ coins in world.
+
+Some top Crytocurrencies are-
+(in terms of market cap)
+
+1. Bitcoin
+2. Etherum 
+3. Ripple
+4. Bitcoin Cash
+5. EOS
+
 #### More Information:
 [Cryptocurrency](https://en.wikipedia.org/wiki/Cryptocurrency)    
 [Ultimate Guide to Cryptocurrency](https://blockgeeks.com/guides/what-is-cryptocurrency)
