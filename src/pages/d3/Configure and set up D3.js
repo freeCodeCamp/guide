@@ -1,4 +1,4 @@
-######## Set up D3.js
+######## Set up D3
 
 ####HTML Setup
 
