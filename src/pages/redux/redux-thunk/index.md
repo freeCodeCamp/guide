@@ -12,4 +12,10 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
+Redux-Thunk is the most popular middleware used to handle asynchronous actions in Redux.
+
+Read the following article to get an in depth knowledge about how Thunk works.
+
+- ["Understanding how redux-thunk works"](https://medium.com/@gethylgeorge/understanding-how-redux-thunk-works-72de3bdebc50) by [@gethylgeorge](https://medium.com/@gethylgeorge)
+
 
