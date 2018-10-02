@@ -21,6 +21,16 @@ int main () {
 }
 ```
 
+## Syntax of `for` loop
+```
+ for (<initial statement(s)>; <Condition statement>; <Repeat step(s)>)
+ {
+    loop statement(s)>;
+ }
+```
+
+The `for` consists of 3 sections, first the initialization of variables section. Second, the condition section where a specific condition is checked for which the loop will work. Finally the third section is the incremental section where the variables are updated in every iteration. 
+
 ## Output:
 ```
 > Item on index 0 is 1
