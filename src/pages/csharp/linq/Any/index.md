@@ -26,5 +26,5 @@ var fruits = new List<Fruit>() {
 var anyFruitGreaterThanTwenty = fruits.Any(f => f.Quantity > 20); // true
 
 // Any Fruit with color Green
-var anyGreen = fruits.Where(f => f.Color == "Green"); // false
+var anyGreen = fruits.Any(f => f.Color == "Green"); // false
 ```
