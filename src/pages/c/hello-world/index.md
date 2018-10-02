@@ -1,6 +1,6 @@
 ---
  title: Hello World C
- ---
+---
 
  # Hello World
 
