@@ -26,8 +26,6 @@ def fib(n)
 }
 ```
 
-And below is the optimised solution (using DP)
-
 For F(5), this solution will generate the calls depicted in the image above, running in O(2^N).
 
 Here is an optimised solution which uses DP and memoization:
@@ -45,6 +43,31 @@ def fib(n)
 }
 ```
 Caching computed solutions in a lookup table, and query it before go recursion will let the program have a running time of O(N).
+
+
+A better way to do this is to get rid of the recursion all-together by evaluating the results in the right order:
+```python
+lookup = {0 : 0, 1 : 1}
+
+def fib(n):
+    for i in range(2, n + 1):
+        lookup[i] = lookup[i - 1] +  lookup[i - 2]
+
+    return lookup[n]
+```
+We can even use constant space and store only the necessary partial results along the way:
+```python
+def fib(n):
+  fi_minus_2 = 0
+  fi_minus_1 = 1
+
+  for i in range(2, n + 1):
+      fi = fi_minus_1 + fi_minus_2
+      fi_minus_1, fi_minus_2 = fi, fi_minus_1
+
+  return fi
+```
+The two solutions follow the bottom up approach; where we build solutions from bottom to top
 
 #### More Information:
 
