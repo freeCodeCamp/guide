@@ -73,5 +73,3 @@ echo $x;
 ```
 
 You can see more about this on [PHP Manual](http://php.net/manual/en/)
-
-
