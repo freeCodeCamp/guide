@@ -27,7 +27,7 @@ Some programmers don't like the word 'blame', because of the negative connotatio
 
 `git config --global alias.history blame`
 
-You can see more information about aliasing git commands [here](/git/git-alias).
+You can see more information about aliasing git commands [here](../git-alias/index.md).
 
 ### Text Editor-Plugins utilizing Git Blame
 
