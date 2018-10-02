@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta name="generator" content="Hugo 0.49" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@_math2001">
+    <meta name="twitter:creator" content="@_math2001">
+
+    <meta property="og:title" content="Bash&#39;s find command">
+    <meta property="og:image" content="https://math2001.github.io/img/math2001.png">
+    <meta property="og:url" content="https://math2001.github.io/post/bashs-find-command/">
+    <meta property="og:description" content="The find command in bash is quite powerful, and knowing the basics might save
+you some scripting.
+
+What does it do? It &ldquo;finds&rdquo; files. By default, it outputs their path relative to
+where you ran find. But, in addition of providing you with advanced &ldquo;filters&rdquo;
+it actually allows you to run commands on each of those files.
+
+Let&rsquo;s get started!">
+
+    <link rel=icon type=image/png href='/img/math2001.png'>
+    <title>Bash&#39;s find command - Math2001&#39;s blog</title><style>
+    :root {
+  --light-blue: hsla(195, 55%, 98%, 1);
+  --monospace: Menlo, Inconsolata, consolas, monospace;
+  --monospace-secondary: Inconsolata, consolas, monospace;
+  --color: #333;
+  --font-mute: hsla(214, 3%, 59%, 1);
+  --font-mute: #888;
+  --purple: hsla(232, 59%, 58%, 1);
+  --code-bg: #F3F3F3;
+  --border-color: #EEE;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+* { box-sizing: border-box; }
+
+a {
+  color: var(--purple);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto Slab, Roboto, Calibri, Corbel, sans-serif;
+  margin: 0;
+  background: var(--light-blue);
+  background-color: #fff;
+  height: 100%;
+  position: relative;
+  color: #333;
+  line-height: 1.5;
+}
+
+h1, h2 {
+  letter-spacing: 2px;
+  font-weight: normal;
+}
+
+
+.wrapper {
+  flex: 1 0 auto;
+  position: relative;
+}
+
+main {
+  margin-bottom: 20px;
+}
+
+.tags, .categories { font-family: var(--monospace-secondary); }
+
+.tags {
+  list-style: none;
+  padding: 0;
+}
+
+.tags a {
+  color: #888;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  padding: 1px 5px;
+  font-size: 90%;
+}
+
+.tags a:hover {
+  border-color: #aaa;
+  color: #555;
+}
+
+.categories {
+  padding: 0;
+  list-style: none;
+}
+
+.categories a::after,
+.categories a::before {
+  content: "{";
+  margin-right: 5px;
+  display: inline-block;
+  color: #888;
+}
+
+.categories a::after {
+  content: "}";
+  margin: 0;
+  margin-left: 5px;
+}
+
+.categories a {
+  color: var(--color);
+  text-decoration: none;
+}
+
+.categories a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+footer {
+  border-top: 1px solid var(--border-color);
+  padding: 0 10px;
+}
+
+.footer-splits {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 960px;
+  margin: auto;
+}
+
+.footer-split {
+  flex: 1;
+  min-width: 300px;
+  padding: 10px 10px;
+  position: relative;
+}
+
+.footer-split:not(:last-of-type) {
+  margin-right: 10px;
+  padding-right: 20px;
+}
+
+.footer-split-title {
+  margin: 5px 0;
+}
+
+.footer-split:not(:last-of-type)::before,
+.footer-split:not(:last-of-type)::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: -5px;
+  top: calc(50% - 17px); /* half of the height taking into account the rotation */
+  height: 20px;
+  border-left: 3px solid var(--border-color);
+  transform: rotate(-30deg);
+  transform-origin: bottom;
+}
+
+.footer-split:not(:last-of-type)::after {
+  transform-origin: top;
+  transform: rotate(30deg);
+  top: calc(50%);
+}
+
+.footer-social-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-social-links li {
+  display: inline-block;
+}
+
+.footer-social-link {
+  text-decoration: none;
+  color: inherit;
+  margin: 0 5px;
+}
+
+.footer-social-link svg {
+  --size: 25px;
+  width: var(--size);
+  height: var(--size);
+}
+
+.footer-bottom {
+  text-align: center;
+}
+.footer-bottom::before {
+  content: '';
+  width: 200px;
+  margin: auto;
+  display: block;
+  border-top: 1px solid var(--border-color);
+}
+
+/* geektnt.com/how-to-remove-x-from-search-input-field-on-chrome-and-ie.html */
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none;  }
+
+</style><style>
+    .highlight .hll{background-color:#4f5b66}.highlight{background:#2b303b;color:#eff1f5}.highlight .c{color:#65737e}.highlight .err{color:#bf616a}.highlight .k{color:#b48ead}.highlight .l{color:#d08770}.highlight .n{color:#eff1f5}.highlight .o{color:#96b5b4}.highlight .p{color:#eff1f5}.highlight .cm{color:#65737e}.highlight .cp{color:#65737e}.highlight .c1{color:#65737e}.highlight .cs{color:#65737e}.highlight .gd{color:#bf616a}.highlight .ge{font-style:italic}.highlight .gh{color:#eff1f5;font-weight:700}.highlight .gi{color:#a3be8c}.highlight .gp{color:#65737e;font-weight:700}.highlight .gs{font-weight:700}.highlight .gu{color:#96b5b4;font-weight:700}.highlight .kc{color:#b48ead}.highlight .kd{color:#b48ead}.highlight .kn{color:#96b5b4}.highlight .kp{color:#b48ead}.highlight .kr{color:#b48ead}.highlight .kt{color:#ebcb8b}.highlight .ld{color:#a3be8c}.highlight .m{color:#d08770}.highlight .s{color:#a3be8c}.highlight .na{color:#8fa1b3}.highlight .nb{color:#eff1f5}.highlight .nc{color:#ebcb8b}.highlight .no{color:#bf616a}.highlight .nd{color:#96b5b4}.highlight .ni{color:#eff1f5}.highlight .ne{color:#bf616a}.highlight .nf{color:#8fa1b3}.highlight .nl{color:#eff1f5}.highlight .nn{color:#ebcb8b}.highlight .nx{color:#8fa1b3}.highlight .py{color:#eff1f5}.highlight .nt{color:#96b5b4}.highlight .nv{color:#bf616a}.highlight .ow{color:#96b5b4}.highlight .w{color:#eff1f5}.highlight .mf{color:#d08770}.highlight .mh{color:#d08770}.highlight .mi{color:#d08770}.highlight .mo{color:#d08770}.highlight .sb{color:#a3be8c}.highlight .sc{color:#eff1f5}.highlight .sd{color:#65737e}.highlight .s2{color:#a3be8c}.highlight .se{color:#d08770}.highlight .sh{color:#a3be8c}.highlight .si{color:#d08770}.highlight .sx{color:#a3be8c}.highlight .sr{color:#a3be8c}.highlight .s1{color:#a3be8c}.highlight .ss{color:#a3be8c}.highlight .bp{color:#eff1f5}.highlight .vc{color:#bf616a}.highlight .vg{color:#bf616a}.highlight .vi{color:#bf616a}.highlight .il{color:#d08770}
+
+</style><style>
+    .page-top {
+  padding: 0 10px;
+  text-align: center;
+}
+
+.page-title {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.page-categories {
+  margin-top: 0;
+}
+
+.page-categories, .page-tags,
+.page-categories li, .page-tags li {
+  display: inline-block;
+}
+
+.page-tags {
+  text-align: center;
+  flex-basis: 100%;
+  margin: 0;
+}
+
+.repository-star {
+  font-size: 1.2em;
+  color: #333;
+}
+
+.page-warning {
+  text-align: center;
+}
+
+.page-content {
+  width: 960px;
+  max-width: 100%;
+  margin: 20px auto;
+  background: white;
+  text-align: justify;
+  box-shadow: 5px 5px 20px #ddd;
+  padding: 10px 30px;
+}
+
+.page-content hr {
+  border: none;
+  border-top: 4px solid hsla(192, 16%, 92%, 1);
+  margin: 30px auto;
+}
+
+.page-content img {
+  max-width: 100%;
+}
+
+.page-bottom {
+  text-align: center;
+  padding: 1px 0;
+}
+
+.page-share, .page-share-list {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.page-share-list {
+  padding: 0;
+  list-style: none;
+}
+
+.page-share-list li {
+  display: inline-block;
+  margin: 5px;
+}
+
+.page-share-list svg {
+  width: 25px;
+  height: 25px;
+}
+
+.page-read-other {
+  margin-top: 40px;
+}
+
+/* content */
+
+.page-content .highlight {
+  font-family: var(--monospace);
+  font-size: .9em;
+}
+
+.page-content .highlight {
+  padding: 10px 20px;
+}
+
+.page-content :not(pre) > code {
+  background-color: var(--code-bg);
+  padding: 2px 5px;
+  border-radius: 2px;
+}
+
+.page-content blockquote {
+  border-left: 6px solid #ddd;
+  margin-left: 0;
+  padding-left: 10px;
+  color: #aaa;
+}
+
+.page-content kbd {
+  color: #666;
+  border: 1px solid #ccc;
+  padding: 1px 5px;
+  border-radius: 2px;
+}
+
+.page-content table {
+  border-collapse: collapse;
+}
+
+.page-content td, th {
+  border: 1px solid #DDD;
+  padding: 2px 5px;
+}
+
+.page-content th {
+  font-weight: normal;
+  background-color: #F9F9F9;
+}
+
+</style><style>
+    header {
+  padding: 10px 15px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+header a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.header-inner {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.header-brand,
+.header-nav {
+  text-align: center;
+  margin: 5px 0;
+}
+
+.header-brand {
+  white-space: nowrap;
+}
+
+.header-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+}
+
+.header-nav-item {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.header-nav-item:first-of-type {
+  margin-left: 1px;
+}
+
+</style>
+
+</head>
+<body><svg style="position: absolute; width: 0; height: 0; overflow: hidden;"><defs/><symbol id="si-dev.to" viewBox="0 0 26.458332 26.458334">
+  <path d="M0 0h26.458v26.458H0z"/>
+  <path d="M1.062 13.23v6h2.12c2.344 0 3.32-.3 4.032-1.218.713-.9.826-1.688.75-5.252-.056-3.15-.093-3.414-.506-4.09-.713-1.162-1.5-1.443-4.145-1.443h-2.25zm4.333-3.583c.43.356.45.43.45 3.47 0 2.945-.02 3.132-.413 3.526-.32.3-.656.413-1.313.413l-.9.018-.06-3.902-.04-3.882h.92c.618 0 1.05.112 1.35.356zM9.71 7.715c-.376.487-.395.73-.395 5.552v5.045l.47.45c.43.45.543.47 3 .47h2.532v-2.045l-1.913-.056-1.932-.052V14.26l1.182-.056 1.163-.056v-2.044h-2.44V9.29h3.94V7.227H12.71c-2.607 0-2.626 0-3 .488zm7.67 2.175c.395 1.482 1.032 3.902 1.426 5.402.6 2.308.807 2.814 1.313 3.32.352.376.783.62 1.064.62.582 0 1.332-.582 1.595-1.257.187-.488 2.85-10.43 2.85-10.654 0-.052-.524-.09-1.16-.052l-1.18.057-1.05 4.033c-.66 2.55-1.09 3.902-1.166 3.658-.15-.468-2.007-7.614-2.007-7.708 0-.038-.546-.075-1.203-.075h-1.2z" fill="#fff"/>
+</symbol><symbol id="si-facebook" viewBox="0 0 266.89 266.89">
+  <path fill="#485a96" d="M252.16 266.9c8.14 0 14.73-6.6 14.73-14.73V14.72C266.9 6.6 260.3 0 252.13 0H14.74C6.6 0 0 6.6 0 14.73v237.43c0 8.14 6.6 14.73 14.73 14.73h237.43z"/>
+  <path fill="#fff" d="M184.15 266.9V163.53h34.7l5.2-40.28h-39.9v-25.7c0-11.67 3.24-19.6 19.96-19.6l21.36-.03V41.9c-3.7-.5-16.35-1.6-31.08-1.6-30.75 0-51.8 18.78-51.8 53.25v29.7h-34.8v40.3h34.8V266.9h41.6z"/>
+</symbol><symbol id="si-github" viewBox="0 0 16 16">
+  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+</symbol><symbol id="si-padlock" viewBox="0 0 47 47">
+  <path fill="currentColor" d="M30.242 15.78c0-3.722-3.025-6.748-6.745-6.748-3.718 0-6.742 3.026-6.742 6.747v4.854H13.63V37.97h19.74V20.637h-3.128V15.78zm-3.374 4.857h-6.736V15.78c0-1.863 1.51-3.372 3.366-3.372 1.857 0 3.37 1.51 3.37 3.372v4.857z"/>
+</symbol><symbol id="si-stackoverflow" viewBox="0 0 120 120">
+  <path d="M84.4 93.8V70.6h7.7v30.9H22.6V70.6h7.7v23.2" fill="#BCBBBB"/>
+  <path d="M38.8 68.4l37.8 7.9 1.6-7.6-37.8-7.9-1.6 7.6zm5-18l35 16.3 3.2-7-35-16.4-3.2 7.1zm9.7-17.2l29.7 24.7 4.9-5.9-29.7-24.7-4.9 5.9zm19.2-18.3l-6.2 4.6 23 31 6.2-4.6-23-31zM38 86h38.6v-7.7H38V86z" fill="#F48023"/>
+</symbol><symbol id="si-twitter" viewBox="0 0 300 244.19">
+  <path fill="#1da1f2" d="M94.72 243.18c112.46 0 173.96-93.17 173.96-173.96 0-2.65-.05-5.28-.17-7.9 11.97-8.63 22.34-19.4 30.5-31.66-10.93 4.87-22.72 8.14-35.1 9.62 12.64-7.57 22.3-19.54 26.9-33.8-11.8 7-24.9 12.08-38.82 14.83C240.8 8.45 224.92 1 207.33 1c-33.77 0-61.15 27.37-61.15 61.12 0 4.8.54 9.47 1.6 13.94-50.83-2.55-95.9-26.88-126.04-63.88-5.25 9.04-8.28 19.53-8.28 30.73 0 21.24 10.8 39.97 27.2 50.9-10.02-.3-19.45-3.04-27.68-7.62v.78c0 29.6 21.06 54.33 49.04 59.93-5.14 1.4-10.54 2.15-16.12 2.15-3.94 0-7.77-.4-11.5-1.1 7.8 24.3 30.36 41.96 57.12 42.46-20.92 16.4-47.28 26.17-75.93 26.17-4.96 0-9.8-.28-14.6-.85 27.04 17.37 59.2 27.5 93.7 27.5"/>
+</symbol><symbol id="si-youtube" viewBox="0 0 500 500">
+  <g stroke-width=".091" stroke-miterlimit="5">
+    <path d="M465.685 393.163c-45.754 30.37-385.616 30.37-431.37 0-45.753-30.37-45.753-255.956 0-286.326 45.754-30.37 385.616-30.37 431.37 0 45.753 30.37 45.753 255.956 0 286.326z" fill="red" stroke-width="5.417"/>
+    <path d="M195.983 186.64v126.72L333.12 250z" fill="#fff" stroke-width="2.42"/>
+  </g>
+</symbol></svg>
+<div class="wrapper"><header>
+        <div class="header-inner">
+            <h2 class="header-brand"><a href="/">Math2001&#39;s blog</a></h2>
+            <nav class="header-nav">
+                <ul>
+                    
+                    <li class="header-nav-item"><a href="/post/">Posts</a></li>
+                    
+                    <li class="header-nav-item"><a href="/project/">Projects</a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+    
+        <span id="show-header" class="show-header"></span>
+    
+<div class="page-top">
+    <h1 class="page-title">Bash&#39;s find command</h1>
+    <ul class="page-categories categories">
+        <li><a href="/categories/itsbuiltin">itsbuiltin</a></li>
+    </ul>
+    
+    <ul class="page-tags tags">
+        <li><a href="/tags/bash">bash</a></li>
+        <li><a href="/tags/find">find</a></li>
+        <li><a href="/tags/file-manupilation">file manupilation</a></li>
+    </ul>
+
+    
+
+</div><section class="page-content"><p>The <code>find</code> command in bash is quite powerful, and knowing the basics might save
+you some scripting.</p>
+
+<p>What does it do? It &ldquo;finds&rdquo; files. By default, it outputs their path relative to
+where you ran <code>find</code>. But, in addition of providing you with advanced &ldquo;filters&rdquo;
+it actually allows you to run commands on each of those files.</p>
+
+<p>Let&rsquo;s get started!</p>
+
+<h3 id="the-basics">The basics</h3>
+
+<p>With this structure:</p>
+<div class="highlight"><pre class="chroma">.
+├── app
+│   ├── index.html
+│   ├── app.js
+│   └── style.css
+└── dist
+    ├── app.js
+    ├── index.html
+    └── style.css</pre></div><div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">$ find
+.
+./app
+./app/app.js
+./app/index.html
+./app/style.css
+./dist
+./dist/app.js
+./dist/index.html
+./dist/style.css</code></pre></div>
+<p>It lists every folder and files recursively.</p>
+
+<p>You can specify a path to find items in, like so:</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">$ find app
+app
+app/index.html
+app/script
+app/script/app.js
+app/style
+app/style/style.css</code></pre></div>
+<h3 id="tests-filters">Tests (filters)</h3>
+
+<p>Some of <code>find</code>&rsquo;s power comes from it&rsquo;s ability to <em>filter</em> which files and
+folder it &ldquo;selects&rdquo;. They are called <em>tests</em>. So, here are some of them:</p>
+
+<h4 id="type"><code>-type</code></h4>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">$ find -type f
+./app/app.js
+./app/index.html
+./app/style.css
+./dist/app.js
+./dist/index.html
+./dist/style.css
+$ find -type d
+.
+./app
+./dist</code></pre></div>
+<p>Here, the filter is <code>-type</code>. You guessed it, <code>-type f</code> selects files, and <code>-type
+d</code> selects directories. <a href="https://www.gnu.org/software/findutils/manual/html_mono/find.html#Type" target="_blank">More about <code>-type</code></a></p>
+
+<h4 id="name"><code>-name</code></h4>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">$ find -name <span class="s2">&#34;*.js&#34;</span>
+./app/app.js
+./dist/app.js
+$ find -name <span class="s2">&#34;*.JS&#34;</span>
+$ find -iname <span class="s2">&#34;*.JS&#34;</span>
+./app/app.js
+./dist/app.js</code></pre></div>
+<p><code>-name</code> takes a glob. The <code>-iname</code> variant is case insensitive. <a href="https://www.gnu.org/software/findutils/manual/html_mono/find.html#Base-Name-Patterns" target="_blank">More about
+<code>-name</code></a></p>
+
+<h4 id="path"><code>-path</code></h4>
+
+<p>This is the exact same as name, except that it doesn&rsquo;t only apply on the
+filename, but the whole path (the path that would be outputted). Unlike <code>-path</code>
+though, <code>*</code> will match both <code>/</code> and leading dots in filename</p>
+
+<p>Same, you have <code>-ipath</code> for a case <em>insensitive</em> version of it. <a href="https://www.gnu.org/software/findutils/manual/html_mono/find.html#Full-Name-Patterns" target="_blank">More about
+<code>-path</code></a></p>
+
+<p>Note: <code>-wholename</code> is the same as <code>-path</code>, but <code>-path</code> is more portable.</p>
+
+<h3 id="combining-test-operators">Combining test – operators</h3>
+
+<p>Every expression returns a value except operators. A test returns true if it
+matches the current file (<code>-name &quot;*.js&quot;</code> returns true for <code>app.js</code>, but not
+<code>index.html</code>).  You can conjugate everything with operators.</p>
+
+<p>Every operators only applies to the next expression. So, <code>expr1 or expr2 and
+expr3</code> is the same as <code>(expr1 or expr2) and expr3</code>.</p>
+
+<h4 id="and"><code>-and</code></h4>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">$ find -name <span class="s2">&#34;*.js&#34;</span> -type f
+./app/app.js
+./dist/app.js</code></pre></div>
+<p>Pretty straight forward, right? You select items that finish with <code>.js</code> <em>and</em>
+that are file. You can guess the operator <code>-and</code> is the default one. Therefore
+<code>find -name &quot;*.js&quot; -and -type f</code> is the exact same!</p>
+
+<h4 id="or"><code>-or</code></h4>
+
+<p>What if you want <code>.js</code> and <code>.css</code> files? You can use the <code>-or</code> operator:</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">$ find -name <span class="s2">&#34;*.js&#34;</span> -or -name <span class="s2">&#34;*.css&#34;</span> -type f
+./app/app.js
+./app/style.css
+./dist/app.js
+./dist/style.css</code></pre></div>
+<p>Again, this is the same as <code>find -name &quot;*.js&quot; -or -name &quot;*.css&quot; -and -type f</code>.</p>
+
+<h4 id="not"><code>-not</code></h4>
+
+<p>If you want every files that do <em>not</em> end with <code>.js</code>, you can do:</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">$ find -not -name <span class="s2">&#34;*.js&#34;</span> -type f
+./app/index.html
+./app/style.css
+./dist/index.html
+./dist/style.css</code></pre></div>
+<h4 id="grouping">Grouping</h4>
+
+<p>Of course, you can group expressions together. Here, we find every file that
+finishes by <code>.js</code> or any directories.</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">$ find <span class="se">\(</span> -name <span class="s2">&#34;*.js&#34;</span> -type f <span class="se">\)</span> -or -type d
+.
+./app
+./app/script
+./app/script/app.js
+./app/style
+./dist
+./dist/app.js</code></pre></div>
+<p>Thanks to bash (😡), you have to escape the brackets.</p>
+
+<h4 id="comma">Comma <code>,</code></h4>
+
+<p>Separates 2 expressions: it evaluates both of them, but only returns the value
+of the second one.</p>
+<div class="highlight"><pre class="chroma">$ find -name &#34;whatever&#34; , -name &#34;*.html&#34;
+./app/index.html
+./dist/index.html</pre></div>
+<h4 id="aliases">Aliases</h4>
+
+<p>You can use some aliases, although I don&rsquo;t recommend doing so, they aren&rsquo;t as
+clear:</p>
+<div class="highlight"><pre class="chroma">-o = -or
+-a = -and
+! = -not (you&#39;ll need to escape it though, like so \!)</pre></div>
+<p><a href="https://www.gnu.org/software/findutils/manual/html_mono/find.html#Combining-Primaries-With-Operators" target="_blank">More about operators</a></p>
+
+<h3 id="actions">Actions</h3>
+
+<p>Now, printing out the filenames if fun, doing some stuff with them is even
+better! And guess why it actually prints out the filenames: because the default
+action is <code>-print</code>!</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">$ find -type f -print
+./app/app.js
+./app/index.html
+./app/style.css
+./dist/app.js
+./dist/index.html
+./dist/style.css</code></pre></div>
+<p>It&rsquo;s exactly what you&rsquo;d expect, right?</p>
+
+<p>Note: Just as the tests, actions <strong>return a value</strong> too. Remember this.</p>
+
+<h4 id="delete"><code>-delete</code></h4>
+
+<p><code>-delete</code> is a pretty useful action. Guess what it does: deletes files (watch
+out though: it doesn&rsquo;t throw what it deletes to the bin, it <em>actually</em> deletes
+them, like <code>rm</code>).</p>
+
+<p>If you want to delete every temporary file created by vim (files that end with
+<code>~</code>), you can just run this:</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">$ find -name <span class="s2">&#34;*~&#34;</span> -delete</code></pre></div>
+<p>Gone! Every temp files are gone!</p>
+
+<p>What I recommend you do before this is run just <code>find -name &quot;*~&quot;</code> so that you
+see which file are going to be deleted.</p>
+
+<h4 id="exec"><code>-exec</code></h4>
+
+<p>If you want to do some more complex things though, you might want to use the
+action <code>-exec</code>.</p>
+
+<p>This action takes an undefined number of parameters representing a command that
+it&rsquo;s going to run on <em>every</em> selected files. It stops &ldquo;consuming&rdquo; arguments as
+soon as it sees a <code>;</code>. Note that <code>{}</code> will be replace with file&rsquo;s path. So,</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">$ find -name <span class="s2">&#34;*~&#34;</span> -delete
+$ <span class="c1"># does the same thing as
+</span><span class="c1"></span>$ find -name <span class="s2">&#34;*~&#34;</span> -exec rm <span class="o">{}</span> <span class="se">\;</span></code></pre></div>
+<p>Note: as you can see, we need to escape the <code>;</code> to prevent bash from
+interpreting it.</p>
+
+<p><code>-delete</code> is more efficient though, and more secure. Use it when you can.</p>
+
+<h5 id="optimizing">Optimizing</h5>
+
+<p>It&rsquo;s better to run one command on multiple files than multiple commands on one
+file each time. For example, the first one is better:</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">$ rm <span class="m">1</span>.jpg <span class="m">2</span>.jpg <span class="m">3</span>.jpg</code></pre></div><div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">$ rm <span class="m">1</span>.jpg
+$ rm <span class="m">2</span>.jpg
+$ rm <span class="m">3</span>.jpg</code></pre></div>
+<p>Of course, the ability to do that depends on the command, but <code>find</code> gives you
+the possibility of doing that in your <code>-exec</code> actions.</p>
+
+<p>Note: It&rsquo;ll automatically adapt to the maximum command line length of your
+system.</p>
+
+<p>In order to do that, you have to use <code>{} +</code>, like so:</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">$ find -name <span class="s2">&#34;*~&#34;</span> -exec rm <span class="o">{}</span> +</code></pre></div>
+<p>In this case <code>{} +</code> will be replaced by as many paths as the maximum command
+line length of your system allows.</p>
+
+<p>Note that <code>{} +</code> has to be at the <em>end</em> of the command. <a href="https://www.gnu.org/software/findutils/manual/html_mono/find.html#Multiple-Files" target="_blank">More about
+optimizing</a></p>
+
+<h3 id="tips-and-tricks">Tips and tricks</h3>
+
+<h4 id="maxdepth"><code>-maxdepth</code></h4>
+
+<blockquote>
+<p>Descend at most levels (a non-negative integer) levels of directories below
+the command line arguments. ‘-maxdepth 0’ means only apply the tests and
+actions to the command line arguments.</p>
+</blockquote>
+
+<h4 id="depth"><code>-depth</code></h4>
+
+<p>The <code>-depth</code> option makes <code>find</code> list folders&rsquo; <em>content</em> before itself.</p>
+
+<p>Note: the <code>-delete</code> action implies <code>-depth</code></p>
+
+<p>Examples are shown in the <code>-prune</code> explanation.</p>
+
+<h4 id="prune"><code>-prune</code></h4>
+
+<p>The <code>-prune</code> action allows you to prevent <code>find</code> from going into a directory
+that matches some tests. Weirdly enough though, it returns <code>true</code> when it found
+a directory to ignore. For example:</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">$ find -name <span class="s2">&#34;app&#34;</span> -prune
+./app</code></pre></div>
+<p>So, it only lists directories that it ignores.  To counter that, just add <code>-or
+-print</code></p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">$ find -name <span class="s2">&#34;app&#34;</span> -prune -or -print
+.
+./dist
+./dist/app.js
+./dist/index.html
+./dist/style.css</code></pre></div>
+<blockquote>
+<p>Hold on a sec&hellip; <code>-or</code>? But <code>-prune</code> would return false when it looks at
+<code>./app/app.js</code> for example, why doesn&rsquo;t it print then?</p>
+</blockquote>
+
+<p>No, because <code>-prune</code> <strong>excludes</strong> the directory, remember. So, <code>./app/app.js</code>
+<strong>never</strong> gets looked at.</p>
+
+<h5 id="gotcha">Gotcha</h5>
+
+<p>The problem is that it doesn&rsquo;t play well with <code>-depth</code>. It actually doesn&rsquo;t
+work, have a look:</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">$ find -depth -name <span class="s2">&#34;app&#34;</span> -prune -or -print
+./app/index.html
+./app/script/app.js
+./app/script
+./app/style/style.css
+./app/style
+./dist/app.js
+./dist/index.html
+./dist/style.css
+./dist
+.</code></pre></div>
+<p>It doesn&rsquo;t have the time to &ldquo;prune&rdquo; the directory since we start from the
+bottom.</p>
+
+<p>Remember: <code>-delete</code> implies <code>-depth</code>. Therefore, DO NOT USE <code>-prune</code> with
+<code>-delete</code>. Instead, &ldquo;prune&rdquo; it manually with <code>-path</code>:</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">$ find -depth -not -path <span class="s2">&#34;*app*&#34;</span>
+./dist/index.html
+./dist/style.css
+./dist
+.</code></pre></div>
+<p>Ok, I guess that&rsquo;s it! If you want to learn even more, have a look at the
+<a href="https://www.gnu.org/software/findutils/manual/html_mono/find.html" target="_blank">documentation</a>.</p>
+
+<p>Hope it&rsquo;ll save you some time. If it does, please share this
+post!</p></section>
+
+<div class="page-bottom">
+    <p class="page-date">Published on Sunday 24 September 2017</p>
+    <ul class="page-share-list">
+        <li>
+            <a href="https://twitter.com/intent/tweet?text=Bash%27s&#43;find&#43;command&amp;url=https%3A%2F%2Fmath2001.github.io%2Fpost%2Fbashs-find-command%2F" target="_blank"
+                onclick="window.open(this.href, 'twitter-share', 'width=580,height=300');return false;">
+                <svg><use href="#si-twitter"></svg>
+            </a>
+        </li>
+        <li>
+            <a href="https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmath2001.github.io%2Fpost%2Fbashs-find-command%2F" target="_blank"
+                onclick="window.open(this.href, 'facebook-share', 'width=580,height=300');return false;">
+                <svg><use href="#si-facebook"></svg>
+            </a>
+        </li>
+        <li>
+            <a href="https://dev.to/new" target="_blank"
+                onclick="window.open(this.href, 'devto-share', 'width=580,height=300');return false;">
+                <svg><use href="#si-dev.to"></svg>
+            </a>
+        </li>
+    </ul>
+</div>    </main>
+</div>
+<footer>
+    <div class="footer-splits">
+        <div class="footer-split">
+            <h4 class="footer-split-title">About me</h4>
+            French, lives in Australia, and gives computer instructions so they don&rsquo;t get bored. 😃
+        </div>
+        <div class="footer-split">
+            <h4 class="footer-split-title">Browse by</h4>
+            <ul>
+                <li><a href="/tags">Tags</a></li>
+            
+                <li><a href="/categories">Categories</a></li>
+            </ul>
+        </div>
+        <div class="footer-split">
+            <h4 class="footer-split-title">Social</h4>
+            <ul class="footer-social-links">
+                <li><a href="https://twitter.com/_math2001" class="footer-social-link" data-tooltip="_math2001"><svg><use href="#si-twitter"></svg></a></li>
+            
+                <li><a href="https://github.com/math2001" class="footer-social-link" data-tooltip="math2001"><svg><use href="#si-github"></svg></a></li>
+            
+                <li><a href="https://stackoverflow.com/users/6164984/math2001" class="footer-social-link" data-tooltip="math2001"><svg><use href="#si-stackoverflow"></svg></a></li>
+            
+                <li><a href="https://dev.com/math2001" class="footer-social-link" data-tooltip="math2001"><svg><use href="#si-dev.to"></svg></a></li>
+            
+                <li><a href="https://www.youtube.com/channel/UCi2O717lLg8ugD5KxAJTwAQ" class="footer-social-link" data-tooltip="math2001"><svg><use href="#si-youtube"></svg></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>
+            © Mathieu Paturel 2017.
+            
+            Code over at <a href="https://github.com/math2001/math2001.github.io"><code>math2001/math2001.github.io</code></a>.
+            
+        </p>
+    </div>
+</footer>
+
+<script type="text/javascript">
+function loadCSS(stylesheets) {
+    let media, link
+    for (let stylesheet of stylesheets) {
+        media = stylesheet.media ? ' media="' + stylesheet.media + '"' : ''
+        link = '<link rel="stylesheet" type="text/css" href="'
+        if (stylesheet.href.startsWith('http')) link += stylesheet.href
+        else link += "/" + "css/" + stylesheet.href
+        link += '"' + media + '>'
+        document.head.innerHTML += link
+
+    }
+}
+
+loadCSS([
+    { href: 'phone.css', media: 'screen and (max-width: 600px)' },
+    { href: 'https://fonts.googleapis.com/css?family=Roboto+Slab' },
+])
+</script>
+
+<script>
+    function gtag_callback() {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-105735012-1');
+    }
+    (function () {
+        if (!document.cookie.includes('InternalTraffic=true')) {
+            const script = document.createElement('script')
+            script.src = "https://www.googletagmanager.com/gtag/js?id=UA-105735012-1"
+            script.onload = gtag_callback
+            document.body.appendChild(script)
+        }
+    })()
+</script>
+
+<h1>Content taken from <a href="https://math2001.github.io/post/bashs-find-command/"> math2001's blog</a></h1>
+
+</body>
+</html>
