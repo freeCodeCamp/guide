@@ -3,8 +3,8 @@ title: Error Handling
 ---
 
 ## Error Handling
-Error Handling, and to a larger extent, Exception Handling, are programs written into methods to return important information about the manipulation of data. Error handling is often used alongside Promises and Callbacks.
-Error handling is very important thing every developer should care about while doing programming. Here I'll explain how to handle errors which occurs run-time using try-catch block with an example in C# programs. Try-catch statements are available in all the major programming languages with similar syntax.
+Error Handling, and to a larger extent, Exception Handling, are functions/methods written to return important information about the manipulation of data. Error handling is often used alongside Promises and Callbacks.
+Error handling is very important thing every developer should care about while programming. Here I'll explain how to handle errors which occur in run-time using try-catch blocks with an example in C# programs. Try-catch statements are available in all the major programming languages with similar syntax.
   
 ### How the try-catch block works.
 
