@@ -63,5 +63,15 @@ title: Books to Read for Programmers
 - [Amazon Smile](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X)
 - ISBN-13: 978-0201616224
 
+*Competitive Programming 3: The New Lower Bound of Programming Contests*
+- [Amazon Smile](https://www.amazon.com/Competitive-Programming-3rd-Steven-Halim/dp/B00FG8MNN8)
+- ISBN-13: 978-5800083125
+
+*Dynamic Programming for Coding Interviews: A Bottom-Up approach to problem solving*
+- [Amazon Smile](https://www.amazon.in/Dynamic-Programming-Coding-Interviews-Bottom-Up-ebook/dp/B06XZ61CMP)
+- ISBN-13: 978-1946556691
+
+
+
 This list was compiled from multiple suggestion threads on Reddit and Stackoverflow. 
 Please feel free to add more that you have found useful!
