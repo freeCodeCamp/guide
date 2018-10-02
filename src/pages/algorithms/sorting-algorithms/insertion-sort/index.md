@@ -151,11 +151,12 @@ public int[] insertionSort(int[] arr)
 
 ### Properties:
 * Space Complexity: O(1)
-* Time Complexity: O(n*n)
+* Time Complexity: O(n), O(n* n), O(n* n) for Best, Average, Worst cases respectively
+* Sorting In Place: Yes
 * Stable: Yes
 
 #### Other Resources:
 - [Wikipedia](https://en.wikipedia.org/wiki/Insertion_sort)
 - [CS50 - YouTube](https://youtu.be/TwGb6ohsvUU)
 - [SortInsertion - GeeksforGeeks, YouTube](https://www.youtube.com/watch?v=wObxd4Kx8sE)
-
+- [Insertion Sort Visualization](https://www.hackerearth.com/practice/algorithms/sorting/insertion-sort/visualize/)
