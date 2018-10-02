@@ -3,7 +3,7 @@ title: Machine Learning
 ---
 ## Machine Learning
 
-As a pioneer in artificial intelligence Arthur Samuel in 1959 defined Machine Learning as "the field of study that gives computers the ability to learn without being explicitly programmed."
+Arthur Samuel, a pioneer in artificial intelligence, defined Machine Learning in 1959 as "the field of study that gives computers the ability to learn without being explicitly programmed."
 
 A more formal definition of Machine Learning is provided by Prof Tom Mitchell of CMU:
 
