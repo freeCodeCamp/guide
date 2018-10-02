@@ -54,6 +54,8 @@ Unity Web Player was a browser plugin that was supported in Windows and OS X onl
 
 Unity is the engine used by Rust, Kerbal Space Program, and Cup Head.
 
+As of October 1st, 2018, The current version of Unity is Unity 2018.2.10f1, while the current beta release is Unity 2018.3.0b3.
+
 #### More Information: 
 
 [Unity's Official Website](https://unity3d.com/)
