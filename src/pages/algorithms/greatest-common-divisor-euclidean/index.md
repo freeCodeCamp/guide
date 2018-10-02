@@ -72,3 +72,6 @@ Calculate the GCD of the first two numbers, then find GCD of the result and the 
 Example- `GCD(203,91,77) == GCD(GCD(203,91),77) == GCD(7, 77) == 7`
 
 You can find GCD of `n` numbers in the same way.
+### MORE INFORMTAION
+RESURCES:
+-[YOUTUBE](https://www.youtube.com/watch?v=JUzYl1TYMcU)
