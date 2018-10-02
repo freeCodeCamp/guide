@@ -5,11 +5,6 @@ title: Using Objects for Lookups
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
----
-title: Using Objects for Lookups
----
-## Using Objects for Lookups
-
 Here’s the example:
 ```javascript
 // Setup
