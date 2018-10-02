@@ -30,6 +30,7 @@ is a regression technique.
 If the output value 'y' is a discrete / categorical value then the function is a classification technique.
 ```  
 - **Clustering** - Grouping of unlabelled data. Identifying patterns using statistics.
+- **Dimensionality Reduction** - Reducing the number of random variables in the data to get more accurate predictions.
 
 ### More Information:
 

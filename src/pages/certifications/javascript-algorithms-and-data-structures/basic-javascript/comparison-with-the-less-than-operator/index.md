@@ -3,8 +3,18 @@ title: Comparison with the Less Than Operator
 ---
 ## Comparison with the Less Than Operator
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-less-than-operator/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+**`<`** (Less Than) is a logical operator that returns true case the value on the left is lower than the one on the right.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+## Basic Solution
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```javascript
+function testLessThan(val) {
+  if (val < 25)
+    return "Under 25";
+  
+  if (val < 55)
+    return "Under 55";
+
+  return "55 or Over";
+}
+```

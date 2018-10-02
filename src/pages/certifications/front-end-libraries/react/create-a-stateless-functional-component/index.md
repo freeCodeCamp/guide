@@ -3,8 +3,23 @@ title: Create a Stateless Functional Component
 ---
 ## Create a Stateless Functional Component
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/front-end-libraries/react/create-a-stateless-functional-component/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+- Stateless functions are the first way to create a React component.
+- These functions can receive data and render it, but does not manage or track changes to that data.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+## Hint 1:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+- Your function must return a jSX wich contains a "div" tag within a child "b or i etc.".
+- Remember to close all tags.  
+  
+## Solution
+```javascript
+ const MyComponent = function() {
+  // change code below this line
+    return (
+      <div>
+      <b>text</b>
+      </div>
+    );
+  // change code above this line
+}
+```
