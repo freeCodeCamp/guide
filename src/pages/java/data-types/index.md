@@ -100,7 +100,7 @@ float data type is a single-precision 32-bit <a href='http://steve.hollasch.net/
 
 ### double:
 
-double data type is a double-precision 64-bit IEEE 754 floating point.
+double data type is a double-precision 64-bit IEEE 754 floating point. This data type is generally the default choice. This data type should never be used for precise values, such as currency.
 
     Wrapper Class: Double
 
@@ -108,7 +108,7 @@ double data type is a double-precision 64-bit IEEE 754 floating point.
 
     Default value: 0.0d.
 
-    Example: double d1 = 123.400778
+    Example: double d1 = 123.400778;
 
 ## Character:
 
@@ -119,6 +119,8 @@ We use this data type to store characters. This is not the same as the char in C
     Minimum value: '\u0000' (or 0).
 
     Maximum value: '\uffff' (or 65,535).
+    
+    Default value: null ('\u0000').
 
     Example: char letterA ='a';
 
@@ -134,7 +136,7 @@ This is used for storing logical values. A boolean type can have a value of eith
 
     Default value is false.
 
-    Example: boolean b = true, boolean b1 = 1, boolean b2;
+    Example: boolean b = true, boolean b1 = 1(this is not possible in java and give incompatible type error), boolean b2;
 
 ## Reference Data Types:
 
