@@ -3,8 +3,19 @@ title: Use CSS Grid units to Change the Size of Columns and Rows
 ---
 ## Use CSS Grid units to Change the Size of Columns and Rows
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/responsive-web-design/css-grid/use-css-grid-units-to-change-the-size-of-columns-and-rows/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+This challenge requires you to set the width of the columns of the container to the ones as specified in the challenge description.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Hint
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Change the ```` grid-template-columns ```` property.
+
+### Solution
+
+Since the challenge requires you to set the width to 1fr, 100px, and 2fr , change the ````css grid-template-columns ```` property of .container to:
+````css
+grid-template-columns: 1fr 100px 2fr;
+````
+
+#### Note
+
+For more information on how these units work, refer to the FreeCodeCamp challenge.
