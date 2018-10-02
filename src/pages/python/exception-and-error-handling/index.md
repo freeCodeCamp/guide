@@ -1,7 +1,7 @@
 ---
-title: Exception and Error Handling
+title: Exceptions and Errors Handling
 ---
-## Exception and Error Handling
+## Exceptions and Errors Handling
 
 When creating a program we can make mistakes that end with errors and the worst programs we make stop running,
 it would be even more annoying if we could not find errors in the code that we made or what was wrong.
