@@ -9,7 +9,7 @@ title: Hello World In Ionic
 
 #### 1. Install `ionic` , `npm` ,`angular` and `cordova` if not installed.[See [first](https://guide.freecodecamp.org/ionic) introduction for more information]
 
-```
+```shell
 sudo apt-get install nodejs
 sudo apt-get install npm 
 sudo npm install -g ionic cordova
@@ -17,7 +17,7 @@ sudo npm install -g ionic cordova
    
 #### 2. Create a folder named `helloworld`
          
-```
+```shell
 ionic start helloworld blank
 ```
    Note:
@@ -26,7 +26,7 @@ ionic start helloworld blank
   
 #### 3. Change directory to `helloworld` [ this is your ionic directory]
          
-```
+```shell
 cd helloworld
 ```
          
@@ -62,7 +62,7 @@ Dont panic these files are generated automatically by npm for you.Just go to `sr
    
 #### 7. Save the code and run 
 
-```
+```shell
 ionic serve
 ```
    
