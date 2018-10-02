@@ -9,16 +9,16 @@ In PHP, the `Switch` statement is very similar to the Javascript `Switch` statem
 <?php
 	// Switch Statement Example
 	switch ($i) {
-    	case "free":
+    	case "free":		// if $i = 'free'
     	    echo "i is free";
     	    break;
-    	case "code":
+    	case "code":		// if $i = 'code'
     	    echo "i is code";
     	    break;
-    	case "camp":
+    	case "camp":		// if $i = 'camp'
     	    echo "i is camp";
     	    break;
-    	default:
+    	default:		
     		echo "i is freecodecamp";
 	}
 
