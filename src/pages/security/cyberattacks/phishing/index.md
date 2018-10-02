@@ -18,5 +18,6 @@ While phishing phone calls are less common, you should always be on the look out
 
 
 ## More Information:
-* <a href='https://www.sonicwall.com/en-us/phishing-iq-test' target='_blank' ref='nofollow'>SonicWall - Test your Phishing IQ</a>
-* <a href='http://www.phishing.org/phishing-techniques' target='_blank' ref='nofollow'>Phishing.Org - Common Phishing Techniques</a>
+
+* [SonicWall - Test your Phishing IQ](https://www.sonicwall.com/en-us/phishing-iq-test)
+* [Phishing.Org - Common Phishing Techniques](http://www.phishing.org/phishing-techniques)
