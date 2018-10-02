@@ -3,7 +3,7 @@ title: HTML Forms
 ---
 ## HTML Forms
 
-Basically, forms are used to collect data entered by a user, which are then sent to the server for further processing. They can be used for different kinds of user inputs, such as name, email etc. 
+Forms are used to collect user data, which is then sent to the server for further processing. They can be used for different kinds of user inputs, such as name, email etc. 
 
 Form contains control elements which are wrapped around ```<form></form>``` tags, like ```input```, which can have types like:
 
