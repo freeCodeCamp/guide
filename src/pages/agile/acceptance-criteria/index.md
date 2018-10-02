@@ -1,7 +1,7 @@
 ---
-title: Acceptance Criteria
+title: Acceptance Criteria 
 ---
-## Acceptance Criteria
+### Acceptance Criteria
 
 The User Story, as an item in your backlog, is a placeholder for a conversation. In this conversation,
 the Product Owner and the Delivery Team reach an understanding on the desired outcome.
@@ -14,6 +14,7 @@ Most importantly, if the story does not meet each of the Acceptance Criteria, th
 
 Acceptance criteria can be viewed as an instrument to protect the Delivery Team. When the Delivery Team commits to a fixed set of stories in the Sprint planning they commit to fixed set of acceptance criteria as well. This helps to avoid scope creep.
 
+### example -----
 Consider the following situation: when accepting the user story the Product Owner suggests adding something that was not in the scope of the User story. In this case the Delivery team is in the position to reject this request (however small it might be) and ask the Product owner to create a new User story that can be taken care of in another Sprint. 
 
 
@@ -21,4 +22,4 @@ Consider the following situation: when accepting the user story the Product Owne
 
 Nomad8 provides an [FAQ on Acceptance Criteria](https://nomad8.com/acceptance_criteria/)
 
-Leading Agile on [Acceptance Criteria](https://www.leadingagile.com/2014/09/acceptance-criteria/)
+Leading Agile on [Acceptance Criteria](https://www.leadingagile.com/2014/09/acceptance-criteria/
