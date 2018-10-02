@@ -130,6 +130,7 @@ d3.
 
 If we have D3.js installed correctly, the following should appear:
 
+
 ![](https://d1gg5jm9r4jrt6.cloudfront.net/d3.js.javascript.console_300x420.png)
 
 If all the tests passed and you were able to load D3.js correctly, you are ready to get started.
