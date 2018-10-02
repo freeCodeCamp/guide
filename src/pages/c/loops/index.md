@@ -119,11 +119,11 @@ Multiplication is just repeated addition, so this is doing addition on `a`, `b` 
 ```C
 for(int count = 0; count != b; count++)
 ```
-Unlike the for loop, there are three things in our parenthesis that are separated by semicolons. The first section is for initialization, and is referred to as 'initialization': it allows you to make a new variable and set it a value, or set an existing variable to a different value, or you can not set anything and just put a semicolon down.
+Unlike the for loop, there are three things in our parenthesis that are separated by semicolons. The first section is for initialization, and is referred to as 'initialization': it allows you to make a new variable and set it a value, or set an existing variable to a different value, or you can not set anything and just put a semicolon down. This section runs only one time when the loop is entered.
 
-The next section is a boolean condition that will be checked for true or false, just like our while loop. It's referred to as a 'condition', because it's the condition that will get checked before starting a loop.
+The next section is a boolean condition that will be checked for true or false, just like our while loop. It's referred to as a 'condition', because it's the condition that will get checked before starting a loop. This section runs everytime when a new iteration of the loop is starte.d
 
-The final section is referred to as the 'increment/decrement'. Its job is to perform some operation every loop - usually adding or subtracting from the initial variable - after the code within the brackets has been run through. In this case, it's just adding one to the count. This is the most common way for the increment to be used, because it lets you keep count of how many times you've run through a for loop.
+The final section is referred to as the 'increment/decrement'. Its job is to perform some operation every loop - usually adding or subtracting from the initial variable - after the code within the brackets has been run through. In this case, it's just adding one to the count. This is the most common way for the increment to be used, because it lets you keep count of how many times you've run through a for loop. This section also runs on every iteration of the loop.
 
 # Loop Control Statements
 Loop control statements change execution form its normal sequence. When execution leaves a scope, all automatic objects that were created in that scope are destroyed.
