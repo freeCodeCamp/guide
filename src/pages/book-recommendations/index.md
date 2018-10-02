@@ -194,6 +194,10 @@ title: Books to Read for Programmers
 - ISBN-13: 978-0321117427
 
 
+The Mythical Man-Month: Essays on Software Engineering
+- [Amazon Smile](https://www.amazon.com/Mythical-Man-Month-Software-Engineering-Anniversary/dp/0201835959)
+- ISBN-13: 978-0201835953
+
 This list was compiled from multiple suggestion threads on Reddit and Stackoverflow. 
 
 Please feel free to add more that you have found useful!
