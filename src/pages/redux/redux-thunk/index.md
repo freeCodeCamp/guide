@@ -3,7 +3,7 @@ title: Redux Thunk
 ---
 ## Redux Thunk
 
-Redux Thunk is middleware that allows you to return functions, rather than just actions, within Redux<sup>1</sup>. This allows for delayed actions, including working with promises.
+Redux Thunk is middleware that allows you to return functions, rather than just actions, within Redux. This allows for delayed actions, including working with promises.
 
 ```
 const INCREMENT_COUNTER = 'INCREMENT_COUNTER';
@@ -30,7 +30,7 @@ const GET_CURRENT_USER_SUCCESS = 'GET_CURRENT_USER_SUCCESS';
 const GET_CURRENT_USER_FAILURE = 'GET_CURRENT_USER_FAILURE';
 
 const getUser = () => {
-  return dispatch => {
+  return (dispatch) => {     //nameless functions
     // Initial action dispatched
     dispatch({ type: GET_CURRENT_USER });
     // Return promise with success and failure actions
@@ -43,7 +43,7 @@ const getUser = () => {
 ```
 
 ### Installation and Setup
-Redux Thunk can be installed using `npm install redux-thunk` or `yarn add redux-thunk` with the command line.  Because it is a Redux tool, you will also need to have Redux set up.  Once installed, it is enabled using `applyMiddleware()`:
+Redux Thunk can be installed using `npm install redux-thunk --save` or `yarn add redux-thunk` with the command line.  Because it is a Redux tool, you will also need to have Redux set up.  Once installed, it is enabled using `applyMiddleware()`:
 
 ```
 import { createStore, applyMiddleware } from 'redux';
