@@ -12,8 +12,12 @@ There is definitely a learning curve to get used to the Android framework, howev
 ## Getting started
 Check out the guides in this folder to learn about the 4 core components that make up an Android app and how you can get started with a sample app, and then delve into the more advanced topics such as fragments and the Gradle build system. Then check out the material design specifications guide as well to learn how to make your apps beautiful and user friendly.
 
-Lastly, learn to integrate 3rd party libraries and Firebase services to add functionality to your app.
+Lastly, learn to integrate 3rd party libraries and Firebase services to add functionality to your app. It would be helpful if you go through the official documentation for each component to 
 
 ### Official Documentation
 
 [Google Developers Guide for Android](https://developer.android.com/training/index.html)
+
+### Google Developer Console
+
+[Google Developer Console](https://developer.android.com/distribute/console/)
