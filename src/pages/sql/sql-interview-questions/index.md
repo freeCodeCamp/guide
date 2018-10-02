@@ -110,3 +110,15 @@ Here CASCADE option is necessary to remove all the objects of the user in the da
 ``` sql    
    DROP USER rita CASCADE
 ```
+
+
+### Write SQL query to find the nth highest salary from table.
+``` sql    
+   SELECT TOP 1 Salary
+   FROM (
+      SELECT DISTINCT TOP N Salary
+      FROM Employee
+      ORDER BY Salary DESC
+      )
+    ORDER BY Salary ASC
+```
