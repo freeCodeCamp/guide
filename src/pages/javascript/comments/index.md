@@ -80,3 +80,4 @@ hello();
 
 #### More Information:
 * <a href='https://www.digitalocean.com/community/tutorials/how-to-write-comments-in-javascript' target='_blank' rel='nofollow'>How To Write Comments in JavaScript</a>
+* <a href='https://www.bitdegree.org/learn/javascript-comment' target='_blank' rel='nofollow'>Best Way Of Using Javascript Comments In a Nutshell</a>
