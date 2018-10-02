@@ -9,6 +9,14 @@ A for loop is a repetition control structure that allows you to efficiently writ
 for ( init; condition; increment ) {
    statement(s);
 }
+
+It is allowed to place the increment insie the for loop like in a while loop. Meaning a syntax like this can also work.
+
+for ( init; condition;) {
+   statement(s);
+   increment;
+}
+
 ### init
 This is execute once only.This step allows you to declare and initialize any loop control variables
 
