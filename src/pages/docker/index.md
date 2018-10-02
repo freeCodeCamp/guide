@@ -13,5 +13,12 @@ Docker is used to run packages called "containers". Containers are isolated from
 
 * Windows / macOS: [Download](https://www.docker.com/get-started)
 
+* Linux:
+
+```
+curl -fsSL https://get.docker.com -o get-docker.sh
+sh get-docker.sh
+```
+
 #### More Information:
 For download and documentation check the docker official site: [Docker official site](https://www.docker.com)
