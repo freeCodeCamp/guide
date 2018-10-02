@@ -3,11 +3,9 @@ title: Apache
 ---
 ## Apache
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/quadratic-equations/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+The Apache HTTP Server, colloquially called Apache (/əˈpætʃiː/ ə-PATCH-ee), is a free and open-source cross-platform web server, released under the terms of Apache License 2.0. Apache is developed and maintained by an open community of developers under the auspices of the Apache Software Foundation.
+Apache HTTP Server, commonly known as Apache is a free and open source cross-platform web server. It was released under the terms of the [Apache License 2.0](https://en.wikipedia.org/wiki/Apache_License). It is developed and maintained by the Apache Software Foundation.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+
+For download and documentation, visit [Official Apache Website](http://httpd.apache.org)
