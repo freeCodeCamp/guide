@@ -3,13 +3,25 @@ title: Tr Tag
 ---
 ## Tr Tag
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/tr-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `<tr>` tag defines a standard row in an HTML table. You can then use a mix of <td> (data cell) and <th> (header cell) elements in a row.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+### Example
+```html
+<html>
+    <head>
+      <title>Tr Tag Example</title>
+    </head>
+  <body>
+    <table>
+      <tr>
+        <th>Header1</th>
+        <th>Header2</th>
+      </tr>
+      <tr>
+        <td>Cell A</td>
+        <td>Cell B</td>
+      </tr>
+    </table>
+  </body>
+</html>
+```
