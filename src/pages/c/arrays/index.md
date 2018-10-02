@@ -50,7 +50,7 @@ The first element of this array is `1`, the second is `2` etc.
 ```C
 int brr[] = {78, 65};
 ```
-You do not have to tell the dimension beforehand if you are initialising the array. Here an array of two will be created with the elements between the curly brackets.
+You do not have to tell the dimension beforehand if you are initialising the array. Here an array of two will be created with the elements between the curly braces.
 
 ```C
 int crr[100] = {3};
