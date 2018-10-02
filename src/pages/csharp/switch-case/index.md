@@ -65,4 +65,4 @@ else
 ```
 > The number is one!
 ```
-The switch statement is often used as an alternative to an if-else construct if a single expression is tested against three or more conditions
+The switch statement is often used as an alternative to an if-else construct if a single expression is tested against three or more conditions. 
