@@ -3,8 +3,40 @@ title: Iterate Odd Numbers With a For Loop
 ---
 ## Iterate Odd Numbers With a For Loop
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-javascript/iterate-odd-numbers-with-a-for-loop/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+<br/>
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+## Hint: 
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+The defenition of a odd number is 2n+1 where 'n' is any number, and an even number is 2n. So if i = 0 and i += 2 returns even numbers, what would the value of i need to be to return odd numbers?
+
+
+Now try to solve the challenge!
+
+<br/>
+
+## Spoiler-Alert Solution Ahead!
+
+<br/>
+
+## Solution:
+
+```javascript
+
+// Example
+var ourArray = [];
+
+for (var i = 0; i < 10; i += 2) {
+  ourArray.push(i);
+}
+
+// Setup
+var myArray = [];
+
+// Only change code below this line.
+
+// Solution
+for(let i = 1; i < 10; i += 2){
+  myArray.push(i);
+}
+
+```
