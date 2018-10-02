@@ -29,15 +29,15 @@ title: Books to Read for Programmers
 
 *You Don't Know JS (book series)*
 - https://github.com/getify/You-Dont-Know-JS
-- ISBN-13: 9781491924464 
+- ISBN-13: 9781491924464
 
 *Soft Skills: The software developer's life manual*
 - [Amazon Smile](https://smile.amazon.com/Soft-Skills-software-developers-manual/dp/1617292397?pldnSite=1)
-- ISBN-13: 9781617292392 
+- ISBN-13: 9781617292392
 
 *Introduction to Algorithms, 3rd Edition (MIT Press)*
 - [Amazon Smile](https://smile.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844/)
-- ISBN-13: 978-0262033848 
+- ISBN-13: 978-0262033848
 
 *Cracking the Coding Interview: 150 Programming Questions and Solutions*
 - [Amazon Smile](https://smile.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/098478280X)
@@ -55,5 +55,9 @@ title: Books to Read for Programmers
 - [Amazon Smile](https://smile.amazon.com/Head-First-Java-Kathy-Sierra/dp/0596009208)
 - ISBN-13: 978-0596009205
 
-This list was compiled from multiple suggestion threads on Reddit and Stackoverflow. 
+*Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition*
+- [Wiley](https://www.wiley.com/en-id/Programming+Interviews+Exposed:+Secrets+to+Landing+Your+Next+Job,+2nd+Edition-p-9780470121672)
+- ISBN: 978-0-470-12167-2
+
+This list was compiled from multiple suggestion threads on Reddit and Stackoverflow.
 Please feel free to add more that you have found useful!
