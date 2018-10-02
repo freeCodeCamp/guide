@@ -1,5 +1,5 @@
 ---
- title: Hello World C
+title: Hello World C
 ---
 
  # Hello World
