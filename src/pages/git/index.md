@@ -37,7 +37,7 @@ With three sections, there are three main states that a file can be in at any gi
 
 ### Install Git <a name="install-git"></a>
 - Ubuntu: `sudo apt-get install git`
-- Windows: <a href="https://git-scm.com/download/win" terget="_blank">Download</a>
+- Windows: <a href="https://git-scm.com/download/win" target="_blank">Download</a>
 - Mac: <a href="https://git-scm.com/download/mac" target="_blank">Download</a>
 
 ### Configure the Git Environment <a name="configure-the-git-environment"></a>
