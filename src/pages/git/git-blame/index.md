@@ -19,9 +19,9 @@ e483daf0 (John Doe      2018-06-18 23:50:40 -0500 2)   print 'Welcome '
 0292b580 (Jane Doe      2018-06-18 00:17:23 -0500 3) end
 ```
 
-Each line annotated with the SHA, Name of the author and date of the last commit.
+Each line annotated with the SHA, name of the author and date of the last commit.
 
-### Aliasing git blame
+### Aliasing Git Blame
 
 Some programmers don't like the word 'blame', because of the negative connotation 'blaming someone' brings with it. Also the tool is rarely (if ever) used for blaming someone, instead aksing for advice or understanding the history of a file. So you sometimes see people use an alias to change `git blame` to something sounding nicer. Like `git who`, `git history` or `git praise`. To do that you simply add an git alias like this:
 
@@ -29,11 +29,11 @@ Some programmers don't like the word 'blame', because of the negative connotatio
 
 You can see more information about aliasing git commands [here](../git-alias/index.md).
 
-### Text Editor-Plugins utilizing Git Blame
+### Text Editor Plugins utilizing Git Blame
 
-There are a few Plugins out there for various Text-Editors which utilize `git blame`. For example to create something like heat maps or add inline information for the current line you are inspecting. A famous examples is [GitLense](https://gitlens.amod.io/) for VSCode.
+There are a few plugins out there for various text editors which utilize `git blame`. For example to create something like heat maps or add inline information for the current line you are inspecting. A famous examples is [GitLense](https://gitlens.amod.io/) for VSCode.
 
-### Further reading
+### Further Reading
 
 - [Git Blame documentation](https://git-scm.com/docs/git-blame)
 - [further reading on usage of Git Blame](https://corgibytes.com/blog/2016/10/18/git-blame/)
