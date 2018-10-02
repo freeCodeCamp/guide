@@ -18,4 +18,4 @@ There are various approaches to One-Shot learning such as [similarity functions]
 * [Siraj Raval on YouTube](https://www.youtube.com/watch?v=FIjy3lV_KJU&feature=youtu.be)
 * [Andrew Ng (Deeplearning.ai)](https://www.coursera.org/lecture/convolutional-neural-networks/one-shot-learning-gjckG)
 * [Scholarly article](http://web.mit.edu/cocosci/Papers/Science-2015-Lake-1332-8.pdf)
-* [Wiki](https://en.wikipedia.org/wiki/One-shot_learning)
+* [Wikipedia](https://en.wikipedia.org/wiki/One-shot_learning)
