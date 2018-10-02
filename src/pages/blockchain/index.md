@@ -26,15 +26,25 @@ The words block and chain were used separately in Satoshi Nakamoto's original pa
 
 As of 2016, blockchain 2.0 implementations continue to require an off-chain oracle to access any "external data or events based on time or market conditions to interact with the blockchain."
 
-#### Sources
-1. [Bettina Warburg, "How the blockchain will radically transform the economy", *TED Talks*, December 8, 2016](https://youtu.be/RplnSVTzvnU?t=213)
 
+### Learning Resources
 
-##### More information
+[Learn Blockchain by building one](https://hackernoon.com/learn-blockchains-by-building-one-117428612f46)
+[Create your own blockchain](https://medium.com/coinmonks/create-your-own-blockchain-77d3164f414)
+[Create your own blockchain in 30 minutes](https://medium.com/@ssaurel/create-your-own-blockchain-in-30-minutes-dbde3293b390)
+[Blockchain A-Z](https://www.udemy.com/build-your-blockchain-az/)
+[Ethereum and Solidity the complete developers guide](https://www.udemy.com/ethereum-and-solidity-the-complete-developers-guide/)
 
-[WTF is The Blockchain?](https://hackernoon.com/wtf-is-the-blockchain-1da89ba19348)       
+##### Understanding Blockchain
+
+[WTF is The Blockchain?](https://hackernoon.com/wtf-is-the-blockchain-1da89ba19348) 
+[What is blockchain: Explained for beginners](https://medium.com/blockchain-education-network/what-is-blockchain-explained-for-beginners-5e747cea271)
+
+[How does Blockchain work?](https://medium.com/blockchain-review/how-does-the-blockchain-work-for-dummies-explained-simply-9f94d386e093)
 [Blockchain: the revolution we’re not ready for](https://medium.freecodecamp.org/blockchain-is-our-first-22nd-century-technology-d4ad45fca2ce)         
 [How the blockchain is changing money and business | Don Tapscott (YouTube video)](https://www.youtube.com/watch?v=Pl8OlkkwRpc)
 [Introduction to Bitcoin, Ethereum and Smart Contracts](https://github.com/WizardOfAus/WizardsEthereumWorkshop)
 
 
+#### Sources
+ [Bettina Warburg, "How the blockchain will radically transform the economy", *TED Talks*, December 8, 2016](https://youtu.be/RplnSVTzvnU?t=213)
