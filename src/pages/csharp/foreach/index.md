@@ -4,7 +4,7 @@ title: ForEach Loop
 
 ## ForEach Loop
 
-The ForEach loop executes a block of code for each item in a collection. The benefit of the foreach loop is you need not know how many items are within the collection to iterate through it; you simply tell your foreach loop to loop through the collection, as long as there are items within it. It is useful for iterating through lists, arrays, datatables, IEnumerables and other list-like data structures. It can be less efficient than a very well designed `for` loop, but the difference is negligible in most cases.
+The ForEach loop executes a block of code for each item in a collection. The benefit of the foreach loop is you need not know how many items are within the collection to iterate through it; you simply tell your foreach loop to loop through the collection, as long as there are items within it. It is useful for iterating through lists, arrays, datatables, IEnumerables and other list-like data structures. It can be less efficient than a very well designed `for` loop, but the difference is negligible in most cases. Simple difference between for and foreach is that foreach loop uses more stack space for local variables than for loop.
 
 
 
