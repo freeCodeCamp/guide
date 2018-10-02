@@ -54,7 +54,7 @@ Any integer can be placed in the square brackets to get a position in the array.
 #include <stdio.h>
 
 int main(void) {
-    int my_array[] = {1, 1, 2, 3, 5, 7, 12};
+    int my_array[] = {1, 1, 2, 3, 6, 7, 12};
 
     for(int count = 0; count < 7; count++) {
         printf("%i, \n", my_array[count]);
