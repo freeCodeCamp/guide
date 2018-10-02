@@ -27,6 +27,10 @@ title: Books to Read for Programmers
 - [Amazon Smile](https://smile.amazon.com/Self-Taught-Programmer-Definitive-Programming-Professionally-ebook/dp/B01M01YDQA?sa-no-redirect=1)
 - ISBN-13: 978-1520288178
 
+*JavaScript and JQuery: Interactive Front-End Web Development*
+- [Amazon Smile](https://smile.amazon.com/JavaScript-JQuery-Interactive-Front-End-Development/dp/1118531647/?pldnSite=1)
+- ISBN-13: 978-1118531648 
+  
 *You Don't Know JS (book series)*
 - https://github.com/getify/You-Dont-Know-JS
 - ISBN-13: 9781491924464 
