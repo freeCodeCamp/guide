@@ -37,15 +37,11 @@ The steps that an idividual can take to protect themselves from these attacks in
 
 In general, the more you know about these attacks, the better prepared you are. Be concsious of who you share information with and why. 
 
-<a href='https://www.youtube.com/watch?v=YVqurfWzB-Q' target='blank' rel='nofollow'>Hacking Humans : Social Engineering Techniques and How to Protect Against Them</a>
-
-<a href='https://www.youtube.com/watch?v=XJCQBqTmGUU' target='blank' rel='nofollow'>Does Dropping USB Drives in Parking Lots and Other Places Really Work?</a> 
-
-<a href='https://www.youtube.com/watch?v=lc7scxvKQOo' target='blank' rel='nofollow'>Example of Pretexting</a>
-
-<a href='https://www.sonicwall.com/en-us/phishing-iq-test' target='blank' rel='nofollow'>Test your Phishing IQ</a>
-
 #### More Information:
 * [What is Social Engineering?](https://www.webroot.com/us/en/home/resources/tips/online-shopping-banking/secure-what-is-social-engineering)
 * [Protect Yourself from Social Engineering Attacks](http://www.makeuseof.com/tag/protect-8-social-engineering-attacks/)
 * [7 Best Social Engineering Hacks Ever](https://www.darkreading.com/the-7-best-social-engineering-attacks-ever/d/d-id/1319411?)
+* [Hacking Humans : Social Engineering Techniques and How to Protect Against Them](https://www.youtube.com/watch?v=YVqurfWzB-Q)
+* [Does Dropping USB Drives in Parking Lots and Other Places Really Work?](https://www.youtube.com/watch?v=XJCQBqTmGUU)
+* [Example of Pretexting](https://www.youtube.com/watch?v=lc7scxvKQOo)
+* [Test your Phishing IQ](https://www.sonicwall.com/en-us/phishing-iq-test)
