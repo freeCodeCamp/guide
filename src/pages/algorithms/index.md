@@ -19,7 +19,7 @@ Some common types of algorithms include sorting algorithms, search algorithms, a
 
 ### Efficiency
 
-Algorithms are most commonly judged by their efficiency, the amount of computing resources they require to complete their task.
+Algorithms are most commonly judged by their efficiency, the amount of computing resources they require to complete their task as well as the easiness of the users.
 
 ### Sorting Algorithms
 
