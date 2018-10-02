@@ -66,14 +66,4 @@ Dont panic these files are generated automatically by npm for you.Just go to `sr
 ionic serve
 ```
    
-#### 8. To see your code running go to browser and and open localhost:8100 in the url.<br/> 
-
-
-<br/>
-
-##### End Note : Since this is a first project we havent included android or ios, cordova files and features to run on native devices.Subsequent tutorial will do so.
-<br/>
-I hope you will love to do more . Any querry, tweak in [github](https://github.com/freeCodeCamp/guide/tree/master/src/pages)
-<br/>
-
-
+#### 8. To see your code running go to browser and and open localhost:8100 in the url.
