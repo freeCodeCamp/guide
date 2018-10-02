@@ -1,0 +1,18 @@
+---
+title: CTFs
+---
+
+## What is a CTF?
+
+A CTF is something that allows you to practice and sharpen your cybersecurity skills. It is good for aspiring hackers and those
+who just want to understand the mindeset of a hacker. Most involve finding a secret string, or a 'flag'.
+
+
+## Good CTFs to try out...
+
+[OverTheWire](http://overthewire.org/wargames/)
+This is a good CTF to practice Linux command line skills. It starts off easily and gets harder. There's an IRC channel where you
+can ask for help and the site provides plenty of resources for each challenge. It is reccomended to start on the Bandit wargame
+and go from there.
+
+Feel free to add any CTFs you think are useful :)
