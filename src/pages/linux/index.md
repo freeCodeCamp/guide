@@ -27,16 +27,17 @@ system. This means that users can choose their Linux distributions based on thei
 There is also Kali Linux which is used for advanced penetration testing and auditing. It has over 700 tools, to be able to use it
 efficiently you will need to know how to use command line. It is not advised for beginners.
 
-Popular distributions of Linux include:
-
-* Ubuntu
-* Linux Mint
-* CentOS
-* RHEL
-* Arch Linux
-
 Package types are split between higher-level distributions, with Debian (.deb) and Red Hat (.rpm) being two of the most commonly used,
 however there are others including Pacman (used for Arch Linux) and PetGet (Puppy Linux).
+
+Popular distributions of Linux include:
+
+* Ubuntu (Debian)
+* Linux Mint (Debian)
+* CentOS (Red Hat)
+* RHEL (Red Hat)
+* Fedora (Red Hat)
+* Arch Linux (Independent)
 
 Linux distributions also come in all shapes and size and most if not all offer the ability to run directly via CD / DVD in what's known
 as a 'Live CD' environment or even directly via USB if your motherboard supports booting from USB.
