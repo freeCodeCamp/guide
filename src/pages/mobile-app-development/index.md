@@ -42,3 +42,9 @@ Ionic Framework is a CSS framework that allows you to style your screens to look
 ### React Native
 
 React Native is a front end development framework that contains a lot of the building block elements for Android/iOS development and is a different kind of magic from Apache Cordova
+
+### Framework7
+
+Framework7 is a free and open source mobile HTML framework to develop hybrid mobile apps or web apps with iOS & Android native look and feel. It is also an indispensable prototyping apps tool to show working app prototype as soon as possible in case you need to.
+
+The main approach of the Framework7 is to give you an opportunity to create iOS & Android apps with HTML, CSS, and JavaScript easily and clear. This framework is focused only on iOS and Google Material design to bring the best experience and simplicity.
