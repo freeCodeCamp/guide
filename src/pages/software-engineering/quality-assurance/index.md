@@ -14,7 +14,7 @@ In an Agile approach to development, the aim is that each cycle of work ('sprint
 
 ### Terminology
 #### White Box
-Refers to tests performed at a structural level, within the codebase. Programmers checking that the inputs to and outputs from specific functions or components would be white box testing.
+Refers to tests performed at a structural level, within the codebase. Programmers checking that the inputs to and outputs from specific functions or components would be white box testing. White Box testing can be conducted earlier in the design process because it is not reliant on a visual interface. 
 
 Also known as 'Glass Box', 'Clear Box', 'Transparent Box' because the tester can 'see inside' the system under test.
 
