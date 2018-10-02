@@ -1,10 +1,21 @@
----
-title: Use Capture Groups to Search and Replace
----
-## Use Capture Groups to Search and Replace
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/regular-expressions/use-capture-groups-to-search-and-replace/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+# Use Capture Groups to Search and Replace
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+## Solution 1
+You can also utilize capture groups by doing the following:
+```
+let huhText = "This sandwich is good.";
+let fixRegex = /(\w+)\s(\w+)\s(\w+)\s(\w+)/; // Change this line
+let replaceText = "okey-dokey"; // Change this line
+let result = huhText.replace(fixRegex, "$1 $2 $3 " + replaceText);
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+## Solution 2
+This particular challenge could also utilize the exact match pattern by doing the following:
+
+```
+let huhText = "This sandwich is good.";
+let fixRegex = /good/; // Change this line
+let replaceText = "okey-dokey"; // Change this line
+let result = huhText.replace(fixRegex, replaceText);
+```
