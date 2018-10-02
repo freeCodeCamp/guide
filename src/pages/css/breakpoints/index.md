@@ -3,11 +3,9 @@ title: Breakpoints
 ---
 ## Breakpoints
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/breakpoints/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Breakpoints are a vital concept in [responsive web design](https://guide.freecodecamp.org/html/responsive-web-design).  Breakpoints are the viewport sizes where css rules are selectively applied to ensure elements layout well on various screen sizes.  These breakpoints are set using [media queries](https://guide.freecodecamp.org/css/media-queries).
+[This demo](https://codepen.io/Tlandis/pen/ReWGKY) shows how using three or more breakpoints make content layout better.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+
+[Making Breakpoints](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/)
