@@ -1,5 +1,7 @@
-
-# Use Capture Groups to Search and Replace
+---
+title: Use Capture Groups to Search and Replace
+---
+## Use Capture Groups to Search and Replace
 
 ## Solution 1
 You can also utilize capture groups by doing the following:
