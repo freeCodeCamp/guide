@@ -19,11 +19,13 @@ These are some of them:
 
 [Framer](https://framer.com) - [Guide](https://github.com/freeCodeCamp/guides/blob/master/src/pages/designer-tools/framer/index.md)
 
-[Krita] (https://krita.org/en/homepage/)
+[Krita](https://krita.org/en/homepage/)
 
-[MediBang Paint] (https://medibangpaint.com/en/)
+[MediBang Paint](https://medibangpaint.com/en/)
 
-[Autodesk Sketchbook] (https://www.sketchbook.com/)
+[Autodesk Sketchbook](https://www.sketchbook.com/)
+
+[CLIP STUDIO PAINT](https://www.clipstudio.net/en)
 
 In this section, you can see popular Firefox plug-ins used by designers.
 
