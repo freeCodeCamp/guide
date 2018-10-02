@@ -43,6 +43,7 @@ This is an instruction to the compiler to find and include a set of header files
 ```C
 int main(void)
 {
+    //your code here
 }
 ```
 This code declares the main function. The main function is special- it will always get called and is always the 'main' part of your program. If this isn't in your program, your program can't run and won't compile.
