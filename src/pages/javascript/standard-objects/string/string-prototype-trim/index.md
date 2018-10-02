@@ -8,7 +8,7 @@ The `trim()` function removes any whitespace characters from both the beginning 
 Examples:
 ```js
 "  Hello, campers. I have spaces on both ends!  ".trim();
-// output is "Hello, campers. I have spaces on both sides!"
+// output is "Hello, campers. I have spaces on both ends!"
 ```
 
 `trim()` not only removes space characters; it removes any whitespace character, such as tabs, line-breaks, no-break spaces, etc.
