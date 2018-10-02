@@ -106,3 +106,23 @@ The "length" of a string is just the number of chars in it. So "hi" is length 2 
 String a = "Hello";
 int len = a.length();  // len is 5
 ```
+#### Other comparison methods which can also be used on the String are :
+
+1. equalsIgnoreCase() :- compares the string without taking into consideration the case sensitivity.
+
+```java
+String a = "HELLO";
+String b = "hello";
+System.out.println(a.equalsIgnoreCase(b));   // It will print true
+```
+
+2. compareTo :- compares the value lexicographically and returns an integer.
+
+```java
+String a = "Sam";
+String b = "Sam";
+String c = "Ram";
+System.out.println(a.compareTo(b));       // 0
+System.out.prinltn(a.compareTo(c));       // 1 since (a>b)
+System.out.println(c.compareTo(a));       // -1 since (c<a)
+```
