@@ -10,4 +10,5 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+<a href='https://www.youtube.com/results?search_query=parallel+computing' target='_blank' rel='nofollow'>Youtube</a>
+<a href='https://en.wikipedia.org/wiki/Parallel_computing' target='_blank' rel='nofollow'>Wikipedia</a>
