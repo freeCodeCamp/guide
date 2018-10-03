@@ -18,6 +18,10 @@ In an Agile approach to development, the aim is that each cycle of work ('sprint
 
 ### Terminology
 
+#### Automation Testing
+
+Testing done with pre-written scripts designed to control the execution of tests.
+
 #### Black Box
 
 These test do not look inside the system under test, but treat it as 'closed' in the same way that the end user will experience it.
