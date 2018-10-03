@@ -20,3 +20,5 @@ Cooling devices are available for individual parts on the computer. The two most
 Room ventilation - Locate the computer where it is neutral to the rooms environmental registers. Keep the computer away from room heaters or vents at all times.
 * Room placement - Locate the computer away from windows or areas of strong sunlight exposure. Placement in closets can also provide challenges to cooling.
 * Placement next to other computers - Locating the computer away from other equipment allows air to flow in and out of the computer. Placement close to other equipment can constrict air flow and increase heat.
+
+A computer fan is any fan inside, or attached to, a computer case used for active cooling, and may refer to fans that draw cooler air into the case from the outside, expel warm air from inside, or move air across a heat sink to cool a particular component. Generally these are found in axial and sometimes centrifugal forms. The former is sometimes called a "electric" fan, after the Rotron Vertical line,[1] while the latter may be called a "biscuit blower" in some product literature.
