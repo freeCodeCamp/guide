@@ -29,6 +29,6 @@ Additional slots to connect hardware in the form of Peripheral Component Interco
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 * <a href='https://www.computerhope.com/jargon/m/mothboar.htm' target='_blank' rel='nofollow'>Motherboard</a>
-* <a href='https://en.wikipedia.org/wiki/Chipset' target='_blank' rel=nofollow'>Chipset (wikipedia)</a>
+* <a href='https://en.wikipedia.org/wiki/Chipset' target='_blank' rel='nofollow'>Chipset (wikipedia)</a>
 
 
