@@ -18,9 +18,10 @@ and native menus.
 Explore the Electron APIs [electron api demos] (https://github.com/electron/electron-api-demos)
 
 Some apps built using Electron include:
-* Atom (GitHub's open-source text-editor)
+* [Atom](https://atom.io/) (GitHub's open-source text-editor)
 * Visual Studio Code (Microsoft's open-source text-editor)
-* Slack (A messaging app for teams)
+* [Slack](https://slack.com/) (A messaging app for teams)
+* [Discord](https://discordapp.com) (A popular messaging app for gamers)
 
 For more information head to [electron.atom.io](https://electron.atom.io/).
 Watch Demo Video: what is Electron: [What is Electron] (https://www.youtube.com/watch?v=8YP_nOCO-4Q&feature=youtu.be)

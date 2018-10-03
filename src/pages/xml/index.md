@@ -3,11 +3,19 @@ title: Extensible Markup Language (XML)
 ---
 ## Extensible Markup Language (XML)
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/quadratic-equations/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+  XML stands for Extensible Markup Language. It is extensible, because it does not use a predefined set of tags for identifying structural components, instead, it provides a mechanism for defining such sets of tags. The main purpose of the language is to share the data. Unlike HTML, in XML there is no predefined set of tags and tags specify meaning, rather than the presentation.
+  
+  * Advantages of using XML:
+    * Simplicity - XML documents are ordinary text files that can be created and edited with any text editor.
+    * Vendor independence
+    * Platform independence
+    * Extensive infrastructure
+  
+ * Disadvantages of using XML:
+   * Verbose and cumbersome syntax
+   * Highly inefficient storage  
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### More information
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+* [XML Introduction](https://developer.mozilla.org/en-US/docs/XML_introduction)
+* [Introduction to XML](https://www.w3schools.com/xml/xml_whatis.asp)
