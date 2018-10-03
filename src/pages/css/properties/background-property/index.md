@@ -20,23 +20,23 @@ Syntax<sup>1</sup>:
 
 ```css
 body {
-/* Using a <background-color> */
-background: green;
+ /* Using a <background-color> */
+ background: green;
 }
 
 .error {
-/* Using a <bg-image> and <repeat-style> */
-background: url("test.jpg") repeat-y;
+ /* Using a <bg-image> and <repeat-style> */
+ background: url("test.jpg") repeat-y;
 }
 
 header {
-/* Using a <box> and <background-color> */
-background: border-box red;
+ /* Using a <box> and <background-color> */
+ background: border-box red;
 }
 
 .topbanner {
-/* A single image, centered and scaled */
-background: no-repeat center/80% url("../img/image.png");
+ /* A single image, centered and scaled */
+ background: no-repeat center/80% url("../img/image.png");
 }
 ```
 
