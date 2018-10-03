@@ -11,7 +11,7 @@ The HTML DOM model is constructed as a tree of Objects:
 
 Each element in the DOM is also called a node.
 
-```
+```html
 <html>
 <head>
   <title> My title </title>
