@@ -1,41 +1,47 @@
 ---
 title: Universal
 ---
+
 ## Universal
-<p>Universal Selector(*) selects all elements . It also selects all elements inside an element. You can attach universal selector with any other selector. </p> 
 
-####Code Syntax</h4>
+Universal Selector(*) selects all elements . It also selects all elements inside an element. You can attach universal selector with any other selector.
+
+### Code Syntax
 
 ```css
 * { 
-	css declarations; 
+  css declarations; 
 }
 ```
 
 ```css
-element  * {
-     css declarations; 
+element * {
+  css declarations; 
 }
 ```
 
-####Code Example</h4>
+#### Code Example
+
+This selector matches all elements and set font color as green.
+
 ```css
 * { 
-    color: green;
+  color: green;
 }
-
 ```
-matches all elements and set font color as green.
+
+This selector selects all div elements and set font color as green.
+
 ```css
 div * { 
-    color: green;
+  color: green;
 }
-
 ```
-selects all div elements and set font color as green.
+
+This selector selects all elements whose language attribute value starts with en.
+
 ```css
 * [lang^=en] {
   color: green;
 }
 ```
-selects all elements whose language attribute value starts with en.
