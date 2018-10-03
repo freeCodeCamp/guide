@@ -3,13 +3,64 @@ title: Using CSS Animations
 ---
 ## Using CSS Animations
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/using-css-animations/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+CSS animations add beauty to the Webpages.<br>
+CSS animations make transitions from one CSS style to the other beautiful.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+To create a CSS animation sequence, we have different sub-properties in the `animation` property in CSS :
+- `animation-delay`
+- `animation-direction`
+- `animation-duration`
+- `animation-iteration-count`
+- `animation-name`
+- `animation-play-state`
+- `animation-timing-function`
+- `animation-fill-mode`
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### Sample CSS animation sequence for move text across the screen
+
+In the HTML part we will have a `div` with class `container` and a `h3` with the text `Hello World`:
+
+```html
+<div class="container">
+    <h3> Hello World ! </h3>
+</div>
+```
+For the CSS part :
+
+```css
+.container {
+    /* We will define the width, height and padding of the container */
+    /* The text-align to center */
+    width: 400px;
+    height: 60px;
+    padding: 32px;
+    text-align: center;
+
+    /* Use the animation `blink` to repeat infinitely for a time period of 2.5s*/
+    animation-duration: 2.5s;           
+    animation-iteration-count: infinite;
+    animation-direction: normal;        
+    animation-name: blink;              
+    
+    /* The same can be written shorthand as     */
+    /* --------------------------------------   */
+    /* animation: 2.5s infinite normal blink;   */
+}
+@keyframes blink {
+    0%, 100% {              /* Defines the properties at these frames */
+        background: #333;
+        color: white;
+    }
+
+    50% {                   /* Defines the properties at these frames */
+        background: #ccc;
+        color: black;
+        border-radius: 48px;
+    }
+}
+```
+![Imgur](https://imgur.com/sczZjwm.gif)
+
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+For more deatils on CSS Animations, please visit [Mozilla Developer Network Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations)
