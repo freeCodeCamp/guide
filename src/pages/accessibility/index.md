@@ -2,7 +2,7 @@
 title: Accessibility
 ---
 ## Accessibility
-<strong>Web accessibility means that people with disabilities can use the Web</strong>.
+<strong>Web accessibility essentially means that people with disabilities can use the Web</strong>.
 
 More specifically, Web accessibility means that people with disabilities can perceive, understand, navigate, and interact with the Web, and that they can
 contribute to the Web. Web accessibility also benefits others, including [older people](https://www.w3.org/WAI/bcase/soc.html#of) with changing abilities
@@ -18,7 +18,7 @@ situations, such as people using a slow Internet connection, people with "tempor
 due to aging. The document [Developing a Web Accessibility Business Case for Your Organization](https://www.w3.org/WAI/bcase/Overview) describes many
 different benefits of Web accessibility, including **benefits for organizations**.
 
-Web accessibility  should also include the people who doesnt have access to internet or computer.
+Web accessibility  should also include the people who doesnt have access to internet or computer for proper reach.
 
 A prominent guideline for web development was introduced by the [World Wide Web Consortium (W3C)](https://www.w3.org/), the [Web Accessibility Initiative](https://www.w3.org/WAI/)
 from which we get the [WAI-ARIA](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/WAI-ARIA_basics), the Accessible Rich Internet Applications Suite.
@@ -26,7 +26,7 @@ Where WAI tackles the sementics of html to more easily nagivate the DOM Tree, AR
 AJAX, more accessible. 
 
 The use of images and graphics on websites can decrease accessibility for those with visual impairments. However, this doesn't mean designers should avoid
-using these visual elements. When used correctly, visual elements can convey the appropriate look and feel to users without disabilities and should be used
+using these visual elements on web. When used correctly, visual elements can convey the appropriate look and feel to users without disabilities and should be used
 to do so. In order to use these elements appropriately, web designers must use alt text to communicate the message of these elements to those who cannot see
 them. Alt text should be short and to the point--generally [no more than five to 15 words](https://www.thoughtco.com/writing-great-alt-text-3466185). If a
 graphic is used to convey information that exceeds the limitations of alt text, that information should also exist as web text in order to be read by screen
