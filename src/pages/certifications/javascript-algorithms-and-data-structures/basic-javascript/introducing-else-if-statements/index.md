@@ -1,4 +1,3 @@
-
 ---
 title: Introducing Else If statements
 ---
