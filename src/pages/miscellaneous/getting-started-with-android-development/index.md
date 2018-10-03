@@ -3,6 +3,7 @@ title: Getting Started with Android Development
 ---
 Today <a href='https://www.android.com/' target='_blank' rel='nofollow'>Android</a> has become the leading Operating System being used in various devices, like mobile phone, tablets, watches, TV, cars and many more. It powers more than a billion devices all over the globe. It is based on the Linux kernel. Android has been the best selling OS on tablets since 2013, and on smartphones it is dominant by any metric.
 
+
 ## Prerequisites
 
 For getting started with Android development, you should already know about a few things:
@@ -18,6 +19,19 @@ At first, make sure you have all the tools in your system. **Please note that th
 *   <a href='http://www.oracle.com/technetwork/java/javase/downloads/index.html' target='_blank' rel='nofollow'>Latest version of the Java JDK</a>: <a href='https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Java-Introduction' target='_blank' rel='nofollow'>Here</a> is a guide to install Java on your computer.
 *   <a href='http://developer.android.com/sdk/index.html' target='_blank' rel='nofollow'>Android Studio</a>: <a href='http://developer.android.com/sdk/installing/index.html' target='_blank' rel='nofollow'>Here</a> is the official guide to install Android studio.
 *   If possible, an Android device. If you don't, it is fine too, since you can run an <a href='http://developer.android.com/tools/devices/emulator.html' target='_blank' rel='nofollow'>emulator</a> to run an Android virtual device on your computer itself.
+
+
+## Kotlin language support
+ Starting with Android Studio 3.0, tooling support for Kotlin is bundled directly into Android Studio. 
+**Kotlin** is a statically-typed programming language that runs on the Java Virtual Machine and also can be compiled to JavaScript source code. Kotlin is designed to interoperate with Java code and is reliant on Java code from the existing Java Class Library, such as the collections framework.
+**Kotlin** is designed to be an industrial-strength object-oriented language, and a "better language" than Java, but still be fully interoperable with Java code, allowing companies to make a gradual migration from Java to Kotlin.
+
+Some of the benefits of Kotlin usage in Android Development:
+* Kotlin requires less code to write.
+* Less crushes occur on Kotlin.
+* Kotlin is a type-safety language.
+* Kotlin saves you some of your precious time.
+
 
 ## Tutorials
 

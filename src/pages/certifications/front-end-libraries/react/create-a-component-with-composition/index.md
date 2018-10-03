@@ -1,6 +1,7 @@
 ---
 title: Create a Component with Composition
 ---
+
 ## Create a Component with Composition
 
 ### Hint 1
@@ -24,6 +25,7 @@ class ParentComponent extends React.Component {
   constructor(props) {
     super(props);
   }
+
   render() {
     return (
       <div>
@@ -32,5 +34,5 @@ class ParentComponent extends React.Component {
       </div>
     );
   }
-};
+}
 ````
