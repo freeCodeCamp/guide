@@ -171,3 +171,8 @@ Full Binary Tree/Strict Binary Tree: A Binary Tree is full or strict if every no
       40    50    100   40
      /  \   /
     8   7  9 
+    
+### MORE INFORMATION 
+<a href="https://www.youtube.com/watch?v=pYT9F8_LFTM"> Binary Search Tree Explained </a>
+Reference:
+mycodeschool. “Data Structures: Binary Search Tree.” YouTube, YouTube, 24 Jan. 2014, www.youtube.com/watch?v=pYT9F8_LFTM.
