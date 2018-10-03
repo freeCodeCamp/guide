@@ -53,3 +53,7 @@ You can use the `git checkout` command to undo changes you've made to a file in 
 ```shell
 git checkout -- FILE-NAME
 ```
+You can also use `.` to undo all changes in your working directory.
+```shell
+git checkout .
+```
