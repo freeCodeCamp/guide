@@ -88,3 +88,6 @@ For more information head to [http://redux.js.org/](http://redux.js.org/)
 ### Resources
 
 - [A course from Dan Abramov, the author of Redux.](https://egghead.io/courses/getting-started-with-redux)
+
+### Articles
+- [Understanding Redux: The World’s Easiest Guide to Beginning Redux](https://medium.freecodecamp.org/understanding-redux-the-worlds-easiest-guide-to-beginning-redux-c695f45546f6)
