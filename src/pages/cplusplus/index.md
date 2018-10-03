@@ -17,7 +17,7 @@ _source: Github_
 
 ```cpp
 #include<iostream>
-using namespace std ;
+using namespace std;
 int main()
 {
     cout << "Hello World" << endl;
@@ -92,7 +92,7 @@ _You have finished coding your first C++ program and have understood most of the
  
  **Feel free to ask any questions on FreeCodeCamp's GitHub page or [FreeCodeCamp's Forum.](https://forum.freecodecamp.org/)**
 
- <a href='https://repl.it/L4k3' target='_blank' rel='nofollow'>Try it yourself ! :) </a>
+ <a href='https://repl.it/L4k3' target='_blank' rel='nofollow'>Try it yourself ! :)</a>
 
 **You may need some software to write and execute C++ code. I recommend using CodeBlocks. There's a download link below :**
 
