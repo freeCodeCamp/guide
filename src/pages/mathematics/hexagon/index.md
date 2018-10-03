@@ -25,4 +25,7 @@ An unnatural example of a hexagonal grid is the New York County Supreme Court bu
 
 <img src=http://www.secretsinplainsight.com/wp-content/uploads/NY-Supreme-Court.jpg alt="NYC Supreme Court Building" height="200" />
 
-
+#### More Information:
+<!-- Please add any articles you think might be helpful to read before writing the article -->
+- [Wikipedia: Hexagon](https://en.wikipedia.org/wiki/Hexagon)
+- [More Examples](http://mathworld.wolfram.com/Hexagon.html)
