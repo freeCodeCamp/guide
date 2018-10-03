@@ -10,7 +10,9 @@ For a personal project you will probably just test as you go, asking others to p
 
 Regardless of how formal or detailed a QA process is, its aim is to identify bugs so they can be resolved before the product is released.
 
-### Agile
+### Methodologies
+
+#### Agile
 
 In an Agile approach to development, the aim is that each cycle of work ('sprint') produces working software that can be added to and improved upon iteratively. This makes QA processes an intrinsic part of the development cycle. By testing software components at each stage of their production you reduce the risk of bugs being present at release.
 
@@ -35,6 +37,10 @@ A testing scenario designed to produce an error state in a feature/application a
 #### Regression Testing
 
 Testing done on a new build to ensure that new functionality has not unintentionally broken previously tested functionality.
+
+#### Smoke Tests
+
+A minimalistic approach to testing intended to ensure basic functionality is working before more in-depth testing takes place. Typically occurs at the beginning of the testing process.
 
 #### Test Case
 
