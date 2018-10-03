@@ -30,6 +30,10 @@ Any deviation from an application's specifications; often referred to as a &ldqu
 
 An unscripted approach to testing, which relies on the tester's unique creativity in an effort to find unknown bugs and identify regressions.
 
+#### Integration Testing
+
+Testing individual components/modules together to ensure they connect and interact well with one another.
+
 #### Negative Path Testing
 
 A testing scenario designed to produce an error state in a feature/application and verify that the error is handled gracefully. An example of this is inputing a series of numbers in the email field in a user registration form and checking to make sure the registration is not accepted until an actual email address is provided.
