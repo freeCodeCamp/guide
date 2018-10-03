@@ -24,6 +24,8 @@ The Solid State Drive (SSD) or Hard Disk Drive (HDD) are used to store informati
   
 ### Memory (RAM)
 Random-access memory (RAM) is a form of computer data storage which stores data and machine code currently being used. A random-access memory device allows data items to be read or written in almost the same amount of time irrespective of the physical location of data inside the memory.
+
+DDR SDRAM is a double data rate synchronous dynamic random-access memory class of memory integrated circuits used in computers. DDR SDRAM, also called DDR1 SDRAM, has been superseded by DDR2 SDRAM, DDR3 SDRAM and DDR4 SDRAM
   
 ![Ram](https://images10.newegg.com/NeweggImage/ProductImage/20-232-476-S01.jpg)  
 
@@ -39,7 +41,7 @@ A power supply is an electronic device that supplies electric energy to an elect
  
 ### Motherboard
 Motherboard holds and allows communication between many of the crucial electronic components of a system, such as the central processing unit (CPU) and memory, and provides connectors for other peripherals.
-  
+Motherboard specifically refers to a PCB with expansion capability and as the name suggests, this board is often referred to as the "mother" of all components attached to it
 ![Motherboard](https://fthmb.tqn.com/mmTUdCN6UBGIKlkEggGq4fpV-3k=/768x0/filters:no_upscale()/gig-57c732ed3df78c71b60e7aa5.jpg)  
   
 ### Input and Output devices (eg. Keyboard and Mouse)
