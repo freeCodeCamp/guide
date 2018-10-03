@@ -27,7 +27,7 @@ The above snippet shows the syntax for a basic `switch` statement. In this examp
 The `default` condition is a condition that will be executed if none of the other cases are true.
 
 
-Note: One really important point to note here is that in the snippet above `case 1:` and `case 2:`,it might seem to some beginners that these represent some kind of order but here 1 and 2 are nothing but the answers which the `(expression)` may get evaluated to. So therefore instead of 1 and 2 it can be anything which the `(expression)` may evaluate to and can be tested against.
+Note: One really important point to note here is that in the snippet above, `case 1:` and `case 2:` might seem to represent some kind of order, but `1` and `2` are nothing but the answers which the `(expression)` may get evaluated to. So therefore instead of 1 and 2 it can be anything which the `(expression)` may evaluate to and can be tested against.
 
 For example:
 ```javascript
@@ -45,7 +45,7 @@ switch(expression){
 }
 ```
 
-Note: `(expressions)` can be of type strings or numbers.
+Note: `expression` in the snippet above can be a string or number.
 
 
 ### Break
