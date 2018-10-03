@@ -1,0 +1,10 @@
+In terminal, follow this steps:
+
+pip install dash==0.28.1 
+To install core dash backend
+
+pip install dash-html-components==0.13.2 
+To install HTML components
+
+pip install dash-core-components==0.30.2 
+To install Supercharged components
