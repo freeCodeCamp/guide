@@ -31,6 +31,7 @@ title: Python Resources
 *   <a href='http://www.marinamele.com/taskbuster-django-tutorial' target='_blank' rel='nofollow'>TaskBuster Django Tutorial</a> - Build a Django project from scratch
 *   <a href='http://www.tutorialspoint.com/python/'>Tutorials Point - Python</a>
 *   <a href='https://pythonprogramming.net' target='_blank' rel='nofollow'> Set of Starter Projects with Videos </a> - From the basics onward.
+*   <a href="https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world" target='_blank' rel='nofollow'>The Flask Mega Tutorial (Miguel Grinberg)</a>
 
 ## Challenges
 
@@ -45,6 +46,9 @@ title: Python Resources
 *   <a href='https://checkio.org' target='_blank' rel='nofollow'>CheckiO</a> - the game for coders
 *   <a href='http://www.codeabbey.com/' target='_blank' rel='nofollow'>CodeAbbey</a> 
 *   <a href='https://hackerrank.com/domains/python/py-introduction'>HackerRank - Python Challenges</a>
+*   <a href='https://codesignal.com/' target='_blank' rel='nofollow'>CodeSignal - Prepare for interviews & further your programming skills</a>
+*   <a href="https://www.codewars.com/" target='_blank' rel='nofollow'>CodeWars</a>
+*   <a href="https://www.codechef.com/" target='_blank' rel='nofollow'>CodeChef</a>
 
 ## Community
 
@@ -54,6 +58,7 @@ title: Python Resources
 *   <a href='http://planetpython.org/' target='_blank' rel='nofollow'>Planet Python</a>
 *   <a href='http://www.pyladies.com/' target='_blank' rel='nofollow'>PyLadies</a>
 *   <a href='https://djangogirls.org/' target='_blank' rel='nofollow'>DjangoGirls</a>
+*   <a href="https://python-forum.io/" target='_blank' rel='nofollow'>Python-forum.io</a>
 
 ## Tools:
 
