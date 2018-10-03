@@ -7,7 +7,7 @@ The `split()` function separates an original string into substrings, based on a 
 
 The output of the `split()` function is an `Array` of strings, which represent the separated substrings from the original string.
 
-The ogininal string is not altered by the `split()` function.
+The original string is not altered by the `split()` function.
 
 Examples:
 
