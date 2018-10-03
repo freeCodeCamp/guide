@@ -6,7 +6,8 @@ title: C++
 ## What is C++  ?
 
 * C++ is a general purpose programming language which has been used since the 1990's
-* It was designed by Bjarne Stroustrup under with the name "C with classes".
+* It was designed by Bjarne Stroustrup and is an expansion of C language.
+* In the beginning , the language was being called "C with classes" as it contained properties of c language along with "classes ".
 * It is a version of C that includes Object-Oriented elements, including classes and functions.
 
 * It is considered one of the biggest programming languages, as you can see in the following image:
@@ -41,7 +42,7 @@ Now, let's break down the code:
 using namespace std;
 ```
 
-* The first line tells the computer to use the "iostream" header file for this specific program . A header file is a seperate file with prewritten C++ code. There are many other header files which are requireed for a specific program to run properly. Some of them are : math , vector and string. Header files are generally represented by a ".h" extension (you don't need to add .h when including C++ standard library files)
+* The first line tells the computer to use the "iostream" header file for this specific program . A header file is a seperate file with prewritten C++ code. There are many other header files which are required for a specific program to run properly. Some of them are : math , vector and string. Header files contain definitions of functions and variables.  Header files are generally represented by a ".h" extension (you don't need to add .h when including C++ standard library files)
 * `iostream` stands for input-output stream . The "iostream" file contains code for allowing the computer to take input and generate an output, using the C++ language.
 * The second line tells the computer to use the standard namespace which includes features of standard C++. You could write this program without this line, but you'd have to use `std::cout` instead of `cout` on line 4. It makes the code more readable and our lives as programmers easier.
 
