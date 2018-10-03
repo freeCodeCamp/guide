@@ -3,9 +3,14 @@ title: Redux Thunk
 ---
 ## Redux Thunk
 
-Redux Thunk is middleware that allows you to return functions, rather than just actions, within Redux. This allows for delayed actions, including working with promises.
+Redux Thunk is middleware that allows you to return functions, rather than just actions, within Redux<sup>1</sup>. This allows for delayed actions, including working with promises.
 
-```
+The reason we use this middleware is for the reason that not all the actions we perform will be synchronus and some are bound to be non synchronous, like using axios to send a get request. This will take a bit of time and simple redux does not take into to account this behavious. So, Redux-thunk comes to the rescue by allowing us to dispatch actions asynchronously, so that we can allow these promises to get resolved.
+
+
+Example 1:-
+
+```javascript
 const INCREMENT_COUNTER = 'INCREMENT_COUNTER';
 
 function increment() {
@@ -23,6 +28,8 @@ function incrementAsync() {
   };
 }
 ```
+
+Example 2:-
 
 ```
 const GET_CURRENT_USER = 'GET_CURRENT_USER';
