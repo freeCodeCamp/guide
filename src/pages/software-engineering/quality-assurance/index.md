@@ -16,6 +16,18 @@ In an Agile approach to development, the aim is that each cycle of work ('sprint
 
 ### Terminology
 
+#### Black Box
+
+These test do not look inside the system under test, but treat it as 'closed' in the same way that the end user will experience it.
+
+#### Defect
+
+Any deviation from an application's specifications; often referred to as a &ldquo;bug&rdquo;.
+
+#### Negative Path Testing
+
+A testing scenario designed to produce an error state in a feature/application and verify that the error is handled gracefully. An example of this is inputing a series of numbers in the email field in a user registration form and checking to make sure the registration is not accepted until an actual email address is provided.
+
 #### Test Case
 
 Specified preconditions, steps, and expected results referred to by a QA tester/engineer to determine whether or not a feature performs its task as expected.
@@ -31,10 +43,6 @@ Main categories are
 * **Unit tests** (individual units of code do what they should)
 * **Integration tests** (units/components interact with each other properly)
 * **Regression tests** (re-applying tests at later stages of development to ensure they still work)
-
-#### Black Box
-
-These test do not look inside the system under test, but treat it as 'closed' in the same way that the end user will experience it.
 
 ### Other Resources
 
