@@ -18,9 +18,9 @@ A common thing a developer could do in photoshop, is modify the pixel size and r
 Photoshop was created in 1988 and is the industry standard for various image manipulation tasks such as:
 
 * Photo manipulation such as cropping images, quickly changing colors
-* Designing [mock-ups](https://en.wikipedia.org/wiki/Mockup) for websites or apps
+* Designing <a href='https://en.wikipedia.org/wiki/Mockup' target='_blank' rel='nofollow'>mock-ups</a> for websites or apps
 * Designing logos<sup>1</sup>
-* Creating [style tiles](http://styletil.es/)
+* Creating <a href='http://styletil.es/' target='_blank' rel='nofollow'>style tiles</a>
 * Designing icons
 
 Photoshop is used by web designers, mobile app designers, UX designers, and photographers, among other industry professionals.
@@ -43,11 +43,11 @@ Choose Photoshop when you need to work with a combination of media formats (phot
 
 ### Installation
 
-Adobe Photoshop is part of the Creative Cloud suite of programs. You can install a free, 7-day trial of Photoshop [via the Adobe website](https://www.adobe.com/products/photoshop/free-trial-download.html). After the trial, you will need to select a price option that works for you.
+Adobe Photoshop is part of the Creative Cloud suite of programs. You can install a free, 7-day trial of Photoshop <a href='https://www.adobe.com/products/photoshop/free-trial-download.html' target='_blank' rel='nofollow'>via the Adobe website</a>. After the trial, you will need to select a price option that works for you.
 
 If all you need is Photoshop, you can choose the Single Application option, which is $19.99/month, and it includes access to TypeKit (a good source for fonts) and 20GB of storage.
 
-Students and teachers can get an [educational discount here](http://www.adobe-students.com/creativecloud/buy/students.html).
+Students and teachers can get an <a href='http://www.adobe-students.com/creativecloud/buy/students.html' target='_blank' rel='nofollow'>educational discount here</a>.
 
 ### Basics
 
@@ -84,7 +84,7 @@ The canvas is the workspace for your project. You can move elements around the c
 
 1. Move tool: move elements around the canvas.
 
-2. Selection tool: choose from a rectangular or circular selection.
+2. Marquee tool: mark and edit a rectangular or circular selection on a layer.
 
 3. Lasso tool: free-form selection tool you can use to draw a selection area.
 
@@ -132,11 +132,15 @@ A project is made up of multiple layers. Each element on the project is its own 
 
 In the example below, the "circle" layer is on top of the "A" layer on the layers palette. This means the circle is rendered on top of the letter "A" on the canvas.
 
+Every time you want to prevent a layer from casual adjustments you can lock it by selecting it from the layers window and pressing the lock button.
+
+You can also give a title to each layer. This is a good practice in particular when you work with complex compositions. Simply double-click on the layer title in the layers window to re-name it. Which is a good segway into using folders, which you should also do for good practices in big projects.
+
 ![Layers palette](https://raw.githubusercontent.com/cecyc/textures/master/layers.png)
 
 #### Importing fonts
 
-A Photoshop Creative Cloud license comes with a free [Typekit](https://typekit.com/) account. Typekit is a font foundry where you can find fonts for digital or print use. 
+A Photoshop Creative Cloud license comes with a free <a href='https://typekit.com/' target='_blank' rel='nofollow'>Typekit</a> account. Typekit is a font foundry where you can find fonts for digital or print use. 
 
 To add fonts from Typekit: 
 
@@ -156,20 +160,58 @@ You can then select `Quick export to PNG`, which in most cases is fine for web u
 
 If you need another format, select `File` > `Export` > `Export as...`. There, you can select from `PNG`, `JPG`, or `GIF`.
 
+### Photoshop Keyboard Shortcuts
+
+| Tools Shortcuts          | MAC  | WIN  |
+|--------------------------|------|------|
+|  Move tool               |   V  |   V  |  
+| Rectangular Marquee tool |   M  |   M  |   
+| Elliptical Marquee tool  |   M  |   M  |
+| Lasso tool               |   L  |   L  |
+| Polygonal Lasso tool     |   L  |   L  |
+| Magnetic Lasso tool      |   L  |   L  |
+| Magic Wand tool          |   W  |   W  |
+| Quick Selection tool     |   W  |   W  |
+| Crop tool                |   C  |   C  |
+| Slice tool               |   C  |   C  |
+| Slice Select tool        |   C  |   C  |
+| Eyedropper tool          |   I  |   I  |
+| Color Sampler tool       |   I  |   I  |
+| Ruler tool               |   I  |   I  |
+| Note tool                |   I  |   I  |
+| Count tool               |   I  |   I  |
+| Spot Healing Brush tool  |   J  |   J  |
+| Healing Brush tool       |   J  |   J  |
+| Patch tool               |   J  |   J  |
+| Red Eye tool             |   J  |   J  |
+| Brush tool               |   B  |   B  |
+| Pencil tool              |   B  |   B  |
+| Color Replacement tool   |   B  |   B  |
+| Mixer Brush tool         |   B  |   B  |
+| Clone Stamp tool         |   S  |   S  |
+| Pattern Stamp tool       |   S  |   S  |
+
 ### Alternatives to Photoshop
 
-* [Pixelmator](http://www.pixelmator.com/mac/) (Mac only)
-* [GIMP](https://www.gimp.org/) (Mac and PC)
+* <a href='http://www.pixelmator.com/mac/' target='_blank' rel='nofollow'>Pixelmator</a> (Mac only)
+* <a href='https://www.gimp.org/' target='_blank' rel='nofollow'>GIMP</a> (Mac and PC)
+
+### Online Alternatives to Photoshop
+
+* [Pixlr](https://pixlr.com/)
+* [Photopea](https://www.photopea.com/) (The only online tool to edit .psd files)
 
 #### Footnotes
 
 1. While you can design logos in Photoshop, most designers chose to use Illustrator for logos, as Illustrator creates vector images that can make it easier to resize logos for multiple uses, such as small logos for business cards, or large logos for banner signs.
+2. You can create your own brushes in Photoshop, using Brush Preset option. You can also import brushes. This allows you to not limit yourself to given default brushes. 
+3. It is easier and better to use Photoshop in case you are making artworks using graphic tablets, since you have multiple options for brushes, something which isn't there in Illustrator.
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-* [Official Website](https://www.adobe.com/products/photoshop.html)
-* [Raster vs. Vector graphics](https://www.psprint.com/resources/difference-between-raster-vector/)
-* [Learn and Support](https://helpx.adobe.com/support/photoshop.html?promoid=5NHJ8FD2&mv=other)
+* <a href='https://www.adobe.com/products/photoshop.html' target='_blank' rel='nofollow'>Official Website</a>
+* <a href='https://www.psprint.com/resources/difference-between-raster-vector/' target='_blank' rel='nofollow'>Raster vs. Vector graphics</a>
+* <a href='https://helpx.adobe.com/support/photoshop.html?promoid=5NHJ8FD2&mv=other' target='_blank' rel='nofollow'>Learn and Support</a>
 
 Alternatives: Gimp (available on Linux and free)
 
