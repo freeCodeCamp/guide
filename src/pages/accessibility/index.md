@@ -30,7 +30,7 @@ using these visual elements. When used correctly, visual elements can convey the
 to do so. In order to use these elements appropriately, web designers must use alt text to communicate the message of these elements to those who cannot see
 them. Alt text should be short and to the point--generally [no more than five to 15 words](https://www.thoughtco.com/writing-great-alt-text-3466185). If a
 graphic is used to convey information that exceeds the limitations of alt text, that information should also exist as web text in order to be read by screen
-readers. [Learn more about alt text](https://webaim.org/techniques/alttext/).
+readers on the web. [Learn more about alt text](https://webaim.org/techniques/alttext/).
 
 Copyright &copy; 2005 <a href="http://www.w3.org" shape="rect">World Wide Web Consortium</a>, (<a href="http://www.csail.mit.edu/" shape="rect">MIT</a>, <a href="http://www.ercim.org" shape="rect">ERCIM</a>, <a href="http://www.keio.ac.jp" shape="rect">Keio</a>,<a href="http://ev.buaa.edu.cn" shape="rect">Beihang</a>). http://www.w3.org/Consortium/Legal/2015/doc-license
 
