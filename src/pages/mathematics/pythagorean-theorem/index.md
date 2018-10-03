@@ -15,3 +15,5 @@ Whenever you are given two sides of a right triangle, you can calculate the thir
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
+- [Wikipedia: Pythagorean theorem](https://en.wikipedia.org/wiki/Pythagorean_theorem)
+- [More Examples](http://mathworld.wolfram.com/PythagoreanTheorem.html)
