@@ -34,3 +34,14 @@ Django (/ˈdʒæŋɡoʊ/ JANG-goh) is a free and open-source web framework, writ
 Django's primary goal is to ease the creation of complex, database-driven websites. Django emphasizes reusability and "pluggability" of components, rapid development, and the principle of don't repeat yourself. Python is used throughout, even for settings files and data models. Django also provides an optional administrative create, read, update and delete interface that is generated dynamically through introspection and configured via admin models.
 
 Some well-known sites that use Django include the Public Broadcasting Service, Instagram, Mozilla, The Washington Times, Disqus, Bitbucket, and Nextdoor. It was used on Pinterest, but later the site moved to a framework built over Flask.
+
+
+### Flask
+
+Flask was made in 2004 by an international group of Pythonists called 'Pocoo', as an April Fools joke which was later made into a 'real' thing. According to Wikpedia, it was the most used Python web framework on Github. It is a free and open-source micro-framework written in Python ([view on GitHub](https://github.com/freeCodeCamp/guide/tree/master/src/pages/javascript)). As the Wikipedia states, 
+
+> it [Flask] is classified as a microframework because it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions.
+
+Flask is very much a 'batteries not included' framework, compared to something like Django. This means you need to install modules such as user authentication, forms, and other things yourself. It's not to say that Flask isn't made for those things, simply that they aren't included and those modules are made by the community. Flask also has extensive, detailed documentation available at http://flask.pocoo.org/docs/. It provides simplicity and more control over smaller things. You won't have functionality that isn't being used, as you can choose what is added and what isn't. 
+
+Sites that use Flask include Pinterest! (which moved from Django), Twilio's private API's (they even made an extension called Flask-RESTful for API's), and Netflix (which uses ScriptFlask, a tool based on Flask)
