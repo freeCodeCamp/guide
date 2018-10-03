@@ -1,86 +1,96 @@
----
-title: Methods
----
-# Methods
-The most recognizable method in Java is probably `public static void main(String[]args)` where `public` means that users have access to the method, `static` means that the method is based on a "class" rather than an "instance," `void` means that nothing will be returned from the method to another (higher level) method, and `main` which is the name of this particular method.
+# METHODS
 
-`getName()` and `getManufacturerName()` are two "Getter" methods we have used here. Generally, methods in Java consist of these parts - 
+* Methods are used to provide the business logic to the program.
+* Inside the class it is possible to declare any number of methods based on the requirement of a developer.
+* As a software developer while writing method we have to fallow the coding standards like the method name starts with lower case letters if the method contains two words every inner word also starts uppercase letter.
+* It will improve the reusability of the code. By using methods we can optimize the code. 
 
-* Access Modifer (Optional) - `public`, `private`, or `protected`. Defaults to package private if omitted
-* Return Type - This is required, it denotes what value the method returns, or `void` if nothing is returned
-* Method Name - follows camelCase convention
-* Parameter List - List of parameters with their name and type, empty if no parameters are accepted
-* Method body surrounded by `{ }`
+#### Syntax
 
-Methods can also optionally have the `static` keyword, meaning it is associated with the class itself, rather than an instance of the class, ex - `public static void main()`.
+<modifiers-list> return-type methodName(parameterList)throws Exception
+    
+#### Method Signature
+The name of the method and parameter list is called Method Signature. Return type and modifiers list not part of a method signature. 
 
-Notice, unlike JavaScript, we **have** to define the return type of any method we write, otherwise it will fail at compile time. If you do not want a method to return anything, use `void` return type.
-
-Each method has a signature, which is the combination of the data type, the name, and the number of arguments the method takes. In `public static void main` the method does not have a specified data type and instead uses `void` to declare that no data is returned. In a method named `public static double ave(double val, double val)` the data type is "double" (0.0), the name is "ave" (average) and the method takes 2 arguments. Each method **must** have a unique signature.
+#### Method Declaration
 
 ```java
-public class Car {
-    private String name;
-    private String manufacturersName;
-
-    public void changeName() {
-        name = "Tesla";
-    }
-    
-    public String getName(){
-        return name;
-    }
-    
-    public String getManufacurername(){
-        return manufacturersName;
-    }
-    
-}
-```
-Parameters can be passed into methods. Parameters are declared just after the name of the method, inside brackets.
-Syntax for parameter declaration is [Data Type] [Name].
-```java
-public class Car {
-    private String name;
-
-    public void changeName(String newName) {
-        name = newName;
-    }
+void m1(){
+    //statements
+    //statements
 }
 ```
 
-As with any other language, methods (or functions, if you are here from JS world) are used often for their modularity and reusability.
+* There are two types of the methods
 
-Methods often serve many purposes such as updating information in an object or providing data back to the caller. Here are some examples.
+1- Instance Method
+2- Static Method
+
+Syntax:
+
+1- Instance method
 
 ```java
-public class Car {
-    private int numberOfWheels;
-    
-    public void setNumberOfWheels(int newNumberOfWheels) {
-        numberOfWheels = newNumberOfWheels;
-    }
-    
-    public int getNumberOfWheels() {
-        return numberOfWheels;
-    }
+void m1(){
+    //logic
 }
 ```
 
-In the case of `getNumberOfWheels()` the return type is `int` which is a whole number. The keyword `return` tells java to pass back the value of the instance variable `numberOfWheels`. `setNumberOfWheels(int newNumberOfWheels)` however has no return type as it is a setter method as previously seen. In this case though it takes in an argument of type `int` and makes the instance varible `numberOfWheels` equal to `newNumberOfWheels`.
-
-There is also a special method called a constructor that allows for data to be set or operations to be performed when the class is instantiated. This constructor has no return type.
+2- Static method
 
 ```java
-public class Car {
-    private String model;
-    private int numberOfWheels;
-    
-    public Car(String model, int numberOfWheels) {
-        this.model = model;
-        this.numberOfWheels = numberOfWheels;
-    }
+static void m1(){
+    //logic
 }
 ```
 
-The `Car` class and the `Car(String model, int numberOfWheels)` method have to have the same name in order for java to know that it is the constructor. Now anytime you instantiate a new `Car` instance with the `new` keyword you will need to call this constructor and pass in the needed data.
+Examples:-
+
+Instance method 
+
+```java
+class Sample{
+
+void m1(){
+    System.out.println("m1 method");
+}
+void m2(){
+    System.out.println("m2 method");
+}
+
+public static void main(String args[]){
+    Sample obj = new Sample(); // instance method can be called by creating an object
+    obj.m1(); // m1 method
+    obj.m2(); // m2 method
+}
+
+}
+```
+
+Static method
+
+```java
+class Sample{
+
+static void m1(){
+    System.out.println("m1 method");
+}
+static void m2(){
+    System.out.println("m2 method");
+}
+public static void main(String args[]){
+    
+    //  No need to create the object as both methods are static 
+    
+    m1(); // m1 method
+    m2(); // m2 method
+    
+    //  Can also be called with the help of class name
+    
+    Sample.m1(); // m1 method
+    Sample.m2(); // m2 method
+    
+    //  Can also be called by creating the object similar to instance methods example
+}
+}
+```
