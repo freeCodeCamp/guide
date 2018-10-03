@@ -5,12 +5,14 @@ title: Visual Hierarchy
 
 Visual hierarchy is the organization and presentation of content. You can use visual hierarchy to focus users' attention and show where the most important information is.
 
+What you need to remember while creating the visual hierarchy of your content is that it's all relative. The parts you want to highlight should stand out from other parts of your content.
+
 You can achieve visual hierarchy in many ways, including (but not limited to):
 
 * Size
 * Color and contrast
 * Headings and subheadings
-* Fonts
+* Typography
 * White or blank space
 * Texture
 * Position
