@@ -60,5 +60,5 @@ int main () {
 ## Outuput
 ```
 -> a is not less than 20!
--> Value of a is : 100
+-> Value of a is : 10
 ```
