@@ -16,16 +16,16 @@ There are mainly two components in React:
 * We can use props in the functional components.
 * If we do not require state inside a component then we should prefer `functional components`.
 
-```
-import React from 'react';
+```js
+import React from "react";
 
-const Person = (props) => {
+const Person = props => {
   return (
-  <div>
-  <h1>Hello, {props.name}</h1>
-  </div>
+    <div>
+      <h1>Hello, {props.name}</h1>
+    </div>
   );
-}
+};
 
 export default Person;
 ```
@@ -36,17 +36,17 @@ export default Person;
 * Since classes can have their methods so we can use `Lifecycle methods` inside them.
 * Class components also contain the state of the application.
 
-```
-import React,{ Component } from 'react';
+```js
+import React, { Component } from "react";
 
 class Person extends Component {
-  render(){
-  return (
-  <div>
-  <h1>Hello Person</h1>
-  </div>
-  );
-}
+  render() {
+    return (
+      <div>
+        <h1>Hello Person</h1>
+      </div>
+    );
+  }
 }
 
 export default Person;
