@@ -36,7 +36,7 @@ const greet = <h1>Hello World!</h1>;
 We can use JavaScript variables within braces.
 
 ```javascript
-const who = "Quincy Larson"
+const who = "Quincy Larson";
 const greet = <h1>Hello {who}!</h1>;
 ```
 
@@ -44,7 +44,7 @@ We can also call other JavaScript functions within braces.
 
 ```javascript
 function who() {
-  return "World"
+  return "World";
 }
 const greet = <h1>Hello {who()}!</h1>;
 ```
@@ -73,4 +73,4 @@ const tags = (
 
 ### More Information
 
-<a href='https://reactjs.org/docs/introducing-jsx.html' target='_blank' rel='nofollow'>Introducing JSX</a>
+- [Introducing JSX](https://reactjs.org/docs/introducing-jsx.html)
