@@ -51,7 +51,7 @@ Then add a `<script>` to your `index.html`:
 <script src="/bower_components/angular/angular.js"></script>
 ```
 
-For more information regarding the documentation, refer to the offical site of [AngularJS](https://docs.angularjs.org/api) 
+For more information regarding the documentation, refer to the official site of [AngularJS](https://docs.angularjs.org/api) 
 
 You can install **Angular 2.x** and other versions by following the steps from the official documentation of [Angular](https://angular.io/guide/quickstart)
 
