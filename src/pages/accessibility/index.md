@@ -2,7 +2,7 @@
 title: Accessibility
 ---
 ## Accessibility
-<strong>Web accessibility means that people with disabilities can use the Web</strong>.
+<strong>Web accessibility essentially means that people with disabilities can use the Web</strong>.
 
 More specifically, Web accessibility means that people with disabilities can perceive, understand, navigate, and interact with the Web, and that they can
 contribute to the Web. Web accessibility also benefits others, including [older people](https://www.w3.org/WAI/bcase/soc.html#of) with changing abilities
@@ -18,7 +18,7 @@ situations, such as people using a slow Internet connection, people with "tempor
 due to aging. The document [Developing a Web Accessibility Business Case for Your Organization](https://www.w3.org/WAI/bcase/Overview) describes many
 different benefits of Web accessibility, including **benefits for organizations**.
 
-Web accessibility  should also include the people who doesnt have access to internet or computer.
+Web accessibility  should also include the people who doesnt have access to internet or computer for proper reach.
 
 A prominent guideline for web development was introduced by the [World Wide Web Consortium (W3C)](https://www.w3.org/), the [Web Accessibility Initiative](https://www.w3.org/WAI/)
 from which we get the [WAI-ARIA](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/WAI-ARIA_basics), the Accessible Rich Internet Applications Suite.
