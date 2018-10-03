@@ -3,8 +3,21 @@ title: Import a Google Font
 ---
 ## Import a Google Font
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/responsive-web-design/basic-css/import-a-google-font/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+````CSS
+ <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+<style>
+  .red-text {
+    color: red;
+  }
+  h2 {
+    font-family: Lobster;
+  }
+  p {
+    font-size: 16px;
+    font-family: monospace;
+  }
+</style>
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+
+
