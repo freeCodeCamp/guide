@@ -179,7 +179,7 @@ This has the effect of putting a pause in your code. In this case, the code reac
  
  
 ## Using loops for designing patterns.
-Example 1: Program to print half pyramid using *
+#### Example 1: Program to print half pyramid using *
 
 ```
 *
@@ -189,7 +189,7 @@ Example 1: Program to print half pyramid using *
 * * * * *
 ```
 
-Source Code
+**Source Code**
 
 ```c
 #include <stdio.h>
@@ -213,7 +213,7 @@ int main()
 }
 ```
 
-Example 2: Program to print half pyramid a using numbers
+#### Example 2: Program to print half pyramid a using numbers
 
 ```
 1
@@ -224,7 +224,7 @@ Example 2: Program to print half pyramid a using numbers
 ```
 
 
-Source Code
+**Source Code**
 
 ```c
 #include <stdio.h>
@@ -248,7 +248,7 @@ int main()
 }
 ```
 
-Example 3: Program to print half pyramid using alphabets
+#### Example 3: Program to print half pyramid using alphabets
 
 ```
 A
@@ -258,7 +258,7 @@ D D D D
 E E E E E
 ```
 
-Source Code
+**Source Code**
 
 ```c
 #include <stdio.h>
@@ -287,7 +287,7 @@ int main()
 
 Programs to print inverted half pyramid using * and numbers
 
-Example 4: Inverted half pyramid using *
+#### Example 4: Inverted half pyramid using *
 
 ```
 * * * * *
@@ -297,7 +297,7 @@ Example 4: Inverted half pyramid using *
 *
 ```
 
-Source Code
+**Source Code**
 
 ```c
 #include <stdio.h>
@@ -322,7 +322,7 @@ int main()
 }
 ```
 
-Example 5: Inverted half pyramid using numbers
+#### Example 5: Inverted half pyramid using numbers
 
 ```
 1 2 3 4 5
@@ -332,7 +332,7 @@ Example 5: Inverted half pyramid using numbers
 1
 ```
 
-Source Code
+**Source Code**
 
 ```c
 #include <stdio.h>
@@ -357,7 +357,7 @@ int main()
 }
 ```
 
-Example 6: Program to print full pyramid using *
+#### Example 6: Program to print full pyramid using *
 
 ```
         *
@@ -367,7 +367,7 @@ Example 6: Program to print full pyramid using *
 * * * * * * * * *
 ```
 
-Source Code
+**Source Code**
 
 ```c
 #include <stdio.h>
@@ -399,7 +399,7 @@ int main()
 }
 ```
 
-Example 7: Program to print pyramid using numbers
+#### Example 7: Program to print pyramid using numbers
 
 ```
         1
@@ -409,7 +409,7 @@ Example 7: Program to print pyramid using numbers
 5 6 7 8 9 8 7 6 5
 ```
 
-Source Code
+**Source Code**
 
 ```c
 #include <stdio.h>
@@ -451,7 +451,7 @@ int main()
 }
 ```
 
-Example 8: Inverted full pyramid using *
+#### Example 8: Inverted full pyramid using *
 
 ```
 * * * * * * * * *
@@ -461,7 +461,7 @@ Example 8: Inverted full pyramid using *
         *
 ```
 
-Source Code
+**Source Code**
 
 ```c
 #include<stdio.h>
@@ -491,7 +491,7 @@ int main()
 }
 ```
 
-Example 9: Print Pascal's triangle
+#### Example 9: Print Pascal's triangle
 
 ```
            1
@@ -502,7 +502,7 @@ Example 9: Print Pascal's triangle
  1  5   10   10  5   1
 ```
 
-Source Code
+**Source Code**
 
 ```c
 #include <stdio.h>
@@ -535,7 +535,7 @@ int main()
 }
 ```
 
-Example 10: Print Floyd's Triangle.
+#### Example 10: Print Floyd's Triangle.
 
 ```
 1
@@ -544,7 +544,7 @@ Example 10: Print Floyd's Triangle.
 7 8 9 10
 ```
 
-Source Code
+**Source Code**
 
 ```c
 #include <stdio.h>
