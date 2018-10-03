@@ -3,11 +3,10 @@ title: Apache
 ---
 ## Apache
 
-This is a stub. <a href='https://github.com/freeCodeCamp/guide/blob/master/src/pages/apache/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+![Apache Logo](https://i.imgur.com/WsBMbIt.png)
 
-<a href='https://github.com/freeCodeCamp/guide/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The Apache HTTP Server Project is an effort to develop and maintain an open-source HTTP server for modern operating systems including UNIX and Windows. The goal of this project is to provide a secure, efficient and extensible server that provides HTTP services in sync with the current HTTP standards.<sup>1</sup>
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### Sources
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+1. [Group, Documentation. “Essentials¶.” Welcome! - The Apache HTTP Server Project](httpd.apache.org/)
