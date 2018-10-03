@@ -5,7 +5,7 @@ title: Use grid-column to Control Spacing
 
 ### Hint
 
-```` grid-column ```` is used to make a member of the div occupy as many grid spaces as the user wants.
+```` grid-column ```` is used to make a member of the div occupy as many grid spaces(columns) as the user wants.
 
 ### Solution
 
