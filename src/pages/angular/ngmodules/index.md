@@ -8,11 +8,11 @@ title: NgModules
 
 Angular applications begin from the root NgModule. Angular manages an application’s dependencies through its module system comprised of NgModules. Alongside plain JavaScript modules, NgModules ensure code modularity and encapsulation.
 
-Modules also provide a top-most level of organizing code. Each NgModule sections off its own chunk of code as the root. This module provides top-to-bottom encapsulation for its code. The enitre block of code can then export to any other module. In this sense, NgModules act like gatekeepers to their own code blocks.
+Modules also provide a top-most level of organizing code. Each NgModule sections off its own chunk of code as the root. This module provides top-to-bottom encapsulation for its code. The entire block of code can then export to any other module. In this sense, NgModules act like gatekeepers to their own code blocks.
 
 Angular's documented utilities come from NgModules authored by Angular. No utility is available unless the NgModule that declares it gets included into the root. These utilities must also export from their host module so that importers can use them. This form of encapsulation empowers the developer to produce his or her own NgModules within the same file-system.
 
-Plus, it makes sense to know why the Angular CLI (command-line inteface) imports `BrowserModule` from `@angular/core`. This happens whenever a new app generates using the CLI command: `ng new [name-of-app]`.
+Plus, it makes sense to know why the Angular CLI (command-line interface) imports `BrowserModule` from `@angular/core`. This happens whenever a new app generates using the CLI command: `ng new [name-of-app]`.
 
 Understanding the point of the implementation may suffice in most cases. However, understanding how the implementation wires itself to the root is even better. It all happens automatically by importing `BrowserModule` into the root.
 
@@ -40,7 +40,7 @@ The CLI generated root NgModule includes the following metadata fields. These fi
 
 ##### Declarations
 
-The declarations array includes all components, directives, or pipes hosted by an NgModule. They are private to the module unless explicitly exported inside its metadata. Given this use-case, components, directives, and pipes are nicknamed ‘declarables’. An NgModule must declarate a declarable uniquely. The declarable cannot declare twice in separate NgModules. An error gets thrown otherwise. See the below example.
+The declarations array includes all components, directives, or pipes hosted by an NgModule. They are private to the module unless explicitly exported inside its metadata. Given this use-case, components, directives, and pipes are nicknamed ‘declarables’. An NgModule must declare a declarable uniquely. The declarable cannot declare twice in separate NgModules. An error gets thrown otherwise. See the below example.
 
 ```typescript
 import { NgModule } from '@angular/core';
@@ -278,7 +278,7 @@ The `HttpClient` implementation includes into the `HttpClientModule` providers a
 
 Chances are you may have already taken advantage of Angular’s NgModules. Angular makes it very easy to throw a module into the root NgModule’s imports array. Utilities are often exported from the imported module's metadata. Hence why its utilities suddenly become available upon importation within the root NgModule.
 
-NgModules work closely with plain JavaScript modules. One provides token while one uses them for configuration. Their teamworks results in a robust, modular system unique to the Angular framework. It provides a new layer of organization above all other schematics excluding the application.
+NgModules work closely with plain JavaScript modules. One provides token while one uses them for configuration. Their teamwork results in a robust, modular system unique to the Angular framework. It provides a new layer of organization above all other schematics excluding the application.
 
 Hopefully this article furthers your understanding of NgModules. Angular can leverage this system even further for some of the more exotic use-cases. This article covers the basics so that you can learn more using the below links.
 
