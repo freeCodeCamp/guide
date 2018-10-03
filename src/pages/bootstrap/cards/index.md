@@ -76,3 +76,6 @@ The structure of the card can be enhanced by the addition of a header and a foot
   <div class="card-img-overlay">Overlay content</div>
 </div>
 ```
+#### More Information: 
+* <a href='https://getbootstrap.com/docs/4.1/components/card/' target='_blank' rel='nofollow'>Bootstrap Cards documentation</a>
+* [Bootstrap Get Started](/articles/bootstrap/bootstrap-get-started)
