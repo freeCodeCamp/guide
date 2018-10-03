@@ -4,7 +4,7 @@ title: Switch Statement
 
 # Switch Statement
 
-The Switch Statement switches program flow through a specific code path based upon the value of the variable being switched.  If none of the case statements match the value of the switched variable, the default path is chosen.
+Switch is a selection statement that chooses a switch case section depending on the value matched with the expression/value being evaluated.<sup>1</sup>  If none of the case statements match the value of the switched variable, the default path is chosen.
 
 ## Example
 ```
@@ -44,3 +44,6 @@ If myColor is Colors.Orange:
 > I have a hard time when I try to rhyme.
 
 ```
+
+### Sources
+1 https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/switch
