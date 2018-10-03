@@ -41,11 +41,11 @@ h1 {
 }
 
 h1 {
-  font-color: var(--font-color); // blue
+  font-color: var(--font-color); /* blue */
 }
 
 h2 {
-  font-color: var(--font-color); // red
+  font-color: var(--font-color); /* red */
 }
 ```
 
