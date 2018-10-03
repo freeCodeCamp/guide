@@ -1,0 +1,65 @@
+#free [options]
+
+
+-b, --bytes
+
+Display the amount of memory in bytes.
+
+-k, --kilo
+
+Display the amount of memory in kilobytes. This is the default.
+
+-m, --mega
+
+Display the amount of memory in megabytes.
+
+-g, --giga
+
+Display the amount of memory in gigabytes.
+
+--tera
+
+Display the amount of memory in terabytes.
+
+-h, --human
+
+Show all output fields automatically scaled to shortest three digit unit and display the units of print out. Following units are used.
+
+B = bytes
+K = kilos
+M = megas
+G = gigas
+T = teras
+If you have a petabyte of RAM or swap, the number is in terabytes and your computer is awesome.
+
+-c, --count count
+
+Display the result count times. Requires the -s option.
+
+-l, --lohi
+
+Show detailed low and high memory statistics.
+
+-o, --old
+
+Display the output in old format; the only difference being this option will disable the display of the "buffer adjusted" line.
+
+-s, --seconds seconds
+
+Continuously display the result delay seconds apart. You may actually specify any floating point number for delay. The usleep system call is used for microsecond resolution delay times.
+
+--si
+
+Use power of 1000 not 1024.
+
+-t, --total
+
+Display a line showing the column totals.
+
+--help
+
+Print help.
+
+-V, --version
+
+Display version information.
