@@ -19,8 +19,8 @@ You can achieve visual hierarchy in many ways, including (but not limited to):
 
 #### More Information:
 
-Tools to Create a Visual Hierarchy: [Design School blog](https://designschool.canva.com/blog/visual-hierarchy/)
+Tools to Create a Visual Hierarchy: <a href='https://designschool.canva.com/blog/visual-hierarchy/' target='_blank' rel='nofollow'>Design School blog</a>
 
-6 Principles of Visual Hierarchy: [99 designs blog](https://99designs.com/blog/tips/6-principles-of-visual-hierarchy/)
+6 Principles of Visual Hierarchy: <a href='https://99designs.com/blog/tips/6-principles-of-visual-hierarchy/' target='_blank' rel='nofollow'>99 designs blog</a>
 
-Case Study - Improving a Page with Visual Hierarchy: [blog](http://blog.formedfunction.com/post/3029763425/on-visual-hierarchy)
+Case Study - Improving a Page with Visual Hierarchy: <a href='http://blog.formedfunction.com/post/3029763425/on-visual-hierarchy' target='_blank' rel='nofollow'>blog</a>

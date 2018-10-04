@@ -1,15 +1,21 @@
 ---
-title: Paragraph
+title: Paragraph Tag
 ---
 ## Paragraph
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/paragraph/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The HTML <p> element represents a paragraph of text. <p> usually represents a block of text that it separated from other blocks by vertical blank space.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Example
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+``` html
+  <p>
+     This is a paragraph
+  </p>
+  <p>
+    This is another paragraph
+  </p>
+```
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p

@@ -15,7 +15,6 @@ In contrast to the **break** statement, **continue** does not terminate the exec
 - In a `while` loop, it jumps back to the condition.  
 - In a `for` loop, it jumps to the update expression.
 
-<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/continue' target='_blank' rel='nofollow'>MDN link</a> | <a href='https://msdn.microsoft.com/en-us/library/8de3fkc8.aspx' target='_blank' rel='nofollow'>MSDN link</a>
 
 ## Examples
 
@@ -47,3 +46,8 @@ In the following example, a loop iterates from 1 through 9\. The statements betw
     }
 
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/C7hs/0' target='_blank' rel='nofollow'>Run Code</a>
+
+## Other Resources
+
+* [MDN link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/continue)
+* [MSDN link](https://msdn.microsoft.com/en-us/library/8de3fkc8.aspx)

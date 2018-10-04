@@ -36,6 +36,6 @@ array.indexOf(1, -3); // 3
 
 ### More Information: 
 
-[MDN link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf)
+<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf' target='_blank' rel='nofollow'>MDN link</a>
 
-[MSDN Link](https://docs.microsoft.com/en-us/scripting/javascript/reference/indexof-method-array-javascript)
+<a href='https://docs.microsoft.com/en-us/scripting/javascript/reference/indexof-method-array-javascript' target='_blank' rel='nofollow'>MSDN Link</a>
