@@ -12,11 +12,11 @@ Static cast is used for implicit conversions between primitives and type-overloa
 ##const_cast
 Const cast can be used to cast away const-ness. This is useful when there is a desire to mutate a constant value. This should be used sparingly, instead, one should consider making parameters/functions non-const in cases where a const-cast is used.
 
-Const cast can also result in undefined behaviour. The only application of const cast should ever be to remove const-ness from a value that was passed to a function and marked const. If the value is truly const, that is, it is marked const at compile time and assigned a value, const cast and mutation of the variable will result in undefined behaviour.
+Const cast can also result in undefined behavior. The only application of const cast should ever be to remove const-ness from a value that was passed to a function and marked const. If the value is truly const, that is, it is marked const at compile time and assigned a value, const cast and mutation of the variable will result in undefined behavior.
 
 ```
 const int y = 10; 			// y is set to 10.
-const_cast<int &>(y) = 20;	// undefined behaviour.
+const_cast<int &>(y) = 20;	// undefined behavior.
 ```
 ##dynamic_cast
 Dynamic cast is used to cast an object within it's class hierarchy (to parent, from parent and to siblings). Dynamic cast can only be called on polymorphic classes. Thus, the original class in this case `MyClass` must have a virtual member, which is present in the form of the virtual destructor.

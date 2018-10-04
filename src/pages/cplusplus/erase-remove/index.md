@@ -2,8 +2,8 @@
 title: Erase–remove idiom
 ---
 
-## Desctiprion
-How to remove elements from container is a common C++ interview question, so you can earn some brownie points, if you read this page carefully. The erase–remove idiom is a C++ technique to eliminate elements that fulfill a certain criterion from a container. Howerever, it is possible to eliminate elements with traditional hand-written loop, but the erase–remove idiom has several advantages.
+## Description
+How to remove elements from container is a common C++ interview question, so you can earn some brownie points, if you read this page carefully. The erase–remove idiom is a C++ technique to eliminate elements that fulfill a certain criterion from a container. However, it is possible to eliminate elements with traditional hand-written loop, but the erase–remove idiom has several advantages.
 
 ### Comparison
 

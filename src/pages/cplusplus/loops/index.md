@@ -69,7 +69,7 @@ Now lets discuss how the for loop works.
   above program we write int i = 0
  ` for(int i = 0)`
  * Then you write the semicolon and then condition until when the loop will be executed. In the above code you define
-   i < 1000. It means until value of i is less then 1000 execuete the loop.
+   i < 1000. It means until value of i is less then 1000 execute the loop.
    ` for(int i=0;i<=1000) `
  * Then you define the incremented value that is how much i has to be incremented in each iteration. In the above code 
    we write i++. It means value of i will be incremented by 1 every time.

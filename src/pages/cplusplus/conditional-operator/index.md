@@ -11,7 +11,7 @@ Syntax :
 ```cpp
   (condition)?(expression-1):(expression-2);
 ```
-Here, expression-1 is evaluated when condition is true and expression-2 is evaluated when condtion is false.
+Here, expression-1 is evaluated when condition is true and expression-2 is evaluated when condition is false.
 Similar if-else statement would be :
 ```cpp
 if(condition)
