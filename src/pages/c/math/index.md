@@ -109,6 +109,13 @@ C provides a math library (`math.h`) that provides multiple useful math function
 ```#include<math.h>
 int result = pow(2,3) // will result in 2*2*2 or 8
 ```
+Some other (`math.h`) library functions that may prove useful are:
+
+```#include <math.h>
+double angle = cos(90.00); // Givs us 0.00
+int result = sqrt(16); // Gives us 4
+double result = log(10.00) // Gives us 2.30 (note this is ln(10), not log base 10)
+```
 # Before you go on...
 ## A review
 * There are several basic operators:
