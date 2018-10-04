@@ -22,6 +22,8 @@ Before creating a PR, please make sure to verify the following by marking the ch
     - **PHP: create PHP section and add Data Structures article**
 - [ ] Reviewed necessary formatting guidelines in [`CONTRIBUTING.md`](https://github.com/freeCodeCamp/guides/blob/master/CONTRIBUTING.md).
 - [ ] No plagiarized, duplicate, or repetitive content that has been directly copied from another source.
+- [ ] No Automated Bot is used in PR.
+ 
 
 <!-- TO NOTE
 
