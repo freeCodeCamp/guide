@@ -31,7 +31,15 @@ Some, very common and widely used are:
 There is no sorting discussion which can finish without quick sort. Basic idea is in link below.
 [Quick Sort](http://me.dt.in.th/page/Quicksort/)
 
+The most efficient sorting algorithm when you can use unlimited amount of memory: 
+[Merge Sort](https://www.hackerearth.com/practice/algorithms/sorting/merge-sort/tutorial/)
+
+
 freeCodeCamp's curriculum heavily emphasizes creating algorithms. This is because learning algorithms is a good way to practice programming skills. Interviewers most commonly test candidates on algorithms during developer job interviews.
+
+
+
+
 
 ### Further Resources
 
