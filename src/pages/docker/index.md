@@ -12,6 +12,8 @@ Docker is used to run packages called "containers". Containers are isolated from
 * Ubuntu: `sudo apt install docker`
 
 * Windows / macOS: [Download](https://www.docker.com/get-started)
+Add docker to sudo group 
+Usermod  -aG docker $USER
 
 #### More Information:
 For download and documentation check the docker official site: [Docker official site](https://www.docker.com)
