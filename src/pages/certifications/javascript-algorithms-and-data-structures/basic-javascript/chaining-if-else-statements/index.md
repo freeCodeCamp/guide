@@ -1,7 +1,7 @@
 ---
-title: Chaining if...else statements
+title: Chaining If Else Statements
 ---
-## Chaining if...else statements
+## Chaining If Else Statements
 
 * ```If```: the first conditional in every if/else statement, case the conditional is *true*, execute the code and ignore the rest.
 * ```Else if```: can never be used as the first conditional. It is always a conditional after an ```if```, case the conditional is true, execute the code. Otherwise jumps into the next conditional.
@@ -56,7 +56,7 @@ function testSize(num) {
 · Run code at [repl.it](https://repl.it/@AdrianSkar/Basic-JS-Chaining-ifelse-statements)
 
 ### Code explanation
-The function first evaluates `if` the condition `(num < 5)` evaluates to `true`. If it does, it returns the statement between the curly braces ("Tiny"). If it doesn't, it checks the next condition until the last `else` statement. 
+The function first checks the `if` condition `(num < 5)`. If it evaluates to `true`, it returns the statement between the curly braces ("Tiny"). If it doesn't, it checks the next condition until the last `else` statement. 
 
 
 ### Resources
