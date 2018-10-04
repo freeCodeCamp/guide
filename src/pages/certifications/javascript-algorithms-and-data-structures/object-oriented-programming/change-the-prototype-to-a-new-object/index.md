@@ -2,7 +2,7 @@
 title: Change the Prototype to a New Object
 ---
 ## Change the Prototype to a New Object
-Instead of adding each prototype property one by one with object.prototype.property. WE cna do this much easier by setting the prototype to a new object. That way all of the prototype properties are added at once.
+Instead of adding each prototype property one by one with ```object.prototype.property```. We can do this much easier by setting the prototype to a new object. That way all of the prototype properties are added at once.
 
 <br/>
 
@@ -41,7 +41,7 @@ Dog.prototype = {
   },
   describe: function(){
     console.log("My name is " + this.name)
-  }
+  },
 }
 ```
 
@@ -81,8 +81,6 @@ We did this by removing the ":" and the word "function".
 
 With ES6 we are allowed to do this. 
 
-You can read about it here: <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Method_definitions>
-
-
+You can read about it here: [Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Method_definitions)
 
 
