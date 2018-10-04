@@ -25,5 +25,4 @@ let result = timRegex.test(timStr);
 ```
 
 ## Resources:
-* <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions>
-
+* [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
