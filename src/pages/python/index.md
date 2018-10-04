@@ -18,7 +18,7 @@ To know more about Python, you might want to check <a href='https://www.python.o
 
 ## Installation
 
-Most *nix based operating systems come with Python installed (usually Python 2). Replacing the system Python is not recommended and may cause problems. However, different versions of Python can be safely installed alongside the system Python. See <a href='https://docs.python.org/3/using/index.html' target='_blank' rel='nofollow'>Python Setup and Usage</a>.
+Most *nix based operating systems come with Python installed (usually Python 2,Python 3 in most recent one's). Replacing the system Python is not recommended and may cause problems. However, different versions of Python can be safely installed alongside the system Python. See <a href='https://docs.python.org/3/using/index.html' target='_blank' rel='nofollow'>Python Setup and Usage</a>.
 
 Windows doesn't come with Python, the installer and instructions can be found <a href='https://docs.python.org/3/using/windows.html' target='_blank' rel='nofollow'>here</a>
 
