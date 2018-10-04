@@ -36,7 +36,7 @@ class Toggle extends PureComponent {
 export default Toggle;
 ```
 
-This Tivvle component will return it's childeren state.on and the function toggle. Witch can be used in it's child components.
+This Toggle component will return it's childeren state.on and the function toggle. Witch can be used in it's child components.
 
 This Toggle can be used as follows:
 
