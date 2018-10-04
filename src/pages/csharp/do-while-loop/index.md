@@ -8,6 +8,14 @@ The `do while` loop executes a block of code once and until a condition is false
 
 ## Example
 ```
+do
+{
+    //execute code block
+
+
+} while(boolean expression);
+
+
 string input = "";
 do
 {
