@@ -89,6 +89,9 @@ If this were a while loop, the code within the brackets would never get run beca
 
 ## For loops
 For loops are for when we want something to run a set number of times.
+for ( init; condition; increment ) {
+   statement(s);
+}
 
 ### Syntax
 ```
