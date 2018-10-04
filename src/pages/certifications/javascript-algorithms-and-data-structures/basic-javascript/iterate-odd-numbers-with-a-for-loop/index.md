@@ -26,11 +26,11 @@ for (var i = 0; i < 10; i += 2) {
   ourArray.push(i);
 }
  ```
- And change `var i = 0` to `var i = 1`:
+ And change `initialization` `var i = 0` to `var i = 1`, also you need change name of the array `ourArray` to `myArray`:
  
   ```javascript
 for (var i = 1; i < 10; i += 2) {
-  ourArray.push(i);
+  myArray.push(i);
 }
  ```
  
@@ -49,6 +49,6 @@ var myArray = [];
 // Only change code below this line.
 
 for (var i = 1; i < 10; i += 2) {
-  ourArray.push(i);
+  myArray.push(i);
 }
 ```
