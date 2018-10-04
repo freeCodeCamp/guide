@@ -3,8 +3,8 @@ title: Class
 ---
 ## Class
 	
-A class is a prototype or blueprint from which objects are created. In C#, the class is defined by using the keyword class. A class is used to combine together some methods,properties,fields,events,delegates and methods into a single unit. A class may contain nested classes too.
-eg: consider the case of Employee Class below:
+A class is a prototype or blueprint from which objects are created. In C#, the class is defined by using the keyword class. A class is used to combine together some methods, properties, fields, events, and delegates into a single unit. A class may contain nested classes too.
+#### Example: Consider the case of Employee Class below:
 
 ```csharp
 using System;
