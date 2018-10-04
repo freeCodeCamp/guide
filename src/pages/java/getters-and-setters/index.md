@@ -56,8 +56,8 @@ That ensures the value of number is always set between 10 and 100.  Suppose the 
 obj.number = 3;
 ```
 
-And that violates the constraint for values ranging from 10 to 100 for that variable. Of course we don’t expect that happens. Thus hiding the variable number as private and using a setter comes to rescue.
-On the other hand, a getter method is the only way for the outside world reads the variable’s value:
+And that violates the constraint for values ranging from 10 to 100 for that variable. Of course we don’t expect that happens. Thus hiding the variable number via the private keyword and using a setter comes to the rescue.
+On the other hand, a getter method is the only way for the outside world to read the variable’s value:
 ```java
 public int getNumber() {
     return this.number;
