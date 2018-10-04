@@ -12,7 +12,6 @@ The `for` loop executes a block of code until a specified condition is false. Us
 
 int main () {
 
-    int i;
     int array[] = {1, 2, 3, 4, 5};
 
     for (int i = 0; i < 5; i++) {
