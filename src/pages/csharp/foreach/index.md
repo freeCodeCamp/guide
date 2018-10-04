@@ -10,6 +10,11 @@ The ForEach loop executes a block of code for each item in a collection. The ben
 
 ### Example
 ```csharp
+
+foreach (element in iterable-item)
+{
+    // body of foreach loop
+}
 List<string> Names = new List<string>{ "Jim", "Jane", "Jack" }
 
 foreach(string name in Names)
