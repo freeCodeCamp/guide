@@ -265,6 +265,7 @@ Angular provides some its own modules that supplement the root upon their import
 #### Static module methods
 
 Sometimes modules provide the option to be configured with a custom config object. This is achieved by leveraging static methods inside the module class.
+
 An example of this approach is the `RoutingModule` which provides a `.forRoot(...)` method directly on the module.
 
 To define your own static module method you add it to the module class using the `static` keyword. The return type has to be `ModuleWithProviders`.
