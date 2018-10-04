@@ -15,7 +15,7 @@ To write on console you can use the function `printf()` contained in the library
      return 0;
  }
  ```
-
+Note: Here '\n' is actually an escape sequence special character that means 'a new line'.
  ## Output:
  ```
  >Hello World
