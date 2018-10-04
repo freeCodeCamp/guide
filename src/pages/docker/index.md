@@ -13,5 +13,7 @@ Docker is used to run packages called "containers". Containers are isolated from
 
 * Windows / macOS: [Download](https://www.docker.com/get-started)
 
+* dwbian :- sudo apt install docker.io
+
 #### More Information:
 For download and documentation check the docker official site: [Docker official site](https://www.docker.com)
