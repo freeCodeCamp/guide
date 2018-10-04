@@ -9,6 +9,11 @@ title: Kotlin
  It serves as a replacement for Java and runs on the JVM. It has been in development for close to 6 years and it hit 1.0 just a year ago. 
  
  The developer community has embraced Kotlin to such an extent that Google announced first class support for the language for Android Development at <a href='https://blog.jetbrains.com/kotlin/2017/05/kotlin-on-android-now-official/'>Google I/O 2017</a>.
+ 
+ **What can I use Kotlin for?**
+ 
+Kotlin can be used for any kind of development, be it server-side, client-side web and Android. With Kotlin/Native currently in the works, support for other platforms such as embedded systems, macOS and iOS is coming. People are using Kotlin for mobile and server-side applications, client-side with JavaScript or JavaFX, and data science, just to name a few possibilities.
+
 
 
 ## Version
