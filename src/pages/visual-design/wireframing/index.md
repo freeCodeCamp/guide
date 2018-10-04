@@ -19,4 +19,13 @@ title: Wireframing
   <li>
   <a href="https://proto.io/" target="blank">Proto App</a>
   </li>
+  <li>
+    <a href="https://figma.com/" target="blank">Figma</a> 
+  </li>
+  <li>
+    <a href="https://www.sketchapp.com/" target="blank">Sketch</a> A paid Mac-only app 
+  </li>
+  <li>
+    <a href="https://www.adobe.com/in/products/xd.html" target="blank">Adobe XD</a> A paid tool
+  </li>
 </ul>
