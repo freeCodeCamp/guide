@@ -10,7 +10,7 @@ If you still haven't installed Kotlin you should check this tutorial: https://gu
 
 ## Hello World Program
 
-```
+```kotlin
 // This is a simple Hello World program written in Kotlin
 
 fun main(args : Array<String>) {
@@ -41,7 +41,7 @@ Multi-line comment
 
 ### Main function
 
-```
+```kotlin
 fun main(args : Array<String>) {...}
 ```
 
@@ -50,7 +50,7 @@ As we can see, functions are declared with the use of the keyword ```fun``` and 
 
 Functions without a explicitly declared return type will return the type ```Unit```, therefore, the above code is equivalent to
 
-```
+```kotlin
 fun main(args : Array<String>): Unit {...}
 ```
 
