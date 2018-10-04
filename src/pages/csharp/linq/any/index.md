@@ -25,5 +25,5 @@ var fruits = new List<Fruit>() {
 
 var hasFruits = fruits.Any(); // True
 
-var firstYellowFruit = fruits.Any(f => f.Color == "Yellow"); // True
+var hasYellowFruit = fruits.Any(f => f.Color == "Yellow"); // True
 ```
