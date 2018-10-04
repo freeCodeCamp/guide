@@ -36,3 +36,5 @@ console.log(arrDoubled); // [ 2, 4, 6 ]
 ```
 
 See the guide on <a href='https://guide.freecodecamp.org/javascript/closures' target='_blank' rel='nofollow'>Closures</a> for more information on how `multiplyByTwo` keeps a reference to `num1` in the example above.
+
+<a href='https://eloquentjavascript.net/05_higher_order.html' target='_blank' rel='nofollow'>More info about Closures</a>

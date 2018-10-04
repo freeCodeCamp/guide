@@ -3,22 +3,22 @@ title: Nav Tag
 ---
 ## Nav Tag
 
-The purpose of the `<nav>` element is to provide a section of a webpage that contains links to other sections in the same document or to other documents.
+The `<nav>` tag is intended for major block of navigation links. NOT all links of a document should be inside a `<nav>` element.
 
-### Example
+Browsers, such as screen readers for disabled users, can use this element to determine whether to omit the initial rendering of this content.
 
-```html
-<html>
-  <body>
-    <nav class="menu">
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-  </body>
-</html>
+
+#### Example
+``` html
+
+<nav class="menu">
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
+
 ```
 
 #### More Information:
