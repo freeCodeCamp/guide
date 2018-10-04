@@ -7,7 +7,7 @@ In computer science, ACID (Atomicity, Consistency, Isolation, Durability) is a s
 A **transaction** is any sequence of database operations that satisfies the ACID properties and could be viewed as a single logical operation on the data. An example is a transfer of funds from one bank account to another. This involves multiple changes, such as debiting one account and crediting another, but is considered to be a single transaction.
 
 ### Atomicity
-This means that a complex transaction is either processed completely, or not at all. If one part of the transaction fails, then the entire transaction does not complete and the database is unchanged. This way, if there's a crash, power failure, or error, the database doesn't end up in a state where only parts of a transaction are done.
+This means that a complex transaction is either processed completely, or not at all. If one part of the transaction fails, then the entire transaction does not complete and the database is unchanged. This way, if there's a crash, power failure, or error, the database doesn't end up in a state where only parts of a transaction are done. For ex, Transfering of $100 from account A to account B.
 
 ### Consistency
 This means that data will be consistent. Any data entered into the database must be valid and permitted based on any constraints you specify. It makes sure that any transaction changes the database from one valid state to another valid state.
