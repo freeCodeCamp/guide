@@ -21,7 +21,7 @@ Next the condition is evaluated. If it holds true, the body of the loop is execu
 The update statement is used to alter the loop variable by using simple operations like addition,subtraction,multiplication or division.
 The update statement excutes after the execution of the body of the loop.
 
-## IMPLEMENTATION :
+## IMPLEMENTATION:
 ```C++
 #include <iostream>
 using namespace std;
