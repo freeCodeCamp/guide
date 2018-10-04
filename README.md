@@ -20,7 +20,7 @@ This repo is where we plan and maintain these Guide articles, which we then host
 
 The Guide articles aim to be short articles to get you started and familiar with these concepts before going on to read more in-depth material.
 
-Guide articles can be an explanation of a syntax, design pattern, what aria labels are for, or something like what the numbers mean in the top right-hand corner of your screen when at [freecodecamp.org](https://freecodecamp.org).
+Guide articles can be an explanation of a syntax, design pattern, what area labels are for, or something like what the numbers mean in the top right-hand corner of your screen when at [freecodecamp.org](https://freecodecamp.org).
 
 You can find an [example article about HTML Elements here](./src/pages/html/elements/index.md).
 
