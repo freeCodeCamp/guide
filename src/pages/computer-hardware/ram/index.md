@@ -26,4 +26,8 @@ The standard which dictates the rough speed for RAM in most computers has been D
 * <a href='http://www.computermemoryupgrade.net/types-of-computer-memory-common-uses.html' target='_blank' rel='nofollow'>Types of RAM</a>.
 * <a href='https://en.wikipedia.org/wiki/Random-access_memory' target='_blank' rel='noffolow'>Wikipedia</a>.
 
+Shadow RAM
 
+Sometimes, the contents of a relatively slow ROM chip are copied to read/write memory to allow for shorter access times. The ROM chip is then disabled while the initialized memory locations are switched in on the same block of addresses (often write-protected). This process, sometimes called shadowing, is fairly common in both computers and embedded systems.
+
+As a common example, the BIOS in typical personal computers often has an option called “use shadow BIOS” or similar. When enabled, functions that rely on data from the BIOS’s ROM instead use DRAM locations (most can also toggle shadowing of video card ROM or other ROM sections). Depending on the system, this may not result in increased performance, and may cause incompatibilities. For example, some hardware may be inaccessible to the operating system if shadow RAM is used. On some systems the benefit may be hypothetical because the BIOS is not used after booting in favor of direct hardware access. Free memory is reduced by the size of the shadowed ROMs.
