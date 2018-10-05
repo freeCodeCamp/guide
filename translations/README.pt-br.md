@@ -36,14 +36,14 @@ Se você não consegue encontrar um esboço sobre o tópico que gostaria de escr
 
 Sinta-se livre para nos fazer perguntas [no Gitter](https://gitter.im/freeCodeCamp/Contributors) se você não tiver certeza de onde colocar um novo artigo na estrutura da pasta.
 
-Antes de começar a escrever, leia o [guia de estilo do artigo](https://github.com/freeCodeCamp/guide/blob/master/CONTRIBUTING.md#article-style-guide) descrito em [CONTRIBUTING.md](CONTRIBUTING.md).
+Antes de começar a escrever, leia o [guia de estilo do artigo](https://github.com/freeCodeCamp/guide/blob/master/CONTRIBUTING.md#article-style-guide) descrito em [CONTRIBUTING.md](https://github.com/freeCodeCamp/guide/blob/master/CONTRIBUTING.md).
 
 ## Contribuindo
 
 1. 🍴 De um fork neste repositório.
-2. 👀️ Siga o guia de contribuição descritas em [CONTRIBUTING.md](CONTRIBUTING.md).
+2. 👀️ Siga o guia de contribuição descritas em [CONTRIBUTING.md](https://github.com/freeCodeCamp/guide/blob/master/CONTRIBUTING.md).
 3. 🔧 Faça algumas mudanças incríveis!
-4. 👉 [Faça um Pull Request] (https://github.com/freeCodeCamp/guide/compare)
+4. 👉 [Faça um Pull Request](https://github.com/freeCodeCamp/guide/compare)
 5. 🎉 Tenha o seu Pull Request aprovado - sucesso!
 
 Ou apenas [crie um problema](https://github.com/freeCodeCamp/guide/issues) - qualquer tipo de ajuda conta! 😊
