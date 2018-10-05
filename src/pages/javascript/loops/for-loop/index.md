@@ -82,3 +82,4 @@ elephant is 5
     
 ### Other Resources
 * [MDN - for statements](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
+https://www.w3schools.com/js/js_loop_for.asp
