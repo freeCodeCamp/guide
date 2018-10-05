@@ -49,4 +49,4 @@ Value of a: 18
 Value of a: 19
 
 -----Explanation-----
-Here's the initialization condition is first set to a=10.The loop first checks for this condition.It then checks for the condition expression i.e a<20 which holds true as 10<20(for the first case).Now the body of the loop is executed and we get the output "Value of a: 10".Then the update expression is executed which adds the number 1 to 'a' and the value of 'a' gets updated to 11 and the same steps are followed(as above) until the value of v reaches less than 20 i.e 19.
+Here the initialization condition is first set to a=10.The loop first checks for this condition.It then checks for the condition expression i.e a<20 which holds true as 10<20(for the first case).Now the body of the loop is executed and we get the output "Value of a: 10".Then the update expression is executed which adds the number 1 to 'a' and the value of 'a' gets updated to 11 and the same steps are followed(as above) until the value of v reaches less than 20 i.e 19
