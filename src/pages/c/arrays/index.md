@@ -27,7 +27,7 @@ Arrays are containers with a given size. They contain variables of the **same ty
 Let's look at some code:
 ```C
 #include <stdio.h>
-int main(void) {
+int main() {
     int arr[4] = {1, 2, 3, 88};
     int brr[] = {78, 65};
     int crr[100] = {3};
