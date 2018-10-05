@@ -5,6 +5,9 @@ title: Arrays and Strings
 Arrays allow for a set of variables to be grouped together as one variable. This is useful in its own right, but also because strings fall into this category. Strings, which are how we represent words and sentences in computer languages, are just collections of character variables. Therefore, we represent strings using arrays in C.
 
 ## Making an Array
+
+data_type array_name[array_size];
+
 A normal integer variable would be declared like so:
 ```C
 int my_variable;
