@@ -15,6 +15,15 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 Usability testing is a technique used in user-centered interaction design to evaluate a product by testing it on users. This can be seen as an irreplaceable usability practice, since it gives direct input on how real users use the system.
 
 This is in contrast with usability inspection methods where experts use different methods to evaluate a user interface without involving users. 
+##New text
+There are many software applications / websites, which miserably fail, once launched, due to following reasons -
+1.Where do I click next?
+2.Which page needs to be navigated?
+3.Which Icon or Jargon represents what?
+4.Error messages are not consistent or effectively displayed
+5.Session time not sufficient.
+
+Usability Testing identifies usability errors in the   system early in development cycle and can save a product from failure.
 
 Usability testing focuses on measuring a human-made product's capacity to meet its intended purpose. Examples of products that commonly benefit from usability testing are foods, consumer products, web sites or web applications, computer interfaces, documents, and devices. Usability testing measures the usability, or ease of use, of a specific object or set of objects, whereas general human–computer interaction studies attempt to formulate universal principles.
 
