@@ -55,6 +55,7 @@ The `for...in` statement iterates over the enumerable properties of an object, i
     //   orange: fruit
     //   carrot: vegetable
 
-# Ohter Resources:
+# Other Resources:
 * [MDN link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in)
 * [MSDN link](https://msdn.microsoft.com/library/55wb2d34.aspx)
+* [W3Schools](https://www.w3schools.com/jsref/jsref_forin.asp)
