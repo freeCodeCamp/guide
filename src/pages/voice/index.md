@@ -19,9 +19,9 @@ The WebSpeech API uses the device's native microphone system. When an utterance 
 
 #### How to use the SpeechRecognition API
 
-Here is a simple example of using the SpeechRecognition API. Note that the API is initated with the `new SpeechRecognition()` constructor, and starts when `recognition.start();` is called. It creates a transcript from what is received and then that is appended to the `<p class="transcript"`. [Click here for a working demo of this code](https://codepen.io/ashwoodall/pen/MPeyRm).
+Here is a simple example of using the SpeechRecognition API. Note that the API is initated with the `new SpeechRecognition()` constructor, and starts when `recognition.start();` is called. It creates a transcript from what is received and then that is appended to the `<p class="transcript">` element. [Click here for a working demo of this code](https://codepen.io/ashwoodall/pen/MPeyRm).
 
-This is the html that the transcript is appended to:
+This is the HTML that the transcript is appended to:
 
 ```html
 <main class="main">
@@ -31,7 +31,7 @@ This is the html that the transcript is appended to:
 </main>
 ```
 
-And here is the Javascript: 
+And here is the JavaScript: 
 
 ```javascript
 window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
