@@ -19,7 +19,8 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 
 **Example:**
 
-There are two parts to any navigation: the HTML and the CSS. This is just a quick example.
+There are two parts to any navigation: the HTML and the CSS. This is just a quick example. By changing CSS we can change the type of navigation bar i.e vertical or horizontal.
+
 
 ```html
 <nav class="myNav">                                 <!-- Any element can be used here -->
@@ -28,39 +29,71 @@ There are two parts to any navigation: the HTML and the CSS. This is just a quic
         <li><a href="about.html">About</a></li>
         <li><a href="contact.html">Contact</a></li>
     </ul>
-</nav>
+</n
 ```
-
+**Vertical Navigation Bar**
 ```css
-/* Define the main Navigation block */
-.myNav {
-    display: block;
-    height: 50px;
-    line-height: 50px;
-    background-color: #333;
-}
-/* Remove bullets, margin and padding */
-.myNav ul {
-    list-style: none;
-    padding: 0;
+ul {
+    list-style-type: none;
     margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
 }
-.myNav li {
-    float: left;
-    /* Or you can use display: inline; */
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
 }
-/* Define the block styling for the links */
-.myNav li a {
-    display: inline-block;
-    text-align: center;
-    padding: 14px 16px;
-}
-/* This is optional, however if you want to display the active link differently apply a background to it */
-.myNav li a.active {
-    background-color: #3786E1;
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
 }
 ```
 
+**Active/Link Navigation Bar**
+  We can also put active link in navigation bar for distinguising it.For this we have to add another class attribute defining its different color for distiguishing.
+  ```css
+  .active {
+    background-color: #4CAF50;
+    color: white;
+}
+  ```
+  
+ **Full Length Fixed Navigation Bar**
+  We can also fix the navigation bar using position attribute.
+  ```css
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    height: 100%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+  ```
+  
+  **Horizontal Navigation Bar**
+  There are two ways to create to do it either by floating or inline listing items.
+  ```css
+  li {
+    display: inline;
+}
+  ```
+  
+  **Sticky Navigation Bar**
+  ```css
+  ul {
+    position: sticky;
+    top: 0;
+} 
+  ```
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
