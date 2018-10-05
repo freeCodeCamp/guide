@@ -40,8 +40,8 @@ Dog.prototype = {
     console.log('nom nom nom');
   },
   describe: function(){
-    console.log("My name is " + this.name)
-  },
+    console.log("My name is " + this.name);
+  }
 }
 ```
 
@@ -70,7 +70,7 @@ Dog.prototype = {
   },
   describe(){
     console.log("My name is " + this.name);
-  },
+  }
 };
 ```
 
