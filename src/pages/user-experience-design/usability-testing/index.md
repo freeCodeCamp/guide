@@ -51,3 +51,17 @@ Nielsen's usability heuristics, which have continued to evolve in response to us
 Similar to expert reviews, automated expert reviews provide usability testing but through the use of programs given rules for good design and heuristics. Though an automated review might not provide as much detail and insight as reviews from people, they can be finished more quickly and consistently. The idea of creating surrogate users for usability testing is an ambitious direction for the artificial intelligence community.
 * Help users recognize, diagnose, and recover from errors
 * Help and documentation
+
+
+Pros and Cons of Usability testing:
+As with anything in life, usability testing has its merits and de-merits. Let's look at them
+
+Pros:
+
+It helps uncover usability issues before the product is marketed.
+It helps improve end-user satisfaction
+It makes your system highly effective and efficient
+It helps gather true feedback from your target audience who actually use your system during usability test. You do not need to rely on "opinions" from random people.
+Cons:-
+
+Cost is a major consideration in usability testing. It takes lots of resources to set up a Usability Test Lab. Recruiting and management of usability testers can also be expensive 
