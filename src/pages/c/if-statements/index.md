@@ -19,7 +19,7 @@ Let's look at an example of this in action:
 #include <stdio.h>
 #include <stdbool.h>
 
-int main(void) {
+int main() {
     if(true) {
         printf("Statement is True!\n");
     }
