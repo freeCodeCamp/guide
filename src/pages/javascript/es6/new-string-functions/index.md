@@ -1,3 +1,7 @@
+---
+title: New String Functions
+---
+
 ## New String Functions
 
 Following four functions are added new to strings in ES6.
