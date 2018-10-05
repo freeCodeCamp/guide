@@ -6,7 +6,7 @@ title: Render Props Component
 
 Render props is an advanced React pattern, yet so simple!
 
-## Example
+### Example
 
 This is an example on how you can use render prop for a toggle functionality.
 
@@ -36,7 +36,7 @@ class Toggle extends PureComponent {
 export default Toggle;
 ```
 
-This Toggle component will return it's childeren state.on and the function toggle. Witch can be used in it's child components.
+This Toggle component will return it's children `state.on` and the function toggle. Which can be used in it's child components.
 
 This Toggle can be used as follows:
 
