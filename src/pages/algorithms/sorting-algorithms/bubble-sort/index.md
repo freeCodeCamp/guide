@@ -117,7 +117,7 @@ public class bubble-sort {
 =======
 ###The Recursive implementation of the Bubble Sort.
 
-void bubblesort(int arr[], int n)
+```void bubblesort(int arr[], int n)
 {
 	if(n==1)	//Initial Case
 		return;
@@ -134,6 +134,7 @@ void bubblesort(int arr[], int n)
 	
 	bubblesort(arr,n-1);	//Recursion for remaining array
 }
+```
 ### More Information
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 - [Wikipedia](https://en.wikipedia.org/wiki/Bubble_sort)
