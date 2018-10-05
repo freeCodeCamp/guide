@@ -142,7 +142,7 @@ Good performance
 ### Another example of if...else if...else ladder
 Suppose we have the user input two numbers and we are going to display if either number is greater than the other. And if neither is greater than the other, then we print the statement "Both are equal".
 
-In this scinerio we will need an if...else if...else ladder statement. The program will look like this :
+In this scenario we will need an if...else if...else ladder statement. The program will look like this :
 
 ```
 #include<iostream>

@@ -23,7 +23,7 @@ int main()
 When you execute this program, you will see 5 displayed on the screen
 
 * Note that in the above program // is placed after the lines. The symbol "//" is for commenting our code. Code after the symbol
-  "//" is not execueted in the line where its placed.
+  "//" is not executed in the line where its placed.
 
 * On line 5 n simple integer variable is declared.
 * On line 6 the value 5 is assigned to the variable a. Now whenever we use the variable a in our program its value will be 5

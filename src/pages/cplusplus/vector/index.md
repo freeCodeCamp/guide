@@ -16,9 +16,9 @@ The data type you store within a vector goes within angle brackets next to the v
 `#include <vector>`
 
 ### Vector Construction
-There are many convinent ways to construct a vector.
+There are many convenient ways to construct a vector.
 
-Using an intializer list - where objects are listed inside a set of braces: `{ }`
+Using an initializer list - where objects are listed inside a set of braces: `{ }`
 ```cpp
 std::vector<int> a{1, 2, 3, 4, 5}; // a is a vector of 5 ints: 1, 2, 3, 4 and 5
 std::vector<std::string> b{"hello", "world"}; // b is a vector of 2 strings: "hello" and "world"
@@ -103,13 +103,13 @@ std::string second_item = a[2]; // gets "element"
 
 Looping over elements in a C++ `std::vector` is pretty different from looping over elements in a vector in JavaScript or Ruby. Due to C++ being a thin abstraction of C, you can only loop over elements using these nifty little variables called iterators to access each element.
 Iterators often come in the form of pointers which are variables that store the memory address of another variable. You can learn more about pointers [here](https://www.tutorialspoint.com/cplusplus/cpp_pointers.htm).
-However, because iterators act as pointers (or vice-versa), in order to see what they point to, you need to dereference it into a variable of the appropirate type. 
+However, because iterators act as pointers (or vice-versa), in order to see what they point to, you need to dereference it into a variable of the appropriate type. 
 How do we do this?
 HERE. WE. GO!
 ```cpp
 std::vector<std::string> a{"test", "element", "access"};
 for(auto it = v.begin(); it != v.end(); it++) { //notice use of auto keyword
-    cout<<*it<<endl; //Will print out string that the iterator is currently ppointing to
+    cout<<*it<<endl; //Will print out string that the iterator is currently pointing to
 }
 ```
 From here, you can do all sorts of cool stuff, like manipulating the vector or mess around with it's order as you please!
@@ -134,7 +134,7 @@ The iterators provide another method for accessing elements in your vector.
 Iterator declaration.
 ```cpp
 std::vector<int> v;
-//Iterator delcaration for the above vector will correspond to
+//Iterator declaration for the above vector will correspond to
 std::vector<int>::iterator it;
 ```
 Using the iterator to print elements of the vector using for loop

@@ -13,7 +13,7 @@ title: Operators
 ### 1 The I/O operators -
 
 * These operators allow you to direct input and output.
- ## The Input oerator ">>" ## 
+ ## The Input operator ">>" ## 
  is used to read data from standard input (the "cin" statement) .  
 
  ##The Output operator "<<"##
@@ -121,7 +121,7 @@ Value of b is changed after using once : 9
 
 ### 3 : Relational Operators :
 
-* These operators tell us the relation among 2 operands and return a boolean value(0 or 1). If the relation is `true` then it results into 1 . If the realtion is false then it results into 0.
+* These operators tell us the relation among 2 operands and return a boolean value(0 or 1). If the relation is `true` then it results into 1 . If the relation is false then it results into 0.
 
 * The 6 relational operators are :
     1. Less than `<`
@@ -141,7 +141,7 @@ Value of b is changed after using once : 9
  
  ### 5. Ternary Operators : 
  
- The `?:` operator is the ternary operator, or the _conditional operator_, becuase it can be used to substitute an `if else` statement, or even an `if else if` statement.
+ The `?:` operator is the ternary operator, or the _conditional operator_, because it can be used to substitute an `if else` statement, or even an `if else if` statement.
 The syntax: 
 
 `condition ? ValueIfTrue : ValueIfFalse `. This expands to:
