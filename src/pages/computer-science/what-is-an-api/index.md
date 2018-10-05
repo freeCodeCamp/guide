@@ -8,7 +8,7 @@ API stands for Application Programming Interface. Don’t worry about the AP, ju
 An interface sits on top of a complicated system and simplifies certain tasks, a middleman that saves you from needing to know all the details of what’s happening under the hood. A web API is the same sort of thing. It sits on top of a web service, like Twitter or YouTube, and simplifies certain tasks for you. It translates your actions into the technical details for the computer system on the other end.
 
 ## Why Are APIs Useful?
-
+The APIs are used to show how a program interacts with the rest of the application world. APIs tend to be very well-documented for a given application. This is very important because developers creating new apps and new programs that need to interface with the application will be dependent on these API calls.
 Having access to an API generally means having access to a large amount of organized data. The gatekeeper of that data gives a developer permission (in the form of an *API key*) to query a server for information. If the request is successful, the server responds with a message that may look something like this:
 
 ```javascript
