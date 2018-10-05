@@ -13,9 +13,9 @@ The `for` loop executes a block of code until a specified condition is false. Us
 int main () {
 
     int i;
-    int array[] = {1, 2, 3, 4, 5};
+    int array[] = {1, 2, 3, 4, 5,6};
 
-    for (int i = 0; i < 5; i++) {
+    for (int i = 0; i < 6; i++) {
     	printf("Item on index %d is %d\n", i, array[i]);
     }
 }
@@ -27,4 +27,5 @@ int main () {
 > Item on index 1 is 2
 > Item on index 2 is 3
 > Item on index 3 is 4
+> Item on index 4 is 5
 ```
