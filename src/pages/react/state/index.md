@@ -24,7 +24,7 @@ This can lead to unexpected behavior in your app if the code above is called mul
 
 ##### The Right Way
 ```js
-this.setState((state) => {return {value: state.value + 1}});
+this.setState(prevState => ({value: prevState.value + 1}));
 ```
 
 ### More Information
