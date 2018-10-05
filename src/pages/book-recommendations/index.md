@@ -63,5 +63,9 @@ title: Books to Read for Programmers
 - [Amazon Smile](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X)
 - ISBN-13: 978-0201616224
 
+*SJavaScript: The Good Parts*
+- https://www.oreilly.com/library/view/javascript-the-good/9780596517748/
+- ISBN-13: 978-0596517748
+
 This list was compiled from multiple suggestion threads on Reddit and Stackoverflow. 
 Please feel free to add more that you have found useful!
