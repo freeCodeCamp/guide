@@ -143,6 +143,8 @@ Some frequently used options are:
 * ride
 * wrap
 
+Please be aware that nested carousels are not supported, and carousels are generally not compliant with accessibility standards.
+
 ## Additional Details
 - [Bootstrap Carousel](https://getbootstrap.com/docs/4.0/components/carousel/)
 
