@@ -3,11 +3,12 @@ title: VirtualBox
 ---
 ## VirtualBox
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/quadratic-equations/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+![VirtualBox Logo](https://i.imgur.com/4ELYq2t.png?1)
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+VirtualBox is a powerful x86 and AMD64/Intel64 virtualization product for enterprise as well as home use.<sup>1</sup>
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+VirtualBox is the only professional solution that is freely available as Open Source Software under the terms of the GNU General Public License (GPL) version 2.<sup>1</sup>
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+### Sources
+
+1. [“Welcome to VirtualBox.org!” Oracle VM VirtualBox](www.virtualbox.org/)
