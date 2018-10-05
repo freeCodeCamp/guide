@@ -18,32 +18,48 @@ public class Car {
     // car manufacturer name
     private String manufacturerName;
     
-    // constructor
+    // constructor 1
+    public Car() {
+    }
+    
+    // constructor 2
     public Car(String name, String man) {
         this.name = name;
         this.manufacturerName = man;
     }
     
-    // getter method
+    // getter name method
     public String getName() {
         return name;
     }
     
-    // getter method
+    // getter manufacture method
     public String getManufacturerName() {
         return manufacturerName;
     }
 
-    //setter method
+    //setter name method
     public void setName(String name){
         this.name = name;
     }
+
+    //setter manufacture method 
+    public void setManufacture(String man){
+        this.manufacturerName = man;
+    }
 }
 
+// sample code
+    
 Car modelS = new Car("Model S","Tesla");
-
-System.out.println("Full Car Name = " + modelS.getManufacturerName() + " " + modelS.getName());
 // prints Tesla Model S
+System.out.println("Full Car Model S= " + modelS.getManufacturerName() + " : " + modelS.getName());
+
+Car modelX = new Car();
+modelX.setName("Model X");
+modelX.setManufacture("BMW");
+// prints Tesla Model X
+System.out.println("Full Car Model X= " + modelX.getManufacturerName() + " : " + modelX.getName());
 ```
 
 ![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CJZP/0' target='_blank' rel='nofollow'>Run Code</a>
