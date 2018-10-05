@@ -63,6 +63,10 @@ public class Heapsort {
 	}
 }
 ```
+Video Link : 
+[![Alt text](https://img.youtube.com/vi/MtQL_ll5KhQ/0.jpg)](https://www.youtube.com/watch?v=MtQL_ll5KhQ)
+
+
 ### Visualization
 * <a href='https://www.cs.usfca.edu/~galles/visualization/HeapSort.html'>USFCA</a>
 * <a href='https://www.hackerearth.com/practice/algorithms/sorting/heap-sort/tutorial/'>HackerEarth</a>
