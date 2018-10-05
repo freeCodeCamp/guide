@@ -11,6 +11,8 @@ Each bootstrap form element should have a class *form-control*. This class is ho
 * Inline form - creates the form on a single line. Useful for login forms in a nav bar
 * Horizontal form - creates a form with each element in a different row
 
+Some text
+
 ## Example of a basic form
 
 ```html 
