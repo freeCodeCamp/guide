@@ -11,5 +11,7 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-
+CSS Selectors Reference: <a href='https://www.w3schools.com/cssref/css_selectors.asp' target='_blank' rel='nofollow'>w3school</a>
+CSS Selectors Specificity: <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity' target='_blank' rel='nofollow'>MDN</a>
+Specifics on CSS Specificity: <a href='https://css-tricks.com/specifics-on-css-specificity/' target='_blank' rel='nofollow'>CSS Tricks</a>
 
