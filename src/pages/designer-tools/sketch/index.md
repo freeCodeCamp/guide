@@ -28,6 +28,9 @@ Sketch IconFont (Helps you easily insert and manage icons from icon fonts) - <a 
 
 Mirr.io (Preview prototypes in any browser in any device from Sketch) - <a href='https://mirr.io/' target='_blank' rel='nofollow'>Mirr.io</a>
 
+Sketch Distributor (Distributes objects horizontally or vertically using an input spacing amount) - <a href='http://sketchapp.rocks/plugins/sketch-distributor/'</a>
+
+
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
