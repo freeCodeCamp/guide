@@ -10,3 +10,7 @@ You can also use <a href='https://repl.it/' target='_blank' rel='nofollow'>https
 This is how you print to the console:
 
     console.log('Hello world!')
+
+Also You can print an error log in the console with this code:
+
+    console.error('I am an error!')

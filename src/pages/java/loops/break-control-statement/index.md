@@ -57,5 +57,18 @@ for (int i : arrayOfInts)
 
 System.out.println("j = " + j);
 ```
+Break statement can also be used under while statement.
+```java
+int i = 0;
+int[] arrayOfInts = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+int searchFor = 5;
+
+while(i < 10){
+ System.out.println("i = " + j);
+ if(arrayOfInts[i] > 7){
+  break;
+  }
+}
+```
 
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CJZC/0' target='_blank' rel='nofollow'>Run Code</a>

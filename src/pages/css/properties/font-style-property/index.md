@@ -3,13 +3,18 @@ title: Font Style Property
 ---
 ## Font Style Property
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/properties/font-style-property/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+`font-style` property lets you to change the style of font meaning you can make font italicized. This property accepts following values:
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+* `normal` - Default value.
+* `italic` - Font gets italicized by selecting the font that is classified as italic in its font family.
+* `oblique` - Font that classified as oblique in its font family gets used.  
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+`Italic` and `oblique` may look similar. According to [MDN](https://developer.mozilla.org/en-US/) *oblique are just sloped version of the regular face*.  
+You can also specify angle for the lean degree of font when providing `oblique` value. If angle is not provided, 14 degrees will be used as default.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+
+* [MDN - font-style](https://developer.mozilla.org/en-US/docs/Web/CSS/font-style)
+* [CSS-Tricks - font-style](https://css-tricks.com/almanac/properties/f/font-style/)
 
 

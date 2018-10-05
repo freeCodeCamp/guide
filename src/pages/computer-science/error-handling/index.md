@@ -3,16 +3,14 @@ title: Error Handling
 ---
 
 ## Error Handling
-
-Error handling is very important thing every developer should care about while doing programming. Here I'll explain how to handle errors which occurs run-time using try-catch block with an example in C# programs. Try-catch block available in all the major programming languages and has similar syntax as well.
+Error Handling, and to a larger extent, Exception Handling, are functions/methods written to return important information about the manipulation of data. Error handling is often used alongside Promises and Callbacks.
+Error handling is very important thing every developer should care about while programming. Here I'll explain how to handle errors which occur in run-time using try-catch blocks with an example in C# programs. Try-catch statements are available in all the major programming languages with similar syntax.
   
-### How try-catch block works.
+### How the try-catch block works.
 
-whatever the code available in the try block executes as similar like the source code executes out of try block. Try block means that your trying to execute some code which may throw exceptions. When a code in try block throws any exception, the same can handle/catch by catch block. The advantages of having the try-catch block is, it make sure that unexpected termination of program will not happen at run time.
+The try-catch statement consists of a **try** block and a **catch** block. Code that could throw an exception should be put in the try block. The catch block takes the exception that could be thrown as a parameter and then handles that exception inside the block. During runtime, the code in the try block is first executed. If an exception is thrown, it will be thrown to the catch block to be handled. If there is no catch block, the program will display an unhandled exception error and stop running. Multiple catch blocks are used if code in the try block could throw more than one exception. There is also an optional **finally** block that will execute the code in it regardless of whether or not an exception is thrown.
 
-Try-catch block syntax included an optional block called finally. Which gets executed always, whether the try blocks throws error or not.
-
-Below I've given a program which handles the divide by zero exception using predefined class in C# library. Exception is the base class for all the exception.
+Below is an example program that handles the divide by zero exception using predefined class in C# library. Exception is the base class for all the exception.
 
 ```c#
 using System;
@@ -57,3 +55,8 @@ namespace ErrorHandling
  * This exception will handle by the catch block which has DivideByZeroException class. If any exceptions other than DivideByZeroExceptions occurs it will handle by Exception catch block.
  
  Exception is the base class for all the exceptions class available in C# library. Even if you want to write your own exception you have to inherits Exception base class into your program.
+
+#### More Information:
+<!-- Please add any articles you think might be helpful to read before writing the article -->
+https://quizlet.com/135129010/computer-science-error-handling-flash-cards/
+https://en.wikipedia.org/wiki/Exception_handling
