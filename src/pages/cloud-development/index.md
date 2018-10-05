@@ -15,3 +15,10 @@ Many modern websites and big data efforts are said to be developed in the Cloud,
 [Google Cloud Documentation](https://cloud.google.com/docs/)
 [Getting Started with Microsoft Azure](https://docs.microsoft.com/en-us/azure/guides/developer/azure-developer-guide)
 [Firebase Documentation](https://firebase.google.com/docs/)
+
+History
+While the term "cloud computing" was popularized with Amazon.com releasing its Elastic Compute Cloud product in 2006,[8] references to the phrase "cloud computing" appeared as early as 1996, with the first known mention in a Compaq internal document.[9]
+
+The cloud symbol was used to represent networks of computing equipment in the original ARPANET by as early as 1977,[10] and the CSNET by 1981[11] — both predecessors to the Internet itself. The word cloud was used as a metaphor for the Internet and a standardized cloud-like shape was used to denote a network on telephony schematics. With this simplification, the implication is that the specifics of how the end points of a network are connected are not relevant for the purposes of understanding the diagram.[citation needed]
+
+The term cloud was used to refer to platforms for distributed computing as early as 1993, when Apple spin-off General Magic and AT&T used it in describing their (paired) Telescript and PersonaLink technologies.[12] In Wired's April 1994 feature "Bill and Andy's Excellent Adventure II", Andy Hertzfeld commented on Telescript, General Magic's distributed programming language:
