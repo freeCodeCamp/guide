@@ -5,7 +5,7 @@ title: Pattern Libraries
 
 A pattern library is a collection of reusable user interface design elements. Since these ui elements are reused multiple times in a website, web application, or software application, they impose structure through consistency. This makes the site or app easier to use.
 
-A few common ui elements found in a pattern library are:
+A few common UI elements found in a pattern library are:
 * Menus
 * Buttons
 * Page Layouts
