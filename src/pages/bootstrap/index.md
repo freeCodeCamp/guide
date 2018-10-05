@@ -67,3 +67,26 @@ themes that build on the Bootstrap framework to provide a more customized and st
 <a href='https://github.com/twbs/bootlint' target='_blank' rel='nofollow'>Bootlint</a>: HTML linter for projects using Bootstrap
 <a href='https://bootsnipp.com/' target='_blank' rel='nofollow'>Bootsnipp</a>: Design elements and code snippets for Bootstrap
 <a href='http://expo.getbootstrap.com/resources/' target='_blank' rel='nofollow'>More Resources</a>: Code, theme, and add-on resources for Bootstrap
+
+Bootstrap 4
+
+On October 29, 2014, Mark Otto announced that Bootstrap 4 was in development.[8] On September 6, 2016, Mark suspended work on Bootstrap 3 in order to free up time to work on Bootstrap 4. Over 17,500 commits have been made to the Bootstrap 4 codebase so far.
+
+Bootstrap 4 stable version released on 18th Jan 2018, is a major rewrite from Bootstrap 3. Significant changes include:
+
+Switched from Less to Sass.
+Launched reboot in place of normalize css.
+Dropped IE8, IE9, and iOS 6 support.
+Added flexbox support and then dropped non-flexbox support.
+Added navigation customization options.
+Added responsive spacing and sizing utilities.
+Switched from pixels to root ems.
+Increased global font-size from 14px to 16px.
+Dropped the panel, thumbnail, and well components in favor of cards.
+Dropped the Glyphicons icon font.
+Dropped the pager component.
+Added huge number of utility classes.
+Improvised form styling.
+Improvised buttons and dropdowns.
+Improvised media objects and image classes.
+Rewrote almost all components, jQuery plugins and documentation
