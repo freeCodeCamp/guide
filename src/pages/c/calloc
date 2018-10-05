@@ -1,0 +1,28 @@
+---
+title: calloc()
+---
+
+# Library function - calloc()
+
+One way for dynamic memory allocation in C is to use a library function calloc() defined under <stdlib.h>. 
+Calloc() allocates requested memory and initializes it to 0.
+
+## Syntax
+
+Calloc() takes two arguments: number of memory blocks to be allocated and the size of each block:
+void *calloc(size_t ntimes, size_t size)
+
+## Example
+```
+int *ptr;
+```
+This is a pointer for our array.
+```
+a = (int*)calloc(5, sizeof(int));
+```
+Using calloc() we allocated memory for an array of 5 integers each size of int (4 bytes). 
+
+To release space allocated for our array, we must use free().
+```
+free(ptr);
+```
