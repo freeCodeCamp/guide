@@ -36,3 +36,8 @@ project or application, no matter how small!
 
 1. "Swift 4 - The powerful programming language that is also easy to learn." Apple, [developer.apple.com/swift](https://developer.apple.com/swift/), Accessed 31 Oct. 2017.
 
+Features
+Swift is an alternative to the Objective-C language that employs modern programming-language theory concepts and strives to present a simpler syntax. During its introduction, it was described simply as "Objective-C without the C".
+
+By default, Swift does not expose pointers and other unsafe accessors, in contrast to Objective-C, which uses pointers pervasively to refer to object instances. Also, Objective-C's use of a Smalltalk-like syntax for making method calls has been replaced with a dot-notation style and namespace system more familiar to programmers from other common object-oriented (OO) languages like Java or C#. Swift introduces true named parameters and retains key Objective-C concepts, including protocols, closures and categories, often replacing former syntax with cleaner versions and allowing these concepts to be applied to other language structures, like enumerated types (enums)
+
