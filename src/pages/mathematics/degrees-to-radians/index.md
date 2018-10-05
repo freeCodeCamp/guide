@@ -3,13 +3,18 @@ title: Degrees to Radians
 ---
 ## Degrees to Radians
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/degrees-to-radians/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Multiply the angle by pi/180. Remember that pi radians span half of a circle, which is 180 degrees.
+Here's a python function to convert degrees to radians. Enjoy!
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
+import math </br>
+def degrees_to_radians(angle): </br>
+   return angle*math.pi/180;
+	 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+One complete cycle = 360 degrees = 2π Radians
+
+1 degree = 2π / 360 Radians
+
+p degree = p ×  2π / 360 Radians
 
 

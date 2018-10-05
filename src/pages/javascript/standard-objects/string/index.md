@@ -3,13 +3,12 @@ title: String
 ---
 ## String
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/standard-objects/string/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+In JavaScript the `String` global object is a constructor for strings, which store series of characters. Strings can be created in the form of literals, such as `var greeting = "Hi, campers!";` or using the `String` constructor: `var greeting = new String("Hi, campers!");`.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Unlike some other languages, JavaScript doesn't care if you use single `' '` or double `" "` quotes for strings. You can even use them *inside* the strings, they just have to be different from the quotes that embrace the string `"Isn't that awesome?"`.
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+[MDN web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
+[w3schools.com](https://www.w3schools.com/jsref/jsref_obj_string.asp)
