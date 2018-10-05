@@ -15,3 +15,6 @@ Many modern websites and big data efforts are said to be developed in the Cloud,
 [Google Cloud Documentation](https://cloud.google.com/docs/)
 [Getting Started with Microsoft Azure](https://docs.microsoft.com/en-us/azure/guides/developer/azure-developer-guide)
 [Firebase Documentation](https://firebase.google.com/docs/)
+
+Services
+Though service-oriented architecture advocates "everything as a service" (with the acronyms EaaS or XaaS,[59] or simply aas), cloud-computing providers offer their "services" according to different models, of which the three standard models per NIST are Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS).[58] These models offer increasing abstraction; they are thus often portrayed as a layers in a stack: infrastructure-, platform- and software-as-a-service, but these need not be related. For example, one can provide SaaS implemented on physical machines (bare metal), without using underlying PaaS or IaaS layers, and conversely one can run a program on IaaS and access it directly, without wrapping it as SaaS.
