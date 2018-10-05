@@ -52,5 +52,8 @@ for (i=0; i < numbers.length; i++) {
     console.log(numbers[i]);
 }
 ```
+A link for easy exaplantion:
+[![Alt text](https://img.youtube.com/vi/7zuGmKfUt7s/0.jpg)](https://www.youtube.com/watch?v=7zuGmKfUt7s)
+
 
 
