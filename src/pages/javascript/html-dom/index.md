@@ -1,7 +1,7 @@
 ---
-title: HTML Dom
+title: HTML DOM
 ---
-## HTML Dom
+## HTML DOM
 
 With the HTML DOM, JavaScript can access and change all the elements of an HTML document.
 
