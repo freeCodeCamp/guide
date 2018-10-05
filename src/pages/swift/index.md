@@ -36,3 +36,8 @@ project or application, no matter how small!
 
 1. "Swift 4 - The powerful programming language that is also easy to learn." Apple, [developer.apple.com/swift](https://developer.apple.com/swift/), Accessed 31 Oct. 2017.
 
+History
+Development of Swift started in July 2010 by Chris Lattner, with the eventual collaboration of many other programmers at Apple. Swift took language ideas "from Objective-C, Rust, Haskell, Ruby, Python, C#, CLU, and far too many others to list".[7] On June 2, 2014, the Apple Worldwide Developers Conference (WWDC) application became the first publicly released app written with Swift.[22] A beta version of the programming language was released to registered Apple developers at the conference, but the company did not promise that the final version of Swift would be source code compatible with the test version. Apple planned to make source code converters available if needed for the full release.[22]
+
+The Swift Programming Language, a free 500-page manual, was also released at WWDC, and is available on the iBooks Store and the official website.
+
