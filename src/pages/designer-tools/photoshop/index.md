@@ -49,6 +49,8 @@ If all you need is Photoshop, you can choose the Single Application option, whic
 
 Students and teachers can get an <a href='http://www.adobe-students.com/creativecloud/buy/students.html' target='_blank' rel='nofollow'>educational discount here</a>.
 
+However, if you're not sure you're ready to spend for this, there exists unofficial portable Photoshop software which you can grab online. It functions similar to the official Photoshop but leaves almost no trace when being executed that means it leaves no burden for your computer and can be uninstalled easily just by deleting the Photoshop executable file. Provided this information since it might be useful but is not recommended since it is unofficial.
+
 ### Basics
 
 #### Starting a new document
