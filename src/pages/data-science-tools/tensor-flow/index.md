@@ -17,4 +17,26 @@ working on the Google Brain Team within Google's Machine Intelligence research o
 for the purposes of conducting machine learning and deep neural networks research, but the 
 system is general enough to be applicable in a wide variety of other domains as well.
 
-For more information, visit the <a href='https://github.com/tensorflow' target='_blank' rel='nofollow'>TensorFlow Github page</a>
+## Installing TensorFlow
+TensorFlow is tested and supported on the following 64-bit systems:
+* Ubuntu 16.04 or later
+* Windows 7 or later
+* macOS 10.12.6 (Sierra) or later (no GPU support)
+* Raspbian 9.0 or later
+
+TensorFlow can be installed with with Python's pip package manager. 
+Official packages are available for Ubuntu, Windows, macOS, and Raspberry Pi.
+
+* Current release for CPU-only
+pip install tensorflow
+
+* Nightly build for CPU-only (unstable)
+pip install tf-nightly
+
+* GPU package for CUDA-enabled GPU cards
+pip install tensorflow-gpu
+
+* Nightly build with GPU support (unstable)
+pip install tf-nightly-gpu
+
+For more information, visit the <a href='https://github.com/tensorflow/tensorflow' target='_blank' rel='nofollow'>TensorFlow Github page</a>
