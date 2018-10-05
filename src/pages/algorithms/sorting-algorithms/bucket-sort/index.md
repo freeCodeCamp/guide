@@ -44,6 +44,10 @@ void bucketSort(float[] a,int n)
 }
 ```
 
+Video for Bucket Sort with Easy explanation:
+[![](https://img.youtube.com/vi/VuXbEb5ywrU/0.jpg)](https://www.youtube.com/watch?v=VuXbEb5ywrU)
+
+
 ### More Information:
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Bucket_sort)
