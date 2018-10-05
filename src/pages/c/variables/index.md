@@ -75,7 +75,15 @@ int main(void) {
 }
 ```
 
-Now there's a line that reads `my_second_variable = -18.2 + my_first_variable;`. This equation assigns a new value to the variable on the left. Whenever a new value is being assigned, the variable that it is being assigned to must always be on the left, and must always be there alone. Your program will find the result of the right hand side, and assign it to the variable on the left. In this case, we've added my_first_variable to -18.2. my_first_variable is 12, and -18.2 + 12 is 6.2, so my_second_variable becomes 6.2 after this step. We'll get more into math in a little bit!
+Now there's a line that reads `my_second_variable = -18.2 + my_first_variable;`. This equation assigns a new value to the variable on the left. Whenever a new value is being assigned, the variable that it is being assigned to must always be on the left, and must always be there alone. Your program will find the result of the right hand side, and assign it to the variable on the left. In this case, we've added my_first_variable to -18.2. my_first_variable is 12, and -18.2 + 12 is -6.2, so my_second_variable becomes -6.2 after this step. We'll get more into math in a little bit!
+
+## A little more on floats and doubles
+When printing out floats and doubles, a lot of times we need precision after the decimal point. If we have 
+```C
+float var1 = 15.3;
+printf("%f");
+```
+We get `15.300000`. So, say we just want two places after the decimal to give us `15.30`. We would use %.2f. Notice, we use a decimal point in front of the amount of decimal places we want followed by the f, signifing we want to print a float or double. 
 
 # Before you go on...
 ## A review
