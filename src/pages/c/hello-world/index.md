@@ -9,7 +9,7 @@ To write on console you can use the function `printf()` contained in the library
  ```C
  #include <stdio.h>
 
- int main(void)
+ int main()
  {
      printf("hello, world\n");
      return 0;
