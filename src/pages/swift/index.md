@@ -16,6 +16,8 @@ Want to try out Swift right now? [Repl.it](https://repl.it/languages/swift) offe
 
 The latest version is [Swift 4.2](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/RevisionHistory.html), released Sept. 17, 2018. Swift is constantly evolving, and you can expect more changes in the future. It is recommended you use the latest version of Swift when starting a new project.
 
+Access control
+Swift supports five access control levels for symbols: open, public, internal, fileprivate, and private. Unlike many object-oriented languages, these access controls ignore inheritance hierarchies: private indicates that a symbol is accessible only in the immediate scope, fileprivate indicates it is accessible only from within the file, internal indicates it is accessible within the containing module, public indicates it is accessible from any module, and open (only for classes and their methods) indicates that the class may be subclassed outside of the module.
 # Documentation
 
 Swift is heavily documented. Keep in mind that coding Swift involves not just
