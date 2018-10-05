@@ -22,7 +22,7 @@ int main(void) {
     int my_number = 0;
 
     while(my_number != 10){
-        ++my_number;
+        my_number++;
     }
 
     printf("my_number = %i", my_number);
