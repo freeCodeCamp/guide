@@ -17,3 +17,8 @@ Lastly, learn to integrate 3rd party libraries and Firebase services to add func
 ### Official Documentation
 
 [Google Developers Guide for Android](https://developer.android.com/training/index.html)
+
+####Developing Android Applications
+After getting started, a question can arise in the learner's mind about how to develop great apps with cool functionality, design and looks. 
+Udacity is a great platfrom to resolve this issue I believe. It has great teachers and the lessons are very interactive with quizzes helping the learner to develop cool Android Apps on their own. The best part is that the course is absolutely free. Plus for beginers learning from videos is much more interesting and intriguing than reading blogs.
+ [Link to the course](https://in.udacity.com/course/new-android-fundamentals--ud851)
