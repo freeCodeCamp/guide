@@ -37,6 +37,24 @@ city.endsWith('l',4);//false
 
 ## includes
 
+includes function is also a case sensitive function that checks if the searchString is present anywhere in the string.
 
+```javascript
+const name='John Doe';
+name.includes('do'); //false
+name.includes('D'); //true
+name.includes('Do'); //true
+```
+
+## repeat
+
+repeat allows us to take a string and repeat it a number of times.
+
+```javascript
+const str = 'This is repeated';
+str.repeat(3); //"This is repeatedThis is repeatedThis is repeated"
+```
+
+repeat function can be used to pad a string from Left with a number of spaces.
 
 
