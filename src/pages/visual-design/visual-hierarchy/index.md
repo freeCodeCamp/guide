@@ -24,3 +24,5 @@ Tools to Create a Visual Hierarchy: <a href='https://designschool.canva.com/blog
 6 Principles of Visual Hierarchy: <a href='https://99designs.com/blog/tips/6-principles-of-visual-hierarchy/' target='_blank' rel='nofollow'>99 designs blog</a>
 
 Case Study - Improving a Page with Visual Hierarchy: <a href='http://blog.formedfunction.com/post/3029763425/on-visual-hierarchy' target='_blank' rel='nofollow'>blog</a>
+
+Adding Visual Hierarchy: <a href='https://medium.com/designed-thought/8-ways-to-add-visual-hierarchy-8820be73218a/' target='_blank'>Medium</a>
