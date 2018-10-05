@@ -29,12 +29,6 @@ You will write a card counting function. It will receive a **card** parameter an
 *   -3 Hold
 *   5 Bet
 
-#### Relevant Links
-
-*   <a href='https://en.wikipedia.org/wiki/Card_counting' target='_blank' rel='nofollow'>Card counting</a>
-*   <a href='http://www.freecodecamp.com/challenges/selecting-from-many-options-with-switch-statements' target='_blank' rel='nofollow'>Challenge: Selecting from many options with Switch Statements</a>
-*   <a href='http://www.freecodecamp.com/challenges/chaining-if-else-statements' target='_blank' rel='nofollow'>Challenge: Chaining If Else Statements</a>
-*   <a href='http://www.freecodecamp.com/challenges/increment-a-number-with-javascript' target='_blank' rel='nofollow'>Challenge: Increment a Number with Javascript</a>
 
 ## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 1
 
@@ -108,11 +102,10 @@ After you've counted the cards, use an `if` statement to check the value of **co
 
 **_Note_**: As mentioned earlier, the `switch` statement could have also been an `else if` statement.
 
-## ![:clipboard:](https://forum.freecodecamp.com/images/emoji/emoji_one/clipboard.png?v=3 ":clipboard:") NOTES FOR CONTRIBUTIONS:
 
-*   ![:warning:](https://forum.freecodecamp.com/images/emoji/emoji_one/warning.png?v=3 ":warning:") **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
-*   Add an explanation of your solution.
-*   Categorize the solution in one of the following categories — **Basic**, **Intermediate** and **Advanced**. ![:traffic_light:](https://forum.freecodecamp.com/images/emoji/emoji_one/traffic_light.png?v=3 ":traffic_light:")
-*   Please add your username only if you have added any **relevant main contents**. (![:warning:](https://forum.freecodecamp.com/images/emoji/emoji_one/warning.png?v=3 ":warning:") **_DO NOT_** _remove any existing usernames_)
+#### Resources
 
-> See ![:point_right:](https://forum.freecodecamp.com/images/emoji/emoji_one/point_right.png?v=3 ":point_right:") <a>**`Wiki Challenge Solution Template`**</a> for reference.
+*   <a href='https://en.wikipedia.org/wiki/Card_counting' target='_blank' rel='nofollow'>Card counting at Wikipedia</a>
+*   <a href='http://www.freecodecamp.com/challenges/selecting-from-many-options-with-switch-statements' target='_blank' rel='nofollow'>Challenge: Selecting from many options with Switch Statements</a>
+*   <a href='http://www.freecodecamp.com/challenges/chaining-if-else-statements' target='_blank' rel='nofollow'>Challenge: Chaining If Else Statements</a>
+*   <a href='http://www.freecodecamp.com/challenges/increment-a-number-with-javascript' target='_blank' rel='nofollow'>Challenge: Increment a Number with Javascript</a>
