@@ -5,8 +5,8 @@ title: Switch Case
 # Switch Case
 
 The switch statement is like a set of `if/else if statements`.
-It's a list of possibilities, with an action for each possibility, and an optional default action, in case nothing else evaluates to true.
-We exit from the switch by `break`.
+It's a list of possibilities, with an action for each possibility, and an optional default action in case nothing else evaluates to true.  As of C# 7, it is now possible to switch on a range (e.g. have a range of cases).  See the case n > 1 below.
+We exit from the switch by using a `break` statement.
 
 ## Example
 ```
@@ -22,8 +22,12 @@ switch(number)
         // Here I match the condition
         Console.WriteLine("The number is one!");
         break;
+    case int n when (n > 1):
+        // Handles all cases when n is greater than one.
+        Console.WriteLine("The number is greater than one!");
+        break;
     default:
-        Console.WriteLine("I don't know this number!");
+        Console.WriteLine("The number is negative!");
         break;
 }
 ```
@@ -46,9 +50,13 @@ else if(number == 1)
 {
     Console.WriteLine("The number is one!");
 }
+else if(number > 1)
+{
+    Console.WriteLine("The number is greater than one!");
+}
 else
 {
-    Console.WriteLine("I don't know this number!");    
+    Console.WriteLine("The number is negative!");    
 }
 
 ```
@@ -57,3 +65,4 @@ else
 ```
 > The number is one!
 ```
+The switch statement is often used as an alternative to an if-else construct if a single expression is tested against three or more conditions

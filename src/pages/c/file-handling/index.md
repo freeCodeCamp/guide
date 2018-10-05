@@ -160,7 +160,7 @@ echo Kamala > name.txt
 ### The Real Deal
 The above methods only worked for the most basic of cases.  If you wanted to do bigger and better things, you will probably want to work with files from within C instead of through the shell.
 To accomplish this, you will use a function called `fopen`.  This function takes two string parameters, the first being the file name and the second being the mode.
-Mode is basically permissions, so `r` for read and `w` for write.  You can also combine them, so `rw` would mean you could read and write to the file.  There are more modes, but these are the most used.
+Mode is basically permissions, so `r` for read, `w` for write, `a` for append.  You can also combine them, so `rw` would mean you could read and write to the file.  There are more modes, but these are the most used.
 
 After you have a `FILE` pointer, you can use basically the same IO commands you would've used, except that you have to prefix them with `f` and the first argument will be the file pointer.
 For example, `printf`'s file version is `fprintf`.
