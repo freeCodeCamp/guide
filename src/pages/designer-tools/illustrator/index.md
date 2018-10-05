@@ -4,7 +4,7 @@ title: Illustrator
 
 ## Illustrator
 
-Illustrator is an Adobe Software that is specialise in creating vector graphics. Vector graphics includes logos, flat icons, 2D illustration, 3D illustrations, isometric illustrations, charts, infographics, t-shirts, business cards, stationeries, envelopes, packaging designand so on. Besides vector graphics, it can do more than that it just depends on the user's imagination.
+Illustrator is an Adobe program for creating and editing vector graphics. It's a versatile tool used by graphic designers and illustrators for 2D illustration, layout design, tracing, and typography. It is a leading software for designers, primarily due to its versatile functions and availability.
 
 #### More Information
 
