@@ -1,15 +1,16 @@
 ---
 title: Gradient Descent
 ---
+
 ## Gradient Descent
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/machine-learning/deep-learning/gradient-descent/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+* Gradient descent is an optimization algorithm used to find the values of parameters (coefficients) of a function (f) that minimizes a cost function (cost).
+* Gradient descent is best used when the parameters cannot be calculated analytically (e.g. using linear algebra) and must be searched for by an optimization algorithm.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+## Intuition for Gradient Descent
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+* Think of a large bowl like what you would eat cereal out of or store fruit in. This bowl is a plot of the cost function (f).
+* A random position on the surface of the bowl is the cost of the current values of the coefficients (cost).
+* The bottom of the bowl is the cost of the best set of coefficients, the minimum of the function.
+* The goal is to continue to try different values for the coefficients, evaluate their cost and select new coefficients that have a     slightly better (lower) cost.
+* Repeating this process enough times will lead to the bottom of the bowl and you will know the values of the coefficients that result in the minimum cost.
