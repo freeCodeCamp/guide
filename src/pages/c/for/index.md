@@ -6,6 +6,8 @@ title: For Loop
 
 The `for` loop executes a block of code until a specified condition is false. Use `while` loops when the number of iterations are variable, otherwise use `for` loops. A common use of `for` loops are array iterations.
 
+Many sorting alogrithms use `for` loops as a basis for iterating through data. Some of these algorithms include `bubble` sort, `selection` sort, etc.
+
 ## Example
 ```
 #include <stdio.h>
