@@ -3,13 +3,15 @@ title: Strong Tag
 ---
 ## Strong Tag
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/strong-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+With the HTML Strong Importance Element `<strong>` you indicate that its contents have strong importance, seriousness, or urgency. Browsers typically render the contents in bold type.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+```html
+<html>
+  <head>
+    <title>Strong Tag Example</title>
+  </head>
+  <body>
+    <p>... the most important rule, the rule you can never forget, no matter how much he cries, no matter how much he begs: <strong>never feed him after midnight</strong>.</p>
+  </body>
+</html>
+```
