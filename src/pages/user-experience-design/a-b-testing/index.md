@@ -8,6 +8,8 @@ A/B testing (sometimes called split testing) is comparing two versions of a web 
 
 Every website wants visitors converting from just visitors to something else(Convertions, sign ups, or just take action for something). The rate at which a website is able to do this is its "conversion rate". Measuring the performance of a variation (A or B) means measuring the rate at which it converts visitors to goal achievers. Data scientists use A/B testing to see which version(s) of their product leads to their desired goal faster. Sometimes large companies run hundreds or thousands of A/B tests to make product decisions. These tests are almost always randomized, large, and blinded. This means that the subject or user does not know abou the A/B test.
 
+Why Should You A/B Test?
+A/B testing allows you to make more out of your existing traffic. While the cost of acquiring paid traffic can be huge, the cost of increasing your conversions is minimal. To compare, a Small Business Plan of Visual Website Optimizer starts at $49. That's the cost of 5 to 10 Google Adwords clicks. The Return On Investment of A/B testing can be massive, as even small changes on a landing page or website can result in significant increases in leads generated, sales and revenue.
 
 
 #### More Information:
