@@ -53,4 +53,7 @@ for (i=0; i < numbers.length; i++) {
 }
 ```
 
+More information:
+1. <a href="https://www.geeksforgeeks.org/counting-sort/"> Geeksforgeeks </a>
+
 
