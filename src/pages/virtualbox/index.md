@@ -9,4 +9,5 @@ If you have never used it before you shoudl definitely try it out. It is extreme
 
 #### More Information:
 https://www.virtualbox.org/manual/ch01.html
+
 https://medium.com/@JohnFoderaro/how-to-set-up-a-local-linux-environment-with-vagrant-163f0ba4da77
