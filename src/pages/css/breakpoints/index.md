@@ -42,6 +42,6 @@ Syntax<sup>1</sup>:
 
 ### Sources
 
-1. [Visit W3School's CSS background Property page for more information.](https://developer.mozilla.org/en-US/docs/Tools/Debugger/How_to/Set_a_breakpoint)
+1. [Visit W3School's breakpoints page for more information.](https://developer.mozilla.org/en-US/docs/Tools/Debugger/How_to/Set_a_breakpoint)
 2. [Projapati, Ananda. "How to use CSS breakpoints to create responsive designs" *FlyWheel*. February 21, 2018. Accessed: October 3, 2018](https://getflywheel.com/layout/css-breakpoints-responsive-design-how-to/)
 
