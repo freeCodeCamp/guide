@@ -73,5 +73,11 @@ Premature commits happen all the time in the course of your day-to-day developme
 
 Amended commits are actually entirely new commits and the previous commit will no longer be on your current branch. When you're working with others, you should try to avoid amending commits if the last commit is already pushed into the repository.
 
+With `--amend`, one of the useful flag you could use is `--author` which enables you to change the author of the last commit you've made. Imagine a situation you haven't properly set up your name or email in git configurations but you already made a commit. With `--author` flag you can simply change them without resetting the last commit.
+
+```
+git commit --amend --author="John Doe <johndoe@email.com>"
+```
+
 ### More Information:
 - Git documentation: [commit](https://git-scm.com/docs/git-commit)
