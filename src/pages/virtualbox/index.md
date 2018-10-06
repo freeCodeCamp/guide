@@ -3,11 +3,10 @@ title: VirtualBox
 ---
 ## VirtualBox
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/quadratic-equations/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+VirtualBox is "a general-purpose full virtualizer for x86 hardware, targeted at server, desktop and embedded use." It lets you run a virtual operating system inside of your existing operating system. This is really useful for trying out new or experimental operating systems, for running applications that require a different operating system than the user is currently running, and it's especially useful for security testing (amongst many other things!). 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+If you have never used it before you shoudl definitely try it out. It is extremely easy to setup and it is free to download and use. VMWare is another popular paid virtualization software to look into. 
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+https://www.virtualbox.org/manual/ch01.html
+https://medium.com/@JohnFoderaro/how-to-set-up-a-local-linux-environment-with-vagrant-163f0ba4da77
