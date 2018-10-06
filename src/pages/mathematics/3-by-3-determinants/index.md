@@ -3,29 +3,11 @@ title: 3 by 3 Determinants
 ---
 ## 3 by 3 Determinants
 
-Consider the following matrix, which we will call A:
+Consider a matrix, which we will call A:
 
-<table>
-  <tr>
-    <td style="background-color: white">a</td>
-    <td style="background-color: white">b</td>
-    <td style="background-color: white">c</td>
-  </tr>
-  <tr>
-    <td style="background-color: white">d</td>
-    <td style="background-color: white">e</td>
-    <td style="background-color: white">f</td>
-  </tr>
-  <tr>
-    <td style="background-color: white">g</td>
-    <td style="background-color: white">h</td>
-    <td style="background-color: white">i</td>
-  </tr>
-</table>
+Then the determinant of the matrix, denoted <em>det(A)</em>, is given by:
 
-Then the determinant of this matrix, denoted <em>det(A)</em>, is given by:
-
-<em>det(A) = a * (e * i - h * f) - b * (d * i - f * g) + c * (d * h - e * g)</em>
+![img](https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20det%28A%29%20%3D%20%5Cbegin%7Bvmatrix%7D%20a_%7B11%7D%20%26%20a_%7B12%7D%20%26%20a_%7B13%7D%5C%5C%20a_%7B21%7D%20%26%20a_%7B22%7D%20%26%20a_%7B23%7D%5C%5C%20a_%7B31%7D%20%26%20a_%7B32%7D%20%26%20a_%7B33%7D%20%5Cend%7Bvmatrix%7D%20%3D%20a_%7B11%7D%28a_%7B22%7Da_%7B33%7D%20-%20a_%7B32%7Da_%7B23%7D%29%20-%20a_%7B12%7D%28a_%7B21%7Da_%7B33%7D-a_%7B31%7Da_%7B23%7D%29%20&plus;%20a_%7B13%7D%28a_%7B21%7Da_%7B32%7D%20-%20a_%7B31%7Da_%7B22%7D%29)
 
 Please keep in mind the order of operations in the expression above.
 
