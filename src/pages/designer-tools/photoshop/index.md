@@ -213,5 +213,5 @@ If you need another format, select `File` > `Export` > `Export as...`. There, yo
 * <a href='https://www.psprint.com/resources/difference-between-raster-vector/' target='_blank' rel='nofollow'>Raster vs. Vector graphics</a>
 * <a href='https://helpx.adobe.com/support/photoshop.html?promoid=5NHJ8FD2&mv=other' target='_blank' rel='nofollow'>Learn and Support</a>
 
-Alternatives: Gimp (available on Linux and free)
+Alternatives: Gimp (available on Linux and free).
 
