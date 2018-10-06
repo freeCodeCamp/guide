@@ -8,7 +8,7 @@ title: Socket.io
 
 ### Demos
 
-To get a taste of what is possible, Socket.io provides two demos to show it's possible use case. You can find the demos at [https://socket.io/demos/chat/](https://socket.io/demos/chat/) and find the link to the whiteboard demo on the left.
+To get a taste of what is possible, Socket.io provides two demos to show it's possible use-cases. You can find the demos at [https://socket.io/demos/chat/](https://socket.io/demos/chat/) and find the link to the whiteboard demo on the left.
 
 ### Get Started 
 
