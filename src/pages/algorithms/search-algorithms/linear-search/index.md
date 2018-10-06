@@ -79,7 +79,7 @@ int linear_search(int arr[],int n,int num)
 		if(arr[i]==num)
 			return i;
    }
-   //Item not found in the array
+   // Item not found in the array
    return -1; 
 }
 ```
