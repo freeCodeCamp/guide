@@ -3,13 +3,5 @@ title: Landing Page Testing
 ---
 ## Landing Page Testing
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/product-design/landing-page-testing/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
+A landing page, as its own name says, it's the place your visitor lands its interest. The airport is the first place you see when you travel to another place by plane, right? The landing page works the same, and your mission is to create the best experience for those visiting, leading them to subscribe to your mailing or purchasing a service.
 

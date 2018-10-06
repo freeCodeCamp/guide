@@ -1,15 +1,29 @@
 ---
 title: Map
 ---
+
 ## Map
+A map of `[key, value]` entries, where keys and values can be any value (both objects and primitive values).
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/standard-objects/map/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+## Syntax
+```javascript
+new Map([iterable])
+```
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+## Parameters
+**iterable** An Array or other iterable object whose elements are key-value pairs.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+## Example
+```javascript
+// basic usage
+const myMap = new Map();
+myMap.set('foo',1);
+myMap.set('bar',2);
+myMap.set('baz',3);
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+myMap.get('foo');   // returns 1
+myMap.get('baz');   // returns 3
+myMap.get('hihi');  // return undefined
 
-
+myMap.size();   // 3
+```

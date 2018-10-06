@@ -28,7 +28,7 @@ Note : This is because we have not added the google-services.json file which has
 
 Next open the <a href='https://console.firebase.google.com/' target='_blank' rel='nofollow'> google firebase console </a> and Add Project ( basically means create a new project )
 
-Once the project is created click on Notifications section in left side panel.
+Once the project is created click on the Notifications section in the left side panel.
 
 Now click on the Android icon to add **Android** platform support to our project.
 
@@ -74,7 +74,7 @@ Note the tag
 <widget id="io.cordova.hellocordova" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
 ```
 
-Here the attribute id is the package **id** which will by default be **io.cordova.hellocordova** change it to the app id you have specified in the firebase console. I will be using com.pushSample.hello
+Here the attribute id is the package **id** which will by default be **io.cordova.hellocordova** change it to the app ID you have specified in the firebase console. I will be using com.pushSample.hello
 
 Next field to be filled in the firebase console popup is :
 
