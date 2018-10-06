@@ -63,5 +63,13 @@ title: Books to Read for Programmers
 - [Amazon Smile](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X)
 - ISBN-13: 978-0201616224
 
+*Data Structures And Algorithms Made Easy*
+- [Amazon Smile](https://www.amazon.com/Data-Structures-Algorithms-Made-Easy/dp/819324527X)
+- ISBN-13: 978-8193245279
+
+*Think Python: How to Think Like a Computer Scientist*
+- [Amazon Smile](https://www.amazon.com/Think-Python-Like-Computer-Scientist/dp/1491939362)
+- ISBN-13: 978-1491939369
+
 This list was compiled from multiple suggestion threads on Reddit and Stackoverflow. 
 Please feel free to add more that you have found useful!
