@@ -3,7 +3,7 @@ title: Cascading CSS Variables
 ---
 ## Cascading CSS Variables
 
-Cascading CSS variables officially called custom properties are entities which behave similarly to traditional variables. In that variables allow for data to be stored and updated to reflect new values later<sup>3</sup>. 
+Cascading CSS variables officially called custom properties are entities which behave similarly to traditional variables. In that variables allow for data to be stored and updated to reflect new values later<sup>2</sup>. 
 
 CSS variables are defined to contain specific values and be reused throughout a document. They are set using custom property notation (e.g., `--main-color: black`) and are accessed using the `var()` function (e.g., `color: var(--main-color)`)<sup>1</sup>. Declare the CSS variable in the `:root` or `body` selectors for global access.
 
@@ -36,5 +36,4 @@ var(--custom-name)
 ### Sources
 
 1. [Visit MDN's Cascading CSS Variables page for more information.](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables)
-2. [Visit W3School's Cascading CSS Variables page for more information.](#)
-3. [Perna, Maria Antonietta. "A Practical Guide to CSS Variables (Custom Properties)" *sitepoint*. August 01, 2018. Accessed: October 5, 2018](https://www.sitepoint.com/practical-guide-css-variables-custom-properties/)
+2. [Perna, Maria Antonietta. "A Practical Guide to CSS Variables (Custom Properties)" *sitepoint*. August 01, 2018. Accessed: October 5, 2018](https://www.sitepoint.com/practical-guide-css-variables-custom-properties/)
