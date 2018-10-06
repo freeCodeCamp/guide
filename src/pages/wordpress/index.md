@@ -8,6 +8,6 @@ WordPress is a free and open-source content management system based on PHP and M
 
 ### More Information
 
-<a href='https://codex.wordpress.org/' target='_blank' rel='nofollow'>WordPress Codex: the online manual</a>
+[WordPress Codex: the online manual](https://codex.wordpress.org/)
 
-<a href='https://developer.wordpress.org/reference/' target='_blank' rel='nofollow'>WordPress Code Reference</a>
+[WordPress Code Reference](https://developer.wordpress.org/reference/)
