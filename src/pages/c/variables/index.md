@@ -77,6 +77,13 @@ int main(void) {
 
 Now there's a line that reads `my_second_variable = -18.2 + my_first_variable;`. This equation assigns a new value to the variable on the left. Whenever a new value is being assigned, the variable that it is being assigned to must always be on the left, and must always be there alone. Your program will find the result of the right hand side, and assign it to the variable on the left. In this case, we've added my_first_variable to -18.2. my_first_variable is 12, and -18.2 + 12 is 6.2, so my_second_variable becomes 6.2 after this step. We'll get more into math in a little bit!
 
+# Names for Variables
+* The only characters you can use in names are alphabetic characters, numeric digits, and
+  the underscore (_) character.
+* The first character in a name cannot be a numeric digit.
+* Uppercase characters are considered distinct from lowercase characters.
+* You can’t use a C keyword for a name.
+
 # Before you go on...
 ## A review
 * Variables need to be created before they are used.
