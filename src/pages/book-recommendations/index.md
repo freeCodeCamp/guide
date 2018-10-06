@@ -39,6 +39,10 @@ title: Books to Read for Programmers
 - [Amazon Smile](https://smile.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844/)
 - ISBN-13: 978-0262033848 
 
+*Grokking Algorithms: An illustrated guide for programmers and other curious people*
+- [Amazon Smile](https://www.amazon.com/Grokking-Algorithms-illustrated-programmers-curious/dp/1617292230)
+- ISBN-13: 978-1617292231
+
 *Cracking the Coding Interview: 150 Programming Questions and Solutions*
 - [Amazon Smile](https://smile.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/098478280X)
 - ISBN-13: 978-0984782802
@@ -61,7 +65,4 @@ title: Books to Read for Programmers
 
 *The Pragmatic Programmer: From Journeyman to Master*
 - [Amazon Smile](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X)
-- ISBN-13: 978-0201616224
-
-This list was compiled from multiple suggestion threads on Reddit and Stackoverflow. 
-Please feel free to add more that you have found useful!
+- ISBN-13: 978-0201616224 
