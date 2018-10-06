@@ -10,7 +10,7 @@ Using `rustup` is preferred for Rust installation. `rustup` installs and manages
 
 Visit the [rustup website](https://rustup.rs) and download the `rustup-init.exe`. Install it and then you should be ready to go!
 
-## Installing Rust in other operating systems
+## Installing Rust in other operating systems (Mac OS X, Linux, BSD, Unix)
 
 Open up your terminal and type in this command:
 
