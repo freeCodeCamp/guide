@@ -51,3 +51,8 @@ This video visually demonstrates some popular sorting algorithms that are common
 
 This is also a really good open source project that helps you visualize algorithms. 
 
+[HackerEarth] (https://www.hackerearth.com/practice/algorithms/searching/linear-search/tutorial/)
+
+Another good resource to learn Algorithms
+
+
