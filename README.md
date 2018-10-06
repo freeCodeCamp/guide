@@ -1,6 +1,6 @@
 ![freeCodeCamp Guide](https://s3.amazonaws.com/freecodecamp/wide-social-banner.png)
 
-# The freeCodeCamp Guide
+# The freeCodeCamp Guide -
 
 [![Build Status](https://img.shields.io/travis/freeCodeCamp/guide/master.svg?style=flat-square)](https://travis-ci.org/freeCodeCamp/guide) [![license](https://img.shields.io/badge/license-BSD--3--Clause-lightgrey.svg?style=flat-square)](https://opensource.org/licenses/BSD-3-Clause)  [![Gitter](https://img.shields.io/gitter/room/freeCodeCamp/Contributors.svg?style=flat-square)](https://gitter.im/freeCodeCamp/Contributors)
 [![Open Source Helpers](https://www.codetriage.com/freecodecamp/guide/badges/users.svg)](https://www.codetriage.com/freecodecamp/guide)
@@ -12,7 +12,7 @@
 
 The freeCodeCamp community is building a massive, searchable **"Guide"**.
 
-This reference tool will eventually include thousands of articles that cover all areas of development, design, and data science—all written to be easily understood by people new to coding.
+This reference tool will eventually include thousands of articles that cover all areas of development, design, and data science—all written to be easily understood by people new to coding !
 
 This repo is where we plan and maintain these Guide articles, which we then host on our community's wiki-like Guide website at [`guide.freecodecamp.org`](https://guide.freecodecamp.org).
 
