@@ -20,7 +20,7 @@ The return value would be the result of the evaluated mathematical expression.
 
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CL8k/0' target='_blank' rel='nofollow'>Run Code</a>
 
-<a href='https://docs.python.org/3/library/functions.html#eval' target='_blank' rel='nofollow'>Official Docs python 3</a>
+<a href='https://docs.python.org/3/library/functions.html#eval' target='_blank' rel='nofollow'>Official Docs - Python 3</a>
 
-<a href='https://docs.python.org/2/library/functions.html#eval' target='_blank' rel='nofollow'>Official Docs python 2.7</a>
+<a href='https://docs.python.org/2/library/functions.html#eval' target='_blank' rel='nofollow'>Official Docs - Python 2.7</a>
 
