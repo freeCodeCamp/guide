@@ -2,14 +2,20 @@
 title: Textarea Tag
 ---
 ## Textarea Tag
+Programmers use textarea tag to create multiline field for user input (useful especially in case when user should be able to put on the form longer text). Programmers may specify different attributes for textarea tags.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/textarea-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Sample code:
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+```html
+    <form>
+      <textarea name="comment" rows="8" cols="80" maxlength="500" placeholder="Enter your comment here..." required></textarea>
+    </form>
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Most common attributes:
+`row` and `cols` attributes determine the height and width of the textarea
+`placeholder` attribute specifies the text which is visible to the user, it helps the user to understand what data should be typed in
+`maxlength` attribute determines the maximum length of the text which can be typed in the textarea, user cannot submit more characters
+`required` attribute means that this field must be filled in before the form submission
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+For more information about textarea tag and its attributes visit [MDN]("https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea") or [w3schools]("https://www.w3schools.com/tags/tag_textarea.asp").
