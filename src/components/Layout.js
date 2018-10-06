@@ -93,6 +93,7 @@ const Layout = ({ children }) => (
                     className='navbar-toggle'
                     onClick={toggleDisplaySideNav}
                     type='button'
+                    aria-label='toggle navbar'
                     >
                     <span className='icon-bar' />
                     <span className='icon-bar' />
