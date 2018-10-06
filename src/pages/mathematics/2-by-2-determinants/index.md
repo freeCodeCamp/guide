@@ -23,4 +23,4 @@ Note: If the determinant equals zero, there are no solutions (intersections) to 
 - [Wikipedia: 2x2 Determinant](https://en.wikipedia.org/wiki/Determinant#2_.C3.97_2_matrices)
 
 
-![img](https://ncalculators.com/images/formulas/2x2-matrix-determinant.jpg)
+![img](https://latex.codecogs.com/gif.latex?%5Chuge%20det%28A%29%20%3D%20%5Cbegin%7Bvmatrix%7D%20a_%7B11%7D%20%26%20a_%7B12%7D%20%5C%5C%20a_%7B21%7D%20%26%20a_%7B22%7D%20%5Cend%7Bvmatrix%7D%20%3D%20a_%7B11%7Da_%7B22%7D%20-%20a_%7B21%7Da_%7B12%7D)
