@@ -70,6 +70,19 @@ def linear_search(target, array)
   return nil
 end
 ```
+### Example in C++
+
+```c++
+int linear_search(int arr[],int n,int num)
+{
+	for(int i=0;i<n;i++){
+		if(arr[i]==num)
+			return i;
+   }
+   //Item not found in the array
+   return -1; 
+}
+```
 
 ## Global Linear Search
 
