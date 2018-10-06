@@ -159,7 +159,7 @@ function binary_search(a, v) {
 ### Example in C++
 
 ```c++
-//Binary Search using iteration
+// Binary Search using iteration
 int binary_search(int arr[], int beg, int end, int num)
 {
 	while(beg <= end){
@@ -176,7 +176,7 @@ int binary_search(int arr[], int beg, int end, int num)
 ```
 
 ```c++
-//Binary Search using recursion
+// Binary Search using recursion
 int binary_search(int arr[], int beg, int end, int num)
 {
 	if(beg <= end){
