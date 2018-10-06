@@ -28,6 +28,10 @@ Sketch IconFont (Helps you easily insert and manage icons from icon fonts) - <a 
 
 Mirr.io (Preview prototypes in any browser in any device from Sketch) - <a href='https://mirr.io/' target='_blank' rel='nofollow'>Mirr.io</a>
 
+Material Theme Editor (Easily create design systems for apps/websites) - <a href="https://material.io/tools/theme-editor/" target="blank">Material Theme Editor</a>
+
+SVG Insert (Inserts SVG into Sketch from pasted code, really useful) - <a href="https://github.com/tankxu/svg-insert" target="blank>SVG Insert</a>
+
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
