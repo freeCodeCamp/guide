@@ -25,7 +25,7 @@ Graphical User Interface. A GUI will allow you to interact with a program by poi
 Header files are files containing function declarations that are defined in other source files. These are typically 'included' at the top of a source file.
 
 ## IDE
-Integrated Development Environment. This is mostly an editor but includes tools to check syntax, format code style, compile, and debug a program, which makes writing code easier.
+Integrated Development Environment. This is mostly an editor but includes tools to check syntax, format code style, compile, and debug a program, which makes writing code easier.Code blocks,Turbo C++ and Visual C are some popular IDEs.
 
 ## Human-readable
 The human-readable code is code that can be read by a person- it's not in binary or machine code.
@@ -46,7 +46,7 @@ A newline is what gets printed when you hit Enter, and is an example of a whites
 A file that contains Object Code (Machine Code).
 
 ## Pointer
-A pointer is a variable that contains the memory address of another variable.
+A pointer is a variable that points another variable by storing it's  address .
 
 ## Whitespace
 Whitespace is the characters that you don't see when you type but are there anyway. For example, you can't see spaces, but there is a lot here. Newlines are also whitespace characters, as are tabs.
