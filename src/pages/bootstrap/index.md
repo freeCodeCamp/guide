@@ -59,10 +59,9 @@ In addition, you can find both <a href='https://bootswatch.com/' target='_blank'
 themes that build on the Bootstrap framework to provide a more customized and stylish look.
 
 #### Bootstrap Resources: 
-
-<a href='http://blog.getbootstrap.com/' target='_blank' rel='nofollow'>Bootstrap Blog</a>: Bootstrap's offical blog
-<a href='http://expo.getbootstrap.com/' target='_blank' rel='nofollow'>Bootstrap Expo</a>: Bootstrap site inspiration
-<a href='http://builtwithbootstrap.com/' target='_blank' rel='nofollow'>Built with Bootstrap</a>: Showcase of sites built using Bootstrap
-<a href='https://github.com/twbs/bootlint' target='_blank' rel='nofollow'>Bootlint</a>: HTML linter for projects using Bootstrap
-<a href='https://bootsnipp.com/' target='_blank' rel='nofollow'>Bootsnipp</a>: Design elements and code snippets for Bootstrap
-<a href='http://expo.getbootstrap.com/resources/' target='_blank' rel='nofollow'>More Resources</a>: Code, theme, and add-on resources for Bootstrap
+[Bootstrap's offical blog](http://blog.getbootstrap.com/)
+[Bootstrap site inspiration](http://expo.getbootstrap.com/)
+[Showcase of sites built using Bootstrap](http://builtwithbootstrap.com/)
+[HTML linter for projects using Bootstrap](https://github.com/twbs/bootlint)
+[Design elements and code snippets for Bootstrap](https://bootsnipp.com/)
+[Code, theme, and add-on resources for Bootstrap](http://expo.getbootstrap.com/resources/)
