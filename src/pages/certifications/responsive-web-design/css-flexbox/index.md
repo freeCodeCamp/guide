@@ -11,4 +11,4 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-<a href 'https://css-tricks.com/snippets/css/a-guide-to-flexbox/' target='_blank' rel='nofollow'>This is a complete guide to flexbox.
+<a href='https://css-tricks.com/snippets/css/a-guide-to-flexbox/' target='_blank' rel='nofollow'>This is a complete guide to flexbox.
