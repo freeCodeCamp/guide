@@ -49,7 +49,7 @@
   "license": "MIT",
   "main": "n/a",
   "scripts": {
-    "_comment": "ONLY RUN BUILD IF YOUR SYSTEM HAS 8GB OR MORE OF RAM",
+    "_comment": "ONLY ON SYSTEM HAS 8GB OR MORE OF RAM",
     "build": "node bin/createNavData && node --max_old_space_size=7168 ./node_modules/gatsby/dist/gatsby-cli.js build",
     "dev": "node bin/createNavData && gatsby develop",
     "lint": "eslint --ext .js,.jsx --ignore-path .gitignore .",
