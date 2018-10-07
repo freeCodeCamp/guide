@@ -317,7 +317,7 @@ Please keep the following recommendations in mind:
 
 - To ensure correct rendering, each codeblock must have a language label. You can find a list of supported languages [here](http://prismjs.com/#languages-list ).
 - For codeblocks with no appropriate language, use generic labels like ` ```text `, or ` ```code `.
-- You may know about markdown's four-space indentation syntax for writing codeblocks. However, this is currently __not__ supported by our rendering system.
+- You may know about markdown's four-space indentation syntax for writing codeblocks. However, this is currently __not__ supported by our rendering system. *sad_face*
 
 Finally, here are some suggested formatting guidelines when writing code blocks:
 
