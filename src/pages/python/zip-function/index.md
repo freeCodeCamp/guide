@@ -18,7 +18,7 @@ A list of tuple of nth element from all sequences
     numsAndNames = zip([1,2,3],['one','two','three'])
     print(*numsAndNames) # prints (1,'one') (2,'two') (3,'three')
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CL8k/0' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/@StuffsExplained/pythonZipFunction' target='_blank' rel='nofollow'>Run Code</a>
 
 <a href='https://docs.python.org/3.3/library/functions.html#zip' target='_blank' rel='nofollow'>Official Docs - Python 3</a>
 
