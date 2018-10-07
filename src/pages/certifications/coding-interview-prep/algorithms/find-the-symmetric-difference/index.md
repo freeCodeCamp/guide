@@ -181,7 +181,7 @@ In the event of *odd number of sets* the symmetric difference will include ident
 
 * The main function *sym()* creates an array from *arguments* and reduces its elements utilising helper function *diffArray()* to a single array.
 
-* The function *diffArray()* returns the symmetric difference of two arrays by picking out unique elements in parameterised arrays; *arr1* and *arr2*.
+* The function *diffArray()* returns the symmetric difference of two arrays by picking out unique elements in parameterised arrays; *arr1* and *arr2*. 
 
 #### Relevant Links ####
 
