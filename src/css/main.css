@@ -263,6 +263,7 @@
   .sideNav {
     overflow-y: auto;
     max-height: none;
+    color: #006400;
   }
 }
 
