@@ -30,7 +30,7 @@ Pengembangan front-end (bentuk kata sifat dengan tanda hubung) adalah ketika And
 
 Kami menyambut bantuan Anda menulis artikel ini. Anda tidak perlu menjadi ahli dalam topik untuk menulis tentang hal ini — seluruh Panduan ini bersifat open source, jadi bahkan jika Anda membuat kesalahan, kontributor lain pada akhirnya akan memperbaikinya.
 
-To help, find a `stub article` on our [Guide website](https://guide.freecodecamp.org/), write the article, then open a pull request (PR) to replace the stub with your article. A [pull request](https://help.github.com/articles/about-pull-requests/) is how you'll suggest changes. It lets others know about your changes, review them and adopt them.
+Untuk membantu, temukan a `stub article` pada kita [Guide website](https://guide.freecodecamp.org/), tulis artikel, lalu buka permintaan tarik (PR) untuk mengganti tulisan dengan artikel Anda. Sebuah [pull request](https://help.github.com/articles/about-pull-requests/) adalah bagaimana Anda akan menyarankan perubahan. Ini memungkinkan orang lain tahu tentang perubahan Anda, tinjau dan terapkan.
 
 Jika Anda tidak dapat menemukan stub tentang topik yang ingin Anda tulis, Anda dapat membuka PR yang membuat stub dan menyertakan artikel draf Anda.
 
@@ -40,7 +40,7 @@ Sebelum Anda mulai menulis, pastikan untuk membaca [panduan gaya artikel](https:
 
 ## Berkontribusi
 
-1. 🍴 Fork repo ini
+1. 🍴  Fork repo ini
 2. 👀️ Ikuti panduan kontribusi yang diuraikan dalam [CONTRIBUTING.md](CONTRIBUTING.md).
 3. 🔧 Buat perubahan yang luar biasa!
 4. 👉 [Buat permintaan tarik](https://github.com/freeCodeCamp/guide/compare)
