@@ -3,13 +3,15 @@ title: Convert Fractions to Percents
 ---
 ## Convert Fractions to Percents
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/convert-fractions-to-percents/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+One percent (1%) represents a hundredth of a whole.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+One hundred percent (100%) represents a whole.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+To convert a fraction to percents, simply multiply it by a whole (100%).
 
 
+### Examples
+
+½ × 100% = 50%
+
+⅛ × 100% = 12.5%
