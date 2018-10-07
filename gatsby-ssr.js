@@ -1,24 +1,30 @@
 import React from 'react';
-import { Provider } from 'react-redux';
 import { renderToString } from 'react-dom/server';
 
-import createStore from './src/store';
+import NavigationContextProvider from './src/contexts/NavigationContext';
 
-const store = createStore();
+export const replaceRenderer = ({ bodyComponent, replaceBodyHTMLString }) =>
+  replaceBodyHTMLString(
+    renderToString(
+      <NavigationContextProvider>{bodyComponent}</NavigationContextProvider>
+    )
+  );
 
-exports.replaceRenderer = ({ bodyComponent, replaceBodyHTMLString }) => {
-
-    function renderConnectedBody(reduxStore) {
-        return (
-            <Provider store={ reduxStore }>
-                { bodyComponent }
-            </Provider>
-        );
-    }
-
-    const providerWrappedBodyString = renderToString(
-        renderConnectedBody(store)
-    );
-
-    replaceBodyHTMLString(providerWrappedBodyString);
+export const onRenderBody = ({ setHeadComponents }) => {
+  setHeadComponents([
+    <script
+      async={true}
+      src='https://www.googletagmanager.com/gtag/js?id=AW-795617839'
+    />,
+    <script
+      dangerouslySetInnerHTML={{
+        __html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'AW-795617839');
+        `
+      }}
+    />
+  ]);
 };
