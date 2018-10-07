@@ -20,8 +20,8 @@ Each method has a signature, which is the combination of the data type, the name
 
 ```java
 public class Car {
-    private String name;
-    private String manufacturersName;
+    public String name;
+    public String manufacturersName;
 
     public void changeName() {
         name = "Tesla";
@@ -41,7 +41,7 @@ Parameters can be passed into methods. Parameters are declared just after the na
 Syntax for parameter declaration is [Data Type] [Name].
 ```java
 public class Car {
-    private String name;
+    public String name;
 
     public void changeName(String newName) {
         name = newName;
@@ -55,7 +55,7 @@ Methods often serve many purposes such as updating information in an object or p
 
 ```java
 public class Car {
-    private int numberOfWheels;
+    public int numberOfWheels;
     
     public void setNumberOfWheels(int newNumberOfWheels) {
         numberOfWheels = newNumberOfWheels;
@@ -73,8 +73,8 @@ There is also a special method called a constructor that allows for data to be s
 
 ```java
 public class Car {
-    private String model;
-    private int numberOfWheels;
+    public String model;
+    public int numberOfWheels;
     
     public Car(String model, int numberOfWheels) {
         this.model = model;
