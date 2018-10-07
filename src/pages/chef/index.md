@@ -18,12 +18,8 @@ title: Chef
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-- [Chef TutorialsPoint][1]
-- [Official Documnetation][2]
-- [Chef Tutorial][3]
-
-[1]: https://www.tutorialspoint.com/chef/chef_overview.htm
-[2]: https://docs.chef.io/chef_overview.html
-[3]: http://gettingstartedwithchef.com/
+- [Chef TutorialsPoint](https://www.tutorialspoint.com/chef/chef_overview.htm)
+- [Official Documnetation](https://docs.chef.io/chef_overview.html)
+- [Chef Tutorial](http://gettingstartedwithchef.com/)
 
     
