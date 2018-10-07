@@ -14,7 +14,7 @@ function Breadcrumbs(props) {
   }
 
   const pathMap = path
-    // remove leading and trailing slash
+    // remove leading and trailing slash gnr
     .replace(/^\/([a-z0-9/-]+[^/])\/?$/i, '$1')
     .split('/')
     .reduce((accu, current, i, pathArray) => {
