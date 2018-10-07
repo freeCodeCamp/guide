@@ -28,17 +28,17 @@ Scalar refers to an atomic quantity that can hold only one value at a time. Scal
 	[1] "logical"
 
 3. Character(string)
-	> a <- "1"; b <- "2.5"       # Are they different from x and y we used earlier?
+	> a <- "1"; b <- "2.5" 
 	> a;b
 	[1] "1"
 	[1] "2.5"
-	> a+b                        # a+b=3.5?
+	> a+b
 	Error in a + b : non-numeric argument to binary operator
 	> class(a)
 	[1] "character"
-	> class(as.numeric(a))       # but you can coerce this character into a number
+	> class(as.numeric(a))
 	[1] "numeric"
-	> class(as.character(x))     # vice resa
+	> class(as.character(x))
 	[1] "character"
 
 
@@ -57,19 +57,14 @@ It is a sequence of data elements of the same basic type. For example:
 
 ## Matrix
 
-It is a two-dimensional rectangular data set. The components in a matrix also must be of the same basic type like vector. For example: 
+It is a two-dimensional rectangular data set. The components in a matrix also must be of the same basic type like vector. For example:
 
-	> t <- matrix(
-	+     1:12,                 # the data components (Don't type "+"!)
-	+     nrow=4,               # number of rows
-	+     ncol=3,               # number of columns
-	+     byrow = FALSE)        # fill matrix by columns
-	> t                         # print the matrix
-	     [,1] [,2] [,3]
-	[1,]    1    5    9
-	[2,]    2    6   10
-	[3,]    3    7   11
-	[4,]    4    8   12
+	> m = matrix( c('a','a','b','c','b','a'), nrow = 2, ncol = 3, byrow = TRUE)
+	> m
+
+	>[,1] [,2] [,3]
+	[1,] "a"  "a"  "b" 
+	[2,] "c"  "b"  "a"
 
 ## Data Frame
 
@@ -79,8 +74,9 @@ It is more general than a matrix, in that different columns can have different b
 	> e <- c("red", "white", "red", NA)
 	> f <- c(TRUE,TRUE,TRUE,FALSE)
 	> mydata <- data.frame(d,e,f)
-	> names(mydata) <- c("ID","Color","Passed")      # variable names
+	> names(mydata) <- c("ID","Color","Passed")
 	> mydata
+
 	  ID Color Passed
 	1  1   red   TRUE
 	2  2 white   TRUE
