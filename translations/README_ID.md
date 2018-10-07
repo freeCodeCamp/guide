@@ -26,32 +26,32 @@ Anda dapat menemukan [contoh artikel tentang Elemen HTML di sini](./src/pages/ht
 
 ## Apa yang bisa saya tulis artikel tentang?
 
-Front-end development (adjective form with a dash) is when you are working on the front end (noun form with no dash). The same goes with the back end, full stack, and many other compound terms.
+Pengembangan front-end (bentuk kata sifat dengan tanda hubung) adalah ketika Anda bekerja pada ujung depan (bentuk kata benda tanpa dash). Hal yang sama berlaku dengan bagian belakang, tumpukan penuh, dan banyak istilah gabungan lainnya.
 
-We welcome your help writing these articles. You don't have to be an expert in a topic to write about it—this entire Guide is open source, so even if you make a mistake, another contributor will eventually correct it.
+Kami menyambut bantuan Anda menulis artikel ini. Anda tidak perlu menjadi ahli dalam topik untuk menulis tentang hal ini — seluruh Panduan ini bersifat open source, jadi bahkan jika Anda membuat kesalahan, kontributor lain pada akhirnya akan memperbaikinya.
 
 To help, find a `stub article` on our [Guide website](https://guide.freecodecamp.org/), write the article, then open a pull request (PR) to replace the stub with your article. A [pull request](https://help.github.com/articles/about-pull-requests/) is how you'll suggest changes. It lets others know about your changes, review them and adopt them.
 
-If you can't find a stub about the topic you'd like to write about, you can open a PR that creates the stub and includes your draft article. 
+Jika Anda tidak dapat menemukan stub tentang topik yang ingin Anda tulis, Anda dapat membuka PR yang membuat stub dan menyertakan artikel draf Anda.
 
-Feel free to ask us questions [in Gitter](https://gitter.im/freeCodeCamp/Contributors) if you're not sure where to put a new article in the directory structure.
+Jangan ragu untuk bertanya kepada kami [di Gitter](https://gitter.im/freeCodeCamp/Contributors) jika anda tidak yakin di mana harus meletakkan artikel baru di struktur direktori.
 
-Before you begin writing, make sure to read the [article style guide](https://github.com/freeCodeCamp/guide/blob/master/CONTRIBUTING.md#article-style-guide) outlined in [CONTRIBUTING.md](CONTRIBUTING.md). 
+Sebelum Anda mulai menulis, pastikan untuk membaca [panduan gaya artikel](https://github.com/freeCodeCamp/guide/blob/master/CONTRIBUTING.md#article-style-guide) outlined in [CONTRIBUTING.md](CONTRIBUTING.md). 
 
-## Contributing
+## Berkontribusi
 
-1. 🍴 Fork this repo
-2. 👀️ Follow the contributing guidelines outlined in [CONTRIBUTING.md](CONTRIBUTING.md).
-3. 🔧 Make some awesome changes!
-4. 👉 [Make a pull request](https://github.com/freeCodeCamp/guide/compare)
-5. 🎉 Get your pull request approved—success!
+1. 🍴 Fork repo ini
+2. 👀️ Ikuti panduan kontribusi yang diuraikan dalam [CONTRIBUTING.md](CONTRIBUTING.md).
+3. 🔧 Buat perubahan yang luar biasa!
+4. 👉 [Buat permintaan tarik](https://github.com/freeCodeCamp/guide/compare)
+5. 🎉 Dapatkan permintaan penarikan Anda disetujui — sukses!
 
-Or just [create an issue](https://github.com/freeCodeCamp/guide/issues)—any little bit of help counts! 😊
+Atau hanya [buat masalah](https://github.com/freeCodeCamp/guide/issues)—any little bit of help counts! 😊
 
-## License
+## Lisensi
 
-Copyright (c) 2018 freeCodeCamp.
+hak cipta (c) 2018 freeCodeCamp.
 
-The content of this repository is bound by the following licenses:
-- The computer software is licensed under the [BSD-3-Clause](./LICENSE.md).
-- The reference content in [`/src/pages`](/src/pages) and subdirectories is licensed under the [CC-BY-SA-4.0](./src/pages/LICENSE.md).
+Isi dari repositori ini terikat oleh lisensi berikut:
+- Perangkat lunak komputer dilisensikan di bawah [BSD-3-Clause](./LICENSE.md).
+- Konten referensi dalam [`/src/pages`](/src/pages) dan subdirektori dilisensikan di bawah [CC-BY-SA-4.0](./src/pages/LICENSE.md).
