@@ -159,6 +159,7 @@ function binary_search(a, v) {
 ### Example in C++
 
 Recursive approach!
+
 ```C++ - Recursive approach
 int binarySearch(int arr[], int start, int end, int x) 
 { 
@@ -178,6 +179,7 @@ int binarySearch(int arr[], int start, int end, int x)
 ```
 
 Iterative approach!
+
 ```C++ - Iterative approach
 int binarySearch(int arr[], int start, int end, int x) 
 { 
