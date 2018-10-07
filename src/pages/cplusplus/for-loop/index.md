@@ -43,3 +43,33 @@ value of a: 16
 value of a: 17
 value of a: 18
 value of a: 19
+
+##Single lined loop
+The body of the for loop need not be enclosed in braces if the loop iterates over only one satatement.
+##Example
+```c++
+   #include<iostream.h>
+   using namespace std;
+ 
+   int main () {
+   // Single line for loop
+   for( int a = 10; a < 20; a = a + 1 ) 
+      cout << "value of a: " << a << endl;
+   
+
+   return 0;
+}```
+
+This would generate the same output as the previous program.
+i.e 
+Output:
+value of a: 10
+value of a: 11
+value of a: 12
+value of a: 13
+value of a: 14
+value of a: 15
+value of a: 16
+value of a: 17
+value of a: 18
+value of a: 19
