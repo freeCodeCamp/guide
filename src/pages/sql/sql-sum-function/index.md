@@ -10,7 +10,7 @@ This is one of the aggregate functions (as is count, average, max, min, etc.). T
 
 This data is from the campaign contributions data we've been using in some of these guides.
 
-This SQL statement is answering the question: "which candidates received the largest total contribution dollars in 2016 BUT only those that had more than $20 Million USD for all contrabutions combined?"
+This SQL statement is answering the question: "which candidates received the largest total contribution dollars in 2016 BUT only those that had more than $20 Million USD for all contributions combined?"
 
 Ordering this data set in a descending (DESC) order places the candidates with the largest total contributions at the top of the list.
 
