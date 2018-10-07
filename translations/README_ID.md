@@ -10,21 +10,21 @@
 
 [![Throughput Graph](https://graphs.waffle.io/freeCodeCamp/guide/throughput.svg)](https://waffle.io/freeCodeCamp/guide/metrics)
 
-The freeCodeCamp community is building a massive, searchable **"Guide"**.
+Komunitas freeCodeCamp sedang membangun besar, dapat dicari **"Guide"**.
 
-This reference tool will eventually include thousands of articles that cover all areas of development, design, and data science—all written to be easily understood by people new to coding.
+Alat referensi ini pada akhirnya akan mencakup ribuan artikel yang mencakup semua bidang pengembangan, desain, dan ilmu data — semua ditulis agar mudah dipahami oleh orang-orang yang baru berkode.
 
-This repo is where we plan and maintain these Guide articles, which we then host on our community's wiki-like Guide website at [`guide.freecodecamp.org`](https://guide.freecodecamp.org).
+Repo ini adalah tempat kami merencanakan dan memelihara artikel Panduan ini, yang kemudian kami selenggarakan di situs web panduan wiki-like komunitas kami di [`guide.freecodecamp.org`](https://guide.freecodecamp.org).
 
-## What are Guide articles?
+## Apa itu artikel Panduan?
 
-The Guide articles aim to be short articles to get you started and familiar with these concepts before going on to read more in-depth material.
+Artikel Panduan bertujuan untuk menjadi artikel singkat agar Anda mulai dan akrab dengan konsep-konsep ini sebelum melanjutkan membaca lebih banyak materi mendalam.
 
-Guide articles can be an explanation of a syntax, design pattern, what aria labels are for, or something like what the numbers mean in the top right-hand corner of your screen when at [freecodecamp.org](https://freecodecamp.org).
+Panduan artikel dapat berupa penjelasan tentang sintaks, pola desain, apa label aria untuk, atau sesuatu seperti apa artinya angka di sudut kanan atas layar Anda saat di [freecodecamp.org](https://freecodecamp.org).
 
-You can find an [example article about HTML Elements here](./src/pages/html/elements/index.md).
+Anda dapat menemukan [contoh artikel tentang Elemen HTML di sini](./src/pages/html/elements/index.md).
 
-## What can I write an article about?
+## Apa yang bisa saya tulis artikel tentang?
 
 Front-end development (adjective form with a dash) is when you are working on the front end (noun form with no dash). The same goes with the back end, full stack, and many other compound terms.
 
