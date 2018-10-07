@@ -1,15 +1,30 @@
 ---
-title: Converting Units Minutes to Hours
+title: Converting Units Minutes to Hours		
 ---
+
 ## Converting Units Minutes to Hours
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/converting-units-minutes-to-hours/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+A minute is defined as one sixtieth of an hour. Conversion between minutes and hours is thus given by
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+<pre><code>t<sub>h</sub> = t<sub>min</sub> / 60
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+t<sub>min</sub> = t<sub>h</sub> * 60
+</code></pre>
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+where t<sub>min</sub> is the time in minutes and t<sub>h</sub> is the time in hours.
 
+The symbols for time in minutes and hours are **min** and **h** respectively (The International System of Units, 8th edition, [Chapter 4: Units outside the SI](https://www.bipm.org/utils/common/pdf/si_brochure_8_en.pdf)).
 
+### Examples
+
+Converting from time in minutes to time in hours:
+
+```
+90 minutes = (90 / 60) hours = 1.5 hours
+```
+
+Converting from time in hours to time in minutes:
+
+```
+24 hours = (24 * 60) minutes = 1440 minutes
+```

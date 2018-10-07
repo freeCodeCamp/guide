@@ -18,6 +18,6 @@ The concept of story points can be quite elusive if you are new to Agile ways of
 As you learn about the principles and terminology of practices like Scrum, the reasons for some of these properties will become apparent. The use of story points, especially in 'ceremonies' such as planning poker, is much easier to understand by observing or taking part than in a written explanation!
 
 ### More Information:
-- User Stories: [freeCodeCamp](https://guide.freecodecamp.org/agile/user-stories)
-- Common mistakes when using story points: [Medium](https://medium.com/bynder-tech/12-common-mistakes-made-when-using-story-points-f0bb9212d2f7)
-- Planning Poker: [Mountain Goat Software](https://www.mountaingoatsoftware.com/agile/planning-poker)
+- User Stories: <a href='https://guide.freecodecamp.org/agile/user-stories' target='_blank' rel='nofollow'>freeCodeCamp</a>
+- Common mistakes when using story points: <a href='https://medium.com/bynder-tech/12-common-mistakes-made-when-using-story-points-f0bb9212d2f7' target='_blank' rel='nofollow'>Medium</a>
+- Planning Poker: <a href='https://www.mountaingoatsoftware.com/agile/planning-poker' target='_blank' rel='nofollow'>Mountain Goat Software</a>
