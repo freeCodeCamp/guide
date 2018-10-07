@@ -39,6 +39,10 @@ This is illustrated below:
 
 ![PHP-server-model](https://github.com/xeroxism/myImages/blob/master/FCC_guides/PHP-server-model.png?raw=true)
 
+PHP is an interpreted language. This means that when you make changes to your source code you can immediately test these changes, without first needing to compile your source code into binary form. Skipping the compilation step makes the development process much faster.
+
+PHP code is enclosed between the ```<?php``` and ``` ?> ``` tags and can then be embedded into HTML.
+
 ## Installation
 
 PHP can be installed with or without a web server.
