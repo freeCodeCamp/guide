@@ -83,7 +83,7 @@ Hence, we have sorted the complete list in this way.
     for i in range(len(arr)):
         print(arr[i],end = ' ')
 
-![:rocket:</a> <a href='https://repl.it/CWZi' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CWZi' target='_blank' rel='nofollow'>Run Code</a>
 
 ## Advantages
 

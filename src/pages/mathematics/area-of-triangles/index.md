@@ -1,23 +1,26 @@
 ---
 title: Area of Triangles
 ---
+
 ## Area of Triangles
 
-The area of a triangle is defined as the space enclosed by the three sides of the triangle.
+The area of a triangle is the total enclosed space on the two-dimensional plane by the sides of the triangle.
+
+![Triangle](http://www.mathportal.org/calculators/plane-geometry-calculators/triangleEquilateral.gif)
 
 #### Terminology
 
-Base (b) - The length of one side of the triangle.
-
-Height (h) - The length of a line perpendicular with the base to the opposite point of the triangle.
+* Base (b) - The length of one side of the triangle.
+* Height (h) - The length of a line perpendicular with the base to the opposite point of the triangle.
 
 #### Formula
+__Area = 0.5 * base of the triangle * height of the triangle__
 
-Area of triangle =  <span class="texhtml"><span class="texhtml">1/2</span> * <i>base</i> * <i>height</i></span>
+For example in the image above,
 
-#### Example
+Area = 0.5 * a * h
 
-![triangle](https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Rectangle2-area-is-bh.svg/194px-Rectangle2-area-is-bh.svg.png)
+### More Information
 
-#### More Information:
-More information with illustrations can be found <a href="https://www.wikihow.com/Calculate-the-Area-of-a-Triangle">here</a>
+* [Area of Triangles](http://www.onlinemathlearning.com/area-triangle.html)
+* [How to Calculate the Area of a Triangle](https://www.wikihow.com/Calculate-the-Area-of-a-Triangle)

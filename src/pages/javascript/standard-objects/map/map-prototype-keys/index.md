@@ -2,14 +2,24 @@
 title: Map.prototype.keys
 ---
 ## Map.prototype.keys
+Returns a new `Iterator` object that contains the keys for each element in the `Map` object in insertion order.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/standard-objects/map/map-prototype-keys/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+## Syntax
+```javascript
+myMap.keys()
+```
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+##Example
+```javascript
+const myMap = new Map();
+myMap.set('foo',1);
+myMap.set('bar',2);
+myMap.set('baz',3);
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+const iterator = myMap.keys();
 
-
+console.log(iterator.next().value); // 'foo'
+console.log(iterator.next().value); // 'bar'
+console.log(iterator.next().value); // 'baz'
+```
