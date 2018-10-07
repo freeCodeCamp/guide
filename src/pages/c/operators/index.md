@@ -167,6 +167,16 @@ title: Operators
   a %= 5; // equivalent to a = a % 5 = 21 % 5 = 1
   ```
      
+Misc Operators ↦ sizeof & ternary
+Besides the operators discussed above, there are a few other important operators including sizeof and ? : supported by the C Language.
+
+Operator	               Description	                                        Example
+sizeof()	               Returns the size of a variable.	                    sizeof(a), where a is integer, will return 4.
+&	                    Returns the address of a variable.	                    &a; returns the actual address of the variable.
+*	                    Pointer to a variable.	                              *a;
+? :	                    Conditional Expression.	                              If Condition is true ? then value X : otherwise value Y
+
+
 ## 6. Operator precedence in C
 Operators with the highest precedence appear at the top of the list. Within an expression, operators
 with higher precedence will be evaluated first.
