@@ -1,5 +1,5 @@
 ---
-title: PHP Install
+title: How to Install PHP Install
 ---
 
 ### What Do I Need for Installation?
