@@ -18,7 +18,7 @@ The return value would be the result of the evaluated mathematical expression.
     x = 2
     print(eval("x + 3")) # prints 5 as x variable will be replaced by its value 2 
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CL8k/0' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/@StuffsExplained/pythonEvalFunction' target='_blank' rel='nofollow'>Run Code</a>
 
 <a href='https://docs.python.org/3/library/functions.html#eval' target='_blank' rel='nofollow'>Official Docs - Python 3</a>
 
