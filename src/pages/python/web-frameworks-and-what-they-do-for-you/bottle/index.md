@@ -17,7 +17,7 @@ The following details how to write and run a simple greeting web app where we ca
    
     Let's add a heading and a basic form to this page.
 
-    ```
+    ```html
     <h3>Say Hello</h3>
 
     <form action="/hello" method="get">
@@ -30,7 +30,7 @@ The following details how to write and run a simple greeting web app where we ca
 3. Create a new python file, example `main.py`.
 
 4. In the first line of the file we need to import get, request, and run functions from the bottle module.
-    ```
+    ```python
     from bottle import get, request, run
     ```
 
@@ -42,7 +42,7 @@ The following details how to write and run a simple greeting web app where we ca
 
     To read and return the html file we created in step 2, we use what is called a context manager. This handles opening and closing the file for us, allowing us to read the files and contents and return them with the `return` statement.
 
-    ```
+    ```python
     @get('/')
     def index():
         with open('./index.html') as f:
@@ -59,7 +59,7 @@ The following details how to write and run a simple greeting web app where we ca
     If we enter our name and press submit now we will get a `HTTP 404` error though as we have not yet defined the function to respond to this request.
 
 
-    ```
+    ```python
     run(host='localhost', port=8080)
     ```
 
@@ -72,7 +72,7 @@ The following details how to write and run a simple greeting web app where we ca
 
     Finally we return our greeting, appending the name entered in our form.
 
-    ```
+    ```python
     @get('/hello')
     def hello():
         name = request.query['name']
