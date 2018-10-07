@@ -246,6 +246,27 @@ Clicking the button causes the button to arc across the screen. The arc moves as
 
 Any number of keyframes can existing between offset 0 and 1. Intricate animation sequences take the form of keyframes. They are one of many advanced techniques in Angular animations.
 
+### Animations With Host Binding
+
+You will undoubtedly come across the situation where you want to attach an animation to the HTML element of a component itself, instead of an element in the component's template. This requires a little more effort since you can't just go into the template HTML and attach the animation there. Instead, you'll have to import `HostBinding` and utilize that.
+
+The minimal code for this scenario is shown below. I'll re-use the same animation condition for the code above for consistency and I don't show any of the actual animation code since you can easily find that above.
+
+```typescript
+import { Component, HostBinding } from '@angular/core';
+
+@Component({
+...
+})
+export class ExampleComponent {
+  @HostBinding('@animateArc') get arcAnimation() {
+    return this.arc;
+  }
+}
+```
+
+The idea behind animating the host component is pretty much the same as animating a element from the template with the only difference being your lack of access to the element you are animating. You still have to pass the name of the animation (`@animateArc`) when declaring the `HostBinding` and you still have to return the current state of the animation (`this.arc`). The name of the function doesn't actual matter, so `arcAnimation` could have been changed to anything, as long as it doesn't clash with existing property names on the component, and it would work perfectly fine.
+
 #### Conclusion
 
 This covers the basics of animating with Angular. Angular makes setting up animations very easy using the Angular CLI. Getting started with your first animation only requires a single component class. Remember, animations scope to the component’s template. Export your transitions array from a separate file if you plan to use it across multiple components.
