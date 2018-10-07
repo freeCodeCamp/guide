@@ -7,4 +7,6 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 
 <a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
 
+#### More Infomation
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+[An Introduction to the fr CSS unit - CSS tricks](https://css-tricks.com/introduction-fr-css-unit/)
