@@ -156,6 +156,44 @@ function binary_search(a, v) {
 }
 ```
 
+### Example in C++
+
+Recursive approach!
+```C++ - Recursive approach
+int binarySearch(int arr[], int start, int end, int x) 
+{ 
+   if (end >= start) 
+   { 
+        int mid = start + (end - start)/2; 
+        if (arr[mid] == x)   
+            return mid; 
+
+        if (arr[mid] > x)  
+            return binarySearch(arr, start, mid-1, x); 
+  
+        return binarySearch(arr, mid+1, end, x); 
+   } 
+   return -1; 
+}
+```
+
+Iterative approach!
+```C++ - Iterative approach
+int binarySearch(int arr[], int start, int end, int x) 
+{ 
+    while (start <= end) 
+    { 
+        int mid = start + (end - start)/2; 
+        if (arr[mid] == x) 
+            return mid; 
+        if (arr[mid] < x) 
+            start = mid + 1; 
+        else
+            end = mid - 1; 
+    } 
+    return -1; 
+}
+```
 ### More Information
 * [Binary search (YouTube video)](https://youtu.be/P3YID7liBug)
 * [Binary Search - CS50](https://www.youtube.com/watch?v=5xlIPT1FRcA)
