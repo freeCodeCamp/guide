@@ -2,7 +2,6 @@
 title: Dunning Kruger Effect
 ---
 
-
 ## Dunning Kruger (DK) Effect
 
 ### Wikipedia's Definition
