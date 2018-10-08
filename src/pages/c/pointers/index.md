@@ -59,7 +59,7 @@ Now let's take a look what referring to a memory location means for your code:
 Notice that in order to get the value of the data at `*my_pointer`, you'll need to tell C that you want to get the value the variable is pointing at. Try running this code without that asterisk, and you'll be able to print the memory location, because that's what the `my_variable` variable is actually holding.
 
 You can declare multiple pointer in a single statement as with standard variables, like so: 
-```
+```c
 int *x, *y;
 ```
 Notice that the `*` is required before each variable. This is because being a pointer is considered as part of the variable and not part of the datatype.
@@ -67,25 +67,13 @@ Notice that the `*` is required before each variable. This is because being a po
 ## Practical Uses of Pointers
 ### Arrays
 The most common application of a pointer is in an array. Arrays, which you'll read about later, allow for a group of variables. You don't actually have to deal with `*` and `&` to use arrays, but that's what they're doing behind the scenes.
-```c
-    // Decleare an array
-    int arr[10];
-    // Decleare a pointer
-    int *arr_ptr;
-    // Where is the `&`?
-    arr_ptr = arr;
-```
-#### Explaination:
-At first, We decleared an array that hold ```10``` integer numbers and a pointer with no address in it.
-
-Second, We can see we passed ```arr``` itself to ```arr_ptr```, from  
 
 ### Functions
 Sometimes you want to adjust a variable in a function, but if you pass it to an array, it has its own copy to work with. If instead you pass that memory location, however, you can access it from outside of its normal scope. This is because you are touching the original memory location itself, allowing you to adjust something in a function and having it make changes elsewhere.
 ####Use in call by reference
 
 Program to swap two number using call by reference.
-
+```c
  /* C Program to swap two numbers using pointers and function. */
 #include <stdio.h>
 void swap(int *n1, int *n2);
@@ -109,12 +97,12 @@ void swap(int * n1, int * n2)
     *n1 = *n2;
     *n2 = temp;
 }
-
+```
 Output
-
+```
 Number1 = 10
 Number2 = 5
-
+```
 The address of memory location num1 and num2 are passed to the function swap and the pointers *n1 and *n2 accept those values.
 
 So, now the pointer n1 and n2 points to the address of num1 and num2 respectively.
@@ -192,8 +180,8 @@ The qualifier const can be applied to the declaration of any variable to specify
 
 # Pointer to variable
 We can change the value of ptr and we can also change the value of object ptr pointing to.
-Following code fragment explains pointer to variabel
-```
+Following code fragment explains pointer to variable
+```c
 #include <stdio.h>
 int main(void)
 {
@@ -215,7 +203,7 @@ int main(void)
 ```
 # Pointer to constant
 We can change pointer to point to any other integer variable, but cannot change value of object (entity) pointed using pointer ptr.
-```
+```c
 #include <stdio.h> 
 int main(void)
 {
@@ -236,7 +224,7 @@ int main(void)
 # Constant pointer to variable
 In this we can change the value of the variable the pointer is pointing to. But we can't change the pointer to point to 
 another variable.
-```
+```c
 #include <stdio.h>
 int main(void)
 {
@@ -255,14 +243,14 @@ int main(void)
 ```
 # constant pointer to constant
 Above declaration is constant pointer to constant variable which means we cannot change value pointed by pointer as well as we cannot point the pointer to other variable.
-```
+```c
 #include <stdio.h>
   
 int main(void)
 {
     int i = 10;
     int j = 20;
-    const int *const ptr = &i;        /* constant pointer to constant integer */
+    const int *const ptr = &i; /* constant pointer to constant integer */
   
     printf("ptr: %d\n", *ptr);
   
@@ -295,15 +283,15 @@ Most of the time, pointer and array accesses can be treated as acting the same, 
 * char *pointer = “abc” sets pointer to the address of the “abc” string (which may be stored in read-only memory and thus unchangeable)
 
 4) Pointer variable can be assigned a value whereas array variable cannot be.
-```
-int a[10];
-int *p; 
-p=a; /*legal*/
-a=p; /*illegal*/ 
-```
+```c
+    int a[10];
+    int *p; 
+    p = a; /*legal*/
+    a = p; /*illegal*/ 
+```c
 5) Arithmetic on pointer variable is allowed.
-```
-p++; /*Legal*/
-a++; /*illegal*/ 
+```c
+    p++; /*Legal*/
+    a++; /*illegal*/ 
 ```
 
