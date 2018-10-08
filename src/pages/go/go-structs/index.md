@@ -3,7 +3,7 @@ title: Go Structs
 ---
 ## Go Structs
 
-In go, structs are used to store data and related functions. An example might be a struct to represent a User.
+In Go, structs are used to store data and related functions. An example might be a struct to represent a User:
 
 ```go
 type User struct {
@@ -18,7 +18,7 @@ Here we can store a user's first name, last name, email address, and age. The na
 
 ### Creating objects
 
-To initialise a new object, we can use the Go shorthand syntax for creating and assigning variables. We can either pass the data in at this point or set the data at a later time.
+To initialise a new object, we can use the Go shorthand syntax for creating and assigning variables. We can either pass the data in at this point or set the data at a later time:
 
 ```go
 func main() {
@@ -36,7 +36,7 @@ func main() {
 
 ### Object methods
 
-Go enables assigning methods to `struct`s. This enables grouping of relevant operations to the data it affects. In this example we will write a method on the User `struct` to generate the full name of the user.
+Go enables assigning methods to structs. This enables grouping of relevant operations to the data it affects. In this example we will write a method on the `User` struct to generate the full name of the user:
 
 ```go
 func (u User) FullName() string {
@@ -44,7 +44,7 @@ func (u User) FullName() string {
 }
 ```
 
-This method will join the first and last name of the user with a space in between. Calling the method might look like this
+This method will join the first and last name of the user with a space in between. Calling the method might look like this:
 
 ```go
     println(user1.FullName())
@@ -52,7 +52,7 @@ This method will join the first and last name of the user with a space in betwee
 
 ### Struct Tags
 
-Struct tags are used to modify how encoders handle the data. For example, setting the key names when encoding to JSON
+Struct tags are used to modify how encoders handle the data. For example, setting the key names when encoding to JSON:
 
 ```go
 type User struct {
@@ -65,7 +65,7 @@ type User struct {
 
 ### Exported Data
 
-Structs can contain both exported (public) and unexported (private) properties. This is set by either having an uppercase first letter for exported or a lowercase first letter for unexported. In this example, we will make the email property private
+Structs can contain both exported (public) and unexported (private) properties. This is set by either having an uppercase first letter for exported or a lowercase first letter for unexported. In this example, we will make the email property private:
 
 ```go
 type User struct {
@@ -79,13 +79,13 @@ type User struct {
 }
 ```
 
-Doing this will make the following code throw an error at build time as it is trying to interact with an unexported property
+Doing this will make the following code throw an error at build time as it is trying to interact with an unexported property:
 
 ```go
     user1.email = "john@wick.com"
 ```
 
-This also applies to methods
+This also applies to methods:
 
 ```go
 // Exported method. This can be called from anywhere
@@ -101,7 +101,7 @@ func (u User) updateLoginCount {
 
 ### Modifying properties via methods
 
-To modify the data of an object from within one of it's methods, the object must be a pointer. An example might look like this
+To modify the data of an object from within one of it's methods, the object must be a pointer. An example might look like this:
 
 ```go
 // SetEmail sets the user's email address
