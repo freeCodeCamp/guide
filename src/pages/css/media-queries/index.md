@@ -28,3 +28,4 @@ Here is an example of a media query that sets the size of body text on a phone s
 This media query stipulates that for screen sizes up to 450 pixels in width, the body text should display in a 12px font size.
 
 Media queries can be helpful in [responsive web design](https://guide.freecodecamp.org/html/responsive-web-design).
+[Media Query Examples](https://www.w3schools.com/Css/css3_mediaqueries_ex.asp)
