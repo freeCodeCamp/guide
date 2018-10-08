@@ -8,9 +8,9 @@ The `some()` function is used for verifying if at least one element of an array 
 
 The original syntax of the map function is:
 ```javascript
-  arr.some(function callback(currentValue, index, array) {
-                  // Do some stuff with currentValue (index and array are optionals)
-                })
+arr.some(function callback(currentValue, index, array) {
+        // Do some stuff with currentValue (index and array are optionals)
+        });
 ```
 
 ### Example (ES6):
