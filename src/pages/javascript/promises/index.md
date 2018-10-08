@@ -43,8 +43,6 @@ Promise.resolve('some')
   });
 ```
 
-=======
-
 ## Promise API
 
 There are 4 static methods in the Promise class:
@@ -169,7 +167,7 @@ Promise.all([promise1, promise2, promise3]).then(function(values) {
 // expected output: Array ["catData", "dogData", "cowData"]
 
 ```
-For more information on promises: <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all' target='_blank' rel='nofollow'>Promises</a>
+
 
 ### More Information
 For more information on promises: <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise' target='_blank' rel='nofollow'>Promises</a>
