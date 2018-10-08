@@ -7,12 +7,9 @@ title: If
 The if statement executes different blocks of code based on conditions.
 
 ```
-if (condition)
-{
+if (condition){
 	// Do something when `condition` is true
-}
-else
-{
+} else {
 	// Do something when `condition` is false
 }
 ```
@@ -38,16 +35,11 @@ else
 ```
 You could use the much more concise writing: 
 ```
-if (condition)
-{
+if (condition) {
 	// Do something if `condition` is true
-}
-else if (anotherCondition)
-{
+} else if (anotherCondition) {
 	// Do something if `anotherCondition` is ture
-}
-else
-{
+} else {
 	// Do something if `condition` AND `anotherCondition` is false
 }
 ```
@@ -60,16 +52,11 @@ Note that the `else` and `else if` sections are not required, while `if` is mand
 	Console.WriteLine("Who are you? ");
 	string name = Console.ReadLine();
 	
-	if (name == "John")
-	{
+	if (name == "John") {
 		Console.WriteLine("Hi John!");
-	}
-	else if (name == "Fabio")
-	{
+	} else if (name == "Fabio") {
 		Console.WriteLine("Oh, it's you Fabio :)");
-	}
-	else
-	{
+	} else {
 		Console.WriteLine("Oh! I thought you were John or Fabio. Anyway, nice to meet you {0}!", name);
 	}
 	
