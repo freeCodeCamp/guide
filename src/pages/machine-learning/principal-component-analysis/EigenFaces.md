@@ -1,3 +1,6 @@
+---
+title: Eigen Faces
+---
 ## Eigen Faces
 ### Outline
 * Problem
