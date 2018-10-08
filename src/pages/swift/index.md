@@ -16,6 +16,14 @@ Want to try out Swift right now? [Repl.it](https://repl.it/languages/swift) offe
 
 The latest version is [Swift 4.2](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/RevisionHistory.html), released Sept. 17, 2018. Swift is constantly evolving, and you can expect more changes in the future. It is recommended you use the latest version of Swift when starting a new project.
 
+# New Features in Swift 4
+
+Faster, easier to use Strings that retain Unicode correctness and add support for creating, using and managing substrings
+Smart key paths for type-safe, efficient, extensible key value coding for Swift types
+Enhancements to creating and manipulating Dictionary and Set types
+Extends support of archival and serialization to struct and enum types and enables type-safety for serializing to external formats such as JSON and plist
+Enforced exclusive access to memory
+
 # Documentation
 
 Swift is heavily documented. Keep in mind that coding Swift involves not just
