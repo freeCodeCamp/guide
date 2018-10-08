@@ -13,6 +13,8 @@ The commands listed here are basic, and will help you get started quickly. But t
 1. `cut` When you have a string with separators in it, use `cut` to filter out certain fields. Example: `echo "this, that, and the other" | cut -d, -f2 # "that"`
 1. `grep` To find lines of text that contain a certain string, use grep. Example: `grep 'root' /etc/passwd # root:x:0:0:root:/root:/bin/bash`
 1. `sed` Use sed to find and change a substring in a piece of text. Example: `echo "this, that, and the other" | sed 's/that/those/' # "this, those, and the other"`
+1. `ps -ux` This command is used to check all the current process running on computer system.
+1. 'nano` This command is used to create bash script .For Example:-nano abc.cpp
 
 Use these commands in scripts and at the command line. They're all very powerful commands, and Linux's man page has a lot more information about each one.
 
