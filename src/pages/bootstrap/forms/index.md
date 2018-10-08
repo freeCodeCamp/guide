@@ -178,3 +178,10 @@ In combination with Bootstrap's predefined grid classes to align labels and grou
 ```
     
 ![Horizontal Form](https://github.com/TroyB12/Pictures/blob/master/Horizontal%20Form.PNG)
+
+Checkboxes and radios
+Default checkboxes and radios are improved upon with the help of .form-check, a single class for both input types that improves the layout and behavior of their HTML elements. Checkboxes are for selecting one or several options in a list, while radios are for selecting one option from many.
+
+Disabled checkboxes and radios are supported, but to provide a not-allowed cursor on hover of the parent <label>, you’ll need to add the disabled attribute to the .form-check-input. The disabled attribute will apply a lighter color to help indicate the input’s state.
+
+Checkboxes and radios use are built to support HTML-based form validation and provide concise, accessible labels. As such, our <input>s and <label>s are sibling elements as opposed to an <input> within a <label>. This is slightly more verbose as you must specify id and for attributes to relate the <input> and <label>.
