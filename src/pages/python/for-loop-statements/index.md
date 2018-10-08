@@ -177,6 +177,24 @@ for index, item in enumerate(shopping_basket):
   print("Item", index, "is a", item)
 ```
 
+**Iterate over a list using inline loop function**
+
+We could also iterate inline using python, for example if we need to uppercase all the words in a list from a list we could simply do the following:
+
+```python
+A = ["this", "is", "awesome", "shinning", "star"]
+
+UPPERCASE = [word.upper() for word in A]
+print (UPPERCASE)
+```
+
+Output:
+```
+>
+['THIS', 'IS', 'AWESOME', 'SHINNING', 'STAR']
+>
+```
+
 #### More Information:
 
 - <a href='https://docs.python.org/2.7/tutorial/controlflow.html#for-statements' target='_blank' rel='nofollow'>Python2 for loop documentation</a>
