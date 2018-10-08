@@ -1,7 +1,7 @@
 ---
-title: Computers Dont Have to Use Binary
+title: Computers Don't Have to Use Binary
 ---
-## Computers Dont Have to Use Binary
+## Computers Don't Have to Use Binary
 
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/number-theory/computers-dont-have-to-use-binary/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 

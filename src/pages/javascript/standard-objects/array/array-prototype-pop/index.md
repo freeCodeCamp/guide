@@ -4,22 +4,29 @@ title: Array.prototype.pop
 
 # Array.prototype.pop
 
-The `pop()` method removes the last element from and changes the length of an array. The return value of the method is the removed element, *not* the new array. 
+The `pop()` method removes the last element from and changes the length of an array.
 
 **Syntax**
 ```js
     arr.pop()
 ```
+
+**Return value**
+- The removed element from the array; undefined if the array is empty.
+
 ## Description
 
-The `pop` method removes the last element from an array and returns that value to the caller. 
+The `pop()` method removes the last element from an array and returns that value to the caller. 
+
+If you call `pop()` on an empty array, it returns undefined.
 
 ## Examples
 
 ```js
-var array = [1, 2, 3, 4]
-array.pop() // 4
-array // [1, 2, 3]
+let array = [1, 2, 3, 4];
+array.pop(); // removes 4
+console.log(array); // [1, 2, 3]
+
 [].pop() // undefined
 ```
 #### More Information:
