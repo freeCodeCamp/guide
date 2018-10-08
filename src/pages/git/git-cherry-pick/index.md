@@ -11,7 +11,7 @@ To apply the change introduced by the commit at the tip of the master branch and
 git cherry-pick master
 ```
 ### Apply certain commits from one branch to another
-`cherry-pick` allows you to pick and choose between commits from one branch one to another. Let's say you have two branches `master` and `develop-1`. In the branch `develop-1` you have 3 commits with commit ids `commit-1`,`commit-2` and `commit-3`.Here you can only apply `commit-2` to branch `master` by
+`cherry-pick` allows you to pick and choose between commits from one branch one to another. Let's say you have two branches `master` and `develop-1`. In the branch `develop-1` you have 3 commits with commit ids `commit-1`,`commit-2` and `commit-3`. Here you can only apply `commit-2` to branch `master` by:
 ```shell
 git checkout master
 git cherry-pick commit-2
@@ -20,7 +20,7 @@ If you encounter any conflicts at this point, you have to fix them and add them 
 ```shell
 git cherry-pick --continue
 ```
-If you wish to abort a cherry-pick in between you can use the abort flag
+If you wish to abort a cherry-pick in between you can use the abort flag:
 ```shell
 git cherry-pick --abort
 ```
