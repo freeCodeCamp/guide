@@ -87,5 +87,9 @@ title: Books to Read for Programmers
 - [Amazon Smile](https://www.amazon.com/Think-Python-Like-Computer-Scientist/dp/1491939362)
 - ISBN-13: 978-1491939369
 
+*Python Crash Course: A Hands-On, Project-Based Introduction to Programming*
+- [Amazon Smile](https://www.amazon.co.uk/Python-Crash-Course-Hands-Project-Based/dp/1593276036)
+- ISBN-13: 978-1593276034
+
 This list was compiled from multiple suggestion threads on Reddit and Stackoverflow. 
 Please feel free to add more that you have found useful!
