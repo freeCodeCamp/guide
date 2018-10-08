@@ -91,5 +91,9 @@ title: Books to Read for Programmers
 - [Amazon Smile](https://www.amazon.co.uk/Python-Crash-Course-Hands-Project-Based/dp/1593276036)
 - ISBN-13: 978-1593276034
 
+*Computer Science Distilled: Learn the art of solving computaitonal problems by Wladston Ferreira Filho*
+- [Amazon](https://www.amazon.com/Computer-Science-Distilled-Computational-Problems/dp/0997316020)
+- ISBN-13: 978-0-9773160-2-5
+
 This list was compiled from multiple suggestion threads on Reddit and Stackoverflow. 
 Please feel free to add more that you have found useful!
