@@ -21,6 +21,14 @@ In a Women in Tech Round-up event presented by Google in Austin, the Women who s
 The Google VP who spoke at this event gave us all a piece of advice: that we should take any and every opportunity afford to us and risk  applying to jobs we are not qualified for. The worst that will happen is you’ll get rejected or you won’t get an interview. Men get tech positions not because they are more experienced or better than women but because they apply to positions that they often aren’t qualified for while women only apply for jobs that they think they are qualified for. 
 The worst thing you can do is to sell yourself short if you want something take that risk and achieve the impossible.
 
+## How can women change this?
+
+It is a hard fact that men still run the world. That said, are women not really doing enough to rise up the ladder? A quick read through Sheryl Sandberg's "LeanIn" will bring you to the following ways to break the glass cieling.
+
+* Push for workplace flexibility. Be bold to ask for it when it isn't given. Your employer isn't doing you a favour, he/she is giving you your rights.
+* We as women often lower our expectations of what we can achieve. Don't be scared to take risks, and don't ever feel that you are less qualified. You will know if you can do it only when you take the task up.
+* Most importantly, do not let gender stereotypes affect your mind.
+
 ### More Information:
 
 - [Why are there so few women in tech? The truth behind the Google memo](https://www.theguardian.com/lifeandstyle/2017/aug/08/why-are-there-so-few-women-in-tech-the-truth-behind-the-google-memo)
