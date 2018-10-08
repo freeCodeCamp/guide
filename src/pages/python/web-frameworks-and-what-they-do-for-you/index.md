@@ -26,3 +26,11 @@ You are probably wondering what, then, is left for the developer to do? Based on
 Your code will fill the gaps _intentionally_ left in the framework code - and combining your code with the framework; your web application would have life breathed into it!
 
 Two of the most popular web frameworks in Python are Django and Flask. Django is probably the most-used Python framework out there. Django helps you to build websites where you're interacting with both your client (user) and your database, often simultaneously. Flask is a micro-framework, which can also do much of the tasks that Django does, but by using extensions made by the community. Other frameworks worth mentioning are Pylons and Tornado.
+
+### Django 
+
+Django (/ˈdʒæŋɡoʊ/ JANG-goh) is a free and open-source web framework, written in Python, which follows the model-view-template (MVT) architectural pattern. It is maintained by the Django Software Foundation (DSF), an independent organization established as a 501(c)(3) non-profit.
+
+Django's primary goal is to ease the creation of complex, database-driven websites. Django emphasizes reusability and "pluggability" of components, rapid development, and the principle of don't repeat yourself. Python is used throughout, even for settings files and data models. Django also provides an optional administrative create, read, update and delete interface that is generated dynamically through introspection and configured via admin models.
+
+Some well-known sites that use Django include the Public Broadcasting Service, Instagram, Mozilla, The Washington Times, Disqus, Bitbucket, and Nextdoor. It was used on Pinterest, but later the site moved to a framework built over Flask.

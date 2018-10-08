@@ -13,3 +13,8 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
 
+There are two units of meausurement to meausure font points and picas
+
+A Point is 1/72 of an inch. Point is also abbreviated as "pt"
+
+A Pica contains 12 points, its a bit less than 1/6 of an inch.

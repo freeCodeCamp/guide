@@ -15,3 +15,9 @@ To protect yourself from phishing emails, you should look out for signs like the
 - The sender's email address looks like from a trusted organization but might be slightly different. For example, you may receive an email from `hello@goog1e.com` instead of `hello@google.com`, where the former uses the number `1` to replace the character `l`.
 
 While phishing phone calls are less common, you should always be on the look out for them. Most big companies will not make unsolicited phone calls to their customers, so you should apply skepticism to any cold calls you receive.
+
+
+## More Information:
+
+* [SonicWall - Test your Phishing IQ](https://www.sonicwall.com/en-us/phishing-iq-test)
+* [Phishing.Org - Common Phishing Techniques](http://www.phishing.org/phishing-techniques)
