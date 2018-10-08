@@ -3,13 +3,24 @@ title: Array of
 ---
 ## Array of
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/standard-objects/array/array-of/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The Array.of() method creates a new Array instance with a variable number of arguments, regardless of number or type of the arguments.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Syntax:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```javascript
+Array.of(element0[, element1[, ...[, elementN]]])
+```
+
+## Example
+
+```javascript
+Array.of(7);       // [7] - creates an array with a single element
+Array.of(1, 2, 3); // [1, 2, 3]
+
+Array(7);          // [ , , , , , , ] - creates an empty array with a length property of 7
+Array(1, 2, 3);    // [1, 2, 3]
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
+For more information visit [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/of)
 
