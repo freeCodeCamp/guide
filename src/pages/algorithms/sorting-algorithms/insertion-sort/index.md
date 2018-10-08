@@ -149,6 +149,9 @@ public int[] insertionSort(int[] arr)
       return arr;
 ```
 
+### Animated Explanation
+![Animated Insertion Sorting Algorithm](https://upload.wikimedia.org/wikipedia/commons/2/25/Insertion_sort_animation.gif)
+
 ### Properties:
 * Space Complexity: O(1)
 * Time Complexity: O(n), O(n* n), O(n* n) for Best, Average, Worst cases respectively
