@@ -48,6 +48,9 @@ Now, the array is already sorted, but our algorithm does not know if it is compl
 - Worst case performance: O(n\*n)
 - Stable: Yes
 
+### Animated Explanation
+![Animated Bubble Sorting Algorithm](https://upload.wikimedia.org/wikipedia/commons/3/37/Bubble_sort_animation.gif)
+
 ### Video Explanation
 [Bubble sort in easy way](https://www.youtube.com/watch?v=Jdtq5uKz-w4)
 
