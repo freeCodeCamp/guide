@@ -43,7 +43,7 @@ System.out.println(s1 == s2); //false
 System.out.println(s1.equals(s2)); //true
 ```
 
-When you create a new class in Java, you will often weant to override the `equals()` method in order to provide a mroe meaningful way to compare two objects of the same class. How this method is implemented is completely up to the developer's judgment. 
+When you create a new class in Java, you will often want to override the `equals()` method in order to provide a more meaningful way to compare two objects of the same class. How this method is implemented is completely up to the developer's judgement. 
 
 For example, you may decide that two `Person`s should be considered "equal" if their `name` and `dateOfBirth` are the same. This logic would be implemented in your `Person` class's `equals()` method:
 
