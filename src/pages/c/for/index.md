@@ -16,7 +16,6 @@ The for loop is commonly used when the number of iterations is known.
 
 int main () {
 
-    int i;
     int array[] = {1, 2, 3, 4, 5};
 
     for (int i = 0; i < 5; i++) {
