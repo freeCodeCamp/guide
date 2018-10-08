@@ -92,9 +92,9 @@ For loops are for when we want something to run a set number of times.
 
 ### Syntax
 ```
-do {
+for ( init; condition; increment ) {
    statement(s);
-} while( condition );
+}
 ```
 
 Here's an example of that:
