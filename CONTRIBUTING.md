@@ -164,7 +164,7 @@ A PR is considered a **duplicate** if it makes changes to the same article as an
 In general, a reviewer will:
 
 1. Sort PR from the oldest
-2. Search for PRs with similar content
+2. Search for PRs with similar contents
 3. Merge from the oldest to the newest
 
 It is very likely there will be merge conflicts with duplicate PRs.
