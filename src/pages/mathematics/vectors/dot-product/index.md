@@ -11,9 +11,6 @@ If <span class="texhtml"><strong>a</strong></span> and <span class="texhtml"><st
 
 <span class="texhtml"><strong>a.b</strong></span> = <span class="texhtml">|<strong>a</strong>|</span><span class="texhtml">|<strong>a</strong>|</span> cosθ
 
-
-
-
 Also, if the two vectors (<span class="texhtml"><strong>a</strong></span> and <span class="texhtml"><strong>b</strong></span>) are given in terms of their [unit vectors](https://en.wikipedia.org/wiki/Unit_vector), where
  
 <span class="texhtml"><strong>a</strong></span> =  x<sub>1</sub>i + y<sub>1</sub>j
