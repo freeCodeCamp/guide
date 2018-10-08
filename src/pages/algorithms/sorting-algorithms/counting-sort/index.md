@@ -53,4 +53,5 @@ for (i=0; i < numbers.length; i++) {
 }
 ```
 
-
+### Animated Explanation
+![Animated Counting Sorting Algorithm](https://upload.wikimedia.org/wikipedia/commons/6/60/Counting_Sort_Animation.gif)
