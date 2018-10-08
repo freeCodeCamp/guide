@@ -16,7 +16,7 @@ This reference tool will eventually include thousands of articles that cover all
 
 This repo is where we plan and maintain these Guide articles, which we then host on our community's wiki-like Guide website at [`guide.freecodecamp.org`](https://guide.freecodecamp.org).
 
-## What are Guide articles?
+## What are Guide articles? ##
 
 The Guide articles aim to be short articles to get you started and familiar with these concepts before going on to read more in-depth material.
 
@@ -24,7 +24,7 @@ Guide articles can be an explanation of a syntax, design pattern, what aria labe
 
 You can find an [example article about HTML Elements here](./src/pages/html/elements/index.md).
 
-## What can I write an article about?
+## What can I write an article about? ##
 
 Front-end development (adjective form with a dash) is when you are working on the front end (noun form with no dash). The same goes with the back end, full stack, and many other compound terms.
 
@@ -38,7 +38,7 @@ Feel free to ask us questions [in Gitter](https://gitter.im/freeCodeCamp/Contrib
 
 Before you begin writing, make sure to read the [article style guide](https://github.com/freeCodeCamp/guide/blob/master/CONTRIBUTING.md#article-style-guide) outlined in [CONTRIBUTING.md](CONTRIBUTING.md). 
 
-## Contributing
+## Contributing ##
 
 1. 🍴 Fork this repo
 2. 👀️ Follow the contributing guidelines outlined in [CONTRIBUTING.md](CONTRIBUTING.md).
@@ -48,7 +48,7 @@ Before you begin writing, make sure to read the [article style guide](https://gi
 
 Or just [create an issue](https://github.com/freeCodeCamp/guide/issues)—any little bit of help counts! 😊
 
-## License
+## License ##
 
 Copyright (c) 2018 freeCodeCamp.
 
