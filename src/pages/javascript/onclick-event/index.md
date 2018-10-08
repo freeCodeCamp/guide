@@ -33,6 +33,30 @@ The `onclick` event can also be programmatically added to any element using the 
 </script>
 ```
 
+
+### Note ###
+
+It's important to note that using onclick we can add just one listener function. If you want to add more, just use addEventListener(), which is the preferred way for adding events listener.
+
 In the above example, when a user clicks on the `paragraph` element in the `html`, they will see an alert showing `onclick Event triggered`. 
-#### More Information:
-[MDN](https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onclick)
+
+### Preventing default action
+However if we attach `onclick` to links (HTML's `a` tag) we might want prevent default action to occur:
+
+```javascript
+<a href="https://guide.freecodecamp.org" onclick="myAlert()">Guides</a>
+
+<script>
+  function myAlert(event) {
+    event.preventDefault();
+    alert("Link was clicked but page was not open");
+  }
+</script>
+```
+
+In the above example we prevented default behavior of `a` element (opening link) using `event.preventDefault()` inside our `onclick` callback function.
+
+<a href='https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onclick' target='_blank' rel='nofollow'>MDN</a>
+
+#### Other Resources
+<a href='https://api.jquery.com/on/' target='_blank' rel='nofollow'>jQuery .on() Event Handler Attachment</a>

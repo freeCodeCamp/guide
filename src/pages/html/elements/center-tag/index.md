@@ -3,13 +3,8 @@ title: Center Tag
 ---
 ## Center Tag
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/center-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+In HTML the `<center>` tag is used to center text on a page. You can write a `<center>` tag as `<center>My Text Here</center>` The feature is obsolute not recommended to use. The `<center>` tag was deprecated in HTML 4, the feature could be removed from web browsers at anytime. It is recommended to use CSS `text-align` to center text.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+* [MDN - HTML Center Tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/center)
+* [MDN - CSS Text Align](https://developer.mozilla.org/en-US/docs/Web/CSS/text-align)
