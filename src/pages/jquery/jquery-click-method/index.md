@@ -2,70 +2,104 @@
 title: Click Method
 ---
 
-## Click Method
+# Click Method
 
-Binds the click event to an element or triggers the event on an element. It's most used form is :
+
+The jQuery Click method triggers an function when an element is clicked. The function is known as a "handler" becuase it handles the click event. Functions can
+impact the HTML element that is bound to the click using the jQuery Click method, or they can change something else entirely. The most-used form is:
+
 ```javascript
-jQueryElement.click(handler)
+$("#clickMe").click(handler)
 ```
-* handler: it's a function who is executed everytime when the event is triggered, this function also receive a param a [eventObject](http://api.jquery.com/Types/#Event)
+
+The click method takes the handler function as an argument and executes it every time the element `#clickMe` is clicked. The handler function receives a
+parameter known as an [eventObject](http://api.jquery.com/Types/#Event) that can be useful for controlling the action. 
 
 #### Examples
-Showing a alert on click of a button:
+This code shows an alert when a user clicks a button:
+
 ```html
 <button id="alert">Click Here</button>
 ```
+
 ```javascript
-$("#alert").click(function(){
+$("#alert").click(function () {
   alert("Hi! I'm an alert");
-})
+});
 ```
+
 [jsFiddle](https://jsfiddle.net/pL63cL6m/)
 
-Usage of ones of the [eventObject](http://api.jquery.com/Types/#Event) method:
+The [eventObject](http://api.jquery.com/Types/#Event) has some built in methods, including `preventDefault()`, which does exactly what it says - stops
+the default event of an element. Here we pevent the anchor tag from acting as a link:
+
 ```html
 <a id="myLink" href="www.google.com">Link to Google</a>
 ```
-```javascript
-$("#myLink").click(function(event){
-	event.preventDefault();
-});
-```
-_here we are using the preventDefault method, it do exactly what it says, we stop the default event of an element, in this case we prevent our anchor tag to make a redirection when clicked_
-
-[jsFiddle](https://jsfiddle.net/dy457gbh/)
-
-#### More two way to play with click method
-Here you can pass data to the handler:
-```javascript
-jqueryElement.click( [eventData ], handler )
-```
-* eventData: it can be **any** type 
 
 ```javascript
-$("element").click({param1: "Hello", param2: "World"}, function(event){
-    alert(event.data.param1);
-    alert(event.data.param2);
+$("#myLink").click(function (event) {
+  event.preventDefault();
 });
 ```
 
-And you can also trigger click event:
+<a href='https://jsfiddle.net/dy457gbh/' target='_blank' rel='nofollow'>jsFiddle</a>
+
+#### More ways to play with the click method
+
+The handler function can also accept additional data in the form of an object:
+
 ```javascript
-$( "element" ).click();
+jqueryElement.click(usefulInfo, handler)
 ```
-Using the above example and adding `.click()`
+
+The data can be of any type.
+
 ```javascript
-$("#alert").click(function(){
+$("element").click({firstWord: "Hello", secondWord: "World"}, function(event){
+    alert(event.data.firstWord);
+    alert(event.data.secondWord);
+});
+```
+
+Invoking the click method without a handler function triggers a click event:
+
+```javascript
+$("#alert").click(function () {
   alert("Hi! I'm an alert");
-})
+});
 
 $("#alert").click();
 ```
-Now even without click the button the click event will be triggered always when we enter or reload the page
 
-[jsFiddle](https://jsfiddle.net/gspk6gxt/)
+Now, whenever the page loads, the click event will be triggered when we enter or reload the page, and show the assigned alert.
+
+Also you should prefer to use .on('click',...) over .click(...) because the former can use less memory and work for dynamically added elements.
+
+<a href='https://jsfiddle.net/gspk6gxt/' target='_blank' rel='nofollow'>jsFiddle</a>
+
+#### Common Mistakes
+
+The click event is only bound to elements currently on the DOM at the time of binding, so any elements added afterwards will not be bound. To bind all
+elements on the DOM, even if they will be created at a later time, use the `.on()` method.
+
+For example, this click method example:
+
+```javascript
+$( "element" ).click(function() {
+  alert("I've been clicked!");
+});
+```
+
+Can be changed to this on method example:
+
+```javascript
+$( document ).on("click", "element", function() {
+  alert("I've been clicked!");
+});
+```
 
 #### More Information:
 
-For more information, please visit the [official website](https://api.jquery.com/click/#click) 
+For more information, please visit the [official website](https://api.jquery.com/click/#click).
 

@@ -1,15 +1,14 @@
 ---
 title: Illustrator
 ---
+
 ## Illustrator
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/designer-tools/photoshop/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Illustrator is an Adobe program for creating and editing vector graphics. It's a versatile tool used by graphic designers and illustrators for 2D illustration, layout design, tracing, and typography. It is a leading software for designers, primarily due to its versatile functions and availability.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+#### More Information
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+* [Adobe Illustrator Tutorials](https://design.tutsplus.com/categories/adobe-illustrator)
+* [Introduction to Flat Design](https://design.tutsplus.com/tutorials/10-top-tips-on-creating-flat-design-graphics--cms-25888)
+* [Creating flat icons using illustrator](https://design.tutsplus.com/tutorials/create-a-set-of-flat-precious-gems-icons-in-adobe-illustrator--vector-26188)
+* [A beginner's guide to illustrator](http://www.makeuseof.com/tag/getting-started-with-illustrator/)
