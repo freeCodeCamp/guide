@@ -2,14 +2,13 @@
 title: Inline Block
 ---
 ## Inline Block
-
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/layout/inline-block/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Inline-block is a possible value of the display property.
+Elements marked as _inline-block_ behave like inline elements (_spans_, for example), but can have width and height.
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
+<a href="https://css-tricks.com/almanac/properties/d/display/#inline-block" target="_blank">This is a great article</a> to read up to understand more about creating layouts with inline-block elements.
 
 
