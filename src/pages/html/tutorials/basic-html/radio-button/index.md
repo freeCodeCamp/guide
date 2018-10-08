@@ -1,3 +1,7 @@
+---
+title: Radio Button
+---
+
 # Radio Button
 
 ```html
@@ -15,6 +19,4 @@
 </body>
 </html> 
 ```
-
-Radio button is used to accept input such as male or female gender , I have to select one option and then submit it. Its makes easy to submit
-form and save my time.
+Radio buttons can be used to select a single option out of multiple options. You aren't allowed to choose 2 or more radio buttons in the same selection field.
