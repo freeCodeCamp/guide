@@ -14,13 +14,15 @@ git push <repo name> <branch name>
 There are a number of different options you can pass with the command, you can learn more about them in the <a href='https://git-scm.com/docs/git-push#_options_a_id_options_a' target='_blank' rel='nofollow'>Git documentation</a> or run `git push --help`.
 
 ### Push to a Specific Remote Repository and Branch
-In order to push code, you must first clone a repository to your local machine. 
+In order to push code, you must first clone a repository to your local machine.
 ```bash
-# Once a repo is cloned, you'll be working inside of a `master` branch
+# Once a repo is cloned, you'll be working inside of the default branch (the default is `master`)
 git clone https://github.com/<git-user>/<repo-name> && cd <repo-name>
-# make some changes and commit code
+# make changes and stage your files (repeat the `git add` command for each file, or use `git add .` to stage all)
+git add <filename>
+# now commit your code
 git commit -m "added some changes to my repo!"
-# push changes in MASTER branch to github
+# push changes in `master` branch to github
 git push origin master
 ```
 
