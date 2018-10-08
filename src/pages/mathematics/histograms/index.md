@@ -3,13 +3,8 @@ title: Histograms
 ---
 ## Histograms
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/histograms/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+A histogram is a plot to discover the underlying frequency distribution of a data set. The general idea is to divide the data set into groups of equal length to visualize the pattern of a basic list of numbers.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+[Understanding Histograms](https://statistics.laerd.com/statistical-guides/understanding-histograms.php)
+[Histograms](https://www.mathsisfun.com/data/histograms.html)
