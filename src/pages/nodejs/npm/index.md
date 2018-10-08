@@ -1,4 +1,4 @@
 ---
-title: NPM
+title: npm
 ---
 Learn more about npm [here](../../developer-tools/npm)
