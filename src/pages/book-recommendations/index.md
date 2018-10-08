@@ -63,5 +63,9 @@ title: Books to Read for Programmers
 - [Amazon Smile](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X)
 - ISBN-13: 978-0201616224
 
+*GATE 2019 Computer Science and Information Technology*
+- [Amazon Smile](https://www.amazon.com/GATE-Computer-Science-Information-Technology/dp/194658178X)
+- ISBN-13: 978-1946581785
+
 This list was compiled from multiple suggestion threads on Reddit and Stackoverflow. 
 Please feel free to add more that you have found useful!
