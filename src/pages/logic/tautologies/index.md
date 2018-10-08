@@ -40,10 +40,17 @@ In logic, a tautology is a statement that is true in every possible case. The op
 
 As we can see in the truth table, the statement "p → p OR q" is always true (see last column). 
 
+An example in terms of Boolean logic is `B || !B`. It is always true that B is true or B is not true.
+
+The opposite of a tautology is a contradiction, a formula which is "always false". In other words, a contradiction is false for every assignment of truth values to its simple components.
+
+An example of a contradiction with Boolean logic is `B && !B`. It is impossible for B to be both true and false at the same time. 
+
 #### Note
 The arrow simply means "implies". p implies p OR q, it can also mean <i>if...then...</i>  
 
 #### More Information:
+
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 [Wikipedia Tautology (Logic)](https://en.wikipedia.org/wiki/Tautology_(logic))
 [Youtube Truth Tables](https://www.youtube.com/watch?v=O0KbymjE7xU)

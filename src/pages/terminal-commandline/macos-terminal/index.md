@@ -33,10 +33,10 @@ Command | Usage
 pwd | Print Working Directory (Where Am I? )
 ls | List contents of current directory
 mkdir | Create a new directory
-touch | Crerate a new file
-cp| copy a file 
-rm | remove a file 
-rm -rf | remove a directory 
+touch | Create a new file
+cp| Copy a file 
+rm | Remove a file 
+rm -rf | Remove a directory 
 
 ### Usage Examples
 

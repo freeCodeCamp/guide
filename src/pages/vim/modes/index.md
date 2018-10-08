@@ -4,22 +4,59 @@ title: Modes in Vim
 
 # Vim Modes
 
-Because vim is focused on changing existing code just as much as writing new
+Because Vim is focused on changing existing code just as much as writing new
 code, it is split into several modes that each have different purposes.
 
 ### Normal Mode
-By default, vim starts in "normal" mode. Here, key presses don't work as one
-would expect. That is, they don't insert text into the document; instead,
+By default, Vim starts in "normal" mode. 
+Normal mode can be accessed from other modes by pressing `Esc` or `<C-[>`.
+
+In Normal mode key presses don't work as one would expect. That is, they don't insert text into the document; instead,
 certain key presses can:
 
-- Move the cursor
-- Manipulate text
-- Enter other modes
+#### Move the cursor
+- **h**   move one character left    
+- **j**   move one row down          
+- **k**   move one row up            
+- **l**   move one character right   
 
-Normal mode is where one should spend most of their time while using vim. Remember,
-this is what makes vim different.
+As many vim commands, row movement can be prefixed by a number to move s
+everal lines at a time:                                                 
+- **4j**  move 4 rows down                                              
+- **6k**  move 6 rows up                                                
+                                                                        
+Basic word movements:                                                  
+- **w**   move to beginning of next word                                
+- **b**   move to previous beginning of word                            
+- **e**   move to end of word                                           
+- **W**   move to beginning of next word after a whitespace             
+- **B**   move to beginning of previous word before a whitespace        
+- **E**   move to end of word before a whitespace                       
 
-Normal mode can be accessed from other modes by pressing `Esc` or `<C-[>`.
+Beginning/End of line movement:                 
+- **0**   move to the beginning of the line     
+- **$**   move to the end of the line           
+
+#### Manipulate text
+#### Enter other modes
+
+**Normal mode** is where one should spend most of their time while using Vim. Remember,
+this is what makes Vim different.
+
+
+In normal mode, there are multiple ways to move around an open file. In addition 
+to using the cursor keys to move around, you can use `h` (left), `j` (down), `k` 
+(up), and `l` (right) to move as well. This particularly helps touch typists who 
+don’t like leaving the home row when making changes.
+
+You can also make changes to single characters in normal mode. For example, to 
+replace a single character, move your cursor over it and press `r`, and then the 
+character you want to replace it with. Similarly, you can delete single characters 
+by moving your cursor over it and pressing `x`.
+
+To perform an undo, press `u` in normal mode. This undoes changes up to the last 
+time you were in normal mode. If you want to redo (*i.e.*, undo your undo) press 
+`Ctrl+r` in normal mode.
 
 ### Insert Mode
 
@@ -37,8 +74,8 @@ These commands have an uppercase variety too:
 - `A` moves the cursor to the end of the line and enters insert mode
 - `O` inserts a new line above the current one and enters insert mode on the new line
 
-There are so many more ways of inserting text in vim that can't be listed here
-but these are the simplest. Also, beware of staying in insert mode for too long; vim is
+There are so many more ways of inserting text in Vim that can't be listed here
+but these are the simplest. Also, beware of staying in insert mode for too long; Vim is
 not designed to be used in insert mode all the time.
 
 To leave insert mode and return to normal mode, press `Esc` or `<C-[>`

@@ -5,7 +5,7 @@ title: Background
 The background property lets you use images and colors to create backgrounds for your web pages.
 
 ### Background Color
-The background color property lets you choose the color of your element. This can be the background for the entire page or the background of one section of your page.
+The background color property allows you to choose the color of your element. This can be the background for the entire page or the background of one section of your page.
 * An element is a piece of HTML such as a header or paragraph on a web page.
 
 Here is an example of setting the background color for a web page to green.

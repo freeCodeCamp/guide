@@ -1,25 +1,27 @@
 ---
 title: Trojans
 ---
+
 ## Trojans
 
-Trojans are programs or software that actually appear to be legitimate but in reality are malicious or harmful.
+### What is a Trojan?
+It is a type of malware, which hides in harmless programms.
 
-An example is a program you download from the internet which claims to be an image editor but in reality, whenever you open it, malware is spread on your computer.
+### What do Trojans do?
 
-They can go unnoticed for a long time doing the following things meanwhile:
-<ul>
- 	<li>Spying on you by sending your information to another computer.</li>
- 	<li>Using your computer for malicious purposes such as contributing to a Distributed Denial of Service(DDoS) attack.</li>
- 	<li>Creating further loopholes in your security so other malware can also infect your computer.</li>
- 	<li>Using up valuable disk space and making your computer slow.</li>
-</ul>
-In order to remain safe from Trojans, you should always download programs from reputable websites and also enable an anti-virus program like Avast or AVG on your computer.
+- **Creating backdoors:** Trojans typically makes changes to your security system so that other malware or even a hacker can get in.</li>
+- **Spying:** Some Trojans are essentially Spyware designed to wait until you access your online accounts or enter your credit card details, and then send your passwords and other data back to their master.</li>
+- **Turn your computer into a Zombie!** sometimes, a hacker isn't interested in you, but just wants to use your computer as a slave in a network under his or her control.</li>
+- **Send costly SMS messages:** even smartphones get Trojans, and the most common way for criminals to make money is by using them to make your phone send costly SMS messages to premium numbers.</li>
 
-&nbsp;
+
+### What does a Trojan look like?
+It can look like anything. Mostly files downloaded from untrusted website.
+
+### How do I protect myself against Trojans?
+Staying away from untrusted web sites, pirated materials, and suspiciouse links.
+If you truly want to stay protected, you can use 3rd party softwares like anti-malware software.
 
 #### More Information:
-
+<a href='https://en.wikipedia.org/wiki/Trojan_horse_(computing)' target='_blank' rel='nofollow'>Trojan Horses on Wikipedia</a>.
 <a href="https://www.avg.com/en/signal/what-is-a-trojan">Trojan Horse Fundamentals - AVG</a>
-
-

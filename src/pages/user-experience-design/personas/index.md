@@ -3,13 +3,15 @@ title: Personas
 ---
 ## Personas
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Personas are used in the design process as a guide to create user experiences based on the types of users an application will have. A persona represents a demographic of people who will use the application. Typically, multiple personas are created before the design of an application takes place. The personas will help the designers to create different designs for the different types of users.
 
-# User Persona
+For example, if a team was building an application that handled membership and operations for a fitness club, then some of the users of the application might include front desk workers, salesmen, and personal trainers. The ages, mindset, and technical ability of these users might be very different. So the team would create a persona for each of these user types and include details about that user's job, skill level, goals, background, and a short description about that individual's day-to-day activities. 
+
+## User Persona
 
 A user persona is a fictional profile or representation of an ideal user you are trying to reach. Designers use personas to better understand their users and customize a design to fit the target audience.
 
-User personas show how a person might use a website or app. A user’s needs, goals, and behaviors help designers figure out how they use a product and what the design can do to get a user to do a specific action. A strong user persona clearly identifies what these needs and essential information which can influence the design.
+User personas show how a person might use a website or app. A user's needs, goals, and behaviors help designers figure out how they use a product and what the design can do to get a user to do a specific action. A strong user persona clearly identifies what these needs and essential information which can influence the design.
 
 UX designers find as much research as possible to accurately represent their users. The information is organized into groups which represent the ideal users you want to reach. Designers often focus on most important user groups because it is easier to design for a select few than trying to meet the needs of everyone.
 
@@ -25,6 +27,7 @@ Designers have different ways of creating a user persona, but well defined perso
 4.Scenario
 
 ### Headers
+
 Headers include the name of your user, mage, and often a quote. The quote is a way designers summarize what the user thinks is important. A strong header keeps designers concentrated on the users they are building for.
 
 ### Demographic Profiles
@@ -41,5 +44,6 @@ An end goal is the action users take to complete a goal. End goals motivate all 
 Scenarios is a description of how users would use a product to accomplish an end goal. These situations define when, where, and how this event would take place. You write these scenarios from the perspective of the user.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-<a href="https://www.usability.gov/how-to-and-tools/methods/personas.html" target='_blank' rel='nofollow'>Personas - usability.gov</a>
+
+- <a href="https://www.usability.gov/how-to-and-tools/methods/personas.html" target='_blank' rel='nofollow'>Personas - usability.gov</a>
+- [Smashing Magazine: A Closer Look At Personas](https://www.smashingmagazine.com/2014/08/a-closer-look-at-personas-part-1/)

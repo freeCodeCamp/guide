@@ -57,7 +57,7 @@ int main () {
 }
 ```
 
-## Outuput
+## Output
 ```
 -> a is not less than 20!
 -> Value of a is : 100

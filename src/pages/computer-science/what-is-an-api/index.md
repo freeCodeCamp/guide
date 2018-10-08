@@ -7,7 +7,49 @@ API stands for Application Programming Interface. Don’t worry about the AP, ju
 
 An interface sits on top of a complicated system and simplifies certain tasks, a middleman that saves you from needing to know all the details of what’s happening under the hood. A web API is the same sort of thing. It sits on top of a web service, like Twitter or YouTube, and simplifies certain tasks for you. It translates your actions into the technical details for the computer system on the other end.
 
+## Why Are APIs Useful?
+
+Having access to an API generally means having access to a large amount of organized data. The gatekeeper of that data gives a developer permission (in the form of an *API key*) to query a server for information. If the request is successful, the server responds with a message that may look something like this:
+
+```javascript
+{
+  "coord": {
+    "lon":139,
+    "lat":35
+  },
+  "wind": {
+    "speed":7.31,
+    "deg":187.002
+  },
+  "rain": {
+    "3h":0
+  },
+  "clouds": {
+    "all":92
+  }
+}
+```
+
+Source: [Open Weather API](https://openweathermap.org/current)
+
+In the example above, a developer made a request for the current weather at a specific latitude and longitude, and the server responded with a *JSON object* about wind, rain, and clouds for that location. Services that you use every day are made with tons of request and response cycles like this.
+
+<strong>Here are Top 10 APIs for beginners </strong>
+
+<ol>
+  <li>Dropbox: https://www.dropbox.com/developers</li>
+  <li>Google Maps: https://developers.google.com/maps/web/</li>
+  <li>Twitter: https://dev.twitter.com/docs</li>
+  <li>YouTube: https://developers.google.com/youtube/v3/getting-started</li>
+  <li>Soundcloud: http://developers.soundcloud.com/docs/api/guide#playing</li>
+  <li>Stripe: https://stripe.com/docs/tutorials/checkout</li>
+  <li>Instagram: http://instagram.com/developer/</li>
+  <li>Twilio: https://www.twilio.com/docs</li>
+  <li>Yelp: http://www.yelp.com/developers/getting_started</li>
+  <li>Facebook: https://developers.facebook.com/docs/facebook-login/login-flow-for-web</li>
+</ol>
+
 #### More Information:
-* <a href='https://schoolofdata.org/2013/11/18/web-apis-for-non-programmers/' target='_blank' rel='nofollow'>API for non-programmers</a>
-* <a href='https://en.wikipedia.org/wiki/Application_programming_interface' target='_blank' rel='nofollow'>Wikipedia</a>
-* <a href='https://medium.freecodecamp.org/what-is-an-api-in-english-please-b880a3214a82' target='_blank' rel='nofollow'>What is an API? In English, please.</a>
+* [API for non-programmers](https://schoolofdata.org/2013/11/18/web-apis-for-non-programmers/)
+* [Wikipedia](https://en.wikipedia.org/wiki/Application_programming_interface)
+* [Medium](https://medium.com/girl-geeks/top-10-apis-for-beginners-4d3c43be9386)

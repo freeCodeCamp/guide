@@ -2,9 +2,9 @@
 title: ID Selector
 ---
 ## ID Selector
-
-The CSS ID selector applies styles to a specific html element. The CSS ID selector must match the ID attribute of an HTML element. CSS ID will override CSS Class properties.
-The id of an element should be unique within a page, so the id selector is used to select one unique element!
+The CSS ID selector applies styles to a specific html element. The CSS ID selector must match the ID attribute of an HTML element. 
+Unlike classes, which can be applied to multiple elements throughout a site, a specific ID may only be applied to one single element on a site. 
+CSS ID will override CSS Class properties.
 To select an element with a specific id, write a hash (#) character, followed by the id of the element.
 
 ### Syntax
@@ -25,6 +25,9 @@ Remember, the ID selector must match an HTML element's ID attribute.
 ```html
 <div id="specified_id"><!-- content --></div>
 ```
+
+### Specificity 
+ID selectors have a high specificity making them difficult to override. Classes have a much lower specificity and are generally the preferred way to style elements in order to avoid specificity issues. [Specificity on MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity) 
 
 #### More Information:
 <a href="https://www.freecodecamp.org/challenges/set-the-id-of-an-element" target="_blank">freeCodeCamp Challenge - Set the ID of an Element</a>

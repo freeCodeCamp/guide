@@ -1,13 +1,15 @@
 ---
 title: Working With Databases
 ---
-## Working With Databases
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/php/working-with-databases/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+## What options are available for PHP to connect to a database?
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+PHP can connect to a variety of different databases including MongoDB, MsSQL and MySQL.
+Both PHP and MySQL are very popular and provide an easy, free and open source websites 
+to be created and are often found together to produce websites of all types. 
+Both PHP and MySQL can scale to support large numbers of users.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+PHP even supports more than one way to deal with connections to MySQL including MySQLi Procedural, 
+PHP Data Objects (PDO) and MySQLi Object Orientated along with the now deprecated MySQL Connect. 
+With PHP there are many features built into the core functionality of the language that make links to a 
+database simple and easy.

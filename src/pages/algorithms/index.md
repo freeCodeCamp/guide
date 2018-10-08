@@ -4,9 +4,22 @@ title: Algorithms
 
 ## Algorithms
 
-An algorithm is like a recipe. It's a series of steps one takes to achieve a specific outcome.
+In computer science, an algorithm is an unambiguous specification of how to solve a class of problems. Algorithms can perform calculation, data processing and automated reasoning tasks.
+
+An algorithm is an effective method that can be expressed within a finite amount of space and time and in a well-defined formal language for calculating a function. Starting from an initial state and initial input (perhaps empty), the instructions describe a computation that, when executed, proceeds through a finite number of well-defined successive states, eventually producing "output" and terminating at a final ending state. The transition from one state to the next is not necessarily deterministic; some algorithms, known as randomized algorithms, incorporate random input.
+
+There are certain requirements that an algorithm must abide by:
+<ol>
+  <li>Definiteness: Each step in the process is precisely stated</li>
+  <li>Effective Computability: Each step in the process can be carried out by a computer.</li>
+  <li>Finiteness: The program will eventually successfully terminate.</li>
+</ol>
 
 Some common types of algorithms include sorting algorithms, search algorithms, and compression algorithms. Classes of algorithms include Graph, Dynamic Programming, Sorting, Searching, Strings, Math, Computational Geometry, Optimization, Miscellaneous. Although technically not a class of algorithms, Data Structures is often grouped with them. 
+
+### Efficiency
+
+Algorithms are most commonly judged by their efficiency and the amount of computing resources they require to complete their task. A common way to evaluate an algorithm is to look at its time complexity. This shows how the running time of the algorithm grows as the input size grows. Since the algorithms today, have to be operate on large data inputs, it is essential for our algorithms to have a reasonably fast running time .
 
 ### Sorting Algorithms
 

@@ -8,14 +8,14 @@ Rebasing a branch in Git is a way to move the entirety of a branch to another po
             /o-----o---o--o-----o--------- branch
     --o-o--A--o---o---o---o----o--o-o-o--- master
 
-When you rebase you can move it like this: 
+When you rebase you can move it like this:
 
                                        /o-----o---o--o-----o------ branch
     --o-o--A--o---o---o---o----o--o-o-o master
 
-To rebase, make sure you have all the commits you want in the rebase in your master branch. Check out the branch you want to rebase and type `git rebase master` (where master is the branch you want to rebase on). 
+To rebase, make sure you have all the commits you want in the rebase in your master branch. Check out the branch you want to rebase and type `git rebase master` (where master is the branch you want to rebase on).
 
-It is also possible to rebase on a different branch, so that for example a branch that was based on another branch (let's call it feature) is rebased on master: 
+It is also possible to rebase on a different branch, so that for example a branch that was based on another branch (let's call it feature) is rebased on master:
 
                                 /---o-o branch
                /---o-o-o-o---o--o------ feature
@@ -23,7 +23,7 @@ It is also possible to rebase on a different branch, so that for example a branc
 
 After `git rebase master branch` or `git rebase master` when you have checked out the branch, you'll get:
 
-                                
+
                /---o-o-o-o---o--o------ feature
     ----o--o-o-A----o---o--o-o-o--o--o- master
                                       \---o-o branch
@@ -32,9 +32,9 @@ After `git rebase master branch` or `git rebase master` when you have checked ou
 
 To use `git rebase` in the console with a list of commits you can choose, edit or drop in the rebase:
 
-- Enter `git rebase -i HEAD~5` with the last number being any number of commits from the most recent backwards you want to review. 
-- In vim, press `esc`, then `i` to start editing the test. 
-- On the left hand side you can overwrite the `pick` with one of the commands below. If you want to squash a commit into a previous one and discard the commit message, enter `f` in the place of the `pick` of the commit. 
+- Enter `git rebase -i HEAD~5` with the last number being any number of commits from the most recent backwards you want to review.
+- In vim, press `esc`, then `i` to start editing the test.
+- On the left hand side you can overwrite the `pick` with one of the commands below. If you want to squash a commit into a previous one and discard the commit message, enter `f` in the place of the `pick` of the commit.
 
 ```
 pick 452b159 <message for this commit>
@@ -65,8 +65,8 @@ pick 5186a9f <message for this commit>
 
 - Enter `esc` followed by `:wq` to save and quit.
 - If it rebases successfully then you need to force push your changes with `git push -f` to add the rebased version to your github repo.
-- If there is a merge conflict, there are a number of ways to fix this, including following the suggestions in [this guide](https://help.github.com/enterprise/2.11/user/articles/resolving-a-merge-conflict-using-the-command-line/). One way is to open the files in Atom and delete the parts of the code you do not want. Then use `git add <file name>` followed by `git rebase --continue`. You can skip over the confliced commit by entering `git rebase --skip`, exit the git rebase by entering `git rebase --abort` in your console.
+- If there is a merge conflict, there are a number of ways to fix this, including following the suggestions in [this guide](https://help.github.com/enterprise/2.11/user/articles/resolving-a-merge-conflict-using-the-command-line/). One way is to open the files in a text editor and delete the parts of the code you do not want. Then use `git add <file name>` followed by `git rebase --continue`. You can skip over the conflicted commit by entering `git rebase --skip`, exit the git rebase by entering `git rebase --abort` in your console.
 
 ### More Information:
-- Git documentation: <a href='https://git-scm.com/docs/git-rebase' target='_blank' rel='nofollow'>rebase</a>
-- Thoughbot guide to <a href='https://robots.thoughtbot.com/git-interactive-rebase-squash-amend-rewriting-history' target='_blank' rel='nofollow'>git rebase interactive</a>
+- [Git documentation: rebase](https://git-scm.com/docs/git-rebase)
+- [Thoughbot interactive guide to git rebase](https://robots.thoughtbot.com/git-interactive-rebase-squash-amend-rewriting-history)
