@@ -96,3 +96,16 @@ This article uses information from the <a href='https://github.com/progit/progit
 ### More Information: <a name="more-information"></a>
 - For downloads, documentation, and a browser-based tutorial: <a href='https://git-scm.com/' target='_blank' rel='nofollow'>Git official website</a>
 - Most useful commands when you're in bad GIT situation: <a href='http://ohshitgit.com/' target='_blank' rel='nofollow'>Oh shit, git!</a>
+
+### Here are some useful resources:
+<https://techcrunch.com/2012/07/14/what-exactly-is-github-anyway/>
+<https://www.howtogeek.com/180167/htg-explains-what-is-github-and-what-do-geeks-use-it-for/>
+<https://www.codefellows.org/blog/git-and-github-what-s-the-difference/>
+<https://www.udemy.com/the-complete-web-developer-in-2018/learn/v4/t/lecture/8725782?start=0>
+<https://rubygarage.org/blog/how-contribute-to-open-source-projects>
+<https://egghead.io/lessons/javascript-exploring-a-repository>
+<https://opensource.guide/>
+<https://github.com/zero-to-mastery/start-here-guidelines/blob/master/Get%20Started.md>
+<https://help.github.com/articles/set-up-git/>
+<https://github.com/Roshanjossey/first-contributions>
+<https://opensource.guide/how-to-contribute/#how-to-submit-a-contribution>
