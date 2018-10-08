@@ -43,8 +43,6 @@ Promise.resolve('some')
   });
 ```
 
-=======
-
 ## Promise API
 
 There are 4 static methods in the Promise class:
