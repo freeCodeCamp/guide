@@ -242,7 +242,7 @@ Output:
 19
 ```
 
-#### Sources
+#### Resources
 
-[Kotlin Basic Types](https://kotlinlang.org/docs/reference/basic-types.html)
-[Kotlin String Reference](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)
+* [Kotlin Basic Types](https://kotlinlang.org/docs/reference/basic-types.html)
+* [Kotlin String Reference](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)
