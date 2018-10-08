@@ -51,3 +51,19 @@ Nielsen's usability heuristics, which have continued to evolve in response to us
 Similar to expert reviews, automated expert reviews provide usability testing but through the use of programs given rules for good design and heuristics. Though an automated review might not provide as much detail and insight as reviews from people, they can be finished more quickly and consistently. The idea of creating surrogate users for usability testing is an ambitious direction for the artificial intelligence community.
 * Help users recognize, diagnose, and recover from errors
 * Help and documentation
+
+
+Goals of Usability testing
+1.Efficiency
+a.Navigation required to reach desired screen/webpage should be very less. Scroll bars shouldn't be used frequently.
+b.Uniformity in the format of screen/pages in your application/website.
+c.Provision to search within your software application or website
+
+2.Accuracy
+a.No outdated or incorrect data like contact information/address should be present.
+b.No broken links should be present.
+
+3.User Friendliness
+a.Controls used should be self-explanatory and must not require training to operate
+b.Help should be provided for the users to understand the application / website
+c.Alignment with above goals helps in effective usability testing
