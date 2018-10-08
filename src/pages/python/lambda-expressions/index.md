@@ -3,7 +3,6 @@ title: Lambda Expressions
 ---
 ## Lambda Expressions
 
-patch-3
 Lambda Expressions are ideally used when we have something simple to be done an we are more interested in quickly getting the job done rather than formally naming the function. Lambda expressions also known as anonymous functions.
 <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/python/lambda-expressions/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
