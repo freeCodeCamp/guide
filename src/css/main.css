@@ -106,7 +106,7 @@
   background: #006400;
   display: flex;
   align-items: center;
-  min-height: 38px !important;
+  min-height: 38px;
   max-height: 38px;
   border: none;
   border-radius: 0;
@@ -246,7 +246,7 @@
 }
 
 .panelStyle {
-  border: none !important;
+  border: none;
   border-radius: 0px;
   box-shadow: none;
   color: #006400;
