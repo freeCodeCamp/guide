@@ -1,7 +1,7 @@
 ---
-title: NPM
+title: npm
 ---
-## NPM
+## npm
 
 
 Node.js makes it possible to write applications in JavaScript on the server. It’s built on the V8 JavaScript runtime and written in C++ — so it’s fast. Originally, it was intended as a server environment for applications, but developers started using it to create modules to aid them in local task automation. Since then, a whole new ecosystem of Node-based tools has evolved to transform the face of front-end development.
@@ -12,7 +12,7 @@ npm makes module and code reusability across projects very simple. Currently, np
 
 npm is useful not only for server-side projects. Most popular front-end libraries like Bootstrap and Font Awesome are available too.
 
-## Installing NPM
+## Installing npm
 
 To install `npm` we have to download Nodejs binaries in your local envrionment. Node.js binaries include the latest version of npm. To verify that:
 
@@ -27,7 +27,7 @@ Node Package Manager (NPM) provides two main functionalities −
 
 * Command line utility to install Node.js packages, do version management and dependency management of Node.js packages.
 
-## Installing Modules using NPM
+## Installing Modules using npm
 
 `npm` can install packages in local or global mode. By default, NPM installs any dependency in the local mode. In local mode it installs the package in a node_modules folder in your parent working directory. This location is owned by the current user. Global packages are installed in {prefix}`/lib/node_modules/` which is owned by root, where {prefix} is usually `/usr/ or /usr/local`. This means you would have to use sudo to install packages globally, which could cause permission errors when resolving third-party dependencies, as well as being a security concern.
 
@@ -285,7 +285,7 @@ This directory will get cluttered with old packages over time, so it’s useful 
 $ npm cache clean
 ```
 
-## Yarn - an alternative to npm
+## yarn - an alternative to npm
 
 Learn more about yarn [here](../yarn)
 
