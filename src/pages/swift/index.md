@@ -28,6 +28,10 @@ project or application, no matter how small!
 
 * [Language Guide](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/): Has an overview of just about every feature in Swift. If you get confused when reading someone else's code, this document can help you.
 
+Memory management
+Swift uses Automatic Reference Counting (ARC) to manage memory. Apple used to require manual memory management in Objective-C, but introduced ARC in 2011 to allow for easier memory allocation and deallocation.[59] One problem with ARC is the possibility of creating a strong reference cycle, where objects reference each other in a way that you can reach the object you started from by following references (e.g. A references B, B references A). This causes them to become leaked into memory as they are never released. Swift provides the keywords weak and unowned to prevent strong reference cycles. Typically a parent-child relationship would use a strong reference while a child-parent would use either weak reference, where parents and children can be unrelated, or unowned where a child always has a parent, but parent may not have a child. Weak references must be optional variables, since they can change and become nil
+
+A closure within a class can also create a strong reference cycle by capturing self references. Self references to be treated as weak or unowned can be indicated using a capture list.
 # Want to learn more?
 
 * [RayWenderlich.com](https://www.raywenderlich.com/) : Has many great tutorials for Swift and iOS development.
