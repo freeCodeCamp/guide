@@ -7,7 +7,7 @@ Making lightweight docker images is key to having a fast development/deployment 
 
 ## Our code
 
-In this example, we will use a simple webserver writen in Go. The following code is just a simple hello world webserver listening on port 8080.
+In this example, we will use a simple webserver writen in [Go](https://golang.org/). The following code is just a simple hello world webserver listening on port `8080`.
 
 ```go
 package main
