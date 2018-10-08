@@ -90,7 +90,6 @@ const merge = (left, right) => {
 
 console.log(mergeSort(list)) // [ 3, 4, 8, 15, 16, 23, 42 ]
 ```
-
 ### Implementation in C++
  
 Let us consider array A = {2,5,7,8,9,12,13}

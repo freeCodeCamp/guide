@@ -51,6 +51,11 @@ Hello world!
 
 The script only has two lines. The first indicates what interpreter to use to run the file (in this case, bash). The second line is the command we want to use, echo.
 
+Sometimes the script won't be executed, and the above command will return an error. It is due to the permissions set on the file. To avoid that use:
+```
+zach@marigold:~$ chmod u+x myBashScript.sh
+````
+And then execute the script.
 ### More Information:
 
 * Wikipedia: https://en.wikipedia.org/wiki/Bash_(Unix_shell)

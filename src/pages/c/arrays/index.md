@@ -127,6 +127,10 @@ char string2[] = {'C','h','a','r',' ','b','y',' ','c','h','a','r','\0'};
 char string3[] = "This is a string"
                  "with two lines";
 ```
+Equivalent to the approach above, you can also create a pointer to a char array:
+```C
+char* string = "I do not want to count the chars in this.";
+```
 
 ## Typical mistakes, tips
 
