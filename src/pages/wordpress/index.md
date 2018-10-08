@@ -12,6 +12,5 @@ WordPress is powering almost 27% of all website and currently is dominating the 
 
 ### More Information
 
-<a href='https://codex.wordpress.org/' target='_blank' rel='nofollow'>WordPress Codex</a>
-<a href='https://www.wpbeginner.com/beginners-guide/facts-about-wordpress/' target='_blank' rel='nofollow'>Facts About WordPress</a>
-
+- [WordPress Codex: the online manual](https://codex.wordpress.org/)
+- [WordPress Code Reference](https://developer.wordpress.org/reference/)

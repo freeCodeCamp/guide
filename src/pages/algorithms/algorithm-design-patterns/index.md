@@ -23,5 +23,5 @@ This are design patterns that identify common communication patterns between obj
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-[Dessign patterns - Wikipedia](https://en.wikipedia.org/wiki/Design_Patterns)
+[Design patterns - Wikipedia](https://en.wikipedia.org/wiki/Design_Patterns)
 
