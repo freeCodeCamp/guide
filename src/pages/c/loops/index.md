@@ -119,11 +119,42 @@ Multiplication is just repeated addition, so this is doing addition on `a`, `b` 
 ```C
 for(int count = 0; count != b; count++)
 ```
-Unlike the for loop, there are three things in our parenthesis that are separated by semicolons. The first section is for initialization, and is referred to as 'initialization': it allows you to make a new variable and set it a value, or set an existing variable to a different value, or you can not set anything and just put a semicolon down.
+Unlike the for loop, there are three things in our parenthesis that are separated by semicolons. The first section is for initialization, and is referred to as 'initialization': it allows you to make a new variable and set it a value, or set an existing variable to a different value, or you can not set anything and just put a semicolon down. Whenever a for loop is encountered in a code, the first section is only ran one time, when the loop is entered. This makes sense if you think that this is the initialization section and a variable that is powerful enough to control the iterations of the loop is initialized here, so it should be initialied only once.
+Re-Initialization of a variable that controls the loop iterations may result in a never ending loop. Consider the code segment below:
+```C
+#include<stdio.h>
 
-The next section is a boolean condition that will be checked for true or false, just like our while loop. It's referred to as a 'condition', because it's the condition that will get checked before starting a loop.
+int main() {
 
-The final section is referred to as the 'increment/decrement'. Its job is to perform some operation every loop - usually adding or subtracting from the initial variable - after the code within the brackets has been run through. In this case, it's just adding one to the count. This is the most common way for the increment to be used, because it lets you keep count of how many times you've run through a for loop.
+    for (int i = 0; i < 10; i++) {
+		printf("%d\n", i);
+		i = 0;					//variable i is re-initialized.	
+	}
+    
+	return 0;
+}
+```
+This loop will never stop as the variable i is re-initialized inside the and it will go on printing a 0 followed by many 1's.
+
+The next section is a boolean condition that will be checked for true or false, just like our while loop. It's referred to as a 'condition', because it's the condition that will get checked before starting a loop. This section is ran everytime when a new iteration of the for loop is started. It is very obvious to run the section everytime because this is the condition that will eventually stop our for loop from running infinitely.
+
+The final section is referred to as the 'increment/decrement'. Its job is to perform some operation every loop - usually adding or subtracting from the initial variable - after the code within the brackets has been run through. In this case, it's just adding one to the count. This is the most common way for the increment to be used, because it lets you keep count of how many times you've run through a for loop. This section is also ran everytime when a new iteration of the foor loop is started.
+
+Now being clear about the three sections, what should be written in them and how many times each section runs during the lifecycle of the for loop. There's a catch.
+
+You'll be surprised to know that any valid C statement can be written in the 3 sections mentioned above. Consider the code segment given below:
+```C
+#include<stdio.h>
+int main() {
+
+	for (int i = 97; i <= 122; printf("%c ", i)) {
+		i++;
+	}
+    
+	return 0;
+}
+```
+In the above code segment the 'increment/decrement' section is replaced by a printf statement, which is perfectly fine. The code prints all the english alphabets. In this way each section can be replaced by any valid C statement. But always remember to include a condition to terminate the for loop in the body of the loop, if you replace the 'condition' section.
 
 # Loop Control Statements
 Loop control statements change execution form its normal sequence. When execution leaves a scope, all automatic objects that were created in that scope are destroyed.
