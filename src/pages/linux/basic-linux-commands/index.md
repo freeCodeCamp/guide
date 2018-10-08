@@ -29,3 +29,23 @@ When starting out with linux, there are some basic commands everyone should know
   - The touch command is used to create a file. It can be anything, from an empty txt file to an empty zip file. 'touch new.txt' will create a new file with name new.
   9. **mv** — move
   - Use the mv command to move files through the command line. We can also use the mv command to rename a file. For example, if we want to rename the file “text” to “new”, we can use 'mv text new'.
+
+##Useful Applications in Linux:
+
+ 1. **Wine** - used to run .exe files in linux.
+
+If you want to explicitly specify that you want to use your GPU for a program, use: DRI_PRIME=1 steam(or any other program), https://wiki.archlinux.org/index.php/PRIME
+
+ 2. **Proxyman** - to set system-wide proxy with the help of a script, https://github.com/himanshub16/ProxyMan
+
+ 3. **OpenVPN** -
+
+- Goto https://tcpvpn.com , select a server, create an account, download the ovpn config file.
+
+- https://askubuntu.com/questions/187511/how-can-i-use-a-ovpn-file-with-network-manager, install this if you cant import ovpn files.
+
+- Goto NetworkManager , import the ovpn config file (port 443), enter your username and password, goto advanced settings and set your http proxy.
+
+- Connect to the vpn and make sure that no proxy is set in your environment.
+
+
