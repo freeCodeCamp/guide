@@ -35,4 +35,4 @@ Unreal has gone through 4 major revisions. Although some code is common between 
 #### More Information:
 
 <a href='https://www.unrealengine.com/' target='_blank' rel='nofollow'>www.UnrealEngine.com</a>  
-<a href='https://github.com/EpicGames' target='_blank' reles l='nofollow'>www.EpicGames.com</a>
+<a href='https://github.com/EpicGames' target='_blank' rel='nofollow'>www.EpicGames.com</a>
