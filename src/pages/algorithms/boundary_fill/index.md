@@ -1,3 +1,6 @@
+---
+title: Boundary Fill
+---
 
 ## Boundary Fill
 Boundary fill is the algorithm used frequently in computer graphics to fill a desired color inside a closed polygon having the same boundary 
