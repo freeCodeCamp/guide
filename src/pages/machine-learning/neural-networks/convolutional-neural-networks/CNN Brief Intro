@@ -1,0 +1,10 @@
+Convolution neural networks are special types of neural nets that works wonders when given a 2D input, i.e. it works the best with images. The main components of CNN (Convolution Neural Network) are special convolution and pooling operations.
+These operations enables the networks to search for patterns in the image similar to that of the human brain. It begins with smaller details like line, recatngle, blob and it works its way up to more random features to create features that you want to actually find. 
+For example if we want to search a face in an image then it begins with finding lines, then lines arranged in a manner form an oval shape which is similar to facial structure.
+
+
+Important Layers:
+1. Maxpool Layers
+2. Convolution Layers
+3. BatchNormalization Layers
+4. Activation Layers (relu, softmax, etc)
