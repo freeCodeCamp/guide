@@ -3,13 +3,13 @@ title: Git Blame
 ---
 ## Git Blame
 
-With `git blame` you can see who changed what in a specific file, line by line. So it is useful if you work in a team, instead of alone. For example if a line of code makes you wonder why it is there, you throw on git blame and you know to whom to talk to.
+With `git blame` you can see who changed what in a specific file, line by line, which is useful if you work in a team, instead of alone. For example, if a line of code makes you wonder why it is there, you can use `git blame` and you will know who you must ask.
 
 ### Usage
 
-You use git blame like this: `git blame NAME_OF_THE_FILE`
+You use `git blame` like this: `git blame NAME_OF_THE_FILE`
 
-so for example: `git blame triple_welcome.rb`
+For example: `git blame triple_welcome.rb`
 
 You will see an output like this:
 
@@ -19,19 +19,19 @@ e483daf0 (John Doe      2018-06-18 23:50:40 -0500 2)   print 'Welcome '
 0292b580 (Jane Doe      2018-06-18 00:17:23 -0500 3) end
 ```
 
-Each line annotated with the SHA, name of the author and date of the last commit.
+Each line is annotated with the SHA, name of the author and date of the last commit.
 
 ### Aliasing Git Blame
 
-Some programmers don't like the word 'blame', because of the negative connotation 'blaming someone' brings with it. Also the tool is rarely (if ever) used for blaming someone, instead aksing for advice or understanding the history of a file. So you sometimes see people use an alias to change `git blame` to something sounding nicer. Like `git who`, `git history` or `git praise`. To do that you simply add an git alias like this:
+Some programmers don't like the word 'blame', because of the negative connotation 'blaming someone' brings with it. Also, the tool is rarely (if ever) used for blaming someone, but rather to ask for advice or understand the history of a file. Therefore, sometimes people use an alias to change `git blame` to something which sounds a bit nicer such as `git who`, `git history` or `git praise`. To do that you simply add a git alias like this:
 
 `git config --global alias.history blame`
 
-You can see more information about aliasing git commands [here](../git-alias/index.md).
+You can find more information about aliasing git commands [here](../git-alias/index.md).
 
 ### Text Editor Plugins utilizing Git Blame
 
-There are a few plugins out there for various text editors which utilize `git blame`. For example to create something like heat maps or add inline information for the current line you are inspecting. A famous examples is [GitLense](https://gitlens.amod.io/) for VSCode.
+There are a few plugins out there for various text editors which utilize `git blame`. For example, to create something like heat maps or add inline information for the current line you are inspecting. A famous example is [GitLense](https://gitlens.amod.io/) for VSCode.
 
 ### Further Reading
 
