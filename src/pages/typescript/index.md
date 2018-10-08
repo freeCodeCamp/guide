@@ -26,6 +26,10 @@ In essence, TypeScript is trying to help JavaScript reach new heights and become
 
 **🎉 FUN FACT** TypeScript turned 5 years old on October 1st, 2017.
 
+### Version
+
+Latest stable version available is [TypeScript 3.1](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-1.html).
+
 ### Installation
 
 To learn more about installation, see [`TypeScript`](./) > [`Installation`](./installation).
@@ -41,8 +45,6 @@ To learn more about using a linter with TypeScript, check out [`TypeScript`](./)
 If you want to try out TypeScript without installing it, visit the <a href='http://www.typescriptlang.org/play/index.html' target='_blank' rel='nofollow'>TypeScript Playground</a>.
 
 The Playground has built-in auto completion and the ability to directly see the emitted JavaScript.
-
-To learn more about installation, see the [Installation Appendix](./src/articles/typescript/appendix-installation/index.md).
 
 ### Other Resources
 

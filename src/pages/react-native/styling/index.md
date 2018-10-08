@@ -1,5 +1,5 @@
 ---
-title: React Native - Styling
+title: Styling
 ---
 ## React Native - Styling
 

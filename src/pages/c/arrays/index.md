@@ -19,7 +19,8 @@ int main(void) {
     return 0;
 }
 ```
-So... this looks a bit tedious.<br>Up until now every variable created had some special role. But right now, it would be great if we could just store multiple values in one place and get access to the values with their place in the line maybe (first value, second etc.). Also, we could use loops on them, which are things you will learn about later, but basically they do the same thing over and over again eg. reading from the user, or printing out values. 
+So, this looks a bit tedious.<br>Up until now every variable created had some special role. But right now, it would be great if we could just store multiple values in one place and get access to the values with their place in the line maybe (first value, second etc.). Also, we could use loops on them, which are things you will learn about later, but basically they do the same thing over and over again.
+eg. reading from the user, or printing out values. 
 
 ## Arrays in C
 Arrays are containers with a given size. They contain variables of the **same type**. You can access a variable stored in the array with its *index*.
@@ -40,7 +41,7 @@ And now let's break the syntax down a bit:
 ```C
 int arr[4] = {1, 2, 3, 88};
 ```
-Here you have created an `array` of `ints`, called `arr`. This array has 4 elements: `1`, `2`, `3`, `88`. Note the syntax!
+Here you have created an `array` of `ints`(Integers), called `arr`. This array has 4 elements: `1`, `2`, `3`, `88`. Note the syntax!
 ```C
 datatype name[number of elements] 
 ```
@@ -62,9 +63,58 @@ int var = arr[0];
 Here an int is created called `var`, and it is initialized to the 0th element of arr. **Very importart to note** that in C, indexes start at zero as opposed to 1. This means that to access the first element, the index (between the brackets) is 0, to access the second element, the index is 1 etc. 
 In this example `var` is going to store the value `1`.
 
+## Multi-dimensional Arrays in C
+
+C also supports multi-dimensional arrays.
+```C
+datatype name[size1][size2]...[sizeN] 
+```
+
+Two-dimensional arrays are common and can be initialized using the following syntax. One can logically think of the first index as rows and the second index as columns. This example has 2 rows and 5 columns.
+```C
+int arr[2][5] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+```
+
+It can be difficult to visualize a 2-dimensional array using the above syntax so developers often use optional, nested brackets to clarify the structure of the array. This is also a valid way to initialize a 2-dimensional array.
+```C
+int arr[2][5] = {
+    {0, 1, 2, 3, 4},
+    {5, 6, 7, 8, 9}
+};
+```
+
+Two nested for loops can be used to print the contents of a 2-dimensional array in tabular format.
+```C
+#include <stdio.h>
+
+
+int main() {
+    const int rows = 2, cols = 5;
+
+    int arr[rows][cols] = {
+            {0, 1, 2, 3, 4},
+            {5, 6, 7, 8, 9}
+    };
+
+    for (int row = 0; row < rows; row++) {
+        for (int col = 0; col < cols; col++) {
+            printf("%5d", arr[row][col]);
+        }
+        puts("");
+    }
+
+    return 0;
+}
+```
+
+```C
+    0    1    2    3    4
+    5    6    7    8    9
+```
+
 ## Strings
 
-To store strings/multiple characters, we use `char arrays` in C, because the language has no special type built in. One thing to be aware of, is that a terminating null is automatically added to the end, signaling that it is the end of the string.
+To store strings/multiple characters, we use `char arrays` in C, because the language has no special type built in. One thing to be aware of, is that a terminating null is automatically added to the end, signaling that it is the end of the string. However, you may also initialze a string with curly braces `{}` as well, but you have to manually add the terminating null. 
 
 Like so:
 ```C

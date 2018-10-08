@@ -7,7 +7,8 @@ title: C++
 
 * C++ is a general purpose programming language which has been used since the 1990's
 * It was designed by Bjarne Stroustrup under with the name "C with classes".
-* It is an Object Oriented version of the programming language C, its namesake.
+* It is a version of C that includes Object-Oriented elements, including classes and functions.
+
 * It is considered one of the biggest programming languages, as you can see in the following image:
 ![Img](http://static1.businessinsider.com/image/59deb30392406c21008b6148-1200/for-bonus-points-heres-the-chart-showing-these-languages-relative-popularity.jpg)
 _source: Github_
@@ -15,7 +16,7 @@ _source: Github_
 ### Your First Program in C++
 
 ```cpp
-#include <iostream>
+#include<iostream>
 using namespace std ;
 int main()
 {
@@ -27,10 +28,11 @@ int main()
 #### The Output of this program will simply be :
 
 ```
-Hello World
+Hello World!
 ```
 
-Now , let's break down the code.
+Now, let's break down the code:
+
 
 #### Lines 1 and 2
 
@@ -39,7 +41,7 @@ Now , let's break down the code.
 using namespace std;
 ```
 
-* The 1st line tells the computer to use the "iostream" header file for this specific program . There are many other header files which are requireed for a specific program to run properly. Some of them are : math , vector and string. Header files are generally represented by a ".h" extension (you don't need to add .h when including C++ standard library files)
+* The first line tells the computer to use the "iostream" header file for this specific program . A header file is a seperate file with prewritten C++ code. There are many other header files which are requireed for a specific program to run properly. Some of them are : math , vector and string. Header files are generally represented by a ".h" extension (you don't need to add .h when including C++ standard library files)
 * `iostream` stands for input-output stream . The "iostream" file contains code for allowing the computer to take input and generate an output, using the C++ language.
 * The second line tells the computer to use the standard namespace which includes features of standard C++. You could write this program without this line, but you'd have to use `std::cout` instead of `cout` on line 4. It makes the code more readable and our lives as programmers easier.
 
@@ -57,7 +59,7 @@ int main()
 #### Lines 4,5 & 6
 
 ```cpp
-    cout<<"Hello World"<<endl;
+    cout << "Hello World" << endl;
     return 0;
 }
 ```

@@ -3,7 +3,9 @@ title: Li Tag
 ---
 ## Li Tag
 
-The `<li>` tag defines a list item in a list. The `<li>` tag can be used with unordered lists (`<ul>`), ordered lists (`<ol>`), and menus (`<menu>`). To define a list item, wrap the desired elements in an `<li>` tag. `<li>` elements must be contained inside a parent element that is a list.
+The `<li>` tag defines a list item in a list. The `<li>` tag can be used with unordered lists (`<ul>`), ordered lists (`<ol>`), and menus (`<menu>`).
+
+To define a list item, wrap the desired elements in an `<li>` tag. `<li>` elements must be contained inside a parent element that is a list.
 
 ### Example
 
@@ -35,6 +37,10 @@ In an unordered list, `<li>` appears as a numbered item.
 2. Second item
 3. Third item
 
+This numeric display counter can be customized using the _list-style-type_ CSS property.
+
+Examples:
+
 ```html
 <!-- In a simple unordered list -->
 <ul>
@@ -49,6 +55,13 @@ In an unordered list, `<li>` appears as a numbered item.
   <li>Second item</li>
   <li>Third item</li>
 </ol>
+
+<!-- In a menu list -->
+<menu>
+  <li>Menu item one</li>
+  <li>Menu item two</li>
+  <li>Menu item three</li>
+</menu>
 ```
 
 ### Attributes
@@ -67,8 +80,6 @@ The `type` attribute defines the numbering type that will be used in the list. T
 
 #### Example
 
-The following HTML
-
 ```html
 <body>
   <ol type="I">
@@ -77,9 +88,8 @@ The following HTML
     <li>list item</li>
   </ol>
 </body>
-
 ```
-Will output
+The above HTMl will output:
 
 <ol type="I">
   <li>list item</li>
@@ -93,8 +103,6 @@ The `value` attribute specifies the numeric order of the current `<li>`. This at
 
 #### Example
 
-The following HTML
-
 ```html
 <body>
   <ol>
@@ -103,9 +111,9 @@ The following HTML
     <li>list item</li>
   </ol>
 </body>
-
 ```
-Will output
+
+The above HTML will output:
 
 4. list item
 5. list item
@@ -158,6 +166,6 @@ And here is an ordered list with a nested, unordered list.
 ```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-[MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
-
+- [The HTML &lt;li&gt; element: MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
+- [HTML &lt;li&gt; tag: w3schools](https://www.w3schools.com/cssref/pr_list-style-type.asp)
+- [CSS list-style Property: CSS-Tricks](https://css-tricks.com/almanac/properties/l/list-style/)

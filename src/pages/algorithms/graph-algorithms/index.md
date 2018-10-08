@@ -3,14 +3,16 @@ title: Graph algorithms
 ---
 ## Graph algorithms
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/algorithms/graph-algorithms/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Graph algorithms are a set of instructions that traverse (visits nodes of a) graph.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Some algorithms are used to find a specific node or the path between two given nodes. 
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### Why Graph Algorithms are Important
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+A graphs are very useful data structures which can be to model various problems. These algorithms have direct applications on Social Networking sites, State Machine modeling and many more.
+
+### Some Common Graph Algorithms
+Some of the most common graph algorithms are:
 
 <a href='https://github.com/freecodecamp/guides/computer-science/data-structures/graphs/index.md' target='_blank' rel='nofollow'>Graphs</a>
 

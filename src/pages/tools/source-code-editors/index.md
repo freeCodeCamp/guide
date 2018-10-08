@@ -1,6 +1,9 @@
 ---
 title: Source Code Editors
 ---
+
+##Source Code Editors
+
 Source code editors are the programs that allow for code creation and  
 editing. Any text editor can be used to write code. But dedicated code  
 editors offer many useful features, including: text completion,  
@@ -43,4 +46,19 @@ Atom is an <a href='https://github.com/atom/atom' target='_blank' rel='nofollow'
 by <a href='https://github.com/' target='_blank' rel='nofollow'>GitHub</a>. Like Sublime Text, Atom is quite popular.  
 It is very configurable ("hackable", as they say) but advanced features may  
 be overwhelming to new users. There is also plenty of <a href='http://readwrite.com/2014/05/20/github-atom-5-tips-getting-started-tutorial-corey-johnson/' target='_blank' rel='nofollow'>helpful</a> <a href='http://flight-manual.atom.io/' target='_blank' rel='nofollow'>documentation</a>  
+
 <a href='http://stackoverflow.com/search?q=atom' target='_blank' rel='nofollow'>availble</a> online.
+
+
+## <a href='https://code.visualstudio.com/' target='_blank' rel='nofollow'>Visual Studio Code</a> ![Visual Studio Code Icon](https://code.visualstudio.com/images/2017_10_24_orangeprerelease.png)
+
+![Visual Studio Code Screenshot](https://code.visualstudio.com/home/home-screenshot-mac-lg.png)
+
+Visual Studio Code is a source code editor developed by Microsoft in 2015, and is now one of the most known code editors for web development. 
+It supports many programming languages, and like the others you can download plugins or extensions to make it more configurable for your coding style.
+Its main features are:
+*   IntelliSense - For syntax highlighting, autocomplete, functions definitions and smart complete.
+*   Debugging - Be able to debug using break points, call stacks and an interactive console.
+*   Build-in Git - Review diffs, stage files, make commits, push and pull, all available in the editor.
+*   Extensions - Install extensions to add new languages, themes, debuggers, and connect additional services.
+

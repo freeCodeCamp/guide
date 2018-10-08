@@ -14,6 +14,7 @@ There are a couple of different ways to create a new hash:
 ```ruby
 hash1 = {a: 100, b: "200"}
 hash2 = Hash.new
+hash3 = Hash.new(0) # with default value set to 0
 ```
 
 A programmer can then access a hash value using its key, rather than the index.

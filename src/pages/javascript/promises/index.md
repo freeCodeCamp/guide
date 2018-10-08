@@ -83,7 +83,8 @@ var subtract = function(x, y) {
   });
 };
 
-var result = add(2,2)
+// Starting promise chain
+add(2,2)
   .then((added) => {
     // added = 4
     return subtract(added, 3);
@@ -96,13 +97,14 @@ var result = add(2,2)
     // added = 6
     return added * 2;    
   })
+  .then((result) => {
+    // result = 12
+    console.log("My result is ", result);
+  })
   .catch((err) => {
-    // If any part of the chain is rejected, print the message.
+    // If any part of the chain is rejected, print the error message.
     console.log(err);
   });
-
-// > My result is 12
-console.log("My result is ",result);
 
 ```
 
@@ -153,7 +155,8 @@ console.log(gen.next());
 ```
 As we keep calling `gen.next()` it will keep going onto the next `yield` and pausing each time. Once there are no more `yield`'s left, it will proceed to run the rest of the generator, which in this case simply returns `'Finished!'`. If you call `gen.next()` again, it will throw an error as the generator is finished.
 
-Now, imagine if each `yield` in this example was a `Promise`, the code itself would appear extremely synchronous. Libraries such as <a href='https://github.com/redux-saga/redux-saga' target='_blank' rel='nofollow'>redux-saga</a> make use of this to implement easier-to-understand side-effects in your Redux applications.
+Now, imagine if each `yield` in this example was a `Promise`, the code itself would appear extremely synchronous.
 
 ### More Information
 For more information on promises: <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise' target='_blank' rel='nofollow'>Promises</a>
+

@@ -4,7 +4,7 @@ title: Code Reviews
 ## Code Reviews
 
 Code reviews are common practice for many software development teams. Code reviews involve 
-team members looking over each others code submissions to check for bugs, incorrect logic or 
+team members looking into each others' code submissions to check for bugs, incorrect logic or 
 potential improvements. To those who have not experienced the code review process before, 
 it can be intimidating, however, it is an invaluable process to help you 
 grow as a developer.

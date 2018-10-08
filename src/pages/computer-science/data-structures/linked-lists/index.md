@@ -68,14 +68,192 @@ Most common operations available on List are,
 7. Size / Count - Returns the number of elements currently present in the List.
 8. IsEmpty - Check whether the List is empty or not.
 
+#### Implementation of a Simple Linked List in C++
+```cpp
+#include<iostream>
+using namespace std;
+
+struct Number
+{
+	int num;
+	struct Number *tail;
+};
+
+typedef struct Number N;
+
+class List
+{
+	private:
+		N *head,*end;
+		int count;
+	
+	public:
+		void display();
+		void insertBefore(int);
+		List();
+};
+
+List :: List()
+{
+	head=NULL;
+	end=NULL;
+	count=0;
+}
+
+void List :: insertBefore(int data)
+{
+		N *node;
+		node= new N;
+		node->num=data;
+		node->tail=NULL;
+		
+		if(!head){
+			head=end=node;	
+		}
+		
+		else{
+			node->tail=head;
+			head=node;	
+		}
+		
+		count++;	
+}
+
+void List :: display()
+{
+	cout<<"Number of nodes in the list = "<<count<<endl;
+	N *node;
+		node=head;
+	while(node) 
+	{
+		
+		cout<<node->num<<endl;
+		node=node->tail;
+		
+	}
+	
+}
+int main()
+{
+	List l1;
+	
+	l1.insertBefore(10);
+	l1.insertBefore(20);
+	l1.insertBefore(30);	
+	l1.insertBefore(40);
+	l1.insertBefore(50);
+	l1.display();
+	
+	return 0;
+}
+ 
+```
+
+#### OUTPUT 
+```
+Number of nodes in the list = 5
+50
+40
+30
+20
+10
+```
+
+#### Explanation
+```cpp
+
+struct Number
+{
+	int num;
+	struct Number *tail;
+		
+};
+```
+Declaration of a structure(node) with 2 data members
+* `num` holds the integer data value
+* `*tail` pointer points to the next node in the List
+
+```cpp
+class List
+{
+	private:
+		N *head,*end;
+		int count;
+	
+	public:
+		void display();
+		void insertBefore(int);
+		List();
+};
+```
+The List class declares the Linked List.
+* `*head` points to the first node in the List
+* `*end` points to the last node in the List
+* `count` holds the value for number of nodes in the list
+* `display()` is used to print the complete list on the console
+* `insertBefore()` is used to insert a new node
+* `List()` is a defualt constructor
+
+```cpp
+List :: List()
+{
+	head=NULL;
+	end=NULL;
+	count=0;
+}
+```
+
+The default constructor is used to initialize the data members of the List class with default values
+
+```cpp
+void List :: insertBefore(int data)
+{
+		N *node;
+		node= new N;
+		node->num=data;
+		node->tail=NULL;
+		
+		if(!head){
+			head=end=node;	
+		}
+		
+		else{
+			node->tail=head;
+			head=node;	
+		}
+		
+		count++;	
+}
+```
+
+* A new node is created. 
+* `num` is assigned the value of `data`.
+* `tail` is pointing to Null.
+* The `if(!head)` condition is true only when there are no elements in the List. 
+* When this is the case, `head` and `end` are both pointing to the newly created node.
+* Control will move to the `else` section, when there is at least one node in the list.
+* In this case, `tail` pointer in the newly created node is made to point to the `head`(first) node.
+* The `head` pointer then points to the newly created node to make it the first node in the list.
+* `count` is incremented by 1	as each new node is added.
+  
+```cpp
+void List :: display()
+{
+	N *node;
+	node=head;
+	while(node)
+	{
+		cout<<node->num<<endl;
+		node=node->tail;
+	}
+}
+```
+The display function is used to run through the list and print the total number of nodes and values of `num` on the console.
 
 #### Applications  
 * Base Data Structure for Vector, Array, Queue, Stack, etc  
 * Polynomial Representation  
 * Ring Buffer  
-
-#### More Information:
-* <a href='http://www.geeksforgeeks.org/linked-list-set-1-introduction/' target='_blank' rel='nofollow'>Introduction to Linked Lists</a>
 
 Drawbacks:
 1) Random access is not allowed. We have to access elements sequentially starting from the first node. So we cannot do binary search with linked lists.
@@ -241,3 +419,6 @@ int main()
   return 0;
 }
 ```
+#### More Information:
+* <a href='http://www.geeksforgeeks.org/linked-list-set-1-introduction/' target='_blank' rel='nofollow'>Introduction to Linked Lists</a>
+* <a href='https://www.youtube.com/watch?v=njTh_OwMljA' target='_blank' rel='nofollow'>Linked Lists (YouTube video)</a>

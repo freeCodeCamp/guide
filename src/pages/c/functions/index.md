@@ -14,7 +14,7 @@ int divides(int a, int b) {
 
 int main(void) {
     int first = 5;
-    int second = 10;
+    int second = 10; //MUST NOT BE ZERO;
 
     int result = divides(first, second);
 
@@ -51,6 +51,13 @@ return a / b;
 This is pretty straightforward, because this is such a simple function. `a` is divided by `b`, and that value is returned. You've seen `return` before in the `main` function, but now instead of ending our program, it ends the method and gives the value to whatever called it.
 
 So to recap what this function does- it gets two integers, divides them, and gives them back to whatever called it.
+
+###Parameters of a function
+Parameters are used to pass arguements to the function.
+Their are two types of parameters:
+Parameter Written In Function Definition is Called “Formal Parameter”.
+Parameter Written In Function Call is Called “Actual Parameter”.They are also known as arguments.They are passed to the function definition and a copy is created in the form of formal parameters.
+
 
 ## A more complex example
 That one was a single line function. You'll see them when there's a pretty simple operation that needs to be performed over and over, or an operation that ends up being one long line. By making it a function, the code ends up being more readable and manageable.

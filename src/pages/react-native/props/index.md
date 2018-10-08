@@ -1,5 +1,5 @@
 ---
-title: React Native - Props
+title: Props
 ---
 ## React Native - Props
 

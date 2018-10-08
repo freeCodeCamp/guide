@@ -14,7 +14,6 @@ REST was developed to provide a uniform interface for
  - Self descriptive messages
  - Using Hypermedia as the Engine of Application State (HATEOS)
 
-
 ### Best Practices
 
  - #### Basics
@@ -36,15 +35,16 @@ REST was developed to provide a uniform interface for
 - #### Singular or Plural?
     Use correct grammer for declaration
 
-    :heavy_multiplication_x: `/person/145` 
+    **Avoid** `/person/145` 
 
-    :heavy_check_mark: `/people/154` Assume to return 154th person from list of people
+    **Prefer** `/people/154` Assume to return 154th person from list of people
 
 - #### Use casing
   Use anyone of the below patterns and be **consistent!**  
 
+
   | Case Styles        | Example          | 
-  | ------------- |:-------------:|
+  | ------------- |-------------|
   | **UpperCamelCase**      | `http://api.fintech.cp/DailyTransactions/Today` | 
   | **lowerCamelCase**      | `http://api.fintech.cp/dailyTransactions/today`      |  
   | **snake_case**    | `http://api.fintech.cp/daily_transactions/today`      | 
@@ -73,13 +73,15 @@ REST was developed to provide a uniform interface for
  - #### HTTP Status Codes
 
  Use correct status codes 
- | Codes        | Meaning           | 
-| ------------- |:-------------:| 
-| 1xx      | Hold on.. | 
-| 2xx      | Here you go!      | 
-| 3xx | Go away      |
-| 4xx |You fucked up..|
-|5xx|I fucked up.. |
+ 
+  | Codes        | Meaning           | 
+  | ------------- |:-------------:|
+  | 1xx | Request received and understood. | 
+  | 2xx | Action requested by client was received, understood and requested. | 
+  | 3xx | Client must take additional action to complete the request. Most of these status codes are used in URL Redirection. |
+  | 4xx | Intended for situations where it seems the error was caused by the client. |
+  | 5xx | The server failed to fulfil a request. |
+
 
 
   Little more on **2xx**!
@@ -100,8 +102,8 @@ REST was developed to provide a uniform interface for
 
   The dangerous **5xx** resources!
 
-  - **503** Internal Server Error
-  - **504** Request Time out. Server didn't receive timely response
+  - **500** Internal Server Error
+  - **504** Gateway Timeout. Server didn't receive timely response
 
   Less known **4xx** suggests that you are passing wrong parameter. Can also pass information that is wrong. E.g.
 
@@ -111,10 +113,9 @@ REST was developed to provide a uniform interface for
   `Expecting int car id /car/id got string car/MH09234 `
 
 
-### **Cite** 
-
-**[The never-ending REST API design debate by Guillaume Laforge](https://www.youtube.com/watch?v=48azd2VqtP0)**
-
 ### **Further reading**
-
 [How to Design Great APIs - Parse Developer Day 2013](https://www.youtube.com/watch?v=qCdpTji8nxo)
+
+[The never-ending REST API design debate by Guillaume Laforge](https://www.youtube.com/watch?v=48azd2VqtP0)
+
+[HTTP status codes](https://httpstatuses.com/)

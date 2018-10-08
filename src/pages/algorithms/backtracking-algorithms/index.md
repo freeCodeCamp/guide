@@ -10,6 +10,8 @@ Backtracking is a general algorithm for finding all (or some) solutions to some 
 
    *The knight is placed on the first block of an empty board and, moving according to the rules of chess, must visit each square exactly once.*
 
+
+
  ### Path followed by Knight to cover all the cells
   Following is chessboard with 8 x 8 cells. Numbers in cells indicate move number of Knight.
   [![chrome_2017-10-21_11-54-32.png](https://s1.postimg.org/3mj9ovlzbz/chrome_2017-10-21_11-54-32.png)](https://postimg.org/image/7657eoop3v/)
@@ -26,6 +28,7 @@ while there are untried tours
    }
 }
 ```
+
 ### Backtracking Algorithm for Knight’s tour
 Following is the Backtracking algorithm for Knight’s tour problem.
 ```
@@ -49,3 +52,5 @@ Else
 [Wikipedia](https://en.wikipedia.org/wiki/Backtracking)
 
 [Geeks 4 Geeks](http://www.geeksforgeeks.org/backtracking-set-1-the-knights-tour-problem/)
+
+[A very interesting introduction to backtracking](https://www.hackerearth.com/practice/basic-programming/recursion/recursion-and-backtracking/tutorial/)

@@ -48,3 +48,5 @@ in which:
 - `REMOTE-NAME` is the name of the remote repository to which you want to push the changes to
 - `BRANCH-NAME` is the name of the remote branch you want to push your changes to
 
+### More Information:
+- [Git documentation - push](https://git-scm.com/docs/git-push)

@@ -3,7 +3,6 @@ title: While Loop
 ---
 # While Loop
 
-
 The `while` loop repeatedly executes the block of statements until the condition specified within the parentheses evaluates to `false`. For instance:
 
 ```java
@@ -18,7 +17,7 @@ Each 'iteration' (of executing the block of statements) is preceeded by the eval
 **Note**: For the `while` loop to start executing, you'd require the condition to be `true` initially. However, to exit the loop, you must do something within the block of statements to eventually reach an iteration when the condition evaluates to `false` (as done below). Otherwise the loop will execute forever. (In practice, it will run until the <a href='https://guide.freecodecamp.org/java/the-java-virtual-machine-jvm' target='_blank' rel='nofollow'>JVM</a> runs out of memory.)
 
 ## Example
-In the following example, the `expression` is given by `iter_While < 10`. As we increment `iter_While` by `1` each time the loop is executed, the `while` loop will keep going until `iter_While` reaches `10`.
+In the following example, the `expression` is given by `iter_While < 10`. We increment `iter_While` by `1` each time the loop is executed. The `while`loop breaks when`iter_While`value reaches `10`.
 
 ```java
 int iter_While = 0;
@@ -38,4 +37,4 @@ Output:
 iter_While Value: 10
 ```
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CJYj/0' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") [Run Code](https://repl.it/CJYj/0)

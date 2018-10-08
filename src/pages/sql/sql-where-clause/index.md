@@ -34,16 +34,17 @@ select studentID, FullName, sat_score, rcd_updated from student;
 ```
 
 Rows will be presented that....
+
 * `WHERE` Student IDs are between 1 and 5 (inclusive) 
 * `OR` studentID = 8 
-* `OR` have "Maxmimo" in the name
 
 Here's an updated query, where any record that has an SAT score that's in this list (1000, 1400) will not be presented:
 
 ```sql
+
 select  studentID, FullName, sat_score, recordUpdated
 from    student
-where   (studentID between 1 and 5 or studentID = 8 or FullName like '%Maximo%')
+where   (studentID between 1 and 5 or studentID = 8)
         and
         sat_score NOT in (1000, 1400);
 ```
