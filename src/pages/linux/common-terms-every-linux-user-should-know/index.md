@@ -18,14 +18,19 @@ title: common terms every Linux user should know.
 
 * <strong>Tux:</strong>  it is the official mascot of Linux. That is the penguin that is usually associated with Linux – if you’ve seen the yellow and black penguin online, then you have seen tux.
 
-* <strong>Root:</strong> also known as the super-user, is the "default" username for the administrator of a linux machine. It is usally represented on the linux terminal witjh the <strong>"#"</strong> symbol. 
+* <strong>Root:</strong> also known as the super-user, is the "default" username for the administrator of a linux machine. It is usally represented on the linux terminal with the <strong>"#"</strong> symbol. 
 
 * <strong>Commands:</strong> are text inputs or instruction given to the linux machine (by typing it in the terminal) to tell it what to do (that is, for a required outcome).  
-  
 
 * <strong>Repository:</strong>  a repository (or “repo” for short) is a collection of software packages for a distro usually hosted online. Software programs can be installed from both the default repositories provided by the distro and third-party ones when they’re added to the package manager.
 
 * <strong>Package Manager:</strong>  is a software program that enables you to search, install, update, and remove apps and other application management functions. Every distro has graphic from end package managers (like the Ubuntu Software Centre) and command line package management tools like the “apt-get”.
 
 * <strong>Dependency:</strong>  a dependency is a software program that the program you want to install needs to run. When a program is being installed it gives a list of its dependencies to the default package manager to check if they are already installed, and download them from a repository if they’re not.
+
+* <strong>Desktop Environment:</strong>  A desktop environment is the interface you see after logging in, usually selected from the Login Screen. Common examples of Desktop Environments include Gnome Shell, KDE, XFCE and LXDE
+
+* <strong>Shell Scripts:</strong>  Shell Scripts are `.sh` files that contain multiple lines of code that is to be interpreted by a shell (such as bash, sh, ksh e.t.c)
+
+* <strong>Kernel Panic:</strong>  A kernel panic is a safety measure taken by an operating system's kernel upon detecting an internal fatal error in which it either is unable to safely recover from or cannot have the system continue to run without having a much higher risk of major data loss.
 
