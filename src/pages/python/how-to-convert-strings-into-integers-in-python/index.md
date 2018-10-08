@@ -1,7 +1,7 @@
 ---
-title: How to Convert Strings into Integers in Python
+title: Converting Strings into Integers in Python
 ---
-## How to Convert Strings into Integers in Python
+## Converting Strings into Integers in Python
 
 Just like the `str()` built-in, Python also offers a handy built-in which takes a string object as an argument and returns the corresponding integer object.
 
