@@ -33,6 +33,7 @@ GameMaker Studio 2 released on 2 November 2016.
 * Crashlands
 * VA-11 Hall-A
 * Undertale
+* Risk of Rain
 
 #### More Information:
 * [Wikipedia] https://en.wikipedia.org/wiki/GameMaker_Studio<br>
