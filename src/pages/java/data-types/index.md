@@ -145,7 +145,7 @@ Example :
 ```java
 public class Box{
 
-    int length, breadth, height;
+    int length, breadth, height; //primitive data types
 
     public Box(){
         length=5;
@@ -165,7 +165,7 @@ class demo{
 
 ## String:
 
-String is not a primitive data type, but it lets you store multiple character data types in an array and has many methods that can be used. It is used quite commonly when the user types in data and you have to manipulate it. 
+Strings are used often in Java to store words and phrases. String is not a primitive data type, but it lets you store multiple character data types in an array and has many methods that can be used. It is used quite commonly when the user types in data and you have to manipulate it. 
 
 In the example below, we try to remove all of the letters from the string and output it:
 
@@ -176,13 +176,13 @@ String output = "";
 
 for(int i=0;i<input.length();i++){
 
-//if the character at index i on the string is a letter or a space, move on to the next index
-if(Character.isLetter(input.charAt(i)) || input.charAt(i)==' '){ 
-    
-    continue;
-}
+    //if the character at index i on the string is a letter or a space, move on to the next index and don't add it
+    if(Character.isLetter(input.charAt(i)) || input.charAt(i)==' '){ 
 
-output = output + input.charAt(i); //the number is added onto the output
+        continue;
+    }
+
+    output = output + input.charAt(i); //the number is added onto the output
 
 }
 
