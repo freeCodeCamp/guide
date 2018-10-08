@@ -50,10 +50,15 @@ long long       | %lli, or %llu when unsigned
 float           | %f
 double          | %f
 long double     | %Lf
+unsigned int    | %lu
 
 In order to print a variable, you must have a format specifier, and then a variable to format. Several format specifiers can be together in the same printf(), as well:
 ```C
     printf("%i and %f", my_first_variable, my_second_variable);
+```
+In order to scan a variable, you must have a format specifier, and then the address of the  variable(denoted by adding '&' sign before the variable name) to be taken as input. Several format specifiers can be together in the same scanf(), as well:
+```C
+    scanf("%i and %f", &my_first_variable, &my_second_variable);
 ```
 
 Now let's start changing the values within our variables. Here's the same examples from before, but with a few more lines:
