@@ -25,7 +25,8 @@ Console.WriteLine("Bye!");
 > Type A to continue: A
 > Bye!
 ```
+
 #### More Information:
 
-* <a href='https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/do' target='_blank' rel='nofollow'>do (C# Reference)</a>
-* <a href='https://www.dotnetperls.com/do' target='_blank' rel='nofollow'>C# Do-While Loop Example</a>
+* [Microsoft C# - do](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/do)
+* [Dot Net Perls - do](https://www.dotnetperls.com/do)
