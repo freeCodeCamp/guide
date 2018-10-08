@@ -20,4 +20,4 @@ Lastly, learn to integrate 3rd party libraries and Firebase services to add func
 
 ### Courses
 
-[Udacity Android Nanodegree Program](https://udacity.com/course/android-developer-nanodegree-by-google--nd801
+[Udacity Android Nanodegree Program](https://udacity.com/course/android-developer-nanodegree-by-google--nd801)
