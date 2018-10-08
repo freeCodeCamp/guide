@@ -87,5 +87,9 @@ title: Books to Read for Programmers
 - [Amazon Smile](https://www.amazon.com/Think-Python-Like-Computer-Scientist/dp/1491939362)
 - ISBN-13: 978-1491939369
 
+*SJavaScript: The Good Parts*
+- https://www.oreilly.com/library/view/javascript-the-good/9780596517748/
+- ISBN-13: 978-0596517748
+
 This list was compiled from multiple suggestion threads on Reddit and Stackoverflow. 
 Please feel free to add more that you have found useful!
