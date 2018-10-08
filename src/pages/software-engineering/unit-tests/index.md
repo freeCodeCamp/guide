@@ -17,8 +17,9 @@ Depending on the type of programming language (or paradigm) these can be against
 - **Industry Standard** -  Unit testing is a common discipline these days, and is a requirement for a large portion of software companies
 - **Less bugs** - Substantial research suggests that applying testing to an application can improve production bug density by 40% — 80%.
 
-## Test-Driven Development 
-Unit testing is a key feature of the TDD software development approach. In this approach, code for specific features or functions is written through the repeated use of a very short cycle. First the developer writes a set of automated unit tests, and ensures that they fails initially. Next, the developer implements the bare minimum amount of code required to pass the test cases. Once it has been validated that the code is behaving as expected, the developer then goes back and refactors code to adhere to any relevant coding standards.
+### Test-Driven Development
+
+Unit testing is a key feature of the test-driven development (TDD) approach to software development. In this approach, code for specific features or functions is written through the repeated use of a very short cycle. First, the developer writes a set of automated unit tests and ensures that they fail initially. Next, the developer implements the bare minimum amount of code required to pass the test cases. Once it has been validated that the code is behaving as expected, the developer then goes back and refactors code to adhere to any relevant coding standards.
 
 ### More Information
 
