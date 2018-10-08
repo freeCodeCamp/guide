@@ -3,10 +3,11 @@ title: Import a Google Font
 ---
 ## Import a Google Font
 
-````html
+### Solution
+
+```html
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 
-````css 
 <style>
   .red-text {
     color: red;
@@ -51,5 +52,4 @@ title: Import a Google Font
     <button type="submit">Submit</button>
   </form>
 </main>
-
-
+```
