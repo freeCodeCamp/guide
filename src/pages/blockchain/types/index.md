@@ -14,11 +14,11 @@ As of now, there are mainly three types of Blockchains that have emergered. Thes
 
 #### 1. Private Blockchain
 
-Blockchain Technology that is owened by a private party or an organization. It is a decentralized architecture but some powers to make decisions are vested in the hands of person in-charge.
+Blockchain Technology that is owned by a private party or an organization. It is a decentralized architecture but some powers to make decisions are vested in the hands of person in-charge.
 
 The person in-charge is responsible for giving selective accesses and permissions such as read/write.
 
-Example : Bankchain
+Example : Bankchain, Hyperledger
 
 #### 2. Public Blockchain
 
