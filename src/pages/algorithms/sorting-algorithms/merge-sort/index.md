@@ -45,6 +45,9 @@ If right > l:
 * Stable: Yes
 * Parallelizable :yes (Several parallel variants are discussed in the third edition of Cormen, Leiserson, Rivest, and Stein's Introduction to Algorithms.)
 
+### Animated Explanation
+![Animated Merge Sorting Algorithm](https://upload.wikimedia.org/wikipedia/commons/c/c5/Merge_sort_animation2.gif)
+
 ### Visualization:
 * <a href='https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html'>USFCA</a>
 * <a href='https://www.hackerearth.com/practice/algorithms/sorting/merge-sort/visualize/'>HackerEarth</a>
