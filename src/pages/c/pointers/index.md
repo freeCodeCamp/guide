@@ -12,18 +12,26 @@ type *var-name;
 ## Making and Using a Pointer
 ```c
 #include <stdio.h>
+
 int main(void){
     double my_double_variable = 10.1;
     double *my_pointer;
 
     my_pointer = &my_double_variable;
 
-    printf("%f\n", my_double_variable);
+    printf("value of my_double_variable: %f\n", my_double_variable);
+
     ++my_double_variable;
-    printf("%f\n", *my_pointer);
+
+    printf("value of my_pointer: %f\n", *my_pointer);
 
     return 0;
 }
+```
+Output:
+```
+value of my_double_variable: 10.100000
+value of my_pointer: 11.100000
 ```
 
 In this code, there are two declarations. The first is a typical variable initialization which creates a `double` and sets it equal to 10.1. New in our declarations is the usage of `*`. The asterisk (`*`) is usually used for multiplication, but when we use it by placing it in front of a variable it tells C that this is a pointer variable.  
@@ -33,16 +41,20 @@ The next line tells the compiler where that somewhere else actually is. By using
 With that in mind, let's take another look at this chunk of code:
 ```c
 double *my_pointer;
-
+// my_pointer now stored the address of my_double_variable
 my_pointer = &my_double_variable;
 ```
 `my_pointer` has been declared, and it's been declared as a pointer. The C compiler now knows that `my_pointer` is going to point to a memory location. The next line assigns `my_pointer` a memory location value using the `&`.
 
 Now let's take a look what referring to a memory location means for your code:
 ```c
-printf("%f\n", my_double_variable);
-++my_double_variable;
-printf("%f\n", *my_pointer);
+    printf("value of my_double_variable: %f\n", my_double_variable);
+    
+    // Same as my_double_variable = my_double_variable + 1
+    // In human language, adding one to my_double_variable 
+    ++my_double_variable;
+
+    printf("value of my_pointer: %f\n", *my_pointer);
 ```
 Notice that in order to get the value of the data at `*my_pointer`, you'll need to tell C that you want to get the value the variable is pointing at. Try running this code without that asterisk, and you'll be able to print the memory location, because that's what the `my_variable` variable is actually holding.
 
@@ -55,6 +67,18 @@ Notice that the `*` is required before each variable. This is because being a po
 ## Practical Uses of Pointers
 ### Arrays
 The most common application of a pointer is in an array. Arrays, which you'll read about later, allow for a group of variables. You don't actually have to deal with `*` and `&` to use arrays, but that's what they're doing behind the scenes.
+```c
+    // Decleare an array
+    int arr[10];
+    // Decleare a pointer
+    int *arr_ptr;
+    // Where is the `&`?
+    arr_ptr = arr;
+```
+#### Explaination:
+At first, We decleared an array that hold ```10``` integer numbers and a pointer with no address in it.
+
+Second, We can see we passed ```arr``` itself to ```arr_ptr```, from  
 
 ### Functions
 Sometimes you want to adjust a variable in a function, but if you pass it to an array, it has its own copy to work with. If instead you pass that memory location, however, you can access it from outside of its normal scope. This is because you are touching the original memory location itself, allowing you to adjust something in a function and having it make changes elsewhere.
