@@ -11,6 +11,17 @@ The background-size property specifies the size of the background images. You ca
 .contain {background-size: contain}
 .initial {background-size: initial}
 .inherit {background-size: inherit}
+ /* Percentage and pixel can also be used */
+.pixel {background-size: 50px 50px;}
+.percentage {background-size: 50% 50%;}
+```
+
+To set this property on multiple background images separate values by comma:
+```css
+.multiple {
+    background-image: url(1.png), url(2.png);
+    background-size: 3px 3px, cover;
+}
 ```
 
 #### More Information:
