@@ -45,6 +45,7 @@ In picture above, you will notice five section:
 * Hearthstone: Heroes of Warcraft
 * Inside
 * Cuphead
+* Rust
      
 ## History
 
