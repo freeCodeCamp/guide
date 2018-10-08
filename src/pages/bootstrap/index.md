@@ -19,6 +19,7 @@ Bootstrap 4 was in development for two years before releasing their first beta i
 #### Installation
 
 There are two main options to add Bootstrap to your web project. You can link to publicly available sources, or download the framework directly. 
+PS- If you are learning bootstrap and testing yourself on [Codepen](https://codepen.io/) then you must add the Bootstrap's CDN to the setting of your pen.
 
 ##### Linking To Another Source
 
@@ -43,13 +44,17 @@ You can download and install the Bootstrap source files with Bower, Composer, Me
 
 `gem 'bootstrap', '~> 4.1.3'`
 
-
 _Note: These are only examples and may change without notice. Please refer to the _<a href='https://getbootstrap.com/' target='_blank' rel='nofollow'>Bootstrap website</a>_ for the most up-to-date links._
 
 #### The Bootstrap Grid System
 The grid system is a mobile-first flexbox system for quickly building layouts of all shapes and sizes suitable on all devices. It’s based on a 12 column layout and has multiple tiers, one for each media query range. 
 
 Bootstrap comes with predefined grid classes for your use in markup. See more details and examples at https://getbootstrap.com/docs/4.1/layout/grid/
+
+
+#### Bootstrap  templates
+Get the [source code](https://github.com/twbs/bootstrap/archive/v4.1.3.zip) downloaded on a single click to refer, when you are stuck.
+
 
 #### More Information:
 
