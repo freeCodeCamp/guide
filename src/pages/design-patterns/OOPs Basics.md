@@ -1,9 +1,9 @@
 ---
-title: OOPs
+title: Object Oriented Programming (OOP)
 ---
 
 ## Outline
-* Why OO?
+* Why Object Oriented (henceforth abbreviated as OO)?
 * OO concetps
 * What next?
 
