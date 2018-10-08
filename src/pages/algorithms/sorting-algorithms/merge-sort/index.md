@@ -90,8 +90,10 @@ const merge = (left, right) => {
 
 console.log(mergeSort(list)) // [ 3, 4, 8, 15, 16, 23, 42 ]
 ```
-###Implementation in C++
-Let us consider array A = {2,5,7,8,9,12,13} and array B = {3,5,6,9,15} and we want array C to be in ascending order as well.
+### Implementation in C++
+ 
+Let us consider array A = {2,5,7,8,9,12,13}
+and array B = {3,5,6,9,15} and we want array C to be in ascending order as well.
 
 ```c++
 void mergesort(int A[],int size_a,int B[],int size_b,int C[])
