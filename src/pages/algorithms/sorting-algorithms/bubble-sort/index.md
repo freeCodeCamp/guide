@@ -115,6 +115,22 @@ public class bubble-sort {
 }
 ```
 
+### Implementation in C++
+
+```c++
+void Bubble_sort(int Array[], int n){
+	for(int i = 0; i < n; i++){
+		for(int j = 0; j < n-1; j++){
+			if(Array[j] > Array[j+1]){
+				int temp = Array[j];
+				Array[j] = Array[j+1];
+				Array[j+1] = temp;
+			}
+		}
+	}
+}
+```
+
 ### More Information
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 - [Wikipedia](https://en.wikipedia.org/wiki/Bubble_sort)
