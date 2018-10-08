@@ -13,6 +13,24 @@ Functions can return:
 * Primitive values (string, number, boolean, etc.)
 * Object types (arrays, objects, functions, etc.)
 
+Never return something on a new line without using parentheses. This is a JavaScript quirk and the result will be undefined. Try to always use parentheses when returning something on multiple lines.
+
+```javascript
+function foo() {
+    return 
+      1;
+}
+
+function boo() {
+    return (
+      1
+    );
+}
+
+foo(); --> undefined
+boo(); --> 1
+```
+
 ## Examples
 
 The following function returns the square of its argument, **x**, where **x** is a number.
