@@ -11,7 +11,7 @@ Create a `class` in the style brackets.
 ```html
 <style>
  .blue-background {
-  background-color: blue;
+    background-color: blue;
   }
 </style>
 ```
