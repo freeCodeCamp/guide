@@ -95,5 +95,9 @@ title: Books to Read for Programmers
 - [Amazon](https://www.amazon.com/Computer-Science-Distilled-Computational-Problems/dp/0997316020)
 - ISBN-13: 978-0-9773160-2-5
 
+*Algorithms Unlocked by Thomas H. Cormen*
+- [Amazon](https://www.amazon.com/Algorithms-Unlocked-Press-Thomas-Cormen/dp/0262518805)
+- ISBN-13: 978-0262518802
+
 This list was compiled from multiple suggestion threads on Reddit and Stackoverflow. 
 Please feel free to add more that you have found useful!
