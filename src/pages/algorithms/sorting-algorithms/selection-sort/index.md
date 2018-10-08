@@ -70,6 +70,9 @@ function swap(A, x, y) {
 * Time Complexity: <b>O(n<sup>2</sup>)</b>
 * Sorting in Place: <b>Yes</b>
 
+### Animated Explanation
+![Animated Selection Sorting Algorithm](https://upload.wikimedia.org/wikipedia/commons/b/b0/Selection_sort_animation.gif)
+
 ### Visualization
 
 * [USFCA](https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html)
