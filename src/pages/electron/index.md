@@ -22,6 +22,7 @@ Some apps built using Electron include:
 * Visual Studio Code (Microsoft's open-source text-editor)
 * [Slack](https://slack.com/) (A messaging app for teams)
 * [Discord](https://discordapp.com) (A popular messaging app for gamers)
+* [Github Desktop}(https://desktop.github.com/) (Official Github Desktop Client)
 
 For more information head to [electron.atom.io](https://electron.atom.io/).
 Watch Demo Video: what is Electron: [What is Electron] (https://www.youtube.com/watch?v=8YP_nOCO-4Q&feature=youtu.be)
