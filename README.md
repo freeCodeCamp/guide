@@ -48,6 +48,8 @@ Before you begin writing, make sure to read the [article style guide](https://gi
 
 Or just [create an issue](https://github.com/freeCodeCamp/guide/issues)—any little bit of help counts! 😊
 
+Welcome to the world OSS dev.
+
 ## License
 
 Copyright (c) 2018 freeCodeCamp.
