@@ -1,6 +1,8 @@
-######## Set up D3
-
-####HTML Setup
+---
+title: Set Up D3
+---
+  
+## HTML Setup
 
 For now, you will just use a text file and the web browser. You will start with with a static page of HTML. Then you will add d3.js.
 Create a folder named d3js_projects. Create an HTML file in the folder named project_1.html.
@@ -22,7 +24,7 @@ Which shows up in the browser:
 
 ![](https://d1gg5jm9r4jrt6.cloudfront.net/project_1_browser_snapshot_600x198.png)
 
-#####D3.js Setup
+### D3.js Setup
 
 To get the main D3.js JavaScript file go to the D3.js Website. After the first paragraph on the page, you will see a section with links to the latest version. Download the latest version d3.v2.min.js. Save this file in the d3js_projects folder.
 
@@ -50,7 +52,7 @@ The file d3.v2.min.js is saved in the same folder as the HTML file so that it ca
  
  ![](https://d1gg5jm9r4jrt6.cloudfront.net/d3.js.source.check.png)
  
- ####JavaScript Console Setup Test
+ ### JavaScript Console Setup Test
  
  The last test will take place in the JavaScript Console. This test tells us if D3.js is loaded correctly for our use in the JavaScript Console.
  In this snapshot, locate the "Console" tab in the Webkit Inspector: 
@@ -82,3 +84,5 @@ The file d3.v2.min.js is saved in the same folder as the HTML file so that it ca
  ![](https://d1gg5jm9r4jrt6.cloudfront.net/d3.js.javascript.console_300x420.png)
  
  If all the tests passed and you were able to load D3.js correctly, you are ready to get started.
+    
+ #### More Information
