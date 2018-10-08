@@ -3,6 +3,9 @@ title: SQL Between Operator
 ---
 ## SQL Between Operator
 
+The BETWEEN Operator is useful because of the SQL Query Optimizer. Although BETWEEN is functionally the same as:
+x <= element <= y, the SQL Query Optimizer will recognize this command faster, and has optimized code for running it.
+
 This operator is used in a WHERE clause or in a GROUP BY HAVING clause.
 
 Rows are selected that have a value greater than the minimum value and less than the maximum value.  
