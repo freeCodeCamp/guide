@@ -42,7 +42,11 @@ Output:
 abc1def
 ```
 
+Even without explicitly converting `Int` value 1 to `String` object first, the resulting output is still a `String`.
+
 #### String with Multiple Lines
+
+Programmers can declare `String` variables with multiple lines by using triple quotes instead of double quotes
 
 ```kotlin
 var str = """
@@ -62,6 +66,8 @@ Output:
 ```
 
 or with `.trimIndent()`
+
+The use of `trimIndent()` will additionally help to provide a clean output format by removing excess and unnecessary indentions on each line. Examine the code snippet below:
 
 ```kotlin
 var str = """
@@ -83,7 +89,7 @@ This is line 3
 ### Accessing Characters of a String
 
 #### Index Access
-We can access elements (characters) of a string using index access operator
+Programmers can access elements (characters) of a string using index access operator:
 
 ```kotlin
 var str = "Example"
@@ -168,7 +174,7 @@ Output:
 
 ### String Functions
 
-These are some of the common `String` functions being used
+These are some of the common `String` functions available from the current Kotlin version
 
 ### compareTo
 
