@@ -47,7 +47,7 @@ Other elements that form can contain:
 - ```select``` - together with ```<option></option>``` tag creates drop-down select menu.
 - ```button``` - The button element can be used to define a clickable button.
 
-MORE INFORMATION ON HTML FORMS.
+### MORE INFORMATION ON HTML FORMS.
 
 HTML Forms are required when you want to collect some data from the site visitor. For example, during user registration you would like to collect information such as name, email address, credit card, etc.
 
