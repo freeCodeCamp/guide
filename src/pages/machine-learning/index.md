@@ -45,7 +45,11 @@ data consist of a set of training examples. In supervised learning, each example
 1. <a href="https://www.youtube.com/channel/UCWN3xxRkmTPmbKwht9FuE5A" target="_blank">Siraj Raval's Youtube channel</a>
 2. <a href="https://www.youtube.com/channel/UCfzlCWGWYyIQ0aLC5w48gBQ" target="_blank">Sentdex's Youtube channel</a>
 
+#### Recommended Books:
+If you are just starting in the field of Machine Learning then the books mentioned below will surely be helpful for you.
 
+1. <a href="https://amzn.to/2OGy31L" target="_blank">Introduction to Machine Learning with Python: A Guide for Data Scientists</a>
+2. <a href="https://amzn.to/2E3738A" target="_blank">Hands-On Machine Learning with Scikit-Learn and Tensor Flow: Concepts, Tools, and Techniques to Build Intelligent Systems</a>
 
 #### More Information:
 
