@@ -57,7 +57,7 @@ Thankfully, we have the `do` function to solve this problem. `do` evaluates mult
     console.log(doesMathsWork);
     // => Maths works!
 
-Now that you look at it, doesn't that look so weird? This is much easier to read and understand (ignoring the lack of the word `else`):
+Now that you've seen how it works, it doesn't look so weird right? This is much easier to read and understand (ignoring the lack of the word `else`):
 
     (def does-maths-work (if (= (+ 2 2) 4) "Maths works!" "UH OH"))
     (println does-maths-work)
@@ -85,6 +85,42 @@ The first expression gets evaluated if it's false, and the second gets evaluated
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://ideone.com/tUVAw3' target='_blank' rel='nofollow'>IDEOne it!</a>
 
 **Note:** There is no `when/else`. `when` _only_ executes if the condition is true.
+
+`cond` allows you to combine many conditions into a single expression. It takes a sequence of logical expression and expression pairs and evaluate each logical expression in order. When it finds a logical expression that evaluates to `true`, it evaluates the second expression of the pair. After this, no other expressions are evaluated. This behavior is like short-circuit logic in Javascript. 
+
+    (cond (= 0 1) "I'm paired with a false expression and I don't evalute.."
+          (= 1 1) "I'm the first expression paired with a true expression!"
+          (= 2 2) "I don't evalute even though I'm also paired with true ;_;"
+          :else   "I evaluate if no other boolean expressions evaluate to true")
+    ; => "I'm the first expression paired with a true expression!"
+
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://ideone.com/zu5RCq' target='_blank' rel='nofollow'>IDEOne it!</a>
+    
+The `:else` keyword can be used in place of a logical expression in the last expression pair in `cond`. It signifies that it's corresponding expression should be evaluated if all other boolean expressions evaluate to false. It is the same as putting `true` as the last boolean expression.
+
+## Special Forms and Evalution
+You may have noticed that the rules of evaluating conditional expressions is a bit different from other expressions. Conditional expression are a part of a group of expressions called _special forms_. This means that they don't follow normal Clojure evaluation rules.
+
+As you now know, a conditional expression only evaluates the subexpression that corresponds to the boolean result. This means that invalid code within a conditional expression won't be evaluated in some cases. Consider the two `if` expressions below. Although `(+ 1 "failure")` is an invalid expression, Clojure only raises an exception when the condition is `false`.
+
+    (if true "sucess" (+ 1 "failure"))
+    ; => "sucess"
+    (if false "sucess" (+ 1 "failure"))
+    ; => ClassCastException java.lang.String cannot be cast to java.lang.Number ...
+
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://ideone.com/n4Ug2S' target='_blank' rel='nofollow'>IDEOne it!</a>
+
+Compare this with the behavior of `my-if` defined below:
+
+    (defn my-if [condition true-case false-case]
+      (if condition true-case false-case))
+    
+    (my-if true "sucess" (+ 1 "failure"))
+    ; => ClassCastException java.lang.String cannot be cast to java.lang.Number ...
+
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://ideone.com/U7cVI4' target='_blank' rel='nofollow'>IDEOne it!</a>
+
+`my-if` is a function with normal evaluation rules, so all of it's subexpressions must be evaluted before it can be evaluted.
 
 Clojure has plenty of useful macros like these for all kinds of tasks. Try having a look at <a href='https://clojuredocs.org/' target='_blank' rel='nofollow'>the Clojure documentation</a> and see if you can find any more!
 
