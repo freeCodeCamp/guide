@@ -8,7 +8,7 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 <a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-In order to support users accessing websites with different divices, CSS breakpoints are a useful way of ensuring a responsive feel to the design of your website despite it being accessed by diferent devices and screen-sizes. Breakpoints are mostly based on the width of the device accessing the webpage, and are often used with <a href="https://guide.freecodecamp.org/css/css3-media-queries" target="_blank">CSS Media Queries</a> and can be used interchangeably.
+In order to support users accessing websites with different divices, CSS breakpoints are a useful way of ensuring a responsive feel to the design of your website despite it being accessed by different devices and screen-sizes. Breakpoints are mostly based on the width of the device accessing the webpage, and are often used with <a href="https://guide.freecodecamp.org/css/css3-media-queries" target="_blank">CSS Media Queries</a> and can be used interchangeably.
 
 Breakpoints that are based on content as opposed to device are less complicated. Here's a simple snippet that triggers when the device's width is upward of ```code 700px``` roughly smart-phone screen sized
 
