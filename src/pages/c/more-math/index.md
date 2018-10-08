@@ -41,6 +41,12 @@ So `number` starts as negative 3, but then becomes positive because a negative n
 Because C is low level as mentioned before, you have access to the individual binary bits (if you choose to take advantage of this). There are some binary operations built in to let us do this. For these examples, we'll use `a` and `b` as our variables. They can be any sort of variable because all variables will be represented in bits, so the exact data type doesn't matter for these.
 ### AND
 `c = a & b;` will perform a bitwise AND. This means that if the first bit of `a` and the first bit of `b` are both 1, the first bit of c will be 1, and 0 otherwise. If the second bit of `a` and `b` are both 1, the second bit of c will be 1, and 0 otherwise. This goes on until all bits have been and'd.
+truth table
+a  b  a&b
+1  1  1
+1  0  0
+0  1  0
+0  0  0
 
 ### OR
 `c = a | b;` will perform a bitwise OR. The first bit of `c` is 1 if the first bit in either `a` or `b` is 1, the second bit is 1 if the second bit in either `a` or `b` is 1, and so on.
