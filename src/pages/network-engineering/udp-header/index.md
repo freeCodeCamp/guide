@@ -3,9 +3,6 @@ title: UDP Header
 ---
 ## UDP Header Format
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/network-engineering/udp-header/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
 
 The User Datagram Protcol (UDP) is is one of the commonly used protocols in the Internet Protocol (IP) suite along with TCP and ICMP. UDP's defining features are that is a fast, connection-less protocol. These features are facilitated through the UDP Header.
 
