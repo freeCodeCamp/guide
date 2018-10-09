@@ -4,7 +4,7 @@ title: Electron
 ## Electron - Build cross platform desktop apps with JavaScript, HTML, and CSS
 
 Electron lets you build cross-platform desktop apps using web technology. You
-can build desktop apps for Windows, Mac, and most common flavors of Linux.
+can build desktop apps for Windows, Mac, and most common flavors of Linux.Electron is an open-source framework developed and maintained by GitHub
 
 Electron is built on Chromium (the open-sourced version of Google Chrome). You
 use web technologies like HTML, JavaScript, and CSS to build Electron apps. That
