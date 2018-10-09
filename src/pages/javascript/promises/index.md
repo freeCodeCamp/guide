@@ -25,6 +25,23 @@ var promise = new Promise(function(resolve, reject) {
 
 The Promise object works as proxy for a value not necessarily known when the promise is created. It allows you to associate handlers with an asynchronous action's eventual success value or failure reason. This lets asynchronous methods return values like synchronous methods: instead of immediately returning the final value, the asynchronous method returns a promise to supply the value at some point in the future.
 
+## Using 'Then' (Promise Chaining)
+
+To take several asynchronous calls and synchronize them one after the other, you can use promise chaining. This allows using a value from the first promise in later subsequent callbacks.
+```javascript
+Promise.resolve('some')
+  .then(function(string) { // <-- This will happen after the above Promise resolves (returning the value 'some')
+    return new Promise(function(resolve, reject) {
+      setTimeout(function() {
+        string += 'thing';
+        resolve(string);
+      }, 1);
+    });
+  })
+  .then(function(string) { // <-- This will happen after the above .then's new Promise resolves
+    console.log(string); // <-- Logs 'something' to the console
+  });
+```
 
 ## Promise API
 
@@ -64,7 +81,8 @@ var subtract = function(x, y) {
   });
 };
 
-var result = add(2,2)
+// Starting promise chain
+add(2,2)
   .then((added) => {
     // added = 4
     return subtract(added, 3);
@@ -77,13 +95,14 @@ var result = add(2,2)
     // added = 6
     return added * 2;    
   })
+  .then((result) => {
+    // result = 12
+    console.log("My result is ", result);
+  })
   .catch((err) => {
-    // If any part of the chain is rejected, print the message.
+    // If any part of the chain is rejected, print the error message.
     console.log(err);
   });
-
-// > My result is 12
-console.log("My result is ",result);
 
 ```
 
@@ -93,9 +112,6 @@ result. If at any point in the chain of functions a value is *rejected* the chai
 will skip to the nearest `catch()` handler.
 
 For more information on Functional Programming: <a href='https://en.wikipedia.org/wiki/Functional_programming' target='_blank' rel='nofollow'>Functional Programming</a>
-
-
-For more information on promises: <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise' target='_blank' rel='nofollow'>Promises</a>
 
 ## Function Generators
 
@@ -137,4 +153,22 @@ console.log(gen.next());
 ```
 As we keep calling `gen.next()` it will keep going onto the next `yield` and pausing each time. Once there are no more `yield`'s left, it will proceed to run the rest of the generator, which in this case simply returns `'Finished!'`. If you call `gen.next()` again, it will throw an error as the generator is finished.
 
-Now, imagine if each `yield` in this example was a `Promise`, the code itself would appear extremely synchronous. Libraries such as <a href='https://github.com/redux-saga/redux-saga' target='_blank' rel='nofollow'>redux-saga</a> make use of this to implement easier-to-understand side-effects in your Redux applications.
+Now, imagine if each `yield` in this example was a `Promise`, the code itself would appear extremely synchronous.
+### Promise.all(iterable) is very usefull for multiple request to different source
+The Promise.all(iterable) method returns a single Promise that resolves when all of the promises in the iterable argument have resolved or when the iterable argument contains no promises. It rejects with the reason of the first promise that rejects.
+```javascript
+var promise1 = Promise.resolve(catSource);
+var promise2 = Promise.resolve(dogSource);
+var promise3 = Promise.resolve(cowSource);
+
+Promise.all([promise1, promise2, promise3]).then(function(values) {
+  console.log(values);
+});
+// expected output: Array ["catData", "dogData", "cowData"]
+
+```
+
+
+### More Information
+For more information on promises: <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise' target='_blank' rel='nofollow'>Promises</a>
+

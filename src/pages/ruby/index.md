@@ -6,6 +6,8 @@ title: Ruby
 
 Ruby was created by Yukihiro "Matz" Matsumoto and is an <a href='https://github.com/ruby/ruby' target='_blank' rel='nofollow'>open source</a>, dynamic and interpreted scripting language for quick and easy object-oriented programming. Which means:
 
+It's also known to have one of the <a href="https://www.ruby-lang.org/en/community/">largest and friendly community</a> among programming languages. 
+
 *   Ability to make operating system calls directly
 *   Immediate feedback during development
 *   Variable declarations are unnecessary
@@ -78,6 +80,9 @@ From command-line:
 
 Ruby is well <a href='https://www.ruby-lang.org/en/documentation/' target='_blank' rel='nofollow'>documented</a>. These docs include tutorials, guides, references and meta information for language.  
 Another important resouce for documentation is <a href='http://ruby-doc.org/core-2.3.0/' target='_blank' rel='nofollow'>Ruby Doc</a>. You should visit this <a href='https://github.com/airbnb/ruby' target='_blank' rel='nofollow'>link</a> to know more about Ruby style guide, written by developers of AirBnB.
+
+A recommended read for beginners in Ruby is <a href='https://poignant.guide/' target='_blank' rel='nofollow'>Why's (Poignant) Guide to Ruby</a>
+This book is unusual among programming books. With quite a lot of strange humor and narrative side tracks which are sometimes completely unrelated to the topic, this one manages to keep the readers entertained while they learn Ruby basics. 
 
 ## Debugging
 

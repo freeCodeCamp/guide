@@ -32,7 +32,7 @@ in which:
 
 **Note**
 
-If you have uncommited changes, the merge part of the `git pull` command will fail and your local branch will be untouched. 
+If you have uncommitted changes, the merge part of the `git pull` command will fail and your local branch will be untouched. 
 
 Thus, you should *always commit your changes in a branch before pulling* new commits from a remote repository.
 
@@ -70,7 +70,7 @@ The four network commands are:
 
 When working with Git, it can feel like there are lots of copies of the same code floating all over the place. There are different versions of the same file on each branch. And, different copies of the same branches on every developer's computer and on the remote. To keep track of this, Git uses something called **remote tracking branches**. 
 
-If you execute `git branch --all` within a Git repository, remote tracking branches appear in red. These are read only copies of the code as it appears on the remote. ( When was the last network interaction that would have brought information locally? Remember when this information was last updated. The information in the remote tracking branches reflects the information from that interaction.) 
+If you execute `git branch --all` within a Git repository, remote tracking branches appear in red. These are read-only copies of the code as it appears on the remote. ( When was the last network interaction that would have brought information locally? Remember when this information was last updated. The information in the remote tracking branches reflects the information from that interaction.) 
 
 With **remote tracking branches**, you can work in Git on several branches without network interaction.  Every time you execute `git pull` or `git fetch` commands, you update **remote tracking branches**.
 
@@ -90,10 +90,19 @@ Without any arguments, `git merge` will merge the corresponding remote tracking 
 ### git pull in IDEs
 Common language in other IDES may not include the word `pull`. If you look out for the words `git pull` but don't see them, look for the word `sync` instead. 
 
+### fethcing a remote PR (Pull Request) in to local repo
+For purposes of reviewing and such, PRs in remote should be fetched to the local repo. You can use `git fetch` command as follows to achieve this.
+
+`git fetch origin pull/ID/head:BRANCHNAME`
+
+ID is the pull request id and BRANCHNAME is the name of the branch that you want to create. Once the branch has been created you can use `git checkout` to switch to that brach.
+
+
 ### Other Resources on git pull
 - <a href='https://git-scm.com/docs/git-pull' target='_blank' rel='nofollow'>git-scm</a>
 - <a href='https://help.github.com/articles/fetching-a-remote/#pull' target='_blank' rel='nofollow'>GitHub Help Docs</a>
 - <a href='https://services.github.com/on-demand/intro-to-github/create-pull-request' target='_blank' rel='nofollow'>GitHub On Demand Training</a>
+- <a href='https://www.atlassian.com/git/tutorials/syncing' target='_blank' rel='nofollow'>Syncing Tutorials</a>
 
 ### Other Resources on git in guide.freecodecamp.org
 - [Git merge](../git-merge/index.md)
