@@ -8,7 +8,7 @@ Some examples of itertool functions include but not limited to: chain(), imap(),
 
 ### chain()
 
-The chain() function takes several iterators as arguments and returns a single iterator that produces the contents of all of them as though they came from one sequence
+The chain() function takes several iterators as arguments and returns a single iterator that produces the contents of all of them as though they came from one sequence.
 
 ```py
 import itertools
@@ -20,7 +20,7 @@ list(itertools.chain([1, 2], [3, 4]))
 
 ### islice()
 
-The islice() function returns an iterator which returns selected items from the input iterator, by index. It takes the same arguments as the slice operator for lists: start, stop, and step. Start and stop are optional
+The islice() function returns an iterator which returns selected items from the input iterator, by index. It takes the same arguments as the slice operator for lists: start, stop, and step. Start and stop are optional.
 
 ```py
 import itertools
