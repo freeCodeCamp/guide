@@ -3,13 +3,16 @@ title: Radians to Degrees
 ---
 ## Radians to Degrees
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/radians-to-degrees/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+One complete cycle = 2π Radians = 360 degrees
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+1 Radians = 360 / 2π degree
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+p Radians = p × 360 / 2π degree
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+### Examples:
 
+2 Radian = 2 * 180/π Degrees
 
+2.5 Radian = 2.5 * 180/π Degrees
+
+0.3 Radian = 0.3 * 180/π Degrees
