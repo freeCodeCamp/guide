@@ -84,6 +84,15 @@ int linear_search(int arr[],int n,int num)
 }
 ```
 
+### Example in Python
+```python
+def linear_search(array, num):
+	for i in range(len(array)):
+		if (array[i]==num):
+			return i
+	return -1
+```
+
 ## Global Linear Search
 
 What if you are searching the multiple occurrences of an element? For example you want to see how many 5’s are in an array.

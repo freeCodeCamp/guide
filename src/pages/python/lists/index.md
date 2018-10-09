@@ -1,5 +1,5 @@
 ---
-title: Learn About Python Lists
+title: Lists
 ---
 **TODO: `list` basic info**
 

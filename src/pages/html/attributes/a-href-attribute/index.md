@@ -39,7 +39,7 @@ The `<a href>` attribute is supported by all browsers.
 
 ### In-page anchors
 
-Also it is possible to set an anchor to certain place of the page. To do this you should first place a tab at location on the page with tag <a> and necessary attribute "name" with any keyword description in it, like this:
+It's also possible to set an anchor to certain place of the page. To do this you should first place a tab at location on the page with tag <a> and necessary attribute "name" with any keyword description in it, like this:
 
 ```html
 <a name="top"></a>
@@ -53,7 +53,7 @@ Any description between tags is not required. After that you can place a link le
 
 ### Image Links
 
-The `<a href="#">` can also be aplied to images and other HTML elements.
+The `<a href="#">` may also be applied to images and other HTML elements.
 
 ### Example
 
