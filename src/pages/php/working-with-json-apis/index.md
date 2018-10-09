@@ -12,7 +12,7 @@ This chapter will teach you how to exchange JSON data between the client and a P
 PHP has some built-in functions to handle JSON.
 
 Objects in PHP can be converted into JSON by using the PHP function `json_encode()`:
-```
+```php
 <?php
 $myObj->name = "John";
 $myObj->age = 30;
@@ -33,7 +33,7 @@ Here is a JavaScript on the client, using an AJAX call to request the PHP file f
 
 Use JSON.parse() to convert the result into a JavaScript object:
 
-```
+```js
 var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
@@ -47,5 +47,6 @@ xmlhttp.send();
 
 [Try it](https://www.w3schools.com/js/tryit.asp?filename=tryjson_php_simple)
 
----
-For more [check this link](https://www.w3schools.com/js/js_json_php.asp)
+### More Information:
+
+- For more [check this link](https://www.w3schools.com/js/js_json_php.asp)
