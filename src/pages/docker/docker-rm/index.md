@@ -8,8 +8,8 @@ title: Docker rm
 
 When you have Docker containers running, you first need to stop them before deleting them.  
 
-- Stop all running containers: `docker stop $(docker ps -a -q)`  
-- Delete all stopped containers: `docker rm $(docker ps -a -q)`
+- Stop all running containers: `docker stop $(docker ps -aq)`  
+- Delete all stopped containers: `docker rm $(docker ps -aq)`
 
 ### Remove multiple containers
 
