@@ -1,8 +1,8 @@
 ---
-title: CSS
+title: CSS: Cascading Style Sheets
 ---
 
-### CSS
+### CSS: Cascading Style Sheets
 
 CSS stands for Cascading Style Sheets. It was first invented in 1996, and is now a standard feature of all major web browsers.
 
@@ -16,5 +16,7 @@ You can build some pretty amazing things in CSS alone, such as this pure-CSS [Mi
 
 #### Suggested Reading:
 A good start is the freeCodeCamp curriculum [Introduction to Basic CSS](https://learn.freecodecamp.org/responsive-web-design/basic-css)
+
+Another suggestion for beginners is W3C's <a href='https://www.w3.org/Style/Examples/011/firstcss' target='_blank' rel='nofollow'>Starting with HTML + CSS</a> teaches how to create a style sheet. 
 
 The site [CSS Zen Garden](http://www.csszengarden.com/) is a great example how the same html can be styled to look totally unique.

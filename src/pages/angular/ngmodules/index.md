@@ -262,6 +262,81 @@ export class AppComponent {
 
 Angular provides some its own modules that supplement the root upon their importation. This is due to these feature modules exporting what they create.
 
+#### Static module methods
+
+Sometimes modules provide the option to be configured with a custom config object. This is achieved by leveraging static methods inside the module class.
+
+An example of this approach is the `RoutingModule` which provides a `.forRoot(...)` method directly on the module.
+
+To define your own static module method you add it to the module class using the `static` keyword. The return type has to be `ModuleWithProviders`.
+
+```ts
+// configureable.module.ts
+
+import { AwesomeModule } from './awesome.module';
+import { ConfigureableService, CUSTOM_CONFIG_TOKEN, Config } from './configurable.service';
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+
+
+@NgModule({
+  imports: [
+    AwesomeModule,
+    BrowserModule
+  ],
+  providers: [
+    ConfigureableService
+  ]
+})
+export class ConfigureableModule { 
+  static forRoot(config: Config): ModuleWithProviders {
+    return {
+        ngModule: ConfigureableModule,
+        providers: [
+            ConfigureableService,
+            {
+                provide: CUSTOM_CONFIG_TOKEN,
+                useValue: config
+            }
+        ]
+    };
+  }
+}
+```
+
+```ts
+// configureable.service.ts
+
+import { Inject, Injectable, InjectionToken } from '@angular/core';
+
+export const CUSTOM_CONFIG_TOKEN: InjectionToken<string> = new InjectionToken('customConfig');
+
+export interface Config {
+  url: string
+}
+
+@Injectable()
+export class ConfigureableService {
+  constructor(
+    @Inject(CUSTOM_CONFIG_TOKEN) private config: Config
+  )
+}
+```
+
+Notice that the object the `forRoot(...)` method returns is almost identical to the `NgModule` config. 
+
+The `forRoot(...)` method accepts a custom config object that the user can provide when importing the module.
+
+```ts
+imports: [
+  ...
+  ConfigureableModule.forRoot({ url: 'http://localhost' }),
+  ...
+]
+```
+
+The config is then provided using a custom `InjectionToken` called `CUSTOM_CONFIG_TOKEN` and injected in the `ConfigureableService`. The `ConfigureableModule` should be imported only once using the `forRoot(...)` method. This provides the `CUSTOM_CONFIG_TOKEN` with the custom config. All other modules should import the `ConfigureableModule` without the `forRoot(...)` method.
+
 #### NgModule Examples from Angular
 
 Angular provides a variety of modules importable from `@angular`. Two of the most commonly imported modules are `CommonModule` and `HttpClientModule`.

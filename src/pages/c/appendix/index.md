@@ -36,6 +36,9 @@ Libraries are useful sets of code that give more functions and features in the l
 ## Linker
 A piece of Software that combines multiple Object files (usually compiled source code of libraries) into one executable file. 
 
+## Low-Level language
+A low-level programming language contains binary or assembly code which has little or no abstraction from machine level instructions. 
+
 ## Machine Code
 Machine code is the code that the machine can understand. Remember that computers use numbers, not English, to run.
 
