@@ -8,7 +8,7 @@ List Comprehension is a way of looping through a list to produce a new list base
 
 The first step in learning how to use list comprehension is to look at the traditional way of looping through a list. The following is a simple example that returns a new list of even numbers.
 
-```Python
+```python
 # Example list for demonstration
 some_list = [1, 2, 5, 7, 8, 10]
 
@@ -26,7 +26,7 @@ First a list is created with some numbers. You then create an empty list that wi
 
 Now for the list comprehension example. 
 
-```Python
+```python
 # Example list for demonstration
 some_list = [1, 2, 5, 7, 8, 10]
 
@@ -39,7 +39,7 @@ even_list = [number for number in some_list if number % 2 == 0]
 Another example, with the same two steps:
 The following will create a list of numbers that correspond to the numbers in ```my_starting_list``` multiplied by 7.
 
-```
+```py
 my_starting_list = [1, 2, 3, 4, 5, 6, 7, 8]
 my_new_list = []
 
@@ -52,7 +52,7 @@ When this code is run, the final value of  ```my_new_list```  is:
 
 A developer using list comprehension could achieve the same result using the following list comprehension, which results in the same  ```my_new_list```.
 
-```
+```py
 my_starting_list = [1, 2, 3, 4, 5, 6, 7, 8]
 
 my_new_list = [item * 7 for item in my_starting_list]
@@ -72,34 +72,34 @@ List comprehension adds an element from an existing list to a new list if some c
 
 The flow of control in list comprehensions can be controlled using conditionals. For exmaple:
 
-```
+```py
 only_even_list = [i for i in range(13) if i%2==0]
 ```
 
 This is equivalent to the following loop:
 
-```
+```py
 only_even_list = list()
 for i in range(13):
-if i%2 == 0:
-only_even_list.append(i)
+  if i%2 == 0:
+    only_even_list.append(i)
 ```
 
 List comprehension can also contain nested if conditions. Consider the following loop:
-```
+```py
 divisible = list()
 for i in range(50):
-if i%2 == 0:
-if i%3 == 0:
-divisible.append(i)
+  if i%2 == 0:
+    if i%3 == 0:
+      divisible.append(i)
 ```
-using list comprehension this can be written as:
-```
+Using list comprehension this can be written as:
+```py
 divisible = [i for i in range(50) if i%2==0 if i%3==0]
 ```
 
 If-Else statement can also be used along with list comprehension.
-```
+```py
 list_1 = [i if i%2==0 else i*-1 for i in range(10)]
 ```
 
