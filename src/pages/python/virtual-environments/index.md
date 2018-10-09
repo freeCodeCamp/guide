@@ -34,6 +34,10 @@ To create a virtual environment use:
 ```
 virtualenv --no-site-packages my-env
 ```
+###How to install a module use pip for specific version
+```
+pip<Python_version> install <package>
+```
 
 This creates a folder in the current directory with the name of the environment (`my-env/`). This folder contains the directories for installing modules and Python executables.
 
