@@ -593,44 +593,45 @@ git pull upstream master
 
 If you're using a GUI, you can simply `Add a new remote...` and use the link `git://github.com/freeCodeCamp/guide.git` from above.
 
-Once you sync your fork and pass the build, I will be able to review your PR and merge it. 😊
+Once you sync your fork and pass the build, I will be able to review your PullRequest and merge it. 😊
 
 ---
 
 > Feel free to reference the [Syncing a Fork](https://help.github.com/articles/syncing-a-fork/) article on GitHub for more insight on how to keep your fork up-to-date with the upstream repository. 🔄
 >
-> Also, it's good practice on GitHub to write a brief description of your changes when creating a PR. 📝
+> Also, it's good practice on GitHub to write a brief description of your changes when creating a PullRequest. 📝
 ``````
 
 ### Merge Conflicts
 
-> When PR has merge conflicts that need to be resolved.¹
+> When PullRequest has merge conflicts that need to be resolved,later we review your contribution.¹
 
 ```markdown
 Hey @username
 
 So I'd love to be able to merge your changes but it looks like you have some merge conflicts. ⚠️
 
-Once you resolve these conflicts, I will be able to review your PR and merge it. 😊
-
+Once you resolve these conflicts, I will be able to review your PullRequest and merge it. 😊
+happy for your contribution
 ---
 
 > If you're not familiar with the merge conflict process, feel free to look over GitHub's guide on ["Resolving a merge conflict"](https://help.github.com/articles/resolving-a-merge-conflict-on-github/). 🔍️
 >
-> Also, it's good practice on GitHub to write a brief description of your changes when creating a PR. 📝
+> Also, it's good practice on GitHub to write a brief description of your changes when creating a PullRequest. 📝
 ```
 ¹ If a first-time-contributor has a merge conflict maintainers will resolve the conflict for them.
 
 ### Duplicate
 
-> When PR is repetitive or a duplicate.
+> When PullRequest is repetitive or a duplicate.
 
 ```markdown
 Hey @username
 
 It seems that similar changes have already been accepted earlier for this article you're editing, sorry about that. 😓
 
-If you feel you have more to add, please feel free to open up a new PR.
+If you feel you have more to add, please feel free to open up a new PullRequest.
+
 
 Thanks again! 😊
 
@@ -641,12 +642,12 @@ Thanks again! 😊
 
 ### Closing
 
-> When PR is invalid.
+> When PullRequest is invalid.
 
 ```markdown
 Hey @username
 
-You haven't actually added any content so I will be closing this PR and marking it as `invalid`. 😓️
+You haven't actually added any content so I will be closing this PullRequest and marking it as `invalid`. 😓️
 
-Feel free to open another PR though! 👍
+Feel free to open another PullRequest though! 👍
 ```
