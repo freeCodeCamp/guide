@@ -43,9 +43,10 @@ Now, the array is already sorted, but our algorithm does not know if it is compl
 
 #### Properties
 - Space complexity: O(1)
+TIME COMPLEXITY:-
 - Best case performance: O(n)
-- Average case performance: O(n\*n)
-- Worst case performance: O(n\*n)
+- Average case performance: O(n*n)
+- Worst case performance: O(n*n)
 - Stable: Yes
 
 ### Video Explanation
@@ -71,7 +72,10 @@ while(!sorted) {
 
 ### Properties:
 * Space Complexity: O(1)
-* Time Complexity: O(n), O(n* n), O(n* n) for Best, Average and Worst cases respectively.
+* TIME COMPLEXITY:-
+   - Best case performance: O(n)
+   - Average case performance: O(n*n)
+   - Worst case performance: O(n*n)
 * In place: Yes
 * Stable: Yes
 
