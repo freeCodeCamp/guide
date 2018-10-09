@@ -132,7 +132,7 @@ The same as with `virtualenv`.
 
 If you are done working with the virtual environment you can deactivate it with:
 ```
-source deactivate
+deactivate
 ```
 
 ### Remove an Environment
