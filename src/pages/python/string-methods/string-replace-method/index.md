@@ -3,7 +3,7 @@ title: String Replace Method
 ---
 ## String Replace Method
 
-The `str.replace(old, new, max)`  method is used to replace the substring `old` with the string `new` for a total of `max` times. This method returns a new copy of the string with the replacement. The original string `str` is unchanged.
+The `str.replace(old, new, max)` method is used to replace the substring `old` with the string `new` for a total of `max` times. This method returns a new copy of the string with the replacement. The original string `str` is unchanged.
 
 #### Examples
 

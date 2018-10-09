@@ -1,6 +1,6 @@
-----
+---
 title: String Methods
-----
+---
 **TODO: `string` basic info**
 
 [Python Docs - Strings](https://docs.python.org/3/library/stdtypes.html#strings)
