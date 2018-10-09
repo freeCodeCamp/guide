@@ -5,6 +5,8 @@ title: A Target Attribute
 
 The `<a target>` attribute specifies where to open the linked document in an `a` (anchor) tag.
 <br>
+
+The '<a target>' helps to open documents faster in other tabs such as links to videos or Websites.
  
 #### Examples:
 
