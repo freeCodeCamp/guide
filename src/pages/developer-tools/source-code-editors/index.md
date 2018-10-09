@@ -67,7 +67,7 @@ Visual Studio Code (a.k.a vsc or vscode) is a very popular, open source editor, 
 
 ### Notepad++
 
-![Notepad++ Icon](https://logo.clearbit.com/notepad-plus-plus.com)
+![Notepad++ Icon](https://upload.wikimedia.org/wikipedia/commons/0/0f/Notepad%2B%2B_Logo.png)
 
 Notepad++ is a free, open source code editor, that runs in the Microsoft Windows Environment. It was developed in 2003, by Dan Ho. It is written in <a href='www.cplusplus.com' target='_blank' rel='nofollow'>C++</a> (the name comes from that). Notepad++ supports tabbed editing, wich allows working with multiple open files in a single window, and also can be use as a plain text editor.
 
