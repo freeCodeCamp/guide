@@ -72,6 +72,36 @@ const swap = (arr, firstIndex, secondIndex) => {
 quickSort(arr, 0, arr.length - 1)
 console.log(arr)
 ```
+
+### Implementation in C++
+```c++
+int partition (int arr[], int low, int high){        // returns the position of pivot element
+    int pivot = arr[high];    // pivot
+    int i = (low - 1);  // Index of smaller element
+ 
+    for (int j = low; j < high; j++){
+        // If current element is smaller than or equal to pivot
+        if (arr[j] <= pivot){
+            i++;    // increment index of smaller element
+            int temp = arr[i];
+            arr[i] = arr[j];
+            arr[j] = temp;
+        }
+    }
+    int temp = arr[i+1];
+    arr[i+1] = arr[high];
+    arr[high] = temp;
+    return (i + 1);
+}
+
+void quickSort(int arr[], int low, int high){
+    if (low < high){  
+        int p = partition(arr, low, high);
+        quickSort(arr, low, p - 1);
+        quickSort(arr, p + 1, high);
+    }
+}
+```
 The space complexity of quick sort is O(n). This is an improvement over other divide and conquer sorting algorithms, which take O(nlong(n)) space. Quick sort achieves this by changing the order of elements within the given array. Compare this with the <a href='https://guide.freecodecamp.org/algorithms/sorting-algorithms/merge-sort' target='_blank' rel='nofollow'>merge sort</a> algorithm which creates 2 arrays, each length n/2, in each function call.
 
 #### More Information:
