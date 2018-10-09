@@ -19,6 +19,6 @@ To override a default props value, the syntax to be followed is
 
 Following the Syntax, the following code should be declared below the given code
 ```react.js
-<Items quantity={150}/>
+<Items quantity={50}/>
 ```
 This will override value `0` to `50`
