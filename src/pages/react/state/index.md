@@ -111,6 +111,13 @@ This can lead to unexpected behavior in your app if the code above is called mul
 this.setState(prevState => ({value: prevState.value + 1}));
 ```
 
+##### The Cleaner Way
+```
+this.setState(({ value }) => ({ value: value + 1 }));
+```
+
+Here you can deconstruct the argument, or value in this case, out of the callback and and just omit `prevState`.
+
 ### More Information
 
 - [React - State and Lifecycle](https://reactjs.org/docs/state-and-lifecycle.html)
