@@ -52,6 +52,20 @@ Your `package.json` file should look similar to this:
 yarn add [package]
 ```
 
+If you want a specific package version or tag, you can do this.
+
+```shell
+yarn add express@4.14.1
+```
+
+For dev dependencies, peer dependencies and optional dependencies you pass the --dev --peer --optional respectively.
+
+```shell
+yarn add gulp --dev
+```
+
+Will save gulp under devDependencies. To upgrade or remove a package, you just replace the add command with either upgrade or remove followed by the package name.
+
 **Upgrading a dependency**
 ```
 yarn upgrade [package]
@@ -66,6 +80,12 @@ yarn remove [package]
 ```
 yarn install
 ```
+
+After every install, upgrade or removal, yarn updates a yarn.lock file which keeps track of the exact package version installed in node_modules directory.
+
+## npm - an alternative to yarn
+
+Learn more about npm [here](../npm)
 
 #### More Information:
 * [Yarn website](https://yarnpkg.com)

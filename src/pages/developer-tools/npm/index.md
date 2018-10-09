@@ -3,46 +3,291 @@ title: npm
 ---
 ## npm
 
-npm is a package manager and is used to install and manage dependencies.
 
-npm is central to the vibrant JavaScript(and specifically the Node.js) community, by making module and code reusability across projects very simple.
-Currently, npm has upwards of 500,000 available packages.
+Node.js makes it possible to write applications in JavaScript on the server. It’s built on the V8 JavaScript runtime and written in C++ — so it’s fast. Originally, it was intended as a server environment for applications, but developers started using it to create modules to aid them in local task automation. Since then, a whole new ecosystem of Node-based tools has evolved to transform the face of front-end development.
+
+To make use of these modules (or packages) in Node.js we need to be able to install and manage them in a useful way. This is where npm, the Node package manager, comes in. It installs the packages you want to use and provides a useful interface to work with them.
+
+npm makes module and code reusability across projects very simple. Currently, npm has upwards of 500,000 available packages.
 
 npm is useful not only for server-side projects. Most popular front-end libraries like Bootstrap and Font Awesome are available too.
 
-**Note:** 
-* npm comes out of the box with Node.js so it's necessary to install Node.js first
-* npm has no full form because of its usage beyond Node.js specific projects. It was formerly called Node Package Manager.
+## Installing npm
 
-### npm Usage
+To install `npm` we have to download Nodejs binaries in your local envrionment. Node.js binaries include the latest version of npm. To verify that:
 
-npm is commonly used from the command line. The commands given below are arguably the most important ones to get you started:
-
-```
-npm init
+```shell
+npm -v
+5.6.0
 ```
 
-Running this command in your project's root directory initializes it for use with npm by creating a `package.json` file. You will be prompted for the
-project's name, description, author's name and more. This information is then used to populate the `package.json` file, which will also hold the
-information about the project's dependencies and requirements. You can alter that information manually later.
+Node Package Manager (NPM) provides two main functionalities −
+
+* Online repositories for node.js packages/modules which are searchable on `npmjs.com`.
+
+* Command line utility to install Node.js packages, do version management and dependency management of Node.js packages.
+
+## Installing Modules using npm
+
+`npm` can install packages in local or global mode. By default, NPM installs any dependency in the local mode. In local mode it installs the package in a node_modules folder in your parent working directory. This location is owned by the current user. Global packages are installed in {prefix}`/lib/node_modules/` which is owned by root, where {prefix} is usually `/usr/ or /usr/local`. This means you would have to use sudo to install packages globally, which could cause permission errors when resolving third-party dependencies, as well as being a security concern.
+
+### Installing Packages in Global Mode
+
+Any packages installed globally will become available from the command line. We use the --global flag or -g to install packages globally.
+
+```shell
+$ npm install uglify-js --global
+```
+
+We can list the global packages we have installed with the npm list command.
+
+```shell
+$ npm list --global
+/usr/local/lib
+├─┬ npm@5.6.0
+│ ├── abbrev@1.1.0
+│ ├── ansi-regex@2.1.1
+│ ├── ansicolors@0.3.2
+│ ├── ansistyles@0.1.3
+....................
+└─┬ uglify-js@3.0.15
+  ├─┬ commander@2.9.0
+  │ └── graceful-readlink@1.0.1
+  └── source-map@0.5.6
+```
+
+The output however, is rather verbose. We can change that with the --depth=0 option.
+
+```js
+$ npm list -g --depth=0
+/usr/local/lib
+├── npm@5.6.0
+└── uglify-js@3.0.15
+```
+
+### Installing Packages in Local Mode
+
+When you install packages locally, you normally do so using a package.json file.
+
+```shell
+npm install --save express
+```
+
+Now you can use this module in your js file as following
+
+```js
+const express = require('express');
+```
+
+Local modules are further divided into two types of depenedencies: `devDepenednecies` and `dependencies`. The difference between these two, is that devDependencies are modules which are only required during development, while dependencies are modules which are also required at runtime. To save a dependency as a devDependency on installation we need to do an `npm install --save-dev`, instead of just an `npm install --save`.
+
+A nice shorthand for installing a devDependency that I like to use is `npm i -D`. The shorthand for saving a regular dependency is `-S` instead of `-D`.
+
+### Installing a Specific Version of a Package
+
+To do so, we mention the package version we want to install.
+
+```shell
+$ npm install underscore@1.8.2 -S
+```
+
+To remove a global dependency, use `-g` flag.
+
+### Uninstalling Local Packages
+
+npm is a package manager so it must be able to remove a package. We can remove the package:
+
+```shell
+$ npm uninstall underscore -S
+```
+
+To update a global dependency, use `-g` flag.
+
+### Updating a Package
+
+To update a package, you can do:
 
 ```
-npm install [name-of-package]
+$ npm update underscore -S
 ```
 
-This installs a package and all its dependencies automatically, and saves it in the `package.json` file. If you are installing a development dependency,
-you may want to use the `--save-dev` or `-D` switch. npm will then save the package as a development dependency.
+To check if there is an update available for any package associated with our project:
 
-Packages are installed locally in the `node_modules` directory in your project's root directory. Sometimes you may want to have a package available across
-different projects. This is done with the `--global` or `-g` switch. This is often useful for development tools and command line utilities.
+```shell
+$ npm outdated
 
+Package     Current  Wanted  Latest  Location
+underscore    1.8.2   1.8.3   1.8.3  project
 ```
-npm install
+
+The Current column shows us the version that is installed locally. The Latest column tells us the latest version of the package. And the Wanted column tells us the latest version of the package we can upgrade to without breaking our existing code.
+
+After every install, upgrade or removal, npm updates a package-lock.json file which keeps track of the exact package version installed in node_modules directory.
+
+## Managing Dependencies with package.json
+
+If not using a specific flag and installing a module like `npm install express` will install the module in `node_modules` folder locally but the `package.json` that keep records of every dependency we are using in a project will not be updated with our addition. Thus, the package will be development specific, will not be installed in runtimme environment. Make sure, you always use a proper flag and keep `package.json` file updated.
+
+When you install packages locally, you need a package.json file. To generate one you can do that by using `npm init` command. It will prompt up with some questions that by pressing enter you can keep the default values.
+
+```shell
+$ npm init
+package name: (project)
+version: (1.0.0)
+description: Demo of package.json
+entry point: (index.js)
+test command:
+git repository:
+keywords:
+author:
+license: (ISC)
 ```
 
-Running npm install in a project's root directory without a specific package name, installs all the dependencies required for that project. Those are
-calculated according to the project's `package.json` file. This demonstrates the power of npm, where a single command can fetch tens or hundreds of
-dependencies automatically for you, and is useful when you `git clone` a repository, for example.
+Think of `package.json` as the keeper of all dependencies or manifestation of a Node.js project. If you want a quicker way to generate a package.json file use `npm init --y`.
+
+List of Common Attributes in a `package.json` file:
+
+* name − name of the package
+
+* version − semantic version of the package
+
+* description − description of the package
+
+* homepage − homepage of the package
+
+* author − author of the package
+
+* contributors − name of the contributors to the package
+
+* dependencies − list of dependencies. NPM automatically installs all the dependencies mentioned here in the node_module folder of the package.
+
+* devDependencies - list of all development specific dependencies
+
+* repository − repository type and URL of the package
+
+* main − entry point of the package
+
+* keywords − keywords
+
+* license - a license for your package so that people know how they are permitted to use it, and any restrictions you're placing on it.
+
+* scripts - The "scripts" property is a dictionary containing script commands that are run at various times in the lifecycle of your package.
+
+* config - object that can be used to set configuration parameters used in package scripts that persist across upgrades.
+
+An example:
+
+```json
+{
+   "name": "express",
+      "description": "Fast, unopinionated, minimalist web framework",
+      "version": "4.11.2",
+      "author": {
+
+         "name": "TJ Holowaychuk",
+         "email": "tj@vision-media.ca"
+      },
+
+   "contributors": [{
+      "name": "Aaron Heckmann",
+      "email": "aaron.heckmann+github@gmail.com"
+   },
+
+    ],
+   "license": "MIT", "repository": {
+      "type": "git",
+      "url": "https://github.com/strongloop/express"
+   },
+   "homepage": "https://expressjs.com/", "keywords": [
+      "express",
+      "framework",
+      "sinatra",
+      "web",
+      "rest",
+      "restful",
+      "router",
+      "app",
+      "api"
+   ],
+   "dependencies": {
+      "serve-static": "~1.8.1",
+
+   },
+   "devDependencies": {
+      "jade": "~1.9.1",
+   },
+   "engines": {
+      "node": ">= 0.10.0"
+   },
+   "files": [
+      "LICENSE",
+      "History.md",
+      "Readme.md",
+      "index.js",
+      "lib/"
+   ],
+   "scripts": {
+      "test": "mocha --require test/support/env
+         --reporter spec --bail --check-leaks test/ test/acceptance/",
+      "test-cov": "istanbul cover node_modules/mocha/bin/_mocha
+         -- --require test/support/env --reporter dot --check-leaks test/ test/acceptance/",
+      "test-tap": "mocha --require test/support/env
+         --reporter tap --check-leaks test/ test/acceptance/",
+      "test-travis": "istanbul cover node_modules/mocha/bin/_mocha
+         --report lcovonly -- --require test/support/env
+         --reporter spec --check-leaks test/ test/acceptance/"
+   },
+
+}
+```
+
+## npm Scripts
+
+`npm` scripts are used to automate repetitive tasks. For example, building your project, minifying Cascading Style Sheets (CSS) and JavaScript (JS) files. Scripts are also used in deleting temporary files and folders, etc. They can be customized and are accessible via `scripts` object in `package.json`.
+
+```json
+{
+  "name": "super-cool-package",
+  "version": "1.0.0",
+  "scripts": {}
+}
+```
+
+An example of the most popular NPM script:
+
+```json
+"scripts": {
+    "start": "node index.js",
+    ...
+}
+```
+
+## npm Cache
+
+When npm installs a package it keeps a copy, so the next time you want to install that package, it doesn’t need to hit the network. The copies are cached in the .npm directory in your home path.
+
+```shell
+$ ls ~/.npm
+lodash.zipobject
+log-driver
+log-symbols
+logalot
+logfmt
+loglevel
+long-timeout
+longest
+longest-strea
+```
+
+This directory will get cluttered with old packages over time, so it’s useful to clean it up occasionally.
+
+```shell
+$ npm cache clean
+```
+
+## yarn - an alternative to npm
+
+Learn more about yarn [here](../yarn)
 
 #### More Information:
 * Node.js website: <a href='https://nodejs.org' target='_blank' rel='nofollow'>nodejs</a>
