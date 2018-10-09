@@ -6,7 +6,7 @@ title: Catch Misspelled Variable and Function Names
 ### Problem explanation:
 Fix the two spelling errors in the code so the netWorkingCapital calculation works.
 
-#### Hint
+### Hint
 Check the spelling of the first two variables against when it is used. 
 
 ## Spoiler alert!
