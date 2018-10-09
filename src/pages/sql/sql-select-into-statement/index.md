@@ -38,6 +38,5 @@ SELECT * INTO SupplierUSA
 Please see the manual for your database manager and have fun trying different options yourself.
 
 #### Sources
-1. https://technet.microsoft.com/en-us/library/ms190750(v=sql.105).aspx. Accessed October 27, 2017
-2. http://www.dofactory.com/sql/select-into. Accessed October 27, 2017
-
+1. (Microsoft - Inserting Rows by Using SELECT INTO)[https://technet.microsoft.com/en-us/library/ms190750(v=sql.105).aspx]
+2. (dofactory - SQL SELECT INTO Statement)[http://www.dofactory.com/sql/select-into]
