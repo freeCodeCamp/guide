@@ -1,6 +1,7 @@
 ---
 title: SQL Select into Statement
 ---
+
 ## SQL Select into Statement
 
 The `SELECT INTO` statement is a query that allows you to create a *new* table and populate it with the result set of a `SELECT statement`. To add data to an existing table, see the [INSERT INTO](guides/src/pages/sql/sql-insert-into-select-statement/index.md) statement instead.
