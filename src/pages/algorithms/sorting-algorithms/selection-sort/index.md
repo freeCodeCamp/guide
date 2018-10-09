@@ -21,15 +21,12 @@ An implementation in C/C++ is as shown below,
 
 
 ```C
-for(int i = 0; i < n; i++)
-{
+for(int i = 0; i < n; i++){
 	int min_index = i;
 	int min_element = a[i];
 	
-	for(int j = i +1; j < n; j++)
-	{
-		if(a[j] < min_element)
-		{
+	for(int j = i + 1; j < n; j++){
+		if(a[j] < min_element){
 			min_element = a[j];
 			min_index = j;
 		}
