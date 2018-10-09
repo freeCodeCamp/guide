@@ -1,8 +1,8 @@
 ---
-title: CSS: Cascading Style Sheets
+title: CSS Cascading Style Sheets
 ---
 
-### CSS: Cascading Style Sheets
+### CSS - Cascading Style Sheets
 
 CSS stands for Cascading Style Sheets. It was first invented in 1996, and is now a standard feature of all major web browsers.
 
