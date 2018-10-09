@@ -24,7 +24,7 @@ For instance:
 ```
 The `<a href>` attribute is supported by all browsers.
 
-#### more atribute:
+#### more attributes:
  `hreflang` : Specifies the language of the linked resource.
  `target`   : Specifies the context in which the linked resource will open.
  `title`    : Defines the title of a link, which appears to the user as a tooltip.
@@ -34,13 +34,13 @@ The `<a href>` attribute is supported by all browsers.
 <a href="#">This is a dead link</a>
 <a href="https://www.freecodecamp.org">This is a live link to freeCodeCamp</a>
 <a href="https://html.com/attributes/a-href/
-">more with a href atribut</a>
+">more with a href attribute</a>
 
 ```
 
 ### In-page anchors
 
-Also it is possible to set an anchor to certain place of the page. To do this you should first place a tab at location on the page with tag <a> and necessary attribute "name" with any key-word description in it, like this:
+Also it is possible to set an anchor to certain place of the page. To do this you should first place a tab at location on the page with tag <a> and necessary attribute "name" with any keyword description in it, like this:
 
 ```html
 <a name="top"></a>
