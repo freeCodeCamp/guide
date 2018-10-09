@@ -20,15 +20,34 @@ It is standard to call this value props and when dealing with stateless function
 
 Like you can pass a props like this
 ```react.js
- <WelcomeUser name={Name()}/>
+ <CurrentDate date={Date()} />
  ```
- and render date in a component like this
+ ## Solution
+ Render date in a component like this
  ```react.js
- const WelcomeUser = (props) => {
+const CurrentDate = (props) => {
   return (
     <div>
-      <p>Welcome {props.name} to freeCodeCamp</p>
+      { /* change code below this line */ }
+      <p>The current date is: {props.date}</p>
+      { /* change code above this line */ }
     </div>
   );
+};
+
+class Calendar extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+  render() {
+    return (
+      <div>
+        <h3>What date is it?</h3>
+        { /* change code below this line */ }
+        <CurrentDate date={Date()} />
+        { /* change code above this line */ }
+      </div>
+    );
+  }
 };
  ```
