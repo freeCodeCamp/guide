@@ -44,9 +44,9 @@ Antes de que te pongas a escribir, asegúrate de leer la [guía de estilo de los
 2. 👀️ Sigue las líneas de estilo para hacer tu contribución que puedes encontrar en [CONTRIBUTING.md](CONTRIBUTING.md).
 3. 🔧 ¡Realiza algunos cambios asombrosos!
 4. 👉 [Realiza un "pull request"](https://github.com/freeCodeCamp/guide/compare)
-5. 🎉 ¡Espere a que se acepte su "pull request"!
+5. 🎉 ¡Espera a que se acepte tu "pull request"!
 
-O simplemente [rellene un incidente o "issue"](https://github.com/freeCodeCamp/guide/issues)—¡cualquier ayuda por pequeña que sea cuenta! 😊
+O simplemente [rellena un incidente o "issue"](https://github.com/freeCodeCamp/guide/issues) ¡cualquier ayuda por pequeña que sea cuenta! 😊
 
 ## Licencia
 
