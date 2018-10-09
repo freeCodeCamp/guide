@@ -33,7 +33,19 @@ It uses a document model to store and retrieve the data instead of the table mod
 4. High Availability
 5. Horizontal Scalability
 
-
+##Things to understand for MongodB
+1. MongoDB has the same concept of a database with which you are likely already familiar (or a schema for you
+Oracle folks). Within a MongoDB instance you can have zero or more databases, each acting as high-level
+containers for everything else.
+2. A database can have zero or more collections. A collection shares enough in common with a traditional table
+that you can safely think of the two as the same thing.
+3. Collections are made up of zero or more documents. Again, a document can safely be thought of as a row.
+4. A document is made up of one or more fields, which you can probably guess are a lot like columns.
+5. Indexes in MongoDB function mostly like their RDBMS counterparts.
+6. Cursors are different than the other five concepts but they are important enough, and often overlooked, that
+I think they are worthy of their own discussion. The important thing to understand about cursors is that when
+you ask MongoDB for data, it returns a pointer to the result set called a cursor, which we can do things to, such
+as counting or skipping ahead, before actually pulling down data
 ### More Information
 [What is Mongo DB?](https://www.mongodb.com/what-is-mongodb)
 
