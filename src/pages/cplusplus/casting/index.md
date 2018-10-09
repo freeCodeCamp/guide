@@ -4,6 +4,8 @@ title: Casting
 
 ## Casting
 
+A cast is a special operator that forces one data type to be converted into another
+
 Casting in C++ differs somewhat to that of C. C++ makes use of distinct casting functions.
 
 ##static_cast
