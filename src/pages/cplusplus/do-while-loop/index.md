@@ -7,7 +7,7 @@ The `do while loop` is almost the same as the while loop. The `do while loop` ha
 ```cpp
 do 
 {
-	do something;	
+  // do something;	
 } while(expression);
 	
 ```
