@@ -3,8 +3,34 @@ title: Pass a Callback as Props
 ---
 ## Pass a Callback as Props
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/front-end-libraries/react/pass-a-callback-as-props/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+
+### Solution
+```javascript
+class MyApp extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      inputValue: ''
+    }
+    this.handleChange = this.handleChange.bind(this);
+  }
+  handleChange(event) {
+    this.setState({
+      inputValue: event.target.value
+    });
+  }
+  render() {
+    return (
+       <div>
+        { /* change code below this line */ 
+        <GetInput input={this.state.inputValue} handleChange={this.handleChange}/>
+        }
+        { /* change code above this line */ 
+        <RenderInput input={this.state.inputValue}/>
+        }
+       </div>
+    );
+  }
+};
+```
