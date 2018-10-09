@@ -17,12 +17,12 @@ Author: xyz
 Date: xx/xx/xxxx
 Purpose: abc
 -->
-Read more: https://html.com/tags/comment-tag/#ixzz4vtZHu5uR
+To read more about commenting out code: https://html.com/tags/comment-tag/#ixzz4vtZHu5uR
 <!DOCTYPE html>
 <html>
 	<body>
 		<h1>FreeCodeCamp web</h1>
-		<!-- Leave some space between the h1 and the p in order to understand what are we talking about-->
+		<!-- Leave some space between the h1 and the p in order to understand what are we talking about -->
 		<p>FreeCodeCamp is an open-source project that needs your help</p>
 	        <!-- For readability of code use proper indentation -->
 	</body>
@@ -30,6 +30,8 @@ Read more: https://html.com/tags/comment-tag/#ixzz4vtZHu5uR
 ```
 ## Conditional Comments
 Conditional Comments defines some HTML tags to be excuted when a certain codition is fullfilled. 
+
+Conditional comments are helpful for hiding code to try and see what went wrong in the final product.
 
 Conditional Comments are only recognised by Internet Explorer Version 5 through to Version 9 - IE5 - IE9.
 
