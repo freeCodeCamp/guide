@@ -11,7 +11,9 @@ To write on console you can use the function `printf()` contained in the library
 
  int main(void)
  {
-     printf("Hello, World\n");
+
+     printf("hello, world\n");  //lines starting with this are called comments..
+
      return 0;
  }
  ```
