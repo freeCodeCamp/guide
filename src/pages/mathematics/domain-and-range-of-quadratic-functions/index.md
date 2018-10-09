@@ -3,13 +3,12 @@ title: Domain and Range of Quadratic Functions
 ---
 ## Domain and Range of Quadratic Functions
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/domain-and-range-of-quadratic-functions/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The domain and range determine the possible values for variables within any given function. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+In the case of quadratic functions, the domain is almost always x = +/- infinity (x can equal any number).
+On the other hand, range is determined by the vertex of the parabola. For instance, the range of the equation y = x^2 + 2 is y > 2 because y can't equal any number below the vertex.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
+### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
 
