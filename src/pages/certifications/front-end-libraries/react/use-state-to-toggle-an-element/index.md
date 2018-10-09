@@ -19,7 +19,7 @@ title: Use State to Toggle an Element
 
 ## Solution:
 
-```JavaScript
+```JSX
 class MyComponent extends React.Component {
   constructor(props) {
     super(props);
