@@ -288,7 +288,7 @@ Most of the time, pointer and array accesses can be treated as acting the same, 
     int *p; 
     p = a; /*legal*/
     a = p; /*illegal*/ 
-```c
+```
 5) Arithmetic on pointer variable is allowed.
 ```c
     p++; /*Legal*/
