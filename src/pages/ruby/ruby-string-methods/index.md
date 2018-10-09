@@ -18,6 +18,7 @@ Ruby has many built in methods to work with strings. Strings in Ruby by default 
     ```ruby
     "Hello".empty? #=> false
     "!".empty?     #=> false
+    " ".empty?     #=> false
     "".empty?      #=> true
     ```
     
