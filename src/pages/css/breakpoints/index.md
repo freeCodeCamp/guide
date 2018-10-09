@@ -2,30 +2,27 @@
 title: Breakpoints
 ---
 ## Breakpoints
-
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/breakpoints/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-In order to support users accessing websites with different divices, CSS breakpoints are a useful way of ensuring a responsive feel to the design of your website despite it being accessed by different devices and screen-sizes. Breakpoints are mostly based on the width of the device accessing the webpage, and are often used with <a href="https://guide.freecodecamp.org/css/css3-media-queries" target="_blank">CSS Media Queries</a> and can be used interchangeably.
+In order to support users accessing websites on different devices, CSS breakpoints are a useful way of ensuring a responsive layout for your website regardless of screen size. Breakpoints establish a screen-width at which a specified property will change. Breakpoints are roughly based on the width of the device accessing the webpage, and are often deployed using <a href="https://guide.freecodecamp.org/css/css3-media-queries" target="_blank">CSS Media Queries</a>.
 
-Breakpoints that are based on content as opposed to device are less complicated. Here's a simple snippet that triggers when the device's width is upward of ```code 700px``` roughly smart-phone screen sized
+Breakpoints that are based on content as opposed to device are less complicated to execute.
+
+Here's a simple snippet that triggers when the device's width is upward of `700px`, roughly tablet screen sized.
 
 ```css
 @media only screen and (min-width: 700px) {
-  something {
-    something: something;
+  selector {
+    property: value;
   }
 }
 ```
 
-You can also set a minimum and maximum width, which let's you experiments with differnt ranges. This one roughly triggers between smar-phone and larger desktop and monitor sizes
+You can also set a minimum and maximum width, which let's you experiment with the layout at differnt ranges. This example roughly triggers between tablet and larger desktop screen-width sizes.
 
-```code
+```css
 @media only screen and (min-width: 700px) and (max-width: 1500px) {
-  something {
-    something: something;
+  selector {
+    property: value;
   }
 }
 ```
