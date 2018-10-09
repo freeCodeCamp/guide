@@ -84,7 +84,7 @@ Documentation reference: <a href='http://www.cplusplus.com/reference/cmath/' tar
 1.5707963267948966
 ```
 
-In addition to the standard `math` module, there are several other mathematical helper libraries available on PyPI. For example:
+In addition to the standard `math` module, there are several other mathematical helper libraries available on [PyPI](https://pypi.org/). For example:
 
 ```
 $ pip install numpy
