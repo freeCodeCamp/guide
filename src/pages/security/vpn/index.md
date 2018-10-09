@@ -7,7 +7,7 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 
 <a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Virtual Private Networks (VPNs) are private point-to-point connections established over the public internet. They provide safe remote access to centralized resources over widely available internet connections at a much lower cost than private, dedicated leased lines. 
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
