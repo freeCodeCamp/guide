@@ -42,6 +42,12 @@ You can also specify the Python version you want to work with. Just use the argu
 virtualenv --python=/usr/bin/python2.7 my-env
 ```
 
+###Choose python version in virtualenv
+```
+virtualenv -p python3 venv
+```
+
+
 ### List Environments
 
 You can list the available environments with:
