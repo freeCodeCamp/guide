@@ -3,6 +3,7 @@ title: AVL Trees
 ---
 ## AVL Trees
 
+
 An AVL tree is a subtype of binary search tree.
 
 A BST is a data structure composed of nodes. It has the following guarantees:
