@@ -29,6 +29,9 @@ title: Python Resources
 *   <a href='http://www.tangowithdjango.com/' target='_blank' rel='nofollow'>Tango with Django</a>
 *   <a href='http://tutorial.djangogirls.org/en/' target='_blank' rel='nofollow'>Django Girls' Tutorial</a> - Build a blog
 *   <a href='http://www.marinamele.com/taskbuster-django-tutorial' target='_blank' rel='nofollow'>TaskBuster Django Tutorial</a> - Build a Django project from scratch
+*   <a href='https://www.youtube.com/watch?v=N4mEzFDjqtA' target='_blank' rel='nofollow'>Derek Banas' Learn Python In One Video</a>
+*   <a href='https://pythonprogramming.net/introduction-to-python-programming/' target='_blank' rel='nofollow'>pythonprogramming.net Python Baics</a>
+*   <a href='https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAcbMi1sH6oAMk4JHw91mC_' target='_blank' rel='nofollow'>thenewboston Python 3.4 Programming Tutorials</a>
 *   <a href='http://www.tutorialspoint.com/python/'>Tutorials Point - Python</a>
 *   <a href='https://pythonprogramming.net' target='_blank' rel='nofollow'> Set of Starter Projects with Videos </a> - From the basics onward.
 

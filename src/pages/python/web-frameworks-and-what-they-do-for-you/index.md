@@ -40,3 +40,13 @@ Some well-known sites that use Django include the Public Broadcasting Service, I
 Bottle is a Python micro framework that allows users to quickly get up and running with a Python web application.  It is a lot more lightweight than something more fully featured such as Django, and has no third-party dependencies relying only on the Python standard library.
 
 This makes it perfect for small web applications where some of the more advanced features of Django such as authentication, or database access would not be required.
+
+
+### Flask 
+
+Flask is a lightweight WSGI web application and a micro framework which it's classified as a microframework because it does not require particular tools or libraries. It is designed to make getting started quick and easy, with the ability to scale up to complex applications. However, Flask supports extensions that can add application features as if they were implemented in Flask itself. Extensions exist for object-relational mappers, form validation, upload handling, various open authentication technologies and several common framework related tools. Extensions are updated far more regularly than the core Flask program. Flask is commonly used with MongoDB (NOSQL DataBase) which allows it more control over databases and history.
+
+It began as a simple wrapper around Werkzeug and Jinja and has become one of the most popular Python web application frameworks.
+
+Flask offers suggestions, but doesn't enforce any dependencies or project layout. It is up to the developer to choose the tools and libraries they want to use. There are many extensions provided by the community that make adding new functionality easy.
+

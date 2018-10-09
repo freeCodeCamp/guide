@@ -17,6 +17,10 @@ You can use it for:
 <img src="https://github.com/indianmoody/images/blob/master/guide_fcc/guides_jupyter_snap.jpeg" width="400" height="300" />
 See your results as you go step by step. Just like in this image.
 
+#### More Information:
+<!-- Please add any articles you think might be helpful to read before writing the article -->
+
+=======
 ### Features
 * No need to run your complete code file every time. Just run individual Notebook cell to evaluate specific piece of code.
 * The Notebook has support for over 40 programming languages, including Python, R, Julia, and Scala.
@@ -39,6 +43,7 @@ These documents are produced by the Jupyter Notebook App.
 ## Jupyter Notebook App
 As a server-client application, the Jupyter Notebook App allows you to edit and run your notebooks via a web browser.  
 The application can be executed on a PC without Internet access or it can be installed on a remote server, where you can access it through the Internet.  
+
 
 Its two main components are the kernels and a dashboard.
 
