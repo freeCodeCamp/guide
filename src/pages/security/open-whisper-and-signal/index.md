@@ -1,15 +1,15 @@
 ---
-title: Open Whisper and Signal
+title: Open Whisper Systems and Signal
 ---
-## Open Whisper and Signal
+## Open Whisper Systems and Signal
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/security/open-whisper-and-signal/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Open Whisper Systems (abbreviated as OWS) is a software organization that was founded by Moxie Marlinspike in 2013. Its main focus is the development of the Signal Protocol. The organization is funded by a combination of donations and grants, and all of its products are published as free and open-source software.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+It also maintains an encrypted communications application called Signal for Android and iOS. It uses the Internet to send one-to-one and group messages, which can include files, voice notes, images and videos, and make one-to-one voice and video calls.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Signal uses standard cellular mobile numbers as identifiers, and uses end-to-end encryption to secure all communications to other Signal users. The applications include mechanisms by which users can independently verify the identity of their messaging correspondents and the integrity of the data channel.
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+The clients are published as free and open-source software under the GPLv3 license. The server code is published under the AGPLv3 license.
+
 
 

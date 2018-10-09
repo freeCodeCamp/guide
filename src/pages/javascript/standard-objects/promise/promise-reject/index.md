@@ -3,13 +3,18 @@ title: Promise Reject
 ---
 ## Promise Reject
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/standard-objects/promise/promise-reject/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+ A ```Promise.reject``` function returns an error condition to the calling function. It takes a single parameter, an Error object or value, as the reason for rejection.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Chaining a catch function at the end of a Promise caller will allow you to catch the error condition.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+```javascript
+promiseCallingFunction(paramList)
+  .then( ... )
+  ...
+  .then( ... )
+  .catch( function(err) { // catch function
+    /*
+     * this is where you can access the reason for the rejection
+     */ 
+  });
+```
