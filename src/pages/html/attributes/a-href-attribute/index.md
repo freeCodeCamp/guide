@@ -24,7 +24,7 @@ For instance:
 ```
 The `<a href>` attribute is supported by all browsers.
 
-#### more attributes:
+#### More attributes:
  `hreflang` : Specifies the language of the linked resource.
  `target`   : Specifies the context in which the linked resource will open.
  `title`    : Defines the title of a link, which appears to the user as a tooltip.
@@ -33,8 +33,7 @@ The `<a href>` attribute is supported by all browsers.
 ```html
 <a href="#">This is a dead link</a>
 <a href="https://www.freecodecamp.org">This is a live link to freeCodeCamp</a>
-<a href="https://html.com/attributes/a-href/
-">more with a href attribute</a>
+<a href="https://html.com/attributes/a-href/">more with a href attribute</a>
 
 ```
 
@@ -49,7 +48,7 @@ Also it is possible to set an anchor to certain place of the page. To do this yo
 Any description between tags is not required. After that you can place a link leading to this anchor at any palce on same page. To do this you should use tag <a> with necessary attribute "href" with symbol # (sharp) and key-word description of the anchor, like this:
 
 ```html
-<a href="#top>Go to Top</a>
+<a href="#top">Go to Top</a>
 ```
 
 ### Image Links
