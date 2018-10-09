@@ -90,10 +90,14 @@ The Docker Client is what you, as the end-user of Docker, communicate with. Thin
 The Docker daemon is what actually executes commands sent to the Docker Client — like building, running, and distributing your containers. The Docker Daemon runs on the host machine, but as a user, you never communicate directly with the Daemon. The Docker Client can run on the host machine as well, but it’s not required to. It can run on a different machine and communicate with the Docker Daemon that’s running on the host machine.
 
 ### Dockerfile
-A Dockerfile is where you write the instructions to build a Docker image. These instructions can be:
-**RUN apt-get y install some-package**: to install a software package
-**EXPOSE 8000**: to expose a port
-**ENV ANT_HOME /usr/local/apache-ant** to pass an environment variable and so forth. Once you’ve got your Dockerfile set up, you can use the docker build command to build an image from it. Here’s an example of a Dockerfile:
+A Dockerfile is where you write the instructions to build a Docker image.
+
+These instructions can be:
+- `RUN apt-get y install some-package` to install a software package
+- `EXPOSE 8000`to expose a port
+- `ENV ANT_HOME /usr/local/apache-ant` to pass an environment variable and so forth. 
+
+Once you’ve got your Dockerfile set up, you can use the docker build command to build an image from it. Here’s an example of a Dockerfile:
 
 ```
 # Start with ubuntu 14.04
