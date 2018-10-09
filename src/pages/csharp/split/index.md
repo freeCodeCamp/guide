@@ -4,19 +4,19 @@ title: Split
 
 # Split Method
 
-`String.Split` method can parse a string: As input, Split takes an characters that indicate which characters is the separator generating an array of the sub strings.
+The `String.Split` method parses a string: As input, it takes a character indicating the separator, and generates an array of sub strings.
 
 ## Example
-```
+```csharp
 string myText = "I like pizza";
 
 // Split the string by ' '(space) character.
-string[] splitResoult = myText.Split(' ');
+string[] splitResult = myText.Split(' ');
 
-// The array splitResoult, now contains 3 substrings.
+// The array splitResult, now contains three substrings.
 
 // Now print the array of substrings
-foreach(string x in splitResoult)
+foreach(string x in splitResult)
 {
     // Write On Console
     Console.WriteLine(x);
