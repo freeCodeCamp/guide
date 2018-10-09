@@ -1,5 +1,7 @@
+---
 title: Smart Contracts
 ---
+
 ## Smart Contracts
 
 Transactions in a blockchain are a very basic contract - One party sends resources to another.
