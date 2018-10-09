@@ -10,6 +10,14 @@ It may become an extremely important idea to make a habit out of commenting your
 ![An example of commenting in the real world](https://cdn-images-1.medium.com/max/1620/1*Pyxsc7Uixbitv5myywaA_Q.jpeg)
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
+Types Of Documentation In Software Development
+It is, traditionally, written text that complements software/models in
+order to clarify or explain:
+•Requirements
+•Design
+•Implementation
+•Tests
+•End User
+•Marketing
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
