@@ -52,9 +52,9 @@ background-color: black;
 
 You can also combine classes in the same line:
 ```css
-.superMan .spiderMan {
+.ironMan .alfred {
 color: red;
-background-color: blue;
+background-color: black;
 }
 ```
 
