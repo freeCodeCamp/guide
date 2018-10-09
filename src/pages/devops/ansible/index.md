@@ -3,13 +3,61 @@ title: Ansible
 ---
 ## Ansible
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/devops/ansible/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Ansible is a simple to use automation tool.  Ansible can be used to automate deployments, updates, security, systems management, container provisioning and more.  The configuration files are easy to manage YAML files written in plain English.  Installation is simple and due its Master-Push format, there are no agents needed on remote machines.  Communications with remote machines is via SSH.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Installation on Ubuntu Servers 14.04 or newer
+Installation via the Ansible PPA on Ubuntu servers is recommended.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+First make sure your system is up to date.
+```
+$ sudo apt-get update
+$ sudo apt-get upgrade
+```
+Next you will want to add the following package to your system
+```
+$ sudo apt-get install software-properties-common
+```
+
+Add the ppa:ansible/ansible to your system
+```
+$ sudo apt-add-repository ppa:ansible/ansible
+```
+
+Update your repos again
+```
+$ sudo apt-get update
+```
+
+There are usually a few steps involved in deploying your code into production (to the live site). The number of steps increases as your Site/App/Webapp becomes larger and more complex. 
+
+The solution to this is automated deployment. Automation comes in the form of scripts that act as a set of instructions (just as all code does) outlining each of these steps. 
+
+Ansible is an automation tool, often used for deployment as mentioned above, but increasingly used for other complex automations. 
+
+It uses a language called <a href='https://en.wikipedia.org/wiki/YAML' target='_blank' rel='nofollow'>YAML</a> which allows you to describe the instuctions close to plain english, as you can see in this Ansible module example:
+
+```YAML
+---
+- yum: name={{contact.item}} state=installed
+with_items:
+- app_server
+- acme_software
+
+
+- service: name=app_server state=running enabled=yes
+```
+
+Finally, Install the package
+```
+$ sudo apt-get install ansible
+```
+
+A significant benefit of using Ansible is that it uses SSH (Secure SHell) by default, and the modules can reside on any machine (computer) not requiring servers, daemons or databases.
+
+The true power of Ansible is in using playbooks.  Read more about configuration and use of Ansible on [Ansible's official documentation](https://docs.ansible.com/ansible/latest/index.html). 
+
+Ansible modules, which are small task specific programs. Once they serve there intended purpose e.g. running your deploy script, these modules are removed by Ansible.  
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+- [Learn more about how Ansible works](https://www.ansible.com/how-ansible-works/)
+- [Ansible documentation](http://docs.ansible.com/)
