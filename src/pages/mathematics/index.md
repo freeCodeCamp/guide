@@ -86,7 +86,8 @@ Documentation reference: <a href='http://www.cplusplus.com/reference/cmath/' tar
 
 In addition to the standard `math` module, there are several other mathematical helper libraries available on PyPI. For example:
 
-``` $ pip install numpy
+```
+$ pip install numpy
 $ python
 >>> import numpy as np
 >>> np.zeros((3,4))
