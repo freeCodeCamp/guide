@@ -34,3 +34,24 @@ Using `easy_install` is also simple. The syntax is:
     easy_install <module_name>
 
 However, `pip` is more popular than using `easy_install`.
+
+We can also create a txt file containing a list of modules which should be installed using pip. 
+For example, we could create the file `requirements.txt` and its content:
+
+    Kivy-Garden==0.1.4
+    macholib==1.5.1
+    idna==2.6
+    geoip2nation==0.1.2
+    docutils>=0.14
+    Cython
+    
+ In this file we could also set a version for the installation.
+ After this, by invoking pip with:
+ 
+     pip install -r <FILE CONTAINING MODULES>
+     
+              OR IN OUR CASE
+     
+     pip install -r requirements.txt
+     
+ Should install all the modules listed on the file.

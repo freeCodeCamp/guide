@@ -11,6 +11,13 @@ This section will focus on various aspects of working in tech. We will discuss t
 
 The field of computer security is growing at a rapid rate every year, in a report done recently it is estimated that by 2021 their will be 3.5 million jobs unfilled. The demand is due to the increase in cyber attacks and with how much data is being created everyday, data is so valuable nowadays and it needs to be kept secure and safe.
 
+### Examples of Tech related jobs
+- Software Developer
+- Computer Systems Analyst
+- Web Developer
+- IT Manager
+- Computer Systems Administrator
+
 ### Books
 
 [About Face: The Essentials of Interaction Design](https://amzn.to/2uwtugk)
