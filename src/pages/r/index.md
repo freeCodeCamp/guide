@@ -22,4 +22,3 @@ R is an open source programming language and software environment for statistica
  * [R for Data Science](http://r4ds.had.co.nz/)
  * [Advanced R](https://adv-r.hadley.nz/)
  * [RSeek](http://rseek.org/)
-
