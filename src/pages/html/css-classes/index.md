@@ -50,7 +50,7 @@ background-color: black;
 
 **Note:** class names are traditionally all lowercase, with each word in a multi-word class name separated by hyphens (e.g. "super-man").
 
-You can also combine classes in the same line:
+In following example styles are apllied only to elements which are inside the `.superMan` class and having belongs to `.spiderMan`
 ```css
 .superMan .spiderMan {
 color: red;
