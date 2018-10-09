@@ -3,13 +3,17 @@ title: Tutorials
 ---
 ## Tutorials
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/tutorials/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Here are several useful tutorials for supplementing your HTML pages.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+<ul>
+  <li><a href="https://github.com/freeCodeCamp/guide/blob/master/src/pages/html/tutorials/center-an-image-using-text-align-center/index.md">Center an Image Using Text Align Center</a></li>
+  <li><a href="https://github.com/freeCodeCamp/guide/blob/master/src/pages/html/tutorials/embedding-youtube-videos/index.md">Embedding Youtube Videos</a></li>
+  <li><a href="https://github.com/freeCodeCamp/guide/blob/master/src/pages/html/tutorials/how-to-create-an-html-button-that-acts-like-a-link/index.md">Create an HTML Button that acts as a Link</a></li>
+  <li><a href="How to Use Lists">Ordered List Guide</a></li>  
+  
+</ul>  
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
 
