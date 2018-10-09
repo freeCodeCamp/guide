@@ -21,6 +21,7 @@ title: Useful Commands
 4. `:qa` this will close all files open 
 5. `:qa!` closes all files while abandoning changes 
 6. `:q` saves and closes current file
+
 (NOTE: The command `:q!` will force Vim to exit without saving. Make sure you save first by typing the command `:w` if you do not want to lose any changes you've made.)
 
 **OR**
