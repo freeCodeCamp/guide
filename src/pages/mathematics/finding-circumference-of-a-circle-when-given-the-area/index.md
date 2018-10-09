@@ -1,15 +1,28 @@
 ---
 title: Finding Circumference of a Circle When Given the Area
 ---
-## Finding Circumference of a Circle When Given the Area
+## Background information
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/finding-circumference-of-a-circle-when-given-the-area/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+### Area of a Circle
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+A = pi * radius ^2
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### Circumference of a Circle
+
+C = 2 * pi * radius
+
+## To find the Circumference of a Circle given the area
+
+1. Solve for the radius of the circle
+
+radius = (A/pi)^(1/2)
+
+2. Input the radius into the formula for the circumference and solve. 
+
+C = 2 * pi * (A/pi)^(1/2)
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+
+[Area of a Circle](https://guide.freecodecamp.org/mathematics/area-of-a-circle)
 
 
