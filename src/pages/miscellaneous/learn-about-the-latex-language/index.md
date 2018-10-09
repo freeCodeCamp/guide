@@ -1,7 +1,7 @@
 ---
 title: Learn About the Latex Language
 ---
-LaTeX is designed for the production of technical and scientific documentation. You can create matrix, arrays or several other mathmatical functions.
+LaTeX (pronounced LAH-tekh or LAY-tekh) is designed for the production of technical and scientific documentation. You can easily create matrices, arrays, and other mathmatical functions using this typesetting system.  Users can format their documents using code instead of a Graphical User Interface (GUI).
 
 `$$ (latex language) $$`
 
