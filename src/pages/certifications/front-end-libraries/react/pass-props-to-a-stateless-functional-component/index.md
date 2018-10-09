@@ -3,8 +3,32 @@ title: Pass Props to a Stateless Functional Component
 ---
 ## Pass Props to a Stateless Functional Component
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/front-end-libraries/react/pass-props-to-a-stateless-functional-component/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+In React: props. In React, you can pass props, or properties, to child components. Say you have an App component which renders a child component called Welcome that is a stateless functional component. You can pass Welcome a user property by writing:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```react.js
+<App>
+  <Welcome user='Mark' />
+</App>
+```
+You use custom HTML attributes that React provides support for to pass the property user to the component Welcome. Since Welcome is a stateless functional component, it has access to this value like so:
+
+```react.js
+const Welcome = (props) => <h1>Hello, {props.user}!</h1>
+```
+It is standard to call this value props and when dealing with stateless functional components, you basically consider it as an argument to a function which returns JSX. You can access the value of the argument in the function body. With class components, you will see this is a little different.
+
+Like you can pass a props like this
+```react.js
+ <WelcomeUser name={Name()}/>
+ ```
+ and render date in a component like this
+ ```react.js
+ const WelcomeUser = (props) => {
+  return (
+    <div>
+      <p>Welcome {props.name} to freeCodeCamp</p>
+    </div>
+  );
+};
+ ```
