@@ -31,13 +31,7 @@ and is displayed as:
 
 An unordered list is written as
 
-```HTML
-<ol>
-  <li>Item 1</li>
-  <li>Item 2</li>
-  <li>Item 3</li>
-</ol>
-```
+
 ```HTML
 <ul>
   <li>Macintosh</li>
@@ -55,6 +49,7 @@ and is displayed as:
 
 A description list is a list of terms, with a description of each term. A description list is made using the `<dl>` tag.
 Each item in the list is made up of two tags: a term `<dt>`, and a description of that term `<dd>`.
+They are called definition lists in HTML 4.
 
 Here is an example of a description list:
 ```HTML
