@@ -40,3 +40,4 @@ You can check the `pip` version by doing `pip --version` and/or `pip3 --version`
 
     pip3 --version
     pip 18.0 from /usr/local/lib/python3.5/dist-packages/pip (python 3.5)
+    
