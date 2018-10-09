@@ -33,6 +33,14 @@ The `.floor` method rounds <a href='https://ruby-doc.org/core-2.2.0/Float.html#m
     8.3.floor #=> 8
     6.7.floor #=> 6
 ```
+## <a href='https://ruby-doc.org/core-2.2.0/Integer.html#method-i-next' target='_blank' rel='nofollow'>Next</a>:
+
+Use `.pred` to return the previous consecutive <a href='https://ruby-doc.org/core-2.2.0/Integer.html' target='_blank' rel='nofollow'>**integer**</a>.
+```Ruby
+    15.pred #=> 14
+    2.pred  #=> 2
+    -4.pred #=> -5
+```
 
 ## <a href='https://ruby-doc.org/core-2.2.0/Integer.html#method-i-next' target='_blank' rel='nofollow'>Next</a>:
 
