@@ -19,3 +19,9 @@ The identifier is not preceeded by a _type_. That is because Python is dynamical
     >>> some_variable = "Hello campers!"
     >>> print(some_variable)
     Hello campers!
+    
+When naming variables, you must follow these rules:
+- A variable name must start with a letter or the underscore character
+- A variable name cannot start with a number or special characters (!@#%^&*, etc.)
+- A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
+- Variable names are case-sensitive (num, NUM and Num are three different variables)
