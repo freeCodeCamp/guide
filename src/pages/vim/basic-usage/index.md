@@ -24,6 +24,12 @@ title: Basic Usage
 ### Display line numbers
 - :set nu
 
+### Don't display line numbers
+- :set nonu
+
+### Add syntax color based on prog language used
+- :syntax on
+
 ## About Vim
 Vim is the text editor basically used in CLI mode . But now the editor is also available in various versions. There have 
 also GVIM which is the graphical version of VIM. vi was the main editor then its improved & named it VI improved Vim.

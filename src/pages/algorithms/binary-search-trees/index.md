@@ -13,7 +13,9 @@ A binary search tree (BST) adds these two characteristics:
 1. Each node has a maximum of up to two children.
 2. For each node, the values of its left descendent nodes are less than that of the current node, which in turn is less than the right descendent nodes (if any).
 
+
 The BST is built up on the idea of the <a href='https://guide.freecodecamp.org/algorithms/search-algorithms/binary-search' targer='_blank' rel='nofollow'>binary search</a> algorithm, which allows for fast lookup, insertion and removal of nodes. The way that they are set up means that, on average, each comparison allows the operations to skip about half of the tree, so that each lookup, insertion or deletion takes time proportional to the logarithm of the number of items stored in the tree, `O(log n)`. However, some times the worst case can happen, when the tree isn't balanced and the time complexity is `O(n)` for all three of these functions. That is why self-balancing trees (AVL, red-black, etc.) are a lot more effective than the basic BST.
+
 
 **Worst case scenario example:** This can happen when you keep adding nodes that are *always* larger than the node before (it's parent), the same can happen when you always add nodes with values lower than their parents.
 
@@ -152,7 +154,73 @@ void insert(int data) {
    }
 }        
 ```
-  
+
+Binary search trees (BSTs) also give us quick access to predecessors and successors.
+  Predecessors can be described as the node that would come right before the node you are currently at.
+   - To find the predecessor of the current node, look at the rightmost/largest leaf node in the left subtree.
+  Successors can be described as the node that would come right after the node you are currently at.
+   - To find the successor of the current node, look at the leftmost/smallest leaf node in the right subtree.
+
+### Let's look at a couple of procedures operating on trees.
+Since trees are recursively defined, it's very common to write routines that operate on trees that are themselves recursive. 
+
+So for instance, if we want to calculate the height of a tree, that is the height of a root node, We can go ahead and recursively do that, going through the tree. So we can say:
+
+* For instance, if we have a nil tree, then its height is a 0.
+* Otherwise, We're 1 plus the maximum of the left child tree and the right child tree.
+* So if we look at a leaf for example, that height would be 1 because the height of the left child is nil, is 0, and the height of the nil right child is also 0. So the max of that is 0, then 1 plus 0.
+#### Height(tree) algorithm
+```
+if tree = nil:
+    return 0
+return 1 + Max(Height(tree.left),Height(tree.right))
+```
+
+#### Here is the code in C++
+```
+int maxDepth(struct node* node)
+{
+    if (node==NULL)
+        return 0;
+   else
+   {
+       int rDepth = maxDepth(node->right);
+       int lDepth = maxDepth(node->left);
+
+       if (lDepth > rDepth)
+       {
+           return(lDepth+1);
+       }
+       else
+       {
+            return(rDepth+1);
+       }
+   }
+}  
+```
+
+We could also look at calculating the size of a tree that is the number of nodes.
+
+* Again, if we have a nil tree, we have zero nodes.
+* Otherwise, we have the number of nodes in the left child plus 1 for ourselves plus the number of nodes in the right child. So 1 plus the size of the left tree plus the size of the right tree.
+#### Size(tree) algorithm
+```
+if tree = nil
+    return 0
+return 1 + Size(tree.left) + Size(tree.right)
+```
+
+#### Here is the code in C++
+```
+int treeSize(struct node* node)
+{
+    if (node==NULL)
+        return 0;
+    else
+        return 1+(treeSize(node->left) + treeSize(node->right));
+}
+```
+
 ### Relevant videos on freeCodeCamp YouTube channel
 * [Binary Search Tree](https://youtu.be/5cU1ILGy6dM)
 * [Binary Search Tree: Traversal and Height](https://youtu.be/Aagf3RyK3Lw)
