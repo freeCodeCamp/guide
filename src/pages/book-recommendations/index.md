@@ -68,6 +68,14 @@ title: Books to Read for Programmers
 - http://automatetheboringstuff.com/
 - ISBN-13: 978-1593275990
 
+*Fluent Python: Clear, Concise, and Effective Programming*
+-[Amazon Smile](https://www.amazon.com/Fluent-Python-Concise-Effective-Programming/dp/1491946008/ref=sr_1_1?ie=UTF8&qid=1499089735&sr=8-1&keywords=Fluent+Python%3A+Clear%2C+Concise%2C+and+Effective+Programming)
+-ISBN-13: 978-1491946008
+
+ *Effective Python: 59 Specific Ways to Write Better Python*
+-[Amazon Smile](https://www.amazon.com/Effective-Python-Specific-Software-Development/dp/0134034287/ref=sr_1_1?ie=UTF8&qid=1499089803&sr=8-1&keywords=Effective+Python%3A+59+Specific+Ways+to+Write+Better+Python+%28Effective+Software+Development+Series%29)
+-ISBN-13: 978-0134034287
+
 ## Soft Skills
 
 *Soft Skills: The software developer's life manual*
