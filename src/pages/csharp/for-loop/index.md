@@ -17,7 +17,7 @@ for (initialization; condition; iterator)
 - initialization - The initialization statement(s) sets the initial condition and run only once before you enter the body of the loop.
 - condition      - Boolean expression which determines whether the body of the loop should execute again or the loop should exit.
 - iterator       - Executes after each iteration of the body of the loop.
-
+Nested for loop is allowed in C#.
 ### Example 1
 ```
 for (int i = 0; i < 5; i++)
