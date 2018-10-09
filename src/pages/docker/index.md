@@ -14,6 +14,8 @@ Docker is used to run packages called "containers". Containers are isolated from
 * RedHat: `yum install docker-ce`
 
 * Windows / macOS: [Download](https://www.docker.com/get-started)
+Check running containers 
+docker ps -a
 
 
 
