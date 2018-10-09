@@ -31,6 +31,9 @@ Unreal has gone through 4 major revisions. Although some code is common between 
 - Bioshock
 - Borderlands
 - Gears of War
+- Dragon Ball Fighterz
+- Fortnite: Save the World
+- Sea of Thieves 
 
 #### More Information:
 
