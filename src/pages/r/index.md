@@ -11,7 +11,7 @@ R is an open source programming language and software environment for statistica
 * [CRAN](https://cran.r-project.org/) is a leading source for R tools and resources. 
 * [Tidyverse](https://www.tidyverse.org/) is an opinionated collection of R packages designed for data science.
 * [data.table](https://github.com/Rdatatable/data.table/wiki) is an implementation of base `data.frame` focused on improved performance and terse, flexible syntax.
-* [Shiny] (https://shiny.rstudio.com/) framework for building dashboard style web apps in R.
+* [Shiny](https://shiny.rstudio.com/) framework for building dashboard style web apps in R.
 
 
 ## Where to learn R for free
@@ -20,4 +20,6 @@ R is an open source programming language and software environment for statistica
  * [Coursera](https://www.coursera.org/learn/r-programming)
  * [DataCamp](https://www.datacamp.com)
  * [R for Data Science](http://r4ds.had.co.nz/)
+ * [Advanced R](https://adv-r.hadley.nz/)
  * [RSeek](http://rseek.org/)
+
