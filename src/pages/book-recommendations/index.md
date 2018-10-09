@@ -99,5 +99,17 @@ title: Books to Read for Programmers
 - [Amazon](https://www.amazon.com/Algorithms-Unlocked-Press-Thomas-Cormen/dp/0262518805)
 - ISBN-13: 978-0262518802
 
+*Violent Python: A Cookbook for Hackers, Forensic Analysts, Penetration Testers and Security Engineers*
+- [Amazon Smile](https://www.amazon.com/Violent-Python-Cookbook-Penetration-Engineers/dp/1597499579/ref=sr_1_2?ie=UTF8&qid=1538665634&sr=8-2&keywords=violent+python)
+- ISBN-13: 978-1597499576
+
+*The Shellcoder's Handbook: Discovering and Exploiting Security Holes*
+- [Amazon Smile](https://www.amazon.com/Shellcoders-Handbook-Discovering-Exploiting-Security/dp/047008023X/ref=sr_1_1?ie=UTF8&qid=1538665772&sr=8-1&keywords=shellcoders+handbook+3rd+edition&dpID=41xfa6zpuPL&preST=_SX218_BO1,204,203,200_QL40_&dpSrc=srch)
+- ISBN-13: 978-0470080238
+
+*Head First C: A Brain-Friendly Guide*
+- [Amazon Smile](https://www.amazon.com/Head-First-C-Brain-Friendly-Guide/dp/1449399916/ref=sr_1_2?ie=UTF8&qid=1538665818&sr=8-2&keywords=head+first+c&dpID=51StqzL2dWL&preST=_SX218_BO1,204,203,200_QL40_&dpSrc=srch)
+- ISBN-13: 978-1449399917
+
 This list was compiled from multiple suggestion threads on Reddit and Stackoverflow. 
 Please feel free to add more that you have found useful!
