@@ -1,7 +1,7 @@
 ---
-title: CSS Classes
+title: Classes CSS
 ---
-## CSS Classes
+## Classes CSS
 
 Classes are an efficient way of grouping HTML elements so that they can share the same styles. CSS (Cascading Style Sheets) classes can be used to arrange and decorate web page elements.
 
