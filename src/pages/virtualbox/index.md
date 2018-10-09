@@ -40,3 +40,8 @@ For more information visit the
   
   Visit the
   [VirtualBox Manual](https://www.virtualbox.org/manual/UserManual.html) for even more information about using and configuring machines.
+
+#### More Information:
+https://www.virtualbox.org/manual/ch01.html
+
+https://medium.com/@JohnFoderaro/how-to-set-up-a-local-linux-environment-with-vagrant-163f0ba4da77

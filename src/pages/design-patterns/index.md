@@ -1,7 +1,7 @@
 ---
-title: Object Oriented Design Patterns
+title: Design Patterns
 ---
-## Object Oriented Design Patterns
+## Design Patterns
 
 This is a stub. <a href='https://github.com/freeCodeCamp/guide/blob/master/src/pages/design-patterns/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
