@@ -43,6 +43,7 @@ If right > l:
 * Time Complexity: O(n*log(n)). The time complexity for the Merge Sort might not be obvious from the first glance. The log(n) factor that comes in is because of the recurrence relation we have mentioned before. 
 * Sorting In Place: No in a typical implementation
 * Stable: Yes
+* Parallelizable :yes (Several parallel variants are discussed in the third edition of Cormen, Leiserson, Rivest, and Stein's Introduction to Algorithms.)
 
 ### Visualization:
 * <a href='https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html'>USFCA</a>
@@ -52,7 +53,69 @@ If right > l:
 ### Relavant videos on freeCodeCamp YouTube channel
 * <a href='https://youtu.be/TzeBrDU-JaY'>Merge Sort algorithm - MyCodeSchool</a>
 
-### More Readings:
+### Other Resources:
 * <a href='https://en.wikipedia.org/wiki/Merge_sort' target='_blank' rel='nofollow'>Wikipedia</a>
 * <a href='www.geeksforgeeks.org/merge-sort' target='_blank' rel='nofollow'>GeeksForGeeks</a>
+* <a href='https://youtu.be/sWtYJv_YXbo' target='_blank' rel='nofollow'>Merge Sort - CS50</a>
 
+### Implementaion in JS
+```js
+const list = [23, 4, 42, 15, 16, 8, 3]
+
+const mergeSort = (list) =>{
+  if(list.length <= 1) return list;
+  const middle = list.length / 2 ;
+  const left = list.slice(0, middle);
+  const right = list.slice(middle, list.length);
+  return merge(mergeSort(left), mergeSort(right));
+}
+
+const merge = (left, right) => {
+  var result = [];
+  while(left.length || right.length) {
+    if(left.length && right.length) {
+      if(left[0] < right[0]) {
+        result.push(left.shift())
+      } else {
+        result.push(right.shift())
+      }
+    } else if(left.length) {
+        result.push(left.shift())
+      } else {
+        result.push(right.shift())
+      }
+    }
+  return result;
+}
+
+console.log(mergeSort(list)) // [ 3, 4, 8, 15, 16, 23, 42 ]
+```
+### Implementation in C++
+ 
+Let us consider array A = {2,5,7,8,9,12,13}
+and array B = {3,5,6,9,15} and we want array C to be in ascending order as well.
+
+```c++
+void mergesort(int A[],int size_a,int B[],int size_b,int C[])
+{
+     int token_a,token_b,token_c;
+     for(token_a=0, token_b=0, token_c=0; token_a<size_a && token_b<size_b; )
+     {
+          if(A[token_a]<=B[token_b])
+               C[token_c++]=A[token_a++];
+          else
+               C[token_c++]=B[token_b++];
+      }
+      
+      if(token_a<size_a)
+      {
+          while(token_a<size_a)
+               C[token_c++]=A[token_a++];
+      }
+      else
+      {
+          while(token_b<size_b)
+               C[token_c++]=B[token_b++];
+      }
+}
+```

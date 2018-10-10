@@ -39,6 +39,7 @@ The complexity therefore of the linear search is: O(n).
 
 The code for a linear search function in JavaScript is shown below. This function returns the position of the item we are looking for in the array. If the item is not present in the array, the function would return null.
 
+### Example in Javascript
 ```javascript
 function linearSearch(arr, item) {
   // Go through all the elements of arr to look for item.
@@ -53,7 +54,79 @@ function linearSearch(arr, item) {
 }
 ```
 
-#### Relevant Video:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+### Example in Ruby
 
+```ruby
+def linear_search(target, array)
+  counter = 0
+
+  while counter < array.length
+    if array[counter] == target
+      return counter
+    else
+      counter += 1
+    end
+  end
+  return nil
+end
+```
+### Example in C++
+
+```c++
+int linear_search(int arr[],int n,int num)
+{
+	for(int i=0;i<n;i++){
+		if(arr[i]==num)
+			return i;
+   }
+   // Item not found in the array
+   return -1; 
+}
+```
+
+### Example in Python
+```python
+def linear_search(array, num):
+	for i in range(len(array)):
+		if (array[i]==num):
+			return i
+	return -1
+```
+
+## Global Linear Search
+
+What if you are searching the multiple occurrences of an element? For example you want to see how many 5’s are in an array.
+
+Target = 5
+
+Array = [ 1, 2, 3, 4, 5, 6, 5, 7, 8, 9, 5]
+
+This array has 3 occurances of 5s and we want to return the indexes (where they are in the array) of all of them. This is called global linear search and you will need to adjust your code to return an array of the index points at which it finds out target element. When you find an index element that matches your target, the index point (counter) will be added in the results array. If it doesn’t match the code will continue to move on to the next element in the array by adding 1 to the counter.
+
+```ruby
+def global_linear_search(target, array)
+  counter = 0
+  results = []
+
+  while counter < array.length
+    if array[counter] == target
+      results << counter
+      counter += 1
+    else
+      counter += 1
+    end
+  end
+
+  if results.empty?
+    return nil
+  else
+    return results
+  end
+end
+```
+
+#### Relevant Video:
+
+#### Other Resources
+<!-- Please add any articles you think might be helpful to read before writing the article -->
 <a href='https://www.youtube.com/watch?v=vZWfKBdSgXI' target='_blank' rel='nofollow'>Linear Search - CS50</a>

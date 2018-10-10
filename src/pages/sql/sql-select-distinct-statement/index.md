@@ -6,7 +6,7 @@ title: SQL Select Distinct Statement
 ### Introduction
 This keyword allows us to get lists of unique values in a column. This guide will demonstrate that.
 
-### Full dispaly of the data in the student table 
+### Full display of the data in the student table 
 ```sql
 USE fcc_sql_guides_database;
 SELECT studentID, FullName, sat_score, programOfStudy, rcd_Created, rcd_Updated FROM student;
