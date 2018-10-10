@@ -194,7 +194,7 @@ Our first argument is going to be our JSX.
 </body>
 ```
 
-The official react docs state “This funny tag syntax is neither a string nor HTML. It is called JSX, and it is a syntax extension to JavaScript. We recommend using it with React to describe what the UI should look like. JSX may remind you of a template language, but it comes with the full power of JavaScript. JSX produces React “elements”.”
+The [official react docs state](https://reactjs.org/docs/introducing-jsx.html): “This funny tag syntax is neither a string nor HTML. It is called JSX, and it is a syntax extension to JavaScript. We recommend using it with React to describe what the UI should look like. JSX may remind you of a template language, but it comes with the full power of JavaScript. JSX produces React “elements”.”
 
 Often times, JSX freaks people out who have been developers for a while because it looks like HTML. At a very early age developers are taught separation of concerns. HTML has its place, CSS has its place and JavaScript has it’s place. JSX seems to blur the lines. You are using what looks like HTML but as Facebook says comes with the full power of JavaScript.
 
