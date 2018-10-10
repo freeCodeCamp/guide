@@ -85,6 +85,13 @@ Note: You can however reset the array like so
 arrayName = new dataType[] {value1, value2, value3};
 ```
 
+## Size of Arrays:
+It's possible to find the number of elements in an array using the "length attribute".
+```java
+int[] a = {4, 5, 6, 7, 8}; // declare array
+System.out.println(a.length); //prints 5
+```
+
 ## Code snippets of above syntax:
 ```java
 list[1] = 3; // now, if you access the array like above, it will output 3 rather than 2
@@ -107,6 +114,7 @@ Output:
     7
     8
 ```
+
 
 ### Multi-dimensional Arrays
 Two-dimensional arrays (2D arrays) can be thought of as a table with rows and columns

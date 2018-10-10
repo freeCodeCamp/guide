@@ -14,7 +14,7 @@ A comunidade freeCodeCamp está construindo um massivo, pesquisável **"Guia"**.
 
 Essa ferramenta de referência incluirá milhares de artigos que abrangem todas as áreas de desenvolvimento, design e ciência de dados - tudo escrito para ser facilmente entendido por pessoas novas no mundo da programação.
 
-Este repositório é onde nós planejamos e mantemos estes artigos do Guia, os quais nós hospedamos no site do nosso guia da comunidade em forma de uma wikepedia. [`guide.freecodecamp.org`] (https://guide.freecodecamp.org).
+Este repositório é onde nós planejamos e mantemos estes artigos do Guia, os quais nós hospedamos no site do nosso guia da comunidade em forma de uma wikepedia. [`guide.freecodecamp.org`](https://guide.freecodecamp.org).
 
 ## O que são artigos do Guia?
 
@@ -54,4 +54,4 @@ Copyright (c) 2018 freeCodeCamp.
 
 O conteúdo deste repositório está vinculado pelas seguintes licenças:
 - O software do computador está licenciado sob [BSD-3-Clause](./ LICENSE.md).
-- O conteúdo de referência em [`/ src / pages`](/src/pages) e sub pastas é licenciado sob o [CC-BY-SA-4.0](./src/pages/LICENSE.md).
+- O conteúdo de referência em [`/src/pages`](/src/pages) e sub pastas é licenciado sob o [CC-BY-SA-4.0](./src/pages/LICENSE.md).
