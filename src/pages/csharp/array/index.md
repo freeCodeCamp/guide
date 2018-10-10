@@ -12,6 +12,8 @@ Arrays start from zero. The first element of an array is 0, the second element i
 
 Arrays must be of the same data type. You can use any data type in an array (e.g. int, double, float, string, enum)
 
+All arrays consist of contiguous memory locations.
+
 A new Array must first be declared and initialised before it can be called and accessed.
 
 # Declaring an Array
