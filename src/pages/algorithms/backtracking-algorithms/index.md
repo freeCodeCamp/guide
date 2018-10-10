@@ -45,7 +45,7 @@ Else
    will remove the previously added item in recursion and if false is 
    returned by the initial call of recursion then "no solution exists" )
 ```
-
+Note that Backtracking is not the best solution for the Knight’s tour problem.
 
 ### More Information
 
