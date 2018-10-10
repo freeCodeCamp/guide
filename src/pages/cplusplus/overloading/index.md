@@ -13,8 +13,9 @@ You can have multiple definitions for the same function name in the same scope. 
 
 Following is the example where same function print() is being used to print different data types âˆ’
 
-```
+```cpp
 #include <iostream>
+#include <string>
 using namespace std;
  
 class printData {
@@ -25,12 +26,12 @@ class printData {
       void print(double  f) {
         cout << "Printing float: " << f << endl;
       }
-      void print(char* c) {
-        cout << "Printing character: " << c << endl;
+      void print(const string& s) {
+        cout << "Printing string: " << s << endl;
       }
 };
 
-int main(void) {
+int main() {
    printData pd;
  
    // Call print to print integer
@@ -39,7 +40,7 @@ int main(void) {
    // Call print to print float
    pd.print(500.263);
    
-   // Call print to print character
+   // Call print to print string
    pd.print("Hello C++");
  
    return 0;
@@ -51,5 +52,5 @@ When the above code is compiled and executed, it produces the following result â
 ```
 Printing int: 5
 Printing float: 500.263
-Printing character: Hello C++
+Printing string: Hello C++
 ```
