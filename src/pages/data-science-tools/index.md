@@ -9,4 +9,4 @@ Data scientists are inquisitive and often seek out new tools that help them find
 
 R remains the leading tool, with 49% share, but Python grows faster and almost catches up to R. RapidMiner remains the most popular general Data Science platform. Big Data tools used by almost 40%, and Deep Learning usage doubles.
 Data Science is OSEMN O= Obtain , S= Scrub,M=Model, N= iNterpret the Data.
-There is one good resource for Data Science and Machine Learning by Open Source Data Science Masters.Follow on github  datasciencemasters!!!*[Resouses for Data Science](https://github.com/datasciencemasters/go)
+There is one good resource for Data Science and Machine Learning by Open Source Data Science Masters. Follow on github  datasciencemasters!!!*[Resources for Data Science](https://github.com/datasciencemasters/go)
