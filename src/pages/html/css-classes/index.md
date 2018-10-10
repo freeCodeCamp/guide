@@ -5,7 +5,7 @@ title: CSS Classes
 
 Classes are an efficient way of grouping HTML elements so that they can share the same styles. CSS (Cascading Style Sheets) classes can be used to arrange and decorate web page elements.
 
-When writing HTML, you can add classes to an element. Just add the attribute `class="myclass"` to the element. Multiple elements can have the same class, and one element can have multiple classes. You can assign multiple classes to an element by adding all the desired class names separated by a space to the `class` attribute in HTML.
+When writing HTML, you can add classes to an element. Just add the attribute `class="myclass"` to the element. Multiple elements can have the same class, and one element can have multiple classes. You can assign multiple classes to an element by adding all the desired class names separated by a space to the `class` attribute in HTML. CSS classes are supported on most browsers and search engines.
 
 ```html
 <h1 class="super-man other-class third-class">"Here I come to save the day!"</h1>
