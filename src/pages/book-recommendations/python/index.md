@@ -11,5 +11,6 @@ title: Books on Python Programming Language
 - ISBN-13: 978-1491939369
 - [Website](http://greenteapress.com/wp/think-python-2e/)
 - [E-book](http://greenteapress.com/thinkpython2/html/index.html)(free)
+- [List of Free E-books](https://codeburst.io/15-free-ebooks-to-learn-python-c299943f9f2c)
  
  Please feel free to add more that you have found useful!
