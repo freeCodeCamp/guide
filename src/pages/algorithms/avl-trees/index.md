@@ -3,6 +3,7 @@ title: AVL Trees
 ---
 ## AVL Trees
 
+
 An AVL tree is a subtype of binary search tree.
 
 A BST is a data structure composed of nodes. It has the following guarantees:
@@ -20,11 +21,11 @@ AVL trees have a worst case lookup, insert and delete time of O(log n).
 
 ### Right Rotation
 
-![AVL Tree Right Rotation](https://github.com/HebleV/valet_parking/blob/master/images/avl_right_rotation.jpg)
+![AVL Tree Right Rotation](https://raw.githubusercontent.com/HebleV/valet_parking/master/images/avl_right_rotation.jpg)
 
 ### Left Rotation
 
-![AVL Tree Left Rotation](https://github.com/HebleV/valet_parking/blob/master/images/avl_left_rotation.jpg)
+![AVL Tree Left Rotation](https://raw.githubusercontent.com/HebleV/valet_parking/master/images/avl_left_rotation.jpg)
 
 ### AVL Insertion Process
 

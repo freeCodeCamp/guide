@@ -299,6 +299,12 @@ print a is b # prints True
 print a is not b # prints False
 print a is not c # prints True
 
+x = 1
+y = x
+z = y
+print z is 1 # prints True
+print z is x # prints True
+
 str1 = "FreeCodeCamp"
 str2 = "FreeCodeCamp"
 
