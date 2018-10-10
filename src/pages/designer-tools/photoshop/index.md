@@ -206,6 +206,7 @@ If you need another format, select `File` > `Export` > `Export as...`. There, yo
 1. While you can design logos in Photoshop, most designers chose to use Illustrator for logos, as Illustrator creates vector images that can make it easier to resize logos for multiple uses, such as small logos for business cards, or large logos for banner signs.
 2. You can create your own brushes in Photoshop, using Brush Preset option. You can also import brushes. This allows you to not limit yourself to given default brushes. 
 3. It is easier and better to use Photoshop in case you are making artworks using graphic tablets, since you have multiple options for brushes, something which isn't there in Illustrator.
+4. Photoshop Action is a series of tasks that you play back on a single file or a batch of files—menu commands, panel options, tool actions, and so on. For example, an action can change the size of an image, applies an effect to the image, and then saves the file in the desired format.
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
