@@ -3,6 +3,8 @@ title: Chef
 ---
 ## Chef
 
+Chef's are programmers that use spices and food instead of code. Stoves and ovens instead of complilers. Hungry people instead of end users. 
+
 This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/quadratic-equations/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
 <a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
