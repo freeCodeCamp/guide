@@ -9,7 +9,7 @@ title: Use State to Toggle an Element
 
 - Remember to bind ```this``` to the method constructor.
 
-```JavaScript
+```javascript
     this.toggleVisibility = this.toggleVisibility.bind(this);
 ```
 
@@ -19,7 +19,7 @@ title: Use State to Toggle an Element
 
 ## Solution:
 
-```JSX
+```jsx
 class MyComponent extends React.Component {
   constructor(props) {
     super(props);
