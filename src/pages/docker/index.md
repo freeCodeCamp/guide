@@ -7,7 +7,7 @@ Docker is an open platform to build, ship, and run distributed applications. It 
 
 Docker is used to run packages called "containers". Containers are isolated from each others and from the OS. These are more lightweight than virtual machines as they do not use the host machine to run an operating system.
 
-Containerization, which is a way of deploying and running applications, runs isolated servics which run natively on the Linux kernel. Memory can be set manually for each container in Docker.
+Containerization, which is a way of deploying and running applications, runs isolated services which run natively on the Linux kernel. Memory can be set manually for each container in Docker.
 
 Docker is used to simplify configurations, and ensure a smooth continuous integration and deployment flow. Specific containers can be specified for development, staging, and production environments. A true implementation of a container in production, according to the Docker manual, is to run it as a service, using the  `docker-compose.yml` file for setup. This is a YAML file that defines how Docker containers should behave in production.
 
