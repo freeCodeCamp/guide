@@ -110,6 +110,9 @@ Make a new program with `file` -> `new` -> `file`, select C/C++ source, select C
 <a href='https://sourceforge.net/projects/orwelldevcpp/' target='_blank' rel='nofollow'>Dev-C++ can be downloaded from here.</a>
 Make a new program with `file` -> `new` -> `Source File`, then copy over the helloworld.c text that you read through earlier and then save the file with`file` -> `save As`  as hello.c , and Compile and run the code with `Execute` -> `Compile & Run`.
 
+#### Microsoft Visual Studio for C
+Visual studio can also be used to code in C. It is a very nice IDE provided by Microsoft.
+
 # Before you go on...
 
 ## A review
