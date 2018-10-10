@@ -19,7 +19,7 @@ Comparitively, in computer science and software development we can use big-O not
 **Space Complexity** of an algorithm refers to its memory footprint with respect to the input size.
 
 Specifically when using big-O notation we are describing the efficiency of the algorithm with respect to an input: _n_, usually as _n_ approaches infinity.  
-When examining algorithms, we generally want a lower time and space complexity.  
+When examining algorithms, we generally want a lower time and space complexity. Time complexity of o(1) is indicative of constant time.
 Through the comparison and analysis of algorithms we are able to create more efficient applications.
 
 ## Examples
