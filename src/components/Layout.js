@@ -6,16 +6,12 @@ import Col from 'react-bootstrap/lib/Col';
 import Grid from 'react-bootstrap/lib/Grid';
 import Image from 'react-bootstrap/lib/Image';
 import Row from 'react-bootstrap/lib/Row';
-
 import { NavigationContext } from '../contexts/NavigationContext';
 import SideNav from './LayoutComponents/nav/SideNav';
-
 import logo from '../../assets/freeCodeCamp-logo.png';
 import glyph from '../../assets/freeCodeCamp-logo-glyph.png';
-
 import 'prismjs/themes/prism.css';
 import '../css/main.css';
-
 const propTypes = {
   children: PropTypes.any,
   data: PropTypes.shape({
@@ -34,7 +30,6 @@ const propTypes = {
   }),
   location: PropTypes.object
 };
-
 const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`
@@ -137,5 +132,4 @@ const Layout = ({ children }) => (
 
 Layout.displayName = 'Layout';
 Layout.propTypes = propTypes;
-
 export default Layout;
