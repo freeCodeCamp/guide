@@ -3,7 +3,7 @@ title: SQL Insert Query
 ---
 ## SQL Insert Query
 
-Insert queries are a way to insert data into a table. Let's say we have created a table using
+Insert queries are a way to insert data into a table.Insert command is a Data Manipulation Language(DML)command. Let's say we have created a table using
 
 `CREATE TABLE example_table ( name varchar(255), age int)`
 
