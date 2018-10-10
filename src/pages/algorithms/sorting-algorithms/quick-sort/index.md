@@ -74,6 +74,10 @@ console.log(arr)
 ```
 The space complexity of quick sort is O(n). This is an improvement over other divide and conquer sorting algorithms, which take O(nlong(n)) space. Quick sort achieves this by changing the order of elements within the given array. Compare this with the <a href='https://guide.freecodecamp.org/algorithms/sorting-algorithms/merge-sort' target='_blank' rel='nofollow'>merge sort</a> algorithm which creates 2 arrays, each length n/2, in each function call.
 
+Note:
+Randomized Quick Sort is an extension of Quick Sort in which pivot element is chosen randomly.
+Its worst case time complexity is can be written as O(nlogn).
+
 #### More Information:
 
 - <a href='https://en.wikipedia.org/wiki/Quicksort' target='_blank' rel='nofollow'>Wikipedia</a>
