@@ -37,6 +37,7 @@ touch | Create a new file
 cp| Copy a file 
 rm | Remove a file 
 rm -rf | Remove a directory 
+man | Get the manual for each command
 
 ### Usage Examples
 
