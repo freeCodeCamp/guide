@@ -7,7 +7,7 @@
 
 [![GitHub Issues](https://img.shields.io/github/issues/freeCodeCamp/guide.svg?style=flat-square)](https://github.com/freeCodeCamp/guide/issues) [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/freeCodeCamp/guide.svg?style=flat-square)](https://github.com/freeCodeCamp/guide/pulls) [![Pull Requests Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![first-timers-only Friendly](https://img.shields.io/badge/first--timers--only-friendly-blue.svg?style=flat-square)](http://www.firsttimersonly.com/)
-
+//commend end
 [![Throughput Graph](https://graphs.waffle.io/freeCodeCamp/guide/throughput.svg)](https://waffle.io/freeCodeCamp/guide/metrics)
 
 The freeCodeCamp community is building a massive, searchable **"Guide"**.
