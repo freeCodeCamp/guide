@@ -3,13 +3,18 @@ title: Math Floor
 ---
 ## Math Floor
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/standard-objects/math/math-floor/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+`Math.floor()` is a method of the Math standard object that rounds a given number downwards to the next integer. Take note that for negative numbers this means that the number will get rounded "away from 0" instead of to the number of smaller absolute value since `Math.floor()` returns the largest integer less than or equal to the given number.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Examples
+```javascript
+Math.floor(0.9)  //  0
+Math.floor(1.3)  //  1
+Math.floor(0.5)  //  0
+Math.floor(-0.9) // -1
+Math.floor(-1.3) // -2
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+### More Information:
+* [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor)
+* [w3schools](https://www.w3schools.com/jsref/jsref_floor.asp)
+* [Wikipedia](https://en.wikipedia.org/wiki/Floor_and_ceiling_functions)
