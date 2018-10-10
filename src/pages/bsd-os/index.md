@@ -18,6 +18,10 @@ The effective BSD multi-tasking forced-interrupt part of timesharing gets in the
 
 BSD includes a 'Jails' system which is somewhat analogous to Linux Containers --except with additional security and flexibility in implementation.
 
+Several operating systems are based on BSD, including FreeBSD, OpenBSD, NetBSD, and DragonFly BSD. Both NetBSD and FreeBSD were created in 1993. They were initially derived from 386BSD (also known as "Jolix"), and merged the 4.4BSD-Lite source code in 1994. OpenBSD was forked from NetBSD in 1995, and DragonFly BSD was forked from FreeBSD in 2003.
+
+BSD was also used as the basis for several proprietary versions of Unix, such as Sun's SunOS, Sequent's Dynix, NeXT's NeXTSTEP, DEC's Ultrix and OSF/1 AXP (now Tru64 UNIX). NeXTSTEP later became the foundation for Apple Inc.'s macOS.
+
 ### More Information:
 
 [FreeBSD (Wikipedia.org)](https://en.wikipedia.org/wiki/FreeBSD)
