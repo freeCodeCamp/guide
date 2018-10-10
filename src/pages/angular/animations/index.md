@@ -139,7 +139,7 @@ export class ExampleComponent {
 }
 ```
 
-The above example performs a very simple color swap with each button click. Of course, the color transitions quickly in a linear fade as per `animate('1000ms linear')`. The animation binds to the button by matching the first argument of `tigger(...)` to the `[@toggleClick]` animation binding.
+The above example performs a very simple color swap with each button click. Of course, the color transitions quickly in a linear fade as per `animate('1000ms linear')`. The animation binds to the button by matching the first argument of `trigger(...)` to the `[@toggleClick]` animation binding.
 
 The binding binds to the value of `isGreen` from the component class. This value determines the resulting color as set by the two `style(...)` methods inside the `trigger(...)` block. The animation binding is one-way so that changes to `isGreen` in the component class notify the template binding. That is, the animation binding `[@toggleClick]`.
 

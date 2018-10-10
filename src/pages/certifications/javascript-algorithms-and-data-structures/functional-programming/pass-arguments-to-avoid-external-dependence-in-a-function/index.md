@@ -1,10 +1,23 @@
 ---
 title: Pass Arguments to Avoid External Dependence in a Function
 ---
+
 ## Pass Arguments to Avoid External Dependence in a Function
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/functional-programming/pass-arguments-to-avoid-external-dependence-in-a-function/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 1
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Try to pass argument to function and return increased value of this argument. 
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+
+**Solution ahead!**
+
+## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
+
+```javascript
+var fixedValue = 4;
+function incrementer (value) {
+  return value + 1;
+}
+var newValue = incrementer(fixedValue); 
+console.log(fixedValue);
+```
