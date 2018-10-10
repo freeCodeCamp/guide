@@ -7,7 +7,7 @@ title: Cryptocurrency
 >
 > – Satoshi Nakamoto, 09 January 2009, announcing Bitcoin on SourceForge.
 
-Cryptocurrency is a subset of digital currency, which acts as a medium of exchange amongst two parties. It is known as crypto-currency because of the utilization of cryptography in securing its transactions. There are various cryptocurrencies including LiteCoin, Dash, Ethereum, Ripple, and the currently most popular one Bitcoin. It is the perfect way to make trustless transactions since it does not involve any third party. 
+Cryptocurrency is a subset of digital currency, which acts as a medium of exchange amongst two parties. It is known as crypto-currency because of the utilization of cryptography in securing its transactions. There are various cryptocurrencies including LiteCoin, Dash, Ethereum, Ripple, and the currently most popular one Bitcoin. Bitcoin iteself houses many forks, such as Bitcoin Cash and Bitcoin Gold. It is the perfect way to make trustless transactions since it does not involve any third party. But be careful of constantly changing exchange rates. 
 
 Unlike normal currency, cryptocurrency can be exchanged as fractions. For example, transactions can amount to 0.00007 Btc or even lower.
 
