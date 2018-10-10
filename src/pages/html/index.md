@@ -57,6 +57,9 @@ Since the early days of the web, there have been many versions of HTML
 |HTML 4.01|1999|
 |XHTML|2000|
 |HTML5|2014|
+|HTML5.1|2016|
+|HTML5.2|2017|
+
 
 #### Other Resources
 
