@@ -27,7 +27,7 @@ A container image is a lightweight, stand-alone, executable package of a piece o
 ### Containers Vs. Virtual Machines
 
 * Containers virtualise the Operating System making them more portable, whereas VMs virtualise the hardware. 
-* Containers are an abstraction at the application layer that packages code and dependencies togheter. VMs are an abstraction of physical hardware turning one server into many. Hypervisor helps VM to do so.
+* Containers are an abstraction at the application layer that packages code and dependencies together. VMs are an abstraction of physical hardware turning one server into many. Hypervisor helps VM to do so.
 * [CONTAINERS ARE NOT VMS](https://blog.docker.com/2016/03/containers-are-not-vms/)
 
 
