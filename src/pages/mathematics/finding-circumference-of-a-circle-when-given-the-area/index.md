@@ -3,23 +3,23 @@ title: Finding Circumference of a Circle When Given the Area
 ---
 ## Background information
 
-### Area of a Circle
+### Area (A) of a Circle
 
-A = pi * radius ^2
+A = π * radius<sup>2</sup>
 
-### Circumference of a Circle
+### Circumference (C) of a Circle
 
-C = 2 * pi * radius
+C = 2 * π * radius
 
 ## To find the Circumference of a Circle given the area
 
 1. Solve for the radius of the circle
 
-radius = (A/pi)^(1/2)
+    radius = (A / π)<sup>½</sup>
 
 2. Input the radius into the formula for the circumference and solve. 
 
-C = 2 * pi * (A/pi)^(1/2)
+    C = 2 * π * (A / π)<sup>½</sup>
 
 #### More Information:
 
