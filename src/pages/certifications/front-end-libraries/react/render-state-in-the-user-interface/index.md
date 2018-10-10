@@ -3,8 +3,46 @@ title: Render State in the User Interface
 ---
 ## Render State in the User Interface
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/front-end-libraries/react/render-state-in-the-user-interface/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+#### Hint 1 :
+```JSX
+class MyComponent extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      name: 'freeCodeCamp'
+    }
+  }
+  render() {
+    return (
+      <div>
+        { /* change code below this line */ }
+          // Remember to previous challenge and define an h1 tag.
+          // Inside the tag, access to the "name" property of the constructor`s state.
+          // Dont forget to use "{ }" .
+        { /* change code above this line */ }
+      </div>
+    );
+  }
+};
+```
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+## Solution 
+```JSX
+class MyComponent extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      name: 'freeCodeCamp'
+    }
+  }
+  render() {
+    return (
+      <div>
+        { /* change code below this line */ }
+          <h1>{this.state.name}</h1>
+        { /* change code above this line */ }
+      </div>
+    );
+  }
+};
+```
