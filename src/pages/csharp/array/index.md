@@ -10,7 +10,7 @@ An array is used to store a collection of data of the same type. This can be use
 
 Arrays start from zero. The first element of an array is 0, the second element is 1, the third element 2, and so on.
 
-Arrays must be of the same data type. You can use any data type in an array (e.g. int, double, float, string, enum)
+Arrays must be of the same data type. You can use any data type in an array (e.g. int, double, float, string, enum).
 
 A new Array must first be declared and initialised before it can be called and accessed.
 
