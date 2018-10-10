@@ -169,6 +169,8 @@ const stopWords = [
   'the',
   'to',
   'with'
+  'try'
+  'check'
 ];
 
 module.exports = {
