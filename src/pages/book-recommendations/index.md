@@ -115,4 +115,4 @@ title: Books to Read for Programmers
 - ISBN-13: 978-0321721334
 
 This list was compiled from multiple suggestion threads on Reddit and Stackoverflow. 
-Please feel free to add more that you have found useful!
+Please feel free to add more that you have found useful! Make sure to convert you links to Amazon Smile so that part of your purchase can be donated to a charity of your choice! 
