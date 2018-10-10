@@ -144,4 +144,3 @@ See the Pen [CSS Grid by example - 2 (grid areas + grid gap)](https://codepen.io
 - [YouTube: Morten Rand-Hendriksen: CSS Grid Changes Everything (About Web Layouts)](https://www.youtube.com/watch?v=txZq7Laz7_4) This presentation will convice you in less than an hour why CSS Grids are cool and why/how you should use them
 - [Videos: Learn Grid Layout Video Series by Rachel Andrew](https://gridbyexample.com/video/) Rachel Andrew is considered an expert on the subject. The video titles may look alien and overwhelming, but the content is short and to the point
 - [Book: Get Ready for CSS Grid Layout by Rachel Andrew](https://abookapart.com/products/get-ready-for-css-grid-layout)
-

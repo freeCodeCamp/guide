@@ -3,13 +3,15 @@ title: Adding and Subtracting Vectors
 ---
 ## Adding and Subtracting Vectors
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/adding-and-subtracting-vectors/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+In linear algebra, the sum A+B of two vectors (A and B) is equivalent to the sum of the corresponding components of A and B. For instance, if Vector A is `{1, 3, 4}` and Vector B is `{2, 5, 9}`, the sum A+B is `{1+2, 3+5, 4+9} = {3, 8, 13}`.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+![A visualization of vector addition.](http://mathworld.wolfram.com/images/eps-gif/ParallelogramLaw_1000.gif)<sup>1</sup>
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Similarly, the difference A-B between two vectors (again, A and B) is equal to the difference between the corresponding components of A and B. The difference A-B with the above vectors is `{1-2, 3-5, 4-9} = {-1, -2, -5}`.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+[Vector Addition on Wolfram Mathworld](http://mathworld.wolfram.com/VectorAddition.html)
+[Vector Addition and Subtraction on Wikipedia](https://en.wikipedia.org/wiki/Euclidean_vector#Addition_and_subtraction)
 
-
+### Sources:
+1. [Vector Addition on Wolfram Mathworld](http://mathworld.wolfram.com/VectorAddition.html)
