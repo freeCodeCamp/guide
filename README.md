@@ -18,7 +18,7 @@ This repo is where we plan and maintain these Guide articles, which we then host
 
 ## What are Guide articles?
 
-The Guide articles aim to be short articles to get you started and familiar with these concepts before going on to read more in-depth material.
+The Guide articles aim to be short articles to get you started and familiar with these concepts before going on to read more in-depth knowledge of the the topic that will be needed.
 
 Guide articles can be an explanation of a syntax, design pattern, what aria labels are for, or something like what the numbers mean in the top right-hand corner of your screen when at [freecodecamp.org](https://freecodecamp.org).
 
