@@ -2,12 +2,6 @@
 title: Parallel Computing
 ---
 ## Parallel Computing
-
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/computer-science/databases/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
+Parallel computing is the type of computing architecture in which several processors execute or process an application or computation simultaneously. The motivation behind the parallel computation is reduce the workload and increase the computational power along with the performance.
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
