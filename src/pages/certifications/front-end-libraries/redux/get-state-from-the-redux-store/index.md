@@ -3,8 +3,21 @@ title: Get State from the Redux Store
 ---
 ## Get State from the Redux Store
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/front-end-libraries/redux/get-state-from-the-redux-store/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+There are two parts to this challenge.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+1. Declare a `currentState` variable.
+2. Assign it to `store.getState()` method.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### Step 1. Declare a variable.
+
+```javascript
+const yourVariableName;
+```
+
+### Step 2. Assign your variable to a method.
+
+```javascript
+const yourVariableName = yourMethodName();
+```
+
+Good luck!
