@@ -129,7 +129,19 @@ must be used in a certain order. The order is:
 * attachment
 * position
 
+### Some Basic Background Properties of CSS
+The CSS background properties are used to define the background effects for elements.
+
+CSS background properties:
+background-color
+background-image
+background-repeat
+background-attachment
+background-position
+
+You can refer to the following link to W3 schools to know more about background and related stuffs in CSS.
+<a href = "https://www.w3schools.com/css/css_background.asp">Background reference to W3</a>
+
 ### Other Resources
 * <a href='http://cloford.com/resources/colours/500col.htm' target='_blank' rel='nofollow'>List of color values</a>
 * <a href='http://colrd.com/create/palette/' target='_blank' rel='nofollow'>Color Picker Tool</a>
-
