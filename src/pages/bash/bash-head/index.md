@@ -42,5 +42,5 @@ head -q -n 5 file1.txt file2.txt
 Print in terminal the first 5 lines of file1.txt, followed by the first 5 lines of file2.txt
 
 
-#### More Information:
-* Wikipedia: https://en.wikipedia.org/wiki/Head_(Unix)
+### More Information:
+* [Wikipedia](https://en.wikipedia.org/wiki/Head_(Unix))
