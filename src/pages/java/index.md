@@ -8,7 +8,11 @@ title: Java
 
 ## Version
 
-The latest version is <a href='http://www.oracle.com/technetwork/java/javase/overview' target='_blank' rel='nofollow'> Java 9</a>, which was released in 2017 with <a href='https://docs.oracle.com/javase/9/whatsnew/toc.htm#JSNEW-GUID-C23AFD78-C777-460B-8ACE-58BE5EA681F6' target='_blank' rel='nofollow'>various improvements</a> over the previous version, Java 8. But for all intents and purposes, we will use Java 8 in this wiki for all tutorials.
+The latest version is <a href='https://docs.oracle.com/en/java/javase/11/' target='_blank' rel='nofollow'> Java 11</a>, which was released in September, 2018 with <a href='https://www.oracle.com/technetwork/java/javase/11-relnote-issues-5012449.html#NewFeature' target='_blank' rel='nofollow'>various improvements</a> over the previous version, Java 10. It is the first Long Term Support feature release for the Java SE platform.
+
+For further updates and insights on Java SE and OpenJDK, click on <a href='https://blogs.oracle.com/java-platform-group/oracle-jdk-releases-for-java-11-and-later' target='_blank' rel='nofollow'> this.</a>
+
+But for all intents and purposes, we will use Java 8 in this wiki for all tutorials.
 
 Java is also divided into several "Editions" :
 
@@ -18,7 +22,9 @@ Java is also divided into several "Editions" :
 
 ## Installation : JDK or JRE ?
 
-Download the latest Java binaries from the <a href='http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html' target='_blank' rel='nofollow'>official website</a>. Here you may face a question, which one to download, JDK or JRE? JRE stands for Java Runtime Environment, which is the platform dependent Java Virtual Machine to run Java codes, and JDK stands for Java Development Kit, which consists of most of the development tools, most importantly the compiler `javac`, and also the JRE. So, for an average user JRE would be sufficient, but since we would be developing with Java, we would download the JDK.
+Download the latest Java binaries from the <a href='https://www.oracle.com/technetwork/java/javase/downloads/index.html' target='_blank' rel='nofollow'>official website</a>. Here you may face a question, which one to download, JDK or JRE? JRE stands for Java Runtime Environment, which is the platform dependent Java Virtual Machine to run Java codes, and JDK stands for Java Development Kit, which consists of most of the development tools, most importantly the compiler `javac`, and also the JRE. So, for an average user JRE would be sufficient, but since we would be developing with Java, we would download the JDK.
+
+(Since Java 8 is used in the tutorials, the following instructions focus on the installation process of Java 8 specifically but the other versions can also be installed in a similar manner.)
 
 ## Platform specific installation instructions
 
