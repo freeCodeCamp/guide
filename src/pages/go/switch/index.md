@@ -1,5 +1,5 @@
 ---
-title: Go
+title: Switch in Go
 ---
 
 # Switch in Go
