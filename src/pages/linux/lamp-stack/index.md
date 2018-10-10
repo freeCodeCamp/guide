@@ -22,3 +22,7 @@ The relational database management system (RDBMS) layer of the LAMP stack is MyS
 
 The server programming language or middleware layer of the LAMP stack is usually PHP, though it has frequently been substituted with (or used alongside) Python, Perl, or other languages. 
 
+#Instalation 
+
+In debian and its derivatives one can easily setup a lampstack by issuing the command
+Sudo apt install lamp-server^
