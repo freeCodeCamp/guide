@@ -95,7 +95,7 @@ This will result in - `String Length is : 17`
 3. When the String literal is found by JVM, it is added to string literal pool.
 4. String class posses a method name `length()`, while arrays have an attribute naming length.
 5. Strings are immutable and can not be changed.
-
+6. equalsIgnoreCase() determines the equality of two Strings, ignoring thier case.
 
 
 String Length
