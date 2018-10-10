@@ -9,7 +9,7 @@ Check to see if the value of ```nextProps``` is even.
 
 ## Solution:
 
-```JSX
+```jsx
 class OnlyEvens extends React.Component {
   constructor(props) {
     super(props);
