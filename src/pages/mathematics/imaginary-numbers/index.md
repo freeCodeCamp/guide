@@ -8,4 +8,4 @@ An Imaginary Number "i" is defined simply as the square root of -1. In other wor
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+imagenary numbers are not real. They are represented with the number i. i is equivlant to the square root of negative one. You can use i to corectly solve otherwise impossible quadratic equations.
