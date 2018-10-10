@@ -38,7 +38,7 @@ Before creating a PR, please make sure to verify the following by marking the ch
 6. All articles must have the following as the first three lines in the file:
 
 ---
-title: Article title goes here
+title: Change the Title to fit
 ---
 
 -->
