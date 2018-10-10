@@ -3,9 +3,11 @@ title: Area Between a Curve and the X Axis
 ---
 ## Area Between a Curve and the X Axis
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/area-between-a-curve-and-the-x-axis/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+![img](https://upload.wikimedia.org/wikipedia/commons/f/f2/Integral_as_region_under_curve.svg)
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+For a curve f(x), the area between the curve and X-axis will be definite integral from a to b, and is given by,
+
+![img](https://latex.codecogs.com/gif.latex?%5Clarge%20S%20%3D%20%5Cint_%7Ba%7D%5E%7Bb%7D%20f%28x%29%20dx)
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 

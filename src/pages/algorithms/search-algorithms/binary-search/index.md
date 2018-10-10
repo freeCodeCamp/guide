@@ -41,7 +41,7 @@ x * 1       = log2 N
 
 This means you can divide log N times until you have everything divided. Which means you have to divide log N ("do the binary search step") until you found your element.
 
-/b><i>O</i>(<i>log<sub>2</sub>N</i>)<b> is such so because at every step half of the elements in the data set are gone which is justified by the base of the logarithmic function.
+***O(log<sub>2</sub>N)*** is such so because at every step half of the elements in the data set are gone which is justified by the base of the logarithmic function.
 
 This is the binary search algorithm. It is elegant and efficient but for it to work correctly, the array must be **sorted**.
 
@@ -153,6 +153,42 @@ function binary_search(a, v) {
         }
     }
     return search(0, array_length(a) - 1);
+}
+```
+
+### Example in C++
+
+```c++
+// Binary Search using iteration
+int binary_search(int arr[], int beg, int end, int num)
+{
+	while(beg <= end){
+		int mid = (beg + end) / 2;
+		if(arr[mid] == num)
+			return mid;
+		else if(arr[mid] < num)
+			beg = mid + 1;
+		else
+			end = mid - 1;
+	}
+	return -1;
+}
+```
+
+```c++
+// Binary Search using recursion
+int binary_search(int arr[], int beg, int end, int num)
+{
+	if(beg <= end){
+	    int mid = (beg + end) / 2;
+		if(arr[mid] == num)
+			return mid;
+		else if(arr[mid] < num)
+			return binary_search(arr, mid + 1, end, num);
+		else
+			return binary_search(arr, beg, mid - 1, num);
+	}
+	return -1;
 }
 ```
 
