@@ -9,6 +9,8 @@ It is good practice to add comments to your code, especially when working with a
 
 Comments are started with `<!--` and ended with `-->`, and can span multiple lines. They can contain code or text, and won't appear on the front-end of the website when a user visits a page. You can view comments through the Inspector Console, or by viewing Page Source.
 
+The comment tag is also a very useful element to block out code in pre-testing for your product!
+
 ### Example
 ```html
 
@@ -17,7 +19,7 @@ Author: xyz
 Date: xx/xx/xxxx
 Purpose: abc
 -->
-Read more: https://html.com/tags/comment-tag/#ixzz4vtZHu5uR
+Read more about comments in code: https://html.com/tags/comment-tag/#ixzz4vtZHu5uR
 <!DOCTYPE html>
 <html>
 	<body>
