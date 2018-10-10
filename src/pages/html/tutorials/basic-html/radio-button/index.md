@@ -19,4 +19,4 @@ title: Radio Button
 </body>
 </html> 
 ```
-Radio buttons can be used to select a single option out of multiple options. You aren't allowed to choose 2 or more radio buttons in the same selection field.
+Radio buttons can be used to select a single option out of multiple options. You aren't allowed to choose 2 or more radio buttons in the same selection field. Radio buttons are used on websites to define something such as your choosing your gender or "where you live at the moment" as some examples.
