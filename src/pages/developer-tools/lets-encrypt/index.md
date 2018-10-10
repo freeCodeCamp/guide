@@ -3,11 +3,9 @@ title: Let's Encrypt
 ---
 ## Let's Encrypt
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/developer-tools/lets-encrypt/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+#### How to use 
+The easiest way to get started with LetsEncrypt is by using [certbot](link) a popular LetsEncrypt client that will help you with easily deploying and maintaining your ssl certificate. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
