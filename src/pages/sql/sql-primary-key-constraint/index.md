@@ -14,7 +14,7 @@ It's called a "constraint" because it causes the system to restrict the data all
 Primary keys are mostly used to maintain the data integrity of each row.  
 
 It also allows the system and applications to be sure they are reading, updating and joining the data correctly.
-
+A table can have only one Primary Key.
 ### Example with create table
 Here is a create table command that will also create a primary key using two fields.
 ```sql
