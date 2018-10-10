@@ -12,4 +12,13 @@ title: Books on Python Programming Language
 - [Website](http://greenteapress.com/wp/think-python-2e/)
 - [E-book](http://greenteapress.com/thinkpython2/html/index.html)(free)
  
+*Learn Python 3 the Hard Way*
+  - Paid (Free ebook avaiable) book which covers the basics of python. It's designed to get you started with python language and become familiar with its syntax and workings by the time you complete the book. 
+- [Amazon](https://www.amazon.com/Learn-Python-Hard-Way-Introduction/dp/0134692888)
+- ISBN-13: 978-0134692883
+- ISBN-10: 0134692888
+- [Website](https://learnpythonthehardway.org/) (Buy from the creator | Includes video lessons)
+- [E-book](https://learnpythonthehardway.org/python3/) (free)
+
+
  Please feel free to add more that you have found useful!
