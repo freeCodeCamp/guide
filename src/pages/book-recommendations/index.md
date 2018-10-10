@@ -56,15 +56,15 @@ title: Books to Read for Programmers
 - ISBN-13: 978-0596009205
 
 *Programming Pearls (2nd Edition) by Jon Bentley*
-- [Amazon Smile](https://www.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880)
+- [Amazon Smile](https://smile.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880)
 - ISBN-13: 978-0201657883
 
 *The Pragmatic Programmer: From Journeyman to Master*
-- [Amazon Smile](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X)
+- [Amazon Smile](https://smile.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X)
 - ISBN-13: 978-0201616224
 
 *JavaScript: The Good Parts*
-- [Amazon Smile](https://www.amazon.co.uk/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742)
+- [Amazon Smile](https://smile.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742)
 - ISBN-13: 978-0596517748
 
 This list was compiled from multiple suggestion threads on Reddit and Stackoverflow. 
