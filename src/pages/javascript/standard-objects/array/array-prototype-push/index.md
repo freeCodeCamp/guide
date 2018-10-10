@@ -1,35 +1,56 @@
 ---
 title: Array.prototype.push
 ---
-## Array.prototype.push
 
-This is a method on Array's to add elements on the end of the an array.
+The `push()` method is used to add one or more new elements to the end of an array.
+It also returns the new length of the array.
 
-```js
-var myStarkFamily = ['John', 'Sansa', 'Brian'];
+### Syntax
+```javascript
+arr.push([element1[, ...[, elementN]]])
 ```
 
-### Explanation:
-Now I have an array which contains members of Stark family from Game of thrones. But you can see that one of the member is missing.
-That is **Arya** and I want to add it.
-At this moment I know the length of an Array which is 3.
-So I can add it as follows:
+### Parameters
 
-```js
-myStarkFamily[3] = 'Arya';
+* **elementN** The elements to add to the end of the array.
+
+### Return value
+
+The new length of the array on which the method was called.
+
+## Description
+
+The `push()` method will _push_ elements to the end of an array. It can take zero or more arguments. If no arguments are provided,
+it will simply return the current length of the array. If provided one or more arguments, it will add these arguments to the array
+in the order in which they are written.
+
+This method also returns the new length of the array after the element(s) are pushed to it.
+
+## Example:
+
+```javascript
+var myStarkFamily = ['John', 'Robb', 'Sansa', 'Bran'];
 ```
 
-Yes you can add it this way. But what if you donot know the length of and Array and want to add an element at the end.
-Then you do it as follows:
+Suppose you have an array of the children of House Stark from Game of Thrones. However, one of the members, **Arya**, is missing.
+Knowing the code above, you could add her by assigning `'Arya'` to the array at the index after the last index like so:
 
-```js
-myStackFamily.push('Arya');
+```javascript
+myStarkFamily[4] = 'Arya';
 ```
 
-This returns you the new length of the array i.e. 4 and **Arya** is added to your Stark Family Array.
-Hence when you `console.log(myStarkFamily);` Your output is: `['John', 'Sansa', 'Brian', 'Arya'];`
+The problem with this solution is that it can't handle general cases. If you didn't know beforehand what the length of the array is,
+you can't add new elements this way. This is what `push()` is for. We don't need to know how long the array is. We just add
+our element to the end of the array.
 
-### In which case to use it:
-From above explanation it is clear that, you can use it in following case:
-1) When you want to add an element at the end of an Array.
-2) And you do not know how many elements are there in an array. So you can use push() on the array an pass the value you want to add.
+```javascript
+myStarkFamily.push('Arya');
+console.log(myStarkFamily);  // ['John', 'Robb', 'Sansa', 'Bran', 'Arya']
+
+var newLength = myStarkFamily.push('Rickon');  // oops! forgot Rickon
+console.log(newLength);  // 6
+console.log(myStarkFamily);  // ['John', 'Robb', 'Sansa', 'Bran', 'Arya', 'Rickon']
+```
+
+#### More Information:
+[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)

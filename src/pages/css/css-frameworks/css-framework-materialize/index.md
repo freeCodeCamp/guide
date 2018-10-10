@@ -10,26 +10,29 @@ Materialize is a Responsive CSS framework based on Google's <a href='https://des
 Here is a simple HTML template which includes the latest compiled and minified CSS and Javascript for the Materialize library.
 ```html
     <!DOCTYPE html>
-    <html lang="en">
-      <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Materialize Template</title>
-        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css" media="screen,projection"/>
-      </head>
-      <body>
-        <h1>Hello World</h1>
-        <!-- Add all HTML Code here -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
-      </body>
-    </html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+      <h1>Hello World!</h1>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    </body>
+  </html>
 ```
 We have used a CDN in this example, but you can checkout other ways of installing Materialize <a href='http://materializecss.com/getting-started' target='_blank' rel='nofollow'>here</a>.
 
 ## Learning Resources
 
-*   The official documentation for Materialize is available <a href='https://materializecss.com/' target='_blank' rel='nofollow'>here</a>.
+*   The official documentation for Materialize is available <a href='www.materializecss.com/' target='_blank' rel='nofollow'>here</a>.
 *   Checkout Materialize's open source GitHub repository <a href='https://github.com/Dogfalo/materialize' target='_blank' rel='nofollow'>here</a>.
 *   <a href='https://scotch.io/tutorials/make-material-design-websites-with-the-materialize-css-framework' target='_blank' rel='nofollow'>Here</a> is a handy tutorial on using Materialize.
