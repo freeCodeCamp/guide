@@ -4,7 +4,7 @@ title: Acceptance Testing
 
 ## Acceptance Testing
 
-Acceptance testing, a testing technique performed to determine whether or not the software system has met the requirement specifications. The main purpose of this test is to evaluate the system's compliance with the business requirements and verify if it is has met the required criteria for delivery to end users.
+Acceptance testing, a testing technique performed to determine whether or not the software system has met the required specifications. The main purpose of this test is to evaluate the system's compliance with the business requirements and verify if it is has met the required criteria for delivery to end users.
 
 There are various forms of acceptance testing:
 
@@ -85,7 +85,7 @@ The Acceptance test Report has the following attributes:
 
 ->Approval Decision
 =======
-Acceptance Testing focuses on checking if the developed software meets all the requirements. Its main purpose is to check if the solution developed meets the user expectations.
+Acceptance Testing focuses on checking if the developed software meets all the requirements. Its main purpose is to check if the solution developed meets user expectations.
 
 <a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
 
