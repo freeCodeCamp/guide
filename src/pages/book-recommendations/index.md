@@ -114,5 +114,17 @@ title: Books to Read for Programmers
 - [Amazon Smile](https://smile.amazon.com/Practical-Object-Oriented-Design-Ruby-Addison-Wesley/dp/0321721330)
 - ISBN-13: 978-0321721334
 
+*Thinking in C++ by Bruce Eckel*
+- [Amazon](https://www.amazon.com/Thinking-C-Bruce-Eckel/dp/0139177094)
+- ISBN-13: 978-0139177095
+
+*Operating System Concepts*
+- [Amazon](https://www.amazon.com/Operating-System-Concepts-Abraham-Silberschatz/dp/1118063333/ref=sr_1_1?s=books&ie=UTF8&qid=1538967825&sr=1-1&keywords=operating+system+concepts+10th+edition&dpID=51Qy2upM%252BaL&preST=_SY291_BO1,204,203,200_QL40_&dpSrc=srch)
+- ISBN-13: 978-1118063330
+
+*Computer Networking: A Top-Down Approach (7th Edition) by Kurose and Ross*
+- [Amazon](https://www.amazon.com/Computer-Networking-Top-Down-Approach-7th/dp/0133594149/ref=sr_1_1?s=books&ie=UTF8&qid=1538967896&sr=1-1&keywords=kurose+and+ross&dpID=51xp1%252BoDRML&preST=_SX218_BO1,204,203,200_QL40_&dpSrc=srch)
+- ISBN-13: 978-0133594140 
+
 This list was compiled from multiple suggestion threads on Reddit and Stackoverflow. 
 Please feel free to add more that you have found useful!
