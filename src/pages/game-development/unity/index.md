@@ -43,6 +43,8 @@ In picture above, you will notice five section:
 * Temple Run Trilogy
 * Battlestar Galactica Online
 * Hearthstone: Heroes of Warcraft
+* Inside
+* Cuphead
      
 ## History
 
