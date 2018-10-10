@@ -64,6 +64,30 @@ With your help, we can create a comprehensive reference tool that will help mill
 
 Or just [create an issue](https://github.com/freeCodeCamp/guide/issues) - any little bit of help counts! 😊
 
+##**Steps in Layman terms
+
+1. First, read the **STYLE GUIDE** so you can understand how the articles are structured.
+
+2. Explore the **freeCodeCamp Guide** folders and choose a topic you want to write about.
+
+3. Open that folder’s **index.md** file by double-clicking it.
+
+4. Click the **pen** symbol in the upper right-hand corner to edit it.
+
+5. Make your changes to it. **You don't even need to know HTML**. Just add simple things that you believe should be present.
+
+6. Scroll down and describe **YOUR CHANGES** in the commit message.
+
+7. Make sure the “**Create a new branch for this commit and start a pull request**” radio button is selected.
+
+8. Click “**Commit Changes.”
+
+9. On the next page, click “**Create Pull Request.”
+
+10. And you're all done. **That's it for making your commit count** 😊
+
+
+
 ## Creating a PR
 
 ### Using GitHub.com
