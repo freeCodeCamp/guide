@@ -28,7 +28,7 @@ function NoArticles() {
           }
           rel='noopener noreferrer'
           target='_blank'
-          >
+        >
           write one?
         </a>
       </span>
@@ -93,7 +93,7 @@ class NavPanel extends PureComponent {
         header={this.renderHeader()}
         id={`${dashedName}-panel`}
         role='listitem'
-        >
+      >
         {isExpanded ? this.renderBody() : null}
       </Panel>
     );

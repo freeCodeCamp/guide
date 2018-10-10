@@ -54,7 +54,7 @@ class SideNav extends Component {
         path={parent.path}
         title={title}
         toggleDisplaySideNav={this.props.toggleDisplaySideNav}
-        >
+      >
         {isExpanded ? children : null}
       </NavPanel>
     );
@@ -90,8 +90,8 @@ class SideNav extends Component {
               toggleDisplaySideNav={this.props.toggleDisplaySideNav}
             />
           ) : (
-            panels
-          )}
+              panels
+            )}
         </PanelGroup>
       </nav>
     );

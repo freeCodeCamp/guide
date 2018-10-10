@@ -64,71 +64,71 @@ const Layout = ({ children }) => (
             expandedState,
             toggleExpandedState
           }) => (
-            <Fragment>
-              <nav className='navbar navBar navbar-fixed-top'>
-                <div className='navContainer'>
-                  <div className='logoContainer'>
-                    <a
-                      className='skip-link sr-only sr-only-focusable'
-                      href='#main'
+              <Fragment>
+                <nav className='navbar navBar navbar-fixed-top'>
+                  <div className='navContainer'>
+                    <div className='logoContainer'>
+                      <a
+                        className='skip-link sr-only sr-only-focusable'
+                        href='#main'
                       >
-                      Skip to main content
+                        Skip to main content
                     </a>
-                    <a className='link' href='https://www.freecodecamp.org'>
-                      <Image
-                        alt='freeCodeCamp logo'
-                        className='logo'
-                        responsive={true}
-                        src={logo}
-                      />
-                      <Image
-                        alt='freeCodeCamp logo'
-                        className='logo-glyph'
-                        src={glyph}
-                      />
-                    </a>
+                      <a className='link' href='https://www.freecodecamp.org'>
+                        <Image
+                          alt='freeCodeCamp logo'
+                          className='logo'
+                          responsive={true}
+                          src={logo}
+                        />
+                        <Image
+                          alt='freeCodeCamp logo'
+                          className='logo-glyph'
+                          src={glyph}
+                        />
+                      </a>
+                    </div>
+                    <FCCSearch />
+                    <button
+                      aria-label='toggle navbar'
+                      className='navbar-toggle'
+                      onClick={toggleDisplaySideNav}
+                      type='button'
+                    >
+                      <span className='icon-bar' />
+                      <span className='icon-bar' />
+                      <span className='icon-bar' />
+                    </button>
                   </div>
-                  <FCCSearch />
-                  <button
-                    aria-label='toggle navbar'
-                    className='navbar-toggle'
-                    onClick={toggleDisplaySideNav}
-                    type='button'
+                </nav>
+                <Grid className='bodyContainer'>
+                  <Row>
+                    <Col
+                      md={4}
+                      smHidden={!displaySideNav}
+                      xsHidden={!displaySideNav}
                     >
-                    <span className='icon-bar' />
-                    <span className='icon-bar' />
-                    <span className='icon-bar' />
-                  </button>
-                </div>
-              </nav>
-              <Grid className='bodyContainer'>
-                <Row>
-                  <Col
-                    md={4}
-                    smHidden={!displaySideNav}
-                    xsHidden={!displaySideNav}
+                      <SideNav
+                        expandedState={expandedState}
+                        pages={pages}
+                        toggleDisplaySideNav={toggleDisplaySideNav}
+                        toggleExpandedState={toggleExpandedState}
+                      />
+                    </Col>
+                    <Col
+                      className='content'
+                      md={8}
+                      smHidden={displaySideNav}
+                      xsHidden={displaySideNav}
                     >
-                    <SideNav
-                      expandedState={expandedState}
-                      pages={pages}
-                      toggleDisplaySideNav={toggleDisplaySideNav}
-                      toggleExpandedState={toggleExpandedState}
-                    />
-                  </Col>
-                  <Col
-                    className='content'
-                    md={8}
-                    smHidden={displaySideNav}
-                    xsHidden={displaySideNav}
-                    >
-                    <main className='main' id='main' tabIndex='-1'>
-                      {children}
-                    </main>
-                  </Col>
-                </Row>
-              </Grid>
-            </Fragment>
-          )}
+                      <main className='main' id='main' tabIndex='-1'>
+                        {children}
+                      </main>
+                    </Col>
+                  </Row>
+                </Grid>
+              </Fragment>
+            )}
         </NavigationContext>
       );
     }}
