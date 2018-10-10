@@ -51,6 +51,16 @@ The grid system is a mobile-first flexbox system for quickly building layouts of
 
 Bootstrap comes with predefined grid classes for your use in markup. See more details and examples at https://getbootstrap.com/docs/4.1/layout/grid/
 
+### Boostrap Features
+
+- Bootstrap 3 supports the latest versions of the Google Chrome, Firefox, Internet Explorer, Opera, and Safari (except on Windows). It additionally supports back to IE8 and the latest Firefox Extended Support Release (ESR).[12]
+
+- Since 2.0, Bootstrap supports responsive web design. This means the layout of web pages adjusts dynamically, taking into account the characteristics of the device used (desktop, tablet, mobile phone).
+
+- Starting with version 3.0, Bootstrap adopted a mobile-first design philosophy, emphasizing responsive design by default.
+
+- Version 4.0 added Sass and flexbox support
+
 #### More Information:
 
 Bootstrap has thorough documentation with many <a href='https://getbootstrap.com/docs/4.0/examples/' target='_blank' rel='nofollow'>examples</a> and an <a href='https://getbootstrap.com/docs/4.0/getting-started/introduction/' target='_blank' rel='nofollow'>HTML template for getting started</a> (this template only has script included; it does not contain a set up of the grid system if that's what you're looking for). 
