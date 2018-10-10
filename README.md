@@ -36,7 +36,7 @@ If you can't find a stub about the topic you'd like to write about, you can open
 
 Feel free to ask us questions [in Gitter](https://gitter.im/freeCodeCamp/Contributors) if you're not sure where to put a new article in the directory structure.
 
-Before you begin writing, make sure to read the [article style guide](https://github.com/freeCodeCamp/guide/blob/master/CONTRIBUTING.md#article-style-guide) outlined in [CONTRIBUTING.md](CONTRIBUTING.md). 
+Before you begin writing, make sure to read the [article style guide](https://github.com/freeCodeCamp/guide/blob/master/CONTRIBUTING.md#article-style-guide) outlined in [CONTRIBUTING.md](CONTRIBUTING.md).//commen end 
 
 ## Contributing
 
