@@ -4,9 +4,9 @@ title: Switch Case
 
 # Switch Case
 
-The switch statement is like a set of `if statements`.
-It's a list of possibilities, with an action for each possibility, and an optional default action, in case nothing else evaluates to true.  As of C# 7, it is now possible to switch on a range (e.g. have a range of cases).  See the case n > 1 below.
-We exit from the switch by `break`.
+The switch statement is like a set of `if/else if statements`.
+It's a list of possibilities, with an action for each possibility, and an optional default action in case nothing else evaluates to true.  As of C# 7, it is now possible to switch on a range (e.g. have a range of cases).  See the case n > 1 below.
+We exit from the switch by using a `break` statement.
 
 ## Example
 ```
@@ -38,7 +38,7 @@ switch(number)
 ```
 
 ## Example in if statements
-The previous switch case example, in `if statements` corresponds to:
+The previous switch case example, in `if/else if statements` corresponds to:
 ```
 int number = 1;
 
