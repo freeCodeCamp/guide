@@ -3,8 +3,26 @@ title: Escape Sequences in Strings
 ---
 ## Escape Sequences in Strings
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-javascript/escape-sequences-in-strings/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Problem explanation:
+_Use escape sequences or words to assign the following three lines of text into the single variable `myStr`._
+```javascript
+FirstLine
+   \SecondLine
+ThirdLine
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+#### Hint 1
+The text is *FirstLine* followed by a **new line**, a **tab spacing**, then *\SecondLine*,another **new line** and finally *ThirdLine*
+
+#### Hint 2
+In order to use the `\` character in a string, another `\` must be used as an escape character
+
+## Spoiler alert!
+
+**Solution ahead!**
+
+```javascript
+
+var myStr ="FirstLine\n\t\\SecondLine\nThirdLine"; // Change this line
+```
