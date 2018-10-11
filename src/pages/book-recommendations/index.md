@@ -72,23 +72,19 @@ title: Books to Read for Programmers
 - [Amazon Smile](https://smile.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/098478280X)
 - ISBN-13: 978-0984782802
 
+*Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition*
+- [Wiley](https://www.wiley.com/en-id/Programming+Interviews+Exposed:+Secrets+to+Landing+Your+Next+Job,+2nd+Edition-p-9780470121672)
+- ISBN: 978-0-470-12167-2
+
 ## Java
 
 *Head First Java* by Kathy Sierra and Bert Bates
 - [Amazon Smile](https://smile.amazon.com/Head-First-Java-Kathy-Sierra/dp/0596009208)
 - ISBN-13: 978-0596009205
 
-*Programming Pearls (2nd Edition)* by Jon Bentley
-- [Amazon Smile](https://www.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880)
-- ISBN-13: 978-0201657883
-
 *Effective Java by Joshua Bloch*
 - [Amazon Smile](https://smile.amazon.com/Effective-Java-3rd-Joshua-Bloch/dp/0134685997)
 - ISBN-13: 978-0134685991
-
-*Programming Pearls (2nd Edition) by Jon Bentley*
-- [Amazon Smile](https://smile.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880)
-- ISBN-13: 978-0201657883
 
 ## JavaScript
 
