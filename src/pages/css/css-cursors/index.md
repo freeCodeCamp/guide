@@ -38,8 +38,19 @@ The cursor property specifies the type of cursor to be displayed when you hover 
     .nesw-resize     { cursor: nesw-resize; }
     .nwse-resize     { cursor: nwse-resize; }
 ```
+![alt text](http://www.javascripter.net/faq/24_cursor_styles.gif "CSS Cursors")
+
+
+You can also set an image as the cursor.
+
+```
+.custom-cursor {
+  cursor: url(cursor-image.png);
+}
+```
 
 #### More Information:
-Check the above cursor values in action: <a href='https://codepen.io/chriscoyier/pen/uCwfB' target='_blank' rel='nofollow'>codepen</a>
-Mozilla Developer Network: <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/cursor' target='_blank' rel='nofollow'>MDN</a>
-Browser Support: <a href='http://caniuse.com/#search=cursor' target='_blank' rel='nofollow'>caniuse</a>
+* Check the above cursor values in action: <a href='https://codepen.io/chriscoyier/pen/uCwfB' target='_blank' rel='nofollow'>codepen</a>
+* Mozilla Developer Network: <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/cursor' target='_blank' rel='nofollow'>MDN</a>
+* Browser Support: <a href='http://caniuse.com/#search=cursor' target='_blank' rel='nofollow'>caniuse</a>
+* Cursor examples by w3schools: <a href='https://www.w3schools.com/cssref/playit.asp?filename=playcss_cursor&preval=none' target='_blank' rel='nofollow'>w3schools</a>

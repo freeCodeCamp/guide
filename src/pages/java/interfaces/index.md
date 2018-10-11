@@ -3,13 +3,17 @@ title: Interfaces
 ---
 # Interfaces
 
-Interface in Java is a bit like the Class, but with a significant difference : an `interface` can _only_ have method signatures and fields. That means, an Interface cannot contain the implementation of any method, just its signature, i.e. the name, parameters and exceptions of the method. For example :
+Interface in Java is a bit like the Class, but with a significant difference : an `interface` can _only_ have method signatures, fields and default methods. Since Java 8, you can also create [default methods](https://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html). In the next block you can see an example of interface :
 
 ```java
 public interface Vehicle {
     public String licensePlate = "";
+    public float maxVel
     public void start();
     public void stop();
+    default void blowHorn(){
+      System.out.println("Blowing horn");
+   }
 }
 ```
 
@@ -188,6 +192,37 @@ motoG.next(); // Next from MusicPlayer
 
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CIts/0' target='_blank' rel='nofollow'>Run Code</a>
 
+## Static Methods in Interfaces
+
+Also new to Java 8 is the ability to add static methods to interfaces. Static methods in interfaces are almost identical to static methods in concrete classes.  The only big difference is that `static` methods are not inherited in the classes that implement the interface. This means that the interface is referenced when calling the static method not the class that implements it. 
+
+```java
+interface MusicPlayer {
+  public static void commercial(String sponsor) {
+    System.out.println("Now for a message brought to you by " + sponsor);
+  }
+  
+  public void play();
+}
+
+
+class Smartphone implements MusicPlayer {
+	public void play() {
+		System.out.println("Playing from smartphone");
+	}
+}
+
+class Main {
+  public static void main(String[] args) {
+    Smartphone motoG = new Smartphone();
+    MusicPlayer.commercial("Motorola"); // Called on interface not on implementing class
+    // motoG.commercial("Motorola"); // This would cause a compilation error 
+  }
+}
+```
+
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CIts/9' target='_blank' rel='nofollow'>Run Code</a>
+
 ## Inheriting an Interface
 
 It is also possible in Java for an Interface to _inherit_ another Interface, by using, you guessed it, `extends` keyword :
@@ -224,6 +259,6 @@ public class SmartPhone implements MusicPlayer {
 
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CIty/0' target='_blank' rel='nofollow'>Run Code</a>
 
-Whoops, did I forget `next()` ? See, since it was a `default` method, I didn't had to provide an implementation at all. (Wont work for JDK < 8)
+Whoops, did I forget `next()` ? See, since it was a `default` method, I didn't had to provide an implementation at all. (Won't work for JDK < 8)
 
 So, now you have a good grasp of Interfaces! Go learn about Abstract Classes to know how Java gives you yet another way to define contracts.

@@ -16,7 +16,7 @@ For eg:
 ```js
     $('#element').css('background');
 ```
-
+Note: Here we can use any css selector eg: element(HTML Tag selector), .element(Class Selector), #element(ID selector).
 ### Setting 
 
 To set a specified CSS property, use the following syntax:
@@ -39,6 +39,13 @@ To set multiple CSS properties, you'll have to use the object literal syntax lik
     });
 ```
 
+If you want to change a property labeled with more than one word, refer to this example:
+
+To change `background-color` of an element
+
+```js
+    $('#element').css('background-color', 'gray');
+```
 
 #### More Information:
 

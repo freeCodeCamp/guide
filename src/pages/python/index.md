@@ -4,9 +4,13 @@ title: Python
 
 ## What is Python?
 
-<a>Python</a> is a general purpose programming language which is dynamically typed, interpreted, and known for its easy readability with great design principles.
+<a href='https://www.python.org' target='_blank' rel='nofollow'>Python</a> is a general purpose programming language which is dynamically typed, interpreted, and known for its easy readability with great design principles.
 
-To know more about Python, you might want to check <a href='https://www.python.org/doc/essays/blurb/' target='_blank' rel='nofollow'>this</a> and <a href='https://docs.python.org/3/faq/general.html' target='_blank' rel='nofollow'>this</a>.
+To learn more about Python, check out these pages on python.org:
+
+<a href='https://www.python.org/doc/essays/blurb/' target='_blank' rel='nofollow'>What is Python?</a>
+
+<a href='https://docs.python.org/3/faq/general.html' target='_blank' rel='nofollow'>Python FAQ</a>.
 
 ## Python 2 or Python 3
 
@@ -18,7 +22,7 @@ To know more about Python, you might want to check <a href='https://www.python.o
 
 ## Installation
 
-Most *nix based operating systems come with Python installed (usually Python 2). Replacing the system Python is not recommended and may cause problems. However, different versions of Python can be safely installed along side the system Python. See <a href='https://docs.python.org/3/using/index.html' target='_blank' rel='nofollow'>Python Setup and Usage</a>
+Most *nix based operating systems come with Python installed (usually Python 2, Python 3 in most recent ones). Replacing the system Python is not recommended and may cause problems. However, different versions of Python can be safely installed alongside the system Python. See <a href='https://docs.python.org/3/using/index.html' target='_blank' rel='nofollow'>Python Setup and Usage</a>.
 
 Windows doesn't come with Python, the installer and instructions can be found <a href='https://docs.python.org/3/using/windows.html' target='_blank' rel='nofollow'>here</a>
 
@@ -30,8 +34,9 @@ If it is available and in Unix shell’s search path makes it possible to start 
 
 `hello_campers.py`
 
-    if __name__ == '__main__'
-        print('Hello campers!')
+```python
+print('Hello campers!')
+```
 
 From terminal:
 
@@ -46,6 +51,10 @@ From terminal:
     Python 3.4.3
     $ python3.5 --version
     Python 3.5.1
+    $ python3.6 --version
+    Python 3.6.2 
+    $ python3.7 --version
+    Python 3.7.1
 
 ## Python Interpreter Interactive Mode
 
@@ -66,7 +75,7 @@ Interactive mode has a prompt where Python commands can be entered and run:
 
 ## The Zen of Python
 
-Some of the principles that influenced the design of Python are included as an easter egg and can be read by using the command inside Python interpreter interactive mode:
+Some of the principles that influenced the design of Python are included as an Easter egg and can be read by using the command inside Python interpreter interactive mode:
 
     >>> import this
     The Zen of Python, by Tim Peters
@@ -90,6 +99,17 @@ Some of the principles that influenced the design of Python are included as an e
     If the implementation is hard to explain, it's a bad idea.
     If the implementation is easy to explain, it may be a good idea.
     Namespaces are one honking great idea -- let's do more of those!
+
+
+## Pros and Cons of Python
+### Pros
+1. Interactive language with a module support for almost all functionality.
+2. Open Source: So, you can contribute to the community, the functions you have developed for future use and to help others
+3. A lot of good interpreters and notebooks available for better experience like jupyter notebook.
+
+#### Cons
+1. Being open source, many different ways have developed over the year for same function. This sometimes, creates chaos for others to read someone else code.
+2. It is a slow language. So, a very bad language to use for developing general algorithms.
 
 ## Documentation
 
@@ -128,5 +148,21 @@ The <a href='https://docs.python.org/3/library/functions.html#print' target='_bl
 A function is called when the name of the function is followed by `()`. For the Hello world! example, the print function is called with a string as an argument for the first parameter. For the rest of the parameters the defaults are used.
 
 The argument that we called the `print` function with is a `str` object or _string_, one of Python's <a href='https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str' target='_blank' rel='nofollow'>_built-in types_</a>.
+Also the most important thing about python is that you don't have to specify the data type while declaring a variable, python's compiler
+will do that itself based on the type of value assigned.
 
 The `objects` parameter is prefixed with a `*` which indicates that the function will take an arbitrary number of arguments for that parameter.
+
+## Want to learn more?
+
+Free Code Camp has some great resources. The web is a big place, there's plenty more to explore:
+* Python Practice Book: http://anandology.com/python-practice-book/index.html
+* Think Python: http://greenteapress.com/thinkpython/html/index.html
+* Practical Business Python: http://pbpython.com/
+* Another course: https://realpython.com/?utm_source=fsp&utm_medium=promo&utm_campaign=bestresources
+* General: https://www.fullstackpython.com/
+* Learn the Basics: https://www.codecademy.com/learn/learn-python
+* Computer science using Python: https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-11?ref=hackernoon#!
+* List of more resources for learning python: https://github.com/vinta/awesome-python
+* Interactive Python: http://interactivepython.org/runestone/static/thinkcspy/index.html
+* Developer's Guide to Python: https://devguide.python.org/

@@ -8,7 +8,7 @@ title: Java
 
 ## Version
 
-The latest version is <a href='http://www.oracle.com/technetwork/java/javase/overview/java8-2100321.html' target='_blank' rel='nofollow'>Java 1.8</a> or Java 8, which was released in 2014 with <a href='http://www.oracle.com/technetwork/java/javase/8-whats-new-2157071.html' target='_blank' rel='nofollow'>various improvements</a> over the previous version, Java 7\. This year, Oracle has a target to release Java 9\. But for all intents and purposes, we will use Java 8 in this wiki for all tutorials.
+The latest version is <a href='http://www.oracle.com/technetwork/java/javase/overview' target='_blank' rel='nofollow'> Java 11</a>, which was released in 2018 with <a href='https://www.oracle.com/technetwork/java/javase/11-relnote-issues-5012449.html' target='_blank' rel='nofollow'>various improvements</a> over the previous version, Java 10. But for all intents and purposes, we will use Java 8 in this wiki for all tutorials.
 
 Java is also divided into several "Editions" :
 
@@ -54,10 +54,11 @@ sudo apt-get install oracle-java8-installer`
 *   Either download Mac OSX .dmg executable from Oracle Downloads
 *   Or use <a href='http://brew.sh/' target='_blank' rel='nofollow'>Homebrew</a> to <a href='http://stackoverflow.com/a/28635465/2861269' target='_blank' rel='nofollow'>install</a> :
 
-`bash  
+```bash  
 brew tap caskroom/cask  
 brew install brew-cask  
-brew cask install java` 
+brew cask install java
+```
 
 ### Verify Installation
 
@@ -110,3 +111,12 @@ Congrats! Your first Java program has run successfully. Here we are just printin
 ## Documentation
 
 Java is heavily <a href='https://docs.oracle.com/javase/8/docs/' target='_blank' rel='nofollow'>documented</a>, as it supports huge amounts of API's. If you are using any major IDE such as Eclipse or IntelliJ IDEA, you would find the Java Documentation included within.
+
+Also, here is a list of free IDEs for Java coding:
+* <a href='https://netbeans.org/' target='_blank' rel='nofollow'>NetBeans</a>
+* <a href='https://eclipse.org/' target='_blank' rel='nofollow'>Eclipse</a>
+* <a href='https://www.jetbrains.com/idea/features/' target='_blank' rel='nofollow'>IntelliJ IDEA</a>
+* <a href='https://developer.android.com/studio/index.html' target='_blank' rel='nofollow'>Android Studio</a>
+* <a href='https://www.bluej.org/' target='_blank' rel='nofollow'>BlueJ</a>
+* <a href='http://www.jedit.org/' target='_blank' rel='nofollow'>jEdit</a>
+* <a href='http://www.oracle.com/technetwork/developer-tools/jdev/overview/index-094652.html' target='_blank' rel='nofollow'>Oracle JDeveloper</a>

@@ -3,13 +3,9 @@ title: Sprint Backlog
 ---
 ## Sprint Backlog
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/agile/sprint-backlog/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The Sprint Backlog is a list of tasks identified by the Scrum Team to be completed during the Scrum Sprint. During the Sprint Planning meeting, the team selects a number of Product Backlog items, usually in the form of user stories, and identifies the tasks necessary to complete each user story. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+It is critical that the team itself selects the items and size of the Sprint Backlog. Because they are the people implementing / completing the tasks, they must be the people to choose what they are forecating to achive during the Sprint.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+[Scrum Guide: Sprint Backlog](http://www.scrumguides.org/scrum-guide.html#artifacts-sprintbacklog)

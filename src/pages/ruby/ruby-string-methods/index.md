@@ -11,7 +11,17 @@ Ruby has many built in methods to work with strings. Strings in Ruby by default 
     "Hello".length #=> 5
     "Hello World!".length #=> 12
     ```
+    
+### Empty:
 
+*   The `.empty?` method returns `true` if a string has a length of zero.
+    ```ruby
+    "Hello".empty? #=> false
+    "!".empty?     #=> false
+    " ".empty?     #=> false
+    "".empty?      #=> true
+    ```
+    
 ### Count:
 
 *   The `.count` method counts how many times a specific character(s) is found in a string.
@@ -41,6 +51,12 @@ Ruby has many built in methods to work with strings. Strings in Ruby by default 
     ```ruby
     "Hello".downcase #=> hello
     ```
+### Swapcase
+
+* The `.swapcase` method transforms the uppercase latters in a string to lowercase and the lowercase letters to uppercase.
+  ```ruby
+  "hELLO wORLD".swapcase #=> Hello World
+  ```
 
 ### Capitalize:
 
@@ -117,3 +133,57 @@ _Note that the first letter is only capitalized if it is at the beginning of the
     ```ruby
     "15".to_i #=> 15 # integer
     ```
+    
+### Gsub:
+
+*  `gsub` replaces every reference of the first parameter for the second parameter on a string.
+```ruby
+"ruby is cool".gsub("cool", "very cool") #=> "ruby is very cool"
+```
+*  `gsub` also accepts patterns (like *regexp*) as first parameter, allowing things like:
+```ruby
+"ruby is cool".gsub(/[aeiou]/, "*") #=> "r*by *s c**l"
+```
+
+### Concatenation:
+
+*   Ruby implements some methods to concatenate two strings together:
+
+   *  The `+` method:
+  ```ruby
+  "15" + "15" #=> "1515" # string
+  ```
+
+   * The `<<` method:
+   ```ruby
+   "15" << "15" #=> "1515" # string
+   ```
+
+   * The `concat` method:
+   ```ruby
+   "15".concat "15" #=> "1515" # string
+   ```
+
+### Index:
+
+*   The `index` method returns the index position of the first occurrance of the substring or regular expression pattern match in a string. 
+*   If there is no match found, `nil` is returned.
+*   A second optional parameter indicates which index position in the string to begin searching for a match.
+
+    ```ruby
+    "information".index('o') #=> 3
+    "information".index('mat') #=> 5
+    "information".index(/[abc]/) #=> 6
+    "information".index('o', 5) #=> 9
+    "information".index('z') #=> nil
+    ```
+
+### Clear:
+
+*   Removes string content.
+    ```ruby
+    a = "abcde"
+    a.clear    #=> ""
+    ```
+
+

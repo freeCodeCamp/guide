@@ -91,7 +91,61 @@ catch (e) {
 // finally
 // outer my error
 ```
+#### Types of Error
+
+##### Reference Error
+
+```javascript
+var x;
+try {
+  x = y + 1;   // y cannot be referenced (used)
+}
+catch(err) {
+  console.log(err.name, err.message);
+}
+// ReferenceError y is not defined
+
+```
+
+##### Syntax Error
+
+```javascript
+try {
+    eval("alert('Hello)");   // Missing ' will produce an error
+}
+catch(err) {
+    console.log(err.name,err.message);
+}
+// SyntaxError Invalid or unexpected token
+```
+
+##### Type Error
+
+```javascript
+var num = 1;
+try {
+    num.toUpperCase();   // You cannot convert a number to upper case
+}
+catch(err) {
+    console.log(err.name, err.message);
+}
+// TypeError num.toUpperCase is not a function
+```
+
+##### URI Error
+
+```javascript
+try {
+    decodeURI("%%%");   // You cannot URI decode these percent signs
+}
+catch(err) {
+    console.log(err.name, err.message);
+}
+// URIError URI malformed
+```
+
 
 #### More Information:
 
-[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch)
+<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch' target='_blank' rel='nofollow'>MDN</a>
+<a href='https://www.w3schools.com/js/js_errors.asp' target='_blank' rel='nofollow'>W3S</a>

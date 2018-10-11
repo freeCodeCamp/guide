@@ -3,13 +3,32 @@ title: CSS3 Opacity Property
 ---
 ## CSS3 Opacity Property
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/css3-opacity-property/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+`opacity` lets you control how transparent an element is on a scale of `0` to `1`.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+If you set the property of an element to `0` it will be transparent. If you set it to `1` it will be opaque.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Setting an element to `opacity: 0;` does not remove it from the page. The element will still be clickable and impact the flow of the page's content.
+
+```css
+.transparent {
+    opacity: 0;
+}
+
+.verySeeThrough {
+    opacity: 0.3;
+}
+
+.slightlySeeThrough {
+    opacity: 0.7;
+}
+
+.opaque {
+    opacity: 1;
+}
+```
+
+[This simple example](https://jsfiddle.net/1ogmxaf8/1/) shows how you might use opacity with a hover effect.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+* [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/opacity)
+* [CSS Tricks Almanac](https://css-tricks.com/almanac/properties/o/opacity/)

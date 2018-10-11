@@ -6,15 +6,15 @@ title: SQL Syntax
 
 ### Introduction
 
-This guide provides a basic, high level description of the Syntax for SQL Statements. 
+This guide provides a basic, high level description of the syntax for SQL statements. 
 
-SQL is an international standard (ISO), but you will find many difference between implementations. This guide uses MySQL as an example. If you use one of the many other Relational Database Managers (DBMS) you'll need to check the manual for that DBMS if needed.
+SQL is an international standard (ISO), but you will find many differences between implementations. This guide uses MySQL as an example. If you use one of the many other Relational Database Managers (DBMS) you'll need to check the manual for that DBMS if needed.
 
 ### What we will cover
 
 * Use (sets what database the statement will use)
 * Select and From clauses
-* Where Clause (and / or, IN, Between, LIKE
+* Where Clause (and / or, IN, Between, LIKE)
 * Order By (ASC, DESC)
 * Group by and Having
 
@@ -44,7 +44,7 @@ This example shows two columns selected from the "student" table, and two calcul
 
 The WHERE clause is used to limit the number of rows returned.  
 
-In this case all five of these will be used is a some what ridiculous Where clause. 
+In this case all five of these will be used is a somewhat ridiculous Where clause. 
 
 Compare this result to the above SQL statement to follow this logic.
 
@@ -70,7 +70,7 @@ The following example is similar, but it further specifies that if any of the st
 
 ### Order By (ASC, DESC)
 
-Order By gives us a way to sort the result set by one or more of the items in the SELECT section. Here is the same list as above, but sorted by the students Full Name. The default sort order is ascending (ASC), but to sort in the opposite order (decending) you use DESC, as in the example below:
+Order By gives us a way to sort the result set by one or more of the items in the SELECT section. Here is the same list as above, but sorted by the students Full Name. The default sort order is ascending (ASC), but to sort in the opposite order (descending) you use DESC, as in the example below:
 
 ```sql
     select studentID, FullName, sat_score
@@ -85,15 +85,15 @@ Order By gives us a way to sort the result set by one or more of the items in th
 ![image-1](https://github.com/SteveChevalier/guide-images/blob/master/syntax03.JPG)
 
 
-### Group by and Having
+### Group By and Having
 
-Group by gives us a way to combine rows and aggregate data. The having clause is like the above Where clause, exept that it acts on the grouped data.
+Group By gives us a way to combine rows and aggregate data. The Having clause is like the above Where clause, except that it acts on the grouped data.
 
 This data is from the campaign contributions data we've been using in some of these guides.
 
 This SQL statement answers the question: "which candidates recieved the largest number of contributions (not $ amount, but count (\*)) in 2016, but only those who had more than 80 contributions?"
 
-Ordering this data set in a decending (DESC) order places the candidates with the largest number of contributions at the top of the list.
+Ordering this data set in a descending (DESC) order places the candidates with the largest number of contributions at the top of the list.
 
 ```sql
     select Candidate, Election_year, sum(Total_$), count(*)
