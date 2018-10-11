@@ -59,6 +59,7 @@ project or application, no matter how small!
 # Want to learn more?
 
 * [RayWenderlich.com](https://www.raywenderlich.com/) : Has many great tutorials for Swift and iOS development.
+* [Hacking with Swift](https://www.hackingwithswift.com/read) : A complete Swift tutorial, taking you from a beginner to advanced using hands-on projects.
 
 ### Sources
 
