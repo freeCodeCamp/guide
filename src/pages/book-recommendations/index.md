@@ -200,6 +200,11 @@ The Mythical Man-Month: Essays on Software Engineering
 - ISBN-13: 978-0201835953
 
 
+*Data Structures and Algorithms Made Easy: Data Structures and Algorithmic Puzzles, Fifth Edition*
+- [Amazon Smile](https://www.amazon.com/Data-Structures-Algorithms-Made-Easy/dp/819324527X)
+- ISBN-13: 978-8193245279
+
+
 This list was compiled from multiple suggestion threads on Reddit and Stackoverflow. 
 
 Please feel free to add more that you have found useful!
