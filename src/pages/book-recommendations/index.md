@@ -64,7 +64,7 @@ title: Books to Read for Programmers
 - ISBN-13: 978-0201616224
 
 *Programming Elixir*
-- [Amazon Smile](https://www.amazon.com/Programming-Elixir-1-6-Functional-Concurrent/dp/1680502999/)
+- [Amazon Smile](https://smile.amazon.com/Programming-Elixir-1-6-Functional-Concurrent/dp/1680502999/)
 - ISBN-13: 978-1680502992
 
 This list was compiled from multiple suggestion threads on Reddit and Stackoverflow. 
