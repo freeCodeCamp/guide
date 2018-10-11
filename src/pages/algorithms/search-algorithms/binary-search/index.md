@@ -160,6 +160,22 @@ def binary_search(target, array)
 end
 ```
 
+### Example in C
+
+```C
+int binarySearch(int a[], int l, int r, int x) { 
+   if (r >= l){ 
+        int mid = l + (r - l)/2; 
+        if (a[mid] == x)   
+            return mid; 
+        if (arr[mid] > x)  
+            return binarySearch(arr, l, mid-1, x); 
+        return binarySearch(arr, mid+1, r, x); 
+   } 
+   return -1; 
+} 
+```
+
 ### C/C++ implementation
 
 ```C++
@@ -269,6 +285,7 @@ int binarySearch(int arr[], int start, int end, int x)
     return -1; 
 }
 ```
+
 ### More Information
 * [Binary search (YouTube video)](https://youtu.be/P3YID7liBug)
 * [Binary Search - CS50](https://www.youtube.com/watch?v=5xlIPT1FRcA)
