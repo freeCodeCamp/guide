@@ -59,9 +59,7 @@ JavaScript is dynamically typed, which means any given variable can represent an
 ```
 All those statements are perfectly valid - JavaScript variables can jump from string to array to object to integer.
 
----
-title: Declare object as const
----
+### Declare object as const
 
 As mentioned above, const variable are immutable means value assigned to such variable at the time of declaration cannot be updated but there is a point to note in case object declaration with const. Object of type const also cannot be updated once defined but properties of object cab be. For example.
 ```js
