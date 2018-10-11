@@ -12,21 +12,23 @@ Function:- rand()
                   
 Below is an example:-     
 ```cpp
-   #include <cstdlib>
-   #include<iostream>
-    using namespace std;
-     
-    int main() {
-    cout<<rand()<<endl;
-    cout<<rand()<<endl;
-    cout<<rand()<<endl;
-    	return 0;
-    }
+#include <cstdlib>
+#include <iostream>
+using namespace std;
+
+int main() {
+  cout << rand() << endl;
+  cout << rand() << endl;
+  cout << rand() << endl;
+  return 0;
+}
         
- Output:- (Note that the output is random and will differ from what is mentioned here)
+/*
+Output:- (Note that the output is random and will differ from what is mentioned here)
 1804289383
 846930886
 1681692777
+*/
 ```
 
 
@@ -65,11 +67,14 @@ seconds that have elapsed since Jan 1, 1970 (the Epoch).
 Code snippet: 
 ```cpp
 #include <ctime>
+
 srand(time(NULL));
 cout << rand();
 
+/*
 Output: (Will differ from computer to computer, and because of the seed, will also differ from time to time, literally. :D)
 1696269016
+*/
 
 ```
 This produces different values each time the program is run.    
@@ -78,7 +83,7 @@ Bonus: Tweaking the rand() to your convenience.
 * Since rand() returns a random number from 0 to RAND_MAX, if you want a number between 0 and 8 for example, then do
    -rand()%9. 
    Any number modulo 9 will return a value from 0 to 8. 
- * More formally, if you want a number between L (inclusive) and U (inclusive), you must do
+* More formally, if you want a number between L (inclusive) and U (inclusive), you must do
  `int num = L + rand()%(U-L+1).`
  Explanation:- rand()%(U-L + 1) returns a random (pseudo-random, dont forget) number betwwen 0 and (U-L). Hence, adding L makes sure we get a value between L and U.
  

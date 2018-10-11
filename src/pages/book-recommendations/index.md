@@ -56,6 +56,10 @@ title: Books to Read for Programmers
 - [Amazon Smile](https://smile.amazon.com/Head-First-Java-Kathy-Sierra/dp/0596009208)
 - ISBN-13: 978-0596009205
 
+*Programming Pearls (2nd Edition) by Jon Bentley*
+- [Amazon Smile](https://smile.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880)
+- ISBN-13: 978-0201657883
+
 ## JavaScript
 
 *You Don't Know JS (book series)*
@@ -66,6 +70,10 @@ title: Books to Read for Programmers
 -[Read it online here](https://eloquentjavascript.net)
 -[Amazon Smile](https://www.amazon.com/gp/product/1593275846/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1593275846&linkCode=as2&tag=marijhaver-20&linkId=VPXXXSRYC5COG5R5)
 -ISBN-13: 978-1593275846
+
+*JavaScript: The Good Parts*
+- [Amazon Smile](https://smile.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742)
+- ISBN-13: 978-0596517748
 
 ## Python
 
@@ -79,42 +87,58 @@ title: Books to Read for Programmers
 - [Amazon Smile](https://smile.amazon.com/Soft-Skills-software-developers-manual/dp/1617292397?pldnSite=1)
 - ISBN-13: 9781617292392 
 
-
 *Code: The Hidden Language of Computer Hardware and Software (Developer Best Practices) *
-- [Amazon Smile](https://www.amazon.com/Code-Language-Computer-Hardware-Software/dp/0735611319)
+- [Amazon Smile](https://smile.amazon.com/Code-Language-Computer-Hardware-Software/dp/0735611319)
 - ISBN-13: 978-0735611313
 
 *Data Structures And Algorithms Made Easy*
-- [Amazon Smile](https://www.amazon.com/Data-Structures-Algorithms-Made-Easy/dp/819324527X)
+- [Amazon Smile](https://smile.amazon.com/Data-Structures-Algorithms-Made-Easy/dp/819324527X)
 - ISBN-13: 978-8193245279
 
 *Think Python: How to Think Like a Computer Scientist*
-- [Amazon Smile](https://www.amazon.com/Think-Python-Like-Computer-Scientist/dp/1491939362)
+- [Amazon Smile](https://smile.amazon.com/Think-Python-Like-Computer-Scientist/dp/1491939362)
 - ISBN-13: 978-1491939369
 
 *Python Crash Course: A Hands-On, Project-Based Introduction to Programming*
-- [Amazon Smile](https://www.amazon.co.uk/Python-Crash-Course-Hands-Project-Based/dp/1593276036)
+- [Amazon Smile](https://smile.amazon.com/Python-Crash-Course-Hands-Project-Based/dp/1593276036)
 - ISBN-13: 978-1593276034
 
 *Computer Science Distilled: Learn the art of solving computaitonal problems by Wladston Ferreira Filho*
-- [Amazon](https://www.amazon.com/Computer-Science-Distilled-Computational-Problems/dp/0997316020)
+- [Amazon Smile](https://smile.amazon.com/Computer-Science-Distilled-Computational-Problems/dp/0997316020)
 - ISBN-13: 978-0-9773160-2-5
 
 *Algorithms Unlocked by Thomas H. Cormen*
-- [Amazon](https://www.amazon.com/Algorithms-Unlocked-Press-Thomas-Cormen/dp/0262518805)
+- [Amazon Smile](https://smile.amazon.com/Algorithms-Unlocked-Press-Thomas-Cormen/dp/0262518805)
 - ISBN-13: 978-0262518802
 
 *Violent Python: A Cookbook for Hackers, Forensic Analysts, Penetration Testers and Security Engineers*
-- [Amazon Smile](https://www.amazon.com/Violent-Python-Cookbook-Penetration-Engineers/dp/1597499579/ref=sr_1_2?ie=UTF8&qid=1538665634&sr=8-2&keywords=violent+python)
+- [Amazon Smile](https://smile.amazon.com/Violent-Python-Cookbook-Penetration-Engineers/dp/1597499579/ref=sr_1_2?ie=UTF8&qid=1538665634&sr=8-2&keywords=violent+python)
 - ISBN-13: 978-1597499576
 
 *The Shellcoder's Handbook: Discovering and Exploiting Security Holes*
-- [Amazon Smile](https://www.amazon.com/Shellcoders-Handbook-Discovering-Exploiting-Security/dp/047008023X/ref=sr_1_1?ie=UTF8&qid=1538665772&sr=8-1&keywords=shellcoders+handbook+3rd+edition&dpID=41xfa6zpuPL&preST=_SX218_BO1,204,203,200_QL40_&dpSrc=srch)
+- [Amazon Smile](https://smile.amazon.com/Shellcoders-Handbook-Discovering-Exploiting-Security/dp/047008023X/ref=sr_1_1?ie=UTF8&qid=1538665772&sr=8-1&keywords=shellcoders+handbook+3rd+edition&dpID=41xfa6zpuPL&preST=_SX218_BO1,204,203,200_QL40_&dpSrc=srch)
 - ISBN-13: 978-0470080238
 
 *Head First C: A Brain-Friendly Guide*
-- [Amazon Smile](https://www.amazon.com/Head-First-C-Brain-Friendly-Guide/dp/1449399916/ref=sr_1_2?ie=UTF8&qid=1538665818&sr=8-2&keywords=head+first+c&dpID=51StqzL2dWL&preST=_SX218_BO1,204,203,200_QL40_&dpSrc=srch)
+- [Amazon Smile](https://smile.amazon.com/Head-First-C-Brain-Friendly-Guide/dp/1449399916/ref=sr_1_2?ie=UTF8&qid=1538665818&sr=8-2&keywords=head+first+c&dpID=51StqzL2dWL&preST=_SX218_BO1,204,203,200_QL40_&dpSrc=srch)
 - ISBN-13: 978-1449399917
+
+*Practical Object-Oriented Design in Ruby*
+- [Amazon Smile](https://smile.amazon.com/Practical-Object-Oriented-Design-Ruby-Addison-Wesley/dp/0321721330)
+- ISBN-13: 978-0321721334
+
+*Thinking in C++ by Bruce Eckel*
+- [Amazon Smile](https://smile.amazon.com/Thinking-C-Bruce-Eckel/dp/0139177094)
+- ISBN-13: 978-0139177095
+
+*Operating System Concepts*
+- [Amazon Smile](https://smile.amazon.com/Operating-System-Concepts-Abraham-Silberschatz/dp/1118063333/ref=sr_1_1?s=books&ie=UTF8&qid=1538967825&sr=1-1&keywords=operating+system+concepts+10th+edition&dpID=51Qy2upM%252BaL&preST=_SY291_BO1,204,203,200_QL40_&dpSrc=srch)
+- ISBN-13: 978-1118063330
+
+*Computer Networking: A Top-Down Approach (7th Edition) by Kurose and Ross*
+- [Amazon Smile](https://smile.amazon.com/Computer-Networking-Top-Down-Approach-7th/dp/0133594149/ref=sr_1_1?s=books&ie=UTF8&qid=1538967896&sr=1-1&keywords=kurose+and+ross&dpID=51xp1%252BoDRML&preST=_SX218_BO1,204,203,200_QL40_&dpSrc=srch)
+- ISBN-13: 978-0133594140 
+
 
 This list was compiled from multiple suggestion threads on Reddit and Stackoverflow. 
 Please feel free to add more that you have found useful!

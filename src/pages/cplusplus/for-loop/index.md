@@ -37,16 +37,46 @@ int main ()
 }```
 
 Output:
-Value of a: 10
-Value of a: 11
-Value of a: 12
-Value of a: 13
-Value of a: 14
-Value of a: 15
-Value of a: 16
-Value of a: 17
-Value of a: 18
-Value of a: 19
+value of a: 10
+value of a: 11
+value of a: 12
+value of a: 13
+value of a: 14
+value of a: 15
+value of a: 16
+value of a: 17
+value of a: 18
+value of a: 19
+
+##Single lined loop
+The body of the for loop need not be enclosed in braces if the loop iterates over only one satatement.
+##Example
+```c++
+   #include<iostream.h>
+   using namespace std;
+ 
+   int main () {
+   // Single line for loop
+   for( int a = 10; a < 20; a = a + 1 ) 
+      cout << "value of a: " << a << endl;
+   
+
+   return 0;
+}```
+
+This would generate the same output as the previous program.
+i.e 
+Output:
+value of a: 10
+value of a: 11
+value of a: 12
+value of a: 13
+value of a: 14
+value of a: 15
+value of a: 16
+value of a: 17
+value of a: 18
+value of a: 19
 
 -----Explanation-----
-Here's the initialization condition is first set to a=10.The loop first checks for this condition.It then checks for the condition expression i.e a<20 which holds true as 10<20(for the first case).Now the body of the loop is executed and we get the output "Value of a: 10".Then the update expression is executed which adds the number 1 to 'a' and the value of 'a' gets updated to 11 and the same steps are followed(as above) until the value of v reaches less than 20 i.e 19.
+Here's the initialization condition is first set to a=10. The loop first checks for this condition. It then checks for the condition expression i.e a<20 which holds true as 10<20(for the first case).Now the body of the loop is executed and we get the output "Value of a: 10".Then the update expression is executed which adds the number 1 to 'a' and the value of 'a' gets updated to 11 and the same steps are followed (as above) until the value of v reaches less than 20 i.e 19.
