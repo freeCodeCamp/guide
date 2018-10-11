@@ -3,8 +3,4 @@ title: Create Visual Direction by Fading an Element from Left to Right
 ---
 ## Create Visual Direction by Fading an Element from Left to Right
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/responsive-web-design/applied-visual-design/create-visual-direction-by-fading-an-element-from-left-to-right/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+The @keyframes rule for the animation-name fade was instructed to be with the property of opacity at the value of 0.1 making the object to fade as it moves right. the test was not completed even as the instruction was followed. the object fades right as the per the instruction given the only thing that need to be added is the opacity property with the value of 0.1 for the test to be completed.
