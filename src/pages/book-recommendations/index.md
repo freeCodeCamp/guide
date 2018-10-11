@@ -139,6 +139,15 @@ title: Books to Read for Programmers
 - [Amazon Smile](https://smile.amazon.com/Computer-Networking-Top-Down-Approach-7th/dp/0133594149/ref=sr_1_1?s=books&ie=UTF8&qid=1538967896&sr=1-1&keywords=kurose+and+ross&dpID=51xp1%252BoDRML&preST=_SX218_BO1,204,203,200_QL40_&dpSrc=srch)
 - ISBN-13: 978-0133594140 
 
+*Competitive Programming 3: The New Lower Bound of Programming Contests*
+- [Amazon Smile](https://smile.amazon.com/Competitive-Programming-3rd-Steven-Halim/dp/B00FG8MNN8)
+- ISBN-13: 978-5800083125
+
+*Dynamic Programming for Coding Interviews: A Bottom-Up approach to problem solving*
+- [Amazon Smile](https://smile.amazon.in/Dynamic-Programming-Coding-Interviews-Bottom-Up-ebook/dp/B06XZ61CMP)
+- ISBN-13: 978-1946556691
+
+
 
 This list was compiled from multiple suggestion threads on Reddit and Stackoverflow. 
 Please feel free to add more that you have found useful!
