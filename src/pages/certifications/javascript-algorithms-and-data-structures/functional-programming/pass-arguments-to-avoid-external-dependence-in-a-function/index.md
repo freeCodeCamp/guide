@@ -4,11 +4,14 @@ title: Pass Arguments to Avoid External Dependence in a Function
 
 ## Pass Arguments to Avoid External Dependence in a Function
 
-### Method
+## Hint: 1
 
-This code will provide the same result as the last challenge, only this time we will pass the `fixedValue` into the function as a parameter. 
+Try to pass argument to function and return increased value of this argument. 
 
-### Solution
+
+**Solution ahead!**
+
+## Basic Code Solution:
 
 ```javascript
 
@@ -25,3 +28,8 @@ function incrementer (value) {
 var newValue = incrementer(fixedValue); // Should equal 5
 console.log(fixedValue); // Should print 4
 ```
+
+### Method
+
+This code will provide the same result as the last challenge, only this time we will pass the `fixedValue` into the function as a parameter. 
+
