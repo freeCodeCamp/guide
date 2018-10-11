@@ -21,7 +21,16 @@ One of Docker's biggest advantages is that it can be used by a team using differ
 
 * Windows / macOS: [Download](https://www.docker.com/get-started)
 
+* Linux:
+
+```
+curl -fsSL https://get.docker.com -o get-docker.sh
+sh get-docker.sh
+```
+
 #### More Information:
+
 * For download and documentation check the docker official site: [Docker official site](https://www.docker.com)
 * For more on containerization, checkout [Search IT Operations](https://searchitoperations.techtarget.com/definition/application-containerization-app-containerization)
 * A Docker 101 course [Docker 101](https://github.com/docker/labs/tree/master/beginner/)
+
