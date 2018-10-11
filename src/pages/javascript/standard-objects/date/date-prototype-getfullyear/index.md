@@ -3,13 +3,24 @@ title: Date.prototype.getFullYear
 ---
 ## Date.prototype.getFullYear
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/standard-objects/date/date-prototype-getfullyear/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Date.getFullYear() method returns the year(four digits) of the specified date according to local time.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Syntax
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```javascript
+dateObj.getFullYear()
+```
+
+### Example
+
+```javascript
+var date = new Date();
+// creates a new Date() object with current date and time.
+date.getFullYear()
+// 2018
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getFullYear)
 
 
