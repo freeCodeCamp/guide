@@ -9,7 +9,7 @@ Primarily, Java has the following constructs for flow control:
 
 *   `if`
     ```java
-    if( <expression that results in a boolean>){
+    if( <expression that results in a boolean> ){
         //code enters this block if the above expression is 'true'
     }
     ```
@@ -40,7 +40,7 @@ switch( <integer / String / Enum > ){
 }
 ```
 
-Note: The program flow `falls through` the next `case` if the `break` statement is missing. For e.g. Let's say you say the standard 'Hello' to everyone at office, but you are extra nice to the girl who sits next to you and sound grumpy to your boss. The way to represent would be something like:
+Note: The program flow `falls through` the next `case` if the `break` statement is missing. e.g. Let's say you say the standard 'Hello' to everyone at office, but you are extra nice to the girl who sits next to you and sound grumpy to your boss. The way to represent would be something like:
 ```java
 switch(person){
     case 'boss': 
@@ -48,6 +48,7 @@ switch(person){
         break;
     case 'neighbour': 
         soundExtraNice();
+        break;
     case 'colleague':
         soundNormal();
         break;
@@ -64,19 +65,22 @@ Any of the previous control flows can be nested. Which means you can have nested
 
 For example, let's consider the following scenario:
 
-If you have less than 25 bucks, you get yourself a cup of coffee. If you have more than 25 bucks but less than 60 bucks, you get yourself a decent meal. If you have more than 60 bucks but less than a 100, you get yourself a decent meal along with a glass of wine. However, when you have more than a 100 bucks, depending on who you are with, you either go for a candle lit dinner (with your wife) or you go to a sports bar (with your friends). As a default, you get a decent meal. 
+*   If you have less than 25 bucks, you get yourself a cup of coffee.
+*   If you have more than 25 bucks but less than 60 bucks, you get yourself a decent meal.
+*   If you have more than 60 bucks but less than a 100, you get yourself a decent meal along with a glass of wine.
+*   However, when you have more than a 100 bucks, depending on who you are with, you either go for a candle lit dinner (with your wife) or you go to a sports bar (with your friends).
 
 One of the ways to represent this will be:
 
 ```java
-int cash = 50;
+int cash = 150;
 String company = "friends";
 
-if(cash<25){
+if( cash < 25 ){
     getCoffee();
-} else if(cash < 60){
+} else if( cash < 60 ){
     getDecentMeal();
-} else if(cash < 100){
+} else if( cash < 100 ){
     getDecentMeal();
     getGlassOfWine();
 } else {
@@ -92,5 +96,6 @@ if(cash<25){
     }
 }
 ```
+In this example, `meetFriendsAtSportsBar()` will be executed.
 
-![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CJZi/1' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](https://forum.freecodecamp.org/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CJZi/1' target='_blank' rel='nofollow'>Run Code</a>

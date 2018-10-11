@@ -3,13 +3,16 @@ title: Padding Property
 ---
 ## Padding Property
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/properties/padding-property/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+CSS `padding` property adds internal space between the content and border of element. You may use `padding-top`, `padding-right`, `padding-bottom` and `padding-left` for specific side of element, but `padding` is shorthand version for all these properties. If: 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+* One value is provided it will apply to all sides of element
+* Two values are provided, first value will apply top and bottom sides and second value will apply to left and right sides of element.
+* Three values are provided, first value will apply to top, second value will apply left and right, third value will apply bottom sides of element.
+* Four values are provided, values will apply in the following order: top, right, bottom, left.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+
+* [MDN - padding](https://developer.mozilla.org/en-US/docs/Web/CSS/padding)
+* [CSS-Tricks - padding](https://css-tricks.com/almanac/properties/p/padding/)
 
 
