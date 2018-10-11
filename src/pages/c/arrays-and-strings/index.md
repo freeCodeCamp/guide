@@ -107,6 +107,16 @@ strpy(first, second);
 ```C
 strcat(first, second);
 ```
+Here is an example of manual implementation of fuction strcat:
+
+void string_concatenate(char [] s1, char [] s2)
+{
+    int i = strlen(s1), j;
+    for(int j = 0; s2[j]; j++, i += 1)
+    {
+        s1[i] = s2[j];
+    }
+}
 
 #### Get length: `strlen`
 `strlen` (from 'string length') will return an integer value corresponding to the length of the string. In this example, an integer called `string_length` will be assigned the length of `my_string`:
