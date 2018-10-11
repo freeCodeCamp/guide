@@ -13,15 +13,15 @@ What goes under the hood when we use this command is what we will be explaining 
 ```
 Here are the terminal commmands:-
 
-```C
-$ mkdir react_app
-$ ls
-$ npm init
-$ npm install --save react  react-dom
-```
+1. mkdir react_app
+2. ls
+3. npm init
+4. npm install --save react  react-dom
+
 #### Webpack and Bable Installation Command
-Run the following commands in linux terminal.Also view the changes in the package.json file.
-```C
+Run the following commands in linux terminal. Also view the changes in the package.json file.
+
+```shell
 $ npm install --save-dev babel-core
 $ npm install --save-dev babel-loader 
 $ npm install --save-dev babel-preset-env
