@@ -111,6 +111,13 @@ This can lead to unexpected behavior in your app if the code above is called mul
 this.setState(prevState => ({value: prevState.value + 1}));
 ```
 
+##### The Cleaner Way
+```
+this.setState(({ value }) => ({ value: value + 1 }));
+```
+
+When only a limited number of fields in the state object is required, object destructing can be used for cleaner code.
+
 ### More Information
 
 - [React - State and Lifecycle](https://reactjs.org/docs/state-and-lifecycle.html)
