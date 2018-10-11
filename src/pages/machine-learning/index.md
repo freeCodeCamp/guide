@@ -3,7 +3,7 @@ title: Machine Learning
 ---
 ## Machine Learning
 
-As a pioneer in artificial intelligence Arthur Samuel in 1959 defined Machine Learning as "the field of study that gives computers the ability to learn without being explicitly programmed."
+Arthur Samuel, a pioneer in artificial intelligence, defined Machine Learning in 1959 as "the field of study that gives computers the ability to learn without being explicitly programmed."
 
 A more formal definition of Machine Learning is provided by Prof Tom Mitchell of CMU:
 
@@ -39,6 +39,7 @@ data consist of a set of training examples. In supervised learning, each example
 2. <a href='https://www.coursera.org/learn/machine-learning' target='_blank' rel='nofollow'>Machine Learning - Taught by:  Andrew Ng</a>
 3. <a href='https://www.udemy.com/data-science-and-machine-learning-with-python-hands-on/' target='_blank' rel='nofollow'>Data Science and Machine Learning with Python - Hands On!</a>
 4. <a href='http://ciml.info/' target='_blank' rel='nofollow'>Machine Learning</a>
+5. <a href='https://www.edx.org/course/the-analytics-edge' target='_blank' rel='nofollow'>The Analytics Edge - Taught by: MIT</a>
 
 #### Video Resources:
 
