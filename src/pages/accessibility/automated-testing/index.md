@@ -11,3 +11,12 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
+Automated Accessibility Testing Tools is a web accessibility testing tool that has been developed by PayPal.It provides an accessibility API and custom web applications for HTML CodeSniffer, Axe and Chrome Developer tool. A user can configure test server configurations inside the firewall, and test individual pages using the AATT web applications.
+
+For example - it can be used to test Java web applications using SeLion automation test frameworks.
+
+AATT includes HTML CodeSniffer, Axe and Chrome Developer Tool with Express and PhantomJS, which runs on Node. For Node applications, it can be integrated into NemoJS testing framework to run accessibility testing during automated unit testing.
+
+Ref - paypal/AATT/readme.md
+
+For further information <a href="https://github.com/paypal/AATT">visit</a>.
