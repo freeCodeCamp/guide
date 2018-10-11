@@ -13,3 +13,8 @@ It may be something as simple as the implementation of one or more application p
 
 Common tools include debugging facilities and other utilities, often presented in an integrated development environment (IDE). SDKs also frequently include sample code and supporting technical notes or other supporting documentation to help clarify points made by the primary reference material.
 
+SDK Stands for "Software Development Kit." An SDK is a collection of software used for developing applications for a specific device or operating system. Examples of SDKs include the Windows 7 SDK, the Mac OS X SDK, and the iPhone SDK.
+
+SDKs typically include an integrated development environment (IDE), which serves as the central programming interface. The IDE may include a programming window for writing source code, a debugger for fixing program errors, and a visual editor, which allows developers to create and edit the program's graphical user interface (GUI). IDEs also include a compiler, which is used to create applications from source code files.
+
+Most SDKs contain sample code, which provides developers with example programs and libraries. These samples help developers learn how to build basic programs with the SDK, which enables them to eventually create more complex applications. SDKs also offer technical documentation, which may include tutorials and FAQs. Some SDKs may also include sample graphics, such as buttons and icons, which can be incorporated into applications.
