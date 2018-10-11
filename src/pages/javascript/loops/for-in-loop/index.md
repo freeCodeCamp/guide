@@ -7,17 +7,17 @@ The `for...in` statement iterates over the enumerable properties of an object, i
     ...
     }
 
-| Required/Optional | Parameter | Description |  
-|-------------------|-----------|----------------------------------------------------------------------|  
-| Required | Variable | A different property name is assigned to variable on each iteration. |  
+| Required/Optional | Parameter | Description |
+|-------------------|-----------|----------------------------------------------------------------------|
+| Required | Variable | A different property name is assigned to variable on each iteration. |
 | Optional | Object | Object whose enumerable properties are iterated. |
 
-<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in' target='_blank' rel='nofollow'>MDN link</a> | <a href='https://msdn.microsoft.com/library/55wb2d34.aspx' target='_blank' rel='nofollow'>MSDN link</a>
+
 
 ## Examples
 
     // Initialize object.
-    a = {"a" : "Athens" , "b" : "Belgrade", "c" : "Cairo"}
+    a = { "a": "Athens", "b": "Belgrade", "c": "Cairo" }
 
     // Iterate over the properties.
     var s = ""
@@ -33,7 +33,7 @@ The `for...in` statement iterates over the enumerable properties of an object, i
     // c: Cairo
 
     // Initialize the array.
-    var arr = new Array("zero","one","two");
+    var arr = new Array("zero", "one", "two");
 
     // Add a few expando properties to the array.
     arr["orange"] = "fruit";
@@ -54,3 +54,18 @@ The `for...in` statement iterates over the enumerable properties of an object, i
     //   2: two
     //   orange: fruit
     //   carrot: vegetable
+    
+    // Efficient way of getting an object's keys using an expression within the for-in loop's conditions
+    var myObj = {a: 1, b: 2, c:3}, myKeys = [], i=0;
+    for (myKeys[i++] in myObj);
+    
+    document.write(myKeys);
+    
+    //Output:
+    //   a
+    //   b
+    //   c
+
+# Ohter Resources:
+* [MDN link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in)
+* [MSDN link](https://msdn.microsoft.com/library/55wb2d34.aspx)

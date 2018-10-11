@@ -23,4 +23,4 @@ title: Learn About Ruby Arrays
 
 ## References:
 
-*   [The official Ruby documentation for arrays</a>.
+*  <a href = "https://docs.ruby-lang.org/en/2.0.0/Array.html" target = '_blank'> The official Ruby documentation for arrays</a>.
