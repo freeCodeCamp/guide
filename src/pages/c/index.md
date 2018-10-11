@@ -54,6 +54,8 @@ This might not make a lot of sense right now, but you'll be learning more about 
 
 Finally, there are the brackets: `{` and `}`. These mark the beginning and end of the function. The open curly bracket (`{`) marks the beginning, and the close curly bracket (`}`) marks the end. Everything between the two is within the function.
 
+Talking about functions, one should keep in mind the wo functions - `scanf` and `printf` which are available in C language by default and one doesn't need to import any library to make use of these functions.
+
 Now let's look at the meat of the program:
 
 ```C
