@@ -3,13 +3,13 @@ title: How to Create a Twitch Account
 ---
 # What is Twitch?
 
-Twitch is a live streaming video platform that was founded in June 2011\. More than 1.7 million people broadcast on Twitch each month with 100 million unique visitors. Click <a href='https://www.twitch.tv/p/about' target='_blank' rel='nofollow'>here</a> to find out more about Twitch and it's statistics.
+Twitch is a live streaming video platform that was founded in June 2011. More than 2 million people broadcast on Twitch each month with over 100 million unique visitors.
 
 ## Setting up your Twitch Account
 
 Creating an account with Twitch enables you to interact with chat, get alerts when someone you know streams and maybe even stream yourself.
 
-1.  To create a new account for Twitch go to this <a href='https://passport.twitch.tv/users/new' target='_blank' rel='nofollow'>page</a>.
+1.  Click here to [create a new account](https://www.twitch.tv/signup).
 
 2.  You should now choose an appropriate username and password.
 
@@ -25,7 +25,7 @@ Creating an account with Twitch enables you to interact with chat, get alerts wh
 
 ### Changing some Settings
 
-Once you've logged in, go to the settings <a href='https://www.twitch.tv/settings' target='_blank' rel='nofollow'>page</a>.
+Once you've logged in, go to the [settings page](https://www.twitch.tv/settings).
 
 On this page you can change your profile picture, email address and write a bio. Unfortunately, Twitch doesn't allow you to change your username once you've signed up. However, you can change the capitalization.
 
@@ -33,7 +33,7 @@ On this page you can change your profile picture, email address and write a bio.
 
 ### We are currently moving away from using Twitch, we will update this page once details have been finalized.
 
-To follow FreeCodeCamp on Twitch, go to our channels <a href='https://www.twitch.tv/freecodecamp/profile' target='_blank' rel='nofollow'>page</a>. Press the follow button and enable alerts as show below. You will now be sent an email every time FreeCodeCamp goes live.
+To follow FreeCodeCamp on Twitch, go to our [channels page](https://www.twitch.tv/freecodecamp/profile). Press the follow button and enable alerts as show below. You will now be sent an email every time FreeCodeCamp goes live.
 
 > ![following freecodecamp](//discourse-user-assets.s3.amazonaws.com/original/2X/6/6ac2df7b5472a8c530b1feea677a315fdad2eea2.gif)
 
