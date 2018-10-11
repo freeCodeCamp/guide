@@ -116,7 +116,7 @@ this.setState(prevState => ({value: prevState.value + 1}));
 this.setState(({ value }) => ({ value: value + 1 }));
 ```
 
-Here you can deconstruct the argument, or value in this case, out of the callback and and just omit `prevState`.
+When only a limited number of fields in the state object is required, object destructing can be used for cleaner code.
 
 ### More Information
 
