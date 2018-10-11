@@ -19,7 +19,7 @@ int main(void) {
     return 0;
 }
 ```
-So, this looks a bit tedious.<br>Up until now every variable created had some special role. But right now, it would be great if we could just store multiple values in one place and get access to the values with their place in the line maybe (first value, second etc.). Also, we could use loops on them, which are things you will learn about later, but basically they do the same thing over and over again.
+So, this looks a bit tedious.<br>Up until now every variable created had some special role. But right now, it would be great if we could just store multiple values in one place and get access to the values with their place in the line maybe (first value, second etc.). Another way to look at this is, suppose you want to store a set of names, you need not create different variables for each name, instead you can create an array of names where each name has its unique identity or *index*. Also, we could use loops on them, which are things you will learn about later, but basically they do the same thing over and over again.
 eg. reading from the user, or printing out values. 
 
 ## Arrays in C
@@ -126,6 +126,10 @@ char string[] = "I do not want to count the chars in this.";
 char string2[] = {'C','h','a','r',' ','b','y',' ','c','h','a','r','\0'};
 char string3[] = "This is a string"
                  "with two lines";
+```
+Equivalent to the approach above, you can also create a pointer to a char array:
+```C
+char* string = "I do not want to count the chars in this.";
 ```
 
 ## Typical mistakes, tips
