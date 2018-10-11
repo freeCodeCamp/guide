@@ -103,6 +103,7 @@ public class StringDemo {
 ```
 This will result in - `String Length is : 17`
 
+<B>The answer is: 2 </B>   String objects are created.
 **Notes**
 
 1. String methods use zero-based indexes, except for the second argument of `substring()`.
