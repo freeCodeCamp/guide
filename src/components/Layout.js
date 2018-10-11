@@ -90,6 +90,7 @@ const Layout = ({ children }) => (
                   </div>
                   <FCCSearch />
                   <button
+                    aria-label='toggle navbar'
                     className='navbar-toggle'
                     onClick={toggleDisplaySideNav}
                     type='button'
