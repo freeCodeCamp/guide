@@ -9,6 +9,8 @@ Check to see if the value of ```nextProps``` is even.
 
 ## Solution:
 
+For this solution, you will use an ```if/then``` statement to check whether the value of ```nextProps``` is even. ```nextProps``` differs from ```props``` in that it is a value that has not been rendered in the UI yet so in the ```shouldComponentUpdate()``` method, you are essentially asking permission to update the UI with the ```nextProps``` value.
+
 ```jsx
 class OnlyEvens extends React.Component {
   constructor(props) {
