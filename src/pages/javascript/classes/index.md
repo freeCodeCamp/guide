@@ -10,6 +10,10 @@ But we could simulate the functionalities of a class by taking advantage of the 
 
 This article assumes that you have a basic understanding of <a href="/src/pages/javascript/prototypes/index.md">prototypes</a>.
 
+Classes are mainly used for the purpose of storing data in convient location in memory since you can have as many fields to store data 
+
+thus anything can be easily represented by a Java Class.
+
 For the sake of clarity let us assume that we want to create a class which can do the following
 
 ```javascript
