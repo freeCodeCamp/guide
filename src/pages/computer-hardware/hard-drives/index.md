@@ -1,8 +1,8 @@
 ---
-title: Hard Drives
+title: Storage Drives
 ---
 
-## Hard Drives
+## Hard Disk Drives (HDD)
 
 Hard drives are permanent storage devices for computers. There are several types of hard drives: traditional magnetic disks, new-generation, solid-state disks or hybrid disks which contain both SSD and magnetic storage.
 
@@ -25,6 +25,11 @@ Hard drives tend to be categorized by use case (capacity or performance). Home P
 Computers store data and files on hard drives for later use. Because hard drives have moving parts, it takes much longer to read a file from a hard drive than from RAM or cache memory on the CPU. You can think of a hard drive as a filing cabinet: a place to store things that we aren't using right now, but need later. You don't have enough room on your desk for all your papers, so you store things you aren't using right now in the filing cabinet. A computer does just this. It keeps files it is using right now in RAM, and files it might need later stay on the hard drive. Though RAM has access and response times that are two orders of magnitude faster when compared to hard drives, their typical capacity is 1-2 orders of magnitude less that a typical hard drive. You can fit reams of paper in the filing cabinet, but only a few on your desk.
 
 Data stored in RAM is said to be fleeting whereas data written out to a hard drive is persistent. Meaning if the power suddenly goes out, any data that was in RAM is lost and will not be there after power is restored and the computer is booted back up. However data that was written to the hard drive will be there when power is restored. For this reason, modern operating systems and applications will periodically write session and application related data that's currently in RAM out to the hard drive. This way if the power goes out, only 10 minutes of data entered in a newly created spreadsheet that was being worked on for 3 hours preceding the power outage and not yet saved to the hard drive. These files are usually denoted with a tilde~ and can be found in a temporary or temp directory or possibly located in a 'blind directory' whose contents are referred to as hidden files.
+
+## Solid State Drives (SSD)
+Solid State Drives uses integrated circuits to store data. Therefore, an SSD has no moving parts like the HDD. THis makes them less prone to physical shocks, run silently, and have faster read/write times thanks to not needing to locate the data physically.
+
+SSDs are usually only used as boot drives or storage for the mostly used applications in a person's computer. This is because eventhough its price has lessened a lot in recent years, it is still much more expensive than a traditional hard drive. Thus, HDDs are still used to store big chunks of data like our photos and videos, or in datacenters or server farms. 
 
 #### More Information:
 
