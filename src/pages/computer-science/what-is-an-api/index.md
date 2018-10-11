@@ -9,7 +9,9 @@ API stands for Application Programming Interface. APIs hide complexity from deve
 
 An interface sits on top of a complicated system and simplifies certain tasks, a middleman that saves you from needing to know all the details of what’s happening under the hood. A web API is the same sort of thing. It sits on top of a web service, like Twitter or YouTube, and simplifies certain tasks for you. It translates your actions into the technical details for the computer system on the other end.
 
-If you have ever programmed in an object-oriented language like Java or C++, an API is quite similar to the concept of a class. When we call a method on an object (such as ```.toString()```) we don't really care HOW the object is producing the result, all we care about is the string we get at the end. A call to an API works in the same way. For example, when we make a call to the Facebook API to retrieve a user's profile picture, we don't care about how the information is retrieved from the server. We just make the request to the API, let it handle all the complicated retrieval logic, and get our photo at the end of it all. 
+If you have ever programmed in an object-oriented language like Java or C++, an API is quite similar to the concept of a class. When we call a method on an object (such as ```.toString()```) we don't really care **how** the object is producing the result, all we care about is the string we get at the end. A call to an API works in the same way. For example, when we make a call to the Facebook API to retrieve a user's profile picture, we don't care about how the information is retrieved from the server. We just make the request to the API, let it handle all the complicated retrieval logic, and get our photo at the end of it all.
+
+APIs also exist between individual files, to simplify the coding process in large projects. That way, one programmer can tell another programmer that if they need a certain value, just call a certain function. Rather then reprogramming everything from the ground up.
 
 ## Why Are APIs Useful?
 
