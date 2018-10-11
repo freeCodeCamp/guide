@@ -42,3 +42,7 @@ Ionic Framework is a CSS framework that allows you to style your screens to look
 ### React Native
 
 React Native is a front end development framework that contains a lot of the building block elements for Android/iOS development and is a different kind of magic from Apache Cordova
+
+### Intel XDK
+
+The Intel XDK allows you build cross-platform apps for each and every store. It includes web services and plugins for content-rich, interactive apps, responsive apps runs on any device. This framework which is a complete range of tools that support development, emulation, testing, debugging and publishing. Recently, they made some big changes by supporting all the capabilities you love from developing mobile HTML5 apps (including Apache Cordova) for Android, iOS, and Windows 10 UAP. Now they have included software development capabilities for Node.JS-based, on-board, IoT apps too.
