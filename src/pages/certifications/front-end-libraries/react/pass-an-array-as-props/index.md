@@ -42,4 +42,3 @@ The `.join(", ")` method is used to take each element from within the array and 
 
 We are using the modularity of React in this example to display the tasks passed by two different components to a common component which renders the final HTML.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
