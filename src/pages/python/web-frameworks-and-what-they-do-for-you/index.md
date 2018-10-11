@@ -35,6 +35,12 @@ Django's primary goal is to ease the creation of complex, database-driven websit
 
 Some well-known sites that use Django include the Public Broadcasting Service, Instagram, Mozilla, The Washington Times, Disqus, Bitbucket, and Nextdoor. It was used on Pinterest, but later the site moved to a framework built over Flask.
 
+### Bottle
+
+Bottle is a Python micro framework that allows users to quickly get up and running with a Python web application.  It is a lot more lightweight than something more fully featured such as Django, and has no third-party dependencies relying only on the Python standard library.
+
+This makes it perfect for small web applications where some of the more advanced features of Django such as authentication, or database access would not be required.
+
 
 ### Flask 
 
@@ -43,3 +49,4 @@ Flask is a lightweight WSGI web application and a micro framework which it's cla
 It began as a simple wrapper around Werkzeug and Jinja and has become one of the most popular Python web application frameworks.
 
 Flask offers suggestions, but doesn't enforce any dependencies or project layout. It is up to the developer to choose the tools and libraries they want to use. There are many extensions provided by the community that make adding new functionality easy.
+
