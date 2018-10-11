@@ -99,6 +99,28 @@ Truth tables are a powerful tool. They can be used to express and evaluate simpl
 
 
 
+Here is the truth table for the OR operator
+
+
+| x | y | x OR y  |
+|---|---|---|
+| F  | F  | F  |
+| F  | T  | T  |
+| T  | F  | T  |
+| T  | T  | F  |
+
+Just like above the OR operator operates on two variables, notice that the only time the OR operator evaluates to True is when `x` & `y` negate eachother.
+
+Let's do one more, let's do the table for the Negation, this operates on one value instead of two
+
+
+| x | NOT x  |
+|---|---|
+| T  | F  |
+| F  | T  |
+
+This rule is simpler and it simply negates the original value of `x`
+
 #### More Information:
 
 - <a href='http://hyperphysics.phy-astr.gsu.edu/hbase/Electronic/truth.html' target='_blank' rel='nofollow'>Hyperphysics - Georgia State University</a>

@@ -1,10 +1,24 @@
 ---
-title: Limit Item Size Using the minmax Function
+title: Limit Item Size Using the minmax Function ##
 ---
-## Limit Item Size Using the minmax Function
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/responsive-web-design/css-grid/limit-item-size-using-the-minmax-function/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Using the *minmax* function in conjunction with the *repeat* function is exactly what this challenge describes, but this was not inherently obvious to me at first. The way to pass this challenge is to remove the **max-width** value within the *repeat* function, and then add the *minmax* function in place of the *repeat* **max-width** value.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Here is an **example** of what that looks like using a *before* and *after* approach:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### Before ###
+```css
+    grid-template-columns: repeat(3, 1fr);
+```
+### After ###
+```css
+    grid-template-columns: repeat(3, minmax(50px, 2fr));
+```
+---
+
+You may also check this embedded pen on Codepen to see the example in action, which you can resize to view the results:
+
+<p data-height="265" data-theme-id="0" data-slug-hash="EeGGze" data-default-tab="css,result" data-user="skywardcode" data-pen-title="limit-item-size-using-the-minmax-function" class="codepen">See the Pen <a href="https://codepen.io/skywardcode/pen/EeGGze/">limit-item-size-using-the-minmax-function</a> by skywardcode (<a href="https://codepen.io/skywardcode">@skywardcode</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+
+### Resources ###
+[Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/CSS/minmax)
