@@ -2,7 +2,7 @@
 title: Hello World Program
 ---
 
-##The simplest Hello World Program in Haskell
+## The simplest Hello World Program in Haskell
 ```haskell
 main :: IO ()
 main = do
