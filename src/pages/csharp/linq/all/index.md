@@ -5,6 +5,7 @@ title: All
 # All
 
 Returns true if all the elements in the collection matches the predicate.
+
 ### Signature
 ```csharp
 public static bool All<TSource>(this IEnumerable<TSource> source, Func<TSource, bool> predicate);
@@ -21,8 +22,9 @@ var fruits = new List<Fruit>() {
     new Fruit() { Id = 6, Name = "Mango",      Color = "Yellow", Quantity: 2   }
 };
 
-var hasLotsOfFruits = fruits.All(f => f.Quantity > 4); // False
+// All Fruit have a quantity greater than 0.
+var allFruitsHaveAQuantity = fruits.All(f => f.Quantity > 0); // true
+ // All Fruit have the Color Yellow
+var allYellow = fruits.All(f => f.Color == "Yellow"); // false
 
-var hasLotsOfRedFruits = fruits.Where(f => f.Color == "Red")
-                             .All(f => f.Quantity > 4); // True
 ```
