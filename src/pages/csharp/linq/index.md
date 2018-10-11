@@ -41,7 +41,7 @@ var orderedFruits = fruits.OrderByDescending(f => f.Quantity).ToList(); // {Grap
 var quantity = fruits.Sum(f => f.Quantity); // 53
 
 // Check if there are any green fruits
-var hasGreen = fruits.Where(f => f.Color == "Green").Any(); // false
+var hasGreen = fruits.Any(f => f.Color == "Green"); // false
 
 // Group fruits by color into a dictionary
 var fruitsByColor = fruits.GroupBy(g => g.Color).ToDictionary(k => k.Key, v => v.ToList()); // Dictionary of list of fruits by color
