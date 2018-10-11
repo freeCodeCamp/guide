@@ -6,8 +6,8 @@ const { isAStubRE } = require('./utils').commonREs;
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions;
-  let slug;
   if (node.internal.type === 'MarkdownRemark') {
+    let slug;
     const fileNode = getNode(node.parent);
     const { dir, name } = path.parse(fileNode.relativePath);
     if (name !== 'index' && dir !== '') {
