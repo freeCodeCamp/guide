@@ -13,14 +13,14 @@ title: If-Else Statement
 
 ```cpp
 
-  if (test expression)
-  {
-    //True-Block statements
-  }
-  else
-  {
-    //False-Block statements
-  }
+if (test expression)
+{
+  //statements that run if the test expression is true
+}
+else
+{
+  //statements that run if the test expression is false
+}
 ```
 
 ### Example of If-Else Statement
@@ -28,31 +28,32 @@ title: If-Else Statement
 If test expression is true :
 
 ```cpp
-  int a = 10;
-  if (a < 20)
-  {
-    //execute code of block
-  }
-  else
-  {
-    //skip code of block
-  }
-  //program continues
+
+int a=10;
+if (a < 20) // This expression is true, so...
+{
+  //...the code in this block gets executed, and...
+}
+else
+{
+  //...the code in this block gets skipped.
+}
+//program continues
 ```
 
 If test expression is false :
 
 ```cpp
-  int a = 10;
-  if (a > 20)
-  {
-    //skip code of block
-  }
-  else
-  {
-    //execute code of block
-  }
-  //program continues
+int a=10;
+if (a>20) // This expression is false, so this time...
+{
+  //...this code gets skipped...
+}
+else
+{
+  //...and this code executes instead.
+}
+//program continues
 ```
 
 ### Example in C++:
@@ -104,6 +105,10 @@ You entered a negative number: -200
 This step is always printed
 ```
 
+<a href='https://repl.it/MzBq' target='_blank' rel='nofollow'>Try the code yourself</a>
+
+ **Feel free to ask any queries on FreeCodeCamp's GitHub page or [FreeCodeCamp's Forum .](https://forum.freecodecamp.org/)**
+=======
 [Try the code yourself](https://repl.it/MzBq)
 
 

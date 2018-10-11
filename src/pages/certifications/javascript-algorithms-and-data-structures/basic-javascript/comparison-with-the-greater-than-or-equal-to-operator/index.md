@@ -3,8 +3,18 @@ title: Comparison with the Greater Than Or Equal To Operator
 ---
 ## Comparison with the Greater Than Or Equal To Operator
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-greater-than-or-equal-to-operator/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+* `>=` (Greater Than or Equal To) is a logical operator that returns true case the value on the left is the **same or higher** than the one on the right.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+## Basic Solution
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```javascript
+function testGreaterOrEqual(val) {
+  if (val >= 20)
+    return "20 or Over";
+  
+  if (val >= 10)
+    return "10 or Over";
+
+  return "Less than 10";
+}
+```
