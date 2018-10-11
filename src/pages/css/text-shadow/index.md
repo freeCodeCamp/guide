@@ -40,9 +40,15 @@ The `color` value is optional.
   text-shadow: 1px -2px 5px #a4a4a4;
 ```
 
+### Example of multiple shadows
+Multiple shadows can be used for giving text a solid outline on all 4 directions, like a bubble-writing effect.
+
+```css
+  text-shadow: -1px 0 1px black, 0 1px 1px black, 1px 0 1px black, 0 -1px 1px black;
+```
 
 ### More Information:
 
-MDN Documentation: <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow' target='_blank' rel='nofollow'>MDN</a>
+MDN Documentation: <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow' target='_blank' rel='nofollow'>MDN Web Docs - CSS text-shadow</a>
 
 
