@@ -9,6 +9,9 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
+Video guide on how to find the determinant of 3x3 matrix from khan acdemy site 
+<a href='https://cdn.kastatic.org/KA-youtube-converted/u00I3MCrspU.mp4/u00I3MCrspU.mp4#t=0' target='_blank' rel='nofollow'>
+
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
