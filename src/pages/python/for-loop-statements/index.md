@@ -39,8 +39,8 @@ Some ways in which For loops are used:
 **Iterate over the range() function**
 
 ```python
-for i in range(10):
-    print(i)
+for x in range(10):
+    print(x)
 ```
 Rather than being a function, range is actually an immutable sequence type.
 The output will contain results from lower bound i.e 0 to the upper bound i.e 10 but excluding 10.By default the lower bound or the starting index is set to zero.
@@ -85,7 +85,7 @@ One more thing to add. In Python 3.x, the xrange function does not exist anymore
 **Iterate over values in a list or tuple**
 
 ```python
-A = ["hello", 1, 65, "thank you", [2, 3]]
+A = ["hello", 1, 65, "10Q", [2, 3]]
 for value in A:
     print(value)
 ```
