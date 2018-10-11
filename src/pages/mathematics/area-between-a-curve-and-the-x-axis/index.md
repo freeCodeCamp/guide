@@ -16,9 +16,9 @@ To find the area under the curve y = f(x) between x = a and x = b, integrate y =
 
 ## Some Examples
 
-Curves which are entirely above the x-axis.
 
-<img src="https://qph.fs.quoracdn.net/main-qimg-c1961313f643ad571181d5ee757cc7cb" height="300" width="400">
+
+
 
 NOTE: Areas under the x-axis will come out negative and areas above the x-axis will be positive. This means that you have to be careful when finding an area which is partly above and partly below the x-axis.
 
