@@ -31,6 +31,6 @@ Lastly, learn to integrate 3rd party libraries and Firebase services to add func
 ### Developing Android Apps
 
 The best part of learning Android is that the courses and material available out there online are free.
-The link to the course is here - [Developing Android Apps] (https://udacity.com/course/new-android-fundamentals--ud851).
+The link to the course is here - [Developing Android Apps](https://udacity.com/course/new-android-fundamentals--ud851).
 
 
