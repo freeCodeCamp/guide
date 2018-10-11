@@ -1,7 +1,7 @@
 ---
 title: Useful Commands
 ---
-# Useful Vim Commands
+# Useful Commands
 
 ## Basic functionality
 
