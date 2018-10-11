@@ -3,8 +3,43 @@ title: Create a Stateful Component
 ---
 ## Create a Stateful Component
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/front-end-libraries/react/create-a-stateful-component/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+#### Hint 1 :
+```JSX
+class StatefulComponent extends React.Component {
+  constructor(props) {
+    super(props);
+    // initialize state here
+        // "This" area may be a good place to use "dot" notation.
+        // dont forget to describe "name" property inside the state and assign your name to a property of "name". 
+  }
+  render() {
+    return (
+      <div>
+        <h1>{this.state.name}</h1>
+      </div>
+    );
+  }
+};
+```
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+## Solution 
+```JSX
+class StatefulComponent extends React.Component {
+  constructor(props) {
+    super(props);
+    // initialize state here
+    
+    this.state = {
+      name : "Name"
+    }
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+  }
+  render() {
+    return (
+      <div>
+        <h1>{this.state.name}</h1>
+      </div>
+    );
+  }
+};
+```

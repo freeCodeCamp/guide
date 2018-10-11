@@ -10,7 +10,7 @@ Use nested components as in the previous challemge to render components.
 ### Solution
 
 The following is the solution to the chakkenge, where it render Citrus and NonCitrus in a component which is then rendered in another:
-````javascript
+```jsx
 class Fruits extends React.Component {
   constructor(props) {
     super(props);
@@ -39,4 +39,8 @@ class TypesOfFood extends React.Component {
     );
   }
 };
-````
+```
+
+### Relevant Links:
+  - [Components and Props](https://reactjs.org/docs/components-and-props.html)
+  - [Nested Components](http://www.reactjstutorial.net/nested-components.html)
