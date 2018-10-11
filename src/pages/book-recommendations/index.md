@@ -32,11 +32,19 @@ title: Books to Read for Programmers
 - [Amazon Smile](https://smile.amazon.com/Self-Taught-Programmer-Definitive-Programming-Professionally-ebook/dp/B01M01YDQA?sa-no-redirect=1)
 - ISBN-13: 978-1520288178
 
+*You Don't Know JS (book series)*
+- https://github.com/getify/You-Dont-Know-JS
+- ISBN-13: 9781491924464
+
+*Soft Skills: The software developer's life manual*
+- [Amazon Smile](https://smile.amazon.com/Soft-Skills-software-developers-manual/dp/1617292397?pldnSite=1)
+- ISBN-13: 9781617292392
+
 ## Algorithms
 
 *Introduction to Algorithms, 3rd Edition (MIT Press)*
 - [Amazon Smile](https://smile.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844/)
-- ISBN-13: 978-0262033848 
+- ISBN-13: 978-0262033848
 
 ## C-lang
 
@@ -84,6 +92,10 @@ title: Books to Read for Programmers
 *Automate the Boring Stuff With Python*
 - http://automatetheboringstuff.com/
 - ISBN-13: 978-1593275990
+
+*Core Python Applications Programming (3rd Edition) by Wesley J Chun*
+- [Amazon Smile](https://www.amazon.com/Core-Python-Applications-Programming-3rd/dp/0132678209)
+- ISBN-13: 978-0132678209
 
 ## Soft Skills
 
@@ -157,5 +169,5 @@ title: Books to Read for Programmers
 - [Amazon Smile](https://www.amazon.com/GATE-Computer-Science-Information-Technology/dp/194658178X)
 - ISBN-13: 978-1946581785
 
-This list was compiled from multiple suggestion threads on Reddit and Stackoverflow. 
+This list was compiled from multiple suggestion threads on Reddit and Stackoverflow.
 Please feel free to add more that you have found useful!
