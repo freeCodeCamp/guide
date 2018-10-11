@@ -50,5 +50,14 @@ in which:
 - `REMOTE-NAME` is the name of the remote repository to which you want to push the changes to
 - `BRANCH-NAME` is the name of the remote branch you want to push your changes to
 
+### Push ignoring Git's pre-push hook
+By default `git push` will trigger the `--verify` toggle.  This means that git will execute any client-side pre-push script that may have been configured.  If the pre-push scripts fails, so will the git push.  (Pre-Push hooks are good for doing things like, checking if commit messages confirm to company standards, run unit tests etc...).  Occasionally you may wish to ignore this default behavior e.g. in the scenario where you wish to push your changes to a feature branch for another contributor to pull, but your work-in-progress changes are breaking unit tests.  To ignore the hook, simply input your push command and add the flag `--no-verify` 
+
+```bash
+git push --no-verify
+```
+
+
 ### More Information:
 - [Git documentation - push](https://git-scm.com/docs/git-push)
+- [Git hooks](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks)

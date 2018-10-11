@@ -94,7 +94,7 @@ This will result in - `String Length is : 17`
 2. The String class is final - it's methods can't be overridden.
 3. When the String literal is found by JVM, it is added to string literal pool.
 4. String class posses a method name `length()`, while arrays have an attribute naming length.
-5. Strings are immutable and can not be changed.
+5. In java, string objects are immutable. Immutable simply means unmodifiable or unchangeable. Once string object is created its data or state can't be changed but a new string object is created.
 
 
 

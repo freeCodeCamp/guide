@@ -53,6 +53,8 @@ From terminal:
     Python 3.5.1
     $ python3.6 --version
     Python 3.6.2 
+    $ python3.7 --version
+    Python 3.7.1
 
 ## Python Interpreter Interactive Mode
 

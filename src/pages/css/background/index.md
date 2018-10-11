@@ -129,6 +129,16 @@ must be used in a certain order. The order is:
 * attachment
 * position
 
+### Multiple Background Images
+You can specify multiple background images in a single background property.
+```css
+body {
+  background: url("barn.jpg"), url("stars.jpg"), linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5));
+}
+```
+The first image (or gradient) specified is the most on top, the second comes after, and so on. 
+If one of the elements is not correct due to its URL or its syntax, the whole line will be ignored by the browser.
+
 ### Some Basic Background Properties of CSS
 The CSS background properties are used to define the background effects for elements.
 
