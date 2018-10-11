@@ -7,8 +7,8 @@ Classes are groups of variables and operations on them. A class can have variabl
 
 A class may contain any of the following variable types.
 
-* Class Variables: These are the variables that are declared inside the class definition, outside any method, with the static keyword. A class variable is shared across all the instances of a class.
-* Instance variables: The difference with the class variables is that instance variables are initialized inside the class constructor and they are not shared across all the objects.
+* Class Variables: These are the variables that are declared inside the class definition, outside any method, with the static keyword. A class variable is shared across all the instances of a class. Class variables are also known as the static variables, they are initialised only once at the time of the compilation of the class hence only single copy of this is available for all the instances.
+* Instance variables: The difference with the class variables is that instance variables are initialized inside the class constructor and they are not shared across all the objects. At the time of the instantiation a new copy of the instance variable is created.
 
 ```java
 public class Example {
