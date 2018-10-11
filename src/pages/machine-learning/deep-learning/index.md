@@ -42,6 +42,7 @@ These days there are a variety of deep learning frameworks that allow you specif
 * <a href="https://keras.io/">Keras</a>
 * <a href="https://caffe2.ai/">Caffe2</a>
 * <a href="https://github.com/gluon-api/gluon-api/">Gluon</a>
+* <a href="http://deeplearning.net/software/theano/">Theano</a>
 
 ### More Information:
 * <a href="http://www.deeplearningbook.org">Deep Learning Textbook</a> 
