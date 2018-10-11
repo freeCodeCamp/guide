@@ -3,13 +3,24 @@ title: Link
 ---
 ## Link
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/selectors/pseudo/link/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `:link` CSS pseudo-class is used to target all unvisited elements (e.g. anchor `<a>` elements) that have an `href` attribute, even if the `href` has an empty value.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+General Syntax:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```css
+target:link
+```
+
+## Example
+
+```css
+/* Selects any <a> that has not been visited yet */
+a:link { 
+    color: red;
+}
+```
+
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+- [:link (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/:link)
