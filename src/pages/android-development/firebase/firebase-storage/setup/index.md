@@ -40,11 +40,11 @@ Firebase Guide](https://firebase.google.com/docs/storage/android/upload-files)
 * [Download files to Android
 Firebase Guide](https://firebase.google.com/docs/storage/android/download-files)
 
-#Sample Projects from Firebase Developers
+# Sample Projects from Firebase Developers
 You can follow up these samples from Firebase developers to get started Firebase storage
 Firebase Quickstart-Android [android-sample](https://github.com/firebase/quickstart-android/tree/master/storage) 
 
-#Note
+# Note
 You may have seen before or from any other resources, in adding dependencies 'compile' keyword is used since 'implementation' what i have added here. 
 Then don't get confused because Google now deprecated 'compile' and in place of that you need to use 'implementation'
 
