@@ -18,6 +18,7 @@ Core features can be explored using the [Electron API demos](https://github.com/
 Some apps built using Electron include:
 * [Atom](https://atom.io/) (GitHub's open-source text-editor)
 * [Visual Studio Code](https://code.visualstudio.com) (Microsoft's open-source text-editor)
+* [Skype](https://www.skype.com/) (Microsoft's popular video chat application)
 * [Slack](https://slack.com/) (A messaging app for teams)
 * [Discord](https://discordapp.com) (A popular messaging app for gamers)
 * [Github Desktop](https://desktop.github.com/) (Official Github Desktop Client)
