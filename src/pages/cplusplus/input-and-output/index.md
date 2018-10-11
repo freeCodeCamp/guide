@@ -121,6 +121,8 @@ int main()
 When chained, the extraction operator will first read data from `cin` to fill `a`, and then read data to fill `b`.
 
 
+C's standard printf and scanf statements can also be used with c++ by importing '<cstdio>' header file.
+
 
 ## Sources
 1. http://www.cplusplus.com/reference/ostream/ostream/operator%3C%3C/
