@@ -2,8 +2,11 @@
 title: For Loop
 ---
 
-# For Loop
 A For Loop is a repetitive statement that is used to check for some condition and then based upon the condition a block of code is executed repeatedly until the specified condition is satisfied.
+
+The for loop is distinguished from other looping statements through an explicit loop counter or loop variable which allows the body of the loop to know the exact sequencing of each iteration.
+
+Hence a for loop is a repetition control structure that allows you to efficiently write a loop that needs to execute a specific number of times.
 
 ## Syntax
 
@@ -35,14 +38,12 @@ The update statement executes after the execution of the body of the loop.
 ## IMPLEMENTATION:
 ```C++
 #include <iostream>
-using namespace std;
-
-int main ()
-{
+using namespace std; // Here we use the scope resolution operator to define the scope of the standar functions as std::
+ 
+int main () {
    // for loop execution
-   for( int a = 10; a <20; a = a + 1 )
-   {                                      
-      cout << "Value of a: " << a << ;
+   for( int a = 10; a < 20; a = a + 1 ) { // The loop will run till the value of a is less than 20
+      cout << "value of a: " << a << endl;
    }
 
    return 0;
