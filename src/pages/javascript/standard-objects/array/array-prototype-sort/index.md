@@ -3,7 +3,7 @@ title: Array.prototype.sort
 ---
 ## Array.prototype.sort
 
-This method both returns your array sorted and sort the original array.
+This method sorts the elements of an array in place and returns the array.
 
 The `sort()` method follows the **ASCII order**!
 
@@ -33,7 +33,7 @@ console.log(myArray.sort());   // [1, 13, 2, 23] numbers are treated like string
 ```
 
 
-# Advance usage
+# Advanced usage
 
 The `sort()` method can also accept a parameter: `array.sort(compareFunction)`
 
@@ -53,7 +53,6 @@ console.log(myArray.sort(compare));   // [ 1, 2, 13, 23 ]
 myArray = [3, 4, 1, 2];
 sortedArray = myArray.sort(function(a, b){.....});   // it depends from the compareFunction
 ```
-
-
-
-
+#### More Information:
+<!-- Please add any articles you think might be helpful to read before writing the article -->
+[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)

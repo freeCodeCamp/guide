@@ -78,6 +78,8 @@ Watch the video demonstration or follow the steps below it:
 
 2. Click the <kbd>Edit this file</kbd> pencil icon and make your changes to the file in GitHub-flavored Markdown.
 
+    > If the icon is greyed out and giving you the warning "You must be on a branch to make or propose changes to this file", then you are likely on another person's tree. At the top left of the page, there is a drop down box which says "Tree: #######". Click on the drop down and change the branch to "master". The pencil icon should now be clickable.
+
 3. Scroll to the bottom of the screen and add a commit message explaining your changes.
 
 4. Then select the radio button option for **"Create a new branch for this commit and start a pull request"** and click <kbd>Propose file changes</kbd>.
@@ -487,6 +489,7 @@ To check for grammar and spelling, we recommend using an app like [Grammarly](ht
 
 - [VS Code](https://code.visualstudio.com/) - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 - [Sublime Text 3](https://www.sublimetext.com/docs/3/spell_checking.html)
+- [Atom](https://atom.io) - [Code Spell Checker](https://atom.io/packages/linter-spell)
 
 To check your writing style, we recommend the  [Hemingway App](http://www.hemingwayapp.com/).
 

@@ -3,8 +3,20 @@ title: Define an HTML Class in JSX
 ---
 ## Define an HTML Class in JSX
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/front-end-libraries/react/define-an-html-class-in-jsx/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+- HTML and JSX may seem that they are exactly the same but there are a few differences between them.
+- One of these differences is the naming convention.
+- HTML attributes and event references in JSX become camelCase(onclick => onClick).
+- There may also be some words reserved in JavaScript.For instance the word "class" cant be use to define HTML classes
+in JSX.Therefore instead of using "class" you can use "className".
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+## Hint 1:
+- You may want to change "class" to "className".
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+## Solution
+```javascript
+const JSX = (
+  <div className = "myDiv"> 
+    <h1>Add a class to this div</h1>
+  </div>
+);
+```

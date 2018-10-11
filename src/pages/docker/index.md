@@ -1,13 +1,36 @@
 ---
-title: Docker 
+title: Docker
 ---
 ## Docker
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/quadratic-equations/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Docker is an open platform to build, ship, and run distributed applications. It is written in Go. It was first released in 2013 and is developed by Docker, Inc.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Docker is used to run packages called "containers". Containers are isolated from each others and from the OS. These are more lightweight than virtual machines as they do not use the host machine to run an operating system.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Containerization, which is a way of deploying and running applications, runs isolated services which run natively on the Linux kernel. Memory can be set manually for each container in Docker.
+
+Docker is used to simplify configurations, and ensure a smooth continuous integration and deployment flow. Specific containers can be specified for development, staging, and production environments. A true implementation of a container in production, according to the Docker manual, is to run it as a service, using the  `docker-compose.yml` file for setup. This is a YAML file that defines how Docker containers should behave in production.
+
+One of Docker's biggest advantages is that it can be used by a team using different operateing systems to build projects without needing to worry about software conflicts.
+
+### Installation
+
+* Ubuntu: `sudo apt install docker`
+
+* RedHat: `yum install docker-ce`
+
+* Windows / macOS: [Download](https://www.docker.com/get-started)
+
+* Linux:
+
+```
+curl -fsSL https://get.docker.com -o get-docker.sh
+sh get-docker.sh
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+
+* For download and documentation check the docker official site: [Docker official site](https://www.docker.com)
+* For more on containerization, checkout [Search IT Operations](https://searchitoperations.techtarget.com/definition/application-containerization-app-containerization)
+* A Docker 101 course [Docker 101](https://github.com/docker/labs/tree/master/beginner/)
+

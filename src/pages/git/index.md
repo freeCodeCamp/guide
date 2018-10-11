@@ -36,7 +36,9 @@ The **staging area** is a file (also called the "index", "stage", or "cache") th
 With three sections, there are three main states that a file can be in at any given time: committed, modified, or staged. You *modify* a file any time you make changes to it in your working directory. Next, it's *staged* when you move it to the staging area. Finally, it's *committed* after a commit.
 
 ### Install Git <a name="install-git"></a>
-You can install Git by visiting the <a href='https://git-scm.com/downloads' target='_blank' rel='nofollow'>Git Downloads page</a> and finding the right version for your operating system.
+- Ubuntu: `sudo apt-get install git`
+- Windows: <a href="https://git-scm.com/download/win" target="_blank">Download</a>
+- Mac: <a href="https://git-scm.com/download/mac" target="_blank">Download</a>
 
 ### Configure the Git Environment <a name="configure-the-git-environment"></a>
 Git has a `git config` tool that allows you to customize your Git environment. You can change the way Git looks and functions by setting certain configuration variables. Run these commands from a command line interface on your machine (Terminal in Mac, Command Prompt or Powershell in Windows).

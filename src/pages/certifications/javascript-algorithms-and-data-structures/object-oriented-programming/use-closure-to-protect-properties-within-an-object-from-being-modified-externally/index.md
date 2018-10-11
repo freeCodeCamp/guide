@@ -3,8 +3,21 @@ title: Use Closure to Protect Properties Within an Object from Being Modified Ex
 ---
 ## Use Closure to Protect Properties Within an Object from Being Modified Externally
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/object-oriented-programming/use-closure-to-protect-properties-within-an-object-from-being-modified-externally/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+### Method
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Just like in the example given, rather than declaring the `weight` variable with the `this` keyword, the `let` keyword must be used to declare it as a private variable. This way it can only be accessed inside the `Bird` function. The `getWeight` method must then be added inside the `Bird` function to access the `weight` variable. 
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### Solution
+
+```javascript
+
+function Bird() {
+  let weight = 15;
+  
+  this.getWeight = function() {
+    return weight;
+  };
+  
+}
+
+```

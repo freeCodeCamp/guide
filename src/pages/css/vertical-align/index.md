@@ -1,33 +1,29 @@
 ---
 title: Vertical Align CSS  
 ---
-## Vertical Align
+## Vertical-Align
 
-/* keyword values */
-vertical-align: baseline;
-vertical-align: sub;
-vertical-align: super;
-vertical-align: text-top;
-vertical-align: text-bottom;
-vertical-align: middle;
-vertical-align: top;
-vertical-align: bottom;
+```vertical-align```is a CSS property used to vertically align an image.
 
-/* <length> values */
-vertical-align: 10em;
-vertical-align: 4px;
-
-/* <percentage> values */
-vertical-align: 20%;
-
-/* Global values */
-vertical-align: inherit;
-vertical-align: initial;
-vertical-align: unset;
-
-Note that vertical-align only applies to inline and table-cell elements: you can't use it to vertically align block level elements.
+For example, you can be you ```vertical-align``` like this to align an image:
+```
+img {
+    vertical-align: top;
+}
+```
+These are the valid values for ```vertical-align```:
+* ```baseline``` - This is the default value. It aligns the element to the baseline of the parent element
+* ```length``` - This alligns the baseline of this element at a given length above or below the baseline of the parent. You can use pixals, em, %, etc.
+* ```sub``` - This aligns the element as if it were the subscript of the parent element
+* ```super``` - This aligns the element as if it were the superscript of the parent element
+* ```top``` - This aligns the element so that the top of this element is in align with the top of the tallest element on the line
+* ```bottom``` - This aligns the element so that the bottom of this element is in align with the bottom of the lowest element on the line
+* ```middle``` - This aligns the element so that it is in the middle of the parent element
+* ```text=top``` - This aligns the top of this element so that it is aligned with the top of the parent element's top
+* ```text-bottom``` - This aligns the bottom of this element so that it is aligned with the bottom of the parent element's text
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
+* [CSS vertical-align](https://www.w3schools.com/cssref/pr_pos_vertical-align.asp)
 
+* [CSS-Tricks vertical-align](https://css-tricks.com/almanac/properties/t/text-align/)

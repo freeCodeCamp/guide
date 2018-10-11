@@ -1,10 +1,20 @@
 ---
 title: Size Your Images
 ---
+
 ## Size Your Images
+For sizing your images, first create your class in your style tag.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/responsive-web-design/basic-css/size-your-images/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+An example:
+```
+<style>
+  .fixed-image {
+    width: 500px;
+    height: auto;
+  }
+  ```
+  
+  You can then add the class to your image:
+  ```
+  <img class="fixed-image" src="http://www.example.com/picture"/>
+  ```

@@ -1,7 +1,7 @@
 ---
 title: Python Using Pip
 ---
-We have seen how to use `import` statements to `import` various modules and to use them in our programs. Python itself comes with several built-in modules, but the python community has more to offer.
+We have seen how to use `import` statements to `import` various modules and to use them in our programs. Python itself comes with several built-in modules, but the Python community has more to offer.
 
 > It's the modules that makes python so powerful!
 
@@ -11,7 +11,9 @@ The simplest way is to use `pip`
 
     pip install <module_name>
 
-If you have used `npm`, then you can think of it as _npm_ of python.
+If you have used `npm`, then you can think of it as _npm_ of Python.
+
+Side note: The difference is that with npm, `npm install` by default installs packages locally to a project, whereas `pip install` by default installs globally.  To install modules locally, you need to create and activate what is called a [virtual environment](http://docs.python-guide.org/en/latest/dev/virtualenvs/), so `pip install` installs to the folder where that virtual environment is located, instead of globally (which may require administrator privileges).
 
 Last time, in <a>`import-statements`</a> wiki we used `requests` module as an example. As it is a third party module we have to install it separately after installing python.
 
@@ -32,3 +34,33 @@ Using `easy_install` is also simple. The syntax is:
     easy_install <module_name>
 
 However, `pip` is more popular than using `easy_install`.
+
+
+**Note:** On some systems where both Python 2 & Python 3 is installed, `pip` and `pip3` will do different things. `pip` installs the Python 2 version of the package, and `pip3` will install the Python 3 version of the package. For more information on the difference between Python 2 & 3, see [this](https://guide.freecodecamp.org/python/python-2-vs-python-3) guide. 
+You can check the `pip` version by doing `pip --version` and/or `pip3 --version`:
+
+    pip3 --version
+    pip 18.0 from /usr/local/lib/python3.5/dist-packages/pip (python 3.5)
+    
+
+We can also create a txt file containing a list of modules which should be installed using pip. 
+For example, we could create the file `requirements.txt` and its content:
+
+    Kivy-Garden==0.1.4
+    macholib==1.5.1
+    idna==2.6
+    geoip2nation==0.1.2
+    docutils>=0.14
+    Cython
+    
+ In this file we could also set a version for the installation.
+ After this, by invoking pip with:
+ 
+     pip install -r <FILE CONTAINING MODULES>
+     
+              OR IN OUR CASE
+     
+     pip install -r requirements.txt
+     
+ Should install all the modules listed on the file.
+

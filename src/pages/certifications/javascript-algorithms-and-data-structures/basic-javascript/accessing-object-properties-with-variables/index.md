@@ -1,10 +1,21 @@
 ---
 title: Accessing Object Properties with Variables
 ---
+
 ## Accessing Object Properties with Variables
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-javascript/accessing-object-properties-with-variables/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Here's a working solution in case you are stuck:
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+```js
+// Setup
+var testObj = {
+  12: "Namath",
+  16: "Montana",
+  19: "Unitas"
+};
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+// Only change code below this line;
+
+var playerNumber = 16;       // Change this Line
+var player = testObj[playerNumber];   // Change this Line
+```

@@ -10,7 +10,7 @@ There are two categories that we can break this into: integers, and floating poi
 
 Floating point numbers are numbers with a decimal. Like integers, -321, 497, 19345, and -976812 are all valid, but now 4.5, 0.0004, -324.984, and other non-whole numbers are valid too.
 
-C allows us to choose between several different options with our data types because they are all stored in different ways on the computer. As a result, it is important to be aware of the abilities and limitations of each data type to choose the right one.
+C allows us to choose between several different options with our data types because they are all stored in different ways on the computer. As a result, it is important to be aware of the abilities and limitations of each data type to choose the most appropriate one.
 
 ## Integer data types
 
@@ -46,14 +46,14 @@ The `long long` data type is overkill for just about every application, but C wi
 ## Picking the right data type
 C makes pick the data type, and makes us be very specific and intentional about the way that we do this. This gives you a lot of power over your code, but it's important to pick the right one.
 
-In general, you should pick the minimum for your task. If you know you'll be counting from 1 to 10, you don't need a long and you don't need a double. If you know that you will never have negative values, look into using the `unsigned` variants of the data types. By providing this functionality rather than doing it automatically, C is able to produce very light and efficient code. However, it's up to you as the programmer to understand the abilities and limitations, and choose accordingly.
+In general, you should pick the minimum for your task. If you know you'll be counting from integer 1 to 10, you don't need a long and you don't need a double. If you know that you will never have negative values, look into using the `unsigned` variants of the data types. By providing this functionality rather than doing it automatically, C is able to produce very light and efficient code. However, it's up to you as the programmer to understand the abilities and limitations, and choose accordingly.
 
 We can use the sizeof() operator to check the size of a variable. See the following C program for the usage of the various data types:
 
+```c
 #include <stdio.h>
 
 int main()
-
 {
     int a = 1;
     
@@ -77,18 +77,17 @@ int main()
     //can use sizeof(c) above as well
  
     printf("Bye! See you soon. :)\n");
-     return 0;
+    return 0;
 }
-    
+```
+
 ## Output:
 
-Hello World!
-Hello! I am a character. My value is G and my size is 1 byte.
-Hello! I am an integer. My value is 1 and my size is 4  bytes.
-Hello! I am a double floating point variable. My value is 3.140000 and my size i
-s 8 bytes.
+Hello World!  
+Hello! I am a character. My value is G and my size is 1 byte.  
+Hello! I am an integer. My value is 1 and my size is 4  bytes.  
+Hello! I am a double floating point variable. My value is 3.140000 and my size is 8 bytes.  
 Bye! See you soon. :)
-
 
 ## The Void type
 The void type specifies that no value is available. It is used in three kinds of situations:

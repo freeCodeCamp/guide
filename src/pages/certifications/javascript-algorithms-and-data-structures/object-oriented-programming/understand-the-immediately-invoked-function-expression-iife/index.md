@@ -3,8 +3,16 @@ title: Understand the Immediately Invoked Function Expression (IIFE)
 ---
 ## Understand the Immediately Invoked Function Expression (IIFE)
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/object-oriented-programming/understand-the-immediately-invoked-function-expression-iife/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+### Method 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The first test case asks you to make the function anonymous. To do this simply remove the name of the function as seen in the example. The function must then be wrapped in curly brackets with another set of curly brackets at the end to immediatly call the function.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### Solution
+
+```javascript
+
+(function() {
+  console.log("A cozy nest is ready");
+})();
+
+```

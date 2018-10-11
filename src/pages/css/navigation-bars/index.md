@@ -5,6 +5,16 @@ title: Navigation Bars
 
 Navigation bars are a very important element to any website. They provide the main method of navigation by providing a main list of links to a user. There are many methods to creating a navigation bar. The easiest way to create a navigation bar is to use an unordered list and style it with CSS.
 
+Navigation Bars are mostly made up of `<ul>` lists that are horizontally arranged and styled.
+
+While styling the navigation bars, it's common to remove the extra spacing created by the `<ul>` and `<li>` tags as well as the bulletpoints that are automatically inserted:
+
+```css
+   list-style-type: none;
+   margin: 0px;
+   padding: 0px;
+```   
+
 **Example:**
 
 There are two parts to any navigation: the HTML and the CSS. This is just a quick example.
@@ -54,4 +64,5 @@ There are two parts to any navigation: the HTML and the CSS. This is just a quic
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 More Navigation Examples: [W3Schools](https://www.w3schools.com/css/css_navbar.asp)
+
 

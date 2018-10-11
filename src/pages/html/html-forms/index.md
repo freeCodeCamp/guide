@@ -16,6 +16,8 @@ Form contains control elements which are wrapped around ```<form></form>``` tags
 - ```range```
 - ```search```
 - ```date```
+- ```time```
+- ```week```
 - ```color```
 - ```datalist```
 
@@ -62,3 +64,10 @@ The HTML `<form>` tag is used to create an HTML form and it has following syntax
          form elements like input, textarea etc.
     </form>
 ```
+    
+If the form method is not defined then it will default to "GET".
+
+The form tag can also have an attribute named "target" which specifies where the link will open. It can open in the browser tab, a frame, or in the current window.
+
+The action attribute defines the action to be performed when the form is submitted.
+Normally, the form data is sent to a web page at the Script URL when the user clicks on the submit button. If the action attribute is omitted, the action is set to the current page.

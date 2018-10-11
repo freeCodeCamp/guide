@@ -1,10 +1,16 @@
 ---
 title: Render HTML Elements to the DOM
 ---
-## Render HTML Elements to the DOM
+# Render HTML Elements to the DOM
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/front-end-libraries/react/render-html-elements-to-the-dom/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+To render an element to the DOm, we use the following syntax
+````javascript
+ReactDOM.render(<item to be rendered>, <where to be rendered>);
+````
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+## Solution
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Following the syntax, we would add this line of code to render the JSX element to the div with the id of challenge-node.
+````javascript
+ReactDOM.render(JSX,document.getElementById('challenge-node'));
+````

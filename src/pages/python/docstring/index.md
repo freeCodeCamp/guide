@@ -57,3 +57,9 @@ def is_less_than_five(some_number):
   '''
   # Your code goes here
 ```
+
+### Some useful links:
+Numpy and Google Docstrings are two commonly used approaches:
+   * Google: http://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html
+   * Numpy: http://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_numpy.html
+Also, refer to some good old PEP commentary: https://www.python.org/dev/peps/pep-0257/

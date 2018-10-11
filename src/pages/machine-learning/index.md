@@ -3,13 +3,15 @@ title: Machine Learning
 ---
 ## Machine Learning
 
-As a pioneer in artificial intelligence Arthur Samuel in 1959 defined Machine Learning as "the field of study that gives computers the ability to learn without being explicitly programmed."
+Arthur Samuel, a pioneer in artificial intelligence, defined Machine Learning in 1959 as "the field of study that gives computers the ability to learn without being explicitly programmed."
 
 A more formal definition of Machine Learning is provided by Prof Tom Mitchell of CMU:
 
 > "A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P if its performance at tasks in T, as measured by P, improves with experience E."
 
 Consider the example of a Machine Learning algorithm that plays chess. In this example, `E` refers to the experience of playing chess, `T` is the task of playing chess, and `P` denotes the probability that the program will win the next game of chess.
+
+Machine learning is exactly like how a human being learns. For example if a human wants to learn how to play poker, it will firstly learn the rules. Then it will try to get experience by playing the game. This experience is nothing but a huge data set for a machine by using which it can make intelligent decisions reagrding the proposed problem.
 
 In general, machine learning problems can be classified into supervised learning, and unsupervised learning. In supervised learning, you have the input and the labeled output, and you suspect that a relationship exists between the input and the labeled output. When you know neither what the labeled output is nor if a relationship exists, unsupervised learning will help you find structure in your data if there is one.
 
@@ -37,6 +39,7 @@ data consist of a set of training examples. In supervised learning, each example
 2. <a href='https://www.coursera.org/learn/machine-learning' target='_blank' rel='nofollow'>Machine Learning - Taught by:  Andrew Ng</a>
 3. <a href='https://www.udemy.com/data-science-and-machine-learning-with-python-hands-on/' target='_blank' rel='nofollow'>Data Science and Machine Learning with Python - Hands On!</a>
 4. <a href='http://ciml.info/' target='_blank' rel='nofollow'>Machine Learning</a>
+5. <a href='https://www.edx.org/course/the-analytics-edge' target='_blank' rel='nofollow'>The Analytics Edge - Taught by: MIT</a>
 
 #### Video Resources:
 
@@ -51,3 +54,7 @@ data consist of a set of training examples. In supervised learning, each example
 2. <a href='https://www.youtube.com/watch?v=83uAOzhzs-U' target='_blank' rel='nofollow'>Machine Learning Demystified:Youtube</a>
 3. If you want a brief introduction of machine learning, and you prefer videos, try this <a href='https://youtu.be/cKxRvEZd3Mw' target='_blank' rel='nofollow'>machine learning introduction video</a>
 4. If you want to know how to proceed with learning machine learning, take a look at this <a href='https://youtu.be/nKW8Ndu7Mjw' target='_blank' rel='nofollow'> video</a>
+
+## Lab
+
+<a href="https://github.com/Microsoft/computerscience/blob/master/Labs/AI%20and%20Machine%20Learning/Azure%20Machine%20Learning/Azure%20Machine%20Learning%20(Node).md">Building Smart Apps with Azure Machine Learning Studio</a>

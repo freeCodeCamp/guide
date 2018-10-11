@@ -4,7 +4,7 @@ title: Boolean
 
 ## Boolean
 
-Booleans are a primitive datatype commonly used in computer programming languages. A boolean can be either `true` or `false` in Javascript (spelling or wording may vary in other languages). 
+Booleans are a primitive datatype commonly used in computer programming languages. By definition, a boolean has two possible values: `true` or `false`.
 
 In Javascript, there is often implicit type coercion to boolean. If for example you have an if statement which checks a certain expression, that expression will be coerced to a boolean: 
 
@@ -32,10 +32,18 @@ One way that type coercion is used is with the use of the or (`||`) and and (`&&
 var a = 'word';
 var b = false;
 var c = true;
+var d = 0
+var e = 1
+var f = 2
+var g = null
 
 console.log(a || b); // 'word'
 console.log(c || a); // true
 console.log(b || a); // 'word'
+console.log(e || f); // 1
+console.log(f || e); // 2
+console.log(d || g); // null
+console.log(g || d); // 0
 console.log(a && c); // true
 console.log(c && a); // 'word'
 ```

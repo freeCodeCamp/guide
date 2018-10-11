@@ -43,8 +43,6 @@ Promise.resolve('some')
   });
 ```
 
-=======
-
 ## Promise API
 
 There are 4 static methods in the Promise class:
@@ -83,7 +81,8 @@ var subtract = function(x, y) {
   });
 };
 
-var result = add(2,2)
+// Starting promise chain
+add(2,2)
   .then((added) => {
     // added = 4
     return subtract(added, 3);
@@ -96,13 +95,14 @@ var result = add(2,2)
     // added = 6
     return added * 2;    
   })
+  .then((result) => {
+    // result = 12
+    console.log("My result is ", result);
+  })
   .catch((err) => {
-    // If any part of the chain is rejected, print the message.
+    // If any part of the chain is rejected, print the error message.
     console.log(err);
   });
-
-// > My result is 12
-console.log("My result is ",result);
 
 ```
 
@@ -154,6 +154,20 @@ console.log(gen.next());
 As we keep calling `gen.next()` it will keep going onto the next `yield` and pausing each time. Once there are no more `yield`'s left, it will proceed to run the rest of the generator, which in this case simply returns `'Finished!'`. If you call `gen.next()` again, it will throw an error as the generator is finished.
 
 Now, imagine if each `yield` in this example was a `Promise`, the code itself would appear extremely synchronous.
+### Promise.all(iterable) is very usefull for multiple request to different source
+The Promise.all(iterable) method returns a single Promise that resolves when all of the promises in the iterable argument have resolved or when the iterable argument contains no promises. It rejects with the reason of the first promise that rejects.
+```javascript
+var promise1 = Promise.resolve(catSource);
+var promise2 = Promise.resolve(dogSource);
+var promise3 = Promise.resolve(cowSource);
+
+Promise.all([promise1, promise2, promise3]).then(function(values) {
+  console.log(values);
+});
+// expected output: Array ["catData", "dogData", "cowData"]
+
+```
+
 
 ### More Information
 For more information on promises: <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise' target='_blank' rel='nofollow'>Promises</a>

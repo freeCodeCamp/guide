@@ -3,8 +3,42 @@ title: Pass an Array as Props
 ---
 ## Pass an Array as Props
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/front-end-libraries/react/pass-an-array-as-props/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+To pass an array as a prop, first an array must be declared as a "tasks" prop on each of the components to be rendered:
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+```javascript
+const List= (props) => {
+  return <p></p>
+};
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+class ToDo extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+  render() {
+    return (
+      <div>
+        <h1>To Do Lists</h1>
+        <h2>Today</h2>
+        <List tasks={["Walk", "Cook", "Bake"]} />
+        <h2>Tomorrow</h2>
+        <List tasks={["Study", "Code", "Eat"]}/>
+      </div>
+    );
+  }
+};
+```
+
+Then, the props must be handled inside the "List" component:
+
+```javascript
+const List= (props) => {
+  return <p>{props.tasks.join(", ")}</p>
+};
+
+// ... same as above
+```
+
+The `.join(", ")` method is used to take each element from within the array and join them into a string to be displayed.
+
+We are using the modularity of React in this example to display the tasks passed by two different components to a common component which renders the final HTML.
+

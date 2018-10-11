@@ -38,6 +38,12 @@ Python is one of the best languages suited for machine learning, deep learning a
 There are specialized languages best suited for various role such as R and MATLAB but when it comes to overlapping fields of applications python wins hands down due to
 its flexibility and rapid prototyping and availability of libraries.
 
+#### Telegram Bots Development
+You can use Python and some Python-libraries for developing your own <a href='https://core.telegram.org/bots' target="_blank" rel="nofollow">Telegram Bots</a>
+
+#### Data Gathering by crawling and scraping
+Python could also be used by parse pages source codes and retrieve its data. Using some python modules, such as: Scrapy and also (for some reasons and pages which uses javascript) Selenium, should do the trick!
+
 #### More Information:
 Here's a <a href='https://www.python.org/about/apps/' target='_blank' rel='nofollow'>link</a> to a section of the official Python website describing its various applications.
 
@@ -56,6 +62,7 @@ Here's a <a href='https://www.python.org/about/apps/' target='_blank' rel='nofol
 * Rapid Prototyping
 * Browser Automation
 * Data analysis
+* Scraping data from websites
 * Image Processing
 
 #### Some articles covering the usability of python

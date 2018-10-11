@@ -8,9 +8,7 @@ Java is trademarked and licensed by Oracle. Most of the following are un-officia
 ## Tutorials
 
 * [Oracle Official Java Tutorial](http://docs.oracle.com/javase/tutorial/index.html)
-* [Thinking in Java](http://www.mindview.net/Books/TIJ/)
 * [Think Java](http://greenteapress.com/wp/think-java/)
-* Effective Java by Joshua Bloch
 * [Jenkov's Java Tutorials](http://tutorials.jenkov.com/java/index.html)
 * [Mkyong's Java & Spring Tutorials](http://www.mkyong.com/)
 * [Vogella's Java Tutorials](http://www.vogella.com/tutorials/java.html)
@@ -25,6 +23,7 @@ Java is trademarked and licensed by Oracle. Most of the following are un-officia
 * [Algorithms in Java](https://github.com/pedrovgs/Algorithms)
 * [Spring Official Guides](https://spring.io/guides)
 * [TutorialsPoint - Java](http://www.tutorialspoint.com/java/)
+* [Java for Small Teams](https://www.gitbook.com/book/ncrcoe/java-for-small-teams/details)
 
 ## Challenges
 

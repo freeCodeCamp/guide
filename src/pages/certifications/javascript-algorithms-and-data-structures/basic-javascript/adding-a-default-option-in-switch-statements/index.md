@@ -1,10 +1,26 @@
 ---
 title: Adding a Default Option in Switch Statements
 ---
-## Adding a Default Option in Switch Statements
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-javascript/adding-a-default-option-in-switch-statements/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+# Adding a Default Option in Switch Statements
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+* Adding a default option makes sure that in case your variable doesn't match any of the options, the default will be used.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+## Solution:
+```javascript
+function switchOfStuff(val) {
+  var answer = "";
+  
+  switch(val){
+    case 'a': answer = 'apple'; 
+    break;
+    case 'b': answer = 'bird'; 
+    break;
+    case 'c': answer = 'cat'; 
+    break;
+    default: answer = 'stuff';
+  }
+  
+  return answer;  
+}
+```

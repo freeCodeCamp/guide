@@ -3,8 +3,33 @@ title: Use Default Props
 ---
 ## Use Default Props
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/front-end-libraries/react/use-default-props/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+This challenge has you declaring a default prop for the ShoppingCart component
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+```javascript
+const ShoppingCart = (props) => {
+  return (
+    <div>
+      <h1>Shopping Cart Component</h1>
+    </div>
+  )
+};
+```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+To declare a default prop, the syntax to be followed is
+
+```javascript
+itemName.defaultProps = {
+  prop-x: value,
+  prop-y: value
+}
+```
+
+Following the Syntax, the following code should be declared below the given code
+
+```javascript
+ShoppingCart.defaultProps = {
+  items: 0
+}
+```
+
+This declares a prop named 'items' with the value of '0' .

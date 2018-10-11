@@ -2,9 +2,25 @@
 title: Updating Object Properties
 ---
 ## Updating Object Properties
+## Hint:
+Use dot ** . ** notation to access the object property.
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-javascript/updating-object-properties/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+## Spoiler Alert: Solution Ahead!
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+## Solution:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```javascript
+// Setup
+var myDog = {
+  "name": "Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"]
+};
+
+// Only change code below this line.
+
+myDog.name = "Happy Coder"; // Solution
+```
+
+
