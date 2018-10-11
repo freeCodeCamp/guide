@@ -221,6 +221,14 @@ int treeSize(struct node* node)
 }
 ```
 
+The time complexities for various operations on a 'balanced' Binary search tree are :-
+
+Search - O(log N)
+Insertion - O(log N)
+Deletion - O(log N)
+
+Here, (log N) denotes logarithm of N to the base 2.
+
 ### Relevant videos on freeCodeCamp YouTube channel
 * [Binary Search Tree](https://youtu.be/5cU1ILGy6dM)
 * [Binary Search Tree: Traversal and Height](https://youtu.be/Aagf3RyK3Lw)
