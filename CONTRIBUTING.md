@@ -489,6 +489,7 @@ To check for grammar and spelling, we recommend using an app like [Grammarly](ht
 
 - [VS Code](https://code.visualstudio.com/) - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 - [Sublime Text 3](https://www.sublimetext.com/docs/3/spell_checking.html)
+- [Atom](https://atom.io) - [Code Spell Checker](https://atom.io/packages/linter-spell)
 
 To check your writing style, we recommend the  [Hemingway App](http://www.hemingwayapp.com/).
 
