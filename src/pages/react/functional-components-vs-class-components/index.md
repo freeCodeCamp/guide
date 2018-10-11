@@ -10,9 +10,9 @@ There are mainly two components in React:
 
 ## Functional Components
 
-* Functional compoents are basic javascript functions. These are typically arrow functions but can also be created with the regular `function` keyword.
-* Sometimes referred to as "Dumb" or "Stateless" components as they simply accept data and display it in some form.
-* React Lifecycle methods (componentDidMount, etc) cannot be used in `functional components`.
+* Functional components are basic JavaScript functions. These are typically arrow functions but can also be created with the regular `function` keyword.
+* Sometimes referred to as "dumb" or "stateless" components as they simply accept data and display it in some form.
+* React lifecycle methods (for example, `componentDidMount`) cannot be used in functional components.
 * These are mainly responsible for UI and are typically presentational only (For example, a Button component).
 * Functional components can accept and use props.
 * Functional components should be favored if you do not need to make use of React state.
@@ -31,9 +31,9 @@ export default Person;
 
 ## Class Components
 
-* Class components make use of ES6 Class and extend the `Component` in React.
-* Sometimes called "Smart" or "Stateful" components as they tend to implement logic and state.
-* React Lifecycle methods can be used inside Class Components (For example, `componentDidMount`).
+* Class components make use of ES6 class and extend the `Component` class in React.
+* Sometimes called "smart" or "stateful" components as they tend to implement logic and state.
+* React lifecycle methods can be used inside class components (for example, `componentDidMount`).
 
 ```js
 import React, { Component } from "react";
