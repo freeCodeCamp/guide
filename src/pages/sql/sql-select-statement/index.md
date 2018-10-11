@@ -6,29 +6,29 @@ title: SQL Select Statement
 
 ## Select and From clauses
 
-The Select part of a query is normally to determine which columns of the data to show in the results. There are also options you can apply to show data that is not a table column.
+The SELECT part of a query is normally to determine which columns of the data to show in the results. There are also options you can apply to show data that is not a table column.
 
-This example shows two columns selected from the "student" table and two calculated columns. The first of the calculated columns is a meaningless number, and the other is the system date. 
+This example shows three columns selected from the "student" table and one calculated column. The database stores the studentID, FirstName, and LastName of the student. We can combine the First and the Last name columns to create the FullName calculated column. 
 
 ```sql
-select studentID, FullName, 3+2 as five, now() as currentDate
+select studentID, FirstName, LastName, FirstName + ' ' + LastName as FullName
 from student;
 ```
 
 ```text
-+-----------+------------------------+------+---------------------+
-| studentID | FullName               | five | currentDate         |
-+-----------+------------------------+------+---------------------+
-|         1 | Monique Davis          |    5 | 2017-08-18 13:42:38 |
-|         2 | Teri Gutierrez         |    5 | 2017-08-18 13:42:38 |
-|         3 | Spencer Pautier        |    5 | 2017-08-18 13:42:38 |
-|         4 | Louis Ramsey           |    5 | 2017-08-18 13:42:38 |
-|         5 | Alvin Greene           |    5 | 2017-08-18 13:42:38 |
-|         6 | Sophie Freeman         |    5 | 2017-08-18 13:42:38 |
-|         7 | Edgar Frank "Ted" Codd |    5 | 2017-08-18 13:42:38 |
-|         8 | Donald D. Chamberlin   |    5 | 2017-08-18 13:42:38 |
-|         9 | Raymond F. Boyce       |    5 | 2017-08-18 13:42:38 |
-+-----------+------------------------+------+---------------------+
++-----------+-------------------+------------+------------------------+
+| studentID | FirstName         | LastName   | FullName               |
++-----------+-------------------+------------+------------------------+
+|         1 | Monique           | Davis      | Monique Davis          |
+|         2 | Teri              | Gutierrez  | Teri Gutierrez         |
+|         3 | Spencer           | Pautier    | Spencer Pautier        |
+|         4 | Louis             | Ramsey     | Louis Ramsey           |
+|         5 | Alvin             | Greene     | Alvin Greene           |
+|         6 | Sophie            | Freeman    | Sophie Freeman         |
+|         7 | Edgar Frank "Ted" | Codd       | Edgar Frank "Ted" Codd |
+|         8 | Donald D.         | Chamberlin | Donald D. Chamberlin   |
+|         9 | Raymond F.        | Boyce      | Raymond F. Boyce       |
++-----------+-------------------+------------+------------------------+
 9 rows in set (0.00 sec)
 ```
 
