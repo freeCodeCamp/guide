@@ -42,3 +42,7 @@ Ionic Framework is a CSS framework that allows you to style your screens to look
 ### React Native
 
 React Native is a front end development framework that contains a lot of the building block elements for Android/iOS development and is a different kind of magic from Apache Cordova
+
+### PhoneGap
+
+PhoneGap is the most popular cross-platform framework for mobile hybrid application development. From the team behind Apache Cordova, the Adobe PhoneGap framework is an open source distribution of Cordova framework. With Phonegap, you can reuse existing web development skills to quickly make hybrid applications built with HTML, CSS, and JavaScript for multiple platforms with a single codebase so you can reach your audience no matter their device.
