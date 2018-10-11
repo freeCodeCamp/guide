@@ -17,7 +17,7 @@ public interface Vehicle {
 }
 ```
 
-The interface above contains two fields, two methods, anda default method. Alone, it is not of much use, but they are usually used along with Classes. How? Simple, you have to make sure some class `implements` it.
+The interface above contains two fields, two methods, and a default method. Alone, it is not of much use, but they are usually used along with Classes. How? Simple, you have to make sure some class `implements` it.
 
 ```java
 public class Car implements Vehicle {
