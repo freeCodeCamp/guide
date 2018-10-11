@@ -14,7 +14,7 @@ handleClick() {
   });
 }
 ```
-In `render()` method assign `Math.random()` as metnioned in challenge description and write ternary experssion to pass `props` in **Results** component.
+In `render()` method use `Math.random()` as mentioned in the challenge description and write a ternary expression to pass `props` in the **Results** component.
 ```react.js
  let expression = Math.random() > .5;
     
@@ -22,7 +22,7 @@ In `render()` method assign `Math.random()` as metnioned in challenge descriptio
 
 ```
 
-Then render the `fiftyFifty` porps in Restults component.
+Then render the `fiftyFifty` props in the Results component.
 ```react.js
   <h1>
   {
