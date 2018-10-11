@@ -4,14 +4,16 @@ title: Xaml
 
 ## XAML: Extensible Application Markup Language
 
+
 XAML pronounced as "Zammel" is a mark language developed by Microsoft. This markup language is mainly used for designing GUIs. Also it is popular for its usability in workflow. 
 
 Areas like Silverlight, Mobile Development, WPF (Windows Presentation Foindation), Windows Store uses XAML heavily and span accross any CLR and .NET framework
 
 Its a declaritive language and answers WHAT and HOW. It aims at separating the behavior from the designer code.
 
-## Example 1
-Creating a TextBlock with several properties.
+## Example
+Creating a TextBlock with several properties.  TextBlocks are usually employed for the output of text, much like Labels in older versions of the .NET framework.
+
 ```xml
 <TextBlock Text="I am a TextBlock!" 
 	HorizontalAlignment="Left" 
