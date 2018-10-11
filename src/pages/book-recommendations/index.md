@@ -64,7 +64,7 @@ title: Books to Read for Programmers
 - ISBN-13: 978-0201616224
 
 *Facts and Fallacies of Software Engineering*
-- [Amazon Smile](https://www.amazon.com/Facts-Fallacies-Software-Engineering-Robert/dp/0321117425/)
+- [Amazon Smile](https://smile.amazon.com/Facts-Fallacies-Software-Engineering-Robert/dp/0321117425/)
 - ISBN-13: 978-0321117427
 
 This list was compiled from multiple suggestion threads on Reddit and Stackoverflow. 
