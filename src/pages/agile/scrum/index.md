@@ -32,6 +32,10 @@ There are several online tools that can be used to do scrum for your team:
 - [Scrum Do](https://www.scrumdo.com/) 
 - [Asana](http://www.asana.com)
 - [Trello](http://trello.com)
+- [Monday](https://monday.com)
+- [Basecamp](https://basecamp.com)
+- [Airtable](https://airtable.com)
+- [SmartSheet](https://www.smartsheet.com)
 
 Here are some more resources:
 
