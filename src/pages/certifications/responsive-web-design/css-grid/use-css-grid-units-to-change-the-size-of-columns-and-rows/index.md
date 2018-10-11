@@ -1,5 +1,5 @@
 ---
-title: Use CSS Grid units to Change the Size of Columns and Rows
+title: Use CSS Grid Units to Change the Size of Columns and Rows
 ---
 ## Use CSS Grid units to Change the Size of Columns and Rows
 
