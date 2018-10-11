@@ -117,6 +117,12 @@ title: Books to Read for Programmers
 - [Amazon Smile](https://smile.amazon.com/Soft-Skills-software-developers-manual/dp/1617292397?pldnSite=1)
 - ISBN-13: 9781617292392 
 
+## Other
+
+*Hacking: Ultimate Hacking Guide: Hacking For Beginners And Tor Browser
+- https://www.amazon.in/dp/B075CX7T6G/ref=cm_sw_r_cp_awdb_t1_-7ESBbZ43CCBM
+- (ISBN 1976112524).
+
 *Code: The Hidden Language of Computer Hardware and Software (Developer Best Practices) *
 - [Amazon Smile](https://smile.amazon.com/Code-Language-Computer-Hardware-Software/dp/0735611319)
 - ISBN-13: 978-0735611313
@@ -189,10 +195,10 @@ title: Books to Read for Programmers
 - [Amazon Smile](https://smile.amazon.com/Facts-Fallacies-Software-Engineering-Robert/dp/0321117425/)
 - ISBN-13: 978-0321117427
 
-
 The Mythical Man-Month: Essays on Software Engineering
 - [Amazon Smile](https://www.amazon.com/Mythical-Man-Month-Software-Engineering-Anniversary/dp/0201835959)
 - ISBN-13: 978-0201835953
+
 
 This list was compiled from multiple suggestion threads on Reddit and Stackoverflow. 
 
