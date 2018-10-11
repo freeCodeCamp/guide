@@ -56,19 +56,19 @@ title: Books to Read for Programmers
 - ISBN-13: 978-0596009205
 
 *Programming Pearls (2nd Edition) by Jon Bentley*
-- [Amazon Smile](https://www.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880)
+- [Amazon Smile](https://smile.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880)
 - ISBN-13: 978-0201657883
 
 *The Pragmatic Programmer: From Journeyman to Master*
-- [Amazon Smile](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X)
+- [Amazon Smile](https://smile.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X)
 - ISBN-13: 978-0201616224
 
 *Competitive Programming 3: The New Lower Bound of Programming Contests*
-- [Amazon Smile](https://www.amazon.com/Competitive-Programming-3rd-Steven-Halim/dp/B00FG8MNN8)
+- [Amazon Smile](https://smile.amazon.com/Competitive-Programming-3rd-Steven-Halim/dp/B00FG8MNN8)
 - ISBN-13: 978-5800083125
 
 *Dynamic Programming for Coding Interviews: A Bottom-Up approach to problem solving*
-- [Amazon Smile](https://www.amazon.in/Dynamic-Programming-Coding-Interviews-Bottom-Up-ebook/dp/B06XZ61CMP)
+- [Amazon Smile](https://smile.amazon.in/Dynamic-Programming-Coding-Interviews-Bottom-Up-ebook/dp/B06XZ61CMP)
 - ISBN-13: 978-1946556691
 
 
