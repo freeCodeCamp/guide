@@ -20,6 +20,4 @@ Many CSS properties like `width`, `margin`, `padding`, `font-size` etc. take len
 
 * CSS3 Units - W3Schools - [Link](https://www.w3schools.com/cssref/css_units.asp)
 * Understanding pixels and other CSS Units - Article on WebPlatforms - [Link](https://webplatform.github.io/docs/tutorials/understanding-css-units/)
-
-[Mozilla MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Values_and_units)
-
+* MDN Web Docs - CSS Units - [Link](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Values_and_units)
