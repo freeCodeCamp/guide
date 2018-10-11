@@ -126,3 +126,4 @@ result = s(1, 2)
 
 ### More Information:
 - <a href='https://docs.python.org/3/tutorial/controlflow.html#defining-functions' target='_blank' rel='nofollow'>Python 3 Docs: Defining Functions</a>
+- <a href='https://www.youtube.com/watch?v=5Kzw-0-DQAk&index=19&list=PLlRFEj9H3Oj7Bp8-DfGpfAfDBiblRfl5p'> Best python functions tutorial </a>
