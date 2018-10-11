@@ -8,20 +8,34 @@ Hypertext Reference (HREF) is an HTML attribute that you use to specify a link d
 The HREF attribute gets the exact meaning of a link depending on the element that is using it. For instance when using with the `<a>` tag, it is referencing the location of an object express as a URL. When using the HREF attribute with the `<image>` tag, the HREF attribute is referencing the URL of the image to render.
 
 ### Examples:
+Link to Google's Homepage:
 
+  -> The text "Visit Google's Homepage acts like the link to the Homepage
+  
 ```html
 <a href="https://www.google.com">Visit Google’s Homepage</a>
-<image href="/files/logo.png" x="0" y="0" height="100" width="100" />
+```
+
+Image as an Link:
+
+  -> Google Logo that refers to Google's Homepage
+  
+```html
+<a href="https://www.google.com">
+<img border="0" alt="Google" src="https://www.google.com/logos/doodles/2015/googles-new-logo-5078286822539264.3-hp2x.gif" width="100" height="100">
 ```
 
 Tags that use HREF:
 ```html
 <a>
+<area>
+<base>
 <cursor>
 <discard>
 <feImage>
 <hatch>
 <image>
+<link>
 <mesh>
 <meshgradient>
 <mpath>

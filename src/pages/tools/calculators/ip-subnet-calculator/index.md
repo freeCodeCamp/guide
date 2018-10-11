@@ -3,13 +3,22 @@ title: Ip Subnet Calculator
 ---
 ## Ip Subnet Calculator
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/tools/calculators/ip-subnet-calculator/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+IP Subnet Calculators help to divide IP Networks into subnetworks by calculating appropriate network addresses, subnet masks, broadcast addresses, and host IP ranges.  For simple networks (like a home LAN), it may be very easy to identify the appropriate values, but for more complex subnetting an IP Subnet Calculator is an excellent tool.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Here are a few online Ip Subnet Calculators:
+
+- http://www.subnet-calculator.com/
+- http://jodies.de/ipcalc
+- https://www.iplocation.net/subnet-calculator
+- http://www.calculator.net/ip-subnet-calculator.html
+
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
+For more information about IP subnets, look here:
+https://en.wikipedia.org/wiki/Subnetwork
+
 
 
