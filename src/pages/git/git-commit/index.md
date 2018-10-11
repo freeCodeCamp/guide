@@ -73,5 +73,14 @@ Premature commits happen all the time in the course of your day-to-day developme
 
 Amended commits are actually entirely new commits and the previous commit will no longer be on your current branch. When you're working with others, you should try to avoid amending commits if the last commit is already pushed into the repository.
 
+With `--amend`, one of the useful flag you could use is `--author` which enables you to change the author of the last commit you've made. Imagine a situation you haven't properly set up your name or email in git configurations but you already made a commit. With `--author` flag you can simply change them without resetting the last commit.
+
+```
+git commit --amend --author="John Doe <johndoe@email.com>"
+```
+
+#### The -v or --verbose Option
+The `-v` or `--verbose` option is used without the `-m` option. The `-v` option can be useful when you wish to edit a Git commit message in your default editor while being able to see the changes you made for the commit. The command opens your default text editor with a commit message template *as well as* a copy of the changes you made for this commit. The changes, or diff, will not be included in the commit message, but they provide a nice way to reference your changes when you're describing them in your commit message.
+
 ### More Information:
 - Git documentation: [commit](https://git-scm.com/docs/git-commit)
