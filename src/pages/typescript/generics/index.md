@@ -8,11 +8,11 @@ Developers can use `Generics` to specify type constrains for classes, instance m
 
 ### What do Generics do?
 
-Essentially, they serve as placeholders for types that you can use in multiple places across your application.
+Essentially, they serve as placeholders for types so that a component can be used in multiple places across your application by accommodating different types.
 
 ### What problem do Generics solve?
 
-Let's say you wanted to ensure that types for a class or a function are of the same value, this is where generics come in.
+Let's say you wanted to ensure that the input and return values for a function are of the same type, this is where generics come in.
 
 ##### Functions
 
@@ -26,8 +26,7 @@ const myMessage: string = printMessage(1);
 
 ```
 
-As you can see from above, passing in `any` for the argument type in the function, as well as the return type is not ideal.
-
+As you can see from above, passing in `any` for the argument type in the function, as well as the return type, is not ideal as type information is lost in the process.
 
 ```typescript
 // updated example
@@ -43,7 +42,7 @@ const myMessage: number = printMessage(1);
 
 ```
 
-Including `<T>` with the function tells TypeScript that it is a generic, and passing that around as a reference will make TypeScript aware that the data types should be the same.
+Including `<T>` with the function tells TypeScript that it is a generic, and passing that around as a reference will make TypeScript aware that the the values associated with it are of the same type.
 
 ##### Classes
 
