@@ -26,11 +26,8 @@ title: Books on Python Programming Language
 - [How to think like a Computer Scientist by Allen Downey[V 2.0.17][FREE]](http://greenteapress.com/thinkpython/thinkpython.pdf)
 - [A Byte of Python[FREE]](https://python.swaroopch.com)
 
-*Hacking with Python*
-  
-- Paid 
-- [Amazon](https://www.amazon.com/Black-Hat-Python-Programming-Pentesters/dp/1593275900/)
-- ISBN-13: 978-1593275907
+*Black Hat Python: Python Programming for Hackers and Pentesters*
+- [Amazon Smile](https://smile.amazon.com/Black-Hat-Python-Programming-Pentesters/dp/1593275900/)
 - ISBN-10: 1593275900
 
   Please feel free to add more that you have found useful!
