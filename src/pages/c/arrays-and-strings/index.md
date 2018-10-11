@@ -123,6 +123,16 @@ void string_concatenate(char [] s1, char [] s2)
 ```C
 string_length = strlen(my_string);
 ```
+Here is an manual implementation of fuction strlen:
+
+int string_length(char [] string)
+{
+    int i;
+    
+    for(int i = 0; string[i]; i++);
+    
+    return i;
+}
 
 #### Compare: `strcmp`
 `strcmp` (from 'string compare') compares two strings. The integer value it returns is 0 if they are the same, but it will also return negative if the value of the first (by adding up characters) is less than the value of the second, and positive if the first is greater than the second. Take a look at an example of how this might be used:
