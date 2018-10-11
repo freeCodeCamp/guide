@@ -6,6 +6,8 @@ title: Ruby
 
 Ruby was created by Yukihiro "Matz" Matsumoto and is an <a href='https://github.com/ruby/ruby' target='_blank' rel='nofollow'>open source</a>, dynamic and interpreted scripting language for quick and easy object-oriented programming. Which means:
 
+It's also known to have one of the <a href="https://www.ruby-lang.org/en/community/">largest and friendly community</a> among programming languages. 
+
 *   Ability to make operating system calls directly
 *   Immediate feedback during development
 *   Variable declarations are unnecessary
@@ -35,7 +37,7 @@ g.salute
 ```
 ## Version
 
-The current stable version is 2.4.2\. It contains security improvements from its predecessor, ruby v2.3.5.
+The current stable version is [2.5.1](https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-5-1-released/).
 
 ## Installation
 
@@ -79,6 +81,9 @@ From command-line:
 Ruby is well <a href='https://www.ruby-lang.org/en/documentation/' target='_blank' rel='nofollow'>documented</a>. These docs include tutorials, guides, references and meta information for language.  
 Another important resouce for documentation is <a href='http://ruby-doc.org/core-2.3.0/' target='_blank' rel='nofollow'>Ruby Doc</a>. You should visit this <a href='https://github.com/airbnb/ruby' target='_blank' rel='nofollow'>link</a> to know more about Ruby style guide, written by developers of AirBnB.
 
+A recommended read for beginners in Ruby is <a href='https://poignant.guide/' target='_blank' rel='nofollow'>Why's (Poignant) Guide to Ruby</a>
+This book is unusual among programming books. With quite a lot of strange humor and narrative side tracks which are sometimes completely unrelated to the topic, this one manages to keep the readers entertained while they learn Ruby basics. 
+
 ## Debugging
 
 Inline `print` statements can be used for simple debugging:
@@ -110,3 +115,8 @@ Ruby has several frameworks(gems) for quickly scaffolding applications. The most
 ## Ruby Framework for mobile development
 To write cross-platform native apps in Ruby, RUBY MOTION is used to develop cross-platform native apps for iOS, Android and OS X using the Ruby programming langauge.
 More resources here: http://www.rubymotion.com/
+
+## What after learning Ruby?
+Every programming language plays an imporatnt role . You can contribute to a lot of open source projects or you can apply for some big companies after having a good grasp on Ruby. As many big internet sites such as Basecamp, Airbnb, Bleacher Report, Fab.com, Scribd, Groupon, Gumroad, Hulu, Kickstarter, Pitchfork, Sendgrid, Soundcloud, Square, Yammer, Crunchbase, Slideshare, Funny or Die, Zendesk, Github, Shopify are build on Ruby so, there are plenty of option for you out there.
+Moreover, a lot of startups are hiring people who have skill in RUby on Rails as not many programmers try to learn Ruby. So,you might have a clear cut to work in a start-up company.
+So, Ruby is beginner friendly and is quite hard skill set to find you have a good number of openings to work as a developer.
