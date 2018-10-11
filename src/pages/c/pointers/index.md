@@ -69,10 +69,10 @@ Notice that the `*` is required before each variable. This is because being a po
 The most common application of a pointer is in an array. Arrays, which you'll read about later, allow for a group of variables. You don't actually have to deal with `*` and `&` to use arrays, but that's what they're doing behind the scenes.
 
 ### Functions
-Sometimes you want to adjust a variable in a function, but if you pass it to an array, it has its own copy to work with. If instead you pass that memory location, however, you can access it from outside of its normal scope. This is because you are touching the original memory location itself, allowing you to adjust something in a function and having it make changes elsewhere.
-####Use in call by reference
+Sometimes you want to adjust the value of a variable inside of a function, but if you simply pass in your variable by-value, the function will work with a copy of your variable instead of the variable itself. If, instead, you pass in the pointer pointing to the memory location of the variable, you can access and modify it from outside of its normal scope. This is because you are touching the original memory location itself, allowing you to adjust something in a function and having it make changes elsewhere. In contrast to "call by value", this is called "call by reference".
 
-Program to swap two number using call by reference.
+The following program swaps the values of two variables inside of the dedicated `swap` function. To achieve that, the variables are passed in by reference.
+
 ```c
  /* C Program to swap two numbers using pointers and function. */
 #include <stdio.h>
@@ -98,12 +98,14 @@ void swap(int * n1, int * n2)
     *n2 = temp;
 }
 ```
+
 Output
 ```
 Number1 = 10
 Number2 = 5
+
 ```
-The address of memory location num1 and num2 are passed to the function swap and the pointers *n1 and *n2 accept those values.
+The addresses, or memory locations, of `num1` and `num2` are passed to the function `swap` and are represented by the pointers `*n1` and `*n2` inside of the function. So, now the pointers `n1` and `n2` point to the addresses of `num1` and `num2` respectively.
 
 So, now the pointer n1 and n2 points to the address of num1 and num2 respectively.
 
@@ -138,21 +140,7 @@ So how could you change the value of integer defined in main , by using another 
 when we supply pointer as a parameter , we have access to address of that parameter and we could to any thig with this parameter and result will be shown everywhere.
 Below is an example which does exactly the same thing we want...
 
-```C
-#include <stdio.h>
-void func(int *);
-
-int main(void) {
-    int a = 11;
-    func(&a);// passing address of integer a
-    printf("%d",a);// prints 5
-    return 0;
-}
-void func(int *a){
- *a=5;
- printf("%d",*a);//prints 5
-}
-```
+By dereferencing `n1` and `n2`, we now can modify the memory to which `n1` and `n2` point. This allows us to change the value of the two variables `num1` and `num2` declared in the `main` function outside of their normal scope. After the function is done, the two variables now have swapped their values, as can be seen in the output.
 
 ### Tricks with Memory Locations
 Whenever it can be avoided, it's a good idea to keep your code easy to read and understand. In the best case scenario, your code will tell a story- it will have easy to read variable names and make sense if you read it out loud, and you'll use the occasional comment to clarify what a line of code does.
