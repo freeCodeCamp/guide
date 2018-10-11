@@ -36,18 +36,27 @@ Note: The style `double list[]` is not preferred as it comes from the C/C++ lang
 ## Creating Arrays:
 
 ```java
+--> Array creation with a fixed size.
 dataType[] arrayName = new dataType[arraySize];
 ```
 
 ## Code snippets of the above syntax:
 
 ```java
+--> All the basic primitive data types and pre-defined or user-defined class type arrays can be created.
+int[] a = new int[10];
 double[] List = new double[10];
+--> Example for an array of User-defined class type:
+Student students[] = new Student[10];
+--> Example for an array of Pre-defined class type:
+Object objects[] = new Object[10];
+
 ```
 
 ## Another way to create an Array:
 
 ```java
+--> Declaration and initialization in a single line
 dataType[] arrayName = {value_0, value_1, ..., value_k};
 ```
 
@@ -64,11 +73,13 @@ that are used to represent arrays in two different ways.
 
 ## Accessing Arrays:
 ```java
+--> Array elements can be accessed using the index
 arrayName[index]; // gives you the value at the specified index
 ```
 
 ## Code snippets of above syntax:
 ```java
+--> Printing a specific element in the array on the console
 System.out.println(list[1]);
 ```
 Output:
@@ -78,6 +89,7 @@ Output:
 
 ## Modifying Arrays:
 ```java
+--> Assigning a value to a particular position in the array
 arrayName[index] = value; 
 ```
 
@@ -103,7 +115,9 @@ list[1] = 3; // now, if you access the array like above, it will output 3 rather
 _Example of code:_
 
 ```java
-int[] a = {4, 5, 6, 7, 8}; // declare array
+--> Iterating through an array and printing each element on the console
+int[] a = new int[] {4, 5, 6, 7, 8}; // declare array
+
 for (int i = 0; i < a.length; i++){ // loop goes through each index
     System.out.println(a[i]); // prints the array
 }
