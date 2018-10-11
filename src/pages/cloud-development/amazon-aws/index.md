@@ -49,10 +49,10 @@ These roles include:
 * Developer
 * Operations
 
-AWS also offers a prerequiste Cloud Practitioner cert relevant to anyone no matter their role.
+AWS also offers a prerequisite AWS Cloud Practitioner Essentials certification* relevant to anyone no matter their role.
 Outside of the standard roles there are specialty certifications for Advanced networking, Big Data, and Security.
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 * [AWS](https://aws.amazon.com/)
-* [certs](https://aws.amazon.com/certification/)
+* [certifications](https://aws.amazon.com/certification/)
