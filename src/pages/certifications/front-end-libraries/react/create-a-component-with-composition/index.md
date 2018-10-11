@@ -1,6 +1,7 @@
 ---
 title: Create a Component with Composition
 ---
+
 ## Create a Component with Composition
 
 ### Hint 1
@@ -13,6 +14,7 @@ Use JSX self closing tags.
 
 ### Hint 3
 The component to be rendered is ChildComponenet and it is to be rendered in ParentComponent
+
 ### Solution
 The following will render the ChildComponent in the ParentComponent, as required:
 ````javascript

@@ -2,12 +2,20 @@
 title: Gatsby.js
 ---
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/gatsbyjs/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+## Gatsby.js
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Gatsby is a static site generator for [React](https://guide.freecodecamp.org/react), powered by [GraphQL](https://graphql.org/). 
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+The Gatsby environment provides several "starters" to help configure static sites quickly. Starters can be found here: [Starter Library](https://www.gatsbyjs.org/starters/).
+
+### Installation and using the Gatsby CLI
+
+* Node: `npm install --global gatsby-cli`
+* Get started with the official Gatsby starter: `gatsby new gatsby-site https://github.com/gatsbyjs/gatsby-starter-default`
+* After that change to the newly created directory `cd gatsby-site`
+* `gatsby develop` starts a hot-reloading development server. The site will reload when changes in `src/pages` will be saved.
+* To generate the static HTML pages use `gatsby build`
+* `gatsby serve` will start a local server that will present your built site.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
+For tutorials and more information check out the Gatsby.js official site: [Gatsby.js official site](https://www.gatsbyjs.org/tutorial/)
