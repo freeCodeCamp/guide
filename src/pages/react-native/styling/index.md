@@ -5,7 +5,7 @@ title: Styling
 
 React Native provides an API for creating stylesheets and styling your components: [StyleSheet](https://facebook.github.io/react-native/docs/stylesheet). 
 
-```js
+```jsx
 import React, { Component } from 'react';
 import { StyleSheet, View, Text } from 'react-native';
 
@@ -52,7 +52,7 @@ Including lots of styles in a file with a component isn't always easy to maintai
 
 For example, a Button component may be used in multiple places across an application. Copying and pasting the style object with each Button instance would be inefficient. Instead, create a reusable, styled Button component:
 
-```js
+```jsx
 import React from 'react';
 import { Text, TouchableOpacity } from 'react-native';
 
@@ -94,7 +94,7 @@ const styles = {
 
 The styled Button component can be easily imported and used across the application without repeatedly declaring the style object:
 
-```js
+```jsx
 import React, { Component } from 'react';
 import { TextInput, View } from 'react-native';
 import Button from './styling/Button';
