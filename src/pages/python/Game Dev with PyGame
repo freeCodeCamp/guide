@@ -1,0 +1,61 @@
+---
+title: Game Dev With PyGame
+---
+## Game Dev With PyGame
+
+The pygame library is an open-source module for the Python programming language specifically built for creating graphical games with ease. You don't have to worry about the complexities of graphics, math, physics, etc.
+
+## Installing PyGame and Importing PyGame
+
+Download link for PyGame (Python 3.6): https://www.pygame.org/download.shtml
+
+Once you have PyGame installed, you can import it using:
+'''python
+import pygame
+'''python
+
+## Basic PyGame Program Structure
+This will be your main loop that runs your game:
+'''python
+import pygame # Import the PyGame Module
+
+pygame.init() # Initialize 
+screen = pygame.display.set_mode((400, 400)) # Set window dimensions
+running = True # Boolean variable for game loop
+
+while running: # While our game is running
+	for event in pygame.event.get(): # Empties the event queue
+		if event.type == pygame.QUIT: # Close button 
+			running = False # Game closed
+
+	display.flip() # Updates the screen
+quit() # Closing the game window
+'''python
+
+## Drawing Stuff
+When we first run the code above, all we get is a black screen. BORING! Let's draw something onto it.
+
+Drawing a blue rectangle:
+'''python
+import pygame # Import the PyGame Module
+
+pygame.init() # Initialize 
+screen = pygame.display.set_mode((400, 400)) # Set window dimensions
+running = True # Boolean variable for game loop
+
+while running: # While our game is running
+	for event in pygame.event.get(): # Empties the event queue
+		if event.type == pygame.QUIT: # Close button 
+			running = False # Game closed
+
+	pygame.draw.rect(screen, (0, 0, 255), pygame.Rect(30, 30, 120, 200)) # Draws a blue rectagle at postion (30, 30) with size (120, 200) pixels.
+
+	display.flip() # Updates the screen
+quit() # Closing the game window
+'''python
+
+ TO BE CONTINUED!
+
+
+
+
