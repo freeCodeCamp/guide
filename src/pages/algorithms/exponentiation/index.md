@@ -29,11 +29,12 @@ int power(int x, unsigned int y) {
     if( y == 0) 
         return 1; 
     temp = power(x, y/2); 
+    if (y > 0) { // this will only work for positive exponentis
     if (y%2 == 0) 
         return temp*temp; 
     else
         return x*temp*temp; 
-} 
+} }
 ```
 
 ## Modular Exponentiation
