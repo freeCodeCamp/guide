@@ -1,6 +1,7 @@
 ---
 title: Hexadecimal Numbers
 ---
+
 ## The Hexadecimal Numeral System
 
 Hexadecimal numbers, often shortened to "hex numbers" or "hex",
@@ -73,3 +74,15 @@ For now, use of the standard `rgba()` function is the recommended way to add an 
 
 #### References:
  + <sup>1</sup> [CSS Color Module Level 4 - 4.2. The RGB hexadecimal notations: #RRGGBB](https://www.w3.org/TR/css-color-4/#hex-notation) 
+ 
+#### More Information:
+<!-- Please add any articles you think might be helpful to read before writing the article -->
+* [How Do HEX Color Codes Work? (in 60 seconds)](https://www.youtube.com/watch?v=c56x1aj2CPA) - Good Video which also explains a little bit about Hexadecimal Numbers.
+* [Hex Codes & Color Theory](https://www.youtube.com/watch?v=xlRiLSDdqcY) - A Longer Video which delves into Color theory (Such as what are additive colors and what are subtractive colors etc.) and it also points to other resources for delving deeper into the topic. 
+* [Web Colors](https://en.wikipedia.org/wiki/Web_colors) - Wikipedia Article on how colors are used on the web.
+* [Wikipedia article about Hexadecimal code](https://en.wikipedia.org/wiki/Hexadecimal)
+* [Wikipedia article about web colors](https://en.wikipedia.org/wiki/Web_colors)
+* [Hex Colors](http://www.color-hex.com/)
+* [Medium article on hex color code](https://medium.com/webkul-dev/hex-color-codes-27cd0a37c3ce)
+* [More information on colors in CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value)
+* [Explore different Hex colors](http://www.colorhexa.com/)

@@ -103,16 +103,54 @@ int main(void) {
 ```
 Give that a run to see what happens, and be sure to play with the operators and values to see what and how things change.
 
+# Math library
+C provides a math library (`math.h`) that provides multiple useful math functions. As an example, the power of a number can be calculated as:
+
+```#include<math.h>
+int result = pow(2,3) // will result in 2*2*2 or 8
+```
+
+Some other (`math.h`) library functions that may prove useful are:
+
+```#include <math.h>
+double angle = cos(90.00); // Givs us 0.00
+int result = sqrt(16); // Gives us 4
+double result = log(10.00) // Gives us 2.30 (note this is ln(10), not log base 10)
+```
+
+// C code to illustrate 
+// the use of ceil function. 
+#include <stdio.h> 
+#include <math.h> 
+  
+int main () 
+{ 
+float val1, val2, val3, val4; 
+  
+val1 = 1.6; 
+val2 = 1.2; 
+val3 = -2.8; 
+val4 = -2.3; 
+  
+printf ("value1 = %.1lf\n", ceil(val1)); 
+printf ("value2 = %.1lf\n", ceil(val2)); 
+printf ("value3 = %.1lf\n", ceil(val3)); 
+printf ("value4 = %.1lf\n", ceil(val4)); 
+      
+return(0); 
+} 
+
 # Before you go on...
 ## A review
 * There are several basic operators:
- * `+` for addition
- * `-` for subtraction
- * `*` for multiplication
- * `/` for division
- * `%` for modulo
-* There are also a bunch more operators, but we'll get into detail with them later.
+  * `+` for addition
+  * `-` for subtraction
+  * `*` for multiplication
+  * `/` for division
+  * `%` for modulo
+  * There are also a bunch more operators, but we'll get into detail with them later.
 * Integer math is a thing that C is pretty strict about.
- * C is very strict about data types
- * If only integers are involved, an integer will be returned
- * If a floating point number is involved in an operation, that part of the operation becomes floating point
+* C is very strict about data types
+* If only integers are involved, an integer will be returned
+* If a floating point number is involved in an operation, that part of the operation becomes floating point
+* C provides a `math.h` library with multiple functions like `pow` for calculating the power of a number. 
