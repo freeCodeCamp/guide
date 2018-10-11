@@ -20,16 +20,16 @@ When starting out with linux, there are some basic commands everyone should know
  5. **mkdir** - make directory 
 - This command, followed by the name you wish to name your directory, creates a new directory. `mkdir folder1` will make a new directory called folder1.
 
- 6. **rmdir** -remove directory   
+ 6. **rmdir** - remove directory   
 - Removes the directory that follows the command. `rmdir folder1` will delete the directory named folder1 if it exists.
 
- 7. **rm** -remove   
+ 7. **rm** - remove   
 - This command removes files, not directories. `rm file.txt` will remove the file named file.txt as long as it exists and is in the current directory.
 
- 8. **touch** -creates file   
+ 8. **touch** - creates file   
 - The touch command is used to create a file. It can be anything, from an empty txt file to an empty zip file. 'touch new.txt' will create a new file with name new.
 
- 9. **mv** -move   
+ 9. **mv** - move   
 - Use the mv command to move files through the command line. We can also use the mv command to rename a file. For example, if we want to rename the file “text” to “new”, we can use 'mv text new'.
 
  10. **right-click** - copy and paste  
