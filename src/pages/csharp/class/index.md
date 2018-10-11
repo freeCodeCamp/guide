@@ -17,13 +17,6 @@ At runtime when the class is created enough memory is allocated onto the heap fo
 #### Creating Classes
 To create a class in C# we need to use the `class` keyword followed by a unique identifier.
 
-```csharp
-public class NewClass
-{
-    // Fields, properties, and methods can go here.
-}
-```
-
 Like other languages, C# creates a default constructor that accepts no parameters. We can also specify our own constructor if we need to take in special parameters or have custom initlization steps in our constructor.
 
 ```csharp
@@ -35,4 +28,44 @@ public class NewClass
     }
 }
 ```
+
+A class is a prototype or blueprint from which objects are created. In C#, the class is defined by using the keyword class. A class is used to combine together some methods, properties, fields, events, and delegates into a single unit. A class may contain nested classes too.
+#### Example: Consider the case of Employee Class below:
+
+```csharp
+using System;
+
+namespace CPrograms
+{
+    class Employee
+    {
+        private string name;
+        private int employeeId;
+
+        public Employee(string name, int employeeId)
+        {
+            this.name = name;
+            this.employeeId = employeeId;
+        }
+        public void PrintEmployee()
+        {
+            Console.WriteLine("Employee Name: {0} , Employee ID: {1}", this.name, this.employeeId);
+        }
+    }
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Employee employeeObject = new Employee("John Doe", 420156);
+            employeeObject.PrintEmployee();
+        }
+    }
+}
+```
+
+A class can inherit from one base class only. However, it can implement from more than one interface.
+
+## More Information
+Read more about classes [here](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/class)
 
