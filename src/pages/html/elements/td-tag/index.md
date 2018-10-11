@@ -3,13 +3,32 @@ title: Td Tag
 ---
 ## Td Tag
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/td-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `<td>` tag defines a standard cell in an HTML table.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+An HTML table has two kinds of cells:
+* Header cells - contains header information (created with the `<th>` element)
+* Standard cells - contains data (created with the `<td>` element)
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+The text in `<th>` elements are bold and centered by default.
+The text in `<td>` elements are regular and left-aligned by default.
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+### Example
+```html
+<html>
+<head>
+<title>Td Tag Example</title>
+</head>
+<body>
+<table>
+  <tr>
+    <th>Header1</th>
+    <th>Header2</th>
+  </tr>
+  <tr>
+    <td>Cell A</td>
+    <td>Cell B</td>
+  </tr>
+</table>
+</body>
+</html>
+```
