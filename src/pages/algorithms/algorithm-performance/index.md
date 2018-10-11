@@ -2,6 +2,11 @@
 title: Algorithm Performance
 ---
 
+In mathematics, big-O notation is a symbolism used to describe and compare the _limiting behavior_ of a function.  
+A function's limiting behavior is how the function acts as it tends towards a particular value and in big-O notation it is usually as it trends towards infinity.  
+In short, big-O notation is used to describe the growth or decline of a function, usually with respect to another function.
+
+
 in algorithm design we usualy use big-O notation because we can see how bad or good an algorithm will work in worst mode. but keep that in mind it isn't always the case because the worst case may be super rare and in those cases we calculate average case. for now lest's disscus big-O notation.
 
 In mathematics, big-O notation is a symbolism used to describe and compare the _limiting behavior_ of a function.  
@@ -17,11 +22,13 @@ The symbol of a claim like x = O(x^2) for all x > _n_ can be substituted with x 
 
 Effectively, we say that a function f(x) that is O(g(x)) grows slower than g(x) does.
 
-Comparitively, in computer science and software development we can use big-O notation in order to describe the time complexity or efficiency of algorithms  
+
+Comparitively, in computer science and software development we can use big-O notation in order to describe the efficiency of algorithms via its time and space complexity.
+
+**Space Complexity** of an algorithm refers to its memory footprint with respect to the input size.
 
 Specifically when using big-O notation we are describing the efficiency of the algorithm with respect to an input: _n_, usually as _n_ approaches infinity.  
-
-When examining algorithms, we generally want a lower time complexity, and ideally a time complexity of O(1) which is constant time.  
+When examining algorithms, we generally want a lower time and space complexity. Time complexity of o(1) is indicative of constant time.
 
 Through the comparison and analysis of algorithms we are able to create more efficient applications.
 
