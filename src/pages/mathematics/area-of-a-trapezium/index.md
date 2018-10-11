@@ -3,13 +3,14 @@ title: Area of a Trapezium
 ---
 ## Area of a Trapezium
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/area-of-a-trapezium/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Area of a Trapezium is defined by the 2D space enclosed by the Trapezium. A trapezium is a Quadrilateral by 2 oposite parallel sides of equal or unequal length and 2 opposite non parallel sides of equal or unequal length.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+Let the parallel sides be represented by 'a' and 'b' and the perpendicular distance between these parallel sides be 'h'
+then
+The Area of the Trapezium = 1/2 * (a+b) * h
+ 
+ which means Area of Trapezium = 1/2 * (sum of parallel sides) * (perpendicular distance between parallel sides).
+ 
+ ## Note:
+ 
+ Area of trapezium can also be found out by dividing the trapezium into a series of triangle and rectangle and finally adding their areas separately.
