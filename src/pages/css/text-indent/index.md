@@ -21,3 +21,5 @@ For example:
 
 #### More Information:
 - <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/text-indent' target='_blank' rel='nofollow'>MDN Web Docs - CSS text-indent</a>
+
+- <a href='https://css-tricks.com/almanac/properties/t/text-indent/' target='_blank' rel='nofollow'>CSS-Tricks text-indent</a>
