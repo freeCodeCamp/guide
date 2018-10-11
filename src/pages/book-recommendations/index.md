@@ -27,7 +27,7 @@ title: Books to Read for Programmers
 - ISBN-13: 978-0321965516
 
 *Programming Pearls (2nd Edition) by Jon Bentley*
-- [Amazon Smile](https://www.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880)
+- [Amazon Smile](https://smile.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880)
 - ISBN-13: 978-0201657883
 
 *Structure and Interpretation of Computer Programs*
@@ -98,7 +98,7 @@ title: Books to Read for Programmers
 
 *Eloquent JavaScript: A Modern Introduction to Programming by Marijn Haverbeke*
 -[Read it online here](https://eloquentjavascript.net)
--[Amazon Smile](https://www.amazon.com/gp/product/1593275846/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1593275846&linkCode=as2&tag=marijhaver-20&linkId=VPXXXSRYC5COG5R5)
+-[Amazon Smile](https://smile.amazon.com/gp/product/1593275846/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1593275846&linkCode=as2&tag=marijhaver-20&linkId=VPXXXSRYC5COG5R5)
 -ISBN-13: 978-1593275846
 
 *JavaScript: The Good Parts*
@@ -112,7 +112,7 @@ title: Books to Read for Programmers
 - ISBN-13: 978-1593275990
 
 *Core Python Applications Programming (3rd Edition) by Wesley J Chun*
-- [Amazon Smile](https://www.amazon.com/Core-Python-Applications-Programming-3rd/dp/0132678209)
+- [Amazon Smile](https://smile.amazon.com/Core-Python-Applications-Programming-3rd/dp/0132678209)
 - ISBN-13: 978-0132678209
 
 ## Soft Skills
@@ -182,7 +182,7 @@ title: Books to Read for Programmers
 - ISBN-13: 978-1946556691
 
 *GATE 2019 Computer Science and Information Technology*
-- [Amazon Smile](https://www.amazon.com/GATE-Computer-Science-Information-Technology/dp/194658178X)
+- [Amazon Smile](https://smile.amazon.com/GATE-Computer-Science-Information-Technology/dp/194658178X)
 - ISBN-13: 978-1946581785
 
 *The Art of Computer Programming by Donald E. Knuth*
