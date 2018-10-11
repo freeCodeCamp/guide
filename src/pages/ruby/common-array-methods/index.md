@@ -173,5 +173,12 @@ end
 4
 ```
 
+#### .concat
+The .concat method appends the elements from an array to the original array. The .concat method can take in multiple arrays as an argument, which will in turn append multiple arrays to the original array.
+``` ruby
+array = [0, 1, 2, 3, 4]
+array.concat([5, 6, 7], [8, 9, 10])
+=> [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+```
 ## More Information
 * [Ruby Array docs](http://ruby-doc.org/core-2.5.1/Array.html)
