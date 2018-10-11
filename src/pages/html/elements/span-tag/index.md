@@ -27,3 +27,6 @@ The code for the paragraph with red text looks like this:
 
 #### Differences between `<span>` and `<div>`
 The main difference is that `<span>` is an inline element, while `<div>` is a block element. This means that a `<span>` can appear within a sentence or paragraph (as in the example above), while a `<div>` will start a new line of content. Note that the CSS `display` property can change this default behavior, but that's way beyond the scope of this article!
+
+#### More Information:
+* [MDN HTML Element Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span)
