@@ -70,7 +70,7 @@
     "develop": "gatsby develop",
     "ensure-page-naming": "node ./bin/ensure-page-naming.js",
     "lint": "eslint --ext .js,.jsx --ignore-path .gitignore . --fix",
-    "format": "prettier --single-quote --semi es5 --write '?(src|plugins)/**/*.js' && npm run lint",
+    "format": "prettier --single-quote --semi es5 --write \"?(src|plugins)/**/*.js\" && npm run lint",
     "pre-commit-message": "echo \"Running pre-commit script. This can take a while.\"",
     "test": "yarn ensure-page-naming && mocha  -R spec \"./{,!(node_modules)/**/}*.test.js\""
   },
