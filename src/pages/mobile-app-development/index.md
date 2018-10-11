@@ -46,3 +46,8 @@ React Native is a front end development framework that contains a lot of the bui
 ### NativeScript
 
 Originally created by Progress, NativeScript apps are built using JavaScript, or by using any language that transpiles to JavaScript, such as TypeScript, for instance. NativeScript directly supports both Angular and Vue frameworks via a community-developed plugin. Mobile applications built with NativeScript result in fully native apps, which use the same APIs as if they were developed in Xcode or Android Studio.
+
+### Flutter
+
+Flutter is a cross platform mobile development framework from Google, i,e it can be used to create both ios and Android apps with ease. It uses Dart as its primary language. It's hot reload feature helps in speeding up the overall Development process. Flutter produces real native apps as in the case of React Native as opposed to cordova, Ionic and Cordova which produces hybrid apps.
+
