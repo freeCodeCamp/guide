@@ -153,5 +153,9 @@ title: Books to Read for Programmers
 
 
 
+*GATE 2019 Computer Science and Information Technology*
+- [Amazon Smile](https://www.amazon.com/GATE-Computer-Science-Information-Technology/dp/194658178X)
+- ISBN-13: 978-1946581785
+
 This list was compiled from multiple suggestion threads on Reddit and Stackoverflow. 
 Please feel free to add more that you have found useful!
