@@ -3,13 +3,14 @@ title: Brute Force Algorithms
 ---
 ## Brute Force Algorithms
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/algorithms/brute-force-algorithms/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Brute Force Algorithms refers to a programming style that does not include any shortcuts to improve performance, but instead relies on sheer computing power to try all possibilities until the solution to a problem is found. 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+A classic example is the traveling salesman problem (TSP). Suppose a salesman needs to visit 10 cities across the country. How does one determine the order in which cities should be visited such that the total distance traveled is minimized? The brute force solution is simply to calculate the total distance for every possible route and then select the shortest one. This is not particularly efficient because it is possible to eliminate many possible routes through clever algorithms. 
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Another example: 5 digit password, in the worst case scenario would take 10<sup>5</sup> tries to crack.
+
+The time complexity of brute force is <b> O(n*m) </b>. So, if we were to search for a string of 'n' characters in a string of 'm' characters using brute force, it would take us n * m tries.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+<a href="https://en.wikipedia.org/wiki/Brute-force_search"> Wikipedia </a>

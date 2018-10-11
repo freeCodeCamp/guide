@@ -1,7 +1,7 @@
 ---
-title: React Native - Hello World
+title: Hello World
 ---
-## React Native - Hello World
+## Hello World
 
 In a traditional webpage, you could easily render `Hello World!` to the screen by writing some HTML like this:
 

@@ -22,8 +22,12 @@ Another practical way to have a color picker is to install it as a package or ex
 
 You can check common examples of color picker tools below.
 
-* <a href='https://www.w3schools.com/colors/colors_picker.asp' target='_blank' rel='nofollow'>W3schools online color picker</a>
+* [W3schools online color picker](https://www.w3schools.com/colors/colors_picker.asp)
 
-* <a href='http://www.colorzilla.com/' target='_blank' rel='nofollow'>ColorZilla browser extension</a>
+* [ColorZilla browser extension](http://www.colorzilla.com/)
 
-* <a href='https://atom.io/packages/color-picker' target='_blank' rel='nofollow'>Color picker package for Atom</a>
+* [Color picker package for Atom](https://atom.io/packages/color-picker)
+
+* [Ambiance Color Palettes](http://ambiance.somethingjustlikethis.com/)
+
+* [Instant Eyedropper](http://www.instant-eyedropper.com/)

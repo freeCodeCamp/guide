@@ -38,6 +38,17 @@ Usage:
 $(".myclass").toggle()
 ```   
 
+### .slideDown() method
+This method animates the height of the matched elements. This causes lower parts of the page to slide down, making way for the revealed items.
+Usage:
+```javascript
+$(".myclass").slideDown(); //will expand the element with the identifier myclass for 400 ms.
+$(".myclass").slideDown(1000); //will expand the element with the identifier myclass for 1000 ms.
+$(".myclass").slideDown("slow"); //will expand the element with the identifier myclass for 600 ms.
+$(".myclass").slideDown("fast"); //will expand the element with the identifier myclass for 200 ms.
+```
+
+
 #### More Information:
 JQuery hide() method on the <a href='http://api.jquery.com/hide/' target='_blank' rel='nofollow'>Official website</a>
 

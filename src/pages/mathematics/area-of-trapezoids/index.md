@@ -3,13 +3,14 @@ title: Area of Trapezoids
 ---
 ## Area of Trapezoids
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/area-of-trapezoids/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The area of a trapezoid is defined as 
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+** A = (a+b)/2 x h ** 
+Where, 
+a,b are the lengths of each base
+h is the altitude (height)
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
+A video explaining how to find the area of a trapezoid can be found on [Khan Academy](https://www.khanacademy.org/math/basic-geo/basic-geo-area-and-perimeter/area-trap-composite/v/area-of-a-trapezoid-1)
 
