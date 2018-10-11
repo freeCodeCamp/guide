@@ -189,6 +189,12 @@ title: Books to Read for Programmers
 - https://www-cs-faculty.stanford.edu/~knuth/taocp.html
 - ISBN-13: 978-0321751041
 
-This list was compiled from multiple suggestion threads on Reddit and Stackoverflow.
+*Facts and Fallacies of Software Engineering*
+- [Amazon Smile](https://smile.amazon.com/Facts-Fallacies-Software-Engineering-Robert/dp/0321117425/)
+- ISBN-13: 978-0321117427
+
+
+This list was compiled from multiple suggestion threads on Reddit and Stackoverflow. 
+=======
 
 Please feel free to add more that you have found useful!
