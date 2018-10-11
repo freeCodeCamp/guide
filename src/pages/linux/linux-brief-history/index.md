@@ -13,3 +13,11 @@ So Linus devised a Kernel named Linux in 1991. Though he would need programs lik
 As time passed by, he collaborated with other programmers in places like MIT and applications for Linux started to appear. So around 1991, a working Linux operating system with some applications was officially launched, and this was the start of one of the most loved and open-source OS options available today. 
 The earlier versions of Linux were not so user-friendly as they were in use by computer programmers and Linus Torvalds never had it in mind to commercialize his product. 
 This definitely curbed the Linux's popularity as other commercially oriented Operating System Windows got famous. Nonetheless, the open-source aspect of the Linux operating system made it more robust. 
+
+#### More Information:
+
+[Linux on Wikipedia](https://en.wikipedia.org/wiki/Linux)
+
+[Kernel.org - the Linux kernel official website](https://www.kernel.org/)
+
+[Distrowatch - the reference for Linux distributions](http://distrowatch.com)
