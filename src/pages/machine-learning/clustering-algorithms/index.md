@@ -1,9 +1,21 @@
 ---
 title: Clustering Algorithms
----
-## Clustering Algorithms
+--- 
+# Clustering Algorithms
+Clustering is the process of dividing data into separated groups (clusters), while ensuring that:
+- Each cluster contains similar objects
+- Objects which do not belong to the same clusters are not similar
 
-Clustering algorithms have the task of grouping a set of objects in such a way that objects in the same group (called a cluster) are more similar (in some sense or another) to each other than to those in other groups (clusters). It is a main task of exploratory data mining, and a common technique for statistical data analysis, used in many fields, including machine learning, pattern recognition, image analysis, information retrieval, bioinformatics, data compression, and computer graphics.
+Clustering algorithms help find structure in a collection of unlabelled data and fall in the category of unsupervised learning. 
+
+The difficulty lies in the definition of a similarity measure that can separate the data in the way you want. For instance, a group of persons can be separated by gender, hair color, weight, race, etc.
+
+Clustering algorithms have the task of grouping a set of objects in such a way that objects in the same group (called a cluster) are more similar (in some sense or another) to each other than to those in other groups (clusters). It is a main task of exploratory data mining, and a common technique for statistical data analysis. It's used in many fields, including machine learning, pattern recognition, image analysis, information retrieval, bioinformatics, data compression, and computer graphics.
+
+Some applications of clustering algorithms include:
+* Grouping consumers according to their purchase patterns
+* Grouping photos of animals of the same kind together
+* Classification of different types of documents 
 
 ## Types of Clustering Algorithms:
 1. Connectivity-based clustering (hierarchical clustering)
@@ -13,8 +25,8 @@ Clustering algorithms have the task of grouping a set of objects in such a way t
 
 ## Examples 
 1. Alogmerative clustering
-2. k-means clustering
-3. k-mediods clustering
+2. K-means clustering
+3. K-mediods clustering
 4. Partition Clustering
 
 ### K-Means Clustering
@@ -30,7 +42,7 @@ K-means algorithm is a popular clustering algorithm since it is relatively simpl
 
 Since we only need to calculate k x n distances (rather than n(n-1) distances for knn algorithm), this algorithm is quite scalable.
 
-Let's cluster on the Iris Dataset https://www.kaggle.com/uciml/iris
+Here's a clustering example in Python that uses the [Iris Dataset](https://www.kaggle.com/uciml/iris)
 
 ```python
 import pandas as pd
@@ -72,12 +84,12 @@ plt.title("Iris by K-Means Clustering")
 plt.show()
 ```
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Since the data points belong usually to a high-dimensional space, the similarity measure is often defined as a distance between two vectors (Euclidean, Manhathan, Cosine, Mahalanobis...)
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
-* [Cluster Analysis](https://en.wikipedia.org/wiki/Cluster_analysis)
+* [Wikipedia Cluster Analysis article](https://en.wikipedia.org/wiki/Cluster_analysis)
 * [Introduction to Clustering and related algorithms](https://www.analyticsvidhya.com/blog/2016/11/an-introduction-to-clustering-and-different-methods-of-clustering/)
-* https://www.datascience.com/blog/k-means-clustering
-* http://fromdatawithlove.thegovans.us/2013/05/clustering-using-scikit-learn.html
-* http://datascienceis.life
+* [Clustering Algorithms-Stanford University Slides](https://web.stanford.edu/class/cs345a/slides/12-clustering.pdf)
+* [Clustering Algorithms: From Start To State Of The Art](https://www.toptal.com/machine-learning/clustering-algorithms) 
+* [Cluster Analysis: Basic Concepts and Algorithms](https://www-users.cs.umn.edu/~kumar/dmbook/ch8.pdf) 

@@ -12,8 +12,13 @@ Use Font Awesome to add an `info-circle` icon to your info button and a `trash` 
   - [Different between Font Awesome v4 and v5](https://fontawesome.com/how-to-use/on-the-web/setup/upgrading-from-version-4)
   
 ### Hint
-The Font Awesome stylesheet of this page is version 4.5.0, so you should use `fa` prefix instead of new `fas`. Check the [link](https://fontawesome.com/how-to-use/on-the-web/setup/upgrading-from-version-4) to learn more about difference between v4 and new v5.
-  
+* The Font Awesome stylesheet of this page is version 4.5.0, so you should use `fa` prefix instead of new `fas`. Check the [link](https://fontawesome.com/how-to-use/on-the-web/setup/upgrading-from-version-4) to learn more about difference between v4 and new v5.
+* Logos and the relevant CSS classes for the logos can be found [here](https://fontawesome.com/icons?d=gallery) .
+* Adding a space between the `<i>` tag and the text will give it a nice spacing.
+
+## Spoiler alert!
+
+**Solution ahead!**
 
 ### Solution:
 ```html
@@ -75,4 +80,3 @@ The Font Awesome stylesheet of this page is version 4.5.0, so you should use `fa
   </form>
 </div>
 ```
-

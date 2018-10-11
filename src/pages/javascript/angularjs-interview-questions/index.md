@@ -35,6 +35,20 @@ Answer: Routing is a core feature in AngularJS. This feature is useful in buildi
 Question: Explain ng-repeat directive.
 Answer: The ng-repeat directive is the most used and very useful AngularJS Directive feature. It iterates over a collection of items and creates DOM elements. It constantly monitors the source of data to re-render a template in response to change.
 
+Question: What is the difference between ng-If and ng-show/ng-hide.
+Answer: The ng-If directive only render DOM element if condition is true. where ng-show/ng-hide directive render the DOM element but it changes class of ng-hide/ng-show to maintain visibility of the element on the page.
+
+Question: How do you cancel a timeout with AngularJs?
+Answer: $timeout is AngularJs' wrapper for window.setTimeout, you cancel a timeout applying the function: 
+
+    $timeout.cancel(function (){
+      // write your code.
+    });
+
+Question: What is the Dependency Injection?
+Answer: Dependency Injection (DI) is a software design pattern that deals with how components get hold of their dependencies.
+The AngularJS injector subsystem is in charge of creating components, resolving their dependencies, and providing them to other components as requested.
+
 Question : Explain ng-App directive.
 Answer : The ng-app directive starts an AngularJS Application. It defines the root element. It automatically initializes or bootstraps the application when web page containing AngularJS Application is loaded. It is also used to load various AngularJS modules in AngularJS Application. 
 
@@ -53,8 +67,9 @@ Using a service is the cleanest, fastest and easiest way to test. However, there
 – Using $parent, nextSibling, controllerAs, etc. to directly access the controllers
 – Using the $rootScope to add the data on (not a good practice)
 
-Question: What is the difference between ng-if and ng-show/hide 
-Answer: ng-if will only create and display the DOM element when its condition is true,if the condition is false or changes to false it will not create or destroy the created one. ng-show/hide will always generate the DOM element but it will apply the css display property based on the evaluation of the condition.
+Question: What is the difference between ng-if and ng-show/hide directives?
+Answer: ng-if will only create and display the DOM element when its condition is true, if the condition is false or changes to false it will not create or destroy the created one. 
+ng-show/hide will always generate the DOM element but it will apply the css display property based on the evaluation of the condition.
 
 #### More Information:
 
@@ -63,5 +78,3 @@ Here you can find other questions and answers:
 * [AngularJS Interview Questions](https://www.tutorialspoint.com/angularjs/angularjs_interview_questions.htm)
 * [10 AngularJS interview questions and answers](https://www.upwork.com/i/interview-questions/angularjs/)
 * [50 Most Important AngularJS Interview Questions For 100% Success](http://www.techbeamers.com/latest-angularjs-interview-questions-answers/)
-
-

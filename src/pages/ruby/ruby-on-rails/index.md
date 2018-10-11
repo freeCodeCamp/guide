@@ -70,6 +70,11 @@ $ rails s
 ## Convention over Configuration
 *Convention over Configuration* means a developer only needs to specify unconventional aspects of the application. For example, if there is a class `Sale` in the model, the corresponding table in the database is called `sales` by default. It is only if one deviates from this convention, such as calling the table "products sold", that the developer needs to write code regarding these names. Generally, Ruby on Rails conventions lead to less code and less repetition.
 
+## What is MVC?
+Model (Active record) contains the business logic and interacts with the database.
+Views (Action views) all of the HTML files and structure. 
+Controller (Action controller) interacts with the views and model to direct the actions of the application.
+
 ## DRY - Don't Repeat Yourself
 *Don't repeat yourself* means that information is located in a single, unambiguous place. For example, using the ActiveRecord module of Rails, the developer does not need to specify database column names in class definitions. Instead, Ruby on Rails can retrieve this information from the database based on the class name.
 

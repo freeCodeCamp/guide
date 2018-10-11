@@ -27,11 +27,24 @@ Unity is notable for its ability to target games for multiple platforms. The cur
 Unity is the default software development kit (SDK) for Nintendo's Wii U video game console platform, with a free copy included by Nintendo with each Wii U developer license.
 Unity Technologies calls this bundling of a third-party SDK an "industry first".
 
+## Interface
+
+![Unity Interface](https://github.com/pawelszpiczakowski/PublicStuff/raw/master/unityInterface.png)
+
+In picture above, you will notice five section:
+1) Section 1. <b>Scene View</b>: This is where you will be creating level for your game, scene or 3D project. All of your Game Objects will be placed and manipulated right here.
+2) Section 2. <b>Game View</b>: This is where you will see your results, how your level or scene looks like. You need to have a Camera on the scene to see how it looks like. Sometimes its called Camera View.
+3) Section 3. <b>Hierarchy</b>: This window will display all Game Objects placed directly on the scene. Basically everything that you see in Game View, needs to be listed here. This will include non-visual and visual game objects.
+4) Section 4. <b>Project</b>: This is your project window. Basically it show whats inside Assets folder on your disk. Everything from Game Objects, Scripts, Textures, Folders, Models, Audio, Video and etc... will be accessible from this window.
+5) Section 5. <b>Inspector</b>: This panel will display different attibutes and properties of selected Game Objects. Depending on the selection, the appropriate attributes and components will be listed.
+
 ##  Noteworthy Games: 
 * Assassin’s Creed: Identity
 * Temple Run Trilogy
 * Battlestar Galactica Online
 * Hearthstone: Heroes of Warcraft
+* Inside
+* Cuphead
      
 ## History
 
@@ -41,9 +54,7 @@ Unity formerly supported 7 other platforms including its own Unity Web Player.
 
 Unity Web Player was a browser plugin that was supported in Windows and OS X only, which has been deprecated in favor of WebGL.
 
-
 Unity is the engine used by Rust, Kerbal Space Program, and Cup Head.
-
 
 #### More Information: 
 

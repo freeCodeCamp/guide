@@ -39,6 +39,11 @@ C# is an object-oriented language that provides support for component-oriented a
 
 You can use C# to create Windows client applications, XML Web services, distributed components, client-server applications, database applications, and much more.
 
+#### ASP.NET and .NET Applications
+The C# language is also used with the ASP.NET framework, developed by Microsoft Corp., specifically for creating web applications that are machine and browser independent. The broader .NET framework, also developed by Microsoft, is used for creating other types of applications such as desktop, mobile, server, and networking applications. The .NET framework includes the .NET Base Class Libraries (BCL), ASP.NET, ADO.NET, Windows Forms, Windows Presentation Foundation (WPF), and eXtensible Markup Language(XML) libraries.
+
+For more information on ASP.NET, see the topic, ASPNET in the <a href='https://guide.freecodecamp.org/' target='_blank' rel='nofollow'>freeCodeCamp guide</a>
+
 #### More Information:
 
 * [Introduction to C#](https://docs.microsoft.com/en-us/dotnet/csharp/getting-started/introduction-to-the-csharp-language-and-the-net-framework)
