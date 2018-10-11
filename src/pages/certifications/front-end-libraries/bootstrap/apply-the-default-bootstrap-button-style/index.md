@@ -5,7 +5,7 @@ title: Apply the Default Bootstrap Button Style
 
 The last challenge had you creating 6 buttons, 3 in each well element, this time you are required to add classes to those buttons.
 
-### Hint 1
+### Hint
 
 A class is declared using the following syntax:
 
