@@ -12,18 +12,26 @@ type *var-name;
 ## Making and Using a Pointer
 ```c
 #include <stdio.h>
+
 int main(void){
     double my_double_variable = 10.1;
     double *my_pointer;
 
     my_pointer = &my_double_variable;
 
-    printf("%f\n", my_double_variable);
+    printf("value of my_double_variable: %f\n", my_double_variable);
+
     ++my_double_variable;
-    printf("%f\n", *my_pointer);
+
+    printf("value of my_pointer: %f\n", *my_pointer);
 
     return 0;
 }
+```
+Output:
+```
+value of my_double_variable: 10.100000
+value of my_pointer: 11.100000
 ```
 
 In this code, there are two declarations. The first is a typical variable initialization which creates a `double` and sets it equal to 10.1. New in our declarations is the usage of `*`. The asterisk (`*`) is usually used for multiplication, but when we use it by placing it in front of a variable it tells C that this is a pointer variable.  
@@ -33,21 +41,25 @@ The next line tells the compiler where that somewhere else actually is. By using
 With that in mind, let's take another look at this chunk of code:
 ```c
 double *my_pointer;
-
+// my_pointer now stored the address of my_double_variable
 my_pointer = &my_double_variable;
 ```
 `my_pointer` has been declared, and it's been declared as a pointer. The C compiler now knows that `my_pointer` is going to point to a memory location. The next line assigns `my_pointer` a memory location value using the `&`.
 
 Now let's take a look what referring to a memory location means for your code:
 ```c
-printf("%f\n", my_double_variable);
-++my_double_variable;
-printf("%f\n", *my_pointer);
+    printf("value of my_double_variable: %f\n", my_double_variable);
+    
+    // Same as my_double_variable = my_double_variable + 1
+    // In human language, adding one to my_double_variable 
+    ++my_double_variable;
+
+    printf("value of my_pointer: %f\n", *my_pointer);
 ```
 Notice that in order to get the value of the data at `*my_pointer`, you'll need to tell C that you want to get the value the variable is pointing at. Try running this code without that asterisk, and you'll be able to print the memory location, because that's what the `my_variable` variable is actually holding.
 
 You can declare multiple pointer in a single statement as with standard variables, like so: 
-```
+```c
 int *x, *y;
 ```
 Notice that the `*` is required before each variable. This is because being a pointer is considered as part of the variable and not part of the datatype.
@@ -88,11 +100,45 @@ void swap(int * n1, int * n2)
 ```
 
 Output
-
+```
 Number1 = 10
 Number2 = 5
 
+```
 The addresses, or memory locations, of `num1` and `num2` are passed to the function `swap` and are represented by the pointers `*n1` and `*n2` inside of the function. So, now the pointers `n1` and `n2` point to the addresses of `num1` and `num2` respectively.
+
+So, now the pointer n1 and n2 points to the address of num1 and num2 respectively.
+
+When, the value of pointers are changed, the value in the pointed memory location also changes correspondingly.
+
+Hence, changes made to *n1 and *n2 are reflected in num1 and num2 in the main function.
+
+
+### POINTERS AS PARAMETERS TO FUNCTION
+when we pass any parameter to function we are making a copy of the parameter. let see with the example
+```C
+#include <stdio.h>
+
+void func(int);
+
+int main(void) {
+    int a = 11;
+    func(a);
+    printf("%d",a);// print 11
+    
+
+    return 0;
+}
+void func(int a){
+ a=5
+ printf("%d",a);//print 5
+}
+```
+In the example above we are changinging the value of integer a in function func, but we still geting 11 in the main function. This happens because in the function copy of integer a has passed as parameter, so in this function we have not access to the 'a' which is in main function.
+
+So how could you change the value of integer defined in main , by using another function? Here POINTERS comes in to role.
+when we supply pointer as a parameter , we have access to address of that parameter and we could to any thig with this parameter and result will be shown everywhere.
+Below is an example which does exactly the same thing we want...
 
 By dereferencing `n1` and `n2`, we now can modify the memory to which `n1` and `n2` point. This allows us to change the value of the two variables `num1` and `num2` declared in the `main` function outside of their normal scope. After the function is done, the two variables now have swapped their values, as can be seen in the output.
 
@@ -122,8 +168,8 @@ The qualifier const can be applied to the declaration of any variable to specify
 
 # Pointer to variable
 We can change the value of ptr and we can also change the value of object ptr pointing to.
-Following code fragment explains pointer to variabel
-```
+Following code fragment explains pointer to variable
+```c
 #include <stdio.h>
 int main(void)
 {
@@ -145,7 +191,7 @@ int main(void)
 ```
 # Pointer to constant
 We can change pointer to point to any other integer variable, but cannot change value of object (entity) pointed using pointer ptr.
-```
+```c
 #include <stdio.h> 
 int main(void)
 {
@@ -166,7 +212,7 @@ int main(void)
 # Constant pointer to variable
 In this we can change the value of the variable the pointer is pointing to. But we can't change the pointer to point to 
 another variable.
-```
+```c
 #include <stdio.h>
 int main(void)
 {
@@ -185,14 +231,14 @@ int main(void)
 ```
 # constant pointer to constant
 Above declaration is constant pointer to constant variable which means we cannot change value pointed by pointer as well as we cannot point the pointer to other variable.
-```
+```c
 #include <stdio.h>
   
 int main(void)
 {
     int i = 10;
     int j = 20;
-    const int *const ptr = &i;        /* constant pointer to constant integer */
+    const int *const ptr = &i; /* constant pointer to constant integer */
   
     printf("ptr: %d\n", *ptr);
   
@@ -213,27 +259,27 @@ int main(void)
 Most of the time, pointer and array accesses can be treated as acting the same, the major exceptions being:
 
 1) the sizeof operator
-* sizeof(array) returns the amount of memory used by all elements in array
-* sizeof(pointer) only returns the amount of memory used by the pointer variable itself
+* `sizeof(array)` returns the amount of memory used by all elements in array
+* `sizeof(pointer)` only returns the amount of memory used by the pointer variable itself
 
 2) the & operator
 * &array is an alias for &array[0] and returns the address of the first element in array
 * &pointer returns the address of pointer
 
 3) a string literal initialization of a character array
-* char array[] = “abc” sets the first four elements in array to ‘a’, ‘b’, ‘c’, and ‘\0’
-* char *pointer = “abc” sets pointer to the address of the “abc” string (which may be stored in read-only memory and thus unchangeable)
+* `char array[] = “abc”` sets the first four elements in array to ‘a’, ‘b’, ‘c’, and ‘\0’
+* `char *pointer = “abc”` sets pointer to the address of the “abc” string (which may be stored in read-only memory and thus unchangeable)
 
 4) Pointer variable can be assigned a value whereas array variable cannot be.
-```
-int a[10];
-int *p; 
-p=a; /*legal*/
-a=p; /*illegal*/ 
+```c
+    int a[10];
+    int *p; 
+    p = a; /*legal*/
+    a = p; /*illegal*/ 
 ```
 5) Arithmetic on pointer variable is allowed.
-```
-p++; /*Legal*/
-a++; /*illegal*/ 
+```c
+    p++; /*Legal*/
+    a++; /*illegal*/ 
 ```
 
