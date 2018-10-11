@@ -96,6 +96,32 @@ The below algorithm is slightly optimized version to avoid swapping `key` elemen
          arr[i+1] = key
 ```
 
+## Inserion Sort in C++
+
+void inssort(int ar[],int n)
+{
+unsigned int i,j; // Unsigned means i and j can never attain negative values
+int t;
+
+for(i=1;i<n;i++)
+{
+j=i;
+t=ar[i];
+
+while(ar[j]>t)
+{
+ar[j+1]=t;
+j--;
+}
+
+ar[j+1]=t;
+
+}
+
+}
+
+
+
 Here is a detaied implementation in Javascript:
 
 ```
@@ -167,6 +193,7 @@ void insertionSort(int arr[], int n)
    } 
 } 
 ```
+
 
 ### Properties:
 * Space Complexity: O(1)
