@@ -84,7 +84,7 @@ The canvas is the workspace for your project. You can move elements around the c
 
 1. Move tool: move elements around the canvas.
 
-2. Selection tool: choose from a rectangular or circular selection.
+2. Marquee tool: mark and edit a rectangular or circular selection on a layer.
 
 3. Lasso tool: free-form selection tool you can use to draw a selection area.
 
@@ -131,6 +131,10 @@ The layers palette is accessible from the right side of the window on the palett
 A project is made up of multiple layers. Each element on the project is its own layer. Layers are stackable.
 
 In the example below, the "circle" layer is on top of the "A" layer on the layers palette. This means the circle is rendered on top of the letter "A" on the canvas.
+
+Every time you want to prevent a layer from casual adjustments you can lock it by selecting it from the layers window and pressing the lock button.
+
+You can also give a title to each layer. This is a good practice in particular when you work with complex compositions. Simply double-click on the layer title in the layers window to re-name it. Which is a good segway into using folders, which you should also do for good practices in big projects.
 
 ![Layers palette](https://raw.githubusercontent.com/cecyc/textures/master/layers.png)
 
@@ -200,6 +204,8 @@ If you need another format, select `File` > `Export` > `Export as...`. There, yo
 #### Footnotes
 
 1. While you can design logos in Photoshop, most designers chose to use Illustrator for logos, as Illustrator creates vector images that can make it easier to resize logos for multiple uses, such as small logos for business cards, or large logos for banner signs.
+2. You can create your own brushes in Photoshop, using Brush Preset option. You can also import brushes. This allows you to not limit yourself to given default brushes. 
+3. It is easier and better to use Photoshop in case you are making artworks using graphic tablets, since you have multiple options for brushes, something which isn't there in Illustrator.
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
