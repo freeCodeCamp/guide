@@ -97,5 +97,4 @@ Note that the `else` and `else if` sections are not required, while `if` is mand
 	*/
 ```
 
-
-The if statement needs a boolean result, that is, true or false. In some programming languages, several datatypes can be automatically converted into booleans, but in C#, you have to specifically make the result boolean. For instance, you can't use if(number), but you can compare number to something, to generate a true or false
+The if statement needs a boolean result, that is, true or false. In some programming languages, several datatypes can be automatically converted into booleans, but in C#, you have to specifically make the result boolean. For instance, you can't use if(number), but you can compare number to something, to generate a true or false.
