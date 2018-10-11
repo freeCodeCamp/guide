@@ -9,7 +9,27 @@ In case these assumptions are untrue, you might want to take a look at this <a>w
 
 But it would be unfair if we completely ignore the <a href='http://docs.python-guide.org/en/latest/starting/which-python/#the-state-of-python-2-vs-3' target='_blank' rel='nofollow'>Python 2 vs Python 3</a> debate.
 
+## Virtual environment
+
+Before we install Django we will get you to install an extremely useful tool to help keep your coding environment tidy on your computer. It's possible to skip this step, but it's highly recommended. Starting with the best possible setup will save you a lot of trouble in the future!
+
+So, let's create a virtual environment (also called a virtualenv). Virtualenv will isolate your Python/Django setup on a per-project basis. This means that any changes you make to one website won't affect any others you're also developing. Neat, right?
+
+For more information on virtual environments see the relevent section <a href='https://guide.freecodecamp.org/python/virtual-environments/' target='_blank' rel='nofollow'>here<a>.
+
 ## Wrapping Up
+
+If you have already installed `pip` then simply:
+```
+$ pip install django
+```
+After installation it's complete we can create a new project:
+```
+$ django-admin startproject myproject
+$ cd myproject
+$ python manage.py runserver
+```
+Go to `http://localhost:8000`! :rocket:
 
 We have successfully installed the web-framework of our need. However, it's not yet complete. Most web applications are content and data driven - so we need a data storage. Or, a Database, if you will.
 

@@ -3,19 +3,22 @@ title: Fonts
 ---
 ## Fonts
 
-The CSS font properties define the font family, boldness, size, and the style of a text.
+The CSS font properties define the font family, weight, size, variant, line height and style of a text.
 
 ### Font family
 
 The font family of a text is simply set by using the `font-family` property.
 
-It works with a *fallback* system, if your browser does not support the first font, it tries with the next one and so on.
+It works with a *fallback* system, if your browser does not support the first font, it tries with the next one and so on. If the name of the font is more than one word it must be surrounded by quotes. 
 
 ```css
 p {
     font-family: "Times New Roman", Times, serif;   
 }
 ```
+In the above example, "Times New Roman" is the <family-name> of the font, while "serif" is the <generic-name>. Generic names are used as a fallback
+mechanism for preserving style if the family-name is unavailable. A generic name should always be the last item in the list of font family names. Generic
+family names are serif, sans-serif, monospace, cursive, fantasy, system-ui.
 
 ### Font style
 
@@ -28,15 +31,15 @@ This property has 3 values:
 * oblique - Text shown leaning
 
 ```css
-p.normal {
+.normal {
     font-style: normal;
 }
 
-p.italic {
+.italic {
     font-style: italic;
 }
 
-p.oblique {
+.oblique {
     font-style: oblique;
 }
 ```
@@ -53,32 +56,44 @@ There are different types of font size values:
 * `%` - percentages
 
 ```css
-with-pixels {
+.with-pixels {
     font-size: 14px;
 }
 
-with-ems {
+.with-ems {
     font-size: 0.875em;
 }
 
-with-absolute {
+.with-absolute {
     font-size: large;
 }
 
-with-percentage {
+.with-percentage {
     font-size: 80%;
 }
 ```
 
 ### Font weight
 
-The `font-weight` property specified if said font is `bold` or `normal`.
+The `font-weight`property specifies the weight (or boldness) of the font. Accepts keywords (`bold`, `normal`, `bolder`, `lighter`) or numeric keywords (`100`, `200`, `300`, `400` etc.) `400` is the same as `normal`.
 
 ```css
 p {
    font-weight: bold
 }
 ```
+
+### Font responsiveness
+
+The text size can be set with a vw(viewport width) unit.
+That way the text size will follow the size of the browser window.
+
+```html
+<h1 style="font-size:10vw">Hello World</h1>
+```
+`Viewport is the browser window size. 1vw = 1% of viewport width. If the viewport is 50cm wide, 1vw is 0.5cm.`
+
+
 
 ### Font variant
 
@@ -92,5 +107,6 @@ p.small {
 
 #### More Information:
 
-- https://www.w3schools.com/css/css_font.asp
-- https://developer.mozilla.org/en-US/docs/Web/CSS/font
+- [W3 Schools - CSS Font](https://www.w3schools.com/css/css_font.asp)
+- [MND - CSS Font](https://developer.mozilla.org/en-US/docs/Web/CSS/font)
+- [CSSFontStack](https://www.cssfontstack.com/)
