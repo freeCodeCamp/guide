@@ -3,8 +3,13 @@ title: Avoid Colorblindness Issues by Carefully Choosing Colors that Convey Info
 ---
 ## Avoid Colorblindness Issues by Carefully Choosing Colors that Convey Information
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/responsive-web-design/applied-accessibility/avoid-colorblindness-issues-by-carefully-choosing-colors-that-convey-information/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Following the instructions:
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Change the text color to a dark blue (#003366)
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+the line 4 becomes:
+
+```css
+color: #003366;
+```
+and the color of the text will become darker. 

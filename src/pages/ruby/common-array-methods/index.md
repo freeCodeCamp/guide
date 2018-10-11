@@ -174,4 +174,4 @@ end
 ```
 
 ## More Information
-* [Ruby Array docs](https://ruby-doc.org/core-2.4.2/Array.html)
+* [Ruby Array docs](http://ruby-doc.org/core-2.5.1/Array.html)
