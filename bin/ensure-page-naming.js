@@ -56,7 +56,6 @@ function checkData(data) {
 readdirp({ root: path.resolve(__dirname, '../src/pages') })
   .on('data', checkData)
   .on('end', () => {
-    console.log('ensure-pages all done!');
     /* eslint-disable no-process-exit */
     process.exit(0);
   });
