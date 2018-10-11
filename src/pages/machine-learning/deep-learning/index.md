@@ -28,9 +28,7 @@ A resnet-152 model looks like this (Don't worry if you don't understand it. It's
 ![Resnet-152 Model](https://adeshpande3.github.io/assets/ResNet.gif)
 
 
-Google had its own neural network architecture that won the Imagenet challenged in 2014:
-
-![GoogLeNet Model](https://adeshpande3.github.io/assets/GoogleNet.gif)
+Google had its own neural network architecture that won the Imagenet challenged in 2014. Which can be seen in a <a href="https://adeshpande3.github.io/assets/GoogleNet.gif">gif here in more detail</a>.
 
 
 ### How to implement your own?
