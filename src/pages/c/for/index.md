@@ -9,7 +9,7 @@ The `for` loop executes a block of code until a specified condition is false. Us
 
 ## Syntax of For Loop
 
-```
+```c
 for ( init; condition; increment ) {
    statement(s);
 }
@@ -18,7 +18,7 @@ for ( init; condition; increment ) {
 The `for` loop consists of 3 sections, the initialization section, a specific condition and the incremental or decremental operation section. These 3 sections control the `for` loop.
 
 ## Example
-```
+```c
 #include <stdio.h>
 
 int main () {
