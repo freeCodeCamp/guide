@@ -6,7 +6,7 @@ title: Pass Props to a Stateless Functional Component
 ### Hint 1
 
 Define a prop named date in the Calendar component as follows:
-````javascript
+```jsx
 <CurrentDate date={Date()} />
 ````
 
@@ -18,7 +18,7 @@ The syntax prop.propName is used to render a prop.
 
 Assign a prop named date in the Calendar component as follows and render it in the Calendar component, like:
 
-````javascript
+```jsx
 const CurrentDate = (props) => {
   return (
     <div>
@@ -40,4 +40,4 @@ class Calendar extends React.Component {
     );
   }
 };
-````
+```

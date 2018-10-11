@@ -13,5 +13,43 @@ The commands listed here are basic, and will help you get started quickly. But t
 1. `cut` When you have a string with separators in it, use `cut` to filter out certain fields. Example: `echo "this, that, and the other" | cut -d, -f2 # "that"`
 1. `grep` To find lines of text that contain a certain string, use grep. Example: `grep 'root' /etc/passwd # root:x:0:0:root:/root:/bin/bash`
 1. `sed` Use sed to find and change a substring in a piece of text. Example: `echo "this, that, and the other" | sed 's/that/those/' # "this, those, and the other"`
+1. `shutdown` use shut down the system and turn off the power. Example: `shutdown -h now`shuts down system immediately. `shutdown -h +5` shuts down system after five minutes.
 
 Use these commands in scripts and at the command line. They're all very powerful commands, and Linux's man page has a lot more information about each one.
+
+***********
+
+Also, important commands used for System Administrators are following:
+
+1. `uptime` Command
+In Linux uptime command shows since how long your system is running and the number of users are currently logged in and also displays load average for 1,5 and 15 minutes intervals.
+
+2. `w` Command
+It will displays users currently logged in and their process along-with shows load averages. also shows the login name, tty name, remote host, login time, idle time, JCPU, PCPU, command and processes.
+
+3. `users` Command
+Users command displays currently logged in users. This command don’t have other parameters other than help and version.
+
+4. `who` Command
+who command simply return user name, date, time and host information. who command is similar to w command. Unlike w command who doesn’t print what users are doing. Lets illustrate and see the different between who and w commands.
+
+5. `whoami` Command
+whoami command print the name of current user. You can also use “who am i” command to display the current user. If you are logged in as a root using sudo command “whoami” command return root as current user. Use “who am i” command if you want to know the exact user logged in.
+
+6. `ls` Command
+ls command display list of files in human readable format.
+
+7. `crontab` Command
+List schedule jobs for current user with crontab command and -l option.
+
+8. `less` Command
+less command allows quickly view file. You can page up and down. Press ‘q‘ to quit from less window.
+
+9. `more` Command
+more command allows quickly view file and shows details in percentage. You can page up and down. Press ‘q‘ to quit out from more window.
+
+10. `cp` Command
+Copy file from source to destination preserving same mode.
+
+Here are the list of commands frequently used by adiminstrator.
+This is not a complete but it’s a compact list of commands to refer when needed. 
