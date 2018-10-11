@@ -3,8 +3,18 @@ title: Use an Array to Store a Collection of Data
 ---
 ## Use an Array to Store a Collection of Data
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-data-structures/use-an-array-to-store-a-collection-of-data/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+### Problem explanation:
+Assign an array of at least 5 elements in length to `yourArray`. Your array should contain at least one string, one number, and one boolean.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+#### Hint
+Remember to enclose your strings in `""` and to delimit the items in your Array with `,`.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+## Spoiler alert!
+
+**Solution ahead!**
+
+```javascript
+let yourArray = [true, 'hello', 1, 2, 3];
+
+```
+

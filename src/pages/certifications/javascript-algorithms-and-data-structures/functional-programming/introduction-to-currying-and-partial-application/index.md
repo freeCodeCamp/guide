@@ -3,8 +3,19 @@ title: Introduction to Currying and Partial Application
 ---
 ## Introduction to Currying and Partial Application
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/functional-programming/introduction-to-currying-and-partial-application/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+### Solution
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+```javascript
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+function add(x) {
+  // Add your code below this line
+  return function(y) {
+    return function(z) {
+      return x + y + z;
+    }
+  }
+  // Add your code above this line
+}
+add(10)(20)(30);
+
+```

@@ -3,8 +3,18 @@ title: Comparison with the Less Than Or Equal To Operator
 ---
 ## Comparison with the Less Than Or Equal To Operator
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-less-than-or-equal-to-operator/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+**`<=`** (Less Than Or Equal To) is a logical operator that returns true case the value on the left is the **same or lower** than the one on the right.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+## Basic Solution
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```javascript
+function testLessOrEqual(val) {
+  if (val <= 12)
+    return "Smaller Than or Equal to 12";
+  
+  if (val <= 24)
+    return "Smaller Than or Equal to 24";
+
+  return "More Than 24";
+}
+```
