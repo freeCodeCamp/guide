@@ -148,6 +148,21 @@ public int[] insertionSort(int[] arr)
       }
       return arr;
 ```
+The C example is shown below:
+```
+void insertionSort(int a[], int n) { 
+   int i, key, j; 
+   for (i = 1; i < n; i++){ 
+       key = a[i]; 
+       j = i - 1; 
+       while (j >= 0 && a[j] > key) { 
+           a[j + 1] = a[j]; 
+           j--; 
+       } 
+       a[j + 1] = key; 
+   } 
+} 
+```
 
 ### Properties:
 * Space Complexity: O(1)
