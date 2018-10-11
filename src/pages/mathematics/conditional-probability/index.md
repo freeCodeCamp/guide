@@ -3,13 +3,14 @@ title: Conditional Probability
 ---
 ## Conditional Probability
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/conditional-probability/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+A conditional probability is the probability of an event, given some other event has already occurred. So, for example, the conditional probability of an event **A** is the probability that the event will occur given that an event **B** has already occurred. This probability is denoted as `P(A|B)`.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The conditional probability of an event **A** given that an event **B** has occurred is written as follows:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+![conditional probability formula](https://pbiswas101.files.wordpress.com/2018/10/conditional-probability.png?w=450) **as long as P(B) > 0**
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+**NOTE** - In the case where events **A** and **B** are independent (where event **B** has no effect on the probability of event **A**), the conditional probability of event **A** given event **B** is simply the probability of event **A**, i.e. `P(A)`.
 
-
+### Resources
+- [Conditional Probability - Wikipedia](https://en.wikipedia.org/wiki/Conditional_probability)
+- [MIT OpenCourseWare - Youtube](https://www.youtube.com/watch?v=JGeTcRfKgBo)
