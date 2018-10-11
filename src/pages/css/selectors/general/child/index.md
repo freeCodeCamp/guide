@@ -3,26 +3,23 @@ title: Child
 ---
 ## Child
 
-<p>Child selector represented by `>` & placed between two selectors. It matches second selector(children) that are children of first selector (parent). The second selector must be immediate children of first element.</p>
+The child selector is represented by `>` and is placed between two selectors: `parent > child`. It matches any second selector that are children of first selector (the parent). The second selector must be immediate children of the first one.
 
-####Code Syntax</h4>
+Here's an example of the syntax:
 
 ```css
 first selector (parent) > second selector (child) { 
-	css declarations; 
+    css declarations; 
 }
 ```
 
-####Code Example</h4>
+Here's a code example that matches all immediate `span` element of with a `div` parent:
+
 ```css
 div > span { 
     background-color: red;
 }
 ```
-matches all immediate span element of parent div
 
-
-#### More Information:
-- <a href='https://www.w3.org/TR/CSS22/selector.html#child-selectors' target='_blank' rel='nofollow'>W3C Working Draft</a>
-
-
+### More Information:
+- <a href='https://www.w3.org/TR/CSS22/selector.html#child-selectors' target='_blank' rel='nofollow'>W3C Child Selector Working Draft</a>
