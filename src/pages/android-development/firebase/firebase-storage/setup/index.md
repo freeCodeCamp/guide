@@ -4,7 +4,7 @@ title: Setting up Firebase Storage
 
 # Prerequisites
 1. The latest version of Android Studio
-2. Have connected with Firebase manually or via Firebase Assistant(See [Connecting to Firebase](guide/src/pages/android-development/firebase/connecting-to-firebase)). 
+2. Have connected with Firebase manually or via Firebase Assistant (See [Connecting to Firebase](guide/src/pages/android-development/firebase/connecting-to-firebase)). 
 
 It is recommended that you do this so as to not be confused by partial instructions related to this in the docs mentioned below. 
 
@@ -35,7 +35,7 @@ Detailed instructions for these can be found [here](https://firebase.google.com/
 To learn about how to read from and write to the storage in your Android application, refer to the docs listed below.
 
 * [Upload files from Android
-Firebase Guide]https://firebase.google.com/docs/storage/android/upload-files)
+Firebase Guide](https://firebase.google.com/docs/storage/android/upload-files)
 
 * [Download files to Android
 Firebase Guide](https://firebase.google.com/docs/storage/android/download-files)
@@ -48,4 +48,3 @@ Firebase Quickstart-Android [android-sample](https://github.com/firebase/quickst
 You may have seen before or from any other resources, in adding dependencies 'compile' keyword is used since 'implementation' what i have added here. 
 Then don't get confused because Google now deprecated 'compile' and in place of that you need to use 'implementation'
 
-If anybody found anything wrong or you think need some improovements in this article then, please correct this or just ask me to correct it. 
