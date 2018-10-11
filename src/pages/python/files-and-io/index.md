@@ -90,6 +90,16 @@ Sample code to open a text file:
 file = open('hello_world.txt','w')
 file.write('Hello World!')
 file.close()
+``
+
+#### Writing to Json Files
+Python can be used to writing to json format files as well, using json.dump
+
+``` 
+import json
+with open('data.json', 'w') as outfile:
+    json.dump(data, outfile)
+    
 ```
 
 ##### Using with
