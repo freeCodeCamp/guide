@@ -14,7 +14,7 @@ A comunidade freeCodeCamp está construindo um massivo, pesquisável **"Guia"**.
 
 Essa ferramenta de referência incluirá milhares de artigos que abrangem todas as áreas de desenvolvimento, design e ciência de dados - tudo escrito para ser facilmente entendido por pessoas novas no mundo da programação.
 
-Este repositório é onde nós planejamos e mantemos estes artigos do Guia, os quais nós hospedamos no site do nosso guia da comunidade em forma de uma wikepedia. [`guide.freecodecamp.org`] (https://guide.freecodecamp.org).
+Este repositório é onde nós planejamos e mantemos estes artigos do Guia, os quais nós hospedamos no site do nosso guia da comunidade em forma de uma wikepedia. [`guide.freecodecamp.org`](https://guide.freecodecamp.org).
 
 ## O que são artigos do Guia?
 
@@ -36,14 +36,14 @@ Se você não consegue encontrar um esboço sobre o tópico que gostaria de escr
 
 Sinta-se livre para nos fazer perguntas [no Gitter](https://gitter.im/freeCodeCamp/Contributors) se você não tiver certeza de onde colocar um novo artigo na estrutura da pasta.
 
-Antes de começar a escrever, leia o [guia de estilo do artigo](https://github.com/freeCodeCamp/guide/blob/master/CONTRIBUTING.md#article-style-guide) descrito em [CONTRIBUTING.md](CONTRIBUTING.md).
+Antes de começar a escrever, leia o [guia de estilo do artigo](https://github.com/freeCodeCamp/guide/blob/master/CONTRIBUTING.md#article-style-guide) descrito em [CONTRIBUTING.md](https://github.com/freeCodeCamp/guide/blob/master/CONTRIBUTING.md).
 
 ## Contribuindo
 
 1. 🍴 De um fork neste repositório.
-2. 👀️ Siga o guia de contribuição descritas em [CONTRIBUTING.md](CONTRIBUTING.md).
+2. 👀️ Siga o guia de contribuição descritas em [CONTRIBUTING.md](https://github.com/freeCodeCamp/guide/blob/master/CONTRIBUTING.md).
 3. 🔧 Faça algumas mudanças incríveis!
-4. 👉 [Faça um Pull Request] (https://github.com/freeCodeCamp/guide/compare)
+4. 👉 [Faça um Pull Request](https://github.com/freeCodeCamp/guide/compare)
 5. 🎉 Tenha o seu Pull Request aprovado - sucesso!
 
 Ou apenas [crie um problema](https://github.com/freeCodeCamp/guide/issues) - qualquer tipo de ajuda conta! 😊
@@ -54,4 +54,4 @@ Copyright (c) 2018 freeCodeCamp.
 
 O conteúdo deste repositório está vinculado pelas seguintes licenças:
 - O software do computador está licenciado sob [BSD-3-Clause](./ LICENSE.md).
-- O conteúdo de referência em [`/ src / pages`](/src/pages) e sub pastas é licenciado sob o [CC-BY-SA-4.0](./src/pages/LICENSE.md).
+- O conteúdo de referência em [`/src/pages`](/src/pages) e sub pastas é licenciado sob o [CC-BY-SA-4.0](./src/pages/LICENSE.md).

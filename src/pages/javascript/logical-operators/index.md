@@ -37,6 +37,32 @@ undefined || 'abc' //returns the second value, 'abc'
 0 || false //returns the second value, false
 ```
 
+#### Logical NOT (!)
+
+The NOT operator does not do any comparison like the AND and OR operators.Moreover it is operated only on 1 operand.
+
+An '!' (exclamation) mark is used for representing the NOT operator.
+
+###### Use of NOT operators
+
+1. conversion of the expression into boolean.
+2. returns the inverse of the boolean value obtained in last step.
+
+```js
+var spam = 'rinki'; //spam may be equal to any non empty string
+var booSpam = !spam;
+/*returns false
+  since when a non-empty string when converted to boolean returns true
+  inverse of which is evaluated to false.
+*/
+
+var spam2 = ''; //spam2 here is equal to empty string
+var booSpam2 = !spam2;
+/*returns true
+  since when a empty string when converted to boolean returns false
+  inverse of which is evaluated to true.
+*/
+```
 #### Tips:
 Both logical operators will return the value of the last evaluated expression. For example:
 
