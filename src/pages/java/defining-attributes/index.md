@@ -31,3 +31,11 @@ class MyClass {
   }
 }
 ```
+### Visibility modifiers
+In the above Vehicle example, the attributes are declared without a visibility modifier (e.g. public, private, or protected). When no modifier is included in an attribute delaration, it defaults to something called "package private" which means that the attribute can be accessed directly using the "." dot notation by any other class within the same package. 
+
+'public' variables can be accessed from any class 
+'protected' variables can be accessed by any class within the same package, as well as by subclasses
+'private' variables can only be accessed from within the class where they are declared
+
+It's generally a good idea to make all of the attributes of a class private, and control access to them through the use of "getter" and "setter" methods.

@@ -34,6 +34,16 @@ HSLA color values are an extension of HSL color values with an alpha channel - w
 An HSL color value is specified with: hsl(hue, saturation, lightness).
 An HSLA color value is similar, with the alpha value in last position: hsla(hue, saturation, lightness, alpha)
     
+### CMYK
+
+CMYK colors is a combination of CYAN, MAGENTA, YELLOW , and BLACK. Computer screens display colors using RGB color values. Printers often presents colors using CMYK color values.
+CMYK is not supported in HTML, but it is suggested as a new standard in CSS4.
+
+Example colors:
+  CMYK Red: cmyk(0%, 100%, 100%, 0%)
+  CMYK Green: cmyk(100%, 0%, 100%, 0%)
+  CMYK Blue: cmyk(100%, 100%, 0%, 0%)
+
 ### Hexcodes
 Hexcode, short for hexadecimal code, is a way to express a color value to your computer. It is named this way because 16 unique symbols can be used as values. In this case, the numbers 0 to 9 and letters a to f are used.
 
