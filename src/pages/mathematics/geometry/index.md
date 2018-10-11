@@ -1,15 +1,16 @@
 ---
 title: Geometry
 ---
+
 ## Geometry
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/geometry/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Geometry is the study of shapes and the space they exist in. This can be discussed in size, position, and properties of the shape. There are many subfields of geometry:
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Euclidean geometry: The study of points, lines, planes, angles, triangles, congruence, similarity, solid figures, and circles.
+Differential geometry: The use of calculus and linear algebra to study problems in geometry. 
+Topology: The study of properties of objects that are unchanged by continuous mappings.
+Convex geometry: The study of convex shapes in Euclidean space and abstract analogues.
+Algebraic geometry: The study of geometry through the use of multivariate polynomials and other techniques. 
+Discrete geometry: The study of the relative position of simple geometric objects, such as points, lines and circles. 
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-
+#### More Information

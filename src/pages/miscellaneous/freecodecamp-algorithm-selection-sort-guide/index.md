@@ -69,7 +69,7 @@ In every iteration of selection sort, the minimum element (considering ascending
     selection_sort(arr)
     print(arr) # Prints [11, 12, 22, 25, 64]
 
-![:rocket:</a> <a href='https://repl.it/CXwQ' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CXwQ' target='_blank' rel='nofollow'>Run Code</a>
 
 #### <a href='https://www.freecodecamp.com/videos/big-o-notation-what-it-is-and-why-you-should-care' target='_blank' rel='nofollow'>Complexity of Algorithm</a>
 
