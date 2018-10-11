@@ -266,13 +266,13 @@ A membership operator is used to identify membership in any sequence (lists, str
 ###### Example Usage
 
 ```py
-a = [1,2,3,4,5]
+a1 = [1,2,3,4,5]
   
 #Is 3 in the list a?
-print 3 in a # prints True 
+print 3 in a1 # prints True 
   
 #Is 12 not in list a?
-print 12 not in a # prints True
+print 12 not in a1 # prints True
   
 str = "Hello World"
   
