@@ -141,7 +141,7 @@ if(a == 100)
 a is equal to 100
 b is equal to 200
 ```
-## 4. Switch Case Statement
+## 5. Switch Case Statement
 The switch statement is often faster than nested if...else (not always). Also, the syntax of switch statement is cleaner and easy to understand.
 
 ### Syntax of switch case
