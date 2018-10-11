@@ -3,8 +3,18 @@ title: Understand the Prototype Chain
 ---
 ## Understand the Prototype Chain
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/object-oriented-programming/understand-the-prototype-chain/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+### Solution
+Your code should show that Object.prototype is the prototype of Dog.prototype
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+``` javascript
+function Dog(name) {
+  this.name = name;
+}
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+let beagle = new Dog("Snoopy");
+
+Dog.prototype.isPrototypeOf(beagle);  // => true
+
+// Fix the code below so that it evaluates to true
+Object.prototype.isPrototypeOf(Dog.prototype);
+```

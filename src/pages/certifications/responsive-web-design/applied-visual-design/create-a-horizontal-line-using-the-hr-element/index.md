@@ -21,10 +21,6 @@ Whichever format you choose it will create a horizontal line as in [this lesson]
 
 ![Example hr](https://i.imgur.com/RMTqXPw.png)
 
-### Bug in the lesson
-If you come across the "the hr tag should appear between the title and the paragraph" issue and you're certain that you completed the objective correctly, check out [this useful suggestion](https://forum.freecodecamp.org/t/trouble-with-create-a-horizontal-line-using-the-hr-element-lesson/214232) from @SpaceCadet on the forums.
-
-
 ## Resources:
 * [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr)
 * [W3C](http://w3c.github.io/html-reference/hr.html)
