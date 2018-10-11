@@ -11,12 +11,10 @@ React.js is not a full fledged Javascript framework like Angular.js or other pop
 Since React makes use of a _Virtual DOM_, it can selectively update portions of the page as needed rather than always having to complete an entire page reload. In many cases, not updating the entire DOM will save considerably on performance. Moreover, many of the built-in functions (such as Lifecycle functions) also have performance benefits as they often help to check if a re-render is even needed to begin with.
 
 ### Low learning curve
-Of the major frontend "frameworks" available, React has a relatively low barrier to entry and has a quick ramp up time. In addition to that, their docs are extremely clear and provide many examples for most of the common use cases you will come across. 
+Of the major frontend "frameworks" available, React has a relatively low barrier to entry and has a quick ramp up time. In addition, React's official documentation is extremely clear and provide many examples for most of the common use cases. 
 
 ### Tooling
-The tools and software commonly utilized with React are incredibly well maintained and supported and provide several different avenues of best practices to follow when developing web applications. Some of these tools include Redux, React-router, Thunk, and many others.
-
-Moreover, there are also a number of development tools such as a React and Redux Chrome extension that helps debug your React application.
+The tools and software commonly utilized with React are incredibly well maintained and supported and provide several different avenues of best practices to follow when developing web applications. Some of these tools include Redux, React-router, Thunk, and many others. There are also a number of development tools, such as a React and Redux Chrome extension, which helps with debugging your React applications.
 
 ### Support
 React is created and maintained by the folks at Facebook and is used by individuals and companies all over the world in large volume. This means React is constantly improving and any problems you may have have probably already been asked on Stack Overflow.
