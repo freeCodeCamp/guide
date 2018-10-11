@@ -36,6 +36,12 @@ false || false //returns the second value, false
 undefined || 'abc' //returns the second value, 'abc'
 0 || false //returns the second value, false
 ```
+#### Short-circuit evaluation
+&& and || behave as a short-circuit operators. 
+
+In case of the logical AND, if the first operand returns false, the second operand is never evaluated and first operand is returned.
+
+In case of the logical OR, if the first value returns true, the second value is never evaluated and the first operand is returned.
 
 #### Logical NOT (!)
 
