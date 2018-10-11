@@ -18,12 +18,12 @@ This is where feature scaling, also called normalization, comes in handy, to mak
 
 ### Stochastic Gradient Descent 
 
- Machine learning problems usually requires computations over a sample size in the millions, and that could be very computationally intensive. 
+Machine learning problems usually requires computations over a sample size in the millions, and that could be very computationally intensive. 
 
 In stochastic gradient descent you update the the parameter for the cost gradient of each example rather that the sum of the cost gradient of all the examples. You could arrive at a set of good parameters faster after only a few passes through the training examples, thus the learning is faster as well. 
 
 ### Further Reading
 
-* <a href="https://machinelearningmastery.com/gradient-descent-for-machine-learning/
-">Gradient Descent For Machine Learning</a> 
-* <a href="https://towardsdatascience.com/difference-between-batch-gradient-descent-and-stochastic-gradient-descent-1187f1291aa1">Difference between Batch Gradient Descent and Stochastic Gradient Descent</a>
+* [A guide to Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/)
+* [Gradient Descent For Machine Learning](https://machinelearningmastery.com/gradient-descent-for-machine-learning/) 
+* [Difference between Batch Gradient Descent and Stochastic Gradient Descent](https://towardsdatascience.com/difference-between-batch-gradient-descent-and-stochastic-gradient-descent-1187f1291aa1)
