@@ -30,6 +30,18 @@ df.head()
 ```
 This will show the first 5 rows of the data frame.
 
+To show more than first 5 rows simply put the number of rows you want to print out inside the `head` method.
+```python
+df.head(10)
+```
+This will show the first 10 rows of the data frame.
+
+To show the last few rows of a data frame, the `tail` method is useful (once more this should sound familiar to R programmers):
+```python
+df.tail()
+```
+This will show the last 5 rows of the data frame.
+
 ## Subsetting: Getting a column by name
 A data frame can be subset in many ways. One of the simplest is getting a single column. For instance, if the data frame `df` contains a column named `age`, we can extract it as follows:
 ```python
