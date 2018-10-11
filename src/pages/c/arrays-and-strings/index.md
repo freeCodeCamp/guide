@@ -19,6 +19,13 @@ int my_array[] = {1, 5, 3, 6, 2};
 ```
 Notice that in this example, we didn't bother specifying a number in the square brackets. This is because the curly brackets have values in them that will be assigned to each position in the array. You could put a number in the brackets anyway, as long as you made sure to create enough memory locations to store the values you've passing in.
 
+When initializing an array, you can provide fewer values than array elements. For example, the
+following statement initializes only the first two elements of my_array:
+
+float my_array[5] = {5.0, 2.5};
+
+If you partially initialize an array, the compiler sets the remaining elements to zero.
+
 Now that the array has been declared with 5 values, it has 5 memory locations. Consider this table for a visual example of that:
 
 | Position | 0 | 1 | 2 | 3 | 4 |

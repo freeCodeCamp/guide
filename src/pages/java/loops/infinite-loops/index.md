@@ -41,7 +41,7 @@ for(int i=0;i<100;i++){
 }
 ```
 
-The loop above runs infinitely because every time i approaches 49, it is set to be 0. i never reaches 100 to terminate the loop, so the loop is an infinite loop. 
+The loop above runs infinitely because every time i approaches 49, it is set to be 0.This is to say that i never reaches 100 to terminate the loop, so the loop is an infinite loop. 
 
 But a program stuck in such a loop will keep using computer resources indefinitely. This is undesirable, and is a type of 'run-time error'.
 

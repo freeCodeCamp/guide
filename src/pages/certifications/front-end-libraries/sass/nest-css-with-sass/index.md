@@ -3,8 +3,37 @@ title: Nest CSS with Sass
 ---
 ## Nest CSS with Sass
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/front-end-libraries/sass/nest-css-with-sass/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+- In Sass, nesting CSS rules allows to define hierarchy selectors.
+- You can organize your style sheets by nesting CSS rules.
+ 
+## Example
+```sass
+.title{
+  strong{}
+  em{}
+}
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+// This will be compiled into:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+.title{}
+.title strong{}
+.title em{}
+```
+## Hint 1:
+
+ - You may want to change the position of "}" at line 4.
+ 
+## Solution
+```sass
+<style type='text/sass'>
+  .blog-post { 
+    h1 {
+     text-align: center;
+     color: blue;
+    }
+    p {
+        font-size: 20px;
+    } 
+  }  
+</style>
+```

@@ -91,36 +91,40 @@ This problem does not involve rearranging the input into different combinations 
 
 #### Relevant Links
 
-*   <a>Switch Statements</a>
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch' target='_blank' rel='nofollow'>Switch Statements</a>
 
 ## ![:sunflower:](https://forum.freecodecamp.com/images/emoji/emoji_one/sunflower.png?v=3 ":sunflower:") Intermediate Code Solution:
 ```javascript
     function pairElement(str) {
-      //define a map object with all pair possibilities 
-      var map = {T:'A', A:'T', G:'C', C:'G'};
-      //split str into a char Array
-      strArr = str.split('');
-      //replace each Array item with a 2d Array using map
-      for (var i=0;i<strArr.length;i++){
-        strArr[i]=[strArr[i], map[strArr[i]]];
-      }
-     return strArr;
+    //create object for pair lookup
+    var pairs = {
+      "A": "T",
+      "T": "A",
+      "C": "G",
+      "G": "C"
     }
+    //split string into array of characters
+    var arr = str.split("");
+    //map character to array of character and matching pair
+    return arr.map(x => [x,pairs[x]]);
+  }
 
-    // test here
-    pairElement("GCG");
+  //test here
+  pairElement("GCG");
 ```
-![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CLnA/0' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/repls/ThoroughSphericalComputeranimation' target='_blank' rel='nofollow'>Run Code</a>
 
 ## Code Explanation:
 
 *   First define an object with all pair possibilities, this allows us to easily find by key or value.
 *   Split `str` into a characters array so we can use each letter to find its pair.
-*   Use a loop to go throw the array of characters and replace each character by an array of the pair, thus creating 2d arrays.
+*   Use the map function to map each character in the array to an array with the character and it's matching pair, creating a 2D array.
 
 #### Relevant Links
 
-*   <a>Bracket Notation for objects</a>
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map' target='_blank' rel='nofollow'>Array.prototype.map()</a>
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Property_accessors' target='_blank' rel='nofollow'>Property accessors</a>
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions' target='_blank' rel='nofollow'>Arrow functions</a>
 
 ## ![:clipboard:](https://forum.freecodecamp.com/images/emoji/emoji_one/clipboard.png?v=3 ":clipboard:") NOTES FOR CONTRIBUTIONS:
 
