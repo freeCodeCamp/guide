@@ -30,6 +30,8 @@ The field of computer security is growing at a rapid rate every year, in a repor
 
 [Think Like a Programmer](https://www.nostarch.com/thinklikeaprogrammer)
 
+Hooked: How to Build Habit-Forming Products: amzn.to/2bVG5AQ
+
 To see the full list, visit: https://talkpython.fm/episodes/show/130/10-books-python-developers-should-be-reading
 
 ### Articles

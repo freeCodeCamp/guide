@@ -5,9 +5,9 @@ title: React
 
 React is a JavaScript library for building user interfaces. It was voted the most loved in the "Frameworks, Libraries, and Other Technologies" category of Stack Overflow's 2017 Developer Survey.<sup>1</sup>
 
-Because React is a JavaScript library, React runs in the browser, NOT on the server. This makes React very fast due to not having to wait for server responses. 
+React is a JavaScript library and React applications built on it run in the browser, NOT on the server. Applications of this kind only communicate with the server when necessary, which makes them very fast compared to traditional websites that force the user to wait for the server to re-render entire pages and send them to the browser.
 
-React is used for building user interfaces: User interfaces is what the user sees on their screen and interacts with to use your web app. This interface is split up into components, instead of having one huge page you break it up into smaller pieces known as components. In more general terms, this approach is called Modularity.
+React is used for building user interfaces - what the user sees on their screen and interacts with to use your web app. This interface is split up into components, instead of having one huge page you break it up into smaller pieces known as components. In more general terms, this approach is called Modularity.
 
 - It's declarative: React uses a declarative paradigm that makes it easier to reason about your application. 
 - It's efficient: React computes the minimal set of changes necessary to keep your DOM up-to-date. 
@@ -194,7 +194,7 @@ Our first argument is going to be our JSX.
 </body>
 ```
 
-The official react docs state “This funny tag syntax is neither a string nor HTML. It is called JSX, and it is a syntax extension to JavaScript. We recommend using it with React to describe what the UI should look like. JSX may remind you of a template language, but it comes with the full power of JavaScript. JSX produces React “elements”.”
+The [official react docs state](https://reactjs.org/docs/introducing-jsx.html): “This funny tag syntax is neither a string nor HTML. It is called JSX, and it is a syntax extension to JavaScript. We recommend using it with React to describe what the UI should look like. JSX may remind you of a template language, but it comes with the full power of JavaScript. JSX produces React “elements”.”
 
 Often times, JSX freaks people out who have been developers for a while because it looks like HTML. At a very early age developers are taught separation of concerns. HTML has its place, CSS has its place and JavaScript has it’s place. JSX seems to blur the lines. You are using what looks like HTML but as Facebook says comes with the full power of JavaScript.
 
