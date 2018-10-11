@@ -35,7 +35,6 @@ class Article extends React.Component {
       },
       pageContext: { meta }
     } = this.props;
-    console.log(title);
     return (
       <Layout>
         <Helmet>
