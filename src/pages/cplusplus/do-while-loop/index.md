@@ -11,7 +11,11 @@ do
 } while(expression);
 	
 ```
+
+Note: Remember to use a semicolon ';' at the end of the condition.
+
 Do something first and then test if we have to continue. The result is that the do block runs at least once. (Because the expression test comes afterward). Take a look at an example:
+
 ```cpp
 #include <iostream>
 	using namespace std;

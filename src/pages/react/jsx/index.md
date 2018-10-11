@@ -11,13 +11,13 @@ JSX is an expression which uses valid HTML statements within JavaScript. You can
 ### Single-line & Multi-line expressions
 Single-line expression are simple to use.
 
-```javascript
+```jsx
 const one = <h1>Hello World!</h1>;
 ```
 
 When you need to use multiple lines in a single JSX expression, write the code within a single parenthesis.
 
-```javascript
+```jsx
 const two = (
   <ul>
     <li>Once</li>
@@ -28,30 +28,30 @@ const two = (
 
 ### Using only HTML tags
 
-```javascript
+```jsx
 const greet = <h1>Hello World!</h1>;
 ```
 
 ### Combining JavaScript expression with HTML tags
 We can use JavaScript variables within braces.
 
-```javascript
+```jsx
 const who = "Quincy Larson";
 const greet = <h1>Hello {who}!</h1>;
 ```
 
 We can also call other JavaScript functions within braces.
 
-```javascript
+```jsx
 function who() {
   return "World";
 }
 const greet = <h1>Hello {who()}!</h1>;
 ```
-## Only a single parent tag is allowed
+### Only a single parent tag is allowed
 A JSX expression must have only one parent tag. We can add multiple tags nested within the parent element only.
 
-```javascript
+```jsx
 // This is valid.
 const tags = (
   <ul>

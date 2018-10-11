@@ -13,6 +13,7 @@ title: Books on Python Programming Language
 - [E-book](http://greenteapress.com/thinkpython2/html/index.html)(free)
  
 *Learn Python 3 the Hard Way*
+
   - Paid (Free ebook avaiable) book which covers the basics of python. It's designed to get you started with python language and become familiar with its syntax and workings by the time you complete the book. 
 - [Amazon](https://www.amazon.com/Learn-Python-Hard-Way-Introduction/dp/0134692888)
 - ISBN-13: 978-0134692883
@@ -20,5 +21,9 @@ title: Books on Python Programming Language
 - [Website](https://learnpythonthehardway.org/) (Buy from the creator | Includes video lessons)
 - [E-book](https://learnpythonthehardway.org/python3/) (free)
 
-
- Please feel free to add more that you have found useful!
+- [Functional Programming in Python by David Mertz [OREILLY][FREE]](https://www.oreilly.com/programming/free/files/functional-programming-python.pdf)
+- [Python in Education by Nicholas H. Tollervey[OREILLY][FREE]](https://www.oreilly.com/programming/free/files/python-in-education.pdf)
+- [How to think like a Computer Scientist by Allen Downey[V 2.0.17][FREE]](http://greenteapress.com/thinkpython/thinkpython.pdf)
+- [A Byte of Python[FREE]](https://python.swaroopch.com)
+  
+  Please feel free to add more that you have found useful!
