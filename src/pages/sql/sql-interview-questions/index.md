@@ -31,8 +31,6 @@ ON Customers.CustomerID=Orders.CustomerID
 ORDER BY Customers.CustomerName
 ```
 
-# Changes
-
 ### What is the result of the following command?
 ``` 
   DROP VIEW view_name
@@ -53,9 +51,6 @@ A pseudocolumn is a function which returns a system generated value. The reason 
     ROWNUM, ROWID, USER, CURRVAL, NEXTVAL etc.
 ```   
 
-# Changes2
-
-The question is on basic security issues which can be solved through TCL.
 ### Create a user my723acct with password kmd26pt. Use the user_data and temporary data tablespaces provided by PO8 and provide to this user 10M of storage space in user_data and 5M of storage space in temporary_data.
 ``` sql
     CREATE USER my723acct IDENTIFIED BY kmd26pt
