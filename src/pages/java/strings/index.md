@@ -94,7 +94,7 @@ This will result in - `String Length is : 17`
 2. The String class is final - it's methods can't be overridden.
 3. When the String literal is found by JVM, it is added to string literal pool.
 4. String class posses a method name `length()`, while arrays have an attribute naming length.
-5. Strings are immutable and can not be changed.
+5. In java, string objects are immutable. Immutable simply means unmodifiable or unchangeable. Once string object is created its data or state can't be changed but a new string object is created.
 
 
 
@@ -105,4 +105,24 @@ The "length" of a string is just the number of chars in it. So "hi" is length 2 
 ```java
 String a = "Hello";
 int len = a.length();  // len is 5
+```
+#### Other comparison methods which can also be used on the String are :
+
+1. equalsIgnoreCase() :- compares the string without taking into consideration the case sensitivity.
+
+```java
+String a = "HELLO";
+String b = "hello";
+System.out.println(a.equalsIgnoreCase(b));   // It will print true
+```
+
+2. compareTo :- compares the value lexicographically and returns an integer.
+
+```java
+String a = "Sam";
+String b = "Sam";
+String c = "Ram";
+System.out.println(a.compareTo(b));       // 0
+System.out.prinltn(a.compareTo(c));       // 1 since (a>b)
+System.out.println(c.compareTo(a));       // -1 since (c<a)
 ```
