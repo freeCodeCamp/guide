@@ -15,6 +15,8 @@ Before we install Django we will get you to install an extremely useful tool to 
 
 So, let's create a virtual environment (also called a virtualenv). Virtualenv will isolate your Python/Django setup on a per-project basis. This means that any changes you make to one website won't affect any others you're also developing. Neat, right?
 
+For more information on virtual environments see the relevent section <a href='https://guide.freecodecamp.org/python/virtual-environments/' target='_blank' rel='nofollow'>here<a>.
+
 ## Wrapping Up
 
 If you have already installed `pip` then simply:

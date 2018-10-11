@@ -92,9 +92,9 @@ For loops are for when we want something to run a set number of times.
 
 ### Syntax
 ```
-do {
+for ( init; condition; increment ) {
    statement(s);
-} while( condition );
+}
 ```
 
 Here's an example of that:
@@ -147,10 +147,16 @@ Take a moment to consider what this code will do:
 for(;;){
     printf("hello, world! \n");
 }
+
+while("Free Code Camp"){
+    printf("hello, world! \n");
+}
 ```
 There's nothing in the initialization section, so nothing has been initialized. That's fine, and that is done sometimes because you don't always want or need to initialize anything.
 
 Next is the condition, which is blank. That's a little odd. This means that no condition will be tested, so it's never going to be false, so it will run through the loop, perform the afterthought (which is to do nothing), and then check the condition again, which will make it run again. As you've probably realized, this is an infinite loop. As it turns out, this is actually useful. When creating performing an infinite loop, the method of doing `while(1)` is perfectly legitimate, but performs a comparison every time. `for(;;)`, on the other hand, does not. For that reason, `for(;;)` has a legitimate use in that it is a hair more efficient than other methods of infinite looping. Thankfully, many compilers will take care of this for you.
+
+The loop in second code while("Free Code Camp") will also execute infinitely.The reason is because C considers any non-zero value as true and hence will execute the loop infinitely.
 
 ## Not using brackets
 Throughout this page, you've read that the code 'within the brackets' is what gets run, and that's mostly true. However, what if there are no brackets?
