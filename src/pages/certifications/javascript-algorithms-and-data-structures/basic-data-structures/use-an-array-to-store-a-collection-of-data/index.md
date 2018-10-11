@@ -23,11 +23,11 @@ title: Use an Array to Store a Collection of Data
  ```
  - In this challenge you need to create an array with at least 5 elements and at least one string, one number, and one boolean.
  
- ### Solution:
- ```javascript
+### Solution:
+
+```js
  let yourArray = ["a", 2, true, "c", null, {name: "john"}];
- ```
-  
-  ### Resources
-  Further reading about arrays at [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array).
-  
+```
+
+### Resources
+Further reading about arrays at [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array).

@@ -11,5 +11,3 @@ Then add the required text.
   ```javascript
   const JSX = <h1>Hello JSX!</h1>;
   ```
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->

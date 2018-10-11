@@ -30,7 +30,10 @@ is a regression technique.
 If the output value 'y' is a discrete / categorical value then the function is a classification technique.
 ```  
 - **Clustering** - Grouping of unlabelled data. Identifying patterns using statistics.
+- **Dimensionality Reduction** - Reducing the number of random variables in the data to get more accurate predictions.
 
+-  **Random forests**- Random forests or random decision forests are an ensemble learning method for classification,                                regression and other tasks, that operate by constructing a multitude of decision trees at training                            time and outputting the class that is the mode of the classes or mean prediction of the individual                            trees. 
+-**Bayesian networks**-A Bayesian network is a probabilistic graphical model which relates a  set of random variables with                          their conditional independencies via a directed acyclic graph (DAG). In a simple way it relates the random variable with their conditional independencies for the event prediction.It plays a crucial role in clues-to-cause relation.
 ### More Information:
 
 - [Glossary of Terms - Robotics](http://robotics.stanford.edu/~ronnyk/glossary.html)
