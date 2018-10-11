@@ -10,7 +10,7 @@ A table is a group of data stored in a database.
 To create a table in a database you use the `CREATE TABLE` statement. You give a name to the table and a list of columns with its datatypes.
 
 ```
-SYNTAX:- CREATE TABLE TABLENAME(Attribute1 Datatype,Attribute2 Datatype,........);
+CREATE TABLE TABLENAME(Attribute1 Datatype, Attribute2 Datatype,........);
 ```
 
 Here’s an example creating a table named Person:
