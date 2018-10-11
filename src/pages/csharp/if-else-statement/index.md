@@ -1,8 +1,6 @@
 ---
-title: If
+title: If Else Statement
 ---
-
-# If
 
 The If-Else statement executes a block of code depending if your precondition is fullfilled or not.
 
