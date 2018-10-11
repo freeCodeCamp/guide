@@ -8,7 +8,7 @@ Timsort is a fast sorting algorithm working at stable O(N log(N)) complexity
 Timsort is a blend on Insertion Sort and Mergesort. This algorithm is implemented in Java’s Arrays.sort() as well as Python’s sorted() and sort()
 The smaller part are sorted using Insertion Sort and is later merged together using Mergesort.
 
-A quick implementation in Pyhton:
+A quick implementation in Python:
 
 ```
 def binary_search(the_array, item, start, end):
