@@ -7,16 +7,17 @@ Every language learning starts with Traditional Hello World example. Here, you g
 
 Everything in React is a component. 
 
-But before that we need to make sure to have node.js and npm installed in the computer. Now we need to get CRA(Create React App) which is a tool built by developers at Facebook to help you build React applications. It saves you from time-consuming setup and configuration. You simply run one command and create react app sets up the tools you need to start your React project.
+But before that we need to make sure to have node.js and npm installed in the computer. Optionally we can use CRA(Create React App) which is a tool built by developers at Facebook to help you build React applications. It saves you from time-consuming setup and configuration. You simply run one command and create react app sets up the tools you need to start your React project.
 
-We can install it through the command 
-
+We can install it through the following commands 
+```
 npm install -g create-react-app
 
 create-react-app my-app
 
 cd my-app
 npm start
+```
 
 The command line should give you an output where you can find the application in the browser. The default should be localhost:8080. If you are only using IE or Edge on your Windows machine, I can recommend you to install Chrome as well to access the developer environment and the React Developer Tools which are available as Chrome extension.
 
