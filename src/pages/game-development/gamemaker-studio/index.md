@@ -38,7 +38,6 @@ PlayStation Portable and Raspberry Pi support was demonstrated but not released.
 * Undertale
 * Nuclear Throne
 
-
 #### More Information:
 * [Wikipedia] https://en.wikipedia.org/wiki/GameMaker_Studio<br>
 * [YoYo Games (publisher)] https://www.yoyogames.com/gamemaker<br>
