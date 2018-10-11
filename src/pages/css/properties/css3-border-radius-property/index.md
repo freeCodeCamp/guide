@@ -3,13 +3,16 @@ title: CSS3 Border Radius Property
 ---
 ## CSS3 Border Radius Property
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/properties/css3-border-radius-property/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+You can make element's borders round by using `border-radius` property. You can set one to four values to `border-radius` property:
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+* `border-radius: 5px;` - this rule will apply to all corners
+* `border-radius: 5px 10px`- This rule will apply first value to *top-left* and *bottom-right*, second value to *top-right* and *bottom-left*.
+* `border-radius: 3px 5px 7px 10px` - This rule will apply first value to *top-left*, second value to *top-right*, third value to *bottom-right*, fourth value to *bottom-left*.
+* In case of three values, the second value applies to both *top-right* and *bottom-left*.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+
+* [MDN - border-radius](https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius)
+* [CSS-Tricks - border-radius](https://css-tricks.com/almanac/properties/b/border-radius/)
 
 
