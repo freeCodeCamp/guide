@@ -4,20 +4,24 @@ title: Pass Arguments to Avoid External Dependence in a Function
 
 ## Pass Arguments to Avoid External Dependence in a Function
 
-## ![:speech_balloon:](https://forum.freecodecamp.com/images/emoji/emoji_one/speech_balloon.png?v=3 ":speech_balloon:") Hint: 1
+### Method
 
-Try to pass argument to function and return increased value of this argument. 
+This code will provide the same result as the last challenge, only this time we will pass the `fixedValue` into the function as a parameter. 
 
-
-**Solution ahead!**
-
-## ![:beginner:](https://forum.freecodecamp.com/images/emoji/emoji_one/beginner.png?v=3 ":beginner:") Basic Code Solution:
+### Solution
 
 ```javascript
+
+// the global variable
 var fixedValue = 4;
+
+// Add your code below this line
 function incrementer (value) {
   return value + 1;
+  
+  // Add your code above this line
 }
-var newValue = incrementer(fixedValue); 
-console.log(fixedValue);
+
+var newValue = incrementer(fixedValue); // Should equal 5
+console.log(fixedValue); // Should print 4
 ```

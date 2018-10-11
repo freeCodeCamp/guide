@@ -3,18 +3,20 @@ title: Understand Functional Programming Terminology
 ---
 ## Understand Functional Programming Terminology
 
+### Method
+
+Just as in the last challenge, you must call the `getTea` method and store it in a variable. Only this time, you have 2 variables to store 2 seperate sets of data in. You will see that the `getTea()` function is the same as before, only now it takes in 2 seperate parameters. The first parameter is a function, so we will need to pass in either the `prepareGreenTea()` function or the `prepareBlackTea()` function, followed by the second parameter `numOfCups` which can be input as an integer. 
+
+### Solution
+
 In this exercise we are assigning the result of a higher order function to variables. To do this we call a function with a callback function as a parameter.
  
 ## Hint:
 ```javascript 
 const basketOne = makeBasket(addFruit, 10) 
 ```
- 
-<br/>
 
  ## Solution:
- 
- <br/>
  
  ```javascript
  
@@ -23,12 +25,6 @@ const basketOne = makeBasket(addFruit, 10)
  * @return {string} A cup of green tea.
  **/
 const prepareGreenTea = () => 'greenTea';
-
-/**
- * A long process to prepare black tea.
- * @return {string} A cup of black tea.
- **/
-const prepareBlackTea = () => 'blackTea';
 
 /**
  * Get given number of cups of tea.
@@ -46,7 +42,7 @@ const getTea = (prepareTea, numOfCups) => {
 
   return teaCups;
 };
- 
+
  // Add your code below this line
  const tea4GreenTeamFCC = getTea(prepareGreenTea,27); // :)
 const tea4BlackTeamFCC = getTea(prepareBlackTea,13); // :)

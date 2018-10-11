@@ -6,12 +6,24 @@ title: For Loop
 A For Loop is a repetitive statement that is used to check for some condition and then based upon the condition a block of code is executed repeatedly until the specified condition is satisfied.
 
 ## Syntax
-for ( initialization; condition; update )
-{
-   //Body of the expression
+
+```
+for ( init; condition; increment ) {
+   statement(s);
 }
-### initialization
-This step allows you to declare and initialize any loop control variables.This step is performed first and only once.
+```
+
+It is allowed to place the increment insie the for loop like in a while loop. Meaning a syntax like this can also work.
+
+```
+for ( init; condition;) {
+   statement(s);
+   increment;
+}
+```
+
+### init
+This step allows you to declare and initialize any loop control variables. This step is performed first and only once.
 
 ### condition
 Next the condition is evaluated. If it holds true, the body of the loop is executed. If it holds false, the body of the loop does not execute and flow of control jumps to the next iteration(repetition of a process).
