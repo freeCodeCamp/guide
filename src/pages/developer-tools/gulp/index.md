@@ -33,12 +33,22 @@ gulp.task('css', function(){
 
 To run this gulp task, all you would have to do is type `gulp css` in a terminal in your project root. 
 
+To watch the CSS files for any changes and run the "css" task after it is saved.
+```javascript
+gulp.watch('css')
+  .on('change', ['css']);
+```
+
+
 Gulpfiles can have multiple tasks per file, and tasks can also be split up into multiple files for an organization. This, along with the 100's of plugins available make it a very flexible and useful framework for JavaScript developers.
+
 
 #### More Information:
 
 <a href="https://gulpjs.com/" target='blank' rel='nofollow'>Gulp website</a>
 
 <a href="https://github.com/gulpjs/gulp" target='blank' rel='nofollow'>Gulp github repository</a>
+
+<a href="https://css-tricks.com/gulp-for-beginners/" target='blank' rel='nofollow'>Gulp begginers guide</a>
   
 

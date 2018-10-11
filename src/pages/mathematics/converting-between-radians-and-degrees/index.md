@@ -3,13 +3,32 @@ title: Converting Between Radians and Degrees
 ---
 ## Converting Between Radians and Degrees
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/converting-between-radians-and-degrees/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+### General Formulae
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+The following formulae can be used to convert between radians and degrees:
+```
+r = d * (π / 180)
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+d = r * (180 / π)
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+where r is the angle in radians and d is the angle in degrees.
+```
+
+### Examples
+
+Convert 2π/3 radians to degrees:
+
+```
+2π/3 * 180/π = 360π/3π = 360/3 = 120 degrees
+```
+
+Convert 30 degrees to radians:
+
+```
+30 * π/180 = 30π/180 = π/6 or (1/6)π radians
+
+Note: Radians are usually expressed in terms of π instead of a rounded decimal as this form represents the actual value rather than an approximation.
+```
+
 
 

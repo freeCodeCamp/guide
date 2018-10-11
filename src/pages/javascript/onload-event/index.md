@@ -21,4 +21,8 @@ the `onload` event is most often used within the `<body>` element to execute the
 
 #### More Information:
 
-[MDN](https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onload)
+<a href='https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onload' target='_blank' rel='nofollow'>MDN</a>
+
+#### Other Resources
+<a herf='https://api.jquery.com/on/' target='_blank' rel='nofollow'>jQuery .on() Event Handler Attachment</a>
+<a href='https://stackoverflow.com/questions/588040/window-onload-vs-document-onload' target='_blank' rel='nofollow'>Stack Overflow: window.onload vs. document.onload</a>

@@ -3,13 +3,33 @@ title: Sketch
 ---
 ## Sketch
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/designer-tools/sketch/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Sketch is a professional design application for the Mac that utilizes a vector-based workflow. The interface is clean and inviting for new users as well as being a familiar tool for users of Adobe Fireworks. Sketch has become a popular alternative tool to Photoshop for users who do not need an over abundance of options for interface designs.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+### Why Sketch?
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+* Easily reuse elements
+* Prototyping
+* Collaborate with others
+* Lots of plugins
+* Export files in multiple formats such as png, svg etc. Even 2x versions retina displays with ease
+* Vast community
+* Easily copy CSS attributes from design elements
+* Exports style guide in easy to read HTML/CSS 
+
+### Why Should I Switch To Sketch?
+
+Sketch is designed to build digital products rather than editing photos and print graphics. Sketch's clean interface helps keep you organized when mocking up or building out your UI/UX designs. The art boards that Sketch uses enforces a pixel grid for precise designs. Exporting designs is simple and supports different device resolutions.
+
+### Useful Plugins for Sketch
+
+- [Zeplin - Generates and exports design assets and style guides](https://zeplin.io/)
+- [Sketch IconFont - Helps you easily insert and manage icons from icon fonts](https://github.com/keremciu/sketch-iconfont)
+- [Mirr.io - Preview prototypes in any browser in any device from Sketch](https://mirr.io/)
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+- [Sketch](https://www.sketchapp.com)
+- [Sketch Documentation](https://www.sketchapp.com/docs/)
+- [Learn Sketch](http://learnsketch.com/tutorials)
+- [Sketch App Sources](https://www.sketchappsources.com/)
+- [YouTube - Sketch crash course](https://www.youtube.com/playlist?list=PLWlUJU11tp4fEXI8deWhBQAHDv9R23WHB)

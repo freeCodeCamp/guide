@@ -3,13 +3,15 @@ title: Area of a Rectangle
 ---
 ## Area of a Rectangle
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/area-of-a-rectangle/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The area of a rectangle can be calculated by multiplying the lengths of the two perpendicular sides together.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+`Area = a x b`
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+**For Example**
+For a rectangle where *a = 3* and *b = 4*
+
+`Area = a x b = 3 x 4 = 12`
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+* [Virtual Nerd](http://virtualnerd.com/pre-algebra/perimeter-area-volume/perimeter-and-area/area-formulas-examples/rectangle-area-example)

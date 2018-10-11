@@ -3,13 +3,42 @@ title: HTML Dom
 ---
 ## HTML Dom
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/html-dom/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+With the HTML DOM, JavaScript can access and change all the elements of an HTML document.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+When a web page is loaded, the browser creates a **D**ocument **O**bject **M**odel of the page.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+The HTML DOM model is constructed as a tree of Objects:
+
+Each element in the DOM is also called a node.
+
+```html
+<html>
+<head>
+  <title> My title </title>
+</head>
+<body>
+  <a href="#">My Link</a>
+  <h1> My header </h1>
+</body>
+</html>
+
+```
+
+The DOM for the above HTML is as follows: 
+
+![DOM tree](https://www.w3schools.com/js/pic_htmltree.gif)
+
+With the object model, JavaScript gets all the power it needs to create dynamic HTML:
+
+* JavaScript can change all the HTML elements in the page
+* JavaScript can change all the HTML attributes in the page
+* JavaScript can change all the CSS styles in the page
+* JavaScript can remove existing HTML elements and attributes
+* JavaScript can add new HTML elements and attributes
+* JavaScript can react to all existing HTML events in the page
+* JavaScript can create new HTML events in the page
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
+<a href='https://www.w3schools.com/js/js_htmldom.asp' target='_blank' rel='nofollow'>W3C - HTML DOM</a>
 
