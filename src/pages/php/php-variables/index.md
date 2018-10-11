@@ -1,9 +1,6 @@
 ---
 title: PHP Variables
 ---
----
-title: PHP Variables
----
 
 ## Variables
 Variables are "containers" for storing information. Variables are declared using the dollar ($) sign followed immediately by the variable name. For example, the code block below would create a variable called `myVariable` and assign the string `Hello World` to it. 
