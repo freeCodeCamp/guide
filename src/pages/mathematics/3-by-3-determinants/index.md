@@ -25,6 +25,11 @@ Consider the following matrix, which we will call A:
 
 Then the determinant of this matrix, denoted <em>det(A)</em>, is given by:
 
+Video guide on how to find the determinant of 3x3 matrix from khan academy site 
+<a href='https://cdn.kastatic.org/KA-youtube-converted/u00I3MCrspU.mp4/u00I3MCrspU.mp4#t=0' target='_blank' rel='nofollow'>
+
+#### More Information:
+<!-- Please add any articles you think might be helpful to read before writing the article -->
 <em>det(A) = a * (e * i - h * f) - b * (d * i - f * g) + c * (d * h - e * g)</em>
 
 Please keep in mind the order of operations in the expression above.
