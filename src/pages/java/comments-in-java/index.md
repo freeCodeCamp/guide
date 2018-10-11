@@ -38,7 +38,7 @@ public class MyFirstJava {
 
 #### 3. Documentation Comment
 
-Documentation comment is used by Javadoc tool to create documentation for the code. Documentation Comment is used by developers to document code, like what a class does or what a method does and all. This is used by a javadoc tool which will compile a preformatted set of html files containing all the information available in the comment. 
+Documentation comment is used by Javadoc tool to create documentation for the code. Documentation Comment is used by developers to document code, like what a class does or what a method does. This is used by a javadoc tool which will compile a preformatted set of html files containing all the information available in the comment. 
 ```java
 /**
  * The Following Java program displays a random between 0 - 50
@@ -58,5 +58,6 @@ public class RandomNumbers{
 
 
 #### More Information:
-[Java Resources](http://guide.freecodecamp.org/java/resources/)
-[Compiled Javadoc Example](https://docs.oracle.com/javase/8/docs/api/)
+* [Java Resources](http://guide.freecodecamp.org/java/resources/)
+
+* [Compiled Javadoc Example](https://docs.oracle.com/javase/8/docs/api/)
