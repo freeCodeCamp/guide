@@ -25,5 +25,12 @@ title: Books on Python Programming Language
 - [Python in Education by Nicholas H. Tollervey[OREILLY][FREE]](https://www.oreilly.com/programming/free/files/python-in-education.pdf)
 - [How to think like a Computer Scientist by Allen Downey[V 2.0.17][FREE]](http://greenteapress.com/thinkpython/thinkpython.pdf)
 - [A Byte of Python[FREE]](https://python.swaroopch.com)
+
+*Hacking with Python*
   
+- Paid 
+- [Amazon](https://www.amazon.com/Black-Hat-Python-Programming-Pentesters/dp/1593275900/)
+- ISBN-13: 978-1593275907
+- ISBN-10: 1593275900
+
   Please feel free to add more that you have found useful!
