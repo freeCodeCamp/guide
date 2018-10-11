@@ -2,7 +2,7 @@
 title: Area-between-a-curve-and-X-axis
 ---
 
-## Area-between-a-curve-and-the-X-axis
+## Area Between a Curve and the X Axis
 
 To find the area between a curve and the x-axis, the most preferred tool is [definite integration](https://www.mathsisfun.com/calculus/integration-definite.html) of the given curve.
 
