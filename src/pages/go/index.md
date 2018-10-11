@@ -67,7 +67,7 @@ cd alloy
 ```
 glide install
 npm install
-```
+````
 3. Start the development server
 ```
 go install
