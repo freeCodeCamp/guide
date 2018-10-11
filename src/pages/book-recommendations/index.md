@@ -163,11 +163,14 @@ title: Books to Read for Programmers
 - [Amazon Smile](https://smile.amazon.in/Dynamic-Programming-Coding-Interviews-Bottom-Up-ebook/dp/B06XZ61CMP)
 - ISBN-13: 978-1946556691
 
-
-
 *GATE 2019 Computer Science and Information Technology*
 - [Amazon Smile](https://www.amazon.com/GATE-Computer-Science-Information-Technology/dp/194658178X)
 - ISBN-13: 978-1946581785
 
+*The Art of Computer Programming by Donald E. Knuth*
+- https://www-cs-faculty.stanford.edu/~knuth/taocp.html
+- ISBN-13: 978-0321751041
+
 This list was compiled from multiple suggestion threads on Reddit and Stackoverflow.
+
 Please feel free to add more that you have found useful!
