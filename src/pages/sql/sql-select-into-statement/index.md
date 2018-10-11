@@ -1,43 +1,42 @@
 ---
 title: SQL Select into Statement
 ---
+
 ## SQL Select into Statement
+The `SELECT INTO` statement is a query that allows you to create a *new* table and populate it with the result set of a `SELECT statement`. To add data to an existing table, see the [INSERT INTO](guides/src/pages/sql/sql-insert-into-select-statement/index.md) statement instead.
 
-The SELECT INTO statement copies data from one table into a new table.
-The new table will be created with the column-names and types as defined in the old table.
+`SELECT INTO` can be used when you are combining data from several tables or views into a new table.<sup>1</sup> The original table is not affected.
 
-### Syntax:
+The general syntax is: 
+```sql
+SELECT column-names
+  INTO new-table-name
+  FROM table-name
+ WHERE EXISTS 
+      (SELECT column-name
+         FROM table-name
+        WHERE condition)
+```
 
-```SELECT *
-INTO newtable [IN externaldb]
-FROM oldtable
-WHERE condition; ```
+This example shows a set of a table that was "copied" from the "Supplier" table to a new one called SupplierUSA which holds the set related to the column country of value 'USA'. 
 
-### Example:
-
-```SELECT *
-INTO PATIENTDETAILSBKP
-FROM PATIENTDETAILS
-WHERE RECORDINSERTDT BETWEEN #01/01/2017# AND #12/01/2017#; ```
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
-[For more detailed information, please visit:] (https://www.w3schools.com/sql/sql_select_into.asp)
----
-title: SQL Select into Statement
----
-## SQL Select into Statement
-
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/sql/sql-select-into-statement/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+```sql
+SELECT * INTO SupplierUSA
+  FROM Supplier
+ WHERE Country = 'USA';
+ ```
+ **Results**: 4 rows affected <sup>2</sup>
+ 
+| ID | CompanyName                 | ContactName    | City        | Country  | Phone          |
+|----|-----------------------------|:--------------:|-------------|:--------:|:--------------:|
+|  2 | New Orleans Cajun Delights  | Shelley Burke  | New Orleans | USA      | (100) 555-4822 |
+|  3 | Grandma Kelly's Homestead   | Regina Murphy  | Ann Arbor   | USA      | (313) 555-5735 |
+| 16 | Bigfoot Breweries           | Cheryl Saylor  | Bend        | USA      | NULL           |
+| 19 | New England Seafood Cannery | Robb Merchant  | Boston      | USA      | (617) 555-3267 | 
 
 
+Please see the manual for your database manager and have fun trying different options yourself.
+
+## Sources
+1. (Microsoft - Inserting Rows by Using SELECT INTO)[https://technet.microsoft.com/en-us/library/ms190750(v=sql.105).aspx]
+2. (dofactory - SQL SELECT INTO Statement)[http://www.dofactory.com/sql/select-into]
