@@ -3,17 +3,21 @@ title: Interfaces
 ---
 # Interfaces
 
-Interface in Java is a bit like the Class, but with a significant difference : an `interface` can _only_ have method signatures and fields. That means, an Interface cannot contain the implementation of any method, just its signature, i.e. the name, parameters and exceptions of the method. For example :
+Interface in Java is a bit like the Class, but with a significant difference : an `interface` can _only_ have method signatures, fields and default methods. Since Java 8, you can also create [default methods](https://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html). In the next block you can see an example of interface :
 
 ```java
 public interface Vehicle {
     public String licensePlate = "";
+    public float maxVel
     public void start();
     public void stop();
+    default void blowHorn(){
+      System.out.println("Blowing horn");
+   }
 }
 ```
 
-The interface above contains one field and two methods. Alone, it is not of much use, but they are usually used along with Classes. How? Simple, you have to make sure some class `implements` it.
+The interface above contains two fields, two methods, and a default method. Alone, it is not of much use, but they are usually used along with Classes. How? Simple, you have to make sure some class `implements` it.
 
 ```java
 public class Car implements Vehicle {
@@ -32,7 +36,7 @@ Now, there is a **ground rule** : The Class must implement **all** of the method
 
 ## Instances of an Interface
 
-Once you create a Java Class which `implements` any Interface, the object instance can be referenced as an instance of the Interface. Similar concept as of Inheritance instantiation.
+Once you create a Java Class which `implements` any Interface, the object instance can be referenced as an instance of the Interface. This concept is similar to that of Inheritance instantiation.
 
 ```java
 // following our previous example
@@ -42,7 +46,7 @@ Vehicle tesla = new Car();
 tesla.start(); // starting engine ...
 ```
 
-But, you **cannot** create an instance of an Interface itself. You must create instance of some class implementing an Interface to reference it. Think of interfaces as a blank contract form, or a template.
+An Interface **can not** contain a constructor methods,therefore,you **can not** create an instance of an Interface itself. You must create an instance of some class implementing an Interface to reference it. Think of interfaces as a blank contract form, or a template.
 
 What can you do with this feature? Polymorphism! You can use only interfaces to refer to object instances!
 
@@ -105,16 +109,16 @@ public class Smartphone implements GPS,Radio {
 
 *   You can place variables within an Interface, although it won't be a sensible decision as Classes are not bound to have the same variable. In short, avoid placing variables!
 *   All variables and methods in an Interface are public, even if you leave out the `public` keyword.
-*   An Interface cannot specify the implementation of a particular method. Its upto the Classes to do it. Although there has been a recent exception (see below).
+*   An Interface cannot specify the implementation of a particular method. Its up to the Classes to do it. Although there has been a recent exception (see below).
 *   If a Class implements multiple Interfaces, then there is a remote chance of method signature overlap. Since Java does not allow multiple methods of the exact same signature, this can lead to problems. See <a href='http://stackoverflow.com/questions/2598009/method-name-collision-in-interface-implementation-java' target='_blank' rel='nofollow'>this question</a> for more info.
 
 ## Interface Default Methods
 
 Before Java 8, we had no way to direct an Interface to have a particular method implementation. This lead to lot of confusion and code breaks if an Interface definition is suddenly changed.
 
-Suppose, you wrote an open source library, which contains an Interface. Say, your clients, i.e. practically all developers around the world, are using it heavily and are happy. Now you have had to upgrade the library by adding a new method definition to the Interface to support a new feature. But that would break _all_ builds since all Classes implementing that Interface has to change now. What a catastrophe!
+Suppose, you wrote an open source library, which contains an Interface. Say, your clients, i.e. practically all developers around the world, are using it heavily and are happy. Now you have had to upgrade the library by adding a new method definition to the Interface to support a new feature. But that would break _all_ builds since all Classes implementing that Interface have to change now. What a catastrophe!
 
-Thankfully, Java 8 now provides us `default` methods of Interfaces. A `default` method _can_ contain its own implementation _directly_ within the Interface! So, if a Class does not implement a default method, the compiler will take the implementation mentioned within the Interface. Nice, isn't it? So in your library, you may add any number of default methods in interfaces without the fear of breaking anything!
+Thankfully, Java 8 now provides us `default` methods for Interfaces. A `default` method _can_ contain its own implementation _directly_ within the Interface! So, if a Class does not implement a default method, the compiler will take the implementation mentioned within the Interface. Nice, isn't it? So in your library, you may add any number of default methods in interfaces without the fear of breaking anything!
 
 ```java
 public interface GPS {
@@ -188,6 +192,37 @@ motoG.next(); // Next from MusicPlayer
 
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CIts/0' target='_blank' rel='nofollow'>Run Code</a>
 
+## Static Methods in Interfaces
+
+Also new to Java 8 is the ability to add static methods to interfaces. Static methods in interfaces are almost identical to static methods in concrete classes.  The only big difference is that `static` methods are not inherited in the classes that implement the interface. This means that the interface is referenced when calling the static method not the class that implements it. 
+
+```java
+interface MusicPlayer {
+  public static void commercial(String sponsor) {
+    System.out.println("Now for a message brought to you by " + sponsor);
+  }
+  
+  public void play();
+}
+
+
+class Smartphone implements MusicPlayer {
+	public void play() {
+		System.out.println("Playing from smartphone");
+	}
+}
+
+class Main {
+  public static void main(String[] args) {
+    Smartphone motoG = new Smartphone();
+    MusicPlayer.commercial("Motorola"); // Called on interface not on implementing class
+    // motoG.commercial("Motorola"); // This would cause a compilation error 
+  }
+}
+```
+
+![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CIts/9' target='_blank' rel='nofollow'>Run Code</a>
+
 ## Inheriting an Interface
 
 It is also possible in Java for an Interface to _inherit_ another Interface, by using, you guessed it, `extends` keyword :
@@ -224,6 +259,6 @@ public class SmartPhone implements MusicPlayer {
 
 ![:rocket:](//forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=2 ":rocket:") <a href='https://repl.it/CIty/0' target='_blank' rel='nofollow'>Run Code</a>
 
-Whoops, did I forget `next()` ? See, since it was a `default` method, I didn't had to provide an implementation at all. (Wont work for JDK < 8)
+Whoops, did I forget `next()` ? See, since it was a `default` method, I didn't had to provide an implementation at all. (Won't work for JDK < 8)
 
 So, now you have a good grasp of Interfaces! Go learn about Abstract Classes to know how Java gives you yet another way to define contracts.

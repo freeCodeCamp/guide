@@ -3,13 +3,25 @@ title: Header Tag
 ---
 ## Header Tag
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/elements/header-tag/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `<header>` tag is a container which is used for navigational links or introductory content.
+It may typically include heading elements, such as `<h1>`, `<h2>`, but may also include other elements such as a search form, logo, author information etc.
+<h1> corresponds to the most important heading. As we move to other tags like <h2>, <h3>, etc the degree of importance decreases.
+Although not required, the `<header>` tag is intended to contain the surrounding sections heading. It may also be used more than once in an HTML document. It is important to note that the `<header>` tag does not introduce a new section, but is simply the head of a section.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Here's an example using the `<header>` tag:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```html
+<article>
+  <header>
+    <h1>Heading of Page</h1>
+  </header>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+</article>
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+- [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header)
+- [W3 Schools](https://www.w3schools.com/tags/tag_header.asp)
+
 
 
