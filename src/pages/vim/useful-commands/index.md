@@ -111,12 +111,6 @@ If you want to highlight all the search matches type `:set hlsearch` or use the 
 ## Compiling a Project
 Vim has very tight integration with the `make` build automation tool. If your project uses a Makefile, you can type `:make` at the Vim command line in order to run your system's `make` tool. Vim will print the output of `make` on the screen and bring you to the first error, if any, when the `make` command completes. You can then jump through the compilation errors and warnings in your project's code by using the `:cn` and `:cp` commands, for next and previous issues respectively.
 
-## I Want to Learn Vim!
-
-For total beginners, Vim comes with a built in tutorial! You can access it by running `vimtutor` from your terminal and this will launch an interactive tutorial on *how to get started with Vim* (takes around 15 minutes to work through).
-
-If you are not as confident in English, you can lanch `vimtutor` in your language of choice. For example `vimtutor fr` will launch the tutorial in french!
-
 ## Find and Replace
 1. Press `Escape` to make sure your are in `normal mode`;
 2. Type in `:` (You will switch to `command mode`);
@@ -124,6 +118,12 @@ If you are not as confident in English, you can lanch `vimtutor` in your languag
 4. Press `ENTER`.
 
 Important: if you want to replace the first occurence of the word, remove the `g` at the end.
+
+## I Want to Learn Vim!
+
+For total beginners, Vim comes with a built in tutorial! You can access it by running `vimtutor` from your terminal and this will launch an interactive tutorial on *how to get started with Vim* (takes around 15 minutes to work through).
+
+If you are not as confident in English, you can lanch `vimtutor` in your language of choice. For example `vimtutor fr` will launch the tutorial in french!
 
 ## Other Useful Commands
 - `gg=G` fixes the indentation of the entire file
