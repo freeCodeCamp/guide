@@ -12,4 +12,4 @@ Tensorflow allows developers to concentrate more on the logic of the application
 #### More Information:
 * [TensorFlow](https://www.tensorflow.org)
 * [TensorFlow GitHub Repository](https://github.com/tensorflow)
-* [Wikipedia—TenworFlow](https://en.wikipedia.org/wiki/TensorFlow)
+* [Wikipedia—TensorFlow](https://en.wikipedia.org/wiki/TensorFlow)
