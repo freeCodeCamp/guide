@@ -3,8 +3,26 @@ title: Create Your First CSS Grid
 ---
 ## Create Your First CSS Grid
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/responsive-web-design/css-grid/create-your-first-css-grid/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+### Hint 1
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+To change display of any element, the following syntax is used:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+````css
+display: propertyName;
+````
+
+### Hint 2
+
+Change the display property of the .container element
+
+### Hint 3
+
+Set the display of the .container element to grid
+
+### Solution
+
+To set the display of the .container element to grid:
+
+````css
+display: grid;
+````

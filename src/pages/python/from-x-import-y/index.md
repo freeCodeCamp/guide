@@ -28,3 +28,5 @@ Then our code would look like`math.sqrt(x)` instead of `sqrt(x)`. This happens b
 For example, in `os` module there's a method `open`. But we even have a built-in function called `open`. So, here we should avoid using `from os import open`.
 
 We can even use `form x import *`, this would import all the methods, classes of that module to the global namespace of the program. This is a bad programming practice. Please avoid it.
+
+In general you should avoid ` from x import y` simply because of the problems it may cause in large scale programs. For example, you never know if a fellow programmer might want to make a new function that happens to be the name of one of the existing functions. You also do not know whether Python will change the library that you are importing functions from. While these problems won't exist as often for solo projects, as stated before, it is bad programming practice and should be avoided.
