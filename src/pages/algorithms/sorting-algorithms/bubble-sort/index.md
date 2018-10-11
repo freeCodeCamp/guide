@@ -69,6 +69,13 @@ while(!sorted) {
 }
 ```
 
+### Properties:
+* Space Complexity: O(1)
+* Time Complexity: O(n), O(n* n), O(n* n) for Best, Average and Worst cases respectively.
+* In place: Yes
+* Stable: Yes
+
+=======
 Here is the algorithm written in Java.
 
 ```java
@@ -107,7 +114,28 @@ public class bubble-sort {
         }
 }
 ```
+=======
+###The Recursive implementation of the Bubble Sort.
 
+```c++
+void bubblesort(int arr[], int n)
+{
+	if(n==1)	//Initial Case
+		return;
+	
+	for(int i=0;i<n-1;i++)	//After this pass the largest element will move to its desired location.
+	{
+		if(arr[i]>arr[i+1])
+		{
+			temp=arr[i];
+			arr[i]=arr[i+1];
+			arr[i+1]=temp;
+		}
+	}
+	
+	bubblesort(arr,n-1);	//Recursion for remaining array
+}
+```
 ### More Information
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 - [Wikipedia](https://en.wikipedia.org/wiki/Bubble_sort)
@@ -116,3 +144,4 @@ public class bubble-sort {
 - [Bubble Sort Algorithm - MyCodeSchool (video)](https://www.youtube.com/watch?v=Jdtq5uKz-w4)
 - [Algorithms: Bubble Sort - HackerRank (video)](https://www.youtube.com/watch?v=6Gv8vg0kcHc)
 - [Bubble Sort Algorithm - GeeksForGeeks (video)](https://www.youtube.com/watch?v=nmhjrI-aW5o)
+- [Bubble Sort Visualization](https://www.hackerearth.com/practice/algorithms/sorting/bubble-sort/visualize/)
