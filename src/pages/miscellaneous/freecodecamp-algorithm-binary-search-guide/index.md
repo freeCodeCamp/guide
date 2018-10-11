@@ -67,4 +67,4 @@ The pseudocode for binary search algorithm is as follows:
             else: return mid
         return -1
 
-![:rocket:</a> <a href='https://repl.it/CWZi/2' target='_blank' rel='nofollow'>Run Code</a>
+![:rocket:](https://forum.freecodecamp.com/images/emoji/emoji_one/rocket.png?v=3 ":rocket:") <a href='https://repl.it/CWZi/2' target='_blank' rel='nofollow'>Run Code</a>

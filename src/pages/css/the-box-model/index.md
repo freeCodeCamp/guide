@@ -11,23 +11,23 @@ At the center of the box is the content itself, which takes up a certain height 
 
 ![Content Area Image](https://raw.githubusercontent.com/johnkennedy9147/Resources/master/CSS%20Box%20Model%20Images/content%20area.jpg)
 
-Around the Content Area, this is a region known as **Padding Area**. The size of the padding can be the same all around, or you can set individually for the top, bottom, left and right padding. If you are using a background for the element, the background will extend into the Padding Area.
+Around the Content Area, this is a region known as **Padding Area**. The size of the padding can be the same all around (set with `padding`), or you can set individually for the top, right, bottom and left paddings (with `padding-top`, `padding-right`, `padding-bottom` and `padding-left`).
 
 
 ![Padding Area Image](https://raw.githubusercontent.com/johnkennedy9147/Resources/master/CSS%20Box%20Model%20Images/padding%20area.jpg)
 
-Next, there is a **Border Area**. This creates a border around the element and its padding. You can set thickness, color, and style of the border. Style options include none, solid, dashed, dotted and several others. (see note below regarding `box-sizing`)
+Next, there is a **Border Area**. This creates a border around the element and its padding. You can set thickness (`border-width`), color (`border-color`), and style (`border-style`) of the border. Style options include `none` (no border), `solid`, `dashed`, `dotted` and several others. Additionally, you can set the borders on the 4 sides individually; for example, the top border with `border-top-width`, `border-top-color` and `border-top-style` for its thickness, color and style. (See note below regarding `box-sizing`.)
 
 
 ![Border Area Image](https://raw.githubusercontent.com/johnkennedy9147/Resources/master/CSS%20Box%20Model%20Images/border%20area.jpg)
 
-Finally, there is the **Margin Area**. This creates clear space around the element, padding, and border.  Again you can individually set top, bottom, left and right margins. Under certain circumstances margin collapsing occurs and the margins between adjacent elements may be shared.
+Finally, there is the **Margin Area**. This creates clear space around the element, padding, and border. Again you can individually set the top, right, bottom and left margins (with `margin-top`, `margin-right`, `margin-bottom` and `margin-left`). Under certain circumstances margin collapsing occurs and the margins between adjacent elements may be shared.
 
 
 ![Margin Area Image](https://raw.githubusercontent.com/johnkennedy9147/Resources/master/CSS%20Box%20Model%20Images/margin%20area2.jpg)
 
-**`Box-Sizing` Property**
-The default for this property is `content-box`.  If you use the default then the box model will allow the author to specify the size of the content area. However, it is possible to use these to instead specify the size of the border area.  This is done by changing `box-sizing` property to `border-box`.  This can sometimes make layouts easier.  You can set the `box-sizing` property per element as desired.
+**`box-sizing` Property**
+The default for this property is `content-box`. If you use the default then the box model will allow the author to specify the size of the content area. However, it is possible to use these to instead specify the size of the border area. This is done by changing `box-sizing` property to `border-box`. This can sometimes make layouts easier. You can set the `box-sizing` property per element as desired.
 
 #### More Information:
-
+[MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Box_model)
