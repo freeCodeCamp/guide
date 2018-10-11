@@ -54,3 +54,7 @@ data consist of a set of training examples. In supervised learning, each example
 2. <a href='https://www.youtube.com/watch?v=83uAOzhzs-U' target='_blank' rel='nofollow'>Machine Learning Demystified:Youtube</a>
 3. If you want a brief introduction of machine learning, and you prefer videos, try this <a href='https://youtu.be/cKxRvEZd3Mw' target='_blank' rel='nofollow'>machine learning introduction video</a>
 4. If you want to know how to proceed with learning machine learning, take a look at this <a href='https://youtu.be/nKW8Ndu7Mjw' target='_blank' rel='nofollow'> video</a>
+
+## Lab
+
+<a href="https://github.com/Microsoft/computerscience/blob/master/Labs/AI%20and%20Machine%20Learning/Azure%20Machine%20Learning/Azure%20Machine%20Learning%20(Node).md">Building Smart Apps with Azure Machine Learning Studio</a>
