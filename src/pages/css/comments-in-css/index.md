@@ -15,11 +15,12 @@ The comment syntax in CSS works for both single and multi-line comments. You can
     */
     
     /* This is a single line comment*/
-    .group:after {
+   
+   /* .group:after {
         content: "";
         display: table;
         clear: both;
-    }
+    }*/
 ```
 
 By using CSS comments to make your stylesheets more readable, the CSS will be easier to maintain in the future for you or another developper. 
