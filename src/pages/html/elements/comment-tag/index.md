@@ -12,3 +12,17 @@ When you're working in some code, it's helpful to leave tips to others developer
 ```html
 <!-- This is a comment -->
 ```
+Comments can also be used to make code inactive without having to delete it entirely. 
+
+### Example
+
+```html
+<!--
+<h1>Hello Campers</h1>
+-->
+<h2>Hello Friends</h2>
+<!--
+<p>Hello Paragraph</p>
+-->
+```
+

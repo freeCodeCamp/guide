@@ -3,13 +3,11 @@ title: Number
 ---
 ## Number
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/javascript/standard-objects/number/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `Number` Javacript object represents any kind of number. JavaScript doesn't distinguish separate types of numbers, such as integers or floats. They are all stored in a unified, 64-bit Floating Point format, accorfing to the international IEEE 754 standard<sup>1</sup>.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+New `Number` objects are created like this: `var num = new Number(value)` although most commonly they can be created simply by assigning a numeric value to a variable: `var num = 1.616;`. In a non-constructor context (i.e., without the `new` operator), `Number` can be used to perform a type conversion. If the argument cannot be converted into a number, it returns [`NaN`](https://guide.freecodecamp.org/javascript/standard-objects/number/number-nan).
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+### Sources
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
+1. w3schools.com Staff. [w3schools.com: JavaScript Numbers](https://www.w3schools.com/js/js_numbers.asp) *w3schools.com.* Accessed: October 31, 2017.
 

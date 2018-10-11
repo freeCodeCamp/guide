@@ -20,7 +20,7 @@ The concat() method combines the text of two or more strings and returns the con
 ## Examples
 
 **Concatenating strings**
-
+```JavaScript
     var str1 = "Hello";
     var str2 = "World";
     console.log(str1.concat(str2));
@@ -29,5 +29,5 @@ The concat() method combines the text of two or more strings and returns the con
     var str2 = "Hello, ";
     console.log(str2.concat(" Welcome ", "to FCC."));
     // Console will output: Hello, Welcome to FCC.
-
-Source [MDN</a>
+```
+Source [MDN]</a>
