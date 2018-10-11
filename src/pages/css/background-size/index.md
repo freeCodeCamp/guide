@@ -6,11 +6,11 @@ title: Background Size
 The background-size property specifies the size of the background images. You can set a length or a percentage, with the first value being the width and the second one being the height. You can also use one of the 5 keyword values:
 
 ```css
-.auto {background-size: auto}
-.cover {background-size: cover}
-.contain {background-size: contain}
-.initial {background-size: initial}
-.inherit {background-size: inherit}
+.auto {background-size: auto;}
+.cover {background-size: cover;}
+.contain {background-size: contain;}
+.initial {background-size: initial;}
+.inherit {background-size: inherit;}
  /* Percentage and pixel can also be used */
 .pixel {background-size: 50px 50px;}
 .percentage {background-size: 50% 50%;}
