@@ -14,13 +14,31 @@ O(√N)
 2. Jump the array k-by-k searching by the condition `Array[i] < valueWanted < Array[i+k]`
 3. Do a linear search between `Array[i]` and `Array[i + k]`
 
-![Jumping Search 1](https://i1.wp.com/theoryofprogramming.com/wp-content/uploads/2016/11/jump-search-1.jpg?resize=676%2C290)
 
 # Code 
-To view examples of code implementation of this method access this link below:
 
-[Jump Search - OpenGenus/cosmos](https://github.com/OpenGenus/cosmos/tree/master/code/search/jump_search)
-
+```C
+int jumpSearch(int a[], int x, int n) { 
+    int step = sqrt(n); 
+    int p = 0; 
+    while (a[min(step, n)-1] < x) { 
+        p = step; 
+        step += sqrt(n); 
+        if (p >= n) 
+            return -1; 
+    } 
+    while (a[p] < x) 
+    { 
+        p++; 
+        if (p == min(step, n)) 
+            return -1; 
+    } 
+    if (a[p] == x) 
+        return p; 
+  
+    return -1; 
+} 
+```
 # Credits
 
 [The logic's array image](http://theoryofprogramming.com/2016/11/10/jump-search-algorithm/)
