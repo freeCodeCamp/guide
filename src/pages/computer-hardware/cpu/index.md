@@ -17,6 +17,11 @@ An instruction cycle for a CPU is called the fetch-decode-execute cycle - where 
 
 Perhaps the most common issue affecting the CPU is inadequate cooling. CPUs are the main generators of heat in computer systems. Due to their nature, they are typically located under the computer fan. There are various ways of reducing heat in a computer with the two main systems being air fans or liquid cooling systems. Proper heat maintenance and additional hardware can allow a properly configured CPU to perform better than rated by the chip manufacturer (aka "Overclocking").
 
+## Clock Speed
+Clock speed is one measure of computer "power," but it is not always directly proportional to the performance level. If you double the speed of the clock, leaving all other hardware unchanged, you will not necessarily double the processing speed. The type of microprocessor, the bus architecture, and the nature of the instruction set all make a difference. In some applications, the amount of random access memory (RAM) is important, too.
+
+Some processors execute only one instruction per clock pulse. More advanced processors can perform more than one instruction per clock pulse. The latter type of processor will work faster at a given clock speed than the former type. Similarly, a computer with a 32-bit bus will work faster at a given clock speed than a computer with a 16-bit bus. For these reasons, there is no simplistic, universal relation among clock speed, "bus speed," and millions of instructions per second (MIPS).
+
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 
 <b>Function</b>
