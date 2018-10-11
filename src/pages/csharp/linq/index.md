@@ -46,6 +46,17 @@ var hasGreen = fruits.Where(f => f.Color == "Green").Any(); // false
 // Group fruits by color into a dictionary
 var fruitsByColor = fruits.GroupBy(g => g.Color).ToDictionary(k => k.Key, v => v.ToList()); // Dictionary of list of fruits by color
 
-// ... And many MANY more
+// linq operations can be concatenated and are not performed as long as data is needed
+var logs = new List<Log>;
 
+if (filterBySeverity)
+    logs = logs.Where(p => p.Severity == severity);
+    //IQueryable
+
+if (filterByUser)
+    logs = logs.Where(p => p.User == user);
+    //IQueryable
+    
+    result = logs.ToList();
+    //List<log>
 ```

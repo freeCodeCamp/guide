@@ -54,3 +54,9 @@ To view all of the aliases you have created on your machine, run the command:
 cat ~/.gitconfig
 ```
 Replacing `cat` with `nano` will allow you to edit them or remove them completely.
+
+### Alias to view all Aliases
+To add an alias to view all others created on your machine, add the alias
+```shell
+    git config --global alias.aliases 'config --get-regexp alias'
+```
