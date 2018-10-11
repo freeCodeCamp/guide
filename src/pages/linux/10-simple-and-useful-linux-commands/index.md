@@ -19,6 +19,39 @@ Use these commands in scripts and at the command line. They're all very powerful
 
 ***********
 
+## 10 USEFUL FOR SYSTEM ADMINISTRATORS
+
+1. Uptime Command
+In Linux uptime command shows since how long your system is running and the number of users are currently logged in and also displays load average for 1,5 and 15 minutes intervals.
+
+2. W Command
+It will displays users currently logged in and their process along-with shows load averages. also shows the login name, tty name, remote host, login time, idle time, JCPU, PCPU, command and processes.
+
+3. Users Command
+Users command displays currently logged in users. This command don’t have other parameters other than help and version.
+
+4. Who Command
+who command simply return user name, date, time and host information. who command is similar to w command. Unlike w command who doesn’t print what users are doing. Lets illustrate and see the different between who and w commands.
+
+5. Whoami Command
+whoami command print the name of current user. You can also use “who am i” command to display the current user. If you are logged in as a root using sudo command “whoami” command return root as current user. Use “who am i” command if you want to know the exact user logged in.
+
+6. ls Command
+ls command display list of files in human readable format.
+Sort file as per last modified time.
+
+7. Crontab Command
+List schedule jobs for current user with crontab command and -l option.
+
+8. Less Command
+less command allows quickly view file. You can page up and down. Press ‘q‘ to quit from less window.
+
+9. More Command
+more command allows quickly view file and shows details in percentage. You can page up and down. Press ‘q‘ to quit out from more window.
+
+Cat Command
+cat command used to view multiple file at the same time.
+
 Also, important commands used for System Administrators are following:
 
 1. `uptime` Command
