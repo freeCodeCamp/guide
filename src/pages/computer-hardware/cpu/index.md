@@ -23,6 +23,8 @@ Perhaps the most common issue affecting the CPU is inadequate cooling. CPUs are 
 
 A microprocessor is a silicon chip containing millions of microscopic transistors. This chip functions as the computer's brain. It processes the instructions or operations contained within executable computer programs. Instead of taking instructions directly off of the hard drive, the processor takes its instructions from memory. This greatly increases the computer's speed.
 
+Recently, In October 2018 Intel has anounced a new processor for its Intel core i9 family of processors which is the core i9-9900K. The Intel core i9-9900K comes with 8 cores and 16 threads and its base frequency is clocked at 3.6 GHz which can be increased using the turbo boost technology up to 5.0 GHz. The processor will be great for gaming and it also supports upto 8K video rendering. 
+
 
 <b> Manufacturers of computer microprocessors </b>
   
