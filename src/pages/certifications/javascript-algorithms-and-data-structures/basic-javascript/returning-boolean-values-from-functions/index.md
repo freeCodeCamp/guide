@@ -2,6 +2,7 @@
 title: Returning Boolean Values from Functions
 ---
 ## Returning Boolean Values from Functions
+Instead of using an if/else block to compare variable we can do it right inside the return statement with a comparison operator and minmal code.
 
 ### Problem explanation
 
@@ -37,10 +38,7 @@ function isLess(a, b) {
 isLess(10, 15);
 ```
 
-·  Run code at [repl.it](https://repl.it/@AdrianSkar/Basic-Js-Returning-boolean-from-function).
-
-### Code explanation
-The function just returns `true` or `false` after comparing `a` and `b` using the `<=` comparison operator rules. 
+Run code at [repl.it](https://repl.it/@AdrianSkar/Basic-Js-Returning-boolean-from-function).
 
 ### Resources
 - ["Less than or equal operator (<=)" - *MDN Javascript Reference*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Less_than_or_equal_operator_(%3C))
