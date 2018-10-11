@@ -63,6 +63,25 @@ int var = arr[0];
 Here an int is created called `var`, and it is initialized to the 0th element of arr. **Very importart to note** that in C, indexes start at zero as opposed to 1. This means that to access the first element, the index (between the brackets) is 0, to access the second element, the index is 1 etc. 
 In this example `var` is going to store the value `1`.
 
+## Let us look at a simple C program to find sum of values in an array
+
+#include<stdio.h>
+
+int main()
+{
+int n,ar[1000],s=0,i;
+
+for(i=0;i<n;i++)
+scanf("%d",ar[i]);  // Code to input numbers
+
+for(i=0;i<n;i++)
+s=s+ar[i];
+
+printf("Sum is  =   %d",s);
+
+return 0;
+}
+
 ## Multi-dimensional Arrays in C
 
 C also supports multi-dimensional arrays.
