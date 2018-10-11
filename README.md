@@ -10,7 +10,7 @@
 
 [![Throughput Graph](https://graphs.waffle.io/freeCodeCamp/guide/throughput.svg)](https://waffle.io/freeCodeCamp/guide/metrics)
 
-The freeCodeCamp community is building a massive, searchable **"Guide"**.
+The freeCodeCamp community is building a massive, searchabl **"Guide"**.
 
 This reference tool will eventually include thousands of articles that cover all areas of development, design, and data science—all written to be easily understood by people new to coding.
 
@@ -32,11 +32,11 @@ We welcome your help writing these articles. You don't have to be an expert in a
 
 To help, find a `stub article` on our [Guide website](https://guide.freecodecamp.org/), write the article, then open a pull request (PR) to replace the stub with your article. A [pull request](https://help.github.com/articles/about-pull-requests/) is how you'll suggest changes. It lets others know about your changes, review them and adopt them.
 
-If you can't find a stub about the topic you'd like to write about, you can open a PR that creates the stub and includes your draft article. 
+If you can't find a stub about the topic you'd like to write about, you can open a PR that creates the stub and includes your draft article.
 
 Feel free to ask us questions [in Gitter](https://gitter.im/freeCodeCamp/Contributors) if you're not sure where to put a new article in the directory structure.
 
-Before you begin writing, make sure to read the [article style guide](https://github.com/freeCodeCamp/guide/blob/master/CONTRIBUTING.md#article-style-guide) outlined in [CONTRIBUTING.md](CONTRIBUTING.md). 
+Before you begin writing, make sure to read the [article style guide](https://github.com/freeCodeCamp/guide/blob/master/CONTRIBUTING.md#article-style-guide) outlined in [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Contributing
 
