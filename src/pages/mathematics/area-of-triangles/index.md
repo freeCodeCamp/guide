@@ -6,7 +6,11 @@ title: Area of Triangles
 
 The area of a triangle is the total enclosed space on the two-dimensional plane by the sides of the triangle.
 
-![Triangle](http://www.mathportal.org/calculators/plane-geometry-calculators/triangleEquilateral.gif)
+The area of a triangle can be calculated by multiplying one half by the base * height
+
+For example, if you have a triangle that is 3cm on the base and 4cm in height, then you can work out the area:
+
+Areaa= .5 * 3 * 4 = 6cm²
 
 #### Terminology
 
@@ -15,6 +19,8 @@ The area of a triangle is the total enclosed space on the two-dimensional plane 
 
 #### Formula
 __Area = 0.5 * base of the triangle * height of the triangle__
+
+![Triangle](http://www.mathportal.org/calculators/plane-geometry-calculators/triangleEquilateral.gif)
 
 For example in the image above,
 
