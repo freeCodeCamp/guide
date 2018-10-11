@@ -63,7 +63,8 @@ function swap(A, x, y) {
     A[y] = temp;
 }
 ```
-### SELECTION SORT IN  PYTHON...........
+
+Here is an implementation in Python:
 ``` python
 A = [5,6,8,7,1]
 
