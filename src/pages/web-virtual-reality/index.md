@@ -31,6 +31,7 @@ This section contains articles related to Virtual Reality Application Developmen
 * Being inside a Van Gogh painting - https://gfycat.com/SimpleImaginaryIberianmidwifetoad 
 
 ## A few companies making tools for VR on the Web
+
 * Scapic - https://scapic.com
 * Vizor - https://site.vizor.io/
 * Mirra - https://mirra.co/
