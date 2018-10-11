@@ -44,6 +44,30 @@ and is displayed as:
 - Fuji
 - Gala
 
+## Styling Bulletpoints
+
+An ordered list can be used for a variety of functions and in a number of styles. Since changing the encompassing tag colors doesn't change the color of the bullets themselves, you can style them by first removing the traditional black bullets and inserting your own:
+
+Remove bullets:
+```CSS
+ul {
+  list-style: none; 
+  }
+```
+
+Insert your own:
+```CSS
+ul li::before {
+  content: "\2022";
+  color: orange;
+  display: inline-block;
+  width: 1em;
+  }
+```
+
+The content style adds a new bulletpoint while display and width style create a space between the bullet and the word. Regular font styles can apply here if you would like to make the bullet larger or bolder.
+
+
 
 ## Description lists
 
