@@ -57,9 +57,9 @@ If right > l:
 * <a href='https://en.wikipedia.org/wiki/Merge_sort' target='_blank' rel='nofollow'>Wikipedia</a>
 * <a href='www.geeksforgeeks.org/merge-sort' target='_blank' rel='nofollow'>GeeksForGeeks</a>
 * <a href='https://youtu.be/sWtYJv_YXbo' target='_blank' rel='nofollow'>Merge Sort - CS50</a>
-```
 
 ### Implementations
+
 * <a href='./sort.c' target='_blank' rel='nofollow'>C</a>
 * <a href='./sort.cpp' target='_blank' rel='nofollow'>C++</a>
 * <a href='./sort.js' target='_blank' rel='nofollow'>Javascript</a>
