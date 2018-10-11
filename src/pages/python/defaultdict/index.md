@@ -1,6 +1,7 @@
 ---
 title: Python defaultdict
 ---
+## Python defaultdict
 
 Dictionary is one of the most used data structures in Python. 
 A dictionary is an unordered collection of items and we usually have keys and values stored in a dictionary.
