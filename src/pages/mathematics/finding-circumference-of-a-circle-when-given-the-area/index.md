@@ -3,15 +3,15 @@ title: Finding Circumference of a Circle When Given the Area
 ---
 ## Finding Circumference of a Circle When Given the Area
 
-###### What is circumference?
+##### What is circumference?
   The length of enclosing boundary of a curved geometric figure.
 <hr>
 
-###### What is area?
+##### What is area?
   Area is measure of how much space there is on a flat surface.
   
 ### Question: Find circumference of circle when area of circle is given?
-###### Steps:
+##### Steps:
 + area of circle = &pi; &times; r<sup>2</sup>, so we shall find radius of circle from with this formulae.
 + circumference of circle = 2 &times; &pi; r, and put radius in this formulae to calculate circumference.
 
