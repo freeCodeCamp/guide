@@ -66,6 +66,10 @@ title: Books to Read for Programmers
 - [Amazon Smile](https://smile.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628/)
 - ISBN-13: 978-0131103628
 
+*A Book on C: Programming in C*
+- [Amazon](https://www.amazon.com/Book-Programming-4th-Al-Kelley/dp/0201183994/ref=cm_cr_arp_d_bdcrb_top?ie=UTF8)
+- ISBN-13: 978-0201183993
+
 ## Coding Interview
 
 *Cracking the Coding Interview: 150 Programming Questions and Solutions*
