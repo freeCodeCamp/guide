@@ -92,7 +92,8 @@ For loops are for when we want something to run a set number of times.
 
 ### Syntax
 ```
-for ( init; condition; increment ) {
+for(initialisation; condition; changer)
+{
    statement(s);
 }
 ```
