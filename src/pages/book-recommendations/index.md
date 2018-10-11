@@ -56,6 +56,10 @@ title: Books to Read for Programmers
 - [Amazon Smile](https://smile.amazon.com/Head-First-Java-Kathy-Sierra/dp/0596009208)
 - ISBN-13: 978-0596009205
 
+*Effective Java by Joshua Bloch*
+- [Amazon Smile](https://smile.amazon.com/Effective-Java-3rd-Joshua-Bloch/dp/0134685997)
+- ISBN-13: 978-0134685991
+
 *Programming Pearls (2nd Edition) by Jon Bentley*
 - [Amazon Smile](https://smile.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880)
 - ISBN-13: 978-0201657883
