@@ -1,6 +1,7 @@
 ---
 title: Hard Drives
 ---
+
 ## Hard Drives
 
 Hard drives are permanent storage devices for computers. There are several types of hard drives: traditional magnetic disks, new-generation, solid-state disks or hybrid disks which contain both SSD and magnetic storage.
@@ -17,7 +18,9 @@ Hard drives retrieve and store data from applications at the request of the CPU.
 
 Hard drive performance is measured primarily by two key metrics 1) response time, which is how long it takes a read or write operation to complete and 2) IOPS which is an acronym for 'Input / Output Operations per Second'. As the name would suggest, IOPS is a measurement of the maximum IO operations in one second. The primary factor in achieving maximum IOPS at the lowest response time is the hard drive's rotational speed measured in revolutions per minute (RPM). Common rotational speeds are 5,400 RPM, 7,200 RPM, 10,000 RPM and 15,000 RPM (commonly notated as 5.4K, 7.2K, 10K and 15K). Hard drives with higher rotational rates RPM's) will have more platter real estate pass beneath the heads for IO operations (reads and writes). Hard drives with lower RPM rotational rates will have much higher mechanical latencies, as less real estate passes beneath the heads.
 
-Hard drives tend to be categorized by use case (capacity or performance). Home PC's and general use office workstations tend to use slower rotating hard drives (5.4K and 7.2K) which is fine for storing pictures and office files. However large databases that support online banking transactions for instance, use the faster 10K and 15K RPM hard drives as they'll be components in an enterprise server or storage array. There's a tradeoff between a hard drive's performance and capacity, however. For instance, the largest capacity 15K hard drive available today is only 600 GB, whereas the largest capacity hard drive for the both 5.4K and 7.2K RPM is 10 TB. The 600 GB 15K drive is capable of 250 IOPS @ 3 ms response time (averages). Whereas the 10 TB 7.2K TB drive does not measure IOPS at a given response time, as it's not optimized nor intended for IOPS centric performance use cases. There are also other tradeoffs in price per GB, energy consumed and size (2.5" vs 3.5" inches).
+One simple tool for measuring hard drive performance metrics is called IOMeter (see link below).  The program is very lightweight and easy to install.  Once it is up and running, several different variations of workloads can be run to simulate data reads & writes to the disk.  This data is analyzed and outputs metrics for read/write times, IOPS, as well as other useful metrics.  Tests can be saved for consistent checks, and the data can easily be parsed in a table or graph form.
+
+Hard drives tend to be categorized by use case (capacity or performance). Home PC's and general use office workstations tend to use slower rotating hard drives (5.4K and 7.2K) which is fine for storing pictures and office files.  However large databases that support online banking transactions for instance, use the faster 10K and 15K RPM hard drives as they'll be components in an enterprise server or storage array. There's a tradeoff between a hard drive's performance and capacity, however.  For instance, the largest capacity 15K hard drive available today is only 600 GB, whereas the largest capacity hard drive for the both 5.4K and 7.2K RPM is 10 TB. The 600 GB 15K drive is capable of 250 IOPS @ 3 ms response time (averages).  Whereas the 10 TB 7.2K TB drive does not measure IOPS at a given response time, as it's not optimized nor intended for IOPS centric performance use cases. There are also other tradeoffs in price per GB, energy consumed and size (2.5" vs 3.5" inches).
 
 Computers store data and files on hard drives for later use. Because hard drives have moving parts, it takes much longer to read a file from a hard drive than from RAM or cache memory on the CPU. You can think of a hard drive as a filing cabinet: a place to store things that we aren't using right now, but need later. You don't have enough room on your desk for all your papers, so you store things you aren't using right now in the filing cabinet. A computer does just this. It keeps files it is using right now in RAM, and files it might need later stay on the hard drive. Though RAM has access and response times that are two orders of magnitude faster when compared to hard drives, their typical capacity is 1-2 orders of magnitude less that a typical hard drive. You can fit reams of paper in the filing cabinet, but only a few on your desk.
 
@@ -25,8 +28,9 @@ Data stored in RAM is said to be fleeting whereas data written out to a hard dri
 
 #### More Information:
 
-* [Wikipedia—Hard Disk Drive](https://en.wikipedia.org/wiki/Hard_disk_drive)
-* [Wikipedia—Flying Height](https://en.wikipedia.org/w/index.php?title=Flying_height&oldid=708071111)
-* [Wikipedia—Computer data storage](https://en.wikipedia.org/wiki/Computer_data_storage)
-* [SSD vs. HDD: What's the Difference?](https://www.pcmag.com/article2/0,2817,2404258,00.asp)
-* [SSD vs. HDD](https://www.digitaltrends.com/computing/solid-state-drives-vs-hard-disk-drives)
+* [Wikipedia - Hard Disk Drive](https://en.wikipedia.org/wiki/Hard_disk_drive)
+* [Wikipedia - Flying height](https://en.wikipedia.org/wiki/Flying_height)
+* [Wikipedia - Computer data storage](https://en.wikipedia.org/wiki/Computer_data_storage)
+* [PCMag - SSD vs. HDD: What's the Difference?](https://www.pcmag.com/article2/0,2817,2404258,00.asp)
+* [Digital Trends - SSD vs. HDD](https://www.digitaltrends.com/computing/solid-state-drives-vs-hard-disk-drives)
+* [IOMeter Project](http://www.iometer.org)
