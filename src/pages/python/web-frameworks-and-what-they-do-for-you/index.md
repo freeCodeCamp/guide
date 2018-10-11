@@ -38,10 +38,22 @@ Some well-known sites that use Django include the Public Broadcasting Service, I
 
 ### Flask
 
+Flask is a lightweight WSGI web application and a micro framework which it's classified as a microframework because it does not require particular tools or libraries. It is designed to make getting started quick and easy, with the ability to scale up to complex applications. However, Flask supports extensions that can add application features as if they were implemented in Flask itself. Extensions exist for object-relational mappers, form validation, upload handling, various open authentication technologies and several common framework related tools. Extensions are updated far more regularly than the core Flask program. Flask is commonly used with MongoDB (NOSQL DataBase) which allows it more control over databases and history.
+
+It began as a simple wrapper around Werkzeug and Jinja and has become one of the most popular Python web application frameworks.
+
+Flask offers suggestions, but doesn't enforce any dependencies or project layout. It is up to the developer to choose the tools and libraries they want to use. There are many extensions provided by the community that make adding new functionality easy.
+
 Flask was made in 2004 by an international group of Pythonists called 'Pocoo', as an April Fools joke which was later made into a 'real' thing. According to Wikpedia, it was the most used Python web framework on Github. It is a free and open-source micro-framework written in Python ([view on GitHub](https://github.com/freeCodeCamp/guide/tree/master/src/pages/javascript)). As the Wikipedia states, 
 
-> it [Flask] is classified as a microframework because it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions.
+Flask is classified as a microframework because it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions.
 
 Flask is very much a 'batteries not included' framework, compared to something like Django. This means you need to install modules such as user authentication, forms, and other things yourself. It's not to say that Flask isn't made for those things, simply that they aren't included and those modules are made by the community. Flask also has extensive, detailed documentation available at http://flask.pocoo.org/docs/. It provides simplicity and more control over smaller things. You won't have functionality that isn't being used, as you can choose what is added and what isn't. 
 
 Sites that use Flask include Pinterest! (which moved from Django), Twilio's private API's (they even made an extension called Flask-RESTful for API's), and Netflix (which uses ScriptFlask, a tool based on Flask)
+
+### Bottle
+
+Bottle is a Python micro framework that allows users to quickly get up and running with a Python web application.  It is a lot more lightweight than something more fully featured such as Django, and has no third-party dependencies relying only on the Python standard library.
+
+This makes it perfect for small web applications where some of the more advanced features of Django such as authentication, or database access would not be required.
