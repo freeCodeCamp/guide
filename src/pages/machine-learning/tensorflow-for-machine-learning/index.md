@@ -10,6 +10,6 @@ Tensorflow allows users to create dataflow graphs. These are structures that des
 Tensorflow allows developers to concentrate more on the logic of the application than getting stuck in the complex algorithms or figuring out the most optimal way to implement those algorithms. While creating a Deep Network, it can also become tedious to determine which node needs to be connected to which. Tensorflow makes it easier to make connections between the layers. Thus, it becomes easier for the developers to concentrate more on making the application better.
 
 #### More Information:
-[TensorFlow](https://www.tensorflow.org)
-[TensorFlow GitHub Repository](https://github.com/tensorflow)
-[Wikipedia—TenworFlow](https://en.wikipedia.org/wiki/TensorFlow)
+* [TensorFlow](https://www.tensorflow.org)
+* [TensorFlow GitHub Repository](https://github.com/tensorflow)
+* [Wikipedia—TenworFlow](https://en.wikipedia.org/wiki/TensorFlow)
