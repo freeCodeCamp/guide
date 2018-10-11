@@ -195,6 +195,5 @@ title: Books to Read for Programmers
 
 
 This list was compiled from multiple suggestion threads on Reddit and Stackoverflow. 
-=======
 
 Please feel free to add more that you have found useful!
