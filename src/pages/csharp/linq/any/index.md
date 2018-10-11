@@ -4,11 +4,14 @@ title: Any
 
 # Any
 
-Returns true if any element in the sequence satisfies a condition
+Returns true if there is at least one element that matches the predicate.
+When using an empty predicate (just .Any() without anything between the parantheses) it will return true if the collection is not empty.
 
 ### Signature
+
 ```csharp
-Enumerable.Any<TSource> Method (IEnumerable<TSource>, Func<TSource, Boolean>)
+public static bool Any<TSource>(this IEnumerable<TSource> source);
+public static bool Any<TSource>(this IEnumerable<TSource> source, Func<TSource, bool> predicate);
 ```
 
 ## Example
@@ -27,4 +30,8 @@ var anyFruitGreaterThanTwenty = fruits.Any(f => f.Quantity > 20); // true
 
 // Any Fruit with color Green
 var anyGreen = fruits.Any(f => f.Color == "Green"); // false
+
+var hasFruits = fruits.Any(); // true
+
+var hasYellowFruit = fruits.Any(f => f.Color == "Yellow"); // true
 ```
