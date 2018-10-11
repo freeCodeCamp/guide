@@ -1,6 +1,7 @@
 ---
 title: Pass Arguments to Avoid External Dependence in a Function
 ---
+
 ## Pass Arguments to Avoid External Dependence in a Function
 
 ### Method
@@ -23,5 +24,4 @@ function incrementer (value) {
 
 var newValue = incrementer(fixedValue); // Should equal 5
 console.log(fixedValue); // Should print 4
-
 ```

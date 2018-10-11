@@ -34,6 +34,16 @@ HSLA color values are an extension of HSL color values with an alpha channel - w
 An HSL color value is specified with: hsl(hue, saturation, lightness).
 An HSLA color value is similar, with the alpha value in last position: hsla(hue, saturation, lightness, alpha)
     
+### CMYK
+
+CMYK colors is a combination of CYAN, MAGENTA, YELLOW , and BLACK. Computer screens display colors using RGB color values. Printers often presents colors using CMYK color values.
+CMYK is not supported in HTML, but it is suggested as a new standard in CSS4.
+
+Example colors:
+  CMYK Red: cmyk(0%, 100%, 100%, 0%)
+  CMYK Green: cmyk(100%, 0%, 100%, 0%)
+  CMYK Blue: cmyk(100%, 100%, 0%, 0%)
+
 ### Hexcodes
 Hexcode, short for hexadecimal code, is a way to express a color value to your computer. It is named this way because 16 unique symbols can be used as values. In this case, the numbers 0 to 9 and letters a to f are used.
 
@@ -81,7 +91,7 @@ h2 {
 }
 ```
 
-You can also add an alpha value, or transparency to colors. Transparency allows text to be overlaid on an image and stil have the image partially viewable trhough the text, or can be used to change the shade of the colour if no other elements are in front or behind the text. Use `rgba()` or `hsla()` and fill in your color values. The alpha value goes last and is a percent converted to a decimal. (For example, 20% is 0.2, 75% is 0.75, etc.)
+You can also add an alpha value, or transparency to colors. Transparency allows text to be overlaid on an image and stil have the image partially viewable through the text, or can be used to change the shade of the colour if no other elements are in front or behind the text. Use `rgba()` or `hsla()` and fill in your color values. The alpha value goes last and is a percent converted to a decimal. (For example, 20% is 0.2, 75% is 0.75, etc.)
 
 ```css
 body {

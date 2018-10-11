@@ -20,7 +20,7 @@ class MyClass {
 }
 ```
 
-## Spolier
+## Spoiler
 
 
 ```jsx

@@ -1,8 +1,16 @@
 ---
 title: Geometry
 ---
-Geometry  is a branch of mathematics concerned with questions of shape, size, relative position of figures, and the properties of space. A mathematician who works in the field of geometry is called a geometer.
-While geometry has evolved significantly throughout the years, there are some general concepts that are more or less fundamental to geometry. These include the concepts of points, lines, planes, surfaces, angles, and curves, as well as the more advanced notions of manifolds and topology or metric and they apply to one dimension (a line) 2 dimensions (a plan) 3 or even more. 
 
-Representing figures in geometry allows to use several memmes or theorems like the ones of Pytagoras or Thales
+## Geometry
 
+Geometry is the study of shapes and the space they exist in. This can be discussed in size, position, and properties of the shape. There are many subfields of geometry:
+
+Euclidean geometry: The study of points, lines, planes, angles, triangles, congruence, similarity, solid figures, and circles.
+Differential geometry: The use of calculus and linear algebra to study problems in geometry. 
+Topology: The study of properties of objects that are unchanged by continuous mappings.
+Convex geometry: The study of convex shapes in Euclidean space and abstract analogues.
+Algebraic geometry: The study of geometry through the use of multivariate polynomials and other techniques. 
+Discrete geometry: The study of the relative position of simple geometric objects, such as points, lines and circles. 
+
+#### More Information

@@ -95,6 +95,21 @@ To convert `arguments` into an array use this code `var args = Array.prototype.s
 *   <a href='http://forum.freecodecamp.com/t/javascript-array-prototype-slice/14302' target='_blank' rel='nofollow'>Array.slice()</a>
 *   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes' target='_blank' rel='nofollow'>Array.includes()</a>
 
+## Advanced Code Solution:
+
+```javascript
+const destroyer = (arr, ...args) => arr.filter(i => !args.includes(i));
+```
+
+### Code Explanation:
+
+*  Code using ES6 syntax to declare function using arrow functions.
+*  Using spread operator to retrieve the arguments.
+*  Return the filtered array, using `includes()`.
+
+#### Relevant Links
+* [Spread Operator](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Spread_operator)
+
 ## ![:clipboard:](https://forum.freecodecamp.com/images/emoji/emoji_one/clipboard.png?v=3 ":clipboard:") NOTES FOR CONTRIBUTIONS:
 
 *   ![:warning:](https://forum.freecodecamp.com/images/emoji/emoji_one/warning.png?v=3 ":warning:") **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
