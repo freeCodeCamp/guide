@@ -33,7 +33,7 @@ There are several different elements of the video tag, many of these explanation
 
 #### autoplay
 
-"autoplay" can be set to either true or false. You set it to true by adding it into the tag, if it is not present in the tag it is set to false. If set to true, the video will begin playing as soon as enough of the video has buffered for it to be able to play. Many people find autoplaying videos as disruptive or annoying so use this feature sparingly. Also note, that some mobile browsers, such as Safari for iOS, ignore this attribute.
+"autoplay" can be set to either true or false. You set it to true by adding it into the tag, if it is not present in the tag it is set to false. If set to true, the video will begin playing as soon as enough of the video has buffered for it to be able to play. Many people find autoplaying videos as disruptive or annoying so use this feature sparingly. Also note, that some mobile browsers, such as Safari for iOS, ignore this attribute and <a href="https://developers.google.com/web/updates/2017/09/autoplay-policy-changes">Chrome has changed its autoplay policies since April 2018.</a>
 
 ```html
     <video autoplay>
