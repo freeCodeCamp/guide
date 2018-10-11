@@ -3,7 +3,7 @@ title: C++
 ---
 # Hello World! - Your First C++ Program
 
-## What is C++  ?
+## What is C++?
 
 * C++ is a general purpose programming language which has been used since the 1990's
 * It was designed by Bjarne Stroustrup under with the name "C with classes".
@@ -16,8 +16,8 @@ _source: Github_
 ### Your First Program in C++
 
 ```cpp
-#include<iostream>
-using namespace std ;
+#include <iostream>
+using namespace std;
 int main()
 {
     cout << "Hello World" << endl;
@@ -92,11 +92,11 @@ _You have finished coding your first C++ program and have understood most of the
  
  **Feel free to ask any questions on FreeCodeCamp's GitHub page or [FreeCodeCamp's Forum.](https://forum.freecodecamp.org/)**
 
- <a href='https://repl.it/L4k3' target='_blank' rel='nofollow'>Try it yourself ! :) </a>
+ [Try it yourself ! :)](https://repl.it/L4k3)
 
 **You may need some software to write and execute C++ code. I recommend using CodeBlocks. There's a download link below :**
 
-Download Link : <a href='http://www.codeblocks.org/downloads/26' target='_blank' rel='nofollow'>Download Here</a>
+Download Link : [Download Here](http://www.codeblocks.org/downloads/26)
 
 * Click the link with the GNU/GCC compiler for windows. This will not require an additional installation
 

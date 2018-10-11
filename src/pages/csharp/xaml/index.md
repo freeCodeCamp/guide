@@ -1,5 +1,5 @@
 ---
-title: XAML
+title: Xaml
 ---
 
 ## XAML: Extensible Application Markup Language
