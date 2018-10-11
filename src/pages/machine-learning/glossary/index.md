@@ -32,6 +32,7 @@ If the output value 'y' is a discrete / categorical value then the function is a
 - **Clustering** - Grouping of unlabelled data. Identifying patterns using statistics.
 - **Dimensionality Reduction** - Reducing the number of random variables in the data to get more accurate predictions.
 
+-  **Random forests**- Random forests or random decision forests are an ensemble learning method for classification,                                regression and other tasks, that operate by constructing a multitude of decision trees at training                            time and outputting the class that is the mode of the classes or mean prediction of the individual                            trees. 
 ### More Information:
 
 - [Glossary of Terms - Robotics](http://robotics.stanford.edu/~ronnyk/glossary.html)

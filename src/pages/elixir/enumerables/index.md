@@ -23,5 +23,5 @@ iex> Enum.map([5, 10, 15, 20], fn(x) -> x * 2 end)
 ```
 
 #### More Information:
-* [elixir-lang.org | recursion](https://elixir-lang.org/getting-started/recursion.html)
+* [elixir-lang.org | recursion](https://elixir-lang.org/getting-started/enumerables-and-streams.html)
 * [hexdocs | Enum](https://hexdocs.pm/elixir/Enum.html)
