@@ -634,7 +634,7 @@ If you feel you have more to add, please feel free to open up a new PR.
 
 Thanks again! 😊
 
----
+----
 
 > If you have any questions, feel free to reach out through [Gitter](https://gitter.im/FreeCodeCamp/Contributors) or by commenting below. 💬
 ```
