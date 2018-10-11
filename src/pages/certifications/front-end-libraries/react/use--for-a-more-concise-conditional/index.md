@@ -9,6 +9,8 @@ You don't have to do a full ```if/then``` statement. Just write the condition yo
 
 ## Solution:
 
+As you can see, you don't have to write the full ```if/then``` statement. We only need to check the condition and see if it returns ```true``` or ```false```. In this case, we are checking the value of ```display```. If the value is ```true```, then you return the value to the right of ```&&```, which is ```<h1>Displayed!</h1>```. If the condition is ```false```, it returns nothing.
+
 ```jsx
 class MyComponent extends React.Component {
   constructor(props) {
