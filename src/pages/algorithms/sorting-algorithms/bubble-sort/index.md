@@ -135,6 +135,53 @@ void bubblesort(int arr[], int n)
 	
 	bubblesort(arr,n-1);	//Recursion for remaining array
 }
+
+A C function of bubble sort without recursion
+
+#include<stdio.h>
+
+
+int main()
+{
+int a[100],s,i,t,j;
+
+
+printf("\nEnter number of elements	-	");
+scanf("%d",&s);
+
+for(i=0;i<s;i++)
+{
+printf("\nEnter element %d	-	",i+1);
+scanf("%d",&a[i]);
+}
+
+
+
+for(i=0;i<s;i++)
+{
+
+for(j=0;j<s-1-i;j++)
+{
+
+if(a[j]>a[j+1])
+{
+t=a[j];
+a[j]=a[j+1];
+a[j+1]=t;
+}
+
+}
+
+}
+printf("\n\nUpdated Array (Asc. order) :- \n");
+
+for(i=0;i<s;i++)
+printf("%d  ",a[i]);
+
+
+
+return 0;
+}
 ```
 ### More Information
 <!-- Please add any articles you think might be helpful to read before writing the article -->
