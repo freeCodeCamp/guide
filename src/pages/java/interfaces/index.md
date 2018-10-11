@@ -46,7 +46,7 @@ Vehicle tesla = new Car();
 tesla.start(); // starting engine ...
 ```
 
-But, you **cannot** create an instance of an Interface itself. You must create an instance of some class implementing an Interface to reference it. Think of interfaces as a blank contract form, or a template.
+An Interface **can not** contain a constructor methods,therefore,you **can not** create an instance of an Interface itself. You must create an instance of some class implementing an Interface to reference it. Think of interfaces as a blank contract form, or a template.
 
 What can you do with this feature? Polymorphism! You can use only interfaces to refer to object instances!
 
