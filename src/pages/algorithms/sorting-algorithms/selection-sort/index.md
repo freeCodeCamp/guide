@@ -63,6 +63,18 @@ function swap(A, x, y) {
     A[y] = temp;
 }
 ```
+### SELECTION SORT IN  PYTHON...........
+``` python
+A = [5,6,8,7,1]
+
+for i in range(len(A))
+    min_idx = i
+    for j in range(i+1, len(A)):
+        if A[min_idx] > A[j]:
+            min_idx = j
+                     
+    A[i], A[min_idx] = A[min_idx], A[i]
+  ```
 
 ### Implementation in Python
 ```python
@@ -93,3 +105,6 @@ def seletion_sort(arr):
 
 * [Wikipedia](https://en.wikipedia.org/wiki/Selection_sort)
 * [KhanAcademy](https://www.khanacademy.org/computing/computer-science/algorithms#sorting-algorithms)
+
+
+ 
